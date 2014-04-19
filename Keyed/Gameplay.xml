@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <!-- Various -->
+  <WorkLeft>剩余工作</WorkLeft>
+  <Contents>内容</Contents>
+  <ForPrisonerUse>仅限囚犯使用</ForPrisonerUse>
+  <ForColonistUse>仅限殖民者使用</ForColonistUse>
+  <Owner>主人</Owner>
+  <Nobody>无</Nobody>
+  <Unowned>没有主人</Unowned>
+  <GunInstalled>已安装</GunInstalled>
+  <DeadTime>死掉的{0}</DeadTime>
+  <WalkSpeed>行走速度{0}</WalkSpeed>
+  <DyingLower>接近死亡</DyingLower>
+  <PawnEffectiveness>效率</PawnEffectiveness>
+  <FilthOnFeet>脚上的污物:</FilthOnFeet>
+  <Food>食物</Food>
+  <Rest>休息</Rest>
+
+	<!-- Job reports -->
+	<ReportHaulingTo>把{1}搬到{0}。</ReportHaulingTo>
+	<ReportHauling>搬动{0}中。</ReportHauling>
+
+	<!-- Shooting report -->
+	<RangeSlashSkill>距离/技能</RangeSlashSkill>
+	<RangeSlashEquipment>距离/装备</RangeSlashEquipment>
+	<Darkness>黑暗</Darkness>
+	<TargetProne>目标动作</TargetProne>
+	<TargetSize>目标大小</TargetSize>
+	<Weather>天气</Weather>
+	<ShootingCover>掩体</ShootingCover>
+	<CoverThingBlocksPercentOfShots>{0}阻止了{1}</CoverThingBlocksPercentOfShots>
+	<NoCoverLower>没有掩体</NoCoverLower>
+	
+	
+	<!-- Thoughts -->
+  <Loyalty>忠诚值</Loyalty>
+  <Happiness>幸福值</Happiness>
+  <Fear>恐惧值</Fear>
+  <ThoughtExpiresIn>消逝时间:{0}</ThoughtExpiresIn>
+  <ThoughtStartsExpiringIn>消逝开始时间:{0}</ThoughtStartsExpiringIn>
+  <ThoughtFinishesExpiringIn>消逝结束时间:{0}</ThoughtFinishesExpiringIn>
+  
+  <!--Effectiveness-->
+  <EffectivenessFull>完整的</EffectivenessFull>
+  <EffectivenessReduced>降低的</EffectivenessReduced>
+  <EffectivenessImpaired>受损的</EffectivenessImpaired>
+  <EffectivenessIncapacitated>残缺的</EffectivenessIncapacitated>
+
+  <!-- Time indicator-->
+  <ClockDay>天</ClockDay>
+  <ClockTime>时间</ClockTime>
+  <ClockTip>自从你到达后的天数和时间。</ClockTip>
+  
+  <!-- Inspector -->
+  <Health>生命</Health>
+  <Faction>派系</Faction>
+  <Equipped>已装备</Equipped>
+  <EquippedNothing>无</EquippedNothing>
+  <Incapacitated>无法行动</Incapacitated>
+  <InRestraints>被关押(速度减慢)</InRestraints>
+  <SelectNextInSquareTip>选择同一个方块里的下一件东西。\n\n你也可以慢速重复点击同一个方块。</SelectNextInSquareTip>
+
+  <!-- ITab titles -->
+  <TabBills>清单</TabBills>
+  <TabGrowing>生长中</TabGrowing>
+  <TabCharacter>角色</TabCharacter>
+  <TabNeeds>需求</TabNeeds>
+  <TabPrisoner>囚犯</TabPrisoner>
+  <TabThoughts>想法</TabThoughts>
+  <TabStorage>贮存</TabStorage>
+  
+	<!-- ITabs -->
+	<AddBill>增加清单</AddBill>
+	<RecipeRequiresSkills>配方{0}需要以下技能。你没有任何殖民者拥有这些技能，所以没人会完成这份清单。</RecipeRequiresSkills>
+	<BillConfig>设置</BillConfig>
+	<SuspendedCaps>已暂停</SuspendedCaps>
+	<PlantVerb>种植</PlantVerb>
+	<RecruitmentDifficulty>招募难度</RecruitmentDifficulty>
+	<PrisonerGetsFood>得到食物</PrisonerGetsFood>
+	<ShouldTryToRecruit>尝试招募</ShouldTryToRecruit>
+	<PrisonerNoInteraction>不互动</PrisonerNoInteraction>
+	<PrisonerFriendlyChat>友好交谈</PrisonerFriendlyChat>
+	<PrisonerMildBeating>轻微殴打</PrisonerMildBeating>
+	<PrisonerViciousBeating>残忍殴打</PrisonerViciousBeating>
+	<PrisonerExecution>处决</PrisonerExecution>
+
+	<!-- like 'Blood of John' -->
+	<OfLower>来自</OfLower>
+
+	<!-- Power readout -->
+	<PowerNotConnected>未连接电网。</PowerNotConnected>
+	<PowerConnectedRate>电网功率: {0}W</PowerConnectedRate>
+	<PowerConnectedStored>电网蓄电: {0}Wd</PowerConnectedStored>
+	
+	<!--Rotting-->
+	<RotStateFresh>新鲜</RotStateFresh>
+	<RotStateRotting>腐烂中</RotStateRotting>
+	<RotStateDessicated>干燥</RotStateDessicated>
+	
+  <!-- Tooltip -->
+  <Carrying>携带</Carrying>
+  <ShotBy>被{0}击中</ShotBy>
+  <CannotHit>无法击中目标。</CannotHit>
+
+  <!-- Storage priority labels -->
+  <StoragePriorityUnstored>未贮存</StoragePriorityUnstored>
+  <StoragePriorityLow>低</StoragePriorityLow>
+  <StoragePriorityNormal>普通</StoragePriorityNormal>
+  <StoragePriorityPreferred>偏好</StoragePriorityPreferred>
+  <StoragePriorityImportant>重要</StoragePriorityImportant>
+  <StoragePriorityCritical>关键</StoragePriorityCritical>
+
+  <!-- Meal -->
+  <TimeToSpoil>{0}后腐坏</TimeToSpoil>
+  <Ingredients>配料</Ingredients>
+
+  <!-- Plants -->
+  <PercentGrowth>已生长{0}%</PercentGrowth>
+  <Growing></Growing>
+  <NotGrowingNow>不在生长(需要在{0}的条件下)</NotGrowingNow>
+  <HarvestableIn>{0}后可以收获</HarvestableIn>
+  <FullyGrownIn>{0}后长成</FullyGrownIn>
+  <ReadyToHarvest>待收获</ReadyToHarvest>
+  <Mature>成熟</Mature>
+  
+  <!-- Zones -->
+  <Zone>区域</Zone>
+  <GrowingZone>种植区</GrowingZone>
+  <Stockpile>贮存区</Stockpile>
+  <DumpingStockpile>垃圾贮存区</DumpingStockpile>
+  <SellingStockpile>交易贮存区</SellingStockpile>
+  <Priority>优先度</Priority>
+
+  <!-- General time stuff -->
+  <DaysLower>天</DaysLower>
+  <SecondsLower>秒</SecondsLower>
+  
+  <!-- Mouseover indicator -->
+  <Undiscovered>未发现</Undiscovered>
+  
+  <!-- Buttons -->
+  <ZoneVisibilityToggleButton>切换区域的可见性。</ZoneVisibilityToggleButton>
+  
+  <!-- Fire -->
+  <Fire>火焰</Fire>
+  <FireOn>{0}上的火焰</FireOn>
+  <Burning>燃烧中</Burning>
+  <FireSizeLower>火焰大小:{0}</FireSizeLower>
+  
+</LanguageData>
