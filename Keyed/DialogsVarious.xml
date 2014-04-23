@@ -18,16 +18,20 @@
   <LoadingLongEvent>载入中……</LoadingLongEvent>
   
   
-
+  <!-- Colony naming-->
   <NameColonyMessage>大家都知道你不想永远呆在这块石头上。但{0}建议你还是应该给你的殖民地起个名字。\n\n它叫什么比较好？</NameColonyMessage>
   <ColonyGainsName>这个殖民地现在被称为{0}。</ColonyGainsName>
   <ColonyNameIsInvalid>这个殖民地名无效。</ColonyNameIsInvalid>
 
+  <!-- Zone naming -->
   <ZoneGainsName>这个区域现在被称为{0}。</ZoneGainsName>
   <ZoneNameIsInvalid>请输入一个有效的区域名称。</ZoneNameIsInvalid>
 
+  <!-- Save game incompatible warning -->
+  <SaveGameIncompatibleWarningText>版本不匹配: 存档版本为{0}，当前游戏版本为{1}。\n\n 读取这个存档很可能会造成游戏崩溃或产生游戏BUG。</SaveGameIncompatibleWarningText>
+  <SaveGameIncompatibleWarningTitle>游戏存档不兼容</SaveGameIncompatibleWarningTitle>
 
-  <!-- Res change dialog -->
+  <!-- Resolution change dialog -->
   <ConfirmResolutionChange>你已经改变了你当前的分辨率。目前游戏显示是否正常？\n\n将在{0}秒后恢复原始设置……</ConfirmResolutionChange>
   <ResolutionKeep>保持</ResolutionKeep>
   <ResolutionRevert>恢复</ResolutionRevert>
@@ -63,18 +67,20 @@
   <DoXTimes>做X次</DoXTimes>
   <DoUntilYouHaveX>做直到拥有X个</DoUntilYouHaveX>
   <DoForever>永远做下去</DoForever>
+  <BillRepeatTargetCountShort>到{0}</BillRepeatTargetCountShort>
   
   
   <!-- Trade -->
   <TradeGoodsNearBeaconLesson>若想把物品或银石用来交易，你必须在户外建造一个轨道交易信标并且在它附近放置一个拥有物品的贮藏区。</TradeGoodsNearBeaconLesson>
   <YourTradeableSilver>当前可用于交易的银石: {0}</YourTradeableSilver>
+  <YourTradeableSilverTip>你只能使用轨道交易信标附近而且顶上没有屋顶的银石用来交易。</YourTradeableSilverTip>
 
   <!-- Comms -->
   <SocialSkillIs>社交技能: {0}</SocialSkillIs>
 
-	
-	<!--Other-->
-	<ResearchFinished>完成的研究: {0}</ResearchFinished>
-	<ResearchScreen>研究菜单</ResearchScreen>
+  
+  <!--Other-->
+  <ResearchFinished>完成的研究: {0}</ResearchFinished>
+  <ResearchScreen>研究菜单</ResearchScreen>
 	
 </LanguageData>
