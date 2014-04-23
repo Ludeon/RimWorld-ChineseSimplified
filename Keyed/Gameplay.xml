@@ -15,7 +15,8 @@
   <DyingLower>接近死亡</DyingLower>
   <PawnEffectiveness>效率</PawnEffectiveness>
   <FilthOnFeet>脚上的污物:</FilthOnFeet>
-  
+  <Food>食物</Food>
+  <Rest>休息</Rest>
 
 	<!-- Job reports -->
 	<ReportHaulingTo>把{1}搬到{0}。</ReportHaulingTo>
@@ -33,29 +34,13 @@
 	<NoCoverLower>没有掩体</NoCoverLower>
 	
 	
-  <!-- Status levels -->
+	<!-- Thoughts -->
   <Loyalty>忠诚值</Loyalty>
-  <LoyaltyTip>忠诚值代表一个人在殖民地中的信仰。如果忠诚值太低，一个人可能会自暴自弃，做无理的事甚至直接发疯。\n\n忠诚值等于幸福值或者恐惧值——取决于哪个值更大。</LoyaltyTip>
   <Happiness>幸福值</Happiness>
-  <HappinessTip>幸福值是通过满足心理和身体上的需求来保持的。</HappinessTip>
   <Fear>恐惧值</Fear>
-  <FearTip>恐惧值表示人们对周围环境的恐惧程度。\n\n当见到威胁，残酷的情景或是展示权力时恐惧值就会增加。</FearTip>
-  <Food>食物值</Food>
-  <FoodTip>食物值表示了人们对他们的食物的满意度。\n\n食物值会在吃饭时重置。一段时间后，食物值会继续下降直到他们再度吃饭。食物值为零时，人物会因为饥饿而受到持续伤害。</FoodTip>
-  <Rest>休息值</Rest>
-  <RestTip>休息值表示需要放松或睡觉的程度。\n\n睡觉时休息值会增加到最大。不在睡觉时休息值会随时间降低。</RestTip>
-  <Environment>环境值</Environment>
-  <EnvironmentTip>环境值反映出人物周围环境的优美程度。\n\n人们在宽阔并且充满装饰的房间内环境值会很高。在周围环境很丑陋的情况下环境值会很低。</EnvironmentTip>
-  <Openness>开放性</Openness>
-  
-  
-  <!-- Thoughts -->
   <ThoughtExpiresIn>消逝时间:{0}</ThoughtExpiresIn>
   <ThoughtStartsExpiringIn>消逝开始时间:{0}</ThoughtStartsExpiringIn>
   <ThoughtFinishesExpiringIn>消逝结束时间:{0}</ThoughtFinishesExpiringIn>
-  <MentalBreakThreshold>精神崩溃临界值</MentalBreakThreshold>
-  
-  
   
   <!--Effectiveness-->
   <EffectivenessFull>完整的</EffectivenessFull>
@@ -86,33 +71,28 @@
   <TabThoughts>想法</TabThoughts>
   <TabStorage>贮存</TabStorage>
   
-  <!-- ITabs -->
-  <AddBill>增加清单</AddBill>
-  <RecipeRequiresSkills>配方{0}需要以下技能。你没有任何殖民者拥有这些技能，所以没人会完成这份清单。</RecipeRequiresSkills>
-  <BillConfig>设置</BillConfig>
-  <SuspendedCaps>已暂停</SuspendedCaps>
-  <PlantVerb>种植</PlantVerb>
-  <RecruitmentDifficulty>招募难度</RecruitmentDifficulty>
-  <PrisonerGetsFood>得到食物</PrisonerGetsFood>
-  <ShouldTryToRecruit>尝试招募</ShouldTryToRecruit>
-  <PrisonerNoInteraction>不互动</PrisonerNoInteraction>
-  <PrisonerFriendlyChat>友好交谈</PrisonerFriendlyChat>
-  <PrisonerMildBeating>轻微殴打</PrisonerMildBeating>
-  <PrisonerViciousBeating>残忍殴打</PrisonerViciousBeating>
-  <PrisonerExecution>处决</PrisonerExecution>
+	<!-- ITabs -->
+	<AddBill>增加清单</AddBill>
+	<RecipeRequiresSkills>配方{0}需要以下技能。你没有任何殖民者拥有这些技能，所以没人会完成这份清单。</RecipeRequiresSkills>
+	<BillConfig>设置</BillConfig>
+	<SuspendedCaps>已暂停</SuspendedCaps>
+	<PlantVerb>种植</PlantVerb>
+	<RecruitmentDifficulty>招募难度</RecruitmentDifficulty>
+	<PrisonerGetsFood>得到食物</PrisonerGetsFood>
+	<ShouldTryToRecruit>尝试招募</ShouldTryToRecruit>
+	<PrisonerNoInteraction>不互动</PrisonerNoInteraction>
+	<PrisonerFriendlyChat>友好交谈</PrisonerFriendlyChat>
+	<PrisonerMildBeating>轻微殴打</PrisonerMildBeating>
+	<PrisonerViciousBeating>残忍殴打</PrisonerViciousBeating>
+	<PrisonerExecution>处决</PrisonerExecution>
 
-  <!-- like 'Blood of John' -->
-  <OfLower>来自</OfLower>
+	<!-- like 'Blood of John' -->
+	<OfLower>来自</OfLower>
 
-  <!-- Power readout -->
-  <PowerNotConnected>未连接电网。</PowerNotConnected>
-  <PowerConnectedRate>电网功率: {0}W</PowerConnectedRate>
-  <PowerConnectedStored>电网蓄电: {0}Wd</PowerConnectedStored>
-  <PowerNeeded>需要电力</PowerNeeded>
-  <PowerOutput>电力输出</PowerOutput>
-  <PowerBatteryStored>蓄电</PowerBatteryStored>
-  <PowerBatteryEfficiency>效率</PowerBatteryEfficiency>
-  
+	<!-- Power readout -->
+	<PowerNotConnected>未连接电网。</PowerNotConnected>
+	<PowerConnectedRate>电网功率: {0}W</PowerConnectedRate>
+	<PowerConnectedStored>电网蓄电: {0}Wd</PowerConnectedStored>
 	
 	<!--Rotting-->
 	<RotStateFresh>新鲜</RotStateFresh>
@@ -168,11 +148,5 @@
   <FireOn>{0}上的火焰</FireOn>
   <Burning>燃烧中</Burning>
   <FireSizeLower>火焰大小:{0}</FireSizeLower>
-
-  <!-- Map conditions (eclipse, solar flare, etc )-->
-  <MapConditionsTip>区域正在被特殊情况干扰。</MapConditionsTip>
-  <SolarFlare>太阳耀斑</SolarFlare>
-  <Eclipse>日蚀</Eclipse>
-  
   
 </LanguageData>
