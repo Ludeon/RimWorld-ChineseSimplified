@@ -33,7 +33,7 @@
 	<NoCoverLower>没有掩体</NoCoverLower>
 	
 	
-  <!-- Status levels -->
+    <!-- Status levels -->
   <Loyalty>忠诚值</Loyalty>
   <LoyaltyTip>忠诚值代表一个人在殖民地中的信仰。如果忠诚值太低，一个人可能会自暴自弃，做无理的事甚至直接发疯。\n\n忠诚值等于幸福值或者恐惧值——取决于哪个值更大。</LoyaltyTip>
   <Happiness>幸福值</Happiness>
@@ -67,14 +67,26 @@
   <ClockDay>天</ClockDay>
   <ClockTime>时间</ClockTime>
   <ClockTip>自从你到达后的天数和时间。</ClockTip>
-  
-  <!-- Inspector -->
+
+  <!-- Pawn info readout -->
   <Health>生命</Health>
+  <PawnMainDescWithFactionGendered>来自{2}的{0}{1}</PawnMainDescWithFactionGendered>
+  <PawnMainDescGendered>{0}{1}</PawnMainDescGendered>
+  <PawnMainDescWithFactionGenderless>来自{1}的{0}</PawnMainDescWithFactionGenderless>
+  <PawnMainDescGenderless>{0}</PawnMainDescGenderless>
   <Faction>派系</Faction>
-  <Equipped>已装备</Equipped>
+  <Equipped>装备</Equipped>
   <EquippedNothing>无</EquippedNothing>
   <Incapacitated>无法行动</Incapacitated>
   <InRestraints>被关押(速度减慢)</InRestraints>
+  <Carrying>携带</Carrying>
+  <SanityDazedWander>失常: 迷茫了并正在四处游走</SanityDazedWander>
+  <SanityGiveUpExit>失常: 放弃了并正在离开</SanityGiveUpExit>
+  <SanityPanicFlee>失常: 在混乱中正在逃跑</SanityPanicFlee>
+  <SanityPsychotic>失常: 发疯了并在大肆破坏</SanityPsychotic>
+
+  
+  <!-- Inspector general stuff -->
   <SelectNextInSquareTip>选择同一个方块里的下一件东西。\n\n你也可以慢速重复点击同一个方块。</SelectNextInSquareTip>
 
   <!-- ITab titles -->
@@ -120,7 +132,6 @@
 	<RotStateDessicated>干燥</RotStateDessicated>
 	
   <!-- Tooltip -->
-  <Carrying>携带</Carrying>
   <ShotBy>被{0}击中</ShotBy>
   <CannotHit>无法击中目标。</CannotHit>
 
@@ -171,8 +182,7 @@
 
   <!-- Map conditions (eclipse, solar flare, etc )-->
   <MapConditionsTip>区域正在被特殊情况干扰。</MapConditionsTip>
-  <SolarFlare>太阳耀斑</SolarFlare>
-  <Eclipse>日蚀</Eclipse>
+  
   
   
 </LanguageData>
