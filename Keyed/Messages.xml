@@ -1,42 +1,37 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
-
-	<MessageRaidersLeaving>来自{0}的入侵者离开了。</MessageRaidersLeaving>
-	<MessageRaidersGivenUpLeaving>来自{0}的入侵者放弃并离开了。</MessageRaidersGivenUpLeaving>
+		
+		<MessageRaidersLeaving>来自{1}的{0}离开了。</MessageRaidersLeaving>
+		<MessageRaidersGivenUpLeaving>来自{1}的{0}放弃并离开了。</MessageRaidersGivenUpLeaving>
+		
+		<MessageFightersFleeing>来自{1}的{0}正在逃跑。</MessageFightersFleeing>
+		<MessageFriendlyFightersLeaving>来自{1}的友好{0}离开了。</MessageFriendlyFightersLeaving>
+		
+		<MessageRaidersBeginningAssault>来自{1}的{0}开始了他们的进攻。</MessageRaidersBeginningAssault>
+		<MessageRaidersDetectedEarlyAssault>来自{1}的{0}发现了你并提前开始了进攻。</MessageRaidersDetectedEarlyAssault>
+		
+		<MessageShipHasLeftCommsRange>{0}离开了通讯范围。</MessageShipHasLeftCommsRange>
+		<MessageNeedBeaconToTradeWithShip>你需要一个轨道交易信标才能和飞船交易。</MessageNeedBeaconToTradeWithShip>
 	
-	<MessageShipHasLeftCommsRange>{0}离开了通讯范围。</MessageShipHasLeftCommsRange>
-	
-	<MessageNeedBeaconToTradeWithShip>你需要一个轨道交易信标才能和飞船交易。</MessageNeedBeaconToTradeWithShip>
-	
-  <MessageBillComplete>清单完成: {0}。</MessageBillComplete>
-  
-  <MessageFullyHealed>{0}完全康复了。</MessageFullyHealed>
+		<MessageBillComplete>清单完成: {0}。</MessageBillComplete>
+		<MessageFullyHealed>{0}完全康复了。</MessageFullyHealed>
 
-  <MessageFightersFleeing>来自{0}的战士们正在逃跑。</MessageFightersFleeing>
-
-  <MessageFriendlyFightersLeaving>来自{0}的友好战士们离开了。</MessageFriendlyFightersLeaving>
-
-  <MessageRaidersBeginningAssault>来自{0}的入侵者开始了他们的进攻。</MessageRaidersBeginningAssault>
-
-  <MessageRaidersDetectedEarlyAssault>来自{0}的入侵者发现了你并提前开始了进攻。</MessageRaidersDetectedEarlyAssault>
-
-  <MessagePrisonerIsEscaping>囚犯{0}正在逃跑。</MessagePrisonerIsEscaping>
-
-  <MessageRecruitSuccess>{0}成功招募了{1}(成功率{2})。</MessageRecruitSuccess>
-	<MessageRecruitFail>{0}没能成功招募{1}(成功率{2})。</MessageRecruitFail>
-	<MessageRecruitFailBecauseLoyalty>{0}没能成功招募{1}。(囚犯忠诚值低于最低要求)</MessageRecruitFailBecauseLoyalty>
-	
-
-  <MessageTraderCannotAfford>商人无法支付这笔交易。</MessageTraderCannotAfford>
-  <MessageColonyCannotAfford>殖民地无法支付这笔交易。</MessageColonyCannotAfford>
-  <MessageColonyNotEnoughSilver>可用于交易的银石不足。</MessageColonyNotEnoughSilver>
-  <MessageTraderNotEnoughSilver>商人没有足够的银石。</MessageTraderNotEnoughSilver>
-
-  <MessageCriticalAlert>严重警报: {0}</MessageCriticalAlert>
-
-  <MessageMustDesignateHarvestablePlants>必须指定可以收获的植物。</MessageMustDesignateHarvestablePlants>
-  <MessageMustDesignatePlants>必须指定植物。</MessageMustDesignatePlants>
-  <MessageMustDesignateHaulable>必须指定可以搬运的物品。</MessageMustDesignateHaulable>
-  
+		<MessagePrisonerIsEscaping>囚犯{0}正在逃跑。</MessagePrisonerIsEscaping>
+		
+		<MessageRecruitSuccess>{0}成功招募了{1}(成功率{2})。</MessageRecruitSuccess>
+		<MessageRecruitFail>{0}没能成功招募{1}(成功率{2})。</MessageRecruitFail>
+		<MessageRecruitFailBecauseLoyalty>{0}没能成功招募{1}。(囚犯忠诚值低于最低要求)</MessageRecruitFailBecauseLoyalty>
+		
+		
+		<MessageTraderCannotAfford>商人无法支付这笔交易。</MessageTraderCannotAfford>
+		<MessageColonyCannotAfford>殖民地无法支付这笔交易。</MessageColonyCannotAfford>
+		<MessageColonyNotEnoughSilver>可用于交易的银石不足。</MessageColonyNotEnoughSilver>
+		<MessageTraderNotEnoughSilver>商人没有足够的银石。</MessageTraderNotEnoughSilver>
+		
+		<MessageCriticalAlert>严重警报: {0}</MessageCriticalAlert>
+		
+		<MessageMustDesignateHarvestablePlants>必须指定可以收获的植物。</MessageMustDesignateHarvestablePlants>
+		<MessageMustDesignatePlants>必须指定植物。</MessageMustDesignatePlants>
+		<MessageMustDesignateHaulable>必须指定可以搬运的物品。</MessageMustDesignateHaulable>
   
 </LanguageData>

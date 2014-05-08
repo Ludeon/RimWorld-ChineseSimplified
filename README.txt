@@ -1,17 +1,15 @@
 RimWorld-cn
 Chinese localization for Rimworld
-===========
-See this page for license info:
-http://ludeon.com/forums/index.php?topic=2933.0
-===========
-For Rimworld 0.4.433
+For Rimworld 0.4.435
+
 See branch "Alpha 3" for alpha 3 files.
 
+See this page for license info:
+http://ludeon.com/forums/index.php?topic=2933.0
+======================
 Forum Post:
 http://ludeon.com/forums/index.php?topic=3134.0
-===========
-
+======================
 Things to fix list:
-
-Translate "condition thoughts".
-===========
+Nothing For Now :)
+======================
