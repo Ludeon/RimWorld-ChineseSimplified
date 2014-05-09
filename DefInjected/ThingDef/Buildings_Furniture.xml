@@ -1,34 +1,36 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
-  
+		
+		<!--============================== Beds ==============================-->
 		<SleepingSpot.label>睡眠点</SleepingSpot.label>
 		<SleepingSpot.description>指定一个人们睡觉的地点。休息效率: 8/10</SleepingSpot.description>
-
 		<Bed.label>床</Bed.label>
 		<Bed.description>一个铺了舒适的床垫和床单的框架。休息效率: 10/10</Bed.description>
 		
-		<EquipmentRack.label>装备架</EquipmentRack.label>
-		<EquipmentRack.description>用来储存装备。</EquipmentRack.description>
-
-		<Chair.label>椅子</Chair.label>
-		<Chair.description>人们会坐在这上面。</Chair.description>
+		<!--======================= Basic domestic furniture ==============================-->
+		<Chair_Metal.label>金属椅</Chair_Metal.label>
+		<Chair_Metal.description>人们会坐在这上面。</Chair_Metal.description>
 		
-		<TableShort.label>桌子(短)</TableShort.label>
-		<TableShort.description>人们会坐在对着桌子的椅子上吃饭。</TableShort.description>
-	
-		<TableLong.label>桌子(长)</TableLong.label>
-		<TableLong.description>人们会坐在对着桌子的椅子上吃饭。</TableLong.description>
+		<!--======================= Tables ==============================-->
+		<TableShort_Metal.label>金属桌子(短)</TableShort_Metal.label>
+		<TableShort_Metal.description>人们会坐在对着桌子的椅子上吃饭。</TableShort_Metal.description>
+		<TableLong_Metal.label>金属桌子(长)</TableLong_Metal.label>
+		<TableLong_Metal.description>人们会坐在对着桌子的椅子上吃饭。</TableLong_Metal.description>
+		<TableShort_Wood.label>木制桌子(短)</TableShort_Wood.label>
+		<TableLong_Wood.label>木制桌子(长)</TableLong_Wood.label>
 		
+		<!-- ======================== Lighting ======================= -->
 		<StandingLamp.label>落地灯</StandingLamp.label>
 		<StandingLamp.description>一个可以点亮一整片地区的落地灯。</StandingLamp.description>
-
 		<StandingLamp_Red.label>落地灯(红)</StandingLamp_Red.label>
 		<StandingLamp_Red.description>一个可以把一整片地区点亮成红色的落地灯。</StandingLamp_Red.description>
-		
 		<StandingLamp_Green.label>落地灯(绿)</StandingLamp_Green.label>
 		<StandingLamp_Green.description>一个可以把一整片地区点亮成绿色的落地灯。</StandingLamp_Green.description>
-		
 		<StandingLamp_Blue.label>落地灯(蓝)</StandingLamp_Blue.label>
-		<StandingLamp_Blue.description>一个可以把一整片地区点亮成蓝色的落地灯。</StandingLamp_Blue.description>	
+		<StandingLamp_Blue.description>一个可以把一整片地区点亮成蓝色的落地灯。</StandingLamp_Blue.description>
+		
+		<!--============================== Storage ==============================-->
+		<EquipmentRack.label>装备架</EquipmentRack.label>
+		<EquipmentRack.description>搬运者会把装备搬到这里存储。</EquipmentRack.description>
 	
 </LanguageData>

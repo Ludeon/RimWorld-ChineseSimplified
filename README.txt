@@ -1,9 +1,9 @@
 RimWorld-cn
 Chinese localization for Rimworld
-For Rimworld 0.4.435
-
-See branch "Alpha 3" for alpha 3 files.
-
+Built For Rimworld 0.4.436
+======================
+See branch "Alpha 3" for alpha 3 files.(Built for Rimworld Alpha 3F)
+======================
 See this page for license info:
 http://ludeon.com/forums/index.php?topic=2933.0
 ======================
