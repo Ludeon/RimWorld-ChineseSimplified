@@ -1,6 +1,6 @@
 RimWorld-cn
 Chinese localization for Rimworld
-Built For Rimworld 0.4.437
+Built For Rimworld 0.4.439
 ======================
 See branch "Alpha 3" for alpha 3 files.(Built for Rimworld Alpha 3F)
 ======================
