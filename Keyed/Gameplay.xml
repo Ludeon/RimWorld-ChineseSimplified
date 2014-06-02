@@ -15,13 +15,14 @@
   <DyingLower>接近死亡</DyingLower>
   <PawnEffectiveness>效率</PawnEffectiveness>
   <FilthOnFeet>脚上的污物:</FilthOnFeet>
-  
+  <NotEnoughStoredLower>储量不足</NotEnoughStoredLower>
 
 	<!-- Job reports -->
 	<ReportHaulingTo>把{1}搬到{0}。</ReportHaulingTo>
 	<ReportHauling>搬动{0}中。</ReportHauling>
 
 	<!-- Shooting report -->
+	<WeaponMissRadius>武器误差半径</WeaponMissRadius>
 	<RangeSlashSkill>距离/技能</RangeSlashSkill>
 	<RangeSlashEquipment>距离/装备</RangeSlashEquipment>
 	<Darkness>黑暗</Darkness>
@@ -87,7 +88,7 @@
 
   
   <!-- Inspector general stuff -->
-  <SelectNextInSquareTip>选择同一个方块里的下一件东西。\n\n你也可以慢速重复点击同一个方块。</SelectNextInSquareTip>
+  <SelectNextInSquareTip>选择同一个方块里的下一件东西。\n\n快捷键: {0}\n\n你也可以慢速重复点击同一个方块来选择。</SelectNextInSquareTip>
 
   <!-- ITab titles -->
   <TabBills>清单</TabBills>
@@ -149,7 +150,7 @@
 
   <!-- Plants -->
   <PercentGrowth>已生长{0}%</PercentGrowth>
-  <Growing></Growing>
+  <Growing>生长中</Growing>
   <NotGrowingNow>不在生长(需要在{0}的条件下)</NotGrowingNow>
   <HarvestableIn>{0}后可以收获</HarvestableIn>
   <FullyGrownIn>{0}后长成</FullyGrownIn>
