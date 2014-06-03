@@ -1,6 +1,6 @@
 RimWorld-cn
 Chinese localization for Rimworld
-Built For Rimworld 0.4.460 (Alpha 4)
+Built For Rimworld 0.4.460/461 (Alpha 4/4c)
 ======================
 See this page for license info:
 http://ludeon.com/forums/index.php?topic=2933.0
