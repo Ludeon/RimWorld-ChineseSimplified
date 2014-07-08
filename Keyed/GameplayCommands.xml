@@ -17,10 +17,13 @@
   <CommandUndraftLabel>取消征召</CommandUndraftLabel>
   <CommandToggleDraftDesc>切换征召状态。\n\n被征召的人会遵守命令并战斗。他们不会工作，吃饭或着休息。</CommandToggleDraftDesc>
   <IsIncapped>{0}无法行动。</IsIncapped>
-
+  
+  
   <CommandCancelConstructionLabel>取消</CommandCancelConstructionLabel>
   <CommandCancelConstructionDesc>取消建造命令。</CommandCancelConstructionDesc>
-
+  
+  
+  
   <CommandBedSetForPrisonersLabel>设为囚犯使用</CommandBedSetForPrisonersLabel>
   <CommandBedSetForPrisonersDesc>把这个房间内的床设为仅供囚犯使用。</CommandBedSetForPrisonersDesc>
   <CommandBedSetForColonistsLabel>设为殖民者使用</CommandBedSetForColonistsLabel>
@@ -44,5 +47,27 @@
   <CommandDeleteZoneDesc>删除这个区域。</CommandDeleteZoneDesc>
   <CommandDeleteZoneLabel>删除</CommandDeleteZoneLabel>
   
+  
+  <!-- Artillery -->
+  <CommandSetForceAttackTarget>强制设定目标</CommandSetForceAttackTarget>
+  <CommandSetForceAttackTargetDesc>设定这个炮塔必须不停试图攻击的目标。</CommandSetForceAttackTargetDesc>
+  <CommandStopForceAttack>停止强制攻击</CommandStopForceAttack>
+  <CommandStopForceAttackDesc>停止强制攻击目标并允许炮塔自由开火。</CommandStopForceAttackDesc>
+  <CommandStopAttackFailNotForceAttacking>不在强制攻击目标。</CommandStopAttackFailNotForceAttacking>
+  <MessageTargetBeyondMaximumRange>目标超出最大射程。</MessageTargetBeyondMaximumRange>
+  <MessageTargetBelowMinimumRange>目标低于最小射程。</MessageTargetBelowMinimumRange>
+  
+  
+  <!-- Ship computer core -->
+  <CommandShipLaunch>发射飞船</CommandShipLaunch>
+  <CommandShipLaunchDesc>使用当前的飞船设定开始飞船发射程序。</CommandShipLaunchDesc>
+  <CommandShipLaunchReport>显示发射报告</CommandShipLaunchReport>
+  <CommandShipLaunchReportDesc>显示一份关于飞船的发射能力的报告。</CommandShipLaunchReportDesc>
+
+
+  <!-- Pod -->
+  <CommandPodEject>弹出休眠者</CommandPodEject>
+  <CommandPodEjectDesc>唤醒低温休眠者并将他们弹出。</CommandPodEjectDesc>
+  <CommandPodEjectFailEmpty>内部没有人。</CommandPodEjectFailEmpty>
   
 </LanguageData>

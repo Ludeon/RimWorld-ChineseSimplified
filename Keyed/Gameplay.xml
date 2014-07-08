@@ -4,19 +4,26 @@
   <!-- Various -->
   <WorkLeft>剩余工作</WorkLeft>
   <Contents>内容</Contents>
+  <ContainedResources>包含资源</ContainedResources>
   <ForPrisonerUse>仅限囚犯使用</ForPrisonerUse>
   <ForColonistUse>仅限殖民者使用</ForColonistUse>
   <Owner>主人</Owner>
   <Nobody>无</Nobody>
   <Unowned>没有主人</Unowned>
-  <GunInstalled>已安装</GunInstalled>
   <DeadTime>死掉的{0}</DeadTime>
   <WalkSpeed>行走速度{0}</WalkSpeed>
   <DyingLower>接近死亡</DyingLower>
   <PawnEffectiveness>效率</PawnEffectiveness>
   <FilthOnFeet>脚上的污物:</FilthOnFeet>
   <NotEnoughStoredLower>储量不足</NotEnoughStoredLower>
+  <NothingLower>无</NothingLower>
 
+  <!-- Turrets -->
+  <GunInstalled>已安装</GunInstalled>
+  <MinimumRange>最小距离</MinimumRange>
+  <CanFireIn>开火时机</CanFireIn>
+  
+  
 	<!-- Job reports -->
 	<ReportHaulingTo>把{0}搬到{1}。</ReportHaulingTo>
 	<ReportHauling>搬动{0}中。</ReportHauling>
@@ -35,12 +42,8 @@
 	
 	
     <!-- Status levels -->
-  <Loyalty>忠诚值</Loyalty>
-  <LoyaltyTip>忠诚值代表一个人在殖民地中的信仰。如果忠诚值太低，一个人可能会自暴自弃，做无理的事甚至直接发疯。\n\n忠诚值等于幸福值或者恐惧值——取决于哪个值更大。</LoyaltyTip>
-  <Happiness>幸福值</Happiness>
-  <HappinessTip>幸福值是通过满足心理和身体上的需求来保持的。</HappinessTip>
-  <Fear>恐惧值</Fear>
-  <FearTip>恐惧值表示人们对周围环境的恐惧程度。\n\n当见到威胁，残酷的情景或是展示权力时恐惧值就会增加。</FearTip>
+  <Mood>心情值</Mood>
+  <MoodTip>心情是通过满足心理和身体上的需求来保持的。\n\n如果一个人的心情值太低，他们可能会精神崩溃。</MoodTip>
   <Food>食物值</Food>
   <FoodTip>食物值表示了人们对他们的食物的满意度。\n\n食物值会在吃饭时重置。一段时间后，食物值会继续下降直到他们再度吃饭。食物值为零时，人物会因为饥饿而受到持续伤害。</FoodTip>
   <Rest>休息值</Rest>
@@ -63,12 +66,8 @@
   <EffectivenessReduced>降低的</EffectivenessReduced>
   <EffectivenessImpaired>受损的</EffectivenessImpaired>
   <EffectivenessIncapacitated>残缺的</EffectivenessIncapacitated>
-
-  <!-- Time indicator-->
-  <ClockDay>天</ClockDay>
-  <ClockTime>时间</ClockTime>
-  <ClockTip>自从你到达后的天数和时间。</ClockTip>
-
+  
+  
   <!-- Pawn info readout -->
   <Health>生命</Health>
   <PawnMainDescWithFactionGendered>来自{2}的{0}{1}</PawnMainDescWithFactionGendered>
@@ -89,13 +88,15 @@
   
   <!-- Inspector general stuff -->
   <SelectNextInSquareTip>选择同一个方块里的下一件东西。\n\n快捷键: {0}\n\n你也可以慢速重复点击同一个方块来选择。</SelectNextInSquareTip>
-
+  <DefInfoTip>查看关于这个物件的信息。</DefInfoTip>
+  
   <!-- ITab titles -->
   <TabBills>清单</TabBills>
   <TabGrowing>生长中</TabGrowing>
   <TabCharacter>角色</TabCharacter>
   <TabNeeds>需求</TabNeeds>
   <TabPrisoner>囚犯</TabPrisoner>
+  <TabGear>装备</TabGear>
   <TabThoughts>想法</TabThoughts>
   <TabStorage>贮存</TabStorage>
   
@@ -113,7 +114,15 @@
   <PrisonerMildBeating>轻微殴打</PrisonerMildBeating>
   <PrisonerViciousBeating>残忍殴打</PrisonerViciousBeating>
   <PrisonerExecution>处决</PrisonerExecution>
-
+  <Equipment>装备</Equipment>
+  <Apparel>着装</Apparel>
+  <Inventory>物品</Inventory>
+  <ThingInfo>信息</ThingInfo>
+  <DropThing>丢下</DropThing>
+  <TotalModifiers>效果数量</TotalModifiers>
+  <DamageAbsorption>伤害吸收</DamageAbsorption>
+  <MoveSpeed>移动速度</MoveSpeed>
+  
   <!-- like 'Blood of John' -->
   <OfLower>来自</OfLower>
 
@@ -132,7 +141,7 @@
 	<RotStateRotting>腐烂中</RotStateRotting>
 	<RotStateDessicated>干燥</RotStateDessicated>
 	
-  <!-- Tooltip -->
+  <!-- Shooting tooltip -->
   <ShotBy>被{0}击中</ShotBy>
   <CannotHit>无法击中目标。</CannotHit>
 
@@ -152,17 +161,15 @@
   <PercentGrowth>已生长{0}%</PercentGrowth>
   <Growing>生长中</Growing>
   <NotGrowingNow>不在生长(需要在{0}的条件下)</NotGrowingNow>
-  <HarvestableIn>{0}后可以收获</HarvestableIn>
   <FullyGrownIn>{0}后长成</FullyGrownIn>
   <ReadyToHarvest>待收获</ReadyToHarvest>
-  <Mature>成熟</Mature>
+  <Mature>成熟。</Mature>
   
   <!-- Zones -->
   <Zone>区域</Zone>
   <GrowingZone>种植区</GrowingZone>
   <Stockpile>贮存区</Stockpile>
   <DumpingStockpile>垃圾贮存区</DumpingStockpile>
-  <SellingStockpile>交易贮存区</SellingStockpile>
   <Priority>优先度</Priority>
 
   <!-- General time stuff -->
@@ -174,16 +181,43 @@
   
   <!-- Buttons -->
   <ZoneVisibilityToggleButton>切换区域的可见性。</ZoneVisibilityToggleButton>
+  <AutoHomeRegionToggleButton>切换自动在新建造的建筑附近添加生活区。</AutoHomeRegionToggleButton>
+  
   
   <!-- Fire -->
   <Fire>火焰</Fire>
   <FireOn>{0}上的火焰</FireOn>
   <Burning>燃烧中</Burning>
   <FireSizeLower>火焰大小:{0}</FireSizeLower>
-
-  <!-- Map conditions (eclipse, solar flare, etc )-->
-  <MapConditionsTip>区域正在被特殊情况干扰。</MapConditionsTip>
   
+  
+  <!-- Map conditions (eclipse, solar flare, etc )-->
+  <MapConditionsTip>正在干扰区域的特殊情况。</MapConditionsTip>
+  
+  
+  
+  <!-- Building placement restricters -->
+  <MustPlaceUnroofed>不能放置在屋顶下。</MustPlaceUnroofed>
+  <MustPlaceHeadOnShipBeam>必须放置在飞船结构柱边上。</MustPlaceHeadOnShipBeam>
+  <MustPlaceNextToHopperAccepter>必须放置在需要储料器的物件边上。</MustPlaceNextToHopperAccepter>
+  <MustPlaceOnSteamGeyser>必须直接放置在间歇蒸汽泉上。</MustPlaceOnSteamGeyser>
+  
+  <!-- Cryptosleep pod -->
+  <PodContains>包含</PodContains>
+
+  <!-- Ship launch report -->
+  <ShipReportCannotLaunch>无法发射。</ShipReportCannotLaunch>
+  <ShipReportCanLaunch>准备发射。</ShipReportCanLaunch>
+  <ShipReportMissingPart>缺少关键性组件</ShipReportMissingPart>
+  <ShipReportNoFullPods>没有装满的休眠舱</ShipReportNoFullPods>
+
+  
+  
+  <!-- Game over -->
+  <GameOverEveryoneDead>所有人不是死亡就是离开了。这个故事结束了。\n\n也许有一天会有人给这个地方的遗迹找个用处。</GameOverEveryoneDead>
+  <GameOverShipLaunched>你发射了逃生船! 以下殖民者离开了:\n\n{0}\n以下殖民者被留下了:\n\n{1}\n现在你的AI会试图把飞船带到一个安全的地方去。也许它会把你带到这个星系里一个更好的星球上。或许它会花一个世纪来旅行到另一个星系去。它甚至会在一个流行的冰层下躲几千年，等待一个更好的纪元的到来。\n\n只有在你醒来后才会知道。</GameOverShipLaunched>
+  <GameOverKeepPlaying>继续游戏</GameOverKeepPlaying>
+  <GameOverMainMenu>主菜单</GameOverMainMenu>
   
   
 </LanguageData>

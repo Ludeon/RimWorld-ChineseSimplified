@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 	
+	<!--========= General ============-->
 	<Goto.reportString>走动中。</Goto.reportString>
 	
 	<Wait.reportString>站着。</Wait.reportString>
@@ -9,32 +10,39 @@
 	
     <AttackMelee.reportString>正在近身攻击TargetA。</AttackMelee.reportString>
 	
-	<Hunt.reportString>正在狩猎TargetA。</Hunt.reportString>
-	
-	<UseVerbOnThing.reportString>正在使用Verb。</UseVerbOnThing.reportString>
+	<UseVerbOnThing.reportString>正在使用verb。</UseVerbOnThing.reportString>
 	
 	<Equip.reportString>正在装备TargetA。</Equip.reportString>
 	
+	<!--============= Misc ============-->
+	<Wear.reportString>正在穿上TargetA。</Wear.reportString>
+	
+	<Strip.reportString>正在脱下TargetA。</Strip.reportString>
+	
+	<Hunt.reportString>正在狩猎TargetA。</Hunt.reportString>
+	
+	<ManThing.reportString>正在操作机器。</ManThing.reportString>
+	
+	<EnterCryptosleepPod.reportString>正在进入休眠舱。</EnterCryptosleepPod.reportString>
+	
+	<!--============ Fire ============-->
 	<Ignite.reportString>正在点燃TargetA。</Ignite.reportString>
 	
 	<BeatFire.reportString>正在扑灭火焰。</BeatFire.reportString>
 	
 	<ExtinguishSelf.reportString>正在扑灭身上的火。</ExtinguishSelf.reportString>
 	
-	<EatFood.reportString>正在吃TargetA。</EatFood.reportString>
+	<!--============ Need satisfaction ============-->
+	<EatFood.reportString>正在从TargetA觅食。</EatFood.reportString>
 	
-	<DeliverFood.reportString>正在把TargetA带给TargetB吃。</DeliverFood.reportString>
+	<Sleep.reportString>睡觉中。</Sleep.reportString>
 	
-	<FeedPatient.reportString>正在把TargetA喂给TargetB吃。</FeedPatient.reportString>
-	
-	<HaulToSquare.reportString>正在把TargetA搬走。</HaulToSquare.reportString>
+	<!--============= Item hauling ===============-->
+	<HaulToCell.reportString>正在把TargetA搬走。</HaulToCell.reportString>
 	
 	<HaulToContainer.reportString>正在搬TargetA。</HaulToContainer.reportString>
 	
-	<PlaceNoCostFrame.reportString>正在建造TargetA。</PlaceNoCostFrame.reportString>
-	
-	<DoBill.reportString>正在做TargetA的清单上的内容。</DoBill.reportString>
-	
+	<!--============= Pawn hauling ===============-->
 	<Rescue.reportString>正在援救TargetA。</Rescue.reportString>
 	
 	<Capture.reportString>正在俘虏TargetA。</Capture.reportString>
@@ -45,11 +53,22 @@
 	
 	<TakeWoundedPrisonerToBed.reportString>正在带走受伤的犯人TargetA。</TakeWoundedPrisonerToBed.reportString>
 	
+	<Kidnap.reportString>正在绑架TargetA。</Kidnap.reportString>
+	
+	
+	
+	
+	<DeliverFood.reportString>正在把TargetA带给TargetB吃。</DeliverFood.reportString>
+	
+	<FeedPatient.reportString>正在把TargetA喂给TargetB吃。</FeedPatient.reportString>
+	
+	<PlaceNoCostFrame.reportString>正在建造TargetA。</PlaceNoCostFrame.reportString>
+	
+	<DoBill.reportString>正在做TargetA的清单上的内容。</DoBill.reportString>
+	
 	<Clean.reportString>正在清理TargetA。</Clean.reportString>
 	
-	<Sleep.reportString>睡觉中。</Sleep.reportString>
-	
-	<Research.reportString>研究中。</Research.reportString>
+	<Research.reportString>正在研究中。</Research.reportString>
 	
 	<UseCommsConsole.reportString>正在使用通讯台。</UseCommsConsole.reportString>
 	

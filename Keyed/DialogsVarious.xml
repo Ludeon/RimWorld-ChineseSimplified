@@ -46,7 +46,8 @@
   <Finished>已完成</Finished>
   <InProgress>研究中</InProgress>
   <ResearchMenuWithoutBench>你的殖民者们在你建造研究桌之前是无法进行研究的。\n\n不过，你仍然可以查看并选择研究项目。</ResearchMenuWithoutBench>
-
+  
+  
   <!-- Advanced game start options -->
   <MapSizePerformanceWarning>警告：在大地图下游戏性能可能会根据配置不同有所下降。\n\n如果你的配置较低，请选择小地图。\n\n巨大尺寸没有经过测试。</MapSizePerformanceWarning>
   <MapSize>地图大小</MapSize>
@@ -76,6 +77,40 @@
   <BillRepeatTargetCountShort>到{0}</BillRepeatTargetCountShort>
   
   
+  <!-- Def Card -->
+  <Type>类别</Type>
+  <GunType>枪支</GunType>
+  <PlantType>植物</PlantType>
+  <FoodType>食物</FoodType>
+  <HumanType>人类</HumanType>
+  <AnimalType>动物</AnimalType>
+  <MechanoidType>机器人</MechanoidType>
+  <Damage>伤害</Damage>
+  <Accuracy>精度</Accuracy>
+  <BurstShotCount>连射次数</BurstShotCount>
+  <WarmupTime>预热时间</WarmupTime>
+  <CooldownTime>冷却时间</CooldownTime>
+  <BurstShotFireRate>射速</BurstShotFireRate>
+  <Range>射程</Range>
+  <GrowsWild>野生</GrowsWild>
+  <Harvestable>可收获</Harvestable>
+  <LimitedLifespan>寿命有限</LimitedLifespan>
+  <GrowingTime>生长时间</GrowingTime>
+  <Days>天</Days>
+  <FertilityRequirement>种植需求</FertilityRequirement>
+  <LightRequirement>光线需求</LightRequirement>
+  <Attributes>来源</Attributes>
+  <LifeSpan>寿命</LifeSpan>
+  <Nutrition>营养</Nutrition>
+  <FoodQuality>食物价值</FoodQuality>
+  <WalkSpeedProperty>行走速度</WalkSpeedProperty>
+  <MeleeDamage>近身攻击伤害</MeleeDamage>
+  <MeatAmount>肉食数量</MeatAmount>
+  <MinFoodQuality>最低食物质量</MinFoodQuality>
+  <Diet>饮食</Diet>
+  <RecruitDifficulty>招募难度</RecruitDifficulty>
+  <BasePrice>基础价格</BasePrice>
+  
   <!-- Trade -->
   <YourTradeableSilver>当前可用于交易的银石: {0}</YourTradeableSilver>
   <YourTradeableSilverTip>你只能使用轨道交易信标附近而且顶上没有屋顶的银石用来交易。</YourTradeableSilverTip>
@@ -83,9 +118,16 @@
   <!-- Comms -->
   <SocialSkillIs>社交技能: {0}</SocialSkillIs>
 
-  
   <!--Other-->
   <ResearchFinished>完成的研究: {0}</ResearchFinished>
   <ResearchScreen>研究菜单</ResearchScreen>
+  
+  <!--HistoryUpload-->
+  <HistoryUploadMessage>你想把游戏数据上传到RimWorld服务器以帮助开发者完善游戏平衡吗? 如果你同意，每隔{0}天你的游戏数据会被自动上传(以及在游戏结束等其他情况下上传)。之后可以在选项菜单里改变隐私设置。</HistoryUploadMessage>
+  <HistoryUploadMessagePlayerName>尽管游戏数据默认是匿名上传的，但你仍然可以附上你的的名字。</HistoryUploadMessagePlayerName>
+  <HistoryUploadYes>允许上传游戏数据</HistoryUploadYes>
+  <HistoryUploadNo>不允许上传游戏数据</HistoryUploadNo>
+  <HistoryUploadYesOnce>仅在上传这次的数据</HistoryUploadYesOnce>
+  <HistoryUploadNoOnce>不上传这次的数据，并在晚些再问我</HistoryUploadNoOnce>
 	
 </LanguageData>

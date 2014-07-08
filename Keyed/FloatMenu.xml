@@ -1,17 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-	<CallOnRadio>呼叫{0}</CallOnRadio>
-	<CannotUseSolarFlare>无法使用(太阳耀斑)</CannotUseSolarFlare>
-	<CannotUseNoPower>无法使用(没有电力)</CannotUseNoPower>
-	<CannotUseNoPath>无法使用(没有路径)</CannotUseNoPath>
+
+
+  <CallOnRadio>呼叫{0}</CallOnRadio>
+  <CannotUseSolarFlare>无法使用(太阳耀斑)</CannotUseSolarFlare>
+  <CannotUseNoPower>无法使用(没有电力)</CannotUseNoPower>
+  <CannotUseNoPath>无法使用(没有路径)</CannotUseNoPath>
+  <CannotUseReserved>无法使用(被预留)</CannotUseReserved>
+  <CannotUseFull>无法使用(满了)</CannotUseFull>
 	
   <FireAt>对{0}开火</FireAt>
 
   <OutOfRange>超出射程</OutOfRange>
   <CannotHitTarget>无法击中目标</CannotHitTarget>
   <CannotFight>{0}无法战斗</CannotFight>
-
+  
+  <OrderManThing>操纵{0}</OrderManThing>
+  
   <MeleeAttack>近身攻击{0}</MeleeAttack>
   <MeleeAttackToDeath>近身攻击{0}直到杀死</MeleeAttackToDeath>
   <NoPath>没有路径</NoPath>
@@ -20,7 +26,8 @@
 	<SociallyImproperLower>社交不当</SociallyImproperLower>
 	<BurningLower>燃烧中</BurningLower>
 	<NoEmptyPlaceLower>没有可用的空地来放置它</NoEmptyPlaceLower>
-	<AlreadyFilledLower>已经装了满了</AlreadyFilledLower>
+	<AlreadyFilledLower>已经装满了</AlreadyFilledLower>
+	<MissingMaterials>需要材料</MissingMaterials>
 	
 	
   <CannotGoNoPath>无法走到目标(没有路径)</CannotGoNoPath>
@@ -45,11 +52,22 @@
   <Equip>装备{0}</Equip>
   <CannotEquip>无法装备{0}</CannotEquip>
 
+  <Wear>穿上{0}</Wear>
+  <CannotWear>无法穿上{0}</CannotWear>
+  
+  <Strip>脱下{0}</Strip>
+  <CannotStrip>无法脱下{0}</CannotStrip>
+  
   <Deposit>将{0}放置到{1}</Deposit>
   <CannotDeposit>无法将{0}放置到{1}</CannotDeposit>
 
   <Drop>丢下{0}</Drop>
 
+  <!-- Specific thing interactions -->
+  <EnterCryptosleepPod>进入低温休眠舱</EnterCryptosleepPod>
+  
+  
+  
   <!-- e.g. Cannot VERB OBJECT, Cannot repair wall, Cannot haul metal, etc.-->
   <CannotGenericWork>无法{0}{1}</CannotGenericWork>
 
