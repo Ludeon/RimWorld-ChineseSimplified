@@ -7,6 +7,7 @@
   <ContainedResources>包含资源</ContainedResources>
   <ForPrisonerUse>仅限囚犯使用</ForPrisonerUse>
   <ForColonistUse>仅限殖民者使用</ForColonistUse>
+  <MedicalBed>医疗</MedicalBed>
   <Owner>主人</Owner>
   <Nobody>无</Nobody>
   <Unowned>没有主人</Unowned>
@@ -17,6 +18,9 @@
   <FilthOnFeet>脚上的污物:</FilthOnFeet>
   <NotEnoughStoredLower>储量不足</NotEnoughStoredLower>
   <NothingLower>无</NothingLower>
+  <Adapted>适合</Adapted>
+  <Headshot>命中头部</Headshot>
+  <FreshMissingBodyPart>新鲜</FreshMissingBodyPart>
 
   <!-- Turrets -->
   <GunInstalled>已安装</GunInstalled>
@@ -30,8 +34,8 @@
 
 	<!-- Shooting report -->
 	<WeaponMissRadius>武器误差半径</WeaponMissRadius>
-	<RangeSlashSkill>距离/技能</RangeSlashSkill>
-	<RangeSlashEquipment>距离/装备</RangeSlashEquipment>
+	<ShootReportSkill>技能</ShootReportSkill>
+	<ShootReportWeapon>武器</ShootReportWeapon>
 	<Darkness>黑暗</Darkness>
 	<TargetProne>目标动作</TargetProne>
 	<TargetSize>目标大小</TargetSize>
@@ -84,7 +88,21 @@
   <SanityGiveUpExit>失常: 放弃了并正在离开</SanityGiveUpExit>
   <SanityPanicFlee>失常: 在混乱中正在逃跑</SanityPanicFlee>
   <SanityPsychotic>失常: 发疯了并在大肆破坏</SanityPsychotic>
-
+  
+  <!-- Body and activities condition -->
+  <None>没有</None>
+  <VeryPoor>非常差</VeryPoor>
+  <Poor>较差</Poor>
+  <Weakened>虚弱</Weakened>
+  <GoodCondition>健康</GoodCondition>
+  <SeriouslyImpaired>严重受损</SeriouslyImpaired>
+  <Impaired>严重受损</Impaired>
+  <SlightlyImpaired>轻微受损</SlightlyImpaired>
+  <NoPain>没有</NoPain>
+  <LittlePain>少量</LittlePain>
+  <MediumPain>中等</MediumPain>
+  <SeverePain>严重</SeverePain>
+  <ExtremePain>极度</ExtremePain>
   
   <!-- Inspector general stuff -->
   <SelectNextInSquareTip>选择同一个方块里的下一件东西。\n\n快捷键: {0}\n\n你也可以慢速重复点击同一个方块来选择。</SelectNextInSquareTip>
@@ -119,9 +137,24 @@
   <Inventory>物品</Inventory>
   <ThingInfo>信息</ThingInfo>
   <DropThing>丢下</DropThing>
-  <TotalModifiers>效果数量</TotalModifiers>
+  <TotalModifiers>总效果</TotalModifiers>
   <DamageAbsorption>伤害吸收</DamageAbsorption>
   <MoveSpeed>移动速度</MoveSpeed>
+  <Efficiency>效率</Efficiency>
+  <MissingBodyPart>不存在</MissingBodyPart>
+  <DestroyedBodyPart>被毁</DestroyedBodyPart>
+  <ShatteredBodyPart>击碎</ShatteredBodyPart>
+  <Healthy>健康</Healthy>
+  <InPain>感到疼痛</InPain>
+  <PainLevel>痛苦</PainLevel>
+  <Dead>死亡</Dead>
+  <Unconscious>失去知觉</Unconscious>
+  <PainShock>暂时休克</PainShock>
+  <NoInjuries>(没有受伤)</NoInjuries>
+  <WholeBody>全身</WholeBody>
+  <RenameColonist>重命名殖民者</RenameColonist>
+  <DataProcessing>数据处理</DataProcessing>
+  <Communication>交流</Communication>
   
   <!-- like 'Blood of John' -->
   <OfLower>来自</OfLower>
@@ -160,7 +193,8 @@
   <!-- Plants -->
   <PercentGrowth>已生长{0}%</PercentGrowth>
   <Growing>生长中</Growing>
-  <NotGrowingNow>不在生长(需要在{0}的条件下)</NotGrowingNow>
+  <NotGrowingNow>不在生长。(需要在{0}的条件下)</NotGrowingNow>
+  <NotGrowingNowNight>不在生长。(夜间)</NotGrowingNowNight>
   <FullyGrownIn>{0}后长成</FullyGrownIn>
   <ReadyToHarvest>待收获</ReadyToHarvest>
   <Mature>成熟。</Mature>

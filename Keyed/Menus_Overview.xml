@@ -1,10 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
-  <SkillMax>最大</SkillMax>
   
+  
+  <!-- Tab titles -->
+  <WorkTab>工作</WorkTab>
+  <FactionsTab>派系</FactionsTab>
+  <StatisticsTab>统计</StatisticsTab>
+  <HistoryTab>历史</HistoryTab>
+  <WorldTab>世界</WorldTab>
   
   <!-- Work tab -->
-  <WorkTab>工作</WorkTab>
   <ManualPriorities>自定义优先度</ManualPriorities>
   <HigherPriority>高优先度</HigherPriority>
   <LowerPriority>低优先度</LowerPriority>
@@ -13,14 +18,15 @@
   <CannotDoThisWork>{0}不能做这种工作。</CannotDoThisWork>
   <NoneBrackets>(无)</NoneBrackets>
   
+  
   <!-- Factions tab -->
-  <FactionsTab>派系</FactionsTab>
   <Hostile>敌对</Hostile>
   <HostileTo>{0}的敌人</HostileTo>
   <CurrentGoodwill>和这个派系的当前好感度。</CurrentGoodwill>
-
+  
+  
   <!-- Statistics tab -->
-  <StatisticsTab>统计</StatisticsTab>
+  <Storyteller>故事叙述者</Storyteller>
   <ColonyWealthTotal>殖民地财富</ColonyWealthTotal>
   <ColonyWealthItems>殖民地财富(物品)</ColonyWealthItems>
   <ColonyWealthBuildings>殖民地财富(建筑)</ColonyWealthBuildings>
@@ -31,9 +37,7 @@
   <ColonistsLaunched>发射到太空的殖民者</ColonistsLaunched>
   
   
-  
   <!-- History tab -->
-  <HistoryTab>历史</HistoryTab>
   <SelectGraph>选择图表</SelectGraph>
   <Last30Days>最近30天</Last30Days>
   <Last100Days>最近100天</Last100Days>
@@ -42,7 +46,6 @@
   <Day>天</Day>
   <Value>价值</Value>
   <External>外来</External>
-  
   
   
 </LanguageData>

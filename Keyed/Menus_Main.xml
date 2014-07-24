@@ -2,6 +2,7 @@
 <LanguageData>
 
   <!--=========== Main menu ==========-->
+  <CreateWorld>创建世界</CreateWorld>
   <NewColony>新殖民地</NewColony>
   <BackToGame>回到游戏</BackToGame>
   <Save>保存</Save>
@@ -18,13 +19,31 @@
   <TynansTwitter>Tynan的twitter</TynansTwitter>
   <TynansDesignBook>Tynan的设计指南书</TynansDesignBook>
   <HelpTranslate>帮助翻译RimWorld</HelpTranslate>
-
+  
+  <!--=========== Create/review world ================-->
+  <ReviewWorld>查看世界</ReviewWorld>
+  <WorldGenerate>创建</WorldGenerate>
+  <WorldSaveAndFinish>保存并完成</WorldSaveAndFinish>
+  <Reset>重设</Reset>
+  <WorldSize>尺寸</WorldSize>
+  <WorldSeed>种子</WorldSeed>
+  <RandomizeSeed>随机种子</RandomizeSeed>
+  
+  
+  <!--=========== Select world ===================-->
+  <SelectWorld>选择世界</SelectWorld>
+  <WorldChooseButton>选择</WorldChooseButton>
+  <NoWorldsFilesFound>没有发现世界文件。请先创造一个世界。</NoWorldsFilesFound>
+  
   <!--=========== Version info ==========-->
   <BuildNowAvailable>版本{0}已经发布。检查Ludeon.com来获取更多信息。</BuildNowAvailable>
   <BuildUpToDate>版本已是最新。</BuildUpToDate>
   <ErrorGettingVersionInfo>获取版本信息错误: {0}</ErrorGettingVersionInfo>
   <LoadingVersionInfo>正在加载版本信息...</LoadingVersionInfo>
-	
+  
+  <!--=========== World generator =========-->
+  <GenerateWorld>创建世界</GenerateWorld>
+  
   <!--=========== Mods screen ==========-->
   <GetMods>获取更多Mod</GetMods>
   <OpenModsDataFolder>打开Mod数据文件夹</OpenModsDataFolder>
@@ -35,6 +54,43 @@
   <!--=========== Storyteller chooser ==========-->
   <ChooseAIStoryteller>选择AI故事叙述者</ChooseAIStoryteller>
   <HowStorytellersWork>AI故事叙述者会制造海盗掠夺，资源降落或动物袭击这样的事件。他们的选择会影响你的殖民地的故事。</HowStorytellersWork>
+  <MustChooseChallengeScale>请选择一个挑战规模。</MustChooseChallengeScale>
+  <ChallengeScale_BuilderMode>建造者模式</ChallengeScale_BuilderMode>
+  <ChallengeScale_Casual>一般</ChallengeScale_Casual>
+  <ChallengeScale_Rough>较难</ChallengeScale_Rough>
+  <ChallengeScale_Challenge>挑战</ChallengeScale_Challenge>
+  <ChallengeScale_SeriousChallegne>严重挑战</ChallengeScale_SeriousChallegne>
+  <ChallengeScale_ExtremeChallenge>极端挑战</ChallengeScale_ExtremeChallenge>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <!--=========== Landing site select =========-->
+  <SelectLandingSite>选择着陆点</SelectLandingSite>
+  <SelectSite>选择地点</SelectSite>
+  <MustSelectLandingSite>请选择一个着陆点。</MustSelectLandingSite>
+  <CannotLandBiome>你不能在这个生态系统上着陆: {0}</CannotLandBiome>
+  <WorldRenderMode>模式</WorldRenderMode>
+  <WorldRenderModeFull>全部</WorldRenderModeFull>
+  <WorldRenderModeTemperature>温度</WorldRenderModeTemperature>
+  <WorldRenderModeElevation>海拔</WorldRenderModeElevation>
+  <WorldRenderModeFertility>湿度</WorldRenderModeFertility>
+  <WorldRenderModeRainfall>降雨量</WorldRenderModeRainfall>
+  <WorldRenderModeBiomes>生态系统</WorldRenderModeBiomes>
+  <BiomeNotImplemented>此生态系统尚未加入游戏。</BiomeNotImplemented>
+  <Biome>生态系统</Biome>
+  <Terrain>地形</Terrain>
+  <Elevation>海拔</Elevation>
+  <Fertility>湿度</Fertility>
+  <AvgTemp>平均温度</AvgTemp>
+  <Rainfall>降雨量</Rainfall>
   
   <!--=========== Character chooser ==========-->
   <CreateCharacters>创建角色</CreateCharacters>
