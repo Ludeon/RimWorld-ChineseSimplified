@@ -51,10 +51,12 @@
   <Author>作者</Author>
   
   
-  <!--=========== Storyteller chooser ==========-->
+  <!--=========== Select storyteller ==========-->
   <ChooseAIStoryteller>选择AI故事叙述者</ChooseAIStoryteller>
   <HowStorytellersWork>AI故事叙述者会制造海盗掠夺，资源降落或动物袭击这样的事件。他们的选择会影响你的殖民地的故事。</HowStorytellersWork>
   <MustChooseChallengeScale>请选择一个挑战规模。</MustChooseChallengeScale>
+  <ChallengeScale>挑战规模</ChallengeScale>
+  <ChallengeScaleTip>当故事叙述者把各种坏事送给你的时候，他们会和因为你的挑战模式而翻{0}倍。</ChallengeScaleTip>
   <ChallengeScale_BuilderMode>建造者模式</ChallengeScale_BuilderMode>
   <ChallengeScale_Casual>一般</ChallengeScale_Casual>
   <ChallengeScale_Rough>较难</ChallengeScale_Rough>
@@ -91,6 +93,12 @@
   <Fertility>湿度</Fertility>
   <AvgTemp>平均温度</AvgTemp>
   <Rainfall>降雨量</Rainfall>
+  <HasCoast0>北部海岸</HasCoast0>
+  <HasCoast1>东部海岸</HasCoast1>
+  <HasCoast2>南部海岸</HasCoast2>
+  <HasCoast3>西部海岸</HasCoast3>
+  
+  
   
   <!--=========== Character chooser ==========-->
   <CreateCharacters>创建角色</CreateCharacters>
@@ -124,5 +132,6 @@
   <EveryoneNeedsValidName>每个角色都需要一个有效的名字。</EveryoneNeedsValidName>
 
   <GeneratingWorld>生成世界中...</GeneratingWorld>
+  <GeneratingMap>生成地图中...</GeneratingMap>
 
 </LanguageData>

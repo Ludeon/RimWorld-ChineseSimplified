@@ -13,20 +13,46 @@
 	<AteLavishMeal.label>吃了奢侈的食物</AteLavishMeal.label>
 	<AteLavishMeal.description>这食物简直太棒了，我觉得我的身体和灵魂都被滋养了。</AteLavishMeal.description>
 	
+	<!-- =========== Cannibalism =============== -->
 	<AteHumanoidMeatDirect.label>吃了生的人肉</AteHumanoidMeatDirect.label>
 	<AteHumanoidMeatDirect.description>我吃了一个人的肉，生的，就像一只动物一样。这简直是个噩梦。</AteHumanoidMeatDirect.description>
 	
 	<AteHumanoidMeatAsIngredient.label>吃了烹调过的人肉</AteHumanoidMeatAsIngredient.label>
 	<AteHumanoidMeatAsIngredient.description>我吃了用人肉作出的饭，这简直太可怕了。</AteHumanoidMeatAsIngredient.description>
+	
+	<AteHumanoidMeatDirectCannibal.label>吃了生的人肉</AteHumanoidMeatDirectCannibal.label>
+	<AteHumanoidMeatDirectCannibal.description>我吃了一个人的肉，生的，就像一只动物一样。真是太爽了。</AteHumanoidMeatDirectCannibal.description>
+	
+	<AteHumanoidMeatAsIngredientCannibal.label>吃了烹调过的人肉</AteHumanoidMeatAsIngredientCannibal.label>
+	<AteHumanoidMeatAsIngredientCannibal.description>我吃了用人肉作出的饭，味道好极了。要是配上蚕豆和红酒就更好了。</AteHumanoidMeatAsIngredientCannibal.description>
 
 	<ButcheredHumanoidCorpse.label>屠宰了人类</ButcheredHumanoidCorpse.label>
 	<ButcheredHumanoidCorpse.description>我把一个人像动物一样屠宰了。</ButcheredHumanoidCorpse.description>
 	
 	<AteWithoutTable.label>在地上吃饭</AteWithoutTable.label>
 	<AteWithoutTable.description>我不得不在地上吃饭。我们不能弄个桌子吗?</AteWithoutTable.description>
-
+	
+	<!-- Combat -->
 	<ObservedLayingCorpse.label>看见尸体</ObservedLayingCorpse.label>
 	<ObservedLayingCorpse.description>我看见一具躺在地上的尸体。</ObservedLayingCorpse.description>
+	
+	<ObservedLayingRottingCorpse.label>看见腐烂的尸体</ObservedLayingRottingCorpse.label>
+	<ObservedLayingRottingCorpse.description>我看见地上躺着一具正在腐烂的尸体。太恶心了。</ObservedLayingRottingCorpse.description>
+	
+	<WitnessedDeathAlly.label>看见同盟死亡</WitnessedDeathAlly.label>
+	<WitnessedDeathAlly.description>我看见我们有人死了，他们刚才还好好的，然后就倒下了。</WitnessedDeathAlly.description>
+	
+	<WitnessedDeathStranger.label>看见陌生人死亡</WitnessedDeathStranger.label>
+	<WitnessedDeathStranger.description>我看见有人死了，他们刚才还好好的，然后就倒下了。</WitnessedDeathStranger.description>
+	
+	<WitnessedDeathStrangerBloodlust.label>看见陌生人死亡</WitnessedDeathStrangerBloodlust.label>
+	<WitnessedDeathStrangerBloodlust.description>我看见有人死掉了，太猛啦!</WitnessedDeathStrangerBloodlust.description>
+	
+	<KilledHumanoidBloodlust.label>杀死了别人</KilledHumanoidBloodlust.label>
+	<KilledHumanoidBloodlust.description>我刚刚杀死了某人，实在是太爽了。</KilledHumanoidBloodlust.description>
+	
+	<BattleWounded.label>受伤</BattleWounded.label>
+	<BattleWounded.description>这是我自己的血！我在战斗中负伤了！</BattleWounded.description>
 	
 	<!-->
 	<ObservedGibbetCageEmpty.label>看见空绞刑笼</ObservedGibbetCageEmpty.label>
@@ -51,9 +77,6 @@
 	<SleptOnGround.label>睡在地上</SleptOnGround.label>
     <SleptOnGround.description>我像动物一样在地上睡觉。</SleptOnGround.description>
 	
-	<BattleWounded.label>受伤</BattleWounded.label>
-	<BattleWounded.description>这是我自己的血！我在战斗中受伤了！</BattleWounded.description>
-	
 	<KnowPrisonerBeaten.label>有囚犯被殴打了</KnowPrisonerBeaten.label>
 	<KnowPrisonerBeaten.description>他们在殴打囚犯。</KnowPrisonerBeaten.description>
 	
@@ -62,12 +85,6 @@
 	
 	<KnowPrisonerExecuted.label>有囚犯被处决了</KnowPrisonerExecuted.label>
 	<KnowPrisonerExecuted.description>有个囚犯被冷血地处决了。这个殖民地越来越邪恶了。</KnowPrisonerExecuted.description>
-	
-	<WitnessedDeathAlly.label>看见同盟死亡</WitnessedDeathAlly.label>
-	<WitnessedDeathAlly.description>我看见我们有人死了，他们刚才还好好的，然后就倒下了。</WitnessedDeathAlly.description>
-	
-	<WitnessedDeathStranger.label>看见陌生人死亡</WitnessedDeathStranger.label>
-	<WitnessedDeathStranger.description>我看见有人死了，他们刚才还好好的，然后就倒下了。</WitnessedDeathStranger.description>
 	
 	<JustImprisoned.label>刚被囚禁</JustImprisoned.label>
 	<JustImprisoned.description>我被丢尽监狱里了，我最好保持住，想办法对付这事。</JustImprisoned.description>
