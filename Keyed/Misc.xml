@@ -21,14 +21,23 @@
 
 	<MeatLabel>{0}肉</MeatLabel>
   <MeatDesc>{0}上的生肉。</MeatDesc>
+  
+  <LeatherLabel>{0}皮</LeatherLabel>
+  <LeatherDesc>由{0}的皮肤制成的皮革</LeatherDesc>
 
 	<CorpseLabel>{0}尸体</CorpseLabel>
 	<CorpseDesc>{0}的尸体。</CorpseDesc>
+	<DeadLabel>{0}(死亡)</DeadLabel>
 
 
 	<BlueprintLabelExtra> (蓝图)</BlueprintLabelExtra>
   <FrameLabelExtra> (框架)</FrameLabelExtra>
   
+  <!-- For things made of stuff, e.g. "Stone bed" -->
+  <!-- 0 is the nameAsStuff property under stuffProps and 1 is the label -->
+  <ThingMadeOfStuffLabel>{0}{1}</ThingMadeOfStuffLabel>
+
+  <VariousLabel>(多种)</VariousLabel>
   
   <!-- History events -->
   <ColonistDied>殖民者死亡</ColonistDied>

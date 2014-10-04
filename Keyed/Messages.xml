@@ -11,6 +11,7 @@
 		<MessageRaidersGivenUpLeaving>来自{1}的{0}放弃并离开了。</MessageRaidersGivenUpLeaving>
 		<MessageRaidersSatisfiedLeaving>来自{1}的{0}对于他们造成的破坏满意了并离开了。</MessageRaidersSatisfiedLeaving>
 		
+		
 		<MessageFightersFleeing>来自{1}的{0}正在逃跑。</MessageFightersFleeing>
 		<MessageFriendlyFightersLeaving>来自{1}的友好{0}离开了。</MessageFriendlyFightersLeaving>
 		
@@ -28,8 +29,8 @@
 		<MessageRecruitFail>{0}没能成功招募{1}(成功率{2})。</MessageRecruitFail>
 		<MessageRecruitFailBecauseLoyalty>{0}没能成功招募{1}。(囚犯心情值低于最低要求)</MessageRecruitFailBecauseLoyalty>
 		
-		<MessagePoorlyTreated>{0}从{1}接受了简单的治疗。(成功率{2})。</MessagePoorlyTreated>
-		<MessageWellTreated>{0}从{1}接受了完好的治疗。(成功率{2})。</MessageWellTreated>
+		<MessagePoorlyTreated>{1}治疗了{0}(治疗效果差, 治疗效果好的几率{2})。</MessagePoorlyTreated>
+		<MessageWellTreated>{1}治疗了{0} (治疗效果好, 治疗效果好的几率{2})。</MessageWellTreated>
 		
 		<MessageTraderCannotAfford>商人无法支付这笔交易。</MessageTraderCannotAfford>
 		<MessageColonyCannotAfford>殖民地无法支付这笔交易。</MessageColonyCannotAfford>
@@ -38,9 +39,15 @@
 		
 		<MessageCriticalAlert>严重警报: {0}</MessageCriticalAlert>
 		
-		<MessageMustDesignateHarvestableFood>必须指定长有食物并长成的植物。</MessageMustDesignateHarvestableFood>
+		<MessageMustDesignateHarvestableFood>必须指定长有作物并长成的植物。</MessageMustDesignateHarvestableFood>
 		<MessageMustDesignateHarvestableWood>必须指定可收获木头并长成的树木。</MessageMustDesignateHarvestableWood>
 		<MessageMustDesignatePlants>必须指定植物。</MessageMustDesignatePlants>
 		<MessageMustDesignateHaulable>必须指定可以搬运的物品。</MessageMustDesignateHaulable>
+		
+		<MessageNoMedicalBeds>没有可用的医疗床。</MessageNoMedicalBeds>
+		
+		<PawnDiedBecauseOf>{0}因{1}而死。</PawnDiedBecauseOf>
+
+		<MessageNoLongerDowned>{0}无法再行走了。</MessageNoLongerDowned>
   
 </LanguageData>

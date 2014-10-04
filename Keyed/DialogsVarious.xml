@@ -74,14 +74,15 @@
   <RecipeCannotHaveTargetCount>(因为这个配方有多个或是不可预估的成品所以不能为它指定目标数量)</RecipeCannotHaveTargetCount>
   <PermittedIngredients>允许的材料</PermittedIngredients>
   <MinimumSkills>最低技能值:</MinimumSkills>
-  <DoXTimes>做X次</DoXTimes>
-  <DoUntilYouHaveX>做直到拥有X个</DoUntilYouHaveX>
+  <BillRequires>需要{0}{1}</BillRequires>
+  <UsableIngredients>可使用的原料</UsableIngredients>
+  <DoXTimes>做...次</DoXTimes>
+  <DoUntilYouHaveX>做直到拥有...个</DoUntilYouHaveX>
   <DoForever>永远做下去</DoForever>
   <BillRepeatTargetCountShort>到{0}</BillRepeatTargetCountShort>
   <BillStoreMode_DropOnFloor>放在地上</BillStoreMode_DropOnFloor>
   <BillStoreMode_BestStockpile>放到最合适的贮藏区</BillStoreMode_BestStockpile>
   <BillStoreMode_NearestStockpileAnyPriority>放到最近的贮藏区</BillStoreMode_NearestStockpileAnyPriority>
-  
   
   <!-- Def Card -->
   <Type>类别</Type>
@@ -115,17 +116,45 @@
   <MinFoodQuality>最低食物质量</MinFoodQuality>
   <Diet>饮食</Diet>
   <RecruitDifficulty>招募难度</RecruitDifficulty>
-  <BasePrice>基础价格</BasePrice>
+  <baseMarketValue>基础价格</baseMarketValue>
   <Covers>覆盖</Covers>
+  <NaturalArmorCovers>自然装甲覆盖</NaturalArmorCovers>
+  <BodyPartEfficiency>身体部件效率</BodyPartEfficiency>
   
   <!-- Trade -->
+  <DragToTrade>拖拽来进行交易</DragToTrade>
+  <BuyPriceDesc>购买这些需要消耗的钱。</BuyPriceDesc>
+  <SellPriceDesc>卖出这些可以获得的钱。</SellPriceDesc>
+  <PriceTypeDesc>这个物品的价格是{0}。</PriceTypeDesc>
+  <ColonyCount>殖民地拥有的待售物品数量。\n\n你只能卖出轨道交易信标附近并且在户外的物品。</ColonyCount>
+  <TraderCount>交易商拥有的物品数量。</TraderCount>
+  <AcceptButton>接受</AcceptButton>
+  <ResetButton>重置</ResetButton>
+  <CancelButton>取消</CancelButton>
   <YourTradeableSilver>当前可用于交易的银石: {0}</YourTradeableSilver>
   <YourTradeableSilverTip>你只能使用轨道交易信标附近而且顶上没有屋顶的银石用来交易。</YourTradeableSilverTip>
+  <TraderHasNoMore>交易商没有更多了。</TraderHasNoMore>
+  <ColonyHasNoMore>没有更多待售的了。</ColonyHasNoMore>
+  <TraderWillNotTrade>交易商不想交易这种商品。</TraderWillNotTrade>
 
   <!-- Comms -->
   <SocialSkillIs>社交技能: {0}</SocialSkillIs>
 
-  <!--Other-->
+  <!-- Stats report -->
+  <StatsReport_BaseValue>基础价值</StatsReport_BaseValue>
+  <StatsReport_RelevantTraits>相关特性</StatsReport_RelevantTraits>
+  <StatsReport_RelevantGear>相关设备</StatsReport_RelevantGear>
+  <StatsReport_Material>材质</StatsReport_Material>
+  <StatsReport_CharacterQuality>角色品质</StatsReport_CharacterQuality>
+  <StatsReport_Skills>技能系数</StatsReport_Skills>
+  <StatsReport_OtherStats>其它状态系数</StatsReport_OtherStats>
+  <StatsReport_HealthFactors>健康系数</StatsReport_HealthFactors>
+  <HealthFactorPercentImpact>{0}重要性</HealthFactorPercentImpact>
+  <StatsReport_PostProcessed>处理后的曲线</StatsReport_PostProcessed>
+  <StatsReport_FinalValue>最终价值</StatsReport_FinalValue>
+  
+  
+  <!--Research-->
   <ResearchFinished>完成的研究: {0}</ResearchFinished>
   <ResearchScreen>研究菜单</ResearchScreen>
   

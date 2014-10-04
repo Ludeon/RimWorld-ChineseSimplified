@@ -10,8 +10,8 @@
 		<DesignatorDeconstruct>拆除</DesignatorDeconstruct>
 		<DesignatorDeconstructDesc>拆除建筑并回收部分资源。</DesignatorDeconstructDesc>
 		
-		<DesignatorHarvestFood>收获食物</DesignatorHarvestFood>
-		<DesignatorHarvestFoodDesc>标记需要收获的植物来获取食物。植物上的可获取食物会被收获，但是植物本身会被保留。</DesignatorHarvestFoodDesc>
+		<DesignatorHarvest>收获</DesignatorHarvest>
+		<DesignatorHarvestDesc>标记需要收获的植物来获取食物或其它作物。</DesignatorHarvestDesc>
 		
 		<DesignatorHarvestWood>砍伐树木</DesignatorHarvestWood>
 		<DesignatorHarvestWoodDesc>标记需要被砍掉的树木来获取木头。</DesignatorHarvestWoodDesc>
@@ -60,17 +60,21 @@
 		
 		
 		<!-- placement of blueprints -->
+		<UnchosenStuff>未选择材质</UnchosenStuff>
 		<TooCloseToMapEdge>距离地图边缘太近。</TooCloseToMapEdge>
 		<OutOfBounds>在界限之外。</OutOfBounds>
 		<CannotPlaceInUndiscovered>不能放置在未发现的区域内。</CannotPlaceInUndiscovered>
-		<InteractionSpotBlocked>互动点被挡住。</InteractionSpotBlocked>
-		<InteractionSpotWillBeBlocked>互动点会被挡住。</InteractionSpotWillBeBlocked>
+		<InteractionSpotBlocked>互动点被{0}挡住。</InteractionSpotBlocked>
+		<InteractionSpotOutOfBounds>互动点在界限之外。</InteractionSpotOutOfBounds>
+		<InteractionSpotWillBeBlocked>互动点将会被{0}挡住。</InteractionSpotWillBeBlocked>
 		<WouldBlockInteractionSpot>{0}会挡住{1}的互动点。</WouldBlockInteractionSpot>
 		<TerrainIsAlready>这里的地形已经是{0}了。</TerrainIsAlready>
 		<IdenticalThingExists>已经在同地方存在一样的东西。</IdenticalThingExists>
 		<IdenticalBlueprintExists>已经在同地方存在一样的蓝图。</IdenticalBlueprintExists>
 		<TerrainCannotSupport>地形无法支撑此物件。</TerrainCannotSupport>
 		<SpaceAlreadyOccupied>空间已被占用。</SpaceAlreadyOccupied>
+		
+		
 		
 		<!-- placement of zones -->
 		<ExpandOrCreateZone>扩展{0}或\n建立新的{1}</ExpandOrCreateZone>

@@ -30,6 +30,8 @@
   <CommandGetOutOfBedLabel>离床</CommandGetOutOfBedLabel>
   <CommandGetOutOfBedDesc>离开当前使用的床</CommandGetOutOfBedDesc>
   
+  <CommandBedSetOwnerLabel>设定主人</CommandBedSetOwnerLabel>
+  <CommandBedSetOwnerDesc>将这张床分配给一个指定的殖民者。</CommandBedSetOwnerDesc>
   <CommandBedSetForPrisonersLabel>设为囚犯使用</CommandBedSetForPrisonersLabel>
   <CommandBedSetForPrisonersDesc>把这个房间内的床设为仅供囚犯使用。</CommandBedSetForPrisonersDesc>
   <BedAssign>指定</BedAssign>
@@ -81,5 +83,10 @@
   <CommandPodEject>弹出休眠者</CommandPodEject>
   <CommandPodEjectDesc>唤醒低温休眠者并将他们弹出。</CommandPodEjectDesc>
   <CommandPodEjectFailEmpty>内部没有人。</CommandPodEjectFailEmpty>
+  
+  <!-- Door -->
+  <CommandToggleDoorLock>开关门锁</CommandToggleDoorLock>
+  <CommandToggleDoorLockDesc>锁住或解锁一扇门。被锁住的门不会为任何人敞开。</CommandToggleDoorLockDesc>
+  
   
 </LanguageData>

@@ -1,6 +1,6 @@
 RimWorld-cn
 Chinese localization for Rimworld
-Built For Rimworld 0.6.532 (Alpha 6)
+Built For Rimworld 0.7.581 (Alpha 7)
 ======================
 See this page for license info:
 http://ludeon.com/forums/index.php?topic=2933.0
@@ -15,13 +15,13 @@ Remember, if you are updating from a older version delete the old one first!
 
 RimWorld-cn
 Rimworld中文汉化
-适用于Rimworld 0.6.532 (Alpha 6)版
+适用于Rimworld 0.7.581 (Alpha 7)版
 ======================
 汉化内容许可信息:
 http://ludeon.com/forums/index.php?topic=2933.0
 ======================
-贴吧汉化贴: 点击"只看楼主"然后翻到最后一页来寻找最新的版本!
+贴吧汉化贴: 点击"只看楼主"然后翻到最后一页来确认你的版本是否是最新!
 http://tieba.baidu.com/p/2988206699
 
 注意，安装汉化之前请完全移除旧版汉化!
-(删除 安装目录\Mods\Core\Languages\Chinese 这个文件夹)
+(删除 安装目录\Mods\Core\Languages\ChineseSimplified 这个文件夹)

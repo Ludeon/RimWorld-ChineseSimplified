@@ -14,13 +14,18 @@
   <DeadTime>死掉的{0}</DeadTime>
   <WalkSpeed>行走速度{0}</WalkSpeed>
   <DyingLower>接近死亡</DyingLower>
-  <PawnEffectiveness>效率</PawnEffectiveness>
   <FilthOnFeet>脚上的污物:</FilthOnFeet>
   <NotEnoughStoredLower>储量不足</NotEnoughStoredLower>
   <NothingLower>无</NothingLower>
   <Adapted>适合</Adapted>
   <Headshot>命中头部</Headshot>
   <FreshMissingBodyPart>新鲜</FreshMissingBodyPart>
+  <UntreatedLower>未处理</UntreatedLower>
+  <DevelopedImmunityLower>产生免疫</DevelopedImmunityLower>
+  <InjuryRequiresTreatment>需要处理才可愈合</InjuryRequiresTreatment>
+  <NextTreatmentAfter>{0}天后进行下一次处理</NextTreatmentAfter>
+  <MissingMedicalBillIngredient>缺少{0}</MissingMedicalBillIngredient>
+  <ImmunityDevelopmentProgress>产生免疫性的进度</ImmunityDevelopmentProgress>
 
   <!-- Turrets -->
   <GunInstalled>已安装</GunInstalled>
@@ -31,10 +36,12 @@
 	<!-- Job reports -->
 	<ReportHaulingTo>把{0}搬到{1}。</ReportHaulingTo>
 	<ReportHauling>搬动{0}中。</ReportHauling>
+	<ReportSleeping>睡眠中。</ReportSleeping>
+	<ReportResting>休息中。</ReportResting>
 
 	<!-- Shooting report -->
 	<WeaponMissRadius>武器误差半径</WeaponMissRadius>
-	<ShootReportSkill>技能</ShootReportSkill>
+	<ShootReportShooterAbility>射击者</ShootReportShooterAbility>
 	<ShootReportWeapon>武器</ShootReportWeapon>
 	<Darkness>黑暗</Darkness>
 	<TargetProne>目标动作</TargetProne>
@@ -49,7 +56,7 @@
   <Mood>心情值</Mood>
   <MoodTip>心情是通过满足心理和身体上的需求来保持的。\n\n如果一个人的心情值太低，他们可能会精神崩溃。</MoodTip>
   <Food>食物值</Food>
-  <FoodTip>食物值表示了一个生物吃下的营养物的多少。如果食物值为零，生物会因为饥饿而受到持续伤害。</FoodTip>
+  <FoodTip>食物值表示了一个生物最近吃下的营养物的多少。如果食物值为零，生物会因为饥饿而受到持续伤害。</FoodTip>
   <Rest>休息值</Rest>
   <RestTip>休息值表示需要放松或睡觉的程度。\n\n睡觉时休息值会增加到最大。不在睡觉时休息值会随时间降低。</RestTip>
   <Environment>环境值</Environment>
@@ -62,14 +69,6 @@
   <ThoughtStartsExpiringIn>消逝开始时间:{0}</ThoughtStartsExpiringIn>
   <ThoughtFinishesExpiringIn>消逝结束时间:{0}</ThoughtFinishesExpiringIn>
   <MentalBreakThreshold>精神崩溃临界值</MentalBreakThreshold>
-  
-  
-  
-  <!--Effectiveness-->
-  <EffectivenessFull>完整的</EffectivenessFull>
-  <EffectivenessReduced>降低的</EffectivenessReduced>
-  <EffectivenessImpaired>受损的</EffectivenessImpaired>
-  <EffectivenessIncapacitated>残缺的</EffectivenessIncapacitated>
   
   
   <!-- Pawn info readout -->
@@ -95,6 +94,7 @@
   <Poor>较差</Poor>
   <Weakened>虚弱</Weakened>
   <GoodCondition>健康</GoodCondition>
+  <Enhanced>增强</Enhanced>
   <SeriouslyImpaired>严重受损</SeriouslyImpaired>
   <Impaired>严重受损</Impaired>
   <SlightlyImpaired>轻微受损</SlightlyImpaired>
@@ -108,6 +108,7 @@
   <SelectNextInSquareTip>选择同一个方块里的下一件东西。\n\n快捷键: {0}\n\n你也可以慢速重复点击同一个方块来选择。</SelectNextInSquareTip>
   <DefInfoTip>查看关于这个物件的信息。</DefInfoTip>
   
+  
   <!-- ITab titles -->
   <TabBills>清单</TabBills>
   <TabGrowing>生长中</TabGrowing>
@@ -117,6 +118,10 @@
   <TabGear>装备</TabGear>
   <TabThoughts>想法</TabThoughts>
   <TabStorage>贮存</TabStorage>
+  <TabHealth>健康</TabHealth>
+  <TabRace>种族</TabRace>
+  <TabBasics>基础</TabBasics>
+  <TabStats>状态</TabStats>
   
   <!-- ITabs -->
   <AddBill>增加清单</AddBill>
@@ -141,30 +146,40 @@
   <DropThing>丢下</DropThing>
   <TotalModifiers>总效果</TotalModifiers>
   <DamageAbsorption>伤害吸收</DamageAbsorption>
+  <DamageDeflection>伤害反射</DamageDeflection>
   <MoveSpeed>移动速度</MoveSpeed>
   <Efficiency>效率</Efficiency>
   <MissingBodyPart>不存在</MissingBodyPart>
   <DestroyedBodyPart>被毁</DestroyedBodyPart>
   <ShatteredBodyPart>击碎</ShatteredBodyPart>
+  <RemovedBodyPart>移除</RemovedBodyPart>
   <Healthy>健康</Healthy>
   <InPain>感到疼痛</InPain>
   <PainLevel>痛苦</PainLevel>
   <Dead>死亡</Dead>
   <Unconscious>失去知觉</Unconscious>
   <PainShock>暂时休克</PainShock>
+  <Injured>受伤</Injured>
   <NoInjuries>(没有受伤)</NoInjuries>
   <WholeBody>全身</WholeBody>
   <RenameColonist>重命名殖民者</RenameColonist>
   <DataProcessing>数据处理</DataProcessing>
   <Communication>交流</Communication>
+  <AffectsLower>影响</AffectsLower>
+  <BleedingRate>流失率</BleedingRate>
+  <HealthOverview>概况</HealthOverview>
+  <MedicalOperationsShort>手术({0})</MedicalOperationsShort>
+  <MedicalOperationsMechanoidsShort>修改({0})</MedicalOperationsMechanoidsShort>
+  <MedicalOperations>医疗手术</MedicalOperations>
+  <Amputate>截肢</Amputate>
+  <Harvest>摘除</Harvest>
   
   <!-- like 'Blood of John' -->
   <OfLower>来自</OfLower>
 
   <!-- Power readout -->
   <PowerNotConnected>未连接电网。</PowerNotConnected>
-  <PowerConnectedRate>电网功率: {0} W</PowerConnectedRate>
-  <PowerConnectedStored>电网蓄电: {0} Wd</PowerConnectedStored>
+  <PowerConnectedRateStored>电网功率/蓄电: {0} W / {1} Wd</PowerConnectedRateStored>
   <PowerNeeded>电力消耗</PowerNeeded>
   <PowerOutput>电力输出</PowerOutput>
   <PowerBatteryStored>蓄电</PowerBatteryStored>
@@ -200,6 +215,7 @@
   <FullyGrownIn>{0}后长成</FullyGrownIn>
   <ReadyToHarvest>待收获</ReadyToHarvest>
   <Mature>成熟。</Mature>
+  <SeedLabel>{0}种子</SeedLabel>
   
   <!-- Zones -->
   <Zone>区域</Zone>
@@ -216,9 +232,9 @@
   <Undiscovered>未发现</Undiscovered>
   
   <!-- Buttons -->
-  <ZoneVisibilityToggleButton>切换区域的可见性。</ZoneVisibilityToggleButton>
-  <AutoHomeRegionToggleButton>切换自动在新建造的建筑附近添加生活区。</AutoHomeRegionToggleButton>
-  
+  <ZoneVisibilityToggleButton>开关区域的可见性。</ZoneVisibilityToggleButton>
+  <AutoHomeRegionToggleButton>开关自动在新建造的建筑附近添加生活区。</AutoHomeRegionToggleButton>
+  <CategorizedResourceReadoutToggleButton>开关资源数量的分类模式。</CategorizedResourceReadoutToggleButton>
   
   <!-- Fire -->
   <Fire>火焰</Fire>
@@ -230,7 +246,8 @@
   <!-- Map conditions (eclipse, solar flare, etc )-->
   <MapConditionsTip>正在干扰区域的特殊情况。</MapConditionsTip>
   
-  
+  <!-- Building placement -->
+  <NoStuffsToBuildWith>你没有可以用来建造这个建筑的材料。</NoStuffsToBuildWith>
   
   <!-- Building placement restricters -->
   <MustPlaceUnroofed>不能放置在屋顶下。</MustPlaceUnroofed>
@@ -238,15 +255,20 @@
   <MustPlaceNextToHopperAccepter>必须放置在需要储料器的物件边上。</MustPlaceNextToHopperAccepter>
   <MustPlaceOnSteamGeyser>必须直接放置在间歇蒸汽泉上。</MustPlaceOnSteamGeyser>
   
+  
+  
   <!-- Cryptosleep pod -->
-  <PodContains>包含</PodContains>
+  <PodContains>装有</PodContains>
 
   <!-- Ship launch report -->
   <ShipReportCannotLaunch>无法发射。</ShipReportCannotLaunch>
   <ShipReportCanLaunch>准备发射。</ShipReportCanLaunch>
   <ShipReportMissingPart>缺少关键性组件</ShipReportMissingPart>
   <ShipReportNoFullPods>没有装满的休眠舱</ShipReportNoFullPods>
-
+  
+  <!-- Neurotrainer -->
+  <UseNeurotrainer>使用神经训练器来学习{0}</UseNeurotrainer>
+  <NeurotrainerUsed>{0}用{1}神经训练器从{2}级升到了{3}级。</NeurotrainerUsed>
   
   
   <!-- Game over -->

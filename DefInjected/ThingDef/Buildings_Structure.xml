@@ -1,19 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 		
-        <DoorPowered.label>动力门</DoorPowered.label>
-        <DoorPowered.description>把房间分隔开来。有电时会在人们通过时自动开启让人无需减速即可通过。</DoorPowered.description>
-        <DoorWood.label>木制门</DoorWood.label>
-        <DoorWood.description>把房间分隔开来。只能手动开关，人们通过时会减慢速度。</DoorWood.description>
+        <Autodoor.label>自动门</Autodoor.label>
+        <Autodoor.description>把房间分隔开来。有电时会在人们通过时自动开启让人无需减速即可通过。</Autodoor.description>
+        <Door.label>门</Door.label>
+        <Door.description>把房间分隔开来。只能手动开关，人们通过时会减慢速度。</Door.description>
 		
 		<!--========================= Walls =============================-->
-		<WallLog.label>原木墙</WallLog.label>
-        <WallLog.description>一堆原木堆成的墙。很坚韧并建造迅速，但是很易燃而且不能传输电力。</WallLog.description>
-		<WallWood.label>木制墙</WallWood.label>
-        <WallWood.description>用木板做成的内置电缆的墙。既便宜建造起来也很快，但是很脆弱并且易燃。</WallWood.description>
-        <WallMetal.label>金属墙</WallMetal.label>
-        <WallMetal.description>一面内置电缆的金属墙。坚韧，但是很昂贵而且需要建造时间较长。</WallMetal.description>
-        <WallStone.label>石质墙</WallStone.label>
-        <WallStone.description>一面石质的墙。可以保持几个世纪。不会着火也不会传输电力。</WallStone.description>
+		<Wall.label>墙</Wall.label>
+        <Wall.description>一面无法通过的墙。可以制成起屋顶。</Wall.description>
+        <WallConduit.label>电缆墙</WallConduit.label>
+        <WallConduit.description>一面内置电缆的墙。</WallConduit.description>
 		
 </LanguageData>
