@@ -4,44 +4,52 @@
 		<!--=============== Currency ====================-->
         <Silver.label>银石</Silver.label>
 		<Silver.description>这种金属主要用作通用货币。也可以用来制作引人注目的装饰品。</Silver.description>
+		<Silver.stuffProps.nameAsStuff>银</Silver.stuffProps.nameAsStuff>
 		
 		<Gold.label>黄金</Gold.label>
 		<Gold.description>世界上最有诱惑力的金属。无数的人因为对黄金的饥渴命丧黄泉。这种黄色的金属本身用途不大，但非常漂亮并且极度稀少。</Gold.description>
+		<Gold.stuffProps.nameAsStuff>金</Gold.stuffProps.nameAsStuff>
 		
         <Metal.label>金属</Metal.label>
 		<Metal.description>一种可以用来建造建筑、工具或武器的多用途材料。</Metal.description>
+		<!--<Metal.stuffProps.nameAsStuff>金属</Metal.stuffProps.nameAsStuff>-->
 		
 		<Plasteel.label>玻璃钢</Plasteel.label>
 		<Plasteel.description>先进的太空时代材料，玻璃钢因为它独特的分子结构拥有非常高的强度。</Plasteel.description>
+		<!--<Plasteel.stuffProps.nameAsStuff>玻璃钢</Plasteel.stuffProps.nameAsStuff>-->
 		
         <StoneBlocks.label>石块</StoneBlocks.label>
 		<StoneBlocks.description>实心的石块，主要用来建造高强度、高持久度的简单建筑。</StoneBlocks.description>
+		<StoneBlocks.stuffProps.nameAsStuff>石</StoneBlocks.stuffProps.nameAsStuff>
 		
-		<WoodLog.label>木头</WoodLog.label>
-		<WoodLog.description>由植物生长而成的木材。可以用来建造建筑、武器甚至简单的假肢。一捆木头也可直接当作武器来使用。</WoodLog.description>
-		
-		<!--
 		<WoodLog.label>原木</WoodLog.label>
-		<WoodLog.description>用来建造建筑，可以切成木板。</WoodLog.description>
+		<WoodLog.description>由植物生长而成的木材。可以用来建造建筑、武器甚至简单的假肢。一捆木头也可直接当作武器来使用。</WoodLog.description>
+		<WoodLog.stuffProps.nameAsStuff>木</WoodLog.stuffProps.nameAsStuff>
+		<!--
 		<WoodPlank.label>木板</WoodPlank.label>
 		<WoodPlank.description>用来建造建筑。</WoodPlank.description>
 		-->
 		
 		<Uranium.label>铀</Uranium.label>
 		<Uranium.description>给反应堆提供能源。</Uranium.description>
+		<!--<Uranium.stuffProps.nameAsStuff>铀</Uranium.stuffProps.nameAsStuff>-->
 		
 		<!--=============== Pure stuffs: Fabric, leather, etc  ====================-->
 		<Cloth.label>布</Cloth.label>
 		<Cloth.description>由有机纤维织成的布。</Cloth.description>
+		<!--<Cloth.stuffProps.nameAsStuff>布</Cloth.stuffProps.nameAsStuff>-->
 		
 		<Synthread.label>合成纤维</Synthread.label>
 		<Synthread.description>太空科技制成的制造服装用的纤维。柔软，轻，强韧而且拥有很好的绝缘性。</Synthread.description>
+		<!--<Synthread.stuffProps.nameAsStuff>合成纤维</Synthread.stuffProps.nameAsStuff>-->
 		
 		<DevilstrandCloth.label>魔鬼绳</DevilstrandCloth.label>
 		<DevilstrandCloth.description>从产丝的魔鬼绳菌直接提取的纤维，强度非常高。</DevilstrandCloth.description>
+		<!--<DevilstrandCloth.stuffProps.nameAsStuff>魔鬼绳</DevilstrandCloth.stuffProps.nameAsStuff>-->
 		
 		<Hyperweave.label>超织物</Hyperweave.label>
 		<Hyperweave.description>制成布状的纳米纤维，比较重，但是几乎不可能被撕裂。</Hyperweave.description>
+		<!--<Hyperweave.stuffProps.nameAsStuff>超织物</Hyperweave.stuffProps.nameAsStuff>-->
 		
 		<!--=============== Raw foods ====================-->
         <RawPotatoes.label>土豆</RawPotatoes.label>
