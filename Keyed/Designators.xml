@@ -1,88 +1,96 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
-		
-		<DesignatorCancel>取消</DesignatorCancel>
-		<DesignatorCancelDesc>取消指定的建造、采矿、搬运、收获和其它所有的指令。</DesignatorCancelDesc>
-		
-		<DesignatorCutPlants>剪裁植物</DesignatorCutPlants>
-		<DesignatorCutPlantsDesc>标记需要剪裁或移除的植物。选中的植物将被完全移除，植物上的食物会被自动收获。</DesignatorCutPlantsDesc>
-		
-		<DesignatorDeconstruct>拆除</DesignatorDeconstruct>
-		<DesignatorDeconstructDesc>拆除建筑并回收部分资源。</DesignatorDeconstructDesc>
-		
-		<DesignatorHarvest>收获</DesignatorHarvest>
-		<DesignatorHarvestDesc>标记需要收获的植物来获取食物或其它作物。</DesignatorHarvestDesc>
-		
-		<DesignatorHarvestWood>砍伐树木</DesignatorHarvestWood>
-		<DesignatorHarvestWoodDesc>标记需要被砍掉的树木来获取木头。</DesignatorHarvestWoodDesc>
-		
-		<DesignatorHaulThings>搬运</DesignatorHaulThings>
-		<DesignatorHaulThingsDesc>标记需要搬到贮存区的垃圾等物品。不需要对食物和尸体使用，这些总是会自动完成的。</DesignatorHaulThingsDesc>
-		<NothingToHaulHere>没有可以搬运的物品。</NothingToHaulHere>
-		<MustHaulHaulables>只能标记可搬运但不会被自动搬运的物品。(比如垃圾)</MustHaulHaulables>
-		
-		<DesignatorHunt>狩猎</DesignatorHunt>
-		<DesignatorHuntDesc>标记需要被猎人猎取的动物。</DesignatorHuntDesc>
+  
+  <DesignatorCancel>取消</DesignatorCancel>
+  <DesignatorCancelDesc>取消指定的建造、采矿、搬运、收获和其它所有的指令。</DesignatorCancelDesc>
 
-		<DesignatorMine>开采</DesignatorMine>
-		<DesignatorMineDesc>标记需要被开采的岩石。</DesignatorMineDesc>
-		
-		<DesignatorPlan>计划</DesignatorPlan>
-		<DesignatorPlanDesc>放置计划中的指令。它们去了帮助你规划扩张之外没有别的用处。</DesignatorPlanDesc>
-		
-		<DesignatorPlanRemove>移除计划</DesignatorPlanRemove>
-		<DesignatorPlanRemoveDesc>移除计划中的指令。</DesignatorPlanRemoveDesc>
-		
-		<DesignatorHomeRegionAdd>添加生活区</DesignatorHomeRegionAdd>
-		<DesignatorHomeRegionAddDesc>殖民者只会修理，清理生活区的物件并只会扑灭生活区里的火。</DesignatorHomeRegionAddDesc>
-		
-		<DesignatorHomeRegionRemove>移除生活区</DesignatorHomeRegionRemove>
-		<DesignatorHomeRegionRemoveDesc>移除一片生活区。殖民者不会再在这里清理或者灭火。</DesignatorHomeRegionRemoveDesc>
-		
-		<DesignatorRegionNoRoofAdd>添加无屋顶区</DesignatorRegionNoRoofAdd>
-		<DesignatorRegionNoRoofAddDesc>添加不会出现屋顶的区域。殖民者也会移除这个区域内的所有屋顶。</DesignatorRegionNoRoofAddDesc>
-		
-		<DesignatorRegionNoRoofRemove>移除无屋顶区</DesignatorRegionNoRoofRemove>
-		<DesignatorRegionNoRoofRemoveDesc>移除一片无屋顶区。屋顶会自动生成，已经存在的屋顶不会被移除。</DesignatorRegionNoRoofRemoveDesc>
-		
-		<DesignatorGrowingZoneDesc>指定一片你希望你的殖民者种植某种植物的地方。</DesignatorGrowingZoneDesc>
-		
-		<DesignatorZoneCreateStorageResourcesDesc>建立一个让你的殖民者们存放资源的贮存区。\n这个工具也可以用来扩张已经存在的贮存区。</DesignatorZoneCreateStorageResourcesDesc>
-		
-		<DesignatorZoneCreateStorageDumpingDesc>建立一个让你的殖民者们存放垃圾的贮存区。\n这个工具也可以用来扩张已经存在的贮存区。</DesignatorZoneCreateStorageDumpingDesc>
-		
-		
-		<DesignatorZoneDelete>移除区域</DesignatorZoneDelete>
-		<DesignatorZoneDeleteDesc>移除贮存区或是种植区这样的区域。</DesignatorZoneDeleteDesc>
-		
-		<DesignatorClaim>占有</DesignatorClaim>
-		<DesignatorClaimDesc>把中立的建筑标为由你的派系拥有，包括遗迹和被抛弃的包围基地。殖民者会维护占有的建筑。</DesignatorClaimDesc>
-		
-		
-		<!-- placement of blueprints -->
-		<UnchosenStuff>未选择材质</UnchosenStuff>
-		<TooCloseToMapEdge>距离地图边缘太近。</TooCloseToMapEdge>
-		<OutOfBounds>在界限之外。</OutOfBounds>
-		<CannotPlaceInUndiscovered>不能放置在未发现的区域内。</CannotPlaceInUndiscovered>
-		<InteractionSpotBlocked>互动点被{0}挡住。</InteractionSpotBlocked>
-		<InteractionSpotOutOfBounds>互动点在界限之外。</InteractionSpotOutOfBounds>
-		<InteractionSpotWillBeBlocked>互动点将会被{0}挡住。</InteractionSpotWillBeBlocked>
-		<WouldBlockInteractionSpot>{0}会挡住{1}的互动点。</WouldBlockInteractionSpot>
-		<TerrainIsAlready>这里的地形已经是{0}了。</TerrainIsAlready>
-		<IdenticalThingExists>已经在同地方存在一样的东西。</IdenticalThingExists>
-		<IdenticalBlueprintExists>已经在同地方存在一样的蓝图。</IdenticalBlueprintExists>
-		<TerrainCannotSupport>地形无法支撑此物件。</TerrainCannotSupport>
-		<SpaceAlreadyOccupied>空间已被占用。</SpaceAlreadyOccupied>
-		
-		
-		
-		<!-- placement of zones -->
-		<ExpandOrCreateZone>扩展{0}或\n建立新的{1}</ExpandOrCreateZone>
-		<CreateNewZone>建立新的{0}</CreateNewZone>
-		
-		
-		<!-- desc helpers -->
-		<TransmitsPower>传输电力</TransmitsPower>
-		
-		
+  <DesignatorCutPlants>剪裁植物</DesignatorCutPlants>
+  <DesignatorCutPlantsDesc>标记需要剪裁或移除的植物。选中的植物将被完全移除，植物上的食物会被自动收获。</DesignatorCutPlantsDesc>
+  
+  <DesignatorDeconstruct>拆除</DesignatorDeconstruct>
+  <DesignatorDeconstructDesc>拆除建筑并回收部分资源。</DesignatorDeconstructDesc>
+  
+  <DesignatorHarvest>收获</DesignatorHarvest>
+  <DesignatorHarvestDesc>标记需要收获的植物来获取食物或其它作物。</DesignatorHarvestDesc>
+  
+  <DesignatorHarvestWood>砍伐树木</DesignatorHarvestWood>
+  <DesignatorHarvestWoodDesc>标记需要被砍掉的树木来获取木头。</DesignatorHarvestWoodDesc>
+  
+  <DesignatorHaulThings>搬运</DesignatorHaulThings>
+  <DesignatorHaulThingsDesc>标记需要搬到贮存区的垃圾等物品。不需要对食物和尸体使用，这些总是会自动完成的。</DesignatorHaulThingsDesc>
+  <NothingToHaulHere>没有可以搬运的物品。</NothingToHaulHere>
+  <MustHaulHaulables>只能标记可搬运但不会被自动搬运的物品。(比如垃圾)</MustHaulHaulables>
+  
+  <DesignatorHunt>狩猎</DesignatorHunt>
+  <DesignatorHuntDesc>标记需要被猎人猎取的动物。</DesignatorHuntDesc>
+
+  <DesignatorMine>开采</DesignatorMine>
+  <DesignatorMineDesc>标记需要被开采的岩石。</DesignatorMineDesc>
+  
+  <DesignatorSmoothFloor>磨光地面</DesignatorSmoothFloor>
+  <DesignatorSmoothFloorDesc>标记需要被磨光的粗糙地面。</DesignatorSmoothFloorDesc>
+  
+  <DesignatorPlan>计划</DesignatorPlan>
+  <DesignatorPlanDesc>放置计划中的指令。它们去了帮助你规划扩张之外没有别的用处。</DesignatorPlanDesc>
+  
+  <DesignatorPlanRemove>移除计划</DesignatorPlanRemove>
+  <DesignatorPlanRemoveDesc>移除计划中的指令。</DesignatorPlanRemoveDesc>
+  
+  <DesignatorHomeRegionAdd>添加生活区</DesignatorHomeRegionAdd>
+  <DesignatorHomeRegionAddDesc>殖民者只会修理，清理生活区的物件并只会扑灭生活区里的火。</DesignatorHomeRegionAddDesc>
+  
+  <DesignatorHomeRegionRemove>移除生活区</DesignatorHomeRegionRemove>
+  <DesignatorHomeRegionRemoveDesc>移除一片生活区。殖民者不会再在这里清理或者灭火。</DesignatorHomeRegionRemoveDesc>
+  
+  <DesignatorRegionNoRoofAdd>添加无屋顶区</DesignatorRegionNoRoofAdd>
+  <DesignatorRegionNoRoofAddDesc>添加不会出现屋顶的区域。殖民者也会移除这个区域内的所有屋顶。</DesignatorRegionNoRoofAddDesc>
+  
+  <DesignatorRegionNoRoofRemove>移除无屋顶区</DesignatorRegionNoRoofRemove>
+  <DesignatorRegionNoRoofRemoveDesc>移除一片无屋顶区。屋顶会自动生成，已经存在的屋顶不会被移除。</DesignatorRegionNoRoofRemoveDesc>
+  
+  <DesignatorRegionSnowClearAdd>添加除雪区</DesignatorRegionSnowClearAdd>
+  <DesignatorRegionSnowClearAddDesc>创建一片除雪区域，殖民者会试图除掉这片区域的雪。</DesignatorRegionSnowClearAddDesc>
+
+  <DesignatorRegionSnowClearRemove>移除除雪区</DesignatorRegionSnowClearRemove>
+  <DesignatorRegionSnowClearRemoveDesc>移除一片除雪区域，殖民者不会再除掉这片区域的雪。</DesignatorRegionSnowClearRemoveDesc>
+
+  <DesignatorGrowingZoneDesc>指定一片你希望你的殖民者种植某种植物的地方。</DesignatorGrowingZoneDesc>
+  
+  <DesignatorZoneCreateStorageResourcesDesc>建立一个让你的殖民者们存放资源的贮存区。\n这个工具也可以用来扩张已经存在的贮存区。</DesignatorZoneCreateStorageResourcesDesc>
+  
+  <DesignatorZoneCreateStorageDumpingDesc>建立一个让你的殖民者们存放垃圾的贮存区。\n这个工具也可以用来扩张已经存在的贮存区。</DesignatorZoneCreateStorageDumpingDesc>
+  
+  <DesignatorZoneDelete>移除区域</DesignatorZoneDelete>
+  <DesignatorZoneDeleteDesc>移除贮存区或是种植区这样的区域。</DesignatorZoneDeleteDesc>
+  
+  <DesignatorClaim>占有</DesignatorClaim>
+  <DesignatorClaimDesc>把中立的建筑标为由你的派系拥有，包括遗迹和被抛弃的包围基地。殖民者会维护占有的建筑。</DesignatorClaimDesc>
+  
+  
+  <!-- placement of blueprints -->
+  <UnchosenStuff>未选择材质</UnchosenStuff>
+  <TooCloseToMapEdge>距离地图边缘太近。</TooCloseToMapEdge>
+  <OutOfBounds>在界限之外。</OutOfBounds>
+  <CannotPlaceInUndiscovered>不能放置在未发现的区域内。</CannotPlaceInUndiscovered>
+  <InteractionSpotBlocked>互动点被{0}挡住。</InteractionSpotBlocked>
+  <InteractionSpotOutOfBounds>互动点在界限之外。</InteractionSpotOutOfBounds>
+  <InteractionSpotWillBeBlocked>互动点将会被{0}挡住。</InteractionSpotWillBeBlocked>
+  <WouldBlockInteractionSpot>{0}会挡住{1}的互动点。</WouldBlockInteractionSpot>
+  <TerrainIsAlready>这里的地形已经是{0}了。</TerrainIsAlready>
+  <IdenticalThingExists>已经在同地方存在一样的东西。</IdenticalThingExists>
+  <IdenticalBlueprintExists>已经在同地方存在一样的蓝图。</IdenticalBlueprintExists>
+  <TerrainCannotSupport>地形无法支撑此物件。</TerrainCannotSupport>
+  <SpaceAlreadyOccupied>空间已被占用。</SpaceAlreadyOccupied>
+  
+  
+  
+  <!-- placement of zones -->
+  <ExpandOrCreateZone>扩展{0}或\n建立新的{1}</ExpandOrCreateZone>
+  <CreateNewZone>建立新的{0}</CreateNewZone>
+  
+  
+  <!-- desc helpers -->
+  <TransmitsPower>传输电力</TransmitsPower>
+  
+  
 </LanguageData>

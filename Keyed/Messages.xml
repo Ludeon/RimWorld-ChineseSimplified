@@ -1,53 +1,62 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
-		
-		<MessageSiegersAssaulting>来自{1}包围殖民地的{0}开始突击殖民地。</MessageSiegersAssaulting>
-		
-		<MessageRaidersBeginningAssault>来自{1}的{0}开始了他们的进攻。</MessageRaidersBeginningAssault>
-		<MessageRaidersDetectedEarlyAssault>来自{1}的{0}发现了你并提前开始了进攻。</MessageRaidersDetectedEarlyAssault>
-		<MessageRaidersKidnapping>来自{1}的{0}打算绑架他们能带走的人并离开。</MessageRaidersKidnapping>
-		
-		<MessageRaidersLeaving>来自{1}的{0}离开了。</MessageRaidersLeaving>
-		<MessageRaidersGivenUpLeaving>来自{1}的{0}放弃并离开了。</MessageRaidersGivenUpLeaving>
-		<MessageRaidersSatisfiedLeaving>来自{1}的{0}对于他们造成的破坏满意了并离开了。</MessageRaidersSatisfiedLeaving>
-		
-		
-		<MessageFightersFleeing>来自{1}的{0}正在逃跑。</MessageFightersFleeing>
-		<MessageFriendlyFightersLeaving>来自{1}的友好{0}离开了。</MessageFriendlyFightersLeaving>
-		
-
-		
-		<MessageShipHasLeftCommsRange>{0}离开了通讯范围。</MessageShipHasLeftCommsRange>
-		<MessageNeedBeaconToTradeWithShip>你需要一个轨道交易信标才能和飞船交易。</MessageNeedBeaconToTradeWithShip>
+  
+  
+  <MessageSiegersAssaulting>来自{1}包围殖民地的{0}开始突击殖民地。</MessageSiegersAssaulting>
+  
+  <MessageRaidersBeginningAssault>来自{1}的{0}开始了他们的进攻。</MessageRaidersBeginningAssault>
+  <MessageRaidersDetectedEarlyAssault>来自{1}的{0}发现了你并提前开始了进攻。</MessageRaidersDetectedEarlyAssault>
+  <MessageRaidersKidnapping>来自{1}的{0}打算绑架他们能带走的人并离开。</MessageRaidersKidnapping>
+  
+  <MessageRaidersLeaving>来自{1}的{0}离开了。</MessageRaidersLeaving>
+  <MessageRaidersGivenUpLeaving>来自{1}的{0}放弃并离开了。</MessageRaidersGivenUpLeaving>
+  <MessageRaidersSatisfiedLeaving>来自{1}的{0}对于他们造成的破坏满意了并离开了。</MessageRaidersSatisfiedLeaving>
+  
+  
+  <MessageFightersFleeing>来自{1}的{0}正在逃跑。</MessageFightersFleeing>
+  <MessageFriendlyFightersLeaving>来自{1}的友好{0}离开了。</MessageFriendlyFightersLeaving>
+  
+  <MessageSeasonBegun>{0}开始了。</MessageSeasonBegun>
+  
+  <MessageShipHasLeftCommsRange>{0}离开了通讯范围。</MessageShipHasLeftCommsRange>
+  
+  <MessageNeedBeaconToTradeWithShip>你需要一个轨道交易信标才能和飞船交易。</MessageNeedBeaconToTradeWithShip>
 	
-		<MessageBillComplete>清单完成: {0}。</MessageBillComplete>
-		<MessageFullyHealed>{0}完全康复了。</MessageFullyHealed>
+  <MessageBillComplete>清单完成: {0}。</MessageBillComplete>
+  
+  <MessageFullyHealed>{0}完全康复了。</MessageFullyHealed>
 
-		<MessagePrisonerIsEscaping>囚犯{0}正在逃跑。</MessagePrisonerIsEscaping>
-		
-		<MessageRecruitSuccess>{0}成功招募了{1}(成功率{2})。</MessageRecruitSuccess>
-		<MessageRecruitFail>{0}没能成功招募{1}(成功率{2})。</MessageRecruitFail>
-		<MessageRecruitFailBecauseLoyalty>{0}没能成功招募{1}。(囚犯心情值低于最低要求)</MessageRecruitFailBecauseLoyalty>
-		
-		<MessagePoorlyTreated>{1}治疗了{0}(治疗效果差, 治疗效果好的几率{2})。</MessagePoorlyTreated>
-		<MessageWellTreated>{1}治疗了{0} (治疗效果好, 治疗效果好的几率{2})。</MessageWellTreated>
-		
-		<MessageTraderCannotAfford>商人无法支付这笔交易。</MessageTraderCannotAfford>
-		<MessageColonyCannotAfford>殖民地无法支付这笔交易。</MessageColonyCannotAfford>
-		<MessageColonyNotEnoughSilver>可用于交易的银石不足。</MessageColonyNotEnoughSilver>
-		<MessageTraderNotEnoughSilver>商人没有足够的银石。</MessageTraderNotEnoughSilver>
-		
-		<MessageCriticalAlert>严重警报: {0}</MessageCriticalAlert>
-		
-		<MessageMustDesignateHarvestable>必须指定长有作物并长成的植物。</MessageMustDesignateHarvestable>
-		<MessageMustDesignateHarvestableWood>必须指定可收获木头并长成的树木。</MessageMustDesignateHarvestableWood>
-		<MessageMustDesignatePlants>必须指定植物。</MessageMustDesignatePlants>
-		<MessageMustDesignateHaulable>必须指定可以搬运的物品。</MessageMustDesignateHaulable>
-		
-		<MessageNoMedicalBeds>没有可用的医疗床。</MessageNoMedicalBeds>
-		
-		<PawnDiedBecauseOf>{0}因{1}而死。</PawnDiedBecauseOf>
+  <MessagePrisonerIsEscaping>囚犯{0}正在逃跑。</MessagePrisonerIsEscaping>
+  
+  <MessageRecruitSuccess>{0}成功招募了{1}(成功率{2})。</MessageRecruitSuccess>
+  <MessageRecruitFail>{0}没能成功招募{1}(成功率{2})。</MessageRecruitFail>
+  <MessageRecruitFailBecauseLoyalty>{0}没能成功招募{1}。(囚犯心情值低于最低要求)</MessageRecruitFailBecauseLoyalty>
+  
+  <MessagePoorlyTreated>{1}治疗了{0}(治疗效果差, 治疗效果好的几率{2})。</MessagePoorlyTreated>
+  <MessageWellTreated>{1}治疗了{0} (治疗效果好, 治疗效果好的几率{2})。</MessageWellTreated>
+  
+  <MessageTraderCannotAfford>商人无法支付这笔交易。</MessageTraderCannotAfford>
+  <MessageColonyCannotAfford>殖民地无法支付这笔交易。</MessageColonyCannotAfford>
+  <MessageColonyNotEnoughSilver>可用于交易的银石不足。</MessageColonyNotEnoughSilver>
+  <MessageTraderNotEnoughSilver>商人没有足够的银石。</MessageTraderNotEnoughSilver>
+  
+  <MessageCriticalAlert>严重警报: {0}</MessageCriticalAlert>
+  
+  <MessageMustDesignateHarvestable>必须指定长有作物并长成的植物。</MessageMustDesignateHarvestable>
+  <MessageMustDesignateHarvestableWood>必须指定可收获木头并长成的树木。</MessageMustDesignateHarvestableWood>
+  <MessageMustDesignatePlants>必须指定植物。</MessageMustDesignatePlants>
+  <MessageMustDesignateHaulable>必须指定可以搬运的物品。</MessageMustDesignateHaulable>
+  <MessageMustDesignateMineable>必须指定不可通过的岩石。</MessageMustDesignateMineable>
+  <MessageMustDesignateHuntable>必须指定可以猎杀的物品。</MessageMustDesignateHuntable>
+  <MessageMustDesignateClaimable>必须指定被放弃的人工建筑。</MessageMustDesignateClaimable>
+  <MessageMustDesignateSmoothableFloor>必须指定粗糙的石面。</MessageMustDesignateSmoothableFloor>
+  
+  
+  <MessageNoMedicalBeds>没有可用的医疗床。</MessageNoMedicalBeds>
+  
+  <PawnDiedBecauseOf>{0}因{1}而死。</PawnDiedBecauseOf>
 
-		<MessageNoLongerDowned>{0}可以再行走了。</MessageNoLongerDowned>
+  <MessageNoLongerDowned>{0}可以再行走了。</MessageNoLongerDowned>
+  
   
 </LanguageData>

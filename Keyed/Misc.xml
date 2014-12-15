@@ -19,19 +19,30 @@
   <DevelopmentBuildLower>开发者版</DevelopmentBuildLower>
   <CompiledOn>汇编于{0}</CompiledOn>
 
-	<MeatLabel>{0}肉</MeatLabel>
+  
+  
+  <!-- Content generation-->
+  
+  <MeatLabel>{0}肉</MeatLabel>
   <MeatDesc>{0}上的生肉。</MeatDesc>
   
   <LeatherLabel>{0}皮</LeatherLabel>
   <LeatherDesc>由{0}的皮肤制成的皮革</LeatherDesc>
 
-	<CorpseLabel>{0}尸体</CorpseLabel>
-	<CorpseDesc>{0}的尸体。</CorpseDesc>
-	<DeadLabel>{0}(死亡)</DeadLabel>
+  <CorpseLabel>{0}尸体</CorpseLabel>
+  <CorpseDesc>{0}的尸体。</CorpseDesc>
+  <DeadLabel>{0}(死亡)</DeadLabel>
 
-
-	<BlueprintLabelExtra> (蓝图)</BlueprintLabelExtra>
+  <RoughStoneTerrainLabel>粗糙的{0}</RoughStoneTerrainLabel>
+  <RoughStoneTerrainDesc>粗糙的天然{0}地面。</RoughStoneTerrainDesc>
+  <RoughHewnStoneTerrainLabel>非常粗糙的{0}</RoughHewnStoneTerrainLabel>
+  <RoughHewnStoneTerrainDesc>非常粗糙的天然{0}地面。</RoughHewnStoneTerrainDesc>
+  <SmoothStoneTerrainLabel>光滑的{0}</SmoothStoneTerrainLabel>
+  <SmoothStoneTerrainDesc>光滑的天然{0}地面。</SmoothStoneTerrainDesc>
+  
+  <BlueprintLabelExtra> (蓝图)</BlueprintLabelExtra>
   <FrameLabelExtra> (框架)</FrameLabelExtra>
+  
   
   <!-- For things made of stuff, e.g. "Stone bed" -->
   <!-- 0 is the nameAsStuff property under stuffProps and 1 is the label -->

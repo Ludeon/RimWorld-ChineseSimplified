@@ -52,14 +52,16 @@
   
   
   <!-- Advanced game start options -->
-  <MapSizePerformanceWarning>警告：在大地图下游戏性能可能会根据配置不同有所下降。\n\n如果你的配置较低，请选择小地图。\n\n巨大尺寸没有经过测试。</MapSizePerformanceWarning>
+  <MapTemperatureDangerWarning>警告: 你将会降落在一个冰冻的区域。这可能会让生存非常艰难。如果你并不想挑战艰难的环境，选择另一个降落点或另一个月份。</MapTemperatureDangerWarning>
+  <MapSizePerformanceWarning>警告: 在大地图下游戏性能可能会根据配置不同有所下降。\n\n如果你的配置较低，请选择小地图。\n\n巨大尺寸没有经过测试。</MapSizePerformanceWarning>
   <MapSize>地图大小</MapSize>
   <MapSizeDesc>{0}x{0} ({1}个方块)</MapSizeDesc>
   <MapSizeSmall>小</MapSizeSmall>
   <MapSizeMedium>中</MapSizeMedium>
   <MapSizeLarge>大</MapSizeLarge>
   <MapSizeExtreme>巨大</MapSizeExtreme>
-  
+  <MapStartMonth>开始月份:</MapStartMonth>
+  <MapStartMonthDefault>自动</MapStartMonthDefault>
   
   
   <!-- Bill config -->
@@ -71,10 +73,13 @@
   <IngredientSearchRadius>材料搜索半径</IngredientSearchRadius>
   <TargetCount>在达到数量之前一直不停制作: {0}</TargetCount>
   <Infinite>无限</Infinite>
+  
   <RecipeCannotHaveTargetCount>(因为这个配方有多个或是不可预估的成品所以不能为它指定目标数量)</RecipeCannotHaveTargetCount>
   <PermittedIngredients>允许的材料</PermittedIngredients>
+  <WorkAmount>工作量</WorkAmount>
   <MinimumSkills>最低技能值:</MinimumSkills>
   <BillRequires>需要{0}{1}</BillRequires>
+  <BillRequiresMayVary>(数量可能会因为非标准体积的原料而改变，比如黄金。)</BillRequiresMayVary>
   <UsableIngredients>可使用的原料</UsableIngredients>
   <DoXTimes>做...次</DoXTimes>
   <DoUntilYouHaveX>做直到拥有...个</DoUntilYouHaveX>
@@ -84,14 +89,7 @@
   <BillStoreMode_BestStockpile>放到最合适的贮藏区</BillStoreMode_BestStockpile>
   <BillStoreMode_NearestStockpileAnyPriority>放到最近的贮藏区</BillStoreMode_NearestStockpileAnyPriority>
   
-  <!-- Def Card -->
-  <Type>类别</Type>
-  <GunType>枪支</GunType>
-  <PlantType>植物</PlantType>
-  <FoodType>食物</FoodType>
-  <HumanType>人类</HumanType>
-  <AnimalType>动物</AnimalType>
-  <MechanoidType>机器人</MechanoidType>
+  <!-- Info card -->
   <Damage>伤害</Damage>
   <Accuracy>精度</Accuracy>
   <BurstShotCount>连射次数</BurstShotCount>
@@ -116,9 +114,8 @@
   <MinFoodQuality>最低食物质量</MinFoodQuality>
   <Diet>饮食</Diet>
   <RecruitDifficulty>招募难度</RecruitDifficulty>
-  <baseMarketValue>基础价值</baseMarketValue>
+  <MarketValue>基础价值</MarketValue>
   <Covers>覆盖</Covers>
-  <NaturalArmorCovers>自然装甲覆盖</NaturalArmorCovers>
   <BodyPartEfficiency>身体部件效率</BodyPartEfficiency>
   
   <!-- Trade -->
@@ -139,24 +136,10 @@
 
   <!-- Comms -->
   <SocialSkillIs>社交技能: {0}</SocialSkillIs>
-
-  <!-- Stats report -->
-  <StatsReport_BaseValue>基础值</StatsReport_BaseValue>
-  <StatsReport_RelevantTraits>相关特性</StatsReport_RelevantTraits>
-  <StatsReport_RelevantGear>相关设备</StatsReport_RelevantGear>
-  <StatsReport_Material>材质</StatsReport_Material>
-  <StatsReport_CharacterQuality>角色品质</StatsReport_CharacterQuality>
-  <StatsReport_Skills>技能系数</StatsReport_Skills>
-  <StatsReport_OtherStats>其它状态系数</StatsReport_OtherStats>
-  <StatsReport_HealthFactors>健康系数</StatsReport_HealthFactors>
-  <HealthFactorPercentImpact>{0}重要度</HealthFactorPercentImpact>
-  <StatsReport_PostProcessed>曲线处理</StatsReport_PostProcessed>
-  <StatsReport_FinalValue>最终值</StatsReport_FinalValue>
-  
   
   <!--Research-->
   <ResearchFinished>完成的研究: {0}</ResearchFinished>
-  <ResearchScreen>研究菜单</ResearchScreen>
+  <ResearchScreen>研究界面</ResearchScreen>
   
   <!--HistoryUpload-->
   <HistoryUploadMessage>你想把游戏数据上传到RimWorld服务器以帮助开发者完善游戏平衡吗? 如果你同意，每隔{0}天你的游戏数据会被自动上传(以及在游戏结束等其他情况下上传)。之后可以在选项菜单里改变隐私设置。</HistoryUploadMessage>

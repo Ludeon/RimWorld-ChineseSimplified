@@ -18,9 +18,6 @@
   <NeedSawmill>需要锯木机</NeedSawmill>
   <NeedSawmillDesc>你需要锯木机才能把原木锯成有用的木板。\n\n建造一个手工锯木机或电动锯木机。</NeedSawmillDesc>
   
-  <EquipStartingEquipment>获取你的装备</EquipStartingEquipment>
-  <EquipStartingEquipmentDesc>你们着陆时携带了一些武器。在着陆点获取它们。\n\n若想装备物品，选择一个殖民者并右击你想装备的物品。</EquipStartingEquipmentDesc>
-  
   <MentalBreakSoon>即将发生精神崩溃</MentalBreakSoon>
   <MentalBreakSoonDesc>照这样下去这些殖民者的心理状态不久就会达到精神崩溃的程度:\n\n{0}\n立即提升这些殖民者的心理状态，否则不好的事情将会发生。</MentalBreakSoonDesc>
 
@@ -54,6 +51,9 @@
 
   <NeedColonistBeds>需要殖民者床</NeedColonistBeds>
   <NeedColonistBedsDesc>你的人数比你拥有的床多。有人将会没有地方睡觉。\n\n建造更多床，或者把一个囚犯床改变成殖民者床。</NeedColonistBedsDesc>
+  
+  <HunterLacksWeapon>猎人缺少武器</HunterLacksWeapon>
+  <HunterLacksWeaponDesc>一个被分配为猎人的殖民者没有武器。他们在得到一把武器之前不会去狩猎。\n\n为了减少受伤的可能性，我们推荐你给他们一把长距武器。</HunterLacksWeaponDesc>
 
   <Starvation>饥饿</Starvation>
   <StarvationDesc>这些殖民者快饿死了：\n\n{0}\n给他们弄些食物。你需要一个食物的来源，比如说一个营养膏饮用机配上足够的食物供给。另外，确保他们不在被征召的状态。</StarvationDesc>
@@ -80,6 +80,9 @@
 
   <NoTradingCapacity>没有交易能力</NoTradingCapacity>
   <NoTradingCapacityDesc>你没有任何可以和过往飞船交易的能力。\n\n建造一个通讯台。</NoTradingCapacityDesc>
+  
+  <BrawlerHasRangedWeapon>格斗者持有长距离武器</BrawlerHasRangedWeapon>
+  <BrawlerHasRangedWeaponDesc>你的殖民者中的一个拥有格斗者特性但却携带了一把长距离武器。这会让他们很不高兴。</BrawlerHasRangedWeaponDesc>
 
   <NeedResearchProject>需要研究项目</NeedResearchProject>
   <NeedResearchProjectDesc>你有可以用来进行研究项目的装备但是你没有选择一个项目。\n\n打开研究菜单并选择一个项目。</NeedResearchProjectDesc>
@@ -101,6 +104,9 @@
   
   <ColonistNeedsTreatment>殖民者需要治疗</ColonistNeedsTreatment>
   <ColonistNeedsTreatmentDesc>以下殖民者需要接受治疗。如果没有被治疗，他们可能因为他们的创伤而死，或没治愈的伤口演变成了永久性的伤口。\n\n{0}\n将他们送到一个医疗床上以接受治疗。\n\n(首先将一个床设为医疗床，然后选项受伤的殖民者并右击医疗床来将他们设为患者。)</ColonistNeedsTreatmentDesc>
+  
+  <AlertHypothermia>低温病</AlertHypothermia>
+  <AlertHypothermiaDesc>以下殖民者得了低温症:\n\n{0}\n确保他们穿着适合这个季节的服装并保证室内区域的正常供暖。</AlertHypothermiaDesc>
   
   <ColonistsAwaitingMedicalOperation>{0}位殖民者需要进行手术</ColonistsAwaitingMedicalOperation>
   <ColonistsAwaitingMedicalOperationDesc>以下殖民者需要进行手术:\n\n{0}\n确保你拥有所有的必要医疗工具并且有一名空闲的医生。</ColonistsAwaitingMedicalOperationDesc>

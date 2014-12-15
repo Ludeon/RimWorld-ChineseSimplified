@@ -42,7 +42,11 @@
 
   <Rescue>救援{0}</Rescue>
   <CannotRescue>无法救援</CannotRescue>
-
+  
+  <CarryToCryptosleepCasket>把{0}带到低温休眠舱</CarryToCryptosleepCasket>
+  <CannotCarryToCryptosleepCasket>无法带到低温休眠舱</CannotCarryToCryptosleepCasket>
+  
+  <NoCryptosleepCasket>没有可用的低温休眠舱。</NoCryptosleepCasket>
   <NoPrisonerBed>没有在封闭房间中的囚犯床。</NoPrisonerBed>
   <NoNonPrisonerBed>没有可用的非囚犯床。</NoNonPrisonerBed>
   <Reserved>已经为别人预留出。</Reserved>
@@ -63,7 +67,9 @@
   
   <Deposit>将{0}放置到{1}</Deposit>
   <CannotDeposit>无法将{0}放置到{1}</CannotDeposit>
-
+  
+  <SelfDestructHere>在此自毁</SelfDestructHere>
+  
   <Drop>丢下{0}</Drop>
   
   <UseMedicalBed>休息直到伤口痊愈</UseMedicalBed>
@@ -72,6 +78,7 @@
   
   <!-- Specific thing interactions -->
   <EnterCryptosleepPod>进入低温休眠舱</EnterCryptosleepPod>
+  <OpenCryptosleepCasket>打开低温休眠舱</OpenCryptosleepCasket>
   
   
   
@@ -79,6 +86,8 @@
   <CannotGenericWork>无法{0}{1}</CannotGenericWork>
 
   <!-- e.g. Already GERUND OBJECt, Already repairing wall, already hauling metal, etc-->
+  <CannotMissingHealthActivities>无法优先当前任务(健康问题: {0})</CannotMissingHealthActivities>
+  
   <CannotGenericAlreadyAm>已经在{0}{1}中</CannotGenericAlreadyAm>
 
   <CannotPrioritizeIsNotA>无法优先当前任务({0}不是{1})</CannotPrioritizeIsNotA>
@@ -86,6 +95,7 @@
   <CannotPrioritizeResearch>无法优先当前任务(研究是一项长期的工作)</CannotPrioritizeResearch>
 
   <CannotPrioritizeForbidden>无法优先当前任务({0}是禁止的)</CannotPrioritizeForbidden>
+  
 
   <!-- e.g. Prioritize GERUND OBJECT, Prioritize repairing wall, prioritize hauling metal, etc-->
   <PrioritizeGeneric>优先{0}{1}</PrioritizeGeneric>
