@@ -4,27 +4,23 @@
 		<!--=============== Currency ====================-->
         <Silver.label>银石</Silver.label>
 		<Silver.description>这种金属主要用作通用货币。也可以用来制作引人注目的装饰品。</Silver.description>
-		<Silver.stuffProps.nameAsStuff>银</Silver.stuffProps.nameAsStuff>
+		<Silver.stuffProps.stuffAdjective>银</Silver.stuffProps.stuffAdjective>
 		
 		<Gold.label>黄金</Gold.label>
 		<Gold.description>世界上最有诱惑力的金属。无数的人因为对黄金的饥渴命丧黄泉。这种黄色的金属本身用途不大，但非常漂亮并且极度稀少。</Gold.description>
-		<Gold.stuffProps.nameAsStuff>金</Gold.stuffProps.nameAsStuff>
+		<Gold.stuffProps.stuffAdjective>金</Gold.stuffProps.stuffAdjective>
 		
-        <Metal.label>金属</Metal.label>
-		<Metal.description>一种可以用来建造建筑、工具或武器的多用途材料。</Metal.description>
-		<!--<Metal.stuffProps.nameAsStuff>金属</Metal.stuffProps.nameAsStuff>-->
+        <Steel.label>钢</Steel.label>
+		<Steel.description>一种可以用来建造建筑、工具或武器的多用途材料。</Steel.description>
+		<Steel.stuffProps.stuffAdjective>钢</Steel.stuffProps.stuffAdjective>
 		
 		<Plasteel.label>玻璃钢</Plasteel.label>
 		<Plasteel.description>先进的太空时代材料，玻璃钢因为它独特的分子结构拥有非常高的强度。</Plasteel.description>
-		<!--<Plasteel.stuffProps.nameAsStuff>玻璃钢</Plasteel.stuffProps.nameAsStuff>-->
-		
-        <StoneBlocks.label>石块</StoneBlocks.label>
-		<StoneBlocks.description>实心的石块，主要用来建造高强度、高持久度的简单建筑。</StoneBlocks.description>
-		<StoneBlocks.stuffProps.nameAsStuff>石</StoneBlocks.stuffProps.nameAsStuff>
 		
 		<WoodLog.label>原木</WoodLog.label>
 		<WoodLog.description>由植物生长而成的木材。可以用来建造建筑、武器甚至简单的假肢。一捆木头也可直接当作武器来使用。</WoodLog.description>
-		<WoodLog.stuffProps.nameAsStuff>木</WoodLog.stuffProps.nameAsStuff>
+		<WoodLog.stuffProps.stuffAdjective>木</WoodLog.stuffProps.stuffAdjective>
+		
 		<!--
 		<WoodPlank.label>木板</WoodPlank.label>
 		<WoodPlank.description>用来建造建筑。</WoodPlank.description>
@@ -32,7 +28,7 @@
 		
 		<Uranium.label>铀</Uranium.label>
 		<Uranium.description>给反应堆提供能源。</Uranium.description>
-		<!--<Uranium.stuffProps.nameAsStuff>铀</Uranium.stuffProps.nameAsStuff>-->
+		<Uranium.stuffProps.stuffAdjective>铀</Uranium.stuffProps.stuffAdjective>
 		
 		<!--=============== Pure stuffs: Fabric, leather, etc  ====================-->
 		<Cloth.label>布</Cloth.label>
@@ -60,6 +56,12 @@
 		<RawAgave.description>生龙舌兰果。</RawAgave.description>
 		
 		<!--=============== Manufactured ====================-->
+		<HerbalMedicine.label>草药</HerbalMedicine.label>
+		<HerbalMedicine.description>一包从刺芹类植物提取而来的混合物。比起工业药物效果稍差。</HerbalMedicine.description>
+	
+		<GlitterworldMedicine.label>异世界药物</GlitterworldMedicine.label>
+		<GlitterworldMedicine.description>来自高科技的异世界的高级药物。</GlitterworldMedicine.description>
+	
 		<Medicine.label>药物</Medicine.label>
 		<Medicine.description>医疗人员用药物来治疗伤者。</Medicine.description>
 		

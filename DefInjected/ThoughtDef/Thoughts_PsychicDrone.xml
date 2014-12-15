@@ -1,18 +1,39 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
-
-	<!-- Psychic drone -->
 	
-	<PsychicDroneLow.label>心灵波(低)</PsychicDroneLow.label>
-	<PsychicDroneLow.description>一种不会退去声音一直在我脑子里回荡。我只能听懂几个词，这声音真让人讨厌。</PsychicDroneLow.description>
-	
-	<PsychicDroneMedium.label>心灵波(中)</PsychicDroneMedium.label>
-	<PsychicDroneMedium.description>我感觉有个看不见的东西在不停和我说话。说话的声音会变但是说的内容始终不变，让我去杀掉别人。让这声音消失吧!</PsychicDroneMedium.description>
-	
-	<PsychicDroneHigh.label>心灵波(高)</PsychicDroneHigh.label>
-	<PsychicDroneHigh.description>这声音简直响到不能忍受，现在我集中精力都很困难。我发现我有时候甚至还会和这个声音说话，甚至对它喊，但它就是不消失!</PsychicDroneHigh.description>
-	
-	<PsychicDroneExtreme.label>心灵波(极高)</PsychicDroneExtreme.label>
-	<PsychicDroneExtreme.description>我的心脏不停跳动而且我在不断流汗。我脑子里唯一的事就是这些恐怖的敌人。它们简直就是我的噩梦，我的噩梦，我的噩梦………………</PsychicDroneExtreme.description>
+  <!-- Psychic drone -->
+  <rep>
+    <path>PsychicDrone.stages[0].label</path>
+    <trans>心灵波(低)</trans>
+  </rep>
+  <rep>
+    <path>PsychicDrone.stages[0].description</path>
+    <trans>一种不会退去声音一直在我脑子里回荡。我只能听懂几个词，这声音真让人讨厌。</trans>
+  </rep>
+  <rep>
+    <path>PsychicDrone.stages[1].label</path>
+    <trans>心灵波(中)</trans>
+  </rep>
+  <rep>
+    <path>PsychicDrone.stages[1].description</path>
+    <trans>我感觉有个看不见的东西在不停和我说话。说话的声音会变但是说的内容始终不变，让我去杀掉别人。让这声音消失吧!</trans>
+  </rep>
+  <rep>
+    <path>PsychicDrone.stages[2].label</path>
+    <trans>心灵波(高)</trans>
+  </rep>
+  <rep>
+    <path>PsychicDrone.stages[2].description</path>
+    <trans>这声音简直响到不能忍受，现在我集中精力都很困难。我发现我有时候甚至还会和这个声音说话，甚至对它喊，但它就是不消失!</trans>
+  </rep>
+  <rep>
+    <path>PsychicDrone.stages[3].label</path>
+    <trans>心灵波(极高)</trans>
+  </rep>
+  <rep>
+    <path>PsychicDrone.stages[3].description</path>
+    <trans>我的心脏不停跳动而且我在不断流汗。我脑子里唯一的事就是这些恐怖的敌人。它们简直就是我的噩梦，我的噩梦，我的噩梦...</trans>
+  </rep>
+  
 	
 </LanguageData>

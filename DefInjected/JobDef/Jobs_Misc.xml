@@ -4,7 +4,9 @@
 	<!--========= General ============-->
 	<Goto.reportString>走动中。</Goto.reportString>
 	
-	<Wait.reportString>站着。</Wait.reportString>
+	<SeekSafeTemperature.reportString>正在寻找温度安全的地方。</SeekSafeTemperature.reportString>
+	
+	<Wait.reportString>等待中。</Wait.reportString>
 	
 	<AttackStatic.reportString>正在攻击TargetA。</AttackStatic.reportString>
 	
@@ -23,9 +25,13 @@
 	
 	<ManThing.reportString>正在操作机器。</ManThing.reportString>
 	
-	<EnterCryptosleepPod.reportString>正在进入休眠舱。</EnterCryptosleepPod.reportString>
+	<EnterCryptosleepCasket.reportString>正在进入休眠舱。</EnterCryptosleepCasket.reportString>
+	
+	<OpenCryptosleepCasket.reportString>正在打开休眠舱。</OpenCryptosleepCasket.reportString>
 	
 	<UseNeurotrainer.reportString>正在使用神经训练器。</UseNeurotrainer.reportString>
+	
+	<ClearSnow.reportString>正在扫雪。</ClearSnow.reportString>
 	
 	<!--============ Fire ============-->
 	<Ignite.reportString>正在点燃TargetA。</Ignite.reportString>
@@ -47,9 +53,13 @@
 	<!--============= Pawn hauling ===============-->
 	<Rescue.reportString>正在援救TargetA。</Rescue.reportString>
 	
+	<CarryToCryptosleepCasket.reportString>正在把TargetA放入休眠舱。</CarryToCryptosleepCasket.reportString>
+	
 	<Capture.reportString>正在俘虏TargetA。</Capture.reportString>
 	
 	<Arrest.reportString>正在逮捕TargetA。</Arrest.reportString>
+	
+	<ReleasePrisoner.reportString>正在释放TargetA。</ReleasePrisoner.reportString>
 	
 	<EscortPrisonerToBed.reportString>正在护送犯人TargetA。</EscortPrisonerToBed.reportString>
 	
@@ -80,6 +90,8 @@
 	
 	<Mine.reportString>正在开采TargetA。</Mine.reportString>
 	
+	<SmoothFloor.reportString>正在磨光地面。</SmoothFloor.reportString>
+	
 	<Repair.reportString>正在修理TargetA。</Repair.reportString>
 	
 	<FinishFrame.reportString>正在建造TargetA。</FinishFrame.reportString>
@@ -93,10 +105,6 @@
 	<Deconstruct.reportString>正在拆除TargetA。</Deconstruct.reportString>
 	
 	<PrisonerFriendlyChat.reportString>正在和囚犯TargetA聊天。</PrisonerFriendlyChat.reportString>
-	
-	<PrisonerBeatingMild.reportString>轻微殴打囚犯TargetA中。</PrisonerBeatingMild.reportString>
-	
-	<PrisonerBeatingVicious.reportString>残忍殴打囚犯TargetA中。</PrisonerBeatingVicious.reportString>
 	
 	<PrisonerExecution.reportString>正在处死TargetA。</PrisonerExecution.reportString>
 	
