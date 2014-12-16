@@ -1,6 +1,6 @@
 RimWorld-cn
 Rimworld中文汉化
-适用于Rimworld 0.8.652 (Alpha 8b)版
+适用于Rimworld 0.8.657 (Alpha 8d/e)版
 ======================
 汉化内容许可信息:
 http://ludeon.com/forums/index.php?topic=2933.0
@@ -18,7 +18,7 @@ http://github.com/AlyxMS/RimWorld-cn
 ****************************************************************************************
 RimWorld-cn
 Chinese localization for Rimworld
-Built For Rimworld 0.8.652 (Alpha 8b)
+Built For Rimworld 0.8.657 (Alpha 8d/e)
 ======================
 See this page for license info:
 http://ludeon.com/forums/index.php?topic=2933.0
