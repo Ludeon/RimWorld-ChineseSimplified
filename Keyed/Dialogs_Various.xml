@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
 
@@ -31,8 +31,10 @@
   <PawnGainsName>这个殖民者的昵称被改为{0}。</PawnGainsName>
   
   <!-- Save game incompatible warning -->
-  <SaveGameIncompatibleWarningText>版本不匹配: 存档版本为{0}，当前游戏版本为{1}。\n\n 读取这个存档很可能会造成游戏崩溃或产生游戏BUG。</SaveGameIncompatibleWarningText>
-  <SaveGameIncompatibleWarningTitle>游戏存档不兼容</SaveGameIncompatibleWarningTitle>
+  <VersionMismatch>版本不匹配</VersionMismatch>
+  <SaveGameIncompatibleWarningText>地图存档版本为{0}，当前运行游戏版本为{1}。\n\n 读取这个存档很可能会造成游戏崩溃或产生游戏BUG。</SaveGameIncompatibleWarningText>
+  <WorldFileVersionMismatch>世界生成版本为{0}，当前运行游戏版本为{1}。\n\n 读取这个世界很可能会造成游戏崩溃或产生游戏BUG。建议你从新生成一个新世界。</WorldFileVersionMismatch>
+
 
   <!-- Resolution change dialog -->
   <ConfirmResolutionChange>你已经改变了你当前的分辨率。目前游戏显示是否正常？\n\n将在{0}秒后恢复原始设置……</ConfirmResolutionChange>
@@ -70,16 +72,21 @@
   <SuspendedAllCaps>已暂停</SuspendedAllCaps>
   <RepeatCount>重复: {0}次</RepeatCount>
   <Forever>永远</Forever>
+  <Details>详述</Details>
   <IngredientSearchRadius>材料搜索半径</IngredientSearchRadius>
-  <TargetCount>在达到数量之前一直不停制作: {0}</TargetCount>
+  <CurrentlyHave>目前有</CurrentlyHave>
+  <CountingProducts>计数</CountingProducts>
+<!--  <TargetCount>在达到数量之前一直不停制作: {0}</TargetCount>  -->
   <Infinite>无限</Infinite>
+  <MinimumSkillLevel>最小{0}技能</MinimumSkillLevel>
   
   <RecipeCannotHaveTargetCount>(因为这个配方有多个或是不可预估的成品所以不能为它指定目标数量)</RecipeCannotHaveTargetCount>
-  <PermittedIngredients>允许的材料</PermittedIngredients>
+  <!-- <PermittedIngredients>允许的材料</PermittedIngredients> -->
   <WorkAmount>工作量</WorkAmount>
   <MinimumSkills>最低技能值:</MinimumSkills>
   <BillRequires>需要{0}{1}</BillRequires>
   <BillRequiresMayVary>(数量可能会因为非标准体积的原料而改变，比如黄金。)</BillRequiresMayVary>
+  <ThisIsSmallVolume>这是一个小体积的原料.每单位只有1／20 正常的体积。所以，如果要求同样数量的材料，需要材料的数量是一般的20倍。</ThisIsSmallVolume>
   <UsableIngredients>可使用的原料</UsableIngredients>
   <DoXTimes>做X次</DoXTimes>
   <DoUntilYouHaveX>做直到拥有X个</DoUntilYouHaveX>
@@ -101,16 +108,21 @@
   <Harvestable>可收获</Harvestable>
   <LimitedLifespan>寿命有限</LimitedLifespan>
   <GrowingTime>生长时间</GrowingTime>
+  <GrowingTimeDesc>Plants only grow for part of the day, and only when lit. This statistic measures the time the plant needs to spend actually growing to reach full size. The actual real growing time will generally be about twice as long. Low temperatures also slow plant growth.</GrowingTimeDesc>
   <Days>天</Days>
   <FertilityRequirement>种植需求</FertilityRequirement>
   <LightRequirement>光线需求</LightRequirement>
   <Attributes>来源</Attributes>
   <LifeSpan>寿命</LifeSpan>
   <Nutrition>营养</Nutrition>
+  <Joy>娱乐</Joy>
   <FoodQuality>食物价值</FoodQuality>
   <WalkSpeedProperty>行走速度</WalkSpeedProperty>
+  <ButcherYield>屠宰产量</ButcherYield>
+  <!--
   <MeleeDamage>近身攻击伤害</MeleeDamage>
   <MeatAmount>肉食数量</MeatAmount>
+  -->
   <MinFoodQuality>最低食物质量</MinFoodQuality>
   <Diet>饮食</Diet>
   <RecruitDifficulty>招募难度</RecruitDifficulty>
@@ -133,7 +145,9 @@
   <TraderHasNoMore>交易商没有更多了。</TraderHasNoMore>
   <ColonyHasNoMore>没有更多待售的了。</ColonyHasNoMore>
   <TraderWillNotTrade>交易商不想交易这种商品。</TraderWillNotTrade>
-
+<NegotiatorTalkingImpaired>因为身体状态不佳无法和{0}谈判.\n\n这将影响到贸易价格.\n\n考虑用一个健康殖民者来谈判。</NegotiatorTalkingImpaired>
+ <ConfirmTraderShortFunds>Trader has insufficient silver to fully cover this transaction.  Proceed anyways?</ConfirmTraderShortFunds>
+   
   <!-- Comms -->
   <SocialSkillIs>社交技能: {0}</SocialSkillIs>
   
@@ -149,4 +163,12 @@
   <HistoryUploadYesOnce>仅在上传这次的数据</HistoryUploadYesOnce>
   <HistoryUploadNoOnce>不上传这次的数据，并在晚些再问我</HistoryUploadNoOnce>
 	
+	  <!-- Outfit management -->
+  <Outfit>装备</Outfit>
+  <SelectOutfit>选择装备...</SelectOutfit>
+  <NewOutfit>新的装备</NewOutfit>
+  <DeleteOutfit>删除装备...</DeleteOutfit>
+  <OutfitInUse>装备正被{0}使用.</OutfitInUse>
+  <NoOutfitSelected>没有装备被选择</NoOutfitSelected>
+  
 </LanguageData>
