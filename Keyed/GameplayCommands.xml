@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
   <CommandForbiddenDesc>已禁止——殖民者不会和这个物件互动。</CommandForbiddenDesc>
@@ -8,10 +8,12 @@
   <CommandTogglePowerDesc>开关电力。</CommandTogglePowerDesc>
   <CommandTogglePowerLabel>开关电力</CommandTogglePowerLabel>
   
+    <CommandDesignateTogglePowerLabel>指派开关电源</CommandDesignateTogglePowerLabel>
+  <CommandDesignateTogglePowerDesc>Designate this thing to have power toggled. A colonist will come soon to flick the switch.</CommandDesignateTogglePowerDesc>
+    
   <CommandTryReconnectLabel>重新连接</CommandTryReconnectLabel>
   <CommandTryReconnectDesc>尝试连接到附近另一个电网里。在当前连接的电网没有电但附近有另一个电网时很有用。</CommandTryReconnectDesc>
-  
-  
+    
   <CommandGatherSpotToggleLabel>采集点</CommandGatherSpotToggleLabel>
   <CommandGatherSpotToggleDescActive>开启——殖民者们会在这个物件附近采集。</CommandGatherSpotToggleDescActive>
   <CommandGatherSpotToggleDescInactive>关闭——殖民者们不会在这个物件附近采集。</CommandGatherSpotToggleDescInactive>
@@ -97,7 +99,13 @@
   <!-- Art -->
   <CommandInstall>安装</CommandInstall>
   <CommandInstallDesc>这个物品目前已经为运输或贮藏打包。用这个指令来将这个物品安装到需要被观看或使用的位置。</CommandInstallDesc>
+   
+   <!-- Trade beacon -->
+  <CommandMakeBeaconStockpileDesc>Create a stockpile around this building exactly matching the shape of the beacon's launch radius.</CommandMakeBeaconStockpileDesc>
+  <CommandMakeBeaconStockpileLabel>建立存储区</CommandMakeBeaconStockpileLabel>
   
-  
+   <!-- Sun lamp -->
+  <CommandSunLampMakeGrowingZoneDesc>Create a growing zone around this building exactly matching the shape of the lamp's light radius.</CommandSunLampMakeGrowingZoneDesc>
+  <CommandSunLampMakeGrowingZoneLabel>建立种植区</CommandSunLampMakeGrowingZoneLabel>
   
 </LanguageData>
