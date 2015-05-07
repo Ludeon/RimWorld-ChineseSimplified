@@ -1,11 +1,11 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
   
   <ClickToJumpToProblem>点击此处跳转到问题</ClickToJumpToProblem>
   
   
   
-  
+  <!--
   <AlertNeedStockpile>需要贮存区</AlertNeedStockpile>
   <AlertNeedStockpileDesc>你的殖民者们需要放置物品的地方。规划一个让他们放置物品的贮存区。\n\n在左下角的建筑师菜单中的区域分类可以找到贮存区工具。</AlertNeedStockpileDesc>
 
@@ -14,15 +14,15 @@
 
   <AlertEquipStartingWeapons>装备武器</AlertEquipStartingWeapons>
   <AlertEquipStartingWeaponsDesc>你的殖民者来时是带着一些武器的。装备它们!\n\n选择一个殖民者并在需要装备的武器上按鼠标右键。</AlertEquipStartingWeaponsDesc>
-  
+  -->
   <NeedSawmill>需要锯木机</NeedSawmill>
   <NeedSawmillDesc>你需要锯木机才能把原木锯成有用的木板。\n\n建造一个手工锯木机或电动锯木机。</NeedSawmillDesc>
-  
-  <MentalBreakSoon>即将发生精神崩溃</MentalBreakSoon>
-  <MentalBreakSoonDesc>照这样下去这些殖民者的心理状态不久就会达到精神崩溃的程度:\n\n{0}\n立即提升这些殖民者的心理状态，否则不好的事情将会发生。</MentalBreakSoonDesc>
+    
+  <PoorMood>即将发生精神崩溃</PoorMood>
+  <PoorMoodDesc>照这样下去这些殖民者的心理状态不久就会达到精神崩溃的程度:\n\n{0}\n立即提升这些殖民者的心理状态，否则不好的事情将会发生。</PoorMoodDesc>
 
-  <MentalBreakImminent>精神崩溃迫在眉睫</MentalBreakImminent>
-  <MentalBreakImminentDesc>这些殖民者们的心理压力已经接近极限，他们随时都可能会精神崩溃:\n\n{0}</MentalBreakImminentDesc>
+  <TerribleMood>精神崩溃迫在眉睫</TerribleMood>
+  <TerribleMoodDesc>这些殖民者们的心理压力已经接近极限，他们随时都可能会精神崩溃:\n\n{0}</TerribleMoodDesc>
 
   <ColonistNeedsRescue>殖民者需要救援</ColonistNeedsRescue>
   <ColonistsNeedRescue>多个殖民者需要救援</ColonistsNeedRescue>
@@ -30,10 +30,10 @@
 
   <BuildARoom>建造一个房间</BuildARoom>
   <BuildARoomDesc>你没有房间。\n\n用四面墙和一扇门来建造一个房间。\n\n使用屏幕底端的建筑师菜单来指定你想要的建造位置。一旦你指定了建造工作，你的殖民者们会在可能的情况下去建造它们。</BuildARoomDesc>
-
+  <!--
   <NeedGrowingZone>需要种植区域</NeedGrowingZone>
   <NeedGrowingZoneDesc>你没有种植区域。\n\n用建筑师菜单在土地肥沃的地区上规划一片种植区域。</NeedGrowingZoneDesc>
-
+ -->
   <NeedDefenses>需要防御工事</NeedDefenses>
   <NeedDefensesDesc>你已经在这里待了一段时间，可能已经被别人发现了。海盗袭击不久就可能会开始。\n\n你应该准备一些防御工事。\n\n建造一些炮塔。</NeedDefensesDesc>
 
@@ -84,6 +84,9 @@
   <BrawlerHasRangedWeapon>格斗者持有长距离武器</BrawlerHasRangedWeapon>
   <BrawlerHasRangedWeaponDesc>你的殖民者中的一个拥有格斗者特性但却携带了一把长距离武器。这会让他们很不高兴。</BrawlerHasRangedWeaponDesc>
 
+  <ShieldUserHasRangedWeapon>防护远程武器的攻击</ShieldUserHasRangedWeapon>
+  <ShieldUserHasRangedWeaponDesc>One of your colonists has a personal shield and is carrying a ranged weapon. They will not be able to fire their weapon through the shield (except at targets who are already touching them).</ShieldUserHasRangedWeaponDesc>
+
   <NeedResearchProject>需要研究项目</NeedResearchProject>
   <NeedResearchProjectDesc>你有可以用来进行研究项目的装备但是你没有选择一个项目。\n\n打开研究菜单并选择一个项目。</NeedResearchProjectDesc>
 
@@ -95,13 +98,16 @@
 
   <ColonistsIdle>{0}位殖民者无事可做</ColonistsIdle>
   <ColonistsIdleDesc>这些殖民者们在无所事事地到处走动:\n\n{0}\n你应该给他们找点有意义的事情来做。</ColonistsIdleDesc>
-  
+    <!--
+  <MedicalBedLacksHeadspace>医疗床无到达路径</MedicalBedLacksHeadspace>
+  <MedicalBedLacksHeadspaceDesc>A medical bed is positioned so doctors have nowhere to stand while treating a patient. To be usable, there needs to be a spot for doctors to stand adjacent to the head of the bed.</MedicalBedLacksHeadspaceDesc>
+    -->
   <HaltedConstructions>{0}个建造任务缺少材料</HaltedConstructions>
   <HaltedConstructionsDesc>以下建造任务正缺少必需的材料:\n\n{0}\n你应该想办法为你的殖民者们获取对应的材料。</HaltedConstructionsDesc>
-  
+  <!--
   <TableNeedsChairs>需要椅子</TableNeedsChairs>
   <TableNeedsChairsDesc>你有一个桌子但是却没有相邻的椅子。如果人们不能挨着桌子坐，那么桌子又有什么用呢。</TableNeedsChairsDesc>
-  
+  -->
   <ColonistNeedsTreatment>殖民者需要治疗</ColonistNeedsTreatment>
   <ColonistNeedsTreatmentDesc>以下殖民者需要接受治疗。如果没有被治疗，他们可能因为他们的创伤而死，或没治愈的伤口演变成了永久性的伤口。\n\n{0}\n将他们送到一个医疗床上以接受治疗。\n\n(首先将一个床设为医疗床，然后选项受伤的殖民者并右击医疗床来将他们设为患者。)</ColonistNeedsTreatmentDesc>
   
@@ -110,10 +116,16 @@
   
   <ColonistsAwaitingMedicalOperation>{0}位殖民者需要进行手术</ColonistsAwaitingMedicalOperation>
   <ColonistsAwaitingMedicalOperationDesc>以下殖民者需要进行手术:\n\n{0}\n确保你拥有所有的必要医疗工具并且有一名空闲的医生。</ColonistsAwaitingMedicalOperationDesc>
+  
+  <FireInHomeRegion>着火了!</FireInHomeRegion>
+  <FireInHomeRegionDesc>在生活区着火了。</FireInHomeRegionDesc>
 
   <PawnsWithLifeThreateningDisease>致命疾病</PawnsWithLifeThreateningDisease>
   <PawnsWithLifeThreateningDiseaseDesc>以下殖民者有因病致死的危险:\n\n{0}\n确保他们能受到医生最大程度的照顾。</PawnsWithLifeThreateningDiseaseDesc>
   <PawnsWithLifeThreateningDiseaseAmputationDesc>以下殖民者有因病致死的危险:\n\n{0}\n如果条件允许，请考虑给殖民者截肢或替换感染的四肢以挽救他们的生命。</PawnsWithLifeThreateningDiseaseAmputationDesc>
+ 
+  <BilliardsNeedsSpace>台球桌需要空间</BilliardsNeedsSpace>
+  <BilliardsNeedsSpaceDesc>One of your billiards table is adjacent to an obstruction that will prevent colonists from using it.\n\nA billiards table needs clear space around it on all sides to be usable.</BilliardsNeedsSpaceDesc>
 
   <!--<AlertAbsentMinded>{0} is lost in thought</AlertAbsentMinded>-->
   
