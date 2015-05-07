@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
 
@@ -31,10 +31,14 @@
 	<MissingMaterials>需要材料</MissingMaterials>
 	
 	
+	 <ConsumeThing>享用{0}</ConsumeThing>
+	 
+	 
   <CannotGoNoPath>无法走到目标(没有路径)</CannotGoNoPath>
   <GoHere>走到这里</GoHere>
   
   <Arrest>拘捕{0}</Arrest>
+  <TryToArrest>试图拘捕 {0}</TryToArrest>
   <CannotArrest>无法拘捕</CannotArrest>
 
   <Capture>俘虏{0}</Capture>
@@ -53,13 +57,13 @@
   <ReservedBy>预留给了{0}。</ReservedBy>
   <IsReservedBy>{0}被预留给了{1}。</IsReservedBy>
 
-  <NoManipulationSkill>没有能力</NoManipulationSkill>
+ <Incapable>没有能力</Incapable>
 
   <Equip>装备{0}</Equip>
   <EquipWarningBrawler>(近战者的心情会降低)</EquipWarningBrawler>
   <CannotEquip>无法装备{0}</CannotEquip>
 
-  <Wear>穿上{0}</Wear>
+  <ForceWear>强制穿上{0}</ForceWear>
   <CannotWear>无法穿上{0}</CannotWear>
   
   <Strip>脱下{0}</Strip>
@@ -77,7 +81,7 @@
   <SomeoneElseSleeping>被占用</SomeoneElseSleeping>
   
   <!-- Specific thing interactions -->
-  <EnterCryptosleepPod>进入低温休眠舱</EnterCryptosleepPod>
+  <EnterCryptosleepCasket>进入低温休眠舱</EnterCryptosleepCasket>
   <OpenCryptosleepCasket>打开低温休眠舱</OpenCryptosleepCasket>
   
   
