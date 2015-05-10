@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
   
   
@@ -12,10 +12,13 @@
   <MessageRaidersGivenUpLeaving>来自{1}的{0}放弃并离开了。</MessageRaidersGivenUpLeaving>
   <MessageRaidersSatisfiedLeaving>来自{1}的{0}对于他们造成的破坏满意了并离开了。</MessageRaidersSatisfiedLeaving>
   
-  
   <MessageFightersFleeing>来自{1}的{0}正在逃跑。</MessageFightersFleeing>
   <MessageFriendlyFightersLeaving>来自{1}的友好{0}离开了。</MessageFriendlyFightersLeaving>
-  
+ 
+  <MessageVisitorsTakingWounded>来自{1}的{0} 带着一名受伤的访客.</MessageVisitorsTakingWounded>
+ 
+  <MessageWornApparelDeterioratedAway>{0} 被 {1}穿上， 恶化消失.</MessageWornApparelDeterioratedAway>
+ 
   <MessageSeasonBegun>{0}开始了。</MessageSeasonBegun>
   
   <MessageShipHasLeftCommsRange>{0}离开了通讯范围。</MessageShipHasLeftCommsRange>
@@ -28,17 +31,26 @@
 
   <MessagePrisonerIsEscaping>囚犯{0}正在逃跑。</MessagePrisonerIsEscaping>
   
-  <MessageRecruitSuccess>{0}成功招募了{1}(成功率{2})。</MessageRecruitSuccess>
-  <MessageRecruitFail>{0}没能成功招募{1}(成功率{2})。</MessageRecruitFail>
-  <MessageRecruitFailBecauseLoyalty>{0}没能成功招募{1}。(囚犯心情值低于最低要求)</MessageRecruitFailBecauseLoyalty>
+  <MessageOutOfNearbyShellsFor>{0} 附近没有发现给{1}的炮弹.</MessageOutOfNearbyShellsFor>
+ 
+  <MessageAnimalsGoPsychoHunted>警告: {0}受到伤害时通常会发动攻击.</MessageAnimalsGoPsychoHunted>
+
+ <LetterLabelMessageRecruitSuccess>新的招募</LetterLabelMessageRecruitSuccess>
+ <MessageRecruitSuccess>{0}成功招募了{1}(成功率{2})。</MessageRecruitSuccess>
+ <MessageRecruitFail>{0}没能成功招募{1}(成功率{2})。</MessageRecruitFail>
+ <MessageRecruitFailBecauseMood>{0}没能成功招募{1}。(囚犯心情值低于最低要求)</MessageRecruitFailBecauseMood>
   
   <MessagePoorlyTreated>{1}治疗了{0}(治疗效果差, 治疗效果好的几率{2})。</MessagePoorlyTreated>
   <MessageWellTreated>{1}治疗了{0} (治疗效果好, 治疗效果好的几率{2})。</MessageWellTreated>
-  
+ 
+ <!--
   <MessageTraderCannotAfford>商人无法支付这笔交易。</MessageTraderCannotAfford>
+ -->
   <MessageColonyCannotAfford>殖民地无法支付这笔交易。</MessageColonyCannotAfford>
   <MessageColonyNotEnoughSilver>可用于交易的银石不足。</MessageColonyNotEnoughSilver>
+ <!-- 
   <MessageTraderNotEnoughSilver>商人没有足够的银石。</MessageTraderNotEnoughSilver>
+ --> 
   
   <MessageCriticalAlert>严重警报: {0}</MessageCriticalAlert>
   
@@ -51,12 +63,18 @@
   <MessageMustDesignateClaimable>必须指定被放弃的人工建筑。</MessageMustDesignateClaimable>
   <MessageMustDesignateSmoothableFloor>必须指定粗糙的石面。</MessageMustDesignateSmoothableFloor>
   
-  
+  <MessageRefusedArrest>{0}拒绝被逮捕</MessageRefusedArrest>
+   
   <MessageNoMedicalBeds>没有可用的医疗床。</MessageNoMedicalBeds>
   
   <PawnDiedBecauseOf>{0}因{1}而死。</PawnDiedBecauseOf>
 
   <MessageNoLongerDowned>{0}可以再行走了。</MessageNoLongerDowned>
   
+  <MessageInvoluntarySleep>{0}由于极度疲惫而昏倒.</MessageInvoluntarySleep>
   
+  <MessageMedicalOperationFailureCatastrophic>{0}操作{1}时，发生了灾难性的大错。</MessageMedicalOperationFailureCatastrophic>
+  <MessageMedicalOperationFailureMinor>{0}操作{1}时，发生了小的失误。</MessageMedicalOperationFailureMinor>
+    
+
 </LanguageData>
