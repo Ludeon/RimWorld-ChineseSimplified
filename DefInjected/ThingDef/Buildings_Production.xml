@@ -1,56 +1,72 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<LanguageData>
-		
-        <NutrientPasteDispenser.label>营养膏分配机</NutrientPasteDispenser.label>
-        <NutrientPasteDispenser.description>把有机佐料合成为营养膏。</NutrientPasteDispenser.description>
-		
-        <Hopper.label>储料器</Hopper.label>
-        <Hopper.description>为营养膏分配机这样的大型机器储存原料。</Hopper.description>
-		
-		<!-- ========================= Work tables ==========================-->
-		
-		<!--
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData> 
+
+    <NutrientPasteDispenser.label>营养膏分配机</NutrientPasteDispenser.label>  
+
+    <NutrientPasteDispenser.description>把有机佐料合成为营养膏。</NutrientPasteDispenser.description>  
+
+    <Hopper.label>储料器</Hopper.label>  
+
+    <Hopper.description>为营养膏分配机这样的大型机器储存原料。</Hopper.description>  
+
+    <!-- ========================= Work tables ==========================-->  
+
+    <!--
 		<TableSawmillHand.label>手工锯木机</TableSawmillHand.label>
 		<TableSawmillHand.description>一个用来把原木切成木板的锯木装置，动力来源于肌肉。</TableSawmillHand.description>
 		
 		<TableSawmillElectric.label>电动锯木机</TableSawmillElectric.label>
 		<TableSawmillElectric.description>一个用来把原木切成木板的电动锯木装置。</TableSawmillElectric.description>
-		-->
-		
-		<TableButcher.label>屠宰桌</TableButcher.label>
-		<TableButcher.description>一个用来把死掉的动物宰成肉块的重型桌子。</TableButcher.description>
-		
-		<TableTailor.label>裁缝桌</TableTailor.label>
-		<TableTailor.description>一个用来剪裁或制造衣服的工作台。</TableTailor.description>
-		
-		<TableSmithing.label>锻造桌</TableSmithing.label>
-		<TableSmithing.description>一个用来制作武器和工具的工作台。</TableSmithing.description>
-		
-		<TableSculpting.label>雕塑台</TableSculpting.label>
-		<TableSculpting.description>一个带有雕塑工具的台子。</TableSculpting.description>
-		
-		<TableMachining.label>机械加工桌</TableMachining.label>
-		<TableMachining.description>带有组装货拆解机器的一组工具和一张桌子。</TableMachining.description>
-		
-		<CookStove.label>炉灶</CookStove.label>
-		<CookStove.description>一个配有柜台的简单炉灶，用于烹调一些简单的食物。</CookStove.description>
-		
-		<TableStonecutter.label>切石桌</TableStonecutter.label>
-		<TableStonecutter.description>一个装有切割设备的机床。用于把粗糙的石头切割成石砖。</TableStonecutter.description>
-		
-		<ElectricSmelter.label>电提炼器</ElectricSmelter.label>
-		<ElectricSmelter.description>从金属块和其他含有金属的物品中提取有用金属。消耗大量电力。</ElectricSmelter.description>
-		
-		<Crematorium.label>火化炉</Crematorium.label>
-		<Crematorium.description>用来火化尸体。</Crematorium.description>
-		
-		<ResearchBench.label>科研桌</ResearchBench.label>
-		<ResearchBench.description>研究者在这里研究新的科技。</ResearchBench.description>
-		
-		<!-- ========== Hydroponics ==============-->
-		
-		<HydroponicsBasin.label>水栽植物盆</HydroponicsBasin.label>
-		<HydroponicsBasin.description>用来种植食物，水栽植物盆能让植物快速生长。</HydroponicsBasin.description>
-		
-		
+		-->  
+
+    <TableButcher.label>屠宰桌</TableButcher.label>  
+
+    <TableButcher.description>一个用来把死掉的动物宰成肉块的重型桌子。</TableButcher.description>  
+
+    <TableTailor.label>裁缝桌</TableTailor.label>  
+
+    <TableTailor.description>一个用来剪裁或制造衣服的工作台。</TableTailor.description>  
+
+    <TableSmithing.label>锻造桌</TableSmithing.label>  
+
+    <TableSmithing.description>一个用来制作武器和工具的工作台。</TableSmithing.description>  
+
+    <TableSculpting.label>雕塑台</TableSculpting.label>  
+
+    <TableSculpting.description>一个带有雕塑工具的台子。</TableSculpting.description>  
+
+    <TableMachining.label>机械加工桌</TableMachining.label>  
+
+    <TableMachining.description>带有组装货拆解机器的一组工具和一张桌子。</TableMachining.description>  
+
+    <CookStove.label>炉灶</CookStove.label>  
+
+    <CookStove.description>一个配有柜台的简单炉灶，用于烹调一些简单的食物。</CookStove.description>  
+
+    <TableStonecutter.label>切石桌</TableStonecutter.label>  
+
+    <TableStonecutter.description>一个装有切割设备的机床。用于把粗糙的石头切割成石砖。</TableStonecutter.description>  
+
+    <ElectricSmelter.label>电提炼器</ElectricSmelter.label>  
+
+    <ElectricSmelter.description>从金属块和其他含有金属的物品中提取有用金属。消耗大量电力。</ElectricSmelter.description>  
+
+    <Crematorium.label>火化炉</Crematorium.label>  
+
+    <Crematorium.description>用来火化尸体。</Crematorium.description>  
+
+    <ResearchBench.label>科研桌</ResearchBench.label>  
+
+    <ResearchBench.description>研究者在这里研究新的科技。</ResearchBench.description>  
+
+    <!-- ========== Hydroponics ==============-->  
+
+    <HydroponicsBasin.label>水栽植物盆</HydroponicsBasin.label>  
+
+    <HydroponicsBasin.description>用来种植食物，水栽植物盆能让植物快速生长。</HydroponicsBasin.description>  
+
+    <Brewery.Description>配备有酿酒设备的一个工作台。</Brewery.Description>
+
+    <Brewery.label>酿酒工作台</Brewery.label>
+
 </LanguageData>
