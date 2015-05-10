@@ -1,10 +1,10 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 	
 	<!--========= General ============-->
 	<Goto.reportString>走动中。</Goto.reportString>
 	
-	<SeekSafeTemperature.reportString>正在寻找温度安全的地方。</SeekSafeTemperature.reportString>
+	
 	
 	<Wait.reportString>等待中。</Wait.reportString>
 	
@@ -23,8 +23,14 @@
 	
 	<Hunt.reportString>正在狩猎TargetA。</Hunt.reportString>
 	
+
+
+    <ManTurret.reportString>操作炮塔.</ManTurret.reportString>
+
+<!--
 	<ManThing.reportString>正在操作机器。</ManThing.reportString>
-	
+	-->
+
 	<EnterCryptosleepCasket.reportString>正在进入休眠舱。</EnterCryptosleepCasket.reportString>
 	
 	<OpenCryptosleepCasket.reportString>正在打开休眠舱。</OpenCryptosleepCasket.reportString>
@@ -41,8 +47,12 @@
 	<ExtinguishSelf.reportString>正在扑灭身上的火。</ExtinguishSelf.reportString>
 	
 	<!--============ Need satisfaction ============-->
-	<EatFood.reportString>正在从TargetA觅食。</EatFood.reportString>
-	
+	<!--
+<EatFood.reportString>正在从TargetA觅食。</EatFood.reportString>
+	-->
+
+<Ingest.reportString>享用TargetA.</Ingest.reportString>
+
 	<LayDown.reportString>躺着。</LayDown.reportString>
 	
 	<!--============= Item hauling ===============-->
@@ -76,8 +86,15 @@
 	
 	<FeedPatient.reportString>正在把TargetA喂给TargetB吃。</FeedPatient.reportString>
 	
+
+
+    <TreatPatient.reportString>处理TargetA.</TreatPatient.reportString>
+
+
+<!--
 	<HealPatient.reportString>正在治疗TargetA。</HealPatient.reportString>
 	
+-->
 	<PlaceNoCostFrame.reportString>正在建造TargetA。</PlaceNoCostFrame.reportString>
 	
 	<DoBill.reportString>正在做TargetA的清单上的内容。</DoBill.reportString>
@@ -108,4 +125,22 @@
 	
 	<PrisonerExecution.reportString>正在处死TargetA。</PrisonerExecution.reportString>
 	
+	<WaitCombat.reportString>观察目标.</WaitCombat.reportString>
+
+	<Vomit.reportString>呕吐.</Vomit.reportString>
+
+	
+
+	<GotoSafeTemperature.reportString>正在寻找温度安全的地方。</GotoSafeTemperature.reportString>
+
+	<GotoWander.reportString>闲逛</GotoWander.reportString>
+
+	<WaitSafeTemperature.reportString>正在寻找温度安全的地方。</WaitSafeTemperature.reportString>
+
+	<WaitWander.reportString>闲逛.</WaitWander.reportString>
+
+	<Flick.reportString>按开关.</Flick.reportString>
+
+	 <!--<SeekSafeTemperature.reportString>正在寻找温度安全的地方。</SeekSafeTemperature.reportString>--> 
+	 <!--<TogglePower.reportString>开关电源.</TogglePower.reportString>--> 
 </LanguageData>
