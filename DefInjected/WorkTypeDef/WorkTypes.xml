@@ -1,84 +1,170 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<LanguageData>
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData> 
+
+    <Research.pawnLabel>研究员</Research.pawnLabel>  
+
+    <Research.gerundLabel>研究</Research.gerundLabel>  
+ <Research.labelShort>研究</Research.labelShort>  
+    <Research.description>研究员从事研究工作。</Research.description>  
+
+    <Research.verb>研究于</Research.verb>  
+
+    <Cleaning.pawnLabel>清洁工</Cleaning.pawnLabel>  
+
+    <Cleaning.gerundLabel>清洁</Cleaning.gerundLabel>  
+<Cleaning.labelShort>清洁</Cleaning.labelShort>  
+    <Cleaning.description>清洁工会把垃圾清理干净，让殖民地成为一个更舒适的地方。</Cleaning.description>  
+
+    <Cleaning.verb>清理</Cleaning.verb>  
+
+    <Hauling.pawnLabel>搬运工</Hauling.pawnLabel>  
+
+    <Hauling.gerundLabel>搬运</Hauling.gerundLabel>  
+    <Hauling.labelShort>搬运</Hauling.labelShort>  
+
+    <Hauling.description>搬运工会把东西放到它们该去的地方去。</Hauling.description>  
+
+    <Hauling.verb>搬运</Hauling.verb>  
+
+    <Art.pawnLabel>艺术家</Art.pawnLabel>  
+
+    <Art.gerundLabel>艺术</Art.gerundLabel>  
+ <Art.labelShort>艺术</Art.labelShort>  
+    <Art.description>艺术家会创作优秀的艺术作品。</Art.description>  
+
+    <Art.verb>创作于</Art.verb>  
+
+    <Crafting.pawnLabel>工匠</Crafting.pawnLabel>  
+  <Crafting.labelShort>制作</Crafting.labelShort>
+
+    <Crafting.gerundLabel>制作</Crafting.gerundLabel>  
+
+    <Crafting.description>工匠可以把原材料制成成品。</Crafting.description>  
+
+    <Crafting.verb>制作于</Crafting.verb>  
+
+    <PlantCutting.pawnLabel>植物剪裁者</PlantCutting.pawnLabel>  
+
+    <PlantCutting.gerundLabel>剪裁植物</PlantCutting.gerundLabel>  
+
+    <PlantCutting.description>植物剪裁者会剪掉或收获你指定的植物。</PlantCutting.description>  
+
+    <PlantCutting.verb>裁剪</PlantCutting.verb>  
+    <PlantCutting.labelShort>剪裁植物</PlantCutting.labelShort>  
+
+    <Mining.pawnLabel>矿工</Mining.pawnLabel>  
+
+    <Mining.gerundLabel>采矿</Mining.gerundLabel>  
+ <Mining.labelShort>采矿</Mining.labelShort>  
+    <Mining.description>矿工会把你指定的方块挖出来。如果你指定的方块是矿石方块，他们会收获到有用的矿石。</Mining.description>  
+
+    <Mining.verb>开采</Mining.verb>  
+
+    <Growing.pawnLabel>种植者</Growing.pawnLabel>  
+
+    <Growing.gerundLabel>种植</Growing.gerundLabel>  
+<Growing.labelShort>种植</Growing.labelShort>  
+    <Growing.description>种植者会种植种子并收获长成的植物。</Growing.description>  
+
+    <Growing.verb>种植</Growing.verb>  
+
+    <Repair.pawnLabel>修理工</Repair.pawnLabel>  
+
+    <Repair.gerundLabel>修理</Repair.gerundLabel>  
+ <Repair.labelShort>修理</Repair.labelShort>  
+    <Repair.description>修理工会修理坏掉的建筑和装备。</Repair.description>  
+
+    <Repair.verb>修理</Repair.verb>  
+
+    <Construction.pawnLabel>建造者</Construction.pawnLabel>  
+
+    <Construction.gerundLabel>建造</Construction.gerundLabel>  
+ <Construction.labelShort>建造</Construction.labelShort>  
+    <Construction.description>建造者会建造你指定的建筑。</Construction.description>  
+
+    <Construction.verb>建造</Construction.verb>  
+
+    <Hunting.pawnLabel>猎人</Hunting.pawnLabel>  
+
+    <Hunting.gerundLabel>狩猎</Hunting.gerundLabel>  
+ <Hunting.labelShort>狩猎</Hunting.labelShort>  
+    <Hunting.description>猎人会杀死你指定的动物。</Hunting.description>  
+
+    <Hunting.verb>捕猎</Hunting.verb>  
+
+    <Cooking.pawnLabel>厨师</Cooking.pawnLabel>  
+
+    <Cooking.gerundLabel>烹饪</Cooking.gerundLabel>  
+<Cooking.labelShort>烹饪</Cooking.labelShort>  
+    <Cooking.description>厨师会填充储料器并制作食物。</Cooking.description>  
+
+    <Cooking.verb>烹调</Cooking.verb>  
+
+    <Warden.pawnLabel>狱卒</Warden.pawnLabel>  
+
+    <Warden.gerundLabel>监管</Warden.gerundLabel>  
+<Warden.labelShort>监管</Warden.labelShort>  
+    <Warden.description>狱卒可以和招募囚犯，和囚犯聊天，殴打囚犯或是处决囚犯——只要你选择对应的选项。狱卒也会给囚犯送食物。</Warden.description>  
+
+    <Warden.verb>处理</Warden.verb>  
+
+    <Patient.pawnLabel>患者</Patient.pawnLabel>  
+
+    <Patient.gerundLabel>接受治疗</Patient.gerundLabel>  
+ <Patient.labelShort>接受治疗</Patient.labelShort>  
+    <Patient.description>患者会在需要治疗时前往医疗床。</Patient.description>  
+
+    <Patient.verb>接受治疗</Patient.verb>  
+
+    <Doctor.pawnLabel>医生</Doctor.pawnLabel>  
+
+    <Doctor.gerundLabel>治疗</Doctor.gerundLabel>  
+ <Doctor.labelShort>照顾</Doctor.labelShort>  
+    <Doctor.description>医生会给无法行动的人送食物并治疗他们。包括殖民者和囚犯。</Doctor.description>  
+
+    <Doctor.verb>照顾</Doctor.verb>  
+
+    <Firefighter.pawnLabel>灭火者</Firefighter.pawnLabel>  
+
+    <Firefighter.gerundLabel>灭火</Firefighter.gerundLabel>  
+ <Firefighter.labelShort>灭火</Firefighter.labelShort>  
+    <Firefighter.description>消防员会扑灭殖民地内的火焰。</Firefighter.description>  
+
+    <Firefighter.verb>扑灭</Firefighter.verb>  
+
+     
+    
+  
  
-        <Research.pawnLabel>研究员</Research.pawnLabel>
-        <Research.gerundLabel>研究</Research.gerundLabel>
-        <Research.description>研究员从事研究工作。</Research.description>
-        <Research.verb>研究于</Research.verb>
-       
-        <Cleaning.pawnLabel>清洁工</Cleaning.pawnLabel>
-        <Cleaning.gerundLabel>清洁</Cleaning.gerundLabel>
-        <Cleaning.description>清洁工会把垃圾清理干净，让殖民地成为一个更舒适的地方。</Cleaning.description>
-        <Cleaning.verb>清理</Cleaning.verb>
-       
-        <Hauling.pawnLabel>搬运工</Hauling.pawnLabel>
-        <Hauling.gerundLabel>搬运</Hauling.gerundLabel>
-        <Hauling.description>搬运工会把东西放到它们该去的地方去。</Hauling.description>
-        <Hauling.verb>搬运</Hauling.verb>
-       
-        <Art.pawnLabel>艺术家</Art.pawnLabel>
-        <Art.gerundLabel>艺术</Art.gerundLabel>
-        <Art.description>艺术家会创作优秀的艺术作品。</Art.description>
-        <Art.verb>创作于</Art.verb>
-       
-        <Crafting.pawnLabel>工匠</Crafting.pawnLabel>
-        <Crafting.gerundLabel>制作</Crafting.gerundLabel>
-        <Crafting.description>工匠可以把原材料制成成品。</Crafting.description>
-        <Crafting.verb>制作于</Crafting.verb>
-       
-        <PlantCutting.pawnLabel>植物剪裁者</PlantCutting.pawnLabel>
-        <PlantCutting.gerundLabel>剪裁植物</PlantCutting.gerundLabel>
-        <PlantCutting.description>植物剪裁者会剪掉或收获你指定的植物。</PlantCutting.description>
-        <PlantCutting.verb>裁剪</PlantCutting.verb>
- 
-        <Mining.pawnLabel>矿工</Mining.pawnLabel>
-        <Mining.gerundLabel>采矿</Mining.gerundLabel>
-        <Mining.description>矿工会把你指定的方块挖出来。如果你指定的方块是矿石方块，他们会收获到有用的矿石。</Mining.description>
-        <Mining.verb>开采</Mining.verb>
-		
-        <Growing.pawnLabel>种植者</Growing.pawnLabel>
-        <Growing.gerundLabel>种植</Growing.gerundLabel>
-        <Growing.description>种植者会种植种子并收获长成的植物。</Growing.description>
-        <Growing.verb>种植</Growing.verb>
-             
-        <Repair.pawnLabel>修理工</Repair.pawnLabel>
-        <Repair.gerundLabel>修理</Repair.gerundLabel>
-        <Repair.description>修理工会修理坏掉的建筑和装备。</Repair.description>
-        <Repair.verb>修理</Repair.verb>
- 
-        <Construction.pawnLabel>建造者</Construction.pawnLabel>
-        <Construction.gerundLabel>建造</Construction.gerundLabel>
-        <Construction.description>建造者会建造你指定的建筑。</Construction.description>
-        <Construction.verb>建造</Construction.verb>       
-       
-        <Hunting.pawnLabel>猎人</Hunting.pawnLabel>
-        <Hunting.gerundLabel>狩猎</Hunting.gerundLabel>
-        <Hunting.description>猎人会杀死你指定的动物。</Hunting.description>
-        <Hunting.verb>捕猎</Hunting.verb>
-       
-        <Cooking.pawnLabel>厨师</Cooking.pawnLabel>
-        <Cooking.gerundLabel>烹饪</Cooking.gerundLabel>
-        <Cooking.description>厨师会填充储料器并制作食物。</Cooking.description>
-        <Cooking.verb>烹调</Cooking.verb>
- 
-        <Warden.pawnLabel>狱卒</Warden.pawnLabel>
-        <Warden.gerundLabel>监管</Warden.gerundLabel>
-        <Warden.description>狱卒可以和招募囚犯，和囚犯聊天，殴打囚犯或是处决囚犯——只要你选择对应的选项。狱卒也会给囚犯送食物。</Warden.description>
-        <Warden.verb>处理</Warden.verb>
-		
-		<Patient.pawnLabel>患者</Patient.pawnLabel>
-        <Patient.gerundLabel>接受治疗</Patient.gerundLabel>
-        <Patient.description>患者会在需要治疗时前往医疗床。</Patient.description>
-        <Patient.verb>接受治疗</Patient.verb>
- 
-        <Doctor.pawnLabel>医生</Doctor.pawnLabel>
-        <Doctor.gerundLabel>治疗</Doctor.gerundLabel>
-        <Doctor.description>医生会给无法行动的人送食物并治疗他们。包括殖民者和囚犯。</Doctor.description>
-        <Doctor.verb>照顾</Doctor.verb>
-       
-        <Firefighter.pawnLabel>灭火者</Firefighter.pawnLabel>
-        <Firefighter.gerundLabel>灭火</Firefighter.gerundLabel>
-        <Firefighter.description>消防员会扑灭殖民地内的火焰。</Firefighter.description>
-        <Firefighter.verb>扑灭</Firefighter.verb>
- 
+
+	
+
+	<Tailoring.description>将原材料缝制成衣物。</Tailoring.description>
+
+	<Tailoring.verb>缝制</Tailoring.verb>
+
+	<Tailoring.pawnLabel>裁缝</Tailoring.pawnLabel>
+<Tailoring.labelShort>裁缝</Tailoring.labelShort>
+	<Tailoring.gerundLabel>缝制</Tailoring.gerundLabel>
+
+	<Smithing.description>将原材料锻造成武器和工具。</Smithing.description>
+
+	<Smithing.verb>锻造</Smithing.verb>
+	<Smithing.labelShort>锻造</Smithing.labelShort>
+	<Smithing.pawnLabel>锻工</Smithing.pawnLabel>
+
+	<Smithing.gerundLabel>锻造</Smithing.gerundLabel>
+
+	<Flicker.description>开关电源。</Flicker.description>
+
+	<Flicker.verb>开关</Flicker.verb>
+<Flicker.labelShort>开关</Flicker.labelShort>
+	<Flicker.pawnLabel>电工</Flicker.pawnLabel>
+
+	<Flicker.gerundLabel>开关</Flicker.gerundLabel>
+
+	 <!--<Control.description>开关电源</Control.description>--> 
+	 <!--<Control.pawnLabel>电工</Control.pawnLabel>--> 
+	 <!--<Control.gerundLabel>控制</Control.gerundLabel>--> 
+	 <!--<Control.verb>控制</Control.verb>--> 
 </LanguageData>
