@@ -1,28 +1,45 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<LanguageData>
+<?xml version="1.0" encoding="UTF-8"?>
 
-  <!--================ General ================-->
-  
-	<Basics.label>基础</Basics.label>
-	<BasicsPawn.label>基础</BasicsPawn.label>
-	<BasicsNonPawn.label>基础</BasicsNonPawn.label>
-	
-  <!--================ Non-pawn ================-->
-  
-	<Armor.label>护甲</Armor.label>
-	<Melee.label>近身攻击</Melee.label>
-	<Building.label>建造</Building.label>
 
-  <!--=============== Virtual categories ==============-->
-  
-	<EquippedStatOffsets.label>装备时对能力影响</EquippedStatOffsets.label>
-	<StuffOfEquipmentStatModifiers.label>当装备由这个材料制造时的影响</StuffOfEquipmentStatModifiers.label>
-	
-  <!--================ Pawn ================-->
-	
-	<PawnCombat.label>战斗</PawnCombat.label>
-	<PawnSocial.label>社交</PawnSocial.label>
-	<PawnMisc.label>其它</PawnMisc.label>
-	<PawnWork.label>工作</PawnWork.label>
-  
+
+<LanguageData> 
+
+    <!--================ General ================-->  
+
+    <Basics.label>基础</Basics.label>  
+
+    <BasicsPawn.label>基础</BasicsPawn.label>  
+
+    <BasicsNonPawn.label>基础</BasicsNonPawn.label>  
+
+    <!--================ Non-pawn ================-->  
+
+   <Weapon.label>武器</Weapon.label>
+
+    <Apparel.label>护甲</Apparel.label>
+
+    <Building.label>建造</Building.label>  
+
+    <!--=============== Virtual categories ==============-->  
+
+    <EquippedStatOffsets.label>装备时对能力影响</EquippedStatOffsets.label>  
+
+      <StuffStatOffsets.label>由这个材料制造时的影响</StuffStatOffsets.label>
+
+    <StuffOfEquipmentStatFactors.label>当装备由这个材料制造时的系数</StuffOfEquipmentStatFactors.label>
+
+    <StuffStatFactors.label>由这个材料制造时的系数</StuffStatFactors.label>
+
+
+    <!--================ Pawn ================-->  
+
+    <PawnCombat.label>战斗</PawnCombat.label>  
+
+    <PawnSocial.label>社交</PawnSocial.label>  
+
+    <PawnMisc.label>其它</PawnMisc.label>  
+
+    <PawnWork.label>工作</PawnWork.label>  
+
+ 
 </LanguageData>
