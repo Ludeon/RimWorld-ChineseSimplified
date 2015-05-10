@@ -1,37 +1,39 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
   <!-- ITab titles -->
   <TabBills>清单</TabBills>
-  <TabGrowing>生长中</TabGrowing>
+  <TabGrowing>种植</TabGrowing>
   <TabCharacter>角色</TabCharacter>
-  <TabNeeds>需求</TabNeeds>
   <TabPrisoner>囚犯</TabPrisoner>
+  <TabGuest>访客</TabGuest>
   <TabGear>装备</TabGear>
-  <TabThoughts>想法</TabThoughts>
+  <TabNeeds>需求</TabNeeds>
   <TabStorage>贮存</TabStorage>
   <TabHealth>健康</TabHealth>
   <TabRace>种族</TabRace>
   <TabBasics>基础</TabBasics>
   <TabStats>状态</TabStats>
-  
+  <TabArt>艺术</TabArt>
   
   <!-- Bills tab  -->
   <AddBill>添加清单</AddBill>
   <RecipeRequiresSkills>配方{0}需要如下技能。你的殖民者中没有达到技能要求的人，所以没有人完成这个清单。</RecipeRequiresSkills>
-  <BillConfig>设置</BillConfig>
+  <MinimumSkill>最小技能</MinimumSkill>
   <SuspendedCaps>已暂停</SuspendedCaps>
+  <BoundWorkerIs>工作者: {0}</BoundWorkerIs>
   <PlantVerb>种植</PlantVerb>
   
   
   <!-- Prisoner tab -->
   <RecruitmentDifficulty>招募难度</RecruitmentDifficulty>
-  <PrisonerGetsFood>得到食物</PrisonerGetsFood>
+  <GetsFood>得到食物</GetsFood>
   <DoctorsCare>医生照顾</DoctorsCare>
-  <PrisonerGetsMedicine>得到药物</PrisonerGetsMedicine>
+  <GetsMedicine>得到药物</GetsMedicine>
   <ShouldTryToRecruit>尝试招募</ShouldTryToRecruit>
   <PrisonerNoInteraction>不互动</PrisonerNoInteraction>
   <PrisonerFriendlyChat>友好交谈</PrisonerFriendlyChat>
+  <PrisonerAttemptRecruit>试图招募</PrisonerAttemptRecruit>
   <PrisonerRelease>释放</PrisonerRelease>
   <PrisonerExecution>处决</PrisonerExecution>
   
@@ -62,9 +64,7 @@
   <MedicalOperations>医疗手术</MedicalOperations>
   <Amputate>截肢</Amputate>
   <Harvest>摘除</Harvest>
-  
-  
-  
+
   <!-- Medical - Body and activities condition -->
   <None>无</None>
   <VeryPoor>非常差</VeryPoor>
@@ -80,12 +80,5 @@
   <MediumPain>中等</MediumPain>
   <SeverePain>严重</SeverePain>
   <ExtremePain>极度</ExtremePain>
-  
-  
-  
-  
-  
-  
-  
 
 </LanguageData>
