@@ -1,17 +1,24 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
+ <LetterLabelAnimalInsanitySingle>动物发狂</LetterLabelAnimalInsanitySingle>
   <AnimalInsanitySingle>一个当地的{0}发疯了。它会攻击任何它看的见的人。</AnimalInsanitySingle>
+  <LetterLabelAnimalInsanityMultiple>动物发狂!</LetterLabelAnimalInsanityMultiple>
   <AnimalInsanityMultiple>某种心灵电波扫过了整个地平线。你的殖民者们没什么问题，但是……\n\n看来这个区域的好多{0}们都被这玩意弄疯了。</AnimalInsanityMultiple>
-
+ 
+ <LetterLabelCropBlight>枯萎病</LetterLabelCropBlight>
   <CropBlight>一种神秘的枯萎病毁掉了你的农作物。</CropBlight>
-
+  
+<LetterLabelEclipseIncident>日蚀</LetterLabelEclipseIncident>
   <EclipseIncident>这个星球的月亮挡在了太阳和星球之间。日蚀已经开始。</EclipseIncident>
-
+ 
+ <LetterLabelMiracleHeal>奇迹</LetterLabelMiracleHeal>
   <MiracleHeal>{0}奇迹般的恢复健康了!</MiracleHeal>
 
   
   <!-- Enemy raids -->
+  <LetterLabelEnemyRaid>袭击</LetterLabelEnemyRaid>
+  <LetterLabelSiege>包围</LetterLabelSiege>
   <EnemyRaidWalkIn>一群来自{1}的{0}来到了附近。</EnemyRaidWalkIn>
   <EnemyRaidEdgeDrop>一群来自{1}的{0}从轨道降落到了附近。</EnemyRaidEdgeDrop>
   <EnemyRaidCenterDrop>一群来自{1}的{0}从轨道直接降落到了你的殖民地上!</EnemyRaidCenterDrop>
@@ -21,6 +28,7 @@
 
 
   <!-- Friendly raids -->
+   <LetterLabelFriendlyRaid>友军</LetterLabelFriendlyRaid>
   <FriendlyRaidWalkIn>一群来自{1}的{0}来到了附近。</FriendlyRaidWalkIn>
   <FriendlyRaidEdgeDrop>一群来自{1}的{0}从轨道降落到了附近。</FriendlyRaidEdgeDrop>
   <FriendlyRaidCenterDrop>一群来自{1}的{0}从轨道直接降落到了你的殖民地上!</FriendlyRaidCenterDrop>
@@ -28,37 +36,49 @@
   <FriendlyRaidImmediateAttack>他们会立即支援你。</FriendlyRaidImmediateAttack>
   <FriendlyRaidBesiege>看了他们想用包围策略来援助你。</FriendlyRaidBesiege>
 
+<LetterLabelRefugeePodCrash>逃生舱坠毁</LetterLabelRefugeePodCrash>
   <RefugeePodCrash>你侦测到了一个逃生舱在附近坠毁了。\n\n如果有人在撞击后还活了下来，他们的伤势估计好不到哪去。</RefugeePodCrash>
 
+<LetterLabelCargoPodCrash>货舱坠毁</LetterLabelCargoPodCrash>
   <CargoPodCrash>你检测到了一组货舱在附近坠毁了。\n\n你或许能在废墟中找到不少有用的东西。</CargoPodCrash>
 
   <AnElectricalConduit>一根电缆</AnElectricalConduit>
+  <!--
   <AWallsPowerConduit>墙壁里的一根内置电缆</AWallsPowerConduit>
+  -->
   <ShortCircuit>{0}的故障引起了短路。\n\n所有电池里整整{1}Wd的能量都以爆炸的形式被释放出来。</ShortCircuit>
   <ShortCircuitWasLarge>这么多电能造成了一场规模可观的爆炸。</ShortCircuitWasLarge>
   <ShortCircuitWasHuge>这爆炸的规模可不小啊，哇！</ShortCircuitWasHuge>
 
+<LetterLabelSolarFlare>太阳耀斑</LetterLabelSolarFlare>
   <LetterSolarFlare>一场太阳耀斑开始了。\n\n极强的辐射让所有电子设施无法运转。\n\n它应该会在一天内结束。</LetterSolarFlare>
   
-  <LetterHeatWave>一场罕见的热流开始了。小心中暑。</LetterHeatWave>
-  <HeatWaveOver>热流已经结束。</HeatWaveOver>
-  <LetterColdSnap>一场罕见的寒流开始了。小心低温症和作物死亡。</LetterColdSnap>
+  <LetterHeatWave>一场罕见的热浪开始了。小心中暑。</LetterHeatWave>
+ <LetterLabelHeatWave>热浪</LetterLabelHeatWave>
+  <HeatWaveOver>热浪已经结束。</HeatWaveOver>
+  
+    <LetterColdSnap>一场罕见的寒流开始了。小心低温症和作物死亡。</LetterColdSnap>
+ <LetterLabelColdSnap>寒流</LetterLabelColdSnap>
   <ColdSnapOver>寒流已经结束。</ColdSnapOver>
 
   <TraderArrival>一艘商船正巧经过。\n\n他们的被称作{0}。他们是{1}。</TraderArrival>
 
   <SingleTravelerPassing>一位从{1}来的{0}正巧路过。HECAP的名字叫{2}。</SingleTravelerPassing>
   <GroupTravelersPassing>一群来自{0}的旅行者正巧路过。</GroupTravelersPassing>
-
+ 
+  <LetterLabelSingleVisitorArrives>访客</LetterLabelSingleVisitorArrives>
   <SingleVisitorArrives>一位来自{1}的{0}来拜访殖民地。\n\nHECAP的名字叫{2}。</SingleVisitorArrives>
+  <LetterLabelGroupVisitorsArrive>访客</LetterLabelGroupVisitorsArrive>
   <GroupVisitorsArrive>一组来自{0}的人来拜访殖民地。</GroupVisitorsArrive>
   <VisitorsLeaving>来自{0}的参观者离开了。</VisitorsLeaving>
 
+ <LetterLabelWandererJoin>流浪者加入</LetterLabelWandererJoin>
   <WandererJoin>一位{0}名叫NAME来到了这里并加入了殖民地。HECAP是一位{1}。</WandererJoin>
 
   
   <!-- Crashed ship part-->
-  <SpaceshipPartCrash>一大块远古飞船的零件坠落在了附近。\n\n你的殖民者能感受到脑子里有东西在劝说他们做无法言说的举动。它一定有一个内置AI并且有心灵投射能力，这个AI可不友好。\n\n尽快摧毁它。</SpaceshipPartCrash>
+   <LetterLabelSpaceshipPartCrash>邪恶的飞船</LetterLabelSpaceshipPartCrash>
+   <SpaceshipPartCrash>一大块远古飞船的零件坠落在了附近。\n\n你的殖民者能感受到脑子里有东西在劝说他们做无法言说的举动。它一定有一个内置AI并且有心灵投射能力，这个AI可不友好。\n\n尽快摧毁它。</SpaceshipPartCrash>
   <MessageAnimalInsanityPulse>这个远古结构发射了一波心灵脉冲，它让附近的动物都发疯了。</MessageAnimalInsanityPulse>
   <LetterShipPartDroveColonistInsane>这个远古结构发射了一波心灵脉冲，它让殖民者{0}发疯了。</LetterShipPartDroveColonistInsane>
   <AwokeDaysAgo>{0}天前醒来</AwokeDaysAgo>
@@ -70,16 +90,16 @@
   <LetterPsychicDroneLevelIncreased>这个坠毁的飞船零件传出了一种强大的心灵波。这个区域里所有的人类都感到了扰乱，恐慌并变得偏执起来。</LetterPsychicDroneLevelIncreased>
   
   <!-- Agent revealed -->
-  <LetterAgentRevealed>{0}的身份被识破了，他/她是你的敌人{1}派来的一名间谍。\n\n他们现在正试图逃跑。</LetterAgentRevealed>
+   <LetterLabelAgentRevealed>特工</LetterLabelAgentRevealed>
+   <LetterAgentRevealed>{0}的身份被识破了，他/她是你的敌人{1}派来的一名间谍。\n\n他们现在正试图逃跑。</LetterAgentRevealed>
   
   <!-- Distant psychic drone -->
-  <LetterIncidentPsychicDrone>所有{0}的殖民者都感到十分痛苦!\n\n某种憎恶在遥远的地方向这个地区投射了一种强大的心灵波，它的频率似乎只影响{0}。接下来几天之内，有些人的心情会比以往更差一些。</LetterIncidentPsychicDrone>
+  <LetterLabelPsychicDrone>心灵波</LetterLabelPsychicDrone>
+    <LetterIncidentPsychicDrone>所有{0}的殖民者都感到十分痛苦!\n\n某种憎恶在遥远的地方向这个地区投射了一种强大的心灵波，它的频率似乎只影响{0}。接下来几天之内，有些人的心情会比以往更差一些。</LetterIncidentPsychicDrone>
   
   <!-- Beavers -->
+   <LetterLabelBeaversArrived>海狸!</LetterLabelBeaversArrived>
   <BeaversArrived>一群饥饿的大海狸到来了。\n\n在他们啃倒这个区域最后一棵树之前消灭他们。</BeaversArrived>
-
-
-
 
 
 
