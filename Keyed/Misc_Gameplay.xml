@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
   <!-- Various -->
@@ -23,9 +23,9 @@
   <UntreatedLower>未处理</UntreatedLower>
   <DevelopedImmunityLower>产生免疫</DevelopedImmunityLower>
   <InjuryRequiresTreatment>需要处理才可愈合</InjuryRequiresTreatment>
-  <NextTreatmentAfter>{0}天后进行下一次处理</NextTreatmentAfter>
+  <NextTreatmentIn>{0}天后进行下一次处理</NextTreatmentIn>
   <MissingMedicalBillIngredient>缺少{0}</MissingMedicalBillIngredient>
-  <ImmunityDevelopmentProgress>产生免疫性的进度</ImmunityDevelopmentProgress>
+  <Immunity>产生免疫性的进度</Immunity>
   <Race>种族</Race>
   <Description>描述</Description>
   <Equipment>装备</Equipment>
@@ -35,6 +35,17 @@
   <DropThing>丢下</DropThing>
   <RenameColonist>重命名殖民者</RenameColonist>
   <UnknownLower>未知</UnknownLower>
+  <On>开</On>
+  <Off>关</Off>
+  <PowerSwitch_Power>电源</PowerSwitch_Power>
+  <AreaLower>区域Area</AreaLower>
+  <JoyTolerances>快乐忍耐力Joy tolerances</JoyTolerances>
+  <BrokenLetterLabel>损坏Broken</BrokenLetterLabel>
+  
+    <!-- Control -->
+  <CannotOrderNonControlled>不能命令非控制单位</CannotOrderNonControlled>
+  <IsIncapableOfViolence>{0}无法进行暴力行为。</IsIncapableOfViolence>
+  <IsNotDrafted>{0}没有被征召.</IsNotDrafted>
   
   <!-- Snow -->
   <SnowNone>没有雪</SnowNone>
@@ -43,13 +54,13 @@
   <SnowMedium>雪(中)</SnowMedium>
   <SnowThick>雪(厚)</SnowThick>
   
-  
-  <!-- Turrets -->
+   <!-- Turrets -->
   <GunInstalled>已安装</GunInstalled>
   <MinimumRange>最小距离</MinimumRange>
   <CanFireIn>开火时机</CanFireIn>
-  
-  
+  <ShellLoaded>炮弹已上膛</ShellLoaded>
+  <ShellNotLoaded>炮弹没上膛</ShellNotLoaded>
+    
 	<!-- Job reports -->
 	<ReportHaulingTo>把{0}搬到{1}。</ReportHaulingTo>
 	<ReportHauling>搬动{0}中。</ReportHauling>
@@ -72,7 +83,9 @@
   <RecipeMake>制作{0}</RecipeMake>
   <RecipeMakeJobString>正在制作{0}。</RecipeMakeJobString>
   
+ 
     <!-- Status levels -->
+ <!--
   <Mood>心情值</Mood>
   <MoodTip>心情是通过满足心理和身体上的需求来保持的。\n\n如果一个人的心情值太低，他们可能会精神崩溃。</MoodTip>
   <Food>食物值</Food>
@@ -82,17 +95,17 @@
   <Environment>环境值</Environment>
   <EnvironmentTip>环境值反映出人物周围环境的优美程度。\n\n人们在宽阔并且充满装饰的房间内环境值会很高。在周围环境很丑陋的情况下环境值会很低。</EnvironmentTip>
   <Openness>开放性</Openness>
-  
+  -->
   
   <!-- Thoughts -->
   <ThoughtExpiresIn>消逝时间:{0}</ThoughtExpiresIn>
   <ThoughtStartsExpiringIn>消逝开始时间:{0}</ThoughtStartsExpiringIn>
   <ThoughtFinishesExpiringIn>消逝结束时间:{0}</ThoughtFinishesExpiringIn>
-  <MentalBreakThreshold>精神崩溃临界值</MentalBreakThreshold>
+  <MentalBreakThresholdHard>硬性精神崩溃临界值</MentalBreakThresholdHard>
+  <MentalBreakThresholdSoft>软性精神崩溃临界值</MentalBreakThresholdSoft>
   
-  
-  <!-- Pawn info readout -->
-  <Health>生命</Health>
+    <!-- Pawn info readout -->
+  <hitPoints>生命</hitPoints>
   <PawnMainDescWithFactionGendered>来自{2}的{0}{1}</PawnMainDescWithFactionGendered>
   <PawnMainDescGendered>{0}{1}</PawnMainDescGendered>
   <PawnMainDescWithFactionGenderless>来自{1}的{0}</PawnMainDescWithFactionGenderless>
@@ -103,11 +116,12 @@
   <Incapacitated>无法行动</Incapacitated>
   <InRestraints>被关押(速度减慢)</InRestraints>
   <Carrying>携带</Carrying>
+  <!--
   <SanityDazedWander>失常: 迷茫了并正在四处游走</SanityDazedWander>
   <SanityGiveUpExit>失常: 放弃了并正在离开</SanityGiveUpExit>
   <SanityPanicFlee>失常: 在混乱中正在逃跑</SanityPanicFlee>
   <SanityPsychotic>失常: 发疯了并在大肆破坏</SanityPsychotic>
-  
+  -->
   <!-- Inspector general stuff -->
   <SelectNextInSquareTip>选择同一个方块里的下一件东西。\n\n快捷键: {0}\n\n你也可以慢速重复点击同一个方块来选择。</SelectNextInSquareTip>
   <DefInfoTip>查看关于这个物件的信息。</DefInfoTip>
@@ -131,8 +145,9 @@
   <PowerConsumptionLow>低</PowerConsumptionLow>
   
   <!-- Temperature readout -->
-  <Indoors>Indoors</Indoors>
-  <Outdoors>Outdoors</Outdoors>
+  <Indoors>室内</Indoors>
+ <IndoorsUnroofed>没有屋顶的室内</IndoorsUnroofed>
+  <Outdoors>室外</Outdoors>
   
   <!--Rotting-->
   <RotStateFresh>新鲜</RotStateFresh>
@@ -163,10 +178,15 @@
 
   <!-- Plants -->
   <PercentGrowth>已生长{0}%</PercentGrowth>
-  <Growing>生长中</Growing>
+  <GrowthRate>生长速度</GrowthRate>
+  <FullyGrownIn>{0}后长成</FullyGrownIn>
+   <!--
+<Growing>生长中</Growing>
   <NotGrowingNow>不在生长(需要在{0}的条件下)</NotGrowingNow>
   <NotGrowingNowResting>不在生长(休眠中)</NotGrowingNowResting>
-  <FullyGrownIn>{0}后长成</FullyGrownIn>
+-->
+  <PlantNeedsLightLevel>需要光照</PlantNeedsLightLevel>
+  <PlantResting>休眠中</PlantResting>
   <OutOfIdealTemperatureRange>不再理想温度范围内(生长速度{0}%)</OutOfIdealTemperatureRange>
   <OutOfIdealTemperatureRangeNotGrowing>不再理想温度范围内(不在生长)</OutOfIdealTemperatureRangeNotGrowing>
   <ReadyToHarvest>待收获</ReadyToHarvest>
@@ -175,6 +195,7 @@
   <OutdoorGrowingPeriod>生长周期:{0}</OutdoorGrowingPeriod>
   <NoGrowingPeriod>无</NoGrowingPeriod>
   <GrowYearRound>全年</GrowYearRound>
+  <GrowSeasonHereNow>在这季节里生长.</GrowSeasonHereNow>
   <CannotGrowTooCold>无法生长 - 过于寒冷</CannotGrowTooCold>
   
   <!-- Zones -->
@@ -185,11 +206,17 @@
   <Priority>优先度</Priority>
   <ClearAll>清除全部</ClearAll>
   
+    <!-- ThingFilter -->
+	<HitPoints>{0}生命值</HitPoints>
+	<AnyQuality>任何质量</AnyQuality>
+	<OnlyQuality>仅仅{0}</OnlyQuality>
+
   <!-- Mouseover indicator -->
   <Undiscovered>未发现</Undiscovered>
   
   <!-- Buttons -->
   <ZoneVisibilityToggleButton>开关区域的可见性。</ZoneVisibilityToggleButton>
+  <ShowBeautyToggleButton>开关美观度显示.\n\n显示鼠标指向人物站立位置的美观度.</ShowBeautyToggleButton>
   <AutoHomeRegionToggleButton>开关自动在新建造的建筑附近添加生活区。</AutoHomeRegionToggleButton>
   <CategorizedResourceReadoutToggleButton>开关资源数量的分类模式。</CategorizedResourceReadoutToggleButton>
   
@@ -211,7 +238,9 @@
   <MustPlaceNextToHopperAccepter>必须放置在需要储料器的物件边上。</MustPlaceNextToHopperAccepter>
   <MustPlaceOnSteamGeyser>必须直接放置在间歇蒸汽泉上。</MustPlaceOnSteamGeyser>
   <MustPlaceCoolerWithFreeSpaces>散热器的热端和冷端必须都暴露在外。</MustPlaceCoolerWithFreeSpaces>
-  
+  <MustPlaceVentWithFreeSpaces>两边必须暴露，空气可以流通.</MustPlaceVentWithFreeSpaces>
+	<MustPlaceAdjacentStandable>必须放在四周都有空间的地方.</MustPlaceAdjacentStandable>
+	
   <!-- Wind Turbine -->
   <WindTurbine_WindPathIsBlockedBy>被遮挡于</WindTurbine_WindPathIsBlockedBy>
   <WindTurbine_WindPathIsBlockedByRoof>被屋顶遮挡</WindTurbine_WindPathIsBlockedByRoof>
@@ -248,11 +277,28 @@
   <QualityDescription>一个物品的质量代表了这个物品的做工。</QualityDescription>
   <QualityIs>质量: {0}</QualityIs>
   
+    <!-- Mood descriptions -->
+  <Mood_Broken>已崩溃</Mood_Broken>
+  <Mood_AboutToBreak>要崩溃</Mood_AboutToBreak>
+  <Mood_OnEdge>烦躁</Mood_OnEdge>
+  <Mood_Stressed>紧张</Mood_Stressed>
+  <Mood_Neutral>一般</Mood_Neutral>
+	<Mood_Content>满足</Mood_Content>
+  <Mood_Happy>开心</Mood_Happy>
+  
   <!-- Game over -->
   <GameOverEveryoneDead>所有人不是死亡就是离开了。这个故事结束了。\n\n也许有一天会有人给这个地方的遗迹找个用处。</GameOverEveryoneDead>
   <GameOverShipLaunched>你发射了逃生船! 以下殖民者离开了:\n\n{0}\n以下殖民者被留下了:\n\n{1}\n现在你的AI会试图把飞船带到一个安全的地方去。也许它会把你带到这个星系里一个更好的星球上。或许它会花一个世纪来旅行到另一个星系去。它甚至会在一个流行的冰层下躲几千年，等待一个更好的纪元的到来。\n\n只有在你醒来后才会知道。</GameOverShipLaunched>
   <GameOverKeepPlaying>继续游戏</GameOverKeepPlaying>
   <GameOverMainMenu>主菜单</GameOverMainMenu>
   
-  
+  <!-- Generic lifespan -->
+  <LifespanExpiry>失效时间:</LifespanExpiry>
+
+  <!-- JobDriver reports -->
+  <WatchingSunrise>看日出</WatchingSunrise>
+  <CloudWatching>看云彩</CloudWatching>
+  <WatchingSunset>看日落</WatchingSunset>
+  <Stargazing>眺望星空</Stargazing>
+  <WatchingEclipse>看日食</WatchingEclipse>
 </LanguageData>
