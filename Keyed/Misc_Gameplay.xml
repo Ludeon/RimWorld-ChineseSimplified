@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <!-- Various -->
+  <WorkLeft>剩余工作</WorkLeft>
+  <Contents>内容</Contents>
+  <ContainedResources>包含资源</ContainedResources>
+  <ForPrisonerUse>仅限囚犯使用</ForPrisonerUse>
+  <ForColonistUse>仅限殖民者使用</ForColonistUse>
+  <MedicalBed>医疗</MedicalBed>
+  <Owner>主人</Owner>
+  <Owners>主人</Owners>
+  <AssignedColonist>指定殖民者</AssignedColonist>
+  <Nobody>无</Nobody>
+  <Unowned>没有主人</Unowned>
+  <DeadTime>死掉的{0}</DeadTime>
+  <WalkSpeed>行走速度{0}</WalkSpeed>
+  <DyingLower>接近死亡</DyingLower>
+  <FilthOnFeet>脚上的污物:</FilthOnFeet>
+  <NotEnoughStoredLower>储量不足</NotEnoughStoredLower>
+  <NothingLower>无</NothingLower>
+  <Adapted>适合</Adapted>
+  <FreshMissingBodyPart>新鲜</FreshMissingBodyPart>
+  <UntreatedLower>未处理</UntreatedLower>
+  <DevelopedImmunityLower>产生免疫</DevelopedImmunityLower>
+  <InjuryRequiresTreatment>需要处理才可愈合</InjuryRequiresTreatment>
+  <NextTreatmentIn>{0}天后进行下一次处理</NextTreatmentIn>
+  <MissingMedicalBillIngredient>缺少{0}</MissingMedicalBillIngredient>
+  <Immunity>免疫力</Immunity>
+  <Race>种族</Race>
+  <Description>描述</Description>
+  <Equipment>装备</Equipment>
+  <Apparel>着装</Apparel>
+  <Inventory>物品</Inventory>
+  <ThingInfo>信息</ThingInfo>
+  <DropThing>丢下</DropThing>
+  <Rename>重命名</Rename>
+  <RenameColonist>重命名殖民者</RenameColonist>
+  <UnknownLower>未知</UnknownLower>
+  <On>开</On>
+  <Off>关</Off>
+  <PowerSwitch_Power>电源</PowerSwitch_Power>
+  <JoyTolerances>快乐忍耐力Joy tolerances</JoyTolerances>
+  <BrokenLetterLabel>失控</BrokenLetterLabel>
+  <MilkFullness>产奶进度</MilkFullness>
+  <WoolGrowth>羊毛生长</WoolGrowth>
+  <EggProgress>孵化进度</EggProgress>
+  <Fertilized>已受精</Fertilized>
+  <SkillTooLow>最低需要 {0} 技能等级 {2}, 当前等级 {1}</SkillTooLow>
+   <EggDamagedEmbryo>受损的胚胎</EggDamagedEmbryo>
+  <CorpsePercentMissing>缺失身体部位</CorpsePercentMissing>
+  <HiveReproducesIn>繁殖时间</HiveReproducesIn>
+  <BrokenDown>故障</BrokenDown>
+  <BondBrackets>(羁绊)</BondBrackets>
+  <Fuel>燃料</Fuel>
+
+  <!--TextMotes-->
+  <Headshot>命中头部</Headshot>
+  <TreatQuality>治疗效果{0}</TreatQuality>
+  <PoorResult>效果很差</PoorResult>
+  <GoodResult>效果很好</GoodResult>
+  <TextMote_TreatSuccess>治疗成功!\n{0} 几率</TextMote_TreatSuccess>
+  <TextMote_TreatFailed>治疗失败\n{0} 几率</TextMote_TreatFailed>
+  <HarvestFailed>收获\n失败</HarvestFailed>
+  <TextMote_TameFail>驯服失败\n{0} 几率</TextMote_TameFail>
+  <TextMote_TameSuccess>驯服成功!\n{0} 几率</TextMote_TameSuccess>
+  <TextMote_TrainFail>训练失败: {0}\n{1} 几率</TextMote_TrainFail>
+  <TextMote_TrainSuccess>训练成功: {0}\n{1} 几率</TextMote_TrainSuccess>
+ <TextMote_FixBrokenDownBuildingFail>修复\n失败</TextMote_FixBrokenDownBuildingFail>
+
+
+  <!-- Areas -->
+  <Home>家</Home>
+  <NoRoof>无屋顶</NoRoof>
+  <SnowClear>清雪</SnowClear>
+  <AreaDefaultLabel>区域 {0}</AreaDefaultLabel>
+  <AreaAnimalDefaultLabel>动物区域 {0}</AreaAnimalDefaultLabel>
+  <NoAreaAllowed>无限制</NoAreaAllowed>
+  <NewArea>新的活动区域</NewArea>
+  <NewAreaAnimal>新的动物活动区域</NewAreaAnimal>
+  <InvertArea>反选</InvertArea>
+
+    <!-- Control -->
+  <CannotOrderNonControlled>不能命令非控制单位</CannotOrderNonControlled>
+  <IsIncapableOfViolence>{0}无法进行暴力行为。</IsIncapableOfViolence>
+  <IsIncapableOfViolenceShort>无法进行暴力</IsIncapableOfViolenceShort>
+  <IsNotDrafted>{0}没有被征召.</IsNotDrafted>
+  
+  <!-- Snow -->
+  <SnowNone>没有雪</SnowNone>
+  <SnowDusting>雪(极薄)</SnowDusting>
+  <SnowThin>雪(薄)</SnowThin>
+  <SnowMedium>雪(中)</SnowMedium>
+  <SnowThick>雪(厚)</SnowThick>
+  
+   <!-- Turrets -->
+  <GunInstalled>已安装</GunInstalled>
+  <MinimumRange>最小距离</MinimumRange>
+  <CanFireIn>开火时机</CanFireIn>
+  <ShellLoaded>炮弹已上膛</ShellLoaded>
+  <ShellNotLoaded>炮弹没上膛</ShellNotLoaded>
+    
+	<!-- Job reports -->
+  <ReportHaulingTo>把{0}搬到{1}。</ReportHaulingTo>
+  <ReportHauling>搬动{0}中。</ReportHauling>
+  <ReportSleeping>睡眠中。</ReportSleeping>
+  <ReportResting>休息中。</ReportResting>
+  <WatchingSunrise>看日出</WatchingSunrise>
+  <CloudWatching>看云彩</CloudWatching>
+  <WatchingSunset>看日落</WatchingSunset>
+  <Stargazing>眺望星空</Stargazing>
+  <WatchingEclipse>看日食</WatchingEclipse>
+  <DeliveringFood>提供食物给{0}。</DeliveringFood>
+  <UsingVerb>在{1}上使用{0}。</UsingVerb>
+  <AreaLower>范围</AreaLower>
+  <ReportCowering>畏缩</ReportCowering>
+
+	<!-- Shooting report -->
+	<WeaponMissRadius>武器误差半径</WeaponMissRadius>
+	<ShootReportShooterAbility>射击者</ShootReportShooterAbility>
+	<ShootReportWeapon>武器</ShootReportWeapon>
+	<Darkness>黑暗</Darkness>
+	<TargetProne>目标动作</TargetProne>
+	<TargetSize>目标大小</TargetSize>
+	<Weather>天气</Weather>
+	<ShootingCover>掩体</ShootingCover>
+	<CoverThingBlocksPercentOfShots>{0}阻止了{1}</CoverThingBlocksPercentOfShots>
+	<NoCoverLower>没有掩体</NoCoverLower>
+	
+  <!-- Generated recipes -->
+  <RecipeMake>制作{0}</RecipeMake>
+  <RecipeMakeJobString>正在制作{0}。</RecipeMakeJobString>
+   
+  <!-- Thoughts -->
+  <ThoughtExpiresIn>消逝时间:{0}</ThoughtExpiresIn>
+  <ThoughtStartsExpiringIn>消逝开始时间:{0}</ThoughtStartsExpiringIn>
+  <ThoughtFinishesExpiringIn>消逝结束时间:{0}</ThoughtFinishesExpiringIn>
+  <MentalBreakThresholdHard>硬性精神崩溃临界值</MentalBreakThresholdHard>
+  <MentalBreakThresholdSoft>软性精神崩溃临界值</MentalBreakThresholdSoft>
+  
+  <!-- Pawn info readout -->
+  <PawnMainDescGendered>{0}{1}</PawnMainDescGendered>
+  <PawnMainDescFactionedWrap>{0} 来自 {1}</PawnMainDescFactionedWrap>
+  <PawnMainDescLifestageWrap>{1} {0}</PawnMainDescLifestageWrap>
+  <Faction>派系</Faction>
+  <Equipped>装备</Equipped>
+  <EquippedNothing>无</EquippedNothing>
+  <Incapacitated>无法行动</Incapacitated>
+  <InRestraints>被关押(速度减慢)</InRestraints>
+  <Carrying>携带</Carrying>
+
+  <!-- Inspector general stuff -->
+  <SelectNextInSquareTip>选择同一个方块里的下一件东西。\n\n快捷键: {0}\n\n你也可以慢速重复点击同一个方块来选择。</SelectNextInSquareTip>
+  <DefInfoTip>查看关于这个物件的信息。</DefInfoTip>
+    
+  <!-- Hostility response -->
+  <HostilityReponseTip>没有被征召的殖民者在遭遇敌人时作出的反应。</HostilityReponseTip>
+  <HostilityResponseCurrentMode>当前反应</HostilityResponseCurrentMode>
+
+  <!-- like 'Blood of John' -->
+  <OfLower>来自</OfLower>
+
+  <!-- Power readout -->
+  <PowerNotConnected>未连接电网。</PowerNotConnected>
+  <PowerConnectedRateStored>电网功率/蓄电: {0} W / {1} Wd</PowerConnectedRateStored>
+  <PowerNeeded>电力消耗</PowerNeeded>
+  <PowerOutput>电力输出</PowerOutput>
+  <PowerBatteryStored>蓄电</PowerBatteryStored>
+  <PowerBatteryEfficiency>效率</PowerBatteryEfficiency>
+  
+  <!-- Temperature control -->
+  <TargetTemperature>目标温度</TargetTemperature>
+  <PowerConsumptionMode>当前能耗</PowerConsumptionMode>
+  <PowerConsumptionHigh>高</PowerConsumptionHigh>
+  <PowerConsumptionLow>低</PowerConsumptionLow>
+  
+  <!-- Temperature readout -->
+  <Indoors>室内</Indoors>
+ <IndoorsUnroofed>没有屋顶的室内</IndoorsUnroofed>
+  <Outdoors>室外</Outdoors>
+  
+  <!--Rotting-->
+  <RotStateFresh>新鲜</RotStateFresh>
+  <RotStateRotting>腐烂中</RotStateRotting>
+  <RotStateDessicated>干燥</RotStateDessicated>
+	
+  <!-- Shooting tooltip -->
+  <ShotBy>被{0}击中</ShotBy>
+  <CannotHit>无法击中目标。</CannotHit>
+
+  <!-- Storage priority labels -->
+  <StoragePriorityUnstored>未贮存</StoragePriorityUnstored>
+  <StoragePriorityLow>低</StoragePriorityLow>
+  <StoragePriorityNormal>普通</StoragePriorityNormal>
+  <StoragePriorityPreferred>偏好</StoragePriorityPreferred>
+  <StoragePriorityImportant>重要</StoragePriorityImportant>
+  <StoragePriorityCritical>关键</StoragePriorityCritical>
+    
+  <!-- Rotting -->
+  <CurrentlyFrozen>冷冻(不会腐坏)</CurrentlyFrozen>
+  <CurrentlyRefrigerated>冷藏({0}后腐坏)</CurrentlyRefrigerated>
+  <NotRefrigerated>未冷藏({0}后腐坏)</NotRefrigerated>
+  <OverADecade>超过10年</OverADecade>
+    <LessThanADay>少于1日</LessThanADay>
+
+  <!-- Meal -->
+  <Ingredients>配料</Ingredients>
+
+  <!-- Plants -->
+  <PercentGrowth>已生长{0}</PercentGrowth>
+  <GrowthRate>生长速度</GrowthRate>
+  <FullyGrownIn>{0}后长成</FullyGrownIn>
+  <PlantNeedsLightLevel>需要光照</PlantNeedsLightLevel>
+  <PlantResting>休眠中</PlantResting>
+  <OutOfIdealTemperatureRange>不再理想温度范围内(生长速度{0}%)</OutOfIdealTemperatureRange>
+  <OutOfIdealTemperatureRangeNotGrowing>不再理想温度范围内(不在生长)</OutOfIdealTemperatureRangeNotGrowing>
+  <ReadyToHarvest>待收获</ReadyToHarvest>
+  <Mature>成熟</Mature>
+  <SeedLabel>{0}种子</SeedLabel>
+  <OutdoorGrowingPeriod>生长周期:{0}</OutdoorGrowingPeriod>
+  <NoGrowingPeriod>无</NoGrowingPeriod>
+  <GrowYearRound>全年</GrowYearRound>
+  <GrowSeasonHereNow>在这季节里生长.</GrowSeasonHereNow>
+  <CannotGrowTooCold>无法生长 - 过于寒冷</CannotGrowTooCold>
+  
+  <!-- Zones -->
+  <Zone>区域</Zone>
+  <GrowingZone>种植区</GrowingZone>
+  <Stockpile>贮存区</Stockpile>
+  <DumpingStockpile>垃圾贮存区</DumpingStockpile>
+  <Priority>优先度</Priority>
+  <ClearAll>清除全部</ClearAll>
+   <AllowAll>允许全部</AllowAll>
+
+    <!-- ThingFilter -->
+	<HitPoints>{0}生命值</HitPoints>
+	<AnyQuality>任何质量</AnyQuality>
+	<OnlyQuality>仅仅{0}</OnlyQuality>
+
+  <!-- Mouseover indicator -->
+  <Undiscovered>未发现</Undiscovered>
+  
+  <!-- Buttons -->
+  <ZoneVisibilityToggleButton>开关区域的可见性。</ZoneVisibilityToggleButton>
+  <ShowBeautyToggleButton>开关美观度显示.\n\n显示鼠标指向人物站立位置的美观度.</ShowBeautyToggleButton>
+  <ShowRoomStatsToggleButton>切换房间数据显示。\n\n当鼠标移动到房间时显示房间数据。</ShowRoomStatsToggleButton>
+  <AutoHomeAreaToggleButton>开关自动在新建造的建筑附近添加生活区。</AutoHomeAreaToggleButton>
+  <CategorizedResourceReadoutToggleButton>开关资源数量的分类模式。</CategorizedResourceReadoutToggleButton>
+  <ShowAnimalNamesToggleButton>切换显示动物名称为驯服命名动物。</ShowAnimalNamesToggleButton>
+  
+  <!-- Fire -->
+  <Fire>火焰</Fire>
+  <FireOn>{0}上的火焰</FireOn>
+  <Burning>燃烧中</Burning>
+  <FireSizeLower>火焰大小:{0}</FireSizeLower>
+  
+  <!-- Map conditions (eclipse, solar flare, etc )-->
+  <MapConditionsTip>正在干扰区域的特殊情况。</MapConditionsTip>
+  
+  <!-- Building placement -->
+  <NoStuffsToBuildWith>你没有可以用来建造这个建筑的材料。</NoStuffsToBuildWith>
+  
+  <!-- Building placement restricters -->
+  <MustPlaceUnroofed>不能放置在屋顶下。</MustPlaceUnroofed>
+  <MustPlaceHeadOnShipBeam>必须放置在飞船结构柱边上。</MustPlaceHeadOnShipBeam>
+  <MustPlaceNextToHopperAccepter>必须放置在需要储料器的物件边上。</MustPlaceNextToHopperAccepter>
+  <MustPlaceOnSteamGeyser>必须直接放置在间歇蒸汽泉上。</MustPlaceOnSteamGeyser>
+  <MustPlaceCoolerWithFreeSpaces>散热器的热端和冷端必须都暴露在外。</MustPlaceCoolerWithFreeSpaces>
+  <MustPlaceVentWithFreeSpaces>两边必须暴露，空气可以流通.</MustPlaceVentWithFreeSpaces>
+	<MustPlaceAdjacentStandable>必须放在四周都有空间的地方.</MustPlaceAdjacentStandable>
+	
+  <!-- Wind Turbine -->
+  <WindTurbine_WindPathIsBlockedBy>被遮挡于</WindTurbine_WindPathIsBlockedBy>
+  <WindTurbine_WindPathIsBlockedByRoof>被屋顶遮挡</WindTurbine_WindPathIsBlockedByRoof>
+  
+  <!-- Cryptosleep casket -->
+  <CasketContains>装有</CasketContains>
+  <CasketUnknownContents>未知</CasketUnknownContents>
+  <CasketWarning>警告!\n\nNAME是你的最后一名自由活动的殖民者! 如果HIM进入了休眠舱，你将无法继续进行游戏。你确定要这样做吗？</CasketWarning>
+
+  <!-- Ship launch report -->
+  <ShipReportCannotLaunch>无法发射。</ShipReportCannotLaunch>
+  <ShipReportCanLaunch>准备发射。</ShipReportCanLaunch>
+  <ShipReportMissingPart>缺少关键性组件</ShipReportMissingPart>
+  <ShipReportNoFullPods>没有装满的休眠舱</ShipReportNoFullPods>
+  
+  <!-- Neurotrainer -->
+  <UseNeurotrainer>使用神经训练器来学习{0}</UseNeurotrainer>
+  <NeurotrainerUsed>{0}用{1}神经训练器从{2}级升到了{3}级。</NeurotrainerUsed>
+
+    <!-- Artifact -->
+  <UseArtifact>激活</UseArtifact>
+
+  <!-- Firefoam popper -->
+  <TriggerFirefoamPopper>开关泡沫消防栓</TriggerFirefoamPopper>
+  
+  <!-- Minification -->
+  <Installed>已安装</Installed>
+  <NotInstalled>未安装</NotInstalled>
+
+  <!-- Art -->
+  <Title>标题</Title>
+  <Untitled>未命名</Untitled>
+  
+  <!-- Unfinished thing -->
+  <UnfinishedItem>未完成的{0}</UnfinishedItem>
+  <UnfinishedItemWithStuff>未完成的{0}{1}</UnfinishedItemWithStuff>
+
+  <!-- Quality -->
+  <Quality>质量</Quality>
+  <QualityDescription>一个物品的质量代表了这个物品的做工。</QualityDescription>
+  <QualityIs>质量: {0}</QualityIs>
+  
+    <!-- Mood descriptions -->
+  <Mood_Broken>已崩溃</Mood_Broken>
+  <Mood_AboutToBreak>要崩溃</Mood_AboutToBreak>
+  <Mood_OnEdge>烦躁</Mood_OnEdge>
+  <Mood_Stressed>紧张</Mood_Stressed>
+  <Mood_Neutral>一般</Mood_Neutral>
+	<Mood_Content>满足</Mood_Content>
+  <Mood_Happy>开心</Mood_Happy>
+  
+  <!-- Game over -->
+  <GameOverEveryoneDead>所有人不是死亡就是离开了。这个故事结束了。\n\n也许有一天会有人给这个地方的遗迹找个用处。</GameOverEveryoneDead>
+  <GameOverShipLaunched>你发射了逃生船! 以下殖民者离开了:\n\n{0}\n以下殖民者被留下了:\n\n{1}\n现在你的AI会试图把飞船带到一个安全的地方去。也许它会把你带到这个星系里一个更好的星球上。或许它会花一个世纪来旅行到另一个星系去。它甚至会在一个流行的冰层下躲几千年，等待一个更好的纪元的到来。\n\n只有在你醒来后才会知道。</GameOverShipLaunched>
+  <GameOverKeepPlaying>继续游戏</GameOverKeepPlaying>
+  <GameOverMainMenu>主菜单</GameOverMainMenu>
+  
+  <!-- Generic lifespan -->
+  <LifespanExpiry>失效时间:</LifespanExpiry>
+
+  <!-- Traps -->
+  <TrapArmed>准备就绪</TrapArmed>
+  <TrapNotArmed>未准备</TrapNotArmed>
+  <TrapRearmingCost>重置陷阱花费： {0}</TrapRearmingCost>
+
+  <!-- Facilities -->
+  <InactiveFacility>闲置</InactiveFacility>
+    
+  <!-- Hediffs growth modes -->
+  <DiseaseGrowthModeChanged_Growing>{0}的{1}现在增重了。</DiseaseGrowthModeChanged_Growing>
+  <DiseaseGrowthModeChanged_Stable>{0}的{1}现在稳定了。</DiseaseGrowthModeChanged_Stable>
+  <DiseaseGrowthModeChanged_Remission>{0}的{1}现在缓解了。</DiseaseGrowthModeChanged_Remission>
+
+</LanguageData>

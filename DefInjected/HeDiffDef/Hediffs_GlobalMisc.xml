@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+    <BloodLoss.label>失血</BloodLoss.label>
+	<rep>
+		<path>BloodLoss.stages[0].label</path>
+		<trans>较轻</trans>
+	</rep>
+
+	<rep>
+		<path>BloodLoss.stages[1].label</path>
+		<trans>较重</trans>
+	</rep>
+
+	<rep>
+		<path>BloodLoss.stages[2].label</path>
+		<trans>很重</trans>
+	</rep>
+
+	<rep>
+		<path>BloodLoss.stages[3].label</path>
+		<trans>严重</trans>
+	</rep>
+
+	<rep>
+		<path>BloodLoss.stages[4].label</path>
+		<trans>极重</trans>
+	</rep>
+
+	
+	
+
+	<ToxicBuildup.label>中毒</ToxicBuildup.label>
+
+	<rep>
+		<path>ToxicBuildup.stages[0].label</path>
+		<trans>initial-hidden</trans>
+	</rep>
+
+	<rep>
+		<path>ToxicBuildup.stages[1].label</path>
+		<trans>较轻</trans>
+	</rep>
+
+	<rep>
+		<path>ToxicBuildup.stages[2].label</path>
+		<trans>较重</trans>
+	</rep>
+
+	<rep>
+		<path>ToxicBuildup.stages[3].label</path>
+		<trans>很重</trans>
+	</rep>
+
+	<rep>
+		<path>ToxicBuildup.stages[4].label</path>
+		<trans>严重</trans>
+	</rep>
+
+	<rep>
+		<path>ToxicBuildup.stages[5].label</path>
+		<trans>极重</trans>
+	</rep>
+
+
+	<Anesthetic.label>麻痹</Anesthetic.label>
+
+	<Concussion.label>脑震荡</Concussion.label>
+
+	<CryptosleepSickness.label>冷冻睡眠病</CryptosleepSickness.label>
+
+	<FoodPoisoning.label>食物中毒</FoodPoisoning.label>
+
+	 <!--<Suffocation.label>窒息</Suffocation.label>--> 
+	 <!--<Starvation.label>饥饿</Starvation.label>--> 
+
+
+
+	<PsychicShock.label>精神休克</PsychicShock.label>
+
+	<Pregnant.label>怀孕</Pregnant.label>
+
+        <Pregnant.comps.0.discoverLetterLabel>{0}怀孕</Pregnant.comps.0.discoverLetterLabel>
+        <Pregnant.comps.0.discoverLetterText>{0}怀孕了！</Pregnant.comps.0.discoverLetterText>
+
+	<rep>
+		<path>Pregnant.stages[0].label</path>
+		<trans>early-stage-hidden</trans>
+	</rep>
+
+	<rep>
+		<path>Pregnant.stages[1].label</path>
+		<trans>中期</trans>
+	</rep>
+
+	<rep>
+		<path>Pregnant.stages[2].label</path>
+		<trans>晚期</trans>
+	</rep>
+
+</LanguageData>

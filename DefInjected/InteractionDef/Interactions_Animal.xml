@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<AnimalChat.label>与动物交流</AnimalChat.label>
+
+<rep>
+	<path>AnimalChat.logRulesInitiator.rulesStrings[0]</path>
+	<trans>logentry-&gt;与[other_nameShortIndef]沟通，试图建立亲密关系。</trans>
+</rep>
+
+
+<rep>
+	<path>AnimalChat.logRulesRecipient.rulesStrings[0]</path>
+	<trans>logentry-&gt;回应[other_nameShortIndef]的友好沟通。</trans>
+</rep>
+
+
+	<TrainAttempt.label>训练尝试</TrainAttempt.label>
+<rep>	
+	<path>TrainAttempt.logRulesInitiator.rulesStrings[0]</path>
+	<trans>logentry-&gt;训练[other_nameShortIndef]。</trans>
+</rep>
+
+<rep>
+	<path>TrainAttempt.logRulesRecipient.rulesStrings[0]</path>
+	<trans>logentry-&gt;被[other_nameShortIndef]训练。</trans>
+</rep>
+
+	<TameAttempt.label>驯服尝试</TameAttempt.label>
+
+<rep>
+	<path>TameAttempt.logRulesInitiator.rulesStrings[0]</path>
+	<trans>logentry-&gt;尝试去驯服[other_nameShortIndef]。</trans>
+</rep>
+
+<rep>
+	<path>TameAttempt.logRulesRecipient.rulesStrings[0]</path>
+	<trans>logentry-&gt;观察[other_nameShortIndef]驯服自己。</trans>
+</rep>
+
+</LanguageData>

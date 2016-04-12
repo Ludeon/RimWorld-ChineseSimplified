@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <Autosaving>自动保存</Autosaving>
+
+  <GameStartDialog>你们三人在休眠舱睡觉时突然被警报和撕裂的金属的声音吵醒。你们好不容易在飞船被撕成碎片之前逃到了逃逸舱。\n\n不久过后，你降落在了这个未知边缘世界上。\n\n在飞船残骸还在你们身边不断坠毁时，你们已经开始在想生存的计划了。</GameStartDialog>
+
+  <Colony>殖民地</Colony>
+  
+  <ChangeLanguageFromMainMenu>你只能在主菜单的设定界面内改变语言。</ChangeLanguageFromMainMenu>
+
+  <AndLower>和</AndLower>
+  <DisabledLower>禁用</DisabledLower>
+
+  <CloseButton>关闭</CloseButton>
+
+  <VersionIndicator>版本{0}</VersionIndicator>
+  <DevelopmentBuildLower>开发者版</DevelopmentBuildLower>
+  <CompiledOn>汇编于{0}</CompiledOn>
+  <LoggedIntoSteamAs>用 {0}登陆到Steam平台</LoggedIntoSteamAs>
+  
+  
+  <!-- Content generation-->
+  
+  <MeatLabel>{0}肉</MeatLabel>
+  <MeatDesc>{0}上的生肉。</MeatDesc>
+  
+  <LeatherLabel>{0}皮</LeatherLabel>
+  <LeatherDesc>由{0}的皮肤制成的皮革</LeatherDesc>
+
+  <CorpseLabel>{0}尸体</CorpseLabel>
+  <CorpseDesc>{0}的尸体。</CorpseDesc>
+  <DeadLabel>{0}(死亡)</DeadLabel>
+
+  <RoughStoneTerrainLabel>粗糙的{0}</RoughStoneTerrainLabel>
+  <RoughStoneTerrainDesc>粗糙的天然{0}地面。</RoughStoneTerrainDesc>
+  <RoughHewnStoneTerrainLabel>非常粗糙的{0}</RoughHewnStoneTerrainLabel>
+  <RoughHewnStoneTerrainDesc>非常粗糙的天然{0}地面。</RoughHewnStoneTerrainDesc>
+  <SmoothStoneTerrainLabel>光滑的{0}</SmoothStoneTerrainLabel>
+  <SmoothStoneTerrainDesc>光滑的天然{0}地面。</SmoothStoneTerrainDesc>
+  
+  <BlueprintLabelExtra> (蓝图)</BlueprintLabelExtra>
+  <FrameLabelExtra> (框架)</FrameLabelExtra>
+  
+  
+  <!-- For things made of stuff, e.g. "Stone bed" -->
+  <!-- 0 is the stuffAdjective property under stuffProps and 1 is the label -->
+  <ThingMadeOfStuffLabel>{0}{1}</ThingMadeOfStuffLabel>
+
+  <!-- To express ownership. -->
+  <SomeonesSomething>{0}的{1}</SomeonesSomething>
+  <CouplesRoom>{0}和{1}的{2}</CouplesRoom>
+
+  <VariousLabel>(各类)</VariousLabel>
+  
+  <!-- History events -->
+  <ColonistDied>殖民者死亡</ColonistDied>
+  
+  
+  
+</LanguageData>

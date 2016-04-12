@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+
+
+  <Confirm>确定</Confirm>
+  <GoBack>返回</GoBack>
+  <OK>好</OK>
+  
+  <!-- Recovered from errors caused by mods -->
+  <RecoveredFromErrorsDialogTitle>恢复不兼容或损坏的MODS错误</RecoveredFromErrorsDialogTitle>
+  <RecoveredFromErrorsText>当前激活的这些MOD之间有冲突错误的隐患。\n\n它们彼此之间不兼容, 可能版本不同或已经损坏。\n\n所有的MOD已被禁用，可以在MOD菜单中重新激活。</RecoveredFromErrorsText>
+
+  <!-- Errors during loading -->
+  <ErrorWhileLoadingAssetsTitle>加载资源时出错</ErrorWhileLoadingAssetsTitle>
+  <ErrorWhileLoadingAssets>加载游戏资源时发生错误。查看错误日志以了解更多信息。</ErrorWhileLoadingAssets>
+  <ErrorWhileLoadingAssets_ModsInfo>当前游戏加载了自定义的MOD -它们可能会引起这些问题。</ErrorWhileLoadingAssets_ModsInfo>
+  <ErrorWhileGeneratingMapTitle>生成地图时出错</ErrorWhileGeneratingMapTitle>
+  <ErrorWhileGeneratingMap>生成新地图时发生错误。查看错误日志以了解更多信息。</ErrorWhileGeneratingMap>
+  <ErrorWhileLoadingMapTitle>加载地图时出错</ErrorWhileLoadingMapTitle>
+  <ErrorWhileLoadingMap>加载地图时出现错误。查看错误日志以了解更多信息。</ErrorWhileLoadingMap>
+  
+  <!-- Long events -->
+  <InitializingInterface>正在初始化界面</InitializingInterface>
+  <UnloadingUnusedAssets>正在释放未使用的资源</UnloadingUnusedAssets>
+  <LoadingAllActiveMods>正在加载所有激活的MOD</LoadingAllActiveMods>
+  <LoadingDefs>正在加载defs</LoadingDefs>
+  <LoadingAssets>正在加载资源</LoadingAssets>
+  <Initializing>正在初始化</Initializing>
+  <LoadingWorld>正在加载世界</LoadingWorld>
+  <LoadingMap>正在加载地图</LoadingMap>
+  <InitializingMap>正在初始化地图</InitializingMap>
+  <SpawningAllThings>正在生成事物</SpawningAllThings>
+
+  <!-- Save/load -->
+  <SaveGameButton>保存</SaveGameButton>
+  <OverwriteButton>覆盖</OverwriteButton>
+  <LoadGameButton>读取</LoadGameButton>
+  <ConfirmDelete>真的要删除{0}吗？</ConfirmDelete>
+  <DeleteThisSavegame>删除这个存档。</DeleteThisSavegame>
+  <SavedAs>已保存为{0}。</SavedAs>
+  <NeedAName>请输入一个名称。</NeedAName>
+  <LoadingLongEvent>载入中</LoadingLongEvent>
+  <SavingLongEvent>保持中</SavingLongEvent>
+  <PermadeathModeSaveSuffix>(永久死亡)</PermadeathModeSaveSuffix>
+  <SaveIsFromDifferentGameVersion>运行的游戏版本是 {0} 但是存档数据的版本是 {1}, 二者版本完全不同的。\n\n尝试加载不可能成功。</SaveIsFromDifferentGameVersion>
+  <SaveIsFromDifferentGameBuild>运行的游戏版本是{0} 但是存档数据的版本是 {1}， 二者数据结构不同。\n\n尝试加载有可能成功。</SaveIsFromDifferentGameBuild>
+  <SaveIsFromThisGameBuild>存档数据版本是当前游戏版本，可以正确加载。</SaveIsFromThisGameBuild>
+  <SaveIsUnknownFormat>存档数据格式错误，无法正确加载。</SaveIsUnknownFormat>
+  <ProblemSavingFile>正在保存的文件有点问题{0}:\n\n{1}</ProblemSavingFile>
+    
+  <!-- Colony naming-->
+  <NameColonyMessage>大家都知道你不想永远呆在这块石头上。但{0}建议你还是应该给你的殖民地起个名字。\n\n它叫什么比较好？</NameColonyMessage>
+  <ColonyGainsName>这个殖民地现在被称为{0}。</ColonyGainsName>
+  <ColonyNameIsInvalid>这个殖民地名无效。</ColonyNameIsInvalid>
+
+  <!-- Renaming -->
+  <NameIsInvalid>请输入一个有效的名称。</NameIsInvalid>
+  <NameIsInUse>名称已经被使用。</NameIsInUse>
+  <ZoneGainsName>这个区域的名称被改为{0}</ZoneGainsName>
+
+  <!-- Pawn naming -->
+  <PawnGainsName>这个殖民者的昵称被改为{0}。</PawnGainsName>
+  
+  <!-- Save game incompatible warning -->
+  <VersionMismatch>版本不匹配</VersionMismatch>
+  <SaveGameIncompatibleWarningText>地图存档版本为{0}，当前运行游戏版本为{1}。\n\n 读取这个存档很可能会造成游戏崩溃或产生游戏BUG。</SaveGameIncompatibleWarningText>
+  <WorldFileVersionMismatch>世界生成版本为{0}，当前运行游戏版本为{1}。\n\n 读取这个世界很可能会造成游戏崩溃或产生游戏BUG。建议你从新生成一个新世界。</WorldFileVersionMismatch>
+  <ModsMismatchWarningTitle>MOD不匹配</ModsMismatchWarningTitle>
+  <ModsMismatchWarningText>保存地图的MOD激活设定和当前游戏运行的设定不同，根据MOD的内容有可能发生问题，也有可能正常。\n\n保存地图的MOD激活设定是 (按照顺序):\n\n{0}\n\n当前运行的MOD激活设定是:\n\n{1}</ModsMismatchWarningText>
+
+  <!-- Resolution change dialog -->
+  <ConfirmResolutionChange>你已经改变了你当前的分辨率。目前游戏显示是否正常？\n\n将在{0}秒后恢复原始设置……</ConfirmResolutionChange>
+  <ResolutionKeep>保持</ResolutionKeep>
+  <ResolutionRevert>恢复</ResolutionRevert>
+
+  <!-- Research -->
+  <Research>研究</Research>
+  <Researched>已研究</Researched>
+  <Unresearched>未研究</Unresearched>
+  <Finished>已完成</Finished>
+  <InProgress>研究中</InProgress>
+  <Locked>未解锁</Locked>
+  <ResearchMenuWithoutBench>你的殖民者们在你建造研究桌之前是无法进行研究的。\n\n不过，你仍然可以查看并选择研究项目。</ResearchMenuWithoutBench>
+  <ResearchPrerequisites>前置研究</ResearchPrerequisites>
+  <RequiredResearchBench>需要研究台</RequiredResearchBench>
+  <RequiredResearchBenchFacilities>需要研究台设施</RequiredResearchBenchFacilities>
+  
+  <!-- Advanced game start options -->
+  <MapTemperatureDangerWarning>警告: 你将会降落在一个冰冻的区域。这可能会让生存非常艰难。如果你并不想挑战艰难的环境，选择另一个降落点或另一个月份。</MapTemperatureDangerWarning>
+  <MapSizePerformanceWarning>警告: 在大地图下游戏性能可能会根据配置不同有所下降。\n\n如果你的配置较低，请选择小地图。\n\n巨大尺寸没有经过测试。</MapSizePerformanceWarning>
+  <MapSize>地图大小</MapSize>
+  <MapSizeDesc>{0}x{0} ({1}个方块)</MapSizeDesc>
+  <MapSizeSmall>小</MapSizeSmall>
+  <MapSizeMedium>中</MapSizeMedium>
+  <MapSizeLarge>大</MapSizeLarge>
+  <MapSizeExtreme>巨大</MapSizeExtreme>
+  <MapStartSeason>开始季节:</MapStartSeason>
+  <MapStartSeasonDefault>自动</MapStartSeasonDefault>
+  <PermadeathMode>永久死亡模式</PermadeathMode>
+  <PermadeathModeInfo>在永久死亡模式，只有一个保存文档，并只能在退出游戏时保存进度。当殖民地凋零时，你不能通过重读进度来弥补错误。\n\n RimWorld的这种游戏方式意味着你必须接受每一个戏剧性的转变 -无论是悲惨或满怀希望 - 都发挥了充分的影响。</PermadeathModeInfo>
+  
+  <!-- Bill config -->
+  <Suspended>已暂停</Suspended>
+  <NotSuspended>未暂停</NotSuspended>
+  <SuspendedAllCaps>已暂停</SuspendedAllCaps>
+  <RepeatCount>重复: {0}次</RepeatCount>
+  <Forever>永远</Forever>
+  <Details>详述</Details>
+  <IngredientSearchRadius>材料搜索半径</IngredientSearchRadius>
+  <CurrentlyHave>目前有</CurrentlyHave>
+  <CountingProducts>计数</CountingProducts>
+  <Infinite>无限</Infinite>
+  <MinimumSkillLevel>最小{0}技能</MinimumSkillLevel>
+  
+  <RecipeCannotHaveTargetCount>(因为这个配方有多个或是不可预估的成品所以不能为它指定目标数量)</RecipeCannotHaveTargetCount>
+  <WorkAmount>工作量</WorkAmount>
+  <MinimumSkills>最低技能值:</MinimumSkills>
+  <BillRequires>需要{0}{1}</BillRequires>
+  <BillRequiresNutrition>需要{0} 食物</BillRequiresNutrition>
+  <BillRequiresMayVary>(数量可能会因为非标准体积的原料而改变，比如黄金。)</BillRequiresMayVary>
+  <ThisIsSmallVolume>这是一个小体积的原料.每单位只有1／20 正常的体积。所以，如果要求同样数量的材料，需要材料的数量是一般的20倍。</ThisIsSmallVolume>
+  <UsableIngredients>可使用的原料</UsableIngredients>
+  <DoXTimes>做X次</DoXTimes>
+  <DoUntilYouHaveX>做直到拥有X个</DoUntilYouHaveX>
+  <DoForever>永远做下去</DoForever>
+  <BillRepeatTargetCountShort>到{0}</BillRepeatTargetCountShort>
+  <BillStoreMode_DropOnFloor>放在地上</BillStoreMode_DropOnFloor>
+  <BillStoreMode_BestStockpile>放到最合适的贮藏区</BillStoreMode_BestStockpile>
+  <BillStoreMode_NearestStockpileAnyPriority>放到最近的贮藏区</BillStoreMode_NearestStockpileAnyPriority>
+  
+  <!-- Info card -->
+  <Damage>伤害</Damage>
+  <Accuracy>精度</Accuracy>
+  <BurstShotCount>连射次数</BurstShotCount>
+  <WarmupTime>预热时间</WarmupTime>
+  <MeleeWarmupTime>近战预热时间</MeleeWarmupTime>
+  <CooldownTime>冷却时间</CooldownTime>
+  <BurstShotFireRate>射速</BurstShotFireRate>
+  <Range>射程</Range>
+  <GrowsWild>野生</GrowsWild>
+  <Harvestable>可收获</Harvestable>
+  <LimitedLifespan>寿命有限</LimitedLifespan>
+  <GrowingTime>生长时间</GrowingTime>
+  <GrowingTimeDesc>植物只在每天有光照的时间段生长。植物完全成熟的时间是按照有效生长的时间计算，因此实际成熟的时间是通常标示的几倍。低温环境还会延缓生长。</GrowingTimeDesc>
+  <Days>天</Days>
+  <FertilityRequirement>肥沃度需求</FertilityRequirement>
+  <LightRequirement>光照需求</LightRequirement>
+  <Attributes>来源</Attributes>
+  <LifeSpan>寿命</LifeSpan>
+  <Nutrition>营养</Nutrition>
+  <Joy>娱乐</Joy>
+  <FoodQuality>食物品质</FoodQuality>
+  <WalkSpeedProperty>行走速度</WalkSpeedProperty>
+  <MinFoodQuality>最低食物品质</MinFoodQuality>
+  <Diet>饮食</Diet>
+  <RecruitDifficulty>招募难度</RecruitDifficulty>
+  <MarketValue>基础价值</MarketValue>
+  <Covers>覆盖</Covers>
+  <BodyPartEfficiency>身体部件效率</BodyPartEfficiency>
+  <MoodChange>情绪改变</MoodChange>
+  <Wildness>野生</Wildness>
+  <WildnessExplanation>野生动物更难驯服、训练和处理。</WildnessExplanation>
+  <AnimalFilthRate>动物污物产生速度</AnimalFilthRate>
+  <AnimalFilthRateExplanation>当动物在建筑地面走动会产生的污物。此值表示这种生物行走后每{0}格产生的平均污物量。\n\n巨大或较小的宠物会产生更多的污秽。</AnimalFilthRateExplanation>
+  <TimeRecordsCategory>时间</TimeRecordsCategory>
+  <MiscRecordsCategory>杂项</MiscRecordsCategory>
+
+  <!-- Trade -->
+  <DragToTrade>拖拽来进行交易</DragToTrade>
+  <BuyPriceDesc>购买这些需要消耗的钱。</BuyPriceDesc>
+  <SellPriceDesc>卖出这些可以获得的钱。</SellPriceDesc>
+  <PriceTypeDesc>这个物品的价格是{0}。</PriceTypeDesc>
+  <ColonyCount>殖民地拥有的待售物品数量。\n\n你只能卖出轨道交易信标附近并且在户外的物品。</ColonyCount>
+  <TraderCount>交易商拥有的物品数量。</TraderCount>
+  <AcceptButton>接受</AcceptButton>
+  <ResetButton>重置</ResetButton>
+  <CancelButton>取消</CancelButton>
+  <YourTradeableSilver>当前可用于交易的银石: {0}</YourTradeableSilver>
+  <YourTradeableSilverTip>你只能使用轨道交易信标附近而且顶上没有屋顶的银石用来交易。</YourTradeableSilverTip>
+  <TraderHasNoMore>交易商没有更多了。</TraderHasNoMore>
+  <ColonyHasNoMore>没有更多待售的了。</ColonyHasNoMore>
+  <TraderWillNotTrade>交易商不想交易这种商品。</TraderWillNotTrade>
+  <NegotiatorTalkingImpaired>因为身体状态不佳无法和{0}谈判.\n\n这将影响到贸易价格.\n\n考虑用一个健康殖民者来谈判。</NegotiatorTalkingImpaired>
+  <ConfirmTraderShortFunds>贸易商没有足够的白银支付这次交易，继续么?</ConfirmTraderShortFunds>
+  <SortBy>排序方式</SortBy>
+
+  <!-- Comms -->
+  <SocialSkillIs>社交技能: {0}</SocialSkillIs>
+  
+  <!--Research-->
+  <ResearchFinished>完成的研究: {0}</ResearchFinished>
+  <ResearchScreen>研究界面</ResearchScreen>
+  
+  <!--HistoryUpload-->
+  <HistoryUploadMessage>你想把游戏数据上传到RimWorld服务器以帮助开发者完善游戏平衡吗? 如果你同意，每隔{0}天你的游戏数据会被自动上传(以及在游戏结束等其他情况下上传)。之后可以在选项菜单里改变隐私设置。</HistoryUploadMessage>
+  <HistoryUploadMessagePlayerName>尽管游戏数据默认是匿名上传的，但你仍然可以附上你的的名字。</HistoryUploadMessagePlayerName>
+  <HistoryUploadYes>允许上传游戏数据</HistoryUploadYes>
+  <HistoryUploadNo>不允许上传游戏数据</HistoryUploadNo>
+  <HistoryUploadYesOnce>仅在上传这次的数据</HistoryUploadYesOnce>
+  <HistoryUploadNoOnce>不上传这次的数据，并在晚些再问我</HistoryUploadNoOnce>
+	
+	  <!-- Outfit management -->
+  <Outfit>装备</Outfit>
+  <SelectOutfit>选择装备...</SelectOutfit>
+  <NewOutfit>新的装备</NewOutfit>
+  <DeleteOutfit>删除装备...</DeleteOutfit>
+  <OutfitInUse>装备正被{0}使用.</OutfitInUse>
+  <NoOutfitSelected>没有装备被选择</NoOutfitSelected>
+  
+</LanguageData>
