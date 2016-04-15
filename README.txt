@@ -7,10 +7,10 @@ license info
 http://ludeon.com/forums/index.php?topic=2933.0
 
 
-贴吧汉化贴
+贴吧汉化
 =========
 
-http://tieba.baidu.com/p/4470602909
+http://tieba.baidu.com/f?kw=rimworld&ie=utf-8
 
 
 注意
