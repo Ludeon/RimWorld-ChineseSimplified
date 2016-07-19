@@ -1,51 +1,51 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-   <!-- Work tab -->
-  <ManualPriorities>自定义优先度</ManualPriorities>
-  <HigherPriority>高优先度</HigherPriority>
-  <LowerPriority>低优先度</LowerPriority>
-  <RelevantSkills>相关技能:{0}\n平均相关技能:{1} / {2}</RelevantSkills>
-  <ClickToJumpTo>点击并跳跃到:</ClickToJumpTo>
+  <!-- Work tab -->
+  <ManualPriorities>自定义优先级</ManualPriorities>
+  <HigherPriority>高优先级</HigherPriority>
+  <LowerPriority>低优先级</LowerPriority>
+  <RelevantSkills>相关技能：{0}\n平均相关技能：{1} / {2}</RelevantSkills>
+  <ClickToJumpTo>点击跳转到：</ClickToJumpTo>
   <CannotDoThisWork>{0}不能做这种工作。</CannotDoThisWork>
   <NoneBrackets>(无)</NoneBrackets>
-  <IncapableOfWorkTypeBecauseOfCapacities>因这个殖民者的健康状况，他不能从事这种类型的工作。</IncapableOfWorkTypeBecauseOfCapacities>
+  <IncapableOfWorkTypeBecauseOfCapacities>该居民的健康状况不允许他从事这种类型的工作。</IncapableOfWorkTypeBecauseOfCapacities>
   <EmergencyWorkMarker>E</EmergencyWorkMarker>
-
- <!-- Outfits tab -->
-  <CurrentOutfit>当前装备</CurrentOutfit>
-  <ManageOutfits>管理装备</ManageOutfits>
-  <ClearForcedApparel>强制清除</ClearForcedApparel>
+  
+  <!-- Outfits tab -->
+  <CurrentOutfit>当前着装配置</CurrentOutfit>
+  <ManageOutfits>管理着装配置</ManageOutfits>
+  <ClearForcedApparel>取消强制着装</ClearForcedApparel>
   <ApparelForcedLower>强制</ApparelForcedLower>
-  <ForcedApparel>强制服装</ForcedApparel>
+  <ForcedApparel>强制着装</ForcedApparel>
   <OutfitEdit>编辑...</OutfitEdit>
   
   <!-- Restrictions tab -->
   <Copy>复制</Copy>
   <Paste>粘贴</Paste>
-  <AllowedArea>允许活动区域</AllowedArea>
-
+  <AllowedArea>许可区域</AllowedArea>
+  
   <!-- Animals tab -->
   <Master>主人</Master>
   <PregnantIconDesc>怀孕 ({0} / {1})</PregnantIconDesc>
-
+  
   <!-- Factions tab -->
   <Hostile>敌对</Hostile>
   <HostileTo>与{0}敌对</HostileTo>
   <CurrentGoodwill>和这个派系的当前好感度。</CurrentGoodwill>
-    
+  
   <!-- Statistics tab -->
- <Playtime>游戏时间</Playtime>
+  <Playtime>游戏时间</Playtime>
   <Storyteller>故事叙述者</Storyteller>
   <ColonyWealthTotal>殖民地财富</ColonyWealthTotal>
   <ColonyWealthItems>殖民地财富(物品)</ColonyWealthItems>
   <ColonyWealthBuildings>殖民地财富(建筑)</ColonyWealthBuildings>
   <NumThreatBigs>主要威胁</NumThreatBigs>
   <NumEnemyRaids>敌人袭击</NumEnemyRaids>
-  <DamageTaken>受到的伤害</DamageTaken>
-  <ColonistsKilled>殖民者死亡</ColonistsKilled>
-  <ColonistsLaunched>发射到太空的殖民者</ColonistsLaunched>
-    
+  <DamageTaken>已承受伤害</DamageTaken>
+  <ColonistsKilled>被杀害居民</ColonistsKilled>
+  <ColonistsLaunched>进入太空的居民</ColonistsLaunched>
+
   <!-- History tab -->
   <SelectGraph>选择图表</SelectGraph>
   <Last30Days>最近30天</Last30Days>
@@ -53,7 +53,13 @@
   <Last300Days>最近300天</Last300Days>
   <AllDays>全部</AllDays>
   <Day>天</Day>
-  <Value>价值</Value>
+  <Value>值</Value>
   <External>外部</External>
+  
+  <!-- Research tab -->
+  <ProjectTechLevel>项目科技等级</ProjectTechLevel>
+  <YourTechLevel>你的科技等级</YourTechLevel>
+  <ResearchCostMultiplier>开销倍率</ResearchCostMultiplier>
+  <ResearchCostComparison>你的项目基础开销{0}由于你的科技等级现已变成{1}。</ResearchCostComparison>
   
 </LanguageData>
