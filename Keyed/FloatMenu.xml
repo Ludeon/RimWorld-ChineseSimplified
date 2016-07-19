@@ -1,122 +1,121 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-
-
   <CallOnRadio>呼叫{0}</CallOnRadio>
   <CannotUseReason>无法使用({0})</CannotUseReason>
   <CannotUseSolarFlare>无法使用(太阳耀斑)</CannotUseSolarFlare>
   <CannotUseNoPower>无法使用(没有电力)</CannotUseNoPower>
   <CannotUseNoPath>无法使用(没有路径)</CannotUseNoPath>
-  <CannotUseReserved>无法使用(被预留)</CannotUseReserved>
+  <CannotUseReserved>无法使用(已有归属)</CannotUseReserved>
   <CannotUseFull>无法使用(满了)</CannotUseFull>
-	
+  
   <FireAt>对{0}开火</FireAt>
 
   <OutOfRange>超出射程</OutOfRange>
   <CannotHitTarget>无法击中目标</CannotHitTarget>
-  <IsIncapableOfViolenceLower>{0}无法从事暴力</IsIncapableOfViolenceLower>
+  <IsIncapableOfViolenceLower>{0}无法从事暴力活动</IsIncapableOfViolenceLower>
   <IsNotDraftedLower>{0}未征募</IsNotDraftedLower>
   <CannotOrderNonControlledLower>不能命令非控制单位</CannotOrderNonControlledLower>
-  
+
   <OrderManThing>操纵{0}</OrderManThing>
   
   <MeleeAttack>近身攻击{0}</MeleeAttack>
   <MeleeAttackToDeath>近身攻击{0}直到杀死</MeleeAttackToDeath>
   <NoPath>没有路径</NoPath>
 
-	<ForbiddenLower>禁止的</ForbiddenLower>
-	<SociallyImproperLower>社交不当</SociallyImproperLower>
-	<PrisonerRoomLower>囚犯房间</PrisonerRoomLower>
-	<BurningLower>燃烧中</BurningLower>
-	<NoEmptyPlaceLower>没有可用的空地来放置它</NoEmptyPlaceLower>
-	<AlreadyFilledLower>已经装满了</AlreadyFilledLower>
-	<MissingMaterials>需要材料</MissingMaterials>
-        <MissingSkill>技能太低</MissingSkill>
-	<NoEmptyGraveLower>没有空闲的坟墓来安葬它</NoEmptyGraveLower>
-  <AnimalInteractedTooRecently>最近动物已经互动过了</AnimalInteractedTooRecently>
+  <ForbiddenLower>禁止的</ForbiddenLower>
+  <ForbiddenOutsideAllowedAreaLower>位于许可区域之外</ForbiddenOutsideAllowedAreaLower>
+  <SociallyImproperLower>社交不当</SociallyImproperLower>
+  <PrisonerRoomLower>囚犯房间</PrisonerRoomLower>
+  <BurningLower>燃烧中</BurningLower>
+  <NoEmptyPlaceLower>没有可用的空地来放置它</NoEmptyPlaceLower>
+  <AlreadyFilledLower>已经装满了</AlreadyFilledLower>
+  <MissingMaterials>需要材料</MissingMaterials>
+  <MissingSkill>技能太低</MissingSkill>
+  <NoEmptyGraveLower>没有空闲的坟墓来安葬它</NoEmptyGraveLower>
+  <AnimalInteractedTooRecently>最近已经和动物互动过了</AnimalInteractedTooRecently>
   <NoUsableFood>没有可用的食物</NoUsableFood>
+  <NoFood>没有食物</NoFood>
   <AnimalsSkillTooLow>动物技能太低</AnimalsSkillTooLow>
-		<NoComponentsToRepair>需要零部件</NoComponentsToRepair>
-	<NoFuelToRefuel>需要 {0}</NoFuelToRefuel>
+  <NoComponentsToRepair>需要零部件</NoComponentsToRepair>
+  <NoFuelToRefuel>需要 {0}</NoFuelToRefuel>
 
   <ConsumeThing>享用{0}</ConsumeThing>
-  <Teetotaler>绝对禁酒者</Teetotaler>
-
-	 
-  <CannotGoNoPath>无法走到目标(没有路径)</CannotGoNoPath>
-  <GoHere>走到这里</GoHere>
+  <Teetotaler>禁酒主义者</Teetotaler>
+  
+  <CannotGoNoPath>无法前往这里(没有路径)</CannotGoNoPath>
+  <GoHere>前往这里</GoHere>
   
   <Arrest>拘捕{0}</Arrest>
-  <TryToArrest>试图拘捕 {0}</TryToArrest>
+  <TryToArrest>尝试拘捕{0}</TryToArrest>
   <CannotArrest>无法拘捕</CannotArrest>
 
-  <Capture>俘虏{0}</Capture>
-  <CannotCapture>无法俘虏</CannotCapture>
+  <Capture>捕捉{0}</Capture>
+  <CannotCapture>无法捕捉</CannotCapture>
 
   <Rescue>救援{0}</Rescue>
   <CannotRescue>无法救援</CannotRescue>
-  
-  <CarryToCryptosleepCasket>把{0}带到低温休眠舱</CarryToCryptosleepCasket>
-  <CannotCarryToCryptosleepCasket>无法带到低温休眠舱</CannotCarryToCryptosleepCasket>
-  
+
+  <CarryToCryptosleepCasket>把{0}背到低温休眠舱</CarryToCryptosleepCasket>
+  <CannotCarryToCryptosleepCasket>无法背到低温休眠舱</CannotCarryToCryptosleepCasket>
+
   <NoCryptosleepCasket>没有可用的低温休眠舱。</NoCryptosleepCasket>
-  <NoPrisonerBed>没有在封闭房间中的囚犯床。</NoPrisonerBed>
-  <NoNonPrisonerBed>没有可用的非囚犯床。</NoNonPrisonerBed>
- <NoAnimalBed>无法到达，未保留动物窝铺。</NoAnimalBed>
-  <Reserved>已经为别人预留出。</Reserved>
-  <ReservedBy>预留给了{0}。</ReservedBy>
-  <IsReservedBy>{0}被预留给了{1}。</IsReservedBy>
+  <NoPrisonerBed>没有可以到达的、未归属的且在封闭房间中的囚犯床。</NoPrisonerBed>
+  <NoNonPrisonerBed>没有可以到达的且未归属的非囚犯床。</NoNonPrisonerBed>
+  <NoAnimalBed>没有可以到达的且未归属的动物窝铺。</NoAnimalBed>
+  <Reserved>已经归属于别人了。</Reserved>
+  <ReservedBy>归属于{0}。</ReservedBy>
+  <IsReservedBy>{0}归属于{1}。</IsReservedBy>
 
- <Incapable>没有能力</Incapable>
-  <IncapableOfCapacity>{0}能力不足</IncapableOfCapacity>
+  <Incapable>无法胜任</Incapable>
+  <IncapableOfCapacity>无法胜任{0}</IncapableOfCapacity>
 
+  <MinSkill>最低技能</MinSkill>
+  
   <Equip>装备{0}</Equip>
-  <EquipWarningBrawler>(近战者的心情会降低)</EquipWarningBrawler>
+  <EquipWarningBrawler>(搏斗家将会不高兴)</EquipWarningBrawler>
   <CannotEquip>无法装备{0}</CannotEquip>
-
+  
   <ForceWear>强制穿上{0}</ForceWear>
   <CannotWear>无法穿上{0}</CannotWear>
-   <CannotWearBecauseOfMissingBodyParts>缺失身体部位</CannotWearBecauseOfMissingBodyParts>
-
+  <CannotWearBecauseOfMissingBodyParts>身体部位缺失</CannotWearBecauseOfMissingBodyParts>
+  
   <Strip>脱下{0}</Strip>
   <CannotStrip>无法脱下{0}</CannotStrip>
-  
+
   <Deposit>将{0}放置到{1}</Deposit>
   <CannotDeposit>无法将{0}放置到{1}</CannotDeposit>
-  
+
   <SelfDestructHere>在此自毁</SelfDestructHere>
   
   <Drop>丢下{0}</Drop>
-  
-  <UseMedicalBed>休息直到伤口痊愈</UseMedicalBed>
+
+  <UseMedicalBed>休息直到康复</UseMedicalBed>
   <NotInjured>没有受伤</NotInjured>
-  <SomeoneElseSleeping>被占用</SomeoneElseSleeping>
+  <SomeoneElseSleeping>已被占用</SomeoneElseSleeping>
   
-  <TradeWith>和{0}贸易</TradeWith>
-  <CannotTrade>不能贸易</CannotTrade>
+  <TradeWith>和{0}交易</TradeWith>
+  <CannotTrade>不能交易</CannotTrade>
 
   <!-- Specific thing interactions -->
   <EnterCryptosleepCasket>进入低温休眠舱</EnterCryptosleepCasket>
   <OpenCryptosleepCasket>打开低温休眠舱</OpenCryptosleepCasket>
-  
-  
-  
+
   <!-- e.g. Cannot VERB OBJECT, Cannot repair wall, Cannot haul metal, etc.-->
   <CannotGenericWork>无法{0}{1}</CannotGenericWork>
 
   <!-- e.g. Already GERUND OBJECt, Already repairing wall, already hauling metal, etc-->
-  <CannotMissingHealthActivities>无法优先当前任务(健康问题: {0})</CannotMissingHealthActivities>
-  
+  <CannotMissingHealthActivities>不能执行优先命令(无法胜任{0})</CannotMissingHealthActivities>
+
   <CannotGenericAlreadyAm>已经在{0}{1}中</CannotGenericAlreadyAm>
 
-  <CannotPrioritizeIsNotA>无法优先当前任务({0}不是{1})</CannotPrioritizeIsNotA>
+  <CannotPrioritizeIsNotA>不能执行优先命令({0}不是{1})</CannotPrioritizeIsNotA>
 
-  <CannotPrioritizeResearch>无法优先当前任务(研究是一项长期的工作)</CannotPrioritizeResearch>
+  <CannotPrioritizeResearch>不能执行优先命令(研究是一项长期的工作)</CannotPrioritizeResearch>
 
-  <CannotPrioritizeForbidden>无法优先当前任务({0}是禁止的)</CannotPrioritizeForbidden>
+  <CannotPrioritizeForbidden>不能执行优先命令({0}已禁用)</CannotPrioritizeForbidden>
+  <CannotPrioritizeForbiddenOutsideAllowedArea>不能执行优先命令({0}在许可区域之外)</CannotPrioritizeForbiddenOutsideAllowedArea>
   
-
   <!-- e.g. Prioritize GERUND OBJECT, Prioritize repairing wall, prioritize hauling metal, etc-->
   <PrioritizeGeneric>优先{0}{1}</PrioritizeGeneric>
   
