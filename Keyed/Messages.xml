@@ -1,124 +1,130 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
-  
-  
-  <MessageSiegersAssaulting>来自{1}包围殖民地的{0}开始突击殖民地。</MessageSiegersAssaulting>
-  
-  <MessageRaidersBeginningAssault>来自{1}的{0}开始了他们的进攻。</MessageRaidersBeginningAssault>
-  <MessageRaidersDetectedEarlyAssault>来自{1}的{0}发现了你并提前开始了进攻。</MessageRaidersDetectedEarlyAssault>
-  <MessageRaidersKidnapping>来自{1}的{0}打算绑架他们能带走的人并离开。</MessageRaidersKidnapping>
-  
+
+  <MessageSiegersAssaulting>来自{1}的围攻部队{0}开始袭击殖民地。</MessageSiegersAssaulting>
+
+  <MessageRaidersBeginningAssault>来自{1}的{0}开始进行袭击。</MessageRaidersBeginningAssault>
+  <MessageRaidersDetectedEarlyAssault>来自{1}的{0}发现了你并提前开始袭击。</MessageRaidersDetectedEarlyAssault>
+  <MessageRaidersKidnapping>来自{1}的{0}决定绑架一位居民后离开。</MessageRaidersKidnapping>
+  <MessageRaidersStealing>来自{1}的{0}决定盗抢点东西后后离开。</MessageRaidersStealing>
+
   <MessageRaidersLeaving>来自{1}的{0}离开了。</MessageRaidersLeaving>
-  <MessageRaidersGivenUpLeaving>来自{1}的{0}放弃并离开了。</MessageRaidersGivenUpLeaving>
-  <MessageRaidersSatisfiedLeaving>来自{1}的{0}对于他们造成的破坏满意了并离开了。</MessageRaidersSatisfiedLeaving>
-  
+  <MessageRaidersGivenUpLeaving>来自{1}的{0}决定放弃并离开。</MessageRaidersGivenUpLeaving>
+  <MessageRaidersSatisfiedLeaving>来自{1}的{0}在造成破坏后满足地离开了。</MessageRaidersSatisfiedLeaving>
+
   <MessageFightersFleeing>来自{1}的{0}正在逃跑。</MessageFightersFleeing>
-  <MessageFriendlyFightersLeaving>来自{1}的友好{0}离开了。</MessageFriendlyFightersLeaving>
- 
-  <MessageVisitorsTakingWounded>来自{1}的{0} 带着一名受伤的访客.</MessageVisitorsTakingWounded>
- 
-  <MessageWornApparelDeterioratedAway>{0} 被 {1}穿上， 恶化消失.</MessageWornApparelDeterioratedAway>
- 
-  <MessageSeasonBegun>{0}开始了。</MessageSeasonBegun>
+  <MessageFriendlyFightersLeaving>来自{1}的友善{0}离开了。</MessageFriendlyFightersLeaving>
+
+  <MessageVisitorsTakingWounded>来自{1}的{0}带来一名受伤的访客。</MessageVisitorsTakingWounded>
+  <MessageVisitorsTrappedLeaving>来自{1}的{0}触发了陷阱，正在试图逃生。</MessageVisitorsTrappedLeaving>
   
+  <MessageWornApparelDeterioratedAway>{1}所穿着的{0}过于残破已成为了尘土。</MessageWornApparelDeterioratedAway>
+  
+  <MessageSeasonBegun>{0}到了。</MessageSeasonBegun>
+
   <MessageShipHasLeftCommsRange>{0}离开了通讯范围。</MessageShipHasLeftCommsRange>
-  
-  <MessageNeedBeaconToTradeWithShip>你需要一个轨道交易信标才能和飞船交易。</MessageNeedBeaconToTradeWithShip>
 	
-  <MessageBillComplete>清单完成: {0}。</MessageBillComplete>
+  <MessageNeedBeaconToTradeWithShip>你需要一个轨道交易信标才能和飞船交易。\n\n信标还需要电力供给。</MessageNeedBeaconToTradeWithShip>
+	
+  <MessageBillComplete>清单完成：{0}。</MessageBillComplete>
   
   <MessageFullyHealed>{0}完全康复了。</MessageFullyHealed>
 
   <MessagePrisonerIsEscaping>囚犯{0}正在逃跑。</MessagePrisonerIsEscaping>
+
+  <MessageOutOfNearbyShellsFor>{0}在附近找不到给{1}用的未分配弹药。</MessageOutOfNearbyShellsFor>
+
+  <MessageAnimalsGoPsychoHunted>警告：{0}受到伤害时通常会发动攻击。</MessageAnimalsGoPsychoHunted>
+  <MessageAnimalManhuntsOnTameFailed>警告：{0}尝试驯化失败后可能会攻击你({1}成功率)。</MessageAnimalManhuntsOnTameFailed>
   
-  <MessageOutOfNearbyShellsFor>{0} 附近没有发现给{1}的炮弹.</MessageOutOfNearbyShellsFor>
- 
-  <MessageAnimalsGoPsychoHunted>警告: {0}受到伤害时通常会发动攻击.</MessageAnimalsGoPsychoHunted>
-  <MessageAnimalManhuntsOnTameFailed>警告: {0}尝试驯化失败后会攻击你 ({1}几率).</MessageAnimalManhuntsOnTameFailed>
+  <LetterLabelMessageRecruitSuccess>新人加入</LetterLabelMessageRecruitSuccess>
+  <MessageRecruitSuccess>{0}成功地招募了{1}({2}成功率)。</MessageRecruitSuccess>
+  <MessageTameSuccess>{0}成功地驯服了{1}({2}成功率)。</MessageTameSuccess>
+  <MessageTameAndNameSuccess>{0}成功地驯服了{1}({2}成功率)并将HIM命名为{3}。</MessageTameAndNameSuccess>
 
-  <LetterLabelMessageRecruitSuccess>新的招募</LetterLabelMessageRecruitSuccess>
-  <MessageRecruitSuccess>{0}成功招募了{1}(成功率{2})。</MessageRecruitSuccess>
-  <MessageRecruitFail>{0}没能成功招募{1}(成功率{2})。</MessageRecruitFail>
-  <MessageRecruitFailBecauseMood>{0}没能成功招募{1}。(囚犯心情值低于最低要求)</MessageRecruitFailBecauseMood>
-  <MessageTameSuccess>{0} 成功驯服{1} ({2}几率).</MessageTameSuccess>
-  <MessageTameAndNameSuccess>{0}成功驯服 {1} ({2} 几率) 并命名为 {3}.</MessageTameAndNameSuccess>
+  <MessageColonyCannotAfford>殖民地支付不起这笔交易。</MessageColonyCannotAfford>
+  <MessageColonyNotEnoughSilver>没有足够的可用白银进行交易。</MessageColonyNotEnoughSilver>
 
-  <MessageColonyCannotAfford>殖民地无法支付这笔交易。</MessageColonyCannotAfford>
-  <MessageColonyNotEnoughSilver>可用于交易的银石不足。</MessageColonyNotEnoughSilver>
+  <MessageCriticalAlert>严重警报：{0}</MessageCriticalAlert>
+
+  <MessageMustDesignateHarvestable>必须指派于可收割且已长成的植物。</MessageMustDesignateHarvestable>
+  <MessageMustDesignateHarvestableWood>必须指派于可砍伐且已长成的树木。</MessageMustDesignateHarvestableWood>
+  <MessageMustDesignatePlants>必须指派于植物。</MessageMustDesignatePlants>
+  <MessageMustDesignateHaulable>必须指派于可以搬运的物品。</MessageMustDesignateHaulable>
+  <MessageMustDesignateMineable>必须指派于无法通过且可开采的岩石。</MessageMustDesignateMineable>
+  <MessageMustDesignateHuntable>必须指派于可以猎杀的动物。</MessageMustDesignateHuntable>
+  <MessageMustDesignateTameable>必须指派于可以驯化的动物。</MessageMustDesignateTameable>
+  <MessageMustDesignateClaimable>必须指派于废弃的人工建筑。</MessageMustDesignateClaimable>
+  <MessageMustDesignateSmoothableFloor>必须指派于粗糙的石质地表。</MessageMustDesignateSmoothableFloor>
+  <MessageNothingCanRemoveThickRoofs>无法移除厚重的屋顶。</MessageNothingCanRemoveThickRoofs>
+  <MessageAlreadyInStorage>此物已位于贮存区，并会在必要时刻搬运到更高优先级的贮存区。</MessageAlreadyInStorage>
+  <MessageMustDesignateStrippable>必须指派于身着可脱衣物的尸体或者倒下的角色。</MessageMustDesignateStrippable>
+  <MessageMustDesignateSlaughterable>必须指派于属于殖民地的驯养动物。</MessageMustDesignateSlaughterable>
+  <MessageMustDesignateOpenable>必须指派于完整的坟墓或容器。</MessageMustDesignateOpenable>
+
+  <MessageRefusedArrest>{0}拒绝被逮捕！</MessageRefusedArrest>
   
-  <MessageCriticalAlert>严重警报: {0}</MessageCriticalAlert>
+  <MessageNoMedicalBeds>没有可用的病床。</MessageNoMedicalBeds>
+  <MessageNoAnimalBeds>没有可用的动物窝铺。</MessageNoAnimalBeds>
+  <MessageTooLowMedCare>该手术需要{0}以上的水平，但{1}目前的医疗水平为“{2}”。</MessageTooLowMedCare>
   
-  <MessageMustDesignateHarvestable>必须指定长有作物并长成的植物。</MessageMustDesignateHarvestable>
-  <MessageMustDesignateHarvestableWood>必须指定可收获木头并长成的树木。</MessageMustDesignateHarvestableWood>
-  <MessageMustDesignatePlants>必须指定植物。</MessageMustDesignatePlants>
-  <MessageMustDesignateHaulable>必须指定可以搬运的物品。</MessageMustDesignateHaulable>
-  <MessageMustDesignateMineable>必须指定不可通过的岩石。</MessageMustDesignateMineable>
-  <MessageMustDesignateHuntable>必须指定可以猎杀的物品。</MessageMustDesignateHuntable>
-  <MessageMustDesignateTameable>Must designate tameable animals.</MessageMustDesignateTameable>
-  <MessageMustDesignateClaimable>必须指定被放弃的人工建筑。</MessageMustDesignateClaimable>
-  <MessageMustDesignateSmoothableFloor>必须指定粗糙的石面。</MessageMustDesignateSmoothableFloor>
-  <MessageNothingCanRemoveThickRoofs>不能移除太厚的屋顶。</MessageNothingCanRemoveThickRoofs>
-  <MessageAlreadyInStorage>已经在存储区的物品，将会被搬运到更高优先级的存储区。</MessageAlreadyInStorage>
-  <MessageMustDesignateStrippable>剥光衣物的目标必须是尸体或倒地的人物。</MessageMustDesignateStrippable>
-  <MessageMustDesignateSlaughterable>必须指定属于殖民地的驯养动物。</MessageMustDesignateSlaughterable>
-  <MessageMustDesignateOpenable>必须指定完整的坟墓或容器。</MessageMustDesignateOpenable>
-
-  <MessageRefusedArrest>{0}拒绝被逮捕</MessageRefusedArrest>
-   
-  <MessageNoMedicalBeds>没有可用的医疗床。</MessageNoMedicalBeds>
-    <MessageNoAnimalBeds>没有可用的动物窝铺。</MessageNoAnimalBeds>
-
   <PawnDiedBecauseOf>{0}因{1}而死。</PawnDiedBecauseOf>
 
-  <MessageNoLongerDowned>{0}可以再行走了。</MessageNoLongerDowned>
-  
-  <MessageInvoluntarySleep>{0}由于极度疲惫而昏倒.</MessageInvoluntarySleep>
-  
-  <MessageMedicalOperationFailureCatastrophic>{0}操作{1}时，发生了灾难性的大错。</MessageMedicalOperationFailureCatastrophic>
-  <MessageMedicalOperationFailureMinor>{0}操作{1}时，发生了小的失误。</MessageMedicalOperationFailureMinor>
- 
+  <MessageNoLongerDowned>{0}恢复了行走能力。</MessageNoLongerDowned>
+
+  <MessageInvoluntarySleep>{0}由于极度疲惫而昏倒。</MessageInvoluntarySleep>
+
+  <MessageMedicalOperationFailureCatastrophic>{0}在给{1}动手术时产生了灾难性的错误。</MessageMedicalOperationFailureCatastrophic>
+  <MessageMedicalOperationFailureMinor>{0}在给{1}动手术时产生了一点小失误。</MessageMedicalOperationFailureMinor>
+
   <MessageMedicalOperationWillAngerFaction>这次手术将激怒{0}。</MessageMedicalOperationWillAngerFaction>
 
-  <MessagePawnExitMapRelationsGain>因为{0}健康的离开地图，与{1}的关系上升{2}点。</MessagePawnExitMapRelationsGain>
+  <MessagePawnExitMapRelationsGain>因为{0}健康地离开了地图，与{1}的关系上升了{2}点。</MessagePawnExitMapRelationsGain>
 
-  <MessageMiscarriedStarvation>{0} 由于饥饿已经流产了.</MessageMiscarriedStarvation>
-  <MessageMiscarriedPoorHealth>{0}由于健康不佳已经流产了。</MessageMiscarriedPoorHealth>
-  <MessageGaveBirth>{0}已经生产了.</MessageGaveBirth>
+  <MessageMiscarriedStarvation>{0}由于饥饿而导致流产。</MessageMiscarriedStarvation>
+  <MessageMiscarriedPoorHealth>{0}由于身体欠佳而导致流产。</MessageMiscarriedPoorHealth>
+  <MessageGaveBirth>{0}生了。</MessageGaveBirth>
 
-  <MessageNuzzledPawnGaveNameTo>{0}被命名为{1} {2}被爱抚后。</MessageNuzzledPawnGaveNameTo>
+  <MessageNuzzledPawnGaveNameTo>亲昵之后，{0}被起名为{1}{2}。</MessageNuzzledPawnGaveNameTo>
 
-  <MessageNoHandlerSkilledEnough>没有驯服者来驯服{0} (需要{2}的等级为{1} ,最好的驯服者 {3}已经{4}级了).</MessageNoHandlerSkilledEnough>
-
+  <MessageNoHandlerSkilledEnough>无人可以驯服{0}(需要{2}有{1}级，而最厉害的{3}只有{4}级)。</MessageNoHandlerSkilledEnough>
+  
   <MessageEatenByPredator>{0}被{1}吃掉了。</MessageEatenByPredator>
   <MessageAttackedByPredator>{0}正被{1}攻击！</MessageAttackedByPredator>
   
-  <MessageHiveReproduced>一个昆虫巢穴自我繁殖了。</MessageHiveReproduced>
+  <MessageHiveReproduced>一个昆虫巢穴自行繁殖了。</MessageHiveReproduced>
   
-  <MessageTraderCaravanLeaving>来自{0}的贸易商队正在离开。</MessageTraderCaravanLeaving>
+  <MessageTraderCaravanLeaving>来自{0}的商队离开了。</MessageTraderCaravanLeaving>
   
-  <MessageCantSelectDeadFamilyMember>{0}已死亡。</MessageCantSelectDeadFamilyMember>
-  <MessageCantSelectOffMapFamilyMember>{0}不在地图中。</MessageCantSelectOffMapFamilyMember>
+  <MessageCantSelectDeadPawn>{0}已死亡。</MessageCantSelectDeadPawn>
+  <MessageCantSelectOffMapPawn>{0}不在地图中。</MessageCantSelectOffMapPawn>
   
-  <MessageSocialFight>{0}和{1}开始争吵。原因：{2}。</MessageSocialFight>
+  <MessageSocialFight>{0}和{1}开始争吵，原因：{2}。</MessageSocialFight>
   
-  <MessageNewMarriageCeremony>殖民者正在聚集庆祝 {0} 和 {1} 的婚礼。</MessageNewMarriageCeremony>
-  <MessageMarriageCeremonyStarts>正在举行 {0} 和 {1} 的婚礼！</MessageMarriageCeremonyStarts>
-  <MessageMarriageCeremonyCalledOff>{0} 和 {1} 的婚礼被取消。</MessageMarriageCeremonyCalledOff>
-  <MessageNewlyMarried>{0}和{1}结婚了。殖民者正在庆祝。</MessageNewlyMarried>
-  <MessageMarriageCeremonyAfterPartyFinished>{0} 和 {1} 的婚礼结束了。</MessageMarriageCeremonyAfterPartyFinished>
+  <MessageNewMarriageCeremony>居民们正在聚集庆祝{0}和{1}的婚礼。</MessageNewMarriageCeremony>
+  <MessageMarriageCeremonyStarts>{0}和{1}开始举行他们的婚礼！</MessageMarriageCeremonyStarts>
+  <MessageMarriageCeremonyCalledOff>{0}和{1}的婚礼被取消了。</MessageMarriageCeremonyCalledOff>
+  <MessageNewlyMarried>{0}和{1}结婚了，居民们正在庆祝。</MessageNewlyMarried>
+  <MessageMarriageCeremonyAfterPartyFinished>{0}和{1}的婚礼庆典结束了。</MessageMarriageCeremonyAfterPartyFinished>
   
-  <MessageNewBondRelation>{0} 和 {1} 结交。</MessageNewBondRelation>
-  <MessageNewBondRelationNewName>{0} 和 {1} 结交。 {0} 改名为 {1} {2}.</MessageNewBondRelationNewName>
+  <MessageNewBondRelation>{0}将{1}视为爱宠。</MessageNewBondRelation>
+  <MessageNewBondRelationNewName>{0}将{1}视为爱宠，并为HIM起名为{2}。</MessageNewBondRelationNewName>
   
-  <MessageBondedAnimalMentalBreak>因为{1}的死亡，{0}精神崩溃了。</MessageBondedAnimalMentalBreak>
-  <MessageNamedBondedAnimalMentalBreak>因为{2}的死亡，{0} named  {1}精神崩溃了。</MessageNamedBondedAnimalMentalBreak>
-  <MessageBondedAnimalsMentalBreak>因为{1}的死亡，{0}动物精神崩溃了。</MessageBondedAnimalsMentalBreak>
+  <MessageBondedAnimalMentalBreak>得知{1}的死讯，这只{0}精神崩溃了。</MessageBondedAnimalMentalBreak>
+  <MessageNamedBondedAnimalMentalBreak>得知{2}的死讯，这只叫做{1}的{0}精神崩溃了。</MessageNamedBondedAnimalMentalBreak>
+  <MessageBondedAnimalsMentalBreak>得知{1}的死讯，{0}动物们精神崩溃了。</MessageBondedAnimalsMentalBreak>
   
-  <MessageSuccessfullyRemovedHediff>{0} 成功移除了 {1} 的{2}。</MessageSuccessfullyRemovedHediff>
+  <MessageSuccessfullyRemovedHediff>{0}成功地移除了{1}的{2}。</MessageSuccessfullyRemovedHediff>
   
-  <MessageShipChunkDrop>一块飞船碎片从太空掉落到附件。</MessageShipChunkDrop>
+  <MessageShipChunkDrop>一块飞船碎片从太空掉落至附近。</MessageShipChunkDrop>
   
-  <MessagePartyCalledOff>聚会被取消了。</MessagePartyCalledOff>
-  <MessagePartyFinished>聚会结束了。</MessagePartyFinished>
+  <MessagePartyCalledOff>这个派对被取消了。</MessagePartyCalledOff>
+  <MessagePartyFinished>这个派对结束了。</MessagePartyFinished>
 
+  <MessageCannotSellItemsReason>部分物品无法交易，原因：</MessageCannotSellItemsReason>
+
+  <MessageConstructionFailed>{1}在建造{0}时产生了失误，浪费了部分资源。</MessageConstructionFailed>
+
+  <MessageScreenshotSavedAs>截图已保存为：{0}</MessageScreenshotSavedAs>
+  
 </LanguageData>
