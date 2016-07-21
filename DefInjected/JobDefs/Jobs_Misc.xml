@@ -1,132 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-	
-	<!--========= General ============-->
-	<Goto.reportString>走动中。</Goto.reportString>
-	
-	<Wait.reportString>等待中。</Wait.reportString>
-	
-	<AttackStatic.reportString>正在攻击TargetA。</AttackStatic.reportString>
-	
-	<AttackMelee.reportString>正在近身攻击TargetA。</AttackMelee.reportString>
-	
-	<Equip.reportString>正在装备TargetA。</Equip.reportString>
-	
-	<!--============= Misc ============-->
-	<Wear.reportString>正在穿上TargetA。</Wear.reportString>
-	
-	<Strip.reportString>正在脱下TargetA。</Strip.reportString>
 
-	 <ManTurret.reportString>操作炮塔.</ManTurret.reportString>
-
-<!--
-	<ManThing.reportString>正在操作机器。</ManThing.reportString>
-	-->
-
-	<EnterCryptosleepCasket.reportString>正在进入休眠舱。</EnterCryptosleepCasket.reportString>
-	
-	
-	
-	<UseNeurotrainer.reportString>正在使用神经训练器。</UseNeurotrainer.reportString>
-	
-	<ClearSnow.reportString>正在扫雪。</ClearSnow.reportString>
-	
-	<!--============ Fire ============-->
-	<Ignite.reportString>正在点燃TargetA。</Ignite.reportString>
-	
-	<BeatFire.reportString>正在扑灭火焰。</BeatFire.reportString>
-	
-	<ExtinguishSelf.reportString>正在扑灭身上的火。</ExtinguishSelf.reportString>
-	
-	<!--============ Need satisfaction ============-->
-	<!--
-<EatFood.reportString>正在从TargetA觅食。</EatFood.reportString>
-	-->
-
-	<Ingest.reportString>享用TargetA.</Ingest.reportString>
-
-	<LayDown.reportString>躺着。</LayDown.reportString>
-	
-	<!--============= Item hauling ===============-->
-	
-	
-	
-	
-	<!--============= Pawn hauling ===============-->
-	
-<!--
-	<HealPatient.reportString>正在治疗TargetA。</HealPatient.reportString>
-	
--->
-		
-	
-	<WaitCombat.reportString>正在观察TargetA.</WaitCombat.reportString>
-
-	<Vomit.reportString>正在呕吐.</Vomit.reportString>
-
-	<GotoSafeTemperature.reportString>正在寻找温度安全的地方。</GotoSafeTemperature.reportString>
-
-	<GotoWander.reportString>正在闲逛。</GotoWander.reportString>
-
-	<WaitSafeTemperature.reportString>正在寻找适宜温度的地方。</WaitSafeTemperature.reportString>
-
-	<WaitWander.reportString>正在闲逛。</WaitWander.reportString>
-
-	<Flick.reportString>正在按开关。</Flick.reportString>
-
-	<WaitDowned.reportString>倒地不起。</WaitDowned.reportString>
-
-	<TakeInventory.reportString>正在拿取TargetA。</TakeInventory.reportString>
-
-	<RearmTrap.reportString>正在重置TargetA。</RearmTrap.reportString>
-
-	 <!--<UseVerbOnThing.reportString>正在使用verb。</UseVerbOnThing.reportString>--> 
-	 <!--<Hunt.reportString>正在狩猎TargetA。</Hunt.reportString>--> 
-	 <!--<HaulToCell.reportString>正在把TargetA搬走。</HaulToCell.reportString>--> 
-	 <!--<HaulToContainer.reportString>正在搬TargetA。</HaulToContainer.reportString>--> 
-	 <!--<Rescue.reportString>正在援救TargetA。</Rescue.reportString>--> 
-	 <!--<CarryToCryptosleepCasket.reportString>正在把TargetA放入休眠舱。</CarryToCryptosleepCasket.reportString>--> 
-	 <!--<Capture.reportString>正在俘虏TargetA。</Capture.reportString>--> 
-	 <!--<Arrest.reportString>正在逮捕TargetA。</Arrest.reportString>--> 
-	 <!--<ReleasePrisoner.reportString>正在释放TargetA。</ReleasePrisoner.reportString>--> 
-	 <!--<EscortPrisonerToBed.reportString>正在护送犯人TargetA。</EscortPrisonerToBed.reportString>--> 
-	 <!--<TakeWoundedPrisonerToBed.reportString>正在带走受伤的犯人TargetA。</TakeWoundedPrisonerToBed.reportString>--> 
-	 <!--<TakeToBedToOperate.reportString>正在将TargetA带到床上。</TakeToBedToOperate.reportString>--> 
-	 <!--<Kidnap.reportString>正在绑架TargetA。</Kidnap.reportString>--> 
-	 <!--<DeliverFood.reportString>正在把TargetA带给TargetB吃。</DeliverFood.reportString>--> 
-	 <!--<FeedPatient.reportString>正在把TargetA喂给TargetB吃。</FeedPatient.reportString>--> 
-	 <!--<TreatPatient.reportString>处理TargetA.</TreatPatient.reportString>--> 
-	 <!--<PlaceNoCostFrame.reportString>正在建造TargetA。</PlaceNoCostFrame.reportString>--> 
-	 <!--<DoBill.reportString>正在做TargetA的清单上的内容。</DoBill.reportString>--> 
-	 <!--<Clean.reportString>正在清理TargetA。</Clean.reportString>--> 
-	 <!--<Research.reportString>正在研究中。</Research.reportString>--> 
-	 <!--<UseCommsConsole.reportString>正在使用通讯台。</UseCommsConsole.reportString>--> 
-	 <!--<Mine.reportString>正在开采TargetA。</Mine.reportString>--> 
-	 <!--<SmoothFloor.reportString>正在磨光地面。</SmoothFloor.reportString>--> 
-	 <!--<Repair.reportString>正在修理TargetA。</Repair.reportString>--> 
-	 <!--<FinishFrame.reportString>正在建造TargetA。</FinishFrame.reportString>--> 
-	 <!--<Sow.reportString>正在播TargetA种子。</Sow.reportString>--> 
-	 <!--<Harvest.reportString>正在收获TargetA。</Harvest.reportString>--> 
-	 <!--<CutPlant.reportString>正在除掉TargetA。</CutPlant.reportString>--> 
-	 <!--<Deconstruct.reportString>正在拆除TargetA。</Deconstruct.reportString>--> 
-	 <!--<PrisonerFriendlyChat.reportString>正在和囚犯TargetA聊天。</PrisonerFriendlyChat.reportString>--> 
-	 <!--<PrisonerExecution.reportString>正在处死TargetA。</PrisonerExecution.reportString>--> 
-	<Open.reportString>正在打开TargetA.</Open.reportString>
-
-	<UseArtifact.reportString>正在激活神器.</UseArtifact.reportString>
-
-	 <!--<OpenCryptosleepCasket.reportString>正在打开休眠舱。</OpenCryptosleepCasket.reportString>--> 
-
-	<RemoveApparel.reportString>脱去TargetA。</RemoveApparel.reportString>
-
-	<Refuel.reportString>给TargetA加燃料。</Refuel.reportString>
-
-	<TriggerFirefoamPopper.reportString>开关泡沫消防栓。</TriggerFirefoamPopper.reportString>
-
-	<TradeWithPawn.reportString>和TargetA进行贸易。</TradeWithPawn.reportString>
-
-	<FleeAndCower.reportString>制作逃跑。</FleeAndCower.reportString>
-
-	<Lovin.reportString>爱爱。</Lovin.reportString>
+  <Goto.reportString>正在移动。</Goto.reportString>
+  <GotoSafeTemperature.reportString>正在寻找温度更适宜的地方。</GotoSafeTemperature.reportString>
+  <GotoWander.reportString>正在闲逛。</GotoWander.reportString>
+  <Wait.reportString>正在站着不动。</Wait.reportString>
+  <WaitDowned.reportString>正在躺着不动。</WaitDowned.reportString>
+  <WaitSafeTemperature.reportString>在温度适宜的地方不动。</WaitSafeTemperature.reportString>
+  <WaitWander.reportString>踱步中。</WaitWander.reportString>
+  <WaitCombat.reportString>正在注意TargetA的一举一动。</WaitCombat.reportString>
+  <AttackStatic.reportString>正在攻击TargetA。</AttackStatic.reportString>
+  <AttackMelee.reportString>正在与TargetA肉搏。</AttackMelee.reportString>
+  <SocialFight.reportString>正在与TargetA吵架。</SocialFight.reportString>
+  <Equip.reportString>正在装备TargetA。</Equip.reportString>
+  <TakeInventory.reportString>正在拿取TargetA。</TakeInventory.reportString>
+  <Wear.reportString>正在穿上TargetA。</Wear.reportString>
+  <RemoveApparel.reportString>脱下TargetA。</RemoveApparel.reportString>
+  <Strip.reportString>正在扒光TargetA。</Strip.reportString>
+  <Open.reportString>正在开启TargetA。</Open.reportString>
+  <RearmTrap.reportString>正在重置TargetA。</RearmTrap.reportString>
+  <Refuel.reportString>正在给TargetA加燃料。</Refuel.reportString>
+  <ManTurret.reportString>正在操作炮台。</ManTurret.reportString>
+  <EnterCryptosleepCasket.reportString>正在进入休眠舱。</EnterCryptosleepCasket.reportString>
+  <UseNeurotrainer.reportString>正在使用神经训练器。</UseNeurotrainer.reportString>
+  <UseArtifact.reportString>正在激活神器。</UseArtifact.reportString>
+  <TriggerFirefoamPopper.reportString>正在喷洒泡沫灭火器。</TriggerFirefoamPopper.reportString>
+  <ClearSnow.reportString>正在扫雪。</ClearSnow.reportString>
+  <Vomit.reportString>正在呕吐。</Vomit.reportString>
+  <Flick.reportString>正在拨动开关。</Flick.reportString>
+  <TradeWithPawn.reportString>正在和TargetA进行交易。</TradeWithPawn.reportString>
+  <FleeAndCower.reportString>正在逃跑。</FleeAndCower.reportString>
+  <Ignite.reportString>正在点燃TargetA。</Ignite.reportString>
+  <BeatFire.reportString>正在灭火。</BeatFire.reportString>
+  <ExtinguishSelf.reportString>正在扑灭身上的火。</ExtinguishSelf.reportString>
+  <Ingest.reportString>正在享用TargetA。</Ingest.reportString>
+  <LayDown.reportString>正在躺着。</LayDown.reportString>
+  <Lovin.reportString>正在做不可描述的事。</Lovin.reportString>
 
 </LanguageData>
