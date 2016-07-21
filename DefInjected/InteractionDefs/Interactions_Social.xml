@@ -1,43 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-	<Chitchat.label>闲谈</Chitchat.label>
-<rep>
-	<path>Chitchat.logRulesInitiator.rulesStrings[0]</path>
-	<trans>logentry-&gt;和[other_nameShortIndef]友好交谈。</trans>
-</rep>
+  <Chitchat.label>聊天</Chitchat.label>
+  <Chitchat.logRulesInitiator.rulesStrings.0>logentry->与[other_nameShortIndef]愉快地聊天。</Chitchat.logRulesInitiator.rulesStrings.0>
 
+  <DeepTalk.label>谈心</DeepTalk.label>
+  <DeepTalk.logRulesInitiator.rulesStrings.0>logentry->与[other_nameShortIndef]坐下来谈心。</DeepTalk.logRulesInitiator.rulesStrings.0>
 
-	<DeepTalk.label>深入交谈</DeepTalk.label>
+  <Slight.label>冷落</Slight.label>
+  <Slight.logRulesInitiator.rulesStrings.0>logentry->冷落了[other_nameShortIndef]。</Slight.logRulesInitiator.rulesStrings.0>
+  <Slight.logRulesRecipient.rulesStrings.0>logentry->被[other_nameShortIndef]冷落了。</Slight.logRulesRecipient.rulesStrings.0>
 
-<rep>
-	<path>DeepTalk.logRulesInitiator.rulesStrings[0]</path>
-	<trans>logentry-&gt;和[other_nameShortIndef]深入交谈。</trans>
-</rep>
-
-
-	<Slight.label>怠慢</Slight.label>
-<rep>
-	<path>Slight.logRulesInitiator.rulesStrings[0]</path>
-	<trans>logentry-&gt;怠慢[other_nameShortIndef]。</trans>
-</rep>
-
-<rep>
-	<path>Slight.logRulesRecipient.rulesStrings[0]</path>
-	<trans>logentry-&gt;被[other_nameShortIndef]怠慢。</trans>
-</rep>
-
-
-	<Insult.label>侮辱</Insult.label>
-<rep>
-	<path>Insult.logRulesInitiator.rulesStrings[0]</path>
-	<trans>logentry-&gt;侮辱[other_nameShortIndef]。</trans>
-</rep>
-
-<rep>
-	<path>Insult.logRulesRecipient.rulesStrings[0]</path>
-	<trans>logentry-&gt;被[other_nameShortIndef]侮辱。</trans>
-</rep>
-
+  <Insult.label>侮辱</Insult.label>
+  <Insult.logRulesInitiator.rulesStrings.0>logentry->侮辱了[other_nameShortIndef]。</Insult.logRulesInitiator.rulesStrings.0>
+  <Insult.logRulesRecipient.rulesStrings.0>logentry->被[other_nameShortIndef]侮辱了。</Insult.logRulesRecipient.rulesStrings.0>
 
 </LanguageData>

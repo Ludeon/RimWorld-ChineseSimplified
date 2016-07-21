@@ -1,43 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-	<RomanceAttempt.label>浪漫尝试</RomanceAttempt.label>
+  <RomanceAttempt.label>求爱</RomanceAttempt.label>
+  <RomanceAttempt.logRulesInitiator.rulesStrings.0>logentry->尝试向[other_nameShortIndef]求爱。</RomanceAttempt.logRulesInitiator.rulesStrings.0>
+  <RomanceAttempt.logRulesRecipient.rulesStrings.0>logentry->被[other_nameShortIndef]求爱。</RomanceAttempt.logRulesRecipient.rulesStrings.0>
 
-<rep>
-	<path>RomanceAttempt.logRulesInitiator.rulesStrings[0]</path>
-	<trans>logentry-&gt;向[other_nameShortIndef]求爱。</trans>
-</rep>
+  <Breakup.label>分手</Breakup.label>
+  <Breakup.logRulesInitiator.rulesStrings.0>logentry->向[other_nameShortIndef]提出了分手。</Breakup.logRulesInitiator.rulesStrings.0>
+  <Breakup.logRulesRecipient.rulesStrings.0>logentry->被[other_nameShortIndef]甩了。</Breakup.logRulesRecipient.rulesStrings.0>
 
-<rep>
-	<path>RomanceAttempt.logRulesRecipient.rulesStrings[0]</path>
-	<trans>logentry-&gt;被[other_nameShortIndef]求爱。</trans>
-</rep>
-
-
-	<Breakup.label>破裂</Breakup.label>
-
-<rep>
-	<path>Breakup.logRulesInitiator.rulesStrings[0]</path>
-	<trans>logentry-&gt;和[other_nameShortIndef]分手。</trans>
-</rep>
-
-<rep>
-	<path>Breakup.logRulesRecipient.rulesStrings[0]</path>
-	<trans>logentry-&gt;被[other_nameShortIndef]抛弃。</trans>
-</rep>
-
-
-	<MarriageProposal.label>提亲</MarriageProposal.label>
-
-<rep>
-	<path>MarriageProposal.logRulesInitiator.rulesStrings[0]</path>
-	<trans>logentry-&gt;向[other_nameShortIndef]求婚。</trans>
-</rep>
-
-<rep>
-	<path>MarriageProposal.logRulesRecipient.rulesStrings[0]</path>
-	<trans>logentry-&gt;被[other_nameShortIndef]求婚。</trans>
-</rep>
-
+  <MarriageProposal.label>求婚</MarriageProposal.label>
+  <MarriageProposal.logRulesInitiator.rulesStrings.0>logentry->向[other_nameShortIndef]求婚。</MarriageProposal.logRulesInitiator.rulesStrings.0>
+  <MarriageProposal.logRulesRecipient.rulesStrings.0>logentry->被[other_nameShortIndef]求婚。</MarriageProposal.logRulesRecipient.rulesStrings.0>
 
 </LanguageData>
