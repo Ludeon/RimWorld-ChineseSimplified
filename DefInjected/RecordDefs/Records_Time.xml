@@ -1,96 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-	<TimeAsColonist.label>成为殖民者的时间</TimeAsColonist.label>
+  <TimeAsColonist.label>作为居民的时间</TimeAsColonist.label>
+  <TimeAsColonist.description>作为一名居民所度过的总时间。</TimeAsColonist.description>
 
-	<TimeAsColonist.description>成为殖民地度过的时间。</TimeAsColonist.description>
+  <TimeAsPrisoner.label>作为囚犯的时间</TimeAsPrisoner.label>
+  <TimeAsPrisoner.description>作为一名囚犯所度过的总时间。</TimeAsPrisoner.description>
 
-	<TimeAsPrisoner.label>成为囚犯的时间</TimeAsPrisoner.label>
+  <TimeInBed.label>在床上的时间</TimeInBed.label>
+  <TimeInBed.description>躺在床上所度过的总时间。</TimeInBed.description>
 
-	<TimeAsPrisoner.description>成为囚犯度过的时间。</TimeAsPrisoner.description>
+  <TimeInBedForMedicalReasons.label>在病床上的时间</TimeInBedForMedicalReasons.label>
+  <TimeInBedForMedicalReasons.description>由于医疗原因在床上所度过的总时间：等待治疗、创伤恢复或者动手术等。</TimeInBedForMedicalReasons.description>
 
-	<TimeInBed.label>床上时间</TimeInBed.label>
+  <TimeDowned.label>倒地的时间</TimeDowned.label>
+  <TimeDowned.description>倒在地上的总时间。</TimeDowned.description>
 
-	<TimeInBed.description>在床上度过的时间</TimeInBed.description>
+  <TimeGettingFood.label>进食的时间</TimeGettingFood.label>
+  <TimeGettingFood.description>花费在寻找食物以及享用食物上的总时间。</TimeGettingFood.description>
 
-	<TimeInBedForMedicalReasons.label>在床上医疗的时间</TimeInBedForMedicalReasons.label>
+  <TimeGettingJoy.label>娱乐的时间</TimeGettingJoy.label>
+  <TimeGettingJoy.description>花费在娱乐活动上的总时间。</TimeGettingJoy.description>
 
-	<TimeInBedForMedicalReasons.description>在床上医疗花费的时间：等待治疗、从受伤或手术中恢复。</TimeInBedForMedicalReasons.description>
+  <TimeUnderRoof.label>屋顶下的时间</TimeUnderRoof.label>
+  <TimeUnderRoof.description>在屋顶下所花费的总时间。</TimeUnderRoof.description>
 
-	<TimeDowned.label>倒地时间</TimeDowned.label>
+  <TimeDrafted.label>被征召时间</TimeDrafted.label>
+  <TimeDrafted.description>花费在征召上的总时间。</TimeDrafted.description>
 
-	<TimeDowned.description>倒地的总时间。</TimeDowned.description>
+  <TimeOnFire.label>被焚烧时间</TimeOnFire.label>
+  <TimeOnFire.description>身上起火时所度过的总时间。</TimeOnFire.description>
 
-	<TimeGettingFood.label>寻找食物和吃饭的时间</TimeGettingFood.label>
+  <TimeInMentalState.label>崩溃的时间</TimeInMentalState.label>
+  <TimeInMentalState.description>在精神崩溃状态下度过的总时间。</TimeInMentalState.description>
 
-	<TimeGettingFood.description>寻找食物和吃饭的总时间。</TimeGettingFood.description>
+  <TimeHauling.label>搬运的时间</TimeHauling.label>
+  <TimeHauling.description>花费在搬运物品上的总时间。</TimeHauling.description>
 
-	<TimeGettingJoy.label>花在娱乐上的时间</TimeGettingJoy.label>
+  <TimeHandlingAnimals.label>处理动物的时间</TimeHandlingAnimals.label>
+  <TimeHandlingAnimals.description>花费在与动物打交道上的总时间。</TimeHandlingAnimals.description>
 
-	<TimeGettingJoy.description>花在娱乐上的总时间。</TimeGettingJoy.description>
+  <TimeFirefighting.label>灭火的时间</TimeFirefighting.label>
+  <TimeFirefighting.description>花费在与火灾抗争上的总时间。</TimeFirefighting.description>
 
-	<TimeUnderRoof.label>在屋顶下的时间</TimeUnderRoof.label>
+  <TimeWardening.label>做狱卒的时间</TimeWardening.label>
+  <TimeWardening.description>花费在囚房看管囚犯上的总时间。</TimeWardening.description>
 
-	<TimeUnderRoof.description>在屋顶下的总时间</TimeUnderRoof.description>
+  <TimeHunting.label>狩猎的时间</TimeHunting.label>
+  <TimeHunting.description>花费在打猎上的总时间。</TimeHunting.description>
 
-	<TimeDrafted.label>征召时间</TimeDrafted.label>
+  <TimeConstructing.label>建造的时间</TimeConstructing.label>
+  <TimeConstructing.description>花费在建造以及拆除上的总时间。</TimeConstructing.description>
 
-	<TimeDrafted.description>征召度过的时间。</TimeDrafted.description>
+  <TimeTreatingAndFeeding.label>照料的时间</TimeTreatingAndFeeding.label>
+  <TimeTreatingAndFeeding.description>花费在照顾病人上的总时间。</TimeTreatingAndFeeding.description>
 
-	<TimeOnFire.label>着火时间</TimeOnFire.label>
+  <TimeResearching.label>研究的时间</TimeResearching.label>
+  <TimeResearching.description>花费在研究科技项目上的总时间。</TimeResearching.description>
 
-	<TimeOnFire.description>着火度过的时间。</TimeOnFire.description>
+  <TimeCleaning.label>清洁的时间</TimeCleaning.label>
+  <TimeCleaning.description>花费在清洁与打扫上的总时间。</TimeCleaning.description>
 
-	<TimeInMentalState.label>精神崩溃时间</TimeInMentalState.label>
+  <TimeRepairing.label>修理的时间</TimeRepairing.label>
+  <TimeRepairing.description>花费在修理东西上的总时间。</TimeRepairing.description>
 
-	<TimeInMentalState.description>精神崩溃度过的时间。</TimeInMentalState.description>
+  <TimeMining.label>开采的时间</TimeMining.label>
+  <TimeMining.description>花费在开采矿物上的总时间。</TimeMining.description>
 
-	<TimeHauling.label>搬运时间</TimeHauling.label>
-
-	<TimeHauling.description>搬运物品花费的时间。</TimeHauling.description>
-
-	<TimeHandlingAnimals.label>处理动物的时间</TimeHandlingAnimals.label>
-
-	<TimeHandlingAnimals.description>处理动物花费的时间。</TimeHandlingAnimals.description>
-
-	<TimeFirefighting.label>灭火时间</TimeFirefighting.label>
-
-	<TimeFirefighting.description>灭火花费的时间。</TimeFirefighting.description>
-
-	<TimeWardening.label>看管时间</TimeWardening.label>
-
-	<TimeWardening.description>看管花费的时间。</TimeWardening.description>
-
-	<TimeHunting.label>狩猎时间</TimeHunting.label>
-
-	<TimeHunting.description>狩猎花费的时间。</TimeHunting.description>
-
-	<TimeConstructing.label>建筑时间</TimeConstructing.label>
-
-	<TimeConstructing.description>建造和拆除花费的时间。</TimeConstructing.description>
-
-	<TimeTreatingAndFeeding.label>处理和喂食时间</TimeTreatingAndFeeding.label>
-
-	<TimeTreatingAndFeeding.description>处理和喂食花费的时间。</TimeTreatingAndFeeding.description>
-
-	<TimeResearching.label>研究时间</TimeResearching.label>
-
-	<TimeResearching.description>研究花费的时间。</TimeResearching.description>
-
-	<TimeCleaning.label>清洁时间</TimeCleaning.label>
-
-	<TimeCleaning.description>清洁花费的时间。</TimeCleaning.description>
-
-	<TimeRepairing.label>修理时间</TimeRepairing.label>
-
-	<TimeRepairing.description>修理花费的时间。</TimeRepairing.description>
-
-	<TimeMining.label>采矿时间</TimeMining.label>
-
-	<TimeMining.description>采矿花费的时间。</TimeMining.description>
-
-	<TimeSowingAndHarvesting.label>播种和收获时间</TimeSowingAndHarvesting.label>
-
-	<TimeSowingAndHarvesting.description>播种、收获、收割的总时间。</TimeSowingAndHarvesting.description>
+  <TimeSowingAndHarvesting.label>农作的时间</TimeSowingAndHarvesting.label>
+  <TimeSowingAndHarvesting.description>花费在播种、收割以及割除上的总时间。</TimeSowingAndHarvesting.description>
 
 </LanguageData>

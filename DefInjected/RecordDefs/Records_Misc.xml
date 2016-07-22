@@ -1,180 +1,136 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-	<Kills.label>杀死</Kills.label>
+  <Kills.label>杀害</Kills.label>
+  <Kills.description>被我杀害的生物数量。</Kills.description>
 
-	<Kills.description>我杀死的生物数量。</Kills.description>
+  <KillsHumanlikes.label>杀害 (人类)</KillsHumanlikes.label>
+  <KillsHumanlikes.description>被我杀害的人类数量。</KillsHumanlikes.description>
 
-	<KillsHumanlikes.label>杀死(人类)</KillsHumanlikes.label>
+  <KillsAnimals.label>杀害 (动物)</KillsAnimals.label>
+  <KillsAnimals.description>被我杀害的动物数量。</KillsAnimals.description>
 
-	<KillsHumanlikes.description>我已杀死的人类数量。</KillsHumanlikes.description>
+  <KillsMechanoids.label>杀害 (机械体)</KillsMechanoids.label>
+  <KillsMechanoids.description>被我杀害的机械体数量。</KillsMechanoids.description>
 
-	<KillsAnimals.label>杀死 (动物)</KillsAnimals.label>
+  <PawnsDowned.label>击倒</PawnsDowned.label>
+  <PawnsDowned.description>被我击倒的生物数量。</PawnsDowned.description>
 
-	<KillsAnimals.description>我已杀死的动物数量。</KillsAnimals.description>
+  <PawnsDownedHumanlikes.label>击倒 (人类)</PawnsDownedHumanlikes.label>
+  <PawnsDownedHumanlikes.description>被我击倒的人类数量。</PawnsDownedHumanlikes.description>
 
-	<KillsMechanoids.label>杀死 (机甲)</KillsMechanoids.label>
+  <PawnsDownedAnimals.label>击倒 (动物)</PawnsDownedAnimals.label>
+  <PawnsDownedAnimals.description>被我击倒的动物数量。</PawnsDownedAnimals.description>
 
-	<KillsMechanoids.description>我已杀死的机甲数量。</KillsMechanoids.description>
+  <PawnsDownedMechanoids.label>击倒 (机械体)</PawnsDownedMechanoids.label>
+  <PawnsDownedMechanoids.description>被我击倒的机械体数量。</PawnsDownedMechanoids.description>
 
-	<PawnsDowned.label>击倒</PawnsDowned.label>
+  <ShotsFired.label>射击次数</ShotsFired.label>
+  <ShotsFired.description>我总共开火射击的次数。</ShotsFired.description>
 
-	<PawnsDowned.description>我击倒的生物数量。</PawnsDowned.description>
+  <Headshots.label>爆头次数</Headshots.label>
+  <Headshots.description>我总共射击爆头的次数。</Headshots.description>
 
-	<PawnsDownedHumanlikes.label>击倒(人类)</PawnsDownedHumanlikes.label>
+  <DamageDealt.label>输出伤害</DamageDealt.label>
+  <DamageDealt.description>我输出的伤害总量。</DamageDealt.description>
 
-	<PawnsDownedHumanlikes.description>我击倒的生物数量。</PawnsDownedHumanlikes.description>
+  <DamageTaken.label>承受伤害</DamageTaken.label>
+  <DamageTaken.description>我承受的伤害总量。</DamageTaken.description>
 
-	<PawnsDownedAnimals.label>击倒(动物)</PawnsDownedAnimals.label>
+  <TimesInMentalState.label>崩溃次数</TimesInMentalState.label>
+  <TimesInMentalState.description>我遭受的精神崩溃次数。</TimesInMentalState.description>
 
-	<PawnsDownedAnimals.description>我击倒的动物数量。</PawnsDownedAnimals.description>
+  <TimesOnFire.label>着火次数</TimesOnFire.label>
+  <TimesOnFire.description>我身上着火的次数。</TimesOnFire.description>
 
-	<PawnsDownedMechanoids.label>击倒(机甲)</PawnsDownedMechanoids.label>
+  <FiresExtinguished.label>灭火次数</FiresExtinguished.label>
+  <FiresExtinguished.description>我扑灭的火灾次数。</FiresExtinguished.description>
 
-	<PawnsDownedMechanoids.description>我击倒的机甲数量。</PawnsDownedMechanoids.description>
+  <OperationsReceived.label>接受手术次数</OperationsReceived.label>
+  <OperationsReceived.description>我所接受过手术的次数。</OperationsReceived.description>
 
-	<ShotsFired.label>开火射击</ShotsFired.label>
+  <OperationsPerformed.label>实施手术次数</OperationsPerformed.label>
+  <OperationsPerformed.description>我为别人进行手术的次数。</OperationsPerformed.description>
 
-	<ShotsFired.description>我开火的射击数量。</ShotsFired.description>
+  <TimesTendedTo.label>接受治疗次数</TimesTendedTo.label>
+  <TimesTendedTo.description>我所接受过医疗处置的次数。</TimesTendedTo.description>
 
-	<Headshots.label>爆头</Headshots.label>
+  <TimesTendedOther.label>实施治疗次数</TimesTendedOther.label>
+  <TimesTendedOther.description>我为别人进行医疗处置的次数。</TimesTendedOther.description>
 
-	<Headshots.description>我爆头的数量。</Headshots.description>
+  <PeopleCaptured.label>俘虏次数</PeopleCaptured.label>
+  <PeopleCaptured.description>被我所俘虏的人数。</PeopleCaptured.description>
 
-	<DamageDealt.label>输出伤害</DamageDealt.label>
+  <PrisonersRecruited.label>招降人数</PrisonersRecruited.label>
+  <PrisonersRecruited.description>被我所招降的囚犯人数。</PrisonersRecruited.description>
 
-	<DamageDealt.description>我输出的伤害总量。</DamageDealt.description>
+  <PrisonersChatted.label>囚犯闲聊次数</PrisonersChatted.label>
+  <PrisonersChatted.description>我与囚犯进行聊天的次数。</PrisonersChatted.description>
 
-	<DamageTaken.label>承受伤害</DamageTaken.label>
+  <AnimalsTamed.label>驯服动物数</AnimalsTamed.label>
+  <AnimalsTamed.description>被我所驯服的动物数量。</AnimalsTamed.description>
 
-	<DamageTaken.description>我承受的伤害总量。</DamageTaken.description>
+  <AnimalsSlaughtered.label>屠宰动物数</AnimalsSlaughtered.label>
+  <AnimalsSlaughtered.description>被我所屠宰的动物数量。</AnimalsSlaughtered.description>
 
-	<TimesInMentalState.label>崩溃状态次数</TimesInMentalState.label>
+  <MealsCooked.label>烹饪食物数</MealsCooked.label>
+  <MealsCooked.description>我所烹饪的食物数量。</MealsCooked.description>
 
-	<TimesInMentalState.description>我遭受的精神崩溃次数。</TimesInMentalState.description>
+  <ThingsConstructed.label>建造物品数</ThingsConstructed.label>
+  <ThingsConstructed.description>我所建造的物品数量。</ThingsConstructed.description>
 
-	<TimesOnFire.label>着火次数</TimesOnFire.label>
+  <ThingsInstalled.label>安装物品数</ThingsInstalled.label>
+  <ThingsInstalled.description>我所安装的物品数量。</ThingsInstalled.description>
 
-	<TimesOnFire.description>我着火的次数。</TimesOnFire.description>
+  <ThingsRepaired.label>修理物品数</ThingsRepaired.label>
+  <ThingsRepaired.description>我所修理的物品数量。</ThingsRepaired.description>
 
-	<FiresExtinguished.label>熄灭火灾数</FiresExtinguished.label>
+  <ThingsCrafted.label>制造物品数</ThingsCrafted.label>
+  <ThingsCrafted.description>我所制造的物品数量。</ThingsCrafted.description>
 
-	<FiresExtinguished.description>我熄灭的火灾次数。</FiresExtinguished.description>
+  <ThingsHauled.label>搬运物品数</ThingsHauled.label>
+  <ThingsHauled.description>我所搬运的物品数量</ThingsHauled.description>
 
-	<OperationsReceived.label>受手术次数</OperationsReceived.label>
+  <PlantsSown.label>播种次数</PlantsSown.label>
+  <PlantsSown.description>我所播种的作物数量。</PlantsSown.description>
 
-	<OperationsReceived.description>接受过手术的数量。</OperationsReceived.description>
+  <PlantsHarvested.label>收割次数</PlantsHarvested.label>
+  <PlantsHarvested.description>我所收割的作物数量。</PlantsHarvested.description>
 
-	<OperationsPerformed.label>手术次数</OperationsPerformed.label>
+  <CellsMined.label>开采次数</CellsMined.label>
+  <CellsMined.description>我所开采的石头数量。</CellsMined.description>
 
-	<OperationsPerformed.description>我进行手术的数量。</OperationsPerformed.description>
+  <MessesCleaned.label>打扫次数</MessesCleaned.label>
+  <MessesCleaned.description>我所打扫的格子数量。</MessesCleaned.description>
 
-	<TimesTendedTo.label>受治疗处理次数</TimesTendedTo.label>
+  <ResearchPointsResearched.label>研究点数</ResearchPointsResearched.label>
+  <ResearchPointsResearched.description>由我研究所获得的点数。</ResearchPointsResearched.description>
 
-	<TimesTendedTo.description>接受过医疗处理的数量。</TimesTendedTo.description>
+  <CorpsesBuried.label>埋葬尸体数</CorpsesBuried.label>
+  <CorpsesBuried.description>我所埋葬的尸体数量。</CorpsesBuried.description>
 
-	<TimesTendedOther.label>医疗处理次数</TimesTendedOther.label>
+  <NutritionEaten.label>食用营养糊</NutritionEaten.label>
+  <NutritionEaten.description>我所吃掉的营养糊数量。</NutritionEaten.description>
 
-	<TimesTendedOther.description>我进行医疗处理的数量。</TimesTendedOther.description>
+  <TrapsRearmed.label>重置陷阱数</TrapsRearmed.label>
+  <TrapsRearmed.description>我所重置的陷阱数量。</TrapsRearmed.description>
 
-	<PeopleCaptured.label>俘奴数</PeopleCaptured.label>
+  <BodiesStripped.label>脱取次数</BodiesStripped.label>
+  <BodiesStripped.description>我所脱取的目标数量。</BodiesStripped.description>
 
-	<PeopleCaptured.description>我俘奴人的次数</PeopleCaptured.description>
+  <ThingsUninstalled.label>拆装物品数</ThingsUninstalled.label>
+  <ThingsUninstalled.description>我所拆装的物品数量。</ThingsUninstalled.description>
 
-	<PrisonersRecruited.label>招募囚犯数</PrisonersRecruited.label>
+  <ThingsDeconstructed.label>拆除物品数</ThingsDeconstructed.label>
+  <ThingsDeconstructed.description>我所拆除的物品数量。</ThingsDeconstructed.description>
 
-	<PrisonersRecruited.description>我招募囚犯的数量。</PrisonersRecruited.description>
+  <ArtifactsActivated.label>激活神器数</ArtifactsActivated.label>
+  <ArtifactsActivated.description>我所激活的神器数量。</ArtifactsActivated.description>
 
-	<PrisonersChatted.label>与囚犯聊天数</PrisonersChatted.label>
+  <ContainersOpened.label>打开容器数</ContainersOpened.label>
+  <ContainersOpened.description>我所打开的容器数量。</ContainersOpened.description>
 
-	<PrisonersChatted.description>我与囚犯聊天的数量。</PrisonersChatted.description>
-
-	<AnimalsTamed.label>驯服动物数</AnimalsTamed.label>
-
-	<AnimalsTamed.description>我驯服动物的数量。</AnimalsTamed.description>
-
-	<AnimalsSlaughtered.label>屠宰动物数</AnimalsSlaughtered.label>
-
-	<AnimalsSlaughtered.description>我屠宰动物的数量。</AnimalsSlaughtered.description>
-
-	<MealsCooked.label>烹饪食物数</MealsCooked.label>
-
-	<MealsCooked.description>我烹饪食物的数量。</MealsCooked.description>
-
-	<ThingsConstructed.label>建造物品数</ThingsConstructed.label>
-
-	<ThingsConstructed.description>我建造物品的数量。</ThingsConstructed.description>
-
-	<ThingsInstalled.label>安装物品数</ThingsInstalled.label>
-
-	<ThingsInstalled.description>我安装物品的数量。</ThingsInstalled.description>
-
-	<ThingsRepaired.label>修理物品数</ThingsRepaired.label>
-
-	<ThingsRepaired.description>我修理物品的数量。</ThingsRepaired.description>
-
-	<ThingsCrafted.label>手工制作物品数</ThingsCrafted.label>
-
-	<ThingsCrafted.description>我手工制作物品的数量。</ThingsCrafted.description>
-
-	<ThingsHauled.label>搬运物品数</ThingsHauled.label>
-
-	<ThingsHauled.description>我搬运物品的数量</ThingsHauled.description>
-
-	<PlantsSown.label>播种数</PlantsSown.label>
-
-	<PlantsSown.description>我播种植物的数量。</PlantsSown.description>
-
-	<PlantsHarvested.label>收获数</PlantsHarvested.label>
-
-	<PlantsHarvested.description>我收获植物的数量。</PlantsHarvested.description>
-
-	<CellsMined.label>采矿数</CellsMined.label>
-
-	<CellsMined.description>我采矿的单元格数。</CellsMined.description>
-
-	<MessesCleaned.label>垃圾清理数</MessesCleaned.label>
-
-	<MessesCleaned.description>我清理垃圾的数量。</MessesCleaned.description>
-
-	<ResearchPointsResearched.label>研究点数</ResearchPointsResearched.label>
-
-	<ResearchPointsResearched.description>我研究的研究点数。</ResearchPointsResearched.description>
-
-	<CorpsesBuried.label>埋葬尸体数</CorpsesBuried.label>
-
-	<CorpsesBuried.description>我埋葬的尸体数量。</CorpsesBuried.description>
-
-	<NutritionEaten.label>吃营养膏数</NutritionEaten.label>
-
-	<NutritionEaten.description>我吃掉的营养膏数量。</NutritionEaten.description>
-
-	<TrapsRearmed.label>重置陷阱数</TrapsRearmed.label>
-
-	<TrapsRearmed.description>我重置陷阱的数量。</TrapsRearmed.description>
-
-	<BodiesStripped.label>剥衣数</BodiesStripped.label>
-
-	<BodiesStripped.description>我剥掉的衣服数。</BodiesStripped.description>
-
-	<ThingsUninstalled.label>卸载物品数</ThingsUninstalled.label>
-
-	<ThingsUninstalled.description>我卸载的物品数量。</ThingsUninstalled.description>
-
-	<ThingsDeconstructed.label>拆除物品数</ThingsDeconstructed.label>
-
-	<ThingsDeconstructed.description>我拆除的物品数量。</ThingsDeconstructed.description>
-
-	<ArtifactsActivated.label>激活的史前文物数</ArtifactsActivated.label>
-
-	<ArtifactsActivated.description>我激活的史前文物数量。</ArtifactsActivated.description>
-
-	<ContainersOpened.label>开启容器数</ContainersOpened.label>
-
-	<ContainersOpened.description>我开启的容器数量。</ContainersOpened.description>
-
-	<SwitchesFlicked.label>按下开关数</SwitchesFlicked.label>
-
-	<SwitchesFlicked.description>我按下的开关数量。</SwitchesFlicked.description>
+  <SwitchesFlicked.label>拨动开关数</SwitchesFlicked.label>
+  <SwitchesFlicked.description>我所拨动的开关数量。</SwitchesFlicked.description>
 
 </LanguageData>
