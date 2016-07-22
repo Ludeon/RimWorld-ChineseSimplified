@@ -1,28 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<LanguageData> 
+<LanguageData>
 
-    <!-- removing body parts -->  
+  <RemoveBodyPart.label>移除身体部位</RemoveBodyPart.label>
+  <RemoveBodyPart.description>移除身体部位。</RemoveBodyPart.description>
+  <RemoveBodyPart.jobString>正在移除身体部位。</RemoveBodyPart.jobString>
 
-    <RemoveBodyPart.label>移除身体部件</RemoveBodyPart.label>  
-    <RemoveBodyPart.description>移除身体部件。</RemoveBodyPart.description>  
-    <RemoveBodyPart.jobString>正在移除身体部件。</RemoveBodyPart.jobString>  
+  <RemoveMechanoidBodyPart.label>移除机械部件</RemoveMechanoidBodyPart.label>
+  <RemoveMechanoidBodyPart.description>移除机械部件。</RemoveMechanoidBodyPart.description>
+  <RemoveMechanoidBodyPart.jobString>正在移除机械部件。</RemoveMechanoidBodyPart.jobString>
 
-    <RemoveMechanoidBodyPart.label>移除人工身体部件</RemoveMechanoidBodyPart.label>  
-    <RemoveMechanoidBodyPart.description>移除人工身体部件。</RemoveMechanoidBodyPart.description>  
-    <RemoveMechanoidBodyPart.jobString>正在移除人工身体部件。</RemoveMechanoidBodyPart.jobString>  
+  <Euthanize.label>安乐死</Euthanize.label>
+  <Euthanize.description>执行安乐死。</Euthanize.description>
+  <Euthanize.jobString>正在执行安乐死。</Euthanize.jobString>
 
-    <!-- Euthanization -->  
+  <ShutDownMechanoid.label>停机</ShutDownMechanoid.label>
+  <ShutDownMechanoid.description>将机械体永久关闭。</ShutDownMechanoid.description>
+  <ShutDownMechanoid.jobString>正在停机。</ShutDownMechanoid.jobString>
 
-    <Euthanize.label>安乐死</Euthanize.label>  
-    <Euthanize.description>执行安乐死。</Euthanize.description>  
-    <Euthanize.jobString>正在执行安乐死。</Euthanize.jobString>  
-
-    <ShutDownMechanoid.label>关机</ShutDownMechanoid.label>  
-    <ShutDownMechanoid.description>将机器人永久关闭。</ShutDownMechanoid.description>  
-    <ShutDownMechanoid.jobString>正在关机。</ShutDownMechanoid.jobString>  
-
-	<ExciseCarcinoma.label>切除癌变部位</ExciseCarcinoma.label>
-	<ExciseCarcinoma.description>切除癌变部位.</ExciseCarcinoma.description>
-	<ExciseCarcinoma.jobString>切除癌变部位a.</ExciseCarcinoma.jobString>
+  <ExciseCarcinoma.label>切除肿瘤</ExciseCarcinoma.label>
+  <ExciseCarcinoma.description>切除癌变肿瘤。</ExciseCarcinoma.description>
+  <ExciseCarcinoma.jobString>正在切除肿瘤。</ExciseCarcinoma.jobString>
 
 </LanguageData>

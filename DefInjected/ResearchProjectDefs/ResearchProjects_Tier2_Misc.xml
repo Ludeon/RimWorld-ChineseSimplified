@@ -1,34 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<LanguageData> 
+<LanguageData>
 
-    <GeothermalPower.label>地热能</GeothermalPower.label>  
-    <GeothermalPower.description>允许殖民者通过在蒸汽泉上建造地热发电机来获得不间断的能源。</GeothermalPower.description>  
+  <Batteries.label>蓄电池</Batteries.label>
+  <Batteries.description>建造蓄电池来存储电力。</Batteries.description>
 
-    <HospitalBed.label>医疗床</HospitalBed.label>  
-    <HospitalBed.description>允许殖民者建造可以增加医疗成功率的医疗床。</HospitalBed.description>  
+  <NutrientPaste.label>营养糊</NutrientPaste.label>
+  <NutrientPaste.description>允许建造营养糊供应机，可以高效地将含有营养的生料转化成可以吃的食物。</NutrientPaste.description>
 
-    <Cryptosleep.label>低温休眠舱</Cryptosleep.label>  
-    <Cryptosleep.description>允许殖民者建造低温休眠舱，它可以让生物进入生理上"暂停"的状态。</Cryptosleep.description>  
+  <SolarPanels.label>太阳能板</SolarPanels.label>
+  <SolarPanels.description>允许建造太阳能板来发电。</SolarPanels.description>
 
-	<Firefoam.label>泡沫灭火剂</Firefoam.label>
-	<Firefoam.description>解锁建造泡沫消防栓，阻燃泡沫可以扑灭建筑物的火灾。</Firefoam.description>
+  <AirConditioning.label>空调</AirConditioning.label>
+  <AirConditioning.description>允许建造空调设备来保持夏日室内的凉爽，或者为冷库制冷。</AirConditioning.description>
 
-	<MultiAnalyzer.label>多元分析仪</MultiAnalyzer.label>
-	<MultiAnalyzer.description>允许殖民者建造多元分析器，增加研究速度，并解锁更高级别的研究项目，一般放置在研究台附近。</MultiAnalyzer.description>
+  <Autodoors.label>自动门</Autodoors.label>
+  <Autodoors.description>允许建造自动门，在有人通过时自动开启，不会影响移动速度。</Autodoors.description>
 
-	<VitalsMonitor.label>生命体征监测</VitalsMonitor.label>
-	<VitalsMonitor.description>允许殖民者建造生命体征监测以增加患者的治疗效果，放在医疗床附近。</VitalsMonitor.description>
+  <Hydroponics.label>水栽培</Hydroponics.label>
+  <Hydroponics.description>允许建造水栽培设施来在室内进行快速种植，而无需担心室外的环境和天气。</Hydroponics.description>
 
-	<ComponentAssembly.label>零部件装配</ComponentAssembly.label>
-	<ComponentAssembly.description>允许您建造零部件装配台，殖民者可以用简单的材料制造零部件。</ComponentAssembly.description>
+  <ElectricSmelting.label>电力熔炼</ElectricSmelting.label>
+  <ElectricSmelting.description>允许建造电力锻造台和电力熔炼机。\n\n电力锻造台可以不用使用燃料打造物品，电力熔炼机通过高温和电磁铁将金属从矿渣内提取出来。</ElectricSmelting.description>
 
-	<PoweredArmor.label>动力装甲</PoweredArmor.label>
-	<PoweredArmor.description>神经元机器人和先进玻璃钢制造术允许您制造动力装甲和动力头盔。</PoweredArmor.description>
+  <ElectricCremation.label>电力火化</ElectricCremation.label>
+  <ElectricCremation.description>允许建造火化炉将不要的尸体焚烧汽化。</ElectricCremation.description>
 
-	<ChargedShot.label>电荷枪</ChargedShot.label>
-	<ChargedShot.description>研究脉冲能量和弹药的秘密。解锁制作电荷枪。</ChargedShot.description>
+  <ColoredLights.label>彩色灯具</ColoredLights.label>
+  <ColoredLights.description>允许居民制造彩色灯具用来装饰。</ColoredLights.description>
 
-	<MultibarrelWeapons.label>多管武器</MultibarrelWeapons.label>
-	<MultibarrelWeapons.description>解锁制作机枪。</MultibarrelWeapons.description>
+  <Machining.label>机械加工</Machining.label>
+  <Machining.description>允许建造机械加工台用于制造枪支和机器，还可以把死掉的机械体进行拆卸。</Machining.description>
+
+  <Mortars.label>迫击炮</Mortars.label>
+  <Mortars.description>允许建造迫击炮，可以在长距离下将炮弹抛过墙壁。</Mortars.description>
+
+  <IEDBomb.label>爆炸陷阱</IEDBomb.label>
+  <IEDBomb.description>允许居民用炮弹制造一个简易的爆炸陷阱。</IEDBomb.description>
+
+  <IEDIncendiary.label>爆燃陷阱</IEDIncendiary.label>
+  <IEDIncendiary.description>允许居民用炮弹制造一个爆燃陷阱。</IEDIncendiary.description>
+
+  <MicroelectronicsBasics.label>微电子基础</MicroelectronicsBasics.label>
+  <MicroelectronicsBasics.description>操作精密复杂的电子设备的基础，可以解锁高科技研究台和通讯台，以及其它研究项目诸如显像管电视和低温休眠舱等。</MicroelectronicsBasics.description>
+
+  <TubeTelevision.label>显像管电视</TubeTelevision.label>
+  <TubeTelevision.description>可以生产显像管电视机。</TubeTelevision.description>
+
+  <GunTurrets.label>自动炮台</GunTurrets.label>
+  <GunTurrets.description>可以生产自动炮台。</GunTurrets.description>
 
 </LanguageData>

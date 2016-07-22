@@ -1,60 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-	
-	<MapDollyUp.label>上</MapDollyUp.label>
-	<MapDollyDown.label>下</MapDollyDown.label>
-	<MapDollyLeft.label>左</MapDollyLeft.label>
-	<MapDollyRight.label>右</MapDollyRight.label>
-	<MapZoomIn.label>放大</MapZoomIn.label>
-	<MapZoomOut.label>缩小</MapZoomOut.label>
 
- <!-- Map play -->
- 
-	
-	<ToggleScreenshotMode.label>开关截图模式</ToggleScreenshotMode.label>
-	<TakeScreenshot.label>截图</TakeScreenshot.label>
-	<SelectNextInCell.label>选择同方块内下一个物体</SelectNextInCell.label>
-	<TogglePause.label>暂停/继续游戏</TogglePause.label>
-	<TimeSpeedNormal.label>游戏速度: 正常</TimeSpeedNormal.label>
-	<TimeSpeedFast.label>游戏速度: 较快</TimeSpeedFast.label>
-	<TimeSpeedSuperfast.label>游戏速度: 非常快</TimeSpeedSuperfast.label>
-	<TimeSpeedUltrafast.label>游戏速度: 极快(Debug)</TimeSpeedUltrafast.label>
-	<PreviousColonist.label>上一位殖民者</PreviousColonist.label>
-	<NextColonist.label>下一位殖民者</NextColonist.label>
-	
+  <!-- In-game camera -->
+  <MapDollyUp.label>向上</MapDollyUp.label>
+  <MapDollyDown.label>向下</MapDollyDown.label>
+  <MapDollyLeft.label>向左</MapDollyLeft.label>
+  <MapDollyRight.label>向右</MapDollyRight.label>
+  <MapZoomIn.label>拉近</MapZoomIn.label>
+  <MapZoomOut.label>拉远</MapZoomOut.label>
+
+  <!-- Map play -->
+  <TakeScreenshot.label>截图</TakeScreenshot.label>
+  <ToggleScreenshotMode.label>切换截图模式</ToggleScreenshotMode.label>
+  <SelectNextInCell.label>循环选择相同位置的其他物体</SelectNextInCell.label>
+  <TogglePause.label>暂停/继续游戏</TogglePause.label>
+  <TimeSpeedNormal.label>游戏速度：正常</TimeSpeedNormal.label>
+  <TimeSpeedFast.label>游戏速度：较快</TimeSpeedFast.label>
+  <TimeSpeedSuperfast.label>游戏速度：非常快</TimeSpeedSuperfast.label>
+  <TimeSpeedUltrafast.label>游戏速度：极快 (调试)</TimeSpeedUltrafast.label>
+  <PreviousColonist.label>上一位居民</PreviousColonist.label>
+  <NextColonist.label>下一位居民</NextColonist.label>
+
   <!-- Misc (re-used) -->
-  
-	<Misc1.label>其它 1</Misc1.label>
-	<Misc2.label>其它 2</Misc2.label>
-	<Misc3.label>其它 3</Misc3.label>
-	<Misc4.label>其它 4</Misc4.label>
-	<Misc5.label>其它 5</Misc5.label>
-	<Misc6.label>其它 6</Misc6.label>
-	<Misc7.label>其它 7</Misc7.label>
-	<Misc8.label>其它 8</Misc8.label>
-	<Misc9.label>其它 9</Misc9.label>
-	<Misc10.label>其它 10</Misc10.label>
-	<Misc11.label>其它 11</Misc11.label>
-	<Misc12.label>其它 12</Misc12.label>
-  
+  <Misc1.label>功能 1</Misc1.label>
+  <Misc2.label>功能 2</Misc2.label>
+  <Misc3.label>功能 3</Misc3.label>
+  <Misc4.label>功能 4</Misc4.label>
+  <Misc5.label>功能 5</Misc5.label>
+  <Misc6.label>功能 6</Misc6.label>
+  <Misc7.label>功能 7</Misc7.label>
+  <Misc8.label>功能 8</Misc8.label>
+  <Misc9.label>功能 9</Misc9.label>
+  <Misc10.label>功能 10</Misc10.label>
+  <Misc11.label>功能 11</Misc11.label>
+  <Misc12.label>功能 12</Misc12.label>
+
   <!-- Selection special -->
-  
-	<CommandTogglePower.label>开关电力</CommandTogglePower.label>
-	<CommandItemForbid.label>禁止/取消禁止</CommandItemForbid.label>
-	<CommandColonistDraft.label>征召</CommandColonistDraft.label>
-	
-  <!-- Architect: Common -->
-  
-	<DesignatorCancel.label>取消</DesignatorCancel.label>
-	<DesignatorDeconstruct.label>拆除</DesignatorDeconstruct.label>
-	<DesignatorRotateLeft.label>向左旋转</DesignatorRotateLeft.label>
-	<DesignatorRotateRight.label>向右旋转</DesignatorRotateRight.label>
-	
+  <CommandTogglePower.label>开关电力</CommandTogglePower.label>
+  <CommandItemForbid.label>禁用/取消禁用</CommandItemForbid.label>
+  <CommandColonistDraft.label>征召</CommandColonistDraft.label>
+
+  <!-- Architect：Common -->
+  <DesignatorCancel.label>取消</DesignatorCancel.label>
+  <DesignatorDeconstruct.label>拆除</DesignatorDeconstruct.label>
+  <DesignatorRotateLeft.label>向左旋转</DesignatorRotateLeft.label>
+  <DesignatorRotateRight.label>向右旋转</DesignatorRotateRight.label>
+
   <!-- Debug -->
-  
-	<ToggleLog.label>切换日志</ToggleLog.label>
-	<DebugTickOnce.label>Tick Once</DebugTickOnce.label>
-  
-	
-	 <!--<ArchitectMode.label>打开建筑师菜单</ArchitectMode.label>--> 
+  <ToggleLog.label>切换日志</ToggleLog.label>
+  <DebugTickOnce.label>心跳一次 (调试)</DebugTickOnce.label>
+
 </LanguageData>
