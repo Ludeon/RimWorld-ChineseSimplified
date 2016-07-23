@@ -1,32 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-		
-		<ArmorRating_Blunt.label>防护 - 钝器</ArmorRating_Blunt.label>
-		<ArmorRating_Blunt.description>对棍击、落石和爆炸这样的钝伤的防护几率。</ArmorRating_Blunt.description>
-		
-		<ArmorRating_Sharp.label>防护 - 穿刺</ArmorRating_Sharp.label>
-		<ArmorRating_Sharp.description>对子弹、刀伤和动物撕咬这样的穿刺攻击的防护几率。</ArmorRating_Sharp.description>
-		
-		<ArmorRating_Heat.label>防护 - 热量</ArmorRating_Heat.label>
-		<ArmorRating_Heat.description>对烧伤这样的伤害的防护几率。</ArmorRating_Heat.description>
-		
-		<ArmorRating_Electric.label>防护 - 电</ArmorRating_Electric.label>
-		<ArmorRating_Electric.description>对电磁脉冲这样的电能伤害的防护几率。</ArmorRating_Electric.description>
-		
-	<Insulation_Cold.label>防护 - 寒冷</Insulation_Cold.label>
 
-	<Insulation_Cold.description>衣物穿着时能修正舒适温度的最小值。</Insulation_Cold.description>
+  <ArmorRating_Blunt.label>钝器防御</ArmorRating_Blunt.label>
+  <ArmorRating_Blunt.description>对棍击、落石和爆炸这样的钝化伤害的防御值。</ArmorRating_Blunt.description>
 
-	<Insulation_Heat.label>防护 - 炎热</Insulation_Heat.label>
+  <ArmorRating_Sharp.label>利器防御</ArmorRating_Sharp.label>
+  <ArmorRating_Sharp.description>对子弹、刀伤和动物撕咬这样的锋利伤害的防御值。</ArmorRating_Sharp.description>
 
-	<Insulation_Heat.description>衣物穿着时能修正舒适温度的最大值。</Insulation_Heat.description>
+  <ArmorRating_Heat.label>高温防御</ArmorRating_Heat.label>
+  <ArmorRating_Heat.description>对烧伤这样的伤害的防御值。</ArmorRating_Heat.description>
 
-	<PersonalShieldEnergyMax.label>护盾最大能量</PersonalShieldEnergyMax.label>
+  <ArmorRating_Electric.label>电能防御</ArmorRating_Electric.label>
+  <ArmorRating_Electric.description>对电磁脉冲这样的电能伤害的防御值。</ArmorRating_Electric.description>
 
-	<PersonalShieldEnergyMax.description>个人护盾一次能够拥有的最大能量。更多的能量可以吸收更多的伤害。</PersonalShieldEnergyMax.description>
+  <Insulation_Cold.label>御寒能力</Insulation_Cold.label>
+  <Insulation_Cold.description>这件衣物可以修正多少穿着者最低舒适温度的值。</Insulation_Cold.description>
 
-	<PersonalShieldRechargeRate.label>护盾充能速度</PersonalShieldRechargeRate.label>
+  <Insulation_Heat.label>隔热能力</Insulation_Heat.label>
+  <Insulation_Heat.description>这件衣物可以修正多少穿着者最高舒适温度的值。</Insulation_Heat.description>
 
-	<PersonalShieldRechargeRate.description>护盾不破的状况下，不断获得能量的速度</PersonalShieldRechargeRate.description>
+  <PersonalShieldEnergyMax.label>护盾最大能量</PersonalShieldEnergyMax.label>
+  <PersonalShieldEnergyMax.description>个人护盾一时间内能够拥有的最大能量。更多的能量可以吸收更多的伤害。</PersonalShieldEnergyMax.description>
+
+  <PersonalShieldRechargeRate.label>护盾充能速度</PersonalShieldRechargeRate.label>
+  <PersonalShieldRechargeRate.description>在护盾不破的状况下重新充能的速度。</PersonalShieldRechargeRate.description>
+  <PersonalShieldRechargeRate.formatString>{0}/秒</PersonalShieldRechargeRate.formatString>
 
 </LanguageData>

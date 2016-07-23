@@ -1,33 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-		
-		<WorkSpeedGlobal.label>全局工作速度</WorkSpeedGlobal.label>
-		<WorkSpeedGlobal.description>这个人做任何工作的速度的加成值。</WorkSpeedGlobal.description>
-		
-		<MiningSpeed.label>采矿速度</MiningSpeed.label>
-		<MiningSpeed.description>这个人的开采矿石的速度。</MiningSpeed.description>
-		
-		<SmoothingSpeed.label>磨平速度</SmoothingSpeed.label>
-		<SmoothingSpeed.description>这个人磨平粗糙石面的速度。</SmoothingSpeed.description>
-		
-		<ResearchSpeed.label>研究速度</ResearchSpeed.label>
-		<ResearchSpeed.description>这个人的研究速度。</ResearchSpeed.description>
-		
-		<ConstructionSpeed.label>建造速度</ConstructionSpeed.label>
-		<ConstructionSpeed.description>这个人的建造与修理建筑物的速度。</ConstructionSpeed.description>
-		
-		<PlantWorkSpeed.label>种植速度</PlantWorkSpeed.label>
-		<PlantWorkSpeed.description>这个人的种植与收获植物的速度。</PlantWorkSpeed.description>
-	<!--	
-		<SculptingSpeed.label>雕塑速度</SculptingSpeed.label>
-		<SculptingSpeed.description>这个人雕刻雕塑的速度 - 和艺术技能无关，艺术技能高的角色会做出更好的雕塑而不是做得更快。 </SculptingSpeed.description>
 
- --> 
-	<HarvestFailChance.label>收获失败几率</HarvestFailChance.label>
-	<HarvestFailChance.description>这个人在收获过程中会意外破坏收获物的几率。</HarvestFailChance.description>
+  <WorkSpeedGlobal.label>总体工作速度</WorkSpeedGlobal.label>
+  <WorkSpeedGlobal.description>这个人在做任何工作时的速度倍率。</WorkSpeedGlobal.description>
 
-	<FixBrokenDownBuildingFailChance.label>修复的失败几率</FixBrokenDownBuildingFailChance.label>
+  <MiningSpeed.label>开采速度</MiningSpeed.label>
+  <MiningSpeed.description>这个人在开采矿石时的速度倍率。</MiningSpeed.description>
 
-	<FixBrokenDownBuildingFailChance.description>The chance that this person will fail to repair a broken down building.</FixBrokenDownBuildingFailChance.description>
+  <SmoothingSpeed.label>打磨速度</SmoothingSpeed.label>
+  <SmoothingSpeed.description>这个人在打磨地板时的速度倍率。</SmoothingSpeed.description>
+
+  <ResearchSpeed.label>研究速度</ResearchSpeed.label>
+  <ResearchSpeed.description>这个人在进行研究时的速度倍率。</ResearchSpeed.description>
+
+  <ConstructionSpeed.label>建造速度</ConstructionSpeed.label>
+  <ConstructionSpeed.description>这个人在建造与修理时的速度倍率。</ConstructionSpeed.description>
+
+  <PlantWorkSpeed.label>种植速度</PlantWorkSpeed.label>
+  <PlantWorkSpeed.description>这个人在播种与收割时的速度倍率。</PlantWorkSpeed.description>
+
+  <HarvestFailChance.label>收割失败率</HarvestFailChance.label>
+  <HarvestFailChance.description>这个人在收割时意外摧毁作物的几率。</HarvestFailChance.description>
+
+  <ConstructFailChance.label>建造失败率</ConstructFailChance.label>
+  <ConstructFailChance.description>这个人在建造时的失误几率。失误会浪费时间和原材料。</ConstructFailChance.description>
+
+  <FixBrokenDownBuildingFailChance.label>修理失败率</FixBrokenDownBuildingFailChance.label>
+  <FixBrokenDownBuildingFailChance.description>这个人在修理破损建筑时的失误几率。</FixBrokenDownBuildingFailChance.description>
 
 </LanguageData>

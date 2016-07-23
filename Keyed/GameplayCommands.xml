@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-  <CommandForbiddenDesc>已禁用 - 居民不能和这个物件互动。</CommandForbiddenDesc>
-  <CommandNotForbiddenDesc>未禁用 - 居民可以和这个物件互动。</CommandNotForbiddenDesc>
+  <CommandForbiddenDesc>已禁用\n居民不能和这个物体互动。</CommandForbiddenDesc>
+  <CommandNotForbiddenDesc>未禁用\n居民可以和这个物体互动。</CommandNotForbiddenDesc>
 
   <!-- Power -->
   <CommandTogglePowerLabel>开关电源</CommandTogglePowerLabel>
   <CommandTogglePowerDesc>开关电源。</CommandTogglePowerDesc>
-  
+
   <CommandDesignateTogglePowerLabel>指派开关电源</CommandDesignateTogglePowerLabel>
   <CommandDesignateTogglePowerDesc>指定一件需要切换电源状态的电器。一名居民将随后前往拨动开关。</CommandDesignateTogglePowerDesc>
-  
+
   <CommandTryReconnectLabel>重新连接</CommandTryReconnectLabel>
   <CommandTryReconnectDesc>尝试连接到范围允许的另一个电网内，在当前连接的电网没有电但附近有另一个电网时很有用。</CommandTryReconnectDesc>
 
   <CommandGatherSpotToggleLabel>集合点</CommandGatherSpotToggleLabel>
-  <CommandGatherSpotToggleDescActive>开启 - 居民们空闲时会在这个物件附近集合。</CommandGatherSpotToggleDescActive>
-  <CommandGatherSpotToggleDescInactive>关闭 - 居民们空闲时不会在这个物件附近集合。</CommandGatherSpotToggleDescInactive>
-  
-  
+  <CommandGatherSpotToggleDescActive>开启\n居民们空闲时会在这个物体附近集合。</CommandGatherSpotToggleDescActive>
+  <CommandGatherSpotToggleDescInactive>关闭\n居民们空闲时不会在这个物体附近集合。</CommandGatherSpotToggleDescInactive>
+
+
   <!-- Drafting -->
   <CommandDraftLabel>征召</CommandDraftLabel>
   <CommandUndraftLabel>取消征召</CommandUndraftLabel>
@@ -27,7 +27,7 @@
 
   <CommandClearPrioritizedWork>取消优先事项</CommandClearPrioritizedWork>
   <CommandClearPrioritizedWorkDesc>取消任何已经指派的优先工作，该角色会回到他的自主行为之中。</CommandClearPrioritizedWorkDesc>
-  
+
   <CommandCancelConstructionLabel>取消</CommandCancelConstructionLabel>
   <CommandCancelConstructionDesc>取消建造命令。</CommandCancelConstructionDesc>
 
@@ -79,7 +79,7 @@
   <CommandStopAttackFailNotForceAttacking>当前没有强制攻击。</CommandStopAttackFailNotForceAttacking>
   <MessageTargetBeyondMaximumRange>目标超出最大射程。</MessageTargetBeyondMaximumRange>
   <MessageTargetBelowMinimumRange>目标近于最小射程。</MessageTargetBelowMinimumRange>
-  
+
   <!-- Ship computer core -->
   <CommandShipLaunch>发射飞船</CommandShipLaunch>
   <CommandShipLaunchDesc>使用当前的飞船设定开始飞船发射程序。</CommandShipLaunchDesc>
@@ -108,7 +108,7 @@
   <CommandInstallDesc>该物品已被打包以便于运输与贮藏，使用本指令可将物品安置于指定地点。</CommandInstallDesc>
   <CommandReinstall>重新安置于...</CommandReinstall>
   <CommandReinstallDesc>指定此物品需要拆装以可被安置在其他地方。</CommandReinstallDesc>
-  
+
   <!-- Trade beacon -->
   <CommandMakeBeaconStockpileDesc>在贸易信标有效半径范围内创建一个贮存区。</CommandMakeBeaconStockpileDesc>
   <CommandMakeBeaconStockpileLabel>建立贮存区</CommandMakeBeaconStockpileLabel>
@@ -120,22 +120,22 @@
   <!-- Trap -->
   <CommandAutoRearm>自动重置</CommandAutoRearm>
   <CommandAutoRearmDesc>如果启用，该陷阱会在触发后自动被指派重置。</CommandAutoRearmDesc>
-  
+
   <!-- Animal control -->
   <CommandReleaseAnimalsLabel>解开动物栓绳</CommandReleaseAnimalsLabel>
   <CommandReleaseAnimalsDesc>如果启用，受驯的动物可以上前攻击远处目标。如果禁用，它们则在身边保护主人。</CommandReleaseAnimalsDesc>
-  
+
   <!-- Squad attack -->
   <CommandSquadAttack>攻击</CommandSquadAttack>
   <CommandSquadAttackDesc>命令选定的居民攻击指定目标。</CommandSquadAttackDesc>
-  
+
   <!-- Hold fire -->
   <CommandHoldFire>停火</CommandHoldFire>
   <CommandHoldFireDesc>结束任何正在进行的攻击。</CommandHoldFireDesc>
-  
+
   <!-- Select plant to grow -->
   <CommandSelectPlantToGrowMulti>选择要种植的植物</CommandSelectPlantToGrowMulti>
   <CommandSelectPlantToGrow>种植：{0}</CommandSelectPlantToGrow>
   <CommandSelectPlantToGrowDesc>决定要在此播种的植物。</CommandSelectPlantToGrowDesc>
-  
+
 </LanguageData>
