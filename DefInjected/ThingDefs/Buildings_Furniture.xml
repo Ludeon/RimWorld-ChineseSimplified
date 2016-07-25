@@ -1,68 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-		
-		<!--============================== Beds ==============================-->
-		<SleepingSpot.label>睡眠点</SleepingSpot.label>
-		<SleepingSpot.description>指定人睡觉的地点。不是很舒服。休息效率: 7/10</SleepingSpot.description>
-		<Bed.label>床</Bed.label>
-		<Bed.description>一张铺了舒适的床垫和床单的框架。休息效率: 10/10</Bed.description>
-		<RoyalBed.label>豪华双人床</RoyalBed.label>
-		<RoyalBed.description>一张适合贵族的豪华双人床,非常舒适和美丽。</RoyalBed.description>
-		<HospitalBed.label>医疗床</HospitalBed.label>
-		<HospitalBed.description>一张专为伤者设计的床。可以增加治疗的成功率。</HospitalBed.description>
-		
-		<!--======================= Basic domestic furniture ==============================-->
-		<Stool.label>凳子</Stool.label>
-		<Stool.description>人们会坐在这上面。</Stool.description>
-		
-		<!--======================= Tables ==============================-->
-		<TableShort.label>桌子(短)</TableShort.label>
-		 
 
-	
-		<TableLong.label>桌子(长)</TableLong.label>
-		 
-		
-		<!-- ======================== Lighting ======================= -->
-		<StandingLamp.label>落地灯</StandingLamp.label>
-		<StandingLamp.description>一个可以点亮一整片地区的落地灯。</StandingLamp.description>
-		<StandingLamp_Red.label>落地灯(红)</StandingLamp_Red.label>
-		<StandingLamp_Red.description>一个可以把一整片地区点亮成红色的落地灯。</StandingLamp_Red.description>
-		<StandingLamp_Green.label>落地灯(绿)</StandingLamp_Green.label>
-		<StandingLamp_Green.description>一个可以把一整片地区点亮成绿色的落地灯。</StandingLamp_Green.description>
-		<StandingLamp_Blue.label>落地灯(蓝)</StandingLamp_Blue.label>
-		<StandingLamp_Blue.description>一个可以把一整片地区点亮成蓝色的落地灯。</StandingLamp_Blue.description>
-		
-		<!--============================== Storage ==============================-->
-		<EquipmentRack.label>装备架</EquipmentRack.label>
-		<EquipmentRack.description>搬运者会把装备搬到这里存储。</EquipmentRack.description>
-	
-	<DiningChair.label>餐椅</DiningChair.label>
-	<DiningChair.description>一个放在桌子前看起来很舒适和招人喜爱的椅子。</DiningChair.description>
+  <!--============================== Beds ==============================-->
+  <SleepingSpot.label>睡眠处</SleepingSpot.label>
+  <SleepingSpot.description>在地上划出一块供人睡觉的地方，完全不舒服。</SleepingSpot.description>
 
-	<Armchair.label>扶手椅</Armchair.label>
-	<Armchair.description>一个非常大、柔软、舒适用来休闲的椅子。</Armchair.description>
+  <Bed.label>单人床</Bed.label>
+  <Bed.description>铁架子上面铺着舒适的床垫和床单以供休息。</Bed.description>
 
-	<PlantPot.label>花盆</PlantPot.label>
-	<PlantPot.description>种植者会在这里种植装饰性的花朵来提升附近的人的心情。</PlantPot.description>
+  <DoubleBed.label>双人床</DoubleBed.label>
+  <DoubleBed.Description>一张大小可容纳两个人的简易床。</DoubleBed.Description>
 
-	<AnimalSleepingSpot.label>动物睡眠点</AnimalSleepingSpot.label>
+  <RoyalBed.label>豪华双人床</RoyalBed.label>
+  <RoyalBed.description>奢华的黄金内衬床铺，只为贵族打造，既舒适又美丽，可容纳两人。</RoyalBed.description>
 
-	<AnimalSleepingSpot.description>指定一个可以让动物睡眠的地点。</AnimalSleepingSpot.description>
+  <HospitalBed.label>病床</HospitalBed.label>
+  <HospitalBed.description>专为伤者设计的床，可以增加治疗的成功率。</HospitalBed.description>
 
-	<AnimalSleepingBox.label>动物睡眠箱</AnimalSleepingBox.label>
+  <!--=========================== Animal beds ===============================-->
+  <AnimalSleepingSpot.label>动物睡眠处</AnimalSleepingSpot.label>
+  <AnimalSleepingSpot.description>在地上划出一块供动物睡觉的地方。</AnimalSleepingSpot.description>
 
-	<AnimalSleepingBox.description>一个供动物睡觉的小箱子。适合较小的动物，如鸡，猫或小狗。</AnimalSleepingBox.description>
+  <AnimalSleepingBox.label>动物睡眠箱</AnimalSleepingBox.label>
+  <AnimalSleepingBox.description>一个供动物睡觉的小箱子，适合较小的动物，如鸡，猫或小狗。</AnimalSleepingBox.description>
 
-	<AnimalBed.label>动物床铺</AnimalBed.label>
+  <AnimalBed.label>动物床铺</AnimalBed.label>
+  <AnimalBed.description>一个供动物睡觉的柔软床铺，适合任何类型动物。</AnimalBed.description>
 
-	<AnimalBed.description>一个供动物睡觉的柔软床铺。适合任何类型动物。</AnimalBed.description>
+  <!--======================= Basic domestic furniture ==============================-->
+  <Stool.label>凳子</Stool.label>
+  <Stool.description>供人就坐的小台子。</Stool.description>
 
-	 <!--<TableShort.description>人们会坐在对着桌子的椅子上吃饭。</TableShort.description>--> 
-	 <!--<TableLong.description>人们会坐在对着桌子的椅子上吃饭。</TableLong.description>--> 
+  <DiningChair.label>餐椅</DiningChair.label>
+  <DiningChair.description>一个舒适又美观的椅子，用来摆在桌子前。</DiningChair.description>
 
-	<DoubleBed.label>普通双人床</DoubleBed.label>
+  <Armchair.label>扶手椅</Armchair.label>
+  <Armchair.description>又大又软的舒服椅子，很适合来放松。</Armchair.description>
 
-	<DoubleBed.Description>供双人使用的普通双人床。</DoubleBed.Description>
+  <TableShort.label>方桌</TableShort.label>
+  <TableShort.description>当有椅子面对桌子的时候，人们会在桌子上进餐。</TableShort.description>
+
+  <TableLong.label>长桌</TableLong.label>
+  <TableLong.description>当有椅子面对桌子的时候，人们会在桌子上进餐。</TableLong.description>
+
+  <PlantPot.label>花盆</PlantPot.label>
+  <PlantPot.description>在这里面种植装饰花卉可以改善周围居民的心情。</PlantPot.description>
+
+  <!-- ======================== Lighting ======================= -->
+  <TorchLamp.label>火把</TorchLamp.label>
+  <TorchLamp.description>照明用的火把，可以自动补充木材燃料，还可以产生少量热量。</TorchLamp.description>
+
+  <StandingLamp.label>落地灯</StandingLamp.label>
+  <StandingLamp.description>能够把一片区域照亮的落地灯。</StandingLamp.description>
+
+  <StandingLamp_Red.label>红色落地灯</StandingLamp_Red.label>
+  <StandingLamp_Red.description>能够把一片区域照亮为红色的落地灯。</StandingLamp_Red.description>
+
+  <StandingLamp_Green.label>绿色落地灯</StandingLamp_Green.label>
+  <StandingLamp_Green.description>能够把一片区域照亮为绿色的落地灯。</StandingLamp_Green.description>
+
+  <StandingLamp_Blue.label>蓝色落地灯</StandingLamp_Blue.label>
+  <StandingLamp_Blue.description>能够把一片区域照亮为蓝色的落地灯。</StandingLamp_Blue.description>
+
+  <!--============================== Storage ==============================-->
+  <EquipmentRack.label>装备架</EquipmentRack.label>
+  <EquipmentRack.description>放在架子上的物品不会老化，即便是置于室外。</EquipmentRack.description>
 
 </LanguageData>
