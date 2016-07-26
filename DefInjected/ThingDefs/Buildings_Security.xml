@@ -1,33 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-		
-        <Sandbags.label>沙袋</Sandbags.label>
-        <Sandbags.description>挡住射来的子弹。</Sandbags.description>
-		
-		<!--=============== Improvised turret ===============-->
- 		<TurretGun.label>组装炮塔</TurretGun.label>
-        <TurretGun.description>一个比较弱的炮塔，在敌人靠近时会自动开火。被摧毁后会引起爆炸。</TurretGun.description>
-		
-		<!--=============== Mortar turret ===============-->
-		<Turret_MortarIncendiary.label>迫击炮(燃烧)</Turret_MortarIncendiary.label>
-        <Turret_MortarIncendiary.description>一个发射燃烧炮弹的迫击炮，必须由人来操纵。被摧毁后会引起爆炸。</Turret_MortarIncendiary.description>
-		
-		<Turret_MortarBomb.label>迫击炮</Turret_MortarBomb.label>
-        <Turret_MortarBomb.description>一个发射炮弹的迫击炮，必须由人来操纵。被摧毁后会引起爆炸。</Turret_MortarBomb.description>
-		
-		<Turret_MortarEMP.label>迫击炮(电磁脉冲)</Turret_MortarEMP.label>
-        <Turret_MortarEMP.description>一个发射电磁脉冲炸弹的迫击炮，必须由人来操纵。被摧毁后会引起爆炸。</Turret_MortarEMP.description>
-		
-	<TrapDeadfall.label>擂木陷阱</TrapDeadfall.label>
 
-	<TrapDeadfall.description>用一个巧妙的触发扳机将重物悬停在高处。当受害人触发扳机时，重物掉下砸在他的头或躯干上。</TrapDeadfall.description>
+  <Sandbags.label>沙袋</Sandbags.label>
+  <Sandbags.description>挡住射来的子弹。</Sandbags.description>
 
-	<TrapIEDBomb.label>普通爆炸陷阱</TrapIEDBomb.label>
+  <!--=============== Improvised turret ===============-->
+  <TurretGun.label>拼装炮台</TurretGun.label>
+  <TurretGun.description>一个东拼西凑的的炮台，会自动射击附近的敌人，被摧毁后会爆炸。其内含的山寨人工智能大脑不是很聪明，也没法被直接控制，所以自己人可能也会被当作敌人射击。</TurretGun.description>
 
-	<TrapIEDBomb.description>用一个自制的触发扳机连接到炮弹上。当有人触发扳机时炮弹会爆炸。简易的触发扳机会有随机的延迟，可能会让一些灵活的敌人逃走。</TrapIEDBomb.description>
+  <!--=============== Mortar turret ===============-->
+  <Turret_MortarBomb.label>高爆弹迫击炮</Turret_MortarBomb.label>
+  <Turret_MortarBomb.description>一个发射高爆弹的迫击炮，必须有人操控，被摧毁后会爆炸。</Turret_MortarBomb.description>
 
-	<TrapIEDIncendiary.label>燃烧爆炸陷阱</TrapIEDIncendiary.label>
+  <Turret_MortarIncendiary.label>燃烧弹迫击炮</Turret_MortarIncendiary.label>
+  <Turret_MortarIncendiary.description>一个发射燃烧弹的迫击炮，必须有人操控，被摧毁后会爆炸。</Turret_MortarIncendiary.description>
 
-	<TrapIEDIncendiary.description>易燃粉尘混合的化学燃料制成的化学触发扳机与炮弹相连。当有人触发扳机时燃料被点燃，引爆炸弹。因为它不需要高爆炸药引爆，化学触发扳机更简单、更可靠。</TrapIEDIncendiary.description>
+  <Turret_MortarEMP.label>脉冲弹迫击炮</Turret_MortarEMP.label>
+  <Turret_MortarEMP.description>一个发射电磁脉冲弹的迫击炮，必须有人操控，被摧毁后会爆炸。</Turret_MortarEMP.description>
+
+  <!--==================== Traps ======================== -->
+  <TrapDeadfall.label>尖刺陷阱</TrapDeadfall.label>
+  <TrapDeadfall.description>触发机关连接着一个带刺重物悬在高处，当有人触发时，重物会落下砸在他头或者身体上。</TrapDeadfall.description>
+
+  <TrapIEDBomb.label>自制炸弹陷阱</TrapIEDBomb.label>
+  <TrapIEDBomb.description>自制的触发机关连接着炮弹，当有人触发时爆炸。山寨触发机关可能有随机的延迟，可能会让灵敏的敌人逃脱。</TrapIEDBomb.description>
+
+  <TrapIEDIncendiary.label>自制燃烧陷阱</TrapIEDIncendiary.label>
+  <TrapIEDIncendiary.description>化学式的触发机关连接着燃烧物质以及炸药的混合体，由于是化学反应触发，所以更为简单及可靠。</TrapIEDIncendiary.description>
 
 </LanguageData>

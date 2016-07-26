@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-		
-        <Autodoor.label>自动门</Autodoor.label>
-        <Autodoor.description>把房间分隔开来。有电时会在人们通过时自动开启让人无需减速即可通过。</Autodoor.description>
-        <Door.label>门</Door.label>
-        <Door.description>把房间分隔开来。只能手动开关，人们通过时会减慢速度。</Door.description>
-		
-		<!--========================= Walls =============================-->
-		<Wall.label>墙</Wall.label>
-        <Wall.description>一面无法通过的墙。可以制成起屋顶。</Wall.description>
-        
-        
-		
-	 <!--<WallConduit.label>电缆墙</WallConduit.label>--> 
-	 <!--<WallConduit.description>一面内置电缆的墙。</WallConduit.description>--> 
+
+  <!--========================= Doors =============================-->
+  <Door.label>门</Door.label>
+  <Door.description>用于分隔房间，必须手动打开和观赏，所以会减慢通过时间。</Door.description>
+
+  <Autodoor.label>自动门</Autodoor.label>
+  <Autodoor.description>用于分隔房间，以电力驱动的自动开门关门使得通过时不会减慢速度。</Autodoor.description>
+
+  <!--========================= Walls =============================-->
+  <Wall.label>墙</Wall.label>
+  <Wall.description>无法穿过的墙，可以撑起屋顶。</Wall.description>
+
 </LanguageData>

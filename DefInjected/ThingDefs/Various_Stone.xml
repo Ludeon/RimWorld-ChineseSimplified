@@ -1,74 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<LanguageData> 
+<LanguageData>
 
-    <!-- =========== Misc chunks =========== -->  
+  <ChunkSlagSteel.label>大块钢渣</ChunkSlagSteel.label>
 
-<!--
-    <ChunkSlag.label>金属堆</ChunkSlag.label>  
--->
+  <Sandstone.label>砂岩</Sandstone.label>
+  <Sandstone.description>一种由砂子压缩而成的沉积岩。</Sandstone.description>
 
-    <!-- =========== Stone solids, chunks, and blocks =========== -->  
+  <ChunkSandstone.label>大块砂岩</ChunkSandstone.label>
 
-    <Sandstone.label>沙石</Sandstone.label>  
+  <BlocksSandstone.label>小块砂岩</BlocksSandstone.label>
+  <BlocksSandstone.description>一块砂岩，砂岩是一种相对较软而且易碎的石头。</BlocksSandstone.description>
+  <BlocksSandstone.stuffProps.stuffAdjective>砂岩</BlocksSandstone.stuffProps.stuffAdjective>
 
-    <Sandstone.description>一种由沙子压缩而成沉积岩。</Sandstone.description>  
+  <Granite.label>花岗岩</Granite.label>
+  <Granite.description>一种非常硬的火成岩石。</Granite.description>
 
-    <ChunkSandstone.label>沙石堆</ChunkSandstone.label>  
+  <ChunkGranite.label>大块花岗岩</ChunkGranite.label>
 
-    <BlocksSandstone.label>沙石块</BlocksSandstone.label>  
+  <BlocksGranite.label>小块花岗岩</BlocksGranite.label>
+  <BlocksGranite.description>一块花岗岩，花岗岩是一种极硬的岩石。</BlocksGranite.description>
+  <BlocksGranite.stuffProps.stuffAdjective>花岗岩</BlocksGranite.stuffProps.stuffAdjective>
 
-    <BlocksSandstone.description>块状的沙石。沙石是一种相对柔软易碎的岩石。</BlocksSandstone.description>  
+  <Limestone.label>石灰岩</Limestone.label>
+  <Limestone.description>一种主要由远古贝壳组成的沉积岩。</Limestone.description>
 
-    <BlocksSandstone.stuffProps.stuffAdjective>沙石</BlocksSandstone.stuffProps.stuffAdjective>  
+  <ChunkLimestone.label>大块石灰岩</ChunkLimestone.label>
 
-    <Granite.label>花岗岩</Granite.label>  
+  <BlocksLimestone.label>小块石灰岩</BlocksLimestone.label>
+  <BlocksLimestone.description>一块石灰岩。</BlocksLimestone.description>
+  <BlocksLimestone.stuffProps.stuffAdjective>石灰岩</BlocksLimestone.stuffProps.stuffAdjective>
 
-    <Granite.description>一种非常硬的火成岩。</Granite.description>  
+  <Slate.label>板岩</Slate.label>
+  <Slate.description>一种暗色的变质岩，具有标志性的分层样式。</Slate.description>
 
-    <ChunkGranite.label>花岗岩堆</ChunkGranite.label>  
+  <ChunkSlate.label>大块板岩</ChunkSlate.label>
 
-    <BlocksGranite.label>花岗岩块</BlocksGranite.label>  
+  <BlocksSlate.label>小块板岩</BlocksSlate.label>
+  <BlocksSlate.description>一块板岩，板岩是一种难看易碎的岩石。</BlocksSlate.description>
+  <BlocksSlate.stuffProps.stuffAdjective>板岩</BlocksSlate.stuffProps.stuffAdjective>
 
-    <BlocksGranite.description>块状的花岗岩。花岗岩是一种极硬的岩石。</BlocksGranite.description>  
+  <Marble.label>大理石</Marble.label>
+  <Marble.description>一种偏软的变质岩。</Marble.description>
 
-    <BlocksGranite.stuffProps.stuffAdjective>花岗岩</BlocksGranite.stuffProps.stuffAdjective>  
+  <ChunkMarble.label>大块大理石</ChunkMarble.label>
 
-    <Limestone.label>石灰岩</Limestone.label>  
-
-    <Limestone.description>一种主要由远古贝壳组成的沉积岩。</Limestone.description>  
-
-    <ChunkLimestone.label>石灰岩堆</ChunkLimestone.label>  
-
-    <BlocksLimestone.label>石灰岩块</BlocksLimestone.label>  
-
-    <BlocksLimestone.description>块状的石灰岩。</BlocksLimestone.description>  
-
-    <BlocksLimestone.stuffProps.stuffAdjective>石灰岩</BlocksLimestone.stuffProps.stuffAdjective>  
-
-    <Slate.label>板岩</Slate.label>  
-
-    <Slate.description>一种有标志性的分层的暗色变质岩。</Slate.description>  
-
-    <ChunkSlate.label>板岩堆</ChunkSlate.label>  
-
-    <BlocksSlate.label>板岩块</BlocksSlate.label>  
-
-    <BlocksSlate.description>块状的板岩。板岩是一种难看易碎的岩石。</BlocksSlate.description>  
-
-    <BlocksSlate.stuffProps.stuffAdjective>板岩</BlocksSlate.stuffProps.stuffAdjective>  
-
-    <Marble.label>大理石</Marble.label>  
-
-    <Marble.description>一种偏软的变质岩。</Marble.description>  
-
-    <ChunkMarble.label>大理石堆</ChunkMarble.label>  
-
-    <BlocksMarble.label>大理石块</BlocksMarble.label>  
-
-    <BlocksMarble.description>块状的大理石。大理石是一种较软，美丽的岩石，因易于雕塑而出名。</BlocksMarble.description>  
-
-    <BlocksMarble.stuffProps.stuffAdjective>大理石</BlocksMarble.stuffProps.stuffAdjective>  
-
-    <ChunkSlagSteel.label>钢渣块</ChunkSlagSteel.label>
+  <BlocksMarble.label>小块大理石</BlocksMarble.label>
+  <BlocksMarble.description>一块大理石，大理石是一种较软，美丽的岩石，因易于雕塑而出名。</BlocksMarble.description>
+  <BlocksMarble.stuffProps.stuffAdjective>大理石</BlocksMarble.stuffProps.stuffAdjective>
 
 </LanguageData>
