@@ -22,7 +22,7 @@
   <BuildARoomDesc>一间房间是由多面墙体以及门来组成的。\n\n使用屏幕左下角的建造菜单来指定你想建造的位置，之后你的居民会在有空的时候前往建造。</BuildARoomDesc>
 
   <NeedDefenses>需要防御工事</NeedDefenses>
-  <NeedDefensesDesc>你已经在这里待了一段时间，可能已经被别人发现了。海盗袭击不久就会开始。\n\n你应该着手建造防御工事，比如陷阱、沙包或者炮塔。</NeedDefensesDesc>
+  <NeedDefensesDesc>你已经在这里待了一段时间，可能已经被别人发现了。海盗袭击不久就会开始。\n\n你应该着手建造防御工事，比如陷阱、沙包或者无人机枪。</NeedDefensesDesc>
 
   <NeedDoctor>需要医生</NeedDoctor>
   <NeedDoctorDesc>这些居民需要照顾，但是你没有指派为医生的健康居民。\n\n{0}\n给一个健康的居民分配医生工作。如果患者没有被及时治疗，这些伤口将不会自己痊愈并可能造成永久性的损害。</NeedDoctorDesc>
@@ -34,7 +34,7 @@
   <NeedWardenDesc>你有一名囚犯，但是没有居民在做狱卒工作。\n\n给一个居民分配狱卒工作。</NeedWardenDesc>
 
   <LowFood>食物不足</LowFood>
-  <LowFoodDesc>你所有的食物储量总和只有{0}，这非常危险。\n\n种植、购买、寻找以及杀戮都会获得食物。</LowFoodDesc>
+  <LowFoodDesc>你所有的食物储量总和只有{0}，这非常危险。\n\n种植、购买、寻找以及狩猎都会获得食物。</LowFoodDesc>
 
   <LowMedicine>药品不足</LowMedicine>
   <LowMedicineDesc>你只有药品储量只有{0}了。\n\n通过贸易购买更多的药品。</LowMedicineDesc>
@@ -50,7 +50,7 @@
   <StarvationDesc>这些居民快饿死了：\n\n{0}\n给他们弄些食物。</StarvationDesc>
 
   <StarvationAnimals>动物饥饿</StarvationAnimals>
-  <StarvationAnimalsDesc>殖民地的这些动物都在挨饿：\n\n{0}\n给他们弄些吃的。</StarvationAnimalsDesc>
+  <StarvationAnimalsDesc>这些殖民地的动物在挨饿：\n\n{0}\n给他们弄些吃的。</StarvationAnimalsDesc>
 
   <Exhaustion>疲劳</Exhaustion>
   <ExhaustionDesc>这些居民已经精疲力尽需要休息：\n\n{0}\n让他们休息一段时间。他们需要一个供居民使用的床。另外，确保他们不在被征召的状态。</ExhaustionDesc>
@@ -113,13 +113,13 @@
   <FireInHomeAreaDesc>在居住区发生了一起火灾。</FireInHomeAreaDesc>
 
   <PawnsWithLifeThreateningDisease>致命疾病</PawnsWithLifeThreateningDisease>
-  <PawnsWithLifeThreateningDiseaseDesc>以下居民有因病致死的危险：\n\n{0}\n确保他们能受到医生最大程度的照顾。</PawnsWithLifeThreateningDiseaseDesc>
-  <PawnsWithLifeThreateningDiseaseAmputationDesc>以下居民有因病致死的危险：\n\n{0}\n如果条件允许，请考虑给居民截肢或替换感染的四肢以挽救他们的生命。</PawnsWithLifeThreateningDiseaseAmputationDesc>
+  <PawnsWithLifeThreateningDiseaseDesc>以下居民有因病致死的危险：\n\n{0}\n确保他们能受到在最好的照顾。</PawnsWithLifeThreateningDiseaseDesc>
+  <PawnsWithLifeThreateningDiseaseAmputationDesc>以下居民有因病致死的危险：\n\n{0}\n如果条件允许，请考虑给居民截肢或替换义肢，以挽救他们的生命。</PawnsWithLifeThreateningDiseaseAmputationDesc>
 
   <BilliardsNeedsSpace>台球桌被挡住了</BilliardsNeedsSpace>
   <BilliardsNeedsSpaceDesc>某个台球桌旁边的空间被挡住，居民无法接近台球桌。\n\n台球桌四周都需要有开阔的空间。</BilliardsNeedsSpaceDesc>
 
   <HunterHasShieldAndRangedWeapon>猎人有护盾和远程武器</HunterHasShieldAndRangedWeapon>
-  <HunterHasShieldAndRangedWeaponDesc>你的某个猎人既有护盾也有远程武器，护盾会阻止远程攻击。\n\n除非解除护盾，否则他们无法狩猎。</HunterHasShieldAndRangedWeaponDesc>
+  <HunterHasShieldAndRangedWeaponDesc>你的某个猎人既有护盾也有远程武器，护盾会阻止他们进行远程攻击。\n\n不摘掉护盾就无法狩猎。</HunterHasShieldAndRangedWeaponDesc>
 
 </LanguageData>

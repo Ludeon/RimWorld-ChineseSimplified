@@ -10,7 +10,7 @@
   <DesignatorDeconstruct>拆除</DesignatorDeconstruct>
   <DesignatorDeconstructDesc>拆除建筑并回收部分资源。</DesignatorDeconstructDesc>
 
-  <DesignatorUninstall>拆装</DesignatorUninstall>
+  <DesignatorUninstall>卸装</DesignatorUninstall>
   <DesignatorUninstallDesc>将此物拆装以便移动、售出或者安装在别处。</DesignatorUninstallDesc>
 
   <DesignatorHarvest>收割</DesignatorHarvest>
@@ -33,7 +33,7 @@
   <DesignatorSmoothFloorDesc>标记需要被打磨的粗糙石质地面。</DesignatorSmoothFloorDesc>
 
   <DesignatorPlan>计划</DesignatorPlan>
-  <DesignatorPlanDesc>放置计划中的指令。它们去了帮助你规划扩张之外没有别的用处。</DesignatorPlanDesc>
+  <DesignatorPlanDesc>预先安排一些尚在规划中的指令。它们除了帮助你规划扩张之外没有别的用处。</DesignatorPlanDesc>
 
   <DesignatorPlanRemove>移除计划</DesignatorPlanRemove>
   <DesignatorPlanRemoveDesc>移除计划中的指令。</DesignatorPlanRemoveDesc>
@@ -46,7 +46,7 @@
   <DesignatorAreaBuildRoofExpand>规划屋顶区域</DesignatorAreaBuildRoofExpand>
   <DesignatorAreaBuildRoofExpandDesc>居民会在该区域内建造屋顶。</DesignatorAreaBuildRoofExpandDesc>
   <DesignatorAreaBuildRoofClear>移除屋顶区域</DesignatorAreaBuildRoofClear>
-  <DesignatorAreaBuildRoofClearDesc>移除居民会建造屋顶的区域，当前已建好的屋顶依然存在，但是不会再建新的了。</DesignatorAreaBuildRoofClearDesc>
+  <DesignatorAreaBuildRoofClearDesc>移除屋顶区域，当前已建好的屋顶依然会在，但是不会再建新的。</DesignatorAreaBuildRoofClearDesc>
 
   <DesignatorAreaNoRoofExpand>规划露天区域</DesignatorAreaNoRoofExpand>
   <DesignatorAreaNoRoofExpandDesc>居民会移除该区域的屋顶(头顶的山体除外)。</DesignatorAreaNoRoofExpandDesc>
@@ -59,9 +59,9 @@
   <DesignatorAreaSnowClearClearDesc>移除一片除雪区域，居民不会再试图除掉这片区域的雪。</DesignatorAreaSnowClearClearDesc>
 
   <DesignatorExpandAreaAllowed>规划许可区域</DesignatorExpandAreaAllowed>
-  <DesignatorExpandAreaAllowedDesc>创建一片允许活动的区域。\n\n许可区域可用于指派给居民，居民不会接受许可区域以外的工作或者在区域外寻找他们的所需。</DesignatorExpandAreaAllowedDesc>
+  <DesignatorExpandAreaAllowedDesc>创建一片允许活动的区域。\n\n许可区域会对所有居民生效，居民不会进行位于许可区域以外的工作指令，也不会在区域外自动寻找所需物品。</DesignatorExpandAreaAllowedDesc>
   <DesignatorClearAreaAllowed>移除许可区域</DesignatorClearAreaAllowed>
-  <DesignatorClearAreaAllowedDesc>移除一片允许活动的区域。\n\n许可区域可用于指派给居民，居民不会接受许可区域以外的工作或者在区域外寻找他们的所需。</DesignatorClearAreaAllowedDesc>
+  <DesignatorClearAreaAllowedDesc>移除一片允许活动的区域。\n\n居民不会进行位于许可区域以外的工作指令，也不会在区域外自动寻找所需物品。</DesignatorClearAreaAllowedDesc>
   <ManageAreas>区域管理...</ManageAreas>
 
   <DesignatorGrowingZoneDesc>创建一片可供居民种植某种植物的区域。</DesignatorGrowingZoneDesc>
@@ -74,12 +74,12 @@
   <DesignatorZoneDeleteDesc>移除贮存区或者种植区。</DesignatorZoneDeleteDesc>
 
   <DesignatorClaim>占有</DesignatorClaim>
-  <DesignatorClaimDesc>把中立的建筑标为归属于你的殖民地，包括远古遗迹以及废弃的基地。占有的建筑可被居民修理和维护。</DesignatorClaimDesc>
+  <DesignatorClaimDesc>将中立的建筑标记为你的殖民地所有，可以标记远古遗迹以及废弃的基地。被占有的建筑可被居民修理和维护。</DesignatorClaimDesc>
 
   <DesignatorRemoveFloor>移除地板</DesignatorRemoveFloor>
-  <DesignatorRemoveFloorDesc>移除地板以暴露下面的地表。</DesignatorRemoveFloorDesc>
+  <DesignatorRemoveFloorDesc>移除地板，将地表暴露在外。</DesignatorRemoveFloorDesc>
 
-  <DesignatorStrip>脱取</DesignatorStrip>
+  <DesignatorStrip>扒取</DesignatorStrip>
   <DesignatorStripDesc>将尸体和伤员的装备脱下。</DesignatorStripDesc>
 
   <DesignatorRearmTrap>重置陷阱</DesignatorRearmTrap>
@@ -107,7 +107,7 @@
   <TerrainIsAlready>这里的地形已经是{0}了。</TerrainIsAlready>
   <TerrainBeingSmoothed>已标记打磨该处地表。</TerrainBeingSmoothed>
   <IdenticalThingExists>此处已有同样的东西。</IdenticalThingExists>
-  <IdenticalBlueprintExists>此处已有一样的蓝图。</IdenticalBlueprintExists>
+  <IdenticalBlueprintExists>此处已经存在相同的蓝图。</IdenticalBlueprintExists>
   <TerrainCannotSupport>此处地形无法支撑此物体。</TerrainCannotSupport>
   <SpaceAlreadyOccupied>空间已被占用。</SpaceAlreadyOccupied>
   <TerrainMustBeRemovable>目标必须是可移除的地板。</TerrainMustBeRemovable>

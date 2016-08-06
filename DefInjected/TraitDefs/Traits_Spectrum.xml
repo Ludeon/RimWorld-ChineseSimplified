@@ -2,6 +2,7 @@
 <LanguageData>
 
     <!--> SpeedOffset <-->
+    
     <rep>
         <path>SpeedOffset.degreeDatas[0].label</path>
         <trans>慢半拍</trans>
@@ -30,6 +31,7 @@
     </rep>
 
     <!--> NaturalMood <-->
+
     <rep>
         <path>NaturalMood.degreeDatas[0].label</path>
         <trans>乐天派</trans>
@@ -67,13 +69,14 @@
     </rep>
 
     <!--> Nerves <-->
+
     <rep>
         <path>Nerves.degreeDatas[0].label</path>
         <trans>意志坚强</trans>
     </rep>
     <rep>
         <path>Nerves.degreeDatas[0].description</path>
-        <trans>NAME的意志就像一扇钢铁做的盾牌。在其他人早就崩溃的时候，HECAP仍然可以保持住坚定的意志。</trans>
+        <trans>NAME的意志就像钢铁一样。在其他人早就崩溃的时候，HECAP仍然可以保持住坚定的意志。</trans>
     </rep>
 
     <rep>
@@ -104,6 +107,7 @@
     </rep>
 
     <!--> Neurotic <-->
+
     <rep>
         <path>Neurotic.degreeDatas[0].label</path>
         <trans>焦虑</trans>
@@ -123,6 +127,7 @@
     </rep>
 
     <!--> Industriousness <-->
+
     <rep>
         <path>Industriousness.degreeDatas[0].label</path>
         <trans>勤劳</trans>
@@ -160,9 +165,10 @@
     </rep>
 
     <!--> PsychicSensitivity <-->
+
     <rep>
         <path>PsychicSensitivity.degreeDatas[0].label</path>
-        <trans>精神过敏</trans>
+        <trans>精神超敏</trans>
     </rep>
     <rep>
         <path>PsychicSensitivity.degreeDatas[0].description</path>
@@ -197,6 +203,7 @@
     </rep>
 
     <!--> TemperaturePreference <-->
+
     <rep>
         <path>TemperaturePreference.degreeDatas[0].label</path>
         <trans>天然热源</trans>
@@ -233,9 +240,11 @@
         <trans>NAME就是个人形的冰柱，很喜欢热天但是在冷天就比较麻烦...</trans>
     </rep>
 
+ <!--DrugDesire-->
+
     <rep>
         <path>DrugDesire.degreeDatas[0].label</path>
-        <trans>迷恋酒精</trans>
+        <trans>化学依赖</trans>
     </rep>
 
     <rep>
@@ -245,7 +254,7 @@
 
     <rep>
         <path>DrugDesire.degreeDatas[1].label</path>
-        <trans>享受酒精</trans>
+        <trans>化学成瘾</trans>
     </rep>
 
     <rep>
@@ -263,7 +272,7 @@
         <trans>NAME憎恶从化学物质中获得乐趣，拒绝酒精和毒品。</trans>
     </rep>
 
-
+ <!--ShootingAccuracy-->
 
     <rep>
         <path>ShootingAccuracy.degreeDatas[0].label</path>
@@ -285,24 +294,46 @@
         <trans>砰! 砰! 砰! NAME从来不在意自己的烂枪法，因为对于HE来说枪比什么都好!</trans>
     </rep>
 
-<!--    <rep>
-        <path>Prettiness.degreeDatas[0].label</path>
-        <trans>漂亮</trans>
+ <!--Beauty-->
+
+    <rep>
+        <path>Beauty.degreeDatas[0].label</path>
+        <trans>倾国倾城</trans>
     </rep>
 
     <rep>
-        <path>Prettiness.degreeDatas[0].description</path>
-        <trans>NAME非常漂亮，每个人都喜欢HIM。</trans>
+        <path>Beauty.degreeDatas[0].description</path>
+        <trans>NAME长得非常漂亮，有着貌美的面庞，人们往往在HE张嘴说话之前就已经被倾倒。 </trans>
     </rep>
 
     <rep>
-        <path>Prettiness.degreeDatas[1].label</path>
+        <path>Beauty.degreeDatas[1].label</path>
+        <trans>美丽动人</trans>
+    </rep>
+
+    <rep>
+        <path>Beauty.degreeDatas[1].description</path>
+        <trans>NAME长相美丽，大家都喜欢和HE说话。</trans>
+    </rep> 
+        <rep>
+        <path>Beauty.degreeDatas[2].label</path>
+        <trans>难看</trans>
+    </rep>
+
+    <rep>
+        <path>Beauty.degreeDatas[2].description</path>
+        <trans>NAME长得有些不敢恭维，这往往会影响到别人和HE交流。</trans>
+    </rep>
+
+    <rep>
+        <path>Beauty.degreeDatas[3].label</path>
         <trans>丑陋</trans>
     </rep>
 
     <rep>
-        <path>Prettiness.degreeDatas[1].description</path>
-        <trans>NAME相当丑陋，社会上的人都排斥他。</trans>
-    </rep> -->
+        <path>Beauty.degreeDatas[3].description</path>
+        <trans>NAME的外貌太丑陋，那张脸生得好像就是一副现代抽象画，仅仅是看着他说话都需要鼓起很大的勇气。</trans>
+    </rep> 
+
 
 </LanguageData>
