@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+ <!--A15  defs-->
+
+    <Beer.label>啤酒</Beer.label>
+    <Beer.description>除了水以外，人类所消耗的第一饮料。啤酒的味道不错，但主要效果是让人迷醉。过度饮用会导致酒精成瘾。</Beer.description>
+
+    <Wort.label>麦芽汁</Wort.label>
+    <Wort.description>各种材料混合在一起，还未发酵的啤酒，需要放在发酵桶里酿造后才能变成真正的啤酒。</Wort.description>
+
+    <Amphetamine.label>安非他命</Amphetamine.label>
+    <Amphetamine.description>一种成瘾性极强的兴奋剂，安非他命能够强化使用者的认知能力，使得服用者在短时期内工作时更加集中，忘记疲劳。但是药物成瘾后会使得精神受损，有时还会导致精神崩溃。</Amphetamine.description>
+
+    <Joint.label>大麻烟</Joint.label>
+    <Joint.description>将大麻烟叶卷在纸中点燃来抽，这种烟卷会让人兴奋，但是也会成瘾，减缓使用者的注意力和行动速度，长期使用会产生药物依赖。</Joint.description>
+
+    <Flake.label>薄片</Flake.label>
+    <Flake.description>一种薄薄的原料，抽起来会让人精神愉悦，这种东西非常便于制造，有着极强的药物依赖性。</Flake.description>
+
+    <Yayo.label>椰油</Yayo.label>
+    <Yayo.description>一种精细的白色粉末，用鼻子吸入后可以使人高度兴奋，服用者会精神倍增并且能够抑制疼痛。但是却极易成瘾。</Yayo.description>
+
+    <GoJuice.label>果汁</GoJuice.label>
+    <GoJuice.description>一种合成毒品，被设计用来给太空陆战队员服用。“果汁”能够屏蔽痛感并提升服用者的近战和射击技能。同时还能够提升行动速度，但是发明他的化学家们却无法戒断这种药物的成瘾性。</GoJuice.description>
+
+    <MalariBlock.label>疟疾疫苗</MalariBlock.label>
+    <MalariBlock.description>一种用来针对疟疾的特效药物，五天一服，远离疟疾。</MalariBlock.description>
+
+ <!--A15 hedfiffs-->
+
+  <Alcohol.label>饮酒</Alcohol.label>
+  <Alcohol.stages.1.label>身体温热</Alcohol.stages.1.label>
+  <Alcohol.stages.2.label>略感微醺</Alcohol.stages.2.label>
+  <Alcohol.stages.3.label>完全喝醉</Alcohol.stages.3.label>
+  <Alcohol.stages.4.label>酩酊大醉</Alcohol.stages.4.label>
+  <Alcohol.stages.5.label>昏迷不醒</Alcohol.stages.5.label>
+
+  <Hangover.label>宿醉</Hangover.label>
+  <Hangover.stages.0.label>轻度</Hangover.stages.0.label>
+  <Hangover.stages.1.label>中度</Hangover.stages.1.label>
+  <Hangover.stages.2.label>重度</Hangover.stages.2.label>
+
+  <AlcoholTolerance.label>alcohol tolerance</AlcoholTolerance.label>
+  <AlcoholAddiction.label>alcohol addiction</AlcoholAddiction.label>
+  <AlcoholAddiction.stages.1.label>withdrawal</AlcoholAddiction.stages.1.label>
+
+  <AmphetamineHigh.label>high on amphetamine</AmphetamineHigh.label>
+  <AmphetamineProduction.label>amphetamine production</AmphetamineProduction.label>
+  <AmphetamineProduction.description>Your chemists learn the formulas and techniques for synthesizing amphetamine.</AmphetamineProduction.description>
+
+  <AmphetamineTolerance.label>amphetamine tolerance</AmphetamineTolerance.label>
+  <AmphetamineAddiction.label>amphetamine addiction</AmphetamineAddiction.label>
+  <AmphetamineAddiction.1.label>withdrawal</AmphetamineAddiction.stages.1.label>
+
+
+ <!--A15  thoughts-->
+ 
+  <Inebriated.stages.1.label>喝醉 (身体温热)</Inebriated.stages.1.label>
+  <Inebriated.stages.1.description>喝了点酒我感觉轻松多了，不错。</Inebriated.stages.1.description>
+  <Inebriated.stages.2.label>喝醉 (略感微醺)</Inebriated.stages.2.label>
+  <Inebriated.stages.2.description>我走路有点晃，这感觉真好。</Inebriated.stages.2.description>
+  <Inebriated.stages.3.label>喝醉 (完全喝醉)</Inebriated.stages.3.label>
+  <Inebriated.stages.3.description>我感觉自己无拘无束，无所畏惧，这真是太棒了！</Inebriated.stages.3.description>
+  <Inebriated.stages.4.label>喝醉 (酩酊大醉)</Inebriated.stages.4.label>
+  <Inebriated.stages.4.description>喔喔喔，发生了什么？</Inebriated.stages.4.description>
+
+  <Hungover.stages.0.label>宿醉 (轻度)</Hungover.stages.0.label>
+  <Hungover.stages.0.description>还是略微有点头疼。</Hungover.stages.0.description>
+  <Hungover.stages.1.label>宿醉 (中度)</Hungover.stages.1.label>
+  <Hungover.stages.1.description>那些酒搞的我的头好疼。</Hungover.stages.1.description>
+  <Hungover.stages.2.label>宿醉 (重度)</Hungover.stages.2.label>
+  <Hungover.stages.2.description>我头疼得就像一群鹅在啄我的脑袋一样。</Hungover.stages.2.description>
+
+  <AlcoholWithdrawal.stages.1.label>alcohol withdrawal</AlcoholWithdrawal.stages.1.label>
+  <AlcoholWithdrawal.stages.1.description>Feeling shaky. Everything pisses me off. I keep thinking of drinking.</AlcoholWithdrawal.stages.1.description>
+
+  <AmphetamineWithdrawal.stages.1.label>amphetamine withdrawal</AmphetamineWithdrawal.stages.1.label>
+  <AmphetamineWithdrawal.stages.1.description>I feel all fuzzy and unfocused.</AmphetamineWithdrawal.stages.1.description>
+
+  
+<!--A15  addiction-->
+
+  <Chemical_Alcohol.label>alcohol</Chemical_Alcohol.label>
+  <Chemical_Alcohol.description>Because of an alcohol addiction, this person needs to regularly consume the drug to avoid withdrawal symptoms.</Chemical_Alcohol.description>
+
+  <Chemical_Amphetamine.label>amphetamine</Chemical_Amphetamine.label>
+  <Chemical_Amphetamine.description>Because of an amphetamine addiction, this person needs to regularly consume the drug to avoid withdrawal symptoms.</Chemical_Amphetamine.description>
+
+</LanguageData>

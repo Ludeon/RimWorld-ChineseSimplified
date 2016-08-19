@@ -1,27 +1,30 @@
 RimWorld-ChineseSimplified
 ==========================
+翻译：Kenneth Li
+翻译：SerGawen
 
 license info
-============
-
+=============
 http://ludeon.com/forums/index.php?topic=2933.0
 
 
-贴吧汉化
-=========
+官方中文wiki地址
+===============
+http://rimworld.huiji.wiki/
 
-http://tieba.baidu.com/f?kw=rimworld&ie=utf-8
+
+A14以后的汉化进度和问题汇总
+==========================
+http://rimworld.huiji.wiki/wiki/%E6%B1%89%E5%8C%96%E8%BF%9B%E5%BA%A6
 
 
 注意
 ====
+手动安装汉化前请完全移除旧版汉化
+需要删除的安装目录\Mods\Core\Languages\ChineseSimplified 
 
-安装汉化之前请完全移除旧版汉化
-删除 安装目录\Mods\Core\Languages\ChineseSimplified 这个文件夹
 
-感谢德文翻译团队允许我使用他们的翻译作为参考，大幅降低了翻译消耗的时间!
 
 感谢
 ====
-
-http://tieba.baidu.com/home/main?un=Bigmap01
+Bigmap01@Rimworld贴吧
