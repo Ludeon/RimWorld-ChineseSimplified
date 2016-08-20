@@ -60,6 +60,15 @@
   <RadiusExpandsIn>范围扩展于</RadiusExpandsIn>
   <Permanent>永久</Permanent>
 
+
+ <!-- Fermentation barrel -->
+ <ContainsWort>包含{0} / {1}麦芽汁</ContainsWort>
+ <ContainsBeer>包含{0} / {1}啤酒</ContainsBeer>
+ <Fermented>已发酵</Fermented>
+ <FermentationProgress>进度: {0} (约在{1}后完成)。</FermentationProgress>
+ <FermentationBarrelOutOfIdealTemperature>不在理想的发酵温度范围内，当前发酵速度为：{0}</FermentationBarrelOutOfIdealTemperature>
+
+
   <!--TextMotes-->
   <Headshot>命中头部</Headshot>
   <TreatQuality>治疗效果{0}</TreatQuality>
@@ -248,6 +257,7 @@
   <Undiscovered>未探索</Undiscovered>
 
   <!-- Buttons -->
+  <LearningHelperToggleButton>切换是否显示学习助手\n\n“学习助手”在新概念出现时会开启。</LearningHelperToggleButton>
   <ShowLearningHelperWhenEmptyToggleButton>切换是否显示教学指导</ShowLearningHelperWhenEmptyToggleButton>
   <ZoneVisibilityToggleButton>切换区域的可见性。</ZoneVisibilityToggleButton>
   <ShowBeautyToggleButton>切换美观度显示。\n\n显示当角色站在鼠标位置时所能感受到的美观度。</ShowBeautyToggleButton>

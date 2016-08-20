@@ -46,6 +46,9 @@
   <HunterLacksWeapon>猎人缺少武器</HunterLacksWeapon>
   <HunterLacksWeaponDesc>某个被分配为猎人的居民没有武器，没有拿到武器之前他们无法狩猎。\n\n为了减少受伤的可能性，我们推荐你给他们一把远程武器。</HunterLacksWeaponDesc>
 
+  <AlertTatteredApparel>衣衫褴褛</AlertTatteredApparel>
+  <AlertTatteredApparelDesc>你的这些居民还在穿着破衣烂衫\n\n{0}\n给他们一些像样的衣服吧\n\n你可以通过缝纫台来制作新的衣服，或者从商人手里购买。</AlertTatteredApparelDesc>
+
   <Starvation>饥饿</Starvation>
   <StarvationDesc>这些居民快饿死了：\n\n{0}\n给他们弄些食物。</StarvationDesc>
 
@@ -68,6 +71,9 @@
 
   <NeedHomeArea>需要居住区</NeedHomeArea>
   <NeedHomeAreaDesc>你需要规划一片居住区，居民们会负责清扫、灭火以及修缮这片区域。\n\n使用建造菜单里的区域选项里的居住区来规划一片区域。</NeedHomeAreaDesc>
+
+  <NeedJoySource>需要娱乐设施</NeedJoySource>
+  <NeedJoySourceDesc>你的居民非常渴望新的娱乐项目\n\n掷马蹄铁、象棋、桌球等活动都可以为居民提供娱乐项目。</NeedJoySourceDesc>
 
   <NeedBatteries>需要蓄电池</NeedBatteries>
   <NeedBatteriesDesc>你只有太阳能电池板而没有蓄电池，这表示每次太阳下山你的殖民地就会停电。\n\n建造一两个蓄电池来确保电力足够应付夜晚。</NeedBatteriesDesc>
@@ -121,5 +127,12 @@
 
   <HunterHasShieldAndRangedWeapon>猎人有护盾和远程武器</HunterHasShieldAndRangedWeapon>
   <HunterHasShieldAndRangedWeaponDesc>你的某个猎人既有护盾也有远程武器，护盾会阻止他们进行远程攻击。\n\n不摘掉护盾就无法狩猎。</HunterHasShieldAndRangedWeaponDesc>
+
+
+  <NeedWarmClothes>需要御寒的衣物</NeedWarmClothes>
+  <NeedWarmClothesDesc1>至少{0}人没有能够御寒的衣物。</NeedWarmClothesDesc1>
+  <NeedWarmClothesDesc1All>有居民没有在冬天御寒的衣物</NeedWarmClothesDesc1All>
+  <NeedWarmClothesDesc2>你的居民{0}因为寒冷晕倒在了路上。\n\n你可以在缝纫台制作御寒衣物，或者从商人处购买。</NeedWarmClothesDesc2>
+
 
 </LanguageData>
