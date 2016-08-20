@@ -214,6 +214,33 @@
   <DeleteOutfit>删除配置...</DeleteOutfit>
   <OutfitInUse>着装配置正被{0}使用。</OutfitInUse>
   <NoOutfitSelected>未选择着装配置</NoOutfitSelected>
+  
+  <!-- Drug policy management -->
+   <DrugPolicy>用药方针</DrugPolicy>
+   <SelectDrugPolicy>选择用药方针...</SelectDrugPolicy>
+   <NewDrugPolicy>新方针</NewDrugPolicy>
+   <DeleteDrugPolicy>删除用药方针...</DeleteDrugPolicy>
+   <DrugPolicyInUse>{0}正在生效的用药方针</DrugPolicyInUse>
+   <NoDrugs>禁止药物</NoDrugs>
+   <OneDrinkPerDay>每日一次</OneDrinkPerDay>
+   <NoDrugPolicySelected>没有选中的方针</NoDrugPolicySelected>
+   <AddDrug>添加药物...</AddDrug>
+   <DrugColumnLabel>药物</DrugColumnLabel>
+   <FrequencyColumnLabel>频率</FrequencyColumnLabel>
+   <MoodThresholdColumnLabel>情绪值阈值</MoodThresholdColumnLabel>
+   <JoyThresholdColumnLabel>快乐阈值</JoyThresholdColumnLabel>
+   <TakeToInventoryColumnLabel>预支数量</TakeToInventoryColumnLabel>
+   <NoDrugsBrackets>(没有药物)</NoDrugsBrackets>
+   <EveryDay>每天</EveryDay>
+   <TimesPerDay>每日{0}次</TimesPerDay>
+   <EveryDays>每{0}天1次</EveryDays>
+   <NoDrugUseRequirement>不使用</NoDrugUseRequirement>
+   <DeleteDrugTooltip>删除这个药物</DeleteDrugTooltip>
+   <DrugNameColumnDesc>药物名字</DrugNameColumnDesc>
+   <FrequencyColumnDesc>药物使用的频率</FrequencyColumnDesc>
+   <MoodThresholdColumnDesc>当情绪值低于这个值时会开始使用药物。</MoodThresholdColumnDesc>
+   <JoyThresholdColumnDesc>当快乐值低于这个值时会开始使用药物。</JoyThresholdColumnDesc>
+   <TakeToInventoryColumnDesc>允许每次拿走的药物数量。这样就不用每次需要时都去仓库。</TakeToInventoryColumnDesc>
 
   <!-- Growing -->
   <NoGrowerCanPlant>{0}需要种植技能{1}级才能播种。\n\n你的健康居民里没人有这个水平，所以无法播种该植物。</NoGrowerCanPlant>
