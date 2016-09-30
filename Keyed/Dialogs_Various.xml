@@ -27,7 +27,7 @@
   <ModWithAssemblyWasUnloaded>游戏无法从未激活的MOD中加载完整的修改代码，因此未被激活的MOD可能依然会生效。\n\n我们推荐您退出并重启游戏，以正确的加载MOD。</ModWithAssemblyWasUnloaded>
   
   <!-- Missing Steam -->
-  <SteamClientMissing>无法初始化Steam API。可能原因：\n\nSteam未运行。\n在Steam之外启动，且无法读取steam_appid.txt。\n通过和Steam客户端不同的权限启动（比如“管理员身份”）。\n游戏要求的Steam版本已经停止支持了。</SteamClientMissing>
+  <SteamClientMissing>无法初始化Steam API。可能原因：\n\nSteam未运行。\n在Steam之外启动，且无法读取steam_appid.txt。\n通过和Steam客户端不同的权限启动（比如“管理员身份”）。\n\n在大部分时候，重启你的电脑即可解决这个问题。\n\n游戏本版本需要Steam才可运行，现在将会退出。</SteamClientMissing>
   
   <!-- Long events -->
   <InitializingInterface>初始化界面</InitializingInterface>
