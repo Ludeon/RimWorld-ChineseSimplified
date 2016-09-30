@@ -99,7 +99,7 @@
   
   <!-- Advanced game start options -->
   <MapTemperatureDangerWarning>警告: 你将会降落在一个冰冻的区域。这可能会让生存非常艰难。如果你并不想挑战艰难的环境，选择另一个降落点或另一个月份。</MapTemperatureDangerWarning>
-  <MapSizePerformanceWarning>警告: 在大地图下游戏性能可能会根据配置不同有所下降。\n\n如果你的配置较低，请选择小地图。\n\n巨大尺寸没有经过测试。</MapSizePerformanceWarning>
+  <MapSizePerformanceWarning>警告: 在大地图下游戏性能可能会根据配置不同有所下降。\n\n如果你的配置较低，请选择小地图。\n\n超大尺寸没有经过测试。</MapSizePerformanceWarning>
   <MapSize>地图大小</MapSize>
   <MapSizeDesc>{0}x{0} ({1}个方块)</MapSizeDesc>
   <MapSizeSmall>小</MapSizeSmall>
@@ -117,7 +117,7 @@
   <SuspendedAllCaps>已暂停</SuspendedAllCaps>
   <RepeatCount>重复: {0}次</RepeatCount>
   <Forever>永远</Forever>
-	<Details>详述</Details>
+  <Details>详述</Details>
   <IngredientSearchRadius>材料搜索半径</IngredientSearchRadius>
   <CurrentlyHave>目前有</CurrentlyHave>
   <CountingProducts>计数</CountingProducts>
@@ -185,7 +185,7 @@
   <Addictiveness>上瘾程度</Addictiveness>
 
   <!-- Trade -->
-  <PositiveBuysNegativeSells>正数购买。\n负数出售。</PositiveBuysNegativeSells>
+  <PositiveBuysNegativeSells>正数购买\n负数出售</PositiveBuysNegativeSells>
   <BuyPriceDesc>购买这些需要消耗的钱。</BuyPriceDesc>
   <SellPriceDesc>卖出这些可以获得的钱。</SellPriceDesc>
   <PriceTypeDesc>这个物品的价格是{0}。</PriceTypeDesc>
@@ -196,7 +196,7 @@
   <CancelButton>取消</CancelButton>
   <CloseButton>关闭</CloseButton>
   <YourTradeableSilver>当前可用于交易的白银: {0}</YourTradeableSilver>
-	<YourTradeableSilverTip>你只能使用轨道交易信标附近的白银用来交易。</YourTradeableSilverTip>
+  <YourTradeableSilverTip>你只能使用轨道交易信标附近的白银用来交易。</YourTradeableSilverTip>
   <TraderHasNoMore>交易商没有更多了。</TraderHasNoMore>
   <ColonyHasNoMore>没有更多待售的了。</ColonyHasNoMore>
   <TraderWillNotTrade>交易商不想交易这种商品。</TraderWillNotTrade>
@@ -220,12 +220,12 @@
   <HistoryUploadNoOnce>不上传这次的数据，并在晚些再问我</HistoryUploadNoOnce>
 	
   <!-- Outfit management -->
-  <Outfit>装备</Outfit>
-  <SelectOutfit>选择装备...</SelectOutfit>
-  <NewOutfit>新的装备</NewOutfit>
-  <DeleteOutfit>删除装备...</DeleteOutfit>
-  <OutfitInUse>装备正被{0}使用.</OutfitInUse>
-  <NoOutfitSelected>没有装备被选择</NoOutfitSelected>
+  <Outfit>着装配置</Outfit>
+  <SelectOutfit>选择配置...</SelectOutfit>
+  <NewOutfit>新的配置</NewOutfit>
+  <DeleteOutfit>删除配置...</DeleteOutfit>
+  <OutfitInUse>着装配置已被{0}使用。</OutfitInUse>
+  <NoOutfitSelected>未选择着装配置</NoOutfitSelected>
   
   <!-- Drug policy management -->
   <DrugPolicy>用药方针</DrugPolicy>
