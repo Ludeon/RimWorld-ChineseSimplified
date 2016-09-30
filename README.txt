@@ -1,30 +1,53 @@
-RimWorld-ChineseSimplified
-==========================
-翻译：Kenneth Li
-翻译：SerGawen
+========================================
+=                                      =
+=                                      =
+=     RimWorld  Simplified Chinese     =
+=                                      =
+=          边缘世界  简体中文          =
+=                                      =
+=                                      =
+========================================
 
-授权信息
-=============
+
+
+========================================
+
+This is the Simplified Chinese translation data for RimWorld.
+此为边缘世界（亦称“环世界”）之简体中文翻译。
+
+See this page for license info:
+查看此网页以了解许可信息：
+
 http://ludeon.com/forums/index.php?topic=2933.0
 
 
-官方中文wiki地址
-===============
-http://rimworld.huiji.wiki/
 
+============Credits 中文本地化制作名单==============
 
-A14以后的汉化进度和问题汇总
-==========================
-http://rimworld.huiji.wiki/wiki/%E6%B1%89%E5%8C%96%E8%BF%9B%E5%BA%A6
+  ----  Official Translators 官方项目翻译  ----
+  - AlyxMS
+  - Bigmap
+  - duduluu (风之起灵)
+	- Kenneth Li （魔都KK）
+  - SerGawen
 
+  ----  Translation Tools 翻译工具  ----
+  - Jinngoo
 
-注意
-====
-手动安装汉化前请完全移除旧版汉化
-需要删除的安装目录\Mods\Core\Languages\ChineseSimplified 
-请支持正版，不要使用任何形式的盗版或者破解
+  ----  Wiki Administrator 维基搭建  ----
+  - SerGawen （Supported by huiji.wiki）
 
+  ----  Official ZH-hans wiki 官方中文wiki地址  ----
+  -  http://rimworld.huiji.wiki/
 
-感谢
-====
-Bigmap01@Rimworld贴吧
+  ----  Special Thanks 感谢  ----
+  - German Translator 德文翻译人员 - Haplo - TheEisbaer
+  - Traditional Chinese Translator 繁体中文翻译人员 - Wilseanhsu
+	
+  ----  TiebaFriends 吧友  ----
+  大dc yklovehyy Mrfengshao Luigi_C 飞天棺材 ……等等
+
+  关于人名与故事背景：不属于本汉化包翻译范围。
+  因为要修改游戏文件RimWorldWin_Data\resources.assets
+  
+  【贴吧】RimWorld吧：http://tieba.baidu.com/f?kw=rimworld

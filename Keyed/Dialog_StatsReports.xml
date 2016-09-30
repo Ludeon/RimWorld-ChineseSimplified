@@ -1,37 +1,37 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
   <StatsReport_BaseValue>基础值</StatsReport_BaseValue>
-  <StatsReport_RelevantTraits>特点的影响</StatsReport_RelevantTraits>
-  <StatsReport_RelevantGear>装备的影响</StatsReport_RelevantGear>
-  <StatsReport_LifeStage>生命期</StatsReport_LifeStage>
-  <StatsReport_RelevantHediffs>相关健康状态</StatsReport_RelevantHediffs>
-  <StatsReport_Material>材料</StatsReport_Material>
+  <StatsReport_RelevantTraits>相关特性</StatsReport_RelevantTraits>
+  <StatsReport_RelevantGear>相关工具</StatsReport_RelevantGear>
+  <StatsReport_RelevantHediffs>Relevant health conditions</StatsReport_RelevantHediffs>
+  <StatsReport_LifeStage>生命阶段</StatsReport_LifeStage>
+  <StatsReport_Material>材质</StatsReport_Material>
   <StatsReport_CharacterQuality>角色品质</StatsReport_CharacterQuality>
   <StatsReport_Skills>技能系数</StatsReport_Skills>
   <StatsReport_OtherStats>其它状态系数</StatsReport_OtherStats>
   <StatsReport_HealthFactors>健康系数</StatsReport_HealthFactors>
-  <HealthFactorPercentImpact>权重比{0}</HealthFactorPercentImpact>
-  <StatsReport_PostProcessed>后期修正</StatsReport_PostProcessed>
+  <HealthFactorPercentImpact>{0}重要性</HealthFactorPercentImpact>
+  <StatsReport_PostProcessed>曲线处理</StatsReport_PostProcessed>
   <StatsReport_FinalValue>最终值</StatsReport_FinalValue>
-  <StatsReport_MarketValueFromStuffsAndWork>由建造材料和工作数量计算而来的市场价值。</StatsReport_MarketValueFromStuffsAndWork>
-  <StatsReport_QualityMultiplier>质量的影响</StatsReport_QualityMultiplier>
-  <StatsReport_AgeMultiplier>年龄的影响 ({0})</StatsReport_AgeMultiplier>
-  <StatsReport_HealthMultiplier>耐久度的影响 ({0})</StatsReport_HealthMultiplier>
-  <StatsReport_MoodMultiplier>心情的影响 ({0})</StatsReport_MoodMultiplier>
-  <StatsReport_DifficultyMultiplier>难度的影响 ({0})</StatsReport_DifficultyMultiplier>
-  <StatsReport_InBed>有床睡</StatsReport_InBed>
-  <StatsReport_Facilities>设施</StatsReport_Facilities>
-  <StatsReport_BodySize>体型的影响 ({0})</StatsReport_BodySize>
-  <StatsReport_MeleeDPSExplanation>以如下格式显示状态：\nDPS ( 近战伤害 / 冷却时间(秒) / 近战命中几率 )\n\nDPS = 近战伤害 * 近战命中几率 / 冷却秒时间</StatsReport_MeleeDPSExplanation>
+  <StatsReport_MarketValueFromStuffsAndWork>市场价值是由建造材料和工作数量计算而来的。</StatsReport_MarketValueFromStuffsAndWork>
+  <StatsReport_QualityMultiplier>质量乘数</StatsReport_QualityMultiplier>
+  <StatsReport_AgeMultiplier>年龄乘数{0}</StatsReport_AgeMultiplier>
+  <StatsReport_HealthMultiplier>健康乘数{0}</StatsReport_HealthMultiplier>
+  <StatsReport_MoodMultiplier>心情乘数{0}</StatsReport_MoodMultiplier>
+	<StatsReport_DifficultyMultiplier>难度乘数{0}</StatsReport_DifficultyMultiplier>
+  <StatsReport_InBed>卧床</StatsReport_InBed>
+  <StatsReport_Facilities>能力</StatsReport_Facilities>
+  <StatsReport_BodySize>身体尺寸系数{0}</StatsReport_BodySize>
+  <StatsReport_MeleeDPSExplanation>左侧数据显示格式:\nDPS ( 近战伤害 / 冷却时间(秒) / 近战命中几率 )\n\n计算公式: DPS = 近战伤害 * 近战命中几率  / 冷却秒时间</StatsReport_MeleeDPSExplanation>
   <StatsReport_MeleeDamage>近战伤害</StatsReport_MeleeDamage>
-  <StatsReport_Cooldown>冷却时间</StatsReport_Cooldown>
+  <StatsReport_Cooldown>冷却</StatsReport_Cooldown>
   <StatsReport_MeleeHitChance>近战命中几率</StatsReport_MeleeHitChance>
   <StatsReport_CooldownFormat>{0}秒</StatsReport_CooldownFormat>
   <StatsReport_LifeExpectancy>预期寿命</StatsReport_LifeExpectancy>
- <StatsReport_MissingBodyParts>缺少身体部位的影响</StatsReport_MissingBodyParts>
-  <AverageOfAllAttacks>全部攻击平均值</AverageOfAllAttacks>
+  <StatsReport_MissingBodyParts>缺失身体部位的因素</StatsReport_MissingBodyParts>
+  <AverageOfAllAttacks>平均攻击</AverageOfAllAttacks>
   <StatsReport_UnpoweredWorkTable>无电力供应</StatsReport_UnpoweredWorkTable>
-  <StatsReport_ScenarioFactor>场景</StatsReport_ScenarioFactor>
-
+  <StatsReport_ScenarioFactor>剧本</StatsReport_ScenarioFactor>
+  
 </LanguageData>

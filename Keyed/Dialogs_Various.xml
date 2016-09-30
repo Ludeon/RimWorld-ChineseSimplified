@@ -1,84 +1,87 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
   <Confirm>确定</Confirm>
   <GoBack>返回</GoBack>
-  <OK>OK</OK>
-
-  <!-- Game updated to new version 
-   <GameUpdatedToNewVersionInitial>Rimworld已有版本更新{0}，{1}\n\n升级可能会对Mod使用造成影响。</GameUpdatedToNewVersionInitial>
-   <GameUpdatedToNewVersionNonSteam>DRM-free</GameUpdatedToNewVersionNonSteam>
-   <GameUpdatedToNewVersionSteam></GameUpdatedToNewVersionSteam>-->
-
+  <OK>确定</OK>
+  
+  <!-- Game updated to new version -->
+  <GameUpdatedToNewVersionInitial>Rimworld已有版本更新{0}，{1}\n\n升级可能会对Mod使用造成影响。</GameUpdatedToNewVersionInitial>
+  <GameUpdatedToNewVersionNonSteam>对于DRM-免费的游戏拷贝，您可以在不同的文件夹下安装两次，因此可以同时游玩旧版和新版。</GameUpdatedToNewVersionNonSteam>
+  <GameUpdatedToNewVersionSteam>您可以在STEAM的“beta”选项中选择使用旧版进行游戏。\n\n  1. 在STEAM游戏库中右击RimWorld.\n  2. 点击“属性”\n  3. 选择Beta标签\n  4.在下拉菜单中选择你想进行游戏的版本。\n\n旧版可能最终被移除。\n\n注意MOD作者如果升级了MOD有可能导致无法在旧版本中运行，您可以通过禁止自动更新来避免这一问题。</GameUpdatedToNewVersionSteam>
+  
   <!-- Recovered from errors caused by mods -->
-  <RecoveredFromErrorsDialogTitle>已从不兼容或损坏的Mod错误中恢复</RecoveredFromErrorsDialogTitle>
-  <RecoveredFromErrorsText>看起来目前启用的一些Mod会产生错误。\n\n它们可能彼此之间不兼容，或为不同的游戏版本而设计，或者已损坏。\n\n所有的Mod已被禁用，可在Mod菜单中重新启用。</RecoveredFromErrorsText>
-
+  <RecoveredFromErrorsDialogTitle>恢复不兼容或损坏的MODS错误</RecoveredFromErrorsDialogTitle>
+  <RecoveredFromErrorsText>当前激活的这些MOD之间有冲突错误的隐患。\n\n它们彼此之间不兼容, 可能版本不同或已经损坏。\n\n所有的MOD已被禁用，可以在MOD菜单中重新激活。</RecoveredFromErrorsText>
+  
   <!-- Errors during loading -->
   <ErrorWhileLoadingAssetsTitle>加载资源时出错</ErrorWhileLoadingAssetsTitle>
   <ErrorWhileLoadingAssets>加载游戏资源时发生错误。查看错误日志以了解更多信息。</ErrorWhileLoadingAssets>
-  <ErrorWhileLoadingAssets_ModsInfo>当前游戏加载了自定义的Mod -它们可能会引起这些问题。</ErrorWhileLoadingAssets_ModsInfo>
+  <ErrorWhileLoadingAssets_ModsInfo>当前游戏加载了自定义的MOD -它们可能会引起这些问题。</ErrorWhileLoadingAssets_ModsInfo>
   <ErrorWhileGeneratingMapTitle>生成地图时出错</ErrorWhileGeneratingMapTitle>
   <ErrorWhileGeneratingMap>生成新地图时发生错误。查看错误日志以了解更多信息。</ErrorWhileGeneratingMap>
   <ErrorWhileLoadingMapTitle>加载地图时出错</ErrorWhileLoadingMapTitle>
   <ErrorWhileLoadingMap>加载地图时出现错误。查看错误日志以了解更多信息。</ErrorWhileLoadingMap>
-
+  
+  <!-- Unloaded mod with an assembly -->
+  <ModWithAssemblyWasUnloaded>游戏无法从未激活的MOD中加载完整的修改代码，因此未被激活的MOD可能依然会生效。\n\n我们推荐您退出并重启游戏，以正确的加载MOD。</ModWithAssemblyWasUnloaded>
+  
   <!-- Missing Steam -->
-  <SteamClientMissing>无法初始化Steam API。可能的原因：\n\n-Steam没有运行。\n-在Steam之外没有steam_appid.txt文件的情况下启动。\n-以与Steam不同的权限运行游戏(例如，“以管理员身份”)。\n\n在大部分时候，重启你的电脑即可解决这个问题。\n\n游戏本版本需要Steam才可运行，现在将会退出。</SteamClientMissing>
-
+  <SteamClientMissing>无法初始化Steam API。可能原因：\n\nSteam未运行。\n在Steam之外启动，且无法读取steam_appid.txt。\n通过和Steam客户端不同的权限启动（比如“管理员身份”）。\n游戏要求的Steam版本已经停止支持了。</SteamClientMissing>
+  
   <!-- Long events -->
-  <InitializingInterface>正在初始化界面</InitializingInterface>
-  <UnloadingUnusedAssets>正在释放未使用的资源</UnloadingUnusedAssets>
-  <LoadingAllActiveMods>正在加载所有启用的Mod</LoadingAllActiveMods>
-  <LoadingDefs>正在加载游戏数据</LoadingDefs>
-  <LoadingAssets>正在加载资源</LoadingAssets>
-  <Initializing>正在初始化</Initializing>
-  <LoadingWorld>正在加载世界</LoadingWorld>
-  <LoadingMap>正在加载地图</LoadingMap>
-  <InitializingMap>正在初始化地图</InitializingMap>
-  <SpawningAllThings>正在生成物体</SpawningAllThings>
-
+  <InitializingInterface>初始化界面</InitializingInterface>
+  <UnloadingUnusedAssets>释放未使用的资源</UnloadingUnusedAssets>
+  <LoadingAllActiveMods>载入所有激活的Mod</LoadingAllActiveMods>
+  <LoadingDefs>载入Defs</LoadingDefs>
+  <LoadingAssets>载入资源</LoadingAssets>
+  <Initializing>初始化中</Initializing>
+  <LoadingWorld>载入世界</LoadingWorld>
+  <LoadingMap>载入地图</LoadingMap>
+  <InitializingMap>初始化地图</InitializingMap>
+  <SpawningAllThings>生成所有物体</SpawningAllThings>
+  
   <!-- Save/load -->
   <SaveGameButton>保存</SaveGameButton>
-  <LoadGameButton>读取</LoadGameButton>
+  <LoadGameButton>载入</LoadGameButton>
   <OverwriteButton>覆盖</OverwriteButton>
-  <ConfirmDelete>真的要删除{0}吗？</ConfirmDelete>
-  <DeleteThisSavegame>删除这个存档。</DeleteThisSavegame>
+  <ConfirmDelete>你确定要删除“{0}”吗？</ConfirmDelete>
+  <DeleteThisSavegame>删除此存档</DeleteThisSavegame>
   <SavedAs>已保存为{0}。</SavedAs>
   <NeedAName>请输入一个名称。</NeedAName>
   <LoadingLongEvent>载入中</LoadingLongEvent>
   <SavingLongEvent>保存中</SavingLongEvent>
-  <PermadeathModeSaveSuffix>(永久死亡)</PermadeathModeSaveSuffix>
-  <SaveIsFromDifferentGameVersion>运行的游戏版本是{0}，然而存档数据的版本是{1}，二者版本完全不同。\n\n尝试加载可能不会成功。</SaveIsFromDifferentGameVersion>
-  <SaveIsFromDifferentGameBuild>运行的游戏版本是{0}，然而存档数据的版本是{1}，构建版本号不同。\n\n尝试加载通常没有问题。</SaveIsFromDifferentGameBuild>
+  <PermadeathModeSaveSuffix>(永久死亡模式)</PermadeathModeSaveSuffix>
+  <SaveIsFromDifferentGameVersion>运行的游戏版本是 {0} 但是存档数据的版本是 {1}, 二者版本完全不同的。\n\n尝试加载不可能成功。</SaveIsFromDifferentGameVersion>
+  <SaveIsFromDifferentGameBuild>运行的游戏版本是{0} 但是存档数据的版本是 {1}， 二者数据结构不同。\n\n尝试加载有可能成功。</SaveIsFromDifferentGameBuild>
   <SaveIsFromThisGameBuild>存档数据版本是当前游戏版本，可以正确加载。</SaveIsFromThisGameBuild>
   <SaveIsUnknownFormat>存档数据格式错误，无法正确加载。</SaveIsUnknownFormat>
-  <ProblemSavingFile>保存文件{0}时出现了错误：\n\n{1}\n\n查看错误日志以了解更多信息。</ProblemSavingFile>
-  <LoadAnyway>强行载入</LoadAnyway>
-
+  <ProblemSavingFile>正在保存的文件有点问题{0}:\n\n{1}</ProblemSavingFile>
+  <LoadAnyway>仍然加载</LoadAnyway>
+  
   <!-- Colony naming-->
-  <NameColonyMessage>既然看起来你打算在这里待上一阵子了，{0}觉得你应该给这个社区起个名字。\n\n它叫什么比较好？</NameColonyMessage>
-  <ColonyGainsName>社区现在被称为{0}。</ColonyGainsName>
-  <ColonyNameIsInvalid>那个名字无效。</ColonyNameIsInvalid>
+  <NameColonyMessage>大家都知道你不想永远呆在这块石头上。但{0}建议你还是应该给你的殖民地起个名字。\n\n它叫什么比较好？</NameColonyMessage>
+  <ColonyGainsName>这个殖民地现在被称为{0}。</ColonyGainsName>
+  <ColonyNameIsInvalid>这个殖民地名无效。</ColonyNameIsInvalid>
 
   <!-- Renaming -->
   <NameIsInvalid>请输入一个有效的名称。</NameIsInvalid>
   <NameIsInUse>名称已经被使用。</NameIsInUse>
-  <ZoneGainsName>这个区域的名称被改为{0}。</ZoneGainsName>
-
+  <ZoneGainsName>这个区域的名称被改为{0}</ZoneGainsName>
+  
   <!-- Pawn naming -->
-  <PawnGainsName>这个居民的昵称现在叫{0}。</PawnGainsName>
+  <PawnGainsName>这个殖民者的昵称被改为{0}。</PawnGainsName>
 
   <!-- Save game incompatible warning -->
   <VersionMismatch>版本不匹配</VersionMismatch>
-  <SaveGameIncompatibleWarningText>该存档是由版本为{0}的游戏所保存的\n当前正在运行的游戏版本为{1}\n\n读取这个存档很可能会造成游戏崩溃或产生游戏BUG。</SaveGameIncompatibleWarningText>
-  <WorldFileVersionMismatch>该世界是由版本为{0}的游戏所生成的\n当前正在运行的游戏版本为{1}\n\n读取这个世界很可能会造成游戏崩溃或产生游戏BUG。建议你重新生成一个世界。</WorldFileVersionMismatch>
-  <FileIncompatibleWarning>该文件是由版本为{0}的游戏所保存的\n当前正在运行的游戏版本为{1}\n\n读取这个文件很可能会造成游戏崩溃或产生游戏BUG。</FileIncompatibleWarning>
-  <ModsMismatchWarningTitle>Mod不匹配</ModsMismatchWarningTitle>
-  <ModsMismatchWarningText>该文件所使用的Mod与当前所启用的Mod不相同，根据Mod的内容有可能发生问题，也有可能正常。\n\n文件是以如下列表保存的(按照顺序)：\n\n{0}\n\n当前所启用的Mod是(按照顺序)：\n\n{1}</ModsMismatchWarningText>
+  <SaveGameIncompatibleWarningText>地图存档版本为{0}，当前运行游戏版本为{1}。\n\n 读取这个存档很可能会造成游戏崩溃或产生游戏BUG。</SaveGameIncompatibleWarningText>
+  <WorldFileVersionMismatch>世界生成版本为{0}，当前运行游戏版本为{1}。\n\n 读取这个世界很可能会造成游戏崩溃或产生游戏BUG。建议你从新生成一个新世界。</WorldFileVersionMismatch>
+  <FileIncompatibleWarning>保存该文件的游戏版本为{0}。\n当前运行游戏版本为{1}\n\n载入该文件可能导致错误或崩溃。</FileIncompatibleWarning>
+  <ModsMismatchWarningTitle>MOD不匹配</ModsMismatchWarningTitle>
+  <ModsMismatchWarningText>存档的MOD激活设定和当前游戏运行的设定不同，你改动了Mod，根据MOD的内容有可能发生问题，也有可能正常。\n\n存档的MOD激活设定是 (按照顺序):\n\n{0}\n\n当前运行的MOD激活设定是:\n\n{1}</ModsMismatchWarningText>
 
   <!-- Resolution change dialog -->
-  <ConfirmResolutionChange>你已经改变了你当前的分辨率。目前游戏显示是否正常？\n\n将在{0}秒后恢复原始设置...</ConfirmResolutionChange>
+  <ConfirmResolutionChange>你已经改变了你当前的分辨率。目前游戏显示是否正常？\n\n将在{0}秒后恢复原始设置……</ConfirmResolutionChange>
   <ResolutionKeep>保持</ResolutionKeep>
   <ResolutionRevert>恢复</ResolutionRevert>
 
@@ -89,54 +92,54 @@
   <Finished>已完成</Finished>
   <InProgress>研究中</InProgress>
   <Locked>未解锁</Locked>
-  <ResearchMenuWithoutBench>你的居民们在你建造研究桌之前是无法进行研究的。\n\n不过你可以只是查看研究项目。</ResearchMenuWithoutBench>
+  <ResearchMenuWithoutBench>你的殖民者们在你建造研究桌之前是无法进行研究的。\n\n不过，你仍然可以查看并选择研究项目。</ResearchMenuWithoutBench>
   <ResearchPrerequisites>前置研究</ResearchPrerequisites>
-  <RequiredResearchBench>所需研究台</RequiredResearchBench>
-  <RequiredResearchBenchFacilities>所需研究台设施</RequiredResearchBenchFacilities>
-
+  <RequiredResearchBench>需要研究台</RequiredResearchBench>
+  <RequiredResearchBenchFacilities>需要研究设施</RequiredResearchBenchFacilities>
+  
   <!-- Advanced game start options -->
   <MapTemperatureDangerWarning>警告: 你将会降落在一个冰冻的区域。这可能会让生存非常艰难。如果你并不想挑战艰难的环境，选择另一个降落点或另一个月份。</MapTemperatureDangerWarning>
-  <MapSizePerformanceWarning>警告：在大地图下游戏性能可能会下降。巨大尺寸未经测试，而且基本上不会良好地运行。</MapSizePerformanceWarning>
+  <MapSizePerformanceWarning>警告: 在大地图下游戏性能可能会根据配置不同有所下降。\n\n如果你的配置较低，请选择小地图。\n\n巨大尺寸没有经过测试。</MapSizePerformanceWarning>
   <MapSize>地图大小</MapSize>
   <MapSizeDesc>{0}x{0} ({1}个方块)</MapSizeDesc>
   <MapSizeSmall>小</MapSizeSmall>
   <MapSizeMedium>中</MapSizeMedium>
   <MapSizeLarge>大</MapSizeLarge>
-  <MapSizeExtreme>巨大</MapSizeExtreme>
-  <MapStartSeason>起始季节：</MapStartSeason>
+  <MapSizeExtreme>超大</MapSizeExtreme>
+  <MapStartSeason>开始季节</MapStartSeason>
   <MapStartSeasonDefault>自动</MapStartSeasonDefault>
   <PermadeathMode>永久死亡模式</PermadeathMode>
-  <PermadeathModeInfo>在永久死亡模式，只有一个存档，并只能在退出游戏时保存进度。你不能通过重读进度来弥补错误，殖民地毁灭了就是毁灭了。\n\n这是玩RimWorld的正确姿势，每一个戏剧性的转变(无论是悲惨或满怀希望)都发挥了充分的影响。</PermadeathModeInfo>
+  <PermadeathModeInfo>在永久死亡模式，只有一个保存文档，并只能在退出游戏时保存进度。当殖民地凋零时，你不能通过重读进度来弥补错误。\n\n RimWorld的这种游戏方式意味着你必须接受每一个戏剧性的转变 -无论是悲惨或满怀希望 - 都发挥了充分的影响。</PermadeathModeInfo>
 
   <!-- Bill config -->
   <Suspended>已暂停</Suspended>
   <NotSuspended>未暂停</NotSuspended>
   <SuspendedAllCaps>已暂停</SuspendedAllCaps>
-  <RepeatCount>重复：{0}次</RepeatCount>
+  <RepeatCount>重复: {0}次</RepeatCount>
   <Forever>永远</Forever>
-  <Details>细节</Details>
-  <IngredientSearchRadius>原料来源范围</IngredientSearchRadius>
+	<Details>详述</Details>
+  <IngredientSearchRadius>材料搜索半径</IngredientSearchRadius>
   <CurrentlyHave>目前有</CurrentlyHave>
   <CountingProducts>计数</CountingProducts>
   <Infinite>无限</Infinite>
-  <AllowedSkillRange>有效{0}技能范围：</AllowedSkillRange>
-
+  <AllowedSkillRange>最小{0}技能</AllowedSkillRange>
+  
   <RecipeCannotHaveTargetCount>(因为这个配方有多个或是不可预估的成品所以不能为它指定目标数量)</RecipeCannotHaveTargetCount>
   <WorkAmount>工作量</WorkAmount>
-  <MinimumSkills>最低技能值：</MinimumSkills>
+  <MinimumSkills>最低技能值:</MinimumSkills>
   <BillRequires>需要{0}{1}</BillRequires>
-  <BillRequiresNutrition>需要{0}营养糊</BillRequiresNutrition>
-  <BillRequiresMayVary>提醒：“小量”原料例如黄金需要20倍这么多。</BillRequiresMayVary>
-  <ThisIsSmallVolume>这是一个“小量”原料，每单位只有正常量的二十分之一。所以，如果要求同样数量的原料，其所需数量将是20倍。</ThisIsSmallVolume>
-  <UsableIngredients>原料</UsableIngredients>
-  <DoXTimes>做X个</DoXTimes>
-  <DoUntilYouHaveX>维持X个</DoUntilYouHaveX>
-  <DoForever>一直做</DoForever>
+  <BillRequiresNutrition>需要{0} 食物</BillRequiresNutrition>
+  <BillRequiresMayVary>(数量可能会因为非标准体积的原料而改变，比如黄金。)</BillRequiresMayVary>
+  <ThisIsSmallVolume>这是一个小体积的原料.每单位只有1／20 正常的体积。所以，如果要求同样数量的材料，需要材料的数量是一般的20倍。</ThisIsSmallVolume>
+  <UsableIngredients>可使用的原料</UsableIngredients>
+  <DoXTimes>做X次</DoXTimes>
+  <DoUntilYouHaveX>做直到拥有X个</DoUntilYouHaveX>
+  <DoForever>永远做下去</DoForever>
   <BillRepeatTargetCountShort>到{0}</BillRepeatTargetCountShort>
-  <BillStoreMode_DropOnFloor>扔在地上</BillStoreMode_DropOnFloor>
-  <BillStoreMode_BestStockpile>放到最合适的贮存区</BillStoreMode_BestStockpile>
-  <BillStoreMode_NearestStockpileAnyPriority>放到最近的贮存区</BillStoreMode_NearestStockpileAnyPriority>
-
+  <BillStoreMode_DropOnFloor>放在地上</BillStoreMode_DropOnFloor>
+  <BillStoreMode_BestStockpile>放到最合适的贮藏区</BillStoreMode_BestStockpile>
+  <BillStoreMode_NearestStockpileAnyPriority>放到距离最近的贮藏区</BillStoreMode_NearestStockpileAnyPriority>
+  
   <!-- Info card -->
   <Damage>伤害</Damage>
   <Accuracy>精度</Accuracy>
@@ -147,17 +150,17 @@
   <BurstShotFireRate>射速</BurstShotFireRate>
   <Range>射程</Range>
   <GrowsWild>野生</GrowsWild>
-  <Harvestable>可收割</Harvestable>
+  <Harvestable>可收获</Harvestable>
   <LimitedLifespan>寿命有限</LimitedLifespan>
   <GrowingTime>生长时间</GrowingTime>
   <GrowingTimeDesc>植物只在每天有光照的时间段生长。植物完全成熟的时间是按照有效生长的时间计算，因此实际成熟的时间是通常标示的几倍。低温环境还会延缓生长。</GrowingTimeDesc>
   <Days>天</Days>
-  <MinGrowingSkillToSow>播种所需的最低种植技能</MinGrowingSkillToSow>
+  <MinGrowingSkillToSow>种植最低技能要求</MinGrowingSkillToSow>
   <FertilityRequirement>肥沃度需求</FertilityRequirement>
-  <SoilFertilitySensitivityGrowthRate>土壤肥沃敏感度(生长率)</SoilFertilitySensitivityGrowthRate>
-  <SoilFertilitySensitivityPlantChance>土壤肥沃敏感度(种植几率)</SoilFertilitySensitivityPlantChance>
+  <SoilFertilitySensitivityGrowthRate>土壤肥沃灵敏度 (种植比率)</SoilFertilitySensitivityGrowthRate>
+  <SoilFertilitySensitivityPlantChance>土壤肥沃灵敏度 (种植几率)</SoilFertilitySensitivityPlantChance>
   <LightRequirement>光照需求</LightRequirement>
-  <Attributes>特性</Attributes>
+  <Attributes>来源</Attributes>
   <LifeSpan>寿命</LifeSpan>
   <Nutrition>营养</Nutrition>
   <Joy>娱乐</Joy>
@@ -165,102 +168,99 @@
   <WalkSpeedProperty>行走速度</WalkSpeedProperty>
   <MinFoodQuality>最低食物品质</MinFoodQuality>
   <Diet>饮食</Diet>
-  <RecruitDifficulty>招降难度</RecruitDifficulty>
+  <RecruitDifficulty>招募难度</RecruitDifficulty>
   <MarketValue>基础价值</MarketValue>
   <Covers>覆盖</Covers>
-  <MedicineXpGainFactor>经验获取系数</MedicineXpGainFactor>
-  <BodyPartEfficiency>身体部位效率</BodyPartEfficiency>
-  <MoodChange>心情改变</MoodChange>
+  <CoverEffectiveness>掩护效果</CoverEffectiveness>
+  <CoverEffectivenessExplanation>在枪战时该物体所能提供的掩护效果，更高的数值能够挡住更多的伤害。</CoverEffectivenessExplanation>
+  <MedicineXpGainFactor>经验获得系数</MedicineXpGainFactor>
+  <BodyPartEfficiency>身体部件效率</BodyPartEfficiency>
+  <MoodChange>情绪改变</MoodChange>
   <Wildness>野生</Wildness>
   <WildnessExplanation>野生动物更难驯服、训练和处理。</WildnessExplanation>
-  <AnimalFilthRate>动物粪便产生速度</AnimalFilthRate>
-  <AnimalFilthRateExplanation>动物会在建筑地面遗留粪便，此值表示这种动物平均每行走{0}格产生的粪便量。\n\n体形较大或者难以作为宠物的动物会产生更多的粪便。</AnimalFilthRateExplanation>
+  <AnimalFilthRate>动物污物产生速度</AnimalFilthRate>
+  <AnimalFilthRateExplanation>当动物在建筑地面走动会产生的污物。此值表示这种生物行走后每{0}格产生的平均污物量。\n\n巨大或较小的宠物会产生更多的污秽。</AnimalFilthRateExplanation>
   <TimeRecordsCategory>时间</TimeRecordsCategory>
   <MiscRecordsCategory>杂项</MiscRecordsCategory>
+  <Addictiveness>上瘾程度</Addictiveness>
 
   <!-- Trade -->
   <PositiveBuysNegativeSells>正数购买。\n负数出售。</PositiveBuysNegativeSells>
-  <BuyPriceDesc>购买这些需要付的钱。</BuyPriceDesc>
+  <BuyPriceDesc>购买这些需要消耗的钱。</BuyPriceDesc>
   <SellPriceDesc>卖出这些可以获得的钱。</SellPriceDesc>
-  <PriceTypeDesc>对于该物品，该价格{0}。</PriceTypeDesc>
-  <ColonyCount>殖民地对于该物品的待售数量。\n\n你只能卖出轨道交易信标附近并且在户外的物品。</ColonyCount>
-  <TraderCount>商人对于该物品的待交易数量。</TraderCount>
+  <PriceTypeDesc>这个物品的价格是{0}。</PriceTypeDesc>
+  <ColonyCount>殖民地拥有的待售物品数量。\n\n你只能卖出轨道交易信标附近并且在户外的物品。</ColonyCount>
+  <TraderCount>交易商拥有的物品数量。</TraderCount>
   <AcceptButton>接受</AcceptButton>
   <ResetButton>重置</ResetButton>
   <CancelButton>取消</CancelButton>
-  <YourTradeableSilver>当前可用于交易的白银：{0}</YourTradeableSilver>
-  <YourTradeableSilverTip>你只能使用轨道交易信标附近而且顶上没有屋顶的白银用来交易。</YourTradeableSilverTip>
-  <TraderHasNoMore>商人没有更多货了。</TraderHasNoMore>
+  <CloseButton>关闭</CloseButton>
+  <YourTradeableSilver>当前可用于交易的白银: {0}</YourTradeableSilver>
+	<YourTradeableSilverTip>你只能使用轨道交易信标附近的白银用来交易。</YourTradeableSilverTip>
+  <TraderHasNoMore>交易商没有更多了。</TraderHasNoMore>
   <ColonyHasNoMore>没有更多待售的了。</ColonyHasNoMore>
-  <TraderWillNotTrade>商人不想交易这种商品。</TraderWillNotTrade>
-  <NegotiatorTalkingImpaired>你的还价人{0}由于身体问题无法正常交谈。\n\n这将影响到贸易价格.\n\n考虑用一个更健康居民来还价。</NegotiatorTalkingImpaired>
-  <ConfirmTraderShortFunds>贸易商没有足够的白银支付这次交易，继续么？</ConfirmTraderShortFunds>
+  <TraderWillNotTrade>交易商不想交易这种商品。</TraderWillNotTrade>
+  <NegotiatorTalkingImpaired>因为身体状态不佳无法和{0}谈判.\n\n这将影响到贸易价格.\n\n考虑用一个健康殖民者来谈判。</NegotiatorTalkingImpaired>
+  <ConfirmTraderShortFunds>贸易商没有足够的白银支付这次交易，继续么?</ConfirmTraderShortFunds>
   <SortBy>排序方式</SortBy>
-
+  
   <!-- Comms -->
-  <SocialSkillIs>社交技能：{0}</SocialSkillIs>
-
+  <SocialSkillIs>社交技能: {0}</SocialSkillIs>
+  
   <!--Research-->
-  <ResearchFinished>完成的研究：{0}</ResearchFinished>
+  <ResearchFinished>完成的研究: {0}</ResearchFinished>
   <ResearchScreen>研究界面</ResearchScreen>
-
+  
   <!--HistoryUpload-->
   <HistoryUploadMessage>你想把游戏数据上传到RimWorld服务器以帮助开发者完善游戏平衡吗? 如果你同意，每隔{0}天你的游戏数据会被自动上传(以及在游戏结束等其他情况下上传)。之后可以在选项菜单里改变隐私设置。</HistoryUploadMessage>
   <HistoryUploadMessagePlayerName>尽管游戏数据默认是匿名上传的，但你仍然可以附上你的的名字。</HistoryUploadMessagePlayerName>
   <HistoryUploadYes>允许上传游戏数据</HistoryUploadYes>
   <HistoryUploadNo>不允许上传游戏数据</HistoryUploadNo>
-  <HistoryUploadYesOnce>仅上传这次的数据</HistoryUploadYesOnce>
-  <HistoryUploadNoOnce>本次不上传，回头再问我</HistoryUploadNoOnce>
-
+  <HistoryUploadYesOnce>仅在上传这次的数据</HistoryUploadYesOnce>
+  <HistoryUploadNoOnce>不上传这次的数据，并在晚些再问我</HistoryUploadNoOnce>
+	
   <!-- Outfit management -->
-  <Outfit>着装配置</Outfit>
-  <SelectOutfit>选择配置...</SelectOutfit>
-  <NewOutfit>新的配置</NewOutfit>
-  <DeleteOutfit>删除配置...</DeleteOutfit>
-  <OutfitInUse>着装配置正被{0}使用。</OutfitInUse>
-  <NoOutfitSelected>未选择着装配置</NoOutfitSelected>
+  <Outfit>装备</Outfit>
+  <SelectOutfit>选择装备...</SelectOutfit>
+  <NewOutfit>新的装备</NewOutfit>
+  <DeleteOutfit>删除装备...</DeleteOutfit>
+  <OutfitInUse>装备正被{0}使用.</OutfitInUse>
+  <NoOutfitSelected>没有装备被选择</NoOutfitSelected>
   
   <!-- Drug policy management -->
-   <DrugPolicy>用药方针</DrugPolicy>
-   <SelectDrugPolicy>选择用药方针...</SelectDrugPolicy>
-   <NewDrugPolicy>新方针</NewDrugPolicy>
-   <DeleteDrugPolicy>删除用药方针...</DeleteDrugPolicy>
-   <DrugPolicyInUse>{0}正在生效的用药方针</DrugPolicyInUse>
-     <SocialDrugs>社交药物</SocialDrugs>
-   <NoDrugs>禁止药物</NoDrugs>
-   <OneDrinkPerDay>每日一次</OneDrinkPerDay>
-     <Unrestricted>不做限制</Unrestricted>
-   <NoDrugPolicySelected>没有选中的方针</NoDrugPolicySelected>
-   <AddDrug>添加药物...</AddDrug>
-   <DrugColumnLabel>药物</DrugColumnLabel>
-   <FrequencyColumnLabel>频率</FrequencyColumnLabel>
-     <DrugUsageColumnLabel>药用</DrugUsageColumnLabel>
-   <MoodThresholdColumnLabel>情绪值阈值</MoodThresholdColumnLabel>
-   <JoyThresholdColumnLabel>快乐阈值</JoyThresholdColumnLabel>
-   <TakeToInventoryColumnLabel>预支数量</TakeToInventoryColumnLabel>
-   <NoDrugsBrackets>(没有药物)</NoDrugsBrackets>
-   <EveryDay>每天</EveryDay>
-   <TimesPerDay>每日{0}次</TimesPerDay>
-   <EveryDays>每{0}天1次</EveryDays>
-   <NoDrugUseRequirement>不使用</NoDrugUseRequirement>
-   <DeleteDrugTooltip>删除这个药物</DeleteDrugTooltip>
-   <DrugNameColumnDesc>药物名字</DrugNameColumnDesc>
-     <DrugUsageColumnDesc>药物使用</DrugUsageColumnDesc>
-   <FrequencyColumnDesc>药物使用的频率</FrequencyColumnDesc>
-   <MoodThresholdColumnDesc>当情绪值低于这个值时会开始使用药物。</MoodThresholdColumnDesc>
-   <JoyThresholdColumnDesc>当快乐值低于这个值时会开始使用药物。</JoyThresholdColumnDesc>
-   <TakeToInventoryColumnDesc>允许每次拿走的药物数量。这样就不用每次需要时都去仓库。</TakeToInventoryColumnDesc>
-   <DrugUsageTipDeny>禁用\n\n精神崩溃或是特定情况下居民会无视你的设定。</DrugUsageTipDeny>
-   <DrugUsageTipForJoy>娱乐目的\n\n为了消除压力、社交时服用。</DrugUsageTipForJoy>
-   <DrugUsageTipScheduled>计划服用\n\n在条件满足的情况下根据指定的日程安排服药。</DrugUsageTipScheduled>
+  <DrugPolicy>用药方针</DrugPolicy>
+  <SelectDrugPolicy>选择用药方针...</SelectDrugPolicy>
+  <NewDrugPolicy>新方针</NewDrugPolicy>
+  <DeleteDrugPolicy>删除用药方针...</DeleteDrugPolicy>
+  <DrugPolicyInUse>{0}正在生效的用药方针</DrugPolicyInUse>
+  <SocialDrugs>社交药物</SocialDrugs>
+  <NoDrugs>禁止药物</NoDrugs>
+  <OneDrinkPerDay>每日一次</OneDrinkPerDay>
+  <Unrestricted>不做限制</Unrestricted>
+  <NoDrugPolicySelected>没有选中的方针</NoDrugPolicySelected>
+  <AddDrug>添加药物...</AddDrug>
+  <DrugColumnLabel>药物</DrugColumnLabel>
+  <FrequencyColumnLabel>频率</FrequencyColumnLabel>
+  <DrugUsageColumnLabel>药用</DrugUsageColumnLabel>
+  <MoodThresholdColumnLabel>情绪值阈值</MoodThresholdColumnLabel>
+  <JoyThresholdColumnLabel>快乐阈值</JoyThresholdColumnLabel>
+  <TakeToInventoryColumnLabel>预支数量</TakeToInventoryColumnLabel>
+  <NoDrugsBrackets>(没有药物)</NoDrugsBrackets>
+  <EveryDay>每天</EveryDay>
+  <TimesPerDay>每日{0}次</TimesPerDay>
+  <EveryDays>每{0}天1次</EveryDays>
+  <NoDrugUseRequirement>不使用</NoDrugUseRequirement>
+  <DeleteDrugTooltip>删除这个药物</DeleteDrugTooltip>
+  <DrugNameColumnDesc>药物名字</DrugNameColumnDesc>
+  <DrugUsageColumnDesc>药物使用</DrugUsageColumnDesc>
+  <FrequencyColumnDesc>药物使用的频率</FrequencyColumnDesc>
+  <MoodThresholdColumnDesc>当情绪值低于这个值时会开始使用药物。</MoodThresholdColumnDesc>
+  <TakeToInventoryColumnDesc>允许每次拿走的药物数量。这样就不用每次需要时都去仓库。</TakeToInventoryColumnDesc>
+  <DrugUsageTipDeny>禁用\n\n精神崩溃或是特定情况下居民会无视你的设定。</DrugUsageTipDeny>
+  <DrugUsageTipForJoy>娱乐目的\n\n为了消除压力、社交时服用。n\n注意，即使是在禁止用要的方针下，有些具有某些特点的殖民者依然会无视规定使用药物。</DrugUsageTipForJoy>
+  <DrugUsageTipScheduled>计划服用\n\n在条件满足的情况下根据指定的日程安排服药。</DrugUsageTipScheduled>
   
-
   <!-- Growing -->
-  <NoGrowerCanPlant>{0}需要种植技能{1}级才能播种。\n\n你的健康居民里没人有这个水平，所以无法播种该植物。</NoGrowerCanPlant>
-
-
-  <CoverEffectiveness>掩护效果</CoverEffectiveness>
-  <CoverEffectivenessExplanation>在枪战时该物体所能提供的掩护效果，更高的数值能够挡住更多的伤害。</CoverEffectivenessExplanation>
-
+  <NoGrowerCanPlant>{0}需要最低{1}级种植技能才能播种。\n\n你的种植工作人员中没有达到该技能要求的，所以这种植物不会被播种。</NoGrowerCanPlant>
 
 </LanguageData>
