@@ -15,12 +15,13 @@ Official Translators 官方项目翻译
 - AlyxMS
 - Bigmap
 - duduluu (风之起灵)
-- Kenneth Li （魔都KK）
-- SerGawen
+- Kenneth Li (魔都KK)
+- SerGawen (加文_维斯特林)
 
 Translation Tools 翻译工具
 ----------------------------------
 - Jinngoo
+- duduluu
 
 Wiki Administrator 维基搭建
 -----------------------------------
@@ -29,6 +30,14 @@ Wiki Administrator 维基搭建
 Official ZH-hans wiki 官方中文wiki地址
 -----------------------------------
 -  http://rimworld.huiji.wiki/
+
+How to install 安装方法
+------------------------------------
+- 下载汉化包 解压得到新的ChineseSimplified文件夹
+- 打开文件夹 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Core\Languages
+- 删除原有的 ChineseSimplified文件夹
+- 将新的 ChineseSimplified文件夹 复制进去
+- 注：根据你的Steam自定义设置，游戏的安装目录可能不同
 
 Special Thanks 感谢
 ------------------------------------
