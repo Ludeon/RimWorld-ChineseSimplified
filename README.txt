@@ -45,7 +45,7 @@ Special Thanks 感谢
 - Traditional Chinese Translator 繁体中文翻译人员 - Wilseanhsu
 
 - RimWorld吧：http://tieba.baidu.com/f?kw=rimworld
-- TiebaFriends 吧友：大dc yklovehyy Mrfengshao Luigi_C 飞天棺材 ……等等
+- TiebaFriends 吧友：大dc yklovehyy Mrfengshao Luigi_C 飞行棺材 ……等等
 
 Note 注意
 --------------------------------------
