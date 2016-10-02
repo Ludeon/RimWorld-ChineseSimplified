@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
   <!-- Random social interactions -->
@@ -26,45 +26,50 @@
   <!-- Misc actions affecting opinion -->
 
   <HarmedMe.stages.0.label>伤害我</HarmedMe.stages.0.label>
-  <BotchedMySurgery.stages.0.label>搞砸了我的手术</BotchedMySurgery.stages.0.label>
-  <RescuedMe.stages.0.label>营救了我</RescuedMe.stages.0.label>
+  <BotchedMySurgery.stages.0.label>给我做手术时出了事故</BotchedMySurgery.stages.0.label>
+  <RescuedMe.stages.0.label>救了我</RescuedMe.stages.0.label>
   <RecruitedMe.stages.0.label>招募了我</RecruitedMe.stages.0.label>
   <CrashedTogether.stages.0.label>一起迫降</CrashedTogether.stages.0.label>
 
   <SoldMyLovedOne.stages.0.label>情人{0}被贩卖</SoldMyLovedOne.stages.0.label>
-  <SoldMyLovedOne.stages.0.labelSocial>卖掉我的情人</SoldMyLovedOne.stages.0.labelSocial>
-  <SoldMyLovedOne.stages.0.description>我爱的人像一块肉样被卖给了一个商人！</SoldMyLovedOne.stages.0.description>
+  <SoldMyLovedOne.stages.0.labelSocial>我爱的人被卖了</SoldMyLovedOne.stages.0.labelSocial>
+  <SoldMyLovedOne.stages.0.description>我爱的人像一块肉一样被卖给了一个商人！</SoldMyLovedOne.stages.0.description>
 
   <SoldMyBondedAnimal.stages.0.label>羁绊动物{0}被贩卖</SoldMyBondedAnimal.stages.0.label>
-  <SoldMyBondedAnimal.stages.0.labelSocial>卖掉我的羁绊动物</SoldMyBondedAnimal.stages.0.labelSocial>
+  <SoldMyBondedAnimal.stages.0.labelSocial>我的爱宠被卖了</SoldMyBondedAnimal.stages.0.labelSocial>
   <SoldMyBondedAnimal.stages.0.description>我相依相伴的动物被卖给了一个商人！</SoldMyBondedAnimal.stages.0.description>
 
 
   <!-- Romance -->
 
-  <RebuffedMyRomanceAttempt.stages.0.label>拒绝我</RebuffedMyRomanceAttempt.stages.0.label>
+  <RebuffedMyRomanceAttempt.stages.0.label>拒绝了我</RebuffedMyRomanceAttempt.stages.0.label>
+
   <RebuffedMyRomanceAttemptMood.stages.0.label>被{0}拒绝</RebuffedMyRomanceAttemptMood.stages.0.label>
   <RebuffedMyRomanceAttemptMood.stages.0.description>表白被拒绝了，感觉很失落。</RebuffedMyRomanceAttemptMood.stages.0.description>
 
-  <FailedRomanceAttemptOnMe.stages.0.label>表白被拒绝</FailedRomanceAttemptOnMe.stages.0.label>
+  <FailedRomanceAttemptOnMe.stages.0.label>拒绝了其表白</FailedRomanceAttemptOnMe.stages.0.label>
   <BrokeUpWithMe.stages.0.label>和我分手</BrokeUpWithMe.stages.0.label>
 
   <BrokeUpWithMeMood.stages.0.label>{0}和我分手了</BrokeUpWithMeMood.stages.0.label>
   <BrokeUpWithMeMood.stages.0.description>我被抛弃了。</BrokeUpWithMeMood.stages.0.description>
 
   <CheatedOnMe.stages.0.label>背叛我</CheatedOnMe.stages.0.label>
+
   <CheatedOnMeMood.stages.0.label>{0}背叛了我</CheatedOnMeMood.stages.0.label>
-  <CheatedOnMeMood.stages.0.description>他背叛了我。</CheatedOnMeMood.stages.0.description>
+  <CheatedOnMeMood.stages.0.description>背叛了我。</CheatedOnMeMood.stages.0.description>
 
   <DivorcedMe.stages.0.label>和我离婚</DivorcedMe.stages.0.label>
-  <DivorcedMeMood.stages.0.label>{0}和我离婚了</DivorcedMeMood.stages.0.label>
+
+  <DivorcedMeMood.stages.0.label>跟{0}离婚了</DivorcedMeMood.stages.0.label>
   <DivorcedMeMood.stages.0.description>我和他之间从此再无瓜葛。</DivorcedMeMood.stages.0.description>
 
-  <RejectedMyProposal.stages.0.label>拒绝了的求婚</RejectedMyProposal.stages.0.label>
+  <RejectedMyProposal.stages.0.label>拒绝我的求婚</RejectedMyProposal.stages.0.label>
+
   <RejectedMyProposalMood.stages.0.label>{0}拒绝了我的求婚</RejectedMyProposalMood.stages.0.label>
   <RejectedMyProposalMood.stages.0.description>我以为我们是真心相爱的，我以为我能厮守终身，然而我错了。</RejectedMyProposalMood.stages.0.description>
 
-  <IRejectedTheirProposal.stages.0.label>拒绝了求婚</IRejectedTheirProposal.stages.0.label>
+  <IRejectedTheirProposal.stages.0.label>拒绝了其求婚</IRejectedTheirProposal.stages.0.label>
+
   <HoneymoonPhase.stages.0.label>蜜月期</HoneymoonPhase.stages.0.label>
   <HoneymoonPhase.stages.0.labelSocial>蜜月期</HoneymoonPhase.stages.0.labelSocial>
   <HoneymoonPhase.stages.0.description>新婚燕儿，花好月圆。</HoneymoonPhase.stages.0.description>
@@ -90,6 +95,5 @@
 
 
   <!--<RapportBuilt.stages.0.description>我和这里的管理者聊了聊这个地方，听起来这里挺不错的。</RapportBuilt.stages.0.description>-->
-  <!-- note that it doesn't affect opinion -->
 
 </LanguageData>
