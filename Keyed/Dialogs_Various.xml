@@ -109,7 +109,7 @@
   <MapStartSeason>开始季节</MapStartSeason>
   <MapStartSeasonDefault>自动</MapStartSeasonDefault>
   <PermadeathMode>永久死亡模式</PermadeathMode>
-  <PermadeathModeInfo>在永久死亡模式，只有一个保存文档，并只能在退出游戏时保存进度。当殖民地凋零时，你不能通过重读进度来弥补错误。\n\n RimWorld的这种游戏方式意味着你必须接受每一个戏剧性的转变 -无论是悲惨或满怀希望 - 都发挥了充分的影响。</PermadeathModeInfo>
+  <PermadeathModeInfo>永久死亡模式，只能保存一个存档，且只能在退出游戏时保存进度。当殖民地出现危机时，你不能通过重读进度来弥补错误。\n\n RimWorld的这种游戏方式意味着你必须接受每一个戏剧性的转变 -无论是悲惨或满怀希望 - 都发挥了充分的影响。</PermadeathModeInfo>
 
   <!-- Bill config -->
   <Suspended>已暂停</Suspended>
@@ -117,20 +117,20 @@
   <SuspendedAllCaps>已暂停</SuspendedAllCaps>
   <RepeatCount>重复: {0}次</RepeatCount>
   <Forever>永远</Forever>
-  <Details>详述</Details>
+  <Details>详细</Details>
   <IngredientSearchRadius>材料搜索半径</IngredientSearchRadius>
   <CurrentlyHave>目前有</CurrentlyHave>
   <CountingProducts>计数</CountingProducts>
   <Infinite>无限</Infinite>
-  <AllowedSkillRange>最小{0}技能</AllowedSkillRange>
+  <AllowedSkillRange>{0}技能等级筛选</AllowedSkillRange>
   
   <RecipeCannotHaveTargetCount>(因为这个配方有多个或是不可预估的成品所以不能为它指定目标数量)</RecipeCannotHaveTargetCount>
   <WorkAmount>工作量</WorkAmount>
-  <MinimumSkills>最低技能值:</MinimumSkills>
+  <MinimumSkills>最低技能要求:</MinimumSkills>
   <BillRequires>需要{0}{1}</BillRequires>
-  <BillRequiresNutrition>需要{0} 食物</BillRequiresNutrition>
-  <BillRequiresMayVary>(数量可能会因为非标准体积的原料而改变，比如黄金。)</BillRequiresMayVary>
-  <ThisIsSmallVolume>这是一个小体积的原料.每单位只有1／20 正常的体积。所以，如果要求同样数量的材料，需要材料的数量是一般的20倍。</ThisIsSmallVolume>
+  <BillRequiresNutrition>需要{0}营养的食物</BillRequiresNutrition>
+  <BillRequiresMayVary>注意：小体积材料（比如黄金）需要消耗20倍的数量</BillRequiresMayVary>
+  <ThisIsSmallVolume>这是一个小体积的原料，每单位只有正常体积的1/20。所以，如果要求同样数量的材料，需要材料的数量是一般的20倍。</ThisIsSmallVolume>
   <UsableIngredients>可使用的原料</UsableIngredients>
   <DoXTimes>做X次</DoXTimes>
   <DoUntilYouHaveX>做直到拥有X个</DoUntilYouHaveX>
@@ -176,13 +176,13 @@
   <MedicineXpGainFactor>经验获得系数</MedicineXpGainFactor>
   <BodyPartEfficiency>身体部件效率</BodyPartEfficiency>
   <MoodChange>情绪改变</MoodChange>
-  <Wildness>野生</Wildness>
-  <WildnessExplanation>野生动物更难驯服、训练和处理。</WildnessExplanation>
+  <Wildness>野性</Wildness>
+  <WildnessExplanation>动物的野性越高，越难驯服、训练和处理。</WildnessExplanation>
   <AnimalFilthRate>动物污物产生速度</AnimalFilthRate>
-  <AnimalFilthRateExplanation>当动物在建筑地面走动会产生的污物。此值表示这种生物行走后每{0}格产生的平均污物量。\n\n巨大或较小的宠物会产生更多的污秽。</AnimalFilthRateExplanation>
+  <AnimalFilthRateExplanation>当动物在建筑地面走动时会产生污物。此值表示这种生物每行走{0}格产生的平均污物量。\n\n巨大或缺少灵性的动物会产生更多的污秽。</AnimalFilthRateExplanation>
   <TimeRecordsCategory>时间</TimeRecordsCategory>
   <MiscRecordsCategory>杂项</MiscRecordsCategory>
-  <Addictiveness>上瘾程度</Addictiveness>
+  <Addictiveness>成瘾性</Addictiveness>
 
   <!-- Trade -->
   <PositiveBuysNegativeSells>正数购买\n负数出售</PositiveBuysNegativeSells>
