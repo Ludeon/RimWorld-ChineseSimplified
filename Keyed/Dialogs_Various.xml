@@ -1,19 +1,19 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
   <Confirm>确定</Confirm>
   <GoBack>返回</GoBack>
   <OK>确定</OK>
-
+  
   <!-- Game updated to new version -->
   <GameUpdatedToNewVersionInitial>Rimworld已有版本更新{0}，{1}\n\n升级可能会对Mod使用造成影响。</GameUpdatedToNewVersionInitial>
   <GameUpdatedToNewVersionNonSteam>对于DRM-免费的游戏拷贝，您可以在不同的文件夹下安装两次，因此可以同时游玩旧版和新版。</GameUpdatedToNewVersionNonSteam>
   <GameUpdatedToNewVersionSteam>您可以在STEAM的“beta”选项中选择使用旧版进行游戏。\n\n  1. 在STEAM游戏库中右击RimWorld.\n  2. 点击“属性”\n  3. 选择Beta标签\n  4.在下拉菜单中选择你想进行游戏的版本。\n\n旧版可能最终被移除。\n\n注意MOD作者如果升级了MOD有可能导致无法在旧版本中运行，您可以通过禁止自动更新来避免这一问题。</GameUpdatedToNewVersionSteam>
-
+  
   <!-- Recovered from errors caused by mods -->
   <RecoveredFromErrorsDialogTitle>恢复不兼容或损坏的MODS错误</RecoveredFromErrorsDialogTitle>
   <RecoveredFromErrorsText>当前激活的这些MOD之间有冲突错误的隐患。\n\n它们彼此之间不兼容, 可能版本不同或已经损坏。\n\n所有的MOD已被禁用，可以在MOD菜单中重新激活。</RecoveredFromErrorsText>
-
+  
   <!-- Errors during loading -->
   <ErrorWhileLoadingAssetsTitle>加载资源时出错</ErrorWhileLoadingAssetsTitle>
   <ErrorWhileLoadingAssets>加载游戏资源时发生错误。查看错误日志以了解更多信息。</ErrorWhileLoadingAssets>
@@ -22,13 +22,13 @@
   <ErrorWhileGeneratingMap>生成新地图时发生错误。查看错误日志以了解更多信息。</ErrorWhileGeneratingMap>
   <ErrorWhileLoadingMapTitle>加载地图时出错</ErrorWhileLoadingMapTitle>
   <ErrorWhileLoadingMap>加载地图时出现错误。查看错误日志以了解更多信息。</ErrorWhileLoadingMap>
-
+  
   <!-- Unloaded mod with an assembly -->
   <ModWithAssemblyWasUnloaded>游戏无法从未激活的MOD中加载完整的修改代码，因此未被激活的MOD可能依然会生效。\n\n我们推荐您退出并重启游戏，以正确的加载MOD。</ModWithAssemblyWasUnloaded>
-
+  
   <!-- Missing Steam -->
   <SteamClientMissing>无法初始化Steam API。可能原因：\n\nSteam未运行。\n在Steam之外启动，且无法读取steam_appid.txt。\n通过和Steam客户端不同的权限启动（比如“管理员身份”）。\n\n在大部分时候，重启你的电脑即可解决这个问题。\n\n游戏本版本需要Steam才可运行，现在将会退出。</SteamClientMissing>
-
+  
   <!-- Long events -->
   <InitializingInterface>初始化界面</InitializingInterface>
   <UnloadingUnusedAssets>释放未使用的资源</UnloadingUnusedAssets>
@@ -40,7 +40,7 @@
   <LoadingMap>载入地图</LoadingMap>
   <InitializingMap>初始化地图</InitializingMap>
   <SpawningAllThings>生成所有物体</SpawningAllThings>
-
+  
   <!-- Save/load -->
   <SaveGameButton>保存</SaveGameButton>
   <LoadGameButton>载入</LoadGameButton>
@@ -58,7 +58,7 @@
   <SaveIsUnknownFormat>存档数据格式错误，无法正确加载。</SaveIsUnknownFormat>
   <ProblemSavingFile>正在保存的文件有点问题{0}:\n\n{1}</ProblemSavingFile>
   <LoadAnyway>仍然加载</LoadAnyway>
-
+  
   <!-- Colony naming-->
   <NameColonyMessage>大家都知道你不想永远呆在这块石头上。但{0}建议你还是应该给你的殖民地起个名字。\n\n它叫什么比较好？</NameColonyMessage>
   <ColonyGainsName>这个殖民地现在被称为{0}。</ColonyGainsName>
@@ -68,7 +68,7 @@
   <NameIsInvalid>请输入一个有效的名称。</NameIsInvalid>
   <NameIsInUse>名称已经被使用。</NameIsInUse>
   <ZoneGainsName>这个区域的名称被改为{0}</ZoneGainsName>
-
+  
   <!-- Pawn naming -->
   <PawnGainsName>这个殖民者的昵称被改为{0}。</PawnGainsName>
 
@@ -96,7 +96,7 @@
   <ResearchPrerequisites>前置研究</ResearchPrerequisites>
   <RequiredResearchBench>需要研究台</RequiredResearchBench>
   <RequiredResearchBenchFacilities>需要研究设施</RequiredResearchBenchFacilities>
-
+  
   <!-- Advanced game start options -->
   <MapTemperatureDangerWarning>警告: 你将会降落在一个冰冻的区域。这可能会让生存非常艰难。如果你并不想挑战艰难的环境，选择另一个降落点或另一个月份。</MapTemperatureDangerWarning>
   <MapSizePerformanceWarning>警告: 在大地图下游戏性能可能会根据配置不同有所下降。\n\n如果你的配置较低，请选择小地图。\n\n超大尺寸没有经过测试。</MapSizePerformanceWarning>
@@ -123,7 +123,7 @@
   <CountingProducts>计数</CountingProducts>
   <Infinite>无限</Infinite>
   <AllowedSkillRange>{0}技能等级筛选人员</AllowedSkillRange>
-
+  
   <RecipeCannotHaveTargetCount>(因为这个配方有多个或是不可预估的成品所以不能为它指定目标数量)</RecipeCannotHaveTargetCount>
   <WorkAmount>工作量</WorkAmount>
   <MinimumSkills>最低技能要求:</MinimumSkills>
@@ -139,7 +139,7 @@
   <BillStoreMode_DropOnFloor>放在地上</BillStoreMode_DropOnFloor>
   <BillStoreMode_BestStockpile>放到最合适的贮藏区</BillStoreMode_BestStockpile>
   <BillStoreMode_NearestStockpileAnyPriority>放到距离最近的贮藏区</BillStoreMode_NearestStockpileAnyPriority>
-
+  
   <!-- Info card -->
   <Damage>伤害</Damage>
   <Accuracy>精度</Accuracy>
@@ -203,14 +203,14 @@
   <NegotiatorTalkingImpaired>因为身体状态不佳无法和{0}谈判.\n\n这将影响到贸易价格.\n\n考虑用一个健康殖民者来谈判。</NegotiatorTalkingImpaired>
   <ConfirmTraderShortFunds>贸易商没有足够的白银支付这次交易，继续么?</ConfirmTraderShortFunds>
   <SortBy>排序方式</SortBy>
-
+  
   <!-- Comms -->
   <SocialSkillIs>社交技能: {0}</SocialSkillIs>
-
+  
   <!--Research-->
   <ResearchFinished>完成的研究: {0}</ResearchFinished>
   <ResearchScreen>研究界面</ResearchScreen>
-
+  
   <!--HistoryUpload-->
   <HistoryUploadMessage>你想把游戏数据上传到RimWorld服务器以帮助开发者完善游戏平衡吗? 如果你同意，每隔{0}天你的游戏数据会被自动上传(以及在游戏结束等其他情况下上传)。之后可以在选项菜单里改变隐私设置。</HistoryUploadMessage>
   <HistoryUploadMessagePlayerName>尽管游戏数据默认是匿名上传的，但你仍然可以附上你的的名字。</HistoryUploadMessagePlayerName>
@@ -218,7 +218,7 @@
   <HistoryUploadNo>不允许上传游戏数据</HistoryUploadNo>
   <HistoryUploadYesOnce>仅在上传这次的数据</HistoryUploadYesOnce>
   <HistoryUploadNoOnce>不上传这次的数据，并在晚些再问我</HistoryUploadNoOnce>
-
+	
   <!-- Outfit management -->
   <Outfit>着装配置</Outfit>
   <SelectOutfit>选择配置...</SelectOutfit>
@@ -226,7 +226,7 @@
   <DeleteOutfit>删除配置...</DeleteOutfit>
   <OutfitInUse>着装配置已被{0}使用。</OutfitInUse>
   <NoOutfitSelected>未选择着装配置</NoOutfitSelected>
-
+  
   <!-- Drug policy management -->
   <DrugPolicy>用药方针</DrugPolicy>
   <SelectDrugPolicy>选择用药方针...</SelectDrugPolicy>
@@ -240,8 +240,8 @@
   <NoDrugPolicySelected>没有选中的方针</NoDrugPolicySelected>
   <AddDrug>添加药物...</AddDrug>
   <DrugColumnLabel>药物</DrugColumnLabel>
-  <DrugUsageColumnLabel>药用</DrugUsageColumnLabel>
   <FrequencyColumnLabel>频率</FrequencyColumnLabel>
+  <DrugUsageColumnLabel>药用</DrugUsageColumnLabel>
   <MoodThresholdColumnLabel>情绪值阈值</MoodThresholdColumnLabel>
   <JoyThresholdColumnLabel>快乐阈值</JoyThresholdColumnLabel>
   <TakeToInventoryColumnLabel>预支数量</TakeToInventoryColumnLabel>
@@ -255,15 +255,13 @@
   <DrugUsageColumnDesc>药物使用</DrugUsageColumnDesc>
   <FrequencyColumnDesc>药物使用的频率</FrequencyColumnDesc>
   <MoodThresholdColumnDesc>当情绪值低于这个值时会开始使用药物。</MoodThresholdColumnDesc>
-  <JoyThresholdColumnDesc>当娱乐值低于这个值时会开始使用药物。</JoyThresholdColumnDesc>
+   <JoyThresholdColumnDesc>当娱乐值低于这个值时会开始使用药物。</JoyThresholdColumnDesc>
   <TakeToInventoryColumnDesc>允许每次拿走的药物数量。这样就不用每次需要时都去仓库。</TakeToInventoryColumnDesc>
+  <DrugUsageTipDeny>禁用\n\n精神崩溃或是特定情况下居民会无视你的设定。</DrugUsageTipDeny>
   <DrugUsageTipForJoy>娱乐目的\n\n为了消除压力、社交时服用。n\n注意，即使是在禁止用药的方针下，有些具有某些特性的殖民者依然会无视规定使用药物。</DrugUsageTipForJoy>
   <DrugUsageTipScheduled>计划服用\n\n在条件满足的情况下根据指定的日程安排服药。</DrugUsageTipScheduled>
-
+  
   <!-- Growing -->
   <NoGrowerCanPlant>{0}需要最低{1}级种植技能才能播种。\n\n你的种植工作人员中没有达到该技能要求的，所以这种植物不会被播种。</NoGrowerCanPlant>
-
-
-  <!--<DrugUsageTipDeny>禁用\n\n精神崩溃或是特定情况下居民会无视你的设定。</DrugUsageTipDeny>-->
 
 </LanguageData>

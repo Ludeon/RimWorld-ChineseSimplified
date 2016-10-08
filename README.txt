@@ -9,9 +9,7 @@ See this page for license info:
 查看此网页以了解许可信息：
 http://ludeon.com/forums/index.php?topic=2933.0
 
-Current Version 当前版本
----------------------------------
-Alpha 15 (0.15)
+当前版本: Alpha 15 (0.15)
 
 Official Translators 官方项目翻译
 ---------------------------------
