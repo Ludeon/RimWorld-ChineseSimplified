@@ -36,6 +36,7 @@ Official ZH-hans wiki 官方中文wiki地址
 
 How to install 安装方法
 ------------------------------------
+*STEAM客户端只会在关键版本更新前同步本汉化项目，期间我们会针对小版本做及时汉化并修正各种问题、优化翻译。因此您也可以在Git上同步我们的最新汉化，操作方法如下：
 - 下载汉化包 解压得到新的ChineseSimplified文件夹
 - 打开文件夹 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Core\Languages
 - 删除原有的 ChineseSimplified文件夹
@@ -52,7 +53,7 @@ Special Thanks 感谢
 
 Note 注意
 --------------------------------------
-因人名与故事背景的汉化涉及Ludeon的Creativi Reward系统
-出于对游戏付费支持者的尊重以及对Ludeon Studio的利益维护
-我们无权修改游戏核心文件RimWorldWin_Data\resources.assets
+因人名/故事背景涉及Ludeon Studio之Creative Reward系统
+出于对游戏付费赞助者的尊重更是对Ludeon Studio正当利益之维护
+我们不会（亦无权）修改/汉化游戏的相关核心文件：RimWorldWin_Data\resources.assets
 故上述二者不属于本汉化项目之讨论范围，敬请谅解。
