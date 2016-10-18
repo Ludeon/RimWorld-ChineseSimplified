@@ -42,8 +42,8 @@
   <!--=========== Version info ==========-->
   <BuildNowAvailable>新版版本{0}已经发布。查看Ludeon.com以了解更多信息。</BuildNowAvailable>
   <BuildUpToDate>版本已是最新。</BuildUpToDate>
-  <ErrorGettingVersionInfo>获取版本信息失败: {0}</ErrorGettingVersionInfo>
-  <LoadingVersionInfo>正在加载版本信息...</LoadingVersionInfo>
+  <ErrorGettingVersionInfo>获取版本信息失败：{0}</ErrorGettingVersionInfo>
+  <LoadingVersionInfo>正在加载版本信息……</LoadingVersionInfo>
 
   <!--=========== World generator =========-->
   <GenerateWorld>生成世界</GenerateWorld>
@@ -55,19 +55,19 @@
   <ConfirmDisableCoreMod>你确定要关闭Core(核心)模组吗？除非有完全替代游戏核心所有功能的模组，否则游戏将完全无法运行。\n\n记住，其它模组能通过使用同样的defName来覆盖游戏内的设定。</ConfirmDisableCoreMod>
   <ConfirmDeleteMod>你确定要删除所有{0}的内容？</ConfirmDeleteMod>
   <Unsubscribe>取消订阅</Unsubscribe>
-  <ConfirmUnsubscribe>你确定要取消订阅此内容(Mod或剧本)吗？内容: {0}</ConfirmUnsubscribe>
+  <ConfirmUnsubscribe>你确定要取消订阅此内容(Mod或剧本)吗？内容：{0}</ConfirmUnsubscribe>
   <Author>作者</Author>
   <WorkshopPage>创意工坊页面</WorkshopPage>
   <UploadToSteamWorkshop>上传到Steam创意工坊</UploadToSteamWorkshop>
   <UpdateOnSteamWorkshop>更新Steam创意工坊</UpdateOnSteamWorkshop>
   <UploadAlreadyInProgress>正在更新中。</UploadAlreadyInProgress>
-  <WorkshopSubmissionFailed>创意工坊提交失败。\n\n原因: {0}</WorkshopSubmissionFailed>
+  <WorkshopSubmissionFailed>创意工坊提交失败。\n\n原因：{0}</WorkshopSubmissionFailed>
   <WorkshopUploadSucceeded>提交这个MOD。你将同意Steam创意工坊的Workshop服务条款。点击这里获得更多的信息。</WorkshopUploadSucceeded>
   <Downloading>下载中</Downloading>
   <Source>资源</Source>
-  <ModTargetVersion>适配版本: {0}</ModTargetVersion>
+  <ModTargetVersion>适配版本：{0}</ModTargetVersion>
   <ModNotMadeForThisVersion>该Mod并不适配于当前RimWorld版本，很可能无法正常运行。</ModNotMadeForThisVersion>
-  <MessageModNeedsWellFormattedTargetVersion>Mod需要在About.xml中注明适配的游戏版本。比如: &lt;targetVersion&gt;{0}&lt;/targetVersion&gt;.</MessageModNeedsWellFormattedTargetVersion>
+  <MessageModNeedsWellFormattedTargetVersion>Mod需要在About.xml中注明适配的游戏版本。比如：&lt;targetVersion&gt;{0}&lt;/targetVersion&gt;.</MessageModNeedsWellFormattedTargetVersion>
   <DragToReorder>拖拽排序</DragToReorder>
 
   <!--=========== Select scenario =============-->
@@ -87,7 +87,7 @@
   <ConfirmSteamWorkshopUpload>确定上传到Steam创意工坊吗？\n\n你必须同意Steam创意工坊的服务条款。在以下网页查看完整条款：\n\nhttp://steamcommunity.com/sharedfiles/workshoplegalagreement</ConfirmSteamWorkshopUpload>
   <ConfirmContentAuthor>你所上传的内容必须是你原创的。\n\n这是你原创的吗？</ConfirmContentAuthor>
   <Incompatible>不兼容</Incompatible>
-  <TooMany>过多 (最多 {0}): </TooMany>
+  <TooMany>过多 (最多 {0})：</TooMany>
   <CanBeUpdatedOnWorkshop>因为你是作者，能在工坊上更新。</CanBeUpdatedOnWorkshop>
 
   <!--=========== Select storyteller ==========-->
@@ -101,7 +101,7 @@
   <SelectRandomSite>随机着陆点</SelectRandomSite>
   <SelectSite>选择地点</SelectSite>
   <MustSelectLandingSite>请选择一个着陆点。</MustSelectLandingSite>
-  <CannotLandBiome>你不能在这个生态系统上着陆: {0}</CannotLandBiome>
+  <CannotLandBiome>你不能在这个生态系统上着陆：{0}</CannotLandBiome>
   <WorldRenderMode>显示模式</WorldRenderMode>
   <WorldRenderModeFull>全部</WorldRenderModeFull>
   <WorldRenderModeTemperature>温度</WorldRenderModeTemperature>
@@ -116,8 +116,8 @@
   <Elevation>海拔</Elevation>
   <Fertility>肥沃度</Fertility>
   <AvgTemp>平均温度</AvgTemp>
-  <AvgWinterTemp>冬季平均温度: {0}</AvgWinterTemp>
-  <AvgSummerTemp>夏季平均温度: {0}</AvgSummerTemp>
+  <AvgWinterTemp>冬季平均温度：{0}</AvgWinterTemp>
+  <AvgSummerTemp>夏季平均温度：{0}</AvgSummerTemp>
   <Rainfall>降雨量</Rainfall>
   <HasCoast0>北部有海岸</HasCoast0>
   <HasCoast1>东部有海岸</HasCoast1>
@@ -159,7 +159,7 @@
 
   <EveryoneNeedsValidName>每个角色都需要一个有效的名字。</EveryoneNeedsValidName>
 
-  <GeneratingWorld>生成世界中...</GeneratingWorld>
-  <GeneratingMap>生成地图中...</GeneratingMap>
+  <GeneratingWorld>生成世界中……</GeneratingWorld>
+  <GeneratingMap>生成地图中……</GeneratingMap>
 
 </LanguageData>
