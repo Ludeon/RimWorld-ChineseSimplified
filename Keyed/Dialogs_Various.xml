@@ -8,11 +8,11 @@
   <!-- Game updated to new version -->
   <GameUpdatedToNewVersionInitial>Rimworld已有版本更新{0}，{1}\n\n升级可能会对Mod使用造成影响。</GameUpdatedToNewVersionInitial>
   <GameUpdatedToNewVersionNonSteam>对于DRM-免费的游戏拷贝，您可以在不同的文件夹下安装两次，因此可以同时游玩旧版和新版。</GameUpdatedToNewVersionNonSteam>
-  <GameUpdatedToNewVersionSteam>您可以在STEAM的“beta”选项中选择使用旧版进行游戏。\n\n  1. 在STEAM游戏库中右击RimWorld.\n  2. 点击“属性”\n  3. 选择Beta标签\n  4.在下拉菜单中选择你想进行游戏的版本。\n\n旧版可能最终被移除。\n\n注意MOD作者如果升级了MOD有可能导致无法在旧版本中运行，您可以通过禁止自动更新来避免这一问题。</GameUpdatedToNewVersionSteam>
+  <GameUpdatedToNewVersionSteam>您可以在STEAM的“beta”选项中选择使用旧版进行游戏。\n\n  1. 在STEAM游戏库中右击RimWorld.\n  2. 点击“属性”\n  3. 选择Beta标签\n  4. 在下拉菜单中选择你想进行游戏的版本。\n\n旧版可能最终被移除。\n\n注意MOD作者如果升级了MOD有可能导致无法在旧版本中运行，您可以通过禁止自动更新来避免这一问题。</GameUpdatedToNewVersionSteam>
 
   <!-- Recovered from errors caused by mods -->
   <RecoveredFromErrorsDialogTitle>恢复不兼容或损坏的MODS错误</RecoveredFromErrorsDialogTitle>
-  <RecoveredFromErrorsText>当前激活的这些MOD之间有冲突错误的隐患。\n\n它们彼此之间不兼容, 可能版本不同或已经损坏。\n\n所有的MOD已被禁用，可以在MOD菜单中重新激活。</RecoveredFromErrorsText>
+  <RecoveredFromErrorsText>当前激活的这些MOD之间有冲突错误的隐患。\n\n它们彼此之间不兼容，可能版本不同或已经损坏。\n\n所有的MOD已被禁用，可以在MOD菜单中重新激活。</RecoveredFromErrorsText>
 
   <!-- Errors during loading -->
   <ErrorWhileLoadingAssetsTitle>加载资源时出错</ErrorWhileLoadingAssetsTitle>
@@ -52,11 +52,11 @@
   <LoadingLongEvent>载入中</LoadingLongEvent>
   <SavingLongEvent>保存中</SavingLongEvent>
   <PermadeathModeSaveSuffix>(永久死亡模式)</PermadeathModeSaveSuffix>
-  <SaveIsFromDifferentGameVersion>运行的游戏版本是 {0} 但是存档数据的版本是 {1}, 二者版本完全不同的。\n\n尝试加载不可能成功。</SaveIsFromDifferentGameVersion>
+  <SaveIsFromDifferentGameVersion>运行的游戏版本是 {0} 但是存档数据的版本是 {1}，二者版本完全不同的。\n\n尝试加载不可能成功。</SaveIsFromDifferentGameVersion>
   <SaveIsFromDifferentGameBuild>运行的游戏版本是{0} 但是存档数据的版本是 {1}， 二者数据结构不同。\n\n尝试加载有可能成功。</SaveIsFromDifferentGameBuild>
   <SaveIsFromThisGameBuild>存档数据版本是当前游戏版本，可以正确加载。</SaveIsFromThisGameBuild>
   <SaveIsUnknownFormat>存档数据格式错误，无法正确加载。</SaveIsUnknownFormat>
-  <ProblemSavingFile>正在保存的文件有点问题{0}:\n\n{1}</ProblemSavingFile>
+  <ProblemSavingFile>正在保存的文件有点问题{0}：\n\n{1}</ProblemSavingFile>
   <LoadAnyway>仍然加载</LoadAnyway>
 
   <!-- Colony naming-->
@@ -78,7 +78,7 @@
   <WorldFileVersionMismatch>世界生成版本为{0}，当前运行游戏版本为{1}。\n\n 读取这个世界很可能会造成游戏崩溃或产生游戏BUG。建议你从新生成一个新世界。</WorldFileVersionMismatch>
   <FileIncompatibleWarning>保存该文件的游戏版本为{0}。\n当前运行游戏版本为{1}\n\n载入该文件可能导致错误或崩溃。</FileIncompatibleWarning>
   <ModsMismatchWarningTitle>MOD不匹配</ModsMismatchWarningTitle>
-  <ModsMismatchWarningText>存档的MOD激活设定和当前游戏运行的设定不同，你改动了Mod，根据MOD的内容有可能发生问题，也有可能正常。\n\n存档的MOD激活设定是 (按照顺序):\n\n{0}\n\n当前运行的MOD激活设定是:\n\n{1}</ModsMismatchWarningText>
+  <ModsMismatchWarningText>存档的MOD激活设定和当前游戏运行的设定不同，你改动了Mod，根据MOD的内容有可能发生问题，也有可能正常。\n\n存档的MOD激活设定是 (按照顺序)：\n\n{0}\n\n当前运行的MOD激活设定是：\n\n{1}</ModsMismatchWarningText>
 
   <!-- Resolution change dialog -->
   <ConfirmResolutionChange>你已经改变了你当前的分辨率。目前游戏显示是否正常？\n\n将在{0}秒后恢复原始设置……</ConfirmResolutionChange>
@@ -98,8 +98,8 @@
   <RequiredResearchBenchFacilities>需要研究设施</RequiredResearchBenchFacilities>
 
   <!-- Advanced game start options -->
-  <MapTemperatureDangerWarning>警告: 你将会降落在一个冰冻的区域。这可能会让生存非常艰难。如果你并不想挑战艰难的环境，选择另一个降落点或另一个月份。</MapTemperatureDangerWarning>
-  <MapSizePerformanceWarning>警告: 在大地图下游戏性能可能会根据配置不同有所下降。\n\n如果你的配置较低，请选择小地图。\n\n超大尺寸没有经过测试。</MapSizePerformanceWarning>
+  <MapTemperatureDangerWarning>警告：你将会降落在一个冰冻的区域。这可能会让生存非常艰难。如果你并不想挑战艰难的环境，选择另一个降落点或另一个月份。</MapTemperatureDangerWarning>
+  <MapSizePerformanceWarning>警告：在大地图下游戏性能可能会根据配置不同有所下降。\n\n如果你的配置较低，请选择小地图。\n\n超大尺寸没有经过测试。</MapSizePerformanceWarning>
   <MapSize>地图大小</MapSize>
   <MapSizeDesc>{0}x{0} ({1}个方块)</MapSizeDesc>
   <MapSizeSmall>小</MapSizeSmall>
@@ -115,7 +115,7 @@
   <Suspended>已暂停</Suspended>
   <NotSuspended>未暂停</NotSuspended>
   <SuspendedAllCaps>已暂停</SuspendedAllCaps>
-  <RepeatCount>重复: {0}次</RepeatCount>
+  <RepeatCount>重复：{0}次</RepeatCount>
   <Forever>永远</Forever>
   <Details>详细</Details>
   <IngredientSearchRadius>材料搜索半径</IngredientSearchRadius>
@@ -126,7 +126,7 @@
 
   <RecipeCannotHaveTargetCount>(因为这个配方有多个或是不可预估的成品所以不能为它指定目标数量)</RecipeCannotHaveTargetCount>
   <WorkAmount>工作量</WorkAmount>
-  <MinimumSkills>最低技能要求:</MinimumSkills>
+  <MinimumSkills>最低技能要求：</MinimumSkills>
   <BillRequires>需要{0}{1}</BillRequires>
   <BillRequiresNutrition>需要{0}营养的食物</BillRequiresNutrition>
   <BillRequiresMayVary>注意：小体积材料（比如黄金）需要消耗20倍的数量</BillRequiresMayVary>
@@ -195,20 +195,20 @@
   <ResetButton>重置</ResetButton>
   <CancelButton>取消</CancelButton>
   <CloseButton>关闭</CloseButton>
-  <YourTradeableSilver>当前可用于交易的白银: {0}</YourTradeableSilver>
+  <YourTradeableSilver>当前可用于交易的白银：{0}</YourTradeableSilver>
   <YourTradeableSilverTip>你只能使用轨道交易信标附近的白银用来交易。</YourTradeableSilverTip>
   <TraderHasNoMore>交易商没有更多了。</TraderHasNoMore>
   <ColonyHasNoMore>没有更多待售的了。</ColonyHasNoMore>
   <TraderWillNotTrade>交易商不想交易这种商品。</TraderWillNotTrade>
-  <NegotiatorTalkingImpaired>因为身体状态不佳无法和{0}谈判.\n\n这将影响到贸易价格.\n\n考虑用一个健康殖民者来谈判。</NegotiatorTalkingImpaired>
+  <NegotiatorTalkingImpaired>因为身体状态不佳无法和{0}谈判。\n\n这将影响到贸易价格.\n\n考虑用一个健康殖民者来谈判。</NegotiatorTalkingImpaired>
   <ConfirmTraderShortFunds>贸易商没有足够的白银支付这次交易，继续么?</ConfirmTraderShortFunds>
   <SortBy>排序方式</SortBy>
 
   <!-- Comms -->
-  <SocialSkillIs>社交技能: {0}</SocialSkillIs>
+  <SocialSkillIs>社交技能：{0}</SocialSkillIs>
 
   <!--Research-->
-  <ResearchFinished>完成的研究: {0}</ResearchFinished>
+  <ResearchFinished>完成的研究：{0}</ResearchFinished>
   <ResearchScreen>研究界面</ResearchScreen>
 
   <!--HistoryUpload-->
@@ -221,17 +221,17 @@
 
   <!-- Outfit management -->
   <Outfit>着装配置</Outfit>
-  <SelectOutfit>选择配置...</SelectOutfit>
+  <SelectOutfit>选择配置</SelectOutfit>
   <NewOutfit>新的配置</NewOutfit>
-  <DeleteOutfit>删除配置...</DeleteOutfit>
+  <DeleteOutfit>删除配置</DeleteOutfit>
   <OutfitInUse>着装配置已被{0}使用。</OutfitInUse>
   <NoOutfitSelected>未选择着装配置</NoOutfitSelected>
 
   <!-- Drug policy management -->
   <DrugPolicy>用药方针</DrugPolicy>
-  <SelectDrugPolicy>选择用药方针...</SelectDrugPolicy>
+  <SelectDrugPolicy>选择用药方针</SelectDrugPolicy>
   <NewDrugPolicy>新方针</NewDrugPolicy>
-  <DeleteDrugPolicy>删除用药方针...</DeleteDrugPolicy>
+  <DeleteDrugPolicy>删除用药方针</DeleteDrugPolicy>
   <DrugPolicyInUse>{0}正在生效的用药方针</DrugPolicyInUse>
   <SocialDrugs>社交药物</SocialDrugs>
   <NoDrugs>禁止药物</NoDrugs>

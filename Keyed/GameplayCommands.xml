@@ -45,8 +45,8 @@
   <CommandBedSetForPrisonersFailOutdoors>无法将室外的床设为囚犯使用。</CommandBedSetForPrisonersFailOutdoors>
   <CommandBedSetAsMedicalLabel>设为医疗床</CommandBedSetAsMedicalLabel>
   <CommandBedSetAsMedicalDesc>将这个床设为医疗用途的床。</CommandBedSetAsMedicalDesc>
-  <TurningOnPrisonerBedWarning>开启囚房模式将会影响整个房间(囚犯和殖民者不能睡在同一个房间)。\n\n以下角色将会失去他们对床的所有权:</TurningOnPrisonerBedWarning>
-  <TurningOffPrisonerBedWarning>关闭囚房模式将会影响整个房间(囚犯和殖民者不能睡在同一个房间)。\n\n以下角色将会失去他们对床的所有权:</TurningOffPrisonerBedWarning>
+  <TurningOnPrisonerBedWarning>开启囚房模式将会影响整个房间(囚犯和殖民者不能睡在同一个房间)。\n\n以下角色将会失去他们对床的所有权：</TurningOnPrisonerBedWarning>
+  <TurningOffPrisonerBedWarning>关闭囚房模式将会影响整个房间(囚犯和殖民者不能睡在同一个房间)。\n\n以下角色将会失去他们对床的所有权：</TurningOffPrisonerBedWarning>
   <AreYouSure>你确定要这么做吗?</AreYouSure>
 
   <CommandDetonateLabel>爆破</CommandDetonateLabel>
@@ -106,7 +106,7 @@
   <!-- Install/reinstall -->
   <CommandInstall>安装</CommandInstall>
   <CommandInstallDesc>这个物品目前已经为运输或贮藏打包。用这个指令来将这个物品安装到需要被观看或使用的位置。</CommandInstallDesc>
-  <CommandReinstall>重新安装...</CommandReinstall>
+  <CommandReinstall>重新安装</CommandReinstall>
   <CommandReinstallDesc>指定此物品需要卸载并重新安装在其他地方。</CommandReinstallDesc>
 
   <!-- Trade beacon -->
@@ -135,7 +135,7 @@
 
   <!-- Select plant to grow -->
   <CommandSelectPlantToGrowMulti>选择植物或种植</CommandSelectPlantToGrowMulti>
-  <CommandSelectPlantToGrow>种植: {0}</CommandSelectPlantToGrow>
+  <CommandSelectPlantToGrow>种植：{0}</CommandSelectPlantToGrow>
   <CommandSelectPlantToGrowDesc>指定此处种植何种植物。</CommandSelectPlantToGrowDesc>
 
   <!-- Build copy -->
