@@ -3,7 +3,7 @@
           边缘世界 | 简体中文           
 ========================================
 This is the Simplified Chinese translation data for RimWorld.
-此为边缘世界（亦称“环世界”）之简体中文翻译。
+此为边缘世界（亦称「环世界」）之简体中文翻译。
 
 See this page for license info:
 查看此网页以了解许可信息：

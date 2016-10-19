@@ -4,7 +4,7 @@
   <JumpToLocation>点击此处转到问题地点</JumpToLocation>
 
   <LetterLabelFirstSummerWarning>夏天</LetterLabelFirstSummerWarning>
-  <FirstSummerWarning>夏天开始了！冬天还会远吗？\n\n冬日的寒冷使得作物不再生长，赶紧趁现在贮存够吃一阵子的食物。\n\n你可以通过建造一间冷库来防止食物腐坏。\n\n同时尝试购买、偷窃或者制造几件风雪大衣，以防出门挨冻。</FirstSummerWarning>
+  <FirstSummerWarning>夏天开始了！冬天还会远吗？\n\n寒冷的冬日无法种植作物，赶紧趁现在从事生产，储备过冬食物。\n\n你可以通过建造一间冷库来防止食物腐坏。\n\n同时尝试买、偷、缴获或者制造几件风雪大衣，以防出门挨冻。</FirstSummerWarning>
 
   <RelationsBrokenDown>与{0}的关系恶化了，他们现在对你是敌对态度。</RelationsBrokenDown>
   <RelationsWarmed>与{0}的关系改善了，他们对你不再是敌视态度了。</RelationsWarmed>
@@ -25,16 +25,16 @@
   <NothingCrushed>没有东西被压到。</NothingCrushed>
   <LetterLabelRoofCollapsed>屋顶塌方</LetterLabelRoofCollapsed>
 
-  <RecruitSuccess>{0}成功招募了{1}(成功率{2})。</RecruitSuccess>
-  <RecruitFail>{0}没能成功招募{1}(成功率{2})。</RecruitFail>
+  <RecruitSuccess>{0}成功招募了{1}（成功率{2}）。</RecruitSuccess>
+  <RecruitFail>{0}没能成功招募{1}（成功率{2}）。</RecruitFail>
 
   <LetterLabelBirthday>生日</LetterLabelBirthday>
   <BirthdayChronological>今天是{0}的实际年龄生日！外表上，{1}只有{3}岁。\n\n实际上，{1}现在是{2}岁。\n\n由于在低温舱内休眠不会使人变老，所以生物年龄与实际年龄可能会有一定的区别。</BirthdayChronological>
-  <BirthdayBiologicalAgeInjuries>{0}的外表年龄是{1}岁。\n\n然而不幸的是，{0}因为变老而患上了如下疾病：\n{2}</BirthdayBiologicalAgeInjuries>
+  <BirthdayBiologicalAgeInjuries>{0}的生物年龄是{1}岁。\n\n然而不幸的是，{0}因为年老而患上了如下疾病：\n{2}</BirthdayBiologicalAgeInjuries>
 
   <LetterLabelNewDisease>疾病</LetterLabelNewDisease>
-  <NewDisease>{0}由于{1}而生病了。确保{0}可以得到正常的治疗并尽量多在床上休息以尽快康复。</NewDisease>
-  <NewPartDisease>{0}由于{3}而生病了，感染处于HIS{1}部位。确保{2}可以得到正常的治疗并尽量多在床上休息以尽快康复。</NewPartDisease>
+  <NewDisease>{0}患上了{1}。确保{0}可以获得良好的医疗照顾，并尽量在床上休息以尽快康复。</NewDisease>
+  <NewPartDisease>{0}的伤口{3}了，感染位于HIS{1}部位。确保{2}可以获得良好的医疗照顾，并尽量在床上休息以尽快康复。</NewPartDisease>
 
   <LetterLabelAncientShrineWarning>远古威胁</LetterLabelAncientShrineWarning>
   <AncientShrineWarning>当{0}靠近这个古老建筑时，HE有种不祥之感。HE也不确定为什么，但HE觉得这个满是灰尘的建筑可能隐藏着极大的危险。</AncientShrineWarning>
@@ -42,12 +42,12 @@
   <StruckMineable>我们采到了{0}！</StruckMineable>
 
   <LetterLabelAnimalManhunterRevenge>{0}的复仇</LetterLabelAnimalManhunterRevenge>
-  <AnimalManhunterFromDamage>{0}受到伤害开始攻击！</AnimalManhunterFromDamage>
-  <AnimalManhunterFromTaming>{0}因驯服失败开始攻击了！</AnimalManhunterFromTaming>
+  <AnimalManhunterFromDamage>{0}受到伤害而开始反击！</AnimalManhunterFromDamage>
+  <AnimalManhunterFromTaming>{0}因驯服失败而发狂了！</AnimalManhunterFromTaming>
   <AnimalManhunterOthers>{0}附近的其他同伴也变得愤怒！</AnimalManhunterOthers>
 
   <LetterFriendlyTrapSprungLabel>{0}触发陷阱</LetterFriendlyTrapSprungLabel>
-  <LetterFriendlyTrapSprung>{0}意外的触发陷阱，受到伤害。</LetterFriendlyTrapSprung>
+  <LetterFriendlyTrapSprung>{0}意外的触发陷阱，并受到了伤害。</LetterFriendlyTrapSprung>
 
   <LetterHealthComplications>{0}产生了新的症状：{1}\n\n这是由{2}所带来的并发症。</LetterHealthComplications>
   <LetterHealthComplicationsLabel>{0}{1}</LetterHealthComplicationsLabel>
@@ -55,7 +55,7 @@
   <LetterHediffFromRandomHediffGiver>{0}产生了新的症状：{1}。</LetterHediffFromRandomHediffGiver>
   <LetterHediffFromRandomHediffGiverLabel>{0}{1}</LetterHediffFromRandomHediffGiverLabel>
 
-  <LetterLeadersDeathLabel>领袖的逝世</LetterLeadersDeathLabel>
+  <LetterLeadersDeathLabel>首领死亡</LetterLeadersDeathLabel>
   <LetterLeadersDeath>{1}的派系领袖{0}已经死亡并由{2}继任。</LetterLeadersDeath>
 
   <MentalBreakLetterLabel>精神崩溃</MentalBreakLetterLabel>
@@ -68,7 +68,7 @@
   <LetterRelatedPawnsNeutralGroup>到达的团体中有殖民者或囚犯的家族成员：</LetterRelatedPawnsNeutralGroup>
   <LetterRelatedPawnsTradeShip>轨道贸易商出售的奴隶中有殖民者或囚犯的家族成员：</LetterRelatedPawnsTradeShip>
 
-  <RelationshipAppendedLetterSuffix>(家族)</RelationshipAppendedLetterSuffix>
+  <RelationshipAppendedLetterSuffix>（家族）</RelationshipAppendedLetterSuffix>
   <RelationshipAppendedLetterTextColonist>NAME是殖民者的一个家族成员。HECAP是{0}的{1}。</RelationshipAppendedLetterTextColonist>
   <RelationshipAppendedLetterTextPrisoner>NAME是囚犯的一个家族成员。HECAP是{0}的{1}。</RelationshipAppendedLetterTextPrisoner>
 
@@ -81,21 +81,21 @@
   <LetterLabelBreakup>关系破裂</LetterLabelBreakup>
   <LetterLabelAcceptedProposal>接受求婚！</LetterLabelAcceptedProposal>
   <LetterLabelRejectedProposal>拒绝求婚</LetterLabelRejectedProposal>
-  <LetterAcceptedProposal>{1}接受了{0}的求婚。\n\n在未来的几天或季节里，他们将举行婚礼，并邀请所有的殖民者。如果你想控制地点，请考虑放置一个婚礼举办点。（建筑规划，杂项中你能找到婚礼举办点。）</LetterAcceptedProposal>
+  <LetterAcceptedProposal>{1}接受了{0}的求婚。\n\n在未来的几天或季节里，他们将举行婚礼，并邀请所有的殖民者。如果你想指定婚礼地点，请考虑放置一个婚礼举办点。（「建筑规划」-「杂项」中你能找到婚礼举办点。）</LetterAcceptedProposal>
   <LetterRejectedProposal>{1}拒绝了{0}的求婚。{0}伤心欲绝。</LetterRejectedProposal>
 
   <!-- Generalized letter labels -->
   <LetterLabelRelationsChangeGood>关系良好</LetterLabelRelationsChangeGood>
   <LetterLabelRelationsChangeBad>关系恶劣</LetterLabelRelationsChangeBad>
-  <LetterLabelShortCircuit>嗞嗞…嘭</LetterLabelShortCircuit>
+  <LetterLabelShortCircuit>嗞嗞…嘭！</LetterLabelShortCircuit>
   <LetterLabelMentalBreakdown>精神崩溃</LetterLabelMentalBreakdown>
 
   <!-- Bonded animals -->
   <LetterLabelBondedAnimalDied>羁绊动物的死亡</LetterLabelBondedAnimalDied>
-  <LetterBondedAnimalDied>{1}的{0}爱宠死掉了，{1}的心情因此受到影响。</LetterBondedAnimalDied>
-  <LetterNamedBondedAnimalDied>{2}的{0}爱宠{1}死掉了，{2}的心情因此受到影响。</LetterNamedBondedAnimalDied>
-  <LetterBondedAnimalDiedMulti>那只{0}死掉了，以下居民的心情因此受到影响：\n\n{1}</LetterBondedAnimalDiedMulti>
-  <LetterNamedBondedAnimalDiedMulti>叫做{1}的那只{0}死掉了，以下居民的心情因此受到影响：\n\n{2}</LetterNamedBondedAnimalDiedMulti>
+  <LetterBondedAnimalDied>{1}的{0}爱宠死亡，{1}的心情因此受到影响。</LetterBondedAnimalDied>
+  <LetterNamedBondedAnimalDied>{2}的{0}爱宠{1}死亡，{2}的心情因此受到影响。</LetterNamedBondedAnimalDied>
+  <LetterBondedAnimalDiedMulti>{0}死亡，以下居民的心情因此受到影响：\n\n{1}</LetterBondedAnimalDiedMulti>
+  <LetterNamedBondedAnimalDiedMulti>名为{1}的{0}死亡，以下居民的心情因此受到影响：\n\n{2}</LetterNamedBondedAnimalDiedMulti>
 
   <!-- Prison break -->
   <LetterLabelPrisonBreak>越狱</LetterLabelPrisonBreak>

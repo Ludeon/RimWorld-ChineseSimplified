@@ -10,7 +10,7 @@
   <TabGuest>访客</TabGuest>
   <TabGear>装备</TabGear>
   <TabNeeds>需求</TabNeeds>
-  <TabStorage>储存</TabStorage>
+  <TabStorage>储存筛选</TabStorage>
   <TabHealth>健康</TabHealth>
   <TabRace>种族</TabRace>
   <TabBasics>基础</TabBasics>
@@ -22,10 +22,10 @@
 
   <!-- Bills tab  -->
   <AddBill>添加清单</AddBill>
-  <RecipeRequiresSkills>配方{0}需要如下技能。你的殖民者中没有达到技能要求的人，所以没有人完成这个清单。</RecipeRequiresSkills>
+  <RecipeRequiresSkills>配方{0}要求如下技能等级。你的殖民者中没有达到技能要求的人，所以没有人完成这个清单。</RecipeRequiresSkills>
   <MinimumSkill>最低技能要求</MinimumSkill>
   <SuspendedCaps>已暂停</SuspendedCaps>
-  <BoundWorkerIs>工作者：{0}</BoundWorkerIs>
+  <BoundWorkerIs>绑定工作者：{0}</BoundWorkerIs>
   <PlantVerb>种植</PlantVerb>
 
 
@@ -37,7 +37,7 @@
   <ShouldTryToRecruit>尝试招募</ShouldTryToRecruit>
   <PrisonerNoInteraction>不互动</PrisonerNoInteraction>
   <PrisonerFriendlyChat>友好交谈</PrisonerFriendlyChat>
-  <PrisonerAttemptRecruit>试图招募</PrisonerAttemptRecruit>
+  <PrisonerAttemptRecruit>尝试招募</PrisonerAttemptRecruit>
   <PrisonerRelease>释放</PrisonerRelease>
   <PrisonerExecution>处决</PrisonerExecution>
 
@@ -51,35 +51,35 @@
   <RemovedBodyPart>移除</RemovedBodyPart>
   <Healthy>健康</Healthy>
   <InPain>感到疼痛</InPain>
-  <PainLevel>痛苦</PainLevel>
+  <PainLevel>疼痛</PainLevel>
   <Dead>死亡</Dead>
   <Unconscious>失去知觉</Unconscious>
   <PainShock>暂时休克</PainShock>
   <Injured>受伤</Injured>
-  <NoInjuries>(没有受伤)</NoInjuries>
+  <NoInjuries>（没有受伤）</NoInjuries>
   <WholeBody>全身</WholeBody>
   <DataProcessing>数据处理</DataProcessing>
   <Communication>交流</Communication>
   <Affects>影响</Affects>
-  <BleedingRate>流血速率</BleedingRate>
+  <BleedingRate>失血速率</BleedingRate>
   <HealthOverview>概况</HealthOverview>
-  <MedicalOperationsShort>手术({0})</MedicalOperationsShort>
-  <MedicalOperationsMechanoidsShort>修改({0})</MedicalOperationsMechanoidsShort>
+  <MedicalOperationsShort>手术（{0}）</MedicalOperationsShort>
+  <MedicalOperationsMechanoidsShort>改造（{0}）</MedicalOperationsMechanoidsShort>
   <MedicalOperations>医疗手术</MedicalOperations>
-  <Amputate>切除</Amputate>
+  <Amputate>截肢</Amputate>
   <Harvest>摘取</Harvest>
   <RemoveOrgan>摘除</RemoveOrgan>
   <MemoryLower>记忆</MemoryLower>
   <SocialInteractionsLower>社交影响</SocialInteractionsLower>
   <HungerRate>饥饿度</HungerRate>
   <Tiredness>劳累度</Tiredness>
-  <PainFactor>痛苦</PainFactor>
+  <PainFactor>痛觉系数</PainFactor>
   <PreventsInfection>抗病毒</PreventsInfection>
 
 
   <!-- Medical - Body and activities condition -->
   <None>无</None>
-  <VeryPoor>非常差</VeryPoor>
+  <VeryPoor>极差</VeryPoor>
   <Poor>较差</Poor>
   <Weakened>虚弱</Weakened>
   <GoodCondition>健康</GoodCondition>
@@ -95,21 +95,21 @@
 
 
   <!-- Training tab-->
-  <TrainableIntelligence>可训练的智力</TrainableIntelligence>
-  <CannotTrainNotSmartEnough>需要可训练的智力 {0}。</CannotTrainNotSmartEnough>
+  <TrainableIntelligence>智力级别</TrainableIntelligence>
+  <CannotTrainNotSmartEnough>要求智力级别：{0}。</CannotTrainNotSmartEnough>
   <CannotTrainTooSmall>{0}太小，无法训练。</CannotTrainTooSmall>
 
   <TrainingNeedsPrerequisite>先决条件：{0}</TrainingNeedsPrerequisite>
 
   <!-- Social tab -->
-  <NoRelationships>(无关系)</NoRelationships>
+  <NoRelationships>（无关系）</NoRelationships>
   <Kidnapped>被绑架</Kidnapped>
   <Slave>奴隶</Slave>
   <FactionLeader>派系领袖</FactionLeader>
-  <OpinionOf>对{0}的印象</OpinionOf>
+  <OpinionOf>对{0}的看法</OpinionOf>
   <SomeonesOpinionOfMe>{0}对我的印象</SomeonesOpinionOfMe>
   <IAmDead>我死了</IAmDead>
-  <IAmPsychopath>我是一个精神病患者</IAmPsychopath>
+  <IAmPsychopath>我是心理变态</IAmPsychopath>
 
   <!-- Gear tab -->
   <AverageArmor>平均护甲</AverageArmor>
