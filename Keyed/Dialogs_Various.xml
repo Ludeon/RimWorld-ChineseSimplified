@@ -39,13 +39,13 @@
   <LoadingWorld>载入世界</LoadingWorld>
   <LoadingMap>载入地图</LoadingMap>
   <InitializingMap>初始化地图</InitializingMap>
-  <SpawningAllThings>生成所有物体</SpawningAllThings>
+  <SpawningAllThings>生成所有物件</SpawningAllThings>
 
   <!-- Save/load -->
   <SaveGameButton>保存</SaveGameButton>
   <LoadGameButton>载入</LoadGameButton>
   <OverwriteButton>覆盖</OverwriteButton>
-  <ConfirmDelete>你确定要删除“{0}”吗？</ConfirmDelete>
+  <ConfirmDelete>你确定要删除「{0}」吗？</ConfirmDelete>
   <DeleteThisSavegame>删除此存档</DeleteThisSavegame>
   <SavedAs>已保存为{0}。</SavedAs>
   <NeedAName>请输入一个名称。</NeedAName>
@@ -56,18 +56,18 @@
   <SaveIsFromDifferentGameBuild>运行的游戏版本是{0} 但是存档数据的版本是 {1}， 二者数据结构不同。\n\n尝试加载有可能成功。</SaveIsFromDifferentGameBuild>
   <SaveIsFromThisGameBuild>存档数据版本是当前游戏版本，可以正确加载。</SaveIsFromThisGameBuild>
   <SaveIsUnknownFormat>存档数据格式错误，无法正确加载。</SaveIsUnknownFormat>
-  <ProblemSavingFile>正在保存的文件有点问题{0}：\n\n{1}</ProblemSavingFile>
+  <ProblemSavingFile>保存文件{0}时出现了错误：\n\n{1}\n\n查看错误日志以了解更多信息。</ProblemSavingFile>
   <LoadAnyway>仍然加载</LoadAnyway>
 
   <!-- Colony naming-->
   <NameColonyMessage>大家都知道你不想永远呆在这块石头上。但{0}建议你还是应该给你的殖民地起个名字。\n\n它叫什么比较好？</NameColonyMessage>
-  <ColonyGainsName>这个殖民地现在被称为{0}。</ColonyGainsName>
-  <ColonyNameIsInvalid>这个殖民地名无效。</ColonyNameIsInvalid>
+  <ColonyGainsName>这个殖民地现在被命名为{0}。</ColonyGainsName>
+  <ColonyNameIsInvalid>这个殖民地名称无效。</ColonyNameIsInvalid>
 
   <!-- Renaming -->
   <NameIsInvalid>请输入一个有效的名称。</NameIsInvalid>
   <NameIsInUse>名称已经被使用。</NameIsInUse>
-  <ZoneGainsName>这个区域的名称被改为{0}</ZoneGainsName>
+  <ZoneGainsName>这个区域的名称被改为{0}。</ZoneGainsName>
 
   <!-- Pawn naming -->
   <PawnGainsName>这个殖民者的昵称被改为{0}。</PawnGainsName>
@@ -77,8 +77,8 @@
   <SaveGameIncompatibleWarningText>地图存档版本为{0}，当前运行游戏版本为{1}。\n\n 读取这个存档很可能会造成游戏崩溃或产生游戏BUG。</SaveGameIncompatibleWarningText>
   <WorldFileVersionMismatch>世界生成版本为{0}，当前运行游戏版本为{1}。\n\n 读取这个世界很可能会造成游戏崩溃或产生游戏BUG。建议你从新生成一个新世界。</WorldFileVersionMismatch>
   <FileIncompatibleWarning>保存该文件的游戏版本为{0}。\n当前运行游戏版本为{1}\n\n载入该文件可能导致错误或崩溃。</FileIncompatibleWarning>
-  <ModsMismatchWarningTitle>MOD不匹配</ModsMismatchWarningTitle>
-  <ModsMismatchWarningText>存档的MOD激活设定和当前游戏运行的设定不同，你改动了Mod，根据MOD的内容有可能发生问题，也有可能正常。\n\n存档的MOD激活设定是 (按照顺序)：\n\n{0}\n\n当前运行的MOD激活设定是：\n\n{1}</ModsMismatchWarningText>
+  <ModsMismatchWarningTitle>Mod不匹配</ModsMismatchWarningTitle>
+  <ModsMismatchWarningText>存档的Mod激活设定和当前游戏运行的设定不同，你改动了Mod，根据Mod的内容有可能发生问题，也有可能正常。\n\n存档的Mod激活设定是（按照顺序）：\n\n{0}\n\n当前运行的MOD激活设定是（按照顺序）：\n\n{1}</ModsMismatchWarningText>
 
   <!-- Resolution change dialog -->
   <ConfirmResolutionChange>你已经改变了你当前的分辨率。目前游戏显示是否正常？\n\n将在{0}秒后恢复原始设置……</ConfirmResolutionChange>
@@ -95,7 +95,7 @@
   <ResearchMenuWithoutBench>你的殖民者们在你建造研究桌之前是无法进行研究的。\n\n不过，你仍然可以查看并选择研究项目。</ResearchMenuWithoutBench>
   <ResearchPrerequisites>前置研究</ResearchPrerequisites>
   <RequiredResearchBench>需要研究台</RequiredResearchBench>
-  <RequiredResearchBenchFacilities>需要研究设施</RequiredResearchBenchFacilities>
+  <RequiredResearchBenchFacilities>缺少研究设施</RequiredResearchBenchFacilities>
 
   <!-- Advanced game start options -->
   <MapTemperatureDangerWarning>警告：你将会降落在一个冰冻的区域。这可能会让生存非常艰难。如果你并不想挑战艰难的环境，选择另一个降落点或另一个月份。</MapTemperatureDangerWarning>
@@ -106,7 +106,7 @@
   <MapSizeMedium>中</MapSizeMedium>
   <MapSizeLarge>大</MapSizeLarge>
   <MapSizeExtreme>超大</MapSizeExtreme>
-  <MapStartSeason>开始季节</MapStartSeason>
+  <MapStartSeason>起始季节</MapStartSeason>
   <MapStartSeasonDefault>自动</MapStartSeasonDefault>
   <PermadeathMode>永久死亡模式</PermadeathMode>
   <PermadeathModeInfo>永久死亡模式，只能保存一个存档，且只能在退出游戏时保存进度。当殖民地出现危机时，你不能通过重读进度来弥补错误。\n\n RimWorld的这种游戏方式意味着你必须接受每一个戏剧性的转变 -无论是悲惨或满怀希望 - 都发挥了充分的影响。</PermadeathModeInfo>
@@ -118,7 +118,7 @@
   <RepeatCount>重复：{0}次</RepeatCount>
   <Forever>永远</Forever>
   <Details>详细</Details>
-  <IngredientSearchRadius>材料搜索半径</IngredientSearchRadius>
+  <IngredientSearchRadius>原料搜索半径</IngredientSearchRadius>
   <CurrentlyHave>目前有</CurrentlyHave>
   <CountingProducts>计数</CountingProducts>
   <Infinite>无限</Infinite>
@@ -130,15 +130,15 @@
   <BillRequires>需要{0}{1}</BillRequires>
   <BillRequiresNutrition>需要{0}营养的食物</BillRequiresNutrition>
   <BillRequiresMayVary>注意：小体积材料（比如黄金）需要消耗20倍的数量</BillRequiresMayVary>
-  <ThisIsSmallVolume>这是一个小体积的原料，每单位只有正常体积的1/20。所以，如果要求同样数量的材料，需要材料的数量是一般的20倍。</ThisIsSmallVolume>
+  <ThisIsSmallVolume>这是一个小体积的原料，每单位只有正常体积的1/20。所以，如果要求同样数量的原料，实际需要数量是的20倍。</ThisIsSmallVolume>
   <UsableIngredients>可使用的原料</UsableIngredients>
   <DoXTimes>做X次</DoXTimes>
-  <DoUntilYouHaveX>做直到拥有X个</DoUntilYouHaveX>
+  <DoUntilYouHaveX>维持X个</DoUntilYouHaveX>
   <DoForever>永远做下去</DoForever>
   <BillRepeatTargetCountShort>到{0}</BillRepeatTargetCountShort>
   <BillStoreMode_DropOnFloor>放在地上</BillStoreMode_DropOnFloor>
-  <BillStoreMode_BestStockpile>放到最合适的贮藏区</BillStoreMode_BestStockpile>
-  <BillStoreMode_NearestStockpileAnyPriority>放到距离最近的贮藏区</BillStoreMode_NearestStockpileAnyPriority>
+  <BillStoreMode_BestStockpile>放到最合适的储存区</BillStoreMode_BestStockpile>
+  <BillStoreMode_NearestStockpileAnyPriority>放到距离最近的储存区</BillStoreMode_NearestStockpileAnyPriority>
 
   <!-- Info card -->
   <Damage>伤害</Damage>
@@ -157,10 +157,10 @@
   <Days>天</Days>
   <MinGrowingSkillToSow>种植最低技能要求</MinGrowingSkillToSow>
   <FertilityRequirement>肥沃度需求</FertilityRequirement>
-  <SoilFertilitySensitivityGrowthRate>土壤肥沃灵敏度 (种植比率)</SoilFertilitySensitivityGrowthRate>
-  <SoilFertilitySensitivityPlantChance>土壤肥沃灵敏度 (种植几率)</SoilFertilitySensitivityPlantChance>
+  <SoilFertilitySensitivityGrowthRate>土壤肥沃敏感度 (生长速率)</SoilFertilitySensitivityGrowthRate>
+  <SoilFertilitySensitivityPlantChance>土壤肥沃敏感度 (种植几率)</SoilFertilitySensitivityPlantChance>
   <LightRequirement>光照需求</LightRequirement>
-  <Attributes>来源</Attributes>
+  <Attributes>特性</Attributes>
   <LifeSpan>寿命</LifeSpan>
   <Nutrition>营养</Nutrition>
   <Joy>娱乐</Joy>
@@ -171,7 +171,7 @@
   <RecruitDifficulty>招募难度</RecruitDifficulty>
   <MarketValue>基础价值</MarketValue>
   <Covers>覆盖</Covers>
-  <CoverEffectiveness>掩护效果</CoverEffectiveness>
+  <CoverEffectiveness>掩体效果</CoverEffectiveness>
   <CoverEffectivenessExplanation>在枪战时该物体所能提供的掩护效果，更高的数值能够挡住更多的伤害。</CoverEffectivenessExplanation>
   <MedicineXpGainFactor>经验获得系数</MedicineXpGainFactor>
   <BodyPartEfficiency>身体部件效率</BodyPartEfficiency>
@@ -186,21 +186,21 @@
 
   <!-- Trade -->
   <PositiveBuysNegativeSells>正数购买\n负数出售</PositiveBuysNegativeSells>
-  <BuyPriceDesc>购买这些需要消耗的钱。</BuyPriceDesc>
-  <SellPriceDesc>卖出这些可以获得的钱。</SellPriceDesc>
-  <PriceTypeDesc>这个物品的价格是{0}。</PriceTypeDesc>
-  <ColonyCount>殖民地拥有的待售物品数量。\n\n你只能卖出轨道交易信标附近并且在户外的物品。</ColonyCount>
-  <TraderCount>交易商拥有的物品数量。</TraderCount>
+  <BuyPriceDesc>购买所需消耗的钱。</BuyPriceDesc>
+  <SellPriceDesc>卖出可获得的钱。</SellPriceDesc>
+  <PriceTypeDesc>此物品售价为{0}。</PriceTypeDesc>
+  <ColonyCount>殖民地拥有的待售物品数量。\n\n你只能卖出轨道交易信标附近的物品。</ColonyCount>
+  <TraderCount>贸易商拥有的物品数量。</TraderCount>
   <AcceptButton>接受</AcceptButton>
   <ResetButton>重置</ResetButton>
   <CancelButton>取消</CancelButton>
   <CloseButton>关闭</CloseButton>
   <YourTradeableSilver>当前可用于交易的白银：{0}</YourTradeableSilver>
-  <YourTradeableSilverTip>你只能使用轨道交易信标附近的白银用来交易。</YourTradeableSilverTip>
-  <TraderHasNoMore>交易商没有更多了。</TraderHasNoMore>
-  <ColonyHasNoMore>没有更多待售的了。</ColonyHasNoMore>
+  <YourTradeableSilverTip>你只能使用轨道交易信标附近的白银进行交易。</YourTradeableSilverTip>
+  <TraderHasNoMore>贸易商没有货物了。</TraderHasNoMore>
+  <ColonyHasNoMore>殖民地没有货物了。</ColonyHasNoMore>
   <TraderWillNotTrade>交易商不想交易这种商品。</TraderWillNotTrade>
-  <NegotiatorTalkingImpaired>因为身体状态不佳无法和{0}谈判。\n\n这将影响到贸易价格.\n\n考虑用一个健康殖民者来谈判。</NegotiatorTalkingImpaired>
+  <NegotiatorTalkingImpaired>你的谈判人员{0}由于健康原因而无法谈判。\n\n这将影响到贸易价格.\n\n考虑用一个健康殖民者来谈判。</NegotiatorTalkingImpaired>
   <ConfirmTraderShortFunds>贸易商没有足够的白银支付这次交易，继续么?</ConfirmTraderShortFunds>
   <SortBy>排序方式</SortBy>
 
@@ -238,7 +238,7 @@
   <OneDrinkPerDay>每日一次</OneDrinkPerDay>
   <Unrestricted>不做限制</Unrestricted>
   <NoDrugPolicySelected>没有选中的方针</NoDrugPolicySelected>
-  <AddDrug>添加药物...</AddDrug>
+  <AddDrug>添加药物</AddDrug>
   <DrugColumnLabel>药物</DrugColumnLabel>
   <DrugUsageColumnLabel>药用</DrugUsageColumnLabel>
   <FrequencyColumnLabel>频率</FrequencyColumnLabel>

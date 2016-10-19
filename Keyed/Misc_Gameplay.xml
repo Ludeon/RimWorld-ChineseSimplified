@@ -68,7 +68,7 @@
   <ContainsWort>装有麦芽汁：{0} / {1}</ContainsWort>
   <ContainsBeer>装有啤酒：{0} / {1}</ContainsBeer>
   <Fermented>已发酵</Fermented>
-  <FermentationProgress>进度：{0} (约在{1}后完成)。</FermentationProgress>
+  <FermentationProgress>进度：{0} （约在{1}后完成）。</FermentationProgress>
   <FermentationBarrelOutOfIdealTemperature>不在理想的发酵温度范围内，当前发酵速度为：{0}</FermentationBarrelOutOfIdealTemperature>
 
   <!--TextMotes-->
@@ -89,8 +89,8 @@
 
   <!-- Areas -->
   <Home>生活区</Home>
-  <BuildRoof>建造屋顶区</BuildRoof>
-  <NoRoof>无屋顶区</NoRoof>
+  <BuildRoof>屋顶区</BuildRoof>
+  <NoRoof>露天区</NoRoof>
   <SnowClear>除雪区</SnowClear>
   <AreaDefaultLabel>活动区 {0}</AreaDefaultLabel>
   <AreaAnimalDefaultLabel>动物活动区 {0}</AreaAnimalDefaultLabel>
@@ -124,21 +124,21 @@
   <ReportHauling>正在搬运{0}。</ReportHauling>
   <ReportSleeping>睡眠中。</ReportSleeping>
   <ReportResting>休息中。</ReportResting>
-  <WatchingSunrise>看日出</WatchingSunrise>
-  <CloudWatching>看云彩</CloudWatching>
-  <WatchingSunset>看日落</WatchingSunset>
-  <Stargazing>眺望星空</Stargazing>
-  <WatchingEclipse>看日食</WatchingEclipse>
+  <WatchingSunrise>看日出。</WatchingSunrise>
+  <CloudWatching>看云彩。</CloudWatching>
+  <WatchingSunset>看日落。</WatchingSunset>
+  <Stargazing>眺望星空。</Stargazing>
+  <WatchingEclipse>看日食。</WatchingEclipse>
   <UsingVerb>在{1}上使用{0}。</UsingVerb>
   <AreaLower>区域</AreaLower>
   <ReportCowering>畏缩。</ReportCowering>
   <ReportStanding>站立。</ReportStanding>
-  <ReportExtinguishingFire>扑灭火焰。</ReportExtinguishingFire>
-  <ReportExtinguishingFireOn>扑灭{0}上的火焰。</ReportExtinguishingFireOn>
+  <ReportExtinguishingFire>正在扑灭火焰。</ReportExtinguishingFire>
+  <ReportExtinguishingFireOn>正在扑灭{0}上的火焰。</ReportExtinguishingFireOn>
 
   <!-- Lord job reports -->
-  <LordReportAttendingMarriageCeremony>参加婚礼</LordReportAttendingMarriageCeremony>
-  <LordReportAttendingParty>参加聚会</LordReportAttendingParty>
+  <LordReportAttendingMarriageCeremony>正在参加婚礼。</LordReportAttendingMarriageCeremony>
+  <LordReportAttendingParty>正在参加聚会。</LordReportAttendingParty>
 
   <!-- Shooting report -->
   <WeaponMissRadius>武器误差半径</WeaponMissRadius>
@@ -151,7 +151,7 @@
   <ShootingCover>掩体 </ShootingCover>
   <CoverThingBlocksPercentOfShots>{0}阻挡   {1}</CoverThingBlocksPercentOfShots>
   <NoCoverLower>没有掩体</NoCoverLower>
-  <Execution>执行</Execution>
+  <Execution>处决</Execution>
 
   <!-- Generated recipes -->
   <RecipeMake>制作{0}</RecipeMake>
@@ -203,22 +203,22 @@
 
   <!-- Temperature readout -->
   <Indoors>室内</Indoors>
-  <IndoorsUnroofed>室内（无屋顶）</IndoorsUnroofed>
+  <IndoorsUnroofed>室内（露天）</IndoorsUnroofed>
   <Outdoors>室外</Outdoors>
 
   <!--Rotting-->
   <RotStateFresh>新鲜</RotStateFresh>
   <RotStateRotting>腐烂中</RotStateRotting>
-  <RotStateDessicated>干燥</RotStateDessicated>
+  <RotStateDessicated>已风干</RotStateDessicated>
 
   <!-- Shooting tooltip -->
   <ShotBy>被{0}击中几率</ShotBy>
   <CannotHit>无法击中目标。</CannotHit>
 
   <!-- Rotting -->
-  <CurrentlyFrozen>冷冻(不会腐烂)</CurrentlyFrozen>
-  <CurrentlyRefrigerated>冷藏({0}后腐烂)</CurrentlyRefrigerated>
-  <NotRefrigerated>未冷藏({0}后腐烂)</NotRefrigerated>
+  <CurrentlyFrozen>冷冻（不会腐烂）</CurrentlyFrozen>
+  <CurrentlyRefrigerated>冷藏（{0}后腐烂）</CurrentlyRefrigerated>
+  <NotRefrigerated>未冷藏（{0}后腐烂）</NotRefrigerated>
   <OverADecade>超过10年</OverADecade>
   <LessThanADay>少于1天</LessThanADay>
 
@@ -248,8 +248,8 @@
   <Stockpile>储存区</Stockpile>
   <DumpingStockpile>垃圾储存区</DumpingStockpile>
   <Priority>优先级</Priority>
-  <ClearAll>清除全部</ClearAll>
-  <AllowAll>允许全部</AllowAll>
+  <ClearAll>全部清除</ClearAll>
+  <AllowAll>全部允许</AllowAll>
 
   <!-- ThingFilter -->
   <HitPoints>{0}耐久值</HitPoints>
@@ -279,7 +279,7 @@
   <!-- Map conditions -->
   <MapConditionsTip>当前影响此地区的地图状态。</MapConditionsTip>
   <TimeLeft>剩余时间</TimeLeft>
-  <ImpactDate>影响日期</ImpactDate>
+  <ImpactDate>撞击日期</ImpactDate>
 
   <!-- Building placement -->
   <NoStuffsToBuildWith>你没有可用于建造此建筑的材料。</NoStuffsToBuildWith>

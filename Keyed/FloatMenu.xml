@@ -2,12 +2,12 @@
 <LanguageData>
 
   <CallOnRadio>呼叫{0}</CallOnRadio>
-  <CannotUseReason>无法使用({0})</CannotUseReason>
-  <CannotUseSolarFlare>无法使用(太阳耀斑)</CannotUseSolarFlare>
-  <CannotUseNoPower>无法使用(没有电力)</CannotUseNoPower>
-  <CannotUseNoPath>无法使用(没有路径)</CannotUseNoPath>
-  <CannotUseReserved>无法使用(被预留)</CannotUseReserved>
-  <CannotUseFull>无法使用(满了)</CannotUseFull>
+  <CannotUseReason>无法使用（{0}）</CannotUseReason>
+  <CannotUseSolarFlare>无法使用（太阳耀斑）</CannotUseSolarFlare>
+  <CannotUseNoPower>无法使用（没有电力）</CannotUseNoPower>
+  <CannotUseNoPath>无法使用（没有路径）</CannotUseNoPath>
+  <CannotUseReserved>无法使用（被预留）</CannotUseReserved>
+  <CannotUseFull>无法使用（满了）</CannotUseFull>
 
   <FireAt>射击{0}</FireAt>
 
@@ -24,7 +24,7 @@
   <NoPath>没有路径</NoPath>
 
   <ForbiddenLower>禁止的</ForbiddenLower>
-  <ForbiddenOutsideAllowedAreaLower>在允许区域之外</ForbiddenOutsideAllowedAreaLower>
+  <ForbiddenOutsideAllowedAreaLower>在允许活动区域之外</ForbiddenOutsideAllowedAreaLower>
   <SociallyImproperLower>不得体的社交</SociallyImproperLower>
   <PrisonerRoomLower>囚犯房间</PrisonerRoomLower>
   <BurningLower>燃烧中</BurningLower>
@@ -33,7 +33,7 @@
   <MissingMaterials>需要材料</MissingMaterials>
   <MissingSkill>技能太低</MissingSkill>
   <NoEmptyGraveLower>没有空闲的坟墓来安葬它</NoEmptyGraveLower>
-  <AnimalInteractedTooRecently>最近动物已经互动过了</AnimalInteractedTooRecently>
+  <AnimalInteractedTooRecently>动物最近已经互动过了</AnimalInteractedTooRecently>
   <NoUsableFood>没有可用的食物</NoUsableFood>
   <NoFood>没有食物</NoFood>
   <AnimalsSkillTooLow>驯兽技能太低</AnimalsSkillTooLow>
@@ -43,11 +43,11 @@
 
   <ConsumeThing>享用{0}</ConsumeThing>
 
-  <CannotGoNoPath>无法走到目标(没有路径)</CannotGoNoPath>
+  <CannotGoNoPath>无法走到目标（没有路径）</CannotGoNoPath>
   <GoHere>走到这里</GoHere>
 
   <Arrest>拘捕{0}</Arrest>
-  <TryToArrest>试图拘捕 {0}</TryToArrest>
+  <TryToArrest>尝试拘捕 {0}</TryToArrest>
   <CannotArrest>无法拘捕</CannotArrest>
 
   <Capture>俘虏{0}</Capture>
@@ -60,20 +60,20 @@
   <CannotCarryToCryptosleepCasket>无法送入低温休眠舱</CannotCarryToCryptosleepCasket>
 
   <NoCryptosleepCasket>没有可用的低温休眠舱。</NoCryptosleepCasket>
-  <NoPrisonerBed>没有在封闭房间中的囚犯床。</NoPrisonerBed>
-  <NoNonPrisonerBed>没有可用的非囚犯床。</NoNonPrisonerBed>
-  <NoAnimalBed>无法到达，未保留动物窝铺。</NoAnimalBed>
-  <Reserved>已经为别人预留出。</Reserved>
+  <NoPrisonerBed>牢房缺少空床铺，或无法到达。</NoPrisonerBed>
+  <NoNonPrisonerBed>缺少空床铺，或无法到达。</NoNonPrisonerBed>
+  <NoAnimalBed>缺少空的动物窝铺，或无法到达。</NoAnimalBed>
+  <Reserved>已预留给其他人。</Reserved>
   <ReservedBy>预留给了{0}。</ReservedBy>
   <IsReservedBy>{0}被预留给了{1}。</IsReservedBy>
 
-  <Incapable>没有能力</Incapable>
-  <IncapableOfCapacity>{0}能力不足</IncapableOfCapacity>
+  <Incapable>无法胜任</Incapable>
+  <IncapableOfCapacity>无法胜任{0}</IncapableOfCapacity>
 
   <MinSkill>最低技能</MinSkill>
 
   <Equip>装备{0}</Equip>
-  <EquipWarningBrawler>(格斗者的心情会降低)</EquipWarningBrawler>
+  <EquipWarningBrawler>（格斗者的心情会降低）</EquipWarningBrawler>
   <CannotEquip>无法装备{0}</CannotEquip>
 
   <ForceWear>强制穿上{0}</ForceWear>
@@ -90,9 +90,9 @@
 
   <Drop>丢下{0}</Drop>
 
-  <UseMedicalBed>休息直到痊愈</UseMedicalBed>
+  <UseMedicalBed>休息直到康复</UseMedicalBed>
   <NotInjured>没有受伤</NotInjured>
-  <SomeoneElseSleeping>被占用</SomeoneElseSleeping>
+  <SomeoneElseSleeping>已被占用</SomeoneElseSleeping>
 
   <TradeWith>和{0}贸易</TradeWith>
   <CannotTrade>不能贸易</CannotTrade>
@@ -105,18 +105,18 @@
   <CannotGenericWork>无法{0}{1}</CannotGenericWork>
 
   <!-- e.g. Already GERUND OBJECt, Already repairing wall, already hauling metal, etc-->
-  <CannotMissingHealthActivities>无法优先当前任务(健康问题：{0})</CannotMissingHealthActivities>
+  <CannotMissingHealthActivities>无法优先当前任务（健康问题：{0}）</CannotMissingHealthActivities>
 
   <CannotGenericAlreadyAm>已经在{0}{1}中</CannotGenericAlreadyAm>
 
-  <CannotPrioritizeWorkTypeDisabled>无法优先当前任务(永远不会进行：{0})</CannotPrioritizeWorkTypeDisabled>
+  <CannotPrioritizeWorkTypeDisabled>无法优先当前任务（从来不做：{0}）</CannotPrioritizeWorkTypeDisabled>
 
-  <CannotPrioritizeNotAssignedToWorkType>无法优先当前任务(未被指派为：{0})</CannotPrioritizeNotAssignedToWorkType>
+  <CannotPrioritizeNotAssignedToWorkType>无法优先当前任务（未指派工作：{0}）</CannotPrioritizeNotAssignedToWorkType>
 
-  <CannotPrioritizeResearch>无法优先当前任务(研究是一项长期的工作)</CannotPrioritizeResearch>
+  <CannotPrioritizeResearch>无法优先当前任务（研究是一项长期的工作）</CannotPrioritizeResearch>
 
-  <CannotPrioritizeForbidden>无法优先当前任务({0}是禁止的)</CannotPrioritizeForbidden>
-  <CannotPrioritizeForbiddenOutsideAllowedArea>无法优先当前任务({0}在允许区域之外)</CannotPrioritizeForbiddenOutsideAllowedArea>
+  <CannotPrioritizeForbidden>无法优先当前任务（{0}是禁止的）</CannotPrioritizeForbidden>
+  <CannotPrioritizeForbiddenOutsideAllowedArea>无法优先当前任务（{0}在允许活动区域之外）</CannotPrioritizeForbiddenOutsideAllowedArea>
 
   <!-- e.g. Prioritize GERUND OBJECT, Prioritize repairing wall, prioritize hauling metal, etc-->
   <PrioritizeGeneric>优先{0}{1}</PrioritizeGeneric>

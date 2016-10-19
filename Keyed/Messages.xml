@@ -32,15 +32,15 @@
 
   <MessagePrisonerIsEscaping>囚犯{0}正在逃跑。</MessagePrisonerIsEscaping>
 
-  <MessageOutOfNearbyShellsFor>{0} 的附近找不到给 {1} 的炮弹。</MessageOutOfNearbyShellsFor>
+  <MessageOutOfNearbyShellsFor>{0}的附近找不到给{1}使用的炮弹。</MessageOutOfNearbyShellsFor>
 
   <MessageAnimalsGoPsychoHunted>警告：{0}受到伤害时通常会发动攻击。</MessageAnimalsGoPsychoHunted>
-  <MessageAnimalManhuntsOnTameFailed>警告：{0}尝试驯服失败后会攻击你 ({1}几率)。</MessageAnimalManhuntsOnTameFailed>
+  <MessageAnimalManhuntsOnTameFailed>警告：{0}尝试驯服失败后会攻击你 （{1}几率）。</MessageAnimalManhuntsOnTameFailed>
 
   <LetterLabelMessageRecruitSuccess>新的招募</LetterLabelMessageRecruitSuccess>
-  <MessageRecruitSuccess>{0}成功招募了{1} (成功率{2})。</MessageRecruitSuccess>
-  <MessageTameSuccess>{0}没能驯服{1} (成功率{2})。</MessageTameSuccess>
-  <MessageTameAndNameSuccess>{0}成功驯服了{1}，并给其起名 {3} (成功率{2})。</MessageTameAndNameSuccess>
+  <MessageRecruitSuccess>{0}成功招募了{1} （成功率{2}）。</MessageRecruitSuccess>
+  <MessageTameSuccess>{0}没能驯服{1} （成功率{2}）。</MessageTameSuccess>
+  <MessageTameAndNameSuccess>{0}成功驯服了{1}，并给其起名{3}（成功率{2}）。</MessageTameAndNameSuccess>
 
   <MessageColonyCannotAfford>殖民地无法支付此次交易。</MessageColonyCannotAfford>
   <MessageColonyNotEnoughSilver>你没有足够的白银用于交易。</MessageColonyNotEnoughSilver>
@@ -74,20 +74,20 @@
 
   <MessageInvoluntarySleep>{0}由于极度疲劳而昏倒了。</MessageInvoluntarySleep>
 
-  <MessageMedicalOperationFailureCatastrophic>{0}给{1}手术时，发生了灾难性的大错。</MessageMedicalOperationFailureCatastrophic>
+  <MessageMedicalOperationFailureCatastrophic>{0}给{1}手术时，发生了灾难性的错误。</MessageMedicalOperationFailureCatastrophic>
   <MessageMedicalOperationFailureMinor>{0}给{1}手术时，发生了小失误。</MessageMedicalOperationFailureMinor>
 
   <MessageMedicalOperationWillAngerFaction>这次手术将激怒{0}。</MessageMedicalOperationWillAngerFaction>
 
-  <MessagePawnExitMapRelationsGain>因为{0}健康的离开地图，与{1}的关系上升{2}点。</MessagePawnExitMapRelationsGain>
+  <MessagePawnExitMapRelationsGain>因为{0}健康地离开了地图，与{1}的关系上升{2}点。</MessagePawnExitMapRelationsGain>
 
-  <MessageMiscarriedStarvation>{0}由于饥饿而流产了。</MessageMiscarriedStarvation>
-  <MessageMiscarriedPoorHealth>{0}由于健康不佳而流产了。</MessageMiscarriedPoorHealth>
-  <MessageGaveBirth>{0}已经生产了。</MessageGaveBirth>
+  <MessageMiscarriedStarvation>{0}由于饥饿而流产。</MessageMiscarriedStarvation>
+  <MessageMiscarriedPoorHealth>{0}由于健康不佳而流产。</MessageMiscarriedPoorHealth>
+  <MessageGaveBirth>{0}已经产子。</MessageGaveBirth>
 
   <MessageNuzzledPawnGaveNameTo>亲昵之后，{0}给{1}起名{2}。</MessageNuzzledPawnGaveNameTo>
 
-  <MessageNoHandlerSkilledEnough>没有驯服者来驯服{0} (要求{2}等级{1}，等级最高的驯服者 {3} 为{4}级)。</MessageNoHandlerSkilledEnough>
+  <MessageNoHandlerSkilledEnough>无人可以驯服{0} （要求{2}{1}级，等级最高的驯服者为{3}{4}级）。</MessageNoHandlerSkilledEnough>
 
   <MessageEatenByPredator>{0}被{1}吃掉了。</MessageEatenByPredator>
   <MessageAttackedByPredator>{0}正被{1}攻击！</MessageAttackedByPredator>
@@ -108,7 +108,7 @@
   <MessageMarriageCeremonyAfterPartyFinished>{0} 和 {1} 的婚礼结束了。</MessageMarriageCeremonyAfterPartyFinished>
 
   <MessageNewBondRelation>{0} 和 {1} 感情深厚达成羁绊。</MessageNewBondRelation>
-  <MessageNewBondRelationNewName>{0} 和 {1} 感情深厚达成羁绊。 {0}给其起名 {2}。</MessageNewBondRelationNewName>
+  <MessageNewBondRelationNewName>{0} 和 {1} 感情深厚达成羁绊。 {0}给其起名{2}。</MessageNewBondRelationNewName>
 
   <MessageBondedAnimalMentalBreak>因为{1}的死亡，{0}精神崩溃了。</MessageBondedAnimalMentalBreak>
   <MessageNamedBondedAnimalMentalBreak>因为{2}的死亡，名字叫{1}的{0}精神崩溃了。</MessageNamedBondedAnimalMentalBreak>
@@ -123,7 +123,7 @@
 
   <MessageCannotSellItemsReason>一些物品无法交易，原因：</MessageCannotSellItemsReason>
 
-  <MessageConstructionFailed>{1}建造{0}失败了。一些材料被浪费。</MessageConstructionFailed>
+  <MessageConstructionFailed>{1}建造{0}失败。一些材料被浪费。</MessageConstructionFailed>
 
   <MessageScreenshotSavedAs>屏幕截图保存在：{0}</MessageScreenshotSavedAs>
 
@@ -131,7 +131,7 @@
 
   <MessageNoLongerBingingOnDrug>{0}已经不再滥用{1}了。</MessageNoLongerBingingOnDrug>
 
-  <MessageRottedAwayInStorage>{0}在贮藏室中坏掉了。</MessageRottedAwayInStorage>
+  <MessageRottedAwayInStorage>库存中的{0}腐坏了。</MessageRottedAwayInStorage>
 
   <MessageFoodPoisoning>{0}因食用{1}而导致食物中毒。</MessageFoodPoisoning>
 

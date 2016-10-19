@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <CommandForbiddenDesc>已禁止\n殖民者不会和这个物件互动。</CommandForbiddenDesc>
-  <CommandNotForbiddenDesc>未禁止\n殖民者会和这个物件互动。</CommandNotForbiddenDesc>
+  <CommandForbiddenDesc>已禁用\n殖民者不会和这个物件互动。</CommandForbiddenDesc>
+  <CommandNotForbiddenDesc>未禁用\n殖民者会和这个物件互动。</CommandNotForbiddenDesc>
 
   <!-- Power -->
-  <CommandTogglePowerLabel>开关</CommandTogglePowerLabel>
-  <CommandTogglePowerDesc>开关电力</CommandTogglePowerDesc>
+  <CommandTogglePowerLabel>开关电源</CommandTogglePowerLabel>
+  <CommandTogglePowerDesc>开关电源。</CommandTogglePowerDesc>
 
   <CommandDesignateTogglePowerLabel>指派开关电源</CommandDesignateTogglePowerLabel>
-  <CommandDesignateTogglePowerDesc>指定一件需要切换电路状态的电器。一名殖民者将随后前往拨动开关。</CommandDesignateTogglePowerDesc>
+  <CommandDesignateTogglePowerDesc>指定一件需要切换电源状态的电器。一名殖民者将随后前往拨动开关。</CommandDesignateTogglePowerDesc>
 
   <CommandTryReconnectLabel>重新连接</CommandTryReconnectLabel>
   <CommandTryReconnectDesc>尝试连接到附近另一个电网里。在当前连接的电网没有电但附近有另一个电网时很有用。</CommandTryReconnectDesc>
@@ -21,7 +21,7 @@
 
   <!-- Drafting -->
   <CommandDraftLabel>征召</CommandDraftLabel>
-  <CommandUndraftLabel>解散</CommandUndraftLabel>
+  <CommandUndraftLabel>取消征召</CommandUndraftLabel>
   <CommandToggleDraftDesc>切换征召状态。\n\n被征召的人会遵守命令并战斗。解散前他们不会工作，吃饭或着休息。</CommandToggleDraftDesc>
   <IsIncapped>{0}无法行动。</IsIncapped>
 
@@ -29,21 +29,21 @@
   <CommandClearPrioritizedWorkDesc>清除任何你指定的优先的工作。角色会回去进行往常的自行活动。</CommandClearPrioritizedWorkDesc>
 
   <CommandCancelConstructionLabel>取消</CommandCancelConstructionLabel>
-  <CommandCancelConstructionDesc>取消建造</CommandCancelConstructionDesc>
+  <CommandCancelConstructionDesc>取消建造命令。</CommandCancelConstructionDesc>
 
   <CommandGetOutOfBedLabel>离床</CommandGetOutOfBedLabel>
   <CommandGetOutOfBedDesc>离开当前使用的床</CommandGetOutOfBedDesc>
 
-  <CommandBedSetOwnerLabel>设定主人</CommandBedSetOwnerLabel>
-  <CommandBedSetOwnerDesc>将这张床分配给一个指定的殖民者。</CommandBedSetOwnerDesc>
+  <CommandBedSetOwnerLabel>设定归属</CommandBedSetOwnerLabel>
+  <CommandBedSetOwnerDesc>将这张床分配给指定的殖民者。</CommandBedSetOwnerDesc>
   <CommandGraveAssignColonistLabel>指定殖民者</CommandGraveAssignColonistLabel>
   <CommandGraveAssignColonistDesc>将此墓指定由一个特定的殖民者拥有。</CommandGraveAssignColonistDesc>
   <BuildingAssign>指派</BuildingAssign>
   <BuildingUnassign>解除</BuildingUnassign>
-  <CommandBedSetForPrisonersLabel>设为囚犯使用</CommandBedSetForPrisonersLabel>
+  <CommandBedSetForPrisonersLabel>囚犯专用</CommandBedSetForPrisonersLabel>
   <CommandBedSetForPrisonersDesc>把这个房间内的床设为仅供囚犯使用。</CommandBedSetForPrisonersDesc>
   <CommandBedSetForPrisonersFailOutdoors>无法将室外的床设为囚犯使用。</CommandBedSetForPrisonersFailOutdoors>
-  <CommandBedSetAsMedicalLabel>设为医疗床</CommandBedSetAsMedicalLabel>
+  <CommandBedSetAsMedicalLabel>医疗专用</CommandBedSetAsMedicalLabel>
   <CommandBedSetAsMedicalDesc>将这个床设为医疗用途的床。</CommandBedSetAsMedicalDesc>
   <TurningOnPrisonerBedWarning>开启囚房模式将会影响整个房间(囚犯和殖民者不能睡在同一个房间)。\n\n以下角色将会失去他们对床的所有权：</TurningOnPrisonerBedWarning>
   <TurningOffPrisonerBedWarning>关闭囚房模式将会影响整个房间(囚犯和殖民者不能睡在同一个房间)。\n\n以下角色将会失去他们对床的所有权：</TurningOffPrisonerBedWarning>
@@ -62,10 +62,10 @@
   <CommandDeleteZoneLabel>删除区域</CommandDeleteZoneLabel>
   <CommandDeleteZoneDesc>删除这个区域。</CommandDeleteZoneDesc>
 
-  <CommandCopyZoneSettingsLabel>复制设定</CommandCopyZoneSettingsLabel>
+  <CommandCopyZoneSettingsLabel>复制区域设置</CommandCopyZoneSettingsLabel>
   <CommandCopyZoneSettingsDesc>将此区域的设置复制到剪贴板，可以将设置粘贴到另一个区域上。</CommandCopyZoneSettingsDesc>
 
-  <CommandPasteZoneSettingsLabel>粘贴设定</CommandPasteZoneSettingsLabel>
+  <CommandPasteZoneSettingsLabel>粘贴区域设置</CommandPasteZoneSettingsLabel>
   <CommandPasteZoneSettingsDesc>用剪贴板上的设置覆盖此区域的设置。</CommandPasteZoneSettingsDesc>
 
   <CommandAllowSow>允许播种</CommandAllowSow>
@@ -78,7 +78,7 @@
   <CommandStopForceAttackDesc>停止强制攻击目标并允许炮塔自由开火。</CommandStopForceAttackDesc>
   <CommandStopAttackFailNotForceAttacking>不再强制攻击目标。</CommandStopAttackFailNotForceAttacking>
   <MessageTargetBeyondMaximumRange>目标超出最大射程。</MessageTargetBeyondMaximumRange>
-  <MessageTargetBelowMinimumRange>目标低于最小射程。</MessageTargetBelowMinimumRange>
+  <MessageTargetBelowMinimumRange>目标距离低于最小射程。</MessageTargetBelowMinimumRange>
 
   <!-- Ship computer core -->
   <CommandShipLaunch>发射飞船</CommandShipLaunch>
@@ -94,7 +94,7 @@
   <!-- Door -->
   <CommandToggleDoorForbid>允许通行</CommandToggleDoorForbid>
   <CommandToggleDoorForbidDesc>一扇门是否允许通行，殖民者不会通过禁止通行的门。但不影响其他派系的人。</CommandToggleDoorForbidDesc>
-  <CommandToggleDoorHoldOpen>敞门</CommandToggleDoorHoldOpen>
+  <CommandToggleDoorHoldOpen>保持敞门</CommandToggleDoorHoldOpen>
   <CommandToggleDoorHoldOpenDesc>当激活时，殖民者将不会关闭这道门，并保持一直敞开的状态。\n\n门敞开时任何人或动物都能通过，包括敌人。</CommandToggleDoorHoldOpenDesc>
 
   <!-- Temperature control -->
@@ -110,20 +110,20 @@
   <CommandReinstallDesc>指定此物品需要卸载并重新安装在其他地方。</CommandReinstallDesc>
 
   <!-- Trade beacon -->
-  <CommandMakeBeaconStockpileDesc>在贸易信标有效半径范围内创建一个存储区。</CommandMakeBeaconStockpileDesc>
-  <CommandMakeBeaconStockpileLabel>建立存储区</CommandMakeBeaconStockpileLabel>
+  <CommandMakeBeaconStockpileDesc>在贸易信标有效半径范围内创建一个储存区。</CommandMakeBeaconStockpileDesc>
+  <CommandMakeBeaconStockpileLabel>建立储存区</CommandMakeBeaconStockpileLabel>
 
   <!-- Sun lamp -->
   <CommandSunLampMakeGrowingZoneDesc>在太阳灯有效半径范围内创建一个存储区。</CommandSunLampMakeGrowingZoneDesc>
   <CommandSunLampMakeGrowingZoneLabel>建立种植区</CommandSunLampMakeGrowingZoneLabel>
 
   <!-- Trap -->
-  <CommandAutoRearm>自动重装</CommandAutoRearm>
-  <CommandAutoRearmDesc>当激活时，将自动指派未准备的陷阱进行重装。</CommandAutoRearmDesc>
+  <CommandAutoRearm>自动重置</CommandAutoRearm>
+  <CommandAutoRearmDesc>如果启用，该陷阱会在触发后自动被指派重置。</CommandAutoRearmDesc>
 
   <!-- Animal control -->
-  <CommandReleaseAnimalsLabel>放开动物</CommandReleaseAnimalsLabel>
-  <CommandReleaseAnimalsDesc>当此项打开时，可以控制动物攻击远处的目标。当此项关闭时，动物逗留附近保护主人。</CommandReleaseAnimalsDesc>
+  <CommandReleaseAnimalsLabel>辅助进攻</CommandReleaseAnimalsLabel>
+  <CommandReleaseAnimalsDesc>如果启用，受驯的动物可以上前攻击远处目标。如果禁用，它们则在身边保护主人。</CommandReleaseAnimalsDesc>
 
   <!-- Squad attack -->
   <CommandSquadAttack>攻击</CommandSquadAttack>
@@ -134,12 +134,12 @@
   <CommandHoldFireDesc>停止所有正在进行的攻击。</CommandHoldFireDesc>
 
   <!-- Select plant to grow -->
-  <CommandSelectPlantToGrowMulti>选择植物或种植</CommandSelectPlantToGrowMulti>
+  <CommandSelectPlantToGrowMulti>选择所要种植的植物。</CommandSelectPlantToGrowMulti>
   <CommandSelectPlantToGrow>种植：{0}</CommandSelectPlantToGrow>
   <CommandSelectPlantToGrowDesc>指定此处种植何种植物。</CommandSelectPlantToGrowDesc>
 
   <!-- Build copy -->
   <CommandBuildCopy>复制建筑</CommandBuildCopy>
-  <CommandBuildCopyDesc>复制当前的建筑设施</CommandBuildCopyDesc>
+  <CommandBuildCopyDesc>复制当前的建筑设施。</CommandBuildCopyDesc>
 
 </LanguageData>

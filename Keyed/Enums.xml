@@ -20,9 +20,9 @@
 
   <!-- Storage priority labels -->
   <StoragePriorityUnstored>不储存</StoragePriorityUnstored>
-  <StoragePriorityLow>低</StoragePriorityLow>
-  <StoragePriorityNormal>一般</StoragePriorityNormal>
-  <StoragePriorityPreferred>偏好</StoragePriorityPreferred>
+  <StoragePriorityLow>较低</StoragePriorityLow>
+  <StoragePriorityNormal>普通</StoragePriorityNormal>
+  <StoragePriorityPreferred>优先</StoragePriorityPreferred>
   <StoragePriorityImportant>重要</StoragePriorityImportant>
   <StoragePriorityCritical>关键</StoragePriorityCritical>
 
@@ -37,7 +37,7 @@
   <FoodTypeFlags_Meal>烹调食物</FoodTypeFlags_Meal>
   <FoodTypeFlags_Processed>加工食物</FoodTypeFlags_Processed>
   <FoodTypeFlags_Liquor>酒</FoodTypeFlags_Liquor>
-  <FoodTypeFlags_Kibble>粗磨</FoodTypeFlags_Kibble>
+  <FoodTypeFlags_Kibble>动物饲料</FoodTypeFlags_Kibble>
 
   <!-- Quality category -->
   <QualityCategory_Awful>极差</QualityCategory_Awful>
@@ -61,7 +61,7 @@
 
   <!-- Hunger -->
   <HungerLevel_Starving>极度饥饿</HungerLevel_Starving>
-  <HungerLevel_UrgentlyHungry>非常饿</HungerLevel_UrgentlyHungry>
+  <HungerLevel_UrgentlyHungry>非常饥饿</HungerLevel_UrgentlyHungry>
   <HungerLevel_Hungry>饥饿</HungerLevel_Hungry>
   <HungerLevel_Fed>饱</HungerLevel_Fed>
 
@@ -99,9 +99,9 @@
 
   <!-- Medical care category -->
   <MedicalCareCategory_NoCare>无医生照顾</MedicalCareCategory_NoCare>
-  <MedicalCareCategory_NoMeds>有医生照顾，但没有药物提供</MedicalCareCategory_NoMeds>
-  <MedicalCareCategory_HerbalOrWorse>提供草药或更糟</MedicalCareCategory_HerbalOrWorse>
-  <MedicalCareCategory_NormalOrWorse>提供正常的用药或更糟</MedicalCareCategory_NormalOrWorse>
+  <MedicalCareCategory_NoMeds>有医生照顾，但没有药物供给</MedicalCareCategory_NoMeds>
+  <MedicalCareCategory_HerbalOrWorse>提供草药或以下的药物</MedicalCareCategory_HerbalOrWorse>
+  <MedicalCareCategory_NormalOrWorse>提供普通药物或以下的药物</MedicalCareCategory_NormalOrWorse>
   <MedicalCareCategory_Best>提供最好的医疗照顾</MedicalCareCategory_Best>
 
   <!-- Hostility response mode -->
@@ -143,7 +143,7 @@
   <Kelvin>开尔文</Kelvin>
 
   <!-- Spoil reason -->
-  <SpoilReason_Freezing>低温导致食物坏掉</SpoilReason_Freezing>
-  <SpoilReason_HighTemperature>高温导致食物坏掉</SpoilReason_HighTemperature>
+  <SpoilReason_Freezing>因低温而变质</SpoilReason_Freezing>
+  <SpoilReason_HighTemperature>因高温而变质</SpoilReason_HighTemperature>
 
 </LanguageData>
