@@ -17,6 +17,7 @@ Official Translators 官方项目翻译
 ---------------------------------
 - AlyxMS
 - Bigmap
+- cainiaowu
 - duduluu (风之起灵)
 - Kenneth Li (魔都KK)
 - SerGawen (加文_维斯特林)
