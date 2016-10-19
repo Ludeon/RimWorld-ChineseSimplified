@@ -228,42 +228,42 @@
   <NoOutfitSelected>未选择着装配置</NoOutfitSelected>
 
   <!-- Drug policy management -->
-  <DrugPolicy>用药方针</DrugPolicy>
-  <SelectDrugPolicy>选择用药方针</SelectDrugPolicy>
+  <DrugPolicy>成瘾品方针</DrugPolicy>
+  <SelectDrugPolicy>选择成瘾品方针</SelectDrugPolicy>
   <NewDrugPolicy>新方针</NewDrugPolicy>
-  <DeleteDrugPolicy>删除用药方针</DeleteDrugPolicy>
-  <DrugPolicyInUse>{0}正在生效的用药方针</DrugPolicyInUse>
-  <SocialDrugs>社交药物</SocialDrugs>
-  <NoDrugs>禁止药物</NoDrugs>
+  <DeleteDrugPolicy>删除成瘾品方针</DeleteDrugPolicy>
+  <DrugPolicyInUse>{0}个启用的成瘾品方针</DrugPolicyInUse>
+  <SocialDrugs>社交类成瘾品</SocialDrugs>
+  <NoDrugs>禁用成瘾品</NoDrugs>
   <OneDrinkPerDay>每日一次</OneDrinkPerDay>
   <Unrestricted>不做限制</Unrestricted>
   <NoDrugPolicySelected>没有选中的方针</NoDrugPolicySelected>
-  <AddDrug>添加药物</AddDrug>
-  <DrugColumnLabel>药物</DrugColumnLabel>
-  <DrugUsageColumnLabel>药用</DrugUsageColumnLabel>
+  <AddDrug>添加成瘾品</AddDrug>
+  <DrugColumnLabel>成瘾品</DrugColumnLabel>
+  <DrugUsageColumnLabel>使用</DrugUsageColumnLabel>
   <FrequencyColumnLabel>频率</FrequencyColumnLabel>
   <MoodThresholdColumnLabel>情绪值阈值</MoodThresholdColumnLabel>
-  <JoyThresholdColumnLabel>快乐阈值</JoyThresholdColumnLabel>
+  <JoyThresholdColumnLabel>快乐度阈值</JoyThresholdColumnLabel>
   <TakeToInventoryColumnLabel>预支数量</TakeToInventoryColumnLabel>
-  <NoDrugsBrackets>（没有药物）</NoDrugsBrackets>
+  <NoDrugsBrackets>（没有成瘾品）</NoDrugsBrackets>
   <EveryDay>每天</EveryDay>
   <TimesPerDay>每日{0}次</TimesPerDay>
   <EveryDays>每{0}天1次</EveryDays>
   <NoDrugUseRequirement>不使用</NoDrugUseRequirement>
-  <DeleteDrugTooltip>删除这个药物</DeleteDrugTooltip>
-  <DrugNameColumnDesc>药物名字</DrugNameColumnDesc>
-  <DrugUsageColumnDesc>药物使用</DrugUsageColumnDesc>
-  <FrequencyColumnDesc>药物使用的频率</FrequencyColumnDesc>
-  <MoodThresholdColumnDesc>当情绪值低于这个值时会开始使用药物。</MoodThresholdColumnDesc>
-  <JoyThresholdColumnDesc>当娱乐值低于这个值时会开始使用药物。</JoyThresholdColumnDesc>
-  <TakeToInventoryColumnDesc>允许每次拿走的药物数量。这样就不用每次需要时都去仓库。</TakeToInventoryColumnDesc>
-  <DrugUsageTipForJoy>娱乐目的\n\n为了消除压力、社交时服用。n\n注意，即使是在禁止用药的方针下，有些具有某些特性的殖民者依然会无视规定使用药物。</DrugUsageTipForJoy>
-  <DrugUsageTipScheduled>计划服用\n\n在条件满足的情况下根据指定的日程安排服药。</DrugUsageTipScheduled>
+  <DeleteDrugTooltip>删除成瘾品</DeleteDrugTooltip>
+  <DrugNameColumnDesc>成瘾品的名称。</DrugNameColumnDesc>
+  <DrugUsageColumnDesc>成瘾品是否允许使用。</DrugUsageColumnDesc>
+  <FrequencyColumnDesc>成瘾品的使用频率。</FrequencyColumnDesc>
+  <MoodThresholdColumnDesc>当情绪值低于该值时会开始使用成瘾品。</MoodThresholdColumnDesc>
+  <JoyThresholdColumnDesc>当娱乐值低于该值时会开始使用成瘾品。</JoyThresholdColumnDesc>
+  <TakeToInventoryColumnDesc>每次允许额外拿走的成瘾品数量，避免每次都需要去仓库取。</TakeToInventoryColumnDesc>
+  <DrugUsageTipForJoy>娱乐目的\n\n为了消除压力及在社交活动时服用。n\n注意，即使是在禁用成瘾品的方针下，有些具有某些特性的殖民者依然会无视规定使用成瘾品。</DrugUsageTipForJoy>
+  <DrugUsageTipScheduled>计划服用\n\n当特定条件满足时，根据指定的日程安排服用药物和成瘾品。</DrugUsageTipScheduled>
 
   <!-- Growing -->
   <NoGrowerCanPlant>{0}需要最低{1}级种植技能才能播种。\n\n你的种植工作人员中没有达到该技能要求的，所以这种植物不会被播种。</NoGrowerCanPlant>
 
 
-  <!--<DrugUsageTipDeny>禁用\n\n精神崩溃或是特定情况下居民会无视你的设定。</DrugUsageTipDeny>-->
+  <!--<DrugUsageTipDeny>禁用\n\n精神崩溃或是特定情况下殖民者会无视你的设定。</DrugUsageTipDeny>-->
 
 </LanguageData>
