@@ -43,14 +43,14 @@
   <PowerSwitch_Power>电源</PowerSwitch_Power>
   <JoyTolerances>无趣程度</JoyTolerances>
   <MilkFullness>产奶进度</MilkFullness>
-  <WoolGrowth>毛发生长</WoolGrowth>
+  <WoolGrowth>毛发生长进度</WoolGrowth>
   <EggProgress>产卵/孵化进度</EggProgress>
   <Fertilized>已受精</Fertilized>
   <ProgressStoppedUntilFertilized>停止产卵（需要受精）</ProgressStoppedUntilFertilized>
-  <SkillTooLow>最低需要 {0} 技能等级 {2}，当前等级 {1}</SkillTooLow>
-  <EggDamagedEmbryo>受损的胚胎</EggDamagedEmbryo>
+  <SkillTooLow>至少需要 {2} 级 {0} 技能，当前为 {1} 级</SkillTooLow>
+  <EggDamagedEmbryo>胚胎受损</EggDamagedEmbryo>
   <CorpsePercentMissing>身体部位缺失</CorpsePercentMissing>
-  <HiveReproducesIn>繁殖时间</HiveReproducesIn>
+  <HiveReproducesIn>巢穴繁殖时间</HiveReproducesIn>
   <BrokenDown>故障</BrokenDown>
   <BondBrackets>（羁绊）</BondBrackets>
   <Fuel>燃料</Fuel>
@@ -60,16 +60,16 @@
   <RadiusExpandsIn>扩大半径至</RadiusExpandsIn>
   <Permanent>永久</Permanent>
   <Temperature>温度</Temperature>
-  <BadTemperature>不适宜的温度</BadTemperature>
-  <IdealFermentingTemperature>理想的温度</IdealFermentingTemperature>
-  <DrugEffectMultiplier>成瘾品效果系数：{0}</DrugEffectMultiplier>
+  <BadTemperature>温度不适宜</BadTemperature>
+  <IdealFermentingTemperature>理想发酵温度</IdealFermentingTemperature>
+  <DrugEffectMultiplier>{0} 功效系数：</DrugEffectMultiplier>
 
   <!-- Fermentation barrel -->
   <ContainsWort>装有麦芽汁：{0} / {1}</ContainsWort>
   <ContainsBeer>装有啤酒：{0} / {1}</ContainsBeer>
-  <Fermented>已发酵</Fermented>
+  <Fermented>发酵完成</Fermented>
   <FermentationProgress>进度：{0}（约在{1}后完成）。</FermentationProgress>
-  <FermentationBarrelOutOfIdealTemperature>不在理想的发酵温度范围内，当前发酵速度为：{0}</FermentationBarrelOutOfIdealTemperature>
+  <FermentationBarrelOutOfIdealTemperature>非理想温度（发酵速度系数：{0}）</FermentationBarrelOutOfIdealTemperature>
 
   <!--TextMotes-->
   <Headshot>命中头部</Headshot>
@@ -97,13 +97,13 @@
   <NoAreaAllowed>无限制</NoAreaAllowed>
   <NewArea>新建活动区</NewArea>
   <NewAreaAnimal>新建动物活动区</NewAreaAnimal>
-  <InvertArea>反选</InvertArea>
+  <InvertArea>反向选择</InvertArea>
 
   <!-- Control -->
-  <CannotOrderNonControlled>不能命令非控制单位。</CannotOrderNonControlled>
+  <CannotOrderNonControlled>无法命令非控制单位。</CannotOrderNonControlled>
   <IsIncapableOfViolence>{0}无法进行暴力行为。</IsIncapableOfViolence>
   <IsIncapableOfViolenceShort>无暴力能力</IsIncapableOfViolenceShort>
-  <IsNotDrafted>{0}没有被征召。</IsNotDrafted>
+  <IsNotDrafted>{0}尚未被征召。</IsNotDrafted>
 
   <!-- Snow -->
   <SnowNone>无积雪</SnowNone>
@@ -150,7 +150,7 @@
   <Weather>天气</Weather>
   <ShootingCover>掩体 </ShootingCover>
   <CoverThingBlocksPercentOfShots>{0}阻挡   {1}</CoverThingBlocksPercentOfShots>
-  <NoCoverLower>没有掩体</NoCoverLower>
+  <NoCoverLower>无掩体</NoCoverLower>
   <Execution>处决</Execution>
 
   <!-- Generated recipes -->
@@ -171,13 +171,13 @@
   <PawnMainDescLifestageWrap>{1} {0}</PawnMainDescLifestageWrap>
   <Faction>派系</Faction>
   <Equipped>装备</Equipped>
-  <EquippedNothing>无</EquippedNothing>
+  <EquippedNothing>（无）</EquippedNothing>
   <Incapacitated>无法行动</Incapacitated>
   <InRestraints>关押中（速度减慢）</InRestraints>
   <Carrying>携带</Carrying>
 
   <!-- Inspector general stuff -->
-  <SelectNextInSquareTip>选择同一个方块里的下一件东西。\n\n快捷键：{0}\n\n你也可以慢速重复点击同一个方块来选择。</SelectNextInSquareTip>
+  <SelectNextInSquareTip>选择当前方格内的下一件东西。\n\n快捷键：{0}\n\n你也可用鼠标左键慢速重复点击同个方格来选择下一件物品。</SelectNextInSquareTip>
   <DefInfoTip>查看关于这个物品的信息。</DefInfoTip>
 
   <!-- Hostility response -->
@@ -193,7 +193,7 @@
   <PowerNeeded>电力消耗</PowerNeeded>
   <PowerOutput>电力输出</PowerOutput>
   <PowerBatteryStored>蓄电</PowerBatteryStored>
-  <PowerBatteryEfficiency>效率</PowerBatteryEfficiency>
+  <PowerBatteryEfficiency>蓄电效率</PowerBatteryEfficiency>
 
   <!-- Temperature control -->
   <TargetTemperature>目标温度</TargetTemperature>
@@ -217,8 +217,8 @@
 
   <!-- Rotting -->
   <CurrentlyFrozen>冷冻（不会腐烂）</CurrentlyFrozen>
-  <CurrentlyRefrigerated>冷藏（{0}后腐烂）</CurrentlyRefrigerated>
-  <NotRefrigerated>未冷藏（{0}后腐烂）</NotRefrigerated>
+  <CurrentlyRefrigerated>冷藏（于{0}后腐烂）</CurrentlyRefrigerated>
+  <NotRefrigerated>未冷藏（于{0}后腐烂）</NotRefrigerated>
   <OverADecade>超过10年</OverADecade>
   <LessThanADay>少于1天</LessThanADay>
 
@@ -227,23 +227,23 @@
 
   <!-- Plants -->
   <PercentGrowth>已生长{0}</PercentGrowth>
-  <GrowthRate>生长速度</GrowthRate>
-  <FullyGrownIn>{0}后长成</FullyGrownIn>
+  <GrowthRate>生长速率</GrowthRate>
+  <FullyGrownIn>于{0}后长成</FullyGrownIn>
   <PlantNeedsLightLevel>需要光照</PlantNeedsLightLevel>
   <PlantResting>休眠中</PlantResting>
-  <OutOfIdealTemperatureRange>非理想温度（生长速度{0}%）</OutOfIdealTemperatureRange>
+  <OutOfIdealTemperatureRange>非理想温度（生长速度系数：{0}%）</OutOfIdealTemperatureRange>
   <OutOfIdealTemperatureRangeNotGrowing>非理想温度（停止生长）</OutOfIdealTemperatureRangeNotGrowing>
   <ReadyToHarvest>待收获</ReadyToHarvest>
   <Mature>成熟</Mature>
   <SeedLabel>{0}种子</SeedLabel>
   <OutdoorGrowingPeriod>生长周期：\n{0}</OutdoorGrowingPeriod>
-  <NoGrowingPeriod>无</NoGrowingPeriod>
+  <NoGrowingPeriod>永不</NoGrowingPeriod>
   <GrowYearRound>全年</GrowYearRound>
   <GrowSeasonHereNow>当前季节可种植。</GrowSeasonHereNow>
   <CannotGrowTooCold>无法种植 - 过于寒冷</CannotGrowTooCold>
 
   <!-- Zones -->
-  <Zone>区域</Zone>
+  <Zone>活动区</Zone>
   <GrowingZone>种植区</GrowingZone>
   <Stockpile>储存区</Stockpile>
   <DumpingStockpile>垃圾储存区</DumpingStockpile>
@@ -252,7 +252,7 @@
   <AllowAll>全部允许</AllowAll>
 
   <!-- ThingFilter -->
-  <HitPoints>{0}耐久值</HitPoints>
+  <HitPoints>{0}耐久度</HitPoints>
   <AnyQuality>任何品质</AnyQuality>
   <OnlyQuality>仅仅{0}</OnlyQuality>
 
@@ -260,15 +260,15 @@
   <Undiscovered>未探索</Undiscovered>
 
   <!-- Buttons -->
-  <ShowLearningHelperWhenEmptyToggleButton>开关始终显示教学指导\n\n当没有新的概念需要被学习时，教学指导会不再显示。切换此开关状态允许在学习完所有教程之后继续显示教学指导。</ShowLearningHelperWhenEmptyToggleButton>
-  <ZoneVisibilityToggleButton>开关区域的可见性。</ZoneVisibilityToggleButton>
-  <ShowBeautyToggleButton>开关美观度显示\n\n显示鼠标所在位置的平均美观度。</ShowBeautyToggleButton>
-  <ShowRoomStatsToggleButton>开关房间数据显示\n\n显示鼠标所在位置的房间统计数据。</ShowRoomStatsToggleButton>
-  <ShowColonistBarToggleButton>开关显示殖民者头像条（屏幕上方）。</ShowColonistBarToggleButton>
-  <AutoHomeAreaToggleButton>开关自动添加居住区\n\n开关自动在新建造的建筑附近添加居住区。</AutoHomeAreaToggleButton>
-  <CategorizedResourceReadoutToggleButton>开关资源分类显示（屏幕左上）。</CategorizedResourceReadoutToggleButton>
-  <ShowAnimalNamesToggleButton>开关动物名称显示（已驯服动物）。</ShowAnimalNamesToggleButton>
-  <ShowRoofOverlayToggleButton>开关屋顶区域显示。</ShowRoofOverlayToggleButton>
+  <ShowLearningHelperWhenEmptyToggleButton>开关始终显示教学助手\n\n当没有需要学习的新教程时，教学助手会自动隐藏。开启后，将在学习完所有教程之后继续显示教学助手。</ShowLearningHelperWhenEmptyToggleButton>
+  <ZoneVisibilityToggleButton>开关区域显示。</ZoneVisibilityToggleButton>
+  <ShowBeautyToggleButton>开关美观度显示\n\n开启后，显示殖民者站在鼠标所在位置时所感受到的美观度。</ShowBeautyToggleButton>
+  <ShowRoomStatsToggleButton>开关房间数据显示\n\n开启后，显示鼠标所在位置的房间统计数据。</ShowRoomStatsToggleButton>
+  <ShowColonistBarToggleButton>开关殖民者头像条显示。\n\n开启后，在屏幕上方显示所有殖民者的头像和当前状态。</ShowColonistBarToggleButton>
+  <AutoHomeAreaToggleButton>开关自动添加居住区\n\n开启后，将自动在新建造的建筑附近添加居住区。</AutoHomeAreaToggleButton>
+  <CategorizedResourceReadoutToggleButton>开关资源分类显示\n\n开启后，将资源显示按照其所属类型分类显示。</CategorizedResourceReadoutToggleButton>
+  <ShowAnimalNamesToggleButton>开关已驯服动物名称显示。</ShowAnimalNamesToggleButton>
+  <ShowRoofOverlayToggleButton>开关屋顶区显示。</ShowRoofOverlayToggleButton>
 
   <!-- Fire -->
   <Fire>火焰</Fire>
@@ -282,16 +282,16 @@
   <ImpactDate>撞击日期</ImpactDate>
 
   <!-- Building placement -->
-  <NoStuffsToBuildWith>你没有可用于建造此建筑的材料。</NoStuffsToBuildWith>
+  <NoStuffsToBuildWith>你缺少建造此建筑所需要的材料。</NoStuffsToBuildWith>
 
   <!-- Building placement restricters -->
-  <MustPlaceUnroofed>不能放置在屋顶下。</MustPlaceUnroofed>
+  <MustPlaceUnroofed>无法放置于屋顶下。</MustPlaceUnroofed>
   <MustPlaceHeadOnShipBeam>必须放置于飞船结构梁两端。</MustPlaceHeadOnShipBeam>
   <MustPlaceNextToHopperAccepter>必须放置于需要进料口的设备旁边。</MustPlaceNextToHopperAccepter>
   <MustPlaceOnSteamGeyser>必须直接放置于蒸汽间歇喷泉上。</MustPlaceOnSteamGeyser>
-  <MustPlaceCoolerWithFreeSpaces>散热器的热端和冷端都不能被堵住。</MustPlaceCoolerWithFreeSpaces>
-  <MustPlaceVentWithFreeSpaces>两边都不能被堵住，以便空气流通。</MustPlaceVentWithFreeSpaces>
-  <MustPlaceAdjacentStandable>必须放在四周都有空间的地方。</MustPlaceAdjacentStandable>
+  <MustPlaceCoolerWithFreeSpaces>制冷机的热端和冷端都不能被阻塞。</MustPlaceCoolerWithFreeSpaces>
+  <MustPlaceVentWithFreeSpaces>通风孔两端都不能被阻塞，以便空气流通。</MustPlaceVentWithFreeSpaces>
+  <MustPlaceAdjacentStandable>必须放置于四周空旷的位置。</MustPlaceAdjacentStandable>
 
   <!-- Wind Turbine -->
   <WindTurbine_WindPathIsBlockedBy>被该物品遮挡：</WindTurbine_WindPathIsBlockedBy>
@@ -304,11 +304,11 @@
   <!-- Ship launch report -->
   <ShipReportCannotLaunch>无法发射。</ShipReportCannotLaunch>
   <ShipReportCanLaunch>准备发射。</ShipReportCanLaunch>
-  <ShipReportMissingPart>缺少关键性组件</ShipReportMissingPart>
-  <ShipReportNoFullPods>没有装有乘员的休眠舱</ShipReportNoFullPods>
+  <ShipReportMissingPart>缺少关键组件</ShipReportMissingPart>
+  <ShipReportNoFullPods>缺少装有乘员的休眠舱</ShipReportNoFullPods>
 
   <!-- Neurotrainer -->
-  <NeurotrainerUsed>{0}用神经训练器将{1}技能从{2}级升到了{3}级。</NeurotrainerUsed>
+  <NeurotrainerUsed>{0}使用神经训练器将{1}技能从{2}级升至{3}级。</NeurotrainerUsed>
 
   <!-- Minification -->
   <Installed>已安装</Installed>
@@ -319,12 +319,12 @@
   <Untitled>无题</Untitled>
 
   <!-- Unfinished thing -->
-  <UnfinishedItem>未完成的{0}</UnfinishedItem>
-  <UnfinishedItemWithStuff>未完成的{0}{1}</UnfinishedItemWithStuff>
+  <UnfinishedItem>{0}（未完成）</UnfinishedItem>
+  <UnfinishedItemWithStuff>{0}{1}（未完成）</UnfinishedItemWithStuff>
 
   <!-- Quality -->
   <Quality>品质</Quality>
-  <QualityDescription>一个物品的品质代表了这个物品的做工。</QualityDescription>
+  <QualityDescription>物品品质为该物品的制作精良程度。</QualityDescription>
   <QualityIs>品质：{0}</QualityIs>
 
   <!-- Mood descriptions -->
@@ -337,11 +337,11 @@
   <Mood_Happy>开心</Mood_Happy>
 
   <!-- Game over -->
-  <GameOverEveryoneDead>所有人不是死亡就是离开了，这个故事结束了。\n\n这片遗迹也许在某天会帮上其他人的忙。</GameOverEveryoneDead>
-  <GameOverShipLaunched>你发射了逃生船！以下殖民者离开了：\n\n{0}\n以下殖民者被留下了：\n\n{1}\n现在你的AI会试图把飞船带到一个安全的地方去。也许它会把你带到这个星系里一个更好的星球上。或许它会花一个世纪来旅行到另一个星系去。它甚至会在一个流星的冰层下躲几千年，等待一个更好的纪元的到来。\n\n只有在你醒来后才会知道。</GameOverShipLaunched>
-  <GameOverPlanetkillerImpact>对星武器接近光速而猛烈地击中了大地，并引发了超级大爆炸。就像一把步枪射中了装着水的气球，整个行星在强力的冲击下液化并将大量碎片抛入宇宙中。\n\n{0}的部分现在是一个小行星带。\n\n你没有活下来。</GameOverPlanetkillerImpact>
+  <GameOverEveryoneDead>所有殖民者不是死亡就是离开了。这个故事结束了。\n\n这片遗迹也许在某天会帮上其他人的忙。</GameOverEveryoneDead>
+  <GameOverShipLaunched>你发射了逃生船！以下殖民者离开了：\n\n{0}\n以下殖民者被留下了：\n\n{1}\n现在飞船AI会自动引导飞船至安全目的地。也许它会带你到本星系内的一颗繁盛星球上。或许它会花费数世纪航行至另一星系。甚至它选择在一颗小行星的冰层下沉睡几千年，等待其他人在此建设一个闪耀世界。\n\n一切只有在你醒来后才能知道。</GameOverShipLaunched>
+  <GameOverPlanetkillerImpact>行星杀手武器以接近光速的速度猛烈地击中了大地，威力相当于一万亿颗氢弹同时引爆。就像一颗被步枪命中的装满水的气球，整颗行星在强劲冲击下液化并将大量自身融化的内核抛入太空。\n\n{0}的一部分变成了一条小行星带。剩余部分则是一片融化的布满辐射的地狱景象，数公里高的行星震波在表面来回荡漾。\n\n你没能活下来。</GameOverPlanetkillerImpact>
   <GameOverKeepPlaying>继续游戏</GameOverKeepPlaying>
-  <GameOverMainMenu>主菜单</GameOverMainMenu>
+  <GameOverMainMenu>返回主菜单</GameOverMainMenu>
 
   <!-- Generic lifespan -->
   <LifespanExpiry>失效时间：</LifespanExpiry>
@@ -349,7 +349,7 @@
   <!-- Traps -->
   <TrapArmed>准备就绪</TrapArmed>
   <TrapNotArmed>未准备</TrapNotArmed>
-  <TrapRearmingCost>重置陷阱花费： {0}</TrapRearmingCost>
+  <TrapRearmingCost>重置陷阱花费：{0}</TrapRearmingCost>
 
   <!-- Facilities -->
   <InactiveFacility>闲置</InactiveFacility>
@@ -360,18 +360,18 @@
   <DiseaseGrowthModeChanged_Remission>{0}的{1}现在缓解了。</DiseaseGrowthModeChanged_Remission>
 
   <!-- Marriage spot -->
-  <MarriageSpotUsable>现在可以使用。</MarriageSpotUsable>
-  <MarriageSpotNotUsable>不能使用：{0}。</MarriageSpotNotUsable>
-  <MarriageSpotNotStandable>阻塞</MarriageSpotNotStandable>
+  <MarriageSpotUsable>当前可用。</MarriageSpotUsable>
+  <MarriageSpotNotUsable>无法使用：{0}。</MarriageSpotNotUsable>
+  <MarriageSpotNotStandable>被阻塞</MarriageSpotNotStandable>
   <MarriageSpotDangerous>对{0}太危险</MarriageSpotDangerous>
   <MarriageSpotForbidden>对{0}禁止的</MarriageSpotForbidden>
-  <MarriageSpotReserved>预留</MarriageSpotReserved>
+  <MarriageSpotReserved>已被预留</MarriageSpotReserved>
   <MarriageSpotUnreachable>对{0}无法到达</MarriageSpotUnreachable>
-  <MarriageSpotInPrisonCell>在监狱中</MarriageSpotInPrisonCell>
+  <MarriageSpotInPrisonCell>位于监狱中</MarriageSpotInPrisonCell>
   <NotEnjoyableOutsideTemperature>温度不适宜</NotEnjoyableOutsideTemperature>
 
   <!-- Colonist bar -->
-  <ActivityIconMedicalRest>修养</ActivityIconMedicalRest>
+  <ActivityIconMedicalRest>休养</ActivityIconMedicalRest>
   <ActivityIconSleeping>睡眠</ActivityIconSleeping>
   <ActivityIconFleeing>逃跑</ActivityIconFleeing>
   <ActivityIconAttacking>战斗</ActivityIconAttacking>
@@ -379,20 +379,20 @@
   <ActivityIconBurning>着火</ActivityIconBurning>
 
   <!-- Maintainable -->
-  <DueForMaintenance>需要维护</DueForMaintenance>
-  <DeterioratingDueToLackOfMaintenance>由于缺乏维护而恶化了</DeterioratingDueToLackOfMaintenance>
+  <DueForMaintenance>需要维护。</DueForMaintenance>
+  <DeterioratingDueToLackOfMaintenance>因缺乏维护而开始老化。</DeterioratingDueToLackOfMaintenance>
 
   <!-- Deep drill -->
-  <ProgressToNextLump>继续进行</ProgressToNextLump>
+  <ProgressToNextLump>生产进度</ProgressToNextLump>
   <ResourceBelow>矿脉</ResourceBelow>
 
   <!-- Learning helper -->
   <LearningHelper>教学助手</LearningHelper>
-  <MarkLearned>标记已学习</MarkLearned>
-  <AlreadyLearned>已经学习</AlreadyLearned>
+  <MarkLearned>我学会了！</MarkLearned>
+  <AlreadyLearned>已学习</AlreadyLearned>
   <Filter>筛选</Filter>
 
 
-  <!--<LearningHelperToggleButton>切换是否显示学习助手\n\n「学习助手」在新概念出现时会开启。</LearningHelperToggleButton>-->
+  <!--<LearningHelperToggleButton>切换是否显示教学助手\n\n「教学助手」在新概念出现时会开启。</LearningHelperToggleButton>-->
 
 </LanguageData>
