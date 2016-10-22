@@ -1,13 +1,13 @@
 
 # RimWorld-ChineseSimplified 边缘世界-简体中文
 
-* 百度贴吧-RimWorld吧 http://tieba.baidu.com/f?kw=rimworld
+* [百度贴吧-RimWorld吧](http://tieba.baidu.com/f?kw=rimworld)
 
-* 官方中文Wiki http://rimworld.huiji.wiki/
+* [官方中文Wiki](http://rimworld.huiji.wiki/)
 
-* 下载语言包 https://github.com/Ludeon/RimWorld-ChineseSimplified/archive/master.zip
+* [下载语言包](https://github.com/Ludeon/RimWorld-ChineseSimplified/archive/master.zip)
 
-* 查看更新 https://github.com/Ludeon/RimWorld-ChineseSimplified/commits/master
+* [查看更新](https://github.com/Ludeon/RimWorld-ChineseSimplified/commits/master)
 
 ----
 
@@ -15,7 +15,7 @@ This is the Simplified Chinese translation data for RimWorld.
 
 See this page for license info:
 
-http://ludeon.com/forums/index.php?topic=2933.0
+[http://ludeon.com/forums/index.php?topic=2933.0](http://ludeon.com/forums/index.php?topic=2933.0)
 
 ----
 
@@ -23,7 +23,7 @@ http://ludeon.com/forums/index.php?topic=2933.0
 
 查看此网页以了解许可信息：
 
-http://ludeon.com/forums/index.php?topic=2933.0
+[http://ludeon.com/forums/index.php?topic=2933.0](http://ludeon.com/forums/index.php?topic=2933.0)
 
 ----
 
@@ -67,7 +67,7 @@ http://ludeon.com/forums/index.php?topic=2933.0
 * 删除原有的 ChineseSimplified 文件夹
 * 将新的 ChineseSimplified 文件夹复制进去
 
-（注：根据你的Steam自定义设置，游戏的安装目录可能不同）
+（注：根据你的Steam自定义设置，游戏的安装目录可能不同。）
 
 ----
 
