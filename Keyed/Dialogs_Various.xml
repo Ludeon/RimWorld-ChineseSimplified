@@ -15,19 +15,19 @@
   <RecoveredFromErrorsText>当前激活的这些MOD之间有冲突错误的隐患。\n\n它们彼此之间不兼容，可能版本不同或已经损坏。\n\n所有的MOD已被禁用，可以在MOD菜单中重新激活。</RecoveredFromErrorsText>
 
   <!-- Errors during loading -->
-  <ErrorWhileLoadingAssetsTitle>加载资源时出错</ErrorWhileLoadingAssetsTitle>
-  <ErrorWhileLoadingAssets>加载游戏资源时发生错误。查看错误日志以了解更多信息。</ErrorWhileLoadingAssets>
-  <ErrorWhileLoadingAssets_ModsInfo>当前游戏加载了自定义的MOD -它们可能会引起这些问题。</ErrorWhileLoadingAssets_ModsInfo>
+  <ErrorWhileLoadingAssetsTitle>载入资源时出错</ErrorWhileLoadingAssetsTitle>
+  <ErrorWhileLoadingAssets>载入游戏资源时发生错误。查看错误日志以了解更多信息。</ErrorWhileLoadingAssets>
+  <ErrorWhileLoadingAssets_ModsInfo>当前游戏载入了自定义的MOD -它们可能会引起这些问题。</ErrorWhileLoadingAssets_ModsInfo>
   <ErrorWhileGeneratingMapTitle>生成地图时出错</ErrorWhileGeneratingMapTitle>
   <ErrorWhileGeneratingMap>生成新地图时发生错误。查看错误日志以了解更多信息。</ErrorWhileGeneratingMap>
-  <ErrorWhileLoadingMapTitle>加载地图时出错</ErrorWhileLoadingMapTitle>
-  <ErrorWhileLoadingMap>加载地图时出现错误。查看错误日志以了解更多信息。</ErrorWhileLoadingMap>
+  <ErrorWhileLoadingMapTitle>载入地图时出错</ErrorWhileLoadingMapTitle>
+  <ErrorWhileLoadingMap>载入地图时出现错误。查看错误日志以了解更多信息。</ErrorWhileLoadingMap>
 
   <!-- Unloaded mod with an assembly -->
-  <ModWithAssemblyWasUnloaded>游戏无法从未激活的MOD中加载完整的修改代码，因此未被激活的MOD可能依然会生效。\n\n我们推荐您退出并重启游戏，以正确的加载MOD。</ModWithAssemblyWasUnloaded>
+  <ModWithAssemblyWasUnloaded>游戏无法从未激活的MOD中载入完整的修改代码，因此未被激活的MOD可能依然会生效。\n\n我们推荐您退出并重启游戏，以正确的载入MOD。</ModWithAssemblyWasUnloaded>
 
   <!-- Missing Steam -->
-  <SteamClientMissing>无法初始化Steam API。可能原因：\n\nSteam未运行。\n在Steam之外启动，且无法读取steam_appid.txt。\n通过和Steam客户端不同的权限启动（比如「管理员身份」）。\n\n在大部分时候，重启你的电脑即可解决这个问题。\n\n游戏本版本需要Steam才可运行，现在将会退出。</SteamClientMissing>
+  <SteamClientMissing>无法初始化Steam API。可能原因：\n\nSteam未运行。\n在Steam之外启动，且无法载入steam_appid.txt。\n通过和Steam客户端不同的权限启动（比如「管理员身份」）。\n\n在大部分时候，重启你的电脑即可解决这个问题。\n\n游戏本版本需要Steam才可运行，现在将会退出。</SteamClientMissing>
 
   <!-- Long events -->
   <InitializingInterface>初始化界面</InitializingInterface>
@@ -39,7 +39,7 @@
   <LoadingWorld>载入世界</LoadingWorld>
   <LoadingMap>载入地图</LoadingMap>
   <InitializingMap>初始化地图</InitializingMap>
-  <SpawningAllThings>生成所有物件</SpawningAllThings>
+  <SpawningAllThings>生成所有物品</SpawningAllThings>
 
   <!-- Save/load -->
   <SaveGameButton>保存</SaveGameButton>
@@ -52,12 +52,12 @@
   <LoadingLongEvent>载入中</LoadingLongEvent>
   <SavingLongEvent>保存中</SavingLongEvent>
   <PermadeathModeSaveSuffix>（永久死亡模式）</PermadeathModeSaveSuffix>
-  <SaveIsFromDifferentGameVersion>运行的游戏版本是 {0} 但是存档数据的版本是 {1}，二者版本完全不同的。\n\n尝试加载不可能成功。</SaveIsFromDifferentGameVersion>
-  <SaveIsFromDifferentGameBuild>运行的游戏版本是{0} 但是存档数据的版本是 {1}， 二者数据结构不同。\n\n尝试加载有可能成功。</SaveIsFromDifferentGameBuild>
-  <SaveIsFromThisGameBuild>存档数据版本是当前游戏版本，可以正确加载。</SaveIsFromThisGameBuild>
-  <SaveIsUnknownFormat>存档数据格式错误，无法正确加载。</SaveIsUnknownFormat>
+  <SaveIsFromDifferentGameVersion>运行的游戏版本是 {0} 但是存档数据的版本是 {1}，二者版本完全不同的。\n\n尝试载入不可能成功。</SaveIsFromDifferentGameVersion>
+  <SaveIsFromDifferentGameBuild>运行的游戏版本是{0} 但是存档数据的版本是 {1}， 二者数据结构不同。\n\n尝试载入有可能成功。</SaveIsFromDifferentGameBuild>
+  <SaveIsFromThisGameBuild>存档数据版本是当前游戏版本，可以正确载入。</SaveIsFromThisGameBuild>
+  <SaveIsUnknownFormat>存档数据格式错误，无法正确载入。</SaveIsUnknownFormat>
   <ProblemSavingFile>保存文件{0}时出现了错误：\n\n{1}\n\n查看错误日志以了解更多信息。</ProblemSavingFile>
-  <LoadAnyway>仍然加载</LoadAnyway>
+  <LoadAnyway>仍然载入</LoadAnyway>
 
   <!-- Colony naming-->
   <NameColonyMessage>大家都知道你不想永远呆在这块石头上。但{0}建议你还是应该给你的殖民地起个名字。\n\n它叫什么比较好？</NameColonyMessage>
@@ -74,8 +74,8 @@
 
   <!-- Save game incompatible warning -->
   <VersionMismatch>版本不匹配</VersionMismatch>
-  <SaveGameIncompatibleWarningText>地图存档版本为{0}，当前运行游戏版本为{1}。\n\n 读取这个存档很可能会造成游戏崩溃或产生游戏BUG。</SaveGameIncompatibleWarningText>
-  <WorldFileVersionMismatch>世界生成版本为{0}，当前运行游戏版本为{1}。\n\n 读取这个世界很可能会造成游戏崩溃或产生游戏BUG。建议你从新生成一个新世界。</WorldFileVersionMismatch>
+  <SaveGameIncompatibleWarningText>地图存档版本为{0}，当前运行游戏版本为{1}。\n\n 载入这个存档很可能会造成游戏崩溃或产生游戏BUG。</SaveGameIncompatibleWarningText>
+  <WorldFileVersionMismatch>世界生成版本为{0}，当前运行游戏版本为{1}。\n\n 载入这个世界很可能会造成游戏崩溃或产生游戏BUG。建议你重新生成一个新世界。</WorldFileVersionMismatch>
   <FileIncompatibleWarning>保存该文件的游戏版本为{0}。\n当前运行游戏版本为{1}\n\n载入该文件可能导致错误或崩溃。</FileIncompatibleWarning>
   <ModsMismatchWarningTitle>Mod不匹配</ModsMismatchWarningTitle>
   <ModsMismatchWarningText>存档的Mod激活设定和当前游戏运行的设定不同，你改动了Mod，根据Mod的内容有可能发生问题，也有可能正常。\n\n存档的Mod激活设定是（按照顺序）：\n\n{0}\n\n当前运行的MOD激活设定是（按照顺序）：\n\n{1}</ModsMismatchWarningText>
@@ -175,7 +175,7 @@
   <CoverEffectivenessExplanation>在枪战时该物体所能提供的掩护效果，更高的数值能够挡住更多的伤害。</CoverEffectivenessExplanation>
   <MedicineXpGainFactor>经验获得系数</MedicineXpGainFactor>
   <BodyPartEfficiency>身体部件效率</BodyPartEfficiency>
-  <MoodChange>情绪改变</MoodChange>
+  <MoodChange>心情值改变</MoodChange>
   <Wildness>野性</Wildness>
   <WildnessExplanation>动物的野性越高，越难驯服、训练和处理。</WildnessExplanation>
   <AnimalFilthRate>动物污物产生速度</AnimalFilthRate>
@@ -242,7 +242,7 @@
   <DrugColumnLabel>成瘾品</DrugColumnLabel>
   <DrugUsageColumnLabel>使用</DrugUsageColumnLabel>
   <FrequencyColumnLabel>频率</FrequencyColumnLabel>
-  <MoodThresholdColumnLabel>情绪值阈值</MoodThresholdColumnLabel>
+  <MoodThresholdColumnLabel>心情值阈值</MoodThresholdColumnLabel>
   <JoyThresholdColumnLabel>快乐度阈值</JoyThresholdColumnLabel>
   <TakeToInventoryColumnLabel>预支数量</TakeToInventoryColumnLabel>
   <NoDrugsBrackets>（没有成瘾品）</NoDrugsBrackets>
@@ -254,7 +254,7 @@
   <DrugNameColumnDesc>成瘾品的名称。</DrugNameColumnDesc>
   <DrugUsageColumnDesc>成瘾品是否允许使用。</DrugUsageColumnDesc>
   <FrequencyColumnDesc>成瘾品的使用频率。</FrequencyColumnDesc>
-  <MoodThresholdColumnDesc>当情绪值低于该值时会开始使用成瘾品。</MoodThresholdColumnDesc>
+  <MoodThresholdColumnDesc>当心情值低于该值时会开始使用成瘾品。</MoodThresholdColumnDesc>
   <JoyThresholdColumnDesc>当娱乐值低于该值时会开始使用成瘾品。</JoyThresholdColumnDesc>
   <TakeToInventoryColumnDesc>每次允许额外拿走的成瘾品数量，避免每次都需要去仓库取。</TakeToInventoryColumnDesc>
   <DrugUsageTipForJoy>娱乐目的\n\n为了消除压力及在社交活动时服用。n\n注意，即使是在禁用成瘾品的方针下，有些具有某些特性的殖民者依然会无视规定使用成瘾品。</DrugUsageTipForJoy>

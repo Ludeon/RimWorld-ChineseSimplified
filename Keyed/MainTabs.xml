@@ -5,11 +5,11 @@
   <ManualPriorities>自定义优先级</ManualPriorities>
   <HigherPriority>高优先级</HigherPriority>
   <LowerPriority>低优先级</LowerPriority>
-  <RelevantSkills>相关技能：{0}\n平均相关技能：{1} / {2}</RelevantSkills>
-  <ClickToJumpTo>点击并跳跃到：</ClickToJumpTo>
-  <CannotDoThisWork>{0}不能做这种工作。</CannotDoThisWork>
+  <RelevantSkills>相关技能：{0}\n技能等级（平均值）：{1} / {2}</RelevantSkills>
+  <ClickToJumpTo>点击转至：</ClickToJumpTo>
+  <CannotDoThisWork>{0}无法从事这种类型的工作。</CannotDoThisWork>
   <NoneBrackets>（无）</NoneBrackets>
-  <IncapableOfWorkTypeBecauseOfCapacities>因这个殖民者的健康状况，他不能从事这种类型的工作。</IncapableOfWorkTypeBecauseOfCapacities>
+  <IncapableOfWorkTypeBecauseOfCapacities>该殖民者因健康原因无法从事这种类型的工作。</IncapableOfWorkTypeBecauseOfCapacities>
   <EmergencyWorkMarker>E</EmergencyWorkMarker>
 
   <!-- Assign tab -->
@@ -25,7 +25,7 @@
   <!-- Restrictions tab -->
   <Copy>复制</Copy>
   <Paste>粘贴</Paste>
-  <AllowedArea>允许活动区域</AllowedArea>
+  <AllowedArea>活动区域</AllowedArea>
 
   <!-- Animals tab -->
   <Master>主人</Master>
@@ -33,12 +33,12 @@
 
   <!-- Factions tab -->
   <Hostile>敌对</Hostile>
-  <HostileTo>与 {0} 敌对</HostileTo>
-  <CurrentGoodwill>和这个派系的当前好感度。</CurrentGoodwill>
+  <HostileTo>敌对派系：{0}</HostileTo>
+  <CurrentGoodwill>此派系当前对你的好感度。</CurrentGoodwill>
 
   <!-- History tab - subtabs -->
-  <Graph>图表</Graph>
-  <Statistics>统计</Statistics>
+  <Graph>统计图表</Graph>
+  <Statistics>统计数据</Statistics>
 
   <!-- History tab - Graphs -->
   <SelectGraph>选择图表</SelectGraph>
@@ -51,21 +51,21 @@
   <External>外部</External>
 
   <!-- History tab - Statistics -->
-  <Playtime>游戏时间</Playtime>
-  <Storyteller>故事叙述者</Storyteller>
-  <ColonyWealthTotal>殖民地财富</ColonyWealthTotal>
-  <ColonyWealthItems>殖民地财富（物品）</ColonyWealthItems>
-  <ColonyWealthBuildings>殖民地财富（建筑）</ColonyWealthBuildings>
-  <NumThreatBigs>威胁事件数</NumThreatBigs>
-  <NumEnemyRaids>敌人袭击数</NumEnemyRaids>
-  <DamageTaken>受到伤害量</DamageTaken>
-  <ColonistsKilled>殖民者死亡</ColonistsKilled>
-  <ColonistsLaunched>发射到太空的殖民者</ColonistsLaunched>
+  <Playtime>总游戏时间</Playtime>
+  <Storyteller>当前故事叙述者</Storyteller>
+  <ColonyWealthTotal>殖民地资产</ColonyWealthTotal>
+  <ColonyWealthItems>殖民地资产（物品）</ColonyWealthItems>
+  <ColonyWealthBuildings>殖民地资产（建筑）</ColonyWealthBuildings>
+  <NumThreatBigs>大型威胁事件次数</NumThreatBigs>
+  <NumEnemyRaids>敌人袭击事件次数</NumEnemyRaids>
+  <DamageTaken>承受伤害总量</DamageTaken>
+  <ColonistsKilled>已死亡的殖民者总数</ColonistsKilled>
+  <ColonistsLaunched>进入太空的殖民者总数</ColonistsLaunched>
 
   <!-- Research tab -->
   <ProjectTechLevel>项目科技等级</ProjectTechLevel>
-  <YourTechLevel>你的科技等级</YourTechLevel>
-  <ResearchCostMultiplier>工作量倍数</ResearchCostMultiplier>
-  <ResearchCostComparison>由于你的科技等级，项目基本工作量将会由{0}变成{1}。</ResearchCostComparison>
+  <YourTechLevel>自身科技等级</YourTechLevel>
+  <ResearchCostMultiplier>研究工作量加成</ResearchCostMultiplier>
+  <ResearchCostComparison>项目基础工作量：{0}，科技等级加成后工作量：{1}。</ResearchCostComparison>
 
 </LanguageData>
