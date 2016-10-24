@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <FactionGreetingHostile>{0} 愤怒地对着屏幕大骂了几句然后断开了连接。</FactionGreetingHostile>
+  <FactionGreetingHostile>{0} 愤怒地对着麦克风大骂了几句然后断开了连接。</FactionGreetingHostile>
   <FactionGreetingWary>{0} 谨慎地问候了 {1} 并询问你的来意。</FactionGreetingWary>
   <FactionGreetingWarm>{0} 亲切地问候了 {1} 并询问了殖民地的近况。</FactionGreetingWarm>
 
@@ -9,21 +9,21 @@
 
   <!-- gift offer -->
   <OfferGift>赠予礼物</OfferGift>
-  <NeedSilverLaunchable>需要{0}可以发射的白银。</NeedSilverLaunchable>
+  <NeedSilverLaunchable>需要有{0}白银在轨道交易信标附近</NeedSilverLaunchable>
   <NotEnoughSilver>白银不足</NotEnoughSilver>
   <SilverForGoodwill>每{0}白银增加{1}好感度</SilverForGoodwill>
-  <SilverGiftSent>{0}的代表对你表示感谢。\n\n（好感度增加{1}）。</SilverGiftSent>
+  <SilverGiftSent>{0}对你表示感谢。\n\n（好感度增加{1}）。</SilverGiftSent>
 
   <!-- trade caravan request -->
   <RequestTrader>请求派出贸易商队（花费：{0}白银）</RequestTrader>
   <ChooseTraderKind>{0}询问你需要什么类型的商队。</ChooseTraderKind>
-  <TraderSent>{0}同意了向你派出一支商队，他们将在数日内抵达。</TraderSent>
+  <TraderSent>{0}同意向你派出一支商队，他们将在数日内抵达。</TraderSent>
 
   <!-- military aid request -->
-  <RequestMilitaryAid>请求立即派出军事支援（{0}好感度）</RequestMilitaryAid>
-  <MilitaryAidConfirmMutualEnemy>{0}不会帮你攻击不是他们的敌人的派系。这包括目前对你有威胁的人中的部分人，{1}。你仍然坚持呼叫支援吗？</MilitaryAidConfirmMutualEnemy>
-  <CallConfirm>是，依然呼叫他们。</CallConfirm>
+  <RequestMilitaryAid>请求立即派出军事支援（花费：{0}好感度）</RequestMilitaryAid>
+  <MilitaryAidConfirmMutualEnemy>{0}不会帮你攻击他们的非敌对派系。这包括一些目前正在威胁你的 {1} 成员。你仍然坚持呼叫支援吗？</MilitaryAidConfirmMutualEnemy>
+  <CallConfirm>是，仍然呼叫他们。</CallConfirm>
   <CallCancel>不，算了。</CallCancel>
-  <MilitaryAidSent>{0} 同意派遣士兵来帮助你。</MilitaryAidSent>
+  <MilitaryAidSent>{0}同意派遣士兵来帮助你。</MilitaryAidSent>
 
 </LanguageData>
