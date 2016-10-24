@@ -29,7 +29,7 @@
   <CommandClearPrioritizedWorkDesc>清除任何你指定的优先任务。该角色将根据自身工作优先度自行选择工作。</CommandClearPrioritizedWorkDesc>
 
   <CommandCancelConstructionLabel>取消</CommandCancelConstructionLabel>
-  <CommandCancelConstructionDesc>取消建造该建筑。</CommandCancelConstructionDesc>
+  <CommandCancelConstructionDesc>取消建造命令。</CommandCancelConstructionDesc>
 
   <CommandGetOutOfBedLabel>起床</CommandGetOutOfBedLabel>
   <CommandGetOutOfBedDesc>离开当前的床。</CommandGetOutOfBedDesc>
@@ -93,7 +93,7 @@
 
   <!-- Door -->
   <CommandToggleDoorForbid>允许通行</CommandToggleDoorForbid>
-  <CommandToggleDoorForbidDesc>当此门禁止通行时，殖民者和友方派系不会通过此门。但不影响敌对派系及动物的行动。</CommandToggleDoorForbidDesc>
+  <CommandToggleDoorForbidDesc>此门的通行状态。殖民者不会通过禁止通行的门，但不影响其他派系的人。</CommandToggleDoorForbidDesc>
   <CommandToggleDoorHoldOpen>保持敞门</CommandToggleDoorHoldOpen>
   <CommandToggleDoorHoldOpenDesc>启用时，殖民者将不会关闭这道门，并保持一直敞开的状态。\n\n门敞开时任何人或动物都能通过，包括敌人。</CommandToggleDoorHoldOpenDesc>
 
@@ -119,11 +119,11 @@
 
   <!-- Trap -->
   <CommandAutoRearm>自动重置</CommandAutoRearm>
-  <CommandAutoRearmDesc>如果启用，该陷阱会在触发后自动被指派重置工作。</CommandAutoRearmDesc>
+  <CommandAutoRearmDesc>启用时，该陷阱会在触发后自动被指派重置工作。</CommandAutoRearmDesc>
 
   <!-- Animal control -->
   <CommandReleaseAnimalsLabel>辅助进攻</CommandReleaseAnimalsLabel>
-  <CommandReleaseAnimalsDesc>如果启用，受驯的动物可以上前攻击远处目标。如果禁用，它们则在身边保护主人。</CommandReleaseAnimalsDesc>
+  <CommandReleaseAnimalsDesc>启用时，经过训练的动物可以上前攻击远处目标。禁用时，它们则在身边保护主人。</CommandReleaseAnimalsDesc>
 
   <!-- Squad attack -->
   <CommandSquadAttack>攻击</CommandSquadAttack>
