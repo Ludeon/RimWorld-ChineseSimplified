@@ -16,7 +16,7 @@
   <PriceTypeCheap>便宜</PriceTypeCheap>
   <PriceTypeNormal>一般</PriceTypeNormal>
   <PriceTypeExpensive>昂贵</PriceTypeExpensive>
-  <PriceTypeExorbitant>极度昂贵</PriceTypeExorbitant>
+  <PriceTypeExorbitant>非常昂贵</PriceTypeExorbitant>
 
   <!-- Storage priority labels -->
   <StoragePriorityUnstored>不储存</StoragePriorityUnstored>
@@ -34,9 +34,9 @@
   <FoodTypeFlags_AnimalProduct>畜产品</FoodTypeFlags_AnimalProduct>
   <FoodTypeFlags_Plant>植物</FoodTypeFlags_Plant>
   <FoodTypeFlags_Tree>树木</FoodTypeFlags_Tree>
-  <FoodTypeFlags_Meal>烹调食物</FoodTypeFlags_Meal>
-  <FoodTypeFlags_Processed>加工食物</FoodTypeFlags_Processed>
-  <FoodTypeFlags_Liquor>酒</FoodTypeFlags_Liquor>
+  <FoodTypeFlags_Meal>烹调食品</FoodTypeFlags_Meal>
+  <FoodTypeFlags_Processed>加工食品</FoodTypeFlags_Processed>
+  <FoodTypeFlags_Liquor>酒类</FoodTypeFlags_Liquor>
   <FoodTypeFlags_Kibble>动物饲料</FoodTypeFlags_Kibble>
 
   <!-- Quality category -->
@@ -83,7 +83,7 @@
   <EItemUpdateStatus_k_EItemUpdateStatusInvalid>无效</EItemUpdateStatus_k_EItemUpdateStatusInvalid>
   <EItemUpdateStatus_k_EItemUpdateStatusPreparingConfig>准备配置数据</EItemUpdateStatus_k_EItemUpdateStatusPreparingConfig>
   <EItemUpdateStatus_k_EItemUpdateStatusPreparingContent>准备内容文件</EItemUpdateStatus_k_EItemUpdateStatusPreparingContent>
-  <EItemUpdateStatus_k_EItemUpdateStatusUploadingContent>上传内容</EItemUpdateStatus_k_EItemUpdateStatusUploadingContent>
+  <EItemUpdateStatus_k_EItemUpdateStatusUploadingContent>上传内容文件</EItemUpdateStatus_k_EItemUpdateStatusUploadingContent>
   <EItemUpdateStatus_k_EItemUpdateStatusUploadingPreviewFile>上传预览文件</EItemUpdateStatus_k_EItemUpdateStatusUploadingPreviewFile>
   <EItemUpdateStatus_k_EItemUpdateStatusCommittingChanges>提交变更</EItemUpdateStatus_k_EItemUpdateStatusCommittingChanges>
 
@@ -93,16 +93,16 @@
 
   <!-- Trainable intelligence -->
   <TrainableIntelligence_None>无</TrainableIntelligence_None>
-  <TrainableIntelligence_Simple>简单</TrainableIntelligence_Simple>
+  <TrainableIntelligence_Simple>低级</TrainableIntelligence_Simple>
   <TrainableIntelligence_Intermediate>中级</TrainableIntelligence_Intermediate>
   <TrainableIntelligence_Advanced>高级</TrainableIntelligence_Advanced>
 
   <!-- Medical care category -->
   <MedicalCareCategory_NoCare>无医生照顾</MedicalCareCategory_NoCare>
-  <MedicalCareCategory_NoMeds>有医生照顾，但没有药物供给</MedicalCareCategory_NoMeds>
-  <MedicalCareCategory_HerbalOrWorse>提供草药或以下的药物</MedicalCareCategory_HerbalOrWorse>
-  <MedicalCareCategory_NormalOrWorse>提供普通药物或以下的药物</MedicalCareCategory_NormalOrWorse>
-  <MedicalCareCategory_Best>提供最好的医疗照顾</MedicalCareCategory_Best>
+  <MedicalCareCategory_NoMeds>有医生照顾，无药物</MedicalCareCategory_NoMeds>
+  <MedicalCareCategory_HerbalOrWorse>提供草药等级及以下的药物</MedicalCareCategory_HerbalOrWorse>
+  <MedicalCareCategory_NormalOrWorse>提供普通药物等级或以下的药物</MedicalCareCategory_NormalOrWorse>
+  <MedicalCareCategory_Best>提供最高等级的医疗照顾</MedicalCareCategory_Best>
 
   <!-- Hostility response mode -->
   <HostilityResponseMode_Ignore>无视</HostilityResponseMode_Ignore>
@@ -129,12 +129,12 @@
 
   <!-- Pawn generation context -->
   <PawnGenerationContext_All>所有角色</PawnGenerationContext_All>
-  <PawnGenerationContext_PlayerStarter>玩家开始角色</PawnGenerationContext_PlayerStarter>
+  <PawnGenerationContext_PlayerStarter>玩家初始角色</PawnGenerationContext_PlayerStarter>
   <PawnGenerationContext_NonPlayer>NPC</PawnGenerationContext_NonPlayer>
 
   <!-- Animal name display mode -->
   <ShowAnimalNames>显示动物名称</ShowAnimalNames>
-  <AnimalNameDisplayMode_TameNamed>驯服（仅已命名的）</AnimalNameDisplayMode_TameNamed>
+  <AnimalNameDisplayMode_TameNamed>驯服（已命名）</AnimalNameDisplayMode_TameNamed>
   <AnimalNameDisplayMode_TameAll>驯服（所有）</AnimalNameDisplayMode_TameAll>
 
   <!-- Temperature -->
@@ -143,7 +143,7 @@
   <Kelvin>开尔文</Kelvin>
 
   <!-- Spoil reason -->
-  <SpoilReason_Freezing>因低温而变质</SpoilReason_Freezing>
-  <SpoilReason_HighTemperature>因高温而变质</SpoilReason_HighTemperature>
+  <SpoilReason_Freezing>因低温而变质。</SpoilReason_Freezing>
+  <SpoilReason_HighTemperature>因高温而变质。</SpoilReason_HighTemperature>
 
 </LanguageData>

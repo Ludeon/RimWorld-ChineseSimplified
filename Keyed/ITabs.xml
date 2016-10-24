@@ -22,7 +22,7 @@
 
   <!-- Bills tab  -->
   <AddBill>添加清单</AddBill>
-  <RecipeRequiresSkills>配方{0}要求如下技能等级。你的殖民者中没有达到技能要求的人，所以没有人完成这个清单。</RecipeRequiresSkills>
+  <RecipeRequiresSkills>配方{0}有以下技能要求。你的殖民者中没有达到技能要求的人，因此无人能完成这份清单。</RecipeRequiresSkills>
   <MinimumSkill>最低技能要求</MinimumSkill>
   <SuspendedCaps>已暂停</SuspendedCaps>
   <BoundWorkerIs>绑定工作者：{0}</BoundWorkerIs>
@@ -70,11 +70,11 @@
   <Harvest>摘取</Harvest>
   <RemoveOrgan>摘除</RemoveOrgan>
   <MemoryLower>记忆</MemoryLower>
-  <SocialInteractionsLower>社交影响</SocialInteractionsLower>
+  <SocialInteractionsLower>社交互动</SocialInteractionsLower>
   <HungerRate>饥饿度</HungerRate>
-  <Tiredness>劳累度</Tiredness>
+  <Tiredness>疲劳度</Tiredness>
   <PainFactor>痛觉系数</PainFactor>
-  <PreventsInfection>抗病毒</PreventsInfection>
+  <PreventsInfection>抗感染</PreventsInfection>
 
 
   <!-- Medical - Body and activities condition -->
@@ -91,13 +91,13 @@
   <LittlePain>轻微</LittlePain>
   <MediumPain>中等</MediumPain>
   <SeverePain>强烈</SeverePain>
-  <ExtremePain>极度</ExtremePain>
+  <ExtremePain>极强</ExtremePain>
 
 
   <!-- Training tab-->
   <TrainableIntelligence>智力级别</TrainableIntelligence>
-  <CannotTrainNotSmartEnough>要求智力级别：{0}。</CannotTrainNotSmartEnough>
-  <CannotTrainTooSmall>{0}太小，无法训练。</CannotTrainTooSmall>
+  <CannotTrainNotSmartEnough>智力级别要求：{0}。</CannotTrainNotSmartEnough>
+  <CannotTrainTooSmall>{0}尚在幼年，无法训练。</CannotTrainTooSmall>
 
   <TrainingNeedsPrerequisite>先决条件：{0}</TrainingNeedsPrerequisite>
 
@@ -105,11 +105,11 @@
   <NoRelationships>（无关系）</NoRelationships>
   <Kidnapped>被绑架</Kidnapped>
   <Slave>奴隶</Slave>
-  <FactionLeader>派系领袖</FactionLeader>
-  <OpinionOf>对{0}的看法</OpinionOf>
+  <FactionLeader>派系首领</FactionLeader>
+  <OpinionOf>对{0}的印象</OpinionOf>
   <SomeonesOpinionOfMe>{0}对我的印象</SomeonesOpinionOfMe>
   <IAmDead>我死了</IAmDead>
-  <IAmPsychopath>我是心理变态</IAmPsychopath>
+  <IAmPsychopath>我心理变态</IAmPsychopath>
 
   <!-- Gear tab -->
   <AverageArmor>平均护甲</AverageArmor>

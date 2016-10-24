@@ -2,24 +2,24 @@
 <LanguageData>
 
   <!-- Audiovisuals -->
-  <Audiovisuals>音频/视频</Audiovisuals>
+  <Audiovisuals>图像/声音</Audiovisuals>
   <GameVolume>游戏音量</GameVolume>
   <MusicVolume>音乐音量</MusicVolume>
   <Antialiasing>反锯齿</Antialiasing>
 
   <!-- Gameplay -->
   <EdgeScreenScroll>屏幕边缘滚动</EdgeScreenScroll>
-  <PauseOnLoad>读取游戏后暂停</PauseOnLoad>
+  <PauseOnLoad>载入游戏后暂停游戏</PauseOnLoad>
   <PauseOnUrgentLetter>紧急提示时暂停游戏</PauseOnUrgentLetter>
-  <CustomCursor>替换指针</CustomCursor>
+  <CustomCursor>替换鼠标指针</CustomCursor>
   <KeyboardConfig>按键设置</KeyboardConfig>
   <ChooseLanguage>选择语言</ChooseLanguage>
-  <ResetAdaptiveTutor>重设初学者教程</ResetAdaptiveTutor>
-  <AdaptiveTutorIsReset>初学者教程已重设，现在将会从头教你如何游戏。</AdaptiveTutorIsReset>
-  <RunInBackground>最小化后继续运行</RunInBackground>
+  <ResetAdaptiveTutor>重置教程助手</ResetAdaptiveTutor>
+  <AdaptiveTutorIsReset>教程助手已重置。现在教程助手将会从头教你如何游戏。</AdaptiveTutorIsReset>
+  <RunInBackground>后台运行模式</RunInBackground>
   <DevelopmentMode>开发者模式</DevelopmentMode>
-  <ResetModsConfigOnCrash>崩溃后自动重设Mod配置</ResetModsConfigOnCrash>
-  <LogVerbose>详细记录</LogVerbose>
+  <ResetModsConfigOnCrash>崩溃后重置Mod配置</ResetModsConfigOnCrash>
+  <LogVerbose>详细日志</LogVerbose>
   <OpenSaveGameDataFolder>打开存档文件夹</OpenSaveGameDataFolder>
   <NamesYouWantToSee>在游戏中或者游戏背景故事中你想看到的角色姓氏：</NamesYouWantToSee>
   <ChangeStoryteller>选择故事叙述者</ChangeStoryteller>
@@ -27,7 +27,7 @@
   <TemperatureMode>温度单位</TemperatureMode>
   <ShowRealtimeClock>显示现实时钟</ShowRealtimeClock>
   <PlantWindSway>植物随风飘动</PlantWindSway>
-  <MaxPermadeathAutosaveIntervalInfo>永久死亡模式的自动存档间隔最大是{0}天。</MaxPermadeathAutosaveIntervalInfo>
+  <MaxPermadeathAutosaveIntervalInfo>永久死亡模式下自动存档的最大间隔为{0}天。</MaxPermadeathAutosaveIntervalInfo>
 
   <!-- Resolution -->
   <Resolution>分辨率</Resolution>
@@ -37,6 +37,6 @@
   <Privacy>隐私</Privacy>
   <UserName>用户名</UserName>
   <ChooseHistoryUploadPref>游戏数据上传选项。</ChooseHistoryUploadPref>
-  <AboutHistoryUpload>玩家的游戏数据可以帮助开发者更好得平衡游戏。如果你同意，每隔{0}天你的游戏数据会被自动上传到RimWorld服务器并被分析（以及在游戏结束等其他情况下上传）。上传的游戏数据只包含关于游戏的统计和历史记录，不包含除了用户名之外的任何个人信息，完全匿名发送。</AboutHistoryUpload>
+  <AboutHistoryUpload>玩家的游戏数据可以帮助开发者更好得平衡游戏。 同意后，每隔{0}个游戏日（或在游戏结束等特殊事件时），你的游戏数据会被自动上传到RimWorld服务器并被分析。上传内容只会包含关于游戏的统计数据和历史记录，不包含除了用户名之外的任何个人信息，完全匿名发送。</AboutHistoryUpload>
 
 </LanguageData>

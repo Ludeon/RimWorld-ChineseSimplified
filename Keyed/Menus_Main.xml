@@ -7,21 +7,21 @@
   <BackToGame>回到游戏</BackToGame>
   <ReviewScenario>查看剧本</ReviewScenario>
   <Save>保存</Save>
-  <LoadGame>读取</LoadGame>
+  <LoadGame>载入</LoadGame>
   <Options>选项</Options>
-  <Mods>Mod</Mods>
+  <Mods>Mod配置</Mods>
   <Credits>制作组</Credits>
-  <QuitToMainMenu>退回主菜单</QuitToMainMenu>
+  <QuitToMainMenu>退出到主菜单</QuitToMainMenu>
   <SaveAndQuitToMainMenu>保存并退出到主菜单</SaveAndQuitToMainMenu>
-  <QuitToOS>退出游戏</QuitToOS>
-  <SaveAndQuitToOS>保持并退出游戏</SaveAndQuitToOS>
+  <QuitToOS>退出到桌面</QuitToOS>
+  <SaveAndQuitToOS>保存并退出到桌面</SaveAndQuitToOS>
   <FictionPrimer>背景设定</FictionPrimer>
-  <LudeonBlog>Ludeon博客</LudeonBlog>
-  <Forums>论坛</Forums>
+  <LudeonBlog>制作组Ludeon博客</LudeonBlog>
+  <Forums>官方论坛</Forums>
   <OfficialWiki>官方维基</OfficialWiki>
   <TynansTwitter>Tynan的twitter</TynansTwitter>
   <TynansDesignBook>Tynan的设计指南书</TynansDesignBook>
-  <HelpTranslate>帮助翻译RimWorld</HelpTranslate>
+  <HelpTranslate>协助翻译RimWorld</HelpTranslate>
   <BuySoundtrack>购买原声</BuySoundtrack>
   <CreateWorld>创建世界</CreateWorld>
 
@@ -37,38 +37,38 @@
   <!--=========== Select world ===================-->
   <SelectWorld>选择世界</SelectWorld>
   <WorldChooseButton>选择</WorldChooseButton>
-  <NoWorldsFilesFound>没有发现世界文件。请先创造一个世界。</NoWorldsFilesFound>
+  <NoWorldsFilesFound>未能找到任何世界文件。请先创造一个世界。</NoWorldsFilesFound>
 
   <!--=========== Version info ==========-->
-  <BuildNowAvailable>新版版本{0}已经发布。查看Ludeon.com以了解更多信息。</BuildNowAvailable>
-  <BuildUpToDate>版本已是最新。</BuildUpToDate>
+  <BuildNowAvailable>新版本{0}已经发布。访问Ludeon.com以了解更多信息。</BuildNowAvailable>
+  <BuildUpToDate>当前版本已是最新。</BuildUpToDate>
   <ErrorGettingVersionInfo>获取版本信息失败：{0}</ErrorGettingVersionInfo>
-  <LoadingVersionInfo>正在加载版本信息……</LoadingVersionInfo>
+  <LoadingVersionInfo>正在获取版本信息……</LoadingVersionInfo>
 
   <!--=========== World generator =========-->
   <GenerateWorld>生成世界</GenerateWorld>
 
   <!--=========== Mods config ==========-->
   <OpenSteamWorkshop>打开Steam创意工坊</OpenSteamWorkshop>
-  <GetModsFromForum>从论坛获取MOD</GetModsFromForum>
+  <GetModsFromForum>从论坛获取Mod</GetModsFromForum>
   <OpenModsDataFolder>打开Mod文件夹</OpenModsDataFolder>
-  <ConfirmDisableCoreMod>你确定要关闭Core（核心）模组吗？除非有完全替代游戏核心所有功能的模组，否则游戏将完全无法运行。\n\n记住，其它模组能通过使用同样的defName来覆盖游戏内的设定。</ConfirmDisableCoreMod>
-  <ConfirmDeleteMod>你确定要删除所有{0}的内容？</ConfirmDeleteMod>
+  <ConfirmDisableCoreMod>你确定要禁用核心模组吗？除非有完全替代游戏核心所有功能的模组，否则游戏将完全无法运行。\n\n记住，其它模组能通过使用同样的defName来覆盖游戏内的设定。</ConfirmDisableCoreMod>
+  <ConfirmDeleteMod>你确定要删除{0}的所有内容？</ConfirmDeleteMod>
   <Unsubscribe>取消订阅</Unsubscribe>
-  <ConfirmUnsubscribe>你确定要取消订阅此内容（Mod/剧本）吗？内容：{0}</ConfirmUnsubscribe>
+  <ConfirmUnsubscribe>你确定要取消订阅{0}？</ConfirmUnsubscribe>
   <Author>作者</Author>
   <WorkshopPage>创意工坊页面</WorkshopPage>
   <UploadToSteamWorkshop>上传到Steam创意工坊</UploadToSteamWorkshop>
-  <UpdateOnSteamWorkshop>更新Steam创意工坊</UpdateOnSteamWorkshop>
-  <UploadAlreadyInProgress>正在更新中。</UploadAlreadyInProgress>
-  <WorkshopSubmissionFailed>创意工坊提交失败。\n\n原因：{0}</WorkshopSubmissionFailed>
-  <WorkshopUploadSucceeded>提交这个MOD。你将同意Steam创意工坊的Workshop服务条款。点击这里获得更多的信息。</WorkshopUploadSucceeded>
+  <UpdateOnSteamWorkshop>更新到Steam创意工坊</UpdateOnSteamWorkshop>
+  <UploadAlreadyInProgress>正在上传中。</UploadAlreadyInProgress>
+  <WorkshopSubmissionFailed>提交至创意工坊时失败。\n\n原因：{0}</WorkshopSubmissionFailed>
+  <WorkshopUploadSucceeded>已成功上传{0}。</WorkshopUploadSucceeded>
   <Downloading>下载中</Downloading>
   <Source>资源</Source>
   <ModTargetVersion>适配版本：{0}</ModTargetVersion>
   <ModNotMadeForThisVersion>该Mod并不适配于当前RimWorld版本，很可能无法正常运行。</ModNotMadeForThisVersion>
-  <MessageModNeedsWellFormattedTargetVersion>Mod需要在About.xml中注明适配的游戏版本。比如：&lt;targetVersion&gt;{0}&lt;/targetVersion&gt;.</MessageModNeedsWellFormattedTargetVersion>
-  <DragToReorder>拖拽排序</DragToReorder>
+  <MessageModNeedsWellFormattedTargetVersion>Mod需要在About.xml中注明所适配的游戏版本信息。例如：&lt;targetVersion&gt;{0}&lt;/targetVersion&gt;.</MessageModNeedsWellFormattedTargetVersion>
+  <DragToReorder>拖拽以排序</DragToReorder>
 
   <!--=========== Select scenario =============-->
   <ChooseScenario>选择剧本</ChooseScenario>
@@ -79,38 +79,38 @@
 
   <!--============ Scenario editor ===============-->
   <Seed>种子</Seed>
-  <Load>加载</Load>
+  <Load>载入</Load>
   <EditMode>编辑模式</EditMode>
-  <Summary>摘要</Summary>
-  <AddPart>增加部分</AddPart>
-  <TextFieldsMustBeFilled>必须填写所有文本框</TextFieldsMustBeFilled>
+  <Summary>简介</Summary>
+  <AddPart>添加条件</AddPart>
+  <TextFieldsMustBeFilled>所有文本框都必须填写内容。</TextFieldsMustBeFilled>
   <ConfirmSteamWorkshopUpload>确定上传到Steam创意工坊吗？\n\n你必须同意Steam创意工坊的服务条款。在以下网页查看完整条款：\n\nhttp://steamcommunity.com/sharedfiles/workshoplegalagreement</ConfirmSteamWorkshopUpload>
   <ConfirmContentAuthor>你所上传的内容必须是你原创的。\n\n这是你原创的吗？</ConfirmContentAuthor>
   <Incompatible>不兼容</Incompatible>
   <TooMany>过多（最多 {0}）：</TooMany>
-  <CanBeUpdatedOnWorkshop>因为你是作者，能在工坊上更新。</CanBeUpdatedOnWorkshop>
+  <CanBeUpdatedOnWorkshop>作为作者，你可以将其更新到Steam创意工坊。</CanBeUpdatedOnWorkshop>
 
   <!--=========== Select storyteller ==========-->
   <ChooseAIStoryteller>选择AI故事叙述者</ChooseAIStoryteller>
-  <HowStorytellersWork>AI故事叙述者会制造海盗掠夺，资源降落或动物袭击这样的事件。他们的选择会影响你的殖民地的故事。</HowStorytellersWork>
-  <MustChooseDifficulty>请选择一个难度设定。</MustChooseDifficulty>
+  <HowStorytellersWork>AI故事叙述者创建各类事件，例如海盗掠夺、资源舱坠毁、野生动物袭击等等。选择不同的故事叙述者会影响你的殖民地的故事。</HowStorytellersWork>
+  <MustChooseDifficulty>请选择一个难度。</MustChooseDifficulty>
   <Difficulty>难度</Difficulty>
 
   <!--=========== Landing site select =========-->
-  <SelectLandingSite>选择着陆点</SelectLandingSite>
+  <SelectLandingSite>着陆点选择</SelectLandingSite>
   <SelectRandomSite>随机着陆点</SelectRandomSite>
   <SelectSite>选择地点</SelectSite>
   <MustSelectLandingSite>请选择一个着陆点。</MustSelectLandingSite>
-  <CannotLandBiome>你不能在这个生态系统上着陆：{0}</CannotLandBiome>
+  <CannotLandBiome>你无法着陆在{0}生态系统上。</CannotLandBiome>
   <WorldRenderMode>显示模式</WorldRenderMode>
   <WorldRenderModeFull>全部</WorldRenderModeFull>
   <WorldRenderModeTemperature>温度</WorldRenderModeTemperature>
   <WorldRenderModeElevation>海拔</WorldRenderModeElevation>
   <WorldRenderModeFertility>肥沃度</WorldRenderModeFertility>
   <WorldRenderModeRainfall>降雨量</WorldRenderModeRainfall>
-  <WorldRenderModeBiomes>生态</WorldRenderModeBiomes>
-  <BiomeNotImplemented>此生态系统尚未加入游戏。</BiomeNotImplemented>
-  <BaseAlreadyThere>{0}已经存在一个基地了。</BaseAlreadyThere>
+  <WorldRenderModeBiomes>生态系统</WorldRenderModeBiomes>
+  <BiomeNotImplemented>该生态系统在游戏中尚未实现。</BiomeNotImplemented>
+  <BaseAlreadyThere>该位置已被{0}的基地所占用。</BaseAlreadyThere>
   <Biome>生态系统</Biome>
   <Terrain>地形</Terrain>
   <Elevation>海拔</Elevation>
@@ -136,11 +136,11 @@
   <Backstory>背景故事</Backstory>
   <IncapableOf>无法从事</IncapableOf>
   <Traits>特性</Traits>
-  <PermanentMoodEffect>永久心情效果</PermanentMoodEffect>
+  <PermanentMoodEffect>心情值加成（永久）</PermanentMoodEffect>
   <Skills>技能</Skills>
-  <NoneLower>无</NoneLower>
+  <NoneLower>（无）</NoneLower>
   <Adulthood>成年</Adulthood>
-  <Childhood>童年</Childhood>
+  <Childhood>幼年</Childhood>
   <Male>男性</Male>
   <Female>女性</Female>
   <Pain>疼痛</Pain>
@@ -155,7 +155,7 @@
 
   <Gameplay>游戏性</Gameplay>
 
-  <ConfirmQuit>确认退出吗？你将失去所有没保存的游戏进度。</ConfirmQuit>
+  <ConfirmQuit>确认退出吗？你将失去所有未保存的游戏进度。</ConfirmQuit>
 
   <EveryoneNeedsValidName>每个角色都需要一个有效的名字。</EveryoneNeedsValidName>
 
