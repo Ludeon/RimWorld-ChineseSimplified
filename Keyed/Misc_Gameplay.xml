@@ -161,8 +161,8 @@
   <ThoughtExpiresIn>消逝时间：{0}</ThoughtExpiresIn>
   <ThoughtStartsExpiringIn>消逝开始时间：{0}</ThoughtStartsExpiringIn>
   <ThoughtFinishesExpiringIn>消逝结束时间：{0}</ThoughtFinishesExpiringIn>
-  <MentalBreakThresholdExtreme>极重精神崩溃临界值</MentalBreakThresholdExtreme>
-  <MentalBreakThresholdMajor>严重精神崩溃临界值</MentalBreakThresholdMajor>
+  <MentalBreakThresholdExtreme>重度精神崩溃临界值</MentalBreakThresholdExtreme>
+  <MentalBreakThresholdMajor>中度精神崩溃临界值</MentalBreakThresholdMajor>
   <MentalBreakThresholdMinor>轻度精神崩溃临界值</MentalBreakThresholdMinor>
 
   <!-- Pawn info readout -->
@@ -228,12 +228,12 @@
   <!-- Plants -->
   <PercentGrowth>已生长{0}</PercentGrowth>
   <GrowthRate>生长速率</GrowthRate>
-  <FullyGrownIn>于{0}后长成</FullyGrownIn>
+  <FullyGrownIn>于{0}后成熟</FullyGrownIn>
   <PlantNeedsLightLevel>需要光照</PlantNeedsLightLevel>
   <PlantResting>休眠中</PlantResting>
   <OutOfIdealTemperatureRange>非理想温度（生长速度系数：{0}%）</OutOfIdealTemperatureRange>
   <OutOfIdealTemperatureRangeNotGrowing>非理想温度（停止生长）</OutOfIdealTemperatureRangeNotGrowing>
-  <ReadyToHarvest>待收获</ReadyToHarvest>
+  <ReadyToHarvest>可收获</ReadyToHarvest>
   <Mature>成熟</Mature>
   <SeedLabel>{0}种子</SeedLabel>
   <OutdoorGrowingPeriod>生长期：\n{0}</OutdoorGrowingPeriod>
@@ -287,7 +287,7 @@
   <!-- Building placement restricters -->
   <MustPlaceUnroofed>无法放置于屋顶下。</MustPlaceUnroofed>
   <MustPlaceHeadOnShipBeam>必须放置于飞船结构梁两端。</MustPlaceHeadOnShipBeam>
-  <MustPlaceNextToHopperAccepter>必须放置于需要进料口的设备旁边。</MustPlaceNextToHopperAccepter>
+  <MustPlaceNextToHopperAccepter>必须紧挨着放置于需要进料口的设备旁边。</MustPlaceNextToHopperAccepter>
   <MustPlaceOnSteamGeyser>必须直接放置于蒸汽间歇喷泉上。</MustPlaceOnSteamGeyser>
   <MustPlaceCoolerWithFreeSpaces>制冷机的热端和冷端都不能被阻塞。</MustPlaceCoolerWithFreeSpaces>
   <MustPlaceVentWithFreeSpaces>通风孔两端都不能被阻塞，以便空气流通。</MustPlaceVentWithFreeSpaces>

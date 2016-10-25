@@ -69,7 +69,7 @@
   <Drunk.rulePack.rulesStrings.22>desc_sentence->[pawn_pronoun]近乎不省人事，伸着舌头口吐白沫。</Drunk.rulePack.rulesStrings.22>
   <Drunk.rulePack.rulesStrings.23>desc_sentence->[pawn_pronoun]一会哭一会笑。</Drunk.rulePack.rulesStrings.23>
   <Drunk.rulePack.rulesStrings.24>desc_sentence->[pawn_pronoun]把自己前面弄得一片脏。</Drunk.rulePack.rulesStrings.24>
-  <Drunk.rulePack.rulesStrings.25>desc_sentence->[pawn_possessive]身后一堆喝空的酒瓶</Drunk.rulePack.rulesStrings.25>
+  <Drunk.rulePack.rulesStrings.25>desc_sentence->在[pawn_objective]身后有一堆喝空的酒瓶。</Drunk.rulePack.rulesStrings.25>
   <Drunk.rulePack.rulesStrings.26>desc_sentence->[pawn_possessive]的裤子上有一滩白色物质。</Drunk.rulePack.rulesStrings.26>
   <Drunk.rulePack.rulesStrings.27>desc_sentence->[pawn_pronoun]似乎丢了一只鞋子。</Drunk.rulePack.rulesStrings.27>
   <Drunk.rulePack.rulesStrings.28>desc_sentence->[pawn_possessive]头发乱糟糟的。</Drunk.rulePack.rulesStrings.28>
@@ -113,7 +113,7 @@
   <MentalStateBerserk.rulePack.rulesStrings.15>desc_sentence->[pawn_pronoun]的脸因为悲痛而扭曲。</MentalStateBerserk.rulePack.rulesStrings.15>
   <MentalStateBerserk.rulePack.rulesStrings.16>desc_sentence->[pawn_pronoun]像疯子一样微笑。</MentalStateBerserk.rulePack.rulesStrings.16>
   <MentalStateBerserk.rulePack.rulesStrings.17>desc_sentence->[pawn_pronoun]由一只[animal]狂叫的脸来描绘。</MentalStateBerserk.rulePack.rulesStrings.17>
-  <MentalStateBerserk.rulePack.rulesStrings.18>desc_sentence->[pawn_possessive]的头被[animal]包围着，似乎象征着什么。</MentalStateBerserk.rulePack.rulesStrings.18>
+  <MentalStateBerserk.rulePack.rulesStrings.18>desc_sentence->[animal]包围着[pawn_possessive]的头，似乎象征着什么。</MentalStateBerserk.rulePack.rulesStrings.18>
   <MentalStateBerserk.rulePack.rulesStrings.19>desc_sentence->[pawn_pronoun]目光充满了杀气。</MentalStateBerserk.rulePack.rulesStrings.19>
   <MentalStateBerserk.rulePack.rulesStrings.20>desc_sentence->[pawn_possessive]整个身体似乎都因为憎恨而颤抖着。</MentalStateBerserk.rulePack.rulesStrings.20>
   <MentalStateBerserk.rulePack.rulesStrings.21>desc_sentence->[pawn_possessive]一脸狰狞。</MentalStateBerserk.rulePack.rulesStrings.21>
@@ -150,7 +150,7 @@
   <WalkedNaked.rulePack.rulesStrings.6>nude_action->嬉戏玩啥</WalkedNaked.rulePack.rulesStrings.6>
   <WalkedNaked.rulePack.rulesStrings.7>nude_action->蹦蹦跳跳</WalkedNaked.rulePack.rulesStrings.7>
   <WalkedNaked.rulePack.rulesStrings.8>nude_action->悠闲散步</WalkedNaked.rulePack.rulesStrings.8>
-  <WalkedNaked.rulePack.rulesStrings.9>nude_action->炫耀自己的身材</WalkedNaked.rulePack.rulesStrings.9>
+  <WalkedNaked.rulePack.rulesStrings.9>nude_action->炫耀[pawn_possessive] 的身材</WalkedNaked.rulePack.rulesStrings.9>
   <WalkedNaked.rulePack.rulesStrings.10>nude_action->到处走动</WalkedNaked.rulePack.rulesStrings.10>
   <WalkedNaked.rulePack.rulesStrings.11>nude_action->蹑手蹑脚地走</WalkedNaked.rulePack.rulesStrings.11>
   <WalkedNaked.rulePack.rulesStrings.12>nude_action->散步</WalkedNaked.rulePack.rulesStrings.12>
@@ -194,20 +194,20 @@
   <CraftedArt.label>艺术手工</CraftedArt.label>
   <CraftedArt.rulePack.rulesStrings.0>tale_noun->[pawn_nameShortDef]制作[thing_labelIndefinite]的时光</CraftedArt.rulePack.rulesStrings.0>
   <CraftedArt.rulePack.rulesStrings.1>image->[pawn_nameFull]正在制作[thing_labelIndefinite] [circumstance_group]。[quality_sentence]。[title_sentence]</CraftedArt.rulePack.rulesStrings.1>
-  <CraftedArt.rulePack.rulesStrings.2>image->[pawn_nameFull]正在完成[thing_labelIndefinite] [circumstance_group]。[quality_sentence]。[title_sentence]</CraftedArt.rulePack.rulesStrings.2>
-  <CraftedArt.rulePack.rulesStrings.3>image->[pawn_nameFull]正在制造[thing_labelIndefinite] [circumstance_group]。[quality_sentence]。[title_sentence]</CraftedArt.rulePack.rulesStrings.3>
+  <CraftedArt.rulePack.rulesStrings.2>image->[pawn_nameFull]正在完成[pawn_possessive]工作于[thing_labelIndefinite] [circumstance_group]。[quality_sentence]。[title_sentence]</CraftedArt.rulePack.rulesStrings.2>
+  <CraftedArt.rulePack.rulesStrings.3>image->[pawn_nameFull]正在专心工作于[thing_labelIndefinite] [circumstance_group]。[quality_sentence]。[title_sentence]</CraftedArt.rulePack.rulesStrings.3>
   <CraftedArt.rulePack.rulesStrings.4>image->[pawn_nameFull]正在做[thing_labelIndefinite] [circumstance_group]。[quality_sentence]。[title_sentence]</CraftedArt.rulePack.rulesStrings.4>
   <CraftedArt.rulePack.rulesStrings.5>circumstance_phrase->非常专心</CraftedArt.rulePack.rulesStrings.5>
   <CraftedArt.rulePack.rulesStrings.6>circumstance_phrase->一脸满足</CraftedArt.rulePack.rulesStrings.6>
-  <CraftedArt.rulePack.rulesStrings.7>circumstance_phrase->在工作台旁</CraftedArt.rulePack.rulesStrings.7>
+  <CraftedArt.rulePack.rulesStrings.7>circumstance_phrase->在[pawn_possessive]工作台旁</CraftedArt.rulePack.rulesStrings.7>
   <CraftedArt.rulePack.rulesStrings.8>circumstance_phrase->极度紧张</CraftedArt.rulePack.rulesStrings.8>
   <CraftedArt.rulePack.rulesStrings.9>desc_sentence->有一些工具散落在周围。</CraftedArt.rulePack.rulesStrings.9>
   <CraftedArt.rulePack.rulesStrings.10>desc_sentence->[pawn_pronoun]在工作中受伤留下了疤痕。</CraftedArt.rulePack.rulesStrings.10>
   <CraftedArt.rulePack.rulesStrings.11>desc_sentence->[pawn_pronoun]大汗淋漓。</CraftedArt.rulePack.rulesStrings.11>
   <CraftedArt.rulePack.rulesStrings.12>desc_sentence->工作环境非常整洁，所有工具都放置在合适的位置。</CraftedArt.rulePack.rulesStrings.12>
   <CraftedArt.rulePack.rulesStrings.13>desc_sentence->[pawn_pronoun]以夸张的表现方式描绘，显得更有理疗。</CraftedArt.rulePack.rulesStrings.13>
-  <CraftedArt.rulePack.rulesStrings.14>desc_sentence->[item_labelDefinite]夸张的大小强调了其重要性。</CraftedArt.rulePack.rulesStrings.14>
-  <CraftedArt.rulePack.rulesStrings.15>desc_sentence->[item_labelDefinite]被添加了艺术性的光辉，看起来如同天使一般。</CraftedArt.rulePack.rulesStrings.15>
+  <CraftedArt.rulePack.rulesStrings.14>desc_sentence->[thing_labelDefinite]夸张的大小强调了其重要性。</CraftedArt.rulePack.rulesStrings.14>
+  <CraftedArt.rulePack.rulesStrings.15>desc_sentence->[thing_labelDefinite]被添加了艺术性的光辉，看起来如同天使一般。</CraftedArt.rulePack.rulesStrings.15>
   <CraftedArt.rulePack.rulesStrings.16>desc_sentence->[pawn_nameShortDefinite]逐渐淡化到背景中以强调[pawn_possessive]创造</CraftedArt.rulePack.rulesStrings.16>
   <CraftedArt.rulePack.rulesStrings.17>desc_sentence->[quantity_adjphrase]旁观者们围绕着[pawn_objective]。</CraftedArt.rulePack.rulesStrings.17>
   <CraftedArt.rulePack.rulesStrings.18>desc_sentence->一群人在背景中欢呼。</CraftedArt.rulePack.rulesStrings.18>
@@ -221,7 +221,7 @@
   <StruckMineable.label>采矿</StruckMineable.label>
   <StruckMineable.rulePack.rulesStrings.0>tale_noun->[pawn_nameShortDef]敲打着[thing_label]</StruckMineable.rulePack.rulesStrings.0>
   <StruckMineable.rulePack.rulesStrings.1>image->[pawn_nameFull]敲打着[thing_label] [circumstance_group]</StruckMineable.rulePack.rulesStrings.1>
-  <StruckMineable.rulePack.rulesStrings.2>circumstance_phrase->采矿的时候</StruckMineable.rulePack.rulesStrings.2>
+  <StruckMineable.rulePack.rulesStrings.2>circumstance_phrase->开采的时候</StruckMineable.rulePack.rulesStrings.2>
   <StruckMineable.rulePack.rulesStrings.3>circumstance_phrase->挖掘的时候</StruckMineable.rulePack.rulesStrings.3>
   <StruckMineable.rulePack.rulesStrings.4>circumstance_phrase->开凿的时候</StruckMineable.rulePack.rulesStrings.4>
   <StruckMineable.rulePack.rulesStrings.5>circumstance_phrase->带着惊奇的神色</StruckMineable.rulePack.rulesStrings.5>
@@ -240,8 +240,8 @@
   <FinishedResearchProject.rulePack.rulesStrings.2>image->[pawn_nameFull]探寻着「[project_label]」的奥秘 [circumstance_group]</FinishedResearchProject.rulePack.rulesStrings.2>
   <FinishedResearchProject.rulePack.rulesStrings.3>image->[pawn_nameFull]研究着「[project_label]」 [circumstance_group]</FinishedResearchProject.rulePack.rulesStrings.3>
   <FinishedResearchProject.rulePack.rulesStrings.4>circumstance_phrase->极度紧张</FinishedResearchProject.rulePack.rulesStrings.4>
-  <FinishedResearchProject.rulePack.rulesStrings.5>circumstance_phrase->独自站在研究台前</FinishedResearchProject.rulePack.rulesStrings.5>
-  <FinishedResearchProject.rulePack.rulesStrings.6>circumstance_phrase->手中拿着文件</FinishedResearchProject.rulePack.rulesStrings.6>
+  <FinishedResearchProject.rulePack.rulesStrings.5>circumstance_phrase->独自站在[pawn_possessive]研究台前</FinishedResearchProject.rulePack.rulesStrings.5>
+  <FinishedResearchProject.rulePack.rulesStrings.6>circumstance_phrase->[pawn_possessive]手中拿着文件</FinishedResearchProject.rulePack.rulesStrings.6>
   <FinishedResearchProject.rulePack.rulesStrings.7>circumstance_phrase->一脸痴迷</FinishedResearchProject.rulePack.rulesStrings.7>
   <FinishedResearchProject.rulePack.rulesStrings.8>desc_sentence->[pawn_nameShortDef]留着汗。</FinishedResearchProject.rulePack.rulesStrings.8>
   <FinishedResearchProject.rulePack.rulesStrings.9>desc_sentence->项目显得异常复杂。</FinishedResearchProject.rulePack.rulesStrings.9>
