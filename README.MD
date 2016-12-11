@@ -5,7 +5,7 @@
 
 * [官方中文Wiki](http://rimworld.huiji.wiki/)
 
-* [下载语言包](https://github.com/Ludeon/RimWorld-ChineseSimplified/archive/master.zip)
+* [下载语言包](https://github.com/Ludeon/RimWorld-ChineseSimplified/releases)
 
 * [查看更新](https://github.com/Ludeon/RimWorld-ChineseSimplified/commits/master)
 
