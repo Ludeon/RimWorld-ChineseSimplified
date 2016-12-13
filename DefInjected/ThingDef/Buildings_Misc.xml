@@ -18,6 +18,15 @@
   <GroundPenetratingScanner.description>向下的探地雷达，结合声纳和磁成像，可检测深埋于地底的矿物（但不能判断矿物类型）。需要消耗大量电力。</GroundPenetratingScanner.description>
 
 
+  <!-- Transport pods -->
+
+  <PodLauncher.label>pod launcher</PodLauncher.label>
+  <PodLauncher.description>A fueling port for launching one transport pod. Pod launchers can launch as a group - but the launchers must be placed adjacent to each other.</PodLauncher.description>
+
+  <TransportPod.label>transport pod</TransportPod.label>
+  <TransportPod.description>A launchable suborbital-travel cargo pod capable of carrying people, items, or animals. Can be used for transport, surprise attacks, or reinforcing battles.</TransportPod.description>
+
+
   <!-- Facilities -->
 
   <MultiAnalyzer.label>多元分析仪</MultiAnalyzer.label>
@@ -51,10 +60,10 @@
   <!-- Spots -->
 
   <MarriageSpot.label>婚礼举办点</MarriageSpot.label>
-  <MarriageSpot.Description>指定一个举行结婚仪式的位置。观众可以在任何方向上观看婚礼。</MarriageSpot.Description>
+  <MarriageSpot.description>指定一个举行结婚仪式的位置。观众可以在任何方向上观看婚礼。</MarriageSpot.description>
 
   <PartySpot.label>聚会举办点</PartySpot.label>
-  <PartySpot.Description>指定一个举办聚会的集合位置。聚会将在周围的区域内举办。</PartySpot.Description>
+  <PartySpot.description>指定一个举办聚会的集合位置。聚会将在周围的区域内举办。</PartySpot.description>
 
 
 </LanguageData>

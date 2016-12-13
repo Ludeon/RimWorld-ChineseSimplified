@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
   <Confirm>确定</Confirm>
@@ -38,8 +38,9 @@
   <Initializing>初始化中</Initializing>
   <LoadingWorld>载入世界</LoadingWorld>
   <LoadingMap>载入地图</LoadingMap>
-  <InitializingMap>初始化地图</InitializingMap>
+  <InitializingGame>Initializing game</InitializingGame>
   <SpawningAllThings>生成所有物品</SpawningAllThings>
+  <SpawningColonists>Spawning colonists</SpawningColonists>
 
   <!-- Save/load -->
   <SaveGameButton>保存</SaveGameButton>
@@ -59,10 +60,19 @@
   <ProblemSavingFile>保存文件{0}时出现了错误：\n\n{1}\n\n查看错误日志以了解更多信息。</ProblemSavingFile>
   <LoadAnyway>仍然载入</LoadAnyway>
 
-  <!-- Colony naming-->
-  <NameColonyMessage>看起来你得在这里待上好一阵子了，{0}觉得你应该给这个社区起个名字。\n\n它叫什么比较好？</NameColonyMessage>
-  <ColonyGainsName>这个殖民地现在被命名为{0}。</ColonyGainsName>
-  <ColonyNameIsInvalid>这个殖民地名称无效。</ColonyNameIsInvalid>
+  <!-- Player faction naming -->
+  <NamePlayerFactionMessage>{0} thinks that you should give your faction a name. What should your faction be called?</NamePlayerFactionMessage>
+  <PlayerFactionGainsName>Your faction is now known as {0}.</PlayerFactionGainsName>
+  <PlayerFactionNameIsInvalid>That name isn't valid.</PlayerFactionNameIsInvalid>
+
+  <!-- Player faction base naming -->
+  <NamePlayerFactionBaseMessage>Since it looks like you'll be here for a while, {0} thinks that you should give this community a name. What should the local community be called?</NamePlayerFactionBaseMessage>
+  <PlayerFactionBaseGainsName>This community is now known as {0}.</PlayerFactionBaseGainsName>
+  <PlayerFactionBaseNameIsInvalid>That name isn't valid.</PlayerFactionBaseNameIsInvalid>
+
+  <!-- Player faction and faction base naming -->
+  <NamePlayerFactionBaseMessage_NameFactionContinuation>Since it looks like you'll be here for a while, {0} also thinks that you should give community a name. What should this local community be called?</NamePlayerFactionBaseMessage_NameFactionContinuation>
+  <PlayerFactionAndBaseGainsName>Your faction is now known as {0}, and this community is now known as {1}.</PlayerFactionAndBaseGainsName>
 
   <!-- Renaming -->
   <NameIsInvalid>请输入一个有效的名称。</NameIsInvalid>
@@ -157,8 +167,7 @@
   <Days>天</Days>
   <MinGrowingSkillToSow>种植最低技能要求</MinGrowingSkillToSow>
   <FertilityRequirement>肥沃度需求</FertilityRequirement>
-  <SoilFertilitySensitivityGrowthRate>土壤肥沃敏感度（生长速率）</SoilFertilitySensitivityGrowthRate>
-  <SoilFertilitySensitivityPlantChance>土壤肥沃敏感度（种植几率）</SoilFertilitySensitivityPlantChance>
+  <FertilitySensitivity>Fertility sensitivity</FertilitySensitivity>
   <LightRequirement>光照需求</LightRequirement>
   <Attributes>特性</Attributes>
   <LifeSpan>寿命</LifeSpan>
@@ -168,6 +177,7 @@
   <WalkSpeedProperty>行走速度</WalkSpeedProperty>
   <MinFoodQuality>最低食物品质</MinFoodQuality>
   <Diet>饮食</Diet>
+  <BodySize>Body size</BodySize>
   <RecruitDifficulty>招募难度</RecruitDifficulty>
   <MarketValue>市场价值</MarketValue>
   <Covers>覆盖</Covers>
@@ -203,6 +213,69 @@
   <NegotiatorTalkingImpaired>你的谈判人员{0}由于健康原因而无法正常谈判。\n\n这将影响到贸易价格.\n\n请考虑换一个身体健康的殖民者来谈判。</NegotiatorTalkingImpaired>
   <ConfirmTraderShortFunds>贸易商没有足够的白银支付这次交易，继续么？</ConfirmTraderShortFunds>
   <SortBy>排序方式</SortBy>
+  <TraderTypePrice>trader type</TraderTypePrice>
+  <Selling>selling</Selling>
+  <Buying>buying</Buying>
+  <ItemSellPriceFactor>item sell price multiplier</ItemSellPriceFactor>
+  <DifficultyLevel>difficulty level</DifficultyLevel>
+  <PostCurve>global post-process curve</PostCurve>
+  <YourNegotiatorBonus>Your negotiator bonus</YourNegotiatorBonus>
+  <TradeWithFactionBaseBonus>Trading with faction base bonus</TradeWithFactionBaseBonus>
+  <minimum>minimum</minimum>
+  <FinalPrice>Final price</FinalPrice>
+  <TradeMassUsageTooltip>The resulting mass usage and mass capacity.</TradeMassUsageTooltip>
+
+  <!-- Form caravan -->
+  <FormCaravan>Form caravan</FormCaravan>
+  <FormCaravanColonyThingCountTip>How many of this item the colony has ready to give to the caravan.</FormCaravanColonyThingCountTip>
+  <PawnsTab>People and animals</PawnsTab>
+  <ItemsTab>Items</ItemsTab>
+  <CaravanConfigTab>Config</CaravanConfigTab>
+  <CaravanMustHaveAtLeastOneColonist>You must assign at least one non-downed colonist.</CaravanMustHaveAtLeastOneColonist>
+  <CaravanCouldNotFindExitSpot>Could not find any valid exit location.</CaravanCouldNotFindExitSpot>
+  <CaravanCouldNotFindReachableExitSpot>Warning: some of the assigned colonists are unable to reach the exit location.</CaravanCouldNotFindReachableExitSpot>
+  <CaravanPawnIsUnreachable>{0} is unreachable by any of the assigned colonists.</CaravanPawnIsUnreachable>
+  <CaravanItemIsUnreachableSingle>None of the assigned colonists are able to reach the {0}.</CaravanItemIsUnreachableSingle>
+  <CaravanItemIsUnreachableMulti>None of the assigned colonists are able to reach {0}x {1}.</CaravanItemIsUnreachableMulti>
+  <TooBigCaravanMassUsage>The caravan is not able to carry that much.</TooBigCaravanMassUsage>
+  <CaravanMassUsageTooltip>Current mass usage and mass capacity.\n\nMass usage includes the assigned caravan supplies as well as the colonists' current equipment.\n\nYou will not be able to send the caravan if the mass usage exceedes capacity.</CaravanMassUsageTooltip>
+  <MassUsageInfo>{0} / {1} kg</MassUsageInfo>
+  <DaysWorthOfFoodInfo>{0} days worth of food</DaysWorthOfFoodInfo>
+  <DaysWorthOfFoodTooltip>An approximate number of days before the caravan runs out of food.\n\nThis takes into account both human and animal food, and shows the worst case scenario. This means that after this many days, at least one person or animal will be out of food.</DaysWorthOfFoodTooltip>
+  <DaysWorthOfFoodWarningDialog>Your caravan only has {0} days worth of food and will become hungry very quickly.\n\nAre you sure you want to form this caravan?</DaysWorthOfFoodWarningDialog>
+  <DaysWorthOfFoodWarningDialog_NoFood>Your caravan has no food and will become hungry very quickly.\n\nAre you sure you want to form this caravan?</DaysWorthOfFoodWarningDialog_NoFood>
+  <NoExitDirectionForCaravanChosen>You must choose an exit direction for the caravan.</NoExitDirectionForCaravanChosen>
+  <NoCaravanExitDirectionAvailable>(no exit direction available)</NoCaravanExitDirectionAvailable>
+  <ExitDirection>Exit direction</ExitDirection>
+  <ExitDirectionRadioButtonLabel>{0} ({1} {2})</ExitDirectionRadioButtonLabel>
+  <ItemWeightTip>Weight of this item.</ItemWeightTip>
+  <MarketValueTip>Market value</MarketValueTip>
+  <MassCapacity>Mass capacity</MassCapacity>
+  <Mass>Mass</Mass>
+  <EquipmentAndApparelMass>Equipment and apparel mass</EquipmentAndApparelMass>
+  <InventoryMass>Inventory mass</InventoryMass>
+  <CaravanFormationProcessStarted>Your colonists will now take the assigned items and leave the area as soon as possible.</CaravanFormationProcessStarted>
+  <ReformCaravan>Reform caravan</ReformCaravan>
+  <ColonistsSection>Colonists</ColonistsSection>
+  <PrisonersSection>Prisoners</PrisonersSection>
+  <AnimalsSection>Animals</AnimalsSection>
+
+  <!-- Split caravan -->
+  <SplitCaravan>Split caravan</SplitCaravan>
+  <SourceCaravanMustHaveAtLeastOneColonist>You must leave at least one non-downed colonist.</SourceCaravanMustHaveAtLeastOneColonist>
+  <CaravanSplitSourceLabel>Current</CaravanSplitSourceLabel>
+  <CaravanSplitDestLabel>New</CaravanSplitDestLabel>
+  <SplitCaravanThingCountTip>How many of this item the caravan has ready to give to the new caravan.</SplitCaravanThingCountTip>
+  <SplitCaravanMassUsageTooltip>Current mass usage and mass capacity.</SplitCaravanMassUsageTooltip>
+
+  <!-- Load transporters -->
+  <LoadTransporters>Load {0}</LoadTransporters>
+  <TooBigTransportersMassUsage>The assigned people and items are too heavy for the transport pods.</TooBigTransportersMassUsage>
+  <CantSendEmptyTransportPods>You can't send empty transport pods.</CantSendEmptyTransportPods>
+  <PawnCantReachTransporters>{0} can't reach the transport pods.</PawnCantReachTransporters>
+  <TransporterItemIsUnreachableSingle>There is no path between the transport pods and the {0}.</TransporterItemIsUnreachableSingle>
+  <TransporterItemIsUnreachableMulti>There is no path between the transport pods and {0}x {1}.</TransporterItemIsUnreachableMulti>
+  <TransportersMassUsageTooltip>Current mass usage and mass capacity.\n\nYou will not be able to send the transport pods if the mass usage exceedes capacity.</TransportersMassUsageTooltip>
 
   <!-- Comms -->
   <SocialSkillIs>社交技能：{0}</SocialSkillIs>
@@ -257,13 +330,36 @@
   <MoodThresholdColumnDesc>当心情值低于该值时会开始使用成瘾品。</MoodThresholdColumnDesc>
   <JoyThresholdColumnDesc>当娱乐值低于该值时会开始使用成瘾品。</JoyThresholdColumnDesc>
   <TakeToInventoryColumnDesc>每次允许额外拿走的成瘾品数量，避免每次都需要去仓库取。</TakeToInventoryColumnDesc>
+  <DrugUsageTipForAddiction>For addictions\n\nUse this drug to feed already-established addiction needs.\n\nEven if disabled, some characters with specific traits, or on mental breaks, may use the drug anyway.</DrugUsageTipForAddiction>
   <DrugUsageTipForJoy>娱乐目的\n\n为了消除压力及在社交活动时服用。\n\n注意，即使是在禁用成瘾品的方针下，精神崩溃或有些具有某些特性的殖民者依然会无视规定使用成瘾品。</DrugUsageTipForJoy>
   <DrugUsageTipScheduled>计划服用\n\n当特定条件满足时，根据指定的日程安排服用药物和成瘾品。</DrugUsageTipScheduled>
 
   <!-- Growing -->
   <NoGrowerCanPlant>播种{0}最低需要{1}级种植技能。\n\n你没有达到该技能要求的种植者，因此这种植物将不会被播种。</NoGrowerCanPlant>
 
+  <!-- Abandon home -->
+  <ConfirmAbandonHomeWithColonyPawns>Some of your colonists or animals are in this area. Are you sure you want to abandon it?\n\nThe following people and animals will be left behind:\n\n{0}</ConfirmAbandonHomeWithColonyPawns>
 
+  <!-- Move caravan and leave prisoners and animals behind -->
+  <ConfirmLeavePrisonersOrAnimalsBehind>There are still some prisoners or animals left in this area and this is the only caravan they can join at the moment.\n\nIf you move your caravan, they won't be able to leave the area until you are back. The prisoners will start escaping, while the animals will keep waiting for you.\n\nIf you decide to wait, they will try to join your caravan as soon as possible.\n\nAre you sure you want to move your caravan?</ConfirmLeavePrisonersOrAnimalsBehind>
+
+  <!-- Abandon pawn -->
+  <ConfirmAbandonPawnDialog>Do you really want to abandon {0}?</ConfirmAbandonPawnDialog>
+  <ConfirmAbandonPawnDialog_LeftToDie>{0} will most likely die.</ConfirmAbandonPawnDialog_LeftToDie>
+  <ConfirmAbandonPawnDialog_EquipmentAndApparel>{0} will take the following items with HIM:</ConfirmAbandonPawnDialog_EquipmentAndApparel>
+  <ConfirmAbandonPawnDialog_AllColonistsThoughts>All colonists will get the following thoughts:</ConfirmAbandonPawnDialog_AllColonistsThoughts>
+  <ConfirmAbandonPawnDialog_IndividualThoughts>Abandoning {0} will cause the following people to get the following thoughts:</ConfirmAbandonPawnDialog_IndividualThoughts>
+
+  <!-- Send transport pods which are not completely loaded -->
+  <ConfirmSendNotCompletelyLoadedPods>Pod group isn’t completely loaded. {0} is missing. Launch anyway?</ConfirmSendNotCompletelyLoadedPods>
+
+  <!--<InitializingMap>初始化地图</InitializingMap>-->
+  <!-- Colony naming-->
+  <!--<NameColonyMessage>看起来你得在这里待上好一阵子了，{0}觉得你应该给这个社区起个名字。\n\n它叫什么比较好？</NameColonyMessage>-->
+  <!--<ColonyGainsName>这个殖民地现在被命名为{0}。</ColonyGainsName>-->
+  <!--<ColonyNameIsInvalid>这个殖民地名称无效。</ColonyNameIsInvalid>-->
+  <!--<SoilFertilitySensitivityGrowthRate>土壤肥沃敏感度（生长速率）</SoilFertilitySensitivityGrowthRate>-->
+  <!--<SoilFertilitySensitivityPlantChance>土壤肥沃敏感度（种植几率）</SoilFertilitySensitivityPlantChance>-->
   <!--<DrugUsageTipDeny>禁用\n\n精神崩溃或是特定情况下殖民者会无视你的设定。</DrugUsageTipDeny>-->
 
 </LanguageData>

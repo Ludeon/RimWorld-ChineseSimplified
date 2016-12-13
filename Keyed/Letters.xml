@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
   <JumpToLocation>转至事件发生地点</JumpToLocation>
@@ -58,6 +58,9 @@
   <LetterLeadersDeathLabel>首领死亡</LetterLeadersDeathLabel>
   <LetterLeadersDeath>{1}的派系首领{0}已经死亡并由{2}继任。</LetterLeadersDeath>
 
+  <LetterLeaderChangedLabel>New {1}: {0}</LetterLeaderChangedLabel>
+  <LetterLeaderChanged>{0} is no longer {3} of {1}.\n\nThe new {3} is {2}.</LetterLeaderChanged>
+
   <MentalBreakLetterLabel>精神崩溃</MentalBreakLetterLabel>
   <MentalBreakReason>压倒骆驼的最后一根稻草：{0}。</MentalBreakReason>
 
@@ -67,6 +70,8 @@
   <LetterRelatedPawnsRaidFriendly>到达的友好{0}团体中有殖民者或囚犯的家族成员：</LetterRelatedPawnsRaidFriendly>
   <LetterRelatedPawnsNeutralGroup>到达的团体中有殖民者或囚犯的家族成员：</LetterRelatedPawnsNeutralGroup>
   <LetterRelatedPawnsTradeShip>轨道贸易商出售的奴隶中有殖民者或囚犯的家族成员：</LetterRelatedPawnsTradeShip>
+  <LetterRelatedPawnsTradingWithFactionBase>The faction base is selling people who have relationships with your colonists or prisoners:</LetterRelatedPawnsTradingWithFactionBase>
+  <LetterRelatedPawnsTradingWithOtherCaravan>The caravan is selling people who have relationships with your colonists or prisoners:</LetterRelatedPawnsTradingWithOtherCaravan>
 
   <RelationshipAppendedLetterSuffix>（家族）</RelationshipAppendedLetterSuffix>
   <RelationshipAppendedLetterTextColonist>NAME是殖民者的家族成员。HECAP是{0}的{1}。</RelationshipAppendedLetterTextColonist>
@@ -112,5 +117,31 @@
   <!-- Drug binge -->
   <LetterLabelDrugBinge>{0}滥用者</LetterLabelDrugBinge>
   <LetterDrugBinge>{0}无法控制自己的欲望，正在超剂量使用{1}。</LetterDrugBinge>
+
+  <!-- Formed caravan -->
+  <LetterLabelFormedCaravan>Caravan ready</LetterLabelFormedCaravan>
+  <LetterFormedCaravan>Your caravan has formed and awaits orders on the world map.</LetterFormedCaravan>
+
+  <!-- Caravan destroyed -->
+  <LetterLabelAllCaravanColonistsDied>Caravan destroyed</LetterLabelAllCaravanColonistsDied>
+  <LetterAllCaravanColonistsDied>All members of your caravan have died.</LetterAllCaravanColonistsDied>
+
+  <!-- Caravan entered ambush map -->
+  <LetterLabelCaravanEnteredAmbushMap>Caravan arrived at ambush</LetterLabelCaravanEnteredAmbushMap>
+  <LetterCaravanEnteredAmbushMap>{0} has arrived at the ambush site.</LetterCaravanEnteredAmbushMap>
+
+  <!-- Caravan entered enemy base -->
+  <LetterLabelCaravanEnteredEnemyBase>Attack begun</LetterLabelCaravanEnteredEnemyBase>
+  <LetterCaravanEnteredEnemyBase>{0} has arrived at {1} and is ready to begin the attack.</LetterCaravanEnteredEnemyBase>
+  <LetterCaravanEnteredEnemyBaseBecameHostile>{0} has arrived at {1} and is ready to begin the attack.\n\nBecause of your hostile approach, {2} is now hostile to you.</LetterCaravanEnteredEnemyBaseBecameHostile>
+
+  <!-- Faction base defeated -->
+  <LetterLabelFactionBaseDefeated>Outpost destroyed</LetterLabelFactionBaseDefeated>
+  <LetterFactionBaseDefeated>The enemy outpost {0} has been destroyed.\n\nYou have {1} hours to collect items before your colonists reform the caravan.</LetterFactionBaseDefeated>
+  <LetterFactionBaseDefeated_FactionDestroyed>This was the last base of {0}, which means the faction does not exist anymore.</LetterFactionBaseDefeated_FactionDestroyed>
+
+  <!-- Pawns lost due to map countdown -->
+  <LetterLabelPawnsLostDueToMapCountdown>Left behind</LetterLabelPawnsLostDueToMapCountdown>
+  <LetterPawnsLostDueToMapCountdown>Some of your animals or prisoners were left behind in the wilderness:\n\n{0}</LetterPawnsLostDueToMapCountdown>
 
 </LanguageData>

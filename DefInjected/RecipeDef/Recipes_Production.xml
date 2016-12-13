@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <MakeStoneBlocks.label>制作石块</MakeStoneBlocks.label>
-  <MakeStoneBlocks.description>把石头切割成有用的石块。</MakeStoneBlocks.description>
-  <MakeStoneBlocks.jobString>正在切石头。</MakeStoneBlocks.jobString>
+  <MakeStoneBlocksAny.label>make any stone blocks</MakeStoneBlocksAny.label>
+  <MakeStoneBlocksAny.description>Cuts rock chunks into usable stone blocks.</MakeStoneBlocksAny.description>
+  <MakeStoneBlocksAny.jobString>Stonecutting.</MakeStoneBlocksAny.jobString>
 
   <ExtractMetalFromSlag.label>熔炼钢渣</ExtractMetalFromSlag.label>
   <ExtractMetalFromSlag.description>用强热和电磁铁从钢渣中提炼出有用的金属。</ExtractMetalFromSlag.description>
@@ -13,13 +13,32 @@
   <SmeltWeapon.description>用强热和电磁铁从武器中提炼出有用的金属。</SmeltWeapon.description>
   <SmeltWeapon.jobString>正在熔炼武器。</SmeltWeapon.jobString>
 
-  <MakeArtilleryShell.label>制造炮弹</MakeArtilleryShell.label>
-  <MakeArtilleryShell.description>制造炮弹。</MakeArtilleryShell.description>
-  <MakeArtilleryShell.jobString>正在制造炮弹。</MakeArtilleryShell.jobString>
+  <DestroyWeapon.label>destroy weapon</DestroyWeapon.label>
+  <DestroyWeapon.description>Use heat to destroy unwanted weapons. Faster than smelting, and works on non-smeltable items, but yields no resources.</DestroyWeapon.description>
+  <DestroyWeapon.jobString>Destroying weapon.</DestroyWeapon.jobString>
+
+  <MakeMortarShell.label>make mortal shell</MakeMortarShell.label>
+  <MakeMortarShell.description>Craft an mortar shell.</MakeMortarShell.description>
+  <MakeMortarShell.jobString>Making mortar shell.</MakeMortarShell.jobString>
+
+  <MakeChemfuelFromWood.label>make chemfuel from wood</MakeChemfuelFromWood.label>
+  <MakeChemfuelFromWood.description>Make a batch of chemfuel by gasifying wood logs.</MakeChemfuelFromWood.description>
+  <MakeChemfuelFromWood.jobString>Refining chemfuel from wood.</MakeChemfuelFromWood.jobString>
+
+  <MakeChemfuelFromOrganics.label>make chemfuel from organics</MakeChemfuelFromOrganics.label>
+  <MakeChemfuelFromOrganics.description>Make a batch of chemfuel by extracting biofuel from organic feedstocks.</MakeChemfuelFromOrganics.description>
+  <MakeChemfuelFromOrganics.jobString>Refining chemfuel from organics.</MakeChemfuelFromOrganics.jobString>
 
   <MakeComponent.label>制造零部件</MakeComponent.label>
   <MakeComponent.description>制造部件零部件。</MakeComponent.description>
   <MakeComponent.jobString>正在制造部件零部件。</MakeComponent.jobString>
 
+
+  <!--<MakeStoneBlocks.label>制作石块</MakeStoneBlocks.label>-->
+  <!--<MakeStoneBlocks.description>把石头切割成有用的石块。</MakeStoneBlocks.description>-->
+  <!--<MakeStoneBlocks.jobString>正在切石头。</MakeStoneBlocks.jobString>-->
+  <!--<MakeArtilleryShell.label>制造炮弹</MakeArtilleryShell.label>-->
+  <!--<MakeArtilleryShell.description>制造炮弹。</MakeArtilleryShell.description>-->
+  <!--<MakeArtilleryShell.jobString>正在制造炮弹。</MakeArtilleryShell.jobString>-->
 
 </LanguageData>

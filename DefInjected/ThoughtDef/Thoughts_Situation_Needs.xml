@@ -1,63 +1,120 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <Hungry.stages.0.label>饥饿</Hungry.stages.0.label>
-  <Hungry.stages.0.description>我有一段时间没吃饭了。</Hungry.stages.0.description>
-  <Hungry.stages.1.label>非常饥饿</Hungry.stages.1.label>
-  <Hungry.stages.1.description>我感觉饥饿难忍，再不吃东西我就要饿死了。</Hungry.stages.1.description>
-  <Hungry.stages.2.label>饥肠辘辘</Hungry.stages.2.label>
-  <Hungry.stages.2.description>我想吃东西……什么都行，我感觉我快不行了，真的好疼……</Hungry.stages.2.description>
+  <NeedFood.stages.0.label>hungry</NeedFood.stages.0.label>
+  <NeedFood.stages.0.description>I'm really hungry.</NeedFood.stages.0.description>
+  <NeedFood.stages.1.label>urgently hungry</NeedFood.stages.1.label>
+  <NeedFood.stages.1.description>These hunger pangs are hard to ignore.</NeedFood.stages.1.description>
+  <NeedFood.stages.2.label>starving (trivial)</NeedFood.stages.2.label>
+  <NeedFood.stages.2.description>It's been so long since I ate. I'm all fuzzy and it's hard to focus.</NeedFood.stages.2.description>
+  <NeedFood.stages.3.label>starving (minor)</NeedFood.stages.3.label>
+  <NeedFood.stages.3.description>I can feel my body wasting away. My stomach hurts like never before.</NeedFood.stages.3.description>
+  <NeedFood.stages.4.label>starving (moderate)</NeedFood.stages.4.label>
+  <NeedFood.stages.4.description>I can barely think about anything but food. My skin is stretching over my bones. Am I going to die?</NeedFood.stages.4.description>
+  <NeedFood.stages.5.label>starving (severe)</NeedFood.stages.5.label>
+  <NeedFood.stages.5.description>I can barely move or think about anything but food. My stomach hurts like never before. I feel like I'm going to pass out.</NeedFood.stages.5.description>
+  <NeedFood.stages.6.label>starving (extreme)</NeedFood.stages.6.label>
+  <NeedFood.stages.6.description>Food... food... just a bite to eat... anything... please...</NeedFood.stages.6.description>
 
-  <Tired.stages.0.label>疲劳</Tired.stages.0.label>
-  <Tired.stages.0.description>我有一段时间没睡觉了。</Tired.stages.0.description>
-  <Tired.stages.1.label>非常疲劳</Tired.stages.1.label>
-  <Tired.stages.1.description>我好累阿。我真想躺下休息几分钟……</Tired.stages.1.description>
-  <Tired.stages.2.label>精疲力竭</Tired.stages.2.label>
-  <Tired.stages.2.description>我累的不行了，快站不住了，我的眼皮一直在打架……我要睡觉……</Tired.stages.2.description>
+  <NeedRest.stages.0.label>tired</NeedRest.stages.0.label>
+  <NeedRest.stages.0.description>I haven't slept in a while.</NeedRest.stages.0.description>
+  <NeedRest.stages.1.label>very tired</NeedRest.stages.1.label>
+  <NeedRest.stages.1.description>I'm so tired. I just want to lay down and rest for a few minutes...</NeedRest.stages.1.description>
+  <NeedRest.stages.2.label>exhausted</NeedRest.stages.2.label>
+  <NeedRest.stages.2.description>I'm so exhausted I can barely stand. My eyelids have lead weights on them. Let me sleep...</NeedRest.stages.2.description>
 
-  <JoyLevel.stages.0.label>完全没有娱乐活动</JoyLevel.stages.0.label>
-  <JoyLevel.stages.0.description>我很久没有做过一件我真正喜欢做的事了。</JoyLevel.stages.0.description>
-  <JoyLevel.stages.1.label>基本没有娱乐活动</JoyLevel.stages.1.label>
-  <JoyLevel.stages.1.description>我在这里基本上就没有放松享受过什么东西。</JoyLevel.stages.1.description>
-  <JoyLevel.stages.2.label>没有娱乐活动</JoyLevel.stages.2.label>
-  <JoyLevel.stages.2.description>我真想闲下来做点什么我喜欢做的事情。</JoyLevel.stages.2.description>
-  <JoyLevel.stages.3.label>不错的娱乐活动</JoyLevel.stages.3.label>
-  <JoyLevel.stages.3.description>最近我在这个地方很是开心。</JoyLevel.stages.3.description>
-  <JoyLevel.stages.4.label>丰富的娱乐活动</JoyLevel.stages.4.label>
-  <JoyLevel.stages.4.description>我的生活真是丰富多彩，我好喜欢！</JoyLevel.stages.4.description>
+  <NeedJoy.stages.0.label>totally joy-deprived</NeedJoy.stages.0.label>
+  <NeedJoy.stages.0.description>It's been so long since I did anything I truly enjoyed.</NeedJoy.stages.0.description>
+  <NeedJoy.stages.1.label>very joy-deprived</NeedJoy.stages.1.label>
+  <NeedJoy.stages.1.description>I never get to relax and enjoy myself around here.</NeedJoy.stages.1.description>
+  <NeedJoy.stages.2.label>joy-deprived</NeedJoy.stages.2.label>
+  <NeedJoy.stages.2.description>I could really use a break for something enjoyable.</NeedJoy.stages.2.description>
+  <NeedJoy.stages.3.label>joy-filled</NeedJoy.stages.3.label>
+  <NeedJoy.stages.3.description>I've been having a great time here recently.</NeedJoy.stages.3.description>
+  <NeedJoy.stages.4.label>tons o' joy</NeedJoy.stages.4.label>
+  <NeedJoy.stages.4.description>I've been enjoying myself so much, I love it!</NeedJoy.stages.4.description>
 
-  <ComfortLevel.stages.0.label>不够舒适</ComfortLevel.stages.0.label>
-  <ComfortLevel.stages.0.description>最近我过得不舒服。我们这需要有点软东西坐坐。</ComfortLevel.stages.0.description>
-  <ComfortLevel.stages.1.label>舒适</ComfortLevel.stages.1.label>
-  <ComfortLevel.stages.1.description>最近我过得还挺舒服的。</ComfortLevel.stages.1.description>
-  <ComfortLevel.stages.2.label>非常舒适</ComfortLevel.stages.2.label>
-  <ComfortLevel.stages.2.description>最近我过得非常舒服。</ComfortLevel.stages.2.description>
-  <ComfortLevel.stages.3.label>极其舒适</ComfortLevel.stages.3.label>
-  <ComfortLevel.stages.3.description>最近我过得格外的舒适，这个地方真是安逸。</ComfortLevel.stages.3.description>
-  <ComfortLevel.stages.4.label>奢华享受</ComfortLevel.stages.4.label>
-  <ComfortLevel.stages.4.description>太舒服了，真是如在云端。</ComfortLevel.stages.4.description>
+  <NeedComfort.stages.0.label>uncomfortable</NeedComfort.stages.0.label>
+  <NeedComfort.stages.0.description>I've been kind of uncomfortable recently. We need to get something soft to sit on around here.</NeedComfort.stages.0.description>
+  <NeedComfort.stages.1.label>comfortable</NeedComfort.stages.1.label>
+  <NeedComfort.stages.1.description>I've been comfortable recently.</NeedComfort.stages.1.description>
+  <NeedComfort.stages.2.label>very comfortable</NeedComfort.stages.2.label>
+  <NeedComfort.stages.2.description>I've been very comfortable recently.</NeedComfort.stages.2.description>
+  <NeedComfort.stages.3.label>extremely comfortable</NeedComfort.stages.3.label>
+  <NeedComfort.stages.3.description>I've been extremely comfortable recently. This place is so cushy!</NeedComfort.stages.3.description>
+  <NeedComfort.stages.4.label>luxuriantly comfortable</NeedComfort.stages.4.label>
+  <NeedComfort.stages.4.description>I am resting on clouds of heaven.</NeedComfort.stages.4.description>
 
-  <EnvironmentUgly.stages.0.label>丑陋的环境</EnvironmentUgly.stages.0.label>
-  <EnvironmentUgly.stages.0.description>待在这种地方真是浑身难受。</EnvironmentUgly.stages.0.description>
-  <EnvironmentUgly.stages.1.label>非常丑陋的环境</EnvironmentUgly.stages.1.label>
-  <EnvironmentUgly.stages.1.description>这个地方太差了。我不想待在这里。</EnvironmentUgly.stages.1.description>
-  <EnvironmentUgly.stages.2.label>极其丑陋的环境</EnvironmentUgly.stages.2.label>
-  <EnvironmentUgly.stages.2.description>这个地方简直无法忍受。赶快让我出去……</EnvironmentUgly.stages.2.description>
+  <NeedBeauty.stages.0.label>hideous environment</NeedBeauty.stages.0.label>
+  <NeedBeauty.stages.0.description>This place is unbearable. Get me out of here...</NeedBeauty.stages.0.description>
+  <NeedBeauty.stages.1.label>very ugly environment</NeedBeauty.stages.1.label>
+  <NeedBeauty.stages.1.description>This place is really unpleasant. I don't want to be here.</NeedBeauty.stages.1.description>
+  <NeedBeauty.stages.2.label>ugly environment</NeedBeauty.stages.2.label>
+  <NeedBeauty.stages.2.description>This place is unpleasant to be in.</NeedBeauty.stages.2.description>
+  <NeedBeauty.stages.3.label>pleasant environment</NeedBeauty.stages.3.label>
+  <NeedBeauty.stages.3.description>This place is nice.</NeedBeauty.stages.3.description>
+  <NeedBeauty.stages.4.label>very pleasant environment</NeedBeauty.stages.4.label>
+  <NeedBeauty.stages.4.description>I really like this place. It's beautiful.</NeedBeauty.stages.4.description>
+  <NeedBeauty.stages.5.label>beautiful environment</NeedBeauty.stages.5.label>
+  <NeedBeauty.stages.5.description>This place is beautiful. It lifts me up and makes me love life.</NeedBeauty.stages.5.description>
 
-  <EnvironmentPretty.stages.0.label>美丽的环境</EnvironmentPretty.stages.0.label>
-  <EnvironmentPretty.stages.0.description>这个地方不错。</EnvironmentPretty.stages.0.description>
-  <EnvironmentPretty.stages.1.label>非常美丽的环境</EnvironmentPretty.stages.1.label>
-  <EnvironmentPretty.stages.1.description>我真的很喜欢这个地方。它太漂亮了。</EnvironmentPretty.stages.1.description>
-  <EnvironmentPretty.stages.2.label>极其美丽的环境</EnvironmentPretty.stages.2.label>
-  <EnvironmentPretty.stages.2.description>这个地方真是很美丽。它让我振奋起来精力十足。</EnvironmentPretty.stages.2.description>
+  <NeedSpace.stages.0.label>very cramped interior</NeedSpace.stages.0.label>
+  <NeedSpace.stages.0.description>I feel like a rat in a tiny cage.</NeedSpace.stages.0.description>
+  <NeedSpace.stages.1.label>cramped interior</NeedSpace.stages.1.label>
+  <NeedSpace.stages.1.description>I wish I had more space to move around and breathe.</NeedSpace.stages.1.description>
+  <NeedSpace.stages.2.label>spacious interior</NeedSpace.stages.2.label>
+  <NeedSpace.stages.2.description>This is a really comfortably open indoor space.</NeedSpace.stages.2.description>
 
-  <EnvironmentCramped.stages.0.label>狭窄的环境</EnvironmentCramped.stages.0.label>
-  <EnvironmentCramped.stages.0.description>这个地方有点挤，感觉我都喘不过气了。</EnvironmentCramped.stages.0.description>
-  <EnvironmentCramped.stages.1.label>非常狭窄的环境</EnvironmentCramped.stages.1.label>
-  <EnvironmentCramped.stages.1.description>这个地方简直会引发幽闭恐惧症，我都没地落脚，感觉就一只在很小的笼子里的老鼠一样。</EnvironmentCramped.stages.1.description>
 
-  <EnvironmentSpaciousInterior.stages.0.label>宽敞的环境</EnvironmentSpaciousInterior.stages.0.label>
-  <EnvironmentSpaciousInterior.stages.0.description>这真是一间让人感到舒服的大房间。</EnvironmentSpaciousInterior.stages.0.description>
-
+  <!--<Hungry.stages.0.label>饥饿</Hungry.stages.0.label>-->
+  <!--<Hungry.stages.0.description>我有一段时间没吃饭了。</Hungry.stages.0.description>-->
+  <!--<Hungry.stages.1.label>非常饥饿</Hungry.stages.1.label>-->
+  <!--<Hungry.stages.1.description>我感觉饥饿难忍，再不吃东西我就要饿死了。</Hungry.stages.1.description>-->
+  <!--<Hungry.stages.2.label>饥肠辘辘</Hungry.stages.2.label>-->
+  <!--<Hungry.stages.2.description>我想吃东西……什么都行，我感觉我快不行了，真的好疼……</Hungry.stages.2.description>-->
+  <!--<Tired.stages.0.label>疲劳</Tired.stages.0.label>-->
+  <!--<Tired.stages.0.description>我有一段时间没睡觉了。</Tired.stages.0.description>-->
+  <!--<Tired.stages.1.label>非常疲劳</Tired.stages.1.label>-->
+  <!--<Tired.stages.1.description>我好累阿。我真想躺下休息几分钟……</Tired.stages.1.description>-->
+  <!--<Tired.stages.2.label>精疲力竭</Tired.stages.2.label>-->
+  <!--<Tired.stages.2.description>我累的不行了，快站不住了，我的眼皮一直在打架……我要睡觉……</Tired.stages.2.description>-->
+  <!--<JoyLevel.stages.0.label>完全没有娱乐活动</JoyLevel.stages.0.label>-->
+  <!--<JoyLevel.stages.0.description>我很久没有做过一件我真正喜欢做的事了。</JoyLevel.stages.0.description>-->
+  <!--<JoyLevel.stages.1.label>基本没有娱乐活动</JoyLevel.stages.1.label>-->
+  <!--<JoyLevel.stages.1.description>我在这里基本上就没有放松享受过什么东西。</JoyLevel.stages.1.description>-->
+  <!--<JoyLevel.stages.2.label>没有娱乐活动</JoyLevel.stages.2.label>-->
+  <!--<JoyLevel.stages.2.description>我真想闲下来做点什么我喜欢做的事情。</JoyLevel.stages.2.description>-->
+  <!--<JoyLevel.stages.3.label>不错的娱乐活动</JoyLevel.stages.3.label>-->
+  <!--<JoyLevel.stages.3.description>最近我在这个地方很是开心。</JoyLevel.stages.3.description>-->
+  <!--<JoyLevel.stages.4.label>丰富的娱乐活动</JoyLevel.stages.4.label>-->
+  <!--<JoyLevel.stages.4.description>我的生活真是丰富多彩，我好喜欢！</JoyLevel.stages.4.description>-->
+  <!--<ComfortLevel.stages.0.label>不够舒适</ComfortLevel.stages.0.label>-->
+  <!--<ComfortLevel.stages.0.description>最近我过得不舒服。我们这需要有点软东西坐坐。</ComfortLevel.stages.0.description>-->
+  <!--<ComfortLevel.stages.1.label>舒适</ComfortLevel.stages.1.label>-->
+  <!--<ComfortLevel.stages.1.description>最近我过得还挺舒服的。</ComfortLevel.stages.1.description>-->
+  <!--<ComfortLevel.stages.2.label>非常舒适</ComfortLevel.stages.2.label>-->
+  <!--<ComfortLevel.stages.2.description>最近我过得非常舒服。</ComfortLevel.stages.2.description>-->
+  <!--<ComfortLevel.stages.3.label>极其舒适</ComfortLevel.stages.3.label>-->
+  <!--<ComfortLevel.stages.3.description>最近我过得格外的舒适，这个地方真是安逸。</ComfortLevel.stages.3.description>-->
+  <!--<ComfortLevel.stages.4.label>奢华享受</ComfortLevel.stages.4.label>-->
+  <!--<ComfortLevel.stages.4.description>太舒服了，真是如在云端。</ComfortLevel.stages.4.description>-->
+  <!--<EnvironmentUgly.stages.0.label>丑陋的环境</EnvironmentUgly.stages.0.label>-->
+  <!--<EnvironmentUgly.stages.0.description>待在这种地方真是浑身难受。</EnvironmentUgly.stages.0.description>-->
+  <!--<EnvironmentUgly.stages.1.label>非常丑陋的环境</EnvironmentUgly.stages.1.label>-->
+  <!--<EnvironmentUgly.stages.1.description>这个地方太差了。我不想待在这里。</EnvironmentUgly.stages.1.description>-->
+  <!--<EnvironmentUgly.stages.2.label>极其丑陋的环境</EnvironmentUgly.stages.2.label>-->
+  <!--<EnvironmentUgly.stages.2.description>这个地方简直无法忍受。赶快让我出去……</EnvironmentUgly.stages.2.description>-->
+  <!--<EnvironmentPretty.stages.0.label>美丽的环境</EnvironmentPretty.stages.0.label>-->
+  <!--<EnvironmentPretty.stages.0.description>这个地方不错。</EnvironmentPretty.stages.0.description>-->
+  <!--<EnvironmentPretty.stages.1.label>非常美丽的环境</EnvironmentPretty.stages.1.label>-->
+  <!--<EnvironmentPretty.stages.1.description>我真的很喜欢这个地方。它太漂亮了。</EnvironmentPretty.stages.1.description>-->
+  <!--<EnvironmentPretty.stages.2.label>极其美丽的环境</EnvironmentPretty.stages.2.label>-->
+  <!--<EnvironmentPretty.stages.2.description>这个地方真是很美丽。它让我振奋起来精力十足。</EnvironmentPretty.stages.2.description>-->
+  <!--<EnvironmentCramped.stages.0.label>狭窄的环境</EnvironmentCramped.stages.0.label>-->
+  <!--<EnvironmentCramped.stages.0.description>这个地方有点挤，感觉我都喘不过气了。</EnvironmentCramped.stages.0.description>-->
+  <!--<EnvironmentCramped.stages.1.label>非常狭窄的环境</EnvironmentCramped.stages.1.label>-->
+  <!--<EnvironmentCramped.stages.1.description>这个地方简直会引发幽闭恐惧症，我都没地落脚，感觉就一只在很小的笼子里的老鼠一样。</EnvironmentCramped.stages.1.description>-->
+  <!--<EnvironmentSpaciousInterior.stages.0.label>宽敞的环境</EnvironmentSpaciousInterior.stages.0.label>-->
+  <!--<EnvironmentSpaciousInterior.stages.0.description>这真是一间让人感到舒服的大房间。</EnvironmentSpaciousInterior.stages.0.description>-->
 
 </LanguageData>

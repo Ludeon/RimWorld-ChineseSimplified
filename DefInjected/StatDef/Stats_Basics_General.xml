@@ -4,6 +4,10 @@
   <MaxHitPoints.label>耐久度上限</MaxHitPoints.label>
   <MaxHitPoints.description>一个物品的最大生命值。意味着在被摧毁之前可以承受多少伤害。</MaxHitPoints.description>
 
+  <Mass.label>mass</Mass.label>
+  <Mass.description>The physical mass of an object.</Mass.description>
+  <Mass.formatString>{0} kg</Mass.formatString>
+
   <MarketValue.label>市场价值</MarketValue.label>
   <MarketValue.description>一个物品的市场价值。实际价格会受到派系关系和谈判技能的影响。</MarketValue.description>
   <MarketValue.formatString>${0}</MarketValue.formatString>
@@ -16,6 +20,9 @@
 
   <WorkToMake.label>工作量</WorkToMake.label>
   <WorkToMake.description>所有材料和工具齐全后建造这个物品需要的工作量。</WorkToMake.description>
+
+  <WorkToBuild.label>work to build</WorkToBuild.label>
+  <WorkToBuild.description>The base amount of work it takes to build a structure, once all materials and tools are gathered.</WorkToBuild.description>
 
   <DeteriorationRate.label>老化率</DeteriorationRate.label>
   <DeteriorationRate.description>放在室外物品的老化率，尤其是下雨天。</DeteriorationRate.description>

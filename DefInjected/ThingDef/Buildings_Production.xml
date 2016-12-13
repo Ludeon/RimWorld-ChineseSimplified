@@ -2,49 +2,52 @@
 <LanguageData>
 
   <CraftingSpot.label>手工加工点</CraftingSpot.label>
-  <CraftingSpot.Description>一个制作简单物品的地方，比如大麻烟、小刀和短弓。</CraftingSpot.Description>
+  <CraftingSpot.description>一个制作简单物品的地方，比如大麻烟、小刀和短弓。</CraftingSpot.description>
 
 
   <!-- Work tables -->
 
   <TableSculpting.label>雕塑台</TableSculpting.label>
-  <TableSculpting.Description>一个配备有雕刻工具的平台。</TableSculpting.Description>
+  <TableSculpting.description>一个配备有雕刻工具的平台。</TableSculpting.description>
 
   <TableButcher.label>屠宰台</TableButcher.label>
-  <TableButcher.Description>一个用于将死掉的动物宰成肉块的厚重桌子。</TableButcher.Description>
+  <TableButcher.description>一个用于将死掉的动物宰成肉块的厚重桌子。</TableButcher.description>
 
   <HandTailoringBench.label>裁缝台 （手工）</HandTailoringBench.label>
-  <HandTailoringBench.Description>用于手工缝制衣服的工作台。工作速度只有电动裁缝台的40%。</HandTailoringBench.Description>
+  <HandTailoringBench.description>用于手工缝制衣服的工作台。工作速度只有电动裁缝台的40%。</HandTailoringBench.description>
 
   <ElectricTailoringBench.label>裁缝台 （电动）</ElectricTailoringBench.label>
-  <ElectricTailoringBench.Description>带有缝纫机的工作台，快速缝制衣服。在没电时的工作速度只有平时的40%。</ElectricTailoringBench.Description>
+  <ElectricTailoringBench.description>带有缝纫机的工作台，快速缝制衣服。在没电时的工作速度只有平时的40%。</ElectricTailoringBench.description>
 
   <FueledSmithy.label>锻造台 （燃料）</FueledSmithy.label>
-  <FueledSmithy.Description>用木材当燃料的锻造台，用于制作非机械武器和工具。</FueledSmithy.Description>
+  <FueledSmithy.description>用木材当燃料的锻造台，用于制作非机械武器和工具。</FueledSmithy.description>
 
   <ElectricSmithy.label>锻造台 （电力）</ElectricSmithy.label>
-  <ElectricSmithy.Description>制作非机械武器和工具的电动锻造台。</ElectricSmithy.Description>
+  <ElectricSmithy.description>制作非机械武器和工具的电动锻造台。</ElectricSmithy.description>
 
   <TableMachining.label>机械加工台</TableMachining.label>
-  <TableMachining.Description>用于组装和拆解机械装置的平台，比如枪械和机甲尸体。</TableMachining.Description>
+  <TableMachining.description>用于组装和拆解机械装置的平台，比如枪械和机甲尸体。</TableMachining.description>
 
   <ElectricStove.label>炉灶（电力）</ElectricStove.label>
-  <ElectricStove.Description>用于烹饪食物的电力炉灶。</ElectricStove.Description>
+  <ElectricStove.description>用于烹饪食物的电力炉灶。</ElectricStove.description>
 
   <FueledStove.label>炉灶（燃料）</FueledStove.label>
-  <FueledStove.Description>用木材当燃料的简易炉灶，用于烹饪食物。</FueledStove.Description>
+  <FueledStove.description>用木材当燃料的简易炉灶，用于烹饪食物。</FueledStove.description>
 
   <TableStonecutter.label>切石桌</TableStonecutter.label>
-  <TableStonecutter.Description>一个配备有切石工具的工作台。用于把不规则的岩石切割成可用的石块。</TableStonecutter.Description>
+  <TableStonecutter.description>一个配备有切石工具的工作台。用于把不规则的岩石切割成可用的石块。</TableStonecutter.description>
 
   <Brewery.label>酿造台</Brewery.label>
-  <Brewery.Description>一个配备有酿酒设备的工作台。</Brewery.Description>
+  <Brewery.description>一个配备有酿酒设备的工作台。</Brewery.description>
 
   <DrugLab.label>药物实验台</DrugLab.label>
-  <DrugLab.Description>一个配备有各种烧瓶、量杯和加热装置的化学实验台，用于制作各种药物和成瘾品。</DrugLab.Description>
+  <DrugLab.description>一个配备有各种烧瓶、量杯和加热装置的化学实验台，用于制作各种药物和成瘾品。</DrugLab.description>
 
   <ElectricSmelter.label>电熔炼器</ElectricSmelter.label>
-  <ElectricSmelter.Description>从钢渣和其他含有金属的物品中提炼出有用的金属。消耗大量电力。</ElectricSmelter.Description>
+  <ElectricSmelter.description>从钢渣和其他含有金属的物品中提炼出有用的金属。消耗大量电力。</ElectricSmelter.description>
+
+  <Refinery.label>refinery</Refinery.label>
+  <Refinery.description>A chemical refining plant. Used to refine wood into chemfuel.</Refinery.description>
 
   <ComponentAssemblyBench.label>零部件装配台</ComponentAssemblyBench.label>
   <ComponentAssemblyBench.description>配有先进工具的工作台，用于将简单的材料制成零部件。</ComponentAssemblyBench.description>
@@ -59,7 +62,7 @@
   <HiTechResearchBench.description>一种配有电脑和电子测量设备的高科技工作台。高科技工具加快了研究速度。需要消耗电力。</HiTechResearchBench.description>
 
   <ElectricCrematorium.label>电力火化炉</ElectricCrematorium.label>
-  <ElectricCrematorium.Description>火化尸体和衣物。电力驱动。</ElectricCrematorium.Description>
+  <ElectricCrematorium.description>火化尸体和衣物。电力驱动。</ElectricCrematorium.description>
 
   <HydroponicsBasin.label>水栽培植物盆</HydroponicsBasin.label>
   <HydroponicsBasin.description>在人工培养液中快速种植植物。运行时需要消耗电力，断电后植物会死亡。</HydroponicsBasin.description>

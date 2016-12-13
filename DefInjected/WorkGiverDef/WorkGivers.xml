@@ -29,10 +29,6 @@
   <DoBillsMedicalHumanOperation.verb>手术</DoBillsMedicalHumanOperation.verb>
   <DoBillsMedicalHumanOperation.gerund>手术</DoBillsMedicalHumanOperation.gerund>
 
-  <DoBillsMedicalAnimalOperation.label>完成动物手术</DoBillsMedicalAnimalOperation.label>
-  <DoBillsMedicalAnimalOperation.verb>手术</DoBillsMedicalAnimalOperation.verb>
-  <DoBillsMedicalAnimalOperation.gerund>手术</DoBillsMedicalAnimalOperation.gerund>
-
   <DoctorTreat.label>提供治疗</DoctorTreat.label>
   <DoctorTreat.verb>治疗</DoctorTreat.verb>
   <DoctorTreat.gerund>治疗</DoctorTreat.gerund>
@@ -40,6 +36,10 @@
   <DoctorFeed.label>给患者喂食</DoctorFeed.label>
   <DoctorFeed.verb>喂食</DoctorFeed.verb>
   <DoctorFeed.gerund>喂食</DoctorFeed.gerund>
+
+  <DoBillsMedicalAnimalOperation.label>完成动物手术</DoBillsMedicalAnimalOperation.label>
+  <DoBillsMedicalAnimalOperation.verb>手术</DoBillsMedicalAnimalOperation.verb>
+  <DoBillsMedicalAnimalOperation.gerund>手术</DoBillsMedicalAnimalOperation.gerund>
 
   <TakeToBedToOperate.label>把病人带到手术床上</TakeToBedToOperate.label>
   <TakeToBedToOperate.verb>带到手术床</TakeToBedToOperate.verb>
@@ -146,13 +146,25 @@
 
   <!-- Construction -->
 
-  <Deconstruct.label>拆除建筑</Deconstruct.label>
-  <Deconstruct.verb>拆除</Deconstruct.verb>
-  <Deconstruct.gerund>拆除</Deconstruct.gerund>
+  <DoBillsMedicalMechanoidOperation.label>修改机甲</DoBillsMedicalMechanoidOperation.label>
+  <DoBillsMedicalMechanoidOperation.verb>修改</DoBillsMedicalMechanoidOperation.verb>
+  <DoBillsMedicalMechanoidOperation.gerund>修改</DoBillsMedicalMechanoidOperation.gerund>
 
-  <Uninstall.label>卸载建筑</Uninstall.label>
-  <Uninstall.verb>卸载</Uninstall.verb>
-  <Uninstall.gerund>卸载</Uninstall.gerund>
+  <FixBrokenDownBuilding.label>替换损坏的零部件</FixBrokenDownBuilding.label>
+  <FixBrokenDownBuilding.verb>替换损坏的零部件</FixBrokenDownBuilding.verb>
+  <FixBrokenDownBuilding.gerund>替换损坏的零部件</FixBrokenDownBuilding.gerund>
+
+  <Repair.label>修理受损的建筑</Repair.label>
+  <Repair.verb>修理</Repair.verb>
+  <Repair.gerund>修理</Repair.gerund>
+
+  <BuildRoofs.label>建造屋顶</BuildRoofs.label>
+  <BuildRoofs.verb>建造屋顶</BuildRoofs.verb>
+  <BuildRoofs.gerund>建造屋顶</BuildRoofs.gerund>
+
+  <RemoveRoofs.label>移除屋顶</RemoveRoofs.label>
+  <RemoveRoofs.verb>移除屋顶</RemoveRoofs.verb>
+  <RemoveRoofs.gerund>移除屋顶</RemoveRoofs.gerund>
 
   <ConstructFinishFrames.label>建造放置的框架</ConstructFinishFrames.label>
   <ConstructFinishFrames.verb>建造</ConstructFinishFrames.verb>
@@ -166,13 +178,13 @@
   <ConstructDeliverResourcesToBlueprints.verb>建造</ConstructDeliverResourcesToBlueprints.verb>
   <ConstructDeliverResourcesToBlueprints.gerund>建造</ConstructDeliverResourcesToBlueprints.gerund>
 
-  <BuildRoofs.label>建造屋顶</BuildRoofs.label>
-  <BuildRoofs.verb>建造屋顶</BuildRoofs.verb>
-  <BuildRoofs.gerund>建造屋顶</BuildRoofs.gerund>
+  <Deconstruct.label>拆除建筑</Deconstruct.label>
+  <Deconstruct.verb>拆除</Deconstruct.verb>
+  <Deconstruct.gerund>拆除</Deconstruct.gerund>
 
-  <RemoveRoofs.label>移除屋顶</RemoveRoofs.label>
-  <RemoveRoofs.verb>移除屋顶</RemoveRoofs.verb>
-  <RemoveRoofs.gerund>移除屋顶</RemoveRoofs.gerund>
+  <Uninstall.label>卸载建筑</Uninstall.label>
+  <Uninstall.verb>卸载</Uninstall.verb>
+  <Uninstall.gerund>卸载</Uninstall.gerund>
 
   <ConstructRemoveFloors.label>移除地板</ConstructRemoveFloors.label>
   <ConstructRemoveFloors.verb>移除地板</ConstructRemoveFloors.verb>
@@ -181,21 +193,6 @@
   <ConstructSmoothFloors.label>打磨地面</ConstructSmoothFloors.label>
   <ConstructSmoothFloors.verb>打磨</ConstructSmoothFloors.verb>
   <ConstructSmoothFloors.gerund>打磨</ConstructSmoothFloors.gerund>
-
-
-  <!-- Repair -->
-
-  <FixBrokenDownBuilding.label>替换损坏的零部件</FixBrokenDownBuilding.label>
-  <FixBrokenDownBuilding.verb>替换损坏的零部件</FixBrokenDownBuilding.verb>
-  <FixBrokenDownBuilding.gerund>替换损坏的零部件</FixBrokenDownBuilding.gerund>
-
-  <DoBillsMedicalMechanoidOperation.label>修改机甲</DoBillsMedicalMechanoidOperation.label>
-  <DoBillsMedicalMechanoidOperation.verb>修改</DoBillsMedicalMechanoidOperation.verb>
-  <DoBillsMedicalMechanoidOperation.gerund>修改</DoBillsMedicalMechanoidOperation.gerund>
-
-  <Repair.label>修理受损的建筑</Repair.label>
-  <Repair.verb>修理</Repair.verb>
-  <Repair.gerund>修理</Repair.gerund>
 
 
   <!-- Growing -->
@@ -262,6 +259,10 @@
   <DoBillsUseCraftingSpot.verb>制作</DoBillsUseCraftingSpot.verb>
   <DoBillsUseCraftingSpot.gerund>制作于</DoBillsUseCraftingSpot.gerund>
 
+  <DoBillsRefinery.label>works at refinery</DoBillsRefinery.label>
+  <DoBillsRefinery.verb>refine chemicals</DoBillsRefinery.verb>
+  <DoBillsRefinery.gerund>refine chemicals at</DoBillsRefinery.gerund>
+
   <DoBillsProduceDrugs.label>制作成瘾品</DoBillsProduceDrugs.label>
   <DoBillsProduceDrugs.verb>制作</DoBillsProduceDrugs.verb>
   <DoBillsProduceDrugs.gerund>制作于</DoBillsProduceDrugs.gerund>
@@ -277,6 +278,30 @@
 
   <!-- Hauling -->
 
+  <UnloadCarriers.label>unload carriers</UnloadCarriers.label>
+  <UnloadCarriers.verb>unload</UnloadCarriers.verb>
+  <UnloadCarriers.gerund>unloading</UnloadCarriers.gerund>
+
+  <LoadTransporters.label>load transporters</LoadTransporters.label>
+  <LoadTransporters.verb>load</LoadTransporters.verb>
+  <LoadTransporters.gerund>loading</LoadTransporters.gerund>
+
+  <Strip.label>剥光衣物</Strip.label>
+  <Strip.verb>剥光</Strip.verb>
+  <Strip.gerund>剥光</Strip.gerund>
+
+  <HaulCorpses.label>搬运尸体</HaulCorpses.label>
+  <HaulCorpses.verb>搬运</HaulCorpses.verb>
+  <HaulCorpses.gerund>搬运</HaulCorpses.gerund>
+
+  <BuryCorpses.label>埋葬尸体</BuryCorpses.label>
+  <BuryCorpses.verb>埋葬</BuryCorpses.verb>
+  <BuryCorpses.gerund>埋葬</BuryCorpses.gerund>
+
+  <Open.label>打开低温休眠舱或棺材</Open.label>
+  <Open.verb>打开</Open.verb>
+  <Open.gerund>打开</Open.gerund>
+
   <Refuel.label>补充燃料</Refuel.label>
   <Refuel.verb>补充燃料</Refuel.verb>
   <Refuel.gerund>补充燃料</Refuel.gerund>
@@ -284,22 +309,6 @@
   <RearmTraps.label>重置陷阱</RearmTraps.label>
   <RearmTraps.verb>重置</RearmTraps.verb>
   <RearmTraps.gerund>重置</RearmTraps.gerund>
-
-  <Strip.label>剥光衣物</Strip.label>
-  <Strip.verb>剥光</Strip.verb>
-  <Strip.gerund>剥光</Strip.gerund>
-
-  <Open.label>打开低温休眠舱或棺材</Open.label>
-  <Open.verb>打开</Open.verb>
-  <Open.gerund>打开</Open.gerund>
-
-  <TakeBeerOutOfFermentingBarrel.label>从发酵桶中取出啤酒</TakeBeerOutOfFermentingBarrel.label>
-  <TakeBeerOutOfFermentingBarrel.verb>取出啤酒</TakeBeerOutOfFermentingBarrel.verb>
-  <TakeBeerOutOfFermentingBarrel.gerund>取出啤酒</TakeBeerOutOfFermentingBarrel.gerund>
-
-  <FillFermentingBarrel.label>填满发酵桶</FillFermentingBarrel.label>
-  <FillFermentingBarrel.verb>填满</FillFermentingBarrel.verb>
-  <FillFermentingBarrel.gerund>填满发酵桶</FillFermentingBarrel.gerund>
 
   <DoBillsCremate.label>火化尸体衣物</DoBillsCremate.label>
   <DoBillsCremate.verb>火化</DoBillsCremate.verb>
@@ -309,13 +318,13 @@
   <DoBillsHaulCampfire.verb>正在工作</DoBillsHaulCampfire.verb>
   <DoBillsHaulCampfire.gerund>正在进行</DoBillsHaulCampfire.gerund>
 
-  <BuryCorpses.label>埋葬尸体</BuryCorpses.label>
-  <BuryCorpses.verb>埋葬</BuryCorpses.verb>
-  <BuryCorpses.gerund>埋葬</BuryCorpses.gerund>
+  <TakeBeerOutOfFermentingBarrel.label>从发酵桶中取出啤酒</TakeBeerOutOfFermentingBarrel.label>
+  <TakeBeerOutOfFermentingBarrel.verb>取出啤酒</TakeBeerOutOfFermentingBarrel.verb>
+  <TakeBeerOutOfFermentingBarrel.gerund>取出啤酒</TakeBeerOutOfFermentingBarrel.gerund>
 
-  <HaulCorpses.label>搬运尸体</HaulCorpses.label>
-  <HaulCorpses.verb>搬运</HaulCorpses.verb>
-  <HaulCorpses.gerund>搬运</HaulCorpses.gerund>
+  <FillFermentingBarrel.label>填满发酵桶</FillFermentingBarrel.label>
+  <FillFermentingBarrel.verb>填满</FillFermentingBarrel.verb>
+  <FillFermentingBarrel.gerund>填满发酵桶</FillFermentingBarrel.gerund>
 
   <HaulGeneral.label>搬运物品</HaulGeneral.label>
   <HaulGeneral.verb>搬运</HaulGeneral.verb>
@@ -339,5 +348,7 @@
   <Research.verb>研究</Research.verb>
   <Research.gerund>研究于</Research.gerund>
 
+
+  <!-- Repair -->
 
 </LanguageData>

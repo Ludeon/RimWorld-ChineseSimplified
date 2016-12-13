@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
   <CallOnRadio>呼叫{0}</CallOnRadio>
@@ -8,6 +8,7 @@
   <CannotUseNoPath>无法使用（没有路径）</CannotUseNoPath>
   <CannotUseReserved>无法使用（已被预留）</CannotUseReserved>
   <CannotUseFull>无法使用（已满）</CannotUseFull>
+  <LeaderUnavailable>leader {0} is unavailable</LeaderUnavailable>
 
   <FireAt>射击{0}</FireAt>
 
@@ -25,6 +26,7 @@
 
   <ForbiddenLower>已禁用</ForbiddenLower>
   <ForbiddenOutsideAllowedAreaLower>位于活动区外</ForbiddenOutsideAllowedAreaLower>
+  <NotInHomeArea>not in home area</NotInHomeArea>
   <SociallyImproperLower>不礼貌</SociallyImproperLower>
   <PrisonerRoomLower>囚犯房间</PrisonerRoomLower>
   <BurningLower>燃烧中</BurningLower>
@@ -66,6 +68,7 @@
   <Reserved>已预留给其他人。</Reserved>
   <ReservedBy>已预留给{0}。</ReservedBy>
   <IsReservedBy>{0}已被预留给{1}。</IsReservedBy>
+  <TooHeavy>Too heavy</TooHeavy>
 
   <Incapable>无法胜任</Incapable>
   <IncapableOfCapacity>无法胜任{0}</IncapableOfCapacity>
@@ -80,11 +83,25 @@
   <CannotWear>无法穿上{0}</CannotWear>
   <CannotWearBecauseOfMissingBodyParts>身体部位缺失</CannotWearBecauseOfMissingBodyParts>
 
+  <CannotPickUp>Cannot pick up {0}</CannotPickUp>
+  <CannotPickUpAll>Cannot pick up {0} (all)</CannotPickUpAll>
+  <PickUp>Pick up {0}</PickUp>
+  <PickUpAll>Pick up {0} (all)</PickUpAll>
+  <PickUpSome>Pick up {0}...</PickUpSome>
+  <PickUpCount>Pick up {0} x{{0}}</PickUpCount>
+
+  <CannotGiveToPackAnimal>Cannot give {0} to pack animal</CannotGiveToPackAnimal>
+  <CannotGiveToPackAnimalAll>Cannot give {0} (all) to pack animal</CannotGiveToPackAnimalAll>
+  <GiveToPackAnimal>Give {0} to pack animal</GiveToPackAnimal>
+  <GiveToPackAnimalAll>Give {0} (all) to pack animal</GiveToPackAnimalAll>
+  <GiveToPackAnimalSome>Give {0} to pack animal...</GiveToPackAnimalSome>
+  <GiveToPackAnimalCount>Take {0} x{{0}}</GiveToPackAnimalCount>
+
+  <CannotCarryToExit>Cannot carry {0} and leave the area</CannotCarryToExit>
+  <CarryToExit>Carry {0} and leave the area</CarryToExit>
+
   <Strip>剥光{0}</Strip>
   <CannotStrip>无法剥光{0}</CannotStrip>
-
-  <Deposit>将{0}放置到{1}</Deposit>
-  <CannotDeposit>无法将{0}放置到{1}</CannotDeposit>
 
   <SelfDestructHere>在此自毁</SelfDestructHere>
 
@@ -96,6 +113,10 @@
 
   <TradeWith>和{0}交易</TradeWith>
   <CannotTrade>无法交易</CannotTrade>
+
+  <EnterMap>Enter {0}</EnterMap>
+  <VisitFactionBase>Visit {0}</VisitFactionBase>
+  <AttackFactionBase>Attack {0}</AttackFactionBase>
 
   <!-- Specific thing interactions -->
   <EnterCryptosleepCasket>进入低温休眠舱</EnterCryptosleepCasket>
@@ -120,5 +141,11 @@
 
   <!-- e.g. Prioritize GERUND OBJECT, Prioritize repairing wall, prioritize hauling metal, etc-->
   <PrioritizeGeneric>优先{0}{1}</PrioritizeGeneric>
+
+  <DropAtEdge>Drop at edge</DropAtEdge>
+  <DropInCenter>Drop in center</DropInCenter>
+
+  <!--<Deposit>将{0}放置到{1}</Deposit>-->
+  <!--<CannotDeposit>无法将{0}放置到{1}</CannotDeposit>-->
 
 </LanguageData>

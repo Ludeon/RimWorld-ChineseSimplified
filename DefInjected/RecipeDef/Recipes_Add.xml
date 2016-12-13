@@ -10,9 +10,9 @@
   <Make_GoJuice.description>一种合成的作战用药剂，研制用于在早期的行星间战斗中提供给太空陆战队员服用。果味剂能够屏蔽服用者的痛觉同时能够提升近战和射击技能。它还能够提升移动速度\n\n但是发明它的军事化学家们却无法消除它的成瘾性。有些人认为这是个缺点，而有些人却认为这是个优点。</Make_GoJuice.description>
   <Make_GoJuice.jobString>正在制作果味剂。</Make_GoJuice.jobString>
 
-  <Make_MalariBlock.label>制作疟疾疫苗</Make_MalariBlock.label>
-  <Make_MalariBlock.description>一种用来针对疟疾的特效药物，五天一服，远离疟疾。</Make_MalariBlock.description>
-  <Make_MalariBlock.jobString>正在制作疟疾疫苗。</Make_MalariBlock.jobString>
+  <Make_Penoxycyline.label>Make penoxycyline</Make_Penoxycyline.label>
+  <Make_Penoxycyline.description>Make penoxycyline</Make_Penoxycyline.description>
+  <Make_Penoxycyline.jobString>Making penoxycyline.</Make_Penoxycyline.jobString>
 
   <Make_Flake.label>制作薄片</Make_Flake.label>
   <Make_Flake.description>一种薄薄的原料，抽起来会让人精神愉悦，这种东西非常便于制作，有着极强的成瘾性。</Make_Flake.description>
@@ -133,6 +133,10 @@
   <Make_Gun_Pistol.description>样式古老的半自动手枪。火力和射程很弱但是迅速灵敏。</Make_Gun_Pistol.description>
   <Make_Gun_Pistol.jobString>制作中。</Make_Gun_Pistol.jobString>
 
+  <Make_Gun_IncendiaryLauncher.label>制作燃烧弹发射器</Make_Gun_IncendiaryLauncher.label>
+  <Make_Gun_IncendiaryLauncher.description>燃烧弹发射器。可以用来放火。</Make_Gun_IncendiaryLauncher.description>
+  <Make_Gun_IncendiaryLauncher.jobString>制作中。</Make_Gun_IncendiaryLauncher.jobString>
+
   <Make_Gun_PumpShotgun.label>制作泵动霰弹枪</Make_Gun_PumpShotgun.label>
   <Make_Gun_PumpShotgun.description>很古老的设计，杀伤力很强，但是射程很短。</Make_Gun_PumpShotgun.description>
   <Make_Gun_PumpShotgun.jobString>制作中。</Make_Gun_PumpShotgun.jobString>
@@ -140,14 +144,6 @@
   <Make_Gun_SurvivalRifle.label>制作幸存者步枪</Make_Gun_SurvivalRifle.label>
   <Make_Gun_SurvivalRifle.description>古老的栓动步枪，估计是从哪里的地下室翻出来的。射程和威力都不错，但是射速很慢。</Make_Gun_SurvivalRifle.description>
   <Make_Gun_SurvivalRifle.jobString>制作中。</Make_Gun_SurvivalRifle.jobString>
-
-  <Make_Gun_AssaultRifle.label>制作突击步枪</Make_Gun_AssaultRifle.label>
-  <Make_Gun_AssaultRifle.description>古老的制式军用武器，用于野外或城市作战。三连发射击。射程远，威力较低，高射速。</Make_Gun_AssaultRifle.description>
-  <Make_Gun_AssaultRifle.jobString>制作中。</Make_Gun_AssaultRifle.jobString>
-
-  <Make_Gun_SniperRifle.label>制作狙击步枪</Make_Gun_SniperRifle.label>
-  <Make_Gun_SniperRifle.description>样式古老的军用狙击步枪。栓动式。射程很远，极高的精确度和威力。</Make_Gun_SniperRifle.description>
-  <Make_Gun_SniperRifle.jobString>制作中。</Make_Gun_SniperRifle.jobString>
 
   <Make_Gun_MachinePistol.label>制作冲锋手枪</Make_Gun_MachinePistol.label>
   <Make_Gun_MachinePistol.description>一种微型冲锋枪。射程短，威力低，但是射速很高。瞄准和开火都非常迅速敏捷。</Make_Gun_MachinePistol.description>
@@ -157,36 +153,25 @@
   <Make_Gun_HeavySMG.description>一把小巧的、泛口径的枪械。射程很短，但着弹点集中、操作性好。</Make_Gun_HeavySMG.description>
   <Make_Gun_HeavySMG.jobString>制作中。</Make_Gun_HeavySMG.jobString>
 
-  <Make_Gun_IncendiaryLauncher.label>制作燃烧弹发射器</Make_Gun_IncendiaryLauncher.label>
-  <Make_Gun_IncendiaryLauncher.description>燃烧弹发射器。可以用来放火。</Make_Gun_IncendiaryLauncher.description>
-  <Make_Gun_IncendiaryLauncher.jobString>制作中。</Make_Gun_IncendiaryLauncher.jobString>
-
   <Make_Gun_LMG.label>制作轻机枪</Make_Gun_LMG.label>
   <Make_Gun_LMG.description>制作一把轻机枪。</Make_Gun_LMG.description>
   <Make_Gun_LMG.jobString>制作中。</Make_Gun_LMG.jobString>
+
+  <Make_Gun_AssaultRifle.label>制作突击步枪</Make_Gun_AssaultRifle.label>
+  <Make_Gun_AssaultRifle.description>古老的制式军用武器，用于野外或城市作战。三连发射击。射程远，威力较低，高射速。</Make_Gun_AssaultRifle.description>
+  <Make_Gun_AssaultRifle.jobString>制作中。</Make_Gun_AssaultRifle.jobString>
 
   <Make_Gun_ChargeRifle.label>制作电荷步枪</Make_Gun_ChargeRifle.label>
   <Make_Gun_ChargeRifle.description>发射高能电荷弹的步枪。</Make_Gun_ChargeRifle.description>
   <Make_Gun_ChargeRifle.jobString>制作中。</Make_Gun_ChargeRifle.jobString>
 
+  <Make_Gun_SniperRifle.label>制作狙击步枪</Make_Gun_SniperRifle.label>
+  <Make_Gun_SniperRifle.description>样式古老的军用狙击步枪。栓动式。射程很远，极高的精确度和威力。</Make_Gun_SniperRifle.description>
+  <Make_Gun_SniperRifle.jobString>制作中。</Make_Gun_SniperRifle.jobString>
+
   <Make_Gun_Minigun.label>制作速射机枪</Make_Gun_Minigun.label>
   <Make_Gun_Minigun.description>一种多管机枪，极其高的射速。由机械族制作，设计时就没考虑到让人类手持射击。</Make_Gun_Minigun.description>
   <Make_Gun_Minigun.jobString>制作中。</Make_Gun_Minigun.jobString>
-
-
-  <!-- Recipe Users: ElectricSmithy FueledSmithy -->
-
-  <Make_MeleeWeapon_Gladius.label>制作短剑</Make_MeleeWeapon_Gladius.label>
-  <Make_MeleeWeapon_Gladius.description>一种远古设计的短剑。劈砍或戳刺都非常有效。</Make_MeleeWeapon_Gladius.description>
-  <Make_MeleeWeapon_Gladius.jobString>制作中。</Make_MeleeWeapon_Gladius.jobString>
-
-  <Make_MeleeWeapon_LongSword.label>制作长剑</Make_MeleeWeapon_LongSword.label>
-  <Make_MeleeWeapon_LongSword.description>一般由国王拥有的远古武器，长剑可以用来劈砍或戳刺，在合适的人的手里非常致命。</Make_MeleeWeapon_LongSword.description>
-  <Make_MeleeWeapon_LongSword.jobString>制作中。</Make_MeleeWeapon_LongSword.jobString>
-
-  <Make_MeleeWeapon_Knife.label>制作匕首</Make_MeleeWeapon_Knife.label>
-  <Make_MeleeWeapon_Knife.description>人类最古老的武器之一，匕首既是日常工具也是致命武器。</Make_MeleeWeapon_Knife.description>
-  <Make_MeleeWeapon_Knife.jobString>制作中。</Make_MeleeWeapon_Knife.jobString>
 
 
   <!-- Recipe Users: ElectricSmithy FueledSmithy ElectricSmithy FueledSmithy CraftingSpot -->
@@ -195,23 +180,35 @@
   <Make_MeleeWeapon_Shiv.description>一种自制的长得像匕首的武器。</Make_MeleeWeapon_Shiv.description>
   <Make_MeleeWeapon_Shiv.jobString>制作中。</Make_MeleeWeapon_Shiv.jobString>
 
+  <Make_MeleeWeapon_Club.label>制作棍子</Make_MeleeWeapon_Club.label>
+  <Make_MeleeWeapon_Club.description>人类最古老的武器，一根整过形的棍子。棍子的一头较重，用于将敌人击打致死。原始而有效。</Make_MeleeWeapon_Club.description>
+  <Make_MeleeWeapon_Club.jobString>制作中。</Make_MeleeWeapon_Club.jobString>
+
 
   <!-- Recipe Users: ElectricSmithy FueledSmithy -->
 
-  <Make_MeleeWeapon_Spear.label>制作矛</Make_MeleeWeapon_Spear.label>
-  <Make_MeleeWeapon_Spear.description>一种长柄武器，一端带有用于近战中戳刺敌人的尖头。</Make_MeleeWeapon_Spear.description>
-  <Make_MeleeWeapon_Spear.jobString>制作中。</Make_MeleeWeapon_Spear.jobString>
+  <Make_MeleeWeapon_Knife.label>制作匕首</Make_MeleeWeapon_Knife.label>
+  <Make_MeleeWeapon_Knife.description>人类最古老的武器之一，匕首既是日常工具也是致命武器。</Make_MeleeWeapon_Knife.description>
+  <Make_MeleeWeapon_Knife.jobString>制作中。</Make_MeleeWeapon_Knife.jobString>
+
+  <Make_MeleeWeapon_Gladius.label>制作短剑</Make_MeleeWeapon_Gladius.label>
+  <Make_MeleeWeapon_Gladius.description>一种远古设计的短剑。劈砍或戳刺都非常有效。</Make_MeleeWeapon_Gladius.description>
+  <Make_MeleeWeapon_Gladius.jobString>制作中。</Make_MeleeWeapon_Gladius.jobString>
 
   <Make_MeleeWeapon_Mace.label>制作狼牙棒</Make_MeleeWeapon_Mace.label>
   <Make_MeleeWeapon_Mace.description>一根精致的棍棒，在挥舞和杀伤上有特别的设计。</Make_MeleeWeapon_Mace.description>
   <Make_MeleeWeapon_Mace.jobString>制作中。</Make_MeleeWeapon_Mace.jobString>
 
+  <Make_MeleeWeapon_Spear.label>制作矛</Make_MeleeWeapon_Spear.label>
+  <Make_MeleeWeapon_Spear.description>一种长柄武器，一端带有用于近战中戳刺敌人的尖头。</Make_MeleeWeapon_Spear.description>
+  <Make_MeleeWeapon_Spear.jobString>制作中。</Make_MeleeWeapon_Spear.jobString>
+
+  <Make_MeleeWeapon_LongSword.label>制作长剑</Make_MeleeWeapon_LongSword.label>
+  <Make_MeleeWeapon_LongSword.description>一般由国王拥有的远古武器，长剑可以用来劈砍或戳刺，在合适的人的手里非常致命。</Make_MeleeWeapon_LongSword.description>
+  <Make_MeleeWeapon_LongSword.jobString>制作中。</Make_MeleeWeapon_LongSword.jobString>
+
 
   <!-- Recipe Users: ElectricSmithy FueledSmithy ElectricSmithy FueledSmithy CraftingSpot -->
-
-  <Make_MeleeWeapon_Club.label>制作棍子</Make_MeleeWeapon_Club.label>
-  <Make_MeleeWeapon_Club.description>人类最古老的武器，一根整过形的棍子。棍子的一头较重，用于将敌人击打致死。原始而有效。</Make_MeleeWeapon_Club.description>
-  <Make_MeleeWeapon_Club.jobString>制作中。</Make_MeleeWeapon_Club.jobString>
 
   <Make_Bow_Short.label>制作短弓</Make_Bow_Short.label>
   <Make_Bow_Short.description>一把简单的短弓，制作技艺精湛，但是科技水平非常原始。</Make_Bow_Short.description>
@@ -229,6 +226,9 @@
   <Make_Bow_Great.jobString>制作中。</Make_Bow_Great.jobString>
 
 
+  <!--<Make_MalariBlock.label>制作疟疾疫苗</Make_MalariBlock.label>-->
+  <!--<Make_MalariBlock.description>一种用来针对疟疾的特效药物，五天一服，远离疟疾。</Make_MalariBlock.description>-->
+  <!--<Make_MalariBlock.jobString>正在制作疟疾疫苗。</Make_MalariBlock.jobString>-->
   <!-- Recipe Users: ElectricTailoringBench HandTailoringBench CraftingSpot ElectricTailoringBench HandTailoringBench -->
   <!-- Recipe Users: ElectricSmithy FueledSmithy CraftingSpot ElectricSmithy FueledSmithy -->
   <!--<Make_Gun_PDW.label>制作微型冲锋枪</Make_Gun_PDW.label>-->
