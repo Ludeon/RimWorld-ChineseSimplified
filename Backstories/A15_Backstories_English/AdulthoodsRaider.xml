@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+
+<Backstories>
+
+	<Backstory>
+		<Title>Space pirate</Title>
+		<TitleShort>Pirate</TitleShort>
+		<BaseDesc>Piracy appears everywhere that governments are weak and society spread thin. NAME was part of this age-old part of human existence, extorting and smashing peaceful trade ships for profit.</BaseDesc>
+		<Slot>Adulthood</Slot>
+		<SkillGains>
+			<li><key>Melee</key><value>4</value></li>
+			<li><key>Shooting</key><value>4</value></li>
+		</SkillGains>
+		<SpawnCategories>
+			<li>Raider</li>
+			<li>Slave</li>
+		</SpawnCategories>
+		<BodyTypeMale>Hulk</BodyTypeMale>
+		<BodyTypeFemale>Female</BodyTypeFemale>
+	</Backstory>
+
+	<Backstory>
+		<Title>Pit brawler</Title>
+		<TitleShort>Brawler</TitleShort>
+		<BaseDesc>NAME was nine years old when HE got in HIS first fight. HECAP won, but more important was the enjoyment of HIS audience. Pit fighting turned out to be a lucrative career for those who could survive it. And it was even mostly legal.</BaseDesc>
+		<Slot>Adulthood</Slot>
+		<SkillGains>
+			<li><key>Melee</key><value>8</value></li>
+		</SkillGains>
+		<SpawnCategories>
+			<li>Raider</li>
+			<li>Slave</li>
+		</SpawnCategories>
+		<WorkDisables>
+			<li>Intellectual</li>
+			<li>Caring</li>
+		</WorkDisables>
+		<BodyTypeMale>Hulk</BodyTypeMale>
+		<BodyTypeFemale>Female</BodyTypeFemale>
+    <forcedTraits>
+      <Brawler>0</Brawler>
+    </forcedTraits>
+	</Backstory>
+
+	<Backstory>
+		<Title>Illegal shipwright</Title>
+		<TitleShort>Shipwright</TitleShort>
+		<BaseDesc>There is a law that say that you're not allowed to put terawatt-range grasers on a cargo scow. Especially if you hide them under what looks like a communications dish for better ambush potential. NAME discovered that there is great profit to be made, however, from those who are uninterested in these laws.</BaseDesc>
+		<Slot>Adulthood</Slot>
+		<SkillGains>
+			<li><key>Construction</key><value>7</value></li>
+		</SkillGains>
+		<SpawnCategories>
+			<li>Raider</li>
+		</SpawnCategories>
+		<BodyTypeMale>Fat</BodyTypeMale>
+		<BodyTypeFemale>Fat</BodyTypeFemale>
+	</Backstory>
+
+	<Backstory>
+		<Title>Courtesean</Title>
+		<TitleShort>Courtesean</TitleShort>
+		<BaseDesc>NAME was used for HIS body by hundreds of customers in brothels on several planets. HECAP gained some mental marks and a special kind of street smarts.</BaseDesc>
+		<Slot>Adulthood</Slot>
+		<SkillGains>
+			<li><key>Social</key><value>8</value></li>
+			<li><key>Melee</key><value>3</value></li>
+		</SkillGains>
+		<SpawnCategories>
+			<li>Slave</li>
+		</SpawnCategories>
+		<WorkDisables>
+			<li>ManualDumb</li>
+			<li>ManualSkilled</li>
+		</WorkDisables>
+		<BodyTypeMale>Hulk</BodyTypeMale>
+		<BodyTypeFemale>Thin</BodyTypeFemale>
+    <forcedTraits>
+      <Beauty>2</Beauty>
+    </forcedTraits>
+	</Backstory>
+
+	<Backstory>
+		<Title>Space marine</Title>
+		<TitleShort>Marine</TitleShort>
+		<BaseDesc>NAME was a warrior in an Imperial navy. HISCAP job was to punch into enemy starships, gun down the crew, and capture the ship intact. And HE was good at it.</BaseDesc>
+		<Slot>Adulthood</Slot>
+		<SkillGains>
+			<li><key>Melee</key><value>5</value></li>
+			<li><key>Shooting</key><value>7</value></li>
+		</SkillGains>
+		<SpawnCategories>
+			<li>Raider</li>
+			<li>Slave</li>
+		</SpawnCategories>
+		<BodyTypeMale>Hulk</BodyTypeMale>
+		<BodyTypeFemale>Thin</BodyTypeFemale>
+	</Backstory>
+
+	<Backstory>
+		<Title>Assassin</Title>
+		<TitleShort>Assassin</TitleShort>
+		<BaseDesc>NAME was a professional assassin. HECAP was cold, calculating, and made a good profit. In this business, an utter lack of empathy was an asset.</BaseDesc>
+		<Slot>Adulthood</Slot>
+		<SkillGains>
+			<li><key>Melee</key><value>10</value></li>
+			<li><key>Shooting</key><value>10</value></li>
+			<li><key>Mining</key><value>-2</value></li>
+			<li><key>Growing</key><value>-2</value></li>
+			<li><key>Construction</key><value>-2</value></li>
+		</SkillGains>
+		<SpawnCategories>
+			<li>Raider</li>
+			<li>Slave</li>
+		</SpawnCategories>
+		<WorkDisables>
+			<li>Intellectual</li>
+			<li>ManualDumb</li>
+			<li>ManualSkilled</li>
+			<li>Social</li>
+			<li>Caring</li>
+		</WorkDisables>
+		<BodyTypeMale>Hulk</BodyTypeMale>
+		<BodyTypeFemale>Thin</BodyTypeFemale>
+    <forcedTraits>
+      <Psychopath>0</Psychopath>
+    </forcedTraits>
+</Backstory>
+
+
+</Backstories>
+
+
+
+
+
+
+

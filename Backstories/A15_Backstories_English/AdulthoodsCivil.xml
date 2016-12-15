@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Backstories>
+
+	<Backstory>
+		<Title>Colony settler</Title>
+		<TitleShort>Settler</TitleShort>
+		<BaseDesc>NAME was a settler on a new colony world.\n\nSuch a life requires a jack-of-all trades at basic hands-on tasks.</BaseDesc>
+		<Slot>Adulthood</Slot>
+		<SkillGains>
+			<li><key>Construction</key><value>4</value></li>
+			<li><key>Growing</key><value>4</value></li>
+			<li><key>Mining</key><value>4</value></li>
+		</SkillGains>
+		<SpawnCategories>
+			<li>Civil</li>
+		</SpawnCategories>
+		<BodyTypeMale>Hulk</BodyTypeMale>
+		<BodyTypeFemale>Female</BodyTypeFemale>
+	</Backstory>
+
+	<Backstory>
+		<Title>Medieval farm oaf</Title>
+		<TitleShort>Oaf</TitleShort>
+		<BaseDesc>Tilling, hoeing, guiding ox carts, pushing wheelbarrows. Digging ditches, planting seeds, predicting the harvest.\n\nMedieval-level farmers aren't educated in the usual sense, but they know a lot about growing plants without technology. That said, such a life leaves one essentially incapable of participating in intellectual, technology-driven activities.</BaseDesc>
+		<Slot>Adulthood</Slot>
+		<SkillGains>
+			<li><key>Growing</key><value>8</value></li>
+			<li><key>Mining</key><value>3</value></li>
+		</SkillGains>
+		<SpawnCategories>
+			<li>Civil</li>
+			<li>Raider</li>
+			<li>Slave</li>
+		</SpawnCategories>
+		<WorkDisables>
+			<li>Intellectual</li>
+		</WorkDisables>
+		<BodyTypeGlobal>Fat</BodyTypeGlobal>
+</Backstory>
+
+	<Backstory>
+		<Title>Medieval lord</Title>
+		<TitleShort>Noble</TitleShort>
+		<BaseDesc>NAME was a lord on a preindustrial planet. HECAP went to parties, managed the underlings, and even learned some swordplay.\n\nHISCAP soft hands did not hold a work tool during that entire time. HECAP considers manual labor to be beneath HIM.</BaseDesc>
+		<Slot>Adulthood</Slot>
+		<SkillGains>
+			<li><key>Social</key><value>7</value></li>
+			<li><key>Melee</key><value>5</value></li>
+			<li><key>Shooting</key><value>5</value></li>
+			<li><key>Construction</key><value>-5</value></li>
+			<li><key>Growing</key><value>-5</value></li>
+			<li><key>Mining</key><value>-5</value></li>
+		</SkillGains>
+		<SpawnCategories>
+			<li>Civil</li>
+		</SpawnCategories>
+		<WorkDisables>
+			<li>ManualDumb</li>
+			<li>ManualSkilled</li>
+		</WorkDisables>
+		<BodyTypeMale>Hulk</BodyTypeMale>
+		<BodyTypeFemale>Thin</BodyTypeFemale>
+	</Backstory>
+
+	<Backstory>
+		<Title>Urbworld entrepreneur</Title>
+		<TitleShort>Entrepreneur</TitleShort>
+		<BaseDesc>In the urbworlds, most suffer. But someone has to run the corporations.\n\nNAME learned the skills of the trade - greasing palms and technical analysis. HECAP is a sociointellectual machine.</BaseDesc>
+		<Slot>Adulthood</Slot>
+		<SkillGains>
+			<li><key>Social</key><value>6</value></li>
+			<li><key>Research</key><value>3</value></li>
+		</SkillGains>
+		<SpawnCategories>
+			<li>Civil</li>
+		</SpawnCategories>
+		<BodyTypeMale>Male</BodyTypeMale>
+		<BodyTypeFemale>Thin</BodyTypeFemale>
+	</Backstory>
+
+	<Backstory>
+		<Title>Deep space miner</Title>
+		<TitleShort>Miner</TitleShort>
+		<BaseDesc>NAME did the sweaty, grimy work of pulling metal out of asteroids on a deep space rig. HECAP used HIS hands-on industrial skills daily - and wasn't bad in a bar fight either.</BaseDesc>
+		<Slot>Adulthood</Slot>
+		<SkillGains>
+			<li><key>Mining</key><value>7</value></li>
+			<li><key>Construction</key><value>3</value></li>
+			<li><key>Melee</key><value>2</value></li>
+		</SkillGains>
+		<SpawnCategories>
+			<li>Civil</li>
+			<li>Raider</li>
+			<li>Slave</li>
+		</SpawnCategories>
+		<BodyTypeMale>Fat</BodyTypeMale>
+		<BodyTypeFemale>Female</BodyTypeFemale>
+	</Backstory>
+
+	<Backstory>
+		<Title>Navy scientist</Title>
+		<TitleShort>Scientist</TitleShort>
+		<BaseDesc>Interstellar warfare is won by technology, so imperial navies are always on the peak of modern research. Even better, they have first access to Transcendent artifacts because they find them in space.\n\nNAME worked in a navy lab.</BaseDesc>
+		<Slot>Adulthood</Slot>
+		<SkillGains>
+			<li><key>Research</key><value>8</value></li>
+		</SkillGains>
+		<SpawnCategories>
+			<li>Civil</li>
+		</SpawnCategories>
+		<BodyTypeMale>Male</BodyTypeMale>
+		<BodyTypeFemale>Female</BodyTypeFemale>
+	</Backstory>
+
+	<Backstory>
+		<Title>Military commissar</Title>
+		<TitleShort>Commissar</TitleShort>
+		<BaseDesc>NAME was an internal spymaster in an Imperial army battalion. HECAP made sure that the men were loyal, and did not fall back unless ordered. This made HIM unpopular, but HE gained great skill at detecting the slightest dishonesty.</BaseDesc>
+		<Slot>Adulthood</Slot>
+		<SkillGains>
+			<li>
+				<key>Shooting</key>
+				<value>3</value>
+				<key>Social</key>
+				<value>6</value>
+			</li>
+		</SkillGains>
+		<SpawnCategories>
+			<li>Civil</li>
+			<li>Raider</li>
+			<li>Slave</li>
+		</SpawnCategories>
+		<BodyTypeMale>Hulk</BodyTypeMale>
+		<BodyTypeFemale>Thin</BodyTypeFemale>
+	</Backstory>
+
+</Backstories>
