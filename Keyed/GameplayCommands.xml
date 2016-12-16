@@ -27,8 +27,8 @@
   <CommandToggleDraftDesc>切换征召状态。\n\n被征召的人会遵守命令并战斗。解散前他们不会工作，吃饭或着休息。</CommandToggleDraftDesc>
   <IsIncapped>{0}无法行动。</IsIncapped>
 
-  <CommandAllowFiringLabel>Allow firing</CommandAllowFiringLabel>
-  <CommandAllowFiringDesc>Toggle allow firing.\n\nWhen disabled, this character will not automatically shoot at ranged targets. Does not affect melee combat.</CommandAllowFiringDesc>
+  <CommandAllowFiringLabel>允许交火</CommandAllowFiringLabel>
+  <CommandAllowFiringDesc>切换是否允许自行交火。\n\n此选项禁用时，角色不会自动使用远程攻击手段，近战格斗不受影响。</CommandAllowFiringDesc>
 
   <CommandClearPrioritizedWork>清除优先任务</CommandClearPrioritizedWork>
   <CommandClearPrioritizedWorkDesc>清除任何你指定的优先任务。该角色将根据自身工作优先度自行选择工作。</CommandClearPrioritizedWorkDesc>
@@ -148,83 +148,83 @@
   <CommandBuildCopyDesc>复制当前的建筑设施。</CommandBuildCopyDesc>
 
   <!-- Form caravan -->
-  <CommandFormCaravan>Form caravan</CommandFormCaravan>
-  <CommandFormCaravanDesc>Form a group of colonists able to travel to new areas. The colonists will gather all the assigned supplies and accompanying animals, leave their current area, and await further orders.</CommandFormCaravanDesc>
+  <CommandFormCaravan>组建驮队</CommandFormCaravan>
+  <CommandFormCaravanDesc>允许您的居民前往新的区域。居民会带着您所指定的动物和要携带的货物离开当前地图区域，并等待您的下一步指示。</CommandFormCaravanDesc>
 
   <!-- Reform caravan -->
-  <CommandReformCaravan>Reform caravan</CommandReformCaravan>
-  <CommandReformCaravanDesc>Reform a group of colonists. The colonists will leave their current area and await further orders.</CommandReformCaravanDesc>
-  <CommandReformCaravanFailHostilePawns>There are still some enemies in this area.</CommandReformCaravanFailHostilePawns>
+  <CommandReformCaravan>重组驮队</CommandReformCaravan>
+  <CommandReformCaravanDesc>重组您的小队，居民会带着您所指定的动物和要携带的货物离开当前地图区域，并等待您的下一步指示。</CommandReformCaravanDesc>
+  <CommandReformCaravanFailHostilePawns>此地区内尚有敌人存在。</CommandReformCaravanFailHostilePawns>
 
   <!-- Split caravan -->
-  <CommandSplitCaravan>Split</CommandSplitCaravan>
-  <CommandSplitCaravanDesc>Split this caravan into two. The caravans can be later merged back into one as long as they are close to each other.</CommandSplitCaravanDesc>
+  <CommandSplitCaravan>分割驮队</CommandSplitCaravan>
+  <CommandSplitCaravanDesc>将驮队一分为二，随后当驮队接近时会自动合并。</CommandSplitCaravanDesc>
 
   <!-- Merge caravan -->
-  <CommandMergeCaravans>Merge</CommandMergeCaravans>
-  <CommandMergeCaravansDesc>Merge selected caravans.</CommandMergeCaravansDesc>
+  <CommandMergeCaravans>合并</CommandMergeCaravans>
+  <CommandMergeCaravansDesc>合并选择的驮队。</CommandMergeCaravansDesc>
 
   <!-- Settle -->
-  <CommandSettle>Settle</CommandSettle>
-  <CommandSettleDesc>Settle in this area. Your colonists will enter this area and you will be able to start building a new home.</CommandSettleDesc>
-  <CommandSettleFailOtherWorldObjectsHere>Your caravan must be the only object on this tile in order to settle the area.</CommandSettleFailOtherWorldObjectsHere>
-  <CommandSettleFailAlreadyHaveBase>Your faction can only have one base.</CommandSettleFailAlreadyHaveBase>
-  <CommandSettleFailReachedMaximumNumberOfBases>Reached maximum number of colonies.</CommandSettleFailReachedMaximumNumberOfBases>
+  <CommandSettle>定居</CommandSettle>
+  <CommandSettleDesc>在这一区域定居，你的居民会进入到这一地区并建立新的家园。</CommandSettleDesc>
+  <CommandSettleFailOtherWorldObjectsHere>只有在该地格区域内仅有您的驮队存在的情况下才能够在这里定居。</CommandSettleFailOtherWorldObjectsHere>
+  <CommandSettleFailAlreadyHaveBase>您的阵营只能拥有一个基地</CommandSettleFailAlreadyHaveBase>
+  <CommandSettleFailReachedMaximumNumberOfBases>殖民地数量已达上限。</CommandSettleFailReachedMaximumNumberOfBases>
 
   <!-- Abandon home -->
-  <CommandAbandonHome>Abandon</CommandAbandonHome>
-  <CommandAbandonHomeDesc>Abandon this area. The area will become inaccessible and you will not be able to return here ever again. After abandoning your home, you will be able to order one of your caravans to settle in a new area.</CommandAbandonHomeDesc>
-  <CommandAbandonHomeFailAllColonistsThere>All of your colonists are there.</CommandAbandonHomeFailAllColonistsThere>
+  <CommandAbandonHome>遗弃</CommandAbandonHome>
+  <CommandAbandonHomeDesc>将这一区域遗弃，遗弃之后该区域将不可访问，您将永远无法重新回到这里。放弃您的家园后，您可以为您的驮队指定一个新的地点定居。</CommandAbandonHomeDesc>
+  <CommandAbandonHomeFailAllColonistsThere>您的所有居民还留在那儿</CommandAbandonHomeFailAllColonistsThere>
 
   <!-- Cancel forming caravan -->
-  <CommandCancelFormingCaravan>Cancel forming caravan</CommandCancelFormingCaravan>
-  <CommandCancelFormingCaravanDesc>Terminate the caravan formation process.</CommandCancelFormingCaravanDesc>
+  <CommandCancelFormingCaravan>取消组建驮队</CommandCancelFormingCaravan>
+  <CommandCancelFormingCaravanDesc>中止组建驮队。</CommandCancelFormingCaravanDesc>
 
   <!-- Show map -->
-  <CommandShowMap>Zoom in</CommandShowMap>
-  <CommandShowMapDesc>Zoom in on this area.</CommandShowMapDesc>
+  <CommandShowMap>放大</CommandShowMap>
+  <CommandShowMapDesc>放大至该区域。</CommandShowMapDesc>
 
   <!-- Trade -->
-  <CommandTrade>Trade</CommandTrade>
-  <CommandTradeDesc>Trade with this faction.</CommandTradeDesc>
-  <CommandTradeFailNoNegotiator>There isn't any conscious, not broken negotiator.</CommandTradeFailNoNegotiator>
+  <CommandTrade>贸易</CommandTrade>
+  <CommandTradeDesc>与此阵营进行贸易</CommandTradeDesc>
+  <CommandTradeFailNoNegotiator>连一个头脑清醒的正常人都没有，无法派遣谈判代表。</CommandTradeFailNoNegotiator>
 
   <!-- Take off -->
-  <CommandTakeOff>Take off</CommandTakeOff>
-  <CommandTakeOffDesc>Get on board the ship and escape the planet.</CommandTakeOffDesc>
-  <CommandTakeOffConfirmation>Are you sure you want to launch the ship?\n\nEveryone in this area will escape the planet. Everyone else will be left behind.</CommandTakeOffConfirmation>
+  <CommandTakeOff>起飞</CommandTakeOff>
+  <CommandTakeOffDesc>登船并逃离这个星球。</CommandTakeOffDesc>
+  <CommandTakeOffConfirmation>您确定要离开吗？\n\n该区域内的所有人都将逃离星球，其他居民将被遗弃。</CommandTakeOffConfirmation>
 
   <!-- Set target fuel level -->
-  <CommandSetTargetFuelLevel>Set target fuel level</CommandSetTargetFuelLevel>
-  <CommandSetTargetFuelLevelDesc>Set the target fuel level. Colonists will attempt to fill this up to the target fuel level.</CommandSetTargetFuelLevelDesc>
+  <CommandSetTargetFuelLevel>设置目标燃料阈值</CommandSetTargetFuelLevel>
+  <CommandSetTargetFuelLevelDesc>指定该目标的燃料阈值，您的居民会尝试为其加注燃料直到达到您所设定的阈值。</CommandSetTargetFuelLevelDesc>
 
   <!-- Cancel load -->
-  <CommandCancelLoad>Cancel load</CommandCancelLoad>
-  <CommandCancelLoadDesc>Cancel loading this with people or items and eject everything already loaded.</CommandCancelLoadDesc>
+  <CommandCancelLoad>取消装载</CommandCancelLoad>
+  <CommandCancelLoadDesc>取消向其装在人员或物品，并将之前已装在的物品清出。</CommandCancelLoadDesc>
 
   <!-- Launch group -->
-  <CommandLaunchGroup>Launch group</CommandLaunchGroup>
-  <CommandLaunchGroupDesc>Initiates the targeting process for launching a group of transport pods. The next step is choosing a target. The pods will fly and land together.</CommandLaunchGroupDesc>
-  <CommandLaunchGroupFailNotConnectedToFuelingPort>Some transport pods in this loading group are not connected to a fueling port.</CommandLaunchGroupFailNotConnectedToFuelingPort>
-  <CommandLaunchGroupFailNoFuel>Some pod launchers in this group have no fuel.</CommandLaunchGroupFailNoFuel>
-  <CommandLaunchGroupFailUnderRoof>Some pod launchers are under a roof.</CommandLaunchGroupFailUnderRoof>
+  <CommandLaunchGroup>发射运输舱</CommandLaunchGroup>
+  <CommandLaunchGroupDesc>启动这一组运输舱的发射程序，下一步是选择目标，运输舱会自动飞向目的地并降落在一起。 </CommandLaunchGroupDesc>
+  <CommandLaunchGroupFailNotConnectedToFuelingPort>本组中尚有未连接至燃料埠的运输舱。</CommandLaunchGroupFailNotConnectedToFuelingPort>
+  <CommandLaunchGroupFailNoFuel>本组中有的运输舱没有燃料。</CommandLaunchGroupFailNoFuel>
+  <CommandLaunchGroupFailUnderRoof>有运输舱处在室内区域。</CommandLaunchGroupFailUnderRoof>
 
   <!-- Load transporter -->
-  <CommandLoadTransporter>Load launch group of {0}</CommandLoadTransporter>
-  <CommandLoadTransporterDesc>Defines the selected transporter(s) as a launch group. Opens the loading dialog so you can decide who and what should be loaded inside.</CommandLoadTransporterDesc>
-  <CommandLoadTransporterFailNotConnectedToFuelingPort>The transport pod is not connected to a fueling port.</CommandLoadTransporterFailNotConnectedToFuelingPort>
-  <CommandLoadTransporterFailNoFuel>The pod launcher has no fuel.</CommandLoadTransporterFailNoFuel>
+  <CommandLoadTransporter>装载发射组：{0}</CommandLoadTransporter>
+  <CommandLoadTransporterDesc>将选择的运输舱定义为一个发射组，打开装载界面来决定下一步携带什么东西。</CommandLoadTransporterDesc>
+  <CommandLoadTransporterFailNotConnectedToFuelingPort>运输舱未连接到燃料埠。</CommandLoadTransporterFailNotConnectedToFuelingPort>
+  <CommandLoadTransporterFailNoFuel>发射器没有燃料。</CommandLoadTransporterFailNoFuel>
 
   <!-- Select previous transporter -->
-  <CommandSelectPreviousTransporter>Select previous in launch group</CommandSelectPreviousTransporter>
-  <CommandSelectPreviousTransporterDesc>Select previous transport pod in this launch group.</CommandSelectPreviousTransporterDesc>
+  <CommandSelectPreviousTransporter>选择前一个运输舱</CommandSelectPreviousTransporter>
+  <CommandSelectPreviousTransporterDesc>选择本组中的前一个运输舱。</CommandSelectPreviousTransporterDesc>
 
   <!-- Select all transporters -->
-  <CommandSelectAllTransporters>Select launch group</CommandSelectAllTransporters>
-  <CommandSelectAllTransportersDesc>Select all transport pods in this launch group.</CommandSelectAllTransportersDesc>
+  <CommandSelectAllTransporters>选择发射组</CommandSelectAllTransporters>
+  <CommandSelectAllTransportersDesc>选择本发射组内的所有运输舱。</CommandSelectAllTransportersDesc>
 
   <!-- Select next transporter -->
-  <CommandSelectNextTransporter>Select next in launch group</CommandSelectNextTransporter>
-  <CommandSelectNextTransporterDesc>Select next transport pod in this launch group.</CommandSelectNextTransporterDesc>
+  <CommandSelectNextTransporter>选择下一个运输舱</CommandSelectNextTransporter>
+  <CommandSelectNextTransporterDesc>选择本组中的下一个运输舱。</CommandSelectNextTransporterDesc>
 
 </LanguageData>
