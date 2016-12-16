@@ -38,9 +38,9 @@
   <Initializing>初始化中</Initializing>
   <LoadingWorld>载入世界</LoadingWorld>
   <LoadingMap>载入地图</LoadingMap>
-  <InitializingGame>Initializing game</InitializingGame>
+  <InitializingGame>初始化游戏</InitializingGame>
   <SpawningAllThings>生成所有物品</SpawningAllThings>
-  <SpawningColonists>Spawning colonists</SpawningColonists>
+  <SpawningColonists>生成殖民者</SpawningColonists>
 
   <!-- Save/load -->
   <SaveGameButton>保存</SaveGameButton>
@@ -61,18 +61,18 @@
   <LoadAnyway>仍然载入</LoadAnyway>
 
   <!-- Player faction naming -->
-  <NamePlayerFactionMessage>{0} thinks that you should give your faction a name. What should your faction be called?</NamePlayerFactionMessage>
-  <PlayerFactionGainsName>Your faction is now known as {0}.</PlayerFactionGainsName>
-  <PlayerFactionNameIsInvalid>That name isn't valid.</PlayerFactionNameIsInvalid>
+  <NamePlayerFactionMessage>{0}觉得你应给给你的派系取一个名字。它叫什么比较好？</NamePlayerFactionMessage>
+  <PlayerFactionGainsName>你的派系现在被命名为{0}.</PlayerFactionGainsName>
+  <PlayerFactionNameIsInvalid>这个派系名称无效。</PlayerFactionNameIsInvalid>
 
   <!-- Player faction base naming -->
-  <NamePlayerFactionBaseMessage>Since it looks like you'll be here for a while, {0} thinks that you should give this community a name. What should the local community be called?</NamePlayerFactionBaseMessage>
-  <PlayerFactionBaseGainsName>This community is now known as {0}.</PlayerFactionBaseGainsName>
-  <PlayerFactionBaseNameIsInvalid>That name isn't valid.</PlayerFactionBaseNameIsInvalid>
+  <NamePlayerFactionBaseMessage>看起来你可能得在这里待上好一阵子了，{0}觉得你应该给这个社区起个名字。它叫什么比较好？</NamePlayerFactionBaseMessage>
+  <PlayerFactionBaseGainsName>这个社区现在被命名为{0}。</PlayerFactionBaseGainsName>
+  <PlayerFactionBaseNameIsInvalid>这个社区名称无效。</PlayerFactionBaseNameIsInvalid>
 
   <!-- Player faction and faction base naming -->
-  <NamePlayerFactionBaseMessage_NameFactionContinuation>Since it looks like you'll be here for a while, {0} also thinks that you should give community a name. What should this local community be called?</NamePlayerFactionBaseMessage_NameFactionContinuation>
-  <PlayerFactionAndBaseGainsName>Your faction is now known as {0}, and this community is now known as {1}.</PlayerFactionAndBaseGainsName>
+  <NamePlayerFactionBaseMessage_NameFactionContinuation>看起来你可能得在这里待上好一阵子了，{0}也觉得你应该给这个社区起个名字。它叫什么比较好？</NamePlayerFactionBaseMessage_NameFactionContinuation>
+  <PlayerFactionAndBaseGainsName>你的派系现在被叫做{0}，这个社区现在被命名为{1}。</PlayerFactionAndBaseGainsName>
 
   <!-- Renaming -->
   <NameIsInvalid>请输入一个有效的名称。</NameIsInvalid>
@@ -167,7 +167,7 @@
   <Days>天</Days>
   <MinGrowingSkillToSow>种植最低技能要求</MinGrowingSkillToSow>
   <FertilityRequirement>肥沃度需求</FertilityRequirement>
-  <FertilitySensitivity>Fertility sensitivity</FertilitySensitivity>
+  <FertilitySensitivity>肥沃度敏感性</FertilitySensitivity>
   <LightRequirement>光照需求</LightRequirement>
   <Attributes>特性</Attributes>
   <LifeSpan>寿命</LifeSpan>
@@ -213,7 +213,7 @@
   <NegotiatorTalkingImpaired>你的谈判人员{0}由于健康原因而无法正常谈判。\n\n这将影响到贸易价格.\n\n请考虑换一个身体健康的殖民者来谈判。</NegotiatorTalkingImpaired>
   <ConfirmTraderShortFunds>贸易商没有足够的白银支付这次交易，继续么？</ConfirmTraderShortFunds>
   <SortBy>排序方式</SortBy>
-  <TraderTypePrice>trader type</TraderTypePrice>
+  <TraderTypePrice>贸易商类型</TraderTypePrice>
   <Selling>selling</Selling>
   <Buying>buying</Buying>
   <ItemSellPriceFactor>item sell price multiplier</ItemSellPriceFactor>
@@ -331,8 +331,8 @@
   <MoodThresholdColumnDesc>当心情值低于该值时会开始使用成瘾品。</MoodThresholdColumnDesc>
   <JoyThresholdColumnDesc>当娱乐值低于该值时会开始使用成瘾品。</JoyThresholdColumnDesc>
   <TakeToInventoryColumnDesc>每次允许额外拿走的成瘾品数量，避免每次都需要去仓库取。</TakeToInventoryColumnDesc>
-  <DrugUsageTipForAddiction>For addictions\n\nUse this drug to feed already-established addiction needs.\n\nEven if disabled, some characters with specific traits, or on mental breaks, may use the drug anyway.</DrugUsageTipForAddiction>
-  <DrugUsageTipForJoy>娱乐目的\n\n为了消除压力及在社交活动时服用。\n\n注意，即使是在禁用成瘾品的方针下，精神崩溃或有些具有某些特性的殖民者依然会无视规定使用成瘾品。</DrugUsageTipForJoy>
+  <DrugUsageTipForAddiction>满足需求\n\n为了满足已经成瘾的需求服用。\n\n注意，即使是在禁用成瘾品的方针下，当殖民者精神崩溃或有些具有某些特性时依然会无视规定使用成瘾品。</DrugUsageTipForAddiction>
+  <DrugUsageTipForJoy>娱乐目的\n\n为了消除压力及在社交活动时服用。\n\n注意，即使是在禁用成瘾品的方针下，当殖民者精神崩溃或有些具有某些特性时依然会无视规定使用成瘾品。</DrugUsageTipForJoy>
   <DrugUsageTipScheduled>计划服用\n\n当特定条件满足时，根据指定的日程安排服用药物和成瘾品。</DrugUsageTipScheduled>
 
   <!-- Growing -->
