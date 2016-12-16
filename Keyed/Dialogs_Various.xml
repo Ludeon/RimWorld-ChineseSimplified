@@ -177,7 +177,7 @@
   <WalkSpeedProperty>行走速度</WalkSpeedProperty>
   <MinFoodQuality>最低食物品质</MinFoodQuality>
   <Diet>饮食</Diet>
-  <BodySize>Body size</BodySize>
+  <BodySize>体型</BodySize>
   <RecruitDifficulty>招募难度</RecruitDifficulty>
   <MarketValue>市场价值</MarketValue>
   <Covers>覆盖</Covers>
@@ -331,25 +331,25 @@
   <MoodThresholdColumnDesc>当心情值低于该值时会开始使用成瘾品。</MoodThresholdColumnDesc>
   <JoyThresholdColumnDesc>当娱乐值低于该值时会开始使用成瘾品。</JoyThresholdColumnDesc>
   <TakeToInventoryColumnDesc>每次允许额外拿走的成瘾品数量，避免每次都需要去仓库取。</TakeToInventoryColumnDesc>
-  <DrugUsageTipForAddiction>满足需求\n\n为了满足已经成瘾的需求服用。\n\n注意，即使是在禁用成瘾品的方针下，当殖民者精神崩溃或有些具有某些特性时依然会无视规定使用成瘾品。</DrugUsageTipForAddiction>
-  <DrugUsageTipForJoy>娱乐目的\n\n为了消除压力及在社交活动时服用。\n\n注意，即使是在禁用成瘾品的方针下，当殖民者精神崩溃或有些具有某些特性时依然会无视规定使用成瘾品。</DrugUsageTipForJoy>
+  <DrugUsageTipForAddiction>满足需求\n\n为了满足已经成瘾的需求服用。\n\n注意，即使是在禁用成瘾品的方针下，当殖民者精神崩溃或具有某些特性时依然会无视规定使用成瘾品。</DrugUsageTipForAddiction>
+  <DrugUsageTipForJoy>娱乐目的\n\n为了消除压力及在社交活动时服用。\n\n注意，即使是在禁用成瘾品的方针下，当殖民者精神崩溃或具有某些特性时依然会无视规定使用成瘾品。</DrugUsageTipForJoy>
   <DrugUsageTipScheduled>计划服用\n\n当特定条件满足时，根据指定的日程安排服用药物和成瘾品。</DrugUsageTipScheduled>
 
   <!-- Growing -->
   <NoGrowerCanPlant>播种{0}最低需要{1}级种植技能。\n\n你没有达到该技能要求的种植者，因此这种植物将不会被播种。</NoGrowerCanPlant>
 
   <!-- Abandon home -->
-  <ConfirmAbandonHomeWithColonyPawns>Some of your colonists or animals are in this area. Are you sure you want to abandon it?\n\nThe following people and animals will be left behind:\n\n{0}</ConfirmAbandonHomeWithColonyPawns>
+  <ConfirmAbandonHomeWithColonyPawns>你的一些殖民者或动物仍然在这个区域里。你确定要废弃它吗？\n\n这些人或动物会被留在这里：\n\n{0}</ConfirmAbandonHomeWithColonyPawns>
 
   <!-- Move caravan and leave prisoners and animals behind -->
   <ConfirmLeavePrisonersOrAnimalsBehind>There are still some prisoners or animals left in this area and this is the only caravan they can join at the moment.\n\nIf you move your caravan, they won't be able to leave the area until you are back. The prisoners will start escaping, while the animals will keep waiting for you.\n\nIf you decide to wait, they will try to join your caravan as soon as possible.\n\nAre you sure you want to move your caravan?</ConfirmLeavePrisonersOrAnimalsBehind>
 
   <!-- Abandon pawn -->
-  <ConfirmAbandonPawnDialog>Do you really want to abandon {0}?</ConfirmAbandonPawnDialog>
-  <ConfirmAbandonPawnDialog_LeftToDie>{0} will most likely die.</ConfirmAbandonPawnDialog_LeftToDie>
-  <ConfirmAbandonPawnDialog_EquipmentAndApparel>{0} will take the following items with HIM:</ConfirmAbandonPawnDialog_EquipmentAndApparel>
-  <ConfirmAbandonPawnDialog_AllColonistsThoughts>All colonists will get the following thoughts:</ConfirmAbandonPawnDialog_AllColonistsThoughts>
-  <ConfirmAbandonPawnDialog_IndividualThoughts>Abandoning {0} will cause the following people to get the following thoughts:</ConfirmAbandonPawnDialog_IndividualThoughts>
+  <ConfirmAbandonPawnDialog>你真的要抛下{0}吗?</ConfirmAbandonPawnDialog>
+  <ConfirmAbandonPawnDialog_LeftToDie>{0}很有可能会死。</ConfirmAbandonPawnDialog_LeftToDie>
+  <ConfirmAbandonPawnDialog_EquipmentAndApparel>{0}将会携带这些物品：</ConfirmAbandonPawnDialog_EquipmentAndApparel>
+  <ConfirmAbandonPawnDialog_AllColonistsThoughts>所有的殖民者将有这些想法：</ConfirmAbandonPawnDialog_AllColonistsThoughts>
+  <ConfirmAbandonPawnDialog_IndividualThoughts>抛下{0}将会导致这些人有以下这些想法：</ConfirmAbandonPawnDialog_IndividualThoughts>
 
   <!-- Send transport pods which are not completely loaded -->
   <ConfirmSendNotCompletelyLoadedPods>Pod group isn’t completely loaded. {0} is missing. Launch anyway?</ConfirmSendNotCompletelyLoadedPods>
