@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Backstories>
+
+	<Backstory>
+		<Title>Tribe child</Title>
+		<BaseDesc>NAME grew up in the tribe, running around the village, moving with the muffalo herds, learning essential skills from HIS parents.\n\nHECAP never learned to read and never saw a machine that wasn't an ancient ruin.</BaseDesc>
+		<Slot>Childhood</Slot>
+		<SkillGains>
+			<li>
+				<key>Growing</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>Shooting</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>Research</key>
+				<value>-3</value>
+			</li>
+		</SkillGains>
+		<SpawnCategories>
+			<li>Tribal</li>
+		</SpawnCategories>
+	</Backstory>
+
+</Backstories>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
   <ClickToJumpToProblem>转至事件发生地点</ClickToJumpToProblem>
@@ -28,7 +28,7 @@
   <NeedWardenDesc>你有一名囚犯，但是没有殖民者从事「监管」工作。\n\n给一位殖民者分配「监管」工作。</NeedWardenDesc>
 
   <LowFood>食物不足</LowFood>
-  <LowFoodDesc>储存区中只有营养值总和{0}的食物库存。这已经非常低了。\n\n种植，购买，搜索及狩猎以获取食物。</LowFoodDesc>
+  <LowFoodDesc>你正面临着食物不足的境况。\n\n    储存的食物数量：{0}\n    消耗食物的殖民者和囚犯人数：{1}\n    储存的食物可维持的天数：{2}\n\n你可以通过种植、购买、寻找，或者狩猎获取食物。</LowFoodDesc>
 
   <LowMedicine>药品不足</LowMedicine>
   <LowMedicineDesc>储存区中只有{0}的药品库存。\n\n通过贸易购买更多的药品，或者种植「草药」。</LowMedicineDesc>
@@ -41,7 +41,10 @@
   <HunterLacksWeaponDesc>一个分配「狩猎」工作的殖民者没有远程武器。\n\n他们在得到一把远程武器之前不会去狩猎。</HunterLacksWeaponDesc>
 
   <AlertTatteredApparel>衣衫褴褛</AlertTatteredApparel>
-  <AlertTatteredApparelDesc>以下殖民者还在穿着耐久度过低的衣服，这会让他们很不高兴：\n\n{0}\n给他们一些耐久度足够的衣服吧。\n\n你可以通过缝纫台来制作新的衣服，或者从商人手里购买。</AlertTatteredApparelDesc>
+  <AlertTatteredApparelDesc>以下殖民者还在穿着耐久度过低的衣服，这会让他们很不高兴：\n\n{0}\n给他们一些耐久度足够的衣服吧。\n\n你可以通过裁缝台来制作新的衣服，或者从商人手里购买。</AlertTatteredApparelDesc>
+
+  <AlertUnhappyNudity>一丝不挂</AlertUnhappyNudity>
+  <AlertUnhappyNudityDesc>以下殖民者全身赤裸，这会让他们很不高兴:\n\n{0}\n给他们一些衣服吧。\n\n你可以通过裁缝台来制作新的衣服，或者从商人手里购买。</AlertUnhappyNudityDesc>
 
   <Starvation>饥肠辘辘</Starvation>
   <StarvationDesc>以下殖民者快饿死了：\n\n{0}\n给他们弄些食物。你需要在他们的活动区内设置一个食物源，并且殖民者不会去吃牢房内的食物。另外，确保他们不在被征召的状态。</StarvationDesc>
@@ -62,7 +65,7 @@
   <NeedJoySourceDesc>你的殖民者生活太过枯燥，需要建设一些娱乐设施满足娱乐需求。\n\n建造一个马蹄钉、象棋、桌球等作为娱乐项目。</NeedJoySourceDesc>
 
   <NeedBatteries>缺少蓄电池</NeedBatteries>
-  <NeedBatteriesDesc>你只有太阳能板而没有电池。这意味着太阳下山后你的殖民地就会停电。\n\n建造一两个蓄电池以满足夜间的电力需求。</NeedBatteriesDesc>
+  <NeedBatteriesDesc>你建有太阳能板或风力发电机，但没有建造蓄电池。这意味着每当入夜之后或者无风之时你的基地将会失去电力供应。\n\n建造一两个蓄电池以确保持续供电。</NeedBatteriesDesc>
 
   <BrawlerHasRangedWeapon>格斗者持有远程武器</BrawlerHasRangedWeapon>
   <BrawlerHasRangedWeaponDesc>你的殖民者中的一个拥有格斗者特性但却携带了一把远程武器。这会让他们很不高兴。</BrawlerHasRangedWeaponDesc>
@@ -102,5 +105,8 @@
   <NeedWarmClothesDesc1>你的殖民者中至少{0}人没有能够御寒的衣物。</NeedWarmClothesDesc1>
   <NeedWarmClothesDesc1All>你所有的殖民者都没有能够御寒的衣物。</NeedWarmClothesDesc1All>
   <NeedWarmClothesDesc2>室外温度已经降至{0}。\n\n你可以在缝纫台制作御寒衣物，或者从商人处购买。</NeedWarmClothesDesc2>
+
+  <ImmobileCaravan>远行队无法行动</ImmobileCaravan>
+  <ImmobileCaravanDesc>你的一个远行队携带了太多东西以至于无法行动。\n\n你可以在「物品」标签中选择丢弃一些货物来让他们继续移动。</ImmobileCaravanDesc>
 
 </LanguageData>

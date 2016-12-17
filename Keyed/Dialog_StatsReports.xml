@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
   <StatsReport_BaseValue>基础值</StatsReport_BaseValue>
@@ -12,6 +12,7 @@
   <StatsReport_OtherStats>其它状态影响系数</StatsReport_OtherStats>
   <StatsReport_HealthFactors>健康影响系数</StatsReport_HealthFactors>
   <HealthFactorPercentImpact>{0}权重</HealthFactorPercentImpact>
+  <HealthFactorMaxImpact>{0} max</HealthFactorMaxImpact>
   <StatsReport_PostProcessed>后期处理</StatsReport_PostProcessed>
   <StatsReport_FinalValue>最终值</StatsReport_FinalValue>
   <StatsReport_MarketValueFromStuffsAndWork>市场价值是由原材料和工作量计算而来的。</StatsReport_MarketValueFromStuffsAndWork>
@@ -30,8 +31,11 @@
   <StatsReport_CooldownFormat>{0}秒</StatsReport_CooldownFormat>
   <StatsReport_LifeExpectancy>预期寿命</StatsReport_LifeExpectancy>
   <StatsReport_MissingBodyParts>身体部位缺失影响系数</StatsReport_MissingBodyParts>
+  <StatsReport_GearAndInventoryMass>装备和物品负重</StatsReport_GearAndInventoryMass>
+  <StatsReport_WornByCorpse>穿着死者衣物影响系数</StatsReport_WornByCorpse>
   <AverageOfAllAttacks>各攻击平均</AverageOfAllAttacks>
-  <StatsReport_UnpoweredWorkTable>无电力供应</StatsReport_UnpoweredWorkTable>
   <StatsReport_ScenarioFactor>剧本设置影响系数</StatsReport_ScenarioFactor>
+
+  <!--<StatsReport_UnpoweredWorkTable>无电力供应</StatsReport_UnpoweredWorkTable>-->
 
 </LanguageData>

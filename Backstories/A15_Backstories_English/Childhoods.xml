@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Backstories>
+
+  <Backstory>
+    <Title>Medieval slave</Title>
+    <BaseDesc>NAME grew up pulling carts and digging holes on a medieval world. Simple manual labor is HIS oldest companion - along with the master's lash.\n\nHECAP didn't learn to read until age nine.</BaseDesc>
+    <Slot>Childhood</Slot>
+    <SkillGains>
+      <li>
+        <key>Growing</key>
+        <value>2</value>
+      </li>
+      <li>
+        <key>Construction</key>
+        <value>2</value>
+      </li>
+      <li>
+        <key>Mining</key>
+        <value>2</value>
+      </li>
+      <li>
+        <key>Research</key>
+        <value>-3</value>
+      </li>
+    </SkillGains>
+    <SpawnCategories>
+      <li>Civil</li>
+      <li>Slave</li>
+      <li>Raider</li>
+    </SpawnCategories>
+  </Backstory>
+
+  <Backstory>
+    <Title>Medieval lordling</Title>
+    <BaseDesc>NAME was a minor noble in an old kingdom on a medieval world. HECAP grew up in a manor made of stone, served by bowing lowerclassmen.\n\nSuch a life teaches no technical skills and instils a lifelong aversion to manual labor - but NAME learned early the ways of social manipulation.</BaseDesc>
+    <Slot>Childhood</Slot>
+    <SkillGains>
+      <li>
+        <key>Social</key>
+        <value>4</value>
+      </li>
+      <li>
+        <key>Construction</key>
+        <value>-1</value>
+      </li>
+      <li>
+        <key>Mining</key>
+        <value>-1</value>
+      </li>
+      <li>
+        <key>Growing</key>
+        <value>-1</value>
+      </li>
+    </SkillGains>
+    <SpawnCategories>
+      <li>Civil</li>
+    </SpawnCategories>
+  </Backstory>
+
+  <Backstory>
+    <Title>Urbworld urchin</Title>
+    <BaseDesc>The urbworlds - ancient and deep industrial cityscapes bursting with humanity and poison. NAME grew up in the dark, unwanted reaches of such a place. HECAP had to fight for every scrap of food.</BaseDesc>
+    <Slot>Childhood</Slot>
+    <SkillGains>
+      <li>
+        <key>Melee</key>
+        <value>4</value>
+      </li>
+      <li>
+        <key>Shooting</key>
+        <value>2</value>
+      </li>
+    </SkillGains>
+    <SpawnCategories>
+      <li>Civil</li>
+      <li>Slave</li>
+      <li>Raider</li>
+    </SpawnCategories>
+  </Backstory>
+
+  <Backstory>
+    <Title>Vatgrown soldier</Title>
+    <BaseDesc>NAME wasn't made as a person, but as an instrument of destruction. Grown in a bioweapons facility and taught combat during HIS accelerated growth, NAME still has a proclivity for combat of all kinds and an aversion to human contact.</BaseDesc>
+    <Slot>Childhood</Slot>
+    <SkillGains>
+      <li>
+        <key>Melee</key>
+        <value>4</value>
+      </li>
+      <li>
+        <key>Shooting</key>
+        <value>4</value>
+      </li>
+      <li>
+        <key>Social</key>
+        <value>-4</value>
+      </li>
+    </SkillGains>
+    <SpawnCategories>
+      <li>Civil</li>
+      <li>Slave</li>
+      <li>Raider</li>
+    </SpawnCategories>
+    <WorkDisables>
+      <li>Social</li>
+      <li>Caring</li>
+    </WorkDisables>
+  </Backstory>
+
+</Backstories>

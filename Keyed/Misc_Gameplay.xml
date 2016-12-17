@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
   <!-- Various -->
@@ -22,10 +22,9 @@
   <NothingLower>无</NothingLower>
   <Adapted>已适应</Adapted>
   <FreshMissingBodyPart>新鲜</FreshMissingBodyPart>
-  <UntreatedLower>未处理</UntreatedLower>
   <DevelopedImmunityLower>产生免疫</DevelopedImmunityLower>
-  <InjuryRequiresTreatment>需要治疗才可康复</InjuryRequiresTreatment>
-  <NextTreatmentIn>下次治疗于{0}后</NextTreatmentIn>
+  <NeedsTendingNow>当前需要治疗</NeedsTendingNow>
+  <NextTreatmentIn>于{0}后将需要治疗</NextTreatmentIn>
   <MissingMedicalBillIngredient>缺少{0}</MissingMedicalBillIngredient>
   <Immunity>免疫性</Immunity>
   <Race>种族</Race>
@@ -48,34 +47,71 @@
   <Fertilized>已受精</Fertilized>
   <ProgressStoppedUntilFertilized>停止产卵（需要受精）</ProgressStoppedUntilFertilized>
   <SkillTooLow>至少需要 {2} 级 {0} 技能，当前为 {1} 级</SkillTooLow>
-  <EggDamagedEmbryo>胚胎受损</EggDamagedEmbryo>
+  <Freezing>冷冻</Freezing>
+  <Overheating>过热</Overheating>
+  <RuinedByTemperature>因温度导致损坏。</RuinedByTemperature>
   <CorpsePercentMissing>身体部位缺失</CorpsePercentMissing>
   <HiveReproducesIn>巢穴繁殖时间</HiveReproducesIn>
   <BrokenDown>故障</BrokenDown>
-  <BondBrackets>（羁绊）</BondBrackets>
+  <BondBrackets>（牵绊）</BondBrackets>
   <Fuel>燃料</Fuel>
+  <FuelLevelGizmoLabel>燃料</FuelLevelGizmoLabel>
+  <SetTargetFuelLevel>设定目标燃料量{0}</SetTargetFuelLevel>
+  <SetPodLauncherTargetFuelLevel>设定目标燃料量为{0}\n最大发射距离：{1}格</SetPodLauncherTargetFuelLevel>
+  <ConfiguredTargetFuelLevel>目标燃料量{0}</ConfiguredTargetFuelLevel>
   <Enemies>敌人</Enemies>
   <TimePassed>用时</TimePassed>
   <CurrentRadius>当前半径</CurrentRadius>
   <RadiusExpandsIn>扩大半径至</RadiusExpandsIn>
   <Permanent>永久</Permanent>
+  <CaravanResting>休息中。</CaravanResting>
+  <CaravanEstimatedTimeToDestination>预计抵达目的地时间：{0}</CaravanEstimatedTimeToDestination>
+  <CaravanImmobilizedByMass>无法移动：重量过大</CaravanImmobilizedByMass>
+  <CaravanOutOfFood>食物耗尽。</CaravanOutOfFood>
+  <CaravanDaysOfFood>食物支持天数：{0}</CaravanDaysOfFood>
+  <CaravanMemberMentalBreak>停止原因：{0}精神崩溃。</CaravanMemberMentalBreak>
+  <AllCaravanMembersDowned>停止原因：全体失去行动能力。</AllCaravanMembersDowned>
+  <CaravanTraveling>行进中。</CaravanTraveling>
+  <CaravanWaiting>等待中。</CaravanWaiting>
+  <CaravanHoursPerTile>小时/格</CaravanHoursPerTile>
+  <CaravanBaseMovementTime>基础移动耗时</CaravanBaseMovementTime>
+  <CurrentTileMovementTime>当前单元格移动耗时</CurrentTileMovementTime>
   <Temperature>温度</Temperature>
   <BadTemperature>温度不适宜</BadTemperature>
   <IdealFermentingTemperature>理想发酵温度</IdealFermentingTemperature>
   <DrugEffectMultiplier>{0}功效系数</DrugEffectMultiplier>
+  <CaravanVisiting>正在拜访{0}。</CaravanVisiting>
+  <CaravanEntering>正在进入{0}。</CaravanEntering>
+  <CaravanAttacking>正在进攻{0}。</CaravanAttacking>
+  <WasWornByCorpse>死者衣物</WasWornByCorpse>
+  <WornByCorpseChar>死者衣物</WornByCorpseChar>
+  <DeterioratingDueToBeingUnroofed>老化中（原因：露天）</DeterioratingDueToBeingUnroofed>
+  <Map>地图</Map>
+  <ForceExitAndRemoveMapCountdown>距离离开还有{0}小时</ForceExitAndRemoveMapCountdown>
+  <ForceExitAndRemoveMapCountdownTip>你的殖民者将会在{0}小时后自动重组商队并离开该区域。</ForceExitAndRemoveMapCountdownTip>
+  <Room>房间</Room>
+  <BeautyHere>此处美观度</BeautyHere>
+  <NoPower>未通电</NoPower>
+  <WorkSpeedPenalty>工作速度惩罚</WorkSpeedPenalty>
+  <DisabledCommand>禁用</DisabledCommand>
+  <ReadyForLaunch>准备发射。</ReadyForLaunch>
+  <NotReadyForLaunch>未准备好发射</NotReadyForLaunch>
+  <NotAllInGroupConnectedToFuelingPort>缺少燃料供给端</NotAllInGroupConnectedToFuelingPort>
+  <NotAllFuelingPortSourcesInGroupHaveAnyFuel>燃料不足</NotAllFuelingPortSourcesInGroupHaveAnyFuel>
+  <TransportPodInGroupHasSomethingLeftToLoad>装载未完成</TransportPodInGroupHasSomethingLeftToLoad>
+  <TransportPodDestinationBeyondMaximumRange>超出最大范围</TransportPodDestinationBeyondMaximumRange>
+  <TransportPodNotEnoughFuel>燃料不足</TransportPodNotEnoughFuel>
+  <FactionBaseTrader>来自{1}的{0}</FactionBaseTrader>
 
   <!-- Fermentation barrel -->
   <ContainsWort>装有麦芽汁：{0} / {1}</ContainsWort>
   <ContainsBeer>装有啤酒：{0} / {1}</ContainsBeer>
   <Fermented>发酵完成</Fermented>
-  <FermentationProgress>进度：{0}（约在{1}后完成）。</FermentationProgress>
-  <FermentationBarrelOutOfIdealTemperature>非理想温度（发酵速度系数：{0}）</FermentationBarrelOutOfIdealTemperature>
+  <FermentationProgress>进度：{0}（剩余{1}）。</FermentationProgress>
+  <FermentationBarrelOutOfIdealTemperature>非理想温度，发酵速度：{0}</FermentationBarrelOutOfIdealTemperature>
 
   <!--TextMotes-->
   <Headshot>命中头部</Headshot>
-  <TreatQuality>治疗效果{0}</TreatQuality>
-  <PoorResult>效果很差</PoorResult>
-  <GoodResult>效果很好</GoodResult>
   <TextMote_TreatSuccess>治疗成功！\n{0}几率</TextMote_TreatSuccess>
   <TextMote_TreatFailed>治疗失败\n{0}几率</TextMote_TreatFailed>
   <HarvestFailed>收获失败</HarvestFailed>
@@ -156,6 +192,8 @@
   <!-- Generated recipes -->
   <RecipeMake>制作{0}</RecipeMake>
   <RecipeMakeJobString>正在制作{0}。</RecipeMakeJobString>
+  <RecipeAdminister>管理{0}</RecipeAdminister>
+  <RecipeAdministerJobString>正在管理{0}。</RecipeAdministerJobString>
 
   <!-- Thoughts -->
   <ThoughtExpiresIn>消逝时间：{0}</ThoughtExpiresIn>
@@ -172,6 +210,9 @@
   <Faction>派系</Faction>
   <Equipped>装备</Equipped>
   <EquippedNothing>（无）</EquippedNothing>
+  <Dead>死亡</Dead>
+  <Unconscious>失去知觉</Unconscious>
+  <PainShock>暂时休克</PainShock>
   <Incapacitated>无法行动</Incapacitated>
   <InRestraints>关押中（速度减慢）</InRestraints>
   <Carrying>携带</Carrying>
@@ -235,12 +276,11 @@
   <OutOfIdealTemperatureRangeNotGrowing>非理想温度（停止生长）</OutOfIdealTemperatureRangeNotGrowing>
   <ReadyToHarvest>可收获</ReadyToHarvest>
   <Mature>成熟</Mature>
-  <SeedLabel>{0}种子</SeedLabel>
-  <OutdoorGrowingPeriod>生长期：\n{0}</OutdoorGrowingPeriod>
+  <OutdoorGrowingPeriod>生长期</OutdoorGrowingPeriod>
   <NoGrowingPeriod>无</NoGrowingPeriod>
   <GrowYearRound>全年</GrowYearRound>
   <GrowSeasonHereNow>当前季节可种植。</GrowSeasonHereNow>
-  <CannotGrowTooCold>无法种植 - 过于寒冷</CannotGrowTooCold>
+  <CannotGrowBadSeasonTemperature>无法种植（季节性温度不适宜）。</CannotGrowBadSeasonTemperature>
 
   <!-- Zones -->
   <Zone>活动区</Zone>
@@ -262,13 +302,15 @@
   <!-- Buttons -->
   <ShowLearningHelperWhenEmptyToggleButton>开关始终显示教学助手\n\n当没有需要学习的新教程时，教学助手会自动隐藏。开启后，将在学习完所有教程之后继续显示教学助手。</ShowLearningHelperWhenEmptyToggleButton>
   <ZoneVisibilityToggleButton>开关区域显示。</ZoneVisibilityToggleButton>
-  <ShowBeautyToggleButton>开关美观度显示\n\n开启后，显示殖民者站在鼠标所在位置时所感受到的美观度。</ShowBeautyToggleButton>
-  <ShowRoomStatsToggleButton>开关房间数据显示\n\n开启后，显示鼠标所在位置的房间统计数据。</ShowRoomStatsToggleButton>
+  <ShowEnvironmentToggleButton>开关环境显示。\n\n显示人物在鼠标停留位置所能感受到的环境的美观度和房间统计。</ShowEnvironmentToggleButton>
   <ShowColonistBarToggleButton>开关殖民者头像条显示。\n\n开启后，在屏幕上方显示所有殖民者的头像和当前状态。</ShowColonistBarToggleButton>
   <AutoHomeAreaToggleButton>开关自动添加居住区\n\n开启后，将自动在新建造的建筑附近添加居住区。</AutoHomeAreaToggleButton>
   <CategorizedResourceReadoutToggleButton>开关资源分类显示\n\n开启后，将资源显示按照其所属类型分类显示。</CategorizedResourceReadoutToggleButton>
   <ShowAnimalNamesToggleButton>开关已驯服动物名称显示。</ShowAnimalNamesToggleButton>
   <ShowRoofOverlayToggleButton>开关屋顶区显示。</ShowRoofOverlayToggleButton>
+  <LockNorthUpToggleButton>锁定镜头旋转以保持北极始终处在顶部。</LockNorthUpToggleButton>
+  <UsePlanetDayNightSystemToggleButton>开关日夜光照系统。</UsePlanetDayNightSystemToggleButton>
+  <ExpandingIconsToggleButton>开关显示扩展图标，代替远距离对象的常规图标。</ExpandingIconsToggleButton>
 
   <!-- Fire -->
   <Fire>火焰</Fire>
@@ -285,6 +327,7 @@
   <NoStuffsToBuildWith>你缺少建造此建筑所需要的材料。</NoStuffsToBuildWith>
 
   <!-- Building placement restricters -->
+  <WillGetWorkSpeedPenalty>{0}有工作速度惩罚</WillGetWorkSpeedPenalty>
   <MustPlaceUnroofed>无法放置于屋顶下。</MustPlaceUnroofed>
   <MustPlaceHeadOnShipBeam>必须放置于飞船结构梁两端。</MustPlaceHeadOnShipBeam>
   <MustPlaceNextToHopperAccepter>必须紧挨着放置于需要进料口的设备旁边。</MustPlaceNextToHopperAccepter>
@@ -292,6 +335,7 @@
   <MustPlaceCoolerWithFreeSpaces>制冷机的热端和冷端都不能被阻塞。</MustPlaceCoolerWithFreeSpaces>
   <MustPlaceVentWithFreeSpaces>通风孔两端都不能被阻塞，以便空气流通。</MustPlaceVentWithFreeSpaces>
   <MustPlaceAdjacentStandable>必须放置于四周空旷的位置。</MustPlaceAdjacentStandable>
+  <MustPlaceNearFuelingPort>必须放置于运输舱发射器的燃料供给端旁。</MustPlaceNearFuelingPort>
 
   <!-- Wind Turbine -->
   <WindTurbine_WindPathIsBlockedBy>被该物品遮挡：</WindTurbine_WindPathIsBlockedBy>
@@ -323,7 +367,7 @@
   <UnfinishedItemWithStuff>{0}{1}（未完成）</UnfinishedItemWithStuff>
 
   <!-- Quality -->
-  <Quality>品质</Quality>
+  <Quality>物品品质</Quality>
   <QualityDescription>物品品质为该物品的制作精良程度。</QualityDescription>
   <QualityIs>品质：{0}</QualityIs>
 
@@ -340,6 +384,7 @@
   <GameOverEveryoneDead>所有殖民者不是死亡就是离开了。这个故事结束了。\n\n这片遗迹也许在某天会帮上其他人的忙。</GameOverEveryoneDead>
   <GameOverShipLaunched>你发射了逃生船！以下殖民者离开了：\n\n{0}\n以下殖民者被留下了：\n\n{1}\n现在飞船AI会自动引导飞船至安全目的地。也许它会带你到本星系内的一颗繁盛星球上。或许它会花费数世纪航行至另一星系。甚至它选择在一颗小行星的冰层下沉睡几千年，等待其他人在此建设一个闪耀世界。\n\n一切只有在你醒来后才能知道。</GameOverShipLaunched>
   <GameOverPlanetkillerImpact>行星杀手武器以接近光速的速度猛烈地击中了大地，威力相当于一万亿颗氢弹同时引爆。就像一颗被步枪命中的装满水的气球，整颗行星在强劲冲击下液化并将大量自身融化的内核抛入太空。\n\n{0}的一部分变成了一条小行星带。剩余部分则是一片融化的布满辐射的地狱景象，数公里高的行星震波在表面来回荡漾。\n\n你没能活下来。</GameOverPlanetkillerImpact>
+  <GameOverArrivedAtJourneyDestination>当你踏上太空船的时候，船员们热烈的欢迎了你。他们看起来非常高兴又多了新的同伴。\n\n以下殖民者离开了：\n\n{0}\n以下殖民者被留下了：\n\n{1}\n现在飞船AI会自动引导飞船至安全目的地。也许它会带你到本星系内的一颗繁盛星球上。或许它会花费数世纪航行至另一星系。甚至它选择在一颗小行星的冰层下沉睡几千年，等待其他人在此建设一个闪耀世界。\n\n正当你准备进入低温休眠舱的时候，你犹豫了一下，多少有点担忧是不是真的能相信这些人。\n\n这一切只有在你醒来后才能知道。</GameOverArrivedAtJourneyDestination>
   <GameOverKeepPlaying>继续游戏</GameOverKeepPlaying>
   <GameOverMainMenu>返回主菜单</GameOverMainMenu>
 
@@ -392,7 +437,20 @@
   <AlreadyLearned>已学习</AlreadyLearned>
   <Filter>筛选</Filter>
 
+  <!-- Compass -->
+  <CompassTip>指示北方。点击以旋转镜头使北极处在上方。</CompassTip>
 
+
+  <!--<UntreatedLower>未处理</UntreatedLower>-->
+  <!--<InjuryRequiresTreatment>需要治疗才可康复</InjuryRequiresTreatment>-->
+  <!--<EggDamagedEmbryo>胚胎受损</EggDamagedEmbryo>-->
+  <!--<TreatQuality>治疗效果{0}</TreatQuality>-->
+  <!--<PoorResult>效果很差</PoorResult>-->
+  <!--<GoodResult>效果很好</GoodResult>-->
+  <!--<SeedLabel>{0}种子</SeedLabel>-->
+  <!--<CannotGrowTooCold>无法种植 - 过于寒冷</CannotGrowTooCold>-->
+  <!--<ShowBeautyToggleButton>开关美观度显示\n\n开启后，显示殖民者站在鼠标所在位置时所感受到的美观度。</ShowBeautyToggleButton>-->
+  <!--<ShowRoomStatsToggleButton>开关房间数据显示\n\n开启后，显示鼠标所在位置的房间统计数据。</ShowRoomStatsToggleButton>-->
   <!--<LearningHelperToggleButton>切换是否显示教学助手\n\n「教学助手」在新概念出现时会开启。</LearningHelperToggleButton>-->
 
 </LanguageData>

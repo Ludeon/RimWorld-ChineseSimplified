@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Backstories>
+
+	<Backstory>
+		<Title>Hiveworld drone</Title>
+		<TitleShort>Drone</TitleShort>
+		<BaseDesc>NAME worked as a mindless construction drone in a massive hiveworld civilization. Though HE is now freed from the brutal social experiments to which HE was subjected, HE remains incapable of creative thought and leadership.</BaseDesc>
+		<Slot>Adulthood</Slot>
+		<WorkDisables>
+			<li>Artistic</li>
+			<li>Intellectual</li>
+		</WorkDisables>
+		<SkillGains>
+			<li>
+				<key>Construction</key>
+				<value>5</value>
+			</li>
+			<li>
+				<key>Mining</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>-2</value>
+			</li>
+		</SkillGains>
+		<SpawnCategories>
+			<li>Slave</li>
+			<li>Raider</li>
+		</SpawnCategories>
+		<BodyTypeMale>Hulk</BodyTypeMale>
+		<BodyTypeFemale>Hulk</BodyTypeFemale>
+	</Backstory>
+
+	<Backstory>
+		<Title>Evangelist</Title>
+		<TitleShort>Evangelist</TitleShort>
+		<BaseDesc>On HIS 21st birthday, NAME experienced a religious awakening. HECAP decided to spend the rest of HIS life spreading the word of HIS deity, the beauty of its culture, and its unusual medical tradition.</BaseDesc>
+		<Slot>Adulthood</Slot>
+		<WorkDisables>
+		</WorkDisables>
+		<SkillGains>
+			<li>
+				<key>Social</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Artistic</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Medicine</key>
+				<value>-3</value>
+			</li>
+		</SkillGains>
+		<SpawnCategories>
+			<li>Traveler</li>
+			<li>Slave</li>
+		</SpawnCategories>
+		<BodyTypeMale>Male</BodyTypeMale>
+		<BodyTypeFemale>Female</BodyTypeFemale>
+	</Backstory>
+
+	<Backstory>
+		<Title>Tunnelworld illuminator</Title>
+		<TitleShort>Illuminator</TitleShort>
+		<BaseDesc>Among tunnel-dwellers, those with vision as strong as NAME’s are revered as sages. HECAP would lead the way, marking spots to dig with bioluminescent fungus and warning others of impending danger.</BaseDesc>
+		<Slot>Adulthood</Slot>
+		<WorkDisables>
+		</WorkDisables>
+		<SkillGains>
+			<li>
+				<key>Mining</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>2</value>
+			</li>
+		</SkillGains>
+		<SpawnCategories>
+			<li>Trader</li>
+			<li>Slave</li>
+			<li>Raider</li>
+		</SpawnCategories>
+		<BodyTypeMale>Male</BodyTypeMale>
+		<BodyTypeFemale>Female</BodyTypeFemale>
+	</Backstory>
+
+	<Backstory>
+		<Title>Herbalist</Title>
+		<TitleShort>Herbalist</TitleShort>
+		<BaseDesc>NAME lived in the forest near a village. Though many of the villagers feared HIM, sick villagers would come to HIM to purchase salves and poultices made from the herbs HE grew in HIS garden. HECAP was happy to help them — for a price.</BaseDesc>
+		<Slot>Adulthood</Slot>
+		<WorkDisables>
+		</WorkDisables>
+		<SkillGains>
+			<li>
+				<key>Growing</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Medicine</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>-2</value>
+			</li>
+		</SkillGains>
+		<SpawnCategories>
+			<li>Civil</li>
+			<li>Trader</li>
+			<li>Traveler</li>
+			<li>Raider</li>
+		</SpawnCategories>
+		<BodyTypeMale>Thin</BodyTypeMale>
+		<BodyTypeFemale>Thin</BodyTypeFemale>
+	</Backstory>
+
+	<Backstory>
+		<Title>Coma child</Title>
+		<TitleShort>Coma</TitleShort>
+		<BaseDesc>A childhood accident put NAME into a coma. HECAP didn’t wake up until HE was in HIS late teens. HISCAP body never recovered from the years of inactivity, but people tend to take pity on HIM when they hear HIS story.</BaseDesc>
+		<Slot>Childhood</Slot>
+		<SkillGains>
+			<li>
+				<key>Social</key>
+				<value>5</value>
+			</li>
+			<li>
+				<key>Construction</key>
+				<value>-2</value>
+			</li>
+			<li>
+				<key>Mining</key>
+				<value>-2</value>
+			</li>
+		</SkillGains>
+		<SpawnCategories>
+			<li>Civil</li>
+			<li>Trader</li>
+			<li>Slave</li>
+			<li>Raider</li>
+			<li>Traveler</li>
+		</SpawnCategories>
+		<BodyTypeMale>Thin</BodyTypeMale>
+		<BodyTypeFemale>Thin</BodyTypeFemale>
+	</Backstory>
+
+	<Backstory>
+		<Title>Civil servant</Title>
+		<TitleShort>Clerk</TitleShort>
+		<BaseDesc>NAME worked as a low-ranking administrator for a moribund government bureaucracy. HECAP is most at home filling out complicated paperwork and playing office politics.</BaseDesc>
+		<Slot>Adulthood</Slot>
+		<WorkDisables>
+		</WorkDisables>
+		<SkillGains>
+			<li>
+				<key>Social</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>Research</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>Construction</key>
+				<value>-2</value>
+			</li>
+		</SkillGains>
+		<SpawnCategories>
+			<li>Civil</li>
+			<li>Trader</li>
+			<li>Slave</li>
+		</SpawnCategories>
+		<BodyTypeMale>Male</BodyTypeMale>
+		<BodyTypeFemale>Male</BodyTypeFemale>
+	</Backstory>
+
+	<Backstory>
+		<Title>Organ farm</Title>
+		<TitleShort>Organ farm</TitleShort>
+		<BaseDesc>NAME was raised in an illegal underground organ farm. HISCAP body was used to grow organic implants for wounded mercenaries. Though HIS upbringing has left HIM haunted, it has also given HIM a unique understanding of human biology.</BaseDesc>
+		<Slot>Childhood</Slot>
+		<WorkDisables>
+			<li>Scary</li>
+		</WorkDisables>
+		<SkillGains>
+			<li>
+				<key>Medicine</key>
+				<value>5</value>
+			</li>
+		</SkillGains>
+		<SpawnCategories>
+			<li>Traveler</li>
+			<li>Raider</li>
+			<li>Slave</li>
+		</SpawnCategories>
+		<BodyTypeMale>Male</BodyTypeMale>
+		<BodyTypeFemale>Female</BodyTypeFemale>
+	</Backstory>
+
+	<Backstory>
+		<Title>Ascetic priest</Title>
+		<TitleShort>Priest</TitleShort>
+		<BaseDesc>After taking a vow of silence, NAME joined a monastery on a peaceful backwater planet to spend HIS days in quiet contemplation.\n\nHECAP found happiness growing vegetables in the garden and making cheese in the monastery cellars.</BaseDesc>
+		<Slot>Adulthood</Slot>
+		<WorkDisables>
+			<li>Violent</li>
+			<li>Social</li>
+		</WorkDisables>
+		<SkillGains>
+			<li>
+				<key>Growing</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>Medicine</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>Cooking</key>
+				<value>2</value>
+			</li>
+		</SkillGains>
+		<SpawnCategories>
+			<li>Traveler</li>
+			<li>Slave</li>
+		</SpawnCategories>
+		<BodyTypeMale>Thin</BodyTypeMale>
+		<BodyTypeFemale>Thin</BodyTypeFemale>
+    <forcedTraits>
+      <Ascetic>0</Ascetic>
+    </forcedTraits>
+	</Backstory>
+
+	<Backstory>
+		<Title>Escaped convict</Title>
+		<TitleShort>Escapee</TitleShort>
+		<BaseDesc>NAME denies involvement in the crimes that brought about HIS incarceration in a brutal penal colony. HECAP escaped by tunnelling beneath the perimeter using modified cutlery.</BaseDesc>
+		<Slot>Adulthood</Slot>
+		<WorkDisables>
+			<li>Caring</li>
+		</WorkDisables>
+		<SkillGains>
+			<li>
+				<key>Mining</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Crafting</key>
+				<value>2</value>
+			</li>
+		</SkillGains>
+		<SpawnCategories>
+			<li>Traveler</li>
+			<li>Raider</li>
+		</SpawnCategories>
+		<BodyTypeMale>Male</BodyTypeMale>
+		<BodyTypeFemale>Female</BodyTypeFemale>
+	</Backstory>
+
+	<Backstory>
+		<Title>Starship janitor</Title>
+		<TitleShort>Janitor</TitleShort>
+		<BaseDesc>While other passengers pass the years between star systems in cryptosleep sarcophagi, NAME had to wake up at periodic intervals to perform inspections, check the navigation systems, and to oil the mechanoids.</BaseDesc>
+		<Slot>Adulthood</Slot>
+		<WorkDisables>
+		</WorkDisables>
+		<SkillGains>
+			<li>
+				<key>Construction</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>Crafting</key>
+				<value>3</value>
+			</li>
+		</SkillGains>
+		<SpawnCategories>
+			<li>Traveler</li>
+			<li>Civil</li>
+		</SpawnCategories>
+		<BodyTypeMale>Male</BodyTypeMale>
+		<BodyTypeFemale>Female</BodyTypeFemale>
+	</Backstory>
+
+</Backstories>

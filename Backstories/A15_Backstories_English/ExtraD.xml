@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Backstories>
+
+	<Backstory>
+		<Title>Convent child</Title>
+		<BaseDesc>The child of an illicit affair, NAME was bought up by nuns in a medieval convent. HECAP learned the value of hard work and submission, but was taught that technology is heretical.</BaseDesc>
+		<Slot>Childhood</Slot>
+		<WorkDisables>
+			<li>Intellectual</li>
+			<li>Violent</li>
+			<li>Crafting</li>
+		</WorkDisables>
+		<SkillGains>
+			<li><key>Construction</key><value>3</value></li>
+			<li><key>Growing</key><value>3</value></li>
+		</SkillGains>
+		<SpawnCategories>
+			<li>Civil</li>
+			<li>Slave</li>
+			<li>Trader</li>
+			<li>Traveler</li>
+		</SpawnCategories>
+	</Backstory>
+
+	<Backstory>
+		<Title>Test subject</Title>
+		<BaseDesc>On the most corrupt urbworlds, scientists without a moral compass commit unspeakable atrocities in the name of research. NAME was kept alone in a sealed facility from birth and subjected to a variety of behavioural experiments in an attempt to turn HIM into a perfect super-soldier.</BaseDesc>
+		<Slot>Childhood</Slot>
+		<WorkDisables>
+			<li>Social</li>
+			<li>Caring</li>
+			<li>Scary</li>
+			<li>Firefighting</li>
+		</WorkDisables>
+    <SkillGains>
+      <li>
+        <key>Shooting</key>
+        <value>4</value>
+      </li>
+      <li>
+        <key>Social</key>
+        <value>-4</value>
+      </li>
+    </SkillGains>
+		<SpawnCategories>
+			<li>Civil</li>
+			<li>Raider</li>
+			<li>Slave</li>
+			<li>Trader</li>
+			<li>Traveler</li>
+		</SpawnCategories>
+	</Backstory>
+
+	<Backstory>
+		<Title>Medical assistant</Title>
+		<BaseDesc>NAME was born during a catastrophic war in which both sides used napalm extensively. HECAP grew up helping HIS parents in an infirmary, treating the cascade of horrific burns from the battlefields. HECAP was left with a lifelong fear of fire.</BaseDesc>
+		<Slot>Childhood</Slot>
+		<WorkDisables>
+			<li>Firefighting</li>
+		</WorkDisables>
+		<SkillGains>
+			<li><key>Medicine</key><value>5</value></li>
+		</SkillGains>
+		<SpawnCategories>
+			<li>Civil</li>
+			<li>Raider</li>
+			<li>Slave</li>
+			<li>Trader</li>
+			<li>Traveler</li>
+		</SpawnCategories>
+	</Backstory>
+
+	<Backstory>
+		<Title>Cult child</Title>
+		<BaseDesc>NAME was born into a powerful cult which shunned advanced technology and believed that all illness could be cured by cleansing the soul through sacred art.\n\nAfter HIS first glimpse of the outside world, HE decided to run away.</BaseDesc>
+		<Slot>Childhood</Slot>
+		<WorkDisables>
+			<li>Intellectual</li>
+		</WorkDisables>
+		<SkillGains>
+			<li><key>Medicine</key><value>-3</value></li>
+			<li><key>Artistic</key><value>5</value></li>
+		</SkillGains>
+		<SpawnCategories>
+			<li>Civil</li>
+			<li>Raider</li>
+			<li>Slave</li>
+			<li>Trader</li>
+			<li>Traveler</li>
+		</SpawnCategories>
+	</Backstory>
+
+	<Backstory>
+		<Title>Wreckage explorer</Title>
+		<BaseDesc>Two generations before NAME was born, an apocalyptic war dragged HIS home planet into anarchy. NAME was tasked with watching HIS tribe's herds, but often shirked HIS duties to go exploring the crashed warships scattered around the planet.</BaseDesc>
+		<Slot>Childhood</Slot>
+		<WorkDisables>
+		</WorkDisables>
+		<SkillGains>
+			<li><key>Animals</key><value>3</value></li>
+			<li><key>Research</key><value>3</value></li>
+		</SkillGains>
+		<SpawnCategories>
+			<li>Civil</li>
+			<li>Raider</li>
+			<li>Slave</li>
+			<li>Trader</li>
+			<li>Traveler</li>
+		</SpawnCategories>
+	</Backstory>
+
+	<Backstory>
+		<Title>Apocalypse survivor</Title>
+		<BaseDesc>NAME was born during a time of unrest on HIS homeworld, as climate change threatened mass starvation and flooding. As HE grew up the situation worsened - billions died and peaceful states descended into anarchy. NAME and HIS parents did whatever they had to to survive.</BaseDesc>
+		<Slot>Childhood</Slot>
+		<WorkDisables>
+		</WorkDisables>
+		<SkillGains>
+			<li><key>Shooting</key><value>4</value></li>
+			<li><key>Artistic</key><value>-3</value></li>
+			<li><key>Research</key><value>-3</value></li>
+		</SkillGains>
+		<SpawnCategories>
+			<li>Civil</li>
+			<li>Raider</li>
+			<li>Slave</li>
+			<li>Trader</li>
+			<li>Traveler</li>
+		</SpawnCategories>
+	</Backstory>
+
+	<Backstory>
+		<Title>Story writer</Title>
+		<BaseDesc>As a child, NAME was addicted to reading. HECAP would spend all day in HIS local library with HIS nose in a book. When budget cuts forced the library to close, NAME was distraught. HE decided to fill the gap by writing HIS own stories instead.</BaseDesc>
+		<Slot>Childhood</Slot>
+		<WorkDisables>
+		</WorkDisables>
+		<SkillGains>
+			<li><key>Artistic</key><value>4</value></li>
+			<li><key>Research</key><value>3</value></li>
+		</SkillGains>
+		<SpawnCategories>
+			<li>Civil</li>
+			<li>Raider</li>
+			<li>Slave</li>
+			<li>Trader</li>
+			<li>Traveler</li>
+		</SpawnCategories>
+	</Backstory>
+
+	<Backstory>
+		<Title>Sailor</Title>
+		<TitleShort>Sailor</TitleShort>
+		<BaseDesc>NAME traversed the oceans on journeys of exploration, seeking out plant and animal specimens from exotic places, and occasionally fending off pirates. HECAP loved the sea so much HE refused to do all but the barest minimum of work on land, except to sell the treasures HE collected.</BaseDesc>
+		<Slot>Adulthood</Slot>
+		<WorkDisables>
+			<li>ManualSkilled</li> 
+		</WorkDisables>
+		<SkillGains>
+			<li><key>Melee</key><value>4</value></li>
+			<li><key>Social</key><value>4</value></li>
+			<li><key>Animals</key><value>4</value></li>
+		</SkillGains>
+		<SpawnCategories>
+			<li>Civil</li>
+			<li>Raider</li>
+			<li>Slave</li>
+			<li>Trader</li>
+			<li>Traveler</li>
+		</SpawnCategories>
+		<BodyTypeMale>Male</BodyTypeMale>
+		<BodyTypeFemale>Female</BodyTypeFemale>
+	</Backstory>
+
+	<Backstory>
+		<Title>Jailbird</Title>
+		<TitleShort>Jailbird</TitleShort>
+		<BaseDesc>NAME spent most of HIS life in prisons, where HE was put to work in the kitchens. HECAP had a habit of getting into fights, and developed an aggressive way of speaking.</BaseDesc>
+		<Slot>Adulthood</Slot>
+		<WorkDisables>
+			<li>Social</li>
+			<li>Caring</li>
+		</WorkDisables>
+		<SkillGains>
+			<li><key>Melee</key><value>5</value></li>
+			<li><key>Social</key><value>-3</value></li>
+			<li><key>Cooking</key><value>3</value></li>
+		</SkillGains>
+		<SpawnCategories>
+			<li>Raider</li>
+			<li>Slave</li>
+		</SpawnCategories>
+		<BodyTypeMale>Hulk</BodyTypeMale>
+		<BodyTypeFemale>Hulk</BodyTypeFemale>
+	</Backstory>
+
+	<Backstory>
+		<Title>Actor</Title>
+		<TitleShort>Actor</TitleShort>
+		<BaseDesc>NAME travelled HIS homeworld with a company of actors, playing to packed theatres and loving audiences everywhere. HECAP was a perfectionist, and made HIS own props and costumes rather than use the ones HE was given.</BaseDesc>
+		<Slot>Adulthood</Slot>
+		<WorkDisables>
+			<li>ManualDumb</li>
+		</WorkDisables>
+		<SkillGains>
+			<li><key>Social</key><value>8</value></li>
+			<li><key>Crafting</key><value>3</value></li>
+		</SkillGains>
+		<SpawnCategories>
+			<li>Civil</li>
+			<li>Slave</li>
+			<li>Traveler</li>
+		</SpawnCategories>
+		<BodyTypeMale>Male</BodyTypeMale>
+		<BodyTypeFemale>Female</BodyTypeFemale>
+	</Backstory>
+
+	<Backstory>
+		<Title>Tactician</Title>
+		<TitleShort>Tactician</TitleShort>
+		<BaseDesc>NAME joined the space navy in an unstable system, fraught with large-scale interplanetary wars. HECAP turned out to have a sharp mind for battle, and became adept at commanding large armies to great effect.</BaseDesc>
+		<Slot>Adulthood</Slot>
+		<WorkDisables>
+			<li>Social</li>
+			<li>Artistic</li>
+		</WorkDisables>
+		<SkillGains>
+			<li><key>Shooting</key><value>4</value></li>
+			<li><key>Research</key><value>4</value></li>
+		</SkillGains>
+		<SpawnCategories>
+			<li>Civil</li>
+			<li>Raider</li>
+			<li>Slave</li>
+		</SpawnCategories>
+		<BodyTypeMale>Thin</BodyTypeMale>
+		<BodyTypeFemale>Thin</BodyTypeFemale>
+	</Backstory>
+
+	<Backstory>
+		<Title>Glitterworld officer</Title>
+		<TitleShort>Officer</TitleShort>
+		<BaseDesc>Though glitterworlds are peaceful places, they often remain prepared for war. NAME's unit rarely saw any real action.\n\nThough HE pursued HIS artistic hobbies, HIS subordinates preferred to entertain themselves by brawling, so NAME got good at breaking up fights.</BaseDesc>
+		<Slot>Adulthood</Slot>
+		<WorkDisables>
+			<li>ManualDumb</li> 
+		</WorkDisables>
+		<SkillGains>
+			<li><key>Melee</key><value>6</value></li>
+			<li><key>Artistic</key><value>4</value></li>
+		</SkillGains>
+		<SpawnCategories>
+			<li>Civil</li>
+			<li>Raider</li>
+		</SpawnCategories>
+		<BodyTypeMale>Hulk</BodyTypeMale>
+		<BodyTypeFemale>Hulk</BodyTypeFemale>
+	</Backstory>
+
+	<Backstory>
+		<Title>Taster</Title>
+		<TitleShort>Taster</TitleShort>
+		<BaseDesc>As the taster for a medieval king, any dish served at the royal table had to be sampled first by NAME. HECAP lived a decadent lifestyle at court, getting fat and doing very little work.</BaseDesc>
+		<Slot>Adulthood</Slot>
+		<WorkDisables>
+			<li>ManualDumb</li> 
+		</WorkDisables>
+		<SkillGains>
+			<li><key>Cooking</key><value>7</value></li>
+			<li><key>Construction</key><value>-4</value></li>
+			<li><key>Crafting</key><value>-4</value></li>
+		</SkillGains>
+		<SpawnCategories>
+			<li>Civil</li>
+			<li>Raider</li>
+			<li>Slave</li>
+		</SpawnCategories>
+		<BodyTypeMale>Fat</BodyTypeMale>
+		<BodyTypeFemale>Fat</BodyTypeFemale>
+	</Backstory>
+
+	<Backstory>
+		<Title>Biosphere manager</Title>
+		<TitleShort>Botanist</TitleShort>
+		<BaseDesc>NAME lived on a peaceful glitterworld where all menial work was done by robots and people devoted themselves to leisure. HECAP managed the plant and animal life of a sprawling park, where citizens came to admire the natural beauty.</BaseDesc>
+		<Slot>Adulthood</Slot>
+		<WorkDisables>
+			<li>ManualDumb</li> 
+			<li>Crafting</li>
+			<li>Cooking</li>
+		</WorkDisables>
+		<SkillGains>
+			<li><key>Shooting</key><value>-4</value></li>
+			<li><key>Animals</key><value>6</value></li>
+			<li><key>Growing</key><value>6</value></li>
+		</SkillGains>
+		<SpawnCategories>
+			<li>Civil</li>
+			<li>Traveler</li>
+		</SpawnCategories>
+		<BodyTypeMale>Male</BodyTypeMale>
+		<BodyTypeFemale>Female</BodyTypeFemale>
+	</Backstory>
+
+	<Backstory>
+		<Title>Veterinarian</Title>
+		<TitleShort>Vet</TitleShort>
+		<BaseDesc>NAME treated sick and injured animals for a living. Seeing their suffering affected HIS stance on the practice of eating meat, and for many years HE lived as a vegetarian, rejecting the meat-loving culinary tradition of HIS homeworld.</BaseDesc>
+		<Slot>Adulthood</Slot>
+		<WorkDisables>
+		</WorkDisables>
+		<SkillGains>
+			<li><key>Animals</key><value>4</value></li>
+			<li><key>Medicine</key><value>4</value></li>
+			<li><key>Cooking</key><value>-4</value></li>
+		</SkillGains>
+		<SpawnCategories>
+			<li>Civil</li>
+			<li>Slave</li>
+		</SpawnCategories>
+		<BodyTypeMale>Male</BodyTypeMale>
+		<BodyTypeFemale>Female</BodyTypeFemale>
+	</Backstory>
+
+	<Backstory>
+		<Title>Explosives expert</Title>
+		<TitleShort>Blaster</TitleShort>
+		<BaseDesc>NAME was an explosive engineer employed in mines. HECAP took HIS job very seriously and was well-versed in the technicalities - so much so that HE refused to demean HIMself by helping with the clean-up once HIS carefully-calculated explosion was complete.</BaseDesc>
+		<Slot>Adulthood</Slot>
+		<WorkDisables>
+			<li>ManualDumb</li> 
+		</WorkDisables>
+		<SkillGains>
+			<li><key>Mining</key><value>5</value></li>
+			<li><key>Research</key><value>5</value></li>
+		</SkillGains>
+		<SpawnCategories>
+			<li>Civil</li>
+			<li>Raider</li>
+			<li>Slave</li>
+		</SpawnCategories>
+		<BodyTypeMale>Fat</BodyTypeMale>
+		<BodyTypeFemale>Fat</BodyTypeFemale>
+	</Backstory>
+
+	<Backstory>
+		<Title>Counsellor</Title>
+		<TitleShort>Counsellor</TitleShort>
+		<BaseDesc>A terrifying trauma when NAME was a young adult caused HIM to develop a serious eating disorder. With counselling HE learned to have a healthier relationship with food, and decided to put HIS new skills to use helping others overcome their emotional problems.</BaseDesc>
+		<Slot>Adulthood</Slot>
+		<WorkDisables>
+			<li>Scary</li>
+			<li>Cooking</li>
+		</WorkDisables>
+		<SkillGains>
+			<li><key>Social</key><value>9</value></li>
+		</SkillGains>
+		<SpawnCategories>
+			<li>Civil</li>
+			<li>Slave</li>
+			<li>Traveler</li>
+		</SpawnCategories>
+		<BodyTypeMale>Thin</BodyTypeMale>
+		<BodyTypeFemale>Thin</BodyTypeFemale>
+	</Backstory>
+
+	<Backstory>
+		<Title>Recruiter</Title>
+		<TitleShort>Recruiter</TitleShort>
+		<BaseDesc>NAME was part of an revered order of martial artists, infamous both for their skill in combat and for their practice of refusing to treat their wounded.\n\nHECAP travelled HIS homeworld, judging the young people HE met to determine if they might be suitable for training.</BaseDesc>
+		<Slot>Adulthood</Slot>
+		<WorkDisables>
+			<li>Caring</li>
+		</WorkDisables>
+		<SkillGains>
+			<li><key>Melee</key><value>5</value></li>
+			<li><key>Social</key><value>5</value></li>
+		</SkillGains>
+		<SpawnCategories>
+			<li>Civil</li>
+			<li>Raider</li>
+			<li>Slave</li>
+			<li>Traveler</li>
+		</SpawnCategories>
+		<BodyTypeMale>Male</BodyTypeMale>
+		<BodyTypeFemale>Female</BodyTypeFemale>
+	</Backstory>
+
+	<Backstory>
+		<Title>Psychiatric patient</Title>
+		<TitleShort>Patient</TitleShort>
+		<BaseDesc>NAME spent most of HIS adult life in an insane asylum. HIS industrial homeworld had a poor understanding of mental illness, and HE was treated more like an animal than a person.\n\nThough HE eventually recovered and was released, HIS experience dampened many of HIS basic life skills.</BaseDesc>
+		<Slot>Adulthood</Slot>
+		<WorkDisables>
+			<li>Social</li>
+			<li>Caring</li>
+			<li>Scary</li>
+		</WorkDisables>
+		<SkillGains>
+			<li><key>Cooking</key><value>-2</value></li>
+			<li><key>Crafting</key><value>-2</value></li>
+		</SkillGains>
+		<SpawnCategories>
+			<li>Civil</li>
+			<li>Raider</li>
+			<li>Slave</li>
+		</SpawnCategories>
+		<BodyTypeMale>Thin</BodyTypeMale>
+		<BodyTypeFemale>Thin</BodyTypeFemale>
+	</Backstory>
+
+	<Backstory>
+		<Title>Drifter</Title>
+		<TitleShort>Drifter</TitleShort>
+		<BaseDesc>NAME never figured out what to do with HIS life. HECAP travelled often, taking up casual work wherever HE found it.\n\nHECAP also occasionally worked on a novel that HE knew would be a bestseller - just as soon as HE could find a publisher who was interested.</BaseDesc>
+		<Slot>Adulthood</Slot>
+		<WorkDisables>
+		</WorkDisables>
+		<SkillGains>
+			<li><key>Cooking</key><value>3</value></li>
+			<li><key>Construction</key><value>3</value></li>
+			<li><key>Artistic</key><value>-4</value></li>
+		</SkillGains>
+		<SpawnCategories>
+			<li>Civil</li>
+			<li>Raider</li>
+			<li>Slave</li>
+			<li>Traveler</li>
+		</SpawnCategories>
+		<BodyTypeMale>Thin</BodyTypeMale>
+		<BodyTypeFemale>Thin</BodyTypeFemale>
+	</Backstory>
+
+	<Backstory>
+		<Title>VR designer</Title>
+		<TitleShort>Game dev</TitleShort>
+		<BaseDesc>NAME designed virtual reality simulations for glitterworld citizens. HECAP paid great attention to the details of HIS worlds, including learning all HE could about plant life to make HIS landscapes more realistic.</BaseDesc>
+		<Slot>Adulthood</Slot>
+		<WorkDisables>
+			<li>ManualDumb</li> 
+		</WorkDisables>
+		<SkillGains>
+			<li><key>Construction</key><value>3</value></li>
+			<li><key>Growing</key><value>4</value></li>
+			<li><key>Artistic</key><value>5</value></li>
+		</SkillGains>
+		<SpawnCategories>
+			<li>Civil</li>
+			<li>Trader</li>
+		</SpawnCategories>
+		<BodyTypeMale>Thin</BodyTypeMale>
+		<BodyTypeFemale>Thin</BodyTypeFemale>
+	</Backstory>
+
+	<Backstory>
+		<Title>Human computer</Title>
+		<TitleShort>Computer</TitleShort>
+		<BaseDesc>NAME turned out to have an excellent memory and a gift for performing complex calculations in HIS head. A midworld dictator decided to employ NAME to keep track of HIS state's finances and expenditure, since electrical computers were too susceptible to hacking.</BaseDesc>
+		<Slot>Adulthood</Slot>
+		<WorkDisables>
+			<li>Artistic</li>
+		</WorkDisables>
+		<SkillGains>
+			<li><key>Shooting</key><value>3</value></li>
+			<li><key>Research</key><value>7</value></li>
+		</SkillGains>
+		<SpawnCategories>
+			<li>Civil</li>
+			<li>Raider</li>
+			<li>Slave</li>
+		</SpawnCategories>
+		<BodyTypeMale>Thin</BodyTypeMale>
+		<BodyTypeFemale>Thin</BodyTypeFemale>
+	</Backstory>
+
+	<Backstory>
+		<Title>Architect</Title>
+		<TitleShort>Architect</TitleShort> 
+		<BaseDesc>NAME designed and constructed buildings. On HIS glitterworld home, most of the technical aspects of architecture were handled by an AI. This enabled HIM to push the artistic limits of the craft, but also meant HE never had to get HIS hands dirty at building sites.</BaseDesc>
+		<Slot>Adulthood</Slot>
+		<WorkDisables>
+			<li>ManualDumb</li> 
+		</WorkDisables>
+		<SkillGains>
+			<li><key>Construction</key><value>5</value></li>
+			<li><key>Artistic</key><value>7</value></li>
+			<li><key>Crafting</key><value>-3</value></li>
+		</SkillGains>
+		<SpawnCategories>
+			<li>Civil</li>
+			<li>Traveler</li>
+		</SpawnCategories>
+		<BodyTypeMale>Male</BodyTypeMale>
+		<BodyTypeFemale>Female</BodyTypeFemale>
+	</Backstory>
+
+	<Backstory>
+		<Title>Message carrier</Title>
+		<TitleShort>Messenger</TitleShort>
+		<BaseDesc>On a medieval world, the fastest way to send a message is to give it to somebody on a horse and hope they survive the journey. NAME was that somebody.</BaseDesc>
+		<Slot>Adulthood</Slot>
+		<WorkDisables>
+			<li>Intellectual</li>
+		</WorkDisables>
+		<SkillGains>
+			<li><key>Melee</key><value>3</value></li>
+			<li><key>Animals</key><value>4</value></li>
+		</SkillGains>
+		<SpawnCategories>
+			<li>Civil</li>
+			<li>Raider</li>
+			<li>Slave</li>
+			<li>Traveler</li>
+		</SpawnCategories>
+		<BodyTypeMale>Hulk</BodyTypeMale>
+		<BodyTypeFemale>Hulk</BodyTypeFemale>
+	</Backstory>
+
+	<Backstory>
+		<Title>Sculptor</Title>
+		<TitleShort>Sculptor</TitleShort>
+		<BaseDesc>NAME started off sculpting person-sized chunks of stone, but HE soon began to think bigger. With the help of mining robots, HECAP learned how to carve huge monuments out of cliffsides. Soon the nature parks of the glitterworld where HE lived were full of giant rock figures.</BaseDesc>
+		<Slot>Adulthood</Slot>
+		<WorkDisables>
+			<li>ManualDumb</li> 
+			<li>Crafting</li>
+			<li>Cooking</li>
+		</WorkDisables>
+		<SkillGains>
+			<li><key>Growing</key><value>-4</value></li>
+			<li><key>Mining</key><value>4</value></li>
+			<li><key>Artistic</key><value>8</value></li>
+		</SkillGains>
+		<SpawnCategories>
+			<li>Civil</li>
+			<li>Traveler</li>
+		</SpawnCategories>
+		<BodyTypeMale>Fat</BodyTypeMale>
+		<BodyTypeFemale>Fat</BodyTypeFemale>
+	</Backstory>
+
+	<Backstory>
+		<Title>Machine collector</Title>
+		<TitleShort>Collector</TitleShort>
+		<BaseDesc>NAME was obsessed with old machines and arcane pieces of technology. HECAP obtained them wherever HE could, and loved taking them apart to see how they worked.\n\nHE had a habit of talking about HIS collection long after people around HIM had stopped listening.</BaseDesc>
+		<Slot>Adulthood</Slot>
+		<WorkDisables>
+		</WorkDisables>
+		<SkillGains>
+			<li><key>Social</key><value>-3</value></li>
+			<li><key>Crafting</key><value>6</value></li>
+			<li><key>Research</key><value>6</value></li>
+		</SkillGains>
+		<SpawnCategories>
+			<li>Civil</li>
+			<li>Slave</li>
+			<li>Trader</li>
+		</SpawnCategories>
+		<BodyTypeMale>Male</BodyTypeMale>
+		<BodyTypeFemale>Female</BodyTypeFemale>
+	</Backstory>
+
+	<Backstory>
+		<Title>Sheriff</Title>
+		<TitleShort>Sheriff</TitleShort>
+		<BaseDesc>NAME was the law enforcer in an isolated industrial town. HECAP was known for having an arrogant attitude and a mean streak. HECAP refused to lift so much as a finger unless it was for money, alcohol, or revenge.</BaseDesc>
+		<Slot>Adulthood</Slot>
+		<WorkDisables>
+			<li>ManualDumb</li> 
+			<li>ManualSkilled</li> 
+			<li>Social</li>
+			<li>Caring</li>
+		</WorkDisables>
+		<SkillGains>
+			<li><key>Shooting</key><value>8</value></li>
+			<li><key>Melee</key><value>5</value></li>
+			<li><key>Social</key><value>-3</value></li>
+		</SkillGains>
+		<SpawnCategories>
+			<li>Civil</li>
+			<li>Raider</li>
+			<li>Slave</li>
+		</SpawnCategories>
+		<BodyTypeMale>Fat</BodyTypeMale>
+		<BodyTypeFemale>Fat</BodyTypeFemale>
+	</Backstory>
+
+</Backstories>

@@ -1,6 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
+  <!-- Forbid -->
+  <CommandForbid>禁用</CommandForbid>
   <CommandForbiddenDesc>已禁用\n殖民者不会和该物品互动。</CommandForbiddenDesc>
   <CommandNotForbiddenDesc>未禁用\n殖民者会和该物品互动。</CommandNotForbiddenDesc>
 
@@ -24,6 +26,9 @@
   <CommandUndraftLabel>解散</CommandUndraftLabel>
   <CommandToggleDraftDesc>切换征召状态。\n\n被征召的人会遵守命令并战斗。解散前他们不会工作，吃饭或着休息。</CommandToggleDraftDesc>
   <IsIncapped>{0}无法行动。</IsIncapped>
+
+  <CommandAllowFiringLabel>允许交火</CommandAllowFiringLabel>
+  <CommandAllowFiringDesc>切换是否允许自行交火。\n\n此选项禁用时，角色不会自动使用远程攻击手段，近战格斗不受影响。</CommandAllowFiringDesc>
 
   <CommandClearPrioritizedWork>清除优先任务</CommandClearPrioritizedWork>
   <CommandClearPrioritizedWorkDesc>清除任何你指定的优先任务。该角色将根据自身工作优先度自行选择工作。</CommandClearPrioritizedWorkDesc>
@@ -141,5 +146,85 @@
   <!-- Build copy -->
   <CommandBuildCopy>复制建筑</CommandBuildCopy>
   <CommandBuildCopyDesc>复制当前的建筑设施。</CommandBuildCopyDesc>
+
+  <!-- Form caravan -->
+  <CommandFormCaravan>组建驮队</CommandFormCaravan>
+  <CommandFormCaravanDesc>允许您的居民前往新的区域。居民会带着您所指定的动物和要携带的货物离开当前地图区域，并等待您的下一步指示。</CommandFormCaravanDesc>
+
+  <!-- Reform caravan -->
+  <CommandReformCaravan>重组驮队</CommandReformCaravan>
+  <CommandReformCaravanDesc>重组您的小队，居民会带着您所指定的动物和要携带的货物离开当前地图区域，并等待您的下一步指示。</CommandReformCaravanDesc>
+  <CommandReformCaravanFailHostilePawns>此地区内尚有敌人存在。</CommandReformCaravanFailHostilePawns>
+
+  <!-- Split caravan -->
+  <CommandSplitCaravan>分割驮队</CommandSplitCaravan>
+  <CommandSplitCaravanDesc>将驮队一分为二，随后当驮队接近时会自动合并。</CommandSplitCaravanDesc>
+
+  <!-- Merge caravan -->
+  <CommandMergeCaravans>合并</CommandMergeCaravans>
+  <CommandMergeCaravansDesc>合并选择的驮队。</CommandMergeCaravansDesc>
+
+  <!-- Settle -->
+  <CommandSettle>定居</CommandSettle>
+  <CommandSettleDesc>在这一区域定居，你的居民会进入到这一地区并建立新的家园。</CommandSettleDesc>
+  <CommandSettleFailOtherWorldObjectsHere>只有在该地格区域内仅有您的驮队存在的情况下才能够在这里定居。</CommandSettleFailOtherWorldObjectsHere>
+  <CommandSettleFailAlreadyHaveBase>您的阵营只能拥有一个基地</CommandSettleFailAlreadyHaveBase>
+  <CommandSettleFailReachedMaximumNumberOfBases>殖民地数量已达上限。</CommandSettleFailReachedMaximumNumberOfBases>
+
+  <!-- Abandon home -->
+  <CommandAbandonHome>遗弃</CommandAbandonHome>
+  <CommandAbandonHomeDesc>将这一区域遗弃，遗弃之后该区域将不可访问，您将永远无法重新回到这里。放弃您的家园后，您可以为您的驮队指定一个新的地点定居。</CommandAbandonHomeDesc>
+  <CommandAbandonHomeFailAllColonistsThere>您的所有居民还留在那儿</CommandAbandonHomeFailAllColonistsThere>
+
+  <!-- Cancel forming caravan -->
+  <CommandCancelFormingCaravan>取消组建驮队</CommandCancelFormingCaravan>
+  <CommandCancelFormingCaravanDesc>中止组建驮队。</CommandCancelFormingCaravanDesc>
+
+  <!-- Show map -->
+  <CommandShowMap>放大</CommandShowMap>
+  <CommandShowMapDesc>放大至该区域。</CommandShowMapDesc>
+
+  <!-- Trade -->
+  <CommandTrade>贸易</CommandTrade>
+  <CommandTradeDesc>与此阵营进行贸易</CommandTradeDesc>
+  <CommandTradeFailNoNegotiator>连一个头脑清醒的正常人都没有，无法派遣谈判代表。</CommandTradeFailNoNegotiator>
+
+  <!-- Take off -->
+  <CommandTakeOff>起飞</CommandTakeOff>
+  <CommandTakeOffDesc>登船并逃离这个星球。</CommandTakeOffDesc>
+  <CommandTakeOffConfirmation>您确定要离开吗？\n\n该区域内的所有人都将逃离星球，其他居民将被遗弃。</CommandTakeOffConfirmation>
+
+  <!-- Set target fuel level -->
+  <CommandSetTargetFuelLevel>设置目标燃料阈值</CommandSetTargetFuelLevel>
+  <CommandSetTargetFuelLevelDesc>指定该目标的燃料阈值，您的居民会尝试为其加注燃料直到达到您所设定的阈值。</CommandSetTargetFuelLevelDesc>
+
+  <!-- Cancel load -->
+  <CommandCancelLoad>取消装载</CommandCancelLoad>
+  <CommandCancelLoadDesc>取消向其装在人员或物品，并将之前已装在的物品清出。</CommandCancelLoadDesc>
+
+  <!-- Launch group -->
+  <CommandLaunchGroup>发射运输舱</CommandLaunchGroup>
+  <CommandLaunchGroupDesc>启动这一组运输舱的发射程序，下一步是选择目标，运输舱会自动飞向目的地并降落在一起。 </CommandLaunchGroupDesc>
+  <CommandLaunchGroupFailNotConnectedToFuelingPort>本组中尚有未连接至燃料埠的运输舱。</CommandLaunchGroupFailNotConnectedToFuelingPort>
+  <CommandLaunchGroupFailNoFuel>本组中有的运输舱没有燃料。</CommandLaunchGroupFailNoFuel>
+  <CommandLaunchGroupFailUnderRoof>有运输舱处在室内区域。</CommandLaunchGroupFailUnderRoof>
+
+  <!-- Load transporter -->
+  <CommandLoadTransporter>装载发射组：{0}</CommandLoadTransporter>
+  <CommandLoadTransporterDesc>将选择的运输舱定义为一个发射组，打开装载界面来决定下一步携带什么东西。</CommandLoadTransporterDesc>
+  <CommandLoadTransporterFailNotConnectedToFuelingPort>运输舱未连接到燃料埠。</CommandLoadTransporterFailNotConnectedToFuelingPort>
+  <CommandLoadTransporterFailNoFuel>发射器没有燃料。</CommandLoadTransporterFailNoFuel>
+
+  <!-- Select previous transporter -->
+  <CommandSelectPreviousTransporter>选择前一个运输舱</CommandSelectPreviousTransporter>
+  <CommandSelectPreviousTransporterDesc>选择本组中的前一个运输舱。</CommandSelectPreviousTransporterDesc>
+
+  <!-- Select all transporters -->
+  <CommandSelectAllTransporters>选择发射组</CommandSelectAllTransporters>
+  <CommandSelectAllTransportersDesc>选择本发射组内的所有运输舱。</CommandSelectAllTransportersDesc>
+
+  <!-- Select next transporter -->
+  <CommandSelectNextTransporter>选择下一个运输舱</CommandSelectNextTransporter>
+  <CommandSelectNextTransporterDesc>选择本组中的下一个运输舱。</CommandSelectNextTransporterDesc>
 
 </LanguageData>

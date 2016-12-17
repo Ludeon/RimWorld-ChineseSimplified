@@ -1,0 +1,1394 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Backstories>
+
+  <Backstory>
+    <Title>纵火狂</Title>
+    <BaseDesc>从小时候NAME就对火有一种病态的着迷。HISCAP会把垃圾堆点燃，然后痴痴地看着。\n\n一天万火柴的时候，HE不小心把家给少了……当时HIS父母和兄弟姐妹没有逃出来。</BaseDesc>
+    <Slot>Childhood</Slot>
+    <WorkDisables>
+      <li>Firefighting</li>
+    </WorkDisables>
+    <SkillGains>
+      <li>
+        <key>Social</key>
+        <value>-3</value>
+      </li>
+      <li>
+        <key>Cooking</key>
+        <value>-2</value>
+      </li>
+      <li>
+        <key>Artistic</key>
+        <value>3</value>
+      </li>
+    </SkillGains>
+    <SpawnCategories>
+      <li>Civil</li>
+      <li>Raider</li>
+      <li>Slave</li>
+      <li>Trader</li>
+      <li>Traveller></li>
+    </SpawnCategories>
+  </Backstory>
+
+  <Backstory>
+    <Title>哑巴</Title>
+    <BaseDesc>因为幼年时的心灵创伤，NAME不再跟人说话，而只和HIS数不清的宠物玩耍。</BaseDesc>
+    <Slot>Childhood</Slot>
+    <WorkDisables>
+      <li>Social</li>
+    </WorkDisables>
+    <SkillGains>
+      <li>
+        <key>Social</key>
+        <value>-3</value>
+      </li>
+      <li>
+        <key>Animals</key>
+        <value>5</value>
+      </li>
+    </SkillGains>
+    <SpawnCategories>
+      <li>Civil</li>
+      <li>Slave</li>
+      <li>Traveller></li>
+    </SpawnCategories>
+  </Backstory>
+
+  <Backstory>
+    <Title>难民</Title>
+    <BaseDesc>还在襁褓之中时，战争就摧毁了NAME的家园。父母带着HE过着颠沛流离的生活。NAME最早的记忆是被教导如何保护自己。\n\n暴力和破坏给HIS生命留下了累累伤痕。</BaseDesc>
+    <Slot>Childhood</Slot>
+    <WorkDisables>
+      <li>Scary</li>
+    </WorkDisables>
+    <SkillGains>
+      <li>
+        <key>Shooting</key>
+        <value>3</value>
+      </li>
+      <li>
+        <key>Melee</key>
+        <value>3</value>
+      </li>
+    </SkillGains>
+    <SpawnCategories>
+      <li>Civil</li>
+      <li>Raider</li>
+      <li>Slave</li>
+      <li>Trader</li>
+      <li>Traveller></li>
+    </SpawnCategories>
+  </Backstory>
+
+  <Backstory>
+    <Title>音乐爱好者</Title>
+    <BaseDesc>孩提时期，NAME就展露了乐器和歌唱的才华。HE接受过专业的培训，热衷于出席独奏会和演唱会，虽然众人的赞美让HE变得有点自恋。</BaseDesc>
+    <Slot>Childhood</Slot>
+    <WorkDisables>
+    </WorkDisables>
+    <SkillGains>
+      <li>
+        <key>Social</key>
+        <value>-2</value>
+      </li>
+      <li>
+        <key>Artistic</key>
+        <value>5</value>
+      </li>
+    </SkillGains>
+    <SpawnCategories>
+      <li>Civil</li>
+      <li>Raider</li>
+      <li>Slave</li>
+      <li>Trader</li>
+      <li>Traveller></li>
+    </SpawnCategories>
+  </Backstory>
+
+  <Backstory>
+    <Title>童星</Title>
+    <BaseDesc>NAME在HIS的家乡是非常出名的儿童演员。HIS名声让HE接触了许多不同类型的人，但也妨碍了HIS学业。</BaseDesc>
+    <Slot>Childhood</Slot>
+    <WorkDisables>
+      <li>ManualDumb</li>
+    </WorkDisables>
+    <SkillGains>
+      <li>
+        <key>Social</key>
+        <value>3</value>
+      </li>
+      <li>
+        <key>Artistic</key>
+        <value>3</value>
+      </li>
+      <li>
+        <key>Research</key>
+        <value>-2</value>
+      </li>
+    </SkillGains>
+    <SpawnCategories>
+      <li>Civil</li>
+      <li>Raider</li>
+      <li>Trader</li>
+      <li>Traveller></li>
+    </SpawnCategories>
+  </Backstory>
+
+  <Backstory>
+    <Title>间谍儿童</Title>
+    <BaseDesc>人们通常不会提防儿童，是理想的间谍。NAME九岁时被训练了渗透和情报收集能力。\n\n深入敌后的数年时间和饱受战争摧残的家园意味着HE只受到了有限的教育。</BaseDesc>
+    <Slot>Childhood</Slot>
+    <WorkDisables>
+    </WorkDisables>
+    <SkillGains>
+      <li>
+        <key>Shooting</key>
+        <value>5</value>
+      </li>
+      <li>
+        <key>Research</key>
+        <value>-3</value>
+      </li>
+    </SkillGains>
+    <SpawnCategories>
+      <li>Civil</li>
+      <li>Raider</li>
+      <li>Slave</li>
+      <li>Trader</li>
+      <li>Traveller></li>
+    </SpawnCategories>
+  </Backstory>
+
+  <Backstory>
+    <Title>小店主</Title>
+    <BaseDesc>NAME的母亲经常生病，他们家唯一收入的店铺便落到了HE小小的肩膀上。HE对于HE卖的异国艺术品有点研究，还有许多经商的手段。</BaseDesc>
+    <Slot>Childhood</Slot>
+    <WorkDisables>
+    </WorkDisables>
+    <SkillGains>
+      <li>
+        <key>Social</key>
+        <value>4</value>
+      </li>
+      <li>
+        <key>Research</key>
+        <value>2</value>
+      </li>
+    </SkillGains>
+    <SpawnCategories>
+      <li>Civil</li>
+      <li>Raider</li>
+      <li>Slave</li>
+      <li>Trader</li>
+      <li>Traveller></li>
+    </SpawnCategories>
+  </Backstory>
+
+  <Backstory>
+    <Title>护士</Title>
+    <TitleShort>护士</TitleShort>
+    <BaseDesc>NAME在一家大医院上班，做一些更换绷带和测量体温的日常工作。\n\n工作总是很忙，但HE总是能和病人聊上天。</BaseDesc>
+    <Slot>Adulthood</Slot>
+    <WorkDisables>
+      <li>Violent</li>
+    </WorkDisables>
+    <SkillGains>
+      <li>
+        <key>Social</key>
+        <value>4</value>
+      </li>
+      <li>
+        <key>Medicine</key>
+        <value>5</value>
+      </li>
+    </SkillGains>
+    <SpawnCategories>
+      <li>Civil</li>
+      <li>Slave</li>
+    </SpawnCategories>
+    <BodyTypeMale>Male</BodyTypeMale>
+    <BodyTypeFemale>Female</BodyTypeFemale>
+  </Backstory>
+
+  <Backstory>
+    <Title>豪宅的仆人</Title>
+    <TitleShort>仆人</TitleShort>
+    <BaseDesc>刚刚成年，NAME便被绑架并卖给了贵族做佣人。\n\nHE只熟悉厨房和主人豪宅的地下室，从未做过要外出的工作。</BaseDesc>
+    <Slot>Adulthood</Slot>
+    <WorkDisables>
+      <li>Intellectual</li>
+    </WorkDisables>
+    <SkillGains>
+      <li>
+        <key>Cooking</key>
+        <value>4</value>
+      </li>
+      <li>
+        <key>Growing</key>
+        <value>-3</value>
+      </li>
+      <li>
+        <key>Mining</key>
+        <value>-3</value>
+      </li>
+    </SkillGains>
+    <SpawnCategories>
+      <li>Civil</li>
+      <li>Raider</li>
+      <li>Slave</li>
+    </SpawnCategories>
+    <BodyTypeMale>Fat</BodyTypeMale>
+    <BodyTypeFemale>Fat</BodyTypeFemale>
+  </Backstory>
+
+  <Backstory>
+    <Title>保镖</Title>
+    <TitleShort>保镖</TitleShort>
+    <BaseDesc>NAME在中等世界找到了保护雇主免受伤害的工作。HE熟悉不同的战斗方式，并且因为对那些想要突破他的防线的人冷酷无情而出名。</BaseDesc>
+    <Slot>Adulthood</Slot>
+    <WorkDisables>
+      <li>Social</li>
+    </WorkDisables>
+    <SkillGains>
+      <li>
+        <key>Shooting</key>
+        <value>4</value>
+      </li>
+      <li>
+        <key>Melee</key>
+        <value>4</value>
+      </li>
+      <li>
+        <key>Social</key>
+        <value>-3</value>
+      </li>
+    </SkillGains>
+    <SpawnCategories>
+      <li>Civil</li>
+      <li>Raider</li>
+      <li>Slave</li>
+      <li>Trader</li>
+    </SpawnCategories>
+    <BodyTypeMale>Hulk</BodyTypeMale>
+    <BodyTypeFemale>Hulk</BodyTypeFemale>
+  </Backstory>
+
+  <Backstory>
+    <Title>小说家</Title>
+    <TitleShort>小说家</TitleShort>
+    <BaseDesc>NAME是一名闪耀世界的小说家，写的小说非常成功。HE过着非常逍遥自在，只把时间花在写作和夜生活上，从没做过一天的体力活。</BaseDesc>
+    <Slot>Adulthood</Slot>
+    <WorkDisables>
+      <li>ManualDumb</li>
+      <li>Social</li>
+    </WorkDisables>
+    <SkillGains>
+      <li>
+        <key>Construction</key>
+        <value>-5</value>
+      </li>
+      <li>
+        <key>Mining</key>
+        <value>-5</value>
+      </li>
+      <li>
+        <key>Artistic</key>
+        <value>8</value>
+      </li>
+    </SkillGains>
+    <SpawnCategories>
+      <li>Civil</li>
+    </SpawnCategories>
+    <BodyTypeMale>Thin</BodyTypeMale>
+    <BodyTypeFemale>Thin</BodyTypeFemale>
+  </Backstory>
+
+  <Backstory>
+    <Title>数学家</Title>
+    <TitleShort>数学家</TitleShort>
+    <BaseDesc>NAME在一所大学中做数学研究。\n\n\HE花了很多业余时间在设计模拟上，虽然因为超级糟糕的水平经常被同好嘲笑。</BaseDesc>
+    <Slot>Adulthood</Slot>
+    <WorkDisables>
+      <li>ManualDumb</li>
+    </WorkDisables>
+    <SkillGains>
+      <li>
+        <key>Shooting</key>
+        <value>-3</value>
+      </li>
+      <li>
+        <key>Research</key>
+        <value>8</value>
+      </li>
+    </SkillGains>
+    <SpawnCategories>
+      <li>Civil</li>
+      <li>Traveller</li>
+    </SpawnCategories>
+    <BodyTypeMale>Thin</BodyTypeMale>
+    <BodyTypeFemale>Thin</BodyTypeFemale>
+  </Backstory>
+
+  <Backstory>
+    <Title>护理人员</Title>
+    <TitleShort>护理人员</TitleShort>
+    <BaseDesc>NAME的工作是迅速应对紧急医疗情况。HE经常被派去医疗物资急缺的伤员救治。\n\nHE处理了如之多的枪伤，以至HE看到枪就不舒服。</BaseDesc>
+    <Slot>Adulthood</Slot>
+    <WorkDisables>
+    </WorkDisables>
+    <SkillGains>
+      <li>
+        <key>Shooting</key>
+        <value>-5</value>
+      </li>
+      <li>
+        <key>Medicine</key>
+        <value>6</value>
+      </li>
+    </SkillGains>
+    <SpawnCategories>
+      <li>Civil</li>
+      <li>Slave</li>
+    </SpawnCategories>
+    <BodyTypeMale>Male</BodyTypeMale>
+    <BodyTypeFemale>Female</BodyTypeFemale>
+  </Backstory>
+
+  <Backstory>
+    <Title>漂流者</Title>
+    <TitleShort>漂流者</TitleShort>
+    <BaseDesc>NAME是一艘坠毁在无人荒野星球的飞船的唯一幸存者。直到被救援之前，HE竭尽所能地生存下去。\n\nHIS生存技能非常强，但长时间的孤独影响了HIS语言能力。</BaseDesc>
+    <Slot>Adulthood</Slot>
+    <WorkDisables>
+      <li>Intellectual</li>
+      <li>Social</li>
+      <li>Artistic</li>
+    </WorkDisables>
+    <SkillGains>
+      <li>
+        <key>Melee</key>
+        <value>5</value>
+      </li>
+      <li>
+        <key>Social</key>
+        <value>-3</value>
+      </li>
+      <li>
+        <key>Animals</key>
+        <value>3</value>
+      </li>
+      <li>
+        <key>Construction</key>
+        <value>4</value>
+      </li>
+    </SkillGains>
+    <SpawnCategories>
+      <li>Civil</li>
+      <li>Raider</li>
+      <li>Slave</li>
+      <li>Traveller></li>
+    </SpawnCategories>
+    <BodyTypeMale>Hulk</BodyTypeMale>
+    <BodyTypeFemale>Hulk</BodyTypeFemale>
+  </Backstory>
+
+  <Backstory>
+    <Title>园丁</Title>
+    <TitleShort>园丁</TitleShort>
+    <BaseDesc>在工业世界，财富集中在拥有工厂的资本家和大商人手中。NAME在一个富贵家族的豪宅工作，作为佣人队伍一员，照料奢华的花园。</BaseDesc>
+    <Slot>Adulthood</Slot>
+    <WorkDisables>
+      <li>Intellectual</li>
+      <li>Crafting</li>
+    </WorkDisables>
+    <SkillGains>
+      <li>
+        <key>Growing</key>
+        <value>8</value>
+      </li>
+    </SkillGains>
+    <SpawnCategories>
+      <li>Civil</li>
+      <li>Raider</li>
+      <li>Slave</li>
+      <li>Trader</li>
+      <li>Traveller></li>
+    </SpawnCategories>
+    <BodyTypeMale>Male</BodyTypeMale>
+    <BodyTypeFemale>Female</BodyTypeFemale>
+  </Backstory>
+
+  <Backstory>
+    <Title>黑手党老大</Title>
+    <TitleShort>老大</TitleShort>
+    <BaseDesc>NAME是一个城市犯罪集团的一名高级成员。\n\nHE贿赂官员，保证下属忠诚，并不择手段追取高利贷。</BaseDesc>
+    <Slot>Adulthood</Slot>
+    <WorkDisables>
+      <li>ManualDumb</li>
+      <li>Caring</li>
+      <li>Cooking</li>
+    </WorkDisables>
+    <SkillGains>
+      <li>
+        <key>Shooting</key>
+        <value>4</value>
+      </li>
+      <li>
+        <key>Melee</key>
+        <value>3</value>
+      </li>
+      <li>
+        <key>Social</key>
+        <value>4</value>
+      </li>
+    </SkillGains>
+    <SpawnCategories>
+      <li>Raider</li>
+      <li>Slave</li>
+      <li>Trader</li>
+    </SpawnCategories>
+    <BodyTypeMale>Hulk</BodyTypeMale>
+    <BodyTypeFemale>Female</BodyTypeFemale>
+  </Backstory>
+
+  <Backstory>
+    <Title>虐待者</Title>
+    <TitleShort>虐待者</TitleShort>
+    <BaseDesc>在一名封建世界的暴虐君主手下工作，NAME作为一名“劝说”专家赚得了名声。任何走进地牢的囚犯都不会带着秘密离开，NAME的微笑成为了他们永远的噩梦。</BaseDesc>
+    <Slot>Adulthood</Slot>
+    <WorkDisables>
+      <li>Social</li>
+      <li>Caring</li>
+    </WorkDisables>
+    <SkillGains>
+      <li>
+        <key>Melee</key>
+        <value>6</value>
+      </li>
+    </SkillGains>
+    <SpawnCategories>
+      <li>Raider</li>
+      <li>Slave</li>
+      <li>Trader</li>
+    </SpawnCategories>
+    <BodyTypeMale>Male</BodyTypeMale>
+    <BodyTypeFemale>Female</BodyTypeFemale>
+  </Backstory>
+
+  <Backstory>
+    <Title>建筑工程师</Title>
+    <TitleShort>工程师</TitleShort>
+    <BaseDesc>NAME是一名中等世界的工程师。HE带领团队建造楼房，从办公楼到大教堂无所不包。\n\n繁忙的工作和周边的许多快餐店意味着他不会自己做饭。</BaseDesc>
+    <Slot>Adulthood</Slot>
+    <WorkDisables>
+      <li>Intellectual</li>
+      <li>Cooking</li>
+    </WorkDisables>
+    <SkillGains>
+      <li>
+        <key>Construction</key>
+        <value>8</value>
+      </li>
+      <li>
+        <key>Growing</key>
+        <value>-3</value>
+      </li>
+    </SkillGains>
+    <SpawnCategories>
+      <li>Civil</li>
+      <li>Raider</li>
+      <li>Slave</li>
+      <li>Trader</li>
+      <li>Traveller></li>
+    </SpawnCategories>
+    <BodyTypeMale>Hulk</BodyTypeMale>
+    <BodyTypeFemale>Female</BodyTypeFemale>
+  </Backstory>
+
+  <Backstory>
+    <Title>铁匠</Title>
+    <TitleShort>铁匠</TitleShort>
+    <BaseDesc>作为一个封建世界的铁匠，NAME用HIS高品质作品赚得了名声。HE用起HE自己锻造的剑的架势也很不赖。</BaseDesc>
+    <Slot>Adulthood</Slot>
+    <WorkDisables>
+      <li>Intellectual</li>
+    </WorkDisables>
+    <SkillGains>
+      <li>
+        <key>Shooting</key>
+        <value>-5</value>
+      </li>
+      <li>
+        <key>Melee</key>
+        <value>4</value>
+      </li>
+      <li>
+        <key>Crafting</key>
+        <value>6</value>
+      </li>
+    </SkillGains>
+    <SpawnCategories>
+      <li>Civil</li>
+      <li>Raider</li>
+      <li>Slave</li>
+      <li>Trader</li>
+      <li>Traveller></li>
+    </SpawnCategories>
+    <BodyTypeMale>Male</BodyTypeMale>
+    <BodyTypeFemale>Female</BodyTypeFemale>
+  </Backstory>
+
+  <Backstory>
+    <Title>慈善工作者</Title>
+    <TitleShort>慈善者</TitleShort>
+    <BaseDesc>闪耀世界是那些生活在其中的人的乐园，但NAME无法忽略附近行星的人们还在贫困之中。HE把呼吁人们捐款和帮助有需要的人作为自己的职业生命。</BaseDesc>
+    <Slot>Adulthood</Slot>
+    <WorkDisables>
+      <li>Violent</li>
+    </WorkDisables>
+    <SkillGains>
+      <li>
+        <key>Social</key>
+        <value>6</value>
+      </li>
+      <li>
+        <key>Mining</key>
+        <value>-3</value>
+      </li>
+    </SkillGains>
+    <SpawnCategories>
+      <li>Civil</li>
+      <li>Traveller></li>
+    </SpawnCategories>
+    <BodyTypeMale>Thin</BodyTypeMale>
+    <BodyTypeFemale>Thin</BodyTypeFemale>
+  </Backstory>
+
+  <Backstory>
+    <Title>逃兵</Title>
+    <TitleShort>逃兵</TitleShort>
+    <BaseDesc>还年轻时，NAME决定逃出他所生活的独裁政权。但HE的叛逃是不被允许的，并且派出了特工追捕HE、\n\nHE花了几年时间逃亡，能自己治疗伤口所以也没有医生能出卖他。苦难让他变得偏激和多疑。</BaseDesc>
+    <Slot>Adulthood</Slot>
+    <WorkDisables>
+      <li>Artistic</li>
+    </WorkDisables>
+    <SkillGains>
+      <li>
+        <key>Shooting</key>
+        <value>5</value>
+      </li>
+      <li>
+        <key>Social</key>
+        <value>-4</value>
+      </li>
+      <li>
+        <key>Medicine</key>
+        <value>3</value>
+      </li>
+    </SkillGains>
+    <SpawnCategories>
+      <li>Civil</li>
+      <li>Raider</li>
+      <li>Slave</li>
+      <li>Trader</li>
+      <li>Traveller></li>
+    </SpawnCategories>
+    <BodyTypeMale>Male</BodyTypeMale>
+    <BodyTypeFemale>Female</BodyTypeFemale>
+  </Backstory>
+
+  <Backstory>
+    <Title>工厂工人</Title>
+    <TitleShort>工人</TitleShort>
+    <BaseDesc>NAME在工业行星上的工厂从事卑微的、不需要专业技能的工作。HIS工作还包括照顾城市中驮运货物的骡子和马。</BaseDesc>
+    <Slot>Adulthood</Slot>
+    <WorkDisables>
+      <li>Intellectual</li>
+      <li>Artistic</li>
+      <li>Cooking</li>
+    </WorkDisables>
+    <SkillGains>
+      <li>
+        <key>Animals</key>
+        <value>3</value>
+      </li>
+      <li>
+        <key>Construction</key>
+        <value>3</value>
+      </li>
+      <li>
+        <key>Crafting</key>
+        <value>2</value>
+      </li>
+    </SkillGains>
+    <SpawnCategories>
+      <li>Civil</li>
+      <li>Raider</li>
+      <li>Slave</li>
+      <li>Trader</li>
+    </SpawnCategories>
+    <BodyTypeMale>Hulk</BodyTypeMale>
+    <BodyTypeFemale>Hulk</BodyTypeFemale>
+  </Backstory>
+
+  <Backstory>
+    <Title>牧场主</Title>
+    <TitleShort>牧场主</TitleShort>
+    <BaseDesc>NAME拥有一个经营得很成功的牧场，HE在那里养殖牲畜来出产肉和皮毛。\n\nHE拒绝从事任何HE能付钱给他人代劳的工作。</BaseDesc>
+    <Slot>Adulthood</Slot>
+    <WorkDisables>
+      <li>ManualDumb</li>
+    </WorkDisables>
+    <SkillGains>
+      <li>
+        <key>Animals</key>
+        <value>8</value>
+      </li>
+      <li>
+        <key>Cooking</key>
+        <value>-4</value>
+      </li>
+      <li>
+        <key>Mining</key>
+        <value>-4</value>
+      </li>
+    </SkillGains>
+    <SpawnCategories>
+      <li>Civil</li>
+      <li>Raider</li>
+      <li>Slave</li>
+      <li>Traveller</li>
+      <li>Trader</li>
+    </SpawnCategories>
+    <BodyTypeMale>Fat</BodyTypeMale>
+    <BodyTypeFemale>Fat</BodyTypeFemale>
+  </Backstory>
+
+  <Backstory>
+    <Title>低工资的工人</Title>
+    <TitleShort>工人</TitleShort>
+    <BaseDesc>为了支撑HIS家庭，NAME接了很多种零工，因此锻炼了一套基本的动手能力。</BaseDesc>
+    <Slot>Adulthood</Slot>
+    <WorkDisables>
+    </WorkDisables>
+    <SkillGains>
+      <li>
+        <key>Cooking</key>
+        <value>4</value>
+      </li>
+      <li>
+        <key>Growing</key>
+        <value>3</value>
+      </li>
+      <li>
+        <key>Crafting</key>
+        <value>3</value>
+      </li>
+    </SkillGains>
+    <SpawnCategories>
+      <li>Civil</li>
+      <li>Raider</li>
+      <li>Slave</li>
+    </SpawnCategories>
+    <BodyTypeMale>Male</BodyTypeMale>
+    <BodyTypeFemale>Female</BodyTypeFemale>
+  </Backstory>
+
+  <Backstory>
+    <Title>模特</Title>
+    <TitleShort>模特</TitleShort>
+    <BaseDesc>NAME是一名服装和珠宝广告的模特，还是虚拟现实中某个人物的原型。</BaseDesc>
+    <Slot>Adulthood</Slot>
+    <WorkDisables>
+      <li>ManualDumb</li>
+      <li>Intellectual</li>
+      <li>ManualSkilled</li>
+      <li>Caring</li>
+    </WorkDisables>
+    <SkillGains>
+      <li>
+        <key>Social</key>
+        <value>5</value>
+      </li>
+      <li>
+        <key>Artistic</key>
+        <value>6</value>
+      </li>
+    </SkillGains>
+    <SpawnCategories>
+      <li>Civil</li>
+    </SpawnCategories>
+    <BodyTypeMale>Hulk</BodyTypeMale>
+    <BodyTypeFemale>Thin</BodyTypeFemale>
+  </Backstory>
+
+  <Backstory>
+    <Title>分类学者</Title>
+    <TitleShort>分类学者</TitleShort>
+    <BaseDesc>NAME在星系之间旅行，对发现的动植物进行研究和分类，理想是创立一份完整的物种目录。</BaseDesc>
+    <Slot>Adulthood</Slot>
+    <WorkDisables>
+      <li>Violent</li>
+    </WorkDisables>
+    <SkillGains>
+      <li>
+        <key>Animals</key>
+        <value>5</value>
+      </li>
+      <li>
+        <key>Growing</key>
+        <value>5</value>
+      </li>
+    </SkillGains>
+    <SpawnCategories>
+      <li>Civil</li>
+      <li>Slave</li>
+      <li>Trader</li>
+      <li>Traveller></li>
+    </SpawnCategories>
+    <BodyTypeMale>Thin</BodyTypeMale>
+    <BodyTypeFemale>Thin</BodyTypeFemale>
+  </Backstory>
+
+  <Backstory>
+    <Title>地质学家</Title>
+    <TitleShort>地质学家</TitleShort>
+    <BaseDesc>NAME的工作是跟随矿工和挖掘机，识别岩石的种类和自然构成。\n\n多年的地下工作，也让HE对钻孔机等机械设备的维修很有经验。</BaseDesc>
+    <Slot>Adulthood</Slot>
+    <WorkDisables>
+    </WorkDisables>
+    <SkillGains>
+      <li>
+        <key>Mining</key>
+        <value>8</value>
+      </li>
+      <li>
+        <key>Crafting</key>
+        <value>3</value>
+      </li>
+    </SkillGains>
+    <SpawnCategories>
+      <li>Civil</li>
+      <li>Raider</li>
+      <li>Slave</li>
+      <li>Trader</li>
+      <li>Traveller></li>
+    </SpawnCategories>
+    <BodyTypeMale>Male</BodyTypeMale>
+    <BodyTypeFemale>Female</BodyTypeFemale>
+  </Backstory>
+
+</Backstories>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

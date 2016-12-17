@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<PlayerCreatedBios>
+
+	<PawnBio>
+		<Name>
+			<First>Tynan</First>
+			<Last>Sylvester</Last>
+			<Nick>Tynan</Nick>
+		</Name>
+		<Gender>Male</Gender>
+		<Childhood>
+			<Title>Dumb punk</Title>
+			<BaseDesc>NAME was a worthless child. Despite being born into a decent family, HE failed to live up to expectations, spending his time selling knockoff cigarettes to 15-year-olds.</BaseDesc>
+			<SkillGains>
+				<li>
+					<key>Research</key>
+					<value>-2</value>
+				</li>
+				<li>
+					<key>Social</key>
+					<value>-2</value>
+				</li>
+			</SkillGains>
+		</Childhood>
+		<Adulthood>
+			<Title>Bad magician</Title>
+			<TitleShort>Magician</TitleShort>
+			<BaseDesc>NAME was an incompetent magician who performed for low wages - usually in front of children. The children were usually very bored, because he is very lazy.</BaseDesc>
+			<SkillGains>
+				<li>
+					<key>Construction</key>
+					<value>-2</value>
+				</li>
+				<li>
+					<key>Mining</key>
+					<value>-2</value>
+				</li>
+			</SkillGains>
+			<SpawnCategories>
+				<li>Slave</li>
+        <li>Raider</li>
+        <li>Traveler</li>
+        <li>Trader</li>
+      </SpawnCategories>
+			<BodyNameGlobal>Male</BodyNameGlobal>
+      <forcedTraits>
+        <Industriousness>-2</Industriousness>
+      </forcedTraits>
+		</Adulthood>
+	</PawnBio>
+
+</PlayerCreatedBios>
