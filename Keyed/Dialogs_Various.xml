@@ -61,18 +61,18 @@
   <LoadAnyway>仍然载入</LoadAnyway>
 
   <!-- Player faction naming -->
-  <NamePlayerFactionMessage>{0} thinks that you should give your faction a name. What should your faction be called?</NamePlayerFactionMessage>
-  <PlayerFactionGainsName>Your faction is now known as {0}.</PlayerFactionGainsName>
-  <PlayerFactionNameIsInvalid>That name isn't valid.</PlayerFactionNameIsInvalid>
+  <NamePlayerFactionMessage>{0} 觉得你应该给你的派系起一个名字。你觉得你的派系叫什么好呢？</NamePlayerFactionMessage>
+  <PlayerFactionGainsName>从今往后你的派系就叫 {0}.</PlayerFactionGainsName>
+  <PlayerFactionNameIsInvalid>不能使用这个名字。</PlayerFactionNameIsInvalid>
 
   <!-- Player faction base naming -->
-  <NamePlayerFactionBaseMessage>Since it looks like you'll be here for a while, {0} thinks that you should give this community a name. What should the local community be called?</NamePlayerFactionBaseMessage>
-  <PlayerFactionBaseGainsName>This community is now known as {0}.</PlayerFactionBaseGainsName>
-  <PlayerFactionBaseNameIsInvalid>That name isn't valid.</PlayerFactionBaseNameIsInvalid>
+  <NamePlayerFactionBaseMessage>因为看起来你们要在这里待一阵子， {0} 觉得你应该给这个社区起一个名字。 你觉得这个社区因该叫什么呢？</NamePlayerFactionBaseMessage>
+  <PlayerFactionBaseGainsName>从今往后这个社区就叫 {0}.</PlayerFactionBaseGainsName>
+  <PlayerFactionBaseNameIsInvalid>不能使用这个名字。</PlayerFactionBaseNameIsInvalid>
 
   <!-- Player faction and faction base naming -->
-  <NamePlayerFactionBaseMessage_NameFactionContinuation>Since it looks like you'll be here for a while, {0} also thinks that you should give community a name. What should this local community be called?</NamePlayerFactionBaseMessage_NameFactionContinuation>
-  <PlayerFactionAndBaseGainsName>Your faction is now known as {0}, and this community is now known as {1}.</PlayerFactionAndBaseGainsName>
+  <NamePlayerFactionBaseMessage_NameFactionContinuation>因为看起来你们要在这里待一阵子， {0} 还觉得你应该给这个社区起一个名字。 你觉得这个社区因该叫什么呢？</NamePlayerFactionBaseMessage_NameFactionContinuation>
+  <PlayerFactionAndBaseGainsName>从今往后你的派系就叫 {0}, 这个社区就叫 {1}.</PlayerFactionAndBaseGainsName>
 
   <!-- Renaming -->
   <NameIsInvalid>请输入一个有效的名称。</NameIsInvalid>
@@ -167,7 +167,7 @@
   <Days>天</Days>
   <MinGrowingSkillToSow>种植最低技能要求</MinGrowingSkillToSow>
   <FertilityRequirement>肥沃度需求</FertilityRequirement>
-  <FertilitySensitivity>Fertility sensitivity</FertilitySensitivity>
+  <FertilitySensitivity>肥沃度敏感度</FertilitySensitivity>
   <LightRequirement>光照需求</LightRequirement>
   <Attributes>特性</Attributes>
   <LifeSpan>寿命</LifeSpan>
@@ -213,24 +213,24 @@
   <NegotiatorTalkingImpaired>你的谈判人员{0}由于健康原因而无法正常谈判。\n\n这将影响到贸易价格.\n\n请考虑换一个身体健康的殖民者来谈判。</NegotiatorTalkingImpaired>
   <ConfirmTraderShortFunds>贸易商没有足够的白银支付这次交易，继续么？</ConfirmTraderShortFunds>
   <SortBy>排序方式</SortBy>
-  <TraderTypePrice>trader type</TraderTypePrice>
-  <Selling>selling</Selling>
-  <Buying>buying</Buying>
-  <ItemSellPriceFactor>item sell price multiplier</ItemSellPriceFactor>
-  <DifficultyLevel>difficulty level</DifficultyLevel>
-  <PostCurve>global post-process curve</PostCurve>
-  <YourNegotiatorBonus>Your negotiator bonus</YourNegotiatorBonus>
-  <TradeWithFactionBaseBonus>Trading with faction base bonus</TradeWithFactionBaseBonus>
-  <minimum>minimum</minimum>
-  <FinalPrice>Final price</FinalPrice>
-  <TradeMassUsageTooltip>The resulting mass usage and mass capacity.</TradeMassUsageTooltip>
+  <TraderTypePrice>商人种类</TraderTypePrice>
+  <Selling>卖</Selling>
+  <Buying>买</Buying>
+  <ItemSellPriceFactor>物品售价系数</ItemSellPriceFactor>
+  <DifficultyLevel>难度</DifficultyLevel>
+  <PostCurve>全局后处理曲线</PostCurve>
+  <YourNegotiatorBonus>你的谈判者加成</YourNegotiatorBonus>
+  <TradeWithFactionBaseBonus>与派系基地交易加成</TradeWithFactionBaseBonus>
+  <minimum>最小值</minimum>
+  <FinalPrice>最终价格</FinalPrice>
+  <TradeMassUsageTooltip>最终重量和最大重量</TradeMassUsageTooltip>
 
   <!-- Form caravan -->
-  <FormCaravan>Form caravan</FormCaravan>
+  <FormCaravan>组建旅行队</FormCaravan>
   <FormCaravanColonyThingCountTip>How many of this item the colony has ready to give to the caravan.</FormCaravanColonyThingCountTip>
-  <PawnsTab>People and animals</PawnsTab>
-  <ItemsTab>Items</ItemsTab>
-  <CaravanConfigTab>Config</CaravanConfigTab>
+  <PawnsTab>人和动物</PawnsTab>
+  <ItemsTab>物品</ItemsTab>
+  <CaravanConfigTab>设置</CaravanConfigTab>
   <CaravanMustHaveAtLeastOneColonist>You must assign at least one non-downed colonist.</CaravanMustHaveAtLeastOneColonist>
   <CaravanCouldNotFindExitSpot>Could not find any valid exit location.</CaravanCouldNotFindExitSpot>
   <CaravanCouldNotFindReachableExitSpot>Warning: some of the assigned colonists are unable to reach the exit location.</CaravanCouldNotFindReachableExitSpot>
@@ -338,20 +338,20 @@
   <NoGrowerCanPlant>播种{0}最低需要{1}级种植技能。\n\n你没有达到该技能要求的种植者，因此这种植物将不会被播种。</NoGrowerCanPlant>
 
   <!-- Abandon home -->
-  <ConfirmAbandonHomeWithColonyPawns>Some of your colonists or animals are in this area. Are you sure you want to abandon it?\n\nThe following people and animals will be left behind:\n\n{0}</ConfirmAbandonHomeWithColonyPawns>
+  <ConfirmAbandonHomeWithColonyPawns>你的一些动物和殖民者还在这里，确定要废弃这个地方吗？\n\n这些人和动物会被留在这里：\n\n{0}</ConfirmAbandonHomeWithColonyPawns>
 
   <!-- Move caravan and leave prisoners and animals behind -->
-  <ConfirmLeavePrisonersOrAnimalsBehind>There are still some prisoners or animals left in this area and this is the only caravan they can join at the moment.\n\nIf you move your caravan, they won't be able to leave the area until you are back. The prisoners will start escaping, while the animals will keep waiting for you.\n\nIf you decide to wait, they will try to join your caravan as soon as possible.\n\nAre you sure you want to move your caravan?</ConfirmLeavePrisonersOrAnimalsBehind>
+  <ConfirmLeavePrisonersOrAnimalsBehind>这里还有一些囚犯和动物，而且这是现在他们能加入的唯一一支旅行队\n\n如果你移动你的旅行队, 你回来之前他们将不能离开这个区域。 囚犯会尝试逃跑，而你的动物会等你回来。\n\n如果你让你的旅行队等待一会，他们会尝试尽快加入你的旅行队。\n\n确定要移动旅行队吗？</ConfirmLeavePrisonersOrAnimalsBehind>
 
   <!-- Abandon pawn -->
-  <ConfirmAbandonPawnDialog>Do you really want to abandon {0}?</ConfirmAbandonPawnDialog>
-  <ConfirmAbandonPawnDialog_LeftToDie>{0} will most likely die.</ConfirmAbandonPawnDialog_LeftToDie>
-  <ConfirmAbandonPawnDialog_EquipmentAndApparel>{0} will take the following items with HIM:</ConfirmAbandonPawnDialog_EquipmentAndApparel>
-  <ConfirmAbandonPawnDialog_AllColonistsThoughts>All colonists will get the following thoughts:</ConfirmAbandonPawnDialog_AllColonistsThoughts>
-  <ConfirmAbandonPawnDialog_IndividualThoughts>Abandoning {0} will cause the following people to get the following thoughts:</ConfirmAbandonPawnDialog_IndividualThoughts>
+  <ConfirmAbandonPawnDialog>你确定要废弃 {0}吗?</ConfirmAbandonPawnDialog>
+  <ConfirmAbandonPawnDialog_LeftToDie>{0} 很可能会死。</ConfirmAbandonPawnDialog_LeftToDie>
+  <ConfirmAbandonPawnDialog_EquipmentAndApparel>{0} 会把这些东西带走：</ConfirmAbandonPawnDialog_EquipmentAndApparel>
+  <ConfirmAbandonPawnDialog_AllColonistsThoughts>所有殖民者都会有这些想法：</ConfirmAbandonPawnDialog_AllColonistsThoughts>
+  <ConfirmAbandonPawnDialog_IndividualThoughts>废弃 {0} 会让这些人有这些想法：</ConfirmAbandonPawnDialog_IndividualThoughts>
 
   <!-- Send transport pods which are not completely loaded -->
-  <ConfirmSendNotCompletelyLoadedPods>Pod group isn’t completely loaded. {0} is missing. Launch anyway?</ConfirmSendNotCompletelyLoadedPods>
+  <ConfirmSendNotCompletelyLoadedPods>发射组没有全部进仓， {0} 还没进有入. </ConfirmSendNotCompletelyLoadedPods>
 
   <!--<InitializingMap>初始化地图</InitializingMap>-->
   <!-- Colony naming-->
