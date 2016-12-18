@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <LetterLabelAnimalInsanitySingle>动物发狂</LetterLabelAnimalInsanitySingle>
+  <AnimalInsanitySingle>本地区的一只{0}发狂了。它会攻击任何视野内的人类。</AnimalInsanitySingle>
+  <LetterLabelAnimalInsanityMultiple>大批动物发狂！</LetterLabelAnimalInsanityMultiple>
+  <AnimalInsanityMultiple>某种心灵波扫过了整个地区。你的殖民者们没出什么问题，但是……\n\n看来地区内的大批{0}都因此发狂了。</AnimalInsanityMultiple>
+
+  <LetterLabelCropBlight>枯萎病</LetterLabelCropBlight>
+  <CropBlight>一种神秘的枯萎病毁掉了你的农作物。</CropBlight>
+
+  <LetterLabelMiracleHeal>医疗奇迹</LetterLabelMiracleHeal>
+  <MiracleHeal>{0}奇迹般的恢复健康了！</MiracleHeal>
+
+  <!-- Enemy raids -->
+  <EnemyRaidWalkIn>一群来自{1}的{0}来到了附近。</EnemyRaidWalkIn>
+  <EnemyRaidEdgeDrop>一群来自{1}的{0}空投到了附近。</EnemyRaidEdgeDrop>
+  <EnemyRaidCenterDrop>一群来自{1}的{0}直接空投到了你的殖民地上！</EnemyRaidCenterDrop>
+  <EnemyRaidLeaderPresent>{0}中的{1}是该派系首领。</EnemyRaidLeaderPresent>
+
+  <!-- Friendly raids -->
+  <FriendlyRaidWalkIn>一群来自{1}的友方{0}来到了附近。</FriendlyRaidWalkIn>
+  <FriendlyRaidEdgeDrop>一群来自{1}的友方{0}空投到了附近。</FriendlyRaidEdgeDrop>
+  <FriendlyRaidCenterDrop>一群来自{1}的友方{0}直接空投到了你的殖民地上！</FriendlyRaidCenterDrop>
+  <FriendlyRaidLeaderPresent>{0}中的{1}是该派系首领。</FriendlyRaidLeaderPresent>
+
+  <LetterLabelRefugeePodCrash>逃生舱坠毁</LetterLabelRefugeePodCrash>
+  <RefugeePodCrash>你侦测到了一个逃生舱在附近坠毁了。\n\n即使有人在撞击后还活了下来，他们也会受重伤。\n\n你可以派殖民者拯救他们并送他们回家。或者，你也可以俘虏他们尝试让他们加入你或者卖为奴隶。</RefugeePodCrash>
+
+  <LetterLabelCargoPodCrash>货舱坠毁</LetterLabelCargoPodCrash>
+  <CargoPodCrash>你侦测到了一组货舱在附近坠毁了。\n\n你或许能在残骸中找到不少有用的东西。</CargoPodCrash>
+
+  <AnElectricalConduit>电缆短路</AnElectricalConduit>
+  <ShortCircuit>{0}的内部故障引起了短路。\n\n附近连接的电池内储存的{1}Wd的能量都以爆炸的形式被释放出来。</ShortCircuit>
+  <ShortCircuitWasLarge>储存的大量电能造成了一场规模可观的爆炸。</ShortCircuitWasLarge>
+  <ShortCircuitWasHuge>这爆炸的规模可超级大啊，哇！</ShortCircuitWasHuge>
+
+  <TraderArrival>一艘商船正巧经过。\n\n他们被称作{0}。是{1}。</TraderArrival>
+
+  <SingleTravelerPassing>一位来自{1}的{0}正巧路过。HECAP的名字叫{2}。</SingleTravelerPassing>
+  <GroupTravelersPassing>一群来自{0}的旅行者正巧路过。</GroupTravelersPassing>
+
+  <LetterLabelSingleVisitorArrives>访客</LetterLabelSingleVisitorArrives>
+  <SingleVisitorArrives>一位来自{1}的{0}来拜访殖民地。\n\nHECAP的名字叫{2}。{3}{4}</SingleVisitorArrives>
+  <SingleVisitorArrivesTraderInfo>\n\nHECAP似乎有些物品可供交易。</SingleVisitorArrivesTraderInfo>
+  <SingleVisitorArrivesLeaderInfo>\n\nHECAP是该派系首领。</SingleVisitorArrivesLeaderInfo>
+  <LetterLabelGroupVisitorsArrive>访客</LetterLabelGroupVisitorsArrive>
+  <GroupVisitorsArrive>一群来自{0}的人来拜访殖民地。{1}{2}</GroupVisitorsArrive>
+  <GroupVisitorsArriveTraderInfo>\n\n他们似乎有些物品可供交易。</GroupVisitorsArriveTraderInfo>
+  <GroupVisitorsArriveLeaderInfo>\n\n访客中的{0}是该派系首领。</GroupVisitorsArriveLeaderInfo>
+  <VisitorsLeaving>来自{0}的访客准备离开了。</VisitorsLeaving>
+
+  <LetterLabelWandererJoin>流浪者加入</LetterLabelWandererJoin>
+  <WandererJoin>一位名叫NAME的{0}来到了这里并加入了殖民地。HECAP是一位{1}。</WandererJoin>
+
+  <LetterLabelManhunterPackArrived>猎杀人类</LetterLabelManhunterPackArrived>
+  <ManhunterPackArrived>一群猎杀人类的{0}已经进入该地区。他们将四处游荡猎杀人类。\n\n它们无法通过门，所以如果你呆在室内并关好门应该是安全的。他们也不会攻击关闭的炮台，所以如果你想避免炮台被拆可以停止对炮台供电。\n\n它们将会在几天后离开。</ManhunterPackArrived>
+
+  <!-- Crashed ship part-->
+  <MessageAnimalInsanityPulse>坠毁的飞船零件发射了一束心灵脉冲，它让附近的动物都发狂了。</MessageAnimalInsanityPulse>
+  <LetterShipPartDroveColonistInsane>坠毁的飞船零件发射了一束心灵脉冲，它让殖民者{0}发疯了。</LetterShipPartDroveColonistInsane>
+  <AwokeDaysAgo>苏醒于{0}天前</AwokeDaysAgo>
+  <PsychicDroneLevel>心灵低语强度：{0}</PsychicDroneLevel>
+  <PsychicDroneLevelLow>低</PsychicDroneLevelLow>
+  <PsychicDroneLevelMedium>中</PsychicDroneLevelMedium>
+  <PsychicDroneLevelHigh>高</PsychicDroneLevelHigh>
+  <PsychicDroneLevelExtreme>极高</PsychicDroneLevelExtreme>
+  <LetterLabelPsychicDroneLevelIncreased>心灵低语加剧</LetterLabelPsychicDroneLevelIncreased>
+  <LetterPsychicDroneLevelIncreased>坠毁的飞船零件发出的心灵低语强度增强了。该地区的所有人类的思维都受到更严重的干扰，开始变得更恐慌、更偏执。</LetterPsychicDroneLevelIncreased>
+
+  <!-- Agent revealed -->
+  <LetterLabelAgentRevealed>间谍</LetterLabelAgentRevealed>
+  <LetterAgentRevealed>{0}被发现是你的敌人{1}所派来的一名间谍。\n\n他们现在正试图逃跑。</LetterAgentRevealed>
+
+  <!-- Distant psychic drone -->
+  <LetterLabelPsychicDrone>心灵低语</LetterLabelPsychicDrone>
+  <LetterIncidentPsychicDrone>所有{0}的殖民者都感到十分痛苦！\n\n远方某种痛苦电波发射源启动了，向本地区投射了一种强大的心灵波，它的频率似乎只影响{0}。在接下来几天之内，这些人的心情值会降低。</LetterIncidentPsychicDrone>
+
+  <LetterLabelPsychicSoothe>心灵抚慰</LetterLabelPsychicSoothe>
+  <LetterIncidentPsychicSoothe>所有{0}的殖民者都感到十分开心！\n\n远方某种快乐电波发射源启动了，向本地区投射了一种强大的心灵波，它的频率似乎只影响{0}。在接下来几天之内，这些人的心情值会提升。</LetterIncidentPsychicSoothe>
+
+  <!-- Beavers -->
+  <LetterLabelBeaversArrived>阿尔法海狸！</LetterLabelBeaversArrived>
+  <BeaversArrived>一群饥饿的阿尔法海狸到来了。\n\n在这种基因改造动物啃倒本地区最后一棵树之前消灭他们。</BeaversArrived>
+
+  <!-- Refugee chased -->
+  <RefugeeChasedInitial>附近一位名叫{0}的{1}发来呼救信号。HECAP说自己正被来自{3}的{2}追捕！\n\nHECAP祈求得到保护并想加入殖民地。HE的生物年龄是{4}岁。\n\n警告：如果你接受请求，你将要对抗追捕HIS{2}。</RefugeeChasedInitial>
+  <RefugeeChasedInitial_Accept>提供保护</RefugeeChasedInitial_Accept>
+  <RefugeeChasedInitial_Reject>忽略消息</RefugeeChasedInitial_Reject>
+  <RefugeeChasedRejected>在你中断联系时，通讯器中传出{0}恐慌的尖叫声。</RefugeeChasedRejected>
+
+  <!-- Self-tame -->
+  <LetterLabelAnimalSelfTame>{0}自行驯服</LetterLabelAnimalSelfTame>
+  <LetterAnimalSelfTame>{0}自行驯服了。</LetterAnimalSelfTame>
+  <LetterAnimalSelfTameAndNameNumerical>{0}自行驯服了。现在已被指定{1}。</LetterAnimalSelfTameAndNameNumerical>
+  <LetterAnimalSelfTameAndName>{0}自行驯服了。殖民者决定将它命名为{1}。</LetterAnimalSelfTameAndName>
+
+  <!-- Farm animals wander in -->
+  <LetterLabelFarmAnimalsWanderIn>{0}加入</LetterLabelFarmAnimalsWanderIn>
+  <LetterFarmAnimalsWanderIn>一群被遗弃或迷路的{0}游荡到本地区。\n\n他们似乎习惯与人类相处，并且加入了殖民地。</LetterFarmAnimalsWanderIn>
+
+  <!-- Thrumbo passes -->
+  <LetterLabelThrumboPasses>罕见的敲击兽</LetterLabelThrumboPasses>
+  <LetterThrumboPasses>一小群敲击兽来到了本地区。\n\n这种罕见的野兽天性温顺，但一旦被激怒时就会变得非常危险。有些贸易商愿意出大价钱收购它们珍贵的皮革和角。\n\n敲击兽将会在几天后离开。</LetterThrumboPasses>
+
+  <!-- Trader caravan -->
+  <LetterLabelTraderCaravanArrival>来自{0}的{1}</LetterLabelTraderCaravanArrival>
+  <LetterTraderCaravanArrival>一队来自{0}的贸易商队正在接近，他们是{1}。\n\n他们将在殖民地逗留几天，然后离开。你可以攻击他们，但这会激怒他们的派系！</LetterTraderCaravanArrival>
+
+  <!-- Building breaks down -->
+  <LetterLabelBuildingBrokenDown>损坏：{0}</LetterLabelBuildingBrokenDown>
+  <LetterBuildingBrokenDown>一台机器（{0}）损坏了。在一名修理工去修复它之前它都将无法工作。</LetterBuildingBrokenDown>
+
+  <!-- Ransom demand -->
+  <RansomDemand>{1}发来通讯信号。他们绑架了殖民者 {0} 并索要赎金。\n\n从他们手里赎回HIM需要{2}白银。</RansomDemand>
+  <RansomDemand_Accept>同意</RansomDemand_Accept>
+  <RansomDemand_Reject>拒绝</RansomDemand_Reject>
+
+  <!-- Journey -->
+  <JourneyOffer>一个曾经被你叫做沙隆·白石的友好AI给你发了一条消息！\n\n他透露说他在这个星球上有一艘太空船，并把坐标发给了你。\n\n如果你前往太空船，沙隆会带你离开边缘世界，飞向星空。</JourneyOffer>
+
+  <!-- Caravan meeting -->
+  <CaravanMeeting>你的远行队和 {0} 的远行队和平的见了面。另一个远行队由\n\n{1}组成。</CaravanMeeting>
+  <CaravanMeeting_Trade>交易</CaravanMeeting_Trade>
+  <CaravanMeeting_Attack>攻击</CaravanMeeting_Attack>
+  <CaravanMeeting_MoveOn>继续前进</CaravanMeeting_MoveOn>
+
+</LanguageData>
