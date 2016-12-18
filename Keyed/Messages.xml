@@ -136,20 +136,20 @@
 
   <MessageFoodPoisoning>{0}因食用{1}而导致食物中毒。</MessageFoodPoisoning>
 
-  <MessageFailedToSendCaravanBecausePawnLost>Failed to send the caravan because one of the colonists, prisoners or animals has been lost.</MessageFailedToSendCaravanBecausePawnLost>
-  <MessageCaravanFormationPaused>The caravan formation process will continue when everyone recovers from a mental break.</MessageCaravanFormationPaused>
-  <MessageCaravanFormationUnpaused>Your colonists will now continue forming a caravan.</MessageCaravanFormationUnpaused>
+  <MessageFailedToSendCaravanBecausePawnLost>因为失去了指定的殖民者、动物或囚犯，远行队组建失败。</MessageFailedToSendCaravanBecausePawnLost>
+  <MessageCaravanFormationPaused>当所有人从精神崩溃中恢复后会继续组建远行队。</MessageCaravanFormationPaused>
+  <MessageCaravanFormationUnpaused>你的殖民者现在会继续组建远行队。</MessageCaravanFormationUnpaused>
 
-  <MessageCaravanMemberHasExtremeMentalBreak>One of the caravan members has a mental break.</MessageCaravanMemberHasExtremeMentalBreak>
+  <MessageCaravanMemberHasExtremeMentalBreak>一名远行队成员精神崩溃了。</MessageCaravanMemberHasExtremeMentalBreak>
 
   <MessageMaxPlanetCoveragePerformanceWarning>警告：生成整个星球可能需要很长的时间。</MessageMaxPlanetCoveragePerformanceWarning>
 
   <MessagePlantDiedOfCold>{0}因为温度过低而死。</MessagePlantDiedOfCold>
   <MessagePlantDiedOfRot>{0}因一直没有被收获腐烂而死。</MessagePlantDiedOfRot>
 
-  <MessagePawnBeingBurned>{0} is being burned by superheated air!</MessagePawnBeingBurned>
+  <MessagePawnBeingBurned>{0} 正在被超高温空气灼烧！</MessagePawnBeingBurned>
 
-  <MessageAccidentalOverdose>{0} has accidentally overdosed while consuming {1}!</MessageAccidentalOverdose>
+  <MessageAccidentalOverdose>{0} 一不小心用了过量的 {1}!</MessageAccidentalOverdose>
 
   <MessageCaravanArrivedAtDestination>{0}已经到达了目的地。</MessageCaravanArrivedAtDestination>
 
@@ -157,13 +157,13 @@
 
   <MessageCaravanEnteredWorldObject>{0}已经到达了{1}。</MessageCaravanEnteredWorldObject>
 
-  <MessagePawnLeftMapAndCreatedCaravan>{0} has left the area and formed a caravan.</MessagePawnLeftMapAndCreatedCaravan>
+  <MessagePawnLeftMapAndCreatedCaravan>{0} 已经离开了这个区域并组建了远行队</MessagePawnLeftMapAndCreatedCaravan>
 
-  <MessageSettledInExistingMap>You have successfully settled in a new area.</MessageSettledInExistingMap>
+  <MessageSettledInExistingMap>成功殖民在了新区域。</MessageSettledInExistingMap>
 
-  <MessageAmbushVictory>Victory! You have {0} hours to collect items before your colonists reform the caravan.</MessageAmbushVictory>
+  <MessageAmbushVictory>胜利了！ 在你的殖民者重组远行队之前，你有 {0} 小时来收集物品。</MessageAmbushVictory>
 
-  <MessageAutomaticallyReformedCaravan>Your colonists have reformed the caravan.</MessageAutomaticallyReformedCaravan>
+  <MessageAutomaticallyReformedCaravan>你的殖民者已经重组了远行队。</MessageAutomaticallyReformedCaravan>
 
   <MessageOldWoundHealed>由于{0}, {1}的{2}已经痊愈了。</MessageOldWoundHealed>
 
@@ -199,10 +199,12 @@
 
   <MessageSlaughteringBondedAnimal>由于他们的羁绊，屠宰{0}会使{1}不高兴。</MessageSlaughteringBondedAnimal>
 
-  <MessageCaravanRunOutOfFood>{0} has run out of food ({1}).</MessageCaravanRunOutOfFood>
+  <MessageCaravanRunOutOfFood>{0} 的食物已经吃完了 ({1}).</MessageCaravanRunOutOfFood>
 
-  <MessageSelectOwnBaseToFormCaravan>To form a caravan, select your own colony or a site where you have people.</MessageSelectOwnBaseToFormCaravan>
+  <MessageSelectOwnBaseToFormCaravan>如要组建远行队，请选择你自己的殖民地或留有你的殖民者的地点。</MessageSelectOwnBaseToFormCaravan>
 
   <MessageScreenResTooSmallForUIScale>在当前的分辨率和界面大小下， 游戏界面将不能正常在屏幕上显示。请减小界面比例或者增大分辨率。</MessageScreenResTooSmallForUIScale>
+
+</LanguageData>
 
 </LanguageData>
