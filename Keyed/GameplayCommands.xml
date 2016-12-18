@@ -1,8 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <CommandForbiddenDesc>已禁用\n殖民者不会和该物品互动。</CommandForbiddenDesc>
-  <CommandNotForbiddenDesc>未禁用\n殖民者会和该物品互动。</CommandNotForbiddenDesc>
+  <!-- Forbid -->
+  <CommandForbid>禁止</CommandForbid>
+  <CommandForbiddenDesc>已禁止\n殖民者不会与该物品互动。</CommandForbiddenDesc>
+  <CommandNotForbiddenDesc>未禁止\n殖民者会与该物品互动。</CommandNotForbiddenDesc>
 
   <!-- Power -->
   <CommandTogglePowerLabel>开关电源</CommandTogglePowerLabel>
@@ -24,6 +26,9 @@
   <CommandUndraftLabel>解散</CommandUndraftLabel>
   <CommandToggleDraftDesc>切换征召状态。\n\n被征召的人会遵守命令并战斗。解散前他们不会工作，吃饭或着休息。</CommandToggleDraftDesc>
   <IsIncapped>{0}无法行动。</IsIncapped>
+
+  <CommandAllowFiringLabel>允许开火</CommandAllowFiringLabel>
+  <CommandAllowFiringDesc>切换是否允许自行开火。\n\n此选项禁用时，角色不会自动使用远程攻击手段，近战格斗不受影响。</CommandAllowFiringDesc>
 
   <CommandClearPrioritizedWork>清除优先任务</CommandClearPrioritizedWork>
   <CommandClearPrioritizedWorkDesc>清除任何你指定的优先任务。该角色将根据自身工作优先度自行选择工作。</CommandClearPrioritizedWorkDesc>
@@ -73,7 +78,7 @@
 
   <!-- Artillery -->
   <CommandSetForceAttackTarget>强制攻击</CommandSetForceAttackTarget>
-  <CommandSetForceAttackTargetDesc>选择此炮塔不断尝试强制攻击的目标。</CommandSetForceAttackTargetDesc>
+  <CommandSetForceAttackTargetDesc>将此炮塔设置为持续强制攻击目标。</CommandSetForceAttackTargetDesc>
   <CommandStopForceAttack>停止强制攻击</CommandStopForceAttack>
   <CommandStopForceAttackDesc>停止强制攻击目标并允许此炮塔自由选择目标开火。</CommandStopForceAttackDesc>
   <CommandStopAttackFailNotForceAttacking>当前无强制攻击目标。</CommandStopAttackFailNotForceAttacking>
@@ -141,5 +146,85 @@
   <!-- Build copy -->
   <CommandBuildCopy>复制建筑</CommandBuildCopy>
   <CommandBuildCopyDesc>复制当前的建筑设施。</CommandBuildCopyDesc>
+
+  <!-- Form caravan -->
+  <CommandFormCaravan>组建远行队</CommandFormCaravan>
+  <CommandFormCaravanDesc>将殖民者组成一支队伍，从而可以前往新的区域。殖民者会带着你指定的物资和随行动物，离开当前区域，并等待您的下一步指示。</CommandFormCaravanDesc>
+
+  <!-- Reform caravan -->
+  <CommandReformCaravan>重组远行队</CommandReformCaravan>
+  <CommandReformCaravanDesc>重新组建一支殖民者队伍。殖民者会带着你指定的物资和随行动物，离开当前区域，并等待您的下一步指示。</CommandReformCaravanDesc>
+  <CommandReformCaravanFailHostilePawns>此地区内尚有敌人存在。</CommandReformCaravanFailHostilePawns>
+
+  <!-- Split caravan -->
+  <CommandSplitCaravan>分割</CommandSplitCaravan>
+  <CommandSplitCaravanDesc>将远行队一分为二，随后当远行队接近时会自动合并。</CommandSplitCaravanDesc>
+
+  <!-- Merge caravan -->
+  <CommandMergeCaravans>合并</CommandMergeCaravans>
+  <CommandMergeCaravansDesc>合并选中的远行队。</CommandMergeCaravansDesc>
+
+  <!-- Settle -->
+  <CommandSettle>定居</CommandSettle>
+  <CommandSettleDesc>在这一区域定居，你的殖民者将会进入此区域并建立新的家园。</CommandSettleDesc>
+  <CommandSettleFailOtherWorldObjectsHere>仅在此单元格区域内只有你的远行队存在的情况下才能够在这里定居。</CommandSettleFailOtherWorldObjectsHere>
+  <CommandSettleFailAlreadyHaveBase>您的派系只能拥有一个基地</CommandSettleFailAlreadyHaveBase>
+  <CommandSettleFailReachedMaximumNumberOfBases>殖民地数量已达上限。</CommandSettleFailReachedMaximumNumberOfBases>
+
+  <!-- Abandon home -->
+  <CommandAbandonHome>遗弃</CommandAbandonHome>
+  <CommandAbandonHomeDesc>将这一区域遗弃。遗弃之后该区域将不可访问，您将永远无法重新回到这里。放弃您的家园后，您可以为您的远行队指定一个新的区域定居。</CommandAbandonHomeDesc>
+  <CommandAbandonHomeFailAllColonistsThere>你的所有殖民者还留在那里。</CommandAbandonHomeFailAllColonistsThere>
+
+  <!-- Cancel forming caravan -->
+  <CommandCancelFormingCaravan>取消组建远行队</CommandCancelFormingCaravan>
+  <CommandCancelFormingCaravanDesc>终止组建远行队。</CommandCancelFormingCaravanDesc>
+
+  <!-- Show map -->
+  <CommandShowMap>放大</CommandShowMap>
+  <CommandShowMapDesc>放大至该区域。</CommandShowMapDesc>
+
+  <!-- Trade -->
+  <CommandTrade>贸易</CommandTrade>
+  <CommandTradeDesc>与此派系进行贸易。</CommandTradeDesc>
+  <CommandTradeFailNoNegotiator>缺少意识清醒、非伤残的谈判代表。</CommandTradeFailNoNegotiator>
+
+  <!-- Take off -->
+  <CommandTakeOff>起飞</CommandTakeOff>
+  <CommandTakeOffDesc>登船并逃离这颗星球。</CommandTakeOffDesc>
+  <CommandTakeOffConfirmation>你确定要发射飞船吗？\n\n该区域内的人将逃离这颗星球，其他区域的将会被留下。</CommandTakeOffConfirmation>
+
+  <!-- Set target fuel level -->
+  <CommandSetTargetFuelLevel>设置目标燃料量</CommandSetTargetFuelLevel>
+  <CommandSetTargetFuelLevelDesc>指定该目标的燃料量。殖民者会尝试为其加注燃料直到达到目标燃料量。</CommandSetTargetFuelLevelDesc>
+
+  <!-- Cancel load -->
+  <CommandCancelLoad>取消装载</CommandCancelLoad>
+  <CommandCancelLoadDesc>取消当前人员或物品的装载任务，并弹出所有已装载的物品。</CommandCancelLoadDesc>
+
+  <!-- Launch group -->
+  <CommandLaunchGroup>发射运输舱群组</CommandLaunchGroup>
+  <CommandLaunchGroupDesc>初始化用于发射此运输舱组群的标靶程序。下一步为选择目标。运输舱会自动飞向目的地并降落在一起。 </CommandLaunchGroupDesc>
+  <CommandLaunchGroupFailNotConnectedToFuelingPort>本组群中部分运输舱未连接至燃料供给端。</CommandLaunchGroupFailNotConnectedToFuelingPort>
+  <CommandLaunchGroupFailNoFuel>本组群中部分运输舱发射器缺少燃料。</CommandLaunchGroupFailNoFuel>
+  <CommandLaunchGroupFailUnderRoof>部分运输舱发射器处于屋顶下。</CommandLaunchGroupFailUnderRoof>
+
+  <!-- Load transporter -->
+  <CommandLoadTransporter>装载发射组群：{0}</CommandLoadTransporter>
+  <CommandLoadTransporterDesc>将选中的运输舱定义为一个发射组群。打开装载对话框来决定将什么装载于内。</CommandLoadTransporterDesc>
+  <CommandLoadTransporterFailNotConnectedToFuelingPort>运输舱未连接到燃料供给端。</CommandLoadTransporterFailNotConnectedToFuelingPort>
+  <CommandLoadTransporterFailNoFuel>运输舱发射器缺少燃料。</CommandLoadTransporterFailNoFuel>
+
+  <!-- Select previous transporter -->
+  <CommandSelectPreviousTransporter>选择前一个运输舱</CommandSelectPreviousTransporter>
+  <CommandSelectPreviousTransporterDesc>选择本组群中的前一个运输舱。</CommandSelectPreviousTransporterDesc>
+
+  <!-- Select all transporters -->
+  <CommandSelectAllTransporters>选择发射组群</CommandSelectAllTransporters>
+  <CommandSelectAllTransportersDesc>选择本发射组内的所有运输舱。</CommandSelectAllTransportersDesc>
+
+  <!-- Select next transporter -->
+  <CommandSelectNextTransporter>选择下一个运输舱</CommandSelectNextTransporter>
+  <CommandSelectNextTransporterDesc>选择本组群中的下一个运输舱。</CommandSelectNextTransporterDesc>
 
 </LanguageData>

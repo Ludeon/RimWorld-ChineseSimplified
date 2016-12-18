@@ -4,9 +4,13 @@
   <MaxHitPoints.label>耐久度上限</MaxHitPoints.label>
   <MaxHitPoints.description>一个物品的最大生命值。意味着在被摧毁之前可以承受多少伤害。</MaxHitPoints.description>
 
+  <Mass.label>质量</Mass.label>
+  <Mass.description>一个物体的物理质量。</Mass.description>
+  <Mass.formatString>{0} 千克</Mass.formatString>
+
   <MarketValue.label>市场价值</MarketValue.label>
   <MarketValue.description>一个物品的市场价值。实际价格会受到派系关系和谈判技能的影响。</MarketValue.description>
-  <MarketValue.formatString>${0}</MarketValue.formatString>
+  <MarketValue.formatString>￥{0}</MarketValue.formatString>
 
   <SellPriceFactor.label>出售价格系数</SellPriceFactor.label>
   <SellPriceFactor.description>你出售该物品时的价格系数。</SellPriceFactor.description>
@@ -14,12 +18,15 @@
   <Flammability.label>易燃性</Flammability.label>
   <Flammability.description>一个物品被点燃的几率和燃烧的规模。</Flammability.description>
 
-  <WorkToMake.label>工作量</WorkToMake.label>
-  <WorkToMake.description>所有材料和工具齐全后建造这个物品需要的工作量。</WorkToMake.description>
+  <WorkToMake.label>工作量（制作）</WorkToMake.label>
+  <WorkToMake.description>所有材料和工具齐全后制作这个物品所需要的工作量。</WorkToMake.description>
+
+  <WorkToBuild.label>工作量（建造）</WorkToBuild.label>
+  <WorkToBuild.description>所有材料和工具齐全后建造这个建筑所需要的工作量。</WorkToBuild.description>
 
   <DeteriorationRate.label>老化率</DeteriorationRate.label>
   <DeteriorationRate.description>放在室外物品的老化率，尤其是下雨天。</DeteriorationRate.description>
-  <DeteriorationRate.formatString>{0}/天</DeteriorationRate.formatString>
+  <DeteriorationRate.formatString>{0} / 天</DeteriorationRate.formatString>
 
   <Beauty.label>美观度</Beauty.label>
   <Beauty.description>一个物品放在周围时给人视觉上的愉悦程度。</Beauty.description>

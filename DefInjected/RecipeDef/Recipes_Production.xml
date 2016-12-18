@@ -1,21 +1,33 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <MakeStoneBlocks.label>制作石块</MakeStoneBlocks.label>
-  <MakeStoneBlocks.description>把石头切割成有用的石块。</MakeStoneBlocks.description>
-  <MakeStoneBlocks.jobString>正在切石头。</MakeStoneBlocks.jobString>
+  <MakeStoneBlocksAny.label>制作石块（任意）</MakeStoneBlocksAny.label>
+  <MakeStoneBlocksAny.description>将岩石堆切割成可用的石块。</MakeStoneBlocksAny.description>
+  <MakeStoneBlocksAny.jobString>正在切割石材。</MakeStoneBlocksAny.jobString>
 
   <ExtractMetalFromSlag.label>熔炼钢渣</ExtractMetalFromSlag.label>
   <ExtractMetalFromSlag.description>用强热和电磁铁从钢渣中提炼出有用的金属。</ExtractMetalFromSlag.description>
   <ExtractMetalFromSlag.jobString>正在熔炼钢渣。</ExtractMetalFromSlag.jobString>
 
   <SmeltWeapon.label>熔炼武器</SmeltWeapon.label>
-  <SmeltWeapon.description>用强热和电磁铁从武器中提炼出有用的金属。</SmeltWeapon.description>
+  <SmeltWeapon.description>用强热和电磁铁将武器分解成有用的金属。</SmeltWeapon.description>
   <SmeltWeapon.jobString>正在熔炼武器。</SmeltWeapon.jobString>
 
-  <MakeArtilleryShell.label>制造炮弹</MakeArtilleryShell.label>
-  <MakeArtilleryShell.description>制造炮弹。</MakeArtilleryShell.description>
-  <MakeArtilleryShell.jobString>正在制造炮弹。</MakeArtilleryShell.jobString>
+  <DestroyWeapon.label>销毁武器</DestroyWeapon.label>
+  <DestroyWeapon.description>用强热销毁不想要的武器。比熔炼快，用于不可熔炼的物品，但不产出资源。</DestroyWeapon.description>
+  <DestroyWeapon.jobString>制作销毁武器。</DestroyWeapon.jobString>
+
+  <MakeMortarShell.label>制作迫击炮炮弹</MakeMortarShell.label>
+  <MakeMortarShell.description>手工制作迫击炮炮弹。</MakeMortarShell.description>
+  <MakeMortarShell.jobString>制作制作迫击炮炮弹。</MakeMortarShell.jobString>
+
+  <MakeChemfuelFromWood.label>用木材制作化合燃料</MakeChemfuelFromWood.label>
+  <MakeChemfuelFromWood.description>通过气化原木以制作一组化合燃料。</MakeChemfuelFromWood.description>
+  <MakeChemfuelFromWood.jobString>正在从木材中提炼化合燃料。</MakeChemfuelFromWood.jobString>
+
+  <MakeChemfuelFromOrganics.label>用有机物制作化合燃料</MakeChemfuelFromOrganics.label>
+  <MakeChemfuelFromOrganics.description>通过从有机原料中提取生物燃料以制作一组化合燃料。</MakeChemfuelFromOrganics.description>
+  <MakeChemfuelFromOrganics.jobString>正在从有机物中提炼化合燃料。</MakeChemfuelFromOrganics.jobString>
 
   <MakeComponent.label>制造零部件</MakeComponent.label>
   <MakeComponent.description>制造部件零部件。</MakeComponent.description>
