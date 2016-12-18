@@ -78,12 +78,12 @@
 
   <!-- Artillery -->
   <CommandSetForceAttackTarget>强制攻击</CommandSetForceAttackTarget>
-  <CommandSetForceAttackTargetDesc>选择此炮塔不断尝试强制攻击的目标。</CommandSetForceAttackTargetDesc>
+  <CommandSetForceAttackTargetDesc>命令此炮塔持续强制攻击目标。</CommandSetForceAttackTargetDesc>
   <CommandStopForceAttack>停止强制攻击</CommandStopForceAttack>
   <CommandStopForceAttackDesc>停止强制攻击目标并允许此炮塔自由选择目标开火。</CommandStopForceAttackDesc>
   <CommandStopAttackFailNotForceAttacking>当前无强制攻击目标。</CommandStopAttackFailNotForceAttacking>
-  <MessageTargetBeyondMaximumRange>目标距离大于最大射程。</MessageTargetBeyondMaximumRange>
-  <MessageTargetBelowMinimumRange>目标距离小于最小射程。</MessageTargetBelowMinimumRange>
+  <MessageTargetBeyondMaximumRange>目标位于最大射程外。</MessageTargetBeyondMaximumRange>
+  <MessageTargetBelowMinimumRange>目标位于最小射程内。</MessageTargetBelowMinimumRange>
 
   <!-- Ship computer core -->
   <CommandShipLaunch>发射飞船</CommandShipLaunch>
@@ -99,7 +99,7 @@
   <!-- Door -->
   <CommandToggleDoorForbid>允许通行</CommandToggleDoorForbid>
   <CommandToggleDoorForbidDesc>此门的通行状态。殖民者不会通过禁止通行的门，但不影响其他派系的人。</CommandToggleDoorForbidDesc>
-  <CommandToggleDoorHoldOpen>保持敞门</CommandToggleDoorHoldOpen>
+  <CommandToggleDoorHoldOpen>保持门敞开</CommandToggleDoorHoldOpen>
   <CommandToggleDoorHoldOpenDesc>启用时，殖民者将不会关闭这道门，并保持一直敞开的状态。\n\n门敞开时任何人或动物都能通过，包括敌人。</CommandToggleDoorHoldOpenDesc>
 
   <!-- Temperature control -->
@@ -112,7 +112,7 @@
   <CommandInstall>安装</CommandInstall>
   <CommandInstallDesc>该物品已被打包以便于运输与贮藏，使用该指令可将物品安装于指定地点。</CommandInstallDesc>
   <CommandReinstall>重新安装</CommandReinstall>
-  <CommandReinstallDesc>指定将此物品卸载，并重新安装在其他地方。</CommandReinstallDesc>
+  <CommandReinstallDesc>将此物品打包卸载，并重新安装在其他地方。</CommandReinstallDesc>
 
   <!-- Trade beacon -->
   <CommandMakeBeaconStockpileDesc>在轨道交易信标有效半径范围内创建一个储存区。</CommandMakeBeaconStockpileDesc>
@@ -124,7 +124,7 @@
 
   <!-- Trap -->
   <CommandAutoRearm>自动重置</CommandAutoRearm>
-  <CommandAutoRearmDesc>启用时，该陷阱会在触发后自动被指派重置工作。</CommandAutoRearmDesc>
+  <CommandAutoRearmDesc>启用时，该陷阱会在触发后自动申请重置。</CommandAutoRearmDesc>
 
   <!-- Animal control -->
   <CommandReleaseAnimalsLabel>出击</CommandReleaseAnimalsLabel>
@@ -200,7 +200,7 @@
 
   <!-- Cancel load -->
   <CommandCancelLoad>取消装载</CommandCancelLoad>
-  <CommandCancelLoadDesc>取消向其装在人员或物品，并将之前已装在的物品清出。</CommandCancelLoadDesc>
+  <CommandCancelLoadDesc>取消当前人员或物品装载作业，并将之前已装载的物品清出。</CommandCancelLoadDesc>
 
   <!-- Launch group -->
   <CommandLaunchGroup>发射运输舱</CommandLaunchGroup>
