@@ -14,19 +14,19 @@
 
   <OutOfRange>超出射程</OutOfRange>
   <CannotHitTarget>无法击中目标</CannotHitTarget>
-  <IsIncapableOfViolenceLower>{0}无法行使暴力</IsIncapableOfViolenceLower>
+  <IsIncapableOfViolenceLower>{0}无暴力能力</IsIncapableOfViolenceLower>
   <IsNotDraftedLower>{0}尚未被征召</IsNotDraftedLower>
   <CannotOrderNonControlledLower>无法命令非控制单位</CannotOrderNonControlledLower>
 
   <OrderManThing>操纵{0}</OrderManThing>
 
   <MeleeAttack>近身攻击{0}</MeleeAttack>
-  <MeleeAttackToDeath>近身攻击直到杀死{0}</MeleeAttackToDeath>
+  <MeleeAttackToDeath>近身攻击杀死{0}</MeleeAttackToDeath>
   <NoPath>没有路径</NoPath>
 
   <ForbiddenLower>已禁用</ForbiddenLower>
   <ForbiddenOutsideAllowedAreaLower>位于活动区外</ForbiddenOutsideAllowedAreaLower>
-  <NotInHomeArea>位于居住区外</NotInHomeArea>
+  <NotInHomeArea>not in home area</NotInHomeArea>
   <SociallyImproperLower>不礼貌</SociallyImproperLower>
   <PrisonerRoomLower>囚犯房间</PrisonerRoomLower>
   <BurningLower>燃烧中</BurningLower>
@@ -68,7 +68,7 @@
   <Reserved>已预留给其他人。</Reserved>
   <ReservedBy>已预留给{0}。</ReservedBy>
   <IsReservedBy>{0}已被预留给{1}。</IsReservedBy>
-  <TooHeavy>太重</TooHeavy>
+  <TooHeavy>Too heavy</TooHeavy>
 
   <Incapable>无法胜任</Incapable>
   <IncapableOfCapacity>无法胜任{0}</IncapableOfCapacity>
@@ -142,8 +142,8 @@
   <!-- e.g. Prioritize GERUND OBJECT, Prioritize repairing wall, prioritize hauling metal, etc-->
   <PrioritizeGeneric>优先{0}{1}</PrioritizeGeneric>
 
-  <DropAtEdge>Drop at edge</DropAtEdge>
-  <DropInCenter>Drop in center</DropInCenter>
+  <DropAtEdge>掉落在边缘</DropAtEdge>
+  <DropInCenter>掉落在中心</DropInCenter>
 
   <!--<Deposit>将{0}放置到{1}</Deposit>-->
   <!--<CannotDeposit>无法将{0}放置到{1}</CannotDeposit>-->
