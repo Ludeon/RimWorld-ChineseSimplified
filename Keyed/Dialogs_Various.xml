@@ -27,7 +27,7 @@
   <ModWithAssemblyWasUnloaded>游戏无法从已禁用的Mod中完全卸载被修改的代码，因此被禁用的Mod可能依然会生效。\n\n我们推荐您退出并重启游戏，以正确的载入Mod。</ModWithAssemblyWasUnloaded>
 
   <!-- Missing Steam -->
-  <SteamClientMissing>无法初始化Steam API。可能原因：\n\nSteam未运行。\n在Steam之外启动，且无法载入steam_appid.txt。\n通过和Steam客户端不同的权限启动（比如「管理员身份」）。\n\n在大部分时候，重启你的电脑即可解决这个问题。\n\n你可以继续游戏，但Steam统计信息将不会被记录，且Steam特性将不会生效。</SteamClientMissing>
+  <SteamClientMissing>无法初始化Steam API。可能原因：\n\n- Steam未运行。\n- 在Steam之外启动，且无法载入steam_appid.txt。\n- 通过和Steam客户端不同的权限启动（比如「管理员身份」）。\n\n在大部分时候，重启你的电脑即可解决这个问题。\n\n你可以继续游戏，但Steam统计信息将不会被记录，且Steam特性将不会生效。</SteamClientMissing>
 
   <!-- Long events -->
   <InitializingInterface>初始化界面</InitializingInterface>
