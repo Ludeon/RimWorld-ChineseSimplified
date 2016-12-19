@@ -8,7 +8,7 @@
   <!-- Game updated to new version -->
   <GameUpdatedToNewVersionInitial>Rimworld已从版本{0}升级至{1}。\n\n升级可能会导致旧存档及Mod无法读取及使用。</GameUpdatedToNewVersionInitial>
   <GameUpdatedToNewVersionNonSteam>因为您的游戏为免DRM版，您可以选择在不同的文件夹下安装新版本，因此可以同时玩旧版和新版。</GameUpdatedToNewVersionNonSteam>
-  <GameUpdatedToNewVersionSteam>您可以在STEAM的「beta」选项中选择使用旧版进行游戏。\n\n  1. 在STEAM游戏库中右击RimWorld.\n  2. 点击「属性」\n  3. 选择「Beta」标签\n  4. 在下拉菜单中选择你想进行游戏的版本。\n\n旧版本最终会被从列表移除，该选项只是用于让您完成未完成的游戏。\n\n注意：如果Mod作者升级了Mod有可能导致它无法在旧版本中运行，您可以通过禁止自动更新来避免这一问题。</GameUpdatedToNewVersionSteam>
+  <GameUpdatedToNewVersionSteam>您可以在Steam的「beta」选项中选择使用旧版进行游戏。\n\n  1. 在Steam游戏库中右击RimWorld.\n  2. 点击「属性」\n  3. 选择「测试」标签\n  4. 在下拉菜单中选择你想进行游戏的版本。\n\n旧版本最终会被从列表移除，该选项只是用于让您完成未完成的游戏。\n\n注意：如果Mod作者升级了Mod有可能导致它无法在旧版本中运行，您可以通过禁止自动更新来避免这一问题。</GameUpdatedToNewVersionSteam>
 
   <!-- Recovered from errors caused by mods -->
   <RecoveredFromErrorsDialogTitle>从不兼容或损坏的ModS错误中恢复</RecoveredFromErrorsDialogTitle>
@@ -27,7 +27,7 @@
   <ModWithAssemblyWasUnloaded>游戏无法从已禁用的Mod中完全卸载被修改的代码，因此被禁用的Mod可能依然会生效。\n\n我们推荐您退出并重启游戏，以正确的载入Mod。</ModWithAssemblyWasUnloaded>
 
   <!-- Missing Steam -->
-  <SteamClientMissing>无法初始化Steam API。可能原因：\n\nSteam未运行。\n在Steam之外启动，且无法载入steam_appid.txt。\n通过和Steam客户端不同的权限启动（比如「管理员身份」）。\n\n在大部分时候，重启你的电脑即可解决这个问题。\n\n游戏本版本需要Steam才可运行，现在将会退出。</SteamClientMissing>
+  <SteamClientMissing>无法初始化Steam API。可能原因：\n\n- Steam未运行。\n- 在Steam之外启动，且无法载入steam_appid.txt。\n- 通过和Steam客户端不同的权限启动（比如「管理员身份」）。\n\n在大部分时候，重启你的电脑即可解决这个问题。\n\n你可以继续游戏，但Steam统计信息将不会被记录，且Steam特性将不会生效。</SteamClientMissing>
 
   <!-- Long events -->
   <InitializingInterface>初始化界面</InitializingInterface>
@@ -61,7 +61,7 @@
   <LoadAnyway>仍然载入</LoadAnyway>
 
   <!-- Player faction naming -->
-  <NamePlayerFactionMessage>{0}觉得你应给给你的派系取一个名字。它叫什么比较好？</NamePlayerFactionMessage>
+  <NamePlayerFactionMessage>{0}觉得你应该给你的派系取一个名字。它叫什么比较好？</NamePlayerFactionMessage>
   <PlayerFactionGainsName>你的派系现在被命名为{0}.</PlayerFactionGainsName>
   <PlayerFactionNameIsInvalid>这个派系名称无效。</PlayerFactionNameIsInvalid>
 
@@ -72,7 +72,7 @@
 
   <!-- Player faction and faction base naming -->
   <NamePlayerFactionBaseMessage_NameFactionContinuation>看起来你可能得在这里待上好一阵子了，{0}也觉得你应该给这个社区起个名字。它叫什么比较好？</NamePlayerFactionBaseMessage_NameFactionContinuation>
-  <PlayerFactionAndBaseGainsName>你的派系现在被叫做{0}，这个社区现在被命名为{1}。</PlayerFactionAndBaseGainsName>
+  <PlayerFactionAndBaseGainsName>你的派系名为{0}，这个社区现在被命名为{1}。</PlayerFactionAndBaseGainsName>
 
   <!-- Renaming -->
   <NameIsInvalid>请输入一个有效的名称。</NameIsInvalid>
@@ -193,6 +193,8 @@
   <TimeRecordsCategory>时间</TimeRecordsCategory>
   <MiscRecordsCategory>杂项</MiscRecordsCategory>
   <Addictiveness>成瘾性</Addictiveness>
+  <PackAnimal>驮运动物</PackAnimal>
+  <PackAnimalExplanation>无论这种动物是否适合在远行队中用于长途运输物品。</PackAnimalExplanation>
 
   <!-- Trade -->
   <PositiveBuysNegativeSells>正数购买\n负数出售</PositiveBuysNegativeSells>
@@ -214,69 +216,69 @@
   <ConfirmTraderShortFunds>贸易商没有足够的白银支付这次交易，继续么？</ConfirmTraderShortFunds>
   <SortBy>排序方式</SortBy>
   <TraderTypePrice>贸易商类型</TraderTypePrice>
-  <Selling>selling</Selling>
-  <Buying>buying</Buying>
-  <ItemSellPriceFactor>item sell price multiplier</ItemSellPriceFactor>
-  <DifficultyLevel>difficulty level</DifficultyLevel>
-  <PostCurve>global post-process curve</PostCurve>
-  <YourNegotiatorBonus>Your negotiator bonus</YourNegotiatorBonus>
-  <TradeWithFactionBaseBonus>Trading with faction base bonus</TradeWithFactionBaseBonus>
-  <minimum>minimum</minimum>
-  <FinalPrice>Final price</FinalPrice>
-  <TradeMassUsageTooltip>The resulting mass usage and mass capacity.</TradeMassUsageTooltip>
+  <Selling>出售</Selling>
+  <Buying>购买</Buying>
+  <ItemSellPriceFactor>物品售价系数</ItemSellPriceFactor>
+  <DifficultyLevel>难度</DifficultyLevel>
+  <PostCurve>全局后处理曲线</PostCurve>
+  <YourNegotiatorBonus>你的谈判者加成</YourNegotiatorBonus>
+  <TradeWithFactionBaseBonus>与派系基地交易加成</TradeWithFactionBaseBonus>
+  <minimum>最小值</minimum>
+  <FinalPrice>最终价格</FinalPrice>
+  <TradeMassUsageTooltip>最终载重占用与载重能力</TradeMassUsageTooltip>
 
   <!-- Form caravan -->
-  <FormCaravan>Form caravan</FormCaravan>
-  <FormCaravanColonyThingCountTip>How many of this item the colony has ready to give to the caravan.</FormCaravanColonyThingCountTip>
-  <PawnsTab>People and animals</PawnsTab>
-  <ItemsTab>Items</ItemsTab>
-  <CaravanConfigTab>Config</CaravanConfigTab>
-  <CaravanMustHaveAtLeastOneColonist>You must assign at least one non-downed colonist.</CaravanMustHaveAtLeastOneColonist>
-  <CaravanCouldNotFindExitSpot>Could not find any valid exit location.</CaravanCouldNotFindExitSpot>
-  <CaravanCouldNotFindReachableExitSpot>Warning: some of the assigned colonists are unable to reach the exit location.</CaravanCouldNotFindReachableExitSpot>
-  <CaravanPawnIsUnreachable>{0} is unreachable by any of the assigned colonists.</CaravanPawnIsUnreachable>
-  <CaravanItemIsUnreachableSingle>None of the assigned colonists are able to reach the {0}.</CaravanItemIsUnreachableSingle>
-  <CaravanItemIsUnreachableMulti>None of the assigned colonists are able to reach {0}x {1}.</CaravanItemIsUnreachableMulti>
-  <TooBigCaravanMassUsage>The caravan is not able to carry that much.</TooBigCaravanMassUsage>
-  <CaravanMassUsageTooltip>Current mass usage and mass capacity.\n\nMass usage includes the assigned caravan supplies as well as the colonists' current equipment.\n\nYou will not be able to send the caravan if the mass usage exceedes capacity.</CaravanMassUsageTooltip>
+  <FormCaravan>组建远行队</FormCaravan>
+  <FormCaravanColonyThingCountTip>殖民者能为远行队配备多少此种物品。</FormCaravanColonyThingCountTip>
+  <PawnsTab>人和动物</PawnsTab>
+  <ItemsTab>物品</ItemsTab>
+  <CaravanConfigTab>设置</CaravanConfigTab>
+  <CaravanMustHaveAtLeastOneColonist>必须指派至少一位可行动的殖民者。</CaravanMustHaveAtLeastOneColonist>
+  <CaravanCouldNotFindExitSpot>找不到可离开位置。</CaravanCouldNotFindExitSpot>
+  <CaravanCouldNotFindReachableExitSpot>警告：部分被指派的殖民者无法到达离开位置。</CaravanCouldNotFindReachableExitSpot>
+  <CaravanPawnIsUnreachable>对于所有被指派的殖民者，{0}是无法到达的。</CaravanPawnIsUnreachable>
+  <CaravanItemIsUnreachableSingle>所有被指派的殖民者均无法到达{0}所在位置。</CaravanItemIsUnreachableSingle>
+  <CaravanItemIsUnreachableMulti>所有被指派的殖民者均无法到达{1}x{0}所在位置。</CaravanItemIsUnreachableMulti>
+  <TooBigCaravanMassUsage>远行队无法携带这么多物品。</TooBigCaravanMassUsage>
+  <CaravanMassUsageTooltip>当前载重占用与载重能力。\n\n载重占用包括指派的远行队物资以及殖民者当前的装备。\n\n如果占用超过载重能力，你的远行队将无发出发。</CaravanMassUsageTooltip>
   <MassUsageInfo>{0} / {1} kg</MassUsageInfo>
-  <DaysWorthOfFoodInfo>{0} days worth of food</DaysWorthOfFoodInfo>
-  <InfiniteDaysWorthOfFoodInfo>Will never run out of food</InfiniteDaysWorthOfFoodInfo>
-  <DaysWorthOfFoodTooltip>An approximate number of days before the caravan runs out of food.\n\nThis takes into account both human and animal food, and shows the worst case scenario. This means that after this many days, at least one person or animal will be out of food.</DaysWorthOfFoodTooltip>
-  <DaysWorthOfFoodWarningDialog>Your caravan only has {0} days worth of food and will become hungry very quickly.\n\nAre you sure you want to form this caravan?</DaysWorthOfFoodWarningDialog>
-  <DaysWorthOfFoodWarningDialog_NoFood>Your caravan has no food and will become hungry very quickly.\n\nAre you sure you want to form this caravan?</DaysWorthOfFoodWarningDialog_NoFood>
-  <NoExitDirectionForCaravanChosen>You must choose an exit direction for the caravan.</NoExitDirectionForCaravanChosen>
-  <NoCaravanExitDirectionAvailable>(no exit direction available)</NoCaravanExitDirectionAvailable>
-  <ExitDirection>Exit direction</ExitDirection>
-  <ExitDirectionRadioButtonLabel>{0} ({1} {2})</ExitDirectionRadioButtonLabel>
-  <ItemWeightTip>Weight of this item.</ItemWeightTip>
-  <MarketValueTip>Market value</MarketValueTip>
-  <MassCapacity>Mass capacity</MassCapacity>
-  <Mass>Mass</Mass>
-  <EquipmentAndApparelMass>Equipment and apparel mass</EquipmentAndApparelMass>
-  <InventoryMass>Inventory mass</InventoryMass>
-  <CaravanFormationProcessStarted>Your colonists will now take the assigned items and leave the area as soon as possible.</CaravanFormationProcessStarted>
-  <ReformCaravan>Reform caravan</ReformCaravan>
-  <ColonistsSection>Colonists</ColonistsSection>
-  <PrisonersSection>Prisoners</PrisonersSection>
-  <AnimalsSection>Animals</AnimalsSection>
+  <DaysWorthOfFoodInfo>{0} 天食物量</DaysWorthOfFoodInfo>
+  <InfiniteDaysWorthOfFoodInfo>食物永远不会耗尽</InfiniteDaysWorthOfFoodInfo>
+  <DaysWorthOfFoodTooltip>远行队所携带的食物预计可以维持的天数。\n\n计算包括人类和动物的食物，并考虑最坏的情况。 这表示这么多天后，至少有一个动物或人将会没有食物。</DaysWorthOfFoodTooltip>
+  <DaysWorthOfFoodWarningDialog>你的远行队只带了{0}天的食物，很快便会出现饥饿情况。。\n\n确定要组建这支远行队吗？</DaysWorthOfFoodWarningDialog>
+  <DaysWorthOfFoodWarningDialog_NoFood>你的远行队没有携带任何食物，很快便会出现饥饿情况。\n\n确定要组建这支远行队吗？</DaysWorthOfFoodWarningDialog_NoFood>
+  <NoExitDirectionForCaravanChosen>你必须为远行队选择一个离开的方向。</NoExitDirectionForCaravanChosen>
+  <NoCaravanExitDirectionAvailable>(没有可用的离开方向)</NoCaravanExitDirectionAvailable>
+  <ExitDirection>离开方向</ExitDirection>
+  <ExitDirectionRadioButtonLabel>{0}（{1}，{2}）</ExitDirectionRadioButtonLabel>
+  <ItemWeightTip>此物品的重量</ItemWeightTip>
+  <MarketValueTip>市场价值</MarketValueTip>
+  <MassCapacity>载重能力</MassCapacity>
+  <Mass>重量</Mass>
+  <EquipmentAndApparelMass>装备和衣物重量</EquipmentAndApparelMass>
+  <InventoryMass>货物重量</InventoryMass>
+  <CaravanFormationProcessStarted>你的殖民者现在会带上你指定的物品并尽快离开该区域。</CaravanFormationProcessStarted>
+  <ReformCaravan>重组远行队</ReformCaravan>
+  <ColonistsSection>殖民者</ColonistsSection>
+  <PrisonersSection>囚犯</PrisonersSection>
+  <AnimalsSection>动物</AnimalsSection>
 
   <!-- Split caravan -->
-  <SplitCaravan>Split caravan</SplitCaravan>
-  <SourceCaravanMustHaveAtLeastOneColonist>You must leave at least one non-downed colonist.</SourceCaravanMustHaveAtLeastOneColonist>
-  <CaravanSplitSourceLabel>Current</CaravanSplitSourceLabel>
-  <CaravanSplitDestLabel>New</CaravanSplitDestLabel>
-  <SplitCaravanThingCountTip>How many of this item the caravan has ready to give to the new caravan.</SplitCaravanThingCountTip>
-  <SplitCaravanMassUsageTooltip>Current mass usage and mass capacity.</SplitCaravanMassUsageTooltip>
+  <SplitCaravan>拆分旅行队</SplitCaravan>
+  <SourceCaravanMustHaveAtLeastOneColonist>必须留下至少一位可行动的殖民者。</SourceCaravanMustHaveAtLeastOneColonist>
+  <CaravanSplitSourceLabel>当前</CaravanSplitSourceLabel>
+  <CaravanSplitDestLabel>新建</CaravanSplitDestLabel>
+  <SplitCaravanThingCountTip>此远行队能为新远行队配备多少此种物品。</SplitCaravanThingCountTip>
+  <SplitCaravanMassUsageTooltip>当前载重占用与载重能力。</SplitCaravanMassUsageTooltip>
 
   <!-- Load transporters -->
-  <LoadTransporters>Load {0}</LoadTransporters>
-  <TooBigTransportersMassUsage>The assigned people and items are too heavy for the transport pods.</TooBigTransportersMassUsage>
-  <CantSendEmptyTransportPods>You can't send empty transport pods.</CantSendEmptyTransportPods>
-  <PawnCantReachTransporters>{0} can't reach the transport pods.</PawnCantReachTransporters>
-  <TransporterItemIsUnreachableSingle>There is no path between the transport pods and the {0}.</TransporterItemIsUnreachableSingle>
-  <TransporterItemIsUnreachableMulti>There is no path between the transport pods and {0}x {1}.</TransporterItemIsUnreachableMulti>
-  <TransportersMassUsageTooltip>Current mass usage and mass capacity.\n\nYou will not be able to send the transport pods if the mass usage exceedes capacity.</TransportersMassUsageTooltip>
+  <LoadTransporters>装载{0}</LoadTransporters>
+  <TooBigTransportersMassUsage>指定的人和物品的重量超过运输舱的最大载重能力。</TooBigTransportersMassUsage>
+  <CantSendEmptyTransportPods>你无法发射空的运输舱。</CantSendEmptyTransportPods>
+  <PawnCantReachTransporters>{0}无法到达到运输舱。</PawnCantReachTransporters>
+  <TransporterItemIsUnreachableSingle>运输舱与{0}之间没有路径。</TransporterItemIsUnreachableSingle>
+  <TransporterItemIsUnreachableMulti>运输舱与{1}x{0}之间没有路径。</TransporterItemIsUnreachableMulti>
+  <TransportersMassUsageTooltip>当前载重占用与载重能力。\n\n如果占用超过载重能力，你的运输舱将无法发射。</TransportersMassUsageTooltip>
 
   <!-- Comms -->
   <SocialSkillIs>社交技能：{0}</SocialSkillIs>
@@ -339,28 +341,19 @@
   <NoGrowerCanPlant>播种{0}最低需要{1}级种植技能。\n\n你没有达到该技能要求的种植者，因此这种植物将不会被播种。</NoGrowerCanPlant>
 
   <!-- Abandon home -->
-  <ConfirmAbandonHomeWithColonyPawns>你的一些殖民者或动物仍然在这个区域里。你确定要废弃它吗？\n\n这些人或动物会被留在这里：\n\n{0}</ConfirmAbandonHomeWithColonyPawns>
+  <ConfirmAbandonHomeWithColonyPawns>你的一些殖民者或动物仍然在这个区域里。你确定要废弃这一区域吗？\n\n这些人或动物会被留在这里：\n\n{0}</ConfirmAbandonHomeWithColonyPawns>
 
   <!-- Move caravan and leave prisoners and animals behind -->
-  <ConfirmLeavePrisonersOrAnimalsBehind>There are still some prisoners or animals left in this area and this is the only caravan they can join at the moment.\n\nIf you move your caravan, they won't be able to leave the area until you are back. The prisoners will start escaping, while the animals will keep waiting for you.\n\nIf you decide to wait, they will try to join your caravan as soon as possible.\n\nAre you sure you want to move your caravan?</ConfirmLeavePrisonersOrAnimalsBehind>
+  <ConfirmLeavePrisonersOrAnimalsBehind>该区域内还有一些囚犯和动物，而且这是他们现在唯一可以加入的远行队。\n\n如果你移动你的远行队，这些囚犯和动物在你回来之前将不能离开这里。 囚犯们会开始逃跑，但是你的动物会等你回来。\n\n如果你决定稍作等待，他们会试着尽快加入你的远行队。\n\n确定要移动远行队吗？</ConfirmLeavePrisonersOrAnimalsBehind>
 
   <!-- Abandon pawn -->
   <ConfirmAbandonPawnDialog>你真的要抛下{0}吗?</ConfirmAbandonPawnDialog>
-  <ConfirmAbandonPawnDialog_LeftToDie>{0}很有可能会死。</ConfirmAbandonPawnDialog_LeftToDie>
-  <ConfirmAbandonPawnDialog_EquipmentAndApparel>{0}将会携带这些物品：</ConfirmAbandonPawnDialog_EquipmentAndApparel>
-  <ConfirmAbandonPawnDialog_AllColonistsThoughts>所有的殖民者将有这些想法：</ConfirmAbandonPawnDialog_AllColonistsThoughts>
+  <ConfirmAbandonPawnDialog_LeftToDie>{0}极可能会死。</ConfirmAbandonPawnDialog_LeftToDie>
+  <ConfirmAbandonPawnDialog_EquipmentAndApparel>{0}将会携带以下物品：</ConfirmAbandonPawnDialog_EquipmentAndApparel>
+  <ConfirmAbandonPawnDialog_AllColonistsThoughts>所有的殖民者将有以下想法：</ConfirmAbandonPawnDialog_AllColonistsThoughts>
   <ConfirmAbandonPawnDialog_IndividualThoughts>抛下{0}将会导致这些人有以下这些想法：</ConfirmAbandonPawnDialog_IndividualThoughts>
 
   <!-- Send transport pods which are not completely loaded -->
-  <ConfirmSendNotCompletelyLoadedPods>Pod group isn’t completely loaded. {0} is missing. Launch anyway?</ConfirmSendNotCompletelyLoadedPods>
-
-  <!--<InitializingMap>初始化地图</InitializingMap>-->
-  <!-- Colony naming-->
-  <!--<NameColonyMessage>看起来你得在这里待上好一阵子了，{0}觉得你应该给这个社区起个名字。\n\n它叫什么比较好？</NameColonyMessage>-->
-  <!--<ColonyGainsName>这个殖民地现在被命名为{0}。</ColonyGainsName>-->
-  <!--<ColonyNameIsInvalid>这个殖民地名称无效。</ColonyNameIsInvalid>-->
-  <!--<SoilFertilitySensitivityGrowthRate>土壤肥沃敏感度（生长速率）</SoilFertilitySensitivityGrowthRate>-->
-  <!--<SoilFertilitySensitivityPlantChance>土壤肥沃敏感度（种植几率）</SoilFertilitySensitivityPlantChance>-->
-  <!--<DrugUsageTipDeny>禁用\n\n精神崩溃或是特定情况下殖民者会无视你的设定。</DrugUsageTipDeny>-->
+  <ConfirmSendNotCompletelyLoadedPods>发射组群并没有满载。 {0} 还未进入运输舱。确定要发射吗？</ConfirmSendNotCompletelyLoadedPods>
 
 </LanguageData>
