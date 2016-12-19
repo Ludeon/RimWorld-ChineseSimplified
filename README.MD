@@ -1,89 +1,60 @@
 
 # RimWorld-ChineseSimplified 边缘世界-简体中文
 
-* [百度贴吧-RimWorld吧](http://tieba.baidu.com/f?kw=rimworld)
-
-* [官方中文Wiki](http://rimworld.huiji.wiki/)
-
-* [下载语言包](https://github.com/Ludeon/RimWorld-ChineseSimplified/releases)
-
-* [查看更新](https://github.com/Ludeon/RimWorld-ChineseSimplified/commits/master)
-
-----
-
-This is the Simplified Chinese translation data for RimWorld.
-
-See this page for license info:
-
+This is the Simplified Chinese translation data for RimWorld.  
+See this page for license info:  
+此为边缘世界（旧译名：环世界）之简体中文翻译。  
+查看此页面以了解许可信息：  
 [http://ludeon.com/forums/index.php?topic=2933.0](http://ludeon.com/forums/index.php?topic=2933.0)
 
 ----
 
-此为边缘世界（旧译名：环世界）之简体中文翻译。
+## Current Version 当前版本 0.16 (Alpha 16)
 
-查看此网页以了解许可信息：
+* 当前项目已更新至A16 - [更新记录](https://github.com/Ludeon/RimWorld-ChineseSimplified/commits/master)
 
-[http://ludeon.com/forums/index.php?topic=2933.0](http://ludeon.com/forums/index.php?topic=2933.0)
-
-----
-
-### Current Version 当前版本
-
-#### Alpha 15 (0.15)
+* A15玩家如需下载对应语言包请前往[Releases页面](https://github.com/Ludeon/RimWorld-ChineseSimplified/releases)
 
 ----
 
-### Official Translators 官方项目翻译人员
+## Official Translators 官方项目翻译人员
 
 * AlyxMS
 * Bigmap
 * cainiaowu
 * duduluu （风之起灵）
 * Kenneth Li （魔都KK）
+* Raisins123 （RSP）
 * SerGawen （加文_维斯特林）
+* weehowe-z
+* Ydada （于大大）
 
 ----
 
+## Special Thanks 特别感谢
 
-### Translation Tools 翻译工具
-
-* Jinngoo
-* duduluu
+* 飞行棺材
 
 ----
 
-### Wiki Administrator 维基搭建
+## Translation Tools 翻译工具
 
-* SerGawen （Supported by huiji.wiki）
-
-----
-
-### How to install 安装方法
-
-*STEAM客户端只会在关键版本更新前同步本汉化项目，期间我们会针对小版本做及时汉化并修正各种问题、优化翻译。因此您也可以在Git上同步我们的最新汉化，操作方法如下：
-
-* 下载汉化包，解压得到 Rimworld-ChineseSimplified-master 文件夹，重命名为 ChineseSimplified
-* 打开文件夹 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Core\Languages
-* 删除原有的 ChineseSimplified 文件夹
-* 将新的 ChineseSimplified 文件夹复制进去
-
-（注：根据你的Steam自定义设置，游戏的安装目录可能不同。）
+* [RimTrans](https://github.com/duduluu/RimTrans)
 
 ----
 
-### Special Thanks 感谢
+## Links 链接
 
-* German Translator 德文翻译人员：Haplo，TheEisbaer
-* Traditional Chinese Translator 繁体中文翻译人员：Wilseanhsu
-* TiebaFriends 吧友：大dc yklovehyy Mrfengshao Luigi_C 飞行棺材 ……等等
+* 官方中文Wiki [RimWorld.huiji.wiki](http://rimworld.huiji.wiki/)  （由SerGawen搭建，huiji.wiki提供技术支持）
+
+* 百度贴吧 [RimWorld吧](http://tieba.baidu.com/f?kw=rimworld)
 
 ----
 
-### Note 注意
+## Note 注意
 
-* 因人名/故事背景涉及Ludeon Studio之Creative Reward系统
-* 出于对游戏付费赞助者的尊重更是对Ludeon Studio正当利益之维护
-* 我们不会（亦无权）修改/汉化游戏的相关核心文件：RimWorldWin_Data\resources.assets
-* 故上述二者不属于本汉化项目之讨论范围，敬请谅解。
+* 本项目由RimWorld官方（Ludeon工作室）创建，翻译均为社区无偿贡献。
+* 每次游戏更新时会将内置的翻译文件同步更新，故玩家无需再手动下载安装。
+* 从A16起，官方正式提供背景故事的翻译接口。但介于数量庞大难免有诸多错漏，我们会继续改善。
+* 但未提供人名翻译接口，故人名依旧无法用常规方式翻译。
 
-（即：购买3个DLC，赞助官方，分别获得角色冠名权、背景故事设计、海盗王设计）
