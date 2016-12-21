@@ -76,7 +76,7 @@
 
   <MessageMedicalOperationFailureMinor>{0}给{1}手术时，发生了小失误。</MessageMedicalOperationFailureMinor>
   <MessageMedicalOperationFailureCatastrophic>{0}给{1}手术时，发生了灾难性的医疗事故。</MessageMedicalOperationFailureCatastrophic>
-  <MessageMedicalOperationFailureRidiculous>{0}给{1}手术时犯了愚蠢的错误。</MessageMedicalOperationFailureRidiculous>
+  <MessageMedicalOperationFailureRidiculous>{0}给{1}手术时，犯了难以置信的愚蠢错误。</MessageMedicalOperationFailureRidiculous>
 
   <MessageMedicalOperationWillAngerFaction>这次手术将激怒{0}。</MessageMedicalOperationWillAngerFaction>
 
@@ -145,11 +145,11 @@
   <MessageMaxPlanetCoveragePerformanceWarning>警告：生成整个星球可能需要很长的时间。</MessageMaxPlanetCoveragePerformanceWarning>
 
   <MessagePlantDiedOfCold>{0}因温度过低而死亡。</MessagePlantDiedOfCold>
-  <MessagePlantDiedOfRot>{0}因未被收获而腐烂死亡。</MessagePlantDiedOfRot>
+  <MessagePlantDiedOfRot>{0}因未及时收获而腐烂死亡。</MessagePlantDiedOfRot>
 
   <MessagePawnBeingBurned>{0}正在被超高温空气灼烧！</MessagePawnBeingBurned>
 
-  <MessageAccidentalOverdose>{0}不禁意间滥用了{1}！</MessageAccidentalOverdose>
+  <MessageAccidentalOverdose>{0}在服用{1}时意外过量！</MessageAccidentalOverdose>
 
   <MessageCaravanArrivedAtDestination>{0}已抵达目的地。</MessageCaravanArrivedAtDestination>
 
@@ -157,19 +157,19 @@
 
   <MessageCaravanEnteredWorldObject>{0}已抵达{1}。</MessageCaravanEnteredWorldObject>
 
-  <MessagePawnLeftMapAndCreatedCaravan>{0}已离开了该区域并组建了远行队</MessagePawnLeftMapAndCreatedCaravan>
+  <MessagePawnLeftMapAndCreatedCaravan>{0}已离开该区域并组建远行队。</MessagePawnLeftMapAndCreatedCaravan>
 
-  <MessageSettledInExistingMap>成功殖民在了新区域。</MessageSettledInExistingMap>
+  <MessageSettledInExistingMap>你已成功在新区域建立殖民地。</MessageSettledInExistingMap>
 
-  <MessageAmbushVictory>胜利了！远行队将在{0}小时候重组完毕。你现在可在「世界」画面中重组远行队。</MessageAmbushVictory>
+  <MessageAmbushVictory>胜利了！远行队将在{0}小时后自动重组。你现在可在「世界」画面中重组远行队。</MessageAmbushVictory>
 
-  <MessageAutomaticallyReformedCaravan>你的殖民者已经重组了远行队。</MessageAutomaticallyReformedCaravan>
+  <MessageAutomaticallyReformedCaravan>你的殖民者已重组远行队。</MessageAutomaticallyReformedCaravan>
 
   <MessageOldWoundHealed>由于{0}, {1}的{2}已经痊愈了。</MessageOldWoundHealed>
 
   <MessageRescueeJoined>因为你救了HIM, {0}加入了你的团队!</MessageRescueeJoined>
 
-  <MessageAttackedCaravanIsNowHostile>由于你攻击了{0}的贸易商队，这个派系现在与你敌对。</MessageAttackedCaravanIsNowHostile>
+  <MessageAttackedCaravanIsNowHostile>由于你攻击了{0}的一只远行队，该派系现在与你敌对。</MessageAttackedCaravanIsNowHostile>
 
   <MessageTransporterUnreachable>一些运输舱无法到达。</MessageTransporterUnreachable>
   <MessageTransportersNotAdjacent>所有连接到所选运输舱的发射器必须相邻。</MessageTransportersNotAdjacent>
@@ -177,32 +177,32 @@
   <MessageTransportersLoadCanceled_TransporterDestroyed>由于其中一个运输舱被毁，装载进程已取消。</MessageTransportersLoadCanceled_TransporterDestroyed>
   <MessageTransportersLoadCanceled_FuelingPortGiverDeSpawned>由于其中一个发射器被毁，装载进程已取消。</MessageTransportersLoadCanceled_FuelingPortGiverDeSpawned>
 
-  <MessageTransportersLoadingProcessStarted>你的殖民者现在会把指定的物品装载到运输舱中。</MessageTransportersLoadingProcessStarted>
+  <MessageTransportersLoadingProcessStarted>你的殖民者现在会把已指定的物品装载进运输舱中。</MessageTransportersLoadingProcessStarted>
 
   <MessageTransportPodsArrived>你的运输舱已经抵达目的地。</MessageTransportPodsArrived>
-  <MessageTransportPodsArrivedAndLost>你的运输舱已经抵达目的地，但由于里面没有殖民者，所有东西均已丢失。</MessageTransportPodsArrivedAndLost>
-  <MessageTransportPodsArrived_BecameHostile>{0}现在与你关系变成敌对。</MessageTransportPodsArrived_BecameHostile>
+  <MessageTransportPodsArrivedAndLost>你的运输舱已经抵达目的地，但由于里面没有殖民者，货物已丢失。</MessageTransportPodsArrivedAndLost>
+  <MessageTransportPodsArrived_BecameHostile>{0}现在与你是敌对关系。</MessageTransportPodsArrived_BecameHostile>
 
   <MessageFailedToLoadTransportersBecauseColonistLost>由于其中一个殖民者丢失，装载进程已取消。</MessageFailedToLoadTransportersBecauseColonistLost>
 
   <MessageFinishedLoadingTransporters>你的殖民者已完成运输舱的装载。</MessageFinishedLoadingTransporters>
 
   <MessageTransportPodsDestinationIsInvalid>所选目的地无效。</MessageTransportPodsDestinationIsInvalid>
-  <MessageTransportPodsDestinationIsTooFar>每个发射器都需要至少{0}化合燃料以将运输舱发送至这么远的距离。</MessageTransportPodsDestinationIsTooFar>
+  <MessageTransportPodsDestinationIsTooFar>每个运输舱发射器都需要至少{0}化合燃料以将运输舱发射至该距离。</MessageTransportPodsDestinationIsTooFar>
 
-  <MessageReformedCaravan>远行队已重组。</MessageReformedCaravan>
+  <MessageReformedCaravan>已重组远行队。</MessageReformedCaravan>
 
   <MessageCantAbandonLastColonist>你不能抛弃最后一位殖民者。</MessageCantAbandonLastColonist>
 
-  <MessageCantEquipIncapableOfViolence>不能装备：{0}无法进行暴力行为。</MessageCantEquipIncapableOfViolence>
+  <MessageCantEquipIncapableOfViolence>不能装备：{0}无暴力能力。</MessageCantEquipIncapableOfViolence>
   <MessageCantEquipIncapableOfManipulation>不能装备：没有能力。</MessageCantEquipIncapableOfManipulation>
 
   <MessageSlaughteringBondedAnimal>由于他们之间是牵绊关系，屠宰{0}会使{1}不高兴。</MessageSlaughteringBondedAnimal>
 
-  <MessageCaravanRunOutOfFood>{0}的食物已耗尽（{1}）。</MessageCaravanRunOutOfFood>
+  <MessageCaravanRunOutOfFood>{0}的给养已耗尽（{1}）。</MessageCaravanRunOutOfFood>
 
   <MessageSelectOwnBaseToFormCaravan>如要组建远行队，请选择你自己的殖民地或留有你的殖民者的地点。</MessageSelectOwnBaseToFormCaravan>
 
-  <MessageScreenResTooSmallForUIScale>在当前的分辨率和界面大小下， 游戏界面将不能正常在屏幕上显示。请减小界面比例或者增大分辨率。</MessageScreenResTooSmallForUIScale>
+  <MessageScreenResTooSmallForUIScale>在当前的分辨率和界面缩放比例下，游戏界面将不能正常在屏幕上显示。请减小界面缩放比例或者增大分辨率。</MessageScreenResTooSmallForUIScale>
 
 </LanguageData>

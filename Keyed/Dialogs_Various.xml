@@ -62,7 +62,7 @@
 
   <!-- Player faction naming -->
   <NamePlayerFactionMessage>{0}觉得你应该给你的派系取一个名字。它叫什么比较好？</NamePlayerFactionMessage>
-  <PlayerFactionGainsName>你的派系现在被命名为{0}.</PlayerFactionGainsName>
+  <PlayerFactionGainsName>你的派系现在被命名为{0}。</PlayerFactionGainsName>
   <PlayerFactionNameIsInvalid>这个派系名称无效。</PlayerFactionNameIsInvalid>
 
   <!-- Player faction base naming -->
@@ -194,7 +194,7 @@
   <MiscRecordsCategory>杂项</MiscRecordsCategory>
   <Addictiveness>成瘾性</Addictiveness>
   <PackAnimal>驮运动物</PackAnimal>
-  <PackAnimalExplanation>无论这种动物是否适合在远行队中用于长途运输物品。</PackAnimalExplanation>
+  <PackAnimalExplanation>这种动物是否适合在远行队中长途运输物品。</PackAnimalExplanation>
 
   <!-- Trade -->
   <PositiveBuysNegativeSells>正数购买\n负数出售</PositiveBuysNegativeSells>
@@ -225,7 +225,7 @@
   <TradeWithFactionBaseBonus>与派系基地交易加成</TradeWithFactionBaseBonus>
   <minimum>最小值</minimum>
   <FinalPrice>最终价格</FinalPrice>
-  <TradeMassUsageTooltip>最终载重占用与载重能力</TradeMassUsageTooltip>
+  <TradeMassUsageTooltip>最终载重占用与载重能力。</TradeMassUsageTooltip>
 
   <!-- Form caravan -->
   <FormCaravan>组建远行队</FormCaravan>
@@ -341,7 +341,7 @@
   <NoGrowerCanPlant>播种{0}最低需要{1}级种植技能。\n\n你没有达到该技能要求的种植者，因此这种植物将不会被播种。</NoGrowerCanPlant>
 
   <!-- Abandon home -->
-  <ConfirmAbandonHomeWithColonyPawns>你的一些殖民者或动物仍然在这个区域里。你确定要废弃这一区域吗？\n\n这些人或动物会被留在这里：\n\n{0}</ConfirmAbandonHomeWithColonyPawns>
+  <ConfirmAbandonHomeWithColonyPawns>你的一些殖民者或动物仍然在这个区域里。你确定要遗弃这一区域吗？\n\n这些人或动物会被留在这里：\n\n{0}</ConfirmAbandonHomeWithColonyPawns>
 
   <!-- Move caravan and leave prisoners and animals behind -->
   <ConfirmLeavePrisonersOrAnimalsBehind>该区域内还有一些囚犯和动物，而且这是他们现在唯一可以加入的远行队。\n\n如果你移动你的远行队，这些囚犯和动物在你回来之前将不能离开这里。 囚犯们会开始逃跑，但是你的动物会等你回来。\n\n如果你决定稍作等待，他们会试着尽快加入你的远行队。\n\n确定要移动远行队吗？</ConfirmLeavePrisonersOrAnimalsBehind>
@@ -354,6 +354,6 @@
   <ConfirmAbandonPawnDialog_IndividualThoughts>抛下{0}将会导致这些人有以下这些想法：</ConfirmAbandonPawnDialog_IndividualThoughts>
 
   <!-- Send transport pods which are not completely loaded -->
-  <ConfirmSendNotCompletelyLoadedPods>发射组群并没有满载。 {0} 还未进入运输舱。确定要发射吗？</ConfirmSendNotCompletelyLoadedPods>
+  <ConfirmSendNotCompletelyLoadedPods>发射组并没有完成装载进程。 {0} 还未进入运输舱。确定要发射吗？</ConfirmSendNotCompletelyLoadedPods>
 
 </LanguageData>

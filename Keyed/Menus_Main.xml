@@ -30,7 +30,7 @@
   <WorldGenerate>生成世界</WorldGenerate>
   <WorldSaveAndFinish>保存并完成</WorldSaveAndFinish>
   <Reset>重设</Reset>
-  <PlanetCoverage>星球覆盖率</PlanetCoverage>
+  <PlanetCoverage>星球生成比率</PlanetCoverage>
   <PlanetRainfall>总体降雨量</PlanetRainfall>
   <PlanetTemperature>总体温度</PlanetTemperature>
   <PlanetRainfall_Low>低</PlanetRainfall_Low>
@@ -41,7 +41,7 @@
   <PlanetTemperature_High>高</PlanetTemperature_High>
   <WorldSeed>种子</WorldSeed>
   <RandomizeSeed>随机种子</RandomizeSeed>
-  <PlanetCoverageTip>星球的大小是固定的, 但由于它比游戏所需的要大得多，所以我们默认不会生成整个行星的表面（可能需要很多时间）。这个选项代表了行星表面（可玩地区）所占据的比例。</PlanetCoverageTip>
+  <PlanetCoverageTip>星球的大小是固定的, 但由于它远远超出正常游戏所需，所以我们默认不会生成整个行星的表面（可能需要很多时间）。这个选项为你所想生成的星球表面比率。</PlanetCoverageTip>
 
   <!--=========== Select world ===================-->
   <SelectWorld>选择世界</SelectWorld>
@@ -169,6 +169,6 @@
   <!--============ Progress bar==============-->
   <GeneratingWorld>生成世界中</GeneratingWorld>
   <GeneratingMap>生成地图中</GeneratingMap>
-  <GeneratingMapForNewEncounter>生成新地区的地图中</GeneratingMapForNewEncounter>
+  <GeneratingMapForNewEncounter>生成新地区地图中</GeneratingMapForNewEncounter>
 
 </LanguageData>
