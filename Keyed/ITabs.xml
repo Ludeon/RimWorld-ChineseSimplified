@@ -40,7 +40,7 @@
   <PrisonerAttemptRecruit>尝试招募</PrisonerAttemptRecruit>
   <PrisonerRelease>释放</PrisonerRelease>
   <PrisonerExecution>处决</PrisonerExecution>
-  <ConsideredGuilty>Considered guilty (expires in {0})</ConsideredGuilty>
+  <ConsideredGuilty>被判有罪（{0}后消失）</ConsideredGuilty>
 
 
   <!-- Medical - general -->
@@ -60,8 +60,8 @@
   <Communication>交流</Communication>
   <Affects>影响</Affects>
   <BleedingRate>失血速率</BleedingRate>
-  <TimeToDeath>在{0}内死去</TimeToDeath>
-  <WontBleedOutSoon>脱离危险</WontBleedOutSoon>
+  <TimeToDeath>{0}后死亡</TimeToDeath>
+  <WontBleedOutSoon>无生命危险</WontBleedOutSoon>
   <HealthOverview>概况</HealthOverview>
   <MedicalOperationsShort>手术（{0}）</MedicalOperationsShort>
   <MedicalOperationsMechanoidsShort>改造（{0}）</MedicalOperationsMechanoidsShort>
@@ -113,7 +113,7 @@
 
   <!-- Gear tab -->
   <AverageArmor>平均护甲</AverageArmor>
-  <MassCarried>负重: {0} / {1} kg</MassCarried>
+  <MassCarried>负重：{0} / {1} kg</MassCarried>
   <ComfyTemperatureRange>适宜温度范围</ComfyTemperatureRange>
   <ArmorBlunt>钝器护甲</ArmorBlunt>
   <ArmorSharp>利器护甲</ArmorSharp>
