@@ -7,13 +7,27 @@ See this page for license info:
 查看此页面以了解许可信息：  
 [http://ludeon.com/forums/index.php?topic=2933.0](http://ludeon.com/forums/index.php?topic=2933.0)
 
+**本项目由RimWorld官方（Ludeon工作室）创建，翻译均为社区无偿贡献。**
+
 ----
 
 ## Current Version 当前版本 0.16 (Alpha 16)
 
-* 当前项目已更新至A16 - [更新记录](https://github.com/Ludeon/RimWorld-ChineseSimplified/commits/master)
 
-* A15玩家如需下载对应语言包请前往[Releases页面](https://github.com/Ludeon/RimWorld-ChineseSimplified/releases)
+
+在每次发布新版RimWorld前，制作组会将内置的翻译文件与本项目同步。[[**查看更新记录**](https://github.com/Ludeon/RimWorld-ChineseSimplified/commits/master)]
+
+有时候翻译项目没能赶上游戏发布，玩家可手动下载：[[**下载点一**](https://github.com/Ludeon/RimWorld-ChineseSimplified/archive/master.zip)] [[**下载点二**](https://coding.net/u/duduluu/p/RimWorld-ChineseSimplified/git/archive/master)]
+
+**手动更新（安装）方法**
+
+1. 下载语言包：将下载到的压缩包解压后得到文件夹「RimWorld-ChineseSimplified-master」，将文件夹**重命名**为「ChineseSimplified」  
+2. 删除旧文件：进入目录C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Core\Languages，将原有的「ChineseSimplified」文件夹删除  
+3. 复制新文件：将步骤(1)中得到的新「ChineseSimplified」文件夹复制到Lunguages目录内。  
+
+根据你的Steam自定义设置不同，游戏安装目录可能不同，可以在Steam游戏库中右击RimWorld，在右键菜单中点击「属性」，然后选择选择「本地文件」标签，点击「查看本地文件...」  
+
+A15玩家如需下载对应语言包请前往[[**Release页面**](https://github.com/Ludeon/RimWorld-ChineseSimplified/releases)]
 
 ----
 
@@ -53,8 +67,5 @@ See this page for license info:
 
 ## Note 注意
 
-* 本项目由RimWorld官方（Ludeon工作室）创建，翻译均为社区无偿贡献。
-* 每次游戏更新时会将内置的翻译文件同步更新，故玩家无需再手动下载安装。
-* 从A16起，官方正式提供背景故事的翻译接口。但介于数量庞大难免有诸多错漏，我们会继续改善。
-* 但未提供人名翻译接口，故人名依旧无法用常规方式翻译。
+* 从A16起，官方正式提供背景故事的翻译接口。但介于数量庞大难免有诸多错漏，我们会继续改善。然而仍未提供人名翻译接口，所以人名依旧无法用常规方式翻译。
 
