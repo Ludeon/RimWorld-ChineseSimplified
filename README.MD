@@ -25,7 +25,8 @@ See this page for license info:
 2. 删除旧文件：进入目录C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Core\Languages，将原有的「ChineseSimplified」文件夹删除  
 3. 复制新文件：将步骤(1)中得到的新「ChineseSimplified」文件夹复制到Lunguages目录内。  
 
-根据你的Steam自定义设置不同，游戏安装目录可能不同，可以在Steam游戏库中右击RimWorld，在右键菜单中点击「属性」，然后选择选择「本地文件」标签，点击「查看本地文件...」  
+> 根据你的Steam自定义设置不同，游戏安装目录可能不同，可以在Steam游戏库中右击RimWorld，在右键菜单中点击「属性」，然后选择选择「本地文件」标签，点击「查看本地文件...」。  
+Mac系统需要额外步骤才能看到游戏文件：右击「RimWorldMac」，在右键菜单中点击「查看包内容」。
 
 A15玩家如需下载对应语言包请前往[[**Release页面**](https://github.com/Ludeon/RimWorld-ChineseSimplified/releases)]
 
