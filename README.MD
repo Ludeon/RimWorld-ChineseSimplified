@@ -7,28 +7,30 @@ See this page for license info:
 查看此页面以了解许可信息：  
 [http://ludeon.com/forums/index.php?topic=2933.0](http://ludeon.com/forums/index.php?topic=2933.0)
 
-**本项目由RimWorld官方（Ludeon工作室）创建，翻译均为社区无偿贡献。**
+**本项目由RimWorld官方（Ludeon工作室）创建，翻译均为社区无偿贡献。**  [[**查看更新记录**](https://github.com/Ludeon/RimWorld-ChineseSimplified/commits/master)]  
+[https://github.com/Ludeon/RimWorld-ChineseSimplified](https://github.com/Ludeon/RimWorld-ChineseSimplified)  
 
-----
+在每次发布新版RimWorld前，开发组会同步内置的翻译文件。但由于某些原因（翻译组没赶上开发组的进度，或者开发组忘记同步文件了），官方内置的翻译版本会落后于本项目，玩家可自行下载安装。安装方法见下文。
 
 ## Current Version 当前版本 0.16 (Alpha 16)
 
+---
 
+## 安装方法
 
-在每次发布新版RimWorld前，制作组会将内置的翻译文件与本项目同步。[[**查看更新记录**](https://github.com/Ludeon/RimWorld-ChineseSimplified/commits/master)]
+1. 点选右上角「Clone or download」-「Download ZIP」下载
+2. 解压缩得到「RimWorld-ChineseSimplified-master」文件夹，并重命名为「ChineseSimplified」
+3. 删除 RimWorld安装目录\Mods\Core\Languages 中的「ChineseSimplified」文件夹
+4. 将步骤2中得到的新的「ChineseSimplified」文件夹复制到「Languages」文件夹内
 
-有时候翻译项目没能赶上游戏发布，玩家可手动下载：[[**下载点一**](https://github.com/Ludeon/RimWorld-ChineseSimplified/archive/master.zip)] [[**下载点二**](https://coding.net/u/duduluu/p/RimWorld-ChineseSimplified/git/archive/master)]
+根据你的Steam设置不同，RimWorld安装目录会不同，可以在Steam游戏库中右击RImWorld，在菜单中选择「属性」-「本地文件」-「查看本地文件...」
 
-**手动更新（安装）方法**
+**Mac 用户**：在查看本地文件后需要右击「RimWorldMac」-「查看包内容」才会进入游戏安装目录。
 
-1. 下载语言包：将下载到的压缩包解压后得到文件夹「RimWorld-ChineseSimplified-master」，将文件夹**重命名**为「ChineseSimplified」  
-2. 删除旧文件：进入目录C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Core\Languages，将原有的「ChineseSimplified」文件夹删除  
-3. 复制新文件：将步骤(1)中得到的新「ChineseSimplified」文件夹复制到Languages目录内。  
+由于万恶的电信和GFW， Github.com 大陆可能没有下载速度，可前往备用的 Coding.net 下载：  
+[https://coding.net/u/duduluu/p/RimWorld-ChineseSimplified/git](https://coding.net/u/duduluu/p/RimWorld-ChineseSimplified/git)
 
-> 根据你的Steam自定义设置不同，游戏安装目录可能不同，可以在Steam游戏库中右击RimWorld，在右键菜单中点击「属性」，然后选择选择「本地文件」标签，点击「查看本地文件...」。  
-Mac系统需要额外步骤才能看到游戏文件：右击「RimWorldMac」，在右键菜单中点击「查看包内容」。
-
-A15玩家如需下载对应语言包请前往[[**Release页面**](https://github.com/Ludeon/RimWorld-ChineseSimplified/releases)]
+**A15 玩家**：如需下载对应语言包请前往[[**Release页面**](https://github.com/Ludeon/RimWorld-ChineseSimplified/releases)]
 
 ----
 
@@ -41,14 +43,16 @@ A15玩家如需下载对应语言包请前往[[**Release页面**](https://github
 * Kenneth Li （魔都KK）
 * Raisins123 （RSP）
 * SerGawen （加文_维斯特林）
-* weehowe-z
+* weehowe-z （问号）
 * Ydada （于大大）
 
 ----
 
 ## Special Thanks 特别感谢
 
-* 飞行棺材
+* AlyxMS 从A3开始和作者紧密联系并共同创建了本项目
+* Bigmap 伟大的国旗哥
+* 飞行棺材 热心的校对人员
 
 ----
 
@@ -68,5 +72,6 @@ A15玩家如需下载对应语言包请前往[[**Release页面**](https://github
 
 ## Note 注意
 
-* 从A16起，官方正式提供背景故事的翻译接口。但介于数量庞大难免有诸多错漏，我们会继续改善。然而仍未提供人名翻译接口，所以人名依旧无法用常规方式翻译。
+* 从A16起，官方正式提供背景故事的翻译接口。但介于数量庞大难免有诸多错漏，我们会继续改善。
+* 仍未提供人名翻译接口，所以人名依旧无法用常规方式翻译。
 
