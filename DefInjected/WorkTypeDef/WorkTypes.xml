@@ -1,131 +1,145 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
+  <Firefighter.label>灭火</Firefighter.label>
+  <Firefighter.description>扑灭居住区内的火灾。</Firefighter.description>
   <Firefighter.labelShort>灭火</Firefighter.labelShort>
   <Firefighter.pawnLabel>消防员</Firefighter.pawnLabel>
   <Firefighter.gerundLabel>灭火</Firefighter.gerundLabel>
-  <Firefighter.description>扑灭居住区内的火灾。</Firefighter.description>
   <Firefighter.verb>灭火</Firefighter.verb>
 
+  <PatientEmergency.label>就医</PatientEmergency.label>
+  <PatientEmergency.description>当有威胁生命的健康问题时，躺到医疗床上接收治疗。</PatientEmergency.description>
   <PatientEmergency.labelShort>就医</PatientEmergency.labelShort>
   <PatientEmergency.pawnLabel>病人</PatientEmergency.pawnLabel>
   <PatientEmergency.gerundLabel>就医</PatientEmergency.gerundLabel>
-  <PatientEmergency.description>当有威胁生命的健康问题时，躺到医疗床上接收治疗。</PatientEmergency.description>
   <PatientEmergency.verb>就医</PatientEmergency.verb>
 
-  <Doctor.labelShort>照顾</Doctor.labelShort>
+  <Doctor.label>医生</Doctor.label>
+  <Doctor.description>医生负责治疗病人和伤员、给无法行动的人喂食、进行手术。医生会同时照顾殖民者和囚犯。</Doctor.description>
+  <Doctor.labelShort>医生</Doctor.labelShort>
   <Doctor.pawnLabel>医生</Doctor.pawnLabel>
   <Doctor.gerundLabel>照顾</Doctor.gerundLabel>
-  <Doctor.description>医生负责治疗病人和伤员、给无法行动的人喂食、进行手术。医生会同时照顾殖民者和囚犯。</Doctor.description>
   <Doctor.verb>照顾</Doctor.verb>
 
+  <PatientBedRest.label>休养</PatientBedRest.label>
+  <PatientBedRest.description>非致命的疾病可以通过卧床休养得到恢复。</PatientBedRest.description>
   <PatientBedRest.labelShort>休养</PatientBedRest.labelShort>
   <PatientBedRest.pawnLabel>病人</PatientBedRest.pawnLabel>
   <PatientBedRest.gerundLabel>休养</PatientBedRest.gerundLabel>
-  <PatientBedRest.description>非致命的疾病可以通过卧床休养得到恢复。</PatientBedRest.description>
   <PatientBedRest.verb>休养</PatientBedRest.verb>
 
+  <Flicker.label>开关</Flicker.label>
+  <Flicker.description>电工负责开关电源。当切换用电设备或电路开关的供电状态时，电工将会前往拨动开关。</Flicker.description>
   <Flicker.labelShort>开关</Flicker.labelShort>
   <Flicker.pawnLabel>电工</Flicker.pawnLabel>
   <Flicker.gerundLabel>开关</Flicker.gerundLabel>
-  <Flicker.description>电工负责开关电源。当切换用电设备或电路开关的供电状态时，电工将会前往拨动开关。</Flicker.description>
   <Flicker.verb>开关</Flicker.verb>
 
+  <Warden.label>监管</Warden.label>
+  <Warden.description>狱卒负责给囚犯送餐、和囚犯聊天、招募、殴打或是处决囚犯。需要在「囚犯」菜单内选择对应的选项。</Warden.description>
   <Warden.labelShort>监管</Warden.labelShort>
   <Warden.pawnLabel>狱卒</Warden.pawnLabel>
   <Warden.gerundLabel>监管</Warden.gerundLabel>
-  <Warden.description>狱卒负责给囚犯送餐、和囚犯聊天、招募、殴打或是处决囚犯。需要在「囚犯」菜单内选择对应的选项。</Warden.description>
   <Warden.verb>监管</Warden.verb>
 
-  <Handling.labelShort>驯兽</Handling.labelShort>
-  <Handling.pawnLabel>驯兽师</Handling.pawnLabel>
-  <Handling.gerundLabel>驯兽</Handling.gerundLabel>
+  <Handling.label>驯兽</Handling.label>
   <Handling.description>驯兽师负责驯服野生动物、训练已驯服的动物、收获畜产品、宰杀已驯服的动物。</Handling.description>
+  <Handling.labelShort>驯兽</Handling.labelShort>
+  <Handling.pawnLabel>驯兽员</Handling.pawnLabel>
+  <Handling.gerundLabel>驯兽</Handling.gerundLabel>
   <Handling.verb>驯兽</Handling.verb>
 
+  <Cooking.label>烹饪</Cooking.label>
+  <Cooking.description>厨师负责烹饪食物、屠宰尸体、填充储料器。</Cooking.description>
   <Cooking.labelShort>烹饪</Cooking.labelShort>
   <Cooking.pawnLabel>厨师</Cooking.pawnLabel>
   <Cooking.gerundLabel>烹饪</Cooking.gerundLabel>
-  <Cooking.description>厨师负责烹饪食物、屠宰尸体、填充储料器。</Cooking.description>
   <Cooking.verb>烹饪</Cooking.verb>
 
+  <Hunting.label>狩猎</Hunting.label>
+  <Hunting.description>猎人负责狩猎你指定的野生动物。</Hunting.description>
   <Hunting.labelShort>狩猎</Hunting.labelShort>
   <Hunting.pawnLabel>猎人</Hunting.pawnLabel>
   <Hunting.gerundLabel>狩猎</Hunting.gerundLabel>
-  <Hunting.description>猎人负责狩猎你指定的野生动物。</Hunting.description>
   <Hunting.verb>狩猎</Hunting.verb>
 
+  <Construction.label>建造</Construction.label>
+  <Construction.description>建造者会建造你指定的建筑，并修理损坏的建筑、家具、工作台等。</Construction.description>
   <Construction.labelShort>建造</Construction.labelShort>
   <Construction.pawnLabel>建造者</Construction.pawnLabel>
   <Construction.gerundLabel>建造</Construction.gerundLabel>
-  <Construction.description>建造者会建造你指定的建筑，并修理损坏的建筑、家具、工作台等。</Construction.description>
   <Construction.verb>建造</Construction.verb>
 
+  <Growing.label>种植</Growing.label>
+  <Growing.description>种植者负责管理种植区、花盆和水栽培植物盆，种植或收获作物。</Growing.description>
   <Growing.labelShort>种植</Growing.labelShort>
   <Growing.pawnLabel>种植者</Growing.pawnLabel>
   <Growing.gerundLabel>种植</Growing.gerundLabel>
-  <Growing.description>种植者负责管理种植区、花盆和水栽培植物盆，种植或收获作物。</Growing.description>
   <Growing.verb>种植</Growing.verb>
 
+  <Mining.label>采矿</Mining.label>
+  <Mining.description>矿工负责开采你指定的方块。如果你指定的方块是矿石方块，他们会收获到有用的矿石。</Mining.description>
   <Mining.labelShort>采矿</Mining.labelShort>
   <Mining.pawnLabel>矿工</Mining.pawnLabel>
   <Mining.gerundLabel>开采</Mining.gerundLabel>
-  <Mining.description>矿工负责开采你指定的方块。如果你指定的方块是矿石方块，他们会收获到有用的矿石。</Mining.description>
   <Mining.verb>开采</Mining.verb>
 
+  <PlantCutting.label>割除</PlantCutting.label>
+  <PlantCutting.description>收割者负责割除并收获你标记的植物，砍伐你标记的树木。</PlantCutting.description>
   <PlantCutting.labelShort>割除</PlantCutting.labelShort>
   <PlantCutting.pawnLabel>收割者</PlantCutting.pawnLabel>
   <PlantCutting.gerundLabel>割除</PlantCutting.gerundLabel>
-  <PlantCutting.description>收割者负责割除并收获你标记的植物，砍伐你标记的树木。</PlantCutting.description>
   <PlantCutting.verb>割除</PlantCutting.verb>
 
+  <Smithing.label>锻造</Smithing.label>
+  <Smithing.description>铁匠负责将原材料锻造成武器和工具。</Smithing.description>
   <Smithing.labelShort>锻造</Smithing.labelShort>
   <Smithing.pawnLabel>铁匠</Smithing.pawnLabel>
   <Smithing.gerundLabel>锻造</Smithing.gerundLabel>
-  <Smithing.description>铁匠负责将原材料锻造成武器和工具。</Smithing.description>
   <Smithing.verb>锻造</Smithing.verb>
 
+  <Tailoring.label>缝制</Tailoring.label>
+  <Tailoring.description>裁缝负责将原材料缝制成衣物。</Tailoring.description>
   <Tailoring.labelShort>缝制</Tailoring.labelShort>
   <Tailoring.pawnLabel>裁缝</Tailoring.pawnLabel>
   <Tailoring.gerundLabel>缝制</Tailoring.gerundLabel>
-  <Tailoring.description>裁缝负责将原材料缝制成衣物。</Tailoring.description>
   <Tailoring.verb>缝制</Tailoring.verb>
 
+  <Art.label>艺术</Art.label>
+  <Art.description>艺术家负责用原材料创作出优秀的艺术品。</Art.description>
   <Art.labelShort>艺术</Art.labelShort>
   <Art.pawnLabel>艺术家</Art.pawnLabel>
   <Art.gerundLabel>艺术</Art.gerundLabel>
-  <Art.description>艺术家负责用原材料创作出优秀的艺术品。</Art.description>
   <Art.verb>艺术</Art.verb>
 
+  <Crafting.label>制作</Crafting.label>
+  <Crafting.description>工匠负责把原材料制成成品。</Crafting.description>
   <Crafting.labelShort>制作</Crafting.labelShort>
   <Crafting.pawnLabel>工匠</Crafting.pawnLabel>
   <Crafting.gerundLabel>制作</Crafting.gerundLabel>
-  <Crafting.description>工匠负责把原材料制成成品。</Crafting.description>
   <Crafting.verb>制作</Crafting.verb>
 
+  <Hauling.label>搬运</Hauling.label>
+  <Hauling.description>搬运工负责把物品运送到目的地。</Hauling.description>
   <Hauling.labelShort>搬运</Hauling.labelShort>
   <Hauling.pawnLabel>搬运工</Hauling.pawnLabel>
   <Hauling.gerundLabel>搬运</Hauling.gerundLabel>
-  <Hauling.description>搬运工负责把物品运送到目的地。</Hauling.description>
   <Hauling.verb>搬运</Hauling.verb>
 
+  <Cleaning.label>清洁</Cleaning.label>
+  <Cleaning.description>清洁工负责清理居住区的污渍、清除除雪区的积雪。</Cleaning.description>
   <Cleaning.labelShort>清洁</Cleaning.labelShort>
   <Cleaning.pawnLabel>清洁工</Cleaning.pawnLabel>
   <Cleaning.gerundLabel>清洁</Cleaning.gerundLabel>
-  <Cleaning.description>清洁工负责清理居住区的污渍、清除除雪区的积雪。</Cleaning.description>
   <Cleaning.verb>清洁</Cleaning.verb>
 
+  <Research.label>研究</Research.label>
+  <Research.description>研究员负责研究工作。因为研究是一项长期工作，专门的研究员需要降低其他工作的优先度。</Research.description>
   <Research.labelShort>研究</Research.labelShort>
   <Research.pawnLabel>研究员</Research.pawnLabel>
   <Research.gerundLabel>研究</Research.gerundLabel>
-  <Research.description>研究员负责研究工作。因为研究是一项长期工作，专门的研究员需要降低其他工作的优先度。</Research.description>
   <Research.verb>研究</Research.verb>
 
-
-  <!--<Repair.labelShort>修理</Repair.labelShort>-->
-  <!--<Repair.pawnLabel>修理工</Repair.pawnLabel>-->
-  <!--<Repair.gerundLabel>修理</Repair.gerundLabel>-->
-  <!--<Repair.description>修理工负责修理损坏的建筑、家具、工作台等。</Repair.description>-->
-  <!--<Repair.verb>修理</Repair.verb>-->
 
 </LanguageData>
