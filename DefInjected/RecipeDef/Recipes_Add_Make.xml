@@ -59,11 +59,22 @@
   <Make_Medicine.jobString>正在制作药物。</Make_Medicine.jobString>
 
 
+  <!-- Recipe Users: TableMachining -->
+
+  <Make_Apparel_SmokepopBelt.label>制作烟罐腰带</Make_Apparel_SmokepopBelt.label>
+  <Make_Apparel_SmokepopBelt.description>自动防御烟幕。一旦穿戴者被子弹击中，会释放出厚厚的烟雾云，提供视线遮挡以及防止被炮塔锁定。一次性用品。</Make_Apparel_SmokepopBelt.description>
+  <Make_Apparel_SmokepopBelt.jobString>制作中。</Make_Apparel_SmokepopBelt.jobString>
+
+
   <!-- Recipe Users: ElectricTailoringBench, HandTailoringBench -->
 
   <Make_Apparel_CowboyHat.label>缝制牛仔帽</Make_Apparel_CowboyHat.label>
   <Make_Apparel_CowboyHat.description>时髦、粗狂，这顶风格独特的帽子可以为你遮风挡雨，而且带上它的人显得特别有魅力。西部风格着装中最重要的部分。</Make_Apparel_CowboyHat.description>
   <Make_Apparel_CowboyHat.jobString>缝制中。</Make_Apparel_CowboyHat.jobString>
+
+  <Make_Apparel_BowlerHat.label>缝制圆顶礼帽</Make_Apparel_BowlerHat.label>
+  <Make_Apparel_BowlerHat.description>一顶突出了轻都市、富贵风格的好看的帽子。提升社交影响力。</Make_Apparel_BowlerHat.description>
+  <Make_Apparel_BowlerHat.jobString>缝制中。</Make_Apparel_BowlerHat.jobString>
 
   <Make_Apparel_Tuque.label>缝制御寒帽</Make_Apparel_Tuque.label>
   <Make_Apparel_Tuque.description>一种柔软、厚实的帽子。非常适合在冬季中保持温暖。</Make_Apparel_Tuque.description>
@@ -72,20 +83,31 @@
 
   <!-- Recipe Users: TableMachining -->
 
-  <Make_Apparel_MilitaryHelmet.label>制作军用头盔</Make_Apparel_MilitaryHelmet.label>
-  <Make_Apparel_MilitaryHelmet.description>外观古老而沉重，但很实用。保护头部抵挡低速的子弹、弹片，掉落的碎片，以及刀剑。</Make_Apparel_MilitaryHelmet.description>
-  <Make_Apparel_MilitaryHelmet.jobString>制作中。</Make_Apparel_MilitaryHelmet.jobString>
+  <Make_Apparel_SimpleHelmet.label>制作简易头盔</Make_Apparel_SimpleHelmet.label>
+  <Make_Apparel_SimpleHelmet.description>提供一定利器攻击防护的简易头盔。抵抗钝器类武器不太有效。</Make_Apparel_SimpleHelmet.description>
+  <Make_Apparel_SimpleHelmet.jobString>制作中。</Make_Apparel_SimpleHelmet.jobString>
 
-  <Make_Apparel_KevlarHelmet.label>制作凯夫拉头盔</Make_Apparel_KevlarHelmet.label>
-  <Make_Apparel_KevlarHelmet.description>一个轻便的作战头盔。</Make_Apparel_KevlarHelmet.description>
-  <Make_Apparel_KevlarHelmet.jobString>制作中。</Make_Apparel_KevlarHelmet.jobString>
+  <Make_Apparel_AdvancedHelmet.label>制作高级头盔</Make_Apparel_AdvancedHelmet.label>
+  <Make_Apparel_AdvancedHelmet.description>设计复杂的、使用玻璃钢强化的轻型作战头盔。抵抗钝器类武器不太有效。</Make_Apparel_AdvancedHelmet.description>
+  <Make_Apparel_AdvancedHelmet.jobString>制作中。</Make_Apparel_AdvancedHelmet.jobString>
 
   <Make_Apparel_PowerArmorHelmet.label>制作动力头盔</Make_Apparel_PowerArmorHelmet.label>
   <Make_Apparel_PowerArmorHelmet.description>动力装甲套装中的一部分，一般装备于重步兵。</Make_Apparel_PowerArmorHelmet.description>
   <Make_Apparel_PowerArmorHelmet.jobString>制作中。</Make_Apparel_PowerArmorHelmet.jobString>
 
 
+  <!-- Recipe Users: ElectricTailoringBench, HandTailoringBench, ElectricTailoringBench, HandTailoringBench, CraftingSpot -->
+
+  <Make_Apparel_TribalA.label>缝制部落装</Make_Apparel_TribalA.label>
+  <Make_Apparel_TribalA.description>一件用原始工具制成的衣物。</Make_Apparel_TribalA.description>
+  <Make_Apparel_TribalA.jobString>缝制中。</Make_Apparel_TribalA.jobString>
+
+
   <!-- Recipe Users: ElectricTailoringBench, HandTailoringBench -->
+
+  <Make_Apparel_Parka.label>缝制风雪大衣</Make_Apparel_Parka.label>
+  <Make_Apparel_Parka.description>一件厚重的风雪大衣，即使在最寒冷的温度中也能保持温暖。</Make_Apparel_Parka.description>
+  <Make_Apparel_Parka.jobString>缝制中。</Make_Apparel_Parka.jobString>
 
   <Make_Apparel_Pants.label>缝制裤子</Make_Apparel_Pants.label>
   <Make_Apparel_Pants.description>一条普通的裤子。</Make_Apparel_Pants.description>
@@ -106,17 +128,6 @@
   <Make_Apparel_Jacket.label>缝制夹克</Make_Apparel_Jacket.label>
   <Make_Apparel_Jacket.description>一件坚固的夹克，可以避免擦伤和刮伤，以及在寒冷天气中保持温暖。</Make_Apparel_Jacket.description>
   <Make_Apparel_Jacket.jobString>缝制中。</Make_Apparel_Jacket.jobString>
-
-  <Make_Apparel_Parka.label>缝制风雪大衣</Make_Apparel_Parka.label>
-  <Make_Apparel_Parka.description>一件厚重的风雪大衣，即使在最寒冷的温度中也能保持温暖。</Make_Apparel_Parka.description>
-  <Make_Apparel_Parka.jobString>缝制中。</Make_Apparel_Parka.jobString>
-
-
-  <!-- Recipe Users: ElectricTailoringBench, HandTailoringBench, ElectricTailoringBench, HandTailoringBench, CraftingSpot -->
-
-  <Make_Apparel_TribalA.label>缝制部落装</Make_Apparel_TribalA.label>
-  <Make_Apparel_TribalA.description>一件用原始工具制成的衣物。</Make_Apparel_TribalA.description>
-  <Make_Apparel_TribalA.jobString>缝制中。</Make_Apparel_TribalA.jobString>
 
 
   <!-- Recipe Users: TableMachining -->
@@ -225,5 +236,12 @@
   <Make_Bow_Great.description>一把强力的长弓，射出远距离的重箭。</Make_Bow_Great.description>
   <Make_Bow_Great.jobString>制作中。</Make_Bow_Great.jobString>
 
+
+  <!--<Make_Apparel_MilitaryHelmet.label>制作军用头盔</Make_Apparel_MilitaryHelmet.label>-->
+  <!--<Make_Apparel_MilitaryHelmet.description>外观古老而沉重，但很实用。保护头部抵挡低速的子弹、弹片，掉落的碎片，以及刀剑。</Make_Apparel_MilitaryHelmet.description>-->
+  <!--<Make_Apparel_MilitaryHelmet.jobString>制作中。</Make_Apparel_MilitaryHelmet.jobString>-->
+  <!--<Make_Apparel_KevlarHelmet.label>制作凯夫拉头盔</Make_Apparel_KevlarHelmet.label>-->
+  <!--<Make_Apparel_KevlarHelmet.description>一个轻便的作战头盔。</Make_Apparel_KevlarHelmet.description>-->
+  <!--<Make_Apparel_KevlarHelmet.jobString>制作中。</Make_Apparel_KevlarHelmet.jobString>-->
 
 </LanguageData>

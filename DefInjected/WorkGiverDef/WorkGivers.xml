@@ -29,17 +29,29 @@
   <DoBillsMedicalHumanOperation.verb>手术</DoBillsMedicalHumanOperation.verb>
   <DoBillsMedicalHumanOperation.gerund>手术</DoBillsMedicalHumanOperation.gerund>
 
-  <DoctorTreat.label>提供治疗</DoctorTreat.label>
-  <DoctorTreat.verb>治疗</DoctorTreat.verb>
-  <DoctorTreat.gerund>治疗</DoctorTreat.gerund>
+  <DoctorTendToHumanlikes.label>治疗病人</DoctorTendToHumanlikes.label>
+  <DoctorTendToHumanlikes.verb>治疗</DoctorTendToHumanlikes.verb>
+  <DoctorTendToHumanlikes.gerund>治疗</DoctorTendToHumanlikes.gerund>
 
-  <DoctorFeed.label>给患者喂食</DoctorFeed.label>
-  <DoctorFeed.verb>喂食</DoctorFeed.verb>
-  <DoctorFeed.gerund>喂食</DoctorFeed.gerund>
+  <DoctorTendToSelf.label>治疗自己</DoctorTendToSelf.label>
+  <DoctorTendToSelf.verb>治疗</DoctorTendToSelf.verb>
+  <DoctorTendToSelf.gerund>治疗</DoctorTendToSelf.gerund>
+
+  <DoctorFeedHumanlikes.label>喂食病人</DoctorFeedHumanlikes.label>
+  <DoctorFeedHumanlikes.verb>喂食</DoctorFeedHumanlikes.verb>
+  <DoctorFeedHumanlikes.gerund>喂食</DoctorFeedHumanlikes.gerund>
 
   <DoBillsMedicalAnimalOperation.label>完成动物手术</DoBillsMedicalAnimalOperation.label>
   <DoBillsMedicalAnimalOperation.verb>手术</DoBillsMedicalAnimalOperation.verb>
   <DoBillsMedicalAnimalOperation.gerund>手术</DoBillsMedicalAnimalOperation.gerund>
+
+  <DoctorTendToAnimals.label>治疗动物</DoctorTendToAnimals.label>
+  <DoctorTendToAnimals.verb>治疗</DoctorTendToAnimals.verb>
+  <DoctorTendToAnimals.gerund>治疗</DoctorTendToAnimals.gerund>
+
+  <DoctorFeedAnimals.label>喂食动物</DoctorFeedAnimals.label>
+  <DoctorFeedAnimals.verb>喂食</DoctorFeedAnimals.verb>
+  <DoctorFeedAnimals.gerund>喂食</DoctorFeedAnimals.gerund>
 
   <TakeToBedToOperate.label>把病人带到手术床上</TakeToBedToOperate.label>
   <TakeToBedToOperate.verb>带到手术床</TakeToBedToOperate.verb>
@@ -53,8 +65,8 @@
   <!-- PatientBedRest -->
 
   <PatientGoToBed.label>卧床养病</PatientGoToBed.label>
-  <PatientGoToBed.verb>接受治疗于</PatientGoToBed.verb>
-  <PatientGoToBed.gerund>接受治疗于</PatientGoToBed.gerund>
+  <PatientGoToBed.verb>卧床休息于</PatientGoToBed.verb>
+  <PatientGoToBed.gerund>卧床休息于</PatientGoToBed.gerund>
 
 
   <!-- Flicker -->
@@ -133,8 +145,8 @@
   <CookFillHopper.gerund>装填</CookFillHopper.gerund>
 
   <DoBillsBrew.label>在酿造台酿酒</DoBillsBrew.label>
-  <DoBillsBrew.verb>酿酒</DoBillsBrew.verb>
-  <DoBillsBrew.gerund>酿酒于</DoBillsBrew.gerund>
+  <DoBillsBrew.verb>酿造</DoBillsBrew.verb>
+  <DoBillsBrew.gerund>酿造于</DoBillsBrew.gerund>
 
 
   <!-- Hunting -->
@@ -145,10 +157,6 @@
 
 
   <!-- Construction -->
-
-  <DoBillsMedicalMechanoidOperation.label>改装机械体</DoBillsMedicalMechanoidOperation.label>
-  <DoBillsMedicalMechanoidOperation.verb>改装</DoBillsMedicalMechanoidOperation.verb>
-  <DoBillsMedicalMechanoidOperation.gerund>改装</DoBillsMedicalMechanoidOperation.gerund>
 
   <FixBrokenDownBuilding.label>替换损坏的零部件</FixBrokenDownBuilding.label>
   <FixBrokenDownBuilding.verb>替换损坏的零部件</FixBrokenDownBuilding.verb>
@@ -255,6 +263,10 @@
 
   <!-- Crafting -->
 
+  <DoBillsMedicalMechanoidOperation.label>改装机械体</DoBillsMedicalMechanoidOperation.label>
+  <DoBillsMedicalMechanoidOperation.verb>改装</DoBillsMedicalMechanoidOperation.verb>
+  <DoBillsMedicalMechanoidOperation.gerund>改装</DoBillsMedicalMechanoidOperation.gerund>
+
   <DoBillsUseCraftingSpot.label>完成手工加工点的清单</DoBillsUseCraftingSpot.label>
   <DoBillsUseCraftingSpot.verb>制作</DoBillsUseCraftingSpot.verb>
   <DoBillsUseCraftingSpot.gerund>制作于</DoBillsUseCraftingSpot.gerund>
@@ -285,6 +297,10 @@
   <LoadTransporters.label>装载运输舱</LoadTransporters.label>
   <LoadTransporters.verb>装货</LoadTransporters.verb>
   <LoadTransporters.gerund>装货</LoadTransporters.gerund>
+
+  <HelpGatheringItemsForCaravan.label>装载远行队</HelpGatheringItemsForCaravan.label>
+  <HelpGatheringItemsForCaravan.verb>装货</HelpGatheringItemsForCaravan.verb>
+  <HelpGatheringItemsForCaravan.gerund>装货</HelpGatheringItemsForCaravan.gerund>
 
   <Strip.label>剥光衣物</Strip.label>
   <Strip.verb>剥光</Strip.verb>
@@ -348,7 +364,5 @@
   <Research.verb>研究</Research.verb>
   <Research.gerund>研究于</Research.gerund>
 
-
-  <!-- Repair -->
 
 </LanguageData>

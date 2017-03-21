@@ -46,8 +46,8 @@
   <BuildingAssign>指定</BuildingAssign>
   <BuildingUnassign>解除指定</BuildingUnassign>
   <CommandBedSetForPrisonersLabel>囚犯专用</CommandBedSetForPrisonersLabel>
-  <CommandBedSetForPrisonersDesc>把此房间内的所有床设为囚犯专用。</CommandBedSetForPrisonersDesc>
-  <CommandBedSetForPrisonersFailOutdoors>无法将室外的床设为囚犯专用。</CommandBedSetForPrisonersFailOutdoors>
+  <CommandBedSetForPrisonersDesc>把此房间内的所有床铺设为囚犯专用。</CommandBedSetForPrisonersDesc>
+  <CommandBedSetForPrisonersFailOutdoors>只有室内的床铺才能设为囚犯专用。</CommandBedSetForPrisonersFailOutdoors>
   <CommandBedSetAsMedicalLabel>医疗专用</CommandBedSetAsMedicalLabel>
   <CommandBedSetAsMedicalDesc>将此床设为医疗用途的床。</CommandBedSetAsMedicalDesc>
   <TurningOnPrisonerBedWarning>开启囚犯专用模式将会影响整个房间（囚犯和殖民者不能睡在同一个房间）。\n\n以下角色将会失去他们对床的所有权：</TurningOnPrisonerBedWarning>
@@ -149,11 +149,11 @@
 
   <!-- Form caravan -->
   <CommandFormCaravan>组建远行队</CommandFormCaravan>
-  <CommandFormCaravanDesc>组建一支可以前往新地区的殖民者队伍。殖民者会带着你指定的物资和随行动物，离开当前地区，并等待您的下一步指示。</CommandFormCaravanDesc>
+  <CommandFormCaravanDesc>组建一支可以前往新地区的殖民者队伍。殖民者会带着你指定的物资和随行动物，离开当前地区，并等待你的下一步指示。</CommandFormCaravanDesc>
 
   <!-- Reform caravan -->
   <CommandReformCaravan>重组远行队</CommandReformCaravan>
-  <CommandReformCaravanDesc>重新组建一支殖民者队伍。殖民者会带着你指定的物资和随行动物，离开当前地区，并等待您的下一步指示。</CommandReformCaravanDesc>
+  <CommandReformCaravanDesc>重新组建一支殖民者队伍。殖民者会带着你指定的物资和随行动物，离开当前地区，并等待你的下一步指示。</CommandReformCaravanDesc>
   <CommandReformCaravanFailHostilePawns>此地区内尚有敌人存在。</CommandReformCaravanFailHostilePawns>
 
   <!-- Split caravan -->
@@ -170,6 +170,8 @@
   <CommandSettleFailOtherWorldObjectsHere>只有在此单元格区域内仅有你的远行队存在时才能够在该地区定居。</CommandSettleFailOtherWorldObjectsHere>
   <CommandSettleFailAlreadyHaveBase>你的派系只能拥有一个殖民地。</CommandSettleFailAlreadyHaveBase>
   <CommandSettleFailReachedMaximumNumberOfBases>殖民地数量已达上限。</CommandSettleFailReachedMaximumNumberOfBases>
+  <CommandSettleFailBiomeNotImplemented>生态系统未实现。</CommandSettleFailBiomeNotImplemented>
+  <CommandSettleFailFactionBaseAdjacent>定居点互相之间不能直接相邻。</CommandSettleFailFactionBaseAdjacent>
 
   <!-- Abandon home -->
   <CommandAbandonHome>遗弃</CommandAbandonHome>
@@ -226,5 +228,13 @@
   <!-- Select next transporter -->
   <CommandSelectNextTransporter>选择下一个运输舱</CommandSelectNextTransporter>
   <CommandSelectNextTransporterDesc>选择本发射组中的下一个运输舱。</CommandSelectNextTransporterDesc>
+
+  <!-- Vent -->
+  <CommandDesignateOpenCloseVentLabel>指定开关</CommandDesignateOpenCloseVentLabel>
+  <CommandDesignateOpenCloseVentDesc>指定此通风孔开启或关闭。一位殖民者会尽快执行这项任务。</CommandDesignateOpenCloseVentDesc>
+
+  <!-- Remove waypoint -->
+  <CommandRemoveWaypointLabel>移除</CommandRemoveWaypointLabel>
+  <CommandRemoveWaypointDesc>移除此路径点。</CommandRemoveWaypointDesc>
 
 </LanguageData>

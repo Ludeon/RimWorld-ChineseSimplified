@@ -4,6 +4,18 @@
   <Cut.label>割伤</Cut.label>
   <Cut.deathMessage>{0}死于割伤。</Cut.deathMessage>
 
+
+  <!-- Surgical cut: Makes it possible to remove inner organs without harming outer body parts -->
+
+  <SurgicalCut.label>手术伤</SurgicalCut.label>
+  <SurgicalCut.deathMessage>{0}在手术中死亡。</SurgicalCut.deathMessage>
+
+
+  <!-- Execution cut: Makes it possible to distinguish execution damage from others -->
+
+  <ExecutionCut.label>处决</ExecutionCut.label>
+  <ExecutionCut.deathMessage>{0}被处决了。</ExecutionCut.deathMessage>
+
   <Crush.label>压伤</Crush.label>
   <Crush.deathMessage>{0}被压死了。</Crush.deathMessage>
 
@@ -43,24 +55,5 @@
   <Frostbite.label>冻伤</Frostbite.label>
   <Frostbite.deathMessage>{0}被冻死了。</Frostbite.deathMessage>
 
-
-  <!-- Surgical cut should not harm outer layers.
-       This makes it possible to remove inner organs without harming outer body parts -->
-
-  <SurgicalCut.label>手术伤</SurgicalCut.label>
-  <SurgicalCut.deathMessage>{0}在手术中死亡。</SurgicalCut.deathMessage>
-
-
-  <!-- Execution cut
-       This makes it possible to distinguish execution damage from others -->
-
-  <ExecutionCut.label>处决</ExecutionCut.label>
-  <ExecutionCut.deathMessage>{0}被处决了。</ExecutionCut.deathMessage>
-
-
-  <!-- Surgical cut should not harm outer layers.
-  This makes it possible to remove inner organs without harming outer body parts -->
-  <!-- Execution cut
-  This makes it possible to distinguish execution damage from others -->
 
 </LanguageData>

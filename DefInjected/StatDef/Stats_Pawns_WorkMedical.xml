@@ -1,20 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <MedicalOperationSpeed.label>手术速度</MedicalOperationSpeed.label>
+  <MedicalTendSpeed.label>医疗治疗速度</MedicalTendSpeed.label>
+  <MedicalTendSpeed.description>角色作为一名医生治疗伤患和病人的速度。</MedicalTendSpeed.description>
+
+  <MedicalTendQuality.label>医疗治疗质量</MedicalTendQuality.label>
+  <MedicalTendQuality.description>作为一名医生时给予病人治疗的质量。</MedicalTendQuality.description>
+
+  <MedicalOperationSpeed.label>医疗手术速度</MedicalOperationSpeed.label>
   <MedicalOperationSpeed.description>此人执行医疗手术的速度。</MedicalOperationSpeed.description>
 
-  <SurgerySuccessChance.label>手术成功几率</SurgerySuccessChance.label>
-  <SurgerySuccessChance.description>此人执行医疗手术的成功几率。手术出错时，轻则浪费时间和药物，重则会给病人带来伤害。</SurgerySuccessChance.description>
+  <MedicalSurgerySuccessChance.label>医疗手术成功几率</MedicalSurgerySuccessChance.label>
+  <MedicalSurgerySuccessChance.description>当角色尝试执行医疗手术时成功的可能性。手术出错时，轻则浪费时间和药物，重则给病人带来灾难性的伤害。</MedicalSurgerySuccessChance.description>
 
-  <HealingQuality.label>治疗质量</HealingQuality.label>
-  <HealingQuality.description>作为一个一名医生给予病人照料的质量。</HealingQuality.description>
-
-  <HealingSpeed.label>治疗速度</HealingSpeed.label>
-  <HealingSpeed.description>作为一个一名医生给予伤患照料的质量。</HealingSpeed.description>
-
-
-  <!--<BaseHealingQuality.label>基础治疗质量</BaseHealingQuality.label>-->
-  <!--<BaseHealingQuality.description>此人作为一名医生时，给予患者的基础治疗质量。</BaseHealingQuality.description>-->
 
 </LanguageData>

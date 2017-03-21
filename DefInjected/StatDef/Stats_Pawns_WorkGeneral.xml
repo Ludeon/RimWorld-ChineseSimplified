@@ -5,7 +5,10 @@
   <WorkSpeedGlobal.description>此人在做任何工作时的速度乘数。</WorkSpeedGlobal.description>
 
   <MiningSpeed.label>采矿速度</MiningSpeed.label>
-  <MiningSpeed.description>此人在开采矿石时的速度乘数。</MiningSpeed.description>
+  <MiningSpeed.description>此人在开采和钻取深层资源时的速度。</MiningSpeed.description>
+
+  <MiningYield.label>开采产出</MiningYield.label>
+  <MiningYield.description>矿工将达到的百分比产出。更高的百分比将减少产出的浪费几率。同时应用于开采和深钻采矿。</MiningYield.description>
 
   <SmoothingSpeed.label>打磨速度</SmoothingSpeed.label>
   <SmoothingSpeed.description>此人在打磨粗糙石面时的速度乘数。</SmoothingSpeed.description>
@@ -16,17 +19,23 @@
   <ConstructionSpeed.label>建造速度</ConstructionSpeed.label>
   <ConstructionSpeed.description>此人在建造与修理建筑物时的速度。</ConstructionSpeed.description>
 
+  <AnimalGatherSpeed.label>动物收集速度</AnimalGatherSpeed.label>
+  <AnimalGatherSpeed.description>此人挤奶、剪毛，以及其他从动物身上收集资源的速度。</AnimalGatherSpeed.description>
+
+  <AnimalGatherYield.label>动物收集产出</AnimalGatherYield.label>
+  <AnimalGatherYield.description>剪毛、挤奶，或其他从活着的动物身上收集资源时会得到的百分比产出。更高的百分比将减少产物的浪费几率。</AnimalGatherYield.description>
+
   <PlantWorkSpeed.label>种植速度</PlantWorkSpeed.label>
   <PlantWorkSpeed.description>此人在种植与收获植物时的速度。</PlantWorkSpeed.description>
 
-  <HarvestFailChance.label>收获失败几率</HarvestFailChance.label>
-  <HarvestFailChance.description>此人在收获过程中意外破坏收获物的几率。</HarvestFailChance.description>
+  <PlantHarvestYield.label>植物收获产出</PlantHarvestYield.label>
+  <PlantHarvestYield.description>收获植物时获取的产出。低产出会导致此人有一定几率意外地毁坏收获物。</PlantHarvestYield.description>
 
-  <ConstructFailChance.label>建造失败几率</ConstructFailChance.label>
-  <ConstructFailChance.description>此人在建造建筑物时失败的几率。失败时会浪费时间和原材料。</ConstructFailChance.description>
+  <ConstructSuccessChance.label>建造成功几率</ConstructSuccessChance.label>
+  <ConstructSuccessChance.description>此人建造时的成功几率。失败意味着浪费时间和资源。</ConstructSuccessChance.description>
 
-  <FixBrokenDownBuildingFailChance.label>修复失败几率</FixBrokenDownBuildingFailChance.label>
-  <FixBrokenDownBuildingFailChance.description>此人在修理损坏的建筑物（更换零部件）时失败的几率。</FixBrokenDownBuildingFailChance.description>
+  <FixBrokenDownBuildingSuccessChance.label>修理成功几率</FixBrokenDownBuildingSuccessChance.label>
+  <FixBrokenDownBuildingSuccessChance.description>此人成功地使用零部件修理损坏建筑的几率。失败意味着浪费时间和资源。注意此项仅应用于「损坏」，与修理「损伤」不同。</FixBrokenDownBuildingSuccessChance.description>
 
 
 </LanguageData>

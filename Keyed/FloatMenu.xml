@@ -9,12 +9,14 @@
   <CannotUseReserved>无法使用（已被预留）</CannotUseReserved>
   <CannotUseFull>无法使用（已满）</CannotUseFull>
   <LeaderUnavailable>首领{0}不可用</LeaderUnavailable>
+  <LeaderUnavailableNoLeader>首领不可用</LeaderUnavailableNoLeader>
 
   <FireAt>射击{0}</FireAt>
 
   <OutOfRange>超出射程</OutOfRange>
   <CannotHitTarget>无法击中目标</CannotHitTarget>
   <IsIncapableOfViolenceLower>{0}无暴力能力</IsIncapableOfViolenceLower>
+  <IncapableOfViolenceLower>无暴力能力</IncapableOfViolenceLower>
   <IsNotDraftedLower>{0}尚未被征召</IsNotDraftedLower>
   <CannotOrderNonControlledLower>无法命令非控制单位</CannotOrderNonControlledLower>
 
@@ -25,16 +27,16 @@
   <NoPath>没有路径</NoPath>
 
   <ForbiddenLower>已禁用</ForbiddenLower>
-  <ForbiddenOutsideAllowedAreaLower>位于活动区外</ForbiddenOutsideAllowedAreaLower>
+  <ForbiddenOutsideAllowedAreaLower>位于允许活动区域外</ForbiddenOutsideAllowedAreaLower>
   <NotInHomeArea>位于居住区外</NotInHomeArea>
   <SociallyImproperLower>不礼貌</SociallyImproperLower>
   <PrisonerRoomLower>囚犯房间</PrisonerRoomLower>
   <BurningLower>燃烧中</BurningLower>
-  <NoEmptyPlaceLower>需要正确设置的空储存区</NoEmptyPlaceLower>
+  <NoEmptyPlaceLower>未配置空余的、可到达的储存点</NoEmptyPlaceLower>
   <AlreadyFilledLower>已装满</AlreadyFilledLower>
   <MissingMaterials>需要材料</MissingMaterials>
   <MissingSkill>技能过低</MissingSkill>
-  <NoEmptyGraveLower>需要正确设置的空坟墓</NoEmptyGraveLower>
+  <NoEmptyGraveLower>未配置空的坟墓</NoEmptyGraveLower>
   <AnimalInteractedTooRecently>动物互动过于频繁</AnimalInteractedTooRecently>
   <NoUsableFood>缺少可用食物</NoUsableFood>
   <NoFood>缺少食物</NoFood>
@@ -42,6 +44,9 @@
   <NoComponentsToRepair>需要零部件</NoComponentsToRepair>
   <NoFuelToRefuel>需要{0}</NoFuelToRefuel>
   <NoWort>需要麦芽汁</NoWort>
+  <TheOnlyAvailableFoodIsInStorageOfHigherPriority>可用的食物位于更高优先级的储存器中</TheOnlyAvailableFoodIsInStorageOfHigherPriority>
+  <NoFoodToFillHopper>缺少合适的食物</NoFoodToFillHopper>
+  <SelfTendDisabled>自我治疗已禁用</SelfTendDisabled>
 
   <ConsumeThing>享用{0}</ConsumeThing>
 
@@ -62,9 +67,9 @@
   <CannotCarryToCryptosleepCasket>无法送入低温休眠舱</CannotCarryToCryptosleepCasket>
 
   <NoCryptosleepCasket>缺少可用的低温休眠舱。</NoCryptosleepCasket>
-  <NoPrisonerBed>牢房缺少空床铺，或无法到达，或未在室内。</NoPrisonerBed>
-  <NoNonPrisonerBed>缺少空床铺，或无法到达。</NoNonPrisonerBed>
-  <NoAnimalBed>缺少空动物床铺，或无法到达。</NoAnimalBed>
+  <NoPrisonerBed>缺少位于安全温度下的、可到达的、未预留的、室内的囚犯专用床铺。</NoPrisonerBed>
+  <NoNonPrisonerBed>缺少位于安全温度下的、可到达的、未预留的非囚犯专用床铺。</NoNonPrisonerBed>
+  <NoAnimalBed>缺少位于安全温度下的、可到达的、未预留的动物窝铺。</NoAnimalBed>
   <Reserved>已预留给其他人。</Reserved>
   <ReservedBy>已预留给{0}。</ReservedBy>
   <IsReservedBy>{0}已被预留给{1}。</IsReservedBy>
@@ -109,14 +114,14 @@
 
   <UseMedicalBed>休息直到康复</UseMedicalBed>
   <NotInjured>没有受伤</NotInjured>
-  <SomeoneElseSleeping>已被占用</SomeoneElseSleeping>
+  <SomeoneElseSleeping>已被{0}占用</SomeoneElseSleeping>
 
   <TradeWith>和{0}交易</TradeWith>
   <CannotTrade>无法交易</CannotTrade>
 
   <EnterMap>进入{0}</EnterMap>
-  <VisitFactionBase>访问{0}</VisitFactionBase>
-  <AttackFactionBase>进攻{0}</AttackFactionBase>
+  <VisitSettlement>访问{0}</VisitSettlement>
+  <AttackSettlement>进攻{0}</AttackSettlement>
 
   <!-- Specific thing interactions -->
   <EnterCryptosleepCasket>进入低温休眠舱</EnterCryptosleepCasket>
@@ -130,19 +135,25 @@
 
   <CannotGenericAlreadyAm>已经在{0}{1}中</CannotGenericAlreadyAm>
 
-  <CannotPrioritizeWorkTypeDisabled>无法优先（从来不做：{0}）</CannotPrioritizeWorkTypeDisabled>
+  <CannotPrioritizeWorkTypeDisabled>无法优先（无法从事：{0}）</CannotPrioritizeWorkTypeDisabled>
 
   <CannotPrioritizeNotAssignedToWorkType>无法优先（未指派工作：{0}）</CannotPrioritizeNotAssignedToWorkType>
 
   <CannotPrioritizeResearch>无法优先（研究为长期工作）</CannotPrioritizeResearch>
 
   <CannotPrioritizeForbidden>无法优先（{0}已被禁用）</CannotPrioritizeForbidden>
-  <CannotPrioritizeForbiddenOutsideAllowedArea>无法优先（{0}位于活动区外）</CannotPrioritizeForbiddenOutsideAllowedArea>
+  <CannotPrioritizeForbiddenOutsideAllowedArea>无法优先（{0}位于允许活动区域外）</CannotPrioritizeForbiddenOutsideAllowedArea>
 
   <!-- e.g. Prioritize GERUND OBJECT, Prioritize repairing wall, prioritize hauling metal, etc-->
   <PrioritizeGeneric>优先{0}{1}</PrioritizeGeneric>
 
   <DropAtEdge>空投至边缘</DropAtEdge>
   <DropInCenter>空投至中心</DropInCenter>
+
+  <VomitingLower>呕吐中</VomitingLower>
+  <NotInterruptibleLower>不可中断</NotInterruptibleLower>
+
+  <AddWaypoint>在此处添加新的路径点</AddWaypoint>
+  <RemoveWaypoint>移除此路径点</RemoveWaypoint>
 
 </LanguageData>

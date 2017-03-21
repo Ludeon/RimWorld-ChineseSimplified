@@ -6,34 +6,36 @@
   <OK>确定</OK>
 
   <!-- Game updated to new version -->
-  <GameUpdatedToNewVersionInitial>Rimworld已从版本{0}升级至{1}。\n\n升级可能会导致旧存档及Mod无法读取及使用。</GameUpdatedToNewVersionInitial>
-  <GameUpdatedToNewVersionNonSteam>因为您的游戏为免DRM版，您可以选择在不同的文件夹下安装新版本，因此可以同时玩旧版和新版。</GameUpdatedToNewVersionNonSteam>
-  <GameUpdatedToNewVersionSteam>您可以在Steam的「beta」选项中选择使用旧版进行游戏。\n\n  1. 在Steam游戏库中右击RimWorld.\n  2. 点击「属性」\n  3. 选择「测试」标签\n  4. 在下拉菜单中选择你想进行游戏的版本。\n\n旧版本最终会被从列表移除，该选项只是用于让您完成未完成的游戏。\n\n注意：如果Mod作者升级了Mod有可能导致它无法在旧版本中运行，您可以通过禁止自动更新来避免这一问题。</GameUpdatedToNewVersionSteam>
+  <GameUpdatedToNewVersionInitial>Rimworld已从{0}版本升级至{1}版本。</GameUpdatedToNewVersionInitial>
+  <GameUpdatedToNewVersionSavesIncompatible>升级可能会导致旧版存档及 Mod 无法读取及使用。</GameUpdatedToNewVersionSavesIncompatible>
+  <GameUpdatedToNewVersionSavesCompatible>旧版存档应该是兼容的，不过一些 Mod 可能无法使用。</GameUpdatedToNewVersionSavesCompatible>
+  <GameUpdatedToNewVersionNonSteam>因为你的游戏为免 DRM 版，你可以选择在不同的文件夹下安装新版本，因此可以同时玩旧版和新版。</GameUpdatedToNewVersionNonSteam>
+  <GameUpdatedToNewVersionSteam>你可以在 Steam 的「beta」选项中选择使用旧版进行游戏。\n\n  1. 在「Steam 游戏库」中右击 RimWorld\n  2. 点击「属性」\n  3. 选择「测试」标签页\n  4. 在下拉菜单中选择你想进行游戏的版本。\n\n旧版本最终会被从列表移除，该选项只是用于让你完成未完成的游戏。\n\n注意：如果 Mod 作者升级了 Mod 有可能导致它无法在旧版本中运行，你可以通过禁止自动更新来避免这一问题。</GameUpdatedToNewVersionSteam>
 
   <!-- Recovered from errors caused by mods -->
-  <RecoveredFromErrorsDialogTitle>从不兼容或损坏的ModS错误中恢复</RecoveredFromErrorsDialogTitle>
-  <RecoveredFromErrorsText>当前启用的某些Mod导致了错误。\n\n它们可能彼此之间不兼容，或者兼容不同的游戏版本或已经损坏。\n\n所有的Mod已被禁用，可以在Mod配置菜单中重新启用。</RecoveredFromErrorsText>
+  <RecoveredFromErrorsDialogTitle>从不兼容或损坏的 Mod 错误中恢复</RecoveredFromErrorsDialogTitle>
+  <RecoveredFromErrorsText>当前启用的某些 Mod 导致了错误。\n\n它们可能彼此之间不兼容，或者兼容不同的游戏版本或已经损坏。\n\n所有的 Mod 已被禁用，你可以在 Mod 配置菜单中重新启用。</RecoveredFromErrorsText>
 
   <!-- Errors during loading -->
   <ErrorWhileLoadingAssetsTitle>载入资源时出错</ErrorWhileLoadingAssetsTitle>
   <ErrorWhileLoadingAssets>载入游戏资源时发生错误。查看错误日志以了解更多信息。</ErrorWhileLoadingAssets>
-  <ErrorWhileLoadingAssets_ModsInfo>当前游戏载入了自定义的Mod，它们可能会引起这些问题。</ErrorWhileLoadingAssets_ModsInfo>
+  <ErrorWhileLoadingAssets_ModsInfo>当前游戏载入了自定义的 Mod，它们可能会引起这些问题。</ErrorWhileLoadingAssets_ModsInfo>
   <ErrorWhileGeneratingMapTitle>生成地图时出错</ErrorWhileGeneratingMapTitle>
   <ErrorWhileGeneratingMap>生成新地图时发生错误。查看错误日志以了解更多信息。</ErrorWhileGeneratingMap>
   <ErrorWhileLoadingMapTitle>载入地图时出错</ErrorWhileLoadingMapTitle>
   <ErrorWhileLoadingMap>载入地图时出现错误。查看错误日志以了解更多信息。</ErrorWhileLoadingMap>
 
   <!-- Unloaded mod with an assembly -->
-  <ModWithAssemblyWasUnloaded>游戏无法从已禁用的Mod中完全卸载被修改的代码，因此被禁用的Mod可能依然会生效。\n\n我们推荐您退出并重启游戏，以正确的载入Mod。</ModWithAssemblyWasUnloaded>
+  <ModWithAssemblyWasUnloaded>游戏无法从已关闭的 Mod 中完全卸载被修改的代码，因此被关闭的 Mod 可能依然会生效。\n\n我们推荐你退出并重启游戏，以正确的载入 Mod。</ModWithAssemblyWasUnloaded>
 
   <!-- Missing Steam -->
-  <SteamClientMissing>无法初始化Steam API。可能原因：\n\n- Steam未运行。\n- 在Steam之外启动，且无法载入steam_appid.txt。\n- 通过和Steam客户端不同的权限启动（比如「管理员身份」）。\n\n在大部分时候，重启你的电脑即可解决这个问题。\n\n你可以继续游戏，但Steam统计信息将不会被记录，且Steam特性将不会生效。</SteamClientMissing>
+  <SteamClientMissing>无法初始化 Steam API。可能原因：\n\n- Steam 未运行。\n- 在 Steam 之外启动，且无法载入 steam_appid.txt 。\n- 通过和 Steam 客户端不同的权限启动（比如「管理员身份」）。\n\n在大部分时候，重启你的电脑即可解决这个问题。\n\n你可以继续游戏，但 Steam 统计信息将不会被记录，且 Steam 功能将不会生效。</SteamClientMissing>
 
   <!-- Long events -->
   <InitializingInterface>初始化界面</InitializingInterface>
   <UnloadingUnusedAssets>释放未使用的资源</UnloadingUnusedAssets>
-  <LoadingAllActiveMods>载入所有启用的Mod</LoadingAllActiveMods>
-  <LoadingDefs>载入Defs</LoadingDefs>
+  <LoadingAllActiveMods>载入所有启用的 Mod</LoadingAllActiveMods>
+  <LoadingDefs>载入 Defs</LoadingDefs>
   <LoadingAssets>载入资源</LoadingAssets>
   <Initializing>初始化中</Initializing>
   <LoadingWorld>载入世界</LoadingWorld>
@@ -48,13 +50,13 @@
   <OverwriteButton>覆盖</OverwriteButton>
   <ConfirmDelete>你确定要删除「{0}」吗？</ConfirmDelete>
   <DeleteThisSavegame>删除此存档。</DeleteThisSavegame>
-  <SavedAs>已保存为{0}。</SavedAs>
+  <SavedAs>已保存为「{0}」。</SavedAs>
   <NeedAName>请输入一个名称。</NeedAName>
   <LoadingLongEvent>载入中</LoadingLongEvent>
   <SavingLongEvent>保存中</SavingLongEvent>
   <PermadeathModeSaveSuffix>（永久死亡模式）</PermadeathModeSaveSuffix>
-  <SaveIsFromDifferentGameVersion>当前运行的游戏版本是 {0} 但是存档数据版本是 {1}，二者为完全不同的主版本。\n\n尝试载入不可能成功。</SaveIsFromDifferentGameVersion>
-  <SaveIsFromDifferentGameBuild>当前运行的游戏版本是{0} 但是存档数据版本是 {1}， 二者不同的副版本。\n\n尝试载入有可能成功。</SaveIsFromDifferentGameBuild>
+  <SaveIsFromDifferentGameVersion>当前运行的游戏版本是 {0}，但是存档数据版本是 {1}，二者为完全不同的主版本。\n\n尝试载入不可能成功。</SaveIsFromDifferentGameVersion>
+  <SaveIsFromDifferentGameBuild>当前运行的游戏版本是 {0}，但是存档数据版本是 {1}， 二者不同的副版本。\n\n尝试载入有可能成功。</SaveIsFromDifferentGameBuild>
   <SaveIsFromThisGameBuild>存档数据版本和当前运行的游戏版本一致，可以正确载入。</SaveIsFromThisGameBuild>
   <SaveIsUnknownFormat>存档数据格式错误，无法正确载入。</SaveIsUnknownFormat>
   <ProblemSavingFile>保存文件{0}时出现了错误：\n\n{1}\n\n查看错误日志以了解更多信息。</ProblemSavingFile>
@@ -84,8 +86,8 @@
 
   <!-- Save game incompatible warning -->
   <VersionMismatch>版本不匹配</VersionMismatch>
-  <SaveGameIncompatibleWarningText>游戏存档版本为{0}，当前运行游戏版本为{1}。\n\n 载入这个存档很可能会造成游戏崩溃或产生游戏BUG。</SaveGameIncompatibleWarningText>
-  <WorldFileVersionMismatch>世界生成版本为{0}，当前运行游戏版本为{1}。\n\n 载入这个世界很可能会造成游戏崩溃或产生游戏BUG。建议你重新生成一个新世界。</WorldFileVersionMismatch>
+  <SaveGameIncompatibleWarningText>游戏存档版本为 {0}，当前运行游戏版本为 {1}。\n\n 载入这个存档很可能会造成游戏崩溃或产生游戏 bug。</SaveGameIncompatibleWarningText>
+  <WorldFileVersionMismatch>世界生成版本为 {0}，当前运行游戏版本为 {1}。\n\n 载入这个世界很可能会造成游戏崩溃或产生游戏 bug。建议你重新生成一个新世界。</WorldFileVersionMismatch>
   <FileIncompatibleWarning>保存该文件的游戏版本为{0}。\n当前运行游戏版本为{1}\n\n载入该文件可能导致错误或崩溃。</FileIncompatibleWarning>
   <ModsMismatchWarningTitle>Mod不匹配</ModsMismatchWarningTitle>
   <ModsMismatchWarningText>存档的Mod启用设定和当前游戏运行的设定不同，你改动了Mod，根据Mod的内容有可能发生问题，也有可能正常。\n\n存档的Mod启用设定是（按照顺序）：\n\n{0}\n\n当前运行的Mod启用设定是（按照顺序）：\n\n{1}</ModsMismatchWarningText>
@@ -128,7 +130,7 @@
   <RepeatCount>重复：{0}次</RepeatCount>
   <Forever>永远</Forever>
   <Details>详细</Details>
-  <IngredientSearchRadius>原料搜索半径</IngredientSearchRadius>
+  <IngredientSearchRadius>材料搜索半径</IngredientSearchRadius>
   <CurrentlyHave>目前有</CurrentlyHave>
   <CountingProducts>计数</CountingProducts>
   <Infinite>无限</Infinite>
@@ -139,9 +141,9 @@
   <MinimumSkills>最低技能要求：</MinimumSkills>
   <BillRequires>需要{0}{1}</BillRequires>
   <BillRequiresNutrition>需要营养共计{0}的</BillRequiresNutrition>
-  <BillRequiresMayVary>注意：小体积原料（比如黄金）消耗原料需乘20倍。</BillRequiresMayVary>
-  <ThisIsSmallVolume>这是种小体积原料，每单位只有正常体积的1/20。所以，如果要求同样数量的原料，实际需要数量是的20倍。</ThisIsSmallVolume>
-  <UsableIngredients>可用原料</UsableIngredients>
+  <BillRequiresMayVary>注意：小体积材料（比如黄金）消耗材料需乘{0}倍。</BillRequiresMayVary>
+  <ThisIsSmallVolume>这是种小体积材料，每单位只有正常体积材料的1/{0}。所以，如果要求同样数量的材料，实际需要数量是的{0}倍。</ThisIsSmallVolume>
+  <UsableIngredients>可用材料</UsableIngredients>
   <DoXTimes>做X次</DoXTimes>
   <DoUntilYouHaveX>维持X个</DoUntilYouHaveX>
   <DoForever>不限次数</DoForever>
@@ -149,6 +151,11 @@
   <BillStoreMode_DropOnFloor>放在地上</BillStoreMode_DropOnFloor>
   <BillStoreMode_BestStockpile>放到最合适的储存区</BillStoreMode_BestStockpile>
   <BillStoreMode_NearestStockpileAnyPriority>放到最近的储存区</BillStoreMode_NearestStockpileAnyPriority>
+
+  <PauseWhenSatisfied>数量达到时暂停</PauseWhenSatisfied>
+  <UnpauseWhenYouHave>解除暂停数量</UnpauseWhenYouHave>
+  <Paused>已暂停</Paused>
+  <Unpause>解除暂停</Unpause>
 
   <!-- Info card -->
   <Damage>伤害</Damage>
@@ -184,7 +191,6 @@
   <CoverEffectiveness>掩体效果</CoverEffectiveness>
   <CoverEffectivenessExplanation>在枪战时该物体所能提供的掩体效果，更高的数值能够挡住更多的伤害。</CoverEffectivenessExplanation>
   <MedicineXpGainFactor>经验获得系数</MedicineXpGainFactor>
-  <BodyPartEfficiency>身体部件效率</BodyPartEfficiency>
   <MoodChange>心情值改变</MoodChange>
   <Wildness>野性</Wildness>
   <WildnessExplanation>动物的野性越高，越难驯服、训练和操纵。</WildnessExplanation>
@@ -212,7 +218,8 @@
   <TraderHasNoMore>贸易商没有货物了。</TraderHasNoMore>
   <ColonyHasNoMore>殖民地没有货物了。</ColonyHasNoMore>
   <TraderWillNotTrade>贸易商不想交易这种商品。</TraderWillNotTrade>
-  <NegotiatorTalkingImpaired>你的谈判人员{0}由于健康原因而无法正常谈判。\n\n这将影响到贸易价格.\n\n请考虑换一个身体健康的殖民者来谈判。</NegotiatorTalkingImpaired>
+  <Negotiator>谈判者</Negotiator>
+  <NegotiatorTalkingImpaired>你的谈判者{0}由于健康原因而无法正常谈判。\n\n这将影响到贸易价格.\n\n请考虑换一个身体健康的殖民者来谈判。</NegotiatorTalkingImpaired>
   <ConfirmTraderShortFunds>贸易商没有足够的白银支付这次交易，继续么？</ConfirmTraderShortFunds>
   <SortBy>排序方式</SortBy>
   <TraderTypePrice>贸易商类型</TraderTypePrice>
@@ -243,16 +250,21 @@
   <CaravanMassUsageTooltip>当前载重占用与载重能力。\n\n载重占用包括指派的远行队物资以及殖民者当前的装备。\n\n如果占用超过载重能力，你的远行队将无发出发。</CaravanMassUsageTooltip>
   <MassUsageInfo>{0} / {1} kg</MassUsageInfo>
   <DaysWorthOfFoodInfo>{0} 天食物量</DaysWorthOfFoodInfo>
+  <DaysWorthOfFoodInfoRot>{0} 天食物量，{1} 天后变质</DaysWorthOfFoodInfoRot>
   <InfiniteDaysWorthOfFoodInfo>食物永远不会耗尽</InfiniteDaysWorthOfFoodInfo>
   <DaysWorthOfFoodTooltip>远行队所携带的食物预计可以维持的天数。\n\n计算包括人类和动物的食物，并考虑最坏的情况。 这表示这么多天后，至少有一个动物或人将会没有食物。</DaysWorthOfFoodTooltip>
+  <DaysWorthOfFoodTooltip_CanEatLocalPlants>基于当前季节、温度，以及环境，我们假设食草动物「可以」食用当地植物。不过这随时会改变。</DaysWorthOfFoodTooltip_CanEatLocalPlants>
+  <DaysWorthOfFoodTooltip_CantEatLocalPlants>基于当前季节、温度，以及环境，我们假设食草动物「无法」食用当地植物。不过这随时会改变。</DaysWorthOfFoodTooltip_CantEatLocalPlants>
   <DaysWorthOfFoodWarningDialog>你的远行队只带了{0}天的食物，很快便会出现饥饿情况。。\n\n确定要组建这支远行队吗？</DaysWorthOfFoodWarningDialog>
   <DaysWorthOfFoodWarningDialog_NoFood>你的远行队没有携带任何食物，很快便会出现饥饿情况。\n\n确定要组建这支远行队吗？</DaysWorthOfFoodWarningDialog_NoFood>
+  <CaravanFoodWillRotSoonWarningDialog>大部分指定的食物即将变质\n\n确定要组建这支远行队吗？</CaravanFoodWillRotSoonWarningDialog>
   <NoExitDirectionForCaravanChosen>你必须为远行队选择一个离开的方向。</NoExitDirectionForCaravanChosen>
   <NoCaravanExitDirectionAvailable>(没有可用的离开方向)</NoCaravanExitDirectionAvailable>
   <ExitDirection>离开方向</ExitDirection>
   <ExitDirectionRadioButtonLabel>{0}（{1}，{2}）</ExitDirectionRadioButtonLabel>
   <ItemWeightTip>此物品的重量</ItemWeightTip>
   <MarketValueTip>市场价值</MarketValueTip>
+  <DaysUntilRotTip>基于此地区平均温度，此物品开始变质前的天数。</DaysUntilRotTip>
   <MassCapacity>载重能力</MassCapacity>
   <Mass>重量</Mass>
   <EquipmentAndApparelMass>装备和衣物重量</EquipmentAndApparelMass>
@@ -262,6 +274,7 @@
   <ColonistsSection>殖民者</ColonistsSection>
   <PrisonersSection>囚犯</PrisonersSection>
   <AnimalsSection>动物</AnimalsSection>
+  <EstimatedTimeToDestinationButton>到达目的地预计耗时</EstimatedTimeToDestinationButton>
 
   <!-- Split caravan -->
   <SplitCaravan>拆分旅行队</SplitCaravan>
@@ -337,11 +350,22 @@
   <DrugUsageTipForJoy>娱乐目的\n\n为了消除压力及在社交活动时服用。\n\n注意，即使是在禁用成瘾品的方针下，当殖民者精神崩溃或具有某些特性时依然会无视规定使用成瘾品。</DrugUsageTipForJoy>
   <DrugUsageTipScheduled>计划服用\n\n当特定条件满足时，根据指定的日程安排服用药物和成瘾品。</DrugUsageTipScheduled>
 
+  <!-- Medical settings -->
+  <MedGroupDefaults>默认</MedGroupDefaults>
+  <MedGroupColonist>殖民者</MedGroupColonist>
+  <MedGroupImprisonedColonist>被监禁的殖民者</MedGroupImprisonedColonist>
+  <MedGroupColonyAnimal>殖民地动物</MedGroupColonyAnimal>
+  <MedGroupNeutralAnimal>中立动物</MedGroupNeutralAnimal>
+  <MedGroupNeutralFaction>中立派系</MedGroupNeutralFaction>
+  <MedGroupHostileFaction>敌对派系</MedGroupHostileFaction>
+
   <!-- Growing -->
   <NoGrowerCanPlant>播种{0}最低需要{1}级种植技能。\n\n你没有达到该技能要求的种植者，因此这种植物将不会被播种。</NoGrowerCanPlant>
 
   <!-- Abandon home -->
   <ConfirmAbandonHomeWithColonyPawns>你的一些殖民者或动物仍然在这个区域里。你确定要遗弃这一区域吗？\n\n这些人或动物会被留在这里：\n\n{0}</ConfirmAbandonHomeWithColonyPawns>
+  <ConfirmAbandonHomeNegativeThoughts>遗弃{0}会导致以下人员产生以下想法：</ConfirmAbandonHomeNegativeThoughts>
+  <ConfirmAbandonHomeNegativeThoughts_Everyone>所有人：</ConfirmAbandonHomeNegativeThoughts_Everyone>
 
   <!-- Move caravan and leave prisoners and animals behind -->
   <ConfirmLeavePrisonersOrAnimalsBehind>该区域内还有一些囚犯和动物，而且这是他们现在唯一可以加入的远行队。\n\n如果你移动你的远行队，这些囚犯和动物在你回来之前将不能离开这里。 囚犯们会开始逃跑，但是你的动物会等你回来。\n\n如果你决定稍作等待，他们会试着尽快加入你的远行队。\n\n确定要移动远行队吗？</ConfirmLeavePrisonersOrAnimalsBehind>
@@ -355,5 +379,7 @@
 
   <!-- Send transport pods which are not completely loaded -->
   <ConfirmSendNotCompletelyLoadedPods>发射组并没有完成装载进程。 {0} 还未进入运输舱。确定要发射吗？</ConfirmSendNotCompletelyLoadedPods>
+
+  <!--<BodyPartEfficiency>身体部件效率</BodyPartEfficiency>-->
 
 </LanguageData>

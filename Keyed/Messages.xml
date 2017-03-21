@@ -17,6 +17,7 @@
 
   <MessageVisitorsTakingWounded>来自{1}的{0}正准备带走一名受伤的访客。</MessageVisitorsTakingWounded>
   <MessageVisitorsTrappedLeaving>来自{1}的{0}被困住了并准备挖隧道逃跑了。</MessageVisitorsTrappedLeaving>
+  <MessageVisitorsDangerousTemperature>来自{1}的{0}由于温度危险正在离开地图。</MessageVisitorsDangerousTemperature>
 
   <MessageWornApparelDeterioratedAway>{1}穿着的{0}完全磨损烂掉了。</MessageWornApparelDeterioratedAway>
 
@@ -153,7 +154,7 @@
 
   <MessageCaravanArrivedAtDestination>{0}已抵达目的地。</MessageCaravanArrivedAtDestination>
 
-  <MessageCaravanIsVisitingFaction>{0}已抵达{1}。</MessageCaravanIsVisitingFaction>
+  <MessageCaravanIsVisitingSettlement>{0}已抵达{1}。</MessageCaravanIsVisitingSettlement>
 
   <MessageCaravanEnteredWorldObject>{0}已抵达{1}。</MessageCaravanEnteredWorldObject>
 
@@ -170,6 +171,8 @@
   <MessageRescueeJoined>因为你救了HIM, {0}加入了你的团队!</MessageRescueeJoined>
 
   <MessageAttackedCaravanIsNowHostile>由于你攻击了{0}的一只远行队，该派系现在与你敌对。</MessageAttackedCaravanIsNowHostile>
+  <MessageFactionPawnCrushed>{0}因屋顶塌方而死了人。派系关系：{1}</MessageFactionPawnCrushed>
+  <MessageFactionPawnLost>{0}的{1}死了。派系关系：{2}</MessageFactionPawnLost>
 
   <MessageTransporterUnreachable>一些运输舱无法到达。</MessageTransporterUnreachable>
   <MessageTransportersNotAdjacent>所有连接到所选运输舱的发射器必须相邻。</MessageTransportersNotAdjacent>
@@ -181,6 +184,7 @@
 
   <MessageTransportPodsArrived>你的运输舱已经抵达目的地。</MessageTransportPodsArrived>
   <MessageTransportPodsArrivedAndLost>你的运输舱已经抵达目的地，但由于里面没有殖民者，货物已丢失。</MessageTransportPodsArrivedAndLost>
+  <MessageTransportPodsArrivedAndAddedToCaravan>你的运输舱已抵达目的地。内部的成员或货物已加入你的远行队。</MessageTransportPodsArrivedAndAddedToCaravan>
   <MessageTransportPodsArrived_BecameHostile>{0}现在与你是敌对关系。</MessageTransportPodsArrived_BecameHostile>
 
   <MessageFailedToLoadTransportersBecauseColonistLost>由于其中一个殖民者丢失，装载进程已取消。</MessageFailedToLoadTransportersBecauseColonistLost>
@@ -204,5 +208,18 @@
   <MessageSelectOwnBaseToFormCaravan>如要组建远行队，请选择你自己的殖民地或留有你的殖民者的地点。</MessageSelectOwnBaseToFormCaravan>
 
   <MessageScreenResTooSmallForUIScale>在当前的分辨率和界面缩放比例下，游戏界面将不能正常在屏幕上显示。请减小界面缩放比例或者增大分辨率。</MessageScreenResTooSmallForUIScale>
+
+  <MessageYouHaveToReformCaravanNow>你现在必须重组远行队。留下的所有人将会变成无法访问状态。</MessageYouHaveToReformCaravanNow>
+
+  <MessageDefendersAttacking>来自{1}的{0}正在攻击你的{2}。</MessageDefendersAttacking>
+
+  <MessageSelfTendUnsatisfied>{0}已启用自我治疗，但未指派「医生」工作。</MessageSelfTendUnsatisfied>
+
+  <MessageCantAddWaypointBecauseImpassable>此格子无法通行。</MessageCantAddWaypointBecauseImpassable>
+  <MessageCantAddWaypointBecauseUnreachable>无法从最后一个路径点到达此格子。</MessageCantAddWaypointBecauseUnreachable>
+  <MessageCantAddWaypointBecauseLimit>路径点不能超过{0}个。</MessageCantAddWaypointBecauseLimit>
+  <MessageCantRemoveWaypointBecauseFirst>此路径点无法移除。</MessageCantRemoveWaypointBecauseFirst>
+
+  <MessageCantDoExecutionBecauseNoWardenCapableOfViolence>没有可行使暴力行为的狱卒。处决不会被执行。</MessageCantDoExecutionBecauseNoWardenCapableOfViolence>
 
 </LanguageData>

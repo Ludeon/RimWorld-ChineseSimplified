@@ -42,6 +42,7 @@
   <WorldSeed>种子</WorldSeed>
   <RandomizeSeed>随机种子</RandomizeSeed>
   <PlanetCoverageTip>星球的大小是固定的, 但由于它远远超出正常游戏所需，所以我们默认不会生成整个行星的表面（可能需要很多时间）。这个选项为你所想生成的星球表面比率。</PlanetCoverageTip>
+  <WorldFactionsTab>派系</WorldFactionsTab>
 
   <!--=========== Select world ===================-->
   <SelectWorld>选择世界</SelectWorld>
@@ -114,6 +115,7 @@
   <BiomeNotImplemented>该生态系统在游戏中尚未实现。</BiomeNotImplemented>
   <CannotLandImpassableMountains>你不能在无法逾越的山脉上着陆。</CannotLandImpassableMountains>
   <BaseAlreadyThere>该位置已被{0}的基地所占用。</BaseAlreadyThere>
+  <FactionBaseAdjacent>定居点互相之间不能直接相邻。</FactionBaseAdjacent>
   <Biome>生态系统</Biome>
   <Terrain>地形</Terrain>
   <Elevation>海拔</Elevation>
@@ -132,6 +134,7 @@
   <MovementTimeNow>当前移动耗时</MovementTimeNow>
   <MovementTimeSummer>夏季移动耗时</MovementTimeSummer>
   <MovementTimeWinter>冬季移动耗时</MovementTimeWinter>
+  <AnimalsCanGrazeNow>当前可否放牧动物</AnimalsCanGrazeNow>
 
 
   <!--=========== Character chooser ==========-->
@@ -168,6 +171,7 @@
 
   <!--============ Progress bar==============-->
   <GeneratingWorld>生成世界中</GeneratingWorld>
+  <GeneratingPlanet>生成星球中</GeneratingPlanet>
   <GeneratingMap>生成地图中</GeneratingMap>
   <GeneratingMapForNewEncounter>生成新地区地图中</GeneratingMapForNewEncounter>
 

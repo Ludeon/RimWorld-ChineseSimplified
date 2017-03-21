@@ -2,6 +2,7 @@
 <LanguageData>
 
   <!-- Various -->
+  <HitPointsBasic>耐久度</HitPointsBasic>
   <WorkLeft>剩余工作量</WorkLeft>
   <Contents>内容</Contents>
   <ContainedResources>包含资源</ContainedResources>
@@ -24,7 +25,7 @@
   <FreshMissingBodyPart>新鲜</FreshMissingBodyPart>
   <DevelopedImmunityLower>产生免疫</DevelopedImmunityLower>
   <NeedsTendingNow>当前需要治疗</NeedsTendingNow>
-  <NextTreatmentIn>于{0}后将需要治疗</NextTreatmentIn>
+  <NextTendIn>于{0}后将需要治疗</NextTendIn>
   <MissingMedicalBillIngredient>缺少{0}</MissingMedicalBillIngredient>
   <Immunity>免疫性</Immunity>
   <Race>种族</Race>
@@ -65,10 +66,11 @@
   <RadiusExpandsIn>扩大半径至</RadiusExpandsIn>
   <Permanent>永久</Permanent>
   <CaravanResting>休息中。</CaravanResting>
-  <CaravanEstimatedTimeToDestination>预计抵达时间：{0}</CaravanEstimatedTimeToDestination>
+  <CaravanEstimatedTimeToDestination>预计抵达耗时：{0}天</CaravanEstimatedTimeToDestination>
   <CaravanImmobilizedByMass>无法移动：货物过重</CaravanImmobilizedByMass>
   <CaravanOutOfFood>给养耗尽。</CaravanOutOfFood>
   <CaravanDaysOfFood>给养天数：{0}</CaravanDaysOfFood>
+  <CaravanDaysOfFoodRot>给养天数：{0}，{1}天后变质</CaravanDaysOfFoodRot>
   <CaravanMemberMentalBreak>停止原因：{0}精神崩溃。</CaravanMemberMentalBreak>
   <AllCaravanMembersDowned>停止原因：全员无行动能力。</AllCaravanMembersDowned>
   <CaravanTraveling>行进中。</CaravanTraveling>
@@ -79,7 +81,7 @@
   <Temperature>温度</Temperature>
   <BadTemperature>温度不适宜</BadTemperature>
   <IdealFermentingTemperature>理想发酵温度</IdealFermentingTemperature>
-  <DrugEffectMultiplier>{0}效果乘数</DrugEffectMultiplier>
+  <DrugEffectMultiplier>{0}效果乘数：{1}</DrugEffectMultiplier>
   <CaravanVisiting>正在拜访{0}。</CaravanVisiting>
   <CaravanEntering>正在进入{0}。</CaravanEntering>
   <CaravanAttacking>正在进攻{0}。</CaravanAttacking>
@@ -101,7 +103,10 @@
   <TransportPodInGroupHasSomethingLeftToLoad>装载未完成</TransportPodInGroupHasSomethingLeftToLoad>
   <TransportPodDestinationBeyondMaximumRange>目标超出射程</TransportPodDestinationBeyondMaximumRange>
   <TransportPodNotEnoughFuel>燃料不足</TransportPodNotEnoughFuel>
-  <FactionBaseTrader>来自{1}的{0}</FactionBaseTrader>
+  <SettlementTrader>{1} 的 {0}</SettlementTrader>
+  <RoomSurgerySuccessChanceFactor>房间手术成功率系数</RoomSurgerySuccessChanceFactor>
+  <RoomInfectionChanceFactor>房间治疗感染率系数</RoomInfectionChanceFactor>
+  <VentClosed>已关闭</VentClosed>
 
   <!-- Fermentation barrel -->
   <ContainsWort>装有麦芽汁：{0} / {1}</ContainsWort>
@@ -114,7 +119,9 @@
   <Headshot>命中头部</Headshot>
   <TextMote_TreatSuccess>治疗成功！\n{0}几率</TextMote_TreatSuccess>
   <TextMote_TreatFailed>治疗失败\n{0}几率</TextMote_TreatFailed>
-  <HarvestFailed>收获失败</HarvestFailed>
+  <TextMote_HarvestFailed>收获\n失败</TextMote_HarvestFailed>
+  <TextMote_YieldWasted>产出\n浪费</TextMote_YieldWasted>
+  <TextMote_ProductWasted>产物\n浪费</TextMote_ProductWasted>
   <TextMote_RecruitFail>招募失败\n{0}几率</TextMote_RecruitFail>
   <TextMote_TameFail>驯服失败\n{0}几率</TextMote_TameFail>
   <TextMote_TameSuccess>驯服成功！\n{0}几率</TextMote_TameSuccess>
@@ -122,6 +129,7 @@
   <TextMote_TrainSuccess>训练成功：{0}\n{1}几率</TextMote_TrainSuccess>
   <TextMote_FixBrokenDownBuildingFail>修复失败</TextMote_FixBrokenDownBuildingFail>
   <TextMote_ConstructionFail>建造失败</TextMote_ConstructionFail>
+  <TextMote_Dodge>闪避</TextMote_Dodge>
 
   <!-- Areas -->
   <Home>居住区</Home>
@@ -175,6 +183,7 @@
   <!-- Lord job reports -->
   <LordReportAttendingMarriageCeremony>正在参加婚礼。</LordReportAttendingMarriageCeremony>
   <LordReportAttendingParty>正在参加聚会。</LordReportAttendingParty>
+  <LordReportFormingCaravan>正在组建远行队。</LordReportFormingCaravan>
 
   <!-- Shooting report -->
   <WeaponMissRadius>武器误差半径</WeaponMissRadius>
@@ -194,6 +203,8 @@
   <RecipeMakeJobString>正在制作{0}。</RecipeMakeJobString>
   <RecipeAdminister>施用{0}</RecipeAdminister>
   <RecipeAdministerJobString>正在施用{0}。</RecipeAdministerJobString>
+  <TeetotalerUnhappy>成瘾品厌恶者会变得不开心</TeetotalerUnhappy>
+  <ProsthophobeUnhappy>仿生学恐惧者会变得不开心</ProsthophobeUnhappy>
 
   <!-- Thoughts -->
   <ThoughtExpiresIn>消逝时间：{0}</ThoughtExpiresIn>
@@ -212,10 +223,12 @@
   <EquippedNothing>（无）</EquippedNothing>
   <Dead>死亡</Dead>
   <Unconscious>失去知觉</Unconscious>
-  <PainShock>因疼痛休克</PainShock>
+  <PainShock>因疼痛而休克</PainShock>
+  <PainShockShort>疼痛休克</PainShockShort>
   <Incapacitated>无法行动</Incapacitated>
   <InRestraints>关押中（速度减慢）</InRestraints>
   <Carrying>携带</Carrying>
+  <AffectedBy>受到以下影响：</AffectedBy>
 
   <!-- Inspector general stuff -->
   <SelectNextInSquareTip>选择当前方格内的下一件东西。\n\n快捷键：{0}\n\n你也可用鼠标左键慢速重复点击同个方格来选择下一件物品。</SelectNextInSquareTip>
@@ -440,5 +453,17 @@
   <!-- Compass -->
   <CompassTip>指示北方。点击以旋转镜头使北极处在上方。</CompassTip>
 
+  <!-- Distance measure -->
+  <RoutePlannerButtonTip>点击以进入规划模式，你可以规划你的行程和计算路径点之间的距离。</RoutePlannerButtonTip>
+  <RoutePlannerAddTwoOrMoreWaypoints>添加两个或更多的路径点。</RoutePlannerAddTwoOrMoreWaypoints>
+  <RoutePlannerAddOneOrMoreWaypoints>添加一个或更多的路径点。</RoutePlannerAddOneOrMoreWaypoints>
+  <RoutePlannerEstTimeToFinalDest>总计路程耗时：{0}</RoutePlannerEstTimeToFinalDest>
+  <RoutePlannerUsingAverageTicksPerMoveWarning>规划模式使用默认远行队速度。实际速度可能不同。</RoutePlannerUsingAverageTicksPerMoveWarning>
+  <RoutePlannerUsingTicksPerMoveOfCaravan>计算：{0}</RoutePlannerUsingTicksPerMoveOfCaravan>
+  <RoutePlannerPressRMBToAddAndRemoveWaypoints>鼠标右键：添加或移除路径点。</RoutePlannerPressRMBToAddAndRemoveWaypoints>
+  <RoutePlannerPressEscapeToExit>ESC键：退出规划模式</RoutePlannerPressEscapeToExit>
+  <RoutePlannerPressEscapeToReturnToCaravanFormationDialog>ESC键：返回远行队组建对话框。</RoutePlannerPressEscapeToReturnToCaravanFormationDialog>
+  <EstimatedTimeToThisWaypoint>到达此路径点预计耗时：{0}</EstimatedTimeToThisWaypoint>
+  <EstimatedTimeToThisWaypointFromPrevious>此路径点与前一个路径点之间预计耗时：{0}</EstimatedTimeToThisWaypointFromPrevious>
 
 </LanguageData>
