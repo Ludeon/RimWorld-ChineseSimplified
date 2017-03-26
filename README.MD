@@ -22,17 +22,17 @@ http://ludeon.com/forums/index.php?topic=2933.0
 
 * 0.17 (Alpha 17)
 
-**本项目已正式进入 0.17 版本，下载 0.16 及 0.15 版本请进入下载页面下载对应版本。**
+**本项目已正式进入 0.17 版本，0.16 及 0.15 版本请进入下方的「下载页面」下载对应版本。**
 
 
-### 下载：
+### 下载页面：
 
-* [GitHub 下载](https://github.com/Ludeon/RimWorld-ChineseSimplified/releases)
-* [Coding 下载](https://coding.net/u/duduluu/p/RimWorld-ChineseSimplified/git/tags)
+* [GitHub 下载页面](https://github.com/Ludeon/RimWorld-ChineseSimplified/releases)
+* [Coding 下载页面](https://coding.net/u/duduluu/p/RimWorld-ChineseSimplified/git/tags)
 
-> 这是游戏的中文补丁，并不是完整的游戏程序。支持正版请通过 Steam 购买。
-> 由于万恶的电信和 GFW，大陆用户从 Github 下载可能速度很慢，可选择 Coding 下载。
-> 在每次发布新版 RimWorld 前，开发组会同步内置的翻译文件。但由于某些原因（翻译组没赶上开发组的进度，或者开发组忘记同步文件了），官方内置的翻译版本会落后于本项目，玩家可自行下载安装。安装方法见下文。
+> 这是游戏的中文补丁，并不是完整的游戏程序。支持正版请通过 Steam 购买。  
+> 由于万恶的电信和 GFW，大陆用户从 Github 下载可能速度很慢，可选择 Coding 下载。  
+> 在每次发布新版 RimWorld 前，开发组会同步内置的翻译文件。但由于某些原因（翻译组没赶上开发组的进度，或者开发组忘记同步文件了），官方内置的翻译版本会落后于本项目，玩家可自行下载安装。安装方法见下文。  
 
 
 ### 安装方法：
