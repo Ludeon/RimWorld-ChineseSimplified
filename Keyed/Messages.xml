@@ -214,6 +214,7 @@
   <MessageDefendersAttacking>来自{1}的{0}正在攻击你的{2}。</MessageDefendersAttacking>
 
   <MessageSelfTendUnsatisfied>{0}已启用自我治疗，但未指派「医生」工作。</MessageSelfTendUnsatisfied>
+  <MessageCannotSelfTendEver>{0} is incapable of doing Doctor work, and so cannot ever self-tend.</MessageCannotSelfTendEver>
 
   <MessageCantAddWaypointBecauseImpassable>此格子无法通行。</MessageCantAddWaypointBecauseImpassable>
   <MessageCantAddWaypointBecauseUnreachable>无法从最后一个路径点到达此格子。</MessageCantAddWaypointBecauseUnreachable>
@@ -221,5 +222,8 @@
   <MessageCantRemoveWaypointBecauseFirst>此路径点无法移除。</MessageCantRemoveWaypointBecauseFirst>
 
   <MessageCantDoExecutionBecauseNoWardenCapableOfViolence>没有可行使暴力行为的狱卒。处决不会被执行。</MessageCantDoExecutionBecauseNoWardenCapableOfViolence>
+
+  <MessageSiteCountdownBecauseNoMoreEnemies>You have defeated all enemies. In {0}, the caravan will automatically be reformed.</MessageSiteCountdownBecauseNoMoreEnemies>
+  <MessageSiteCountdownBecauseNoEnemiesInitially>In {0}, the caravan will automatically be reformed. You can reform the caravan now in the World screen.</MessageSiteCountdownBecauseNoEnemiesInitially>
 
 </LanguageData>

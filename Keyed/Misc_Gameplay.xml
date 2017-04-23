@@ -109,6 +109,9 @@
   <VentClosed>已关闭</VentClosed>
   <WornBy>worn by {0}</WornBy>
   <EquippedBy>equipped by {0}</EquippedBy>
+  <QuestTargetDestroyInspectString>{0} wants this destroyed.\n    Reward: {1}.</QuestTargetDestroyInspectString>
+  <WorldObjectTimeout>Time left: {0}</WorldObjectTimeout>
+  <LongRangeMineralScannerEfficiency>Efficiency: {0}</LongRangeMineralScannerEfficiency>
 
   <!-- Fermentation barrel -->
   <ContainsWort>装有麦芽汁：{0} / {1}</ContainsWort>
@@ -333,8 +336,8 @@
   <Burning>燃烧中</Burning>
   <FireSizeLower>火焰大小：{0}</FireSizeLower>
 
-  <!-- Map conditions -->
-  <MapConditionsTip>当前影响此地区的地图状态。</MapConditionsTip>
+  <!-- Game conditions -->
+  <GameConditionsTip>Special conditions affecting the area right now.</GameConditionsTip>
   <TimeLeft>剩余时间</TimeLeft>
   <ImpactDate>撞击日期</ImpactDate>
 
@@ -473,5 +476,8 @@
   <OutfitWorker>Worker</OutfitWorker>
   <OutfitSoldier>Soldier</OutfitSoldier>
   <OutfitNudist>Nudist</OutfitNudist>
+
+  <!-- Map conditions -->
+  <!--<MapConditionsTip>当前影响此地区的地图状态。</MapConditionsTip>-->
 
 </LanguageData>
