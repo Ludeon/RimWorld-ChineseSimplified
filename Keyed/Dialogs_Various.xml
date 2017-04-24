@@ -6,7 +6,7 @@
   <OK>确定</OK>
 
   <!-- Game updated to new version -->
-  <GameUpdatedToNewVersionInitial>Rimworld已从{0}版本升级至{1}版本。</GameUpdatedToNewVersionInitial>
+  <GameUpdatedToNewVersionInitial>Rimworld 已从{0}版本升级至{1}版本。</GameUpdatedToNewVersionInitial>
   <GameUpdatedToNewVersionSavesIncompatible>升级可能会导致旧版存档及 Mod 无法读取及使用。</GameUpdatedToNewVersionSavesIncompatible>
   <GameUpdatedToNewVersionSavesCompatible>旧版存档应该是兼容的，不过一些 Mod 可能无法使用。</GameUpdatedToNewVersionSavesCompatible>
   <GameUpdatedToNewVersionNonSteam>因为你的游戏为免 DRM 版，你可以选择在不同的文件夹下安装新版本，因此可以同时玩旧版和新版。</GameUpdatedToNewVersionNonSteam>
@@ -26,9 +26,9 @@
   <ErrorWhileLoadingMap>载入地图时出现错误。查看错误日志以了解更多信息。</ErrorWhileLoadingMap>
 
   <!-- Unloaded mod with an assembly -->
-  <ModsChanged>The mod list has changed. The game will now restart automatically.</ModsChanged>
-  <FailedToRestart>Something went wrong while restarting the game. The game can't fully unload modified code from deactivated mods, so code from deactivated mods may still be active.\n\nIt's recommended that you quit and restart the game now to load all mods cleanly.</FailedToRestart>
-  <Restarting>Restarting</Restarting>
+  <ModsChanged>Mod 列表已修改。游戏将会立刻自动重启。</ModsChanged>
+  <FailedToRestart>重启游戏时发生了错误。游戏无法完全卸载已停用 Mod 的修改代码，所以来自已停用 Mod 的代码仍然会生效。\n\n建议你现在退出并重启游戏以清洁地载入所有 Mod。</FailedToRestart>
+  <Restarting>正在重启</Restarting>
 
   <!-- Missing Steam -->
   <SteamClientMissing>无法初始化 Steam API。可能原因：\n\n- Steam 未运行。\n- 在 Steam 之外启动，且无法载入 steam_appid.txt 。\n- 通过和 Steam 客户端不同的权限启动（比如「管理员身份」）。\n\n在大部分时候，重启你的电脑即可解决这个问题。\n\n你可以继续游戏，但 Steam 统计信息将不会被记录，且 Steam 功能将不会生效。</SteamClientMissing>
@@ -382,7 +382,5 @@
   <!-- Send transport pods which are not completely loaded -->
   <ConfirmSendNotCompletelyLoadedPods>发射组并没有完成装载进程。 {0} 还未进入运输舱。确定要发射吗？</ConfirmSendNotCompletelyLoadedPods>
 
-  <!--<ModWithAssemblyWasUnloaded>游戏无法从已关闭的 Mod 中完全卸载被修改的代码，因此被关闭的 Mod 可能依然会生效。\n\n我们推荐你退出并重启游戏，以正确的载入 Mod。</ModWithAssemblyWasUnloaded>-->
-  <!--<BodyPartEfficiency>身体部件效率</BodyPartEfficiency>-->
 
 </LanguageData>
