@@ -5,6 +5,7 @@
   <Sandbags.description>作为掩体，降低被远程武器击中的几率。</Sandbags.description>
   <Sandbags_Blueprint.label>沙袋（蓝图）</Sandbags_Blueprint.label>
   <Sandbags_Frame.label>沙袋（建造中）</Sandbags_Frame.label>
+  <Sandbags_Frame.description>作为掩体，降低被远程武器击中的几率。</Sandbags_Frame.description>
 
 
   <!-- Improvised turret -->
@@ -14,6 +15,7 @@
   <TurretGun_Blueprint.label>简易无人机枪（蓝图）</TurretGun_Blueprint.label>
   <TurretGun_Blueprint_Install.label>简易无人机枪（蓝图）</TurretGun_Blueprint_Install.label>
   <TurretGun_Frame.label>简易无人机枪（建造中）</TurretGun_Frame.label>
+  <TurretGun_Frame.description>一台东拼西凑的的机枪炮塔，会自动射击附近的敌人，被摧毁后会爆炸。它所用的拼凑而成的人工智能大脑不是很聪明，也没法被直接控制，因此要当心误伤。</TurretGun_Frame.description>
 
   <Bullet_TurretImprovised.label>无人机枪子弹</Bullet_TurretImprovised.label>
 
@@ -28,6 +30,7 @@
   <Turret_MortarBomb_Blueprint.label>迫击炮 （高爆）（蓝图）</Turret_MortarBomb_Blueprint.label>
   <Turret_MortarBomb_Blueprint_Install.label>迫击炮 （高爆）（蓝图）</Turret_MortarBomb_Blueprint_Install.label>
   <Turret_MortarBomb_Frame.label>迫击炮 （高爆）（建造中）</Turret_MortarBomb_Frame.label>
+  <Turret_MortarBomb_Frame.description>一个发射高爆炮弹的迫击炮。必须有人操纵。受损严重时爆炸。</Turret_MortarBomb_Frame.description>
 
   <Artillery_MortarBomb.label>高爆迫击炮</Artillery_MortarBomb.label>
   <Artillery_MortarBomb.description>迫击炮。可以越墙抛射炸弹。精度非常差但是射程非常远。</Artillery_MortarBomb.description>
@@ -42,6 +45,7 @@
   <Turret_MortarIncendiary_Blueprint.label>迫击炮 （燃烧）（蓝图）</Turret_MortarIncendiary_Blueprint.label>
   <Turret_MortarIncendiary_Blueprint_Install.label>迫击炮 （燃烧）（蓝图）</Turret_MortarIncendiary_Blueprint_Install.label>
   <Turret_MortarIncendiary_Frame.label>迫击炮 （燃烧）（建造中）</Turret_MortarIncendiary_Frame.label>
+  <Turret_MortarIncendiary_Frame.description>一个发射燃烧炮弹的迫击炮。必须有人操纵。受损严重时爆炸。</Turret_MortarIncendiary_Frame.description>
 
   <Artillery_MortarIncendiary.label>燃烧迫击炮</Artillery_MortarIncendiary.label>
   <Artillery_MortarIncendiary.description>迫击炮。可以越墙抛射燃烧弹。精度非常差但是射程非常远。</Artillery_MortarIncendiary.description>
@@ -56,6 +60,7 @@
   <Turret_MortarEMP_Blueprint.label>迫击炮 （EMP）（蓝图）</Turret_MortarEMP_Blueprint.label>
   <Turret_MortarEMP_Blueprint_Install.label>迫击炮 （EMP）（蓝图）</Turret_MortarEMP_Blueprint_Install.label>
   <Turret_MortarEMP_Frame.label>迫击炮 （EMP）（建造中）</Turret_MortarEMP_Frame.label>
+  <Turret_MortarEMP_Frame.description>一个发射电磁脉冲（EMP）炮弹的迫击炮。必须有人操纵。受损严重时爆炸。</Turret_MortarEMP_Frame.description>
 
   <Artillery_MortarEMP.label>EMP迫击炮</Artillery_MortarEMP.label>
   <Artillery_MortarEMP.description>迫击炮。可以越墙抛射电磁脉冲（EMP）炮弹。精度非常差但是射程非常远。</Artillery_MortarEMP.description>
@@ -69,16 +74,19 @@
   <TrapDeadfall.description>用一个巧妙的触发机关将重物悬停在高处。当受害人触发机关时，重物掉下砸在他的头或躯干上。</TrapDeadfall.description>
   <TrapDeadfall_Blueprint.label>尖刺陷阱（蓝图）</TrapDeadfall_Blueprint.label>
   <TrapDeadfall_Frame.label>尖刺陷阱（建造中）</TrapDeadfall_Frame.label>
+  <TrapDeadfall_Frame.description>用一个巧妙的触发机关将重物悬停在高处。当受害人触发机关时，重物掉下砸在他的头或躯干上。</TrapDeadfall_Frame.description>
 
   <TrapIEDBomb.label>自制炸弹陷阱</TrapIEDBomb.label>
   <TrapIEDBomb.description>用一个自制的触发机关连接到迫击炮炮弹上。当有人触发机关时炮弹会爆炸。简易的机关在触发时会有随机的延迟，可能会让一些灵活的敌人逃走。</TrapIEDBomb.description>
   <TrapIEDBomb_Blueprint.label>自制炸弹陷阱（蓝图）</TrapIEDBomb_Blueprint.label>
   <TrapIEDBomb_Frame.label>自制炸弹陷阱（建造中）</TrapIEDBomb_Frame.label>
+  <TrapIEDBomb_Frame.description>用一个自制的触发机关连接到迫击炮炮弹上。当有人触发机关时炮弹会爆炸。简易的机关在触发时会有随机的延迟，可能会让一些灵活的敌人逃走。</TrapIEDBomb_Frame.description>
 
   <TrapIEDIncendiary.label>自制燃烧陷阱</TrapIEDIncendiary.label>
   <TrapIEDIncendiary.description>将炸药与燃烧剂经过混合，然后采用化学引信引爆。这种化学引信简单可靠。</TrapIEDIncendiary.description>
   <TrapIEDIncendiary_Blueprint.label>自制燃烧陷阱（蓝图）</TrapIEDIncendiary_Blueprint.label>
   <TrapIEDIncendiary_Frame.label>自制燃烧陷阱（建造中）</TrapIEDIncendiary_Frame.label>
+  <TrapIEDIncendiary_Frame.description>将炸药与燃烧剂经过混合，然后采用化学引信引爆。这种化学引信简单可靠。</TrapIEDIncendiary_Frame.description>
 
 
 </LanguageData>
