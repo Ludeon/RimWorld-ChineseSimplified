@@ -1,7 +1,8 @@
 
 # RimWorld-ChineseSimplified 边缘世界-简体中文
 
-## 项目说明：
+
+## 项目说明
 
 This is the Simplified Chinese translation data for RimWorld.  
 See this page for license info:  
@@ -9,33 +10,30 @@ See this page for license info:
 查看此页面以了解许可信息：  
 http://ludeon.com/forums/index.php?topic=2933.0
 
-**本项目由 RimWorld 官方（Ludeon 工作室）创建，翻译均为社区无偿贡献。**
+**本项目由 RimWorld 官方（Ludeon 工作室）创建，翻译均由社区无偿贡献。**
 
 
-### 项目地址：
+## 当前版本
 
-* **GitHub**： https://github.com/Ludeon/RimWorld-ChineseSimplified
-* **Coding**： https://coding.net/u/duduluu/p/RimWorld-ChineseSimplified/git
-
-
-### 当前版本：
-
-* 0.17 (Alpha 17)
-
-**本项目已正式进入 0.17 版本，0.16 及 0.15 版本请进入下方的「下载页面」下载对应版本。**
+### 0.17 (Alpha 17)
 
 
-### 下载页面：
+## 下载
 
-* [GitHub 下载页面](https://github.com/Ludeon/RimWorld-ChineseSimplified/releases)
-* [Coding 下载页面](https://coding.net/u/duduluu/p/RimWorld-ChineseSimplified/git/tags)
+### 0.17 版本
+* [GitHub 下载](https://github.com/Ludeon/RimWorld-ChineseSimplified/archive/master.zip)
+* [Coding 下载](https://coding.net/u/duduluu/p/RimWorld-ChineseSimplified/git/archive/master)
+
+### 0.16 及 0.15 版本
+* [GitHub 下载](https://github.com/Ludeon/RimWorld-ChineseSimplified/releases)
+* [Coding 下载](https://coding.net/u/duduluu/p/RimWorld-ChineseSimplified/git/tags)
 
 > 这是游戏的中文补丁，并不是完整的游戏程序。支持正版请通过 Steam 购买。  
 > 由于万恶的电信和 GFW，大陆用户从 Github 下载可能速度很慢，可选择 Coding 下载。  
 > 在每次发布新版 RimWorld 前，开发组会同步内置的翻译文件。但由于某些原因（翻译组没赶上开发组的进度，或者开发组忘记同步文件了），官方内置的翻译版本会落后于本项目，玩家可自行下载安装。安装方法见下文。  
 
 
-### 安装方法：
+## 安装方法
 
 1. 下载压缩包
 2. 解压缩得到「RimWorld-ChineseSimplified-master」文件夹，并重命名为「ChineseSimplified」
@@ -43,7 +41,7 @@ http://ludeon.com/forums/index.php?topic=2933.0
 4. 将步骤2中得到的新的「ChineseSimplified」文件夹复制到「Languages」文件夹内
 
 
-### 注意事项：
+## 注意事项
 
 * **内置翻译落后**：官方内置的翻译版本落后，玩家可自行下载安装。
 * **人名翻译缺少接口**：官方只提供了背景故事翻译的接口，人名无法通过正常途径翻译。
@@ -57,7 +55,7 @@ http://ludeon.com/forums/index.php?topic=2933.0
 ![ScreenShot](http://ww2.sinaimg.cn/large/a15b4afegy1fdup08nszpj20ov05dq3o)
 
 
-### 翻译人员：
+## 翻译人员
 
 * AlyxMS
 * Bigmap
@@ -66,19 +64,27 @@ http://ludeon.com/forums/index.php?topic=2933.0
 * Kenneth Li （魔都KK）
 * MADxingjin （高中生活不如狗）
 * Raisins123 （RSP）
-* SerGawen （加文_维斯特林）
+* SerGawen （加文）
 * weehowe-z （问号）
+* wubochang （三桂）
 * Ydada （于大大）
+* zhaohu002 （嗷嗷虎）
 
 
-### 特别感谢：
+## 特别感谢
 
 * AlyxMS 从A3开始和作者紧密联系并共同创建了本项目
 * Bigmap 伟大的国旗哥
 * 飞行棺材 热心的校对人员
 
 
-### 链接：
+## 本项目地址
+
+* **GitHub**： https://github.com/Ludeon/RimWorld-ChineseSimplified
+* **Coding**： https://coding.net/u/duduluu/p/RimWorld-ChineseSimplified/git
+
+
+## 链接
 
 * 翻译工具 [RimTrans](https://github.com/duduluu/RimTrans)
 * 官方中文Wiki [RimWorld.huiji.wiki](http://rimworld.huiji.wiki/) （由SerGawen搭建，huiji.wiki提供技术支持）
