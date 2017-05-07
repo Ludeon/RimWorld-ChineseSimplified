@@ -87,7 +87,7 @@ http://ludeon.com/forums/index.php?topic=2933.0
 ## 链接
 
 * 翻译工具 [RimTrans](https://github.com/duduluu/RimTrans)
-* 官方中文Wiki [RimWorld.huiji.wiki](http://rimworld.huiji.wiki/) （由SerGawen搭建，huiji.wiki提供技术支持）
+* 官方中文维基 [RimWorld.huiji.wiki](http://rimworld.huiji.wiki/) （由SerGawen搭建，huiji.wiki提供技术支持）
 * 百度贴吧 [RimWorld吧](http://tieba.baidu.com/f?kw=rimworld)
 * 饼叔的游戏笔记 [GameJiLu.com](http://www.gamejilu.com/category/project/rimworld/)
 * 边缘汉化组官网 [RimWorld-zh.com](http://rimworld-zh.com/)
