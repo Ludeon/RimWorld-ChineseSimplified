@@ -112,6 +112,16 @@
   <QuestTargetDestroyInspectString>{0}想要摧毁此处。\n    报酬：{1}。</QuestTargetDestroyInspectString>
   <WorldObjectTimeout>剩余时间：{0}</WorldObjectTimeout>
   <LongRangeMineralScannerEfficiency>效率：{0}</LongRangeMineralScannerEfficiency>
+  <ItemStashContents>内容：{0}。</ItemStashContents>
+  <SomeItemStashContents>部分内容：{0}。</SomeItemStashContents>
+  <ClickToSortByThisColumn>点击以根据此栏排列。</ClickToSortByThisColumn>
+  <WorkPriorityShiftClickTip>Shift + 左键点击：提升优先级\nShift + 右键点击：降低优先级</WorkPriorityShiftClickTip>
+  <WorkPriorityShiftClickEnableDisableTip>Shift + 左键点击：勾选全部\nShift + 右键点击：取消全部</WorkPriorityShiftClickEnableDisableTip>
+  <AllowedAreaShiftClickTip>Shift + 左键点击：全部设置为居住区\nShift + 右键点击：全部设置为无限制</AllowedAreaShiftClickTip>
+  <CheckboxShiftClickTip>Shift + 左键点击：勾选全部\nShift + 右键点击：取消全部</CheckboxShiftClickTip>
+  <KnownSiteThreat>威胁：{0}。</KnownSiteThreat>
+  <KnownSiteThreats>威胁：{0}。</KnownSiteThreats>
+  <KnownSiteThreatsNone>威胁：无。</KnownSiteThreatsNone>
 
   <!-- Fermentation barrel -->
   <ContainsWort>装有麦芽汁：{0} / {1}</ContainsWort>
@@ -135,6 +145,7 @@
   <TextMote_FixBrokenDownBuildingFail>修复失败</TextMote_FixBrokenDownBuildingFail>
   <TextMote_ConstructionFail>建造失败</TextMote_ConstructionFail>
   <TextMote_Dodge>闪避</TextMote_Dodge>
+  <TextMote_Tended>{0}已治疗</TextMote_Tended>
 
   <!-- Areas -->
   <Home>居住区</Home>
@@ -311,7 +322,7 @@
 
   <!-- ThingFilter -->
   <HitPoints>{0}耐久度</HitPoints>
-  <AnyQuality>任何品质</AnyQuality>
+  <AnyQuality>任意质量</AnyQuality>
   <OnlyQuality>仅仅{0}</OnlyQuality>
 
   <!-- Mouseover indicator -->
@@ -320,7 +331,7 @@
   <!-- Buttons -->
   <ShowLearningHelperWhenEmptyToggleButton>开关始终显示教学助手。\n\n当没有需要学习的新教程时，教学助手会自动隐藏。开启后，将在学习完所有教程之后继续显示教学助手。</ShowLearningHelperWhenEmptyToggleButton>
   <ZoneVisibilityToggleButton>开关区域显示。</ZoneVisibilityToggleButton>
-  <ShowEnvironmentToggleButton>开关环境显示。\n\n显示殖民者在鼠标停留位置所能感受到的环境的美观度和当前房间统计数据。</ShowEnvironmentToggleButton>
+  <ShowEnvironmentToggleButton>开关环境显示。\n\n显示殖民者在鼠标停留位置所能感受到的环境的美观度和当前房间属性数据。</ShowEnvironmentToggleButton>
   <ShowColonistBarToggleButton>开关殖民者头像条显示。\n\n开启后，在屏幕上方显示所有殖民者的头像和当前状态。</ShowColonistBarToggleButton>
   <AutoHomeAreaToggleButton>开关自动添加居住区\n\n开启后，将自动在新建造的建筑附近添加居住区。</AutoHomeAreaToggleButton>
   <CategorizedResourceReadoutToggleButton>开关资源分类显示\n\n开启后，将资源显示按照其所属类型分类显示。</CategorizedResourceReadoutToggleButton>
@@ -385,9 +396,9 @@
   <UnfinishedItemWithStuff>{0}{1}（未完成）</UnfinishedItemWithStuff>
 
   <!-- Quality -->
-  <Quality>物品品质</Quality>
-  <QualityDescription>物品品质为该物品的制作精良程度。</QualityDescription>
-  <QualityIs>品质：{0}</QualityIs>
+  <Quality>质量</Quality>
+  <QualityDescription>该物品的制作精良程度。</QualityDescription>
+  <QualityIs>质量：{0}</QualityIs>
 
   <!-- Mood descriptions -->
   <Mood_MentalState>精神状态</Mood_MentalState>

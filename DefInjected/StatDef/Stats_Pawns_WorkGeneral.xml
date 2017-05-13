@@ -8,16 +8,13 @@
   <MiningSpeed.description>此人在开采和钻取深层资源时的速度。</MiningSpeed.description>
 
   <MiningYield.label>开采产出</MiningYield.label>
-  <MiningYield.description>矿工将达到的百分比产出。更高的百分比将减少产出的浪费几率。同时应用于开采和深钻采矿。</MiningYield.description>
+  <MiningYield.description>矿工将达到的百分比产出。同时应用于资源块开采和深钻开采。不影响石块开采。</MiningYield.description>
 
   <SmoothingSpeed.label>打磨速度</SmoothingSpeed.label>
   <SmoothingSpeed.description>此人在打磨粗糙石面时的速度乘数。</SmoothingSpeed.description>
 
   <ResearchSpeed.label>研究速度</ResearchSpeed.label>
   <ResearchSpeed.description>此人在研究时的速度。</ResearchSpeed.description>
-
-  <ConstructionSpeed.label>建造速度</ConstructionSpeed.label>
-  <ConstructionSpeed.description>此人在建造与修理建筑物时的速度。</ConstructionSpeed.description>
 
   <AnimalGatherSpeed.label>动物收集速度</AnimalGatherSpeed.label>
   <AnimalGatherSpeed.description>此人挤奶、剪毛，以及其他从动物身上收集资源的速度。</AnimalGatherSpeed.description>
@@ -29,7 +26,10 @@
   <PlantWorkSpeed.description>此人在种植与收获植物时的速度。</PlantWorkSpeed.description>
 
   <PlantHarvestYield.label>植物收获产出</PlantHarvestYield.label>
-  <PlantHarvestYield.description>收获植物时获取的产出。低产出会导致此人有一定几率意外地毁坏收获物。</PlantHarvestYield.description>
+  <PlantHarvestYield.description>收获植物时获取的产出。低产出会导致此人有一定几率意外地浪费收获物。</PlantHarvestYield.description>
+
+  <ConstructionSpeed.label>建造速度</ConstructionSpeed.label>
+  <ConstructionSpeed.description>此人在建造与修理建筑物时的速度。</ConstructionSpeed.description>
 
   <ConstructSuccessChance.label>建造成功几率</ConstructSuccessChance.label>
   <ConstructSuccessChance.description>此人建造时的成功几率。失败意味着浪费时间和资源。</ConstructSuccessChance.description>
