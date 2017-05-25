@@ -29,8 +29,6 @@
   <ForbiddenLower>已禁用</ForbiddenLower>
   <ForbiddenOutsideAllowedAreaLower>位于允许活动区域外</ForbiddenOutsideAllowedAreaLower>
   <NotInHomeArea>位于居住区外</NotInHomeArea>
-  <SociallyImproperLower>不礼貌</SociallyImproperLower>
-  <PrisonerRoomLower>囚犯房间</PrisonerRoomLower>
   <BurningLower>燃烧中</BurningLower>
   <NoEmptyPlaceLower>未配置空余的、可到达的储存点</NoEmptyPlaceLower>
   <AlreadyFilledLower>已装满</AlreadyFilledLower>
@@ -47,6 +45,7 @@
   <TheOnlyAvailableFoodIsInStorageOfHigherPriority>可用的食物位于更高优先级的储存器中</TheOnlyAvailableFoodIsInStorageOfHigherPriority>
   <NoFoodToFillHopper>缺少合适的食物</NoFoodToFillHopper>
   <SelfTendDisabled>自我治疗已禁用</SelfTendDisabled>
+  <ReservedForPrisoners>已预留给囚犯</ReservedForPrisoners>
 
   <ConsumeThing>享用{0}</ConsumeThing>
 
@@ -138,6 +137,8 @@
   <CannotGenericAlreadyAm>已经在{0}{1}中</CannotGenericAlreadyAm>
 
   <CannotPrioritizeWorkTypeDisabled>无法优先（无法从事：{0}）</CannotPrioritizeWorkTypeDisabled>
+
+  <CannotPrioritizeWorkGiverDisabled>无法优先（无法{0}）</CannotPrioritizeWorkGiverDisabled>
 
   <CannotPrioritizeNotAssignedToWorkType>无法优先（未指派工作：{0}）</CannotPrioritizeNotAssignedToWorkType>
 

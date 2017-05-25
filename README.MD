@@ -15,8 +15,10 @@ http://ludeon.com/forums/index.php?topic=2933.0
 
 ## 当前版本
 
-### 0.17 (Alpha 17)
+### Alpha 17
 
+版本：0.17.1541 rev37 (development build)
+时间：2017年5月17日 13:59:04
 
 ## 下载
 
