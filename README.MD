@@ -1,6 +1,8 @@
-
 # RimWorld-ChineseSimplified 边缘世界-简体中文
 
+![RimWorld 0.17.1546](https://img.shields.io/badge/RimWorld-0.17.1546-blue.svg)
+![RimWorld 0.17.1557)](https://img.shields.io/badge/RimWorld-0.17.1557-blue.svg)
+![更新日期 2017-07-18)](https://img.shields.io/badge/更新日期-2017--07--18-brightgreen.svg)
 
 ## 项目说明
 
@@ -12,13 +14,6 @@ http://ludeon.com/forums/index.php?topic=2933.0
 
 **本项目由 RimWorld 官方（Ludeon 工作室）创建，翻译均由社区无偿贡献。**
 
-
-## 当前版本
-
-### Alpha 17
-
-版本：0.17.1546  
-更新时间：2017年5月31日
 
 ## 下载
 
