@@ -1,29 +1,31 @@
 # RimWorld-ChineseSimplified 边缘世界-简体中文
 
-![RimWorld 0.17.1546](https://img.shields.io/badge/RimWorld-0.17.1546-blue.svg)
-![RimWorld 0.17.1557)](https://img.shields.io/badge/RimWorld-0.17.1557-blue.svg)
-![更新日期 2017-07-18)](https://img.shields.io/badge/更新日期-2017--07--18-brightgreen.svg)
+> **本项目为 RimWorld 官方中文语言包，由 Ludeon 工作室创建，翻译均由社区无偿贡献。**
+
+![RimWorld 0.17.1546](https://img.shields.io/badge/RimWorld-0.17.1546-blue.svg?style=flat-square)
+![RimWorld 0.17.1557)](https://img.shields.io/badge/RimWorld-0.17.1557-blue.svg?style=flat-square)
+![更新日期 2017-09-07)](https://img.shields.io/badge/更新日期-2017--09--07-brightgreen.svg?style=flat-square)
 
 ## 项目说明
 
 This is the Simplified Chinese translation data for RimWorld.  
 See this page for license info:  
-此为边缘世界（旧译名：环世界）之简体中文翻译。  
+此为边缘世界简体中文翻译包。  
 查看此页面以了解许可信息：  
 http://ludeon.com/forums/index.php?topic=2933.0
 
-**本项目由 RimWorld 官方（Ludeon 工作室）创建，翻译均由社区无偿贡献。**
+> 关于译名：“环世界”是当初3DM盗版的错误译名，rim 的意思是“边缘”，ring 才是“环”。
 
 
 ## 下载
 
 ### 0.17 版本
-* [GitHub 下载](https://github.com/Ludeon/RimWorld-ChineseSimplified/archive/master.zip)
-* [Coding 下载](https://coding.net/u/duduluu/p/RimWorld-ChineseSimplified/git/archive/master)
+- [GitHub 下载](https://github.com/Ludeon/RimWorld-ChineseSimplified/archive/master.zip)
+- [Coding 下载](https://coding.net/u/duduluu/p/RimWorld-ChineseSimplified/git/archive/master)
 
 ### 0.16 及 0.15 版本
-* [GitHub 下载](https://github.com/Ludeon/RimWorld-ChineseSimplified/releases)
-* [Coding 下载](https://coding.net/u/duduluu/p/RimWorld-ChineseSimplified/git/tags)
+- [GitHub 下载](https://github.com/Ludeon/RimWorld-ChineseSimplified/releases)
+- [Coding 下载](https://coding.net/u/duduluu/p/RimWorld-ChineseSimplified/git/tags)
 
 > 这是游戏的中文补丁，并不是完整的游戏程序。支持正版请通过 Steam 购买。  
 > 由于万恶的电信和 GFW，大陆用户从 Github 下载可能速度很慢，可选择 Coding 下载。  
@@ -67,6 +69,7 @@ http://ludeon.com/forums/index.php?topic=2933.0
 * Ydada （于大大）
 * zhaohu002 （嗷嗷虎）
 
+> 当前的主维护人员为风之起灵。
 
 ## 特别感谢
 
