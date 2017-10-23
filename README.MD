@@ -2,9 +2,10 @@
 
 > **本项目为 RimWorld 官方中文语言包，由 Ludeon 工作室创建，翻译均由社区无偿贡献。**
 
-![RimWorld 0.17.1546](https://img.shields.io/badge/RimWorld-0.17.1546-blue.svg?style=flat-square)
-![RimWorld 0.17.1557)](https://img.shields.io/badge/RimWorld-0.17.1557-blue.svg?style=flat-square)
-![更新日期 2017-09-07)](https://img.shields.io/badge/更新日期-2017--09--07-brightgreen.svg?style=flat-square)
+![RimWorld 0.18(development build)](https://img.shields.io/badge/RimWorld-0.18%20(development%20build)-orange.svg?style=flat-square)
+<!-- ![更新日期 2017-10-23)](https://img.shields.io/badge/更新日期-2017--10--23-brightgreen.svg?style=flat-square) -->
+
+# 本项目已开始A18翻译工作，注意选择正确版本。<br/>本项目已开始A18翻译工作，注意选择正确版本。<br/>本项目已开始A18翻译工作，注意选择正确版本。
 
 ## 项目说明
 
@@ -19,17 +20,24 @@ http://ludeon.com/forums/index.php?topic=2933.0
 
 ## 下载
 
-### 0.17 版本
+### 最新版 A18
 - [GitHub 下载](https://github.com/Ludeon/RimWorld-ChineseSimplified/archive/master.zip)
 - [Coding 下载](https://coding.net/u/duduluu/p/RimWorld-ChineseSimplified/git/archive/master)
 
-### 0.16 及 0.15 版本
+### 旧版下载 A15(0.15.1284), A16(0.16.1393), A17(0.17.1557)
 - [GitHub 下载](https://github.com/Ludeon/RimWorld-ChineseSimplified/releases)
 - [Coding 下载](https://coding.net/u/duduluu/p/RimWorld-ChineseSimplified/git/tags)
 
 > 这是游戏的中文补丁，并不是完整的游戏程序。支持正版请通过 Steam 购买。  
 > 由于万恶的电信和 GFW，大陆用户从 Github 下载可能速度很慢，可选择 Coding 下载。  
-> 在每次发布新版 RimWorld 前，开发组会同步内置的翻译文件。但由于某些原因（翻译组没赶上开发组的进度，或者开发组忘记同步文件了），官方内置的翻译版本会落后于本项目，玩家可自行下载安装。安装方法见下文。  
+> 在每次发布新版 RimWorld 前，开发组会合并本项目的文件。但由于某些原因——通常是官方最后临发布时忘记合并，导致 Steam 内置汉化版本会落后于本项目，玩家可自行下载安装最新汉化。安装方法见下文。  
+
+### 版本
+
+- A15 = 0.15
+- A16 = 0.16
+- A17a = 0.17.1546
+- A17b = 0.17.1557
 
 
 ## 安装方法
