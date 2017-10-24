@@ -37,6 +37,20 @@
   <HospitalBed_Frame.label>医疗床（建造中）</HospitalBed_Frame.label>
   <HospitalBed_Frame.description>一张专为伤员设计的床。可以增加治疗的成功率。</HospitalBed_Frame.description>
 
+  <Bedroll.label>bedroll</Bedroll.label>
+  <Bedroll.description>A cloth bed that sits on the floor. It is lightweight and can be rolled up for easy transport, but it is not quite as comfortable as a typical bed.</Bedroll.description>
+  <Bedroll_Blueprint.label>bedroll (blueprint)</Bedroll_Blueprint.label>
+  <Bedroll_Blueprint_Install.label>bedroll (blueprint)</Bedroll_Blueprint_Install.label>
+  <Bedroll_Frame.label>bedroll (building)</Bedroll_Frame.label>
+  <Bedroll_Frame.description>A cloth bed that sits on the floor. It is lightweight and can be rolled up for easy transport, but it is not quite as comfortable as a typical bed.</Bedroll_Frame.description>
+
+  <BedrollDouble.label>double bedroll</BedrollDouble.label>
+  <BedrollDouble.description>A double-wide cloth bed that sits on the floor. It is lightweight and can be rolled up for easy transport, but it is not quite as comfortable as a typical bed.</BedrollDouble.description>
+  <BedrollDouble_Blueprint.label>double bedroll (blueprint)</BedrollDouble_Blueprint.label>
+  <BedrollDouble_Blueprint_Install.label>double bedroll (blueprint)</BedrollDouble_Blueprint_Install.label>
+  <BedrollDouble_Frame.label>double bedroll (building)</BedrollDouble_Frame.label>
+  <BedrollDouble_Frame.description>A double-wide cloth bed that sits on the floor. It is lightweight and can be rolled up for easy transport, but it is not quite as comfortable as a typical bed.</BedrollDouble_Frame.description>
+
 
   <!-- Animal beds -->
 
@@ -87,19 +101,40 @@
 
   <!-- Table base -->
 
-  <TableShort.label>方桌</TableShort.label>
-  <TableShort.description>当有椅子面对桌子的时候，人们会在桌子上进餐。</TableShort.description>
-  <TableShort_Blueprint.label>方桌（蓝图）</TableShort_Blueprint.label>
-  <TableShort_Blueprint_Install.label>方桌（蓝图）</TableShort_Blueprint_Install.label>
-  <TableShort_Frame.label>方桌（建造中）</TableShort_Frame.label>
-  <TableShort_Frame.description>当有椅子面对桌子的时候，人们会在桌子上进餐。</TableShort_Frame.description>
+  <EndTable.label>end table</EndTable.label>
+  <EndTable.description>A small bedside table. Makes the nearby beds a little bit more comfortable. Must be placed directly adjacent to their head. Placing more than one end table near the same bed will have no effect.</EndTable.description>
+  <EndTable_Blueprint.label>end table (blueprint)</EndTable_Blueprint.label>
+  <EndTable_Blueprint_Install.label>end table (blueprint)</EndTable_Blueprint_Install.label>
+  <EndTable_Frame.label>end table (building)</EndTable_Frame.label>
+  <EndTable_Frame.description>A small bedside table. Makes the nearby beds a little bit more comfortable. Must be placed directly adjacent to their head. Placing more than one end table near the same bed will have no effect.</EndTable_Frame.description>
 
-  <TableLong.label>长桌</TableLong.label>
-  <TableLong.description>当有椅子面对桌子的时候，人们会在桌子上进餐。</TableLong.description>
-  <TableLong_Blueprint.label>长桌（蓝图）</TableLong_Blueprint.label>
-  <TableLong_Blueprint_Install.label>长桌（蓝图）</TableLong_Blueprint_Install.label>
-  <TableLong_Frame.label>长桌（建造中）</TableLong_Frame.label>
-  <TableLong_Frame.description>当有椅子面对桌子的时候，人们会在桌子上进餐。</TableLong_Frame.description>
+  <Table1x2c.label>table (1x2)</Table1x2c.label>
+  <Table1x2c.description>People eat off tables when chairs are placed facing them.</Table1x2c.description>
+  <Table1x2c_Blueprint.label>table (1x2) (blueprint)</Table1x2c_Blueprint.label>
+  <Table1x2c_Blueprint_Install.label>table (1x2) (blueprint)</Table1x2c_Blueprint_Install.label>
+  <Table1x2c_Frame.label>table (1x2) (building)</Table1x2c_Frame.label>
+  <Table1x2c_Frame.description>People eat off tables when chairs are placed facing them.</Table1x2c_Frame.description>
+
+  <Table2x2c.label>table (2x2)</Table2x2c.label>
+  <Table2x2c.description>People eat off tables when chairs are placed facing them.</Table2x2c.description>
+  <Table2x2c_Blueprint.label>table (2x2) (blueprint)</Table2x2c_Blueprint.label>
+  <Table2x2c_Blueprint_Install.label>table (2x2) (blueprint)</Table2x2c_Blueprint_Install.label>
+  <Table2x2c_Frame.label>table (2x2) (building)</Table2x2c_Frame.label>
+  <Table2x2c_Frame.description>People eat off tables when chairs are placed facing them.</Table2x2c_Frame.description>
+
+  <Table2x4c.label>table (2x4)</Table2x4c.label>
+  <Table2x4c.description>People eat off tables when chairs are placed facing them.</Table2x4c.description>
+  <Table2x4c_Blueprint.label>table (2x4) (blueprint)</Table2x4c_Blueprint.label>
+  <Table2x4c_Blueprint_Install.label>table (2x4) (blueprint)</Table2x4c_Blueprint_Install.label>
+  <Table2x4c_Frame.label>table (2x4) (building)</Table2x4c_Frame.label>
+  <Table2x4c_Frame.description>People eat off tables when chairs are placed facing them.</Table2x4c_Frame.description>
+
+  <Table3x3c.label>table (3x3)</Table3x3c.label>
+  <Table3x3c.description>People eat off tables when chairs are placed facing them.</Table3x3c.description>
+  <Table3x3c_Blueprint.label>table (3x3) (blueprint)</Table3x3c_Blueprint.label>
+  <Table3x3c_Blueprint_Install.label>table (3x3) (blueprint)</Table3x3c_Blueprint_Install.label>
+  <Table3x3c_Frame.label>table (3x3) (building)</Table3x3c_Frame.label>
+  <Table3x3c_Frame.description>People eat off tables when chairs are placed facing them.</Table3x3c_Frame.description>
 
   <PlantPot.label>花盆</PlantPot.label>
   <PlantPot.description>种植装饰性的花朵来提升附近的人的心情。</PlantPot.description>
@@ -163,5 +198,28 @@
   <Shelf_Frame.label>物品架（建造中）</Shelf_Frame.label>
   <Shelf_Frame.description>储存于此的物品即使露天也不会老化。</Shelf_Frame.description>
 
+
+  <!-- Dressers -->
+
+  <Dresser.label>dresser</Dresser.label>
+  <Dresser.description>Gives a small comfort bonus to all nearby beds. Placing more than one dresser near the same bed will have no effect.</Dresser.description>
+  <Dresser_Blueprint.label>dresser (blueprint)</Dresser_Blueprint.label>
+  <Dresser_Blueprint_Install.label>dresser (blueprint)</Dresser_Blueprint_Install.label>
+  <Dresser_Frame.label>dresser (building)</Dresser_Frame.label>
+  <Dresser_Frame.description>Gives a small comfort bonus to all nearby beds. Placing more than one dresser near the same bed will have no effect.</Dresser_Frame.description>
+
+
+  <!--<TableShort.label>方桌</TableShort.label>-->
+  <!--<TableShort.description>当有椅子面对桌子的时候，人们会在桌子上进餐。</TableShort.description>-->
+  <!--<TableShort_Blueprint.label>方桌（蓝图）</TableShort_Blueprint.label>-->
+  <!--<TableShort_Blueprint_Install.label>方桌（蓝图）</TableShort_Blueprint_Install.label>-->
+  <!--<TableShort_Frame.label>方桌（建造中）</TableShort_Frame.label>-->
+  <!--<TableShort_Frame.description>当有椅子面对桌子的时候，人们会在桌子上进餐。</TableShort_Frame.description>-->
+  <!--<TableLong.label>长桌</TableLong.label>-->
+  <!--<TableLong.description>当有椅子面对桌子的时候，人们会在桌子上进餐。</TableLong.description>-->
+  <!--<TableLong_Blueprint.label>长桌（蓝图）</TableLong_Blueprint.label>-->
+  <!--<TableLong_Blueprint_Install.label>长桌（蓝图）</TableLong_Blueprint_Install.label>-->
+  <!--<TableLong_Frame.label>长桌（建造中）</TableLong_Frame.label>-->
+  <!--<TableLong_Frame.description>当有椅子面对桌子的时候，人们会在桌子上进餐。</TableLong_Frame.description>-->
 
 </LanguageData>

@@ -10,9 +10,11 @@
   <StatsReport_CharacterQuality>角色质量</StatsReport_CharacterQuality>
   <StatsReport_Skills>技能系数</StatsReport_Skills>
   <StatsReport_OtherStats>其它属性系数</StatsReport_OtherStats>
-  <StatsReport_HealthFactors>健康系数</StatsReport_HealthFactors>
+  <StatsReport_Health>Health</StatsReport_Health>
   <HealthFactorPercentImpact>权重{0}</HealthFactorPercentImpact>
+  <HealthOffsetScale>{0} impact</HealthOffsetScale>
   <HealthFactorMaxImpact>最高{0}</HealthFactorMaxImpact>
+  <HealthFactorAllowedDefect>if below {0}</HealthFactorAllowedDefect>
   <StatsReport_PostProcessed>后期曲线处理</StatsReport_PostProcessed>
   <StatsReport_FinalValue>最终值</StatsReport_FinalValue>
   <StatsReport_MarketValueFromStuffsAndWork>市场价值是由原材料和工作量计算而来的。</StatsReport_MarketValueFromStuffsAndWork>
@@ -20,6 +22,7 @@
   <StatsReport_AgeMultiplier>年龄（{0}）乘数</StatsReport_AgeMultiplier>
   <StatsReport_HealthMultiplier>耐久（{0}）乘数</StatsReport_HealthMultiplier>
   <StatsReport_MoodMultiplier>心情（{0}）乘数</StatsReport_MoodMultiplier>
+  <StatsReport_LightMultiplier>Multiplier for light {0}</StatsReport_LightMultiplier>
   <StatsReport_DifficultyMultiplier>难度（{0}）乘数</StatsReport_DifficultyMultiplier>
   <StatsReport_InBed>卧床</StatsReport_InBed>
   <StatsReport_Facilities>设施</StatsReport_Facilities>
@@ -36,5 +39,10 @@
   <AverageOfAllAttacks>各攻击平均</AverageOfAllAttacks>
   <StatsReport_ScenarioFactor>剧本</StatsReport_ScenarioFactor>
   <StatsReport_IngredientsMass>材料</StatsReport_IngredientsMass>
+  <StatsReport_PermanentlyDisabled>Permanently disabled.</StatsReport_PermanentlyDisabled>
+  <StatsReport_Inspiration>{0}</StatsReport_Inspiration>
+  <StatsReport_AddedBodyPartsMass>Added body parts</StatsReport_AddedBodyPartsMass>
+
+  <!--<StatsReport_HealthFactors>健康系数</StatsReport_HealthFactors>-->
 
 </LanguageData>

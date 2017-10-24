@@ -84,12 +84,15 @@
   <CommandStopAttackFailNotForceAttacking>当前无强制攻击目标。</CommandStopAttackFailNotForceAttacking>
   <MessageTargetBeyondMaximumRange>目标距离大于最大射程。</MessageTargetBeyondMaximumRange>
   <MessageTargetBelowMinimumRange>目标距离小于最小射程。</MessageTargetBelowMinimumRange>
+  <MessageTurretWontFireBecauseHoldFire>Warning: The mortar won't fire because it's set to "Hold fire".</MessageTurretWontFireBecauseHoldFire>
 
   <!-- Ship computer core -->
   <CommandShipLaunch>发射飞船</CommandShipLaunch>
   <CommandShipLaunchDesc>使用当前飞船设置开始飞船发射程序。</CommandShipLaunchDesc>
   <CommandShipLaunchReport>显示发射报告</CommandShipLaunchReport>
   <CommandShipLaunchReportDesc>显示一份关于飞船发射能力的报告。</CommandShipLaunchReportDesc>
+  <CommandShipStartup>Start ship</CommandShipStartup>
+  <CommandShipStartupDesc>Wake up hibernating ship components.</CommandShipStartupDesc>
 
   <!-- Pod -->
   <CommandPodEject>弹出休眠者</CommandPodEject>
@@ -134,6 +137,10 @@
   <CommandSquadAttack>攻击</CommandSquadAttack>
   <CommandSquadAttackDesc>命令选定的殖民者攻击指定目标。</CommandSquadAttackDesc>
 
+  <!-- Melee attack -->
+  <CommandMeleeAttack>Melee attack</CommandMeleeAttack>
+  <CommandMeleeAttackDesc>Order selected colonists to attack designated target using only fists and melee weapons.</CommandMeleeAttackDesc>
+
   <!-- Hold fire -->
   <CommandHoldFire>停火</CommandHoldFire>
   <CommandHoldFireDesc>停止所有正在进行的攻击。</CommandHoldFireDesc>
@@ -163,6 +170,7 @@
   <!-- Merge caravan -->
   <CommandMergeCaravans>合并</CommandMergeCaravans>
   <CommandMergeCaravansDesc>合并选中的远行队。</CommandMergeCaravansDesc>
+  <CommandMergeCaravansFailCaravansNotSelected>Select all caravans which should be merged. The caravans must be close to each other.</CommandMergeCaravansFailCaravansNotSelected>
 
   <!-- Settle -->
   <CommandSettle>定居</CommandSettle>

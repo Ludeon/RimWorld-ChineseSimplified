@@ -63,6 +63,8 @@
   <SaveIsUnknownFormat>存档数据格式错误，无法正确载入。</SaveIsUnknownFormat>
   <ProblemSavingFile>保存文件{0}时出现了错误：\n\n{1}\n\n查看错误日志以了解更多信息。</ProblemSavingFile>
   <LoadAnyway>仍然载入</LoadAnyway>
+  <ChangeLoadedMods>Load mod list from save</ChangeLoadedMods>
+  <MissingMods>Some mods are unavailable, and need to be installed</MissingMods>
 
   <!-- Player faction naming -->
   <NamePlayerFactionMessage>{0}觉得你应该给你的派系取一个名字。它叫什么比较好？</NamePlayerFactionMessage>
@@ -146,13 +148,7 @@
   <BillRequiresMayVary>注意：小体积材料（比如黄金）消耗材料需乘{0}倍。</BillRequiresMayVary>
   <ThisIsSmallVolume>这是种小体积材料，每单位只有正常体积材料的1/{0}。所以，如果要求同样数量的材料，实际需要数量是的{0}倍。</ThisIsSmallVolume>
   <UsableIngredients>可用材料</UsableIngredients>
-  <DoXTimes>做X次</DoXTimes>
-  <DoUntilYouHaveX>维持X个</DoUntilYouHaveX>
-  <DoForever>不限次数</DoForever>
   <BillRepeatTargetCountShort>到{0}</BillRepeatTargetCountShort>
-  <BillStoreMode_DropOnFloor>放在地上</BillStoreMode_DropOnFloor>
-  <BillStoreMode_BestStockpile>放到最合适的储存区</BillStoreMode_BestStockpile>
-  <BillStoreMode_NearestStockpileAnyPriority>放到最近的储存区</BillStoreMode_NearestStockpileAnyPriority>
 
   <PauseWhenSatisfied>数量达到时暂停</PauseWhenSatisfied>
   <UnpauseWhenYouHave>解除暂停数量</UnpauseWhenYouHave>
@@ -203,6 +199,13 @@
   <Addictiveness>成瘾性</Addictiveness>
   <PackAnimal>驮运动物</PackAnimal>
   <PackAnimalExplanation>这种动物是否适合在远行队中长途运输物品。</PackAnimalExplanation>
+  <Skill>Skill</Skill>
+  <SurgerySuccessChanceFactor>Success rate multiplier</SurgerySuccessChanceFactor>
+  <SurgeryRequireBed>Requires bed</SurgeryRequireBed>
+  <WorkSpeedStat>Work speed governed by</WorkSpeedStat>
+  <EfficiencyStat>Output quantity governed by</EfficiencyStat>
+  <ConstructionSkillRequired>Construction skill required</ConstructionSkillRequired>
+  <ConstructionSkillRequiredExplanation>Requires this level of Construction in order to build.</ConstructionSkillRequiredExplanation>
 
   <!-- Trade -->
   <PositiveBuysNegativeSells>正数购买\n负数出售</PositiveBuysNegativeSells>
@@ -222,6 +225,8 @@
   <TraderWillNotTrade>贸易商不想交易这种商品。</TraderWillNotTrade>
   <Negotiator>谈判者</Negotiator>
   <NegotiatorTalkingImpaired>你的谈判者{0}由于健康原因而无法正常谈判。\n\n这将影响到贸易价格.\n\n请考虑换一个身体健康的殖民者来谈判。</NegotiatorTalkingImpaired>
+  <NegotiatorHearingImpaired>Your negotiator {0} cannot hear properly because of poor health.</NegotiatorHearingImpaired>
+  <NegotiatorCapacityImpaired>This will affect trade prices.\n\nConsider using a healthier negotiator.</NegotiatorCapacityImpaired>
   <ConfirmTraderShortFunds>贸易商没有足够的白银支付这次交易，继续么？</ConfirmTraderShortFunds>
   <SortBy>排序方式</SortBy>
   <TraderTypePrice>贸易商类型</TraderTypePrice>
@@ -261,6 +266,8 @@
   <DaysWorthOfFoodWarningDialog>你的远行队只带了{0}天的食物，很快便会出现饥饿情况。。\n\n确定要组建这支远行队吗？</DaysWorthOfFoodWarningDialog>
   <DaysWorthOfFoodWarningDialog_NoFood>你的远行队没有携带任何食物，很快便会出现饥饿情况。\n\n确定要组建这支远行队吗？</DaysWorthOfFoodWarningDialog_NoFood>
   <CaravanFoodWillRotSoonWarningDialog>大部分指定的食物即将变质\n\n确定要组建这支远行队吗？</CaravanFoodWillRotSoonWarningDialog>
+  <CaravanIncapableOfSocial>You have no caravan members capable of diplomacy or trading.</CaravanIncapableOfSocial>
+  <CaravanAreYouSure>Are you sure you want to form this caravan?</CaravanAreYouSure>
   <NoExitDirectionForCaravanChosen>你必须为远行队选择一个离开的方向。</NoExitDirectionForCaravanChosen>
   <NoCaravanExitDirectionAvailable>(没有可用的离开方向)</NoCaravanExitDirectionAvailable>
   <ExitDirection>离开方向</ExitDirection>
@@ -278,6 +285,7 @@
   <PrisonersSection>囚犯</PrisonersSection>
   <AnimalsSection>动物</AnimalsSection>
   <EstimatedTimeToDestinationButton>到达目的地预计耗时</EstimatedTimeToDestinationButton>
+  <AbandonButton>Abandon</AbandonButton>
 
   <!-- Split caravan -->
   <SplitCaravan>拆分旅行队</SplitCaravan>
@@ -374,13 +382,25 @@
   <ConfirmLeavePrisonersOrAnimalsBehind>该区域内还有一些囚犯和动物，而且这是他们现在唯一可以加入的远行队。\n\n如果你移动你的远行队，这些囚犯和动物在你回来之前将不能离开这里。 囚犯们会开始逃跑，但是你的动物会等你回来。\n\n如果你决定稍作等待，他们会试着尽快加入你的远行队。\n\n确定要移动远行队吗？</ConfirmLeavePrisonersOrAnimalsBehind>
 
   <!-- Abandon pawn -->
-  <ConfirmAbandonPawnDialog>你真的要抛下{0}吗?</ConfirmAbandonPawnDialog>
-  <ConfirmAbandonPawnDialog_LeftToDie>{0}极可能会死。</ConfirmAbandonPawnDialog_LeftToDie>
-  <ConfirmAbandonPawnDialog_EquipmentAndApparel>{0}将会携带以下物品：</ConfirmAbandonPawnDialog_EquipmentAndApparel>
-  <ConfirmAbandonPawnDialog_AllColonistsThoughts>所有的殖民者将有以下想法：</ConfirmAbandonPawnDialog_AllColonistsThoughts>
-  <ConfirmAbandonPawnDialog_IndividualThoughts>抛下{0}将会导致这些人有以下这些想法：</ConfirmAbandonPawnDialog_IndividualThoughts>
+  <ConfirmBanishPawnDialog>Do you really want to banish {0}?</ConfirmBanishPawnDialog>
+  <ConfirmBanishPawnDialog_LeftToDie>{0} will most likely die.</ConfirmBanishPawnDialog_LeftToDie>
+  <ConfirmBanishPawnDialog_Items>{0} will take the following items with HIM:</ConfirmBanishPawnDialog_Items>
+  <ConfirmBanishPawnDialog_AllColonistsThoughts>All colonists will get the following thoughts:</ConfirmBanishPawnDialog_AllColonistsThoughts>
+  <ConfirmBanishPawnDialog_IndividualThoughts>Banishing {0} will cause the following people to get the following thoughts:</ConfirmBanishPawnDialog_IndividualThoughts>
 
   <!-- Send transport pods which are not completely loaded -->
   <ConfirmSendNotCompletelyLoadedPods>发射组并没有完成装载进程。 {0} 还未进入运输舱。确定要发射吗？</ConfirmSendNotCompletelyLoadedPods>
+
+  <!--<DoXTimes>做X次</DoXTimes>-->
+  <!--<DoUntilYouHaveX>维持X个</DoUntilYouHaveX>-->
+  <!--<DoForever>不限次数</DoForever>-->
+  <!--<BillStoreMode_DropOnFloor>放在地上</BillStoreMode_DropOnFloor>-->
+  <!--<BillStoreMode_BestStockpile>放到最合适的储存区</BillStoreMode_BestStockpile>-->
+  <!--<BillStoreMode_NearestStockpileAnyPriority>放到最近的储存区</BillStoreMode_NearestStockpileAnyPriority>-->
+  <!--<ConfirmAbandonPawnDialog>你真的要抛下{0}吗?</ConfirmAbandonPawnDialog>-->
+  <!--<ConfirmAbandonPawnDialog_LeftToDie>{0}极可能会死。</ConfirmAbandonPawnDialog_LeftToDie>-->
+  <!--<ConfirmAbandonPawnDialog_EquipmentAndApparel>{0}将会携带以下物品：</ConfirmAbandonPawnDialog_EquipmentAndApparel>-->
+  <!--<ConfirmAbandonPawnDialog_AllColonistsThoughts>所有的殖民者将有以下想法：</ConfirmAbandonPawnDialog_AllColonistsThoughts>-->
+  <!--<ConfirmAbandonPawnDialog_IndividualThoughts>抛下{0}将会导致这些人有以下这些想法：</ConfirmAbandonPawnDialog_IndividualThoughts>-->
 
 </LanguageData>

@@ -53,6 +53,8 @@
   <RuinedByTemperature>因极端温度受损。</RuinedByTemperature>
   <CorpsePercentMissing>身体部位缺失</CorpsePercentMissing>
   <HiveReproducesIn>巢穴繁殖时间</HiveReproducesIn>
+  <DormantHiveNotReproducing>Dormant: Not reproducing.</DormantHiveNotReproducing>
+  <NextSpawnedItemIn>Next {0} in</NextSpawnedItemIn>
   <BrokenDown>故障</BrokenDown>
   <BondBrackets>（牵绊）</BondBrackets>
   <Fuel>燃料</Fuel>
@@ -79,6 +81,7 @@
   <CaravanHoursPerTile>小时 / 地图格</CaravanHoursPerTile>
   <CaravanBaseMovementTime>基础移动耗时</CaravanBaseMovementTime>
   <CurrentTileMovementTime>当前地图格移动耗时</CurrentTileMovementTime>
+  <StealthFactor>Stealthiness</StealthFactor>
   <Temperature>温度</Temperature>
   <BadTemperature>温度不适宜</BadTemperature>
   <IdealFermentingTemperature>理想发酵温度</IdealFermentingTemperature>
@@ -123,6 +126,12 @@
   <KnownSiteThreat>威胁：{0}。</KnownSiteThreat>
   <KnownSiteThreats>威胁：{0}。</KnownSiteThreats>
   <KnownSiteThreatsNone>威胁：无。</KnownSiteThreatsNone>
+  <SkillRequirements>Skill Requirements</SkillRequirements>
+  <Products>Products</Products>
+  <DeepDrillExhausted>Deep drill resources exhausted.</DeepDrillExhausted>
+  <Relationship>{0} of {1}</Relationship>
+  <Prisoner>Prisoner</Prisoner>
+  <Refugee>Refugee</Refugee>
 
   <!-- Fermentation barrel -->
   <ContainsWort>装有麦芽汁：{0} / {1}</ContainsWort>
@@ -183,6 +192,7 @@
   <!-- Job reports -->
   <ReportHaulingTo>正在搬运{0}至{1}。</ReportHaulingTo>
   <ReportHauling>正在搬运{0}。</ReportHauling>
+  <ReportHaulingUnknown>hauling.</ReportHaulingUnknown>
   <ReportSleeping>睡眠中。</ReportSleeping>
   <ReportResting>休息中。</ReportResting>
   <WatchingSunrise>看日出。</WatchingSunrise>
@@ -190,12 +200,14 @@
   <WatchingSunset>看日落。</WatchingSunset>
   <Stargazing>眺望星空。</Stargazing>
   <WatchingEclipse>看日食。</WatchingEclipse>
+  <WatchingAurora>watching the aurora.</WatchingAurora>
   <UsingVerb>在{1}上使用{0}。</UsingVerb>
   <AreaLower>区域</AreaLower>
   <ReportCowering>畏缩。</ReportCowering>
   <ReportStanding>站立。</ReportStanding>
   <ReportExtinguishingFire>正在扑灭火焰。</ReportExtinguishingFire>
   <ReportExtinguishingFireOn>正在扑灭{0}上的火焰。</ReportExtinguishingFireOn>
+  <ReportDiggingUpCorpse>digging up corpse.</ReportDiggingUpCorpse>
 
   <!-- Lord job reports -->
   <LordReportAttendingMarriageCeremony>正在参加婚礼。</LordReportAttendingMarriageCeremony>
@@ -246,6 +258,7 @@
   <InRestraints>关押中（速度减慢）</InRestraints>
   <Carrying>携带</Carrying>
   <AffectedBy>受到以下影响：</AffectedBy>
+  <Queued>Queued</Queued>
 
   <!-- Inspector general stuff -->
   <SelectNextInSquareTip>选择当前单元格内的下一件东西。\n\n快捷键：{0}\n\n你也可用鼠标左键慢速重复点击同个单元格来选择下一件物品。</SelectNextInSquareTip>
@@ -265,6 +278,7 @@
   <PowerOutput>电力输出</PowerOutput>
   <PowerBatteryStored>蓄电</PowerBatteryStored>
   <PowerBatteryEfficiency>蓄电效率</PowerBatteryEfficiency>
+  <SelfDischarging>Self-discharging</SelfDischarging>
 
   <!-- Temperature control -->
   <TargetTemperature>目标温度</TargetTemperature>
@@ -311,6 +325,8 @@
   <GrowYearRound>全年</GrowYearRound>
   <GrowSeasonHereNow>当前季节可种植。</GrowSeasonHereNow>
   <CannotGrowBadSeasonTemperature>无法种植（季节温度不适宜）。</CannotGrowBadSeasonTemperature>
+  <Blighted>Blighted</Blighted>
+  <DyingBecauseExposedToLight>Dying because exposed to light</DyingBecauseExposedToLight>
 
   <!-- Zones -->
   <Zone>活动区</Zone>
@@ -340,7 +356,8 @@
   <ShowRoofOverlayToggleButton>开关屋顶区显示。</ShowRoofOverlayToggleButton>
   <LockNorthUpToggleButton>锁定镜头旋转以保持北极始终处在顶部。</LockNorthUpToggleButton>
   <UsePlanetDayNightSystemToggleButton>开关日夜光照系统。</UsePlanetDayNightSystemToggleButton>
-  <ExpandingIconsToggleButton>开关显示扩展图标，代替远距离对象的常规图标。</ExpandingIconsToggleButton>
+  <ShowExpandingIconsToggleButton>Toggle displaying expanding icons instead of the regular icons for distant objects.</ShowExpandingIconsToggleButton>
+  <ShowWorldFeaturesToggleButton>Toggle visibility of names of landforms.</ShowWorldFeaturesToggleButton>
 
   <!-- Fire -->
   <Fire>火焰</Fire>
@@ -379,7 +396,13 @@
   <ShipReportCannotLaunch>无法发射。</ShipReportCannotLaunch>
   <ShipReportCanLaunch>准备发射。</ShipReportCanLaunch>
   <ShipReportMissingPart>缺少关键组件</ShipReportMissingPart>
+  <ShipReportMissingPartRequires>requires</ShipReportMissingPartRequires>
   <ShipReportNoFullPods>缺少装有乘员的低温休眠舱</ShipReportNoFullPods>
+  <ShipReportHibernating>Hibernating component</ShipReportHibernating>
+  <ShipReportNotReady>Component not yet ready</ShipReportNotReady>
+  <HibernateWarning>Charlon Whitestone is ready to begin the reactor's hibernation recovery sequence.\n\nHe warns you that the process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and treasure hunters. Make sure your defenses are prepared first.</HibernateWarning>
+  <HibernateCompleteLabel>Reactor ready</HibernateCompleteLabel>
+  <HibernateComplete>Charlon Whitestone has finished the reactor's hibernation recovery sequence. The reactor is now ready to power a liftoff.</HibernateComplete>
 
   <!-- Neurotrainer -->
   <NeurotrainerUsed>{0}使用神经训练器将{1}技能从{2}级升至{3}级。</NeurotrainerUsed>
@@ -488,5 +511,11 @@
   <OutfitWorker>工人</OutfitWorker>
   <OutfitSoldier>战士</OutfitSoldier>
   <OutfitNudist>裸体</OutfitNudist>
+
+  <!-- Hibernatable -->
+  <HibernatableHibernating>Hibernating</HibernatableHibernating>
+  <HibernatableStartingUp>Starting up</HibernatableStartingUp>
+
+  <!--<ExpandingIconsToggleButton>开关显示扩展图标，代替远距离对象的常规图标。</ExpandingIconsToggleButton>-->
 
 </LanguageData>

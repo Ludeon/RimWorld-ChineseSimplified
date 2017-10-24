@@ -45,13 +45,12 @@
 
   <DesignatorAreaBuildRoofExpand>添加屋顶区</DesignatorAreaBuildRoofExpand>
   <DesignatorAreaBuildRoofExpandDesc>添加一片屋顶区。殖民者会在此区域内建造屋顶。注意：屋顶需要支撑，距离离支撑物过远则无法建造屋顶。</DesignatorAreaBuildRoofExpandDesc>
-  <DesignatorAreaBuildRoofClear>移除屋顶区</DesignatorAreaBuildRoofClear>
-  <DesignatorAreaBuildRoofClearDesc>移除一片屋顶区。已有的屋顶会保留，但殖民者不会再建造屋顶。</DesignatorAreaBuildRoofClearDesc>
 
   <DesignatorAreaNoRoofExpand>添加露天区</DesignatorAreaNoRoofExpand>
   <DesignatorAreaNoRoofExpandDesc>添加一片露天区。殖民者也会移除此区域内的所有屋顶（厚山岩顶无法移除）。</DesignatorAreaNoRoofExpandDesc>
-  <DesignatorAreaNoRoofClear>移除露天区</DesignatorAreaNoRoofClear>
-  <DesignatorAreaNoRoofClearDesc>移除一片露天区，殖民者不会再移除此区域内的屋顶。</DesignatorAreaNoRoofClearDesc>
+
+  <DesignatorAreaIgnoreRoofExpand>Ignore roof area</DesignatorAreaIgnoreRoofExpand>
+  <DesignatorAreaIgnoreRoofExpandDesc>Colonists will ignore roofs in this area.</DesignatorAreaIgnoreRoofExpandDesc>
 
   <DesignatorAreaSnowClearExpand>添加除雪区</DesignatorAreaSnowClearExpand>
   <DesignatorAreaSnowClearExpandDesc>添加一片除雪区。殖民者会清除该区域内的雪。</DesignatorAreaSnowClearExpandDesc>
@@ -121,6 +120,11 @@
 
   <!-- Desc helpers -->
   <TransmitsPower>传输电力</TransmitsPower>
+  <ConstructionNeeded>Construction needed</ConstructionNeeded>
 
+  <!--<DesignatorAreaBuildRoofClear>移除屋顶区</DesignatorAreaBuildRoofClear>-->
+  <!--<DesignatorAreaBuildRoofClearDesc>移除一片屋顶区。已有的屋顶会保留，但殖民者不会再建造屋顶。</DesignatorAreaBuildRoofClearDesc>-->
+  <!--<DesignatorAreaNoRoofClear>移除露天区</DesignatorAreaNoRoofClear>-->
+  <!--<DesignatorAreaNoRoofClearDesc>移除一片露天区，殖民者不会再移除此区域内的屋顶。</DesignatorAreaNoRoofClearDesc>-->
 
 </LanguageData>

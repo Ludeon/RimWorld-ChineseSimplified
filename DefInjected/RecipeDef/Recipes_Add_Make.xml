@@ -18,6 +18,16 @@
   <Make_Flake.description>一种薄薄的原料，抽起来会让人精神愉悦，这种东西非常便于制作，有着极强的成瘾性。</Make_Flake.description>
   <Make_Flake.jobString>正在制作薄片。</Make_Flake.jobString>
 
+
+  <!-- Recipe Users: CraftingSpot -->
+
+  <Make_PsychoidPekoe.label>make psychoid pekoe</Make_PsychoidPekoe.label>
+  <Make_PsychoidPekoe.description>Make psychoid pekoe.</Make_PsychoidPekoe.description>
+  <Make_PsychoidPekoe.jobString>Making psychoid pekoe.</Make_PsychoidPekoe.jobString>
+
+
+  <!-- Recipe Users: DrugLab -->
+
   <Make_Yayo.label>制作呀呦粉</Make_Yayo.label>
   <Make_Yayo.description>一种精细的白色粉末，用鼻子吸入后可以使人高度兴奋，服用者会精神倍增并且能够抑制疼痛。但是却极易成瘾。</Make_Yayo.description>
   <Make_Yayo.jobString>正在制作呀呦粉。</Make_Yayo.jobString>
@@ -61,6 +71,22 @@
 
   <!-- Recipe Users: TableMachining -->
 
+  <Make_Shell_HighExplosive.label>make high-explosive shell</Make_Shell_HighExplosive.label>
+  <Make_Shell_HighExplosive.description>Make high-explosive shell.</Make_Shell_HighExplosive.description>
+  <Make_Shell_HighExplosive.jobString>Making high-explosive shell.</Make_Shell_HighExplosive.jobString>
+
+  <Make_Shell_Incendiary.label>make incendiary shell</Make_Shell_Incendiary.label>
+  <Make_Shell_Incendiary.description>Make incendiary shell.</Make_Shell_Incendiary.description>
+  <Make_Shell_Incendiary.jobString>Making incendiary shell.</Make_Shell_Incendiary.jobString>
+
+  <Make_Shell_EMP.label>make EMP shell</Make_Shell_EMP.label>
+  <Make_Shell_EMP.description>Make EMP shell.</Make_Shell_EMP.description>
+  <Make_Shell_EMP.jobString>Making EMP shell.</Make_Shell_EMP.jobString>
+
+  <Make_Shell_Firefoam.label>make firefoam shell</Make_Shell_Firefoam.label>
+  <Make_Shell_Firefoam.description>Make firefoam shell.</Make_Shell_Firefoam.description>
+  <Make_Shell_Firefoam.jobString>Making firefoam shell.</Make_Shell_Firefoam.jobString>
+
   <Make_Apparel_ShieldBelt.label>制作护盾腰带</Make_Apparel_ShieldBelt.label>
   <Make_Apparel_ShieldBelt.description>一个单人用的能量护盾装置。它能阻挡从一定距离外射来的任何高速运动弹头或能量攻击。但对近战攻击或零距离贴近射击无效。同时也会阻碍穿戴者从内往外的射击。</Make_Apparel_ShieldBelt.description>
   <Make_Apparel_ShieldBelt.jobString>制作中。</Make_Apparel_ShieldBelt.jobString>
@@ -80,9 +106,30 @@
   <Make_Apparel_BowlerHat.description>一顶突出了轻都市、富贵风格的好看的帽子。提升社交影响力。</Make_Apparel_BowlerHat.description>
   <Make_Apparel_BowlerHat.jobString>缝制中。</Make_Apparel_BowlerHat.jobString>
 
+
+  <!-- Recipe Users: ElectricTailoringBench, HandTailoringBench, ElectricTailoringBench, HandTailoringBench, CraftingSpot -->
+
+  <Make_Apparel_TribalHeaddress.label>make tribal headdress</Make_Apparel_TribalHeaddress.label>
+  <Make_Apparel_TribalHeaddress.description>Make tribal headdress.</Make_Apparel_TribalHeaddress.description>
+  <Make_Apparel_TribalHeaddress.jobString>Making tribal headdress.</Make_Apparel_TribalHeaddress.jobString>
+
+
+  <!-- Recipe Users: ElectricTailoringBench, HandTailoringBench -->
+
   <Make_Apparel_Tuque.label>缝制御寒帽</Make_Apparel_Tuque.label>
   <Make_Apparel_Tuque.description>一种柔软、厚实的帽子。非常适合在冬季中保持温暖。</Make_Apparel_Tuque.description>
   <Make_Apparel_Tuque.jobString>缝制中。</Make_Apparel_Tuque.jobString>
+
+
+  <!-- Recipe Users: ElectricTailoringBench, HandTailoringBench, CraftingSpot -->
+
+  <Make_Apparel_WarMask.label>make war mask</Make_Apparel_WarMask.label>
+  <Make_Apparel_WarMask.description>Make war mask.</Make_Apparel_WarMask.description>
+  <Make_Apparel_WarMask.jobString>Making war mask.</Make_Apparel_WarMask.jobString>
+
+  <Make_Apparel_WarVeil.label>make war veil</Make_Apparel_WarVeil.label>
+  <Make_Apparel_WarVeil.description>Make war veil.</Make_Apparel_WarVeil.description>
+  <Make_Apparel_WarVeil.jobString>Making war veil.</Make_Apparel_WarVeil.jobString>
 
 
   <!-- Recipe Users: TableMachining -->
@@ -144,9 +191,13 @@
   <Make_Apparel_PowerArmor.description>来自先进的闪耀世界行星的动力装甲，通常装备于突击部队。</Make_Apparel_PowerArmor.description>
   <Make_Apparel_PowerArmor.jobString>制作中。</Make_Apparel_PowerArmor.jobString>
 
-  <Make_Gun_Pistol.label>制作手枪</Make_Gun_Pistol.label>
-  <Make_Gun_Pistol.description>样式古老的半自动手枪。火力和射程很弱但是迅速灵敏。</Make_Gun_Pistol.description>
-  <Make_Gun_Pistol.jobString>制作中。</Make_Gun_Pistol.jobString>
+  <Make_Gun_Revolver.label>make revolver</Make_Gun_Revolver.label>
+  <Make_Gun_Revolver.description>Make revolver.</Make_Gun_Revolver.description>
+  <Make_Gun_Revolver.jobString>Making revolver.</Make_Gun_Revolver.jobString>
+
+  <Make_Gun_Autopistol.label>make autopistol</Make_Gun_Autopistol.label>
+  <Make_Gun_Autopistol.description>Make autopistol.</Make_Gun_Autopistol.description>
+  <Make_Gun_Autopistol.jobString>Making autopistol.</Make_Gun_Autopistol.jobString>
 
   <Make_Gun_IncendiaryLauncher.label>制作燃烧弹发射器</Make_Gun_IncendiaryLauncher.label>
   <Make_Gun_IncendiaryLauncher.description>燃烧弹发射器。可以用来放火。</Make_Gun_IncendiaryLauncher.description>
@@ -224,6 +275,10 @@
   <Make_MeleeWeapon_Gladius.description>一种样式古老的短剑。劈砍或戳刺都非常有效。</Make_MeleeWeapon_Gladius.description>
   <Make_MeleeWeapon_Gladius.jobString>制作中。</Make_MeleeWeapon_Gladius.jobString>
 
+  <Make_MeleeWeapon_Ikwa.label>make ikwa</Make_MeleeWeapon_Ikwa.label>
+  <Make_MeleeWeapon_Ikwa.description>Make ikwa.</Make_MeleeWeapon_Ikwa.description>
+  <Make_MeleeWeapon_Ikwa.jobString>Making ikwa.</Make_MeleeWeapon_Ikwa.jobString>
+
   <Make_MeleeWeapon_Spear.label>制作矛</Make_MeleeWeapon_Spear.label>
   <Make_MeleeWeapon_Spear.description>一种长柄武器，一端带有用于近战中戳刺敌人的尖头。</Make_MeleeWeapon_Spear.description>
   <Make_MeleeWeapon_Spear.jobString>制作中。</Make_MeleeWeapon_Spear.jobString>
@@ -246,11 +301,24 @@
   <Make_Pila.description>一捆投矛，投掷出去后就无法重新回收使用。</Make_Pila.description>
   <Make_Pila.jobString>制作中。</Make_Pila.jobString>
 
+
+  <!-- Recipe Users: ElectricSmithy, FueledSmithy, ElectricSmithy, FueledSmithy, CraftingSpot -->
+
+  <Make_Bow_Recurve.label>make recurve bow</Make_Bow_Recurve.label>
+  <Make_Bow_Recurve.description>Make recurve bow.</Make_Bow_Recurve.description>
+  <Make_Bow_Recurve.jobString>Making recurve bow.</Make_Bow_Recurve.jobString>
+
+
+  <!-- Recipe Users: ElectricSmithy, FueledSmithy -->
+
   <Make_Bow_Great.label>制作长弓</Make_Bow_Great.label>
   <Make_Bow_Great.description>一把强力的长弓，射出远距离的重箭。</Make_Bow_Great.description>
   <Make_Bow_Great.jobString>制作中。</Make_Bow_Great.jobString>
 
 
+  <!--<Make_Gun_Pistol.label>制作手枪</Make_Gun_Pistol.label>-->
+  <!--<Make_Gun_Pistol.description>样式古老的半自动手枪。火力和射程很弱但是迅速灵敏。</Make_Gun_Pistol.description>-->
+  <!--<Make_Gun_Pistol.jobString>制作中。</Make_Gun_Pistol.jobString>-->
   <!--<Make_Gun_SurvivalRifle.label>制作幸存者步枪</Make_Gun_SurvivalRifle.label>-->
   <!--<Make_Gun_SurvivalRifle.description>古老的栓动步枪，估计是从哪里的地下室翻出来的。射程和威力都不错，但是射速很慢。</Make_Gun_SurvivalRifle.description>-->
   <!--<Make_Gun_SurvivalRifle.jobString>制作中。</Make_Gun_SurvivalRifle.jobString>-->

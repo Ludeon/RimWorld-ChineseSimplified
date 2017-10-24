@@ -78,6 +78,7 @@
   <MessageMedicalOperationFailureMinor>{0}给{1}手术时，发生了小失误。</MessageMedicalOperationFailureMinor>
   <MessageMedicalOperationFailureCatastrophic>{0}给{1}手术时，发生了灾难性的医疗事故。</MessageMedicalOperationFailureCatastrophic>
   <MessageMedicalOperationFailureRidiculous>{0}给{1}手术时，犯了难以置信的愚蠢错误。</MessageMedicalOperationFailureRidiculous>
+  <MessageMedicalOperationFailureFatal>{0} has committed a fatal errol while operating on {1} because of the special challenges of: {2}</MessageMedicalOperationFailureFatal>
 
   <MessageMedicalOperationWillAngerFaction>这次手术将激怒{0}。</MessageMedicalOperationWillAngerFaction>
 
@@ -133,6 +134,8 @@
 
   <MessageNoLongerBingingOnDrug>{0}已经不再滥用{1}了。</MessageNoLongerBingingOnDrug>
 
+  <MessageNoLongerOnTargetedInsultingSpree>{0} is no longer on an insulting spree against {1}.</MessageNoLongerOnTargetedInsultingSpree>
+
   <MessageRottedAwayInStorage>储存区中的{0}腐烂了。</MessageRottedAwayInStorage>
 
   <MessageFoodPoisoning>{0}因食用{1}而导致食物中毒。</MessageFoodPoisoning>
@@ -146,7 +149,11 @@
   <MessageMaxPlanetCoveragePerformanceWarning>警告：生成整个星球可能需要很长的时间。</MessageMaxPlanetCoveragePerformanceWarning>
 
   <MessagePlantDiedOfCold>{0}因温度过低而死亡。</MessagePlantDiedOfCold>
+  <MessagePlantDiedOfRot_LeftUnharvested>{0} has died from rotting due to being left unharvested.</MessagePlantDiedOfRot_LeftUnharvested>
+  <MessagePlantDiedOfRot_ExposedToLight>{0} has died due to being exposed to light.</MessagePlantDiedOfRot_ExposedToLight>
   <MessagePlantDiedOfRot>{0}因未及时收获而腐烂死亡。</MessagePlantDiedOfRot>
+  <MessagePlantDiedOfPoison>{0} has died because of poison.</MessagePlantDiedOfPoison>
+  <MessagePlantDiedOfBlight>{0} has died because of blight.</MessagePlantDiedOfBlight>
 
   <MessagePawnBeingBurned>{0}正在被超高温空气灼烧！</MessagePawnBeingBurned>
 
@@ -196,7 +203,7 @@
 
   <MessageReformedCaravan>已重组远行队。</MessageReformedCaravan>
 
-  <MessageCantAbandonLastColonist>你不能抛弃最后一位殖民者。</MessageCantAbandonLastColonist>
+  <MessageCantBanishLastColonist>You can't banish the last colonist.</MessageCantBanishLastColonist>
 
   <MessageCantEquipIncapableOfViolence>不能装备：{0}无暴力能力。</MessageCantEquipIncapableOfViolence>
   <MessageCantEquipIncapableOfManipulation>不能装备：没有能力。</MessageCantEquipIncapableOfManipulation>
@@ -225,5 +232,35 @@
 
   <MessageSiteCountdownBecauseNoMoreEnemies>你已经消灭了所有敌人。远行队将在{0}后自动重组。</MessageSiteCountdownBecauseNoMoreEnemies>
   <MessageSiteCountdownBecauseNoEnemiesInitially>远行队将在{0}后自动重组。你现在可以「世界」视图中重组远行队。</MessageSiteCountdownBecauseNoEnemiesInitially>
+
+  <MessageCantBanishDownedPawn>Cannot banish {0} since HE cannot walk.</MessageCantBanishDownedPawn>
+
+  <MessageSleepingPawnsWokenUp>{0} have woken up.</MessageSleepingPawnsWokenUp>
+
+  <MessageCompSpawnerSpawnedItem>Item produced: {0}.</MessageCompSpawnerSpawnedItem>
+
+  <MessageHediffCuredByItem>Health condition healed: {0}.</MessageHediffCuredByItem>
+  <MessageBodyPartCuredByItem>Body part restored: {0}.</MessageBodyPartCuredByItem>
+  <MessageResearchProjectFinishedByItem>Technology given: {0}.</MessageResearchProjectFinishedByItem>
+
+  <MessagePawnResurrected>{0} has been brought back to life!</MessagePawnResurrected>
+
+  <MessageFailedToRescueRelative>You have failed to rescue {0}. This will make {1} sad.</MessageFailedToRescueRelative>
+  <MessageRescuedRelative>You have rescued {0}. This will make {1} happy.</MessageRescuedRelative>
+
+  <MessagePrisonerRescued>You have rescued NAME and HE has joined your colony.</MessagePrisonerRescued>
+
+  <MessageTornadoLeftMap>The tornado has left the map.</MessageTornadoLeftMap>
+  <MessageTornadoDissipated>The tornado has dissipated.</MessageTornadoDissipated>
+
+  <MessagePeaceTalksNoDiplomat>No conscious, capable diplomat.</MessagePeaceTalksNoDiplomat>
+
+  <MessageWarningCavePlantsExposedToLight>Warning: {0} cannot live when exposed to light.</MessageWarningCavePlantsExposedToLight>
+
+  <MessageTargetedTantrumChangedTarget>{0} couldn't reach {1} so HE decided to redirect HIS anger at {2}.</MessageTargetedTantrumChangedTarget>
+
+  <MessageTargetedInsultingSpreeChangedTarget>{0} couldn't reach {1} so HE decided to redirect HIS anger at {2}.</MessageTargetedInsultingSpreeChangedTarget>
+
+  <!--<MessageCantAbandonLastColonist>你不能抛弃最后一位殖民者。</MessageCantAbandonLastColonist>-->
 
 </LanguageData>

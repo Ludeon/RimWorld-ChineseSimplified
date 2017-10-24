@@ -30,6 +30,8 @@
   <RecruitSuccess>{0}成功招募了{1}（成功率{2}）。</RecruitSuccess>
   <RecruitFail>{0}未能招募{1}（成功率{2}）。</RecruitFail>
 
+  <RelatedPawnInvolvedInQuest>NAME is {0}'s {1}. If NAME dies, {0} will suffer from long-lasting grief. However, if you manage to rescue NAME, {0} will be very happy for a long time.</RelatedPawnInvolvedInQuest>
+
   <LetterLabelBirthday>生日</LetterLabelBirthday>
   <BirthdayChronological>今天是{0}的历法年龄生日！根据生物年龄，{1}只有{3}岁。\n\n根据历法年龄，{1}已经{2}岁了。\n\n由于殖民者在低温休眠舱内休眠时不会变老，所以生物年龄生日与历法年龄生日可能会有一定的区别。</BirthdayChronological>
   <BirthdayBiologicalAgeInjuries>今天是{0}的{1}岁生物年龄生日。\n\n然而不幸的是，{0}因为年老而患上了如下疾病：\n{2}</BirthdayBiologicalAgeInjuries>
@@ -37,6 +39,10 @@
   <LetterLabelNewDisease>疾病</LetterLabelNewDisease>
   <NewDisease>{0}患上了{1}。\n\n确保你有一位医生和医疗用床，让{2}获得良好的医疗照顾并尽量卧床休息以尽快康复。</NewDisease>
   <NewPartDisease>{0}的患上了{3}，感染位于HIS{1}。\n\n确保你有一位医生和医疗用床，让{2}获得良好的医疗照顾并尽量卧床休息以尽快康复。</NewPartDisease>
+
+  <PawnWasFormerlyColonist>{0} was formerly part of your faction.</PawnWasFormerlyColonist>
+  <PawnHasTheseRelationshipsWithColonists>{0} has these relationships with your colonists:</PawnHasTheseRelationshipsWithColonists>
+  <PrisonerRescueTimeout>The camp will disappear after {0} days. If you miss this opportunity, you may never hear from {1} again.</PrisonerRescueTimeout>
 
   <LetterLabelAncientShrineWarning>远古威胁</LetterLabelAncientShrineWarning>
   <AncientShrineWarning>当{0}靠近这个古老建筑时，HIM浑身上下充满了强烈的不祥之感。HECAP也不确定为什么，但HE觉得在这座满是灰尘的建筑之中可能隐藏着极大的危险。</AncientShrineWarning>
@@ -153,5 +159,32 @@
   <!-- Found lump of precious resources -->
   <LetterLabelFoundPreciousLump>发现稀有矿物</LetterLabelFoundPreciousLump>
   <LetterFoundPreciousLump>你的远距离矿物扫描仪发现了一个附近的稀有矿物块。\n\n无法得知是否有人，或者别的什么东西，在看守着。</LetterFoundPreciousLump>
+
+  <!-- Sleeping mechanoids -->
+  <LetterLabelSleepingMechanoids>Sleeping mechanoids</LetterLabelSleepingMechanoids>
+  <LetterSleepingMechanoids>There are a few sleeping hostile mechanoids in this area.\n\nThe mechanoids may or may not wake up when you approach them, so beware.</LetterSleepingMechanoids>
+
+  <!-- Ambush -->
+  <LetterLabelAmbushInExistingMap>Ambush</LetterLabelAmbushInExistingMap>
+  <LetterAmbushInExistingMap>Your {0} have been ambushed!</LetterAmbushInExistingMap>
+
+  <!-- Peace talks -->
+  <LetterLabelPeaceTalks_Disaster>Peace talks disaster</LetterLabelPeaceTalks_Disaster>
+  <LetterPeaceTalks_Disaster>The talks were a disaster. The delegates barely got past their initial greetings before the discussion broke down into insults and recriminations.\n\nAfter your caravan departed early, {0} from {1} caught up with it and attacked!\n\nRelations with {1}: {2}.</LetterPeaceTalks_Disaster>
+  <LetterLabelPeaceTalks_Backfire>Peace talks backfire</LetterLabelPeaceTalks_Backfire>
+  <LetterPeaceTalks_Backfire>The talks have backfired. Despite trading some pleasantries, the delegates made no progress on substantive issues, and multiple statements were interpreted as insults.\n\nRelations with {0}: {1}.</LetterPeaceTalks_Backfire>
+  <LetterLabelPeaceTalks_TalksFlounder>Peace talks flounder</LetterLabelPeaceTalks_TalksFlounder>
+  <LetterPeaceTalks_TalksFlounder>The talks floundered. Delegates managed to communicate clearly and with basic respect, but were not able to make progress on any genuine issues.\n\nRelations with {0} remain unchanged.</LetterPeaceTalks_TalksFlounder>
+  <LetterLabelPeaceTalks_Success>Peace talks success</LetterLabelPeaceTalks_Success>
+  <LetterPeaceTalks_Success>The talks were a success. The delegates reached new mutual understanding on several substantial issues.\n\nRelations with {0} have improved by {1}.</LetterPeaceTalks_Success>
+  <LetterLabelPeaceTalks_Triumph>Peace talks triumph</LetterLabelPeaceTalks_Triumph>
+  <LetterPeaceTalks_Triumph>The talks were a great triumph! Delegates connected quickly on a personal level and came to truly see each others' perspective on the most difficult issues of the day.\n\nRelations with {0} have improved by {1}.\n\nAs your caravan departed, {0} offered you a gift: {2}.</LetterPeaceTalks_Triumph>
+  <PeaceTalksSocialXPGain>{0}, your negotiator, has gained {1} social experience.</PeaceTalksSocialXPGain>
+
+  <!-- Run wild mental break -->
+  <LetterRunWildMentalBreak>{0} has decided to leave your faction and live with the animals.</LetterRunWildMentalBreak>
+
+  <!-- Catatonic mental break -->
+  <LetterCatatonicMentalBreak>{0} has a catatonic breakdown which will last several days.</LetterCatatonicMentalBreak>
 
 </LanguageData>
