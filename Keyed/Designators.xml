@@ -43,14 +43,14 @@
   <DesignatorAreaHomeClear>移除居住区</DesignatorAreaHomeClear>
   <DesignatorAreaHomeClearDesc>移除一片居住区。殖民者不会再在这里修理建筑，清理地面以及灭火。</DesignatorAreaHomeClearDesc>
 
-  <DesignatorAreaBuildRoofExpand>添加屋顶区</DesignatorAreaBuildRoofExpand>
-  <DesignatorAreaBuildRoofExpandDesc>添加一片屋顶区。殖民者会在此区域内建造屋顶。注意：屋顶需要支撑，距离离支撑物过远则无法建造屋顶。</DesignatorAreaBuildRoofExpandDesc>
+  <DesignatorAreaBuildRoofExpand>建造屋顶区</DesignatorAreaBuildRoofExpand>
+  <DesignatorAreaBuildRoofExpandDesc>殖民者会在此区域内建造屋顶。注意：屋顶需要支撑，距离离支撑物过远则无法建造屋顶。</DesignatorAreaBuildRoofExpandDesc>
 
-  <DesignatorAreaNoRoofExpand>添加露天区</DesignatorAreaNoRoofExpand>
-  <DesignatorAreaNoRoofExpandDesc>添加一片露天区。殖民者也会移除此区域内的所有屋顶（厚山岩顶无法移除）。</DesignatorAreaNoRoofExpandDesc>
+  <DesignatorAreaNoRoofExpand>移除屋顶区</DesignatorAreaNoRoofExpand>
+  <DesignatorAreaNoRoofExpandDesc>殖民者会移除此区域内的所有屋顶（厚山岩顶无法移除）。</DesignatorAreaNoRoofExpandDesc>
 
-  <DesignatorAreaIgnoreRoofExpand>Ignore roof area</DesignatorAreaIgnoreRoofExpand>
-  <DesignatorAreaIgnoreRoofExpandDesc>Colonists will ignore roofs in this area.</DesignatorAreaIgnoreRoofExpandDesc>
+  <DesignatorAreaIgnoreRoofExpand>忽略屋顶区</DesignatorAreaIgnoreRoofExpand>
+  <DesignatorAreaIgnoreRoofExpandDesc>殖民者会忽略此区域内的是否有屋顶。</DesignatorAreaIgnoreRoofExpandDesc>
 
   <DesignatorAreaSnowClearExpand>添加除雪区</DesignatorAreaSnowClearExpand>
   <DesignatorAreaSnowClearExpandDesc>添加一片除雪区。殖民者会清除该区域内的雪。</DesignatorAreaSnowClearExpandDesc>
@@ -85,7 +85,7 @@
   <DesignatorRearmTrapDesc>重置一个使用过的陷阱，使其可以被再次触发。</DesignatorRearmTrapDesc>
 
   <DesignatorOpen>打开</DesignatorOpen>
-  <DesignatorOpenDesc>打开坟墓或低温休眠舱。</DesignatorOpenDesc>
+  <DesignatorOpenDesc>打开容器。</DesignatorOpenDesc>
 
   <DesignatorSlaughter>宰杀</DesignatorSlaughter>
   <DesignatorSlaughterDesc>宰杀已驯服的动物。</DesignatorSlaughterDesc>
@@ -120,11 +120,6 @@
 
   <!-- Desc helpers -->
   <TransmitsPower>传输电力</TransmitsPower>
-  <ConstructionNeeded>Construction needed</ConstructionNeeded>
-
-  <!--<DesignatorAreaBuildRoofClear>移除屋顶区</DesignatorAreaBuildRoofClear>-->
-  <!--<DesignatorAreaBuildRoofClearDesc>移除一片屋顶区。已有的屋顶会保留，但殖民者不会再建造屋顶。</DesignatorAreaBuildRoofClearDesc>-->
-  <!--<DesignatorAreaNoRoofClear>移除露天区</DesignatorAreaNoRoofClear>-->
-  <!--<DesignatorAreaNoRoofClearDesc>移除一片露天区，殖民者不会再移除此区域内的屋顶。</DesignatorAreaNoRoofClearDesc>-->
+  <ConstructionNeeded>需要建造等级</ConstructionNeeded>
 
 </LanguageData>
