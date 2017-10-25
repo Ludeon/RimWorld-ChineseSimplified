@@ -1,0 +1,55 @@
+{
+  "editor.formatOnSave": true,
+  "beautify.language": {
+    "js": {
+      "type": [
+        "javascript",
+        "json"
+      ],
+      "filename": [
+        ".jshintrc",
+        ".jsbeautify"
+      ],
+      "ext": [
+        "js",
+        "json"
+      ]
+    },
+    "css": [
+      "css",
+      "scss",
+      "less"
+    ],
+    "html": [
+      "htm",
+      "html",
+      "mustache",
+      "xml"
+    ]
+  },
+  "beautify.config": {
+    "eol": "\n",
+    "end_with_newline": false,
+    "indent_char": " ",
+    "indent_size": 2,
+    "indent_with_tabs": false,
+    "preserve_newlines": true,
+    "brace_style": "collapse",
+    "max_preserve_newlines": 2,
+    "extra_liners": [
+      "head",
+      "body",
+      "/html"
+    ],
+    "indent_body_inner_html": true,
+    "indent_inner_html": false,
+    "indent_scripts": "separate",
+    "wrap_attributes": "force-aligned",
+    "newline_between_rules": false,
+    "selector_separator_newline": false,
+    "space_around_combinator": true,
+    "space_around_selector_separator": true,
+    "keep_array_indentation": true,
+    "space_before_conditional": true
+  },
+}
