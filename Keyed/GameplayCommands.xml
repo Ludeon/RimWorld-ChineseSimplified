@@ -84,15 +84,15 @@
   <CommandStopAttackFailNotForceAttacking>当前无强制攻击目标。</CommandStopAttackFailNotForceAttacking>
   <MessageTargetBeyondMaximumRange>目标距离大于最大射程。</MessageTargetBeyondMaximumRange>
   <MessageTargetBelowMinimumRange>目标距离小于最小射程。</MessageTargetBelowMinimumRange>
-  <MessageTurretWontFireBecauseHoldFire>Warning: The mortar won't fire because it's set to "Hold fire".</MessageTurretWontFireBecauseHoldFire>
+  <MessageTurretWontFireBecauseHoldFire>警告：迫击炮不会开火，因为已设置为「停火」。</MessageTurretWontFireBecauseHoldFire>
 
   <!-- Ship computer core -->
   <CommandShipLaunch>发射飞船</CommandShipLaunch>
   <CommandShipLaunchDesc>使用当前飞船设置开始飞船发射程序。</CommandShipLaunchDesc>
   <CommandShipLaunchReport>显示发射报告</CommandShipLaunchReport>
   <CommandShipLaunchReportDesc>显示一份关于飞船发射能力的报告。</CommandShipLaunchReportDesc>
-  <CommandShipStartup>Start ship</CommandShipStartup>
-  <CommandShipStartupDesc>Wake up hibernating ship components.</CommandShipStartupDesc>
+  <CommandShipStartup>启动飞船</CommandShipStartup>
+  <CommandShipStartupDesc>唤醒休眠的飞船组件。</CommandShipStartupDesc>
 
   <!-- Pod -->
   <CommandPodEject>弹出休眠者</CommandPodEject>
@@ -138,8 +138,8 @@
   <CommandSquadAttackDesc>命令选定的殖民者攻击指定目标。</CommandSquadAttackDesc>
 
   <!-- Melee attack -->
-  <CommandMeleeAttack>Melee attack</CommandMeleeAttack>
-  <CommandMeleeAttackDesc>Order selected colonists to attack designated target using only fists and melee weapons.</CommandMeleeAttackDesc>
+  <CommandMeleeAttack>近身攻击</CommandMeleeAttack>
+  <CommandMeleeAttackDesc>命令选定的殖民者只使用拳头或近战武器攻击指定目标。</CommandMeleeAttackDesc>
 
   <!-- Hold fire -->
   <CommandHoldFire>停火</CommandHoldFire>
@@ -170,7 +170,7 @@
   <!-- Merge caravan -->
   <CommandMergeCaravans>合并</CommandMergeCaravans>
   <CommandMergeCaravansDesc>合并选中的远行队。</CommandMergeCaravansDesc>
-  <CommandMergeCaravansFailCaravansNotSelected>Select all caravans which should be merged. The caravans must be close to each other.</CommandMergeCaravansFailCaravansNotSelected>
+  <CommandMergeCaravansFailCaravansNotSelected>选择所有应合并的远行队。远行队之间必须互相靠近。</CommandMergeCaravansFailCaravansNotSelected>
 
   <!-- Settle -->
   <CommandSettle>定居</CommandSettle>
@@ -196,7 +196,7 @@
   <!-- Trade -->
   <CommandTrade>贸易</CommandTrade>
   <CommandTradeDesc>与此派系进行贸易。</CommandTradeDesc>
-  <CommandTradeFailNoNegotiator>缺少意识清醒、精神正常的谈判代表。</CommandTradeFailNoNegotiator>
+  <CommandTradeFailNoNegotiator>缺少意识清醒且有能力的谈判者。</CommandTradeFailNoNegotiator>
 
   <!-- Fulfill request -->
   <CommandFulfillTradeOffer>完成交易邀请</CommandFulfillTradeOffer>
