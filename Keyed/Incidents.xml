@@ -4,10 +4,10 @@
   <LetterLabelAnimalInsanitySingle>动物发狂</LetterLabelAnimalInsanitySingle>
   <AnimalInsanitySingle>本地区的一只{0}发狂了。它会攻击任何视野内的人类。</AnimalInsanitySingle>
   <LetterLabelAnimalInsanityMultiple>大批动物发狂！</LetterLabelAnimalInsanityMultiple>
-  <AnimalInsanityMultiple>某种心灵波扫过了整个地区。你的殖民者们没出什么问题，但是……\n\n看来地区内的大批{0}都因此发狂了。</AnimalInsanityMultiple>
+  <AnimalInsanityMultiple>某种心灵波扫过了整个地区。你的殖民者们没出什么问题，但是……\n\n看来地区内的许多{0}都因此发狂了。</AnimalInsanityMultiple>
 
   <LetterLabelCropBlight>枯萎病</LetterLabelCropBlight>
-  <LetterCropBlight>A colonist has noticed blight on your crops! You should cut or burn the blighted plants before the blight spreads.</LetterCropBlight>
+  <LetterCropBlight>一位殖民者注意到你的作物发生了枯萎病！你应该在枯萎病扩散之前割除或烧掉枯萎的植物。</LetterCropBlight>
 
   <LetterLabelMiracleHeal>医疗奇迹</LetterLabelMiracleHeal>
   <MiracleHeal>{0}奇迹般的恢复健康了！</MiracleHeal>
@@ -31,9 +31,9 @@
   <CargoPodCrash>你侦测到了一组货舱在附近坠毁了。\n\n你或许能在残骸中找到不少有用的东西。</CargoPodCrash>
 
   <AnElectricalConduit>电缆短路</AnElectricalConduit>
-  <ShortCircuit>{0}的内部故障引起了短路。\n\n附近连接的电池内储存的{1}Wd的能量都以爆炸的形式被释放出来。</ShortCircuit>
-  <ShortCircuitStartedFire>A fault in {0} has caused a short circuit which started a fire.</ShortCircuitStartedFire>
-  <ShortCircuitDischargedEnergy>All {0} Wd of energy in the connected batteries has been discharged in an electrical explosion.</ShortCircuitDischargedEnergy>
+  <ShortCircuit>{0}的故障引起了短路。\n\n附近连接的电池内储存的{1}Wd的能量都以爆炸的形式被释放出来。</ShortCircuit>
+  <ShortCircuitStartedFire>{0}的故障引起了短路并引发了火灾。</ShortCircuitStartedFire>
+  <ShortCircuitDischargedEnergy>所连接的电池内储存的{0}Wd电力全部在电气爆炸中释放出来。</ShortCircuitDischargedEnergy>
   <ShortCircuitWasLarge>储存的大量电能造成了一场规模可观的爆炸。</ShortCircuitWasLarge>
   <ShortCircuitWasHuge>这爆炸的规模可超级大啊，哇！</ShortCircuitWasHuge>
 
@@ -56,7 +56,7 @@
   <WandererJoin>一位名叫NAME的{0}来到了这里并加入了殖民地。HECAP是一位{1}。</WandererJoin>
 
   <LetterLabelManhunterPackArrived>猎杀人类</LetterLabelManhunterPackArrived>
-  <ManhunterPackArrived>一群猎杀人类的{0}已经进入该地区。他们将四处游荡猎杀人类。\n\n它们无法通过门，所以如果你呆在室内并关好门应该是安全的。他们也不会攻击关闭的炮塔，所以如果你想避免炮台被拆可以停止对炮塔供电。\n\n它们将会在几天后离开。</ManhunterPackArrived>
+  <ManhunterPackArrived>一群猎杀人类的{0}已经进入该地区。他们将四处游荡猎杀人类。\n\n它们不会从门进来，所以如果你呆在室内并关好门应该是安全的。他们也不会攻击关闭的炮塔，所以如果你想避免炮台被拆可以停止对炮塔供电。\n\n它们将会在几天后离开。</ManhunterPackArrived>
 
   <!-- Crashed ship part-->
   <MessageAnimalInsanityPulse>坠毁的飞船零件发射了一束心灵脉冲，它让附近的动物都发狂了。</MessageAnimalInsanityPulse>
@@ -121,11 +121,11 @@
   <RansomDemand_Reject>拒绝</RansomDemand_Reject>
 
   <!-- Journey-related -->
-  <JourneyOffer>一个曾经被你起名为 沙隆·白石 的友好AI给你发了一条消息！\n\n他透露说他在这个星球上有一艘太空船，并把坐标发给了你。\n\n如果你前往太空船，沙隆会带你离开这个边缘世界，飞向星空。</JourneyOffer>
-  <EscapeShipFoundLabel>Ship found</EscapeShipFoundLabel>
-  <EscapeShipFound>You've reached the coordinates sent by Charlon Whitestone and discovered the hidden starship.\n\nThe ship's reactor is still in deep hibernation mode, so it can't fly yet. You can start it up by interacting with the computer core.\n\nCharlon Whitestone warns you that the startup process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and treasure hunters. Make sure your defenses are prepared first.</EscapeShipFound>
-  <EscapeShipLostLabel>Ship destroyed</EscapeShipLostLabel>
-  <EscapeShipLost>Charlon Whitestone sends you a message.\n\nHe sees that you've lost control of the landed ship. To stop it falling into the wrong hands, he's been forced to trigger the ship's self-destruct mechanism. The ship is now a crater.\n\nYou'll need to find another way off this planet.</EscapeShipLost>
+  <JourneyOffer>一个曾经被你起名为沙隆·白石的友好AI给你发了一条消息！\n\n他透露说他在这个星球上有一艘太空船，并把坐标发给了你。\n\n这艘太空船处于深度休眠模式。你到达后必须启动它，然后抵御那些试图盗走太空船的袭击者，直到启动序列完成。\n\n如果你前往太空船，沙隆会带你离开这个边缘世界，飞向星空。</JourneyOffer>
+  <EscapeShipFoundLabel>发现飞船</EscapeShipFoundLabel>
+  <EscapeShipFound>你已经抵达沙隆·白石所发给你的坐标并且发现了隐藏的太空船。\n\n这艘飞船的反应堆仍处于深度休眠模式，所以还无法飞行。你可以通过操作电脑核心启动它。\n\n沙隆·白石警告称启动进程将会耗费大约15天，并且在很远距离外就能侦测到能量特征。这类能量特征表示具备星际飞行能力，并将吸引一群绝望的袭击者和寻宝猎人。确保第一时间做好防御。</EscapeShipFound>
+  <EscapeShipLostLabel>飞船摧毁</EscapeShipLostLabel>
+  <EscapeShipLost>沙隆·白石给你发了条消息。\n\n他发现你失去了对已降落飞船的控制。为了防止落入坏人之手，他被迫触发了飞船的自毁装置。这艘船已经成为一颗定时炸弹。\n\n你需要另寻他路离开这颗星球。</EscapeShipLost>
 
   <!-- Caravan meeting -->
   <CaravanMeetingTitle>远行队相遇（{0}）</CaravanMeetingTitle>
@@ -133,11 +133,11 @@
   <CaravanMeeting_Trade>交易</CaravanMeeting_Trade>
   <CaravanMeeting_Attack>攻击</CaravanMeeting_Attack>
   <CaravanMeeting_MoveOn>继续前进</CaravanMeeting_MoveOn>
-  <CaravanMeeting_TradeIncapable>no caravan members capable of trading</CaravanMeeting_TradeIncapable>
+  <CaravanMeeting_TradeIncapable>没有远行队成员具备交易能力</CaravanMeeting_TradeIncapable>
 
   <!-- Caravan request -->
   <LetterLabelCaravanRequest>远行队请求</LetterLabelCaravanRequest>
-  <LetterCaravanRequest>附近的一个定居点，{0}，联系上你并提出一个特殊的交易需求。他们想要采购：\n\n  {1}\n\n作为回报，他们会提供：\n\n  {2}\n\n需求期限：{3}\n\n如果你想完成这项交易，派遣携带这些物资的远行队。你可以在世界地图中选择{0}查看此邀请。</LetterCaravanRequest>
+  <LetterCaravanRequest>附近的一个定居点，{0}，联系上你并提出一个特殊的交易需求。他们想要采购：\n\n {1}\n\n作为回报，他们会提供：\n\n {2}\n\n需求期限：{3}\n\n如果你想完成这项交易，派遣携带这些物资的远行队。你可以在世界地图中选择{0}查看此邀请。</LetterCaravanRequest>
   <CaravanRequestInfo>需求：{0}，回报：{1}（剩余 {2}）</CaravanRequestInfo>
 
   <!-- Caravan demand -->
@@ -153,13 +153,6 @@
   <ItemStashQuestFeeDemand>{0}愿意告诉我们藏匿点的位置来换取{1}白银。</ItemStashQuestFeeDemand>
   <ItemStashSitePart_Unknown>遗憾的是，{0}不清楚是否可能有人——或者其他的什么东西看守着藏匿点。</ItemStashSitePart_Unknown>
   <ItemStashSitePart_Nothing>{0}说藏匿点没有人看守。</ItemStashSitePart_Nothing>
-  <ItemStashSitePart_Part>{0} says that {1}.</ItemStashSitePart_Part>
-
-
-  <!--<CropBlight>一种神秘的枯萎病摧毁了你的农作物。</CropBlight>-->
-  <!-- Journey -->
-  <!--<ItemStashSitePart_Outpost>{0}说附近有一个敌人的哨所。</ItemStashSitePart_Outpost>-->
-  <!--<ItemStashSitePart_Turrets>{0}说周围有敌人的炮塔。</ItemStashSitePart_Turrets>-->
-  <!--<ItemStashSitePart_Manhunters>{0}说附近游荡着一群猎杀人类的动物。</ItemStashSitePart_Manhunters>-->
+  <ItemStashSitePart_Part>{0}说{1}。</ItemStashSitePart_Part>
 
 </LanguageData>
