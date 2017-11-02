@@ -13,17 +13,17 @@
   <PowerSwitch_Frame.label>电力开关（建造中）</PowerSwitch_Frame.label>
   <PowerSwitch_Frame.description>连通/断开电网，决定电流是否能够通过。</PowerSwitch_Frame.description>
 
-  <WoodFiredGenerator.label>wood-fired generator</WoodFiredGenerator.label>
-  <WoodFiredGenerator.description>Produces power by consuming wood fuel. Must be fueled by hand.</WoodFiredGenerator.description>
-  <WoodFiredGenerator_Blueprint.label>wood-fired generator (blueprint)</WoodFiredGenerator_Blueprint.label>
-  <WoodFiredGenerator_Frame.label>wood-fired generator (building)</WoodFiredGenerator_Frame.label>
-  <WoodFiredGenerator_Frame.description>Produces power by consuming wood fuel. Must be fueled by hand.</WoodFiredGenerator_Frame.description>
+  <WoodFiredGenerator.label>木柴发电机</WoodFiredGenerator.label>
+  <WoodFiredGenerator.description>通过燃烧木材发电。必须手动添加燃料。</WoodFiredGenerator.description>
+  <WoodFiredGenerator_Blueprint.label>木柴发电机（蓝图）</WoodFiredGenerator_Blueprint.label>
+  <WoodFiredGenerator_Frame.label>木柴发电机（建造中）</WoodFiredGenerator_Frame.label>
+  <WoodFiredGenerator_Frame.description>通过燃烧木材发电。必须手动添加燃料。</WoodFiredGenerator_Frame.description>
 
-  <ChemfuelPoweredGenerator.label>chemfuel powered generator</ChemfuelPoweredGenerator.label>
-  <ChemfuelPoweredGenerator.description>Produces power by consuming chemfuel. Must be fueled by hand.</ChemfuelPoweredGenerator.description>
-  <ChemfuelPoweredGenerator_Blueprint.label>chemfuel powered generator (blueprint)</ChemfuelPoweredGenerator_Blueprint.label>
-  <ChemfuelPoweredGenerator_Frame.label>chemfuel powered generator (building)</ChemfuelPoweredGenerator_Frame.label>
-  <ChemfuelPoweredGenerator_Frame.description>Produces power by consuming chemfuel. Must be fueled by hand.</ChemfuelPoweredGenerator_Frame.description>
+  <ChemfuelPoweredGenerator.label>化学燃料发电机</ChemfuelPoweredGenerator.label>
+  <ChemfuelPoweredGenerator.description>通过消耗化学燃料发电。必须手动添加燃料。</ChemfuelPoweredGenerator.description>
+  <ChemfuelPoweredGenerator_Blueprint.label>化学燃料发电机（蓝图）</ChemfuelPoweredGenerator_Blueprint.label>
+  <ChemfuelPoweredGenerator_Frame.label>化学燃料发电机（建造中）</ChemfuelPoweredGenerator_Frame.label>
+  <ChemfuelPoweredGenerator_Frame.description>通过消耗化学燃料发电。必须手动添加燃料。</ChemfuelPoweredGenerator_Frame.description>
 
   <Battery.label>蓄电池</Battery.label>
   <Battery.description>储存多余的电力并在电力供给不足时释放电力。警告：充满的电池在暴露于雨水或火焰中时极易爆炸。</Battery.description>
@@ -44,11 +44,5 @@
   <GeothermalGenerator_Frame.label>地热能发电机（建造中）</GeothermalGenerator_Frame.label>
   <GeothermalGenerator_Frame.description>利用蒸汽间歇喷泉的地热来发电。必须放置在蒸汽间歇喷泉上。</GeothermalGenerator_Frame.description>
 
-
-  <!--<FueledGenerator.label>火力发电机</FueledGenerator.label>-->
-  <!--<FueledGenerator.description>利用木材燃烧来发电。必须手动添加燃料。</FueledGenerator.description>-->
-  <!--<FueledGenerator_Blueprint.label>火力发电机（蓝图）</FueledGenerator_Blueprint.label>-->
-  <!--<FueledGenerator_Frame.label>火力发电机（建造中）</FueledGenerator_Frame.label>-->
-  <!--<FueledGenerator_Frame.description>利用木材燃烧来发电。必须手动添加燃料。</FueledGenerator_Frame.description>-->
 
 </LanguageData>
