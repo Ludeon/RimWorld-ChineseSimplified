@@ -3,7 +3,7 @@
 
   <!-- Shooting -->
 
-  <MeleeDPS.label>近战DPS</MeleeDPS.label>
+  <MeleeDPS.label>近战每秒伤害</MeleeDPS.label>
   <MeleeDPS.description>近战中每秒平均伤害。（未计算目标防御力，比如闪避和护甲。）</MeleeDPS.description>
 
   <MeleeHitChance.label>近战命中率</MeleeHitChance.label>
@@ -13,7 +13,7 @@
   <MeleeDodgeChance.description>闪避近身攻击或者其他物理击打的几率。（在瞄准时或使用远程武器开火时，角色无法进行闪避。）</MeleeDodgeChance.description>
 
   <ShootingAccuracy.label>射击精确度</ShootingAccuracy.label>
-  <ShootingAccuracy.description>射击距离内的命中几率。</ShootingAccuracy.description>
+  <ShootingAccuracy.description>射击距离每格不打偏的基础几率。命中几率同样受到目标、掩体，以及环境状况的影响。选中一个射手并将鼠标移动到目标上可以看到。</ShootingAccuracy.description>
 
   <AimingDelayFactor.label>瞄准延时系数</AimingDelayFactor.label>
   <AimingDelayFactor.description>瞄准后开火所花费的时间。</AimingDelayFactor.description>
