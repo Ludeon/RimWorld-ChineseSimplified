@@ -1,90 +1,90 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <Transition_Include.rulePack.rulesStrings.0>duetoa->due to</Transition_Include.rulePack.rulesStrings.0>
-  <Transition_Include.rulePack.rulesStrings.1>duetoa(p=0.5)->because of</Transition_Include.rulePack.rulesStrings.1>
-  <Transition_Include.rulePack.rulesStrings.2>duetoa(p=0.5)->thanks to</Transition_Include.rulePack.rulesStrings.2>
+  <Transition_Include.rulePack.rulesStrings.0>duetoa->由于</Transition_Include.rulePack.rulesStrings.0>
+  <Transition_Include.rulePack.rulesStrings.1>duetoa(p=0.5)->是因为</Transition_Include.rulePack.rulesStrings.1>
+  <Transition_Include.rulePack.rulesStrings.2>duetoa(p=0.5)->多亏</Transition_Include.rulePack.rulesStrings.2>
   <Transition_Include.rulePack.rulesStrings.3>subject_definite->[subject_labelDefinite]</Transition_Include.rulePack.rulesStrings.3>
   <Transition_Include.rulePack.rulesStrings.4>subject_definite->[subject_nameShortDef]</Transition_Include.rulePack.rulesStrings.4>
 
-  <Transition_Downed.rulePack.rulesStrings.0>logentry->[culpritHediff_labelNoun] caused [subject_nameShortDef] to [collapsemeta].</Transition_Downed.rulePack.rulesStrings.0>
-  <Transition_Downed.rulePack.rulesStrings.1>logentry->[culpritHediff_labelNoun] in the [culpritHediff_target_label] caused [subject_nameShortDef] to [collapsemeta].</Transition_Downed.rulePack.rulesStrings.1>
-  <Transition_Downed.rulePack.rulesStrings.2>logentry->[subject_nameShortDef] [collapsedmeta] [duetoa] [culpritHediff_labelNoun].</Transition_Downed.rulePack.rulesStrings.2>
-  <Transition_Downed.rulePack.rulesStrings.3>logentry->[subject_nameShortDef] [collapsedmeta] [duetoa] [culpritHediff_labelNoun] in the [culpritHediff_target_label].</Transition_Downed.rulePack.rulesStrings.3>
-  <Transition_Downed.rulePack.rulesStrings.4>logentry->[subject_nameShortDef] [collapsedmeta] [duetoa] [culpritHediff_labelNoun] in [subject_possessive] [culpritHediff_target_label].</Transition_Downed.rulePack.rulesStrings.4>
-  <Transition_Downed.rulePack.rulesStrings.5>logentry(p=0.1)->[subject_nameShortDef] [collapsedmeta].</Transition_Downed.rulePack.rulesStrings.5>
-  <Transition_Downed.rulePack.rulesStrings.6>collapse->collapse</Transition_Downed.rulePack.rulesStrings.6>
-  <Transition_Downed.rulePack.rulesStrings.7>collapse->crumple</Transition_Downed.rulePack.rulesStrings.7>
-  <Transition_Downed.rulePack.rulesStrings.8>collapse->drop</Transition_Downed.rulePack.rulesStrings.8>
-  <Transition_Downed.rulePack.rulesStrings.9>collapse->faint</Transition_Downed.rulePack.rulesStrings.9>
-  <Transition_Downed.rulePack.rulesStrings.10>collapsed->collapsed</Transition_Downed.rulePack.rulesStrings.10>
-  <Transition_Downed.rulePack.rulesStrings.11>collapsed->crumpled</Transition_Downed.rulePack.rulesStrings.11>
-  <Transition_Downed.rulePack.rulesStrings.12>collapsed->dropped</Transition_Downed.rulePack.rulesStrings.12>
-  <Transition_Downed.rulePack.rulesStrings.13>collapsed->fainted</Transition_Downed.rulePack.rulesStrings.13>
-  <Transition_Downed.rulePack.rulesStrings.14>helplessly->helplessly</Transition_Downed.rulePack.rulesStrings.14>
-  <Transition_Downed.rulePack.rulesStrings.15>helplessly->unconscious</Transition_Downed.rulePack.rulesStrings.15>
-  <Transition_Downed.rulePack.rulesStrings.16>helplessly->in exhaustion</Transition_Downed.rulePack.rulesStrings.16>
-  <Transition_Downed.rulePack.rulesStrings.17>helplessly->weakly</Transition_Downed.rulePack.rulesStrings.17>
-  <Transition_Downed.rulePack.rulesStrings.18>helplessly->feebly</Transition_Downed.rulePack.rulesStrings.18>
-  <Transition_Downed.rulePack.rulesStrings.19>collapsemeta->[collapse]</Transition_Downed.rulePack.rulesStrings.19>
-  <Transition_Downed.rulePack.rulesStrings.20>collapsemeta(p=0.5)->[collapse] [helplessly]</Transition_Downed.rulePack.rulesStrings.20>
-  <Transition_Downed.rulePack.rulesStrings.21>collapsedmeta->[collapsed]</Transition_Downed.rulePack.rulesStrings.21>
-  <Transition_Downed.rulePack.rulesStrings.22>collapsedmeta(p=0.5)->[collapsed] [helplessly]</Transition_Downed.rulePack.rulesStrings.22>
-  <Transition_Downed.rulePack.rulesStrings.23>helplessly(subject_flesh!=Mechanoid)->weakly</Transition_Downed.rulePack.rulesStrings.23>
-  <Transition_Downed.rulePack.rulesStrings.24>helplessly(subject_flesh!=Mechanoid)->feebly</Transition_Downed.rulePack.rulesStrings.24>
-  <Transition_Downed.rulePack.rulesStrings.25>helplessly(subject_flesh==Mechanoid)->uncontrollably</Transition_Downed.rulePack.rulesStrings.25>
+  <Transition_Downed.rulePack.rulesStrings.0>logentry->[culpritHediff_labelNoun]导致[subject_definite][collapsemeta].</Transition_Downed.rulePack.rulesStrings.0>
+  <Transition_Downed.rulePack.rulesStrings.1>logentry->[culpritHediff_labelNoun]在[culpritHediff_target_label]导致[subject_definite][collapsemeta].</Transition_Downed.rulePack.rulesStrings.1>
+  <Transition_Downed.rulePack.rulesStrings.2>logentry->[subject_definite][collapsedmeta][duetoa][culpritHediff_labelNoun].</Transition_Downed.rulePack.rulesStrings.2>
+  <Transition_Downed.rulePack.rulesStrings.3>logentry->[subject_definite][collapsedmeta][duetoa][culpritHediff_labelNoun]在[culpritHediff_target_label].</Transition_Downed.rulePack.rulesStrings.3>
+  <Transition_Downed.rulePack.rulesStrings.4>logentry->[subject_definite][collapsedmeta][duetoa][culpritHediff_labelNoun]在[subject_possessive][culpritHediff_target_label].</Transition_Downed.rulePack.rulesStrings.4>
+  <Transition_Downed.rulePack.rulesStrings.5>logentry(p=0.1)->[subject_definite][collapsedmeta].</Transition_Downed.rulePack.rulesStrings.5>
+  <Transition_Downed.rulePack.rulesStrings.6>collapse->崩溃</Transition_Downed.rulePack.rulesStrings.6>
+  <Transition_Downed.rulePack.rulesStrings.7>collapse->崩溃</Transition_Downed.rulePack.rulesStrings.7>
+  <Transition_Downed.rulePack.rulesStrings.8>collapse->掉落</Transition_Downed.rulePack.rulesStrings.8>
+  <Transition_Downed.rulePack.rulesStrings.9>collapse(subject_flesh!=Mechanoid)->昏厥</Transition_Downed.rulePack.rulesStrings.9>
+  <Transition_Downed.rulePack.rulesStrings.10>collapse(subject_flesh==Mechanoid)->崩溃</Transition_Downed.rulePack.rulesStrings.10>
+  <Transition_Downed.rulePack.rulesStrings.11>collapse(subject_flesh==Mechanoid)->不断重复</Transition_Downed.rulePack.rulesStrings.11>
+  <Transition_Downed.rulePack.rulesStrings.12>collapse(subject_flesh==Mechanoid)->锁定</Transition_Downed.rulePack.rulesStrings.12>
+  <Transition_Downed.rulePack.rulesStrings.13>collapsed->已崩溃</Transition_Downed.rulePack.rulesStrings.13>
+  <Transition_Downed.rulePack.rulesStrings.14>collapsed->已崩溃</Transition_Downed.rulePack.rulesStrings.14>
+  <Transition_Downed.rulePack.rulesStrings.15>collapsed->已掉落</Transition_Downed.rulePack.rulesStrings.15>
+  <Transition_Downed.rulePack.rulesStrings.16>collapsed(subject_flesh!=Mechanoid)->已昏厥</Transition_Downed.rulePack.rulesStrings.16>
+  <Transition_Downed.rulePack.rulesStrings.17>collapsed(subject_flesh==Mechanoid)->已崩溃</Transition_Downed.rulePack.rulesStrings.17>
+  <Transition_Downed.rulePack.rulesStrings.18>collapsed(subject_flesh==Mechanoid)->不断重复</Transition_Downed.rulePack.rulesStrings.18>
+  <Transition_Downed.rulePack.rulesStrings.19>collapsed(subject_flesh==Mechanoid)->已锁定</Transition_Downed.rulePack.rulesStrings.19>
+  <Transition_Downed.rulePack.rulesStrings.20>helplessly->无助地</Transition_Downed.rulePack.rulesStrings.20>
+  <Transition_Downed.rulePack.rulesStrings.21>helplessly(subject_flesh!=Mechanoid)->不醒人事的</Transition_Downed.rulePack.rulesStrings.21>
+  <Transition_Downed.rulePack.rulesStrings.22>helplessly(subject_flesh!=Mechanoid)->筋疲力尽</Transition_Downed.rulePack.rulesStrings.22>
+  <Transition_Downed.rulePack.rulesStrings.23>helplessly(subject_flesh!=Mechanoid)->软弱无力地</Transition_Downed.rulePack.rulesStrings.23>
+  <Transition_Downed.rulePack.rulesStrings.24>helplessly(subject_flesh!=Mechanoid)->无力地</Transition_Downed.rulePack.rulesStrings.24>
+  <Transition_Downed.rulePack.rulesStrings.25>helplessly(subject_flesh==Mechanoid)->失控地</Transition_Downed.rulePack.rulesStrings.25>
   <Transition_Downed.rulePack.rulesStrings.26>collapsemeta->[collapse]</Transition_Downed.rulePack.rulesStrings.26>
-  <Transition_Downed.rulePack.rulesStrings.27>collapsemeta(p=0.5)->[collapse] [helplessly]</Transition_Downed.rulePack.rulesStrings.27>
+  <Transition_Downed.rulePack.rulesStrings.27>collapsemeta(p=0.5)->[collapse][helplessly]</Transition_Downed.rulePack.rulesStrings.27>
   <Transition_Downed.rulePack.rulesStrings.28>collapsedmeta->[collapsed]</Transition_Downed.rulePack.rulesStrings.28>
-  <Transition_Downed.rulePack.rulesStrings.29>collapsedmeta(p=0.5)->[collapsed] [helplessly]</Transition_Downed.rulePack.rulesStrings.29>
+  <Transition_Downed.rulePack.rulesStrings.29>collapsedmeta(p=0.5)->[collapsed][helplessly]</Transition_Downed.rulePack.rulesStrings.29>
 
-  <Transition_DiedInclude.rulePack.rulesStrings.0>logentry(p=1.5)->[culpritHediff_labelNoun] caused [subject_nameShortDef] to [die].</Transition_DiedInclude.rulePack.rulesStrings.0>
-  <Transition_DiedInclude.rulePack.rulesStrings.1>logentry(p=1.5)->[culpritHediff_labelNoun] in the [culpritHediff_target_label] caused [subject_nameShortDef] to [die].</Transition_DiedInclude.rulePack.rulesStrings.1>
-  <Transition_DiedInclude.rulePack.rulesStrings.2>logentry->[subject_nameShortDef] [died] [duetoa] [culpritHediff_labelNoun] [flavorsuffix].</Transition_DiedInclude.rulePack.rulesStrings.2>
-  <Transition_DiedInclude.rulePack.rulesStrings.3>logentry->[subject_nameShortDef] [died] [duetoa] [culpritHediff_labelNoun] in the [culpritHediff_target_label] [flavorsuffix].</Transition_DiedInclude.rulePack.rulesStrings.3>
-  <Transition_DiedInclude.rulePack.rulesStrings.4>logentry->[subject_nameShortDef] [died] [duetoa] [culpritHediff_labelNoun] in [subject_possessive] [culpritHediff_target_label] [flavorsuffix].</Transition_DiedInclude.rulePack.rulesStrings.4>
-  <Transition_DiedInclude.rulePack.rulesStrings.5>logentry(p=0.1)->[subject_nameShortDef] [died] [suffixflavor].</Transition_DiedInclude.rulePack.rulesStrings.5>
-  <Transition_DiedInclude.rulePack.rulesStrings.6>logentry->[subject_definite] [died] [suffixflavor].</Transition_DiedInclude.rulePack.rulesStrings.6>
+  <Transition_DiedInclude.rulePack.rulesStrings.0>logentry(p=1.5)->[culpritHediff_labelNoun]导致[subject_definite][die].</Transition_DiedInclude.rulePack.rulesStrings.0>
+  <Transition_DiedInclude.rulePack.rulesStrings.1>logentry(p=1.5)->[culpritHediff_labelNoun]在[culpritHediff_target_label]导致[subject_definite][die].</Transition_DiedInclude.rulePack.rulesStrings.1>
+  <Transition_DiedInclude.rulePack.rulesStrings.2>logentry->[subject_definite][died][duetoa][culpritHediff_labelNoun][flavorsuffix].</Transition_DiedInclude.rulePack.rulesStrings.2>
+  <Transition_DiedInclude.rulePack.rulesStrings.3>logentry->[subject_definite][died][duetoa][culpritHediff_labelNoun]在[culpritHediff_target_label][flavorsuffix].</Transition_DiedInclude.rulePack.rulesStrings.3>
+  <Transition_DiedInclude.rulePack.rulesStrings.4>logentry->[subject_definite][died][duetoa][culpritHediff_labelNoun]在[subject_possessive][culpritHediff_target_label][flavorsuffix].</Transition_DiedInclude.rulePack.rulesStrings.4>
+  <Transition_DiedInclude.rulePack.rulesStrings.5>logentry->[subject_definite][died].</Transition_DiedInclude.rulePack.rulesStrings.5>
+  <Transition_DiedInclude.rulePack.rulesStrings.6>logentry->[subject_definite][died][suffixflavor].</Transition_DiedInclude.rulePack.rulesStrings.6>
 
-  <Transition_Died.rulePack.rulesStrings.0>die(p=2)->die</Transition_Died.rulePack.rulesStrings.0>
-  <Transition_Died.rulePack.rulesStrings.1>die->perish</Transition_Died.rulePack.rulesStrings.1>
-  <Transition_Died.rulePack.rulesStrings.2>die->expire</Transition_Died.rulePack.rulesStrings.2>
-  <Transition_Died.rulePack.rulesStrings.3>die(p=0.5)->give in to [subject_possessive] wounds</Transition_Died.rulePack.rulesStrings.3>
-  <Transition_Died.rulePack.rulesStrings.4>died(p=2)->died</Transition_Died.rulePack.rulesStrings.4>
-  <Transition_Died.rulePack.rulesStrings.5>died->perished</Transition_Died.rulePack.rulesStrings.5>
-  <Transition_Died.rulePack.rulesStrings.6>died->expired</Transition_Died.rulePack.rulesStrings.6>
-  <Transition_Died.rulePack.rulesStrings.7>died->perished</Transition_Died.rulePack.rulesStrings.7>
-  <Transition_Died.rulePack.rulesStrings.8>died(subject_flesh!=Mechanoid)->expired</Transition_Died.rulePack.rulesStrings.8>
-  <Transition_Died.rulePack.rulesStrings.9>died(subject_flesh==Mechanoid)->shut down</Transition_Died.rulePack.rulesStrings.9>
-  <Transition_Died.rulePack.rulesStrings.10>died(subject_flesh==Mechanoid)->stopped functioning</Transition_Died.rulePack.rulesStrings.10>
+  <Transition_Died.rulePack.rulesStrings.0>die(p=2)->死亡</Transition_Died.rulePack.rulesStrings.0>
+  <Transition_Died.rulePack.rulesStrings.1>die->猝死</Transition_Died.rulePack.rulesStrings.1>
+  <Transition_Died.rulePack.rulesStrings.2>die->断气</Transition_Died.rulePack.rulesStrings.2>
+  <Transition_Died.rulePack.rulesStrings.3>die(subject_flesh!=Mechanoid,p=0.5)->接受[subject_possessive]损失</Transition_Died.rulePack.rulesStrings.3>
+  <Transition_Died.rulePack.rulesStrings.4>die(subject_flesh==Mechanoid,p=0.5)->关停</Transition_Died.rulePack.rulesStrings.4>
+  <Transition_Died.rulePack.rulesStrings.5>die(subject_flesh==Mechanoid,p=0.5)->停止运转</Transition_Died.rulePack.rulesStrings.5>
+  <Transition_Died.rulePack.rulesStrings.6>died(p=2)->已死亡</Transition_Died.rulePack.rulesStrings.6>
+  <Transition_Died.rulePack.rulesStrings.7>died->已猝死</Transition_Died.rulePack.rulesStrings.7>
+  <Transition_Died.rulePack.rulesStrings.8>died(subject_flesh!=Mechanoid)->已断气</Transition_Died.rulePack.rulesStrings.8>
+  <Transition_Died.rulePack.rulesStrings.9>died(subject_flesh==Mechanoid)->已关停</Transition_Died.rulePack.rulesStrings.9>
+  <Transition_Died.rulePack.rulesStrings.10>died(subject_flesh==Mechanoid)->已停止运转</Transition_Died.rulePack.rulesStrings.10>
 
-  <Transition_DiedExplosive.rulePack.rulesStrings.0>die(p=3)->explode [flavor]</Transition_DiedExplosive.rulePack.rulesStrings.0>
-  <Transition_DiedExplosive.rulePack.rulesStrings.1>die(p=3)->explode [flavorsuffix]</Transition_DiedExplosive.rulePack.rulesStrings.1>
-  <Transition_DiedExplosive.rulePack.rulesStrings.2>die->detonate [flavor]</Transition_DiedExplosive.rulePack.rulesStrings.2>
-  <Transition_DiedExplosive.rulePack.rulesStrings.3>die->detonate [flavorsuffix]</Transition_DiedExplosive.rulePack.rulesStrings.3>
-  <Transition_DiedExplosive.rulePack.rulesStrings.4>die->burst [flavor]</Transition_DiedExplosive.rulePack.rulesStrings.4>
-  <Transition_DiedExplosive.rulePack.rulesStrings.5>die->burst [flavorsuffix]</Transition_DiedExplosive.rulePack.rulesStrings.5>
-  <Transition_DiedExplosive.rulePack.rulesStrings.6>died(p=3)->exploded [flavor]</Transition_DiedExplosive.rulePack.rulesStrings.6>
-  <Transition_DiedExplosive.rulePack.rulesStrings.7>died->detonated [flavor]</Transition_DiedExplosive.rulePack.rulesStrings.7>
-  <Transition_DiedExplosive.rulePack.rulesStrings.8>died->burst [flavor]</Transition_DiedExplosive.rulePack.rulesStrings.8>
-  <Transition_DiedExplosive.rulePack.rulesStrings.9>flavor(p=0.2)->in a chemical [fireball]</Transition_DiedExplosive.rulePack.rulesStrings.9>
-  <Transition_DiedExplosive.rulePack.rulesStrings.10>flavor->in a [color] [fireball]</Transition_DiedExplosive.rulePack.rulesStrings.10>
-  <Transition_DiedExplosive.rulePack.rulesStrings.11>flavor->in a [large] [fireball]</Transition_DiedExplosive.rulePack.rulesStrings.11>
-  <Transition_DiedExplosive.rulePack.rulesStrings.12>flavor(p=4)->in a [fireball]</Transition_DiedExplosive.rulePack.rulesStrings.12>
+  <Transition_DiedExplosive.rulePack.rulesStrings.0>die(p=3)->爆发[flavor]</Transition_DiedExplosive.rulePack.rulesStrings.0>
+  <Transition_DiedExplosive.rulePack.rulesStrings.1>die(p=3)->爆发[flavorsuffix]</Transition_DiedExplosive.rulePack.rulesStrings.1>
+  <Transition_DiedExplosive.rulePack.rulesStrings.2>die->引爆[flavor]</Transition_DiedExplosive.rulePack.rulesStrings.2>
+  <Transition_DiedExplosive.rulePack.rulesStrings.3>die->引爆[flavorsuffix]</Transition_DiedExplosive.rulePack.rulesStrings.3>
+  <Transition_DiedExplosive.rulePack.rulesStrings.4>die->爆裂[flavor]</Transition_DiedExplosive.rulePack.rulesStrings.4>
+  <Transition_DiedExplosive.rulePack.rulesStrings.5>die->爆裂[flavorsuffix]</Transition_DiedExplosive.rulePack.rulesStrings.5>
+  <Transition_DiedExplosive.rulePack.rulesStrings.6>died(p=3)->已爆发[flavor]</Transition_DiedExplosive.rulePack.rulesStrings.6>
+  <Transition_DiedExplosive.rulePack.rulesStrings.7>died->已引爆[flavor]</Transition_DiedExplosive.rulePack.rulesStrings.7>
+  <Transition_DiedExplosive.rulePack.rulesStrings.8>died->已爆裂[flavor]</Transition_DiedExplosive.rulePack.rulesStrings.8>
+  <Transition_DiedExplosive.rulePack.rulesStrings.9>flavor(p=0.2)->在一个化合燃料[fireball]</Transition_DiedExplosive.rulePack.rulesStrings.9>
+  <Transition_DiedExplosive.rulePack.rulesStrings.10>flavor->在一个[color][fireball]</Transition_DiedExplosive.rulePack.rulesStrings.10>
+  <Transition_DiedExplosive.rulePack.rulesStrings.11>flavor->在一个[large][fireball]</Transition_DiedExplosive.rulePack.rulesStrings.11>
+  <Transition_DiedExplosive.rulePack.rulesStrings.12>flavor(p=4)->在一个[fireball]</Transition_DiedExplosive.rulePack.rulesStrings.12>
   <Transition_DiedExplosive.rulePack.rulesStrings.13>flavor(p=4)-></Transition_DiedExplosive.rulePack.rulesStrings.13>
-  <Transition_DiedExplosive.rulePack.rulesStrings.14>flavorsuffix->, scattering [pieces] [everywhere]</Transition_DiedExplosive.rulePack.rulesStrings.14>
-  <Transition_DiedExplosive.rulePack.rulesStrings.15>flavorsuffix(p=2)->, scattering [gore] [everywhere]</Transition_DiedExplosive.rulePack.rulesStrings.15>
-  <Transition_DiedExplosive.rulePack.rulesStrings.16>flavorsuffix->, leaving a small pile of [gore]</Transition_DiedExplosive.rulePack.rulesStrings.16>
-  <Transition_DiedExplosive.rulePack.rulesStrings.17>flavorsuffix->, leaving a small crater</Transition_DiedExplosive.rulePack.rulesStrings.17>
+  <Transition_DiedExplosive.rulePack.rulesStrings.14>flavorsuffix->，散射[pieces][everywhere]</Transition_DiedExplosive.rulePack.rulesStrings.14>
+  <Transition_DiedExplosive.rulePack.rulesStrings.15>flavorsuffix(subject_flesh!=Mechanoid,p=2)->，散射[gore][everywhere]</Transition_DiedExplosive.rulePack.rulesStrings.15>
+  <Transition_DiedExplosive.rulePack.rulesStrings.16>flavorsuffix(subject_flesh!=Mechanoid)->，留下一小堆[gore]</Transition_DiedExplosive.rulePack.rulesStrings.16>
+  <Transition_DiedExplosive.rulePack.rulesStrings.17>flavorsuffix->留下一个小弹坑</Transition_DiedExplosive.rulePack.rulesStrings.17>
   <Transition_DiedExplosive.rulePack.rulesStrings.18>flavorsuffix(p=4)-></Transition_DiedExplosive.rulePack.rulesStrings.18>
-  <Transition_DiedExplosive.rulePack.rulesStrings.19>fireball(p=3)->fireball</Transition_DiedExplosive.rulePack.rulesStrings.19>
-  <Transition_DiedExplosive.rulePack.rulesStrings.20>fireball->flameball</Transition_DiedExplosive.rulePack.rulesStrings.20>
-  <Transition_DiedExplosive.rulePack.rulesStrings.21>fireball->shockwave</Transition_DiedExplosive.rulePack.rulesStrings.21>
-  <Transition_DiedExplosive.rulePack.rulesStrings.22>fireball->conflagration</Transition_DiedExplosive.rulePack.rulesStrings.22>
-  <Transition_DiedExplosive.rulePack.rulesStrings.23>pieces->pieces</Transition_DiedExplosive.rulePack.rulesStrings.23>
-  <Transition_DiedExplosive.rulePack.rulesStrings.24>pieces->fragments</Transition_DiedExplosive.rulePack.rulesStrings.24>
-  <Transition_DiedExplosive.rulePack.rulesStrings.25>everywhere->everywhere</Transition_DiedExplosive.rulePack.rulesStrings.25>
-  <Transition_DiedExplosive.rulePack.rulesStrings.26>everywhere->far and wide</Transition_DiedExplosive.rulePack.rulesStrings.26>
+  <Transition_DiedExplosive.rulePack.rulesStrings.19>fireball(p=3)->火球</Transition_DiedExplosive.rulePack.rulesStrings.19>
+  <Transition_DiedExplosive.rulePack.rulesStrings.20>fireball->火焰球</Transition_DiedExplosive.rulePack.rulesStrings.20>
+  <Transition_DiedExplosive.rulePack.rulesStrings.21>fireball->冲击波</Transition_DiedExplosive.rulePack.rulesStrings.21>
+  <Transition_DiedExplosive.rulePack.rulesStrings.22>fireball->燃爆</Transition_DiedExplosive.rulePack.rulesStrings.22>
+  <Transition_DiedExplosive.rulePack.rulesStrings.23>pieces->碎片</Transition_DiedExplosive.rulePack.rulesStrings.23>
+  <Transition_DiedExplosive.rulePack.rulesStrings.24>pieces->弹片</Transition_DiedExplosive.rulePack.rulesStrings.24>
+  <Transition_DiedExplosive.rulePack.rulesStrings.25>everywhere->到处</Transition_DiedExplosive.rulePack.rulesStrings.25>
+  <Transition_DiedExplosive.rulePack.rulesStrings.26>everywhere->到处</Transition_DiedExplosive.rulePack.rulesStrings.26>
 
 
 </LanguageData>
