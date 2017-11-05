@@ -64,9 +64,13 @@ http://ludeon.com/forums/index.php?topic=2933.0
 - cainiaowu
 - duduluu （风之起灵）
 - Kenneth Li （魔都KK）
+- leafzxg (落叶飘零)
 - MADxingjin （高中生活不如狗）
 - Raisins123 （RSP）
+- rsxx4488
+- Sefank (一个小白)
 - SerGawen （加文）
+- sunnylimail （飞行棺材）
 - weehowe-z （问号）
 - wubochang （三桂）
 - Ydada （于大大）
@@ -78,7 +82,6 @@ http://ludeon.com/forums/index.php?topic=2933.0
 
 - AlyxMS 从A3开始和作者紧密联系并共同创建了本项目
 - Bigmap 伟大的国旗哥
-- 飞行棺材 热心的校对人员
 
 ## 本项目地址
 
