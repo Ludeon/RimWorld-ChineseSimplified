@@ -1,68 +1,68 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <DamageEvent_Include.rulePack.rulesStrings.0>logentry->[damageSource] [recipient_nameShortDef], [destroying] [recipient_possessive] [destroyed_targets].</DamageEvent_Include.rulePack.rulesStrings.0>
-  <DamageEvent_Include.rulePack.rulesStrings.1>logentry->[damageSource] [recipient_nameShortDef], [destroying] [recipient_possessive] [destroyed_targets] and [damaging] [recipient_possessive] [damaged_targets].</DamageEvent_Include.rulePack.rulesStrings.1>
-  <DamageEvent_Include.rulePack.rulesStrings.2>logentry(recipient_part_destroyed_count==0)->[damageSource] [recipient_nameShortDef], [damaging] [recipient_possessive] [damaged_targets].</DamageEvent_Include.rulePack.rulesStrings.2>
-  <DamageEvent_Include.rulePack.rulesStrings.3>logentry(p=0.1)->[damageSource] [recipient_nameShortDef].</DamageEvent_Include.rulePack.rulesStrings.3>
+  <DamageEvent_Include.rulePack.rulesStrings.0>logentry->[damageSource][recipient_nameShortDef]，[destroying][recipient_possessive][destroyed_targets]。</DamageEvent_Include.rulePack.rulesStrings.0>
+  <DamageEvent_Include.rulePack.rulesStrings.1>logentry->[damageSource][recipient_nameShortDef]，[destroying][recipient_possessive][destroyed_targets]并且[damaging][recipient_possessive] [damaged_targets]。</DamageEvent_Include.rulePack.rulesStrings.1>
+  <DamageEvent_Include.rulePack.rulesStrings.2>logentry(recipient_part_destroyed_count==0)->[damageSource][recipient_nameShortDef]，[damaging][recipient_possessive][damaged_targets]。</DamageEvent_Include.rulePack.rulesStrings.2>
+  <DamageEvent_Include.rulePack.rulesStrings.3>logentry(p=0.1)->[damageSource][recipient_nameShortDef]。</DamageEvent_Include.rulePack.rulesStrings.3>
 
-  <DamageEvent_Ceiling.rulePack.rulesStrings.0>damageSource->the [roof] [collapsed] on</DamageEvent_Ceiling.rulePack.rulesStrings.0>
-  <DamageEvent_Ceiling.rulePack.rulesStrings.1>roof->roof</DamageEvent_Ceiling.rulePack.rulesStrings.1>
-  <DamageEvent_Ceiling.rulePack.rulesStrings.2>roof->roofing</DamageEvent_Ceiling.rulePack.rulesStrings.2>
-  <DamageEvent_Ceiling.rulePack.rulesStrings.3>roof->ceiling</DamageEvent_Ceiling.rulePack.rulesStrings.3>
-  <DamageEvent_Ceiling.rulePack.rulesStrings.4>collapsed->collapsed</DamageEvent_Ceiling.rulePack.rulesStrings.4>
-  <DamageEvent_Ceiling.rulePack.rulesStrings.5>collapsed->fell</DamageEvent_Ceiling.rulePack.rulesStrings.5>
-  <DamageEvent_Ceiling.rulePack.rulesStrings.6>collapsed->caved in</DamageEvent_Ceiling.rulePack.rulesStrings.6>
-  <DamageEvent_Ceiling.rulePack.rulesStrings.7>damaging->smashing</DamageEvent_Ceiling.rulePack.rulesStrings.7>
-  <DamageEvent_Ceiling.rulePack.rulesStrings.8>damaging->bashing</DamageEvent_Ceiling.rulePack.rulesStrings.8>
-  <DamageEvent_Ceiling.rulePack.rulesStrings.9>damaging->clobbering</DamageEvent_Ceiling.rulePack.rulesStrings.9>
-  <DamageEvent_Ceiling.rulePack.rulesStrings.10>damaging->bruising</DamageEvent_Ceiling.rulePack.rulesStrings.10>
-  <DamageEvent_Ceiling.rulePack.rulesStrings.11>damaging->lacerating</DamageEvent_Ceiling.rulePack.rulesStrings.11>
-  <DamageEvent_Ceiling.rulePack.rulesStrings.12>destroying->shattering</DamageEvent_Ceiling.rulePack.rulesStrings.12>
-  <DamageEvent_Ceiling.rulePack.rulesStrings.13>destroying->crushing</DamageEvent_Ceiling.rulePack.rulesStrings.13>
-  <DamageEvent_Ceiling.rulePack.rulesStrings.14>destroying->obliterating</DamageEvent_Ceiling.rulePack.rulesStrings.14>
-  <DamageEvent_Ceiling.rulePack.rulesStrings.15>destroying->annihilating</DamageEvent_Ceiling.rulePack.rulesStrings.15>
-  <DamageEvent_Ceiling.rulePack.rulesStrings.16>destroying->breaking</DamageEvent_Ceiling.rulePack.rulesStrings.16>
+  <DamageEvent_Ceiling.rulePack.rulesStrings.0>damageSource->[roof][collapsed]砸到</DamageEvent_Ceiling.rulePack.rulesStrings.0>
+  <DamageEvent_Ceiling.rulePack.rulesStrings.1>roof->屋顶</DamageEvent_Ceiling.rulePack.rulesStrings.1>
+  <DamageEvent_Ceiling.rulePack.rulesStrings.2>roof->房顶</DamageEvent_Ceiling.rulePack.rulesStrings.2>
+  <DamageEvent_Ceiling.rulePack.rulesStrings.3>roof->天花板</DamageEvent_Ceiling.rulePack.rulesStrings.3>
+  <DamageEvent_Ceiling.rulePack.rulesStrings.4>collapsed->坍塌</DamageEvent_Ceiling.rulePack.rulesStrings.4>
+  <DamageEvent_Ceiling.rulePack.rulesStrings.5>collapsed->掉落</DamageEvent_Ceiling.rulePack.rulesStrings.5>
+  <DamageEvent_Ceiling.rulePack.rulesStrings.6>collapsed->塌陷</DamageEvent_Ceiling.rulePack.rulesStrings.6>
+  <DamageEvent_Ceiling.rulePack.rulesStrings.7>damaging->击伤</DamageEvent_Ceiling.rulePack.rulesStrings.7>
+  <DamageEvent_Ceiling.rulePack.rulesStrings.8>damaging->砸伤</DamageEvent_Ceiling.rulePack.rulesStrings.8>
+  <DamageEvent_Ceiling.rulePack.rulesStrings.9>damaging->击中</DamageEvent_Ceiling.rulePack.rulesStrings.9>
+  <DamageEvent_Ceiling.rulePack.rulesStrings.10>damaging->擦伤</DamageEvent_Ceiling.rulePack.rulesStrings.10>
+  <DamageEvent_Ceiling.rulePack.rulesStrings.11>damaging->撕裂</DamageEvent_Ceiling.rulePack.rulesStrings.11>
+  <DamageEvent_Ceiling.rulePack.rulesStrings.12>destroying->击碎</DamageEvent_Ceiling.rulePack.rulesStrings.12>
+  <DamageEvent_Ceiling.rulePack.rulesStrings.13>destroying->压碎</DamageEvent_Ceiling.rulePack.rulesStrings.13>
+  <DamageEvent_Ceiling.rulePack.rulesStrings.14>destroying->压住</DamageEvent_Ceiling.rulePack.rulesStrings.14>
+  <DamageEvent_Ceiling.rulePack.rulesStrings.15>destroying->摧毁</DamageEvent_Ceiling.rulePack.rulesStrings.15>
+  <DamageEvent_Ceiling.rulePack.rulesStrings.16>destroying->破坏</DamageEvent_Ceiling.rulePack.rulesStrings.16>
 
-  <DamageEvent_Fire.rulePack.rulesStrings.0>damageSource->[fire] burned</DamageEvent_Fire.rulePack.rulesStrings.0>
-  <DamageEvent_Fire.rulePack.rulesStrings.1>fire(p=3)->fire</DamageEvent_Fire.rulePack.rulesStrings.1>
-  <DamageEvent_Fire.rulePack.rulesStrings.2>fire(p=3)->a fire</DamageEvent_Fire.rulePack.rulesStrings.2>
-  <DamageEvent_Fire.rulePack.rulesStrings.3>fire(p=3)->the fire</DamageEvent_Fire.rulePack.rulesStrings.3>
-  <DamageEvent_Fire.rulePack.rulesStrings.4>fire->heat</DamageEvent_Fire.rulePack.rulesStrings.4>
-  <DamageEvent_Fire.rulePack.rulesStrings.5>fire->a conflagration</DamageEvent_Fire.rulePack.rulesStrings.5>
-  <DamageEvent_Fire.rulePack.rulesStrings.6>fire->an inferno</DamageEvent_Fire.rulePack.rulesStrings.6>
-  <DamageEvent_Fire.rulePack.rulesStrings.7>damaging->scorching</DamageEvent_Fire.rulePack.rulesStrings.7>
-  <DamageEvent_Fire.rulePack.rulesStrings.8>damaging->broiling</DamageEvent_Fire.rulePack.rulesStrings.8>
-  <DamageEvent_Fire.rulePack.rulesStrings.9>damaging->searing</DamageEvent_Fire.rulePack.rulesStrings.9>
-  <DamageEvent_Fire.rulePack.rulesStrings.10>damaging->singeing</DamageEvent_Fire.rulePack.rulesStrings.10>
-  <DamageEvent_Fire.rulePack.rulesStrings.11>destroying->charring</DamageEvent_Fire.rulePack.rulesStrings.11>
-  <DamageEvent_Fire.rulePack.rulesStrings.12>destroying->roasting</DamageEvent_Fire.rulePack.rulesStrings.12>
-  <DamageEvent_Fire.rulePack.rulesStrings.13>destroying->cooking</DamageEvent_Fire.rulePack.rulesStrings.13>
-  <DamageEvent_Fire.rulePack.rulesStrings.14>destroying->cremating</DamageEvent_Fire.rulePack.rulesStrings.14>
+  <DamageEvent_Fire.rulePack.rulesStrings.0>damageSource->[fire]点燃了</DamageEvent_Fire.rulePack.rulesStrings.0>
+  <DamageEvent_Fire.rulePack.rulesStrings.1>fire(p=3)->火焰</DamageEvent_Fire.rulePack.rulesStrings.1>
+  <DamageEvent_Fire.rulePack.rulesStrings.2>fire(p=3)->一团火焰</DamageEvent_Fire.rulePack.rulesStrings.2>
+  <DamageEvent_Fire.rulePack.rulesStrings.3>fire(p=3)->一片大火</DamageEvent_Fire.rulePack.rulesStrings.3>
+  <DamageEvent_Fire.rulePack.rulesStrings.4>fire->高温</DamageEvent_Fire.rulePack.rulesStrings.4>
+  <DamageEvent_Fire.rulePack.rulesStrings.5>fire->大火</DamageEvent_Fire.rulePack.rulesStrings.5>
+  <DamageEvent_Fire.rulePack.rulesStrings.6>fire->炼狱</DamageEvent_Fire.rulePack.rulesStrings.6>
+  <DamageEvent_Fire.rulePack.rulesStrings.7>damaging->灼烧</DamageEvent_Fire.rulePack.rulesStrings.7>
+  <DamageEvent_Fire.rulePack.rulesStrings.8>damaging->炙烤</DamageEvent_Fire.rulePack.rulesStrings.8>
+  <DamageEvent_Fire.rulePack.rulesStrings.9>damaging->烧烤</DamageEvent_Fire.rulePack.rulesStrings.9>
+  <DamageEvent_Fire.rulePack.rulesStrings.10>damaging->烧焦</DamageEvent_Fire.rulePack.rulesStrings.10>
+  <DamageEvent_Fire.rulePack.rulesStrings.11>destroying->烧焦</DamageEvent_Fire.rulePack.rulesStrings.11>
+  <DamageEvent_Fire.rulePack.rulesStrings.12>destroying->烧毁</DamageEvent_Fire.rulePack.rulesStrings.12>
+  <DamageEvent_Fire.rulePack.rulesStrings.13>destroying->烤熟</DamageEvent_Fire.rulePack.rulesStrings.13>
+  <DamageEvent_Fire.rulePack.rulesStrings.14>destroying->烧成灰烬</DamageEvent_Fire.rulePack.rulesStrings.14>
 
-  <DamageEvent_PowerBeam.rulePack.rulesStrings.0>damageSource->The [sky] opened up on</DamageEvent_PowerBeam.rulePack.rulesStrings.0>
-  <DamageEvent_PowerBeam.rulePack.rulesStrings.1>damageSource->A beam of incredible [power] [damaged_past]</DamageEvent_PowerBeam.rulePack.rulesStrings.1>
-  <DamageEvent_PowerBeam.rulePack.rulesStrings.2>damageSource->A column of [light] [damaged_past]</DamageEvent_PowerBeam.rulePack.rulesStrings.2>
-  <DamageEvent_PowerBeam.rulePack.rulesStrings.3>sky->sky</DamageEvent_PowerBeam.rulePack.rulesStrings.3>
-  <DamageEvent_PowerBeam.rulePack.rulesStrings.4>sky->clouds</DamageEvent_PowerBeam.rulePack.rulesStrings.4>
-  <DamageEvent_PowerBeam.rulePack.rulesStrings.5>sky->heavens</DamageEvent_PowerBeam.rulePack.rulesStrings.5>
-  <DamageEvent_PowerBeam.rulePack.rulesStrings.6>power->power</DamageEvent_PowerBeam.rulePack.rulesStrings.6>
-  <DamageEvent_PowerBeam.rulePack.rulesStrings.7>power->energy</DamageEvent_PowerBeam.rulePack.rulesStrings.7>
-  <DamageEvent_PowerBeam.rulePack.rulesStrings.8>power->heat</DamageEvent_PowerBeam.rulePack.rulesStrings.8>
-  <DamageEvent_PowerBeam.rulePack.rulesStrings.9>light->light</DamageEvent_PowerBeam.rulePack.rulesStrings.9>
-  <DamageEvent_PowerBeam.rulePack.rulesStrings.10>light->heat</DamageEvent_PowerBeam.rulePack.rulesStrings.10>
-  <DamageEvent_PowerBeam.rulePack.rulesStrings.11>light->flame</DamageEvent_PowerBeam.rulePack.rulesStrings.11>
-  <DamageEvent_PowerBeam.rulePack.rulesStrings.12>light(p=0.2)->incandescence</DamageEvent_PowerBeam.rulePack.rulesStrings.12>
+  <DamageEvent_PowerBeam.rulePack.rulesStrings.0>damageSource->[sky]撕开裂口，审判降临</DamageEvent_PowerBeam.rulePack.rulesStrings.0>
+  <DamageEvent_PowerBeam.rulePack.rulesStrings.1>damageSource->一束难以置信的[power][damaged_past]</DamageEvent_PowerBeam.rulePack.rulesStrings.1>
+  <DamageEvent_PowerBeam.rulePack.rulesStrings.2>damageSource->一系列的[light][damaged_past]</DamageEvent_PowerBeam.rulePack.rulesStrings.2>
+  <DamageEvent_PowerBeam.rulePack.rulesStrings.3>sky->天空</DamageEvent_PowerBeam.rulePack.rulesStrings.3>
+  <DamageEvent_PowerBeam.rulePack.rulesStrings.4>sky->云层</DamageEvent_PowerBeam.rulePack.rulesStrings.4>
+  <DamageEvent_PowerBeam.rulePack.rulesStrings.5>sky->天堂</DamageEvent_PowerBeam.rulePack.rulesStrings.5>
+  <DamageEvent_PowerBeam.rulePack.rulesStrings.6>power->力量</DamageEvent_PowerBeam.rulePack.rulesStrings.6>
+  <DamageEvent_PowerBeam.rulePack.rulesStrings.7>power->能量</DamageEvent_PowerBeam.rulePack.rulesStrings.7>
+  <DamageEvent_PowerBeam.rulePack.rulesStrings.8>power->炙热之光</DamageEvent_PowerBeam.rulePack.rulesStrings.8>
+  <DamageEvent_PowerBeam.rulePack.rulesStrings.9>light->光</DamageEvent_PowerBeam.rulePack.rulesStrings.9>
+  <DamageEvent_PowerBeam.rulePack.rulesStrings.10>light->高温</DamageEvent_PowerBeam.rulePack.rulesStrings.10>
+  <DamageEvent_PowerBeam.rulePack.rulesStrings.11>light->烈焰</DamageEvent_PowerBeam.rulePack.rulesStrings.11>
+  <DamageEvent_PowerBeam.rulePack.rulesStrings.12>light(p=0.2)->灼热辐射</DamageEvent_PowerBeam.rulePack.rulesStrings.12>
 
-  <DamageEvent_Tornado.rulePack.rulesStrings.0>damageSource->A [spiraling] tornado [enveloped]</DamageEvent_Tornado.rulePack.rulesStrings.0>
+  <DamageEvent_Tornado.rulePack.rulesStrings.0>damageSource->一挂[spiraling]龙卷风[enveloped]</DamageEvent_Tornado.rulePack.rulesStrings.0>
   <DamageEvent_Tornado.rulePack.rulesStrings.1>destroyed_present(p=3)->tearing off</DamageEvent_Tornado.rulePack.rulesStrings.1>
-  <DamageEvent_Tornado.rulePack.rulesStrings.2>spiraling->spiraling</DamageEvent_Tornado.rulePack.rulesStrings.2>
-  <DamageEvent_Tornado.rulePack.rulesStrings.3>spiraling->whirling</DamageEvent_Tornado.rulePack.rulesStrings.3>
-  <DamageEvent_Tornado.rulePack.rulesStrings.4>spiraling->spinning</DamageEvent_Tornado.rulePack.rulesStrings.4>
+  <DamageEvent_Tornado.rulePack.rulesStrings.2>spiraling->盘桓的</DamageEvent_Tornado.rulePack.rulesStrings.2>
+  <DamageEvent_Tornado.rulePack.rulesStrings.3>spiraling->旋转的</DamageEvent_Tornado.rulePack.rulesStrings.3>
+  <DamageEvent_Tornado.rulePack.rulesStrings.4>spiraling->螺旋徘徊的</DamageEvent_Tornado.rulePack.rulesStrings.4>
   <DamageEvent_Tornado.rulePack.rulesStrings.5>spiraling(p=10)-></DamageEvent_Tornado.rulePack.rulesStrings.5>
-  <DamageEvent_Tornado.rulePack.rulesStrings.6>enveloped(p=8)->enveloped</DamageEvent_Tornado.rulePack.rulesStrings.6>
-  <DamageEvent_Tornado.rulePack.rulesStrings.7>enveloped->engulfed</DamageEvent_Tornado.rulePack.rulesStrings.7>
-  <DamageEvent_Tornado.rulePack.rulesStrings.8>enveloped->surrounded</DamageEvent_Tornado.rulePack.rulesStrings.8>
+  <DamageEvent_Tornado.rulePack.rulesStrings.6>enveloped(p=8)->包围了</DamageEvent_Tornado.rulePack.rulesStrings.6>
+  <DamageEvent_Tornado.rulePack.rulesStrings.7>enveloped->吞没了</DamageEvent_Tornado.rulePack.rulesStrings.7>
+  <DamageEvent_Tornado.rulePack.rulesStrings.8>enveloped->环绕着</DamageEvent_Tornado.rulePack.rulesStrings.8>
 
 
 </LanguageData>
