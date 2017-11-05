@@ -141,29 +141,29 @@
   <Combat_WoundIncludes.rulePack.rulesStrings.46>expert->娴熟的</Combat_WoundIncludes.rulePack.rulesStrings.46>
   <Combat_WoundIncludes.rulePack.rulesStrings.47>expert->艺术般的</Combat_WoundIncludes.rulePack.rulesStrings.47>
 
-  <Combat_Hit.rulePack.rulesStrings.0>logentry(p=0.3)->[initiator_nameShortDef][maneuver_past][recipient_nameShortDef]，击中了[recipient_part0_label]。</Combat_Hit.rulePack.rulesStrings.0>
-  <Combat_Hit.rulePack.rulesStrings.1>logentry(p=0.1)->[initiator_nameShortDef][maneuver_past][recipient_nameShortDef]，[flavortextadverb]击中了[recipient_part0_label]。</Combat_Hit.rulePack.rulesStrings.1>
-  <Combat_Hit.rulePack.rulesStrings.2>logentry(p=0.1)->[initiator_nameShortDef][maneuver_past][recipient_nameShortDef]，在[recipient_part0_label]上面[flavortextsituation]。</Combat_Hit.rulePack.rulesStrings.2>
-  <Combat_Hit.rulePack.rulesStrings.3>logentry(p=0.1)->[initiator_nameShortDef][maneuver_past][recipient_nameShortDef]的[recipient_part0_label], [flavortextconsequence]。</Combat_Hit.rulePack.rulesStrings.3>
-  <Combat_Hit.rulePack.rulesStrings.4>logentry(p=0.4)->[initiator_nameShortDef]，使用[initiator_possessive][expertly][weapon_label]，[flavortextadverb]在[recipient_nameShortDef]的 [recipient_part0_label]上[maneuver_past]。</Combat_Hit.rulePack.rulesStrings.4>
-  <Combat_Hit.rulePack.rulesStrings.5>logentry(p=0.3)->[initiator_nameShortDef][destroyed_past][recipient_nameShortDef]的[destroyed_targets]。</Combat_Hit.rulePack.rulesStrings.5>
-  <Combat_Hit.rulePack.rulesStrings.6>logentry(p=0.3)->[initiator_nameShortDef][destroyed_past][recipient_nameShortDef]的[destroyed_targets]，成为[destroyed_suffix]。</Combat_Hit.rulePack.rulesStrings.6>
-  <Combat_Hit.rulePack.rulesStrings.7>logentry(p=0.3)->[initiator_nameShortDef][expertly][destroyed_past][recipient_nameShortDef]的[destroyed_targets]。</Combat_Hit.rulePack.rulesStrings.7>
-  <Combat_Hit.rulePack.rulesStrings.8>logentry(p=0.3)->[initiator_nameShortDef]用[implement][destroyed_past][recipient_nameShortDef]的[destroyed_targets]。</Combat_Hit.rulePack.rulesStrings.8>
+  <Combat_Hit.rulePack.rulesStrings.0>logentry(p=0.3)->[initiator_definite][damaged_past][recipient_definite]，击中了[recipient_part0_label]。</Combat_Hit.rulePack.rulesStrings.0>
+  <Combat_Hit.rulePack.rulesStrings.1>logentry(p=0.1)->[initiator_definite][damaged_past][recipient_definite]，[flavortextadverb]击中了[recipient_part0_label]。</Combat_Hit.rulePack.rulesStrings.1>
+  <Combat_Hit.rulePack.rulesStrings.2>logentry(p=0.1)->[initiator_definite][damaged_past][recipient_definite]，在[recipient_part0_label]上面[flavortextsituation]。</Combat_Hit.rulePack.rulesStrings.2>
+  <Combat_Hit.rulePack.rulesStrings.3>logentry(p=0.1)->[initiator_definite][damaged_past][recipient_definite]的[recipient_part0_label], [flavortextconsequence]。</Combat_Hit.rulePack.rulesStrings.3>
+  <Combat_Hit.rulePack.rulesStrings.4>logentry(p=0.4)->[initiator_definite]，使用[initiator_possessive][expertly][weapon_label]，[flavortextadverb]在[recipient_definite]的 [recipient_part0_label]上[damaged_past]。</Combat_Hit.rulePack.rulesStrings.4>
+  <Combat_Hit.rulePack.rulesStrings.5>logentry(p=0.3)->[initiator_definite][destroyed_past][recipient_definite]的[destroyed_targets]。</Combat_Hit.rulePack.rulesStrings.5>
+  <Combat_Hit.rulePack.rulesStrings.6>logentry(p=0.3)->[initiator_definite][destroyed_past][recipient_definite]的[destroyed_targets]，成为[destroyed_suffix]。</Combat_Hit.rulePack.rulesStrings.6>
+  <Combat_Hit.rulePack.rulesStrings.7>logentry(p=0.3)->[initiator_definite][expertly][destroyed_past][recipient_definite]的[destroyed_targets]。</Combat_Hit.rulePack.rulesStrings.7>
+  <Combat_Hit.rulePack.rulesStrings.8>logentry(p=0.3)->[initiator_definite]用[implement][destroyed_past][recipient_definite]的[destroyed_targets]。</Combat_Hit.rulePack.rulesStrings.8>
   <Combat_Hit.rulePack.rulesStrings.9>result(p=1,recipient_part_damaged_count==0)->[destroyed_present][recipient_possessive][destroyed_targets]</Combat_Hit.rulePack.rulesStrings.9>
-  <Combat_Hit.rulePack.rulesStrings.10>result(p=1,recipient_part_destroyed_count==0)->[maneuverresult_present][recipient_possessive][damaged_targets]</Combat_Hit.rulePack.rulesStrings.10>
-  <Combat_Hit.rulePack.rulesStrings.11>result(p=1)->[destroyed_present][recipient_possessive][destroyed_targets]并且[maneuverresult_present][recipient_possessive][damaged_targets]</Combat_Hit.rulePack.rulesStrings.11>
-  <Combat_Hit.rulePack.rulesStrings.12>action(p=0.3)->[initiator_nameShortDef]使用[implement][maneuver_inf][recipient_nameShortDef]</Combat_Hit.rulePack.rulesStrings.12>
-  <Combat_Hit.rulePack.rulesStrings.13>action(p=0.3)->[initiator_nameShortDef]使用[implement]来[maneuver_inf][recipient_nameShortDef]</Combat_Hit.rulePack.rulesStrings.13>
-  <Combat_Hit.rulePack.rulesStrings.14>action->[initiator_nameShortDef]以[implement][maneuver_past][recipient_nameShortDef]</Combat_Hit.rulePack.rulesStrings.14>
+  <Combat_Hit.rulePack.rulesStrings.10>result(p=1,recipient_part_destroyed_count==0)->[damaged_present][recipient_possessive][damaged_targets]</Combat_Hit.rulePack.rulesStrings.10>
+  <Combat_Hit.rulePack.rulesStrings.11>result(p=1)->[destroyed_present][recipient_possessive][destroyed_targets]并且[damaged_present][recipient_possessive][damaged_targets]</Combat_Hit.rulePack.rulesStrings.11>
+  <Combat_Hit.rulePack.rulesStrings.12>action(p=0.3)->[initiator_definite]使用[implement][damaged_inf][recipient_definite]</Combat_Hit.rulePack.rulesStrings.12>
+  <Combat_Hit.rulePack.rulesStrings.13>action(p=0.3)->[initiator_definite]使用[implement]来[damaged_inf][recipient_definite]</Combat_Hit.rulePack.rulesStrings.13>
+  <Combat_Hit.rulePack.rulesStrings.14>action->[initiator_definite]以[implement][damaged_past][recipient_definite]</Combat_Hit.rulePack.rulesStrings.14>
 
-  <Combat_FailIncludes.rulePack.rulesStrings.0>action->[initiator_nameShortDef][tried][maneuver_inf][recipient_nameShortDef]</Combat_FailIncludes.rulePack.rulesStrings.0>
-  <Combat_FailIncludes.rulePack.rulesStrings.1>action->[initiator_nameShortDef][tried]用[implement][maneuver_inf][recipient_nameShortDef]</Combat_FailIncludes.rulePack.rulesStrings.1>
-  <Combat_FailIncludes.rulePack.rulesStrings.2>action->[initiator_nameShortDef][tried]使用[implement]来[maneuver_inf][recipient_nameShortDef]</Combat_FailIncludes.rulePack.rulesStrings.2>
-  <Combat_FailIncludes.rulePack.rulesStrings.3>action->[initiator_nameShortDef]在[recipient_nameShortDef]面前，挥舞[initiator_possessive][weapon_label</Combat_FailIncludes.rulePack.rulesStrings.3>
-  <Combat_FailIncludes.rulePack.rulesStrings.4>action(p=0.3)->[initiator_nameShortDef][genericattackverb]武器，将[implement][towardsat][recipient_nameShortDef]</Combat_FailIncludes.rulePack.rulesStrings.4>
-  <Combat_FailIncludes.rulePack.rulesStrings.5>action(p=0.3)->[initiator_nameShortDef][genericattackverb]武器，[towardsat][recipient_nameShortDef]</Combat_FailIncludes.rulePack.rulesStrings.5>
-  <Combat_FailIncludes.rulePack.rulesStrings.6>action(p=0.3)->[initiator_nameShortDef][genericattackverb][implement]</Combat_FailIncludes.rulePack.rulesStrings.6>
+  <Combat_FailIncludes.rulePack.rulesStrings.0>action->[initiator_definite][tried][damaged_inf][recipient_definite]</Combat_FailIncludes.rulePack.rulesStrings.0>
+  <Combat_FailIncludes.rulePack.rulesStrings.1>action->[initiator_definite][tried]用[implement][damaged_inf][recipient_definite]</Combat_FailIncludes.rulePack.rulesStrings.1>
+  <Combat_FailIncludes.rulePack.rulesStrings.2>action->[initiator_definite][tried]使用[implement]来[damaged_inf][recipient_definite]</Combat_FailIncludes.rulePack.rulesStrings.2>
+  <Combat_FailIncludes.rulePack.rulesStrings.3>action->[initiator_definite]在[recipient_definite]面前，挥舞[initiator_possessive][weapon_label</Combat_FailIncludes.rulePack.rulesStrings.3>
+  <Combat_FailIncludes.rulePack.rulesStrings.4>action(p=0.3)->[initiator_definite][genericattackverb]武器，将[implement][towardsat][recipient_definite]</Combat_FailIncludes.rulePack.rulesStrings.4>
+  <Combat_FailIncludes.rulePack.rulesStrings.5>action(p=0.3)->[initiator_definite][genericattackverb]武器，[towardsat][recipient_definite]</Combat_FailIncludes.rulePack.rulesStrings.5>
+  <Combat_FailIncludes.rulePack.rulesStrings.6>action(p=0.3)->[initiator_definite][genericattackverb][implement]</Combat_FailIncludes.rulePack.rulesStrings.6>
   <Combat_FailIncludes.rulePack.rulesStrings.7>towardsat->瞄向</Combat_FailIncludes.rulePack.rulesStrings.7>
   <Combat_FailIncludes.rulePack.rulesStrings.8>towardsat->对准</Combat_FailIncludes.rulePack.rulesStrings.8>
   <Combat_FailIncludes.rulePack.rulesStrings.9>genericattackverb->挥舞</Combat_FailIncludes.rulePack.rulesStrings.9>
@@ -172,11 +172,11 @@
   <Combat_FailIncludes.rulePack.rulesStrings.12>tried->尝试</Combat_FailIncludes.rulePack.rulesStrings.12>
   <Combat_FailIncludes.rulePack.rulesStrings.13>tried->企图</Combat_FailIncludes.rulePack.rulesStrings.13>
 
-  <Combat_Miss.rulePack.rulesStrings.0>logentry(p=0.2)->[recipient_nameShortDef]躲闪了[initiator_nameShortDef]的[weapon_label][maneuver_inf].</Combat_Miss.rulePack.rulesStrings.0>
-  <Combat_Miss.rulePack.rulesStrings.1>logentry(p=0.2)->[initiator_nameShortDef]的[implement][maneuver_inf]没有命中[recipient_nameShortDef]。</Combat_Miss.rulePack.rulesStrings.1>
-  <Combat_Miss.rulePack.rulesStrings.2>logentry(p=0.2)->在试图使用[implement][maneuver_inf][recipient_nameShortDef]时，[initiator_nameShortDef][failtype]。</Combat_Miss.rulePack.rulesStrings.2>
-  <Combat_Miss.rulePack.rulesStrings.3>logentry(p=0.2)->在试图[maneuver_inf][recipient_nameShortDef]时，[initiator_nameShortDef][failtype]。</Combat_Miss.rulePack.rulesStrings.3>
-  <Combat_Miss.rulePack.rulesStrings.4>logentry(p=0.2)->[initiator_nameShortDef][failtype].</Combat_Miss.rulePack.rulesStrings.4>
+  <Combat_Miss.rulePack.rulesStrings.0>logentry(p=0.2)->[recipient_definite]躲闪了[initiator_definite]的[weapon_label][damaged_inf].</Combat_Miss.rulePack.rulesStrings.0>
+  <Combat_Miss.rulePack.rulesStrings.1>logentry(p=0.2)->[initiator_definite]的[implement][damaged_inf]没有命中[recipient_definite]。</Combat_Miss.rulePack.rulesStrings.1>
+  <Combat_Miss.rulePack.rulesStrings.2>logentry(p=0.2)->在试图使用[implement][damaged_inf][recipient_definite]时，[initiator_definite][failtype]。</Combat_Miss.rulePack.rulesStrings.2>
+  <Combat_Miss.rulePack.rulesStrings.3>logentry(p=0.2)->在试图[damaged_inf][recipient_definite]时，[initiator_definite][failtype]。</Combat_Miss.rulePack.rulesStrings.3>
+  <Combat_Miss.rulePack.rulesStrings.4>logentry(p=0.2)->[initiator_definite][failtype].</Combat_Miss.rulePack.rulesStrings.4>
   <Combat_Miss.rulePack.rulesStrings.5>failtype->被绊倒</Combat_Miss.rulePack.rulesStrings.5>
   <Combat_Miss.rulePack.rulesStrings.6>failtype->摔倒了</Combat_Miss.rulePack.rulesStrings.6>
   <Combat_Miss.rulePack.rulesStrings.7>failtype->被打倒</Combat_Miss.rulePack.rulesStrings.7>
@@ -186,12 +186,12 @@
   <Combat_Miss.rulePack.rulesStrings.11>result->但是打空了</Combat_Miss.rulePack.rulesStrings.11>
   <Combat_Miss.rulePack.rulesStrings.12>result->可是幅度太大了</Combat_Miss.rulePack.rulesStrings.12>
   <Combat_Miss.rulePack.rulesStrings.13>result->然而在最后一刻摔倒了</Combat_Miss.rulePack.rulesStrings.13>
-  <Combat_Miss.rulePack.rulesStrings.14>result->却在最后一秒迟疑了</Combat_Miss.rulePack.rulesStrings.14>
+  <Combat_Miss.rulePack.rulesStrings.14>result(initiator_flesh!=Mechanoid)->却在最后一秒迟疑了</Combat_Miss.rulePack.rulesStrings.14>
 
-  <Combat_Dodge.rulePack.rulesStrings.0>logentry(p=0.2)->[recipient_nameShortDef]躲闪了[initiator_nameShortDef][implement]的[maneuver_inf]。</Combat_Dodge.rulePack.rulesStrings.0>
-  <Combat_Dodge.rulePack.rulesStrings.1>logentry(p=0.2)->[recipient_nameShortDef]躲闪了[initiator_nameShortDef]的[maneuver_inf]。</Combat_Dodge.rulePack.rulesStrings.1>
-  <Combat_Dodge.rulePack.rulesStrings.2>result->但是[recipient_nameShortDef]跳跃闪开了</Combat_Dodge.rulePack.rulesStrings.2>
-  <Combat_Dodge.rulePack.rulesStrings.3>result->却被[recipient_nameShortDef]的佯攻所欺骗</Combat_Dodge.rulePack.rulesStrings.3>
+  <Combat_Dodge.rulePack.rulesStrings.0>logentry(p=0.2)->[recipient_definite]躲闪了[initiator_definite][implement]的[damaged_inf]。</Combat_Dodge.rulePack.rulesStrings.0>
+  <Combat_Dodge.rulePack.rulesStrings.1>logentry(p=0.2)->[recipient_definite]躲闪了[initiator_definite]的[damaged_inf]。</Combat_Dodge.rulePack.rulesStrings.1>
+  <Combat_Dodge.rulePack.rulesStrings.2>result->但是[recipient_definite]跳跃闪开了</Combat_Dodge.rulePack.rulesStrings.2>
+  <Combat_Dodge.rulePack.rulesStrings.3>result->却被[recipient_definite]的佯攻所欺骗</Combat_Dodge.rulePack.rulesStrings.3>
   <Combat_Dodge.rulePack.rulesStrings.4>result->然而攻击被聪明的避开了</Combat_Dodge.rulePack.rulesStrings.4>
 
   <Combat_RangedIncludes.rulePack.rulesStrings.0>initiator_definite->[initiator_labelDefinite]</Combat_RangedIncludes.rulePack.rulesStrings.0>
@@ -231,14 +231,14 @@
   <Combat_RangedFire.rulePack.rulesStrings.27>shotadverb->突然的</Combat_RangedFire.rulePack.rulesStrings.27>
   <Combat_RangedFire.rulePack.rulesStrings.28>shotadverb->精确的</Combat_RangedFire.rulePack.rulesStrings.28>
   <Combat_RangedFire.rulePack.rulesStrings.29>shotadverb->慎重的</Combat_RangedFire.rulePack.rulesStrings.29>
-  <Combat_RangedFire.rulePack.rulesStrings.30>shotadverb->从容的</Combat_RangedFire.rulePack.rulesStrings.30>
+  <Combat_RangedFire.rulePack.rulesStrings.30>shotadverb(initiator_flesh!=Mechanoid)->从容的</Combat_RangedFire.rulePack.rulesStrings.30>
   <Combat_RangedFire.rulePack.rulesStrings.31>shotadverb->沉着的</Combat_RangedFire.rulePack.rulesStrings.31>
-  <Combat_RangedFire.rulePack.rulesStrings.32>shotadverb->谨慎的</Combat_RangedFire.rulePack.rulesStrings.32>
+  <Combat_RangedFire.rulePack.rulesStrings.32>shotadverb(initiator_flesh!=Mechanoid)->谨慎的</Combat_RangedFire.rulePack.rulesStrings.32>
   <Combat_RangedFire.rulePack.rulesStrings.33>shotadjective->小心</Combat_RangedFire.rulePack.rulesStrings.33>
   <Combat_RangedFire.rulePack.rulesStrings.34>shotadjective->快速</Combat_RangedFire.rulePack.rulesStrings.34>
   <Combat_RangedFire.rulePack.rulesStrings.35>shotadjective->从容</Combat_RangedFire.rulePack.rulesStrings.35>
   <Combat_RangedFire.rulePack.rulesStrings.36>shotadjective->精确</Combat_RangedFire.rulePack.rulesStrings.36>
-  <Combat_RangedFire.rulePack.rulesStrings.37>shotadjective->谨慎</Combat_RangedFire.rulePack.rulesStrings.37>
+  <Combat_RangedFire.rulePack.rulesStrings.37>shotadjective(initiator_flesh!=Mechanoid)->谨慎</Combat_RangedFire.rulePack.rulesStrings.37>
 
   <Combat_RangedDamage.rulePack.rulesStrings.0>logentry->[initiator_definite]的[weapon_projectile_label][destroyed_past][recipient_definite]的[destroyed_targets].</Combat_RangedDamage.rulePack.rulesStrings.0>
   <Combat_RangedDamage.rulePack.rulesStrings.1>logentry->[initiator_definite]的[weapon_projectile_label][destroyed_past][recipient_definite]的[destroyed_targets]，[to][destroyed_suffix].</Combat_RangedDamage.rulePack.rulesStrings.1>
@@ -281,7 +281,7 @@
   <Combat_RangedDamage.rulePack.rulesStrings.38>destroyed_suffix->一团雾</Combat_RangedDamage.rulePack.rulesStrings.38>
   <Combat_RangedDamage.rulePack.rulesStrings.39>destroyed_suffix->碎片</Combat_RangedDamage.rulePack.rulesStrings.39>
   <Combat_RangedDamage.rulePack.rulesStrings.40>destroyed_suffix(p=0.5)->一个蜂窝</Combat_RangedDamage.rulePack.rulesStrings.40>
-  <Combat_RangedDamage.rulePack.rulesStrings.41>destroyed_suffix(p=0.2)->肉馅</Combat_RangedDamage.rulePack.rulesStrings.41>
+  <Combat_RangedDamage.rulePack.rulesStrings.41>destroyed_suffix(recipient_flesh!=Mechanoid,p=0.2)->肉馅</Combat_RangedDamage.rulePack.rulesStrings.41>
   <Combat_RangedDamage.rulePack.rulesStrings.42>damaged_past->射伤了</Combat_RangedDamage.rulePack.rulesStrings.42>
   <Combat_RangedDamage.rulePack.rulesStrings.43>damaged_past->伤害了</Combat_RangedDamage.rulePack.rulesStrings.43>
   <Combat_RangedDamage.rulePack.rulesStrings.44>damaged_past->贯穿了</Combat_RangedDamage.rulePack.rulesStrings.44>
@@ -293,8 +293,8 @@
   <Combat_RangedDamage.rulePack.rulesStrings.50>damaged_present->伤害</Combat_RangedDamage.rulePack.rulesStrings.50>
   <Combat_RangedDamage.rulePack.rulesStrings.51>damaged_present->击中</Combat_RangedDamage.rulePack.rulesStrings.51>
   <Combat_RangedDamage.rulePack.rulesStrings.52>damaged_suffix->面目全非</Combat_RangedDamage.rulePack.rulesStrings.52>
-  <Combat_RangedDamage.rulePack.rulesStrings.53>damaged_suffix->鲜血四溅</Combat_RangedDamage.rulePack.rulesStrings.53>
-  <Combat_RangedDamage.rulePack.rulesStrings.54>damaged_suffix->满目疮痍</Combat_RangedDamage.rulePack.rulesStrings.54>
+  <Combat_RangedDamage.rulePack.rulesStrings.53>damaged_suffix(recipient_flesh!=Mechanoid)->鲜血四溅</Combat_RangedDamage.rulePack.rulesStrings.53>
+  <Combat_RangedDamage.rulePack.rulesStrings.54>damaged_suffix(recipient_flesh!=Mechanoid)->满目疮痍</Combat_RangedDamage.rulePack.rulesStrings.54>
   <Combat_RangedDamage.rulePack.rulesStrings.55>to->将其变得</Combat_RangedDamage.rulePack.rulesStrings.55>
   <Combat_RangedDamage.rulePack.rulesStrings.56>to->使之变成</Combat_RangedDamage.rulePack.rulesStrings.56>
   <Combat_RangedDamage.rulePack.rulesStrings.57>missed->没有命中</Combat_RangedDamage.rulePack.rulesStrings.57>
@@ -330,11 +330,11 @@
   <Combat_RangedMiss.rulePack.rulesStrings.27>missing->与[originalTarget_definite]差之毫厘</Combat_RangedMiss.rulePack.rulesStrings.27>
   <Combat_RangedMiss.rulePack.rulesStrings.28>missing->偏出[originalTarget_definite]很多</Combat_RangedMiss.rulePack.rulesStrings.28>
   <Combat_RangedMiss.rulePack.rulesStrings.29>missing->没打中目标</Combat_RangedMiss.rulePack.rulesStrings.29>
-  <Combat_RangedMiss.rulePack.rulesStrings.30>avoidance->千钧一发的闪避</Combat_RangedMiss.rulePack.rulesStrings.30>
-  <Combat_RangedMiss.rulePack.rulesStrings.31>avoidance->左右平移的游走</Combat_RangedMiss.rulePack.rulesStrings.31>
-  <Combat_RangedMiss.rulePack.rulesStrings.32>avoidance->[originalTarget_objective]突然伏地</Combat_RangedMiss.rulePack.rulesStrings.32>
-  <Combat_RangedMiss.rulePack.rulesStrings.33>avoidance(p=0.3)->躲到了掩体后面</Combat_RangedMiss.rulePack.rulesStrings.33>
-  <Combat_RangedMiss.rulePack.rulesStrings.34>avoidance(p=0.3)->疾跑到掩体后面</Combat_RangedMiss.rulePack.rulesStrings.34>
+  <Combat_RangedMiss.rulePack.rulesStrings.30>avoidance(originalTarget_mobile==True)->千钧一发的闪避</Combat_RangedMiss.rulePack.rulesStrings.30>
+  <Combat_RangedMiss.rulePack.rulesStrings.31>avoidance(originalTarget_mobile==True)->左右平移的游走</Combat_RangedMiss.rulePack.rulesStrings.31>
+  <Combat_RangedMiss.rulePack.rulesStrings.32>avoidance(originalTarget_mobile==True)->[originalTarget_objective]突然伏地</Combat_RangedMiss.rulePack.rulesStrings.32>
+  <Combat_RangedMiss.rulePack.rulesStrings.33>avoidance(originalTarget_mobile==True,p=0.3)->躲到了掩体后面</Combat_RangedMiss.rulePack.rulesStrings.33>
+  <Combat_RangedMiss.rulePack.rulesStrings.34>avoidance(originalTarget_mobile==True,p=0.3)->疾跑到掩体后面</Combat_RangedMiss.rulePack.rulesStrings.34>
 
   <Combat_ExplosionImpact.rulePack.rulesStrings.0>prefix->[initiator_definite]的[weapon_projectile_label][fromof][blast]</Combat_ExplosionImpact.rulePack.rulesStrings.0>
   <Combat_ExplosionImpact.rulePack.rulesStrings.1>prefix->[initiator_definite]的[weapon_label][fromof][blast]</Combat_ExplosionImpact.rulePack.rulesStrings.1>
@@ -350,24 +350,24 @@
   <Combat_ExplosionImpact.rulePack.rulesStrings.11>prefix->[initiator_definite]的[mortarshell]</Combat_ExplosionImpact.rulePack.rulesStrings.11>
   <Combat_ExplosionImpact.rulePack.rulesStrings.12>prefix->[initiator_definite]的[weapon_label]</Combat_ExplosionImpact.rulePack.rulesStrings.12>
   <Combat_ExplosionImpact.rulePack.rulesStrings.13>logentry->[prefix][injured][recipient_definite]。</Combat_ExplosionImpact.rulePack.rulesStrings.13>
-  <Combat_ExplosionImpact.rulePack.rulesStrings.14>logentry->[prefix][destroyed][recipient_definite]的[destroyed_targets]。</Combat_ExplosionImpact.rulePack.rulesStrings.14>
-  <Combat_ExplosionImpact.rulePack.rulesStrings.15>logentry->[prefix][flavortextadverb][destroyed][recipient_definite]的[destroyed_targets]。</Combat_ExplosionImpact.rulePack.rulesStrings.15>
-  <Combat_ExplosionImpact.rulePack.rulesStrings.16>logentry->[prefix][flavortextadverb][destroyed][recipient_definite]的[destroyed_targets]。</Combat_ExplosionImpact.rulePack.rulesStrings.16>
-  <Combat_ExplosionImpact.rulePack.rulesStrings.17>logentry->[prefix][destroyed][recipient_definite]的[destroyed_targets]并且[damaged_past][recipient_possessive][damaged_targets]。</Combat_ExplosionImpact.rulePack.rulesStrings.17>
+  <Combat_ExplosionImpact.rulePack.rulesStrings.14>logentry->[prefix][destroyed_past][recipient_definite]的[destroyed_targets]。</Combat_ExplosionImpact.rulePack.rulesStrings.14>
+  <Combat_ExplosionImpact.rulePack.rulesStrings.15>logentry->[prefix][flavortextadverb][destroyed_past][recipient_definite]的[destroyed_targets]。</Combat_ExplosionImpact.rulePack.rulesStrings.15>
+  <Combat_ExplosionImpact.rulePack.rulesStrings.16>logentry->[prefix][flavortextadverb][destroyed_past][recipient_definite]的[destroyed_targets]。</Combat_ExplosionImpact.rulePack.rulesStrings.16>
+  <Combat_ExplosionImpact.rulePack.rulesStrings.17>logentry->[prefix][destroyed_past][recipient_definite]的[destroyed_targets]并且[damaged_past][recipient_possessive][damaged_targets]。</Combat_ExplosionImpact.rulePack.rulesStrings.17>
   <Combat_ExplosionImpact.rulePack.rulesStrings.18>logentry(recipient_part_destroyed_count==0)->[prefix][damaged_past][recipient_definite]的[damaged_targets]。</Combat_ExplosionImpact.rulePack.rulesStrings.18>
   <Combat_ExplosionImpact.rulePack.rulesStrings.19>logentry(recipient_part_destroyed_count==0)->[prefix][flavortextadverb][damaged_past][recipient_definite]的[damaged_targets]。</Combat_ExplosionImpact.rulePack.rulesStrings.19>
   <Combat_ExplosionImpact.rulePack.rulesStrings.20>logentry(recipient_part_destroyed_count==0)->[prefix][flavortextadverb][damaged_past][recipient_definite]的[damaged_targets]。</Combat_ExplosionImpact.rulePack.rulesStrings.20>
   <Combat_ExplosionImpact.rulePack.rulesStrings.21>logentry->[recipient_definite]已经被[initiator_definite][damaged_past]。</Combat_ExplosionImpact.rulePack.rulesStrings.21>
   <Combat_ExplosionImpact.rulePack.rulesStrings.22>logentry->[recipient_definite]已经被[initiator_definite][flavortextadverb][damaged_past] 。</Combat_ExplosionImpact.rulePack.rulesStrings.22>
   <Combat_ExplosionImpact.rulePack.rulesStrings.23>logentry->[recipient_definite]已经被[damaged_past]。</Combat_ExplosionImpact.rulePack.rulesStrings.23>
-  <Combat_ExplosionImpact.rulePack.rulesStrings.24>blast->爆炸</Combat_ExplosionImpact.rulePack.rulesStrings.24>
-  <Combat_ExplosionImpact.rulePack.rulesStrings.25>blast->冲击波</Combat_ExplosionImpact.rulePack.rulesStrings.25>
-  <Combat_ExplosionImpact.rulePack.rulesStrings.26>blast->余波</Combat_ExplosionImpact.rulePack.rulesStrings.26>
-  <Combat_ExplosionImpact.rulePack.rulesStrings.27>blast->震荡波</Combat_ExplosionImpact.rulePack.rulesStrings.27>
-  <Combat_ExplosionImpact.rulePack.rulesStrings.28>blast->破坏力</Combat_ExplosionImpact.rulePack.rulesStrings.28>
-  <Combat_ExplosionImpact.rulePack.rulesStrings.29>blast->压力</Combat_ExplosionImpact.rulePack.rulesStrings.29>
-  <Combat_ExplosionImpact.rulePack.rulesStrings.30>fromof->释放的</Combat_ExplosionImpact.rulePack.rulesStrings.30>
-  <Combat_ExplosionImpact.rulePack.rulesStrings.31>fromof->发出的</Combat_ExplosionImpact.rulePack.rulesStrings.31>
+  <Combat_ExplosionImpact.rulePack.rulesStrings.24>logentry(p=0.001)->[recipient_definite]被爆炸淹没。</Combat_ExplosionImpact.rulePack.rulesStrings.24>
+  <Combat_ExplosionImpact.rulePack.rulesStrings.25>logentry(p=0.001)->[recipient_definite]被爆炸击中。</Combat_ExplosionImpact.rulePack.rulesStrings.25>
+  <Combat_ExplosionImpact.rulePack.rulesStrings.26>blast->爆炸</Combat_ExplosionImpact.rulePack.rulesStrings.26>
+  <Combat_ExplosionImpact.rulePack.rulesStrings.27>blast->冲击波</Combat_ExplosionImpact.rulePack.rulesStrings.27>
+  <Combat_ExplosionImpact.rulePack.rulesStrings.28>blast->余波</Combat_ExplosionImpact.rulePack.rulesStrings.28>
+  <Combat_ExplosionImpact.rulePack.rulesStrings.29>blast->震荡波</Combat_ExplosionImpact.rulePack.rulesStrings.29>
+  <Combat_ExplosionImpact.rulePack.rulesStrings.30>blast->破坏力</Combat_ExplosionImpact.rulePack.rulesStrings.30>
+  <Combat_ExplosionImpact.rulePack.rulesStrings.31>blast->压力</Combat_ExplosionImpact.rulePack.rulesStrings.31>
   <Combat_ExplosionImpact.rulePack.rulesStrings.32>fromof->释放的</Combat_ExplosionImpact.rulePack.rulesStrings.32>
   <Combat_ExplosionImpact.rulePack.rulesStrings.33>fromof->发出的</Combat_ExplosionImpact.rulePack.rulesStrings.33>
 

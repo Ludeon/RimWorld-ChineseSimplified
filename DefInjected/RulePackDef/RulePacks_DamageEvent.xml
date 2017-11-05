@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <DamageEvent_Include.rulePack.rulesStrings.0>logentry->[damageSource][recipient_nameShortDef]，[destroying][recipient_possessive][destroyed_targets]。</DamageEvent_Include.rulePack.rulesStrings.0>
-  <DamageEvent_Include.rulePack.rulesStrings.1>logentry->[damageSource][recipient_nameShortDef]，[destroying][recipient_possessive][destroyed_targets]并且[damaging][recipient_possessive] [damaged_targets]。</DamageEvent_Include.rulePack.rulesStrings.1>
-  <DamageEvent_Include.rulePack.rulesStrings.2>logentry(recipient_part_destroyed_count==0)->[damageSource][recipient_nameShortDef]，[damaging][recipient_possessive][damaged_targets]。</DamageEvent_Include.rulePack.rulesStrings.2>
+  <DamageEvent_Include.rulePack.rulesStrings.0>logentry->[damageSource][recipient_nameShortDef]，[destroyed_present][recipient_possessive][destroyed_targets]。</DamageEvent_Include.rulePack.rulesStrings.0>
+  <DamageEvent_Include.rulePack.rulesStrings.1>logentry->[damageSource][recipient_nameShortDef]，[destroyed_present][recipient_possessive][destroyed_targets]并且[damaged_present][recipient_possessive] [damaged_targets]。</DamageEvent_Include.rulePack.rulesStrings.1>
+  <DamageEvent_Include.rulePack.rulesStrings.2>logentry(recipient_part_destroyed_count==0)->[damageSource][recipient_nameShortDef]，[damaged_present][recipient_possessive][damaged_targets]。</DamageEvent_Include.rulePack.rulesStrings.2>
   <DamageEvent_Include.rulePack.rulesStrings.3>logentry(p=0.1)->[damageSource][recipient_nameShortDef]。</DamageEvent_Include.rulePack.rulesStrings.3>
 
   <DamageEvent_Ceiling.rulePack.rulesStrings.0>damageSource->[roof][collapsed]砸到</DamageEvent_Ceiling.rulePack.rulesStrings.0>
@@ -13,16 +13,16 @@
   <DamageEvent_Ceiling.rulePack.rulesStrings.4>collapsed->坍塌</DamageEvent_Ceiling.rulePack.rulesStrings.4>
   <DamageEvent_Ceiling.rulePack.rulesStrings.5>collapsed->掉落</DamageEvent_Ceiling.rulePack.rulesStrings.5>
   <DamageEvent_Ceiling.rulePack.rulesStrings.6>collapsed->塌陷</DamageEvent_Ceiling.rulePack.rulesStrings.6>
-  <DamageEvent_Ceiling.rulePack.rulesStrings.7>damaging->击伤</DamageEvent_Ceiling.rulePack.rulesStrings.7>
-  <DamageEvent_Ceiling.rulePack.rulesStrings.8>damaging->砸伤</DamageEvent_Ceiling.rulePack.rulesStrings.8>
-  <DamageEvent_Ceiling.rulePack.rulesStrings.9>damaging->击中</DamageEvent_Ceiling.rulePack.rulesStrings.9>
-  <DamageEvent_Ceiling.rulePack.rulesStrings.10>damaging->擦伤</DamageEvent_Ceiling.rulePack.rulesStrings.10>
-  <DamageEvent_Ceiling.rulePack.rulesStrings.11>damaging->撕裂</DamageEvent_Ceiling.rulePack.rulesStrings.11>
-  <DamageEvent_Ceiling.rulePack.rulesStrings.12>destroying->击碎</DamageEvent_Ceiling.rulePack.rulesStrings.12>
-  <DamageEvent_Ceiling.rulePack.rulesStrings.13>destroying->压碎</DamageEvent_Ceiling.rulePack.rulesStrings.13>
-  <DamageEvent_Ceiling.rulePack.rulesStrings.14>destroying->压住</DamageEvent_Ceiling.rulePack.rulesStrings.14>
-  <DamageEvent_Ceiling.rulePack.rulesStrings.15>destroying->摧毁</DamageEvent_Ceiling.rulePack.rulesStrings.15>
-  <DamageEvent_Ceiling.rulePack.rulesStrings.16>destroying->破坏</DamageEvent_Ceiling.rulePack.rulesStrings.16>
+  <DamageEvent_Ceiling.rulePack.rulesStrings.7>damaged_present->击伤</DamageEvent_Ceiling.rulePack.rulesStrings.7>
+  <DamageEvent_Ceiling.rulePack.rulesStrings.8>damaged_present->砸伤</DamageEvent_Ceiling.rulePack.rulesStrings.8>
+  <DamageEvent_Ceiling.rulePack.rulesStrings.9>damaged_present->击中</DamageEvent_Ceiling.rulePack.rulesStrings.9>
+  <DamageEvent_Ceiling.rulePack.rulesStrings.10>damaged_present->擦伤</DamageEvent_Ceiling.rulePack.rulesStrings.10>
+  <DamageEvent_Ceiling.rulePack.rulesStrings.11>damaged_present->撕裂</DamageEvent_Ceiling.rulePack.rulesStrings.11>
+  <DamageEvent_Ceiling.rulePack.rulesStrings.12>destroyed_present->击碎</DamageEvent_Ceiling.rulePack.rulesStrings.12>
+  <DamageEvent_Ceiling.rulePack.rulesStrings.13>destroyed_present->压碎</DamageEvent_Ceiling.rulePack.rulesStrings.13>
+  <DamageEvent_Ceiling.rulePack.rulesStrings.14>destroyed_present->压住</DamageEvent_Ceiling.rulePack.rulesStrings.14>
+  <DamageEvent_Ceiling.rulePack.rulesStrings.15>destroyed_present->摧毁</DamageEvent_Ceiling.rulePack.rulesStrings.15>
+  <DamageEvent_Ceiling.rulePack.rulesStrings.16>destroyed_present->破坏</DamageEvent_Ceiling.rulePack.rulesStrings.16>
 
   <DamageEvent_Fire.rulePack.rulesStrings.0>damageSource->[fire]点燃了</DamageEvent_Fire.rulePack.rulesStrings.0>
   <DamageEvent_Fire.rulePack.rulesStrings.1>fire(p=3)->火焰</DamageEvent_Fire.rulePack.rulesStrings.1>
@@ -31,14 +31,14 @@
   <DamageEvent_Fire.rulePack.rulesStrings.4>fire->高温</DamageEvent_Fire.rulePack.rulesStrings.4>
   <DamageEvent_Fire.rulePack.rulesStrings.5>fire->大火</DamageEvent_Fire.rulePack.rulesStrings.5>
   <DamageEvent_Fire.rulePack.rulesStrings.6>fire->炼狱</DamageEvent_Fire.rulePack.rulesStrings.6>
-  <DamageEvent_Fire.rulePack.rulesStrings.7>damaging->灼烧</DamageEvent_Fire.rulePack.rulesStrings.7>
-  <DamageEvent_Fire.rulePack.rulesStrings.8>damaging->炙烤</DamageEvent_Fire.rulePack.rulesStrings.8>
-  <DamageEvent_Fire.rulePack.rulesStrings.9>damaging->烧烤</DamageEvent_Fire.rulePack.rulesStrings.9>
-  <DamageEvent_Fire.rulePack.rulesStrings.10>damaging->烧焦</DamageEvent_Fire.rulePack.rulesStrings.10>
-  <DamageEvent_Fire.rulePack.rulesStrings.11>destroying->烧焦</DamageEvent_Fire.rulePack.rulesStrings.11>
-  <DamageEvent_Fire.rulePack.rulesStrings.12>destroying->烧毁</DamageEvent_Fire.rulePack.rulesStrings.12>
-  <DamageEvent_Fire.rulePack.rulesStrings.13>destroying->烤熟</DamageEvent_Fire.rulePack.rulesStrings.13>
-  <DamageEvent_Fire.rulePack.rulesStrings.14>destroying->烧成灰烬</DamageEvent_Fire.rulePack.rulesStrings.14>
+  <DamageEvent_Fire.rulePack.rulesStrings.7>damaged_present->灼烧</DamageEvent_Fire.rulePack.rulesStrings.7>
+  <DamageEvent_Fire.rulePack.rulesStrings.8>damaged_present->炙烤</DamageEvent_Fire.rulePack.rulesStrings.8>
+  <DamageEvent_Fire.rulePack.rulesStrings.9>damaged_present->烧烤</DamageEvent_Fire.rulePack.rulesStrings.9>
+  <DamageEvent_Fire.rulePack.rulesStrings.10>damaged_present->烧焦</DamageEvent_Fire.rulePack.rulesStrings.10>
+  <DamageEvent_Fire.rulePack.rulesStrings.11>destroyed_present->烧焦</DamageEvent_Fire.rulePack.rulesStrings.11>
+  <DamageEvent_Fire.rulePack.rulesStrings.12>destroyed_present->烧毁</DamageEvent_Fire.rulePack.rulesStrings.12>
+  <DamageEvent_Fire.rulePack.rulesStrings.13>destroyed_present->烤熟</DamageEvent_Fire.rulePack.rulesStrings.13>
+  <DamageEvent_Fire.rulePack.rulesStrings.14>destroyed_present->烧成灰烬</DamageEvent_Fire.rulePack.rulesStrings.14>
 
   <DamageEvent_PowerBeam.rulePack.rulesStrings.0>damageSource->[sky]撕开裂口，审判降临</DamageEvent_PowerBeam.rulePack.rulesStrings.0>
   <DamageEvent_PowerBeam.rulePack.rulesStrings.1>damageSource->一束难以置信的[power][damaged_past]</DamageEvent_PowerBeam.rulePack.rulesStrings.1>
