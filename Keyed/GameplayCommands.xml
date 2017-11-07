@@ -50,8 +50,8 @@
   <CommandBedSetForPrisonersFailOutdoors>只有室内的床铺才能设为囚犯专用。</CommandBedSetForPrisonersFailOutdoors>
   <CommandBedSetAsMedicalLabel>医疗专用</CommandBedSetAsMedicalLabel>
   <CommandBedSetAsMedicalDesc>将此床设为医疗用途的床。</CommandBedSetAsMedicalDesc>
-  <TurningOnPrisonerBedWarning>开启囚犯专用模式将会影响整个房间（囚犯和殖民者不能睡在同一个房间）。\n\n以下角色将会失去他们对床的所有权：</TurningOnPrisonerBedWarning>
-  <TurningOffPrisonerBedWarning>关闭囚犯专用模式将会影响整个房间（囚犯和殖民者不能睡在同一个房间）。\n\n以下角色将会失去他们对床的所有权：</TurningOffPrisonerBedWarning>
+  <TurningOnPrisonerBedWarning>开启囚犯专用模式将会影响整个房间（囚犯和殖民者不能睡在同一个房间）。\n\n以下角色将会失去他们对床的所有权:</TurningOnPrisonerBedWarning>
+  <TurningOffPrisonerBedWarning>关闭囚犯专用模式将会影响整个房间（囚犯和殖民者不能睡在同一个房间）。\n\n以下角色将会失去他们对床的所有权:</TurningOffPrisonerBedWarning>
   <AreYouSure>你确定要这么做吗?</AreYouSure>
 
   <CommandDetonateLabel>引爆</CommandDetonateLabel>
@@ -147,7 +147,7 @@
 
   <!-- Select plant to grow -->
   <CommandSelectPlantToGrowMulti>选择所要种植的植物。</CommandSelectPlantToGrowMulti>
-  <CommandSelectPlantToGrow>种植：{0}</CommandSelectPlantToGrow>
+  <CommandSelectPlantToGrow>种植: {0}</CommandSelectPlantToGrow>
   <CommandSelectPlantToGrowDesc>指定此处种植何种植物。</CommandSelectPlantToGrowDesc>
 
   <!-- Build copy -->
@@ -225,7 +225,7 @@
   <CommandLaunchGroupFailUnderRoof>部分运输舱发射器处于屋顶下。</CommandLaunchGroupFailUnderRoof>
 
   <!-- Load transporter -->
-  <CommandLoadTransporter>装载发射组：{0}</CommandLoadTransporter>
+  <CommandLoadTransporter>装载发射组: {0}</CommandLoadTransporter>
   <CommandLoadTransporterDesc>将选中的运输舱定义为一个发射组。打开装载对话框来设置所装载的货物及人员。</CommandLoadTransporterDesc>
   <CommandLoadTransporterFailNotConnectedToFuelingPort>运输舱未连接至燃料供给端。</CommandLoadTransporterFailNotConnectedToFuelingPort>
   <CommandLoadTransporterFailNoFuel>运输舱发射器缺少燃料。</CommandLoadTransporterFailNoFuel>

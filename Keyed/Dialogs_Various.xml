@@ -10,7 +10,7 @@
   <GameUpdatedToNewVersionSavesIncompatible>升级可能会导致旧版存档及 Mod 无法读取及使用。</GameUpdatedToNewVersionSavesIncompatible>
   <GameUpdatedToNewVersionSavesCompatible>旧版存档应该是兼容的，不过一些 Mod 可能无法使用。</GameUpdatedToNewVersionSavesCompatible>
   <GameUpdatedToNewVersionNonSteam>因为你的游戏为免 DRM 版，你可以选择在不同的文件夹下安装新版本，因此可以同时玩旧版和新版。</GameUpdatedToNewVersionNonSteam>
-  <GameUpdatedToNewVersionSteam>你可以在 Steam 的「beta」选项中选择使用旧版进行游戏。\n\n 1. 在「Steam 游戏库」中右击 RimWorld\n 2. 点击「属性」\n 3. 选择「测试」标签页\n 4. 在下拉菜单中选择你想进行游戏的版本。\n\n旧版本最终会被从列表移除，该选项只是用于让你完成未完成的游戏。\n\n注意：如果 Mod 作者升级了 Mod 有可能导致它无法在旧版本中运行，你可以通过禁止自动更新来避免这一问题。</GameUpdatedToNewVersionSteam>
+  <GameUpdatedToNewVersionSteam>你可以在 Steam 的「beta」选项中选择使用旧版进行游戏。\n\n 1. 在「Steam 游戏库」中右击 RimWorld\n 2. 点击「属性」\n 3. 选择「测试」标签页\n 4. 在下拉菜单中选择你想进行游戏的版本。\n\n旧版本最终会被从列表移除，该选项只是用于让你完成未完成的游戏。\n\n注意: 如果 Mod 作者升级了 Mod 有可能导致它无法在旧版本中运行，你可以通过禁止自动更新来避免这一问题。</GameUpdatedToNewVersionSteam>
 
   <!-- Recovered from errors caused by mods -->
   <RecoveredFromErrorsDialogTitle>从不兼容或损坏的 Mod 错误中恢复</RecoveredFromErrorsDialogTitle>
@@ -31,7 +31,7 @@
   <Restarting>正在重启</Restarting>
 
   <!-- Missing Steam -->
-  <SteamClientMissing>无法初始化 Steam API。可能原因：\n\n- Steam 未运行。\n- 在 Steam 之外启动，且无法载入 steam_appid.txt 。\n- 通过和 Steam 客户端不同的权限启动（比如「管理员身份」）。\n\n在大部分时候，重启你的电脑即可解决这个问题。\n\n你可以继续游戏，但 Steam 统计信息将不会被记录，且 Steam 功能将不会生效。</SteamClientMissing>
+  <SteamClientMissing>无法初始化 Steam API。可能原因:\n\n- Steam 未运行。\n- 在 Steam 之外启动，且无法载入 steam_appid.txt 。\n- 通过和 Steam 客户端不同的权限启动（比如「管理员身份」）。\n\n在大部分时候，重启你的电脑即可解决这个问题。\n\n你可以继续游戏，但 Steam 统计信息将不会被记录，且 Steam 功能将不会生效。</SteamClientMissing>
 
   <!-- Long events -->
   <InitializingInterface>初始化界面</InitializingInterface>
@@ -61,7 +61,7 @@
   <SaveIsFromDifferentGameBuild>当前运行的游戏版本是 {0}，但是存档数据版本是 {1}， 二者不同的副版本。\n\n尝试载入有可能成功。</SaveIsFromDifferentGameBuild>
   <SaveIsFromThisGameBuild>存档数据版本和当前运行的游戏版本一致，可以正确载入。</SaveIsFromThisGameBuild>
   <SaveIsUnknownFormat>存档数据格式错误，无法正确载入。</SaveIsUnknownFormat>
-  <ProblemSavingFile>保存文件{0}时出现了错误：\n\n{1}\n\n查看错误日志以了解更多信息。</ProblemSavingFile>
+  <ProblemSavingFile>保存文件{0}时出现了错误:\n\n{1}\n\n查看错误日志以了解更多信息。</ProblemSavingFile>
   <LoadAnyway>仍然载入</LoadAnyway>
   <ChangeLoadedMods>从存档载入 Mod 列表</ChangeLoadedMods>
   <MissingMods>部分 Mod 不可用，需要安装。</MissingMods>
@@ -94,7 +94,7 @@
   <WorldFileVersionMismatch>世界生成版本为 {0}，当前运行游戏版本为 {1}。\n\n 载入这个世界很可能会造成游戏崩溃或产生游戏 bug。建议你重新生成一个新世界。</WorldFileVersionMismatch>
   <FileIncompatibleWarning>保存该文件的游戏版本为{0}。\n当前运行游戏版本为{1}\n\n载入该文件可能导致错误或崩溃。</FileIncompatibleWarning>
   <ModsMismatchWarningTitle>Mod不匹配</ModsMismatchWarningTitle>
-  <ModsMismatchWarningText>存档的Mod启用设定和当前游戏运行的设定不同，你改动了Mod，根据Mod的内容有可能发生问题，也有可能正常。\n\n存档的Mod启用设定是（按照顺序）：\n\n{0}\n\n当前运行的Mod启用设定是（按照顺序）：\n\n{1}</ModsMismatchWarningText>
+  <ModsMismatchWarningText>存档的Mod启用设定和当前游戏运行的设定不同，你改动了Mod，根据Mod的内容有可能发生问题，也有可能正常。\n\n存档的Mod启用设定是（按照顺序）:\n\n{0}\n\n当前运行的Mod启用设定是（按照顺序）:\n\n{1}</ModsMismatchWarningText>
 
   <!-- Resolution change dialog -->
   <ConfirmResolutionChange>分辨率已改变，是否保留当前的分辨率设置？\n\n将在{0}秒后恢复原始设置……</ConfirmResolutionChange>
@@ -122,7 +122,7 @@
   <MapSizeMedium>中</MapSizeMedium>
   <MapSizeLarge>大</MapSizeLarge>
   <MapSizeExtreme>超大</MapSizeExtreme>
-  <MapStartSeason>起始季节：</MapStartSeason>
+  <MapStartSeason>起始季节: </MapStartSeason>
   <MapStartSeasonDefault>自动</MapStartSeasonDefault>
   <PermadeathMode>永久死亡模式</PermadeathMode>
   <PermadeathModeInfo>永久死亡模式，只能保存一个存档，且只能在退出游戏时手动保存进度。当殖民地出现危机时，你无法通过载入进度来弥补错误。\n\n 这才是正确游玩RimWorld的方式，每一个戏剧性的转变，无论是悲惨或满怀希望，都发挥了充分的影响。</PermadeathModeInfo>
@@ -131,18 +131,18 @@
   <Suspended>已暂停</Suspended>
   <NotSuspended>未暂停</NotSuspended>
   <SuspendedAllCaps>已暂停</SuspendedAllCaps>
-  <RepeatCount>重复：{0}次</RepeatCount>
+  <RepeatCount>重复: {0}次</RepeatCount>
   <Forever>永远</Forever>
   <Details>详细</Details>
   <IngredientSearchRadius>材料搜索半径</IngredientSearchRadius>
   <CurrentlyHave>目前有</CurrentlyHave>
   <CountingProducts>计数</CountingProducts>
   <Infinite>无限</Infinite>
-  <AllowedSkillRange>工作者{0}技能范围：</AllowedSkillRange>
+  <AllowedSkillRange>工作者{0}技能范围: </AllowedSkillRange>
 
   <RecipeCannotHaveTargetCount>（因为该配方成品有多个或是不可预估，所以不能为它指定目标数量）</RecipeCannotHaveTargetCount>
   <WorkAmount>工作量</WorkAmount>
-  <MinimumSkills>最低技能要求：</MinimumSkills>
+  <MinimumSkills>最低技能要求: </MinimumSkills>
   <BillRequires>需要{0}{1}</BillRequires>
   <BillRequiresNutrition>需要营养共计{0}的</BillRequiresNutrition>
   <BillRequiresMayVary>注意：小体积材料（比如黄金）消耗材料需乘{0}倍。</BillRequiresMayVary>
@@ -218,7 +218,7 @@
   <ResetButton>重置</ResetButton>
   <CancelButton>取消</CancelButton>
   <CloseButton>关闭</CloseButton>
-  <YourTradeableSilver>当前可用于交易的白银：{0}</YourTradeableSilver>
+  <YourTradeableSilver>当前可用于交易的白银: {0}</YourTradeableSilver>
   <YourTradeableSilverTip>你只能使用轨道交易信标附近的白银进行交易。</YourTradeableSilverTip>
   <TraderHasNoMore>贸易商没有货物了。</TraderHasNoMore>
   <ColonyHasNoMore>殖民地没有货物了。</ColonyHasNoMore>
@@ -305,10 +305,10 @@
   <TransportersMassUsageTooltip>当前载重占用与载重能力。\n\n如果占用超过载重能力，你的运输舱将无法发射。</TransportersMassUsageTooltip>
 
   <!-- Comms -->
-  <SocialSkillIs>社交技能：{0}</SocialSkillIs>
+  <SocialSkillIs>社交技能: {0}</SocialSkillIs>
 
   <!--Research-->
-  <ResearchFinished>研究完成：{0}</ResearchFinished>
+  <ResearchFinished>研究完成: {0}</ResearchFinished>
   <ResearchScreen>研究界面</ResearchScreen>
 
   <!--HistoryUpload-->
@@ -374,7 +374,7 @@
   <NoGrowerCanPlant>播种{0}最低需要{1}级种植技能。\n\n你没有达到该技能要求的种植者，因此这种植物将不会被播种。</NoGrowerCanPlant>
 
   <!-- Abandon home -->
-  <ConfirmAbandonHomeWithColonyPawns>你的一些殖民者或动物仍然在这个区域里。你确定要遗弃这一区域吗？\n\n这些人或动物会被留在这里：\n\n{0}</ConfirmAbandonHomeWithColonyPawns>
+  <ConfirmAbandonHomeWithColonyPawns>你的一些殖民者或动物仍然在这个区域里。你确定要遗弃这一区域吗？\n\n这些人或动物会被留在这里:\n\n{0}</ConfirmAbandonHomeWithColonyPawns>
   <ConfirmAbandonHomeNegativeThoughts>遗弃{0}会导致以下人员产生以下想法：</ConfirmAbandonHomeNegativeThoughts>
   <ConfirmAbandonHomeNegativeThoughts_Everyone>所有人：</ConfirmAbandonHomeNegativeThoughts_Everyone>
 
