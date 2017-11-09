@@ -82,6 +82,9 @@
   <CommandStopForceAttack>停止强制攻击</CommandStopForceAttack>
   <CommandStopForceAttackDesc>停止强制攻击目标并允许此炮塔自由选择目标开火。</CommandStopForceAttackDesc>
   <CommandStopAttackFailNotForceAttacking>当前无强制攻击目标。</CommandStopAttackFailNotForceAttacking>
+  <CommandExtractShell>退出炮弹</CommandExtractShell>
+  <CommandExtractShellDesc>卸出当前的炮弹，以便更换成其他类型的弹药。</CommandExtractShellDesc>
+  <CommandExtractShellFailNoShell>炮弹未上膛。</CommandExtractShellFailNoShell>
   <MessageTargetBeyondMaximumRange>目标距离大于最大射程。</MessageTargetBeyondMaximumRange>
   <MessageTargetBelowMinimumRange>目标距离小于最小射程。</MessageTargetBelowMinimumRange>
   <MessageTurretWontFireBecauseHoldFire>警告：迫击炮不会开火，因为已设置为「停火」。</MessageTurretWontFireBecauseHoldFire>
