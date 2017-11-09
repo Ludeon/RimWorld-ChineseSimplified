@@ -156,6 +156,7 @@
   <Combat_Hit.rulePack.rulesStrings.12>action(p=0.3)->[initiator_definite]使用[implement][damaged_inf][recipient_definite]</Combat_Hit.rulePack.rulesStrings.12>
   <Combat_Hit.rulePack.rulesStrings.13>action(p=0.3)->[initiator_definite]使用[implement]来[damaged_inf][recipient_definite]</Combat_Hit.rulePack.rulesStrings.13>
   <Combat_Hit.rulePack.rulesStrings.14>action->[initiator_definite]以[implement][damaged_past][recipient_definite]</Combat_Hit.rulePack.rulesStrings.14>
+  <Combat_Hit.rulePack.rulesStrings.15>action(p=0.6)->[initiator_definite] [damaged_past] [recipient_definite]</Combat_Hit.rulePack.rulesStrings.15>
 
   <Combat_FailIncludes.rulePack.rulesStrings.0>action->[initiator_definite][tried][damaged_inf][recipient_definite]</Combat_FailIncludes.rulePack.rulesStrings.0>
   <Combat_FailIncludes.rulePack.rulesStrings.1>action->[initiator_definite][tried]用[implement][damaged_inf][recipient_definite]</Combat_FailIncludes.rulePack.rulesStrings.1>
@@ -182,7 +183,7 @@
   <Combat_Miss.rulePack.rulesStrings.7>failtype->被打倒</Combat_Miss.rulePack.rulesStrings.7>
   <Combat_Miss.rulePack.rulesStrings.8>failtype->没有成功</Combat_Miss.rulePack.rulesStrings.8>
   <Combat_Miss.rulePack.rulesStrings.9>failtype->打偏了</Combat_Miss.rulePack.rulesStrings.9>
-  <Combat_Miss.rulePack.rulesStrings.10>result->但是没偶命中</Combat_Miss.rulePack.rulesStrings.10>
+  <Combat_Miss.rulePack.rulesStrings.10>result->但是没有命中</Combat_Miss.rulePack.rulesStrings.10>
   <Combat_Miss.rulePack.rulesStrings.11>result->但是打空了</Combat_Miss.rulePack.rulesStrings.11>
   <Combat_Miss.rulePack.rulesStrings.12>result->可是幅度太大了</Combat_Miss.rulePack.rulesStrings.12>
   <Combat_Miss.rulePack.rulesStrings.13>result->然而在最后一刻摔倒了</Combat_Miss.rulePack.rulesStrings.13>
@@ -216,8 +217,8 @@
   <Combat_RangedFire.rulePack.rulesStrings.12>shotat(p=0.5)->尝试[aburst]射击</Combat_RangedFire.rulePack.rulesStrings.12>
   <Combat_RangedFire.rulePack.rulesStrings.13>shotat(p=0.3)->射击</Combat_RangedFire.rulePack.rulesStrings.13>
   <Combat_RangedFire.rulePack.rulesStrings.14>shotat(p=0.2)->[shotadjective]射击</Combat_RangedFire.rulePack.rulesStrings.14>
-  <Combat_RangedFire.rulePack.rulesStrings.15>shotat->[aburst]开火，命中</Combat_RangedFire.rulePack.rulesStrings.15>
-  <Combat_RangedFire.rulePack.rulesStrings.16>shotat->[aburst][shotadverb]，击中</Combat_RangedFire.rulePack.rulesStrings.16>
+  <Combat_RangedFire.rulePack.rulesStrings.15>shotat->[aburst]开火射击</Combat_RangedFire.rulePack.rulesStrings.15>
+  <Combat_RangedFire.rulePack.rulesStrings.16>shotat->[shotadverb][aburst]开火射击</Combat_RangedFire.rulePack.rulesStrings.16>
   <Combat_RangedFire.rulePack.rulesStrings.17>shotat(p=0.5)->瞄准，并且[aburst]射击</Combat_RangedFire.rulePack.rulesStrings.17>
   <Combat_RangedFire.rulePack.rulesStrings.18>shotat(p=0.3)->火力全开，射击</Combat_RangedFire.rulePack.rulesStrings.18>
   <Combat_RangedFire.rulePack.rulesStrings.19>aburst-></Combat_RangedFire.rulePack.rulesStrings.19>
