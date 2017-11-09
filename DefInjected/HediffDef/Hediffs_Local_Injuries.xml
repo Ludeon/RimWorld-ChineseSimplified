@@ -4,17 +4,20 @@
   <!-- Missing body part -->
 
   <MissingBodyPart.label>缺失身体部件</MissingBodyPart.label>
+  <MissingBodyPart.labelNoun>缺失身体部件</MissingBodyPart.labelNoun>
 
 
   <!-- Injuries -->
 
   <Misc.label>杂项</Misc.label>
+  <Misc.labelNoun>杂项</Misc.labelNoun>
   <Misc.comps.0.labelTendedWell>已包扎</Misc.comps.0.labelTendedWell>
   <Misc.comps.0.labelTendedWellInner>已缝合</Misc.comps.0.labelTendedWellInner>
   <Misc.comps.0.labelSolidTendedWell>已固定</Misc.comps.0.labelSolidTendedWell>
   <Misc.injuryProps.destroyedLabel>已丧失功能</Misc.injuryProps.destroyedLabel>
 
   <Burn.label>烧伤</Burn.label>
+  <Burn.labelNoun>烧伤</Burn.labelNoun>
   <Burn.comps.0.labelTendedWell>已包扎</Burn.comps.0.labelTendedWell>
   <Burn.comps.0.labelTendedWellInner>已缝合</Burn.comps.0.labelTendedWellInner>
   <Burn.comps.0.labelSolidTendedWell>已固定</Burn.comps.0.labelSolidTendedWell>
@@ -23,6 +26,7 @@
   <Burn.injuryProps.destroyedOutLabel>被烧掉</Burn.injuryProps.destroyedOutLabel>
 
   <Crush.label>压伤</Crush.label>
+  <Crush.labelNoun>压伤</Crush.labelNoun>
   <Crush.comps.0.labelTendedWell>已包扎</Crush.comps.0.labelTendedWell>
   <Crush.comps.0.labelTendedWellInner>已缝合</Crush.comps.0.labelTendedWellInner>
   <Crush.comps.0.labelSolidTendedWell>已固定</Crush.comps.0.labelSolidTendedWell>
@@ -30,12 +34,14 @@
   <Crush.injuryProps.destroyedLabel>被压毁</Crush.injuryProps.destroyedLabel>
 
   <Crack.label>破裂</Crack.label>
+  <Crack.labelNoun>破裂</Crack.labelNoun>
   <Crack.comps.0.labelTendedWell>已愈合</Crack.comps.0.labelTendedWell>
   <Crack.comps.0.labelTendedWellInner>已愈合</Crack.comps.0.labelTendedWellInner>
   <Crack.comps.0.labelSolidTendedWell>已固定</Crack.comps.0.labelSolidTendedWell>
   <Crack.injuryProps.destroyedLabel>已碎</Crack.injuryProps.destroyedLabel>
 
   <Cut.label>割伤</Cut.label>
+  <Cut.labelNoun>割伤</Cut.labelNoun>
   <Cut.comps.0.labelTendedWell>已包扎</Cut.comps.0.labelTendedWell>
   <Cut.comps.0.labelTendedWellInner>已缝合</Cut.comps.0.labelTendedWellInner>
   <Cut.comps.0.labelSolidTendedWell>已简单固定</Cut.comps.0.labelSolidTendedWell>
@@ -44,12 +50,14 @@
   <Cut.injuryProps.destroyedOutLabel>被切除</Cut.injuryProps.destroyedOutLabel>
 
   <SurgicalCut.label>手术伤</SurgicalCut.label>
+  <SurgicalCut.labelNoun>手术伤</SurgicalCut.labelNoun>
   <SurgicalCut.comps.0.labelTendedWell>已包扎</SurgicalCut.comps.0.labelTendedWell>
   <SurgicalCut.comps.0.labelTendedWellInner>已缝合</SurgicalCut.comps.0.labelTendedWellInner>
   <SurgicalCut.comps.0.labelSolidTendedWell>已简单固定</SurgicalCut.comps.0.labelSolidTendedWell>
   <SurgicalCut.comps.1.oldLabel>手术疤痕</SurgicalCut.comps.1.oldLabel>
 
   <Scratch.label>抓伤</Scratch.label>
+  <Scratch.labelNoun>抓伤</Scratch.labelNoun>
   <Scratch.comps.0.labelTendedWell>已包扎</Scratch.comps.0.labelTendedWell>
   <Scratch.comps.0.labelTendedWellInner>已缝合</Scratch.comps.0.labelTendedWellInner>
   <Scratch.comps.0.labelSolidTendedWell>已简单固定</Scratch.comps.0.labelSolidTendedWell>
@@ -58,6 +66,7 @@
   <Scratch.injuryProps.destroyedOutLabel>被撕毁</Scratch.injuryProps.destroyedOutLabel>
 
   <Bite.label>咬伤</Bite.label>
+  <Bite.labelNoun>咬伤</Bite.labelNoun>
   <Bite.comps.0.labelTendedWell>已包扎</Bite.comps.0.labelTendedWell>
   <Bite.comps.0.labelTendedWellInner>已缝合</Bite.comps.0.labelTendedWellInner>
   <Bite.comps.0.labelSolidTendedWell>已简单固定</Bite.comps.0.labelSolidTendedWell>
@@ -66,6 +75,7 @@
   <Bite.injuryProps.destroyedOutLabel>被咬掉</Bite.injuryProps.destroyedOutLabel>
 
   <Stab.label>刺伤</Stab.label>
+  <Stab.labelNoun>刺伤</Stab.labelNoun>
   <Stab.comps.0.labelTendedWell>已包扎</Stab.comps.0.labelTendedWell>
   <Stab.comps.0.labelTendedWellInner>已缝合</Stab.comps.0.labelTendedWellInner>
   <Stab.comps.0.labelSolidTendedWell>已简单固定</Stab.comps.0.labelSolidTendedWell>
@@ -74,6 +84,7 @@
   <Stab.injuryProps.destroyedOutLabel>被刺毁</Stab.injuryProps.destroyedOutLabel>
 
   <Gunshot.label>枪伤</Gunshot.label>
+  <Gunshot.labelNoun>枪伤</Gunshot.labelNoun>
   <Gunshot.comps.0.labelTendedWell>已包扎</Gunshot.comps.0.labelTendedWell>
   <Gunshot.comps.0.labelTendedWellInner>已缝合</Gunshot.comps.0.labelTendedWellInner>
   <Gunshot.comps.0.labelSolidTendedWell>已简单固定</Gunshot.comps.0.labelSolidTendedWell>
@@ -83,6 +94,7 @@
   <Gunshot.injuryProps.destroyedOutLabel>被射掉</Gunshot.injuryProps.destroyedOutLabel>
 
   <Shredded.label>炸伤</Shredded.label>
+  <Shredded.labelNoun>炸伤</Shredded.labelNoun>
   <Shredded.comps.0.labelTendedWell>已包扎</Shredded.comps.0.labelTendedWell>
   <Shredded.comps.0.labelTendedWellInner>已缝合</Shredded.comps.0.labelTendedWellInner>
   <Shredded.comps.0.labelSolidTendedWell>已简单固定</Shredded.comps.0.labelSolidTendedWell>
@@ -91,6 +103,7 @@
   <Shredded.injuryProps.destroyedOutLabel>被炸毁</Shredded.injuryProps.destroyedOutLabel>
 
   <Bruise.label>瘀伤</Bruise.label>
+  <Bruise.labelNoun>瘀伤</Bruise.labelNoun>
   <Bruise.comps.0.labelTendedWell>已包扎</Bruise.comps.0.labelTendedWell>
   <Bruise.comps.0.labelTendedWellInner>已缝合</Bruise.comps.0.labelTendedWellInner>
   <Bruise.comps.0.labelSolidTendedWell>已简单固定</Bruise.comps.0.labelSolidTendedWell>
