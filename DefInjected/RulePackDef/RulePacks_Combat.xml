@@ -173,11 +173,11 @@
   <Combat_FailIncludes.rulePack.rulesStrings.12>tried->尝试</Combat_FailIncludes.rulePack.rulesStrings.12>
   <Combat_FailIncludes.rulePack.rulesStrings.13>tried->企图</Combat_FailIncludes.rulePack.rulesStrings.13>
 
-  <Combat_Miss.rulePack.rulesStrings.0>logentry(p=0.2)->[recipient_definite]躲闪了[initiator_definite]的[weapon_label][damaged_inf].</Combat_Miss.rulePack.rulesStrings.0>
+  <Combat_Miss.rulePack.rulesStrings.0>logentry(p=0.2)->[recipient_definite]躲闪了[initiator_definite]的[weapon_label][damaged_inf]。</Combat_Miss.rulePack.rulesStrings.0>
   <Combat_Miss.rulePack.rulesStrings.1>logentry(p=0.2)->[initiator_definite]的[implement][damaged_inf]没有命中[recipient_definite]。</Combat_Miss.rulePack.rulesStrings.1>
   <Combat_Miss.rulePack.rulesStrings.2>logentry(p=0.2)->在试图使用[implement][damaged_inf][recipient_definite]时，[initiator_definite][failtype]。</Combat_Miss.rulePack.rulesStrings.2>
   <Combat_Miss.rulePack.rulesStrings.3>logentry(p=0.2)->在试图[damaged_inf][recipient_definite]时，[initiator_definite][failtype]。</Combat_Miss.rulePack.rulesStrings.3>
-  <Combat_Miss.rulePack.rulesStrings.4>logentry(p=0.2)->[initiator_definite][failtype].</Combat_Miss.rulePack.rulesStrings.4>
+  <Combat_Miss.rulePack.rulesStrings.4>logentry(p=0.2)->[initiator_definite][failtype]。</Combat_Miss.rulePack.rulesStrings.4>
   <Combat_Miss.rulePack.rulesStrings.5>failtype->被绊倒</Combat_Miss.rulePack.rulesStrings.5>
   <Combat_Miss.rulePack.rulesStrings.6>failtype->摔倒了</Combat_Miss.rulePack.rulesStrings.6>
   <Combat_Miss.rulePack.rulesStrings.7>failtype->被打倒</Combat_Miss.rulePack.rulesStrings.7>
@@ -241,8 +241,8 @@
   <Combat_RangedFire.rulePack.rulesStrings.36>shotadjective->精确</Combat_RangedFire.rulePack.rulesStrings.36>
   <Combat_RangedFire.rulePack.rulesStrings.37>shotadjective(initiator_flesh!=Mechanoid)->谨慎</Combat_RangedFire.rulePack.rulesStrings.37>
 
-  <Combat_RangedDamage.rulePack.rulesStrings.0>logentry->[initiator_definite]的[weapon_projectile_label][destroyed_past][recipient_definite]的[destroyed_targets].</Combat_RangedDamage.rulePack.rulesStrings.0>
-  <Combat_RangedDamage.rulePack.rulesStrings.1>logentry->[initiator_definite]的[weapon_projectile_label][destroyed_past][recipient_definite]的[destroyed_targets]，[to][destroyed_suffix].</Combat_RangedDamage.rulePack.rulesStrings.1>
+  <Combat_RangedDamage.rulePack.rulesStrings.0>logentry->[initiator_definite]的[weapon_projectile_label][destroyed_past][recipient_definite]的[destroyed_targets]。</Combat_RangedDamage.rulePack.rulesStrings.0>
+  <Combat_RangedDamage.rulePack.rulesStrings.1>logentry->[initiator_definite]的[weapon_projectile_label][destroyed_past][recipient_definite]的[destroyed_targets]，[to][destroyed_suffix]。</Combat_RangedDamage.rulePack.rulesStrings.1>
   <Combat_RangedDamage.rulePack.rulesStrings.2>logentry->[initiator_definite]的[weapon_projectile_label][expertly][destroyed_past][recipient_definite]的[destroyed_targets]。</Combat_RangedDamage.rulePack.rulesStrings.2>
   <Combat_RangedDamage.rulePack.rulesStrings.3>logentry(p=2)->[initiator_definite]的[weapon_projectile_label][missed][originalTarget_definite]并且[destroyed_past] [recipient_definite]的[destroyed_targets]。</Combat_RangedDamage.rulePack.rulesStrings.3>
   <Combat_RangedDamage.rulePack.rulesStrings.4>logentry(p=2)->[initiator_definite]的[weapon_projectile_label][missed][originalTarget_definite]，[destroyed_present][recipient_definite]的[destroyed_targets]。</Combat_RangedDamage.rulePack.rulesStrings.4>
@@ -255,12 +255,12 @@
   <Combat_RangedDamage.rulePack.rulesStrings.11>logentry(recipient_partDestroyed_count==0,p=2)->[initiator_definite]的[weapon_projectile_label][missed][originalTarget_definite]，[damaged_present][recipient_definite]的[damaged_targets]。</Combat_RangedDamage.rulePack.rulesStrings.11>
   <Combat_RangedDamage.rulePack.rulesStrings.12>logentry(recipient_partDestroyed_count==0)->[recipient_definite]的[damaged_targets]被[initiator_definite]的[weapon_projectile_label][damagedverb_past]。</Combat_RangedDamage.rulePack.rulesStrings.12>
   <Combat_RangedDamage.rulePack.rulesStrings.13>logentry(recipient_partDestroyed_count==0)->[recipient_definite]的[damaged_targets]被[initiator_definite]的[weapon_projectile_label][expert][damagedverb_past]。</Combat_RangedDamage.rulePack.rulesStrings.13>
-  <Combat_RangedDamage.rulePack.rulesStrings.14>logentry(p=3)->[initiator_definite]的[weapon_projectile_label][destroyed_past][recipient_definite]的[destroyed_targets]，并且[damaged_past][recipient_possessive][damaged_targets].</Combat_RangedDamage.rulePack.rulesStrings.14>
+  <Combat_RangedDamage.rulePack.rulesStrings.14>logentry(p=3)->[initiator_definite]的[weapon_projectile_label][destroyed_past][recipient_definite]的[destroyed_targets]，并且[damaged_past][recipient_possessive][damaged_targets]。</Combat_RangedDamage.rulePack.rulesStrings.14>
   <Combat_RangedDamage.rulePack.rulesStrings.15>logentry(p=6)->[initiator_definite]的[weapon_projectile_label][missed][originalTarget_definite]，[destroyed_present][recipient_definite]的 [destroyed_targets]，并且[damaged_present][recipient_possessive][damaged_targets]。</Combat_RangedDamage.rulePack.rulesStrings.15>
   <Combat_RangedDamage.rulePack.rulesStrings.16>logentry(p=0.2)->[initiator_definite]用一个[weapon_projectile_label]打击了[recipient_definite]。</Combat_RangedDamage.rulePack.rulesStrings.16>
   <Combat_RangedDamage.rulePack.rulesStrings.17>logentry(p=0.2)->[initiator_definite]的[weapon_projectile_label]命中了[recipient_definite]。</Combat_RangedDamage.rulePack.rulesStrings.17>
   <Combat_RangedDamage.rulePack.rulesStrings.18>logentry(p=0.4)->[initiator_definite][missed][originalTarget_definite]，然而[weapon_projectile_label]击中了[recipient_definite]。</Combat_RangedDamage.rulePack.rulesStrings.18>
-  <Combat_RangedDamage.rulePack.rulesStrings.19>logentry(p=0.4)->[initiator_definite]的[weapon_projectile_label][missed][originalTarget_definite]，但是命中了[recipient_definite].</Combat_RangedDamage.rulePack.rulesStrings.19>
+  <Combat_RangedDamage.rulePack.rulesStrings.19>logentry(p=0.4)->[initiator_definite]的[weapon_projectile_label][missed][originalTarget_definite]，但是命中了[recipient_definite]。</Combat_RangedDamage.rulePack.rulesStrings.19>
   <Combat_RangedDamage.rulePack.rulesStrings.20>logentry(p=0.2)->[initiator_definite]用[weapon_projectile_label]瞄准[originalTarget_definite]，并且击中[recipient_definite]。</Combat_RangedDamage.rulePack.rulesStrings.20>
   <Combat_RangedDamage.rulePack.rulesStrings.21>weapon_projectile_label(p=0.05)->射击</Combat_RangedDamage.rulePack.rulesStrings.21>
   <Combat_RangedDamage.rulePack.rulesStrings.22>destroyed_past->击碎了</Combat_RangedDamage.rulePack.rulesStrings.22>
