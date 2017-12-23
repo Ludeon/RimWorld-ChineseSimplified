@@ -57,7 +57,7 @@ http://ludeon.com/forums/index.php?topic=2933.0
 * **注意文件夹结构**：解压缩和安装时需要注意文件夹结构，避免在外面多套一层文件夹。正确的文件夹结
   构如下图所示。
 
-![ScreenShot](http://ww2.sinaimg.cn/large/a15b4afegy1fdup08nszpj20ov05dq3o)
+![screenshot](https://user-images.githubusercontent.com/10762097/34319476-7777b3b8-e81e-11e7-8962-937123114291.png)
 
 ## 翻译人员
 
