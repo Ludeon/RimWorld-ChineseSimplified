@@ -16,8 +16,8 @@ http://ludeon.com/forums/index.php?topic=2933.0
 
 ### 最新版
 
-![B18)](https://img.shields.io/badge/beta18-0.18.1722-blue.svg?style=flat-square)
-![更新日期](https://img.shields.io/badge/更新日期-2017--12--01-brightgreen.svg?style=flat-square)
+![B18](https://img.shields.io/badge/beta18-0.18.1722-blue.svg?style=flat-square)
+![更新日期](https://img.shields.io/badge/更新日期-2017--12--23-brightgreen.svg?style=flat-square)
 
 * [GitHub 下载](https://github.com/Ludeon/RimWorld-ChineseSimplified/archive/master.zip)
 * [Coding 下载](https://coding.net/u/duduluu/p/RimWorld-ChineseSimplified/git/archive/master)
