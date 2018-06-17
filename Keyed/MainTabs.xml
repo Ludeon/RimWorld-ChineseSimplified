@@ -29,12 +29,23 @@
   <!-- Animals tab -->
   <Master>主人</Master>
   <PregnantIconDesc>怀孕（{0} / {1}）</PregnantIconDesc>
+  <BondedTo>Bonded to</BondedTo>
+
+  <!-- Wildlife tab -->
+  <IsPredator>This creature is a predator. When hungry, it will hunt smaller creatures - possibly including people.</IsPredator>
 
   <!-- Factions tab -->
   <Hostile>敌对</Hostile>
+  <Ally>Ally</Ally>
   <DefeatedLower>被击败</DefeatedLower>
   <HostileTo>敌对派系: {0}</HostileTo>
-  <CurrentGoodwill>此派系当前对你的友好度。</CurrentGoodwill>
+  <CurrentGoodwillTip>Current goodwill and relations status with this faction.</CurrentGoodwillTip>
+  <CurrentGoodwillTip_PermanentEnemy>This faction is permanently hostile. They will raid your settlements and caravans. Relations with them will never improve for any reason.</CurrentGoodwillTip_PermanentEnemy>
+  <CurrentGoodwillTip_Ally>This faction is allied. They will send fighters to help you when they can. If relations fall below {0}, they will become neutral.</CurrentGoodwillTip_Ally>
+  <CurrentGoodwillTip_Neutral>This faction is neutral. They will trade and talk with you freely. If relations fall below {0}, they will become hostile. If relations rise above {1}, they will become allied and start actively working to help you.</CurrentGoodwillTip_Neutral>
+  <CurrentGoodwillTip_Hostile>This faction is hostile. They will raid your settlements and caravans. If relations rise above {0}, they will become neutral.</CurrentGoodwillTip_Hostile>
+  <CurrentGoodwillTip_NaturalGoodwill>This faction has a natural goodwill range from {0} to {1}. If goodwill is over {1}, it will fall by {3} per day. If goodwill is under {0}, it will rise by {2} per day.</CurrentGoodwillTip_NaturalGoodwill>
+
 
   <!-- Social tab -->
   <Friend>朋友</Friend>
@@ -43,6 +54,7 @@
 
   <!-- History tab - subtabs -->
   <Graph>统计图表</Graph>
+  <Messages>Messages</Messages>
   <Statistics>统计数据</Statistics>
 
   <!-- History tab - Graphs -->
@@ -51,9 +63,14 @@
   <Last100Days>最近100天</Last100Days>
   <Last300Days>最近300天</Last300Days>
   <AllDays>全部</AllDays>
-  <Day>天</Day>
   <Value>价值</Value>
   <External>外部</External>
+
+  <!-- History tab - Messages -->
+  <ShowLetters>Show letters</ShowLetters>
+  <ShowMessages>Show messages</ShowMessages>
+  <PinArchivableTip>Pin or unpin this message.\n\nThe oldest unpinned messages will be removed automatically from the list after reaching the limit of {0} messages.</PinArchivableTip>
+  <NoMessages>no messages</NoMessages>
 
   <!-- History tab - Statistics -->
   <Playtime>总游戏时间</Playtime>
@@ -61,6 +78,7 @@
   <ThisMapColonyWealthTotal>殖民地财富（当前地区）</ThisMapColonyWealthTotal>
   <ThisMapColonyWealthItems>殖民地财富（物品）（当前地区）</ThisMapColonyWealthItems>
   <ThisMapColonyWealthBuildings>殖民地财富（建筑）（当前地区）</ThisMapColonyWealthBuildings>
+  <ThisMapColonyWealthTameAnimals>Colony wealth (animals) (this map)</ThisMapColonyWealthTameAnimals>
   <NumThreatBigs>大型威胁事件次数</NumThreatBigs>
   <NumEnemyRaids>敌人袭击事件次数</NumEnemyRaids>
   <ThisMapDamageTaken>承受伤害总量（当前地区）</ThisMapDamageTaken>
@@ -72,5 +90,8 @@
   <YourTechLevel>自身科技等级</YourTechLevel>
   <ResearchCostMultiplier>工作量乘数</ResearchCostMultiplier>
   <ResearchCostComparison>由于自身科技等级，项目基础工作量{0}变为{1}。</ResearchCostComparison>
+
+  <!--<CurrentGoodwill>此派系当前对你的友好度。</CurrentGoodwill>-->
+  <!--<Day>天</Day>-->
 
 </LanguageData>

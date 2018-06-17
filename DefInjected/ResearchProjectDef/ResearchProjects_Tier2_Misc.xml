@@ -18,8 +18,11 @@
   <LongBlades.label>长剑</LongBlades.label>
   <LongBlades.description>制作长剑和长矛。</LongBlades.description>
 
-  <Greatbows.label>巨弓</Greatbows.label>
-  <Greatbows.description>学习制作强力的巨弓。</Greatbows.description>
+  <PlateArmor.label>plate armor</PlateArmor.label>
+  <PlateArmor.description>Smith suits of plate armor from metal or wood.</PlateArmor.description>
+
+  <Greatbow.label>greatbow</Greatbow.label>
+  <Greatbow.description>Craft greatbows for killing enemies at great range.</Greatbow.description>
 
 
   <!-- Tier 2: Basic electricity -->
@@ -27,8 +30,11 @@
   <Batteries.label>蓄电池</Batteries.label>
   <Batteries.description>解锁建造「蓄电池」以储存电力。</Batteries.description>
 
-  <Refining.label>精炼</Refining.label>
-  <Refining.description>建造精炼设备用于从木材提炼「化合燃料」。</Refining.description>
+  <BiofuelRefining.label>biofuel refining</BiofuelRefining.label>
+  <BiofuelRefining.description>Build biofuel refineries to make chemfuel from biological matter like wood or foodstuffs.</BiofuelRefining.description>
+
+  <Waterproofing.label>waterproof conduit</Waterproofing.label>
+  <Waterproofing.description>Build underwater electrical conduits.</Waterproofing.description>
 
   <NutrientPaste.label>营养膏合成机</NutrientPaste.label>
   <NutrientPaste.description>解锁建造「营养膏合成机」，能自动将生食高效地合成为营养膏。用于应对食物短缺。</NutrientPaste.description>
@@ -57,17 +63,26 @@
   <ColoredLights.label>彩色灯</ColoredLights.label>
   <ColoredLights.description>解锁建造装饰性的彩色落地灯。</ColoredLights.description>
 
-  <Machining.label>机械加工</Machining.label>
-  <Machining.description>解锁建造「机械加工台」，用于制作枪支和机械，或者拆解死亡的机械体获得高级的材料。</Machining.description>
-
   <IEDs.label>简易爆炸装置</IEDs.label>
   <IEDs.description>解锁殖民者使用迫击炮炮弹建造以简易爆炸装置为基础的陷阱，类型包括高爆、EMP、泡沫灭火，以及反粒子弹头。</IEDs.description>
 
-  <IEDIncendiary.label>简易燃烧陷阱</IEDIncendiary.label>
-  <IEDIncendiary.description>解锁建造「简易燃烧陷阱」，以迫击炮炮弹为材料制作的简易燃烧爆炸陷阱。</IEDIncendiary.description>
+  <GeothermalPower.label>地热能</GeothermalPower.label>
+  <GeothermalPower.description>解锁建造「地热发电机」，建造在蒸汽间歇喷泉上，提供不间断的电力。</GeothermalPower.description>
+
+
+  <!-- Machining and its children sub-tier -->
+
+  <Machining.label>机械加工</Machining.label>
+  <Machining.description>解锁建造「机械加工台」，用于制作枪支和机械，或者拆解死亡的机械体获得高级的材料。</Machining.description>
 
   <Mortars.label>迫击炮</Mortars.label>
   <Mortars.description>解锁建造「迫击炮」，可越过墙抛射炮弹，射程非常远。</Mortars.description>
+
+  <SmokepopBelt.label>烟罐腰带</SmokepopBelt.label>
+  <SmokepopBelt.description>解锁制作「烟罐腰带」，可提供自动防御烟幕。</SmokepopBelt.description>
+
+  <Prosthetics.label>prosthetics</Prosthetics.label>
+  <Prosthetics.description>Build inexpensive prosthetic body parts to replace lost limbs. Requires a skilled doctor to attach.</Prosthetics.description>
 
   <Gunsmithing.label>造枪</Gunsmithing.label>
   <Gunsmithing.description>制作简单的手动操作的枪械，比如左轮手枪、泵动霰弹枪、栓动步枪，以及燃烧弹发射器。</Gunsmithing.description>
@@ -81,14 +96,11 @@
   <PrecisionRifling.label>精准步枪</PrecisionRifling.label>
   <PrecisionRifling.description>制作突击步枪和狙击步枪。</PrecisionRifling.description>
 
-  <SmokepopBelt.label>烟罐腰带</SmokepopBelt.label>
-  <SmokepopBelt.description>解锁制作「烟罐腰带」，可提供自动防御烟幕。</SmokepopBelt.description>
+
+  <!-- Tier 2.5 Microelectronics -->
 
   <MicroelectronicsBasics.label>微电子基础</MicroelectronicsBasics.label>
   <MicroelectronicsBasics.description>用精密复杂的电子进行工作的基础。解锁建造「高级研究台」、「通讯台」，以及其他研究项目，比如「显像管电视」、「低温休眠舱」。</MicroelectronicsBasics.description>
-
-
-  <!-- Tier 2.5 Microelectronics -->
 
   <TubeTelevision.label>显像管电视</TubeTelevision.label>
   <TubeTelevision.description>解锁建造「显像管电视」。</TubeTelevision.description>
@@ -96,5 +108,15 @@
   <GunTurrets.label>自动机枪塔</GunTurrets.label>
   <GunTurrets.description>解锁建造「自动机枪塔」。</GunTurrets.description>
 
+  <HeavyTurrets.label>autocannon turret</HeavyTurrets.label>
+  <HeavyTurrets.description>Produce the heavy, long-ranged autocannon turret.</HeavyTurrets.description>
+
+
+  <!--<Greatbows.label>巨弓</Greatbows.label>-->
+  <!--<Greatbows.description>学习制作强力的巨弓。</Greatbows.description>-->
+  <!--<Refining.label>精炼</Refining.label>-->
+  <!--<Refining.description>建造精炼设备用于从木材提炼「化合燃料」。</Refining.description>-->
+  <!--<IEDIncendiary.label>简易燃烧陷阱</IEDIncendiary.label>-->
+  <!--<IEDIncendiary.description>解锁建造「简易燃烧陷阱」，以迫击炮炮弹为材料制作的简易燃烧爆炸陷阱。</IEDIncendiary.description>-->
 
 </LanguageData>

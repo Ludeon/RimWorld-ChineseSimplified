@@ -17,6 +17,12 @@
   <GlobalLearningFactor.label>全局学习系数</GlobalLearningFactor.label>
   <GlobalLearningFactor.description>影响所有技能学习效率的全局学习系数。</GlobalLearningFactor.description>
 
+  <HungerRateMultiplier.label>hunger rate multiplier</HungerRateMultiplier.label>
+  <HungerRateMultiplier.description>A multiplier on how quickly a creature becomes hungry.</HungerRateMultiplier.description>
+
+  <RestRateMultiplier.label>rest rate multiplier</RestRateMultiplier.label>
+  <RestRateMultiplier.description>A multiplier on how quickly a creature rests while sleeping.</RestRateMultiplier.description>
+
   <EatingSpeed.label>进食速度</EatingSpeed.label>
   <EatingSpeed.description>此人进食速度的乘数。</EatingSpeed.description>
 
@@ -43,6 +49,9 @@
 
   <PainShockThreshold.label>疼痛休克阈值</PainShockThreshold.label>
   <PainShockThreshold.description>此生物因疼痛倒地的点数。</PainShockThreshold.description>
+
+  <ForagedNutritionPerDay.label>foraged food amount</ForagedNutritionPerDay.label>
+  <ForagedNutritionPerDay.description>The amount of nutrition this person will automatically forage per day while traveling by caravan.</ForagedNutritionPerDay.description>
 
 
 </LanguageData>

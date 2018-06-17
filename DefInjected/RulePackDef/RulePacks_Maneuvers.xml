@@ -144,70 +144,142 @@
   <Maneuver_Scratch.rulePack.rulesStrings.11>destroyed_suffix->[to]碎片</Maneuver_Scratch.rulePack.rulesStrings.11>
   <Maneuver_Scratch.rulePack.rulesStrings.12>destroyed_suffix(recipient_flesh!=Mechanoid)->[to]一堆血块</Maneuver_Scratch.rulePack.rulesStrings.12>
 
-  <Poke.rulePack.rulesStrings.0>damaged_inf(p=2)->捅</Poke.rulePack.rulesStrings.0>
-  <Poke.rulePack.rulesStrings.1>damaged_inf(p=2)->刺</Poke.rulePack.rulesStrings.1>
-  <Poke.rulePack.rulesStrings.2>damaged_inf->戳</Poke.rulePack.rulesStrings.2>
-  <Poke.rulePack.rulesStrings.3>damaged_inf->撞</Poke.rulePack.rulesStrings.3>
-  <Poke.rulePack.rulesStrings.4>damaged_inf->剌</Poke.rulePack.rulesStrings.4>
-  <Poke.rulePack.rulesStrings.5>damaged_past(p=2)->捅</Poke.rulePack.rulesStrings.5>
-  <Poke.rulePack.rulesStrings.6>damaged_past(p=2)->刺</Poke.rulePack.rulesStrings.6>
-  <Poke.rulePack.rulesStrings.7>damaged_past->戳</Poke.rulePack.rulesStrings.7>
-  <Poke.rulePack.rulesStrings.8>damaged_past->撞</Poke.rulePack.rulesStrings.8>
-  <Poke.rulePack.rulesStrings.9>damaged_past->剌</Poke.rulePack.rulesStrings.9>
-  <Poke.rulePack.rulesStrings.10>damaged_present(p=2)->捅</Poke.rulePack.rulesStrings.10>
-  <Poke.rulePack.rulesStrings.11>damaged_present(p=2)->刺</Poke.rulePack.rulesStrings.11>
-  <Poke.rulePack.rulesStrings.12>damaged_present->戳</Poke.rulePack.rulesStrings.12>
-  <Poke.rulePack.rulesStrings.13>damaged_present->撞</Poke.rulePack.rulesStrings.13>
-  <Poke.rulePack.rulesStrings.14>damaged_present->剌</Poke.rulePack.rulesStrings.14>
-  <Poke.rulePack.rulesStrings.15>flavortextconsequence(recipient_flesh!=Mechanoid)->留下巨大的瘀伤</Poke.rulePack.rulesStrings.15>
-  <Poke.rulePack.rulesStrings.16>flavortextconsequence->留下大面积瘀伤</Poke.rulePack.rulesStrings.16>
-  <Poke.rulePack.rulesStrings.17>flavortextconsequence->使[recipient_objective]失去平衡</Poke.rulePack.rulesStrings.17>
-  <Poke.rulePack.rulesStrings.18>flavortextconsequence->使[recipient_objective]退到一旁</Poke.rulePack.rulesStrings.18>
-  <Poke.rulePack.rulesStrings.19>destroyed_past->粉碎</Poke.rulePack.rulesStrings.19>
-  <Poke.rulePack.rulesStrings.20>destroyed_past->压碎</Poke.rulePack.rulesStrings.20>
-  <Poke.rulePack.rulesStrings.21>destroyed_past->破坏</Poke.rulePack.rulesStrings.21>
-  <Poke.rulePack.rulesStrings.22>destroyed_past->打废</Poke.rulePack.rulesStrings.22>
-  <Poke.rulePack.rulesStrings.23>destroyed_past->打碎</Poke.rulePack.rulesStrings.23>
-  <Poke.rulePack.rulesStrings.24>destroyed_present->粉碎</Poke.rulePack.rulesStrings.24>
-  <Poke.rulePack.rulesStrings.25>destroyed_present->压碎</Poke.rulePack.rulesStrings.25>
-  <Poke.rulePack.rulesStrings.26>destroyed_present->破坏</Poke.rulePack.rulesStrings.26>
-  <Poke.rulePack.rulesStrings.27>destroyed_present->打废</Poke.rulePack.rulesStrings.27>
-  <Poke.rulePack.rulesStrings.28>destroyed_present->打碎</Poke.rulePack.rulesStrings.28>
-  <Poke.rulePack.rulesStrings.29>destroyed_suffix->[to]碎片</Poke.rulePack.rulesStrings.29>
-  <Poke.rulePack.rulesStrings.30>destroyed_suffix->[to]碎块</Poke.rulePack.rulesStrings.30>
-  <Poke.rulePack.rulesStrings.31>destroyed_suffix(recipient_flesh!=Mechanoid)->[to]雾状</Poke.rulePack.rulesStrings.31>
-  <Poke.rulePack.rulesStrings.32>destroyed_suffix->[to]碎渣</Poke.rulePack.rulesStrings.32>
+  <Maneuver_Poke.rulePack.rulesStrings.0>damaged_inf(p=2)->poke</Maneuver_Poke.rulePack.rulesStrings.0>
+  <Maneuver_Poke.rulePack.rulesStrings.1>damaged_inf(p=2)->jab</Maneuver_Poke.rulePack.rulesStrings.1>
+  <Maneuver_Poke.rulePack.rulesStrings.2>damaged_inf->prod</Maneuver_Poke.rulePack.rulesStrings.2>
+  <Maneuver_Poke.rulePack.rulesStrings.3>damaged_inf->shove</Maneuver_Poke.rulePack.rulesStrings.3>
+  <Maneuver_Poke.rulePack.rulesStrings.4>damaged_inf->stab</Maneuver_Poke.rulePack.rulesStrings.4>
+  <Maneuver_Poke.rulePack.rulesStrings.5>damaged_past(p=2)->poked</Maneuver_Poke.rulePack.rulesStrings.5>
+  <Maneuver_Poke.rulePack.rulesStrings.6>damaged_past(p=2)->jabbed</Maneuver_Poke.rulePack.rulesStrings.6>
+  <Maneuver_Poke.rulePack.rulesStrings.7>damaged_past->prodded</Maneuver_Poke.rulePack.rulesStrings.7>
+  <Maneuver_Poke.rulePack.rulesStrings.8>damaged_past->shoved</Maneuver_Poke.rulePack.rulesStrings.8>
+  <Maneuver_Poke.rulePack.rulesStrings.9>damaged_past->stabbed</Maneuver_Poke.rulePack.rulesStrings.9>
+  <Maneuver_Poke.rulePack.rulesStrings.10>damaged_present(p=2)->poking</Maneuver_Poke.rulePack.rulesStrings.10>
+  <Maneuver_Poke.rulePack.rulesStrings.11>damaged_present(p=2)->jabbing</Maneuver_Poke.rulePack.rulesStrings.11>
+  <Maneuver_Poke.rulePack.rulesStrings.12>damaged_present->prodding</Maneuver_Poke.rulePack.rulesStrings.12>
+  <Maneuver_Poke.rulePack.rulesStrings.13>damaged_present->shoving</Maneuver_Poke.rulePack.rulesStrings.13>
+  <Maneuver_Poke.rulePack.rulesStrings.14>damaged_present->stabbing</Maneuver_Poke.rulePack.rulesStrings.14>
+  <Maneuver_Poke.rulePack.rulesStrings.15>flavortext_consequence(recipient_flesh!=Mechanoid)->leaving an enormous bruise</Maneuver_Poke.rulePack.rulesStrings.15>
+  <Maneuver_Poke.rulePack.rulesStrings.16>flavortext_consequence->leaving the area visibly deformed</Maneuver_Poke.rulePack.rulesStrings.16>
+  <Maneuver_Poke.rulePack.rulesStrings.17>flavortext_consequence->knocking [RECIPIENT_objective] off balance</Maneuver_Poke.rulePack.rulesStrings.17>
+  <Maneuver_Poke.rulePack.rulesStrings.18>flavortext_consequence->knocking [RECIPIENT_objective] to the side</Maneuver_Poke.rulePack.rulesStrings.18>
+  <Maneuver_Poke.rulePack.rulesStrings.19>destroyed_past->shattered</Maneuver_Poke.rulePack.rulesStrings.19>
+  <Maneuver_Poke.rulePack.rulesStrings.20>destroyed_past->crushed</Maneuver_Poke.rulePack.rulesStrings.20>
+  <Maneuver_Poke.rulePack.rulesStrings.21>destroyed_past->obliterated</Maneuver_Poke.rulePack.rulesStrings.21>
+  <Maneuver_Poke.rulePack.rulesStrings.22>destroyed_past->annihilated</Maneuver_Poke.rulePack.rulesStrings.22>
+  <Maneuver_Poke.rulePack.rulesStrings.23>destroyed_past->broke</Maneuver_Poke.rulePack.rulesStrings.23>
+  <Maneuver_Poke.rulePack.rulesStrings.24>destroyed_present->shattering</Maneuver_Poke.rulePack.rulesStrings.24>
+  <Maneuver_Poke.rulePack.rulesStrings.25>destroyed_present->crushing</Maneuver_Poke.rulePack.rulesStrings.25>
+  <Maneuver_Poke.rulePack.rulesStrings.26>destroyed_present->obliterating</Maneuver_Poke.rulePack.rulesStrings.26>
+  <Maneuver_Poke.rulePack.rulesStrings.27>destroyed_present->annihilating</Maneuver_Poke.rulePack.rulesStrings.27>
+  <Maneuver_Poke.rulePack.rulesStrings.28>destroyed_present->breaking</Maneuver_Poke.rulePack.rulesStrings.28>
+  <Maneuver_Poke.rulePack.rulesStrings.29>destroyed_suffix->[to] pieces</Maneuver_Poke.rulePack.rulesStrings.29>
+  <Maneuver_Poke.rulePack.rulesStrings.30>destroyed_suffix->[to] bits</Maneuver_Poke.rulePack.rulesStrings.30>
+  <Maneuver_Poke.rulePack.rulesStrings.31>destroyed_suffix(recipient_flesh!=Mechanoid)->[to] a fine mist</Maneuver_Poke.rulePack.rulesStrings.31>
+  <Maneuver_Poke.rulePack.rulesStrings.32>destroyed_suffix->[to] fragments</Maneuver_Poke.rulePack.rulesStrings.32>
 
-  <Bite.rulePack.rulesStrings.0>damaged_inf->蜇</Bite.rulePack.rulesStrings.0>
-  <Bite.rulePack.rulesStrings.1>damaged_inf->咬</Bite.rulePack.rulesStrings.1>
-  <Bite.rulePack.rulesStrings.2>damaged_inf(p=0.5)->啃</Bite.rulePack.rulesStrings.2>
-  <Bite.rulePack.rulesStrings.3>damaged_past->蜇</Bite.rulePack.rulesStrings.3>
-  <Bite.rulePack.rulesStrings.4>damaged_past->咬</Bite.rulePack.rulesStrings.4>
-  <Bite.rulePack.rulesStrings.5>damaged_past->啃</Bite.rulePack.rulesStrings.5>
-  <Bite.rulePack.rulesStrings.6>damaged_past->啃噬</Bite.rulePack.rulesStrings.6>
-  <Bite.rulePack.rulesStrings.7>damaged_past->撕咬</Bite.rulePack.rulesStrings.7>
-  <Bite.rulePack.rulesStrings.8>damaged_present->蜇</Bite.rulePack.rulesStrings.8>
-  <Bite.rulePack.rulesStrings.9>damaged_present->咬</Bite.rulePack.rulesStrings.9>
-  <Bite.rulePack.rulesStrings.10>damaged_present->啃</Bite.rulePack.rulesStrings.10>
-  <Bite.rulePack.rulesStrings.11>damaged_present->啃噬</Bite.rulePack.rulesStrings.11>
-  <Bite.rulePack.rulesStrings.12>damaged_present->撕咬</Bite.rulePack.rulesStrings.12>
-  <Bite.rulePack.rulesStrings.13>flavortextconsequence(recipient_flesh!=Mechanoid)->暴露出下面的肉</Bite.rulePack.rulesStrings.13>
-  <Bite.rulePack.rulesStrings.14>flavortextconsequence(recipient_flesh==Mechanoid)->暴露出下面的机械</Bite.rulePack.rulesStrings.14>
-  <Bite.rulePack.rulesStrings.15>flavortextconsequence(recipient_flesh!=Mechanoid)->在皮肤上留下可怕的窟窿</Bite.rulePack.rulesStrings.15>
-  <Bite.rulePack.rulesStrings.16>flavortextconsequence(recipient_flesh==Mechanoid)->在金属外壳上留下可怕的窟窿</Bite.rulePack.rulesStrings.16>
-  <Bite.rulePack.rulesStrings.17>destroyed_past->啃噬</Bite.rulePack.rulesStrings.17>
-  <Bite.rulePack.rulesStrings.18>destroyed_past->分开</Bite.rulePack.rulesStrings.18>
-  <Bite.rulePack.rulesStrings.19>destroyed_past->撕开</Bite.rulePack.rulesStrings.19>
-  <Bite.rulePack.rulesStrings.20>destroyed_past->破坏</Bite.rulePack.rulesStrings.20>
-  <Bite.rulePack.rulesStrings.21>destroyed_present->啃噬</Bite.rulePack.rulesStrings.21>
-  <Bite.rulePack.rulesStrings.22>destroyed_present->分开</Bite.rulePack.rulesStrings.22>
-  <Bite.rulePack.rulesStrings.23>destroyed_present->撕开</Bite.rulePack.rulesStrings.23>
-  <Bite.rulePack.rulesStrings.24>destroyed_present->破坏</Bite.rulePack.rulesStrings.24>
-  <Bite.rulePack.rulesStrings.25>destroyed_suffix->[to]碎块</Bite.rulePack.rulesStrings.25>
-  <Bite.rulePack.rulesStrings.26>destroyed_suffix->[to]碎片</Bite.rulePack.rulesStrings.26>
-  <Bite.rulePack.rulesStrings.27>destroyed_suffix->[to]碎条</Bite.rulePack.rulesStrings.27>
-  <Bite.rulePack.rulesStrings.28>destroyed_suffix(recipient_flesh!=Mechanoid)->[to]凌乱的碎条</Bite.rulePack.rulesStrings.28>
-  <Bite.rulePack.rulesStrings.29>destroyed_suffix(recipient_flesh!=Mechanoid)->[to]一团乱麻</Bite.rulePack.rulesStrings.29>
+  <Maneuver_Bite.rulePack.rulesStrings.0>damaged_inf->bite</Maneuver_Bite.rulePack.rulesStrings.0>
+  <Maneuver_Bite.rulePack.rulesStrings.1>damaged_inf->chomp</Maneuver_Bite.rulePack.rulesStrings.1>
+  <Maneuver_Bite.rulePack.rulesStrings.2>damaged_inf(p=0.5)->nip</Maneuver_Bite.rulePack.rulesStrings.2>
+  <Maneuver_Bite.rulePack.rulesStrings.3>damaged_past->bit</Maneuver_Bite.rulePack.rulesStrings.3>
+  <Maneuver_Bite.rulePack.rulesStrings.4>damaged_past->chomped</Maneuver_Bite.rulePack.rulesStrings.4>
+  <Maneuver_Bite.rulePack.rulesStrings.5>damaged_past->nipped</Maneuver_Bite.rulePack.rulesStrings.5>
+  <Maneuver_Bite.rulePack.rulesStrings.6>damaged_past->gnawed</Maneuver_Bite.rulePack.rulesStrings.6>
+  <Maneuver_Bite.rulePack.rulesStrings.7>damaged_past(deflected!=True)->tore</Maneuver_Bite.rulePack.rulesStrings.7>
+  <Maneuver_Bite.rulePack.rulesStrings.8>damaged_present->biting</Maneuver_Bite.rulePack.rulesStrings.8>
+  <Maneuver_Bite.rulePack.rulesStrings.9>damaged_present->chomping</Maneuver_Bite.rulePack.rulesStrings.9>
+  <Maneuver_Bite.rulePack.rulesStrings.10>damaged_present->nipped</Maneuver_Bite.rulePack.rulesStrings.10>
+  <Maneuver_Bite.rulePack.rulesStrings.11>damaged_present->gnawing</Maneuver_Bite.rulePack.rulesStrings.11>
+  <Maneuver_Bite.rulePack.rulesStrings.12>damaged_present(deflected!=True)->tearing</Maneuver_Bite.rulePack.rulesStrings.12>
+  <Maneuver_Bite.rulePack.rulesStrings.13>flavortext_consequence(recipient_flesh!=Mechanoid)->exposing the flesh underneath</Maneuver_Bite.rulePack.rulesStrings.13>
+  <Maneuver_Bite.rulePack.rulesStrings.14>flavortext_consequence(recipient_flesh==Mechanoid)->exposing the machinery underneath</Maneuver_Bite.rulePack.rulesStrings.14>
+  <Maneuver_Bite.rulePack.rulesStrings.15>flavortext_consequence(recipient_flesh!=Mechanoid)->leaving grisly tears in the skin</Maneuver_Bite.rulePack.rulesStrings.15>
+  <Maneuver_Bite.rulePack.rulesStrings.16>flavortext_consequence(recipient_flesh==Mechanoid)->leaving grisly tears in the metal</Maneuver_Bite.rulePack.rulesStrings.16>
+  <Maneuver_Bite.rulePack.rulesStrings.17>destroyed_past->devoured</Maneuver_Bite.rulePack.rulesStrings.17>
+  <Maneuver_Bite.rulePack.rulesStrings.18>destroyed_past->separated</Maneuver_Bite.rulePack.rulesStrings.18>
+  <Maneuver_Bite.rulePack.rulesStrings.19>destroyed_past->ripped</Maneuver_Bite.rulePack.rulesStrings.19>
+  <Maneuver_Bite.rulePack.rulesStrings.20>destroyed_past->ravaged</Maneuver_Bite.rulePack.rulesStrings.20>
+  <Maneuver_Bite.rulePack.rulesStrings.21>destroyed_present->devouring</Maneuver_Bite.rulePack.rulesStrings.21>
+  <Maneuver_Bite.rulePack.rulesStrings.22>destroyed_present->separating</Maneuver_Bite.rulePack.rulesStrings.22>
+  <Maneuver_Bite.rulePack.rulesStrings.23>destroyed_present->ripping</Maneuver_Bite.rulePack.rulesStrings.23>
+  <Maneuver_Bite.rulePack.rulesStrings.24>destroyed_present->ravaging</Maneuver_Bite.rulePack.rulesStrings.24>
+  <Maneuver_Bite.rulePack.rulesStrings.25>destroyed_suffix->[to] shreds</Maneuver_Bite.rulePack.rulesStrings.25>
+  <Maneuver_Bite.rulePack.rulesStrings.26>destroyed_suffix->[to] pieces</Maneuver_Bite.rulePack.rulesStrings.26>
+  <Maneuver_Bite.rulePack.rulesStrings.27>destroyed_suffix->[to] strips</Maneuver_Bite.rulePack.rulesStrings.27>
+  <Maneuver_Bite.rulePack.rulesStrings.28>destroyed_suffix(recipient_flesh!=Mechanoid)->[to] messy strips</Maneuver_Bite.rulePack.rulesStrings.28>
+  <Maneuver_Bite.rulePack.rulesStrings.29>destroyed_suffix(recipient_flesh!=Mechanoid)->[to] an unrecognizable mess</Maneuver_Bite.rulePack.rulesStrings.29>
 
+  <Maneuver_KickMaterialInEyes_MeleeHit.rulePack.rulesStrings.0>r_logentry->[INITIATOR_definite] kicked [TOOL_label] in [RECIPIENT_definite]'s eyes.</Maneuver_KickMaterialInEyes_MeleeHit.rulePack.rulesStrings.0>
+  <Maneuver_KickMaterialInEyes_MeleeHit.rulePack.rulesStrings.1>r_logentry(p=0.2)->[INITIATOR_definite] kicked a spray of [TOOL_label] in [RECIPIENT_definite]'s eyes.</Maneuver_KickMaterialInEyes_MeleeHit.rulePack.rulesStrings.1>
+
+  <Maneuver_KickMaterialInEyes_MeleeMiss.rulePack.rulesStrings.0>r_logentry->[INITIATOR_definite] tried to kick [TOOL_label] in [RECIPIENT_definite]'s eyes, but missed.</Maneuver_KickMaterialInEyes_MeleeMiss.rulePack.rulesStrings.0>
+
+  <Maneuver_KickMaterialInEyes_MeleeDodge.rulePack.rulesStrings.0>r_logentry->[INITIATOR_definite] tried to kick [TOOL_label] in [RECIPIENT_definite]'s eyes, but [RECIPIENT_definite] dodged out of the way.</Maneuver_KickMaterialInEyes_MeleeDodge.rulePack.rulesStrings.0>
+  <Maneuver_KickMaterialInEyes_MeleeDodge.rulePack.rulesStrings.1>r_logentry->[INITIATOR_definite] tried to kick [TOOL_label] in [RECIPIENT_definite]'s eyes, but [RECIPIENT_definite] blocked it.</Maneuver_KickMaterialInEyes_MeleeDodge.rulePack.rulesStrings.1>
+
+
+  <!--<Poke.rulePack.rulesStrings.0>damaged_inf(p=2)->捅</Poke.rulePack.rulesStrings.0>-->
+  <!--<Poke.rulePack.rulesStrings.1>damaged_inf(p=2)->刺</Poke.rulePack.rulesStrings.1>-->
+  <!--<Poke.rulePack.rulesStrings.2>damaged_inf->戳</Poke.rulePack.rulesStrings.2>-->
+  <!--<Poke.rulePack.rulesStrings.3>damaged_inf->撞</Poke.rulePack.rulesStrings.3>-->
+  <!--<Poke.rulePack.rulesStrings.4>damaged_inf->剌</Poke.rulePack.rulesStrings.4>-->
+  <!--<Poke.rulePack.rulesStrings.5>damaged_past(p=2)->捅</Poke.rulePack.rulesStrings.5>-->
+  <!--<Poke.rulePack.rulesStrings.6>damaged_past(p=2)->刺</Poke.rulePack.rulesStrings.6>-->
+  <!--<Poke.rulePack.rulesStrings.7>damaged_past->戳</Poke.rulePack.rulesStrings.7>-->
+  <!--<Poke.rulePack.rulesStrings.8>damaged_past->撞</Poke.rulePack.rulesStrings.8>-->
+  <!--<Poke.rulePack.rulesStrings.9>damaged_past->剌</Poke.rulePack.rulesStrings.9>-->
+  <!--<Poke.rulePack.rulesStrings.10>damaged_present(p=2)->捅</Poke.rulePack.rulesStrings.10>-->
+  <!--<Poke.rulePack.rulesStrings.11>damaged_present(p=2)->刺</Poke.rulePack.rulesStrings.11>-->
+  <!--<Poke.rulePack.rulesStrings.12>damaged_present->戳</Poke.rulePack.rulesStrings.12>-->
+  <!--<Poke.rulePack.rulesStrings.13>damaged_present->撞</Poke.rulePack.rulesStrings.13>-->
+  <!--<Poke.rulePack.rulesStrings.14>damaged_present->剌</Poke.rulePack.rulesStrings.14>-->
+  <!--<Poke.rulePack.rulesStrings.15>flavortextconsequence(recipient_flesh!=Mechanoid)->留下巨大的瘀伤</Poke.rulePack.rulesStrings.15>-->
+  <!--<Poke.rulePack.rulesStrings.16>flavortextconsequence->留下大面积瘀伤</Poke.rulePack.rulesStrings.16>-->
+  <!--<Poke.rulePack.rulesStrings.17>flavortextconsequence->使[recipient_objective]失去平衡</Poke.rulePack.rulesStrings.17>-->
+  <!--<Poke.rulePack.rulesStrings.18>flavortextconsequence->使[recipient_objective]退到一旁</Poke.rulePack.rulesStrings.18>-->
+  <!--<Poke.rulePack.rulesStrings.19>destroyed_past->粉碎</Poke.rulePack.rulesStrings.19>-->
+  <!--<Poke.rulePack.rulesStrings.20>destroyed_past->压碎</Poke.rulePack.rulesStrings.20>-->
+  <!--<Poke.rulePack.rulesStrings.21>destroyed_past->破坏</Poke.rulePack.rulesStrings.21>-->
+  <!--<Poke.rulePack.rulesStrings.22>destroyed_past->打废</Poke.rulePack.rulesStrings.22>-->
+  <!--<Poke.rulePack.rulesStrings.23>destroyed_past->打碎</Poke.rulePack.rulesStrings.23>-->
+  <!--<Poke.rulePack.rulesStrings.24>destroyed_present->粉碎</Poke.rulePack.rulesStrings.24>-->
+  <!--<Poke.rulePack.rulesStrings.25>destroyed_present->压碎</Poke.rulePack.rulesStrings.25>-->
+  <!--<Poke.rulePack.rulesStrings.26>destroyed_present->破坏</Poke.rulePack.rulesStrings.26>-->
+  <!--<Poke.rulePack.rulesStrings.27>destroyed_present->打废</Poke.rulePack.rulesStrings.27>-->
+  <!--<Poke.rulePack.rulesStrings.28>destroyed_present->打碎</Poke.rulePack.rulesStrings.28>-->
+  <!--<Poke.rulePack.rulesStrings.29>destroyed_suffix->[to]碎片</Poke.rulePack.rulesStrings.29>-->
+  <!--<Poke.rulePack.rulesStrings.30>destroyed_suffix->[to]碎块</Poke.rulePack.rulesStrings.30>-->
+  <!--<Poke.rulePack.rulesStrings.31>destroyed_suffix(recipient_flesh!=Mechanoid)->[to]雾状</Poke.rulePack.rulesStrings.31>-->
+  <!--<Poke.rulePack.rulesStrings.32>destroyed_suffix->[to]碎渣</Poke.rulePack.rulesStrings.32>-->
+  <!--<Bite.rulePack.rulesStrings.0>damaged_inf->蜇</Bite.rulePack.rulesStrings.0>-->
+  <!--<Bite.rulePack.rulesStrings.1>damaged_inf->咬</Bite.rulePack.rulesStrings.1>-->
+  <!--<Bite.rulePack.rulesStrings.2>damaged_inf(p=0.5)->啃</Bite.rulePack.rulesStrings.2>-->
+  <!--<Bite.rulePack.rulesStrings.3>damaged_past->蜇</Bite.rulePack.rulesStrings.3>-->
+  <!--<Bite.rulePack.rulesStrings.4>damaged_past->咬</Bite.rulePack.rulesStrings.4>-->
+  <!--<Bite.rulePack.rulesStrings.5>damaged_past->啃</Bite.rulePack.rulesStrings.5>-->
+  <!--<Bite.rulePack.rulesStrings.6>damaged_past->啃噬</Bite.rulePack.rulesStrings.6>-->
+  <!--<Bite.rulePack.rulesStrings.7>damaged_past->撕咬</Bite.rulePack.rulesStrings.7>-->
+  <!--<Bite.rulePack.rulesStrings.8>damaged_present->蜇</Bite.rulePack.rulesStrings.8>-->
+  <!--<Bite.rulePack.rulesStrings.9>damaged_present->咬</Bite.rulePack.rulesStrings.9>-->
+  <!--<Bite.rulePack.rulesStrings.10>damaged_present->啃</Bite.rulePack.rulesStrings.10>-->
+  <!--<Bite.rulePack.rulesStrings.11>damaged_present->啃噬</Bite.rulePack.rulesStrings.11>-->
+  <!--<Bite.rulePack.rulesStrings.12>damaged_present->撕咬</Bite.rulePack.rulesStrings.12>-->
+  <!--<Bite.rulePack.rulesStrings.13>flavortextconsequence(recipient_flesh!=Mechanoid)->暴露出下面的肉</Bite.rulePack.rulesStrings.13>-->
+  <!--<Bite.rulePack.rulesStrings.14>flavortextconsequence(recipient_flesh==Mechanoid)->暴露出下面的机械</Bite.rulePack.rulesStrings.14>-->
+  <!--<Bite.rulePack.rulesStrings.15>flavortextconsequence(recipient_flesh!=Mechanoid)->在皮肤上留下可怕的窟窿</Bite.rulePack.rulesStrings.15>-->
+  <!--<Bite.rulePack.rulesStrings.16>flavortextconsequence(recipient_flesh==Mechanoid)->在金属外壳上留下可怕的窟窿</Bite.rulePack.rulesStrings.16>-->
+  <!--<Bite.rulePack.rulesStrings.17>destroyed_past->啃噬</Bite.rulePack.rulesStrings.17>-->
+  <!--<Bite.rulePack.rulesStrings.18>destroyed_past->分开</Bite.rulePack.rulesStrings.18>-->
+  <!--<Bite.rulePack.rulesStrings.19>destroyed_past->撕开</Bite.rulePack.rulesStrings.19>-->
+  <!--<Bite.rulePack.rulesStrings.20>destroyed_past->破坏</Bite.rulePack.rulesStrings.20>-->
+  <!--<Bite.rulePack.rulesStrings.21>destroyed_present->啃噬</Bite.rulePack.rulesStrings.21>-->
+  <!--<Bite.rulePack.rulesStrings.22>destroyed_present->分开</Bite.rulePack.rulesStrings.22>-->
+  <!--<Bite.rulePack.rulesStrings.23>destroyed_present->撕开</Bite.rulePack.rulesStrings.23>-->
+  <!--<Bite.rulePack.rulesStrings.24>destroyed_present->破坏</Bite.rulePack.rulesStrings.24>-->
+  <!--<Bite.rulePack.rulesStrings.25>destroyed_suffix->[to]碎块</Bite.rulePack.rulesStrings.25>-->
+  <!--<Bite.rulePack.rulesStrings.26>destroyed_suffix->[to]碎片</Bite.rulePack.rulesStrings.26>-->
+  <!--<Bite.rulePack.rulesStrings.27>destroyed_suffix->[to]碎条</Bite.rulePack.rulesStrings.27>-->
+  <!--<Bite.rulePack.rulesStrings.28>destroyed_suffix(recipient_flesh!=Mechanoid)->[to]凌乱的碎条</Bite.rulePack.rulesStrings.28>-->
+  <!--<Bite.rulePack.rulesStrings.29>destroyed_suffix(recipient_flesh!=Mechanoid)->[to]一团乱麻</Bite.rulePack.rulesStrings.29>-->
 
 </LanguageData>

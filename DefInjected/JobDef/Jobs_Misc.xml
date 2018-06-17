@@ -4,14 +4,16 @@
   <!-- General -->
 
   <Goto.reportString>走动中。</Goto.reportString>
+  <Follow.reportString>following TargetA.</Follow.reportString>
+  <FollowClose.reportString>following TargetA.</FollowClose.reportString>
   <GotoSafeTemperature.reportString>正在寻找温度安全的地方。</GotoSafeTemperature.reportString>
   <GotoWander.reportString>闲逛中。</GotoWander.reportString>
   <Wait.reportString>等待中。</Wait.reportString>
-  <WaitMaintainPosture.reportString>站立中。</WaitMaintainPosture.reportString>
-  <WaitDowned.reportString>倒地不起。</WaitDowned.reportString>
-  <WaitSafeTemperature.reportString>待在温度安全的地方。</WaitSafeTemperature.reportString>
-  <WaitWander.reportString>闲逛中。</WaitWander.reportString>
-  <WaitCombat.reportString>观察目标。</WaitCombat.reportString>
+  <Wait_MaintainPosture.reportString>standing.</Wait_MaintainPosture.reportString>
+  <Wait_Downed.reportString>downed.</Wait_Downed.reportString>
+  <Wait_SafeTemperature.reportString>waiting in safe temperature.</Wait_SafeTemperature.reportString>
+  <Wait_Wander.reportString>wandering.</Wait_Wander.reportString>
+  <Wait_Combat.reportString>watching for targets.</Wait_Combat.reportString>
   <AttackStatic.reportString>攻击TargetA。</AttackStatic.reportString>
   <AttackMelee.reportString>近身攻击TargetA。</AttackMelee.reportString>
   <SocialFight.reportString>和TargetA打架。</SocialFight.reportString>
@@ -25,7 +27,10 @@
   <Strip.reportString>剥光TargetA。</Strip.reportString>
   <Open.reportString>打开TargetA。</Open.reportString>
   <RearmTrap.reportString>重置TargetA。</RearmTrap.reportString>
+  <RearmTurret.reportString>rearming TargetA.</RearmTurret.reportString>
+  <RearmTurretAtomic.reportString>rearming TargetA.</RearmTurretAtomic.reportString>
   <Refuel.reportString>给TargetA加燃料。</Refuel.reportString>
+  <RefuelAtomic.reportString>refueling TargetA.</RefuelAtomic.reportString>
   <FillFermentingBarrel.reportString>装填TargetA。</FillFermentingBarrel.reportString>
   <TakeBeerOutOfFermentingBarrel.reportString>从TargetA中取出啤酒。</TakeBeerOutOfFermentingBarrel.reportString>
   <UnloadInventory.reportString>装卸TargetA。</UnloadInventory.reportString>
@@ -66,5 +71,11 @@
 
   <Lovin.reportString>爱爱。</Lovin.reportString>
 
+
+  <!--<WaitMaintainPosture.reportString>站立中。</WaitMaintainPosture.reportString>-->
+  <!--<WaitDowned.reportString>倒地不起。</WaitDowned.reportString>-->
+  <!--<WaitSafeTemperature.reportString>待在温度安全的地方。</WaitSafeTemperature.reportString>-->
+  <!--<WaitWander.reportString>闲逛中。</WaitWander.reportString>-->
+  <!--<WaitCombat.reportString>观察目标。</WaitCombat.reportString>-->
 
 </LanguageData>

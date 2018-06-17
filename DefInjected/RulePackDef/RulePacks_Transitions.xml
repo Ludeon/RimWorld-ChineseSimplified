@@ -4,8 +4,6 @@
   <Transition_Include.rulePack.rulesStrings.0>duetoa->由于</Transition_Include.rulePack.rulesStrings.0>
   <Transition_Include.rulePack.rulesStrings.1>duetoa(p=0.5)->是因为</Transition_Include.rulePack.rulesStrings.1>
   <Transition_Include.rulePack.rulesStrings.2>duetoa(p=0.5)->多亏</Transition_Include.rulePack.rulesStrings.2>
-  <Transition_Include.rulePack.rulesStrings.3>subject_definite->[subject_labelDefinite]</Transition_Include.rulePack.rulesStrings.3>
-  <Transition_Include.rulePack.rulesStrings.4>subject_definite->[subject_nameShortDef]</Transition_Include.rulePack.rulesStrings.4>
 
   <Transition_Downed.rulePack.rulesStrings.0>logentry->[culpritHediff_labelNoun]导致[subject_definite][collapsemeta]。</Transition_Downed.rulePack.rulesStrings.0>
   <Transition_Downed.rulePack.rulesStrings.1>logentry->位于[culpritHediff_target_label]的[culpritHediff_labelNoun]导致[subject_definite][collapsemeta]。</Transition_Downed.rulePack.rulesStrings.1>
@@ -36,7 +34,6 @@
   <Transition_Downed.rulePack.rulesStrings.26>collapsemeta->[collapse]</Transition_Downed.rulePack.rulesStrings.26>
   <Transition_Downed.rulePack.rulesStrings.27>collapsemeta(p=0.5)->[collapse][helplessly]</Transition_Downed.rulePack.rulesStrings.27>
   <Transition_Downed.rulePack.rulesStrings.28>collapsedmeta->[collapsed]</Transition_Downed.rulePack.rulesStrings.28>
-  <Transition_Downed.rulePack.rulesStrings.29>collapsedmeta(p=0.5)->[collapsed][helplessly]</Transition_Downed.rulePack.rulesStrings.29>
 
   <Transition_DiedInclude.rulePack.rulesStrings.0>logentry(p=1.5)->[culpritHediff_labelNoun]导致[subject_definite][die]。</Transition_DiedInclude.rulePack.rulesStrings.0>
   <Transition_DiedInclude.rulePack.rulesStrings.1>logentry(p=1.5)->[culpritHediff_labelNoun]在[culpritHediff_target_label]导致[subject_definite][die]。</Transition_DiedInclude.rulePack.rulesStrings.1>
@@ -44,7 +41,6 @@
   <Transition_DiedInclude.rulePack.rulesStrings.3>logentry->[subject_definite][died][duetoa][culpritHediff_labelNoun]在[culpritHediff_target_label][flavorsuffix]。</Transition_DiedInclude.rulePack.rulesStrings.3>
   <Transition_DiedInclude.rulePack.rulesStrings.4>logentry->[subject_definite][died][duetoa][culpritHediff_labelNoun]在[subject_possessive][culpritHediff_target_label][flavorsuffix]。</Transition_DiedInclude.rulePack.rulesStrings.4>
   <Transition_DiedInclude.rulePack.rulesStrings.5>logentry->[subject_definite][died]。</Transition_DiedInclude.rulePack.rulesStrings.5>
-  <Transition_DiedInclude.rulePack.rulesStrings.6>logentry->[subject_definite][died][flavorsuffix]。</Transition_DiedInclude.rulePack.rulesStrings.6>
 
   <Transition_Died.rulePack.rulesStrings.0>die(p=2)->死亡</Transition_Died.rulePack.rulesStrings.0>
   <Transition_Died.rulePack.rulesStrings.1>die->猝死</Transition_Died.rulePack.rulesStrings.1>
@@ -86,5 +82,10 @@
   <Transition_DiedExplosive.rulePack.rulesStrings.25>everywhere->到处</Transition_DiedExplosive.rulePack.rulesStrings.25>
   <Transition_DiedExplosive.rulePack.rulesStrings.26>everywhere->到处</Transition_DiedExplosive.rulePack.rulesStrings.26>
 
+
+  <!--<Transition_Include.rulePack.rulesStrings.3>subject_definite->[subject_labelDefinite]</Transition_Include.rulePack.rulesStrings.3>-->
+  <!--<Transition_Include.rulePack.rulesStrings.4>subject_definite->[subject_nameShortDef]</Transition_Include.rulePack.rulesStrings.4>-->
+  <!--<Transition_Downed.rulePack.rulesStrings.29>collapsedmeta(p=0.5)->[collapsed][helplessly]</Transition_Downed.rulePack.rulesStrings.29>-->
+  <!--<Transition_DiedInclude.rulePack.rulesStrings.6>logentry->[subject_definite][died][flavorsuffix]。</Transition_DiedInclude.rulePack.rulesStrings.6>-->
 
 </LanguageData>

@@ -87,6 +87,7 @@
 
   <!-- Pawn naming -->
   <PawnGainsName>该殖民者的昵称被改为{0}。</PawnGainsName>
+  <AnimalGainsName>The animal's name is now {0}.</AnimalGainsName>
 
   <!-- Save game incompatible warning -->
   <VersionMismatch>版本不匹配</VersionMismatch>
@@ -100,6 +101,9 @@
   <ConfirmResolutionChange>分辨率已改变，是否保留当前的分辨率设置？\n\n将在{0}秒后恢复原始设置……</ConfirmResolutionChange>
   <ResolutionKeep>保持</ResolutionKeep>
   <ResolutionRevert>恢复</ResolutionRevert>
+
+  <!-- Confirm permanently disable dev mode -->
+  <ConfirmPermanentlyDisableDevMode>Do you really want to permanently disable development mode on this computer?</ConfirmPermanentlyDisableDevMode>
 
   <!-- Research -->
   <Research>研究</Research>
@@ -124,6 +128,7 @@
   <MapSizeExtreme>超大</MapSizeExtreme>
   <MapStartSeason>起始季节: </MapStartSeason>
   <MapStartSeasonDefault>自动</MapStartSeasonDefault>
+  <Notice>Notice</Notice>
   <PermadeathMode>永久死亡模式</PermadeathMode>
   <PermadeathModeInfo>永久死亡模式，只能保存一个存档，且只能在退出游戏时手动保存进度。当殖民地出现危机时，你无法通过载入进度来弥补错误。\n\n 这才是正确游玩RimWorld的方式，每一个戏剧性的转变，无论是悲惨或满怀希望，都发挥了充分的影响。</PermadeathModeInfo>
 
@@ -139,6 +144,9 @@
   <CountingProducts>计数</CountingProducts>
   <Infinite>无限</Infinite>
   <AllowedSkillRange>工作者{0}技能范围: </AllowedSkillRange>
+  <IncompatibleLower>incompatible</IncompatibleLower>
+  <AnyWorker>Any worker</AnyWorker>
+  <Unlimited>Unlimited</Unlimited>
 
   <RecipeCannotHaveTargetCount>（因为该配方成品有多个或是不可预估，所以不能为它指定目标数量）</RecipeCannotHaveTargetCount>
   <WorkAmount>工作量</WorkAmount>
@@ -155,6 +163,12 @@
   <Paused>已暂停</Paused>
   <Unpause>解除暂停</Unpause>
 
+  <IncludeEquipped>Include equipped</IncludeEquipped>
+  <IncludeTainted>Include tainted</IncludeTainted>
+  <LimitToAllowedStuff>Only allowed ingredients</LimitToAllowedStuff>
+  <IncludeFromAll>Look everywhere</IncludeFromAll>
+  <IncludeSpecific>Look in {0}</IncludeSpecific>
+
   <!-- Info card -->
   <Damage>伤害</Damage>
   <Accuracy>精度</Accuracy>
@@ -164,10 +178,13 @@
   <CooldownTime>冷却时间</CooldownTime>
   <BurstShotFireRate>射速</BurstShotFireRate>
   <Range>射程</Range>
+  <StoppingPower>Stopping power</StoppingPower>
+  <StoppingPowerExplanation>Hits from this weapon will stagger targets, slowing their movement for several seconds. Targets with a body size larger than the stopping power will be unaffected.</StoppingPowerExplanation>
   <GrowsWild>野生</GrowsWild>
   <Harvestable>可收获</Harvestable>
   <LimitedLifespan>寿命有限</LimitedLifespan>
   <GrowingTime>生长时间</GrowingTime>
+  <HarvestYield>Harvest yield</HarvestYield>
   <GrowingTimeDesc>植物只在每天部分时间段生长，而且仅在光照充足时生长。生长时间为植物生长至完全成熟所需要的有效生长的时间，因此实际成熟的时间会超过两倍。低温环境同样也会延缓植物生长速度。</GrowingTimeDesc>
   <Days>天</Days>
   <MinGrowingSkillToSow>种植最低技能要求</MinGrowingSkillToSow>
@@ -182,16 +199,20 @@
   <WalkSpeedProperty>行走速度</WalkSpeedProperty>
   <MinFoodQuality>最低食物品质</MinFoodQuality>
   <Diet>饮食</Diet>
+  <LeatherType>Leather type</LeatherType>
   <BodySize>体型</BodySize>
   <RecruitDifficulty>招募难度</RecruitDifficulty>
   <MarketValue>市场价值</MarketValue>
   <Covers>覆盖</Covers>
+  <Layer>Layer</Layer>
   <CoverEffectiveness>掩体效果</CoverEffectiveness>
   <CoverEffectivenessExplanation>在枪战时该物体所能提供的掩体效果，更高的数值能够挡住更多的伤害。</CoverEffectivenessExplanation>
   <MedicineXpGainFactor>经验获得系数</MedicineXpGainFactor>
   <MoodChange>心情值改变</MoodChange>
   <Wildness>野性</Wildness>
   <WildnessExplanation>动物的野性越高，越难驯服、训练和操纵。</WildnessExplanation>
+  <TrainingDecayInterval>Training decay interval</TrainingDecayInterval>
+  <TamenessWillNotDecay>Tameness will never decay.</TamenessWillNotDecay>
   <AnimalFilthRate>动物污物产生速度</AnimalFilthRate>
   <AnimalFilthRateExplanation>当动物在建筑地面走动时会产生污物。此值表示这种生物每行走{0}格产生的平均污物量。\n\n巨大或缺少灵性的动物会产生更多的污秽。</AnimalFilthRateExplanation>
   <TimeRecordsCategory>时间</TimeRecordsCategory>
@@ -206,6 +227,13 @@
   <EfficiencyStat>产出数量所受影响</EfficiencyStat>
   <ConstructionSkillRequired>建造技能要求</ConstructionSkillRequired>
   <ConstructionSkillRequiredExplanation>要求此等级的建造技能才能建造。</ConstructionSkillRequiredExplanation>
+  <NuzzleInterval>Nuzzle interval</NuzzleInterval>
+  <NuzzleIntervalExplanation>How often an animal will nuzzle friendly colonists, on average.\n\nNuzzling is a behavior shared by many animal species, where the animal presses its nose or muzzle against a friend as a sign of affection. Most humans find this cute and it will leave them in a good mood for a period of time.</NuzzleIntervalExplanation>
+  <HarmedRevengeChance>Revenge chance on harm</HarmedRevengeChance>
+  <HarmedRevengeChanceExplanation>The chance this creature seeks revenge upon being harmed by an attacker at rifle range.\n\nThis chance increases if the attacker is closer. If attacked at very close range, the chance is three times greater.\n\nThis chance is applied each time damage is taken, so slower-firing, higher-damage weapons are less likely to trigger it.\n\nTo minimize the chance of a creature seeing revenge, attack it from rifle range with a slow-firing weapon.</HarmedRevengeChanceExplanation>
+  <TameFailedRevengeChance>Revenge chance on tame fail</TameFailedRevengeChance>
+  <TerrainRequirement>Terrain requirement</TerrainRequirement>
+  <Supports>Supports</Supports>
 
   <!-- Trade -->
   <PositiveBuysNegativeSells>正数购买\n负数出售</PositiveBuysNegativeSells>
@@ -239,14 +267,18 @@
   <TradeWithFactionBaseBonus>与派系基地交易加成</TradeWithFactionBaseBonus>
   <minimum>最小值</minimum>
   <FinalPrice>最终价格</FinalPrice>
-  <TradeMassUsageTooltip>最终载重占用与载重能力。</TradeMassUsageTooltip>
+  <GiftModeTip>Gift mode - offer gifts to {0}.</GiftModeTip>
+  <TradeModeTip>Return to trade mode.</TradeModeTip>
+
+  <!-- Sellable items -->
+  <SellableItemsTitle>Things this trader will buy</SellableItemsTitle>
+  <PawnsTabShort>Creatures</PawnsTabShort>
 
   <!-- Form caravan -->
   <FormCaravan>组建远行队</FormCaravan>
   <FormCaravanColonyThingCountTip>殖民者能为远行队配备多少此种物品。</FormCaravanColonyThingCountTip>
   <PawnsTab>人和动物</PawnsTab>
   <ItemsTab>物品</ItemsTab>
-  <CaravanConfigTab>设置</CaravanConfigTab>
   <CaravanMustHaveAtLeastOneColonist>必须指派至少一位可行动的殖民者。</CaravanMustHaveAtLeastOneColonist>
   <CaravanCouldNotFindExitSpot>所选择的离开位置（{0}）无法到达。</CaravanCouldNotFindExitSpot>
   <CaravanCouldNotFindPackingSpot>未发现有效的打包点。确保所选择的离开位置（{0}）是可以到达的。</CaravanCouldNotFindPackingSpot>
@@ -256,25 +288,29 @@
   <CaravanItemIsUnreachableMulti>所有被指派的殖民者均无法到达{1}x{0}所在位置。</CaravanItemIsUnreachableMulti>
   <TooBigCaravanMassUsage>远行队无法携带这么多物品。</TooBigCaravanMassUsage>
   <CaravanMassUsageTooltip>当前载重占用与载重能力。\n\n载重占用包括指派的远行队物资以及殖民者当前的装备。\n\n如果占用超过载重能力，你的远行队将无发出发。</CaravanMassUsageTooltip>
-  <MassUsageInfo>{0} / {1} kg</MassUsageInfo>
-  <DaysWorthOfFoodInfo>{0} 天食物量</DaysWorthOfFoodInfo>
+  <CaravanVisibilityTip>Visibility is how easy your caravan is to notice.\n\nIt multiplies the chance that your caravan will be waylaid by enemies.\n\nVisibility does not affect your ability to find things you want.\n\nVisibility is based on the total body size of all people and animals in the caravan.</CaravanVisibilityTip>
+  <DaysWorthOfFood>Days of food</DaysWorthOfFood>
   <DaysWorthOfFoodInfoRot>{0} 天食物量，{1} 天后变质</DaysWorthOfFoodInfoRot>
   <InfiniteDaysWorthOfFoodInfo>食物永远不会耗尽</InfiniteDaysWorthOfFoodInfo>
   <DaysWorthOfFoodTooltip>远行队所携带的食物预计可以维持的天数。\n\n计算包括人类和动物的食物，并考虑最坏的情况。 这表示这么多天后，至少有一个动物或人将会没有食物。</DaysWorthOfFoodTooltip>
-  <DaysWorthOfFoodTooltip_CanEatLocalPlants>基于当前季节、温度，以及环境，我们假设食草动物「可以」食用当地植物。不过这随时会改变。</DaysWorthOfFoodTooltip_CanEatLocalPlants>
-  <DaysWorthOfFoodTooltip_CantEatLocalPlants>基于当前季节、温度，以及环境，我们假设食草动物「无法」食用当地植物。不过这随时会改变。</DaysWorthOfFoodTooltip_CantEatLocalPlants>
+  <DaysWorthOfFoodTooltip_OnlyFirstWaypoint>\n(only the first waypoint is taken into account)</DaysWorthOfFoodTooltip_OnlyFirstWaypoint>
   <DaysWorthOfFoodWarningDialog>你的远行队只带了{0}天的食物，很快便会出现饥饿情况。</DaysWorthOfFoodWarningDialog>
   <DaysWorthOfFoodWarningDialog_NoFood>你的远行队没有携带任何食物，很快便会出现饥饿情况。</DaysWorthOfFoodWarningDialog_NoFood>
+  <ForagedFoodPerDayTip>The average amount of food per day your people will forage. This value will change as you travel across biomes with different forage yield rates.</ForagedFoodPerDayTip>
+  <ForagedFoodPerDay>Forage per day</ForagedFoodPerDay>
   <CaravanFoodWillRotSoonWarningDialog>大部分指定的食物即将变质。</CaravanFoodWillRotSoonWarningDialog>
   <CaravanIncapableOfSocial>你没有具备外交或交易能力的成员。</CaravanIncapableOfSocial>
   <CaravanAreYouSure>确定要组建这支远行队吗？</CaravanAreYouSure>
-  <NoExitDirectionForCaravanChosen>你必须为远行队选择一个离开的方向。</NoExitDirectionForCaravanChosen>
-  <NoCaravanExitDirectionAvailable>(没有可用的离开方向)</NoCaravanExitDirectionAvailable>
-  <ExitDirection>离开方向</ExitDirection>
-  <ExitDirectionRadioButtonLabel>{0}（{1}，{2}）</ExitDirectionRadioButtonLabel>
+  <MessageMustChooseRouteFirst>You must choose a route for the caravan first.</MessageMustChooseRouteFirst>
+  <MessageNoValidExitTile>Your caravan is unable to leave the area. Make sure that at least one side is reachable.</MessageNoValidExitTile>
   <ItemWeightTip>此物品的重量</ItemWeightTip>
   <MarketValueTip>市场价值</MarketValueTip>
   <DaysUntilRotTip>基于此地区平均温度，此物品开始变质前的天数。</DaysUntilRotTip>
+  <ItemNutritionTip>How much nutrition this food provides.\n\nFor reference: adult person needs {0} nutrition per day.</ItemNutritionTip>
+  <AnimalCanGrazeTip>This animal can graze food from the environment instead of eating carried food. Grazing is only possible in some biomes and temperature ranges.</AnimalCanGrazeTip>
+  <NutritionForagedPerDayTip>Nutrition foraged per day. The actual amount foraged is also affected by biome forageability.\n\n{0}</NutritionForagedPerDayTip>
+  <NutritionEatenPerDayTip>Nutrition eaten per day. For reference, simple meals have {0} nutrition.\n\nCan eat: {2}\n\nLegend:\n{1}.</NutritionEatenPerDayTip>
+  <MassCarriedSimple>Mass carried</MassCarriedSimple>
   <MassCapacity>载重能力</MassCapacity>
   <Mass>重量</Mass>
   <EquipmentAndApparelMass>装备和衣物重量</EquipmentAndApparelMass>
@@ -283,17 +319,29 @@
   <ReformCaravan>重组远行队</ReformCaravan>
   <ColonistsSection>殖民者</ColonistsSection>
   <PrisonersSection>囚犯</PrisonersSection>
+  <CaptureSection>Capture</CaptureSection>
   <AnimalsSection>动物</AnimalsSection>
-  <EstimatedTimeToDestinationButton>到达目的地预计耗时</EstimatedTimeToDestinationButton>
+  <ChooseRouteButton>Choose route</ChooseRouteButton>
   <AbandonButton>抛弃</AbandonButton>
+  <CaravanMovementSpeed>Movement speed</CaravanMovementSpeed>
+  <TilesPerDay>tiles/day</TilesPerDay>
+  <CaravanMovementSpeedTip>Movement speed depends on the average speed of all people and animals, carried mass, and terrain movement difficulty.</CaravanMovementSpeedTip>
+  <AnimalsWillBeAbleToGraze>Animals will be able to graze</AnimalsWillBeAbleToGraze>
+  <AnimalsCanGraze>Animals can graze</AnimalsCanGraze>
+  <PossibleToGrazeFor>(for {0} more days)</PossibleToGrazeFor>
+  <PossibleToGrazeForever>(forever)</PossibleToGrazeForever>
+  <CantGrazeBecauseOfBiome>({0})</CantGrazeBecauseOfBiome>
+  <CantGrazeBecauseOfTemp>(too cold for {0} more days)</CantGrazeBecauseOfTemp>
+  <TotalNutrition>Total nutrition</TotalNutrition>
+  <CaravanNotMoving>Not moving</CaravanNotMoving>
+  <ForagedNutritionPerDay>Foraged nutrition per day</ForagedNutritionPerDay>
+  <FactionType>Faction type</FactionType>
+  <TotalBodySize>Total body size</TotalBodySize>
 
   <!-- Split caravan -->
   <SplitCaravan>拆分旅行队</SplitCaravan>
   <SourceCaravanMustHaveAtLeastOneColonist>必须留下至少一位可行动的殖民者。</SourceCaravanMustHaveAtLeastOneColonist>
-  <CaravanSplitSourceLabel>当前</CaravanSplitSourceLabel>
-  <CaravanSplitDestLabel>新建</CaravanSplitDestLabel>
   <SplitCaravanThingCountTip>此远行队能为新远行队配备多少此种物品。</SplitCaravanThingCountTip>
-  <SplitCaravanMassUsageTooltip>当前载重占用与载重能力。</SplitCaravanMassUsageTooltip>
 
   <!-- Load transporters -->
   <LoadTransporters>装载{0}</LoadTransporters>
@@ -302,7 +350,6 @@
   <PawnCantReachTransporters>{0}无法到达到运输舱。</PawnCantReachTransporters>
   <TransporterItemIsUnreachableSingle>运输舱与{0}之间没有路径。</TransporterItemIsUnreachableSingle>
   <TransporterItemIsUnreachableMulti>运输舱与{1}x{0}之间没有路径。</TransporterItemIsUnreachableMulti>
-  <TransportersMassUsageTooltip>当前载重占用与载重能力。\n\n如果占用超过载重能力，你的运输舱将无法发射。</TransportersMassUsageTooltip>
 
   <!-- Comms -->
   <SocialSkillIs>社交技能: {0}</SocialSkillIs>
@@ -379,7 +426,7 @@
   <ConfirmAbandonHomeNegativeThoughts_Everyone>所有人：</ConfirmAbandonHomeNegativeThoughts_Everyone>
 
   <!-- Move caravan and leave prisoners and animals behind -->
-  <ConfirmLeavePrisonersOrAnimalsBehind>该区域内还有一些囚犯和动物，而且这是他们现在唯一可以加入的远行队。\n\n如果你移动你的远行队，这些囚犯和动物在你回来之前将不能离开这里。 囚犯们会开始逃跑，但是你的动物会等你回来。\n\n如果你决定稍作等待，他们会试着尽快加入你的远行队。\n\n确定要移动远行队吗？</ConfirmLeavePrisonersOrAnimalsBehind>
+  <ConfirmMoveAutoJoinableCaravan>Some animals or prisoners are trying to join this caravan. If you move it, they won't be able to anymore.\n\nAnimals, prisoners, and downed colonists left behind in a map without any non-downed colonists are considered abandoned and can be captured by the enemies.\n\nAre you sure you want to move your caravan?</ConfirmMoveAutoJoinableCaravan>
 
   <!-- Abandon pawn -->
   <ConfirmBanishPawnDialog>你真的要放逐{0}吗?</ConfirmBanishPawnDialog>
@@ -390,5 +437,25 @@
 
   <!-- Send transport pods which are not completely loaded -->
   <ConfirmSendNotCompletelyLoadedPods>发射组并没有完成装载进程。 {0} 还未进入运输舱。确定要发射吗？</ConfirmSendNotCompletelyLoadedPods>
+
+  <!-- Settle near a faction base -->
+  <ConfirmSettleNearFactionBase>Since this location is within {0} tiles of another faction base, they will feel you are encroaching on their land and relations with those factions will worsen every {1} days.\n\nSettle here anyways?</ConfirmSettleNearFactionBase>
+
+  <!--<TradeMassUsageTooltip>最终载重占用与载重能力。</TradeMassUsageTooltip>-->
+  <!--<CaravanConfigTab>设置</CaravanConfigTab>-->
+  <!--<MassUsageInfo>{0} / {1} kg</MassUsageInfo>-->
+  <!--<DaysWorthOfFoodInfo>{0} 天食物量</DaysWorthOfFoodInfo>-->
+  <!--<DaysWorthOfFoodTooltip_CanEatLocalPlants>基于当前季节、温度，以及环境，我们假设食草动物「可以」食用当地植物。不过这随时会改变。</DaysWorthOfFoodTooltip_CanEatLocalPlants>-->
+  <!--<DaysWorthOfFoodTooltip_CantEatLocalPlants>基于当前季节、温度，以及环境，我们假设食草动物「无法」食用当地植物。不过这随时会改变。</DaysWorthOfFoodTooltip_CantEatLocalPlants>-->
+  <!--<NoExitDirectionForCaravanChosen>你必须为远行队选择一个离开的方向。</NoExitDirectionForCaravanChosen>-->
+  <!--<NoCaravanExitDirectionAvailable>(没有可用的离开方向)</NoCaravanExitDirectionAvailable>-->
+  <!--<ExitDirection>离开方向</ExitDirection>-->
+  <!--<ExitDirectionRadioButtonLabel>{0}（{1}，{2}）</ExitDirectionRadioButtonLabel>-->
+  <!--<EstimatedTimeToDestinationButton>到达目的地预计耗时</EstimatedTimeToDestinationButton>-->
+  <!--<CaravanSplitSourceLabel>当前</CaravanSplitSourceLabel>-->
+  <!--<CaravanSplitDestLabel>新建</CaravanSplitDestLabel>-->
+  <!--<SplitCaravanMassUsageTooltip>当前载重占用与载重能力。</SplitCaravanMassUsageTooltip>-->
+  <!--<TransportersMassUsageTooltip>当前载重占用与载重能力。\n\n如果占用超过载重能力，你的运输舱将无法发射。</TransportersMassUsageTooltip>-->
+  <!--<ConfirmLeavePrisonersOrAnimalsBehind>该区域内还有一些囚犯和动物，而且这是他们现在唯一可以加入的远行队。\n\n如果你移动你的远行队，这些囚犯和动物在你回来之前将不能离开这里。 囚犯们会开始逃跑，但是你的动物会等你回来。\n\n如果你决定稍作等待，他们会试着尽快加入你的远行队。\n\n确定要移动远行队吗？</ConfirmLeavePrisonersOrAnimalsBehind>-->
 
 </LanguageData>

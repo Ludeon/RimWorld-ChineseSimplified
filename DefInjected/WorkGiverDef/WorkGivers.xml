@@ -25,14 +25,6 @@
   <DoctorTendEmergency.verb>治疗</DoctorTendEmergency.verb>
   <DoctorTendEmergency.gerund>治疗</DoctorTendEmergency.gerund>
 
-  <DoctorRescue.label>救援倒地的殖民者</DoctorRescue.label>
-  <DoctorRescue.verb>救援</DoctorRescue.verb>
-  <DoctorRescue.gerund>救援</DoctorRescue.gerund>
-
-  <DoBillsMedicalHumanOperation.label>人类手术</DoBillsMedicalHumanOperation.label>
-  <DoBillsMedicalHumanOperation.verb>手术</DoBillsMedicalHumanOperation.verb>
-  <DoBillsMedicalHumanOperation.gerund>手术</DoBillsMedicalHumanOperation.gerund>
-
   <DoctorTendToHumanlikes.label>治疗病人</DoctorTendToHumanlikes.label>
   <DoctorTendToHumanlikes.verb>治疗</DoctorTendToHumanlikes.verb>
   <DoctorTendToHumanlikes.gerund>治疗</DoctorTendToHumanlikes.gerund>
@@ -45,9 +37,13 @@
   <DoctorFeedHumanlikes.verb>喂食</DoctorFeedHumanlikes.verb>
   <DoctorFeedHumanlikes.gerund>喂食</DoctorFeedHumanlikes.gerund>
 
-  <DoBillsMedicalAnimalOperation.label>动物手术</DoBillsMedicalAnimalOperation.label>
-  <DoBillsMedicalAnimalOperation.verb>手术</DoBillsMedicalAnimalOperation.verb>
-  <DoBillsMedicalAnimalOperation.gerund>手术</DoBillsMedicalAnimalOperation.gerund>
+  <DoBillsMedicalHumanOperation.label>人类手术</DoBillsMedicalHumanOperation.label>
+  <DoBillsMedicalHumanOperation.verb>手术</DoBillsMedicalHumanOperation.verb>
+  <DoBillsMedicalHumanOperation.gerund>手术</DoBillsMedicalHumanOperation.gerund>
+
+  <DoctorRescue.label>救援倒地的殖民者</DoctorRescue.label>
+  <DoctorRescue.verb>救援</DoctorRescue.verb>
+  <DoctorRescue.gerund>救援</DoctorRescue.gerund>
 
   <DoctorTendToAnimals.label>治疗动物</DoctorTendToAnimals.label>
   <DoctorTendToAnimals.verb>治疗</DoctorTendToAnimals.verb>
@@ -56,6 +52,10 @@
   <DoctorFeedAnimals.label>喂食动物</DoctorFeedAnimals.label>
   <DoctorFeedAnimals.verb>喂食</DoctorFeedAnimals.verb>
   <DoctorFeedAnimals.gerund>喂食</DoctorFeedAnimals.gerund>
+
+  <DoBillsMedicalAnimalOperation.label>动物手术</DoBillsMedicalAnimalOperation.label>
+  <DoBillsMedicalAnimalOperation.verb>手术</DoBillsMedicalAnimalOperation.verb>
+  <DoBillsMedicalAnimalOperation.gerund>手术</DoBillsMedicalAnimalOperation.gerund>
 
   <TakeToBedToOperate.label>把病人带到手术床上</TakeToBedToOperate.label>
   <TakeToBedToOperate.verb>带到手术床</TakeToBedToOperate.verb>
@@ -73,11 +73,15 @@
   <PatientGoToBedRecuperate.gerund>卧床休息于</PatientGoToBedRecuperate.gerund>
 
 
-  <!-- Flicker -->
+  <!-- Basic worker -->
 
   <Flick.label>开关</Flick.label>
   <Flick.verb>开关</Flick.verb>
   <Flick.gerund>开关</Flick.gerund>
+
+  <BasicReleasePrisoner.label>release prisoners</BasicReleasePrisoner.label>
+  <BasicReleasePrisoner.verb>release</BasicReleasePrisoner.verb>
+  <BasicReleasePrisoner.gerund>releasing</BasicReleasePrisoner.gerund>
 
 
   <!-- Warden -->
@@ -108,6 +112,10 @@
 
 
   <!-- Handling -->
+
+  <HandlingFeedPatientAnimals.label>feed animals</HandlingFeedPatientAnimals.label>
+  <HandlingFeedPatientAnimals.verb>feed</HandlingFeedPatientAnimals.verb>
+  <HandlingFeedPatientAnimals.gerund>feeding</HandlingFeedPatientAnimals.gerund>
 
   <Slaughter.label>宰杀动物</Slaughter.label>
   <Slaughter.verb>宰杀</Slaughter.verb>
@@ -202,6 +210,10 @@
   <ConstructRemoveFloors.verb>移除地板</ConstructRemoveFloors.verb>
   <ConstructRemoveFloors.gerund>移除地板</ConstructRemoveFloors.gerund>
 
+  <ConstructSmoothWalls.label>smooth walls</ConstructSmoothWalls.label>
+  <ConstructSmoothWalls.verb>smooth</ConstructSmoothWalls.verb>
+  <ConstructSmoothWalls.gerund>smoothing</ConstructSmoothWalls.gerund>
+
   <ConstructSmoothFloors.label>打磨地面</ConstructSmoothFloors.label>
   <ConstructSmoothFloors.verb>打磨</ConstructSmoothFloors.verb>
   <ConstructSmoothFloors.gerund>打磨</ConstructSmoothFloors.gerund>
@@ -246,9 +258,9 @@
   <DoBillsMachiningTable.verb>加工</DoBillsMachiningTable.verb>
   <DoBillsMachiningTable.gerund>加工于</DoBillsMachiningTable.gerund>
 
-  <DoBillsComponentAssemblyBench.label>装配零部件</DoBillsComponentAssemblyBench.label>
-  <DoBillsComponentAssemblyBench.verb>加工</DoBillsComponentAssemblyBench.verb>
-  <DoBillsComponentAssemblyBench.gerund>加工于</DoBillsComponentAssemblyBench.gerund>
+  <DoBillsFabricationBench.label>fabricate things</DoBillsFabricationBench.label>
+  <DoBillsFabricationBench.verb>fabricating things</DoBillsFabricationBench.verb>
+  <DoBillsFabricationBench.gerund>fabricating things at</DoBillsFabricationBench.gerund>
 
 
   <!-- Tailoring -->
@@ -265,11 +277,21 @@
   <DoBillsSculpt.gerund>雕刻于</DoBillsSculpt.gerund>
 
 
-  <!-- Crafting -->
-
-  <DoBillsMedicalMechanoidOperation.label>改装机械体</DoBillsMedicalMechanoidOperation.label>
-  <DoBillsMedicalMechanoidOperation.verb>改装</DoBillsMedicalMechanoidOperation.verb>
-  <DoBillsMedicalMechanoidOperation.gerund>改装</DoBillsMedicalMechanoidOperation.gerund>
+  <!-- <WorkGiverDef>
+    <defName>DoBillsMedicalMechanoidOperation</defName>
+    <label>operate on mechanoids</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Crafting</workType>
+    <priorityInType>110</priorityInType>
+    <billGiversAllMechanoids>true</billGiversAllMechanoids>
+    <billGiversAllMechanoidsCorpses>true</billGiversAllMechanoidsCorpses>
+    <verb>modify</verb>
+    <gerund>modifying</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <prioritizeSustains>true</prioritizeSustains>
+  </WorkGiverDef> -->
 
   <DoBillsUseCraftingSpot.label>完成手工加工点的清单</DoBillsUseCraftingSpot.label>
   <DoBillsUseCraftingSpot.verb>制作</DoBillsUseCraftingSpot.verb>
@@ -294,6 +316,10 @@
 
   <!-- Hauling -->
 
+  <RearmTurrets.label>rearm turrets</RearmTurrets.label>
+  <RearmTurrets.verb>rearm</RearmTurrets.verb>
+  <RearmTurrets.gerund>rearming</RearmTurrets.gerund>
+
   <UnloadCarriers.label>卸下货物</UnloadCarriers.label>
   <UnloadCarriers.verb>卸货</UnloadCarriers.verb>
   <UnloadCarriers.gerund>卸货</UnloadCarriers.gerund>
@@ -309,10 +335,6 @@
   <Strip.label>剥光衣物</Strip.label>
   <Strip.verb>剥光</Strip.verb>
   <Strip.gerund>剥光</Strip.gerund>
-
-  <BuryCorpses.label>埋葬尸体</BuryCorpses.label>
-  <BuryCorpses.verb>埋葬</BuryCorpses.verb>
-  <BuryCorpses.gerund>埋葬</BuryCorpses.gerund>
 
   <HaulCorpses.label>搬运尸体</HaulCorpses.label>
   <HaulCorpses.verb>搬运</HaulCorpses.verb>
@@ -350,6 +372,18 @@
   <HaulGeneral.verb>搬运</HaulGeneral.verb>
   <HaulGeneral.gerund>搬运</HaulGeneral.gerund>
 
+  <DeliverResourcesToFrames.label>deliver resources to frames</DeliverResourcesToFrames.label>
+  <DeliverResourcesToFrames.verb>deliver to</DeliverResourcesToFrames.verb>
+  <DeliverResourcesToFrames.gerund>delivering to</DeliverResourcesToFrames.gerund>
+
+  <DeliverResourcesToBlueprints.label>deliver resources to blueprints</DeliverResourcesToBlueprints.label>
+  <DeliverResourcesToBlueprints.verb>deliver to</DeliverResourcesToBlueprints.verb>
+  <DeliverResourcesToBlueprints.gerund>delivering to</DeliverResourcesToBlueprints.gerund>
+
+  <HaulMerge.label>merge things</HaulMerge.label>
+  <HaulMerge.verb>merge</HaulMerge.verb>
+  <HaulMerge.gerund>merging</HaulMerge.gerund>
+
 
   <!-- Cleaning -->
 
@@ -368,5 +402,17 @@
   <Research.verb>研究</Research.verb>
   <Research.gerund>研究于</Research.gerund>
 
+
+  <!-- Flicker -->
+  <!--<DoBillsComponentAssemblyBench.label>装配零部件</DoBillsComponentAssemblyBench.label>-->
+  <!--<DoBillsComponentAssemblyBench.verb>加工</DoBillsComponentAssemblyBench.verb>-->
+  <!--<DoBillsComponentAssemblyBench.gerund>加工于</DoBillsComponentAssemblyBench.gerund>-->
+  <!-- Crafting -->
+  <!--<DoBillsMedicalMechanoidOperation.label>改装机械体</DoBillsMedicalMechanoidOperation.label>-->
+  <!--<DoBillsMedicalMechanoidOperation.verb>改装</DoBillsMedicalMechanoidOperation.verb>-->
+  <!--<DoBillsMedicalMechanoidOperation.gerund>改装</DoBillsMedicalMechanoidOperation.gerund>-->
+  <!--<BuryCorpses.label>埋葬尸体</BuryCorpses.label>-->
+  <!--<BuryCorpses.verb>埋葬</BuryCorpses.verb>-->
+  <!--<BuryCorpses.gerund>埋葬</BuryCorpses.gerund>-->
 
 </LanguageData>

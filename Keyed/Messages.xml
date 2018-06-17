@@ -56,12 +56,14 @@
   <MessageMustDesignateHuntable>必须指定可以猎杀的动物。</MessageMustDesignateHuntable>
   <MessageMustDesignateTameable>必须指定可以驯服的动物。</MessageMustDesignateTameable>
   <MessageMustDesignateClaimable>必须指定已废弃的人工建筑。</MessageMustDesignateClaimable>
-  <MessageMustDesignateSmoothableFloor>必须指定粗糙的石质地面。</MessageMustDesignateSmoothableFloor>
+  <MessageMustDesignateSmoothableSurface>Must designate rough stone surfaces.</MessageMustDesignateSmoothableSurface>
   <MessageNothingCanRemoveThickRoofs>无法移除厚山岩顶。</MessageNothingCanRemoveThickRoofs>
   <MessageAlreadyInStorage>该物品已在储存区内，将会在必要时被搬运至更高优先级的储存区内。</MessageAlreadyInStorage>
   <MessageMustDesignateStrippable>必须指定穿有衣物的尸体、倒地角色，或者囚犯。</MessageMustDesignateStrippable>
   <MessageMustDesignateSlaughterable>必须指定属于殖民地的已驯服的动物。</MessageMustDesignateSlaughterable>
   <MessageMustDesignateOpenable>必须指定完整的坟墓或容器。</MessageMustDesignateOpenable>
+  <MessageMustDesignateForbiddable>Must designate unforbidden items.</MessageMustDesignateForbiddable>
+  <MessageMustDesignateUnforbiddable>Must designate forbidden items.</MessageMustDesignateUnforbiddable>
 
   <MessageRefusedArrest>{0}拒绝被逮捕。</MessageRefusedArrest>
 
@@ -70,6 +72,7 @@
   <MessageTooLowMedCare>该手术要求医疗供应为{0}或更好，但{1}的当前医疗供应是「{2}」。</MessageTooLowMedCare>
 
   <PawnDiedBecauseOf>{0}死于{1}。</PawnDiedBecauseOf>
+  <PawnDied>{0} has died.</PawnDied>
 
   <MessageNoLongerDowned>{0}恢复了行走能力。</MessageNoLongerDowned>
 
@@ -81,8 +84,6 @@
   <MessageMedicalOperationFailureFatal>{0}给{1}手术时犯了了致命的错误，由于特殊的挑战: {2}</MessageMedicalOperationFailureFatal>
 
   <MessageMedicalOperationWillAngerFaction>这次手术将激怒{0}。</MessageMedicalOperationWillAngerFaction>
-
-  <MessagePawnExitMapRelationsGain>因为{0}健康地离开了地图，与{1}的关系上升{2}点。</MessagePawnExitMapRelationsGain>
 
   <MessageMiscarriedStarvation>{0}由于饥饿而流产。</MessageMiscarriedStarvation>
   <MessageMiscarriedPoorHealth>{0}由于健康不佳而流产。</MessageMiscarriedPoorHealth>
@@ -140,7 +141,8 @@
 
   <MessageFoodPoisoning>{0}因食用{1}而导致食物中毒。</MessageFoodPoisoning>
 
-  <MessageFailedToSendCaravanBecausePawnLost>因为失去了指定的殖民者、动物或囚犯，远行队组建失败。</MessageFailedToSendCaravanBecausePawnLost>
+  <MessagePawnLostWhileFormingCaravan>{0} has been removed from the caravan.</MessagePawnLostWhileFormingCaravan>
+  <MessagePawnLostWhileFormingCaravan_AllLost>The caravan formation process has been terminated.</MessagePawnLostWhileFormingCaravan_AllLost>
   <MessageCaravanFormationPaused>当所有人从精神崩溃中恢复后会继续组建远行队。</MessageCaravanFormationPaused>
   <MessageCaravanFormationUnpaused>你的殖民者现在会继续组建远行队。</MessageCaravanFormationUnpaused>
 
@@ -166,20 +168,13 @@
   <MessageCaravanEnteredWorldObject>{0}已抵达{1}。</MessageCaravanEnteredWorldObject>
 
   <MessagePawnLeftMapAndCreatedCaravan>{0}已离开该区域并组建远行队。</MessagePawnLeftMapAndCreatedCaravan>
+  <MessagePawnLeftMapAndCreatedCaravan_AnimalsWantToJoin>Your animals are moving to join it.</MessagePawnLeftMapAndCreatedCaravan_AnimalsWantToJoin>
 
   <MessageSettledInExistingMap>你已成功在新区域建立殖民地。</MessageSettledInExistingMap>
 
-  <MessageAmbushVictory>胜利！远行队将在{0}后自动重组。你现在可在「世界」画面中重组远行队。</MessageAmbushVictory>
-
-  <MessageAutomaticallyReformedCaravan>你的殖民者已重组远行队。</MessageAutomaticallyReformedCaravan>
-
-  <MessageOldWoundHealed>由于{0}, {1}的{2}已经痊愈了。</MessageOldWoundHealed>
+  <MessagePermanentWoundHealed>{1}'s {2} has healed. Cause: {0}</MessagePermanentWoundHealed>
 
   <MessageRescueeJoined>因为你救了HIM, {0}加入了你的团队!</MessageRescueeJoined>
-
-  <MessageAttackedCaravanIsNowHostile>由于你攻击了{0}的一只远行队，该派系现在与你敌对。</MessageAttackedCaravanIsNowHostile>
-  <MessageFactionPawnCrushed>{0}因屋顶塌方而死了人。派系关系: {1}</MessageFactionPawnCrushed>
-  <MessageFactionPawnLost>{0}的{1}死了。派系关系: {2}</MessageFactionPawnLost>
 
   <MessageTransporterUnreachable>一些运输舱无法到达。</MessageTransporterUnreachable>
   <MessageTransportersNotAdjacent>所有连接到所选运输舱的发射器必须相邻。</MessageTransportersNotAdjacent>
@@ -192,7 +187,6 @@
   <MessageTransportPodsArrived>你的运输舱已经抵达目的地。</MessageTransportPodsArrived>
   <MessageTransportPodsArrivedAndLost>你的运输舱已经抵达目的地，但由于里面没有殖民者，货物已丢失。</MessageTransportPodsArrivedAndLost>
   <MessageTransportPodsArrivedAndAddedToCaravan>你的运输舱已抵达目的地。内部的成员或货物已加入你的远行队。</MessageTransportPodsArrivedAndAddedToCaravan>
-  <MessageTransportPodsArrived_BecameHostile>{0}现在与你是敌对关系。</MessageTransportPodsArrived_BecameHostile>
 
   <MessageFailedToLoadTransportersBecauseColonistLost>由于其中一个殖民者丢失，装载进程已取消。</MessageFailedToLoadTransportersBecauseColonistLost>
 
@@ -210,7 +204,7 @@
 
   <MessageSlaughteringBondedAnimal>由于他们之间是牵绊关系，屠宰{0}会使{1}不高兴。</MessageSlaughteringBondedAnimal>
 
-  <MessageCaravanRunOutOfFood>{0}的给养已耗尽（{1}）。</MessageCaravanRunOutOfFood>
+  <MessageCaravanRanOutOfFood>{0} has run out of food ({1}).</MessageCaravanRanOutOfFood>
 
   <MessageSelectOwnBaseToFormCaravan>如要组建远行队，请选择你自己的殖民地或留有你的殖民者的地点。</MessageSelectOwnBaseToFormCaravan>
 
@@ -248,8 +242,6 @@
   <MessageFailedToRescueRelative>你没能救援{0}。这让{1}感到悲伤。</MessageFailedToRescueRelative>
   <MessageRescuedRelative>你救援了{0}。这让{1}感到开心。</MessageRescuedRelative>
 
-  <MessagePrisonerRescued>你救援了NAME，比且HE加入了你的殖民地。</MessagePrisonerRescued>
-
   <MessageTornadoLeftMap>龙卷风已离开此地。</MessageTornadoLeftMap>
   <MessageTornadoDissipated>龙卷风已经消散。</MessageTornadoDissipated>
 
@@ -260,5 +252,71 @@
   <MessageTargetedTantrumChangedTarget>{0}无法接触{1}，于是HE决定转而将HIS怒火发泄在{2}身上。</MessageTargetedTantrumChangedTarget>
 
   <MessageTargetedInsultingSpreeChangedTarget>{0}无法接触{1}，于是HE决定转而将HIS怒火发泄在{2}身上。</MessageTargetedInsultingSpreeChangedTarget>
+
+  <MessageMurderousRageChangedTarget>{0} has decided to redirect HIS anger at {1}.</MessageMurderousRageChangedTarget>
+
+  <MessagePlantIncompatibleWithRoof>{0} cannot grow underneath a roof.</MessagePlantIncompatibleWithRoof>
+  <MessageRoofIncompatibleWithPlant>Cannot build a roof over {0}.</MessageRoofIncompatibleWithPlant>
+
+  <MessageChoseRoute>Caravan will automatically travel to the first waypoint.</MessageChoseRoute>
+
+  <MessageBlockedHediff>{0} blocked {1} on: {2}.</MessageBlockedHediff>
+
+  <MessageCraftedMasterwork>{0} has created a {1}.</MessageCraftedMasterwork>
+
+  <MessagePlayerTriedToLeaveMapViaExitGrid>To leave the area, use the 'reform caravan' button in the world view.</MessagePlayerTriedToLeaveMapViaExitGrid>
+
+  <MessageGoodwillChanged>Relations with {0} have changed from {1} to {2}.</MessageGoodwillChanged>
+  <MessageGoodwillChangedWithReason>Relations with {0} have changed from {1} to {2} ({3}).</MessageGoodwillChangedWithReason>
+  <GoodwillChangedReason_AttackedPawn>attacked {0}</GoodwillChangedReason_AttackedPawn>
+  <GoodwillChangedReason_UsedItem>used {0} on {1}</GoodwillChangedReason_UsedItem>
+  <GoodwillChangedReason_RemovedBodyPart>harvested {0}</GoodwillChangedReason_RemovedBodyPart>
+  <GoodwillChangedReason_CapturedPawn>captured {0}</GoodwillChangedReason_CapturedPawn>
+  <GoodwillChangedReason_PawnCrushed>{0} crushed</GoodwillChangedReason_PawnCrushed>
+  <GoodwillChangedReason_PawnDied>{0} died</GoodwillChangedReason_PawnDied>
+  <GoodwillChangedReason_Traded>traded</GoodwillChangedReason_Traded>
+  <GoodwillChangedReason_AttackedCaravan>attacked a caravan</GoodwillChangedReason_AttackedCaravan>
+  <GoodwillChangedReason_NaturallyOverTime>natural tendency to reach {0} over time</GoodwillChangedReason_NaturallyOverTime>
+  <GoodwillChangedReason_ExitedMapHealthy>{0} exited the map healthy</GoodwillChangedReason_ExitedMapHealthy>
+  <GoodwillChangedReason_Tended>tended to {0}</GoodwillChangedReason_Tended>
+  <GoodwillChangedReason_ReceivedGift>received a gift</GoodwillChangedReason_ReceivedGift>
+  <GoodwillChangedReason_FulfilledTradeRequest>fulfilled a trade offer</GoodwillChangedReason_FulfilledTradeRequest>
+
+  <MessageGiftGivenButNotAppreciated>{0} accept your gift but they don't appreciate it.</MessageGiftGivenButNotAppreciated>
+
+  <MessageCantGiveGiftBecauseCantCarryEncumbered>The caravan is already encumbered and can't carry anything else.</MessageCantGiveGiftBecauseCantCarryEncumbered>
+  <MessageCantGiveGiftBecauseCantCarry>The caravan can't carry that much. The gifts weigh {0} but the caravan can only carry {1} more.</MessageCantGiveGiftBecauseCantCarry>
+
+  <MessageFormedCaravan>{0} has formed and is now traveling on the world map.</MessageFormedCaravan>
+  <MessageFormedCaravan_Orders>Orders</MessageFormedCaravan_Orders>
+
+  <MessageBillValidationStoreZoneDeleted>{1}'s "{0}" can no longer deliver to deleted stockpile {2}.</MessageBillValidationStoreZoneDeleted>
+  <MessageBillValidationStoreZoneUnavailable>{1}'s "{0}" can no longer deliver to unavailable stockpile {2}.</MessageBillValidationStoreZoneUnavailable>
+  <MessageBillValidationPawnUnavailable>{0} can no longer work on "{1}" at {2}. The restriction has been removed.</MessageBillValidationPawnUnavailable>
+  <MessageBillValidationIncludeZoneDeleted>{1}'s "{0}" can no longer count items in deleted stockpile {2}.</MessageBillValidationIncludeZoneDeleted>
+  <MessageBillValidationIncludeZoneUnavailable>{1}'s "{0}" can no longer count items in unavailable stockpile {2}.</MessageBillValidationIncludeZoneUnavailable>
+  <MessageBillValidationStoreZoneInsufficient>{1}'s "{0}" can no longer deliver all products to stockpile {2}.</MessageBillValidationStoreZoneInsufficient>
+
+  <MessageAnimalReturnedWild>Because of a lack of taming maintenance, {0} has returned to the wild.</MessageAnimalReturnedWild>
+  <MessageAnimalLostSkill>Due to a lack of maintenance training, {0} has lost a skill: {1}</MessageAnimalLostSkill>
+
+  <MessageTranslationReportSaved>Translation report written to {0}</MessageTranslationReportSaved>
+
+  <MessageCaravanArrivalActionNoLongerValid>{0} couldn't reach its destination.</MessageCaravanArrivalActionNoLongerValid>
+
+  <MessageEnterCooldownBlocksEntering>You can't re-enter for another {0} days.</MessageEnterCooldownBlocksEntering>
+
+  <!--<MessageMustDesignateSmoothableFloor>必须指定粗糙的石质地面。</MessageMustDesignateSmoothableFloor>-->
+  <!--<MessagePawnExitMapRelationsGain>因为{0}健康地离开了地图，与{1}的关系上升{2}点。</MessagePawnExitMapRelationsGain>-->
+  <!--<MessageFailedToSendCaravanBecausePawnLost>因为失去了指定的殖民者、动物或囚犯，远行队组建失败。</MessageFailedToSendCaravanBecausePawnLost>-->
+  <!--<MessageAmbushVictory>胜利！远行队将在{0}后自动重组。你现在可在「世界」画面中重组远行队。</MessageAmbushVictory>-->
+  <!--<MessageAutomaticallyReformedCaravan>你的殖民者已重组远行队。</MessageAutomaticallyReformedCaravan>-->
+  <!--<MessageOldWoundHealed>由于{0}, {1}的{2}已经痊愈了。</MessageOldWoundHealed>-->
+  <!--<MessageAttackedCaravanIsNowHostile>由于你攻击了{0}的一只远行队，该派系现在与你敌对。</MessageAttackedCaravanIsNowHostile>-->
+  <!--<MessageFactionPawnCrushed>{0}因屋顶塌方而死了人。派系关系: {1}</MessageFactionPawnCrushed>-->
+  <!--<MessageFactionPawnLost>{0}的{1}死了。派系关系: {2}</MessageFactionPawnLost>-->
+  <!--<MessageTransportPodsArrived_BecameHostile>{0}现在与你是敌对关系。</MessageTransportPodsArrived_BecameHostile>-->
+  <!--<MessageCaravanRunOutOfFood>{0}的给养已耗尽（{1}）。</MessageCaravanRunOutOfFood>-->
+  <!--<MessagePrisonerRescued>你救援了NAME，比且HE加入了你的殖民地。</MessagePrisonerRescued>-->
 
 </LanguageData>

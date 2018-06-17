@@ -2,6 +2,7 @@
 <LanguageData>
 
   <FactionGreetingHostile>{0} 愤怒地对着麦克风大骂了几句然后断开了连接。</FactionGreetingHostile>
+  <FactionGreetingHostileAppreciative>{0} demands that you make a gesture of goodwill, like bringing gifts to one of HIS settlements or releasing HIS faction's prisoners unharmed. Until then, HE is unwilling to talk.\n\nMuttering an insult, HE disconnects.</FactionGreetingHostileAppreciative>
   <FactionGreetingWary>{0} 谨慎地问候了 {1} 并询问你的来意。</FactionGreetingWary>
   <FactionGreetingWarm>{0} 亲切地问候了 {1} 并询问了殖民地的近况。</FactionGreetingWarm>
 
@@ -9,6 +10,8 @@
 
   <!-- gift offer -->
   <OfferGift>赠予礼物</OfferGift>
+  <MustBeAlly>must be ally</MustBeAlly>
+  <NeedGoodwill>need {0} goodwill</NeedGoodwill>
   <NeedSilverLaunchable>需要有{0}白银在轨道交易信标附近</NeedSilverLaunchable>
   <NotEnoughSilver>白银不足</NotEnoughSilver>
   <SilverForGoodwill>每{0}白银增加{1}友好度</SilverForGoodwill>
@@ -20,6 +23,10 @@
   <TraderSent>{0}同意向你派出一支商队，他们将在数日内抵达。</TraderSent>
   <WaitTime>等待{0}</WaitTime>
 
+  <!-- AI core request -->
+  <RequestAICoreInformation>Request the location of an {0} (cost: {1} silver)</RequestAICoreInformation>
+  <RequestAICoreInformationResult>{0} sends the requested information and wishes you good luck.</RequestAICoreInformationResult>
+  <NoKnownAICore>no more locations known</NoKnownAICore>
 
   <!-- military aid request -->
   <RequestMilitaryAid>请求立即派出军事支援（花费: {0}友好度）</RequestMilitaryAid>
@@ -27,5 +34,6 @@
   <CallConfirm>是，仍然呼叫他们。</CallConfirm>
   <CallCancel>不，算了。</CallCancel>
   <MilitaryAidSent>{0}同意派遣士兵来帮助你。</MilitaryAidSent>
+  <CantSendMilitaryAidInTime>{0} apologizes and says they won't be able to arrive in time.\n\n(This faction's technology level is too low for transport pods)</CantSendMilitaryAidInTime>
 
 </LanguageData>

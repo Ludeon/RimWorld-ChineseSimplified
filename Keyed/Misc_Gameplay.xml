@@ -7,11 +7,13 @@
   <Contents>内容</Contents>
   <ContainedResources>包含资源</ContainedResources>
   <ForPrisonerUse>限囚犯使用</ForPrisonerUse>
+  <InPrisonCell>In prison cell: For prisoner use</InPrisonCell>
   <ForColonistUse>限殖民者使用</ForColonistUse>
   <MedicalBed>病床</MedicalBed>
   <Owner>所属人</Owner>
   <Owners>所属人</Owners>
   <AssignedColonist>指定殖民者</AssignedColonist>
+  <DiedOn>Died on the {0}</DiedOn>
   <Nobody>无</Nobody>
   <Unowned>无所属</Unowned>
   <DeadTime>已死亡{0}</DeadTime>
@@ -25,7 +27,10 @@
   <FreshMissingBodyPart>新鲜</FreshMissingBodyPart>
   <DevelopedImmunityLower>产生免疫</DevelopedImmunityLower>
   <NeedsTendingNow>当前需要治疗</NeedsTendingNow>
+  <CanTendNow>Can tend now</CanTendNow>
+  <TreatmentExpiresIn>Tending expires in {0}</TreatmentExpiresIn>
   <NextTendIn>于{0}后将需要治疗</NextTendIn>
+  <TendQuality>Tend quality</TendQuality>
   <MissingMedicalBillIngredient>缺少{0}</MissingMedicalBillIngredient>
   <Immunity>免疫性</Immunity>
   <Race>种族</Race>
@@ -36,6 +41,7 @@
   <ThingInfo>信息</ThingInfo>
   <DropThing>丢下</DropThing>
   <Rename>重命名</Rename>
+  <RenameAnimal>Rename animal</RenameAnimal>
   <RenameColonist>修改角色昵称</RenameColonist>
   <UnknownLower>未知</UnknownLower>
   <On>开</On>
@@ -69,19 +75,25 @@
   <Permanent>永久</Permanent>
   <CaravanResting>休息中。</CaravanResting>
   <CaravanEstimatedTimeToDestination>预计抵达耗时: {0}天</CaravanEstimatedTimeToDestination>
+  <CaravanEstimatedDaysToDestination>Estimated days to arrive: {0}</CaravanEstimatedDaysToDestination>
   <CaravanImmobilizedByMass>无法移动: 货物过重</CaravanImmobilizedByMass>
   <CaravanOutOfFood>给养耗尽。</CaravanOutOfFood>
   <CaravanDaysOfFood>给养天数: {0}</CaravanDaysOfFood>
   <CaravanDaysOfFoodRot>给养天数: {0}，{1}天后变质</CaravanDaysOfFoodRot>
-  <CaravanMemberMentalBreak>停止原因: {0}精神崩溃。</CaravanMemberMentalBreak>
   <AllCaravanMembersDowned>停止原因: 全员无行动能力。</AllCaravanMembersDowned>
   <AllCaravanMembersMentalBreak>停止原因: 全员精神崩溃。</AllCaravanMembersMentalBreak>
+  <CaravanColonistsCount>{0} {1}</CaravanColonistsCount>
+  <CaravanAnimal>1 animal</CaravanAnimal>
+  <CaravanAnimalsCount>{0} animals</CaravanAnimalsCount>
+  <CaravanPrisoner>1 prisoner</CaravanPrisoner>
+  <CaravanPrisonersCount>{0} prisoners</CaravanPrisonersCount>
+  <CaravanPawnsInMentalState>{0} in mental state</CaravanPawnsInMentalState>
+  <CaravanPawnsDowned>{0} downed</CaravanPawnsDowned>
   <CaravanTraveling>行进中。</CaravanTraveling>
+  <CaravanPaused>Paused.</CaravanPaused>
   <CaravanWaiting>等待中。</CaravanWaiting>
-  <CaravanHoursPerTile>小时 / 地图格</CaravanHoursPerTile>
-  <CaravanBaseMovementTime>基础移动耗时</CaravanBaseMovementTime>
   <CurrentTileMovementTime>当前地图格移动耗时</CurrentTileMovementTime>
-  <StealthFactor>隐蔽性</StealthFactor>
+  <Visibility>Visibility</Visibility>
   <Temperature>温度</Temperature>
   <BadTemperature>温度不适宜</BadTemperature>
   <IdealFermentingTemperature>理想发酵温度</IdealFermentingTemperature>
@@ -89,9 +101,12 @@
   <CaravanVisiting>正在拜访{0}。</CaravanVisiting>
   <CaravanEntering>正在进入{0}。</CaravanEntering>
   <CaravanAttacking>正在进攻{0}。</CaravanAttacking>
+  <CaravanOfferingGifts>Offering gifts to {0}.</CaravanOfferingGifts>
   <WasWornByCorpse>死者衣物</WasWornByCorpse>
   <WornByCorpseChar>亡</WornByCorpseChar>
-  <DeterioratingDueToBeingUnroofed>老化中（露天）</DeterioratingDueToBeingUnroofed>
+  <DeterioratingUnroofed>unroofed</DeterioratingUnroofed>
+  <DeterioratingOutdoors>outdoors</DeterioratingOutdoors>
+  <DeterioratingBecauseOf>Deteriorating because of</DeterioratingBecauseOf>
   <Map>地图</Map>
   <ForceExitAndRemoveMapCountdown>{0}后离开</ForceExitAndRemoveMapCountdown>
   <ForceExitAndRemoveMapCountdownTip>你的殖民者将会在{0}后自动重组远行队并离开此区域。</ForceExitAndRemoveMapCountdownTip>
@@ -128,10 +143,32 @@
   <KnownSiteThreatsNone>威胁: 无。</KnownSiteThreatsNone>
   <SkillRequirements>技能要求</SkillRequirements>
   <Products>产物</Products>
-  <DeepDrillExhausted>深钻资源枯竭。</DeepDrillExhausted>
   <Relationship>{1} 的 {0}</Relationship>
   <Prisoner>囚犯</Prisoner>
   <Refugee>难民</Refugee>
+  <TileMovementDifficulty>Terrain movement difficulty</TileMovementDifficulty>
+  <Impassable>Impassable</Impassable>
+  <CaravanMovementSpeedFull>Caravan movement speed</CaravanMovementSpeedFull>
+  <DownedLower>downed</DownedLower>
+  <AverageCaravanMemberMoveSpeed>Avg. person move speed</AverageCaravanMemberMoveSpeed>
+  <MultiplierForCarriedMass>Multiplier for carried mass: {0}</MultiplierForCarriedMass>
+  <FinalCaravanPawnsMovementSpeed>Caravan members speed</FinalCaravanPawnsMovementSpeed>
+  <FinalCaravanMovementSpeed>Final speed</FinalCaravanMovementSpeed>
+  <Winter>Winter</Winter>
+  <MovementDifficultyOffsetInWinter>{0} in winter</MovementDifficultyOffsetInWinter>
+  <RangeTo>to</RangeTo>
+  <NoDietCategoryLetter>No letter</NoDietCategoryLetter>
+  <ExpiresIn>Expires in</ExpiresIn>
+  <CaravanLeaderCaravanName>{0}'s caravan</CaravanLeaderCaravanName>
+  <Reason>Reason</Reason>
+  <RelationsWith>Relations with {0}</RelationsWith>
+  <capturedBy>captured by {0}</capturedBy>
+  <yourCaravan>your caravan</yourCaravan>
+  <CreatureWildness>{0} wildness</CreatureWildness>
+  <CreatureTrainability>{0} trainability</CreatureTrainability>
+  <ProximitySingleGoodwillChange>{0} with {1}</ProximitySingleGoodwillChange>
+  <EnterCooldown>You can't re-enter for another {0} days.</EnterCooldown>
+  <Caravan>Caravan</Caravan>
 
   <!-- Fermentation barrel -->
   <ContainsWort>装有麦芽汁: {0} / {1}</ContainsWort>
@@ -163,10 +200,8 @@
   <NoRoof>露天区</NoRoof>
   <SnowClear>除雪区</SnowClear>
   <AreaDefaultLabel>活动区 {0}</AreaDefaultLabel>
-  <AreaAnimalDefaultLabel>动物活动区 {0}</AreaAnimalDefaultLabel>
   <NoAreaAllowed>无限制</NoAreaAllowed>
   <NewArea>新建活动区</NewArea>
-  <NewAreaAnimal>新建动物活动区</NewAreaAnimal>
   <InvertArea>反向选择</InvertArea>
 
   <!-- Control -->
@@ -186,6 +221,8 @@
   <GunInstalled>已安装</GunInstalled>
   <MinimumRange>最小距离</MinimumRange>
   <CanFireIn>剩余冷却时间</CanFireIn>
+  <CannotFire>Cannot fire</CannotFire>
+  <Roofed>roofed</Roofed>
   <ShellLoaded>炮弹已上膛: {0}</ShellLoaded>
   <ShellNotLoaded>炮弹未上膛</ShellNotLoaded>
 
@@ -259,6 +296,8 @@
   <Carrying>携带</Carrying>
   <AffectedBy>受到以下影响: </AffectedBy>
   <Queued>等待处理</Queued>
+  <State>State</State>
+  <StunLower>stun</StunLower>
 
   <!-- Inspector general stuff -->
   <SelectNextInSquareTip>选择当前单元格内的下一件东西。\n\n快捷键: {0}\n\n你也可用鼠标左键慢速重复点击同个单元格来选择下一件物品。</SelectNextInSquareTip>
@@ -299,6 +338,7 @@
   <!-- Shooting tooltip -->
   <ShotBy>被{0}击中几率</ShotBy>
   <CannotHit>无法击中目标。</CannotHit>
+  <ManhunterPerHit>Manhunter chance per hit</ManhunterPerHit>
 
   <!-- Rotting -->
   <CurrentlyFrozen>冷冻（不会腐烂）</CurrentlyFrozen>
@@ -348,9 +388,11 @@
   <!-- Buttons -->
   <ShowLearningHelperWhenEmptyToggleButton>开关始终显示教学助手。\n\n当没有需要学习的新教程时，教学助手会自动隐藏。开启后，将在学习完所有教程之后继续显示教学助手。</ShowLearningHelperWhenEmptyToggleButton>
   <ZoneVisibilityToggleButton>开关区域显示。</ZoneVisibilityToggleButton>
-  <ShowEnvironmentToggleButton>开关环境显示。\n\n显示殖民者在鼠标停留位置所能感受到的环境的美观度和当前房间属性数据。</ShowEnvironmentToggleButton>
+  <ShowBeautyToggleButton>Toggle the beauty display.\n\nDisplays the beauty of the world as would be perceived by a character standing where the mouse is pointing.</ShowBeautyToggleButton>
+  <ShowRoomStatsToggleButton>Toggle room stats display.\n\nDisplays room stats of the room where the mouse is pointing.</ShowRoomStatsToggleButton>
   <ShowColonistBarToggleButton>开关殖民者头像条显示。\n\n开启后，在屏幕上方显示所有殖民者的头像和当前状态。</ShowColonistBarToggleButton>
   <AutoHomeAreaToggleButton>开关自动添加居住区\n\n开启后，将自动在新建造的建筑附近添加居住区。</AutoHomeAreaToggleButton>
+  <AutoRebuildButton>Toggle automatic rebuild of destroyed structures.</AutoRebuildButton>
   <CategorizedResourceReadoutToggleButton>开关资源分类显示\n\n开启后，将资源显示按照其所属类型分类显示。</CategorizedResourceReadoutToggleButton>
   <ShowAnimalNamesToggleButton>开关已驯服动物名称显示。</ShowAnimalNamesToggleButton>
   <ShowRoofOverlayToggleButton>开关屋顶区显示。</ShowRoofOverlayToggleButton>
@@ -383,6 +425,7 @@
   <MustPlaceVentWithFreeSpaces>通风孔两端都不能被阻塞，以便空气流通。</MustPlaceVentWithFreeSpaces>
   <MustPlaceAdjacentStandable>必须放置于四周空旷的位置。</MustPlaceAdjacentStandable>
   <MustPlaceNearFuelingPort>必须紧挨着放置于运输舱发射器的燃料供给端旁边。</MustPlaceNearFuelingPort>
+  <MustPlaceOnDrillable>Must be placed on drillable resources.</MustPlaceOnDrillable>
 
   <!-- Wind Turbine -->
   <WindTurbine_WindPathIsBlockedBy>被该物品遮挡: </WindTurbine_WindPathIsBlockedBy>
@@ -401,8 +444,9 @@
   <ShipReportHibernating>休眠组件</ShipReportHibernating>
   <ShipReportNotReady>组件还未就绪</ShipReportNotReady>
   <HibernateWarning>沙隆·白石准备开始反应堆的休眠唤醒程序。\n\n他警告称启动进程将会耗费大约15天，并且在很远距离外就能侦测到能量特征。这类能量特征表示具备星际飞行能力，并将吸引一群绝望的袭击者和寻宝猎人。确保第一时间做好防御。</HibernateWarning>
-  <HibernateCompleteLabel>反应堆就绪</HibernateCompleteLabel>
-  <HibernateComplete>沙隆·白石已经完成了反应堆的休眠唤醒程序。反应堆现在准备好为发射提供能力。</HibernateComplete>
+  <HibernateWarningStandalone>The reactor is ready to power up.\n\nThe process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and treasure hunters. Make sure your defenses are prepared first.</HibernateWarningStandalone>
+  <HibernateWarningPacifist>Charlon Whitestone is ready to begin the reactor's hibernation recovery sequence. He warns you that the process will take about 15 days.</HibernateWarningPacifist>
+  <HibernateWarningStandalonePacifist>The reactor is ready to power up. The process will take about 15 days.</HibernateWarningStandalonePacifist>
 
   <!-- Neurotrainer -->
   <NeurotrainerUsed>{0}使用神经训练器将{1}技能从{2}级升至{3}级。</NeurotrainerUsed>
@@ -475,6 +519,7 @@
   <ActivityIconAttacking>战斗</ActivityIconAttacking>
   <ActivityIconIdle>闲逛</ActivityIconIdle>
   <ActivityIconBurning>着火</ActivityIconBurning>
+  <ActivityIconFormingCaravan>Forming a caravan</ActivityIconFormingCaravan>
 
   <!-- Maintainable -->
   <DueForMaintenance>需要维护。</DueForMaintenance>
@@ -483,6 +528,9 @@
   <!-- Deep drill -->
   <ProgressToNextLump>生产进度</ProgressToNextLump>
   <ResourceBelow>矿脉</ResourceBelow>
+  <DeepDrillNoResources>No resources below.</DeepDrillNoResources>
+  <DeepDrillExhausted>深钻资源枯竭。</DeepDrillExhausted>
+  <DeepDrillExhaustedNoFallback>Deep drill resources exhausted.</DeepDrillExhaustedNoFallback>
 
   <!-- Learning helper -->
   <LearningHelper>教学助手</LearningHelper>
@@ -493,7 +541,7 @@
   <!-- Compass -->
   <CompassTip>指示北方。点击以旋转镜头使北极处在上方。</CompassTip>
 
-  <!-- Distance measure -->
+  <!-- World route planner -->
   <RoutePlannerButtonTip>点击以进入规划模式，你可以规划你的行程和计算路径点之间的距离。</RoutePlannerButtonTip>
   <RoutePlannerAddTwoOrMoreWaypoints>添加两个或更多的路径点。</RoutePlannerAddTwoOrMoreWaypoints>
   <RoutePlannerAddOneOrMoreWaypoints>添加一个或更多的路径点。</RoutePlannerAddOneOrMoreWaypoints>
@@ -503,8 +551,10 @@
   <RoutePlannerPressRMBToAddAndRemoveWaypoints>鼠标右键: 添加或移除路径点。</RoutePlannerPressRMBToAddAndRemoveWaypoints>
   <RoutePlannerPressEscapeToExit>ESC键: 退出规划模式</RoutePlannerPressEscapeToExit>
   <RoutePlannerPressEscapeToReturnToCaravanFormationDialog>ESC键: 返回远行队组建对话框。</RoutePlannerPressEscapeToReturnToCaravanFormationDialog>
-  <EstimatedTimeToThisWaypoint>到达此路径点预计耗时: {0}</EstimatedTimeToThisWaypoint>
-  <EstimatedTimeToThisWaypointFromPrevious>此路径点与前一个路径点之间预计耗时: {0}</EstimatedTimeToThisWaypointFromPrevious>
+  <EstimatedTimeToWaypoint>Est. travel time: {0}</EstimatedTimeToWaypoint>
+  <EstimatedTimeToWaypointFromPrevious>Est. travel time (from previous waypoint): {0}</EstimatedTimeToWaypointFromPrevious>
+  <EstimatedTimeToTile>Est. travel time: {0}</EstimatedTimeToTile>
+  <ForagedFoodAmount>Foraged food amount</ForagedFoodAmount>
 
   <!-- Outfits -->
   <OutfitAnything>任意</OutfitAnything>
@@ -515,5 +565,23 @@
   <!-- Hibernatable -->
   <HibernatableHibernating>休眠中</HibernatableHibernating>
   <HibernatableStartingUp>启动中</HibernatableStartingUp>
+
+  <!-- Transport pods -->
+  <ClickToSeeAvailableOrders_WorldObject>{0}: See available orders...</ClickToSeeAvailableOrders_WorldObject>
+  <ClickToSeeAvailableOrders_Empty>See available orders...</ClickToSeeAvailableOrders_Empty>
+
+  <!--<CaravanMemberMentalBreak>停止原因: {0}精神崩溃。</CaravanMemberMentalBreak>-->
+  <!--<CaravanHoursPerTile>小时 / 地图格</CaravanHoursPerTile>-->
+  <!--<CaravanBaseMovementTime>基础移动耗时</CaravanBaseMovementTime>-->
+  <!--<StealthFactor>隐蔽性</StealthFactor>-->
+  <!--<DeterioratingDueToBeingUnroofed>老化中（露天）</DeterioratingDueToBeingUnroofed>-->
+  <!--<AreaAnimalDefaultLabel>动物活动区 {0}</AreaAnimalDefaultLabel>-->
+  <!--<NewAreaAnimal>新建动物活动区</NewAreaAnimal>-->
+  <!--<ShowEnvironmentToggleButton>开关环境显示。\n\n显示殖民者在鼠标停留位置所能感受到的环境的美观度和当前房间属性数据。</ShowEnvironmentToggleButton>-->
+  <!--<HibernateCompleteLabel>反应堆就绪</HibernateCompleteLabel>-->
+  <!--<HibernateComplete>沙隆·白石已经完成了反应堆的休眠唤醒程序。反应堆现在准备好为发射提供能力。</HibernateComplete>-->
+  <!-- Distance measure -->
+  <!--<EstimatedTimeToThisWaypoint>到达此路径点预计耗时: {0}</EstimatedTimeToThisWaypoint>-->
+  <!--<EstimatedTimeToThisWaypointFromPrevious>此路径点与前一个路径点之间预计耗时: {0}</EstimatedTimeToThisWaypointFromPrevious>-->
 
 </LanguageData>

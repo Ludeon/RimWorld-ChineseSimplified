@@ -23,6 +23,8 @@
   <Captured.rulePack.rulesStrings.18>desc_sentence->[capturer_nameShortDef]对着[prisoner_nameShortDef]的脸啐了口唾沫。</Captured.rulePack.rulesStrings.18>
   <Captured.rulePack.rulesStrings.19>desc_sentence->[capturer_nameShortDef]大笑着，而[prisoner_nameShortDef]眼中涌出了泪水。</Captured.rulePack.rulesStrings.19>
   <Captured.rulePack.rulesStrings.20>desc_sentence->[capturer_nameShortDef]毫无缘由地踹着[prisoner_nameShortDef]。</Captured.rulePack.rulesStrings.20>
+  <Captured.rulePack.rulesStrings.21>desc_sentence->[CAPTURER_nameDef] is laughing as tears well up in [PRISONER_nameDef]'s eyes.</Captured.rulePack.rulesStrings.21>
+  <Captured.rulePack.rulesStrings.22>desc_sentence->[CAPTURER_nameDef] is kicking [PRISONER_nameDef] for no obvious reason.</Captured.rulePack.rulesStrings.22>
 
   <Recruited.label>招募</Recruited.label>
   <Recruited.rulePack.rulesStrings.0>tale_noun->招募[joiner_nameShortDef]</Recruited.rulePack.rulesStrings.0>
@@ -38,6 +40,8 @@
   <Recruited.rulePack.rulesStrings.10>desc_sentence->[joiner_nameShortDef]在目光接触中微笑着。</Recruited.rulePack.rulesStrings.10>
   <Recruited.rulePack.rulesStrings.11>desc_sentence->[joiner_nameShortDef]看上去松了口气。</Recruited.rulePack.rulesStrings.11>
   <Recruited.rulePack.rulesStrings.12>desc_sentence->[joiner_nameShortDef]看上去充满了希望。</Recruited.rulePack.rulesStrings.12>
+  <Recruited.rulePack.rulesStrings.13>desc_sentence->[JOINER_nameDef] looks relieved.</Recruited.rulePack.rulesStrings.13>
+  <Recruited.rulePack.rulesStrings.14>desc_sentence->[JOINER_nameDef] looks hopeful.</Recruited.rulePack.rulesStrings.14>
 
   <Hunted.label>狩猎</Hunted.label>
   <Hunted.rulePack.rulesStrings.0>tale_noun->[hunter_nameShortDef]成功的狩猎</Hunted.rulePack.rulesStrings.0>
@@ -50,6 +54,8 @@
   <Hunted.rulePack.rulesStrings.7>desc_sentence->[prey_nameShortDef]似乎毫无察觉。</Hunted.rulePack.rulesStrings.7>
   <Hunted.rulePack.rulesStrings.8>desc_sentence->[hunter_nameShortDef]紧握着[hunter_possessive]武器。</Hunted.rulePack.rulesStrings.8>
   <Hunted.rulePack.rulesStrings.9>desc_sentence->[prey_nameShortDef]四处观望，仿佛感觉哪里不对劲。</Hunted.rulePack.rulesStrings.9>
+  <Hunted.rulePack.rulesStrings.10>desc_sentence->[HUNTER_nameDef] is gripping [HUNTER_possessive] weapon tightly.</Hunted.rulePack.rulesStrings.10>
+  <Hunted.rulePack.rulesStrings.11>desc_sentence->[PREY_nameDef] is looking around as though [PREY_pronoun] senses that something is wrong.</Hunted.rulePack.rulesStrings.11>
 
   <DidSurgery.label>手术</DidSurgery.label>
   <DidSurgery.rulePack.rulesStrings.0>tale_noun->[patient_nameShortDef]的手术</DidSurgery.rulePack.rulesStrings.0>
@@ -64,6 +70,8 @@
   <DidSurgery.rulePack.rulesStrings.9>desc_sentence->[surgeon_nameShortDef]看上去非常专注。</DidSurgery.rulePack.rulesStrings.9>
   <DidSurgery.rulePack.rulesStrings.10>desc_sentence->[surgeon_nameShortDef]被血溅到脸上。</DidSurgery.rulePack.rulesStrings.10>
   <DidSurgery.rulePack.rulesStrings.11>desc_sentence->[patient_nameShortDef]抽搐着扭动着。</DidSurgery.rulePack.rulesStrings.11>
+  <DidSurgery.rulePack.rulesStrings.12>desc_sentence->[SURGEON_nameDef] has blood smeared on [SURGEON_possessive] face.</DidSurgery.rulePack.rulesStrings.12>
+  <DidSurgery.rulePack.rulesStrings.13>desc_sentence->[PATIENT_nameDef] is shaking and writhing.</DidSurgery.rulePack.rulesStrings.13>
 
   <ExecutedPrisoner.label>处决</ExecutedPrisoner.label>
   <ExecutedPrisoner.rulePack.rulesStrings.0>tale_noun->[prisoner_nameShortDef]的死刑</ExecutedPrisoner.rulePack.rulesStrings.0>
@@ -91,6 +99,8 @@
   <ExecutedPrisoner.rulePack.rulesStrings.22>desc_sentence->[prisoner_nameShortDef]似乎彻底放弃了。</ExecutedPrisoner.rulePack.rulesStrings.22>
   <ExecutedPrisoner.rulePack.rulesStrings.23>desc_sentence->[prisoner_nameShortDef]已经闭上了眼睛似乎在祈祷着什么。</ExecutedPrisoner.rulePack.rulesStrings.23>
   <ExecutedPrisoner.rulePack.rulesStrings.24>desc_sentence->[prisoner_nameShortDef]看上去满脸不屑。</ExecutedPrisoner.rulePack.rulesStrings.24>
+  <ExecutedPrisoner.rulePack.rulesStrings.25>desc_sentence->[PRISONER_nameDef] has closed [PRISONER_possessive] eyes, seeming to pray to a higher power.</ExecutedPrisoner.rulePack.rulesStrings.25>
+  <ExecutedPrisoner.rulePack.rulesStrings.26>desc_sentence->[PRISONER_nameDef] looks defiant.</ExecutedPrisoner.rulePack.rulesStrings.26>
 
   <KidnappedColonist.label>绑架</KidnappedColonist.label>
   <KidnappedColonist.rulePack.rulesStrings.0>tale_noun->[victim_nameShortDef]被绑架</KidnappedColonist.rulePack.rulesStrings.0>
@@ -110,6 +120,8 @@
   <KidnappedColonist.rulePack.rulesStrings.14>desc_sentence->[victim_nameShortDef]因愤怒和恐惧而大声喊叫着。</KidnappedColonist.rulePack.rulesStrings.14>
   <KidnappedColonist.rulePack.rulesStrings.15>desc_sentence->[victim_nameShortDef]看上去浑身是伤，精疲力竭。</KidnappedColonist.rulePack.rulesStrings.15>
   <KidnappedColonist.rulePack.rulesStrings.16>desc_sentence->[victim_nameShortDef]看上去伤的很重。</KidnappedColonist.rulePack.rulesStrings.16>
+  <KidnappedColonist.rulePack.rulesStrings.17>desc_sentence->[VICTIM_nameDef] looks broken and exhausted.</KidnappedColonist.rulePack.rulesStrings.17>
+  <KidnappedColonist.rulePack.rulesStrings.18>desc_sentence->[VICTIM_nameDef] appears to be badly wounded.</KidnappedColonist.rulePack.rulesStrings.18>
 
   <TamedAnimal.label>驯服</TamedAnimal.label>
   <TamedAnimal.rulePack.rulesStrings.0>tale_noun->[human_nameShortDef]驯服[animal_nameShortDef]</TamedAnimal.rulePack.rulesStrings.0>
@@ -126,6 +138,7 @@
   <TamedAnimal.rulePack.rulesStrings.11>desc_sentence->[animal_nameShortDef]看起来既惊恐又好奇。</TamedAnimal.rulePack.rulesStrings.11>
   <TamedAnimal.rulePack.rulesStrings.12>desc_sentence->[animal_nameShortDef]看来好像被迷住了。</TamedAnimal.rulePack.rulesStrings.12>
   <TamedAnimal.rulePack.rulesStrings.13>desc_sentence->[human_nameShortDef]充满爱意的抚摸着[animal_nameShortDef]。</TamedAnimal.rulePack.rulesStrings.13>
+  <TamedAnimal.rulePack.rulesStrings.14>desc_sentence->[TAMER_nameDef] is projecting a powerful sense of love towards [ANIMAL_nameDef].</TamedAnimal.rulePack.rulesStrings.14>
 
   <KilledBy.label>死亡</KilledBy.label>
   <KilledBy.rulePack.rulesStrings.0>tale_noun->[victim_nameShortDef]被[killer_nameShortDef]所杀</KilledBy.rulePack.rulesStrings.0>
@@ -174,6 +187,8 @@
   <SoldPrisoner.rulePack.rulesStrings.15>desc_sentence->[Prisoner_nameShortDef]的背影消逝在大地远方。</SoldPrisoner.rulePack.rulesStrings.15>
   <SoldPrisoner.rulePack.rulesStrings.16>desc_sentence->[Seller_nameShortDef]用力将[prisoner_nameShortDef]的锁链扯到[trader_nameShortDef]的手中。</SoldPrisoner.rulePack.rulesStrings.16>
   <SoldPrisoner.rulePack.rulesStrings.17>desc_sentence->绝望的气氛弥漫于场景中。</SoldPrisoner.rulePack.rulesStrings.17>
+  <SoldPrisoner.rulePack.rulesStrings.18>desc_sentence->[SELLER_nameDef] is thrusting the chains of [PRISONER_nameDef] into [TRADER_nameDef]'s hands.</SoldPrisoner.rulePack.rulesStrings.18>
+  <SoldPrisoner.rulePack.rulesStrings.19>desc_sentence->An air of hopelessness pervades the situation.</SoldPrisoner.rulePack.rulesStrings.19>
 
   <TrainedAnimal.label>训练</TrainedAnimal.label>
   <TrainedAnimal.rulePack.rulesStrings.0>tale_noun->[animal_nameShortDef]的训练</TrainedAnimal.rulePack.rulesStrings.0>
@@ -206,10 +221,12 @@
   <TrainedAnimal.rulePack.rulesStrings.27>desc_sentence->[animal_nameShortDef]被鳞片盖住了。</TrainedAnimal.rulePack.rulesStrings.27>
   <TrainedAnimal.rulePack.rulesStrings.28>desc_sentence->[human_nameShortDef]是通过[quantity]手臂描绘出来的。</TrainedAnimal.rulePack.rulesStrings.28>
   <TrainedAnimal.rulePack.rulesStrings.29>desc_sentence->[human_nameShortDef]变成了[animal_ShortDefinite]的模样。</TrainedAnimal.rulePack.rulesStrings.29>
+  <TrainedAnimal.rulePack.rulesStrings.30>desc_sentence->[TRAINER_nameDef] is depicted with [quantity] arms.</TrainedAnimal.rulePack.rulesStrings.30>
+  <TrainedAnimal.rulePack.rulesStrings.31>desc_sentence->[TRAINER_nameDef] is morphing into [ANIMAL_ShortDefinite].</TrainedAnimal.rulePack.rulesStrings.31>
 
   <KilledColonist.label>殖民者被杀害</KilledColonist.label>
   <KilledColonyAnimal.label>殖民地动物被杀害</KilledColonyAnimal.label>
-  <KilledMajorColonyEnemy.label>大敌被杀</KilledMajorColonyEnemy.label>
+  <DefeatedHostileFactionLeader.label>defeated hostile leader</DefeatedHostileFactionLeader.label>
 
   <TradedWith.label>进行交易</TradedWith.label>
   <TradedWith.rulePack.rulesStrings.0>tale_noun->[seller_nameFull]与[seller_nameFull]之间的交易</TradedWith.rulePack.rulesStrings.0>
@@ -226,5 +243,7 @@
   <TradedWith.rulePack.rulesStrings.11>desc_sentence->[seller_nameShortDef]正在数钱。</TradedWith.rulePack.rulesStrings.11>
   <TradedWith.rulePack.rulesStrings.12>desc_sentence->[buyer_nameShortDef]正在验货。</TradedWith.rulePack.rulesStrings.12>
 
+
+  <!--<KilledMajorColonyEnemy.label>大敌被杀</KilledMajorColonyEnemy.label>-->
 
 </LanguageData>

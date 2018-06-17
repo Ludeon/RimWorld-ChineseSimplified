@@ -44,6 +44,7 @@
   <CommandGraveAssignColonistLabel>指定殖民者</CommandGraveAssignColonistLabel>
   <CommandGraveAssignColonistDesc>将此墓分配给指定的殖民者。</CommandGraveAssignColonistDesc>
   <BuildingAssign>指定</BuildingAssign>
+  <BuildingReassign>Reassign</BuildingReassign>
   <BuildingUnassign>解除指定</BuildingUnassign>
   <CommandBedSetForPrisonersLabel>囚犯专用</CommandBedSetForPrisonersLabel>
   <CommandBedSetForPrisonersDesc>把此房间内的所有床铺设为囚犯专用。</CommandBedSetForPrisonersDesc>
@@ -84,7 +85,6 @@
   <CommandStopAttackFailNotForceAttacking>当前无强制攻击目标。</CommandStopAttackFailNotForceAttacking>
   <CommandExtractShell>退出炮弹</CommandExtractShell>
   <CommandExtractShellDesc>卸出当前的炮弹，以便更换成其他类型的弹药。</CommandExtractShellDesc>
-  <CommandExtractShellFailNoShell>炮弹未上膛。</CommandExtractShellFailNoShell>
   <MessageTargetBeyondMaximumRange>目标距离大于最大射程。</MessageTargetBeyondMaximumRange>
   <MessageTargetBelowMinimumRange>目标距离小于最小射程。</MessageTargetBelowMinimumRange>
   <MessageTurretWontFireBecauseHoldFire>警告：迫击炮不会开火，因为已设置为「停火」。</MessageTurretWontFireBecauseHoldFire>
@@ -192,6 +192,14 @@
   <CommandCancelFormingCaravan>取消组建远行队</CommandCancelFormingCaravan>
   <CommandCancelFormingCaravanDesc>终止组建远行队。</CommandCancelFormingCaravanDesc>
 
+  <!-- Remove from caravan -->
+  <CommandRemoveFromCaravan>Remove from caravan</CommandRemoveFromCaravan>
+  <CommandRemoveFromCaravanDesc>Remove this person or animal from the caravan.</CommandRemoveFromCaravanDesc>
+
+  <!-- Add to caravan -->
+  <CommandAddToCaravan>Add to caravan</CommandAddToCaravan>
+  <CommandAddToCaravanDesc>Add this person or animal to the forming caravan.</CommandAddToCaravanDesc>
+
   <!-- Show map -->
   <CommandShowMap>放大</CommandShowMap>
   <CommandShowMapDesc>放大至该地区。</CommandShowMapDesc>
@@ -200,6 +208,10 @@
   <CommandTrade>贸易</CommandTrade>
   <CommandTradeDesc>与此派系进行贸易。</CommandTradeDesc>
   <CommandTradeFailNoNegotiator>缺少意识清醒且有能力的谈判者。</CommandTradeFailNoNegotiator>
+
+  <!-- Offer gifts -->
+  <CommandOfferGifts>Offer gifts</CommandOfferGifts>
+  <CommandOfferGiftsDesc>Offer gifts to this faction.</CommandOfferGiftsDesc>
 
   <!-- Fulfill request -->
   <CommandFulfillTradeOffer>完成交易邀请</CommandFulfillTradeOffer>
@@ -252,5 +264,19 @@
   <!-- Remove waypoint -->
   <CommandRemoveWaypointLabel>移除</CommandRemoveWaypointLabel>
   <CommandRemoveWaypointDesc>移除此路径点。</CommandRemoveWaypointDesc>
+
+  <!-- Pause caravan -->
+  <CommandPauseCaravan>Pause</CommandPauseCaravan>
+  <CommandToggleCaravanPauseDesc>Pause the caravan movement. This has the following benefits:\n\n  - People can interact socially\n  - Forage for food {0} times faster\n  - Visibility multiplied by {1}</CommandToggleCaravanPauseDesc>
+
+  <!-- Show sellable items -->
+  <CommandShowSellableItems>Show what will buy</CommandShowSellableItems>
+  <CommandShowSellableItemsDesc>Show everything this trader wants to buy.</CommandShowSellableItemsDesc>
+
+  <!-- Attack settlement -->
+  <CommandAttackSettlement>Attack</CommandAttackSettlement>
+  <CommandAttackSettlementDesc>Attack this settlement.</CommandAttackSettlementDesc>
+
+  <!--<CommandExtractShellFailNoShell>炮弹未上膛。</CommandExtractShellFailNoShell>-->
 
 </LanguageData>

@@ -195,28 +195,6 @@
   <Flashstorm.rulePack.rulesStrings.18>desc_sentence->[quantity_adjphrase][animal]逃离该地区。</Flashstorm.rulePack.rulesStrings.18>
   <Flashstorm.rulePack.rulesStrings.19>desc_sentence->所有动物都逃离了该地区。</Flashstorm.rulePack.rulesStrings.19>
 
-  <Tornado.label>龙卷风</Tornado.label>
-  <Tornado.rulePack.rulesStrings.0>tale_noun->龙卷风在[pawn_nameShortDef]所在的[community]附近登陆</Tornado.rulePack.rulesStrings.0>
-  <Tornado.rulePack.rulesStrings.1>tale_noun->[pawn_nameShortDef]所在的[community]受到恶劣天气侵袭</Tornado.rulePack.rulesStrings.1>
-  <Tornado.rulePack.rulesStrings.2>image->[behavior]锥形气旋[circumstance_phrase]</Tornado.rulePack.rulesStrings.2>
-  <Tornado.rulePack.rulesStrings.3>image->[behavior]龙卷风[circumstance_phrase]</Tornado.rulePack.rulesStrings.3>
-  <Tornado.rulePack.rulesStrings.4>image->[behavior]飓风[circumstance_phrase]</Tornado.rulePack.rulesStrings.4>
-  <Tornado.rulePack.rulesStrings.5>image->[behavior][color]云柱[circumstance_phrase]</Tornado.rulePack.rulesStrings.5>
-  <Tornado.rulePack.rulesStrings.6>behavior->加强的</Tornado.rulePack.rulesStrings.6>
-  <Tornado.rulePack.rulesStrings.7>behavior->附近的</Tornado.rulePack.rulesStrings.7>
-  <Tornado.rulePack.rulesStrings.8>behavior->快速移动的</Tornado.rulePack.rulesStrings.8>
-  <Tornado.rulePack.rulesStrings.9>behavior->高速旋转的</Tornado.rulePack.rulesStrings.9>
-  <Tornado.rulePack.rulesStrings.10>circumstance_phrase->卷起碎片</Tornado.rulePack.rulesStrings.10>
-  <Tornado.rulePack.rulesStrings.11>circumstance_phrase->穿过一片[terrainfeature]</Tornado.rulePack.rulesStrings.11>
-  <Tornado.rulePack.rulesStrings.12>circumstance_phrase->席卷了整片[terrainfeature]</Tornado.rulePack.rulesStrings.12>
-  <Tornado.rulePack.rulesStrings.13>circumstance_phrase->笼罩了整片[terrainfeature]</Tornado.rulePack.rulesStrings.13>
-  <Tornado.rulePack.rulesStrings.14>desc_sentence->[pawn_nameShortDef]十分震惊地望着这一幕。</Tornado.rulePack.rulesStrings.14>
-  <Tornado.rulePack.rulesStrings.15>desc_sentence->[pawn_nameShortDef]望着这一切，[pawn_possessive]的脸上充满恐惧。</Tornado.rulePack.rulesStrings.15>
-  <Tornado.rulePack.rulesStrings.16>desc_sentence->[pawn_nameShortDef]协调人手抵御灾害。</Tornado.rulePack.rulesStrings.16>
-  <Tornado.rulePack.rulesStrings.17>desc_sentence->[quantity_adjphrase][outlander]匆忙准备。</Tornado.rulePack.rulesStrings.17>
-  <Tornado.rulePack.rulesStrings.18>desc_sentence->[quantity_adjphrase][animal]逃离该地区。</Tornado.rulePack.rulesStrings.18>
-  <Tornado.rulePack.rulesStrings.19>desc_sentence->所有动物都逃离了该地区。</Tornado.rulePack.rulesStrings.19>
-
   <Raid.label>袭击</Raid.label>
   <Raid.rulePack.rulesStrings.0>tale_noun->[pawn_nameShortDef]所在的[community]遭遇袭击</Raid.rulePack.rulesStrings.0>
   <Raid.rulePack.rulesStrings.1>tale_noun->[enemy]进攻[pawn_nameShortDef]所在的[community]</Raid.rulePack.rulesStrings.1>
@@ -246,6 +224,7 @@
   <Raid.rulePack.rulesStrings.25>defender_circumstance->闪着[color]的光</Raid.rulePack.rulesStrings.25>
   <Raid.rulePack.rulesStrings.26>defender_circumstance->挑衅性地高举拳头</Raid.rulePack.rulesStrings.26>
   <Raid.rulePack.rulesStrings.27>defender_circumstance->显示[pawn_possessive]肌肉</Raid.rulePack.rulesStrings.27>
+  <Raid.rulePack.rulesStrings.28>defender_circumstance->flexing [PAWN_possessive] muscles</Raid.rulePack.rulesStrings.28>
 
   <Infestation.label>虫灾</Infestation.label>
   <Infestation.rulePack.rulesStrings.0>tale_noun->[pawn_nameShortDef]所在的[community]被虫害侵袭</Infestation.rulePack.rulesStrings.0>
@@ -294,6 +273,7 @@
   <ManhunterPack.rulePack.rulesStrings.21>desc_sentence->地上到处都是[gore]。</ManhunterPack.rulePack.rulesStrings.21>
   <ManhunterPack.rulePack.rulesStrings.22>desc_sentence->[quantity_adjphrase][outlander]逃离该地区。</ManhunterPack.rulePack.rulesStrings.22>
   <ManhunterPack.rulePack.rulesStrings.23>desc_sentence->[quantity_adjphrase][animal]逃离该地区。</ManhunterPack.rulePack.rulesStrings.23>
+  <ManhunterPack.rulePack.rulesStrings.24>desc_sentence->[Quantity_adjphrase] [Animal]s flee the area.</ManhunterPack.rulePack.rulesStrings.24>
 
   <ShipPartCrash.label>飞船部件坠落</ShipPartCrash.label>
   <ShipPartCrash.rulePack.rulesStrings.0>tale_noun->一个[mechanoid]部件紧急着陆在[pawn_nameShortDef]所在的[community]附近</ShipPartCrash.rulePack.rulesStrings.0>
@@ -372,6 +352,55 @@
   <JourneyOffer.rulePack.rulesStrings.24>desc_sentence->[pawn_nameShortDef]坐在一片[terrainfeature]附近。</JourneyOffer.rulePack.rulesStrings.24>
   <JourneyOffer.rulePack.rulesStrings.25>desc_sentence->远处的[community]依稀可见。</JourneyOffer.rulePack.rulesStrings.25>
   <JourneyOffer.rulePack.rulesStrings.26>desc_sentence->远处的宇宙飞船依稀可见。</JourneyOffer.rulePack.rulesStrings.26>
+
+
+  <!-- Not sure if the above note refers to just Tornado or also TornadoFromItem -->
+
+  <Tornado.label>龙卷风</Tornado.label>
+  <Tornado.rulePack.rulesStrings.0>tale_noun->龙卷风在[pawn_nameShortDef]所在的[community]附近登陆</Tornado.rulePack.rulesStrings.0>
+  <Tornado.rulePack.rulesStrings.1>tale_noun->[pawn_nameShortDef]所在的[community]受到恶劣天气侵袭</Tornado.rulePack.rulesStrings.1>
+  <Tornado.rulePack.rulesStrings.2>image->[behavior]锥形气旋[circumstance_phrase]</Tornado.rulePack.rulesStrings.2>
+  <Tornado.rulePack.rulesStrings.3>image->[behavior]龙卷风[circumstance_phrase]</Tornado.rulePack.rulesStrings.3>
+  <Tornado.rulePack.rulesStrings.4>image->[behavior]飓风[circumstance_phrase]</Tornado.rulePack.rulesStrings.4>
+  <Tornado.rulePack.rulesStrings.5>image->[behavior][color]云柱[circumstance_phrase]</Tornado.rulePack.rulesStrings.5>
+  <Tornado.rulePack.rulesStrings.6>behavior->加强的</Tornado.rulePack.rulesStrings.6>
+  <Tornado.rulePack.rulesStrings.7>behavior->附近的</Tornado.rulePack.rulesStrings.7>
+  <Tornado.rulePack.rulesStrings.8>behavior->快速移动的</Tornado.rulePack.rulesStrings.8>
+  <Tornado.rulePack.rulesStrings.9>behavior->高速旋转的</Tornado.rulePack.rulesStrings.9>
+  <Tornado.rulePack.rulesStrings.10>circumstance_phrase->卷起碎片</Tornado.rulePack.rulesStrings.10>
+  <Tornado.rulePack.rulesStrings.11>circumstance_phrase->穿过一片[terrainfeature]</Tornado.rulePack.rulesStrings.11>
+  <Tornado.rulePack.rulesStrings.12>circumstance_phrase->席卷了整片[terrainfeature]</Tornado.rulePack.rulesStrings.12>
+  <Tornado.rulePack.rulesStrings.13>circumstance_phrase->笼罩了整片[terrainfeature]</Tornado.rulePack.rulesStrings.13>
+  <Tornado.rulePack.rulesStrings.14>desc_sentence->[pawn_nameShortDef]十分震惊地望着这一幕。</Tornado.rulePack.rulesStrings.14>
+  <Tornado.rulePack.rulesStrings.15>desc_sentence->[pawn_nameShortDef]望着这一切，[pawn_possessive]的脸上充满恐惧。</Tornado.rulePack.rulesStrings.15>
+  <Tornado.rulePack.rulesStrings.16>desc_sentence->[pawn_nameShortDef]协调人手抵御灾害。</Tornado.rulePack.rulesStrings.16>
+  <Tornado.rulePack.rulesStrings.17>desc_sentence->[quantity_adjphrase][outlander]匆忙准备。</Tornado.rulePack.rulesStrings.17>
+  <Tornado.rulePack.rulesStrings.18>desc_sentence->[quantity_adjphrase][animal]逃离该地区。</Tornado.rulePack.rulesStrings.18>
+  <Tornado.rulePack.rulesStrings.19>desc_sentence->所有动物都逃离了该地区。</Tornado.rulePack.rulesStrings.19>
+
+  <TornadoFromItem.label>tornado</TornadoFromItem.label>
+  <TornadoFromItem.rulePack.rulesStrings.0>tale_noun->a tornado that touched down near [COLONIST_nameDef]'s [Community]</TornadoFromItem.rulePack.rulesStrings.0>
+  <TornadoFromItem.rulePack.rulesStrings.1>tale_noun->[COLONIST_nameDef]'s [Community] menaced by a tornado</TornadoFromItem.rulePack.rulesStrings.1>
+  <TornadoFromItem.rulePack.rulesStrings.2>image->[behavior] cone of twisting air [circumstance_phrase]</TornadoFromItem.rulePack.rulesStrings.2>
+  <TornadoFromItem.rulePack.rulesStrings.3>image->[behavior] tornado [circumstance_phrase]</TornadoFromItem.rulePack.rulesStrings.3>
+  <TornadoFromItem.rulePack.rulesStrings.4>image->[behavior] hurricane [circumstance_phrase]</TornadoFromItem.rulePack.rulesStrings.4>
+  <TornadoFromItem.rulePack.rulesStrings.5>image->[behavior] [Color] cloud formation [circumstance_phrase]</TornadoFromItem.rulePack.rulesStrings.5>
+  <TornadoFromItem.rulePack.rulesStrings.6>behavior->an advancing</TornadoFromItem.rulePack.rulesStrings.6>
+  <TornadoFromItem.rulePack.rulesStrings.7>behavior->an approaching</TornadoFromItem.rulePack.rulesStrings.7>
+  <TornadoFromItem.rulePack.rulesStrings.8>behavior->a quickly-moving</TornadoFromItem.rulePack.rulesStrings.8>
+  <TornadoFromItem.rulePack.rulesStrings.9>behavior->a swirling</TornadoFromItem.rulePack.rulesStrings.9>
+  <TornadoFromItem.rulePack.rulesStrings.10>circumstance_phrase->carrying debris with it</TornadoFromItem.rulePack.rulesStrings.10>
+  <TornadoFromItem.rulePack.rulesStrings.11>circumstance_phrase->passing over a [TerrainFeature]</TornadoFromItem.rulePack.rulesStrings.11>
+  <TornadoFromItem.rulePack.rulesStrings.12>circumstance_phrase->obscuring a [TerrainFeature]</TornadoFromItem.rulePack.rulesStrings.12>
+  <TornadoFromItem.rulePack.rulesStrings.13>circumstance_phrase->enveloping a [TerrainFeature]</TornadoFromItem.rulePack.rulesStrings.13>
+  <TornadoFromItem.rulePack.rulesStrings.14>desc_sentence->[COLONIST_nameDef] watches with visible fright.</TornadoFromItem.rulePack.rulesStrings.14>
+  <TornadoFromItem.rulePack.rulesStrings.15>desc_sentence(p=0.5)->[COLONIST_nameDef] watches with awe on [COLONIST_possessive] face.</TornadoFromItem.rulePack.rulesStrings.15>
+  <TornadoFromItem.rulePack.rulesStrings.16>desc_sentence(p=0.5)->[ATTACKER_nameDef] watches with awe on [ATTACKER_possessive] face.</TornadoFromItem.rulePack.rulesStrings.16>
+  <TornadoFromItem.rulePack.rulesStrings.17>desc_sentence->[COLONIST_nameDef] is coordinating defensive measures.</TornadoFromItem.rulePack.rulesStrings.17>
+  <TornadoFromItem.rulePack.rulesStrings.18>desc_sentence->[ATTACKER_nameDef] cackles with glee.</TornadoFromItem.rulePack.rulesStrings.18>
+  <TornadoFromItem.rulePack.rulesStrings.19>desc_sentence->[Quantity_adjphrase] [Person]s rush to prepare.</TornadoFromItem.rulePack.rulesStrings.19>
+  <TornadoFromItem.rulePack.rulesStrings.20>desc_sentence->[Quantity_adjphrase] [Animal]s flee the area.</TornadoFromItem.rulePack.rulesStrings.20>
+  <TornadoFromItem.rulePack.rulesStrings.21>desc_sentence->All animal life has left the area.</TornadoFromItem.rulePack.rulesStrings.21>
 
 
 </LanguageData>

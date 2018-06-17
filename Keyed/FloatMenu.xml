@@ -32,14 +32,20 @@
   <NotInHomeArea>位于居住区外</NotInHomeArea>
   <BurningLower>燃烧中</BurningLower>
   <NoEmptyPlaceLower>未配置空余的、可到达的储存点</NoEmptyPlaceLower>
+  <NoMergeTarget>no stack available to merge into</NoMergeTarget>
   <AlreadyFilledLower>已装满</AlreadyFilledLower>
   <MissingMaterials>需要材料</MissingMaterials>
-  <MissingSkill>技能过低</MissingSkill>
-  <NoEmptyGraveLower>未配置空的坟墓</NoEmptyGraveLower>
+  <UnderRequiredSkill>under required skill {0}</UnderRequiredSkill>
+  <UnderAllowedSkill>under allowed skill {0}</UnderAllowedSkill>
+  <AboveAllowedSkill>above allowed skill {0}</AboveAllowedSkill>
+  <MissingRequiredSkillLevel>missing required skill level</MissingRequiredSkillLevel>
   <AnimalInteractedTooRecently>动物互动过于频繁</AnimalInteractedTooRecently>
   <NoUsableFood>缺少可用食物</NoUsableFood>
   <NoFood>缺少食物</NoFood>
   <AnimalsSkillTooLow>驯兽技能过低</AnimalsSkillTooLow>
+  <CantInteractAnimalDowned>animal downed</CantInteractAnimalDowned>
+  <CantInteractAnimalAsleep>animal sleeping</CantInteractAnimalAsleep>
+  <CantInteractAnimalBusy>animal busy</CantInteractAnimalBusy>
   <ConstructionSkillTooLow>建造技能过低</ConstructionSkillTooLow>
   <NoComponentsToRepair>需要零部件</NoComponentsToRepair>
   <NoFuelToRefuel>需要{0}</NoFuelToRefuel>
@@ -50,8 +56,10 @@
   <ReservedForPrisoners>已预留给囚犯</ReservedForPrisoners>
   <CannotReach>无法到达</CannotReach>
   <NotSurgeryReady>未准备好手术</NotSurgeryReady>
+  <SkillDisabled>skill incapable</SkillDisabled>
   <CantSowCavePlantBecauseOfLight>过于光亮</CantSowCavePlantBecauseOfLight>
   <CantSowCavePlantBecauseUnroofed>无屋顶</CantSowCavePlantBecauseUnroofed>
+  <IncapableOfDeconstruction>incapable of deconstruction</IncapableOfDeconstruction>
 
   <ConsumeThing>享用{0}</ConsumeThing>
 
@@ -88,6 +96,7 @@
   <Equip>装备{0}</Equip>
   <EquipWarningBrawler>（格斗者会不高兴）</EquipWarningBrawler>
   <CannotEquip>无法装备{0}</CannotEquip>
+  <CannotManThing>Cannot man {0}</CannotManThing>
 
   <ForceWear>强制穿上{0}</ForceWear>
   <CannotWear>无法穿上{0}</CannotWear>
@@ -107,8 +116,17 @@
   <GiveToPackAnimalSome>将{0}交给动物携带…</GiveToPackAnimalSome>
   <GiveToPackAnimalCount>将{0} x{{0}}交给动物携带</GiveToPackAnimalCount>
 
+  <CannotLoadIntoCaravan>Cannot load {0} into caravan</CannotLoadIntoCaravan>
+  <CannotLoadIntoCaravanAll>Cannot load {0} (all) into caravan</CannotLoadIntoCaravanAll>
+  <LoadIntoCaravan>Load {0} into caravan</LoadIntoCaravan>
+  <LoadIntoCaravanAll>Load {0} (all) into caravan</LoadIntoCaravanAll>
+  <LoadIntoCaravanSome>Load {0} into caravan...</LoadIntoCaravanSome>
+  <LoadIntoCaravanCount>Load {0} x{{0}}</LoadIntoCaravanCount>
+  <OverweightLower>overweight</OverweightLower>
+
   <CannotCarryToExit>无法携带{0}离开该地区</CannotCarryToExit>
   <CarryToExit>携带{0}离开该地区</CarryToExit>
+  <CarryToExitAndCapture>Capture {0} and leave the area</CarryToExitAndCapture>
 
   <Strip>剥光{0}</Strip>
   <CannotStrip>无法剥光{0}</CannotStrip>
@@ -127,10 +145,11 @@
   <EnterMap>进入{0}</EnterMap>
   <VisitSettlement>访问{0}</VisitSettlement>
   <VisitPeaceTalks>访问{0}</VisitPeaceTalks>
-  <VisitSite>访问{0}</VisitSite>
   <VisitEscapeShip>访问{0}</VisitEscapeShip>
-  <AttackSite>进攻{0}</AttackSite>
   <AttackSettlement>进攻{0}</AttackSettlement>
+  <ApproachSite>Approach {0}</ApproachSite>
+  <ApproachingSite>Approaching {0}</ApproachingSite>
+  <OfferGifts>Offer gifts</OfferGifts>
 
   <!-- Specific thing interactions -->
   <EnterCryptosleepCasket>进入低温休眠舱</EnterCryptosleepCasket>
@@ -138,21 +157,25 @@
 
   <!-- e.g. Cannot VERB OBJECT, Cannot repair wall, Cannot haul metal, etc.-->
   <CannotGenericWork>无法{0}{1}</CannotGenericWork>
+  <CannotGenericWorkCustom>Cannot {0}</CannotGenericWorkCustom>
 
-  <!-- e.g. Already GERUND OBJECt, Already repairing wall, already hauling metal, etc-->
   <CannotMissingHealthActivities>无法优先（健康问题: {0}）</CannotMissingHealthActivities>
 
+  <!-- e.g. Already GERUND OBJECt, Already repairing wall, already hauling metal, etc-->
   <CannotGenericAlreadyAm>已经在{0}{1}中</CannotGenericAlreadyAm>
 
   <CannotPrioritizeWorkTypeDisabled>无法优先（无法从事: {0}）</CannotPrioritizeWorkTypeDisabled>
 
   <CannotPrioritizeWorkGiverDisabled>无法优先（无法{0}）</CannotPrioritizeWorkGiverDisabled>
+  <WillNever>will never {0}</WillNever>
 
   <CannotPrioritizeNotAssignedToWorkType>无法优先（未指派工作: {0}）</CannotPrioritizeNotAssignedToWorkType>
+  <NotAssigned>not assigned</NotAssigned>
 
   <CannotPrioritizeResearch>无法优先（研究为长期工作）</CannotPrioritizeResearch>
 
   <CannotPrioritizeForbidden>无法优先（{0}已被禁用）</CannotPrioritizeForbidden>
+  <CannotPrioritizeCellForbidden>Cannot prioritize (forbidden)</CannotPrioritizeCellForbidden>
   <CannotPrioritizeForbiddenOutsideAllowedArea>无法优先（{0}位于允许活动区域外）</CannotPrioritizeForbiddenOutsideAllowedArea>
 
   <!-- e.g. Prioritize GERUND OBJECT, Prioritize repairing wall, prioritize hauling metal, etc-->
@@ -160,11 +183,36 @@
 
   <DropAtEdge>空投至边缘</DropAtEdge>
   <DropInCenter>空投至中心</DropInCenter>
+  <AttackAndDropAtEdge>Attack {0}: Drop at edge</AttackAndDropAtEdge>
+  <AttackAndDropInCenter>Attack {0}: Drop in center</AttackAndDropInCenter>
 
   <VomitingLower>呕吐中</VomitingLower>
   <NotInterruptibleLower>不可中断</NotInterruptibleLower>
 
   <AddWaypoint>在此处添加新的路径点</AddWaypoint>
   <RemoveWaypoint>移除此路径点</RemoveWaypoint>
+
+  <RemoveAllDesignations>Cancel all designations</RemoveAllDesignations>
+  <DesignateAll>Designate all</DesignateAll>
+  <CountToDesignate>{0} affected</CountToDesignate>
+  <ForbidAllItems>Forbid all items</ForbidAllItems>
+  <UnforbidAllItems>Unforbid all items</UnforbidAllItems>
+  <RearmAllTraps>Rearm all traps</RearmAllTraps>
+
+  <!-- Transport pods -->
+  <LandInExistingMap>Zoom in and choose a landing spot in {0}</LandInExistingMap>
+  <TransportPodsContentsWillBeLost>The contents will be lost</TransportPodsContentsWillBeLost>
+  <FormCaravanHere>Form caravan here</FormCaravanHere>
+  <GiveToCaravan>Give to {0}</GiveToCaravan>
+  <GiveGiftViaTransportPods>Give as a gift to {0} ({1})</GiveGiftViaTransportPods>
+
+  <!-- Rescue quest -->
+  <FreePrisoner>Free prisoner</FreePrisoner>
+  <OfferHelp>Offer help</OfferHelp>
+
+  <!--<MissingSkill>技能过低</MissingSkill>-->
+  <!--<NoEmptyGraveLower>未配置空的坟墓</NoEmptyGraveLower>-->
+  <!--<VisitSite>访问{0}</VisitSite>-->
+  <!--<AttackSite>进攻{0}</AttackSite>-->
 
 </LanguageData>

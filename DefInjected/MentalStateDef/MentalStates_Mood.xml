@@ -15,14 +15,8 @@
   <FireStartingSpree.recoveryMessage>{0}停止纵火了。</FireStartingSpree.recoveryMessage>
   <FireStartingSpree.baseInspectLine>精神状态: 纵火</FireStartingSpree.baseInspectLine>
 
-  <GiveUpExit.label>放弃离开</GiveUpExit.label>
-  <GiveUpExit.beginLetter>{0} 已经放弃并离开殖民地。</GiveUpExit.beginLetter>
-  <GiveUpExit.beginLetterLabel>放弃</GiveUpExit.beginLetterLabel>
-  <GiveUpExit.recoveryMessage>{0}改变心意，并返回殖民地。</GiveUpExit.recoveryMessage>
-  <GiveUpExit.baseInspectLine>精神状态: 放弃离开</GiveUpExit.baseInspectLine>
-
-  <BingingDrugExtreme.label>沉迷成瘾品</BingingDrugExtreme.label>
-  <BingingDrugExtreme.baseInspectLine>精神状态: 沉迷{0}</BingingDrugExtreme.baseInspectLine>
+  <Binging_DrugExtreme.label>binging on drug</Binging_DrugExtreme.label>
+  <Binging_DrugExtreme.baseInspectLine>Mental state: Binging on {0}</Binging_DrugExtreme.baseInspectLine>
 
   <Jailbreaker.label>鼓动囚犯越狱</Jailbreaker.label>
   <Jailbreaker.beginLetter>{0} 精神已经崩溃，并正打算鼓动囚犯越狱。</Jailbreaker.beginLetter>
@@ -42,17 +36,23 @@
   <MurderousRage.recoveryMessage>{0}已从发狂行凶状态脱离出来。</MurderousRage.recoveryMessage>
   <MurderousRage.baseInspectLine>精神状态: 发狂行凶</MurderousRage.baseInspectLine>
 
+  <GiveUpExit.label>放弃离开</GiveUpExit.label>
+  <GiveUpExit.beginLetter>{0} 已经放弃并离开殖民地。</GiveUpExit.beginLetter>
+  <GiveUpExit.beginLetterLabel>放弃</GiveUpExit.beginLetterLabel>
+  <GiveUpExit.recoveryMessage>{0}改变心意，并返回殖民地。</GiveUpExit.recoveryMessage>
+  <GiveUpExit.baseInspectLine>精神状态: 放弃离开</GiveUpExit.baseInspectLine>
+
 
   <!-- Mental breaks: major -->
 
-  <BingingDrugMajor.label>滥用成瘾品</BingingDrugMajor.label>
-  <BingingDrugMajor.baseInspectLine>精神状态: 沉迷于{0}</BingingDrugMajor.baseInspectLine>
+  <Binging_DrugMajor.label>binging on drug</Binging_DrugMajor.label>
+  <Binging_DrugMajor.baseInspectLine>Mental state: Binging on {0}</Binging_DrugMajor.baseInspectLine>
 
-  <WanderPsychotic.label>茫然徘徊</WanderPsychotic.label>
-  <WanderPsychotic.beginLetter>{0} 已经失控，迷茫着四处徘徊。</WanderPsychotic.beginLetter>
-  <WanderPsychotic.beginLetterLabel>茫然徘徊</WanderPsychotic.beginLetterLabel>
-  <WanderPsychotic.recoveryMessage>{0}已从茫然徘徊状态脱离出来。</WanderPsychotic.recoveryMessage>
-  <WanderPsychotic.baseInspectLine>精神状态: 迷茫徘徊</WanderPsychotic.baseInspectLine>
+  <Wander_Psychotic.label>wandering in psychosis</Wander_Psychotic.label>
+  <Wander_Psychotic.beginLetter>{0} is wandering around in a psychotic state.</Wander_Psychotic.beginLetter>
+  <Wander_Psychotic.beginLetterLabel>daze</Wander_Psychotic.beginLetterLabel>
+  <Wander_Psychotic.recoveryMessage>{0} is no longer wandering in a psychotic state.</Wander_Psychotic.recoveryMessage>
+  <Wander_Psychotic.baseInspectLine>Mental state: Psychotic wandering</Wander_Psychotic.baseInspectLine>
 
   <Tantrum.label>发脾气</Tantrum.label>
   <Tantrum.beginLetter>{0} 正在发脾气。</Tantrum.beginLetter>
@@ -87,23 +87,23 @@
 
   <!-- Mental breaks: minor -->
 
-  <BingingFood.label>暴饮暴食</BingingFood.label>
-  <BingingFood.beginLetter>{0} 正在暴饮暴食。</BingingFood.beginLetter>
-  <BingingFood.beginLetterLabel>暴饮暴食</BingingFood.beginLetterLabel>
-  <BingingFood.recoveryMessage>{0}不再暴饮暴食了。</BingingFood.recoveryMessage>
-  <BingingFood.baseInspectLine>精神状态: 暴饮暴食</BingingFood.baseInspectLine>
+  <Binging_Food.label>binging on food</Binging_Food.label>
+  <Binging_Food.beginLetter>{0} is pigging out on food.</Binging_Food.beginLetter>
+  <Binging_Food.beginLetterLabel>food binge</Binging_Food.beginLetterLabel>
+  <Binging_Food.recoveryMessage>{0} is no longer pigging out on food.</Binging_Food.recoveryMessage>
+  <Binging_Food.baseInspectLine>Mental state: Pigging out</Binging_Food.baseInspectLine>
 
-  <WanderSad.label>悲伤徘徊</WanderSad.label>
-  <WanderSad.beginLetter>{0} 已经失控，悲伤着四处徘徊。</WanderSad.beginLetter>
-  <WanderSad.beginLetterLabel>悲伤徘徊</WanderSad.beginLetterLabel>
-  <WanderSad.recoveryMessage>{0}不再悲伤徘徊。</WanderSad.recoveryMessage>
-  <WanderSad.baseInspectLine>精神状态: 悲伤徘徊</WanderSad.baseInspectLine>
+  <Wander_Sad.label>sad wandering</Wander_Sad.label>
+  <Wander_Sad.beginLetter>{0} has broken down and is wandering around in sadness.</Wander_Sad.beginLetter>
+  <Wander_Sad.beginLetterLabel>sad wander</Wander_Sad.beginLetterLabel>
+  <Wander_Sad.recoveryMessage>{0} is no longer wandering in sadness.</Wander_Sad.recoveryMessage>
+  <Wander_Sad.baseInspectLine>Mental state: Sad wandering</Wander_Sad.baseInspectLine>
 
-  <WanderOwnRoom.label>封闭自我</WanderOwnRoom.label>
-  <WanderOwnRoom.beginLetter>{0} 把自己关在房间中。</WanderOwnRoom.beginLetter>
-  <WanderOwnRoom.beginLetterLabel>封闭自我</WanderOwnRoom.beginLetterLabel>
-  <WanderOwnRoom.recoveryMessage>{0}不再把自己关在房间中。</WanderOwnRoom.recoveryMessage>
-  <WanderOwnRoom.baseInspectLine>精神状态: 封闭自我</WanderOwnRoom.baseInspectLine>
+  <Wander_OwnRoom.label>sitting alone</Wander_OwnRoom.label>
+  <Wander_OwnRoom.beginLetter>{0} is hiding in [PAWN_possessive] room.</Wander_OwnRoom.beginLetter>
+  <Wander_OwnRoom.beginLetterLabel>hide in room</Wander_OwnRoom.beginLetterLabel>
+  <Wander_OwnRoom.recoveryMessage>{0} is no longer hiding in [PAWN_possessive] room.</Wander_OwnRoom.recoveryMessage>
+  <Wander_OwnRoom.baseInspectLine>Mental state: Hiding in room</Wander_OwnRoom.baseInspectLine>
 
   <InsultingSpree.label>侮辱纵乐</InsultingSpree.label>
   <InsultingSpree.beginLetter>{0} 开始侮辱纵乐。</InsultingSpree.beginLetter>
@@ -117,5 +117,30 @@
   <TargetedInsultingSpree.recoveryMessage></TargetedInsultingSpree.recoveryMessage>
   <TargetedInsultingSpree.baseInspectLine>精神状态: 对{0}侮辱纵乐。</TargetedInsultingSpree.baseInspectLine>
 
+
+  <!--<BingingDrugExtreme.label>沉迷成瘾品</BingingDrugExtreme.label>-->
+  <!--<BingingDrugExtreme.baseInspectLine>精神状态: 沉迷{0}</BingingDrugExtreme.baseInspectLine>-->
+  <!--<BingingDrugMajor.label>滥用成瘾品</BingingDrugMajor.label>-->
+  <!--<BingingDrugMajor.baseInspectLine>精神状态: 沉迷于{0}</BingingDrugMajor.baseInspectLine>-->
+  <!--<WanderPsychotic.label>茫然徘徊</WanderPsychotic.label>-->
+  <!--<WanderPsychotic.beginLetter>{0} 已经失控，迷茫着四处徘徊。</WanderPsychotic.beginLetter>-->
+  <!--<WanderPsychotic.beginLetterLabel>茫然徘徊</WanderPsychotic.beginLetterLabel>-->
+  <!--<WanderPsychotic.recoveryMessage>{0}已从茫然徘徊状态脱离出来。</WanderPsychotic.recoveryMessage>-->
+  <!--<WanderPsychotic.baseInspectLine>精神状态: 迷茫徘徊</WanderPsychotic.baseInspectLine>-->
+  <!--<BingingFood.label>暴饮暴食</BingingFood.label>-->
+  <!--<BingingFood.beginLetter>{0} 正在暴饮暴食。</BingingFood.beginLetter>-->
+  <!--<BingingFood.beginLetterLabel>暴饮暴食</BingingFood.beginLetterLabel>-->
+  <!--<BingingFood.recoveryMessage>{0}不再暴饮暴食了。</BingingFood.recoveryMessage>-->
+  <!--<BingingFood.baseInspectLine>精神状态: 暴饮暴食</BingingFood.baseInspectLine>-->
+  <!--<WanderSad.label>悲伤徘徊</WanderSad.label>-->
+  <!--<WanderSad.beginLetter>{0} 已经失控，悲伤着四处徘徊。</WanderSad.beginLetter>-->
+  <!--<WanderSad.beginLetterLabel>悲伤徘徊</WanderSad.beginLetterLabel>-->
+  <!--<WanderSad.recoveryMessage>{0}不再悲伤徘徊。</WanderSad.recoveryMessage>-->
+  <!--<WanderSad.baseInspectLine>精神状态: 悲伤徘徊</WanderSad.baseInspectLine>-->
+  <!--<WanderOwnRoom.label>封闭自我</WanderOwnRoom.label>-->
+  <!--<WanderOwnRoom.beginLetter>{0} 把自己关在房间中。</WanderOwnRoom.beginLetter>-->
+  <!--<WanderOwnRoom.beginLetterLabel>封闭自我</WanderOwnRoom.beginLetterLabel>-->
+  <!--<WanderOwnRoom.recoveryMessage>{0}不再把自己关在房间中。</WanderOwnRoom.recoveryMessage>-->
+  <!--<WanderOwnRoom.baseInspectLine>精神状态: 封闭自我</WanderOwnRoom.baseInspectLine>-->
 
 </LanguageData>

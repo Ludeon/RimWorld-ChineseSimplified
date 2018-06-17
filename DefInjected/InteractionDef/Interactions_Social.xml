@@ -5,21 +5,86 @@
 
   <Chitchat.label>闲谈</Chitchat.label>
   <Chitchat.logRulesInitiator.rulesStrings.0>logentry->和[other_nameShortIndef]友好交谈。</Chitchat.logRulesInitiator.rulesStrings.0>
+  <Chitchat.logRulesInitiator.rulesStrings.1>r_logentry->[INITIATOR_nameIndef] [talkedabout] [TalkTopic_light] with [RECIPIENT_nameIndef].</Chitchat.logRulesInitiator.rulesStrings.1>
+  <Chitchat.logRulesInitiator.rulesStrings.2>talkedabout(p=4)->chatted about</Chitchat.logRulesInitiator.rulesStrings.2>
+  <Chitchat.logRulesInitiator.rulesStrings.3>talkedabout->shared a word about</Chitchat.logRulesInitiator.rulesStrings.3>
+  <Chitchat.logRulesInitiator.rulesStrings.4>talkedabout->spoke about</Chitchat.logRulesInitiator.rulesStrings.4>
+  <Chitchat.logRulesInitiator.rulesStrings.5>talkedabout->gabbed about</Chitchat.logRulesInitiator.rulesStrings.5>
+  <Chitchat.logRulesInitiator.rulesStrings.6>talkedabout->talked about</Chitchat.logRulesInitiator.rulesStrings.6>
+  <Chitchat.logRulesInitiator.rulesStrings.7>talkedabout->joked about</Chitchat.logRulesInitiator.rulesStrings.7>
+  <Chitchat.logRulesInitiator.rulesStrings.8>talkedabout->quipped about</Chitchat.logRulesInitiator.rulesStrings.8>
 
   <DeepTalk.label>深入交谈</DeepTalk.label>
   <DeepTalk.logRulesInitiator.rulesStrings.0>logentry->和[other_nameShortIndef]深入交谈。</DeepTalk.logRulesInitiator.rulesStrings.0>
+  <DeepTalk.logRulesInitiator.rulesStrings.1>r_logentry->[INITIATOR_nameIndef] [talkedabout] [subject] with [RECIPIENT_nameIndef].</DeepTalk.logRulesInitiator.rulesStrings.1>
+  <DeepTalk.logRulesInitiator.rulesStrings.2>talkedabout->communicated thoughts about</DeepTalk.logRulesInitiator.rulesStrings.2>
+  <DeepTalk.logRulesInitiator.rulesStrings.3>talkedabout->exchanged thoughts about</DeepTalk.logRulesInitiator.rulesStrings.3>
+  <DeepTalk.logRulesInitiator.rulesStrings.4>talkedabout->exchanged ideas about</DeepTalk.logRulesInitiator.rulesStrings.4>
+  <DeepTalk.logRulesInitiator.rulesStrings.5>talkedabout->shared views on</DeepTalk.logRulesInitiator.rulesStrings.5>
+  <DeepTalk.logRulesInitiator.rulesStrings.6>talkedabout->shared beliefs on</DeepTalk.logRulesInitiator.rulesStrings.6>
+  <DeepTalk.logRulesInitiator.rulesStrings.7>talkedabout->discussed the topic of</DeepTalk.logRulesInitiator.rulesStrings.7>
+  <DeepTalk.logRulesInitiator.rulesStrings.8>talkedabout->had a heartfelt conversation about</DeepTalk.logRulesInitiator.rulesStrings.8>
+  <DeepTalk.logRulesInitiator.rulesStrings.9>talkedabout->talked quietly about</DeepTalk.logRulesInitiator.rulesStrings.9>
+  <DeepTalk.logRulesInitiator.rulesStrings.10>talkedabout->talked deeply about</DeepTalk.logRulesInitiator.rulesStrings.10>
+  <DeepTalk.logRulesInitiator.rulesStrings.11>talkedabout->connected on the topic of</DeepTalk.logRulesInitiator.rulesStrings.11>
+  <DeepTalk.logRulesInitiator.rulesStrings.12>subject(p=2)->[TalkTopic_heavy]</DeepTalk.logRulesInitiator.rulesStrings.12>
+  <DeepTalk.logRulesInitiator.rulesStrings.13>subject->[TalkTopic_light]</DeepTalk.logRulesInitiator.rulesStrings.13>
 
   <Slight.label>怠慢</Slight.label>
   <Slight.logRulesInitiator.rulesStrings.0>logentry->怠慢[other_nameShortIndef]。</Slight.logRulesInitiator.rulesStrings.0>
-  <Slight.logRulesRecipient.rulesStrings.0>logentry->被[other_nameShortIndef]怠慢。</Slight.logRulesRecipient.rulesStrings.0>
+  <Slight.logRulesInitiator.rulesStrings.1>target(p=4)->[RECIPIENT_nameIndef]</Slight.logRulesInitiator.rulesStrings.1>
+  <Slight.logRulesInitiator.rulesStrings.2>target->[RECIPIENT_nameIndef]'s [Family]</Slight.logRulesInitiator.rulesStrings.2>
+  <Slight.logRulesInitiator.rulesStrings.3>madefunof->made fun of</Slight.logRulesInitiator.rulesStrings.3>
+  <Slight.logRulesInitiator.rulesStrings.4>madefunof->disrespected</Slight.logRulesInitiator.rulesStrings.4>
+  <Slight.logRulesInitiator.rulesStrings.5>madefunof->subtly scorned</Slight.logRulesInitiator.rulesStrings.5>
+  <Slight.logRulesInitiator.rulesStrings.6>madefunof->subtly shamed</Slight.logRulesInitiator.rulesStrings.6>
+  <Slight.logRulesInitiator.rulesStrings.7>madefunof->spoke badly of</Slight.logRulesInitiator.rulesStrings.7>
+  <Slight.logRulesInitiator.rulesStrings.8>madefunof->spoke negatively of</Slight.logRulesInitiator.rulesStrings.8>
+  <Slight.logRulesInitiator.rulesStrings.9>madefunof->laughed at</Slight.logRulesInitiator.rulesStrings.9>
+  <Slight.logRulesInitiator.rulesStrings.10>madefunof->sniggered at</Slight.logRulesInitiator.rulesStrings.10>
+  <Slight.logRulesInitiator.rulesStrings.11>madefunof->implied negative things about</Slight.logRulesInitiator.rulesStrings.11>
+  <Slight.logRulesInitiator.rulesStrings.12>madefunof->belittled</Slight.logRulesInitiator.rulesStrings.12>
+  <Slight.logRulesInitiator.rulesStrings.13>madefunof->made a contemptuous remark about</Slight.logRulesInitiator.rulesStrings.13>
+  <Slight.logRulesInitiator.rulesStrings.14>madefunof->offered a backhanded compliment about</Slight.logRulesInitiator.rulesStrings.14>
 
   <Insult.label>侮辱</Insult.label>
   <Insult.logRulesInitiator.rulesStrings.0>logentry->侮辱[other_nameShortIndef]。</Insult.logRulesInitiator.rulesStrings.0>
-  <Insult.logRulesRecipient.rulesStrings.0>logentry->被[other_nameShortIndef]侮辱。</Insult.logRulesRecipient.rulesStrings.0>
+  <Insult.logRulesInitiator.rulesStrings.1>r_logentry->[INITIATOR_nameIndef] compared [target] to a [insultcomparison].</Insult.logRulesInitiator.rulesStrings.1>
+  <Insult.logRulesInitiator.rulesStrings.2>r_logentry->[INITIATOR_nameIndef] called [target] a [insultcomparison].</Insult.logRulesInitiator.rulesStrings.2>
+  <Insult.logRulesInitiator.rulesStrings.3>target(p=4)->[RECIPIENT_nameIndef]</Insult.logRulesInitiator.rulesStrings.3>
+  <Insult.logRulesInitiator.rulesStrings.4>target->[RECIPIENT_nameIndef]'s [Family]</Insult.logRulesInitiator.rulesStrings.4>
+  <Insult.logRulesInitiator.rulesStrings.5>insulted(p=3)->insulted</Insult.logRulesInitiator.rulesStrings.5>
+  <Insult.logRulesInitiator.rulesStrings.6>insulted->openly insulted</Insult.logRulesInitiator.rulesStrings.6>
+  <Insult.logRulesInitiator.rulesStrings.7>insulted->loudly insulted</Insult.logRulesInitiator.rulesStrings.7>
+  <Insult.logRulesInitiator.rulesStrings.8>insulted->flagrantly insulted</Insult.logRulesInitiator.rulesStrings.8>
+  <Insult.logRulesInitiator.rulesStrings.9>insulted->directly insulted</Insult.logRulesInitiator.rulesStrings.9>
+  <Insult.logRulesInitiator.rulesStrings.10>insulted->viciously insulted</Insult.logRulesInitiator.rulesStrings.10>
+  <Insult.logRulesInitiator.rulesStrings.11>insulted->flagrantly disrespected</Insult.logRulesInitiator.rulesStrings.11>
+  <Insult.logRulesInitiator.rulesStrings.12>insulted->slandered</Insult.logRulesInitiator.rulesStrings.12>
+  <Insult.logRulesInitiator.rulesStrings.13>insulted->hurled invective about</Insult.logRulesInitiator.rulesStrings.13>
+  <Insult.logRulesInitiator.rulesStrings.14>insulted->derided</Insult.logRulesInitiator.rulesStrings.14>
+  <Insult.logRulesInitiator.rulesStrings.15>insultcomparison(p=2)->[Animal]</Insult.logRulesInitiator.rulesStrings.15>
+  <Insult.logRulesInitiator.rulesStrings.16>insultcomparison->[Enemy]</Insult.logRulesInitiator.rulesStrings.16>
 
   <KindWords.label>言语关怀</KindWords.label>
   <KindWords.logRulesInitiator.rulesStrings.0>logentry->对[other_nameShortIndef]说了一些关怀的话。</KindWords.logRulesInitiator.rulesStrings.0>
-  <KindWords.logRulesRecipient.rulesStrings.0>logentry->听[other_nameShortIndef]说了一些关怀的话。</KindWords.logRulesRecipient.rulesStrings.0>
+  <KindWords.logRulesInitiator.rulesStrings.1>complimented(p=3)->complimented</KindWords.logRulesInitiator.rulesStrings.1>
+  <KindWords.logRulesInitiator.rulesStrings.2>complimented->praised</KindWords.logRulesInitiator.rulesStrings.2>
+  <KindWords.logRulesInitiator.rulesStrings.3>complimented->commended</KindWords.logRulesInitiator.rulesStrings.3>
+  <KindWords.logRulesInitiator.rulesStrings.4>complimented->lauded</KindWords.logRulesInitiator.rulesStrings.4>
+  <KindWords.logRulesInitiator.rulesStrings.5>complimented->applauded</KindWords.logRulesInitiator.rulesStrings.5>
+  <KindWords.logRulesInitiator.rulesStrings.6>complimented->celebrated</KindWords.logRulesInitiator.rulesStrings.6>
+  <KindWords.logRulesInitiator.rulesStrings.7>complimented->saluted</KindWords.logRulesInitiator.rulesStrings.7>
+  <KindWords.logRulesInitiator.rulesStrings.8>complimented->spoke kindly of</KindWords.logRulesInitiator.rulesStrings.8>
+  <KindWords.logRulesInitiator.rulesStrings.9>complimented->expressed good things about</KindWords.logRulesInitiator.rulesStrings.9>
+  <KindWords.logRulesInitiator.rulesStrings.10>complimented->offered kinds words about</KindWords.logRulesInitiator.rulesStrings.10>
+  <KindWords.logRulesInitiator.rulesStrings.11>complimented->verbally appreciated</KindWords.logRulesInitiator.rulesStrings.11>
+  <KindWords.logRulesInitiator.rulesStrings.12>complimented->expressed appreciation for</KindWords.logRulesInitiator.rulesStrings.12>
+  <KindWords.logRulesInitiator.rulesStrings.13>complimented->said good things about</KindWords.logRulesInitiator.rulesStrings.13>
 
+
+  <!--<Slight.logRulesRecipient.rulesStrings.0>logentry->被[other_nameShortIndef]怠慢。</Slight.logRulesRecipient.rulesStrings.0>-->
+  <!--<Insult.logRulesRecipient.rulesStrings.0>logentry->被[other_nameShortIndef]侮辱。</Insult.logRulesRecipient.rulesStrings.0>-->
+  <!--<KindWords.logRulesRecipient.rulesStrings.0>logentry->听[other_nameShortIndef]说了一些关怀的话。</KindWords.logRulesRecipient.rulesStrings.0>-->
 
 </LanguageData>

@@ -29,14 +29,20 @@
   <DesignatorMine>开采</DesignatorMine>
   <DesignatorMineDesc>标记需要被开采的岩石。</DesignatorMineDesc>
 
-  <DesignatorSmoothFloor>打磨地面</DesignatorSmoothFloor>
-  <DesignatorSmoothFloorDesc>标记需要被打磨的粗糙石质地面。</DesignatorSmoothFloorDesc>
+  <DesignatorSmoothSurface>Smooth surface</DesignatorSmoothSurface>
+  <DesignatorSmoothSurfaceDesc>Designate rough stone terrain and walls to be smoothed.</DesignatorSmoothSurfaceDesc>
 
   <DesignatorPlan>计划</DesignatorPlan>
   <DesignatorPlanDesc>放置计划标记。它们除了帮助你规划未来的扩张之外没有别的作用。</DesignatorPlanDesc>
 
   <DesignatorPlanRemove>移除计划</DesignatorPlanRemove>
   <DesignatorPlanRemoveDesc>移除计划标记。</DesignatorPlanRemoveDesc>
+
+  <DesignatorForbid>Forbid</DesignatorForbid>
+  <DesignatorForbidDesc>Mark items as forbidden. Colonists will not be able to interact with the designated items.</DesignatorForbidDesc>
+
+  <DesignatorUnforbid>Unforbid</DesignatorUnforbid>
+  <DesignatorUnforbidDesc>Mark items as unforbidden. Colonists will be able to interact with the designated items.</DesignatorUnforbidDesc>
 
   <DesignatorAreaHomeExpand>添加居住区</DesignatorAreaHomeExpand>
   <DesignatorAreaHomeExpandDesc>添加一片居住区。殖民者只会在居住区内修理建筑，清理地面以及灭火。</DesignatorAreaHomeExpandDesc>
@@ -70,13 +76,19 @@
   <DesignatorZoneCreateStorageDumpingDesc>创建一片可供殖民者存放垃圾的储存区。\n此工具也可用来扩大现有储存区范围。</DesignatorZoneCreateStorageDumpingDesc>
 
   <DesignatorZoneDelete>移除区域</DesignatorZoneDelete>
+  <DesignatorZoneDeleteSingular>Shrink zone</DesignatorZoneDeleteSingular>
   <DesignatorZoneDeleteDesc>移除储存区或者种植区。</DesignatorZoneDeleteDesc>
+
+  <DesignatorZoneExpand>Expand zone</DesignatorZoneExpand>
 
   <DesignatorClaim>占有</DesignatorClaim>
   <DesignatorClaimDesc>把中立的建筑标为由你的派系拥有，包括遗迹和遗弃的围攻者基地。殖民者会修理和维护已占有建筑。</DesignatorClaimDesc>
 
   <DesignatorRemoveFloor>移除地板</DesignatorRemoveFloor>
   <DesignatorRemoveFloorDesc>移除地板，将地表暴露在外。</DesignatorRemoveFloorDesc>
+
+  <DesignatorRemoveBridge>Remove bridge</DesignatorRemoveBridge>
+  <DesignatorRemoveBridgeDesc>Remove bridges to reveal the terrain underneath.</DesignatorRemoveBridgeDesc>
 
   <DesignatorStrip>剥光</DesignatorStrip>
   <DesignatorStripDesc>将尸体和伤员的装备全部脱下。</DesignatorStripDesc>
@@ -104,13 +116,14 @@
   <InteractionSpotWillBeBlocked>操作点将会被{0}挡住。</InteractionSpotWillBeBlocked>
   <WouldBlockInteractionSpot>{0}会挡住{1}的操作点。</WouldBlockInteractionSpot>
   <TerrainIsAlready>此处地形已经是{0}了。</TerrainIsAlready>
-  <TerrainBeingSmoothed>此处地表已标记打磨。</TerrainBeingSmoothed>
+  <SurfaceBeingSmoothed>The surface is already marked for smoothing.</SurfaceBeingSmoothed>
   <IdenticalThingExists>此处已存在同样的东西。</IdenticalThingExists>
   <IdenticalBlueprintExists>此处已经存在相同的蓝图。</IdenticalBlueprintExists>
   <TerrainCannotSupport>地形无法支撑此物体。</TerrainCannotSupport>
   <SpaceAlreadyOccupied>空间已被占用。</SpaceAlreadyOccupied>
   <SpaceBeingSmoothed>此处正在被打磨中。</SpaceBeingSmoothed>
   <TerrainMustBeRemovable>目标必须是可移除的地板。</TerrainMustBeRemovable>
+  <MustBeOnMovingWater>The waterwheel must be on moving water.</MustBeOnMovingWater>
 
 
   <!-- Mouse attachments -->
@@ -121,5 +134,11 @@
   <!-- Desc helpers -->
   <TransmitsPower>传输电力</TransmitsPower>
   <ConstructionNeeded>需要建造等级</ConstructionNeeded>
+  <NoColonistWithConstructionSkillTip>None of your {0} have this skill.</NoColonistWithConstructionSkillTip>
+  <AllColonistsWithConstructionSkillHaveDisaledConstructingTip>All of your {0} who have this skill are not assigned to {1}.</AllColonistsWithConstructionSkillHaveDisaledConstructingTip>
+
+  <!--<DesignatorSmoothFloor>打磨地面</DesignatorSmoothFloor>-->
+  <!--<DesignatorSmoothFloorDesc>标记需要被打磨的粗糙石质地面。</DesignatorSmoothFloorDesc>-->
+  <!--<TerrainBeingSmoothed>此处地表已标记打磨。</TerrainBeingSmoothed>-->
 
 </LanguageData>

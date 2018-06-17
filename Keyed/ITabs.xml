@@ -19,7 +19,8 @@
   <TabRecords>记录</TabRecords>
   <TabArt>艺术</TabArt>
   <TabSocial>社交</TabSocial>
-  <TabCombat>战斗</TabCombat>
+  <TabLog>Log</TabLog>
+  <TabFormingCaravan>Caravan</TabFormingCaravan>
 
 
   <!-- Bills tab  -->
@@ -29,6 +30,14 @@
   <SuspendedCaps>已暂停</SuspendedCaps>
   <BoundWorkerIs>绑定工作者: {0}</BoundWorkerIs>
   <PlantVerb>种植</PlantVerb>
+  <ClipboardBillNotAvailableHere>Copied bill cannot be pasted here.</ClipboardBillNotAvailableHere>
+  <ReorderBillUpTip>Move up</ReorderBillUpTip>
+  <ReorderBillDownTip>Move down</ReorderBillDownTip>
+  <DeleteBillTip>Delete</DeleteBillTip>
+  <CopyBillTip>Copy to the clipboard</CopyBillTip>
+  <SuspendBillTip>Suspend</SuspendBillTip>
+  <PasteBillTip>Paste</PasteBillTip>
+  <PasteBillTip_LimitReached>can't add more</PasteBillTip_LimitReached>
 
 
   <!-- Guest/prisoner tab -->
@@ -66,7 +75,7 @@
   <MedicalOperationsMechanoidsShort>改装（{0}）</MedicalOperationsMechanoidsShort>
   <MedicalOperations>医疗手术</MedicalOperations>
   <Amputate>截肢</Amputate>
-  <Harvest>摘取</Harvest>
+  <HarvestOrgan>harvest</HarvestOrgan>
   <RemoveOrgan>摘除</RemoveOrgan>
   <MemoryLower>记忆</MemoryLower>
   <SocialInteractionsLower>社交互动</SocialInteractionsLower>
@@ -95,8 +104,8 @@
   <ExtremePain>极度</ExtremePain>
 
 
-  <!-- Training tab-->
-  <TrainableIntelligence>智力级别</TrainableIntelligence>
+  <!-- Training tab -->
+  <Trainability>Trainability</Trainability>
   <CannotTrainNotSmartEnough>智力级别要求: {0}。</CannotTrainNotSmartEnough>
   <CannotTrainTooSmall>{0}体形过小，无法训练。</CannotTrainTooSmall>
 
@@ -114,12 +123,42 @@
   <IAmPsychopath>我心理变态</IAmPsychopath>
 
   <!-- Gear tab -->
-  <AverageArmor>平均护甲</AverageArmor>
+  <OverallArmor>Overall armor</OverallArmor>
   <MassCarried>负重: {0} / {1} kg</MassCarried>
   <ComfyTemperatureRange>适宜温度范围</ComfyTemperatureRange>
   <ArmorBlunt>钝器护甲</ArmorBlunt>
   <ArmorSharp>利器护甲</ArmorSharp>
   <ArmorHeat>热能护甲</ArmorHeat>
-  <ArmorElectric>电能护甲</ArmorElectric>
+
+  <!-- Log tab -->
+  <ShowAll>Show all</ShowAll>
+  <ShowCombat>Show combat</ShowCombat>
+  <ShowSocial>Show social</ShowSocial>
+  <NoRecentEntries>no recent entries</NoRecentEntries>
+  <CopyLogTip>Copy log to the clipboard.</CopyLogTip>
+
+  <!-- Forming caravan tab -->
+  <FormingCaravanStatus_GatheringAnimals>Gathering animals</FormingCaravanStatus_GatheringAnimals>
+  <FormingCaravanStatus_GatheringAnimals_Pause>Gathering animals (waiting)</FormingCaravanStatus_GatheringAnimals_Pause>
+  <FormingCaravanStatus_GatheringItems>Gathering items</FormingCaravanStatus_GatheringItems>
+  <FormingCaravanStatus_GatheringItems_Pause>Gathering items (waiting)</FormingCaravanStatus_GatheringItems_Pause>
+  <FormingCaravanStatus_GatheringSlaves>Gathering slaves</FormingCaravanStatus_GatheringSlaves>
+  <FormingCaravanStatus_GatheringSlaves_Pause>Gathering slaves (waiting)</FormingCaravanStatus_GatheringSlaves_Pause>
+  <FormingCaravanStatus_Leaving>Leaving</FormingCaravanStatus_Leaving>
+  <FormingCaravanStatus_Leaving_Pause>Leaving (waiting)</FormingCaravanStatus_Leaving_Pause>
+  <FormingCaravanStatus_Waiting>Waiting</FormingCaravanStatus_Waiting>
+  <CaravanMembers>Members</CaravanMembers>
+  <CaravanAnimals>Animals</CaravanAnimals>
+  <ItemsToLoad>Items to load</ItemsToLoad>
+  <LoadedItems>Loaded items</LoadedItems>
+  <PackAnimalsCountLower>pack animals</PackAnimalsCountLower>
+  <InMentalStateCountLower>mentally broken</InMentalStateCountLower>
+
+  <!--<TabCombat>战斗</TabCombat>-->
+  <!--<Harvest>摘取</Harvest>-->
+  <!-- Training tab-->
+  <!--<TrainableIntelligence>智力级别</TrainableIntelligence>-->
+  <!--<AverageArmor>平均护甲</AverageArmor>-->
+  <!--<ArmorElectric>电能护甲</ArmorElectric>-->
 
 </LanguageData>
