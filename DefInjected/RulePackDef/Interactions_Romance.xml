@@ -1,21 +1,31 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <Sentence_RomanceAttemptAccepted.rulePack.rulesStrings.0>sent->[recipient_nameShortDef]接受了表白并成为[initiator_nameShortDef]的情人。</Sentence_RomanceAttemptAccepted.rulePack.rulesStrings.0>
-  <Sentence_RomanceAttemptAccepted.rulePack.rulesStrings.1>sent->[RECIPIENT_nameDef] responded well and is now [INITIATOR_nameDef]'s lover.</Sentence_RomanceAttemptAccepted.rulePack.rulesStrings.1>
-  <Sentence_RomanceAttemptAccepted.rulePack.rulesStrings.2>sent->[RECIPIENT_nameDef] became aroused and agreed to become [INITIATOR_nameDef]'s lover.</Sentence_RomanceAttemptAccepted.rulePack.rulesStrings.2>
+	<Sentence_RomanceAttemptAccepted.rulePack.rulesStrings>
+		<li>sent->[recipient_nameShortDef]接受了表白并成为[initiator_nameShortDef]的情人。</li>
+		<li>sent->[RECIPIENT_nameDef] responded well and is now [INITIATOR_nameDef]'s lover.</li>
+		<li>sent->[RECIPIENT_nameDef] became aroused and agreed to become [INITIATOR_nameDef]'s lover.</li>
+	</Sentence_RomanceAttemptAccepted.rulePack.rulesStrings>
 
-  <Sentence_RomanceAttemptRejected.rulePack.rulesStrings.0>sent->[recipient_nameShortDef]拒绝了表白。</Sentence_RomanceAttemptRejected.rulePack.rulesStrings.0>
-  <Sentence_RomanceAttemptRejected.rulePack.rulesStrings.1>sent->[RECIPIENT_nameDef] ignored the advance.</Sentence_RomanceAttemptRejected.rulePack.rulesStrings.1>
-  <Sentence_RomanceAttemptRejected.rulePack.rulesStrings.2>sent->[RECIPIENT_nameDef] turned [RECIPIENT_possessive] back.</Sentence_RomanceAttemptRejected.rulePack.rulesStrings.2>
-  <Sentence_RomanceAttemptRejected.rulePack.rulesStrings.3>sent->[RECIPIENT_nameDef] turned away.</Sentence_RomanceAttemptRejected.rulePack.rulesStrings.3>
-  <Sentence_RomanceAttemptRejected.rulePack.rulesStrings.4>sent->[RECIPIENT_nameDef] gave a minimal response.</Sentence_RomanceAttemptRejected.rulePack.rulesStrings.4>
-  <Sentence_RomanceAttemptRejected.rulePack.rulesStrings.5>sent->[RECIPIENT_nameDef] did not respond.</Sentence_RomanceAttemptRejected.rulePack.rulesStrings.5>
-  <Sentence_RomanceAttemptRejected.rulePack.rulesStrings.6>sent->[RECIPIENT_nameDef] turned [INITIATOR_objective] down.</Sentence_RomanceAttemptRejected.rulePack.rulesStrings.6>
+	<Sentence_RomanceAttemptRejected.rulePack.rulesStrings>
+		<li>sent->[recipient_nameShortDef]拒绝了表白。</li>
+		<li>sent->[RECIPIENT_nameDef] ignored the advance.</li>
+		<li>sent->[RECIPIENT_nameDef] turned [RECIPIENT_possessive] back.</li>
+		<li>sent->[RECIPIENT_nameDef] turned away.</li>
+		<li>sent->[RECIPIENT_nameDef] gave a minimal response.</li>
+		<li>sent->[RECIPIENT_nameDef] did not respond.</li>
+		<li>sent->[RECIPIENT_nameDef] turned [INITIATOR_objective] down.</li>
+	</Sentence_RomanceAttemptRejected.rulePack.rulesStrings>
 
-  <Sentence_MarriageProposalAccepted.rulePack.rulesStrings.0>sent->[recipient_nameShortDef]接受了求婚。</Sentence_MarriageProposalAccepted.rulePack.rulesStrings.0>
-  <Sentence_MarriageProposalRejected.rulePack.rulesStrings.0>sent->[recipient_nameShortDef]拒绝了求婚。</Sentence_MarriageProposalRejected.rulePack.rulesStrings.0>
-  <Sentence_MarriageProposalRejectedBrokeUp.rulePack.rulesStrings.0>sent->两人的关系难以为继，感情破裂了。</Sentence_MarriageProposalRejectedBrokeUp.rulePack.rulesStrings.0>
+	<Sentence_MarriageProposalAccepted.rulePack.rulesStrings>
+		<li>sent->[recipient_nameShortDef]接受了求婚。</li>
+	</Sentence_MarriageProposalAccepted.rulePack.rulesStrings>
+	<Sentence_MarriageProposalRejected.rulePack.rulesStrings>
+		<li>sent->[recipient_nameShortDef]拒绝了求婚。</li>
+	</Sentence_MarriageProposalRejected.rulePack.rulesStrings>
+	<Sentence_MarriageProposalRejectedBrokeUp.rulePack.rulesStrings>
+		<li>sent->两人的关系难以为继，感情破裂了。</li>
+	</Sentence_MarriageProposalRejectedBrokeUp.rulePack.rulesStrings>
 
 
 </LanguageData>
