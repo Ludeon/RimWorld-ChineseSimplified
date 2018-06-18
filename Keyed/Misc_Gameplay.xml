@@ -7,13 +7,13 @@
   <Contents>内容</Contents>
   <ContainedResources>包含资源</ContainedResources>
   <ForPrisonerUse>限囚犯使用</ForPrisonerUse>
-  <InPrisonCell>In prison cell: For prisoner use</InPrisonCell>
+  <InPrisonCell>在牢房中：限囚犯使用</InPrisonCell>
   <ForColonistUse>限殖民者使用</ForColonistUse>
   <MedicalBed>病床</MedicalBed>
   <Owner>所属人</Owner>
   <Owners>所属人</Owners>
   <AssignedColonist>指定殖民者</AssignedColonist>
-  <DiedOn>Died on the {0}</DiedOn>
+  <DiedOn>死于{0}</DiedOn>
   <Nobody>无</Nobody>
   <Unowned>无所属</Unowned>
   <DeadTime>已死亡{0}</DeadTime>
@@ -27,10 +27,10 @@
   <FreshMissingBodyPart>新鲜</FreshMissingBodyPart>
   <DevelopedImmunityLower>产生免疫</DevelopedImmunityLower>
   <NeedsTendingNow>当前需要治疗</NeedsTendingNow>
-  <CanTendNow>Can tend now</CanTendNow>
-  <TreatmentExpiresIn>Tending expires in {0}</TreatmentExpiresIn>
+  <CanTendNow>现在可治疗</CanTendNow>
+  <TreatmentExpiresIn>治疗将消失于{0}</TreatmentExpiresIn>
   <NextTendIn>于{0}后将需要治疗</NextTendIn>
-  <TendQuality>Tend quality</TendQuality>
+  <TendQuality>治疗质量</TendQuality>
   <MissingMedicalBillIngredient>缺少{0}</MissingMedicalBillIngredient>
   <Immunity>免疫性</Immunity>
   <Race>种族</Race>
@@ -41,7 +41,7 @@
   <ThingInfo>信息</ThingInfo>
   <DropThing>丢下</DropThing>
   <Rename>重命名</Rename>
-  <RenameAnimal>Rename animal</RenameAnimal>
+  <RenameAnimal>重命名动物</RenameAnimal>
   <RenameColonist>修改角色昵称</RenameColonist>
   <UnknownLower>未知</UnknownLower>
   <On>开</On>
@@ -74,8 +74,8 @@
   <RadiusExpandsIn>扩大半径至</RadiusExpandsIn>
   <Permanent>永久</Permanent>
   <CaravanResting>休息中。</CaravanResting>
-  <CaravanEstimatedTimeToDestination>预计抵达耗时: {0}天</CaravanEstimatedTimeToDestination>
-  <CaravanEstimatedDaysToDestination>Estimated days to arrive: {0}</CaravanEstimatedDaysToDestination>
+  <CaravanEstimatedTimeToDestination>预计抵达耗时：{0}</CaravanEstimatedTimeToDestination>
+  <CaravanEstimatedDaysToDestination>预计抵达天数：{0}</CaravanEstimatedDaysToDestination>
   <CaravanImmobilizedByMass>无法移动: 货物过重</CaravanImmobilizedByMass>
   <CaravanOutOfFood>给养耗尽。</CaravanOutOfFood>
   <CaravanDaysOfFood>给养天数: {0}</CaravanDaysOfFood>
@@ -83,12 +83,12 @@
   <AllCaravanMembersDowned>停止原因: 全员无行动能力。</AllCaravanMembersDowned>
   <AllCaravanMembersMentalBreak>停止原因: 全员精神崩溃。</AllCaravanMembersMentalBreak>
   <CaravanColonistsCount>{0} {1}</CaravanColonistsCount>
-  <CaravanAnimal>1 animal</CaravanAnimal>
-  <CaravanAnimalsCount>{0} animals</CaravanAnimalsCount>
-  <CaravanPrisoner>1 prisoner</CaravanPrisoner>
-  <CaravanPrisonersCount>{0} prisoners</CaravanPrisonersCount>
-  <CaravanPawnsInMentalState>{0} in mental state</CaravanPawnsInMentalState>
-  <CaravanPawnsDowned>{0} downed</CaravanPawnsDowned>
+  <CaravanAnimal>1 动物</CaravanAnimal>
+  <CaravanAnimalsCount>{0} 动物</CaravanAnimalsCount>
+  <CaravanPrisoner>1 囚犯</CaravanPrisoner>
+  <CaravanPrisonersCount>{0} 囚犯</CaravanPrisonersCount>
+  <CaravanPawnsInMentalState>{0} 已精神崩溃</CaravanPawnsInMentalState>
+  <CaravanPawnsDowned>{0} 已倒地</CaravanPawnsDowned>
   <CaravanTraveling>行进中。</CaravanTraveling>
   <CaravanPaused>Paused.</CaravanPaused>
   <CaravanWaiting>等待中。</CaravanWaiting>
@@ -101,12 +101,12 @@
   <CaravanVisiting>正在拜访{0}。</CaravanVisiting>
   <CaravanEntering>正在进入{0}。</CaravanEntering>
   <CaravanAttacking>正在进攻{0}。</CaravanAttacking>
-  <CaravanOfferingGifts>Offering gifts to {0}.</CaravanOfferingGifts>
+  <CaravanOfferingGifts>正在对{0}赠礼。</CaravanOfferingGifts>
   <WasWornByCorpse>死者衣物</WasWornByCorpse>
   <WornByCorpseChar>亡</WornByCorpseChar>
-  <DeterioratingUnroofed>unroofed</DeterioratingUnroofed>
-  <DeterioratingOutdoors>outdoors</DeterioratingOutdoors>
-  <DeterioratingBecauseOf>Deteriorating because of</DeterioratingBecauseOf>
+  <DeterioratingUnroofed>露天</DeterioratingUnroofed>
+  <DeterioratingOutdoors>户外</DeterioratingOutdoors>
+  <DeterioratingBecauseOf>老化中，由于</DeterioratingBecauseOf>
   <Map>地图</Map>
   <ForceExitAndRemoveMapCountdown>{0}后离开</ForceExitAndRemoveMapCountdown>
   <ForceExitAndRemoveMapCountdownTip>你的殖民者将会在{0}后自动重组远行队并离开此区域。</ForceExitAndRemoveMapCountdownTip>
@@ -146,26 +146,26 @@
   <Relationship>{1} 的 {0}</Relationship>
   <Prisoner>囚犯</Prisoner>
   <Refugee>难民</Refugee>
-  <TileMovementDifficulty>Terrain movement difficulty</TileMovementDifficulty>
-  <Impassable>Impassable</Impassable>
-  <CaravanMovementSpeedFull>Caravan movement speed</CaravanMovementSpeedFull>
-  <DownedLower>downed</DownedLower>
-  <AverageCaravanMemberMoveSpeed>Avg. person move speed</AverageCaravanMemberMoveSpeed>
-  <MultiplierForCarriedMass>Multiplier for carried mass: {0}</MultiplierForCarriedMass>
-  <FinalCaravanPawnsMovementSpeed>Caravan members speed</FinalCaravanPawnsMovementSpeed>
-  <FinalCaravanMovementSpeed>Final speed</FinalCaravanMovementSpeed>
-  <Winter>Winter</Winter>
-  <MovementDifficultyOffsetInWinter>{0} in winter</MovementDifficultyOffsetInWinter>
-  <RangeTo>to</RangeTo>
-  <NoDietCategoryLetter>No letter</NoDietCategoryLetter>
+  <TileMovementDifficulty>地形移动难度</TileMovementDifficulty>
+  <Impassable>不可通行</Impassable>
+  <CaravanMovementSpeedFull>远行队移动速度</CaravanMovementSpeedFull>
+  <DownedLower>已倒地</DownedLower>
+  <AverageCaravanMemberMoveSpeed>人员平均移动速度</AverageCaravanMemberMoveSpeed>
+  <MultiplierForCarriedMass>已搬运质量乘数：{0}</MultiplierForCarriedMass>
+  <FinalCaravanPawnsMovementSpeed>远行队成员速度：</FinalCaravanPawnsMovementSpeed>
+  <FinalCaravanMovementSpeed>最终速度：</FinalCaravanMovementSpeed>
+  <Winter>冬天</Winter>
+  <MovementDifficultyOffsetInWinter>{0} 在冬天</MovementDifficultyOffsetInWinter>
+  <RangeTo>到</RangeTo>
+  <NoDietCategoryLetter>无类型</NoDietCategoryLetter>
   <ExpiresIn>Expires in</ExpiresIn>
   <CaravanLeaderCaravanName>{0}'s caravan</CaravanLeaderCaravanName>
   <Reason>Reason</Reason>
   <RelationsWith>Relations with {0}</RelationsWith>
   <capturedBy>captured by {0}</capturedBy>
   <yourCaravan>your caravan</yourCaravan>
-  <CreatureWildness>{0} wildness</CreatureWildness>
-  <CreatureTrainability>{0} trainability</CreatureTrainability>
+  <CreatureWildness>{0} 野性</CreatureWildness>
+  <CreatureTrainability>{0} 可训练度</CreatureTrainability>
   <ProximitySingleGoodwillChange>{0} with {1}</ProximitySingleGoodwillChange>
   <EnterCooldown>You can't re-enter for another {0} days.</EnterCooldown>
   <Caravan>Caravan</Caravan>
@@ -554,7 +554,7 @@
   <EstimatedTimeToWaypoint>Est. travel time: {0}</EstimatedTimeToWaypoint>
   <EstimatedTimeToWaypointFromPrevious>Est. travel time (from previous waypoint): {0}</EstimatedTimeToWaypointFromPrevious>
   <EstimatedTimeToTile>Est. travel time: {0}</EstimatedTimeToTile>
-  <ForagedFoodAmount>Foraged food amount</ForagedFoodAmount>
+  <ForagedFoodAmount>已采集食物量</ForagedFoodAmount>
 
   <!-- Outfits -->
   <OutfitAnything>任意</OutfitAnything>

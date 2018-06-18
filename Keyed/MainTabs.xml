@@ -10,7 +10,7 @@
   <CannotDoThisWork>{0}无法从事这种类型的工作。</CannotDoThisWork>
   <NoneBrackets>（无）</NoneBrackets>
   <IncapableOfWorkTypeBecauseOfCapacities>该殖民者因健康原因无法从事这种类型的工作。</IncapableOfWorkTypeBecauseOfCapacities>
-  <EmergencyWorkMarker>E</EmergencyWorkMarker>
+  <EmergencyWorkMarker>紧急</EmergencyWorkMarker>
   <SelectedWorkTypeWithVeryBadSkill>警告：相关技能的平均等级非常低。</SelectedWorkTypeWithVeryBadSkill>
 
   <!-- Assign tab -->
@@ -29,22 +29,22 @@
   <!-- Animals tab -->
   <Master>主人</Master>
   <PregnantIconDesc>怀孕（{0} / {1}）</PregnantIconDesc>
-  <BondedTo>Bonded to</BondedTo>
+  <BondedTo>牵绊于</BondedTo>
 
   <!-- Wildlife tab -->
-  <IsPredator>This creature is a predator. When hungry, it will hunt smaller creatures - possibly including people.</IsPredator>
+  <IsPredator>此生物是捕食者。当饥饿时，就会捕猎较小的生物——很可能包括人类。</IsPredator>
 
   <!-- Factions tab -->
   <Hostile>敌对</Hostile>
-  <Ally>Ally</Ally>
+  <Ally>盟友</Ally>
   <DefeatedLower>被击败</DefeatedLower>
   <HostileTo>敌对派系: {0}</HostileTo>
-  <CurrentGoodwillTip>Current goodwill and relations status with this faction.</CurrentGoodwillTip>
-  <CurrentGoodwillTip_PermanentEnemy>This faction is permanently hostile. They will raid your settlements and caravans. Relations with them will never improve for any reason.</CurrentGoodwillTip_PermanentEnemy>
-  <CurrentGoodwillTip_Ally>This faction is allied. They will send fighters to help you when they can. If relations fall below {0}, they will become neutral.</CurrentGoodwillTip_Ally>
-  <CurrentGoodwillTip_Neutral>This faction is neutral. They will trade and talk with you freely. If relations fall below {0}, they will become hostile. If relations rise above {1}, they will become allied and start actively working to help you.</CurrentGoodwillTip_Neutral>
-  <CurrentGoodwillTip_Hostile>This faction is hostile. They will raid your settlements and caravans. If relations rise above {0}, they will become neutral.</CurrentGoodwillTip_Hostile>
-  <CurrentGoodwillTip_NaturalGoodwill>This faction has a natural goodwill range from {0} to {1}. If goodwill is over {1}, it will fall by {3} per day. If goodwill is under {0}, it will rise by {2} per day.</CurrentGoodwillTip_NaturalGoodwill>
+  <CurrentGoodwillTip>当前与该派系的友好度和关系。</CurrentGoodwillTip>
+  <CurrentGoodwillTip_PermanentEnemy>此派系永远敌对。他们会袭击你的定居点和远行队。与他们的关系永远不会以任何原因改进。</CurrentGoodwillTip_PermanentEnemy>
+  <CurrentGoodwillTip_Ally>此派系为盟友。他们会在力所能及的时候送去战士帮助你。如果关系跌破{0}，他们会转为中立。</CurrentGoodwillTip_Ally>
+  <CurrentGoodwillTip_Neutral>此派系为中立。他们会自由地和你贸易和交谈。如果关系跌破{0}，他们会成为敌人。如果关系涨过{1}，他们会成为盟友，并更为主动地帮助你。</CurrentGoodwillTip_Neutral>
+  <CurrentGoodwillTip_Hostile>此派系为敌对。他们会袭击你的定居点和远行队。如果关系涨过{1}，他们会转为中立。</CurrentGoodwillTip_Hostile>
+  <CurrentGoodwillTip_NaturalGoodwill>此派系的自然友好度范围为从{0}到{1}。如果友好度超过{1}，则每天都会跌落{3}。如果友好度低于{0}，则每天都会增长{2}。</CurrentGoodwillTip_NaturalGoodwill>
 
 
   <!-- Social tab -->
@@ -67,10 +67,10 @@
   <External>外部</External>
 
   <!-- History tab - Messages -->
-  <ShowLetters>Show letters</ShowLetters>
-  <ShowMessages>Show messages</ShowMessages>
-  <PinArchivableTip>Pin or unpin this message.\n\nThe oldest unpinned messages will be removed automatically from the list after reaching the limit of {0} messages.</PinArchivableTip>
-  <NoMessages>no messages</NoMessages>
+  <ShowLetters>显示信件</ShowLetters>
+  <ShowMessages>显示消息</ShowMessages>
+  <PinArchivableTip>钉选此消息或取消钉选。\n\n消息数量达到上限{0}条后，最旧且未被钉选的消息会被自动移除。</PinArchivableTip>
+  <NoMessages>无消息</NoMessages>
 
   <!-- History tab - Statistics -->
   <Playtime>总游戏时间</Playtime>
@@ -78,7 +78,7 @@
   <ThisMapColonyWealthTotal>殖民地财富（当前地区）</ThisMapColonyWealthTotal>
   <ThisMapColonyWealthItems>殖民地财富（物品）（当前地区）</ThisMapColonyWealthItems>
   <ThisMapColonyWealthBuildings>殖民地财富（建筑）（当前地区）</ThisMapColonyWealthBuildings>
-  <ThisMapColonyWealthTameAnimals>Colony wealth (animals) (this map)</ThisMapColonyWealthTameAnimals>
+  <ThisMapColonyWealthTameAnimals>殖民地财富（动物）（当前地区）</ThisMapColonyWealthTameAnimals>
   <NumThreatBigs>大型威胁事件次数</NumThreatBigs>
   <NumEnemyRaids>敌人袭击事件次数</NumEnemyRaids>
   <ThisMapDamageTaken>承受伤害总量（当前地区）</ThisMapDamageTaken>
@@ -90,8 +90,5 @@
   <YourTechLevel>自身科技等级</YourTechLevel>
   <ResearchCostMultiplier>工作量乘数</ResearchCostMultiplier>
   <ResearchCostComparison>由于自身科技等级，项目基础工作量{0}变为{1}。</ResearchCostComparison>
-
-  <!--<CurrentGoodwill>此派系当前对你的友好度。</CurrentGoodwill>-->
-  <!--<Day>天</Day>-->
 
 </LanguageData>

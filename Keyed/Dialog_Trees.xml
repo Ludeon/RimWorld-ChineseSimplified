@@ -2,7 +2,7 @@
 <LanguageData>
 
   <FactionGreetingHostile>{0} 愤怒地对着麦克风大骂了几句然后断开了连接。</FactionGreetingHostile>
-  <FactionGreetingHostileAppreciative>{0} demands that you make a gesture of goodwill, like bringing gifts to one of HIS settlements or releasing HIS faction's prisoners unharmed. Until then, HE is unwilling to talk.\n\nMuttering an insult, HE disconnects.</FactionGreetingHostileAppreciative>
+  <FactionGreetingHostileAppreciative>{0} 要求你表示善意，例如将礼物送去HIS一个定居点，或无伤地释放HIS派系的囚犯。在此以前，HE不愿意谈话。\n\n骂了几句然后断开了连接。</FactionGreetingHostileAppreciative>
   <FactionGreetingWary>{0} 谨慎地问候了 {1} 并询问你的来意。</FactionGreetingWary>
   <FactionGreetingWarm>{0} 亲切地问候了 {1} 并询问了殖民地的近况。</FactionGreetingWarm>
 
@@ -10,8 +10,8 @@
 
   <!-- gift offer -->
   <OfferGift>赠予礼物</OfferGift>
-  <MustBeAlly>must be ally</MustBeAlly>
-  <NeedGoodwill>need {0} goodwill</NeedGoodwill>
+  <MustBeAlly>必须为盟友</MustBeAlly>
+  <NeedGoodwill>需要{0}友好度</NeedGoodwill>
   <NeedSilverLaunchable>需要有{0}白银在轨道交易信标附近</NeedSilverLaunchable>
   <NotEnoughSilver>白银不足</NotEnoughSilver>
   <SilverForGoodwill>每{0}白银增加{1}友好度</SilverForGoodwill>
@@ -24,9 +24,9 @@
   <WaitTime>等待{0}</WaitTime>
 
   <!-- AI core request -->
-  <RequestAICoreInformation>Request the location of an {0} (cost: {1} silver)</RequestAICoreInformation>
-  <RequestAICoreInformationResult>{0} sends the requested information and wishes you good luck.</RequestAICoreInformationResult>
-  <NoKnownAICore>no more locations known</NoKnownAICore>
+  <RequestAICoreInformation>索要{0}所在地（花费: {1}白银）</RequestAICoreInformation>
+  <RequestAICoreInformationResult>{0} 发送来了你要的信息并祝你好运。</RequestAICoreInformationResult>
+  <NoKnownAICore>无更多已知地点</NoKnownAICore>
 
   <!-- military aid request -->
   <RequestMilitaryAid>请求立即派出军事支援（花费: {0}友好度）</RequestMilitaryAid>
@@ -34,6 +34,6 @@
   <CallConfirm>是，仍然呼叫他们。</CallConfirm>
   <CallCancel>不，算了。</CallCancel>
   <MilitaryAidSent>{0}同意派遣士兵来帮助你。</MilitaryAidSent>
-  <CantSendMilitaryAidInTime>{0} apologizes and says they won't be able to arrive in time.\n\n(This faction's technology level is too low for transport pods)</CantSendMilitaryAidInTime>
+  <CantSendMilitaryAidInTime>{0} 向你道歉并说他们无法及时赶来。\n\n（此派系的科技等级太低，无法使用运输舱。）</CantSendMilitaryAidInTime>
 
 </LanguageData>

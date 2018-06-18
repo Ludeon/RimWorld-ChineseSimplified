@@ -8,14 +8,14 @@
   <LetterLabelFirstSummerWarning>夏天</LetterLabelFirstSummerWarning>
   <FirstSummerWarning>夏天到了！冬天还会远吗？\n\n寒冷的冬日无法种植作物，赶紧趁现在从事生产，储备过冬食物。\n\n你可以建一间有制冷机的房间作为冷库以防止食物腐烂。\n\n同时尝试买、偷、缴获或者制作几件风雪大衣，以防冬季出门挨冻。</FirstSummerWarning>
 
-  <LetterRelationsChange_Hostile>Relations with {0} have broken down completely. They are now hostile to you.\n\nThey will conduct periodic raids on your colony and caravans, and refuse to trade with you. If you want to improve relations, you can still offer them gifts using caravans or transport pods.\n\nThis happened because goodwill ({1}) has fallen below {2}. In order to restore neutral relations, goodwill must reach {3} again.</LetterRelationsChange_Hostile>
-  <LetterRelationsChange_NeutralFromHostile>Relations with {0} have warmed. They now consider you neutral and will no longer attack you.\n\nThis happened because goodwill ({1}) has risen past {2}. If goodwill falls below {3}, {0} will become hostile again. If goodwill rises above {4}, they will become your ally and fight for you.</LetterRelationsChange_NeutralFromHostile>
-  <LetterRelationsChange_NeutralFromAlly>Relations with {0} have cooled. They now consider you neutral instead of allied.\n\nWhile they will still interact peacefully with you, they will no longer send fighters to help you when you are under threat.\n\nThis happened because goodwill ({1}) has fallen below {2}. If goodwill falls below {3}, {0} will become hostile. If goodwill rises above {4}, they will become allied once again.</LetterRelationsChange_NeutralFromAlly>
-  <LetterRelationsChange_Ally>Relations with {0} have become very close. They now consider you an ally.\n\nAllies will sometimes arrive to help fight your enemies when you are under attack. You can also call them for help at any time, at a cost of goodwill.\n\nYou've become allies because your goodwill ({1}) has risen past {2}. If goodwill falls below {3}, relations will return to neutral.</LetterRelationsChange_Ally>
+  <LetterRelationsChange_Hostile>我们和{0}的关系已彻底决裂。他们现在与你为敌。\n\n他们会定期袭击你的殖民地和远行队，并拒绝和你交易。如果你想改善关系，你仍然可以用远行队或运输舱送礼物。\n\n这是由于友好度（{1}）跌破{2}。为了重回中立关系，友好度必须再次达到{3}。</LetterRelationsChange_Hostile>
+  <LetterRelationsChange_NeutralFromHostile>我们和{0}的关系已回暖。他们现在会将你视为中立，不再会对你发动攻击。\n\n这是由于友好度（{1}）已涨过{2}。如果友好度跌破{3}，{0} 会再次与你为敌。如果好意涨过{4}，他们会成为盟友并为你而战。</LetterRelationsChange_NeutralFromHostile>
+  <LetterRelationsChange_NeutralFromAlly>我们和{0}的关系已降温。他们现在将你视为中立，而非盟友。\n\n尽管它们还会和你和平互动，他们不再会在你遇到威胁时送来援军。\n\n这是由于友好度（{1}）跌破{2}。如果友好度跌破{3}，{0}将成为敌人。如果友好度涨过{4}，他们会再次成为盟友。</LetterRelationsChange_NeutralFromAlly>
+  <LetterRelationsChange_Ally>我们和{0}的关系已变得十分紧密。他们现在将你视为盟友。\n\n盟友有时会在你受到攻击时前来帮助你，与你的敌人交战。你也可以在任何时候呼叫他们前来，但会降低友好度。\n\n你与他们成为盟友是由于友好度（{1}）涨过{2}。如果友好度跌破{3}，关系会回到中立。</LetterRelationsChange_Ally>
 
-  <goodwill>goodwill</goodwill>
+  <goodwill>友好度</goodwill>
   <Neutral>中立</Neutral>
-  <Death>Death</Death>
+  <Death>死亡</Death>
 
   <ShortCircuitRain>{0}在雨中短路了，引发了一场火灾。</ShortCircuitRain>
 
@@ -40,8 +40,8 @@
   <LetterLabelNewDisease>疾病</LetterLabelNewDisease>
   <NewDisease>{0}患上了{1}。\n\n确保你有一位医生和医疗用床，让{2}获得良好的医疗照顾并尽量卧床休息以尽快康复。</NewDisease>
   <NewPartDisease>{0}的患上了{3}，感染位于HIS{1}。\n\n确保你有一位医生和医疗用床，让{2}获得良好的医疗照顾并尽量卧床休息以尽快康复。</NewPartDisease>
-  <NewDiseaseAnimal>{0} has developed an illness: {1}</NewDiseaseAnimal>
-  <NewPartDiseaseAnimal>{0} has developed an illness: {3} in HIS {1}</NewPartDiseaseAnimal>
+  <NewDiseaseAnimal>{0} 患上了疾病：{1}</NewDiseaseAnimal>
+  <NewPartDiseaseAnimal>{0} 患上了疾病：{3}，位于HIS{1}</NewPartDiseaseAnimal>
 
   <PawnWasFormerlyColonist>{0}曾经是你的派系的一员。</PawnWasFormerlyColonist>
   <PawnHasTheseRelationshipsWithColonists>{0}与你的殖民者有这些关系:</PawnHasTheseRelationshipsWithColonists>
@@ -74,10 +74,10 @@
 
   <MentalBreakLetterLabel>精神崩溃</MentalBreakLetterLabel>
   <FinalStraw>压倒骆驼的最后一根稻草: {0}。</FinalStraw>
-  <LastFactionRelationsEvent>The last event was</LastFactionRelationsEvent>
+  <LastFactionRelationsEvent>最近一次事件是</LastFactionRelationsEvent>
 
-  <ReadMore>Read more</ReadMore>
-  <LastEventsInLife>The last events in {0}'s life</LastEventsInLife>
+  <ReadMore>阅读更多</ReadMore>
+  <LastEventsInLife>{0}的人生中最近的事件</LastEventsInLife>
 
   <!-- Related pawns -->
   <LetterLabelNoticedRelatedPawns>家族成员</LetterLabelNoticedRelatedPawns>
@@ -87,10 +87,10 @@
   <LetterRelatedPawnsTradeShip>轨道贸易商出售的奴隶中有殖民者或囚犯的家族成员:</LetterRelatedPawnsTradeShip>
   <LetterRelatedPawnsTradingWithSettlement>定居点出售的奴隶中有殖民者或囚犯的家族成员:</LetterRelatedPawnsTradingWithSettlement>
   <LetterRelatedPawnsTradingWithOtherCaravan>远行队出售的奴隶中有殖民者或囚犯的家族成员:</LetterRelatedPawnsTradingWithOtherCaravan>
-  <LetterRelatedPawnsGroupGeneric>There are people who have relationships with your {0} or prisoners in the group:</LetterRelatedPawnsGroupGeneric>
-  <LetterRelatedPawnsInMapWherePlayerLanded>There are people who have relationships with your {0} or prisoners in the area where your {0} have landed.</LetterRelatedPawnsInMapWherePlayerLanded>
-  <LetterRelatedPawnsSettlement>There are people who have relationships with your {0} or prisoners in this settlement:</LetterRelatedPawnsSettlement>
-  <LetterRelatedPawnsSite>There are people who have relationships with your {0} or prisoners in this area:</LetterRelatedPawnsSite>
+  <LetterRelatedPawnsGroupGeneric>以下是该团体中与你的{0}或囚犯有关系的人：</LetterRelatedPawnsGroupGeneric>
+  <LetterRelatedPawnsInMapWherePlayerLanded>以下是该团体中，与那些在你的登陆地点的{0}或囚犯有关系的人：</LetterRelatedPawnsInMapWherePlayerLanded>
+  <LetterRelatedPawnsSettlement>这个定居点有一些和你的{0}或囚犯有关系的人：</LetterRelatedPawnsSettlement>
+  <LetterRelatedPawnsSite>这个区域有一些和你的{0}或囚犯有关系的人：</LetterRelatedPawnsSite>
 
   <RelationshipAppendedLetterSuffix>（家族）</RelationshipAppendedLetterSuffix>
   <RelationshipAppendedLetterTextColonist>NAME是殖民者的家族成员。HECAP是{0}的{1}。</RelationshipAppendedLetterTextColonist>
@@ -109,17 +109,17 @@
   <LetterRejectedProposal>{1}拒绝了{0}的求婚。{0}伤心欲绝。</LetterRejectedProposal>
 
   <!-- Generalized letter labels -->
-  <LetterLabelRelationsChange_Hostile>Hostile: {0}</LetterLabelRelationsChange_Hostile>
-  <LetterLabelRelationsChange_Ally>Allied: {0}</LetterLabelRelationsChange_Ally>
-  <LetterLabelRelationsChange_NeutralFromHostile>Enemy now neutral: {0}</LetterLabelRelationsChange_NeutralFromHostile>
-  <LetterLabelRelationsChange_NeutralFromAlly>Ally now neutral: {0}</LetterLabelRelationsChange_NeutralFromAlly>
+  <LetterLabelRelationsChange_Hostile>敌人：{0}</LetterLabelRelationsChange_Hostile>
+  <LetterLabelRelationsChange_Ally>盟友：{0}</LetterLabelRelationsChange_Ally>
+  <LetterLabelRelationsChange_NeutralFromHostile>敌人转中立：{0}</LetterLabelRelationsChange_NeutralFromHostile>
+  <LetterLabelRelationsChange_NeutralFromAlly>盟友转中立：{0}</LetterLabelRelationsChange_NeutralFromAlly>
   <LetterLabelShortCircuit>电缆短路</LetterLabelShortCircuit>
   <LetterLabelMentalBreakdown>精神崩溃</LetterLabelMentalBreakdown>
 
   <!-- Bonded animals -->
-  <LetterLabelSuffixBondedAnimalDied>bonded animal</LetterLabelSuffixBondedAnimalDied>
-  <LetterPartBondedAnimalDied>{0} was bonded to {1}. It will affect {1}'s mood.</LetterPartBondedAnimalDied>
-  <LetterPartBondedAnimalDiedMulti>It will affect mood of the following people:\n\n{0}</LetterPartBondedAnimalDiedMulti>
+  <LetterLabelSuffixBondedAnimalDied>牵绊动物</LetterLabelSuffixBondedAnimalDied>
+  <LetterPartBondedAnimalDied>{0}与{1}形成牵绊。这将影响{1}的心情。</LetterPartBondedAnimalDied>
+  <LetterPartBondedAnimalDiedMulti>这将影响以下人的心情：\n\n{0}</LetterPartBondedAnimalDiedMulti>
 
   <!-- Prison break -->
   <LetterLabelPrisonBreak>越狱</LetterLabelPrisonBreak>
@@ -150,8 +150,8 @@
   <LetterCaravanEnteredEnemyBase>{0}已经抵达{1}并已准备好开始进攻。</LetterCaravanEnteredEnemyBase>
 
   <!-- Transport pods landed in enemy base -->
-  <LetterLabelTransportPodsLandedInEnemyBase>Attack begun</LetterLabelTransportPodsLandedInEnemyBase>
-  <LetterTransportPodsLandedInEnemyBase>Your transport pods have arrived at {0}.</LetterTransportPodsLandedInEnemyBase>
+  <LetterLabelTransportPodsLandedInEnemyBase>攻击开始</LetterLabelTransportPodsLandedInEnemyBase>
+  <LetterTransportPodsLandedInEnemyBase>你的运输舱已抵达{0}。</LetterTransportPodsLandedInEnemyBase>
 
   <!-- Faction base defeated -->
   <LetterLabelFactionBaseDefeated>基地已摧毁</LetterLabelFactionBaseDefeated>
@@ -189,62 +189,40 @@
   <!-- Catatonic mental break -->
   <LetterCatatonicMentalBreak>{0}会持续数天处于精神崩溃中。</LetterCatatonicMentalBreak>
 
-  <LetterLabelAICoreOffer>AI Core Offer</LetterLabelAICoreOffer>
-  <LetterAICoreOffer>{0} of {1} contacts you with an offer of information: the location of an AI persona core, which you'll need in order to build a spaceship. They inform you that this item is quite rare and usually its owners have it under heavy guard.\n\nCall them with your comms console if you're interested.</LetterAICoreOffer>
+  <LetterLabelAICoreOffer>AI核心机会</LetterLabelAICoreOffer>
+  <LetterAICoreOffer>{1} 的 {0} 联系你，并表示可以提供情报：建造飞船所必须的AI伪人格核心的所在地。他们告诉你，这种道具极为稀有，其拥有者通常会守以重兵。\n\n如果你有兴趣，用通讯台联系他们。</LetterAICoreOffer>
 
-  <LetterCraftedLegendaryLabel>Legendary Work</LetterCraftedLegendaryLabel>
-  <LetterCraftedLegendaryMessage>{0} has created a {1}.\n\nNews of this valuable artifact will spread across the world.</LetterCraftedLegendaryMessage>
+  <LetterCraftedLegendaryLabel>传奇作品</LetterCraftedLegendaryLabel>
+  <LetterCraftedLegendaryMessage>{0} 创造出了一个 {1}。\n\n这件价值连城的造物的诞生将很快为全世界所知晓。</LetterCraftedLegendaryMessage>
 
   <!-- Pawns lost because map closed -->
-  <LetterLabelPawnsLostBecauseMapClosed_Caravan>Caravan lost</LetterLabelPawnsLostBecauseMapClosed_Caravan>
-  <LetterPawnsLostBecauseMapClosed_Caravan>Your caravan has been lost. The following people and animals have been lost with it</LetterPawnsLostBecauseMapClosed_Caravan>
-  <LetterLabelPawnsLostBecauseMapClosed_Home>Inhabitants abandoned</LetterLabelPawnsLostBecauseMapClosed_Home>
-  <LetterPawnsLostBecauseMapClosed_Home>The following people and animals have been abandoned</LetterPawnsLostBecauseMapClosed_Home>
+  <LetterLabelPawnsLostBecauseMapClosed_Caravan>远行队失踪</LetterLabelPawnsLostBecauseMapClosed_Caravan>
+  <LetterPawnsLostBecauseMapClosed_Caravan>你的远行队失踪了。下列人员和动物一同失踪</LetterPawnsLostBecauseMapClosed_Caravan>
+  <LetterLabelPawnsLostBecauseMapClosed_Home>已放弃居住地</LetterLabelPawnsLostBecauseMapClosed_Home>
+  <LetterPawnsLostBecauseMapClosed_Home>下列人员和动物已被放弃</LetterPawnsLostBecauseMapClosed_Home>
 
   <!-- Hibernate complete -->
-  <LetterLabelHibernateComplete>Reactor ready</LetterLabelHibernateComplete>
-  <LetterHibernateComplete>Charlon Whitestone has finished the reactor's hibernation recovery sequence. The reactor is now ready to power a liftoff.</LetterHibernateComplete>
-  <LetterHibernateCompleteStandalone>The reactor's power up sequence is complete. It is now ready to power a liftoff.</LetterHibernateCompleteStandalone>
+  <LetterLabelHibernateComplete>反应炉就绪</LetterLabelHibernateComplete>
+  <LetterHibernateComplete>沙隆·白石已完成了反应炉的休眠恢复流程。反应炉现在可以供能以让飞船起飞。</LetterHibernateComplete>
+  <LetterHibernateCompleteStandalone>反应炉充能流程已就绪。反应炉现在可以供能以让飞船起飞。</LetterHibernateCompleteStandalone>
 
   <!-- Visitors gave gift -->
-  <LetterLabelVisitorsGaveGift>Gift</LetterLabelVisitorsGaveGift>
-  <LetterVisitorsGaveGift>Since you're having a hard time, we're helping you out.</LetterVisitorsGaveGift>
+  <LetterLabelVisitorsGaveGift>礼物</LetterLabelVisitorsGaveGift>
+  <LetterVisitorsGaveGift>你正度过艰难时刻，让我们帮帮你吧。</LetterVisitorsGaveGift>
 
   <!-- Faction base proximity -->
-  <LetterLabelFactionBaseProximity>Faction base proximity</LetterLabelFactionBaseProximity>
-  <LetterFactionBaseProximity>Because you are so close to other factions, they feel you're encroaching on their territory.\n\nFor the last quadrum, faction relations have been reduced by:</LetterFactionBaseProximity>
+  <LetterLabelFactionBaseProximity>派系基地过近</LetterLabelFactionBaseProximity>
+  <LetterFactionBaseProximity>由于你过于靠近其他派系，他们觉得你在侵犯他们的领地。\n\n在上一象中，派系关系降低了：</LetterFactionBaseProximity>
 
   <!-- Caravans battlefield victory -->
-  <LetterLabelCaravansBattlefieldVictory>Caravan battle won</LetterLabelCaravansBattlefieldVictory>
-  <LetterCaravansBattlefieldVictory>Your caravan has won the battle.\n\nIn {0}, the caravan will automatically be reformed. You can reform the caravan now in the World screen by selecting the battlefield and choosing the "Reform caravan" option.</LetterCaravansBattlefieldVictory>
+  <LetterLabelCaravansBattlefieldVictory>远行队战斗获胜</LetterLabelCaravansBattlefieldVictory>
+  <LetterCaravansBattlefieldVictory>你的远行队赢得了战斗。\n\n远行队将自动在{0}重组。你可以现在就在世界视图选择战场并点击“重组远行队”来重组之。</LetterCaravansBattlefieldVictory>
 
   <!-- Rescue quest -->
-  <LetterLabelRescueQuestFinished>Rescuee joins</LetterLabelRescueQuestFinished>
-  <LetterRescueQuestFinished>You have rescued NAME and HE has joined your group.\n\nYou can take HIM with you by reforming the caravan in the World screen by selecting this area and choosing the "Reform caravan" option.</LetterRescueQuestFinished>
+  <LetterLabelRescueQuestFinished>获救者加入</LetterLabelRescueQuestFinished>
+  <LetterRescueQuestFinished>你解救了NAME，且HE加入了你的团体。\n\n你可以通过在世界视图中选择此区域并点击“重组远行队”来让HIM随你的远行队而走。</LetterRescueQuestFinished>
 
   <!-- Player entered site (generic label) -->
-  <LetterLabelPlayerEnteredNewSiteGeneric>Arrived at site</LetterLabelPlayerEnteredNewSiteGeneric>
-
-  <!--<RelationsBrokenDown>与{0}的关系恶化了，他们现在成为了你的敌人。</RelationsBrokenDown>-->
-  <!--<RelationsWarmed>与{0}的关系改善了，他们现在不再是你的敌人。</RelationsWarmed>-->
-  <!--<RelationsBrokenCapture>由于你俘虏了{0}，{1}现在成为了你的敌人。</RelationsBrokenCapture>-->
-  <!--<ColonyGoodwill>对殖民地的友好度</ColonyGoodwill>-->
-  <!--<LetterLabelRelationsChangeGood>关系改善</LetterLabelRelationsChangeGood>-->
-  <!--<LetterLabelRelationsChangeBad>关系恶化</LetterLabelRelationsChangeBad>-->
-  <!--<LetterLabelBondedAnimalDied>牵绊动物死亡</LetterLabelBondedAnimalDied>-->
-  <!--<LetterBondedAnimalDied>{1}的{0}牵绊动物死亡，{1}伤心欲绝。</LetterBondedAnimalDied>-->
-  <!--<LetterNamedBondedAnimalDied>{2}的{0}牵绊动物{1}死亡，{2}伤心欲绝。</LetterNamedBondedAnimalDied>-->
-  <!--<LetterBondedAnimalDiedMulti>{0}死亡，以下殖民者伤心欲绝:\n\n{1}</LetterBondedAnimalDiedMulti>-->
-  <!--<LetterNamedBondedAnimalDiedMulti>名为{1}的{0}死亡，以下殖民者伤心欲绝:\n\n{2}</LetterNamedBondedAnimalDiedMulti>-->
-  <!-- Formed caravan -->
-  <!--<LetterLabelFormedCaravan>远行队就绪</LetterLabelFormedCaravan>-->
-  <!--<LetterFormedCaravan>你的远行队已经组建完成，正在世界地图等待命令。</LetterFormedCaravan>-->
-  <!--<LetterCaravanEnteredEnemyBaseBecameHostile>{0}已经抵达{1}并已准备好开始进攻。\n\n由于你的入侵，现在{2}与你是敌对关系。</LetterCaravanEnteredEnemyBaseBecameHostile>-->
-  <!-- Pawns lost due to map countdown -->
-  <!--<LetterLabelPawnsLostDueToMapCountdown>被抛弃</LetterLabelPawnsLostDueToMapCountdown>-->
-  <!--<LetterPawnsLostDueToMapCountdown>一些动物和囚犯被抛弃于荒野中:\n\n{0}</LetterPawnsLostDueToMapCountdown>-->
-  <!-- Sleeping mechanoids -->
-  <!--<LetterLabelSleepingMechanoids>沉睡的机械体</LetterLabelSleepingMechanoids>-->
-  <!--<LetterSleepingMechanoids>此区域内有几个沉睡中的机械体。\n\n当你接近他们时，不确定他们会不会醒来，小心。</LetterSleepingMechanoids>-->
+  <LetterLabelPlayerEnteredNewSiteGeneric>抵达地点</LetterLabelPlayerEnteredNewSiteGeneric>
 
 </LanguageData>
