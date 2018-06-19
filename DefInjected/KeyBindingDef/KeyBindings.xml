@@ -1,36 +1,28 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- In-game camera -->
-
-  <MapDolly_Up.label>dolly up</MapDolly_Up.label>
-  <MapDolly_Down.label>dolly down</MapDolly_Down.label>
-  <MapDolly_Left.label>dolly left</MapDolly_Left.label>
-  <MapDolly_Right.label>dolly right</MapDolly_Right.label>
-  <MapZoom_In.label>zoom in</MapZoom_In.label>
-  <MapZoom_Out.label>zoom out</MapZoom_Out.label>
-
-
+  <MapDolly_Up.label>向上</MapDolly_Up.label>
+  <MapDolly_Down.label>向下</MapDolly_Down.label>
+  <MapDolly_Left.label>向左</MapDolly_Left.label>
+  <MapDolly_Right.label>向右</MapDolly_Right.label>
+  <MapZoom_In.label>放大</MapZoom_In.label>
+  <MapZoom_Out.label>缩小</MapZoom_Out.label>
   <!-- Map play -->
-
-  <Accept.label>accept</Accept.label>
-  <Cancel.label>cancel</Cancel.label>
+  <Accept.label>接受</Accept.label>
+  <Cancel.label>取消</Cancel.label>
   <TakeScreenshot.label>截图</TakeScreenshot.label>
   <ToggleScreenshotMode.label>切换截图模式（界面隐藏/显示）</ToggleScreenshotMode.label>
   <SelectNextInCell.label>循环选择同一格中的下一个物体</SelectNextInCell.label>
   <TogglePause.label>暂停/继续游戏</TogglePause.label>
-  <TimeSpeed_Normal.label>game speed: Normal</TimeSpeed_Normal.label>
-  <TimeSpeed_Fast.label>game speed: Fast</TimeSpeed_Fast.label>
-  <TimeSpeed_Superfast.label>game speed: Super fast</TimeSpeed_Superfast.label>
-  <TimeSpeed_Ultrafast.label>game speed: Ultra fast (debug)</TimeSpeed_Ultrafast.label>
+  <TimeSpeed_Normal.label>游戏速度: 正常</TimeSpeed_Normal.label>
+  <TimeSpeed_Fast.label>游戏速度: 较快</TimeSpeed_Fast.label>
+  <TimeSpeed_Superfast.label>游戏速度: 非常快</TimeSpeed_Superfast.label>
+  <TimeSpeed_Ultrafast.label>游戏速度: 极快（Debug）</TimeSpeed_Ultrafast.label>
   <PreviousColonist.label>上一位殖民者</PreviousColonist.label>
   <NextColonist.label>下一位殖民者</NextColonist.label>
-  <ToggleRoomStatsDisplay.label>toggle room stats display</ToggleRoomStatsDisplay.label>
-  <ToggleBeautyDisplay.label>toggle beauty display</ToggleBeautyDisplay.label>
-
-
+  <ToggleRoomStatsDisplay.label>开关房间属性展示</ToggleRoomStatsDisplay.label>
+  <ToggleBeautyDisplay.label>开关美观度展示</ToggleBeautyDisplay.label>
   <!-- Misc (re-used) -->
-
   <Misc1.label>其它 1</Misc1.label>
   <Misc2.label>其它 2</Misc2.label>
   <Misc3.label>其它 3</Misc3.label>
@@ -43,41 +35,27 @@
   <Misc10.label>其它 10</Misc10.label>
   <Misc11.label>其它 11</Misc11.label>
   <Misc12.label>其它 12</Misc12.label>
-
-
   <!-- Selection special -->
-
-  <Command_TogglePower.label>toggle power</Command_TogglePower.label>
-  <Command_ItemForbid.label>toggle forbidden</Command_ItemForbid.label>
-  <Command_ColonistDraft.label>draft</Command_ColonistDraft.label>
-
-
+  <Command_TogglePower.label>开关电力</Command_TogglePower.label>
+  <Command_ItemForbid.label>禁用/解禁</Command_ItemForbid.label>
+  <Command_ColonistDraft.label>征召</Command_ColonistDraft.label>
   <!-- Architect: Common -->
-
-  <Designator_Cancel.label>cancel</Designator_Cancel.label>
-  <Designator_Deconstruct.label>deconstruct</Designator_Deconstruct.label>
-  <Designator_RotateLeft.label>rotate left</Designator_RotateLeft.label>
-  <Designator_RotateRight.label>rotate right</Designator_RotateRight.label>
-
-
+  <Designator_Cancel.label>取消</Designator_Cancel.label>
+  <Designator_Deconstruct.label>拆除</Designator_Deconstruct.label>
+  <Designator_RotateLeft.label>向左旋转</Designator_RotateLeft.label>
+  <Designator_RotateRight.label>向右旋转</Designator_RotateRight.label>
   <!-- Modifiers -->
-
-  <ModifierIncrement_10x.label>increment 10x</ModifierIncrement_10x.label>
-  <ModifierIncrement_100x.label>increment 100x</ModifierIncrement_100x.label>
+  <ModifierIncrement_10x.label>增加 10x</ModifierIncrement_10x.label>
+  <ModifierIncrement_100x.label>增加 100x</ModifierIncrement_100x.label>
   <QueueOrder.label>队列排序</QueueOrder.label>
-
-
   <!-- Debug -->
-
-  <Dev_TickOnce.label>tick once</Dev_TickOnce.label>
-  <Dev_ToggleGodMode.label>toggle god mode</Dev_ToggleGodMode.label>
-  <Dev_ToggleDebugLog.label>toggle debug log</Dev_ToggleDebugLog.label>
-  <Dev_ToggleDebugActionsMenu.label>toggle debug actions menu</Dev_ToggleDebugActionsMenu.label>
-  <Dev_ToggleDebugLogMenu.label>toggle debug log menu</Dev_ToggleDebugLogMenu.label>
-  <Dev_ToggleDebugInspector.label>toggle debug inspector</Dev_ToggleDebugInspector.label>
-  <Dev_ToggleDebugSettingsMenu.label>toggle debug settings menu</Dev_ToggleDebugSettingsMenu.label>
-
-
+  <Dev_TickOnce.label>Tick一次（debug）</Dev_TickOnce.label>
+  <Dev_ToggleGodMode.label>开关上帝模式</Dev_ToggleGodMode.label>
+  <Dev_ToggleDebugLog.label>开关Debug日志</Dev_ToggleDebugLog.label>
+  <Dev_ToggleDebugActionsMenu.label>开关Debug操作菜单</Dev_ToggleDebugActionsMenu.label>
+  <Dev_ToggleDebugLogMenu.label>开关Debug日志菜单</Dev_ToggleDebugLogMenu.label>
+  <Dev_ToggleDebugInspector.label>开关Debug查看器</Dev_ToggleDebugInspector.label>
+  <Dev_ToggleDebugSettingsMenu.label>开关Debug设置菜单</Dev_ToggleDebugSettingsMenu.label>
   <!--<MapDollyUp.label>向上</MapDollyUp.label>-->
   <!--<MapDollyDown.label>向下</MapDollyDown.label>-->
   <!--<MapDollyLeft.label>向左</MapDollyLeft.label>-->
@@ -104,5 +82,4 @@
   <!--<ToggleDebugLogMenu.label>开关Debug日志菜单</ToggleDebugLogMenu.label>-->
   <!--<ToggleDebugInspector.label>开关Debug查看器</ToggleDebugInspector.label>-->
   <!--<ToggleDebugSettingsMenu.label>开关Debug设置菜单</ToggleDebugSettingsMenu.label>-->
-
 </LanguageData>

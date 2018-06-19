@@ -1,71 +1,49 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- Good -->
-
   <ResourcePodCrash.label>资源舱坠毁</ResourcePodCrash.label>
   <PsychicSoothe.label>心灵抚慰波</PsychicSoothe.label>
   <SelfTame.label>野兽自行驯服</SelfTame.label>
-
   <AmbrosiaSprout.label>仙馐树萌芽</AmbrosiaSprout.label>
   <AmbrosiaSprout.letterText>附近有一片神秘的仙馐树发芽了！如果你等这些植物长成，你可以收获美味的、令人愉悦的、成瘾性轻微的果子。</AmbrosiaSprout.letterText>
   <AmbrosiaSprout.letterLabel>仙馐树萌芽</AmbrosiaSprout.letterLabel>
-
   <FarmAnimalsWanderIn.label>家养动物加入</FarmAnimalsWanderIn.label>
   <WandererJoin.label>流浪者加入</WandererJoin.label>
   <RefugeePodCrash.label>逃生舱坠毁</RefugeePodCrash.label>
-
-
   <!-- Neutral -->
-
   <RefugeeChased.label>被追捕的逃生者</RefugeeChased.label>
   <ThrumboPasses.label>敲击兽经过</ThrumboPasses.label>
-
   <RansomDemand.label>索取赎金</RansomDemand.label>
   <RansomDemand.letterLabel>索取赎金</RansomDemand.letterLabel>
-
   <MeteoriteImpact.label>陨石撞击</MeteoriteImpact.label>
   <MeteoriteImpact.letterText>一颗巨大的陨石撞击了此区域的地面。留下了一块{0}。</MeteoriteImpact.letterText>
   <MeteoriteImpact.letterLabel>陨石</MeteoriteImpact.letterLabel>
-
   <HerdMigration.label>兽群迁徙</HerdMigration.label>
-  <HerdMigration.letterText>一个大型的{0}群正在经过此区域。除非被激怒，它们不会攻击你。</HerdMigration.letterText>
-  <HerdMigration.letterLabel>兽群迁徙: {0}</HerdMigration.letterLabel>
-
-  <WildManWandersIn.label>wild man wanders in</WildManWandersIn.label>
-  <WildManWandersIn.letterText>A person living among wild animals has wandered into the area. [PAWN_pronoun]'s called {0}.\n\nYou can attempt to tame [PAWN_objective].</WildManWandersIn.letterText>
-  <WildManWandersIn.letterLabel>Wild man wanders in</WildManWandersIn.letterLabel>
-
-
+  <HerdMigration.letterText>一群{0}经过此区域。\n\n除非被激怒，它们不会攻击你。</HerdMigration.letterText>
+  <HerdMigration.letterLabel>动物迁徙: {0}</HerdMigration.letterLabel>
+  <WildManWandersIn.label>游荡的野人</WildManWandersIn.label>
+  <WildManWandersIn.letterText>一个长期以来像动物一样生存的人游荡到了这个区域，[PAWN_pronoun] 叫 {0}。\n\n你可以尝试去驯化[PAWN_objective]。</WildManWandersIn.letterText>
+  <WildManWandersIn.letterLabel>游荡的野人</WildManWandersIn.letterLabel>
   <!-- Bad -->
-
   <PsychicDrone.label>心灵低语</PsychicDrone.label>
-
   <ToxicFallout.label>有毒尘埃</ToxicFallout.label>
   <ToxicFallout.letterText>遥远地方的一起化学品火灾释放的有毒尘埃弥漫了整个地区。\n\n不在屋顶下的人类和动物都会慢慢被有空气中的有毒粉尘致病。\n\n毒雾会持续在几天或超过一个月。</ToxicFallout.letterText>
   <ToxicFallout.letterLabel>有毒尘埃</ToxicFallout.letterLabel>
-
   <VolcanicWinter.label>火山冬天</VolcanicWinter.label>
   <VolcanicWinter.letterText>一个遥远的超级火山爆发了，喷出的火山灰散布在数百万平方公里的大气中。\n\n火山灰在大气中遮蔽了太阳。气温下降、植物会缺乏阳光而枯萎。火山灰有可能在几周内散去，或者持续几个月。</VolcanicWinter.letterText>
   <VolcanicWinter.letterLabel>火山冬天</VolcanicWinter.letterLabel>
-
   <HeatWave.label>热浪</HeatWave.label>
   <HeatWave.letterText>一场罕见的热浪开始了。\n\n在热浪中如果中暑，极易死亡。建造冷却器来降温或呆在清凉的山洞深处。</HeatWave.letterText>
   <HeatWave.letterLabel>热浪</HeatWave.letterLabel>
-
   <ColdSnap.label>寒流</ColdSnap.label>
   <ColdSnap.letterText>一场罕见的寒流开始了。\n\n寒流中，低温症是致命的。确保室内的热量才能生存下去，穿上合适的衣物，并且设法在作物冻死之前进行收获。</ColdSnap.letterText>
   <ColdSnap.letterLabel>寒流</ColdSnap.letterLabel>
-
   <Flashstorm.label>闪电风暴</Flashstorm.label>
   <Flashstorm.letterText>极少量的闪电击中一个小区域。这会引起巨大的火灾。</Flashstorm.letterText>
   <Flashstorm.letterLabel>闪电风暴</Flashstorm.letterLabel>
-
   <ShortCircuit.label>短路</ShortCircuit.label>
   <CropBlight.label>枯萎病</CropBlight.label>
   <Alphabeavers.label>阿尔法海狸</Alphabeavers.label>
-
-
   <!--<CaravanRequest.label>远行队请求</CaravanRequest.label>-->
   <!--<Aurora.label>极光</Aurora.label>-->
   <!--<Aurora.letterText>一片美丽的极光照亮了天空。\n\n起伏的色彩会让在外面看到的人心情愉悦，并使夜晚变得更加明亮。</Aurora.letterText>-->
@@ -73,5 +51,4 @@
   <!--<Tornado.label>龙卷风</Tornado.label>-->
   <!--<Tornado.letterText>一个龙卷风生成了！\n\n它会将所到之处的一切摧毁。</Tornado.letterText>-->
   <!--<Tornado.letterLabel>龙卷风</Tornado.letterLabel>-->
-
 </LanguageData>

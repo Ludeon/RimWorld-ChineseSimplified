@@ -9,7 +9,7 @@
   <Mass.formatString>{0} 千克</Mass.formatString>
 
   <MarketValue.label>市场价值</MarketValue.label>
-  <MarketValue.description>一个物品的市场价值。实际价格会受到派系关系和谈判技能的影响。</MarketValue.description>
+  <MarketValue.description>一个物品的市场价值。实际价格会受到派系关系、谈判技能和其他因素影响。</MarketValue.description>
   <MarketValue.formatString>￥{0}</MarketValue.formatString>
 
   <SellPriceFactor.label>出售价格乘数</SellPriceFactor.label>
@@ -25,23 +25,23 @@
   <WorkToBuild.description>所有材料和工具齐全后建造这个建筑所需要的工作量。</WorkToBuild.description>
 
   <DeteriorationRate.label>老化率</DeteriorationRate.label>
-  <DeteriorationRate.description>放在室外时，物品的老化率，平均每天损失的耐久值。在某些天气下老化速度会比正常情况更快，比如雨天。</DeteriorationRate.description>
+  <DeteriorationRate.description>放在室外时，物品的老化率，平均每天损失的耐久值。老化速度也受天气、屋顶、有毒尘埃、水域等因素影响。</DeteriorationRate.description>
   <DeteriorationRate.formatString>{0} / 日</DeteriorationRate.formatString>
 
   <Beauty.label>美观度</Beauty.label>
   <Beauty.description>一个物品放在周围时给人视觉上的愉悦程度。</Beauty.description>
 
   <Cleanliness.label>清洁度</Cleanliness.label>
-  <Cleanliness.description>一个物品的清洁度。</Cleanliness.description>
+  <Cleanliness.description>一个物品对区域清洁度评价的贡献。</Cleanliness.description>
 
   <Comfort.label>舒适度</Comfort.label>
   <Comfort.description>一个物品在被坐上或躺下时给人的舒适程度。</Comfort.description>
 
-  <Nutrition.label>nutrition</Nutrition.label>
-  <Nutrition.description>How nutritious this food is.</Nutrition.description>
+  <Nutrition.label>营养</Nutrition.label>
+  <Nutrition.description>这种食物所包含的营养总量。</Nutrition.description>
 
-  <FoodPoisonChanceFixedHuman.label>food poison chance</FoodPoisonChanceFixedHuman.label>
-  <FoodPoisonChanceFixedHuman.description>The chance this food will cause food poisoning.</FoodPoisonChanceFixedHuman.description>
+  <FoodPoisonChanceFixedHuman.label>食物有毒几率</FoodPoisonChanceFixedHuman.label>
+  <FoodPoisonChanceFixedHuman.description>这种食物引发食物中毒的概率。</FoodPoisonChanceFixedHuman.description>
 
 
 </LanguageData>

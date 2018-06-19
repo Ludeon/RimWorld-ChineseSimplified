@@ -9,7 +9,7 @@
   <MentalBreakThreshold.description>当此人的心情低于这个值时，会有精神崩溃的风险。</MentalBreakThreshold.description>
 
   <PsychicSensitivity.label>心灵敏感度</PsychicSensitivity.label>
-  <PsychicSensitivity.description>各类心灵事件对此人心情的影响的乘数。</PsychicSensitivity.description>
+  <PsychicSensitivity.description>各类心灵事件对此人心情的影响的乘数。心灵敏感度越高，受到的影响越大。</PsychicSensitivity.description>
 
   <ToxicSensitivity.label>毒物敏感度</ToxicSensitivity.label>
   <ToxicSensitivity.description>有毒尘埃对此人造成影响的乘数。</ToxicSensitivity.description>
@@ -17,11 +17,11 @@
   <GlobalLearningFactor.label>全局学习系数</GlobalLearningFactor.label>
   <GlobalLearningFactor.description>影响所有技能学习效率的全局学习系数。</GlobalLearningFactor.description>
 
-  <HungerRateMultiplier.label>hunger rate multiplier</HungerRateMultiplier.label>
-  <HungerRateMultiplier.description>A multiplier on how quickly a creature becomes hungry.</HungerRateMultiplier.description>
+  <HungerRateMultiplier.label>饥饿率乘数</HungerRateMultiplier.label>
+  <HungerRateMultiplier.description>影响一个生物饮食值下降速度的乘数。</HungerRateMultiplier.description>
 
-  <RestRateMultiplier.label>rest rate multiplier</RestRateMultiplier.label>
-  <RestRateMultiplier.description>A multiplier on how quickly a creature rests while sleeping.</RestRateMultiplier.description>
+  <RestRateMultiplier.label>休息率乘数</RestRateMultiplier.label>
+  <RestRateMultiplier.description>影响一个生物休息值提高速度的乘数。</RestRateMultiplier.description>
 
   <EatingSpeed.label>进食速度</EatingSpeed.label>
   <EatingSpeed.description>此人进食速度的乘数。</EatingSpeed.description>
@@ -36,7 +36,7 @@
   <ImmunityGainSpeed.description>这个角色对疾病产生免疫的速度。如果速度太慢，角色会在产生免疫之前死于疾病。</ImmunityGainSpeed.description>
 
   <CarryingCapacity.label>携带能力</CarryingCapacity.label>
-  <CarryingCapacity.description>这个角色用手、嘴或其他机械装置携带的物品的数量。</CarryingCapacity.description>
+  <CarryingCapacity.description>这个角色用手、嘴或其他机械装置携带的物品的数量。这与远行中的驮运能力是分开的。</CarryingCapacity.description>
 
   <MeatAmount.label>可获肉量</MeatAmount.label>
   <MeatAmount.description>屠宰这种生物可获得肉的数量。</MeatAmount.description>
@@ -50,8 +50,8 @@
   <PainShockThreshold.label>疼痛休克阈值</PainShockThreshold.label>
   <PainShockThreshold.description>此生物因疼痛倒地的点数。</PainShockThreshold.description>
 
-  <ForagedNutritionPerDay.label>foraged food amount</ForagedNutritionPerDay.label>
-  <ForagedNutritionPerDay.description>The amount of nutrition this person will automatically forage per day while traveling by caravan.</ForagedNutritionPerDay.description>
+  <ForagedNutritionPerDay.label>远行采集量</ForagedNutritionPerDay.label>
+  <ForagedNutritionPerDay.description>该生物在远行中每天自动采集获得的营养值。</ForagedNutritionPerDay.description>
 
 
 </LanguageData>

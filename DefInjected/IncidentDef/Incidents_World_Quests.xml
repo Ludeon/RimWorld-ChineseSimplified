@@ -1,41 +1,27 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <Quest_TradeRequest.label>trade request</Quest_TradeRequest.label>
-
-  <Quest_BanditCamp.label>bandit camp quest</Quest_BanditCamp.label>
-  <Quest_BanditCamp.letterText>{0}, {1} of {2}, has sent us a message.\n\nApparently bandits based in a nearby camp have been raiding their caravans. They've asked us to destroy it, which means eliminating all enemies and turrets.\n\nIf we succeed, their relations will improve, and they'll send us this reward:\n\n{3}</Quest_BanditCamp.letterText>
-  <Quest_BanditCamp.letterLabel>Bandit camp quest</Quest_BanditCamp.letterLabel>
-
-  <Quest_ItemStash.label>item stash quest</Quest_ItemStash.label>
-  <Quest_ItemStash.letterText>{0}, {1} of {2}, has informed us of a collection of valuable items not far from us. The collection consists of:\n\n{3}\n\nUnfortunately, it won’t last - others will take the items in {4} days if we don't.\n\nBeware - valuables tend to attract danger. {5}</Quest_ItemStash.letterText>
-  <Quest_ItemStash.letterLabel>Item stash quest</Quest_ItemStash.letterLabel>
-
-
+  <Quest_TradeRequest.label>交易请求</Quest_TradeRequest.label>
+  <Quest_BanditCamp.label>匪徒营地机会</Quest_BanditCamp.label>
+  <Quest_BanditCamp.letterText>{1}的{2}，{0}，给我们发送了一条消息。\n\n附近一个营地中的匪徒基地袭击了他们的远行队。他们请求我们将其摧毁，这意味着要消灭所有敌人和炮塔。\n\n成功后，关系将会得到提升，并且他们会发送给我们以下报酬:\n\n{3}</Quest_BanditCamp.letterText>
+  <Quest_BanditCamp.letterLabel>匪徒营地机会</Quest_BanditCamp.letterLabel>
+  <Quest_ItemStash.label>物品藏匿点机会</Quest_ItemStash.label>
+  <Quest_ItemStash.letterText>{1}的{2}，{0}，告知我们一批贵重物品留在离我们不远等待接收。这批物品包含:\n\n{3}\n\n遗憾的是，时间并不充裕——如果我们不接收这批物品，其他人会在{4}天后来接收。\n\n机会往往伴随着风险，务必当心。\n\n{5}</Quest_ItemStash.letterText>
+  <Quest_ItemStash.letterLabel>物品藏匿点机会</Quest_ItemStash.letterLabel>
   <!-- Used as a utility incident def for the core-requesting faction option -->
-
-  <Quest_ItemStashAICore.label>item stash quest (AI core)</Quest_ItemStashAICore.label>
-  <Quest_ItemStashAICore.letterText>{0}, {1} of {2}, has informed us of a collection of valuable items not far from us. The collection consists of:\n\n{3}\n\nUnfortunately, it won’t last - others will take the items in {4} days if we don't.\n\nBeware - valuables tend to attract danger. {5}</Quest_ItemStashAICore.letterText>
-  <Quest_ItemStashAICore.letterLabel>Item stash quest</Quest_ItemStashAICore.letterLabel>
-
-  <Quest_DownedRefugee.label>incapacitated refugee quest</Quest_DownedRefugee.label>
-  <Quest_DownedRefugee.letterText>[PAWN_nameDef] contacts you and requests help. [PAWN_pronoun] is wounded and unable to move. Without your help, [PAWN_pronoun] will die in {0} days.\n\n[PAWN_nameDef] is a {1}-year-old {2}. [PAWN_pronoun] promises to join you if you rescue [PAWN_objective].\n\nIt may be dangerous there, so beware.</Quest_DownedRefugee.letterText>
-  <Quest_DownedRefugee.letterLabel>Incapacitated refugee quest</Quest_DownedRefugee.letterLabel>
-
-  <Quest_PrisonerRescue.label>prisoner rescue quest</Quest_PrisonerRescue.label>
-  <Quest_PrisonerRescue.letterText>A prisoner being held by {0} has managed to steal a radio and call you!\n\n[PAWN_nameDef] is being held at a camp nearby under armed guard. Rescue [PAWN_objective], and [PAWN_pronoun] will join your colony. [PAWN_pronoun] is a {1}-year-old {2}.</Quest_PrisonerRescue.letterText>
-  <Quest_PrisonerRescue.letterLabel>Prisoner rescue quest</Quest_PrisonerRescue.letterLabel>
-
-  <Quest_PeaceTalks.label>peace talks quest</Quest_PeaceTalks.label>
-  <Quest_PeaceTalks.letterText>[PAWN_nameDef], {0} of {1}, has sent us a message. [PAWN_pronoun] wants to talk with us in a nearby location.\n\nIt could be a great opportunity to improve relations with their faction, but beware - a poor negotiator can cause more harm than good and even anger them.\n\nThe offer will expire after {2} days.</Quest_PeaceTalks.letterText>
-  <Quest_PeaceTalks.letterLabel>Peace talks quest</Quest_PeaceTalks.letterLabel>
-
-
+  <Quest_ItemStashAICore.label>物品藏匿点机会(AI核心)</Quest_ItemStashAICore.label>
+  <Quest_ItemStashAICore.letterText>{0}, {1} of {2},告知我们一批贵重物品留在离我们不远等待接收。这批物品包含:\n\n{3}\n\n遗憾的是，时间并不充裕——如果我们不接收这批物品，其他人会在{4}天后来接收。\n\n机会往往伴随着风险，务必当心。\n\n{5}</Quest_ItemStashAICore.letterText>
+  <Quest_ItemStashAICore.letterLabel>物品藏匿点机会</Quest_ItemStashAICore.letterLabel>
+  <Quest_DownedRefugee.label>无行为能力难民机会</Quest_DownedRefugee.label>
+  <Quest_DownedRefugee.letterText>[PAWN_nameDef]通过无线电联系上你并请求你救助他。[PAWN_pronoun]受伤了并且无法行动。缺少你的帮助，[PAWN_pronoun]会在{0}天内死亡。\n\n[PAWN_nameDef]是一名{1}岁的{2}。如果你救了[PAWN_objective]，[PAWN_pronoun]会答应加入你们。\n\n营救地点可能会有危险，务必小心。</Quest_DownedRefugee.letterText>
+  <Quest_DownedRefugee.letterLabel>无行为能力难民机会</Quest_DownedRefugee.letterLabel>
+  <Quest_PrisonerRescue.label>囚犯救援机会</Quest_PrisonerRescue.label>
+  <Quest_PrisonerRescue.letterText>一名被{0}关押的囚犯设法偷到了一个无限电并呼叫了你！\n\n[PAWN_nameDef]在武装护卫的看守下被关押在附近的营地。解救[PAWN_objective],之后[PAWN_pronoun]会加入你的殖民地。[PAWN_pronoun]是一名{1}岁的{2}。</Quest_PrisonerRescue.letterText>
+  <Quest_PrisonerRescue.letterLabel>囚犯救援机会</Quest_PrisonerRescue.letterLabel>
+  <Quest_PeaceTalks.label>和平谈判机会</Quest_PeaceTalks.label>
+  <Quest_PeaceTalks.letterText> {0}的{1},，[PAWN_nameDef]，给我们发来一条消息。[PAWN_pronoun] 想在附近和我们谈判。\n\n是个提高与他们的派系之间关系的极好机会，但小心，一个糟糕的谈判者有害无益，甚至可能激怒他们。\n\n邀请将在{2}天后过期。</Quest_PeaceTalks.letterText>
+  <Quest_PeaceTalks.letterLabel>和平谈判机会</Quest_PeaceTalks.letterLabel>
   <!-- Main quests -->
-
-  <Quest_JourneyOffer.label>escape ship quest</Quest_JourneyOffer.label>
-
-
+  <Quest_JourneyOffer.label>旅行邀請</Quest_JourneyOffer.label>
   <!--<QuestBanditCamp.label>匪徒营地机会</QuestBanditCamp.label>-->
   <!--<QuestBanditCamp.letterText>{2}的{1}，{0}，给我们发送了一条消息。\n\n附近一个营地中的匪徒基地袭击了他们的远行队。他们请求我们将其摧毁，这意味着要消灭所有敌人和炮塔。\n\n成功后，关系将会得到提升，并且他们会发送给我们以下报酬:\n\n{3}</QuestBanditCamp.letterText>-->
   <!--<QuestBanditCamp.letterLabel>匪徒营地机会</QuestBanditCamp.letterLabel>-->
@@ -51,5 +37,4 @@
   <!--<QuestPeaceTalks.label>和平谈判机会</QuestPeaceTalks.label>-->
   <!--<QuestPeaceTalks.letterText>{1}的{0}，NAME，给我们发来一条消息。HECAP想在附近和我们谈判。\n\n这是个提高与他们的派系之间关系的极好机会，但小心，一个糟糕的谈判者有害无益，甚至可能激怒他们。\n\n邀请将在{2}天后过期。</QuestPeaceTalks.letterText>-->
   <!--<QuestPeaceTalks.letterLabel>和平谈判机会</QuestPeaceTalks.letterLabel>-->
-
 </LanguageData>
