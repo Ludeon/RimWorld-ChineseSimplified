@@ -2,91 +2,75 @@
 <LanguageData>
 
   <RomanceAttempt.label>求爱</RomanceAttempt.label>
-	<RomanceAttempt.logRulesInitiator.rulesStrings>
-		<li>logentry->向[other_nameShortIndef]求爱</li>
-		<li>wooed->tried to flirt with</li>
-		<li>wooed->flirted with</li>
-		<li>wooed->tried to attract</li>
-		<li>wooed->tried to romance</li>
-		<li>wooed->tried to woo</li>
-		<li>wooed->wooed</li>
-		<li>wooed->pursued</li>
-		<li>wooed->charmed</li>
-		<li>wooed->courted</li>
-		<li>wootactic(p=4)->[complimenting] [OTHER_possessive] [PersonalCharacteristic]</li>
-		<li>wootactic(p=2)->[boasting] [INITIATOR_possessive] own [PersonalCharacteristic]</li>
-		<li>wootactic(p=2)->telling a story about [TalkTopic_light]</li>
-		<li>wootactic(p=2)->telling a story about [TalkTopic_heavy]</li>
-		<li>wootactic->comparing [OTHER_objective] to a [romantic_adj] [romantic_noun]</li>
-		<li>wootactic->describing [OTHER_objective] as a [romantic_adj] [romantic_noun]</li>
-		<li>boasting->boasting about</li>
-		<li>boasting->mentioning</li>
-		<li>boasting->implying good things about</li>
-		<li>boasting->exaggerating</li>
-		<li>boasting->talking about</li>
-		<li>boasting->drawing attention to</li>
-		<li>complimenting(p=3)->complimenting</li>
-		<li>complimenting->subtly complimenting</li>
-		<li>complimenting->lauding</li>
-		<li>complimenting->commending</li>
-		<li>complimenting->saying good things about</li>
-		<li>complimenting(p=2)->playfully making fun of</li>
-		<li>complimenting->jokingly poking at</li>
-		<li>complimenting->jokingly half-complimenting</li>
-		<li>complimenting->impishly questioning</li>
-		<li>complimenting->cheerfully making fun of</li>
-		<li>romantic_adj->beautiful</li>
-		<li>romantic_adj->shining</li>
-		<li>romantic_adj->glimmering</li>
-		<li>romantic_adj->heavenly</li>
-		<li>romantic_adj->golden</li>
-		<li>romantic_adj->bright</li>
-		<li>romantic_adj->breathtaking</li>
-		<li>romantic_adj->charming</li>
-		<li>romantic_adj->dazzling</li>
-		<li>romantic_adj->delicate</li>
-		<li>romantic_adj->fine</li>
-		<li>romantic_adj->magnificent</li>
-		<li>romantic_adj->lovely</li>
-		<li>romantic_adj->wonderful</li>
-		<li>romantic_adj(p=3)->[AdjectiveBadass]</li>
-		<li>romantic_noun->flower</li>
-		<li>romantic_noun->spring</li>
-		<li>romantic_noun->river</li>
-		<li>romantic_noun->star</li>
-		<li>romantic_noun->moon</li>
-		<li>romantic_noun->sun</li>
-		<li>romantic_noun->house</li>
-		<li>romantic_noun->aurora</li>
-		<li>romantic_noun->[TreeType] tree</li>
-		<li>romantic_noun(p=2)->[TerrainFeature]</li>
-		<li>romantic_noun(p=2)->[NaturalObject]</li>
-	</RomanceAttempt.logRulesInitiator.rulesStrings>
+  <RomanceAttempt.logRulesInitiator.rulesStrings.0>r_logentry->[INITIATOR_nameIndef][wooed][OTHER_nameIndef]，[wootactic]。</RomanceAttempt.logRulesInitiator.rulesStrings.0>
+  <RomanceAttempt.logRulesInitiator.rulesStrings.1>wooed->试图挑逗</RomanceAttempt.logRulesInitiator.rulesStrings.1>
+  <RomanceAttempt.logRulesInitiator.rulesStrings.2>wooed->挑逗</RomanceAttempt.logRulesInitiator.rulesStrings.2>
+  <RomanceAttempt.logRulesInitiator.rulesStrings.3>wooed->试图吸引</RomanceAttempt.logRulesInitiator.rulesStrings.3>
+  <RomanceAttempt.logRulesInitiator.rulesStrings.4>wooed->试图追求</RomanceAttempt.logRulesInitiator.rulesStrings.4>
+  <RomanceAttempt.logRulesInitiator.rulesStrings.5>wooed->试图表白</RomanceAttempt.logRulesInitiator.rulesStrings.5>
+  <RomanceAttempt.logRulesInitiator.rulesStrings.6>wooed->表白</RomanceAttempt.logRulesInitiator.rulesStrings.6>
+  <RomanceAttempt.logRulesInitiator.rulesStrings.7>wooed->追求</RomanceAttempt.logRulesInitiator.rulesStrings.7>
+  <RomanceAttempt.logRulesInitiator.rulesStrings.8>wooed->迷住</RomanceAttempt.logRulesInitiator.rulesStrings.8>
+  <RomanceAttempt.logRulesInitiator.rulesStrings.9>wooed->求婚</RomanceAttempt.logRulesInitiator.rulesStrings.9>
+  <RomanceAttempt.logRulesInitiator.rulesStrings.10>wootactic(p=4)->[complimenting][OTHER_possessive][PersonalCharacteristic]</RomanceAttempt.logRulesInitiator.rulesStrings.10>
+  <RomanceAttempt.logRulesInitiator.rulesStrings.11>wootactic(p=2)->[boasting][INITIATOR_possessive][PersonalCharacteristic]</RomanceAttempt.logRulesInitiator.rulesStrings.11>
+  <RomanceAttempt.logRulesInitiator.rulesStrings.12>wootactic(p=2)->讲述一个关于[TalkTopicLight]的故事</RomanceAttempt.logRulesInitiator.rulesStrings.12>
+  <RomanceAttempt.logRulesInitiator.rulesStrings.13>wootactic(p=2)->讲述一个关于[TalkTopicHeavy]的故事</RomanceAttempt.logRulesInitiator.rulesStrings.13>
+  <RomanceAttempt.logRulesInitiator.rulesStrings.14>wootactic->把[OTHER_objective]比作[romantic_adj][romantic_noun]</RomanceAttempt.logRulesInitiator.rulesStrings.14>
+  <RomanceAttempt.logRulesInitiator.rulesStrings.15>wootactic->描述[OTHER_objective]好似[romantic_adj]的[romantic_noun]</RomanceAttempt.logRulesInitiator.rulesStrings.15>
+  <RomanceAttempt.logRulesInitiator.rulesStrings.16>boasting->吹嘘</RomanceAttempt.logRulesInitiator.rulesStrings.16>
+  <RomanceAttempt.logRulesInitiator.rulesStrings.17>boasting->提及</RomanceAttempt.logRulesInitiator.rulesStrings.17>
+  <RomanceAttempt.logRulesInitiator.rulesStrings.18>boasting->含蓄地认同</RomanceAttempt.logRulesInitiator.rulesStrings.18>
+  <RomanceAttempt.logRulesInitiator.rulesStrings.19>boasting->夸大</RomanceAttempt.logRulesInitiator.rulesStrings.19>
+  <RomanceAttempt.logRulesInitiator.rulesStrings.20>boasting->谈论</RomanceAttempt.logRulesInitiator.rulesStrings.20>
+  <RomanceAttempt.logRulesInitiator.rulesStrings.21>boasting->吸引</RomanceAttempt.logRulesInitiator.rulesStrings.21>
+  <RomanceAttempt.logRulesInitiator.rulesStrings.22>complimenting(p=3)->恭维</RomanceAttempt.logRulesInitiator.rulesStrings.22>
+  <RomanceAttempt.logRulesInitiator.rulesStrings.23>complimenting->巧妙地恭维</RomanceAttempt.logRulesInitiator.rulesStrings.23>
+  <RomanceAttempt.logRulesInitiator.rulesStrings.24>complimenting->赞美</RomanceAttempt.logRulesInitiator.rulesStrings.24>
+  <RomanceAttempt.logRulesInitiator.rulesStrings.25>complimenting->称赞</RomanceAttempt.logRulesInitiator.rulesStrings.25>
+  <RomanceAttempt.logRulesInitiator.rulesStrings.26>complimenting->说好事关于</RomanceAttempt.logRulesInitiator.rulesStrings.26>
+  <RomanceAttempt.logRulesInitiator.rulesStrings.27>complimenting(p=2)->顽皮地调笑</RomanceAttempt.logRulesInitiator.rulesStrings.27>
+  <RomanceAttempt.logRulesInitiator.rulesStrings.28>complimenting->打趣地戳了</RomanceAttempt.logRulesInitiator.rulesStrings.28>
+  <RomanceAttempt.logRulesInitiator.rulesStrings.29>complimenting->半开玩笑地恭维</RomanceAttempt.logRulesInitiator.rulesStrings.29>
+  <RomanceAttempt.logRulesInitiator.rulesStrings.30>complimenting->鲁莽地质问</RomanceAttempt.logRulesInitiator.rulesStrings.30>
+  <RomanceAttempt.logRulesInitiator.rulesStrings.31>complimenting->愉悦地取笑</RomanceAttempt.logRulesInitiator.rulesStrings.31>
+  <RomanceAttempt.logRulesInitiator.rulesStrings.32>romantic_adj->美丽</RomanceAttempt.logRulesInitiator.rulesStrings.32>
+  <RomanceAttempt.logRulesInitiator.rulesStrings.33>romantic_adj->出色</RomanceAttempt.logRulesInitiator.rulesStrings.33>
+  <RomanceAttempt.logRulesInitiator.rulesStrings.34>romantic_adj->朦胧</RomanceAttempt.logRulesInitiator.rulesStrings.34>
+  <RomanceAttempt.logRulesInitiator.rulesStrings.35>romantic_adj->天上</RomanceAttempt.logRulesInitiator.rulesStrings.35>
+  <RomanceAttempt.logRulesInitiator.rulesStrings.36>romantic_adj->美好</RomanceAttempt.logRulesInitiator.rulesStrings.36>
+  <RomanceAttempt.logRulesInitiator.rulesStrings.37>romantic_adj->聪明</RomanceAttempt.logRulesInitiator.rulesStrings.37>
+  <RomanceAttempt.logRulesInitiator.rulesStrings.38>romantic_adj->惊人</RomanceAttempt.logRulesInitiator.rulesStrings.38>
+  <RomanceAttempt.logRulesInitiator.rulesStrings.39>romantic_adj->迷人</RomanceAttempt.logRulesInitiator.rulesStrings.39>
+  <RomanceAttempt.logRulesInitiator.rulesStrings.40>romantic_adj->璀璨</RomanceAttempt.logRulesInitiator.rulesStrings.40>
+  <RomanceAttempt.logRulesInitiator.rulesStrings.41>romantic_adj->纤细</RomanceAttempt.logRulesInitiator.rulesStrings.41>
+  <RomanceAttempt.logRulesInitiator.rulesStrings.42>romantic_adj->清秀</RomanceAttempt.logRulesInitiator.rulesStrings.42>
+  <RomanceAttempt.logRulesInitiator.rulesStrings.43>romantic_adj->瑰丽</RomanceAttempt.logRulesInitiator.rulesStrings.43>
+  <RomanceAttempt.logRulesInitiator.rulesStrings.44>romantic_adj->可爱</RomanceAttempt.logRulesInitiator.rulesStrings.44>
+  <RomanceAttempt.logRulesInitiator.rulesStrings.45>romantic_adj->美妙</RomanceAttempt.logRulesInitiator.rulesStrings.45>
+  <RomanceAttempt.logRulesInitiator.rulesStrings.46>romantic_adj(p=3)->[AdjectiveBadass]</RomanceAttempt.logRulesInitiator.rulesStrings.46>
+  <RomanceAttempt.logRulesInitiator.rulesStrings.47>romantic_noun->花朵</RomanceAttempt.logRulesInitiator.rulesStrings.47>
+  <RomanceAttempt.logRulesInitiator.rulesStrings.48>romantic_noun->春季</RomanceAttempt.logRulesInitiator.rulesStrings.48>
+  <RomanceAttempt.logRulesInitiator.rulesStrings.49>romantic_noun->河流</RomanceAttempt.logRulesInitiator.rulesStrings.49>
+  <RomanceAttempt.logRulesInitiator.rulesStrings.50>romantic_noun->星星</RomanceAttempt.logRulesInitiator.rulesStrings.50>
+  <RomanceAttempt.logRulesInitiator.rulesStrings.51>romantic_noun->月亮</RomanceAttempt.logRulesInitiator.rulesStrings.51>
+  <RomanceAttempt.logRulesInitiator.rulesStrings.52>romantic_noun->太阳</RomanceAttempt.logRulesInitiator.rulesStrings.52>
+  <RomanceAttempt.logRulesInitiator.rulesStrings.53>romantic_noun->房屋</RomanceAttempt.logRulesInitiator.rulesStrings.53>
+  <RomanceAttempt.logRulesInitiator.rulesStrings.54>romantic_noun->极光</RomanceAttempt.logRulesInitiator.rulesStrings.54>
+  <RomanceAttempt.logRulesInitiator.rulesStrings.55>romantic_noun->[TreeType]</RomanceAttempt.logRulesInitiator.rulesStrings.55>
+  <RomanceAttempt.logRulesInitiator.rulesStrings.56>romantic_noun(p=2)->[TerrainFeature]</RomanceAttempt.logRulesInitiator.rulesStrings.56>
+  <RomanceAttempt.logRulesInitiator.rulesStrings.57>romantic_noun(p=2)->[NaturalObject]</RomanceAttempt.logRulesInitiator.rulesStrings.57>
 
   <MarriageProposal.label>求婚</MarriageProposal.label>
-	<MarriageProposal.logRulesInitiator.rulesStrings>
-		<li>logentry->向[other_nameShortIndef]求婚。</li>
-		<li>r_logentry->[INITIATOR_nameIndef] proposed a lifelong commitment to [OTHER_nameIndef].</li>
-		<li>r_logentry->[INITIATOR_nameIndef] told [OTHER_nameIndef] that [INITIATOR_pronoun] wants to spend [INITIATOR_possessive] life with [OTHER_objective].</li>
-	</MarriageProposal.logRulesInitiator.rulesStrings>
+  <MarriageProposal.logRulesInitiator.rulesStrings.0>r_logentry->[INITIATOR_nameIndef]向[OTHER_nameIndef]求婚。</MarriageProposal.logRulesInitiator.rulesStrings.0>
+  <MarriageProposal.logRulesInitiator.rulesStrings.1>r_logentry->[INITIATOR_nameIndef]对[OTHER_nameIndef]做出终身承诺。</MarriageProposal.logRulesInitiator.rulesStrings.1>
+  <MarriageProposal.logRulesInitiator.rulesStrings.2>r_logentry->[INITIATOR_nameIndef]告诉[OTHER_nameIndef]，[INITIATOR_pronoun]希望用[INITIATOR_possessive]一生来陪伴[OTHER_objective]。</MarriageProposal.logRulesInitiator.rulesStrings.2>
 
   <Breakup.label>感情破裂</Breakup.label>
-	<Breakup.logRulesInitiator.rulesStrings>
-		<li>logentry->向[other_nameShortIndef]提出分手。</li>
-		<li>r_logentry->[INITIATOR_nameIndef] asked [OTHER_nameIndef] for some space.</li>
-		<li>r_logentry->[INITIATOR_nameIndef] told [OTHER_nameIndef] that it's not working out.</li>
-		<li>r_logentry->[INITIATOR_nameIndef] told [OTHER_nameIndef] that it would be best to see other people.</li>
-	</Breakup.logRulesInitiator.rulesStrings>
+  <Breakup.logRulesInitiator.rulesStrings.0>r_logentry->[INITIATOR_nameIndef]要求和[OTHER_nameIndef]分手。</Breakup.logRulesInitiator.rulesStrings.0>
+  <Breakup.logRulesInitiator.rulesStrings.1>r_logentry->[INITIATOR_nameIndef]要求[OTHER_nameIndef]给彼此更多的空间。</Breakup.logRulesInitiator.rulesStrings.1>
+  <Breakup.logRulesInitiator.rulesStrings.2>r_logentry->[INITIATOR_nameIndef]告诉[OTHER_nameIndef]，这样下去是行不通的。</Breakup.logRulesInitiator.rulesStrings.2>
+  <Breakup.logRulesInitiator.rulesStrings.3>r_logentry->[INITIATOR_nameIndef]告诉[OTHER_nameIndef]，下一个会更好。</Breakup.logRulesInitiator.rulesStrings.3>
 
-
-  <!--	<RomanceAttempt.logRulesRecipient.rulesStrings>
-		<li>logentry->被[other_nameShortIndef]求爱。</li>
-	</RomanceAttempt.logRulesRecipient.rulesStrings>-->
-  <!--	<Breakup.logRulesRecipient.rulesStrings>
-		<li>logentry->被[other_nameShortIndef]抛弃了。</li>
-	</Breakup.logRulesRecipient.rulesStrings>-->
-  <!--	<MarriageProposal.logRulesRecipient.rulesStrings>
-		<li>logentry->被[other_nameShortIndef]求婚。</li>
-	</MarriageProposal.logRulesRecipient.rulesStrings>-->
 
 </LanguageData>

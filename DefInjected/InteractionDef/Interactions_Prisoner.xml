@@ -2,62 +2,56 @@
 <LanguageData>
 
   <BuildRapport.label>尝试交流</BuildRapport.label>
-	<BuildRapport.logRulesInitiator.rulesStrings>
-		<li>logentry->尝试与[other_nameShortIndef]建立融洽关系。</li>
-		<li>r_logentry->[INITIATOR_nameIndef] told [RECIPIENT_nameIndef] about [subject].</li>
-		<li>r_logentry->[INITIATOR_nameIndef] described [subject] to [RECIPIENT_nameIndef].</li>
-		<li>r_logentry->[INITIATOR_nameIndef] encouraged [RECIPIENT_nameIndef] to [talkabout] [subject].</li>
-		<li>r_logentry->[INITIATOR_nameIndef] offered a chance for [RECIPIENT_nameIndef] to [talkabout] [subject].</li>
-		<li>r_logentry->[INITIATOR_nameIndef] expressed interest in [RECIPIENT_nameIndef]'s [PersonalCharacteristic].</li>
-		<li>r_logentry->[INITIATOR_nameIndef] asked [RECIPIENT_nameIndef] about [RECIPIENT_possessive] [PersonalCharacteristic].</li>
-		<li>toldastoryabout(p=2)->told a story about</li>
-		<li>toldastoryabout->told a funny story about</li>
-		<li>toldastoryabout->told a heartfelt story about</li>
-		<li>toldastoryabout->told an old story about</li>
-		<li>toldastoryabout->told a family story about</li>
-		<li>toldastoryabout->told a childhood story about</li>
-		<li>toldastoryabout->mentioned an anecdote about</li>
-		<li>talkabout->talk about</li>
-		<li>talkabout->discuss</li>
-		<li>talkabout->have a discussion about</li>
-		<li>talkabout->ask about</li>
-		<li>talkabout->think about</li>
-		<li>talkabout->find common ground around</li>
-		<li>subject->the colony</li>
-		<li>subject->the community</li>
-		<li>subject->joining the colony</li>
-		<li>subject->changing teams</li>
-		<li>subject->finding friends</li>
-		<li>subject->meeting new people</li>
-		<li>subject->reconsidering [RECIPIENT_possessive] ideas</li>
-		<li>subject->rethinking [RECIPIENT_possessive] loyalties</li>
-		<li>subject->health</li>
-		<li>subject->the future</li>
-		<li>subject->letting go</li>
-		<li>subject(p=4)->[ConceptPositive]</li>
-		<li>subject(p=2)->[RECIPIENT_possessive] [PersonalCharacteristic]</li>
-		<li>subject(p=8)->[TalkTopic_light]</li>
-	</BuildRapport.logRulesInitiator.rulesStrings>
+  <BuildRapport.logRulesInitiator.rulesStrings.0>r_logentry->[INITIATOR_nameIndef]给[RECIPIENT_nameIndef][toldastoryabout]。</BuildRapport.logRulesInitiator.rulesStrings.0>
+  <BuildRapport.logRulesInitiator.rulesStrings.1>r_logentry->[INITIATOR_nameIndef]告诉[RECIPIENT_nameIndef]关于[subject]的问题。</BuildRapport.logRulesInitiator.rulesStrings.1>
+  <BuildRapport.logRulesInitiator.rulesStrings.2>r_logentry->[INITIATOR_nameIndef]同[RECIPIENT_nameIndef]叙述[subject]的问题。</BuildRapport.logRulesInitiator.rulesStrings.2>
+  <BuildRapport.logRulesInitiator.rulesStrings.3>r_logentry->[INITIATOR_nameIndef]鼓励[RECIPIENT_nameIndef][talkabout][subject]的问题。</BuildRapport.logRulesInitiator.rulesStrings.3>
+  <BuildRapport.logRulesInitiator.rulesStrings.4>r_logentry->[INITIATOR_nameIndef]给予[RECIPIENT_nameIndef]一个机会[talkabout][subject]的问题。</BuildRapport.logRulesInitiator.rulesStrings.4>
+  <BuildRapport.logRulesInitiator.rulesStrings.5>r_logentry->[INITIATOR_nameIndef]表示对[RECIPIENT_nameIndef]的[PersonalCharacteristic]感兴趣。</BuildRapport.logRulesInitiator.rulesStrings.5>
+  <BuildRapport.logRulesInitiator.rulesStrings.6>r_logentry->[INITIATOR_nameIndef]询问[RECIPIENT_nameIndef]关于[RECIPIENT_possessive][PersonalCharacteristic]。</BuildRapport.logRulesInitiator.rulesStrings.6>
+  <BuildRapport.logRulesInitiator.rulesStrings.7>toldastoryabout(p=2)->讲述了一个关于[subject]的故事</BuildRapport.logRulesInitiator.rulesStrings.7>
+  <BuildRapport.logRulesInitiator.rulesStrings.8>toldastoryabout->讲述了一个关于[subject]的有趣故事</BuildRapport.logRulesInitiator.rulesStrings.8>
+  <BuildRapport.logRulesInitiator.rulesStrings.9>toldastoryabout->讲述了一个关于[subject]的真诚故事</BuildRapport.logRulesInitiator.rulesStrings.9>
+  <BuildRapport.logRulesInitiator.rulesStrings.10>toldastoryabout->讲述了一个关于[subject]的古老故事</BuildRapport.logRulesInitiator.rulesStrings.10>
+  <BuildRapport.logRulesInitiator.rulesStrings.11>toldastoryabout->讲述了一个关于[subject]的家庭故事</BuildRapport.logRulesInitiator.rulesStrings.11>
+  <BuildRapport.logRulesInitiator.rulesStrings.12>toldastoryabout->讲述了一个关于[subject]的童年故事</BuildRapport.logRulesInitiator.rulesStrings.12>
+  <BuildRapport.logRulesInitiator.rulesStrings.13>toldastoryabout->提及了一个关于[subject]的趣闻</BuildRapport.logRulesInitiator.rulesStrings.13>
+  <BuildRapport.logRulesInitiator.rulesStrings.14>talkabout->谈论</BuildRapport.logRulesInitiator.rulesStrings.14>
+  <BuildRapport.logRulesInitiator.rulesStrings.15>talkabout->讨论</BuildRapport.logRulesInitiator.rulesStrings.15>
+  <BuildRapport.logRulesInitiator.rulesStrings.16>talkabout->讨论一下</BuildRapport.logRulesInitiator.rulesStrings.16>
+  <BuildRapport.logRulesInitiator.rulesStrings.17>talkabout->询问关于</BuildRapport.logRulesInitiator.rulesStrings.17>
+  <BuildRapport.logRulesInitiator.rulesStrings.18>talkabout->思考关于</BuildRapport.logRulesInitiator.rulesStrings.18>
+  <BuildRapport.logRulesInitiator.rulesStrings.19>talkabout->认同</BuildRapport.logRulesInitiator.rulesStrings.19>
+  <BuildRapport.logRulesInitiator.rulesStrings.20>subject->这个殖民地</BuildRapport.logRulesInitiator.rulesStrings.20>
+  <BuildRapport.logRulesInitiator.rulesStrings.21>subject->这个团体</BuildRapport.logRulesInitiator.rulesStrings.21>
+  <BuildRapport.logRulesInitiator.rulesStrings.22>subject->加入殖民地</BuildRapport.logRulesInitiator.rulesStrings.22>
+  <BuildRapport.logRulesInitiator.rulesStrings.23>subject->改换门庭</BuildRapport.logRulesInitiator.rulesStrings.23>
+  <BuildRapport.logRulesInitiator.rulesStrings.24>subject->寻找朋友</BuildRapport.logRulesInitiator.rulesStrings.24>
+  <BuildRapport.logRulesInitiator.rulesStrings.25>subject->结识新人</BuildRapport.logRulesInitiator.rulesStrings.25>
+  <BuildRapport.logRulesInitiator.rulesStrings.26>subject->重新考虑[RECIPIENT_possessive]观念</BuildRapport.logRulesInitiator.rulesStrings.26>
+  <BuildRapport.logRulesInitiator.rulesStrings.27>subject->重新考虑[RECIPIENT_possessive]忠诚</BuildRapport.logRulesInitiator.rulesStrings.27>
+  <BuildRapport.logRulesInitiator.rulesStrings.28>subject->健康</BuildRapport.logRulesInitiator.rulesStrings.28>
+  <BuildRapport.logRulesInitiator.rulesStrings.29>subject->未来</BuildRapport.logRulesInitiator.rulesStrings.29>
+  <BuildRapport.logRulesInitiator.rulesStrings.30>subject->释放</BuildRapport.logRulesInitiator.rulesStrings.30>
+  <BuildRapport.logRulesInitiator.rulesStrings.31>subject(p=4)->[ConceptPositive]</BuildRapport.logRulesInitiator.rulesStrings.31>
+  <BuildRapport.logRulesInitiator.rulesStrings.32>subject(p=2)->[RECIPIENT_possessive][PersonalCharacteristic]</BuildRapport.logRulesInitiator.rulesStrings.32>
+  <BuildRapport.logRulesInitiator.rulesStrings.33>subject(p=8)->[TalkTopicLight]</BuildRapport.logRulesInitiator.rulesStrings.33>
 
   <RecruitAttempt.label>尝试招募</RecruitAttempt.label>
-	<RecruitAttempt.logRulesInitiator.rulesStrings>
-		<li>logentry->尝试招募[other_nameShortIndef]。</li>
-		<li>r_logentry->[INITIATOR_nameIndef] promised [goodthing] to [RECIPIENT_nameIndef], and asked [RECIPIENT_objective] to join.</li>
-		<li>goodthing(p=15)->[ConceptPositive]</li>
-		<li>goodthing->free, fresh [Vegetable]s</li>
-	</RecruitAttempt.logRulesInitiator.rulesStrings>
+  <RecruitAttempt.logRulesInitiator.rulesStrings.0>r_logentry->[INITIATOR_nameIndef]要求[RECIPIENT_nameIndef]加入。</RecruitAttempt.logRulesInitiator.rulesStrings.0>
+  <RecruitAttempt.logRulesInitiator.rulesStrings.1>r_logentry->[INITIATOR_nameIndef]同[RECIPIENT_nameIndef]许诺[goodthing] ，并要求[RECIPIENT_objective]加入。</RecruitAttempt.logRulesInitiator.rulesStrings.1>
+  <RecruitAttempt.logRulesInitiator.rulesStrings.2>goodthing(p=15)->[ConceptPositive]的憧憬</RecruitAttempt.logRulesInitiator.rulesStrings.2>
+  <RecruitAttempt.logRulesInitiator.rulesStrings.3>goodthing->新鲜免费的[Vegetable]</RecruitAttempt.logRulesInitiator.rulesStrings.3>
 
   <SparkJailbreak.label>鼓动越狱</SparkJailbreak.label>
-	<SparkJailbreak.logRulesInitiator.rulesStrings>
-		<li>logentry->鼓动[other_nameShortIndef]越狱。</li>
-		<li>r_logentry->[INITIATOR_nameIndef] talked about how beautiful the [TerrainFeature] is, and offered freedom.</li>
-		<li>r_logentry->[INITIATOR_nameIndef] demonstrated a means of escape to [RECIPIENT_nameIndef], and promised [freedom].</li>
-		<li>r_logentry->[INITIATOR_nameIndef] told [RECIPIENT_nameIndef] that security is lax, and encouraged escape.</li>
-		<li>freedom->freedom</li>
-		<li>freedom->opportunity</li>
-		<li>freedom->home</li>
-		<li>freedom->self-determination</li>
-	</SparkJailbreak.logRulesInitiator.rulesStrings>
+  <SparkJailbreak.logRulesInitiator.rulesStrings.0>r_logentry->[INITIATOR_nameIndef]谈及了[freedom]的美好, 并提供了一种逃离的方法。</SparkJailbreak.logRulesInitiator.rulesStrings.0>
+  <SparkJailbreak.logRulesInitiator.rulesStrings.1>r_logentry->[INITIATOR_nameIndef]讲述了[TerrainFeature]是多么的美丽，并将囚犯释放。</SparkJailbreak.logRulesInitiator.rulesStrings.1>
+  <SparkJailbreak.logRulesInitiator.rulesStrings.2>r_logentry->[INITIATOR_nameIndef]向[RECIPIENT_nameIndef]展示了一种逃离的方法，并保证其[freedom]。</SparkJailbreak.logRulesInitiator.rulesStrings.2>
+  <SparkJailbreak.logRulesInitiator.rulesStrings.3>r_logentry->[INITIATOR_nameIndef]告诉[RECIPIENT_nameIndef]现在防御很松懈，并怂恿其逃跑。</SparkJailbreak.logRulesInitiator.rulesStrings.3>
+  <SparkJailbreak.logRulesInitiator.rulesStrings.4>freedom->重获自由</SparkJailbreak.logRulesInitiator.rulesStrings.4>
+  <SparkJailbreak.logRulesInitiator.rulesStrings.5>freedom->逃出生天</SparkJailbreak.logRulesInitiator.rulesStrings.5>
+  <SparkJailbreak.logRulesInitiator.rulesStrings.6>freedom->回家</SparkJailbreak.logRulesInitiator.rulesStrings.6>
+  <SparkJailbreak.logRulesInitiator.rulesStrings.7>freedom->重获人权</SparkJailbreak.logRulesInitiator.rulesStrings.7>
 
 
 </LanguageData>
