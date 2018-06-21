@@ -33,13 +33,13 @@
 
   <TraderArrival>一艘商船正巧经过。\n\n他们被称作{0}。是{1}。</TraderArrival>
 
-  <SingleTravelerPassing>一位来自{1}的{0}正巧路过。HECAP的名字叫{2}。</SingleTravelerPassing>
+  <SingleTravelerPassing>一位来自{1}的{0}正巧路过。[PAWN_pronoun]的名字叫{2}。</SingleTravelerPassing>
   <GroupTravelersPassing>一群来自{0}的旅行者正巧路过。</GroupTravelersPassing>
 
   <LetterLabelSingleVisitorArrives>访客</LetterLabelSingleVisitorArrives>
-  <SingleVisitorArrives>一位来自{1}的{0}来拜访殖民地。\n\nHECAP的名字叫{2}。{3}{4}</SingleVisitorArrives>
-  <SingleVisitorArrivesTraderInfo>\n\nHECAP似乎有些物品可供交易。</SingleVisitorArrivesTraderInfo>
-  <SingleVisitorArrivesLeaderInfo>\n\nHECAP是该派系首领。</SingleVisitorArrivesLeaderInfo>
+  <SingleVisitorArrives>一位来自{1}的{0}来拜访殖民地。\n\n[PAWN_pronoun]的名字叫{2}。{3}{4}</SingleVisitorArrives>
+  <SingleVisitorArrivesTraderInfo>\n\n[PAWN_pronoun]似乎有些物品可供交易。</SingleVisitorArrivesTraderInfo>
+  <SingleVisitorArrivesLeaderInfo>\n\n[PAWN_pronoun]是该派系首领。</SingleVisitorArrivesLeaderInfo>
   <LetterLabelGroupVisitorsArrive>访客</LetterLabelGroupVisitorsArrive>
   <GroupVisitorsArrive>一群来自{0}的人来拜访殖民地。{1}{2}</GroupVisitorsArrive>
   <GroupVisitorsArriveTraderInfo>\n\n他们似乎有些物品可供交易。</GroupVisitorsArriveTraderInfo>
@@ -47,7 +47,7 @@
   <VisitorsLeaving>来自{0}的访客准备离开了。</VisitorsLeaving>
 
   <LetterLabelWandererJoin>流浪者加入</LetterLabelWandererJoin>
-  <WandererJoin>一位名叫NAME的{0}来到了这里并加入了殖民地。HECAP是一位{1}。</WandererJoin>
+  <WandererJoin>一位名叫[PAWN_nameDef]的{0}来到了这里并加入了殖民地。[PAWN_pronoun]是一位{1}。</WandererJoin>
 
   <LetterLabelManhunterPackArrived>猎杀人类</LetterLabelManhunterPackArrived>
   <ManhunterPackArrived>一群猎杀人类的{0}已经进入该地区。他们将四处游荡猎杀人类。\n\n它们不会从门进来，所以如果你呆在室内并关好门应该是安全的。他们也不会攻击关闭的炮塔，所以如果你想避免炮台被拆可以停止对炮塔供电。\n\n它们将会在几天后离开。</ManhunterPackArrived>
@@ -81,7 +81,7 @@
 
   <!-- Refugee chased -->
   <RefugeeChasedTitle>在{0}被追击的逃亡者</RefugeeChasedTitle>
-  <RefugeeChasedInitial>附近一位名叫 {0} 的 {1} 发来求救信号。HECAP说自己正被来自{3}的{2}追捕！\n\nHECAP祈求得到保护并想加入殖民地。HE的生物年龄是{4}岁。\n\n警告：如果你接受请求，你将要对抗追捕HIS{2}。</RefugeeChasedInitial>
+  <RefugeeChasedInitial>附近一位名叫 {0} 的 {1} 发来求救信号。[PAWN_pronoun]说自己正被来自{3}的{2}追捕！\n\n[PAWN_pronoun]祈求得到保护并想加入殖民地。[PAWN_pronoun]的生物年龄是{4}岁。\n\n警告：如果你接受请求，你将要对抗追捕[PAWN_possessive]{2}。</RefugeeChasedInitial>
   <RefugeeChasedInitial_Accept>提供保护</RefugeeChasedInitial_Accept>
   <RefugeeChasedInitial_Reject>忽略消息</RefugeeChasedInitial_Reject>
   <RefugeeChasedRejected>在你中断联系时，通讯器中传出{0}恐慌的尖叫声。</RefugeeChasedRejected>
@@ -110,7 +110,7 @@
 
   <!-- Ransom demand -->
   <RansomDemandTitle>向{0}索要赎金</RansomDemandTitle>
-  <RansomDemand>{1}发来通讯信号。他们绑架了殖民者 {0} 并索要赎金。\n\n从他们手里赎回HIM需要{2}白银。</RansomDemand>
+  <RansomDemand>{1}发来通讯信号。他们绑架了殖民者 {0} 并索要赎金。\n\n从他们手里赎回[PAWN_objective]需要{2}白银。</RansomDemand>
   <RansomDemand_Accept>同意</RansomDemand_Accept>
   <RansomDemand_Reject>拒绝</RansomDemand_Reject>
 
