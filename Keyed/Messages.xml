@@ -35,8 +35,9 @@
 
   <MessageOutOfNearbyShellsFor>{0}在附近找不到可供{1}使用的未分配炮弹。</MessageOutOfNearbyShellsFor>
 
-  <MessageAnimalsGoPsychoHunted>警告: {0}在受到伤害后通常会发动攻击。</MessageAnimalsGoPsychoHunted>
-  <MessageAnimalManhuntsOnTameFailed>警告: {0}在尝试驯服失败后会攻击你（{1}几率）。</MessageAnimalManhuntsOnTameFailed>
+  <MessageAnimalsGoPsychoHunted>警告: {0}在受到伤害后通常会发动攻击（步枪射程距离下{1}几率，越近则越高）。</MessageAnimalsGoPsychoHunted>
+  <MessageAnimalManhuntsOnTameFailed>警告: {0}在驯服失败后通常会发动攻击（{1}几率）。</MessageAnimalManhuntsOnTameFailed>
+ 
 
   <LetterLabelMessageRecruitSuccess>新人加入</LetterLabelMessageRecruitSuccess>
   <MessageRecruitSuccess>{0}成功招募了{1}（成功率{2}）。</MessageRecruitSuccess>
@@ -71,7 +72,7 @@
   <MessageNoAnimalBeds>没有可用的动物睡眠点或床铺。</MessageNoAnimalBeds>
   <MessageTooLowMedCare>该手术要求医疗供应为{0}或更好，但{1}的当前医疗供应是「{2}」。</MessageTooLowMedCare>
 
-  <PawnDiedBecauseOf>{0}死于{1}。</PawnDiedBecauseOf>
+  <PawnDiedBecauseOf>{0}已死亡。原因：{1}。</PawnDiedBecauseOf>
   <PawnDied>{0}已死亡。</PawnDied>
 
   <MessageNoLongerDowned>{0}恢复了行走能力。</MessageNoLongerDowned>
@@ -120,7 +121,7 @@
 
   <MessageSuccessfullyRemovedHediff>{0}成功移除了{1}的{2}。</MessageSuccessfullyRemovedHediff>
 
-  <MessageShipChunkDrop>一块飞船碎片从太空掉落至附近。</MessageShipChunkDrop>
+  <MessageShipChunkDrop>几块飞船碎片从太空掉落至附近。\n\n你可以拆除它们来获取有用的资源。</MessageShipChunkDrop>
 
   <MessagePartyCalledOff>聚会被取消了。</MessagePartyCalledOff>
   <MessagePartyFinished>聚会结束了。</MessagePartyFinished>
@@ -186,7 +187,7 @@
 
   <MessageTransportPodsArrived>你的运输舱已经抵达目的地。</MessageTransportPodsArrived>
   <MessageTransportPodsArrivedAndLost>你的运输舱已经抵达目的地，但由于里面没有殖民者，货物已丢失。</MessageTransportPodsArrivedAndLost>
-  <MessageTransportPodsArrivedAndAddedToCaravan>你的运输舱已抵达目的地。内部的成员或货物已加入你的远行队。</MessageTransportPodsArrivedAndAddedToCaravan>
+  <MessageTransportPodsArrivedAndAddedToCaravan>你的运输舱已抵达目的地。内部的成员或货物已加入{0}。</MessageTransportPodsArrivedAndAddedToCaravan>
 
   <MessageFailedToLoadTransportersBecauseColonistLost>由于其中一个殖民者丢失，装载进程已取消。</MessageFailedToLoadTransportersBecauseColonistLost>
 

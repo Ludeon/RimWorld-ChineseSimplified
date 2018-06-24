@@ -29,7 +29,7 @@
   <NeedsTendingNow>当前需要治疗</NeedsTendingNow>
   <CanTendNow>现在可治疗</CanTendNow>
   <TreatmentExpiresIn>治疗将消失于{0}</TreatmentExpiresIn>
-  <NextTendIn>于{0}后将需要治疗</NextTendIn>
+  <NextTendIn>{0}后将可治疗</NextTendIn>
   <TendQuality>治疗质量</TendQuality>
   <MissingMedicalBillIngredient>缺少{0}</MissingMedicalBillIngredient>
   <Immunity>免疫性</Immunity>
@@ -47,7 +47,7 @@
   <On>开</On>
   <Off>关</Off>
   <PowerSwitch_Power>电源</PowerSwitch_Power>
-  <JoyTolerances>无趣程度</JoyTolerances>
+  <JoyTolerances>娱乐类型厌倦</JoyTolerances>
   <MilkFullness>产奶进度</MilkFullness>
   <WoolGrowth>毛发生长进度</WoolGrowth>
   <EggProgress>产卵/孵化进度</EggProgress>
@@ -79,7 +79,7 @@
   <CaravanImmobilizedByMass>无法移动: 货物过重</CaravanImmobilizedByMass>
   <CaravanOutOfFood>给养耗尽。</CaravanOutOfFood>
   <CaravanDaysOfFood>给养天数: {0}</CaravanDaysOfFood>
-  <CaravanDaysOfFoodRot>给养天数: {0}，{1}天后变质</CaravanDaysOfFoodRot>
+  <CaravanDaysOfFoodRot>给养天数: {0}（{1}天后变质）</CaravanDaysOfFoodRot>
   <AllCaravanMembersDowned>停止原因: 全员无行动能力。</AllCaravanMembersDowned>
   <AllCaravanMembersMentalBreak>停止原因: 全员精神崩溃。</AllCaravanMembersMentalBreak>
   <CaravanColonistsCount>{0} {1}</CaravanColonistsCount>
@@ -109,7 +109,7 @@
   <DeterioratingBecauseOf>老化中，由于</DeterioratingBecauseOf>
   <Map>地图</Map>
   <ForceExitAndRemoveMapCountdown>{0}后离开</ForceExitAndRemoveMapCountdown>
-  <ForceExitAndRemoveMapCountdownTip>你的殖民者将会在{0}后自动重组远行队并离开此区域。</ForceExitAndRemoveMapCountdownTip>
+  <ForceExitAndRemoveMapCountdownTip>你的殖民者将会于{0}内自动重组远行队并离开此区域。</ForceExitAndRemoveMapCountdownTip>
   <Room>房间</Room>
   <BeautyHere>此处美观度</BeautyHere>
   <NoPower>未通电</NoPower>
@@ -131,16 +131,16 @@
   <QuestTargetDestroyInspectString>{0}想要摧毁此处。\n报酬: {1}。</QuestTargetDestroyInspectString>
   <WorldObjectTimeout>剩余时间: {0}</WorldObjectTimeout>
   <LongRangeMineralScannerEfficiency>效率: {0}</LongRangeMineralScannerEfficiency>
-  <ItemStashContents>内容: {0}。</ItemStashContents>
-  <SomeItemStashContents>部分内容: {0}。</SomeItemStashContents>
+  <ItemStashContents>内容: {0}</ItemStashContents>
+  <SomeItemStashContents>部分内容: {0}</SomeItemStashContents>
   <ClickToSortByThisColumn>点击以根据此栏排列。</ClickToSortByThisColumn>
   <WorkPriorityShiftClickTip>Shift + 左键点击: 提升优先级\nShift + 右键点击: 降低优先级</WorkPriorityShiftClickTip>
   <WorkPriorityShiftClickEnableDisableTip>Shift + 左键点击: 勾选全部\nShift + 右键点击: 取消全部</WorkPriorityShiftClickEnableDisableTip>
   <AllowedAreaShiftClickTip>Shift + 左键点击: 全部设置为居住区\nShift + 右键点击: 全部设置为无限制</AllowedAreaShiftClickTip>
   <CheckboxShiftClickTip>Shift + 左键点击: 勾选全部\nShift + 右键点击: 取消全部</CheckboxShiftClickTip>
-  <KnownSiteThreat>威胁: {0}。</KnownSiteThreat>
-  <KnownSiteThreats>威胁: {0}。</KnownSiteThreats>
-  <KnownSiteThreatsNone>威胁: 无。</KnownSiteThreatsNone>
+  <KnownSiteThreat>威胁: {0}</KnownSiteThreat>
+  <KnownSiteThreats>威胁: {0}</KnownSiteThreats>
+  <KnownSiteThreatsNone>威胁: 无</KnownSiteThreatsNone>
   <SkillRequirements>技能要求</SkillRequirements>
   <Products>产物</Products>
   <Relationship>{1} 的 {0}</Relationship>
@@ -205,7 +205,7 @@
   <InvertArea>反向选择</InvertArea>
 
   <!-- Control -->
-  <CannotOrderNonControlled>无法命令非控制单位。</CannotOrderNonControlled>
+  <CannotOrderNonControlled>无法命令不由你操控的角色。</CannotOrderNonControlled>
   <IsIncapableOfViolence>{0}无法进行暴力行为。</IsIncapableOfViolence>
   <IsIncapableOfViolenceShort>无暴力能力</IsIncapableOfViolenceShort>
   <IsNotDrafted>{0}尚未被征召。</IsNotDrafted>
@@ -270,7 +270,7 @@
   <RecipeAdminister>施用{0}</RecipeAdminister>
   <RecipeAdministerJobString>正在施用{0}。</RecipeAdministerJobString>
   <TeetotalerUnhappy>成瘾品厌恶者会变得不开心</TeetotalerUnhappy>
-  <ProsthophobeUnhappy>仿生学恐惧者会变得不开心</ProsthophobeUnhappy>
+  <ProsthophobeUnhappy>身体纯粹主义者会变得不开心</ProsthophobeUnhappy>
 
   <!-- Thoughts -->
   <ThoughtExpiresIn>消逝时间: {0}</ThoughtExpiresIn>
@@ -304,7 +304,7 @@
   <DefInfoTip>查看关于这个物品的信息。</DefInfoTip>
 
   <!-- Hostility response -->
-  <HostilityReponseTip>未被征召的殖民者在遭遇敌人时的反应。</HostilityReponseTip>
+  <HostilityReponseTip>此人未被征召时遭遇敌人后的反应。</HostilityReponseTip>
   <HostilityResponseCurrentMode>当前模式</HostilityResponseCurrentMode>
 
   <!-- like 'Blood of John' -->

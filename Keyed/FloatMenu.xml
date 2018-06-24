@@ -18,7 +18,7 @@
   <IsIncapableOfViolenceLower>{0}无暴力能力</IsIncapableOfViolenceLower>
   <IncapableOfViolenceLower>无暴力能力</IncapableOfViolenceLower>
   <IsNotDraftedLower>{0}尚未被征召</IsNotDraftedLower>
-  <CannotOrderNonControlledLower>无法命令非控制单位</CannotOrderNonControlledLower>
+  <CannotOrderNonControlledLower>无法命令不由你操控的角色</CannotOrderNonControlledLower>
   <CannotAttackSelf>无法攻击自己</CannotAttackSelf>
 
   <OrderManThing>操纵{0}</OrderManThing>
@@ -42,7 +42,7 @@
   <AnimalInteractedTooRecently>动物互动过于频繁</AnimalInteractedTooRecently>
   <NoUsableFood>缺少可用食物</NoUsableFood>
   <NoFood>缺少食物</NoFood>
-  <AnimalsSkillTooLow>驯兽技能过低</AnimalsSkillTooLow>
+  <AnimalsSkillTooLow>驯兽技能过低-需要{0}</AnimalsSkillTooLow>
   <CantInteractAnimalDowned>倒地的动物</CantInteractAnimalDowned>
   <CantInteractAnimalAsleep>睡眠的动物</CantInteractAnimalAsleep>
   <CantInteractAnimalBusy>忙碌的动物</CantInteractAnimalBusy>
@@ -176,7 +176,7 @@
 
   <CannotPrioritizeForbidden>无法优先（{0}已被禁用）</CannotPrioritizeForbidden>
   <CannotPrioritizeCellForbidden>无法优先（禁用）</CannotPrioritizeCellForbidden>
-  <CannotPrioritizeForbiddenOutsideAllowedArea>无法优先（{0}位于允许活动区域外）</CannotPrioritizeForbiddenOutsideAllowedArea>
+  <CannotPrioritizeForbiddenOutsideAllowedArea>在许可区域之外</CannotPrioritizeForbiddenOutsideAllowedArea>
 
   <!-- e.g. Prioritize GERUND OBJECT, Prioritize repairing wall, prioritize hauling metal, etc-->
   <PrioritizeGeneric>优先{0}{1}</PrioritizeGeneric>

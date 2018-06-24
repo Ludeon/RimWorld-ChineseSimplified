@@ -5,8 +5,7 @@
   <PostponeLetter>推迟</PostponeLetter>
   <RejectLetter>拒绝</RejectLetter>
 
-  <LetterLabelFirstSummerWarning>夏天</LetterLabelFirstSummerWarning>
-  <FirstSummerWarning>夏天到了！冬天还会远吗？\n\n寒冷的冬日无法种植作物，赶紧趁现在从事生产，储备过冬食物。\n\n你可以建一间有制冷机的房间作为冷库以防止食物腐烂。\n\n同时尝试买、偷、缴获或者制作几件风雪大衣，以防冬季出门挨冻。</FirstSummerWarning>
+  <LetterLabelFirstSummerWarning>夏天</LetterLabelFirstSummerWarning><FirstSummerWarning>夏天到了！冬天还会远吗？\n\n寒冷的冬日无法种植作物，可一定要储存足量的食物以挺过寒冬。你可以建一间有制冷机的房间作为冷库以防止食物腐烂。\n\n还要买、偷、缴获或者制作几件风雪大衣，否则冬季出门要挨冻。</FirstSummerWarning>
 
   <LetterRelationsChange_Hostile>我们和{0}的关系已彻底决裂。他们现在与你为敌。\n\n他们会定期袭击你的殖民地和远行队，并拒绝和你交易。如果你想改善关系，你仍然可以用远行队或运输舱送礼物。\n\n这是由于友好度（{1}）跌破{2}。为了重回中立关系，友好度必须再次达到{3}。</LetterRelationsChange_Hostile>
   <LetterRelationsChange_NeutralFromHostile>我们和{0}的关系已回暖。他们现在会将你视为中立，不再会对你发动攻击。\n\n这是由于友好度（{1}）已涨过{2}。如果友好度跌破{3}，{0} 会再次与你为敌。如果好意涨过{4}，他们会成为盟友并为你而战。</LetterRelationsChange_NeutralFromHostile>
@@ -73,7 +72,7 @@
   <LetterLeaderChanged>{0} 不再是{1}的{3}了。\n\n新任{3}是 {2} 。</LetterLeaderChanged>
 
   <MentalBreakLetterLabel>精神崩溃</MentalBreakLetterLabel>
-  <FinalStraw>压倒骆驼的最后一根稻草: {0}。</FinalStraw>
+  <FinalStraw>压倒骆驼的最后一根稻草: {0}</FinalStraw>
   <LastFactionRelationsEvent>最近一次事件是</LastFactionRelationsEvent>
 
   <ReadMore>阅读更多</ReadMore>
@@ -81,16 +80,16 @@
 
   <!-- Related pawns -->
   <LetterLabelNoticedRelatedPawns>家族成员</LetterLabelNoticedRelatedPawns>
-  <LetterRelatedPawnsRaidEnemy>到达的{0}团体中有人是你的殖民者或者囚犯的家族成员。\n\n记住，虽然他们是家族成员，但是他们仍然会攻击你的殖民者，因为他们属于敌对派系。\n\n这些人是:</LetterRelatedPawnsRaidEnemy>
-  <LetterRelatedPawnsRaidFriendly>到达的友好{0}团体中有殖民者或囚犯的家族成员:</LetterRelatedPawnsRaidFriendly>
-  <LetterRelatedPawnsNeutralGroup>到达的团体中有殖民者或囚犯的家族成员:</LetterRelatedPawnsNeutralGroup>
-  <LetterRelatedPawnsTradeShip>轨道贸易商出售的奴隶中有殖民者或囚犯的家族成员:</LetterRelatedPawnsTradeShip>
-  <LetterRelatedPawnsTradingWithSettlement>定居点出售的奴隶中有殖民者或囚犯的家族成员:</LetterRelatedPawnsTradingWithSettlement>
-  <LetterRelatedPawnsTradingWithOtherCaravan>远行队出售的奴隶中有殖民者或囚犯的家族成员:</LetterRelatedPawnsTradingWithOtherCaravan>
-  <LetterRelatedPawnsGroupGeneric>以下是该团体中与你的{0}或囚犯有关系的人：</LetterRelatedPawnsGroupGeneric>
-  <LetterRelatedPawnsInMapWherePlayerLanded>以下是该团体中，与那些在你的登陆地点的{0}或囚犯有关系的人：</LetterRelatedPawnsInMapWherePlayerLanded>
-  <LetterRelatedPawnsSettlement>这个定居点有一些和你的{0}或囚犯有关系的人：</LetterRelatedPawnsSettlement>
-  <LetterRelatedPawnsSite>这个区域有一些和你的{0}或囚犯有关系的人：</LetterRelatedPawnsSite>
+  <LetterRelatedPawnsRaidEnemy>到达的{1}团体中有人是你的{0}或者囚犯的家族成员。\n\n记住，虽然他们是家族成员，但是他们仍然会攻击你的殖民者，因为他们属于敌对派系。\n\n这些人是:</LetterRelatedPawnsRaidEnemy>
+  <LetterRelatedPawnsRaidFriendly>到达的友好的{1}团体中有{0}或囚犯的家族成员:</LetterRelatedPawnsRaidFriendly>
+  <LetterRelatedPawnsNeutralGroup>到达的团体中有{0}或囚犯的家族成员:</LetterRelatedPawnsNeutralGroup>
+  <LetterRelatedPawnsTradeShip>轨道贸易商出售的奴隶中有{0}或囚犯的家族成员:</LetterRelatedPawnsTradeShip>
+  <LetterRelatedPawnsTradingWithSettlement>定居点出售的奴隶中有{0}或囚犯的家族成员:</LetterRelatedPawnsTradingWithSettlement>
+  <LetterRelatedPawnsTradingWithOtherCaravan>远行队出售的奴隶中有{0}或囚犯的家族成员:</LetterRelatedPawnsTradingWithOtherCaravan>
+  <LetterRelatedPawnsGroupGeneric>该团体中有你的{0}或囚犯的家族成员:</LetterRelatedPawnsGroupGeneric>
+  <LetterRelatedPawnsInMapWherePlayerLanded>该团体中有那些在你的登陆地点的{0}或囚犯的家族成员:</LetterRelatedPawnsInMapWherePlayerLanded>
+  <LetterRelatedPawnsSettlement>该定居点有你的{0}或囚犯的家族成员:</LetterRelatedPawnsSettlement>
+  <LetterRelatedPawnsSite>该区域有你的{0}或囚犯的家族成员:</LetterRelatedPawnsSite>
 
   <RelationshipAppendedLetterSuffix>（家族）</RelationshipAppendedLetterSuffix>
   <RelationshipAppendedLetterTextColonist>[PAWN_nameDef]是殖民者的家族成员。[PAWN_pronoun]是{0}的{1}。</RelationshipAppendedLetterTextColonist>
@@ -105,8 +104,8 @@
   <LetterLabelBreakup>分手</LetterLabelBreakup>
   <LetterLabelAcceptedProposal>接受求婚！</LetterLabelAcceptedProposal>
   <LetterLabelRejectedProposal>拒绝求婚</LetterLabelRejectedProposal>
-  <LetterAcceptedProposal>{1}接受了{0}的求婚。\n\n在未来数天或数季度后，他们将举行婚礼，并邀请所有的殖民者。如果你想指定婚礼地点，请考虑放置一个婚礼举办点。（「建筑规划」-「杂项」中你能找到婚礼举办点。）</LetterAcceptedProposal>
-  <LetterRejectedProposal>{1}拒绝了{0}的求婚。{0}伤心欲绝。</LetterRejectedProposal>
+  <LetterAcceptedProposal>在未来数天或数季度后，他们将举行婚礼，并邀请所有的殖民者。如果你想指定婚礼地点，请考虑放置一个婚礼举办点。（「建筑规划」-「杂项」中你能找到婚礼举办点。）</LetterAcceptedProposal>
+  <LetterRejectedProposal>{0}伤心欲绝。</LetterRejectedProposal>
 
   <!-- Generalized letter labels -->
   <LetterLabelRelationsChange_Hostile>敌人：{0}</LetterLabelRelationsChange_Hostile>
@@ -139,7 +138,7 @@
 
   <!-- Caravan destroyed -->
   <LetterLabelAllCaravanColonistsDied>远行队已毁灭</LetterLabelAllCaravanColonistsDied>
-  <LetterAllCaravanColonistsDied>远行队的所有成员均已死亡。</LetterAllCaravanColonistsDied>
+  <LetterAllCaravanColonistsDied>{0}的所有成员均已死亡。</LetterAllCaravanColonistsDied>
 
   <!-- Caravan entered ambush map -->
   <LetterLabelCaravanEnteredAmbushMap>远行队抵达偷袭点</LetterLabelCaravanEnteredAmbushMap>
@@ -184,10 +183,10 @@
   <PeaceTalksSocialXPGain>你的谈判者，{0}，获得了{1}社交经验值。</PeaceTalksSocialXPGain>
 
   <!-- Run wild mental break -->
-  <LetterRunWildMentalBreak>{0}决定离开你的派系、与野兽为伍。</LetterRunWildMentalBreak>
+  <LetterRunWildMentalBreak>{0}已经厌倦了文明。\n\n[PAWN_pronoun]发现动物永远自由。因此，[PAWN_pronoun]已决定离开派系并与野物为伴。\n\n你可以尝试驯服[PAWN_objective] 以使[PAWN_objective]回来。</LetterRunWildMentalBreak>
 
   <!-- Catatonic mental break -->
-  <LetterCatatonicMentalBreak>{0}会持续数天处于精神崩溃中。</LetterCatatonicMentalBreak>
+  <LetterCatatonicMentalBreak>{0}的精神已彻底崩溃并陷入紧张症状态。[PAWN_pronoun]会在数天后恢复。</LetterCatatonicMentalBreak>
 
   <LetterLabelAICoreOffer>AI核心机会</LetterLabelAICoreOffer>
   <LetterAICoreOffer>{1} 的 {0} 联系你，并表示可以提供情报：建造飞船所必须的AI伪人格核心的所在地。他们告诉你，这种道具极为稀有，其拥有者通常会守以重兵。\n\n如果你有兴趣，用通讯台联系他们。</LetterAICoreOffer>
