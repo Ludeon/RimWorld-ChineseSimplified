@@ -1,191 +1,156 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- Beds -->
-
   <SleepingSpot.label>睡眠点</SleepingSpot.label>
   <SleepingSpot.description>在地板上指定一个给人睡觉的位置。很不舒服。</SleepingSpot.description>
   <SleepingSpot_Blueprint.label>睡眠点（蓝图）</SleepingSpot_Blueprint.label>
   <SleepingSpot_Frame.label>睡眠点（建造中）</SleepingSpot_Frame.label>
   <SleepingSpot_Frame.description>在地板上指定一个给人睡觉的位置。很不舒服。</SleepingSpot_Frame.description>
-
-  <DoubleSleepingSpot.label>double sleeping spot</DoubleSleepingSpot.label>
-  <DoubleSleepingSpot.description>Designates a spot on the ground where two people should sleep together. Not comfortable.</DoubleSleepingSpot.description>
-  <DoubleSleepingSpot_Blueprint.label>double sleeping spot (blueprint)</DoubleSleepingSpot_Blueprint.label>
-  <DoubleSleepingSpot_Frame.label>double sleeping spot (building)</DoubleSleepingSpot_Frame.label>
-  <DoubleSleepingSpot_Frame.description>Designates a spot on the ground where two people should sleep together. Not comfortable.</DoubleSleepingSpot_Frame.description>
-
+  <DoubleSleepingSpot.label>双人睡眠点</DoubleSleepingSpot.label>
+  <DoubleSleepingSpot.description>在地板上指定给两个人一起睡觉的位置。很不舒服。</DoubleSleepingSpot.description>
+  <DoubleSleepingSpot_Blueprint.label>双人睡眠点(蓝图)</DoubleSleepingSpot_Blueprint.label>
+  <DoubleSleepingSpot_Frame.label>双人睡眠点(建造中)</DoubleSleepingSpot_Frame.label>
+  <DoubleSleepingSpot_Frame.description>在地板上指定给两个人一起睡觉的位置。很不舒服。</DoubleSleepingSpot_Frame.description>
   <Bed.label>单人床</Bed.label>
   <Bed.description>一张单人床，在框架上铺了舒适的床垫和床单用于休息。</Bed.description>
   <Bed_Blueprint.label>单人床（蓝图）</Bed_Blueprint.label>
   <Bed_Blueprint_Install.label>单人床（蓝图）</Bed_Blueprint_Install.label>
   <Bed_Frame.label>单人床（建造中）</Bed_Frame.label>
   <Bed_Frame.description>一张单人床，在框架上铺了舒适的床垫和床单用于休息。</Bed_Frame.description>
-
   <DoubleBed.label>普通双人床</DoubleBed.label>
   <DoubleBed.description>一张适合两个人使用的普通双人床。</DoubleBed.description>
   <DoubleBed_Blueprint.label>普通双人床（蓝图）</DoubleBed_Blueprint.label>
   <DoubleBed_Blueprint_Install.label>普通双人床（蓝图）</DoubleBed_Blueprint_Install.label>
   <DoubleBed_Frame.label>普通双人床（建造中）</DoubleBed_Frame.label>
   <DoubleBed_Frame.description>一张适合两个人使用的普通双人床。</DoubleBed_Frame.description>
-
   <RoyalBed.label>豪华双人床</RoyalBed.label>
-  <RoyalBed.description>一张给贵族使用的豪华的，镶金边的床。非常舒适和漂亮。适合双人。</RoyalBed.description>
+  <RoyalBed.description>一张给贵族使用的豪华的，镶金边的床。非常舒适和漂亮。它本身就是一件艺术品。适合双人。</RoyalBed.description>
   <RoyalBed_Blueprint.label>豪华双人床（蓝图）</RoyalBed_Blueprint.label>
   <RoyalBed_Blueprint_Install.label>豪华双人床（蓝图）</RoyalBed_Blueprint_Install.label>
   <RoyalBed_Frame.label>豪华双人床（建造中）</RoyalBed_Frame.label>
-  <RoyalBed_Frame.description>一张给贵族使用的豪华的，镶金边的床。非常舒适和漂亮。适合双人。</RoyalBed_Frame.description>
-
+  <RoyalBed_Frame.description>一张给贵族使用的豪华的，镶金边的床。非常舒适和漂亮。它本身就是一件艺术品。适合双人。</RoyalBed_Frame.description>
   <HospitalBed.label>医疗床</HospitalBed.label>
   <HospitalBed.description>一张专为伤员设计的床。可以增加治疗的成功率。</HospitalBed.description>
   <HospitalBed_Blueprint.label>医疗床（蓝图）</HospitalBed_Blueprint.label>
   <HospitalBed_Blueprint_Install.label>医疗床（蓝图）</HospitalBed_Blueprint_Install.label>
   <HospitalBed_Frame.label>医疗床（建造中）</HospitalBed_Frame.label>
   <HospitalBed_Frame.description>一张专为伤员设计的床。可以增加治疗的成功率。</HospitalBed_Frame.description>
-
   <Bedroll.label>睡袋</Bedroll.label>
   <Bedroll.description>铺在地上的睡袋，通常用布或皮革缝制，也经常会用动物毛织成。轻便，可以卷起便于运输，但确实不如传统床那么舒服。</Bedroll.description>
   <Bedroll_Blueprint.label>睡袋（蓝图）</Bedroll_Blueprint.label>
   <Bedroll_Blueprint_Install.label>睡袋（蓝图）</Bedroll_Blueprint_Install.label>
   <Bedroll_Frame.label>睡袋（建造中）</Bedroll_Frame.label>
   <Bedroll_Frame.description>铺在地上的睡袋，通常用布或皮革缝制，也经常会用动物毛织成。轻便，可以卷起便于运输，但确实不如传统床那么舒服。</Bedroll_Frame.description>
-
   <BedrollDouble.label>双人睡袋</BedrollDouble.label>
   <BedrollDouble.description>铺在地上的睡袋，通常用布或皮革缝制，也经常会用动物毛织成。轻便，可以卷起便于运输，但确实不如传统床那么舒服。</BedrollDouble.description>
   <BedrollDouble_Blueprint.label>双人睡袋（蓝图）</BedrollDouble_Blueprint.label>
   <BedrollDouble_Blueprint_Install.label>双人睡袋（蓝图）</BedrollDouble_Blueprint_Install.label>
   <BedrollDouble_Frame.label>双人睡袋（建造中）</BedrollDouble_Frame.label>
   <BedrollDouble_Frame.description>铺在地上的睡袋，通常用布或皮革缝制，也经常会用动物毛织成。轻便，可以卷起便于运输，但确实不如传统床那么舒服。</BedrollDouble_Frame.description>
-
-
   <!-- Animal beds -->
-
   <AnimalSleepingSpot.label>动物睡眠点</AnimalSleepingSpot.label>
   <AnimalSleepingSpot.description>在地板上指定一个给动物睡觉的位置。</AnimalSleepingSpot.description>
   <AnimalSleepingSpot_Blueprint.label>动物睡眠点（蓝图）</AnimalSleepingSpot_Blueprint.label>
   <AnimalSleepingSpot_Frame.label>动物睡眠点（建造中）</AnimalSleepingSpot_Frame.label>
   <AnimalSleepingSpot_Frame.description>在地板上指定一个给动物睡觉的位置。</AnimalSleepingSpot_Frame.description>
-
   <AnimalSleepingBox.label>动物睡眠箱</AnimalSleepingBox.label>
   <AnimalSleepingBox.description>一个供动物睡觉的小箱子。适合较小的动物，比如鸡、猫或小狗。</AnimalSleepingBox.description>
   <AnimalSleepingBox_Blueprint.label>动物睡眠箱（蓝图）</AnimalSleepingBox_Blueprint.label>
   <AnimalSleepingBox_Blueprint_Install.label>动物睡眠箱（蓝图）</AnimalSleepingBox_Blueprint_Install.label>
   <AnimalSleepingBox_Frame.label>动物睡眠箱（建造中）</AnimalSleepingBox_Frame.label>
   <AnimalSleepingBox_Frame.description>一个供动物睡觉的小箱子。适合较小的动物，比如鸡、猫或小狗。</AnimalSleepingBox_Frame.description>
-
   <AnimalBed.label>动物床铺</AnimalBed.label>
   <AnimalBed.description>一个供动物睡觉的柔软床铺。适合任何类型动物。</AnimalBed.description>
   <AnimalBed_Blueprint.label>动物床铺（蓝图）</AnimalBed_Blueprint.label>
   <AnimalBed_Blueprint_Install.label>动物床铺（蓝图）</AnimalBed_Blueprint_Install.label>
   <AnimalBed_Frame.label>动物床铺（建造中）</AnimalBed_Frame.label>
   <AnimalBed_Frame.description>一个供动物睡觉的柔软床铺。适合任何类型动物。</AnimalBed_Frame.description>
-
-
   <!-- Basic domestic furniture -->
-
   <Stool.label>凳子</Stool.label>
-  <Stool.description>给人坐的简单的凳子。</Stool.description>
+  <Stool.description>给人坐的简单的凳子。不怎么舒适，但总好过什么也没有。可以在餐桌和工作台或者别的什么附近使用。</Stool.description>
   <Stool_Blueprint.label>凳子（蓝图）</Stool_Blueprint.label>
   <Stool_Blueprint_Install.label>凳子（蓝图）</Stool_Blueprint_Install.label>
   <Stool_Frame.label>凳子（建造中）</Stool_Frame.label>
-  <Stool_Frame.description>给人坐的简单的凳子。</Stool_Frame.description>
-
+  <Stool_Frame.description>给人坐的简单的凳子。不怎么舒适，但总好过什么也没有。可以在餐桌和工作台或者别的什么附近使用。</Stool_Frame.description>
   <DiningChair.label>餐椅</DiningChair.label>
-  <DiningChair.description>一张放在桌子前看起来很舒适和招人喜爱的椅子。</DiningChair.description>
+  <DiningChair.description>一张看起来很舒适和招人喜爱的椅子。可以在餐桌和工作台或者别的什么附近使用。</DiningChair.description>
   <DiningChair_Blueprint.label>餐椅（蓝图）</DiningChair_Blueprint.label>
   <DiningChair_Blueprint_Install.label>餐椅（蓝图）</DiningChair_Blueprint_Install.label>
   <DiningChair_Frame.label>餐椅（建造中）</DiningChair_Frame.label>
-  <DiningChair_Frame.description>一张放在桌子前看起来很舒适和招人喜爱的椅子。</DiningChair_Frame.description>
-
+  <DiningChair_Frame.description>一张看起来很舒适和招人喜爱的椅子。可以在餐桌和工作台或者别的什么附近使用。</DiningChair_Frame.description>
   <Armchair.label>扶手椅</Armchair.label>
-  <Armchair.description>一个非常大、柔软、舒适的椅子。非常适合休闲放松。</Armchair.description>
+  <Armchair.description>一个非常大、柔软、舒适的椅子。非常适合休闲放松。可以在餐桌和工作台或者别的什么附近使用。</Armchair.description>
   <Armchair_Blueprint.label>扶手椅（蓝图）</Armchair_Blueprint.label>
   <Armchair_Blueprint_Install.label>扶手椅（蓝图）</Armchair_Blueprint_Install.label>
   <Armchair_Frame.label>扶手椅（建造中）</Armchair_Frame.label>
-  <Armchair_Frame.description>一个非常大、柔软、舒适的椅子。非常适合休闲放松。</Armchair_Frame.description>
-
-
+  <Armchair_Frame.description>一个非常大、柔软、舒适的椅子。非常适合休闲放松。可以在餐桌和工作台或者别的什么附近使用。</Armchair_Frame.description>
   <!-- Table base -->
-
   <EndTable.label>床头柜</EndTable.label>
   <EndTable.description>床边的小桌子。可以给旁边的床增加一点舒适度。必须直接放置在与头毗邻的位置。在同一个床旁放置多个床头柜不会产生效果。</EndTable.description>
   <EndTable_Blueprint.label>床头柜（蓝图）</EndTable_Blueprint.label>
   <EndTable_Blueprint_Install.label>床头柜（蓝图）</EndTable_Blueprint_Install.label>
   <EndTable_Frame.label>床头柜（建造中）</EndTable_Frame.label>
   <EndTable_Frame.description>床边的小桌子。可以给旁边的床增加一点舒适度。必须直接放置在与头毗邻的位置。在同一个床旁放置多个床头柜不会产生效果。</EndTable_Frame.description>
-
   <Table1x2c.label>桌子（1x2）</Table1x2c.label>
   <Table1x2c.description>当放置有朝向桌子的椅子时，人们会在上面吃饭。</Table1x2c.description>
   <Table1x2c_Blueprint.label>桌子（1x2）（蓝图）</Table1x2c_Blueprint.label>
   <Table1x2c_Blueprint_Install.label>桌子（1x2）（蓝图）</Table1x2c_Blueprint_Install.label>
   <Table1x2c_Frame.label>桌子（1x2）（建造中）</Table1x2c_Frame.label>
   <Table1x2c_Frame.description>当放置有朝向桌子的椅子时，人们会在上面吃饭。</Table1x2c_Frame.description>
-
   <Table2x2c.label>桌子（2x2）</Table2x2c.label>
   <Table2x2c.description>当放置有朝向桌子的椅子时，人们会在上面吃饭。</Table2x2c.description>
   <Table2x2c_Blueprint.label>桌子（2x2）（蓝图）</Table2x2c_Blueprint.label>
   <Table2x2c_Blueprint_Install.label>桌子（2x2）（蓝图）</Table2x2c_Blueprint_Install.label>
   <Table2x2c_Frame.label>桌子（2x2）（建造中）</Table2x2c_Frame.label>
   <Table2x2c_Frame.description>当放置有朝向桌子的椅子时，人们会在上面吃饭。</Table2x2c_Frame.description>
-
   <Table2x4c.label>桌子（2x4）</Table2x4c.label>
   <Table2x4c.description>当放置有朝向桌子的椅子时，人们会在上面吃饭。</Table2x4c.description>
   <Table2x4c_Blueprint.label>桌子（2x4）（蓝图）</Table2x4c_Blueprint.label>
   <Table2x4c_Blueprint_Install.label>桌子（2x4）（蓝图）</Table2x4c_Blueprint_Install.label>
   <Table2x4c_Frame.label>桌子（2x4）（建造中）</Table2x4c_Frame.label>
   <Table2x4c_Frame.description>当放置有朝向桌子的椅子时，人们会在上面吃饭。</Table2x4c_Frame.description>
-
   <Table3x3c.label>桌子（3x3）</Table3x3c.label>
   <Table3x3c.description>当放置有朝向桌子的椅子时，人们会在上面吃饭。</Table3x3c.description>
   <Table3x3c_Blueprint.label>桌子（3x3）（蓝图）</Table3x3c_Blueprint.label>
   <Table3x3c_Blueprint_Install.label>桌子（3x3）（蓝图）</Table3x3c_Blueprint_Install.label>
   <Table3x3c_Frame.label>桌子（3x3）（建造中）</Table3x3c_Frame.label>
   <Table3x3c_Frame.description>当放置有朝向桌子的椅子时，人们会在上面吃饭。</Table3x3c_Frame.description>
-
   <PlantPot.label>花盆</PlantPot.label>
   <PlantPot.description>种植装饰性的花朵来提升附近的人的心情。</PlantPot.description>
   <PlantPot_Blueprint.label>花盆（蓝图）</PlantPot_Blueprint.label>
   <PlantPot_Blueprint_Install.label>花盆（蓝图）</PlantPot_Blueprint_Install.label>
   <PlantPot_Frame.label>花盆（建造中）</PlantPot_Frame.label>
   <PlantPot_Frame.description>种植装饰性的花朵来提升附近的人的心情。</PlantPot_Frame.description>
-
-
   <!-- Lighting -->
-
   <TorchLamp.label>火把</TorchLamp.label>
   <TorchLamp.description>将一片区域照亮的木制火把。人需要有光才能慢速行动和工作。能自动添加原木作燃料。产生少量的热。</TorchLamp.description>
   <TorchLamp_Blueprint.label>火把（蓝图）</TorchLamp_Blueprint.label>
   <TorchLamp_Frame.label>火把（建造中）</TorchLamp_Frame.label>
   <TorchLamp_Frame.description>将一片区域照亮的木制火把。人需要有光才能慢速行动和工作。能自动添加原木作燃料。产生少量的热。</TorchLamp_Frame.description>
-
   <StandingLamp.label>落地灯</StandingLamp.label>
-  <StandingLamp.description>将一片区域照亮的落地灯。人需要有光才能慢速行动和工作。</StandingLamp.description>
+  <StandingLamp.description>将一片区域照亮的落地灯。人们需要有光亮才能以全速工作和移动。</StandingLamp.description>
   <StandingLamp_Blueprint.label>落地灯（蓝图）</StandingLamp_Blueprint.label>
   <StandingLamp_Blueprint_Install.label>落地灯（蓝图）</StandingLamp_Blueprint_Install.label>
   <StandingLamp_Frame.label>落地灯（建造中）</StandingLamp_Frame.label>
-  <StandingLamp_Frame.description>将一片区域照亮的落地灯。人需要有光才能慢速行动和工作。</StandingLamp_Frame.description>
-
+  <StandingLamp_Frame.description>将一片区域照亮的落地灯。人们需要有光亮才能以全速工作和移动。</StandingLamp_Frame.description>
   <StandingLamp_Red.label>落地灯（红）</StandingLamp_Red.label>
   <StandingLamp_Red.description>将一片区域照亮成红色的落地灯。</StandingLamp_Red.description>
   <StandingLamp_Red_Blueprint.label>落地灯（红）（蓝图）</StandingLamp_Red_Blueprint.label>
   <StandingLamp_Red_Blueprint_Install.label>落地灯（红）（蓝图）</StandingLamp_Red_Blueprint_Install.label>
   <StandingLamp_Red_Frame.label>落地灯（红）（建造中）</StandingLamp_Red_Frame.label>
   <StandingLamp_Red_Frame.description>将一片区域照亮成红色的落地灯。</StandingLamp_Red_Frame.description>
-
   <StandingLamp_Green.label>落地灯（绿）</StandingLamp_Green.label>
   <StandingLamp_Green.description>将一片区域照亮成绿色的落地灯。</StandingLamp_Green.description>
   <StandingLamp_Green_Blueprint.label>落地灯（绿）（蓝图）</StandingLamp_Green_Blueprint.label>
   <StandingLamp_Green_Blueprint_Install.label>落地灯（绿）（蓝图）</StandingLamp_Green_Blueprint_Install.label>
   <StandingLamp_Green_Frame.label>落地灯（绿）（建造中）</StandingLamp_Green_Frame.label>
   <StandingLamp_Green_Frame.description>将一片区域照亮成绿色的落地灯。</StandingLamp_Green_Frame.description>
-
   <StandingLamp_Blue.label>落地灯（蓝）</StandingLamp_Blue.label>
   <StandingLamp_Blue.description>将一片区域照亮成蓝色的落地灯。</StandingLamp_Blue.description>
   <StandingLamp_Blue_Blueprint.label>落地灯（蓝）（蓝图）</StandingLamp_Blue_Blueprint.label>
   <StandingLamp_Blue_Blueprint_Install.label>落地灯（蓝）（蓝图）</StandingLamp_Blue_Blueprint_Install.label>
   <StandingLamp_Blue_Frame.label>落地灯（蓝）（建造中）</StandingLamp_Blue_Frame.label>
   <StandingLamp_Blue_Frame.description>将一片区域照亮成蓝色的落地灯。</StandingLamp_Blue_Frame.description>
-
   <SunLamp.label>太阳灯</SunLamp.label>
   <SunLamp.description>将一片区域照亮到足以种植农作物，但需要消耗大量电力。夜晚时会自动关闭。</SunLamp.description>
   <SunLamp.comps.3.offMessage>植物休眠期间关闭。</SunLamp.comps.3.offMessage>
@@ -193,26 +158,18 @@
   <SunLamp_Blueprint_Install.label>太阳灯（蓝图）</SunLamp_Blueprint_Install.label>
   <SunLamp_Frame.label>太阳灯（建造中）</SunLamp_Frame.label>
   <SunLamp_Frame.description>将一片区域照亮到足以种植农作物，但需要消耗大量电力。夜晚时会自动关闭。</SunLamp_Frame.description>
-
-
   <!-- Storage -->
-
   <Shelf.label>物品架</Shelf.label>
   <Shelf.description>储存于此的物品即使露天也不会老化。</Shelf.description>
   <Shelf_Blueprint.label>物品架（蓝图）</Shelf_Blueprint.label>
   <Shelf_Blueprint_Install.label>物品架（蓝图）</Shelf_Blueprint_Install.label>
   <Shelf_Frame.label>物品架（建造中）</Shelf_Frame.label>
   <Shelf_Frame.description>储存于此的物品即使露天也不会老化。</Shelf_Frame.description>
-
-
   <!-- Dressers -->
-
   <Dresser.label>梳妆台</Dresser.label>
   <Dresser.description>给旁边所有的床提供少量舒适度奖励。在同一个床旁放置多个梳妆台不会产生效果。</Dresser.description>
   <Dresser_Blueprint.label>梳妆台（蓝图）</Dresser_Blueprint.label>
   <Dresser_Blueprint_Install.label>梳妆台（蓝图）</Dresser_Blueprint_Install.label>
   <Dresser_Frame.label>梳妆台（建造中）</Dresser_Frame.label>
   <Dresser_Frame.description>给旁边所有的床提供少量舒适度奖励。在同一个床旁放置多个梳妆台不会产生效果。</Dresser_Frame.description>
-
-
 </LanguageData>
