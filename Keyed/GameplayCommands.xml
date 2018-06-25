@@ -193,12 +193,12 @@
   <CommandCancelFormingCaravanDesc>终止组建远行队。</CommandCancelFormingCaravanDesc>
 
   <!-- Remove from caravan -->
-  <CommandRemoveFromCaravan>Remove from caravan</CommandRemoveFromCaravan>
-  <CommandRemoveFromCaravanDesc>Remove this person or animal from the caravan.</CommandRemoveFromCaravanDesc>
+  <CommandRemoveFromCaravan>移出远行队</CommandRemoveFromCaravan>
+  <CommandRemoveFromCaravanDesc>将这个人或动物移出远行队。</CommandRemoveFromCaravanDesc>
 
   <!-- Add to caravan -->
-  <CommandAddToCaravan>Add to caravan</CommandAddToCaravan>
-  <CommandAddToCaravanDesc>Add this person or animal to the forming caravan.</CommandAddToCaravanDesc>
+  <CommandAddToCaravan>加入远行队</CommandAddToCaravan>
+  <CommandAddToCaravanDesc>将这个人或动物加入组建中的远行队。</CommandAddToCaravanDesc>
 
   <!-- Show map -->
   <CommandShowMap>放大</CommandShowMap>
@@ -210,8 +210,8 @@
   <CommandTradeFailNoNegotiator>缺少意识清醒且有能力的谈判者。</CommandTradeFailNoNegotiator>
 
   <!-- Offer gifts -->
-  <CommandOfferGifts>Offer gifts</CommandOfferGifts>
-  <CommandOfferGiftsDesc>Offer gifts to this faction.</CommandOfferGiftsDesc>
+  <CommandOfferGifts>给予礼物</CommandOfferGifts>
+  <CommandOfferGiftsDesc>对这个派系给予礼物。</CommandOfferGiftsDesc>
 
   <!-- Fulfill request -->
   <CommandFulfillTradeOffer>完成交易邀请</CommandFulfillTradeOffer>
@@ -266,17 +266,15 @@
   <CommandRemoveWaypointDesc>移除此路径点。</CommandRemoveWaypointDesc>
 
   <!-- Pause caravan -->
-  <CommandPauseCaravan>Pause</CommandPauseCaravan>
-  <CommandToggleCaravanPauseDesc>Pause the caravan movement. This has the following benefits:\n\n  - People can interact socially\n  - Forage for food {0} times faster\n  - Visibility multiplied by {1}</CommandToggleCaravanPauseDesc>
+  <CommandPauseCaravan>暂停</CommandPauseCaravan>
+  <CommandToggleCaravanPauseDesc>暂停远行队移动。这将有以下收益：\n\n  - 人们可以社交互动\n  - 食物采集速度加快{0}倍\n  - 可见度乘以{1}</CommandToggleCaravanPauseDesc>
 
   <!-- Show sellable items -->
-  <CommandShowSellableItems>Show what will buy</CommandShowSellableItems>
-  <CommandShowSellableItemsDesc>Show everything this trader wants to buy.</CommandShowSellableItemsDesc>
+  <CommandShowSellableItems>显示收购项</CommandShowSellableItems>
+  <CommandShowSellableItemsDesc>显示此商人希望收购的所有物品。</CommandShowSellableItemsDesc>
 
   <!-- Attack settlement -->
-  <CommandAttackSettlement>Attack</CommandAttackSettlement>
-  <CommandAttackSettlementDesc>Attack this settlement.</CommandAttackSettlementDesc>
-
-  <!--<CommandExtractShellFailNoShell>炮弹未上膛。</CommandExtractShellFailNoShell>-->
+  <CommandAttackSettlement>攻击</CommandAttackSettlement>
+  <CommandAttackSettlementDesc>攻击此定居点。</CommandAttackSettlementDesc>
 
 </LanguageData>

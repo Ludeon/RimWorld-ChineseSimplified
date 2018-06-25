@@ -19,8 +19,8 @@
   <TabRecords>记录</TabRecords>
   <TabArt>艺术</TabArt>
   <TabSocial>社交</TabSocial>
-  <TabLog>Log</TabLog>
-  <TabFormingCaravan>Caravan</TabFormingCaravan>
+  <TabLog>日志</TabLog>
+  <TabFormingCaravan>远行队</TabFormingCaravan>
 
 
   <!-- Bills tab  -->
@@ -30,14 +30,14 @@
   <SuspendedCaps>已暂停</SuspendedCaps>
   <BoundWorkerIs>绑定工作者: {0}</BoundWorkerIs>
   <PlantVerb>种植</PlantVerb>
-  <ClipboardBillNotAvailableHere>Copied bill cannot be pasted here.</ClipboardBillNotAvailableHere>
-  <ReorderBillUpTip>Move up</ReorderBillUpTip>
-  <ReorderBillDownTip>Move down</ReorderBillDownTip>
-  <DeleteBillTip>Delete</DeleteBillTip>
-  <CopyBillTip>Copy to the clipboard</CopyBillTip>
-  <SuspendBillTip>Suspend</SuspendBillTip>
-  <PasteBillTip>Paste</PasteBillTip>
-  <PasteBillTip_LimitReached>can't add more</PasteBillTip_LimitReached>
+  <ClipboardBillNotAvailableHere>复制的清单无法粘贴在此</ClipboardBillNotAvailableHere>
+  <ReorderBillUpTip>上移</ReorderBillUpTip>
+  <ReorderBillDownTip>下移</ReorderBillDownTip>
+  <DeleteBillTip>删除</DeleteBillTip>
+  <CopyBillTip>复制进剪切板</CopyBillTip>
+  <SuspendBillTip>暂停</SuspendBillTip>
+  <PasteBillTip>粘贴</PasteBillTip>
+  <PasteBillTip_LimitReached>不能再加了</PasteBillTip_LimitReached>
 
 
   <!-- Guest/prisoner tab -->
@@ -105,7 +105,7 @@
 
 
   <!-- Training tab -->
-  <Trainability>Trainability</Trainability>
+  <Trainability>可训练度</Trainability>
   <CannotTrainNotSmartEnough>智力级别要求: {0}。</CannotTrainNotSmartEnough>
   <CannotTrainTooSmall>{0}体形过小，无法训练。</CannotTrainTooSmall>
 
@@ -123,7 +123,7 @@
   <IAmPsychopath>我心理变态</IAmPsychopath>
 
   <!-- Gear tab -->
-  <OverallArmor>Overall armor</OverallArmor>
+  <OverallArmor>总护甲</OverallArmor>
   <MassCarried>负重: {0} / {1} kg</MassCarried>
   <ComfyTemperatureRange>适宜温度范围</ComfyTemperatureRange>
   <ArmorBlunt>钝器护甲</ArmorBlunt>
@@ -131,34 +131,27 @@
   <ArmorHeat>热能护甲</ArmorHeat>
 
   <!-- Log tab -->
-  <ShowAll>Show all</ShowAll>
-  <ShowCombat>Show combat</ShowCombat>
-  <ShowSocial>Show social</ShowSocial>
-  <NoRecentEntries>no recent entries</NoRecentEntries>
-  <CopyLogTip>Copy log to the clipboard.</CopyLogTip>
+  <ShowAll>显示全部</ShowAll>
+  <ShowCombat>显示战斗</ShowCombat>
+  <ShowSocial>显示社交</ShowSocial>
+  <NoRecentEntries>无最近项目</NoRecentEntries>
+  <CopyLogTip>将日志复制到剪贴板</CopyLogTip>
 
   <!-- Forming caravan tab -->
-  <FormingCaravanStatus_GatheringAnimals>Gathering animals</FormingCaravanStatus_GatheringAnimals>
-  <FormingCaravanStatus_GatheringAnimals_Pause>Gathering animals (waiting)</FormingCaravanStatus_GatheringAnimals_Pause>
-  <FormingCaravanStatus_GatheringItems>Gathering items</FormingCaravanStatus_GatheringItems>
-  <FormingCaravanStatus_GatheringItems_Pause>Gathering items (waiting)</FormingCaravanStatus_GatheringItems_Pause>
-  <FormingCaravanStatus_GatheringSlaves>Gathering slaves</FormingCaravanStatus_GatheringSlaves>
-  <FormingCaravanStatus_GatheringSlaves_Pause>Gathering slaves (waiting)</FormingCaravanStatus_GatheringSlaves_Pause>
-  <FormingCaravanStatus_Leaving>Leaving</FormingCaravanStatus_Leaving>
-  <FormingCaravanStatus_Leaving_Pause>Leaving (waiting)</FormingCaravanStatus_Leaving_Pause>
-  <FormingCaravanStatus_Waiting>Waiting</FormingCaravanStatus_Waiting>
-  <CaravanMembers>Members</CaravanMembers>
-  <CaravanAnimals>Animals</CaravanAnimals>
-  <ItemsToLoad>Items to load</ItemsToLoad>
-  <LoadedItems>Loaded items</LoadedItems>
-  <PackAnimalsCountLower>pack animals</PackAnimalsCountLower>
-  <InMentalStateCountLower>mentally broken</InMentalStateCountLower>
-
-  <!--<TabCombat>战斗</TabCombat>-->
-  <!--<Harvest>摘取</Harvest>-->
-  <!-- Training tab-->
-  <!--<TrainableIntelligence>智力级别</TrainableIntelligence>-->
-  <!--<AverageArmor>平均护甲</AverageArmor>-->
-  <!--<ArmorElectric>电能护甲</ArmorElectric>-->
+  <FormingCaravanStatus_GatheringAnimals>收集动物</FormingCaravanStatus_GatheringAnimals>
+  <FormingCaravanStatus_GatheringAnimals_Pause>收集动物（等待中）</FormingCaravanStatus_GatheringAnimals_Pause>
+  <FormingCaravanStatus_GatheringItems>收集物品</FormingCaravanStatus_GatheringItems>
+  <FormingCaravanStatus_GatheringItems_Pause>收集物品（等待中）</FormingCaravanStatus_GatheringItems_Pause>
+  <FormingCaravanStatus_GatheringSlaves>收集奴隶</FormingCaravanStatus_GatheringSlaves>
+  <FormingCaravanStatus_GatheringSlaves_Pause>收集奴隶（等待中）</FormingCaravanStatus_GatheringSlaves_Pause>
+  <FormingCaravanStatus_Leaving>正在离开</FormingCaravanStatus_Leaving>
+  <FormingCaravanStatus_Leaving_Pause>正在离开（等待中）</FormingCaravanStatus_Leaving_Pause>
+  <FormingCaravanStatus_Waiting>等待中</FormingCaravanStatus_Waiting>
+  <CaravanMembers>成员</CaravanMembers>
+  <CaravanAnimals>动物</CaravanAnimals>
+  <ItemsToLoad>须装载物品</ItemsToLoad>
+  <LoadedItems>已装载物品</LoadedItems>
+  <PackAnimalsCountLower>驮运动物</PackAnimalsCountLower>
+  <InMentalStateCountLower>精神崩溃</InMentalStateCountLower>
 
 </LanguageData>
