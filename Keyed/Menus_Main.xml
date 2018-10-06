@@ -10,15 +10,15 @@
   <LoadGame>载入</LoadGame>
   <Options>选项</Options>
   <Mods>Mod 配置</Mods>
-  <SaveTranslationReport>Save translation report</SaveTranslationReport>
-  <GeneratingTranslationReport>Generating translation report</GeneratingTranslationReport>
+  <SaveTranslationReport>保存翻译报告</SaveTranslationReport>
+  <GeneratingTranslationReport>正在生成翻译报告</GeneratingTranslationReport>
   <Credits>制作组</Credits>
   <QuitToMainMenu>退出到主菜单</QuitToMainMenu>
   <SaveAndQuitToMainMenu>保存并退出到主菜单</SaveAndQuitToMainMenu>
   <QuitToOS>退出到桌面</QuitToOS>
   <SaveAndQuitToOS>保存并退出到桌面</SaveAndQuitToOS>
   <FictionPrimer>大纲介绍</FictionPrimer>
-  <LudeonBlog>制作组Ludeon博客</LudeonBlog>
+  <LudeonBlog>制作组 Ludeon 博客</LudeonBlog>
   <Forums>官方论坛</Forums>
   <OfficialWiki>官方维基</OfficialWiki>
   <TynansTwitter>泰南的推特</TynansTwitter>
@@ -61,32 +61,32 @@
   <GenerateWorld>生成世界</GenerateWorld>
 
   <!--=========== Mods config ==========-->
-  <OpenSteamWorkshop>打开Steam创意工坊</OpenSteamWorkshop>
+  <OpenSteamWorkshop>打开 Steam 创意工坊</OpenSteamWorkshop>
   <GetModsFromForum>从论坛获取Mod</GetModsFromForum>
-  <OpenModsDataFolder>打开Mod文件夹</OpenModsDataFolder>
-  <ShowModsDataLocation>Show mods data location</ShowModsDataLocation>
-  <ConfirmDisableCoreMod>你确定要禁用核心模组吗？除非有完全替代游戏核心所有功能的模组，否则游戏将完全无法运行。\n\n记住，其它模组能通过使用同样的defName来覆盖游戏内的设定。</ConfirmDisableCoreMod>
+  <OpenModsDataFolder>打开 Mod 文件夹</OpenModsDataFolder>
+  <ShowModsDataLocation>显示 Mod 保存地点</ShowModsDataLocation>
+  <ConfirmDisableCoreMod>你确定要禁用核心模组吗？除非有完全替代游戏核心所有功能的模组，否则游戏将完全无法运行。\n\n记住，其它模组能通过使用同样的 defName 来覆盖游戏内的设定。</ConfirmDisableCoreMod>
   <ConfirmDeleteMod>你确定要删除{0}的所有内容？</ConfirmDeleteMod>
   <Unsubscribe>取消订阅</Unsubscribe>
   <ConfirmUnsubscribe>你确定要取消订阅{0}？</ConfirmUnsubscribe>
   <Author>作者</Author>
   <WorkshopPage>创意工坊页面</WorkshopPage>
-  <UploadToSteamWorkshop>上传到Steam创意工坊</UploadToSteamWorkshop>
-  <UpdateOnSteamWorkshop>更新到Steam创意工坊</UpdateOnSteamWorkshop>
+  <UploadToSteamWorkshop>上传到 Steam 创意工坊</UploadToSteamWorkshop>
+  <UpdateOnSteamWorkshop>更新到 Steam 创意工坊</UpdateOnSteamWorkshop>
   <UploadAlreadyInProgress>正在上传中。</UploadAlreadyInProgress>
   <WorkshopSubmissionFailed>提交至创意工坊时失败。\n\n原因: {0}</WorkshopSubmissionFailed>
   <WorkshopUploadSucceeded>已成功上传{0}。</WorkshopUploadSucceeded>
   <Downloading>下载中</Downloading>
   <Source>资源</Source>
   <ModTargetVersion>适配版本: {0}</ModTargetVersion>
-  <ModNotMadeForThisVersion>该Mod并不适配于当前RimWorld版本，很可能无法正常运行。</ModNotMadeForThisVersion>
-  <MessageModNeedsWellFormattedTargetVersion>Mod需要在About.xml中注明所适配的游戏版本信息。例如: &lt;targetVersion&gt;{0}&lt;/targetVersion&gt;。</MessageModNeedsWellFormattedTargetVersion>
+  <ModNotMadeForThisVersion>该 Mod 并不适配于当前 RimWorld 版本，很可能无法正常运行。</ModNotMadeForThisVersion>
+  <MessageModNeedsWellFormattedTargetVersion>Mod 需要在 About.xml 中注明所适配的游戏版本信息。例如: &lt;targetVersion&gt;{0}&lt;/targetVersion&gt;。</MessageModNeedsWellFormattedTargetVersion>
   <DragToReorder>拖拽以排序</DragToReorder>
 
   <!--=========== Select scenario =============-->
   <ChooseScenario>选择剧本</ChooseScenario>
   <ScenariosCustom>自定义</ScenariosCustom>
-  <ScenariosSteamWorkshop>Steam创意工坊</ScenariosSteamWorkshop>
+  <ScenariosSteamWorkshop>Steam 创意工坊</ScenariosSteamWorkshop>
   <ScenarioEditor>剧本编辑器</ScenarioEditor>
   <Delete>删除</Delete>
 
@@ -97,11 +97,11 @@
   <Summary>简介</Summary>
   <AddPart>添加条件</AddPart>
   <TextFieldsMustBeFilled>所有文本框都必须填写内容。</TextFieldsMustBeFilled>
-  <ConfirmSteamWorkshopUpload>确定上传到Steam创意工坊吗？\n\n你必须同意Steam创意工坊的服务条款。在以下网页查看完整条款:\n\nhttp://steamcommunity.com/sharedfiles/workshoplegalagreement</ConfirmSteamWorkshopUpload>
+  <ConfirmSteamWorkshopUpload>确定上传到 Steam 创意工坊吗？\n\n你必须同意 Steam 创意工坊的服务条款。在以下网页查看完整条款:\n\nhttp://steamcommunity.com/sharedfiles/workshoplegalagreement</ConfirmSteamWorkshopUpload>
   <ConfirmContentAuthor>你所上传的内容必须是你原创的。\n\n这是你原创的吗？</ConfirmContentAuthor>
   <Incompatible>不兼容</Incompatible>
   <TooMany>过多（最多 {0}）: </TooMany>
-  <CanBeUpdatedOnWorkshop>作为作者，你可以将其更新到Steam创意工坊。</CanBeUpdatedOnWorkshop>
+  <CanBeUpdatedOnWorkshop>作为作者，你可以将其更新到 Steam 创意工坊。</CanBeUpdatedOnWorkshop>
 
   <!--=========== Select storyteller ==========-->
   <ChooseAIStoryteller>选择AI故事叙述者</ChooseAIStoryteller>
@@ -138,12 +138,12 @@
   <FactionBase>派系基地</FactionBase>
   <StoneTypesHere>岩石类型</StoneTypesHere>
   <TimeZone>时区</TimeZone>
-  <MovementDifficulty>Movement difficulty</MovementDifficulty>
-  <AnimalsCanGrazeNow>当前可否放牧动物</AnimalsCanGrazeNow>
+  <MovementDifficulty>移动难度</MovementDifficulty>
+  <AnimalsCanGrazeNow>当前可否放牧</AnimalsCanGrazeNow>
   <AverageDiseaseFrequency>平均疾病频率</AverageDiseaseFrequency>
   <PerYear>每年</PerYear>
-  <Forageability>Forageability</Forageability>
-  <ConfirmRequiredWorkTypeDisabledForEveryone>None of the selected people can do the following jobs:\n\n{0}\n\nThis can make the game more difficult than usual. Are you sure you want to continue?</ConfirmRequiredWorkTypeDisabledForEveryone>
+  <Forageability>远行采集量</Forageability>
+  <ConfirmRequiredWorkTypeDisabledForEveryone>已选中的人之内没有任何人能做下列工作：\n\n{0}\n\n这将导致游戏比正常情况更难。确定要继续吗？</ConfirmRequiredWorkTypeDisabledForEveryone>
 
 
   <!--=========== Character chooser ==========-->
@@ -179,7 +179,7 @@
   <Gameplay>游戏性</Gameplay>
   <ConfirmQuit>确认退出吗？你将失去所有未保存的游戏进度。</ConfirmQuit>
   <EveryoneNeedsValidName>每个角色都需要一个有效的名字。</EveryoneNeedsValidName>
-  <RequiredWorkTypeDisabledForEveryone>None of the selected people can do the following jobs</RequiredWorkTypeDisabledForEveryone>
+  <RequiredWorkTypeDisabledForEveryone>已选中的人之内没有任何人能做下列工作</RequiredWorkTypeDisabledForEveryone>
   <Quit>退出</Quit>
   <Ignore>忽略</Ignore>
 
@@ -188,11 +188,5 @@
   <GeneratingPlanet>生成星球中</GeneratingPlanet>
   <GeneratingMap>生成地图中</GeneratingMap>
   <GeneratingMapForNewEncounter>生成新地区地图中</GeneratingMapForNewEncounter>
-
-  <!--<AvgSummerTemp>夏季平均温度</AvgSummerTemp>-->
-  <!--<AvgWinterTemp>冬季平均温度</AvgWinterTemp>-->
-  <!--<MovementTimeNow>当前移动耗时</MovementTimeNow>-->
-  <!--<MovementTimeSummer>夏季移动耗时</MovementTimeSummer>-->
-  <!--<MovementTimeWinter>冬季移动耗时</MovementTimeWinter>-->
 
 </LanguageData>
