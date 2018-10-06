@@ -1,82 +1,136 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
+  <!-- EN: Autosaving -->
   <Autosaving>自动保存中……</Autosaving>
+  <!-- EN: The three of you awake in your cryptosleep sarcophagi to the sound of sirens and ripping metal. You barely get to the escape pods before the ship is torn apart.\n\nSome time later, you land on this unknown rimworld.\n\nAs pieces of the shredded starship fall around you, you start making plans to survive. -->
   <GameStartDialog>你们三人在刺耳的警报声与金属碎裂声中从低温休眠舱内醒来，然后勉强在飞船四分五裂前钻进了逃生舱内。\n\n随后不久，你们降落到了这个充满未知的边缘世界上。\n\n随着飞船残骸不断坠落在你们身边，你们开始制订一份生存计划。</GameStartDialog>
+  <!-- EN: Colony -->
   <Colony>殖民地</Colony>
+  <!-- EN: You can only change language from the options screen on the main menu. -->
   <ChangeLanguageFromMainMenu>你只能在主菜单的设置界面内更改游戏语言。</ChangeLanguageFromMainMenu>
+  <!-- EN: and -->
   <AndLower>和</AndLower>
+  <!-- EN: disabled -->
   <DisabledLower>禁用</DisabledLower>
 
-
+  <!-- EN: Version {0} -->
   <VersionIndicator>版本: {0}</VersionIndicator>
+  <!-- EN: development build -->
   <DevelopmentBuildLower>开发版</DevelopmentBuildLower>
+  <!-- EN: Compiled {0} -->
   <CompiledOn>编译于 {0}</CompiledOn>
+  <!-- EN: Logged into Steam as {0} -->
   <LoggedIntoSteamAs>已登录Steam（用户名: {0}）</LoggedIntoSteamAs>
 
   <!-- General-use words -->
+  <!-- EN: Yes -->
   <Yes>是</Yes>
+  <!-- EN: No -->
   <No>否</No>
+  <!-- EN: min -->
   <min>最小</min>
+  <!-- EN: max -->
   <max>最大</max>
+  <!-- EN: chance -->
   <chance>几率</chance>
+  <!-- EN: context -->
   <context>对象</context>
+  <!-- EN: multiplier -->
   <multiplier>乘数</multiplier>
+  <!-- EN: damage -->
   <damage>伤害</damage>
+  <!-- EN: radius -->
   <radius>半径</radius>
+  <!-- EN: duration (days) -->
   <durationDays>持续时间（天）</durationDays>
+  <!-- EN: interval (days) -->
   <intervalDays>间隔时间（天）</intervalDays>
+  <!-- EN: repeat -->
   <repeat>重复</repeat>
+  <!-- EN: default -->
   <default>默认</default>
+  <!-- EN: distance -->
   <distance>距离</distance>
-  <YesUppercase>YES</YesUppercase>
-  <NoUppercase>NO</NoUppercase>
-  <kg>kg</kg>
+  <!-- EN: YES -->
+  <YesUppercase>是</YesUppercase>
+  <!-- EN: NO -->
+  <NoUppercase>否</NoUppercase>
+  <!-- EN: kg -->
+  <kg>千克</kg>
+  <!-- EN: Day -->
   <Day>天</Day>
-  <day>day</day>
-  <Default>Default</Default>
-  <Average>Average</Average>
+  <!-- EN: day -->
+  <day>天</day>
+  <!-- EN: Default -->
+  <Default>默认</Default>
+  <!-- EN: Average -->
+  <Average>平均</Average>
 
   <!-- Content generation-->
-
+  
+  <!-- EN: {0} meat -->
   <MeatLabel>{0}肉</MeatLabel>
+  <!-- EN: Raw butchered flesh. Can be cooked into meals, or eaten raw. -->
   <MeatDesc>新鲜屠宰的生肉，可进一步烹饪为菜肴或生吃。</MeatDesc>
-  <MeatInsectDesc>新鲜屠宰的生肉。如果吃药的话，可进一步烹饪为菜肴，甚至生吃。极度难吃。</MeatInsectDesc>
+  <!-- EN: Raw butchered flesh. If necessary, can be cooked into meals, or even eaten raw. Extremely unappetizing. -->
+  <MeatInsectDesc>新鲜屠宰的生肉。如果必要，可进一步烹饪为菜肴，甚至生吃。极度难吃。</MeatInsectDesc>
+  <!-- EN: Raw butchered flesh. Can be cooked into meals or eaten raw, although most humans dislike the idea. -->
   <MeatHumanDesc>新鲜屠宰的生肉。可进一步烹饪为菜肴或生吃，尽管大部分人类不喜欢这个主意。</MeatHumanDesc>
 
+  <!-- EN: {0} corpse -->
   <CorpseLabel>{0}尸体</CorpseLabel>
+  <!-- EN: Dead body of a {0}. -->
   <CorpseDesc>{0}的尸体。</CorpseDesc>
+  <!-- EN: {0} (dead) -->
   <DeadLabel>{0}（死亡）</DeadLabel>
 
+  <!-- EN: rough {0} -->
   <RoughStoneTerrainLabel>粗糙的{0}</RoughStoneTerrainLabel>
+  <!-- EN: Rough, natural {0} ground. -->
   <RoughStoneTerrainDesc>粗糙的天然{0}地面。</RoughStoneTerrainDesc>
+  <!-- EN: rough-hewn {0} -->
   <RoughHewnStoneTerrainLabel>粗糙打磨过的{0}</RoughHewnStoneTerrainLabel>
+  <!-- EN: Roughly cut natural {0} floor. -->
   <RoughHewnStoneTerrainDesc>粗糙打磨过的天然{0}地面。</RoughHewnStoneTerrainDesc>
+  <!-- EN: smooth {0} -->
   <SmoothStoneTerrainLabel>打磨过的{0}</SmoothStoneTerrainLabel>
+  <!-- EN: Smoothed natural {0} floor. -->
   <SmoothStoneTerrainDesc>打磨过的天然{0}地面。</SmoothStoneTerrainDesc>
 
+  <!-- EN:  (blueprint) -->
   <BlueprintLabelExtra>（蓝图）</BlueprintLabelExtra>
+  <!-- EN:  (building) -->
   <FrameLabelExtra>（建造中）</FrameLabelExtra>
 
+  <!-- EN: Unaffiliated -->
   <FactionUnaffiliated>无关联</FactionUnaffiliated>
-
 
   <!-- For things made of stuff, e.g. "Stone bed" -->
   <!-- 0 is the stuffAdjective property under stuffProps and 1 is the label -->
+  <!-- EN: {0} {1} -->
   <ThingMadeOfStuffLabel>{0}{1}</ThingMadeOfStuffLabel>
 
+  <!-- EN: {0}'s {1} -->
   <SomeonesRoom>{0}的{1}</SomeonesRoom>
+  <!-- EN: {0} and {1}'s {2} -->
   <CouplesRoom>{0}和{1}的{2}</CouplesRoom>
-
+  
+  <!-- EN: (various) -->
   <VariousLabel>（多种）</VariousLabel>
 
   <!-- History events -->
+  <!-- EN: Colonist died -->
   <ColonistDied>殖民者死亡</ColonistDied>
-
+  
   <!-- Rotation -->
+  <!-- EN: North -->
   <North>北</North>
+  <!-- EN: South -->
   <South>南</South>
+  <!-- EN: West -->
   <West>西</West>
+  <!-- EN: East -->
   <East>东</East>
-
+  
 </LanguageData>

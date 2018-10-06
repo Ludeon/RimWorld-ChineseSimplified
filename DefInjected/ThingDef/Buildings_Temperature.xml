@@ -1,29 +1,29 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
+  
+  <!-- EN: campfire -->
   <Campfire.label>篝火</Campfire.label>
+  <!-- EN: Cooks meals and produces heat, and burns out after a few days. As with all heat sources, it must be placed indoors so it has a closed space to heat. Refuelable. -->
   <Campfire.description>烹饪食物并产生热量。数天后烧尽。和其他热源一样，必须放置在室内封闭空间才能取暖。可以补充燃料。</Campfire.description>
-  <Campfire_Blueprint.label>篝火（蓝图）</Campfire_Blueprint.label>
-  <Campfire_Frame.label>篝火（建造中）</Campfire_Frame.label>
-  <Campfire_Frame.description>烹饪食物并产生热量。数天后烧尽。和其他热源一样，必须放置在室内封闭空间才能取暖。可以补充燃料。</Campfire_Frame.description>
-  <PassiveCooler.label>蒸发制冷器</PassiveCooler.label>
-  <PassiveCooler.description>一个传统的制冷器，不需要通电即可运行。通过水蒸发来降温，数天后水分耗尽。</PassiveCooler.description>
-  <PassiveCooler_Blueprint.label>蒸发制冷器（蓝图）</PassiveCooler_Blueprint.label>
-  <PassiveCooler_Frame.label>蒸发制冷器（建造中）</PassiveCooler_Frame.label>
-  <PassiveCooler_Frame.description>一个传统的制冷器，不需要通电即可运行。通过水蒸发来降温，数天后水分耗尽。</PassiveCooler_Frame.description>
-  <Heater.label>加热器</Heater.label>
-  <Heater.description>一个将电能转换成热能的电器设备。它会自动根据当前室内温度开关以达到设定的目标温度。</Heater.description>
-  <Heater_Blueprint.label>加热器（蓝图）</Heater_Blueprint.label>
-  <Heater_Blueprint_Install.label>加热器（蓝图）</Heater_Blueprint_Install.label>
-  <Heater_Frame.label>加热器（建造中）</Heater_Frame.label>
-  <Heater_Frame.description>一个将电能转换成热能的电器设备。它会自动根据当前室内温度开关以达到设定的目标温度。</Heater_Frame.description>
+  
+  <!-- EN: cooler -->
   <Cooler.label>制冷机</Cooler.label>
+  <!-- EN: An air-cooling machine that fits into a wall. Cool air comes out one side, while hot exhaust comes out the other. Can be used to cool down rooms during summer, or to create a walk-in freezer. -->
   <Cooler.description>一个能够作为墙体安装的电器设备，可将冷空气吹入房间内，同时外机部分产生大量热量。可以在夏季为房间降温，或者用其建造一个冷库。</Cooler.description>
-  <Cooler_Blueprint.label>制冷机（蓝图）</Cooler_Blueprint.label>
-  <Cooler_Frame.label>制冷机（建造中）</Cooler_Frame.label>
-  <Cooler_Frame.description>一个能够作为墙体安装的电器设备，可将冷空气吹入房间内，同时外机部分产生大量热量。可以在夏季为房间降温，或者用其建造一个冷库。</Cooler_Frame.description>
+  
+  <!-- EN: heater -->
+  <Heater.label>加热器</Heater.label>
+  <!-- EN: An device that converts electricity into heat. It can automatically turn itself on or off to reach a specific target temperature. -->
+  <Heater.description>一个将电能转换成热能的电器设备。它会自动根据当前室内温度开关以达到设定的目标温度。</Heater.description>
+  
+  <!-- EN: passive cooler -->
+  <PassiveCooler.label>蒸发制冷器</PassiveCooler.label>
+  <!-- EN: A traditional unpowered cooler that works by water evaporation. Must be regularly replenished with wood. Not efficient enough to refrigerate food. -->
+  <PassiveCooler.description>一个传统的制冷器，不需要通电即可运行。通过水蒸发来降温，数天后水分耗尽。</PassiveCooler.description>
+  
+  <!-- EN: vent -->
   <Vent.label>通风孔</Vent.label>
+  <!-- EN: A vent for equalizing the temperature between two rooms without allowing people to walk between them. -->
   <Vent.description>一个通风孔，在平衡两个房间的温度同时保持墙体无法通过。</Vent.description>
-  <Vent_Blueprint.label>通风孔（蓝图）</Vent_Blueprint.label>
-  <Vent_Frame.label>通风孔（建造中）</Vent_Frame.label>
-  <Vent_Frame.description>一个通风孔，在平衡两个房间的温度同时保持墙体无法通过。</Vent_Frame.description>
+  
 </LanguageData>

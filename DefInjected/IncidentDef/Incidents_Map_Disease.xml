@@ -1,16 +1,74 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <Disease_Flu.label>流感</Disease_Flu.label>
-  <Disease_Plague.label>瘟疫</Disease_Plague.label>
-  <Disease_Malaria.label>疟疾</Disease_Malaria.label>
-  <Disease_SleepingSickness.label>嗜睡病</Disease_SleepingSickness.label>
+  
+  <!-- EN: flu (animals) -->
+  <Disease_AnimalFlu.label>流感（动物）</Disease_AnimalFlu.label>
+  <!-- EN: Animal disease (flu) -->
+  <Disease_AnimalFlu.letterLabel>动物疾病（流感）</Disease_AnimalFlu.letterLabel>
+  <!-- EN: {0} of your animals have gotten sick from {2}.\n\nMake sure that they get proper treatment and rest as much as possible.\n\nThe following animals have gotten sick:\n\n{3} -->
+  <Disease_AnimalFlu.letterText>{0}动物患上了{2}。\n\n确保它们得到适当的治疗并尽可能休息。\n\n以下动物生病了：\n\n{3}</Disease_AnimalFlu.letterText>
+  
+  <!-- EN: plague (animals) -->
+  <Disease_AnimalPlague.label>瘟疫（动物）</Disease_AnimalPlague.label>
+  <!-- EN: Animal disease (plague) -->
+  <Disease_AnimalPlague.letterLabel>动物疾病（瘟疫）</Disease_AnimalPlague.letterLabel>
+  <!-- EN: {0} of your animals have gotten sick from {2}.\n\nMake sure that they get proper treatment and rest as much as possible.\n\nThe following animals have gotten sick:\n\n{3} -->
+  <Disease_AnimalPlague.letterText>{0}动物患上了{2}。\n\n确保它们得到适当的治疗并尽可能休息。\n\n以下动物生病了：\n\n{3}</Disease_AnimalPlague.letterText>
+  
+  <!-- EN: fibrous mechanites -->
   <Disease_FibrousMechanites.label>纤维纳米机械感染</Disease_FibrousMechanites.label>
-  <Disease_SensoryMechanites.label>感官纳米机械感染</Disease_SensoryMechanites.label>
+  <!-- EN: Disease (fibrous mechanites) -->
+  <Disease_FibrousMechanites.letterLabel>疾病（纤维纳米机械感染）</Disease_FibrousMechanites.letterLabel>
+  <!-- EN: {0} of your {1} have gotten sick from {2}.\n\nEnsure you have a medical bed and a doctor. Make sure that they get proper treatment and spend as much time in bed as possible.\n\nThe following {1} have gotten sick:\n\n{3} -->
+  <Disease_FibrousMechanites.letterText>{0}{1}患上了{2}。\n\n确保有病床和医生，使他们得到适当的治疗并尽可能卧床休息。\n\n以下{1}生病了：\n\n{3}</Disease_FibrousMechanites.letterText>
+  
+  <!-- EN: flu -->
+  <Disease_Flu.label>流感</Disease_Flu.label>
+  <!-- EN: Disease (flu) -->
+  <Disease_Flu.letterLabel>疾病（流感）</Disease_Flu.letterLabel>
+  <!-- EN: {0} of your {1} have gotten sick from {2}.\n\nEnsure you have a medical bed and a doctor. Make sure that they get proper treatment and spend as much time in bed as possible.\n\nThe following {1} have gotten sick:\n\n{3} -->
+  <Disease_Flu.letterText>{0}{1}患上了{2}。\n\n确保有病床和医生，使他们得到适当的治疗并尽可能卧床休息。\n\n以下{1}生病了：\n\n{3}</Disease_Flu.letterText>
+  
+  <!-- EN: gut worms -->
   <Disease_GutWorms.label>肠道蠕虫</Disease_GutWorms.label>
+  <!-- EN: Disease (gut worms) -->
+  <Disease_GutWorms.letterLabel>疾病（肠道蠕虫）</Disease_GutWorms.letterLabel>
+  <!-- EN: {0} of your {1} have gotten sick from {2}.\n\nEnsure you have a medical bed and a doctor. Make sure that they get proper treatment and spend as much time in bed as possible.\n\nThe following {1} have gotten sick:\n\n{3} -->
+  <Disease_GutWorms.letterText>{0}{1}患上了{2}。\n\n确保有病床和医生，使他们得到适当的治疗并尽可能卧床休息。\n\n以下{1}生病了：\n\n{3}</Disease_GutWorms.letterText>
+  
+  <!-- EN: malaria -->
+  <Disease_Malaria.label>疟疾</Disease_Malaria.label>
+  <!-- EN: Disease (malaria) -->
+  <Disease_Malaria.letterLabel>疾病（疟疾）</Disease_Malaria.letterLabel>
+  <!-- EN: {0} of your {1} have gotten sick from {2}.\n\nEnsure you have a medical bed and a doctor. Make sure that they get proper treatment and spend as much time in bed as possible.\n\nThe following {1} have gotten sick:\n\n{3} -->
+  <Disease_Malaria.letterText>{0}{1}患上了{2}。\n\n确保有病床和医生，使他们得到适当的治疗并尽可能卧床休息。\n\n以下{1}生病了：\n\n{3}</Disease_Malaria.letterText>
+  
+  <!-- EN: muscle parasites -->
   <Disease_MuscleParasites.label>肌肉寄生虫</Disease_MuscleParasites.label>
-  <Disease_AnimalFlu.label>流感(动物)</Disease_AnimalFlu.label>
-  <Disease_AnimalPlague.label>瘟疫(动物)</Disease_AnimalPlague.label>
-
-
+  <!-- EN: Disease (muscle parasites) -->
+  <Disease_MuscleParasites.letterLabel>疾病（肌肉寄生虫）</Disease_MuscleParasites.letterLabel>
+  <!-- EN: {0} of your {1} have gotten sick from {2}.\n\nEnsure you have a medical bed and a doctor. Make sure that they get proper treatment and spend as much time in bed as possible.\n\nThe following {1} have gotten sick:\n\n{3} -->
+  <Disease_MuscleParasites.letterText>{0}{1}患上了{2}。\n\n确保有病床和医生，使他们得到适当的治疗并尽可能卧床休息。\n\n以下{1}生病了：\n\n{3}</Disease_MuscleParasites.letterText>
+  
+  <!-- EN: plague -->
+  <Disease_Plague.label>瘟疫</Disease_Plague.label>
+  <!-- EN: Disease (plague) -->
+  <Disease_Plague.letterLabel>疾病（瘟疫）</Disease_Plague.letterLabel>
+  <!-- EN: {0} of your {1} have gotten sick from {2}.\n\nEnsure you have a medical bed and a doctor. Make sure that they get proper treatment and spend as much time in bed as possible.\n\nThe following {1} have gotten sick:\n\n{3} -->
+  <Disease_Plague.letterText>{0}{1}患上了{2}。\n\n确保有病床和医生，使他们得到适当的治疗并尽可能卧床休息。\n\n以下{1}生病了：\n\n{3}</Disease_Plague.letterText>
+  
+  <!-- EN: sensory mechanites -->
+  <Disease_SensoryMechanites.label>感官纳米机械感染</Disease_SensoryMechanites.label>
+  <!-- EN: Disease (sensory mechanites) -->
+  <Disease_SensoryMechanites.letterLabel>疾病（感官纳米机械感染）</Disease_SensoryMechanites.letterLabel>
+  <!-- EN: {0} of your {1} have gotten sick from {2}.\n\nEnsure you have a medical bed and a doctor. Make sure that they get proper treatment and spend as much time in bed as possible.\n\nThe following {1} have gotten sick:\n\n{3} -->
+  <Disease_SensoryMechanites.letterText>{0}{1}患上了{2}。\n\n确保有病床和医生，使他们得到适当的治疗并尽可能卧床休息。\n\n以下{1}生病了：\n\n{3}</Disease_SensoryMechanites.letterText>
+  
+  <!-- EN: sleeping sickness -->
+  <Disease_SleepingSickness.label>嗜睡病</Disease_SleepingSickness.label>
+  <!-- EN: Disease (sleeping sickness) -->
+  <Disease_SleepingSickness.letterLabel>疾病（嗜睡症）</Disease_SleepingSickness.letterLabel>
+  <!-- EN: {0} of your {1} have gotten sick from {2}.\n\nEnsure you have a medical bed and a doctor. Make sure that they get proper treatment and spend as much time in bed as possible.\n\nThe following {1} have gotten sick:\n\n{3} -->
+  <Disease_SleepingSickness.letterText>{0}{1}患上了{2}。\n\n确保有病床和医生，使他们得到适当的治疗并尽可能卧床休息。\n\n以下{1}生病了：\n\n{3}</Disease_SleepingSickness.letterText>
+  
 </LanguageData>

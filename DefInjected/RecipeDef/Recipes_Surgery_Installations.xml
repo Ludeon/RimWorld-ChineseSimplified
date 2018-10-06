@@ -1,110 +1,172 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <!-- Install natural parts -->
-
-  <InstallNaturalKidney.label>植入肾脏</InstallNaturalKidney.label>
-  <InstallNaturalKidney.description>将肾脏植入身体。</InstallNaturalKidney.description>
-  <InstallNaturalKidney.jobString>正在植入肾脏。</InstallNaturalKidney.jobString>
-
-  <InstallNaturalLiver.label>植入肝脏</InstallNaturalLiver.label>
-  <InstallNaturalLiver.description>将肝脏植入身体。</InstallNaturalLiver.description>
-  <InstallNaturalLiver.jobString>正在植入肝脏。</InstallNaturalLiver.jobString>
-
-  <InstallNaturalLung.label>植入肺</InstallNaturalLung.label>
-  <InstallNaturalLung.description>将肺植入身体。</InstallNaturalLung.description>
-  <InstallNaturalLung.jobString>正在植入肺。</InstallNaturalLung.jobString>
-
-  <InstallNaturalHeart.label>植入心脏</InstallNaturalHeart.label>
-  <InstallNaturalHeart.description>将心脏植入身体。</InstallNaturalHeart.description>
-  <InstallNaturalHeart.jobString>正在植入心脏。</InstallNaturalHeart.jobString>
-
-
-  <!-- Install artificial parts -->
-
-  <InstallPegLeg.label>安装木腿</InstallPegLeg.label>
-  <InstallPegLeg.description>安装木腿。</InstallPegLeg.description>
-  <InstallPegLeg.jobString>正在安装木腿。</InstallPegLeg.jobString>
-
-  <InstallWoodenFoot.label>安装木足</InstallWoodenFoot.label>
-  <InstallWoodenFoot.description>安装木足。</InstallWoodenFoot.description>
-  <InstallWoodenFoot.jobString>正在安装木足。</InstallWoodenFoot.jobString>
-
-  <InstallDenture.label>安装义齿</InstallDenture.label>
-  <InstallDenture.description>安装义齿。</InstallDenture.description>
-  <InstallDenture.jobString>正在安装义齿。</InstallDenture.jobString>
-
-  <InstallSimpleProstheticLeg.label>安装简易的假腿</InstallSimpleProstheticLeg.label>
-  <InstallSimpleProstheticLeg.description>安装简易的假腿。</InstallSimpleProstheticLeg.description>
-  <InstallSimpleProstheticLeg.jobString>正在安装简易的假腿。</InstallSimpleProstheticLeg.jobString>
-
-  <InstallSimpleProstheticArm.label>安装简易的假臂</InstallSimpleProstheticArm.label>
-  <InstallSimpleProstheticArm.description>安装简易的假臂。</InstallSimpleProstheticArm.description>
-  <InstallSimpleProstheticArm.jobString>正在安装简易的假臂。</InstallSimpleProstheticArm.jobString>
-
-  <InstallSimpleProstheticHeart.label>安装人工心脏</InstallSimpleProstheticHeart.label>
-  <InstallSimpleProstheticHeart.description>安装人工心脏。</InstallSimpleProstheticHeart.description>
-  <InstallSimpleProstheticHeart.jobString>正在安装人工心脏。</InstallSimpleProstheticHeart.jobString>
-
-  <InstallCochlearImplant.label>安装人工耳蜗</InstallCochlearImplant.label>
-  <InstallCochlearImplant.description>安装人工耳蜗。</InstallCochlearImplant.description>
-  <InstallCochlearImplant.jobString>正在安装人工耳蜗。</InstallCochlearImplant.jobString>
-
-  <InstallBionicArm.label>安装仿生臂</InstallBionicArm.label>
-  <InstallBionicArm.description>安装仿生臂。</InstallBionicArm.description>
-  <InstallBionicArm.jobString>正在安装仿生臂。</InstallBionicArm.jobString>
-
-  <InstallBionicLeg.label>安装仿生腿</InstallBionicLeg.label>
-  <InstallBionicLeg.description>安装仿生腿。</InstallBionicLeg.description>
-  <InstallBionicLeg.jobString>正在安装仿生腿。</InstallBionicLeg.jobString>
-
-  <InstallBionicSpine.label>安装仿生脊椎</InstallBionicSpine.label>
-  <InstallBionicSpine.description>安装仿生脊椎。</InstallBionicSpine.description>
-  <InstallBionicSpine.jobString>正在安装仿生脊椎。</InstallBionicSpine.jobString>
-
-  <InstallBionicHeart.label>安装仿生心脏</InstallBionicHeart.label>
-  <InstallBionicHeart.description>安装仿生心脏。</InstallBionicHeart.description>
-  <InstallBionicHeart.jobString>正在安装仿生心脏。</InstallBionicHeart.jobString>
-
-  <InstallBionicStomach.label>安装仿生胃</InstallBionicStomach.label>
-  <InstallBionicStomach.description>安装仿生胃。</InstallBionicStomach.description>
-  <InstallBionicStomach.jobString>正在安装仿生胃。</InstallBionicStomach.jobString>
-
-  <InstallBionicEar.label>安装仿生耳</InstallBionicEar.label>
-  <InstallBionicEar.description>安装仿生耳。</InstallBionicEar.description>
-  <InstallBionicEar.jobString>正在安装仿生耳。</InstallBionicEar.jobString>
-
+  
+  <!-- EN: install archotech arm -->
   <InstallArchotechArm.label>安装远古科技臂</InstallArchotechArm.label>
+  <!-- EN: Install an archotech arm. -->
   <InstallArchotechArm.description>安装远古科技臂。</InstallArchotechArm.description>
+  <!-- EN: Installing archotech arm. -->
   <InstallArchotechArm.jobString>正在安装远古科技臂。</InstallArchotechArm.jobString>
-
-  <InstallArchotechLeg.label>安装远古科技腿</InstallArchotechLeg.label>
-  <InstallArchotechLeg.description>安装远古科技腿。</InstallArchotechLeg.description>
-  <InstallArchotechLeg.jobString>正在安装远古科技腿。</InstallArchotechLeg.jobString>
-
-  <InstallPowerClaw.label>安装动力爪</InstallPowerClaw.label>
-  <InstallPowerClaw.description>安装动力爪。</InstallPowerClaw.description>
-  <InstallPowerClaw.jobString>正在安装动力爪。</InstallPowerClaw.jobString>
-
-  <InstallBionicEye.label>安装仿生眼</InstallBionicEye.label>
-  <InstallBionicEye.description>安装仿生眼。</InstallBionicEye.description>
-  <InstallBionicEye.jobString>正在安装仿生眼。</InstallBionicEye.jobString>
-
+  
+  <!-- EN: install archotech eye -->
   <InstallArchotechEye.label>安装远古科技眼</InstallArchotechEye.label>
+  <!-- EN: Install an archotech eye. -->
   <InstallArchotechEye.description>安装远古科技眼。</InstallArchotechEye.description>
+  <!-- EN: Installing archotech eye. -->
   <InstallArchotechEye.jobString>正在安装远古科技眼。</InstallArchotechEye.jobString>
-
+  
+  <!-- EN: install archotech leg -->
+  <InstallArchotechLeg.label>安装远古科技腿</InstallArchotechLeg.label>
+  <!-- EN: Install an archotech leg. -->
+  <InstallArchotechLeg.description>安装远古科技腿。</InstallArchotechLeg.description>
+  <!-- EN: Installing archotech leg. -->
+  <InstallArchotechLeg.jobString>正在安装远古科技腿。</InstallArchotechLeg.jobString>
+  
+  <!-- EN: install bionic arm -->
+  <InstallBionicArm.label>安装仿生臂</InstallBionicArm.label>
+  <!-- EN: Install a bionic arm. -->
+  <InstallBionicArm.description>安装仿生臂。</InstallBionicArm.description>
+  <!-- EN: Installing bionic arm. -->
+  <InstallBionicArm.jobString>正在安装仿生臂。</InstallBionicArm.jobString>
+  
+  <!-- EN: install bionic ear -->
+  <InstallBionicEar.label>安装仿生耳</InstallBionicEar.label>
+  <!-- EN: Install a bionic ear. -->
+  <InstallBionicEar.description>安装仿生耳。</InstallBionicEar.description>
+  <!-- EN: Installing bionic ear. -->
+  <InstallBionicEar.jobString>正在安装仿生耳。</InstallBionicEar.jobString>
+  
+  <!-- EN: install bionic eye -->
+  <InstallBionicEye.label>安装仿生眼</InstallBionicEye.label>
+  <!-- EN: Install a bionic eye. -->
+  <InstallBionicEye.description>安装仿生眼。</InstallBionicEye.description>
+  <!-- EN: Installing bionic eye. -->
+  <InstallBionicEye.jobString>正在安装仿生眼。</InstallBionicEye.jobString>
+  
+  <!-- EN: install bionic heart -->
+  <InstallBionicHeart.label>安装仿生心脏</InstallBionicHeart.label>
+  <!-- EN: Install a bionic heart. -->
+  <InstallBionicHeart.description>安装仿生心脏。</InstallBionicHeart.description>
+  <!-- EN: Installing bionic heart. -->
+  <InstallBionicHeart.jobString>正在安装仿生心脏。</InstallBionicHeart.jobString>
+  
+  <!-- EN: install bionic leg -->
+  <InstallBionicLeg.label>安装仿生腿</InstallBionicLeg.label>
+  <!-- EN: Install a bionic leg. -->
+  <InstallBionicLeg.description>安装仿生腿。</InstallBionicLeg.description>
+  <!-- EN: Installing bionic leg. -->
+  <InstallBionicLeg.jobString>正在安装仿生腿。</InstallBionicLeg.jobString>
+  
+  <!-- EN: install bionic spine -->
+  <InstallBionicSpine.label>安装仿生脊椎</InstallBionicSpine.label>
+  <!-- EN: Install a bionic spine. -->
+  <InstallBionicSpine.description>安装仿生脊椎。</InstallBionicSpine.description>
+  <!-- EN: Installing bionic spine. -->
+  <InstallBionicSpine.jobString>正在安装仿生脊椎。</InstallBionicSpine.jobString>
+  
+  <!-- EN: install bionic stomach -->
+  <InstallBionicStomach.label>安装仿生胃</InstallBionicStomach.label>
+  <!-- EN: Install a bionic stomach. -->
+  <InstallBionicStomach.description>安装仿生胃。</InstallBionicStomach.description>
+  <!-- EN: Installing bionic stomach. -->
+  <InstallBionicStomach.jobString>正在安装仿生胃。</InstallBionicStomach.jobString>
+  
+  <!-- EN: install cochlear implant -->
+  <InstallCochlearImplant.label>安装人工耳蜗</InstallCochlearImplant.label>
+  <!-- EN: Install a cochlear implant. -->
+  <InstallCochlearImplant.description>安装人工耳蜗。</InstallCochlearImplant.description>
+  <!-- EN: Installing cochlear implant. -->
+  <InstallCochlearImplant.jobString>正在安装人工耳蜗。</InstallCochlearImplant.jobString>
+  
+  <!-- EN: install denture -->
+  <InstallDenture.label>安装义齿</InstallDenture.label>
+  <!-- EN: Install a denture. -->
+  <InstallDenture.description>安装义齿。</InstallDenture.description>
+  <!-- EN: Installing denture. -->
+  <InstallDenture.jobString>正在安装义齿。</InstallDenture.jobString>
+  
+  <!-- EN: install joywire -->
   <InstallJoywire.label>安装乐丝芯片</InstallJoywire.label>
+  <!-- EN: Install a joywire. -->
   <InstallJoywire.description>安装乐丝芯片。</InstallJoywire.description>
+  <!-- EN: Installing joywire. -->
   <InstallJoywire.jobString>正在安装乐丝芯片。</InstallJoywire.jobString>
-
+  
+  <!-- EN: install heart -->
+  <InstallNaturalHeart.label>植入心脏</InstallNaturalHeart.label>
+  <!-- EN: Install a biological heart. -->
+  <InstallNaturalHeart.description>将心脏植入身体。</InstallNaturalHeart.description>
+  <!-- EN: Installing heart. -->
+  <InstallNaturalHeart.jobString>正在植入心脏。</InstallNaturalHeart.jobString>
+  
+  <!-- EN: install kidney -->
+  <InstallNaturalKidney.label>植入肾脏</InstallNaturalKidney.label>
+  <!-- EN: Install a biological kidney. -->
+  <InstallNaturalKidney.description>将肾脏植入身体。</InstallNaturalKidney.description>
+  <!-- EN: Installing kidney. -->
+  <InstallNaturalKidney.jobString>正在植入肾脏。</InstallNaturalKidney.jobString>
+  
+  <!-- EN: install liver -->
+  <InstallNaturalLiver.label>植入肝脏</InstallNaturalLiver.label>
+  <!-- EN: Install a biological liver. -->
+  <InstallNaturalLiver.description>将肝脏植入身体。</InstallNaturalLiver.description>
+  <!-- EN: Installing liver. -->
+  <InstallNaturalLiver.jobString>正在植入肝脏。</InstallNaturalLiver.jobString>
+  
+  <!-- EN: install lung -->
+  <InstallNaturalLung.label>植入肺</InstallNaturalLung.label>
+  <!-- EN: Install a lung. -->
+  <InstallNaturalLung.description>将肺植入身体。</InstallNaturalLung.description>
+  <!-- EN: Installing lung. -->
+  <InstallNaturalLung.jobString>正在植入肺。</InstallNaturalLung.jobString>
+  
+  <!-- EN: install painstopper -->
   <InstallPainstopper.label>安装止痛芯片</InstallPainstopper.label>
+  <!-- EN: Install a painstopper. -->
   <InstallPainstopper.description>安装止痛芯片。</InstallPainstopper.description>
+  <!-- EN: Installing painstopper. -->
   <InstallPainstopper.jobString>正在安装止痛芯片。</InstallPainstopper.jobString>
-
-
-  <!--<InstallScytherBlade.label>安装飞螳镰刃</InstallScytherBlade.label>-->
-  <!--<InstallScytherBlade.description>安装飞螳镰刃。</InstallScytherBlade.description>-->
-  <!--<InstallScytherBlade.jobString>正在安装飞螳镰刃。</InstallScytherBlade.jobString>-->
-
+  
+  <!-- EN: install peg leg -->
+  <InstallPegLeg.label>安装木腿</InstallPegLeg.label>
+  <!-- EN: Install a peg leg. -->
+  <InstallPegLeg.description>安装木腿。</InstallPegLeg.description>
+  <!-- EN: Installing peg leg. -->
+  <InstallPegLeg.jobString>正在安装木腿。</InstallPegLeg.jobString>
+  
+  <!-- EN: install power claw -->
+  <InstallPowerClaw.label>安装动力爪</InstallPowerClaw.label>
+  <!-- EN: Install a power claw. -->
+  <InstallPowerClaw.description>安装动力爪。</InstallPowerClaw.description>
+  <!-- EN: Installing power claw. -->
+  <InstallPowerClaw.jobString>正在安装动力爪。</InstallPowerClaw.jobString>
+  
+  <!-- EN: install prosthetic arm -->
+  <InstallSimpleProstheticArm.label>安装简易的假臂</InstallSimpleProstheticArm.label>
+  <!-- EN: Install a prosthetic arm. -->
+  <InstallSimpleProstheticArm.description>安装简易的假臂。</InstallSimpleProstheticArm.description>
+  <!-- EN: Installing prosthetic arm. -->
+  <InstallSimpleProstheticArm.jobString>正在安装简易的假臂。</InstallSimpleProstheticArm.jobString>
+  
+  <!-- EN: install prosthetic heart -->
+  <InstallSimpleProstheticHeart.label>安装人工心脏</InstallSimpleProstheticHeart.label>
+  <!-- EN: Install a prosthetic heart. -->
+  <InstallSimpleProstheticHeart.description>安装人工心脏。</InstallSimpleProstheticHeart.description>
+  <!-- EN: Installing prosthetic heart. -->
+  <InstallSimpleProstheticHeart.jobString>正在安装人工心脏。</InstallSimpleProstheticHeart.jobString>
+  
+  <!-- EN: install prosthetic leg -->
+  <InstallSimpleProstheticLeg.label>安装简易的假腿</InstallSimpleProstheticLeg.label>
+  <!-- EN: Install a prosthetic leg. -->
+  <InstallSimpleProstheticLeg.description>安装简易的假腿。</InstallSimpleProstheticLeg.description>
+  <!-- EN: Installing prosthetic leg. -->
+  <InstallSimpleProstheticLeg.jobString>正在安装简易的假腿。</InstallSimpleProstheticLeg.jobString>
+  
+  <!-- EN: install wooden foot -->
+  <InstallWoodenFoot.label>安装木足</InstallWoodenFoot.label>
+  <!-- EN: Install a wooden foot. -->
+  <InstallWoodenFoot.description>安装木足。</InstallWoodenFoot.description>
+  <!-- EN: Installing wooden foot. -->
+  <InstallWoodenFoot.jobString>正在安装木足。</InstallWoodenFoot.jobString>
+  
 </LanguageData>

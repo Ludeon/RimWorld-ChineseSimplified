@@ -1,96 +1,81 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <Squirrel.label>松鼠</Squirrel.label>
-  <Squirrel.description>适应力强并且多才多艺的啮齿动物之一，随着人类被散布到宇宙的各个角落。</Squirrel.description>
-  <Squirrel.tools.0.label>左爪</Squirrel.tools.0.label>
-  <Squirrel.tools.1.label>右爪</Squirrel.tools.1.label>
-  <Squirrel.tools.3.label>头</Squirrel.tools.3.label>
-  <Squirrel_Leather.label>松鼠皮</Squirrel_Leather.label>
-  <Squirrel_Leather.description>松鼠皮</Squirrel_Leather.description>
-  <Squirrel_Leather.stuffProps.stuffAdjective>松鼠皮</Squirrel_Leather.stuffProps.stuffAdjective>
-  <Squirrel_Meat.label>松鼠肉</Squirrel_Meat.label>
-  <Squirrel_Meat.description>松鼠肉</Squirrel_Meat.description>
-  <Squirrel_Corpse.label>松鼠尸体</Squirrel_Corpse.label>
-  <Squirrel_Corpse.description>松鼠尸体</Squirrel_Corpse.description>
-
+  
+  <!-- EN: alphabeaver -->
   <Alphabeaver.label>阿尔法海狸</Alphabeaver.label>
+  <!-- EN: A large beaver-like creature genetically engineered to harvest wood with machine-like efficiency. In the absence of specialized feed, these animals will enter a manic state that compels them to eat trees whole, and are likely to attack if disturbed. -->
   <Alphabeaver.description>采用基因工程技术衍生出的一种大型海狸，用于伐木作业，具备机器般的效率。当缺乏专门的食物时，这些动物会进入狂躁状态，并不受控制地吃掉所有树木。</Alphabeaver.description>
-  <Alphabeaver.tools.0.label>左爪</Alphabeaver.tools.0.label>
-  <Alphabeaver.tools.1.label>右爪</Alphabeaver.tools.1.label>
-  <Alphabeaver.tools.3.label>头</Alphabeaver.tools.3.label>
-  <Alphabeaver_Leather.label>海狸皮</Alphabeaver_Leather.label>
-  <Alphabeaver_Leather.description>海狸皮</Alphabeaver_Leather.description>
-  <Alphabeaver_Leather.stuffProps.stuffAdjective>海狸皮</Alphabeaver_Leather.stuffProps.stuffAdjective>
-  <Alphabeaver_Meat.label>海狸肉</Alphabeaver_Meat.label>
-  <Alphabeaver_Meat.description>海狸肉</Alphabeaver_Meat.description>
-  <Alphabeaver_Corpse.label>海狸尸体</Alphabeaver_Corpse.label>
-  <Alphabeaver_Corpse.description>海狸尸体</Alphabeaver_Corpse.description>
-
-  <Capybara.label>水豚</Capybara.label>
-  <Capybara.description>最大的天然啮齿动物，水豚适合在热气腾腾的丛林中生活。</Capybara.description>
-  <Capybara.tools.0.label>左爪</Capybara.tools.0.label>
-  <Capybara.tools.1.label>右爪</Capybara.tools.1.label>
-  <Capybara.tools.3.label>头</Capybara.tools.3.label>
-  <Capybara_Leather.label>水豚皮</Capybara_Leather.label>
-  <Capybara_Leather.description>水豚皮</Capybara_Leather.description>
-  <Capybara_Leather.stuffProps.stuffAdjective>水豚皮</Capybara_Leather.stuffProps.stuffAdjective>
-  <Capybara_Meat.label>水豚肉</Capybara_Meat.label>
-  <Capybara_Meat.description>水豚肉</Capybara_Meat.description>
-  <Capybara_Corpse.label>水豚尸体</Capybara_Corpse.label>
-  <Capybara_Corpse.description>水豚尸体</Capybara_Corpse.description>
-
-  <Chinchilla.label>栗鼠</Chinchilla.label>
-  <Chinchilla.description>一个体小而敏捷的啮齿动物，以其异常柔软的毛皮而出名。</Chinchilla.description>
-  <Chinchilla.tools.0.label>左爪</Chinchilla.tools.0.label>
-  <Chinchilla.tools.1.label>右爪</Chinchilla.tools.1.label>
-  <Chinchilla.tools.3.label>头</Chinchilla.tools.3.label>
-  <Chinchilla_Leather.label>栗鼠皮</Chinchilla_Leather.label>
-  <Chinchilla_Leather.description>栗鼠皮</Chinchilla_Leather.description>
-  <Chinchilla_Leather.stuffProps.stuffAdjective>栗鼠皮</Chinchilla_Leather.stuffProps.stuffAdjective>
-  <Chinchilla_Meat.label>栗鼠肉</Chinchilla_Meat.label>
-  <Chinchilla_Meat.description>栗鼠肉</Chinchilla_Meat.description>
-  <Chinchilla_Corpse.label>栗鼠尸体</Chinchilla_Corpse.label>
-  <Chinchilla_Corpse.description>栗鼠尸体</Chinchilla_Corpse.description>
-
+  <!-- EN: left claw -->
+  <Alphabeaver.tools.left_claw.label>左爪</Alphabeaver.tools.left_claw.label>
+  <!-- EN: right claw -->
+  <Alphabeaver.tools.right_claw.label>右爪</Alphabeaver.tools.right_claw.label>
+  <!-- EN: head -->
+  <Alphabeaver.tools.head.label>头</Alphabeaver.tools.head.label>
+  
+  <!-- EN: boomrat -->
   <Boomrat.label>爆炸鼠</Boomrat.label>
+  <!-- EN: Either by deliberate genetic weaponization, or as an unusual defense mechanism, these rodent-like creatures create a powerful fire-starting explosion when killed. -->
   <Boomrat.description>不论是被蓄意的武器化基因改造，亦或是罕见的自卫机制，这种啮齿类生物在死亡时会产生威力能够引发火灾的巨大爆炸。</Boomrat.description>
-  <Boomrat.tools.0.label>左爪</Boomrat.tools.0.label>
-  <Boomrat.tools.1.label>右爪</Boomrat.tools.1.label>
-  <Boomrat.tools.3.label>头</Boomrat.tools.3.label>
-  <Boomrat_Leather.label>爆炸鼠皮</Boomrat_Leather.label>
-  <Boomrat_Leather.description>爆炸鼠皮</Boomrat_Leather.description>
-  <Boomrat_Leather.stuffProps.stuffAdjective>爆炸鼠皮</Boomrat_Leather.stuffProps.stuffAdjective>
-  <Boomrat_Meat.label>爆炸鼠肉</Boomrat_Meat.label>
-  <Boomrat_Meat.description>爆炸鼠肉</Boomrat_Meat.description>
-  <Boomrat_Corpse.label>爆炸鼠尸体</Boomrat_Corpse.label>
-  <Boomrat_Corpse.description>爆炸鼠尸体</Boomrat_Corpse.description>
-
+  <!-- EN: left claw -->
+  <Boomrat.tools.left_claw.label>左爪</Boomrat.tools.left_claw.label>
+  <!-- EN: right claw -->
+  <Boomrat.tools.right_claw.label>右爪</Boomrat.tools.right_claw.label>
+  <!-- EN: head -->
+  <Boomrat.tools.head.label>头</Boomrat.tools.head.label>
+  
+  <!-- EN: capybara -->
+  <Capybara.label>水豚</Capybara.label>
+  <!-- EN: The largest natural rodent, the capybara is well-adapted for steaming jungle environments. -->
+  <Capybara.description>最大的天然啮齿动物，水豚适合在热气腾腾的丛林中生活。</Capybara.description>
+  <!-- EN: left claw -->
+  <Capybara.tools.left_claw.label>左爪</Capybara.tools.left_claw.label>
+  <!-- EN: right claw -->
+  <Capybara.tools.right_claw.label>右爪</Capybara.tools.right_claw.label>
+  <!-- EN: head -->
+  <Capybara.tools.head.label>头</Capybara.tools.head.label>
+  
+  <!-- EN: chinchilla -->
+  <Chinchilla.label>栗鼠</Chinchilla.label>
+  <!-- EN: A small, nimble rodent. Its fur is softer than just about anything in the universe, making it very valuable as a trade good. -->
+  <Chinchilla.description>一个体小而敏捷的啮齿动物，以其异常柔软的毛皮而出名。</Chinchilla.description>
+  <!-- EN: left claw -->
+  <Chinchilla.tools.left_claw.label>左爪</Chinchilla.tools.left_claw.label>
+  <!-- EN: right claw -->
+  <Chinchilla.tools.right_claw.label>右爪</Chinchilla.tools.right_claw.label>
+  <!-- EN: head -->
+  <Chinchilla.tools.head.label>头</Chinchilla.tools.head.label>
+  
+  <!-- EN: raccoon -->
   <Raccoon.label>浣熊</Raccoon.label>
+  <!-- EN: A small, hardy animal that ranges wide across forests and shrubland. It is happy to break into your garbage container, or your kitchen, to eat almost anything. -->
   <Raccoon.description>一种生存能力很强的小型动物，广泛分布在森林和灌木林间。几乎什么都吃。</Raccoon.description>
-  <Raccoon.tools.0.label>左爪</Raccoon.tools.0.label>
-  <Raccoon.tools.1.label>右爪</Raccoon.tools.1.label>
-  <Raccoon.tools.3.label>头</Raccoon.tools.3.label>
-  <Raccoon_Leather.label>浣熊皮</Raccoon_Leather.label>
-  <Raccoon_Leather.description>浣熊皮</Raccoon_Leather.description>
-  <Raccoon_Leather.stuffProps.stuffAdjective>浣熊皮</Raccoon_Leather.stuffProps.stuffAdjective>
-  <Raccoon_Meat.label>浣熊肉</Raccoon_Meat.label>
-  <Raccoon_Meat.description>浣熊肉</Raccoon_Meat.description>
-  <Raccoon_Corpse.label>浣熊尸体</Raccoon_Corpse.label>
-  <Raccoon_Corpse.description>浣熊尸体</Raccoon_Corpse.description>
-
+  <!-- EN: left claw -->
+  <Raccoon.tools.left_claw.label>左爪</Raccoon.tools.left_claw.label>
+  <!-- EN: right claw -->
+  <Raccoon.tools.right_claw.label>右爪</Raccoon.tools.right_claw.label>
+  <!-- EN: head -->
+  <Raccoon.tools.head.label>头</Raccoon.tools.head.label>
+  
+  <!-- EN: rat -->
   <Rat.label>老鼠</Rat.label>
+  <!-- EN: A widely-hated rodent known for soiling kitchens and spreading disease, rats have a way of following humans everywhere they go. It eats almost anything and lives almost anywhere. -->
   <Rat.description>一种以污染厨房及传播疾病而闻名的啮齿动物。几乎什么都吃，几乎在哪都能生存下来。</Rat.description>
-  <Rat.tools.0.label>左爪</Rat.tools.0.label>
-  <Rat.tools.1.label>右爪</Rat.tools.1.label>
-  <Rat.tools.3.label>头</Rat.tools.3.label>
-  <Rat_Leather.label>老鼠皮</Rat_Leather.label>
-  <Rat_Leather.description>老鼠皮</Rat_Leather.description>
-  <Rat_Leather.stuffProps.stuffAdjective>老鼠皮</Rat_Leather.stuffProps.stuffAdjective>
-  <Rat_Meat.label>老鼠肉</Rat_Meat.label>
-  <Rat_Meat.description>老鼠肉</Rat_Meat.description>
-  <Rat_Corpse.label>老鼠尸体</Rat_Corpse.label>
-  <Rat_Corpse.description>老鼠尸体</Rat_Corpse.description>
-
-
+  <!-- EN: left claw -->
+  <Rat.tools.left_claw.label>左爪</Rat.tools.left_claw.label>
+  <!-- EN: right claw -->
+  <Rat.tools.right_claw.label>右爪</Rat.tools.right_claw.label>
+  <!-- EN: head -->
+  <Rat.tools.head.label>头</Rat.tools.head.label>
+  
+  <!-- EN: squirrel -->
+  <Squirrel.label>松鼠</Squirrel.label>
+  <!-- EN: One of the many hardy rodent species that follows humankind everywhere it spreads. Squirrels are distinguished by their bushy tails, which they use as umbrellas in bad weather. -->
+  <Squirrel.description>适应力强并且多才多艺的啮齿动物之一，随着人类被散布到宇宙的各个角落。</Squirrel.description>
+  <!-- EN: left claw -->
+  <Squirrel.tools.left_claw.label>左爪</Squirrel.tools.left_claw.label>
+  <!-- EN: right claw -->
+  <Squirrel.tools.right_claw.label>右爪</Squirrel.tools.right_claw.label>
+  <!-- EN: head -->
+  <Squirrel.tools.head.label>头</Squirrel.tools.head.label>
+  
 </LanguageData>

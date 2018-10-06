@@ -1,44 +1,116 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <MasochistPain.stages.0.label>身上有点疼（受虐狂）</MasochistPain.stages.0.label>
-  <MasochistPain.stages.0.description>嗷……嘿嘿嘿……我会习惯的！</MasochistPain.stages.0.description>
-  <MasochistPain.stages.1.label>身上比较疼（受虐狂）</MasochistPain.stages.1.label>
-  <MasochistPain.stages.1.description>啊呀……有点疼，但是我喜欢，继续！</MasochistPain.stages.1.description>
-  <MasochistPain.stages.2.label>身上非常疼（受虐狂）</MasochistPain.stages.2.label>
-  <MasochistPain.stages.2.description>嗷啊……我觉什么地方断了……但是这个感觉真的美好！</MasochistPain.stages.2.description>
-  <MasochistPain.stages.3.label>疼得要昏厥了（受虐狂）</MasochistPain.stages.3.label>
-  <MasochistPain.stages.3.description>啊啊啊！我在天堂了吗？</MasochistPain.stages.3.description>
-
-  <ProsthophileNoProsthetic.stages.0.label>超人类主义者缺少假体</ProsthophileNoProsthetic.stages.0.label>
-  <ProsthophileNoProsthetic.stages.0.description>肉体是如此脆弱，我希望拥有人造的身体部件。</ProsthophileNoProsthetic.stages.0.description>
-
-  <ProsthophileHappy.stages.0.label>超人类主义者拥有假体</ProsthophileHappy.stages.0.label>
-  <ProsthophileHappy.stages.0.description>这个人造部件很酷，我想要更多。</ProsthophileHappy.stages.0.description>
-  <ProsthophileHappy.stages.1.label>超人类主义者拥有假体（2个）</ProsthophileHappy.stages.1.label>
-  <ProsthophileHappy.stages.1.description>两个人造部件比一个好，我希望有更多。</ProsthophileHappy.stages.1.description>
-  <ProsthophileHappy.stages.2.label>超人类主义者拥有假体（3个）</ProsthophileHappy.stages.2.label>
-  <ProsthophileHappy.stages.2.description>三个人造部件，它们正在取代脆弱的人类肉体。但我仍然渴望更多机械的力量。</ProsthophileHappy.stages.2.description>
-  <ProsthophileHappy.stages.3.label>超人类主义者拥有假体（4个）</ProsthophileHappy.stages.3.label>
-  <ProsthophileHappy.stages.3.description>四个人造部件， 这让我超越人类。但仍有一些肉体需要更换。</ProsthophileHappy.stages.3.description>
-  <ProsthophileHappy.stages.4.label>超人类主义者拥有假体（5个）</ProsthophileHappy.stages.4.label>
-  <ProsthophileHappy.stages.4.description>五个人造部件！ 像我这样的超人类怎么会难过？</ProsthophileHappy.stages.4.description>
-  <ProsthophileHappy.stages.5.label>超人类主义者拥有假体（多个）</ProsthophileHappy.stages.5.label>
-  <ProsthophileHappy.stages.5.description>正如我愿。</ProsthophileHappy.stages.5.description>
-
-  <ProsthophobeUnhappy.stages.0.label>身体纯粹主义者拥有假体</ProsthophobeUnhappy.stages.0.label>
-  <ProsthophobeUnhappy.stages.0.description>我讨厌身上有这种不自然的，肮脏的东西！</ProsthophobeUnhappy.stages.0.description>
-  <ProsthophobeUnhappy.stages.1.label>身体纯粹主义者拥有假体（2个）</ProsthophobeUnhappy.stages.1.label>
-  <ProsthophobeUnhappy.stages.1.description>两个人造部件正在玷污纯净的身体，这让我觉得不舒服。</ProsthophobeUnhappy.stages.1.description>
-  <ProsthophobeUnhappy.stages.2.label>身体纯粹主义者拥有假体（3个）</ProsthophobeUnhappy.stages.2.label>
-  <ProsthophobeUnhappy.stages.2.description>三个人造部件侵犯着我的肉体。想起这些，我就会不寒而栗……而这些东西也和我一起颤抖，天啊！</ProsthophobeUnhappy.stages.2.description>
-  <ProsthophobeUnhappy.stages.3.label>身体纯粹主义者拥有假体（4个）</ProsthophobeUnhappy.stages.3.label>
-  <ProsthophobeUnhappy.stages.3.description>拥有四个人造部件的我仿佛正在成为一个机器人。太可怕了！</ProsthophobeUnhappy.stages.3.description>
-  <ProsthophobeUnhappy.stages.4.label>身体纯粹主义者拥有假体（5个）</ProsthophobeUnhappy.stages.4.label>
-  <ProsthophobeUnhappy.stages.4.description>五个人造部件……我还剩下什么？或者我只是个贴着人类标签的机器人？</ProsthophobeUnhappy.stages.4.description>
-  <ProsthophobeUnhappy.stages.5.label>身体纯粹主义者拥有假体（多个）</ProsthophobeUnhappy.stages.5.label>
-  <ProsthophobeUnhappy.stages.5.description>我的意愿被践踏。不！！！</ProsthophobeUnhappy.stages.5.description>
-
+  
+  <!-- EN: ascetic has awful bedroom -->
+  <Ascetic.stages.ascetic_has_awful_bedroom.label>可怕的卧室（苦行者）</Ascetic.stages.ascetic_has_awful_bedroom.label>
+  <!-- EN: My bedroom is just how I want it to be. Very humble and simple. -->
+  <Ascetic.stages.ascetic_has_awful_bedroom.description>我的卧室就应该是这个样子，简单，虔诚。</Ascetic.stages.ascetic_has_awful_bedroom.description>
+  <!-- EN: ascetic has repulsive bedroom -->
+  <Ascetic.stages.ascetic_has_repulsive_bedroom.label>丑陋的卧室（苦行者）</Ascetic.stages.ascetic_has_repulsive_bedroom.label>
+  <!-- EN: My bedroom is just how I want it to be. Very humble and simple. -->
+  <Ascetic.stages.ascetic_has_repulsive_bedroom.description>我的卧室就应该是这个样子，简单，虔诚。</Ascetic.stages.ascetic_has_repulsive_bedroom.description>
+  <!-- EN: ascetic has dull bedroom -->
+  <Ascetic.stages.ascetic_has_dull_bedroom.label>乏味的卧室（苦行者）</Ascetic.stages.ascetic_has_dull_bedroom.label>
+  <!-- EN: My bedroom is very humble and simple. I like it. -->
+  <Ascetic.stages.ascetic_has_dull_bedroom.description>我的卧室简单又虔诚，我喜欢。</Ascetic.stages.ascetic_has_dull_bedroom.description>
+  <!-- EN: ascetic has impressive bedroom -->
+  <Ascetic.stages.ascetic_has_impressive_bedroom-0.label>令人印象深刻的卧室（苦行者）</Ascetic.stages.ascetic_has_impressive_bedroom-0.label>
+  <!-- EN: I don't like having an impressive bedroom. -->
+  <Ascetic.stages.ascetic_has_impressive_bedroom-0.description>我不喜欢令人印象深刻的卧室。</Ascetic.stages.ascetic_has_impressive_bedroom-0.description>
+  <!-- EN: ascetic has impressive bedroom -->
+  <Ascetic.stages.ascetic_has_impressive_bedroom-1.label>令人印象深刻的卧室（苦行者）</Ascetic.stages.ascetic_has_impressive_bedroom-1.label>
+  <!-- EN: I don't like having an impressive bedroom. -->
+  <Ascetic.stages.ascetic_has_impressive_bedroom-1.description>我不喜欢令人印象深刻的卧室。</Ascetic.stages.ascetic_has_impressive_bedroom-1.description>
+  <!-- EN: ascetic has impressive bedroom -->
+  <Ascetic.stages.ascetic_has_impressive_bedroom-2.label>令人印象深刻的卧室（苦行者）</Ascetic.stages.ascetic_has_impressive_bedroom-2.label>
+  <!-- EN: I don't like having an impressive bedroom. -->
+  <Ascetic.stages.ascetic_has_impressive_bedroom-2.description>我不喜欢令人印象深刻的卧室。</Ascetic.stages.ascetic_has_impressive_bedroom-2.description>
+  <!-- EN: ascetic has impressive bedroom -->
+  <Ascetic.stages.ascetic_has_impressive_bedroom-3.label>令人印象深刻的卧室（苦行者）</Ascetic.stages.ascetic_has_impressive_bedroom-3.label>
+  <!-- EN: I don't like having an impressive bedroom. -->
+  <Ascetic.stages.ascetic_has_impressive_bedroom-3.description>我不喜欢令人印象深刻的卧室。</Ascetic.stages.ascetic_has_impressive_bedroom-3.description>
+  <!-- EN: ascetic has impressive bedroom -->
+  <Ascetic.stages.ascetic_has_impressive_bedroom-4.label>令人印象深刻的卧室（苦行者）</Ascetic.stages.ascetic_has_impressive_bedroom-4.label>
+  <!-- EN: I don't like having an impressive bedroom. -->
+  <Ascetic.stages.ascetic_has_impressive_bedroom-4.description>我不喜欢令人印象深刻的卧室。</Ascetic.stages.ascetic_has_impressive_bedroom-4.description>
+  <!-- EN: ascetic has impressive bedroom -->
+  <Ascetic.stages.ascetic_has_impressive_bedroom-5.label>令人印象深刻的卧室（苦行者）</Ascetic.stages.ascetic_has_impressive_bedroom-5.label>
+  <!-- EN: I don't like having an impressive bedroom. -->
+  <Ascetic.stages.ascetic_has_impressive_bedroom-5.description>我不喜欢令人印象深刻的卧室。</Ascetic.stages.ascetic_has_impressive_bedroom-5.description>
+  <!-- EN: ascetic has impressive bedroom -->
+  <Ascetic.stages.ascetic_has_impressive_bedroom-6.label>令人印象深刻的卧室（苦行者）</Ascetic.stages.ascetic_has_impressive_bedroom-6.label>
+  <!-- EN: I don't like having an impressive bedroom. -->
+  <Ascetic.stages.ascetic_has_impressive_bedroom-6.description>我不喜欢令人印象深刻的卧室。</Ascetic.stages.ascetic_has_impressive_bedroom-6.description>
+  
+  <!-- EN: brawler has ranged weapon -->
+  <BrawlerUnhappy.stages.brawler_has_ranged_weapon.label>格斗者持有远程武器</BrawlerUnhappy.stages.brawler_has_ranged_weapon.label>
+  <!-- EN: I hate shooting from a distance. I want to get up close and personal! -->
+  <BrawlerUnhappy.stages.brawler_has_ranged_weapon.description>我可讨厌远程攻击敌人了。我想和敌人正面单挑！</BrawlerUnhappy.stages.brawler_has_ranged_weapon.description>
+  
+  <!-- EN: constraining clothes -->
+  <ClothedNudist.stages.constraining_clothes.label>衣物束缚</ClothedNudist.stages.constraining_clothes.label>
+  <!-- EN: I'm a nudist but I have to wear these clothes. It's not unbearable - but I still feel constrained and uncomfortable. -->
+  <ClothedNudist.stages.constraining_clothes.description>我崇尚裸体主义，但是我却不得不穿着衣服。虽然能勉强忍受，但我就是觉得浑身难受也不自由。</ClothedNudist.stages.constraining_clothes.description>
+  
+  <!-- EN: greedy for impressive bedroom -->
+  <Greedy.stages.greedy_for_impressive_bedroom-0.label>没有令人印象深刻的卧室（贪心）</Greedy.stages.greedy_for_impressive_bedroom-0.label>
+  <!-- EN: I'm greedy. I want a really impressive bedroom. -->
+  <Greedy.stages.greedy_for_impressive_bedroom-0.description>我很贪婪。我想要一间真正令人印象深刻的卧室。</Greedy.stages.greedy_for_impressive_bedroom-0.description>
+  <!-- EN: greedy for impressive bedroom -->
+  <Greedy.stages.greedy_for_impressive_bedroom-1.label>没有令人印象深刻的卧室（贪心）</Greedy.stages.greedy_for_impressive_bedroom-1.label>
+  <!-- EN: I'm greedy. My room is pathetic! I want a really impressive bedroom. -->
+  <Greedy.stages.greedy_for_impressive_bedroom-1.description>我很贪婪。我的房间很可怜！我想要一间真正令人印象深刻的卧室。</Greedy.stages.greedy_for_impressive_bedroom-1.description>
+  <!-- EN: greedy for impressive bedroom -->
+  <Greedy.stages.greedy_for_impressive_bedroom-2.label>没有令人印象深刻的卧室（贪心）</Greedy.stages.greedy_for_impressive_bedroom-2.label>
+  <!-- EN: I'm greedy. My room isn't nearly good enough. I want a really impressive bedroom. -->
+  <Greedy.stages.greedy_for_impressive_bedroom-2.description>我很贪婪。我的房间很不好。我想要一间真正令人印象深刻的卧室。</Greedy.stages.greedy_for_impressive_bedroom-2.description>
+  <!-- EN: greedy for impressive bedroom -->
+  <Greedy.stages.greedy_for_impressive_bedroom-3.label>没有令人印象深刻的卧室（贪心）</Greedy.stages.greedy_for_impressive_bedroom-3.label>
+  <!-- EN: I'm greedy. My room isn't good enough. I want a really impressive bedroom. -->
+  <Greedy.stages.greedy_for_impressive_bedroom-3.description>我很贪婪。我的房间不够好。我想要一间真正令人印象深刻的卧室。</Greedy.stages.greedy_for_impressive_bedroom-3.description>
+  <!-- EN: greedy for impressive bedroom -->
+  <Greedy.stages.greedy_for_impressive_bedroom-4.label>没有令人印象深刻的卧室（贪心）</Greedy.stages.greedy_for_impressive_bedroom-4.label>
+  <!-- EN: I'm greedy. My room isn't quite good enough. I want a really impressive bedroom. -->
+  <Greedy.stages.greedy_for_impressive_bedroom-4.description>我很贪婪。我的房间还是不够好。我想要一间真正令人印象深刻的卧室。</Greedy.stages.greedy_for_impressive_bedroom-4.description>
+  
+  <!-- EN: happily nude -->
+  <HappyNude.stages.happily_nude.label>快乐的裸体</HappyNude.stages.happily_nude.label>
+  <!-- EN: I'm nude and loving it! I feel so free and unconstrained and in touch with my surroundings! -->
+  <HappyNude.stages.happily_nude.description>我裸体我快乐！我感到如此的自由和不受约束，感受到与四周环境的紧密结合！</HappyNude.stages.happily_nude.description>
+  
+  <!-- EN: jealous of {0}'s bedroom -->
+  <Jealous.stages.jealous_of_s_bedroom.label>妒忌{0}的卧室</Jealous.stages.jealous_of_s_bedroom.label>
+  <!-- EN: I need to have the best one! -->
+  <Jealous.stages.jealous_of_s_bedroom.description>我要有最好的卧室。</Jealous.stages.jealous_of_s_bedroom.description>
+  
+  <!-- EN: masochist in minor pain -->
+  <MasochistPain.stages.masochist_in_minor_pain.label>身上有点疼（受虐狂）</MasochistPain.stages.masochist_in_minor_pain.label>
+  <!-- EN: Ow... Heh heh heh... I could get used to this! -->
+  <MasochistPain.stages.masochist_in_minor_pain.description>嗷……嘿嘿嘿……我会习惯的！</MasochistPain.stages.masochist_in_minor_pain.description>
+  <!-- EN: masochist in serious pain -->
+  <MasochistPain.stages.masochist_in_serious_pain.label>身上比较疼（受虐狂）</MasochistPain.stages.masochist_in_serious_pain.label>
+  <!-- EN: Ughhh... It hurts, but I love it! Keep it coming! -->
+  <MasochistPain.stages.masochist_in_serious_pain.description>啊呀……有点疼，但是我喜欢，继续！</MasochistPain.stages.masochist_in_serious_pain.description>
+  <!-- EN: masochist in intense pain -->
+  <MasochistPain.stages.masochist_in_intense_pain.label>身上非常疼（受虐狂）</MasochistPain.stages.masochist_in_intense_pain.label>
+  <!-- EN: Ouch... I think something's broken... But what an exquisite feeling! -->
+  <MasochistPain.stages.masochist_in_intense_pain.description>嗷啊……我觉什么地方断了……但是这个感觉真的美好！</MasochistPain.stages.masochist_in_intense_pain.description>
+  <!-- EN: masochist in mind-shattering pain -->
+  <MasochistPain.stages.masochist_in_mindshattering_pain.label>疼得要昏厥了（受虐狂）</MasochistPain.stages.masochist_in_mindshattering_pain.label>
+  <!-- EN: Ahhh... Am I in heaven? -->
+  <MasochistPain.stages.masochist_in_mindshattering_pain.description>啊啊啊！我在天堂了吗？</MasochistPain.stages.masochist_in_mindshattering_pain.description>
+  
+  <!-- EN: night owl in daytime -->
+  <NightOwlDuringTheDay.stages.night_owl_in_daytime.label>夜猫子（白天）</NightOwlDuringTheDay.stages.night_owl_in_daytime.label>
+  <!-- EN: I don't like working during the day. -->
+  <NightOwlDuringTheDay.stages.night_owl_in_daytime.description>我不喜欢在白天干活。</NightOwlDuringTheDay.stages.night_owl_in_daytime.description>
+  
+  <!-- EN: night owl at night -->
+  <NightOwlDuringTheNight.stages.night_owl_at_night.label>夜猫子（晚上）</NightOwlDuringTheNight.stages.night_owl_at_night.label>
+  <!-- EN: I feel much better at night. -->
+  <NightOwlDuringTheNight.stages.night_owl_at_night.description>晚上我感觉好多了。</NightOwlDuringTheNight.stages.night_owl_at_night.description>
+  
+  <!-- UNUSED -->
   <NonProsthophileHasAddedBodyParts.stages.1.label>拥有假体（2个）</NonProsthophileHasAddedBodyParts.stages.1.label>
   <NonProsthophileHasAddedBodyParts.stages.1.description>一个人造部件没问题，但两个就令人烦恼了。我怀念曾经自然干净的身体。</NonProsthophileHasAddedBodyParts.stages.1.description>
   <NonProsthophileHasAddedBodyParts.stages.2.label>拥有假体（3个）</NonProsthophileHasAddedBodyParts.stages.2.label>
@@ -49,59 +121,65 @@
   <NonProsthophileHasAddedBodyParts.stages.4.description>五个人造部件太多了。就好像我变成了一个机器人。</NonProsthophileHasAddedBodyParts.stages.4.description>
   <NonProsthophileHasAddedBodyParts.stages.5.label>拥有假体（多个）</NonProsthophileHasAddedBodyParts.stages.5.label>
   <NonProsthophileHasAddedBodyParts.stages.5.description>事与愿违。</NonProsthophileHasAddedBodyParts.stages.5.description>
-
-  <BrawlerUnhappy.stages.0.label>格斗者持有远程武器</BrawlerUnhappy.stages.0.label>
-  <BrawlerUnhappy.stages.0.description>我可讨厌远程攻击敌人了。我想和敌人正面单挑！</BrawlerUnhappy.stages.0.description>
-
-  <PyromaniacHappy.stages.0.label>纵火狂持有燃烧武器</PyromaniacHappy.stages.0.label>
-  <PyromaniacHappy.stages.0.description>这让我想起了激情与火焰。我很开心。</PyromaniacHappy.stages.0.description>
-
-  <ClothedNudist.stages.0.label>衣物束缚</ClothedNudist.stages.0.label>
-  <ClothedNudist.stages.0.description>我崇尚裸体主义，但是我却不得不穿着衣服。虽然能勉强忍受，但我就是觉得浑身难受也不自由。</ClothedNudist.stages.0.description>
-
-  <HappyNude.stages.0.label>快乐的裸体</HappyNude.stages.0.label>
-  <HappyNude.stages.0.description>我裸体我快乐！我感到如此的自由和不受约束，感受到与四周环境的紧密结合！</HappyNude.stages.0.description>
-
-  <NightOwlDuringTheDay.stages.0.label>夜猫子（白天）</NightOwlDuringTheDay.stages.0.label>
-  <NightOwlDuringTheDay.stages.0.description>我不喜欢在白天干活。</NightOwlDuringTheDay.stages.0.description>
-
-  <NightOwlDuringTheNight.stages.0.label>夜猫子（晚上）</NightOwlDuringTheNight.stages.0.label>
-  <NightOwlDuringTheNight.stages.0.description>晚上我感觉好多了。</NightOwlDuringTheNight.stages.0.description>
-
-  <Greedy.stages.0.label>没有令人印象深刻的卧室（贪心）</Greedy.stages.0.label>
-  <Greedy.stages.0.description>我很贪婪。我想要一间真正令人印象深刻的卧室。</Greedy.stages.0.description>
-  <Greedy.stages.1.label>没有令人印象深刻的卧室（贪心）</Greedy.stages.1.label>
-  <Greedy.stages.1.description>我很贪婪。我的房间很可怜！我想要一间真正令人印象深刻的卧室。</Greedy.stages.1.description>
-  <Greedy.stages.2.label>没有令人印象深刻的卧室（贪心）</Greedy.stages.2.label>
-  <Greedy.stages.2.description>我很贪婪。我的房间很不好。我想要一间真正令人印象深刻的卧室。</Greedy.stages.2.description>
-  <Greedy.stages.3.label>没有令人印象深刻的卧室（贪心）</Greedy.stages.3.label>
-  <Greedy.stages.3.description>我很贪婪。我的房间不够好。我想要一间真正令人印象深刻的卧室。</Greedy.stages.3.description>
-  <Greedy.stages.4.label>没有令人印象深刻的卧室（贪心）</Greedy.stages.4.label>
-  <Greedy.stages.4.description>我很贪婪。我的房间还是不够好。我想要一间真正令人印象深刻的卧室。</Greedy.stages.4.description>
-
-  <Jealous.stages.0.label>妒忌{0}的卧室</Jealous.stages.0.label>
-  <Jealous.stages.0.description>我要有最好的卧室。</Jealous.stages.0.description>
-
-  <Ascetic.stages.0.label>可怕的卧室（苦行者）</Ascetic.stages.0.label>
-  <Ascetic.stages.0.description>我的卧室就应该是这个样子，简单，虔诚。</Ascetic.stages.0.description>
-  <Ascetic.stages.1.label>丑陋的卧室（苦行者）</Ascetic.stages.1.label>
-  <Ascetic.stages.1.description>我的卧室就应该是这个样子，简单，虔诚。</Ascetic.stages.1.description>
-  <Ascetic.stages.2.label>乏味的卧室（苦行者）</Ascetic.stages.2.label>
-  <Ascetic.stages.2.description>我的卧室简单又虔诚，我喜欢。</Ascetic.stages.2.description>
-  <Ascetic.stages.5.label>令人印象深刻的卧室（苦行者）</Ascetic.stages.5.label>
-  <Ascetic.stages.5.description>我不喜欢令人印象深刻的卧室。</Ascetic.stages.5.description>
-  <Ascetic.stages.6.label>令人印象深刻的卧室（苦行者）</Ascetic.stages.6.label>
-  <Ascetic.stages.6.description>我不喜欢令人印象深刻的卧室。</Ascetic.stages.6.description>
-  <Ascetic.stages.7.label>令人印象深刻的卧室（苦行者）</Ascetic.stages.7.label>
-  <Ascetic.stages.7.description>我不喜欢令人印象深刻的卧室。</Ascetic.stages.7.description>
-  <Ascetic.stages.8.label>令人印象深刻的卧室（苦行者）</Ascetic.stages.8.label>
-  <Ascetic.stages.8.description>我不喜欢令人印象深刻的卧室。</Ascetic.stages.8.description>
-  <Ascetic.stages.9.label>令人印象深刻的卧室（苦行者）</Ascetic.stages.9.label>
-  <Ascetic.stages.9.description>我不喜欢令人印象深刻的卧室。</Ascetic.stages.9.description>
-  <Ascetic.stages.10.label>令人印象深刻的卧室（苦行者）</Ascetic.stages.10.label>
-  <Ascetic.stages.10.description>我不喜欢令人印象深刻的卧室。</Ascetic.stages.10.description>
-  <Ascetic.stages.11.label>令人印象深刻的卧室（苦行者）</Ascetic.stages.11.label>
-  <Ascetic.stages.11.description>我不喜欢令人印象深刻的卧室。</Ascetic.stages.11.description>
-
-
+  
+  <!-- EN: transhumanist pleased -->
+  <ProsthophileHappy.stages.transhumanist_pleased.label>超人类主义者拥有假体</ProsthophileHappy.stages.transhumanist_pleased.label>
+  <!-- EN: This artificial part is cool. I want more. -->
+  <ProsthophileHappy.stages.transhumanist_pleased.description>这个人造部件很酷，我想要更多。</ProsthophileHappy.stages.transhumanist_pleased.description>
+  <!-- EN: transhumanist quite pleased -->
+  <ProsthophileHappy.stages.transhumanist_quite_pleased.label>超人类主义者拥有假体（2个）</ProsthophileHappy.stages.transhumanist_quite_pleased.label>
+  <!-- EN: Two artificial parts are better than one. I wish I had more. -->
+  <ProsthophileHappy.stages.transhumanist_quite_pleased.description>两个人造部件比一个好，我希望有更多。</ProsthophileHappy.stages.transhumanist_quite_pleased.description>
+  <!-- EN: transhumanist delighted -->
+  <ProsthophileHappy.stages.transhumanist_delighted.label>超人类主义者拥有假体（3个）</ProsthophileHappy.stages.transhumanist_delighted.label>
+  <!-- EN: Three artificial parts, and my weak human flesh is receding. But I still want more machine power. -->
+  <ProsthophileHappy.stages.transhumanist_delighted.description>三个人造部件，它们正在取代脆弱的人类肉体。但我仍然渴望更多机械的力量。</ProsthophileHappy.stages.transhumanist_delighted.description>
+  <!-- EN: transhumanist enchanted -->
+  <ProsthophileHappy.stages.transhumanist_enchanted.label>超人类主义者拥有假体（4个）</ProsthophileHappy.stages.transhumanist_enchanted.label>
+  <!-- EN: Four artificial body parts and I am becoming more than human. But there's still some flesh that needs replacing. -->
+  <ProsthophileHappy.stages.transhumanist_enchanted.description>四个人造部件，这让我超越人类。但仍有一些肉体需要更换。</ProsthophileHappy.stages.transhumanist_enchanted.description>
+  <!-- EN: transhumanist overjoyed -->
+  <ProsthophileHappy.stages.transhumanist_overjoyed.label>超人类主义者拥有假体（5个）</ProsthophileHappy.stages.transhumanist_overjoyed.label>
+  <!-- EN: Five artificial body parts! How could an enhanced being like me ever feel sad? -->
+  <ProsthophileHappy.stages.transhumanist_overjoyed.description>五个人造部件！像我这样的超人类怎么会难过？</ProsthophileHappy.stages.transhumanist_overjoyed.description>
+  <!-- EN: machine body is complete -->
+  <ProsthophileHappy.stages.machine_body_is_complete.label>超人类主义者拥有假体（多个）</ProsthophileHappy.stages.machine_body_is_complete.label>
+  <!-- EN: I asked for this. -->
+  <ProsthophileHappy.stages.machine_body_is_complete.description>正如我愿。</ProsthophileHappy.stages.machine_body_is_complete.description>
+  
+  <!-- EN: transhumanist frustrated -->
+  <ProsthophileNoProsthetic.stages.transhumanist_frustrated.label>超人类主义者缺少假体</ProsthophileNoProsthetic.stages.transhumanist_frustrated.label>
+  <!-- EN: Flesh is so limiting. I wish I had some kind of artificial body part. -->
+  <ProsthophileNoProsthetic.stages.transhumanist_frustrated.description>肉体是如此脆弱，我希望拥有人造的身体部件。</ProsthophileNoProsthetic.stages.transhumanist_frustrated.description>
+  
+  <!-- EN: body purist squeamish -->
+  <ProsthophobeUnhappy.stages.body_purist_squeamish.label>身体纯粹主义者拥有假体</ProsthophobeUnhappy.stages.body_purist_squeamish.label>
+  <!-- EN: I hate having this unnatural thing attached to me. It feels so filthy! -->
+  <ProsthophobeUnhappy.stages.body_purist_squeamish.description>我讨厌身上有这种不自然的，肮脏的东西！</ProsthophobeUnhappy.stages.body_purist_squeamish.description>
+  <!-- EN: body purist disgusted -->
+  <ProsthophobeUnhappy.stages.body_purist_disgusted.label>身体纯粹主义者拥有假体（2个）</ProsthophobeUnhappy.stages.body_purist_disgusted.label>
+  <!-- EN: Two artificial parts are sullying my natural, pure body. It makes me sick to think of it. -->
+  <ProsthophobeUnhappy.stages.body_purist_disgusted.description>两个人造部件正在玷污纯净的身体，这让我觉得不舒服。</ProsthophobeUnhappy.stages.body_purist_disgusted.description>
+  <!-- EN: body purist violated -->
+  <ProsthophobeUnhappy.stages.body_purist_violated.label>身体纯粹主义者拥有假体（3个）</ProsthophobeUnhappy.stages.body_purist_violated.label>
+  <!-- EN: Three artificial parts violate my body's pure flesh. I shudder when I think of it... and these objects shudder with me. -->
+  <ProsthophobeUnhappy.stages.body_purist_violated.description>三个人造部件侵犯着我的肉体。想起这些，我就会不寒而栗……而这些东西也和我一起颤抖，天啊！</ProsthophobeUnhappy.stages.body_purist_violated.description>
+  <!-- EN: body purist horrified -->
+  <ProsthophobeUnhappy.stages.body_purist_horrified.label>身体纯粹主义者拥有假体（4个）</ProsthophobeUnhappy.stages.body_purist_horrified.label>
+  <!-- EN: I have four artificial body parts; it's like I'm becoming a robot. What a horrifying sensation. -->
+  <ProsthophobeUnhappy.stages.body_purist_horrified.description>拥有四个人造部件的我仿佛正在成为一个机器人。太可怕了！</ProsthophobeUnhappy.stages.body_purist_horrified.description>
+  <!-- EN: body purist nightmare -->
+  <ProsthophobeUnhappy.stages.body_purist_nightmare.label>身体纯粹主义者拥有假体（5个）</ProsthophobeUnhappy.stages.body_purist_nightmare.label>
+  <!-- EN: Five artificial body parts... Is there anything left of me? Or am I just a robot that thinks it's human? -->
+  <ProsthophobeUnhappy.stages.body_purist_nightmare.description>五个人造部件……我还剩下什么？或者我只是个贴着人类标签的机器人？</ProsthophobeUnhappy.stages.body_purist_nightmare.description>
+  <!-- EN: I have become what I hate -->
+  <ProsthophobeUnhappy.stages.I_have_become_what_I_hate.label>身体纯粹主义者拥有假体（多个）</ProsthophobeUnhappy.stages.I_have_become_what_I_hate.label>
+  <!-- EN: I asked for the exact opposite of this! -->
+  <ProsthophobeUnhappy.stages.I_have_become_what_I_hate.description>我的意愿被践踏。不！！！</ProsthophobeUnhappy.stages.I_have_become_what_I_hate.description>
+  
+  <!-- EN: pyromaniac has incendiary weapon -->
+  <PyromaniacHappy.stages.pyromaniac_has_incendiary_weapon.label>纵火狂持有燃烧武器</PyromaniacHappy.stages.pyromaniac_has_incendiary_weapon.label>
+  <!-- EN: It makes me think of flame and fire. I'm so happy. -->
+  <PyromaniacHappy.stages.pyromaniac_has_incendiary_weapon.description>这让我想起了激情与火焰。我很开心。</PyromaniacHappy.stages.pyromaniac_has_incendiary_weapon.description>
+  
 </LanguageData>

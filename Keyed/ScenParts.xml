@@ -1,45 +1,66 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
   <!-- ======================== Non-grouped ========================-->
-
+  
+  <!-- EN: Your faction will be a {0}. -->
   <ScenPart_PlayerFaction>玩家派系: {0}</ScenPart_PlayerFaction>
 
+  <!-- EN: Start with {0} people, chosen from {1}. -->
   <ScenPart_StartWithPawns>开局人数: {0}，候选人数: {1}</ScenPart_StartWithPawns>
+  <!-- EN: chosen from -->
   <ScenPart_StartWithPawns_OutOf>候选人数</ScenPart_StartWithPawns_OutOf>
+  <!-- EN: random pet -->
   <RandomPet>随机宠物</RandomPet>
 
+  <!-- EN: Start with research: {0} -->
   <ScenPart_StartingResearchFinished>开局科技: {0}</ScenPart_StartingResearchFinished>
-
+  
+  <!-- EN: Arrive in drop pods. -->
   <ScenPart_ArriveInDropPods>以空投方式抵达。</ScenPart_ArriveInDropPods>
 
+  <!-- EN: The stat "{0}" will be universally multiplied by {1}. -->
   <ScenPart_StatFactor>属性「{0}」全局乘以{1}。</ScenPart_StatFactor>
 
-
   <!-- Pawn modifiers -->
+  <!-- EN: {0} have a {1} chance to start with {2}. -->
   <ScenPart_PawnsHaveHediff>{0}有{1}几率患有疾病: {2}。</ScenPart_PawnsHaveHediff>
+  <!-- EN: severity: {0} -->
   <ConfigurableSeverity>严重程度: {0}</ConfigurableSeverity>
 
+  <!-- EN: {0} have a {1} chance to have their {2} set between {3} and {4}. -->
   <ScenPart_SetNeed>{0}的{2}有{1}几率初始值在{3}到{4}之间。</ScenPart_SetNeed>
+  <!-- EN: level: {0} -->
   <ConfigurableLevel>等级: {0}</ConfigurableLevel>
 
+  <!-- EN: {0} have a {1} chance to start with trait: {2} -->
   <ScenPart_PawnsHaveTrait>{0}有{1}几率获得特性: {2}。</ScenPart_PawnsHaveTrait>
+  <!-- EN: Characters and creatures explode on death ({0}, radius {1}). -->
   <ScenPart_OnPawnDeathExplode>角色和生物死亡时自爆（{0}，半径{1}）。</ScenPart_OnPawnDeathExplode>
+  <!-- EN: {0} start naked. -->
   <ScenPart_PawnsAreNaked>{0}开局时将一丝不挂。</ScenPart_PawnsAreNaked>
-
+  
   <!-- Pawn filters -->
+  <!-- EN: Your people will be at least {0} years old. -->
   <ScenPart_StartingPawnAgeMin>人物最小年龄: {0}。</ScenPart_StartingPawnAgeMin>
+  <!-- EN: Your people will be at most {0} years old. -->
   <ScenPart_StartingPawnAgeMax>人物最大年龄: {0}。</ScenPart_StartingPawnAgeMax>
+  <!-- EN: Your people will be between {0} and {1} years old. -->
   <ScenPart_StartingPawnAgeRange>人物年龄范围: {0}至{1}。</ScenPart_StartingPawnAgeRange>
-
 
   <!-- ======================== Grouped ========================-->
 
+  <!-- EN: Start with -->
   <ScenPart_StartWith>开局资源</ScenPart_StartWith>
+  <!-- EN: Map is scattered with -->
   <ScenPart_MapScatteredWith>地图散落资源</ScenPart_MapScatteredWith>
+  <!-- EN: Permanent game condition(s) -->
   <ScenPart_PermaGameCondition>永久游戏状态</ScenPart_PermaGameCondition>
+  <!-- EN: Incident(s) disabled -->
   <ScenPart_DisableIncident>已禁用以下随机事件</ScenPart_DisableIncident>
+  <!-- EN: Incident created -->
   <ScenPart_CreateIncident>已创建以下随机事件</ScenPart_CreateIncident>
+  <!-- EN: Can never build -->
   <ScenPart_DisallowBuilding>禁止建造建筑</ScenPart_DisallowBuilding>
 
 </LanguageData>
