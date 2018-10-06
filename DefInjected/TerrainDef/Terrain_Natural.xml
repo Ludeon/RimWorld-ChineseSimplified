@@ -1,27 +1,45 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  <!-- Standard soils -->
-  <Soil.label>土地</Soil.label>
-  <Soil.tools.0.label>尘土</Soil.tools.0.label>
-  <MossyTerrain.label>苔藓地面</MossyTerrain.label>
-  <MarshyTerrain.label>湿软的土地</MarshyTerrain.label>
-  <MarshyTerrain.tools.0.label>泥浆</MarshyTerrain.tools.0.label>
-  <!-- Rich soils -->
-  <SoilRich.label>肥沃的土地</SoilRich.label>
-  <SoilRich.tools.0.label>尘土</SoilRich.tools.0.label>
-  <!-- Poor soils -->
+  
+  <!-- EN: stony soil -->
   <Gravel.label>沙砾</Gravel.label>
-  <Gravel.tools.0.label>沙砾</Gravel.tools.0.label>
-  <!-- Sand -->
-  <Sand.label>沙地</Sand.label>
-  <Sand.tools.0.label>沙子</Sand.tools.0.label>
-  <SoftSand.label>细沙地</SoftSand.label>
-  <SoftSand.tools.0.label>沙子</SoftSand.tools.0.label>
-  <!-- Infertile ground -->
-  <Mud.label>泥地</Mud.label>
-  <Mud.tools.0.label>泥浆</Mud.tools.0.label>
-  <Marsh.label>沼泽</Marsh.label>
-  <Marsh.tools.0.label>泥浆</Marsh.tools.0.label>
-  <!-- Ice -->
+  <!-- EN: gravel -->
+  <Gravel.tools.gravel.label>沙砾</Gravel.tools.gravel.label>
+  
+  <!-- EN: Ice -->
   <Ice.label>冰面</Ice.label>
+  
+  <!-- EN: marshy soil -->
+  <MarshyTerrain.label>湿软的土地</MarshyTerrain.label>
+  <!-- EN: mud -->
+  <MarshyTerrain.tools.mud.label>泥浆</MarshyTerrain.tools.mud.label>
+  
+  <!-- EN: lichen-covered soil -->
+  <MossyTerrain.label>苔藓地面</MossyTerrain.label>
+  
+  <!-- EN: mud -->
+  <Mud.label>泥地</Mud.label>
+  <!-- EN: mud -->
+  <Mud.tools.mud.label>泥浆</Mud.tools.mud.label>
+  
+  <!-- EN: sand -->
+  <Sand.label>沙地</Sand.label>
+  <!-- EN: sand -->
+  <Sand.tools.sand.label>沙子</Sand.tools.sand.label>
+  
+  <!-- EN: soft sand -->
+  <SoftSand.label>细沙地</SoftSand.label>
+  <!-- EN: sand -->
+  <SoftSand.tools.sand.label>沙子</SoftSand.tools.sand.label>
+  
+  <!-- EN: soil -->
+  <Soil.label>土地</Soil.label>
+  <!-- EN: dirt -->
+  <Soil.tools.dirt.label>尘土</Soil.tools.dirt.label>
+  
+  <!-- EN: rich soil -->
+  <SoilRich.label>肥沃的土地</SoilRich.label>
+  <!-- EN: dirt -->
+  <SoilRich.tools.dirt.label>尘土</SoilRich.tools.dirt.label>
+  
 </LanguageData>

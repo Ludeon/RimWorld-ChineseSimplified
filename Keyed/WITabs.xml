@@ -1,43 +1,74 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
   <!-- WITab titles -->
+  <!-- EN: Terrain -->
   <TabTerrain>地形</TabTerrain>
+  <!-- EN: Planet -->
   <TabPlanet>星球</TabPlanet>
+  <!-- EN: Social -->
   <TabCaravanSocial>社交</TabCaravanSocial>
+  <!-- EN: Health -->
   <TabCaravanHealth>健康</TabCaravanHealth>
+  <!-- EN: Needs -->
   <TabCaravanNeeds>需求</TabCaravanNeeds>
+  <!-- EN: Gear -->
   <TabCaravanGear>装备</TabCaravanGear>
+  <!-- EN: Items -->
   <TabCaravanItems>物品</TabCaravanItems>
-
+  
   <!-- Misc -->
-  <AbandonSliderText>丢弃 {{0}}x {0}</AbandonSliderText>
+  <!-- EN: Abandon {{0}}x {0} -->
+  <AbandonSliderText>丢弃 {{0}}x{0}</AbandonSliderText>
+  <!-- EN: Do you really want to abandon {0}?\n\nAbandoned items vanish and can never be recovered. -->
   <ConfirmAbandonItemDialog>你确定要丢弃{0}吗？\n\n丢弃的物品将会消失并且无法找回。</ConfirmAbandonItemDialog>
+  <!-- EN: Abandon -->
   <AbandonTip>丢弃</AbandonTip>
+  <!-- EN: Banish -->
   <BanishTip>放逐</BanishTip>
+  <!-- EN: Abandon specific count -->
   <AbandonSpecificCountTip>丢弃指定的数量</AbandonSpecificCountTip>
+  <!-- EN: Abandon (all) -->
   <AbandonAllTip>丢弃（全部）</AbandonAllTip>
+  <!-- EN: Abandoned items vanish and can never be recovered. -->
   <AbandonItemTipExtraText>丢弃的物品将会消失并且无法找回。</AbandonItemTipExtraText>
+  <!-- EN: {0} will most likely die. -->
   <BanishTipWillDie>{0}极有可能会死亡。</BanishTipWillDie>
-
+  
   <!-- Caravan inspect -->
+  <!-- EN: Colonists -->
   <CaravanColonists>殖民者</CaravanColonists>
+  <!-- EN: Prisoners and animals -->
   <CaravanPrisonersAndAnimals>囚犯和动物</CaravanPrisonersAndAnimals>
+  <!-- EN: Inventory -->
   <CaravanItems>货物</CaravanItems>
+  <!-- EN: Click to open a tab with more details. -->
   <OpenSpecificTabButtonTip>点击以打开更多详情的标签页。</OpenSpecificTabButtonTip>
+  <!-- EN: Prisoners -->
   <CaravanPrisoners>囚犯</CaravanPrisoners>
+  <!-- EN: Inventory -->
   <CaravanWeaponsAndApparel>货物</CaravanWeaponsAndApparel>
+  <!-- EN: None capable -->
   <NoneCapable>无人胜任</NoneCapable>
+  <!-- EN: Caravan not moving -->
   <GainingJoyBecauseCaravanNotMoving>远行队未在移动</GainingJoyBecauseCaravanNotMoving>
-
+  
   <!-- Caravan gear -->
+  <!-- EN: Drag to rearrange. -->
   <DragToRearrange>拖动以重新排列。</DragToRearrange>
 
   <!-- Caravan items -->
+  <!-- EN: Assign drug policies -->
   <AssignDrugPolicies>分配用药政策</AssignDrugPolicies>
 
+  <!-- Caravan health -->
+  <!-- EN: Whether this person or animal should be carried by other caravan members when sick.\n\nCarried caravan members can rest even if the caravan is moving, but they slow it down. -->
+  <BeCarriedIfSickTip>当这个人或动物生病时，是否由其他远行队成员携带\n\n被携带的远行队成员可以在远行队移动中休息，但会影响远行队的移动速度。</BeCarriedIfSickTip>
+  
   <!-- Planet -->
+  <!-- EN: Seed -->
   <PlanetSeed>种子</PlanetSeed>
+  <!-- EN: Coverage -->
   <PlanetCoverageShort>覆盖范围</PlanetCoverageShort>
 
 </LanguageData>

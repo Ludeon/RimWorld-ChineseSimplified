@@ -1,40 +1,94 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  <!-- Concepts taught through the learning readout, when opportunities arise -->
-  <ReformCaravan.label>重组远行队</ReformCaravan.label>
-  <ReformCaravan.helpText>你可以在「世界」视图中通过「重组远行队」命令对相遇的远行队进行重组。</ReformCaravan.helpText>
-  <Rescuing.label>救援</Rescuing.label>
-  <Rescuing.helpText>要对一名殖民者实施救援，请选择一名健康的殖民者并对受伤的角色点击鼠标右键。\n\n如果你救援了非本殖民地的外人，他在伤愈之后并不会加入你，而是会选择离开。如果你想招募他，必须先将其俘虏并囚禁。</Rescuing.helpText>
-  <Capturing.label>俘虏</Capturing.label>
-  <Capturing.helpText>一名敌人无法行动了，你可以「俘虏」他们！\n若想俘虏敌人，先选择一名殖民者，然后对不能行动的敌人点击鼠标右键，并选择「俘虏」。\n\n你需要有额外专门设立给囚犯的床位。</Capturing.helpText>
-  <ShieldBelts.label>护盾腰带</ShieldBelts.label>
-  <ShieldBelts.helpText>护盾腰带能够阻止远程伤害，但是对近战攻击不起效果。\n\n面对装备有护盾腰带的敌人时，可以选择用火力压制或是肉搏。</ShieldBelts.helpText>
-  <InteractingWithTraders.label>与商人互动</InteractingWithTraders.label>
-  <InteractingWithTraders.helpText>你可以和头上有「？」的人物说话。\n\n选择一位殖民者，然后再对头上有「？」的角色点击鼠标右键。</InteractingWithTraders.helpText>
-  <Drafting.label>征召作战</Drafting.label>
-  <Drafting.helpText>若想直接控制殖民者进行战斗，选择他们并按下「征召」按钮。\n\n被征召的殖民者只会做你命令他们去做的战斗相关的指令，装备有武器的殖民者会自动使用武器。\n\n不要一直保持征召状态，殖民者会挨饿从而变得不开心。</Drafting.helpText>
-  <BuildOrbitalTradeBeacon.label>建造轨道交易信标</BuildOrbitalTradeBeacon.label>
-  <BuildOrbitalTradeBeacon.helpText>若想发送物品或白银给轨道贸易商，你必须建立一个「轨道交易信标」然后其旁边设立一个储存区。</BuildOrbitalTradeBeacon.helpText>
+  
+  <!-- EN: Animals don't attack doors -->
   <AnimalsDontAttackDoors.label>猎杀人类的动物</AnimalsDontAttackDoors.label>
+  <!-- EN: Manhunting animals generally won't attack doors or inactive turrets.\n\nYou can escape them by getting inside or behind a wall. But they'll wait for you. -->
   <AnimalsDontAttackDoors.helpText>猎杀人类的动物通常不会攻击门或者未启用的炮塔，你可以通过躲进屋内来躲避它们。但是它们会等你出来。</AnimalsDontAttackDoors.helpText>
+  
+  <!-- EN: Bills tab -->
   <BillsTab.label>清单标签页</BillsTab.label>
+  <!-- EN: To make colonists work at a table, select the table and open the Bills tab. Here, you can say what meals to cook, what things to craft, what creatures to butcher. -->
   <BillsTab.helpText>要使得殖民者在工作台前工作，请选择工作台并打开「清单」标签页。在这里，你可以指定要烹饪什么食品，要制作什么物品，要屠宰什么尸体等。</BillsTab.helpText>
-  <OpeningComms.label>使用通讯台</OpeningComms.label>
-  <OpeningComms.helpText>若想进行通讯，选择一名殖民者并对通讯控制台点击鼠标右键。</OpeningComms.helpText>
-  <DrugAddiction.label>沉迷成瘾品</DrugAddiction.label>
-  <DrugAddiction.helpText>你可以在「需求」面板看到殖民者对成瘾品的渴望程度。\n\n一旦其需求等级降到0，便会进入「戒断」状态，产生诸多负面情绪。\n\n但只要坚持戒断足够长的时间，他们最终会不再成瘾，戒断反应也会消失。</DrugAddiction.helpText>
-  <DrugPolicies.label>用药方针</DrugPolicies.label>
-  <DrugPolicies.helpText>你可以按照规定日程给殖民者指定使用特定的药物或成瘾品。例如定期接种疟疾疫苗或是允许一天一支啤酒来保持快乐。\n\n打开「方案管理」菜单来添加一个用药方针。\n\n但有时你的规定并不那么有效，殖民者会被自己的欲望驱使而无视你的规则！</DrugPolicies.helpText>
-  <TVForSickPeople.label>给病号看电视</TVForSickPeople.label>
-  <TVForSickPeople.helpText>如果你想为卧床不起的病号们找点乐子，可以在他们看得到的地方安装一台电视机。</TVForSickPeople.helpText>
-  <PrisonerTab.label>囚犯选项卡</PrisonerTab.label>
-  <PrisonerTab.helpText>查看一名囚犯的「囚犯」选项卡，以决定如何对待他们。\n\n你可以设置是否招募、忽视或处决囚犯。你可设置他们是否被送上食物以及接受何种程度医疗。\n\n你需要指派一名殖民者为看守来照顾囚犯。</PrisonerTab.helpText>
-  <SetGrowingZonePlant.label>种植区设置</SetGrowingZonePlant.label>
-  <SetGrowingZonePlant.helpText>你可以决定在种植区里种植的作物，还可以种树！\n\n选择一个种植区，再点击「种植」按钮，然后选择一种植物。</SetGrowingZonePlant.helpText>
-  <DrugBurning.label>销毁成瘾品</DrugBurning.label>
-  <DrugBurning.helpText>成瘾品很有用，但也会导致成瘾。\n\n如果你想在殖民地内完全禁用成瘾品，你可以选择在篝火处烧毁成瘾品。</DrugBurning.helpText>
+  
+  <!-- EN: Build orbital trade beacon -->
+  <BuildOrbitalTradeBeacon.label>建造轨道交易信标</BuildOrbitalTradeBeacon.label>
+  <!-- EN: To send items or silver to orbital traders, you must build an ORBITAL TRADE BEACON and place a stockpile of items near it. -->
+  <BuildOrbitalTradeBeacon.helpText>若想发送物品或白银给轨道贸易商，你必须建立一个「轨道交易信标」然后其旁边设立一个储存区。</BuildOrbitalTradeBeacon.helpText>
+  
+  <!-- EN: Capturing -->
+  <Capturing.label>俘虏</Capturing.label>
+  <!-- EN: When an enemy is downed on the ground but not dead, you can CAPTURE them.\n\nTo capture, select a colonist, right-click on the incapacitated enemy, and select Capture.\n\nYou'll need an extra bed marked for prisoner use. -->
+  <Capturing.helpText>一名敌人无法行动了，你可以「俘虏」他们！\n若想俘虏敌人，先选择一名殖民者，然后对不能行动的敌人点击鼠标右键，并选择「俘虏」。\n\n你需要有额外专门设立给囚犯的床位。</Capturing.helpText>
+  
+  <!-- EN: Door opening speeds -->
   <DoorOpenSpeed.label>开门速度</DoorOpenSpeed.label>
+  <!-- EN: Doors open at different speeds depending on what they're made of.\n\nWarning: Stone doors open very slowly. Anyone passing through will be significantly slowed down. -->
   <DoorOpenSpeed.helpText>开门速度的不同取决于用什么材料建造。\n\n警告：石门开启速度非常慢。任何人通过时都会被大幅度地减速。</DoorOpenSpeed.helpText>
+  
+  <!-- EN: Drafting for combat -->
+  <Drafting.label>征召作战</Drafting.label>
+  <!-- EN: To control colonists directly for combat, Draft them by selecting them and hitting the DRAFT button.\n\nA drafted colonist will do only what you tell them, and can only take combat actions. Those with weapons will use them when possible.\n\nDon't leave colonists Drafted forever - they'll starve and become unhappy. -->
+  <Drafting.helpText>若想直接控制殖民者进行战斗，选择他们并按下「征召」按钮。\n\n被征召的殖民者只会做你命令他们去做的战斗相关的指令，装备有武器的殖民者会自动使用武器。\n\n不要一直保持征召状态，殖民者会挨饿从而变得不开心。</Drafting.helpText>
+  
+  <!-- EN: Drug addiction -->
+  <DrugAddiction.label>沉迷成瘾品</DrugAddiction.label>
+  <!-- EN: You can inspect your colonists' desire to take a drug in their Needs tab.\n\nAs long as their need level is at zero, their addiction changes to a "withdrawal" state which can have various negative side effects.\n\nHowever, after long enough in withdrawal, their addiction will end and the drug need will disappear. -->
+  <DrugAddiction.helpText>你可以在「需求」面板看到殖民者对成瘾品的渴望程度。\n\n一旦其需求等级降到0，便会进入「戒断」状态，产生诸多负面情绪。\n\n但只要坚持戒断足够长的时间，他们最终会不再成瘾，戒断反应也会消失。</DrugAddiction.helpText>
+  
+  <!-- EN: Drug burning -->
+  <DrugBurning.label>销毁成瘾品</DrugBurning.label>
+  <!-- EN: Drugs can be useful, but can also lead to harmful addictions.\n\nIf you want to avoid drugs in your colony, you have the option of burning them at a campfire. -->
+  <DrugBurning.helpText>成瘾品很有用，但也会导致成瘾。\n\n如果你想在殖民地内完全禁用成瘾品，你可以选择在篝火处烧毁成瘾品。</DrugBurning.helpText>
+  
+  <!-- EN: Drug policies -->
+  <DrugPolicies.label>用药方针</DrugPolicies.label>
+  <!-- EN: You can assign colonists to take specific drugs on a specific schedule. For example, you can make them take anti-malaria drugs regularly, or drink a beer a day to stay happy.\n\nOpen the ASSIGN tab and press the 'Manage drug policies' button. Create a new drug policy. Then, you can assign this policy to colonists.\n\nColonists can still take drugs not in their policy. You can tell them what to do, but they also follow their own desires! -->
+  <DrugPolicies.helpText>你可以按照规定日程给殖民者指定使用特定的药物或成瘾品。例如定期接种疟疾疫苗或是允许一天一支啤酒来保持快乐。\n\n打开「方案管理」菜单来添加一个用药方针。\n\n但有时你的规定并不那么有效，殖民者会被自己的欲望驱使而无视你的规则！</DrugPolicies.helpText>
+  
+  <!-- EN: Interacting with traders -->
+  <InteractingWithTraders.label>与商人互动</InteractingWithTraders.label>
+  <!-- EN: You can talk to people with ? over their heads.\n\nSelect a colonist and right-click on the character with ? attached to his head. -->
+  <InteractingWithTraders.helpText>你可以和头上有「？」的人物说话。\n\n选择一位殖民者，然后再对头上有「？」的角色点击鼠标右键。</InteractingWithTraders.helpText>
+  
+  <!-- EN: Using the comms console -->
+  <OpeningComms.label>使用通讯台</OpeningComms.label>
+  <!-- EN: To communicate, select a colonist and right-click on the comms console. -->
+  <OpeningComms.helpText>若想进行通讯，选择一名殖民者并对通讯控制台点击鼠标右键。</OpeningComms.helpText>
+  
+  <!-- EN: Prisoner tab -->
+  <PrisonerTab.label>囚犯选项卡</PrisonerTab.label>
+  <!-- EN: Look in a prisoner's 'Prisoner' tab to set how they'll be treated.\n\nYou can set whether they'll be recruited, ignored or executed, whether they eat, and what kind of medical care they get.\n\nColonists with the Warden work type will interact with the prisoner. -->
+  <PrisonerTab.helpText>查看一名囚犯的「囚犯」选项卡，以决定如何对待他们。\n\n你可以设置是否招募、忽视或处决囚犯。你可设置他们是否被送上食物以及接受何种程度医疗。\n\n你需要指派一名殖民者为看守来照顾囚犯。</PrisonerTab.helpText>
+  
+  <!-- EN: Order queueing -->
   <QueueOrders.label>指令队列</QueueOrders.label>
+  <!-- EN: When giving commands to pawns, you can queue up multiple orders by holding "shift". This also works when giving jobs to undrafted pawns. -->
   <QueueOrders.helpText>当你向殖民者发出指令时，可以按住「Shift」来将多个指令构成队列，他们会依次完成队列中的指令。这也适用于向未被征召的殖民者发出指令。</QueueOrders.helpText>
+  
+  <!-- EN: Reforming caravans -->
+  <ReformCaravan.label>重组远行队</ReformCaravan.label>
+  <!-- EN: After an encounter, you can easily re-form a caravan by using the RE-FORM CARAVAN command in the World view. -->
+  <ReformCaravan.helpText>你可以在「世界」视图中通过「重组远行队」命令对相遇的远行队进行重组。</ReformCaravan.helpText>
+  
+  <!-- EN: Rescuing -->
+  <Rescuing.label>救援</Rescuing.label>
+  <!-- EN: To rescue a wounded person, select a healthy colonist and the right-click on the wounded one.\n\nIf you rescue a non-colonist, they won't necessarily join your colony. They may simply walk away after healing. If you want to guarantee that they join, capture them and recruit them. -->
+  <Rescuing.helpText>要对一名殖民者实施救援，请选择一名健康的殖民者并对受伤的角色点击鼠标右键。\n\n如果你救援了非本殖民地的外人，他在伤愈之后并不会加入你，而是会选择离开。如果你想招募他，必须先将其俘虏并囚禁。</Rescuing.helpText>
+  
+  <!-- EN: Set what plant to grow -->
+  <SetGrowingZonePlant.label>种植区设置</SetGrowingZonePlant.label>
+  <!-- EN: You can set what to plant in a growing zone. You can even grow trees!\n\nJust select the growing zone, open the Growing tab, and click the 'plant' button. -->
+  <SetGrowingZonePlant.helpText>你可以决定在种植区里种植的作物，还可以种树！\n\n选择一个种植区，再点击「种植」按钮，然后选择一种植物。</SetGrowingZonePlant.helpText>
+  
+  <!-- EN: Shield belts -->
+  <ShieldBelts.label>护盾腰带</ShieldBelts.label>
+  <!-- EN: Shield belts stop ranged attacks from coming in or out. They have no effect on melee attacks.\n\nTo fight against shield belts, either concentrate a lot of gunfire on the target, or fight hand-to-hand. -->
+  <ShieldBelts.helpText>护盾腰带能够阻止远程伤害，但是对近战攻击不起效果。\n\n面对装备有护盾腰带的敌人时，可以选择用火力压制或是肉搏。</ShieldBelts.helpText>
+  
+  <!-- EN: TV for sick people -->
+  <TVForSickPeople.label>给病号看电视</TVForSickPeople.label>
+  <!-- EN: Sick people can watch TV while laying in bed. -->
+  <TVForSickPeople.helpText>如果你想为卧床不起的病号们找点乐子，可以在他们看得到的地方安装一台电视机。</TVForSickPeople.helpText>
+  
 </LanguageData>

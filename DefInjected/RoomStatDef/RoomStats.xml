@@ -1,63 +1,115 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <Impressiveness.label>观感</Impressiveness.label>
-  <Impressiveness.scoreStages.0.label>可怕</Impressiveness.scoreStages.0.label>
-  <Impressiveness.scoreStages.1.label>乏味</Impressiveness.scoreStages.1.label>
-  <Impressiveness.scoreStages.2.label>平庸</Impressiveness.scoreStages.2.label>
-  <Impressiveness.scoreStages.3.label>体面</Impressiveness.scoreStages.3.label>
-  <Impressiveness.scoreStages.4.label>小有印象</Impressiveness.scoreStages.4.label>
-  <Impressiveness.scoreStages.5.label>印象有些深刻</Impressiveness.scoreStages.5.label>
-  <Impressiveness.scoreStages.6.label>印象非常深刻</Impressiveness.scoreStages.6.label>
-  <Impressiveness.scoreStages.7.label>印象极度深刻</Impressiveness.scoreStages.7.label>
-  <Impressiveness.scoreStages.8.label>难以置信</Impressiveness.scoreStages.8.label>
-  <Impressiveness.scoreStages.9.label>奇迹非凡</Impressiveness.scoreStages.9.label>
-
-  <Wealth.label>财富</Wealth.label>
-  <Wealth.scoreStages.0.label>极穷</Wealth.scoreStages.0.label>
-  <Wealth.scoreStages.1.label>较穷</Wealth.scoreStages.1.label>
-  <Wealth.scoreStages.2.label>普通</Wealth.scoreStages.2.label>
-  <Wealth.scoreStages.3.label>小富</Wealth.scoreStages.3.label>
-  <Wealth.scoreStages.4.label>富有</Wealth.scoreStages.4.label>
-  <Wealth.scoreStages.5.label>豪华</Wealth.scoreStages.5.label>
-  <Wealth.scoreStages.6.label>非常豪华</Wealth.scoreStages.6.label>
-  <Wealth.scoreStages.7.label>极度豪华</Wealth.scoreStages.7.label>
-  <Wealth.scoreStages.8.label>难以置信</Wealth.scoreStages.8.label>
-
-  <Space.label>空间</Space.label>
-  <Space.scoreStages.0.label>狭窄</Space.scoreStages.0.label>
-  <Space.scoreStages.1.label>有点狭窄</Space.scoreStages.1.label>
-  <Space.scoreStages.2.label>一般</Space.scoreStages.2.label>
-  <Space.scoreStages.3.label>有点宽敞</Space.scoreStages.3.label>
-  <Space.scoreStages.4.label>宽敞</Space.scoreStages.4.label>
-  <Space.scoreStages.5.label>非常宽敞</Space.scoreStages.5.label>
-  <Space.scoreStages.6.label>极度宽敞</Space.scoreStages.6.label>
-
+  
+  <!-- EN: beauty -->
   <Beauty.label>美观</Beauty.label>
-  <Beauty.scoreStages.0.label>极其丑陋</Beauty.scoreStages.0.label>
-  <Beauty.scoreStages.1.label>丑陋</Beauty.scoreStages.1.label>
-  <Beauty.scoreStages.2.label>一般</Beauty.scoreStages.2.label>
-  <Beauty.scoreStages.3.label>有点漂亮</Beauty.scoreStages.3.label>
-  <Beauty.scoreStages.4.label>漂亮</Beauty.scoreStages.4.label>
-  <Beauty.scoreStages.5.label>非常漂亮</Beauty.scoreStages.5.label>
-  <Beauty.scoreStages.6.label>极度漂亮</Beauty.scoreStages.6.label>
-  <Beauty.scoreStages.7.label>难以置信</Beauty.scoreStages.7.label>
-
+  <!-- EN: hideous -->
+  <Beauty.scoreStages.hideous.label>极其丑陋</Beauty.scoreStages.hideous.label>
+  <!-- EN: ugly -->
+  <Beauty.scoreStages.ugly.label>丑陋</Beauty.scoreStages.ugly.label>
+  <!-- EN: neutral -->
+  <Beauty.scoreStages.neutral.label>一般</Beauty.scoreStages.neutral.label>
+  <!-- EN: pretty -->
+  <Beauty.scoreStages.pretty.label>有点漂亮</Beauty.scoreStages.pretty.label>
+  <!-- EN: beautiful -->
+  <Beauty.scoreStages.beautiful.label>漂亮</Beauty.scoreStages.beautiful.label>
+  <!-- EN: very beautiful -->
+  <Beauty.scoreStages.very_beautiful.label>非常漂亮</Beauty.scoreStages.very_beautiful.label>
+  <!-- EN: extremely beautiful -->
+  <Beauty.scoreStages.extremely_beautiful.label>极度漂亮</Beauty.scoreStages.extremely_beautiful.label>
+  <!-- EN: unbelievably beautiful -->
+  <Beauty.scoreStages.unbelievably_beautiful.label>难以置信</Beauty.scoreStages.unbelievably_beautiful.label>
+  
+  <!-- EN: cleanliness -->
   <Cleanliness.label>清洁</Cleanliness.label>
-  <Cleanliness.scoreStages.0.label>非常脏</Cleanliness.scoreStages.0.label>
-  <Cleanliness.scoreStages.1.label>脏</Cleanliness.scoreStages.1.label>
-  <Cleanliness.scoreStages.2.label>有点脏</Cleanliness.scoreStages.2.label>
-  <Cleanliness.scoreStages.3.label>干净</Cleanliness.scoreStages.3.label>
-  <Cleanliness.scoreStages.4.label>一尘不染</Cleanliness.scoreStages.4.label>
-
-  <InfectionChanceFactor.label>感染几率系数</InfectionChanceFactor.label>
-  <SurgerySuccessChanceCleanlinessFactor.label>手术成功几率清洁系数</SurgerySuccessChanceCleanlinessFactor.label>
-  <ResearchSpeedFactor.label>研究速度系数</ResearchSpeedFactor.label>
-  <GraveVisitingJoyGainFactor.label>扫墓娱乐获得系数</GraveVisitingJoyGainFactor.label>
+  <!-- EN: very dirty -->
+  <Cleanliness.scoreStages.very_dirty.label>非常脏</Cleanliness.scoreStages.very_dirty.label>
+  <!-- EN: dirty -->
+  <Cleanliness.scoreStages.dirty.label>脏</Cleanliness.scoreStages.dirty.label>
+  <!-- EN: slightly dirty -->
+  <Cleanliness.scoreStages.slightly_dirty.label>有点脏</Cleanliness.scoreStages.slightly_dirty.label>
+  <!-- EN: clean -->
+  <Cleanliness.scoreStages.clean.label>干净</Cleanliness.scoreStages.clean.label>
+  <!-- EN: sterile -->
+  <Cleanliness.scoreStages.sterile.label>一尘不染</Cleanliness.scoreStages.sterile.label>
+  
+  <!-- EN: food poison chance -->
+  <FoodPoisonChance.label>食物有毒几率</FoodPoisonChance.label>
+  
+  <!-- UNUSED -->
   <FoodPoisonChanceFactor.label>食物带毒几率系数</FoodPoisonChanceFactor.label>
-
-
-  <!--<Impressiveness.scoreStages.10.label>奇迹</Impressiveness.scoreStages.10.label>-->
-  <!--<Impressiveness.scoreStages.11.label>世界奇迹</Impressiveness.scoreStages.11.label>-->
-
+  
+  <!-- EN: grave visiting recreation factor -->
+  <GraveVisitingJoyGainFactor.label>扫墓娱乐获得系数</GraveVisitingJoyGainFactor.label>
+  
+  <!-- EN: impressiveness -->
+  <Impressiveness.label>观感</Impressiveness.label>
+  <!-- EN: awful -->
+  <Impressiveness.scoreStages.awful.label>可怕</Impressiveness.scoreStages.awful.label>
+  <!-- EN: dull -->
+  <Impressiveness.scoreStages.dull.label>乏味</Impressiveness.scoreStages.dull.label>
+  <!-- EN: mediocre -->
+  <Impressiveness.scoreStages.mediocre.label>平庸</Impressiveness.scoreStages.mediocre.label>
+  <!-- EN: decent -->
+  <Impressiveness.scoreStages.decent.label>体面</Impressiveness.scoreStages.decent.label>
+  <!-- EN: slightly impressive -->
+  <Impressiveness.scoreStages.slightly_impressive.label>小有印象</Impressiveness.scoreStages.slightly_impressive.label>
+  <!-- EN: somewhat impressive -->
+  <Impressiveness.scoreStages.somewhat_impressive.label>印象有些深刻</Impressiveness.scoreStages.somewhat_impressive.label>
+  <!-- EN: very impressive -->
+  <Impressiveness.scoreStages.very_impressive.label>印象非常深刻</Impressiveness.scoreStages.very_impressive.label>
+  <!-- EN: extremely impressive -->
+  <Impressiveness.scoreStages.extremely_impressive.label>印象极度深刻</Impressiveness.scoreStages.extremely_impressive.label>
+  <!-- EN: unbelievably impressive -->
+  <Impressiveness.scoreStages.unbelievably_impressive.label>难以置信</Impressiveness.scoreStages.unbelievably_impressive.label>
+  <!-- EN: wondrously impressive -->
+  <Impressiveness.scoreStages.wondrously_impressive.label>奇迹非凡</Impressiveness.scoreStages.wondrously_impressive.label>
+  
+  <!-- EN: infection chance factor -->
+  <InfectionChanceFactor.label>感染几率系数</InfectionChanceFactor.label>
+  
+  <!-- EN: research speed factor -->
+  <ResearchSpeedFactor.label>研究速度系数</ResearchSpeedFactor.label>
+  
+  <!-- EN: space -->
+  <Space.label>空间</Space.label>
+  <!-- EN: cramped -->
+  <Space.scoreStages.cramped.label>狭窄</Space.scoreStages.cramped.label>
+  <!-- EN: rather tight -->
+  <Space.scoreStages.rather_tight.label>有点狭窄</Space.scoreStages.rather_tight.label>
+  <!-- EN: average-sized -->
+  <Space.scoreStages.averagesized.label>一般</Space.scoreStages.averagesized.label>
+  <!-- EN: somewhat spacious -->
+  <Space.scoreStages.somewhat_spacious.label>有点宽敞</Space.scoreStages.somewhat_spacious.label>
+  <!-- EN: quite spacious -->
+  <Space.scoreStages.quite_spacious.label>宽敞</Space.scoreStages.quite_spacious.label>
+  <!-- EN: very spacious -->
+  <Space.scoreStages.very_spacious.label>非常宽敞</Space.scoreStages.very_spacious.label>
+  <!-- EN: extremely spacious -->
+  <Space.scoreStages.extremely_spacious.label>极度宽敞</Space.scoreStages.extremely_spacious.label>
+  
+  <!-- EN: surgery success chance cleanliness factor -->
+  <SurgerySuccessChanceCleanlinessFactor.label>手术成功几率清洁系数</SurgerySuccessChanceCleanlinessFactor.label>
+  
+  <!-- EN: wealth -->
+  <Wealth.label>财富</Wealth.label>
+  <!-- EN: impoverished -->
+  <Wealth.scoreStages.impoverished.label>极穷</Wealth.scoreStages.impoverished.label>
+  <!-- EN: somewhat poor -->
+  <Wealth.scoreStages.somewhat_poor.label>较穷</Wealth.scoreStages.somewhat_poor.label>
+  <!-- EN: mediocre -->
+  <Wealth.scoreStages.mediocre.label>普通</Wealth.scoreStages.mediocre.label>
+  <!-- EN: somewhat rich -->
+  <Wealth.scoreStages.somewhat_rich.label>小富</Wealth.scoreStages.somewhat_rich.label>
+  <!-- EN: rich -->
+  <Wealth.scoreStages.rich.label>富有</Wealth.scoreStages.rich.label>
+  <!-- EN: luxurious -->
+  <Wealth.scoreStages.luxurious.label>豪华</Wealth.scoreStages.luxurious.label>
+  <!-- EN: very luxurious -->
+  <Wealth.scoreStages.very_luxurious.label>非常豪华</Wealth.scoreStages.very_luxurious.label>
+  <!-- EN: extremely luxurious -->
+  <Wealth.scoreStages.extremely_luxurious.label>极度豪华</Wealth.scoreStages.extremely_luxurious.label>
+  <!-- EN: unbelievably luxurious -->
+  <Wealth.scoreStages.unbelievably_luxurious.label>难以置信</Wealth.scoreStages.unbelievably_luxurious.label>
+  
 </LanguageData>

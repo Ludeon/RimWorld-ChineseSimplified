@@ -1,50 +1,48 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <Chicken.label>鸡</Chicken.label>
-  <Chicken.description>一种最传统的养殖动物，专为它的蛋和肉而被饲养。</Chicken.description>
-  <Chicken.tools.0.label>爪</Chicken.tools.0.label>
-  <Chicken.tools.2.label>头</Chicken.tools.2.label>
-  <!-- Leather Amount: 0 -->
-  <Chicken_Meat.label>鸡肉</Chicken_Meat.label>
-  <Chicken_Meat.description>鸡肉</Chicken_Meat.description>
-  <Chicken_Corpse.label>鸡尸体</Chicken_Corpse.label>
-  <Chicken_Corpse.description>鸡尸体</Chicken_Corpse.description>
-
-  <Pig.label>猪</Pig.label>
-  <Pig.description>猪是人类第一批家养动物之一。因它的皮和肉而被广泛饲养，而且由于其杂食性，易于饲养。</Pig.description>
-  <Pig.tools.1.label>头</Pig.tools.1.label>
-  <Pig_Leather.label>猪皮</Pig_Leather.label>
-  <Pig_Leather.description>猪皮</Pig_Leather.description>
-  <Pig_Leather.stuffProps.stuffAdjective>猪皮</Pig_Leather.stuffProps.stuffAdjective>
-  <Pig_Meat.label>猪肉</Pig_Meat.label>
-  <Pig_Meat.description>猪肉</Pig_Meat.description>
-  <Pig_Corpse.label>猪尸体</Pig_Corpse.label>
-  <Pig_Corpse.description>猪尸体</Pig_Corpse.description>
-
-  <Cow.label>牛</Cow.label>
-  <Cow.description>一种很常见的家畜。它可以生产大量的牛奶，或被宰杀成为美味食物。</Cow.description>
-  <Cow.tools.1.label>头</Cow.tools.1.label>
-  <Cow_Leather.label>牛皮</Cow_Leather.label>
-  <Cow_Leather.description>牛皮</Cow_Leather.description>
-  <Cow_Leather.stuffProps.stuffAdjective>牛皮</Cow_Leather.stuffProps.stuffAdjective>
-  <Cow_Meat.label>牛肉</Cow_Meat.label>
-  <Cow_Meat.description>牛肉</Cow_Meat.description>
-  <Cow_Corpse.label>牛尸体</Cow_Corpse.label>
-  <Cow_Corpse.description>牛尸体</Cow_Corpse.description>
-
+  
+  <!-- EN: alpaca -->
   <Alpaca.label>羊驼</Alpaca.label>
+  <!-- EN: A medium-sized ungulate closely related to the llama, the alpaca is usually raised for its remarkably soft and insulating wool. Alpacas have also been used as pack animals since they hauled cargo on the rugged mountain trails of ancient South America -->
   <Alpaca.description>与大羊驼血缘很近的的中型有蹄类动物，养殖羊驼通常是为了它非常柔软的毛。</Alpaca.description>
-  <Alpaca.tools.0.label>左蹄</Alpaca.tools.0.label>
-  <Alpaca.tools.1.label>右蹄</Alpaca.tools.1.label>
-  <Alpaca.tools.3.label>头</Alpaca.tools.3.label>
-  <Alpaca_Leather.label>羊驼皮</Alpaca_Leather.label>
-  <Alpaca_Leather.description>羊驼皮</Alpaca_Leather.description>
-  <Alpaca_Leather.stuffProps.stuffAdjective>羊驼皮</Alpaca_Leather.stuffProps.stuffAdjective>
-  <Alpaca_Meat.label>羊驼肉</Alpaca_Meat.label>
-  <Alpaca_Meat.description>羊驼肉</Alpaca_Meat.description>
-  <Alpaca_Corpse.label>羊驼尸体</Alpaca_Corpse.label>
-  <Alpaca_Corpse.description>羊驼尸体</Alpaca_Corpse.description>
-
-
+  <!-- EN: left hoof -->
+  <Alpaca.tools.left_hoof.label>左蹄</Alpaca.tools.left_hoof.label>
+  <!-- EN: right hoof -->
+  <Alpaca.tools.right_hoof.label>右蹄</Alpaca.tools.right_hoof.label>
+  <!-- EN: head -->
+  <Alpaca.tools.head.label>头</Alpaca.tools.head.label>
+  
+  <!-- EN: chicken -->
+  <Chicken.label>鸡</Chicken.label>
+  <!-- EN: The most traditional farm bird, the chicken is raised for its eggs and meat. It grows very quickly and lays eggs very often. -->
+  <Chicken.description>一种最传统的养殖动物，专为它的蛋和肉而被饲养。</Chicken.description>
+  <!-- EN: claws -->
+  <Chicken.tools.claws.label>爪</Chicken.tools.claws.label>
+  <!-- EN: beak -->
+  <Chicken.tools.beak.label>喙</Chicken.tools.beak.label>
+  <!-- EN: head -->
+  <Chicken.tools.head.label>头</Chicken.tools.head.label>
+  
+  <!-- EN: cow -->
+  <Cow.label>牛</Cow.label>
+  <!-- EN: A large domesticated ungulate, cows have been bred for millennia to produce huge amounts of milk, meat, and leather. They are exceptionally gentle creatures and will never seek revenge, no matter how many times they are harmed. Most of them are so adapted to farm life that they cannot survive in the wild. -->
+  <Cow.description>一种很常见的家畜。它可以生产大量的牛奶，或被宰杀成为美味食物。</Cow.description>
+  <!-- EN: beef -->
+  <Cow.race.meatLabel>牛肉</Cow.race.meatLabel>
+  <!-- EN: head -->
+  <Cow.tools.head.label>头</Cow.tools.head.label>
+  <!-- EN: left hoof -->
+  <Cow.tools.left_hoof.label>左蹄</Cow.tools.left_hoof.label>
+  <!-- EN: right hoof -->
+  <Cow.tools.right_hoof.label>右蹄</Cow.tools.right_hoof.label>
+  
+  <!-- EN: pig -->
+  <Pig.label>猪</Pig.label>
+  <!-- EN: The pig was one of the first animals domesticated by humans. It is commonly raised for meat, and is easy to feed because of its omnivorous diet. Though pigs are self-serving by disposition, they can be trained in complex tasks. -->
+  <Pig.description>猪是人类第一批家养动物之一。因它的皮和肉而被广泛饲养，而且由于其杂食性，易于饲养。</Pig.description>
+  <!-- EN: pork -->
+  <Pig.race.meatLabel>猪肉</Pig.race.meatLabel>
+  <!-- EN: head -->
+  <Pig.tools.head.label>头</Pig.tools.head.label>
+  
 </LanguageData>

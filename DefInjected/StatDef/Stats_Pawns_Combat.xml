@@ -1,22 +1,38 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <!-- Shooting -->
-
-  <MeleeDPS.label>近战每秒伤害</MeleeDPS.label>
-  <MeleeDPS.description>近战中每秒平均伤害。（未计算目标防御力，比如闪避和护甲。）</MeleeDPS.description>
-
-  <MeleeHitChance.label>近战命中率</MeleeHitChance.label>
-  <MeleeHitChance.description>在近身攻击中命中目标的基本几率。（即使击中，目标仍能闪避。）</MeleeHitChance.description>
-
+  
+  <!-- EN: aiming time -->
+  <AimingDelayFactor.label>瞄准时间</AimingDelayFactor.label>
+  <!-- EN: How long it takes to shoot after choosing a target. -->
+  <AimingDelayFactor.description>瞄准后开火所花费的时间。</AimingDelayFactor.description>
+  
+  <!-- EN: melee armor penetration -->
+  <MeleeArmorPenetration.label>近战护甲穿透</MeleeArmorPenetration.label>
+  <!-- EN: Average armor penetration of all attacks in melee combat. This stat includes currently used weapon. -->
+  <MeleeArmorPenetration.description>近战中所有攻击的平均护甲穿透率。此属性包括当前使用的武器。</MeleeArmorPenetration.description>
+  
+  <!-- EN: melee dodge chance -->
   <MeleeDodgeChance.label>近战闪避几率</MeleeDodgeChance.label>
+  <!-- EN: Chance to dodge a melee attack that would've otherwise hit. Characters will not dodge while aiming or firing a ranged weapon. -->
   <MeleeDodgeChance.description>闪避近身攻击或者其他物理击打的几率。（在瞄准时或使用远程武器开火时，角色无法进行闪避。）</MeleeDodgeChance.description>
-
+  
+  <!-- EN: melee DPS -->
+  <MeleeDPS.label>近战每秒伤害</MeleeDPS.label>
+  <!-- EN: Average damage per second in melee combat. This stat ignores target defenses like dodging and armor. -->
+  <MeleeDPS.description>近战中每秒平均伤害。（未计算目标防御力，比如闪避和护甲。）</MeleeDPS.description>
+  
+  <!-- EN: melee hit chance -->
+  <MeleeHitChance.label>近战命中率</MeleeHitChance.label>
+  <!-- EN: Chance to hit a target in melee. The target can still dodge even if we would've hit. -->
+  <MeleeHitChance.description>在近身攻击中命中目标的基本几率。（即使击中，目标仍能闪避。）</MeleeHitChance.description>
+  
+  <!-- UNUSED -->
   <ShootingAccuracy.label>射击精确度</ShootingAccuracy.label>
   <ShootingAccuracy.description>射击距离每格不打偏的基础几率。命中几率同样受到目标、掩体，以及环境状况的影响。选中一个射手并将鼠标移动到目标上可以看到。</ShootingAccuracy.description>
-
-  <AimingDelayFactor.label>瞄准延时系数</AimingDelayFactor.label>
-  <AimingDelayFactor.description>瞄准后开火所花费的时间。</AimingDelayFactor.description>
-
-
+  
+  <!-- EN: shooting accuracy -->
+  <ShootingAccuracyPawn.label>射击精度</ShootingAccuracyPawn.label>
+  <!-- EN: Base chance to not miss per cell of shot distance. Chance to hit is also affected by many other factors. A hit chance explanation for any shot can be seen by selecting a shooter and mousing over a target. -->
+  <ShootingAccuracyPawn.description>射击距离每格不打偏的基础几率。命中几率同样受到目标、掩体，以及环境状况的影响。选中一个射手并将鼠标移动到目标上可以看到关于命中率的详细信息。</ShootingAccuracyPawn.description>
+  
 </LanguageData>

@@ -1,19 +1,24 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <!-- Temporary hack; ranged weapons need to use the old pre-flavorful-combat system to avoid a rebalance cascade. -->
-
-  <RangedStab.label>刺伤</RangedStab.label>
-  <RangedStab.deathMessage>{0}被刺死了。</RangedStab.deathMessage>
-
-  <Bullet.label>子弹伤</Bullet.label>
-  <Bullet.deathMessage>{0}被枪射杀了。</Bullet.deathMessage>
-
+  
+  <!-- EN: arrow -->
   <Arrow.label>箭伤</Arrow.label>
+  <!-- EN: {0} has been shot to death by an arrow. -->
   <Arrow.deathMessage>{0}被箭射杀了。</Arrow.deathMessage>
-
+  
+  <!-- EN: arrow -->
   <ArrowHighVelocity.label>箭伤</ArrowHighVelocity.label>
+  <!-- EN: {0} has been shot to death by an arrow. -->
   <ArrowHighVelocity.deathMessage>{0}被箭射杀了。</ArrowHighVelocity.deathMessage>
-
-
+  
+  <!-- EN: bullet -->
+  <Bullet.label>子弹伤</Bullet.label>
+  <!-- EN: {0} has been shot to death. -->
+  <Bullet.deathMessage>{0}被枪射杀了。</Bullet.deathMessage>
+  
+  <!-- EN: stab -->
+  <RangedStab.label>刺伤</RangedStab.label>
+  <!-- EN: {0} has been stabbed to death. -->
+  <RangedStab.deathMessage>{0}被刺死了。</RangedStab.deathMessage>
+  
 </LanguageData>
