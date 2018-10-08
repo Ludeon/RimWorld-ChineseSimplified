@@ -1,25 +1,38 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <!-- Tier 4: Hi-tech research bench with multi-analyzer -->
-
+  
+  <!-- EN: starflight basics -->
   <ShipBasics.label>星际航行基础</ShipBasics.label>
+  <!-- EN: Construct the structural and supportive elements of a starship. This is the first step in building a ship to leave this star system. -->
   <ShipBasics.description>解锁建造星际飞船的结构和辅助单元，这是建造飞船离开恒星系的第一步。</ShipBasics.description>
-
-  <ShipCryptosleep.label>飞船低温休眠仓</ShipCryptosleep.label>
-  <ShipCryptosleep.description>解锁建造「飞船低温休眠仓」，经过强化可以抵抗太空中威胁的低温休眠舱，用于在漫长的星际旅途中运送乘客。</ShipCryptosleep.description>
-
-  <ShipReactor.label>飞船反应堆</ShipReactor.label>
-  <ShipReactor.description>解锁「飞船反应堆」，能长时间工作的核能反应堆，用于给飞船提供动力。请注意，反应堆的启动是一个漫长的过程，期间会引来袭击者。</ShipReactor.description>
-
-  <ShipEngine.label>飞船推进器</ShipEngine.label>
-  <ShipEngine.description>解锁建造「飞船推进器」,这种无工质推进器能够将星际飞船送入太空并且穿过广阔的星际空间。当然，就像所有的飞船那样，它仍然需要好几年的时间才能抵达目的地。</ShipEngine.description>
-
+  <!-- EN: Escaping from this planet - it would be freedom at last, and maybe a return home.\n\nBut also incredibly dangerous.\n\nMany desperate souls want off this planet. Ship reactors take 15 days to charge up. Once you begin that process, the ship reactor will emit an energy signature detectable from thousands of kilometers away. Raiders will flock to attack you in waves, with an intensity you've never seen. Mechanoids are also known to be attracted to such energy signatures for their own mysterious reasons.\n\nIt won't start until you activate your ship's reactor, but when it does, it'll be ferocious. You'll need to stockpile resources, weapons, and defenses for the onslaught if you hope to escape alive. -->
+  <ShipBasics.discoveredLetterText>逃离这个星球——最终将获得自由，也许终点会是家园。\n\n但这样做也非常危险。\n\n许多绝望的灵魂想要离开这个星球。飞船反应堆需要15天的时间充电。一旦启动，反应堆发出的巨大能量信息会传到千里之外。就像嗅到美味的蟑螂一样，袭击者会从四面八方蜂拥而至，用你从未见过的强度发起攻击。远古机械也一样。\n\n想逃出生天，你需要储备资源、武器和防御力量。</ShipBasics.discoveredLetterText>
+  <!-- EN: About: Launching the ship -->
+  <ShipBasics.discoveredLetterTitle>关于：发射飞船</ShipBasics.discoveredLetterTitle>
+  
+  <!-- EN: AI persuasion -->
   <ShipComputerCore.label>飞船电脑核心</ShipComputerCore.label>
+  <!-- EN: Build a reward-signal system to persuade an existing AI persona core into serving as a ship's AI captain. Since people sleep during interstellar travel, an AI core is necessary to handle the complex decisions of a years-long starflight. -->
   <ShipComputerCore.description>解锁建造「飞船电脑核心」，用一个奖励信号系统来说服现有的AI伪人格核心成为飞船上的AI舰长。由于乘客在星际旅途中处于休眠状态，AI核心对复杂状况的决策能力在漫长的星际航行中是必要的。</ShipComputerCore.description>
-
+  
+  <!-- EN: vacuum cryptosleep casket -->
+  <ShipCryptosleep.label>飞船低温休眠仓</ShipCryptosleep.label>
+  <!-- EN: Construct hardened cryptosleep caskets tough enough to be exposed to vacuum, for transporting people on the years-long journey between stars. -->
+  <ShipCryptosleep.description>解锁建造「飞船低温休眠仓」，经过强化可以抵抗太空中威胁的低温休眠舱，用于在漫长的星际旅途中运送乘客。</ShipCryptosleep.description>
+  
+  <!-- EN: Johnson-Tanaka drive -->
+  <ShipEngine.label>飞船推进器</ShipEngine.label>
+  <!-- EN: Construct a Johnson-Tanaka drive for a ship. The JT drive can push you to other stars by leveraging quantum scale effects to beam momentum to distant stars. Of course, as with all starships, it still takes many years to get anywhere. -->
+  <ShipEngine.description>解锁建造「飞船推进器」,这种无工质推进器能够将星际飞船送入太空并且穿过广阔的星际空间。当然，就像所有的飞船那样，它仍然需要好几年的时间才能抵达目的地。</ShipEngine.description>
+  
+  <!-- EN: starship reactor -->
+  <ShipReactor.label>飞船反应堆</ShipReactor.label>
+  <!-- EN: Build a long-duration nuclear reactor to power a starship. Note that reactors have a long startup process that will attract raiders. -->
+  <ShipReactor.description>解锁「飞船反应堆」，能长时间工作的核能反应堆，用于给飞船提供动力。请注意，反应堆的启动是一个漫长的过程，期间会引来袭击者。</ShipReactor.description>
+  
+  <!-- EN: starflight sensors -->
   <ShipSensorCluster.label>飞船传感器</ShipSensorCluster.label>
+  <!-- EN: Construct long-range sensors for a starship. These sensors are essential for navigation, communication, and threat avoidance. -->
   <ShipSensorCluster.description>解锁建造供星际飞船使用的远距离「集成传感器」,这些传感器对于导航、通信和规避威胁都是必不可少的。</ShipSensorCluster.description>
-
-
+  
 </LanguageData>

@@ -1,59 +1,101 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <BloodLoss.label>失血</BloodLoss.label>
-  <BloodLoss.stages.0.label>较轻</BloodLoss.stages.0.label>
-  <BloodLoss.stages.1.label>较轻</BloodLoss.stages.1.label>
-  <BloodLoss.stages.2.label>中等</BloodLoss.stages.2.label>
-  <BloodLoss.stages.3.label>严重</BloodLoss.stages.3.label>
-  <BloodLoss.stages.4.label>极重</BloodLoss.stages.4.label>
-
+  
+  <!-- EN: anesthetic -->
   <Anesthetic.label>麻醉</Anesthetic.label>
-
+  
+  <!-- EN: blood loss -->
+  <BloodLoss.label>失血</BloodLoss.label>
+  <!-- EN: minor -->
+  <BloodLoss.stages.minor-0.label>较轻</BloodLoss.stages.minor-0.label>
+  <!-- EN: minor -->
+  <BloodLoss.stages.minor-1.label>较轻</BloodLoss.stages.minor-1.label>
+  <!-- EN: moderate -->
+  <BloodLoss.stages.moderate.label>中等</BloodLoss.stages.moderate.label>
+  <!-- EN: severe -->
+  <BloodLoss.stages.severe.label>严重</BloodLoss.stages.severe.label>
+  <!-- EN: extreme -->
+  <BloodLoss.stages.extreme.label>极重</BloodLoss.stages.extreme.label>
+  
+  <!-- EN: catatonic breakdown -->
   <CatatonicBreakdown.label>精神崩溃</CatatonicBreakdown.label>
+  <!-- EN: a catatonic breakdown -->
   <CatatonicBreakdown.labelNoun>精神崩溃</CatatonicBreakdown.labelNoun>
-
-  <PsychicShock.label>心灵冲击</PsychicShock.label>
-  <PsychicShock.labelNoun>心灵冲击</PsychicShock.labelNoun>
-
+  
+  <!-- EN: cryptosleep sickness -->
   <CryptosleepSickness.label>低温休眠症</CryptosleepSickness.label>
-
-  <FoodPoisoning.label>食物中毒</FoodPoisoning.label>
-  <FoodPoisoning.stages.0.label>恢复</FoodPoisoning.stages.0.label>
-  <FoodPoisoning.stages.1.label>严重</FoodPoisoning.stages.1.label>
-  <FoodPoisoning.stages.2.label>轻微</FoodPoisoning.stages.2.label>
-
-  <ToxicBuildup.label>中毒</ToxicBuildup.label>
-  <ToxicBuildup.stages.0.label>轻微</ToxicBuildup.stages.0.label>
-  <ToxicBuildup.stages.1.label>轻微</ToxicBuildup.stages.1.label>
-  <ToxicBuildup.stages.2.label>较轻</ToxicBuildup.stages.2.label>
-  <ToxicBuildup.stages.3.label>中等</ToxicBuildup.stages.3.label>
-  <ToxicBuildup.stages.4.label>严重</ToxicBuildup.stages.4.label>
-  <ToxicBuildup.stages.5.label>极重</ToxicBuildup.stages.5.label>
-
-  <Pregnant.label>怀孕</Pregnant.label>
-  <Pregnant.comps.0.discoverLetterLabel>{0}怀孕</Pregnant.comps.0.discoverLetterLabel>
-  <Pregnant.comps.0.discoverLetterText>{0}怀孕了！</Pregnant.comps.0.discoverLetterText>
-  <Pregnant.stages.0.label>早期</Pregnant.stages.0.label>
-  <Pregnant.stages.1.label>中期</Pregnant.stages.1.label>
-  <Pregnant.stages.2.label>后期</Pregnant.stages.2.label>
-  <Pregnant.labelNoun>怀孕</Pregnant.labelNoun>
-
-  <HeartAttack.label>心脏病发作</HeartAttack.label>
-  <HeartAttack.stages.0.label>绞痛</HeartAttack.stages.0.label>
-  <HeartAttack.stages.1.label>虚弱</HeartAttack.stages.1.label>
-  <HeartAttack.stages.2.label>致命</HeartAttack.stages.2.label>
-  <HeartAttack.labelNoun>心脏病发作</HeartAttack.labelNoun>
-
+  
+  <!-- EN: drug overdose -->
   <DrugOverdose.label>成瘾品过量</DrugOverdose.label>
-  <DrugOverdose.comps.1.discoverLetterLabel>成瘾品过量: {0}</DrugOverdose.comps.1.discoverLetterLabel>
-  <DrugOverdose.comps.1.discoverLetterText>{0}使用成瘾品过量！</DrugOverdose.comps.1.discoverLetterText>
-  <DrugOverdose.stages.0.label>较轻</DrugOverdose.stages.0.label>
-  <DrugOverdose.stages.1.label>较轻</DrugOverdose.stages.1.label>
-  <DrugOverdose.stages.2.label>严重</DrugOverdose.stages.2.label>
+  <!-- EN: Overdose: {0} -->
+  <DrugOverdose.comps.HediffComp_Discoverable.discoverLetterLabel>成瘾品过量: {0}</DrugOverdose.comps.HediffComp_Discoverable.discoverLetterLabel>
+  <!-- EN: {0} is overdosing! -->
+  <DrugOverdose.comps.HediffComp_Discoverable.discoverLetterText>{0}使用成瘾品过量！</DrugOverdose.comps.HediffComp_Discoverable.discoverLetterText>
+  <!-- EN: a drug overdose -->
   <DrugOverdose.labelNoun>成瘾品过量</DrugOverdose.labelNoun>
-
+  <!-- EN: minor -->
+  <DrugOverdose.stages.minor-0.label>较轻</DrugOverdose.stages.minor-0.label>
+  <!-- EN: minor -->
+  <DrugOverdose.stages.minor-1.label>较轻</DrugOverdose.stages.minor-1.label>
+  <!-- EN: major -->
+  <DrugOverdose.stages.major.label>严重</DrugOverdose.stages.major.label>
+  
+  <!-- EN: food poisoning -->
+  <FoodPoisoning.label>食物中毒</FoodPoisoning.label>
+  <!-- EN: recovering -->
+  <FoodPoisoning.stages.recovering.label>恢复</FoodPoisoning.stages.recovering.label>
+  <!-- EN: major -->
+  <FoodPoisoning.stages.major.label>严重</FoodPoisoning.stages.major.label>
+  <!-- EN: initial -->
+  <FoodPoisoning.stages.initial.label>轻微</FoodPoisoning.stages.initial.label>
+  
+  <!-- EN: heart attack -->
+  <HeartAttack.label>心脏病发作</HeartAttack.label>
+  <!-- EN: a heart attack -->
+  <HeartAttack.labelNoun>心脏病发作</HeartAttack.labelNoun>
+  <!-- EN: painful -->
+  <HeartAttack.stages.painful.label>绞痛</HeartAttack.stages.painful.label>
+  <!-- EN: debilitating -->
+  <HeartAttack.stages.debilitating.label>虚弱</HeartAttack.stages.debilitating.label>
+  <!-- EN: fatal -->
+  <HeartAttack.stages.fatal.label>致命</HeartAttack.stages.fatal.label>
+  
+  <!-- EN: pregnant -->
+  <Pregnant.label>怀孕</Pregnant.label>
+  <!-- EN: {0} pregnant -->
+  <Pregnant.comps.HediffComp_Discoverable.discoverLetterLabel>{0}怀孕</Pregnant.comps.HediffComp_Discoverable.discoverLetterLabel>
+  <!-- EN: {0} is pregnant! -->
+  <Pregnant.comps.HediffComp_Discoverable.discoverLetterText>{0}怀孕了！</Pregnant.comps.HediffComp_Discoverable.discoverLetterText>
+  <!-- EN: pregnancy -->
+  <Pregnant.labelNoun>怀孕</Pregnant.labelNoun>
+  <!-- EN: early-stage -->
+  <Pregnant.stages.earlystage.label>早期</Pregnant.stages.earlystage.label>
+  <!-- EN: middle-stage -->
+  <Pregnant.stages.middlestage.label>中期</Pregnant.stages.middlestage.label>
+  <!-- EN: late-stage -->
+  <Pregnant.stages.latestage.label>后期</Pregnant.stages.latestage.label>
+  
+  <!-- EN: psychic shock -->
+  <PsychicShock.label>心灵冲击</PsychicShock.label>
+  <!-- EN: a psychic shock -->
+  <PsychicShock.labelNoun>心灵冲击</PsychicShock.labelNoun>
+  
+  <!-- EN: resurrection sickness -->
   <ResurrectionSickness.label>复活虚弱</ResurrectionSickness.label>
-
-
+  
+  <!-- EN: toxic buildup -->
+  <ToxicBuildup.label>中毒</ToxicBuildup.label>
+  <!-- EN: initial -->
+  <ToxicBuildup.stages.initial-0.label>轻微</ToxicBuildup.stages.initial-0.label>
+  <!-- EN: initial -->
+  <ToxicBuildup.stages.initial-1.label>轻微</ToxicBuildup.stages.initial-1.label>
+  <!-- EN: minor -->
+  <ToxicBuildup.stages.minor.label>较轻</ToxicBuildup.stages.minor.label>
+  <!-- EN: moderate -->
+  <ToxicBuildup.stages.moderate.label>中等</ToxicBuildup.stages.moderate.label>
+  <!-- EN: serious -->
+  <ToxicBuildup.stages.serious.label>严重</ToxicBuildup.stages.serious.label>
+  <!-- EN: extreme -->
+  <ToxicBuildup.stages.extreme.label>极重</ToxicBuildup.stages.extreme.label>
+  
 </LanguageData>

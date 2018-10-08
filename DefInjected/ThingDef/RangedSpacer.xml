@@ -1,12 +1,30 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  <Gun_ChargeRifle.label>电荷步枪</Gun_ChargeRifle.label>
-  <Gun_ChargeRifle.description>发射高能电荷弹的突击步枪。电荷弹科技使得每发子弹在离开枪管时都由不稳定能量进行充能，并且在击中物体的时候完全释放出来，大大增加了子弹的伤害。</Gun_ChargeRifle.description>
-  <Gun_ChargeRifle.tools.0.label>弹匣</Gun_ChargeRifle.tools.0.label>
-  <Gun_ChargeRifle.tools.1.label>枪管</Gun_ChargeRifle.tools.1.label>
-  <Bullet_ChargeRifle.label>电荷弹</Bullet_ChargeRifle.label>
-  <Gun_ChargeLance.label>电荷标枪</Gun_ChargeLance.label>
-  <Gun_ChargeLance.description>发射高能电荷标枪弹的轨道加速武器。在每一发超高速子弹离开加速轨道之前以不稳定能量对它进行充能。</Gun_ChargeLance.description>
-  <Gun_ChargeLance.tools.0.label>枪管</Gun_ChargeLance.tools.0.label>
+  
+  <!-- EN: charge lance shot -->
   <Bullet_ChargeLance.label>电荷标枪弹</Bullet_ChargeLance.label>
+  
+  <!-- EN: charge shot -->
+  <Bullet_ChargeRifle.label>电荷弹</Bullet_ChargeRifle.label>
+  
+  <!-- EN: charge lance -->
+  <Gun_ChargeLance.label>电荷标枪</Gun_ChargeLance.label>
+  <!-- EN: A pulse-charged rail-assisted lance weapon. It fires a single shot at high velocity, charging it with unstable energy as it leaves the acceleration rail. -->
+  <Gun_ChargeLance.description>发射高能电荷标枪弹的轨道加速武器。在每一发超高速子弹离开加速轨道之前以不稳定能量对它进行充能。</Gun_ChargeLance.description>
+  <!-- EN: barrel -->
+  <Gun_ChargeLance.tools.barrel.label>枪管</Gun_ChargeLance.tools.barrel.label>
+  <!-- EN: charge lance -->
+  <Gun_ChargeLance.verbs.Verb_Shoot.label>电荷标枪</Gun_ChargeLance.verbs.Verb_Shoot.label>
+  
+  <!-- EN: charge rifle -->
+  <Gun_ChargeRifle.label>电荷步枪</Gun_ChargeRifle.label>
+  <!-- EN: A charged-shot assault rifle. Pulse-charge technology charges each shot with unstable energy as it leaves the barrel. Released on impact, the charged energy greatly increases the damage done. -->
+  <Gun_ChargeRifle.description>发射高能电荷弹的突击步枪。电荷弹科技使得每发子弹在离开枪管时都由不稳定能量进行充能，并且在击中物体的时候完全释放出来，大大增加了子弹的伤害。</Gun_ChargeRifle.description>
+  <!-- EN: stock -->
+  <Gun_ChargeRifle.tools.stock.label>弹匣</Gun_ChargeRifle.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_ChargeRifle.tools.barrel.label>枪管</Gun_ChargeRifle.tools.barrel.label>
+  <!-- EN: charge rifle -->
+  <Gun_ChargeRifle.verbs.Verb_Shoot.label>电荷步枪</Gun_ChargeRifle.verbs.Verb_Shoot.label>
+  
 </LanguageData>

@@ -1,14 +1,24 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  <!-- Threats -->
+  
+  <!-- EN: ambush -->
   <Ambush.label>伏击</Ambush.label>
-  <Ambush.letterText>{0}被来自{2}的{1}的伏击了！</Ambush.letterText>
+  <!-- EN: Caravan ambushed -->
   <Ambush.letterLabel>远行队遭遇伏击</Ambush.letterLabel>
-  <ManhunterAmbush.label>猎杀人类伏击</ManhunterAmbush.label>
-  <ManhunterAmbush.letterText>{0}被猎杀人类的{1}伏击了!</ManhunterAmbush.letterText>
-  <ManhunterAmbush.letterLabel>远行队遭遇伏击（猎杀人类）</ManhunterAmbush.letterLabel>
-  <!-- Good -->
-  <CaravanMeeting.label>远行队相遇</CaravanMeeting.label>
-  <!-- Bad -->
+  <!-- EN: {0} has been ambushed by {1} from {2}! -->
+  <Ambush.letterText>{0}被来自{2}的{1}的伏击了！</Ambush.letterText>
+  
+  <!-- EN: payment demand -->
   <CaravanDemand.label>打劫</CaravanDemand.label>
+  
+  <!-- EN: caravan meeting -->
+  <CaravanMeeting.label>远行队相遇</CaravanMeeting.label>
+  
+  <!-- EN: manhunter ambush -->
+  <ManhunterAmbush.label>猎杀人类伏击</ManhunterAmbush.label>
+  <!-- EN: Caravan ambushed (manhunters) -->
+  <ManhunterAmbush.letterLabel>远行队遭遇伏击（猎杀人类）</ManhunterAmbush.letterLabel>
+  <!-- EN: {0} has been ambushed by manhunting {1}! -->
+  <ManhunterAmbush.letterText>{0}被猎杀人类的{1}伏击了!</ManhunterAmbush.letterText>
+  
 </LanguageData>

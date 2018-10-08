@@ -1,33 +1,64 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  <!-- Neolithic -->
-  <Apparel_TribalA.label>部落装</Apparel_TribalA.label>
-  <Apparel_TribalA.description>一件用原始工具制成的衣物。虽然看起来很落后，但对它的穿戴者来说效果还不错。</Apparel_TribalA.description>
-  <Apparel_Parka.label>风雪大衣</Apparel_Parka.label>
-  <Apparel_Parka.description>一件厚重的风雪大衣，即使在最寒冷的温度中也能保持温暖。</Apparel_Parka.description>
-  <!-- Medieval -->
-  <Apparel_Pants.label>裤子</Apparel_Pants.label>
-  <Apparel_Pants.description>一条普通的裤子。</Apparel_Pants.description>
+  
+  <!-- EN: T-shirt -->
   <Apparel_BasicShirt.label>T恤衫</Apparel_BasicShirt.label>
+  <!-- EN: A simple T-shirt. -->
   <Apparel_BasicShirt.description>一件普通的T恤衫。</Apparel_BasicShirt.description>
+  
+  <!-- EN: button-down shirt -->
   <Apparel_CollarShirt.label>衬衫</Apparel_CollarShirt.label>
+  <!-- EN: A nice-looking collared shirt with buttons. -->
   <Apparel_CollarShirt.description>一件好看的、带有纽扣的有领衬衫。</Apparel_CollarShirt.description>
+  
+  <!-- EN: duster -->
   <Apparel_Duster.label>防尘大衣</Apparel_Duster.label>
-  <Apparel_Duster.description>一件长型的防尘大衣，用于在户外阻隔阳光、炎热和沙尘。</Apparel_Duster.description>
-  <Apparel_Jacket.label>夹克</Apparel_Jacket.label>
-  <Apparel_Jacket.description>一件坚固的夹克，可以避免擦伤和刮伤，以及在寒冷天气中保持温暖。</Apparel_Jacket.description>
-  <Apparel_PlateArmor.label>板甲</Apparel_PlateArmor.label>
-  <Apparel_PlateArmor.description>一件坚固的板甲，从颈部到脚部都用厚实的装甲板层层堆叠覆盖。</Apparel_PlateArmor.description>
-  <!-- Industrial -->
-  <Apparel_FlakVest.label>防弹背心</Apparel_FlakVest.label>
-  <Apparel_FlakVest.description>一件在胸口和背部插有装甲板的背心。抵御枪械火力。</Apparel_FlakVest.description>
-  <Apparel_FlakPants.label>防弹裤</Apparel_FlakPants.label>
-  <Apparel_FlakPants.description>一条缝有装甲片的裤子。抵御枪械火力。</Apparel_FlakPants.description>
+  <!-- EN: A long duster coat for blocking the sun and grit of the outdoors. -->
+  <Apparel_Duster.description>一件加长的防尘大衣，用于在户外阻隔阳光、炎热和沙尘。</Apparel_Duster.description>
+  
+  <!-- EN: flak jacket -->
   <Apparel_FlakJacket.label>防弹夹克</Apparel_FlakJacket.label>
-  <Apparel_FlakJacket.description>一种缝有装甲钢板的结实的织物夹克衫。虽然它没有坚固的装甲那么好，但它提供了有效的保护，以抵御各种攻击，同时保持相当舒适。</Apparel_FlakJacket.description>
-  <!-- Spacer -->
+  <!-- EN: A tough fabric jacket with armor plates sewn in. While it's not as good as solid armor, it offers effective protection against all manner of attacks while remaining quite comfortable. -->
+  <Apparel_FlakJacket.description>一件全身包覆了装甲板的坚韧的织物夹克，虽然没有全身盔甲严密，但也提供了强大的防护，同时兼顾了舒适性。</Apparel_FlakJacket.description>
+  
+  <!-- EN: flak pants -->
+  <Apparel_FlakPants.label>防弹裤</Apparel_FlakPants.label>
+  <!-- EN: A pair of pants with armor plates sewn in. While it's not as good as solid armor, it offers effective protection against all manner of attacks while remaining quite comfortable. -->
+  <Apparel_FlakPants.description>一条缝有装甲板的裤子，主要用于保护腿部，虽然没有全身盔甲严密，但也提供了强大的防护，同时兼顾了舒适性。</Apparel_FlakPants.description>
+  
+  <!-- EN: flak vest -->
+  <Apparel_FlakVest.label>防弹背心</Apparel_FlakVest.label>
+  <!-- EN: A vest with armor plates inserted on the chest and back. While quite effective at deflecting gunshots and stabbing attacks against the chest, it does nothing to protect the limbs. -->
+  <Apparel_FlakVest.description>一件在胸口和背部插有装甲板的背心。主要用于保护躯干和主要脏器，对四肢没有防护能力。</Apparel_FlakVest.description>
+  
+  <!-- EN: jacket -->
+  <Apparel_Jacket.label>夹克</Apparel_Jacket.label>
+  <!-- EN: A tough jacket to stop scrapes and bruises, and to keep one warm in chilly weather. -->
+  <Apparel_Jacket.description>一件坚固的夹克，可以避免擦伤和刮伤，以及在寒冷天气中保持温暖。</Apparel_Jacket.description>
+  
+  <!-- EN: pants -->
+  <Apparel_Pants.label>裤子</Apparel_Pants.label>
+  <!-- EN: A simple set of pants. -->
+  <Apparel_Pants.description>一条普通的裤子。</Apparel_Pants.description>
+  
+  <!-- EN: parka -->
+  <Apparel_Parka.label>风雪大衣</Apparel_Parka.label>
+  <!-- EN: A parka for staying warm in even the coldest of temperatures. -->
+  <Apparel_Parka.description>一件厚重的风雪大衣，即使在最寒冷的温度中也能保持温暖。</Apparel_Parka.description>
+  
+  <!-- EN: plate armor -->
+  <Apparel_PlateArmor.label>板甲</Apparel_PlateArmor.label>
+  <!-- EN: Overlapping solid plates of armor covering the entire body from neck to feet. -->
+  <Apparel_PlateArmor.description>一件坚固的重型板甲，从颈部到脚部都用厚实的材料层层堆叠覆盖。</Apparel_PlateArmor.description>
+  
+  <!-- EN: marine armor -->
   <Apparel_PowerArmor.label>动力装甲</Apparel_PowerArmor.label>
-  <Apparel_PowerArmor.description>一套动力装甲。覆盖有玻璃钢纤维编制的装甲片，能够十分有效地防御攻击。神经模因机械让人在穿着重型装甲时仍然能够轻松行动。\n\n动力装甲通常由来自太空时代军队的重甲士兵和空间海军突击队员使用。</Apparel_PowerArmor.description>
-  <!--<Apparel_VestPlate.label>防弹背心</Apparel_VestPlate.label>-->
-  <!--<Apparel_VestPlate.description>一件在胸口和背部插有装甲板的背心。抵御枪械火力。</Apparel_VestPlate.description>-->
+  <!-- EN: A suit of light powered armor. Layered plasteel-weave plates are very effective at stopping attacks, with few vulnerable joint sections. Neuro-memetic assistors allow a human to wear the armor and still move easily.\n\nArmor like this is often used by imperial janissaries and rapid-incursion space marines. -->
+  <Apparel_PowerArmor.description>一套强调机动性的动力装甲。从颈部到脚部都覆盖玻璃钢纤维编制的装甲片，能够十分有效地防御攻击。神经模因机械让人在穿着重型装甲时仍然能够轻松行动。\n\n动力装甲通常由来自太空时代军队的重甲士兵和空间海军突击队员使用。</Apparel_PowerArmor.description>
+  
+  <!-- EN: tribalwear -->
+  <Apparel_TribalA.label>部落装</Apparel_TribalA.label>
+  <!-- EN: A full-body garment crafted using neolithic tools. While it may look primitive, it is effective at insulating the wearer. -->
+  <Apparel_TribalA.description>一件用原始工具制成的衣物。虽然看起来很落后，但对它的穿戴者来说效果还不错。</Apparel_TribalA.description>
+  
 </LanguageData>

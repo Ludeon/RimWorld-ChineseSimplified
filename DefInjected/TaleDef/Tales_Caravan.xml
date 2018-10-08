@@ -1,118 +1,225 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <CaravanFormed.label>远行队成立</CaravanFormed.label>
-	<CaravanFormed.rulePack.rulesStrings>
-		<li>tale_noun->[pawn_nameShortDef]的远行队出发</li>
-		<li>tale_noun->[pawn_nameShortDef]组建远行队</li>
-		<li>image->[pawn_nameFull]向着目的地进发，[circumstance_group]</li>
-		<li>image->[pawn_nameFull]望着地平线，[circumstance_group]</li>
-		<li>image->[pawn_nameFull]在打包旅行用品，[circumstance_group]</li>
-		<li>image->[pawn_nameFull]正在制定远行计划，[circumstance_group]</li>
-		<li>circumstance_phrase->并为战斗做好了准备</li>
-		<li>circumstance_phrase->并为生存做好了准备</li>
-		<li>circumstance_phrase->并为勘探做好了准备</li>
-		<li>circumstance_phrase->[pawn_possessive]的眼中透出期待</li>
-		<li>circumstance_phrase->[pawn_possessive]的眼中透出[adjective]的神情</li>
-		<li>desc_sentence->[quantity_adjphrase][ally]在一旁围观。</li>
-		<li>desc_sentence->[quantity_adjphrase][ally]在帮忙做准备。</li>
-		<li>desc_sentence->[quantity_adjphrase][enemy]从现场逃离。</li>
-		<li>desc_sentence->远处的[terrainfeature]依稀可见。</li>
-		<li>desc_sentence->[quantity_adjphrase][outlander]在远处围观。</li>
-		<li>desc_sentence->[quantity_adjphrase][animal]平静地漫步。</li>
-	</CaravanFormed.rulePack.rulesStrings>
-
-  <CaravanFled.label>远行队撤退</CaravanFled.label>
-	<CaravanFled.rulePack.rulesStrings>
-		<li>tale_noun->[pawn_nameShortDef]为了保住[pawn_possessive]的性命而逃跑</li>
-		<li>tale_noun->[pawn_nameShortDef]脱险</li>
-		<li>tale_noun->[pawn_nameShortDef]侥幸脱险</li>
-		<li>tale_noun->[pawn_nameShortDef]被敌人击退</li>
-		<li>image->面对[circumstance_group]，[pawn_nameFull]仓皇逃窜</li>
-		<li>image->为了躲避[circumstance_group]，[pawn_nameFull]在狂奔</li>
-		<li>image->[pawn_nameFull]隐藏在[terrainfeature]之中，躲避[circumstance_group]</li>
-		<li>image->[pawn_nameFull]用一场撤退战迎接[circumstance_group]</li>
-		<li>image->[pawn_nameFull]漫不经心地躲避[circumstance_group]</li>
-		<li>circumstance_phrase->来自[quantity_adjphrase][enemy]的追踪</li>
-		<li>circumstance_phrase->[quantity_adjphrase][enemy]的搜寻</li>
-		<li>circumstance_phrase->[quantity_adjphrase][enemy]</li>
-		<li>circumstance_phrase->来自[quantity_adjphrase]的敌对[animal]的猎杀</li>
-		<li>circumstance_phrase->[huge][enemy]</li>
-		<li>desc_sentence->追击[pawn_nameShortDef]的家伙们挥舞着[weapon]。</li>
-		<li>desc_sentence->[color]的烟雾将追杀[pawn_nameShortDef]的家伙们笼罩其中。</li>
-		<li>desc_sentence->以[pawn_nameShortDef]为目标的追击者露出[angstyadjective]的神情。</li>
-		<li>desc_sentence->以[pawn_nameShortDef]为目标的追击者挥舞着[weapon]。</li>
-		<li>desc_sentence->[pawn_nameShortDef]满头大汗。</li>
-		<li>desc_sentence->[pawn_nameShortDef]气喘吁吁。</li>
-	</CaravanFled.rulePack.rulesStrings>
-
+  
+  <!-- EN: caravan ambush defeated -->
   <CaravanAmbushDefeated.label>远行队战胜伏击</CaravanAmbushDefeated.label>
-	<CaravanAmbushDefeated.rulePack.rulesStrings>
-		<li>tale_noun->[pawn_nameShortDef]的远行队成功的反伏击战</li>
-		<li>tale_noun->[pawn_nameShortDef]挫败了敌人的伏击</li>
-		<li>image->[pawn_nameFull]在组织抵抗，并[circumstance_group]</li>
-		<li>image->[pawn_nameFull][circumstance_group]，同时用[weapon]进行防御</li>
-		<li>image->[pawn_nameFull]用[pawn_possessive][weapon]反击，并[circumstance_group]</li>
-		<li>image->[pawn_nameFull]挺身而出，[circumstance_group]</li>
-		<li>image->[pawn_nameFull]露出[badassadjective]的神情，[circumstance_group]</li>
-		<li>image->[pawn_nameFull]露出[angstyadjective]的申请，[circumstance_group]</li>
-		<li>circumstance_phrase->鼓励前进的部落</li>
-		<li>circumstance_phrase->在货车周围奔走</li>
-		<li>circumstance_phrase->发出胜利的咆哮</li>
-		<li>circumstance_phrase->挥舞着[weapon]</li>
-		<li>circumstance_phrase->无视身上沾满的[gore]</li>
-		<li>desc_sentence->[quantity_adjphrase][enemy]挥舞着[weapon]向前推进。</li>
-		<li>desc_sentence->大量[enemy]挥舞着[weapon]发起冲锋。</li>
-		<li>desc_sentence->[quantity_adjphrase][enemy]向前推进，眼中充满了[badassadjective]的神情。</li>
-		<li>desc_sentence->[quantity_adjphrase][enemy]向前推进，眼中充满了[angstyadjective]的神情。</li>
-		<li>desc_sentence->[quantity_adjphrase][animal]冲锋，[color]的眼睛发出光芒。</li>
-		<li>desc_sentence->[quantity_adjphrase][animal]冲了过来，身上沾满了[gore]。</li>
-		<li>desc_sentence->遍地都是[gore]。</li>
-		<li>desc_sentence->[quantity_adjphrase][outlander]选择逃离该地区。</li>
-		<li>desc_sentence->[quantity_adjphrase][animal]选择逃离该地区。</li>
-	</CaravanAmbushDefeated.rulePack.rulesStrings>
-
-  <CaravanRemoteMining.label>远行队野外开采</CaravanRemoteMining.label>
-	<CaravanRemoteMining.rulePack.rulesStrings>
-		<li>tale_noun->[pawn_nameShortDef]在外乡开采储量丰富的[material_label]</li>
-		<li>image->[pawn_nameFull]正在用工具开采[material_label]，[circumstance_group]</li>
-		<li>image->[pawn_nameFull]高举一大块[material_label]，[circumstance_group]</li>
-		<li>image->[pawn_nameFull]靠在由[material_label]组成的墙上，[circumstance_group]</li>
-		<li>image->[pawn_nameFull]正在指挥挖掘队开采一条储量丰富的[material_label]矿脉，[circumstance_group]</li>
-		<li>image->[pawn_nameFull]正在仔细勘察一条储量丰富的[material_label]矿脉，[circumstance_group]</li>
-		<li>circumstance_phrase->任凭汗水流淌</li>
-		<li>circumstance_phrase->眼中露出[friendlyadjective]的神情</li>
-		<li>circumstance_phrase->面带得意的微笑</li>
-		<li>circumstance_phrase->[pawn_possessive]脸上带着满意的神情</li>
-		<li>circumstance_phrase->同时环顾四周，警惕危险</li>
-		<li>desc_sentence->[quantity_adjphrase][ally]提供了帮助。</li>
-		<li>desc_sentence->[quantity_adjphrase][animal]在那里徘徊漫步。</li>
-		<li>desc_sentence->背景中出现了一个临时住所。</li>
-		<li>desc_sentence->[quantity_adjphrase]更多矿脉在可视距离内。</li>
-		<li>desc_sentence->不远处能看到[terrainfeature]。</li>
-		<li>desc_sentence->工作让[pawn_nameShortDef]变得浑身汗臭而且脏兮兮的。</li>
-	</CaravanRemoteMining.rulePack.rulesStrings>
-
+  <!-- EN:
+    <li>tale_noun->a successful defense of [PAWN_nameDef]'s caravan</li>
+    <li>tale_noun->[PAWN_nameDef]'s caravan fighting off an ambush</li>
+    <li>image->[PAWN_nameFull] organizing resistance while [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] wielding a [Weapon] defensively while [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] retaliating with [PAWN_possessive] [Weapon] while [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] standing as tall as a building while [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] wearing a [AdjectiveBadass] expression while [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] wearing a [AdjectiveAngsty] expression while [circumstance_group]</li>
+    <li>circumstance_phrase->bracing against the advancing horde</li>
+    <li>circumstance_phrase->circling the wagons</li>
+    <li>circumstance_phrase->roaring in victory</li>
+    <li>circumstance_phrase->brandishing [Weapon]s</li>
+    <li>circumstance_phrase->covered in [Gore]</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Enemy]s advance, brandishing [Weapon]s.</li>
+    <li>desc_sentence->A huge [Enemy] advances, brandishing a [Weapon].</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Enemy]s advance with a [AdjectiveBadass] look in their eyes.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Enemy]s advance with a [AdjectiveAngsty] look in their eyes.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s advance with glowing [Color] eyes.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s advance, covered in [Gore].</li>
+    <li>desc_sentence->The ground is coated in [Gore].</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s flee the area.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s flee the area.</li>
+  -->
+  <CaravanAmbushDefeated.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef]的远行队反伏击战成功</li>
+    <li>tale_noun->[PAWN_nameDef]的远行队挫败了敌人的伏击</li>
+    <li>image->[PAWN_nameFull]在组织抵抗，并[circumstance_group]</li>
+    <li>image->[PAWN_nameFull]一边用[Weapon]防御，一边[circumstance_group]</li>
+    <li>image->[PAWN_nameFull]使用[PAWN_possessive][Weapon]还击，同时[circumstance_group]</li>
+    <li>image->[PAWN_nameFull]挺身而出，[circumstance_group]</li>
+    <li>image->[PAWN_nameFull]露出[AdjectiveBadass]的神情，[circumstance_group]</li>
+    <li>image->[PAWN_nameFull]露出[AdjectiveAngsty]的神情，[circumstance_group]</li>
+    <li>circumstance_phrase->为冲在前面的同伴掩护</li>
+    <li>circumstance_phrase->在远行队四周奔走</li>
+    <li>circumstance_phrase->发出胜利的咆哮</li>
+    <li>circumstance_phrase->挥舞着[Weapon]</li>
+    <li>circumstance_phrase->无视身上沾满的[Gore]</li>
+    <li>desc_sentence->[Quantity_adjphrase][Enemy]挥动着[Weapon]向前推进。</li>
+    <li>desc_sentence->大量[Enemy]挥舞着[Weapon]发起冲锋。</li>
+    <li>desc_sentence->[Quantity_adjphrase][Enemy]向前推进，眼中充满了[AdjectiveBadass]的神情。</li>
+    <li>desc_sentence->[Quantity_adjphrase][Enemy]向前推进，眼中充满了[AdjectiveAngsty]的神情。</li>
+    <li>desc_sentence->[Quantity_adjphrase][Animal]冲锋，[Color]的眼睛散发出光芒。</li>
+    <li>desc_sentence->[Quantity_adjphrase][Animal]冲上来，浑身沾满[Gore]。</li>
+    <li>desc_sentence->遍地都是[Gore]。</li>
+    <li>desc_sentence->[Quantity_adjphrase][PersonJob]选择逃离该地区。</li>
+    <li>desc_sentence->[Quantity_adjphrase][Animal]选择逃离该地区。</li>
+  </CaravanAmbushDefeated.rulePack.rulesStrings>
+  
+  <!-- EN: caravan assault successful -->
   <CaravanAssaultSuccessful.label>远行队战斗胜利</CaravanAssaultSuccessful.label>
-	<CaravanAssaultSuccessful.rulePack.rulesStrings>
-		<li>tale_noun->[pawn_nameShortDef]的远行队摧毁了敌方据点</li>
-		<li>image->[pawn_nameFull]冲向[enemy]，[circumstance_group]</li>
-		<li>image->[pawn_nameFull]紧握着[weapon]，circumstance_group]</li>
-		<li>image->[pawn_nameFull]挥舞着[weapon]，[circumstance_group]</li>
-		<li>image->[pawn_nameFull]挺身而出，[circumstance_group]</li>
-		<li>circumstance_phrase->[pawn_possessive]眼中充满了[badassadjective]的神情</li>
-		<li>circumstance_phrase->[pawn_possessive]眼中充满了[angstyadjective]的神情</li>
-		<li>circumstance_phrase->发出胜利的战吼</li>
-		<li>circumstance_phrase->身上沾满了[gore]</li>
-		<li>desc_sentence->[quantity_adjphrase][enemy]在战斗中被击退。</li>
-		<li>desc_sentence->[quantity_adjphrase][enemy]落荒而逃。</li>
-		<li>desc_sentence->[quantity_adjphrase][enemy]损失惨重。</li>
-		<li>desc_sentence->远处的[community]燃烧着。</li>
-		<li>desc_sentence->远处的[community]浓烟滚滚。</li>
-		<li>desc_sentence->遍地都是[gore]。</li>
-		<li>desc_sentence->[quantity_adjphrase][outlander]为了避难离开此地。</li>
-		<li>desc_sentence->[quantity_adjphrase][animal]为了避难离开此地。</li>
-	</CaravanAssaultSuccessful.rulePack.rulesStrings>
-
-
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef]'s caravan defeating an enemy stronghold</li>
+    <li>image->[PAWN_nameFull] running towards a [Enemy], [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] wielding a [Weapon], [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] swinging a [Weapon], [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] standing as tall as a building, [circumstance_group]</li>
+    <li>circumstance_phrase->wearing a [AdjectiveBadass] look in [PAWN_possessive] eyes</li>
+    <li>circumstance_phrase->wearing a [AdjectiveAngsty] look in [PAWN_possessive] eyes</li>
+    <li>circumstance_phrase->roaring in victory</li>
+    <li>circumstance_phrase->covered in [Gore]</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Enemy]s cower from the assault.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Enemy]s flee the area.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Enemy]s are visibly wounded.</li>
+    <li>desc_sentence->A [Community] burns in the distance.</li>
+    <li>desc_sentence->A [Community] smokes in the distance.</li>
+    <li>desc_sentence->The ground is coated in [Gore].</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s flee the area.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s flee the area.</li>
+  -->
+  <CaravanAssaultSuccessful.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef]的远行队摧毁了敌方据点</li>
+    <li>image->[PAWN_nameFull]冲向[Enemy]，[circumstance_group]</li>
+    <li>image->[PAWN_nameFull]紧握着[Weapon]，[circumstance_group]</li>
+    <li>image->[PAWN_nameFull]挥舞着[Weapon]，[circumstance_group]</li>
+    <li>image->[PAWN_nameFull]挺身而出，[circumstance_group]</li>
+    <li>circumstance_phrase->[PAWN_possessive]眼中充满了[AdjectiveBadass]的神情</li>
+    <li>circumstance_phrase->[PAWN_possessive]眼中充满了[AdjectiveAngsty]的神情</li>
+    <li>circumstance_phrase->发出胜利的战吼</li>
+    <li>circumstance_phrase->身上沾满了[Gore]</li>
+    <li>desc_sentence->[Quantity_adjphrase][Enemy]在战斗中被击退。</li>
+    <li>desc_sentence->[Quantity_adjphrase][Enemy]落荒而逃。</li>
+    <li>desc_sentence->[Quantity_adjphrase][Enemy]损失惨重。</li>
+    <li>desc_sentence->远处的[Community]燃烧着。</li>
+    <li>desc_sentence->远处的[Community]浓烟滚滚。</li>
+    <li>desc_sentence->遍地都是[Gore]。</li>
+    <li>desc_sentence->[Quantity_adjphrase][PersonJob]为了避难离开此地。</li>
+    <li>desc_sentence->[Quantity_adjphrase][Animal]为了避难离开此地。</li>
+  </CaravanAssaultSuccessful.rulePack.rulesStrings>
+  
+  <!-- EN: caravan fled -->
+  <CaravanFled.label>远行队撤退</CaravanFled.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef]'s caravan fleeing danger</li>
+    <li>tale_noun->[PAWN_nameDef]'s caravan escaping danger</li>
+    <li>tale_noun->[PAWN_nameDef]'s caravan narrowly escaping danger</li>
+    <li>tale_noun->[PAWN_nameDef]'s caravan being chased away by enemies</li>
+    <li>image->[PAWN_nameFull] running frantically [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] sprinting [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] tucked behind a [TerrainFeature], hiding [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] putting up a fighting retreat [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] casually strolling away [circumstance_group]</li>
+    <li>circumstance_phrase->as [Quantity_adjphrase] [Enemy]s chase</li>
+    <li>circumstance_phrase->while [Quantity_adjphrase] [Enemy]s search</li>
+    <li>circumstance_phrase->from [Quantity_adjphrase] [Enemy]s</li>
+    <li>circumstance_phrase->from [Quantity_adjphrase] enemy [Animal]s</li>
+    <li>circumstance_phrase->from a [huge] [Enemy]</li>
+    <li>desc_sentence->[PAWN_nameDef]'s pursuers are brandishing [Weapon]s.</li>
+    <li>desc_sentence->[PAWN_nameDef]'s pursuers are wreathed in [Color] smoke.</li>
+    <li>desc_sentence->[PAWN_nameDef]'s pursuers wear [AdjectiveAngsty] expressions.</li>
+    <li>desc_sentence->[PAWN_nameDef]'s pursuers are brandishing [Weapon]s.</li>
+    <li>desc_sentence->[PAWN_nameDef] is sweating.</li>
+    <li>desc_sentence->[PAWN_nameDef] is gasping for breath.</li>
+  -->
+  <CaravanFled.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef]的远行队脱险</li>
+    <li>tale_noun->[PAWN_nameDef]的远行队脱离险境</li>
+    <li>tale_noun->[PAWN_nameDef]的远行队侥幸脱险</li>
+    <li>tale_noun->[PAWN_nameDef]的远行队被敌人赶跑</li>
+    <li>image->[PAWN_nameFull]仓皇逃窜以[circumstance_group]</li>
+    <li>image->为了躲避[circumstance_group]，[PAWN_nameFull]夺路而逃</li>
+    <li>image->[PAWN_nameFull]隐藏在[TerrainFeature]中，躲避[circumstance_group]</li>
+    <li>image->[PAWN_nameFull]用一场撤退战迎接[circumstance_group]</li>
+    <li>image->[PAWN_nameFull]漫不经心地躲避[circumstance_group]</li>
+    <li>circumstance_phrase->来自[Quantity_adjphrase][Enemy]的追踪</li>
+    <li>circumstance_phrase->[Quantity_adjphrase][Enemy]的搜寻</li>
+    <li>circumstance_phrase->[Quantity_adjphrase][Enemy]</li>
+    <li>circumstance_phrase->来自[Quantity_adjphrase]的敌对[Animal]的猎杀</li>
+    <li>circumstance_phrase->[huge][Enemy]</li>
+    <li>desc_sentence->追击[PAWN_nameDef]的家伙们挥舞着[Weapon]。</li>
+    <li>desc_sentence->[Color]的烟雾将追杀[PAWN_nameDef]的家伙们笼罩在其中。</li>
+    <li>desc_sentence->以[PAWN_nameDef]为目标的追击者露出[AdjectiveAngsty]的神情。</li>
+    <li>desc_sentence->以[PAWN_nameDef]为目标的追击者挥舞着[Weapon]。</li>
+    <li>desc_sentence->[PAWN_nameDef]满头大汗。</li>
+    <li>desc_sentence->[PAWN_nameDef]气喘吁吁。</li>
+  </CaravanFled.rulePack.rulesStrings>
+  
+  <!-- EN: caravan formed -->
+  <CaravanFormed.label>远行队成立</CaravanFormed.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef] departing for adventure</li>
+    <li>tale_noun->[PAWN_nameDef] forming a caravan</li>
+    <li>image->[PAWN_nameFull] striding forward purposefully [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] looking towards the horizon [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] packing supplies for a journey [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] planning a journey [circumstance_group]</li>
+    <li>circumstance_phrase->and equipped for a fight</li>
+    <li>circumstance_phrase->and equipped for survival</li>
+    <li>circumstance_phrase->and equipped for exploration</li>
+    <li>circumstance_phrase->with an eager look in [PAWN_possessive] eyes</li>
+    <li>circumstance_phrase->with a [AdjectiveAny] look in [PAWN_possessive] eyes</li>
+    <li>desc_sentence->[Quantity_adjphrase] [ally]s watch the preparations.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [ally]s help with the preparations.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Enemy]s shrink away from the scene.</li>
+    <li>desc_sentence->A [TerrainFeature] is visible in the distance.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s watch from a distance.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s wander peacefully.</li>
+  -->
+  <CaravanFormed.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef]的远行队出发</li>
+    <li>tale_noun->[PAWN_nameDef]组建远行队</li>
+    <li>image->[PAWN_nameFull]向着目的地进发，[circumstance_group]</li>
+    <li>image->[PAWN_nameFull]望着地平线，[circumstance_group]</li>
+    <li>image->[PAWN_nameFull]在打包旅行用品，[circumstance_group]</li>
+    <li>image->[PAWN_nameFull]正在制定远行计划，[circumstance_group]</li>
+    <li>circumstance_phrase->并为战斗做好了准备</li>
+    <li>circumstance_phrase->并为生存做好了准备</li>
+    <li>circumstance_phrase->并为勘探做好了准备</li>
+    <li>circumstance_phrase->[PAWN_possessive]的眼中透出期待</li>
+    <li>circumstance_phrase->[PAWN_possessive]的眼中透出[AdjectiveAny]的神情</li>
+    <li>desc_sentence->[Quantity_adjphrase][ally]在一旁围观。</li>
+    <li>desc_sentence->[Quantity_adjphrase][ally]在帮忙做准备。</li>
+    <li>desc_sentence->[Quantity_adjphrase][Enemy]从现场逃离。</li>
+    <li>desc_sentence->远处的[TerrainFeature]依稀可见</li>
+    <li>desc_sentence->[Quantity_adjphrase][PersonJob]在远处围观。</li>
+    <li>desc_sentence->[Quantity_adjphrase][Animal]平静地漫步。</li>
+  </CaravanFormed.rulePack.rulesStrings>
+  
+  <!-- EN: caravan remote mining -->
+  <CaravanRemoteMining.label>远行队野外开采</CaravanRemoteMining.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef]'s caravan mining a rich vein of [MATERIAL_label] in a foreign land</li>
+    <li>image->[PAWN_nameFull] working a [MATERIAL_label] wall with mining tools, [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] holding up a chunk of [MATERIAL_label], [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] resting against a wall of [MATERIAL_label], [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] coordinating an excavation team against a rich vein of [MATERIAL_label], [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] carefully inspecting a rich vein of [MATERIAL_label], [circumstance_group]</li>
+    <li>circumstance_phrase->sweating heavily</li>
+    <li>circumstance_phrase->wearing a [AdjectiveFriendly] expression</li>
+    <li>circumstance_phrase->smiling proudly</li>
+    <li>circumstance_phrase->a satisfied expression on [PAWN_possessive] face</li>
+    <li>circumstance_phrase->looking around warily for danger</li>
+    <li>desc_sentence->[Quantity_adjphrase] [ally]s assist.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s wander the area.</li>
+    <li>desc_sentence->There is a makeshift shelter in the background.</li>
+    <li>desc_sentence->[Quantity_adjphrase] further veins are visible in the distance.</li>
+    <li>desc_sentence->A [TerrainFeature] is visible in the distance.</li>
+    <li>desc_sentence->[PAWN_nameDef] is sweaty and dirty from work.</li>
+  -->
+  <CaravanRemoteMining.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef]在外乡开采储量丰富的[MATERIAL_label]</li>
+    <li>image->[PAWN_nameFull]正在用工具开采[MATERIAL_label]，[circumstance_group]</li>
+    <li>image->[PAWN_nameFull]高举一大块[MATERIAL_label]，[circumstance_group]</li>
+    <li>image->[PAWN_nameFull]靠在由[MATERIAL_label]组成的墙上，[circumstance_group]</li>
+    <li>image->[PAWN_nameFull]正在指挥挖掘队开采一条储量丰富的[MATERIAL_label]矿脉，[circumstance_group]</li>
+    <li>image->[PAWN_nameFull]正在仔细勘察一条储量丰富的[MATERIAL_label]矿脉，[circumstance_group]</li>
+    <li>circumstance_phrase->任凭汗水流淌</li>
+    <li>circumstance_phrase->眼中露出[AdjectiveFriendly]的神情</li>
+    <li>circumstance_phrase->面带得意的微笑</li>
+    <li>circumstance_phrase->[PAWN_possessive]脸上带着满意的神情</li>
+    <li>circumstance_phrase->同时环顾四周，警惕危险</li>
+    <li>desc_sentence->[Quantity_adjphrase][ally]提供了帮助。</li>
+    <li>desc_sentence->[Quantity_adjphrase][Animal]在那里徘徊漫步。</li>
+    <li>desc_sentence->背景中出现了一个临时住所。</li>
+    <li>desc_sentence->[Quantity_adjphrase]更多矿脉在可视距离内。</li>
+    <li>desc_sentence->不远处能看到[TerrainFeature]。</li>
+    <li>desc_sentence->工作让[PAWN_nameDef]变得浑身汗臭而且脏兮兮的。</li>
+  </CaravanRemoteMining.rulePack.rulesStrings>
+  
 </LanguageData>

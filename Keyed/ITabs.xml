@@ -1,157 +1,292 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
   <!-- ITab titles -->
+  <!-- EN: Bills -->
   <TabBills>清单</TabBills>
+  <!-- EN: Growing -->
   <TabGrowing>种植</TabGrowing>
+  <!-- EN: Bio -->
   <TabCharacter>角色</TabCharacter>
+  <!-- EN: Training -->
   <TabTraining>训练</TabTraining>
+  <!-- EN: Prisoner -->
   <TabPrisoner>囚犯</TabPrisoner>
+  <!-- EN: Guest -->
   <TabGuest>访客</TabGuest>
+  <!-- EN: Gear -->
   <TabGear>装备</TabGear>
+  <!-- EN: Needs -->
   <TabNeeds>需求</TabNeeds>
+  <!-- EN: Storage -->
   <TabStorage>储存筛选</TabStorage>
+  <!-- EN: Shells -->
   <TabShells>弹药</TabShells>
+  <!-- EN: Health -->
   <TabHealth>健康</TabHealth>
+  <!-- EN: Race -->
   <TabRace>种族</TabRace>
+  <!-- EN: Basics -->
   <TabBasics>基础</TabBasics>
+  <!-- EN: Stats -->
   <TabStats>属性</TabStats>
+  <!-- EN: Records -->
   <TabRecords>记录</TabRecords>
+  <!-- EN: Art -->
   <TabArt>艺术</TabArt>
+  <!-- EN: Social -->
   <TabSocial>社交</TabSocial>
+  <!-- EN: Log -->
   <TabLog>日志</TabLog>
+  <!-- EN: Caravan -->
   <TabFormingCaravan>远行队</TabFormingCaravan>
-
+  <!-- EN: Contents -->
+  <TabTransporterContents>内容</TabTransporterContents>
 
   <!-- Bills tab  -->
+  <!-- EN: Add bill -->
   <AddBill>添加清单</AddBill>
+  <!-- EN: The recipe {0} requires the skills below. None of your colonists have these skills, so nobody will do this bill. -->
   <RecipeRequiresSkills>配方{0}有以下技能要求。你没有达到该技能要求的殖民者，因此这份清单将无人完成。</RecipeRequiresSkills>
+  <!-- EN: Min skill -->
   <MinimumSkill>最低技能要求</MinimumSkill>
+  <!-- EN: SUSPENDED -->
   <SuspendedCaps>已暂停</SuspendedCaps>
-  <BoundWorkerIs>绑定工作者: {0}</BoundWorkerIs>
+  <!-- EN: Worker: {0} -->
+  <BoundWorkerIs>绑定工作者:{0}</BoundWorkerIs>
+  <!-- EN: Plant -->
   <PlantVerb>种植</PlantVerb>
+  <!-- EN: Copied bill cannot be pasted here. -->
   <ClipboardBillNotAvailableHere>复制的清单无法粘贴在此</ClipboardBillNotAvailableHere>
+  <!-- EN: Move up -->
   <ReorderBillUpTip>上移</ReorderBillUpTip>
+  <!-- EN: Move down -->
   <ReorderBillDownTip>下移</ReorderBillDownTip>
+  <!-- EN: Delete -->
   <DeleteBillTip>删除</DeleteBillTip>
+  <!-- EN: Copy to the clipboard -->
   <CopyBillTip>复制进剪切板</CopyBillTip>
+  <!-- EN: Suspend -->
   <SuspendBillTip>暂停</SuspendBillTip>
+  <!-- EN: Paste -->
   <PasteBillTip>粘贴</PasteBillTip>
+  <!-- EN: can't add more -->
   <PasteBillTip_LimitReached>不能再加了</PasteBillTip_LimitReached>
 
-
   <!-- Guest/prisoner tab -->
+  <!-- EN: Resistance remaining -->
+  <RecruitmentResistance>招募抵抗</RecruitmentResistance>
+  <!-- EN: Recruitment difficulty -->
   <RecruitmentDifficulty>招募难度</RecruitmentDifficulty>
+  <!-- EN: Gets food -->
   <GetsFood>食物供应</GetsFood>
+  <!-- EN: Doctors care -->
   <DoctorsCare>医生照顾</DoctorsCare>
+  <!-- EN: Gets medicine -->
   <GetsMedicine>药物供应</GetsMedicine>
+  <!-- EN: Try to recruit -->
   <ShouldTryToRecruit>尝试招募</ShouldTryToRecruit>
+  <!-- EN: Considered guilty (expires in {0}) -->
   <ConsideredGuilty>被判有罪（{0}后消失）</ConsideredGuilty>
 
-
   <!-- Medical - general -->
+  <!-- EN: Move speed -->
   <MoveSpeed>移动速度</MoveSpeed>
+  <!-- EN: Efficiency -->
   <Efficiency>效率</Efficiency>
+  <!-- EN: Part efficiency -->
   <PartEfficiency>部件效率</PartEfficiency>
+  <!-- EN: Body part efficiency -->
   <BodyPartEfficiency>身体部件效率</BodyPartEfficiency>
+  <!-- EN: Gone -->
   <MissingBodyPart>不存在</MissingBodyPart>
+  <!-- EN: Destroyed -->
   <DestroyedBodyPart>被毁</DestroyedBodyPart>
+  <!-- EN: Shattered -->
   <ShatteredBodyPart>击碎</ShatteredBodyPart>
+  <!-- EN: Removed -->
   <RemovedBodyPart>移除</RemovedBodyPart>
+  <!-- EN: Healthy -->
   <Healthy>健康</Healthy>
+  <!-- EN: In pain -->
   <InPain>感到疼痛</InPain>
+  <!-- EN: Pain -->
   <PainLevel>疼痛</PainLevel>
+  <!-- EN: Injured -->
   <Injured>受伤</Injured>
-  <NoInjuries>（没有受伤）</NoInjuries>
+  <!-- EN: no health conditions -->
+  <NoHealthConditions>没有健康状况</NoHealthConditions>
+  <!-- EN: Whole body -->
   <WholeBody>全身</WholeBody>
+  <!-- EN: Data processing -->
   <DataProcessing>数据处理</DataProcessing>
+  <!-- EN: Communication -->
   <Communication>交流</Communication>
+  <!-- EN: Affects -->
   <Affects>影响</Affects>
+  <!-- EN: Bleeding -->
   <BleedingRate>失血速率</BleedingRate>
+  <!-- EN: death in {0} -->
   <TimeToDeath>{0}后死亡</TimeToDeath>
+  <!-- EN: no immediate danger -->
   <WontBleedOutSoon>无生命危险</WontBleedOutSoon>
+  <!-- EN: Overview -->
   <HealthOverview>概况</HealthOverview>
+  <!-- EN: Operations ({0}) -->
   <MedicalOperationsShort>手术（{0}）</MedicalOperationsShort>
+  <!-- EN: Modifications ({0}) -->
   <MedicalOperationsMechanoidsShort>改装（{0}）</MedicalOperationsMechanoidsShort>
+  <!-- EN: Medical operations -->
   <MedicalOperations>医疗手术</MedicalOperations>
+  <!-- EN: amputate -->
   <Amputate>截肢</Amputate>
-  <HarvestOrgan>harvest</HarvestOrgan>
+  <!-- EN: harvest -->
+  <HarvestOrgan>摘取</HarvestOrgan>
+  <!-- EN: remove -->
   <RemoveOrgan>摘除</RemoveOrgan>
+  <!-- EN: memory -->
   <MemoryLower>记忆</MemoryLower>
+  <!-- EN: social interactions -->
   <SocialInteractionsLower>社交互动</SocialInteractionsLower>
+  <!-- EN: Hunger rate -->
   <HungerRate>饥饿度</HungerRate>
+  <!-- EN: Tiredness -->
   <Tiredness>疲劳度</Tiredness>
+  <!-- EN: Pain -->
   <PainFactor>痛觉系数</PainFactor>
+  <!-- EN: Prevents infection -->
   <PreventsInfection>抗感染</PreventsInfection>
+  <!-- EN: Self-tend -->
   <SelfTend>自我治疗</SelfTend>
+  <!-- EN: {0} with self-tend enabled will automatically tend to themselves on the spot at {1} the normal efficiency. -->
   <SelfTendTip>{0}开启自我治疗后将会以正常效果的 {1} 当场自动治疗自己。</SelfTendTip>
-
-
+  
   <!-- Medical - Body and activities condition -->
+  <!-- EN: None -->
   <None>无</None>
+  <!-- EN: Very poor -->
   <VeryPoor>极差</VeryPoor>
+  <!-- EN: Poor -->
   <Poor>较差</Poor>
+  <!-- EN: Weakened -->
   <Weakened>虚弱</Weakened>
+  <!-- EN: OK -->
   <GoodCondition>健康</GoodCondition>
+  <!-- EN: Enhanced -->
   <Enhanced>增强</Enhanced>
+  <!-- EN: Seriously impaired -->
   <SeriouslyImpaired>严重受损</SeriouslyImpaired>
+  <!-- EN: Impaired -->
   <Impaired>受损</Impaired>
+  <!-- EN: Slightly impaired -->
   <SlightlyImpaired>轻微受损</SlightlyImpaired>
+  <!-- EN: None -->
   <NoPain>无</NoPain>
+  <!-- EN: Little -->
   <LittlePain>轻微</LittlePain>
+  <!-- EN: Medium -->
   <MediumPain>中等</MediumPain>
+  <!-- EN: Severe -->
   <SeverePain>剧烈</SeverePain>
+  <!-- EN: Extreme -->
   <ExtremePain>极度</ExtremePain>
 
-
   <!-- Training tab -->
+  <!-- EN: Trainability -->
   <Trainability>可训练度</Trainability>
+  <!-- EN: Requires trainability {0}. -->
   <CannotTrainNotSmartEnough>智力级别要求: {0}。</CannotTrainNotSmartEnough>
+  <!-- EN: {0} is too small to train this. -->
   <CannotTrainTooSmall>{0}体形过小，无法训练。</CannotTrainTooSmall>
 
+  <!-- EN: Prerequisite needed: {0} -->
   <TrainingNeedsPrerequisite>先决条件: {0}</TrainingNeedsPrerequisite>
-
+  
   <!-- Social tab -->
+  <!-- EN: (no relationships) -->
   <NoRelationships>（无关系）</NoRelationships>
+  <!-- EN: Kidnapped -->
   <Kidnapped>被绑架</Kidnapped>
+  <!-- EN: Missing -->
   <Missing>失踪</Missing>
+  <!-- EN: Slave -->
   <Slave>奴隶</Slave>
+  <!-- EN: Faction leader -->
   <FactionLeader>派系首领</FactionLeader>
+  <!-- EN: Opinion of {0} -->
   <OpinionOf>对{0}的印象</OpinionOf>
+  <!-- EN: {0}'s opinion of me -->
   <SomeonesOpinionOfMe>{0}对我的印象</SomeonesOpinionOfMe>
+  <!-- EN: I'm dead -->
   <IAmDead>我死了</IAmDead>
+  <!-- EN: I'm a psychopath -->
   <IAmPsychopath>我心理变态</IAmPsychopath>
-
+  
   <!-- Gear tab -->
+  <!-- EN: Overall armor -->
   <OverallArmor>总护甲</OverallArmor>
+  <!-- EN: Mass carried: {0} / {1} kg -->
   <MassCarried>负重: {0} / {1} kg</MassCarried>
+  <!-- EN: Comfortable temperature range -->
   <ComfyTemperatureRange>适宜温度范围</ComfyTemperatureRange>
+  <!-- EN: Blunt -->
   <ArmorBlunt>钝器护甲</ArmorBlunt>
+  <!-- EN: Sharp -->
   <ArmorSharp>利器护甲</ArmorSharp>
+  <!-- EN: Heat -->
   <ArmorHeat>热能护甲</ArmorHeat>
-
+  
   <!-- Log tab -->
+  <!-- EN: Show all -->
   <ShowAll>显示全部</ShowAll>
+  <!-- EN: Show combat -->
   <ShowCombat>显示战斗</ShowCombat>
+  <!-- EN: Show social -->
   <ShowSocial>显示社交</ShowSocial>
+  <!-- EN: no recent entries -->
   <NoRecentEntries>无最近项目</NoRecentEntries>
+  <!-- EN: Copy log to the clipboard. -->
   <CopyLogTip>将日志复制到剪贴板</CopyLogTip>
 
   <!-- Forming caravan tab -->
+  <!-- EN: Gathering animals -->
   <FormingCaravanStatus_GatheringAnimals>收集动物</FormingCaravanStatus_GatheringAnimals>
+  <!-- EN: Gathering animals (waiting) -->
   <FormingCaravanStatus_GatheringAnimals_Pause>收集动物（等待中）</FormingCaravanStatus_GatheringAnimals_Pause>
+  <!-- EN: Gathering items -->
   <FormingCaravanStatus_GatheringItems>收集物品</FormingCaravanStatus_GatheringItems>
+  <!-- EN: Gathering items (waiting) -->
   <FormingCaravanStatus_GatheringItems_Pause>收集物品（等待中）</FormingCaravanStatus_GatheringItems_Pause>
+  <!-- EN: Gathering slaves -->
   <FormingCaravanStatus_GatheringSlaves>收集奴隶</FormingCaravanStatus_GatheringSlaves>
+  <!-- EN: Gathering slaves (waiting) -->
   <FormingCaravanStatus_GatheringSlaves_Pause>收集奴隶（等待中）</FormingCaravanStatus_GatheringSlaves_Pause>
+  <!-- EN: Leaving -->
   <FormingCaravanStatus_Leaving>正在离开</FormingCaravanStatus_Leaving>
+  <!-- EN: Leaving (waiting) -->
   <FormingCaravanStatus_Leaving_Pause>正在离开（等待中）</FormingCaravanStatus_Leaving_Pause>
+  <!-- EN: Waiting -->
   <FormingCaravanStatus_Waiting>等待中</FormingCaravanStatus_Waiting>
+  <!-- EN: Members -->
   <CaravanMembers>成员</CaravanMembers>
+  <!-- EN: Animals -->
   <CaravanAnimals>动物</CaravanAnimals>
+  <!-- EN: Items to load -->
   <ItemsToLoad>须装载物品</ItemsToLoad>
+  <!-- EN: Loaded items -->
   <LoadedItems>已装载物品</LoadedItems>
+  <!-- EN: pack animals -->
   <PackAnimalsCountLower>驮运动物</PackAnimalsCountLower>
+  <!-- EN: mentally broken -->
   <InMentalStateCountLower>精神崩溃</InMentalStateCountLower>
+
+  <!-- Transporter contents -->
+  <!-- EN: Remove {{0}}x {0} -->
+  <RemoveSliderText>去掉 {{0}}x {0}</RemoveSliderText>
+  <!-- EN: Do you really want to remove {0}? -->
+  <ConfirmRemoveItemDialog>你真的想去掉{0}吗？</ConfirmRemoveItemDialog>
+
+  <!-- UNUSED -->
+  <NoInjuries>（没有受伤）</NoInjuries>
 
 </LanguageData>

@@ -1,131 +1,240 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <!-- Missing body part -->
-
-  <MissingBodyPart.label>缺失身体部件</MissingBodyPart.label>
-  <MissingBodyPart.labelNoun>缺失身体部件</MissingBodyPart.labelNoun>
-
-
-  <!-- Injuries -->
-
-  <Misc.label>杂项</Misc.label>
-  <Misc.comps.0.labelTendedWell>已包扎</Misc.comps.0.labelTendedWell>
-  <Misc.comps.0.labelTendedWellInner>已缝合</Misc.comps.0.labelTendedWellInner>
-  <Misc.comps.0.labelSolidTendedWell>已固定</Misc.comps.0.labelSolidTendedWell>
-  <Misc.injuryProps.destroyedLabel>已丧失功能</Misc.injuryProps.destroyedLabel>
-  <Misc.labelNoun>杂项</Misc.labelNoun>
-
-  <Burn.label>烧伤</Burn.label>
-  <Burn.comps.0.labelTendedWell>已包扎</Burn.comps.0.labelTendedWell>
-  <Burn.comps.0.labelTendedWellInner>已缝合</Burn.comps.0.labelTendedWellInner>
-  <Burn.comps.0.labelSolidTendedWell>已固定</Burn.comps.0.labelSolidTendedWell>
-  <Burn.comps.2.permanentLabel>烧伤疤痕</Burn.comps.2.permanentLabel>
-  <Burn.injuryProps.destroyedLabel>被烧毁</Burn.injuryProps.destroyedLabel>
-  <Burn.injuryProps.destroyedOutLabel>被烧掉</Burn.injuryProps.destroyedOutLabel>
-  <Burn.labelNoun>烧伤</Burn.labelNoun>
-
-  <Crush.label>压伤</Crush.label>
-  <Crush.comps.0.labelTendedWell>已包扎</Crush.comps.0.labelTendedWell>
-  <Crush.comps.0.labelTendedWellInner>已缝合</Crush.comps.0.labelTendedWellInner>
-  <Crush.comps.0.labelSolidTendedWell>已固定</Crush.comps.0.labelSolidTendedWell>
-  <Crush.comps.2.permanentLabel>压伤疤痕</Crush.comps.2.permanentLabel>
-  <Crush.injuryProps.destroyedLabel>被压毁</Crush.injuryProps.destroyedLabel>
-  <Crush.labelNoun>压伤</Crush.labelNoun>
-
-  <Crack.label>破裂</Crack.label>
-  <Crack.comps.0.labelTendedWell>已愈合</Crack.comps.0.labelTendedWell>
-  <Crack.comps.0.labelTendedWellInner>已愈合</Crack.comps.0.labelTendedWellInner>
-  <Crack.comps.0.labelSolidTendedWell>已固定</Crack.comps.0.labelSolidTendedWell>
-  <Crack.injuryProps.destroyedLabel>已碎</Crack.injuryProps.destroyedLabel>
-  <Crack.labelNoun>破裂</Crack.labelNoun>
-
-  <Cut.label>割伤</Cut.label>
-  <Cut.comps.0.labelTendedWell>已包扎</Cut.comps.0.labelTendedWell>
-  <Cut.comps.0.labelTendedWellInner>已缝合</Cut.comps.0.labelTendedWellInner>
-  <Cut.comps.0.labelSolidTendedWell>已简单固定</Cut.comps.0.labelSolidTendedWell>
-  <Cut.comps.2.permanentLabel>割伤疤痕</Cut.comps.2.permanentLabel>
-  <Cut.injuryProps.destroyedLabel>被切除</Cut.injuryProps.destroyedLabel>
-  <Cut.injuryProps.destroyedOutLabel>被切除</Cut.injuryProps.destroyedOutLabel>
-  <Cut.labelNoun>割伤</Cut.labelNoun>
-
-  <SurgicalCut.label>手术伤</SurgicalCut.label>
-  <SurgicalCut.comps.0.labelTendedWell>已包扎</SurgicalCut.comps.0.labelTendedWell>
-  <SurgicalCut.comps.0.labelTendedWellInner>已缝合</SurgicalCut.comps.0.labelTendedWellInner>
-  <SurgicalCut.comps.0.labelSolidTendedWell>已简单固定</SurgicalCut.comps.0.labelSolidTendedWell>
-  <SurgicalCut.comps.2.permanentLabel>手术疤痕</SurgicalCut.comps.2.permanentLabel>
-  <SurgicalCut.labelNoun>手术伤</SurgicalCut.labelNoun>
-
-  <Scratch.label>抓伤</Scratch.label>
-  <Scratch.comps.0.labelTendedWell>已包扎</Scratch.comps.0.labelTendedWell>
-  <Scratch.comps.0.labelTendedWellInner>已缝合</Scratch.comps.0.labelTendedWellInner>
-  <Scratch.comps.0.labelSolidTendedWell>已简单固定</Scratch.comps.0.labelSolidTendedWell>
-  <Scratch.comps.2.permanentLabel>抓痕</Scratch.comps.2.permanentLabel>
-  <Scratch.injuryProps.destroyedLabel>被撕毁</Scratch.injuryProps.destroyedLabel>
-  <Scratch.injuryProps.destroyedOutLabel>被撕毁</Scratch.injuryProps.destroyedOutLabel>
-  <Scratch.labelNoun>抓伤</Scratch.labelNoun>
-
+  
+  <!-- EN: bite -->
   <Bite.label>咬伤</Bite.label>
-  <Bite.comps.0.labelTendedWell>已包扎</Bite.comps.0.labelTendedWell>
-  <Bite.comps.0.labelTendedWellInner>已缝合</Bite.comps.0.labelTendedWellInner>
-  <Bite.comps.0.labelSolidTendedWell>已简单固定</Bite.comps.0.labelSolidTendedWell>
-  <Bite.comps.2.permanentLabel>咬痕</Bite.comps.2.permanentLabel>
+  <!-- EN: set -->
+  <Bite.comps.HediffComp_TendDuration.labelSolidTendedWell>已简单固定</Bite.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: bandaged -->
+  <Bite.comps.HediffComp_TendDuration.labelTendedWell>已包扎</Bite.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: sutured -->
+  <Bite.comps.HediffComp_TendDuration.labelTendedWellInner>已缝合</Bite.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <!-- EN: bite scar -->
+  <Bite.comps.HediffComp_GetsPermanent.permanentLabel>咬伤疤痕</Bite.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Bitten off -->
   <Bite.injuryProps.destroyedLabel>被咬掉</Bite.injuryProps.destroyedLabel>
+  <!-- EN: Bitten out -->
   <Bite.injuryProps.destroyedOutLabel>被咬掉</Bite.injuryProps.destroyedOutLabel>
+  <!-- EN: a bite wound -->
   <Bite.labelNoun>咬伤</Bite.labelNoun>
-
-  <Stab.label>刺伤</Stab.label>
-  <Stab.comps.0.labelTendedWell>已包扎</Stab.comps.0.labelTendedWell>
-  <Stab.comps.0.labelTendedWellInner>已缝合</Stab.comps.0.labelTendedWellInner>
-  <Stab.comps.0.labelSolidTendedWell>已简单固定</Stab.comps.0.labelSolidTendedWell>
-  <Stab.comps.2.permanentLabel>刺伤疤痕</Stab.comps.2.permanentLabel>
-  <Stab.injuryProps.destroyedLabel>被刺毁</Stab.injuryProps.destroyedLabel>
-  <Stab.injuryProps.destroyedOutLabel>被刺毁</Stab.injuryProps.destroyedOutLabel>
-  <Stab.labelNoun>刺伤</Stab.labelNoun>
-
-  <Gunshot.label>枪伤</Gunshot.label>
-  <Gunshot.comps.0.labelTendedWell>已包扎</Gunshot.comps.0.labelTendedWell>
-  <Gunshot.comps.0.labelTendedWellInner>已缝合</Gunshot.comps.0.labelTendedWellInner>
-  <Gunshot.comps.0.labelSolidTendedWell>已简单固定</Gunshot.comps.0.labelSolidTendedWell>
-  <Gunshot.comps.2.permanentLabel>老枪伤</Gunshot.comps.2.permanentLabel>
-  <Gunshot.injuryProps.destroyedLabel>被射毁</Gunshot.injuryProps.destroyedLabel>
-  <Gunshot.injuryProps.destroyedOutLabel>被射掉</Gunshot.injuryProps.destroyedOutLabel>
-  <Gunshot.labelNoun>枪伤</Gunshot.labelNoun>
-
-  <Shredded.label>炸伤</Shredded.label>
-  <Shredded.comps.0.labelTendedWell>已包扎</Shredded.comps.0.labelTendedWell>
-  <Shredded.comps.0.labelTendedWellInner>已缝合</Shredded.comps.0.labelTendedWellInner>
-  <Shredded.comps.0.labelSolidTendedWell>已简单固定</Shredded.comps.0.labelSolidTendedWell>
-  <Shredded.comps.2.permanentLabel>炸伤疤痕</Shredded.comps.2.permanentLabel>
-  <Shredded.injuryProps.destroyedLabel>被炸毁</Shredded.injuryProps.destroyedLabel>
-  <Shredded.injuryProps.destroyedOutLabel>被炸毁</Shredded.injuryProps.destroyedOutLabel>
-  <Shredded.labelNoun>炸伤</Shredded.labelNoun>
-
+  <!-- EN: {0} in the {1} -->
+  <Bite.labelNounPretty>{1}中的{0}</Bite.labelNounPretty>
+  
+  <!-- EN: bruise -->
   <Bruise.label>瘀伤</Bruise.label>
-  <Bruise.comps.0.labelTendedWell>已包扎</Bruise.comps.0.labelTendedWell>
-  <Bruise.comps.0.labelTendedWellInner>已缝合</Bruise.comps.0.labelTendedWellInner>
-  <Bruise.comps.0.labelSolidTendedWell>已简单固定</Bruise.comps.0.labelSolidTendedWell>
+  <!-- EN: set -->
+  <Bruise.comps.HediffComp_TendDuration.labelSolidTendedWell>已简单固定</Bruise.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: bandaged -->
+  <Bruise.comps.HediffComp_TendDuration.labelTendedWell>已包扎</Bruise.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: sutured -->
+  <Bruise.comps.HediffComp_TendDuration.labelTendedWellInner>已缝合</Bruise.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <!-- EN: Destroyed -->
   <Bruise.injuryProps.destroyedLabel>被毁</Bruise.injuryProps.destroyedLabel>
+  <!-- EN: a bruise -->
   <Bruise.labelNoun>瘀伤</Bruise.labelNoun>
-
+  <!-- EN: {0} in the {1} -->
+  <Bruise.labelNounPretty>{1}中的{0}</Bruise.labelNounPretty>
+  
+  <!-- EN: burn -->
+  <Burn.label>烧伤</Burn.label>
+  <!-- EN: set -->
+  <Burn.comps.HediffComp_TendDuration.labelSolidTendedWell>已固定</Burn.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: bandaged -->
+  <Burn.comps.HediffComp_TendDuration.labelTendedWell>已包扎</Burn.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: sutured -->
+  <Burn.comps.HediffComp_TendDuration.labelTendedWellInner>已缝合</Burn.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <!-- EN: burn scar -->
+  <Burn.comps.HediffComp_GetsPermanent.permanentLabel>烧伤疤痕</Burn.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Burned off -->
+  <Burn.injuryProps.destroyedLabel>被烧毁</Burn.injuryProps.destroyedLabel>
+  <!-- EN: Burned out -->
+  <Burn.injuryProps.destroyedOutLabel>被烧掉</Burn.injuryProps.destroyedOutLabel>
+  <!-- EN: a burn -->
+  <Burn.labelNoun>烧伤</Burn.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <Burn.labelNounPretty>{1}中的{0}</Burn.labelNounPretty>
+  
+  <!-- EN: crack -->
+  <Crack.label>破裂</Crack.label>
+  <!-- EN: set -->
+  <Crack.comps.HediffComp_TendDuration.labelSolidTendedWell>已固定</Crack.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: healed -->
+  <Crack.comps.HediffComp_TendDuration.labelTendedWell>已愈合</Crack.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: healed -->
+  <Crack.comps.HediffComp_TendDuration.labelTendedWellInner>已愈合</Crack.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <!-- EN: permanent crack -->
+  <Crack.comps.HediffComp_GetsPermanent.permanentLabel>陈旧性骨折</Crack.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Shattered -->
+  <Crack.injuryProps.destroyedLabel>已碎</Crack.injuryProps.destroyedLabel>
+  <!-- EN: a crack wound -->
+  <Crack.labelNoun>破裂</Crack.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <Crack.labelNounPretty>{1}中的{0}</Crack.labelNounPretty>
+  
+  <!-- EN: crush -->
+  <Crush.label>压伤</Crush.label>
+  <!-- EN: set -->
+  <Crush.comps.HediffComp_TendDuration.labelSolidTendedWell>已固定</Crush.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: bandaged -->
+  <Crush.comps.HediffComp_TendDuration.labelTendedWell>已包扎</Crush.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: sutured -->
+  <Crush.comps.HediffComp_TendDuration.labelTendedWellInner>已缝合</Crush.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <!-- EN: mangled scar -->
+  <Crush.comps.HediffComp_GetsPermanent.permanentLabel>压伤疤痕</Crush.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Crushed -->
+  <Crush.injuryProps.destroyedLabel>被压毁</Crush.injuryProps.destroyedLabel>
+  <!-- EN: a crush wound -->
+  <Crush.labelNoun>压伤</Crush.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <Crush.labelNounPretty>{1}中的{0}</Crush.labelNounPretty>
+  
+  <!-- EN: cut -->
+  <Cut.label>割伤</Cut.label>
+  <!-- EN: set -->
+  <Cut.comps.HediffComp_TendDuration.labelSolidTendedWell>已简单固定</Cut.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: bandaged -->
+  <Cut.comps.HediffComp_TendDuration.labelTendedWell>已包扎</Cut.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: sutured -->
+  <Cut.comps.HediffComp_TendDuration.labelTendedWellInner>已缝合</Cut.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <!-- EN: cut scar -->
+  <Cut.comps.HediffComp_GetsPermanent.permanentLabel>割伤疤痕</Cut.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Cut off -->
+  <Cut.injuryProps.destroyedLabel>被切除</Cut.injuryProps.destroyedLabel>
+  <!-- EN: Cut out -->
+  <Cut.injuryProps.destroyedOutLabel>被切除</Cut.injuryProps.destroyedOutLabel>
+  <!-- EN: a cut -->
+  <Cut.labelNoun>割伤</Cut.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <Cut.labelNounPretty>{1}中的{0}</Cut.labelNounPretty>
+  
+  <!-- EN: frostbite -->
   <Frostbite.label>冻伤</Frostbite.label>
-  <Frostbite.comps.0.labelTendedWell>已包扎</Frostbite.comps.0.labelTendedWell>
-  <Frostbite.comps.0.labelTendedWellInner>已缝合</Frostbite.comps.0.labelTendedWellInner>
-  <Frostbite.comps.0.labelSolidTendedWell>已简单固定</Frostbite.comps.0.labelSolidTendedWell>
-  <Frostbite.comps.2.permanentLabel>冻伤疤痕</Frostbite.comps.2.permanentLabel>
+  <!-- EN: set -->
+  <Frostbite.comps.HediffComp_TendDuration.labelSolidTendedWell>已简单固定</Frostbite.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: bandaged -->
+  <Frostbite.comps.HediffComp_TendDuration.labelTendedWell>已包扎</Frostbite.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: sutured -->
+  <Frostbite.comps.HediffComp_TendDuration.labelTendedWellInner>已缝合</Frostbite.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <!-- EN: frostbite scar -->
+  <Frostbite.comps.HediffComp_GetsPermanent.permanentLabel>冻伤疤痕</Frostbite.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Lost to frostbite -->
   <Frostbite.injuryProps.destroyedLabel>因冻伤失去</Frostbite.injuryProps.destroyedLabel>
-
-
-  <!--<Burn.comps.2.oldLabel>烧伤疤痕</Burn.comps.2.oldLabel>-->
-  <!--<Crush.comps.2.oldLabel>压伤疤痕</Crush.comps.2.oldLabel>-->
-  <!--<Cut.comps.2.oldLabel>割伤疤痕</Cut.comps.2.oldLabel>-->
-  <!--<SurgicalCut.comps.1.oldLabel>手术疤痕</SurgicalCut.comps.1.oldLabel>-->
-  <!--<Scratch.comps.2.oldLabel>抓痕</Scratch.comps.2.oldLabel>-->
-  <!--<Bite.comps.2.oldLabel>咬痕</Bite.comps.2.oldLabel>-->
-  <!--<Stab.comps.2.oldLabel>刺伤疤痕</Stab.comps.2.oldLabel>-->
-  <!--<Gunshot.comps.2.oldLabel>老枪伤</Gunshot.comps.2.oldLabel>-->
-  <!--<Gunshot.comps.2.instantlyOldLabel>永久性枪伤</Gunshot.comps.2.instantlyOldLabel>-->
-  <!--<Shredded.comps.2.oldLabel>炸伤疤痕</Shredded.comps.2.oldLabel>-->
-  <!--<Frostbite.comps.2.oldLabel>冻伤疤痕</Frostbite.comps.2.oldLabel>-->
-
+  <!-- EN: {0} in the {1} -->
+  <Frostbite.labelNounPretty>{1}中的{0}</Frostbite.labelNounPretty>
+  
+  <!-- EN: gunshot -->
+  <Gunshot.label>枪伤</Gunshot.label>
+  <!-- EN: set -->
+  <Gunshot.comps.HediffComp_TendDuration.labelSolidTendedWell>已简单固定</Gunshot.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: bandaged -->
+  <Gunshot.comps.HediffComp_TendDuration.labelTendedWell>已包扎</Gunshot.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: sutured -->
+  <Gunshot.comps.HediffComp_TendDuration.labelTendedWellInner>已缝合</Gunshot.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <!-- EN: permanent gunshot injury -->
+  <Gunshot.comps.HediffComp_GetsPermanent.instantlyPermanentLabel>永久性枪伤</Gunshot.comps.HediffComp_GetsPermanent.instantlyPermanentLabel>
+  <!-- EN: old gunshot -->
+  <Gunshot.comps.HediffComp_GetsPermanent.permanentLabel>老枪伤</Gunshot.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Shot off -->
+  <Gunshot.injuryProps.destroyedLabel>被射毁</Gunshot.injuryProps.destroyedLabel>
+  <!-- EN: Shot out -->
+  <Gunshot.injuryProps.destroyedOutLabel>被射掉</Gunshot.injuryProps.destroyedOutLabel>
+  <!-- EN: a gunshot wound -->
+  <Gunshot.labelNoun>枪伤</Gunshot.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <Gunshot.labelNounPretty>{1}中的{0}</Gunshot.labelNounPretty>
+  
+  <!-- EN: misc -->
+  <Misc.label>杂项</Misc.label>
+  <!-- EN: set -->
+  <Misc.comps.HediffComp_TendDuration.labelSolidTendedWell>已固定</Misc.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: bandaged -->
+  <Misc.comps.HediffComp_TendDuration.labelTendedWell>已包扎</Misc.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: sutured -->
+  <Misc.comps.HediffComp_TendDuration.labelTendedWellInner>已缝合</Misc.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <!-- EN: Destroyed -->
+  <Misc.injuryProps.destroyedLabel>已丧失功能</Misc.injuryProps.destroyedLabel>
+  <!-- EN: an injury -->
+  <Misc.labelNoun>杂项</Misc.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <Misc.labelNounPretty>{1}中的{0}</Misc.labelNounPretty>
+  
+  <!-- EN: missing body part -->
+  <MissingBodyPart.label>缺失身体部件</MissingBodyPart.label>
+  <!-- EN: a missing body part -->
+  <MissingBodyPart.labelNoun>缺失身体部件</MissingBodyPart.labelNoun>
+  <!-- EN: missing a {1} -->
+  <MissingBodyPart.labelNounPretty>{1}缺失</MissingBodyPart.labelNounPretty>
+  
+  <!-- EN: scratch -->
+  <Scratch.label>抓伤</Scratch.label>
+  <!-- EN: set -->
+  <Scratch.comps.HediffComp_TendDuration.labelSolidTendedWell>已简单固定</Scratch.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: bandaged -->
+  <Scratch.comps.HediffComp_TendDuration.labelTendedWell>已包扎</Scratch.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: sutured -->
+  <Scratch.comps.HediffComp_TendDuration.labelTendedWellInner>已缝合</Scratch.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <!-- EN: scratch scar -->
+  <Scratch.comps.HediffComp_GetsPermanent.permanentLabel>抓伤疤痕</Scratch.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Torn off -->
+  <Scratch.injuryProps.destroyedLabel>被撕毁</Scratch.injuryProps.destroyedLabel>
+  <!-- EN: Torn out -->
+  <Scratch.injuryProps.destroyedOutLabel>被撕毁</Scratch.injuryProps.destroyedOutLabel>
+  <!-- EN: a scratch -->
+  <Scratch.labelNoun>抓伤</Scratch.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <Scratch.labelNounPretty>{1}中的{0}</Scratch.labelNounPretty>
+  
+  <!-- EN: shredded -->
+  <Shredded.label>炸伤</Shredded.label>
+  <!-- EN: set -->
+  <Shredded.comps.HediffComp_TendDuration.labelSolidTendedWell>已简单固定</Shredded.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: bandaged -->
+  <Shredded.comps.HediffComp_TendDuration.labelTendedWell>已包扎</Shredded.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: sutured -->
+  <Shredded.comps.HediffComp_TendDuration.labelTendedWellInner>已缝合</Shredded.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <!-- EN: shredded scar -->
+  <Shredded.comps.HediffComp_GetsPermanent.permanentLabel>炸伤疤痕</Shredded.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Torn off -->
+  <Shredded.injuryProps.destroyedLabel>被炸毁</Shredded.injuryProps.destroyedLabel>
+  <!-- EN: Torn out -->
+  <Shredded.injuryProps.destroyedOutLabel>被炸毁</Shredded.injuryProps.destroyedOutLabel>
+  <!-- EN: a shredded wound -->
+  <Shredded.labelNoun>炸伤</Shredded.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <Shredded.labelNounPretty>{1}中的{0}</Shredded.labelNounPretty>
+  
+  <!-- EN: stab -->
+  <Stab.label>刺伤</Stab.label>
+  <!-- EN: set -->
+  <Stab.comps.HediffComp_TendDuration.labelSolidTendedWell>已简单固定</Stab.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: bandaged -->
+  <Stab.comps.HediffComp_TendDuration.labelTendedWell>已包扎</Stab.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: sutured -->
+  <Stab.comps.HediffComp_TendDuration.labelTendedWellInner>已缝合</Stab.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <!-- EN: stab scar -->
+  <Stab.comps.HediffComp_GetsPermanent.permanentLabel>刺伤疤痕</Stab.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Cut off -->
+  <Stab.injuryProps.destroyedLabel>被刺毁</Stab.injuryProps.destroyedLabel>
+  <!-- EN: Cut out -->
+  <Stab.injuryProps.destroyedOutLabel>被刺毁</Stab.injuryProps.destroyedOutLabel>
+  <!-- EN: a stab wound -->
+  <Stab.labelNoun>刺伤</Stab.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <Stab.labelNounPretty>{1}中的{0}</Stab.labelNounPretty>
+  
+  <!-- EN: surgical cut -->
+  <SurgicalCut.label>手术伤</SurgicalCut.label>
+  <!-- EN: set -->
+  <SurgicalCut.comps.HediffComp_TendDuration.labelSolidTendedWell>已简单固定</SurgicalCut.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: bandaged -->
+  <SurgicalCut.comps.HediffComp_TendDuration.labelTendedWell>已包扎</SurgicalCut.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: sutured -->
+  <SurgicalCut.comps.HediffComp_TendDuration.labelTendedWellInner>已缝合</SurgicalCut.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <!-- EN: surgical scar -->
+  <SurgicalCut.comps.HediffComp_GetsPermanent.permanentLabel>手术疤痕</SurgicalCut.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: a surgical cut -->
+  <SurgicalCut.labelNoun>手术伤</SurgicalCut.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <SurgicalCut.labelNounPretty>{1}中的{0}</SurgicalCut.labelNounPretty>
+  
 </LanguageData>

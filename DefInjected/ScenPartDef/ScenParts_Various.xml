@@ -1,50 +1,78 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <!-- player pawn filters -->
-
-  <GameStartDialog.label>开场信息</GameStartDialog.label>
-  <PawnFilter_Age.label>年龄范围</PawnFilter_Age.label>
-
-
-  <!-- player pawn modifier -->
-
-  <OnPawnDeathExplode.label>角色死亡时自爆</OnPawnDeathExplode.label>
-  <ForcedTrait.label>强制特性</ForcedTrait.label>
-  <ForcedHediff.label>强制健康状态</ForcedHediff.label>
-  <Naked.label>裸体</Naked.label>
-  <SetNeedLevel.label>设置需求等级</SetNeedLevel.label>
-  <StartingResearch.label>开局科技</StartingResearch.label>
-  <GameCondition_Planetkiller.label>歼星武器正在到达</GameCondition_Planetkiller.label>
-
-
-  <!-- rules changes -->
-
-  <Rule_DisallowDesignator_ZoneAdd_Growing.label>禁止种植</Rule_DisallowDesignator_ZoneAdd_Growing.label>
-  <Rule_DisallowDesignator_ZoneAdd_Growing.description>无法在土地上种植。</Rule_DisallowDesignator_ZoneAdd_Growing.description>
-
-  <Rule_DisallowDesignator_Mine.label>禁止采矿</Rule_DisallowDesignator_Mine.label>
-  <Rule_DisallowDesignator_Mine.description>禁止开采岩石。</Rule_DisallowDesignator_Mine.description>
-
-  <Rule_DisallowDesignator_Hunt.label>禁止狩猎</Rule_DisallowDesignator_Hunt.label>
-  <Rule_DisallowDesignator_Hunt.description>禁止狩猎。</Rule_DisallowDesignator_Hunt.description>
-
-  <Rule_DisallowDesignator_Tame.label>禁止驯服</Rule_DisallowDesignator_Tame.label>
-  <Rule_DisallowDesignator_Tame.description>禁止驯服动物。</Rule_DisallowDesignator_Tame.description>
-
-  <StatFactor.label>属性乘数</StatFactor.label>
-
-
-  <!-- grouped -->
-
-  <DisableIncident.label>禁用事件</DisableIncident.label>
+  
+  <!-- EN: create incident -->
   <CreateIncident.label>创建事件</CreateIncident.label>
-  <Rule_DisallowBuilding.label>禁止建造</Rule_DisallowBuilding.label>
+  
+  <!-- EN: disable incident -->
+  <DisableIncident.label>禁用事件</DisableIncident.label>
+  
+  <!-- EN: forced health condition -->
+  <ForcedHediff.label>强制健康状态</ForcedHediff.label>
+  
+  <!-- EN: forced trait -->
+  <ForcedTrait.label>强制特性</ForcedTrait.label>
+  
+  <!-- EN: planetkiller weapon incoming -->
+  <GameCondition_Planetkiller.label>歼星武器正在到达</GameCondition_Planetkiller.label>
+  
+  <!-- EN: game start dialog -->
+  <GameStartDialog.label>开场信息</GameStartDialog.label>
+  
+  <!-- EN: naked -->
+  <Naked.label>裸体</Naked.label>
+  
+  <!-- EN: characters explode on death -->
+  <OnPawnDeathExplode.label>角色死亡时自爆</OnPawnDeathExplode.label>
+  
+  <!-- EN: allowed age range -->
+  <PawnFilter_Age.label>年龄范围</PawnFilter_Age.label>
+  
+  <!-- EN: permanent game condition -->
   <PermanentGameCondition.label>永久游戏状态</PermanentGameCondition.label>
-  <StartingAnimal.label>开局动物</StartingAnimal.label>
-  <StartingThing_Defined.label>开局资源</StartingThing_Defined.label>
-  <ScatterThingsNearPlayerStart.label>起始点周围资源</ScatterThingsNearPlayerStart.label>
+  
+  <!-- EN: disallow building -->
+  <Rule_DisallowBuilding.label>禁止建造</Rule_DisallowBuilding.label>
+  
+  <!-- EN: cannot hunt -->
+  <Rule_DisallowDesignator_Hunt.label>禁止狩猎</Rule_DisallowDesignator_Hunt.label>
+  <!-- EN: Cannot hunt. -->
+  <Rule_DisallowDesignator_Hunt.description>禁止狩猎。</Rule_DisallowDesignator_Hunt.description>
+  
+  <!-- EN: cannot mine -->
+  <Rule_DisallowDesignator_Mine.label>禁止采矿</Rule_DisallowDesignator_Mine.label>
+  <!-- EN: Cannot mine. -->
+  <Rule_DisallowDesignator_Mine.description>禁止开采岩石。</Rule_DisallowDesignator_Mine.description>
+  
+  <!-- EN: cannot tame -->
+  <Rule_DisallowDesignator_Tame.label>禁止驯服</Rule_DisallowDesignator_Tame.label>
+  <!-- EN: Cannot tame animals. -->
+  <Rule_DisallowDesignator_Tame.description>禁止驯服动物。</Rule_DisallowDesignator_Tame.description>
+  
+  <!-- EN: cannot sow -->
+  <Rule_DisallowDesignator_ZoneAdd_Growing.label>禁止种植</Rule_DisallowDesignator_ZoneAdd_Growing.label>
+  <!-- EN: Cannot sow plants on the ground. -->
+  <Rule_DisallowDesignator_ZoneAdd_Growing.description>无法在土地上种植。</Rule_DisallowDesignator_ZoneAdd_Growing.description>
+  
+  <!-- EN: scattered randomly -->
   <ScatterThingsAnywhere.label>地图散落资源</ScatterThingsAnywhere.label>
-
-
+  
+  <!-- EN: start near -->
+  <ScatterThingsNearPlayerStart.label>起始点周围资源</ScatterThingsNearPlayerStart.label>
+  
+  <!-- EN: set need level -->
+  <SetNeedLevel.label>设置需求等级</SetNeedLevel.label>
+  
+  <!-- EN: start with animal(s) -->
+  <StartingAnimal.label>开局动物</StartingAnimal.label>
+  
+  <!-- EN: start with research -->
+  <StartingResearch.label>开局科技</StartingResearch.label>
+  
+  <!-- EN: start with -->
+  <StartingThing_Defined.label>开局资源</StartingThing_Defined.label>
+  
+  <!-- EN: stat multiplier -->
+  <StatFactor.label>属性乘数</StatFactor.label>
+  
 </LanguageData>
