@@ -35,7 +35,7 @@
     <li>damaged_present->撕裂</li>
     <li>destroyed_present->击碎</li>
     <li>destroyed_present->压碎</li>
-    <li>destroyed_present->压住</li>
+    <li>destroyed_present->压毁</li>
     <li>destroyed_present->摧毁</li>
     <li>destroyed_present->破坏</li>
   </DamageEvent_Ceiling.rulePack.rulesStrings>
@@ -83,7 +83,7 @@
   -->
   <DamageEvent_Include.rulePack.rulesStrings>
     <li>logentry->[damageSource][RECIPIENT_nameDef]，[destroyed_present][RECIPIENT_possessive][destroyed_targets]。</li>
-    <li>logentry->[damageSource][RECIPIENT_nameDef]，[destroyed_present][RECIPIENT_possessive][destroyed_targets]并且[damaged_present][RECIPIENT_possessive][damaged_targets]。</li>
+    <li>logentry->[damageSource][RECIPIENT_nameDef]，[destroyed_present][RECIPIENT_possessive][destroyed_targets]并[damaged_present][RECIPIENT_possessive][damaged_targets]。</li>
     <li>logentry(recipient_part_destroyed_count==0)->[damageSource][RECIPIENT_nameDef]，[damaged_present][RECIPIENT_possessive][damaged_targets]。</li>
     <li>logentry(p=0.1)->[damageSource][RECIPIENT_nameDef]。</li>
   </DamageEvent_Include.rulePack.rulesStrings>
@@ -132,7 +132,7 @@
   -->
   <DamageEvent_Tornado.rulePack.rulesStrings>
     <li>damageSource->一股[spiraling]龙卷风[enveloped]</li>
-    <li>destroyed_present(p=3)->tearing off</li>
+    <li>destroyed_present(p=3)->撕毁</li>
     <li>spiraling->盘桓的</li>
     <li>spiraling->旋转的</li>
     <li>spiraling->螺旋徘徊的</li>
@@ -141,5 +141,42 @@
     <li>enveloped->吞没了</li>
     <li>enveloped->环绕着</li>
   </DamageEvent_Tornado.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>damage_source->[spiketrap] stabbed</li>
+    <li>damage_source->[spiketrap] struck</li>
+    <li>damage_source->[spiketrap] launched at</li>
+    <li>spiketrap(p=3)->a spike trap</li>
+    <li>spiketrap(p=3)->the spike trap</li>
+    <li>spiketrap->spikes</li>
+    <li>spiketrap->a sharp trap</li>
+    <li>spiketrap->a spiky trap</li>
+    <li>damaged_present->perforating</li>
+    <li>damaged_present->spearing</li>
+    <li>damaged_present->penetrating</li>
+    <li>damaged_present->jabbing into</li>
+    <li>destroyed_present->tearing apart</li>
+    <li>destroyed_present->shredding</li>
+    <li>destroyed_present->eviscerating</li>
+    <li>destroyed_present->exploding</li>
+  -->
+  <DamageEvent_TrapSpike.rulePack.rulesStrings>
+	<li>damage_source->[spiketrap]刺伤</li>
+    <li>damage_source->[spiketrap]袭击</li>
+    <li>damage_source->[spiketrap]攻击</li>
+    <li>spiketrap(p=3)->一个尖刺陷阱</li>
+    <li>spiketrap(p=3)->尖刺陷阱</li>
+    <li>spiketrap->大量尖刺</li>
+    <li>spiketrap->锋利的陷阱</li>
+    <li>spiketrap->一个带有尖刺的陷阱</li>
+    <li>damaged_present->刺穿</li>
+    <li>damaged_present->戳伤</li>
+    <li>damaged_present->穿透</li>
+    <li>damaged_present->刺入</li>
+    <li>destroyed_present->撕裂</li>
+    <li>destroyed_present->撕碎</li>
+    <li>destroyed_present->带走</li>
+    <li>destroyed_present->摧毁</li>
+  </DamageEvent_TrapSpike.rulePack.rulesStrings>
   
 </LanguageData>

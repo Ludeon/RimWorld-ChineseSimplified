@@ -3,12 +3,12 @@
 
   <!-- EN: {0} hurls some epithets into the microphone and disconnects. -->
   <FactionGreetingHostile>{0}愤怒地对着麦克风大骂了几句然后断开了连接。</FactionGreetingHostile>
-  <!-- EN: {0} demands that you make a gesture of goodwill, like bringing gifts to one of [PAWN_possessive] settlements or releasing [PAWN_possessive] faction's prisoners unharmed. Until then, [PAWN_pronoun] is unwilling to talk.\n\nMuttering an insult, [PAWN_pronoun] disconnects. -->
-  <FactionGreetingHostileAppreciative>{0}要求你表示善意，例如将礼物送到[PAWN_possessive]一个定居点或平安释放[PAWN_possessive]派系的囚犯。在此以前，[PAWN_pronoun]不想谈任何问题。\n\n[PAWN_pronoun]骂了几句然后断开了连接。</FactionGreetingHostileAppreciative>
-  <!-- EN: {0} greets {1} warily and asks what business you want to handle. -->
-  <FactionGreetingWary>{0}谨慎地问候了{1}并询问你的来意。</FactionGreetingWary>
-  <!-- EN: {0} greets {1} warmly and asks what [PAWN_pronoun] can do to help you. -->
-  <FactionGreetingWarm>{0}亲切地问候了{1}并询问[PAWN_pronoun]有什么可以为你效劳。</FactionGreetingWarm>
+  <!-- EN: {0} demands that you make a gesture of goodwill, like bringing gifts to one of {0_possessive} settlements or releasing {0_possessive} faction's prisoners unharmed. Until then, {0_pronoun} is unwilling to talk.\n\nMuttering an insult, {0_pronoun} disconnects. -->
+  <FactionGreetingHostileAppreciative>{0}要求你表示善意，例如将礼物送到{0_possessive}一个定居点或平安释放{0_possessive}派系的囚犯。在此以前，{0_pronoun}不想谈任何问题。\n\n{0_pronoun}骂了几句然后断开了连接。</FactionGreetingHostileAppreciative>
+  <!-- EN: {0} greets {NEGOTIATOR_labelShort} warily and asks what business you want to handle. -->
+  <FactionGreetingWary>{0}谨慎地问候了{NEGOTIATOR_labelShort}并询问你的来意。</FactionGreetingWary>
+  <!-- EN: {0} greets {NEGOTIATOR_labelShort} warmly and asks what {LEADER_pronoun} can do to help you. -->
+  <FactionGreetingWarm>{0}亲切地问候了{NEGOTIATOR_labelShort}并询问{LEADER_pronoun}有什么可以为你效劳。</FactionGreetingWarm>
 
   <!-- EN: Disconnect -->
   <Disconnect>断开连接</Disconnect>
@@ -31,7 +31,7 @@
 
   <!-- Trade caravan request -->
   <!-- EN: Request a trade caravan (cost: {0} goodwill) -->
-  <RequestTrader>请求派出贸易商队（花费: {0}白银）</RequestTrader>
+  <RequestTrader>请求派出贸易商队（花费: {0}友好度）</RequestTrader>
   <!-- EN: {0} asks what kind of trade caravan you want. -->
   <ChooseTraderKind>{0}询问你需要什么类型的商队。</ChooseTraderKind>
   <!-- EN: {0} agrees to send you a trade caravan. It will arrive within a few days. -->

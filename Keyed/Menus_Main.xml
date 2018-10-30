@@ -164,6 +164,8 @@
   <ModTargetVersion>适配版本: {0}</ModTargetVersion>
   <!-- EN: This mod was not made for this version of RimWorld, and will probably not work correctly. -->
   <ModNotMadeForThisVersion>该 Mod 并不适配于当前 RimWorld 版本，很可能无法正常运行。</ModNotMadeForThisVersion>
+  <!-- EN: This mod was made for a newer version of RimWorld than this, and will probably not work correctly. -->
+  <ModNotMadeForThisVersion_Newer>该 Mod 是为更高的 RimWorld 版本制作的，很可能无法正常运行。</ModNotMadeForThisVersion_Newer>
   <!-- EN: Mod needs a well-formatted target version in About.xml. Like this: <targetVersion>{0}</targetVersion>. -->
   <MessageModNeedsWellFormattedTargetVersion>Mod 需要在 About.xml 中注明所适配的游戏版本信息。例如: &lt;targetVersion>{0}&lt;/targetVersion>。</MessageModNeedsWellFormattedTargetVersion>
   <!-- EN: Drag to reorder -->
@@ -231,15 +233,15 @@
   <!-- EN: Merciless mode is a special game mode where every challenge is turned up to extreme levels.\n\nMerciless mode unlocks automatically when you reach specific milestones. However, you can unlock it now.\n\nThis option is only recommended once you've played a high-difficulty game or two and want to have a good chance at dying despite your best efforts. -->
   <ConfirmUnlockExtremeDifficulty>冷酷无情是一个特殊的难度，每次挑战都会上升到极限水平。\n\n当你达到特定的里程碑时，冷酷难度会自动解锁，但你现在也可以解锁这个难度。\n\n注意！只有在你体验了一两场最高难度的游戏并打算继续挑战，或者希望体验为挣扎求生而拼尽全力时，才建议使用此难度。</ConfirmUnlockExtremeDifficulty>
 
-  <!-- Landing site select -->
-  <!-- EN: Select landing site -->
-  <SelectLandingSite>着陆点选择</SelectLandingSite>
+  <!-- Site select -->
+  <!-- EN: Select starting site -->
+  <SelectStartingSite>选择初始着陆点</SelectStartingSite>
   <!-- EN: Select random site -->
   <SelectRandomSite>随机着陆点</SelectRandomSite>
   <!-- EN: Select site -->
   <SelectSite>选择地点</SelectSite>
-  <!-- EN: Please select a landing site. -->
-  <MustSelectLandingSite>请选择一个着陆点。</MustSelectLandingSite>
+  <!-- EN: Please select a site. -->
+  <MustSelectStartingSite>请选择一个着陆点。</MustSelectStartingSite>
   <!-- EN: You cannot land on this biome: {0} -->
   <CannotLandBiome>你无法着陆在{0}生态区上。</CannotLandBiome>
   <!-- EN: Biome not implemented -->
@@ -331,7 +333,7 @@
   <!-- EN: Childhood -->
   <Childhood>幼年</Childhood>
   <!-- EN: Current -->
-  <Current>Current</Current>
+  <Current>现在</Current>
   <!-- EN: male -->
   <Male>男性</Male>
   <!-- EN: female -->
@@ -386,7 +388,7 @@
   <GeneratingMapForNewEncounter>生成新地区地图中</GeneratingMapForNewEncounter>
 
   <!-- UNUSED -->
-  <SelectStartingSite>选择初始着陆点</SelectStartingSite>
-  <MustSelectStartingSite>请选择一个着陆点。</MustSelectStartingSite>
+  <SelectLandingSite>着陆点选择</SelectLandingSite>
+  <MustSelectLandingSite>请选择一个着陆点。</MustSelectLandingSite>
 
 </LanguageData>

@@ -3,27 +3,27 @@
   
   <!-- EN: breakup -->
   <Breakup.label>感情破裂</Breakup.label>
-  <!-- EN: r_logentry->[INITIATOR_nameDef] asked [OTHER_nameDef] for a break. -->
+  <!-- EN: r_logentry->[INITIATOR_nameDef] asked [RECIPIENT_nameDef] for a break. -->
   <Breakup.logRulesInitiator.rulesStrings.0>r_logentry->[INITIATOR_nameDef]要求和[RECIPIENT_nameDef]分手。</Breakup.logRulesInitiator.rulesStrings.0>
-  <!-- EN: r_logentry->[INITIATOR_nameDef] asked [OTHER_nameDef] for some space. -->
+  <!-- EN: r_logentry->[INITIATOR_nameDef] asked [RECIPIENT_nameDef] for some space. -->
   <Breakup.logRulesInitiator.rulesStrings.1>r_logentry->[INITIATOR_nameDef]要求[RECIPIENT_nameDef]给彼此更多的空间。</Breakup.logRulesInitiator.rulesStrings.1>
-  <!-- EN: r_logentry->[INITIATOR_nameDef] told [OTHER_nameDef] that it's not working out. -->
+  <!-- EN: r_logentry->[INITIATOR_nameDef] told [RECIPIENT_nameDef] that it's not working out. -->
   <Breakup.logRulesInitiator.rulesStrings.2>r_logentry->[INITIATOR_nameDef]告诉[RECIPIENT_nameDef]，这样下去是行不通的。</Breakup.logRulesInitiator.rulesStrings.2>
-  <!-- EN: r_logentry->[INITIATOR_nameDef] told [OTHER_nameDef] that it would be best to see other people. -->
+  <!-- EN: r_logentry->[INITIATOR_nameDef] told [RECIPIENT_nameDef] that it would be best to see other people. -->
   <Breakup.logRulesInitiator.rulesStrings.3>r_logentry->[INITIATOR_nameDef]告诉[RECIPIENT_nameDef]，下一个会更好。</Breakup.logRulesInitiator.rulesStrings.3>
   
   <!-- EN: marriage proposal -->
   <MarriageProposal.label>求婚</MarriageProposal.label>
-  <!-- EN: r_logentry->[INITIATOR_nameDef] proposed marriage to [OTHER_nameDef]. -->
+  <!-- EN: r_logentry->[INITIATOR_nameDef] proposed marriage to [RECIPIENT_nameDef]. -->
   <MarriageProposal.logRulesInitiator.rulesStrings.0>r_logentry->[INITIATOR_nameDef]向[RECIPIENT_nameDef]求婚。</MarriageProposal.logRulesInitiator.rulesStrings.0>
-  <!-- EN: r_logentry->[INITIATOR_nameDef] proposed a lifelong commitment to [OTHER_nameDef]. -->
+  <!-- EN: r_logentry->[INITIATOR_nameDef] proposed a lifelong commitment to [RECIPIENT_nameDef]. -->
   <MarriageProposal.logRulesInitiator.rulesStrings.1>r_logentry->[INITIATOR_nameDef]对[RECIPIENT_nameDef]做出终身承诺。</MarriageProposal.logRulesInitiator.rulesStrings.1>
-  <!-- EN: r_logentry->[INITIATOR_nameDef] told [OTHER_nameDef] that [INITIATOR_pronoun] wants to spend [INITIATOR_possessive] life with [OTHER_objective]. -->
-  <MarriageProposal.logRulesInitiator.rulesStrings.2>r_logentry->[INITIATOR_nameDef]告诉[RECIPIENT_nameDef]，[INITIATOR_pronoun]希望用[INITIATOR_possessive]一生来陪伴[OTHER_objective]。</MarriageProposal.logRulesInitiator.rulesStrings.2>
+  <!-- EN: r_logentry->[INITIATOR_nameDef] told [RECIPIENT_nameDef] that [INITIATOR_pronoun] wants to spend [INITIATOR_possessive] life with [RECIPIENT_objective]. -->
+  <MarriageProposal.logRulesInitiator.rulesStrings.2>r_logentry->[INITIATOR_nameDef]告诉[RECIPIENT_nameDef]，[INITIATOR_pronoun]希望用一生来陪伴[RECIPIENT_objective]。</MarriageProposal.logRulesInitiator.rulesStrings.2>
   
   <!-- EN: romance attempt -->
   <RomanceAttempt.label>求爱</RomanceAttempt.label>
-  <!-- EN: r_logentry->[INITIATOR_nameDef] [wooed] [OTHER_nameDef] by [wootactic]. -->
+  <!-- EN: r_logentry->[INITIATOR_nameDef] [wooed] [RECIPIENT_nameDef] by [wootactic]. -->
   <RomanceAttempt.logRulesInitiator.rulesStrings.0>r_logentry->[INITIATOR_nameDef][wooed][RECIPIENT_nameDef]，[wootactic]。</RomanceAttempt.logRulesInitiator.rulesStrings.0>
   <!-- EN: wooed->tried to flirt with -->
   <RomanceAttempt.logRulesInitiator.rulesStrings.1>wooed->试图挑逗</RomanceAttempt.logRulesInitiator.rulesStrings.1>
@@ -43,7 +43,7 @@
   <RomanceAttempt.logRulesInitiator.rulesStrings.8>wooed->试图迷住</RomanceAttempt.logRulesInitiator.rulesStrings.8>
   <!-- EN: wooed->courted -->
   <RomanceAttempt.logRulesInitiator.rulesStrings.9>wooed->求婚</RomanceAttempt.logRulesInitiator.rulesStrings.9>
-  <!-- EN: wootactic(p=4)->[complimenting] [OTHER_possessive] [PersonalCharacteristic] -->
+  <!-- EN: wootactic(p=4)->[complimenting] [RECIPIENT_possessive] [PersonalCharacteristic] -->
   <RomanceAttempt.logRulesInitiator.rulesStrings.10>wootactic(p=4)->[complimenting][RECIPIENT_possessive][PersonalCharacteristic]</RomanceAttempt.logRulesInitiator.rulesStrings.10>
   <!-- EN: wootactic->telling a story about [TalkTopicAny] -->
   <RomanceAttempt.logRulesInitiator.rulesStrings.11>wootactic(p=2)->讲了一个关于[TalkTopicAny]的故事</RomanceAttempt.logRulesInitiator.rulesStrings.11>
@@ -54,10 +54,10 @@
   <!-- EN: wootactic->making an observation about [TalkTopicAny] -->
   <RomanceAttempt.logRulesInitiator.rulesStrings.14>wootactic->讲了一个关于[TalkTopicAny]的见闻</RomanceAttempt.logRulesInitiator.rulesStrings.14>
   <!-- EN: wootactic(p=2)->[boasting] [INITIATOR_possessive] own [PersonalCharacteristic] -->
-  <RomanceAttempt.logRulesInitiator.rulesStrings.15>wootactic->wootactic(p=2)->[boasting][INITIATOR_possessive][PersonalCharacteristic]</RomanceAttempt.logRulesInitiator.rulesStrings.15>
-  <!-- EN: wootactic->comparing [OTHER_objective] to a [romantic_adj] [romantic_noun] -->
+  <RomanceAttempt.logRulesInitiator.rulesStrings.15>wootactic(p=2)->[boasting][INITIATOR_possessive][PersonalCharacteristic]</RomanceAttempt.logRulesInitiator.rulesStrings.15>
+  <!-- EN: wootactic->comparing [RECIPIENT_objective] to a [romantic_adj] [romantic_noun] -->
   <RomanceAttempt.logRulesInitiator.rulesStrings.16>wootactic->将[RECIPIENT_objective]比作[romantic_adj][romantic_noun]</RomanceAttempt.logRulesInitiator.rulesStrings.16>
-  <!-- EN: wootactic->describing [OTHER_objective] as a [romantic_adj] [romantic_noun] -->
+  <!-- EN: wootactic->describing [RECIPIENT_objective] as a [romantic_adj] [romantic_noun] -->
   <RomanceAttempt.logRulesInitiator.rulesStrings.17>wootactic->将[RECIPIENT_objective]形容为[romantic_adj][romantic_noun]</RomanceAttempt.logRulesInitiator.rulesStrings.17>
   <!-- EN: boasting->boasting about -->
   <RomanceAttempt.logRulesInitiator.rulesStrings.18>boasting->吹嘘</RomanceAttempt.logRulesInitiator.rulesStrings.18>
@@ -78,13 +78,13 @@
   <!-- EN: complimenting->lauding -->
   <RomanceAttempt.logRulesInitiator.rulesStrings.26>complimenting->赞美</RomanceAttempt.logRulesInitiator.rulesStrings.26>
   <!-- EN: complimenting->commending -->
-  <RomanceAttempt.logRulesInitiator.rulesStrings.27>complimenting(p=2)->夸奖</RomanceAttempt.logRulesInitiator.rulesStrings.27>
+  <RomanceAttempt.logRulesInitiator.rulesStrings.27>complimenting->表扬</RomanceAttempt.logRulesInitiator.rulesStrings.27>
   <!-- EN: complimenting->saying good things about -->
-  <RomanceAttempt.logRulesInitiator.rulesStrings.28>complimenting->不住地夸奖</RomanceAttempt.logRulesInitiator.rulesStrings.28>
+  <RomanceAttempt.logRulesInitiator.rulesStrings.28>complimenting->夸奖</RomanceAttempt.logRulesInitiator.rulesStrings.28>
   <!-- EN: complimenting(p=2)->playfully making fun of -->
   <RomanceAttempt.logRulesInitiator.rulesStrings.29>complimenting(p=2)->顽皮地调笑</RomanceAttempt.logRulesInitiator.rulesStrings.29>
   <!-- EN: complimenting->jokingly poking at -->
-  <RomanceAttempt.logRulesInitiator.rulesStrings.30>complimenting->打趣地吐槽</RomanceAttempt.logRulesInitiator.rulesStrings.30>
+  <RomanceAttempt.logRulesInitiator.rulesStrings.30>complimenting->打趣地调侃</RomanceAttempt.logRulesInitiator.rulesStrings.30>
   <!-- EN: complimenting->jokingly half-complimenting -->
   <RomanceAttempt.logRulesInitiator.rulesStrings.31>complimenting->半开玩笑地称赞</RomanceAttempt.logRulesInitiator.rulesStrings.31>
   <!-- EN: complimenting->impishly questioning -->
@@ -138,7 +138,7 @@
   <!-- EN: romantic_noun->aurora -->
   <RomanceAttempt.logRulesInitiator.rulesStrings.56>romantic_noun->极光</RomanceAttempt.logRulesInitiator.rulesStrings.56>
   <!-- EN: romantic_noun->[TreeType] tree -->
-  <RomanceAttempt.logRulesInitiator.rulesStrings.57>romantic_noun->[TreeType]树</RomanceAttempt.logRulesInitiator.rulesStrings.57>
+  <RomanceAttempt.logRulesInitiator.rulesStrings.57>romantic_noun->[TreeType]</RomanceAttempt.logRulesInitiator.rulesStrings.57>
   <!-- EN: romantic_noun(p=2)->[TerrainFeature] -->
   <RomanceAttempt.logRulesInitiator.rulesStrings.58>romantic_noun(p=2)->[TerrainFeature]</RomanceAttempt.logRulesInitiator.rulesStrings.58>
   <!-- EN: romantic_noun(p=2)->[NaturalObject] -->
