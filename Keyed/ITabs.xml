@@ -52,8 +52,8 @@
   <MinimumSkill>最低技能要求</MinimumSkill>
   <!-- EN: SUSPENDED -->
   <SuspendedCaps>已暂停</SuspendedCaps>
-  <!-- EN: Worker: {0} -->
-  <BoundWorkerIs>绑定工作者:{0}</BoundWorkerIs>
+  <!-- EN: Worker: {1_labelShort} -->
+  <BoundWorkerIs>绑定工作者:{1_labelShort}</BoundWorkerIs>
   <!-- EN: Plant -->
   <PlantVerb>种植</PlantVerb>
   <!-- EN: Copied bill cannot be pasted here. -->
@@ -141,7 +141,7 @@
   <!-- EN: amputate -->
   <Amputate>截肢</Amputate>
   <!-- EN: harvest -->
-  <HarvestOrgan>摘取</HarvestOrgan>
+  <HarvestOrgan>harvest</HarvestOrgan>
   <!-- EN: remove -->
   <RemoveOrgan>摘除</RemoveOrgan>
   <!-- EN: memory -->
@@ -196,7 +196,7 @@
   <Trainability>可训练度</Trainability>
   <!-- EN: Requires trainability {0}. -->
   <CannotTrainNotSmartEnough>智力级别要求: {0}。</CannotTrainNotSmartEnough>
-  <!-- EN: {0} is too small to train this. -->
+  <!-- EN: {1_labelShort} is too small to train this. -->
   <CannotTrainTooSmall>{0}体形过小，无法训练。</CannotTrainTooSmall>
 
   <!-- EN: Prerequisite needed: {0} -->
@@ -213,10 +213,10 @@
   <Slave>奴隶</Slave>
   <!-- EN: Faction leader -->
   <FactionLeader>派系首领</FactionLeader>
-  <!-- EN: Opinion of {0} -->
-  <OpinionOf>对{0}的印象</OpinionOf>
-  <!-- EN: {0}'s opinion of me -->
-  <SomeonesOpinionOfMe>{0}对我的印象</SomeonesOpinionOfMe>
+  <!-- EN: Opinion of {1_labelShort} -->
+  <OpinionOf>对{1_labelShort}的印象</OpinionOf>
+  <!-- EN: {1_labelShort}'s opinion of me -->
+  <SomeonesOpinionOfMe>{1_labelShort}对我的印象</SomeonesOpinionOfMe>
   <!-- EN: I'm dead -->
   <IAmDead>我死了</IAmDead>
   <!-- EN: I'm a psychopath -->
@@ -261,6 +261,10 @@
   <FormingCaravanStatus_GatheringSlaves>收集奴隶</FormingCaravanStatus_GatheringSlaves>
   <!-- EN: Gathering slaves (waiting) -->
   <FormingCaravanStatus_GatheringSlaves_Pause>收集奴隶（等待中）</FormingCaravanStatus_GatheringSlaves_Pause>
+  <!-- EN: Gathering downed people -->
+  <FormingCaravanStatus_GatheringDownedPawns>收集无法行动的人</FormingCaravanStatus_GatheringDownedPawns>
+  <!-- EN: Gathering downed people (waiting) -->
+  <FormingCaravanStatus_GatheringDownedPawns_Pause>收集无法行动的人（等待中）</FormingCaravanStatus_GatheringDownedPawns_Pause>
   <!-- EN: Leaving -->
   <FormingCaravanStatus_Leaving>正在离开</FormingCaravanStatus_Leaving>
   <!-- EN: Leaving (waiting) -->

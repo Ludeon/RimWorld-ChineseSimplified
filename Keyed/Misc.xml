@@ -4,7 +4,7 @@
   <!-- EN: Autosaving -->
   <Autosaving>自动保存中……</Autosaving>
   <!-- EN: The three of you awake in your cryptosleep sarcophagi to the sound of sirens and ripping metal. You barely get to the escape pods before the ship is torn apart.\n\nSome time later, you land on this unknown rimworld.\n\nAs pieces of the shredded starship fall around you, you start making plans to survive. -->
-  <GameStartDialog>你们三人在刺耳的警报声与金属碎裂声中从低温休眠舱内醒来，然后勉强在飞船四分五裂前钻进了逃生舱内。\n\n随后不久，你们降落到了这个充满未知的边缘世界上。\n\n随着飞船残骸不断坠落在你们身边，你们开始制订一份生存计划。</GameStartDialog>
+  <GameStartDialog>你们三人在刺耳的警报声与金属碎裂声中从低温休眠舱内醒来，然后勉强在飞船四分五裂前钻进了逃生舱内。\n\n随后不久，你们降落到了这个充满未知的边缘世界上。\n\n伴随飞船残骸不断坠落在身边，你们开始制订一份生存计划。</GameStartDialog>
   <!-- EN: Colony -->
   <Colony>殖民地</Colony>
   <!-- EN: You can only change language from the options screen on the main menu. -->
@@ -74,7 +74,7 @@
   <!-- EN: Raw butchered flesh. Can be cooked into meals, or eaten raw. -->
   <MeatDesc>新鲜屠宰的生肉，可进一步烹饪为菜肴或生吃。</MeatDesc>
   <!-- EN: Raw butchered flesh. If necessary, can be cooked into meals, or even eaten raw. Extremely unappetizing. -->
-  <MeatInsectDesc>新鲜屠宰的生肉。如果必要，可进一步烹饪为菜肴，甚至生吃。极度难吃。</MeatInsectDesc>
+  <MeatInsectDesc>新鲜屠宰的生肉。如果吃药的话，可进一步烹饪为菜肴，甚至生吃。极度难吃。</MeatInsectDesc>
   <!-- EN: Raw butchered flesh. Can be cooked into meals or eaten raw, although most humans dislike the idea. -->
   <MeatHumanDesc>新鲜屠宰的生肉。可进一步烹饪为菜肴或生吃，尽管大部分人类不喜欢这个主意。</MeatHumanDesc>
 
@@ -82,8 +82,8 @@
   <CorpseLabel>{0}尸体</CorpseLabel>
   <!-- EN: Dead body of a {0}. -->
   <CorpseDesc>{0}的尸体。</CorpseDesc>
-  <!-- EN: {0} (dead) -->
-  <DeadLabel>{0}（死亡）</DeadLabel>
+  <!-- EN: {1_label} (dead) -->
+  <DeadLabel>{1_label}（死亡）</DeadLabel>
 
   <!-- EN: rough {0} -->
   <RoughStoneTerrainLabel>粗糙的{0}</RoughStoneTerrainLabel>
@@ -111,10 +111,10 @@
   <!-- EN: {0} {1} -->
   <ThingMadeOfStuffLabel>{0}{1}</ThingMadeOfStuffLabel>
 
-  <!-- EN: {0}'s {1} -->
-  <SomeonesRoom>{0}的{1}</SomeonesRoom>
-  <!-- EN: {0} and {1}'s {2} -->
-  <CouplesRoom>{0}和{1}的{2}</CouplesRoom>
+  <!-- EN: {PAWN_labelShort}'s {1} -->
+  <SomeonesRoom>{PAWN_labelShort}的{1}</SomeonesRoom>
+  <!-- EN: {PAWN1_labelShort} and {PAWN2_labelShort}'s {2} -->
+  <CouplesRoom>{PAWN1_labelShort}和{PAWN2_labelShort}的{2}</CouplesRoom>
   
   <!-- EN: (various) -->
   <VariousLabel>（多种）</VariousLabel>

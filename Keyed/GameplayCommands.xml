@@ -4,9 +4,11 @@
   <!-- Forbid -->
   <!-- EN: Forbid -->
   <CommandForbid>禁止</CommandForbid>
-  <!-- EN: Forbidden - colonists will not interact with this. -->
+  <!-- EN: Allow -->
+  <CommandAllow>允许</CommandAllow>
+  <!-- EN: Forbidden: Your colonists are not allowed to interact with this. Click to allow. -->
   <CommandForbiddenDesc>已禁止\n殖民者不会与该物品互动。</CommandForbiddenDesc>
-  <!-- EN: Not forbidden - colonists may interact with this. -->
+  <!-- EN: Allowed: Your colonists are allowed to interact with this. Click to forbid. -->
   <CommandNotForbiddenDesc>未禁止\n殖民者会与该物品互动。</CommandNotForbiddenDesc>
 
   <!-- Power -->
@@ -39,7 +41,7 @@
   <CommandUndraftLabel>解散</CommandUndraftLabel>
   <!-- EN: Toggle military draft.\n\nDrafted people take orders and fight. They will not work, eat, or rest. -->
   <CommandToggleDraftDesc>切换征召状态。\n\n被征召的人会遵守命令并战斗。解散前他们不会工作，吃饭或着休息。</CommandToggleDraftDesc>
-  <!-- EN: {0} cannot walk. -->
+  <!-- EN: {1_labelShort} cannot walk. -->
   <IsIncapped>{0}无法行动。</IsIncapped>
 
   <!-- EN: Fire at will -->
@@ -73,7 +75,7 @@
   <!-- EN: Assign -->
   <BuildingAssign>指定</BuildingAssign>
   <!-- EN: Reassign -->
-  <BuildingReassign>Reassign</BuildingReassign>
+  <BuildingReassign>重新分配</BuildingReassign>
   <!-- EN: Unassign -->
   <BuildingUnassign>解除指定</BuildingUnassign>
   <!-- EN: For prisoners -->

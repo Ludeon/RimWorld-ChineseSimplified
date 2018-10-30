@@ -128,7 +128,7 @@
 
   <!-- Player faction base naming -->
   <!-- EN: {0} thinks that you should give this settlement a name. What should the local settlement be called? -->
-  <NamePlayerFactionBaseMessage>看起来你可能得在这里待上好一阵子了，{0}觉得你应该给这个社区起个名字。它叫什么比较好？</NamePlayerFactionBaseMessage>
+  <NamePlayerFactionBaseMessage>看起来你可能得在这里待上好一阵子，{0}觉得你应该给这个社区起个名字。它叫什么比较好？</NamePlayerFactionBaseMessage>
   <!-- EN: This community is now known as {0}. -->
   <PlayerFactionBaseGainsName>这个社区现在被命名为{0}。</PlayerFactionBaseGainsName>
   <!-- EN: That name isn't valid. -->
@@ -136,7 +136,7 @@
   
   <!-- Player faction and faction base naming -->
   <!-- EN: {0} also thinks that you should give this settlement a name. What should this local settlement be called? -->
-  <NamePlayerFactionBaseMessage_NameFactionContinuation>看起来你可能得在这里待上好一阵子了，{0}觉得你也应该给这个社区起个名字。它叫什么比较好？</NamePlayerFactionBaseMessage_NameFactionContinuation>
+  <NamePlayerFactionBaseMessage_NameFactionContinuation>看起来你可能得在这里待上好一阵子，{0}觉得你也应该给这个社区起个名字。它叫什么比较好？</NamePlayerFactionBaseMessage_NameFactionContinuation>
   <!-- EN: Your faction is now known as {0}, and this community is now known as {1}. -->
   <PlayerFactionAndBaseGainsName>你的派系名为{0}，这个社区现在被命名为{1}。</PlayerFactionAndBaseGainsName>
   
@@ -149,10 +149,10 @@
   <ZoneGainsName>这个区域的名称被改为{0}。</ZoneGainsName>
   
   <!-- Pawn naming -->
-  <!-- EN: This person's nickname is now {0}. [PAWN_possessive] title is {1}. -->
-  <PawnGainsName>该人的昵称现在是{0}。[PAWN_possessive]现在叫作{1}。</PawnGainsName>
+  <!-- EN: This person's nickname is now {0}. {PAWN_possessive} title is {PAWN_title}. -->
+  <PawnGainsName>该人的昵称变为{0}。{PAWN_possessive}现在叫作{PAWN_title}。</PawnGainsName>
   <!-- EN: The animal's name is now {0}. -->
-  <AnimalGainsName>该动物的名字现在是{0}。</AnimalGainsName>
+  <AnimalGainsName>该动物的名字变为{0}。</AnimalGainsName>
 
   <!-- Save game incompatible warning -->
   <!-- EN: Version mismatch -->
@@ -426,7 +426,7 @@
   <NuzzleIntervalExplanation>表示动物平均而言会有多频繁地亲昵友好的殖民者。\n\n亲昵是许多动物都有的行为，那时动物会用自己的鼻子或嘴去压在朋友身上以作为友爱的标志。大部分人类认为这很可爱，而且会在一段时间内获得好心情。</NuzzleIntervalExplanation>
   <!-- EN: Revenge chance on harm -->
   <HarmedRevengeChance>被伤反击率</HarmedRevengeChance>
-  <!-- EN: The chance this creature seeks revenge upon being harmed by an attacker at rifle range.\n\nThis chance increases if the attacker is closer. If attacked at very close range, the chance is three times greater.\n\nThis chance is applied each time damage is taken, so slower-firing, higher-damage weapons are less likely to trigger it.\n\nTo minimize the chance of a creature seeing revenge, attack it from rifle range with a slow-firing weapon. -->
+  <!-- EN: The chance this creature seeks revenge upon being harmed by an attacker at rifle range.\n\nThis chance increases if the attacker is closer. If attacked at very close range, the chance is three times greater.\n\nThis chance is applied each time damage is taken, so slower-firing, higher-damage weapons are less likely to trigger it.\n\nTo minimize the chance of a creature seeking revenge, attack it from rifle range with a slow-firing weapon. -->
   <HarmedRevengeChanceExplanation>表示该生物在步枪射程距离下被击中以后伺机报复的概率。\n\n攻击者靠得越近，此概率越高。如果在非常近的距离发动攻击，此概率将是三倍。\n\n此概率在生物每次受到伤害时都会适用，因此开火慢、伤害高的武器触发它的可能性更小。\n\n为了使生物伺机报复的概率降到最低，在步枪射程距离下用开火较慢的武器攻击之。</HarmedRevengeChanceExplanation>
   <!-- EN: Revenge chance on tame fail -->
   <TameFailedRevengeChance>受训失败袭击率</TameFailedRevengeChance>
@@ -434,6 +434,18 @@
   <TerrainRequirement>地形需求</TerrainRequirement>
   <!-- EN: Supports -->
   <Supports>支援</Supports>
+  <!-- EN: Trap armor penetration -->
+  <TrapArmorPenetration>陷阱护甲穿透</TrapArmorPenetration>
+  <!-- EN: Rearm cost -->
+  <RearmCost>重置费用</RearmCost>
+  <!-- EN: Resources needed to rearm this turret (affected by difficulty). -->
+  <RearmCostExplanation>重置该炮塔所需的资源（受难度影响）</RearmCostExplanation>
+  <!-- EN: Shots before rearm -->
+  <ShotsBeforeRearm>剩余射击</ShotsBeforeRearm>
+  <!-- EN: How many shots this turret can fire before it has to be rearmed. -->
+  <ShotsBeforeRearmExplanation>炮塔在必须重置前能够开火的次数。</ShotsBeforeRearmExplanation>
+  <!-- EN: Power consumption -->
+  <PowerConsumption>功耗</PowerConsumption>
 
   <!-- Trade -->
   <!-- EN: Positive numbers buy.\nNegative numbers sell. -->
@@ -468,10 +480,10 @@
   <TraderWillNotTrade>贸易商不想交易这种商品。</TraderWillNotTrade>
   <!-- EN: Negotiator -->
   <Negotiator>谈判者</Negotiator>
-  <!-- EN: Your negotiator {0} cannot talk properly because of poor health. -->
-  <NegotiatorTalkingImpaired>你的谈判者{0}由于健康原因而无法正常说话。</NegotiatorTalkingImpaired>
-  <!-- EN: Your negotiator {0} cannot hear properly because of poor health. -->
-  <NegotiatorHearingImpaired>你的谈判者{0}由于健康原因而无法正常听声。</NegotiatorHearingImpaired>
+  <!-- EN: Your negotiator {1_labelShort} cannot talk properly because of poor health. -->
+  <NegotiatorTalkingImpaired>你的谈判者{1_labelShort}由于健康原因而无法正常说话。</NegotiatorTalkingImpaired>
+  <!-- EN: Your negotiator {1_labelShort} cannot hear properly because of poor health. -->
+  <NegotiatorHearingImpaired>你的谈判者{1_labelShort}由于健康原因而无法正常听声。</NegotiatorHearingImpaired>
   <!-- EN: This will affect trade prices.\n\nConsider using a healthier negotiator. -->
   <NegotiatorCapacityImpaired>这将影响到贸易价格.\n\n请考虑换一个健康的谈判者。</NegotiatorCapacityImpaired>
   <!-- EN: Trader has insufficient silver to fully cover this transaction.  Proceed anyways? -->
@@ -499,7 +511,7 @@
   <!-- EN: Final price -->
   <FinalPrice>最终价格</FinalPrice>
   <!-- EN: Gift mode - offer gifts to {0}. -->
-  <GiftModeTip>礼物模式 - 对{0}提供礼物。</GiftModeTip>
+  <GiftModeTip>礼物模式 - 向{0}馈赠礼物。</GiftModeTip>
   <!-- EN: Return to trade mode. -->
   <TradeModeTip>回到交易模式。</TradeModeTip>
 
@@ -526,7 +538,7 @@
   <CaravanCouldNotFindPackingSpot>未发现有效的打包点。确保所选择的离开位置（{0}）是可以到达的。</CaravanCouldNotFindPackingSpot>
   <!-- EN: Warning: Some of the assigned colonists are unable to reach the exit location ({0}). -->
   <CaravanCouldNotFindReachableExitSpot>警告：部分被指派的殖民者无法到达离开位置（{0}）。</CaravanCouldNotFindReachableExitSpot>
-  <!-- EN: {0} is unreachable by any of the assigned colonists. -->
+  <!-- EN: {1_labelShort} is unreachable by any of the assigned colonists. -->
   <CaravanPawnIsUnreachable>对于所有被指派的殖民者，{0}是无法到达的。</CaravanPawnIsUnreachable>
   <!-- EN: None of the assigned colonists are able to reach the {0}. -->
   <CaravanItemIsUnreachableSingle>所有被指派的殖民者均无法到达{0}所在位置。</CaravanItemIsUnreachableSingle>
@@ -537,7 +549,7 @@
   <!-- EN: Includes carried items and equipped items. Carrying less than the maximum gives a speed bonus. -->
   <CaravanMassUsageTooltip>包括运送的物品和装备的物品。运送比最大量更少的物品将提高远行队的速度。</CaravanMassUsageTooltip>
   <!-- EN: Visibility is how easy your caravan is to notice.\n\nIt multiplies the chance that your caravan will be waylaid by enemies.\n\nVisibility does not affect your ability to find things you want.\n\nVisibility is based on the total body size of all people and animals in the caravan. -->
-  <CaravanVisibilityTip>可见度表示你的远行队容易被注意到的概率。\n\n它会影响你的远行队被拦路袭击的概率。\n\n可见度不会影响你找到你要的东西的能力。\n\n可见度基于远行队中的所有人和动物的体形加总。</CaravanVisibilityTip>
+  <CaravanVisibilityTip>可见度表示你的远行队容易被注意到的概率。\n\n它会影响你的远行队被拦路袭击的概率。\n\n可见度不会影响你找到你要的东西的能力。\n\n可见度基于远行队中的所有人和动物的体形总和。</CaravanVisibilityTip>
   <!-- EN: Days of food -->
   <DaysWorthOfFood>食物剩余天数</DaysWorthOfFood>
   <!-- EN: rot in {0} -->
@@ -546,12 +558,12 @@
   <InfiniteDaysWorthOfFoodInfo>无限</InfiniteDaysWorthOfFoodInfo>
   <!-- EN: The approximate number of days before at least one person or animal will be out of food. Different species have different diets, so one may run out of food before others. This value is calculated more accurately after the route is chosen.\n\nAffected by:\n  - Carried food type and amount\n  - Caravan members and their diets\n  - Foraging rate\n  - Whether animals can graze\n  - Time until food rots\n  - Hot weather rots food faster -->
   <DaysWorthOfFoodTooltip>远行队所携带的食物预计可以维持的天数。\n\n计算包括人类和动物的食物，并考虑最坏的情况。 这表示这么多天后，至少有一个动物或人将会没有食物。</DaysWorthOfFoodTooltip>
-  <!-- EN: \n(only the first waypoint is taken into account) -->
+  <!-- EN: (only the first waypoint is taken into account) -->
   <DaysWorthOfFoodTooltip_OnlyFirstWaypoint>\n（只有第一个路径点才被计入）</DaysWorthOfFoodTooltip_OnlyFirstWaypoint>
   <!-- EN: Your caravan only has {0} days worth of food and will become hungry quickly. -->
-  <DaysWorthOfFoodWarningDialog>你的远行队只带了{0}天的食物，很快便会出现饥饿情况。</DaysWorthOfFoodWarningDialog>
+  <DaysWorthOfFoodWarningDialog>你的远行队只带了{0}天的食物，很快便会出现挨饿的情况。</DaysWorthOfFoodWarningDialog>
   <!-- EN: Your caravan has no food and will become hungry very quickly. -->
-  <DaysWorthOfFoodWarningDialog_NoFood>你的远行队没有携带任何食物，很快便会出现饥饿情况。</DaysWorthOfFoodWarningDialog_NoFood>
+  <DaysWorthOfFoodWarningDialog_NoFood>你的远行队没有携带任何食物，很快便会出现挨饿的情况。</DaysWorthOfFoodWarningDialog_NoFood>
   <!-- EN: The average amount of food per day your people will forage. This value will change as you travel across biomes with different forage yield rates. -->
   <ForagedFoodPerDayTip>你的人每天平均采集的食物量。当你抵达食物产量不同的生态区时，此数值会发生变化。</ForagedFoodPerDayTip>
   <!-- EN: Forage per day -->
@@ -652,8 +664,8 @@
   <TooBigTransportersMassUsage>指定的人和物品的重量超过运输舱的最大载重能力。</TooBigTransportersMassUsage>
   <!-- EN: You can't send empty transport pods. -->
   <CantSendEmptyTransportPods>你无法发射空的运输舱。</CantSendEmptyTransportPods>
-  <!-- EN: {0} can't reach the transport pods. -->
-  <PawnCantReachTransporters>{0}无法到达到运输舱。</PawnCantReachTransporters>
+  <!-- EN: {1_labelShort} can't reach the transport pods. -->
+  <PawnCantReachTransporters>{1_labelShort}无法到达到运输舱。</PawnCantReachTransporters>
   <!-- EN: There is no path between the transport pods and the {0}. -->
   <TransporterItemIsUnreachableSingle>运输舱与{0}之间没有路径。</TransporterItemIsUnreachableSingle>
   <!-- EN: There is no path between the transport pods and {0}x {1}. -->
@@ -708,6 +720,8 @@
   <DeleteDrugPolicy>删除用药方针</DeleteDrugPolicy>
   <!-- EN: Drugs policy is in use by {0}. -->
   <DrugPolicyInUse>{0}个启用的用药方针</DrugPolicyInUse>
+  <!-- EN: Food restriction is in use by {0}. -->
+  <FoodRestrictionInUse>{0}个启用的食物限制</FoodRestrictionInUse>
   <!-- EN: Social drugs -->
   <SocialDrugs>社交类成瘾品</SocialDrugs>
   <!-- EN: No drugs -->
@@ -763,6 +777,30 @@
   <!-- EN: Scheduled\n\nUse this drug on a defined schedule, when specific conditions are met. -->
   <DrugUsageTipScheduled>计划服用\n\n当特定条件满足时，根据指定的日程安排服用药物和成瘾品。</DrugUsageTipScheduled>
 
+  <!-- Food restriction management -->
+  <!-- EN: Food restriction -->
+  <FoodRestriction>食物限制</FoodRestriction>
+  <!-- EN: Lavish -->
+  <FoodRestrictionLavish>不限</FoodRestrictionLavish>
+  <!-- EN: Fine -->
+  <FoodRestrictionFine>最高精致</FoodRestrictionFine>
+  <!-- EN: Simple -->
+  <FoodRestrictionSimple>最高简单</FoodRestrictionSimple>
+  <!-- EN: Paste -->
+  <FoodRestrictionPaste>最高营养膏</FoodRestrictionPaste>
+  <!-- EN: Raw -->
+  <FoodRestrictionRaw>仅限生食</FoodRestrictionRaw>
+  <!-- EN: Nothing -->
+  <FoodRestrictionNothing>不提供</FoodRestrictionNothing>
+  <!-- EN: Select food restriction -->
+  <SelectFoodRestriction>选择限制</SelectFoodRestriction>
+  <!-- EN: New food restriction -->
+  <NewFoodRestriction>新的限制</NewFoodRestriction>
+  <!-- EN: Delete food restriction -->
+  <DeleteFoodRestriction>删除限制</DeleteFoodRestriction>
+  <!-- EN: No food restriction selected -->
+  <NoFoodRestrictionSelected>未选择食物限制</NoFoodRestrictionSelected>
+
   <!-- Medical settings -->
   <!-- EN: Defaults -->
   <MedGroupDefaults>默认</MedGroupDefaults>
@@ -796,20 +834,20 @@
   <ConfirmMoveAutoJoinableCaravan>有囚犯或动物正要加入此远行队。如果你移动远行队，他们就无法加入远行队了。\n\n动物、囚犯和倒地的殖民者，如果没有任何未倒地的殖民者的陪同而被落在地图上，将视同已被遗弃，并可被敌人俘虏。\n\n确定要移动远行队吗？</ConfirmMoveAutoJoinableCaravan>
   
   <!-- Abandon pawn -->
-  <!-- EN: Do you really want to banish {0}? -->
-  <ConfirmBanishPawnDialog>你真的要放逐{0}吗?</ConfirmBanishPawnDialog>
-  <!-- EN: {0} will most likely die. -->
-  <ConfirmBanishPawnDialog_LeftToDie>{0}极可能会死。</ConfirmBanishPawnDialog_LeftToDie>
-  <!-- EN: {0} will take the following items with [PAWN_objective]: -->
-  <ConfirmBanishPawnDialog_Items>{0}将会携带以下物品：</ConfirmBanishPawnDialog_Items>
+  <!-- EN: Do you really want to banish {1_label}? -->
+  <ConfirmBanishPawnDialog>你真的要放逐{1_label}吗?</ConfirmBanishPawnDialog>
+  <!-- EN: {1_labelShort} will most likely die. -->
+  <ConfirmBanishPawnDialog_LeftToDie>{1_labelShort}极可能会死。</ConfirmBanishPawnDialog_LeftToDie>
+  <!-- EN: {1_labelShort} will take the following items with {1_objective}: -->
+  <ConfirmBanishPawnDialog_Items>{1_labelShort}将会携带以下物品：</ConfirmBanishPawnDialog_Items>
   <!-- EN: All colonists will get the following thoughts: -->
   <ConfirmBanishPawnDialog_AllColonistsThoughts>所有的殖民者会产生以下想法：</ConfirmBanishPawnDialog_AllColonistsThoughts>
-  <!-- EN: Banishing {0} will cause the following people to get the following thoughts: -->
-  <ConfirmBanishPawnDialog_IndividualThoughts>放逐{0}将会导致这些人产生以下想法：</ConfirmBanishPawnDialog_IndividualThoughts>
+  <!-- EN: Banishing {1_labelShort} will cause the following people to get the following thoughts: -->
+  <ConfirmBanishPawnDialog_IndividualThoughts>放逐{1_labelShort}将会导致这些人产生以下想法：</ConfirmBanishPawnDialog_IndividualThoughts>
 
   <!-- Send transport pods which are not completely loaded -->
-  <!-- EN: Pod group isn't completely loaded. {0} is missing. Launch anyway? -->
-  <ConfirmSendNotCompletelyLoadedPods>发射组并没有完成装载进程。 {0} 还未进入运输舱。确定要发射吗？</ConfirmSendNotCompletelyLoadedPods>
+  <!-- EN: Pod group isn't completely loaded. {1_labelShort} is missing. Launch anyway? -->
+  <ConfirmSendNotCompletelyLoadedPods>发射组并没有完成装载进程。 {1_labelShort}还未进入运输舱。确定要发射吗？</ConfirmSendNotCompletelyLoadedPods>
 
   <!-- Settle near a faction base -->
   <!-- EN: Since this location is within {0} tiles of another faction base, they will feel you are encroaching on their land and relations with those factions will worsen every {1} days.\n\nSettle here anyways? -->

@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-  <!-- EN: Mad {0} -->
-  <LetterLabelAnimalInsanitySingle>{0}发狂</LetterLabelAnimalInsanitySingle>
-  <!-- EN: A local {0} has gone mad. It will attack everyone it sees. -->
-  <AnimalInsanitySingle>本地区的一只{0}发狂了。它会攻击任何视野内的人类。</AnimalInsanitySingle>
+  <!-- EN: Mad {ANIMAL_labelShort} -->
+  <LetterLabelAnimalInsanitySingle>{ANIMAL_labelShort}发狂</LetterLabelAnimalInsanitySingle>
+  <!-- EN: A local {ANIMAL_label} has gone mad. It will attack everyone it sees. -->
+  <AnimalInsanitySingle>本地区的一只{ANIMAL_label}发狂了。它会攻击任何视野内的人类。</AnimalInsanitySingle>
   <!-- EN: Mad {0} -->
   <LetterLabelAnimalInsanityMultiple>大批{0}发狂</LetterLabelAnimalInsanityMultiple>
   <!-- EN: Some sort of psychic wave has swept over the landscape. Your colonists are okay, but...\n\nIt seems many of the {0} in the area have been driven insane. -->
@@ -21,23 +21,23 @@
   <MiracleHeal>{0}奇迹般的恢复健康了！</MiracleHeal>
 
   <!-- Enemy raids -->
-  <!-- EN: One of the {0} - {1}, is the leader of the faction. -->
-  <EnemyRaidLeaderPresent>{0}的其中一员——{1}，是该派系首领。</EnemyRaidLeaderPresent>
+  <!-- EN: One of the {LEADER_factionPawnsPlural} - {LEADER_labelShort}, is the leader of the faction. -->
+  <EnemyRaidLeaderPresent>{LEADER_factionPawnsPlural}的其中一员——{LEADER_labelShort}，是该派系首领。</EnemyRaidLeaderPresent>
 
   <!-- Friendly raids -->
-  <!-- EN: One of the {0} - {1}, is the leader of the faction. -->
-  <FriendlyRaidLeaderPresent>{0}的其中一员——{1}，是该派系首领。</FriendlyRaidLeaderPresent>
+  <!-- EN: One of the {LEADER_factionPawnsPlural} - {LEADER_labelShort}, is the leader of the faction. -->
+  <FriendlyRaidLeaderPresent>{LEADER_factionPawnsPlural}的其中一员——{LEADER_labelShort}，是该派系首领。</FriendlyRaidLeaderPresent>
 
   <!-- EN: Transport pod crash -->
   <LetterLabelRefugeePodCrash>逃生舱坠毁</LetterLabelRefugeePodCrash>
-  <!-- EN: A [PAWN_title] named [PAWN_nameDef] is crashing in a transport pod nearby. If [PAWN_pronoun] survives the impact, [PAWN_pronoun] will be badly wounded. -->
-  <RefugeePodCrash>你侦测到了一个逃生舱在附近坠毁了。\n\n即使有人在撞击后还活了下来，他们也会受重伤。\n\n你可以派殖民者拯救他们并送他们回家。或者，你也可以俘虏他们尝试让他们加入你或者卖为奴隶。</RefugeePodCrash>
-  <!-- EN: [PAWN_nameDef] is not affiliated with any faction. You can rescue [PAWN_objective] and hope [PAWN_pronoun] joins freely, or capture [PAWN_objective] for recruitment or slavery purposes. -->
-  <RefugeePodCrash_Factionless>[PAWN_nameDef]不属于任何派系。你可以救援[PAWN_objective]并希望[PAWN_pronoun]自由加入，或是为了招募或奴役而俘虏[PAWN_objective]。</RefugeePodCrash_Factionless>
-  <!-- EN: [PAWN_nameDef] is from your enemy [PAWN_factionName]. You can capture [PAWN_objective] for recruitment or slavery purposes. -->
-  <RefugeePodCrash_Hostile>[PAWN_nameDef]来自于敌对派系[PAWN_factionName]，你可以为了招募或奴役而俘虏[PAWN_objective]。</RefugeePodCrash_Hostile>
-  <!-- EN: [PAWN_nameDef] is from [PAWN_factionName]. If you rescue [PAWN_objective], [PAWN_pronoun] may join freely. Otherwise, [PAWN_pronoun] will return home and spread goodwill between your factions.\n\nYou can also capture [PAWN_objective] for recruitment or slavery purposes, but this will anger [PAWN_possessive] faction. -->
-  <RefugeePodCrash_NonHostile>[PAWN_nameDef]来自于[PAWN_factionName]。如果你救援[PAWN_objective]，[PAWN_pronoun]可能会加入，也可能回到派系并改善双方的关系。\n\n你也可以为了招募或奴役而俘虏[PAWN_objective]，但这会激怒[PAWN_possessive]派系。</RefugeePodCrash_NonHostile>
+  <!-- EN: {PAWN_titleIndef} named {PAWN_nameDef} is crashing in a transport pod nearby. If {PAWN_pronoun} survives the impact, {PAWN_pronoun} will be badly wounded. -->
+  <RefugeePodCrash>逃生舱在附近坠毁了，里面载有名叫{PAWN_nameDef}的{PAWN_titleIndef}。\n\n即使在撞击后活了下来，{PAWN_pronoun}也会受重伤。</RefugeePodCrash>
+  <!-- EN: {PAWN_nameDef} is not affiliated with any faction. You can rescue {PAWN_objective} and hope {PAWN_pronoun} joins freely, or capture {PAWN_objective} for recruitment or slavery purposes. -->
+  <RefugeePodCrash_Factionless>{PAWN_pronoun}不属于任何派系。你可以救援{PAWN_objective}并希望{PAWN_pronoun}自由加入，或是为了招募或奴役而俘虏{PAWN_objective}。</RefugeePodCrash_Factionless>
+  <!-- EN: {PAWN_nameDef} is from your enemy {PAWN_factionName}. You can capture {PAWN_objective} for recruitment or slavery purposes. -->
+  <RefugeePodCrash_Hostile>{PAWN_nameDef}来自于敌对派系{PAWN_factionName}，你可以为了招募或奴役而俘虏{PAWN_objective}。</RefugeePodCrash_Hostile>
+  <!-- EN: {PAWN_nameDef} is from {PAWN_factionName}. If you rescue {PAWN_objective}, {PAWN_pronoun} may join freely. Otherwise, {PAWN_pronoun} will return home and spread goodwill between your factions.\n\nYou can also capture {PAWN_objective} for recruitment or slavery purposes, but this will anger {PAWN_possessive} faction. -->
+  <RefugeePodCrash_NonHostile>{PAWN_nameDef}来自于{PAWN_factionName}。如果你救援{PAWN_objective}，{PAWN_pronoun}可能会加入，也可能回到派系并改善双方的关系。\n\n你也可以为了招募或奴役而俘虏{PAWN_objective}，但这会激怒{PAWN_possessive}派系。</RefugeePodCrash_NonHostile>
 
   <!-- EN: Cargo pods -->
   <LetterLabelCargoPodCrash>货舱坠毁</LetterLabelCargoPodCrash>
@@ -58,29 +58,29 @@
   <ShortCircuitWasHuge>这爆炸的规模可超级大啊，哇！</ShortCircuitWasHuge>
 
   <!-- EN: A trade ship is passing nearby.\n\nThey are known as {0}. They are a {1}. -->
-  <TraderArrival>一艘商船正巧经过。\n\n他们被称作{0}。是{1}。</TraderArrival>
+  <TraderArrival>一艘商船正巧经过。\n\n他们被称作{0}，是{1}。</TraderArrival>
 
-  <!-- EN: A {0} from {1} is passing by. [PAWN_pronoun] is named {2}. -->
-  <SingleTravelerPassing>一位来自{1}的{0}正巧路过。[PAWN_pronoun]的名字叫{2}。</SingleTravelerPassing>
+  <!-- EN: A {PAWN_title} from {1} is passing by. {PAWN_pronoun} is named {PAWN_nameFull}. -->
+  <SingleTravelerPassing>一位来自{1}的{0}正巧路过。{PAWN_pronoun}的名字叫{PAWN_nameFull}。</SingleTravelerPassing>
   <!-- EN: A group of travelers from {0} are passing by. -->
   <GroupTravelersPassing>一群来自{0}的旅行者正巧路过。</GroupTravelersPassing>
 
   <!-- EN: Visitor -->
   <LetterLabelSingleVisitorArrives>访客</LetterLabelSingleVisitorArrives>
-  <!-- EN: A {0} from {1} is visiting the colony.\n\n[PAWN_pronoun] is named {2}.{3}{4} -->
-  <SingleVisitorArrives>一位来自{1}的{0}来拜访殖民地。\n\n[PAWN_pronoun]的名字叫{2}。{3}{4}</SingleVisitorArrives>
-  <!-- EN: \n\n[PAWN_pronoun] seems to have a few items to trade. -->
-  <SingleVisitorArrivesTraderInfo>\n\n[PAWN_pronoun]似乎有些物品可供交易。</SingleVisitorArrivesTraderInfo>
-  <!-- EN: \n\n[PAWN_pronoun] is the leader of the faction. -->
-  <SingleVisitorArrivesLeaderInfo>\n\n[PAWN_pronoun]是该派系首领。</SingleVisitorArrivesLeaderInfo>
+  <!-- EN: {PAWN_titleIndef} from {1} is visiting the colony.\n\n{PAWN_pronoun} is named {PAWN_nameFull}.{3}{4} -->
+  <SingleVisitorArrives>一位来自{1}的{PAWN_titleIndef}来拜访殖民地。\n\n{PAWN_pronoun}的名字叫{PAWN_nameFull}。{3}{4}</SingleVisitorArrives>
+  <!-- EN: {PAWN_pronoun} seems to have a few items to trade. -->
+  <SingleVisitorArrivesTraderInfo>\n\n{PAWN_pronoun}似乎有些物品可供交易。</SingleVisitorArrivesTraderInfo>
+  <!-- EN: {PAWN_pronoun} is the leader of the faction. -->
+  <SingleVisitorArrivesLeaderInfo>\n\n{PAWN_pronoun}是该派系首领。</SingleVisitorArrivesLeaderInfo>
   <!-- EN: Visitors -->
   <LetterLabelGroupVisitorsArrive>访客</LetterLabelGroupVisitorsArrive>
   <!-- EN: A group from {0} are visiting the colony.{1}{2} -->
   <GroupVisitorsArrive>一群来自{0}的人来拜访殖民地。{1}{2}</GroupVisitorsArrive>
-  <!-- EN: \n\nThey seem to have a few items to trade. -->
+  <!-- EN: They seem to have a few items to trade. -->
   <GroupVisitorsArriveTraderInfo>\n\n他们似乎有些物品可供交易。</GroupVisitorsArriveTraderInfo>
-  <!-- EN: \n\nOne of the visitors - {0}, is the leader of the faction. -->
-  <GroupVisitorsArriveLeaderInfo>\n\n访客中的{0}是该派系首领。</GroupVisitorsArriveLeaderInfo>
+  <!-- EN: One of the visitors - {1_labelShort}, is the leader of the faction. -->
+  <GroupVisitorsArriveLeaderInfo>\n\n访客中的{1_labelShort}是该派系首领。</GroupVisitorsArriveLeaderInfo>
   <!-- EN: Visitors from {0} are leaving. -->
   <VisitorsLeaving>来自{0}的访客准备离开了。</VisitorsLeaving>
 
@@ -124,29 +124,29 @@
   <!-- EN: Beavers! -->
   <LetterLabelBeaversArrived>阿尔法海狸！</LetterLabelBeaversArrived>
   <!-- EN: A group of hungry alphabeavers has just arrived.\n\nTry to eliminate them before they decimate every last source of wood in the region. -->
-  <BeaversArrived>一群饥饿的阿尔法海狸到来了。\n\n在这种基因改造动物啃倒本地区最后一棵树之前消灭他们。</BeaversArrived>
+  <BeaversArrived>一群饥饿的阿尔法海狸出现。\n\n在这种基因改造动物啃倒本地区最后一棵树之前消灭他们。</BeaversArrived>
   
   <!-- Refugee chased -->
   <!-- EN: Refugee chased at {0} -->
   <RefugeeChasedTitle>在{0}被追击的逃亡者</RefugeeChasedTitle>
-  <!-- EN: A [PAWN_title] named [PAWN_nameDef] calls you from nearby. [PAWN_pronoun] is being chased by {2} from {3}!\n\n[PAWN_pronoun] begs for safety and offers to join your colony. [PAWN_pronoun] tells you [PAWN_pronoun] is {4} years old, but there's no time to collect more information.\n\nBe warned - if you accept, you'll have to fight off the {2} on [PAWN_possessive] tail. Their group is composed of:\n\n{5} -->
-  <RefugeeChasedInitial>附近一位名叫[PAWN_nameDef]的[PAWN_title]发来求救信号。[PAWN_pronoun]说自己正被来自{3}的{2}追捕！\n\n[PAWN_pronoun]祈求得到保护并想加入殖民地。[PAWN_pronoun]的生物年龄是{4}岁。\n\n警告：如果你接受请求，你将要对抗追捕[PAWN_possessive]{2}。队伍构成：\n\n{5}</RefugeeChasedInitial>
+  <!-- EN: {PAWN_titleIndef} named {PAWN_nameDef} calls you from nearby. {PAWN_pronoun} is being chased by {2} from {3}!\n\n{PAWN_pronoun} begs for safety and offers to join your colony. {PAWN_pronoun} tells you {PAWN_pronoun} is {4} years old, but there's no time to collect more information.\n\nBe warned - if you accept, you'll have to fight off the {2} on {PAWN_possessive} tail. Their group is composed of:\n\n{5} -->
+  <RefugeeChasedInitial>附近一位名叫{PAWN_nameDef}的{PAWN_titleIndef}发来求救信号。{PAWN_pronoun}说自己正被来自{3}的{2}追捕！\n\n{PAWN_pronoun}祈求得到保护并想加入殖民地。{PAWN_pronoun}的生物年龄是{4}岁。\n\n警告：如果你接受请求，你将要对抗追捕[PAWN_possessive]{2}。队伍构成：\n\n{5}</RefugeeChasedInitial>
   <!-- EN: Offer safety -->
   <RefugeeChasedInitial_Accept>提供保护</RefugeeChasedInitial_Accept>
   <!-- EN: Ignore the message -->
   <RefugeeChasedInitial_Reject>忽略消息</RefugeeChasedInitial_Reject>
-  <!-- EN: {0} screams in panic through the tinny speaker before you cut off the transmission. -->
-  <RefugeeChasedRejected>在你中断联系时，通讯器中传出{0}恐慌的尖叫声。</RefugeeChasedRejected>
+  <!-- EN: {1_labelShort} screams in panic through the tinny speaker before you cut off the transmission. -->
+  <RefugeeChasedRejected>在你中断联系时，通讯器中传出{1_labelShort} 恐慌的尖叫声。</RefugeeChasedRejected>
 
   <!-- Self-tame -->
-  <!-- EN: {0} self-tamed -->
-  <LetterLabelAnimalSelfTame>{0}自行驯服</LetterLabelAnimalSelfTame>
+  <!-- EN: {1_kind} self-tamed -->
+  <LetterLabelAnimalSelfTame>{1_kind}自行驯服</LetterLabelAnimalSelfTame>
   <!-- EN: {0} has become tame. -->
   <LetterAnimalSelfTame>{0}自行驯服了。</LetterAnimalSelfTame>
-  <!-- EN: {0} has become tame. It is now designated {1}. -->
-  <LetterAnimalSelfTameAndNameNumerical>{0}自行驯服了。现在已被指定为{1}。</LetterAnimalSelfTameAndNameNumerical>
-  <!-- EN: {0} has become tame. Colonists have decided to name it {1}. -->
-  <LetterAnimalSelfTameAndName>{0}自行驯服了。殖民者决定将它命名为{1}。</LetterAnimalSelfTameAndName>
+  <!-- EN: {0} has become tame. It is now designated {ANIMAL_nameFull}. -->
+  <LetterAnimalSelfTameAndNameNumerical>{0}自行驯服了。现在已被指定为{ANIMAL_nameFull}。</LetterAnimalSelfTameAndNameNumerical>
+  <!-- EN: {0} has become tame. Colonists have decided to name it {ANIMAL_nameFull}. -->
+  <LetterAnimalSelfTameAndName>{0}自行驯服了。殖民者决定将它命名为{ANIMAL_nameFull}。</LetterAnimalSelfTameAndName>
 
   <!-- Farm animals wander in -->
   <!-- EN: {0} join -->
@@ -169,8 +169,8 @@
   <!-- Ransom demand -->
   <!-- EN: Ransom demand at {0} -->
   <RansomDemandTitle>向{0}索要赎金</RansomDemandTitle>
-  <!-- EN: {1} contacts you on radio. They are holding former colonist {0} for ransom.\n\nThey're willing to release [PAWN_objective] back to you in exchange for {2} silver. -->
-  <RansomDemand>{1}发来通讯信号。他们绑架了殖民者 {0} 并索要赎金。\n\n从他们手里赎回[PAWN_objective]需要{2}白银。</RansomDemand>
+  <!-- EN: {1} contacts you on radio. They are holding former colonist {PAWN_labelShort} for ransom.\n\nThey're willing to release {PAWN_objective} back to you in exchange for {2} silver. -->
+  <RansomDemand>{1}发来通讯信号。他们绑架了殖民者 {PAWN_labelShort} 并索要赎金。\n\n从他们手里赎回{PAWN_objective}需要{2}白银。</RansomDemand>
   <!-- EN: Accept -->
   <RansomDemand_Accept>同意</RansomDemand_Accept>
   <!-- EN: Reject -->
@@ -208,9 +208,11 @@
   <!-- EN: A nearby settlement, {0}, contacts you with a special trade request. They would like to purchase:\n\n  {1} (worth {2})\n\nIn return, they offer:\n\n  {3} (worth {4})\n\nThis request expires after: {5}\n\nIf you want to make the trade, send a caravan with the requested supplies. The estimated travel time is {6}. You can review this offer by selecting {0} on the world map. -->
   <LetterCaravanRequest>附近的一个定居点，{0}，联系上你并提出一个特殊的交易需求。他们想要采购：\n\n  {1} (价值 {2})\n\n作为回报，他们会提供:\n\n  {3} (价值 {4})\n\n请求期限:{5}\n\n如果你想完成这项交易，派遣携带这些物资的远行队。预估旅途用时为{6}。你可以在世界地图中选择{0}查看此请求。</LetterCaravanRequest>
   <!-- EN: Requesting: {0} ({3}), Reward: {1} ({4}) ({2} left) -->
-  <CaravanRequestInfo>需求: {0}，回报: {1} ({4})（剩余 {2}）</CaravanRequestInfo>
+  <CaravanRequestInfo>需求: {0} ({3})，回报: {1} ({4})（剩余 {2}）</CaravanRequestInfo>
   <!-- EN: normal quality or better -->
   <NormalQualityOrBetter>品质需要为一般及以上。</NormalQualityOrBetter>
+  <!-- EN: not tainted -->
+  <NotTainted>未被污染</NotTainted>
 
   <!-- Caravan demand -->
   <!-- EN: Caravan demand by {0} -->
@@ -234,7 +236,7 @@
 
   <!-- UNUSED -->
   <LetterLabelWandererJoin>流浪者加入</LetterLabelWandererJoin>
-  <WandererJoin>一位名叫[PAWN_nameDef]的{0}来到了这里并加入了殖民地。[PAWN_pronoun]是一位{1}。</WandererJoin>
+  <WandererJoin>一位名叫[PAWN_nameDef]的{0}来到了这里并加入了殖民地。{PAWN_pronoun}是一位{1}。</WandererJoin>
   <PsychicDroneLevelLow>低</PsychicDroneLevelLow>
   <PsychicDroneLevelMedium>中</PsychicDroneLevelMedium>
   <PsychicDroneLevelHigh>高</PsychicDroneLevelHigh>
