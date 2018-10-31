@@ -190,7 +190,7 @@
   <!-- EN: {HUMAN_labelShort} and {ANIMAL_labelShort} have formed a bond. -->
   <MessageNewBondRelation>{HUMAN_labelShort}和{ANIMAL_labelShort}感情深厚达成牵绊。</MessageNewBondRelation>
   <!-- EN: {HUMAN_labelShort} and {1} have formed a bond. {HUMAN_labelShort} has named {ANIMAL_objective} {ANIMAL_nameFull}. -->
-  <MessageNewBondRelationNewName>{HUMAN_labelShort}和{ANIMAL_labelShort}感情深厚达成牵绊。{HUMAN_labelShort}给{ANIMAL_objective} 起名{ANIMAL_nameFull}。</MessageNewBondRelationNewName>
+  <MessageNewBondRelationNewName>{HUMAN_labelShort}和{1}感情深厚达成牵绊。{HUMAN_labelShort}给{ANIMAL_objective}起名{ANIMAL_nameFull}。</MessageNewBondRelationNewName>
   
   <!-- EN: {ANIMAL} has a mental break because of {HUMAN_labelShort}'s death. -->
   <MessageBondedAnimalMentalBreak>因为{ANIMAL}的死亡，{HUMAN_labelShort}精神崩溃了。</MessageBondedAnimalMentalBreak>
@@ -521,12 +521,5 @@
 
   <!-- EN: Cannot shoot in melee. -->
   <MessageCantShootInMelee>无法在近战距离射击</MessageCantShootInMelee>
-
-  <!-- UNUSED -->
-  <MessagePlayerTriedToLeaveMapViaExitGrid>如果要离开此区域，在世界视图使用“重组远行队”按钮。</MessagePlayerTriedToLeaveMapViaExitGrid>
-  <MessageCaravanIsVisitingSettlement>{0}已抵达{1}。</MessageCaravanIsVisitingSettlement>
-  <MessageCaravanEnteredWorldObject>{0}已抵达{1}。</MessageCaravanEnteredWorldObject>
-  <MessageFailedToLoadTransportersBecauseColonistLost>由于其中一个殖民者丢失，装载进程已取消。</MessageFailedToLoadTransportersBecauseColonistLost>
-  <MessageBlockedHediff>{0}阻止了{1}于：{2}。</MessageBlockedHediff>
 
 </LanguageData>

@@ -167,19 +167,19 @@
   <!-- EN: Stopped because: Everyone has a mental break. -->
   <AllCaravanMembersMentalBreak>停止原因: 全员精神崩溃。</AllCaravanMembersMentalBreak>
   <!-- EN: {0} {1} -->
-  <CaravanColonistsCount>{0} {1}</CaravanColonistsCount>
+  <CaravanColonistsCount>{0}{1}</CaravanColonistsCount>
   <!-- EN: 1 animal -->
-  <CaravanAnimal>1 动物</CaravanAnimal>
+  <CaravanAnimal>1动物</CaravanAnimal>
   <!-- EN: {0} animals -->
-  <CaravanAnimalsCount>{0} 动物</CaravanAnimalsCount>
+  <CaravanAnimalsCount>{0}动物</CaravanAnimalsCount>
   <!-- EN: 1 prisoner -->
-  <CaravanPrisoner>1 囚犯</CaravanPrisoner>
+  <CaravanPrisoner>1囚犯</CaravanPrisoner>
   <!-- EN: {0} prisoners -->
-  <CaravanPrisonersCount>{0} 囚犯</CaravanPrisonersCount>
+  <CaravanPrisonersCount>{0}囚犯</CaravanPrisonersCount>
   <!-- EN: {0} in mental state -->
-  <CaravanPawnsInMentalState>{0} 已精神崩溃</CaravanPawnsInMentalState>
+  <CaravanPawnsInMentalState>{0}已精神崩溃</CaravanPawnsInMentalState>
   <!-- EN: {0} downed -->
-  <CaravanPawnsDowned>{0} 已倒地</CaravanPawnsDowned>
+  <CaravanPawnsDowned>{0}已倒地</CaravanPawnsDowned>
   <!-- EN: Traveling. -->
   <CaravanTraveling>行进中。</CaravanTraveling>
   <!-- EN: Waiting. -->
@@ -321,7 +321,7 @@
   <!-- EN: Expires in -->
   <ExpiresIn>剩余时间</ExpiresIn>
   <!-- EN: {1_labelShort}'s caravan -->
-  <CaravanLeaderCaravanName>{0}的远行队</CaravanLeaderCaravanName>
+  <CaravanLeaderCaravanName>{1_labelShort}的远行队</CaravanLeaderCaravanName>
   <!-- EN: Reason -->
   <Reason>原因</Reason>
   <!-- EN: Relations with {0} -->
@@ -567,7 +567,7 @@
   <!-- EN: {0} of {1} -->
   <PawnMainDescFactionedWrap>{0} 来自 {1}</PawnMainDescFactionedWrap>
   <!-- EN: {2_lifeStageAdjective} {0} -->
-  <PawnMainDescLifestageWrap>{2_lifeStageAdjective} {0}</PawnMainDescLifestageWrap>
+  <PawnMainDescLifestageWrap>{2_lifeStageAdjective}{0}</PawnMainDescLifestageWrap>
   <!-- EN: Faction -->
   <Faction>派系</Faction>
   <!-- EN: Equipped -->
@@ -1048,14 +1048,5 @@
   <ClickToSeeAvailableOrders_WorldObject>{0}：查看可用命令……</ClickToSeeAvailableOrders_WorldObject>
   <!-- EN: See available orders... -->
   <ClickToSeeAvailableOrders_Empty>查看可用命令……</ClickToSeeAvailableOrders_Empty>
-
-  <!-- UNUSED -->
-  <Fire>火焰</Fire>
-  <CaravanPaused>已暂停。</CaravanPaused>
-  <LongRangeMineralScannerEfficiency>效率: {0}</LongRangeMineralScannerEfficiency>
-  <SomeItemStashContents>部分内容: {0}</SomeItemStashContents>
-  <TrapArmed>准备就绪</TrapArmed>
-  <TrapNotArmed>未准备</TrapNotArmed>
-  <TrapRearmingCost>重置陷阱花费: {0}</TrapRearmingCost>
 
 </LanguageData>

@@ -141,7 +141,7 @@
   <!-- EN: amputate -->
   <Amputate>截肢</Amputate>
   <!-- EN: harvest -->
-  <HarvestOrgan>harvest</HarvestOrgan>
+  <HarvestOrgan>摘取</HarvestOrgan>
   <!-- EN: remove -->
   <RemoveOrgan>摘除</RemoveOrgan>
   <!-- EN: memory -->
@@ -197,7 +197,7 @@
   <!-- EN: Requires trainability {0}. -->
   <CannotTrainNotSmartEnough>智力级别要求: {0}。</CannotTrainNotSmartEnough>
   <!-- EN: {1_labelShort} is too small to train this. -->
-  <CannotTrainTooSmall>{0}体形过小，无法训练。</CannotTrainTooSmall>
+  <CannotTrainTooSmall>{1_labelShort}体形过小，无法训练。</CannotTrainTooSmall>
 
   <!-- EN: Prerequisite needed: {0} -->
   <TrainingNeedsPrerequisite>先决条件: {0}</TrainingNeedsPrerequisite>
@@ -289,8 +289,5 @@
   <RemoveSliderText>去掉 {{0}}x {0}</RemoveSliderText>
   <!-- EN: Do you really want to remove {0}? -->
   <ConfirmRemoveItemDialog>你真的想去掉{0}吗？</ConfirmRemoveItemDialog>
-
-  <!-- UNUSED -->
-  <NoInjuries>（没有受伤）</NoInjuries>
 
 </LanguageData>
