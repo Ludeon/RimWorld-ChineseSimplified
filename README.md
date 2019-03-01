@@ -70,7 +70,7 @@ http://ludeon.com/forums/index.php?topic=2933.0
 * SerGawen （加文）
 * sunnylimail （飞行棺材）
 * weehowe-z （问号）
-* WNJStudio
+* WNJStudio （承诺丶六年）
 * wubochang （三桂）
 * Ydada （于大大）
 * zhaohu002 （嗷嗷虎）

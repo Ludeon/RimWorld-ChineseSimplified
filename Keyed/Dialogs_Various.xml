@@ -9,7 +9,7 @@
   <OK>确定</OK>
   <!-- EN: Close -->
   <Close>关闭</Close>
-  
+
   <!-- Game updated to new version -->
   <!-- EN: RimWorld has been updated from version {0} to version {1}. -->
   <GameUpdatedToNewVersionInitial>Rimworld 已从{0}版本升级至{1}版本。</GameUpdatedToNewVersionInitial>
@@ -21,13 +21,13 @@
   <GameUpdatedToNewVersionNonSteam>因为你的游戏为免 DRM 版，你可以选择在不同的文件夹下安装新版本，因此可以同时玩旧版和新版。</GameUpdatedToNewVersionNonSteam>
   <!-- EN: If you wish to continue with the old version, you can opt in using Steam's "Betas" feature.\n\n  1. In the Steam library, right-click RimWorld.\n  2. Click Properties.\n  3. Click the Betas tab.\n  4. Select the version you want from the drop-down menu.\n\nOld versions will be likely removed from this list eventually - we just didn't want to cut off games in progress.\n\nNote that if mod authors update their mods for a new game version, they'll probably stop working on an old version. You may want to turn off automatic updates to prevent this. -->
   <GameUpdatedToNewVersionSteam>你可以在 Steam 的「beta」选项中选择使用旧版进行游戏。\n\n 1. 在「Steam 游戏库」中右击 RimWorld\n 2. 点击「属性」\n 3. 选择「测试」标签页\n 4. 在下拉菜单中选择你想进行游戏的版本。\n\n旧版本最终会被从列表移除，该选项只是用于让你完成未完成的游戏。\n\n注意: 如果 Mod 作者升级了 Mod 有可能导致它无法在旧版本中运行，你可以通过禁止自动更新来避免这一问题。</GameUpdatedToNewVersionSteam>
-  
+
   <!-- Recovered from errors caused by mods -->
   <!-- EN: Recovered from incompatible or corrupted mods errors -->
   <RecoveredFromErrorsDialogTitle>从不兼容或损坏的 Mod 错误中恢复</RecoveredFromErrorsDialogTitle>
   <!-- EN: It seems that some of the active mods were causing errors.\n\nThey were incompatible with each other, designed for a different version of RimWorld, or corrupted.\n\nAll mods have been disabled and can be activated again in the mods dialog. -->
   <RecoveredFromErrorsText>当前启用的某些 Mod 导致了错误。\n\n它们可能彼此之间不兼容，或者兼容不同的游戏版本或已经损坏。\n\n所有的 Mod 已被禁用，你可以在 Mod 配置菜单中重新启用。</RecoveredFromErrorsText>
-  
+
   <!-- Errors during loading -->
   <!-- EN: Error while loading assets -->
   <ErrorWhileLoadingAssetsTitle>载入资源时出错</ErrorWhileLoadingAssetsTitle>
@@ -43,7 +43,7 @@
   <ErrorWhileLoadingMapTitle>载入地图时出错</ErrorWhileLoadingMapTitle>
   <!-- EN: An error occurred while loading a map. See error log for more information. -->
   <ErrorWhileLoadingMap>载入地图时出现错误。查看错误日志以了解更多信息。</ErrorWhileLoadingMap>
-  
+
   <!-- Unloaded mod with an assembly -->
   <!-- EN: The mod list has changed. The game will now restart automatically. -->
   <ModsChanged>Mod 列表已修改。游戏将会立刻自动重启。</ModsChanged>
@@ -51,11 +51,11 @@
   <FailedToRestart>重启游戏时发生了错误。游戏无法完全卸载已停用 Mod 的修改代码，所以来自已停用 Mod 的代码仍然会生效。\n\n建议你现在退出并重启游戏以清洁地载入所有 Mod。</FailedToRestart>
   <!-- EN: Restarting -->
   <Restarting>正在重启</Restarting>
-  
+
   <!-- Missing Steam -->
   <!-- EN: Could not initialize Steam API. Possible causes:\n\n-Steam is not running.\n-Launched from outside Steam without steam_appid.txt in place.\n-Running with different privileges than Steam client (e.g. "as administrator").\n\nIn most cases, rebooting your computer will fix this problem.\n\nYou can play anyway, but no Steam stats will be recorded and Steam features won't be available. -->
   <SteamClientMissing>无法初始化 Steam API。可能原因:\n\n- Steam 未运行。\n- 在 Steam 之外启动，且无法载入 steam_appid.txt 。\n- 通过和 Steam 客户端不同的权限启动（比如「管理员身份」）。\n\n在大部分时候，重启你的电脑即可解决这个问题。\n\n你可以继续游戏，但 Steam 统计信息将不会被记录，且 Steam 功能将不会生效。</SteamClientMissing>
-  
+
   <!-- Long events -->
   <!-- EN: Initializing interface -->
   <InitializingInterface>初始化界面</InitializingInterface>
@@ -79,7 +79,7 @@
   <SpawningAllThings>生成所有物体</SpawningAllThings>
   <!-- EN: Spawning colonists -->
   <SpawningColonists>生成殖民者</SpawningColonists>
-  
+
   <!-- Save/load -->
   <!-- EN: Save -->
   <SaveGameButton>保存</SaveGameButton>
@@ -117,7 +117,7 @@
   <ChangeLoadedMods>从存档载入 Mod 列表</ChangeLoadedMods>
   <!-- EN: Some mods are unavailable, and need to be installed -->
   <MissingMods>部分 Mod 不可用，需要安装。</MissingMods>
-  
+
   <!-- Player faction naming -->
   <!-- EN: Since it looks like you'll be here for a while, {0} thinks that you should give your faction a name. What should your faction be called? -->
   <NamePlayerFactionMessage>{0}觉得你应该给你的派系取一个名字。它叫什么比较好？</NamePlayerFactionMessage>
@@ -133,13 +133,13 @@
   <PlayerFactionBaseGainsName>这个社区现在被命名为{0}。</PlayerFactionBaseGainsName>
   <!-- EN: That name isn't valid. -->
   <PlayerFactionBaseNameIsInvalid>这个社区名称无效。</PlayerFactionBaseNameIsInvalid>
-  
+
   <!-- Player faction and faction base naming -->
   <!-- EN: {0} also thinks that you should give this settlement a name. What should this local settlement be called? -->
   <NamePlayerFactionBaseMessage_NameFactionContinuation>看起来你可能得在这里待上好一阵子，{0}觉得你也应该给这个社区起个名字。它叫什么比较好？</NamePlayerFactionBaseMessage_NameFactionContinuation>
   <!-- EN: Your faction is now known as {0}, and this community is now known as {1}. -->
   <PlayerFactionAndBaseGainsName>你的派系名为{0}，这个社区现在被命名为{1}。</PlayerFactionAndBaseGainsName>
-  
+
   <!-- Renaming -->
   <!-- EN: Please enter a valid name. -->
   <NameIsInvalid>请输入一个有效的名称。</NameIsInvalid>
@@ -147,7 +147,7 @@
   <NameIsInUse>名称已经被使用。</NameIsInUse>
   <!-- EN: The zone is now called {0}. -->
   <ZoneGainsName>这个区域的名称被改为{0}。</ZoneGainsName>
-  
+
   <!-- Pawn naming -->
   <!-- EN: This person's nickname is now {0}. {PAWN_possessive} title is {PAWN_title}. -->
   <PawnGainsName>该人的昵称变为{0}。{PAWN_possessive}现在叫作{PAWN_title}。</PawnGainsName>
@@ -201,7 +201,7 @@
   <RequiredResearchBench>需要研究台</RequiredResearchBench>
   <!-- EN: Required research bench facilities -->
   <RequiredResearchBenchFacilities>需要研究设施</RequiredResearchBenchFacilities>
-  
+
   <!-- Advanced game start options -->
   <!-- EN: Warning: You will be landing in a frozen environment. It may be hard or nearly impossible to survive. If you are not intending to face an extreme challenge, choose a different site or season. -->
   <MapTemperatureDangerWarning>警告：你将会降落在一个冰冻地区。这会让生存非常艰难甚至是不可能。如果你并不想挑战艰难的环境，选择另一个降落点或另一个月份。</MapTemperatureDangerWarning>
@@ -255,7 +255,7 @@
   <AnyWorker>任何工作者</AnyWorker>
   <!-- EN: Unlimited -->
   <Unlimited>无限制</Unlimited>
-  
+
   <!-- EN: (This recipe cannot have a target count because it has multiple or unpredictable products.) -->
   <RecipeCannotHaveTargetCount>（因为该配方成品有多个或是不可预估，所以不能为它指定目标数量）</RecipeCannotHaveTargetCount>
   <!-- EN: Work amount -->
@@ -294,7 +294,7 @@
   <IncludeFromAll>从任何地方</IncludeFromAll>
   <!-- EN: Look in {0} -->
   <IncludeSpecific>从{0}</IncludeSpecific>
-  
+
   <!-- Info card -->
   <!-- EN: Damage -->
   <Damage>伤害</Damage>
@@ -520,7 +520,7 @@
   <SellableItemsTitle>此贸易者会购买的物品</SellableItemsTitle>
   <!-- EN: Creatures -->
   <PawnsTabShort>生物</PawnsTabShort>
-  
+
   <!-- Form caravan -->
   <!-- EN: Form caravan -->
   <FormCaravan>组建远行队</FormCaravan>
@@ -539,7 +539,7 @@
   <!-- EN: Warning: Some of the assigned colonists are unable to reach the exit location ({0}). -->
   <CaravanCouldNotFindReachableExitSpot>警告：部分被指派的殖民者无法到达离开位置（{0}）。</CaravanCouldNotFindReachableExitSpot>
   <!-- EN: {1_labelShort} is unreachable by any of the assigned colonists. -->
-  <CaravanPawnIsUnreachable>对于所有被指派的殖民者，{0}是无法到达的。</CaravanPawnIsUnreachable>
+  <CaravanPawnIsUnreachable>对于所有被指派的殖民者，{1_labelShort}是无法到达的。</CaravanPawnIsUnreachable>
   <!-- EN: None of the assigned colonists are able to reach the {0}. -->
   <CaravanItemIsUnreachableSingle>所有被指派的殖民者均无法到达{0}所在位置。</CaravanItemIsUnreachableSingle>
   <!-- EN: None of the assigned colonists are able to reach {0}x {1}. -->
@@ -656,7 +656,7 @@
   <SourceCaravanMustHaveAtLeastOneColonist>必须留下至少一位可行动的殖民者。</SourceCaravanMustHaveAtLeastOneColonist>
   <!-- EN: How many of this item the caravan has ready to give to the new caravan. -->
   <SplitCaravanThingCountTip>此远行队能为新远行队配备多少此种物品。</SplitCaravanThingCountTip>
-  
+
   <!-- Load transporters -->
   <!-- EN: Load {0} -->
   <LoadTransporters>装载{0}</LoadTransporters>
@@ -670,17 +670,17 @@
   <TransporterItemIsUnreachableSingle>运输舱与{0}之间没有路径。</TransporterItemIsUnreachableSingle>
   <!-- EN: There is no path between the transport pods and {0}x {1}. -->
   <TransporterItemIsUnreachableMulti>运输舱与{1}x{0}之间没有路径。</TransporterItemIsUnreachableMulti>
-  
+
   <!-- Comms -->
   <!-- EN: Social skill: {0} -->
   <SocialSkillIs>社交技能: {0}</SocialSkillIs>
-  
+
   <!--Research-->
   <!-- EN: Research finished: {0} -->
   <ResearchFinished>研究完成: {0}</ResearchFinished>
   <!-- EN: Research Screen -->
   <ResearchScreen>研究界面</ResearchScreen>
-  
+
   <!--HistoryUpload-->
   <!-- EN: Do you want to upload your gameplay data records to RimWorld server in order to help developers balance the game? If you agree, your data will be uploaded every {0} days (and in some other rare cases like the end of the game). Privacy preferences can be changed later in the options menu. -->
   <HistoryUploadMessage>你想把游戏数据上传到 RimWorld 服务器以帮助开发者完善游戏平衡吗？同意后，每隔{0}个游戏日（或在游戏结束等特殊事件时），你的游戏数据会被自动上传到 RimWorld 服务器并被分析。之后可以在选项菜单里改变隐私设置。</HistoryUploadMessage>
@@ -694,7 +694,7 @@
   <HistoryUploadYesOnce>仅上传本次数据</HistoryUploadYesOnce>
   <!-- EN: Do not upload this time, ask me later -->
   <HistoryUploadNoOnce>不上传本次数据，下次再问我</HistoryUploadNoOnce>
-  
+
   <!-- Outfit management -->
   <!-- EN: Outfit -->
   <Outfit>着装配置</Outfit>
@@ -708,7 +708,7 @@
   <OutfitInUse>着装配置已被{0}使用。</OutfitInUse>
   <!-- EN: No outfit selected -->
   <NoOutfitSelected>未选择着装配置</NoOutfitSelected>
-  
+
   <!-- Drug policy management -->
   <!-- EN: Drug policy -->
   <DrugPolicy>用药方针</DrugPolicy>
@@ -816,7 +816,7 @@
   <MedGroupNeutralFaction>中立派系</MedGroupNeutralFaction>
   <!-- EN: Hostile faction -->
   <MedGroupHostileFaction>敌对派系</MedGroupHostileFaction>
-  
+
   <!-- Growing -->
   <!-- EN: {0} requires {1} skill in Growing to sow.\n\nNone of your non-downed growers have this skill, so this plant will not be sown. -->
   <NoGrowerCanPlant>播种{0}最低需要{1}级种植技能。\n\n你没有达到该技能要求的种植者，因此这种植物将不会被播种。</NoGrowerCanPlant>
@@ -828,11 +828,11 @@
   <ConfirmAbandonHomeNegativeThoughts>遗弃{0}会导致以下人员产生以下想法：</ConfirmAbandonHomeNegativeThoughts>
   <!-- EN: Everyone: -->
   <ConfirmAbandonHomeNegativeThoughts_Everyone>所有人：</ConfirmAbandonHomeNegativeThoughts_Everyone>
-  
+
   <!-- Move caravan and leave prisoners and animals behind -->
   <!-- EN: Some animals or prisoners are trying to join this caravan. If you move it, they won't be able to anymore.\n\nAnimals, prisoners, and downed colonists left behind in a map without any non-downed colonists are considered abandoned and can be captured by the enemies.\n\nAre you sure you want to move your caravan? -->
   <ConfirmMoveAutoJoinableCaravan>有囚犯或动物正要加入此远行队。如果你移动远行队，他们就无法加入远行队了。\n\n动物、囚犯和倒地的殖民者，如果没有任何未倒地的殖民者的陪同而被落在地图上，将视同已被遗弃，并可被敌人俘虏。\n\n确定要移动远行队吗？</ConfirmMoveAutoJoinableCaravan>
-  
+
   <!-- Abandon pawn -->
   <!-- EN: Do you really want to banish {1_label}? -->
   <ConfirmBanishPawnDialog>你真的要放逐{1_label}吗?</ConfirmBanishPawnDialog>
@@ -852,7 +852,7 @@
   <!-- Settle near a faction base -->
   <!-- EN: Since this location is within {0} tiles of another faction base, they will feel you are encroaching on their land and relations with those factions will worsen every {1} days.\n\nSettle here anyways? -->
   <ConfirmSettleNearFactionBase>由于此地点位于另一派系的领地的{0}格以内，他们会觉得你在侵占他们的土地，且你和此派系的关系每{1}天都会恶化。\n\n无论如何也要定居在这里吗？</ConfirmSettleNearFactionBase>
-  
+
   <!-- Cleanup translation files -->
   <!-- EN: Are you sure you want to cleanup all translation files for language {0}?\n\nThis will:\n  - Add placeholders for missing keyed translations, def-injected translations, and backstories\n  - Add or update comments containing the original, untranslated text\n  - Move all keyed and def-injected translations to the appropriate XML files\n  - Apply automatic formatting to all XML files\n  - Update back-compatible def names\n  - Remove all existing XML comments (except in full-list injections)\n\nNon-XML files will not be removed or modified.\n\nRemember to restart the game after modifying the language files before running this tool in order to reload all data.\n\nMake sure to back up all translation files before using this tool. -->
   <ConfirmCleanupTranslationFiles>您确定要清除语言{0}的所有翻译文件吗？\n\n这将：\n  - 为缺少的keyed，def-injected和backstories翻译添加占位符。\n  - 添加或更新包含原始文本的注释\n  - 将所有keyed和def-injected翻译移动到相应的XML文件\n  - 将自动格式应用于XML文件\n  - 更新反向兼容的def名称\n  - 删除所有现有的XML注释（全列表注入除外）\n\n不会删除或修改非XML文件。\n\n在运行此工具前，请在修改语言文件后重新启动游戏，以便重新加载所有数据。\n\n使用前请务必备份所有翻译文件。</ConfirmCleanupTranslationFiles>
@@ -862,9 +862,5 @@
   <!-- Load transporters -->
   <!-- EN: The caravan will be immobile if you send the pods to an empty tile. Continue anyway? -->
   <TransportersCaravanWillBeImmobile>如果将空投仓发射到地图上的空地，远行队将不会移动。是否继续？</TransportersCaravanWillBeImmobile>
-
-  <!-- UNUSED -->
-  <PermadeathMode>永久死亡模式</PermadeathMode>
-  <SurgeryRequireBed>需要床铺</SurgeryRequireBed>
 
 </LanguageData>
