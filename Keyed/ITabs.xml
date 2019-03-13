@@ -141,7 +141,7 @@
   <!-- EN: amputate -->
   <Amputate>截肢</Amputate>
   <!-- EN: harvest -->
-  <HarvestOrgan>harvest</HarvestOrgan>
+  <HarvestOrgan>采集</HarvestOrgan>
   <!-- EN: remove -->
   <RemoveOrgan>摘除</RemoveOrgan>
   <!-- EN: memory -->
@@ -160,7 +160,7 @@
   <SelfTend>自我治疗</SelfTend>
   <!-- EN: {0} with self-tend enabled will automatically tend to themselves on the spot at {1} the normal efficiency. -->
   <SelfTendTip>{0}开启自我治疗后将会以正常效果的 {1} 当场自动治疗自己。</SelfTendTip>
-  
+
   <!-- Medical - Body and activities condition -->
   <!-- EN: None -->
   <None>无</None>
@@ -197,11 +197,11 @@
   <!-- EN: Requires trainability {0}. -->
   <CannotTrainNotSmartEnough>智力级别要求: {0}。</CannotTrainNotSmartEnough>
   <!-- EN: {1_labelShort} is too small to train this. -->
-  <CannotTrainTooSmall>{0}体形过小，无法训练。</CannotTrainTooSmall>
+  <CannotTrainTooSmall>{1_labelShort}体形过小，无法训练。</CannotTrainTooSmall>
 
   <!-- EN: Prerequisite needed: {0} -->
   <TrainingNeedsPrerequisite>先决条件: {0}</TrainingNeedsPrerequisite>
-  
+
   <!-- Social tab -->
   <!-- EN: (no relationships) -->
   <NoRelationships>（无关系）</NoRelationships>
@@ -221,7 +221,7 @@
   <IAmDead>我死了</IAmDead>
   <!-- EN: I'm a psychopath -->
   <IAmPsychopath>我心理变态</IAmPsychopath>
-  
+
   <!-- Gear tab -->
   <!-- EN: Overall armor -->
   <OverallArmor>总护甲</OverallArmor>
@@ -235,7 +235,7 @@
   <ArmorSharp>利器护甲</ArmorSharp>
   <!-- EN: Heat -->
   <ArmorHeat>热能护甲</ArmorHeat>
-  
+
   <!-- Log tab -->
   <!-- EN: Show all -->
   <ShowAll>显示全部</ShowAll>
@@ -289,8 +289,5 @@
   <RemoveSliderText>去掉 {{0}}x {0}</RemoveSliderText>
   <!-- EN: Do you really want to remove {0}? -->
   <ConfirmRemoveItemDialog>你真的想去掉{0}吗？</ConfirmRemoveItemDialog>
-
-  <!-- UNUSED -->
-  <NoInjuries>（没有受伤）</NoInjuries>
 
 </LanguageData>

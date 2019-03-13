@@ -60,7 +60,7 @@
   <MessageAnimalsGoPsychoHunted>警告: {ANIMAL_kindBasePlural}在受到伤害后通常会发动攻击，步枪射程距离下{1}几率，越近则越高，狩猎隐蔽率可有效降低被攻击的几率。</MessageAnimalsGoPsychoHunted>
   <!-- EN: Warning: {ANIMAL_kindBasePlural} may attack upon failed taming attempts ({1} chance). -->
   <MessageAnimalManhuntsOnTameFailed>警告: {ANIMAL_kindBasePlural}在驯服失败后通常会发动攻击（{1}几率）。</MessageAnimalManhuntsOnTameFailed>
-  
+
   <!-- EN: New recruit -->
   <LetterLabelMessageRecruitSuccess>新人加入</LetterLabelMessageRecruitSuccess>
   <!-- EN: {RECRUITER_nameFull} successfully recruited {RECRUITEE_nameFull} ({2} chance). -->
@@ -113,14 +113,14 @@
 
   <!-- EN: {1_labelShort} has refused to be arrested! -->
   <MessageRefusedArrest>{1_labelShort}拒绝被逮捕。</MessageRefusedArrest>
-  
+
   <!-- EN: There are no medical beds available. -->
   <MessageNoMedicalBeds>没有可用的医疗床。</MessageNoMedicalBeds>
   <!-- EN: There are no animal beds available. -->
   <MessageNoAnimalBeds>没有可用的动物睡眠点或床铺。</MessageNoAnimalBeds>
   <!-- EN: Operation requires {0} or better, but {PAWN_labelShort}'s current medical care mode is "{2}". -->
   <MessageTooLowMedCare>该手术要求医疗供应为{0}或更好，但{PAWN_labelShort}的当前医疗供应是「{2}」。</MessageTooLowMedCare>
-  
+
   <!-- EN: {PAWN_labelShort} has died. Cause: {1}. -->
   <PawnDiedBecauseOf>{PAWN_labelShort}已死亡。原因：{1}。</PawnDiedBecauseOf>
   <!-- EN: {1_labelShort} has died. -->
@@ -156,26 +156,26 @@
 
   <!-- EN: No handler can tame {ANIMAL_kindBase} (requires level {1} in {2}, best handler {HANDLER_labelShort} has {4}). -->
   <MessageNoHandlerSkilledEnough>无人可以驯服{ANIMAL_kindBase}（要求{2}{1}级，技能最高的驯兽师{HANDLER_labelShort}为{4}级）。</MessageNoHandlerSkilledEnough>
-  
+
   <!-- EN: {EATEN_labelShort} has been eaten by {PREDATOR}. -->
   <MessageEatenByPredator>{EATEN_labelShort}被{PREDATOR}吃掉了。</MessageEatenByPredator>
   <!-- EN: {PREY_labelShort} is being attacked by {PREDATOR}! -->
   <MessageAttackedByPredator>{PREY_labelShort}正被{PREDATOR}攻击！</MessageAttackedByPredator>
-  
+
   <!-- EN: A bug hive has reproduced itself. -->
   <MessageHiveReproduced>一个虫巢繁殖出了一个新虫巢。</MessageHiveReproduced>
-  
+
   <!-- EN: The trade caravan from {0} is leaving. -->
   <MessageTraderCaravanLeaving>来自{0}的商队准备离开了。</MessageTraderCaravanLeaving>
-  
+
   <!-- EN: {1_labelShort} is dead. -->
   <MessageCantSelectDeadPawn>{1_labelShort}已死亡。</MessageCantSelectDeadPawn>
   <!-- EN: {1_labelShort} is off the map. -->
   <MessageCantSelectOffMapPawn>{1_labelShort}已离开地图了。</MessageCantSelectOffMapPawn>
-  
+
   <!-- EN: {PAWN1_labelShort} started a social fight with {PAWN2_labelShort}. -->
   <MessageSocialFight>{PAWN1_labelShort}和{PAWN2_labelShort}打起来了。</MessageSocialFight>
-  
+
   <!-- EN: Colonists are gathering to celebrate {PAWN1_labelShort} and {PAWN2_labelShort}’s marriage. -->
   <MessageNewMarriageCeremony>殖民者们聚集一堂，准备参加{PAWN1_labelShort}和{PAWN2_labelShort}的婚礼。</MessageNewMarriageCeremony>
   <!-- EN: {PAWN1_labelShort} and {PAWN2_labelShort} are beginning their marriage ceremony! -->
@@ -186,25 +186,25 @@
   <MessageNewlyMarried>{PAWN1_labelShort}和{PAWN2_labelShort}结婚了。殖民者们正在庆祝。</MessageNewlyMarried>
   <!-- EN: The marriage ceremony for {PAWN1_labelShort} and {PAWN2_labelShort} has finished. -->
   <MessageMarriageCeremonyAfterPartyFinished>{PAWN1_labelShort}和{PAWN2_labelShort}的婚礼庆典结束了。</MessageMarriageCeremonyAfterPartyFinished>
-  
+
   <!-- EN: {HUMAN_labelShort} and {ANIMAL_labelShort} have formed a bond. -->
   <MessageNewBondRelation>{HUMAN_labelShort}和{ANIMAL_labelShort}感情深厚达成牵绊。</MessageNewBondRelation>
   <!-- EN: {HUMAN_labelShort} and {1} have formed a bond. {HUMAN_labelShort} has named {ANIMAL_objective} {ANIMAL_nameFull}. -->
-  <MessageNewBondRelationNewName>{HUMAN_labelShort}和{ANIMAL_labelShort}感情深厚达成牵绊。{HUMAN_labelShort}给{ANIMAL_objective} 起名{ANIMAL_nameFull}。</MessageNewBondRelationNewName>
-  
+  <MessageNewBondRelationNewName>{HUMAN_labelShort}和{1}感情深厚达成牵绊。{HUMAN_labelShort}给{ANIMAL_objective} 起名{ANIMAL_nameFull}。</MessageNewBondRelationNewName>
+
   <!-- EN: {ANIMAL} has a mental break because of {HUMAN_labelShort}'s death. -->
   <MessageBondedAnimalMentalBreak>因为{ANIMAL}的死亡，{HUMAN_labelShort}精神崩溃了。</MessageBondedAnimalMentalBreak>
   <!-- EN: {ANIMAL_kindIndef} named {ANIMAL_label} has a mental break because of {HUMAN_labelShort}'s death. -->
   <MessageNamedBondedAnimalMentalBreak>因为{HUMAN_labelShort}的死亡，名为{ANIMAL_label}的{ANIMAL_kindIndef}精神崩溃了。</MessageNamedBondedAnimalMentalBreak>
   <!-- EN: {0} animals have a mental break because of {HUMAN_labelShort}'s death. -->
   <MessageBondedAnimalsMentalBreak>因为{HUMAN_labelShort}的死亡，{0}动物精神崩溃了。</MessageBondedAnimalsMentalBreak>
-  
+
   <!-- EN: {SURGEON_labelShort} has successfully removed {PATIENT_labelShort}'s {HEDIFF}. -->
   <MessageSuccessfullyRemovedHediff>{SURGEON_labelShort}成功移除了{PATIENT_labelShort}的{HEDIFF}。</MessageSuccessfullyRemovedHediff>
-  
+
   <!-- EN: Chunks of a spacecraft have impacted nearby. You can deconstruct them to yield resources. -->
   <MessageShipChunkDrop>几块飞船碎片从太空掉落至附近。\n\n你可以拆除它们来获取有用的资源。</MessageShipChunkDrop>
-  
+
   <!-- EN: The party has been called off. -->
   <MessagePartyCalledOff>聚会被取消了。</MessagePartyCalledOff>
   <!-- EN: The party has finished. -->
@@ -218,10 +218,10 @@
 
   <!-- EN: Screenshot saved as: {0} -->
   <MessageScreenshotSavedAs>屏幕截图已保存至: {0}</MessageScreenshotSavedAs>
-  
+
   <!-- EN: {PAWN1_labelShort} and {PAWN2_labelShort} are no longer social fighting. -->
   <MessageNoLongerSocialFighting>{PAWN1_labelShort}和{PAWN2_labelShort}已经不再打架了。</MessageNoLongerSocialFighting>
-  
+
   <!-- EN: {2_labelShort} is no longer binging on {1}. -->
   <MessageNoLongerBingingOnDrug>{2_labelShort}已经不再滥用{1}了。</MessageNoLongerBingingOnDrug>
 
@@ -230,10 +230,10 @@
 
   <!-- EN: {1_label} has rotted away in storage. -->
   <MessageRottedAwayInStorage>储存区中的{1_label}腐烂了。</MessageRottedAwayInStorage>
-  
+
   <!-- EN: {PAWN_labelShort} has gotten food poisoning from: {FOOD_labelShort}. Cause: {2}. -->
   <MessageFoodPoisoning>{PAWN_labelShort}因食用{FOOD_labelShort}而导致食物中毒。原因：{2}。</MessageFoodPoisoning>
-  
+
   <!-- EN: {0} has been removed from the caravan. -->
   <MessagePawnLostWhileFormingCaravan>{0}已移出远行队。</MessagePawnLostWhileFormingCaravan>
   <!-- EN: The caravan formation process has been terminated. -->
@@ -242,10 +242,10 @@
   <MessageCaravanFormationPaused>当所有人从精神崩溃中恢复后会继续组建远行队。</MessageCaravanFormationPaused>
   <!-- EN: Your colonists will now continue forming a caravan. -->
   <MessageCaravanFormationUnpaused>你的殖民者现在会继续组建远行队。</MessageCaravanFormationUnpaused>
-  
+
   <!-- EN: One of the caravan members has a mental break. -->
   <MessageCaravanMemberHasExtremeMentalBreak>一名远行队成员精神崩溃了。</MessageCaravanMemberHasExtremeMentalBreak>
-  
+
   <!-- EN: Warning: It can take a very long time to generate an entire planet. -->
   <MessageMaxPlanetCoveragePerformanceWarning>警告: 生成整个星球可能需要很长的时间。</MessageMaxPlanetCoveragePerformanceWarning>
 
@@ -267,69 +267,69 @@
 
   <!-- EN: {INGESTER} has accidentally overdosed while consuming {DRUG_labelShort}! -->
   <MessageAccidentalOverdose>{INGESTER}在服用{DRUG_labelShort}时意外过量！</MessageAccidentalOverdose>
-  
+
   <!-- EN: {0} has arrived at its destination. -->
   <MessageCaravanArrivedAtDestination>{0}已抵达目的地。</MessageCaravanArrivedAtDestination>
-  
+
   <!-- EN: {1_labelShort} has left the area and formed a caravan. -->
   <MessagePawnLeftMapAndCreatedCaravan>{1_labelShort}已离开该区域并组建远行队。</MessagePawnLeftMapAndCreatedCaravan>
   <!-- EN: Your animals are moving to join it. -->
   <MessagePawnLeftMapAndCreatedCaravan_AnimalsWantToJoin>你的动物正在移动以加入。</MessagePawnLeftMapAndCreatedCaravan_AnimalsWantToJoin>
-  
+
   <!-- EN: You have successfully settled in a new area. -->
   <MessageSettledInExistingMap>你已成功在新区域建立殖民地。</MessageSettledInExistingMap>
-  
+
   <!-- EN: {PAWN_labelShort}'s {2} has healed. Cause: {0} -->
   <MessagePermanentWoundHealed>{PAWN_labelShort}的{2}已治愈。原因：{0}</MessagePermanentWoundHealed>
 
   <!-- EN: {1_labelShort} has joined your group after being rescued! -->
   <MessageRescueeJoined>因为被你营救, {1_labelShort}加入了你的团队!</MessageRescueeJoined>
-  
+
   <!-- EN: Some transport pods are unreachable. -->
   <MessageTransporterUnreachable>一些运输舱无法到达。</MessageTransporterUnreachable>
   <!-- EN: All pod launchers connected to the selected transport pods must be adjacent. -->
   <MessageTransportersNotAdjacent>所有连接到所选运输舱的发射器必须相邻。</MessageTransportersNotAdjacent>
-  
+
   <!-- EN: The loading process has been canceled because one of the transport pods has been destroyed. -->
   <MessageTransportersLoadCanceled_TransporterDestroyed>由于其中一个运输舱被毁，装载进程已取消。</MessageTransportersLoadCanceled_TransporterDestroyed>
   <!-- EN: The loading process has been canceled because one of the pod launchers has been destroyed. -->
   <MessageTransportersLoadCanceled_FuelingPortGiverDeSpawned>由于其中一个发射器被毁，装载进程已取消。</MessageTransportersLoadCanceled_FuelingPortGiverDeSpawned>
-  
+
   <!-- EN: Your colonists will now load the assigned items into the transport pods. -->
   <MessageTransportersLoadingProcessStarted>你的殖民者现在会把已指定的物品装载进运输舱中。</MessageTransportersLoadingProcessStarted>
-  
+
   <!-- EN: Your transport pods have arrived. -->
   <MessageTransportPodsArrived>你的运输舱已经抵达目的地。</MessageTransportPodsArrived>
   <!-- EN: Your transport pods have arrived, but since there were no colonists inside, the contents are lost. -->
   <MessageTransportPodsArrivedAndLost>你的运输舱已经抵达目的地，但由于里面没有殖民者，货物已丢失。</MessageTransportPodsArrivedAndLost>
   <!-- EN: Your transport pods have arrived. The contents have been added to {0}. -->
   <MessageTransportPodsArrivedAndAddedToCaravan>你的运输舱已抵达目的地。内部的成员或货物已加入{0}。</MessageTransportPodsArrivedAndAddedToCaravan>
-  
+
   <!-- EN: Your colonists have finished loading the transport pods. -->
   <MessageFinishedLoadingTransporters>你的殖民者已完成运输舱的装载。</MessageFinishedLoadingTransporters>
 
   <!-- EN: Your {1} can't finish loading the transport pods because some items or people became unavailable ({2_labelShort}). -->
   <MessageCantLoadMoreIntoTransporters>你的{1}无法完成运输仓的装载，因为某些物品或人员变得不可用({2_labelShort})。</MessageCantLoadMoreIntoTransporters>
-  
+
   <!-- EN: Selected destination is invalid. -->
   <MessageTransportPodsDestinationIsInvalid>所选目的地无效。</MessageTransportPodsDestinationIsInvalid>
   <!-- EN: Each pod launcher would need at least {0}x chemfuel to send transport pods that far. -->
   <MessageTransportPodsDestinationIsTooFar>每个运输舱发射器都需要至少{0}化合燃料以将运输舱发射至该距离。</MessageTransportPodsDestinationIsTooFar>
-  
+
   <!-- EN: The caravan has been reformed. -->
   <MessageReformedCaravan>已重组远行队。</MessageReformedCaravan>
-  
+
   <!-- EN: You can't banish the last colonist. -->
   <MessageCantBanishLastColonist>你不能放逐最后一位殖民者。</MessageCantBanishLastColonist>
-  
+
   <!-- EN: Cannot equip: {1_labelShort} is incapable of violence. -->
   <MessageCantEquipIncapableOfViolence>不能装备: {1_labelShort}无暴力能力。</MessageCantEquipIncapableOfViolence>
   <!-- EN: Cannot equip: incapable. -->
   <MessageCantEquipIncapableOfManipulation>不能装备: 没有能力。</MessageCantEquipIncapableOfManipulation>
-  
+
   <!-- EN: Because they are bonded, slaughtering {DESIGNATED_labelShort} will make {BONDED_labelShort} unhappy. -->
   <MessageSlaughteringBondedAnimal>由于他们之间是牵绊关系，屠宰{DESIGNATED_labelShort}会使{BONDED_labelShort}不高兴。</MessageSlaughteringBondedAnimal>
-  
+
   <!-- EN: {0} has run out of food ({PAWN_label}). -->
   <MessageCaravanRanOutOfFood>{0}的食物已耗尽({PAWN_label})。</MessageCaravanRanOutOfFood>
 
@@ -338,10 +338,10 @@
 
   <!-- EN: At this resolution and UI scale, the game interface would not fit on-screen. Please reduce UI scale or increase resolution. -->
   <MessageScreenResTooSmallForUIScale>在当前的分辨率和界面缩放比例下，游戏界面将不能正常在屏幕上显示。请减小界面缩放比例或者增大分辨率。</MessageScreenResTooSmallForUIScale>
-  
+
   <!-- EN: You have to reform the caravan now. Everyone left behind will be abandoned. -->
   <MessageYouHaveToReformCaravanNow>你现在必须重组远行队。留下的所有人将会被遗弃。</MessageYouHaveToReformCaravanNow>
-  
+
   <!-- EN: {0} from {1} are attacking your {2}. -->
   <MessageDefendersAttacking>来自{1}的{0}正在攻击你的{2}。</MessageDefendersAttacking>
 
@@ -349,7 +349,7 @@
   <MessageSelfTendUnsatisfied>{1_labelShort}还必须被指派「医生」工作才能自我治疗。</MessageSelfTendUnsatisfied>
   <!-- EN: {1_labelShort} is incapable of doing Doctor work, and so cannot ever self-tend. -->
   <MessageCannotSelfTendEver>{1_labelShort}无法从事「医生」工作，所以永远无法自我治疗。</MessageCannotSelfTendEver>
-  
+
   <!-- EN: This tile is impassable. -->
   <MessageCantAddWaypointBecauseImpassable>此格子无法通行。</MessageCantAddWaypointBecauseImpassable>
   <!-- EN: It's not possible to reach this tile from the last waypoint. -->
@@ -358,10 +358,10 @@
   <MessageCantAddWaypointBecauseLimit>路径点不能超过{0}个。</MessageCantAddWaypointBecauseLimit>
   <!-- EN: You can't remove this waypoint. -->
   <MessageCantRemoveWaypointBecauseFirst>此路径点无法移除。</MessageCantRemoveWaypointBecauseFirst>
-  
+
   <!-- EN: None of your wardens is capable of violence. The execution won't be performed. -->
   <MessageCantDoExecutionBecauseNoWardenCapableOfViolence>没有可行使暴力行为的狱卒。处决不会被执行。</MessageCantDoExecutionBecauseNoWardenCapableOfViolence>
-  
+
   <!-- EN: You have defeated all enemies. In {0}, the caravan will automatically be reformed. -->
   <MessageSiteCountdownBecauseNoMoreEnemies>你已经消灭了所有敌人。远行队将在{0}后自动重组。</MessageSiteCountdownBecauseNoMoreEnemies>
   <!-- EN: In {0}, the caravan will automatically be reformed. You can reform the caravan now in the World screen. -->
@@ -521,12 +521,5 @@
 
   <!-- EN: Cannot shoot in melee. -->
   <MessageCantShootInMelee>无法在近战距离射击</MessageCantShootInMelee>
-
-  <!-- UNUSED -->
-  <MessagePlayerTriedToLeaveMapViaExitGrid>如果要离开此区域，在世界视图使用“重组远行队”按钮。</MessagePlayerTriedToLeaveMapViaExitGrid>
-  <MessageCaravanIsVisitingSettlement>{0}已抵达{1}。</MessageCaravanIsVisitingSettlement>
-  <MessageCaravanEnteredWorldObject>{0}已抵达{1}。</MessageCaravanEnteredWorldObject>
-  <MessageFailedToLoadTransportersBecauseColonistLost>由于其中一个殖民者丢失，装载进程已取消。</MessageFailedToLoadTransportersBecauseColonistLost>
-  <MessageBlockedHediff>{0}阻止了{1}于：{2}。</MessageBlockedHediff>
 
 </LanguageData>
