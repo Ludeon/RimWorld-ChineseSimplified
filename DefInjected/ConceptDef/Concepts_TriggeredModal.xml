@@ -8,8 +8,8 @@
   
   <!-- EN: Maximum number of player colonies -->
   <MaxNumberOfPlayerSettlements.label>玩家殖民地的最大数量</MaxNumberOfPlayerSettlements.label>
-  <!-- EN: Warning: RimWorld is designed to be played with one player colony at a time. Though it is possible to have more colonies, this will probably cause performance slowdowns and gameplay imbalances. We recommend that, at least at first, you play the game with a one colony maximum. -->
-  <MaxNumberOfPlayerSettlements.helpText>警告：边缘世界被设计为一次只能玩一个殖民地。虽然可以拥有更多的殖民地，但很可能导致性能降低以及破坏游戏平衡性。我们建议你，至少在一开始的时候，只玩一个殖民地。</MaxNumberOfPlayerSettlements.helpText>
+  <!-- EN: Warning: RimWorld is designed to be played with one player colony at a time. Multiple player colonies are allowed as an experimental testing feature only.\n\nPlaying with multiple colonies will cause gameplay imbalances and split your focus, as well as likely causing performance slowdowns.\n\nWe recommend that you play with the one-colony maximum the game was designed for, at least for your first few games. -->
+  <MaxNumberOfPlayerSettlements.helpText>警告：边缘世界被设计为一次只能玩一个殖民地。虽然允许玩家拥有多个殖民地，但仅限用于实验和测试目的使用。\n\n多殖民地的玩法会破坏游戏的平衡性，分散你的注意力，也可能导致性能下降。\n\n我们建议你至少在的最初几次游戏中，仅用一个殖民地进行游戏，以获得更好的游戏体验。</MaxNumberOfPlayerSettlements.helpText>
   
   <!-- EN: Flick designations only designate -->
   <SwitchFlickingDesignation.label>指派开关电源</SwitchFlickingDesignation.label>
@@ -20,5 +20,10 @@
   <TradeGoodsMustBeNearBeacon.label>交易货物和交易信标</TradeGoodsMustBeNearBeacon.label>
   <!-- EN: To send items or silver to orbital traders, you must build an ORBITAL TRADE BEACON and place a stockpile of items near it. -->
   <TradeGoodsMustBeNearBeacon.helpText>若想发送物品或白银给轨道贸易商，你必须建造「轨道交易信标」，并在其边上划定物品的储存区。</TradeGoodsMustBeNearBeacon.helpText>
+  
+  <!-- EN: Trading permit requirements -->
+  <TradingRequiresPermit.label>贸易许可证需求</TradingRequiresPermit.label>
+  <!-- EN: Trading here requires the title of {0}.\n\nEnsure any trade caravan you send has someone with the title of {0} or higher. -->
+  <TradingRequiresPermit.helpText>这个地方需要持有{0}许可证。\n\n请确保你派出的任何贸易远行队都持有{0}或更高级的许可证。</TradingRequiresPermit.helpText>
   
 </LanguageData>

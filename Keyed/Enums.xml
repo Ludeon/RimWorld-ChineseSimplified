@@ -88,7 +88,7 @@
   <QualityCategoryShort_Masterwork>大师</QualityCategoryShort_Masterwork>
   <!-- EN: legd -->
   <QualityCategoryShort_Legendary>传奇</QualityCategoryShort_Legendary>
-
+  
   <!-- Hunger -->
   <!-- EN: Starving -->
   <HungerLevel_Starving>极度饥饿</HungerLevel_Starving>
@@ -120,7 +120,7 @@
   <Hilliness_Mountainous>山地</Hilliness_Mountainous>
   <!-- EN: impassable -->
   <Hilliness_Impassable>无法逾越</Hilliness_Impassable>
-
+  
   <!-- Steam workshop interaction -->
   <!-- EN: Creating -->
   <WorkshopInteractStage_CreatingItem>创建</WorkshopInteractStage_CreatingItem>
@@ -140,11 +140,13 @@
   <EItemUpdateStatus_k_EItemUpdateStatusCommittingChanges>提交变更</EItemUpdateStatus_k_EItemUpdateStatusCommittingChanges>
 
   <!-- Mod sources -->
+  <!-- EN: official content -->
+  <ContentSource_OfficialModsFolder>官方内容</ContentSource_OfficialModsFolder>
   <!-- EN: local folder -->
-  <ContentSource_LocalFolder>本地文件夹</ContentSource_LocalFolder>
+  <ContentSource_ModsFolder>本地文件</ContentSource_ModsFolder>
   <!-- EN: Steam Workshop -->
   <ContentSource_SteamWorkshop>Steam 创意工坊</ContentSource_SteamWorkshop>
-
+  
   <!-- Medical care category -->
   <!-- EN: No medical care -->
   <MedicalCareCategory_NoCare>无医生照顾</MedicalCareCategory_NoCare>
@@ -164,7 +166,7 @@
   <HostilityResponseMode_Attack>反击</HostilityResponseMode_Attack>
   <!-- EN: Flee -->
   <HostilityResponseMode_Flee>逃跑</HostilityResponseMode_Flee>
-
+  
   <!-- HediffGrowthMode -->
   <!-- EN: growing -->
   <HediffGrowthMode_Growing>加重</HediffGrowthMode_Growing>
@@ -202,7 +204,7 @@
   <PawnGenerationContext_PlayerStarter>玩家初始角色</PawnGenerationContext_PlayerStarter>
   <!-- EN: non-player characters -->
   <PawnGenerationContext_NonPlayer>NPC</PawnGenerationContext_NonPlayer>
-
+  
   <!-- Animal name display mode -->
   <!-- EN: Show animal names -->
   <ShowAnimalNames>显示动物名称</ShowAnimalNames>
@@ -210,7 +212,7 @@
   <AnimalNameDisplayMode_TameNamed>已驯服（已命名）</AnimalNameDisplayMode_TameNamed>
   <!-- EN: Tame (all) -->
   <AnimalNameDisplayMode_TameAll>已驯服（所有）</AnimalNameDisplayMode_TameAll>
-
+  
   <!-- Temperature -->
   <!-- EN: Celsius -->
   <Celsius>摄氏</Celsius>
@@ -218,7 +220,7 @@
   <Fahrenheit>华氏</Fahrenheit>
   <!-- EN: Kelvin -->
   <Kelvin>开尔文</Kelvin>
-
+  
   <!-- Direction8Way -->
   <!-- EN: N -->
   <Direction8Way_North_Short>北</Direction8Way_North_Short>
@@ -236,7 +238,7 @@
   <Direction8Way_West_Short>西</Direction8Way_West_Short>
   <!-- EN: NW -->
   <Direction8Way_NorthWest_Short>西北</Direction8Way_NorthWest_Short>
-
+  
   <!-- Diet category -->
   <!-- EN: Never eats -->
   <DietCategory_NeverEats>不进食</DietCategory_NeverEats>
@@ -286,5 +288,28 @@
   <PsychicDroneLevel_BadHigh>高</PsychicDroneLevel_BadHigh>
   <!-- EN: extreme -->
   <PsychicDroneLevel_BadExtreme>极高</PsychicDroneLevel_BadExtreme>
+  
+  <!-- Automatic pause mode -->
+  <!-- EN: Never -->
+  <AutomaticPauseMode_Never>从不</AutomaticPauseMode_Never>
+  <!-- EN: Major threats -->
+  <AutomaticPauseMode_MajorThreat>大型威胁</AutomaticPauseMode_MajorThreat>
+  <!-- EN: Any threat -->
+  <AutomaticPauseMode_AnyThreat>任何威胁</AutomaticPauseMode_AnyThreat>
+  <!-- EN: Any letter -->
+  <AutomaticPauseMode_AnyLetter>任何事件</AutomaticPauseMode_AnyLetter>
 
+  <!-- Pain category -->
+  <!-- EN: itchy -->
+  <PainCategory_LowPain>发痒</PainCategory_LowPain>
+  <!-- EN: aching -->
+  <PainCategory_MediumPain>酸痛</PainCategory_MediumPain>
+  <!-- EN: painful -->
+  <PainCategory_HighPain>痛苦</PainCategory_HighPain>
+  
+  <!-- ExtraFactionType -->
+  <!-- EN: home faction -->
+  <ExtraFactionType_HomeFaction>驻地派系</ExtraFactionType_HomeFaction>
+  <!-- EN: remote host faction -->
+  <ExtraFactionType_HostFaction>终端派系</ExtraFactionType_HostFaction>
 </LanguageData>

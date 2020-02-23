@@ -3,18 +3,18 @@
   
   <!-- EN: carrying capacity -->
   <CarryingCapacity.label>携带能力</CarryingCapacity.label>
-  <!-- EN: The amount of stuff this creature can carry in its hands, mouth, or other manipulators. This is separate from the ability to carry cargo on long cross-world trips. -->
-  <CarryingCapacity.description>这个角色用手、嘴或其他机械装置携带的物品的数量。这与远行中的驮运能力是分开的。</CarryingCapacity.description>
+  <!-- EN: The amount of stuff this creature can carry in its hands, mouth, or other manipulators.\n\nThis is separate from the ability to carry cargo on long cross-world trips. -->
+  <CarryingCapacity.description>这个角色用手、嘴或其他机械装置携带的物品的数量。\n\n这与远行中的驮运能力是分开的。</CarryingCapacity.description>
   
   <!-- EN: Maximum comfortable temperature -->
   <ComfyTemperatureMax.label>最高舒适温度</ComfyTemperatureMax.label>
-  <!-- EN: Above this temperature, characters will be unhappy. Significantly above this temperature, they will develop heatstroke and eventually die. -->
-  <ComfyTemperatureMax.description>高于这个温度，角色会不开心。大幅高于这个温度时，角色可能会中暑甚至死亡。</ComfyTemperatureMax.description>
+  <!-- EN: Above this temperature, characters will be unhappy.\n\nSignificantly above this temperature, they will develop heatstroke and eventually die. -->
+  <ComfyTemperatureMax.description>高于这个温度，角色会不开心。\n\n大幅高于这个温度时，角色可能会中暑甚至死亡。</ComfyTemperatureMax.description>
   
   <!-- EN: Minimum comfortable temperature -->
   <ComfyTemperatureMin.label>最低舒适温度</ComfyTemperatureMin.label>
-  <!-- EN: Below this temperature, characters will be unhappy. Significantly below this temperature, they will develop hypothermia and frostbite and eventually die. -->
-  <ComfyTemperatureMin.description>低于这个温度，角色会不开心。大幅低于这个温度时，角色会得低温症、冻伤甚至死亡。</ComfyTemperatureMin.description>
+  <!-- EN: Below this temperature, characters will be unhappy.\n\nSignificantly below this temperature, they will develop hypothermia and frostbite and eventually die. -->
+  <ComfyTemperatureMin.description>低于这个温度，角色会不开心。\n\n大幅低于这个温度时，角色会得低温症、冻伤甚至死亡。</ComfyTemperatureMin.description>
   
   <!-- EN: eating speed -->
   <EatingSpeed.label>进食速度</EatingSpeed.label>
@@ -38,8 +38,8 @@
   
   <!-- EN: immunity gain speed -->
   <ImmunityGainSpeed.label>免疫性获得速度</ImmunityGainSpeed.label>
-  <!-- EN: The speed at which this character gains immunity to diseases. If this is too slow, the character will die from a disease before developing immunity. -->
-  <ImmunityGainSpeed.description>这个角色对疾病产生免疫的速度。如果速度太慢，角色会在产生免疫之前死于疾病。</ImmunityGainSpeed.description>
+  <!-- EN: The speed at which this character gains immunity to diseases.\n\nIf this is too slow, the character will die from a disease before developing immunity. -->
+  <ImmunityGainSpeed.description>这个角色对疾病产生免疫的速度。\n\n如果速度太慢，角色会在产生免疫之前死于疾病。</ImmunityGainSpeed.description>
   
   <!-- EN: leather amount -->
   <LeatherAmount.label>可获皮革量</LeatherAmount.label>
@@ -53,13 +53,13 @@
   
   <!-- EN: mental break threshold -->
   <MentalBreakThreshold.label>崩溃临界值</MentalBreakThreshold.label>
-  <!-- EN: As long as someone's mood is below this level, they are in danger of having a mental break. The severity of the mental break will depend on how far below the threshold they are. -->
-  <MentalBreakThreshold.description>当此人的心情低于这个值时，会有精神崩溃的风险。</MentalBreakThreshold.description>
+  <!-- EN: As long as someone's mood is below this level, they are in danger of having a mental break.\n\nThe severity of the mental break will depend on how far below the threshold they are. -->
+  <MentalBreakThreshold.description>当此人的心情低于这个值时，会有精神崩溃的风险。\n\n精神崩溃的严重程度取决于低于临界值的程度。</MentalBreakThreshold.description>
   
   <!-- EN: minimum handling skill -->
-  <MinimumHandlingSkill.label>最小驯兽技能</MinimumHandlingSkill.label>
+  <MinimumHandlingSkill.label>最低驯兽技能</MinimumHandlingSkill.label>
   <!-- EN: This creature cannot be tamed, trained, or commanded by anyone with less than this skill in animals. -->
-  <MinimumHandlingSkill.description>如果驯兽技能小于这种动物所需的驯兽技能，将不能驯服、训练或命令这种动物。</MinimumHandlingSkill.description>
+  <MinimumHandlingSkill.description>如果驯兽技能低于这种动物所需的驯兽技能，将不能驯服、训练或命令这种动物。</MinimumHandlingSkill.description>
   
   <!-- EN: move speed -->
   <MoveSpeed.label>移动速度</MoveSpeed.label>
@@ -73,10 +73,27 @@
   <!-- EN: The pain level at which this creature is downed from pain. -->
   <PainShockThreshold.description>此生物因疼痛倒地的点数。</PainShockThreshold.description>
   
+  <!-- EN: psychic entropy gain -->
+  <PsychicEntropyGain.label>心灵熵增益</PsychicEntropyGain.label>
+  <!-- EN: A multiplier on psychic entropy gained from any source. -->
+  <PsychicEntropyGain.description>以任何方式获得心灵熵值的乘数。</PsychicEntropyGain.description>
+  
+  <!-- EN: psychic entropy limit -->
+  <PsychicEntropyMax.label>心灵熵阈值</PsychicEntropyMax.label>
+  <!-- EN: The maximum amount of psychic entropy individual can tolerate safely. -->
+  <PsychicEntropyMax.description>个体能够安全承受的最大心灵熵值。</PsychicEntropyMax.description>
+  
+  <!-- EN: psychic entropy recovery rate -->
+  <PsychicEntropyRecoveryRate.label>心灵熵降低速率</PsychicEntropyRecoveryRate.label>
+  <!-- EN: The rate at which this person reduces psychic entropy. -->
+  <PsychicEntropyRecoveryRate.description>个体的心灵熵降低速率。</PsychicEntropyRecoveryRate.description>
+  <!-- EN: {0}/30s -->
+  <PsychicEntropyRecoveryRate.formatString>{0}/30秒</PsychicEntropyRecoveryRate.formatString>
+  
   <!-- EN: psychic sensitivity -->
   <PsychicSensitivity.label>心灵敏感度</PsychicSensitivity.label>
-  <!-- EN: Multiplier on the impact of psychic phenomena affecting this person. More sensitive people both suffer more from negative psychic effects, and benefit more from positive ones. -->
-  <PsychicSensitivity.description>各类心灵事件对此人心情的影响的乘数。心灵敏感度越高，受到的影响越大。</PsychicSensitivity.description>
+  <!-- EN: More sensitive people suffer more from negative psychic effects, and benefit more from positive ones. Higher psychic sensitivity also increases psychic entropy limit. -->
+  <PsychicSensitivity.description>敏感度越高的个体会受到更多正面或负面的心理影响。高心灵敏感度也会增加心灵熵阈值的上限。</PsychicSensitivity.description>
   
   <!-- EN: rest rate multiplier -->
   <RestRateMultiplier.label>休息率乘数</RestRateMultiplier.label>

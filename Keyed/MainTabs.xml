@@ -22,14 +22,30 @@
   <EmergencyWorkMarker>紧急</EmergencyWorkMarker>
   <!-- EN: Warning: The average of relevant skills is very low. -->
   <SelectedWorkTypeWithVeryBadSkill>警告：相关技能的平均等级非常低。</SelectedWorkTypeWithVeryBadSkill>
-
+  <!-- EN: Priority 1 is done first. Priority 4 is done last. -->
+  <PriorityOneDoneFirst>优先级1先完成。优先级4放在最后去做。</PriorityOneDoneFirst>
+  <!-- EN: Will not do -->
+  <Priority0>不允许</Priority0>
+  <!-- EN: Top priority -->
+  <Priority1>最高优先</Priority1>
+  <!-- EN: High priority -->
+  <Priority2>高优先级</Priority2>
+  <!-- EN: Normal priority -->
+  <Priority3>中优先级</Priority3>
+  <!-- EN: Low priority -->
+  <Priority4>低优先级</Priority4>
+  
   <!-- Assign tab -->
   <!-- EN: Manage outfits -->
   <ManageOutfits>管理着装配置</ManageOutfits>
+  <!-- EN: Unchangeable -->
+  <Unchangeable>不可变</Unchangeable>
   <!-- EN: Clr. forced -->
   <ClearForcedApparel>取消强制</ClearForcedApparel>
   <!-- EN: forced -->
   <ApparelForcedLower>强制</ApparelForcedLower>
+  <!-- EN: locked -->
+  <ApparelLockedLower>锁定</ApparelLockedLower>
   <!-- EN: Forced apparel -->
   <ForcedApparel>强制着装</ForcedApparel>
   <!-- EN: Edit... -->
@@ -38,7 +54,7 @@
   <ManageDrugPolicies>管理用药方针</ManageDrugPolicies>
   <!-- EN: Manage food restrictions -->
   <ManageFoodRestrictions>管理食物限制</ManageFoodRestrictions>
-
+  
   <!-- Restrictions tab -->
   <!-- EN: Copy -->
   <Copy>复制</Copy>
@@ -46,7 +62,7 @@
   <Paste>粘贴</Paste>
   <!-- EN: Allowed area -->
   <AllowedArea>允许活动区域</AllowedArea>
-
+  
   <!-- Animals tab -->
   <!-- EN: Master -->
   <Master>主人</Master>
@@ -54,11 +70,13 @@
   <PregnantIconDesc>怀孕（{0} / {1}）</PregnantIconDesc>
   <!-- EN: Bonded to -->
   <BondedTo>牵绊于</BondedTo>
-
+  
   <!-- Wildlife tab -->
   <!-- EN: This creature is a predator. When hungry, it will hunt smaller creatures - possibly including people. -->
   <IsPredator>此生物是捕食者。当饥饿时，就会捕猎较小的生物——很可能包括人类。</IsPredator>
-
+  <!-- EN: This creature is currently in mental state: {0} -->
+  <IsInMentalState>当前生物所处的精神状态: {0}</IsInMentalState>
+  
   <!-- Factions tab -->
   <!-- EN: Hostile -->
   <Hostile>敌对</Hostile>
@@ -68,6 +86,8 @@
   <DefeatedLower>被击败</DefeatedLower>
   <!-- EN: Enemy of {0} -->
   <HostileTo>敌对派系: {0}</HostileTo>
+  <!-- EN: Enemy of:  -->
+  <EnemyOf>敌对派系:</EnemyOf>
   <!-- EN: Current goodwill and relations status with this faction. -->
   <CurrentGoodwillTip>当前与该派系的友好度和关系。</CurrentGoodwillTip>
   <!-- EN: This faction is permanently hostile. They will raid your settlements and caravans. Relations with them will never improve for any reason. -->
@@ -80,7 +100,7 @@
   <CurrentGoodwillTip_Hostile>此派系为敌对。他们会袭击你的定居点和远行队。如果关系涨过{0}，他们会转为中立。</CurrentGoodwillTip_Hostile>
   <!-- EN: This faction has a natural goodwill range from {0} to {1}. If goodwill is over {1}, it will fall by {3} per day. If goodwill is under {0}, it will rise by {2} per day. -->
   <CurrentGoodwillTip_NaturalGoodwill>此派系的自然友好度范围为从{0}到{1}。如果友好度超过{1}，则每天都会跌落{3}。如果友好度低于{0}，则每天都会增长{2}。</CurrentGoodwillTip_NaturalGoodwill>
-
+  
   <!-- Social tab -->
   <!-- EN: Friend -->
   <Friend>朋友</Friend>
@@ -88,7 +108,7 @@
   <Rival>仇人</Rival>
   <!-- EN: Acquaintance -->
   <Acquaintance>相识</Acquaintance>
-
+  
   <!-- History tab - subtabs -->
   <!-- EN: Graph -->
   <Graph>统计图表</Graph>
@@ -96,7 +116,7 @@
   <Messages>消息</Messages>
   <!-- EN: Statistics -->
   <Statistics>统计数据</Statistics>
-
+  
   <!-- History tab - Graphs -->
   <!-- EN: Select graph -->
   <SelectGraph>选择图表</SelectGraph>
@@ -148,13 +168,101 @@
   <ColonistsLaunched>进入太空的殖民者总数</ColonistsLaunched>
 
   <!-- Research tab -->
-  <!-- EN: project tech level -->
-  <ProjectTechLevel>项目科技等级</ProjectTechLevel>
-  <!-- EN: your tech level -->
-  <YourTechLevel>自身科技等级</YourTechLevel>
-  <!-- EN: cost multiplier -->
-  <ResearchCostMultiplier>工作量乘数</ResearchCostMultiplier>
+  <!-- EN: Research -->
+  <Research>研究</Research>
+  <!-- EN: Researched -->
+  <Researched>已研究</Researched>
+  <!-- EN: Unresearched -->
+  <Unresearched>未研究</Unresearched>
+  <!-- EN: Finished -->
+  <Finished>已完成</Finished>
+  <!-- EN: In Progress -->
+  <InProgress>研究中</InProgress>
+  <!-- EN: Locked -->
+  <Locked>未解锁</Locked>
+  <!-- EN: Research prerequisites -->
+  <ResearchPrerequisites>前置研究</ResearchPrerequisites>
+  <!-- EN: Techprints required {0} / {1} -->
+  <ResearchTechprintRequirement>科研蓝图要求 {0} / {1}</ResearchTechprintRequirement>
+  <!-- EN: Insufficient techprints applied ({0} / {1}) -->
+  <InsufficientTechprintsApplied>已使用的科研蓝图不足({0} / {1})</InsufficientTechprintsApplied>
+  <!-- EN: Prerequisite(s) not completed -->
+  <PrerequisitesNotCompleted>前置研究未完成</PrerequisitesNotCompleted>
+  <!-- EN: Required research bench -->
+  <RequiredResearchBench>需要研究台</RequiredResearchBench>
+  <!-- EN: Required research bench facilities -->
+  <RequiredResearchBenchFacilities>需要研究设施</RequiredResearchBenchFacilities>
   <!-- EN: Project base cost {0} becomes {1} for you because of your tech level. -->
   <ResearchCostComparison>由于自身科技等级，项目基础工作量{0}变为{1}。</ResearchCostComparison>
+  <!-- EN: Techprints are available from these factions via trade and quests: -->
+  <ResearchTechprintsFromFactions>这些科研蓝图技术可以通过与派系的交易以及任务获取:</ResearchTechprintsFromFactions>
+  <!-- EN: Your faction tech level is {0}, but this project's tech level is {1}. Research speed will be multiplied by {2}. -->
+  <TechLevelTooLow>你的派系技术级别为{0}，但此项目的技术级别为{1}。研究速度将乘以{2}。</TechLevelTooLow>
 
+  <!-- Quests tab -->
+  <!-- EN: Available -->
+  <AvailableQuests>可接受</AvailableQuests>
+  <!-- EN: Active -->
+  <ActiveQuests>进行中</ActiveQuests>
+  <!-- EN: Historical -->
+  <HistoricalQuests>历史任务</HistoricalQuests>
+  <!-- EN: no quest selected -->
+  <NoQuestSelected>未选择任务</NoQuestSelected>
+  <!-- EN: Appeared {0} days ago -->
+  <AppearedDaysAgo>在{0}天前出现</AppearedDaysAgo>
+  <!-- EN: Appeared on {0} -->
+  <AppearedOn>出现在{0}</AppearedOn>
+  <!-- EN: Accepted {0} ago -->
+  <AcceptedAgo>{0}之前接受</AcceptedAgo>
+  <!-- EN: Accepted on {0} -->
+  <AcceptedOn>在{0}接受</AcceptedOn>
+  <!-- EN: Accepted {0} ago by {1} -->
+  <AcceptedAgoBy>{1}在{0}之前接受了</AcceptedAgoBy>
+  <!-- EN: Accepted on {0} by {1} -->
+  <AcceptedOnBy>{1}已于{0}接受</AcceptedOnBy>
+  <!-- EN: Expires in {0} -->
+  <QuestExpiresIn>于{0}过期</QuestExpiresIn>
+  <!-- EN: Expires on {0} -->
+  <QuestExpiresOn>于{0}到期</QuestExpiresOn>
+  <!-- EN: Shuttle arrives in {0} -->
+  <ShuttleArrivesIn>穿梭机已抵达{0}</ShuttleArrivesIn>
+  <!-- EN: Shuttle arrives on {0} -->
+  <ShuttleArrivesOn>穿梭机已到达{0}</ShuttleArrivesOn>
+  <!-- EN: Shuttle departs in {0} -->
+  <ShuttleDepartsIn>穿梭机已离开{0}</ShuttleDepartsIn>
+  <!-- EN: Shuttle departs on {0} -->
+  <ShuttleDepartsOn>穿梭机已飞离{0}</ShuttleDepartsOn>
+  <!-- EN: Finished {0} ago -->
+  <QuestFinishedAgo>{0}之前已完成</QuestFinishedAgo>
+  <!-- EN: Accept quest -->
+  <AcceptQuest>接受任务</AcceptQuest>
+  <!-- EN: Accept with {0_labelShort} -->
+  <AcceptWith>接受{0_labelShort}</AcceptWith>
+  <!-- EN: The offer expired. -->
+  <QuestOutcomeInfo_OfferExpired>折价已过期</QuestOutcomeInfo_OfferExpired>
+  <!-- EN: You completed this quest. -->
+  <QuestOutcomeInfo_UnknownOrSuccess>你已完成此任务。</QuestOutcomeInfo_UnknownOrSuccess>
+  <!-- EN: You failed this quest. -->
+  <QuestOutcomeInfo_Failed>你未完成此任务。</QuestOutcomeInfo_Failed>
+  <!-- EN: Jump to {0} -->
+  <JumpToTargetCustom>跳转至{0}</JumpToTargetCustom>
+  <!-- EN: Challenge rating. This is a general rating for how difficult the quest will be relative to your current strength. More challenging quests give greater rewards.\n\n1: Normal\n2: Hard\n3: Extreme\n4: Ultimate -->
+  <QuestChallengeRatingTip>挑战等级。这是一个综合的难易度评级，显示该任务相对于您当前的实力有多少差距。更具挑战性的任务会带来更大的奖励。\n\n1: 普通\n2: 困难\n3: 极难\n4: 终极</QuestChallengeRatingTip>
+  <!-- EN: To accept this quest, you need -->
+  <QuestAcceptanceRequirementsDescription>要接受此任务，您需要</QuestAcceptanceRequirementsDescription>
+  <!-- EN: free bedrooms that satisfy the title requirements of -->
+  <QuestBedroomRequirementsUnsatisfied>满足头衔要求的空置卧室</QuestBedroomRequirementsUnsatisfied>
+  <!-- EN: a free bedroom that satisfies the title requirements of -->
+  <QuestBedroomRequirementsUnsatisfiedSingle>满足头衔要求的空置卧室</QuestBedroomRequirementsUnsatisfiedSingle>
+  <!-- EN: a colonist with the title of {0}. -->
+  <QuestNoColonistWithTitle>一名拥有{0}头衔的殖民者。</QuestNoColonistWithTitle>
+  <!-- EN: Accept {FACTION_royalFavorLabel} -->
+  <AcceptRoyalFavor>接受{FACTION_royalFavorLabel}</AcceptRoyalFavor>
+  <!-- EN: Whether you wish to be rewarded with {FACTION_royalFavorLabel} from {FACTION_name}.\n\nIf this is disabled, {FACTION_name} will offer other types of rewards instead.\n\nThis setting only affects newly-arriving quests. -->
+  <AcceptRoyalFavorDesc>是否希望从{FACTION_name} 那里接受 {FACTION_royalFavorLabel} 。\n\n如果禁用此功能，{FACTION_name} 将提供其他类型的奖励。该设置只影响新接到的任务。</AcceptRoyalFavorDesc>
+  <!-- EN: You are currently opting in to receive {FACTION_royalFavorLabel}. -->
+  <RoyalFavorOn>当前选择接受{FACTION_royalFavorLabel}。 </RoyalFavorOn>
+  <!-- EN: You are currently opting out of receiving {FACTION_royalFavorLabel}. -->
+  <RoyalFavorOff>当前选择不接受{FACTION_royalFavorLabel}。</RoyalFavorOff>
+  
 </LanguageData>

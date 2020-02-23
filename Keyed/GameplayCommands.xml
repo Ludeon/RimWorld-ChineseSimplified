@@ -16,12 +16,12 @@
   <CommandTogglePowerLabel>开关电源</CommandTogglePowerLabel>
   <!-- EN: Toggle power. -->
   <CommandTogglePowerDesc>开关电源。</CommandTogglePowerDesc>
-
+  
   <!-- EN: Designate toggle power -->
   <CommandDesignateTogglePowerLabel>指派开关电源</CommandDesignateTogglePowerLabel>
   <!-- EN: Designate this thing to have power toggled. A colonist will come soon to flick the switch. -->
   <CommandDesignateTogglePowerDesc>指定一件需要切换供电开关的电器。一名殖民者将随后前往拨动开关。</CommandDesignateTogglePowerDesc>
-
+  
   <!-- EN: Reconnect -->
   <CommandTryReconnectLabel>重新连接</CommandTryReconnectLabel>
   <!-- EN: Try to connect to a different power net within my connection radius. This is useful if I'm connected to an unpowered net but there is a powered net nearby. -->
@@ -33,7 +33,7 @@
   <CommandGatherSpotToggleDescActive>已开启\n殖民者们闲逛时会在该物品附近集合。</CommandGatherSpotToggleDescActive>
   <!-- EN: Inactive - colonists will not gather around this object. -->
   <CommandGatherSpotToggleDescInactive>已关闭\n殖民者们闲逛时不会在该物品附近集合。</CommandGatherSpotToggleDescInactive>
-
+  
   <!-- Drafting -->
   <!-- EN: Draft -->
   <CommandDraftLabel>征召</CommandDraftLabel>
@@ -48,12 +48,12 @@
   <CommandFireAtWillLabel>自由开火</CommandFireAtWillLabel>
   <!-- EN: Toggle fire at will.\n\nWhen disabled, this character will not automatically shoot at ranged targets. Does not affect melee combat. -->
   <CommandFireAtWillDesc>切换自由开火。\n\n此选项禁用时，角色不会自动使用远程攻击手段，近战格斗不受影响。</CommandFireAtWillDesc>
-
+  
   <!-- EN: Clear prioritized work -->
   <CommandClearPrioritizedWork>清除优先任务</CommandClearPrioritizedWork>
   <!-- EN: Clear any prioritized work you assigned. The character will go back to their usual self-directed activities. -->
   <CommandClearPrioritizedWorkDesc>清除任何你指定的优先任务。该角色将根据自身工作优先度自行选择工作。</CommandClearPrioritizedWorkDesc>
-
+  
   <!-- EN: Cancel -->
   <CommandCancelConstructionLabel>取消</CommandCancelConstructionLabel>
   <!-- EN: Cancel this construction. -->
@@ -65,9 +65,11 @@
   <CommandGetOutOfBedDesc>离开当前的床。</CommandGetOutOfBedDesc>
 
   <!-- EN: Set owner -->
-  <CommandBedSetOwnerLabel>指定所属</CommandBedSetOwnerLabel>
+  <CommandThingSetOwnerLabel>设定拥有者</CommandThingSetOwnerLabel>
   <!-- EN: Assign this bed to be owned by a specific colonist. -->
   <CommandBedSetOwnerDesc>将此床分配给指定的殖民者。</CommandBedSetOwnerDesc>
+  <!-- EN: Assign this throne to be owned by a specific colonist. -->
+  <CommandThroneSetOwnerDesc>将此王座分配给特定殖民者所有。</CommandThroneSetOwnerDesc>
   <!-- EN: Assign colonist -->
   <CommandGraveAssignColonistLabel>指定殖民者</CommandGraveAssignColonistLabel>
   <!-- EN: Assign this grave to be owned by a specific colonist. -->
@@ -153,7 +155,7 @@
   <MessageTargetBelowMinimumRange>目标距离小于最小射程。</MessageTargetBelowMinimumRange>
   <!-- EN: Warning: The mortar won't fire because it's set to "Hold fire". -->
   <MessageTurretWontFireBecauseHoldFire>警告：迫击炮不会开火，因为已设置为「停火」。</MessageTurretWontFireBecauseHoldFire>
-
+  
   <!-- Ship computer core -->
   <!-- EN: Launch ship -->
   <CommandShipLaunch>发射飞船</CommandShipLaunch>
@@ -205,7 +207,7 @@
   <CommandReinstall>重新安装</CommandReinstall>
   <!-- EN: Designate this item to be uninstalled and reinstalled somewhere else. -->
   <CommandReinstallDesc>指定将此物品卸载，并重新安装在其他地方。</CommandReinstallDesc>
-
+  
   <!-- Trade beacon -->
   <!-- EN: Create a stockpile around this building exactly matching the shape of the beacon's launch radius. -->
   <CommandMakeBeaconStockpileDesc>在轨道交易信标有效半径范围内创建一个储存区。</CommandMakeBeaconStockpileDesc>
@@ -223,7 +225,7 @@
   <CommandAutoRearm>自动重置</CommandAutoRearm>
   <!-- EN: If this is on, this trap will automatically be replaced after it springs. -->
   <CommandAutoRearmDesc>启用时，该陷阱会在触发后自动被指派重置工作。</CommandAutoRearmDesc>
-
+  
   <!-- Animal control -->
   <!-- EN: Release animals -->
   <CommandReleaseAnimalsLabel>出击</CommandReleaseAnimalsLabel>
@@ -231,13 +233,13 @@
   <CommandReleaseAnimalsDesc>启用时，经过训练的动物可以主动出击，攻击远处目标。禁用时，它们则在身边保护主人。</CommandReleaseAnimalsDesc>
   <!-- EN: No animals available. -->
   <CommandReleaseAnimalsFail_NoAnimals>没有可用的动物。</CommandReleaseAnimalsFail_NoAnimals>
-
+  
   <!-- Squad attack -->
   <!-- EN: Attack -->
   <CommandSquadAttack>攻击</CommandSquadAttack>
   <!-- EN: Order selected colonists to attack designated target. -->
   <CommandSquadAttackDesc>命令选定的殖民者攻击指定目标。</CommandSquadAttackDesc>
-
+  
   <!-- Melee attack -->
   <!-- EN: Melee attack -->
   <CommandMeleeAttack>近身攻击</CommandMeleeAttack>
@@ -249,7 +251,7 @@
   <CommandHoldFire>停火</CommandHoldFire>
   <!-- EN: End any ongoing attacks. -->
   <CommandHoldFireDesc>停止所有正在进行的攻击。</CommandHoldFireDesc>
-
+  
   <!-- Select plant to grow -->
   <!-- EN: Select plant to grow -->
   <CommandSelectPlantToGrowMulti>选择所要种植的植物。</CommandSelectPlantToGrowMulti>
@@ -257,7 +259,7 @@
   <CommandSelectPlantToGrow>种植: {0}</CommandSelectPlantToGrow>
   <!-- EN: Determine which plant should be sown here. -->
   <CommandSelectPlantToGrowDesc>指定此处种植何种植物。</CommandSelectPlantToGrowDesc>
-
+  
   <!-- Select mineral to scan for (long-range mineral scanner) -->
   <!-- EN: Tuned to -->
   <CommandSelectMineralToScanFor>转到</CommandSelectMineralToScanFor>
@@ -273,7 +275,7 @@
   <CommandFormCaravan>组建远行队</CommandFormCaravan>
   <!-- EN: Form a group of colonists able to travel to new areas. The colonists will gather all the assigned supplies and accompanying animals, leave their current area, and await further orders. -->
   <CommandFormCaravanDesc>组建一支可以前往新地区的殖民者队伍。殖民者会带着你指定的物资和随行动物，离开当前地区，并等待你的下一步指示。</CommandFormCaravanDesc>
-
+  
   <!-- Reform caravan -->
   <!-- EN: Reform caravan -->
   <CommandReformCaravan>重组远行队</CommandReformCaravan>
@@ -281,13 +283,13 @@
   <CommandReformCaravanDesc>重新组建一支殖民者队伍。殖民者会带着你指定的物资和随行动物，离开当前地区，并等待你的下一步指示。</CommandReformCaravanDesc>
   <!-- EN: There are still some enemies in this area. -->
   <CommandReformCaravanFailHostilePawns>此地区内尚有敌人存在。</CommandReformCaravanFailHostilePawns>
-
+  
   <!-- Split caravan -->
   <!-- EN: Split -->
   <CommandSplitCaravan>拆分</CommandSplitCaravan>
   <!-- EN: Split this caravan into two. The caravans can be later merged back into one as long as they are close to each other. -->
   <CommandSplitCaravanDesc>将该远行队拆分为两只远行队，两只临近的远行队可以被重新合并成一只。</CommandSplitCaravanDesc>
-
+  
   <!-- Merge caravan -->
   <!-- EN: Merge -->
   <CommandMergeCaravans>合并</CommandMergeCaravans>
@@ -295,7 +297,7 @@
   <CommandMergeCaravansDesc>合并选中的远行队。</CommandMergeCaravansDesc>
   <!-- EN: Select all caravans which should be merged. The caravans must be close to each other. -->
   <CommandMergeCaravansFailCaravansNotSelected>选择所有应合并的远行队。远行队之间必须互相靠近。</CommandMergeCaravansFailCaravansNotSelected>
-
+  
   <!-- Settle -->
   <!-- EN: Settle -->
   <CommandSettle>定居</CommandSettle>
@@ -309,7 +311,7 @@
   <CommandSettleFailNoColonists>需要有人在那里才能占领区域。</CommandSettleFailNoColonists>
   <!-- EN: There are enemies in this area. -->
   <CommandSettleFailEnemies>此区域内有敌人。</CommandSettleFailEnemies>
-
+  
   <!-- Abandon home -->
   <!-- EN: Abandon -->
   <CommandAbandonHome>遗弃</CommandAbandonHome>
@@ -317,7 +319,7 @@
   <CommandAbandonHomeDesc>将该地区遗弃。遗弃之后该区域将不可访问，你将永远无法回到这里。遗弃现有的殖民地后，你可以为远行队指定一个新地区定居。</CommandAbandonHomeDesc>
   <!-- EN: All of your colonists are there. -->
   <CommandAbandonHomeFailAllColonistsThere>你所有的殖民者都还留在该地区。</CommandAbandonHomeFailAllColonistsThere>
-
+  
   <!-- Cancel forming caravan -->
   <!-- EN: Cancel forming caravan -->
   <CommandCancelFormingCaravan>取消组建远行队</CommandCancelFormingCaravan>
@@ -329,19 +331,19 @@
   <CommandRemoveFromCaravan>移出远行队</CommandRemoveFromCaravan>
   <!-- EN: Remove this person or animal from the caravan. -->
   <CommandRemoveFromCaravanDesc>将这个人或动物移出远行队。</CommandRemoveFromCaravanDesc>
-
+  
   <!-- Add to caravan -->
   <!-- EN: Add to caravan -->
   <CommandAddToCaravan>加入远行队</CommandAddToCaravan>
   <!-- EN: Add this person or animal to the forming caravan. -->
   <CommandAddToCaravanDesc>将这个人或动物加入组建中的远行队。</CommandAddToCaravanDesc>
-
+  
   <!-- Show map -->
   <!-- EN: Zoom in -->
   <CommandShowMap>放大</CommandShowMap>
   <!-- EN: Zoom in on this area. -->
   <CommandShowMapDesc>放大至该地区。</CommandShowMapDesc>
-
+  
   <!-- Trade -->
   <!-- EN: Trade -->
   <CommandTrade>贸易</CommandTrade>
@@ -349,6 +351,8 @@
   <CommandTradeDesc>与此派系进行贸易。</CommandTradeDesc>
   <!-- EN: There isn't any conscious and capable negotiator. -->
   <CommandTradeFailNoNegotiator>缺少意识清醒且有能力的谈判者。</CommandTradeFailNoNegotiator>
+  <!-- EN: None of your people have the required faction permission: {0} -->
+  <CommandTradeFailNeedPermit>你的人没有必要的派系许可:{0}</CommandTradeFailNeedPermit>
 
   <!-- Offer gifts -->
   <!-- EN: Offer gifts -->
@@ -363,9 +367,9 @@
   <CommandFulfillTradeOfferDesc>完成定居点的货物需求并获得报酬。</CommandFulfillTradeOfferDesc>
   <!-- EN: Your caravan must have {0} to fulfill this trade offer. -->
   <CommandFulfillTradeOfferFailInsufficient>你的远行队必须拥有 {0} 才能完成交易邀请。</CommandFulfillTradeOfferFailInsufficient>
-  <!-- EN: Offer {0} for {1}? -->
+  <!-- EN: 是否交出 {0} ? -->
   <CommandFulfillTradeOfferConfirm>交付 {0} 以获取 {1} ？</CommandFulfillTradeOfferConfirm>
-
+  
   <!-- Take off -->
   <!-- EN: Take off -->
   <CommandTakeOff>发射飞船</CommandTakeOff>
@@ -380,12 +384,18 @@
   <!-- EN: Set the target fuel level. Colonists will attempt to fill this up to the target fuel level. -->
   <CommandSetTargetFuelLevelDesc>指定目标燃料量。殖民者会尝试为其加注燃料至目标燃料量。</CommandSetTargetFuelLevelDesc>
 
+  <!-- Refueling -->
+  <!-- EN: Toggle automatic refuel -->
+  <CommandToggleAllowAutoRefuel>切换自动添加燃料</CommandToggleAllowAutoRefuel>
+  <!-- EN: Sets whether or not automatic refueling is allowed. -->
+  <CommandToggleAllowAutoRefuelDesc>设置是否允许自动添加燃料。</CommandToggleAllowAutoRefuelDesc>
+  
   <!-- Cancel load -->
   <!-- EN: Cancel load -->
   <CommandCancelLoad>取消装载</CommandCancelLoad>
   <!-- EN: Cancel loading this with people or items and eject everything already loaded. -->
   <CommandCancelLoadDesc>取消当前人员或物品的装载任务，并卸载所有已装载的物品。</CommandCancelLoadDesc>
-
+  
   <!-- Launch group -->
   <!-- EN: Launch group -->
   <CommandLaunchGroup>运输舱发射组</CommandLaunchGroup>
@@ -397,7 +407,7 @@
   <CommandLaunchGroupFailNoFuel>本发射组中部分运输舱发射器缺少燃料。</CommandLaunchGroupFailNoFuel>
   <!-- EN: Some pod launchers are under a roof. -->
   <CommandLaunchGroupFailUnderRoof>部分运输舱发射器处于屋顶下。</CommandLaunchGroupFailUnderRoof>
-
+  
   <!-- Load transporter -->
   <!-- EN: Load launch group of {0} -->
   <CommandLoadTransporter>装载发射组: {0}</CommandLoadTransporter>
@@ -407,31 +417,49 @@
   <CommandLoadTransporterFailNotConnectedToFuelingPort>运输舱未连接至燃料供给端。</CommandLoadTransporterFailNotConnectedToFuelingPort>
   <!-- EN: The pod launcher has no fuel. -->
   <CommandLoadTransporterFailNoFuel>运输舱发射器缺少燃料。</CommandLoadTransporterFailNoFuel>
-
+  
+  <!-- Load transporter (single) -->
+  <!-- EN: Load -->
+  <CommandLoadTransporterSingle>装载</CommandLoadTransporterSingle>
+  <!-- EN: Opens the loading dialog so you can decide who and what should be loaded inside. -->
+  <CommandLoadTransporterSingleDesc>打开装载对话框，以便你可以确定装载内容里有哪些人和物。</CommandLoadTransporterSingleDesc>
+  
+  <!-- Transporters set to load -->
+  <!-- EN: Set to load -->
+  <CommandSetToLoadTransporter>设置为装载</CommandSetToLoadTransporter>
+  <!-- EN: Opens the loading dialog so you can decide who and what should be loaded inside. -->
+  <CommandSetToLoadTransporterDesc>打开装载对话框，以便你可以确定装载内容里有哪些人和物。</CommandSetToLoadTransporterDesc>
+  
+  <!-- Autoload transporters -->
+  <!-- EN: Autoload -->
+  <CommandAutoloadTransporters>自动装载</CommandAutoloadTransporters>
+  <!-- EN: Toggle loading all required cargo automatically as soon as they become available. -->
+  <CommandAutoloadTransportersDesc>一旦所有需要的货物可用，便自动切换装载。</CommandAutoloadTransportersDesc>
+  
   <!-- Select previous transporter -->
   <!-- EN: Select previous in launch group -->
   <CommandSelectPreviousTransporter>选择上一个运输舱</CommandSelectPreviousTransporter>
   <!-- EN: Select previous transport pod in this launch group. -->
   <CommandSelectPreviousTransporterDesc>选择本发射组中的上一个运输舱。</CommandSelectPreviousTransporterDesc>
-
+  
   <!-- Select all transporters -->
   <!-- EN: Select launch group -->
   <CommandSelectAllTransporters>选择发射组</CommandSelectAllTransporters>
   <!-- EN: Select all transport pods in this launch group. -->
   <CommandSelectAllTransportersDesc>选择本发射组内的所有运输舱。</CommandSelectAllTransportersDesc>
-
+  
   <!-- Select next transporter -->
   <!-- EN: Select next in launch group -->
   <CommandSelectNextTransporter>选择下一个运输舱</CommandSelectNextTransporter>
   <!-- EN: Select next transport pod in this launch group. -->
   <CommandSelectNextTransporterDesc>选择本发射组中的下一个运输舱。</CommandSelectNextTransporterDesc>
-
+  
   <!-- Vent -->
   <!-- EN: Designate open/close -->
   <CommandDesignateOpenCloseVentLabel>指派开关</CommandDesignateOpenCloseVentLabel>
   <!-- EN: Designate this vent to be opened or closed. A colonist will come soon to perform the task. -->
   <CommandDesignateOpenCloseVentDesc>指定此通风孔开启或关闭。一位殖民者会尽快执行这项任务。</CommandDesignateOpenCloseVentDesc>
-
+  
   <!-- Remove waypoint -->
   <!-- EN: Remove -->
   <CommandRemoveWaypointLabel>移除</CommandRemoveWaypointLabel>
@@ -443,7 +471,7 @@
   <CommandPauseCaravan>暂停</CommandPauseCaravan>
   <!-- EN: Start resting. This has the following benefits:\n\n  - People can interact socially\n  - Forage for food {0} times faster\n  - Visibility multiplied by {1} -->
   <CommandToggleCaravanPauseDesc>暂停远行队移动。这将有以下收益：\n\n  - 人们可以社交互动\n  - 食物采集速度加快{0}倍\n  - 可见度乘以{1}</CommandToggleCaravanPauseDesc>
-
+  
   <!-- Show sellable items -->
   <!-- EN: Show what will buy -->
   <CommandShowSellableItems>显示收购项</CommandShowSellableItems>
@@ -456,4 +484,36 @@
   <!-- EN: Attack this settlement. -->
   <CommandAttackSettlementDesc>攻击此定居点。</CommandAttackSettlementDesc>
 
+  <!-- Send shuttle -->
+  <!-- EN: Send -->
+  <CommandSendShuttle>发射</CommandSendShuttle>
+  <!-- EN: Initiate takeoff and have the shuttle fly to its destination. -->
+  <CommandSendShuttleDesc>开始起飞，让穿梭机飞向目的地。</CommandSendShuttleDesc>
+  <!-- EN: The shuttle is under a roof. -->
+  <CommandSendShuttleFailUnderRoof>穿梭机在屋顶下。</CommandSendShuttleFailUnderRoof>
+  <!-- EN: Some of the required items or people are missing. -->
+  <CommandSendShuttleFailMissingRequiredThing>一些必需的物品或人员不见了。</CommandSendShuttleFailMissingRequiredThing>
+
+  <!-- Place blueprints -->
+  <!-- EN: Place blueprints -->
+  <CommandPlaceBlueprints>放置蓝图</CommandPlaceBlueprints>
+  <!-- EN: Place all required blueprints where possible. -->
+  <CommandPlaceBlueprintsDesc>尽可能放置所有必需的蓝图。</CommandPlaceBlueprintsDesc>
+
+  <!-- Cancel monument marker -->
+  <!-- EN: Cancel -->
+  <CommandCancelMonumentMarker>取消</CommandCancelMonumentMarker>
+  <!-- EN: Permanently remove this monument marker. -->
+  <CommandCancelMonumentMarkerDesc>永久删除此纪念碑标记。</CommandCancelMonumentMarkerDesc>
+
+  <!-- View quest -->
+  <!-- EN: View quest: {0} -->
+  <CommandViewQuest>查看任务：{0}</CommandViewQuest>
+  <!-- EN: View this quest in quests tab. -->
+  <CommandViewQuestDesc>在「任务」选项卡中查看此任务。</CommandViewQuestDesc>
+  <!-- EN: Open linked quest -->
+  <CommandOpenLinkedQuest>打开任务</CommandOpenLinkedQuest>
+  <!-- EN: Open linked quest in the quests tab. -->
+  <CommandOpenLinkedQuestDesc>在任务标签中打开任务。</CommandOpenLinkedQuestDesc>
+  
 </LanguageData>

@@ -3,8 +3,10 @@
   
   <!-- EN: bite -->
   <Bite.label>咬伤</Bite.label>
+  <!-- EN: A bite wound. -->
+  <Bite.description>咬伤伤口</Bite.description>
   <!-- EN: set -->
-  <Bite.comps.HediffComp_TendDuration.labelSolidTendedWell>已简单固定</Bite.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <Bite.comps.HediffComp_TendDuration.labelSolidTendedWell>已简单处理</Bite.comps.HediffComp_TendDuration.labelSolidTendedWell>
   <!-- EN: bandaged -->
   <Bite.comps.HediffComp_TendDuration.labelTendedWell>已包扎</Bite.comps.HediffComp_TendDuration.labelTendedWell>
   <!-- EN: sutured -->
@@ -22,11 +24,13 @@
   
   <!-- EN: bruise -->
   <Bruise.label>瘀伤</Bruise.label>
+  <!-- EN: A bruise. -->
+  <Bruise.description>瘀伤伤口</Bruise.description>
   <!-- EN: set -->
-  <Bruise.comps.HediffComp_TendDuration.labelSolidTendedWell>已简单固定</Bruise.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <Bruise.comps.HediffComp_TendDuration.labelSolidTendedWell>已简单处理</Bruise.comps.HediffComp_TendDuration.labelSolidTendedWell>
   <!-- EN: bandaged -->
   <Bruise.comps.HediffComp_TendDuration.labelTendedWell>已包扎</Bruise.comps.HediffComp_TendDuration.labelTendedWell>
-  <!-- EN: sutured -->
+  <!-- EN: tended -->
   <Bruise.comps.HediffComp_TendDuration.labelTendedWellInner>已缝合</Bruise.comps.HediffComp_TendDuration.labelTendedWellInner>
   <!-- EN: Destroyed -->
   <Bruise.injuryProps.destroyedLabel>被毁</Bruise.injuryProps.destroyedLabel>
@@ -37,11 +41,13 @@
   
   <!-- EN: burn -->
   <Burn.label>烧伤</Burn.label>
-  <!-- EN: set -->
-  <Burn.comps.HediffComp_TendDuration.labelSolidTendedWell>已固定</Burn.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: A burn. -->
+  <Burn.description>烧伤伤口</Burn.description>
+  <!-- EN: tended -->
+  <Burn.comps.HediffComp_TendDuration.labelSolidTendedWell>已简单处理</Burn.comps.HediffComp_TendDuration.labelSolidTendedWell>
   <!-- EN: bandaged -->
   <Burn.comps.HediffComp_TendDuration.labelTendedWell>已包扎</Burn.comps.HediffComp_TendDuration.labelTendedWell>
-  <!-- EN: sutured -->
+  <!-- EN: tended -->
   <Burn.comps.HediffComp_TendDuration.labelTendedWellInner>已缝合</Burn.comps.HediffComp_TendDuration.labelTendedWellInner>
   <!-- EN: burn scar -->
   <Burn.comps.HediffComp_GetsPermanent.permanentLabel>烧伤疤痕</Burn.comps.HediffComp_GetsPermanent.permanentLabel>
@@ -54,13 +60,30 @@
   <!-- EN: {0} in the {1} -->
   <Burn.labelNounPretty>{1}中的{0}</Burn.labelNounPretty>
   
+  <!-- EN: chemical burn -->
+  <ChemicalBurn.label>化学烧伤</ChemicalBurn.label>
+  <!-- EN: A chemical burn. -->
+  <ChemicalBurn.description>化学烧伤伤口</ChemicalBurn.description>
+  <!-- EN: chemical burn scar -->
+  <ChemicalBurn.comps.HediffComp_GetsPermanent.permanentLabel>化学烧伤疤痕</ChemicalBurn.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Burned off (chemical) -->
+  <ChemicalBurn.injuryProps.destroyedLabel>被烧毁(化学)</ChemicalBurn.injuryProps.destroyedLabel>
+  <!-- EN: Burned out (chemical) -->
+  <ChemicalBurn.injuryProps.destroyedOutLabel>被烧掉(化学)</ChemicalBurn.injuryProps.destroyedOutLabel>
+  <!-- EN: a chemical burn -->
+  <ChemicalBurn.labelNoun>化学烧伤</ChemicalBurn.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <ChemicalBurn.labelNounPretty>{1}中的{0}</ChemicalBurn.labelNounPretty>
+  
   <!-- EN: crack -->
   <Crack.label>破裂</Crack.label>
+  <!-- EN: A crack. -->
+  <Crack.description>破裂伤口</Crack.description>
   <!-- EN: set -->
-  <Crack.comps.HediffComp_TendDuration.labelSolidTendedWell>已固定</Crack.comps.HediffComp_TendDuration.labelSolidTendedWell>
-  <!-- EN: healed -->
+  <Crack.comps.HediffComp_TendDuration.labelSolidTendedWell>已简单固定</Crack.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: set -->
   <Crack.comps.HediffComp_TendDuration.labelTendedWell>已愈合</Crack.comps.HediffComp_TendDuration.labelTendedWell>
-  <!-- EN: healed -->
+  <!-- EN: set -->
   <Crack.comps.HediffComp_TendDuration.labelTendedWellInner>已愈合</Crack.comps.HediffComp_TendDuration.labelTendedWellInner>
   <!-- EN: permanent crack -->
   <Crack.comps.HediffComp_GetsPermanent.permanentLabel>陈旧性骨折</Crack.comps.HediffComp_GetsPermanent.permanentLabel>
@@ -73,8 +96,10 @@
   
   <!-- EN: crush -->
   <Crush.label>压伤</Crush.label>
+  <!-- EN: A crushing wound. -->
+  <Crush.description>压伤伤口</Crush.description>
   <!-- EN: set -->
-  <Crush.comps.HediffComp_TendDuration.labelSolidTendedWell>已固定</Crush.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <Crush.comps.HediffComp_TendDuration.labelSolidTendedWell>已简单处理</Crush.comps.HediffComp_TendDuration.labelSolidTendedWell>
   <!-- EN: bandaged -->
   <Crush.comps.HediffComp_TendDuration.labelTendedWell>已包扎</Crush.comps.HediffComp_TendDuration.labelTendedWell>
   <!-- EN: sutured -->
@@ -90,8 +115,10 @@
   
   <!-- EN: cut -->
   <Cut.label>割伤</Cut.label>
+  <!-- EN: A cut. -->
+  <Cut.description>割伤伤口</Cut.description>
   <!-- EN: set -->
-  <Cut.comps.HediffComp_TendDuration.labelSolidTendedWell>已简单固定</Cut.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <Cut.comps.HediffComp_TendDuration.labelSolidTendedWell>已简单处理</Cut.comps.HediffComp_TendDuration.labelSolidTendedWell>
   <!-- EN: bandaged -->
   <Cut.comps.HediffComp_TendDuration.labelTendedWell>已包扎</Cut.comps.HediffComp_TendDuration.labelTendedWell>
   <!-- EN: sutured -->
@@ -109,11 +136,13 @@
   
   <!-- EN: frostbite -->
   <Frostbite.label>冻伤</Frostbite.label>
-  <!-- EN: set -->
-  <Frostbite.comps.HediffComp_TendDuration.labelSolidTendedWell>已简单固定</Frostbite.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: Frozen tissue caused by exposure to cold without adequate protection. Frostbite is very painful, and frostbitten body parts are often lost. -->
+  <Frostbite.description>冻伤是由于寒冷潮湿作用引起的患者局部或全身损伤。冻伤非常痛苦，患者经常会被迫失去冻伤的身体部位。</Frostbite.description>
+  <!-- EN: tended -->
+  <Frostbite.comps.HediffComp_TendDuration.labelSolidTendedWell>已简单处理</Frostbite.comps.HediffComp_TendDuration.labelSolidTendedWell>
   <!-- EN: bandaged -->
   <Frostbite.comps.HediffComp_TendDuration.labelTendedWell>已包扎</Frostbite.comps.HediffComp_TendDuration.labelTendedWell>
-  <!-- EN: sutured -->
+  <!-- EN: tended -->
   <Frostbite.comps.HediffComp_TendDuration.labelTendedWellInner>已缝合</Frostbite.comps.HediffComp_TendDuration.labelTendedWellInner>
   <!-- EN: frostbite scar -->
   <Frostbite.comps.HediffComp_GetsPermanent.permanentLabel>冻伤疤痕</Frostbite.comps.HediffComp_GetsPermanent.permanentLabel>
@@ -124,8 +153,10 @@
   
   <!-- EN: gunshot -->
   <Gunshot.label>枪伤</Gunshot.label>
+  <!-- EN: A gunshot wound. -->
+  <Gunshot.description>枪伤伤口</Gunshot.description>
   <!-- EN: set -->
-  <Gunshot.comps.HediffComp_TendDuration.labelSolidTendedWell>已简单固定</Gunshot.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <Gunshot.comps.HediffComp_TendDuration.labelSolidTendedWell>已简单止血</Gunshot.comps.HediffComp_TendDuration.labelSolidTendedWell>
   <!-- EN: bandaged -->
   <Gunshot.comps.HediffComp_TendDuration.labelTendedWell>已包扎</Gunshot.comps.HediffComp_TendDuration.labelTendedWell>
   <!-- EN: sutured -->
@@ -145,8 +176,10 @@
   
   <!-- EN: misc -->
   <Misc.label>杂项</Misc.label>
+  <!-- EN: Miscellanous injuries. -->
+  <Misc.description>伤口</Misc.description>
   <!-- EN: set -->
-  <Misc.comps.HediffComp_TendDuration.labelSolidTendedWell>已固定</Misc.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <Misc.comps.HediffComp_TendDuration.labelSolidTendedWell>已简单处理</Misc.comps.HediffComp_TendDuration.labelSolidTendedWell>
   <!-- EN: bandaged -->
   <Misc.comps.HediffComp_TendDuration.labelTendedWell>已包扎</Misc.comps.HediffComp_TendDuration.labelTendedWell>
   <!-- EN: sutured -->
@@ -160,6 +193,8 @@
   
   <!-- EN: missing body part -->
   <MissingBodyPart.label>缺失身体部件</MissingBodyPart.label>
+  <!-- EN: A body part is entirely missing. -->
+  <MissingBodyPart.description>身体的一部分缺失了。</MissingBodyPart.description>
   <!-- EN: a missing body part -->
   <MissingBodyPart.labelNoun>缺失身体部件</MissingBodyPart.labelNoun>
   <!-- EN: missing a {1} -->
@@ -167,8 +202,10 @@
   
   <!-- EN: scratch -->
   <Scratch.label>抓伤</Scratch.label>
+  <!-- EN: A scratch or tear. -->
+  <Scratch.description>抓伤伤口</Scratch.description>
   <!-- EN: set -->
-  <Scratch.comps.HediffComp_TendDuration.labelSolidTendedWell>已简单固定</Scratch.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <Scratch.comps.HediffComp_TendDuration.labelSolidTendedWell>已简单处理</Scratch.comps.HediffComp_TendDuration.labelSolidTendedWell>
   <!-- EN: bandaged -->
   <Scratch.comps.HediffComp_TendDuration.labelTendedWell>已包扎</Scratch.comps.HediffComp_TendDuration.labelTendedWell>
   <!-- EN: sutured -->
@@ -186,8 +223,10 @@
   
   <!-- EN: shredded -->
   <Shredded.label>炸伤</Shredded.label>
+  <!-- EN: A part of the body has been shredded and torn. -->
+  <Shredded.description>炸伤伤口</Shredded.description>
   <!-- EN: set -->
-  <Shredded.comps.HediffComp_TendDuration.labelSolidTendedWell>已简单固定</Shredded.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <Shredded.comps.HediffComp_TendDuration.labelSolidTendedWell>已简单止血</Shredded.comps.HediffComp_TendDuration.labelSolidTendedWell>
   <!-- EN: bandaged -->
   <Shredded.comps.HediffComp_TendDuration.labelTendedWell>已包扎</Shredded.comps.HediffComp_TendDuration.labelTendedWell>
   <!-- EN: sutured -->
@@ -205,8 +244,10 @@
   
   <!-- EN: stab -->
   <Stab.label>刺伤</Stab.label>
+  <!-- EN: A stab wound. -->
+  <Stab.description>刺伤伤口</Stab.description>
   <!-- EN: set -->
-  <Stab.comps.HediffComp_TendDuration.labelSolidTendedWell>已简单固定</Stab.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <Stab.comps.HediffComp_TendDuration.labelSolidTendedWell>已简单止血</Stab.comps.HediffComp_TendDuration.labelSolidTendedWell>
   <!-- EN: bandaged -->
   <Stab.comps.HediffComp_TendDuration.labelTendedWell>已包扎</Stab.comps.HediffComp_TendDuration.labelTendedWell>
   <!-- EN: sutured -->
@@ -224,8 +265,10 @@
   
   <!-- EN: surgical cut -->
   <SurgicalCut.label>手术伤</SurgicalCut.label>
+  <!-- EN: A cut made during surgery. -->
+  <SurgicalCut.description>手术伤口</SurgicalCut.description>
   <!-- EN: set -->
-  <SurgicalCut.comps.HediffComp_TendDuration.labelSolidTendedWell>已简单固定</SurgicalCut.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <SurgicalCut.comps.HediffComp_TendDuration.labelSolidTendedWell>已简单处理</SurgicalCut.comps.HediffComp_TendDuration.labelSolidTendedWell>
   <!-- EN: bandaged -->
   <SurgicalCut.comps.HediffComp_TendDuration.labelTendedWell>已包扎</SurgicalCut.comps.HediffComp_TendDuration.labelTendedWell>
   <!-- EN: sutured -->

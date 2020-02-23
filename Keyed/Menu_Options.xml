@@ -20,6 +20,8 @@
   <PauseOnLoad>载入游戏后暂停游戏</PauseOnLoad>
   <!-- EN: Pause on urgent letter -->
   <PauseOnUrgentLetter>紧急提示时暂停游戏</PauseOnUrgentLetter>
+  <!-- EN: Pause on -->
+  <AutomaticPauseModeSetting>暂停</AutomaticPauseModeSetting>
   <!-- EN: Custom cursor -->
   <CustomCursor>替换鼠标指针</CustomCursor>
   <!-- EN: Hats shown only on game map -->
@@ -46,6 +48,10 @@
   <OpenSaveGameDataFolder>打开存档文件夹</OpenSaveGameDataFolder>
   <!-- EN: Show save data location -->
   <ShowSaveGameDataLocation>显示存档位置</ShowSaveGameDataLocation>
+  <!-- EN: Open log file folder -->
+  <OpenLogFileFolder>打开日志文件夹</OpenLogFileFolder>
+  <!-- EN: Show log file location -->
+  <ShowLogFileLocation>显示日志文件位置</ShowLogFileLocation>
   <!-- EN: Preferred player-created characters. These characters will be more likely to randomly appear during play: -->
   <NamesYouWantToSee>设置喜欢的玩家自创角色。这些角色将更可能随机地出现在游戏中：</NamesYouWantToSee>
   <!-- EN: Add name -->
@@ -86,11 +92,13 @@
   <SelectMod>选择 Mod</SelectMod>
   <!-- EN: No configurable mods loaded. -->
   <NoConfigurableMods>已载入的 Mod 中无可设置的内容。</NoConfigurableMods>
-
+  
   <!-- Options reset -->
   <!-- EN: Restore to default settings -->
   <RestoreToDefaultSettings>还原默认设置</RestoreToDefaultSettings>
   <!-- EN: Your options have been reset. The game will now restart automatically. -->
   <ResetAndRestart>选项已重置。游戏将会立刻自动重启。</ResetAndRestart>
+  <!-- EN: All your settings will be reset to the default and the game will be restarted. All unsaved progress will be lost!\n\nContinue? -->
+  <ResetAndRestartConfirmationDialog>你的所有设置都将重置为默认设置，并且游戏将重新启动。所有未保存的进度将丢失！\n\n是否继续？</ResetAndRestartConfirmationDialog>
   
 </LanguageData>

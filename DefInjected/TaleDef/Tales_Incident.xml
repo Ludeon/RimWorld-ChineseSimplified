@@ -271,6 +271,67 @@
     <li>desc_sentence->附近没有[Enemy]。</li>
   </Eclipse.rulePack.rulesStrings>
   
+  <!-- EN: journey offer -->
+  <EndGame_ShipEscape.label>旅行邀请</EndGame_ShipEscape.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef] receiving a message from an old friend</li>
+    <li>tale_noun->an opportunity arriving for [PAWN_nameDef]'s [Community]</li>
+    <li>image->[PAWN_nameDef] opening a letter delivered by [delivery_method] while [circumstance_group]</li>
+    <li>image->[PAWN_nameDef] using a datacrystal delivered by [delivery_method] while [circumstance_group]</li>
+    <li>image->[PAWN_nameDef] unrolling a scroll delivered by [delivery_method] while [circumstance_group]</li>
+    <li>image->[PAWN_nameDef] receiving a transmission from [transmission_source] while [circumstance_group]</li>
+    <li>image->[PAWN_nameDef] receiving a message from [transmission_source] while [circumstance_group]</li>
+    <li>image->[PAWN_nameDef] tuning in to a message from [transmission_source] while [circumstance_group]</li>
+    <li>delivery_method->a [Animal]</li>
+    <li>delivery_method->a [PersonJob]</li>
+    <li>delivery_method->[Quantity_adjphrase] [Animal]s</li>
+    <li>transmission_source->a rarely-used frequency</li>
+    <li>transmission_source->an ancient transmitter</li>
+    <li>transmission_source->a low-power signal</li>
+    <li>transmission_source->a long-range signal</li>
+    <li>transmission_source->a mysterious signal</li>
+    <li>circumstance_phrase->standing alone near a [TerrainFeature]</li>
+    <li>circumstance_phrase->exploring a [TerrainFeature]</li>
+    <li>circumstance_phrase->tending crops</li>
+    <li>circumstance_phrase->a [Animal] wanders past</li>
+    <li>circumstance_phrase->playing [Game]</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s wander nearby, unaware.</li>
+    <li>desc_sentence->As [PAWN_pronoun] reads, [PAWN_pronoun] starts [VerbFriendly].</li>
+    <li>desc_sentence->A spectral [PersonJob] watches from the clouds.</li>
+    <li>desc_sentence->[PAWN_nameDef] sits near a [TerrainFeature].</li>
+    <li>desc_sentence->A [Community] is visible in the far distance.</li>
+    <li>desc_sentence->A spaceship is visible in the far distance.</li>
+  -->
+  <EndGame_ShipEscape.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef]接收到来自老朋友的信息</li>
+    <li>tale_noun->[PAWN_nameDef]所在的[Community]得到一次机会</li>
+    <li>image->[circumstance_group]，[PAWN_nameDef]打开一封由[delivery_method]送来的信件</li>
+    <li>image->[circumstance_group]，[PAWN_nameDef]使用由[delivery_method]送来的数据水晶</li>
+    <li>image->[circumstance_group]，[PAWN_nameDef]将[delivery_method]送来的卷轴展开</li>
+    <li>image->[circumstance_group]，[PAWN_nameDef]接收到来自[transmission_source]的信号传输</li>
+    <li>image->[circumstance_group]，[PAWN_nameDef]接收到[transmission_source]发来的讯息</li>
+    <li>image->[circumstance_group]，[PAWN_nameDef]收到一条由[transmission_source]发出的消息</li>
+    <li>delivery_method->一只[Animal]</li>
+    <li>delivery_method->一位[PersonJob]</li>
+    <li>delivery_method->[Quantity_adjphrase][Animal]</li>
+    <li>transmission_source->一个很少使用的频率</li>
+    <li>transmission_source->一个古老的发射器</li>
+    <li>transmission_source->一个低功率信号</li>
+    <li>transmission_source->一个远程信号</li>
+    <li>transmission_source->一个神秘的信号</li>
+    <li>circumstance_phrase->独自站在一片[TerrainFeature]附近的时候</li>
+    <li>circumstance_phrase->正在探索一片[TerrainFeature]时</li>
+    <li>circumstance_phrase->正在照料庄稼的时候</li>
+    <li>circumstance_phrase->一只[Animal]从身边经过的时候</li>
+    <li>circumstance_phrase->玩[Game]的时候</li>
+    <li>desc_sentence->[Quantity_adjphrase][Animal]在附近徘徊，浑然不知。</li>
+    <li>desc_sentence->随着[pawn_pronoun]阅读信息，[pawn_pronoun]开始变得很[friendlyverb]。</li>
+    <li>desc_sentence->一位[PersonJob]的灵魂从云中注视着四周。</li>
+    <li>desc_sentence->[PAWN_nameDef]坐在一片[TerrainFeature]附近。</li>
+    <li>desc_sentence->远处的[Community]依稀可见。</li>
+    <li>desc_sentence->远处的宇宙飞船依稀可见。</li>
+  </EndGame_ShipEscape.rulePack.rulesStrings>
+  
   <!-- EN: flashstorm -->
   <Flashstorm.label>闪电风暴</Flashstorm.label>
   <!-- EN:
@@ -364,67 +425,6 @@
     <li>desc_sentence->[Quantity_adjphrase][Animal]逃离该地区。</li>
     <li>desc_sentence->所有的动物生活都离开了这个地区。</li>
   </Infestation.rulePack.rulesStrings>
-  
-  <!-- EN: journey offer -->
-  <JourneyOffer.label>旅行邀请</JourneyOffer.label>
-  <!-- EN:
-    <li>tale_noun->[PAWN_nameDef] receiving a message from an old friend</li>
-    <li>tale_noun->an opportunity arriving for [PAWN_nameDef]'s [Community]</li>
-    <li>image->[PAWN_nameDef] opening a letter delivered by [delivery_method] while [circumstance_group]</li>
-    <li>image->[PAWN_nameDef] using a datacrystal delivered by [delivery_method] while [circumstance_group]</li>
-    <li>image->[PAWN_nameDef] unrolling a scroll delivered by [delivery_method] while [circumstance_group]</li>
-    <li>image->[PAWN_nameDef] receiving a transmission from [transmission_source] while [circumstance_group]</li>
-    <li>image->[PAWN_nameDef] receiving a message from [transmission_source] while [circumstance_group]</li>
-    <li>image->[PAWN_nameDef] tuning in to a message from [transmission_source] while [circumstance_group]</li>
-    <li>delivery_method->a [Animal]</li>
-    <li>delivery_method->a [PersonJob]</li>
-    <li>delivery_method->[Quantity_adjphrase] [Animal]s</li>
-    <li>transmission_source->a rarely-used frequency</li>
-    <li>transmission_source->an ancient transmitter</li>
-    <li>transmission_source->a low-power signal</li>
-    <li>transmission_source->a long-range signal</li>
-    <li>transmission_source->a mysterious signal</li>
-    <li>circumstance_phrase->standing alone near a [TerrainFeature]</li>
-    <li>circumstance_phrase->exploring a [TerrainFeature]</li>
-    <li>circumstance_phrase->tending crops</li>
-    <li>circumstance_phrase->a [Animal] wanders past</li>
-    <li>circumstance_phrase->playing [Game]</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s wander nearby, unaware.</li>
-    <li>desc_sentence->As [PAWN_pronoun] reads, [PAWN_pronoun] starts [VerbFriendly].</li>
-    <li>desc_sentence->A spectral [PersonJob] watches from the clouds.</li>
-    <li>desc_sentence->[PAWN_nameDef] sits near a [TerrainFeature].</li>
-    <li>desc_sentence->A [Community] is visible in the far distance.</li>
-    <li>desc_sentence->A spaceship is visible in the far distance.</li>
-  -->
-  <JourneyOffer.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef]接收到来自老朋友的信息</li>
-    <li>tale_noun->[PAWN_nameDef]所在的[Community]得到一次机会</li>
-    <li>image->[circumstance_group]，[PAWN_nameDef]打开一封由[delivery_method]送来的信件</li>
-    <li>image->[circumstance_group]，[PAWN_nameDef]使用由[delivery_method]送来的数据水晶</li>
-    <li>image->[circumstance_group]，[PAWN_nameDef]将[delivery_method]送来的卷轴展开</li>
-    <li>image->[circumstance_group]，[PAWN_nameDef]接收到来自[transmission_source]的信号传输</li>
-    <li>image->[circumstance_group]，[PAWN_nameDef]接收到[transmission_source]发来的讯息</li>
-    <li>image->[circumstance_group]，[PAWN_nameDef]收到一条由[transmission_source]发出的消息</li>
-    <li>delivery_method->一只[Animal]</li>
-    <li>delivery_method->一位[PersonJob]</li>
-    <li>delivery_method->[Quantity_adjphrase][Animal]</li>
-    <li>transmission_source->一个很少使用的频率</li>
-    <li>transmission_source->一个古老的发射器</li>
-    <li>transmission_source->一个低功率信号</li>
-    <li>transmission_source->一个远程信号</li>
-    <li>transmission_source->一个神秘的信号</li>
-    <li>circumstance_phrase->独自站在一片[TerrainFeature]附近的时候</li>
-    <li>circumstance_phrase->正在探索一片[TerrainFeature]时</li>
-    <li>circumstance_phrase->正在照料庄稼的时候</li>
-    <li>circumstance_phrase->一只[Animal]从身边经过的时候</li>
-    <li>circumstance_phrase->玩[Game]的时候</li>
-    <li>desc_sentence->[Quantity_adjphrase][Animal]在附近徘徊，浑然不知。</li>
-    <li>desc_sentence->随着[pawn_pronoun]阅读信息，[pawn_pronoun]开始变得很[friendlyverb]。</li>
-    <li>desc_sentence->一位[PersonJob]的灵魂从云中注视着四周。</li>
-    <li>desc_sentence->[PAWN_nameDef]坐在一片[TerrainFeature]附近。</li>
-    <li>desc_sentence->远处的[Community]依稀可见。</li>
-    <li>desc_sentence->远处的宇宙飞船依稀可见。</li>
-  </JourneyOffer.rulePack.rulesStrings>
   
   <!-- EN: manhunter pack -->
   <ManhunterPack.label>大群动物猎杀人类</ManhunterPack.label>
