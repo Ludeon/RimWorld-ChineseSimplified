@@ -57,11 +57,16 @@
   <LowMedicineDesc>储存区中只有{0}的药品库存。\n\n通过贸易购买更多的药品，或者种植「草药」。</LowMedicineDesc>
   <!-- EN: You have no medicine left in storage.\n\nBuy more medicine from traders. -->
   <NoMedicineDesc>储存区中已没有任何药品库存。\n\n通过贸易购买更多的药品，或者种植「草药」。</NoMedicineDesc>
-
+  
   <!-- EN: Need colonist beds -->
   <NeedColonistBeds>缺少床铺</NeedColonistBeds>
   <!-- EN: You have more colonists than you have colonist beds. Someone will lack a place to sleep.\n\nEither make more beds, or change a prisoner bed to a colonist bed.\n\nIf you have no resources, sleeping spots are free and can be placed instantly. -->
   <NeedColonistBedsDesc>你的殖民者数量超过了你床位的数量，有人将会无处睡觉。\n\n要么建造更多的床位，要么把囚犯床位转成殖民者床位。\n\n如果你资源不足，睡眠点是免费的而且立即建造完成。</NeedColonistBedsDesc>
+  
+  <!-- EN: Colonist left unburied -->
+  <AlertColonistLeftUnburied>殖民者未埋葬</AlertColonistLeftUnburied>
+  <!-- EN: A colonist is left unburied.\n\nThis may negatively affects your colonists mood. -->
+  <AlertColonistLeftUnburiedDesc>一个殖民者的尸体没有被安葬。\n\n这可能会对你的殖民者心情产生负面影响。</AlertColonistLeftUnburiedDesc>
 
   <!-- EN: Hunter lacks ranged weapon -->
   <HunterLacksWeapon>猎人需要远程武器</HunterLacksWeapon>
@@ -70,12 +75,12 @@
 
   <!-- EN: Tattered apparel -->
   <AlertTatteredApparel>衣衫褴褛</AlertTatteredApparel>
-  <!-- EN: These colonists are wearing tattered apparel, which is making them sad:\n\n{0}\nGet them some apparel that isn't so badly damaged.\n\nYou can tailor apparel at a tailoring table, or buy it from traders. -->
+  <!-- EN: These colonists are wearing tattered apparel, which is making them sad:\n\n{0}\nGet them some apparel that isn't so badly damaged.\n\nYou can tailor apparel at a crafting spot or tailoring table, or buy it from traders. -->
   <AlertTatteredApparelDesc>以下殖民者还在穿着耐久度过低的衣服，这会让他们很不高兴:\n\n{0}\n给他们一些耐久度足够的衣服吧。\n\n你可以通过裁缝台来制作新的衣服，或者从商人手里购买。</AlertTatteredApparelDesc>
 
   <!-- EN: Unhappy nudity -->
   <AlertUnhappyNudity>一丝不挂</AlertUnhappyNudity>
-  <!-- EN: These colonists are nude and not happy about it:\n\n{0}\nGet them some clothes.\n\nYou can tailor apparel at a tailoring table, or buy it from traders. -->
+  <!-- EN: These colonists are nude and not happy about it:\n\n{0}\nGet them some clothes.\n\nYou can tailor apparel at a crafting spot or tailoring table, or buy it from traders. -->
   <AlertUnhappyNudityDesc>以下殖民者全身赤裸，这会让他们很不高兴:\n\n{0}\n给他们一些衣服吧。\n\n你可以通过裁缝台来制作新的衣服，或者从商人手里购买。</AlertUnhappyNudityDesc>
 
   <!-- EN: Starvation -->
@@ -140,11 +145,16 @@
   <NeedResearchProject>缺少研究项目</NeedResearchProject>
   <!-- EN: You have the equipment to do research but have not selected a project.\n\nOpen the research menu and select a project. -->
   <NeedResearchProjectDesc>你有研究设施，但没有选择研究项目。\n\n打开「研究」菜单并选择一个研究项目。</NeedResearchProjectDesc>
-  
+
   <!-- EN: {0} colonists idle -->
   <ColonistsIdle>{0}位殖民者无事可做</ColonistsIdle>
   <!-- EN: These colonists are wandering idly:\n\n{0}\nYou should probably find them something productive to do. -->
   <ColonistsIdleDesc>以下殖民者正无所事事地闲逛:\n\n{0}\n你应该给他们找点有意义的事情来做。</ColonistsIdleDesc>
+  
+  <!-- EN: Caravan idle -->
+  <CaravanIdle>远行商队闲置</CaravanIdle>
+  <!-- EN: These caravans are waiting for you to set their next destination:\n\n{0} -->
+  <CaravanIdleDesc>远行商队正在等待着你设定的下一个进发目的地\n\n{0}</CaravanIdleDesc>
 
   <!-- EN: Colonist needs treatment -->
   <ColonistNeedsTreatment>殖民者需要治疗</ColonistNeedsTreatment>
@@ -153,9 +163,9 @@
 
   <!-- EN: Hypothermia -->
   <AlertHypothermia>低温症</AlertHypothermia>
-  <!-- EN: These colonists are suffering from hypothermia.\n\n{0}\nMake sure their clothing is appropriate for the season and that indoor spaces are properly heated. -->
+  <!-- EN: These colonists are suffering from hypothermia:\n\n{0}\nMake sure their clothing is appropriate for the season and that indoor spaces are properly heated. -->
   <AlertHypothermiaDesc>以下殖民者体温过低:\n\n{0}\n确保他们穿着适合这个季节的服装并保证室内区域的正常供暖。</AlertHypothermiaDesc>
-
+  
   <!-- EN: {0} patients await medical operation -->
   <PatientsAwaitingMedicalOperation>{0}人需要进行手术</PatientsAwaitingMedicalOperation>
   <!-- EN: These patients await medical operation:\n\n{0}\nMake sure you have all necessary medical tools and a free doctor available. -->
@@ -197,4 +207,42 @@
   <!-- EN: One of your caravans is immobile because it carries too much.\n\nYou can make the caravan mobile again by abandoning some items in the ITEMS tab. -->
   <ImmobileCaravanDesc>你的一个远行队携带了太多东西以至于无法移动。\n\n你可以在「物品」标签中选择丢弃一些货物来让他们继续移动。</ImmobileCaravanDesc>
 
+  <!-- EN: Building unusable due to roof -->
+  <BuildingCantBeUsedRoofed>建筑设施无法使用</BuildingCantBeUsedRoofed>
+  <!-- EN: One or more of your buildings can only be used if not roofed, but there is a roof over it. The building(s) won't be usable until you remove the roof. -->
+  <BuildingCantBeUsedRoofedDesc>你的一个或多个建筑设施只有在无屋顶区域下才能正常使用。除非移除屋顶，否则这些建筑物将无法使用。</BuildingCantBeUsedRoofedDesc>
+
+  <!-- EN: Heatstroke -->
+  <AlertHeatstroke>中暑</AlertHeatstroke>
+  <!-- EN: The following people are suffering from heatstroke:\n\n{0}\nGet them to a cooler area. You can cool down rooms with passive coolers or electrical coolers. Deep underground spaces are also naturally cool, if separated from the outdoors by a door. -->
+  <AlertHeatstrokeDesc>以下殖民者已中暑\n\n{0}\n尽快把他们带到凉爽的地方。你可以使用「蒸发制冷器」或「电气制冷机」让房间降温。如果使用门来与室外隔绝，深层的洞穴里也能保持凉爽。</AlertHeatstrokeDesc>
+
+  <!-- EN: Guest unhappy -->
+  <QuestPartMoodBelowThreshold>贵宾不高兴</QuestPartMoodBelowThreshold>
+  <!-- EN: The quest {0} requires you to keep this person in a good mood. However, their mood is poor. Take some action to make them feel better:\n\n{1} -->
+  <QuestPartMoodBelowThresholdDesc>{0}给予的任务要求是让这些人保持好心情。但是现在，他们的心情很差。采取一些行动使他们感觉更好:\n\n{1}</QuestPartMoodBelowThresholdDesc>
+  
+  <!-- EN: Shuttle leaving in {0} -->
+  <QuestPartShuttleLeaveDelay>穿梭机即将离开{0}</QuestPartShuttleLeaveDelay>
+  <!-- EN: The shuttle will leave in {1}. The quest {0} requires you to load the following people or items onto the shuttle before it leaves:\n\n{2} -->
+  <QuestPartShuttleLeaveDelayDesc>穿梭机即将离开{1}。{0}的要求是在飞船起飞前把下列的人员或物品装载上机:\n\n{2}</QuestPartShuttleLeaveDelayDesc>
+
+  <!-- EN: Monument will be destroyed -->
+  <DisallowedBuildingInsideMonument>纪念碑将被摧毁</DisallowedBuildingInsideMonument>
+  <!-- EN: You've built a disallowed building inside one of your monuments. The monument will be considered destroyed in {0}. -->
+  <DisallowedBuildingInsideMonumentDesc>你在一座纪念碑内建了一座不允许的建筑。这座纪念碑将在{0}内被毁。</DisallowedBuildingInsideMonumentDesc>
+
+  <!-- EN: Countdown activator {0} -->
+  <ActivatorCountdown>定时激活器 {0}</ActivatorCountdown>
+  <!-- EN: There is a countdown activator ticking down, preparing to awaken nearby mechanoids. -->
+  <ActivatorCountdownDesc>有一个定时激活器滴答作响，准备唤醒附近的机械族。</ActivatorCountdownDesc>
+  <!-- EN: {0} countdown activators -->
+  <ActivatorCountdownMultiple>{0}  定时激活器</ActivatorCountdownMultiple>
+  <!-- EN: There are {0} countdown activators ticking down, preparing to awaken nearby mechanoids. -->
+  <ActivatorCountdownDescMultiple>有 {0} 个定时激活器滴答作响，准备唤醒附近的机械族。</ActivatorCountdownDescMultiple>
+
+  <!-- EN: Quest expires in {0} -->
+  <QuestExpiresSoon>任务将在{0}后到期</QuestExpiresSoon>
+  <!-- EN: The quest '{0}' will expire in {1}. -->
+  <QuestExpiresSoonDesc>任务'{0}' 将在{1}后到期。</QuestExpiresSoonDesc>
 </LanguageData>

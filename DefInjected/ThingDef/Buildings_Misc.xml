@@ -35,13 +35,13 @@
   
   <!-- EN: ground-penetrating scanner -->
   <GroundPenetratingScanner.label>地质扫描仪</GroundPenetratingScanner.label>
-  <!-- EN: A downward-facing penetrating radar, combined with sonar and magnetic imagers, allows you to detect (but not identify) minerals buried deep under the surface. Requires a huge amount of electricity. -->
-  <GroundPenetratingScanner.description>向下的探地雷达，结合声纳和磁成像，可检测深埋于地底的矿物（但不能判断矿物类型）。需要消耗大量电力。</GroundPenetratingScanner.description>
+  <!-- EN: A sensor unit used by researchers to search for buried resources. The chance to find a resource depends on the operator's research ability. It consumes a lot of electricity. If you find a buried resource, you'll need to use deep drills to extract it. It doesn't work under a roof. -->
+  <GroundPenetratingScanner.description>研究人员用来寻找埋藏资源的传感器。找到资源的可能性取决于操作者的研究能力。它相当耗电。如果你发现了一个埋藏的资源，你需要使用深钻井来提取它。这个装置只能在户外使用。</GroundPenetratingScanner.description>
   
   <!-- EN: long-range mineral scanner -->
   <LongRangeMineralScanner.label>远距离矿物扫描仪</LongRangeMineralScanner.label>
-  <!-- EN: Can be used by researchers to detect a specific type of mineral across the planet. The time it takes to find the resource is somewhat random, and depends on researcher skill. -->
-  <LongRangeMineralScanner.description>自动探查整个星球上各个地方的稀有矿物，比如黄金和翡翠。半径30格地图内，发现矿物块的频率为平均每30天一次。在同一区域内或临近区域建造多于一个扫描仪对效率影响不大。</LongRangeMineralScanner.description>
+  <!-- EN: A lateral sensor unit used by researchers to detect a specific type of mineral across the planet. The chance to find a resource depends on the operator's research ability. This sensor can be tuned to target a specific resource type. It consumes a lot of electricity. If you find a resource, you'll need to travel to collect it. -->
+  <LongRangeMineralScanner.description>一种横波传感器，被研究人员用来探测行星上的特殊矿物。找到资源的可能性取决于操作者的研究能力。此传感器可以调整为针对特定资源类型。它相当耗电。如果你找到一个资源，你需要远行来收集它。</LongRangeMineralScanner.description>
   
   <!-- EN: marriage spot -->
   <MarriageSpot.label>婚礼举办点</MarriageSpot.label>
@@ -77,6 +77,16 @@
   <Sarcophagus.label>棺材</Sarcophagus.label>
   <!-- EN: An ornamented burial receptacle for the honored dead. -->
   <Sarcophagus.description>受尊敬的死者用的、装饰华丽的安葬容器。</Sarcophagus.description>
+  
+  <!-- EN: grand stele -->
+  <SteleGrand.label>宏伟石碑</SteleGrand.label>
+  <!-- EN: A towering slab with extensive engravings on the sides. Steles have been used since ancient times to memorialize individuals, battles, and other important events. -->
+  <SteleGrand.description>周围有大量雕刻的高耸石板。石碑自古以来都被用于纪念人物、战役或者其他重要事件。</SteleGrand.description>
+  
+  <!-- EN: large stele -->
+  <SteleLarge.label>大型石碑</SteleLarge.label>
+  <!-- EN: A tall, thick slab with engravings on the sides. Steles have been used since ancient times to memorialize individuals, battles, and other important events. -->
+  <SteleLarge.description>一块侧面有雕刻的高而厚的石板。石碑自古以来都被用于纪念人物、战役或者其他重要事件。</SteleLarge.description>
   
   <!-- EN: tool cabinet -->
   <ToolCabinet.label>工具柜</ToolCabinet.label>

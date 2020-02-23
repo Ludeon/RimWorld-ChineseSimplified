@@ -1,39 +1,45 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
+  
   <!-- EN: assault rifle bullet -->
   <Bullet_AssaultRifle.label>突击步枪子弹</Bullet_AssaultRifle.label>
-
+  
   <!-- EN: autopistol bullet -->
   <Bullet_Autopistol.label>自动手枪子弹</Bullet_Autopistol.label>
-
+  
   <!-- EN: bolt-action rifle bullet -->
   <Bullet_BoltActionRifle.label>栓动步枪子弹</Bullet_BoltActionRifle.label>
-
+  
+  <!-- EN: EMP launcher shell -->
+  <Bullet_EMPLauncher.label>EMP弹</Bullet_EMPLauncher.label>
+  
   <!-- EN: heavy SMG bullet -->
   <Bullet_HeavySMG.label>重型冲锋枪子弹</Bullet_HeavySMG.label>
-
+  
   <!-- EN: incendiary bolt -->
   <Bullet_IncendiaryLauncher.label>燃烧弹</Bullet_IncendiaryLauncher.label>
-
+  
   <!-- EN: LMG bullet -->
   <Bullet_LMG.label>轻机枪子弹</Bullet_LMG.label>
-
+  
   <!-- EN: machine pistol bullet -->
   <Bullet_MachinePistol.label>冲锋手枪子弹</Bullet_MachinePistol.label>
-
+  
   <!-- EN: minigun bullet -->
   <Bullet_Minigun.label>速射机枪子弹</Bullet_Minigun.label>
-
+  
   <!-- EN: revolver bullet -->
   <Bullet_Revolver.label>左轮手枪子弹</Bullet_Revolver.label>
-
+  
   <!-- EN: shotgun blast -->
   <Bullet_Shotgun.label>霰弹枪子弹</Bullet_Shotgun.label>
-
+  
+  <!-- EN: smoke launcher shell -->
+  <Bullet_SmokeLauncher.label>烟雾弹</Bullet_SmokeLauncher.label>
+  
   <!-- EN: sniper rifle bullet -->
   <Bullet_SniperRifle.label>狙击步枪子弹</Bullet_SniperRifle.label>
-
+  
   <!-- EN: assault rifle -->
   <Gun_AssaultRifle.label>突击步枪</Gun_AssaultRifle.label>
   <!-- EN: A general-purpose gas-operated assault rifle for field or urban combat. It has good range, decent power, and good accuracy. -->
@@ -44,7 +50,7 @@
   <Gun_AssaultRifle.tools.barrel.label>枪管</Gun_AssaultRifle.tools.barrel.label>
   <!-- EN: assault rifle -->
   <Gun_AssaultRifle.verbs.Verb_Shoot.label>突击步枪</Gun_AssaultRifle.verbs.Verb_Shoot.label>
-
+  
   <!-- EN: autopistol -->
   <Gun_Autopistol.label>自动手枪</Gun_Autopistol.label>
   <!-- EN: An ancient pattern blowback-operated self-loading pistol. It lacks stopping power and range, but is quick to fire. -->
@@ -55,7 +61,7 @@
   <Gun_Autopistol.tools.barrel.label>枪管</Gun_Autopistol.tools.barrel.label>
   <!-- EN: autopistol -->
   <Gun_Autopistol.verbs.Verb_Shoot.label>自动手枪</Gun_Autopistol.verbs.Verb_Shoot.label>
-
+  
   <!-- EN: bolt-action rifle -->
   <Gun_BoltActionRifle.label>栓动步枪</Gun_BoltActionRifle.label>
   <!-- EN: An ancient pattern bolt-action rifle. With its long range, and low fire rate, it is unlikely to drive animals to revenge, which makes it a favorite weapon for hunting. -->
@@ -66,7 +72,7 @@
   <Gun_BoltActionRifle.tools.barrel.label>枪管</Gun_BoltActionRifle.tools.barrel.label>
   <!-- EN: bolt-action rifle -->
   <Gun_BoltActionRifle.verbs.Verb_Shoot.label>栓动步枪</Gun_BoltActionRifle.verbs.Verb_Shoot.label>
-
+  
   <!-- EN: chain shotgun -->
   <Gun_ChainShotgun.label>链式霰弹枪</Gun_ChainShotgun.label>
   <!-- EN: A magazine-fed fully automatic shotgun. It is even shorter-ranged than a typical shotgun, but is extraordinarily dangerous due to burst fire. -->
@@ -77,7 +83,18 @@
   <Gun_ChainShotgun.tools.barrel.label>枪管</Gun_ChainShotgun.tools.barrel.label>
   <!-- EN: chain shotgun -->
   <Gun_ChainShotgun.verbs.Verb_Shoot.label>链式霰弹枪</Gun_ChainShotgun.verbs.Verb_Shoot.label>
-
+  
+  <!-- EN: EMP launcher -->
+  <Gun_EmpLauncher.label>EMP发射器</Gun_EmpLauncher.label>
+  <!-- EN: A wide-barreled EMP shell launcher. The shell will upon impact release a burst of electromagnetic energy, stunning mechanical targets (mechanoids, turrets, mortars) and depleting shields in the area of effect. -->
+  <Gun_EmpLauncher.description>一种宽口径EMP炮弹发射器。炮弹在撞击时会释放出一股电磁能量、瘫痪机械目标（机械体、炮塔、迫击炮）以及耗尽范围内护盾的能量。</Gun_EmpLauncher.description>
+  <!-- EN: stock -->
+  <Gun_EmpLauncher.tools.stock.label>弹匣</Gun_EmpLauncher.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_EmpLauncher.tools.barrel.label>枪管</Gun_EmpLauncher.tools.barrel.label>
+  <!-- EN: EMP launcher -->
+  <Gun_EmpLauncher.verbs.Verb_Shoot.label>EMP发射器</Gun_EmpLauncher.verbs.Verb_Shoot.label>
+  
   <!-- EN: heavy SMG -->
   <Gun_HeavySMG.label>重型冲锋枪</Gun_HeavySMG.label>
   <!-- EN: A compact, wide-caliber slug-thrower. It's got a very short range, but it packs a punch and handles quite well. -->
@@ -88,7 +105,7 @@
   <Gun_HeavySMG.tools.barrel.label>枪管</Gun_HeavySMG.tools.barrel.label>
   <!-- EN: heavy SMG -->
   <Gun_HeavySMG.verbs.Verb_Shoot.label>重型冲锋枪</Gun_HeavySMG.verbs.Verb_Shoot.label>
-
+  
   <!-- EN: incendiary launcher -->
   <Gun_IncendiaryLauncher.label>燃烧弹发射器</Gun_IncendiaryLauncher.label>
   <!-- EN: A wide-barreled incendiary bolt launcher. The bolts create small incendiary explosions on impact, starting fires. -->
@@ -99,7 +116,7 @@
   <Gun_IncendiaryLauncher.tools.barrel.label>枪管</Gun_IncendiaryLauncher.tools.barrel.label>
   <!-- EN: incendiary launcher -->
   <Gun_IncendiaryLauncher.verbs.Verb_Shoot.label>燃烧弹发射器</Gun_IncendiaryLauncher.verbs.Verb_Shoot.label>
-
+  
   <!-- EN: LMG -->
   <Gun_LMG.label>轻机枪</Gun_LMG.label>
   <!-- EN: A gas-operated light machine gun. While it is somewhat unwieldy and inaccurate, its long bursts of fire are effective against groups of enemies. -->
@@ -110,7 +127,7 @@
   <Gun_LMG.tools.barrel.label>枪管</Gun_LMG.tools.barrel.label>
   <!-- EN: LMG -->
   <Gun_LMG.verbs.Verb_Shoot.label>轻机枪</Gun_LMG.verbs.Verb_Shoot.label>
-
+  
   <!-- EN: machine pistol -->
   <Gun_MachinePistol.label>冲锋手枪</Gun_MachinePistol.label>
   <!-- EN: A micro-submachine gun. It is short-ranged, but very light in the hands. Its rate of fire tends to make up for its weakness. -->
@@ -121,7 +138,7 @@
   <Gun_MachinePistol.tools.barrel.label>枪管</Gun_MachinePistol.tools.barrel.label>
   <!-- EN: machine pistol -->
   <Gun_MachinePistol.verbs.Verb_Shoot.label>冲锋手枪</Gun_MachinePistol.verbs.Verb_Shoot.label>
-
+  
   <!-- EN: minigun -->
   <Gun_Minigun.label>速射机枪</Gun_Minigun.label>
   <!-- EN: A multi-barrel machine gun. It's unwieldy, but once it starts firing it fires very fast. Where most self-loading guns are powered by the energy from the gunpowder, the minigun uses an electric motor to rapidly cycle cartridges through the weapon. -->
@@ -130,7 +147,7 @@
   <Gun_Minigun.tools.barrels.label>枪管</Gun_Minigun.tools.barrels.label>
   <!-- EN: minigun -->
   <Gun_Minigun.verbs.Verb_Shoot.label>速射机枪</Gun_Minigun.verbs.Verb_Shoot.label>
-
+  
   <!-- EN: pump shotgun -->
   <Gun_PumpShotgun.label>泵动霰弹枪</Gun_PumpShotgun.label>
   <!-- EN: An ancient design of shotgun that emits a tight-packed spray of pellets. Deadly, but short range. -->
@@ -141,7 +158,7 @@
   <Gun_PumpShotgun.tools.barrel.label>枪管</Gun_PumpShotgun.tools.barrel.label>
   <!-- EN: pump shotgun -->
   <Gun_PumpShotgun.verbs.Verb_Shoot.label>泵动霰弹枪</Gun_PumpShotgun.verbs.Verb_Shoot.label>
-
+  
   <!-- EN: revolver -->
   <Gun_Revolver.label>左轮手枪</Gun_Revolver.label>
   <!-- EN: An ancient pattern double-action revolver. It's not very powerful, but has a decent range for a pistol and is quick on the draw. -->
@@ -152,7 +169,18 @@
   <Gun_Revolver.tools.barrel.label>枪管</Gun_Revolver.tools.barrel.label>
   <!-- EN: revolver -->
   <Gun_Revolver.verbs.Verb_Shoot.label>左轮手枪</Gun_Revolver.verbs.Verb_Shoot.label>
-
+  
+  <!-- EN: smoke launcher -->
+  <Gun_SmokeLauncher.label>烟雾弹发射器</Gun_SmokeLauncher.label>
+  <!-- EN: A wide-barreled smoke shell launcher. The shell will upon impact release a cloud of smoke, obscuring incoming shots and preventing turrets from locking on. -->
+  <Gun_SmokeLauncher.description>一种大口径烟雾弹发射器。炮弹在撞击时会释放出一团烟雾，遮蔽瞄准的视线，也能够防止炮塔锁定。</Gun_SmokeLauncher.description>
+  <!-- EN: stock -->
+  <Gun_SmokeLauncher.tools.stock.label>弹匣</Gun_SmokeLauncher.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_SmokeLauncher.tools.barrel.label>枪管</Gun_SmokeLauncher.tools.barrel.label>
+  <!-- EN: smoke launcher -->
+  <Gun_SmokeLauncher.verbs.Verb_Shoot.label>烟雾弹发射器</Gun_SmokeLauncher.verbs.Verb_Shoot.label>
+  
   <!-- EN: sniper rifle -->
   <Gun_SniperRifle.label>狙击步枪</Gun_SniperRifle.label>
   <!-- EN: An ancient design of precision sniper rifle. Bolt action. It has an exceptionally long range, great accuracy and good power. Because it's so unwieldy, other weapons outclass it at close range. -->
@@ -163,5 +191,5 @@
   <Gun_SniperRifle.tools.barrel.label>枪管</Gun_SniperRifle.tools.barrel.label>
   <!-- EN: sniper rifle -->
   <Gun_SniperRifle.verbs.Verb_Shoot.label>狙击步枪</Gun_SniperRifle.verbs.Verb_Shoot.label>
-
+  
 </LanguageData>

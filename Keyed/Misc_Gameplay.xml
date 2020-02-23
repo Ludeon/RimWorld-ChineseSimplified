@@ -44,6 +44,8 @@
   <NotEnoughStoredLower>储量不足</NotEnoughStoredLower>
   <!-- EN: nothing -->
   <NothingLower>无</NothingLower>
+  <!-- EN: Nothing -->
+  <Nothing>无</Nothing>
   <!-- EN: Adapted -->
   <Adapted>已适应</Adapted>
   <!-- EN: fresh -->
@@ -64,6 +66,12 @@
   <MissingMedicalBillIngredient>缺少{0}</MissingMedicalBillIngredient>
   <!-- EN: Immunity -->
   <Immunity>免疫性</Immunity>
+  <!-- EN: {0} days to recover -->
+  <DaysToRecover>{0}天可恢复</DaysToRecover>
+  <!-- EN: Ineffective -->
+  <Ineffective>无效</Ineffective>
+  <!-- EN: illegal -->
+  <Illegal>非法</Illegal>
   <!-- EN: Race -->
   <Race>种族</Race>
   <!-- EN: Description -->
@@ -78,6 +86,10 @@
   <ThingInfo>信息</ThingInfo>
   <!-- EN: Drop -->
   <DropThing>丢下</DropThing>
+  <!-- EN: Temporary faction members will not drop their items. -->
+  <DropThingLodger>临时派系成员不会丢掉他们身上的物品。</DropThingLodger>
+  <!-- EN: This person refuses to drop this. -->
+  <DropThingLocked>此人拒绝丢掉。</DropThingLocked>
   <!-- EN: Rename -->
   <Rename>重命名</Rename>
   <!-- EN: Rename animal -->
@@ -120,6 +132,8 @@
   <DormantHiveNotReproducing>休眠: 停止繁殖。</DormantHiveNotReproducing>
   <!-- EN: Next {0} in -->
   <NextSpawnedItemIn>下一{0}</NextSpawnedItemIn>
+  <!-- EN: Next resource in -->
+  <NextSpawnedResourceIn>下一个资源</NextSpawnedResourceIn>
   <!-- EN: Broken down -->
   <BrokenDown>故障</BrokenDown>
   <!-- EN: (bond) -->
@@ -164,7 +178,7 @@
   <CaravanDaysOfFoodRot>给养天数: {0}（{1}天后变质）</CaravanDaysOfFoodRot>
   <!-- EN: Stopped because: Everyone is downed. -->
   <AllCaravanMembersDowned>停止原因: 全员无行动能力。</AllCaravanMembersDowned>
-  <!-- EN: Stopped because: Everyone has a mental break. -->
+  <!-- EN: Stopped because: Everyone is in a mental break. -->
   <AllCaravanMembersMentalBreak>停止原因: 全员精神崩溃。</AllCaravanMembersMentalBreak>
   <!-- EN: {0} {1} -->
   <CaravanColonistsCount>{0} {1}</CaravanColonistsCount>
@@ -208,6 +222,8 @@
   <CaravanAttacking>正在进攻{0}。</CaravanAttacking>
   <!-- EN: Offering gifts to {0}. -->
   <CaravanOfferingGifts>正在对{0}赠礼。</CaravanOfferingGifts>
+  <!-- EN: Trading with {0} -->
+  <CaravanTrading>使用{0}进行交易</CaravanTrading>
   <!-- EN: Tainted from being worn by a corpse. -->
   <WasWornByCorpse>死者衣物</WasWornByCorpse>
   <!-- EN: T -->
@@ -262,10 +278,16 @@
   <EquippedBy>由{1_labelShort}装备</EquippedBy>
   <!-- EN: {0} wants this destroyed.\n    Reward: {1} ({2}) -->
   <QuestTargetDestroyInspectString>{0}想要摧毁此处。\n报酬: {1}({2})。</QuestTargetDestroyInspectString>
+  <!-- EN: {0} wants this destroyed. -->
+  <QuestTargetDestroyInspectStringShort>{0}希望摧毁它。</QuestTargetDestroyInspectStringShort>
+  <!-- EN: Departing on shuttle in {0} -->
+  <ShuttleDelayInspectString>搭乘位于{0}的穿梭机离开。</ShuttleDelayInspectString>
+  <!-- EN: Departing in {0} -->
+  <ShuttleLeaveDelayInspectString>从{0}离开。</ShuttleLeaveDelayInspectString>
+  <!-- EN: Should depart on shuttle -->
+  <ShouldDepartOnShuttleInspectString>将搭乘穿梭机离开。</ShouldDepartOnShuttleInspectString>
   <!-- EN: Time left: {0} -->
   <WorldObjectTimeout>剩余时间: {0}</WorldObjectTimeout>
-  <!-- EN: Contents: {0} ({1}) -->
-  <ItemStashContents>内容: {0}({1}) </ItemStashContents>
   <!-- EN: Click to sort by this column. -->
   <ClickToSortByThisColumn>点击以根据此栏排列。</ClickToSortByThisColumn>
   <!-- EN: Shift + click: Increase priority\nShift + right click: Decrease priority -->
@@ -276,12 +298,8 @@
   <AllowedAreaShiftClickTip>Shift + 左键点击: 全部设置为居住区\nShift + 右键点击: 全部设置为无限制</AllowedAreaShiftClickTip>
   <!-- EN: Shift + click: Check all\nShift + right click: Uncheck all -->
   <CheckboxShiftClickTip>Shift + 左键点击: 勾选全部\nShift + 右键点击: 取消全部</CheckboxShiftClickTip>
-  <!-- EN: Known threat: {0} -->
-  <KnownSiteThreat>威胁: {0}</KnownSiteThreat>
-  <!-- EN: Known threats: {0} -->
-  <KnownSiteThreats>威胁: {0}</KnownSiteThreats>
-  <!-- EN: Threats: Unknown -->
-  <KnownSiteThreatsNone>威胁: 无</KnownSiteThreatsNone>
+  <!-- EN: {0} {1} -->
+  <KnownSiteThreatEnemyCountAppend> {0} {1} </KnownSiteThreatEnemyCountAppend>
   <!-- EN: Skill Requirements -->
   <SkillRequirements>技能要求</SkillRequirements>
   <!-- EN: Products -->
@@ -300,8 +318,8 @@
   <CaravanMovementSpeedFull>远行队移动速度</CaravanMovementSpeedFull>
   <!-- EN: downed -->
   <DownedLower>已倒地</DownedLower>
-  <!-- EN: carried -->
-  <Carried>被携带</Carried>
+  <!-- EN: resting -->
+  <Carried>休息中</Carried>
   <!-- EN: Avg. person move speed -->
   <AverageCaravanMemberMoveSpeed>人员平均移动速度</AverageCaravanMemberMoveSpeed>
   <!-- EN: Multiplier for carried mass: {0} -->
@@ -340,12 +358,14 @@
   <EnterCooldown>还有{0}天才能再次进入。</EnterCooldown>
   <!-- EN: Caravan -->
   <Caravan>远行队</Caravan>
-  <!-- EN: there may be danger there -->
-  <HiddenOrNoSitePartDescription>那里可能有危险</HiddenOrNoSitePartDescription>
+  <!-- EN: there may be danger there. -->
+  <HiddenOrNoSitePartDescription>那里可能有危险。</HiddenOrNoSitePartDescription>
   <!-- EN: lump of {0} -->
   <PreciousLumpLabel>{0}块</PreciousLumpLabel>
   <!-- EN: no active research project -->
   <NoActiveResearchProjectToFinish>没有正在进行的研究项目</NoActiveResearchProjectToFinish>
+  <!-- EN: Cannot research: No research bench -->
+  <CannotResearchNoBench>无法研究：没有研究台</CannotResearchNoBench>
   <!-- EN: turret -->
   <Turret>炮塔</Turret>
   <!-- EN: turrets -->
@@ -356,6 +376,76 @@
   <Mortars>迫击炮群</Mortars>
   <!-- EN: enemy -->
   <Enemy>敌人</Enemy>
+  <!-- EN: location -->
+  <Location>位置</Location>
+  <!-- EN: animals -->
+  <AnimalsLower>动物</AnimalsLower>
+  <!-- EN: {0} x{1} -->
+  <FilthLabel>{0} x{1}</FilthLabel>
+  <!-- EN: {0} of {1} x{2} -->
+  <FilthLabelWithSource>{0} 的 {1} x{2} </FilthLabelWithSource>
+  <!-- EN: Required -->
+  <Required>必需</Required>
+  <!-- EN: Warning: You cannot complete trade requests by using transport pods.\nIf you send the goods, the settlement will accept them as gifts but they will not reward you.\n\nFor trading, approach the settlement with a caravan!\n\nAre you sure you want to gift the loaded goods to the faction? -->
+  <GiveGiftViaTransportPodsTradeRequestWarning>警告：您无法使用空投仓完成交易请求。\n如果发射这批货物，目标基地会将其作为礼物而非交易品接收\n\n如果您希望交易，请以远行队形式访问目标基地！\n\n您确定要将装好的礼物送给目标派系吗？</GiveGiftViaTransportPodsTradeRequestWarning>
+  <!-- EN: prisoner -->
+  <PrisonerLower>囚犯</PrisonerLower>
+  <!-- EN: prisoners -->
+  <PrisonersLower>囚犯</PrisonersLower>
+  <!-- EN: Complete -->
+  <Complete>完成</Complete>
+  <!-- EN: Click to view this quest in quests tab -->
+  <ClickToViewInQuestsTab>单击以在“任务”选项卡中查看此任务</ClickToViewInQuestsTab>
+  <!-- EN: Mood -->
+  <Mood>心情</Mood>
+  <!-- EN: Quest -->
+  <Quest>任务</Quest>
+  <!-- EN: Brings raids every {0} -->
+  <BringsRaidsEvery>每{0}产生一次袭击</BringsRaidsEvery>
+  <!-- EN: Generates {0} every {1} -->
+  <GeneratesResourcesEvery>每{1}生成{0}</GeneratesResourcesEvery>
+  <!-- EN: Foliage kill radius -->
+  <FoliageKillRadius>植物杀死半径</FoliageKillRadius>
+  <!-- EN: Radius expand rate -->
+  <RadiusExpandRate>半径扩展率</RadiusExpandRate>
+  <!-- EN: View: {0} -->
+  <ViewHyperlink>视图：{0}</ViewHyperlink>
+  <!-- EN: Detonates in {0} days -->
+  <DetonationCountdown>在{0}天内触发</DetonationCountdown>
+  <!-- EN: Large explosion if damaged -->
+  <ExplosionOnDamageWarning>若损坏会发生大爆炸</ExplosionOnDamageWarning>
+  <!-- EN: Mech cluster -->
+  <MechCluster>机械集群</MechCluster>
+  <!-- EN: Spawning in {0} -->
+  <SpawningNextPawnIn>生成{0}</SpawningNextPawnIn>
+  <!-- EN: {0} assembly completes in {1} -->
+  <MechAssemblyCompleteIn>{0}装配在{1}中完成</MechAssemblyCompleteIn>
+  <!-- EN: produced -->
+  <ThingsProduced>产生</ThingsProduced>
+  <!-- EN: harvested -->
+  <PlantsHarvested>收获</PlantsHarvested>
+  <!-- EN: {0} killed -->
+  <PawnsKilled>{0}被杀</PawnsKilled>
+  <!-- EN: Sent {0}, will return in {1} -->
+  <PawnsLent>发送{0}，将返回{1}</PawnsLent>
+  <!-- EN: Dormant -->
+  <DormantCompInactive>休眠</DormantCompInactive>
+  <!-- EN: Sealed -->
+  <DormantCompSealed>密封</DormantCompSealed>
+  <!-- EN: Ready to drop mechanoids -->
+  <DormantCompBeacon>准备投放机械族</DormantCompBeacon>
+  <!-- EN: Expired -->
+  <DormantCompExpired>已过期</DormantCompExpired>
+  <!-- EN: Activates in {0} -->
+  <SendSignalOnCountdownCompTime>在{0}中激活</SendSignalOnCountdownCompTime>
+  <!-- EN: Psychic entropy -->
+  <PsychicEntropy>心灵熵</PsychicEntropy>
+  <!-- EN: {0} pain focus -->
+  <PsychicEntropyPainFocus>{0}疼痛焦点</PsychicEntropyPainFocus>
+  <!-- EN: radius {0} -->
+  <ConditionCauserRadius>半径{0}</ConditionCauserRadius>
+  <!-- EN: {0} left -->
+  <DurationLeft>{0}剩余</DurationLeft>
 
   <!-- Fermentation barrel -->
   <!-- EN: Contains {0} / {1} wort. -->
@@ -400,6 +490,8 @@
   <TextMote_ConstructionFail>建造失败</TextMote_ConstructionFail>
   <!-- EN: Dodge -->
   <TextMote_Dodge>闪避</TextMote_Dodge>
+  <!-- EN: Immune -->
+  <TextMote_Immune>免疫</TextMote_Immune>
   <!-- EN: {0} tended -->
   <TextMote_Tended>{0}已治疗</TextMote_Tended>
   <!-- EN: low mood -->
@@ -466,6 +558,8 @@
   <!-- Job reports -->
   <!-- EN: hauling {THING_label} to {DESTINATION}. -->
   <ReportHaulingTo>正在搬运{THING_label}至{DESTINATION}。</ReportHaulingTo>
+  <!-- EN: burying {THING_label} in {DESTINATION}. -->
+  <ReportHaulingToGrave>正在将{THING_label}埋入{DESTINATION}。</ReportHaulingToGrave>
   <!-- EN: hauling {1_label}. -->
   <ReportHauling>正在搬运{1_label}。</ReportHauling>
   <!-- EN: hauling. -->
@@ -506,6 +600,14 @@
   <LordReportAttendingMarriageCeremony>正在参加婚礼。</LordReportAttendingMarriageCeremony>
   <!-- EN: Attending party -->
   <LordReportAttendingParty>正在参加聚会。</LordReportAttendingParty>
+  <!-- EN: Attending concert -->
+  <LordReportAttendingConcert>正在参加音乐会。</LordReportAttendingConcert>
+  <!-- EN: Holding a concert -->
+  <LordReportHoldingConcert>正在开音乐会。</LordReportHoldingConcert>
+  <!-- EN: Giving a speech -->
+  <LordReportGivingSpeech>正在发表演讲</LordReportGivingSpeech>
+  <!-- EN: Listening to {ORGANIZER_labelShort}'s speech -->
+  <LordReportListeningSpeech>正在听{ORGANIZER_labelShort}的演讲</LordReportListeningSpeech>
   <!-- EN: Forming caravan -->
   <LordReportFormingCaravan>正在组建远行队。</LordReportFormingCaravan>
 
@@ -513,11 +615,11 @@
   <!-- EN: Weapon miss radius -->
   <WeaponMissRadius>武器误差半径</WeaponMissRadius>
   <!-- EN: Shooter -->
-  <ShootReportShooterAbility>射击者 </ShootReportShooterAbility>
+  <ShootReportShooterAbility>射击者</ShootReportShooterAbility>
   <!-- EN: Weapon -->
-  <ShootReportWeapon>武器 </ShootReportWeapon>
+  <ShootReportWeapon>武器</ShootReportWeapon>
   <!-- EN: Darkness -->
-  <Darkness>黑暗 </Darkness>
+  <Darkness>黑暗</Darkness>
   <!-- EN: Target lying down -->
   <TargetProne>目标卧倒</TargetProne>
   <!-- EN: Target size -->
@@ -525,7 +627,7 @@
   <!-- EN: Weather -->
   <Weather>天气</Weather>
   <!-- EN: Cover -->
-  <ShootingCover>掩体 </ShootingCover>
+  <ShootingCover>掩体</ShootingCover>
   <!-- EN: {COVER_label} stops {1} -->
   <CoverThingBlocksPercentOfShots>{COVER_label}阻挡{1}</CoverThingBlocksPercentOfShots>
   <!-- EN: no cover -->
@@ -536,6 +638,8 @@
   <!-- Generated recipes -->
   <!-- EN: make {0} -->
   <RecipeMake>制作{0}</RecipeMake>
+  <!-- EN: Make {0}. -->
+  <RecipeMakeDescription>制作{0}。</RecipeMakeDescription>
   <!-- EN: Making {0}. -->
   <RecipeMakeJobString>正在制作{0}。</RecipeMakeJobString>
   <!-- EN: administer {0} -->
@@ -550,6 +654,8 @@
   <!-- Thoughts -->
   <!-- EN: Expires in: {0} -->
   <ThoughtExpiresIn>消逝时间: {0}</ThoughtExpiresIn>
+  <!-- EN: thought disabled by -->
+  <ThoughtNullifiedBy>想法禁用</ThoughtNullifiedBy>
   <!-- EN: Starts expiring in: {0} -->
   <ThoughtStartsExpiringIn>消逝开始时间: {0}</ThoughtStartsExpiringIn>
   <!-- EN: Finishes expiring in: {0} -->
@@ -565,11 +671,21 @@
   <!-- EN: {PAWN_gender} {1} -->
   <PawnMainDescGendered>{PAWN_gender}{1}</PawnMainDescGendered>
   <!-- EN: {0} of {1} -->
-  <PawnMainDescFactionedWrap>{0} 来自 {1}</PawnMainDescFactionedWrap>
+  <PawnMainDescFactionedWrap>来自{1}的{0}</PawnMainDescFactionedWrap>
+  <!-- EN: {0} in {1} -->
+  <PawnTitleDescWrap>{1}中的{0}</PawnTitleDescWrap>
+  <!-- EN: {0} under {1} -->
+  <PawnMainDescUnderFactionedWrap>{1}下属的{0}</PawnMainDescUnderFactionedWrap>
+  <!-- EN: {0} under {1}\nHome faction: {2} -->
+  <PawnMainDescTempFactionedWrap>{1}下属的{0}\n原派系：{2}</PawnMainDescTempFactionedWrap>
   <!-- EN: {2_lifeStageAdjective} {0} -->
   <PawnMainDescLifestageWrap>{2_lifeStageAdjective} {0}</PawnMainDescLifestageWrap>
   <!-- EN: Faction -->
   <Faction>派系</Faction>
+  <!-- EN: The faction {PAWN_labelShort} currently belongs to. -->
+  <FactionDesc>{PAWN_labelShort}当前所属派系。</FactionDesc>
+  <!-- EN: The faction {PAWN_labelShort} originally belongs to. {PAWN_pronoun} will rejoin their home faction when they depart from their current faction. -->
+  <ExtraFactionDesc>{PAWN_labelShort}原属派系。{PAWN_pronoun}在离开当前派系后会回到原派系。</ExtraFactionDesc>
   <!-- EN: Equipped -->
   <Equipped>装备</Equipped>
   <!-- EN: nothing -->
@@ -600,8 +716,8 @@
   <!-- Inspector general stuff -->
   <!-- EN: Select next thing in same square.\n\nShortcut key: {0}\n\nYou can also do this by slowly clicking the same square again. -->
   <SelectNextInSquareTip>选择当前单元格内的下一件东西。\n\n快捷键: {0}\n\n你也可用鼠标左键慢速重复点击同个单元格来选择下一件物品。</SelectNextInSquareTip>
-  <!-- EN: View information about this object. -->
-  <DefInfoTip>查看关于这个物品的信息。</DefInfoTip>
+  <!-- EN: View information. -->
+  <DefInfoTip>查看信息。</DefInfoTip>
 
   <!-- Hostility response -->
   <!-- EN: Change how this person will react to nearby enemies when not drafted. -->
@@ -760,10 +876,14 @@
   <ShowAnimalNamesToggleButton>开关已驯服动物名称显示。</ShowAnimalNamesToggleButton>
   <!-- EN: Toggle visibility of roofs. -->
   <ShowRoofOverlayToggleButton>开关屋顶区显示。</ShowRoofOverlayToggleButton>
+  <!-- EN: Toggle fertility overlay.\n\nThis shows how fertile the ground is, which affects what kinds of plants can grow and how fast they grow. -->
+  <ShowFertilityOverlayToggleButton>开关肥沃度显示。\n\n肥沃度反映了哪些植物可以生长，以及它们生长的速度。</ShowFertilityOverlayToggleButton>
+  <!-- EN: Toggle visibility of terrain affordance.\n\nThis relates to what kinds of building can be constructed at each location.\n\nFor example, some types of ground only accept light or medium buildings, but not heavy ones. Bridges can only be built on water. -->
+  <ShowTerrainAffordanceOverlayToggleButton>开关地形支持能力显示。\n\n地形支持能力反映了每个位置适合建造什么样的建筑。\n\n例如，某些类型的地面仅支持轻型或中型建筑物，而不支持重型建筑物。桥梁只能在水上建造。</ShowTerrainAffordanceOverlayToggleButton>
   <!-- EN: Lock the rotation of the camera so the north pole is always up. -->
   <LockNorthUpToggleButton>锁定镜头旋转以保持北极始终处在顶部。</LockNorthUpToggleButton>
-  <!-- EN: Toggle day/night lighting system. -->
-  <UsePlanetDayNightSystemToggleButton>开关日夜光照系统。</UsePlanetDayNightSystemToggleButton>
+  <!-- EN: Toggle day/night lighting on the planet view. -->
+  <UsePlanetDayNightSystemToggleButton>在星球地图开关日夜光照系统。</UsePlanetDayNightSystemToggleButton>
   <!-- EN: Toggle displaying expanding icons instead of the regular icons for distant objects. -->
   <ShowExpandingIconsToggleButton>开关显示扩展图标，代替远距离对象的常规图标。</ShowExpandingIconsToggleButton>
   <!-- EN: Toggle visibility of names of landforms. -->
@@ -784,6 +904,12 @@
   <TimeLeft>剩余时间</TimeLeft>
   <!-- EN: impact date -->
   <ImpactDate>撞击日期</ImpactDate>
+  <!-- EN: Source unknown. -->
+  <SourceUnknown>来源未知</SourceUnknown>
+  <!-- EN: Click to jump to the source. -->
+  <ClickToJumpToSource>点击以跳转至来源</ClickToJumpToSource>
+  <!-- EN: Caused by quest: {0} -->
+  <CausedByQuest>由任务引起：{0}</CausedByQuest>
 
   <!-- Building placement -->
   <!-- EN: You have no usable materials from which to build this. -->
@@ -844,18 +970,24 @@
   <ShipReportHibernating>休眠组件</ShipReportHibernating>
   <!-- EN: Component not yet ready -->
   <ShipReportNotReady>组件还未就绪</ShipReportNotReady>
-  <!-- EN: Charlon Whitestone is ready to begin the reactor's hibernation recovery sequence.\n\nHe warns you that the process will take about 15 days, and the energy signature will be detectable from a long distance away.\n\nThis sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
-  <HibernateWarning>沙隆·白石准备开始反应堆的休眠唤醒程序。\n\n他警告称启动进程将会耗费大约15天，并且在很远距离外就能侦测到能量特征。这类能量特征表示具备星际飞行能力，并将吸引一群绝望的袭击者和寻宝猎人。确保第一时间做好防御。</HibernateWarning>
+  <!-- EN: <Name>Charlon Whitestone</Name> is ready to begin the reactor's hibernation recovery sequence.\n\nHe warns you that the process will take about 15 days, and the energy signature will be detectable from a long distance away.\n\nThis sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
+  <HibernateWarning>&lt;Name&gt;沙隆·白石&lt;/Name&gt;准备开始反应堆的休眠唤醒程序。\n\n他警告称启动进程将会耗费大约15天，并且在很远距离外就能侦测到能量特征。这类能量特征表示具备星际飞行能力，并将吸引一群绝望的袭击者和寻宝猎人。确保第一时间做好防御。</HibernateWarning>
   <!-- EN: The reactor is ready to power up.\n\nThe process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
   <HibernateWarningStandalone>反应炉已准备好启动。\n\n启动进程将会耗费大约15天，并且在很远距离外就能侦测到能量特征。这类能量特征表示具备星际飞行能力，并将吸引一群绝望的袭击者和寻宝猎人。确保第一时间做好防御。</HibernateWarningStandalone>
-  <!-- EN: Charlon Whitestone is ready to begin the reactor's hibernation recovery sequence. He warns you that the process will take about 15 days. -->
-  <HibernateWarningPacifist>沙隆·白石准备开始反应堆的休眠唤醒程序。他警告称此进程将耗费大约15天。</HibernateWarningPacifist>
+  <!-- EN: <Name>Charlon Whitestone</Name> is ready to begin the reactor's hibernation recovery sequence. He warns you that the process will take about 15 days. -->
+  <HibernateWarningPacifist>&lt;Name&gt;沙隆·白石&lt;/Name&gt;准备开始反应堆的休眠唤醒程序。他警告称此进程将耗费大约15天。</HibernateWarningPacifist>
   <!-- EN: The reactor is ready to power up. The process will take about 15 days. -->
   <HibernateWarningStandalonePacifist>反应炉已准备好启动。此进程将耗费大约15天。</HibernateWarningStandalonePacifist>
 
   <!-- Neurotrainer -->
+  <!-- EN: neurotrainer ({0}) -->
+  <SkillNeurotrainerLabel>神经训练者机械液 ({0}) </SkillNeurotrainerLabel>
+  <!-- EN: Use skill neurotrainer to learn {0} -->
+  <SkillNeurotrainerUseLabel>使用技能神经训练者机械液学习{0}</SkillNeurotrainerUseLabel>
+  <!-- EN: A one-use super-dose of mechanites which trains a specific skill.\n\nThe dose is administered through the orbit of the eye. Once released into the brain, the mechanites quickly improve the subject's skills in a specific area, transmuting themselves into neural tissue as needed. -->
+  <SkillNeurotrainerDescription>为训练特定技能而准备的一次性超级药剂纳米机器人。这种药剂通过眼眶给药。一旦释放进入大脑，纳米机器人会迅速提升特定区域内的学科技能，将其自身转换为所需的神经组织。</SkillNeurotrainerDescription>
   <!-- EN: {USER_labelShort} used {1} neurotrainer to go from level {2} to level {3}. -->
-  <NeurotrainerUsed>{USER_labelShort}使用神经训练器将{1}技能从{2}级升至{3}级。</NeurotrainerUsed>
+  <SkillNeurotrainerUsed>{USER_labelShort}使用神经训练者机械液将{1}技能从{2}级升至{3}级。</SkillNeurotrainerUsed>
 
   <!-- Minification -->
   <!-- EN: Installed -->
@@ -902,12 +1034,18 @@
   <!-- Game over -->
   <!-- EN: Everyone is dead or gone. This story is over.\n\nPerhaps someone else will find a use for the ruins of this place. -->
   <GameOverEveryoneDead>所有殖民者不是死亡就是离开了。这个故事结束了。\n\n这片遗迹也许在某天会帮上其他人的忙。</GameOverEveryoneDead>
-  <!-- EN: You've launched the ship! These colonists escaped:\n\n{0}\nThese colonists were left behind:\n\n{1}\nYour AI will now try to guide the ship to a safe place. It might find a prosperous planet for you in this system. Or, it may undertake a centuries-long journey to another star. It might even decide to hide under ice on an asteroid for a few thousand years, waiting for someone to build a new glitterworld here.\n\nYou'll find out when you wake up. -->
-  <GameOverShipLaunched>你发射了逃生船！以下殖民者离开了:\n\n{0}\n以下殖民者被留下了:\n\n{1}\n现在飞船AI会自动引导飞船至安全目的地。也许它会带你到本星系内的一颗繁盛星球上。或许它会花费数世纪航行至另一星系。甚至它选择在一颗小行星的冰层下沉睡几千年，等待其他人在此建设一个闪耀世界。\n\n一切只有在你醒来后才能知道。</GameOverShipLaunched>
   <!-- EN: At near-lightspeed, the planetkiller weapon slammed into the ground with the force of a trillion hydrogen bombs. Like a water balloon shot with a rifle, this world liquified under the impact and sprayed its molten guts across the cosmos.\n\nPart of {0} is now a small asteroid belt. The rest is a molten, radioactive hellscape, constantly rippling with kilometers-high planetquakes.\n\nYou did not survive. -->
   <GameOverPlanetkillerImpact>歼星武器以接近光速的速度猛烈地击中了大地，威力相当于一万亿颗氢弹同时引爆。整颗行星就像一颗被步枪命中的装满水的气球，在强劲冲击下液化并将大量自身融化的内核抛入太空。\n\n{0}的一部分变成了一条小行星带。剩余部分则是一片融化的、布满辐射的地狱景象，数公里高的行星震波在表面来回荡漾。\n\n你没能活下来。</GameOverPlanetkillerImpact>
-  <!-- EN: As you get on board the ship you are greeted by the crew with open arms. They seem to be glad they could take at least one more person with them.\n\nThese colonists escaped:\n\n{0}\nThese colonists were left behind:\n\n{1}\nThe AI will now try to guide the ship to a safe place. It might find a prosperous planet for you in this system. Or, it may undertake a centuries-long journey to another star. It might even decide to hide under ice on an asteroid for a few thousand years, waiting for someone to build a new glitterworld here.\n\nAs you enter the cryptosleep pod you hesitate for a moment and feel slightly uncertain about whether you can trust these people.\n\nYou'll find out when you wake up. -->
-  <GameOverArrivedAtJourneyDestination>当你踏上太空船的时候，船员们热烈的欢迎了你。他们看起来非常高兴，又多了至少一名新同伴。\n\n以下殖民者离开了:\n\n{0}\n以下殖民者被留下了:\n\n{1}\n现在飞船AI会自动引导飞船至安全目的地。也许它会带你到本星系内的一颗繁盛星球上。或许它会花费数世纪航行至另一星系。甚至它选择在一颗小行星的冰层下沉睡几千年，等待其他人在此建设一个闪耀世界。\n\n正当你准备进入低温休眠舱的时候，你犹豫了一下，多少有点担忧是不是真的能相信这些人。\n\n这一切只有在你醒来后才能知道。</GameOverArrivedAtJourneyDestination>
+  <!-- EN: You've launched the ship! -->
+  <GameOverShipLaunchedIntro>你发射了逃生船！</GameOverShipLaunchedIntro>
+  <!-- EN: Your machine persona will now try to guide the ship to a safe place. It might find a prosperous planet in this system. Or, it may undertake a centuries-long journey to another star. It might even decide to hide under ice on an asteroid for a few thousand years, waiting for someone to build a new glitterworld here.\n\nYou'll find out when you wake up. -->
+  <GameOverShipLaunchedEnding>现在飞船AI会自动引导飞船至安全目的地。也许它会带你到本星系内的一颗繁盛星球上。或许它会花费数世纪航行至另一星系。甚至它选择在一颗小行星的冰层下沉睡几千年，等待其他人在此建设一个闪耀世界。\n\n一切只有在你醒来后才能知道。</GameOverShipLaunchedEnding>
+  <!-- EN: These colonists escaped:\n\n{0} -->
+  <GameOverColonistsEscaped>以下殖民者离开了:\n\n{0}</GameOverColonistsEscaped>
+  <!-- EN: These colonists were left behind:\n\n{0} -->
+  <GameOverColonistsLeft>以下殖民者被留下：\n\n{0}</GameOverColonistsLeft>
+  <!-- EN: In memory of:\n -->
+  <GameOverInMemoryOf>纪念：\n</GameOverInMemoryOf>
   <!-- EN: Keep playing -->
   <GameOverKeepPlaying>继续游戏</GameOverKeepPlaying>
   <!-- EN: Main menu -->
@@ -1048,5 +1186,73 @@
   <ClickToSeeAvailableOrders_WorldObject>{0}：查看可用命令……</ClickToSeeAvailableOrders_WorldObject>
   <!-- EN: See available orders... -->
   <ClickToSeeAvailableOrders_Empty>查看可用命令……</ClickToSeeAvailableOrders_Empty>
+  
+  <!-- Pawn tooltips -->
+  <!-- EN: {0} ({1})\n{2}\n{3} -->
+  <PawnTooltipWithDescAndPrimaryEquip>{0}({1})\n{2}\n{3}</PawnTooltipWithDescAndPrimaryEquip>
+  <!-- EN: {0} ({1})\n{2} -->
+  <PawnTooltipWithDescNoPrimaryEquip>{0}({1})\n{2}</PawnTooltipWithDescNoPrimaryEquip>
+  <!-- EN: {0}\n{1}\n{2} -->
+  <PawnTooltipWithPrimaryEquipNoDesc>{0}\n{1}\n{2}</PawnTooltipWithPrimaryEquipNoDesc>
+  <!-- EN: {0}\n{1} -->
+  <PawnTooltipNoDescNoPrimaryEquip>{0}\n{1}</PawnTooltipNoDescNoPrimaryEquip>
+  <!-- EN: Psychic entropy: {0}/{1}\nFall rate: {2}/{3}s({4}s until zero)\n\nPsychic entropy increases after performing a psycast.\nGoing over the safe limit can lead to long-term health consequences.\nWhenever entropy reaches zero, it leaves a psychic hangover behind. -->
+  <PawnTooltipPsychicEntropy>心灵熵：{0}/{1}\n下降速率：{2}/{3}秒（{4}秒直到零）\n\n进行心灵投射后心灵熵增加。\n超出安全限制会导致后遗症。\n每当熵归零都会产生精神宿醉。</PawnTooltipPsychicEntropy>
+  <!-- EN: Physical pain focuses the mind and clears extraneous thoughts; this has the side-effect of causing faster recovery from psychic entropy. -->
+  <PawnTooltipPsychicEntropyPainFocus>身体上的痛苦使思想集中并清除了无关的想法；同时能够更快恢复心理熵。</PawnTooltipPsychicEntropyPainFocus>
+  <!-- EN: Toggle psychic entropy limiter.\n\nGoing over your psychic entropy limit can cause serious health consequences, including long-term psychic breakdown, and even brain damage for significant overages. The higher over-limit the entropy is, the more dangerous the effects. -->
+  <PawnTooltipPsychicEntropyLimit>切换心理熵限制器。\n\n心灵熵超限制可能会导致严重的健康后果，包括长期的心理崩溃，甚至会因严重超量而损害大脑。熵的极限值越高，超限的后果越严重。</PawnTooltipPsychicEntropyLimit>
 
+  <!-- Pawn tooltip description -->
+  <!-- EN: {0} {1} -->
+  <PawnTooltipGenderAndKindLabel>{0}{1}</PawnTooltipGenderAndKindLabel>
+
+  <!-- Rewards -->
+  <!-- EN: a {0_age}-year-old {0_titleIndef} named {0_nameDef} will arrive in a transport pod {0_relationInfoInParentheses} -->
+  <Reward_Pawn_DropPod>一个名为{0_nameDef}的{0_age}岁的{0_titleIndef}将乘坐空投仓到达{0_relationInfoInParentheses}</Reward_Pawn_DropPod>
+  <!-- EN: a {0_age}-year-old {0_titleIndef} named {0_nameDef} will arrive and join you {0_relationInfoInParentheses} -->
+  <Reward_Pawn_WalkIn>一个名为{0_nameDef}的{0_age}岁的{0_titleIndef}将到达并加入{0_relationInfoInParentheses}</Reward_Pawn_WalkIn>
+  <!-- EN: a {0_age}-year-old {0_titleIndef} named {0_nameDef} will join you {0_relationInfoInParentheses} -->
+  <Reward_Pawn_Caravan>一个名为{0_nameDef}的{0_age}岁的{0_titleIndef}将加入{0_relationInfoInParentheses}</Reward_Pawn_Caravan>
+  <!-- EN: transport pods with the following resources will arrive (total value {1}):
+\n{0} -->
+  <Reward_Items>装有以下资源的空投仓即将到达（总价值{1}）：
+\n{0}</Reward_Items>
+  <!-- EN: you will receive (total value {1}):
+\n{0} -->
+  <Reward_Items_Caravan>您将收到（总价值{1}）：
+\n{0}</Reward_Items_Caravan>
+  <!-- EN: your faction relations with {0_name} will improve by {1} -->
+  <Reward_Goodwill>您与{0_name}的派系关系将提高{1}</Reward_Goodwill>
+  
+  <!-- Bladelink -->
+  <!-- EN: Bonded to: {PAWN_labelShort} -->
+  <BondedWith>绑定到：{PAWN_labelShort}</BondedWith>
+  <!-- EN: Not yet bonded -->
+  <NotBonded>尚未绑定</NotBonded>
+  <!-- EN: bonded to someone else -->
+  <BladelinkBondedToSomeoneElse>绑定到其他人</BladelinkBondedToSomeoneElse>
+
+  <!-- Biocoded weapons -->
+  <!-- EN: biocoded {0} -->
+  <Biocoded>生物编码 {0}</Biocoded>
+  <!-- EN: Biocoding: {0} -->
+  <CodedFor>生物编码：{0}</CodedFor>
+  <!-- EN: biocoded -->
+  <BiocodedCodedForSomeoneElse>生物编码</BiocodedCodedForSomeoneElse>
+
+  <!-- Projectile interceptor -->
+  <!-- EN: Intercepts {0} every {1} -->
+  <InterceptsProjectilesEvery>拦截{0}/{1}</InterceptsProjectilesEvery>
+  <!-- EN: Intercepts {0} -->
+  <InterceptsProjectiles>拦截{0}</InterceptsProjectiles>
+  <!-- EN: ground projectiles -->
+  <InterceptsProjectiles_GroundProjectiles>近地发射物</InterceptsProjectiles_GroundProjectiles>
+  <!-- EN: aerial projectiles -->
+  <InterceptsProjectiles_AerialProjectiles>空中发射物</InterceptsProjectiles_AerialProjectiles>
+
+  <!-- Condition causers -->
+  <!-- EN: Affected gender -->
+  <AffectedGender>受影响的性别</AffectedGender>
+  
 </LanguageData>

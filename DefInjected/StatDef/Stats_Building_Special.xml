@@ -8,8 +8,8 @@
   
   <!-- EN: door opening speed -->
   <DoorOpenSpeed.label>开门速度</DoorOpenSpeed.label>
-  <!-- EN: The speed at which the door opens. Slow doors will slow down everyone who uses them. -->
-  <DoorOpenSpeed.description>门打开的速度。</DoorOpenSpeed.description>
+  <!-- EN: The speed at which the door opens when unpowered.\n\nSlow doors will slow down everyone who uses them. -->
+  <DoorOpenSpeed.description>门打开的速度。\n\n打开速度缓慢的门会减慢所有使用者。</DoorOpenSpeed.description>
   
   <!-- EN: immunity gain speed factor -->
   <ImmunityGainSpeedFactor.label>免疫性获取速度系数</ImmunityGainSpeedFactor.label>
@@ -35,15 +35,15 @@
   
   <!-- EN: surgery success chance factor -->
   <SurgerySuccessChanceFactor.label>手术成功率系数</SurgerySuccessChanceFactor.label>
-  <!-- EN: A multiplier to the chance that a surgery will succeed when performed here. Surgery success chances are also affected by many other factors, including the surgeon's ability and medicine used. -->
-  <SurgerySuccessChanceFactor.description>当在这里执行手术时的成功率的乘数。手术成功率还受到外科医生和所用医药的影响。</SurgerySuccessChanceFactor.description>
+  <!-- EN: A multiplier to the chance that a surgery will succeed when performed here.\n\nSurgery success chances are also affected by many other factors, including the surgeon's ability and medicine used. -->
+  <SurgerySuccessChanceFactor.description>当在这里执行手术时的成功率的乘数。\n\n手术成功率还受到外科医生和所用医药的影响。</SurgerySuccessChanceFactor.description>
   <!-- EN: Room cleanliness -->
   <SurgerySuccessChanceFactor.parts.Room_cleanliness.customLabel>房间清洁度</SurgerySuccessChanceFactor.parts.Room_cleanliness.customLabel>
   
   <!-- EN: trap melee damage -->
   <TrapMeleeDamage.label>陷阱近战伤害</TrapMeleeDamage.label>
-  <!-- EN: How much damage this trap does on average. The actual damage in any instance will vary randomly. -->
-  <TrapMeleeDamage.description>触发陷阱所造成的伤害平均值。实际伤害可能有些不同。</TrapMeleeDamage.description>
+  <!-- EN: How much damage this trap does on average.\n\nThe actual damage in any instance will vary randomly. -->
+  <TrapMeleeDamage.description>触发陷阱所造成的伤害平均值。\n\n实际伤害可能有些不同。</TrapMeleeDamage.description>
   
   <!-- EN: trap spring chance -->
   <TrapSpringChance.label>陷阱触发几率</TrapSpringChance.label>

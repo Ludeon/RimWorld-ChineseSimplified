@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN:
+    <li>questDescription(askerIsNull==true)->We've intercepted messages about a collection of valuable items worth [itemStashContentsValue] not far from [map_definite]. The collection consists of:\n\n[itemStashContents]\n\nIt seems that [allSitePartsDescriptionsExceptFirst]</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_label], [asker_faction_leaderTitle] of [asker_faction_name], has informed us of a collection of valuable items worth [itemStashContentsValue] not far from us. The collection consists of:\n\n[itemStashContents]\n\n[asker_label] says that [allSitePartsDescriptionsExceptFirst]</li>
+  -->
+  <OpportunitySite_ItemStash.questDescriptionRules.rulesStrings>
+    <li>questDescription(askerIsNull==true)->我们截获了一组信息，关于一批价值[itemStashContentsValue]的物资被匿藏在[map_definite]附近。物资包括：\n\n[itemStashContents]\n\n看起来[allSitePartsDescriptionsExceptFirst]</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_faction_name]的[asker_faction_leaderTitle]，[asker_label]，告知我们一批价值[itemStashContentsValue]的贵重物品被留在距离我们不远处等待接收。这批物品包含:\n\n[itemStashContents]\n\n[asker_label]透露：[allSitePartsDescriptionsExceptFirst]</li>
+  </OpportunitySite_ItemStash.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName(priority=1)->[asker_nameDef]'s [stash] of [treasure]</li>
+    <li>questName->[stash] of [treasure]</li>
+    <li>stash->Stash</li>
+    <li>stash->Cache</li>
+    <li>stash->Collection</li>
+    <li>stash->Shack</li>
+    <li>treasure->Treasure</li>
+    <li>treasure->Valuables</li>
+    <li>treasure->Fortune</li>
+    <li>treasure->Goodies</li>
+    <li>treasure->Supplies</li>
+  -->
+  <OpportunitySite_ItemStash.questNameRules.rulesStrings>
+    <li>questName(priority=1)->[asker_nameDef]的[stash][treasure]</li>
+    <li>questName->[stash][treasure]</li>
+    <li>stash->隐密</li>
+    <li>stash->匿藏</li>
+    <li>stash->收藏</li>
+    <li>stash->贮藏</li>
+    <li>treasure->财宝</li>
+    <li>treasure->贵重品</li>
+    <li>treasure->财富</li>
+    <li>treasure->好东西</li>
+    <li>treasure->补给</li>
+  </OpportunitySite_ItemStash.questNameRules.rulesStrings>
+  <!-- EN: Quest expired: [resolvedQuestName] -->
+  <OpportunitySite_ItemStash.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>任务已失效：[resolvedQuestName]</OpportunitySite_ItemStash.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>
+  <!-- EN: Intercepted communications indicate the item stash has been claimed by others. The quest [resolvedQuestName] has expired. -->
+  <OpportunitySite_ItemStash.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>根据截获的信息表明，匿藏的物品已经被人捷足先登。任务[resolvedQuestName]已失效。</OpportunitySite_ItemStash.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>
+
+</LanguageData>

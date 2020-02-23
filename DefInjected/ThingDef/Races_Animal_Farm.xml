@@ -12,6 +12,17 @@
   <!-- EN: head -->
   <Alpaca.tools.head.label>头</Alpaca.tools.head.label>
   
+  <!-- EN: bison -->
+  <Bison.label>美洲野牛</Bison.label>
+  <!-- EN: A large plant eating mammal appearing in the savannah wilderness. Tamed are quite docile, but enraged are fast and dangerous. -->
+  <Bison.description>一种大型食草哺乳动物，通常出现在草原和荒野上。被驯服后相当温顺，但被激怒后会变得非常暴躁。</Bison.description>
+  <!-- EN: head -->
+  <Bison.tools.head.label>头</Bison.tools.head.label>
+  <!-- EN: left hoof -->
+  <Bison.tools.left_hoof.label>左蹄</Bison.tools.left_hoof.label>
+  <!-- EN: right hoof -->
+  <Bison.tools.right_hoof.label>右蹄</Bison.tools.right_hoof.label>
+  
   <!-- EN: chicken -->
   <Chicken.label>鸡</Chicken.label>
   <!-- EN: The most traditional farm bird, the chicken is raised for its eggs and meat. It grows very quickly and lays eggs very often. -->
@@ -36,6 +47,70 @@
   <!-- EN: right hoof -->
   <Cow.tools.right_hoof.label>右蹄</Cow.tools.right_hoof.label>
   
+  <!-- EN: donkey -->
+  <Donkey.label>驴</Donkey.label>
+  <!-- EN: A small relative of the horse, domesticated in ancient times for farm work. Its goofy call is simultaneously annoying and endearing. -->
+  <Donkey.description>一种马的近亲，在被古人驯养后用于农业。它愚蠢的叫声既令人讨厌又讨人喜欢。</Donkey.description>
+  <!-- EN: head -->
+  <Donkey.tools.head.label>头</Donkey.tools.head.label>
+  <!-- EN: left hoof -->
+  <Donkey.tools.left_hoof.label>左蹄</Donkey.tools.left_hoof.label>
+  <!-- EN: right hoof -->
+  <Donkey.tools.right_hoof.label>右蹄</Donkey.tools.right_hoof.label>
+  
+  <!-- EN: duck -->
+  <Duck.label>鸭</Duck.label>
+  <!-- EN: A very common type of farm bird, also appearing in the wild, the duck is raised for its delicious meat. It grows quick but lays eggs quite rarily. -->
+  <Duck.description>一种很常见的家禽，也出现在野外。它成长得很快，但下蛋却很少。</Duck.description>
+  <!-- EN: claws -->
+  <Duck.tools.claws.label>爪</Duck.tools.claws.label>
+  <!-- EN: beak -->
+  <Duck.tools.beak.label>喙</Duck.tools.beak.label>
+  <!-- EN: head -->
+  <Duck.tools.head.label>头</Duck.tools.head.label>
+  
+  <!-- EN: goat -->
+  <Goat.label>山羊</Goat.label>
+  <!-- EN: Naturally curious about the world, goats are among the friendliest domesticated creature bred by mankind. -->
+  <Goat.description>山羊天生对世界充满好奇，是人类饲养的最友好的家养动物之一。</Goat.description>
+  <!-- EN: head -->
+  <Goat.tools.head.label>头</Goat.tools.head.label>
+  
+  <!-- EN: goose -->
+  <Goose.label>鹅</Goose.label>
+  <!-- EN: A domesticated bird kept by humans as poultry for it's eggs and meat. Lays eggs very often, however they take a long time to hatch. -->
+  <Goose.description>一种被人类作为家禽饲养的动物，因为它生长迅速且产卵频繁，但产下的卵需要很长时间孵化。</Goose.description>
+  <!-- EN: claws -->
+  <Goose.tools.claws.label>爪</Goose.tools.claws.label>
+  <!-- EN: beak -->
+  <Goose.tools.beak.label>喙</Goose.tools.beak.label>
+  <!-- EN: head -->
+  <Goose.tools.head.label>头</Goose.tools.head.label>
+  
+  <!-- EN: guinea pig -->
+  <GuineaPig.label>豚鼠</GuineaPig.label>
+  <!-- EN: Neither a pig or a creature from Guinea, these little rodents are bred to be a household pet and a delicious dinner. -->
+  <GuineaPig.description>这些小型啮齿动物通常被饲养成家庭宠物或是被做成美味的晚餐。</GuineaPig.description>
+  <!-- EN: left claw -->
+  <GuineaPig.tools.left_claw.label>左爪</GuineaPig.tools.left_claw.label>
+  <!-- EN: right claw -->
+  <GuineaPig.tools.right_claw.label>右爪</GuineaPig.tools.right_claw.label>
+  <!-- EN: head -->
+  <GuineaPig.tools.head.label>头</GuineaPig.tools.head.label>
+  
+  <!-- EN: horse -->
+  <Horse.label>马</Horse.label>
+  <!-- EN: A large hoofed mammal with a short coat, a long mane, and a long tail. Horses have been domesticated since ancient times. -->
+  <Horse.description>一种大型有蹄哺乳动物。马在很久之前就被古人驯服并用于交通了。</Horse.description>
+  <!-- EN: horse meat -->
+  <Horse.race.meatLabel>马肉</Horse.race.meatLabel>
+  <!-- EN: head -->
+  <Horse.tools.head.label>头</Horse.tools.head.label>
+  <!-- EN: left hoof -->
+  <Horse.tools.left_hoof.label>左蹄</Horse.tools.left_hoof.label>
+  <!-- EN: right hoof -->
+  <Horse.tools.right_hoof.label>右蹄</Horse.tools.right_hoof.label>
+  
   <!-- EN: pig -->
   <Pig.label>猪</Pig.label>
   <!-- EN: The pig was one of the first animals domesticated by humans. It is commonly raised for meat, and is easy to feed because of its omnivorous diet. Though pigs are self-serving by disposition, they can be trained in complex tasks. -->
@@ -44,5 +119,29 @@
   <Pig.race.meatLabel>猪肉</Pig.race.meatLabel>
   <!-- EN: head -->
   <Pig.tools.head.label>头</Pig.tools.head.label>
+  
+  <!-- EN: sheep -->
+  <Sheep.label>绵羊</Sheep.label>
+  <!-- EN: Sheep husbandry is practised throughout the majority of the inhabited worlds, however only recently it has been introduced to the rimworlds. Domestic sheep are relatively small herbivores, usually with yellowish wool and medium sized horns. -->
+  <Sheep.description>家养的羊是相对较小的草食动物，通常有淡黄色的羊毛和中等大小的角。</Sheep.description>
+  <!-- EN: head -->
+  <Sheep.tools.head.label>头</Sheep.tools.head.label>
+  <!-- EN: left hoof -->
+  <Sheep.tools.left_hoof.label>左蹄</Sheep.tools.left_hoof.label>
+  <!-- EN: right hoof -->
+  <Sheep.tools.right_hoof.label>右蹄</Sheep.tools.right_hoof.label>
+  
+  <!-- EN: yak -->
+  <Yak.label>牦牛</Yak.label>
+  <!-- EN: Yaks are robust cattle with a bulky frame, short but thick legs, and rounded cloven hooves that are splayed to help them walk in snow. -->
+  <Yak.description>牦牛体格健壮，短而粗且四蹄张开的腿能帮助它们在雪地里行走。</Yak.description>
+  <!-- EN: yak beef -->
+  <Yak.race.meatLabel>牦牛肉</Yak.race.meatLabel>
+  <!-- EN: head -->
+  <Yak.tools.head.label>头</Yak.tools.head.label>
+  <!-- EN: left hoof -->
+  <Yak.tools.left_hoof.label>左蹄</Yak.tools.left_hoof.label>
+  <!-- EN: right hoof -->
+  <Yak.tools.right_hoof.label>右蹄</Yak.tools.right_hoof.label>
   
 </LanguageData>
