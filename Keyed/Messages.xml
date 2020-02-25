@@ -72,7 +72,7 @@
   <MessageRecruitSuccess>{RECRUITER_nameFull}成功招募了{RECRUITEE_nameFull}（成功率{2}）。</MessageRecruitSuccess>
   <!-- EN: {RECRUITER_labelShort} successfully tamed {1} ({2} chance). -->
   <MessageTameSuccess>{RECRUITER_labelShort}成功驯服了{1}（成功率{2}）。</MessageTameSuccess>
-  <!-- EN: {RECRUITER_labelShort} successfully tamed {1} ({2} chance) and named {RECRUITEE_objective} {RECRUITEE_nameFull}. -->
+  <!-- EN: {RECRUITER_labelShort} successfully tamed {1} ({2} chance). It is now called {RECRUITEE_nameFull}. -->
   <MessageTameAndNameSuccess>{RECRUITER_labelShort}成功驯服了{1}，并将{RECRUITEE_objective}起名为{RECRUITEE_nameFull}（成功率{2}）。</MessageTameAndNameSuccess>
 
   <!-- EN: The colony cannot afford this deal. -->
@@ -157,7 +157,7 @@
   <MessageGaveBirth>{0}已经产子。</MessageGaveBirth>
   
   <!-- EN: {PAWN_labelShort} won't be able to use the psychic amplifier while {PAWN_pronoun} has zero psychic sensitivity. -->
-  <MessagePsychicAmplifierNoSensitivity>{PAWN_labelShort}无法使用灵脉增幅器，而{PAWN_pronoun}的心灵敏感度为零。</MessagePsychicAmplifierNoSensitivity>
+  <MessagePsychicAmplifierNoSensitivity>{PAWN_labelShort}无法使用心灵增幅器，而{PAWN_pronoun}的心灵敏感度为零。</MessagePsychicAmplifierNoSensitivity>
   <!-- EN: {PAWN_labelShort} has lost a {1} implant level due to {2}. -->
   <MessageLostImplantLevelFromHediff>{PAWN_labelShort}由于{2}而丧失了一个{1}植入物级别。</MessageLostImplantLevelFromHediff>
   <!-- EN: {PAWN_labelShort} has suffered {1} points of brain damage due to {2}. -->
