@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: [lodgersLabelSingOrPlural] arrived -->
+  <Hospitality_Util_Worker.root.nodes.DropPods.customLetterLabel.slateRef>[lodgersLabelSingOrPlural]抵达</Hospitality_Util_Worker.root.nodes.DropPods.customLetterLabel.slateRef>
+  <!-- EN: [lodgersLabelSingOrPluralDef] [lodgersHasHave] arrived. Protect them until the shuttle arrives in [shuttleDelayTicks_duration].[helpersArrivalLetterEnd] -->
+  <Hospitality_Util_Worker.root.nodes.DropPods.customLetterText.slateRef>[lodgersLabelSingOrPluralDef][lodgersHasHave]已经抵达。在[shuttleDelayTicks_duration]内保护他们直到穿梭机抵达。[helpersArrivalLetterEnd]</Hospitality_Util_Worker.root.nodes.DropPods.customLetterText.slateRef>
+  <!-- EN: Should depart on shuttle -->
+  <Hospitality_Util_Worker.root.nodes.ShuttleDelay.node.nodes.InspectString.inspectString.slateRef>应乘坐穿梭机离开</Hospitality_Util_Worker.root.nodes.ShuttleDelay.node.nodes.InspectString.inspectString.slateRef>
+  <!-- EN: Shuttle arrived -->
+  <Hospitality_Util_Worker.root.nodes.ShuttleDelay.node.nodes.Letter.label.slateRef>穿梭机抵达</Hospitality_Util_Worker.root.nodes.ShuttleDelay.node.nodes.Letter.label.slateRef>
+  <!-- EN: The shuttle has arrived to collect [lodgersLabelSingOrPluralDef]. Be sure to have these people on the shuttle before it leaves in [shuttleLeaveDelayTicks_duration]:\n\n[lodgers] -->
+  <Hospitality_Util_Worker.root.nodes.ShuttleDelay.node.nodes.Letter.text.slateRef>穿梭机已抵达，需装载[lodgersLabelSingOrPluralDef]。在穿梭机还有[shuttleLeaveDelayTicks_duration]起飞，在这之前请务必让这些人坐在上面：\n\n[lodgers]</Hospitality_Util_Worker.root.nodes.ShuttleDelay.node.nodes.Letter.text.slateRef>
+  <!-- EN: Guest died: {SUBJECT_definite} -->
+  <Hospitality_Util_Worker.root.nodes.lodgersDestroyed.node.nodes.Letter.label.slateRef>访客死亡：{SUBJECT_definite}</Hospitality_Util_Worker.root.nodes.lodgersDestroyed.node.nodes.Letter.label.slateRef>
+  <!-- EN: [letterSubject], who you were charged to protect, has died. [remainingWillNowLeave][failLetterEndingCommon] -->
+  <Hospitality_Util_Worker.root.nodes.lodgersDestroyed.node.nodes.Letter.text.slateRef>指定由你保护的[letterSubject]已经死亡。[remainingWillNowLeave][failLetterEndingCommon]</Hospitality_Util_Worker.root.nodes.lodgersDestroyed.node.nodes.Letter.text.slateRef>
+  <!-- EN: Guest captured: {SUBJECT_definite} -->
+  <Hospitality_Util_Worker.root.nodes.lodgersArrested.node.nodes.Letter.label.slateRef>访客被俘：{SUBJECT_definite}</Hospitality_Util_Worker.root.nodes.lodgersArrested.node.nodes.Letter.label.slateRef>
+  <!-- EN: [letterSubject], who you were charged to protect, has been arrested. [remainingWillNowLeave][failLetterEndingCommon] -->
+  <Hospitality_Util_Worker.root.nodes.lodgersArrested.node.nodes.Letter.text.slateRef>指定由你保护的[letterSubject]已经被俘虏了。[remainingWillNowLeave][failLetterEndingCommon]</Hospitality_Util_Worker.root.nodes.lodgersArrested.node.nodes.Letter.text.slateRef>
+  <!-- EN: Prisoner recruited: {SUBJECT_definite} -->
+  <Hospitality_Util_Worker.root.nodes.lodgersRecruited.node.nodes.Letter.label.slateRef>囚犯被招募：{SUBJECT_definite}</Hospitality_Util_Worker.root.nodes.lodgersRecruited.node.nodes.Letter.label.slateRef>
+  <!-- EN: You have recruited {SUBJECT_definite}, who you were charged to guard. [remainingWillNowLeave][failLetterEndingCommon] -->
+  <Hospitality_Util_Worker.root.nodes.lodgersRecruited.node.nodes.Letter.text.slateRef>你已经招募了指定由你看守的{SUBJECT_definite}。[remainingWillNowLeave][failLetterEndingCommon]</Hospitality_Util_Worker.root.nodes.lodgersRecruited.node.nodes.Letter.text.slateRef>
+  <!-- EN: Unauthorized surgery: {SUBJECT_definite} -->
+  <Hospitality_Util_Worker.root.nodes.lodgersSurgeryViolation.node.nodes.Letter.label.slateRef>未经授权的手术：{SUBJECT_definite}</Hospitality_Util_Worker.root.nodes.lodgersSurgeryViolation.node.nodes.Letter.label.slateRef>
+  <!-- EN: Unauthorized, violating surgery has been performed on [letterSubject]. [remainingWillNowLeave][failLetterEndingCommon] -->
+  <Hospitality_Util_Worker.root.nodes.lodgersSurgeryViolation.node.nodes.Letter.text.slateRef>在[letterSubject]执行了未经授权的违规手术。 [remainingWillNowLeave][failLetterEndingCommon]</Hospitality_Util_Worker.root.nodes.lodgersSurgeryViolation.node.nodes.Letter.text.slateRef>
+  <!-- EN: Guest lost: {SUBJECT_definite} -->
+  <Hospitality_Util_Worker.root.nodes.lodgersLeftMap.node.nodes.Letter.label.slateRef>访客失踪：{SUBJECT_definite}</Hospitality_Util_Worker.root.nodes.lodgersLeftMap.node.nodes.Letter.label.slateRef>
+  <!-- EN: [letterSubject], who you were charged to protect, is gone. [remainingWillNowLeave][failLetterEndingCommon] -->
+  <Hospitality_Util_Worker.root.nodes.lodgersLeftMap.node.nodes.Letter.text.slateRef>指定由你保护的[letterSubject]不见了。[remainingWillNowLeave][failLetterEndingCommon]</Hospitality_Util_Worker.root.nodes.lodgersLeftMap.node.nodes.Letter.text.slateRef>
+  <!-- EN: [letterSubject], who you were charged to protect, has joined another faction. [remainingWillNowLeave][failLetterEndingCommon] -->
+  <Hospitality_Util_Worker.root.nodes.AnySignal.node.node.nodes.Letter.text.slateRef>指定由你保护的[letterSubject]已经加入了另一个派系。[remainingWillNowLeave][failLetterEndingCommon]</Hospitality_Util_Worker.root.nodes.AnySignal.node.node.nodes.Letter.text.slateRef>
+  <!-- EN: Shuttle destroyed -->
+  <Hospitality_Util_Worker.root.nodes.shuttleDestroyed.node.nodes.Letter.label.slateRef>穿梭机已损毁</Hospitality_Util_Worker.root.nodes.shuttleDestroyed.node.nodes.Letter.label.slateRef>
+  <!-- EN: The shuttle sent to collect [lodgersLabelSingOrPluralDef] has been destroyed. [lodgersLabelSingOrPluralDef] will now leave on foot. [failLetterEndingCommon] -->
+  <Hospitality_Util_Worker.root.nodes.shuttleDestroyed.node.nodes.Letter.text.slateRef>被指派去装载[lodgersLabelSingOrPluralDef]的穿梭机已损毁。[lodgersLabelSingOrPluralDef]将尝试步行离开。[failLetterEndingCommon]</Hospitality_Util_Worker.root.nodes.shuttleDestroyed.node.nodes.Letter.text.slateRef>
+  <!-- EN: Quest failed: [resolvedQuestName] -->
+  <Hospitality_Util_Worker.root.nodes.shuttleSentUnsatisfied.node.nodes.Letter.label.slateRef>任务失败：[resolvedQuestName]</Hospitality_Util_Worker.root.nodes.shuttleSentUnsatisfied.node.nodes.Letter.label.slateRef>
+  <!-- EN: The shuttle sent to collect [lodgersLabelSingOrPluralDef] has departed. [lodgersLabelSingOrPluralDef] will now leave on foot. [failLetterEndingCommon] -->
+  <Hospitality_Util_Worker.root.nodes.shuttleSentUnsatisfied.node.nodes.Letter.text.slateRef>被指派去装载[lodgersLabelSingOrPluralDef]的穿梭机已经起飞。[lodgersLabelSingOrPluralDef]将尝试步行离开。[failLetterEndingCommon]</Hospitality_Util_Worker.root.nodes.shuttleSentUnsatisfied.node.nodes.Letter.text.slateRef>
+  
+</LanguageData>

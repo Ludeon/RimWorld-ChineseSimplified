@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>allLodgerInfo->[healthInfo] [specialSkillsInfo] [minMoodInfo]</li>
+    <li>lodgersLabelSingOrPlural(lodgersCount==1)->[lodgers0_nameDef]</li>
+    <li>lodgersLabelSingOrPlural(lodgersCount>=2)->[lodgersLabelPlural]</li>
+    <li>lodgersLabelSingOrPluralDef(lodgersCount==1)->[lodgers0_nameDef]</li>
+    <li>lodgersLabelSingOrPluralDef(lodgersCount>=2)->the [lodgersLabelPlural]</li>
+    <li>healthInfo(lodgersAreDowned==true,lodgersCount==1,priority=1)->[lodgers0_nameDef] is injured and may not be able to walk.</li>
+    <li>healthInfo(lodgersAreDowned==true,lodgersCount>=2,priority=1)->the [lodgersLabelPlural] are injured and may not be able to walk.</li>
+    <li>healthInfo(lodgersAreSick==true,lodgersCount==1,priority=1)->[lodgers0_nameDef] is sick with [lodgersDisease_label].</li>
+    <li>healthInfo(lodgersAreSick==true,lodgersCount>=2,priority=1)->the [lodgersLabelPlural] are sick with [lodgersDisease_label].</li>
+    <li>healthInfo-></li>
+    <li>specialSkillsInfo(lodgersSpecialRequest==ExpertFighter,lodgersCount==1,priority=1)->[lodgers0_nameDef] is an expert fighter.</li>
+    <li>specialSkillsInfo(lodgersSpecialRequest==ExpertFighter,lodgersCount>=2,priority=1)->the [lodgersLabelPlural] are expert fighters.</li>
+    <li>specialSkillsInfo-></li>
+    <li>minMoodInfo(priority=1,lodgersCount==1)->You are required to keep [lodgers0_possessive] mood above [lodgersMoodThreshold_percent].</li>
+    <li>minMoodInfo(priority=1,lodgersCount>=2)->You are required to keep the [lodgersLabelPlural]' moods above [lodgersMoodThreshold_percent].</li>
+    <li>minMoodInfo-></li>
+    <li>commonDescEnding->[helpersParagraph][shuttleWillComeParagraph]\n\n[mustKeepOnMapParagraph]</li>
+    <li>enemyGroupsParagraph->Raids will arrive roughly once per [threatsIntervalTicks_duration]. The raids will be of similar size to this:\n\n[threatExample]</li>
+    <li>shuttleWillComeParagraph(lodgersCount==1)->After [shuttleDelayTicks_duration], a shuttle will arrive to collect [lodgers0_nameDef]. If you get [lodgers0_objective] onto the shuttle alive, [allRewardsDescriptions]</li>
+    <li>shuttleWillComeParagraph(lodgersCount>=2)->After [shuttleDelayTicks_duration], a shuttle will arrive to collect the [lodgersLabelPlural]. If you get them onto the shuttle alive, [allRewardsDescriptions]</li>
+    <li>mustKeepOnMapParagraph(lodgersCount==1)->You must keep [lodgers0_nameDef] at [map_definite] and not send [lodgers0_objective] anywhere else.</li>
+    <li>mustKeepOnMapParagraph(lodgersCount>=2)->You must keep the [lodgersLabelPlural] at [map_definite] and not send them anywhere else.</li>
+    <li>threatsInfoMechClustersSingleHuman->[lodgers0_nameDef] recently [mechViolation], and has been targeted by an orbiting mechanoid swarm. It will drop mechanoid combat clusters on [map_definite] as long as [lodgers0_nameDef] is present.</li>
+    <li>threatsInfoMechClustersMultiPrisoners->The prisoners recently [mechViolation], and have been targeted by an orbiting mechanoid swarm. It will drop mechanoid combat clusters on [map_definite] as long as they are present.</li>
+    <li>threatsInfoMechRaidsSingleHuman->[lodgers0_nameDef] recently [mechViolation], and has been targeted by a mechanoid hive. It will send mechanoid raids as long as [lodgers0_nameDef] is present.</li>
+    <li>threatsInfoMechRaidsMultiHuman->They recently [mechViolation], and have been targeted by a mechanoid hive. It will send mechanoid raids as long as they are present.</li>
+    <li>mechViolation->angered a machine persona somehow</li>
+    <li>mechViolation->violated an ancient supercomputer terminal</li>
+    <li>mechViolation->murdered a human child favored by an archotech</li>
+    <li>mechViolation->attempted to hack a mechanoid control node</li>
+    <li>mechViolation->attempted to steal from an ancient storage site</li>
+    <li>letterSubject->{SUBJECT_definite}</li>
+    <li>lodgersHasHave(lodgersCount==1)->has</li>
+    <li>lodgersHasHave(lodgersCount>=2)->have</li>
+    <li>remainingWillNowLeave(lodgersCount==1)-></li>
+    <li>remainingWillNowLeave(lodgersCount>=2)->Any remaining [lodgersLabelPlural] will now leave. </li>
+    <li>failLetterEndingCommon(askerIsNull==true,priority=1)->You have failed the quest '[resolvedQuestName]'.</li>
+    <li>failLetterEndingCommon->You have failed the quest '[resolvedQuestName]'.\n\nYour relations with [asker_faction_name] have decreased by [goodwillPenalty].</li>
+  -->
+  <QuestHospitalityCommon.rulePack.rulesStrings>
+    <li>allLodgerInfo->[healthInfo] [specialSkillsInfo] [minMoodInfo]</li>
+    <li>lodgersLabelSingOrPlural(lodgersCount==1)->[lodgers0_nameDef]</li>
+    <li>lodgersLabelSingOrPlural(lodgersCount>=2)->[lodgersLabelPlural]</li>
+    <li>lodgersLabelSingOrPluralDef(lodgersCount==1)->[lodgers0_nameDef]</li>
+    <li>lodgersLabelSingOrPluralDef(lodgersCount>=2)->[lodgersLabelPlural]</li>
+    <li>healthInfo(lodgersAreDowned==true,lodgersCount==1,priority=1)->[lodgers0_nameDef]受伤了，可能无法行动。</li>
+    <li>healthInfo(lodgersAreDowned==true,lodgersCount>=2,priority=1)->[lodgersLabelPlural]受伤了，可能无法行动。</li>
+    <li>healthInfo(lodgersAreSick==true,lodgersCount==1,priority=1)->[lodgers0_nameDef]患有[lodgersDisease_label]。</li>
+    <li>healthInfo(lodgersAreSick==true,lodgersCount>=2,priority=1)->[lodgersLabelPlural]患有[lodgersDisease_label]。</li>
+    <li>healthInfo-></li>
+    <li>specialSkillsInfo(lodgersSpecialRequest==ExpertFighter,lodgersCount==1,priority=1)->[lodgers0_nameDef]是一位战斗专家。</li>
+    <li>specialSkillsInfo(lodgersSpecialRequest==ExpertFighter,lodgersCount>=2,priority=1)->[lodgersLabelPlural]都是战斗专家。</li>
+    <li>specialSkillsInfo-></li>
+    <li>minMoodInfo(priority=1,lodgersCount==1)->你必须将[lodgers0_possessive]的心情保持在[lodgersMoodThreshold_percent]以上。</li>
+    <li>minMoodInfo(priority=1,lodgersCount>=2)->你必须将[lodgersLabelPlural]的心情保持在[lodgersMoodThreshold_percent]以上。</li>
+    <li>minMoodInfo-></li>
+    <li>commonDescEnding->[helpersParagraph][shuttleWillComeParagraph]\n\n[mustKeepOnMapParagraph]</li>
+    <li>enemyGroupsParagraph->袭击每[threatsIntervalTicks_duration]会发生一次。袭击规模与以下情况相当：\n\n[threatExample]</li>
+    <li>shuttleWillComeParagraph(lodgersCount==1)->在[shuttleDelayTicks_duration]后，一艘负责运送[lodgers0_nameDef]的穿梭机将会到达。如果您能将[lodgers0_objective]安全送上穿梭机，[allRewardsDescriptions]</li>
+    <li>shuttleWillComeParagraph(lodgersCount>=2)->在[shuttleDelayTicks_duration]后，一艘负责运送[lodgersLabelPlural]的穿梭机将会到达。如果您能将他们安全送上穿梭机，[allRewardsDescriptions]</li>
+    <li>mustKeepOnMapParagraph(lodgersCount==1)->您必须确保[lodgers0_nameDef]处于[map_definite]并且不会将[lodgers0_objective]派遣到其他任何地方。</li>
+    <li>mustKeepOnMapParagraph(lodgersCount>=2)->您必须确保[lodgersLabelPlural]处于[map_definite]并且不会将他们派遣到其他任何地方。</li>
+    <li>threatsInfoMechClustersSingleHuman->[lodgers0_nameDef]近期[mechViolation]，已经被在轨的大批机械族锁定。 只要[lodgers0_nameDef]存在，机械战斗群就将被投送到[map_definite]。</li>
+    <li>threatsInfoMechClustersMultiPrisoners->囚犯们近期[mechViolation]，已经被在轨的大批机械族锁定。只要囚犯存在，机械战斗群就将被投送到[map_definite]。</li>
+    <li>threatsInfoMechRaidsSingleHuman->[lodgers0_nameDef]近期[mechViolation]，已经被大批机械族锁定。只要[lodgers0_nameDef]存在，机械族袭击就会一直出现。</li>
+    <li>threatsInfoMechRaidsMultiHuman->他们近期[mechViolation]，已经被大批机械族锁定。只要他们存在，机械族袭击就会一直出现。</li>
+    <li>mechViolation->激怒了一个人工智能</li>
+    <li>mechViolation->妨碍了一个古老的超级终端</li>
+    <li>mechViolation->谋杀了一个受古代科技青睐的人类儿童</li>
+    <li>mechViolation->企图黑入机械族控制节点</li>
+    <li>mechViolation->试图从一个古代储存点盗窃</li>
+    <li>letterSubject->{SUBJECT_definite}</li>
+    <li>lodgersHasHave(lodgersCount==1)->有</li>
+    <li>lodgersHasHave(lodgersCount>=2)->有</li>
+    <li>remainingWillNowLeave(lodgersCount==1)-></li>
+    <li>remainingWillNowLeave(lodgersCount>=2)->现在所有剩余的[lodgersLabelPlural]都将离开。</li>
+    <li>failLetterEndingCommon(askerIsNull==true,priority=1)->您未能完成任务'[resolvedQuestName]'。</li>
+    <li>failLetterEndingCommon->您未能完成任务'[resolvedQuestName]'。\n\n您与[asker_faction_name]的关系下降[goodwillPenalty]。</li>
+  </QuestHospitalityCommon.rulePack.rulesStrings>
+  
+</LanguageData>

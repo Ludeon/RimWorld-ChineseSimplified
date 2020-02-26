@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questDescription->A [joiner_age]-year-old [joiner_title] named [joiner_nameFull] is calling for help! [joiner_pronoun] is hiding from [hidingFrom]. [joiner_pronoun] wants to flee and join you at [map_definite].[joiner_relationInfo]\n\n[condDesc]\n\nDesperate to stay hidden, [joiner_nameDef] claims to be unable to tell you more about [joiner_objective]self.</li>
+    <li>hidingFrom(gameCondition==ToxicFallout)->a pack of starving wolves</li>
+    <li>condDesc(gameCondition==ToxicFallout)->However, [joiner_nameDef] can only kill the wolves by setting fire to a massive toxic chemical dump nearby. [gameConditionDuration_duration] of toxic fallout will follow.</li>
+    <li>hidingFrom(gameCondition==VolcanicWinter)->a gang of cannibals</li>
+    <li>condDesc(gameCondition==VolcanicWinter)->However, [joiner_nameDef] can only kill the gang by setting fire to a massive abandoned garbage pile nearby. If [joiner_pronoun] comes to you, smoky fallout will block the sun for [gameConditionDuration_duration].</li>
+    <li>hidingFrom(gameCondition==EMIField)->a group of mechanoids</li>
+    <li>condDesc(gameCondition==EMIField)->However, [joiner_nameDef] can only destroy the mechanoids by activating an ancient EMI dynamo. If [joiner_pronoun] comes to you, an EMI field will be generated, shutting down electrical devices for [gameConditionDuration_duration].</li>
+    <li>hidingFrom(gameCondition==HeatWave)->a malfunctioning climate control satellite</li>
+    <li>condDesc(gameCondition==HeatWave)->If [joiner_pronoun] comes to you, an intense heat wave will last for [gameConditionDuration_duration] until the satellite resets.</li>
+    <li>hidingFrom(gameCondition==ColdSnap)->a malfunctioning climate control satellite</li>
+    <li>condDesc(gameCondition==ColdSnap)->If [joiner_pronoun] comes to you, an intense cold snap will last for [gameConditionDuration_duration] until the satellite resets.</li>
+    <li>hidingFrom(gameCondition==WeatherController)->a malfunctioning weather control satellite</li>
+    <li>condDesc(gameCondition==WeatherController)->If [joiner_pronoun] comes to you, the weather will be [forcedWeather_label] for [gameConditionDuration_duration] until the satellite resets.</li>
+    <li>hidingFrom(gameCondition==PsychicDrone)->a vengeful machine persona who [joiner_pronoun] recently offended</li>
+    <li>condDesc(gameCondition==PsychicDrone)->If [joiner_pronoun] comes to you, the machine mind will blast [map_definite] with a [psychicDroneGender]-tuned [psychicDroneLevel]-level psychic drone for [gameConditionDuration_duration], reducing mood of all [psychicDroneGender]s.</li>
+    <li>hidingFrom(gameCondition==PsychicSuppression)->a stirring machine persona who [joiner_pronoun] recently awoke</li>
+    <li>condDesc(gameCondition==PsychicSuppression)->If [joiner_pronoun] comes to you, the persona will hit [map_definite] with [psychicSuppressorGender]-tuned psychic suppression waves for [gameConditionDuration_duration], reducing consciousness of all [psychicSuppressorGender]s.</li>
+  -->
+  <ThreatReward_GameCondition_Joiner.questDescriptionRules.rulesStrings>
+    <li>questDescription->一位名叫[joiner_nameFull]的[joiner_age]岁[joiner_title]请求我们帮助！[joiner_pronoun]一直在躲避[hidingFrom]。[joiner_pronoun]想要到[map_definite]与你会合 。[joiner_relationInfo]\n\n[condDesc]\n\n由于联系我们会有极大风险，[joiner_nameDef]表示无法告知我们更多关于[joiner_objective]自己的情报。</li>
+    <li>hidingFrom(gameCondition==ToxicFallout)->一群饿狼</li>
+    <li>condDesc(gameCondition==ToxicFallout)->然而，[joiner_nameDef]只能通过放火引燃附近的一个大型剧毒化学废料场来杀死这些饿狼。因此接下来的[gameConditionDuration_duration]将会有持续的毒性物质沉降。</li>
+    <li>hidingFrom(gameCondition==VolcanicWinter)->一群食人族</li>
+    <li>condDesc(gameCondition==VolcanicWinter)->然而，[joiner_nameDef]只能通过放火引燃附近的一个大型垃圾堆来杀死这帮家伙。如果[joiner_pronoun]投奔你而来，放火导致的烟雾会在[gameConditionDuration_duration]内持续遮挡阳光。</li>
+    <li>hidingFrom(gameCondition==EMIField)->一群机械族</li>
+    <li>condDesc(gameCondition==EMIField)->然而，[joiner_nameDef]只能通过激活一台古老的电磁干扰装置来消灭这些机械族。如果[joiner_pronoun]投奔你而来，持续[gameConditionDuration_duration]的强电磁干扰将会关闭所有的电子设备。</li>
+    <li>hidingFrom(gameCondition==HeatWave)->一颗故障的气候控制卫星</li>
+    <li>condDesc(gameCondition==HeatWave)->如果[joiner_pronoun]投奔你而来，将会袭来一场持续[gameConditionDuration_duration]的非正常热浪，卫星系统自动重置后将会恢复正常。</li>
+    <li>hidingFrom(gameCondition==ColdSnap)->一颗故障的气候控制卫星</li>
+    <li>condDesc(gameCondition==ColdSnap)->如果[joiner_pronoun]投奔你而来，将会袭来一场持续[gameConditionDuration_duration]的非正常寒流，卫星系统自动重置后将会恢复正常。</li>
+    <li>hidingFrom(gameCondition==WeatherController)->一颗故障的天气控制卫星</li>
+    <li>condDesc(gameCondition==WeatherController)->如果[joiner_pronoun]投奔你而来，天气将会强制变为[forcedWeather_label]并持续[gameConditionDuration_duration]，卫星系统自动重置后将会恢复正常。</li>
+    <li>hidingFrom(gameCondition==PsychicDrone)->一台被[joiner_pronoun]冒犯的复仇机器</li>
+    <li>condDesc(gameCondition==PsychicDrone)->如果[joiner_pronoun]投奔你而来，机器意志将会把一台心灵干扰器调整为[psychicDroneLevel]级强度，并在[gameConditionDuration_duration]内持续向[map_definite]发射影响[psychicDroneGender]的心灵干扰，这将会使所有的[psychicDroneGender]殖民者情绪低落。</li>
+    <li>hidingFrom(gameCondition==PsychicSuppression)->一台被[joiner_pronoun]唤醒的混乱机器</li>
+    <li>condDesc(gameCondition==PsychicSuppression)->如果[joiner_pronoun]投奔你而来，机器意志将会[gameConditionDuration_duration]内持续向[map_definite]发射影响[psychicSuppressorGender]的心灵抑制波，这将会使所有[psychicSuppressorGender]殖民者的意识混乱。</li>
+  </ThreatReward_GameCondition_Joiner.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->[joiner_nameDef]'s [gameCondition_label]</li>
+    <li>questName->[joiner_nameDef] and the [gameCondition_label]</li>
+    <li>questName->the [gameCondition_label] and [joiner_nameDef]</li>
+  -->
+  <ThreatReward_GameCondition_Joiner.questNameRules.rulesStrings>
+    <li>questName->[joiner_nameDef]的[gameCondition_label]</li>
+    <li>questName->[joiner_nameDef]和[gameCondition_label]</li>
+    <li>questName->[gameCondition_label]与[joiner_nameDef]</li>
+  </ThreatReward_GameCondition_Joiner.questNameRules.rulesStrings>
+  
+  <!-- EN:
+    <li>questDescription->A [joiner_age]-year-old [joiner_title] named [joiner_nameDef] is calling from nearby. [joiner_pronoun] says giant insects are hunting [joiner_objective] after he poisoned an underground colony and they soaked [joiner_objective] in threat pheromones!\n\n[joiner_pronoun] begs for safety and offers to join you at [map_definite].[joiner_relationInfo]\n\nIf you accept [joiner_nameDef], a [hivesCount]-hive infestation will begin in [infestationDelayTicks_duration].\n\n[joiner_nameDef] is too frantic to offer more information.</li>
+  -->
+  <ThreatReward_Infestation_Joiner.questDescriptionRules.rulesStrings>
+    <li>questDescription->一个名叫[joiner_nameDef]的[joiner_age]岁[joiner_title]发来通信连接。[joiner_pronoun]说一群巨虫正在追猎[joiner_objective]，因为[joiner_objective]在毒杀一片巨虫巢穴的时候沾染了信息素！\n\n[joiner_pronoun]祈求我们的保护并且答应事后加入我们位于[map_definite]的殖民地。[joiner_relationInfo]\n\n如果你接受[joiner_nameDef]的祈求，一群拥有[hivesCount]个虫巢的巨虫将会在[infestationDelayTicks_duration]内出现。\n\n[joiner_nameDef]过于害怕以至于已经开始语无伦次，你也无法获得更多情报。</li>
+  </ThreatReward_Infestation_Joiner.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->[joiner_nameDef]'s infestation</li>
+    <li>questName->[joiner_nameDef]'s hives</li>
+    <li>questName->[joiner_nameDef]'s bugs</li>
+    <li>questName->[joiner_nameDef]'s insects</li>
+  -->
+  <ThreatReward_Infestation_Joiner.questNameRules.rulesStrings>
+    <li>questName->[joiner_nameDef]的虫害侵袭</li>
+    <li>questName->[joiner_nameDef]的巢穴侵袭</li>
+    <li>questName->[joiner_nameDef]的巨虫侵袭</li>
+    <li>questName->[joiner_nameDef]的昆虫侵袭</li>
+  </ThreatReward_Infestation_Joiner.questNameRules.rulesStrings>
+  <!-- EN: {BASETEXT}\n            \n[joiner_nameDef] is soaked in insect pheromones and is fleeing from an infestation. The pursuing insects will arrive shortly. -->
+  <ThreatReward_Infestation_Joiner.root.nodes.Util_JoinerThreat_Joiner.parms.customLetterText.value.slateRef>{BASETEXT}\n            \n[joiner_nameDef]正在逃离虫害侵袭并且沾满了信息素。追踪的虫子马上就会到来。</ThreatReward_Infestation_Joiner.root.nodes.Util_JoinerThreat_Joiner.parms.customLetterText.value.slateRef>
+  <!-- EN: {BASELABEL}: Chasing [joiner_nameDef] -->
+  <ThreatReward_Infestation_Joiner.root.nodes.Delay.node.nodes.Util_Infestation.parms.customLetterLabel.value.slateRef>{BASELABEL}：追逐[joiner_nameDef]</ThreatReward_Infestation_Joiner.root.nodes.Delay.node.nodes.Util_Infestation.parms.customLetterLabel.value.slateRef>
+  <!-- EN: {BASETEXT}\n                  \nThe insects are here for [joiner_nameDef]. -->
+  <ThreatReward_Infestation_Joiner.root.nodes.Delay.node.nodes.Util_Infestation.parms.customLetterText.value.slateRef>{BASETEXT}\n                  \n出现的这些虫子是为了追猎[joiner_nameDef]。</ThreatReward_Infestation_Joiner.root.nodes.Delay.node.nodes.Util_Infestation.parms.customLetterText.value.slateRef>
+  
+  <!-- EN:
+    <li>questDescription(animalCount==1)->A [joiner_age]-year-old [joiner_title] named [joiner_nameDef] is calling from nearby. [joiner_pronoun] says a manhunting [animalKind_label] is hunting [joiner_objective]!\n\n[joiner_pronoun] begs for safety and offers to join you at [map_definite].[joiner_relationInfo]\n\nIf you accept [joiner_nameDef], the manhunting [animalKind_label] will follow in [manhuntersDelayTicks_duration].\n\n[joiner_nameDef] is too frantic to offer more information.</li>
+    <li>manhunterArrivalLetterEnd(animalCount==1)->The [animalKind_label] is chasing [joiner_nameDef].</li>
+    <li>questDescription(animalCount>=2)->A [joiner_age]-year-old [joiner_title] named [joiner_nameDef] is calling from nearby. [joiner_pronoun] says a pack of [animalCount] manhunting [animalKind_labelPlural] are hunting [joiner_objective]!\n\n[joiner_pronoun] begs for safety and offers to join you at [map_definite].[joiner_relationInfo]\n\nIf you accept [joiner_nameDef], the manhunting [animalKind_labelPlural] will follow in [manhuntersDelayTicks_duration].\n\n[joiner_nameDef] is too frantic to offer more information.</li>
+    <li>manhunterArrivalLetterEnd(animalCount>=2)->The [animalKind_labelPlural] are chasing [joiner_nameDef].</li>
+  -->
+  <ThreatReward_Manhunters_Joiner.questDescriptionRules.rulesStrings>
+    <li>questDescription(animalCount==1)->一个名叫[joiner_nameDef]的[joiner_age]岁[joiner_title]发来通信连接。[joiner_pronoun]说一只疯狂的[animalKind_label]正在猎杀[joiner_objective]！\n\n[joiner_pronoun]祈求我们的保护并且答应事后加入我们位于[map_definite]的殖民地。[joiner_relationInfo]\n\n如果你接受[joiner_nameDef]的祈求，一只疯狂的[animalKind_label]将会在[manhuntersDelayTicks_duration]内出现。\n\n[joiner_nameDef]过于害怕以至于已经开始语无伦次，你也无法获得更多情报。</li>
+    <li>manhunterArrivalLetterEnd(animalCount==1)->[animalKind_label]正在追逐[joiner_nameDef].</li>
+    <li>questDescription(animalCount>=2)->一个名叫[joiner_nameDef]的[joiner_age]岁[joiner_title]发来通信连接。[joiner_pronoun]说一群疯狂的[animalKind_label]正在猎杀[joiner_objective]！\n\n[joiner_pronoun]祈求我们的保护并且答应事后加入我们位于[map_definite]的殖民地。[joiner_relationInfo]\n\n如果你接受[joiner_nameDef]的祈求，一群疯狂的[animalKind_label]将会在[manhuntersDelayTicks_duration]内出现。\n\n[joiner_nameDef]过于害怕以至于已经开始语无伦次，你也无法获得更多情报。</li>
+    <li>manhunterArrivalLetterEnd(animalCount>=2)->[animalKind_labelPlural]正在追逐[joiner_nameDef].</li>
+  </ThreatReward_Manhunters_Joiner.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName(animalCount==1)->[joiner_nameDef]'s [animalKind_label]</li>
+    <li>questName(animalCount==1)->[joiner_nameDef] and the [animalKind_label]</li>
+    <li>questName(animalCount==1)->the [animalKind_label] and [joiner_nameDef]</li>
+    <li>questName(animalCount>=2)->[joiner_nameDef]'s [animalKind_labelPlural]</li>
+    <li>questName(animalCount>=2)->[joiner_nameDef] and the [animalKind_labelPlural]</li>
+    <li>questName(animalCount>=2)->the [animalKind_labelPlural] and [joiner_nameDef]</li>
+  -->
+  <ThreatReward_Manhunters_Joiner.questNameRules.rulesStrings>
+    <li>questName(animalCount==1)->[joiner_nameDef]的[animalKind_label]</li>
+    <li>questName(animalCount==1)->[joiner_nameDef]和[animalKind_label]</li>
+    <li>questName(animalCount==1)->[animalKind_label]与[joiner_nameDef]</li>
+    <li>questName(animalCount>=2)->[joiner_nameDef]的[animalKind_labelPlural]</li>
+    <li>questName(animalCount>=2)->[joiner_nameDef]和[animalKind_labelPlural]</li>
+    <li>questName(animalCount>=2)->[animalKind_labelPlural]与[joiner_nameDef]</li>
+  </ThreatReward_Manhunters_Joiner.questNameRules.rulesStrings>
+  <!-- EN: {BASELABEL}: Chasing [joiner_nameDef] -->
+  <ThreatReward_Manhunters_Joiner.root.nodes.Delay.node.nodes.ManhunterPack.customLetterLabel.slateRef>{BASELABEL}：追逐[joiner_nameDef]</ThreatReward_Manhunters_Joiner.root.nodes.Delay.node.nodes.ManhunterPack.customLetterLabel.slateRef>
+  <!-- EN: {BASETEXT}\n\n[manhunterArrivalLetterEnd] -->
+  <ThreatReward_Manhunters_Joiner.root.nodes.Delay.node.nodes.ManhunterPack.customLetterText.slateRef>{BASETEXT}\n\n[manhunterArrivalLetterEnd]</ThreatReward_Manhunters_Joiner.root.nodes.Delay.node.nodes.ManhunterPack.customLetterText.slateRef>
+  
+  <!-- EN:
+    <li>questDescription->A [joiner_age]-year-old [joiner_title] named [joiner_nameDef] is calling from nearby. [joiner_pronoun] is begging to join you at [map_definite].[joiner_relationInfo]\n\nThere's some kind of threat following [joiner_nameDef], but [joiner_pronoun] is unwilling to say what it is or when it might follow. [joiner_pronoun] is also unwilling to tell you more about [joiner_objective]self.</li>
+  -->
+  <ThreatReward_MysteryThreat_Joiner.questDescriptionRules.rulesStrings>
+    <li>questDescription->一个名叫[joiner_nameDef]的[joiner_age]岁[joiner_title]发来通信连接。[joiner_pronoun]祈求加入你位于[map_definite]的殖民地。[joiner_relationInfo]\n\n在[joiner_nameDef]之后将会有一些袭击随之而来，不过[joiner_pronoun]不愿意告知这些事件的具体细节。而[joiner_pronoun]也不愿意过多谈论[joiner_objective]自己。</li>
+  </ThreatReward_MysteryThreat_Joiner.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->[joiner_nameDef]'s [problem]</li>
+    <li>questName->The [problem] of [joiner_nameDef]</li>
+    <li>problem->Problem</li>
+    <li>problem->Shame</li>
+    <li>problem->Secret</li>
+  -->
+  <ThreatReward_MysteryThreat_Joiner.questNameRules.rulesStrings>
+    <li>questName->[joiner_nameDef]的[problem]</li>
+    <li>questName->[joiner_nameDef]的[problem]</li>
+    <li>problem->麻烦</li>
+    <li>problem->耻辱</li>
+    <li>problem->秘密</li>
+  </ThreatReward_MysteryThreat_Joiner.questNameRules.rulesStrings>
+  <!-- EN: {BASELABEL} chasing [joiner_nameDef] -->
+  <ThreatReward_MysteryThreat_Joiner.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-0.nodes.Set-0.value.slateRef>{BASELABEL}追逐[joiner_nameDef]</ThreatReward_MysteryThreat_Joiner.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-0.nodes.Set-0.value.slateRef>
+  <!-- EN: [joiner_nameDef] has admitted what [joiner_pronoun] was fleeing from.\n    \n[joiner_pronoun] was supposed to marry the child of [enemyFaction_leader_nameFull], leader of [enemyFaction_name]. [joiner_pronoun] became drunk before the ceremony and vomited on the altar - a flagrant insult towards [enemyFaction_leader_nameDef]'s whole family.\n    \n[enemyFaction_leader_nameDef] swore to seek revenge on [joiner_nameDef] and all those associated with [joiner_objective], and sent [enemyFaction_pawnsPlural] to carry out the task.\n    \n{BASETEXT} -->
+  <ThreatReward_MysteryThreat_Joiner.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-0.nodes.Set-1.value.slateRef> [joiner_nameDef]已经向我们承认[joiner_pronoun]是逃出来的。\n    \n[joiner_pronoun]本来应该和[enemyFaction_name]首领[enemyFaction_leader_nameFull]的孩子结婚。[joiner_pronoun]在婚礼开始前醉酒并且呕吐在了仪式祭坛上，这一行为被认为是[enemyFaction_leader_nameDef]整个家族的奇耻大辱。\n    \n[enemyFaction_leader_nameDef]发誓将要报复[joiner_nameDef]和所有与[joiner_objective]有关的人，并且已经派出[enemyFaction_pawnsPlural]来执行这项任务。\n    \n{BASETEXT}</ThreatReward_MysteryThreat_Joiner.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-0.nodes.Set-1.value.slateRef>
+  <!-- EN: {BASELABEL}: Chasing [joiner_nameDef] -->
+  <ThreatReward_MysteryThreat_Joiner.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-1.nodes.Set-0.value.slateRef>{BASELABEL}：追逐[joiner_nameDef]</ThreatReward_MysteryThreat_Joiner.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-1.nodes.Set-0.value.slateRef>
+  <!-- EN: [joiner_nameDef] has admitted what [joiner_pronoun] was fleeing from.\n    \n[joiner_nameDef], greedy for the pleasures and money insect jelly can bring, intended to destroy a massive insect hive using poison. [joiner_pronoun] failed, but was doused in insect threat pheromones. Insects have been hunting [joiner_objective] ever since. Now they've launched their final attack.\n    \n{BASETEXT} -->
+  <ThreatReward_MysteryThreat_Joiner.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-1.nodes.Set-1.value.slateRef>[joiner_nameDef]已经向我们承认[joiner_pronoun]是逃出来的。\n    \n[joiner_nameDef]因为贪图虫胶巨大的价值，意图用毒剂摧毁一个巨大的虫巢。不过[joiner_pronoun]的计划不但失败了，还惹了一身的信息素。之后，虫子们一直在猎杀[joiner_objective]。现在面对虫子的最后一击吧。\n    \n{BASETEXT}</ThreatReward_MysteryThreat_Joiner.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-1.nodes.Set-1.value.slateRef>
+  <!-- EN: Site appeared to harass [joiner_nameDef]: [site_label] -->
+  <ThreatReward_MysteryThreat_Joiner.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-2.nodes.Set-0.value.slateRef>侵扰[joiner_nameDef]的据点出现：[site_label]</ThreatReward_MysteryThreat_Joiner.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-2.nodes.Set-0.value.slateRef>
+  <!-- EN: [joiner_nameDef] has admitted what [joiner_pronoun] was fleeing from.\n    \n[joiner_nameDef] was traveling when [joiner_pronoun] happened upon [enemyFaction_leader_nameFull], leader of [enemyFaction_name], sick on the side of the road. [joiner_nameDef] insulted [enemyFaction_leader_nameDef] by comparing [enemyFaction_leader_objective] to a [Animal].\n    \nNow [enemyFaction_leader_nameDef]'s [enemyFaction_pawnsPlural] are activating a site nearby to harass you.\n    \n[allSitePartsDescriptions] -->
+  <ThreatReward_MysteryThreat_Joiner.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-2.nodes.Set-1.value.slateRef>[joiner_nameDef]已经向我们承认[joiner_pronoun]是逃出来的。\n    \n[joiner_nameDef]当时正在在旅行，[joiner_pronoun]发现[enemyFaction_name]的首领[enemyFaction_leader_nameFull]病倒在路边。[joiner_nameDef]辱骂[enemyFaction_leader_nameDef]并将 [enemyFaction_leader_objective]比作一只[Animal]。\n    \n如今，[enemyFaction_leader_nameDef]的[enemyFaction_pawnsPlural]在附近建立了一个据点对你进行袭扰。\n    \n[allSitePartsDescriptions]</ThreatReward_MysteryThreat_Joiner.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-2.nodes.Set-1.value.slateRef>
+  <!-- EN: [joiner_nameDef] has admitted what [joiner_pronoun] was fleeing from.\n    \n[joiner_nameDef] was traveling when [joiner_pronoun] came upon a lost group of [animalKind_labelPlural]. [joiner_pronoun], in a bad mood, goaded the [animalKind_labelPlural]. Unexpectedly, they attacked [joiner_objective]. And they have followed [joiner_objective] a long distance.\n    \n{BASETEXT} -->
+  <ThreatReward_MysteryThreat_Joiner.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-3.nodes.Set-1.value.slateRef>[joiner_nameDef]已经向我们承认[joiner_pronoun]是逃出来的。\n    \n[joiner_nameDef]当时正在在旅行，[joiner_pronoun]遇到了一群[animalKind_labelPlural]。[joiner_pronoun]当时心情很糟，做了一些不理智的行为激怒了[animalKind_labelPlural]。没想到，它们开始攻击[joiner_objective]，并且一路追杀[joiner_objective]。\n    \n{BASETEXT}</ThreatReward_MysteryThreat_Joiner.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-3.nodes.Set-1.value.slateRef>
+  
+  <!-- EN:
+    <li>questDescription->A [joiner_age]-year-old [joiner_title] named [joiner_nameDef] is calling from nearby. [joiner_pronoun] admits [joiner_pronoun] profaned a peace ritual between [raid1/enemyFaction_name] and [raid2/enemyFaction_name]. Now they are both chasing [joiner_objective]!\n\n[joiner_pronoun] begs for safety and offers to join you at [map_definite].[joiner_relationInfo]\n\nIf you accept [joiner_nameDef], both [raid1/enemyFaction_name] and [raid2/enemyFaction_name] will raid you in [raidDelayTicks_duration].\n\n[joiner_nameDef] is too frantic to offer more information.</li>
+  -->
+  <ThreatReward_RaidMultiFaction_Joiner.questDescriptionRules.rulesStrings>
+    <li>questDescription->一个名叫[joiner_nameDef]的[joiner_age]岁[joiner_title]发来通信连接。 [joiner_pronoun]向我们承认[joiner_pronoun]亵渎了[raid1/enemyFaction_name]和[raid2/enemyFaction_name]之间的和平仪式。现在，两方都在追捕[joiner_objective]！\n\n[joiner_pronoun]祈求我们的保护并且答应事后加入我们位于[map_definite]的殖民地。[joiner_relationInfo]\n\n如果你接纳[joiner_nameDef]，[raid1/enemyFaction_name]和[raid2/enemyFaction_name]都将会在[raidDelayTicks_duration]内袭击你。\n\n[joiner_nameDef]过于害怕以至于已经开始语无伦次，你也无法获得更多情报。</li>
+  </ThreatReward_RaidMultiFaction_Joiner.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->[joiner_nameDef]'s Many Friends</li>
+    <li>questName->[joiner_nameDef]'s Many Enemies</li>
+  -->
+  <ThreatReward_RaidMultiFaction_Joiner.questNameRules.rulesStrings>
+    <li>questName->[joiner_nameDef]的许多朋友</li>
+    <li>questName->[joiner_nameDef]的许多敌人</li>
+  </ThreatReward_RaidMultiFaction_Joiner.questNameRules.rulesStrings>
+  <!-- EN: {BASELABEL} chasing [../joiner_nameDef] -->
+  <ThreatReward_RaidMultiFaction_Joiner.root.nodes.Delay.node.nodes.Util_Raid.parms.customLetterLabel.value.slateRef>{BASELABEL}追逐[../joiner_nameDef]</ThreatReward_RaidMultiFaction_Joiner.root.nodes.Delay.node.nodes.Util_Raid.parms.customLetterLabel.value.slateRef>
+  <!-- EN: {BASETEXT}\n                  \nThe [enemyFaction_pawnsPlural] are coming for [../joiner_nameFull]. -->
+  <ThreatReward_RaidMultiFaction_Joiner.root.nodes.Delay.node.nodes.Util_Raid.parms.customLetterText.value.slateRef>{BASETEXT}\n                  \n[enemyFaction_pawnsPlural] 是为[../joiner_nameFull]而来。</ThreatReward_RaidMultiFaction_Joiner.root.nodes.Delay.node.nodes.Util_Raid.parms.customLetterText.value.slateRef>
+  <!-- EN: {BASETEXT}\n                        \nThe [enemyFaction_pawnsPlural] are coming for [../joiner_nameFull]. -->
+  <ThreatReward_RaidMultiFaction_Joiner.root.nodes.Delay.node.nodes.Delay.node.nodes.Util_Raid.parms.customLetterText.value.slateRef>{BASETEXT}\n                        \n[enemyFaction_pawnsPlural]是为[../joiner_nameFull]而来。</ThreatReward_RaidMultiFaction_Joiner.root.nodes.Delay.node.nodes.Delay.node.nodes.Util_Raid.parms.customLetterText.value.slateRef>
+  
+  <!-- EN:
+    <li>questDescription->A [joiner_age]-year-old [joiner_title] named [joiner_nameFull] is calling from nearby. [joiner_pronoun] is hiding from [threat]. [joiner_pronoun] wants to flee [joiner_possessive] hiding spot and join you at [map_definite].[joiner_relationInfo]\n\nIf you accept [joiner_objective], [joinersEnemies] will set up a site nearby to harass you. [site/allSitePartsDescriptions]\n\nThe threat will remain until you go to destroy it.</li>
+    <li>threat(priority=1)->[site/enemyFaction_pawnsPlural] of [site/enemyFaction_name]</li>
+    <li>threat->unknown enemies</li>
+    <li>joinersEnemies(priority=1)->[site/enemyFaction_name]</li>
+    <li>joinersEnemies->[joiner_possessive] enemies</li>
+  -->
+  <ThreatReward_SiteThreat_Joiner.questDescriptionRules.rulesStrings>
+    <li>questDescription->一个名叫[joiner_nameFull]的[joiner_age]岁[joiner_title]发来通信连接。[joiner_pronoun]正在躲避[threat]。[joiner_pronoun]想要从[joiner_possessive]的隐藏地逃出来并加入你位于[map_definite]的殖民地。[joiner_relationInfo]\n\n如果你接纳[joiner_objective]，[joinersEnemies]将会在附近建立一个袭扰据点。[site/allSitePartsDescriptions]\n\n摧毁这个据点，否则对你的袭击将会源源不断。</li>
+    <li>threat(priority=1)->[site/enemyFaction_name]的[site/enemyFaction_pawnsPlural]</li>
+    <li>threat->未知敌人</li>
+    <li>joinersEnemies(priority=1)->[site/enemyFaction_name]</li>
+    <li>joinersEnemies->[joiner_possessive]的敌人</li>
+  </ThreatReward_SiteThreat_Joiner.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->[joiner_nameDef]'s [site/site_label]</li>
+    <li>questName->[joiner_nameDef] and the [site/site_label]</li>
+    <li>questName->the [site/site_label] and [joiner_nameDef]</li>
+  -->
+  <ThreatReward_SiteThreat_Joiner.questNameRules.rulesStrings>
+    <li>questName->[joiner_nameDef]的[site/site_label]</li>
+    <li>questName->[joiner_nameDef]和[site/site_label]</li>
+    <li>questName->[site/site_label]与[joiner_nameDef]</li>
+  </ThreatReward_SiteThreat_Joiner.questNameRules.rulesStrings>
+  <!-- EN: Since you accepted [../joiner_nameDef], [../threat] have set up a nearby site to harass you.\n                    \n[allSitePartsDescriptions] -->
+  <ThreatReward_SiteThreat_Joiner.root.nodes.Delay.node.nodes.Util_SpawnSiteThreat.parms.customLetterText.value.slateRef>当你接纳[../joiner_nameDef]后，[../threat]已经在附近建立了一个袭扰据点。\n                    \n[allSitePartsDescriptions]</ThreatReward_SiteThreat_Joiner.root.nodes.Delay.node.nodes.Util_SpawnSiteThreat.parms.customLetterText.value.slateRef>
+  
+</LanguageData>

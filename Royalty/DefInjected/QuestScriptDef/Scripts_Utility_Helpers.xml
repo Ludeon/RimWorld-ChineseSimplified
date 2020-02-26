@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: helperKind -->
+  <Util_ChooseRandomQuestHelperKind.root.nodes.GetRandomPawnKindForFaction.storeAs.slateRef>帮助者类型</Util_ChooseRandomQuestHelperKind.root.nodes.GetRandomPawnKindForFaction.storeAs.slateRef>
+  
+  <!-- EN:
+    <li>helpersParagraph(helpersCount==0)-></li>
+    <li>helpersParagraph(helpersCount==1)->[asker_nameDef] will send a [helperKind_label] to assist you under your control. You will have to feed and house [helpers0_objective], but [helpers0_pronoun] may die in battle without consequence.\n\n</li>
+    <li>helpersParagraph(helpersCount>=2)->[asker_nameDef] will send [helpersCount] [helperKind_labelPlural] to assist you under your control. You will have to feed and house them, but they may die in battle without consequence.\n\n</li>
+    <li>helpersArrivalLetterEnd(helpersCount==0)-></li>
+    <li>helpersArrivalLetterEnd(helpersCount>=1)->\n\n[helpersCount] [helpersLabelSingOrPlural] [helpersHasHave] been sent to assist you.</li>
+    <li>helpersLabelSingOrPlural(helpersCount==1)->[helperKind_label]</li>
+    <li>helpersLabelSingOrPlural(helpersCount>=2)->[helperKind_labelPlural]</li>
+    <li>helpersHasHave(helpersCount==1)->has</li>
+    <li>helpersHasHave(helpersCount>=2)->have</li>
+    <li>helpersIsAre(helpersCount==1)->is</li>
+    <li>helpersIsAre(helpersCount>=2)->are</li>
+  -->
+  <Util_MaybeGenerateHelpers.questDescriptionRules.rulesStrings>
+    <li>helpersParagraph(helpersCount==0)-></li>
+    <li>helpersParagraph(helpersCount==1)->[asker_nameDef]派出的[helperKind_label]将会听命于你。你需要为[helpers0_objective]提供各种基本生活条件，而且[helpers0_pronoun]在战斗中英勇牺牲的话，其派系也不会迁怒于你。\n\n</li>
+    <li>helpersParagraph(helpersCount>=2)->[asker_nameDef]派出的[helpersCount]个[helperKind_labelPlural]将会听命于你。你需要为这些人提供各种基本生活条件，而且他们在战斗中英勇牺牲的话，其派系也不会迁怒于你。\n\n</li>
+    <li>helpersArrivalLetterEnd(helpersCount==0)-></li>
+    <li>helpersArrivalLetterEnd(helpersCount>=1)->\n\n[helpersCount]个[helpersLabelSingOrPlural][helpersHasHave]前来协助你。</li>
+    <li>helpersLabelSingOrPlural(helpersCount==1)->[helperKind_label]</li>
+    <li>helpersLabelSingOrPlural(helpersCount>=2)->[helperKind_labelPlural]</li>
+    <li>helpersHasHave(helpersCount==1)->已经</li>
+    <li>helpersHasHave(helpersCount>=2)->已经</li>
+    <li>helpersIsAre(helpersCount==1)->是</li>
+    <li>helpersIsAre(helpersCount>=2)->是</li>
+  </Util_MaybeGenerateHelpers.questDescriptionRules.rulesStrings>
+  <!-- EN: [helpersLabelSingOrPlural] arrived -->
+  <Util_MaybeGenerateHelpers.root.nodes.IsNull.elseNode.elseNode.node.nodes.DropPods.customLetterLabel.slateRef>[helpersLabelSingOrPlural]已抵达</Util_MaybeGenerateHelpers.root.nodes.IsNull.elseNode.elseNode.node.nodes.DropPods.customLetterLabel.slateRef>
+  <!-- EN: The [helpersLabelSingOrPlural] sent by [asker_nameDef] [helpersHasHave] arrived to aid you with the quest '[resolvedQuestName]'. -->
+  <Util_MaybeGenerateHelpers.root.nodes.IsNull.elseNode.elseNode.node.nodes.DropPods.customLetterText.slateRef>[asker_nameDef][helpersHasHave]向你派出[helpersLabelSingOrPlural]进行支援，随后将协助你执行'[resolvedQuestName]'任务。</Util_MaybeGenerateHelpers.root.nodes.IsNull.elseNode.elseNode.node.nodes.DropPods.customLetterText.slateRef>
+  <!-- EN: [helpersLabelSingOrPlural] leaving -->
+  <Util_MaybeGenerateHelpers.root.nodes.IsNull.elseNode.elseNode.node.nodes.Delay.node.nodes.Letter.label.slateRef>[helpersLabelSingOrPlural]正在离开</Util_MaybeGenerateHelpers.root.nodes.IsNull.elseNode.elseNode.node.nodes.Delay.node.nodes.Letter.label.slateRef>
+  <!-- EN: The [helpersLabelSingOrPlural] sent by [asker_nameDef] to aid you [helpersHasHave] spent too much time with you, and [helpersIsAre] now leaving. -->
+  <Util_MaybeGenerateHelpers.root.nodes.IsNull.elseNode.elseNode.node.nodes.Delay.node.nodes.Letter.text.slateRef>由[asker_nameDef]向你派出以支援任务工作的[helpersLabelSingOrPlural][helpersHasHave]在你这里消耗了太多时间，现在[helpersIsAre]离开的时候了。</Util_MaybeGenerateHelpers.root.nodes.IsNull.elseNode.elseNode.node.nodes.Delay.node.nodes.Letter.text.slateRef>
+  
+</LanguageData>

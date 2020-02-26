@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: attended concert -->
+  <AttendedConcert.label>参加音乐会</AttendedConcert.label>
+  <!-- EN:
+    <li>tale_noun->[ATTENDER_nameDef] attending [ORGANIZER_nameDef]'s concert</li>
+    <li>tale_noun->[ATTENDER_nameDef] listening to [ORGANIZER_nameDef]'s performance</li>
+    <li>image->[ATTENDER_nameFull] listening quietly, [circumstance_group]</li>
+    <li>image->[ATTENDER_nameFull] enjoying [ORGANIZER_nameFull]'s performance [circumstance_group]</li>
+    <li>image->[ATTENDER_nameFull] swaying to the music [circumstance_group]</li>
+    <li>image->[ATTENDER_nameFull] absorbed in the sound [circumstance_group]</li>
+    <li>circumstance_phrase->while clapping</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s dance along.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s listen attentively.</li>
+  -->
+  <AttendedConcert.rulePack.rulesStrings>
+    <li>tale_noun->[ATTENDER_nameDef]正在参加[ORGANIZER_nameDef]举办的音乐会</li>
+    <li>tale_noun->[ATTENDER_nameDef]在听[ORGANIZER_nameDef]的音乐表演</li>
+    <li>image->[ATTENDER_nameFull]静静地听着，[circumstance_group]</li>
+    <li>image->[ATTENDER_nameFull]在欣赏[ORGANIZER_nameFull]的音乐表演，[circumstance_group]</li>
+    <li>image->[ATTENDER_nameFull]随着节奏而动，[circumstance_group]</li>
+    <li>image->[ATTENDER_nameFull]沉浸在音乐中，[circumstance_group]</li>
+    <li>circumstance_phrase->同时伴随着掌声</li>
+    <li>desc_sentence->[Quantity_adjphrase][PersonJob]在一旁跳起舞来。</li>
+    <li>desc_sentence->[Quantity_adjphrase][Animal]专注地听。</li>
+  </AttendedConcert.rulePack.rulesStrings>
+  
+  <!-- EN: held concert -->
+  <HeldConcert.label>举办音乐会</HeldConcert.label>
+  <!-- EN:
+    <li>tale_noun->[ORGANIZER_nameDef] performing a concert</li>
+    <li>image->[ORGANIZER_nameFull] playing their signature song [circumstance_group]</li>
+    <li>image->[ORGANIZER_nameFull] inviting the crowd to sing along</li>
+    <li>image->[ORGANIZER_nameFull] playing an inspiring song</li>
+    <li>image->[ORGANIZER_nameFull] performing a difficult piece [circumstance_group]</li>
+    <li>circumstance_phrase->with an intense expression</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s listen nearby.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s listen nearby.</li>
+  -->
+  <HeldConcert.rulePack.rulesStrings>
+    <li>tale_noun->[ORGANIZER_nameDef]正在举办一场音乐会</li>
+    <li>image->[ORGANIZER_nameFull]正在演奏[ORGANIZER__pronoun]的成名曲，[circumstance_group]</li>
+    <li>image->[ORGANIZER_nameFull]正在邀请现场观众一起演唱</li>
+    <li>image->[ORGANIZER_nameFull]正在演唱一首热门歌曲</li>
+    <li>image->[ORGANIZER_nameFull]正在进行高难度的表演，[circumstance_group]</li>
+    <li>circumstance_phrase->带着强烈的感情</li>
+    <li>desc_sentence->[Quantity_adjphrase][PersonJob]在一旁欣赏。</li>
+    <li>desc_sentence->[Quantity_adjphrase][Animal]在一旁聆听。</li>
+  </HeldConcert.rulePack.rulesStrings>
+  
+</LanguageData>

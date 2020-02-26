@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- Royal titles -->
+  <!-- EN: {TITLE} title lost: {PAWN_labelShort} -->
+  <LetterLabelLostRoyalTitle>{TITLE}头衔丢失: {PAWN_labelShort}</LetterLabelLostRoyalTitle>
+  <!-- EN: {TITLE} title gained: {PAWN_labelShort} -->
+  <LetterLabelGainedRoyalTitle>{TITLE}头衔获得: {PAWN_labelShort}</LetterLabelGainedRoyalTitle>
+
+  <!-- EN: {PAWN_pronoun} must be dressed in apparel of {1} quality or better. -->
+  <LetterRoyalTitleApparelQualityRequirement>{PAWN_pronoun}必须穿着品质为{1}或更高的品质的服装。</LetterRoyalTitleApparelQualityRequirement>
+  <!-- EN: {PAWN_pronoun} wants to be covered in apparel appropriate to {PAWN_possessive} title: -->
+  <LetterRoyalTitleApparelRequirement>{PAWN_pronoun}希望穿着适合{PAWN_possessive}头衔的服装:</LetterRoyalTitleApparelRequirement>
+  <!-- EN: {PAWN_possessive} expectations will never be less than {1}. -->
+  <LetterRoyalTitleExpectation>{PAWN_possessive}期望永远不会低于{1}。</LetterRoyalTitleExpectation>
+
+  <!-- EN: {PAWN_labelShort} recieved the title of {TITLE} from {FACTION_name}! -->
+  <LetterGainedRoyalTitle>{PAWN_labelShort}从{FACTION_name}获得了{TITLE}的头衔！</LetterGainedRoyalTitle>
+  <!-- EN: {PAWN_labelShort} no longer holds the title of {TITLE} with {FACTION_name}. -->
+  <LetterLostRoyalTitle>{PAWN_labelShort}不再带有{FACTION_name}的{TITLE}头衔。</LetterLostRoyalTitle>
+
+  <!-- EN: {PAWN_pronoun} has these permissions: -->
+  <LetterRoyalTitlePermits>{PAWN_pronoun}获得以下权限:</LetterRoyalTitlePermits>
+  <!-- EN: {PAWN_pronoun} lost these permissions: -->
+  <LetterRoyalTitleLostPermits>{PAWN_pronoun}失去以下权限:</LetterRoyalTitleLostPermits>
+
+  <!-- EN: {PAWN_pronoun} is not willing to do these work types:\n{1} -->
+  <LetterRoyalTitleDisabledWorkTag>{PAWN_pronoun}不愿意做以下的工作类型:\n{1}</LetterRoyalTitleDisabledWorkTag>
+
+  <!-- EN: {PAWN_pronoun} demands this recreation: -->
+  <LetterRoyalTitleEnabledJoyKind>{PAWN_pronoun}需要此娱乐活动:</LetterRoyalTitleEnabledJoyKind>
+  <!-- EN: {PAWN_pronoun} demands this recreation: -->
+  <LetterRoyalTitleStillEnabledJoyKind>{PAWN_pronoun}需要此娱乐活动:</LetterRoyalTitleStillEnabledJoyKind>
+  <!-- EN: {PAWN_pronoun} refuses this recreation: -->
+  <LetterRoyalTitleDisabledJoyKind>{PAWN_pronoun}拒绝此娱乐活动:</LetterRoyalTitleDisabledJoyKind>
+  <!-- EN: {PAWN_pronoun} refuses this recreation: -->
+  <LetterRoyalTitleStillDisabledJoyKind>{PAWN_pronoun}拒绝此娱乐活动:</LetterRoyalTitleStillDisabledJoyKind>
+
+  <!-- EN: {PAWN_pronoun} is allowed to use these implants:{1} -->
+  <LetterRoyalTitleAllowedImplants>{PAWN_pronoun}被允许使用以下植入物:{1}</LetterRoyalTitleAllowedImplants>
+  <!-- EN: {PAWN_pronoun} is no longer allowed to use these implants:{1} -->
+  <LetterRoyalTitleImplantsMustBeRemoved>{PAWN_pronoun}不再被允许使用以下植入物:{1}</LetterRoyalTitleImplantsMustBeRemoved>
+  <!-- EN: The implants must be extracted within a five-day grace period to avoid diplomatic consequences. -->
+  <LetterRoyalTitleImplantGracePeriod>必须在五天的限期内提取植入物，以避免产生外交后果。</LetterRoyalTitleImplantGracePeriod>
+  <!-- EN: {PAWN_pronoun} has developed a new need for authority. Satisfying this means constructing an appropriate throneroom {PAWN_pronoun} may sit and reign on a regular basis. -->
+  <LetterRoyalTitleAuthorityNeed>{PAWN_pronoun}对威严有了新的需求。满足此要求意味着可以定期修建一个适当的宝座供{PAWN_pronoun}进行统治。</LetterRoyalTitleAuthorityNeed>
+  <!-- EN: {PAWN_pronoun} demands a throneroom that meets these requirements:{1} -->
+  <LetterRoyalTitleThroneroomRequirements>满足{PAWN_pronoun}要求的有以下宝座:{1}</LetterRoyalTitleThroneroomRequirements>
+  <!-- EN: {PAWN_pronoun} demands a bedroom that meets these requirements:{1} -->
+  <LetterRoyalTitleBedroomRequirements>符合{PAWN_pronoun}卧室需求的条件有:{1}</LetterRoyalTitleBedroomRequirements>
+  <!-- EN: {PAWN_pronoun} will only eat these foods:{1} -->
+  <LetterRoyalTitleFoodRequirements>{PAWN_pronoun}只吃以下食物:{1}</LetterRoyalTitleFoodRequirements>
+
+  <!-- EN: {PAWN_pronoun} will receive the following items via transport pod:{1} -->
+  <LetterRoyalTitleRewardGranted>{PAWN_pronoun}将通过空投舱接收以下物品:{1}</LetterRoyalTitleRewardGranted>
+  <!-- EN: {PAWN_labelShort} has gained {1} {FACTION_royalFavorLabel} from {FACTION_name}. -->
+  <PeaceTalksRoyalFavorGain>{PAWN_labelShort}已从{FACTION_name}获得{1}{FACTION_royalFavorLabel}。</PeaceTalksRoyalFavorGain>
+
+  <!-- Royal heritage-->
+  <!-- EN: If {PAWN_pronoun} dies, this title will be inherited by {HEIR_nameFull}. -->
+  <LetterRoyalTitleHeir>如果{PAWN_pronoun}去世，则此头衔将被{HEIR_nameFull}所继承。</LetterRoyalTitleHeir>
+  <!-- EN: If {PAWN_pronoun} dies, no one will inherit this title. -->
+  <LetterRoyalTitleNoHeir>如果{PAWN_pronoun}去世，没有人能继承此头衔。</LetterRoyalTitleNoHeir>
+  <!-- EN: {PAWN_nameFull} is a member of {FACTION_name}. -->
+  <LetterRoyalTitleHeirFactionWarning>{PAWN_nameFull}是{FACTION_name}的成员。</LetterRoyalTitleHeirFactionWarning>
+  <!-- EN: A new heir can be chosen by contacting {FACTION_name} through a comms console. -->
+  <LetterRoyalTitleChangingHeir>你可以通过通讯台与{FACTION_name}联系来指定新的继承人。</LetterRoyalTitleChangingHeir>
+  <!-- EN: Heir lost -->
+  <LetterTitleHeirLostLabel>继承者死了</LetterTitleHeirLostLabel>
+  <!-- EN: {HEIR_nameFull} has died, leaving {HOLDER_labelShort} with no heir for the title recieved from {FACTION_name}. You can contact {FACTION_name} through a comms console to designate a new heir. -->
+  <LetterTitleHeirLost>{HEIR_nameFull}死亡，{HOLDER_labelShort}没有继承自{FACTION_name}的头衔。你可以通过通讯台与{FACTION_name}联系，以指定新的继承人。</LetterTitleHeirLost>
+
+  <!-- EN: Title inheritance -->
+  <LetterTitleInheritance>头衔继承</LetterTitleInheritance>
+  <!-- EN: Since {PAWN_nameFull} died, {PAWN_possessive} titles have been transferred to {PAWN_possessive} heirs according to the laws of the title-granting factions. -->
+  <LetterTitleInheritance_Base>自从{PAWN_nameFull}逝世后，{PAWN_possessive}头衔已根据授予头衔的派系之律法传授给{PAWN_possessive}继承人。</LetterTitleInheritance_Base>
+  <!-- EN: {PAWN_possessive} {TITLE} title was inherited by {HEIR_nameFull}, according to the succession laws of {FACTION_name}. It replaced {HEIR_possessive} {REPLACEDTITLE} title. -->
+  <LetterTitleInheritance_AsReplacement>根据{FACTION_name}的继承规则，{PAWN_possessive} {TITLE}头衔均由{HEIR_nameFull}来继承。取代了{HEIR_possessive} {REPLACEDTITLE}头衔。</LetterTitleInheritance_AsReplacement>
+  <!-- EN: {PAWN_possessive} {TITLE} title would have been inherited by {HEIR_nameFull} according to the succession laws of {FACTION_name}, but {HEIR_pronoun} already had a {HIGHERTITLE} title. -->
+  <LetterTitleInheritance_NoEffectHigherTitle>根据{FACTION_name}的继承规则，{PAWN_possessive} {TITLE}头衔由{HEIR_nameFull}来继承。但是{HEIR_pronoun}已拥有了{HIGHERTITLE}头衔。</LetterTitleInheritance_NoEffectHigherTitle>
+  <!-- EN: {PAWN_possessive} {TITLE} title was inherited by {HEIR_nameFull} according to the succession laws of {FACTION_name}. -->
+  <LetterTitleInheritance_WasInherited>{PAWN_possessive}{TITLE}头衔是根据{FACTION_name}的继承法由{HEIR_nameFull}继承的。</LetterTitleInheritance_WasInherited>
+  <!-- EN: {PAWN_possessive} {TITLE} title was not inherited by anyone, since {PAWN_pronoun} had no designated heir for this title. -->
+  <LetterTitleInheritance_NoHeirFound>{PAWN_possessive}{TITLE}头衔未被任何人继承，因为{PAWN_pronoun}没有指定该头衔的继承人。</LetterTitleInheritance_NoHeirFound>
+
+  <!-- Royal implant violations -->
+  <!-- EN: Lawbreaker: {PAWN_labelShort} -->
+  <LetterLawViolationDetectedLabel>违法者: {PAWN_labelShort}</LetterLawViolationDetectedLabel>
+  <!-- EN: {FACTION_name} has detected {PAWN_labelShort}'s illegal use of: {CULPRIT} (detection chance {CHANCE}).\n\nAccording to the laws of {FACTION_name}, only those who hold the title of {TITLE} are allowed to use {CULPRIT}.\n\nAs a penalty, your faction relations have fallen by {GOODWILL}. -->
+  <LetterLawViolationDetectedForbiddenThingUse>{FACTION_name}检测到{PAWN_labelShort}被非法使用: {CULPRIT} (detection chance {CHANCE}).\n\n根据{FACTION_name}的法律，只有拥有{TITLE}头衔的人才能使用{CULPRIT}。\n\n作为惩罚，与你的派系关系下降了{GOODWILL}。</LetterLawViolationDetectedForbiddenThingUse>
+
+  <!-- Throne Speech -->
+  <!-- EN: {ORGANIZER_labelShort} has finished {ORGANIZER_possessive} speech. -->
+  <LetterFinishedSpeech>{ORGANIZER_labelShort}完成了{ORGANIZER_possessive}演讲。</LetterFinishedSpeech>
+  <!-- EN: It was truly atrocious - halting, full of awkward jokes and depressing stories. -->
+  <LetterTerribleSpeech>这真是太糟糕了————口齿不清的语调里，充满了令人啼笑喈非的措词和无聊透顶的故事。</LetterTerribleSpeech>
+  <!-- EN: It was uninspiring - unoriginal, droning and lacking any sense of passion. -->
+  <LetterUninspiringSpeech>真的是平平无奇——陈词滥调，乏味的语句里没有一丝激情可言。</LetterUninspiringSpeech>
+  <!-- EN: It was encouraging and well-delivered. -->
+  <LetterEncouragingSpeech>令人感到鼓舞，传递的信息十分明确。</LetterEncouragingSpeech>
+  <!-- EN: It was remarkably inspiring, full of intensity and purpose. -->
+  <LetterInspirationalSpeech>激情澎湃的演说，充满了昂扬的斗志与坚定的目标。</LetterInspirationalSpeech>
+  <!-- EN: Because the speech was interrupted after only {0} completed, it wasn't as effective. -->
+  <LetterSpeechInterrupted>由于演讲进度在{0}后被打断，因此效果不佳。</LetterSpeechInterrupted>
+  <!-- EN: {ORGANIZER_bestRoyalTitleDef}'s speech was cancelled before reaching 50% completion. It had no effect. -->
+  <LetterSpeechCancelled>{ORGANIZER_bestRoyalTitleDef}的演讲已被取消，并未过半。因此没有效果。</LetterSpeechCancelled>
+  <!-- EN: Speech cancelled -->
+  <LetterLabelSpeechCancelled>演讲被取消了</LetterLabelSpeechCancelled>
+
+  <!-- Wild decree mental break -->
+  <!-- EN: Wild decree -->
+  <WildDecree>残酷勒令</WildDecree>
+  <!-- EN: {0_nameIndef} issues decree -->
+  <LetterLabelRandomDecree>{0_nameIndef}颁布了法令</LetterLabelRandomDecree>
+  <!-- EN: {0_nameIndef}, in an attempt to release {0_possessive} stress, has issued a wild royal decree and is now demanding that it be carried out.
+    \nIf it isn't carried out in good time, {0_nameIndef} will become very unhappy. -->
+  <LetterDecreeMentalBreak>为了释放{0_possessive}压力，{0_nameIndef}发布了一项疯狂的皇家法令，现在要求立即执行该法令。\n    \n如果没有及时执行，{0_nameIndef}将变得非常不高兴。</LetterDecreeMentalBreak>
+  <!-- EN: {0_nameIndef}, in order to affirm {0_possessive} title of {0_bestRoyalTitleIndef}, has issued a decree and is now demanding that it be carried out.
+    \nIf it isn't carried out in good time, {0_nameIndef} will become very unhappy. -->
+  <LetterRandomDecree>{0_nameIndef}为了确认{0_bestRoyalTitleIndef}的{0_possessive}头衔，已经发布了一项法令，现在要求立即执行。\n    \n如果没有及时执行，{0_nameIndef}将变得非常不高兴。</LetterRandomDecree>
+  <!-- EN: The decree is titled "{0}". -->
+  <LetterDecree_Quest>这个法令是"{0}"。</LetterDecree_Quest>
+
+</LanguageData>

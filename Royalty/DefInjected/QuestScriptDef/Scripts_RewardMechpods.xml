@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>dangersDescription(priority=1)->\n\nThe pods contain these dangers:\n\n[allThreats]</li>
+    <li>dangersDescription-></li>
+    <li>questDescription(asker_factionLeader==True)->[asker_nameDef], [asker_faction_leaderTitle] of [asker_faction_name], is making a request. [commonMainPart]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameDef], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], is making a request. [commonMainPart]</li>
+    <li>commonMainPart->A mechanoid swarm has been attacking [asker_possessive] settlements. [asker_pronoun] wants you to signal the mechs to distract them while [asker_pronoun] clears the hive. If you do, a mechanoid cluster will land at [map_definite].[dangersDescription]\n\nThe mechanoid cluster will be initially dormant. It may have a countdown activator, or it may stay dormant forever until disturbed.\n\n[helpersParagraph]As a reward, [allRewardsDescriptions]</li>
+  -->
+  <ThreatReward_MechPods_MiscReward.questDescriptionRules.rulesStrings>
+    <li>dangersDescription(priority=1)->\n\n这些空降仓包含如下威胁：\n\n[allThreats]</li>
+    <li>dangersDescription-></li>
+    <li>questDescription(asker_factionLeader==True)->[asker_faction_name]的[asker_faction_leaderTitle]，[asker_nameDef]颁布了一个任务。[commonMainPart]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_faction_name]的一名[asker_royalTitleInCurrentFaction]，[asker_nameDef]颁布了一个任务。[commonMainPart]</li>
+    <li>commonMainPart->一群机械族已经开始进攻[asker_possessive]的据点。[asker_pronoun]希望你能发出警告信号来吸引一部分机械族，以便于[asker_pronoun]能够顺利清除机械族巢穴。如果你接受这个提议，一支机械集群将会降落在[map_definite]。[dangersDescription]\n\n这个机械集群一开始将会处于休眠状态，它们可能会被某个倒计时结束的程序激活，也有可能在不受干扰的情况下一直休眠下去。\n\n[helpersParagraph]作为回报，[allRewardsDescriptions]</li>
+  </ThreatReward_MechPods_MiscReward.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->[menace] cluster</li>
+    <li>questName->[menace] pods</li>
+    <li>questName->[nameBased]</li>
+    <li>nameBased->[asker_nameDef]'s mechs</li>
+    <li>nameBased->[asker_nameDef]'s mechanoids</li>
+    <li>nameBased->[asker_nameDef]'s mech cluster</li>
+    <li>nameBased->[asker_nameDef]'s mech [menace]</li>
+    <li>menace->threat</li>
+    <li>menace->menace</li>
+    <li>menace->scourge</li>
+    <li>menace->danger</li>
+    <li>menace->terror</li>
+    <li>menace->fear</li>
+  -->
+  <ThreatReward_MechPods_MiscReward.questNameRules.rulesStrings>
+    <li>questName->[menace]集群</li>
+    <li>questName->[menace]空降仓</li>
+    <li>questName->[nameBased]</li>
+    <li>nameBased->[asker_nameDef]的机械部队</li>
+    <li>nameBased->[asker_nameDef]的机械族</li>
+    <li>nameBased->[asker_nameDef]的机械集群</li>
+    <li>nameBased->[asker_nameDef]的机械[menace]</li>
+    <li>menace->袭击</li>
+    <li>menace->危机</li>
+    <li>menace->天灾</li>
+    <li>menace->危害</li>
+    <li>menace->恐怖</li>
+    <li>menace->恐惧</li>
+  </ThreatReward_MechPods_MiscReward.questNameRules.rulesStrings>
+  
+</LanguageData>
