@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: became lover -->
+  <BecameLover.label>成为情人</BecameLover.label>
+  <!-- EN:
+    <li>tale_noun->[PURSUER_nameDef] and [ACCEPTER_nameDef] becoming lovers</li>
+    <li>image->[PURSUER_nameFull] whispering sweet nothings into [ACCEPTER_nameFull]'s ear [circumstance_group]</li>
+    <li>image->[PURSUER_nameFull] leading [ACCEPTER_nameFull] by the hand into bed [circumstance_group]</li>
+    <li>image->[PURSUER_nameFull] gambolling in bed with [ACCEPTER_nameFull] [circumstance_group]</li>
+    <li>image->[PURSUER_nameFull] deeply kissing [ACCEPTER_nameFull] [circumstance_group]</li>
+    <li>circumstance_phrase->in an unrealistically large bed</li>
+    <li>circumstance_phrase->between the sheets</li>
+    <li>circumstance_phrase->with few clothes in sight</li>
+    <li>circumstance_phrase->while both are drenched in sweat</li>
+    <li>desc_sentence->[PURSUER_nameDef] is snuggling up against [ACCEPTER_nameDef].</li>
+    <li>desc_sentence->[PURSUER_nameDef] is locking eyes with [ACCEPTER_nameDef].</li>
+    <li>desc_sentence->[PURSUER_nameDef] is blowing air at [ACCEPTER_nameDef].</li>
+    <li>desc_sentence->[PURSUER_nameDef] is stylistically bonded with [ACCEPTER_nameDef].</li>
+    <li>desc_sentence->[PURSUER_nameDef] is a near-mirror image of [ACCEPTER_nameDef].</li>
+    <li>desc_sentence->[PURSUER_nameDef] is touching [ACCEPTER_nameDef] aggressively.</li>
+  -->
+  <BecameLover.rulePack.rulesStrings>
+    <li>tale_noun->[PURSUER_nameDef]与[ACCEPTER_nameDef]成为情人</li>
+    <li>image->[PURSUER_nameFull]在[ACCEPTER_nameFull]的耳边甜言蜜语，[circumstance_group]</li>
+    <li>image->[PURSUER_nameFull]牵着[ACCEPTER_nameFull]的手走上了床，[circumstance_group]</li>
+    <li>image->[PURSUER_nameFull]和[ACCEPTER_nameFull]在床上嬉戏，[circumstance_group]</li>
+    <li>image->[PURSUER_nameFull]深吻着[ACCEPTER_nameFull]，[circumstance_group]</li>
+    <li>circumstance_phrase->两人的床难以置信的大</li>
+    <li>circumstance_phrase->两人在床上翻云覆雨</li>
+    <li>circumstance_phrase->两人都穿着很少的衣服</li>
+    <li>circumstance_phrase->两人都被汗水湿透</li>
+    <li>desc_sentence->[PURSUER_nameDef]幸福地依偎着[ACCEPTER_nameDef]。</li>
+    <li>desc_sentence->[PURSUER_nameDef]深情注视着[ACCEPTER_nameDef]。</li>
+    <li>desc_sentence->[PURSUER_nameDef]对[ACCEPTER_nameDef]吹着气。</li>
+    <li>desc_sentence->[PURSUER_nameDef]和[ACCEPTER_nameDef]灵魂交融。</li>
+    <li>desc_sentence->[PURSUER_nameDef]与[ACCEPTER_nameDef]合二为一。</li>
+    <li>desc_sentence->[PURSUER_nameDef]恣意地爱抚[ACCEPTER_nameDef]。</li>
+  </BecameLover.rulePack.rulesStrings>
+  
+  <!-- EN: bond developed -->
+  <BondedWithAnimal.label>发展牵绊</BondedWithAnimal.label>
+  <!-- EN:
+    <li>tale_noun->[HUMAN_nameDef]'s bonding with [ANIMAL_nameDef]</li>
+    <li>image->[HUMAN_nameFull] bonding with [ANIMAL_nameFull] [circumstance_group]</li>
+    <li>image->[HUMAN_nameFull] forming a deep bond with [ANIMAL_nameFull] [circumstance_group]</li>
+    <li>image->[HUMAN_nameFull] realizing [HUMAN_possessive] truly loves [ANIMAL_nameFull] [circumstance_group]</li>
+    <li>circumstance_phrase->while other animals look on</li>
+    <li>circumstance_phrase->while looking into [ANIMAL_nameDef]'s eyes</li>
+    <li>circumstance_phrase->with a sense of satisfaction</li>
+    <li>desc_sentence->[ANIMAL_nameDef] is snuggling up against [HUMAN_nameDef].</li>
+    <li>desc_sentence->[ANIMAL_nameDef] looks sleepy and drunk with love.</li>
+    <li>desc_sentence->[ANIMAL_nameDef] stands tall and looks noble.</li>
+    <li>desc_sentence->[ANIMAL_nameDef] is responding positively.</li>
+  -->
+  <BondedWithAnimal.rulePack.rulesStrings>
+    <li>tale_noun->[HUMAN_nameDef]与[ANIMAL_nameDef]的牵绊</li>
+    <li>image->[HUMAN_nameFull]与[ANIMAL_nameFull]产生牵绊，[circumstance_group]</li>
+    <li>image->[HUMAN_nameFull]将[ANIMAL_nameFull]视为自己的爱宠，[circumstance_group]</li>
+    <li>image->[HUMAN_nameFull]意识到[ANIMAL_nameFull]已经成为自己的家人，[circumstance_group]</li>
+    <li>circumstance_phrase->其他动物在一旁围观</li>
+    <li>circumstance_phrase->注视着[ANIMAL_nameDef]的双眼</li>
+    <li>circumstance_phrase->感到心满意足</li>
+    <li>desc_sentence->[ANIMAL_nameDef]幸福地依偎着[HUMAN_nameDef]。</li>
+    <li>desc_sentence->[ANIMAL_nameDef]看起来在爱意中沉沉欲睡。</li>
+    <li>desc_sentence->[ANIMAL_nameDef]站得笔直，看起来很高贵。</li>
+    <li>desc_sentence->[ANIMAL_nameDef]对此积极地响应。</li>
+  </BondedWithAnimal.rulePack.rulesStrings>
+  
+  <!-- EN: breakup -->
+  <Breakup.label>破裂</Breakup.label>
+  <!-- EN:
+    <li>tale_noun->the breakup of [DUMPER_nameDef] and [REJECTED_nameDef]</li>
+    <li>image->[DUMPER_nameFull] sitting [REJECTED_nameFull] down for an unpleasant talk [circumstance_group]</li>
+    <li>image->[DUMPER_nameFull] standing at a distance from [REJECTED_nameFull] [circumstance_group]</li>
+    <li>image->[DUMPER_nameFull] pushing [REJECTED_nameFull] out of bed [circumstance_group]</li>
+    <li>image->[DUMPER_nameFull] rejecting a hug from [REJECTED_nameFull] [circumstance_group]</li>
+    <li>circumstance_phrase->in a moment of great sadness</li>
+    <li>circumstance_phrase->as others look away awkwardly</li>
+    <li>circumstance_phrase->as others look on</li>
+    <li>desc_sentence->[REJECTED_nameDef] is sobbing uncontrollably.</li>
+    <li>desc_sentence->[REJECTED_nameDef] is sneering and crying at the same time.</li>
+    <li>desc_sentence->[REJECTED_nameDef] is stony-faced with shock.</li>
+    <li>desc_sentence->[DUMPER_nameDef] is stylistically separated from [REJECTED_nameDef].</li>
+    <li>desc_sentence->[REJECTED_nameDef] has collapsed on the floor in a quivering heap.</li>
+    <li>desc_sentence->[REJECTED_nameDef] is gesticulating angrily at [DUMPER_nameDef].</li>
+  -->
+  <Breakup.rulePack.rulesStrings>
+    <li>tale_noun->[DUMPER_nameDef]与[REJECTED_nameDef]感情破裂</li>
+    <li>image->[DUMPER_nameFull]和[REJECTED_nameFull]相视而坐，两人的交谈并不愉快，[circumstance_group]</li>
+    <li>image->[DUMPER_nameFull]站得离[REJECTED_nameFull]远远的，[circumstance_group]</li>
+    <li>image->[DUMPER_nameFull]把[REJECTED_nameFull]推下了床，[circumstance_group]</li>
+    <li>image->[DUMPER_nameFull]拒绝[REJECTED_nameFull]的拥抱，[circumstance_group]</li>
+    <li>circumstance_phrase->那是一个令人悲伤的时刻</li>
+    <li>circumstance_phrase->其他人尴尬地移开目光</li>
+    <li>circumstance_phrase->其他人在一旁围观</li>
+    <li>desc_sentence->[REJECTED_nameDef]情不自禁地啜泣。</li>
+    <li>desc_sentence->[REJECTED_nameDef]一边发出嘲笑，一边哭泣。</li>
+    <li>desc_sentence->[REJECTED_nameDef]震惊地呆立当场。</li>
+    <li>desc_sentence->[DUMPER_nameDef]在形式上和[REJECTED_nameDef]分开。</li>
+    <li>desc_sentence->[REJECTED_nameDef]颤抖着瘫坐在地上。</li>
+    <li>desc_sentence->[REJECTED_nameDef]指着[DUMPER_nameDef]，气得说不出话。</li>
+  </Breakup.rulePack.rulesStrings>
+  
+  <!-- EN: marriage -->
+  <Marriage.label>结婚</Marriage.label>
+  <!-- EN:
+    <li>tale_noun->the marriage of [SPOUSE1_nameDef] and [SPOUSE2_nameDef]</li>
+    <li>image->[SPOUSE1_nameFull] marrying [SPOUSE2_nameFull] [circumstance_group]</li>
+    <li>image->[SPOUSE1_nameFull] saying [SPOUSE1_possessive] marriage vows to [SPOUSE2_nameFull] [circumstance_group]</li>
+    <li>image->[SPOUSE1_nameFull] walking down the aisle with [SPOUSE2_nameFull] [circumstance_group]</li>
+    <li>image->[SPOUSE1_nameFull] holding hands with [SPOUSE2_nameFull] during a marriage ceremony [circumstance_group]</li>
+    <li>circumstance_phrase->in a dignified ceremony</li>
+    <li>circumstance_phrase->while both laugh gaily</li>
+    <li>circumstance_phrase->while others look on solemnly</li>
+    <li>desc_sentence->[SPOUSE1_nameDef] is snuggling up against [SPOUSE2_nameDef].</li>
+    <li>desc_sentence->[SPOUSE1_nameDef] is locking eyes with [SPOUSE2_nameDef].</li>
+    <li>desc_sentence->[SPOUSE1_nameDef] is blowing air at [SPOUSE2_nameDef].</li>
+    <li>desc_sentence->[SPOUSE1_nameDef] is stylistically bonded with [SPOUSE2_nameDef].</li>
+    <li>desc_sentence->[SPOUSE1_nameDef] is a near-mirror image of [SPOUSE2_nameDef].</li>
+    <li>desc_sentence->[SPOUSE1_nameDef] is touching [SPOUSE2_nameDef] aggressively.</li>
+  -->
+  <Marriage.rulePack.rulesStrings>
+    <li>tale_noun->[SPOUSE1_nameDef]与[SPOUSE2_nameDef]结婚</li>
+    <li>image->[SPOUSE1_nameFull]与[SPOUSE2_nameFull]结婚了，[circumstance_group]</li>
+    <li>image->[SPOUSE1_nameFull]向[SPOUSE2_nameFull]说出婚姻誓言，[circumstance_group]</li>
+    <li>image->[SPOUSE1_nameFull]与[SPOUSE2_nameFull]走上红地毯，[circumstance_group]</li>
+    <li>image->婚礼中，[SPOUSE1_nameFull]牵着[SPOUSE2_nameFull]的手，[circumstance_group]</li>
+    <li>circumstance_phrase->结婚仪式十分隆重</li>
+    <li>circumstance_phrase->两个人笑得十分开心</li>
+    <li>circumstance_phrase->其他人在一旁庄严地注视着</li>
+    <li>desc_sentence->[SPOUSE1_nameDef]与[SPOUSE2_nameDef]幸福地依偎在一起。</li>
+    <li>desc_sentence->[SPOUSE1_nameDef]深情注视着[SPOUSE2_nameDef]。</li>
+    <li>desc_sentence->[SPOUSE1_nameDef]对[SPOUSE2_nameDef]吹着气。</li>
+    <li>desc_sentence->[SPOUSE1_nameDef]和[SPOUSE2_nameDef]灵魂交融。</li>
+    <li>desc_sentence->[SPOUSE1_nameDef]与[SPOUSE2_nameDef]心有灵犀。</li>
+    <li>desc_sentence->[SPOUSE1_nameDef]恣意地爱抚着[SPOUSE2_nameDef]。</li>
+  </Marriage.rulePack.rulesStrings>
+  
+</LanguageData>

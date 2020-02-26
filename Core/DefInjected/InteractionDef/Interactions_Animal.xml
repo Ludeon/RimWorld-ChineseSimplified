@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: animal chat -->
+  <AnimalChat.label>与动物交流</AnimalChat.label>
+  <!-- EN: r_logentry(p=5)->[INITIATOR_nameDef] [tamed] [RECIPIENT_nameDef]. -->
+  <AnimalChat.logRulesInitiator.rulesStrings.0>r_logentry(p=5)->[INITIATOR_nameDef][tamed][RECIPIENT_nameDef]。</AnimalChat.logRulesInitiator.rulesStrings.0>
+  <!-- EN: r_logentry->[INITIATOR_nameDef] sat near [RECIPIENT_nameDef] and talked to [INITIATOR_objective]self about [TalkTopicAny]. -->
+  <AnimalChat.logRulesInitiator.rulesStrings.1>r_logentry->[INITIATOR_nameDef]坐在[RECIPIENT_nameDef]旁边，[INITIATOR_objective]自言自语地说起[TalkTopicAny]的话题。</AnimalChat.logRulesInitiator.rulesStrings.1>
+  <!-- EN: r_logentry->[INITIATOR_nameDef] approached [RECIPIENT_nameDef] while whispering to [INITIATOR_objective]self about [TalkTopicAny]. -->
+  <AnimalChat.logRulesInitiator.rulesStrings.2>r_logentry->[INITIATOR_nameDef]接近[RECIPIENT_nameDef]，[INITIATOR_objective]自言自语地说起[TalkTopicAny]的话题。</AnimalChat.logRulesInitiator.rulesStrings.2>
+  <!-- EN: r_logentry->[INITIATOR_nameDef] came near [RECIPIENT_nameDef] while talking to [INITIATOR_objective]self about [TalkTopicAny]. -->
+  <AnimalChat.logRulesInitiator.rulesStrings.3>r_logentry->[INITIATOR_nameDef]走到[RECIPIENT_nameDef]身边，[INITIATOR_objective]自言自语地说起[TalkTopicAny]的话题。</AnimalChat.logRulesInitiator.rulesStrings.3>
+  <!-- EN: tamed->made calming noises towards -->
+  <AnimalChat.logRulesInitiator.rulesStrings.4>tamed->悄无声息地靠近</AnimalChat.logRulesInitiator.rulesStrings.4>
+  <!-- EN: tamed->offered slow, friendly gestures to -->
+  <AnimalChat.logRulesInitiator.rulesStrings.5>tamed->缓慢地作出友善的动作对</AnimalChat.logRulesInitiator.rulesStrings.5>
+  <!-- EN: tamed->made shushing noises at -->
+  <AnimalChat.logRulesInitiator.rulesStrings.6>tamed->发出嘘的声音给</AnimalChat.logRulesInitiator.rulesStrings.6>
+  <!-- EN: tamed->made happy clicking noises at -->
+  <AnimalChat.logRulesInitiator.rulesStrings.7>tamed->发出欢快的敲击声给</AnimalChat.logRulesInitiator.rulesStrings.7>
+  <!-- EN: tamed->gestured gently and approached -->
+  <AnimalChat.logRulesInitiator.rulesStrings.8>tamed->温柔地靠近</AnimalChat.logRulesInitiator.rulesStrings.8>
+  <!-- EN: tamed->slowly approached -->
+  <AnimalChat.logRulesInitiator.rulesStrings.9>tamed->慢慢接近</AnimalChat.logRulesInitiator.rulesStrings.9>
+  <!-- EN: tamed->gently touched -->
+  <AnimalChat.logRulesInitiator.rulesStrings.10>tamed->轻轻触摸</AnimalChat.logRulesInitiator.rulesStrings.10>
+  <!-- EN: tamed->calmed and encouraged -->
+  <AnimalChat.logRulesInitiator.rulesStrings.11>tamed->安抚并鼓励</AnimalChat.logRulesInitiator.rulesStrings.11>
+  <!-- EN: tamed->matched breathing with -->
+  <AnimalChat.logRulesInitiator.rulesStrings.12>tamed->保持同步呼吸频率对</AnimalChat.logRulesInitiator.rulesStrings.12>
+  <!-- EN: tamed->took a low stance while approaching -->
+  <AnimalChat.logRulesInitiator.rulesStrings.13>tamed->猫腰缓缓靠近</AnimalChat.logRulesInitiator.rulesStrings.13>
+  <!-- EN: tamed->showed no fear or anger to -->
+  <AnimalChat.logRulesInitiator.rulesStrings.14>tamed->无所畏惧地接近</AnimalChat.logRulesInitiator.rulesStrings.14>
+  <!-- EN: tamed->feigned inattention towards -->
+  <AnimalChat.logRulesInitiator.rulesStrings.15>tamed->假装毫不在意地接近</AnimalChat.logRulesInitiator.rulesStrings.15>
+  <!-- EN: tamed->gently hummed a song at -->
+  <AnimalChat.logRulesInitiator.rulesStrings.16>tamed->轻轻哼唱一首歌给</AnimalChat.logRulesInitiator.rulesStrings.16>
+  <!-- EN: tamed->sang an old lullaby at -->
+  <AnimalChat.logRulesInitiator.rulesStrings.17>tamed->唱一首古老的催眠曲给</AnimalChat.logRulesInitiator.rulesStrings.17>
+  <!-- EN: tamed->firmly yet softly touched -->
+  <AnimalChat.logRulesInitiator.rulesStrings.18>tamed->坚定而温柔地触摸</AnimalChat.logRulesInitiator.rulesStrings.18>
+  <!-- EN: tamed->showed a relaxed attitude towards -->
+  <AnimalChat.logRulesInitiator.rulesStrings.19>tamed->一脸轻松表情地接近</AnimalChat.logRulesInitiator.rulesStrings.19>
+  <!-- EN: tamed->sat patiently near -->
+  <AnimalChat.logRulesInitiator.rulesStrings.20>tamed->在旁边耐心地坐着看</AnimalChat.logRulesInitiator.rulesStrings.20>
+  <!-- EN: tamed->whispered a story about [TalkTopicAny] to -->
+  <AnimalChat.logRulesInitiator.rulesStrings.21>tamed->低声讲述一个关于[TalkTopicAny]的故事给</AnimalChat.logRulesInitiator.rulesStrings.21>
+  
+  <!-- EN: nuzzle -->
+  <Nuzzle.label>亲昵</Nuzzle.label>
+  <!-- EN: r_logentry(p=2)->[INITIATOR_nameDef] [nuzzleadverb] [nuzzled] [RECIPIENT_nameDef]. -->
+  <Nuzzle.logRulesInitiator.rulesStrings.0>r_logentry(p=2)->[INITIATOR_nameDef][nuzzleadverb][nuzzled][RECIPIENT_nameDef]。</Nuzzle.logRulesInitiator.rulesStrings.0>
+  <!-- EN: r_logentry->[INITIATOR_nameDef] [nuzzleadverb] rubbed [INITIATOR_possessive] nose against [RECIPIENT_nameDef]'s [rubbedpart]. -->
+  <Nuzzle.logRulesInitiator.rulesStrings.1>r_logentry->[INITIATOR_nameDef][nuzzleadverb]用[INITIATOR_possessive]鼻尖蹭了[RECIPIENT_nameDef]的[rubbedpart]。</Nuzzle.logRulesInitiator.rulesStrings.1>
+  <!-- EN: nuzzled(p=2)->nuzzled -->
+  <Nuzzle.logRulesInitiator.rulesStrings.2>nuzzled(p=2)->蹭了</Nuzzle.logRulesInitiator.rulesStrings.2>
+  <!-- EN: nuzzled->snuggled up to -->
+  <Nuzzle.logRulesInitiator.rulesStrings.3>nuzzled->依偎着</Nuzzle.logRulesInitiator.rulesStrings.3>
+  <!-- EN: nuzzleadverb(p=4)-> -->
+  <Nuzzle.logRulesInitiator.rulesStrings.4>nuzzleadverb(p=4)-></Nuzzle.logRulesInitiator.rulesStrings.4>
+  <!-- EN: nuzzleadverb->gently -->
+  <Nuzzle.logRulesInitiator.rulesStrings.5>nuzzleadverb->温柔地</Nuzzle.logRulesInitiator.rulesStrings.5>
+  <!-- EN: nuzzleadverb->encouragingly -->
+  <Nuzzle.logRulesInitiator.rulesStrings.6>nuzzleadverb->鼓励地</Nuzzle.logRulesInitiator.rulesStrings.6>
+  <!-- EN: nuzzleadverb->happily -->
+  <Nuzzle.logRulesInitiator.rulesStrings.7>nuzzleadverb->欢快地</Nuzzle.logRulesInitiator.rulesStrings.7>
+  <!-- EN: nuzzleadverb->softly -->
+  <Nuzzle.logRulesInitiator.rulesStrings.8>nuzzleadverb->轻柔地</Nuzzle.logRulesInitiator.rulesStrings.8>
+  <!-- EN: nuzzleadverb->supportively -->
+  <Nuzzle.logRulesInitiator.rulesStrings.9>nuzzleadverb->支持地</Nuzzle.logRulesInitiator.rulesStrings.9>
+  <!-- EN: nuzzleadverb->lightly -->
+  <Nuzzle.logRulesInitiator.rulesStrings.10>nuzzleadverb->轻轻地</Nuzzle.logRulesInitiator.rulesStrings.10>
+  <!-- EN: nuzzleadverb->warmly -->
+  <Nuzzle.logRulesInitiator.rulesStrings.11>nuzzleadverb->亲热地</Nuzzle.logRulesInitiator.rulesStrings.11>
+  <!-- EN: nuzzleadverb->plaintively -->
+  <Nuzzle.logRulesInitiator.rulesStrings.12>nuzzleadverb->幽怨地</Nuzzle.logRulesInitiator.rulesStrings.12>
+  <!-- EN: nuzzleadverb->lovingly -->
+  <Nuzzle.logRulesInitiator.rulesStrings.13>nuzzleadverb->亲切地</Nuzzle.logRulesInitiator.rulesStrings.13>
+  <!-- EN: nuzzleadverb->affectionately -->
+  <Nuzzle.logRulesInitiator.rulesStrings.14>nuzzleadverb->热烈地</Nuzzle.logRulesInitiator.rulesStrings.14>
+  <!-- EN: rubbedpart->leg -->
+  <Nuzzle.logRulesInitiator.rulesStrings.15>rubbedpart->腿</Nuzzle.logRulesInitiator.rulesStrings.15>
+  <!-- EN: rubbedpart->knee -->
+  <Nuzzle.logRulesInitiator.rulesStrings.16>rubbedpart->膝盖</Nuzzle.logRulesInitiator.rulesStrings.16>
+  <!-- EN: rubbedpart->foot -->
+  <Nuzzle.logRulesInitiator.rulesStrings.17>rubbedpart->脚</Nuzzle.logRulesInitiator.rulesStrings.17>
+  <!-- EN: rubbedpart->elbow -->
+  <Nuzzle.logRulesInitiator.rulesStrings.18>rubbedpart->肘部</Nuzzle.logRulesInitiator.rulesStrings.18>
+  <!-- EN: rubbedpart->hip -->
+  <Nuzzle.logRulesInitiator.rulesStrings.19>rubbedpart->臀部</Nuzzle.logRulesInitiator.rulesStrings.19>
+  <!-- EN: rubbedpart->shoulder -->
+  <Nuzzle.logRulesInitiator.rulesStrings.20>rubbedpart->肩膀</Nuzzle.logRulesInitiator.rulesStrings.20>
+  <!-- EN: rubbedpart->hand -->
+  <Nuzzle.logRulesInitiator.rulesStrings.21>rubbedpart->手</Nuzzle.logRulesInitiator.rulesStrings.21>
+  <!-- EN: rubbedpart->side -->
+  <Nuzzle.logRulesInitiator.rulesStrings.22>rubbedpart->身旁</Nuzzle.logRulesInitiator.rulesStrings.22>
+  <!-- EN: rubbedpart->arm -->
+  <Nuzzle.logRulesInitiator.rulesStrings.23>rubbedpart->手臂</Nuzzle.logRulesInitiator.rulesStrings.23>
+  
+  <!-- EN: tame attempt -->
+  <TameAttempt.label>尝试驯服</TameAttempt.label>
+  <!-- EN: r_logentry->[INITIATOR_nameDef] tried to tame [RECIPIENT_nameDef]. -->
+  <TameAttempt.logRulesInitiator.rulesStrings.0>r_logentry->[INITIATOR_nameDef]尝试去驯服[RECIPIENT_nameDef]。</TameAttempt.logRulesInitiator.rulesStrings.0>
+  <!-- EN: r_logentry->[INITIATOR_nameDef] tried to bring [RECIPIENT_nameDef] under control. -->
+  <TameAttempt.logRulesInitiator.rulesStrings.1>r_logentry->[INITIATOR_nameDef]尝试诱导[RECIPIENT_nameDef]处于控制之下。</TameAttempt.logRulesInitiator.rulesStrings.1>
+  <!-- EN: r_logentry->[INITIATOR_nameDef] attempted to collar [RECIPIENT_nameDef]. -->
+  <TameAttempt.logRulesInitiator.rulesStrings.2>r_logentry->[INITIATOR_nameDef]试图给[RECIPIENT_nameDef]套上项圈。</TameAttempt.logRulesInitiator.rulesStrings.2>
+  <!-- EN: r_logentry->[INITIATOR_nameDef] demanded obedience from [RECIPIENT_nameDef]. -->
+  <TameAttempt.logRulesInitiator.rulesStrings.3>r_logentry->[INITIATOR_nameDef]要求[RECIPIENT_nameDef]顺从。</TameAttempt.logRulesInitiator.rulesStrings.3>
+  <!-- EN: r_logentry->[INITIATOR_nameDef] called [RECIPIENT_nameDef] to come to [INITIATOR_objective]. -->
+  <TameAttempt.logRulesInitiator.rulesStrings.4>r_logentry->[INITIATOR_nameDef]叫[RECIPIENT_nameDef]跟随[INITIATOR_objective]。</TameAttempt.logRulesInitiator.rulesStrings.4>
+  <!-- EN: r_logentry->[INITIATOR_nameDef] tried to make [RECIPIENT_nameDef] sit still. -->
+  <TameAttempt.logRulesInitiator.rulesStrings.5>r_logentry->[INITIATOR_nameDef]尝试让[RECIPIENT_nameDef]保持坐姿。</TameAttempt.logRulesInitiator.rulesStrings.5>
+  <!-- EN: r_logentry->[INITIATOR_nameDef] seized [RECIPIENT_nameDef] sharply and barked a command. -->
+  <TameAttempt.logRulesInitiator.rulesStrings.6>r_logentry->[INITIATOR_nameDef]抓住[RECIPIENT_nameDef]并严厉地大声命令。</TameAttempt.logRulesInitiator.rulesStrings.6>
+  <!-- EN: r_logentry->[INITIATOR_nameDef] attempted to hold [RECIPIENT_nameDef] still. -->
+  <TameAttempt.logRulesInitiator.rulesStrings.7>r_logentry->[INITIATOR_nameDef]试图让[RECIPIENT_nameDef]保持安静。</TameAttempt.logRulesInitiator.rulesStrings.7>
+  <!-- EN: r_logentry->[INITIATOR_nameDef] shouted a command at [RECIPIENT_nameDef]. -->
+  <TameAttempt.logRulesInitiator.rulesStrings.8>r_logentry->[INITIATOR_nameDef]大声命令[RECIPIENT_nameDef]。</TameAttempt.logRulesInitiator.rulesStrings.8>
+  <!-- EN: r_logentry->[INITIATOR_nameDef] slapped [RECIPIENT_nameDef] in a show of dominance. -->
+  <TameAttempt.logRulesInitiator.rulesStrings.9>r_logentry->[INITIATOR_nameDef]拍打[RECIPIENT_nameDef]展示其统治地位。</TameAttempt.logRulesInitiator.rulesStrings.9>
+  <!-- EN: r_logentry->[INITIATOR_nameDef] directed [RECIPIENT_nameDef] back towards the community. -->
+  <TameAttempt.logRulesInitiator.rulesStrings.10>r_logentry->[INITIATOR_nameDef]指示[RECIPIENT_nameDef]返回殖民地。</TameAttempt.logRulesInitiator.rulesStrings.10>
+  <!-- EN: r_logentry->[INITIATOR_nameDef] called [RECIPIENT_nameDef] to come back to the community. -->
+  <TameAttempt.logRulesInitiator.rulesStrings.11>r_logentry->[INITIATOR_nameDef]叫[RECIPIENT_nameDef]返回殖民地。</TameAttempt.logRulesInitiator.rulesStrings.11>
+  <!-- EN: r_logentry->[INITIATOR_nameDef] touched a vulnerable body part of [RECIPIENT_nameDef], demanding obedience. -->
+  <TameAttempt.logRulesInitiator.rulesStrings.12>r_logentry->[INITIATOR_nameDef]触摸了[RECIPIENT_nameDef]脆弱的身体部位并要求服从。</TameAttempt.logRulesInitiator.rulesStrings.12>
+  <!-- EN: r_logentry->[INITIATOR_nameDef] pointed at the ground, demanding that [RECIPIENT_nameDef] come. -->
+  <TameAttempt.logRulesInitiator.rulesStrings.13>r_logentry->[INITIATOR_nameDef]指着地面要求[RECIPIENT_nameDef]过来。</TameAttempt.logRulesInitiator.rulesStrings.13>
+  <!-- EN: r_logentry->[INITIATOR_nameDef] gave [RECIPIENT_nameDef] a first command. -->
+  <TameAttempt.logRulesInitiator.rulesStrings.14>r_logentry->[INITIATOR_nameDef]给了[RECIPIENT_nameDef]第一个命令。</TameAttempt.logRulesInitiator.rulesStrings.14>
+  
+  <!-- EN: train attempt -->
+  <TrainAttempt.label>尝试训练</TrainAttempt.label>
+  <!-- EN: r_logentry->[INITIATOR_nameDef] [trained] [RECIPIENT_nameDef]. -->
+  <TrainAttempt.logRulesInitiator.rulesStrings.0>r_logentry->[INITIATOR_nameDef][trained][RECIPIENT_nameDef]。</TrainAttempt.logRulesInitiator.rulesStrings.0>
+  <!-- EN: trained(p=2)->[tried] to train -->
+  <TrainAttempt.logRulesInitiator.rulesStrings.1>trained(p=2)->[tried]训练</TrainAttempt.logRulesInitiator.rulesStrings.1>
+  <!-- EN: trained->[tried] to show a new trick to -->
+  <TrainAttempt.logRulesInitiator.rulesStrings.2>trained->[tried]展示一个新技巧给</TrainAttempt.logRulesInitiator.rulesStrings.2>
+  <!-- EN: trained->[tried] to discipline -->
+  <TrainAttempt.logRulesInitiator.rulesStrings.3>trained->[tried]严格训练</TrainAttempt.logRulesInitiator.rulesStrings.3>
+  <!-- EN: trained->[tried] to instruct -->
+  <TrainAttempt.logRulesInitiator.rulesStrings.4>trained->[tried]指导</TrainAttempt.logRulesInitiator.rulesStrings.4>
+  <!-- EN: trained->[tried] to encourage a new skill in -->
+  <TrainAttempt.logRulesInitiator.rulesStrings.5>trained->[tried]教一个新技能给</TrainAttempt.logRulesInitiator.rulesStrings.5>
+  <!-- EN: trained->demonstrated a skill to -->
+  <TrainAttempt.logRulesInitiator.rulesStrings.6>trained->示范一个技能给</TrainAttempt.logRulesInitiator.rulesStrings.6>
+  <!-- EN: trained->encouraged a new response from -->
+  <TrainAttempt.logRulesInitiator.rulesStrings.7>trained->鼓励新的反应于</TrainAttempt.logRulesInitiator.rulesStrings.7>
+  <!-- EN: tried->tried -->
+  <TrainAttempt.logRulesInitiator.rulesStrings.8>tried->尝试</TrainAttempt.logRulesInitiator.rulesStrings.8>
+  <!-- EN: tried->attempted -->
+  <TrainAttempt.logRulesInitiator.rulesStrings.9>tried->试图</TrainAttempt.logRulesInitiator.rulesStrings.9>
+  
+</LanguageData>

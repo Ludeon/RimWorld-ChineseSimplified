@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: carrying capacity -->
+  <CarryingCapacity.label>携带能力</CarryingCapacity.label>
+  <!-- EN: The amount of stuff this creature can carry in its hands, mouth, or other manipulators. This is separate from the ability to carry cargo on long cross-world trips. -->
+  <CarryingCapacity.description>这个角色用手、嘴或其他机械装置携带的物品的数量。这与远行中的驮运能力是分开的。</CarryingCapacity.description>
+  
+  <!-- EN: Maximum comfortable temperature -->
+  <ComfyTemperatureMax.label>最高舒适温度</ComfyTemperatureMax.label>
+  <!-- EN: Above this temperature, characters will be unhappy. Significantly above this temperature, they will develop heatstroke and eventually die. -->
+  <ComfyTemperatureMax.description>高于这个温度，角色会不开心。大幅高于这个温度时，角色可能会中暑甚至死亡。</ComfyTemperatureMax.description>
+  
+  <!-- EN: Minimum comfortable temperature -->
+  <ComfyTemperatureMin.label>最低舒适温度</ComfyTemperatureMin.label>
+  <!-- EN: Below this temperature, characters will be unhappy. Significantly below this temperature, they will develop hypothermia and frostbite and eventually die. -->
+  <ComfyTemperatureMin.description>低于这个温度，角色会不开心。大幅低于这个温度时，角色会得低温症、冻伤甚至死亡。</ComfyTemperatureMin.description>
+  
+  <!-- EN: eating speed -->
+  <EatingSpeed.label>进食速度</EatingSpeed.label>
+  <!-- EN: A multiplier on eating speed. -->
+  <EatingSpeed.description>此人进食速度的乘数。</EatingSpeed.description>
+  
+  <!-- EN: foraged food amount -->
+  <ForagedNutritionPerDay.label>远行采集量</ForagedNutritionPerDay.label>
+  <!-- EN: The amount of nutrition this person will automatically forage per day while traveling by caravan. -->
+  <ForagedNutritionPerDay.description>该生物在远行中每天自动采集获得的营养值。</ForagedNutritionPerDay.description>
+  
+  <!-- EN: global learning factor -->
+  <GlobalLearningFactor.label>全局学习系数</GlobalLearningFactor.label>
+  <!-- EN: A multiplier on the learning rate for all skills. -->
+  <GlobalLearningFactor.description>影响所有技能学习效率的全局学习系数。</GlobalLearningFactor.description>
+  
+  <!-- EN: hunger rate multiplier -->
+  <HungerRateMultiplier.label>饥饿率乘数</HungerRateMultiplier.label>
+  <!-- EN: A multiplier on how quickly a creature becomes hungry. -->
+  <HungerRateMultiplier.description>影响一个生物饮食值下降速度的乘数。</HungerRateMultiplier.description>
+  
+  <!-- EN: immunity gain speed -->
+  <ImmunityGainSpeed.label>免疫性获得速度</ImmunityGainSpeed.label>
+  <!-- EN: The speed at which this character gains immunity to diseases. If this is too slow, the character will die from a disease before developing immunity. -->
+  <ImmunityGainSpeed.description>这个角色对疾病产生免疫的速度。如果速度太慢，角色会在产生免疫之前死于疾病。</ImmunityGainSpeed.description>
+  
+  <!-- EN: leather amount -->
+  <LeatherAmount.label>可获皮革量</LeatherAmount.label>
+  <!-- EN: The amount of leather yielded when butchering this creature. -->
+  <LeatherAmount.description>屠宰这种生物可获得皮革的数量。</LeatherAmount.description>
+  
+  <!-- EN: meat amount -->
+  <MeatAmount.label>可获肉量</MeatAmount.label>
+  <!-- EN: The amount of meat yielded when butchering this creature. -->
+  <MeatAmount.description>屠宰这种生物可获得肉的数量。</MeatAmount.description>
+  
+  <!-- EN: mental break threshold -->
+  <MentalBreakThreshold.label>崩溃临界值</MentalBreakThreshold.label>
+  <!-- EN: As long as someone's mood is below this level, they are in danger of having a mental break. The severity of the mental break will depend on how far below the threshold they are. -->
+  <MentalBreakThreshold.description>当此人的心情低于这个值时，会有精神崩溃的风险。</MentalBreakThreshold.description>
+  
+  <!-- EN: minimum handling skill -->
+  <MinimumHandlingSkill.label>最小驯兽技能</MinimumHandlingSkill.label>
+  <!-- EN: This creature cannot be tamed, trained, or commanded by anyone with less than this skill in animals. -->
+  <MinimumHandlingSkill.description>如果驯兽技能小于这种动物所需的驯兽技能，将不能驯服、训练或命令这种动物。</MinimumHandlingSkill.description>
+  
+  <!-- EN: move speed -->
+  <MoveSpeed.label>移动速度</MoveSpeed.label>
+  <!-- EN: Speed of movement in cells per second. -->
+  <MoveSpeed.description>每秒可通过的单元格数。斜向移动和水平垂直移动用时相同。</MoveSpeed.description>
+  <!-- EN: {0} c/s -->
+  <MoveSpeed.formatString>{0} 格 / 秒</MoveSpeed.formatString>
+  
+  <!-- EN: pain shock threshold -->
+  <PainShockThreshold.label>疼痛休克阈值</PainShockThreshold.label>
+  <!-- EN: The pain level at which this creature is downed from pain. -->
+  <PainShockThreshold.description>此生物因疼痛倒地的点数。</PainShockThreshold.description>
+  
+  <!-- EN: psychic sensitivity -->
+  <PsychicSensitivity.label>心灵敏感度</PsychicSensitivity.label>
+  <!-- EN: Multiplier on the impact of psychic phenomena affecting this person. More sensitive people both suffer more from negative psychic effects, and benefit more from positive ones. -->
+  <PsychicSensitivity.description>各类心灵事件对此人心情的影响的乘数。心灵敏感度越高，受到的影响越大。</PsychicSensitivity.description>
+  
+  <!-- EN: rest rate multiplier -->
+  <RestRateMultiplier.label>休息率乘数</RestRateMultiplier.label>
+  <!-- EN: A multiplier on how quickly a creature rests while sleeping. -->
+  <RestRateMultiplier.description>影响一个生物休息值提高速度的乘数。</RestRateMultiplier.description>
+  
+  <!-- EN: toxic sensitivity -->
+  <ToxicSensitivity.label>毒物敏感度</ToxicSensitivity.label>
+  <!-- EN: Multiplier on the impact of toxic buildup on this creature. -->
+  <ToxicSensitivity.description>有毒尘埃对此人造成影响的乘数。</ToxicSensitivity.description>
+  
+</LanguageData>

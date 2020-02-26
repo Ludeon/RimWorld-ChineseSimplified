@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: Tool -->
+  <Tool>工具</Tool>
+  <!-- EN: damage -->
+  <DamageLower>伤害</DamageLower>
+  <!-- EN: seconds per attack -->
+  <SecondsPerAttackLower>秒/每击</SecondsPerAttackLower>
+
+  <!-- EN: Base value -->
+  <StatsReport_BaseValue>基础值</StatsReport_BaseValue>
+  <!-- EN: Relevant traits -->
+  <StatsReport_RelevantTraits>相关特性</StatsReport_RelevantTraits>
+  <!-- EN: Relevant gear -->
+  <StatsReport_RelevantGear>相关装备</StatsReport_RelevantGear>
+  <!-- EN: Relevant health conditions -->
+  <StatsReport_RelevantHediffs>相关健康状况</StatsReport_RelevantHediffs>
+  <!-- EN: Life stage -->
+  <StatsReport_LifeStage>生命阶段</StatsReport_LifeStage>
+  <!-- EN: Material -->
+  <StatsReport_Material>材质</StatsReport_Material>
+  <!-- EN: Character quality -->
+  <StatsReport_CharacterQuality>角色质量</StatsReport_CharacterQuality>
+  <!-- EN: Skills -->
+  <StatsReport_Skills>技能</StatsReport_Skills>
+  <!-- EN: Other stats -->
+  <StatsReport_OtherStats>其它属性</StatsReport_OtherStats>
+  <!-- EN: Health -->
+  <StatsReport_Health>健康</StatsReport_Health>
+  <!-- EN: {0} importance -->
+  <HealthFactorPercentImpact>权重{0}</HealthFactorPercentImpact>
+  <!-- EN: {0} impact -->
+  <HealthOffsetScale>影响{0}</HealthOffsetScale>
+  <!-- EN: {0} max -->
+  <HealthFactorMaxImpact>最大值{0}</HealthFactorMaxImpact>
+  <!-- EN: if below {0} -->
+  <HealthFactorAllowedDefect>如果低于{0}</HealthFactorAllowedDefect>
+  <!-- EN: Post-process curve -->
+  <StatsReport_PostProcessed>后期处理曲线</StatsReport_PostProcessed>
+  <!-- EN: Final value -->
+  <StatsReport_FinalValue>最终值</StatsReport_FinalValue>
+  <!-- EN: Materials and labor -->
+  <StatsReport_MarketValueFromStuffsAndWork>市场价值是由原材料和工作量计算而来的。</StatsReport_MarketValueFromStuffsAndWork>
+  <!-- EN: Quality multiplier -->
+  <StatsReport_QualityMultiplier>质量乘数</StatsReport_QualityMultiplier>
+  <!-- EN: Max gain -->
+  <StatsReport_MaxGain>最大增益</StatsReport_MaxGain>
+  <!-- EN: Multiplier for age {0} -->
+  <StatsReport_AgeMultiplier>年龄（{0}）乘数</StatsReport_AgeMultiplier>
+  <!-- EN: Multiplier for health {0} -->
+  <StatsReport_HealthMultiplier>耐久（{0}）乘数</StatsReport_HealthMultiplier>
+  <!-- EN: Multiplier for mood {0} -->
+  <StatsReport_MoodMultiplier>心情（{0}）乘数</StatsReport_MoodMultiplier>
+  <!-- EN: Multiplier for light {0} -->
+  <StatsReport_LightMultiplier>光照（{0}）乘数</StatsReport_LightMultiplier>
+  <!-- EN: Multiplier for difficulty {0} -->
+  <StatsReport_DifficultyMultiplier>难度（{0}）乘数</StatsReport_DifficultyMultiplier>
+  <!-- EN: In bed -->
+  <StatsReport_InBed>卧床</StatsReport_InBed>
+  <!-- EN: Facilities -->
+  <StatsReport_Facilities>设施</StatsReport_Facilities>
+  <!-- EN: Multiplier for body size {0} -->
+  <StatsReport_BodySize>体型（{0}）乘数</StatsReport_BodySize>
+  <!-- EN: DPS = Melee damage * Melee hit chance / Cooldown in seconds -->
+  <StatsReport_MeleeDPSExplanation>DPS = 近战伤害 * 近战命中几率 / 冷却时间（秒）</StatsReport_MeleeDPSExplanation>
+  <!-- EN: Melee damage -->
+  <StatsReport_MeleeDamage>近战伤害</StatsReport_MeleeDamage>
+  <!-- EN: Cooldown -->
+  <StatsReport_Cooldown>冷却时间</StatsReport_Cooldown>
+  <!-- EN: Melee hit chance -->
+  <StatsReport_MeleeHitChance>近战命中率</StatsReport_MeleeHitChance>
+  <!-- EN: {0} s -->
+  <StatsReport_CooldownFormat>{0}秒</StatsReport_CooldownFormat>
+  <!-- EN: Life expectancy -->
+  <StatsReport_LifeExpectancy>预期寿命</StatsReport_LifeExpectancy>
+  <!-- EN: Multiplier for missing body parts -->
+  <StatsReport_MissingBodyParts>身体部位缺失乘数</StatsReport_MissingBodyParts>
+  <!-- EN: Gear and inventory -->
+  <StatsReport_GearAndInventoryMass>装备与货物</StatsReport_GearAndInventoryMass>
+  <!-- EN: Multiplier for worn by corpse -->
+  <StatsReport_WornByCorpse>死者衣物乘数</StatsReport_WornByCorpse>
+  <!-- EN: average of all attacks -->
+  <AverageOfAllAttacks>各攻击平均</AverageOfAllAttacks>
+  <!-- EN: Scenario -->
+  <StatsReport_ScenarioFactor>剧本</StatsReport_ScenarioFactor>
+  <!-- EN: Ingredients -->
+  <StatsReport_IngredientsMass>材料</StatsReport_IngredientsMass>
+  <!-- EN: Permanently disabled. -->
+  <StatsReport_PermanentlyDisabled>永久关闭。</StatsReport_PermanentlyDisabled>
+  <!-- EN: {0} -->
+  <StatsReport_Inspiration> {0} </StatsReport_Inspiration>
+  <!-- EN: Added body parts -->
+  <StatsReport_AddedBodyPartsMass>添加的身体部件</StatsReport_AddedBodyPartsMass>
+  <!-- EN: Material effect multiplier -->
+  <StatsReport_StuffEffectMultiplier>材料效果乘数</StatsReport_StuffEffectMultiplier>
+  <!-- EN: Resting -->
+  <StatsReport_Resting>休息</StatsReport_Resting>
+  <!-- EN: recreation type -->
+  <StatsReport_JoyKind>娱乐类型</StatsReport_JoyKind>
+  <!-- EN: work to uninstall -->
+  <StatsReport_WorkToUninstall>正在卸载</StatsReport_WorkToUninstall>
+  <!-- EN: Multiplier for growth {0} -->
+  <StatsReport_PlantGrowth>成长度{0}乘数</StatsReport_PlantGrowth>
+  <!-- EN: scaled because wild -->
+  <StatsReport_PlantGrowth_Wild>野生乘数</StatsReport_PlantGrowth_Wild>
+  <!-- EN: Not flesh -->
+  <StatsReport_NotFlesh>不是肉身</StatsReport_NotFlesh>
+  <!-- EN: Not fresh -->
+  <StatsReport_NotFresh>不新鲜</StatsReport_NotFresh>
+  <!-- EN: Wild man -->
+  <StatsReport_WildMan>野人</StatsReport_WildMan>
+  <!-- EN: Attack -->
+  <StatsReport_NonToolAttack>攻击</StatsReport_NonToolAttack>
+
+</LanguageData>

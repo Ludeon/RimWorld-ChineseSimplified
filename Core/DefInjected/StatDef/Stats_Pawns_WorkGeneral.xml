@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: animal gather speed -->
+  <AnimalGatherSpeed.label>动物收集速度</AnimalGatherSpeed.label>
+  <!-- EN: The speed at which this person milks, shears, and otherwise gathers resources from animals. -->
+  <AnimalGatherSpeed.description>挤奶、剪毛，以及其他从动物身上收集资源的速度。</AnimalGatherSpeed.description>
+  
+  <!-- EN: animal gather yield -->
+  <AnimalGatherYield.label>动物收集产出</AnimalGatherYield.label>
+  <!-- EN: The percentage yield someone receives when they shear, milk, or otherwise gather resources from a living animal. Higher percentages reduce the chance of wasting the product. -->
+  <AnimalGatherYield.description>剪毛、挤奶，或其他从活着的动物身上收集资源时会得到的百分比产出。百分比越高，产物的浪费几率越少。</AnimalGatherYield.description>
+  
+  <!-- EN: construction speed -->
+  <ConstructionSpeed.label>建造速度</ConstructionSpeed.label>
+  <!-- EN: The speed at which this person constructs and repairs buildings. -->
+  <ConstructionSpeed.description>在建造与修理建筑物时的速度。</ConstructionSpeed.description>
+  
+  <!-- EN: construct success chance -->
+  <ConstructSuccessChance.label>建造成功几率</ConstructSuccessChance.label>
+  <!-- EN: The chance that this person will succeed in constructing something. Failing means wasting time and resources. -->
+  <ConstructSuccessChance.description>建造时的成功几率。失败意味着浪费时间和资源。</ConstructSuccessChance.description>
+  
+  <!-- EN: repair success chance -->
+  <FixBrokenDownBuildingSuccessChance.label>修理成功几率</FixBrokenDownBuildingSuccessChance.label>
+  <!-- EN: The chance that this person will successfully repair a broken down building using a component. Failing means wasting time and resources. Note that this only applies to repairing breakdowns, which is different from repairing damage. -->
+  <FixBrokenDownBuildingSuccessChance.description>成功地使用零部件修理损坏建筑的几率。失败意味着浪费时间和资源。注意此项仅应用于「损坏」，与修理「损伤」不同。</FixBrokenDownBuildingSuccessChance.description>
+  
+  <!-- EN: hunting stealth -->
+  <HuntingStealth.label>狩猎隐蔽率</HuntingStealth.label>
+  <!-- EN: This stat reduces the chance of hunted animals attacking the hunter. A 0% score means no reduction. A 100% score means animals never attack. -->
+  <HuntingStealth.description>狩猎动物时不被发现的几率。0%意味着没有隐蔽，隐蔽率越高，被狩猎的动物发起攻击的几率越低。</HuntingStealth.description>
+  
+  <!-- EN: mining speed -->
+  <MiningSpeed.label>采矿速度</MiningSpeed.label>
+  <!-- EN: A speed at which this person digs at walls and drills for deep resources. -->
+  <MiningSpeed.description>开采和钻取深层资源时的速度。</MiningSpeed.description>
+  
+  <!-- EN: mining yield -->
+  <MiningYield.label>开采产出</MiningYield.label>
+  <!-- EN: The percentage of mined resources a miner will produce. This applies to both wall mining and deep drill mining. This doesn't affect the production rate of rock chunks. -->
+  <MiningYield.description>矿工将达到的百分比产出。同时应用于资源块开采和深钻开采。不影响石块开采。</MiningYield.description>
+  
+  <!-- EN: plant harvest yield -->
+  <PlantHarvestYield.label>植物收获产出</PlantHarvestYield.label>
+  <!-- EN: The yield this person gets when harvesting plants. Low yields give a chance that this person will accidentally waste the harvest. -->
+  <PlantHarvestYield.description>收获植物时获取的产出。低产出会导致此人有一定几率意外地浪费收获物。</PlantHarvestYield.description>
+  
+  <!-- EN: plant work speed -->
+  <PlantWorkSpeed.label>种植速度</PlantWorkSpeed.label>
+  <!-- EN: The speed at which this person sows and harvests plants. -->
+  <PlantWorkSpeed.description>种植与收获植物时的速度。</PlantWorkSpeed.description>
+  
+  <!-- EN: research speed -->
+  <ResearchSpeed.label>研究速度</ResearchSpeed.label>
+  <!-- EN: How fast this person performs research and how quickly they can find things using scanning equipment. -->
+  <ResearchSpeed.description>研究和使用扫描设备时的速度。</ResearchSpeed.description>
+  
+  <!-- EN: smoothing speed -->
+  <SmoothingSpeed.label>打磨速度</SmoothingSpeed.label>
+  <!-- EN: A multiplier on the speed at which this person smooths rough stone floors and walls. -->
+  <SmoothingSpeed.description>打磨粗糙石面和墙面时的速度乘数。</SmoothingSpeed.description>
+  
+  <!-- EN: global work speed -->
+  <WorkSpeedGlobal.label>全局工作速度</WorkSpeedGlobal.label>
+  <!-- EN: A multiplier on a character's speed at doing any kind of work. -->
+  <WorkSpeedGlobal.description>做任何工作时的速度乘数。</WorkSpeedGlobal.description>
+  
+</LanguageData>

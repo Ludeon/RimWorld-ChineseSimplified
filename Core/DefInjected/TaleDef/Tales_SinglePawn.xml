@@ -1,0 +1,536 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: raw humanlike meat eaten -->
+  <AteRawHumanlikeMeat.label>生食人肉</AteRawHumanlikeMeat.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef]'s eating of human meat</li>
+    <li>image->[PAWN_nameFull] [eat_gerund] the meat of a fellow humanoid [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] [eat_gerund] meat from a humanlike arm [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] [eat_gerund] flesh of a humanoid [circumstance_group]</li>
+    <li>eat_gerund->eating</li>
+    <li>eat_gerund->ingesting</li>
+    <li>eat_gerund->chewing</li>
+    <li>eat_gerund->chowing down on</li>
+    <li>eat_gerund->consuming</li>
+    <li>eat_gerund->swallowing</li>
+    <li>eat_gerund->cannibalizing</li>
+    <li>circumstance_phrase->with a sense of purpose</li>
+    <li>circumstance_phrase->with no hint of shame</li>
+    <li>circumstance_phrase->with a look of shame</li>
+    <li>circumstance_phrase->while others look on</li>
+    <li>circumstance_phrase->with gusto</li>
+    <li>circumstance_phrase->frantically, like [PAWN_possessive] life depended on it</li>
+    <li>desc_sentence->[PAWN_nameDef]'s face is covered with blood and fluid.</li>
+    <li>desc_sentence->[PAWN_nameDef] is licking [PAWN_possessive] fingers.</li>
+    <li>desc_sentence->[PAWN_nameDef] has blood and gore bits all down [PAWN_possessive] front.</li>
+    <li>desc_sentence->[PAWN_nameDef] is in the middle of a large pool of blood.</li>
+    <li>desc_sentence->[PAWN_nameDef] is eyeing someone else nearby with dark interest.</li>
+    <li>desc_sentence->The meat is glistening and appears very succulent.</li>
+    <li>desc_sentence->The meat is spilling all over [PAWN_nameDef]'s body.</li>
+  -->
+  <AteRawHumanlikeMeat.rulePack.rulesStrings>
+    <li>tale_noun->吃人肉的[PAWN_nameDef]</li>
+    <li>image->[PAWN_nameFull][eat_gerund]可能是某个人类同伴的肉，[circumstance_group]</li>
+    <li>image->[PAWN_nameFull][eat_gerund]从人的手臂上切下来的肉，[circumstance_group]</li>
+    <li>image->[PAWN_nameFull][eat_gerund]人类的肉，[circumstance_group]</li>
+    <li>eat_gerund->吃着</li>
+    <li>eat_gerund->咽下</li>
+    <li>eat_gerund->嚼着</li>
+    <li>eat_gerund->恶心地嚼着</li>
+    <li>eat_gerund->吞咽着</li>
+    <li>eat_gerund->吞下</li>
+    <li>eat_gerund->撕咬着</li>
+    <li>circumstance_phrase->同时信心满满</li>
+    <li>circumstance_phrase->毫无羞耻</li>
+    <li>circumstance_phrase->肆无忌惮</li>
+    <li>circumstance_phrase->其他人在一旁围观</li>
+    <li>circumstance_phrase->同时兴致勃勃</li>
+    <li>circumstance_phrase->疯狂地如同[PAWN_possessive]生命完全依赖于此一般</li>
+    <li>desc_sentence->[PAWN_nameDef]的脸上涂满了鲜血和不明汁液。</li>
+    <li>desc_sentence->[PAWN_nameDef]满足地吮吸着自己的手指。</li>
+    <li>desc_sentence->[PAWN_nameDef]的身前全是鲜血和碎肉。</li>
+    <li>desc_sentence->[PAWN_nameDef]身处于一大摊鲜血之间。</li>
+    <li>desc_sentence->[PAWN_nameDef]不怀好意地审视着身边的某个人。</li>
+    <li>desc_sentence->人肉闪闪发光，显得鲜美多汁。</li>
+    <li>desc_sentence->人肉碎屑在[PAWN_nameDef]身上撒的到处都是。</li>
+  </AteRawHumanlikeMeat.rulePack.rulesStrings>
+  
+  <!-- EN: humanlike corpse butchered -->
+  <ButcheredHumanlikeCorpse.label>屠宰人类尸体</ButcheredHumanlikeCorpse.label>
+  
+  <!-- EN: art crafted -->
+  <CraftedArt.label>艺术手工</CraftedArt.label>
+  <!-- EN:
+    <li>tale_noun->the time [PAWN_nameDef] crafted [THING_indefinite]</li>
+    <li>image->[PAWN_nameFull] crafting [THING_indefinite] [circumstance_group]. [quality_sentence]. [title_sentence]</li>
+    <li>image->[PAWN_nameFull] completing [PAWN_possessive] work on [THING_indefinite] [circumstance_group]. [quality_sentence]. [title_sentence]</li>
+    <li>image->[PAWN_nameFull] working on [THING_indefinite] [circumstance_group]. [quality_sentence]. [title_sentence]</li>
+    <li>image->[PAWN_nameFull] making [THING_indefinite] [circumstance_group]. [quality_sentence]. [title_sentence]</li>
+    <li>circumstance_phrase->with total concentration</li>
+    <li>circumstance_phrase->with a look of satisfaction on [PAWN_possessive] face</li>
+    <li>circumstance_phrase->at [PAWN_possessive] work bench</li>
+    <li>circumstance_phrase->with great intensity</li>
+    <li>desc_sentence->There are tools scattered all around.</li>
+    <li>desc_sentence->[PAWN_pronoun] is scratched and scarred from work injuries.</li>
+    <li>desc_sentence->[PAWN_pronoun] is covered in sweat.</li>
+    <li>desc_sentence->The work area is highly organized, with every tool in its proper place.</li>
+    <li>desc_sentence->[PAWN_pronoun] is rendered in an exaggerated way to appear more powerful.</li>
+    <li>desc_sentence->The size of [THING_definite] is exaggerated to emphasize its importance.</li>
+    <li>desc_sentence->[THING_definite] has an artistic glow added to it. It seems almost angelic.</li>
+    <li>desc_sentence->[PAWN_nameDef] is faded into the background to emphasize [PAWN_possessive] new creation.</li>
+    <li>desc_sentence->[Quantity_adjphrase] onlookers surround [PAWN_objective].</li>
+    <li>desc_sentence->A crowd cheers from the background.</li>
+    <li>quality_sentence->[THING_definite] looks to be of [THING_quality] quality</li>
+    <li>quality_sentence->[THING_definite] is of [THING_quality] quality</li>
+    <li>quality_sentence->[PAWN_nameDef]'s work is of [THING_quality] quality</li>
+    <li>title_sentence->[PAWN_nameDef]'s title for [THING_definite] is written underneath: [THING_title]</li>
+    <li>title_sentence->[THING_definite] is emblazoned with its title: [THING_title]</li>
+    <li>title_sentence->The title of [THING_definite], [THING_title], hangs in the background</li>
+  -->
+  <CraftedArt.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef]制作[THING_indefinite]的时光</li>
+    <li>image->[PAWN_nameFull]正[circumstance_group]制作[THING_indefinite]。[quality_sentence]。[title_sentence]</li>
+    <li>image->[PAWN_nameFull]正[circumstance_group]完成[PAWN_possessive][THING_indefinite]的工作。[quality_sentence]。[title_sentence]</li>
+    <li>image->[PAWN_nameFull]正[circumstance_group]致力于完成[THING_indefinite]。[quality_sentence]。[title_sentence]</li>
+    <li>image->[PAWN_nameFull]正[circumstance_group]做[THING_indefinite]。[quality_sentence]。[title_sentence]</li>
+    <li>circumstance_phrase->全身心投入地</li>
+    <li>circumstance_phrase->一脸满足地</li>
+    <li>circumstance_phrase->在[PAWN_possessive]工作台旁</li>
+    <li>circumstance_phrase->极度紧张地</li>
+    <li>desc_sentence->有一些工具散落在周围。</li>
+    <li>desc_sentence->[PAWN_pronoun]在工作中受伤，留下了疤痕。</li>
+    <li>desc_sentence->[PAWN_pronoun]大汗淋漓。</li>
+    <li>desc_sentence->工作环境非常整洁，所有工具都放置在合适的位置。</li>
+    <li>desc_sentence->[PAWN_pronoun]以夸张的表现方式描绘，显得更有力。</li>
+    <li>desc_sentence->[THING_definite]夸张的大小强调了其重要性。</li>
+    <li>desc_sentence->[THING_definite]被添加了艺术性的光辉，看起来如同天使一般。</li>
+    <li>desc_sentence->[PAWN_nameDef]逐渐淡化到背景中，以强调[PAWN_possessive]新作。</li>
+    <li>desc_sentence->[quantity_adjphrase]旁观者们围绕着[PAWN_objective]。</li>
+    <li>desc_sentence->一群人在背景中欢呼。</li>
+    <li>quality_sentence->[THING_definite]看来是[THING_quality]级的质量</li>
+    <li>quality_sentence->[THING_definite]是[THING_quality]级的质量</li>
+    <li>quality_sentence->[PAWN_nameDef]的作品是[THING_quality]级的质量</li>
+    <li>title_sentence->[PAWN_nameDef]给[THING_definite]起了以下的标题：[THING_title]</li>
+    <li>title_sentence->[THING_definite]上被纹章装饰着的标题：[THING_title]</li>
+    <li>title_sentence->[THING_definite]的标题，[THING_title]，悬在背景中</li>
+  </CraftedArt.rulePack.rulesStrings>
+  
+  <!-- EN: drunk -->
+  <Drunk.label>醉酒</Drunk.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef]'s extreme drunkenness</li>
+    <li>tale_noun->[PAWN_nameDef] getting extremely drunk</li>
+    <li>image->[PAWN_nameFull] staggering around drunk [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] tilting [PAWN_possessive] head back and guzzling liquor [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] greedily collecting bottles of liquor [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] drinking heavily [circumstance_group]</li>
+    <li>circumstance_phrase->oblivious to [PAWN_possessive] surroundings</li>
+    <li>circumstance_phrase->in a brooding stupor</li>
+    <li>circumstance_phrase->while questioning [PAWN_possessive] own existence</li>
+    <li>circumstance_phrase->with tears in [PAWN_possessive] eyes</li>
+    <li>circumstance_phrase->while chuckling madly</li>
+    <li>circumstance_phrase->while sobbing</li>
+    <li>circumstance_phrase->while looking pathetic</li>
+    <li>circumstance_phrase->while glaring angrily at people around [PAWN_objective]</li>
+    <li>circumstance_phrase->while leering at someone nearby</li>
+    <li>circumstance_phrase->while attempting to disrobe</li>
+    <li>circumstance_phrase->with a finger in [PAWN_possessive] mouth</li>
+    <li>circumstance_phrase->while holding back vomit</li>
+    <li>circumstance_phrase->without a care in the world</li>
+    <li>circumstance_phrase->with a lustful glint in [PAWN_possessive] eye</li>
+    <li>circumstance_phrase->while reviewing the ghosts of [PAWN_possessive] past</li>
+    <li>desc_sentence->[PAWN_pronoun] seems totally unaware of what is around [PAWN_objective].</li>
+    <li>desc_sentence->[PAWN_possessive] face itself seems to be swelling.</li>
+    <li>desc_sentence->[PAWN_pronoun] is nearly unconscious, [PAWN_possessive] tongue lolling out, drool dripping.</li>
+    <li>desc_sentence->[PAWN_pronoun] looks happy and sad at the same time.</li>
+    <li>desc_sentence->[PAWN_pronoun] has stains down [PAWN_possessive] front.</li>
+    <li>desc_sentence->There is a trail of discarded beverage containers behind [PAWN_objective].</li>
+    <li>desc_sentence->There is a white substance on [PAWN_possessive] pants.</li>
+    <li>desc_sentence->[PAWN_pronoun] seems to have lost a shoe.</li>
+    <li>desc_sentence->[PAWN_possessive] hair is totally mussed up.</li>
+  -->
+  <Drunk.rulePack.rulesStrings>
+    <li>tale_noun->醉生梦死的[PAWN_nameDef]</li>
+    <li>tale_noun->[PAWN_nameDef]伶仃大醉</li>
+    <li>image->[PAWN_nameFull]喝醉后摇摇晃晃，[circumstance_group]</li>
+    <li>image->[PAWN_nameFull]仰头痛饮，[circumstance_group]</li>
+    <li>image->[PAWN_nameFull]贪心地抱着数瓶酒，[circumstance_group]</li>
+    <li>image->[PAWN_nameFull]大喝特喝，[circumstance_group]</li>
+    <li>circumstance_phrase->分不清东西南北了</li>
+    <li>circumstance_phrase->恍恍惚惚</li>
+    <li>circumstance_phrase->问着[PAWN_possessive]自己在哪里</li>
+    <li>circumstance_phrase->泪流满面</li>
+    <li>circumstance_phrase->神经质地笑着</li>
+    <li>circumstance_phrase->泣不成声</li>
+    <li>circumstance_phrase->神情伤感</li>
+    <li>circumstance_phrase->愤怒地瞪着周围的人</li>
+    <li>circumstance_phrase->对着旁边的某个人抛着媚眼</li>
+    <li>circumstance_phrase->想要把衣服脱光</li>
+    <li>circumstance_phrase->嘴巴含着手指</li>
+    <li>circumstance_phrase->呕吐着</li>
+    <li>circumstance_phrase->没有半点顾虑</li>
+    <li>circumstance_phrase->眼中闪着淫光</li>
+    <li>circumstance_phrase->追忆着过去</li>
+    <li>desc_sentence->[PAWN_pronoun]似乎对周围的环境一无所知。</li>
+    <li>desc_sentence->[PAWN_possessive]脸似乎变得浮肿。</li>
+    <li>desc_sentence->[PAWN_pronoun]近乎不省人事，伸着舌头口吐白沫。</li>
+    <li>desc_sentence->[PAWN_pronoun]一会哭一会笑。</li>
+    <li>desc_sentence->[PAWN_pronoun]把自己前面弄得一片脏。</li>
+    <li>desc_sentence->在[PAWN_objective]身后有一堆喝空的酒瓶。</li>
+    <li>desc_sentence->[PAWN_possessive]的裤子上有一滩白色物质。</li>
+    <li>desc_sentence->[PAWN_pronoun]似乎丢了一只鞋子。</li>
+    <li>desc_sentence->[PAWN_possessive]头发乱糟糟的。</li>
+  </Drunk.rulePack.rulesStrings>
+  
+  <!-- EN: research project finished -->
+  <FinishedResearchProject.label>研究项目完成</FinishedResearchProject.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef] finishing research on [PROJECT_label]</li>
+    <li>image->[PAWN_nameFull] working on [PROJECT_label] research project [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] studying the secrets of [PROJECT_label] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] researching [PROJECT_label] [circumstance_group]</li>
+    <li>circumstance_phrase->with great intensity</li>
+    <li>circumstance_phrase->alone at [PAWN_possessive] bench</li>
+    <li>circumstance_phrase->while holding papers in [PAWN_possessive] hand</li>
+    <li>circumstance_phrase->with a look of gleeful fascination</li>
+    <li>desc_sentence->[PAWN_nameDef] is sweating.</li>
+    <li>desc_sentence->The work appears to be exceptionally complex.</li>
+    <li>desc_sentence->[PAWN_nameDef] is completely surrounded by an array of tools and apparatuses.</li>
+    <li>desc_sentence->[PAWN_nameDef] is staring at [PAWN_possessive] discovery with a sense of wonder.</li>
+  -->
+  <FinishedResearchProject.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef]完成「[PROJECT_label]」的研究</li>
+    <li>image->[PAWN_nameFull][circumstance_group]进行着「[PROJECT_label]」项目的研究</li>
+    <li>image->[PAWN_nameFull][circumstance_group]探寻着「[PROJECT_label]」的奥秘</li>
+    <li>image->[PAWN_nameFull][circumstance_group]研究着「[PROJECT_label]」</li>
+    <li>circumstance_phrase->极度紧张地</li>
+    <li>circumstance_phrase->独自站在[PAWN_possessive]研究台前</li>
+    <li>circumstance_phrase->一边拿着文件一边</li>
+    <li>circumstance_phrase->一脸痴迷地</li>
+    <li>desc_sentence->[PAWN_nameDef]大汗淋漓。</li>
+    <li>desc_sentence->项目显得异常复杂。</li>
+    <li>desc_sentence->[PAWN_nameDef]被一排排的工具和仪器包围。</li>
+    <li>desc_sentence->[PAWN_nameDef]惊奇不已地盯着[PAWN_possessive]发现。</li>
+  </FinishedResearchProject.rulePack.rulesStrings>
+  
+  <!-- EN: landed in pod -->
+  <LandedInPod.label>空投舱着陆</LandedInPod.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef]'s landing in a drop pod</li>
+    <li>image->[PAWN_nameFull] landing in a drop pod [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] touching down in a drop pod [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] striking earth in a drop pod [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] riding in a drop pod [circumstance_group]</li>
+    <li>circumstance_phrase->in front of a [TerrainFeature]</li>
+    <li>circumstance_phrase->with incredible force</li>
+    <li>circumstance_phrase->in a plume of dust and rocks</li>
+    <li>circumstance_phrase->with retro-rockets firing dramatically</li>
+    <li>circumstance_phrase->in a precision landing</li>
+    <li>desc_sentence->[PAWN_pronoun] is concentrating intently on the controls.</li>
+    <li>desc_sentence->[PAWN_pronoun] has [PAWN_possessive] eyes closed and looks afraid.</li>
+    <li>desc_sentence->[PAWN_pronoun] is unconscious, [PAWN_possessive] tongue lolling out, drool dripping.</li>
+    <li>desc_sentence->[PAWN_pronoun] is smiling with grim joy.</li>
+    <li>desc_sentence->[PAWN_pronoun] seems to have no idea what [PAWN_pronoun] is doing.</li>
+    <li>desc_sentence->[PAWN_pronoun] is strapped in with [PAWN_possessive] eyes closed, totally helpless.</li>
+    <li>desc_sentence->There is a flame trail licking off the back of the pod.</li>
+    <li>desc_sentence->A nearby [Animal] is looking up, startled.</li>
+    <li>desc_sentence->A [Animal] is fleeing the impact in fear.</li>
+    <li>desc_sentence->There is a [TerrainFeature] in the background.</li>
+    <li>desc_sentence->A [PersonJob] watches silently from afar.</li>
+  -->
+  <LandedInPod.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef]的空投舱着陆</li>
+    <li>image->[PAWN_nameFull]正[circumstance_group]以空投舱方式登陆</li>
+    <li>image->[PAWN_nameFull]正[circumstance_group]以空投舱方式着陆</li>
+    <li>image->[PAWN_nameFull]正[circumstance_group]以空投舱方式撞向地面</li>
+    <li>image->[PAWN_nameFull]正[circumstance_group]搭乘着空投舱下降</li>
+    <li>circumstance_phrase->在一片[TerrainFeature]之前</li>
+    <li>circumstance_phrase->以不可思议的力量</li>
+    <li>circumstance_phrase->在一片飘起的尘埃和碎石中</li>
+    <li>circumstance_phrase->在减速火箭剧烈点火中</li>
+    <li>circumstance_phrase->在精确着陆的程序中</li>
+    <li>desc_sentence->[PAWN_pronoun]聚精会神地操纵着控制器。</li>
+    <li>desc_sentence->[PAWN_pronoun]吓得闭上了[PAWN_possessive]眼睛。</li>
+    <li>desc_sentence->[PAWN_pronoun]不省人事，伸着舌头口吐白沫。</li>
+    <li>desc_sentence->[PAWN_pronoun]坚强地微笑着。</li>
+    <li>desc_sentence->[PAWN_pronoun]似乎已经不知道自己在做什么。</li>
+    <li>desc_sentence->[PAWN_pronoun]陷入困境，完全无助地闭上了眼睛。</li>
+    <li>desc_sentence->空投舱拖着一条火焰尾巴从空中坠落。</li>
+    <li>desc_sentence->附近一只[Animal]惊吓得抬头仰望。</li>
+    <li>desc_sentence->一只[Animal]惊恐地逃离撞击点。</li>
+    <li>desc_sentence->背景是一片[TerrainFeature]。</li>
+    <li>desc_sentence->一个[PersonJob]从远处默默地看着。</li>
+  </LandedInPod.rulePack.rulesStrings>
+  
+  <!-- EN: berserk rage -->
+  <MentalStateBerserk.label>野蛮狂怒</MentalStateBerserk.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef] going berserk</li>
+    <li>image->[PAWN_nameFull] flying into a berserk rage [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] becoming madly, violently insane [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] stumbling forward with a psychotic look on [PAWN_possessive] face [circumstance_group]</li>
+    <li>circumstance_phrase->while attempting to disrobe</li>
+    <li>circumstance_phrase->seemingly without reason</li>
+    <li>circumstance_phrase->as others cower in fear</li>
+    <li>circumstance_phrase->as a friend flees</li>
+    <li>circumstance_phrase->because of the stress</li>
+    <li>circumstance_phrase->as a last step</li>
+    <li>desc_sentence->[PAWN_pronoun] is shaking with ungovernable rage.</li>
+    <li>desc_sentence->[PAWN_possessive] teeth are bared in a deadly snarl.</li>
+    <li>desc_sentence->[PAWN_possessive] eyes are dead pools of madness.</li>
+    <li>desc_sentence->Spittle is flying from [PAWN_possessive] mouth as [PAWN_possessive] screams with insane rage.</li>
+    <li>desc_sentence->[PAWN_pronoun] has lost part of [PAWN_possessive] clothing.</li>
+    <li>desc_sentence->[PAWN_pronoun] is grimacing in misery.</li>
+    <li>desc_sentence->[PAWN_pronoun] seems smiling maniacally.</li>
+    <li>desc_sentence->[PAWN_pronoun] is depicted with the snarling face of a [Animal].</li>
+    <li>desc_sentence->[Animal]s symbolically surround [PAWN_possessive] head.</li>
+    <li>desc_sentence->[PAWN_pronoun] has a murderous glint in [PAWN_possessive] eye.</li>
+    <li>desc_sentence->[PAWN_possessive] entire body seems to be trembling with hatred.</li>
+    <li>desc_sentence->[PAWN_possessive] face is set in a look of twisted serenity.</li>
+    <li>desc_sentence->A single tear rolls down [PAWN_possessive] face.</li>
+  -->
+  <MentalStateBerserk.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef]发狂</li>
+    <li>image->[PAWN_nameFull]突然发狂，[circumstance_group]</li>
+    <li>image->[PAWN_nameFull]变成了疯子，[circumstance_group]</li>
+    <li>image->[PAWN_nameFull]跌跌撞撞地向前走着，一副精神病人的样子，[circumstance_group]</li>
+    <li>circumstance_phrase->同时试图脱光衣服</li>
+    <li>circumstance_phrase->看上去莫名其妙</li>
+    <li>circumstance_phrase->其他人害怕地畏缩着</li>
+    <li>circumstance_phrase->[PAWN_possessive]一个朋友逃开了</li>
+    <li>circumstance_phrase->显然是受到重压而精神崩溃</li>
+    <li>circumstance_phrase->显然是作为最后一搏的手段</li>
+    <li>desc_sentence->[PAWN_pronoun]因为自身无法控制的愤怒而浑身发抖。</li>
+    <li>desc_sentence->[PAWN_pronoun]呲着牙狂吼着。</li>
+    <li>desc_sentence->[PAWN_possessive]目光中只剩下疯狂。</li>
+    <li>desc_sentence->唾沫从[PAWN_possessive]嘴中不断喷出，同时[PAWN_possessive]疯狂地愤怒地大喊大叫。</li>
+    <li>desc_sentence->[PAWN_pronoun]身上穿着的部分衣服已经不见了。</li>
+    <li>desc_sentence->[PAWN_pronoun]的脸因为悲痛而扭曲。</li>
+    <li>desc_sentence->[PAWN_pronoun]像疯子一样微笑。</li>
+    <li>desc_sentence->[PAWN_pronoun]的脸被描绘了一只咆哮的[Animal]。</li>
+    <li>desc_sentence->许多[Animal]包围着[PAWN_possessive]的头，似乎象征着什么。</li>
+    <li>desc_sentence->[PAWN_pronoun]的目光充满了杀气。</li>
+    <li>desc_sentence->[PAWN_possessive]整个身体似乎都因为憎恨而颤抖着。</li>
+    <li>desc_sentence->[PAWN_possessive]一脸狰狞。</li>
+    <li>desc_sentence->[PAWN_possessive]脸上挂着一行眼泪。</li>
+  </MentalStateBerserk.rulePack.rulesStrings>
+  
+  <!-- EN: gave up -->
+  <MentalStateGaveUp.label>放弃</MentalStateGaveUp.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef] giving up in despair</li>
+    <li>image->[PAWN_nameFull] finally giving up under stress [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] sobbing uncontrollably [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] stumbling around with a completely broken expression on [PAWN_possessive] face [circumstance_group]</li>
+    <li>circumstance_phrase->while attempting to disrobe</li>
+    <li>circumstance_phrase->seemingly without reason</li>
+    <li>circumstance_phrase->as others offer sympathy</li>
+    <li>circumstance_phrase->as a friend cries</li>
+    <li>circumstance_phrase->because of the stress</li>
+    <li>circumstance_phrase->as a last step</li>
+    <li>desc_sentence->[PAWN_pronoun] has tears streaming down [PAWN_possessive] face.</li>
+    <li>desc_sentence->[PAWN_pronoun] is laughing in the depths of [PAWN_possessive] depression.</li>
+    <li>desc_sentence->[PAWN_nameDef] is looking upward, as if to ask for help from above.</li>
+    <li>desc_sentence->[PAWN_pronoun] is tearing at [PAWN_possessive] own clothes.</li>
+    <li>desc_sentence->[PAWN_pronoun] seems totally unaware of what is around [PAWN_objective].</li>
+    <li>desc_sentence->[PAWN_pronoun] looks happy and sad at the same time.</li>
+    <li>desc_sentence->[PAWN_pronoun] has stains down [PAWN_possessive] front.</li>
+    <li>desc_sentence->[PAWN_pronoun] seems to have lost a shoe.</li>
+    <li>desc_sentence->[PAWN_possessive] hair is totally mussed up.</li>
+  -->
+  <MentalStateGaveUp.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef]绝望中的放弃</li>
+    <li>image->[PAWN_nameFull]同时在压力之下自暴自弃，[circumstance_group]</li>
+    <li>image->[PAWN_nameFull]压抑不住啜泣起来，[circumstance_group]</li>
+    <li>image->[PAWN_nameFull]四处徘徊，神情茫然，[circumstance_group]</li>
+    <li>circumstance_phrase->同时试图脱光衣服</li>
+    <li>circumstance_phrase->看上去莫名其妙</li>
+    <li>circumstance_phrase->其他人在一旁不断安慰</li>
+    <li>circumstance_phrase->身边的一个朋友在哭泣</li>
+    <li>circumstance_phrase->显然是受到重压而精神崩溃</li>
+    <li>circumstance_phrase->显然是作为最后一搏的手段</li>
+    <li>desc_sentence->[PAWN_pronoun]脸上挂着泪水。</li>
+    <li>desc_sentence->[PAWN_pronoun]消沉地大笑着。</li>
+    <li>desc_sentence->[PAWN_nameDef]抬头望天，似乎在祈求上苍的帮助。</li>
+    <li>desc_sentence->[PAWN_pronoun]撕扯着自己的衣服。</li>
+    <li>desc_sentence->[PAWN_pronoun]似乎对周围的环境一无所知。</li>
+    <li>desc_sentence->[PAWN_pronoun]一会哭一会笑。</li>
+    <li>desc_sentence->[PAWN_pronoun]把自己弄得很脏。</li>
+    <li>desc_sentence->[PAWN_pronoun]似乎丢了一只鞋子。</li>
+    <li>desc_sentence->[PAWN_possessive]头发乱糟糟的。</li>
+  </MentalStateGaveUp.rulePack.rulesStrings>
+  
+  <!-- EN: struck mineable -->
+  <StruckMineable.label>采矿</StruckMineable.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef] striking [THING_label]</li>
+    <li>image->[PAWN_nameFull] striking [THING_label] [circumstance_group]</li>
+    <li>circumstance_phrase->while mining</li>
+    <li>circumstance_phrase->while digging</li>
+    <li>circumstance_phrase->while tunnelling</li>
+    <li>circumstance_phrase->with a look of surprise</li>
+    <li>circumstance_phrase->with a satisfied expression</li>
+    <li>desc_sentence->[PAWN_nameDef] is wiping [PAWN_possessive] brow.</li>
+    <li>desc_sentence->[PAWN_nameDef] is jumping for joy.</li>
+    <li>desc_sentence->[PAWN_nameDef] is high-fiving a friend.</li>
+    <li>desc_sentence->[PAWN_nameDef] is screaming with happiness.</li>
+    <li>desc_sentence->[PAWN_nameDef] is laughing uncontrollably.</li>
+    <li>desc_sentence->[PAWN_nameDef] is sweaty and dirty from work.</li>
+    <li>desc_sentence->[PAWN_nameDef] is sweaty and dirty from work.</li>
+  -->
+  <StruckMineable.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef]开采[THING_label]</li>
+    <li>image->[PAWN_nameFull][circumstance_group]采到了[THING_label]</li>
+    <li>circumstance_phrase->在开采时</li>
+    <li>circumstance_phrase->在挖掘时</li>
+    <li>circumstance_phrase->在开凿时</li>
+    <li>circumstance_phrase->出人意料地</li>
+    <li>circumstance_phrase->不出意外地</li>
+    <li>desc_sentence->[PAWN_nameDef]用衣袖擦拭着额头。</li>
+    <li>desc_sentence->[PAWN_nameDef]高兴得蹦蹦跳跳。</li>
+    <li>desc_sentence->[PAWN_nameDef]和朋友击掌庆贺。</li>
+    <li>desc_sentence->[PAWN_nameDef]开心地大喊大叫。</li>
+    <li>desc_sentence->[PAWN_nameDef]抑制不住地大笑。</li>
+    <li>desc_sentence->[PAWN_nameDef]脸上都是汗水和尘土。</li>
+    <li>desc_sentence->[PAWN_nameDef]脸上都是汗水和尘土。</li>
+  </StruckMineable.rulePack.rulesStrings>
+  
+  <!-- EN: vomited -->
+  <Vomited.label>呕吐</Vomited.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef]'s vomiting</li>
+    <li>image->[PAWN_nameFull] spewing vomit onto the ground [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] looking disgusted while covered with dried vomit [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] doubled over and retching onto the floor [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] on [PAWN_possessive] knees, vomiting on the floor [circumstance_group]</li>
+    <li>circumstance_phrase->while looking pained</li>
+    <li>circumstance_phrase->with great shame</li>
+    <li>circumstance_phrase->as others look on</li>
+    <li>desc_sentence->[PAWN_pronoun] seems totally unaware of what is around [PAWN_objective].</li>
+    <li>desc_sentence->[PAWN_possessive] face itself seems to be swelling.</li>
+    <li>desc_sentence->[PAWN_pronoun] is nearly unconscious, [PAWN_possessive] tongue lolling out, drool dripping.</li>
+    <li>desc_sentence->[PAWN_pronoun] is convulsing violently.</li>
+    <li>desc_sentence->[PAWN_pronoun] looks ashamed.</li>
+    <li>desc_sentence->[PAWN_pronoun] seems to be trying to laugh, despite the circumstances.</li>
+    <li>desc_sentence->[PAWN_pronoun] looks almost deflated, as though totally emptied by the intense vomiting.</li>
+    <li>desc_sentence->[PAWN_pronoun] is surrounded by an artistically rendered halo of filth.</li>
+    <li>desc_sentence->A [Animal] is eating from the trail of vomit in the background.</li>
+  -->
+  <Vomited.rulePack.rulesStrings>
+    <li>tale_noun->正在呕吐的[PAWN_nameDef]</li>
+    <li>image->[PAWN_nameFull]正[circumstance_group]往地上呕吐着 </li>
+    <li>image->[PAWN_nameFull]被结块的呕吐物弄了一身，还[circumstance_group]干呕着，看着非常恶心</li>
+    <li>image->[PAWN_nameFull]弯着腰，[circumstance_group]再次往地上吐了起来</li>
+    <li>image->[PAWN_nameFull]扶着膝盖，[circumstance_group]往地板上干呕着</li>
+    <li>circumstance_phrase->很痛苦地</li>
+    <li>circumstance_phrase->一脸羞愧地</li>
+    <li>circumstance_phrase->在其他人的围观下</li>
+    <li>desc_sentence->[PAWN_pronoun]似乎对周围的环境一无所知。</li>
+    <li>desc_sentence->[PAWN_possessive]脸似乎变得浮肿。</li>
+    <li>desc_sentence->[PAWN_pronoun]几乎不省人事，伸着舌头口吐白沫。</li>
+    <li>desc_sentence->[PAWN_pronoun]剧烈地抽搐着。</li>
+    <li>desc_sentence->[PAWN_pronoun]满脸羞愧。</li>
+    <li>desc_sentence->[PAWN_pronoun]无视当前的环境，似乎想要试着笑一笑。</li>
+    <li>desc_sentence->[PAWN_pronoun]看起来虚脱了，仿佛整个人被剧烈的呕吐掏空。</li>
+    <li>desc_sentence->[PAWN_pronoun]被一圈非常有艺术感的呕吐物围绕着。</li>
+    <li>desc_sentence->背景中一只[Animal]正在吃地上残存的呕吐物。</li>
+  </Vomited.rulePack.rulesStrings>
+  
+  <!-- EN: walked naked -->
+  <WalkedNaked.label>裸奔</WalkedNaked.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef] walking around naked</li>
+    <li>image->[PAWN_nameFull] [nude_action] while in a state of nature [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] [nude_action] in the nude [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] [nude_action], naked, [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] [nude_action] without any clothes on [circumstance_group]</li>
+    <li>nude_action->prancing</li>
+    <li>nude_action->frolicking</li>
+    <li>nude_action->gambolling</li>
+    <li>nude_action->walking</li>
+    <li>nude_action->strutting [PAWN_possessive] stuff</li>
+    <li>nude_action->sashaying</li>
+    <li>nude_action->tiptoeing</li>
+    <li>nude_action->promenading</li>
+    <li>nude_action->surveying the area</li>
+    <li>circumstance_phrase->with a sense of purpose</li>
+    <li>circumstance_phrase->with no hint of shame</li>
+    <li>circumstance_phrase->while others look on</li>
+    <li>circumstance_phrase->for no apparent reason</li>
+    <li>circumstance_phrase->while confused animals look on</li>
+    <li>desc_sentence->[PAWN_nameDef] is visibly aroused.</li>
+    <li>desc_sentence->[PAWN_nameDef] is covered in unexplained moisture.</li>
+    <li>desc_sentence->[PAWN_nameDef] is breathing heavily for no obvious reason.</li>
+    <li>desc_sentence->[PAWN_nameDef] is fondling a shrub.</li>
+  -->
+  <WalkedNaked.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef]裸奔</li>
+    <li>image->[PAWN_nameFull]非常自然地光着身子[nude_action]，[circumstance_group]</li>
+    <li>image->[PAWN_nameFull]一丝不挂地[nude_action]，[circumstance_group]</li>
+    <li>image->[PAWN_nameFull]赤裸着[nude_action]，[circumstance_group]</li>
+    <li>image->[PAWN_nameFull][nude_action]，没穿任何衣服，[circumstance_group]</li>
+    <li>nude_action->昂首阔步</li>
+    <li>nude_action->嬉戏玩耍</li>
+    <li>nude_action->蹦蹦跳跳</li>
+    <li>nude_action->闲庭信步</li>
+    <li>nude_action->炫耀[PAWN_possessive]身材</li>
+    <li>nude_action->到处走动</li>
+    <li>nude_action->踮着脚走路</li>
+    <li>nude_action->散步</li>
+    <li>nude_action->环顾四周</li>
+    <li>circumstance_phrase->同时信心满满</li>
+    <li>circumstance_phrase->肆无忌惮</li>
+    <li>circumstance_phrase->其他人在一旁围观</li>
+    <li>circumstance_phrase->不知什么原因</li>
+    <li>circumstance_phrase->周围的动物十分困惑</li>
+    <li>desc_sentence->[PAWN_nameDef]明显很激动。</li>
+    <li>desc_sentence->[PAWN_nameDef]浑身被不明的水汽包裹。</li>
+    <li>desc_sentence->[PAWN_nameDef]无缘无故地喘着粗气。</li>
+    <li>desc_sentence->[PAWN_nameDef]轻轻抚弄着灌木从。</li>
+  </WalkedNaked.rulePack.rulesStrings>
+  
+  <!-- EN: on fire -->
+  <WasOnFire.label>起火</WasOnFire.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef] catching fire</li>
+    <li>image->[PAWN_nameFull] frantically beating out a fire attached to [PAWN_possessive] body [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] enveloped by flame [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] kneeling, hands over head, trying to extinguish flames on [PAWN_possessive] body [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] rolling on the floor while burning [circumstance_group]</li>
+    <li>circumstance_phrase->while others look on</li>
+    <li>circumstance_phrase->while nearly naked</li>
+    <li>circumstance_phrase->with focused intent</li>
+    <li>desc_sentence->[PAWN_possessive] flesh is visibly charring.</li>
+    <li>desc_sentence->[PAWN_possessive] eyes are wide with panic.</li>
+    <li>desc_sentence->[PAWN_pronoun] seems to be barely conscious; [PAWN_possessive] eyes are lifeless.</li>
+    <li>desc_sentence->[PAWN_possessive] mouth is open as [PAWN_pronoun] screams for help.</li>
+    <li>desc_sentence->The flames are about to envelope his head.</li>
+    <li>desc_sentence->A symbolic halo of fire surrounds his face.</li>
+    <li>desc_sentence->[PAWN_pronoun] is laughing maniacally.</li>
+    <li>desc_sentence->[PAWN_pronoun] seems to be losing [PAWN_objective]self.</li>
+    <li>desc_sentence->A plume of smoke is rising off [PAWN_objective].</li>
+    <li>desc_sentence->[PAWN_pronoun] is rendered artistically in a corpse-like way.</li>
+  -->
+  <WasOnFire.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef]身上着火</li>
+    <li>image->[PAWN_nameFull]正[circumstance_group]疯狂拍打自己身上的火焰</li>
+    <li>image->[PAWN_nameFull]正[circumstance_group]被火焰吞噬</li>
+    <li>image->[PAWN_nameFull]跪下来，举着双手，[circumstance_group]试图把自己身上的火焰扑灭</li>
+    <li>image->[PAWN_nameFull]浑身是火，[circumstance_group]满地打滚</li>
+    <li>circumstance_phrase->在其他人的旁观下</li>
+    <li>circumstance_phrase->几乎全裸地</li>
+    <li>circumstance_phrase->惊慌失措地</li>
+    <li>desc_sentence->[PAWN_possessive]皮肉明显烧焦了。</li>
+    <li>desc_sentence->[PAWN_possessive]眼中布满了惊恐。</li>
+    <li>desc_sentence->[PAWN_pronoun]似乎快没有了意识，[PAWN_possessive]眼睛已经失去了生机。</li>
+    <li>desc_sentence->[PAWN_pronoun]大声呼喊着求救。</li>
+    <li>desc_sentence->火焰已经包裹住了[PAWN_possessive]头。</li>
+    <li>desc_sentence->一个象征性的火焰光环环绕着[PAWN_possessive]脸</li>
+    <li>desc_sentence->[PAWN_pronoun]疯子般地大笑着。</li>
+    <li>desc_sentence->[PAWN_pronoun]失魂落魄。</li>
+    <li>desc_sentence->[PAWN_objective]浑身冒着烟。</li>
+    <li>desc_sentence->[PAWN_pronoun]被用艺术性地手法描绘成了尸体一样的形式。</li>
+  </WasOnFire.rulePack.rulesStrings>
+  
+</LanguageData>

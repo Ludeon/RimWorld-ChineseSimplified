@@ -1,0 +1,866 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: Confirm -->
+  <Confirm>确定</Confirm>
+  <!-- EN: Go back -->
+  <GoBack>返回</GoBack>
+  <!-- EN: OK -->
+  <OK>确定</OK>
+  <!-- EN: Close -->
+  <Close>关闭</Close>
+  
+  <!-- Game updated to new version -->
+  <!-- EN: RimWorld has been updated from version {0} to version {1}. -->
+  <GameUpdatedToNewVersionInitial>Rimworld 已从{0}版本升级至{1}版本。</GameUpdatedToNewVersionInitial>
+  <!-- EN: This may cause saved games and mods from the old version to stop working. -->
+  <GameUpdatedToNewVersionSavesIncompatible>升级可能会导致旧版存档及 Mod 无法读取及使用。</GameUpdatedToNewVersionSavesIncompatible>
+  <!-- EN: Saved games from the old version should be compatible, however some mods may stop working. -->
+  <GameUpdatedToNewVersionSavesCompatible>旧版存档应该是兼容的，不过一些 Mod 可能无法使用。</GameUpdatedToNewVersionSavesCompatible>
+  <!-- EN: Since this is a DRM-free copy, you can install the game twice in two different folders, to be able to play both old and new versions. -->
+  <GameUpdatedToNewVersionNonSteam>因为你的游戏为免 DRM 版，你可以选择在不同的文件夹下安装新版本，因此可以同时玩旧版和新版。</GameUpdatedToNewVersionNonSteam>
+  <!-- EN: If you wish to continue with the old version, you can opt in using Steam's "Betas" feature.\n\n  1. In the Steam library, right-click RimWorld.\n  2. Click Properties.\n  3. Click the Betas tab.\n  4. Select the version you want from the drop-down menu.\n\nOld versions will be likely removed from this list eventually - we just didn't want to cut off games in progress.\n\nNote that if mod authors update their mods for a new game version, they'll probably stop working on an old version. You may want to turn off automatic updates to prevent this. -->
+  <GameUpdatedToNewVersionSteam>你可以在 Steam 的「beta」选项中选择使用旧版进行游戏。\n\n 1. 在「Steam 游戏库」中右击 RimWorld\n 2. 点击「属性」\n 3. 选择「测试」标签页\n 4. 在下拉菜单中选择你想进行游戏的版本。\n\n旧版本最终会被从列表移除，该选项只是用于让你完成未完成的游戏。\n\n注意: 如果 Mod 作者升级了 Mod 有可能导致它无法在旧版本中运行，你可以通过禁止自动更新来避免这一问题。</GameUpdatedToNewVersionSteam>
+  
+  <!-- Recovered from errors caused by mods -->
+  <!-- EN: Recovered from incompatible or corrupted mods errors -->
+  <RecoveredFromErrorsDialogTitle>从不兼容或损坏的 Mod 错误中恢复</RecoveredFromErrorsDialogTitle>
+  <!-- EN: It seems that some of the active mods were causing errors.\n\nThey were incompatible with each other, designed for a different version of RimWorld, or corrupted.\n\nAll mods have been disabled and can be activated again in the mods dialog. -->
+  <RecoveredFromErrorsText>当前启用的某些 Mod 导致了错误。\n\n它们可能彼此之间不兼容，或者兼容不同的游戏版本或已经损坏。\n\n所有的 Mod 已被禁用，你可以在 Mod 配置菜单中重新启用。</RecoveredFromErrorsText>
+  
+  <!-- Errors during loading -->
+  <!-- EN: Error while loading assets -->
+  <ErrorWhileLoadingAssetsTitle>载入资源时出错</ErrorWhileLoadingAssetsTitle>
+  <!-- EN: An error occurred while loading game assets. See error log for more information. -->
+  <ErrorWhileLoadingAssets>载入游戏资源时发生错误。查看错误日志以了解更多信息。</ErrorWhileLoadingAssets>
+  <!-- EN: The game is currently running with custom mods - they may or may not cause these problems. -->
+  <ErrorWhileLoadingAssets_ModsInfo>当前游戏载入了自定义的 Mod，它们可能会引起这些问题。</ErrorWhileLoadingAssets_ModsInfo>
+  <!-- EN: Error while generating a map -->
+  <ErrorWhileGeneratingMapTitle>生成地图时出错</ErrorWhileGeneratingMapTitle>
+  <!-- EN: An error occurred while generating a new map. See error log for more information. -->
+  <ErrorWhileGeneratingMap>生成新地图时发生错误。查看错误日志以了解更多信息。</ErrorWhileGeneratingMap>
+  <!-- EN: Error while loading a map -->
+  <ErrorWhileLoadingMapTitle>载入地图时出错</ErrorWhileLoadingMapTitle>
+  <!-- EN: An error occurred while loading a map. See error log for more information. -->
+  <ErrorWhileLoadingMap>载入地图时出现错误。查看错误日志以了解更多信息。</ErrorWhileLoadingMap>
+  
+  <!-- Unloaded mod with an assembly -->
+  <!-- EN: The mod list has changed. The game will now restart automatically. -->
+  <ModsChanged>Mod 列表已修改。游戏将会立刻自动重启。</ModsChanged>
+  <!-- EN: Something went wrong while restarting the game. The game can't fully unload modified code from deactivated mods, so code from deactivated mods may still be active.\n\nIt's recommended that you quit and restart the game now to load all mods cleanly. -->
+  <FailedToRestart>重启游戏时发生了错误。游戏无法完全卸载已停用 Mod 的修改代码，所以来自已停用 Mod 的代码仍然会生效。\n\n建议你现在退出并重启游戏以清洁地载入所有 Mod。</FailedToRestart>
+  <!-- EN: Restarting -->
+  <Restarting>正在重启</Restarting>
+  
+  <!-- Missing Steam -->
+  <!-- EN: Could not initialize Steam API. Possible causes:\n\n-Steam is not running.\n-Launched from outside Steam without steam_appid.txt in place.\n-Running with different privileges than Steam client (e.g. "as administrator").\n\nIn most cases, rebooting your computer will fix this problem.\n\nYou can play anyway, but no Steam stats will be recorded and Steam features won't be available. -->
+  <SteamClientMissing>无法初始化 Steam API。可能原因:\n\n- Steam 未运行。\n- 在 Steam 之外启动，且无法载入 steam_appid.txt 。\n- 通过和 Steam 客户端不同的权限启动（比如「管理员身份」）。\n\n在大部分时候，重启你的电脑即可解决这个问题。\n\n你可以继续游戏，但 Steam 统计信息将不会被记录，且 Steam 功能将不会生效。</SteamClientMissing>
+  
+  <!-- Long events -->
+  <!-- EN: Initializing interface -->
+  <InitializingInterface>初始化界面</InitializingInterface>
+  <!-- EN: Unloading unused assets -->
+  <UnloadingUnusedAssets>释放未使用的资源</UnloadingUnusedAssets>
+  <!-- EN: Loading all active mods -->
+  <LoadingAllActiveMods>载入所有启用的 Mod</LoadingAllActiveMods>
+  <!-- EN: Loading defs -->
+  <LoadingDefs>载入 Defs</LoadingDefs>
+  <!-- EN: Loading assets -->
+  <LoadingAssets>载入资源</LoadingAssets>
+  <!-- EN: Initializing -->
+  <Initializing>初始化中</Initializing>
+  <!-- EN: Loading world -->
+  <LoadingWorld>载入世界</LoadingWorld>
+  <!-- EN: Loading map -->
+  <LoadingMap>载入地图</LoadingMap>
+  <!-- EN: Initializing game -->
+  <InitializingGame>初始化游戏</InitializingGame>
+  <!-- EN: Spawning things -->
+  <SpawningAllThings>生成所有物体</SpawningAllThings>
+  <!-- EN: Spawning colonists -->
+  <SpawningColonists>生成殖民者</SpawningColonists>
+  
+  <!-- Save/load -->
+  <!-- EN: Save -->
+  <SaveGameButton>保存</SaveGameButton>
+  <!-- EN: Load -->
+  <LoadGameButton>载入</LoadGameButton>
+  <!-- EN: Overwrite -->
+  <OverwriteButton>覆盖</OverwriteButton>
+  <!-- EN: Really delete {0}? -->
+  <ConfirmDelete>你确定要删除「{0}」吗？</ConfirmDelete>
+  <!-- EN: Delete this savegame. -->
+  <DeleteThisSavegame>删除此存档。</DeleteThisSavegame>
+  <!-- EN: Saved as {0}. -->
+  <SavedAs>已保存为「{0}」。</SavedAs>
+  <!-- EN: Please enter a name. -->
+  <NeedAName>请输入一个名称。</NeedAName>
+  <!-- EN: Loading -->
+  <LoadingLongEvent>载入中</LoadingLongEvent>
+  <!-- EN: Saving -->
+  <SavingLongEvent>保存中</SavingLongEvent>
+  <!-- EN: (Permadeath) -->
+  <PermadeathModeSaveSuffix>（永久死亡模式）</PermadeathModeSaveSuffix>
+  <!-- EN: We are running version {0} but the save data is from {1}, which is a different version entirely.\n\nTrying to load this data will probably not work. -->
+  <SaveIsFromDifferentGameVersion>当前运行的游戏版本是 {0}，但是存档数据版本是 {1}，二者为完全不同的主版本。\n\n尝试载入不可能成功。</SaveIsFromDifferentGameVersion>
+  <!-- EN: We are running version {0} but the save data is from {1}, which is a different build.\n\nTrying to load this data should still work. -->
+  <SaveIsFromDifferentGameBuild>当前运行的游戏版本是 {0}，但是存档数据版本是 {1}， 二者不同的副版本。\n\n尝试载入有可能成功。</SaveIsFromDifferentGameBuild>
+  <!-- EN: Save data was saved with our game version and should work without issue. -->
+  <SaveIsFromThisGameBuild>存档数据版本和当前运行的游戏版本一致，可以正确载入。</SaveIsFromThisGameBuild>
+  <!-- EN: Save data is in an unknown format and almost certainly will not load properly. -->
+  <SaveIsUnknownFormat>存档数据格式错误，无法正确载入。</SaveIsUnknownFormat>
+  <!-- EN: There was a problem saving the file {0}:\n\n{1}\n\nSee error log for more information. -->
+  <ProblemSavingFile>保存文件{0}时出现了错误:\n\n{1}\n\n查看错误日志以了解更多信息。</ProblemSavingFile>
+  <!-- EN: Load anyway -->
+  <LoadAnyway>仍然载入</LoadAnyway>
+  <!-- EN: Load mod list from save -->
+  <ChangeLoadedMods>从存档载入 Mod 列表</ChangeLoadedMods>
+  <!-- EN: Some mods are unavailable, and need to be installed -->
+  <MissingMods>部分 Mod 不可用，需要安装。</MissingMods>
+  
+  <!-- Player faction naming -->
+  <!-- EN: Since it looks like you'll be here for a while, {0} thinks that you should give your faction a name. What should your faction be called? -->
+  <NamePlayerFactionMessage>{0}觉得你应该给你的派系取一个名字。它叫什么比较好？</NamePlayerFactionMessage>
+  <!-- EN: Your faction is now known as {0}. -->
+  <PlayerFactionGainsName>你的派系现在被命名为{0}。</PlayerFactionGainsName>
+  <!-- EN: That name isn't valid. -->
+  <PlayerFactionNameIsInvalid>这个派系名称无效。</PlayerFactionNameIsInvalid>
+
+  <!-- Player faction base naming -->
+  <!-- EN: {0} thinks that you should give this settlement a name. What should the local settlement be called? -->
+  <NamePlayerFactionBaseMessage>看起来你可能得在这里待上好一阵子，{0}觉得你应该给这个社区起个名字。它叫什么比较好？</NamePlayerFactionBaseMessage>
+  <!-- EN: This community is now known as {0}. -->
+  <PlayerFactionBaseGainsName>这个社区现在被命名为{0}。</PlayerFactionBaseGainsName>
+  <!-- EN: That name isn't valid. -->
+  <PlayerFactionBaseNameIsInvalid>这个社区名称无效。</PlayerFactionBaseNameIsInvalid>
+  
+  <!-- Player faction and faction base naming -->
+  <!-- EN: {0} also thinks that you should give this settlement a name. What should this local settlement be called? -->
+  <NamePlayerFactionBaseMessage_NameFactionContinuation>看起来你可能得在这里待上好一阵子，{0}觉得你也应该给这个社区起个名字。它叫什么比较好？</NamePlayerFactionBaseMessage_NameFactionContinuation>
+  <!-- EN: Your faction is now known as {0}, and this community is now known as {1}. -->
+  <PlayerFactionAndBaseGainsName>你的派系名为{0}，这个社区现在被命名为{1}。</PlayerFactionAndBaseGainsName>
+  
+  <!-- Renaming -->
+  <!-- EN: Please enter a valid name. -->
+  <NameIsInvalid>请输入一个有效的名称。</NameIsInvalid>
+  <!-- EN: Name is already in use. -->
+  <NameIsInUse>名称已经被使用。</NameIsInUse>
+  <!-- EN: The zone is now called {0}. -->
+  <ZoneGainsName>这个区域的名称被改为{0}。</ZoneGainsName>
+  
+  <!-- Pawn naming -->
+  <!-- EN: This person's nickname is now {0}. {PAWN_possessive} title is {PAWN_title}. -->
+  <PawnGainsName>该人的昵称变为{0}。{PAWN_possessive}现在叫作{PAWN_title}。</PawnGainsName>
+  <!-- EN: The animal's name is now {0}. -->
+  <AnimalGainsName>该动物的名字变为{0}。</AnimalGainsName>
+
+  <!-- Save game incompatible warning -->
+  <!-- EN: Version mismatch -->
+  <VersionMismatch>版本不匹配</VersionMismatch>
+  <!-- EN: This game was saved with game version {0}\nWe are running game version {1}\n\nLoading this save may cause bugs and crashes. -->
+  <SaveGameIncompatibleWarningText>游戏存档版本为 {0}，当前运行游戏版本为 {1}。\n\n 载入这个存档很可能会造成游戏崩溃或产生游戏 bug。</SaveGameIncompatibleWarningText>
+  <!-- EN: World file was generated with game version {0}\nWe are running game version {1}\n\nLoading this world may cause bugs and crashes. You should probably generate a new world from scratch. -->
+  <WorldFileVersionMismatch>世界生成版本为 {0}，当前运行游戏版本为 {1}。\n\n 载入这个世界很可能会造成游戏崩溃或产生游戏 bug。建议你重新生成一个新世界。</WorldFileVersionMismatch>
+  <!-- EN: This file was saved with game version {0}\nWe are running game version {1}\n\nLoading this file may cause bugs and crashes. -->
+  <FileIncompatibleWarning>保存该文件的游戏版本为{0}。\n当前运行游戏版本为{1}\n\n载入该文件可能导致错误或崩溃。</FileIncompatibleWarning>
+  <!-- EN: Mods mismatch -->
+  <ModsMismatchWarningTitle>Mod不匹配</ModsMismatchWarningTitle>
+  <!-- EN: This file was saved with a different set of mods active than those we are currently running. This may or may not cause problems, depending on exactly what these mods do.\n\nFile was saved with (in this order):\n\n{0}\n\nWe are running with (in this order):\n\n{1} -->
+  <ModsMismatchWarningText>存档的Mod启用设定和当前游戏运行的设定不同，你改动了Mod，根据Mod的内容有可能发生问题，也有可能正常。\n\n存档的Mod启用设定是（按照顺序）:\n\n{0}\n\n当前运行的Mod启用设定是（按照顺序）:\n\n{1}</ModsMismatchWarningText>
+
+  <!-- Resolution change dialog -->
+  <!-- EN: You've changed your screen settings. Do the new ones work okay?\n\nAuto-reverting in {0}... -->
+  <ConfirmResolutionChange>分辨率已改变，是否保留当前的分辨率设置？\n\n将在{0}秒后恢复原始设置……</ConfirmResolutionChange>
+  <!-- EN: Keep -->
+  <ResolutionKeep>保持</ResolutionKeep>
+  <!-- EN: Revert -->
+  <ResolutionRevert>恢复</ResolutionRevert>
+
+  <!-- Confirm permanently disable dev mode -->
+  <!-- EN: Do you really want to permanently disable development mode on this computer?\n\nThis option is for people who want a pure play experience without the temptation to use development tools to gain advantage in normal play.\n\nDevelopment mode can be re-enabled, but doing so requires manually editing configuration files. You'll need to search the Internet to find out how. -->
+  <ConfirmPermanentlyDisableDevMode>你真的想要在这台电脑上永久禁用开发者模式吗？</ConfirmPermanentlyDisableDevMode>
+
+  <!-- Research -->
+  <!-- EN: Research -->
+  <Research>研究</Research>
+  <!-- EN: Researched -->
+  <Researched>已研究</Researched>
+  <!-- EN: Unresearched -->
+  <Unresearched>未研究</Unresearched>
+  <!-- EN: Finished -->
+  <Finished>已完成</Finished>
+  <!-- EN: In Progress -->
+  <InProgress>研究中</InProgress>
+  <!-- EN: Locked -->
+  <Locked>未解锁</Locked>
+  <!-- EN: Until you build a RESEARCH BENCH, your colonists will not actually be able to do research.\n\nHowever, you can still look at research projects now. -->
+  <ResearchMenuWithoutBench>你的殖民者们在你建造研究台之前是无法进行研究的。\n\n不过，你仍然可以查看并选择研究项目。</ResearchMenuWithoutBench>
+  <!-- EN: Research prerequisites -->
+  <ResearchPrerequisites>前置研究</ResearchPrerequisites>
+  <!-- EN: Required research bench -->
+  <RequiredResearchBench>需要研究台</RequiredResearchBench>
+  <!-- EN: Required research bench facilities -->
+  <RequiredResearchBenchFacilities>需要研究设施</RequiredResearchBenchFacilities>
+  
+  <!-- Advanced game start options -->
+  <!-- EN: Warning: You will be landing in a frozen environment. It may be hard or nearly impossible to survive. If you are not intending to face an extreme challenge, choose a different site or season. -->
+  <MapTemperatureDangerWarning>警告：你将会降落在一个冰冻地区。这会让生存非常艰难甚至是不可能。如果你并不想挑战艰难的环境，选择另一个降落点或另一个月份。</MapTemperatureDangerWarning>
+  <!-- EN: The game is designed to play on medium map sizes. These sizes provide plenty of space!\n\nLarge map sizes don't just degrade performance - they actually break the game design. The AI will make stupid decisions, and game balance will be badly affected in various ways. These sizes are included for tradition and testing reasons only, please do not use them without a specific reason. -->
+  <MapSizePerformanceWarning>该游戏是以在中等地图上进行游戏来设计的。这些大小提供了充足的空间！\n\n大型地图不仅会降低游戏性能，也破坏了游戏设计。AI 将作出愚蠢的决定，游戏平衡将在多方面被严重影响。这些地图大小仅用作传统和测试原因，没有特定原因的话请勿使用。</MapSizePerformanceWarning>
+  <!-- EN: Map size -->
+  <MapSize>地图大小</MapSize>
+  <!-- EN: {0}x{0} ({1} cells) -->
+  <MapSizeDesc>{0}x{0}（{1}个方块）</MapSizeDesc>
+  <!-- EN: Small -->
+  <MapSizeSmall>小</MapSizeSmall>
+  <!-- EN: Medium -->
+  <MapSizeMedium>中</MapSizeMedium>
+  <!-- EN: Large -->
+  <MapSizeLarge>大</MapSizeLarge>
+  <!-- EN: Extreme (test) -->
+  <MapSizeExtreme>超大（测试）</MapSizeExtreme>
+  <!-- EN: Starting season -->
+  <MapStartSeason>起始季节:</MapStartSeason>
+  <!-- EN: Auto -->
+  <MapStartSeasonDefault>自动</MapStartSeasonDefault>
+  <!-- EN: Notice -->
+  <Notice>注意</Notice>
+
+  <!-- Bill config -->
+  <!-- EN: Suspended -->
+  <Suspended>已暂停</Suspended>
+  <!-- EN: Not suspended -->
+  <NotSuspended>未暂停</NotSuspended>
+  <!-- EN: SUSPENDED -->
+  <SuspendedAllCaps>已暂停</SuspendedAllCaps>
+  <!-- EN: Repeat: -->
+  <RepeatCount>重复: </RepeatCount>
+  <!-- EN: Forever -->
+  <Forever>永远</Forever>
+  <!-- EN: Details -->
+  <Details>详细</Details>
+  <!-- EN: Ingredient radius -->
+  <IngredientSearchRadius>材料搜索半径</IngredientSearchRadius>
+  <!-- EN: Currently have -->
+  <CurrentlyHave>目前有</CurrentlyHave>
+  <!-- EN: Counting -->
+  <CountingProducts>计数</CountingProducts>
+  <!-- EN: Infinite -->
+  <Infinite>无限</Infinite>
+  <!-- EN: Allowed {0} skill: -->
+  <AllowedSkillRange>工作者{0}技能范围: </AllowedSkillRange>
+  <!-- EN: incompatible -->
+  <IncompatibleLower>不兼容</IncompatibleLower>
+  <!-- EN: Any worker -->
+  <AnyWorker>任何工作者</AnyWorker>
+  <!-- EN: Unlimited -->
+  <Unlimited>无限制</Unlimited>
+  
+  <!-- EN: (This recipe cannot have a target count because it has multiple or unpredictable products.) -->
+  <RecipeCannotHaveTargetCount>（因为该配方成品有多个或是不可预估，所以不能为它指定目标数量）</RecipeCannotHaveTargetCount>
+  <!-- EN: Work amount -->
+  <WorkAmount>工作量</WorkAmount>
+  <!-- EN: Minimum skills: -->
+  <MinimumSkills>最低技能要求: </MinimumSkills>
+  <!-- EN: Requires {0} {1} -->
+  <BillRequires>需要{0}{1}</BillRequires>
+  <!-- EN: Requires {0} nutrition -->
+  <BillRequiresNutrition>需要营养共计{0}的</BillRequiresNutrition>
+  <!-- EN: Note: Small-volume ingredients like gold require {0}x as much. -->
+  <BillRequiresMayVary>注意：小体积材料（比如黄金）消耗材料需乘{0}倍。</BillRequiresMayVary>
+  <!-- EN: This is a small-volume ingredient. This means that each 'unit' is only 1/{0} as much as a normal-volume ingredient. So, to fill the same ingredient requirement, you'll need {0}x as much as usual. -->
+  <ThisIsSmallVolume>这是种小体积材料，每单位只有正常体积材料的1/{0}。所以，如果要求同样数量的材料，实际需要数量是的{0}倍。</ThisIsSmallVolume>
+  <!-- EN: ingredients -->
+  <UsableIngredients>可用材料</UsableIngredients>
+  <!-- EN: To {0} -->
+  <BillRepeatTargetCountShort>到{0}</BillRepeatTargetCountShort>
+
+  <!-- EN: Pause when satisfied -->
+  <PauseWhenSatisfied>数量达到时暂停</PauseWhenSatisfied>
+  <!-- EN: Unpause at -->
+  <UnpauseWhenYouHave>解除暂停数量</UnpauseWhenYouHave>
+  <!-- EN: Paused -->
+  <Paused>已暂停</Paused>
+  <!-- EN: Unpause -->
+  <Unpause>解除暂停</Unpause>
+
+  <!-- EN: Count equipped -->
+  <IncludeEquipped>包括已装备</IncludeEquipped>
+  <!-- EN: Count tainted -->
+  <IncludeTainted>包括已驯服</IncludeTainted>
+  <!-- EN: Only allowed ingredients -->
+  <LimitToAllowedStuff>原料限制</LimitToAllowedStuff>
+  <!-- EN: Look everywhere -->
+  <IncludeFromAll>从任何地方</IncludeFromAll>
+  <!-- EN: Look in {0} -->
+  <IncludeSpecific>从{0}</IncludeSpecific>
+  
+  <!-- Info card -->
+  <!-- EN: Damage -->
+  <Damage>伤害</Damage>
+  <!-- EN: Armor penetration -->
+  <ArmorPenetration>护甲穿透</ArmorPenetration>
+  <!-- EN: Armor penetration is the amount of armor this weapon will ignore each time it hits the target.\n\nIf armor penetration is greater than the target's armor, it is as though the target is unarmored. Otherwise, the armor penetration is subtracted from the target's armor. -->
+  <ArmorPenetrationExplanation>护甲穿透指每次击中目标时，该武器会忽视的护甲值。\n\n如果护甲穿透值大于目标护甲值，目标相当于没有护甲，否则实际护甲值等于目标护甲与武器护甲穿透的差值。</ArmorPenetrationExplanation>
+  <!-- EN: Accuracy -->
+  <Accuracy>精度</Accuracy>
+  <!-- EN: Burst shot count -->
+  <BurstShotCount>连射次数</BurstShotCount>
+  <!-- EN: Warmup -->
+  <WarmupTime>预热时间</WarmupTime>
+  <!-- EN: Melee warmup -->
+  <MeleeWarmupTime>近战预热时间</MeleeWarmupTime>
+  <!-- EN: Cooldown -->
+  <CooldownTime>冷却时间</CooldownTime>
+  <!-- EN: Fire rate -->
+  <BurstShotFireRate>射速</BurstShotFireRate>
+  <!-- EN: Range -->
+  <Range>射程</Range>
+  <!-- EN: Stopping power -->
+  <StoppingPower>抑止能力</StoppingPower>
+  <!-- EN: Hits from this weapon will stagger targets, slowing their movement for several seconds. Targets with a body size larger than the stopping power will be unaffected. -->
+  <StoppingPowerExplanation>这种武器的攻击会打乱目标的脚步，使其移动速度减缓数秒。体形大于抑止能力的目标不受影响。</StoppingPowerExplanation>
+  <!-- EN: Direct hit chance -->
+  <DirectHitChance>直接命中几率</DirectHitChance>
+  <!-- EN: Miss radius -->
+  <MissRadius>误差半径</MissRadius>
+  <!-- EN: Grows wild -->
+  <GrowsWild>野生</GrowsWild>
+  <!-- EN: Harvestable -->
+  <Harvestable>可收获</Harvestable>
+  <!-- EN: Limited lifespan -->
+  <LimitedLifespan>寿命有限</LimitedLifespan>
+  <!-- EN: Growing time -->
+  <GrowingTime>生长时间</GrowingTime>
+  <!-- EN: Harvest yield -->
+  <HarvestYield>收割产出</HarvestYield>
+  <!-- EN: Min growth temperature -->
+  <MinGrowthTemperature>最低生长温度</MinGrowthTemperature>
+  <!-- EN: Max growth temperature -->
+  <MaxGrowthTemperature>最高生长温度</MaxGrowthTemperature>
+  <!-- EN: Plants only grow for part of the day, and only when lit. This statistic measures the time the plant needs to spend actually growing to reach full size. The actual real growing time will generally be about twice as long. Low temperatures also slow plant growth. -->
+  <GrowingTimeDesc>植物只在每天部分时间段生长，而且仅在光照充足时生长。生长时间为植物生长至完全成熟所需要的有效生长的时间，因此实际成熟的时间会超过两倍。低温环境同样也会延缓植物生长速度。</GrowingTimeDesc>
+  <!-- EN: days -->
+  <Days>天</Days>
+  <!-- EN: Minimum growing skill to sow -->
+  <MinGrowingSkillToSow>种植最低技能要求</MinGrowingSkillToSow>
+  <!-- EN: Fertility requirement -->
+  <FertilityRequirement>肥沃度需求</FertilityRequirement>
+  <!-- EN: Fertility sensitivity -->
+  <FertilitySensitivity>肥沃度敏感性</FertilitySensitivity>
+  <!-- EN: Light requirement -->
+  <LightRequirement>光照需求</LightRequirement>
+  <!-- EN: Attributes -->
+  <Attributes>特性</Attributes>
+  <!-- EN: Lifespan -->
+  <LifeSpan>寿命</LifeSpan>
+  <!-- EN: Nutrition -->
+  <Nutrition>营养</Nutrition>
+  <!-- EN: Recreation -->
+  <Joy>娱乐</Joy>
+  <!-- EN: Food quality -->
+  <FoodQuality>食物品质</FoodQuality>
+  <!-- EN: Walk speed -->
+  <WalkSpeedProperty>行走速度</WalkSpeedProperty>
+  <!-- EN: Min. food quality -->
+  <MinFoodQuality>最低食物品质</MinFoodQuality>
+  <!-- EN: Diet -->
+  <Diet>饮食</Diet>
+  <!-- EN: Leather type -->
+  <LeatherType>皮革类型</LeatherType>
+  <!-- EN: Body size -->
+  <BodySize>体型</BodySize>
+  <!-- EN: Recruit difficulty -->
+  <RecruitDifficulty>招募难度</RecruitDifficulty>
+  <!-- EN: Base price -->
+  <MarketValue>市场价值</MarketValue>
+  <!-- EN: Covers -->
+  <Covers>覆盖</Covers>
+  <!-- EN: Layer -->
+  <Layer>层</Layer>
+  <!-- EN: Cover effectiveness -->
+  <CoverEffectiveness>掩体效果</CoverEffectiveness>
+  <!-- EN: How effective this is when used as cover in a gunfight. Higher percentages will block more shots. -->
+  <CoverEffectivenessExplanation>在枪战时该物体所能提供的掩体效果，更高的数值能够挡住更多的伤害。</CoverEffectivenessExplanation>
+  <!-- EN: Experience gain factor -->
+  <MedicineXpGainFactor>经验获得系数</MedicineXpGainFactor>
+  <!-- EN: Mood change -->
+  <MoodChange>心情值改变</MoodChange>
+  <!-- EN: Wildness -->
+  <Wildness>野性</Wildness>
+  <!-- EN: Wilder creatures are naturally more difficult to tame, train, and handle. -->
+  <WildnessExplanation>动物的野性越高，越难驯服、训练和操纵。</WildnessExplanation>
+  <!-- EN: Training decay interval -->
+  <TrainingDecayInterval>训练衰减间隔</TrainingDecayInterval>
+  <!-- EN: Tameness will never decay. -->
+  <TamenessWillNotDecay>驯养动物不会衰减</TamenessWillNotDecay>
+  <!-- EN: Animal filth rate -->
+  <AnimalFilthRate>动物污物产生速度</AnimalFilthRate>
+  <!-- EN: Animals produce filth when moving around on constructed floors. This is the average amount of such filth produced per {0} cells walked by this creature.\n\nLarger or less pet-like animals produce more filth. -->
+  <AnimalFilthRateExplanation>当动物在建筑地面走动时会产生污物。此值表示这种生物每行走{0}格产生的平均污物量。\n\n巨大或缺少灵性的动物会产生更多的污秽。</AnimalFilthRateExplanation>
+  <!-- EN: Time -->
+  <TimeRecordsCategory>时间</TimeRecordsCategory>
+  <!-- EN: Misc -->
+  <MiscRecordsCategory>杂项</MiscRecordsCategory>
+  <!-- EN: Addictiveness -->
+  <Addictiveness>成瘾性</Addictiveness>
+  <!-- EN: Pack animal -->
+  <PackAnimal>驮运动物</PackAnimal>
+  <!-- EN: Whether this animal is appropriate to use to carry items in a caravan over long distances. -->
+  <PackAnimalExplanation>这种动物是否适合在远行队中长途运输物品。</PackAnimalExplanation>
+  <!-- EN: Skill -->
+  <Skill>技能</Skill>
+  <!-- EN: Success rate multiplier -->
+  <SurgerySuccessChanceFactor>成功率乘数</SurgerySuccessChanceFactor>
+  <!-- EN: Work speed governed by -->
+  <WorkSpeedStat>工作速度所受影响</WorkSpeedStat>
+  <!-- EN: Output quantity governed by -->
+  <EfficiencyStat>产出数量所受影响</EfficiencyStat>
+  <!-- EN: Construction skill required -->
+  <ConstructionSkillRequired>建造技能要求</ConstructionSkillRequired>
+  <!-- EN: Requires this level of Construction in order to build. -->
+  <ConstructionSkillRequiredExplanation>要求此等级的建造技能才能建造。</ConstructionSkillRequiredExplanation>
+  <!-- EN: Nuzzle interval -->
+  <NuzzleInterval>亲昵间隔</NuzzleInterval>
+  <!-- EN: How often an animal will nuzzle friendly colonists, on average.\n\nNuzzling is a behavior shared by many animal species, where the animal presses its nose or muzzle against a friend as a sign of affection. Most humans find this cute and it will leave them in a good mood for a period of time. -->
+  <NuzzleIntervalExplanation>表示动物平均而言会有多频繁地亲昵友好的殖民者。\n\n亲昵是许多动物都有的行为，那时动物会用自己的鼻子或嘴去压在朋友身上以作为友爱的标志。大部分人类认为这很可爱，而且会在一段时间内获得好心情。</NuzzleIntervalExplanation>
+  <!-- EN: Revenge chance on harm -->
+  <HarmedRevengeChance>被伤反击率</HarmedRevengeChance>
+  <!-- EN: The chance this creature seeks revenge upon being harmed by an attacker at rifle range.\n\nThis chance increases if the attacker is closer. If attacked at very close range, the chance is three times greater.\n\nThis chance is applied each time damage is taken, so slower-firing, higher-damage weapons are less likely to trigger it.\n\nTo minimize the chance of a creature seeking revenge, attack it from rifle range with a slow-firing weapon. -->
+  <HarmedRevengeChanceExplanation>表示该生物在步枪射程距离下被击中以后伺机报复的概率。\n\n攻击者靠得越近，此概率越高。如果在非常近的距离发动攻击，此概率将是三倍。\n\n此概率在生物每次受到伤害时都会适用，因此开火慢、伤害高的武器触发它的可能性更小。\n\n为了使生物伺机报复的概率降到最低，在步枪射程距离下用开火较慢的武器攻击之。</HarmedRevengeChanceExplanation>
+  <!-- EN: Revenge chance on tame fail -->
+  <TameFailedRevengeChance>受训失败袭击率</TameFailedRevengeChance>
+  <!-- EN: Terrain requirement -->
+  <TerrainRequirement>地形需求</TerrainRequirement>
+  <!-- EN: Supports -->
+  <Supports>支援</Supports>
+  <!-- EN: Trap armor penetration -->
+  <TrapArmorPenetration>陷阱护甲穿透</TrapArmorPenetration>
+  <!-- EN: Rearm cost -->
+  <RearmCost>重置费用</RearmCost>
+  <!-- EN: Resources needed to rearm this turret (affected by difficulty). -->
+  <RearmCostExplanation>重置该炮塔所需的资源（受难度影响）</RearmCostExplanation>
+  <!-- EN: Shots before rearm -->
+  <ShotsBeforeRearm>剩余射击</ShotsBeforeRearm>
+  <!-- EN: How many shots this turret can fire before it has to be rearmed. -->
+  <ShotsBeforeRearmExplanation>炮塔在必须重置前能够开火的次数。</ShotsBeforeRearmExplanation>
+  <!-- EN: Power consumption -->
+  <PowerConsumption>功耗</PowerConsumption>
+
+  <!-- Trade -->
+  <!-- EN: Positive numbers buy.\nNegative numbers sell. -->
+  <PositiveBuysNegativeSells>正数购买\n负数出售</PositiveBuysNegativeSells>
+  <!-- EN: Price you pay to buy this. -->
+  <BuyPriceDesc>买进要支付的钱。</BuyPriceDesc>
+  <!-- EN: Price you receive for selling this. -->
+  <SellPriceDesc>卖出可获得的钱。</SellPriceDesc>
+  <!-- EN: For this item, this price is {0}. -->
+  <PriceTypeDesc>此物品售价为{0}。</PriceTypeDesc>
+  <!-- EN: How many of this item the colony has ready to trade.\n\nYou can only sell items to orbital traders if they are near an orbital trade beacon. -->
+  <ColonyCount>殖民地拥有的待售物品数量。\n\n你只能向轨道贸易商卖出轨道交易信标附近的物品。</ColonyCount>
+  <!-- EN: How many of this item the trader has to trade. -->
+  <TraderCount>贸易商拥有的待售物品数量。</TraderCount>
+  <!-- EN: Accept -->
+  <AcceptButton>接受</AcceptButton>
+  <!-- EN: Reset -->
+  <ResetButton>重置</ResetButton>
+  <!-- EN: Cancel -->
+  <CancelButton>取消</CancelButton>
+  <!-- EN: Close -->
+  <CloseButton>关闭</CloseButton>
+  <!-- EN: Your tradeable silver: {0} -->
+  <YourTradeableSilver>当前可用于交易的白银: {0}</YourTradeableSilver>
+  <!-- EN: You can only trade with silver that is near an orbital trade beacon and not under a roof. -->
+  <YourTradeableSilverTip>你只能使用轨道交易信标附近的白银进行交易。</YourTradeableSilverTip>
+  <!-- EN: Trader has no more. -->
+  <TraderHasNoMore>贸易商没有货物了。</TraderHasNoMore>
+  <!-- EN: No more to sell. -->
+  <ColonyHasNoMore>殖民地没有货物了。</ColonyHasNoMore>
+  <!-- EN: Trader is not willing to buy this. -->
+  <TraderWillNotTrade>贸易商不想交易这种商品。</TraderWillNotTrade>
+  <!-- EN: Negotiator -->
+  <Negotiator>谈判者</Negotiator>
+  <!-- EN: Your negotiator {1_labelShort} cannot talk properly because of poor health. -->
+  <NegotiatorTalkingImpaired>你的谈判者{1_labelShort}由于健康原因而无法正常说话。</NegotiatorTalkingImpaired>
+  <!-- EN: Your negotiator {1_labelShort} cannot hear properly because of poor health. -->
+  <NegotiatorHearingImpaired>你的谈判者{1_labelShort}由于健康原因而无法正常听声。</NegotiatorHearingImpaired>
+  <!-- EN: This will affect trade prices.\n\nConsider using a healthier negotiator. -->
+  <NegotiatorCapacityImpaired>这将影响到贸易价格.\n\n请考虑换一个健康的谈判者。</NegotiatorCapacityImpaired>
+  <!-- EN: Trader has insufficient silver to fully cover this transaction.  Proceed anyways? -->
+  <ConfirmTraderShortFunds>贸易商没有足够的白银支付这次交易，继续么？</ConfirmTraderShortFunds>
+  <!-- EN: Sort by -->
+  <SortBy>排序方式</SortBy>
+  <!-- EN: trader type -->
+  <TraderTypePrice>贸易商类型</TraderTypePrice>
+  <!-- EN: selling -->
+  <Selling>出售</Selling>
+  <!-- EN: buying -->
+  <Buying>购买</Buying>
+  <!-- EN: item sell price multiplier -->
+  <ItemSellPriceFactor>物品售价乘数</ItemSellPriceFactor>
+  <!-- EN: difficulty level -->
+  <DifficultyLevel>难度</DifficultyLevel>
+  <!-- EN: global post-process curve -->
+  <PostCurve>全局后处理曲线</PostCurve>
+  <!-- EN: Your negotiator bonus -->
+  <YourNegotiatorBonus>你的谈判者加成</YourNegotiatorBonus>
+  <!-- EN: Trading with faction base bonus -->
+  <TradeWithFactionBaseBonus>与派系基地交易加成</TradeWithFactionBaseBonus>
+  <!-- EN: minimum -->
+  <minimum>最小值</minimum>
+  <!-- EN: Final price -->
+  <FinalPrice>最终价格</FinalPrice>
+  <!-- EN: Gift mode - offer gifts to {0}. -->
+  <GiftModeTip>礼物模式 - 向{0}馈赠礼物。</GiftModeTip>
+  <!-- EN: Return to trade mode. -->
+  <TradeModeTip>回到交易模式。</TradeModeTip>
+
+  <!-- Sellable items -->
+  <!-- EN: Things this trader will buy -->
+  <SellableItemsTitle>此贸易者会购买的物品</SellableItemsTitle>
+  <!-- EN: Creatures -->
+  <PawnsTabShort>生物</PawnsTabShort>
+  
+  <!-- Form caravan -->
+  <!-- EN: Form caravan -->
+  <FormCaravan>组建远行队</FormCaravan>
+  <!-- EN: Number available to send with the caravan. -->
+  <FormCaravanColonyThingCountTip>可以用远行队运送的物品数量。</FormCaravanColonyThingCountTip>
+  <!-- EN: People and animals -->
+  <PawnsTab>人和动物</PawnsTab>
+  <!-- EN: Items -->
+  <ItemsTab>物品</ItemsTab>
+  <!-- EN: You must assign at least one non-downed colonist. -->
+  <CaravanMustHaveAtLeastOneColonist>必须指派至少一位可行动的殖民者。</CaravanMustHaveAtLeastOneColonist>
+  <!-- EN: The chosen exit location ({0}) is inaccessible. -->
+  <CaravanCouldNotFindExitSpot>所选择的离开位置（{0}）无法到达。</CaravanCouldNotFindExitSpot>
+  <!-- EN: Could not find any valid packing spot. Make sure that the chosen exit location ({0}) is accessible. -->
+  <CaravanCouldNotFindPackingSpot>未发现有效的打包点。确保所选择的离开位置（{0}）是可以到达的。</CaravanCouldNotFindPackingSpot>
+  <!-- EN: Warning: Some of the assigned colonists are unable to reach the exit location ({0}). -->
+  <CaravanCouldNotFindReachableExitSpot>警告：部分被指派的殖民者无法到达离开位置（{0}）。</CaravanCouldNotFindReachableExitSpot>
+  <!-- EN: {1_labelShort} is unreachable by any of the assigned colonists. -->
+  <CaravanPawnIsUnreachable>对于所有被指派的殖民者，{1_labelShort}是无法到达的。</CaravanPawnIsUnreachable>
+  <!-- EN: None of the assigned colonists are able to reach the {0}. -->
+  <CaravanItemIsUnreachableSingle>所有被指派的殖民者均无法到达{0}所在位置。</CaravanItemIsUnreachableSingle>
+  <!-- EN: None of the assigned colonists are able to reach {0}x {1}. -->
+  <CaravanItemIsUnreachableMulti>所有被指派的殖民者均无法到达{1}x{0}所在位置。</CaravanItemIsUnreachableMulti>
+  <!-- EN: The caravan can't carry that much. -->
+  <TooBigCaravanMassUsage>远行队无法携带这么多物品。</TooBigCaravanMassUsage>
+  <!-- EN: Includes carried items and equipped items. Carrying less than the maximum gives a speed bonus. -->
+  <CaravanMassUsageTooltip>包括运送的物品和装备的物品。运送比最大量更少的物品将提高远行队的速度。</CaravanMassUsageTooltip>
+  <!-- EN: Visibility is how easy your caravan is to notice.\n\nIt multiplies the chance that your caravan will be waylaid by enemies.\n\nVisibility does not affect your ability to find things you want.\n\nVisibility is based on the total body size of all people and animals in the caravan. -->
+  <CaravanVisibilityTip>可见度表示你的远行队容易被注意到的概率。\n\n它会影响你的远行队被拦路袭击的概率。\n\n可见度不会影响你找到你要的东西的能力。\n\n可见度基于远行队中的所有人和动物的体形总和。</CaravanVisibilityTip>
+  <!-- EN: Days of food -->
+  <DaysWorthOfFood>食物剩余天数</DaysWorthOfFood>
+  <!-- EN: rot in {0} -->
+  <DaysWorthOfFoodInfoRot>{0}之后变质</DaysWorthOfFoodInfoRot>
+  <!-- EN: Unlimited -->
+  <InfiniteDaysWorthOfFoodInfo>无限</InfiniteDaysWorthOfFoodInfo>
+  <!-- EN: The approximate number of days before at least one person or animal will be out of food. Different species have different diets, so one may run out of food before others. This value is calculated more accurately after the route is chosen.\n\nAffected by:\n  - Carried food type and amount\n  - Caravan members and their diets\n  - Foraging rate\n  - Whether animals can graze\n  - Time until food rots\n  - Hot weather rots food faster -->
+  <DaysWorthOfFoodTooltip>远行队所携带的食物预计可以维持的天数。\n\n计算包括人类和动物的食物，并考虑最坏的情况。 这表示这么多天后，至少有一个动物或人将会没有食物。</DaysWorthOfFoodTooltip>
+  <!-- EN: (only the first waypoint is taken into account) -->
+  <DaysWorthOfFoodTooltip_OnlyFirstWaypoint>\n（只有第一个路径点才被计入）</DaysWorthOfFoodTooltip_OnlyFirstWaypoint>
+  <!-- EN: Your caravan only has {0} days worth of food and will become hungry quickly. -->
+  <DaysWorthOfFoodWarningDialog>你的远行队只带了{0}天的食物，很快便会出现挨饿的情况。</DaysWorthOfFoodWarningDialog>
+  <!-- EN: Your caravan has no food and will become hungry very quickly. -->
+  <DaysWorthOfFoodWarningDialog_NoFood>你的远行队没有携带任何食物，很快便会出现挨饿的情况。</DaysWorthOfFoodWarningDialog_NoFood>
+  <!-- EN: The average amount of food per day your people will forage. This value will change as you travel across biomes with different forage yield rates. -->
+  <ForagedFoodPerDayTip>你的人每天平均采集的食物量。当你抵达食物产量不同的生态区时，此数值会发生变化。</ForagedFoodPerDayTip>
+  <!-- EN: Forage per day -->
+  <ForagedFoodPerDay>食物采量</ForagedFoodPerDay>
+  <!-- EN: A large part of the caravan's food will rot soon. -->
+  <CaravanFoodWillRotSoonWarningDialog>远行队的大部分食物即将变质。</CaravanFoodWillRotSoonWarningDialog>
+  <!-- EN: You have no caravan members capable of diplomacy or trading. -->
+  <CaravanIncapableOfSocial>你没有具备外交或交易能力的成员。</CaravanIncapableOfSocial>
+  <!-- EN: Are you sure you want to form this caravan? -->
+  <CaravanAreYouSure>确定要组建这支远行队吗？</CaravanAreYouSure>
+  <!-- EN: You must choose a route for the caravan first. -->
+  <MessageMustChooseRouteFirst>必须先为远行队选择路径。</MessageMustChooseRouteFirst>
+  <!-- EN: Your caravan is unable to leave the area. Make sure that at least one side is reachable. -->
+  <MessageNoValidExitTile>你的远行队无法离开此区域。确保有任一方向可抵达。</MessageNoValidExitTile>
+  <!-- EN: Weight of this item. -->
+  <ItemWeightTip>此物品的重量</ItemWeightTip>
+  <!-- EN: Market value -->
+  <MarketValueTip>市场价值</MarketValueTip>
+  <!-- EN: The number of days until this item starts to rot based on the average temperature in this area. -->
+  <DaysUntilRotTip>基于此地区平均温度，此物品开始变质前的天数。</DaysUntilRotTip>
+  <!-- EN: How much nutrition this food provides.\n\nFor reference: adult person needs {0} nutrition per day. -->
+  <ItemNutritionTip>此食物提供多少营养值。\n\n作为参考：成年人每天需要{0}营养值。</ItemNutritionTip>
+  <!-- EN: This animal can graze food from the environment instead of eating carried food. Grazing is only possible in some biomes and temperature ranges. -->
+  <AnimalCanGrazeTip>这种动物可以放牧以从环境中觅食，而非食用远行队所携带的食物。放牧只能在特定的生态区和特定的温度下进行。</AnimalCanGrazeTip>
+  <!-- EN: Nutrition foraged per day. The actual amount foraged is also affected by biome forageability.\n\n{0} -->
+  <NutritionForagedPerDayTip>每日营养采集。实际数值也受到生态区的远行采集量影响。\n\n{0}</NutritionForagedPerDayTip>
+  <!-- EN: Nutrition eaten per day. For reference, simple meals have {0} nutrition.\n\nCan eat: {2}\n\nLegend:\n{1}. -->
+  <NutritionEatenPerDayTip>每日营养消耗。作为参考，简单的食物有{0}营养值。\n\n可食用：{2}\n\n图例：\n{1}。</NutritionEatenPerDayTip>
+  <!-- EN: Mass carried -->
+  <MassCarriedSimple>已载重</MassCarriedSimple>
+  <!-- EN: Mass capacity -->
+  <MassCapacity>载重能力</MassCapacity>
+  <!-- EN: Mass -->
+  <Mass>重量</Mass>
+  <!-- EN: Caravan mass -->
+  <CaravanMass>远行队重量</CaravanMass>
+  <!-- EN: Equipment and apparel mass -->
+  <EquipmentAndApparelMass>装备和衣物重量</EquipmentAndApparelMass>
+  <!-- EN: Inventory mass -->
+  <InventoryMass>货物重量</InventoryMass>
+  <!-- EN: Your colonists will now gather the items and leave the area. -->
+  <CaravanFormationProcessStarted>你的殖民者现在会收集物品并离开该区域。</CaravanFormationProcessStarted>
+  <!-- EN: Reform caravan -->
+  <ReformCaravan>重组远行队</ReformCaravan>
+  <!-- EN: Colonists -->
+  <ColonistsSection>殖民者</ColonistsSection>
+  <!-- EN: Prisoners -->
+  <PrisonersSection>囚犯</PrisonersSection>
+  <!-- EN: Capture -->
+  <CaptureSection>捕获</CaptureSection>
+  <!-- EN: Animals -->
+  <AnimalsSection>动物</AnimalsSection>
+  <!-- EN: Choose route -->
+  <ChooseRouteButton>选择路径</ChooseRouteButton>
+  <!-- EN: Abandon -->
+  <AbandonButton>抛弃</AbandonButton>
+  <!-- EN: Movement speed -->
+  <CaravanMovementSpeed>移动速度</CaravanMovementSpeed>
+  <!-- EN: tiles/day -->
+  <TilesPerDay>格/天</TilesPerDay>
+  <!-- EN: Movement speed depends on the average speed of all people and animals, carried mass, and terrain movement difficulty. -->
+  <CaravanMovementSpeedTip>移动速度取决于所有人和动物的平均速度，已搬运总质量，以及地形移动难度。</CaravanMovementSpeedTip>
+  <!-- EN: Animals will be able to graze -->
+  <AnimalsWillBeAbleToGraze>动物可以放牧</AnimalsWillBeAbleToGraze>
+  <!-- EN: Animals can graze -->
+  <AnimalsCanGraze>可放牧的动物</AnimalsCanGraze>
+  <!-- EN: (for {0} more days) -->
+  <PossibleToGrazeFor>（还有{0}天）</PossibleToGrazeFor>
+  <!-- EN: (forever) -->
+  <PossibleToGrazeForever>（永远）</PossibleToGrazeForever>
+  <!-- EN: ({0}) -->
+  <CantGrazeBecauseOfBiome>（{0}）</CantGrazeBecauseOfBiome>
+  <!-- EN: (too cold for {0} more days) -->
+  <CantGrazeBecauseOfTemp>（{0}天后将过冷）</CantGrazeBecauseOfTemp>
+  <!-- EN: Total nutrition -->
+  <TotalNutrition>总营养值</TotalNutrition>
+  <!-- EN: Not moving -->
+  <CaravanNotMoving>未在移动</CaravanNotMoving>
+  <!-- EN: Foraged nutrition per day -->
+  <ForagedNutritionPerDay>每日采集营养</ForagedNutritionPerDay>
+  <!-- EN: Faction type -->
+  <FactionType>派系类型</FactionType>
+  <!-- EN: Total body size -->
+  <TotalBodySize>总体形</TotalBodySize>
+
+  <!-- Split caravan -->
+  <!-- EN: Split caravan -->
+  <SplitCaravan>拆分旅行队</SplitCaravan>
+  <!-- EN: You must leave at least one non-downed colonist. -->
+  <SourceCaravanMustHaveAtLeastOneColonist>必须留下至少一位可行动的殖民者。</SourceCaravanMustHaveAtLeastOneColonist>
+  <!-- EN: How many of this item the caravan has ready to give to the new caravan. -->
+  <SplitCaravanThingCountTip>此远行队能为新远行队配备多少此种物品。</SplitCaravanThingCountTip>
+  
+  <!-- Load transporters -->
+  <!-- EN: Load {0} -->
+  <LoadTransporters>装载{0}</LoadTransporters>
+  <!-- EN: The assigned people and items are too heavy for the transport pods. -->
+  <TooBigTransportersMassUsage>指定的人和物品的重量超过运输舱的最大载重能力。</TooBigTransportersMassUsage>
+  <!-- EN: You can't send empty transport pods. -->
+  <CantSendEmptyTransportPods>你无法发射空的运输舱。</CantSendEmptyTransportPods>
+  <!-- EN: {1_labelShort} can't reach the transport pods. -->
+  <PawnCantReachTransporters>{1_labelShort}无法到达到运输舱。</PawnCantReachTransporters>
+  <!-- EN: There is no path between the transport pods and the {0}. -->
+  <TransporterItemIsUnreachableSingle>运输舱与{0}之间没有路径。</TransporterItemIsUnreachableSingle>
+  <!-- EN: There is no path between the transport pods and {0}x {1}. -->
+  <TransporterItemIsUnreachableMulti>运输舱与{1}x{0}之间没有路径。</TransporterItemIsUnreachableMulti>
+  
+  <!-- Comms -->
+  <!-- EN: Social skill: {0} -->
+  <SocialSkillIs>社交技能: {0}</SocialSkillIs>
+  
+  <!--Research-->
+  <!-- EN: Research finished: {0} -->
+  <ResearchFinished>研究完成: {0}</ResearchFinished>
+  <!-- EN: Research Screen -->
+  <ResearchScreen>研究界面</ResearchScreen>
+  
+  <!--HistoryUpload-->
+  <!-- EN: Do you want to upload your gameplay data records to RimWorld server in order to help developers balance the game? If you agree, your data will be uploaded every {0} days (and in some other rare cases like the end of the game). Privacy preferences can be changed later in the options menu. -->
+  <HistoryUploadMessage>你想把游戏数据上传到 RimWorld 服务器以帮助开发者完善游戏平衡吗？同意后，每隔{0}个游戏日（或在游戏结束等特殊事件时），你的游戏数据会被自动上传到 RimWorld 服务器并被分析。之后可以在选项菜单里改变隐私设置。</HistoryUploadMessage>
+  <!-- EN: Even though history is sent anonymously, you can attach your name. -->
+  <HistoryUploadMessagePlayerName>尽管游戏数据默认是匿名上传的，但你仍然可以附上你的用户名。</HistoryUploadMessagePlayerName>
+  <!-- EN: Allow uploading gameplay data -->
+  <HistoryUploadYes>允许上传游戏数据</HistoryUploadYes>
+  <!-- EN: Do not allow uploading gameplay data -->
+  <HistoryUploadNo>不允许上传游戏数据</HistoryUploadNo>
+  <!-- EN: Upload only this time -->
+  <HistoryUploadYesOnce>仅上传本次数据</HistoryUploadYesOnce>
+  <!-- EN: Do not upload this time, ask me later -->
+  <HistoryUploadNoOnce>不上传本次数据，下次再问我</HistoryUploadNoOnce>
+  
+  <!-- Outfit management -->
+  <!-- EN: Outfit -->
+  <Outfit>着装配置</Outfit>
+  <!-- EN: Select outfit... -->
+  <SelectOutfit>选择配置</SelectOutfit>
+  <!-- EN: New outfit -->
+  <NewOutfit>新的配置</NewOutfit>
+  <!-- EN: Delete outfit... -->
+  <DeleteOutfit>删除配置</DeleteOutfit>
+  <!-- EN: Outfit is in use by {0}. -->
+  <OutfitInUse>着装配置已被{0}使用。</OutfitInUse>
+  <!-- EN: No outfit selected -->
+  <NoOutfitSelected>未选择着装配置</NoOutfitSelected>
+  
+  <!-- Drug policy management -->
+  <!-- EN: Drug policy -->
+  <DrugPolicy>用药方针</DrugPolicy>
+  <!-- EN: Select policy... -->
+  <SelectDrugPolicy>选择用药方针</SelectDrugPolicy>
+  <!-- EN: New policy -->
+  <NewDrugPolicy>新方针</NewDrugPolicy>
+  <!-- EN: Delete policy... -->
+  <DeleteDrugPolicy>删除用药方针</DeleteDrugPolicy>
+  <!-- EN: Drugs policy is in use by {0}. -->
+  <DrugPolicyInUse>{0}个启用的用药方针</DrugPolicyInUse>
+  <!-- EN: Food restriction is in use by {0}. -->
+  <FoodRestrictionInUse>{0}个启用的食物限制</FoodRestrictionInUse>
+  <!-- EN: Social drugs -->
+  <SocialDrugs>社交类成瘾品</SocialDrugs>
+  <!-- EN: No drugs -->
+  <NoDrugs>禁药</NoDrugs>
+  <!-- EN: One drink per day -->
+  <OneDrinkPerDay>每日一次</OneDrinkPerDay>
+  <!-- EN: Unrestricted -->
+  <Unrestricted>不做限制</Unrestricted>
+  <!-- EN: No drug policy selected -->
+  <NoDrugPolicySelected>没有选中的方针</NoDrugPolicySelected>
+  <!-- EN: Add drug... -->
+  <AddDrug>添加成药物</AddDrug>
+  <!-- EN: Drug -->
+  <DrugColumnLabel>药物或成瘾品</DrugColumnLabel>
+  <!-- EN: Usage -->
+  <DrugUsageColumnLabel>使用</DrugUsageColumnLabel>
+  <!-- EN: Frequency -->
+  <FrequencyColumnLabel>频率</FrequencyColumnLabel>
+  <!-- EN: Only if mood below -->
+  <MoodThresholdColumnLabel>心情值阈值</MoodThresholdColumnLabel>
+  <!-- EN: Only if recreation below -->
+  <JoyThresholdColumnLabel>快乐度阈值</JoyThresholdColumnLabel>
+  <!-- EN: Take to inventory -->
+  <TakeToInventoryColumnLabel>预支数量</TakeToInventoryColumnLabel>
+  <!-- EN: (no drugs) -->
+  <NoDrugsBrackets>（没有药物）</NoDrugsBrackets>
+  <!-- EN: Every day -->
+  <EveryDay>每天</EveryDay>
+  <!-- EN: {0} times per day -->
+  <TimesPerDay>每日{0}次</TimesPerDay>
+  <!-- EN: Every {0} days -->
+  <EveryDays>每{0}天1次</EveryDays>
+  <!-- EN: Any -->
+  <NoDrugUseRequirement>不使用</NoDrugUseRequirement>
+  <!-- EN: Delete this drug. -->
+  <DeleteDrugTooltip>删除药物</DeleteDrugTooltip>
+  <!-- EN: The name of a drug. -->
+  <DrugNameColumnDesc>药物的名称。</DrugNameColumnDesc>
+  <!-- EN: How the drug is allowed to be used. -->
+  <DrugUsageColumnDesc>药物是否允许使用。</DrugUsageColumnDesc>
+  <!-- EN: How often the colonists should try to take this drug. -->
+  <FrequencyColumnDesc>药物的使用频率。</FrequencyColumnDesc>
+  <!-- EN: The colonists will take this drug only if their mood level is below this threshold. -->
+  <MoodThresholdColumnDesc>当心情值低于该值时会开始使用药物或成瘾品。</MoodThresholdColumnDesc>
+  <!-- EN: The colonists will take this drug only if their recreation level is below this threshold. -->
+  <JoyThresholdColumnDesc>当娱乐值低于该值时会开始使用药物或成瘾品。</JoyThresholdColumnDesc>
+  <!-- EN: An amount of the drug to pick up extra when gathering it for consumption, in order to avoid having to visit the drug stockpile every time. -->
+  <TakeToInventoryColumnDesc>每次允许额外拿走的药物或成瘾品数量，避免每次都需要去仓库取。</TakeToInventoryColumnDesc>
+  <!-- EN: For addictions\n\nUse this drug to feed already-established addiction needs.\n\nEven if disabled, some characters with specific traits, or on mental breaks, may use the drug anyway. -->
+  <DrugUsageTipForAddiction>满足依赖\n\n为了满足已经形成的成瘾品依赖而服用。\n\n注意，即使是在禁用成瘾品的方针下，当殖民者精神崩溃或具有某些特性时依然会无视规定使用成瘾品。</DrugUsageTipForAddiction>
+  <!-- EN: For recreation\n\nUse this drug for recreation and social purposes.\n\nEven if disabled, some characters with specific traits, or on mental breaks, may use the drug anyway. -->
+  <DrugUsageTipForJoy>娱乐目的\n\n为了消除压力及在社交活动时服用。\n\n注意，即使是在禁用成瘾品的方针下，当殖民者精神崩溃或具有某些特性时依然会无视规定使用成瘾品。</DrugUsageTipForJoy>
+  <!-- EN: Scheduled\n\nUse this drug on a defined schedule, when specific conditions are met. -->
+  <DrugUsageTipScheduled>计划服用\n\n当特定条件满足时，根据指定的日程安排服用药物和成瘾品。</DrugUsageTipScheduled>
+
+  <!-- Food restriction management -->
+  <!-- EN: Food restriction -->
+  <FoodRestriction>食物限制</FoodRestriction>
+  <!-- EN: Lavish -->
+  <FoodRestrictionLavish>不限</FoodRestrictionLavish>
+  <!-- EN: Fine -->
+  <FoodRestrictionFine>最高精致</FoodRestrictionFine>
+  <!-- EN: Simple -->
+  <FoodRestrictionSimple>最高简单</FoodRestrictionSimple>
+  <!-- EN: Paste -->
+  <FoodRestrictionPaste>最高营养膏</FoodRestrictionPaste>
+  <!-- EN: Raw -->
+  <FoodRestrictionRaw>仅限生食</FoodRestrictionRaw>
+  <!-- EN: Nothing -->
+  <FoodRestrictionNothing>不提供</FoodRestrictionNothing>
+  <!-- EN: Select food restriction -->
+  <SelectFoodRestriction>选择限制</SelectFoodRestriction>
+  <!-- EN: New food restriction -->
+  <NewFoodRestriction>新的限制</NewFoodRestriction>
+  <!-- EN: Delete food restriction -->
+  <DeleteFoodRestriction>删除限制</DeleteFoodRestriction>
+  <!-- EN: No food restriction selected -->
+  <NoFoodRestrictionSelected>未选择食物限制</NoFoodRestrictionSelected>
+
+  <!-- Medical settings -->
+  <!-- EN: Defaults -->
+  <MedGroupDefaults>默认</MedGroupDefaults>
+  <!-- EN: Colonist -->
+  <MedGroupColonist>殖民者</MedGroupColonist>
+  <!-- EN: Imprisoned colonist -->
+  <MedGroupImprisonedColonist>被监禁的殖民者</MedGroupImprisonedColonist>
+  <!-- EN: Colony animal -->
+  <MedGroupColonyAnimal>殖民地动物</MedGroupColonyAnimal>
+  <!-- EN: Neutral animal -->
+  <MedGroupNeutralAnimal>中立动物</MedGroupNeutralAnimal>
+  <!-- EN: Neutral faction -->
+  <MedGroupNeutralFaction>中立派系</MedGroupNeutralFaction>
+  <!-- EN: Hostile faction -->
+  <MedGroupHostileFaction>敌对派系</MedGroupHostileFaction>
+  
+  <!-- Growing -->
+  <!-- EN: {0} requires {1} skill in Growing to sow.\n\nNone of your non-downed growers have this skill, so this plant will not be sown. -->
+  <NoGrowerCanPlant>播种{0}最低需要{1}级种植技能。\n\n你没有达到该技能要求的种植者，因此这种植物将不会被播种。</NoGrowerCanPlant>
+
+  <!-- Abandon home -->
+  <!-- EN: Some of your colonists or animals are in this area. Are you sure you want to abandon it?\n\nThe following people and animals will be left behind:\n\n{0} -->
+  <ConfirmAbandonHomeWithColonyPawns>你的一些殖民者或动物仍然在这个区域里。你确定要遗弃这一区域吗？\n\n这些人或动物会被留在这里:\n\n{0}</ConfirmAbandonHomeWithColonyPawns>
+  <!-- EN: Abandoning {0} will cause the following people to get the following thoughts: -->
+  <ConfirmAbandonHomeNegativeThoughts>遗弃{0}会导致以下人员产生以下想法：</ConfirmAbandonHomeNegativeThoughts>
+  <!-- EN: Everyone: -->
+  <ConfirmAbandonHomeNegativeThoughts_Everyone>所有人：</ConfirmAbandonHomeNegativeThoughts_Everyone>
+  
+  <!-- Move caravan and leave prisoners and animals behind -->
+  <!-- EN: Some animals or prisoners are trying to join this caravan. If you move it, they won't be able to anymore.\n\nAnimals, prisoners, and downed colonists left behind in a map without any non-downed colonists are considered abandoned and can be captured by the enemies.\n\nAre you sure you want to move your caravan? -->
+  <ConfirmMoveAutoJoinableCaravan>有囚犯或动物正要加入此远行队。如果你移动远行队，他们就无法加入远行队了。\n\n动物、囚犯和倒地的殖民者，如果没有任何未倒地的殖民者的陪同而被落在地图上，将视同已被遗弃，并可被敌人俘虏。\n\n确定要移动远行队吗？</ConfirmMoveAutoJoinableCaravan>
+  
+  <!-- Abandon pawn -->
+  <!-- EN: Do you really want to banish {1_label}? -->
+  <ConfirmBanishPawnDialog>你真的要放逐{1_label}吗?</ConfirmBanishPawnDialog>
+  <!-- EN: {1_labelShort} will most likely die. -->
+  <ConfirmBanishPawnDialog_LeftToDie>{1_labelShort}极可能会死。</ConfirmBanishPawnDialog_LeftToDie>
+  <!-- EN: {1_labelShort} will take the following items with {1_objective}: -->
+  <ConfirmBanishPawnDialog_Items>{1_labelShort}将会携带以下物品：</ConfirmBanishPawnDialog_Items>
+  <!-- EN: All colonists will get the following thoughts: -->
+  <ConfirmBanishPawnDialog_AllColonistsThoughts>所有的殖民者会产生以下想法：</ConfirmBanishPawnDialog_AllColonistsThoughts>
+  <!-- EN: Banishing {1_labelShort} will cause the following people to get the following thoughts: -->
+  <ConfirmBanishPawnDialog_IndividualThoughts>放逐{1_labelShort}将会导致这些人产生以下想法：</ConfirmBanishPawnDialog_IndividualThoughts>
+
+  <!-- Send transport pods which are not completely loaded -->
+  <!-- EN: Pod group isn't completely loaded. {1_labelShort} is missing. Launch anyway? -->
+  <ConfirmSendNotCompletelyLoadedPods>发射组并没有完成装载进程。 {1_labelShort}还未进入运输舱。确定要发射吗？</ConfirmSendNotCompletelyLoadedPods>
+
+  <!-- Settle near a faction base -->
+  <!-- EN: Since this location is within {0} tiles of another faction base, they will feel you are encroaching on their land and relations with those factions will worsen every {1} days.\n\nSettle here anyways? -->
+  <ConfirmSettleNearFactionBase>由于此地点位于另一派系的领地的{0}格以内，他们会觉得你在侵占他们的土地，且你和此派系的关系每{1}天都会恶化。\n\n无论如何也要定居在这里吗？</ConfirmSettleNearFactionBase>
+  
+  <!-- Cleanup translation files -->
+  <!-- EN: Are you sure you want to cleanup all translation files for language {0}?\n\nThis will:\n  - Add placeholders for missing keyed translations, def-injected translations, and backstories\n  - Add or update comments containing the original, untranslated text\n  - Move all keyed and def-injected translations to the appropriate XML files\n  - Apply automatic formatting to all XML files\n  - Update back-compatible def names\n  - Remove all existing XML comments (except in full-list injections)\n\nNon-XML files will not be removed or modified.\n\nRemember to restart the game after modifying the language files before running this tool in order to reload all data.\n\nMake sure to back up all translation files before using this tool. -->
+  <ConfirmCleanupTranslationFiles>您确定要清除语言{0}的所有翻译文件吗？\n\n这将：\n  - 为缺少的keyed，def-injected和backstories翻译添加占位符。\n  - 添加或更新包含原始文本的注释\n  - 将所有keyed和def-injected翻译移动到相应的XML文件\n  - 将自动格式应用于XML文件\n  - 更新反向兼容的def名称\n  - 删除所有现有的XML注释（全列表注入除外）\n\n不会删除或修改非XML文件。\n\n在运行此工具前，请在修改语言文件后重新启动游戏，以便重新加载所有数据。\n\n使用前请务必备份所有翻译文件。</ConfirmCleanupTranslationFiles>
+  <!-- EN: Yes, I have a backup -->
+  <ConfirmCleanupTranslationFiles_Confirm>是的，我已经备份。</ConfirmCleanupTranslationFiles_Confirm>
+
+  <!-- Load transporters -->
+  <!-- EN: The caravan will be immobile if you send the pods to an empty tile. Continue anyway? -->
+  <TransportersCaravanWillBeImmobile>如果将空投仓发射到地图上的空地，远行队将不会移动。是否继续？</TransportersCaravanWillBeImmobile>
+
+</LanguageData>

@@ -1,0 +1,382 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: Call {0} -->
+  <CallOnRadio>呼叫{0}</CallOnRadio>
+  <!-- EN: Cannot use ({0}) -->
+  <CannotUseReason>无法使用（{0}）</CannotUseReason>
+  <!-- EN: Cannot use (solar flare) -->
+  <CannotUseSolarFlare>无法使用（太阳耀斑）</CannotUseSolarFlare>
+  <!-- EN: Cannot use (no power) -->
+  <CannotUseNoPower>无法使用（没有电力）</CannotUseNoPower>
+  <!-- EN: Cannot use (no path) -->
+  <CannotUseNoPath>无法使用（没有路径）</CannotUseNoPath>
+  <!-- EN: Cannot use (reserved) -->
+  <CannotUseReserved>无法使用（已被预留）</CannotUseReserved>
+  <!-- EN: Cannot use (full) -->
+  <CannotUseFull>无法使用（已满）</CannotUseFull>
+  <!-- EN: leader {1_labelShort} is unavailable -->
+  <LeaderUnavailable>首领{1_labelShort}不可用</LeaderUnavailable>
+  <!-- EN: leader is unavailable -->
+  <LeaderUnavailableNoLeader>首领不可用</LeaderUnavailableNoLeader>
+  
+  <!-- EN: Fire at {1_label} -->
+  <FireAt>射击{1_label}</FireAt>
+
+  <!-- EN: out of range -->
+  <OutOfRange>超出射程</OutOfRange>
+  <!-- EN: too close -->
+  <TooClose>太近</TooClose>
+  <!-- EN: cannot hit target -->
+  <CannotHitTarget>无法击中目标</CannotHitTarget>
+  <!-- EN: {1_labelShort} is incapable of violence -->
+  <IsIncapableOfViolenceLower>{1_labelShort}无暴力能力</IsIncapableOfViolenceLower>
+  <!-- EN: incapable of violence -->
+  <IncapableOfViolenceLower>无暴力能力</IncapableOfViolenceLower>
+  <!-- EN: {1_labelShort} is not drafted -->
+  <IsNotDraftedLower>{1_labelShort}尚未被征召</IsNotDraftedLower>
+  <!-- EN: cannot order characters you do not control -->
+  <CannotOrderNonControlledLower>无法命令不由你操控的角色</CannotOrderNonControlledLower>
+  <!-- EN: cannot attack self -->
+  <CannotAttackSelf>无法攻击自己</CannotAttackSelf>
+
+  <!-- EN: Man {1_labelShort} -->
+  <OrderManThing>操纵{1_labelShort}</OrderManThing>
+  
+  <!-- EN: Melee attack {1_label} -->
+  <MeleeAttack>近身攻击{1_label}</MeleeAttack>
+  <!-- EN: Melee attack {1_label} to death -->
+  <MeleeAttackToDeath>近身攻击直到杀死{1_label}</MeleeAttackToDeath>
+  <!-- EN: no path -->
+  <NoPath>没有路径</NoPath>
+
+  <!-- EN: forbidden -->
+  <ForbiddenLower>已禁用</ForbiddenLower>
+  <!-- EN: outside allowed area -->
+  <ForbiddenOutsideAllowedAreaLower>位于允许活动区域外</ForbiddenOutsideAllowedAreaLower>
+  <!-- EN: not in home area -->
+  <NotInHomeArea>位于居住区外</NotInHomeArea>
+  <!-- EN: burning -->
+  <BurningLower>燃烧中</BurningLower>
+  <!-- EN: no empty, accessible spot configured to store it -->
+  <NoEmptyPlaceLower>未配置空余的、可到达的储存点</NoEmptyPlaceLower>
+  <!-- EN: no stack available to merge into -->
+  <NoMergeTarget>没有可合并的堆叠</NoMergeTarget>
+  <!-- EN: already filled enough -->
+  <AlreadyFilledLower>已装满</AlreadyFilledLower>
+  <!-- EN: need material -->
+  <MissingMaterials>需要材料</MissingMaterials>
+  <!-- EN: under required skill {0} -->
+  <UnderRequiredSkill>技能等级不足所必须的{0}</UnderRequiredSkill>
+  <!-- EN: under allowed skill {0} -->
+  <UnderAllowedSkill>技能等级不足所许可的{0}</UnderAllowedSkill>
+  <!-- EN: above allowed skill {0} -->
+  <AboveAllowedSkill>技能等级超过所许可的{0}</AboveAllowedSkill>
+  <!-- EN: missing required skill level -->
+  <MissingRequiredSkillLevel>缺少所需技能等级</MissingRequiredSkillLevel>
+  <!-- EN: animal interacted too recently -->
+  <AnimalInteractedTooRecently>动物互动过于频繁</AnimalInteractedTooRecently>
+  <!-- EN: no usable food -->
+  <NoUsableFood>缺少可用食物</NoUsableFood>
+  <!-- EN: no food -->
+  <NoFood>缺少食物</NoFood>
+  <!-- EN: animals skill too low - need {0} -->
+  <AnimalsSkillTooLow>驯兽技能过低-需要{0}</AnimalsSkillTooLow>
+  <!-- EN: animal downed -->
+  <CantInteractAnimalDowned>倒地的动物</CantInteractAnimalDowned>
+  <!-- EN: animal sleeping -->
+  <CantInteractAnimalAsleep>睡眠的动物</CantInteractAnimalAsleep>
+  <!-- EN: animal busy -->
+  <CantInteractAnimalBusy>忙碌的动物</CantInteractAnimalBusy>
+  <!-- EN: construction skill too low -->
+  <ConstructionSkillTooLow>建造技能过低</ConstructionSkillTooLow>
+  <!-- EN: need components -->
+  <NoComponentsToRepair>需要零部件</NoComponentsToRepair>
+  <!-- EN: need {0} -->
+  <NoFuelToRefuel>需要{0}</NoFuelToRefuel>
+  <!-- EN: need wort -->
+  <NoWort>需要麦芽汁</NoWort>
+  <!-- EN: available food is in storage of higher priority -->
+  <TheOnlyAvailableFoodIsInStorageOfHigherPriority>可用的食物位于更高优先级的储存器中</TheOnlyAvailableFoodIsInStorageOfHigherPriority>
+  <!-- EN: no suitable food -->
+  <NoFoodToFillHopper>缺少合适的食物</NoFoodToFillHopper>
+  <!-- EN: self-tend disabled -->
+  <SelfTendDisabled>自我治疗已禁用</SelfTendDisabled>
+  <!-- EN: reserved for prisoners -->
+  <ReservedForPrisoners>已预留给囚犯</ReservedForPrisoners>
+  <!-- EN: cannot reach -->
+  <CannotReach>无法到达</CannotReach>
+  <!-- EN: not ready for surgery -->
+  <NotSurgeryReady>未准备好手术</NotSurgeryReady>
+  <!-- EN: skill incapable -->
+  <SkillDisabled>技能禁用</SkillDisabled>
+  <!-- EN: too bright -->
+  <CantSowCavePlantBecauseOfLight>过于光亮</CantSowCavePlantBecauseOfLight>
+  <!-- EN: unroofed -->
+  <CantSowCavePlantBecauseUnroofed>无屋顶</CantSowCavePlantBecauseUnroofed>
+  <!-- EN: incapable of deconstruction -->
+  <IncapableOfDeconstruction>不能拆除</IncapableOfDeconstruction>
+  <!-- EN: incapable of mining -->
+  <IncapableOfMining>无法开采</IncapableOfMining>
+  <!-- EN: angers faction -->
+  <AngersFaction>激怒派系</AngersFaction>
+  
+  <!-- EN: Consume {1_labelShort} -->
+  <ConsumeThing>享用{1_labelShort}</ConsumeThing>
+  
+  <!-- EN: Cannot go here (no path) -->
+  <CannotGoNoPath>无法到达（没有路径）</CannotGoNoPath>
+  <!-- EN: Go here -->
+  <GoHere>走到这里</GoHere>
+  
+  <!-- EN: Arrest {0} -->
+  <Arrest>拘捕{0}</Arrest>
+  <!-- EN: Try to arrest {1_label} -->
+  <TryToArrest>尝试拘捕{1_label}</TryToArrest>
+  <!-- EN: Cannot arrest -->
+  <CannotArrest>无法拘捕</CannotArrest>
+
+  <!-- EN: Capture {1_label} -->
+  <Capture>俘虏{1_label}</Capture>
+  <!-- EN: Cannot capture -->
+  <CannotCapture>无法俘虏</CannotCapture>
+
+  <!-- EN: Rescue {1_label} -->
+  <Rescue>救援{1_label}</Rescue>
+  <!-- EN: Cannot rescue -->
+  <CannotRescue>无法救援</CannotRescue>
+
+  <!-- EN: Carry {1_label} to cryptosleep casket -->
+  <CarryToCryptosleepCasket>把{1_label}送入低温休眠舱</CarryToCryptosleepCasket>
+  <!-- EN: Cannot carry to cryptosleep casket -->
+  <CannotCarryToCryptosleepCasket>无法送入低温休眠舱</CannotCarryToCryptosleepCasket>
+
+  <!-- EN: No available cryptosleep casket. -->
+  <NoCryptosleepCasket>缺少可用的低温休眠舱。</NoCryptosleepCasket>
+  <!-- EN: No reachable, un-reserved, enclosed prisoner-marked bed in safe temperature. -->
+  <NoPrisonerBed>缺少位于安全温度下的、可到达的、未预留的、室内的囚犯专用床铺。</NoPrisonerBed>
+  <!-- EN: No reachable, un-reserved non-prisoner bed in safe temperature. -->
+  <NoNonPrisonerBed>缺少位于安全温度下的、可到达的、未预留的非囚犯专用床铺。</NoNonPrisonerBed>
+  <!-- EN: No reachable, un-reserved animal bed in safe temperature. -->
+  <NoAnimalBed>缺少位于安全温度下的、可到达的、未预留的动物窝铺。</NoAnimalBed>
+  <!-- EN: Reserved by someone else. -->
+  <Reserved>已预留给其他人。</Reserved>
+  <!-- EN: Reserved by {1_labelShort} -->
+  <ReservedBy>已预留给{1_labelShort}。</ReservedBy>
+  <!-- EN: {0} is reserved by {1}. -->
+  <IsReservedBy>{0}已被预留给{1}。</IsReservedBy>
+  <!-- EN: Too heavy -->
+  <TooHeavy>过重</TooHeavy>
+
+  <!-- EN: incapable -->
+  <Incapable>无法胜任</Incapable>
+  <!-- EN: incapable of {0} -->
+  <IncapableOfCapacity>无法胜任{0}</IncapableOfCapacity>
+
+  <!-- EN: min skill -->
+  <MinSkill>最低技能</MinSkill>
+  
+  <!-- EN: Equip {0} -->
+  <Equip>装备{0}</Equip>
+  <!-- EN: (brawler will be unhappy) -->
+  <EquipWarningBrawler>（格斗者会不高兴）</EquipWarningBrawler>
+  <!-- EN: Cannot equip {0} -->
+  <CannotEquip>无法装备{0}</CannotEquip>
+  <!-- EN: Cannot man {1_labelShort} -->
+  <CannotManThing>无法操作{1_labelShort}</CannotManThing>
+  
+  <!-- EN: Force wear {1_labelShort} -->
+  <ForceWear>强制穿上{1_labelShort}</ForceWear>
+  <!-- EN: Cannot wear {1_label} -->
+  <CannotWear>无法穿上{1_label}</CannotWear>
+  <!-- EN: missing body parts -->
+  <CannotWearBecauseOfMissingBodyParts>身体部位缺失</CannotWearBecauseOfMissingBodyParts>
+  
+  <!-- EN: Cannot pick up {1_label} -->
+  <CannotPickUp>无法拾取{1_label}</CannotPickUp>
+  <!-- EN: Cannot pick up {1_label} (all) -->
+  <CannotPickUpAll>无法拾取{1_label}（所有）</CannotPickUpAll>
+  <!-- EN: Pick up {1_label} -->
+  <PickUp>拾取{1_label}</PickUp>
+  <!-- EN: Pick up {1_label} (all) -->
+  <PickUpAll>拾取{1_label}（所有）</PickUpAll>
+  <!-- EN: Pick up {1_labelShort}... -->
+  <PickUpSome>拾取{1_labelShort}…</PickUpSome>
+  <!-- EN: Pick up {1_labelShort} x{{0}} -->
+  <PickUpCount>拾取{1_labelShort} x{{0}}</PickUpCount>
+  
+  <!-- EN: Cannot give {1_label} to pack animal -->
+  <CannotGiveToPackAnimal>无法将{1_label}交给动物携带</CannotGiveToPackAnimal>
+  <!-- EN: Cannot give {1_label} (all) to pack animal -->
+  <CannotGiveToPackAnimalAll>无法将{1_label}（所有）交给动物携带</CannotGiveToPackAnimalAll>
+  <!-- EN: Give {1_label} to pack animal -->
+  <GiveToPackAnimal>将{1_label}交给动物携带</GiveToPackAnimal>
+  <!-- EN: Give {1_label} (all) to pack animal -->
+  <GiveToPackAnimalAll>将{1_label}（所有）交给动物携带</GiveToPackAnimalAll>
+  <!-- EN: Give {1_labelShort} to pack animal... -->
+  <GiveToPackAnimalSome>将{1_labelShort}交给动物携带…</GiveToPackAnimalSome>
+  <!-- EN: Take {1_labelShort} x{{0}} -->
+  <GiveToPackAnimalCount>将{1_labelShort} x{{0}}交给动物携带</GiveToPackAnimalCount>
+  
+  <!-- EN: Cannot load {1_label} into caravan -->
+  <CannotLoadIntoCaravan>无法将{1_label}交给远行队携带</CannotLoadIntoCaravan>
+  <!-- EN: Cannot load {1_label} (all) into caravan -->
+  <CannotLoadIntoCaravanAll>无法将{1_label}（所有）交给远行队携带</CannotLoadIntoCaravanAll>
+  <!-- EN: Load {1_label} into caravan -->
+  <LoadIntoCaravan>将{1_label}交给远行队携带</LoadIntoCaravan>
+  <!-- EN: Load {1_label} (all) into caravan -->
+  <LoadIntoCaravanAll>将{1_label}（所有）交给远行队携带</LoadIntoCaravanAll>
+  <!-- EN: Load {1_labelShort} into caravan... -->
+  <LoadIntoCaravanSome>将{1_labelShort}交给远行队携带...</LoadIntoCaravanSome>
+  <!-- EN: Load {1_labelShort} x{{0}} -->
+  <LoadIntoCaravanCount>将{1_labelShort} x{{0}}交给远行队携带</LoadIntoCaravanCount>
+  <!-- EN: overweight -->
+  <OverweightLower>过重</OverweightLower>
+
+  <!-- EN: Cannot carry {1_label} and leave the area -->
+  <CannotCarryToExit>无法携带{1_label}离开该地区</CannotCarryToExit>
+  <!-- EN: Carry {1_label} and leave the area -->
+  <CarryToExit>携带{1_label}离开该地区</CarryToExit>
+  <!-- EN: Capture {1_label} and leave the area -->
+  <CarryToExitAndCapture>捕获{1_label}并离开该地区</CarryToExitAndCapture>
+  
+  <!-- EN: Strip {1_label} -->
+  <Strip>剥光{1_label}</Strip>
+  <!-- EN: Cannot strip {1_label} -->
+  <CannotStrip>无法剥光{1_label}</CannotStrip>
+
+  <!-- EN: Self-destruct here -->
+  <SelfDestructHere>在此自毁</SelfDestructHere>
+  
+  <!-- EN: Drop {1_label} -->
+  <Drop>丢下{1_label}</Drop>
+
+  <!-- EN: Rest until healed -->
+  <UseMedicalBed>休息直到康复</UseMedicalBed>
+  <!-- EN: not injured -->
+  <NotInjured>没有受伤</NotInjured>
+  <!-- EN: occupied by {0} -->
+  <SomeoneElseSleeping>已被{0}占用</SomeoneElseSleeping>
+  
+  <!-- EN: Trade with {0} -->
+  <TradeWith>和{0}交易</TradeWith>
+  <!-- EN: Cannot trade -->
+  <CannotTrade>无法交易</CannotTrade>
+
+  <!-- EN: Open {0_label} -->
+  <Open>打开{0_label}</Open>
+  <!-- EN: Cannot open {0_label} -->
+  <CannotOpen>无法打开{0_label}</CannotOpen>
+  
+  <!-- EN: Enter {0} -->
+  <EnterMap>进入{0}</EnterMap>
+  <!-- EN: Visit {0} -->
+  <VisitSettlement>访问{0}</VisitSettlement>
+  <!-- EN: Visit {0} -->
+  <VisitPeaceTalks>访问{0}</VisitPeaceTalks>
+  <!-- EN: Visit {0} -->
+  <VisitEscapeShip>访问{0}</VisitEscapeShip>
+  <!-- EN: Attack {0} -->
+  <AttackSettlement>进攻{0}</AttackSettlement>
+  <!-- EN: Approach {0} -->
+  <ApproachSite>接近{0}</ApproachSite>
+  <!-- EN: Approaching {0} -->
+  <ApproachingSite>正在接近{0}</ApproachingSite>
+  <!-- EN: Offer gifts -->
+  <OfferGifts>提供礼物</OfferGifts>
+
+  <!-- Specific thing interactions -->
+  <!-- EN: Enter cryptosleep casket -->
+  <EnterCryptosleepCasket>进入低温休眠舱</EnterCryptosleepCasket>
+  <!-- EN: Open cryptosleep casket -->
+  <OpenCryptosleepCasket>打开低温休眠舱</OpenCryptosleepCasket>
+
+  <!-- e.g. Cannot VERB OBJECT, Cannot repair wall, Cannot haul metal, etc. -->
+  <!-- EN: Cannot {0} {2_labelShort} -->
+  <CannotGenericWork>无法{0}{2_labelShort}</CannotGenericWork>
+  <!-- EN: Cannot {0} -->
+  <CannotGenericWorkCustom>无法{0}</CannotGenericWorkCustom>
+
+  <!-- EN: Cannot prioritize (incapable of {0}) -->
+  <CannotMissingHealthActivities>无法优先（健康问题: {0}）</CannotMissingHealthActivities>
+
+  <!-- e.g. Already GERUND OBJECT, Already repairing wall, already hauling metal, etc -->
+  <!-- EN: Already {0} {2_labelShort} -->
+  <CannotGenericAlreadyAm>已经在{0}{2_labelShort}中</CannotGenericAlreadyAm>
+
+  <!-- EN: Cannot prioritize (will never do {0}) -->
+  <CannotPrioritizeWorkTypeDisabled>无法优先（无法从事: {0}）</CannotPrioritizeWorkTypeDisabled>
+
+  <!-- EN: Cannot prioritize (will never {0}) -->
+  <CannotPrioritizeWorkGiverDisabled>无法优先（无法{0}）</CannotPrioritizeWorkGiverDisabled>
+  <!-- EN: will never {0} -->
+  <WillNever>不会{0}</WillNever>
+
+  <!-- EN: Cannot prioritize (not assigned to {0}) -->
+  <CannotPrioritizeNotAssignedToWorkType>无法优先（未指派工作: {0}）</CannotPrioritizeNotAssignedToWorkType>
+  <!-- EN: not assigned -->
+  <NotAssigned>未指派</NotAssigned>
+
+  <!-- EN: Cannot prioritize (research is a long-term task) -->
+  <CannotPrioritizeResearch>无法优先（研究为长期工作）</CannotPrioritizeResearch>
+
+  <!-- EN: Cannot prioritize ({1_label} is forbidden) -->
+  <CannotPrioritizeForbidden>无法优先（{1_label}已被禁用）</CannotPrioritizeForbidden>
+  <!-- EN: Cannot prioritize (forbidden) -->
+  <CannotPrioritizeCellForbidden>无法优先（禁用）</CannotPrioritizeCellForbidden>
+  <!-- EN: Outside allowed area -->
+  <CannotPrioritizeForbiddenOutsideAllowedArea>在许可区域之外</CannotPrioritizeForbiddenOutsideAllowedArea>
+
+  <!-- e.g. Prioritize GERUND OBJECT, Prioritize repairing wall, prioritize hauling metal, etc -->
+  <!-- EN: Prioritize {0} {1} -->
+  <PrioritizeGeneric>优先{0}{1}</PrioritizeGeneric>
+  
+  <!-- EN: Drop at edge -->
+  <DropAtEdge>空投至边缘</DropAtEdge>
+  <!-- EN: Drop in center -->
+  <DropInCenter>空投至中心</DropInCenter>
+  <!-- EN: Attack {0}: Drop at edge -->
+  <AttackAndDropAtEdge>攻击{0}：空投至边缘</AttackAndDropAtEdge>
+  <!-- EN: Attack {0}: Drop in center -->
+  <AttackAndDropInCenter>攻击{0}：空投至中心</AttackAndDropInCenter>
+  
+  <!-- EN: vomiting -->
+  <VomitingLower>呕吐中</VomitingLower>
+  <!-- EN: not interruptible -->
+  <NotInterruptibleLower>不可中断</NotInterruptibleLower>
+  
+  <!-- EN: Add a new waypoint here -->
+  <AddWaypoint>在此处添加新的路径点</AddWaypoint>
+  <!-- EN: Remove this waypoint -->
+  <RemoveWaypoint>移除此路径点</RemoveWaypoint>
+
+  <!-- EN: Cancel all designations -->
+  <RemoveAllDesignations>取消所有指派</RemoveAllDesignations>
+  <!-- EN: Designate all -->
+  <DesignateAll>指派全部</DesignateAll>
+  <!-- EN: {0} affected -->
+  <CountToDesignate>{0}受到影响</CountToDesignate>
+  <!-- EN: Forbid all items -->
+  <ForbidAllItems>禁用所有道具</ForbidAllItems>
+  <!-- EN: Unforbid all items -->
+  <UnforbidAllItems>解禁所有道具</UnforbidAllItems>
+
+  <!-- Transport pods -->
+  <!-- EN: Zoom in and choose a landing spot in {0} -->
+  <LandInExistingMap>在{0}上缩进然后选择登陆地点</LandInExistingMap>
+  <!-- EN: The contents will be lost -->
+  <TransportPodsContentsWillBeLost>内容物会丢失</TransportPodsContentsWillBeLost>
+  <!-- EN: Form caravan here -->
+  <FormCaravanHere>在此组建远行队</FormCaravanHere>
+  <!-- EN: Give to {0} -->
+  <GiveToCaravan>给予{0}</GiveToCaravan>
+  <!-- EN: Give as a gift to {0} ({1}) -->
+  <GiveGiftViaTransportPods>给予{0}作为礼物 ({1})</GiveGiftViaTransportPods>
+
+  <!-- Rescue quest -->
+  <!-- EN: Free prisoner -->
+  <FreePrisoner>释放囚犯</FreePrisoner>
+  <!-- EN: Offer help -->
+  <OfferHelp>提供帮助</OfferHelp>
+
+</LanguageData>
