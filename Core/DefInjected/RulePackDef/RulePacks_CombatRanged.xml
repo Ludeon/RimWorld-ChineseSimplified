@@ -1,0 +1,453 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>prefix->The [blast] [fromof] [INITIATOR_definite]'s [WEAPON_projectile_label]</li>
+    <li>prefix->The [blast] [fromof] [INITIATOR_definite]'s [WEAPON_label]</li>
+    <li>prefix->The [blast] [fromof] [INITIATOR_definite]'s [WEAPON_projectile_label]</li>
+    <li>prefix->The [blast] [fromof] [INITIATOR_definite]'s [WEAPON_label]</li>
+    <li>prefix->[INITIATOR_definite]'s [blast]</li>
+    <li>prefix->[INITIATOR_definite]'s [WEAPON_projectile_label] [blast]</li>
+    <li>prefix->[INITIATOR_definite]'s [WEAPON_label] [blast]</li>
+    <li>prefix->[INITIATOR_definite]'s [WEAPON_projectile_label]</li>
+    <li>prefix->[INITIATOR_definite]'s [WEAPON_label]</li>
+    <li>r_logentry->[prefix] [injured] [RECIPIENT_definite].</li>
+    <li>r_logentry->[prefix] [destroyed_past] [RECIPIENT_definite]'s [destroyed_targets].</li>
+    <li>r_logentry->[prefix] [destroyed_past] [RECIPIENT_definite]'s [destroyed_targets] [strikeAdv].</li>
+    <li>r_logentry->[prefix] [strikeAdv] [destroyed_past] [RECIPIENT_definite]'s [destroyed_targets].</li>
+    <li>r_logentry->[prefix] [destroyed_past] [RECIPIENT_definite]'s [destroyed_targets] and [damaged_past] [RECIPIENT_possessive] [damaged_targets].</li>
+    <li>r_logentry(recipient_part_destroyed_count==0)->[prefix] [damaged_past] [RECIPIENT_definite]'s [damaged_targets].</li>
+    <li>r_logentry(recipient_part_destroyed_count==0)->[prefix] [damaged_past] [RECIPIENT_definite]'s [damaged_targets] [strikeAdv].</li>
+    <li>r_logentry(recipient_part_destroyed_count==0)->[prefix] [strikeAdv] [damaged_past] [RECIPIENT_definite]'s [damaged_targets].</li>
+    <li>r_logentry->[RECIPIENT_definite] was [damaged_past] by [INITIATOR_definite].</li>
+    <li>r_logentry->[RECIPIENT_definite] was [damaged_past] [strikeAdv] by [INITIATOR_definite].</li>
+    <li>r_logentry->[RECIPIENT_definite] was [damaged_past].</li>
+    <li>r_logentry(p=0.001)->[RECIPIENT_definite] was caught in an explosion.</li>
+    <li>r_logentry(p=0.001)->[RECIPIENT_definite] was hit by an explosion.</li>
+    <li>blast->explosion</li>
+    <li>blast->blast</li>
+    <li>blast->shockwave</li>
+    <li>blast->detonation</li>
+    <li>blast->discharge</li>
+    <li>blast->impact</li>
+    <li>fromof->from</li>
+    <li>fromof->of</li>
+  -->
+  <Combat_ExplosionImpact.rulePack.rulesStrings>
+    <li>prefix->[fromof][INITIATOR_definite]的[WEAPON_projectile_label]引发的[blast] </li>
+    <li>prefix->[fromof][INITIATOR_definite]的[WEAPON_label]引发的[blast]</li>
+    <li>prefix->[fromof][INITIATOR_definite]使用[WEAPON_projectile_label]产生的[blast]</li>
+    <li>prefix->[fromof][INITIATOR_definite]使用[WEAPON_label]产生的[blast]</li>
+    <li>prefix->[INITIATOR_definite]引发的[blast]</li>
+    <li>prefix->[INITIATOR_definite]用[WEAPON_projectile_label]造成的[blast]</li>
+    <li>prefix->[INITIATOR_definite]用[WEAPON_label]造成的[blast]</li>
+    <li>prefix->[INITIATOR_definite]用[WEAPON_projectile_label]</li>
+    <li>prefix->[INITIATOR_definite]用[WEAPON_label]</li>
+    <li>r_logentry->[prefix][injured][RECIPIENT_definite]。</li>
+    <li>r_logentry->[prefix][destroyed_past][RECIPIENT_definite]的[destroyed_targets]。</li>
+    <li>r_logentry->[prefix][adverb_flavortext][destroyed_past][RECIPIENT_definite]的[destroyed_targets]。</li>
+    <li>r_logentry->[prefix][adverb_flavortext][destroyed_past]了[RECIPIENT_definite]的[destroyed_targets]。</li>
+    <li>r_logentry->[prefix][destroyed_past][RECIPIENT_definite]的[destroyed_targets]并[damaged_past][RECIPIENT_possessive][damaged_targets]。</li>
+    <li>r_logentry(recipient_part_destroyed_count==0)->[prefix][damaged_past][RECIPIENT_definite]的[damaged_targets]。</li>
+    <li>r_logentry(recipient_part_destroyed_count==0)->[prefix][adverb_flavortext][damaged_past][RECIPIENT_definite]的[damaged_targets]。</li>
+    <li>r_logentry(recipient_part_destroyed_count==0)->[prefix][adverb_flavortext][damaged_past]了[RECIPIENT_definite]的[damaged_targets]。</li>
+    <li>r_logentry->[RECIPIENT_definite]被[INITIATOR_definite][damaged_past]。</li>
+    <li>r_logentry->[RECIPIENT_definite]被[INITIATOR_definite][adverb_flavortext][damaged_past]。</li>
+    <li>r_logentry->[RECIPIENT_definite]被[damaged_past]。</li>
+    <li>r_logentry(p=0.001)->[RECIPIENT_definite]被爆炸波及。</li>
+    <li>r_logentry(p=0.001)->[RECIPIENT_definite]被爆炸击中。</li>
+    <li>blast->爆炸</li>
+    <li>blast->爆炸</li>
+    <li>blast->冲击波</li>
+    <li>blast->爆炸</li>
+    <li>blast->能量</li>
+    <li>blast->冲击力</li>
+    <li>fromof->来自</li>
+    <li>fromof->从</li>
+  </Combat_ExplosionImpact.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_definite]'s [WEAPON_projectile_label] [destroyed_past] [RECIPIENT_definite]'s [destroyed_targets].</li>
+    <li>r_logentry->[INITIATOR_definite]'s [WEAPON_projectile_label] [destroyed_past] [RECIPIENT_definite]'s [destroyed_targets] [to] [destroyed_suffix].</li>
+    <li>r_logentry(p=2)->[INITIATOR_definite]'s [WEAPON_projectile_label] [missed] [ORIGINALTARGET_definite] and [destroyed_past] [RECIPIENT_definite]'s [destroyed_targets].</li>
+    <li>r_logentry(p=2)->[INITIATOR_definite]'s [WEAPON_projectile_label] [missed] [ORIGINALTARGET_definite], [destroyed_present] [RECIPIENT_definite]'s [destroyed_targets].</li>
+    <li>r_logentry->[RECIPIENT_definite]'s [destroyed_targets] was [destroyed_past] by [INITIATOR_definite]'s [WEAPON_projectile_label].</li>
+    <li>r_logentry->[RECIPIENT_definite]'s [destroyed_targets] was [destroyed_past] into [destroyed_suffix] by [INITIATOR_definite]'s [WEAPON_projectile_label].</li>
+    <li>r_logentry(recipient_part_destroyed_count==0)->[INITIATOR_definite]'s [WEAPON_projectile_label] [damaged_past] [RECIPIENT_definite]'s [damaged_targets].</li>
+    <li>r_logentry(recipient_part_destroyed_count==0,p=2)->[INITIATOR_definite]'s [WEAPON_projectile_label] [missed] [ORIGINALTARGET_definite] and [damaged_past] [RECIPIENT_definite]'s [damaged_targets].</li>
+    <li>r_logentry(recipient_part_destroyed_count==0,p=2)->[INITIATOR_definite]'s [WEAPON_projectile_label] [missed] [ORIGINALTARGET_definite], [damaged_present] [RECIPIENT_definite]'s [damaged_targets].</li>
+    <li>r_logentry(recipient_part_destroyed_count==0)->[RECIPIENT_definite]'s [damaged_targets] was [damaged_past] by [INITIATOR_definite]'s [WEAPON_projectile_label].</li>
+    <li>r_logentry(p=3)->[INITIATOR_definite]'s [WEAPON_projectile_label] [destroyed_past] [RECIPIENT_definite]'s [destroyed_targets] and [damaged_past] [RECIPIENT_possessive] [damaged_targets].</li>
+    <li>r_logentry(p=6)->[INITIATOR_definite]'s [WEAPON_projectile_label] [missed] [ORIGINALTARGET_definite], [destroyed_present] [RECIPIENT_definite]'s [destroyed_targets] and [damaged_present] [RECIPIENT_possessive] [damaged_targets].</li>
+    <li>r_logentry(p=0.2)->[INITIATOR_definite] hit [RECIPIENT_definite] with a [WEAPON_projectile_label].</li>
+    <li>r_logentry(p=0.2)->[INITIATOR_definite]'s [WEAPON_projectile_label] hit [RECIPIENT_definite].</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite] [missed] [ORIGINALTARGET_definite] and hit [RECIPIENT_definite] with a [WEAPON_projectile_label].</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite]'s [WEAPON_projectile_label] [missed] [ORIGINALTARGET_definite] and hit [RECIPIENT_definite].</li>
+    <li>r_logentry(p=0.2)->[INITIATOR_definite] hit [RECIPIENT_definite] with a [WEAPON_projectile_label] intended for [ORIGINALTARGET_definite].</li>
+    <li>weapon_projectile_label(p=0.05)->shot</li>
+    <li>destroyed_past->shattered</li>
+    <li>destroyed_past->crushed</li>
+    <li>destroyed_past->obliterated</li>
+    <li>destroyed_past->annihilated</li>
+    <li>destroyed_past->pierced</li>
+    <li>destroyed_past->perforated</li>
+    <li>destroyed_past->punctured</li>
+    <li>destroyed_present->shattering</li>
+    <li>destroyed_present->crushing</li>
+    <li>destroyed_present->obliterating</li>
+    <li>destroyed_present->annihilating</li>
+    <li>destroyed_present->piercing</li>
+    <li>destroyed_present->perforating</li>
+    <li>destroyed_present->puncturing</li>
+    <li>destroyed_suffix->pieces</li>
+    <li>destroyed_suffix->bits</li>
+    <li>destroyed_suffix->a fine mist</li>
+    <li>destroyed_suffix->fragments</li>
+    <li>destroyed_suffix(p=0.5)->a holey mess</li>
+    <li>destroyed_suffix(recipient_flesh!=Mechanoid,p=0.2)->ground beef</li>
+    <li>damaged_past->wounded</li>
+    <li>damaged_past->injured</li>
+    <li>damaged_past->pierced</li>
+    <li>damaged_past->damaged</li>
+    <li>damaged_past->shot</li>
+    <li>damaged_present->wounding</li>
+    <li>damaged_present->injuring</li>
+    <li>damaged_present->piercing</li>
+    <li>damaged_present->damaging</li>
+    <li>damaged_present->shooting</li>
+    <li>damaged_suffix->in an ugly fashion</li>
+    <li>damaged_suffix(recipient_flesh!=Mechanoid)->with visible blood</li>
+    <li>damaged_suffix(recipient_flesh!=Mechanoid)->with the flesh visible</li>
+    <li>to->to</li>
+    <li>to->into</li>
+    <li>missed->missed</li>
+    <li>missed->narrowly missed</li>
+  -->
+  <Combat_RangedDamage.rulePack.rulesStrings>
+    <li>r_logentry->[INITIATOR_definite]的[WEAPON_projectile_label][destroyed_past][RECIPIENT_definite]的[destroyed_targets]。</li>
+    <li>r_logentry->[INITIATOR_definite]的[WEAPON_projectile_label][destroyed_past][RECIPIENT_definite]的[destroyed_targets][to][destroyed_suffix]。</li>
+    <li>r_logentry(p=2)->[INITIATOR_definite]的[WEAPON_projectile_label][missed][ORIGINALTARGET_definite]并[destroyed_past][RECIPIENT_definite]的[destroyed_targets]。</li>
+    <li>r_logentry(p=2)->[INITIATOR_definite]的[WEAPON_projectile_label][missed][ORIGINALTARGET_definite]，同时[destroyed_present][RECIPIENT_definite]的[destroyed_targets]。</li>
+    <li>r_logentry->[RECIPIENT_definite]的[destroyed_targets]被[INITIATOR_definite]的[WEAPON_projectile_label][destroyed_past]。</li>
+    <li>r_logentry->[RECIPIENT_definite]的[destroyed_targets]被[INITIATOR_definite]的[WEAPON_projectile_label][destroyed_past]，变成了[destroyed_suffix]。</li>
+    <li>r_logentry(recipient_part_destroyed_count==0)->[INITIATOR_definite]的[WEAPON_projectile_label][damaged_past][RECIPIENT_definite]的[damaged_targets]。</li>
+    <li>r_logentry(recipient_part_destroyed_count==0,p=2)->[INITIATOR_definite]的[WEAPON_projectile_label][missed][ORIGINALTARGET_definite]并[damaged_past][RECIPIENT_definite]的[damaged_targets]。</li>
+    <li>r_logentry(recipient_part_destroyed_count==0,p=2)->[INITIATOR_definite]的[WEAPON_projectile_label][missed][ORIGINALTARGET_definite]，同时[damaged_present][RECIPIENT_definite]的[damaged_targets]。</li>
+    <li>r_logentry(recipient_part_destroyed_count==0)->[RECIPIENT_definite]的[damaged_targets]被[INITIATOR_definite]的[WEAPON_projectile_label][damaged_past]。</li>
+    <li>r_logentry(p=3)->[INITIATOR_definite]的[WEAPON_projectile_label][destroyed_past][RECIPIENT_definite]的[destroyed_targets]并[damaged_past][RECIPIENT_possessive][damaged_targets]。</li>
+    <li>r_logentry(p=6)->[INITIATOR_definite]的[WEAPON_projectile_label][missed][ORIGINALTARGET_definite]，同时[destroyed_present][RECIPIENT_definite]的[destroyed_targets]并[damaged_present][RECIPIENT_possessive][damaged_targets]。</li>
+    <li>r_logentry(p=0.2)->[INITIATOR_definite]的[WEAPON_projectile_label]命中了[RECIPIENT_definite]。</li>
+    <li>r_logentry(p=0.2)->[INITIATOR_definite]用[WEAPON_projectile_label]命中[RECIPIENT_definite]。</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite]的[WEAPON_projectile_label][missed][ORIGINALTARGET_definite]，却打中了[RECIPIENT_definite]。</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite]的[WEAPON_projectile_label][missed][ORIGINALTARGET_definite]，并误伤到[RECIPIENT_definite]。</li>
+    <li>r_logentry(p=0.2)->[INITIATOR_definite]用[WEAPON_projectile_label]瞄准[ORIGINALTARGET_definite]，结果击中了[RECIPIENT_definite]。</li>
+    <li>weapon_projectile_label(p=0.05)->射击</li>
+    <li>destroyed_past->击碎</li>
+    <li>destroyed_past->轰飞</li>
+    <li>destroyed_past->带走</li>
+    <li>destroyed_past->摧毁</li>
+    <li>destroyed_past->射穿</li>
+    <li>destroyed_past->贯穿</li>
+    <li>destroyed_past->轰穿</li>
+    <li>destroyed_present->击碎</li>
+    <li>destroyed_present->轰碎</li>
+    <li>destroyed_present->摧毁</li>
+    <li>destroyed_present->摧毁</li>
+    <li>destroyed_present->射穿</li>
+    <li>destroyed_present->射穿</li>
+    <li>destroyed_present->射穿</li>
+    <li>destroyed_suffix->好几块</li>
+    <li>destroyed_suffix->一堆碎屑</li>
+    <li>destroyed_suffix->一团雾</li>
+    <li>destroyed_suffix->碎块</li>
+    <li>destroyed_suffix(p=0.5)->马蜂窝</li>
+    <li>destroyed_suffix(recipient_flesh!=Mechanoid,p=0.2)->肉馅</li>
+    <li>damaged_past->射中</li>
+    <li>damaged_past->打中</li>
+    <li>damaged_past->射中</li>
+    <li>damaged_past->射中</li>
+    <li>damaged_past->命中</li>
+    <li>damaged_present->击伤</li>
+    <li>damaged_present->射伤</li>
+    <li>damaged_present->射穿</li>
+    <li>damaged_present->射伤</li>
+    <li>damaged_present->射伤</li>
+    <li>damaged_suffix->面目全非</li>
+    <li>damaged_suffix(recipient_flesh!=Mechanoid)->鲜血四溅</li>
+    <li>damaged_suffix(recipient_flesh!=Mechanoid)->满目疮痍</li>
+    <li>to->伤口</li>
+    <li>to->被打中的地方</li>
+    <li>missed->没有命中</li>
+    <li>missed->没有击中</li>
+  </Combat_RangedDamage.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_definite]'s [WEAPON_projectile_label] [damaged_past] [RECIPIENT_definite][damaged_target] [deflected_result].</li>
+    <li>r_logentry(p=2)->[INITIATOR_definite]'s [WEAPON_projectile_label] [missed] [ORIGINALTARGET_definite] and [damaged_past] [RECIPIENT_definite][damaged_target_possessive_opt] [deflected_result].</li>
+    <li>r_logentry->[RECIPIENT_definite][damaged_target_possessive_opt] was [damaged_past] by [INITIATOR_definite]'s [WEAPON_projectile_label] [deflected_result].</li>
+    <li>r_logentry(p=0.2)->[INITIATOR_definite] hit [RECIPIENT_definite][damaged_target_possessive_opt] with a [WEAPON_projectile_label] [deflected_result].</li>
+    <li>r_logentry(p=0.2)->[INITIATOR_definite]'s [WEAPON_projectile_label] hit [RECIPIENT_definite][damaged_target_possessive_opt] [deflected_result].</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite] [missed] [ORIGINALTARGET_definite] and hit [RECIPIENT_definite][damaged_target_possessive_opt] with a [WEAPON_projectile_label] [deflected_result].</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite]'s [WEAPON_projectile_label] [missed] [ORIGINALTARGET_definite] and hit [RECIPIENT_definite][damaged_target_possessive_opt] [deflected_result].</li>
+    <li>r_logentry(p=0.2)->[INITIATOR_definite] hit [RECIPIENT_definite][damaged_target_possessive_opt] with a [WEAPON_projectile_label] intended for [ORIGINALTARGET_definite] [deflected_result].</li>
+    <li>weapon_projectile_label(p=0.05)->shot</li>
+    <li>damaged_target_possessive_opt-></li>
+    <li>damaged_target_possessive_opt(recipient_part_damaged0_outside==True)->'s [recipient_part_damaged0_label]</li>
+    <li>deflected_result-> [adverb_deflected]</li>
+    <li>deflected_result->, [deflected_consequence]</li>
+    <li>adverb_deflected_opt(p=4)-></li>
+    <li>adverb_deflected_opt->[adverb_deflected]</li>
+    <li>adverb_deflected->harmlessly</li>
+    <li>adverb_deflected->uselessly</li>
+    <li>deflected_consequence->but it [scraped_past] off [adverb_deflected_opt]</li>
+    <li>deflected_consequence->[scraped_present] off [RECIPIENT_possessive] armor [adverb_deflected_opt]</li>
+    <li>scraped_past->ricocheted</li>
+    <li>scraped_present->ricocheting</li>
+    <li>missed->missed</li>
+    <li>missed->narrowly missed</li>
+  -->
+  <Combat_RangedDeflect.rulePack.rulesStrings>
+    <li>r_logentry->[INITIATOR_definite]的[WEAPON_projectile_label][damaged_past][RECIPIENT_definite]的[damaged_target][deflected_result]。</li>
+    <li>r_logentry(p=2)->[INITIATOR_definite]的[WEAPON_projectile_label][missed][ORIGINALTARGET_definite]并[damaged_past][RECIPIENT_definite][damaged_target_possessive_opt][deflected_result]。</li>
+    <li>r_logentry->[RECIPIENT_definite][damaged_target_possessive_opt]被[INITIATOR_definite]的[WEAPON_projectile_label][damaged_past][deflected_result]。</li>
+    <li>r_logentry(p=0.2)->[INITIATOR_definite]用[WEAPON_projectile_label]命中[RECIPIENT_definite][damaged_target_possessive_opt][deflected_result]。</li>
+    <li>r_logentry(p=0.2)->[INITIATOR_definite]的[WEAPON_projectile_label]命中[RECIPIENT_definite][damaged_target_possessive_opt][deflected_result]。</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite]使用[WEAPON_projectile_label][missed][ORIGINALTARGET_definite]，同时误伤了[RECIPIENT_definite][damaged_target_possessive_opt][deflected_result]。</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite]的[WEAPON_projectile_label][missed][ORIGINALTARGET_definite]，却击中[RECIPIENT_definite][damaged_target_possessive_opt][deflected_result]。</li>
+    <li>r_logentry(p=0.2)->[INITIATOR_definite]用[WEAPON_projectile_label]瞄准[ORIGINALTARGET_definite]，结果击中了[RECIPIENT_definite][damaged_target_possessive_opt][deflected_result]。</li>
+    <li>weapon_projectile_label(p=0.05)->射击</li>
+    <li>damaged_target_possessive_opt-></li>
+    <li>damaged_target_possessive_opt(recipient_part_damaged0_outside==True)->的[recipient_part_damaged0_label]</li>
+    <li>deflected_result->[adverb_deflected]</li>
+    <li>deflected_result->，[deflected_consequence]</li>
+    <li>adverb_deflected_opt(p=4)-></li>
+    <li>adverb_deflected_opt->[adverb_deflected]</li>
+    <li>adverb_deflected->，但没有造成伤害</li>
+    <li>adverb_deflected->，但收效甚微</li>
+    <li>deflected_consequence->但[scraped_past][adverb_deflected_opt]</li>
+    <li>deflected_consequence->但被[RECIPIENT_possessive]的护甲[scraped_present][adverb_deflected_opt]</li>
+    <li>scraped_past->被弹开</li>
+    <li>scraped_present->弹开</li>
+    <li>missed->没有命中</li>
+    <li>missed->没有击中了</li>
+  </Combat_RangedDeflect.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_definite] [shotat] [RECIPIENT_definite] with [INITIATOR_possessive] [WEAPON_label].</li>
+    <li>r_logentry->[INITIATOR_definite] [shot] [INITIATOR_possessive] [WEAPON_label] at [RECIPIENT_definite].</li>
+    <li>r_logentry->[INITIATOR_definite] [shotat] [RECIPIENT_definite].</li>
+    <li>r_logentry->[INITIATOR_definite] [shot_a] [WEAPON_projectile_label] [burst] at [RECIPIENT_definite].</li>
+    <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] [shot_a] [WEAPON_projectile_label].</li>
+    <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] [shot] [INITIATOR_possessive] [WEAPON_label].</li>
+    <li>shot_a(p=2)->[verb_shot] a</li>
+    <li>shot_a->[skillAdv] [verb_shot] a</li>
+    <li>shot(p=2)->[verb_shot]</li>
+    <li>shot->[skillAdv] [verb_shot]</li>
+    <li>shotat->shot [aburst] at</li>
+    <li>shotat->[skillAdv] shot [aburst] at</li>
+    <li>shotat(p=0.5)->tried to shoot [aburst] at</li>
+    <li>shotat(p=0.3)->took a shot at</li>
+    <li>shotat(p=0.2)->[skillAdv] took a shot at</li>
+    <li>shotat->fired [aburst] at</li>
+    <li>shotat->fired [aburst] [skillAdv] at</li>
+    <li>shotat(p=0.5)->aimed and fired [aburst] at</li>
+    <li>shotat(p=0.5)->[skillAdv] aimed and fired [aburst] at</li>
+    <li>shotat(p=0.3)->opened fire at</li>
+    <li>aburst-></li>
+    <li>aburst(BURST==True,p=3)->a burst</li>
+    <li>burst-></li>
+    <li>burst(BURST==True,p=3)->burst</li>
+    <li>verb_shot->shot</li>
+    <li>verb_shot->fired</li>
+    <li>verb_shot(p=0.2)->discharged</li>
+  -->
+  <Combat_RangedFire.rulePack.rulesStrings>
+    <li>r_logentry->[INITIATOR_definite]用[INITIATOR_possessive][WEAPON_label]向[RECIPIENT_definite][shotat]。</li>
+    <li>r_logentry->[INITIATOR_definite]依靠[INITIATOR_possessive][WEAPON_label]向[RECIPIENT_definite][shot]。</li>
+    <li>r_logentry->[INITIATOR_definite]向[RECIPIENT_definite][shotat]。</li>
+    <li>r_logentry->[INITIATOR_definite]用[WEAPON_projectile_label][burst]向[RECIPIENT_definite][shot_a]。</li>
+    <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite]用[WEAPON_projectile_label][shot_a]。</li>
+    <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite]依靠[INITIATOR_possessive][WEAPON_label][shot]。</li>
+    <li>shot_a->[adverb_shot][verb_shot]</li>
+    <li>shot_a(p=2)->[verb_shot]</li>
+    <li>shot(p=2)->[verb_shot]</li>
+    <li>shot->[adverb_shot][verb_shot]</li>
+    <li>shotat->射击[aburst]</li>
+    <li>shotat->[adverb_shot]射击[aburst]</li>
+    <li>shotat(p=0.5)->全神贯注地射击[aburst]</li>
+    <li>shotat(p=0.3)->开枪</li>
+    <li>shotat(p=0.2)->射出[adjective_shot]一击</li>
+    <li>shotat->开火[aburst]</li>
+    <li>shotat->[adverb_shot]开火[aburst]</li>
+    <li>shotat(p=0.5)->瞄准并开火[aburst]</li>
+    <li>shotat(p=0.5)->[skillAdv]瞄准并开火[aburst]</li>
+    <li>shotat(p=0.3)->开火</li>
+    <li>aburst-></li>
+    <li>aburst(BURST==True,p=3)->，打出一组点射</li>
+    <li>burst-></li>
+    <li>burst(BURST==True,p=3)->点射</li>
+    <li>verb_shot->射击</li>
+    <li>verb_shot->开火</li>
+    <li>verb_shot(p=0.2)->射出</li>
+    <!--
+    <li>adverb_shot->小心地</li>
+    <li>adverb_shot->迅速</li>
+    <li>adverb_shot->准确地</li>
+    <li>adverb_shot->从容地</li>
+    <li>adverb_shot(initiator_flesh!=Mechanoid)->谨慎地</li>
+    <li>adverb_shot->精确地</li>
+    <li>adverb_shot(initiator_flesh!=Mechanoid)->警惕地</li>
+    <li>adjective_shot->谨慎的</li>
+    <li>adjective_shot->迅速的</li>
+    <li>adjective_shot->早有预谋的</li>
+    <li>adjective_shot->精确的</li>
+    <li>adjective_shot(initiator_flesh!=Mechanoid)->机警的</li>-->
+  </Combat_RangedFire.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_definite] [threw] [INITIATOR_possessive] [WEAPON_projectile_label] at [RECIPIENT_definite].</li>
+    <li>r_logentry->[INITIATOR_definite] [threw_a] [WEAPON_projectile_label] at [RECIPIENT_definite].</li>
+    <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] [threw] [INITIATOR_possessive] [WEAPON_projectile_label].</li>
+    <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] [threw_a] [WEAPON_projectile_label].</li>
+    <li>threw_a->[adverb_threw] [verb_threw] a</li>
+    <li>threw_a(p=2)->[verb_threw] a</li>
+    <li>threw(p=2)->[verb_threw]</li>
+    <li>threw->[adverb_threw] [verb_threw]</li>
+    <li>verb_threw->threw</li>
+    <li>verb_threw->flung</li>
+    <li>verb_threw->launched</li>
+    <li>adverb_threw->carefully</li>
+    <li>adverb_threw->quickly</li>
+    <li>adverb_threw->precisely</li>
+    <li>adverb_threw->deliberately</li>
+    <li>adverb_threw(initiator_flesh!=Mechanoid)->gingerly</li>
+    <li>adverb_threw->precisely</li>
+    <li>adverb_threw(initiator_flesh!=Mechanoid)->warily</li>
+    <li>adjective_threw->careful</li>
+    <li>adjective_threw->quick</li>
+    <li>adjective_threw->deliberate</li>
+    <li>adjective_threw->precise</li>
+    <li>adjective_threw(initiator_flesh!=Mechanoid)->wary</li>
+  -->
+  <Combat_RangedFire_Thrown.rulePack.rulesStrings>
+    <li>r_logentry->[INITIATOR_definite]向[RECIPIENT_definite][threw][INITIATOR_possessive][WEAPON_projectile_label]。</li>
+    <li>r_logentry->[INITIATOR_definite]向[RECIPIENT_definite][threw_a][WEAPON_projectile_label]。</li>
+    <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite][threw][INITIATOR_possessive][WEAPON_projectile_label]。</li>
+    <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite][threw_a][WEAPON_projectile_label]。</li>
+    <li>threw_a->[adverb_threw][verb_threw]一颗</li>
+    <li>threw_a(p=2)->[verb_threw]一颗</li>
+    <li>threw(p=2)->[verb_threw]</li>
+    <li>threw->[adverb_threw][verb_threw]</li>
+    <li>verb_threw->投掷</li>
+    <li>verb_threw->扔出</li>
+    <li>verb_threw->甩出</li>
+    <li>adverb_threw->小心地</li>
+    <li>adverb_threw->迅速</li>
+    <li>adverb_threw->准确地</li>
+    <li>adverb_threw->从容地</li>
+    <li>adverb_threw(initiator_flesh!=Mechanoid)->谨慎地</li>
+    <li>adverb_threw->精确地</li>
+    <li>adverb_threw(initiator_flesh!=Mechanoid)->警惕地</li>
+    <li>adjective_threw->小心的</li>
+    <li>adjective_threw->迅速的</li>
+    <li>adjective_threw->从容的</li>
+    <li>adjective_threw->精确的</li>
+    <li>adjective_threw(initiator_flesh!=Mechanoid)->机警的</li>
+  </Combat_RangedFire_Thrown.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_definite]'s [WEAPON_projectile_label] [missed].</li>
+    <li>r_logentry->[INITIATOR_definite] missed [ORIGINALTARGET_definite].</li>
+    <li>r_logentry->[ORIGINALTARGET_definite] [avoidance], [INITIATOR_definite]'s [WEAPON_projectile_label] [missing].</li>
+    <li>missed(p=4)->missed</li>
+    <li>missed(p=2)->missed by a small margin</li>
+    <li>missed(p=2)->missed by a wide margin</li>
+    <li>missed->went wide</li>
+    <li>missed->flew into the air</li>
+    <li>missed->flew high into the air</li>
+    <li>missed->dug into the ground</li>
+    <li>missed->skipped off the ground and was lost</li>
+    <li>missed->dug a divot out of the ground</li>
+    <li>missed(p=0.2)->passed within millimeters of [ORIGINALTARGET_definite]</li>
+    <li>missed->passed within centimeters of [ORIGINALTARGET_definite]</li>
+    <li>missed->passed within a meter of [ORIGINALTARGET_definite]</li>
+    <li>missed->was blown off course</li>
+    <li>missing->missing</li>
+    <li>missing->missing by a small margin</li>
+    <li>missing->missing by a wide margin</li>
+    <li>missing->going wide</li>
+    <li>missing->flying into the air</li>
+    <li>missing->flying high into the air</li>
+    <li>missing->digging into the ground</li>
+    <li>missing->skipping off the ground and becoming lost</li>
+    <li>missing->digging a divot out of the ground</li>
+    <li>missing(p=0.2)->passing within millimeters of [ORIGINALTARGET_definite]</li>
+    <li>missing->passing within centimeters of [ORIGINALTARGET_definite]</li>
+    <li>missing->passing within a meter of [ORIGINALTARGET_definite]</li>
+    <li>missing->blowing offcourse</li>
+    <li>avoidance(ORIGINALTARGET_mobile==True,p=2)->[moved] aside at the last [moment]</li>
+    <li>avoidance(ORIGINALTARGET_mobile==True,p=0.3)->[ducked] behind [COVER_definite]</li>
+    <li>moved->moved</li>
+    <li>moved->jerked</li>
+    <li>moved->jolted</li>
+    <li>moved->ducked</li>
+    <li>moment->moment</li>
+    <li>moment->second</li>
+    <li>moment->instant</li>
+    <li>ducked->ducked</li>
+    <li>ducked->crouched</li>
+    <li>ducked->bent down</li>
+    <li>ducked->hid</li>
+  -->
+  <Combat_RangedMiss.rulePack.rulesStrings>
+    <li>r_logentry->[INITIATOR_definite]的[WEAPON_projectile_label][missed]。</li>
+    <li>r_logentry->[INITIATOR_definite]没打中[ORIGINALTARGET_definite]。</li>
+    <li>r_logentry->[ORIGINALTARGET_definite][avoidance]，[INITIATOR_definite]的[WEAPON_projectile_label][missing]。</li>
+    <li>missed(p=4)->射偏了</li>
+    <li>missed(p=2)->差之毫厘</li>
+    <li>missed(p=2)->大幅偏出</li>
+    <li>missed->射歪了</li>
+    <li>missed->只射中了空气</li>
+    <li>missed->射高了</li>
+    <li>missed->打到地上</li>
+    <li>missed->被地面反弹然后不见了</li>
+    <li>missed->打飞了一块地皮</li>
+    <li>missed(p=0.2)->与[ORIGINALTARGET_definite]擦身而过</li>
+    <li>missed->呼啸着从[ORIGINALTARGET_definite]身边飞过</li>
+    <li>missed->弹着点距离[ORIGINALTARGET_definite]很远</li>
+    <li>missed->偏离了目标</li>
+    <li>missing->没打中</li>
+    <li>missing->擦身而过</li>
+    <li>missing->大幅偏出</li>
+    <li>missing->射歪了</li>
+    <li>missing->只射中了空气</li>
+    <li>missing->射高了</li>
+    <li>missing->钻入地中</li>
+    <li>missing->被地面反弹然后不见了</li>
+    <li>missing->打飞了一块地皮</li>
+    <li>missing(p=0.2)->与[ORIGINALTARGET_definite]擦身而过</li>
+    <li>missing->从[ORIGINALTARGET_definite]身边呼啸而过</li>
+    <li>missing->弹着点距离[ORIGINALTARGET_definite]很远</li>
+    <li>missing->偏离了目标</li>
+    <li>avoidance(ORIGINALTARGET_mobile==True,p=2)->[moment][moved]</li>
+    <li>avoidance(ORIGINALTARGET_mobile==True,p=0.3)->[ducked][COVER_definite]的掩护下</li>
+    <li>moved->挪开了</li>
+    <li>moved->闪开了</li>
+    <li>moved->跳开了</li>
+    <li>moved->躲开了</li>
+    <li>moment->瞬间</li>
+    <li>moment->一瞬</li>
+    <li>moment->立即</li>
+    <li>ducked->躲到</li>
+    <li>ducked->蹲到</li>
+    <li>ducked->趴到</li>
+    <li>ducked->藏在</li>
+    <!--
+    <li>avoidance(ORIGINALTARGET_mobile==True)->千钧一发之际猛地闪开</li>
+    <li>avoidance(ORIGINALTARGET_mobile==True)->毫无征兆地平地摔</li>
+    <li>avoidance(ORIGINALTARGET_mobile==True)->迅速卧倒</li>
+    <li>avoidance(ORIGINALTARGET_mobile==True,p=0.3)->低身躲到[COVER_definite]后</li>
+    <li>avoidance(ORIGINALTARGET_mobile==True,p=0.3)->一跃躲到[COVER_definite]后</li>-->
+  </Combat_RangedMiss.rulePack.rulesStrings>
+  
+</LanguageData>

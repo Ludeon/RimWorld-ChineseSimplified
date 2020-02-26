@@ -6,7 +6,7 @@
   <!-- EN: Fabricate advanced components from standard components and other materials. -->
   <AdvancedFabrication.description>解锁用零部件和其他材料制作「高级零部件」。</AdvancedFabrication.description>
   
-  <!-- EN: bionics -->
+  <!-- EN: bionic replacements -->
   <Bionics.label>仿生学</Bionics.label>
   <!-- EN: Build high-tech bionic body parts to replace lost limbs and eyes. Requires a skilled doctor to attach. -->
   <Bionics.description>解锁制作高科技仿生体部件，用以替代失去的肢体和眼睛。需要熟练的医生进行安装。</Bionics.description>
@@ -30,6 +30,10 @@
   <Fabrication.label>精密装配</Fabrication.label>
   <!-- EN: Build fabrication benches, capable of high-tech projects ranging from component assembly to power armor construction. -->
   <Fabrication.description>解锁建造「精密装配台」，能够执行从最基础的「零部件」加工到组装动力装甲的各种高科技项目。</Fabrication.description>
+  <!-- EN: You now have the technology to build a fabrication bench - but it also requires some advanced components to get started. You can collect advanced components several ways:\n\n  -All outlander settlements sell advanced components. Send a caravan to buy some.\n  -Some visiting traders sell advanced components. Invite or wait for them.\n  -Some quests are rewarded with advanced components.\n  -Some special threats drop them when defeated. -->
+  <Fabrication.discoveredLetterText>现在你可以建造精密装配台了，但是还缺乏一些高级零部件，你可以通过以下几种方式得到：\ n\n-所有外来者定居点都有高级零部件出售。可以派出远行队去买一些。\ n- 来访的贸易商队有时候也会携带高级零部件。邀请或等待他们造访。\n-一些任务会给予高级零部件作为奖励。\n -一些特殊威胁会在败逃时遗落高级零部件。</Fabrication.discoveredLetterText>
+  <!-- EN: About: Getting advanced components -->
+  <Fabrication.discoveredLetterTitle>关于：获取高级零部件</Fabrication.discoveredLetterTitle>
   
   <!-- EN: ground-penetrating scanner -->
   <GroundPenetratingScanner.label>地质扫描仪</GroundPenetratingScanner.label>
@@ -41,10 +45,15 @@
   <!-- EN: Build multi-analyzers which increase research speed and allow higher-level research projects. -->
   <MultiAnalyzer.description>解锁建造「多元分析仪」，提高研究速度，以及解锁更高级的研究项目。建造时需要高级零部件，必须建造在高级研究台旁。</MultiAnalyzer.description>
   
-  <!-- EN: powered armor -->
-  <PoweredArmor.label>动力装甲</PoweredArmor.label>
-  <!-- EN: Build the power armor and power armor helmets. Note that these also require advanced components. -->
-  <PoweredArmor.description>神经元机械和先进的玻璃钢加工技术结合的产物，解锁制作「动力装甲」和「动力头盔」。注意，制作时需要高级零部件。</PoweredArmor.description>
+  <!-- EN: marine armor -->
+  <PoweredArmor.label>海军装甲</PoweredArmor.label>
+  <!-- EN: Build marine armor, a general-use powered armor suit used by high-tech shock troops. Note that these also require advanced components. -->
+  <PoweredArmor.description>解锁制作「海军装甲」，一种由高科技突袭部队所使用的泛用型动力装甲。注意，制作时需要高级零部件。</PoweredArmor.description>
+  
+  <!-- EN: recon armor -->
+  <ReconArmor.label>斥候装甲</ReconArmor.label>
+  <!-- EN: Craft recon armor, a light powered armor suit used by scout troops who need protection on the move. Note that these also require advanced components. -->
+  <ReconArmor.description>解锁制作「斥候装甲」，一种轻型装甲，能为侦察部队提供防护。注意，制作时需要高级零部件。</ReconArmor.description>
   
   <!-- EN: uranium slug turret -->
   <SniperTurret.label>自动狙击炮塔</SniperTurret.label>

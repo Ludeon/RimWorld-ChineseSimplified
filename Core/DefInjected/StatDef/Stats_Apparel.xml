@@ -3,23 +3,29 @@
   
   <!-- EN: Armor - Blunt -->
   <ArmorRating_Blunt.label>护甲 - 钝器</ArmorRating_Blunt.label>
-  <!-- EN: The chance to affect blunt damage like fists, club impacts and rock falls.\n\nUpon taking damage, first this armor rating is reduced by the attack's armor penetration value. The remaining armor rating is then compared against a random number from 0 to 100.\n\n    -If the random number is under half the armor rating, the damage deflects harmlessly.\n    -If the random number is over half the armor rating, but not higher than the armor rating, the damage is mitigated. This means it is reduced by half.\n    -If the random number is greater than the armor rating, the armor has no effect.\n\nFor example, at 90% armor rating against an attack with 10% armor penetration, there is a 40% chance of deflecting the attack harmlessly, and a 40% chance of mitigating the damage.\n\nIn the case of apparel armor, each layer of apparel applies its armor to the attack separately, from the outside in. -->
-  <ArmorRating_Blunt.description>护甲抵御钝器伤害的几率，比如棍棒攻击和落石。\n\n受到伤害时，护甲值首先减去攻击武器的护甲穿透值。剩余护甲值与0到100之间的随机数进行比较。\n\n-若随机数低于剩余护甲值的一半，则伤害无效。\n-若随机数大于剩余护甲值的一半但不高于剩余护甲值，则伤害减半。\n-若随机数大于剩余护甲值，则护甲无效。\n\n例如，对于10％护甲穿透的攻击，若护甲等级为90％，则有40％几率使攻击无效，并有40％的几率减轻伤害。\n\n拥有多层服装时，判定将从外层开始，逐层检测。</ArmorRating_Blunt.description>
+  <!-- EN: The protection given against blunt damage like fists, club impacts and rock falls.\n\nUpon taking damage, first this armor rating is reduced by the attack's armor penetration value.\n\nThe remaining armor rating is then compared against a random number from 0 to 100.\n\n    - If the random number is under half the armor rating, the damage deflects harmlessly.\n    - If the random number is over half the armor rating, but not higher than the armor rating, the damage is reduced by half and changed to blunt.\n    - If the random number is greater than the armor rating, the armor has no effect.\n\nFor example, at 90% armor rating against an attack with 10% armor penetration, there is a 40% chance of deflecting the attack harmlessly, and a 40% chance of mitigating the damage.\n\nEach layer of armor is applied separately, from the outside in. -->
+  <ArmorRating_Blunt.description>抵御钝器伤害的防护能力，例如拳头、棍棒攻击和落石。\n\n受到伤害时，护甲值首先减去攻击武器的护甲穿透值。剩余护甲值与0到100之间的随机数进行比较。\n\n-若随机数低于剩余护甲值的一半，则伤害无效。\n-若随机数大于剩余护甲值的一半但不高于剩余护甲值，则伤害减半，并且改为钝器伤害。\n-若随机数大于剩余护甲值，则护甲无效。\n\n例如，对于10％护甲穿透的攻击，若护甲等级为90％，则有40％几率使攻击无效，并有40％的几率减轻伤害。\n\n拥有多层服装时，判定将从外层开始，逐层检测。</ArmorRating_Blunt.description>
+  <!-- EN: Armor - Blunt (armor stat) -->
+  <ArmorRating_Blunt.labelForFullStatList>护甲 - 钝器（护甲属性）</ArmorRating_Blunt.labelForFullStatList>
   
   <!-- EN: Armor - Heat -->
   <ArmorRating_Heat.label>护甲 - 热能</ArmorRating_Heat.label>
-  <!-- EN: The chance to affect temperature-related damage like burns.\n\nUpon taking damage, first this armor rating is reduced by the attack's armor penetration value. The remaining armor rating is then compared against a random number from 0 to 100.\n\n    -If the random number is under half the armor rating, the damage deflects harmlessly.\n    -If the random number is over half the armor rating, but not higher than the armor rating, the damage is mitigated. This means it is reduced by half.\n    -If the random number is greater than the armor rating, the armor has no effect.\n\nFor example, at 90% armor rating against an attack with 10% armor penetration, there is a 40% chance of deflecting the attack harmlessly, and a 40% chance of mitigating the damage.\n\nIn the case of apparel armor, each layer of apparel applies its armor to the attack separately, from the outside in. -->
-  <ArmorRating_Heat.description>护甲抵御温度相关伤害的几率，比如燃烧。\n\n受到伤害时，护甲值首先减去攻击武器的护甲穿透值。剩余护甲值与0到100之间的随机数进行比较。\n\n-若随机数低于剩余护甲值的一半，则伤害无效。\n-若随机数大于剩余护甲值的一半但不高于剩余护甲值，则伤害减半。\n-若随机数大于剩余护甲值，则护甲无效。\n\n例如，对于10％护甲穿透的攻击，若护甲等级为90％，则有40％几率使攻击无效，并有40％的几率减轻伤害。\n\n拥有多层服装时，判定将从外层开始，逐层检测。</ArmorRating_Heat.description>
+  <!-- EN: The protection given against temperature-related damage like burns.\n\nUpon taking damage, first this armor rating is reduced by the attack's armor penetration value.\n\nThe remaining armor rating is then compared against a random number from 0 to 100.\n\n    - If the random number is under half the armor rating, the damage deflects harmlessly.\n    - If the random number is over half the armor rating, but not higher than the armor rating, the damage is reduced by half and changed to blunt.\n    - If the random number is greater than the armor rating, the armor has no effect.\n\nFor example, at 90% armor rating against an attack with 10% armor penetration, there is a 40% chance of deflecting the attack harmlessly, and a 40% chance of mitigating the damage.\n\nEach layer of armor is applied separately, from the outside in. -->
+  <ArmorRating_Heat.description>抵御温度相关伤害的防护能力，比如燃烧。\n\n受到伤害时，护甲值首先减去攻击武器的护甲穿透值。剩余护甲值与0到100之间的随机数进行比较。\n\n-若随机数低于剩余护甲值的一半，则伤害无效。\n-若随机数大于剩余护甲值的一半但不高于剩余护甲值，则伤害减半，并且改为钝器伤害。\n-若随机数大于剩余护甲值，则护甲无效。\n\n例如，对于10％护甲穿透的攻击，若护甲等级为90％，则有40％几率使攻击无效，并有40％的几率减轻伤害。\n\n拥有多层服装时，判定将从外层开始，逐层检测。</ArmorRating_Heat.description>
+  <!-- EN: Armor - Heat (armor stat) -->
+  <ArmorRating_Heat.labelForFullStatList>护甲 - 热能（护甲属性）</ArmorRating_Heat.labelForFullStatList>
   
   <!-- EN: Armor - Sharp -->
   <ArmorRating_Sharp.label>护甲 - 利器</ArmorRating_Sharp.label>
-  <!-- EN: The chance to affect sharp damage like bullets, knife stabs, explosions, and animal bites.\n\nUpon taking damage, first this armor rating is reduced by the attack's armor penetration value. The remaining armor rating is then compared against a random number from 0 to 100.\n\n    -If the random number is under half the armor rating, the damage deflects harmlessly.\n    -If the random number is over half the armor rating, but not higher than the armor rating, the damage is mitigated. This means it is converted into blunt damage and reduced by half.\n    -If the random number is greater than the armor rating, the armor has no effect.\n\nFor example, at 90% armor rating against an attack with 10% armor penetration, there is a 40% chance of deflecting the attack harmlessly, and a 40% chance of mitigating the damage.\n\nIn the case of apparel armor, each layer of apparel applies its armor to the attack separately, from the outside in. -->
-  <ArmorRating_Sharp.description>护甲抵御利器伤害的几率，比如子弹、刀剑穿刺，爆炸以及动物的抓咬。\n\n受到伤害时，护甲值首先减去攻击武器的护甲穿透值。剩余护甲值与0到100之间的随机数进行比较。\n\n-若随机数低于剩余护甲值的一半，则伤害无效。\n-若随机数大于剩余护甲值的一半但不高于剩余护甲值，则伤害减半。\n-若随机数大于剩余护甲值，则护甲无效。\n\n例如，对于10％护甲穿透的攻击，若护甲等级为90％，则有40％几率使攻击无效，并有40％的几率减轻伤害。\n\n拥有多层服装时，判定将从外层开始，逐层检测。</ArmorRating_Sharp.description>
+  <!-- EN: The protection given against sharp damage like bullets, knife stabs, explosions, and animal bites.\n\nUpon taking damage, first this armor rating is reduced by the attack's armor penetration value.\n\nThe remaining armor rating is then compared against a random number from 0 to 100.\n\n    - If the random number is under half the armor rating, the damage deflects harmlessly.\n    - If the random number is over half the armor rating, but not higher than the armor rating, the damage is reduced by half and changed to blunt.\n    - If the random number is greater than the armor rating, the armor has no effect.\n\nFor example, at 90% armor rating against an attack with 10% armor penetration, there is a 40% chance of deflecting the attack harmlessly, and a 40% chance of mitigating the damage.\n\nEach layer of armor is applied separately, from the outside in. -->
+  <ArmorRating_Sharp.description>抵御利器伤害的防护能力，比如子弹、刀剑穿刺，爆炸以及动物的抓咬。\n\n受到伤害时，护甲值首先减去攻击武器的护甲穿透值。剩余护甲值与0到100之间的随机数进行比较。\n\n-若随机数低于剩余护甲值的一半，则伤害无效。\n-若随机数大于剩余护甲值的一半但不高于剩余护甲值，则伤害减半，并且改为钝器伤害。。\n-若随机数大于剩余护甲值，则护甲无效。\n\n例如，对于10％护甲穿透的攻击，若护甲等级为90％，则有40％几率使攻击无效，并有40％的几率减轻伤害。\n\n拥有多层服装时，判定将从外层开始，逐层检测。</ArmorRating_Sharp.description>
+  <!-- EN: Armor - Sharp (armor stat) -->
+  <ArmorRating_Sharp.labelForFullStatList>护甲 - 利器 (护甲属性)</ArmorRating_Sharp.labelForFullStatList>
   
   <!-- EN: Shield max energy -->
   <EnergyShieldEnergyMax.label>护盾能量上限</EnergyShieldEnergyMax.label>
-  <!-- EN: The maximum energy a shield belt can have at one time. More energy absorbs more damage. -->
-  <EnergyShieldEnergyMax.description>护盾腰带所能拥有的能量最大值。越多的能量可以吸收越多的伤害。</EnergyShieldEnergyMax.description>
+  <!-- EN: The maximum energy a shield belt can have at one time.\n\nMore energy absorbs more damage. -->
+  <EnergyShieldEnergyMax.description>护盾腰带所能拥有的能量最大值。\n\n越多的能量可以吸收更多的伤害。</EnergyShieldEnergyMax.description>
   
   <!-- EN: Shield recharge rate -->
   <EnergyShieldRechargeRate.label>护盾充能速度</EnergyShieldRechargeRate.label>
@@ -37,13 +43,17 @@
   
   <!-- EN: Insulation - Cold -->
   <Insulation_Cold.label>隔温 - 寒冷</Insulation_Cold.label>
-  <!-- EN: How much this apparel improves a wearer's minimum comfortable temperature. Greater values allow surviving in colder temperatures. -->
-  <Insulation_Cold.description>对穿戴者最低舒适温度的修改偏移量。</Insulation_Cold.description>
+  <!-- EN: How much this apparel improves a wearer's minimum comfortable temperature.\n\nGreater values allow surviving in colder temperatures. -->
+  <Insulation_Cold.description>对穿戴者最低舒适温度的修改偏移量。\n\n更高的数值允许殖民者在更冷的温度下生存。</Insulation_Cold.description>
+  <!-- EN: Insulation - Cold (armor stat) -->
+  <Insulation_Cold.labelForFullStatList>隔温 - 寒冷（护甲属性）</Insulation_Cold.labelForFullStatList>
   
   <!-- EN: Insulation - Heat -->
   <Insulation_Heat.label>隔温 - 炎热</Insulation_Heat.label>
-  <!-- EN: How much this apparel improves a wearer's maximum comfortable temperature. Greater values allow surviving in warmer temperatures. -->
-  <Insulation_Heat.description>对穿戴者最高舒适温度的修改偏移量。</Insulation_Heat.description>
+  <!-- EN: How much this apparel improves a wearer's maximum comfortable temperature.\n\nGreater values allow surviving in warmer temperatures. -->
+  <Insulation_Heat.description>对穿戴者最高舒适温度的修改偏移量。\n\n更高的数值允许殖民者在更热的温度下生存。</Insulation_Heat.description>
+  <!-- EN: Insulation - Heat (armor stat) -->
+  <Insulation_Heat.labelForFullStatList>隔温 - 炎热（护甲属性）</Insulation_Heat.labelForFullStatList>
   
   <!-- EN: Smokepop belt radius -->
   <SmokepopBeltRadius.label>烟罐腰带半径</SmokepopBeltRadius.label>

@@ -16,6 +16,8 @@
   <LoadGame>载入</LoadGame>
   <!-- EN: Options -->
   <Options>选项</Options>
+  <!-- EN: Mod -->
+  <Mod>Mod</Mod>
   <!-- EN: Mods -->
   <Mods>Mod 配置</Mods>
   <!-- EN: Save translation report -->
@@ -82,6 +84,8 @@
   <PlanetRainfall>总体降雨量</PlanetRainfall>
   <!-- EN: Overall temperature -->
   <PlanetTemperature>总体温度</PlanetTemperature>
+  <!-- EN: Population -->
+  <PlanetPopulation>人口密度</PlanetPopulation>
   <!-- EN: Low -->
   <PlanetRainfall_Low>低</PlanetRainfall_Low>
   <!-- EN: Normal -->
@@ -94,6 +98,12 @@
   <PlanetTemperature_Normal>普通</PlanetTemperature_Normal>
   <!-- EN: High -->
   <PlanetTemperature_High>高</PlanetTemperature_High>
+  <!-- EN: Sparse -->
+  <PlanetPopulation_Low>稀少</PlanetPopulation_Low>
+  <!-- EN: Normal -->
+  <PlanetPopulation_Normal>中等</PlanetPopulation_Normal>
+  <!-- EN: Crowded -->
+  <PlanetPopulation_High>密集</PlanetPopulation_High>
   <!-- EN: Seed -->
   <WorldSeed>种子</WorldSeed>
   <!-- EN: Randomize seed -->
@@ -138,6 +148,8 @@
   <ConfirmDisableCoreMod>你确定要禁用核心模组吗？除非有完全替代游戏核心所有功能的模组，否则游戏将完全无法运行。\n\n记住，其它模组能通过使用同样的 defName 来覆盖游戏内的设定。</ConfirmDisableCoreMod>
   <!-- EN: Are you sure you want to delete all the content for {0}? -->
   <ConfirmDeleteMod>你确定要删除{0}的所有内容？</ConfirmDeleteMod>
+  <!-- EN: Auto-sort mods -->
+  <ResolveModOrder>自动排序</ResolveModOrder>
   <!-- EN: Unsubscribe -->
   <Unsubscribe>取消订阅</Unsubscribe>
   <!-- EN: Are you sure you want to unsubscribe from {0}? -->
@@ -158,19 +170,63 @@
   <WorkshopUploadSucceeded>已成功上传{0}。</WorkshopUploadSucceeded>
   <!-- EN: Downloading -->
   <Downloading>下载中</Downloading>
+  <!-- EN: Display fulfilled requirements -->
+  <ModDisplayFulfilledRequirements>显示符合要求</ModDisplayFulfilledRequirements>
+  <!-- EN: Click to select. -->
+  <ModClickToSelect>单击选择。</ModClickToSelect>
+  <!-- EN: Click to go to website. -->
+  <ModClickToGoToWebsite>点击进入网站。</ModClickToGoToWebsite>
   <!-- EN: Source -->
   <Source>资源</Source>
-  <!-- EN: For version: {0} -->
-  <ModTargetVersion>适配版本: {0}</ModTargetVersion>
+  <!-- EN: For game version(s) -->
+  <ModTargetVersion>适配游戏版本</ModTargetVersion>
+  <!-- EN: ID -->
+  <ModPackageId>ID</ModPackageId>
+  <!-- EN: This must be loaded before: {0}. -->
+  <ModMustLoadBefore>必须在这些mod之前加载: {0}。</ModMustLoadBefore>
+  <!-- EN: This must be loaded after: {0}. -->
+  <ModMustLoadAfter>必须在这些mod之后加载: {0}。</ModMustLoadAfter>
+  <!-- EN: Depends on: {0} -->
+  <ModDependsOn>必要的: {0}</ModDependsOn>
+  <!-- EN: Incompatible with: {0} -->
+  <ModIncompatibleWith>不兼容: {0}</ModIncompatibleWith>
+  <!-- EN: This mod is incompatible with: {0}. -->
+  <ModIncompatibleWithTip>与这个MOD不兼容的有: {0}。</ModIncompatibleWithTip>
+  <!-- EN: This mod is loading in the wrong order relative to another mod. Use the 'auto-sort' button, or re-order the mods manually. -->
+  <ModOrderingWarning>相对于另一个mod，此mod加载顺序错误。使用「自动排序」按钮，或手动重新排列MOD组模。</ModOrderingWarning>
+  <!-- EN: Another active mod uses the same ID: {0}. -->
+  <ModWithSameIdAlreadyActive>另一个激活的mod使用了相同的ID: {0}。</ModWithSameIdAlreadyActive>
+  <!-- EN: There is a cyclic mod dependency starting with {0}. -->
+  <ModCyclicDependency>与{0}产生了循环依赖。</ModCyclicDependency>
+  <!-- EN: This requires following mods to work: {0}. -->
+  <ModUnsatisfiedDependency>这需要以下MOD组模才能运行: {0}。</ModUnsatisfiedDependency>
   <!-- EN: This mod was not made for this version of RimWorld, and will probably not work correctly. -->
   <ModNotMadeForThisVersion>该 Mod 并不适配于当前 RimWorld 版本，很可能无法正常运行。</ModNotMadeForThisVersion>
   <!-- EN: This mod was made for a newer version of RimWorld than this, and will probably not work correctly. -->
   <ModNotMadeForThisVersion_Newer>该 Mod 是为更高的 RimWorld 版本制作的，很可能无法正常运行。</ModNotMadeForThisVersion_Newer>
-  <!-- EN: Mod needs a well-formatted target version in About.xml. Like this: <targetVersion>{0}</targetVersion>. -->
-  <MessageModNeedsWellFormattedTargetVersion>Mod 需要在 About.xml 中注明所适配的游戏版本信息。例如: &lt;targetVersion>{0}&lt;/targetVersion>。</MessageModNeedsWellFormattedTargetVersion>
+  <!-- EN: Mod needs properly formatted supported version information in About.xml. Like this: <supportedVersions><li>{0}</li></supportedVersions> - <targetVersion> is deprecated. Check log for further information. -->
+  <MessageModNeedsWellFormattedTargetVersion>Mod 需要在 About.xml 中注明所适配的游戏版本信息。例如: {0}-  已被弃用。查看日志以获得更多信息。</MessageModNeedsWellFormattedTargetVersion>
+  <!-- EN: Mod needs a unique, properly formatted packageId in About.xml. It must must meet following requirements:\n\n  - Alphanumeric characters and dot only.\n  - No spaces.\n  - At least one dot.\n  - No repeated dots in a row, or starting or ending with a dot.\n  - 60 characters or less.\n  - Cannot contain word "Ludeon".\n\nFor example:\n<packageId>AuthorName.ModName</packageId>\n<packageId>AuthorName.ModName.Specific</packageId> -->
+  <MessageModNeedsWellFormattedPackageId>Mod需要有一个格式适当且唯一的[packageId]写入到[About.xml]文件中。[packageId]必须满足这些要求：\n\n - 仅限字母、数字和半角句号“.”。\n - 不包含空格。\n - 至少有一个点。\n - 没有连续的点，且不以点为开头或结尾。\n - 最多60个字节。\n - 不允许包含单词“Ludeon”。\n\n例如：\nAuthorName.ModName\nAuthorName.ModName.Specific</MessageModNeedsWellFormattedPackageId>
+  <!-- EN: This mod has issues in LoadFolders.xml, that you need to resolve before uploading: -->
+  <ModHadLoadFolderIssues>这个mod在LoadFolders.xml中有问题。在上传之前需要解决的问题:</ModHadLoadFolderIssues>
+  <!-- EN: Folder {0} specified for version {1} doesn't exist. -->
+  <ModLoadFolderDoesntExist>为版本{1}指定的文件夹{0}不存在。</ModLoadFolderDoesntExist>
+  <!-- EN: Malformed version string '{0}'. Correct format is Major.Minor (e.g. 1.1) -->
+  <ModLoadFolderMalformedVersion>版本字符'{0}'格式错误。 正确的格式为 Major.Minor(e.g. 1.1)</ModLoadFolderMalformedVersion>
+  <!-- EN: The list of load folders for version {0} is empty. -->
+  <ModLoadFolderListEmpty>版本{0}的加载文件夹列表为空。</ModLoadFolderListEmpty>
+  <!-- EN: Version {0} lists the same folder more than once: {1}. -->
+  <ModLoadFolderRepeatingFolder>版本{0}列出了重复的目录: {1}。</ModLoadFolderRepeatingFolder>
+  <!-- EN: Invalid version order: {0} should come before {1}. -->
+  <ModLoadFolderOutOfOrder>无效版本顺序:{0}应该在{1}之前。</ModLoadFolderOutOfOrder>
+  <!-- EN: Invalid version order: 'default' should be defined first. -->
+  <ModLoadFolderOutOfOrderDefault>无效的版本顺序:应该首先定义“default”。</ModLoadFolderOutOfOrderDefault>
+  <!-- EN: Version {0} is defined in load folders, but is not listed in 'supportedVersions' of mod's About.xml. -->
+  <ModLoadFolderDefinesUnsupportedGameVersion>版本{0}是在加载文件夹中定义的，但是在mod的About.xml的'supportedGameVersions'中没有列出</ModLoadFolderDefinesUnsupportedGameVersion>
   <!-- EN: Drag to reorder -->
   <DragToReorder>拖拽以排序</DragToReorder>
-  
+
   <!-- Select scenario -->
   <!-- EN: Choose scenario -->
   <ChooseScenario>选择剧本</ChooseScenario>
@@ -316,10 +372,26 @@
   <Randomize>随机</Randomize>
   <!-- EN: age {0} -->
   <AgeIndicator>年龄{0}</AgeIndicator>
+  <!-- EN: {PAWN_race}, age {PAWN_ageFull} -->
+  <PawnSummary>{PAWN_race}, 年龄 {PAWN_ageFull}</PawnSummary>
+  <!-- EN: {PAWN_gender} {PAWN_race}, age {PAWN_ageFull} -->
+  <PawnSummaryWithGender>{PAWN_gender} {PAWN_race}, 年龄 {PAWN_ageFull} </PawnSummaryWithGender>
   <!-- EN: Backstory -->
   <Backstory>背景故事</Backstory>
   <!-- EN: Incapable of -->
   <IncapableOf>无法从事</IncapableOf>
+  <!-- EN: Abilities -->
+  <Abilities>能力</Abilities>
+  <!-- EN: Caused by backstory: {0} -->
+  <IncapableOfTooltipBackstory>从背景故事中获得: {0}</IncapableOfTooltipBackstory>
+  <!-- EN: Caused by title: {0} -->
+  <IncapableOfTooltipTitle>从头衔中获得: {0}</IncapableOfTooltipTitle>
+  <!-- EN: Caused by trait: {0} -->
+  <IncapableOfTooltipTrait>从特性中获得: {0}</IncapableOfTooltipTrait>
+  <!-- EN: Caused by: {0} -->
+  <IncapableOfTooltipHediff>获得: {0} </IncapableOfTooltipHediff>
+  <!-- EN: Disabled work types: -->
+  <IncapableOfTooltipWorkTypes>禁用的工作类型:</IncapableOfTooltipWorkTypes>
   <!-- EN: Traits -->
   <Traits>特性</Traits>
   <!-- EN: Permanent mood effect -->
@@ -386,5 +458,8 @@
   <GeneratingMap>生成地图中</GeneratingMap>
   <!-- EN: Generating map for new encounter -->
   <GeneratingMapForNewEncounter>生成新地区地图中</GeneratingMapForNewEncounter>
+
+  <!-- EN: Click for more info -->
+  <ClickForMoreInfo>点击了解更多信息</ClickForMoreInfo>
 
 </LanguageData>

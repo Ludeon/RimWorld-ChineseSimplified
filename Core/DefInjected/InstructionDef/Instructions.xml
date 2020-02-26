@@ -79,10 +79,10 @@
   <!-- EN: You can control who does what kinds of work using the checkboxes. Colonists will do tasks in order, from left to right.\n\nTry changing some settings now.\n\nBeware - Colonists always follow their work priorities, even if this makes them do dumb things! Setting up a smart work regime is an important skill in RimWorld. So set the work settings carefully, and review them often! -->
   <ChangeWorkSettings.text>你可以在「工作」面板中来分配每一个殖民者的工作优先级。\n\n他们总是会先进行优先级更高的任务。\n\n如果某项工作没有任何人被安排从事，或是总有优先级更高的事情需要处理，那么这些工作将永远不会被完成。</ChangeWorkSettings.text>
   
-  <!-- EN: Please choose a temperate forest site with flat terrain. -->
-  <ChooseLandingSite.rejectInputMessage>请选择一个位于「温带森林」生态区的「平原」来开始游戏。</ChooseLandingSite.rejectInputMessage>
-  <!-- EN: Here, you choose your starting site.\n\nThere are lots of biomes, but for now, let's start with a friendly one.\n\nClick a location with temperate forest biome and flat terrain, and click NEXT.\n\nYou can use the TERRAIN tab to view information about the selected tile. -->
-  <ChooseLandingSite.text>在这里你将选择自己的降落地点。\n\n游戏中有多种不同的生态区，但现在，我们还是从对新手比较友好的生态区开始。\n\n请选择一处温带森林的平原地形的着降落点，并点击「继续」。\n\n你可以通过「地形」标签查看所选中六边形格子的信息。</ChooseLandingSite.text>
+  <!-- EN: Please choose a temperate forest site with no hills (light green with no brown dots). -->
+  <ChooseLandingSite.rejectInputMessage>请选择一个位于「温带森林」生态区的「平原」来开始游戏。（浅绿色六边形且没有棕色块）</ChooseLandingSite.rejectInputMessage>
+  <!-- EN: Here you choose your starting site.\n\nClick a temperate forest (light green) with no brown hills. Then click NEXT.\n\nOptionally, you can use the TERRAIN tab to view information about the selected tile. -->
+  <ChooseLandingSite.text>在这里你将选择自己的降落地点。\n\n游戏中有多种不同的生态区，但现在，我们还是从对新手比较友好的生态区开始。\n\n请选择一处温带森林（浅绿色六边形）的平原地形（没有棕色块）的着降落点，并点击「继续」。\n\n你可以通过「地形」标签查看所选中六边形格子的信息。</ChooseLandingSite.text>
   
   <!-- EN: Please choose a storyteller in the Options menu to end the tutorial. -->
   <ChooseStoryteller.rejectInputMessage>在「选项」菜单中选择故事叙述者并结束教程</ChooseStoryteller.rejectInputMessage>
@@ -169,15 +169,15 @@
   <!-- EN: You can pause time.\n\nThis means you never need to rush. You can always pause and take your time to issue orders.\n\nTry pausing with the {Key:TogglePause} key, or by using the time controls in the bottom right. -->
   <Pause.text>你可以暂停时间！\n\n点击{Key:TogglePause}来暂停/继续游戏。\n\n当你忙得不可开交时，按{Key:TogglePause}就对了！</Pause.text>
   
-  <!-- EN: Please try randomizing a character first. -->
-  <RandomizeCharacter.rejectInputMessage>请先点击「随机」按钮</RandomizeCharacter.rejectInputMessage>
-  <!-- EN: If you don't like a character, you can regenerate them!\n\nTry randomizing a character with the RANDOMIZE button. -->
+  <!-- EN: Please click the RANDOMIZE button to randomize the character. -->
+  <RandomizeCharacter.rejectInputMessage>请先点击「随机」按钮以随机化角色</RandomizeCharacter.rejectInputMessage>
+  <!-- EN: If you don't like a character, you can regenerate them!\n\nClick the RANDOMIZE button to randomize the character. -->
   <RandomizeCharacter.text>如果你不喜欢一个角色，你可以重新生成！\n\n尝试使用「随机」按钮随机一名角色。</RandomizeCharacter.text>
   
-  <!-- EN: Please try choosing a character first. -->
-  <ReorderCharacters.rejectInputMessage>请先选择一个角色。</ReorderCharacters.rejectInputMessage>
-  <!-- EN: Now you can choose characters!\n\nClick in the left area to select from available characters. If you find a character you like, drag them into the top section with the SELECTED label. -->
-  <ReorderCharacters.text>现在你可以选择角色了！\n\n点击左侧区域以从可用的角色中选择。如果你找到了你喜欢的角色，就将他们的标签拖动到顶部的“已选择”区域。</ReorderCharacters.text>
+  <!-- EN: Please drag a character from the "left behind" group (at the bottom-left) into the "selected" group (at the upper-left). -->
+  <ReorderCharacters.rejectInputMessage>把角色从「丢弃」区域拖动到「已选择」区域。</ReorderCharacters.rejectInputMessage>
+  <!-- EN: Now you choose which characters you want to use.\n\nDRAG a character from the "left behind" part of the character list (at the bottom) into the "selected" part (at the top).\n\nOptionally, clicking a character will allow you inspect him or her. -->
+  <ReorderCharacters.text>现在你可以选择角色了！\n\n点击左侧「丢弃」区域里的角色以选择他们。如果你找到了你喜欢的角色，就将他们的标签拖动到顶部的“已选择”区域。</ReorderCharacters.text>
   
   <!-- EN: Please choose a research project. -->
   <SelectResearchProject.rejectInputMessage>请指定一项研究项目</SelectResearchProject.rejectInputMessage>

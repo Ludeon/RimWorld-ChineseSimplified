@@ -196,10 +196,12 @@
   <IdenticalThingExists>此处已存在同样的东西。</IdenticalThingExists>
   <!-- EN: Identical blueprint already exists here. -->
   <IdenticalBlueprintExists>此处已经存在相同的蓝图。</IdenticalBlueprintExists>
-  <!-- EN: The terrain here cannot support this. -->
+  <!-- EN: {0_label} cannot be built on this terrain. -->
   <TerrainCannotSupport>地形无法支撑此物体。</TerrainCannotSupport>
-  <!-- EN: {0_label} requires terrain that can support: {1_label} -->
+  <!-- EN: {0_label} requires terrain that supports: {1_label} -->
   <TerrainCannotSupport_TerrainAffordance>{0_label}需要支持的地形：{1_label}</TerrainCannotSupport_TerrainAffordance>
+  <!-- EN: {0_label} (when made of {2_label}) requires terrain that supports: {1_label} -->
+  <TerrainCannotSupport_TerrainAffordanceFromStuff>{0_label}(使用{2_label}制作时)需要支持的地形：{1_label}</TerrainCannotSupport_TerrainAffordanceFromStuff>
   <!-- EN: Space already occupied. -->
   <SpaceAlreadyOccupied>空间已被占用。</SpaceAlreadyOccupied>
   <!-- EN: Space being smoothed. -->
@@ -208,6 +210,12 @@
   <TerrainMustBeRemovable>目标必须是可移除的地板。</TerrainMustBeRemovable>
   <!-- EN: The waterwheel must be on moving water. -->
   <MustBeOnMovingWater>水车只能放在流动水域。</MustBeOnMovingWater>
+  <!-- EN: Interaction spot will overlap with the interaction spot of {1_labelShort}. -->
+  <InteractionSpotWillOverlap>互动区会与{1_labelShort}的互动区重叠。</InteractionSpotWillOverlap>
+  <!-- EN: Interaction spot overlaps with the interaction spot of {1_labelShort}. -->
+  <InteractionSpotOverlaps>互动区会与{1_labelShort}的互动区重叠。</InteractionSpotOverlaps>
+  <!-- EN: Monument markers can't be placed directly adjacent to any building. -->
+  <MonumentAdjacentToBuilding>纪念碑标记不能直接放置在任何建筑物附近。</MonumentAdjacentToBuilding>
   
   <!-- Mouse attachments -->
   <!-- EN: Expand {0} or\nCreate new {1} -->
@@ -221,8 +229,12 @@
   <!-- EN: Construction needed -->
   <ConstructionNeeded>需要建造等级</ConstructionNeeded>
   <!-- EN: None of your {0} have this skill. -->
-  <NoColonistWithConstructionSkillTip>你没有任何一个{0}拥有此技能。</NoColonistWithConstructionSkillTip>
+  <NoColonistWithSkillTip>你没有任何一个{0}拥有此技能。</NoColonistWithSkillTip>
+  <!-- EN: {0} needed -->
+  <SkillNeededForConstructing>需要{0}</SkillNeededForConstructing>
+  <!-- EN: None of your {0} have all skills required. -->
+  <NoColonistWithAllSkillsForConstructing>你的{0}没有一个具备所需的技能。</NoColonistWithAllSkillsForConstructing>
   <!-- EN: All of your {0} who have this skill are not assigned to {1}. -->
-  <AllColonistsWithConstructionSkillHaveDisaledConstructingTip>你的所有拥有此技能的{0}都没有指派{1}工作。</AllColonistsWithConstructionSkillHaveDisaledConstructingTip>
+  <AllColonistsWithSkillHaveDisabledConstructingTip>你的所有拥有此技能的{0}都没有指派{1}工作。</AllColonistsWithSkillHaveDisabledConstructingTip>
 
 </LanguageData>

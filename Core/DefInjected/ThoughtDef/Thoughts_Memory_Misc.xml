@@ -34,7 +34,7 @@
   <!-- EN: defeated hostile leader {0} -->
   <DefeatedHostileFactionLeader.stages.defeated_hostile_leader.label>击败了敌对首领{0}</DefeatedHostileFactionLeader.stages.defeated_hostile_leader.label>
   <!-- EN: They were leading efforts to destroy us, and I took them down! -->
-  <DefeatedHostileFactionLeader.stages.defeated_hostile_leader.description>他们被头目带领着妄图摧毁我们，然而我解决了这一切！</DefeatedHostileFactionLeader.stages.defeated_hostile_leader.description>
+  <DefeatedHostileFactionLeader.stages.defeated_hostile_leader.description>他们在头目指挥下妄图摧毁我们，然而我解决了这一切！</DefeatedHostileFactionLeader.stages.defeated_hostile_leader.description>
   
   <!-- EN: defeated hostile leader -->
   <DefeatedHostileFactionLeaderOpinion.stages.defeated_hostile_leader.label>击败敌对首领</DefeatedHostileFactionLeaderOpinion.stages.defeated_hostile_leader.label>
@@ -43,6 +43,11 @@
   <FailedToRescueRelative.stages.failed_to_rescue.label>没能救援{0}</FailedToRescueRelative.stages.failed_to_rescue.label>
   <!-- EN: We had a chance to rescue my relative, and failed. I could have helped! -->
   <FailedToRescueRelative.stages.failed_to_rescue.description>我们没能救援我的家人。我本来可以帮忙的！</FailedToRescueRelative.stages.failed_to_rescue.description>
+  
+  <!-- EN: freed from slavery -->
+  <FreedFromSlavery.stages.freed_from_slavery.label>摆脱奴役</FreedFromSlavery.stages.freed_from_slavery.label>
+  <!-- EN: I have been freed from slavery. I'm so thankful! -->
+  <FreedFromSlavery.stages.freed_from_slavery.description>我终于不再是奴隶了，十分感激！</FreedFromSlavery.stages.freed_from_slavery.description>
   
   <!-- EN: killed someone -->
   <KilledHumanlikeBloodlust.stages.killed_someone.label>杀了人</KilledHumanlikeBloodlust.stages.killed_someone.label>
@@ -69,9 +74,13 @@
   <!-- EN: The colony took body parts from a guest or prisoner. It's horrible, breaking someone down for parts when they have no choice. -->
   <KnowGuestOrganHarvested.stages.someones_organ_harvested.description>这个殖民地会摘取囚犯或访客的器官，在毫无选择的情况下把人拆成零件，这真是太可怕了！</KnowGuestOrganHarvested.stages.someones_organ_harvested.description>
   
-  <!-- EN: a prisoner was sold -->
-  <KnowPrisonerSold.stages.a_prisoner_was_sold.label>囚犯被贩卖</KnowPrisonerSold.stages.a_prisoner_was_sold.label>
+  <!-- EN: prisoner sold -->
+  <KnowPrisonerSold.stages.prisoner_sold.label>囚犯被贩卖</KnowPrisonerSold.stages.prisoner_sold.label>
   <!-- EN: This colony sold a prisoner into slavery. That's a worrying thought. -->
+  <KnowPrisonerSold.stages.prisoner_sold.description>这个殖民地会把囚犯卖给奴隶贩子，这真令我担忧。</KnowPrisonerSold.stages.prisoner_sold.description>
+  
+  <!-- UNUSED -->
+  <KnowPrisonerSold.stages.a_prisoner_was_sold.label>囚犯被贩卖</KnowPrisonerSold.stages.a_prisoner_was_sold.label>
   <KnowPrisonerSold.stages.a_prisoner_was_sold.description>这个殖民地会把囚犯卖给奴隶贩子，这真令我担忧。</KnowPrisonerSold.stages.a_prisoner_was_sold.description>
   
   <!-- EN: my organ harvested -->
@@ -108,6 +117,11 @@
   <PrisonerBanishedToDie.stages.prisoner_banished_to_death.label>囚犯被放逐等死</PrisonerBanishedToDie.stages.prisoner_banished_to_death.label>
   <!-- EN: We banished a prisoner in such a way that there's almost no way they'll survive. -->
   <PrisonerBanishedToDie.stages.prisoner_banished_to_death.description>我们刚刚就这样把囚犯放逐了，他们几乎不可能活下来。</PrisonerBanishedToDie.stages.prisoner_banished_to_death.description>
+  
+  <!-- EN: prisoner released -->
+  <ReleasedHealthyPrisoner.stages.prisoner_released.label>囚犯被释放</ReleasedHealthyPrisoner.stages.prisoner_released.label>
+  <!-- EN: We released a healthy prisoner. It feels good to know we even treat prisoners well. -->
+  <ReleasedHealthyPrisoner.stages.prisoner_released.description>一个健康的囚犯被释放。我们能善待囚犯真是太好了。</ReleasedHealthyPrisoner.stages.prisoner_released.description>
   
   <!-- EN: rescued -->
   <Rescued.stages.rescued.label>获救</Rescued.stages.rescued.label>
@@ -162,7 +176,7 @@
   <!-- EN: witnessed death with bloodlust -->
   <WitnessedDeathBloodlust.stages.witnessed_death_with_bloodlust.label>目睹死亡</WitnessedDeathBloodlust.stages.witnessed_death_with_bloodlust.label>
   <!-- EN: I saw someone die! That was intense! -->
-  <WitnessedDeathBloodlust.stages.witnessed_death_with_bloodlust.description>我看见有人死了！真是爽！</WitnessedDeathBloodlust.stages.witnessed_death_with_bloodlust.description>
+  <WitnessedDeathBloodlust.stages.witnessed_death_with_bloodlust.description>我看见有人死了！真刺激！</WitnessedDeathBloodlust.stages.witnessed_death_with_bloodlust.description>
   
   <!-- EN: witnessed family member's death -->
   <WitnessedDeathFamily.stages.witnessed_family_members_death.label>目睹家人死亡</WitnessedDeathFamily.stages.witnessed_family_members_death.label>

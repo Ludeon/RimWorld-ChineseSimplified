@@ -1,16 +1,19 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
+  <!-- Misc -->
   <!-- EN: Jump to location -->
   <JumpToLocation>转至事件发生地点</JumpToLocation>
   <!-- EN: Postpone -->
   <PostponeLetter>推迟</PostponeLetter>
   <!-- EN: Reject -->
   <RejectLetter>拒绝</RejectLetter>
-  
+  <!-- EN: Read more -->
+  <ReadMore>阅读更多</ReadMore>
+
   <!-- EN: Summer -->
   <LetterLabelFirstSummerWarning>夏天</LetterLabelFirstSummerWarning>
-  <!-- EN: Summer has begun! But winter is coming.\n\nYour food crops won't grow in the winter cold. Be sure to store enough food to survive. You can build a walk-in refigerator to prevent food from spoiling.\n\nBuy, steal, or make some parkas, or you'll freeze when you step outside. -->
+  <!-- EN: Summer has begun! But winter is coming.\n\nYour food crops won't grow in the winter cold. Be sure to store enough food to survive. You can build a walk-in refrigerator to prevent food from spoiling.\n\nBuy, steal, or make some parkas, or you'll freeze when you step outside. -->
   <FirstSummerWarning>夏天到了！冬天还会远吗？\n\n寒冷的冬日无法种植作物，可一定要储存足量的食物以挺过寒冬。你可以建一间有制冷机的房间作为冷库以防止食物腐烂。\n\n还要买、偷、缴获或者制作几件风雪大衣，否则冬季出门要挨冻。</FirstSummerWarning>
 
   <!-- EN: Relations with {0} have broken down completely. They are now hostile to you.\n\nThey will conduct periodic raids on your colony and caravans, and refuse to trade with you. If you want to improve relations, you can still offer them gifts using caravans or transport pods.\n\nThis happened because goodwill ({1}) has fallen below {2}. In order to restore neutral relations, goodwill must reach {3} again. -->
@@ -47,7 +50,7 @@
   <NothingCrushed>没有物品被砸中。</NothingCrushed>
   <!-- EN: Roof collapse -->
   <LetterLabelRoofCollapsed>屋顶塌方</LetterLabelRoofCollapsed>
-  
+
   <!-- EN: {0} successfully recruited {1} ({2} chance). -->
   <RecruitSuccess>{0}成功招募了{1}（成功率{2}）。</RecruitSuccess>
   <!-- EN: {0} failed to recruit {1} ({2} chance). -->
@@ -74,17 +77,17 @@
   <!-- EN: {PAWN_labelShort} has developed an illness: {3} in {PAWN_possessive} {1} -->
   <NewPartDiseaseAnimal>{PAWN_labelShort}患上了疾病：{3}，位于{PAWN_possessive}{1}</NewPartDiseaseAnimal>
 
-  <!-- EN: {1_labelShort} was formerly part of your faction. -->
-  <PawnWasFormerlyColonist>{1_labelShort}曾经是你的派系的一员。</PawnWasFormerlyColonist>
+  <!-- EN: {0} was formerly part of your faction. -->
+  <PawnWasFormerlyColonist>{0}曾经是你的派系的一员。</PawnWasFormerlyColonist>
+  <!-- EN: You previously hosted {0}. -->
+  <PawnWasFormerlyLodger>你先前主办过 {0}。</PawnWasFormerlyLodger>
   <!-- EN: {1_labelShort} has these relationships with your colonists: -->
   <PawnHasTheseRelationshipsWithColonists>{1_labelShort}与你的殖民者有这些关系:</PawnHasTheseRelationshipsWithColonists>
-  <!-- EN: The camp will disappear after {0} days. If you miss this opportunity, you may never hear from {PRISONER_labelShort} again. -->
-  <PrisonerRescueTimeout>营地会在{0}天后消失。如果你错过这个机会，你再也不会听到{PRISONER_labelShort}的消息。</PrisonerRescueTimeout>
 
   <!-- EN: Ancient danger -->
   <LetterLabelAncientShrineWarning>远古威胁</LetterLabelAncientShrineWarning>
-  <!-- EN: As {0} draws near the ancient wall, a sense of foreboding overcomes {PAWN_objective}. {PAWN_pronoun} isn't sure why, but {PAWN_pronoun} feels that this dusty structure may contain great danger. -->
-  <AncientShrineWarning>当{0}靠近这个古老建筑时，{PAWN_objective}浑身上下充满了强烈的不祥之感。{PAWN_pronoun}也不确定为什么，但{PAWN_pronoun}觉得在这座满是灰尘的建筑之中可能隐藏着极大的危险。</AncientShrineWarning>
+  <!-- EN: As {PAWN_nameDef} draws near the ancient wall, a sense of foreboding overcomes {PAWN_objective}. {PAWN_pronoun} isn't sure why, but {PAWN_pronoun} feels that this dusty structure may contain great danger. -->
+  <AncientShrineWarning>当{PAWN_nameDef}靠近这个古老建筑时，{PAWN_objective}浑身上下充满了强烈的不祥之感。{PAWN_pronoun}也不确定为什么，但{PAWN_pronoun}觉得在这座满是灰尘的建筑之中可能隐藏着极大的危险。</AncientShrineWarning>
 
   <!-- EN: We have struck {0}! -->
   <StruckMineable>我们采到了{0}！</StruckMineable>
@@ -112,7 +115,7 @@
   <LetterHediffFromRandomHediffGiver>{PAWN_labelShort}产生了新的症状: {1}。</LetterHediffFromRandomHediffGiver>
   <!-- EN: {PAWN_labelShort}: {1} -->
   <LetterHediffFromRandomHediffGiverLabel>{PAWN_labelShort}：{1}</LetterHediffFromRandomHediffGiverLabel>
-  
+
   <!-- EN: {1} died: {0} -->
   <LetterLeadersDeathLabel>{1}死亡: {0}</LetterLeadersDeathLabel>
   <!-- EN: {OLDLEADER_nameFull}, {3} of {1}, has died.\n\nThe new {3} is {NEWLEADER_nameFull}. -->
@@ -122,7 +125,7 @@
   <LetterLeaderChangedLabel>新任{1}: {0}</LetterLeaderChangedLabel>
   <!-- EN: {OLDLEADER_nameFull} is no longer {3} of {1}.\n\nThe new {3} is {NEWLEADER_nameFull}. -->
   <LetterLeaderChanged> {OLDLEADER_nameFull}不再是{1}的{3}了。\n\n新任{3}是{NEWLEADER_nameFull}。</LetterLeaderChanged>
-  
+
   <!-- EN: The final straw was: {0} -->
   <FinalStraw>压倒骆驼的最后一根稻草: {0}</FinalStraw>
   <!-- EN: This happened because of poor mood. -->
@@ -136,11 +139,13 @@
   <!-- EN: The last event was -->
   <LastFactionRelationsEvent>最近一次事件是</LastFactionRelationsEvent>
 
-  <!-- EN: Read more -->
-  <ReadMore>阅读更多</ReadMore>
+  <!-- EN: View related quest -->
+  <ViewRelatedQuest>查看相关任务</ViewRelatedQuest>
+  <!-- EN: View quest -->
+  <ViewQuest>查看任务</ViewQuest>
   <!-- EN: The last events in {PAWN_definite}'s life -->
   <LastEventsInLife>{PAWN_definite}的人生中最近的事件</LastEventsInLife>
-  
+
   <!-- Related pawns -->
   <!-- EN: Relationship -->
   <LetterLabelNoticedRelatedPawns>家族成员</LetterLabelNoticedRelatedPawns>
@@ -165,13 +170,13 @@
   <!-- EN: There are people who have relationships with your {0} or prisoners in this area: -->
   <LetterRelatedPawnsSite>该区域有你的{0}或囚犯的家族成员:</LetterRelatedPawnsSite>
 
-  <!-- EN: (relationship) -->
-  <RelationshipAppendedLetterSuffix>（家族）</RelationshipAppendedLetterSuffix>
+  <!-- EN: relationship -->
+  <RelationshipAppendedLetterSuffix>家族</RelationshipAppendedLetterSuffix>
   <!-- EN: {PAWN_nameDef} has a relationship with a colonist. {PAWN_pronoun} is {RELATIVE_labelShort}'s {1}. -->
   <RelationshipAppendedLetterTextColonist>{PAWN_nameDef}是殖民者的家族成员。{PAWN_pronoun}是{RELATIVE_labelShort}的{1}。</RelationshipAppendedLetterTextColonist>
   <!-- EN: {PAWN_nameDef} has a relationship with one of your prisoners. {PAWN_pronoun} is {RELATIVE_labelShort}'s {1}. -->
   <RelationshipAppendedLetterTextPrisoner>{PAWN_nameDef}是囚犯的家族成员。{PAWN_pronoun}是{RELATIVE_labelShort}的{1}。</RelationshipAppendedLetterTextPrisoner>
-  
+
   <!-- Attempt romance / propose interaction -->
   <!-- EN: Affair -->
   <LetterLabelAffair>外遇</LetterLabelAffair>
@@ -183,6 +188,8 @@
   <LetterNewLovers>{PAWN1_labelShort}和{PAWN2_labelShort}走到了一起，现在是恋人关系了。可以考虑为他们分配一张双人床。</LetterNewLovers>
   <!-- EN: {PAWN1_labelShort} and {PAWN2_labelShort} are no longer in a relationship. -->
   <LetterNoLongerLovers>{PAWN1_labelShort}和{PAWN2_labelShort}不再是恋人关系了。</LetterNoLongerLovers>
+  <!-- EN: {PAWN_labelShort} will change {PAWN_possessive} last name back to {PAWN_possessive} birth name. -->
+  <LetterNoLongerLovers_BackToBirthName>{PAWN_labelShort}会将{PAWN_possessive}的姓氏改回{PAWN_possessive}的姓氏。</LetterNoLongerLovers_BackToBirthName>
   <!-- EN: Breakup -->
   <LetterLabelBreakup>分手</LetterLabelBreakup>
   <!-- EN: Marriage is on! -->
@@ -191,9 +198,11 @@
   <LetterLabelRejectedProposal>拒绝求婚</LetterLabelRejectedProposal>
   <!-- EN: At some point in the coming days or quadrums, they will have their marriage ceremony and invite all the colonists. Consider placing a marriage spot if you want to control where the ceremony occurs. -->
   <LetterAcceptedProposal>在未来数天或数季度后，他们将举行婚礼，并邀请所有的殖民者。如果你想指定婚礼地点，请考虑放置一个婚礼举办点。（「建筑规划」-「杂项」中你能找到婚礼举办点。）</LetterAcceptedProposal>
+  <!-- EN: {PAWN_label} will change {PAWN_possessive} last name to {1}. -->
+  <LetterAcceptedProposal_NameChange>{PAWN_labelShort}会将{PAWN_possessive}的姓氏改成{PAWN_possessive}的姓氏。</LetterAcceptedProposal_NameChange>
   <!-- EN: {INITIATOR_nameFull} is going to be unhappy about this. -->
   <LetterRejectedProposal>{INITIATOR_nameFull}伤心欲绝。</LetterRejectedProposal>
-  
+
   <!-- Generalized letter labels -->
   <!-- EN: Hostile: {0} -->
   <LetterLabelRelationsChange_Hostile>敌人：{0}</LetterLabelRelationsChange_Hostile>
@@ -205,11 +214,9 @@
   <LetterLabelRelationsChange_NeutralFromAlly>盟友转中立：{0}</LetterLabelRelationsChange_NeutralFromAlly>
   <!-- EN: Zzztt... -->
   <LetterLabelShortCircuit>电缆短路</LetterLabelShortCircuit>
-  <!-- EN: Mental break -->
-  <LetterLabelMentalBreakdown>精神崩溃</LetterLabelMentalBreakdown>
-  
+
   <!-- Bonded animals -->
-  <!-- EN: bonded animal -->
+  <!-- EN: bonded -->
   <LetterLabelSuffixBondedAnimalDied>牵绊动物</LetterLabelSuffixBondedAnimalDied>
   <!-- EN: {ANIMAL_definite} was bonded to {HUMAN_labelShort}. It will affect {HUMAN_labelShort}'s mood. -->
   <LetterPartBondedAnimalDied>{ANIMAL_definite}与{HUMAN_labelShort}形成牵绊。这将影响{HUMAN_labelShort}的心情。</LetterPartBondedAnimalDied>
@@ -221,37 +228,31 @@
   <LetterLabelPrisonBreak>越狱</LetterLabelPrisonBreak>
   <!-- EN: Prisoners have staged a breakout! They've somehow defeated the door locks and are making their way out. They may seek weapons, fight, or try to escape. These prisoners are involved:\n\n{0}\n\nPrisoners are more likely to attempt breakout when they are numerous and healthy. -->
   <LetterPrisonBreak>囚犯们不知如何撬开了门锁，正在越狱！他们可能找寻武器、战斗或者直接逃跑。越狱囚犯:\n\n{0}\n\n当囚犯人数众多或身体健康时更容易试图越狱。</LetterPrisonBreak>
-  
-  <!-- Party -->
-  <!-- EN: Party -->
-  <LetterLabelNewParty>聚会</LetterLabelNewParty>
-  <!-- EN: {1_labelShort} is throwing a party! Everyone who goes will gain recreation and social energy, and a lasting positive mood boost. -->
-  <LetterNewParty>{1_labelShort}正在举办一个聚会！每位参与的殖民者都能获得快乐和社交能量，以及心情提升的持续效果。</LetterNewParty>
 
   <!-- Newly addicted -->
   <!-- EN: {0} addiction -->
   <LetterLabelNewlyAddicted>{0}成瘾</LetterLabelNewlyAddicted>
   <!-- EN: {PAWN_labelShort} has developed an addiction to {1}.\n\n{PAWN_pronoun} now has a need for {1}, visible on {PAWN_possessive} Needs tab. {PAWN_pronoun} will automatically consume the drug to fulfil {PAWN_possessive} need. If {PAWN_pronoun} cannot get any {1}, {PAWN_pronoun} will go into withdrawal. -->
   <LetterNewlyAddicted>{PAWN_labelShort}已经对{1}成瘾了。\n\n{PAWN_pronoun}现在对{1}有着很强的依赖和需求，你可以在{PAWN_possessive}需求面板上查看。{PAWN_pronoun}会自动使用对应成瘾品来满足自己的需求，在{PAWN_pronoun}无法获得任何{1}时就会产生戒断反应。</LetterNewlyAddicted>
-  
+
   <!-- Drug binge -->
   <!-- EN: {0} binge -->
   <LetterLabelDrugBinge>{0}滥用者</LetterLabelDrugBinge>
   <!-- EN: {2_label} is binging on {1}. -->
   <LetterDrugBinge>{2_label}无法控制自己的欲望，正在超剂量使用{1}。</LetterDrugBinge>
-  
+
   <!-- Caravan destroyed -->
   <!-- EN: Caravan destroyed -->
   <LetterLabelAllCaravanColonistsDied>远行队已毁灭</LetterLabelAllCaravanColonistsDied>
   <!-- EN: All members of {0} have died. -->
   <LetterAllCaravanColonistsDied>{0}的所有成员均已死亡。</LetterAllCaravanColonistsDied>
-  
+
   <!-- Caravan entered map -->
   <!-- EN: Caravan arrived at {0_label} -->
   <LetterLabelCaravanEnteredMap>远行队抵达{0_label}</LetterLabelCaravanEnteredMap>
   <!-- EN: {0} has arrived at {1_definite}. -->
   <LetterCaravanEnteredMap>{0}抵达{1_definite}。</LetterCaravanEnteredMap>
-  
+
   <!-- Caravan entered enemy base -->
   <!-- EN: Attack begun -->
   <LetterLabelCaravanEnteredEnemyBase>开始进攻</LetterLabelCaravanEnteredEnemyBase>
@@ -263,7 +264,7 @@
   <LetterLabelTransportPodsLandedInEnemyBase>攻击开始</LetterLabelTransportPodsLandedInEnemyBase>
   <!-- EN: Your transport pods have arrived at {0}. -->
   <LetterTransportPodsLandedInEnemyBase>你的运输舱已抵达{0}。</LetterTransportPodsLandedInEnemyBase>
-  
+
   <!-- Faction base defeated -->
   <!-- EN: Base destroyed -->
   <LetterLabelFactionBaseDefeated>基地已摧毁</LetterLabelFactionBaseDefeated>
@@ -271,19 +272,25 @@
   <LetterFactionBaseDefeated>敌人的基地{0}已经被摧毁。\n\n殖民者重组远行队之前你有{1}来收集物资，你也可以在世界地图中选择已摧毁的基地来收集物资。</LetterFactionBaseDefeated>
   <!-- EN: This was the last base of {0}, which means this faction doesn't exist anymore. -->
   <LetterFactionBaseDefeated_FactionDestroyed>这是{0}的最后一个基地，这意味着这个派系已不复存在。</LetterFactionBaseDefeated_FactionDestroyed>
-  
+
   <!-- Quest completed -->
   <!-- EN: Quest completed -->
   <LetterLabelDefeatAllEnemiesQuestCompleted>完成请求</LetterLabelDefeatAllEnemiesQuestCompleted>
   <!-- EN: You have defeated the enemy outpost!\n\nThe payment from {0} has arrived, and faction relations have improved by {1}. -->
   <LetterDefeatAllEnemiesQuestCompleted>你摧毁了敌人的哨所！\n\n来自{0}的付款已经到达，并且派系关系提升了{1}。</LetterDefeatAllEnemiesQuestCompleted>
 
-  <!-- Found lump of precious resources -->
-  <!-- EN: Precious minerals found -->
-  <LetterLabelFoundPreciousLump>发现稀有矿物</LetterLabelFoundPreciousLump>
-  <!-- EN: Using your long-range mineral scanner, {WORKER_labelShort} has found a lump of {0} nearby.\n\nUnfortunately, it won't last - others will mine it first in {1} days if we don't.\n\n{2}. -->
+  <!-- Long-range mineral scanner -->
+  <!-- EN: Distant resource scanned -->
+  <LetterLabelFoundPreciousLump>扫描到稀有矿物</LetterLabelFoundPreciousLump>
+  <!-- EN: Using your long-range mineral scanner, {WORKER_labelShort} has found a lump of {0} some distance away.\n\nUnfortunately, it won't last - others will mine it first in {1} days if we don't.\n\n{2}. -->
   <LetterFoundPreciousLump>通过使用远距离矿物扫描仪，{WORKER_labelShort}发现了附近的一块 {0}。\n\n很遗憾，它不会持续很久——如果我们不尽快开采，其他势力将会在{1}后开采并带走这些资源。\n\n{2}。</LetterFoundPreciousLump>
-  
+
+  <!-- Ground penetrating scanner -->
+  <!-- EN: Scanned underground -->
+  <LetterLabelDeepScannerFoundLump>地矿扫描</LetterLabelDeepScannerFoundLump>
+  <!-- EN: {FINDER_nameDef} has found a lump of buried {0} using the ground-penetrating scanner! -->
+  <LetterDeepScannerFoundLump>{FINDER_nameDef}使用穿透地面的扫描仪发现了一块被掩埋的{0}！</LetterDeepScannerFoundLump>
+
   <!-- Ambush -->
   <!-- EN: Ambush -->
   <LetterLabelAmbushInExistingMap>伏击</LetterLabelAmbushInExistingMap>
@@ -315,22 +322,32 @@
   <PeaceTalksSocialXPGain>你的谈判者，{PAWN_labelShort}，获得了{1}社交经验值。</PeaceTalksSocialXPGain>
 
   <!-- Run wild mental break -->
-  <!-- EN: {0} is fed up with civilization.\n\n{0_pronoun} realized that wild creatures are always free. So, {0_pronoun} has decided to leave your faction and live with the animals.\n\nYou can attempt to tame or arrest {0_objective} to get {0_objective} back. -->
-  <LetterRunWildMentalBreak>{0}已经厌倦了文明。\n\n{0_pronoun}发现动物永远自由。因此，{0_pronoun}已决定离开派系并与野生动物为伴。\n\n你可以尝试驯服{0_objective}，以使{0_objective}回来。</LetterRunWildMentalBreak>
+  <!-- EN: {0} is fed up with civilization.\n\n{PAWN_pronoun} realized that wild creatures are always free. So, {PAWN_pronoun} has decided to leave your faction and live with the animals.\n\nYou can attempt to tame or arrest {PAWN_objective} to get {PAWN_objective} back. -->
+  <LetterRunWildMentalBreak>{0}已经厌倦了文明。\n\n{0_pronoun}发现动物永远自由。因此，{PAWN_pronoun} 已决定离开派系并与野生动物为伴。\n\n你可以尝试驯服{0_objective}，以使{0_objective}回来。</LetterRunWildMentalBreak>
 
   <!-- Catatonic mental break -->
-  <!-- EN: {0} has suffered a total mental breakdown and entered a catatonic state. {0_pronoun} will recover in several days. -->
-  <LetterCatatonicMentalBreak>{0}的精神已彻底崩溃并陷入紧张症状态。{0_pronoun}会在数天后恢复。</LetterCatatonicMentalBreak>
+  <!-- EN: {0} has suffered a total mental breakdown and entered a catatonic state. {PAWN_pronoun} will recover in several days. -->
+  <LetterCatatonicMentalBreak>{0}的精神已彻底崩溃并陷入紧张症状态。{PAWN_pronoun}会在数天后恢复。</LetterCatatonicMentalBreak>
 
-  <!-- EN: AI Core Offer -->
+  <!-- EN: Persona Core Offer -->
   <LetterLabelAICoreOffer>AI核心机会</LetterLabelAICoreOffer>
-  <!-- EN: {PAWN_definite} of {1} contacts you with an offer of information: the location of an AI persona core, which you'll need in order to build a spaceship. They inform you that this item is quite rare and usually its owners have it under heavy guard.\n\nCall them with your comms console if you're interested. -->
+  <!-- EN: {PAWN_definite} of {1} contacts you with an offer of information: the location of a persona core, which you'll need in order to build a spaceship. They inform you that this item is quite rare and usually its owners have it under heavy guard.\n\nCall them with your comms console if you're interested. -->
   <LetterAICoreOffer>{1}的{PAWN_definite}联系你，并表示可以提供情报：建造飞船所必须的AI伪人格核心的所在地。他们告诉你，这种道具极为稀有，其拥有者通常会守以重兵。\n\n如果你有兴趣，用通讯台联系他们。</LetterAICoreOffer>
 
+  <!-- Crafting letters -->
   <!-- EN: Legendary Work -->
   <LetterCraftedLegendaryLabel>传奇作品</LetterCraftedLegendaryLabel>
   <!-- EN: {WORKER_labelShort} has created a {CRAFTED_labelShort}.\n\nNews of this valuable artifact will spread across the world. -->
   <LetterCraftedLegendaryMessage>{WORKER_labelShort}创造出了一个{CRAFTED_labelShort}。\n\n这件价值连城的作品的诞生将很快为全世界所知晓。</LetterCraftedLegendaryMessage>
+  <!-- EN: {WORKER_labelShort} has created a {CRAFTED_labelShort}.\n\n{0}\n\nNews of this valuable artifact will spread across the world. -->
+  <LetterCraftedLegendaryMessageArt>{WORKER_labelShort}创造出了一个{CRAFTED_labelShort}。\n\n{0}\n\n这件价值连城的作品的诞生将很快为全世界所知晓。</LetterCraftedLegendaryMessageArt>
+
+  <!-- EN: Masterwork -->
+  <LetterCraftedMasterworkLabel>杰作</LetterCraftedMasterworkLabel>
+  <!-- EN: {WORKER_labelShort} has created a {CRAFTED_labelShort}. -->
+  <LetterCraftedMasterworkMessage>{WORKER_labelShort}创造出了一个{CRAFTED_labelShort}。</LetterCraftedMasterworkMessage>
+  <!-- EN: {WORKER_labelShort} has created a {CRAFTED_labelShort}.\n\n{0} -->
+  <LetterCraftedMasterworkMessageArt>{WORKER_labelShort}创造出了一个{CRAFTED_labelShort}.\n\n{0}</LetterCraftedMasterworkMessageArt>
 
   <!-- Pawns lost because map closed -->
   <!-- EN: Caravan lost -->
@@ -345,7 +362,7 @@
   <!-- Hibernate complete -->
   <!-- EN: Reactor ready -->
   <LetterLabelHibernateComplete>反应炉就绪</LetterLabelHibernateComplete>
-  <!-- EN: Charlon Whitestone has finished the reactor's hibernation recovery sequence. The reactor is now ready to power a liftoff. -->
+  <!-- EN: <Name>Charlon Whitestone</Name> has finished the reactor's hibernation recovery sequence. The reactor is now ready to power a liftoff. -->
   <LetterHibernateComplete>沙隆·白石已完成了反应炉的休眠恢复流程。反应炉现在可以供能以让飞船起飞。</LetterHibernateComplete>
   <!-- EN: The reactor's power up sequence is complete. It is now ready to power a liftoff. -->
   <LetterHibernateCompleteStandalone>反应炉充能流程已就绪。反应炉现在可以供能以让飞船起飞。</LetterHibernateCompleteStandalone>
@@ -383,9 +400,113 @@
   <!-- Disease -->
   <!-- EN: {0} blocked {1} on: {2}. -->
   <LetterDisease_Blocked>{0}抵抗了{1}：{2}。</LetterDisease_Blocked>
-  <!-- EN: Disease ({0}) -->
-  <LetterLabelTraitDisease>疾病({0})</LetterLabelTraitDisease>
+  <!-- EN: Disease: {0} -->
+  <LetterLabelTraitDisease>疾病: {0}</LetterLabelTraitDisease>
   <!-- EN: {PAWN_label} has gotten sick from {1}.\n\nEnsure you have a medical bed and a doctor. Make sure that {PAWN_pronoun} gets proper treatment and spends as much time in bed as possible. -->
   <LetterTraitDisease>{PAWN_label}患上了{1}。\n\n确保有医疗用床和医生。确保{PAWN_pronoun}得到适当的治疗并尽可能卧床休息。 </LetterTraitDisease>
+
+  <!-- Quests -->
+  <!-- EN: A new quest has become available. It is called '{0}'. -->
+  <LetterQuestBecameAvailable>一个新的任务得到启用。该任务被成为'{0}'。</LetterQuestBecameAvailable>
+  <!-- EN: If you don’t accept the quest within {0}, it will expire. -->
+  <LetterQuestRequiresAcceptance>如果您不接受{0}内的任务，它将过期。</LetterQuestRequiresAcceptance>
+  <!-- EN: A new quest has become active. It is called '{0}'. -->
+  <LetterQuestBecameActive>一个新的任务开始了。该任务被称为'{0}'。</LetterQuestBecameActive>
+  <!-- EN: Quest active: {0} -->
+  <LetterQuestAutomaticallyAcceptedTitle>任务有效：{0}</LetterQuestAutomaticallyAcceptedTitle>
+  <!-- EN: It will expire in {0}. -->
+  <LetterQuestActiveNowTime>它将在{0}后到期。</LetterQuestActiveNowTime>
+
+  <!-- Quest drop pods arrived -->
+  <!-- EN: Pods arrived -->
+  <LetterLabelQuestDropPodsArrived>空投舱到达</LetterLabelQuestDropPodsArrived>
+  <!-- EN: Transport pods with the following contents have arrived:\n\n{0} -->
+  <LetterQuestDropPodsArrived>装载有以下内容的空投舱已到达:\n\n{0}</LetterQuestDropPodsArrived>
+
+  <!-- Refugee joins -->
+  <!-- EN: {PAWN_nameDef} joins -->
+  <LetterLabelRefugeeJoins>{PAWN_nameDef}加入</LetterLabelRefugeeJoins>
+  <!-- EN: A {PAWN_title} named {PAWN_nameDef} has arrived and is joining the colony. -->
+  <LetterRefugeeJoins>一个名为{PAWN_nameDef}的{PAWN_title}已经到达并将加入殖民地。</LetterRefugeeJoins>
+  
+  <!-- Rescuee joins -->
+  <!-- EN: {PAWN_nameDef} joins -->
+  <LetterLabelRescueeJoins>{PAWN_nameDef}加入</LetterLabelRescueeJoins>
+  <!-- EN: {PAWN_nameDef} is thankful that you rescued {PAWN_objective}. {PAWN_pronoun} has decided that {PAWN_pronoun} would rather stay than leave, and is joining your colony. -->
+  <LetterRescueeJoins>{PAWN_nameDef}感谢您救出了{PAWN_objective}。{PAWN_pronoun}决定{PAWN_pronoun}自愿留下而不是离开，现在开始在加入您的殖民地。</LetterRescueeJoins>
+
+  <!-- Pawns arrive and join -->
+  <!-- EN: People join -->
+  <LetterLabelPawnsArriveAndJoin>人员加入</LetterLabelPawnsArriveAndJoin>
+  <!-- EN: The following people have arrived and joined the colony:\n\n{0} -->
+  <LetterPawnsArriveAndJoin>以下人员到达并加入了殖民地:\n\n{0}</LetterPawnsArriveAndJoin>
+
+  <!-- Pawns arrive -->
+  <!-- EN: People arrived -->
+  <LetterLabelPawnsArrive>人员到达</LetterLabelPawnsArrive>
+  <!-- EN: The following people have arrived:\n\n{0} -->
+  <LetterPawnsArrive>以下人员已到达:\n\n{0}</LetterPawnsArrive>
+
+  <!-- Pawn leaving -->
+  <!-- EN: {0} leaving -->
+  <LetterLabelPawnLeaving>{0}离开</LetterLabelPawnLeaving>
+  <!-- EN: {0} is leaving. -->
+  <LetterPawnLeaving>{0}已离开。</LetterPawnLeaving>
+
+  <!-- Pawns leaving -->
+  <!-- EN: {0} leaving -->
+  <LetterLabelPawnsLeaving>{0}离开</LetterLabelPawnsLeaving>
+  <!-- EN: {0} are leaving. -->
+  <LetterPawnsLeaving>{0}已离开。</LetterPawnsLeaving>
+  
+  <!-- Colonist kidnapped -->
+  <!-- EN: {PAWN_nameDef} kidnapped -->
+  <LetterLabelPawnsKidnapped>{PAWN_nameDef}被绑架</LetterLabelPawnsKidnapped>
+  <!-- EN: {PAWN_nameDef} has been kidnapped by {FACTION_name}!
+\nHowever, {PAWN_pronoun} is not lost forever. An opportunity to rescue {PAWN_objective} may present itself in the coming days or years. -->
+  <LetterPawnsKidnapped>{PAWN_nameDef}被{FACTION_name}绑架了！\n\n但是，{PAWN_pronoun}并不会就此消失。拯救{PAWN_objective}的机会可能会在未来几天或几年内出现。</LetterPawnsKidnapped>
+  
+  <!-- Techprints -->
+  <!-- EN: Techprint applied: {PROJECT_label} -->
+  <LetterTechprintAppliedLabel>科研蓝图应用: {PROJECT_label}</LetterTechprintAppliedLabel>
+  <!-- EN: A techprint has been applied to the research project: {PROJECT_label}. -->
+  <LetterTechprintAppliedPartIntro>一个科研蓝图技术已经应用到研究项目: {PROJECT_label}。</LetterTechprintAppliedPartIntro>
+  <!-- EN: You're completed the projects techprint requirements! Your researchers can now begin researching how to actually use the technology at your research benches. -->
+  <LetterTechprintAppliedPartJustUnlocked>你已经完成了科研蓝图要求的项目!你的研究人员现在可以开始研究如何在实际中应用这项技术。</LetterTechprintAppliedPartJustUnlocked>
+  <!-- EN: This project's techprint requirements are not yet satisfied. {0} techprints have been applied so far. The project requires {1} in total. -->
+  <LetterTechprintAppliedPartNotUnlockedYet>该项目的科研蓝图技术要求尚未得到满足。到目前为止，已经应用了{0}科研蓝图技术。该项目总共需要{1}。</LetterTechprintAppliedPartNotUnlockedYet>
+  <!-- EN: This project's techprint requirements were already satisfied. The extra techprint advanced your research efforts on {PROJECT_label}. Half the remaining research work, {0} points, has been completed. -->
+  <LetterTechprintAppliedPartAlreadyUnlocked>该项目的科研蓝图技术要求已得到满足。额外的科研蓝图技术进一步推动了你在{PROJECT_label}上的研究工作。剩余的一半研究工作，{0}点，已经完成。</LetterTechprintAppliedPartAlreadyUnlocked>
+  <!-- EN: This project is already fully researched, so the techprint didn't advance your knowledge at all. -->
+  <LetterTechprintAppliedPartAlreadyResearched>该项目已经过全面研究，因此科研蓝图技术已无法提高你的知识。</LetterTechprintAppliedPartAlreadyResearched>
+  <!-- EN: By applying the techprint, {PAWN_labelShort} gained {0} experience in the {1} skill. -->
+  <LetterTechprintAppliedPartExpAwarded>通过应用科研蓝图技术，{PAWN_labelShort}获得了{1}技能的{0}经验。</LetterTechprintAppliedPartExpAwarded>
+  
+  <!-- Quest Completed -->
+  <!-- EN: Quest completed -->
+  <LetterQuestCompletedLabel>任务完成</LetterQuestCompletedLabel>
+  <!-- EN: Quest failed -->
+  <LetterQuestFailedLabel>任务失败</LetterQuestFailedLabel>
+  <!-- EN: Quest concluded -->
+  <LetterQuestConcludedLabel>任务结束</LetterQuestConcludedLabel>
+  <!-- EN: You have successfully completed the quest '{0}'! -->
+  <LetterQuestCompletedSuccess>你已成功完成任务'{0}'！</LetterQuestCompletedSuccess>
+  <!-- EN: You have failed the quest '{0}'. -->
+  <LetterQuestCompletedFail>你未完成任务'{0}'。</LetterQuestCompletedFail>
+  <!-- EN: You have concluded the quest '{0}'. -->
+  <LetterQuestCompletedConcluded>您已完成任务'{0}'。</LetterQuestCompletedConcluded>
+  
+  <!-- Bladelink -->
+  <!-- EN: Bladelink bond: {PAWN_labelShort} -->
+  <LetterBladelinkWeaponBondedLabel>牵绊武器: {PAWN_labelShort}</LetterBladelinkWeaponBondedLabel>
+  <!-- EN: {PAWN_labelShort} has established a bond with the persona of {WEAPON_labelShort}.
+\nFrom now on, {WEAPON_labelShort} will refuse to be wielded by anyone except {PAWN_labelShort}. -->
+  <LetterBladelinkWeaponBonded> {PAWN_labelShort} 与 {WEAPON_labelShort} 建立起了特殊的联系。\n\n从现在开始，{WEAPON_labelShort} 将拒绝除了 {PAWN_labelShort} 以外的任何使用者。</LetterBladelinkWeaponBonded>
+  
+  <!-- Mech cluster -->
+  <!-- EN: Mechanoids arrived -->
+  <LetterLabelMechClusterArrived>机械族出现</LetterLabelMechClusterArrived>
+  <!-- EN: Mechanoids have arrived. -->
+  <LetterMechClusterArrived>机械族集群出现了。</LetterMechClusterArrived>
 
 </LanguageData>

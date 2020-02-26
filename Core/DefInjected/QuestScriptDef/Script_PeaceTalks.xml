@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questDescription->[faction_leader_nameFull], [faction_leaderTitle] of [faction_name], has sent us a message. [faction_leader_pronoun] wants to talk with us in a nearby location.\n\nIt could be a great opportunity to improve relations with their faction and receive gifts, but beware - a poor negotiator can cause more harm than good and may even anger them.[favorRewardDetails]</li>
+    <li>favorRewardDetails(faction_leader_royalInCurrentFaction==True,priority=1)->\n\nSuccessful peace talks can earn your negotiator a small amount of personal [faction_royalFavorLabel] with [faction_name].</li>
+    <li>favorRewardDetails-></li>
+  -->
+  <OpportunitySite_PeaceTalks.questDescriptionRules.rulesStrings>
+    <li>questDescription->[faction_name]的[faction_leaderTitle]，[faction_leader_nameFull]给我们发来一条消息。[faction_leader_pronoun]想在附近和我们谈判。\n\n这是个改善派系之间关系和接受善意的极好机会，但小心，一个糟糕的谈判者有害无益，甚至可能激怒他们。[favorRewardDetails]</li>
+    <li>favorRewardDetails(faction_leader_royalInCurrentFaction==True,priority=1)->\n\n成功的和平谈判可以为[faction_name]的谈判代表积累一部分个人[faction_royalFavorLabel]。</li>
+    <li>favorRewardDetails-></li>
+  </OpportunitySite_PeaceTalks.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->[faction_leader_nameDef]'s [peaceTalks]</li>
+    <li>questName->[peaceTalks] with [faction_leader_nameDef]</li>
+    <li>questName->The [peaceTalks]</li>
+    <li>questName->[peaceTalks]</li>
+    <li>peaceTalks->Peace Talks</li>
+    <li>peaceTalks->Diplomacy</li>
+    <li>peaceTalks->Meeting</li>
+  -->
+  <OpportunitySite_PeaceTalks.questNameRules.rulesStrings>
+    <li>questName->[faction_leader_nameDef]的[peaceTalks]</li>
+    <li>questName->与[faction_leader_nameDef]的[peaceTalks]</li>
+    <li>questName->[peaceTalks]</li>
+    <li>questName->[peaceTalks]</li>
+    <li>peaceTalks->和平谈判</li>
+    <li>peaceTalks->外交</li>
+    <li>peaceTalks->会晤</li>
+  </OpportunitySite_PeaceTalks.questNameRules.rulesStrings>
+  <!-- EN: Quest expired: [resolvedQuestName] -->
+  <OpportunitySite_PeaceTalks.root.nodes.PeaceTalksTimeout.node.nodes.Letter.label.slateRef>任务已失效：[resolvedQuestName]</OpportunitySite_PeaceTalks.root.nodes.PeaceTalksTimeout.node.nodes.Letter.label.slateRef>
+  <!-- EN: The offer of peace talks with [faction_name] has expired. You have failed the quest [resolvedQuestName]. -->
+  <OpportunitySite_PeaceTalks.root.nodes.PeaceTalksTimeout.node.nodes.Letter.text.slateRef>同[faction_name]的和平谈判已过期。任务已失效：[resolvedQuestName]。</OpportunitySite_PeaceTalks.root.nodes.PeaceTalksTimeout.node.nodes.Letter.text.slateRef>
+  
+</LanguageData>

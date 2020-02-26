@@ -140,8 +140,10 @@
   <EItemUpdateStatus_k_EItemUpdateStatusCommittingChanges>提交变更</EItemUpdateStatus_k_EItemUpdateStatusCommittingChanges>
 
   <!-- Mod sources -->
+  <!-- EN: official content -->
+  <ContentSource_OfficialModsFolder>官方内容</ContentSource_OfficialModsFolder>
   <!-- EN: local folder -->
-  <ContentSource_LocalFolder>本地文件夹</ContentSource_LocalFolder>
+  <ContentSource_ModsFolder>本地文件</ContentSource_ModsFolder>
   <!-- EN: Steam Workshop -->
   <ContentSource_SteamWorkshop>Steam 创意工坊</ContentSource_SteamWorkshop>
   
@@ -251,7 +253,7 @@
   <!-- EN: Carnivorous -->
   <DietCategory_Carnivorous>肉食</DietCategory_Carnivorous>
   <!-- EN: - -->
-  <DietCategory_NeverEats_Short>无</DietCategory_NeverEats_Short>
+  <DietCategory_NeverEats_Short>-</DietCategory_NeverEats_Short>
   <!-- EN: H -->
   <DietCategory_Herbivorous_Short>草</DietCategory_Herbivorous_Short>
   <!-- EN: D -->
@@ -286,5 +288,28 @@
   <PsychicDroneLevel_BadHigh>高</PsychicDroneLevel_BadHigh>
   <!-- EN: extreme -->
   <PsychicDroneLevel_BadExtreme>极高</PsychicDroneLevel_BadExtreme>
+  
+  <!-- Automatic pause mode -->
+  <!-- EN: Never -->
+  <AutomaticPauseMode_Never>从不</AutomaticPauseMode_Never>
+  <!-- EN: Major threats -->
+  <AutomaticPauseMode_MajorThreat>大型威胁</AutomaticPauseMode_MajorThreat>
+  <!-- EN: Any threat -->
+  <AutomaticPauseMode_AnyThreat>任何威胁</AutomaticPauseMode_AnyThreat>
+  <!-- EN: Any letter -->
+  <AutomaticPauseMode_AnyLetter>任何事件</AutomaticPauseMode_AnyLetter>
 
+  <!-- Pain category -->
+  <!-- EN: itchy -->
+  <PainCategory_LowPain>发痒</PainCategory_LowPain>
+  <!-- EN: aching -->
+  <PainCategory_MediumPain>酸痛</PainCategory_MediumPain>
+  <!-- EN: painful -->
+  <PainCategory_HighPain>痛苦</PainCategory_HighPain>
+  
+  <!-- ExtraFactionType -->
+  <!-- EN: home faction -->
+  <ExtraFactionType_HomeFaction>驻地派系</ExtraFactionType_HomeFaction>
+  <!-- EN: remote host faction -->
+  <ExtraFactionType_HostFaction>终端派系</ExtraFactionType_HostFaction>
 </LanguageData>

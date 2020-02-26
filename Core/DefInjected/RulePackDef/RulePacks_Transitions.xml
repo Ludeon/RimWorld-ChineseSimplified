@@ -2,19 +2,33 @@
 <LanguageData>
   
   <!-- EN:
-    <li>die(p=2)->die</li>
-    <li>die->perish</li>
-    <li>die->expire</li>
-    <li>die(subject_flesh!=Mechanoid,p=0.5)->give in to [SUBJECT_possessive] wounds</li>
-    <li>die(subject_flesh==Mechanoid,p=0.5)->shut down</li>
-    <li>die(subject_flesh==Mechanoid,p=0.5)->stop functioning</li>
-    <li>died(p=2)->died</li>
-    <li>died->perished</li>
-    <li>died(subject_flesh!=Mechanoid)->expired</li>
-    <li>died(subject_flesh==Mechanoid)->shut down</li>
-    <li>died(subject_flesh==Mechanoid)->stopped functioning</li>
+    <li>die(SUBJECT_flesh!=Mechanoid,p=2)->die</li>
+    <li>die(SUBJECT_flesh!=Mechanoid)->perish</li>
+    <li>die(SUBJECT_flesh!=Mechanoid)->expire</li>
+    <li>die(SUBJECT_flesh==Mechanoid)->shut down</li>
+    <li>die(SUBJECT_flesh==Mechanoid)->stop functioning</li>
+    <li>die(SUBJECT_flesh==Mechanoid)->lose power</li>
+    <li>died(SUBJECT_flesh!=Mechanoid,p=2)->died</li>
+    <li>died(SUBJECT_flesh!=Mechanoid)->perished</li>
+    <li>died(SUBJECT_flesh!=Mechanoid)->expired</li>
+    <li>died(SUBJECT_flesh==Mechanoid)->shut down</li>
+    <li>died(SUBJECT_flesh==Mechanoid)->stopped functioning</li>
+    <li>died(SUBJECT_flesh==Mechanoid)->lost power</li>
   -->
   <Transition_Died.rulePack.rulesStrings>
+    <li>die(SUBJECT_flesh!=Mechanoid,p=2)->死亡</li>
+    <li>die(SUBJECT_flesh!=Mechanoid)->死去</li>
+    <li>die(SUBJECT_flesh!=Mechanoid)->失去生命迹象</li>
+    <li>die(SUBJECT_flesh==Mechanoid)->停机</li>
+    <li>die(SUBJECT_flesh==Mechanoid)->停止运作</li>
+    <li>die(SUBJECT_flesh==Mechanoid)->电压不足关机</li>
+    <li>died(SUBJECT_flesh!=Mechanoid,p=2)->已死亡</li>
+    <li>died(SUBJECT_flesh!=Mechanoid)->死去</li>
+    <li>died(SUBJECT_flesh!=Mechanoid)->失去生命迹象</li>
+    <li>died(SUBJECT_flesh==Mechanoid)->停机</li>
+    <li>died(SUBJECT_flesh==Mechanoid)->停止运作</li>
+    <li>died(SUBJECT_flesh==Mechanoid)->电压不足关机</li>
+    <!--
     <li>die(p=2)->死亡</li>
     <li>die->死去</li>
     <li>die->失去生命迹象</li>
@@ -26,6 +40,7 @@
     <li>died(subject_flesh!=Mechanoid)->已断气</li>
     <li>died(subject_flesh==Mechanoid)->已关停</li>
     <li>died(subject_flesh==Mechanoid)->已停止运转</li>
+    -->
   </Transition_Died.rulePack.rulesStrings>
   
   <!-- EN:
@@ -44,8 +59,8 @@
     <li>flavor(p=4)->in a [fireball]</li>
     <li>flavor(p=4)-></li>
     <li>flavorsuffix->, scattering [pieces] [everywhere]</li>
-    <li>flavorsuffix(subject_flesh!=Mechanoid,p=2)->, scattering [Gore] [everywhere]</li>
-    <li>flavorsuffix(subject_flesh!=Mechanoid)->, leaving a small pile of [Gore]</li>
+    <li>flavorsuffix(SUBJECT_flesh!=Mechanoid,p=2)->, scattering [Gore] [everywhere]</li>
+    <li>flavorsuffix(SUBJECT_flesh!=Mechanoid)->, leaving a small pile of [Gore]</li>
     <li>flavorsuffix->, leaving a small crater</li>
     <li>flavorsuffix(p=4)-></li>
     <li>fireball(p=3)->fireball</li>
@@ -73,8 +88,8 @@
     <li>flavor(p=4)->变成[fireball]</li>
     <li>flavor(p=4)-></li>
     <li>flavorsuffix->，[pieces]散落得[everywhere]都是</li>
-    <li>flavorsuffix(subject_flesh!=Mechanoid,p=2)->，[Gore][everywhere]飞溅</li>
-    <li>flavorsuffix(subject_flesh!=Mechanoid)->，留下一小滩[Gore]</li>
+    <li>flavorsuffix(SUBJECT_flesh!=Mechanoid,p=2)->，[Gore][everywhere]飞溅</li>
+    <li>flavorsuffix(SUBJECT_flesh!=Mechanoid)->，留下一小滩[Gore]</li>
     <li>flavorsuffix->，留下一个小弹坑</li>
     <li>flavorsuffix(p=4)-></li>
     <li>fireball(p=3)->火球</li>
@@ -107,29 +122,28 @@
   <!-- EN:
     <li>r_logentry->[CULPRITHEDIFF_labelNoun] caused [SUBJECT_definite] to [collapsemeta].</li>
     <li>r_logentry->[CULPRITHEDIFF_labelNounPretty] caused [SUBJECT_definite] to [collapsemeta].</li>
+    <li>r_logentry->[CULPRITHEDIFF_labelNoun] made [SUBJECT_definite] [collapsemeta].</li>
+    <li>r_logentry->[CULPRITHEDIFF_labelNounPretty] made [SUBJECT_definite] [collapsemeta].</li>
     <li>r_logentry->[SUBJECT_definite] [collapsedmeta] [duetoa] [CULPRITHEDIFF_labelNoun].</li>
     <li>r_logentry->[SUBJECT_definite] [collapsedmeta] [duetoa] [CULPRITHEDIFF_labelNounPretty].</li>
     <li>r_logentry(p=0.1)->[SUBJECT_definite] [collapsedmeta].</li>
     <li>collapse->collapse</li>
-    <li>collapse->crumple</li>
     <li>collapse->drop</li>
-    <li>collapse(subject_flesh!=Mechanoid)->faint</li>
-    <li>collapse(subject_flesh==Mechanoid)->crash</li>
-    <li>collapse(subject_flesh==Mechanoid)->bootloop</li>
-    <li>collapse(subject_flesh==Mechanoid)->hardlock</li>
+    <li>collapse(SUBJECT_flesh!=Mechanoid)->crumple</li>
+    <li>collapse(SUBJECT_flesh==Mechanoid)->crash</li>
+    <li>collapse(SUBJECT_flesh==Mechanoid)->lock up</li>
+    <li>collapse(SUBJECT_flesh==Mechanoid)->lose main power</li>
     <li>collapsed->collapsed</li>
-    <li>collapsed->crumpled</li>
     <li>collapsed->dropped</li>
-    <li>collapsed(subject_flesh!=Mechanoid)->fainted</li>
-    <li>collapsed(subject_flesh==Mechanoid)->crashed</li>
-    <li>collapsed(subject_flesh==Mechanoid)->bootlooped</li>
-    <li>collapsed(subject_flesh==Mechanoid)->hardlocked</li>
+    <li>collapsed(SUBJECT_flesh!=Mechanoid)->crumpled</li>
+    <li>collapsed(SUBJECT_flesh==Mechanoid)->crashed</li>
+    <li>collapsed(SUBJECT_flesh==Mechanoid)->locked up</li>
+    <li>collapsed(SUBJECT_flesh==Mechanoid)->lost main power</li>
     <li>helplessly->helplessly</li>
-    <li>helplessly(subject_flesh!=Mechanoid)->unconscious</li>
-    <li>helplessly(subject_flesh!=Mechanoid)->in exhaustion</li>
-    <li>helplessly(subject_flesh!=Mechanoid)->weakly</li>
-    <li>helplessly(subject_flesh!=Mechanoid)->feebly</li>
-    <li>helplessly(subject_flesh==Mechanoid)->uncontrollably</li>
+    <li>helplessly(SUBJECT_flesh!=Mechanoid)->unconscious</li>
+    <li>helplessly(SUBJECT_flesh!=Mechanoid)->weakly</li>
+    <li>helplessly(SUBJECT_flesh!=Mechanoid)->feebly</li>
+    <li>helplessly(SUBJECT_flesh==Mechanoid)->uncontrollably</li>
     <li>collapsemeta->[collapse]</li>
     <li>collapsemeta(p=0.5)->[collapse] [helplessly]</li>
     <li>collapsedmeta->[collapsed]</li>
@@ -138,33 +152,33 @@
   <Transition_Downed.rulePack.rulesStrings>
     <li>r_logentry->[CULPRITHEDIFF_labelNoun]导致[SUBJECT_definite][collapsemeta]。</li>
     <li>r_logentry->[CULPRITHEDIFF_labelNounPretty]导致[SUBJECT_definite][collapsemeta]。</li>
+    <li>r_logentry->[CULPRITHEDIFF_labelNoun]使得[SUBJECT_definite] [collapsemeta].</li>
+    <li>r_logentry->[CULPRITHEDIFF_labelNounPretty]使得[SUBJECT_definite][collapsemeta].</li>
     <li>r_logentry->[duetoa][CULPRITHEDIFF_labelNoun][SUBJECT_definite][collapsedmeta]。</li>
     <li>r_logentry->[duetoa][CULPRITHEDIFF_labelNounPretty][SUBJECT_definite][collapsedmeta]。</li>
     <li>r_logentry(p=0.1)->[SUBJECT_definite][collapsedmeta]。</li>
-    <li>collapse->倾倒</li>
-    <li>collapse->无法行动</li>
+    <li>collapse->倒下</li>
     <li>collapse->倒地不起</li>
-    <li>collapse(subject_flesh!=Mechanoid)->昏厥</li>
-    <li>collapse(subject_flesh==Mechanoid)->系统崩溃</li>
-    <li>collapse(subject_flesh==Mechanoid)->蓝屏</li>
-    <li>collapse(subject_flesh==Mechanoid)->被锁死</li>
-    <li>collapsed->已倾倒</li>
-    <li>collapsed->已无法行动</li>
-    <li>collapsed->已倒地不起</li>
-    <li>collapsed(subject_flesh!=Mechanoid)->已昏厥</li>
-    <li>collapsed(subject_flesh==Mechanoid)->已系统崩溃</li>
-    <li>collapsed(subject_flesh==Mechanoid)->已蓝屏</li>
-    <li>collapsed(subject_flesh==Mechanoid)->已被锁死</li>
-    <li>helplessly->显得无能为力</li>
-    <li>helplessly(subject_flesh!=Mechanoid)->不省人事</li>
-    <li>helplessly(subject_flesh!=Mechanoid)->精疲力尽</li>
-    <li>helplessly(subject_flesh!=Mechanoid)->软弱无力</li>
-    <li>helplessly(subject_flesh!=Mechanoid)->十分衰弱</li>
-    <li>helplessly(subject_flesh==Mechanoid)->失去控制</li>
+    <li>collapse(SUBJECT_flesh!=Mechanoid)->昏厥</li>
+    <li>collapse(SUBJECT_flesh==Mechanoid)->系统崩溃</li>
+    <li>collapse(SUBJECT_flesh==Mechanoid)->系统全面锁死</li>
+    <li>collapse(SUBJECT_flesh==Mechanoid)->失去主电力</li>
+    <li>collapsed->倒下</li>
+    <li>collapsed->倒地不起</li>
+    <li>collapsed(SUBJECT_flesh!=Mechanoid)->昏厥</li>
+    <li>collapsed(SUBJECT_flesh==Mechanoid)->系统崩溃</li>
+    <li>collapsed(SUBJECT_flesh==Mechanoid)->系统全面锁死</li>
+    <li>collapsed(SUBJECT_flesh==Mechanoid)->失去主电力</li>
+    <li>helplessly->无力地</li>
+    <li>helplessly(SUBJECT_flesh!=Mechanoid)->不省人事地</li>
+    <li>helplessly(SUBJECT_flesh!=Mechanoid)->精疲力尽地</li>
+    <li>helplessly(SUBJECT_flesh!=Mechanoid)->软弱无力地</li>
+    <li>helplessly(SUBJECT_flesh!=Mechanoid)->十分衰弱地</li>
+    <li>helplessly(SUBJECT_flesh==Mechanoid)->失去控制地</li>
     <li>collapsemeta->[collapse]</li>
-    <li>collapsemeta(p=0.5)->[collapse]，[helplessly]</li>
-    <li>collapsedmeta->[collapsed]</li>
-    <li>collapsedmeta(p=0.5)->[collapsed]，[helplessly]</li>
+    <li>collapsemeta(p=0.5)->[helplessly][collapse]</li>
+    <li>collapsedmeta->已[collapsed]</li>
+    <li>collapsedmeta(p=0.5)->已[helplessly][collapsed]</li>
   </Transition_Downed.rulePack.rulesStrings>
   
   <!-- EN:

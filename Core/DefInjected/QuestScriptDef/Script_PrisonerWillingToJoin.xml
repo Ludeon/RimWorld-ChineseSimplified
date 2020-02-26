@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questDescription->A prisoner being held by [siteFaction_name] has managed to steal a radio and call you!\n\n[prisoner_nameDef] is being held at a camp near [map_definite][underArmedGuard]. Rescue [prisoner_objective], and [prisoner_pronoun] will join your colony. [prisoner_pronoun] is a [prisoner_age]-year-old [prisoner_title]. [prisoner_pronoun] says that [allSitePartsDescriptionsExceptFirst][formerColonistInfo][prisonerFullRelationInfo]\n\nIf you miss this opportunity, you may never hear from [prisoner_nameDef] again.</li>
+    <li>formerColonistInfo(priority=1)->\n\n[prisoner_formerlyColonistInfo]</li>
+    <li>formerColonistInfo-></li>
+    <li>underArmedGuard(allowViolentQuests==true,priority=1)-> under armed guard</li>
+    <li>underArmedGuard-></li>
+  -->
+  <OpportunitySite_PrisonerWillingToJoin.questDescriptionRules.rulesStrings>
+    <li>questDescription->一名被[siteFaction_name]关押的囚犯设法偷到了一个无线电并呼叫了你！\n\n[prisoner_nameDef]在[underArmedGuard]的看守下被关押在[map_definite]附近的营地。在解救[prisoner_objective]后，[prisoner_pronoun]将会加入你的殖民地。[prisoner_pronoun]是一名[prisoner_age]岁的[prisoner_title]。[prisoner_pronoun]透露[allSitePartsDescriptionsExceptFirst][formerColonistInfo][prisonerFullRelationInfo]\n\n如果错失这次机会，你以后都不会再看到[prisoner_nameDef]了。</li>
+    <li>formerColonistInfo(priority=1)->\n\n[prisoner_formerlyColonistInfo]</li>
+    <li>formerColonistInfo-></li>
+    <li>underArmedGuard(allowViolentQuests==true,priority=1)->全副武装</li>
+    <li>underArmedGuard-></li>
+  </OpportunitySite_PrisonerWillingToJoin.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->[prisoner_nameDef]'s Salvation</li>
+    <li>questName->[prisoner_nameDef]'s Rescue</li>
+    <li>questName->[prisoner_nameDef]'s Breakout</li>
+    <li>questName->Rescuing [prisoner_nameDef]</li>
+    <li>questName->Saving [prisoner_nameDef]</li>
+    <li>questName->Breaking [prisoner_nameDef] Out</li>
+  -->
+  <OpportunitySite_PrisonerWillingToJoin.questNameRules.rulesStrings>
+    <li>questName->[prisoner_nameDef]的救赎</li>
+    <li>questName->[prisoner_nameDef]的拯救</li>
+    <li>questName->[prisoner_nameDef]的援救</li>
+    <li>questName->解救[prisoner_nameDef]</li>
+    <li>questName->挽救[prisoner_nameDef]</li>
+    <li>questName->拯救[prisoner_nameDef]</li>
+  </OpportunitySite_PrisonerWillingToJoin.questNameRules.rulesStrings>
+  
+</LanguageData>

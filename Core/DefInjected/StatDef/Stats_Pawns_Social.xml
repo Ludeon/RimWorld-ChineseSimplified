@@ -1,10 +1,20 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
+  <!-- EN: Arrest success chance -->
+  <ArrestSuccessChance.label>拘捕成功概率</ArrestSuccessChance.label>
+  <!-- EN: How effective this person is in arresting people.\n\nThis affects the success chance of arresting tries. -->
+  <ArrestSuccessChance.description>改变拘捕的效果。\n\n影响拘捕的成功率。</ArrestSuccessChance.description>
+  
   <!-- EN: negotiation ability -->
-  <NegotiationAbility.label>外交力</NegotiationAbility.label>
-  <!-- EN: How effective this person is as a negotiator. This affects the speed of prisoner recruitment, impact on faction relations when giving gifts, and the outcome of peace talks. -->
+  <NegotiationAbility.label>谈判能力</NegotiationAbility.label>
+  <!-- EN: How effective this person is as a negotiator.\n\nThis affects the speed of prisoner recruitment, impact on faction relations when giving gifts, and the outcome of peace talks. -->
   <NegotiationAbility.description>此人作为谈判代表的效果。这会影响囚犯招募的速度，向其他派系馈赠礼物时的效果，以及和平谈判的结果。</NegotiationAbility.description>
+  
+  <!-- EN: beauty -->
+  <PawnBeauty.label>魅力</PawnBeauty.label>
+  <!-- EN: How physically attractive this person is. This affects social interactions. -->
+  <PawnBeauty.description>此人的魅力值，这也会影响社交结果。</PawnBeauty.description>
   
   <!-- EN: social impact -->
   <SocialImpact.label>社交效果</SocialImpact.label>
@@ -13,8 +23,8 @@
   
   <!-- EN: tame animal chance -->
   <TameAnimalChance.label>驯服动物成功率</TameAnimalChance.label>
-  <!-- EN: The base chance this person will successfully tame an animal on any given attempt. The actual chance is also affected by the animal's wildness. Failed tame attempt can induce animal attacks, especially for more vicious animals. -->
-  <TameAnimalChance.description>此人在驯服动物时的基本几率。实际成功率也受到动物野性的影响，驯服失败可能会受到攻击，特别是那些危险性大的动物。</TameAnimalChance.description>
+  <!-- EN: The base chance this person will successfully tame an animal on any given attempt.\n\nThe actual chance is also affected by the animal's wildness.\nFailed tame attempt can induce animal attacks, especially for more vicious animals. -->
+  <TameAnimalChance.description>此人在驯服动物时的基本几率。\n\n实际成功率也受到动物野性的影响。\n驯服失败可能会受到攻击，特别是那些危险性大的动物。</TameAnimalChance.description>
   
   <!-- EN: trade price improvement -->
   <TradePriceImprovement.label>交易价格改善</TradePriceImprovement.label>
@@ -23,7 +33,7 @@
   
   <!-- EN: train animal chance -->
   <TrainAnimalChance.label>训练动物成功率</TrainAnimalChance.label>
-  <!-- EN: The base chance this person will make progress training an animal on a given attempt. The actual chance for a given attempt will also depend on the animal's wildness, whether it is bonded with the trainer, and so on. -->
-  <TrainAnimalChance.description>此人在每次尝试训练动物时，取得进步的基本几率。实际几率还取决于动物的野性和是否与训练者牵绊等因素。</TrainAnimalChance.description>
+  <!-- EN: The base chance this person will make progress training an animal on a given attempt.\n\nThe actual chance for a given attempt will also depend on the animal's wildness, whether it is bonded with the trainer, and so on. -->
+  <TrainAnimalChance.description>此人在每次尝试训练动物时，取得进步的基本几率。\n\n实际几率还取决于动物的野性和是否与训练者牵绊等因素。</TrainAnimalChance.description>
   
 </LanguageData>

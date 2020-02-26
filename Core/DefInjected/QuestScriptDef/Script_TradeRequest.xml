@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questDescription->A nearby settlement, [settlement_label], has a special trade request. They would like to purchase:\n\n  [requestedThingCount]x [requestedThing_label] [qualityInfo](worth [requestedThingMarketValue_money])\n\nIn return, [allRewardsDescriptions]\n\nIf you want to make the trade, send a caravan with the requested items. The estimated travel time is [estimatedTravelTime_duration].</li>
+    <li>qualityInfo(requestedThingHasQuality==True,priority=1)->of normal+ quality </li>
+    <li>qualityInfo-></li>
+  -->
+  <TradeRequest.questDescriptionRules.rulesStrings>
+    <li>questDescription->附近一个名叫[settlement_label]的聚落向我们发出了一场交易请求。他们想采购以下物资：\n\n  [requestedThingCount]x [requestedThing_label]([qualityInfo])(价值： [requestedThingMarketValue_money])\n\n作为回报， [allRewardsDescriptions]\n\n如果你同意这场交易，请派出一支携带相应物资的远行队前往目标地点。旅途预估时间约为：[estimatedTravelTime_duration]天。</li>
+    <li>qualityInfo(requestedThingHasQuality==True,priority=1)->一般品质以上</li>
+    <li>qualityInfo-></li>
+  </TradeRequest.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->Caravan to [settlement_label]</li>
+    <li>questName->Trade with [settlement_label]</li>
+    <li>questName->Selling to [settlement_label]</li>
+    <li>questName->Supplies for [settlement_label]</li>
+    <li>questName->A [special] [trade]</li>
+    <li>special->Special</li>
+    <li>special->Unique</li>
+    <li>special->Non-traditional</li>
+    <li>trade->Trade</li>
+    <li>trade->Exchange</li>
+    <li>trade->Deal</li>
+    <li>trade->Offer</li>
+  -->
+  <TradeRequest.questNameRules.rulesStrings>
+    <li>questName->远行队前往[settlement_label]</li>
+    <li>questName->与[settlement_label]交易</li>
+    <li>questName->向[settlement_label]出售</li>
+    <li>questName->补给[settlement_label]</li>
+    <li>questName->一场[special][trade]</li>
+    <li>special->特别的</li>
+    <li>special->独一无二的</li>
+    <li>special->非传统的</li>
+    <li>trade->贸易</li>
+    <li>trade->交换</li>
+    <li>trade->交易</li>
+    <li>trade->供应</li>
+  </TradeRequest.questNameRules.rulesStrings>
+  <!-- EN: [asker_faction_royalFavorLabel] -->
+  <TradeRequest.root.nodes.GiveRewards.nodeIfChosenPawnSignalUsed.label.slateRef>[asker_faction_royalFavorLabel]</TradeRequest.root.nodes.GiveRewards.nodeIfChosenPawnSignalUsed.label.slateRef>
+  <!-- EN: Who should be credited with [asker_faction_royalFavorLabel] for fulfilling the trade request? -->
+  <TradeRequest.root.nodes.GiveRewards.nodeIfChosenPawnSignalUsed.text.slateRef>谁应该作为[asker_faction_royalFavorLabel]以完成此次交易任务？</TradeRequest.root.nodes.GiveRewards.nodeIfChosenPawnSignalUsed.text.slateRef>
+  
+</LanguageData>

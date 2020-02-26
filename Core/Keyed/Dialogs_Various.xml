@@ -18,9 +18,9 @@
   <!-- EN: Saved games from the old version should be compatible, however some mods may stop working. -->
   <GameUpdatedToNewVersionSavesCompatible>旧版存档应该是兼容的，不过一些 Mod 可能无法使用。</GameUpdatedToNewVersionSavesCompatible>
   <!-- EN: Since this is a DRM-free copy, you can install the game twice in two different folders, to be able to play both old and new versions. -->
-  <GameUpdatedToNewVersionNonSteam>因为你的游戏为免 DRM 版，你可以选择在不同的文件夹下安装新版本，因此可以同时玩旧版和新版。</GameUpdatedToNewVersionNonSteam>
-  <!-- EN: If you wish to continue with the old version, you can opt in using Steam's "Betas" feature.\n\n  1. In the Steam library, right-click RimWorld.\n  2. Click Properties.\n  3. Click the Betas tab.\n  4. Select the version you want from the drop-down menu.\n\nOld versions will be likely removed from this list eventually - we just didn't want to cut off games in progress.\n\nNote that if mod authors update their mods for a new game version, they'll probably stop working on an old version. You may want to turn off automatic updates to prevent this. -->
-  <GameUpdatedToNewVersionSteam>你可以在 Steam 的「beta」选项中选择使用旧版进行游戏。\n\n 1. 在「Steam 游戏库」中右击 RimWorld\n 2. 点击「属性」\n 3. 选择「测试」标签页\n 4. 在下拉菜单中选择你想进行游戏的版本。\n\n旧版本最终会被从列表移除，该选项只是用于让你完成未完成的游戏。\n\n注意: 如果 Mod 作者升级了 Mod 有可能导致它无法在旧版本中运行，你可以通过禁止自动更新来避免这一问题。</GameUpdatedToNewVersionSteam>
+  <GameUpdatedToNewVersionNonSteam>因为你的游戏为 DRM-free 版，你可以选择在不同的文件夹下安装新版本，因此可以同时玩旧版和新版。</GameUpdatedToNewVersionNonSteam>
+  <!-- EN: If you wish to continue with the old version, you can opt in using Steam's "Betas" feature.\n\n  1. In the Steam library, right-click RimWorld.\n  2. Click Properties.\n  3. Click the Betas tab.\n  4. Select the version you want from the drop-down menu. -->
+  <GameUpdatedToNewVersionSteam>你可以在 Steam 的「beta」选项中选择使用旧版进行游戏。\n\n 1. 在「Steam 游戏库」中右击 RimWorld\n 2. 点击「属性」\n 3. 选择「测试」标签页\n 4. 在下拉菜单中选择你想进行游戏的版本。</GameUpdatedToNewVersionSteam>
   
   <!-- Recovered from errors caused by mods -->
   <!-- EN: Recovered from incompatible or corrupted mods errors -->
@@ -117,6 +117,14 @@
   <ChangeLoadedMods>从存档载入 Mod 列表</ChangeLoadedMods>
   <!-- EN: Some mods are unavailable, and need to be installed -->
   <MissingMods>部分 Mod 不可用，需要安装。</MissingMods>
+  <!-- EN: Official content -->
+  <OfficialContent>官方内容</OfficialContent>
+  <!-- EN: Active -->
+  <ContentActive>激活</ContentActive>
+  <!-- EN: Installed, but not active -->
+  <ContentInstalledButNotActive>已安装，但未激活</ContentInstalledButNotActive>
+  <!-- EN: Not installed -->
+  <ContentNotInstalled>未安装</ContentNotInstalled>
   
   <!-- Player faction naming -->
   <!-- EN: Since it looks like you'll be here for a while, {0} thinks that you should give your faction a name. What should your faction be called? -->
@@ -179,28 +187,6 @@
   <!-- Confirm permanently disable dev mode -->
   <!-- EN: Do you really want to permanently disable development mode on this computer?\n\nThis option is for people who want a pure play experience without the temptation to use development tools to gain advantage in normal play.\n\nDevelopment mode can be re-enabled, but doing so requires manually editing configuration files. You'll need to search the Internet to find out how. -->
   <ConfirmPermanentlyDisableDevMode>你真的想要在这台电脑上永久禁用开发者模式吗？</ConfirmPermanentlyDisableDevMode>
-
-  <!-- Research -->
-  <!-- EN: Research -->
-  <Research>研究</Research>
-  <!-- EN: Researched -->
-  <Researched>已研究</Researched>
-  <!-- EN: Unresearched -->
-  <Unresearched>未研究</Unresearched>
-  <!-- EN: Finished -->
-  <Finished>已完成</Finished>
-  <!-- EN: In Progress -->
-  <InProgress>研究中</InProgress>
-  <!-- EN: Locked -->
-  <Locked>未解锁</Locked>
-  <!-- EN: Until you build a RESEARCH BENCH, your colonists will not actually be able to do research.\n\nHowever, you can still look at research projects now. -->
-  <ResearchMenuWithoutBench>你的殖民者们在你建造研究台之前是无法进行研究的。\n\n不过，你仍然可以查看并选择研究项目。</ResearchMenuWithoutBench>
-  <!-- EN: Research prerequisites -->
-  <ResearchPrerequisites>前置研究</ResearchPrerequisites>
-  <!-- EN: Required research bench -->
-  <RequiredResearchBench>需要研究台</RequiredResearchBench>
-  <!-- EN: Required research bench facilities -->
-  <RequiredResearchBenchFacilities>需要研究设施</RequiredResearchBenchFacilities>
   
   <!-- Advanced game start options -->
   <!-- EN: Warning: You will be landing in a frozen environment. It may be hard or nearly impossible to survive. If you are not intending to face an extreme challenge, choose a different site or season. -->
@@ -312,13 +298,15 @@
   <MeleeWarmupTime>近战预热时间</MeleeWarmupTime>
   <!-- EN: Cooldown -->
   <CooldownTime>冷却时间</CooldownTime>
+  <!-- EN: Disarmed -->
+  <DisarmedTime>解除武装</DisarmedTime>
   <!-- EN: Fire rate -->
   <BurstShotFireRate>射速</BurstShotFireRate>
   <!-- EN: Range -->
   <Range>射程</Range>
   <!-- EN: Stopping power -->
   <StoppingPower>抑止能力</StoppingPower>
-  <!-- EN: Hits from this weapon will stagger targets, slowing their movement for several seconds. Targets with a body size larger than the stopping power will be unaffected. -->
+  <!-- EN: Hits from this weapon will stagger targets, slowing their movement for several seconds.\n\nTargets with a body size larger than the stopping power will be unaffected. -->
   <StoppingPowerExplanation>这种武器的攻击会打乱目标的脚步，使其移动速度减缓数秒。体形大于抑止能力的目标不受影响。</StoppingPowerExplanation>
   <!-- EN: Direct hit chance -->
   <DirectHitChance>直接命中几率</DirectHitChance>
@@ -338,8 +326,8 @@
   <MinGrowthTemperature>最低生长温度</MinGrowthTemperature>
   <!-- EN: Max growth temperature -->
   <MaxGrowthTemperature>最高生长温度</MaxGrowthTemperature>
-  <!-- EN: Plants only grow for part of the day, and only when lit. This statistic measures the time the plant needs to spend actually growing to reach full size. The actual real growing time will generally be about twice as long. Low temperatures also slow plant growth. -->
-  <GrowingTimeDesc>植物只在每天部分时间段生长，而且仅在光照充足时生长。生长时间为植物生长至完全成熟所需要的有效生长的时间，因此实际成熟的时间会超过两倍。低温环境同样也会延缓植物生长速度。</GrowingTimeDesc>
+  <!-- EN: Plants only grow for part of the day, and only when lit.\n\nThis statistic measures the time the plant needs to spend actually growing to reach full size.\nThe actual real growing time will generally be about twice as long.\nLow temperatures also slow plant growth. -->
+  <GrowingTimeDesc>植物只在每天部分时间段生长，而且仅在光照充足时生长。\n\n生长时间为植物生长至完全成熟所需要的有效生长的时间，因此实际成熟的时间会超过两倍。\n低温环境同样也会延缓植物生长速度。</GrowingTimeDesc>
   <!-- EN: days -->
   <Days>天</Days>
   <!-- EN: Minimum growing skill to sow -->
@@ -366,6 +354,8 @@
   <MinFoodQuality>最低食物品质</MinFoodQuality>
   <!-- EN: Diet -->
   <Diet>饮食</Diet>
+  <!-- EN: Nutrition need per day -->
+  <NutritationEatenPerDay>每日营养需要</NutritationEatenPerDay>
   <!-- EN: Leather type -->
   <LeatherType>皮革类型</LeatherType>
   <!-- EN: Body size -->
@@ -376,11 +366,13 @@
   <MarketValue>市场价值</MarketValue>
   <!-- EN: Covers -->
   <Covers>覆盖</Covers>
+  <!-- EN: Created at -->
+  <CreatedAt>创建于</CreatedAt>
   <!-- EN: Layer -->
   <Layer>层</Layer>
   <!-- EN: Cover effectiveness -->
   <CoverEffectiveness>掩体效果</CoverEffectiveness>
-  <!-- EN: How effective this is when used as cover in a gunfight. Higher percentages will block more shots. -->
+  <!-- EN: How effective this is when used as cover in a gunfight.\n\nHigher percentages will block more shots. -->
   <CoverEffectivenessExplanation>在枪战时该物体所能提供的掩体效果，更高的数值能够挡住更多的伤害。</CoverEffectivenessExplanation>
   <!-- EN: Experience gain factor -->
   <MedicineXpGainFactor>经验获得系数</MedicineXpGainFactor>
@@ -396,7 +388,7 @@
   <TamenessWillNotDecay>驯养动物不会衰减</TamenessWillNotDecay>
   <!-- EN: Animal filth rate -->
   <AnimalFilthRate>动物污物产生速度</AnimalFilthRate>
-  <!-- EN: Animals produce filth when moving around on constructed floors. This is the average amount of such filth produced per {0} cells walked by this creature.\n\nLarger or less pet-like animals produce more filth. -->
+  <!-- EN: Animals produce filth when moving around on constructed floors.\n\nThis is the average amount of such filth produced per {0} cells walked by this creature.\n\nLarger or less pet-like animals produce more filth. -->
   <AnimalFilthRateExplanation>当动物在建筑地面走动时会产生污物。此值表示这种生物每行走{0}格产生的平均污物量。\n\n巨大或缺少灵性的动物会产生更多的污秽。</AnimalFilthRateExplanation>
   <!-- EN: Time -->
   <TimeRecordsCategory>时间</TimeRecordsCategory>
@@ -412,21 +404,23 @@
   <Skill>技能</Skill>
   <!-- EN: Success rate multiplier -->
   <SurgerySuccessChanceFactor>成功率乘数</SurgerySuccessChanceFactor>
+  <!-- EN: Death chance on fail -->
+  <SurgeryDeathOnFailChance>手术失败的死亡率</SurgeryDeathOnFailChance>
   <!-- EN: Work speed governed by -->
   <WorkSpeedStat>工作速度所受影响</WorkSpeedStat>
   <!-- EN: Output quantity governed by -->
   <EfficiencyStat>产出数量所受影响</EfficiencyStat>
-  <!-- EN: Construction skill required -->
-  <ConstructionSkillRequired>建造技能要求</ConstructionSkillRequired>
-  <!-- EN: Requires this level of Construction in order to build. -->
-  <ConstructionSkillRequiredExplanation>要求此等级的建造技能才能建造。</ConstructionSkillRequiredExplanation>
+  <!-- EN: {0} skill required -->
+  <SkillRequiredToBuild>{0}所需技能</SkillRequiredToBuild>
+  <!-- EN: Requires this level of {0} in order to build. -->
+  <SkillRequiredToBuildExplanation>需要此级别的{0}才能进行建造。</SkillRequiredToBuildExplanation>
   <!-- EN: Nuzzle interval -->
   <NuzzleInterval>亲昵间隔</NuzzleInterval>
-  <!-- EN: How often an animal will nuzzle friendly colonists, on average.\n\nNuzzling is a behavior shared by many animal species, where the animal presses its nose or muzzle against a friend as a sign of affection. Most humans find this cute and it will leave them in a good mood for a period of time. -->
-  <NuzzleIntervalExplanation>表示动物平均而言会有多频繁地亲昵友好的殖民者。\n\n亲昵是许多动物都有的行为，那时动物会用自己的鼻子或嘴去压在朋友身上以作为友爱的标志。大部分人类认为这很可爱，而且会在一段时间内获得好心情。</NuzzleIntervalExplanation>
+  <!-- EN: How often an animal will nuzzle friendly colonists, on average.\n\nNuzzling is a behavior shared by many animal species, where the animal presses its nose or muzzle against a friend as a sign of affection.\nMost humans find this cute and it will leave them in a good mood for a period of time. -->
+  <NuzzleIntervalExplanation>表示动物平均而言会有多频繁地亲昵友好的殖民者。\n\n亲昵是许多动物都有的行为，那时动物会用自己的鼻子或嘴去压在朋友身上以作为友爱的标志。\n大部分人类认为这很可爱，而且会在一段时间内获得好心情。</NuzzleIntervalExplanation>
   <!-- EN: Revenge chance on harm -->
   <HarmedRevengeChance>被伤反击率</HarmedRevengeChance>
-  <!-- EN: The chance this creature seeks revenge upon being harmed by an attacker at rifle range.\n\nThis chance increases if the attacker is closer. If attacked at very close range, the chance is three times greater.\n\nThis chance is applied each time damage is taken, so slower-firing, higher-damage weapons are less likely to trigger it.\n\nTo minimize the chance of a creature seeking revenge, attack it from rifle range with a slow-firing weapon. -->
+  <!-- EN: The chance this creature seeks revenge upon being harmed by an attacker at rifle range.\n\nThis chance increases if the attacker is closer. If attacked at very close range, the chance is three times greater.\nThis chance is applied each time damage is taken, so slower-firing, higher-damage weapons are less likely to trigger it.\nTo minimize the chance of a creature seeking revenge, attack it from rifle range with a slow-firing weapon. -->
   <HarmedRevengeChanceExplanation>表示该生物在步枪射程距离下被击中以后伺机报复的概率。\n\n攻击者靠得越近，此概率越高。如果在非常近的距离发动攻击，此概率将是三倍。\n\n此概率在生物每次受到伤害时都会适用，因此开火慢、伤害高的武器触发它的可能性更小。\n\n为了使生物伺机报复的概率降到最低，在步枪射程距离下用开火较慢的武器攻击之。</HarmedRevengeChanceExplanation>
   <!-- EN: Revenge chance on tame fail -->
   <TameFailedRevengeChance>受训失败袭击率</TameFailedRevengeChance>
@@ -446,7 +440,21 @@
   <ShotsBeforeRearmExplanation>炮塔在必须重置前能够开火的次数。</ShotsBeforeRearmExplanation>
   <!-- EN: Power consumption -->
   <PowerConsumption>功耗</PowerConsumption>
-
+  <!-- EN: Target -->
+  <Target>目标</Target>
+  <!-- EN: Human -->
+  <TargetHuman>人类</TargetHuman>
+  <!-- EN: Animal -->
+  <TargetAnimal>动物</TargetAnimal>
+  <!-- EN: Self -->
+  <TargetSelf>自身</TargetSelf>
+  <!-- EN: Ground -->
+  <TargetGround>地面</TargetGround>
+  <!-- EN: Click to learn more. -->
+  <ClickToLearnMore>点击了解更多。</ClickToLearnMore>
+  <!-- EN: Click to view factions. -->
+  <ClickToViewFactions>单击以查看派系。</ClickToViewFactions>
+  
   <!-- Trade -->
   <!-- EN: Positive numbers buy.\nNegative numbers sell. -->
   <PositiveBuysNegativeSells>正数购买\n负数出售</PositiveBuysNegativeSells>
@@ -480,6 +488,8 @@
   <TraderWillNotTrade>贸易商不想交易这种商品。</TraderWillNotTrade>
   <!-- EN: Negotiator -->
   <Negotiator>谈判者</Negotiator>
+  <!-- EN: Negotiator: {0} (+{1}) -->
+  <NegotiatorTradeDialogInfo>谈判者: {0} (+{1})</NegotiatorTradeDialogInfo>
   <!-- EN: Your negotiator {1_labelShort} cannot talk properly because of poor health. -->
   <NegotiatorTalkingImpaired>你的谈判者{1_labelShort}由于健康原因而无法正常说话。</NegotiatorTalkingImpaired>
   <!-- EN: Your negotiator {1_labelShort} cannot hear properly because of poor health. -->
@@ -518,6 +528,12 @@
   <!-- Sellable items -->
   <!-- EN: Things this trader will buy -->
   <SellableItemsTitle>此贸易者会购买的物品</SellableItemsTitle>
+  <!-- EN: Never visited - stock unknown -->
+  <TraderNotVisitedYet>从未访问过-库存不明</TraderNotVisitedYet>
+  <!-- EN: Restocked since your last visit -->
+  <TraderRestockedSinceLastVisit>上次访问后已补货</TraderRestockedSinceLastVisit>
+  <!-- EN: Next restock: {0} days -->
+  <NextTraderRestock>下次补货: {0} 天</NextTraderRestock>
   <!-- EN: Creatures -->
   <PawnsTabShort>生物</PawnsTabShort>
   
@@ -556,8 +572,8 @@
   <DaysWorthOfFoodInfoRot>{0}之后变质</DaysWorthOfFoodInfoRot>
   <!-- EN: Unlimited -->
   <InfiniteDaysWorthOfFoodInfo>无限</InfiniteDaysWorthOfFoodInfo>
-  <!-- EN: The approximate number of days before at least one person or animal will be out of food. Different species have different diets, so one may run out of food before others. This value is calculated more accurately after the route is chosen.\n\nAffected by:\n  - Carried food type and amount\n  - Caravan members and their diets\n  - Foraging rate\n  - Whether animals can graze\n  - Time until food rots\n  - Hot weather rots food faster -->
-  <DaysWorthOfFoodTooltip>远行队所携带的食物预计可以维持的天数。\n\n计算包括人类和动物的食物，并考虑最坏的情况。 这表示这么多天后，至少有一个动物或人将会没有食物。</DaysWorthOfFoodTooltip>
+  <!-- EN: The approximate number of days before at least one person or animal will be out of food. Different species have different diets, so one may run out of food before others. This value is calculated more accurately after the route is chosen.\n\nAffected by:\n  - Current pawn inventory\n  - Carried food type and amount\n  - Caravan members and their diets\n  - Foraging rate\n  - Whether animals can graze\n  - Time until food rots\n  - Hot weather rots food faster -->
+  <DaysWorthOfFoodTooltip>远行队所携带的食物预计可以维持的天数。\n\n受以下因素影响:\n - 当前的典当库存\n\n计算包括人类和动物的食物，并考虑最坏的情况。 这表示这么多天后，至少有一个动物或人将会没有食物。</DaysWorthOfFoodTooltip>
   <!-- EN: (only the first waypoint is taken into account) -->
   <DaysWorthOfFoodTooltip_OnlyFirstWaypoint>\n（只有第一个路径点才被计入）</DaysWorthOfFoodTooltip_OnlyFirstWaypoint>
   <!-- EN: Your caravan only has {0} days worth of food and will become hungry quickly. -->
@@ -590,7 +606,7 @@
   <AnimalCanGrazeTip>这种动物可以放牧以从环境中觅食，而非食用远行队所携带的食物。放牧只能在特定的生态区和特定的温度下进行。</AnimalCanGrazeTip>
   <!-- EN: Nutrition foraged per day. The actual amount foraged is also affected by biome forageability.\n\n{0} -->
   <NutritionForagedPerDayTip>每日营养采集。实际数值也受到生态区的远行采集量影响。\n\n{0}</NutritionForagedPerDayTip>
-  <!-- EN: Nutrition eaten per day. For reference, simple meals have {0} nutrition.\n\nCan eat: {2}\n\nLegend:\n{1}. -->
+  <!-- EN: Nutrition eaten per day. For reference, simple meals have {0} nutrition.\n\nCan eat: {2}\n\nLegend:\n{1} -->
   <NutritionEatenPerDayTip>每日营养消耗。作为参考，简单的食物有{0}营养值。\n\n可食用：{2}\n\n图例：\n{1}。</NutritionEatenPerDayTip>
   <!-- EN: Mass carried -->
   <MassCarriedSimple>已载重</MassCarriedSimple>
@@ -657,19 +673,33 @@
   <!-- EN: How many of this item the caravan has ready to give to the new caravan. -->
   <SplitCaravanThingCountTip>此远行队能为新远行队配备多少此种物品。</SplitCaravanThingCountTip>
   
+  <!-- Caravan misc -->
+  <!-- EN: Are you sure you want to attack {0}?\n\nThis will make {1} hostile to you, and they will eventually start raiding your colony! -->
+  <ConfirmAttackFriendlyFaction>您确定要攻击{0}吗?\n\n这将使{1}与你敌对，最终他们会开始袭击你的殖民地!</ConfirmAttackFriendlyFaction>
+  
   <!-- Load transporters -->
   <!-- EN: Load {0} -->
   <LoadTransporters>装载{0}</LoadTransporters>
   <!-- EN: The assigned people and items are too heavy for the transport pods. -->
   <TooBigTransportersMassUsage>指定的人和物品的重量超过运输舱的最大载重能力。</TooBigTransportersMassUsage>
+  <!-- EN: The assigned people and items are too heavy for the shuttle. -->
+  <TooBigTransporterSingleMassUsage>指定的人和物品的重量超过穿梭机的最大载重能力。</TooBigTransporterSingleMassUsage>
   <!-- EN: You can't send empty transport pods. -->
   <CantSendEmptyTransportPods>你无法发射空的运输舱。</CantSendEmptyTransportPods>
+  <!-- EN: You can't send empty shuttle. -->
+  <CantSendEmptyTransporterSingle>你无法发射空的穿梭机。</CantSendEmptyTransporterSingle>
   <!-- EN: {1_labelShort} can't reach the transport pods. -->
   <PawnCantReachTransporters>{1_labelShort}无法到达到运输舱。</PawnCantReachTransporters>
+  <!-- EN: {1_labelShort} can't reach the shuttle. -->
+  <PawnCantReachTransporterSingle>{1_labelShort}无法到达到穿梭机。</PawnCantReachTransporterSingle>
   <!-- EN: There is no path between the transport pods and the {0}. -->
   <TransporterItemIsUnreachableSingle>运输舱与{0}之间没有路径。</TransporterItemIsUnreachableSingle>
+  <!-- EN: There is no path between the shuttle and the {0}. -->
+  <TransporterSingleItemIsUnreachableSingle>穿梭机与{0}之间没有路径。</TransporterSingleItemIsUnreachableSingle>
   <!-- EN: There is no path between the transport pods and {0}x {1}. -->
   <TransporterItemIsUnreachableMulti>运输舱与{1}x{0}之间没有路径。</TransporterItemIsUnreachableMulti>
+  <!-- EN: There is no path between the shuttle and {0}x {1}. -->
+  <TransporterSingleItemIsUnreachableMulti>穿梭机与{1}x{0}之间没有路径。</TransporterSingleItemIsUnreachableMulti>
   
   <!-- Comms -->
   <!-- EN: Social skill: {0} -->
@@ -863,4 +893,26 @@
   <!-- EN: The caravan will be immobile if you send the pods to an empty tile. Continue anyway? -->
   <TransportersCaravanWillBeImmobile>如果将空投仓发射到地图上的空地，远行队将不会移动。是否继续？</TransportersCaravanWillBeImmobile>
 
+  <!-- Confirm cancel monument marker -->
+  <!-- EN: Do you really want to remove this monument marker? -->
+  <ConfirmCancelMonumentMarker>确定要消除纪念碑上的标记嘛？</ConfirmCancelMonumentMarker>
+
+  <!-- Abilities -->
+  <!-- EN: Line of sight required -->
+  <AbilityRequiresLOS>所需视线</AbilityRequiresLOS>
+  <!-- EN: Entropy gain  -->
+  <AbilityEntropyGain>熵增益</AbilityEntropyGain>
+  <!-- EN: Effect duration -->
+  <AbilityDuration>效果持续时间</AbilityDuration>
+  <!-- EN: Effect radius -->
+  <AbilityEffectRadius>效果半径</AbilityEffectRadius>
+  <!-- EN: Casting time -->
+  <AbilityCastingTime>释放时间</AbilityCastingTime>
+  <!-- EN: No line of sight to target. -->
+  <AbilityCannotHitTarget>没有瞄准目标。</AbilityCannotHitTarget>
+  <!-- EN: {0} must target an empty area. -->
+  <AbilityOccupiedCells>{0}必须瞄准空白区域。</AbilityOccupiedCells>
+  <!-- EN: {0} must target a walkable area. -->
+  <AbilityUnwalkable>{0}必须瞄准步行区域。</AbilityUnwalkable>
+  
 </LanguageData>

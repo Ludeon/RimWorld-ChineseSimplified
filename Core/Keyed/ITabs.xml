@@ -42,7 +42,9 @@
   <TabFormingCaravan>远行队</TabFormingCaravan>
   <!-- EN: Contents -->
   <TabTransporterContents>内容</TabTransporterContents>
-
+  <!-- EN: Contents -->
+  <TabCasketContents>内容</TabCasketContents>
+  
   <!-- Bills tab  -->
   <!-- EN: Add bill -->
   <AddBill>添加清单</AddBill>
@@ -78,6 +80,24 @@
   <RecruitmentResistance>招募抵抗</RecruitmentResistance>
   <!-- EN: Recruitment difficulty -->
   <RecruitmentDifficulty>招募难度</RecruitmentDifficulty>
+  <!-- EN: Recruitment chance -->
+  <RecruitmentChance>招募几率</RecruitmentChance>
+  <!-- EN: Recruit difficulty factor: {0}\nMood factor: {1}\nCombined base chance: {2} -->
+  <RecruitmentChanceExplanation>招募难度系数: {0}\n情绪系数: {1}\n综合机率: {2}</RecruitmentChanceExplanation>
+  <!-- EN: \n- - - - - - - - - -\nLast recruitment attempt\nRecruiter: {3}\nNegotiation ability factor: {4}\nOpinion factor: {5} ({6})\nFinal chance for {3}: {7} -->
+  <RecruitmentChanceWithLastRecruiterExplanationPart>\n- - - - - - - - - -\n上一次招募尝试\n招募者: {3}\n谈判能力系数: {4}\n意见系数: {5} ({6})\n最终几率 {3}: {7}</RecruitmentChanceWithLastRecruiterExplanationPart>
+  <!-- EN: \nResistance reduction: {0} -->
+  <RecruitmentLastRecruiterResistanceReduceExplanationPart>抵抗降低: {0}</RecruitmentLastRecruiterResistanceReduceExplanationPart>
+  <!-- EN: Relations gain on release -->
+  <PrisonerReleasePotentialRelationGains>关系改善（释放）</PrisonerReleasePotentialRelationGains>
+  <!-- EN: The faction relations improvement you will get from the prisoner's faction if you release them. This is affected by the prisoner's health and mental condition. -->
+  <PrisonerReleaseRelationGainsDesc>如果释放该囚犯，你将获得该派系关系的改善。 其程度受到囚犯健康和精神状况的影响。</PrisonerReleaseRelationGainsDesc>
+  <!-- EN: Prison break interval -->
+  <PrisonBreakMTBDays>越狱间隔</PrisonBreakMTBDays>
+  <!-- EN: The mean number of days of time awake between prison break attempts. Affected by mood, mobility and time since the last prison break.\n\nThis number ignores time spent sleeping, so the actual average prison break interval will usually be longer. -->
+  <PrisonBreakMTBDaysDescription>两次尝试越狱之间的平均时间天数。自上次越狱以后的心情，活动能力和时间都是其影响的因素。\n\n该数值会忽略睡眠的时间，因此实际平均越狱间隔通常会更长。</PrisonBreakMTBDaysDescription>
+  <!-- EN: Slave price -->
+  <SlavePrice>奴隶价格</SlavePrice>
   <!-- EN: Gets food -->
   <GetsFood>食物供应</GetsFood>
   <!-- EN: Doctors care -->
@@ -141,7 +161,7 @@
   <!-- EN: amputate -->
   <Amputate>截肢</Amputate>
   <!-- EN: harvest -->
-  <HarvestOrgan>摘取</HarvestOrgan>
+  <HarvestOrgan>采集</HarvestOrgan>
   <!-- EN: remove -->
   <RemoveOrgan>摘除</RemoveOrgan>
   <!-- EN: memory -->
@@ -194,7 +214,7 @@
   <!-- Training tab -->
   <!-- EN: Trainability -->
   <Trainability>可训练度</Trainability>
-  <!-- EN: Requires trainability {0}. -->
+  <!-- EN: Requires {0} trainability. -->
   <CannotTrainNotSmartEnough>智力级别要求: {0}。</CannotTrainNotSmartEnough>
   <!-- EN: {1_labelShort} is too small to train this. -->
   <CannotTrainTooSmall>{1_labelShort}体形过小，无法训练。</CannotTrainTooSmall>
@@ -207,6 +227,8 @@
   <NoRelationships>（无关系）</NoRelationships>
   <!-- EN: Kidnapped -->
   <Kidnapped>被绑架</Kidnapped>
+  <!-- EN: Lent to {FACTION_name}, returns in {1} -->
+  <Lent>借给 {FACTION_name}, 返回 {1}</Lent>
   <!-- EN: Missing -->
   <Missing>失踪</Missing>
   <!-- EN: Slave -->
@@ -287,7 +309,17 @@
   <!-- Transporter contents -->
   <!-- EN: Remove {{0}}x {0} -->
   <RemoveSliderText>去掉 {{0}}x {0}</RemoveSliderText>
+  <!-- EN: Contained items -->
+  <ContainedItems>包含的物品</ContainedItems>
   <!-- EN: Do you really want to remove {0}? -->
   <ConfirmRemoveItemDialog>你真的想去掉{0}吗？</ConfirmRemoveItemDialog>
+  
+  <!-- Quests tab -->
+  <!-- EN: Dismiss this quest and move it to the historical tab.\n\nThe quest can be un-dismissed at any time. Its effects and expiry times will proceed as normal. You won't recieve notifications about dismissed quests. -->
+  <DismissQuest>取消此任务并将其移至「历史记录」标签。\n\n可以随时取消任务。其影响和有效期将照常进行。你不会收到有关已取消任务的通知。</DismissQuest>
+  <!-- EN: Un-dismiss this quest.\n\nThe quest will be returned to the available or active tab, and notifications will be re-enabled. -->
+  <UnDismissQuest>取消关闭此任务。\n\n该任务将返回到可用的或主动标签，通知将重新启用。</UnDismissQuest>
+  <!-- EN: This quest is here because it was dismissed.\n\nYou can un-dismiss it until it expires. -->
+  <QuestDismissed>该任务已被撤消。\n\n你可以随时取消其撤消的操作，在该任务到期之前。</QuestDismissed>
 
 </LanguageData>

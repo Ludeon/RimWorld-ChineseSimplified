@@ -1,12 +1,19 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
+  <!-- EN: destroy apparel -->
+  <DestroyApparel.label>销毁衣物</DestroyApparel.label>
+  <!-- EN: Use heat to destroy unwanted apparels. This process is faster than smelting, and works on non-smeltable items, but yields no resources. -->
+  <DestroyApparel.description>使用高温摧毁不需要的衣物。比熔炼快，用于不可熔炼的物品，但不产出资源。</DestroyApparel.description>
+  <!-- EN: Destroying apparel. -->
+  <DestroyApparel.jobString>正在销毁衣物。</DestroyApparel.jobString>
+  
   <!-- EN: destroy weapon -->
   <DestroyWeapon.label>销毁武器</DestroyWeapon.label>
   <!-- EN: Use heat to destroy unwanted weapons. This process is faster than smelting, and works on non-smeltable items, but yields no resources. -->
   <DestroyWeapon.description>用强热销毁不想要的武器。比熔炼快，用于不可熔炼的物品，但不产出资源。</DestroyWeapon.description>
   <!-- EN: Destroying weapon. -->
-  <DestroyWeapon.jobString>制作销毁武器。</DestroyWeapon.jobString>
+  <DestroyWeapon.jobString>正在销毁武器。</DestroyWeapon.jobString>
   
   <!-- EN: smelt metal from slag -->
   <ExtractMetalFromSlag.label>熔炼钢渣块</ExtractMetalFromSlag.label>
@@ -56,6 +63,13 @@
   <Make_StoneBlocksAny.description>将岩石块切割成可用的石块。</Make_StoneBlocksAny.description>
   <!-- EN: Cutting stone blocks from chunk. -->
   <Make_StoneBlocksAny.jobString>正在切割石材。</Make_StoneBlocksAny.jobString>
+  
+  <!-- EN: smelt apparel -->
+  <SmeltApparel.label>熔炼衣物</SmeltApparel.label>
+  <!-- EN: Use heat and strong electromagnets to break down apparels into useful resources. -->
+  <SmeltApparel.description>用强热和电磁铁将衣物分解成有用的资源。</SmeltApparel.description>
+  <!-- EN: Smelting apparel. -->
+  <SmeltApparel.jobString>正在熔炼衣物。</SmeltApparel.jobString>
   
   <!-- EN: smelt weapon -->
   <SmeltWeapon.label>熔炼武器</SmeltWeapon.label>

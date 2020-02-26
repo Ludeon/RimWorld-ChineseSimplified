@@ -1,6 +1,15 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
+  <!-- EN: allow biocoded weapons -->
+  <AllowBiocodedWeapons.label>允许生物识别武器</AllowBiocodedWeapons.label>
+  
+  <!-- EN: allow burnable -->
+  <AllowBurnableApparel.label>允许可燃烧物品</AllowBurnableApparel.label>
+  
+  <!-- EN: allow burnable -->
+  <AllowBurnableWeapons.label>允许可燃烧物品</AllowBurnableWeapons.label>
+  
   <!-- EN: allow colonist corpses -->
   <AllowCorpsesColonist.label>允许尸体（殖民者）</AllowCorpsesColonist.label>
   <!-- EN: Allow the dead bodies of colonists. -->
@@ -21,10 +30,22 @@
   <!-- EN: Allow organic things which haven't started to rot yet. -->
   <AllowFresh.description>允许尚未腐烂的有机物。</AllowFresh.description>
   
+  <!-- EN: allow non-biocoded weapons -->
+  <AllowNonBiocodedWeapons.label>允许非生物识别武器</AllowNonBiocodedWeapons.label>
+  
+  <!-- EN: allow non-burnable -->
+  <AllowNonBurnableApparel.label>允许不可燃烧物品</AllowNonBurnableApparel.label>
+  
+  <!-- EN: allow non-burnable -->
+  <AllowNonBurnableWeapons.label>允许不可燃烧物品</AllowNonBurnableWeapons.label>
+  
   <!-- EN: allow clean apparel -->
   <AllowNonDeadmansApparel.label>允许非死者的衣物</AllowNonDeadmansApparel.label>
   <!-- EN: Allow clothing that was never worn by a corpse. Most humans find corpse-tainted clothing to be disturbing, and traders will not accept it. -->
   <AllowNonDeadmansApparel.description>允许从未被死者穿过的衣服。大多数人会对被尸体污染的衣服感到不安，商人也不会收购这些东西。</AllowNonDeadmansApparel.description>
+  
+  <!-- EN: allow non-smeltable -->
+  <AllowNonSmeltableApparel.label>允许不可熔炼物品</AllowNonSmeltableApparel.label>
   
   <!-- EN: allow non-smeltable -->
   <AllowNonSmeltableWeapons.label>允许不可熔炼物品</AllowNonSmeltableWeapons.label>
@@ -41,5 +62,8 @@
   
   <!-- EN: allow smeltable -->
   <AllowSmeltable.label>允许可熔炼物品</AllowSmeltable.label>
+  
+  <!-- EN: allow smeltable -->
+  <AllowSmeltableApparel.label>允许可熔炼物品</AllowSmeltableApparel.label>
   
 </LanguageData>

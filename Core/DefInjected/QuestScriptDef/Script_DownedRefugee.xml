@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questDescription(askerIsNull==true)->[refugee_nameDef] contacts you and requests help. [refugee_pronoun] is wounded and unable to move.\n\n[refugee_nameDef] is a [refugee_age]-year-old [refugee_title]. [refugee_pronoun] promises to join you if you rescue [refugee_objective].\n\n[refugee_nameDef] says that [allSitePartsDescriptionsExceptFirst][pawnInvolvedInQuestInfo]</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_nameDef], [asker_faction_leaderTitle] of [asker_faction_name], says that [asker_possessive] friend has been wounded while traveling. The victim is [refugee_nameIndef], a [refugee_age]-year-old [refugee_title].\n\n[asker_nameDef] has nobody to spare to rescue [refugee_nameDef], but says that if you can make it to [refugee_nameDef]'s position and rescue [refugee_objective], [refugee_pronoun] will join you.\n\n[asker_nameDef] says that [allSitePartsDescriptionsExceptFirst][pawnInvolvedInQuestInfo]</li>
+    <li>pawnInvolvedInQuestInfo(priority=1)->[refugee_pawnInvolvedInQuestInfo]</li>
+    <li>pawnInvolvedInQuestInfo-></li>
+  -->
+  <OpportunitySite_DownedRefugee.questDescriptionRules.rulesStrings>
+    <li>questDescription(askerIsNull==true)->[refugee_nameDef]通过无线电联系上你并请求救助。[refugee_pronoun]受伤了并且无法行动。\n\n[refugee_nameDef]是一名[refugee_age]岁的[refugee_title]。如果你完成解救[refugee_objective]，[refugee_pronoun]发誓会加入你的殖民地。\n\n[refugee_nameDef]告诉我们[allSitePartsDescriptionsExceptFirst][pawnInvolvedInQuestInfo]</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_faction_name]的[asker_faction_leaderTitle]，[asker_nameDef]告诉[asker_possessive]的朋友在旅行的时候因受伤无法行动。这名朋友名叫[refugee_nameIndef]，是一个[refugee_age]岁[refugee_title]。\n\n[asker_nameDef]现在没法派出多余的人手去帮助[refugee_nameDef]，不过如果我们能赶到[refugee_nameDef]现在的位置并帮助[refugee_objective]，[refugee_pronoun]就会加入我们。\n\n[asker_nameDef]透露[allSitePartsDescriptionsExceptFirst][pawnInvolvedInQuestInfo]</li>
+    <li>pawnInvolvedInQuestInfo(priority=1)->[refugee_pawnInvolvedInQuestInfo]</li>
+    <li>pawnInvolvedInQuestInfo-></li>
+  </OpportunitySite_DownedRefugee.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->Saving [refugee_nameDef]</li>
+    <li>questName->The Rescue of [refugee_nameDef]</li>
+    <li>questName->[refugee_nameDef]'s Rescue</li>
+    <li>questName->[refugee_nameDef]'s Salvation</li>
+  -->
+  <OpportunitySite_DownedRefugee.questNameRules.rulesStrings>
+    <li>questName->挽救[refugee_nameDef]</li>
+    <li>questName->[refugee_nameDef]解救任务</li>
+    <li>questName->救援[refugee_nameDef]</li>
+    <li>questName->拯救[refugee_nameDef]</li>
+  </OpportunitySite_DownedRefugee.questNameRules.rulesStrings>
+  <!-- EN: Quest expired: [resolvedQuestName] -->
+  <OpportunitySite_DownedRefugee.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>任务已失效：[resolvedQuestName]</OpportunitySite_DownedRefugee.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>
+  <!-- EN: [refugee_nameDef]'s signal has been lost, and [refugee_pronoun] can no longer be rescued. The quest [resolvedQuestName] has expired. -->
+  <OpportunitySite_DownedRefugee.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>我们失去了[refugee_nameDef]的联络信号，再也无法救援[refugee_pronoun]。任务[resolvedQuestName]已经失效。</OpportunitySite_DownedRefugee.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>
+  
+</LanguageData>
