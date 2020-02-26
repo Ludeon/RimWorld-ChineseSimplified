@@ -32,6 +32,35 @@
     <li>deflecting->glancing</li>
   -->
   <Combat_Deflect.rulePack.rulesStrings>
+    <li>r_logentry(p=0.5)->[INITIATOR_definite][damaged_past][atMaybe][RECIPIENT_definite]的[recipient_part0_label][deflected_result]。</li>
+    <li>r_logentry(p=0.3)->[INITIATOR_definite]用[implement][skillAdvMaybe][damaged_past][atMaybe][RECIPIENT_definite][deflected_result]。</li>
+    <li>r_logentry(p=0.3)->[INITIATOR_definite] [skillAdvMaybe] [damaged_past] [atMaybe] [RECIPIENT_definite] [deflected_result]。</li>
+    <li>r_logentry(p=0.1)->[INITIATOR_definite], [skillDescMelee], [damaged_past] [RECIPIENT_definite]的[recipient_part0_label][deflected_result]。</li>
+    <li>r_logentry(p=0.1)->[INITIATOR_definite]使用[implement]的[damaged_inf]攻击[RECIPIENT_definite][deflected_result]。</li>
+    <li>r_logentry(p=0.1)->[INITIATOR_definite] [skillAdvMaybe]使用[implement][damaged_inf][RECIPIENT_definite][deflected_result]。</li>
+    <li>skillAdvMaybe-></li>
+    <li>skillAdvMaybe->[skillAdv]</li>
+    <li>atMaybe-></li>
+    <li>atMaybe->了</li>
+    <li>deflected_result->, 但[TOOL_label][harmlessly_opt][deflected] </li>
+    <li>deflected_result->, 但[harmlessly_opt][deflecting][RECIPIENT_possessive]的护甲 </li>
+    <li>harmlessly_opt(p=4)-></li>
+    <li>harmlessly_opt->[harmlessly]</li>
+    <li>harmlessly->柔弱的</li>
+    <li>harmlessly->无力的</li>
+    <li>deflected->弹开</li>
+    <li>deflected->刮过</li>
+    <li>deflected->划过</li>
+    <li>deflected->擦过</li>
+    <li>deflected->弹开</li>
+    <li>deflected->撇过</li>
+    <li>deflecting->反弹开</li>
+    <li>deflecting->刮过</li>
+    <li>deflecting->划过</li>
+    <li>deflecting->擦过</li>
+    <li>deflecting->弹开</li>
+    <li>deflecting->撇过</li>
+    <!--
     <li>r_logentry(p=1)->[INITIATOR_definite][damaged_past][at][RECIPIENT_definite]的[recipient_part0_label][deflected_result]。</li>
     <li>r_logentry(p=0.3)->[INITIATOR_definite][expertly]挥舞着[INITIATOR_possessive][WEAPON_label]，[damaged_past][RECIPIENT_definite]的[recipient_part0_label][deflected_result]。</li>
     <li>r_logentry(p=0.3)->[INITIATOR_definite]用[implement]给了[RECIPIENT_definite]一记[damaged_inf][deflected_result]。</li>
@@ -51,7 +80,7 @@
     <li>scraped_present->刮着</li>
     <li>scraped_present->滑着</li>
     <li>scraped_past->刮过目标</li>
-    <li>scraped_past->滑过目标</li>
+    <li>scraped_past->滑过目标</li>-->
   </Combat_Deflect.rulePack.rulesStrings>
   
   <!-- EN:
@@ -64,8 +93,10 @@
     <li>result->but the attack was cleverly avoided</li>
   -->
   <Combat_Dodge.rulePack.rulesStrings>
-    <li>r_logentry(p=0.2)->[RECIPIENT_definite]躲闪了[INITIATOR_definite]用[implement]发动的[damaged_inf]。</li>
-    <li>r_logentry(p=0.2)->[RECIPIENT_definite]躲闪了[INITIATOR_definite]的[damaged_inf]。</li>
+    <li>r_logentry(p=0.5)->[RECIPIENT_definite] [skillAdvMaybe]闪开了[INITIATOR_definite]用[implement]的[damaged_inf]。</li>
+    <li>r_logentry(p=0.5)->[RECIPIENT_definite] [skillAdvMaybe]闪开了[INITIATOR_definite]的[damaged_inf].</li>
+    <li>skillAdvMaybe-></li>
+    <li>skillAdvMaybe->[skillAdv]</li>
     <li>result->但[RECIPIENT_definite]闪开了</li>
     <li>result->但被[RECIPIENT_definite]的假动作欺骗</li>
     <li>result->但这次攻击被巧妙地化解</li>
@@ -94,6 +125,27 @@
     <li>action(p=0.3)->[INITIATOR_definite] used [implement] [skillAdv] to [damaged_inf] [RECIPIENT_definite]</li>
   -->
   <Combat_Hit.rulePack.rulesStrings>
+    <li>r_logentry(p=1.0)->[INITIATOR_definite][damaged_past][RECIPIENT_definite]的[recipient_part0_label]。</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite][strikeAdv][damaged_past][RECIPIENT_definite]的[recipient_part0_label] 。</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite][damaged_past][RECIPIENT_definite]的[recipient_part0_label], [flavortext_consequence]。</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite][skillDescMelee][damaged_past][RECIPIENT_definite]的[recipient_part0_label]。</li>
+    <li>r_logentry(p=0.2)->[INITIATOR_definite][skillDescMelee][strikeAdv][damaged_past][RECIPIENT_definite]的[recipient_part0_label]。</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite][destroyed_past][RECIPIENT_definite]的[destroyed_targets]。</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite][destroyed_past][RECIPIENT_definite]的[destroyed_targets][destroyed_suffix]。</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite]用[implement][destroyed_past][RECIPIENT_definite]的[destroyed_targets]。</li>
+    <li>r_logentry(p=1,recipient_part_count==0)->[INITIATOR_definite]用[implement][damaged_past][RECIPIENT_definite]。</li>
+    <li>r_logentry(p=0.4,recipient_part_count==0)->[INITIATOR_definite]用[implement][skillAdv][damaged_past][RECIPIENT_definite]。</li>
+    <li>result(p=1,recipient_part_damaged_count==0)->[destroyed_present][RECIPIENT_possessive][destroyed_targets]</li>
+    <li>result(p=1,recipient_part_destroyed_count==0)->[damaged_present][RECIPIENT_possessive][damaged_targets]</li>
+    <li>result(p=1)->[destroyed_present][RECIPIENT_possessive][destroyed_targets]并[damaged_present][RECIPIENT_possessive][damaged_targets]</li>
+    <li>action(p=1.0)->[INITIATOR_definite]用[implement][damaged_past][RECIPIENT_definite]</li>
+    <li>action(p=0.3)->[INITIATOR_definite][damaged_past][RECIPIENT_definite]</li>
+    <li>action(p=0.3)->[INITIATOR_definite][skillDescMelee][damaged_past][RECIPIENT_definite]</li>
+    <li>action(p=0.3)->[INITIATOR_definite]用[implement]的[damaged_inf]攻击[RECIPIENT_definite]</li>
+    <li>action(p=0.3)->[INITIATOR_definite]用[implement]的[damaged_inf][skillDescMelee]攻击[RECIPIENT_definite]</li>
+    <li>action(p=0.3)->[INITIATOR_definite]用[implement][damaged_inf][RECIPIENT_definite]</li>
+    <li>action(p=0.3)->[INITIATOR_definite]用[implement][skillAdv][damaged_inf][RECIPIENT_definite]</li>
+    <!--
     <li>r_logentry(p=0.3)->[INITIATOR_definite][damaged_past][RECIPIENT_definite]的[recipient_part0_label]。</li>
     <li>r_logentry(p=0.1)->[INITIATOR_definite][adverb_flavortext][damaged_past][RECIPIENT_definite]的[recipient_part0_label]。</li>
     <li>r_logentry(p=0.1)->[INITIATOR_definite][flavortext_situation][damaged_past][RECIPIENT_definite]的[recipient_part0_label]。</li>
@@ -110,7 +162,7 @@
     <li>action(p=0.3)->[INITIATOR_definite]用[implement]对[RECIPIENT_definite]发动[damaged_inf]</li>
     <li>action(p=0.3)->[INITIATOR_definite]用[implement][damaged_inf][RECIPIENT_definite]</li>
     <li>action->[INITIATOR_definite]用[implement][damaged_past][RECIPIENT_definite]</li>
-    <li>action(p=0.6)->[INITIATOR_definite][damaged_past][RECIPIENT_definite]</li>
+    <li>action(p=0.6)->[INITIATOR_definite][damaged_past][RECIPIENT_definite]</li>-->
   </Combat_Hit.rulePack.rulesStrings>
   
   <!-- EN:
@@ -133,11 +185,29 @@
     <li>result(initiator_flesh!=Mechanoid)->but hesitated at the last second</li>
   -->
   <Combat_Miss.rulePack.rulesStrings>
-    <li>r_logentry(p=0.2)->[RECIPIENT_definite]躲闪了[INITIATOR_definite]用[WEAPON_label]使出的[damaged_inf]。</li>
-    <li>r_logentry(p=0.2)->[INITIATOR_definite]用[implement]使出的[damaged_inf]没有命中[RECIPIENT_definite]。</li>
-    <li>r_logentry(p=0.2)->[INITIATOR_definite]试图用[implement][damaged_inf][RECIPIENT_definite]但[failtype]。</li>
-    <li>r_logentry(p=0.2)->在试图[damaged_inf][RECIPIENT_definite]时，[INITIATOR_definite][failtype]。</li>
-    <li>r_logentry(p=0.2)->[INITIATOR_definite][failtype]。</li>
+    <li>r_logentry(p=0.3)->[RECIPIENT_definite]闪开了[INITIATOR_definite]用[WEAPON_label]的[damaged_inf]。</li>
+    <li>r_logentry(p=0.3)->[INITIATOR_definite]用[implement]使出的[damaged_inf]没有命中[RECIPIENT_definite]。</li>
+    <li>r_logentry(p=0.3)->[INITIATOR_definite]尝试用[implement][damaged_inf][RECIPIENT_definite]，但[failtype]。</li>
+    <li>r_logentry(p=0.3)->[INITIATOR_definite]试图[damaged_inf][RECIPIENT_definite]，但[failtype]</li>
+    <li>r_logentry(p=0.3)->[INITIATOR_definite]想要[skillAdvMaybe][damaged_inf][RECIPIENT_definite],但[failtype]。</li>
+    <li>skillAdvMaybe-></li>
+    <li>skillAdvMaybe->[skillAdv]</li>
+    <li>failtype(p=5)->打空了</li>
+    <li>failtype->失去重心</li>
+    <li>failtype->绊倒了</li>
+    <li>failtype->摔倒了</li>
+    <li>failtype->脚底一个踉跄</li>
+    <li>result(p=4)->但打空了</li>
+    <li>result->但只击中了空气</li>
+    <li>result->但挥动的幅度太大</li>
+    <li>result->但在最后失去了重心</li>
+    <li>result(initiator_flesh!=Mechanoid)->但在最后犹豫不决</li>
+    <!--
+    <li>r_logentry(p=0.3)->[RECIPIENT_definite]躲闪了[INITIATOR_definite]用[WEAPON_label]使出的[damaged_inf]。</li>
+    <li>r_logentry(p=0.3)->[INITIATOR_definite]用[implement]使出的[damaged_inf]没有命中[RECIPIENT_definite]。</li>
+    <li>r_logentry(p=0.3)->[INITIATOR_definite]试图用[implement][damaged_inf][RECIPIENT_definite]但[failtype]。</li>
+    <li>r_logentry(p=0.3)->在试图[damaged_inf][RECIPIENT_definite]时，[INITIATOR_definite][failtype]。</li>
+    <li>r_logentry(p=0.3)->[INITIATOR_definite][failtype]。</li>
     <li>failtype->被绊倒了</li>
     <li>failtype->摔倒了</li>
     <li>failtype->被闪开</li>
@@ -147,7 +217,7 @@
     <li>result->但打空了</li>
     <li>result->可是幅度过大</li>
     <li>result->然而在最后一刻摔倒了</li>
-    <li>result(initiator_flesh!=Mechanoid)->却在最后一瞬间迟疑了</li>
+    <li>result(initiator_flesh!=Mechanoid)->却在最后一瞬间迟疑了</li>-->
   </Combat_Miss.rulePack.rulesStrings>
   
 </LanguageData>

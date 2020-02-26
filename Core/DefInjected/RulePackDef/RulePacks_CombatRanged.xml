@@ -126,18 +126,14 @@
   <Combat_RangedDamage.rulePack.rulesStrings>
     <li>r_logentry->[INITIATOR_definite]的[WEAPON_projectile_label][destroyed_past][RECIPIENT_definite]的[destroyed_targets]。</li>
     <li>r_logentry->[INITIATOR_definite]的[WEAPON_projectile_label][destroyed_past][RECIPIENT_definite]的[destroyed_targets][to][destroyed_suffix]。</li>
-    <li>r_logentry->[INITIATOR_definite]的[WEAPON_projectile_label][expertly][destroyed_past][RECIPIENT_definite]的[destroyed_targets]。</li>
     <li>r_logentry(p=2)->[INITIATOR_definite]的[WEAPON_projectile_label][missed][ORIGINALTARGET_definite]并[destroyed_past][RECIPIENT_definite]的[destroyed_targets]。</li>
     <li>r_logentry(p=2)->[INITIATOR_definite]的[WEAPON_projectile_label][missed][ORIGINALTARGET_definite]，同时[destroyed_present][RECIPIENT_definite]的[destroyed_targets]。</li>
     <li>r_logentry->[RECIPIENT_definite]的[destroyed_targets]被[INITIATOR_definite]的[WEAPON_projectile_label][destroyed_past]。</li>
-    <li>r_logentry->[RECIPIENT_definite]的[destroyed_targets]被[INITIATOR_definite][expert][WEAPON_projectile_label][destroyed_past]。</li>
     <li>r_logentry->[RECIPIENT_definite]的[destroyed_targets]被[INITIATOR_definite]的[WEAPON_projectile_label][destroyed_past]，变成了[destroyed_suffix]。</li>
     <li>r_logentry(recipient_part_destroyed_count==0)->[INITIATOR_definite]的[WEAPON_projectile_label][damaged_past][RECIPIENT_definite]的[damaged_targets]。</li>
-    <li>r_logentry(recipient_part_destroyed_count==0)->[INITIATOR_definite][expertly]用[WEAPON_projectile_label][damaged_past][RECIPIENT_definite]的[damaged_targets]。</li>
     <li>r_logentry(recipient_part_destroyed_count==0,p=2)->[INITIATOR_definite]的[WEAPON_projectile_label][missed][ORIGINALTARGET_definite]并[damaged_past][RECIPIENT_definite]的[damaged_targets]。</li>
     <li>r_logentry(recipient_part_destroyed_count==0,p=2)->[INITIATOR_definite]的[WEAPON_projectile_label][missed][ORIGINALTARGET_definite]，同时[damaged_present][RECIPIENT_definite]的[damaged_targets]。</li>
     <li>r_logentry(recipient_part_destroyed_count==0)->[RECIPIENT_definite]的[damaged_targets]被[INITIATOR_definite]的[WEAPON_projectile_label][damaged_past]。</li>
-    <li>r_logentry(recipient_part_destroyed_count==0)->[RECIPIENT_definite]的[damaged_targets]被[INITIATOR_definite][expert][WEAPON_projectile_label][damaged_past]。</li>
     <li>r_logentry(p=3)->[INITIATOR_definite]的[WEAPON_projectile_label][destroyed_past][RECIPIENT_definite]的[destroyed_targets]并[damaged_past][RECIPIENT_possessive][damaged_targets]。</li>
     <li>r_logentry(p=6)->[INITIATOR_definite]的[WEAPON_projectile_label][missed][ORIGINALTARGET_definite]，同时[destroyed_present][RECIPIENT_definite]的[destroyed_targets]并[damaged_present][RECIPIENT_possessive][damaged_targets]。</li>
     <li>r_logentry(p=0.2)->[INITIATOR_definite]的[WEAPON_projectile_label]命中了[RECIPIENT_definite]。</li>
@@ -171,9 +167,9 @@
     <li>damaged_past->射中</li>
     <li>damaged_past->射中</li>
     <li>damaged_past->命中</li>
+    <li>damaged_present->击伤</li>
     <li>damaged_present->射伤</li>
-    <li>damaged_present->射伤</li>
-    <li>damaged_present->射伤</li>
+    <li>damaged_present->射穿</li>
     <li>damaged_present->射伤</li>
     <li>damaged_present->射伤</li>
     <li>damaged_suffix->面目全非</li>
@@ -226,8 +222,8 @@
     <li>deflected_result->，[deflected_consequence]</li>
     <li>adverb_deflected_opt(p=4)-></li>
     <li>adverb_deflected_opt->[adverb_deflected]</li>
-    <li>adverb_deflected->，没有造成伤害</li>
-    <li>adverb_deflected->，收效甚微</li>
+    <li>adverb_deflected->，但没有造成伤害</li>
+    <li>adverb_deflected->，但收效甚微</li>
     <li>deflected_consequence->但[scraped_past][adverb_deflected_opt]</li>
     <li>deflected_consequence->但被[RECIPIENT_possessive]的护甲[scraped_present][adverb_deflected_opt]</li>
     <li>scraped_past->被弹开</li>
@@ -284,6 +280,7 @@
     <li>shotat->开火[aburst]</li>
     <li>shotat->[adverb_shot]开火[aburst]</li>
     <li>shotat(p=0.5)->瞄准并开火[aburst]</li>
+    <li>shotat(p=0.5)->[skillAdv]瞄准并开火[aburst]</li>
     <li>shotat(p=0.3)->开火</li>
     <li>aburst-></li>
     <li>aburst(BURST==True,p=3)->，打出一组点射</li>
@@ -291,7 +288,8 @@
     <li>burst(BURST==True,p=3)->点射</li>
     <li>verb_shot->射击</li>
     <li>verb_shot->开火</li>
-    <li>verb_shot->开火</li>
+    <li>verb_shot(p=0.2)->射出</li>
+    <!--
     <li>adverb_shot->小心地</li>
     <li>adverb_shot->迅速</li>
     <li>adverb_shot->准确地</li>
@@ -303,7 +301,7 @@
     <li>adjective_shot->迅速的</li>
     <li>adjective_shot->早有预谋的</li>
     <li>adjective_shot->精确的</li>
-    <li>adjective_shot(initiator_flesh!=Mechanoid)->机警的</li>
+    <li>adjective_shot(initiator_flesh!=Mechanoid)->机警的</li>-->
   </Combat_RangedFire.rulePack.rulesStrings>
   
   <!-- EN:
@@ -431,11 +429,25 @@
     <li>missing->从[ORIGINALTARGET_definite]身边呼啸而过</li>
     <li>missing->弹着点距离[ORIGINALTARGET_definite]很远</li>
     <li>missing->偏离了目标</li>
+    <li>avoidance(ORIGINALTARGET_mobile==True,p=2)->[moment][moved]</li>
+    <li>avoidance(ORIGINALTARGET_mobile==True,p=0.3)->[ducked][COVER_definite]的掩护下</li>
+    <li>moved->挪开了</li>
+    <li>moved->闪开了</li>
+    <li>moved->跳开了</li>
+    <li>moved->躲开了</li>
+    <li>moment->瞬间</li>
+    <li>moment->一瞬</li>
+    <li>moment->立即</li>
+    <li>ducked->躲到</li>
+    <li>ducked->蹲到</li>
+    <li>ducked->趴到</li>
+    <li>ducked->藏在</li>
+    <!--
     <li>avoidance(ORIGINALTARGET_mobile==True)->千钧一发之际猛地闪开</li>
     <li>avoidance(ORIGINALTARGET_mobile==True)->毫无征兆地平地摔</li>
     <li>avoidance(ORIGINALTARGET_mobile==True)->迅速卧倒</li>
     <li>avoidance(ORIGINALTARGET_mobile==True,p=0.3)->低身躲到[COVER_definite]后</li>
-    <li>avoidance(ORIGINALTARGET_mobile==True,p=0.3)->一跃躲到[COVER_definite]后</li>
+    <li>avoidance(ORIGINALTARGET_mobile==True,p=0.3)->一跃躲到[COVER_definite]后</li>-->
   </Combat_RangedMiss.rulePack.rulesStrings>
   
 </LanguageData>

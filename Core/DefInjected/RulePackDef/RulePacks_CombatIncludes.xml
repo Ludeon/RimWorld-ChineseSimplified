@@ -78,9 +78,17 @@
   -->
   <Combat_MeleeDamageIncludes.rulePack.rulesStrings>
     <li>result(p=0.5)->[damaged_present][RECIPIENT_possessive][targetlist]</li>
-    <li>result(p=0.1)->[adverb_flavortext][damaged_present][RECIPIENT_possessive][targetlist]</li>
-    <li>result(p=0.1)->[flavortext_situation][damaged_present][RECIPIENT_possessive][targetlist]</li>
-    <li>result(p=0.1)->[damaged_present][RECIPIENT_possessive][targetlist]，同时[flavortext_consequence]</li>
+    <li>result(p=0.2)->[damaged_present][RECIPIENT_possessive][targetlist]，同时[flavortext_consequence]</li>
+    <li>result(p=0.1)->[damaged_present] [RECIPIENT_possessive] [targetlist] [strikeAdv]</li>
+    <li>strikeAdv->残忍地</li>
+    <li>strikeAdv->可怖地</li>
+    <li>strikeAdv->野蛮地</li>
+    <li>strikeAdv->无情地</li>
+    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->留下一个令人作呕的伤口</li>
+    <li>flavortext_consequence->留下一个可怖的伤口</li>
+    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->[painevent]使[RECIPIENT_objective][wince][painevent]</li>
+    <li>flavortext_consequence(p=0.2)->使[RECIPIENT_objective]失去平衡</li>
+    <!--
     <li>adverb_flavortext->疯狂地</li>
     <li>adverb_flavortext->残忍地</li>
     <li>adverb_flavortext->凶狠地</li>
@@ -90,20 +98,7 @@
     <li>adverb_flavortext->凶残地</li>
     <li>adverb_flavortext->恶毒地</li>
     <li>adverb_flavortext->无情地</li>
-    <li>adverb_flavortext->无情地</li>
-    <li>flavortext_situation(recipient_flesh!=Mechanoid)->伴随血块四溅，</li>
-    <li>flavortext_situation(recipient_flesh==Mechanoid)->随着废料乱飞，</li>
-    <li>flavortext_situation->冷酷无情地</li>
-    <li>flavortext_situation(p=0.4)->面无表情地</li>
-    <li>flavortext_situation(p=0.2,initiator_flesh==Normal)->面目狰狞地</li>
-    <li>flavortext_situation(p=0.2,initiator_flesh==Normal)->面带[AdjectiveBadass]的神情</li>
-    <li>flavortext_situation(p=0.2,initiator_flesh==Normal)->带着阴险的神情</li>
-    <li>flavortext_situation(p=0.2,initiator_flesh==Normal)->大笑着</li>
-    <li>flavortext_situation(p=0.2,initiator_flesh==Normal)->带着得意的微笑</li>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->留下一个极其糟糕的伤口</li>
-    <li>flavortext_consequence->留下一个可怕的伤口</li>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->[painevent]使[RECIPIENT_objective][wince]</li>
-    <li>flavortext_consequence(p=0.2)->使[RECIPIENT_objective]失去平衡</li>
+    <li>adverb_flavortext->无情地</li>-->
   </Combat_MeleeDamageIncludes.rulePack.rulesStrings>
   
   <!-- EN:
@@ -146,17 +141,9 @@
     <li>to->into</li>
   -->
   <Combat_MeleeIncludes.rulePack.rulesStrings>
-    <li>r_logentry->[action]，[result]。</li>
+    <!--
     <li>r_logentry(p=0.2)->[action]。</li>
-    <li>implement(IMPLEMENTOWNER_type==weapon,p=2)->[INITIATOR_possessive][WEAPON_label]的[TOOL_label]</li>
-    <li>implement(IMPLEMENTOWNER_type==weapon,p=1)->[INITIATOR_possessive][WEAPON_label]</li>
-    <li>implement(IMPLEMENTOWNER_type==weapon,p=1)->[WEAPON_label]的[TOOL_label]</li>
-    <li>implement(IMPLEMENTOWNER_type==weapon,p=0.5)->[WEAPON_label]</li>
-    <li>implement(IMPLEMENTOWNER_type==bodypart,p=2)->[INITIATOR_possessive][TOOL_label]</li>
     <li>implement(IMPLEMENTOWNER_type==bodypart,p=1)->[INITIATOR_possessive][adjective_bodypart][TOOL_label]</li>
-    <li>implement(IMPLEMENTOWNER_type==hediff,p=2)->[INITIATOR_possessive][WEAPON_label]的[TOOL_label]</li>
-    <li>implement(IMPLEMENTOWNER_type==hediff,p=1)->[INITIATOR_possessive][WEAPON_label]</li>
-    <li>implement(IMPLEMENTOWNER_type==hediff,p=1)->[INITIATOR_possessive][TOOL_label]</li>
     <li>adjective_bodypart->坚硬的</li>
     <li>adjective_bodypart->强壮的</li>
     <li>adjective_bodypart->有力的</li>
@@ -169,6 +156,18 @@
     <li>adjective_bodypart->坚韧的</li>
     <li>adjective_bodypart(initiator_flesh==True)->长满老茧的</li>
     <li>adjective_bodypart->坚固的</li>
+    <li>to->变成</li>
+    <li>to->成为</li>
+    -->
+    <li>r_logentry->[action]，[result]。</li>
+    <li>implement(IMPLEMENTOWNER_type==weapon,p=2)->[INITIATOR_possessive][WEAPON_label]的[TOOL_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==weapon,p=1)->[INITIATOR_possessive][WEAPON_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==weapon,p=1)->[WEAPON_label]的[TOOL_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==weapon,p=0.5)->[WEAPON_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==bodypart,p=2)->[INITIATOR_possessive][TOOL_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==hediff,p=2)->[INITIATOR_possessive][WEAPON_label]的[TOOL_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==hediff,p=1)->[INITIATOR_possessive][WEAPON_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==hediff,p=1)->[INITIATOR_possessive][TOOL_label]</li>
     <li>targetlist(recipient_part_count==1)->[recipient_part0_label]</li>
     <li>targetlist(recipient_part_count==2)->[recipient_part0_label]和[recipient_part1_label]</li>
     <li>targetlist(recipient_part_count==3)->[recipient_part0_label]，[recipient_part1_label]和[recipient_part2_label]</li>
@@ -178,15 +177,17 @@
     <li>destroyed(p=0.5)->破坏了</li>
     <li>destroyed(p=0.5)->摧毁了</li>
     <li>destroyed(p=0.5)->毁坏了</li>
-    <li>destroyed(p=0.5)->带走了</li>
+    <li>destroyed(p=0.5)->打烂了</li>
     <li>wince(recipient_flesh==Normal)->龇牙咧嘴</li>
     <li>wince(recipient_flesh==Normal)->脸部变得扭曲</li>
     <li>wince(recipient_flesh==Normal)->退缩</li>
     <li>wince(recipient_flesh==Normal)->不断呻吟</li>
-    <li>wince(recipient_flesh!=Mechanoid)->不断尖叫</li>
-    <li>wince(recipient_flesh!=Mechanoid)->疼得大叫</li>
+    <li>wince(recipient_flesh!=Mechanoid)->发出尖啸</li>
+    <li>wince(recipient_flesh!=Mechanoid)->发出噪音</li>
     <li>wince->退缩</li>
     <li>wince->跌倒</li>
+    <li>to->to</li>
+    <li>to->into</li>
     <li>painstate->感到</li>
     <li>painstate->觉得</li>
     <li>painstate-></li>
@@ -195,8 +196,6 @@
     <li>painevent(recipient_flesh==Normal)->痛苦</li>
     <li>painevent->受伤部位</li>
     <li>painevent->伤口</li>
-    <li>to->变成</li>
-    <li>to->成为</li>
   </Combat_MeleeIncludes.rulePack.rulesStrings>
   
   <!-- EN:
@@ -249,7 +248,56 @@
     <li>skillAdv(initiator_flesh==Mechanoid)->robotically</li>
     <li>skillAdv(initiator_flesh==Mechanoid)->directly</li>
   -->
-  <Combat_SkillIncludes.rulePack.rulesStrings>TODO</Combat_SkillIncludes.rulePack.rulesStrings>
+  <Combat_SkillIncludes.rulePack.rulesStrings>
+    <li>skillDescMelee->[wielding] [INITIATOR_possessive] [WEAPON_label] [skillAdv]</li>
+    <li>skillDescMelee->[using] [implement] [skillAdv]</li>
+    <li>wielding(p=4)->拿着</li>
+    <li>wielding(p=3)->用着</li>
+    <li>wielding(p=2)->握着</li>
+    <li>wielding->挥舞着</li>
+    <li>wielding->操弄着</li>
+    <li>using(p=4)->使用</li>
+    <li>using->挥舞着</li>
+    <li>using->拿着</li>
+    <li>using->使用</li>
+    <li>using->挥动着</li>
+    <li>skillAdv(INITIATOR_skill&lt;=3)->不熟练地</li>
+    <li>skillAdv(INITIATOR_skill&lt;=3)->无力地</li>
+    <li>skillAdv(INITIATOR_skill&lt;=3)->胡乱地</li>
+    <li>skillAdv(INITIATOR_skill&lt;=3)->随意地</li>
+    <li>skillAdv(INITIATOR_skill&lt;=3)->摇摇摆摆地</li>
+    <li>skillAdv(INITIATOR_skill&lt;=4)->尴尬地</li>
+    <li>skillAdv(INITIATOR_skill&lt;=4)->笨拙地</li>
+    <li>skillAdv(INITIATOR_skill&lt;=5)->虚张声势地</li>
+    <li>skillAdv(INITIATOR_skill&lt;=5)->颤抖地</li>
+    <li>skillAdv(INITIATOR_skill&lt;=5)->愚蠢的</li>
+    <li>skillAdv(INITIATOR_skill&lt;=6)->犹豫地</li>
+    <li>skillAdv(INITIATOR_skill&lt;=6)->勉强地</li>
+    <li>skillAdv(INITIATOR_skill&lt;=6)->缓慢地</li>
+    <li>skillAdv(INITIATOR_skill&lt;=6)->迟疑地</li>
+    <li>skillAdv(INITIATOR_skill&lt;=6)->不熟练地</li>
+    <li>skillAdv(INITIATOR_skill&lt;=6)->业余地</li>
+    <li>skillAdv(INITIATOR_skill&lt;=6)->胆小地</li>
+    <li>skillAdv(INITIATOR_skill&lt;=8)->激动地</li>
+    <li>skillAdv(INITIATOR_skill>=6,INITIATOR_skill&lt;=10)->顺手地</li>
+    <li>skillAdv(INITIATOR_skill>=6,INITIATOR_skill&lt;=10)->熟练地</li>
+    <li>skillAdv(INITIATOR_skill>=8)->专业地</li>
+    <li>skillAdv(INITIATOR_skill>=8)->灵巧地</li>
+    <li>skillAdv(INITIATOR_skill>=8)->适当地</li>
+    <li>skillAdv(INITIATOR_skill>=8)->机智地</li>
+    <li>skillAdv(INITIATOR_skill>=8)->灵敏地</li>
+    <li>skillAdv(INITIATOR_skill>=8)->熟练地</li>
+    <li>skillAdv(INITIATOR_skill>=10)->娴熟地</li>
+    <li>skillAdv(INITIATOR_skill>=10)->利落地</li>
+    <li>skillAdv(INITIATOR_skill>=12)->如宗师一般地</li>
+    <li>skillAdv(INITIATOR_skill>=12)->精确地</li>
+    <li>skillAdv(INITIATOR_skill>=14)->不费吹灰之力地</li>
+    <li>skillAdv(INITIATOR_skill>=16)->如舞一般地</li>
+    <li>skillAdv(INITIATOR_skill>=16)->优雅地</li>
+    <li>skillAdv(initiator_flesh==Mechanoid)->机械地</li>
+    <li>skillAdv(initiator_flesh==Mechanoid)->机械地</li>
+    <li>skillAdv(initiator_flesh==Mechanoid)->直接地</li>
+  </Combat_SkillIncludes.rulePack.rulesStrings>
   
   <!-- EN:
     <li>destroyed_targets(recipient_part_destroyed_count==1)->[recipient_part_destroyed0_label]</li>
@@ -270,7 +318,7 @@
     <li>damaged_targets(recipient_part_damaged_count==2)->[recipient_part_damaged0_label]和[recipient_part_damaged1_label]</li>
     <li>damaged_targets(recipient_part_damaged_count==3)->[recipient_part_damaged0_label]，[recipient_part_damaged1_label]，以及[recipient_part_damaged2_label]</li>
     <li>damaged_targets->[recipient_part_damaged0_label]，[recipient_part_damaged1_label]，[recipient_part_damaged2_label]，以及[recipient_part_damaged3_label]</li>
-    <li>expertly->干练地</li>
+    <!--<li>expertly->干练地</li>
     <li>expertly->熟练地</li>
     <li>expertly->娴熟地</li>
     <li>expertly->轻巧地</li>
@@ -305,11 +353,11 @@
     <li>expert->巧妙的</li>
     <li>expert->灵巧的</li>
     <li>expert->专业的</li>
-    <li>expert->掐当的</li>
+    <li>expert->恰当的</li>
     <li>expert->迅速的</li>
     <li>expert->机智的</li>
     <li>expert->高超的</li>
-    <li>expert->优雅的</li>
+    <li>expert->优雅的</li>-->
   </Combat_WoundIncludes.rulePack.rulesStrings>
   
 </LanguageData>

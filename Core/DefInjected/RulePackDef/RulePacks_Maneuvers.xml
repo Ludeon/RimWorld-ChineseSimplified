@@ -54,16 +54,16 @@
     <li>destroyed_past->咬掉</li>
     <li>destroyed_past->咬下</li>
     <li>destroyed_past->撕下</li>
-    <li>destroyed_past->破坏</li>
     <li>destroyed_present->咬掉</li>
     <li>destroyed_present->咬下</li>
     <li>destroyed_present->撕下</li>
-    <li>destroyed_present->破坏了</li>
     <li>destroyed_suffix->[to]碎条</li>
     <li>destroyed_suffix->[to]碎片</li>
     <li>destroyed_suffix->[to]碎块</li>
+    <li>destroyed_suffix(recipient_flesh!=Mechanoid)->[to]碎片</li>
     <li>destroyed_suffix(recipient_flesh!=Mechanoid)->[to]凌乱的碎条</li>
     <li>destroyed_suffix(recipient_flesh!=Mechanoid)->[to]血肉模糊</li>
+    <li>destroyed_suffix(recipient_flesh!=Mechanoid)->[to]一滩烂泥</li>
   </Maneuver_Bite.rulePack.rulesStrings>
   
   <!-- EN:
@@ -178,8 +178,6 @@
   <Maneuver_Scratch.rulePack.rulesStrings>
     <li>woundname->伤口</li>
     <li>woundname(p=0.3)->豁口</li>
-    <li>flavortext_situation(recipient_flesh!=Mechanoid)->伴随着血液从[woundname]滴下</li>
-    <li>flavortext_situation->伴随着液体从[woundname]滴下</li>
     <li>flavortext_consequence(recipient_flesh!=Mechanoid)->并暴露出下面的肉</li>
     <li>flavortext_consequence(recipient_flesh==Mechanoid)->并暴露出内部的机械线缆</li>
     <li>flavortext_consequence(recipient_flesh!=Mechanoid)->并留下鲜血淋漓的[woundname]</li>
@@ -300,8 +298,6 @@
     <li>damaged_present(deflected!=True)->撕开</li>
     <li>woundname->伤口</li>
     <li>woundname(p=0.3)->豁口</li>
-    <li>flavortext_situation(recipient_flesh!=Mechanoid)->伴随着血液从[woundname]滴下</li>
-    <li>flavortext_situation->伴随着液体从[woundname]滴下</li>
     <li>flavortext_consequence(recipient_flesh!=Mechanoid)->并暴露出下面的肉</li>
     <li>flavortext_consequence(recipient_flesh==Mechanoid)->并暴露出内部的机械线缆</li>
     <li>flavortext_consequence(recipient_flesh!=Mechanoid)->并留下鲜血淋漓的[woundname]</li>
