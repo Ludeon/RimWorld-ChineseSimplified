@@ -675,7 +675,7 @@
   
   <!-- Caravan misc -->
   <!-- EN: Are you sure you want to attack {0}?\n\nThis will make {1} hostile to you, and they will eventually start raiding your colony! -->
-  <ConfirmAttackFriendlyFaction>您确定要攻击{0}吗?\n\n这将使{1}与你敌对，最终他们会开始袭击你的殖民地!</ConfirmAttackFriendlyFaction>
+  <ConfirmAttackFriendlyFaction>你确定要攻击{0}吗?\n\n这将使{1}与你敌对，最终他们会开始袭击你的殖民地!</ConfirmAttackFriendlyFaction>
   
   <!-- Load transporters -->
   <!-- EN: Load {0} -->
@@ -885,7 +885,7 @@
   
   <!-- Cleanup translation files -->
   <!-- EN: Are you sure you want to cleanup all translation files for language {0}?\n\nThis will:\n  - Add placeholders for missing keyed translations, def-injected translations, and backstories\n  - Add or update comments containing the original, untranslated text\n  - Move all keyed and def-injected translations to the appropriate XML files\n  - Apply automatic formatting to all XML files\n  - Update back-compatible def names\n  - Remove all existing XML comments (except in full-list injections)\n\nNon-XML files will not be removed or modified.\n\nRemember to restart the game after modifying the language files before running this tool in order to reload all data.\n\nMake sure to back up all translation files before using this tool. -->
-  <ConfirmCleanupTranslationFiles>您确定要清除语言{0}的所有翻译文件吗？\n\n这将：\n  - 为缺少的keyed，def-injected和backstories翻译添加占位符。\n  - 添加或更新包含原始文本的注释\n  - 将所有keyed和def-injected翻译移动到相应的XML文件\n  - 将自动格式应用于XML文件\n  - 更新反向兼容的def名称\n  - 删除所有现有的XML注释（全列表注入除外）\n\n不会删除或修改非XML文件。\n\n在运行此工具前，请在修改语言文件后重新启动游戏，以便重新加载所有数据。\n\n使用前请务必备份所有翻译文件。</ConfirmCleanupTranslationFiles>
+  <ConfirmCleanupTranslationFiles>你确定要清除语言{0}的所有翻译文件吗？\n\n这将：\n  - 为缺少的keyed，def-injected和backstories翻译添加占位符。\n  - 添加或更新包含原始文本的注释\n  - 将所有keyed和def-injected翻译移动到相应的XML文件\n  - 将自动格式应用于XML文件\n  - 更新反向兼容的def名称\n  - 删除所有现有的XML注释（全列表注入除外）\n\n不会删除或修改非XML文件。\n\n在运行此工具前，请在修改语言文件后重新启动游戏，以便重新加载所有数据。\n\n使用前请务必备份所有翻译文件。</ConfirmCleanupTranslationFiles>
   <!-- EN: Yes, I have a backup -->
   <ConfirmCleanupTranslationFiles_Confirm>是的，我已经备份。</ConfirmCleanupTranslationFiles_Confirm>
 
