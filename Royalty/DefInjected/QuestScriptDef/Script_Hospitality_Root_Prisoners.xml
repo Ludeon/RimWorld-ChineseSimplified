@@ -62,7 +62,7 @@
     <li>threatsInfo4(generateThreats==true,allowedThreats==Raids,enemyFaction==Mechanoid)->\n\n[asker_nameDef]的敌人们已经激活了一个机械族巢穴用于猎杀囚犯，机械族攻击部队将在随后到达。[enemyGroupsParagraph]</li>
     <li>threatsInfo4(generateThreats==true,allowedThreats==MechClusters)->\n\n[threatsInfoMechClustersMultiPrisoners]</li>
     <li>threatsInfo4(generateThreats==false)-></li>
-    <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount==1)->[asker_faction_name]的[asker_royalTitleInCurrentFaction]，[asker_nameFull]和某人一起被捉奸在床。[asker_pronoun]已将其关进监狱以示愤怒。现在[asker_pronoun]只想你持续关押[lodgers0_nameFull]，等[shuttleDelayTicks_duration]后丑闻风波过去后再行计议。[allLodgerInfo][threatsInfo5]\n\n[commonDescEnding]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount==1)->[asker_faction_name]的[asker_royalTitleInCurrentFaction]，[asker_nameFull]被捉奸在床。[asker_pronoun]将情人关进监狱以示决心。现在[asker_pronoun]只想你持续关押[lodgers0_nameFull]，等[shuttleDelayTicks_duration]后丑闻风波过去后再行计议。[allLodgerInfo][threatsInfo5]\n\n[commonDescEnding]</li>
     <li>threatsInfo5(generateThreats==true,allowedThreats==Raids,enemyFaction!=Mechanoid)->\n\n不幸的是，[asker_nameDef]的政敌们和[enemyFaction_name]达成交易，想要救出这个人并将所有的丑闻公之于众。[enemyGroupsParagraph]</li>
     <li>threatsInfo5(generateThreats==true,allowedThreats==Raids,enemyFaction==Mechanoid)->\n\n不幸的是，[asker_nameDef]的政敌们挑起了[enemyFaction_name]激活的机械族进攻，想要救出这个人并将所有的丑闻公之于众。[enemyGroupsParagraph]</li>
     <li>threatsInfo5(generateThreats==true,allowedThreats==MechClusters)->\n\n[threatsInfoMechClustersSingleHuman]</li>
