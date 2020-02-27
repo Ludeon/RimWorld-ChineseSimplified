@@ -463,20 +463,8 @@
     <li>story_result->fraud</li>
   -->
   <WorldFeatureNamerCommon.rulePack.rulesStrings>
-    <li>r_name->[metaprefix][standardname]</li>
+    <li>r_name->[narrative_name][terrain_word]</li>
     <li>r_name(p=0.05)->[storyname][terrain_word]</li>
-    <!--
-    <li>standardname->[narrative_name][terrain_word]</li>
-    <li>metaprefix(p=10)-></li>
-    <li>metaprefix->[Direction]</li>
-    <li>metaprefix->[basic_adjective]</li>
-    <li>basic_adjective->大</li>
-    <li>basic_adjective->巨大</li>
-    <li>basic_adjective->小</li>
-    <li>basic_adjective->宏伟</li>
-    <li>basic_adjective->新</li>
-    <li>basic_adjective->旧</li>
-    -->
     <li>narrative_name(p=12)->[WordTribal]</li>
     <li>narrative_name(p=12)->[PlaceOutlander]</li>
     <li>narrative_name->[Color][NaturalObject]</li>
@@ -487,21 +475,17 @@
     <li>narrative_name->[AdjectiveNatural][Animal]</li>
     <li>narrative_name->[Animal][BodyPart]</li>
     <li>narrative_name->[Color][Animal]</li>
-    <li>narrative_name->[AdjectiveNatural][Animal]</li>
+    <li>narrative_name->[AdjectiveNatural] [Animal]</li>
     <li>narrative_name->[Animal][BodyPart]</li>
     <li>storyname(p=50)->[subject]的[story_result]</li>
     <li>storyname(p=2)->[subject]的[BodyPart]</li>
     <li>storyname->[subject]的[Gore]</li>
-    <!--
-    <li>maybe_basic_adjective-></li>
-    <li>maybe_basic_adjective(p=0.1)->[basic_adjective]</li>
-    -->
     <li>subject(p=5)->[NamePerson]</li>
     <li>subject->[Animal]</li>
     <li>subject->[WordTribal]</li>
     <li>subject->[PlaceOutlander]</li>
     <li>story_result->愚蠢</li>
-    <li>story_result->恶行</li>
+    <li>story_result->堕落</li>
     <li>story_result->疯狂</li>
     <li>story_result->失误</li>
     <li>story_result->故障</li>
@@ -514,7 +498,7 @@
     <li>story_result->珠宝</li>
     <li>story_result->奖赏</li>
     <li>story_result->赏金</li>
-    <li>story_result->荣誉</li>
+    <li>story_result->荣耀</li>
     <li>story_result->头筹</li>
     <li>story_result->奖杯</li>
     <li>story_result->自负</li>

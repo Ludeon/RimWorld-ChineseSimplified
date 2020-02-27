@@ -60,10 +60,10 @@
     <li>minMoodInfo-></li>
     <li>commonDescEnding->[helpersParagraph][shuttleWillComeParagraph]\n\n[mustKeepOnMapParagraph]</li>
     <li>enemyGroupsParagraph->袭击每[threatsIntervalTicks_duration]会发生一次。袭击规模与以下情况相当：\n\n[threatExample]</li>
-    <li>shuttleWillComeParagraph(lodgersCount==1)->在[shuttleDelayTicks_duration]后，一艘负责运送[lodgers0_nameDef]的穿梭机将会到达。如果您能将[lodgers0_objective]安全送上穿梭机，[allRewardsDescriptions]</li>
-    <li>shuttleWillComeParagraph(lodgersCount>=2)->在[shuttleDelayTicks_duration]后，一艘负责运送[lodgersLabelPlural]的穿梭机将会到达。如果您能将他们安全送上穿梭机，[allRewardsDescriptions]</li>
-    <li>mustKeepOnMapParagraph(lodgersCount==1)->您必须确保[lodgers0_nameDef]处于[map_definite]并且不会将[lodgers0_objective]派遣到其他任何地方。</li>
-    <li>mustKeepOnMapParagraph(lodgersCount>=2)->您必须确保[lodgersLabelPlural]处于[map_definite]并且不会将他们派遣到其他任何地方。</li>
+    <li>shuttleWillComeParagraph(lodgersCount==1)->在[shuttleDelayTicks_duration]后，一艘负责运送[lodgers0_nameDef]的穿梭机将会到达。如果你能将[lodgers0_objective]安全送上穿梭机，[allRewardsDescriptions]</li>
+    <li>shuttleWillComeParagraph(lodgersCount>=2)->在[shuttleDelayTicks_duration]后，一艘负责运送[lodgersLabelPlural]的穿梭机将会到达。如果你能将他们安全送上穿梭机，[allRewardsDescriptions]</li>
+    <li>mustKeepOnMapParagraph(lodgersCount==1)->你必须确保[lodgers0_nameDef]处于[map_definite]并且不会将[lodgers0_objective]派遣到其他任何地方。</li>
+    <li>mustKeepOnMapParagraph(lodgersCount>=2)->你必须确保[lodgersLabelPlural]处于[map_definite]并且不会将他们派遣到其他任何地方。</li>
     <li>threatsInfoMechClustersSingleHuman->[lodgers0_nameDef]近期[mechViolation]，已经被在轨的大批机械族锁定。 只要[lodgers0_nameDef]存在，机械战斗群就将被投送到[map_definite]。</li>
     <li>threatsInfoMechClustersMultiPrisoners->囚犯们近期[mechViolation]，已经被在轨的大批机械族锁定。只要囚犯存在，机械战斗群就将被投送到[map_definite]。</li>
     <li>threatsInfoMechRaidsSingleHuman->[lodgers0_nameDef]近期[mechViolation]，已经被大批机械族锁定。只要[lodgers0_nameDef]存在，机械族袭击就会一直出现。</li>
@@ -78,8 +78,8 @@
     <li>lodgersHasHave(lodgersCount>=2)->有</li>
     <li>remainingWillNowLeave(lodgersCount==1)-></li>
     <li>remainingWillNowLeave(lodgersCount>=2)->现在所有剩余的[lodgersLabelPlural]都将离开。</li>
-    <li>failLetterEndingCommon(askerIsNull==true,priority=1)->您未能完成任务'[resolvedQuestName]'。</li>
-    <li>failLetterEndingCommon->您未能完成任务'[resolvedQuestName]'。\n\n您与[asker_faction_name]的关系下降[goodwillPenalty]。</li>
+    <li>failLetterEndingCommon(askerIsNull==true,priority=1)->你未能完成任务'[resolvedQuestName]'。</li>
+    <li>failLetterEndingCommon->你未能完成任务'[resolvedQuestName]'。\n\n你与[asker_faction_name]的关系下降[goodwillPenalty]。</li>
   </QuestHospitalityCommon.rulePack.rulesStrings>
   
 </LanguageData>
