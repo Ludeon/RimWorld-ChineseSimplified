@@ -80,10 +80,10 @@
     <li>r_logentry(p=0.1)->[damage_source] [RECIPIENT_nameDef].</li>
   -->
   <DamageEvent_Include.rulePack.rulesStrings>
-    <li>logentry->[damageSource][RECIPIENT_nameDef]，[destroyed_present][RECIPIENT_possessive][destroyed_targets]。</li>
-    <li>logentry->[damageSource][RECIPIENT_nameDef]，[destroyed_present][RECIPIENT_possessive][destroyed_targets]并[damaged_present][RECIPIENT_possessive][damaged_targets]。</li>
-    <li>logentry(recipient_part_destroyed_count==0)->[damageSource][RECIPIENT_nameDef]，[damaged_present][RECIPIENT_possessive][damaged_targets]。</li>
-    <li>logentry(p=0.1)->[damageSource][RECIPIENT_nameDef]。</li>
+    <li>r_logentry->[damageSource][RECIPIENT_nameDef]，[destroyed_present][RECIPIENT_possessive][destroyed_targets]。</li>
+    <li>r_logentry->[damageSource][RECIPIENT_nameDef]，[destroyed_present][RECIPIENT_possessive][destroyed_targets]并[damaged_present][RECIPIENT_possessive][damaged_targets]。</li>
+    <li>r_logentry(recipient_part_destroyed_count==0)->[damageSource][RECIPIENT_nameDef]，[damaged_present][RECIPIENT_possessive][damaged_targets]。</li>
+    <li>r_logentry(p=0.1)->[damageSource][RECIPIENT_nameDef]。</li>
   </DamageEvent_Include.rulePack.rulesStrings>
   
   <!-- EN:
