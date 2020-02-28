@@ -20,7 +20,7 @@
     <li>destroyed_present->breaking</li>
   -->
   <DamageEvent_Ceiling.rulePack.rulesStrings>
-    <li>damageSource->[roof][collapsed]砸到</li>
+    <li>damage_source->[roof][collapsed]砸到</li>
     <li>roof->屋顶</li>
     <li>roof->房顶</li>
     <li>roof->天花板</li>
@@ -56,7 +56,7 @@
     <li>destroyed_present->cremating</li>
   -->
   <DamageEvent_Fire.rulePack.rulesStrings>
-    <li>damageSource->[fire]点燃了</li>
+    <li>damage_source->[fire]点燃了</li>
     <li>fire(p=3)->火焰</li>
     <li>fire(p=3)->一团火焰</li>
     <li>fire(p=3)->一片大火</li>
@@ -80,10 +80,10 @@
     <li>r_logentry(p=0.1)->[damage_source] [RECIPIENT_nameDef].</li>
   -->
   <DamageEvent_Include.rulePack.rulesStrings>
-    <li>logentry->[damageSource][RECIPIENT_nameDef]，[destroyed_present][RECIPIENT_possessive][destroyed_targets]。</li>
-    <li>logentry->[damageSource][RECIPIENT_nameDef]，[destroyed_present][RECIPIENT_possessive][destroyed_targets]并[damaged_present][RECIPIENT_possessive][damaged_targets]。</li>
-    <li>logentry(recipient_part_destroyed_count==0)->[damageSource][RECIPIENT_nameDef]，[damaged_present][RECIPIENT_possessive][damaged_targets]。</li>
-    <li>logentry(p=0.1)->[damageSource][RECIPIENT_nameDef]。</li>
+    <li>r_logentry->[damage_source][RECIPIENT_nameDef]，[destroyed_present][RECIPIENT_possessive][destroyed_targets]。</li>
+    <li>r_logentry->[damage_source][RECIPIENT_nameDef]，[destroyed_present][RECIPIENT_possessive][destroyed_targets]并[damaged_present][RECIPIENT_possessive][damaged_targets]。</li>
+    <li>r_logentry(recipient_part_destroyed_count==0)->[damage_source][RECIPIENT_nameDef]，[damaged_present][RECIPIENT_possessive][damaged_targets]。</li>
+    <li>r_logentry(p=0.1)->[damage_source][RECIPIENT_nameDef]。</li>
   </DamageEvent_Include.rulePack.rulesStrings>
   
   <!-- EN:
@@ -102,9 +102,9 @@
     <li>light(p=0.2)->incandescence</li>
   -->
   <DamageEvent_PowerBeam.rulePack.rulesStrings>
-    <li>damageSource->[sky]撕开裂口，审判降临</li>
-    <li>damageSource->一束难以置信的[power][damaged_past]</li>
-    <li>damageSource->一系列的[light][damaged_past]</li>
+    <li>damage_source->[sky]撕开裂口，审判降临</li>
+    <li>damage_source->一束难以置信的[power][damaged_past]</li>
+    <li>damage_source->一系列的[light][damaged_past]</li>
     <li>sky->天空</li>
     <li>sky->云层</li>
     <li>sky->天堂</li>
@@ -129,7 +129,7 @@
     <li>enveloped->surrounded</li>
   -->
   <DamageEvent_Tornado.rulePack.rulesStrings>
-    <li>damageSource->一股[spiraling]龙卷风[enveloped]</li>
+    <li>damage_source->一股[spiraling]龙卷风[enveloped]</li>
     <li>destroyed_present(p=3)->撕毁</li>
     <li>spiraling->盘桓的</li>
     <li>spiraling->旋转的</li>
