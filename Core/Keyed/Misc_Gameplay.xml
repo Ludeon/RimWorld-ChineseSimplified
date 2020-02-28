@@ -387,7 +387,7 @@
   <!-- EN: Required -->
   <Required>必需</Required>
   <!-- EN: Warning: You cannot complete trade requests by using transport pods.\nIf you send the goods, the settlement will accept them as gifts but they will not reward you.\n\nFor trading, approach the settlement with a caravan!\n\nAre you sure you want to gift the loaded goods to the faction? -->
-  <GiveGiftViaTransportPodsTradeRequestWarning>警告：你无法使用空投仓完成交易请求。\n如果发射这批货物，目标基地会将其作为礼物而非交易品接收\n\n如果你希望交易，请以远行队形式访问目标基地！\n\n你确定要将装好的礼物送给目标派系吗？</GiveGiftViaTransportPodsTradeRequestWarning>
+  <GiveGiftViaTransportPodsTradeRequestWarning>警告：你无法使用空投舱完成交易请求。\n如果发射这批货物，目标基地会将其作为礼物而非交易品接收\n\n如果你希望交易，请以远行队形式访问目标基地！\n\n你确定要将装好的礼物送给目标派系吗？</GiveGiftViaTransportPodsTradeRequestWarning>
   <!-- EN: prisoner -->
   <PrisonerLower>囚犯</PrisonerLower>
   <!-- EN: prisoners -->
@@ -1199,9 +1199,9 @@
   <!-- EN: Psychic entropy: {0}/{1}\nFall rate: {2}/{3}s({4}s until zero)\n\nPsychic entropy increases after performing a psycast.\nGoing over the safe limit can lead to long-term health consequences.\nWhenever entropy reaches zero, it leaves a psychic hangover behind. -->
   <PawnTooltipPsychicEntropy>心灵熵：{0}/{1}\n下降速率：{2}/{3}秒（{4}秒直到零）\n\n进行心灵投射后心灵熵增加。\n超出安全限制会导致后遗症。\n每当熵归零都会产生精神宿醉。</PawnTooltipPsychicEntropy>
   <!-- EN: Physical pain focuses the mind and clears extraneous thoughts; this has the side-effect of causing faster recovery from psychic entropy. -->
-  <PawnTooltipPsychicEntropyPainFocus>身体上的痛苦使思想集中并清除了无关的想法；同时能够更快恢复心理熵。</PawnTooltipPsychicEntropyPainFocus>
+  <PawnTooltipPsychicEntropyPainFocus>身体上的痛苦使思想集中并清除了无关的想法；同时能够更快恢复心灵熵。</PawnTooltipPsychicEntropyPainFocus>
   <!-- EN: Toggle psychic entropy limiter.\n\nGoing over your psychic entropy limit can cause serious health consequences, including long-term psychic breakdown, and even brain damage for significant overages. The higher over-limit the entropy is, the more dangerous the effects. -->
-  <PawnTooltipPsychicEntropyLimit>切换心理熵限制器。\n\n心灵熵超限制可能会导致严重的健康后果，包括长期的心理崩溃，甚至会因严重超量而损害大脑。熵的极限值越高，超限的后果越严重。</PawnTooltipPsychicEntropyLimit>
+  <PawnTooltipPsychicEntropyLimit>切换心灵熵限制器。\n\n心灵熵超限制可能会导致严重的健康后果，包括长期的心理崩溃，甚至会因严重超量而损害大脑。熵的极限值越高，超限的后果越严重。</PawnTooltipPsychicEntropyLimit>
 
   <!-- Pawn tooltip description -->
   <!-- EN: {0} {1} -->
@@ -1209,14 +1209,14 @@
 
   <!-- Rewards -->
   <!-- EN: a {0_age}-year-old {0_title} named {0_nameDef} will arrive in a transport pod {0_relationInfoInParentheses} -->
-  <Reward_Pawn_DropPod>一个名为{0_nameDef}的{0_age}岁的{0_titleIndef}将乘坐空投仓到达{0_relationInfoInParentheses}</Reward_Pawn_DropPod>
+  <Reward_Pawn_DropPod>一个名为{0_nameDef}的{0_age}岁的{0_titleIndef}将乘坐空投舱到达{0_relationInfoInParentheses}</Reward_Pawn_DropPod>
   <!-- EN: a {0_age}-year-old {0_title} named {0_nameDef} will arrive and join you {0_relationInfoInParentheses} -->
   <Reward_Pawn_WalkIn>一个名为{0_nameDef}的{0_age}岁的{0_titleIndef}将到达并加入{0_relationInfoInParentheses}</Reward_Pawn_WalkIn>
   <!-- EN: a {0_age}-year-old {0_title} named {0_nameDef} will join you {0_relationInfoInParentheses} -->
   <Reward_Pawn_Caravan>一个名为{0_nameDef}的{0_age}岁的{0_titleIndef}将加入{0_relationInfoInParentheses}</Reward_Pawn_Caravan>
   <!-- EN: transport pods with the following resources will arrive (total value {1}):
 \n{0} -->
-  <Reward_Items>装有以下资源的空投仓将送达（总价值{1}）：\n\n{0}</Reward_Items>
+  <Reward_Items>装有以下资源的空投舱将送达（总价值{1}）：\n\n{0}</Reward_Items>
   <!-- EN: you will receive (total value {1}):
 \n{0} -->
   <Reward_Items_Caravan>你将收到（总价值{1}）：\n\n{0}</Reward_Items_Caravan>
