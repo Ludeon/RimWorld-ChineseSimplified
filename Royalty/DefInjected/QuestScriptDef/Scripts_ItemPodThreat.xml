@@ -83,13 +83,13 @@
     <li>animalKindLabelCorrect(animalCount==1)->猎杀人类的[animalKind_label]</li>
     <li>animalKindLabelCorrect(animalCount>=2)->[animalCount]只猎杀人类的[animalKind_labelPlural]</li>
     <li>manhuntingBeastIndef(animalCount==1)->一只猎杀人类的[animalKind_label]</li>
-    <li>manhuntingBeastIndef(animalCount>=2)->一群达[animalCount]只猎杀人类的[animalKind_labelPlural]</li>
+    <li>manhuntingBeastIndef(animalCount>=2)->[animalCount]只猎杀人类的[animalKind_labelPlural]</li>
     <li>endSection->空投舱包含(总价值[itemsReward_totalMarketValue_money])：\n\n[itemsReward_items]\n\n[helpersParagraph]如果你接受，[animalKindLabelCorrect]将会在[manhuntersDelayTicks_duration]后来到[map_definite]。[allRewardsDescriptionsExceptItems]</li>
     <li>questDescription(askerIsNull==true,animalCount==1)->在[map_definite]附近的一名商人向你发来求救信号。一只野生的[animalKind_label]正在袭击他！他正试图引导野兽转向你这边来摆脱险境。\n\n作为回报，商人允诺通过空投舱向你发送一些物资。[endSection]</li>
     <li>manhunterArrivalLetterEnd(askerIsNull==true,animalCount==1)->正在袭击附近一名商人的[animalKind_label]被空投舱吸引而向你这边追来。</li>
     <li>questDescription(askerIsNull==true,animalCount>=2)->在[map_definite]附近的一名商人向你发来求救信号。 一群多达[animalCount]只的野生[animalKind_labelPlural]正在袭击他！他正试图引导野兽转向你这边来摆脱险境。\n\n作为回报，商人允诺通过空投舱向你发送一些物资。[endSection]</li>
     <li>manhunterArrivalLetterEnd(askerIsNull==true,animalCount>=2)->正在袭击附近一名商人的[animalKind_labelPlural]被空投舱吸引而向你这边追来。</li>
-    <li>questDescription(asker_factionLeader==True)->来自[asker_faction_name]的商队在[map_definite]附近被[manhuntingBeastIndef]袭击。[asker_faction_leaderTitle][asker_nameFull]想把[animalKindLabelCorrect]引到[map_definite]以脱离险境。\n\n作为回报，[asker_nameDef]允诺通过空投舱向你发送一些物资。[endSection]</li>
+    <li>questDescription(asker_factionLeader==True)->来自[asker_faction_name]的商队在[map_definite]附近被[manhuntingBeastIndef]袭击。 [asker_faction_leaderTitle][asker_nameFull]想把[animalKindLabelCorrect]引到[map_definite]以脱离险境。 \n\n作为回报，[asker_nameDef]允诺通过空投舱向你发送一些物资。[endSection]</li>
     <li>manhunterArrivalLetterEnd(asker_factionLeader==True,animalCount==1)->正在袭击来自[asker_faction_name]的商队的[animalKind_label]被空投舱吸引而向你这边追来。</li>
     <li>manhunterArrivalLetterEnd(asker_factionLeader==True,animalCount>=2)->正在袭击来自[asker_faction_name]的商队的[animalKind_labelPlural]被空投舱吸引而向你这边追来。</li>
     <li>questDescription(asker_royalInCurrentFaction==True,animalCount==1)->来自[asker_faction_name]的[asker_royalTitleInCurrentFaction][asker_nameFull]最近很无聊。[asker_pronoun]想见识下像你这种原始人是如何对付致命威胁的。为了满足[asker_possessive]的要求，[asker_possessive]的仆人会放出一只[animalKind_label]来袭击你。[asker_royalTitleInCurrentFaction]将使用高空无人机观看整个过程。\n\n作为你同意参演这次“娱乐节目”的回报，[asker_pronoun]允诺通过空投舱向你发送一些物资。[endSection]</li>
