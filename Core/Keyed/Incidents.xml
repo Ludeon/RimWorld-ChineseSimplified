@@ -11,10 +11,10 @@
   <AnimalInsanityMultiple>某种心灵波扫过了整个地区。你的殖民者们没出什么问题，但是……\n\n看来地区内的许多{0}都因此发狂了。</AnimalInsanityMultiple>
 
   <!-- EN: Blight: {PLANTDEF_labelPlural} -->
-  <LetterLabelCropBlight>枯萎病</LetterLabelCropBlight>
+  <LetterLabelCropBlight>枯萎病：{PLANTDEF_labelPlural}</LetterLabelCropBlight>
   <!-- EN: Blight has been discovered on the {PLANTDEF_labelPlural}!
 \nYou should cut or burn the affected plants before the blight spreads. -->
-  <LetterCropBlight>一位殖民者注意到你的作物发生了枯萎病！\n你应该在枯萎病扩散之前割除或烧掉枯萎的植物。</LetterCropBlight>
+  <LetterCropBlight>一位殖民者注意到你的{PLANTDEF_labelPlural}发生了枯萎病！\n你应该在枯萎病扩散之前割除或烧掉枯萎的植物。</LetterCropBlight>
 
   <!-- EN: Miracle -->
   <LetterLabelMiracleHeal>医疗奇迹</LetterLabelMiracleHeal>
@@ -59,7 +59,7 @@
   <ShortCircuitWasHuge>这爆炸的规模可超级大啊，哇！</ShortCircuitWasHuge>
 
   <!-- EN: A trade ship is passing nearby.\n\nThey are known as {0}. They are a {1}.\n\n{2} -->
-  <TraderArrival>一艘商船正巧经过。\n\n他们被称作{0}，是{1}。</TraderArrival>
+  <TraderArrival>一艘商船正巧经过。\n\n他们被称作{0}，是{1}。\n\n{2}</TraderArrival>
   <!-- EN: They're affiliated with {FACTION_name}. -->
   <TraderArrivalFromFaction>他们隶属于{FACTION_name}。</TraderArrivalFromFaction>
   <!-- EN: They are not affiliated with any faction. -->
