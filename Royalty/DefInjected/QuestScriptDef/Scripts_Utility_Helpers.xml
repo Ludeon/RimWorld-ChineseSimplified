@@ -35,8 +35,12 @@
   <!-- EN: The [helpersLabelSingOrPlural] sent by [asker_nameDef] [helpersHasHave] arrived to aid you with the quest '[resolvedQuestName]'. -->
   <Util_MaybeGenerateHelpers.root.nodes.IsNull.elseNode.elseNode.node.nodes.DropPods.customLetterText.slateRef>[asker_nameDef][helpersHasHave]向你派出[helpersLabelSingOrPlural]进行支援，随后将协助你执行'[resolvedQuestName]'任务。</Util_MaybeGenerateHelpers.root.nodes.IsNull.elseNode.elseNode.node.nodes.DropPods.customLetterText.slateRef>
   <!-- EN: [helpersLabelSingOrPlural] leaving -->
-  <Util_MaybeGenerateHelpers.root.nodes.IsNull.elseNode.elseNode.node.nodes.Delay.node.nodes.Letter.label.slateRef>[helpersLabelSingOrPlural]正在离开</Util_MaybeGenerateHelpers.root.nodes.IsNull.elseNode.elseNode.node.nodes.Delay.node.nodes.Letter.label.slateRef>
+  <Util_MaybeGenerateHelpers.root.nodes.IsNull.elseNode.elseNode.node.nodes.IsTrueOrUnset.node.node.nodes.Letter.label.slateRef>[helpersLabelSingOrPlural]正在离开</Util_MaybeGenerateHelpers.root.nodes.IsNull.elseNode.elseNode.node.nodes.IsTrueOrUnset.node.node.nodes.Letter.label.slateRef>
   <!-- EN: The [helpersLabelSingOrPlural] sent by [asker_nameDef] to aid you [helpersHasHave] spent too much time with you, and [helpersIsAre] now leaving. -->
+  <Util_MaybeGenerateHelpers.root.nodes.IsNull.elseNode.elseNode.node.nodes.IsTrueOrUnset.node.node.nodes.Letter.text.slateRef>由[asker_nameDef]向你派出以支援任务工作的[helpersLabelSingOrPlural][helpersHasHave]在你这里消耗了太多时间，现在[helpersIsAre]离开的时候了。</Util_MaybeGenerateHelpers.root.nodes.IsNull.elseNode.elseNode.node.nodes.IsTrueOrUnset.node.node.nodes.Letter.text.slateRef>
+  
+  <!-- UNUSED -->
+  <Util_MaybeGenerateHelpers.root.nodes.IsNull.elseNode.elseNode.node.nodes.Delay.node.nodes.Letter.label.slateRef>[helpersLabelSingOrPlural]正在离开</Util_MaybeGenerateHelpers.root.nodes.IsNull.elseNode.elseNode.node.nodes.Delay.node.nodes.Letter.label.slateRef>
   <Util_MaybeGenerateHelpers.root.nodes.IsNull.elseNode.elseNode.node.nodes.Delay.node.nodes.Letter.text.slateRef>由[asker_nameDef]向你派出以支援任务工作的[helpersLabelSingOrPlural][helpersHasHave]在你这里消耗了太多时间，现在[helpersIsAre]离开的时候了。</Util_MaybeGenerateHelpers.root.nodes.IsNull.elseNode.elseNode.node.nodes.Delay.node.nodes.Letter.text.slateRef>
   
 </LanguageData>
