@@ -20,8 +20,12 @@
   <LetterLostRoyalTitle>{PAWN_labelShort}不再带有{FACTION_name}的{TITLE}头衔。</LetterLostRoyalTitle>
   <!-- EN: Title rewards -->
   <LetterLabelRewardsForNewTitle>赏赐</LetterLabelRewardsForNewTitle>
-  <!-- EN: To honor {PAWN_labelShort} advancing to the title of {TITLE}, {FACTION_name} has sent them following reward(s): -->
-  <LetterRewardsForNewTitle>为了纪念{PAWN_labelShort}的{TITLE}头衔晋升，{FACTION_name}发来了如下赏赐：</LetterRewardsForNewTitle>
+  <!-- EN: To honor {PAWN_labelShort} advancing to the title of {TITLE}, {FACTION_name} has sent {PAWN_objective} following reward(s): -->
+  <LetterRewardsForNewTitle>为了纪念{PAWN_labelShort}的{TITLE}头衔晋升，{FACTION_name}发给{PAWN_objective}如下赏赐：</LetterRewardsForNewTitle>
+  <!-- EN: Rewards have arrived to your colony via transport pods. text_todo -->
+  <LetterRewardsForNewTitleDeliveryBase>奖励已经通过空投舱发送至你的殖民地。text_todo</LetterRewardsForNewTitleDeliveryBase>
+  <!-- EN: Rewards were collected by a caravan, you can find them in {PAWN_labelShort}'s inventory. text_todo -->
+  <LetterRewardsForNewTitleDeliveryCaravan>奖励已经装载至一个远征队，你可以在{PAWN_labelShort}的库存中找到它们。text_todo</LetterRewardsForNewTitleDeliveryCaravan>
 
   <!-- EN: {PAWN_pronoun} has these permissions: -->
   <LetterRoyalTitlePermits>{PAWN_pronoun}获得以下权限:</LetterRoyalTitlePermits>
