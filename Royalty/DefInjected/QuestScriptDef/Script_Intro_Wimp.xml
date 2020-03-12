@@ -5,7 +5,7 @@
     <li>questDescription->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name] is calling from nearby. [asker_pronoun] is being followed by an angry [animalKindDef_label]! [asker_pronoun] says [asker_pronoun] only wanted to see the landscape on a quick walk, and never expected such a deadly threat.\n\n[asker_nameDef] wants you to keep [asker_objective] safe at [map_definite] for a few hours until [asker_possessive] shuttle can come pick [asker_objective] up. [asker_pronoun] promises not to be offended by your body odors or lack of manners.\n\n[asker_pronoun] will bestow [royalFavorReward] [asker_faction_royalFavorLabel] on whoever accepts this quest. This is enough favor to receive the royal title of Yeoman, and all benefits that come with it - including a psychic amplifier that gives psychic abilities.\n\nBe warned - those with titles tend to become haughty and needy.</li>
   -->
   <Intro_Wimp.questDescriptionRules.rulesStrings>
-    <li>questDescription->[asker_faction_name]的一名[asker_royalTitleInCurrentFaction]，[asker_nameFull]正在附近联系我们。 [asker_pronoun]正在被一只疯狂的[animalKindDef_label]追杀！ [asker_pronoun]说[asker_pronoun]只想看看周围的风景，却从来没想到会受到如此致命的威胁。\n\n[asker_nameDef]希望你位于[map_definite]的殖民地保证[asker_objective]的安全，几小时后，[asker_possessive]的穿梭机就会接走[asker_objective]。[asker_pronoun]承诺在这个特殊时刻不会因为你的粗鄙和殖民地邋遢的环境生气。\n\n无论谁能接受这个任务，[asker_pronoun]都将回报[royalFavorReward][asker_faction_royalFavorLabel]。这份回报带来的荣誉点数足够普通平民获得荣誉头衔，并且还包括了一个能够你让一窥神秘心灵力量的心灵增幅器。\n\n请注意：当一个普通人获得荣誉头衔后往往就开始变得贪婪傲慢。</li>
+    <li>questDescription->[asker_faction_name] 的一名 [asker_royalTitleInCurrentFaction]， [asker_nameFull] 正在附近联系我们。 [asker_pronoun]正在被一只疯狂的[animalKindDef_label]追杀！ [asker_pronoun]说[asker_pronoun]只想看看周围的风景， 却从来没想到会受到如此致命的威胁。\n\n[asker_nameDef] 希望你位于[map_definite]的殖民地保证[asker_objective]的安全， 几小时后， [asker_possessive]的穿梭机就会接走[asker_objective]。 [asker_pronoun]承诺在这个特殊时刻不会因为你的粗鄙和殖民地邋遢的环境生气。\n\n无论谁能接受这个任务， [asker_pronoun]都将回报 [royalFavorReward] [asker_faction_royalFavorLabel]。 这份回报带来的荣誉点数足够普通平民获得荣誉头衔， 并且还包括了一个能够你让一窥神秘心灵力量的心灵增幅器。\n\n请注意：当一个普通人获得荣誉头衔后往往就开始变得贪婪傲慢。</li>
   </Intro_Wimp.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->the [adjAny] [asker_royalTitleInCurrentFaction]</li>
@@ -42,7 +42,7 @@
   <!-- EN: [animalKindDef_label] arrived -->
   <Intro_Wimp.root.nodes.Delay.node.elseNode.nodes.PawnsArrive.customLetterLabel.slateRef>[animalKindDef_label]已抵达</Intro_Wimp.root.nodes.Delay.node.elseNode.nodes.PawnsArrive.customLetterLabel.slateRef>
   <!-- EN: The "deadly" [animalKindDef_label] that [asker_nameDef] was fleeing has arrived.\n\nIt turned out to be quite gentle and not aggressive at all. -->
-  <Intro_Wimp.root.nodes.Delay.node.elseNode.nodes.PawnsArrive.customLetterText.slateRef>追逐[asker_nameDef]的那个“危险致命”的[animalKindDef_label]已经抵达。\n\n结果它看起来很温和，一点也不凶暴！</Intro_Wimp.root.nodes.Delay.node.elseNode.nodes.PawnsArrive.customLetterText.slateRef>
+  <Intro_Wimp.root.nodes.Delay.node.elseNode.nodes.PawnsArrive.customLetterText.slateRef>追逐 [asker_nameDef] 的那个“危险致命”的[animalKindDef_label]已经抵达。\n\n结果它看起来很温和，一点也不凶暴！</Intro_Wimp.root.nodes.Delay.node.elseNode.nodes.PawnsArrive.customLetterText.slateRef>
   <!-- EN: Angry [animalKindDef_label] -->
   <Intro_Wimp.root.nodes.Delay.node.node.customLetterLabel.slateRef>狂暴的[animalKindDef_label]</Intro_Wimp.root.nodes.Delay.node.node.customLetterLabel.slateRef>
   <!-- EN: The angry [animalKindDef_label] has come to get [asker_nameFull].\n\nWhile it is weak, it does appear to be highly motivated. -->
