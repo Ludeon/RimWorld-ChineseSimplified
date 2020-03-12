@@ -21,23 +21,23 @@
     <li>condDesc(gameCondition==PsychicSuppression)->If [joiner_pronoun] comes to you, the persona will hit [map_definite] with [psychicSuppressorGender]-tuned psychic suppression waves for [gameConditionDuration_duration], reducing consciousness of all [psychicSuppressorGender]s.</li>
   -->
   <ThreatReward_GameCondition_Joiner.questDescriptionRules.rulesStrings>
-    <li>questDescription->一位名叫[joiner_nameFull]的[joiner_age]岁[joiner_title]请求我们帮助！[joiner_pronoun]一直在躲避[hidingFrom]。[joiner_pronoun]想要到[map_definite]与你会合 。[joiner_relationInfo]\n\n[condDesc]\n\n由于联系我们会有极大风险，[joiner_nameDef]表示无法告知我们更多关于[joiner_objective]自己的情报。</li>
+    <li>questDescription->一位名叫 [joiner_nameFull] 的 [joiner_age] 岁 [joiner_title] 请求我们帮助！ [joiner_pronoun] 一直在躲避 [hidingFrom]。 [joiner_pronoun]想要到[map_definite]与你会合。 [joiner_relationInfo]\n\n[condDesc]\n\n由于联系我们会有极大风险， [joiner_nameDef] 表示无法告知我们更多关于[joiner_objective]自己的情报。</li>
     <li>hidingFrom(gameCondition==ToxicFallout)->一群饿狼</li>
-    <li>condDesc(gameCondition==ToxicFallout)->然而，[joiner_nameDef]只能通过放火引燃附近的一个大型剧毒化学废料场来杀死这些饿狼。因此接下来的[gameConditionDuration_duration]将会有持续的毒性物质沉降。</li>
+    <li>condDesc(gameCondition==ToxicFallout)->然而，[joiner_nameDef] 只能通过放火引燃附近的一个大型剧毒化学废料场来杀死这些饿狼。 因此接下来的[gameConditionDuration_duration]将会有持续的毒性物质沉降。</li>
     <li>hidingFrom(gameCondition==VolcanicWinter)->一群食人族</li>
-    <li>condDesc(gameCondition==VolcanicWinter)->然而，[joiner_nameDef]只能通过放火引燃附近的一个大型垃圾堆来杀死这帮家伙。如果[joiner_pronoun]投奔你而来，放火导致的烟雾会在[gameConditionDuration_duration]内持续遮挡阳光。</li>
+    <li>condDesc(gameCondition==VolcanicWinter)->然而，[joiner_nameDef] 只能通过放火引燃附近的一个大型垃圾堆来杀死这帮家伙。 如果[joiner_pronoun]投奔你而来，放火导致的烟雾会在[gameConditionDuration_duration]内持续遮挡阳光。</li>
     <li>hidingFrom(gameCondition==EMIField)->一群机械族</li>
-    <li>condDesc(gameCondition==EMIField)->然而，[joiner_nameDef]只能通过激活一台古老的电磁干扰装置来消灭这些机械族。如果[joiner_pronoun]投奔你而来，持续[gameConditionDuration_duration]的强电磁干扰将会关闭所有的电子设备。</li>
+    <li>condDesc(gameCondition==EMIField)->然而，[joiner_nameDef] 只能通过激活一台古老的电磁干扰装置来消灭这些机械族。 如果[joiner_pronoun]投奔你而来， 持续[gameConditionDuration_duration]的强电磁干扰将会关闭所有的电子设备。</li>
     <li>hidingFrom(gameCondition==HeatWave)->一颗故障的气候控制卫星</li>
-    <li>condDesc(gameCondition==HeatWave)->如果[joiner_pronoun]投奔你而来，将会袭来一场持续[gameConditionDuration_duration]的非正常热浪，卫星系统自动重置后将会恢复正常。</li>
+    <li>condDesc(gameCondition==HeatWave)->如果[joiner_pronoun]投奔你而来， 将会袭来一场持续[gameConditionDuration_duration]的非正常热浪， 卫星系统自动重置后将会恢复正常。</li>
     <li>hidingFrom(gameCondition==ColdSnap)->一颗故障的气候控制卫星</li>
-    <li>condDesc(gameCondition==ColdSnap)->如果[joiner_pronoun]投奔你而来，将会袭来一场持续[gameConditionDuration_duration]的非正常寒流，卫星系统自动重置后将会恢复正常。</li>
+    <li>condDesc(gameCondition==ColdSnap)->如果[joiner_pronoun]投奔你而来， 将会袭来一场持续[gameConditionDuration_duration]的非正常寒流， 卫星系统自动重置后将会恢复正常。</li>
     <li>hidingFrom(gameCondition==WeatherController)->一颗故障的天气控制卫星</li>
-    <li>condDesc(gameCondition==WeatherController)->如果[joiner_pronoun]投奔你而来，天气将会强制变为[forcedWeather_label]并持续[gameConditionDuration_duration]，卫星系统自动重置后将会恢复正常。</li>
+    <li>condDesc(gameCondition==WeatherController)->如果[joiner_pronoun]投奔你而来， 天气将会强制变为[forcedWeather_label]并持续[gameConditionDuration_duration]， 卫星系统自动重置后将会恢复正常。</li>
     <li>hidingFrom(gameCondition==PsychicDrone)->一台被[joiner_pronoun]冒犯的复仇机器</li>
-    <li>condDesc(gameCondition==PsychicDrone)->如果[joiner_pronoun]投奔你而来，机器意志将会把一台心灵干扰器调整为[psychicDroneLevel]级强度，并在[gameConditionDuration_duration]内持续向[map_definite]发射影响[psychicDroneGender]的心灵干扰，这将会使所有的[psychicDroneGender]殖民者情绪低落。</li>
+    <li>condDesc(gameCondition==PsychicDrone)->如果[joiner_pronoun]投奔你而来， 机器意志将会把一台心灵干扰器调整为[psychicDroneLevel]级强度， 并在[gameConditionDuration_duration]内持续向[map_definite]发射影响[psychicDroneGender]的心灵干扰， 这将会使所有的[psychicDroneGender]殖民者情绪低落。</li>
     <li>hidingFrom(gameCondition==PsychicSuppression)->一台被[joiner_pronoun]唤醒的混乱机器</li>
-    <li>condDesc(gameCondition==PsychicSuppression)->如果[joiner_pronoun]投奔你而来，机器意志将会[gameConditionDuration_duration]内持续向[map_definite]发射影响[psychicSuppressorGender]的心灵抑制波，这将会使所有[psychicSuppressorGender]殖民者的意识混乱。</li>
+    <li>condDesc(gameCondition==PsychicSuppression)->如果[joiner_pronoun]投奔你而来， 机器意志将会[gameConditionDuration_duration]内持续向[map_definite]发射影响[psychicSuppressorGender]的心灵抑制波，这将会使所有[psychicSuppressorGender]殖民者的意识混乱。</li>
   </ThreatReward_GameCondition_Joiner.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[joiner_nameDef]'s [gameCondition_label]</li>
