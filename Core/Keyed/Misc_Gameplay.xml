@@ -98,6 +98,12 @@
   <RenameAnimal>重命名动物</RenameAnimal>
   <!-- EN: Rename colonist -->
   <RenameColonist>修改角色昵称</RenameColonist>
+  <!-- EN: Renounce title -->
+  <RenounceTitle>放弃头衔</RenounceTitle>
+  <!-- EN: {0} of {1} -->
+  <TitleOfFaction>{1} 的 {0}</TitleOfFaction>
+  <!-- EN: This action will make {PAWN_nameDef} lose {PAWN_possessive} {TITLE} title. You will receive no compensation for renouncing the title.\nThis will have the following effects:\n\n{EFFECTS} -->
+  <RenounceTitleDescription>这个操作会让{PAWN_nameDef}失去头衔{TITLE}。放弃这个头衔不会让你得到任何补偿！\n\n这会造成以下效果：\n\n{EFFECTS} text_todo</RenounceTitleDescription>
   <!-- EN: unknown -->
   <UnknownLower>未知</UnknownLower>
   <!-- EN: On -->
@@ -438,6 +444,8 @@
   <DormantCompBeacon>准备投放机械族</DormantCompBeacon>
   <!-- EN: Expired -->
   <DormantCompExpired>已过期</DormantCompExpired>
+  <!-- EN: Initiates in -->
+  <InitiatesIn>TODO</InitiatesIn>
   <!-- EN: Activates in {0} -->
   <SendSignalOnCountdownCompTime>在{0}中激活</SendSignalOnCountdownCompTime>
   <!-- EN: Psychic entropy -->
