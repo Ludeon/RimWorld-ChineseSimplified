@@ -62,7 +62,7 @@
     <li>joinerEnding->你可以直接控制[lodgersDef]，如同指挥你自己的殖民者那样。[specialNeedsExplanation]</li>
     <li>specialNeedsExplanation(asker_royalInCurrentFaction==True,priority=1)-> 你必须满足访客们的各种需求。</li>
     <li>specialNeedsExplanation-></li>
-    <li>questDescription(askerIsNull==true,lodgersCount==1)->一个名叫[lodgers0_nameFull]的[lodgers0_title]希望你保护位于[map_definite]的[lodgers0_objective][shuttleDelayTicks_duration]。 [allLodgerInfo][threatsInfo1]\n\n[commonDescEnding] [joinerEnding]</li>
+    <li>questDescription(askerIsNull==true,lodgersCount==1)->一个名叫[lodgers0_nameFull]的[lodgers0_title]希望你在[map_definite]保护[lodgers0_objective][shuttleDelayTicks_duration]。 [allLodgerInfo][threatsInfo1]\n\n[commonDescEnding] [joinerEnding]</li>
     <li>threatsInfo1(generateThreats==true,allowedThreats==Raids,enemyFaction!=Mechanoid)->\n\n[lodgers0_nameDef]不久前因[wrongAct]而被通缉。只要[lodgers0_pronoun]在这里，[enemyFaction_pawnsPlural]会来到[lodgers0_objective]寻求报复。\n[enemyGroupsParagraph]</li>
     <li>threatsInfo1(generateThreats==true,allowedThreats==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleHuman] [enemyGroupsParagraph]</li>
     <li>threatsInfo1(generateThreats==true,allowedThreats==MechClusters)->\n\n[threatsInfoMechClustersSingleHuman]</li>
