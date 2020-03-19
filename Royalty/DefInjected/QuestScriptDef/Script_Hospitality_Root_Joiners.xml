@@ -59,21 +59,21 @@
   <Hospitality_Joiners.questDescriptionRules.rulesStrings>
     <li>lodgersDef(lodgersCount==1)->[lodgers0_nameDef]</li>
     <li>lodgersDef(lodgersCount>=2)->访客们</li>
-    <li>joinerEnding->你可以直接控制[lodgersDef]，如同指挥你自己的殖民者那样。[specialNeedsExplanation]</li>
-    <li>specialNeedsExplanation(asker_royalInCurrentFaction==True,priority=1)-> 你必须满足访客们的各种需求。</li>
+    <li>joinerEnding->你可以直接控制 [lodgersDef]， 如同指挥你自己的殖民者那样。 [specialNeedsExplanation]</li>
+    <li>specialNeedsExplanation(asker_royalInCurrentFaction==True,priority=1)->你必须满足访客们的各种需求。</li>
     <li>specialNeedsExplanation-></li>
-    <li>questDescription(askerIsNull==true,lodgersCount==1)->一个名叫[lodgers0_nameFull]的[lodgers0_title]希望你在[map_definite]保护[lodgers0_objective][shuttleDelayTicks_duration]。 [allLodgerInfo][threatsInfo1]\n\n[commonDescEnding] [joinerEnding]</li>
-    <li>threatsInfo1(generateThreats==true,allowedThreats==Raids,enemyFaction!=Mechanoid)->\n\n[lodgers0_nameDef]不久前因[wrongAct]而被通缉。只要[lodgers0_pronoun]在这里，[enemyFaction_pawnsPlural]会来到[lodgers0_objective]寻求报复。\n[enemyGroupsParagraph]</li>
+    <li>questDescription(askerIsNull==true,lodgersCount==1)->一个名叫 [lodgers0_nameFull] 的 [lodgers0_title] 希望你在 [map_definite] 保护 [lodgers0_objective] [shuttleDelayTicks_duration]。 [allLodgerInfo] [threatsInfo1]\n\n[commonDescEnding] [joinerEnding]</li>
+    <li>threatsInfo1(generateThreats==true,allowedThreats==Raids,enemyFaction!=Mechanoid)->\n\n[lodgers0_nameDef] 不久前因 [wrongAct] 而被通缉。 只要 [lodgers0_pronoun] 在这里， [enemyFaction_pawnsPlural] 会来到 [lodgers0_objective] 寻求报复。\n[enemyGroupsParagraph]</li>
     <li>threatsInfo1(generateThreats==true,allowedThreats==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleHuman] [enemyGroupsParagraph]</li>
     <li>threatsInfo1(generateThreats==true,allowedThreats==MechClusters)->\n\n[threatsInfoMechClustersSingleHuman]</li>
     <li>threatsInfo1(generateThreats==false)-></li>
-    <li>wrongAct->侮辱了[enemyFaction_name]的[enemyFaction_leaderTitle][enemyFaction_leader_nameDef]的[PersonalCharacteristic]</li>
-    <li>wrongAct->窃取了[enemyFaction_name]的牲畜</li>
-    <li>wrongAct->窃取了[enemyFaction_name]的食物</li>
-    <li>wrongAct->窃取了[enemyFaction_name]的精神象征物</li>
-    <li>wrongAct->蓄意破坏[enemyFaction_name]的低温休眠仓</li>
-    <li>questDescription(askerIsNull==true,lodgersCount>=2)->有一伙（[lodgersCount]名）旅行者希望你 在[shuttleDelayTicks_duration]内于[map_definite]招待他们。 [allLodgerInfo][threatsInfo2]\n\n[commonDescEnding] [joinerEnding]</li>
-    <li>threatsInfo2(generateThreats==true,allowedThreats==Raids,enemyFaction!=Mechanoid)->\n\n一些旅行者最近被邀请参加[enemyFaction_name]的重要仪式， 但他们却因为醉酒而亵渎了仪式。 [enemyFaction_name]正在前往袭击他们。 [enemyGroupsParagraph]</li>
+    <li>wrongAct->侮辱了 [enemyFaction_name] [enemyFaction_leaderTitle] [enemyFaction_leader_nameDef] 的 [PersonalCharacteristic]</li>
+    <li>wrongAct->窃取了 [enemyFaction_name] 的牲畜</li>
+    <li>wrongAct->窃取了 [enemyFaction_name] 的食物</li>
+    <li>wrongAct->窃取了 [enemyFaction_name] 的精神象征物</li>
+    <li>wrongAct->蓄意破坏 [enemyFaction_name] 的低温休眠仓</li>
+    <li>questDescription(askerIsNull==true,lodgersCount>=2)->有一伙（[lodgersCount]名）旅行者希望你 在[shuttleDelayTicks_duration] 内于 [map_definite]招待他们。 [allLodgerInfo] [threatsInfo2]\n\n[commonDescEnding] [joinerEnding]</li>
+    <li>threatsInfo2(generateThreats==true,allowedThreats==Raids,enemyFaction!=Mechanoid)->\n\n一些旅行者最近被邀请参加 [enemyFaction_name] 的重要仪式， 但他们却因为醉酒而亵渎了仪式。 [enemyFaction_name]正在前往袭击他们。 [enemyGroupsParagraph]</li>
     <li>threatsInfo2(generateThreats==true,allowedThreats==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsMultiHuman] [enemyGroupsParagraph]</li>
     <li>threatsInfo2(generateThreats==true,allowedThreats==MechClusters)->\n\n这些旅行者最近[mechViolation]， 并成为轨道平台上机械集群的目标。 只要他们还存在， 机械集群就会定期从轨道上降落。</li>
     <li>threatsInfo2(generateThreats==false)-></li>
