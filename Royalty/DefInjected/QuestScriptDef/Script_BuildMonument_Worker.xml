@@ -1,21 +1,40 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
+  <!-- EN: Monument completed -->
+  <BuildMonumentWorker.root.nodes.IsTrue-2.elseNode.elseNode.nodes.IsNull.elseNode.node.nodes.Letter.label.slateRef>纪念碑完工</BuildMonumentWorker.root.nodes.IsTrue-2.elseNode.elseNode.nodes.IsNull.elseNode.node.nodes.Letter.label.slateRef>
+  <!-- EN: You completed construction of the monument.\n\nYou must not destroy it for atleast 15 days, otherwise you will anger [asker_factionName] (-10 goodwill). text_todo -->
+  <BuildMonumentWorker.root.nodes.IsTrue-2.elseNode.elseNode.nodes.IsNull.elseNode.node.nodes.Letter.text.slateRef>你完成了纪念碑结构的建造。\n\n你在之后的15天内不能将它摧毁， 否则会激怒 [asker_factionName] （-10 好感度）。text_todo</BuildMonumentWorker.root.nodes.IsTrue-2.elseNode.elseNode.nodes.IsNull.elseNode.node.nodes.Letter.text.slateRef>
+  <!-- EN: Monument destroyed -->
+  <BuildMonumentWorker.root.nodes.IsTrue-2.elseNode.elseNode.nodes.IsNull.elseNode.node.nodes.monumentMarkerMonumentDestroyed.node.nodes.Letter.label.slateRef>纪念碑被摧毁</BuildMonumentWorker.root.nodes.IsTrue-2.elseNode.elseNode.nodes.IsNull.elseNode.node.nodes.monumentMarkerMonumentDestroyed.node.nodes.Letter.label.slateRef>
+  <!-- EN: [asker_nameDef] is offended that you destroyed the monument after completing it.\n\nYou lost 10 goodwill with [asker_faction_name]. text_todo -->
+  <BuildMonumentWorker.root.nodes.IsTrue-2.elseNode.elseNode.nodes.IsNull.elseNode.node.nodes.monumentMarkerMonumentDestroyed.node.nodes.Letter.text.slateRef>你在完成纪念碑之后摧毁它的行为冒犯了 [asker_nameDef]。\n\n你与 [asker_faction_name] 的关系下降了10点。text_todo</BuildMonumentWorker.root.nodes.IsTrue-2.elseNode.elseNode.nodes.IsNull.elseNode.node.nodes.monumentMarkerMonumentDestroyed.node.nodes.Letter.text.slateRef>
+  <!-- EN: Do not destroy the monument for {0} -->
+  <BuildMonumentWorker.root.nodes.IsTrue-2.elseNode.elseNode.nodes.IsNull.elseNode.node.nodes.Delay.expiryInfoPart.slateRef>不要破坏 {0} 的纪念碑</BuildMonumentWorker.root.nodes.IsTrue-2.elseNode.elseNode.nodes.IsNull.elseNode.node.nodes.Delay.expiryInfoPart.slateRef>
+  <!-- EN: Keep monument {0} -->
+  <BuildMonumentWorker.root.nodes.IsTrue-2.elseNode.elseNode.nodes.IsNull.elseNode.node.nodes.Delay.inspectString.slateRef>保护纪念碑 {0}</BuildMonumentWorker.root.nodes.IsTrue-2.elseNode.elseNode.nodes.IsNull.elseNode.node.nodes.Delay.inspectString.slateRef>
   <!-- EN: The monument for the quest '[resolvedQuestName]' has been violated. Punishment will now occur. -->
   <BuildMonumentWorker.root.nodes.IsTrue-2.node.nodes.monumentMarkerMonumentDestroyed.node.nodes.Message.text.slateRef>任务'[resolvedQuestName]'中的纪念碑已被污损。惩罚即将来临。</BuildMonumentWorker.root.nodes.IsTrue-2.node.nodes.monumentMarkerMonumentDestroyed.node.nodes.Message.text.slateRef>
+  <!-- EN: Protect the monument for {0} -->
+  <BuildMonumentWorker.root.nodes.IsTrue-2.node.nodes.Delay.expiryInfoPart.slateRef>保护纪念碑{0}</BuildMonumentWorker.root.nodes.IsTrue-2.node.nodes.Delay.expiryInfoPart.slateRef>
+  <!-- EN: Protect the monument until {0} -->
+  <BuildMonumentWorker.root.nodes.IsTrue-2.node.nodes.Delay.expiryInfoPartTip.slateRef>保护纪念碑直到{0}</BuildMonumentWorker.root.nodes.IsTrue-2.node.nodes.Delay.expiryInfoPartTip.slateRef>
+  <!-- EN: Protect for {0} -->
+  <BuildMonumentWorker.root.nodes.IsTrue-2.node.nodes.Delay.inspectString.slateRef>保护{0}</BuildMonumentWorker.root.nodes.IsTrue-2.node.nodes.Delay.inspectString.slateRef>
   <!-- EN: New monument marker arrived -->
   <BuildMonumentWorker.root.nodes.monumentMarkerDestroyed.node.nodes.Letter.label.slateRef>新的纪念碑标记已抵达</BuildMonumentWorker.root.nodes.monumentMarkerDestroyed.node.nodes.Letter.label.slateRef>
   <!-- EN: Since the monument marker has been destroyed, a new one has been sent. -->
   <BuildMonumentWorker.root.nodes.monumentMarkerDestroyed.node.nodes.Letter.text.slateRef>一个新的纪念碑标记已送出，用于替换被摧毁的那个。</BuildMonumentWorker.root.nodes.monumentMarkerDestroyed.node.nodes.Letter.text.slateRef>
-  <!-- EN: Protect the monument for {0} -->
-  <BuildMonumentWorker.root.nodes.Delay-0.expiryInfoPart.slateRef>保护纪念碑{0}</BuildMonumentWorker.root.nodes.Delay-0.expiryInfoPart.slateRef>
-  <!-- EN: Protect the monument until {0} -->
-  <BuildMonumentWorker.root.nodes.Delay-0.expiryInfoPartTip.slateRef>保护纪念碑直到{0}</BuildMonumentWorker.root.nodes.Delay-0.expiryInfoPartTip.slateRef>
-  <!-- EN: Protect for {0} -->
-  <BuildMonumentWorker.root.nodes.Delay-0.inspectString.slateRef>保护{0}</BuildMonumentWorker.root.nodes.Delay-0.inspectString.slateRef>
+  <BuildMonumentWorker.root.nodes.Delay.expiryInfoPart.slateRef>保护纪念碑{0}</BuildMonumentWorker.root.nodes.Delay.expiryInfoPart.slateRef>
+  <BuildMonumentWorker.root.nodes.Delay.expiryInfoPartTip.slateRef>保护纪念碑直到{0}</BuildMonumentWorker.root.nodes.Delay.expiryInfoPartTip.slateRef>
+  <BuildMonumentWorker.root.nodes.Delay.inspectString.slateRef>保护{0}</BuildMonumentWorker.root.nodes.Delay.inspectString.slateRef>
   <!-- EN: Monument time expired -->
-  <BuildMonumentWorker.root.nodes.Delay-1.node.nodes.Letter.label.slateRef>纪念碑时效已过</BuildMonumentWorker.root.nodes.Delay-1.node.nodes.Letter.label.slateRef>
+  <BuildMonumentWorker.root.nodes.Delay.node.nodes.Letter.label.slateRef>纪念碑时效已过</BuildMonumentWorker.root.nodes.Delay.node.nodes.Letter.label.slateRef>
   <!-- EN: Your time limit to construct the monument has expired. [failLetterEndingCommon] -->
+  <BuildMonumentWorker.root.nodes.Delay.node.nodes.Letter.text.slateRef>建造纪念碑的时限已过。 [failLetterEndingCommon]</BuildMonumentWorker.root.nodes.Delay.node.nodes.Letter.text.slateRef>
+  
+  <!-- UNUSED -->
+  <BuildMonumentWorker.root.nodes.Delay-1.node.nodes.Letter.label.slateRef>纪念碑时效已过</BuildMonumentWorker.root.nodes.Delay-1.node.nodes.Letter.label.slateRef>
   <BuildMonumentWorker.root.nodes.Delay-1.node.nodes.Letter.text.slateRef>建造纪念碑的时间已过。[failLetterEndingCommon]</BuildMonumentWorker.root.nodes.Delay-1.node.nodes.Letter.text.slateRef>
   
 </LanguageData>
