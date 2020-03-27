@@ -2,10 +2,10 @@
 <LanguageData>
   
   <!-- EN:
-    <li>questDescription->[decreeIntro]\n\nYou must build a monument. It is [monumentSize] in size and will require these resources (total value [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\n[decreeThreatInfo]\n\nYou must not destroy the monument for 15 days, otherwise [asker_nameDef] will be unhappy. text_todo</li>
+    <li>questDescription->[decreeIntro]\n\nYou must build a monument. It is [monumentSize] in size and will require these resources (total value [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\n[decreeThreatInfo]\n\nYou must keep the monument safe for [keepMonumentDays] days after completion, otherwise [asker_nameDef] will be unhappy.</li>
   -->
   <Decree_BuildMonument.questDescriptionRules.rulesStrings>
-    <li>questDescription->[decreeIntro]\n\n你必须建造一个纪念碑。建造这个[monumentSize]的纪念碑需要以下资源（总价值：[monumentRequiredResourcesMarketValue_money]）：\n\n[monumentRequiredResources]\n\n[decreeThreatInfo]\n\n你在建造完成后15天内不能破坏这个纪念碑， 否则 [asker_nameDef] 会不开心。text_todo</li>
+    <li>questDescription->[decreeIntro]\n\n你必须建造一个纪念碑。建造这个[monumentSize]的纪念碑需要以下资源（总价值：[monumentRequiredResourcesMarketValue_money]）：\n\n[monumentRequiredResources]\n\n[decreeThreatInfo]\n\n你在建造完成后[keepMonumentDays]天内不能破坏这个纪念碑， 否则 [asker_nameDef] 会不开心。</li>
   </Decree_BuildMonument.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->monument decree</li>
@@ -19,14 +19,16 @@
   <Decree_BuildMonument.root.nodes.monumentMarkerDestroyed.node.nodes.Letter.text.slateRef>由于纪念碑标记已损毁，一个新的标记被送出。</Decree_BuildMonument.root.nodes.monumentMarkerDestroyed.node.nodes.Letter.text.slateRef>
   <!-- EN: Monument completed -->
   <Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.Letter.label.slateRef>纪念碑完工</Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.Letter.label.slateRef>
-  <!-- EN: You completed construction of the monument.\n\nYou must not destroy it for atleast 15 days, otherwise [asker_nameDef] will be unhappy. text_todo -->
-  <Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.Letter.text.slateRef>你完成了这个纪念碑结构。\n\n在接下来的15天内不要破坏它， 否则 [asker_nameDef] 会不开心。text_todo</Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.Letter.text.slateRef>
+  <!-- EN: You have completed construction of the monument.\n\nYou must keep it safe for [keepMonumentDays] days, otherwise [asker_nameDef] will be displeased. -->
+  <Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.Letter.text.slateRef>你完成了这个纪念碑结构。\n\n在接下来的[keepMonumentDays]天内不要让它被破坏， 否则 [asker_nameDef] 会不开心。text_todo</Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.Letter.text.slateRef>
   <!-- EN: Monument destroyed -->
   <Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.monumentMarkerMonumentDestroyed.node.nodes.Letter.label.slateRef>纪念碑被破坏</Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.monumentMarkerMonumentDestroyed.node.nodes.Letter.label.slateRef>
-  <!-- EN: [asker_nameDef] is offended that you destroyed the monument after completing it.\n\n[asker_possessive] will be unhappy about this. text_todo -->
-  <Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.monumentMarkerMonumentDestroyed.node.nodes.Letter.text.slateRef>你在建造完纪念碑后破坏它的举动惹恼了 [asker_nameDef]。\n\n[asker_possessive] 对此感到非常不开心。text_todo</Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.monumentMarkerMonumentDestroyed.node.nodes.Letter.text.slateRef>
+  <!-- EN: [asker_nameDef] is offended that you allowed the monument to be ruined so soon after completion.\n\n[asker_pronoun] will be unhappy about this. -->
+  <Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.monumentMarkerMonumentDestroyed.node.nodes.Letter.text.slateRef>你在建造完纪念碑后太快让它被破坏的举动惹恼了 [asker_nameDef]。\n\n[asker_pronoun] 对此感到非常不开心。</Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.monumentMarkerMonumentDestroyed.node.nodes.Letter.text.slateRef>
   <!-- EN: Do not destroy the monument for {0} -->
   <Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.Delay.expiryInfoPart.slateRef>不要破坏纪念碑{0}</Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.Delay.expiryInfoPart.slateRef>
+  <!-- EN: Do not destroy the monument for {0} -->
+  <Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.Delay.expiryInfoPartTip.slateRef>不要破坏纪念碑{0}</Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.Delay.expiryInfoPartTip.slateRef>
   <!-- EN: Keep monument {0} -->
   <Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.Delay.inspectString.slateRef>保护纪念碑{0}</Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.Delay.inspectString.slateRef>
   
