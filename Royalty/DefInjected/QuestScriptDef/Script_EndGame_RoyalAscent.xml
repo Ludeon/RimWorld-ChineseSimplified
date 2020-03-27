@@ -37,14 +37,14 @@
   </EndGame_RoyalAscent.questNameRules.rulesStrings>
   <!-- EN: Quest failed: [resolvedQuestName] -->
   <EndGame_RoyalAscent.root.nodes.Letter.label.slateRef>任务失败：[resolvedQuestName]</EndGame_RoyalAscent.root.nodes.Letter.label.slateRef>
-  <!-- EN: [faction_name] became hostile to you. text_todo -->
-  <EndGame_RoyalAscent.root.nodes.Letter.text.slateRef>[faction_name]开始敌视你。text_todo</EndGame_RoyalAscent.root.nodes.Letter.text.slateRef>
+  <!-- EN: [faction_name] became hostile to you.  -->
+  <EndGame_RoyalAscent.root.nodes.Letter.text.slateRef>[faction_name]开始敌视你。</EndGame_RoyalAscent.root.nodes.Letter.text.slateRef>
   <!-- EN: asker.NoLongerFactionLeader -->
   <EndGame_RoyalAscent.root.nodes.ReplaceLostLeaderReferences.inSignal.slateRef>asker.NoLongerFactionLeader</EndGame_RoyalAscent.root.nodes.ReplaceLostLeaderReferences.inSignal.slateRef>
   <!-- EN: [asker_faction_leaderTitle] arrived -->
-  <EndGame_RoyalAscent.root.nodes.DropPods.customLetterLabel.slateRef>[asker_faction_leaderTitle]已抵达</EndGame_RoyalAscent.root.nodes.DropPods.customLetterLabel.slateRef>
+  <EndGame_RoyalAscent.root.nodes.Util_ArriveByDropPodsOrShuttle.parms.customLetterLabel.value.slateRef>[asker_faction_leaderTitle]已抵达</EndGame_RoyalAscent.root.nodes.Util_ArriveByDropPodsOrShuttle.parms.customLetterLabel.value.slateRef>
   <!-- EN: The [asker_faction_leaderTitle] of [asker_faction_name], has arrived.\n\nProtect him and satisfy his royal needs until the shuttle arrives in [shuttleDelayTicks_duration].\n\nAll of you can accompany the [asker_faction_leaderTitle] on the shuttle and travel to the Imperial flotilla to begin a new life. -->
-  <EndGame_RoyalAscent.root.nodes.DropPods.customLetterText.slateRef>[asker_faction_name] 的 [asker_faction_leaderTitle]， [asker_nameDef]， 已经抵达。\n\n你必须在穿梭机抵达前[shuttleDelayTicks_duration]内为[asker_objective]提供护卫并且满足[asker_possessive]各种需求。\n\n你们所有人都可以和[asker_faction_leaderTitle]同乘穿梭机前往帝国舰队驻地开始新生活。</EndGame_RoyalAscent.root.nodes.DropPods.customLetterText.slateRef>
+  <EndGame_RoyalAscent.root.nodes.Util_ArriveByDropPodsOrShuttle.parms.customLetterText.value.slateRef>[asker_faction_name] 的 [asker_faction_leaderTitle]， [asker_nameDef]， 已经抵达。\n\n你必须在穿梭机抵达前 [shuttleDelayTicks_duration] 内为 [asker_objective] 提供护卫并且满足 [asker_possessive] 各种需求。\n\n你们所有人都可以和 [asker_faction_leaderTitle] 同乘穿梭机前往帝国舰队驻地开始新生活。</EndGame_RoyalAscent.root.nodes.Util_ArriveByDropPodsOrShuttle.parms.customLetterText.value.slateRef>
   <!-- EN: Should depart on shuttle -->
   <EndGame_RoyalAscent.root.nodes.ShuttleDelay.node.nodes.InspectString.inspectString.slateRef>应该乘坐穿梭机离开</EndGame_RoyalAscent.root.nodes.ShuttleDelay.node.nodes.InspectString.inspectString.slateRef>
   <!-- EN: Shuttle arrived -->
@@ -83,5 +83,9 @@
   <EndGame_RoyalAscent.root.nodes.shuttleSentUnsatisfied.node.nodes.Letter.label.slateRef>任务[resolvedQuestName]已失败。</EndGame_RoyalAscent.root.nodes.shuttleSentUnsatisfied.node.nodes.Letter.label.slateRef>
   <!-- EN: The shuttle sent to collect the [asker_faction_leaderTitle] has departed without him. He will now leave on foot. [failLetterEndingCommon] -->
   <EndGame_RoyalAscent.root.nodes.shuttleSentUnsatisfied.node.nodes.Letter.text.slateRef>前来迎接[asker_faction_leaderTitle]的穿梭机没有接到[asker_objective]。[asker_pronoun]现在只能走回去。[failLetterEndingCommon]</EndGame_RoyalAscent.root.nodes.shuttleSentUnsatisfied.node.nodes.Letter.text.slateRef>
+  
+  <!-- UNUSED -->
+  <EndGame_RoyalAscent.root.nodes.DropPods.customLetterLabel.slateRef>[asker_faction_leaderTitle]已抵达</EndGame_RoyalAscent.root.nodes.DropPods.customLetterLabel.slateRef>
+  <EndGame_RoyalAscent.root.nodes.DropPods.customLetterText.slateRef>[asker_faction_name] 的 [asker_faction_leaderTitle]， [asker_nameDef]， 已经抵达。\n\n你必须在穿梭机抵达前[shuttleDelayTicks_duration]内为[asker_objective]提供护卫并且满足[asker_possessive]各种需求。\n\n你们所有人都可以和[asker_faction_leaderTitle]同乘穿梭机前往帝国舰队驻地开始新生活。</EndGame_RoyalAscent.root.nodes.DropPods.customLetterText.slateRef>
   
 </LanguageData>

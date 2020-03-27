@@ -2,9 +2,9 @@
 <LanguageData>
   
   <!-- EN: [lodgersLabelSingOrPlural] arrived -->
-  <Hospitality_Util_Worker.root.nodes.DropPods.customLetterLabel.slateRef>[lodgersLabelSingOrPlural]抵达</Hospitality_Util_Worker.root.nodes.DropPods.customLetterLabel.slateRef>
+  <Hospitality_Util_Worker.root.nodes.Util_ArriveByDropPodsOrShuttle.parms.customLetterLabel.value.slateRef>[lodgersLabelSingOrPlural]抵达</Hospitality_Util_Worker.root.nodes.Util_ArriveByDropPodsOrShuttle.parms.customLetterLabel.value.slateRef>
   <!-- EN: [lodgersLabelSingOrPluralDef] [lodgersHasHave] arrived. Protect them until the shuttle arrives in [shuttleDelayTicks_duration].[helpersArrivalLetterEnd] -->
-  <Hospitality_Util_Worker.root.nodes.DropPods.customLetterText.slateRef>[lodgersLabelSingOrPluralDef][lodgersHasHave]已经抵达。在[shuttleDelayTicks_duration]内保护他们直到穿梭机抵达。[helpersArrivalLetterEnd]</Hospitality_Util_Worker.root.nodes.DropPods.customLetterText.slateRef>
+  <Hospitality_Util_Worker.root.nodes.Util_ArriveByDropPodsOrShuttle.parms.customLetterText.value.slateRef>[lodgersLabelSingOrPluralDef] [lodgersHasHave]已经抵达。 在 [shuttleDelayTicks_duration] 内保护他们直到穿梭机抵达。 [helpersArrivalLetterEnd]</Hospitality_Util_Worker.root.nodes.Util_ArriveByDropPodsOrShuttle.parms.customLetterText.value.slateRef>
   <!-- EN: Should depart on shuttle -->
   <Hospitality_Util_Worker.root.nodes.ShuttleDelay.node.nodes.InspectString.inspectString.slateRef>应乘坐穿梭机离开</Hospitality_Util_Worker.root.nodes.ShuttleDelay.node.nodes.InspectString.inspectString.slateRef>
   <!-- EN: Shuttle arrived -->
@@ -31,6 +31,8 @@
   <Hospitality_Util_Worker.root.nodes.lodgersLeftMap.node.nodes.Letter.label.slateRef>访客失踪：{SUBJECT_definite}</Hospitality_Util_Worker.root.nodes.lodgersLeftMap.node.nodes.Letter.label.slateRef>
   <!-- EN: [letterSubject], who you were charged to protect, is gone. [remainingWillNowLeave][failLetterEndingCommon] -->
   <Hospitality_Util_Worker.root.nodes.lodgersLeftMap.node.nodes.Letter.text.slateRef>指定由你保护的[letterSubject]不见了。[remainingWillNowLeave][failLetterEndingCommon]</Hospitality_Util_Worker.root.nodes.lodgersLeftMap.node.nodes.Letter.text.slateRef>
+  <!-- EN: Guest lost: {SUBJECT_definite} -->
+  <Hospitality_Util_Worker.root.nodes.AnySignal.node.node.nodes.Letter.label.slateRef>访客失踪：{SUBJECT_definite}</Hospitality_Util_Worker.root.nodes.AnySignal.node.node.nodes.Letter.label.slateRef>
   <!-- EN: [letterSubject], who you were charged to protect, has joined another faction. [remainingWillNowLeave][failLetterEndingCommon] -->
   <Hospitality_Util_Worker.root.nodes.AnySignal.node.node.nodes.Letter.text.slateRef>指定由你保护的[letterSubject]已经加入了另一个派系。[remainingWillNowLeave][failLetterEndingCommon]</Hospitality_Util_Worker.root.nodes.AnySignal.node.node.nodes.Letter.text.slateRef>
   <!-- EN: Shuttle destroyed -->
@@ -41,5 +43,9 @@
   <Hospitality_Util_Worker.root.nodes.shuttleSentUnsatisfied.node.nodes.Letter.label.slateRef>任务失败：[resolvedQuestName]</Hospitality_Util_Worker.root.nodes.shuttleSentUnsatisfied.node.nodes.Letter.label.slateRef>
   <!-- EN: The shuttle sent to collect [lodgersLabelSingOrPluralDef] has departed. [lodgersLabelSingOrPluralDef] will now leave on foot. [failLetterEndingCommon] -->
   <Hospitality_Util_Worker.root.nodes.shuttleSentUnsatisfied.node.nodes.Letter.text.slateRef>被指派去装载[lodgersLabelSingOrPluralDef]的穿梭机已经起飞。[lodgersLabelSingOrPluralDef]将尝试步行离开。[failLetterEndingCommon]</Hospitality_Util_Worker.root.nodes.shuttleSentUnsatisfied.node.nodes.Letter.text.slateRef>
+  
+  <!-- UNUSED -->
+  <Hospitality_Util_Worker.root.nodes.DropPods.customLetterLabel.slateRef>[lodgersLabelSingOrPlural]抵达</Hospitality_Util_Worker.root.nodes.DropPods.customLetterLabel.slateRef>
+  <Hospitality_Util_Worker.root.nodes.DropPods.customLetterText.slateRef>[lodgersLabelSingOrPluralDef][lodgersHasHave]已经抵达。在[shuttleDelayTicks_duration]内保护他们直到穿梭机抵达。[helpersArrivalLetterEnd]</Hospitality_Util_Worker.root.nodes.DropPods.customLetterText.slateRef>
   
 </LanguageData>
