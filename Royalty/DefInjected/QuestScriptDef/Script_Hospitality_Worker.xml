@@ -31,8 +31,6 @@
   <Hospitality_Util_Worker.root.nodes.lodgersLeftMap.node.nodes.Letter.label.slateRef>访客失踪：{SUBJECT_definite}</Hospitality_Util_Worker.root.nodes.lodgersLeftMap.node.nodes.Letter.label.slateRef>
   <!-- EN: [letterSubject], who you were charged to protect, is gone. [remainingWillNowLeave][failLetterEndingCommon] -->
   <Hospitality_Util_Worker.root.nodes.lodgersLeftMap.node.nodes.Letter.text.slateRef>指定由你保护的[letterSubject]不见了。[remainingWillNowLeave][failLetterEndingCommon]</Hospitality_Util_Worker.root.nodes.lodgersLeftMap.node.nodes.Letter.text.slateRef>
-  <!-- EN: Guest lost: {SUBJECT_definite} -->
-  <Hospitality_Util_Worker.root.nodes.AnySignal.node.node.nodes.Letter.label.slateRef>访客失踪：{SUBJECT_definite}</Hospitality_Util_Worker.root.nodes.AnySignal.node.node.nodes.Letter.label.slateRef>
   <!-- EN: [letterSubject], who you were charged to protect, has joined another faction. [remainingWillNowLeave][failLetterEndingCommon] -->
   <Hospitality_Util_Worker.root.nodes.AnySignal.node.node.nodes.Letter.text.slateRef>指定由你保护的[letterSubject]已经加入了另一个派系。[remainingWillNowLeave][failLetterEndingCommon]</Hospitality_Util_Worker.root.nodes.AnySignal.node.node.nodes.Letter.text.slateRef>
   <!-- EN: Shuttle destroyed -->
@@ -47,5 +45,10 @@
   <!-- UNUSED -->
   <Hospitality_Util_Worker.root.nodes.DropPods.customLetterLabel.slateRef>[lodgersLabelSingOrPlural]抵达</Hospitality_Util_Worker.root.nodes.DropPods.customLetterLabel.slateRef>
   <Hospitality_Util_Worker.root.nodes.DropPods.customLetterText.slateRef>[lodgersLabelSingOrPluralDef][lodgersHasHave]已经抵达。在[shuttleDelayTicks_duration]内保护他们直到穿梭机抵达。[helpersArrivalLetterEnd]</Hospitality_Util_Worker.root.nodes.DropPods.customLetterText.slateRef>
+  
+  <!-- EN: Shuttle destroyed -->
+  <Util_ArriveByDropPodsOrShuttle.root.nodes.HasRoyalTitleInCurrentFaction.node.nodes.arrivalShuttleDestroyed.node.nodes.Letter.label.slateRef>穿梭机被破坏</Util_ArriveByDropPodsOrShuttle.root.nodes.HasRoyalTitleInCurrentFaction.node.nodes.arrivalShuttleDestroyed.node.nodes.Letter.label.slateRef>
+  <!-- EN: The shuttle sent to drop off [lodgersLabelSingOrPluralDef] has been destroyed. [failLetterEndingCommon] -->
+  <Util_ArriveByDropPodsOrShuttle.root.nodes.HasRoyalTitleInCurrentFaction.node.nodes.arrivalShuttleDestroyed.node.nodes.Letter.text.slateRef>被派遣来运输[lodgersLabelSingOrPluralDef]的穿梭机已被破坏。 [failLetterEndingCommon]</Util_ArriveByDropPodsOrShuttle.root.nodes.HasRoyalTitleInCurrentFaction.node.nodes.arrivalShuttleDestroyed.node.nodes.Letter.text.slateRef>
   
 </LanguageData>
