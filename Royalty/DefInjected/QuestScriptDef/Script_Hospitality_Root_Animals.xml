@@ -61,7 +61,7 @@
     <li>threatsInfo1(generateThreats==true,allowedThreats==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo1(generateThreats==true,allowedThreats==MechClusters)->\n\n[threatsInfoMechClustersSingleAnimal]</li>
     <li>threatsInfo1(generateThreats==false)-></li>
-    <li>questDescription(askerIsNull==true,lodgersCount>=2)->一个动物保护组织希望你能够在[map_definite]照顾[lodgersCount]只[lodgersLabelPlural][shuttleDelayTicks_duration]。 [healthInfo][threatsInfo2]\n\n[commonDescEnding]</li>
+    <li>questDescription(askerIsNull==true,lodgersCount>=2)->一个动物保护组织希望你能够在 [map_definite] 照顾 [lodgersCount] 只 [lodgersLabelPlural] [shuttleDelayTicks_duration]。  [healthInfo][threatsInfo2]\n\n[commonDescEnding]</li>
     <li>victim->孩子</li>
     <li>victim->女性</li>
     <li>victim->男性</li>
@@ -86,8 +86,8 @@
     <li>threatsInfo5(generateThreats==true,allowedThreats==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo5(generateThreats==true,allowedThreats==MechClusters)->\n\n[threatsInfoMechClustersSingleAnimal]</li>
     <li>threatsInfo5(generateThreats==false)-></li>
-    <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount>=2,priority=1)->[asker_faction_name] 的一名 [asker_royalTitleInCurrentFaction]， [asker_nameFull] 正发来请求。 [asker_pronoun] 希望你能在[map_definite]照料[lodgersCount]只[lodgersLabelPlural][shuttleDelayTicks_duration]。 这些[lodgersLabelPlural]是[asker_nameDef]最喜爱的宠物， [asker_pronoun]希望他们能看看[asker_possessive]上流圈子之外的世界。 [healthInfo][threatsInfo6]\n\n[commonDescEnding]</li>
-    <li>threatsInfo6(generateThreats==true,allowedThreats==Raids,enemyFaction!=Mechanoid)->\n\n不幸的是，[enemyFaction_name]正在试图以狩猎[lodgersLabelPlural]的方式去伤害[asker_nameDef]。 如果你选择接纳[lodgersLabelPlural]， [enemyFaction_pawnsPlural]将会在他们活着期间一直攻击你。[enemyGroupsParagraph]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount>=2,priority=1)->[asker_faction_name] 的一名 [asker_royalTitleInCurrentFaction]， [asker_nameFull] 正发来请求。 [asker_pronoun]希望你能在[map_definite]照料 [lodgersCount] 只 [lodgersLabelPlural] [shuttleDelayTicks_duration]。 这些[lodgersLabelPlural]是[asker_nameDef]最喜爱的宠物， [asker_pronoun]希望他们能看看[asker_possessive]上流圈子之外的世界。 [healthInfo][threatsInfo6]\n\n[commonDescEnding]</li>
+    <li>threatsInfo6(generateThreats==true,allowedThreats==Raids,enemyFaction!=Mechanoid)->\n\n不幸的是， [enemyFaction_name] 正在试图以狩猎 [lodgersLabelPlural] 的方式去伤害 [asker_nameDef]。  如果你选择接纳 [lodgersLabelPlural]， [enemyFaction_pawnsPlural]将会在他们活着期间一直攻击你。[enemyGroupsParagraph]</li>
     <li>threatsInfo6(generateThreats==true,allowedThreats==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsMultiAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo6(generateThreats==true,allowedThreats==MechClusters)->\n\n[threatsInfoMechClustersMultiAnimal]</li>
     <li>threatsInfo6(generateThreats==false)-></li>
