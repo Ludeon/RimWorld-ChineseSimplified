@@ -84,7 +84,7 @@
     <li>animalKindLabelCorrect(animalCount>=2)->[animalCount]只猎杀人类的[animalKind_labelPlural]</li>
     <li>manhuntingBeastIndef(animalCount==1)->一只猎杀人类的[animalKind_label]</li>
     <li>manhuntingBeastIndef(animalCount>=2)->[animalCount]只猎杀人类的[animalKind_labelPlural]</li>
-    <li>endSection->空投舱包含(总价值[itemsReward_totalMarketValue_money])：\n\n[itemsReward_items]\n\n[helpersParagraph]如果你接受，[animalKindLabelCorrect]将会在[manhuntersDelayTicks_duration]后来到[map_definite]。[allRewardsDescriptionsExceptItems]</li>
+    <li>endSection->空投舱包含(总价值[itemsReward_totalMarketValue_money])：\n\n[itemsReward_items]\n\n[helpersParagraph]如果你接受， [animalKindLabelCorrect] 将会在 [manhuntersDelayTicks_duration] 后来到 [map_definite]。 [allRewardsDescriptionsExceptItems]</li>
     <li>questDescription(askerIsNull==true,animalCount==1)->在[map_definite]附近的一名商人向你发来求救信号。 一只野生的[animalKind_label]正在袭击他！ 他正试图引导野兽转向你这边来摆脱险境。\n\n作为回报，商人允诺通过空投舱向你发送一些物资。[endSection]</li>
     <li>manhunterArrivalLetterEnd(askerIsNull==true,animalCount==1)->正在袭击附近一名商人的[animalKind_label]被空投舱吸引而向你这边追来。</li>
     <li>questDescription(askerIsNull==true,animalCount>=2)->在[map_definite]附近的一名商人向你发来求救信号。 一群多达[animalCount]只的野生[animalKind_labelPlural]正在袭击他！ 他正试图引导野兽转向你这边来摆脱险境。 \n\n作为回报，商人允诺通过空投舱向你发送一些物资。[endSection]</li>
