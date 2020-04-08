@@ -258,10 +258,16 @@
   <QuestBedroomRequirementsUnsatisfiedSingle>满足头衔要求的空置卧室</QuestBedroomRequirementsUnsatisfiedSingle>
   <!-- EN: a colonist with the title of {0}. -->
   <QuestNoColonistWithTitle>一名拥有{0}头衔的殖民者。</QuestNoColonistWithTitle>
+  <!-- EN: Choose rewards -->
+  <ChooseRewards>选择奖励</ChooseRewards>
   <!-- EN: Accept {FACTION_royalFavorLabel} -->
   <AcceptRoyalFavor>接受{FACTION_royalFavorLabel}</AcceptRoyalFavor>
   <!-- EN: Whether you wish to be rewarded with {FACTION_royalFavorLabel} from {FACTION_name}.\n\nIf this is disabled, {FACTION_name} will offer other types of rewards instead.\n\nThis setting only affects newly-arriving quests. -->
-  <AcceptRoyalFavorDesc>是否希望从{FACTION_name} 那里接受 {FACTION_royalFavorLabel} 。\n\n如果禁用此功能，{FACTION_name} 将提供其他类型的奖励。该设置只影响新接到的任务。</AcceptRoyalFavorDesc>
+  <AcceptRoyalFavorDesc>是否希望从{FACTION_name}那里接受{FACTION_royalFavorLabel}。\n\n如果禁用此选项，{FACTION_name}将提供其他类型的奖励。\n\n该选项只影响新接到的任务。</AcceptRoyalFavorDesc>
+  <!-- EN: Accept goodwill -->
+  <AcceptGoodwill>接受好感度</AcceptGoodwill>
+  <!-- EN: Whether you wish to be rewarded via improved faction relations with {FACTION_name}.\n\nIf this is disabled, {FACTION_name} will offer other types of rewards instead.\n\nThis setting only affects newly-generated quests. -->
+  <AcceptGoodwillDesc>是否希望与{FACTION_name}改善派系关系。\n\n如果禁用此选项，{FACTION_name}将提供其他类型的奖励。\n\n该选项只会影响到新生成的任务。</AcceptGoodwillDesc>
   <!-- EN: You are currently opting in to receive {FACTION_royalFavorLabel}. -->
   <RoyalFavorOn>当前选择接受{FACTION_royalFavorLabel}。 </RoyalFavorOn>
   <!-- EN: You are currently opting out of receiving {FACTION_royalFavorLabel}. -->
