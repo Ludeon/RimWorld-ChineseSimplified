@@ -16,8 +16,11 @@
   <!-- EN:
     <li>questName->[enemyFaction_pawnsPlural] of Fortune</li>
     <li>questName->[violence] of Fortune</li>
+    <li>questName->[violence] for Hire</li>
+    <li>questName->[violence] for Profit</li>
     <li>questName->Rewarded [violence]</li>
     <li>questName->Paid [violence]</li>
+    <li>questName->Compensated [violence]</li>
     <li>questName(reward==royalFavor)->[enemyFaction_pawnsPlural] for Favor</li>
     <li>questName(reward==royalFavor)->[violence] for Favor</li>
     <li>violence->Violence</li>
@@ -25,19 +28,34 @@
     <li>violence->Combat</li>
     <li>violence->War</li>
     <li>violence->Fighting</li>
+    <li>violence->Bloodshed</li>
+    <li>violence->Attack</li>
+    <li>violence->Defense</li>
+    <li>violence->Conflict</li>
+    <li>violence->Hostility</li>
+    <li>violence->Warfare</li>
   -->
   <ThreatReward_Raid_MiscReward.questNameRules.rulesStrings>
     <li>questName->[enemyFaction_pawnsPlural]的财富</li>
     <li>questName->[violence]财富</li>
+    <li>questName->[violence]雇佣</li>
+    <li>questName->利益[violence]</li>
     <li>questName->[violence]奖励</li>
-    <li>questName->支付[violence]</li>
-    <li>questName(reward==royalFavor)->[enemyFaction_pawnsPlural]偏好</li>
-    <li>questName(reward==royalFavor)->[violence]偏好</li>
+    <li>questName->有偿[violence]</li>
+    <li>questName->[violence]赔偿</li>
+    <li>questName(reward==royalFavor)->荣誉[enemyFaction_pawnsPlural]</li>
+    <li>questName(reward==royalFavor)->荣誉[violence]</li>
     <li>violence->暴行</li>
     <li>violence->战斗</li>
     <li>violence->作战</li>
     <li>violence->战争</li>
     <li>violence->作战</li>
+    <li>violence->喋血</li>
+    <li>violence->袭击</li>
+    <li>violence->防御</li>
+    <li>violence->冲突</li>
+    <li>violence->对抗</li>
+    <li>violence->战火</li>
   </ThreatReward_Raid_MiscReward.questNameRules.rulesStrings>
   
 </LanguageData>
