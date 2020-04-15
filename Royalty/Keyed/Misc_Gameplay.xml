@@ -52,4 +52,28 @@
   <!-- EN: Too close to other beacon -->
   <TooCloseToOtherBeacon>距离其他信标太近</TooCloseToOtherBeacon>
   
+  <!-- Abilities -->
+  <!-- EN: must be drafted. -->
+  <AbilityDisabledUndrafted>必须先行征召</AbilityDisabledUndrafted>
+  <!-- EN: ability on cooldown. It will be available in {0}. -->
+  <AbilityOnCooldown>能力正在冷却中。它会在{0}后可用。</AbilityOnCooldown>
+  <!-- EN: ability already queued. -->
+  <AbilityAlreadyQueued>能力已经加入序列</AbilityAlreadyQueued>
+  <!-- EN: Ability ready: {0} -->
+  <AbilityReadyLabel>能力就绪：{0}</AbilityReadyLabel>
+  <!-- EN: {0_nameDef} is ready to use {1}. -->
+  <AbilityReadyText>{0_nameDef}已经可以使用{1}。</AbilityReadyText>
+  
+  <!-- EN: Initiate a speech from the throne. {ORGANIZER_labelShort} will go to {ORGANIZER_possessive} throne and call all colonists to listen to a speech there. If all goes well, listeners will feel inspired, and gain respect for {ORGANIZER_labelShort}. If it goes poorly, the speech will do social damage. The outcome depends on {ORGANIZER_labelShort}'s social abilities. -->
+  <AbilitySpeechTooltip>在谒见厅发起一场演讲。{ORGANIZER_labelShort}将会去往{ORGANIZER_possessive}谒见厅并着急所有的殖民者来听取演讲。如果一切顺利，听众会获得鼓舞，并且{ORGANIZER_labelShort}获得尊重。如果进展不顺利，演讲会造成社交伤害。结果取决于组织者的社交能力。</AbilitySpeechTooltip>
+  <!-- EN: no usable throne. text_todo -->
+  <AbilitySpeechDisabledNoUsableThrone>没有可用的谒见厅</AbilitySpeechDisabledNoUsableThrone>
+  <!-- EN: already giving a speech. text_todo -->
+  <AbilitySpeechDisabledAlreadyGivingSpeech>正在进行一场演说</AbilitySpeechDisabledAlreadyGivingSpeech>
+  <!-- EN: Next speech available in text_todo -->
+  <AbilitySpeechCooldown>下一次演说</AbilitySpeechCooldown>
+  <!-- EN: Possible outcomes text_todo -->
+  <AbilitySpeechPossibleOutcomes>可能的结果</AbilitySpeechPossibleOutcomes>
+  <!-- EN: {ORGANIZER_labelShort}'s {1}: {2} -->
+  <AbilitySpeechStatInfo>{ORGANIZER_labelShort}的{1}：{2}</AbilitySpeechStatInfo>
 </LanguageData>

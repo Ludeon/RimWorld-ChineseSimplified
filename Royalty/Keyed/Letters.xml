@@ -10,7 +10,7 @@
   <!-- EN: {PAWN_pronoun} must be dressed in apparel of {1} quality or better. -->
   <LetterRoyalTitleApparelQualityRequirement>{PAWN_pronoun}必须穿着品质为{1}或更高的品质的服装。</LetterRoyalTitleApparelQualityRequirement>
   <!-- EN: {PAWN_pronoun} wants to be covered in apparel appropriate to {PAWN_possessive} title: -->
-  <LetterRoyalTitleApparelRequirement>{PAWN_pronoun}希望穿着适合{PAWN_possessive}头衔的服装:</LetterRoyalTitleApparelRequirement>
+  <LetterRoyalTitleApparelRequirement>{PAWN_pronoun}希望穿着适合{PAWN_possessive}头衔的服装：</LetterRoyalTitleApparelRequirement>
   <!-- EN: {PAWN_possessive} expectations will never be less than {1}. -->
   <LetterRoyalTitleExpectation>{PAWN_possessive}期望值永远不会低于“{1}”。</LetterRoyalTitleExpectation>
   
@@ -31,21 +31,17 @@
   <LetterRewardsForNewTitleDeliveryDirect>奖励已经直接装入{PAWN_labelShort}的库存里了。</LetterRewardsForNewTitleDeliveryDirect>
 
   <!-- EN: {PAWN_pronoun} has these permissions: -->
-  <LetterRoyalTitlePermits>{PAWN_pronoun}获得以下权限:</LetterRoyalTitlePermits>
+  <LetterRoyalTitlePermits>{PAWN_pronoun}获得以下权限：</LetterRoyalTitlePermits>
   <!-- EN: {PAWN_pronoun} lost these permissions: -->
-  <LetterRoyalTitleLostPermits>{PAWN_pronoun}失去以下权限:</LetterRoyalTitleLostPermits>
+  <LetterRoyalTitleLostPermits>{PAWN_pronoun}失去以下权限：</LetterRoyalTitleLostPermits>
 
   <!-- EN: {PAWN_pronoun} is not willing to do these work types:\n{1} -->
   <LetterRoyalTitleDisabledWorkTag>{PAWN_pronoun}不愿意做以下的工作类型:\n{1}</LetterRoyalTitleDisabledWorkTag>
 
-  <!-- EN: {PAWN_pronoun} demands this recreation: -->
-  <LetterRoyalTitleEnabledJoyKind>{PAWN_pronoun}需要此娱乐活动:</LetterRoyalTitleEnabledJoyKind>
-  <!-- EN: {PAWN_pronoun} demands this recreation: -->
-  <LetterRoyalTitleStillEnabledJoyKind>{PAWN_pronoun}需要此娱乐活动:</LetterRoyalTitleStillEnabledJoyKind>
-  <!-- EN: {PAWN_pronoun} refuses this recreation: -->
-  <LetterRoyalTitleDisabledJoyKind>{PAWN_pronoun}拒绝此娱乐活动:</LetterRoyalTitleDisabledJoyKind>
-  <!-- EN: {PAWN_pronoun} refuses this recreation: -->
-  <LetterRoyalTitleStillDisabledJoyKind>{PAWN_pronoun}拒绝此娱乐活动:</LetterRoyalTitleStillDisabledJoyKind>
+  <!-- EN: {PAWN_pronoun} can now use this recreation: -->
+  <LetterRoyalTitleEnabledJoyKind>{PAWN_pronoun}当前能使用的娱乐活动：</LetterRoyalTitleEnabledJoyKind>
+  <!-- EN: This title forbids using this recreation: -->
+  <LetterRoyalTitleDisabledJoyKind>此头衔禁止的娱乐活动：</LetterRoyalTitleDisabledJoyKind>
 
   <!-- EN: {PAWN_pronoun} is allowed to use these implants:{1} -->
   <LetterRoyalTitleAllowedImplants>{PAWN_pronoun}被允许使用以下植入物:{1}</LetterRoyalTitleAllowedImplants>
@@ -53,13 +49,13 @@
   <LetterRoyalTitleImplantsMustBeRemoved>{PAWN_pronoun}不再被允许使用以下植入物:{1}</LetterRoyalTitleImplantsMustBeRemoved>
   <!-- EN: The implants must be extracted within a five-day grace period to avoid diplomatic consequences. -->
   <LetterRoyalTitleImplantGracePeriod>必须在五天的限期内提取植入物，以避免产生外交后果。</LetterRoyalTitleImplantGracePeriod>
-  <!-- EN: {PAWN_pronoun} has developed a new need for authority. Satisfying this means constructing an appropriate throneroom {PAWN_pronoun} may sit and reign on a regular basis. -->
+  <!-- EN: {PAWN_pronoun} now has a need for authority. Satisfying this means constructing an appropriate throneroom {PAWN_pronoun} may sit and reign on a regular basis. -->
   <LetterRoyalTitleAuthorityNeed>{PAWN_pronoun}对威严有了新的需求。满足此要求意味着可以定期修建一个适当的宝座供{PAWN_pronoun}进行统治。</LetterRoyalTitleAuthorityNeed>
-  <!-- EN: {PAWN_pronoun} demands a throneroom that meets these requirements:{1} -->
-  <LetterRoyalTitleThroneroomRequirements>满足{PAWN_pronoun}要求的有以下宝座:{1}</LetterRoyalTitleThroneroomRequirements>
-  <!-- EN: {PAWN_pronoun} demands a bedroom that meets these requirements:{1} -->
-  <LetterRoyalTitleBedroomRequirements>符合{PAWN_pronoun}卧室需求的条件有:{1}</LetterRoyalTitleBedroomRequirements>
-  <!-- EN: {PAWN_pronoun} will only eat these foods:{1} -->
+  <!-- EN: This title requires a throneroom that meets these requirements:{1} -->
+  <LetterRoyalTitleThroneroomRequirements>此头衔需要一个满足以下要求的谒见厅:{1}</LetterRoyalTitleThroneroomRequirements>
+  <!-- EN: This title requires a bedroom that meets these requirements:{1} -->
+  <LetterRoyalTitleBedroomRequirements>此头衔需要一个满足以下要求的卧室:{1}</LetterRoyalTitleBedroomRequirements>
+  <!-- EN: This title says that {PAWN_pronoun} should only eat these foods:{1} -->
   <LetterRoyalTitleFoodRequirements>{PAWN_pronoun}只吃以下食物:{1}</LetterRoyalTitleFoodRequirements>
 
   <!-- EN: {PAWN_pronoun} will receive the following items via transport pod:{1} -->
@@ -137,6 +133,8 @@
   <LentColonistDied>{PAWN_nameDef}曾被借调至{FACTION}。他们将在最近交还{PAWN_nameDef}的遗体。</LentColonistDied>  
 
   <!-- UNUSED -->
+  <LetterRoyalTitleStillEnabledJoyKind>{PAWN_pronoun}需要此娱乐活动：</LetterRoyalTitleStillEnabledJoyKind>
+  <LetterRoyalTitleStillDisabledJoyKind>{PAWN_pronoun}拒绝此娱乐活动：</LetterRoyalTitleStillDisabledJoyKind>
   <LetterRewardsForNewTitleDeliveryCaravan>奖励已经装载至一个远征队，你可以在{PAWN_labelShort}的库存中找到它们。text_todo</LetterRewardsForNewTitleDeliveryCaravan>
 
 </LanguageData>
