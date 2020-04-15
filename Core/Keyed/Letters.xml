@@ -406,16 +406,10 @@
   <LetterTraitDisease>{PAWN_label}患上了{1}。\n\n确保有医疗用床和医生。确保{PAWN_pronoun}得到适当的治疗并尽可能卧床休息。 </LetterTraitDisease>
 
   <!-- Quests -->
-  <!-- EN: A new quest has become available. It is called '{0}'. -->
-  <LetterQuestBecameAvailable>一个新的任务得到启用。该任务被称为'{0}'。</LetterQuestBecameAvailable>
-  <!-- EN: If you don’t accept the quest within {0}, it will expire. -->
-  <LetterQuestRequiresAcceptance>如果你不在{0}内接受任务，它将过期。</LetterQuestRequiresAcceptance>
-  <!-- EN: A new quest has become active. It is called '{0}'. -->
-  <LetterQuestBecameActive>一个新的任务开始了。该任务被称为'{0}'。</LetterQuestBecameActive>
-  <!-- EN: Quest active: {0} -->
-  <LetterQuestAutomaticallyAcceptedTitle>任务有效：{0}</LetterQuestAutomaticallyAcceptedTitle>
-  <!-- EN: It will expire in {0}. -->
-  <LetterQuestActiveNowTime>它将在{0}后到期。</LetterQuestActiveNowTime>
+  <!-- EN: New quest available: {0}. -->
+  <LetterQuestBecameAvailable>新任务可用：{0}。</LetterQuestBecameAvailable>
+  <!-- EN: New quest active: {0}. -->
+  <LetterQuestBecameActive>新任务激活：{0}。</LetterQuestBecameActive>
 
   <!-- Quest drop pods arrived -->
   <!-- EN: Pods arrived -->
@@ -508,5 +502,10 @@
   <LetterLabelMechClusterArrived>机械族出现</LetterLabelMechClusterArrived>
   <!-- EN: Mechanoids have arrived. -->
   <LetterMechClusterArrived>机械族集群出现了。</LetterMechClusterArrived>
+
+  <!-- UNUSED -->
+  <LetterQuestRequiresAcceptance>如果你不在{0}内接受任务，它将过期。</LetterQuestRequiresAcceptance>
+  <LetterQuestAutomaticallyAcceptedTitle>任务有效：{0}</LetterQuestAutomaticallyAcceptedTitle>
+  <LetterQuestActiveNowTime>它将在{0}后到期。</LetterQuestActiveNowTime>
 
 </LanguageData>
