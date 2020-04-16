@@ -16,9 +16,9 @@
     <li>hidingFrom(gameCondition==WeatherController)->a malfunctioning weather control satellite</li>
     <li>condDesc(gameCondition==WeatherController)->If [joiner_pronoun] comes to you, the weather will be [forcedWeather_label] for [gameConditionDuration_duration] until the satellite resets.</li>
     <li>hidingFrom(gameCondition==PsychicDrone)->a vengeful machine persona who [joiner_pronoun] recently offended</li>
-    <li>condDesc(gameCondition==PsychicDrone)->If [joiner_pronoun] comes to you, the machine mind will blast [map_definite] with a [psychicDroneGender]-tuned [psychicDroneLevel]-level psychic drone for [gameConditionDuration_duration], reducing mood of all [psychicDroneGender]s.</li>
+    <li>condDesc(gameCondition==PsychicDrone)->If [joiner_pronoun] comes to you, the machine mind will blast [map_definite] with a [psychicDroneLevel]-level psychic drone for [gameConditionDuration_duration], reducing mood of all [psychicDroneGender]s.</li>
     <li>hidingFrom(gameCondition==PsychicSuppression)->a stirring machine persona who [joiner_pronoun] recently awoke</li>
-    <li>condDesc(gameCondition==PsychicSuppression)->If [joiner_pronoun] comes to you, the persona will hit [map_definite] with [psychicSuppressorGender]-tuned psychic suppression waves for [gameConditionDuration_duration], reducing consciousness of all [psychicSuppressorGender]s.</li>
+    <li>condDesc(gameCondition==PsychicSuppression)->If [joiner_pronoun] comes to you, the persona will hit [map_definite] with psychic suppression waves for [gameConditionDuration_duration], reducing consciousness of all [psychicSuppressorGender]s.</li>
   -->
   <ThreatReward_GameCondition_Joiner.questDescriptionRules.rulesStrings>
     <li>questDescription->一位名叫 [joiner_nameFull] 的 [joiner_age] 岁 [joiner_title] 请求我们帮助！ [joiner_pronoun] 一直在躲避 [hidingFrom]。 [joiner_pronoun]想要到[map_definite]与你会合。 [joiner_relationInfo]\n\n[condDesc]\n\n由于联系我们会有极大风险， [joiner_nameDef] 表示无法告知我们更多关于[joiner_objective]自己的情报。</li>
@@ -35,9 +35,9 @@
     <li>hidingFrom(gameCondition==WeatherController)->一颗故障的天气控制卫星</li>
     <li>condDesc(gameCondition==WeatherController)->如果[joiner_pronoun]投奔你而来， 天气将会强制变为[forcedWeather_label]并持续[gameConditionDuration_duration]， 卫星系统自动重置后将会恢复正常。</li>
     <li>hidingFrom(gameCondition==PsychicDrone)->一台被[joiner_pronoun]冒犯的复仇机器</li>
-    <li>condDesc(gameCondition==PsychicDrone)->如果[joiner_pronoun]投奔你而来， 机器意志将会把一台心灵干扰器调整为[psychicDroneLevel]级强度， 并在[gameConditionDuration_duration]内持续向[map_definite]发射影响[psychicDroneGender]的心灵干扰， 这将会使所有的[psychicDroneGender]殖民者情绪低落。</li>
+    <li>condDesc(gameCondition==PsychicDrone)->如果[joiner_pronoun]投奔你而来， 机器意志将会把一台心灵干扰器调整为[psychicDroneLevel]级强度， 并在[gameConditionDuration_duration]内持续向[map_definite]发射心灵干扰， 这将会使所有的[psychicDroneGender]殖民者情绪低落。</li>
     <li>hidingFrom(gameCondition==PsychicSuppression)->一台被[joiner_pronoun]唤醒的混乱机器</li>
-    <li>condDesc(gameCondition==PsychicSuppression)->如果[joiner_pronoun]投奔你而来， 机器意志将会[gameConditionDuration_duration]内持续向[map_definite]发射影响[psychicSuppressorGender]的心灵抑制波，这将会使所有[psychicSuppressorGender]殖民者的意识混乱。</li>
+    <li>condDesc(gameCondition==PsychicSuppression)->如果[joiner_pronoun]投奔你而来， 机器意志将会[gameConditionDuration_duration]内持续向[map_definite]发射心灵抑制波，这将会使所有[psychicSuppressorGender]殖民者的意识混乱。</li>
   </ThreatReward_GameCondition_Joiner.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[joiner_nameDef]'s [gameCondition_label]</li>
@@ -51,10 +51,10 @@
   </ThreatReward_GameCondition_Joiner.questNameRules.rulesStrings>
   
   <!-- EN:
-    <li>questDescription->A [joiner_age]-year-old [joiner_title] named [joiner_nameDef] is calling from nearby. [joiner_pronoun] says giant insects are hunting [joiner_objective] after [joiner_pronoun] poisoned an underground colony and they soaked [joiner_objective] in threat pheromones!\n\n[joiner_pronoun] begs for safety and offers to join you at [map_definite].[joiner_relationInfo]\n\nIf you accept [joiner_nameDef], a [hivesCount]-hive infestation will begin in [infestationDelayTicks_duration].\n\n[joiner_nameDef] is too frantic to offer more information.</li>
+    <li>questDescription->A [joiner_age]-year-old [joiner_title] named [joiner_nameDef] is calling from nearby. [joiner_pronoun] says [joiner_pronoun] poisoned an underground insect colony, but now [joiner_pronoun] is soaked in insect pheromones and the bugs are hunting him!\n\n[joiner_pronoun] begs for safety and offers to join you at [map_definite].[joiner_relationInfo]\n\nIf you accept [joiner_nameDef], a [hivesCount]-hive infestation will begin in [infestationDelayTicks_duration].\n\n[joiner_nameDef] is too frantic to offer more information.</li>
   -->
   <ThreatReward_Infestation_Joiner.questDescriptionRules.rulesStrings>
-    <li>questDescription->一个名叫 [joiner_nameDef] 的 [joiner_age] 岁 [joiner_title] 发来通信连接。 [joiner_pronoun] 说一群巨虫正在追猎 [joiner_objective]， 因为 [joiner_objective] 在毒杀一片巨虫巢穴的时候沾染了信息素！ \n\n[joiner_pronoun] 祈求我们的保护并且答应事后加入我们位于 [map_definite] 的殖民地。 [joiner_relationInfo]\n\n如果你接受 [joiner_nameDef] 的祈求， 一群拥有 [hivesCount]个虫巢的巨虫将会在 [infestationDelayTicks_duration] 内出现。\n\n[joiner_nameDef] 过于害怕以至于已经开始语无伦次， 你也无法获得更多情报。</li>
+    <li>questDescription->一个名叫 [joiner_nameDef] 的 [joiner_age] 岁 [joiner_title] 发来通信连接。 [joiner_pronoun]说一群巨虫正在追猎[joiner_objective]， 因为[joiner_objective]在毒杀一片巨虫巢穴的时候沾染了信息素！ \n\n[joiner_pronoun]祈求我们的保护并且答应事后加入我们位于 [map_definite] 的殖民地。 [joiner_relationInfo]\n\n如果你接受 [joiner_nameDef] 的祈求， 一群拥有 [hivesCount]个虫巢的巨虫将会在 [infestationDelayTicks_duration] 内出现。\n\n[joiner_nameDef] 过于害怕以至于已经开始语无伦次， 你也无法获得更多情报。</li>
   </ThreatReward_Infestation_Joiner.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[joiner_nameDef]'s infestation</li>

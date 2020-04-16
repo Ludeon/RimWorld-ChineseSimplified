@@ -1,6 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
+  <!-- EN: {0_labelShort} is unconscious. -->
+  <CommandDisabledUnconscious>{0_labelShort}失去知觉。</CommandDisabledUnconscious>
+  
   <!-- Heritage -->
   <!-- EN: Choose a new heir for {HOLDER_nameIndef}: -->
   <ChooseHeir>为{HOLDER_nameIndef}选择一个新的继承人：</ChooseHeir>
@@ -14,8 +17,6 @@
   <CommandCallRoyalAid>呼叫荣誉支援</CommandCallRoyalAid>
   <!-- EN: Call for military aid using a special royal permit.\n\nEach type of aid may be used for free once, after which you must wait to use it for free again. You can use the aid more frequently, but it costs royal favor to do so. -->
   <CommandCallRoyalAidDesc>使用特殊的荣誉特权申请军事援助。\n\n每种类型的援助可以免费使用一次，之后你必须等待再次免费使用它。你可以更频繁地使用援助，但这样做会让你失去很多荣誉点数。</CommandCallRoyalAidDesc>
-  <!-- EN: {0_labelShort} is unconscious. -->
-  <CommandCallRoyalAidUnconscious>{0_labelShort}失去知觉。</CommandCallRoyalAidUnconscious>
   <!-- EN: Guests will not use their royal aid. -->
   <CommandCallRoyalAidLodger>访客将不会使用他们的荣誉支援。</CommandCallRoyalAidLodger>
   <!-- EN: Your relations with {FACTION_name} are hostile. -->
@@ -41,4 +42,7 @@
   <!-- EN: Select the monument marker this belongs to. -->
   <CommandSelectMonumentMarkerDesc>选择所属的纪念碑标记。</CommandSelectMonumentMarkerDesc>
   
+  <!-- UNUSED -->
+  <CommandCallRoyalAidUnconscious>{0_labelShort}失去知觉。</CommandCallRoyalAidUnconscious>
+
 </LanguageData>
