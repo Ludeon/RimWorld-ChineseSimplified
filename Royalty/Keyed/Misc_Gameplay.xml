@@ -12,8 +12,6 @@
   <ThroneRoomImpressivenessInfo>({0} 印象深刻)</ThroneRoomImpressivenessInfo>
   <!-- EN: Throne must be placed indoors. -->
   <ThroneMustBePlacedInside>宝座必须放在室内。</ThroneMustBePlacedInside>
-  <!-- EN: Throne room contains more than one throne, but this is only allowed for married couples. -->
-  <ThroneRoomHasMoreThan1Throne>谒见厅中有多个宝座，但这只适用于已婚夫妇。</ThroneRoomHasMoreThan1Throne>
   <!-- EN: Minimum title ({FACTION_name}): {TITLE} -->
   <MinimumRoyalTitleInspectString>最低头衔 ({FACTION_name}): {TITLE}</MinimumRoyalTitleInspectString>
   <!-- EN: Trading here requires title: {0} -->
@@ -66,14 +64,22 @@
   
   <!-- EN: Initiate a speech from the throne. {ORGANIZER_labelShort} will go to {ORGANIZER_possessive} throne and call all colonists to listen to a speech there. If all goes well, listeners will feel inspired, and gain respect for {ORGANIZER_labelShort}. If it goes poorly, the speech will do social damage. The outcome depends on {ORGANIZER_labelShort}'s social abilities. -->
   <AbilitySpeechTooltip>在谒见厅发起一场演讲。{ORGANIZER_labelShort}将会去往{ORGANIZER_possessive}谒见厅并召集所有的殖民者来听取演讲。如果一切顺利，听众会获得鼓舞，并且{ORGANIZER_labelShort}获得尊重。如果进展不顺利，演讲会造成社交伤害。结果取决于组织者的社交能力。</AbilitySpeechTooltip>
-  <!-- EN: no usable throne. text_todo -->
-  <AbilitySpeechDisabledNoUsableThrone>没有可用的谒见厅</AbilitySpeechDisabledNoUsableThrone>
-  <!-- EN: already giving a speech. text_todo -->
+  <!-- EN: no throne assigned. -->
+  <AbilitySpeechDisabledNoThroneAssigned>未指定宝座。</AbilitySpeechDisabledNoThroneAssigned>
+  <!-- EN: throne is not accessible. -->
+  <AbilitySpeechDisabledNoThroneIsNotAccessible>宝座不可达。</AbilitySpeechDisabledNoThroneIsNotAccessible>
+  <!-- EN: throne not usable because it is undignified. -->
+  <AbilitySpeechDisabledNoThroneUndignified>宝座不可使用，它不够体面。</AbilitySpeechDisabledNoThroneUndignified>
+  <!-- EN: already giving a speech. -->
   <AbilitySpeechDisabledAlreadyGivingSpeech>正在进行一场演说</AbilitySpeechDisabledAlreadyGivingSpeech>
-  <!-- EN: Next speech available in text_todo -->
+  <!-- EN: Next speech ready in -->
   <AbilitySpeechCooldown>下一次演说</AbilitySpeechCooldown>
-  <!-- EN: Possible outcomes text_todo -->
+  <!-- EN: Outcome chances -->
   <AbilitySpeechPossibleOutcomes>可能的结果</AbilitySpeechPossibleOutcomes>
-  <!-- EN: {ORGANIZER_labelShort}'s {1}: {2} -->
-  <AbilitySpeechStatInfo>{ORGANIZER_labelShort}的{1}：{2}</AbilitySpeechStatInfo>
+  <!-- EN: {ORGANIZER_labelShort}'s {1} stat -->
+  <AbilitySpeechStatInfo>{ORGANIZER_labelShort}的{1}状态</AbilitySpeechStatInfo>
+  <!-- UNUSED -->
+  <ThroneRoomHasMoreThan1Throne>谒见厅中有多个宝座，但这只适用于已婚夫妇。</ThroneRoomHasMoreThan1Throne>
+  <AbilitySpeechDisabledNoUsableThrone>没有可用的谒见厅</AbilitySpeechDisabledNoUsableThrone>
+
 </LanguageData>

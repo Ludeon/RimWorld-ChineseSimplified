@@ -7,10 +7,10 @@
   <!-- EN: {TITLE} title gained: {PAWN_labelShort} -->
   <LetterLabelGainedRoyalTitle>{TITLE}头衔获得: {PAWN_labelShort}</LetterLabelGainedRoyalTitle>
 
-  <!-- EN: {PAWN_pronoun} must be dressed in apparel of {1} quality or better. -->
-  <LetterRoyalTitleApparelQualityRequirement>{PAWN_pronoun}必须穿着品质为{1}或更高的品质的服装。</LetterRoyalTitleApparelQualityRequirement>
-  <!-- EN: {PAWN_pronoun} wants to be covered in apparel appropriate to {PAWN_possessive} title: -->
-  <LetterRoyalTitleApparelRequirement>{PAWN_pronoun}希望穿着适合{PAWN_possessive}头衔的服装：</LetterRoyalTitleApparelRequirement>
+  <!-- EN: This title requires apparel of {1} quality or better. -->
+  <LetterRoyalTitleApparelQualityRequirement>此头衔要求穿着品质为{1}或更高的品质的服装。</LetterRoyalTitleApparelQualityRequirement>
+  <!-- EN: This title requires apparel appropriate to {PAWN_possessive} title: -->
+  <LetterRoyalTitleApparelRequirement>此头衔要求穿着适合{PAWN_possessive}头衔的服装：</LetterRoyalTitleApparelRequirement>
   <!-- EN: {PAWN_possessive} expectations will never be less than {1}. -->
   <LetterRoyalTitleExpectation>{PAWN_possessive}期望值永远不会低于“{1}”。</LetterRoyalTitleExpectation>
   
@@ -49,8 +49,8 @@
   <LetterRoyalTitleImplantsMustBeRemoved>{PAWN_pronoun}不再被允许使用以下植入物:{1}</LetterRoyalTitleImplantsMustBeRemoved>
   <!-- EN: The implants must be extracted within a five-day grace period to avoid diplomatic consequences. -->
   <LetterRoyalTitleImplantGracePeriod>必须在五天的限期内提取植入物，以避免产生外交后果。</LetterRoyalTitleImplantGracePeriod>
-  <!-- EN: {PAWN_pronoun} now has a need for authority. Satisfying this means constructing an appropriate throneroom {PAWN_pronoun} may sit and reign on a regular basis. -->
-  <LetterRoyalTitleAuthorityNeed>{PAWN_pronoun}对威严有了新的需求。满足此要求意味着可以定期修建一个适当的宝座供{PAWN_pronoun}进行统治。</LetterRoyalTitleAuthorityNeed>
+  <!-- EN: {PAWN_pronoun} now has a need for authority. Satisfying this means sitting on a throne and reigning. While thronerooms can be shared, each noble needs their own personally-assigned throne. -->
+  <LetterRoyalTitleAuthorityNeed>{PAWN_pronoun}对威严有了需求。满足此要求意味着需要修建一个适当的宝座供{PAWN_pronoun}进行统治。就算谒见厅可以共享，每个贵族仍然需要属于他们自己的宝座。</LetterRoyalTitleAuthorityNeed>
   <!-- EN: This title requires a throneroom that meets these requirements:{1} -->
   <LetterRoyalTitleThroneroomRequirements>此头衔需要一个满足以下要求的谒见厅:{1}</LetterRoyalTitleThroneroomRequirements>
   <!-- EN: This title requires a bedroom that meets these requirements:{1} -->
