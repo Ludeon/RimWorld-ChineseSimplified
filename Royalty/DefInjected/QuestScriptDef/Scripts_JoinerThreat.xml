@@ -170,17 +170,25 @@
   
   <!-- EN:
     <li>questDescription->A [joiner_age]-year-old [joiner_title] named [joiner_nameFull] is calling from nearby. [joiner_pronoun] is hiding from [threat]. [joiner_pronoun] wants to flee [joiner_possessive] hiding spot and join you at [map_definite].[joiner_relationInfo]\n\nIf you accept [joiner_objective], [joinersEnemies] will set up a site nearby to harass you. [site/allSitePartsDescriptions]\n\nThe threat will remain until you go to destroy it.</li>
-    <li>threat(priority=1)->[site/enemyFaction_pawnsPlural] of [site/enemyFaction_name]</li>
-    <li>threat->unknown enemies</li>
-    <li>joinersEnemies(priority=1)->[site/enemyFaction_name]</li>
+    <li>threat(priority=1,site/Outpost_exists==True)->[site/enemyFaction_pawnsPlural] of [site/enemyFaction_name]</li>
+    <li>threat(priority=1,site/MechCluster_exists==True)->mechanoids text_todo</li>
+    <li>threat(priority=1,site/SleepingMechanoids_exists==True)->mechanoids text_todo</li>
+    <li>threat->[joiner_possessive] enemies</li>
+    <li>joinersEnemies(priority=1,site/Outpost_exists==True)->[site/enemyFaction_name]</li>
+    <li>joinersEnemies(priority=1,site/MechCluster_exists==True)->mechanoids text_todo</li>
+    <li>joinersEnemies(priority=1,site/SleepingMechanoids_exists==True)->mechanoids text_todo</li>
     <li>joinersEnemies->[joiner_possessive] enemies</li>
   -->
   <ThreatReward_SiteThreat_Joiner.questDescriptionRules.rulesStrings>
     <li>questDescription->一个名叫 [joiner_nameFull] 的 [joiner_age] 岁 [joiner_title] 发来通信连接。 [joiner_pronoun] 正在躲避 [threat]。 [joiner_pronoun] 想要从 [joiner_possessive] 的隐藏地逃出来并加入你位于 [map_definite] 的殖民地。 [joiner_relationInfo]\n\n如果你接纳 [joiner_objective]， [joinersEnemies]将会在附近建立一个袭扰据点。 [site/allSitePartsDescriptions]\n\n摧毁这个据点， 否则对你的袭击将会源源不断。</li>
-    <li>threat(priority=1)->[site/enemyFaction_name]的[site/enemyFaction_pawnsPlural]</li>
-    <li>threat->未知敌人</li>
-    <li>joinersEnemies(priority=1)->[site/enemyFaction_name]</li>
-    <li>joinersEnemies->[joiner_possessive]的敌人</li>
+    <li>threat(priority=1,site/Outpost_exists==True)->[site/enemyFaction_name]的[site/enemyFaction_pawnsPlural]</li>
+    <li>threat(priority=1,site/MechCluster_exists==True)->机械体</li>
+    <li>threat(priority=1,site/SleepingMechanoids_exists==True)->机械体</li>
+    <li>threat->[joiner_possessive]敌人</li>
+    <li>joinersEnemies(priority=1,site/Outpost_exists==True)->[site/enemyFaction_name]</li>
+    <li>joinersEnemies(priority=1,site/MechCluster_exists==True)->机械体</li>
+    <li>joinersEnemies(priority=1,site/SleepingMechanoids_exists==True)->机械体</li>
+    <li>joinersEnemies->[joiner_possessive]敌人</li>
   </ThreatReward_SiteThreat_Joiner.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[joiner_nameDef]'s [site/site_label]</li>
