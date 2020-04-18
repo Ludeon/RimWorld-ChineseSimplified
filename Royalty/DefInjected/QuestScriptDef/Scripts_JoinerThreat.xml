@@ -171,12 +171,12 @@
   <!-- EN:
     <li>questDescription->A [joiner_age]-year-old [joiner_title] named [joiner_nameFull] is calling from nearby. [joiner_pronoun] is hiding from [threat]. [joiner_pronoun] wants to flee [joiner_possessive] hiding spot and join you at [map_definite].[joiner_relationInfo]\n\nIf you accept [joiner_objective], [joinersEnemies] will set up a site nearby to harass you. [site/allSitePartsDescriptions]\n\nThe threat will remain until you go to destroy it.</li>
     <li>threat(priority=1,site/Outpost_exists==True)->[site/enemyFaction_pawnsPlural] of [site/enemyFaction_name]</li>
-    <li>threat(priority=1,site/MechCluster_exists==True)->mechanoids text_todo</li>
-    <li>threat(priority=1,site/SleepingMechanoids_exists==True)->mechanoids text_todo</li>
+    <li>threat(priority=1,site/MechCluster_exists==True)->mechanoids</li>
+    <li>threat(priority=1,site/SleepingMechanoids_exists==True)->mechanoids</li>
     <li>threat->[joiner_possessive] enemies</li>
     <li>joinersEnemies(priority=1,site/Outpost_exists==True)->[site/enemyFaction_name]</li>
-    <li>joinersEnemies(priority=1,site/MechCluster_exists==True)->mechanoids text_todo</li>
-    <li>joinersEnemies(priority=1,site/SleepingMechanoids_exists==True)->mechanoids text_todo</li>
+    <li>joinersEnemies(priority=1,site/MechCluster_exists==True)->mechanoids</li>
+    <li>joinersEnemies(priority=1,site/SleepingMechanoids_exists==True)->mechanoids</li>
     <li>joinersEnemies->[joiner_possessive] enemies</li>
   -->
   <ThreatReward_SiteThreat_Joiner.questDescriptionRules.rulesStrings>
