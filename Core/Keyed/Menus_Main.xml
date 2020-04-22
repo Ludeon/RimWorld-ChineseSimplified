@@ -207,23 +207,23 @@
   <!-- EN: Mod needs properly formatted supported version information in About.xml. Like this: <supportedVersions><li>{0}</li></supportedVersions> - <targetVersion> is deprecated. Check log for further information. -->
   <MessageModNeedsWellFormattedTargetVersion>Mod 需要在 About.xml 中注明所适配的游戏版本信息。例如: {0}-  已被弃用。查看日志以获得更多信息。</MessageModNeedsWellFormattedTargetVersion>
   <!-- EN: Mod needs a unique, properly formatted packageId in About.xml. It must must meet following requirements:\n\n  - Alphanumeric characters and dot only.\n  - No spaces.\n  - At least one dot.\n  - No repeated dots in a row, or starting or ending with a dot.\n  - 60 characters or less.\n  - Cannot contain word "Ludeon".\n\nFor example:\n<packageId>AuthorName.ModName</packageId>\n<packageId>AuthorName.ModName.Specific</packageId> -->
-  <MessageModNeedsWellFormattedPackageId>Mod需要有一个格式适当且唯一的[packageId]写入到[About.xml]文件中。[packageId]必须满足这些要求：\n\n - 仅限字母、数字和半角句号“.”。\n - 不包含空格。\n - 至少有一个点。\n - 没有连续的点，且不以点为开头或结尾。\n - 最多60个字节。\n - 不允许包含单词“Ludeon”。\n\n例如：\nAuthorName.ModName\nAuthorName.ModName.Specific</MessageModNeedsWellFormattedPackageId>
+  <MessageModNeedsWellFormattedPackageId>Mod需要有一个格式适当且唯一的「packageId」写入到「About.xml」文件中。「packageId」必须满足这些要求：\n\n - 仅限字母、数字和半角句号「.」\n - 不包含空格\n - 至少有一个点「.」\n - 没有连续的点「.」，且不以点为开头或结尾\n - 最多60个字节\n - 不允许包含单词“Ludeon”\n\n例如：\nAuthorName.ModName\nAuthorName.ModName.Specific</MessageModNeedsWellFormattedPackageId>
   <!-- EN: This mod has issues in LoadFolders.xml, that you need to resolve before uploading: -->
   <ModHadLoadFolderIssues>这个mod在LoadFolders.xml中有问题。在上传之前需要解决的问题：</ModHadLoadFolderIssues>
   <!-- EN: Folder {0} specified for version {1} doesn't exist. -->
-  <ModLoadFolderDoesntExist>为版本{1}指定的文件夹{0}不存在。</ModLoadFolderDoesntExist>
+  <ModLoadFolderDoesntExist>为版本 {1} 指定的文件夹 {0} 不存在。</ModLoadFolderDoesntExist>
   <!-- EN: Malformed version string '{0}'. Correct format is Major.Minor (e.g. 1.1) -->
   <ModLoadFolderMalformedVersion>版本字符'{0}'格式错误。 正确的格式为 Major.Minor(e.g. 1.1)</ModLoadFolderMalformedVersion>
   <!-- EN: The list of load folders for version {0} is empty. -->
-  <ModLoadFolderListEmpty>版本{0}的加载文件夹列表为空。</ModLoadFolderListEmpty>
+  <ModLoadFolderListEmpty>版本 {0} 的加载文件夹列表为空。</ModLoadFolderListEmpty>
   <!-- EN: Version {0} lists the same folder more than once: {1}. -->
-  <ModLoadFolderRepeatingFolder>版本{0}列出了重复的目录: {1}。</ModLoadFolderRepeatingFolder>
+  <ModLoadFolderRepeatingFolder>版本 {0} 列出了重复的目录: {1}。</ModLoadFolderRepeatingFolder>
   <!-- EN: Invalid version order: {0} should come before {1}. -->
-  <ModLoadFolderOutOfOrder>无效版本顺序:{0}应该在{1}之前。</ModLoadFolderOutOfOrder>
+  <ModLoadFolderOutOfOrder>无效版本顺序：{0} 应该在 {1} 之前。</ModLoadFolderOutOfOrder>
   <!-- EN: Invalid version order: 'default' should be defined first. -->
-  <ModLoadFolderOutOfOrderDefault>无效的版本顺序:应该首先定义“default”。</ModLoadFolderOutOfOrderDefault>
+  <ModLoadFolderOutOfOrderDefault>无效的版本顺序：应该首先定义“default”。</ModLoadFolderOutOfOrderDefault>
   <!-- EN: Version {0} is defined in load folders, but is not listed in 'supportedVersions' of mod's About.xml. -->
-  <ModLoadFolderDefinesUnsupportedGameVersion>版本{0}是在加载文件夹中定义的，但是在mod的About.xml的'supportedGameVersions'中没有列出</ModLoadFolderDefinesUnsupportedGameVersion>
+  <ModLoadFolderDefinesUnsupportedGameVersion>版本 {0} 是在加载文件夹中定义的，但是在mod的About.xml的'supportedGameVersions'中没有列出</ModLoadFolderDefinesUnsupportedGameVersion>
   <!-- EN: Drag to reorder -->
   <DragToReorder>拖拽以排序</DragToReorder>
 
