@@ -15,18 +15,16 @@
     <li>specialSkillsInfo(lodgersSpecialRequest==ExpertFighter,lodgersCount==1,priority=1)->[lodgers0_nameDef] is an expert fighter.</li>
     <li>specialSkillsInfo(lodgersSpecialRequest==ExpertFighter,lodgersCount>=2,priority=1)->the [lodgersLabelPlural] are expert fighters.</li>
     <li>specialSkillsInfo-></li>
-    <li>minMoodInfo(priority=1,lodgersCount==1)->You must keep [lodgers0_possessive] mood above [lodgersMoodThreshold_percent].</li>
-    <li>minMoodInfo(priority=1,lodgersCount>=2)->You must keep the [lodgersLabelPlural]' moods above [lodgersMoodThreshold_percent].</li>
+    <li>minMoodInfo(priority=1)->You must keep [asker_nameDef]'s mood above [lodgersMoodThreshold_percent].</li>
     <li>minMoodInfo-></li>
     <li>commonDescEnding->[helpersParagraph][shuttleWillComeParagraph]\n\n[mustKeepOnMapParagraph]</li>
     <li>enemyGroupsParagraph->[threatDescriptionParagraph]</li>
-    <li>threatDescriptionParagraph(allowedThreats==Raids,threatCount==1)->there will be [threatCount] raid of roughly this size:\n\n[threatExample]</li>
-    <li>threatDescriptionParagraph(allowedThreats==Raids,threatCount>1)->there will be [threatCount] raids of roughly this size:\n\n[threatExample]</li>
-    <li>threatDescriptionParagraph(allowedThreats==MechClusters,threatCount==1,threatFactor==1)->a mech cluster will deploy nearby.</li>
-    <li>threatDescriptionParagraph(allowedThreats==MechClusters,threatCount==1,threatFactor==2)->a double-strength mech cluster will deploy nearby.</li>
-    <li>threatDescriptionParagraph(allowedThreats==MechClusters,threatCount==1,threatFactor==3)->a triple-strength mech cluster will deploy nearby.</li>
-    <li>threatDescriptionParagraph(allowedThreats==MechClusters,threatCount==2,threatFactor==2)->two double-strength mech clusters will deploy nearby.</li>
-    <li>threatDescriptionParagraph(allowedThreats==MechClusters,threatCount==2,threatFactor==1)->two mech clusters will deploy nearby.</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount==1)->there will be [threatCount] raid of roughly this size:\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount>1)->there will be [threatCount] raids of roughly this size:\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize==1)->a mech cluster will deploy nearby.</li>
+    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize==1)->two mech clusters will deploy nearby.</li>
+    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize>1)->a mech cluster of [threatSize]x size will deploy nearby.</li>
+    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize>1)->two mech clusters of [threatSize]x size will deploy nearby.</li>
     <li>shuttleWillComeParagraph(lodgersCount==1)->After [shuttleDelayTicks_duration], a shuttle will arrive to collect [lodgers0_nameDef]. If you get [lodgers0_objective] onto the shuttle alive, [allRewardsDescriptions]</li>
     <li>shuttleWillComeParagraph(lodgersCount>=2)->After [shuttleDelayTicks_duration], a shuttle will arrive to collect the [lodgersLabelPlural]. If you get them onto the shuttle alive, [allRewardsDescriptions]</li>
     <li>mustKeepOnMapParagraph(lodgersCount==1)->You must keep [lodgers0_nameDef] at [map_definite] and not send [lodgers0_objective] anywhere else.</li>
@@ -62,18 +60,16 @@
     <li>specialSkillsInfo(lodgersSpecialRequest==ExpertFighter,lodgersCount==1,priority=1)->[lodgers0_nameDef]是一位战斗专家。</li>
     <li>specialSkillsInfo(lodgersSpecialRequest==ExpertFighter,lodgersCount>=2,priority=1)->[lodgersLabelPlural]都是战斗专家。</li>
     <li>specialSkillsInfo-></li>
-    <li>minMoodInfo(priority=1,lodgersCount==1)->你必须将[lodgers0_possessive]的心情保持在[lodgersMoodThreshold_percent]以上。</li>
-    <li>minMoodInfo(priority=1,lodgersCount>=2)->你必须将[lodgersLabelPlural]的心情保持在[lodgersMoodThreshold_percent]以上。</li>
+    <li>minMoodInfo(priority=1)->你必须将[asker_nameDef]的心情保持在[lodgersMoodThreshold_percent]以上。</li>
     <li>minMoodInfo-></li>
     <li>commonDescEnding->[helpersParagraph][shuttleWillComeParagraph]\n\n[mustKeepOnMapParagraph]</li>
     <li>enemyGroupsParagraph->[threatDescriptionParagraph]</li>
-    <li>threatDescriptionParagraph(allowedThreats==Raids,threatCount==1)->将会有[threatCount]波袭击，规模大致与以下情况相当：\n\n[threatExample]</li>
-    <li>threatDescriptionParagraph(allowedThreats==Raids,threatCount>1)->将会有[threatCount]波袭击，规模大致与以下情况相当：\n\n[threatExample]</li>
-    <li>threatDescriptionParagraph(allowedThreats==MechClusters,threatCount==1,threatFactor==1)->一个机械集群将部署到附近。</li>
-    <li>threatDescriptionParagraph(allowedThreats==MechClusters,threatCount==1,threatFactor==2)->一个双倍强度的机械集群将部署到附近。</li>
-    <li>threatDescriptionParagraph(allowedThreats==MechClusters,threatCount==1,threatFactor==3)->一个三倍强度的机械集群将部署到附近。</li>
-    <li>threatDescriptionParagraph(allowedThreats==MechClusters,threatCount==2,threatFactor==2)->两个双倍强度的机械集群将部署到附近。</li>
-    <li>threatDescriptionParagraph(allowedThreats==MechClusters,threatCount==2,threatFactor==1)->两个机械集群将部署到附近。</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount==1)->将会有[threatCount]波袭击，规模大致与以下情况相当：\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount>1)->将会有[threatCount]波袭击，规模大致与以下情况相当：\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize==1)->一个机械集群将部署到附近。</li>
+    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize==1)->两个机械集群将部署到附近。</li>
+    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize>1)->一个[threatSize]x规模的机械集群将部署到附近。</li>
+    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize>1)->两个[threatSize]x规模的机械集群将部署到附近。</li>
     <li>shuttleWillComeParagraph(lodgersCount==1)->在[shuttleDelayTicks_duration]后， 一艘负责运送[lodgers0_nameDef]的穿梭机将会到达。 如果你能将[lodgers0_objective]安全送上穿梭机，[allRewardsDescriptions]</li>
     <li>shuttleWillComeParagraph(lodgersCount>=2)->在[shuttleDelayTicks_duration]后， 一艘负责运送[lodgersLabelPlural]的穿梭机将会到达。 如果你能将他们安全送上穿梭机，[allRewardsDescriptions]</li>
     <li>mustKeepOnMapParagraph(lodgersCount==1)->你必须确保[lodgers0_nameDef]处于[map_definite]并且不会将[lodgers0_objective]派遣到其他任何地方。</li>
