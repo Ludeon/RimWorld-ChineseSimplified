@@ -25,17 +25,27 @@
     <li>questName->[worker] Outsourcing</li>
     <li>questName->Contract [worker]s</li>
     <li>questName->Temporary Workers</li>
-    <li>questName->Colonist Lending</li>
+    <li>questName->[worker] Lending</li>
+    <li>questName->[worker]s for [asker_faction_name]</li>
+    <li>questName->Provisional [worker]s</li>
+    <li>questName->Requesting [worker]s</li>
     <li>worker->Colonist</li>
     <li>worker->Worker</li>
+    <li>worker->Laborer</li>
+    <li>worker->Helper</li>
   -->
   <PawnLend.questNameRules.rulesStrings>
     <li>questName->外包[worker]</li>
     <li>questName->契约[worker]</li>
     <li>questName->临时工</li>
-    <li>questName->外派殖民者</li>
+    <li>questName->[worker]借调</li>
+    <li>questName->[asker_faction_name]的[worker]供应</li>
+    <li>questName->临时的[worker]</li>
+    <li>questName->[worker]委托</li>
     <li>worker->殖民者</li>
     <li>worker->工人</li>
+    <li>worker->苦力</li>
+    <li>worker->帮手</li>
   </PawnLend.questNameRules.rulesStrings>
   <!-- EN: gather the harvest -->
   <PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.GetRandomElement.options.0.slateRef>收获庄稼</PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.GetRandomElement.options.0.slateRef>

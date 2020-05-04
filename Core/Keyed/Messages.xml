@@ -45,6 +45,8 @@
 
   <!-- EN: You need a powered orbital trade beacon to trade with a ship. -->
   <MessageNeedBeaconToTradeWithShip>你需要一个通电的轨道交易信标才能和轨道贸易商交易。</MessageNeedBeaconToTradeWithShip>
+  <!-- EN: Caller must have a royal title of at least baron. text_todo -->
+  <MessageNeedRoyalTitleToCallWithShip>呼叫者至少要有一个男爵头衔。text_todo</MessageNeedRoyalTitleToCallWithShip>
 
   <!-- EN: {0} has been destroyed. -->
   <MessageConditionCauserDespawned>{0}已被摧毁。</MessageConditionCauserDespawned>
@@ -371,8 +373,10 @@
   
   <!-- EN: {0} from {1} are attacking your {2}. -->
   <MessageDefendersAttacking>来自{1}的{0}正在攻击你的{2}。</MessageDefendersAttacking>
-  <!-- EN: Mechanoids have been assembled and are attacking. -->
-  <MessageMechanoidsAssembled>机械族已经苏醒并且正在开始攻击。</MessageMechanoidsAssembled>
+  <!-- EN: Mechanoids have been assembled and will defend their cluster. -->
+  <MessageMechanoidsAssembled>防守集群的机械体已装配完成。</MessageMechanoidsAssembled>
+  <!-- EN: Remaining mechanoids to assemble -->
+  <MessageMechanoidsLeftToAssemble>剩余待装配的机械体</MessageMechanoidsLeftToAssemble>
   <!-- EN: Mech drop beacon has summoned reinforcements in drop pods nearby. -->
   <MessageMechanoidsReinforcementsDrop>机械族信标召唤了一批增援部队在附近区域降落。</MessageMechanoidsReinforcementsDrop>
 
