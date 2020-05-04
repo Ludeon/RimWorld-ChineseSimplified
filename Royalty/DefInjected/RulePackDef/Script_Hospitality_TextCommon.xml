@@ -17,7 +17,7 @@
     <li>specialSkillsInfo-></li>
     <li>minMoodInfo(priority=1)->You must keep [asker_nameDef]'s mood above [lodgersMoodThreshold_percent].</li>
     <li>minMoodInfo-></li>
-    <li>commonDescEnding->[helpersParagraph][shuttleWillComeParagraph]\n\n[mustKeepOnMapParagraph]</li>
+    <li>commonDescEnding->[helpersParagraph][shuttleWillComeParagraph]</li>
     <li>enemyGroupsParagraph->[threatDescriptionParagraph]</li>
     <li>threatDescriptionParagraph(threatType==Raids,threatCount==1)->there will be [threatCount] raid of roughly this size:\n\n[threatExample]</li>
     <li>threatDescriptionParagraph(threatType==Raids,threatCount>1)->there will be [threatCount] raids of roughly this size:\n\n[threatExample]</li>
@@ -27,8 +27,6 @@
     <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize>1)->two mech clusters of [threatSize]x size will deploy nearby.</li>
     <li>shuttleWillComeParagraph(lodgersCount==1)->After [shuttleDelayTicks_duration], a shuttle will arrive to collect [lodgers0_nameDef]. If you get [lodgers0_objective] onto the shuttle alive, [allRewardsDescriptions]</li>
     <li>shuttleWillComeParagraph(lodgersCount>=2)->After [shuttleDelayTicks_duration], a shuttle will arrive to collect the [lodgersLabelPlural]. If you get them onto the shuttle alive, [allRewardsDescriptions]</li>
-    <li>mustKeepOnMapParagraph(lodgersCount==1)->You must keep [lodgers0_nameDef] at [map_definite] and not send [lodgers0_objective] anywhere else.</li>
-    <li>mustKeepOnMapParagraph(lodgersCount>=2)->You must keep the [lodgersLabelPlural] at [map_definite] and not send them anywhere else.</li>
     <li>threatsInfoMechClustersSingleHuman->[lodgers0_nameDef] recently [mechViolation], and has been targeted by an orbiting mechanoid swarm.</li>
     <li>threatsInfoMechClustersMultiPrisoners->The prisoners recently [mechViolation], and have been targeted by an orbiting mechanoid swarm.</li>
     <li>threatsInfoMechRaidsSingleHuman->[lodgers0_nameDef] recently [mechViolation], and has been targeted by a mechanoid hive.</li>
@@ -62,7 +60,7 @@
     <li>specialSkillsInfo-></li>
     <li>minMoodInfo(priority=1)->你必须将[asker_nameDef]的心情保持在[lodgersMoodThreshold_percent]以上。</li>
     <li>minMoodInfo-></li>
-    <li>commonDescEnding->[helpersParagraph][shuttleWillComeParagraph]\n\n[mustKeepOnMapParagraph]</li>
+    <li>commonDescEnding->[helpersParagraph][shuttleWillComeParagraph]</li>
     <li>enemyGroupsParagraph->[threatDescriptionParagraph]</li>
     <li>threatDescriptionParagraph(threatType==Raids,threatCount==1)->将会有[threatCount]波袭击，规模大致与以下情况相当：\n\n[threatExample]</li>
     <li>threatDescriptionParagraph(threatType==Raids,threatCount>1)->将会有[threatCount]波袭击，规模大致与以下情况相当：\n\n[threatExample]</li>
@@ -72,8 +70,6 @@
     <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize>1)->两个[threatSize]x规模的机械集群将部署到附近。</li>
     <li>shuttleWillComeParagraph(lodgersCount==1)->在[shuttleDelayTicks_duration]后， 一艘负责运送[lodgers0_nameDef]的穿梭机将会到达。 如果你能将[lodgers0_objective]安全送上穿梭机，[allRewardsDescriptions]</li>
     <li>shuttleWillComeParagraph(lodgersCount>=2)->在[shuttleDelayTicks_duration]后， 一艘负责运送[lodgersLabelPlural]的穿梭机将会到达。 如果你能将他们安全送上穿梭机，[allRewardsDescriptions]</li>
-    <li>mustKeepOnMapParagraph(lodgersCount==1)->你必须确保[lodgers0_nameDef]处于[map_definite]并且不会将[lodgers0_objective]派遣到其他任何地方。</li>
-    <li>mustKeepOnMapParagraph(lodgersCount>=2)->你必须确保[lodgersLabelPlural]处于[map_definite]并且不会将他们派遣到其他任何地方。</li>
     <li>threatsInfoMechClustersSingleHuman->[lodgers0_nameDef]近期[mechViolation]，已经被在轨的大批机械族锁定。</li>
     <li>threatsInfoMechClustersMultiPrisoners->囚犯们近期[mechViolation]，已经被在轨的大批机械族锁定。</li>
     <li>threatsInfoMechRaidsSingleHuman->[lodgers0_nameDef]近期[mechViolation]，已经被大批机械族锁定。</li>
