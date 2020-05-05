@@ -21,6 +21,11 @@
   <!-- EN: The chance that this person will succeed in constructing something.\nFailing means wasting time and resources. -->
   <ConstructSuccessChance.description>建造时的成功几率。\n失败意味着浪费时间和资源。</ConstructSuccessChance.description>
   
+  <!-- EN: deep drilling speed -->
+  <DeepDrillingSpeed.label>深钻井操作速度</DeepDrillingSpeed.label>
+  <!-- EN: A speed at which this person uses a deep drill to extract underground resources. -->
+  <DeepDrillingSpeed.description>使用深钻井开采地下资源的速度。</DeepDrillingSpeed.description>
+  
   <!-- EN: repair success chance -->
   <FixBrokenDownBuildingSuccessChance.label>修理成功几率</FixBrokenDownBuildingSuccessChance.label>
   <!-- EN: The chance that this person will successfully repair a broken down building using a component.\n\nFailing means wasting time and resources.\nNote that this only applies to repairing breakdowns, which is different from repairing damage. -->
@@ -33,12 +38,12 @@
   
   <!-- EN: mining speed -->
   <MiningSpeed.label>采矿速度</MiningSpeed.label>
-  <!-- EN: A speed at which this person digs at walls and drills for deep resources. -->
-  <MiningSpeed.description>开采和钻取深层资源时的速度。</MiningSpeed.description>
+  <!-- EN: A speed at which this person mines away walls. -->
+  <MiningSpeed.description>开采表层矿物资源时的速度。</MiningSpeed.description>
   
   <!-- EN: mining yield -->
   <MiningYield.label>开采产出</MiningYield.label>
-  <!-- EN: The percentage of mined resources a miner will produce.\n\nThis applies to both wall mining and deep drill mining.\nThis doesn't affect the production rate of rock chunks. -->
+  <!-- EN: The percentage of mined resources a miner will produce.\n\nThis applies to both wall mining and deep drill mining.\nThis doesn't affect the production rate of rock chunks from deep drills. -->
   <MiningYield.description>矿工将达到的百分比产出。\n\n同时应用于资源块开采和深钻开采。\n不影响石块开采。</MiningYield.description>
   
   <!-- EN: plant harvest yield -->
