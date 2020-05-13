@@ -45,4 +45,13 @@
   <!-- EN: A ship landing beacon is powered but can’t be used. To be usable, four of these must be placed on the corners of a square at least 9 tiles wide, and the entire square area must be clear of obstructions including buildings, people, and animals. -->
   <ShipLandingBeaconUnusableDesc>一个飞船着陆信标通电但不可用。要想正常使用飞船着陆区，四个信标必须放置在至少9x9区域的角落，并且整个区域内必须没有任何障碍物，包括建筑、人类、动物等。</ShipLandingBeaconUnusableDesc>
 
+  <!-- EN: Low psyfocus -->
+  <LowPsyfocusAlert>低精神力</LowPsyfocusAlert>
+  <!-- EN: These colonists have low psyfocus, limiting their ability to use psycasts. In order to gain psyfocus, they need to meditate.\n\n{0}\n\nPlace a meditation spot and ensure it is usable. Assign a specific time for meditation through the Restrict tab. -->
+  <LowPsyfocusAlertDesc>这些殖民者的精神力过低，限制了他们使用心灵能力。为了获得精神力，他们需要进行冥想。\n\n{0}\n\n请放置一个「冥想点」并确保它可用。可以通过「管制」选项卡来为冥想指定一个特定的时间。</LowPsyfocusAlertDesc>
+
+  <!-- EN: Need meditation spot -->
+  <NeedMeditationSpotAlert>需要冥想点</NeedMeditationSpotAlert>
+  <!-- EN: These colonists have a psyfocus need, but don't have any meditation spots available for them.\n\n{0}\n\nPlace a meditation spot and ensure it is reachable and usable. Colonists will prefer the meditation spot near the best focus object they can use. -->
+  <NeedMeditationSpotAlertDesc>这些殖民者有精神力需求，但是没有任何他们可用的冥想点。\n\n{0}\n\n请放置一个「冥想点」并确保它可用。殖民者更喜欢附近有他们能使用的最佳聚焦物的冥想点。</NeedMeditationSpotAlertDesc>
 </LanguageData>

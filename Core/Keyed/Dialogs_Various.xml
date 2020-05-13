@@ -464,6 +464,28 @@
   <ClickToLearnMore>点击了解更多。</ClickToLearnMore>
   <!-- EN: Click to view factions. -->
   <ClickToViewFactions>单击以查看派系。</ClickToViewFactions>
+  <!-- EN: meditation focus types -->
+  <MeditationFocuses>冥想焦点类型</MeditationFocuses>
+  <!-- EN: Unlocks meditation focus types -->
+  <MeditationFocusesUnlocked>解锁冥想焦点类型</MeditationFocusesUnlocked>
+  <!-- EN: The types of meditation focus this person can use. When meditating, a person can focus on an obejct to boost their psyfocus gain - but only if that object offers a focus type they can use. Each person's meditation types are determined by their background, traits, social position, and so on. -->
+  <MeditationFocusesPawnDesc>这个人可以进行的冥想种类。在冥想时，可以通过专注于一个物体来提高精神力增益——前提是这个物体提供了冥想者可以使用的冥想类型。冥想者的冥想类型取决于他们的背景、特征和社会地位等。</MeditationFocusesPawnDesc>
+  <!-- EN: The types of meditation focus this object offers. A meditating person can focus on this object to boost their psyfocus gain, but only if they are able to use one of its meditation types. Each person can use different meditation types depending on their background, traits, social position, and so on. -->
+  <MeditationFocusesDesc>这个物体提供的冥想类型。一个冥想者可以把注意力集中到这个物体上，从而提高他们的精神力收益，前提是他们能够使用其中一种冥想类型。冥想者的冥想类型取决于他们的背景、特征和社会地位等。</MeditationFocusesDesc>
+  <!-- EN: Can use {0} focus type because -->
+  <MeditationFocusCanUse>无法使用{0}焦点类型，因为</MeditationFocusCanUse>
+  <!-- EN: holds title: {TITLE} ({FACTION_name}). -->
+  <MeditationFocusEnabledByTitle>持有头衔：{TITLE}（{FACTION_name}）。</MeditationFocusEnabledByTitle>
+  <!-- EN: has childhood -->
+  <MeditationFocusEnabledByChildhood>有童年背景</MeditationFocusEnabledByChildhood>
+  <!-- EN: has adulthood -->
+  <MeditationFocusEnabledByAdulthood>有成年背景</MeditationFocusEnabledByAdulthood>
+  <!-- EN: has trait -->
+  <MeditationFocusEnabledByTrait>有特性</MeditationFocusEnabledByTrait>
+  <!-- EN: does not have trait -->
+  <MeditationFocusDisabledByTrait>没有特性</MeditationFocusDisabledByTrait>
+  <!-- EN: Enables meditation focus types -->
+  <EnablesMeditationFocusType>启用冥想焦点类型</EnablesMeditationFocusType>
   
   <!-- Trade -->
   <!-- EN: Positive numbers buy.\nNegative numbers sell. -->
@@ -618,8 +640,12 @@
   <AnimalCanGrazeTip>这种动物可以放牧以从环境中觅食，而非食用远行队所携带的食物。放牧只能在特定的生态区和特定的温度下进行。</AnimalCanGrazeTip>
   <!-- EN: Nutrition foraged per day. The actual amount foraged is also affected by biome forageability.\n\n{0} -->
   <NutritionForagedPerDayTip>每日营养采集。实际数值也受到生态区的远行采集量影响。\n\n{0}</NutritionForagedPerDayTip>
-  <!-- EN: Nutrition eaten per day. For reference, simple meals have {0} nutrition.\n\nCan eat: {2}\n\nLegend:\n{1} -->
-  <NutritionEatenPerDayTip>每日营养消耗。作为参考，简单的食物有{0}营养值。\n\n可食用：{2}\n\n图例：\n{1}。</NutritionEatenPerDayTip>
+  <!-- EN: Nutrition eaten per day. For reference, simple meals have {0} nutrition. -->
+  <NutritionEatenPerDayTip>每日营养消耗。作为参考，简单的食物有{0}营养值。</NutritionEatenPerDayTip>
+  <!-- EN: Can eat -->
+  <CanEat>可以食用</CanEat>
+  <!-- EN: Legend -->
+  <Legend>传说</Legend>
   <!-- EN: Mass carried -->
   <MassCarriedSimple>已载重</MassCarriedSimple>
   <!-- EN: Mass capacity -->
@@ -926,5 +952,7 @@
   <AbilityOccupiedCells>{0}必须瞄准空置区域。</AbilityOccupiedCells>
   <!-- EN: {0} must target a walkable area. -->
   <AbilityUnwalkable>{0}必须瞄准可行走区域。</AbilityUnwalkable>
+  <!-- EN: {0} must target an unroofed area. -->
+  <AbilityRoofed>{0}必须瞄准不在屋顶下的区域。</AbilityRoofed>
   
 </LanguageData>

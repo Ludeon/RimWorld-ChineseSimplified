@@ -28,13 +28,17 @@
   <RoomRequirementAllBraziersMustBeLit>所有火盆必须点燃</RoomRequirementAllBraziersMustBeLit>
   <!-- EN: all fine floored -->
   <RoomRequirementAllFineFloored>铺满精致的地板</RoomRequirementAllFineFloored>
+  <!-- EN: no production facilities -->
+  <RoomRequirementNoProductionFacilities>无生产设施</RoomRequirementNoProductionFacilities>
+  <!-- EN: no beds -->
+  <RoomRequirementNoBeds>不能有床</RoomRequirementNoBeds>
   <!-- EN: Holders of this title must be covered in some combination of -->
   <RoyalTitleRequiredApparelStatDescription>此头衔的持有者必须在以下几种方式组合使用</RoyalTitleRequiredApparelStatDescription>
-  <!-- EN: Any powered armor -->
-  <ApparelRequirementAnyPowerArmor>任意动力装甲</ApparelRequirementAnyPowerArmor>
+  <!-- EN: Any royal powered armor -->
+  <ApparelRequirementAnyRoyalPowerArmor>任意皇家动力装甲</ApparelRequirementAnyRoyalPowerArmor>
   <!-- EN: Any psycaster apparel -->
-  <ApparelRequirementAnyPsycasterApparel>任意心灵服装</ApparelRequirementAnyPsycasterApparel>
-  <!-- EN: Disabled work types -->
+  <ApparelRequirementAnyPsycasterApparel>任意灵质服装</ApparelRequirementAnyPsycasterApparel>
+  <!-- EN: Disallowed work types -->
   <DisabledWorkTypes>禁用的工作类型</DisabledWorkTypes>
   <!-- EN: Allowed foods -->
   <RoyalTitleRequiredMeals>允许的食物</RoyalTitleRequiredMeals>
@@ -66,5 +70,8 @@
   <PsycastRequiredAmplifierLevel>增幅器等级</PsycastRequiredAmplifierLevel>
   <!-- EN: This is illegal for {PAWN_labelShort}. Requires {TITLE} title. -->
   <PsycastIsIllegal>对于{PAWN_labelShort}，这是非法的。需要{TITLE}头衔。</PsycastIsIllegal>
+
+  <!-- UNUSED -->
+  <ApparelRequirementAnyPowerArmor>任意动力装甲</ApparelRequirementAnyPowerArmor>
 
 </LanguageData>

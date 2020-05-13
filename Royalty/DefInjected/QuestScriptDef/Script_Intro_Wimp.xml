@@ -40,42 +40,42 @@
     <li>adjAny->羞愧</li>
   </Intro_Wimp.questNameRules.rulesStrings>
   <!-- EN: [animalKindDef_label] arrived -->
-  <Intro_Wimp.root.nodes.Delay.node.elseNode.nodes.PawnsArrive.customLetterLabel.slateRef>[animalKindDef_label]已抵达</Intro_Wimp.root.nodes.Delay.node.elseNode.nodes.PawnsArrive.customLetterLabel.slateRef>
+  <Intro_Wimp.LetterLabelAnimalArrived.slateRef>[animalKindDef_label]已抵达</Intro_Wimp.LetterLabelAnimalArrived.slateRef>
   <!-- EN: The "deadly" [animalKindDef_label] that [asker_nameDef] was fleeing has arrived.\n\nIt turned out to be quite gentle and not aggressive at all. -->
-  <Intro_Wimp.root.nodes.Delay.node.elseNode.nodes.PawnsArrive.customLetterText.slateRef>追逐 [asker_nameDef] 的那个“危险致命”的[animalKindDef_label]已经抵达。\n\n结果它看起来很温和，一点也不凶暴！</Intro_Wimp.root.nodes.Delay.node.elseNode.nodes.PawnsArrive.customLetterText.slateRef>
+  <Intro_Wimp.LetterTextAnimalArrived.slateRef>追逐 [asker_nameDef] 的那个“危险致命”的[animalKindDef_label]已经抵达。\n\n结果它看起来很温和，一点也不凶暴！</Intro_Wimp.LetterTextAnimalArrived.slateRef>
   <!-- EN: Angry [animalKindDef_label] -->
-  <Intro_Wimp.root.nodes.Delay.node.node.customLetterLabel.slateRef>狂暴的[animalKindDef_label]</Intro_Wimp.root.nodes.Delay.node.node.customLetterLabel.slateRef>
+  <Intro_Wimp.LetterLabelAngryAnimal.slateRef>狂暴的[animalKindDef_label]</Intro_Wimp.LetterLabelAngryAnimal.slateRef>
   <!-- EN: The angry [animalKindDef_label] has come to get [asker_nameFull].\n\nWhile it is weak, it does appear to be highly motivated. -->
-  <Intro_Wimp.root.nodes.Delay.node.node.customLetterText.slateRef>狂暴的[animalKindDef_label]是为追逐[asker_nameFull]而来。\n\n虽然看起来很弱，但是其行动力却出人意料的强。</Intro_Wimp.root.nodes.Delay.node.node.customLetterText.slateRef>
+  <Intro_Wimp.LetterTextAngryAnimal.slateRef>狂暴的[animalKindDef_label]是为追逐[asker_nameFull]而来。\n\n虽然看起来很弱，但是其行动力却出人意料的强。</Intro_Wimp.LetterTextAngryAnimal.slateRef>
   <!-- EN: Should depart on shuttle -->
-  <Intro_Wimp.root.nodes.ShuttleDelay.node.nodes.InspectString.inspectString.slateRef>应该乘坐穿梭机出发</Intro_Wimp.root.nodes.ShuttleDelay.node.nodes.InspectString.inspectString.slateRef>
+  <Intro_Wimp.InspectStringDepartShuttle.slateRef>应该乘坐穿梭机出发</Intro_Wimp.InspectStringDepartShuttle.slateRef>
   <!-- EN: Shuttle arrived -->
-  <Intro_Wimp.root.nodes.ShuttleDelay.node.nodes.Letter.label.slateRef>穿梭机已抵达</Intro_Wimp.root.nodes.ShuttleDelay.node.nodes.Letter.label.slateRef>
+  <Intro_Wimp.LetterLabelShuttleArrived.slateRef>穿梭机已抵达</Intro_Wimp.LetterLabelShuttleArrived.slateRef>
   <!-- EN: The shuttle has arrived to collect [asker_nameDef]. -->
-  <Intro_Wimp.root.nodes.ShuttleDelay.node.nodes.Letter.text.slateRef>前来迎接[asker_nameDef]的穿梭机已抵达。</Intro_Wimp.root.nodes.ShuttleDelay.node.nodes.Letter.text.slateRef>
+  <Intro_Wimp.LetterTextShuttleArrived.slateRef>前来迎接[asker_nameDef]的穿梭机已抵达。</Intro_Wimp.LetterTextShuttleArrived.slateRef>
   <!-- EN: Guest died: {SUBJECT_definite} -->
-  <Intro_Wimp.root.nodes.askerDestroyed.node.nodes.Letter.label.slateRef>访客已死亡：{SUBJECT_definite}</Intro_Wimp.root.nodes.askerDestroyed.node.nodes.Letter.label.slateRef>
+  <Intro_Wimp.LetterLabelGuestDied.slateRef>访客已死亡：{SUBJECT_definite}</Intro_Wimp.LetterLabelGuestDied.slateRef>
   <!-- EN: {SUBJECT_definite}, who you were charged to protect, has died. [failLetterEndingCommon] -->
-  <Intro_Wimp.root.nodes.askerDestroyed.node.nodes.Letter.text.slateRef>需要你小心保护的{SUBJECT_definite}已经死亡。[failLetterEndingCommon]</Intro_Wimp.root.nodes.askerDestroyed.node.nodes.Letter.text.slateRef>
+  <Intro_Wimp.LetterTextGuestDied.slateRef>需要你小心保护的{SUBJECT_definite}已经死亡。[failLetterEndingCommon]</Intro_Wimp.LetterTextGuestDied.slateRef>
   <!-- EN: Unauthorized surgery: {SUBJECT_definite} -->
-  <Intro_Wimp.root.nodes.askerSurgeryViolation.node.nodes.Letter.label.slateRef>未授权手术：{SUBJECT_definite}</Intro_Wimp.root.nodes.askerSurgeryViolation.node.nodes.Letter.label.slateRef>
+  <Intro_Wimp.LetterLabelUnauthorizedSurgery.slateRef>未授权手术：{SUBJECT_definite}</Intro_Wimp.LetterLabelUnauthorizedSurgery.slateRef>
   <!-- EN: Unauthorized, violating surgery has been performed on {SUBJECT_definite}, who you were charged to protect. Because of this violation, [asker_pronoun] will now attempt to leave. [failLetterEndingCommon] -->
-  <Intro_Wimp.root.nodes.askerSurgeryViolation.node.nodes.Letter.text.slateRef>需要你小心保护的{SUBJECT_definite}接受了一次未授权的额外手术。因为你违规在先，[asker_pronoun]将要离开此处。[failLetterEndingCommon]</Intro_Wimp.root.nodes.askerSurgeryViolation.node.nodes.Letter.text.slateRef>
+  <Intro_Wimp.LetterTextUnauthorizedSurgery.slateRef>需要你小心保护的{SUBJECT_definite}接受了一次未授权的额外手术。因为你违规在先，[asker_pronoun]将要离开此处。[failLetterEndingCommon]</Intro_Wimp.LetterTextUnauthorizedSurgery.slateRef>
   <!-- EN: Captured: {SUBJECT_definite} -->
-  <Intro_Wimp.root.nodes.askerArrested.node.nodes.Letter.label.slateRef>已被俘：{SUBJECT_definite}</Intro_Wimp.root.nodes.askerArrested.node.nodes.Letter.label.slateRef>
+  <Intro_Wimp.LetterLabelCaptured.slateRef>已被俘：{SUBJECT_definite}</Intro_Wimp.LetterLabelCaptured.slateRef>
   <!-- EN: {SUBJECT_definite}, who you were charged to host, has been arrested. [failLetterEndingCommon] -->
-  <Intro_Wimp.root.nodes.askerArrested.node.nodes.Letter.text.slateRef>需要你小心保护的{SUBJECT_definite}已被俘虏。[failLetterEndingCommon]</Intro_Wimp.root.nodes.askerArrested.node.nodes.Letter.text.slateRef>
+  <Intro_Wimp.LetterTextCaptured.slateRef>需要你小心保护的{SUBJECT_definite}已被俘虏。[failLetterEndingCommon]</Intro_Wimp.LetterTextCaptured.slateRef>
   <!-- EN: Guest lost: {SUBJECT_definite} -->
-  <Intro_Wimp.root.nodes.askerLeftMap.node.nodes.Letter.label.slateRef>访客失踪：{SUBJECT_definite}</Intro_Wimp.root.nodes.askerLeftMap.node.nodes.Letter.label.slateRef>
+  <Intro_Wimp.LetterLabelGuestLost.slateRef>访客失踪：{SUBJECT_definite}</Intro_Wimp.LetterLabelGuestLost.slateRef>
   <!-- EN: {SUBJECT_definite}, who you were charged to protect, has left the designated settlement. [failLetterEndingCommon] -->
-  <Intro_Wimp.root.nodes.askerLeftMap.node.nodes.Letter.text.slateRef>需要你小心保护的{SUBJECT_definite}从你的殖民地失踪了。[failLetterEndingCommon]</Intro_Wimp.root.nodes.askerLeftMap.node.nodes.Letter.text.slateRef>
+  <Intro_Wimp.LetterTextGuestLost.slateRef>需要你小心保护的{SUBJECT_definite}从你的殖民地失踪了。[failLetterEndingCommon]</Intro_Wimp.LetterTextGuestLost.slateRef>
   <!-- EN: Shuttle destroyed -->
-  <Intro_Wimp.root.nodes.shuttleDestroyed.node.nodes.Letter.label.slateRef>穿梭机被毁</Intro_Wimp.root.nodes.shuttleDestroyed.node.nodes.Letter.label.slateRef>
+  <Intro_Wimp.LetterLabelShuttleDestroyed.slateRef>穿梭机被毁</Intro_Wimp.LetterLabelShuttleDestroyed.slateRef>
   <!-- EN: The shuttle sent to collect [asker_nameDef] has been destroyed. [asker_pronoun] will now leave on foot. [failLetterEndingCommon] -->
-  <Intro_Wimp.root.nodes.shuttleDestroyed.node.nodes.Letter.text.slateRef>前来迎接[asker_nameDef]的穿梭机已被毁。[asker_pronoun]现在只能走回去了。[failLetterEndingCommon]</Intro_Wimp.root.nodes.shuttleDestroyed.node.nodes.Letter.text.slateRef>
+  <Intro_Wimp.LetterTextShuttleDestroyed.slateRef>前来迎接[asker_nameDef]的穿梭机已被毁。[asker_pronoun]现在只能走回去了。[failLetterEndingCommon]</Intro_Wimp.LetterTextShuttleDestroyed.slateRef>
   <!-- EN: Quest failed: [resolvedQuestName] -->
-  <Intro_Wimp.root.nodes.shuttleSentUnsatisfied.node.nodes.Letter.label.slateRef>任务失败：[resolvedQuestName]</Intro_Wimp.root.nodes.shuttleSentUnsatisfied.node.nodes.Letter.label.slateRef>
+  <Intro_Wimp.LetterLabelQuestFailed.slateRef>任务失败：[resolvedQuestName]</Intro_Wimp.LetterLabelQuestFailed.slateRef>
   <!-- EN: The shuttle sent to collect [asker_nameDef] has departed without [asker_objective]. [asker_pronoun] will now leave on foot. [failLetterEndingCommon] -->
-  <Intro_Wimp.root.nodes.shuttleSentUnsatisfied.node.nodes.Letter.text.slateRef>前来迎接[asker_nameDef]的穿梭机在离开时因为一些原因落下了[asker_objective]。[asker_pronoun]现在只能走回去了。[failLetterEndingCommon]</Intro_Wimp.root.nodes.shuttleSentUnsatisfied.node.nodes.Letter.text.slateRef>
+  <Intro_Wimp.LetterTextQuestFailed.slateRef>前来迎接[asker_nameDef]的穿梭机在离开时因为一些原因落下了[asker_objective]。[asker_pronoun]现在只能走回去了。[failLetterEndingCommon]</Intro_Wimp.LetterTextQuestFailed.slateRef>
   
 </LanguageData>

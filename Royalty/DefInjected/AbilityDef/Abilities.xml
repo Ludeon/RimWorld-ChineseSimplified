@@ -21,6 +21,11 @@
   <!-- EN: Induce noise in the visual centers of the brain, obscuring vision of everyone near the target point. -->
   <BlindingPulse.description>通过干扰大脑的视觉中枢，使目标点周围的每个人的视觉模糊。</BlindingPulse.description>
   
+  <!-- EN: bullet shield -->
+  <BulletShield.label>子弹护盾</BulletShield.label>
+  <!-- EN: Generate a spherical skipgate that sends all incoming and outgoing ground-level projectiles to some distant place. People and items are not affected. -->
+  <BulletShield.description>生成一个球形的折跃区，将所有射入和射出的子弹都传送到遥远的地方。人员和物品的进出不受影响。</BulletShield.description>
+  
   <!-- EN: burden -->
   <Burden.label>重负</Burden.label>
   <!-- EN: Slow the target for a short time by suppressing motor activity in the brain. -->
@@ -31,10 +36,15 @@
   <!-- EN: Teleport the target to a random position near where he started. -->
   <ChaosSkip.description>把目标传送到附近的一个随机位置。</ChaosSkip.description>
   
-  <!-- EN: entropy link -->
-  <EntropyLink.label>心灵链接</EntropyLink.label>
-  <!-- EN: Form a psychic link between caster and target, so that gain and loss of psychic entropy is shared between both equally. The link lasts for some time, but will break if the two move far apart. -->
-  <EntropyLink.description>在施法者和目标之间形成一种精神链接，心灵熵的得失在两者之间彼此影响。这种联系会持续一段时间，但如果两者相隔很远，就会断开。</EntropyLink.description>
+  <!-- EN: entropy dump -->
+  <EntropyDump.label>熵转移</EntropyDump.label>
+  <!-- EN: Instantly dump all your psychic entropy into someone else. As a side-effect, the target will fall into a debilitating but non-damaging coma for about a day. The target must actively accept the psychic invasion, so only conscious allies can be targeted. -->
+  <EntropyDump.description>立刻把你的所有心灵熵都倾注到目标身上。作为副作用，目标会陷入一个大约持续一天的昏迷中。目标必须主动接受精神入侵，所以只有清醒的盟友才能成为目标。</EntropyDump.description>
+  
+  <!-- EN: flashstorm -->
+  <Flashstorm.label>闪电风暴</Flashstorm.label>
+  <!-- EN: Use differential-pressure skipgates in the atmosphere to generate a localized flashstorm. The storm will strike the area with lighting for some time before dissipating. -->
+  <Flashstorm.description>利用大气压差梯度来产生局部的闪电风暴。暴风雨将在消散前用闪电轰击该区域一段时间。</Flashstorm.description>
   
   <!-- EN: focus -->
   <Focus.label>注意集中</Focus.label>
@@ -90,5 +100,10 @@
   <Wallraise.label>升壁</Wallraise.label>
   <!-- EN: Form a temporary wall by skipping rubble and soil up from deep under the ground. -->
   <Wallraise.description>移动地下深处的碎石和泥土，形成一道临时的墙壁。</Wallraise.description>
+  
+  <!-- EN: waterskip -->
+  <Waterskip.label>水传送</Waterskip.label>
+  <!-- EN: Douse a target area in water, extinguishing fires. The water is archotechnologically skipped from distant bodies of water or underground aquifers. -->
+  <Waterskip.description>将目标区域浸入水中，扑灭火焰。从技术上说，水是从遥远的水源或者是地下水层中传送出来的。</Waterskip.description>
   
 </LanguageData>

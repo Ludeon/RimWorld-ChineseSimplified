@@ -146,6 +146,9 @@
   <!-- EN: The last events in {PAWN_definite}'s life -->
   <LastEventsInLife>{PAWN_definite}的人生中最近的事件</LastEventsInLife>
 
+  <!-- EN: Thanks to high mood, [PAWN_nameIndef] has experienced an inspiration! -->
+  <LetterInspirationBeginThanksToHighMoodPart>多亏了良好的心情，[PAWN_nameIndef]获得了一个灵感！</LetterInspirationBeginThanksToHighMoodPart>
+
   <!-- Related pawns -->
   <!-- EN: Relationship -->
   <LetterLabelNoticedRelatedPawns>家族成员</LetterLabelNoticedRelatedPawns>
@@ -495,7 +498,17 @@
   <LetterQuestCompletedFail>你未完成任务'{0}'。</LetterQuestCompletedFail>
   <!-- EN: You have concluded the quest '{0}'. -->
   <LetterQuestCompletedConcluded>你已完成任务'{0}'。</LetterQuestCompletedConcluded>
-  
+
+  <!-- Quest Completed with average pawn mood -->
+  <!-- EN: You have successfully completed the quest '{0}'!\n\n{asker_nameDef} said {asker_pronoun} was willing to reward quality accomodation. {asker_nameDef}'s average mood was {averageMood} during {asker_possessive} stay, so your goodwill with {faction_name} has increased by {goodwill}. text_todo -->
+  <LetterQuestCompletedWithAvgPawnMoodGoodwillSuccess>你已经成功完成了任务'{0}'！\n\n{asker_nameDef}说{asker_pronoun}愿意为高质量的住宿条件提供奖励。{asker_nameDef}在逗留期间的平均心情在{averageMood}，所以你和{faction_name}的关系提高了{goodwill}。</LetterQuestCompletedWithAvgPawnMoodGoodwillSuccess>
+  <!-- EN: You have successfully completed the quest '{0}'!\n\n{asker_nameDef} said {asker_pronoun} was willing to reward quality accomodation. The guests average mood was {averageMood} during their stay, so your goodwill with {faction_name} has increased by {goodwill}. text_todo -->
+  <LetterQuestCompletedWithAvgPawnMoodGoodwillPluralSuccess>你已经成功完成了任务'{0}'！\n\n{asker_nameDef}说{asker_pronoun}愿意为高质量的住宿条件提供奖励。访客们在逗留期间的平均心情在{averageMood}，所以你和{faction_name}的关系提高了{goodwill}。</LetterQuestCompletedWithAvgPawnMoodGoodwillPluralSuccess>
+  <!-- EN: You have successfully completed the quest '{0}'!\n\nWhile {asker_nameDef} was willing to reward quality accomodation, {asker_possessive} average mood was only {averageMood} during {asker_possessive} stay. You will receive no goodwill reward. text_todo -->
+  <LetterQuestCompletedWithoutAvgPawnMoodGoodwillSuccess>你已经成功完成了任务'{0}'！\n\n{asker_nameDef}愿意为高质量的住宿条件提供奖励，但是{asker_possessive}在逗留期间的平均心情只有{averageMood}。你不会获得任何好感度奖励。</LetterQuestCompletedWithoutAvgPawnMoodGoodwillSuccess>
+  <!-- EN: You have successfully completed the quest '{0}'!\n\nWhile {asker_nameDef} was willing to reward quality accomodation, the guests average mood was only {averageMood} during their stay. You will receive no goodwill reward. text_todo -->
+  <LetterQuestCompletedWithoutAvgPawnMoodGoodwillPluralSuccess>你已经成功完成了任务'{0}'！\n\n{asker_nameDef}愿意为高质量的住宿条件提供奖励，但是访客们在逗留期间的平均心情只有{averageMood}。你不会获得任何好感度奖励。</LetterQuestCompletedWithoutAvgPawnMoodGoodwillPluralSuccess>
+
   <!-- Bladelink -->
   <!-- EN: Bladelink bond: {PAWN_labelShort} -->
   <LetterBladelinkWeaponBondedLabel>武器绑定: {PAWN_labelShort}</LetterBladelinkWeaponBondedLabel>

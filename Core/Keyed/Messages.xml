@@ -45,8 +45,8 @@
 
   <!-- EN: You need a powered orbital trade beacon to trade with a ship. -->
   <MessageNeedBeaconToTradeWithShip>你需要一个通电的轨道交易信标才能和轨道贸易商交易。</MessageNeedBeaconToTradeWithShip>
-  <!-- EN: Caller must have the title of {0} or higher. -->
-  <MessageNeedRoyalTitleToCallWithShip>呼叫者至少要有一个{0}头衔。</MessageNeedRoyalTitleToCallWithShip>
+  <!-- EN: Caller must have the title of {0_label} or higher. -->
+  <MessageNeedRoyalTitleToCallWithShip>呼叫者至少要有一个{0_label}头衔。</MessageNeedRoyalTitleToCallWithShip>
 
   <!-- EN: {0} has been destroyed. -->
   <MessageConditionCauserDespawned>{0}已被摧毁。</MessageConditionCauserDespawned>
@@ -485,6 +485,8 @@
   <GoodwillChangedReason_PawnCrushed>{1_labelShort}被压死了</GoodwillChangedReason_PawnCrushed>
   <!-- EN: {1_labelShort} died -->
   <GoodwillChangedReason_PawnDied>{1_labelShort}死去了</GoodwillChangedReason_PawnDied>
+  <!-- EN: {0_labelShort} stripped -->
+  <GoodwillChangedReason_PawnStripped>{0_labelShort}被剥光</GoodwillChangedReason_PawnStripped>
   <!-- EN: traded -->
   <GoodwillChangedReason_Traded>贸易</GoodwillChangedReason_Traded>
   <!-- EN: attacked a caravan -->
@@ -577,6 +579,9 @@
 
   <!-- EN: Warning: Capturing {PAWN_nameDef} will anger {PAWN_possessive} faction {PAWN_factionName}. -->
   <MessageCapturingWillAngerFaction>警告：捕获{PAWN_nameDef}会激怒{PAWN_possessive}派系{PAWN_factionName}。 </MessageCapturingWillAngerFaction>
+
+  <!-- EN: Warning: Stripping {PAWN_nameDef} will anger {PAWN_factionName}. -->
+  <MessageStrippingWillAngerFaction>警告：剥光{PAWN_nameDef}会激怒{PAWN_factionName}。</MessageStrippingWillAngerFaction>
 
   <!-- EN: Cannot shoot in melee. -->
   <MessageCantShootInMelee>无法在近战距离射击</MessageCantShootInMelee>

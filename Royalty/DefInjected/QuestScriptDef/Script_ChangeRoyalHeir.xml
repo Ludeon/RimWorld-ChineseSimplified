@@ -14,32 +14,32 @@
     <li>questName->[titleHeir_nameDef]的传承</li>
   </ChangeRoyalHeir.questNameRules.rulesStrings>
   <!-- EN: Time left: {0} -->
-  <ChangeRoyalHeir.root.nodes.Delay.inspectString.slateRef>剩余时间：{0}</ChangeRoyalHeir.root.nodes.Delay.inspectString.slateRef>
+  <ChangeRoyalHeir.InspectStringTimeLeft.slateRef>剩余时间：{0}</ChangeRoyalHeir.InspectStringTimeLeft.slateRef>
   <!-- EN: [titleHolder_nameDef]'s heir change failed -->
-  <ChangeRoyalHeir.root.nodes.Delay.node.nodes.Letter.label.slateRef>[titleHolder_nameDef]的传承变更失败</ChangeRoyalHeir.root.nodes.Delay.node.nodes.Letter.label.slateRef>
+  <ChangeRoyalHeir.LetterTextAskerOffended.slateRef>[titleHolder_nameDef]的传承变更失败</ChangeRoyalHeir.LetterTextAskerOffended.slateRef>
   <!-- EN: [asker_nameDef] is offended that you promised to consecrate the new inheritance, but did not build the monument within the prescribed time.\n\nYou lost 25 goodwill with [asker_faction_name]. -->
-  <ChangeRoyalHeir.root.nodes.Delay.node.nodes.Letter.text.slateRef>[asker_nameDef]对于你没有在规定时间内建造纪念碑，从而导致神圣传承无法进行表示愤慨。\n\n你与[asker_faction_name]的关系降低25.</ChangeRoyalHeir.root.nodes.Delay.node.nodes.Letter.text.slateRef>
+  <ChangeRoyalHeir.LetterLabelAskerOffended.slateRef>[asker_nameDef]对于你没有在规定时间内建造纪念碑，从而导致神圣传承无法进行表示愤慨。\n\n你与[asker_faction_name]的关系降低25.</ChangeRoyalHeir.LetterLabelAskerOffended.slateRef>
   <!-- EN: Title holder died: {SUBJECT_definite} -->
-  <ChangeRoyalHeir.root.nodes.titleHolderDestroyed.node.nodes.Letter.label.slateRef>头衔持有者{SUBJECT_definite}已死亡。</ChangeRoyalHeir.root.nodes.titleHolderDestroyed.node.nodes.Letter.label.slateRef>
+  <ChangeRoyalHeir.LetterLabelTitleHolderDied.slateRef>头衔持有者{SUBJECT_definite}已死亡。</ChangeRoyalHeir.LetterLabelTitleHolderDied.slateRef>
   <!-- EN: {SUBJECT_definite}, whose heir was in the process of being changed, has died. -->
-  <ChangeRoyalHeir.root.nodes.titleHolderDestroyed.node.nodes.Letter.text.slateRef>因为传承者已经变更，{SUBJECT_definite}已经死亡。</ChangeRoyalHeir.root.nodes.titleHolderDestroyed.node.nodes.Letter.text.slateRef>
+  <ChangeRoyalHeir.LetterTextTitleHolderDied.slateRef>因为传承者已经变更，{SUBJECT_definite}已经死亡。</ChangeRoyalHeir.LetterTextTitleHolderDied.slateRef>
   <!-- EN: Designated heir died: {SUBJECT_definite} -->
-  <ChangeRoyalHeir.root.nodes.titleHeirDestroyed.node.nodes.Letter.label.slateRef>指定传承者{SUBJECT_definite}已死亡。</ChangeRoyalHeir.root.nodes.titleHeirDestroyed.node.nodes.Letter.label.slateRef>
+  <ChangeRoyalHeir.LetterLabelDesignatedHeirDied.slateRef>指定传承者{SUBJECT_definite}已死亡。</ChangeRoyalHeir.LetterLabelDesignatedHeirDied.slateRef>
   <!-- EN: {SUBJECT_definite}, who was supposed to become heir to a title, has died. -->
-  <ChangeRoyalHeir.root.nodes.titleHeirDestroyed.node.nodes.Letter.text.slateRef>本应成为头衔传承者的{SUBJECT_definite}已经死亡。</ChangeRoyalHeir.root.nodes.titleHeirDestroyed.node.nodes.Letter.text.slateRef>
+  <ChangeRoyalHeir.LetterTextDesignatedHeirDied.slateRef>本应成为头衔传承者的{SUBJECT_definite}已经死亡。</ChangeRoyalHeir.LetterTextDesignatedHeirDied.slateRef>
   <!-- EN: Monument destroyed -->
-  <ChangeRoyalHeir.root.nodes.monumentMarkerMonumentDestroyed.node.nodes.Letter.label.slateRef>纪念碑被摧毁</ChangeRoyalHeir.root.nodes.monumentMarkerMonumentDestroyed.node.nodes.Letter.label.slateRef>
+  <ChangeRoyalHeir.LetterLabelMonumentDestroyed.slateRef>纪念碑被摧毁</ChangeRoyalHeir.LetterLabelMonumentDestroyed.slateRef>
   <!-- EN: [asker_nameDef] is offended that you promised to consecrate the new inheritance, but allowed the monument to be ruined soon after completion.\n\nYour relations with [asker_faction_name] have fallen by [goodwillChangeIfMonumentDestroyed]. -->
-  <ChangeRoyalHeir.root.nodes.monumentMarkerMonumentDestroyed.node.nodes.Letter.text.slateRef>你在完成作为传承象征的纪念碑后太快使它被破坏的行为惹恼了[asker_nameDef]。\n\n你与[asker_faction_name]的关系下降了[goodwillChangeIfMonumentDestroyed]。</ChangeRoyalHeir.root.nodes.monumentMarkerMonumentDestroyed.node.nodes.Letter.text.slateRef>
+  <ChangeRoyalHeir.LetterTextMonumentDestroyed.slateRef>你在完成作为传承象征的纪念碑后太快使它被破坏的行为惹恼了[asker_nameDef]。\n\n你与[asker_faction_name]的关系下降了[goodwillChangeIfMonumentDestroyed]。</ChangeRoyalHeir.LetterTextMonumentDestroyed.slateRef>
   <!-- EN: New heir: [titleHeir_nameDef] -->
-  <ChangeRoyalHeir.root.nodes.monumentMarkerMonumentCompleted.node.nodes.Letter.label.slateRef>新的继承人：[titleHeir_nameDef]</ChangeRoyalHeir.root.nodes.monumentMarkerMonumentCompleted.node.nodes.Letter.label.slateRef>
+  <ChangeRoyalHeir.LetterLabelNewHeir.slateRef>新的继承人：[titleHeir_nameDef]</ChangeRoyalHeir.LetterLabelNewHeir.slateRef>
   <!-- EN: [titleHeir_nameDef] is the new heir of [titleHolder_nameDef]. -->
-  <ChangeRoyalHeir.root.nodes.monumentMarkerMonumentCompleted.node.nodes.Letter.text.slateRef>[titleHeir_nameDef]是[titleHolder_nameDef]新的继承人。</ChangeRoyalHeir.root.nodes.monumentMarkerMonumentCompleted.node.nodes.Letter.text.slateRef>
+  <ChangeRoyalHeir.LetterTextNewHeir.slateRef>[titleHeir_nameDef]是[titleHolder_nameDef]新的继承人。</ChangeRoyalHeir.LetterTextNewHeir.slateRef>
   <!-- EN: Do not destroy the monument for {0} -->
-  <ChangeRoyalHeir.root.nodes.monumentMarkerMonumentCompleted.node.nodes.Delay.expiryInfoPart.slateRef>不要破坏纪念碑 {0}</ChangeRoyalHeir.root.nodes.monumentMarkerMonumentCompleted.node.nodes.Delay.expiryInfoPart.slateRef>
+  <ChangeRoyalHeir.DontDestroyMonumentForDays.slateRef>不要破坏纪念碑 {0}</ChangeRoyalHeir.DontDestroyMonumentForDays.slateRef>
   <!-- EN: Do not destroy the monument for {0} -->
-  <ChangeRoyalHeir.root.nodes.monumentMarkerMonumentCompleted.node.nodes.Delay.expiryInfoPartTip.slateRef>不要破坏纪念碑 {0}</ChangeRoyalHeir.root.nodes.monumentMarkerMonumentCompleted.node.nodes.Delay.expiryInfoPartTip.slateRef>
+  <ChangeRoyalHeir.DontDestroyMonumentForDaysTip.slateRef>不要破坏纪念碑 {0}</ChangeRoyalHeir.DontDestroyMonumentForDaysTip.slateRef>
   <!-- EN: Keep monument {0} -->
-  <ChangeRoyalHeir.root.nodes.monumentMarkerMonumentCompleted.node.nodes.Delay.inspectString.slateRef>保护纪念碑 {0}</ChangeRoyalHeir.root.nodes.monumentMarkerMonumentCompleted.node.nodes.Delay.inspectString.slateRef>
+  <ChangeRoyalHeir.KeepMonument.slateRef>保护纪念碑 {0}</ChangeRoyalHeir.KeepMonument.slateRef>
   
 </LanguageData>

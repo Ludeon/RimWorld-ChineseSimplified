@@ -228,6 +228,8 @@
   <QuestExpiresIn>于{0}过期</QuestExpiresIn>
   <!-- EN: Expires on {0} -->
   <QuestExpiresOn>于{0}到期</QuestExpiresOn>
+  <!-- EN: Average guest mood: {0} -->
+  <QuestAveragePawnMood>访客平均心情：{0}</QuestAveragePawnMood>
   <!-- EN: Shuttle arrives in {0} -->
   <ShuttleArrivesIn>穿梭机于{0}抵达</ShuttleArrivesIn>
   <!-- EN: Shuttle arrives on {0} -->
@@ -242,6 +244,10 @@
   <AcceptQuest>接受任务</AcceptQuest>
   <!-- EN: Accept with {0_labelShort} -->
   <AcceptWith>{0_labelShort}承接</AcceptWith>
+  <!-- EN: Accept for -->
+  <AcceptQuestFor>接受</AcceptQuestFor>
+  <!-- EN: Click to accept this quest for this reward. -->
+  <AcceptQuestForTip>点击为此任务选择这项奖励。</AcceptQuestForTip>
   <!-- EN: The offer expired. -->
   <QuestOutcomeInfo_OfferExpired>请求已过期</QuestOutcomeInfo_OfferExpired>
   <!-- EN: You completed this quest. -->
@@ -278,7 +284,11 @@
   <RoyalFavorOn>当前选择接受{FACTION_royalFavorLabel}。 </RoyalFavorOn>
   <!-- EN: You are currently opting out of receiving {FACTION_royalFavorLabel}. -->
   <RoyalFavorOff>当前选择不接受{FACTION_royalFavorLabel}。</RoyalFavorOff>
-  
+  <!-- EN: Your goodwill with {0_name} will improve by {1}.\n\nCurrent goodwill: {4} ({5}).\n\nGoodwill measures the general relationship between factions. If it falls below {2}, the faction becomes hostile and will raid your settlements and caravans. If it rises above {3}, the faction will become your ally and send fighters to help you when they can. Otherwise, the faction remains neutral and will trade and talk with you freely. -->
+  <GoodwillTip>你与{0_name}的好感将会提升{1}。\n\n当前好感度：{4}（{5}）。\n\n好感度用来衡量派系间的态度。如果它落到{2}以下，这个派系会变成你的敌人，并且会袭击你的定居点和商队。如果它上升到{3}以上，此派系会成为你的盟友，并且尽可能地派遣战士帮助你。否则此派系会保持中立，能够与你自由交易和对话。</GoodwillTip>
+  <!-- EN: {0_labelShort} joins -->
+  <PawnQuestReward>{0_labelShort}加入</PawnQuestReward>
+
   <!-- UNUSED -->
   <DecreeGivenDaysAgo>{0}天前颁布的法令</DecreeGivenDaysAgo>
 
