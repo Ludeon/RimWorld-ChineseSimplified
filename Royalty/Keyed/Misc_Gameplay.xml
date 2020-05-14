@@ -28,10 +28,10 @@
   <PsycastNeurotrainerDescription>一次性使用的超剂量机械液可训练特定的心灵能力。\n\n该药剂是通过眼眶给药的。一旦进入到大脑中，这些机械分子就形成了一种特定的心灵能力的知识，并根据需要将其转化为神经组织。</PsycastNeurotrainerDescription>
   <!-- EN: {USER_labelShort} used neurotrainer to learn the {1} psycast. -->
   <AbilityNeurotrainerUsed>{USER_labelShort}使用神经训练器学会了{1}的心灵能力。</AbilityNeurotrainerUsed>
-  <!-- EN: {USER_labelShort} has reached psychic amplifer level {1} and has automatically learned this psycast: {2}. -->
-  <PsycastLearnedFromImplant>{USER_labelShort}已达到心灵增幅装置等级{1}，并已自动习得此心灵能力: {2}。</PsycastLearnedFromImplant>
-  <!-- EN: Requires psychic amplifier -->
-  <PsycastNeurotrainerNoPsychicAmplifier>需要心灵增幅装置</PsycastNeurotrainerNoPsychicAmplifier>
+  <!-- EN: {USER_labelShort} has reached level {1} psylink and has automatically learned this psycast: {2}. -->
+  <PsycastLearnedFromImplant>{USER_labelShort}已达到启灵神经等级{1}，并已自动习得此心灵能力: {2}。</PsycastLearnedFromImplant>
+  <!-- EN: Requires psylink -->
+  <PsycastNeurotrainerNoPsylink>需要启灵神经</PsycastNeurotrainerNoPsylink>
   <!-- EN: {USER_labelShort} already knows {1}. -->
   <PsycastNeurotrainerAbilityAlreadyLearned>{USER_labelShort}已经知晓{1}</PsycastNeurotrainerAbilityAlreadyLearned>
 
@@ -85,6 +85,7 @@
   <!-- EN: {ORGANIZER_labelShort}'s {1} stat -->
   <AbilitySpeechStatInfo>{ORGANIZER_labelShort}的{1}状态</AbilitySpeechStatInfo>
   <!-- UNUSED -->
+  <PsycastNeurotrainerNoPsychicAmplifier>需要心灵增幅装置</PsycastNeurotrainerNoPsychicAmplifier>
   <ThroneRoomHasMoreThan1Throne>谒见厅中有多个宝座，但这只适用于已婚夫妇。</ThroneRoomHasMoreThan1Throne>
   <AbilitySpeechDisabledNoUsableThrone>没有可用的谒见厅</AbilitySpeechDisabledNoUsableThrone>
 

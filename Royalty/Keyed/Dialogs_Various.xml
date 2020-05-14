@@ -14,10 +14,6 @@
   <RoyalTitleTooltipThroneroomRequirements>谒见厅要求</RoyalTitleTooltipThroneroomRequirements>
   <!-- EN: Title privileges -->
   <RoyalTitleTooltipPermits>头衔特权</RoyalTitleTooltipPermits>
-  <!-- EN: Max allowed psycast level -->
-  <RoyalTitleTooltipMaxPsycastLevel>允许的最大心灵等级</RoyalTitleTooltipMaxPsycastLevel>
-  <!-- EN: The highest level of psycast that this title allows.\n\n{FACTION_name}'s laws prohibit using psycasts without a suitable title. Each time you perform an illegal psycast, there's a chance the psychic signature will be detected, leading to diplomatic consequences.\n\nPsychic signatures can be concealed with a psychic silencer implant. -->
-  <RoyalTitleTooltipMaxPsycastLevelDescription>该头衔可以使用最高级别的心灵能力\n\n{FACTION_name}的法律禁止在没有符合的头衔的情况下使用心灵能力。每次施放不合法的心灵能力时，都有可能会检测到心灵信号，从而导致严重外交后果。\n\n心灵信号可以被心灵静默植入物掩盖。</RoyalTitleTooltipMaxPsycastLevelDescription>
   <!-- EN: room area: {0} tiles -->
   <RoomRequirementArea>房间面积: {0} 格</RoomRequirementArea>
   <!-- EN: room impressiveness -->
@@ -46,18 +42,14 @@
   <RoyalTitleRequiredMealsDesc>持有该头衔的人只会吃这些食物，除非他们挨饿或正在远行商队里。</RoyalTitleRequiredMealsDesc>
 
   <!-- Royal implants -->
-  <!-- EN: According to laws of {FACTION_name}, one must have the title of {TITLE} to legally use a {IMPLANT}.\n\n{VIOLATIONTRIGGER}, there is a chance {FACTION_name} will detect its psychic signature. This will lead to diplomatic consequences.\n\nA psychic silencer implant would allow use of the {IMPLANT} without detection. -->
-  <RoyalImplantIllegalUseWarning>根据{FACTION_name}的法律，必须拥有{TITLE}头衔才能合法使用{IMPLANT}。\n\n{VIOLATIONTRIGGER},{FACTION_name}很有可能会检测到其心灵信号。这将导致严重的外交矛盾。\n\n心灵静默植入物可以掩盖而可以继续使用{IMPLANT}而不会被发现。</RoyalImplantIllegalUseWarning>
+  <!-- EN: According to laws of {FACTION_name}, one must have the title of {TITLE} to legally use a {IMPLANT}.\n\n{VIOLATIONTRIGGER}, there is a chance {FACTION_name} will detect its psychic signature. This will lead to diplomatic consequences. -->
+  <RoyalImplantIllegalUseWarning>根据{FACTION_name}的法律，必须拥有{TITLE}头衔才能合法使用{IMPLANT}。\n\n{VIOLATIONTRIGGER},{FACTION_name}很有可能会检测到其心灵信号。这将导致严重的外交矛盾。</RoyalImplantIllegalUseWarning>
   <!-- EN: Install this implant anyway? -->
   <RoyalImplantInstallConfirmation>要安装这个植入物吗?</RoyalImplantInstallConfirmation>
   <!-- EN: Upgrade this implant anyway? -->
   <RoyalImplantUpgradeConfirmation>要升级这个植入物吗?</RoyalImplantUpgradeConfirmation>
-  <!-- EN: Each time {PAWN_labelShort} performs a psycast above the allowed level -->
-  <PsychicAmplifierViolationTrigger>每次{PAWN_labelShort}施放超出其允许级别的心灵能力时</PsychicAmplifierViolationTrigger>
 
   <!-- Royal weapons -->
-  <!-- EN: According to laws of {FACTION_name}, one must have the title of {TITLE} to legally use {WEAPON_indefinite}.\n\nEach time {PAWN_labelShort} attacks with a bladelink weapon, there is a chance {FACTION_name} will detect its psychic signature. This will lead to diplomatic consequences.\n\nA psychic silencer implant would allow use of {WEAPON_definite} without detection. -->
-  <RoyalWeaponIllegalUseWarning>根据{FACTION_name}的法律，必须拥有{TITLE}头衔才能合法使用{WEAPON_indefinite}。\n\n每当{PAWN_labelShort}使用绑定武器攻击时，{FACTION_name} 都有能检测出心灵信号。这将导致严重的外交矛盾。\n\n心灵静默植入物可以在使用{WEAPON_definite}时不会被检测。</RoyalWeaponIllegalUseWarning>
   <!-- EN: Once bonded to a wielder, the weapon's persona will refuse to be wielded by anyone else. -->
   <BladelinkEquipWarning>一旦被绑定到一名使用者身上，该武器的将无法给其他人使用。</BladelinkEquipWarning>
   <!-- EN: Are you sure you want to equip this item? -->
@@ -66,12 +58,15 @@
   <!-- Psycasts -->
   <!-- EN: Target is psychically deaf. -->
   <AbilityTargetPsychicallyDeaf>目标对象为心灵失聪者。</AbilityTargetPsychicallyDeaf>
-  <!-- EN: Amplifier level -->
-  <PsycastRequiredAmplifierLevel>增幅器等级</PsycastRequiredAmplifierLevel>
   <!-- EN: This is illegal for {PAWN_labelShort}. Requires {TITLE} title. -->
   <PsycastIsIllegal>对于{PAWN_labelShort}，这是非法的。需要{TITLE}头衔。</PsycastIsIllegal>
 
   <!-- UNUSED -->
+  <RoyalTitleTooltipMaxPsycastLevel>允许的最大心灵等级</RoyalTitleTooltipMaxPsycastLevel>
+  <RoyalTitleTooltipMaxPsycastLevelDescription>该头衔可以使用最高级别的心灵能力\n\n{FACTION_name}的法律禁止在没有符合的头衔的情况下使用心灵能力。每次施放不合法的心灵能力时，都有可能会检测到心灵信号，从而导致严重外交后果。\n\n心灵信号可以被心灵静默植入物掩盖。</RoyalTitleTooltipMaxPsycastLevelDescription>
+  <PsychicAmplifierViolationTrigger>每次{PAWN_labelShort}施放超出其允许级别的心灵能力时</PsychicAmplifierViolationTrigger>
+  <RoyalWeaponIllegalUseWarning>根据{FACTION_name}的法律，必须拥有{TITLE}头衔才能合法使用{WEAPON_indefinite}。\n\n每当{PAWN_labelShort}使用绑定武器攻击时，{FACTION_name} 都有能检测出心灵信号。这将导致严重的外交矛盾。\n\n心灵静默植入物可以在使用{WEAPON_definite}时不会被检测。</RoyalWeaponIllegalUseWarning>
+  <PsycastRequiredAmplifierLevel>增幅器等级</PsycastRequiredAmplifierLevel>
   <ApparelRequirementAnyPowerArmor>任意动力装甲</ApparelRequirementAnyPowerArmor>
 
 </LanguageData>
