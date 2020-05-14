@@ -362,6 +362,10 @@
   <CreatureWildness>{0} 野性</CreatureWildness>
   <!-- EN: {0} trainability -->
   <CreatureTrainability>{0} 可训练度</CreatureTrainability>
+  <!-- EN: Follow master while drafted -->
+  <CreatureFollowDrafted>当主人被征召时跟随</CreatureFollowDrafted>
+  <!-- EN: Follow master while doing field work -->
+  <CreatureFollowFieldwork>当主人正在进行野外工作时跟随</CreatureFollowFieldwork>
   <!-- EN: {0} with {1} -->
   <ProximitySingleGoodwillChange>{0}与{1}</ProximitySingleGoodwillChange>
   <!-- EN: You can't re-enter for another {0} days. -->
@@ -454,10 +458,16 @@
   <PsychicEntropyPainFocus>{0}疼痛集中</PsychicEntropyPainFocus>
   <!-- EN: radius {0} -->
   <ConditionCauserRadius>半径{0}</ConditionCauserRadius>
+  <!-- EN: low psyfocus -->
+  <LowPsyfocus>低精神力</LowPsyfocus>
   <!-- EN: {0} left -->
   <DurationLeft>{0}剩余</DurationLeft>
   <!-- EN: Any of -->
   <AnyOf>任意</AnyOf>
+  <!-- EN: Goodwill -->
+  <Goodwill>好感度</Goodwill>
+  <!-- EN: reducing resistance of {0_nameIndef} -->
+  <JobReport_ReduceResistance>减少{0_nameIndef}的抵抗</JobReport_ReduceResistance>
 
   <!-- Scanning -->
   <!-- EN: User scanning speed -->
@@ -466,6 +476,12 @@
   <ScanAverageInterval>发现间隔</ScanAverageInterval>
   <!-- EN: Progress to guaranteed find -->
   <ScanningProgressToGuaranteedFind>扫描进度</ScanningProgressToGuaranteedFind>
+  
+  <!-- Meditation focus -->
+  <!-- EN: Meditation focus strength for {LASTUSER_labelShort} -->
+  <UserMeditationFocusStrength>冥想专注力（{LASTUSER_labelShort}）</UserMeditationFocusStrength>
+  <!-- EN: Focus effect impacted by -->
+  <MeditationFocusImpacted>专注力效果受影响</MeditationFocusImpacted>
 
   <!-- Fermentation barrel -->
   <!-- EN: Contains {0} / {1} wort. -->
@@ -927,7 +943,9 @@
   <!-- EN: Source unknown. -->
   <SourceUnknown>来源未知</SourceUnknown>
   <!-- EN: Click to jump to the source. -->
-  <ClickToJumpToSource>点击以跳转至来源</ClickToJumpToSource>
+  <ClickToJumpToSource>点击以跳转至来源。</ClickToJumpToSource>
+  <!-- EN: Click to jump to the flashstorm. -->
+  <ClickToJumpToFlashstorm>点击以跳转至闪电风暴。</ClickToJumpToFlashstorm>
   <!-- EN: Caused by quest: {0} -->
   <CausedByQuest>由任务引起：{0}</CausedByQuest>
 
@@ -1216,8 +1234,12 @@
   <PawnTooltipWithPrimaryEquipNoDesc>{0}\n{1}\n{2}</PawnTooltipWithPrimaryEquipNoDesc>
   <!-- EN: {0}\n{1} -->
   <PawnTooltipNoDescNoPrimaryEquip>{0}\n{1}</PawnTooltipNoDescNoPrimaryEquip>
-  <!-- EN: Psychic entropy: {0}/{1}\nFall rate: {2}/{3}s({4}s until zero)\n\nPsychic entropy increases after performing a psycast.\nGoing over the safe limit can lead to long-term health consequences.\nWhenever entropy reaches zero, it leaves a psychic hangover behind. -->
-  <PawnTooltipPsychicEntropy>心灵熵：{0}/{1}\n下降速率：{2}/{3}秒（{4}秒归零）\n\n使用心灵能力后心灵熵增加。\n超出安全限制会导致后遗症。\n每当熵归零都会产生精神宿醉。</PawnTooltipPsychicEntropy>
+  <!-- EN: Psychic entropy: {0} / {1}\nFall rate: {2} / {3}s ({4}s until zero)\n\nPsyfocus: {5} -->
+  <PawnTooltipPsychicEntropyStats>心灵熵阈值：{0} / {1}\n降低速率：{2} / {3}秒 （{4}秒归零）\n\n精神力：{5}</PawnTooltipPsychicEntropyStats>
+  <!-- EN: Max entropy multiplier: {0} -->
+  <PawnTooltipPsychicEntropyStatPsyfocusEntropyLimit>最大阈值乘数</PawnTooltipPsychicEntropyStatPsyfocusEntropyLimit>
+  <!-- EN: Psychic entropy increases after performing a psycast. Going over the safe limit can lead to long-term health consequences. Whenever entropy reaches zero, it leaves a psychic hangover behind.\n\nPsyfocus is separate from psychic entropy. Having psyfocus below 30% will limit maximum safe entropy. Psyfocus can be gained through meditation. -->
+  <PawnTooltipPsychicEntropyDesc>心灵熵在释放心灵能力之后会增加。超过安全限制之后会引起后遗症。每当熵归零都会产生精神宿醉。\n\n精神力与心灵熵是分开的，低于30%的精神力会限制心灵熵阈值。精神力可以通过冥想来提升。</PawnTooltipPsychicEntropyDesc>
   <!-- EN: Pain focuses the mind, and causes faster recovery from psychic entropy.\n\nPain level: {0}\nBonus to psychic entropy recovery: {1} -->
   <PawnTooltipPsychicEntropyPainFocus>痛苦使思想集中；同时能够更快恢复心灵熵。\n\n疼痛等级：{0}\n心灵熵恢复倍率：{1}</PawnTooltipPsychicEntropyPainFocus>
   <!-- EN: Toggle psychic entropy limiter.\n\nGoing over your psychic entropy limit can cause serious health consequences, including long-term psychic breakdown, and even brain damage for significant overages. The higher over-limit the entropy is, the more dangerous the effects. -->
@@ -1242,6 +1264,12 @@
   <Reward_Items_Caravan>你将收到（总价值 {1}）：\n\n{0}</Reward_Items_Caravan>
   <!-- EN: your faction relations with {0_name} will improve by {1} -->
   <Reward_Goodwill>你与{0_name}的派系关系将提高{1}</Reward_Goodwill>
+  <!-- EN: you will be taken to the stars -->
+  <Reward_PassageOffworld>你将被带到星星上</Reward_PassageOffworld>
+  <!-- EN: Passage offworld -->
+  <Reward_PassageOffworld_Label>前往其他世界</Reward_PassageOffworld_Label>
+  <!-- EN: value {0} -->
+  <TotalValue>总价值 {0}</TotalValue>
   
   <!-- Bladelink -->
   <!-- EN: Bonded to: {0} -->
@@ -1250,6 +1278,8 @@
   <NotBonded>尚未绑定</NotBonded>
   <!-- EN: bonded to someone else -->
   <BladelinkBondedToSomeoneElse>绑定到其他人</BladelinkBondedToSomeoneElse>
+  <!-- EN: P-{LABEL} -->
+  <PersonaWeaponLabel>ρ-{LABEL}</PersonaWeaponLabel>
 
   <!-- Biocoded weapons -->
   <!-- EN: biocoded {0} -->
@@ -1272,8 +1302,13 @@
   <!-- Condition causers -->
   <!-- EN: Affected gender -->
   <AffectedGender>受影响的性别</AffectedGender>
+
+  <!-- Hediff misc -->
+  <!-- EN: Caused by: {0} -->
+  <CausedByHediff>由于：{0}</CausedByHediff>
   
   <!-- UNUSED -->
+  <PawnTooltipPsychicEntropy>心灵熵：{0}/{1}\n下降速率：{2}/{3}秒（{4}秒归零）\n\n使用心灵能力后心灵熵增加。\n超出安全限制会导致后遗症。\n每当熵归零都会产生精神宿醉。</PawnTooltipPsychicEntropy>
   <Complete>完成</Complete>
 
 </LanguageData>

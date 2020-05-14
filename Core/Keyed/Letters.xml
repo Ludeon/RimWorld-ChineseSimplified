@@ -146,6 +146,9 @@
   <!-- EN: The last events in {PAWN_definite}'s life -->
   <LastEventsInLife>{PAWN_definite}的人生中最近的事件</LastEventsInLife>
 
+  <!-- EN: Thanks to high mood, [PAWN_nameIndef] has experienced an inspiration! -->
+  <LetterInspirationBeginThanksToHighMoodPart>多亏了良好的心情，[PAWN_nameIndef]获得了一个灵感！</LetterInspirationBeginThanksToHighMoodPart>
+
   <!-- Related pawns -->
   <!-- EN: Relationship -->
   <LetterLabelNoticedRelatedPawns>家族成员</LetterLabelNoticedRelatedPawns>
@@ -495,9 +498,23 @@
   <LetterQuestCompletedFail>你未完成任务'{0}'。</LetterQuestCompletedFail>
   <!-- EN: You have concluded the quest '{0}'. -->
   <LetterQuestCompletedConcluded>你已完成任务'{0}'。</LetterQuestCompletedConcluded>
-  
+
+  <!-- Average pawn mood -->
+  <!-- EN: {asker_nameDef} said {asker_pronoun} was willing to reward quality accomodation. {pawnLabel} average mood was {averageMood} during {possessive} stay, so your goodwill with {faction_name} has increased by {goodwill}. -->
+  <LetterAveragePawnMoodSuccess>{asker_nameDef}说{asker_pronoun}愿意为高质量的住宿环境提供奖励。{pawnLabel}在{possessive}逗留期间的平均心情为{averageMood}，所以你与{faction_name}的好感度提升了{goodwill}。</LetterAveragePawnMoodSuccess>
+  <!-- EN: While {asker_nameDef} was willing to reward quality accomodation, {pawnLabel} average mood was only {averageMood} during {possessive} stay. You will receive no faction goodwill reward. -->
+  <LetterAveragePawnMoodFail>尽管{asker_nameDef}愿意为高质量的住宿环境提供奖励，{pawnLabel}在{possessive}逗留期间的平均心情只有{averageMood}。你将不会获得派系关系奖励。</LetterAveragePawnMoodFail>
+  <!-- EN: the guests -->
+  <LetterAveragePawnMoodPawnPluralLabel>访客们</LetterAveragePawnMoodPawnPluralLabel>
+  <!-- EN: {asker_nameDef}'s -->
+  <LetterAveragePawnMoodPawnLabel>{asker_nameDef}的</LetterAveragePawnMoodPawnLabel>
+  <!-- EN: their -->
+  <LetterAveragePawnMoodPossessivePlural>他们的</LetterAveragePawnMoodPossessivePlural>
+  <!-- EN: {asker_possessive} -->
+  <LetterAveragePawnMoodPossessive>{asker_possessive}</LetterAveragePawnMoodPossessive>
+
   <!-- Bladelink -->
-  <!-- EN: Bladelink bond: {PAWN_labelShort} -->
+  <!-- EN: Persona bond: {PAWN_labelShort} -->
   <LetterBladelinkWeaponBondedLabel>武器绑定: {PAWN_labelShort}</LetterBladelinkWeaponBondedLabel>
   <!-- EN: {PAWN_labelShort} has established a bond with the persona of {WEAPON_labelShort}.
 \nFrom now on, {WEAPON_labelShort} will refuse to be wielded by anyone except {PAWN_labelShort}. -->
@@ -508,5 +525,11 @@
   <LetterLabelMechClusterArrived>机械族出现</LetterLabelMechClusterArrived>
   <!-- EN: Mechanoids have arrived. -->
   <LetterMechClusterArrived>机械族集群出现了。</LetterMechClusterArrived>
+
+  <!-- UNUSED -->
+  <LetterQuestCompletedWithAvgPawnMoodGoodwillSuccess>你已经成功完成了任务'{0}'！\n\n{asker_nameDef}说{asker_pronoun}愿意为高质量的住宿条件提供奖励。{asker_nameDef}在逗留期间的平均心情在{averageMood}，所以你和{faction_name}的关系提高了{goodwill}。</LetterQuestCompletedWithAvgPawnMoodGoodwillSuccess>
+  <LetterQuestCompletedWithAvgPawnMoodGoodwillPluralSuccess>你已经成功完成了任务'{0}'！\n\n{asker_nameDef}说{asker_pronoun}愿意为高质量的住宿条件提供奖励。访客们在逗留期间的平均心情在{averageMood}，所以你和{faction_name}的关系提高了{goodwill}。</LetterQuestCompletedWithAvgPawnMoodGoodwillPluralSuccess>
+  <LetterQuestCompletedWithoutAvgPawnMoodGoodwillSuccess>你已经成功完成了任务'{0}'！\n\n{asker_nameDef}愿意为高质量的住宿条件提供奖励，但是{asker_possessive}在逗留期间的平均心情只有{averageMood}。你不会获得任何好感度奖励。</LetterQuestCompletedWithoutAvgPawnMoodGoodwillSuccess>
+  <LetterQuestCompletedWithoutAvgPawnMoodGoodwillPluralSuccess>你已经成功完成了任务'{0}'！\n\n{asker_nameDef}愿意为高质量的住宿条件提供奖励，但是访客们在逗留期间的平均心情只有{averageMood}。你不会获得任何好感度奖励。</LetterQuestCompletedWithoutAvgPawnMoodGoodwillPluralSuccess>
 
 </LanguageData>

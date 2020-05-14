@@ -49,8 +49,6 @@
   <LetterRoyalTitleImplantsMustBeRemoved>{PAWN_pronoun}不再被允许使用以下植入物:{1}</LetterRoyalTitleImplantsMustBeRemoved>
   <!-- EN: The implants must be extracted within a five-day grace period to avoid diplomatic consequences. -->
   <LetterRoyalTitleImplantGracePeriod>必须在五天的限期内提取植入物，以避免产生外交后果。</LetterRoyalTitleImplantGracePeriod>
-  <!-- EN: {PAWN_pronoun} now has a need for authority. Satisfying this means sitting on a throne and reigning. While thronerooms can be shared, each noble needs their own personally-assigned throne. -->
-  <LetterRoyalTitleAuthorityNeed>{PAWN_pronoun}对威严有了需求。满足此要求意味着需要修建一个适当的宝座供{PAWN_pronoun}进行统治。就算谒见厅可以共享，每个贵族仍然需要属于他们自己的宝座。</LetterRoyalTitleAuthorityNeed>
   <!-- EN: {PAWN_pronoun} can now give speeches from the throne. If it goes well, listeners will feel inspired. If it goes poorly, the speech will do social damage. The outcome depends on {PAWN_labelShort}'s social abilities. -->
   <LetterRoyalTitleSpeechAbilityGained>{PAWN_pronoun}现在可以发表演说了。如果一切顺利，听众会获得鼓舞，并且从听众获得尊重。如果进展不顺利，演讲会造成社交伤害。结果取决于{PAWN_labelShort}的社交能力。</LetterRoyalTitleSpeechAbilityGained>
   <!-- EN: This title requires a throneroom that meets these requirements:{1} -->
@@ -137,6 +135,7 @@
   <LentColonistDied>{PAWN_nameDef}曾被借调至{FACTION}。他们将在最近交还{PAWN_nameDef}的遗体。</LentColonistDied>  
 
   <!-- UNUSED -->
+  <LetterRoyalTitleAuthorityNeed>{PAWN_pronoun}对威严有了需求。满足此要求意味着需要修建一个适当的宝座供{PAWN_pronoun}进行统治。就算谒见厅可以共享，每个贵族仍然需要属于他们自己的宝座。</LetterRoyalTitleAuthorityNeed>
   <LetterRoyalTitleStillEnabledJoyKind>{PAWN_pronoun}需要此娱乐活动：</LetterRoyalTitleStillEnabledJoyKind>
   <LetterRoyalTitleStillDisabledJoyKind>{PAWN_pronoun}拒绝此娱乐活动：</LetterRoyalTitleStillDisabledJoyKind>
   <LetterRewardsForNewTitleDeliveryCaravan>奖励已经装载至一个远征队，你可以在{PAWN_labelShort}的库存中找到它们。text_todo</LetterRewardsForNewTitleDeliveryCaravan>

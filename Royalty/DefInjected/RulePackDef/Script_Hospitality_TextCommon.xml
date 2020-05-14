@@ -2,31 +2,37 @@
 <LanguageData>
   
   <!-- EN:
-    <li>allLodgerInfo->[healthInfo] [specialSkillsInfo] [minMoodInfo]</li>
+    <li>allLodgerInfo->[healthInfo] [minMoodInfo] [workInfo]</li>
     <li>lodgersLabelSingOrPlural(lodgersCount==1)->[lodgers0_nameDef]</li>
     <li>lodgersLabelSingOrPlural(lodgersCount>=2)->[lodgersLabelPlural]</li>
     <li>lodgersLabelSingOrPluralDef(lodgersCount==1)->[lodgers0_nameDef]</li>
     <li>lodgersLabelSingOrPluralDef(lodgersCount>=2)->the [lodgersLabelPlural]</li>
-    <li>healthInfo(lodgersAreDowned==true,lodgersCount==1,priority=1)->[lodgers0_nameDef] is injured and may not be able to walk.</li>
-    <li>healthInfo(lodgersAreDowned==true,lodgersCount>=2,priority=1)->the [lodgersLabelPlural] are injured and may not be able to walk.</li>
-    <li>healthInfo(lodgersAreSick==true,lodgersCount==1,priority=1)->[lodgers0_nameDef] is sick with [lodgersDisease_label].</li>
-    <li>healthInfo(lodgersAreSick==true,lodgersCount>=2,priority=1)->the [lodgersLabelPlural] are sick with [lodgersDisease_label].</li>
+    <li>lodgersLabelSingleOrWithAllies(lodgersCount==1)->[lodgers0_nameDef]</li>
+    <li>lodgersLabelSingleOrWithAllies(lodgersCount>=2)->[lodgers0_nameDef] and [lodgers0_possessive] [allyAllies]</li>
     <li>healthInfo-></li>
-    <li>specialSkillsInfo(lodgersSpecialRequest==ExpertFighter,lodgersCount==1,priority=1)->[lodgers0_nameDef] is an expert fighter.</li>
-    <li>specialSkillsInfo(lodgersSpecialRequest==ExpertFighter,lodgersCount>=2,priority=1)->the [lodgersLabelPlural] are expert fighters.</li>
-    <li>specialSkillsInfo-></li>
-    <li>minMoodInfo(priority=1)->You must keep [asker_nameDef]'s mood above [lodgersMoodThreshold_percent].</li>
+    <li>healthInfo(lodgersAreComatose==true,lodgersCount==1,priority=1)->[lodgersLabelSingleOrWithAllies] is in a coma and must be kept in bed. text_todo</li>
+    <li>healthInfo(lodgersAreComatose==true,lodgersCount>=2,priority=1)->[lodgersLabelSingleOrWithAllies] are comatose and need to be kept in bed. text_todo</li>
+    <li>healthInfo(lodgersHaveBloodRot==true,lodgersCount==1,priority=1)->[lodgersLabelSingleOrWithAllies] is sick with blood rot. text_todo</li>
+    <li>healthInfo(lodgersHaveBloodRot==true,lodgersCount>=2,priority=1)->[lodgersLabelSingleOrWithAllies] are sick with blood rot. text_todo</li>
+    <li>healthInfo(lodgersAreComatose==true,lodgersHaveBloodRot==true,lodgersCount==1,priority=1)->[lodgersLabelSingleOrWithAllies] is in a coma and must be kept in bed. [asker_possessive] is also sick with blood rot. text_todo</li>
+    <li>healthInfo(lodgersAreComatose==true,lodgersHaveBloodRot==true,lodgersCount>=2,priority=1)->[lodgersLabelSingleOrWithAllies] are comatose and need to be kept in bed, they are also sick with blood rot. text_todo</li>
     <li>minMoodInfo-></li>
+    <li>minMoodInfo(lodgersCountWithMoodThreshold==1,priority=1)->you must keep [lodgersWithMoodThreshold0_nameDef]'s mood above [lodgersMoodThreshold_percent].</li>
+    <li>minMoodInfo(lodgersCountWithMoodThreshold>1,priority=1)->you must keep [lodgersLabelPlural] mood above [lodgersMoodThreshold_percent].</li>
+    <li>workInfo-></li>
+    <li>workInfo(lodgersWillNotWork==true,priority=1)->[lodgersLabelSingleOrWithAllies] will not do any work. text_todo</li>
     <li>commonDescEnding->[helpersParagraph][shuttleWillComeParagraph]</li>
     <li>enemyGroupsParagraph->[threatDescriptionParagraph]</li>
-    <li>threatDescriptionParagraph(threatType==Raids,threatCount==1)->there will be [threatCount] raid of roughly this size:\n\n[threatExample]</li>
-    <li>threatDescriptionParagraph(threatType==Raids,threatCount>1)->there will be [threatCount] raids of roughly this size:\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize==1)->there will be a raid of roughly this size:\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize>1)->there will be a raid of strength [threatSize]x and roughly this size:\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount>1,threatSize==1)->there will be [threatCount] raids of roughly this size:\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount>1,threatSize>1)->there will be [threatCount] raids of strength [threatSize]x and roughly this size:\n\n[threatExample]</li>
     <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize==1)->a mech cluster will deploy nearby.</li>
     <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize==1)->two mech clusters will deploy nearby.</li>
     <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize>1)->a mech cluster of [threatSize]x size will deploy nearby.</li>
     <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize>1)->two mech clusters of [threatSize]x size will deploy nearby.</li>
-    <li>shuttleWillComeParagraph(lodgersCount==1)->After [shuttleDelayTicks_duration], a shuttle will arrive to collect [lodgers0_nameDef]. If you get [lodgers0_objective] onto the shuttle alive, [allRewardsDescriptions]</li>
-    <li>shuttleWillComeParagraph(lodgersCount>=2)->After [shuttleDelayTicks_duration], a shuttle will arrive to collect the [lodgersLabelPlural]. If you get them onto the shuttle alive, [allRewardsDescriptions]</li>
+    <li>shuttleWillComeParagraph(lodgersCount==1)->After [shuttleDelayTicks_duration], a shuttle will arrive to collect [lodgers0_nameDef].</li>
+    <li>shuttleWillComeParagraph(lodgersCount>=2)->After [shuttleDelayTicks_duration], a shuttle will arrive to collect the [lodgersLabelPlural].</li>
     <li>threatsInfoMechClustersSingleHuman->[lodgers0_nameDef] recently [mechViolation], and has been targeted by an orbiting mechanoid swarm.</li>
     <li>threatsInfoMechClustersMultiPrisoners->The prisoners recently [mechViolation], and have been targeted by an orbiting mechanoid swarm.</li>
     <li>threatsInfoMechRaidsSingleHuman->[lodgers0_nameDef] recently [mechViolation], and has been targeted by a mechanoid hive.</li>
@@ -39,37 +45,45 @@
     <li>letterSubject->{SUBJECT_definite}</li>
     <li>lodgersHasHave(lodgersCount==1)->has</li>
     <li>lodgersHasHave(lodgersCount>=2)->have</li>
+    <li>lodgersObjective(lodgersCount==1)->[lodgers0_objective]</li>
+    <li>lodgersObjective(lodgersCount>=2)->them</li>
     <li>remainingWillNowLeave(lodgersCount==1)-></li>
     <li>remainingWillNowLeave(lodgersCount>=2)->Any remaining [lodgersLabelPlural] will now leave. </li>
     <li>failLetterEndingCommon(askerIsNull==true,priority=1)->You have failed the quest '[resolvedQuestName]'.</li>
     <li>failLetterEndingCommon->You have failed the quest '[resolvedQuestName]'.\n\nYour relations with [asker_faction_name] have decreased by [goodwillPenalty].</li>
   -->
   <QuestHospitalityCommon.rulePack.rulesStrings>
-    <li>allLodgerInfo->[healthInfo] [specialSkillsInfo] [minMoodInfo]</li>
+    <li>allLodgerInfo->[healthInfo] [minMoodInfo] [workInfo]</li>
     <li>lodgersLabelSingOrPlural(lodgersCount==1)->[lodgers0_nameDef]</li>
     <li>lodgersLabelSingOrPlural(lodgersCount>=2)->[lodgersLabelPlural]</li>
     <li>lodgersLabelSingOrPluralDef(lodgersCount==1)->[lodgers0_nameDef]</li>
     <li>lodgersLabelSingOrPluralDef(lodgersCount>=2)->[lodgersLabelPlural]</li>
-    <li>healthInfo(lodgersAreDowned==true,lodgersCount==1,priority=1)->[lodgers0_nameDef]受伤了，可能无法行动。</li>
-    <li>healthInfo(lodgersAreDowned==true,lodgersCount>=2,priority=1)->[lodgersLabelPlural]受伤了，可能无法行动。</li>
-    <li>healthInfo(lodgersAreSick==true,lodgersCount==1,priority=1)->[lodgers0_nameDef]患有[lodgersDisease_label]。</li>
-    <li>healthInfo(lodgersAreSick==true,lodgersCount>=2,priority=1)->[lodgersLabelPlural]患有[lodgersDisease_label]。</li>
+    <li>lodgersLabelSingleOrWithAllies(lodgersCount==1)->[lodgers0_nameDef]</li>
+    <li>lodgersLabelSingleOrWithAllies(lodgersCount>=2)->[lodgers0_nameDef] 与 [lodgers0_possessive] [allyAllies]</li>
     <li>healthInfo-></li>
-    <li>specialSkillsInfo(lodgersSpecialRequest==ExpertFighter,lodgersCount==1,priority=1)->[lodgers0_nameDef]是一位战斗专家。</li>
-    <li>specialSkillsInfo(lodgersSpecialRequest==ExpertFighter,lodgersCount>=2,priority=1)->[lodgersLabelPlural]都是战斗专家。</li>
-    <li>specialSkillsInfo-></li>
-    <li>minMoodInfo(priority=1)->你必须将[asker_nameDef]的心情保持在[lodgersMoodThreshold_percent]以上。</li>
+    <li>healthInfo(lodgersAreComatose==true,lodgersCount==1,priority=1)->[lodgersLabelSingleOrWithAllies] 因为昏迷必须卧床。</li>
+    <li>healthInfo(lodgersAreComatose==true,lodgersCount>=2,priority=1)->[lodgersLabelSingleOrWithAllies] 因为昏迷必须卧床。</li>
+    <li>healthInfo(lodgersHaveBloodRot==true,lodgersCount==1,priority=1)->[lodgersLabelSingleOrWithAllies] 因坏血病而虚弱不堪。</li>
+    <li>healthInfo(lodgersHaveBloodRot==true,lodgersCount>=2,priority=1)->[lodgersLabelSingleOrWithAllies] 因坏血病而虚弱不堪。</li>
+    <li>healthInfo(lodgersAreComatose==true,lodgersHaveBloodRot==true,lodgersCount==1,priority=1)->[lodgersLabelSingleOrWithAllies] 因为昏迷必须卧床。 [asker_possessive]同时也因为坏血病而虚弱不堪。</li>
+    <li>healthInfo(lodgersAreComatose==true,lodgersHaveBloodRot==true,lodgersCount>=2,priority=1)->[lodgersLabelSingleOrWithAllies] 因为昏迷必须卧床。 他们同时也因为坏血病而虚弱不堪。</li>
     <li>minMoodInfo-></li>
+    <li>minMoodInfo(lodgersCountWithMoodThreshold==1,priority=1)->你必须保持 [lodgersWithMoodThreshold0_nameDef] 的心情在 [lodgersMoodThreshold_percent] 以上。</li>
+    <li>minMoodInfo(lodgersCountWithMoodThreshold>1,priority=1)->你必须保持 [lodgersLabelPlural] 心情在 [lodgersMoodThreshold_percent]以上。</li>
+    <li>workInfo-></li>
+    <li>workInfo(lodgersWillNotWork==true,priority=1)->[lodgersLabelSingleOrWithAllies] 不会做任何工作。</li>
     <li>commonDescEnding->[helpersParagraph][shuttleWillComeParagraph]</li>
     <li>enemyGroupsParagraph->[threatDescriptionParagraph]</li>
-    <li>threatDescriptionParagraph(threatType==Raids,threatCount==1)->将会有[threatCount]波袭击，规模大致与以下情况相当：\n\n[threatExample]</li>
-    <li>threatDescriptionParagraph(threatType==Raids,threatCount>1)->将会有[threatCount]波袭击，规模大致与以下情况相当：\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize==1)->将会有一波大致与以下规模相当的袭击：\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize>1)->将会有一波强度为[threatSize]x的袭击，与以下规模相当：\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount>1,threatSize==1)->将会有[threatCount]波与以下规模相当的袭击：\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount>1,threatSize>1)->将会有[threatCount]波强度为[threatSize]x的袭击，与以下规模相当：\n\n[threatExample]</li>
     <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize==1)->一个机械集群将部署到附近。</li>
     <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize==1)->两个机械集群将部署到附近。</li>
     <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize>1)->一个[threatSize]x规模的机械集群将部署到附近。</li>
     <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize>1)->两个[threatSize]x规模的机械集群将部署到附近。</li>
-    <li>shuttleWillComeParagraph(lodgersCount==1)->在[shuttleDelayTicks_duration]后， 一艘负责运送[lodgers0_nameDef]的穿梭机将会到达。 如果你能将[lodgers0_objective]安全送上穿梭机，[allRewardsDescriptions]</li>
-    <li>shuttleWillComeParagraph(lodgersCount>=2)->在[shuttleDelayTicks_duration]后， 一艘负责运送[lodgersLabelPlural]的穿梭机将会到达。 如果你能将他们安全送上穿梭机，[allRewardsDescriptions]</li>
+    <li>shuttleWillComeParagraph(lodgersCount==1)->在[shuttleDelayTicks_duration]后， 一艘负责运送[lodgers0_nameDef]的穿梭机将会到达。</li>
+    <li>shuttleWillComeParagraph(lodgersCount>=2)->在[shuttleDelayTicks_duration]后， 一艘负责运送[lodgersLabelPlural]的穿梭机将会到达。</li>
     <li>threatsInfoMechClustersSingleHuman->[lodgers0_nameDef]近期[mechViolation]，已经被在轨的大批机械族锁定。</li>
     <li>threatsInfoMechClustersMultiPrisoners->囚犯们近期[mechViolation]，已经被在轨的大批机械族锁定。</li>
     <li>threatsInfoMechRaidsSingleHuman->[lodgers0_nameDef]近期[mechViolation]，已经被大批机械族锁定。</li>
@@ -82,6 +96,8 @@
     <li>letterSubject->{SUBJECT_definite}</li>
     <li>lodgersHasHave(lodgersCount==1)->有</li>
     <li>lodgersHasHave(lodgersCount>=2)->有</li>
+    <li>lodgersObjective(lodgersCount==1)->[lodgers0_objective]</li>
+    <li>lodgersObjective(lodgersCount>=2)->他们</li>
     <li>remainingWillNowLeave(lodgersCount==1)-></li>
     <li>remainingWillNowLeave(lodgersCount>=2)->现在所有剩余的[lodgersLabelPlural]都将离开。</li>
     <li>failLetterEndingCommon(askerIsNull==true,priority=1)->你未能完成任务'[resolvedQuestName]'。</li>

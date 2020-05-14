@@ -2,24 +2,34 @@
 <LanguageData>
   
   <!-- EN:
-    <li>questDescription(asker_factionLeader==True)->[asker_faction_leaderTitle] [asker_nameFull] of [asker_faction_name] needs extra hands to help [dutyDescription]. [asker_pronoun] is asking you to lend [colonistCountToLend] to [asker_faction_name] for [lendForDays] days.\n\nAfter [lendForDays] days have passed, your colonists will be returned.\n\nIf you accept, a shuttle will arrive to collect the [colonistCountToLend]. When it takes off with them on board, [allRewardsDescriptions]</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_faction_leaderTitle] [asker_nameFull] of [asker_faction_name] needs extra hands to help [dutyDescription].\n\n[asker_pronoun] is asking you to lend [asker_objective] [colonistCountToLend] for [lendForDays] days.\n\n[willSendShuttle]</li>
     <li>disease->flu</li>
     <li>disease->plague</li>
     <li>disease->malaria</li>
     <li>disease->infection</li>
-    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_royalTitleInCurrentFaction] [asker_nameFull] of [asker_faction_name] wishes to add some life to [asker_possessive] court by showing off some [entertainerDescription]. [asker_pronoun] is asking you to lend [colonistCountToLend] to [asker_faction_name] for [lendForDays] days. After [lendForDays] days have passed, your colonists will be returned.\n\nIf you accept, a shuttle will arrive to collect the [colonistCountToLend]. When it takes off with them on board, [allRewardsDescriptions]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_royalTitleInCurrentFaction] [asker_nameFull] of [asker_faction_name] wishes to add some life to [asker_possessive] court by showing off some [entertainerDescription].\n\n[asker_pronoun] is asking you to lend [colonistCountToLend] to serve [asker_objective] for [lendForDays] days.\n\n[willSendShuttle]</li>
     <li>colonistCountToLend(colonistsToLendCount==1)->1 colonist</li>
     <li>colonistCountToLend(colonistsToLendCount>1)->[colonistsToLendCount] colonists</li>
+    <li>willSendShuttle->[asker_pronoun] will send a shuttle to pick up the [colonists].</li>
+    <li>colonists(colonistsToLendCount==1)->colonist</li>
+    <li>colonists(colonistsToLendCount>1)->colonists</li>
+    <li>pawnListHaveConjugation(colonistsToLendCount==1)->has</li>
+    <li>pawnListHaveConjugation(colonistsToLendCount>1)->have</li>
   -->
   <PawnLend.questDescriptionRules.rulesStrings>
-    <li>questDescription(asker_factionLeader==True)->[asker_faction_name] 的 [asker_faction_leaderTitle] [asker_nameFull] 需要人手帮忙 [dutyDescription]。 [asker_pronoun]要求你将[colonistCountToLend] 派给 [asker_faction_name] 帮忙 [lendForDays]天。\n\n[lendForDays]天过后， 你的殖民者将返回。\n\n如果你同意， 会有穿梭机来接[colonistCountToLend]。 当[colonistCountToLend]安全登舱后， [allRewardsDescriptions]</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_faction_name] 的 [asker_faction_leaderTitle] [asker_nameFull] 需要人手帮忙 [dutyDescription]。\n\n[asker_pronoun]要求你将[asker_objective] [colonistCountToLend]派出[lendForDays]天。\n\n[willSendShuttle]</li>
     <li>disease->流感</li>
     <li>disease->瘟疫</li>
     <li>disease->疟疾</li>
     <li>disease->伤口感染</li>
-    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_faction_name] 的 [asker_royalTitleInCurrentFaction] [asker_nameFull] 希望通过展示一些 [entertainerDescription] 来增添 [asker_possessive] 的生活情趣。[asker_pronoun]要求你将 [colonistCountToLend] 派给 [asker_faction_name] 帮忙 [lendForDays]天。\n\n[lendForDays]天过后， 你的殖民者将返回。\n\n如果你同意， 会有穿梭机来接[colonistCountToLend]。 当[colonistCountToLend]安全登舱后， [allRewardsDescriptions]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_faction_name] 的 [asker_royalTitleInCurrentFaction] [asker_nameFull] 希望通过展示一些 [entertainerDescription] 来增添 [asker_possessive] 的生活情趣。\n\n[asker_pronoun]要求你将[colonistCountToLend]派去服务[asker_objective][lendForDays]天。\n\n[willSendShuttle]</li>
     <li>colonistCountToLend(colonistsToLendCount==1)->一位殖民者</li>
     <li>colonistCountToLend(colonistsToLendCount>1)->[colonistsToLendCount]殖民者</li>
+    <li>willSendShuttle->[asker_pronoun] 将会派出穿梭机来接 [colonists].</li>
+    <li>colonists(colonistsToLendCount==1)->殖民者</li>
+    <li>colonists(colonistsToLendCount>1)->殖民者</li>
+    <li>pawnListHaveConjugation(colonistsToLendCount==1)->已经</li>
+    <li>pawnListHaveConjugation(colonistsToLendCount>1)->已经</li>
   </PawnLend.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[worker] Outsourcing</li>
@@ -47,39 +57,51 @@
     <li>worker->苦力</li>
     <li>worker->帮手</li>
   </PawnLend.questNameRules.rulesStrings>
-  <!-- EN: gather the harvest -->
-  <PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.GetRandomElement.options.0.slateRef>收获庄稼</PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.GetRandomElement.options.0.slateRef>
-  <!-- EN: fortify a settlement -->
-  <PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.GetRandomElement.options.1.slateRef>加固城防</PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.GetRandomElement.options.1.slateRef>
-  <!-- EN: set up a settlement -->
-  <PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.GetRandomElement.options.2.slateRef>建立定居点</PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.GetRandomElement.options.2.slateRef>
-  <!-- EN: watch for raiders -->
-  <PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.GetRandomElement.options.3.slateRef>戒备袭击者</PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.GetRandomElement.options.3.slateRef>
-  <!-- EN: set up a hospital -->
-  <PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.GetRandomElement.options.4.slateRef>建立医院</PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.GetRandomElement.options.4.slateRef>
-  <!-- EN: contain an outbreak of [disease] -->
-  <PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.GetRandomElement.options.5.slateRef>控制[disease]疫情爆发</PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.GetRandomElement.options.5.slateRef>
-  <!-- EN: {PAWNS} have returned after helping [asker_nameFull] of [asker_faction_name] to [dutyDescription]. -->
-  <PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.Set.value.slateRef>在帮助 [asker_faction_name] 的 [asker_nameFull] 顺利 [dutyDescription]后， {PAWNS}安全的回来了。</PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.Set.value.slateRef>
-  <!-- EN: real hardy surface survivors -->
-  <PawnLend.root.nodes.RandomNode.nodes.Sequence-1.nodes.GetRandomElement.options.0.slateRef>地表生存大师</PawnLend.root.nodes.RandomNode.nodes.Sequence-1.nodes.GetRandomElement.options.0.slateRef>
-  <!-- EN: goofy jesters -->
-  <PawnLend.root.nodes.RandomNode.nodes.Sequence-1.nodes.GetRandomElement.options.1.slateRef>滑稽的小丑</PawnLend.root.nodes.RandomNode.nodes.Sequence-1.nodes.GetRandomElement.options.1.slateRef>
-  <!-- EN: foreign-accented servants -->
-  <PawnLend.root.nodes.RandomNode.nodes.Sequence-1.nodes.GetRandomElement.options.2.slateRef>外地口音的仆侍</PawnLend.root.nodes.RandomNode.nodes.Sequence-1.nodes.GetRandomElement.options.2.slateRef>
-  <!-- EN: exotic human specimens -->
-  <PawnLend.root.nodes.RandomNode.nodes.Sequence-1.nodes.GetRandomElement.options.3.slateRef>外来人类展品</PawnLend.root.nodes.RandomNode.nodes.Sequence-1.nodes.GetRandomElement.options.3.slateRef>
-  <!-- EN: {PAWNS} have returned after being shown off as [entertainerDescription] in the court of [asker_royalTitleInCurrentFaction] [asker_nameFull] of [asker_faction_name]. -->
-  <PawnLend.root.nodes.RandomNode.nodes.Sequence-1.nodes.Set.value.slateRef>在作为 [entertainerDescription] 被 [asker_nameFull] 带到 [asker_faction_name] 展示后， {PAWNS}安全的回来了。</PawnLend.root.nodes.RandomNode.nodes.Sequence-1.nodes.Set.value.slateRef>
+  <!-- EN: <rulesStrings><li>dutyDescription->gather the harvest</li><li>dutyDescription->fortify a settlement</li><li>dutyDescription->set up a settlement</li><li>dutyDescription->watch for raiders</li><li>dutyDescription->set up a hospital</li><li>dutyDescription->contain an outbreak of [disease]</li></rulesStrings> -->
+  <PawnLend.DutyRulesAny.slateRef>
+    <rulesStrings>
+      <li>dutyDescription->收获庄稼</li>
+      <li>dutyDescription->加固城防</li>
+      <li>dutyDescription->建立定居点</li>
+      <li>dutyDescription->戒备袭击者</li>
+      <li>dutyDescription->建立医院</li>
+      <li>dutyDescription->控制[disease]疫情爆发</li>
+    </rulesStrings>
+  </PawnLend.DutyRulesAny.slateRef>
+  <!-- EN: {PAWNS} [pawnListHaveConjugation] returned after helping [asker_nameFull] of [asker_faction_name] to [dutyDescription]. -->
+  <PawnLend.LetterTextReturnAfterHelping.slateRef>在帮助 [asker_faction_name] 的 [asker_nameFull] 顺利 [dutyDescription]后， {PAWNS}安全的回来了。</PawnLend.LetterTextReturnAfterHelping.slateRef>
+  <!-- EN: <rulesStrings><li>entertainerDescription->real hardy surface survivors</li><li>entertainerDescription->goofy jesters</li><li>entertainerDescription->foreign-accented servants</li><li>entertainerDescription->exotic human specimens</li></rulesStrings> -->
+  <PawnLend.DutyRulesRoyal.slateRef>
+    <rulesStrings>
+      <li>entertainerDescription->地表生存大师</li>
+      <li>entertainerDescription->滑稽的小丑</li>
+      <li>entertainerDescription->外地口音的仆侍</li>
+      <li>entertainerDescription->外来人类展品</li>
+    </rulesStrings>
+  </PawnLend.DutyRulesRoyal.slateRef>
+  <!-- EN: {PAWNS} [pawnListHaveConjugation] returned after being shown off as [entertainerDescription] in the court of [asker_royalTitleInCurrentFaction] [asker_nameFull] of [asker_faction_name]. -->
+  <PawnLend.LetterTextReturnAfterRoyalCourt.slateRef>在作为 [entertainerDescription] 被 [asker_nameFull] 带到 [asker_faction_name] 展示后， {PAWNS}安全的回来了。</PawnLend.LetterTextReturnAfterRoyalCourt.slateRef>
   <!-- EN: Shuttle arrived -->
-  <PawnLend.root.nodes.ShuttleDelay.node.nodes.Letter.label.slateRef>穿梭机抵达</PawnLend.root.nodes.ShuttleDelay.node.nodes.Letter.label.slateRef>
+  <PawnLend.LetterLabelShuttleArrived.slateRef>穿梭机抵达</PawnLend.LetterLabelShuttleArrived.slateRef>
   <!-- EN: The shuttle has arrived to collect [colonistsToLendCount] of your colonists. -->
-  <PawnLend.root.nodes.ShuttleDelay.node.nodes.Letter.text.slateRef>穿梭机来接[colonistsToLendCount]殖民者了。</PawnLend.root.nodes.ShuttleDelay.node.nodes.Letter.text.slateRef>
+  <PawnLend.LetterTextShuttleArrived.slateRef>穿梭机来接[colonistsToLendCount]殖民者了。</PawnLend.LetterTextShuttleArrived.slateRef>
   <!-- EN: Shuttle destroyed -->
-  <PawnLend.root.nodes.shuttleDestroyed.node.nodes.Letter.label.slateRef>穿梭机被摧毁</PawnLend.root.nodes.shuttleDestroyed.node.nodes.Letter.label.slateRef>
+  <PawnLend.LetterLabelShuttleDestroyed.slateRef>穿梭机被摧毁</PawnLend.LetterLabelShuttleDestroyed.slateRef>
   <!-- EN: The shuttle sent to collect colonists has been destroyed. -->
-  <PawnLend.root.nodes.shuttleDestroyed.node.nodes.Letter.text.slateRef>被派来接殖民者的穿梭机被摧毁了。</PawnLend.root.nodes.shuttleDestroyed.node.nodes.Letter.text.slateRef>
+  <PawnLend.LetterTextShuttleDestroyed.slateRef>被派来接殖民者的穿梭机被摧毁了。</PawnLend.LetterTextShuttleDestroyed.slateRef>
   <!-- EN: Colonists returned -->
-  <PawnLend.root.nodes.ColonistsReturned.node.nodes.Letter.label.slateRef>殖民者返回</PawnLend.root.nodes.ColonistsReturned.node.nodes.Letter.label.slateRef>
+  <PawnLend.LetterLabelColonistsReturned.slateRef>殖民者返回</PawnLend.LetterLabelColonistsReturned.slateRef>
+  
+  <!-- UNUSED -->
+  <PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.GetRandomElement.options.0.slateRef>收获庄稼</PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.GetRandomElement.options.0.slateRef>
+  <PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.GetRandomElement.options.1.slateRef>加固城防</PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.GetRandomElement.options.1.slateRef>
+  <PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.GetRandomElement.options.2.slateRef>建立定居点</PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.GetRandomElement.options.2.slateRef>
+  <PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.GetRandomElement.options.3.slateRef>戒备袭击者</PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.GetRandomElement.options.3.slateRef>
+  <PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.GetRandomElement.options.4.slateRef>建立医院</PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.GetRandomElement.options.4.slateRef>
+  <PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.GetRandomElement.options.5.slateRef>控制[disease]疫情爆发</PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.GetRandomElement.options.5.slateRef>
+  <PawnLend.root.nodes.RandomNode.nodes.Sequence-1.nodes.GetRandomElement.options.0.slateRef>地表生存大师</PawnLend.root.nodes.RandomNode.nodes.Sequence-1.nodes.GetRandomElement.options.0.slateRef>
+  <PawnLend.root.nodes.RandomNode.nodes.Sequence-1.nodes.GetRandomElement.options.1.slateRef>滑稽的小丑</PawnLend.root.nodes.RandomNode.nodes.Sequence-1.nodes.GetRandomElement.options.1.slateRef>
+  <PawnLend.root.nodes.RandomNode.nodes.Sequence-1.nodes.GetRandomElement.options.2.slateRef>外地口音的仆侍</PawnLend.root.nodes.RandomNode.nodes.Sequence-1.nodes.GetRandomElement.options.2.slateRef>
+  <PawnLend.root.nodes.RandomNode.nodes.Sequence-1.nodes.GetRandomElement.options.3.slateRef>外来人类展品</PawnLend.root.nodes.RandomNode.nodes.Sequence-1.nodes.GetRandomElement.options.3.slateRef>
   
 </LanguageData>

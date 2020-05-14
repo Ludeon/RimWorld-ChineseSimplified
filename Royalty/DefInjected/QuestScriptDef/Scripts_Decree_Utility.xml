@@ -10,12 +10,12 @@
     <li>decreeThreatInfo->如果你无法在[decreeDays]天内满足这条法令， [asker_nameDef]将会不快。 除非你满足这条法令，不然[asker_possessive]怒火将会不断提升</li>
   </DecreeSetup.questDescriptionRules.rulesStrings>
   <!-- EN: [asker_nameDef]'s decree forgotten -->
-  <DecreeSetup.root.nodes.Delay.node.nodes.Letter.label.slateRef>[asker_nameDef]的法令被遗忘</DecreeSetup.root.nodes.Delay.node.nodes.Letter.label.slateRef>
+  <DecreeSetup.LetterLabelDecreeForgotten.slateRef>[asker_nameDef]的法令被遗忘</DecreeSetup.LetterLabelDecreeForgotten.slateRef>
   <!-- EN: [asker_nameDef] has forgotten about [asker_possessive] decree. -->
-  <DecreeSetup.root.nodes.Delay.node.nodes.Letter.text.slateRef>[asker_nameDef]已经遗忘[asker_possessive]法令。</DecreeSetup.root.nodes.Delay.node.nodes.Letter.text.slateRef>
+  <DecreeSetup.LetterTextDecreeForgotten.slateRef>[asker_nameDef]已经遗忘[asker_possessive]法令。</DecreeSetup.LetterTextDecreeForgotten.slateRef>
   <!-- EN: Decree cancelled -->
-  <DecreeSetup.root.nodes.Incompletable.node.nodes.Letter.label.slateRef>法令已取消</DecreeSetup.root.nodes.Incompletable.node.nodes.Letter.label.slateRef>
+  <DecreeSetup.LetterLabelDecreeCancelled.slateRef>法令已取消</DecreeSetup.LetterLabelDecreeCancelled.slateRef>
   <!-- EN: [asker_nameDef] has grudgingly cancelled the decree '[resolvedQuestName]' since it cannot be completed. -->
-  <DecreeSetup.root.nodes.Incompletable.node.nodes.Letter.text.slateRef>[asker_nameDef]勉强取消了无法完成的法令'[resolvedQuestName]'。</DecreeSetup.root.nodes.Incompletable.node.nodes.Letter.text.slateRef>
+  <DecreeSetup.LetterTextDecreeCancelled.slateRef>[asker_nameDef]勉强取消了无法完成的法令'[resolvedQuestName]'。</DecreeSetup.LetterTextDecreeCancelled.slateRef>
   
 </LanguageData>
