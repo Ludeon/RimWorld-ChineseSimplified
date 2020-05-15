@@ -2,7 +2,7 @@
 <LanguageData>
   
   <!-- EN:
-    <li>allLodgerInfo->[healthInfo] [minMoodInfo] [workInfo]</li>
+    <li>allLodgerInfo->[healthInfo][minMoodInfo][workInfo]</li>
     <li>lodgersLabelSingOrPlural(lodgersCount==1)->[lodgers0_nameDef]</li>
     <li>lodgersLabelSingOrPlural(lodgersCount>=2)->[lodgersLabelPlural]</li>
     <li>lodgersLabelSingOrPluralDef(lodgersCount==1)->[lodgers0_nameDef]</li>
@@ -10,17 +10,18 @@
     <li>lodgersLabelSingleOrWithAllies(lodgersCount==1)->[lodgers0_nameDef]</li>
     <li>lodgersLabelSingleOrWithAllies(lodgersCount>=2)->[lodgers0_nameDef] and [lodgers0_possessive] [allyAllies]</li>
     <li>healthInfo-></li>
-    <li>healthInfo(lodgersAreComatose==true,lodgersCount==1,priority=1)->[lodgersLabelSingleOrWithAllies] is in a coma and must be kept in bed. text_todo</li>
-    <li>healthInfo(lodgersAreComatose==true,lodgersCount>=2,priority=1)->[lodgersLabelSingleOrWithAllies] are comatose and need to be kept in bed. text_todo</li>
-    <li>healthInfo(lodgersHaveBloodRot==true,lodgersCount==1,priority=1)->[lodgersLabelSingleOrWithAllies] is sick with blood rot. text_todo</li>
-    <li>healthInfo(lodgersHaveBloodRot==true,lodgersCount>=2,priority=1)->[lodgersLabelSingleOrWithAllies] are sick with blood rot. text_todo</li>
-    <li>healthInfo(lodgersAreComatose==true,lodgersHaveBloodRot==true,lodgersCount==1,priority=1)->[lodgersLabelSingleOrWithAllies] is in a coma and must be kept in bed. [asker_possessive] is also sick with blood rot. text_todo</li>
-    <li>healthInfo(lodgersAreComatose==true,lodgersHaveBloodRot==true,lodgersCount>=2,priority=1)->[lodgersLabelSingleOrWithAllies] are comatose and need to be kept in bed, they are also sick with blood rot. text_todo</li>
+    <li>healthInfo(lodgersAreComatose==true,lodgersHaveBloodRot==false,lodgersCount==1,priority=1)->[lodgersLabelSingleOrWithAllies] is in a coma and must be kept in bed.</li>
+    <li>healthInfo(lodgersAreComatose==true,lodgersHaveBloodRot==false,lodgersCount>=2,priority=1)->[lodgersLabelSingleOrWithAllies] are comatose and need to be kept in bed.</li>
+    <li>healthInfo(lodgersHaveBloodRot==true,lodgersAreComatose==false,lodgersCount==1,priority=1)->[lodgersLabelSingleOrWithAllies] is sick with blood rot.</li>
+    <li>healthInfo(lodgersHaveBloodRot==true,lodgersAreComatose==false,lodgersCount>=2,priority=1)->[lodgersLabelSingleOrWithAllies] are sick with blood rot.</li>
+    <li>healthInfo(lodgersAreComatose==true,lodgersHaveBloodRot==true,lodgersCount==1,priority=1)->[lodgersLabelSingleOrWithAllies] is in a coma and must be kept in bed. [asker_possessive] is also sick with blood rot.</li>
+    <li>healthInfo(lodgersAreComatose==true,lodgersHaveBloodRot==true,lodgersCount>=2,priority=1)->[lodgersLabelSingleOrWithAllies] are comatose and need to be kept in bed. They are also sick with blood rot.</li>
     <li>minMoodInfo-></li>
-    <li>minMoodInfo(lodgersCountWithMoodThreshold==1,priority=1)->you must keep [lodgersWithMoodThreshold0_nameDef]'s mood above [lodgersMoodThreshold_percent].</li>
-    <li>minMoodInfo(lodgersCountWithMoodThreshold>1,priority=1)->you must keep [lodgersLabelPlural] mood above [lodgersMoodThreshold_percent].</li>
+    <li>minMoodInfo(lodgersCountWithMoodThreshold==1,priority=1)->\n\nyou must keep [lodgersWithMoodThreshold0_nameDef]'s mood above [lodgersMoodThreshold_percent].</li>
+    <li>minMoodInfo(lodgersCountWithMoodThreshold==2,priority=1)->\n\nyou must keep [lodgersLabelSingleOrWithAllies]'s mood above [lodgersMoodThreshold_percent].</li>
+    <li>minMoodInfo(lodgersCountWithMoodThreshold>2,priority=1)->\n\nyou must keep [lodgersLabelSingleOrWithAllies] moods above [lodgersMoodThreshold_percent].</li>
     <li>workInfo-></li>
-    <li>workInfo(lodgersWillNotWork==true,priority=1)->[lodgersLabelSingleOrWithAllies] will not do any work. text_todo</li>
+    <li>workInfo(lodgersWillNotWork==true,priority=1)->\n\n[lodgersLabelSingleOrWithAllies] will not do any work.</li>
     <li>commonDescEnding->[helpersParagraph][shuttleWillComeParagraph]</li>
     <li>enemyGroupsParagraph->[threatDescriptionParagraph]</li>
     <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize==1)->there will be a raid of roughly this size:\n\n[threatExample]</li>
@@ -61,17 +62,18 @@
     <li>lodgersLabelSingleOrWithAllies(lodgersCount==1)->[lodgers0_nameDef]</li>
     <li>lodgersLabelSingleOrWithAllies(lodgersCount>=2)->[lodgers0_nameDef] 与 [lodgers0_possessive] [allyAllies]</li>
     <li>healthInfo-></li>
-    <li>healthInfo(lodgersAreComatose==true,lodgersCount==1,priority=1)->[lodgersLabelSingleOrWithAllies] 因为昏迷必须卧床。</li>
-    <li>healthInfo(lodgersAreComatose==true,lodgersCount>=2,priority=1)->[lodgersLabelSingleOrWithAllies] 因为昏迷必须卧床。</li>
-    <li>healthInfo(lodgersHaveBloodRot==true,lodgersCount==1,priority=1)->[lodgersLabelSingleOrWithAllies] 因坏血病而虚弱不堪。</li>
-    <li>healthInfo(lodgersHaveBloodRot==true,lodgersCount>=2,priority=1)->[lodgersLabelSingleOrWithAllies] 因坏血病而虚弱不堪。</li>
+    <li>healthInfo(lodgersAreComatose==true,lodgersHaveBloodRot==false,lodgersCount==1,priority=1)->[lodgersLabelSingleOrWithAllies] 因为昏迷必须卧床。</li>
+    <li>healthInfo(lodgersAreComatose==true,lodgersHaveBloodRot==false,lodgersCount>=2,priority=1)->[lodgersLabelSingleOrWithAllies] 因为昏迷必须卧床。</li>
+    <li>healthInfo(lodgersHaveBloodRot==true,lodgersAreComatose==false,lodgersCount==1,priority=1)->[lodgersLabelSingleOrWithAllies] 因坏血病而虚弱不堪。</li>
+    <li>healthInfo(lodgersHaveBloodRot==true,lodgersAreComatose==false,lodgersCount>=2,priority=1)->[lodgersLabelSingleOrWithAllies] 因坏血病而虚弱不堪。</li>
     <li>healthInfo(lodgersAreComatose==true,lodgersHaveBloodRot==true,lodgersCount==1,priority=1)->[lodgersLabelSingleOrWithAllies] 因为昏迷必须卧床。 [asker_possessive]同时也因为坏血病而虚弱不堪。</li>
     <li>healthInfo(lodgersAreComatose==true,lodgersHaveBloodRot==true,lodgersCount>=2,priority=1)->[lodgersLabelSingleOrWithAllies] 因为昏迷必须卧床。 他们同时也因为坏血病而虚弱不堪。</li>
     <li>minMoodInfo-></li>
-    <li>minMoodInfo(lodgersCountWithMoodThreshold==1,priority=1)->你必须保持 [lodgersWithMoodThreshold0_nameDef] 的心情在 [lodgersMoodThreshold_percent] 以上。</li>
-    <li>minMoodInfo(lodgersCountWithMoodThreshold>1,priority=1)->你必须保持 [lodgersLabelPlural] 心情在 [lodgersMoodThreshold_percent]以上。</li>
+    <li>minMoodInfo(lodgersCountWithMoodThreshold==1,priority=1)->\n\n你必须保持 [lodgersWithMoodThreshold0_nameDef] 的心情在 [lodgersMoodThreshold_percent] 以上。</li>
+    <li>minMoodInfo(lodgersCountWithMoodThreshold==2,priority=1)->\n\n你必须保持 [lodgersLabelSingleOrWithAllies] 心情在 [lodgersMoodThreshold_percent]以上。</li>
+    <li>minMoodInfo(lodgersCountWithMoodThreshold>2,priority=1)->\n\n你必须保持 [lodgersLabelSingleOrWithAllies] 心情在 [lodgersMoodThreshold_percent]以上。</li>
     <li>workInfo-></li>
-    <li>workInfo(lodgersWillNotWork==true,priority=1)->[lodgersLabelSingleOrWithAllies] 不会做任何工作。</li>
+    <li>workInfo(lodgersWillNotWork==true,priority=1)->\n\n[lodgersLabelSingleOrWithAllies] 不会做任何工作。</li>
     <li>commonDescEnding->[helpersParagraph][shuttleWillComeParagraph]</li>
     <li>enemyGroupsParagraph->[threatDescriptionParagraph]</li>
     <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize==1)->将会有一波大致与以下规模相当的袭击：\n\n[threatExample]</li>

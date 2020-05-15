@@ -473,7 +473,7 @@
   <!-- EN: The types of meditation focus this object offers. A meditating person can focus on this object to boost their psyfocus gain, but only if they are able to use one of its meditation types. Each person can use different meditation types depending on their background, traits, social position, and so on. -->
   <MeditationFocusesDesc>这个物体提供的冥想类型。一个冥想者可以把注意力集中到这个物体上，从而提高他们的精神力收益，前提是他们能够使用其中一种冥想类型。冥想者的冥想类型取决于他们的背景、特征和社会地位等。</MeditationFocusesDesc>
   <!-- EN: Can use {0} focus type because -->
-  <MeditationFocusCanUse>无法使用{0}焦点类型，因为</MeditationFocusCanUse>
+  <MeditationFocusCanUse>可以使用{0}焦点类型，因为</MeditationFocusCanUse>
   <!-- EN: holds title: {TITLE} ({FACTION_name}). -->
   <MeditationFocusEnabledByTitle>持有头衔：{TITLE}（{FACTION_name}）。</MeditationFocusEnabledByTitle>
   <!-- EN: has childhood -->
@@ -954,5 +954,7 @@
   <AbilityUnwalkable>{0}必须瞄准可行走区域。</AbilityUnwalkable>
   <!-- EN: {0} must target an unroofed area. -->
   <AbilityRoofed>{0}必须瞄准不在屋顶下的区域。</AbilityRoofed>
+  <!-- EN: {0} is mentally broken. -->
+  <AbilityCantApplyToMentallyBroken>{0}精神崩溃。</AbilityCantApplyToMentallyBroken>
   
 </LanguageData>
