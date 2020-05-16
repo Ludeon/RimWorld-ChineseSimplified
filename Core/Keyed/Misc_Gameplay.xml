@@ -477,11 +477,9 @@
   <!-- EN: Progress to guaranteed find -->
   <ScanningProgressToGuaranteedFind>扫描进度</ScanningProgressToGuaranteedFind>
   
-  <!-- Meditation focus -->
-  <!-- EN: Meditation focus strength for {LASTUSER_labelShort} -->
-  <UserMeditationFocusStrength>冥想专注力（{LASTUSER_labelShort}）</UserMeditationFocusStrength>
-  <!-- EN: Focus effect impacted by -->
-  <MeditationFocusImpacted>专注力效果受影响</MeditationFocusImpacted>
+  <!-- Meditation -->
+  <!-- EN: meditating at -->
+  <MeditatingAt>冥想</MeditatingAt>
 
   <!-- Fermentation barrel -->
   <!-- EN: Contains {0} / {1} wort. -->
@@ -1234,16 +1232,14 @@
   <PawnTooltipWithPrimaryEquipNoDesc>{0}\n{1}\n{2}</PawnTooltipWithPrimaryEquipNoDesc>
   <!-- EN: {0}\n{1} -->
   <PawnTooltipNoDescNoPrimaryEquip>{0}\n{1}</PawnTooltipNoDescNoPrimaryEquip>
-  <!-- EN: Psychic entropy: {0} / {1}\nFall rate: {2} / {3}s ({4}s until zero)\n\nPsyfocus: {5} -->
-  <PawnTooltipPsychicEntropyStats>心灵熵阈值：{0} / {1}\n降低速率：{2} / {3}秒 （{4}秒归零）\n\n精神力：{5}</PawnTooltipPsychicEntropyStats>
-  <!-- EN: Max entropy multiplier: {0} -->
-  <PawnTooltipPsychicEntropyStatPsyfocusEntropyLimit>最大阈值乘数</PawnTooltipPsychicEntropyStatPsyfocusEntropyLimit>
-  <!-- EN: Psychic entropy increases after performing a psycast. Going over the safe limit can lead to long-term health consequences. Whenever entropy reaches zero, it leaves a psychic hangover behind.\n\nPsyfocus is separate from psychic entropy. Having psyfocus below 10% will limit maximum safe entropy. Psyfocus can be gained through meditation. -->
-  <PawnTooltipPsychicEntropyDesc>心灵熵在释放心灵能力之后会增加。超过安全限制之后会引起后遗症。每当熵归零都会产生精神宿醉。\n\n精神力与心灵熵是分开的，低于10%的精神力会限制心灵熵阈值。精神力可以通过冥想来提升。</PawnTooltipPsychicEntropyDesc>
-  <!-- EN: Pain focuses the mind, and causes faster recovery from psychic entropy.\n\nPain level: {0}\nBonus to psychic entropy recovery: {1} -->
-  <PawnTooltipPsychicEntropyPainFocus>痛苦使思想集中；同时能够更快恢复心灵熵。\n\n疼痛等级：{0}\n心灵熵恢复倍率：{1}</PawnTooltipPsychicEntropyPainFocus>
-  <!-- EN: Toggle psychic entropy limiter.\n\nGoing over your psychic entropy limit can cause serious health consequences, including long-term psychic breakdown, and even brain damage for significant overages. The higher over-limit the entropy is, the more dangerous the effects. -->
-  <PawnTooltipPsychicEntropyLimit>切换心灵熵限制器。\n\n心灵熵超限制可能会导致严重的健康后果，包括长期的心理崩溃，甚至会因严重超量而损害大脑。熵的极限值越高，超限的后果越严重。</PawnTooltipPsychicEntropyLimit>
+  <!-- EN: Psychic entropy: {0} / {1}\nFall rate: {2} / s ({3}s until zero)\n\nPsyfocus: {4} -->
+  <PawnTooltipPsychicEntropyStats>心灵熵阈值：{0} / {1}\n降低速率：{2} / 秒 （{3}秒归零）\n\n精神力：{4}</PawnTooltipPsychicEntropyStats>
+  <!-- EN: Psychic entropy increases after performing a psycast. Going over the normal limit can lead to psychic breakdown lasting days.\n\nAside from entropy, some psycasts cost psyfocus to perform. Psyfocus is gained through meditation or drugs. -->
+  <PawnTooltipPsychicEntropyDesc>心灵熵在释放心灵能力之后会增加。超过安全限制之后会引起后遗症。每当熵归零都会产生精神宿醉。\n\n除了心灵熵之外，一些心灵能力在释放的时候也会消耗精神力。精神力可以通过冥想来提升。</PawnTooltipPsychicEntropyDesc>
+  <!-- EN: Pain focuses the mind and speeds up psychic entropy recovery.\n\nPain level: {0}\nBonus to entropy recovery: {1} -->
+  <PawnTooltipPsychicEntropyPainFocus>痛苦使思想集中；同时能够加速恢复心灵熵。\n\n疼痛等级：{0}\n心灵熵恢复倍率：{1}</PawnTooltipPsychicEntropyPainFocus>
+  <!-- EN: Toggle psychic entropy limiter. Exceeding your entropy limit may cause a psychic breakdown lasting days. It won't cause permanent damage. -->
+  <PawnTooltipPsychicEntropyLimit>切换心灵熵限制器。\n\n心灵熵超限制可能会导致长期的心灵崩溃，但并不会造成永久伤害。</PawnTooltipPsychicEntropyLimit>
 
   <!-- Pawn tooltip description -->
   <!-- EN: {0} {1} -->
@@ -1308,6 +1304,7 @@
   <CausedByHediff>由于：{0}</CausedByHediff>
   
   <!-- UNUSED -->
+  <PawnTooltipPsychicEntropyStatPsyfocusEntropyLimit>最大阈值乘数</PawnTooltipPsychicEntropyStatPsyfocusEntropyLimit>
   <PawnTooltipPsychicEntropy>心灵熵：{0}/{1}\n下降速率：{2}/{3}秒（{4}秒归零）\n\n使用心灵能力后心灵熵增加。\n超出安全限制会导致后遗症。\n每当熵归零都会产生精神宿醉。</PawnTooltipPsychicEntropy>
   <Complete>完成</Complete>
 
