@@ -24,8 +24,8 @@
   
   <!-- EN: psychic breakdown -->
   <PsychicBreakdown.label>心灵崩溃</PsychicBreakdown.label>
-  <!-- EN: Long-term psychic destabilization of the mind, usually caused by excessive psychic entropy. Even when the entropy clears, the breakdown can last for many days, causing mental disturbances of various kinds. -->
-  <PsychicBreakdown.description>精神上的长期不稳定，通常由过度的心灵熵引起。即使熵消失了，崩溃也会持续很多天，引起各种各样的精神紊乱。</PsychicBreakdown.description>
+  <!-- EN: Deep psychic destabilization of the mind. Psychic breakdown last for days, causing mental disturbances of various kinds. It resolves itself with time. -->
+  <PsychicBreakdown.description>心灵深处的长期不稳定，通常由过度的心灵熵引起。即使熵消失了，崩溃也会持续很多天，引起各种各样的精神紊乱。它能随着时间自行消失。</PsychicBreakdown.description>
   <!-- EN: minor -->
   <PsychicBreakdown.stages.minor.label>轻微</PsychicBreakdown.stages.minor.label>
   <!-- EN: major -->
@@ -40,17 +40,22 @@
   
   <!-- EN: psychic entropy -->
   <PsychicEntropy.label>心灵熵</PsychicEntropy.label>
-  <!-- EN: Chaotic psychic energy built up in the mind. Entropy falls over time. After it clears, it leaves a psychic hangover for several days. If psychic entropy becomes very high, it can cause psychosis, long-term psychic breakdown, psylink degradation, and even brain damage. -->
-  <PsychicEntropy.description>混乱的心灵能量在头脑中作祟。心灵熵随时间逐渐下降，当它被清除后，会留下好几天的精神萎靡。如果心灵熵变得非常高，会导致精神病、长期的精神崩溃、情绪失控、甚至脑损伤。</PsychicEntropy.description>
+  <!-- EN: Chaotic psychic energy in the mind. If entropy is pushed past normal limits, it may cause temporary psychic breakdown, psylink degradation and finally unconsciousness due to psychic shock. None of these conditions cause permanent damage. -->
+  <PsychicEntropy.description>混乱的心灵能量在头脑中作祟。如果心灵熵超过安全阈值，可能会造成暂时的心灵崩溃、降低启灵等级，最终因为心灵休克失去意识。不过这些情况都不是永久的。</PsychicEntropy.description>
   <!-- EN: safe -->
   <PsychicEntropy.stages.safe.label>安全</PsychicEntropy.stages.safe.label>
   <!-- EN: overloaded -->
-  <PsychicEntropy.stages.overloaded.label>过载</PsychicEntropy.stages.overloaded.label>
-  <!-- EN: hyperloaded -->
+  <PsychicEntropy.stages.overloaded.label>高压</PsychicEntropy.stages.overloaded.label>
+  <!-- EN: very overloaded -->
+  <PsychicEntropy.stages.very_overloaded.label>过载</PsychicEntropy.stages.very_overloaded.label>
+  <!-- EN: extreme -->
+  <PsychicEntropy.stages.extreme.label>超负荷</PsychicEntropy.stages.extreme.label>
+  <!-- EN: overwhelming -->
+  <PsychicEntropy.stages.overwhelming.label>崩坏</PsychicEntropy.stages.overwhelming.label>
+  
+  <!-- UNUSED -->
   <PsychicEntropy.stages.hyperloaded.label>超负荷</PsychicEntropy.stages.hyperloaded.label>
-  <!-- EN: brain charring -->
   <PsychicEntropy.stages.brain_charring.label>脑损伤</PsychicEntropy.stages.brain_charring.label>
-  <!-- EN: brain roasting -->
   <PsychicEntropy.stages.brain_roasting.label>脑死亡</PsychicEntropy.stages.brain_roasting.label>
   
   <!-- EN: psychic focus -->

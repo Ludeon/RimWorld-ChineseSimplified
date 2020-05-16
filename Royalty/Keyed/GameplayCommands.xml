@@ -27,14 +27,20 @@
   <CommandCallRoyalAidFavorOption>剩余{0}天，费用为{1} {FACTION_royalFavorLabel}</CommandCallRoyalAidFavorOption>
 
   <!-- Abilities -->
-  <!-- EN: Psychic entropy would overflow. -->
-  <CommandPsycastWouldExceedEntropy>心灵熵将超限。</CommandPsycastWouldExceedEntropy>
+  <!-- EN: Psychic entropy would overflow. Disable the psychic entropy limiter to cast. -->
+  <CommandPsycastWouldExceedEntropy>心灵熵将超限。解除心灵熵限制将可以继续使用能力。</CommandPsycastWouldExceedEntropy>
+  <!-- EN: {PSYCASTNAME} consumes {0} psyfocus but {CASTERNAME} only has {1}. -->
+  <CommandPsycastNotEnoughPsyfocus>{PSYCASTNAME}需要消耗{0}精神力，但是{CASTERNAME}只有{1}。</CommandPsycastNotEnoughPsyfocus>
   <!-- EN: level {0} psylink is required. -->
   <CommandPsycastHigherLevelPsylinkRequired>需要等级{0}的启灵神经。</CommandPsycastHigherLevelPsylinkRequired>
   <!-- EN: Ability user is unconscious. -->
   <CommandPsycastPawnIsUnconscious>能力使用者不省人事。</CommandPsycastPawnIsUnconscious>
   <!-- EN: Need at least {0} psyfocus to cast this. -->
   <CommandPsycastLowPsyfocus>至少需要{0}的精神力。</CommandPsycastLowPsyfocus>
+  <!-- EN: E -->
+  <EntropyLetter>E</EntropyLetter>
+  <!-- EN: P -->
+  <PsyfocusLetter>P</PsyfocusLetter>
 
   <!-- Select monument marker -->
   <!-- EN: Select monument -->
