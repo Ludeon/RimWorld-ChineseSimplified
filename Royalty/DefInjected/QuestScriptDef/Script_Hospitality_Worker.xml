@@ -35,6 +35,10 @@
   <Hospitality_Util_Worker.LetterLabelGuestJoinedOtherFaction.slateRef>访客失踪：{SUBJECT_definite}</Hospitality_Util_Worker.LetterLabelGuestJoinedOtherFaction.slateRef>
   <!-- EN: [letterSubject], who you were charged to protect, has joined another faction. [remainingWillNowLeave][failLetterEndingCommon] -->
   <Hospitality_Util_Worker.LetterTextGuestJoinedOtherFaction.slateRef>指定由你保护的[letterSubject]已经加入了另一个派系。[remainingWillNowLeave][failLetterEndingCommon]</Hospitality_Util_Worker.LetterTextGuestJoinedOtherFaction.slateRef>
+  <!-- EN: Quest failed: [resolvedQuestName] -->
+  <Hospitality_Util_Worker.LetterLabelQuestFailed.slateRef>任务失败：[resolvedQuestName]</Hospitality_Util_Worker.LetterLabelQuestFailed.slateRef>
+  <!-- EN: [asker_faction_name] are now hostile towards you. [failLetterEndingCommon] -->
+  <Hospitality_Util_Worker.LetterTextAskerFactionHostile.slateRef>[asker_faction_name] 现在与你敌对。 [failLetterEndingCommon]</Hospitality_Util_Worker.LetterTextAskerFactionHostile.slateRef>
   <!-- EN: Shuttle destroyed -->
   <Hospitality_Util_Worker.LetterLabelShuttleDestroyed.slateRef>穿梭机已损毁</Hospitality_Util_Worker.LetterLabelShuttleDestroyed.slateRef>
   <!-- EN: The shuttle sent to collect [lodgersLabelSingOrPluralDef] has been destroyed. [lodgersLabelSingOrPluralDef] will now leave on foot. [failLetterEndingCommon] -->
@@ -48,7 +52,7 @@
   <!-- EN: You have successfully completed the quest '[resolvedQuestName]'!\n\nWhile [asker_nameDef] was willing to reward quality accomodation, [lodgersLabelSingOrPluralDef] average mood was only {AVERAGEMOOD} during [theirHisHer] stay. You will receive no faction goodwill reward. -->
   <Hospitality_Util_Worker.LetterTextGoodwillFailedQuestCompleted.slateRef>你成功完成了任务'[resolvedQuestName]'！\n\n[asker_nameDef]本乐意为高质量的住宿服务提供奖励， 但[lodgersLabelSingOrPluralDef]在[theirHisHer]逗留期间内的平均心情只有{AVERAGEMOOD}。 你不会获得任何派系关系的奖励。</Hospitality_Util_Worker.LetterTextGoodwillFailedQuestCompleted.slateRef>
   <!-- EN: Quest failed: [resolvedQuestName] -->
-  <Hospitality_Util_Worker.LetterLabelQuestFailed.slateRef>任务失败：[resolvedQuestName]</Hospitality_Util_Worker.LetterLabelQuestFailed.slateRef>
+  <Hospitality_Util_Worker.root.nodes.shuttleSentUnsatisfied.node.nodes.Letter.label.slateRef>任务失败：[resolvedQuestName]</Hospitality_Util_Worker.root.nodes.shuttleSentUnsatisfied.node.nodes.Letter.label.slateRef>
   <!-- EN: The shuttle sent to collect [lodgersLabelSingOrPluralDef] has departed. [lodgersLabelSingOrPluralDef] will now leave on foot. [failLetterEndingCommon] -->
   <Hospitality_Util_Worker.LetterTextQuestFailed.slateRef>被指派去装载[lodgersLabelSingOrPluralDef]的穿梭机已经起飞。[lodgersLabelSingOrPluralDef]将尝试步行离开。[failLetterEndingCommon]</Hospitality_Util_Worker.LetterTextQuestFailed.slateRef>
   
