@@ -455,7 +455,7 @@
   <!-- EN: Psychic entropy -->
   <PsychicEntropy>心灵熵</PsychicEntropy>
   <!-- EN: Entropy -->
-  <PsychicEntropyShort>熵</PsychicEntropyShort>
+  <PsychicEntropyShort>心灵熵</PsychicEntropyShort>
   <!-- EN: {0} pain boost -->
   <PsychicEntropyPainFocus>{0}疼痛激励</PsychicEntropyPainFocus>
   <!-- EN: radius {0} -->
@@ -1238,8 +1238,8 @@
   <PawnTooltipNoDescNoPrimaryEquip>{0}\n{1}</PawnTooltipNoDescNoPrimaryEquip>
   <!-- EN: Psychic entropy: {0} / {1}\nFall rate: {2} / s ({3}s until zero) -->
   <PawnTooltipPsychicEntropyStats>心灵熵阈值：{0} / {1}\n降低速率：{2} / 秒 （{3}秒归零）</PawnTooltipPsychicEntropyStats>
-  <!-- EN: Psychic entropy increases after performing a psycast. Going over the normal limit can lead to psychic breakdown lasting days.\n\nPsychic entropy dissipates naturally over time. This process can be accelerated by wearing eltex apparel or being in pain. -->
-  <PawnTooltipPsychicEntropyDesc>心灵熵在释放心灵能力之后会增加。超过安全限制之后会导致持续数天的心灵崩溃。\n\n心灵熵会随着时间自然消散。这一过程可以通过穿着灵质服装或者感受苦痛来加快。</PawnTooltipPsychicEntropyDesc>
+  <!-- EN: Psychic entropy increases after performing a psycast. Surpassing the normal limit may cause a psychic breakdown lasting days.\n\nPsychic entropy dissipates naturally over time. This process can be accelerated by wearing eltex apparel or being in pain. -->
+  <PawnTooltipPsychicEntropyDesc>心灵熵在释放心灵能力之后会增加。超过常规限制之后可能会导致持续数天的心灵崩溃。\n\n心灵熵会随着时间自然消散。这一过程可以通过穿着灵质服装或者感受苦痛来加快。</PawnTooltipPsychicEntropyDesc>
   <!-- EN: Pain boost\n\nPain focuses the mind and speeds up psychic entropy recovery.\n\nPain level: {0}\nBonus to entropy recovery: {1} -->
   <PawnTooltipPsychicEntropyPainFocus>疼痛激励\n\n痛苦使思想集中；同时能够加速恢复心灵熵。\n\n疼痛等级：{0}\n心灵熵恢复倍率：{1}</PawnTooltipPsychicEntropyPainFocus>
   <!-- EN: Toggle psychic entropy limiter. Exceeding your entropy limit may cause a psychic breakdown lasting days. It won't cause permanent damage. -->
@@ -1270,6 +1270,10 @@
   <Reward_PassageOffworld>你将被带到星星上</Reward_PassageOffworld>
   <!-- EN: Passage offworld -->
   <Reward_PassageOffworld_Label>前往其他世界</Reward_PassageOffworld_Label>
+  <!-- EN: you can loot everything from the camp -->
+  <Reward_CampLoot>你可以从这个营地劫走任何东西</Reward_CampLoot>
+  <!-- EN: Camp loot -->
+  <Reward_CampLoot_Label>营地洗劫</Reward_CampLoot_Label>
   <!-- EN: value {0} -->
   <TotalValue>总价值 {0}</TotalValue>
   
