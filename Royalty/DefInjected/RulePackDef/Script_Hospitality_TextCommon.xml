@@ -17,7 +17,7 @@
     <li>minMoodInfo(lodgersCountWithMoodThreshold>0,priority=1)->\n\nyou must keep the mood of [lodgersLabelSingOrPluralDef] above [lodgersMoodThreshold_percent].</li>
     <li>workInfo-></li>
     <li>workInfo(lodgersWillNotWork==true,priority=1)->\n\n[lodgersLabelSingOrPluralDef] will not do any work.</li>
-    <li>commonDescEnding->[helpersParagraph][shuttleWillComeParagraph]</li>
+    <li>commonDescEnding->[helpersParagraph]</li>
     <li>enemyGroupsParagraph->[threatDescriptionParagraph]</li>
     <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize==1)->there will be a raid of roughly this size:\n\n[threatExample]</li>
     <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize>1)->there will be a raid of strength [threatSize]x and roughly this size:\n\n[threatExample]</li>
@@ -27,8 +27,6 @@
     <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize==1)->two mech clusters will deploy nearby.</li>
     <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize>1)->a mech cluster of [threatSize]x size will deploy nearby.</li>
     <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize>1)->two mech clusters of [threatSize]x size will deploy nearby.</li>
-    <li>shuttleWillComeParagraph(lodgersCount==1)->After [shuttleDelayTicks_duration], a shuttle will arrive to collect [lodgers0_nameDef].</li>
-    <li>shuttleWillComeParagraph(lodgersCount>=2)->After [shuttleDelayTicks_duration], a shuttle will arrive to collect the [lodgersLabelPlural].</li>
     <li>threatsInfoMechClustersSingleHuman->[lodgers0_nameDef] recently [mechViolation], and has been targeted by an orbiting mechanoid swarm.</li>
     <li>threatsInfoMechClustersMultiPrisoners->The prisoners recently [mechViolation], and have been targeted by an orbiting mechanoid swarm.</li>
     <li>threatsInfoMechRaidsSingleHuman->[lodgers0_nameDef] recently [mechViolation], and has been targeted by a mechanoid hive.</li>
@@ -66,7 +64,7 @@
     <li>minMoodInfo(lodgersCountWithMoodThreshold>0,priority=1)->\n\n你必须保持 [lodgersLabelSingOrPluralDef] 的心情在 [lodgersMoodThreshold_percent] 以上。</li>
     <li>workInfo-></li>
     <li>workInfo(lodgersWillNotWork==true,priority=1)->\n\n[lodgersLabelSingOrPluralDef] 不会做任何工作。</li>
-    <li>commonDescEnding->[helpersParagraph][shuttleWillComeParagraph]</li>
+    <li>commonDescEnding->[helpersParagraph]</li>
     <li>enemyGroupsParagraph->[threatDescriptionParagraph]</li>
     <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize==1)->将会有一波大致与以下规模相当的袭击：\n\n[threatExample]</li>
     <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize>1)->将会有一波强度为[threatSize]x的袭击，与以下规模相当：\n\n[threatExample]</li>
@@ -76,8 +74,6 @@
     <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize==1)->两个机械集群将部署到附近。</li>
     <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize>1)->一个[threatSize]x规模的机械集群将部署到附近。</li>
     <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize>1)->两个[threatSize]x规模的机械集群将部署到附近。</li>
-    <li>shuttleWillComeParagraph(lodgersCount==1)->在[shuttleDelayTicks_duration]后， 一艘负责运送[lodgers0_nameDef]的穿梭机将会到达。</li>
-    <li>shuttleWillComeParagraph(lodgersCount>=2)->在[shuttleDelayTicks_duration]后， 一艘负责运送[lodgersLabelPlural]的穿梭机将会到达。</li>
     <li>threatsInfoMechClustersSingleHuman->[lodgers0_nameDef]近期[mechViolation]，已经被在轨的大批机械族锁定。</li>
     <li>threatsInfoMechClustersMultiPrisoners->囚犯们近期[mechViolation]，已经被在轨的大批机械族锁定。</li>
     <li>threatsInfoMechRaidsSingleHuman->[lodgers0_nameDef]近期[mechViolation]，已经被大批机械族锁定。</li>
