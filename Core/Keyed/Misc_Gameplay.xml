@@ -430,8 +430,10 @@
   <MechCluster>机械集群</MechCluster>
   <!-- EN: Spawning in {0} -->
   <SpawningNextPawnIn>生成{0}</SpawningNextPawnIn>
-  <!-- EN: {0} assembly completes in {1} -->
-  <MechAssemblyCompleteIn>{0}装配在{1}中完成</MechAssemblyCompleteIn>
+  <!-- EN: {0} assembly completes in {1}. -->
+  <MechAssemblyCompleteIn>{0}在{1}中装配完成。</MechAssemblyCompleteIn>
+  <!-- EN: Will assemble {0}. text_todo -->
+  <MechAssemblyNextType>将装配{0}。</MechAssemblyNextType>
   <!-- EN: produced -->
   <ThingsProduced>产生</ThingsProduced>
   <!-- EN: harvested -->
@@ -452,16 +454,14 @@
   <InitiatesIn>初始化于</InitiatesIn>
   <!-- EN: Activates in {0} -->
   <SendSignalOnCountdownCompTime>在{0}中激活</SendSignalOnCountdownCompTime>
-  <!-- EN: Psychic entropy -->
+  <!-- EN: Neural heat -->
   <PsychicEntropy>心灵熵</PsychicEntropy>
-  <!-- EN: Entropy -->
+  <!-- EN: Heat -->
   <PsychicEntropyShort>心灵熵</PsychicEntropyShort>
   <!-- EN: {0} pain boost -->
   <PsychicEntropyPainFocus>{0}疼痛激励</PsychicEntropyPainFocus>
   <!-- EN: radius {0} -->
   <ConditionCauserRadius>半径{0}</ConditionCauserRadius>
-  <!-- EN: Psyfocus -->
-  <Psyfocus>精神力</Psyfocus>
   <!-- EN: low psyfocus -->
   <LowPsyfocus>低精神力</LowPsyfocus>
   <!-- EN: {0} left -->
@@ -1236,13 +1236,13 @@
   <PawnTooltipWithPrimaryEquipNoDesc>{0}\n{1}\n{2}</PawnTooltipWithPrimaryEquipNoDesc>
   <!-- EN: {0}\n{1} -->
   <PawnTooltipNoDescNoPrimaryEquip>{0}\n{1}</PawnTooltipNoDescNoPrimaryEquip>
-  <!-- EN: Psychic entropy: {0} / {1}\nFall rate: {2} / s ({3}s until zero) -->
+  <!-- EN: Neural heat: {0} / {1}\nFall rate: {2} / s ({3}s until zero) -->
   <PawnTooltipPsychicEntropyStats>心灵熵阈值：{0} / {1}\n降低速率：{2} / 秒 （{3}秒归零）</PawnTooltipPsychicEntropyStats>
-  <!-- EN: Psychic entropy increases after performing a psycast. Surpassing the normal limit may cause a psychic breakdown lasting days.\n\nPsychic entropy dissipates naturally over time. This process can be accelerated by wearing eltex apparel or being in pain. -->
+  <!-- EN: Neural heat increases after performing a psycast. Surpassing the normal limit may cause a psychic breakdown lasting days.\n\nNeural heat dissipates naturally over time. This process can be accelerated by wearing eltex apparel or being in pain. -->
   <PawnTooltipPsychicEntropyDesc>心灵熵在释放心灵能力之后会增加。超过常规限制之后可能会导致持续数天的心灵崩溃。\n\n心灵熵会随着时间自然消散。这一过程可以通过穿着灵质服装或者感受苦痛来加快。</PawnTooltipPsychicEntropyDesc>
-  <!-- EN: Pain boost\n\nPain focuses the mind and speeds up psychic entropy recovery.\n\nPain level: {0}\nBonus to entropy recovery: {1} -->
+  <!-- EN: Pain boost\n\nPain focuses the mind and speeds up neural heat dissipation.\n\nPain level: {0}\nBonus to heat recovery: {1} -->
   <PawnTooltipPsychicEntropyPainFocus>疼痛激励\n\n痛苦使思想集中；同时能够加速恢复心灵熵。\n\n疼痛等级：{0}\n心灵熵恢复倍率：{1}</PawnTooltipPsychicEntropyPainFocus>
-  <!-- EN: Toggle psychic entropy limiter. Exceeding your entropy limit may cause a psychic breakdown lasting days. It won't cause permanent damage. -->
+  <!-- EN: Toggle neural heat limiter. Exceeding your heat limit may cause a psychic breakdown lasting days. It won't cause permanent damage. -->
   <PawnTooltipPsychicEntropyLimit>切换心灵熵限制器。\n\n心灵熵超限制可能会导致长期的心灵崩溃，但并不会造成永久伤害。</PawnTooltipPsychicEntropyLimit>
   <!-- EN: Psyfocus: {0} -->
   <PawnTooltipPsyfocus>精神力：{0}}</PawnTooltipPsyfocus>
