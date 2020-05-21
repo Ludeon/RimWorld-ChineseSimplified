@@ -51,6 +51,11 @@
   <TooCloseToOtherBeacon>距离其他信标太近</TooCloseToOtherBeacon>
   
   <!-- Meditation -->
+
+  <!-- EN: Psyfocus -->
+  <Psyfocus>精神力</Psyfocus>
+  <!-- EN: Psyfocus is a special type of mental structuring which is necessary to perform psycasts. Psyfocus dissipates over time, and must be built by regular meditation. Losing all psyfocus makes someone unable to perform psycasts, but has no other consequences.\n\nHigher levels of psyfocus permit higher-level psycasts, but also increase the rate of psyfocus dissipation. -->
+  <PsyfocusDesc>精神力是释放心灵能力所必须的一种精神结构。精神力会随着时间的推移而消散，可以通过定期冥想来恢复精神力。失去所有的精神力便无法使用心灵能力。\n\n更高的精神力水平能够使用更强的心灵能力，但同时也会使精神力降低更快</PsyfocusDesc>
   <!-- EN: {0}-{1}% -->
   <PsyfocusLevelInfoRange>{0}-{1}%</PsyfocusLevelInfoRange>
   <!-- EN: Up to level {0} psycasts. -->
@@ -71,7 +76,7 @@
   <AbilityOnCooldown>能力正在冷却中。它会在{0}后可用。</AbilityOnCooldown>
   <!-- EN: ability already queued. -->
   <AbilityAlreadyQueued>能力已经加入序列</AbilityAlreadyQueued>
-  <!-- EN: no entropy to dump. -->
+  <!-- EN: no heat to dump. -->
   <AbilityNoEntropyToDump>没有心灵熵</AbilityNoEntropyToDump>
   <!-- EN: Ability ready: {0} -->
   <AbilityReadyLabel>能力就绪：{0}</AbilityReadyLabel>
