@@ -20,7 +20,7 @@
     <li>theirHisHer(lodgersCount>=2)->their</li>
     <li>appreciateAppreciates(lodgersCount==1)->appreciates</li>
     <li>appreciateAppreciates(lodgersCount>=2)->appreciate</li>
-    <li>goodwillForMood(goodwillRewardForMood==true,priority=1)->\n\n[lodgersLabelSingOrPluralDef] [appreciateAppreciates] quality accomodation. You will gain goodwill with [asker_faction_name] if you keep [theirHisHer] average mood above 50%.</li>
+    <li>goodwillForMood(goodwillRewardForMood==true,priority=1)->\n\n[lodgersLabelSingOrPluralDef] [appreciateAppreciates] quality accommodation. You will gain goodwill with [asker_faction_name] if you keep [theirHisHer] average mood above 50%.</li>
     <li>goodwillForMood-></li>
     <li>questDescription(askerIsNull==true,lodgersCount==1)->A [lodgers0_title] named [lodgers0_nameFull] wants you to protect [lodgers0_objective] at [map_definite] for [shuttleDelayTicks_duration]. [allLodgerInfo][threatsInfo1][commonDescEnding]\n\n[joinerEnding]</li>
     <li>threatsInfo1(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n[lodgers0_nameDef] was recently caught [wrongAct]. Seeking revenge, [enemyFaction_pawnsPlural] will come for [lodgers0_objective] as long as [lodgers0_pronoun] is with you. [enemyGroupsParagraph]</li>
@@ -51,8 +51,8 @@
     <li>secretInfo->prison camps</li>
     <li>secretInfo->[enemyFaction_leaderTitle]</li>
     <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount==1)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], is fleeing a troubling political situation and wants to hide out at [map_definite] for [shuttleDelayTicks_duration]. [threatsInfo5][allLodgerInfo][goodwillForMood][commonDescEnding]\n\n[joinerEnding]</li>
-    <li>threatsInfo5(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n[asker_nameDef]'s enemies have hired [enemyFaction_name] to hunt [asker_objective]. They will attack while [asker_nameDef] is present. [enemyGroupsParagraph]</li>
-    <li>threatsInfo5(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[asker_nameDef]'s enemies provoked mechanoids into to hunting [asker_objective]. The mechs will attack while [asker_nameDef] is present. [enemyGroupsParagraph]</li>
+    <li>threatsInfo5(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n[asker_nameDef]'s enemies have hired [enemyFaction_name] to hunt [asker_objective]. [enemyGroupsParagraph]</li>
+    <li>threatsInfo5(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[asker_nameDef]'s enemies provoked mechanoids into to hunting [asker_objective]. [enemyGroupsParagraph]</li>
     <li>threatsInfo5(generateThreats==true,threatType==MechClusters)->\n\n[asker_nameDef]'s enemies have somehow provoked mechanoids into hunting [asker_objective]. [enemyGroupsParagraph]</li>
     <li>threatsInfo5(generateThreats==false)-></li>
     <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount>=2)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], wants to stay at [map_definite] for [shuttleDelayTicks_duration] with [lodgersCountMinusOne] court [allyAllies]. [threatsInfo6][allLodgerInfo][goodwillForMood][commonDescEnding]\n\n[joinerEnding]</li>
@@ -105,8 +105,8 @@
     <li>secretInfo->监狱营地</li>
     <li>secretInfo->[enemyFaction_leaderTitle]</li>
     <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount==1)->[asker_faction_name] 的 [asker_royalTitleInCurrentFaction] [asker_nameFull] 正在逃避令人不安的政治局势， 并想在[map_definite]躲藏[shuttleDelayTicks_duration]。 [threatsInfo5][allLodgerInfo][goodwillForMood][commonDescEnding]\n\n[joinerEnding]</li>
-    <li>threatsInfo5(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n[asker_nameDef] 的敌人雇佣了 [enemyFaction_name] 来拘捕 [asker_objective]。 只要[asker_nameDef] 还在那里，他们就会不断地进攻。\n [enemyGroupsParagraph]</li>
-    <li>threatsInfo5(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[asker_nameDef]的敌人引来机械族猎杀[asker_objective]。 只要 [asker_nameDef] 还在那里， 它们就会不断地进攻。 [enemyGroupsParagraph]</li>
+    <li>threatsInfo5(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n[asker_nameDef] 的敌人雇佣了 [enemyFaction_name] 来拘捕 [asker_objective]。 [enemyGroupsParagraph]</li>
+    <li>threatsInfo5(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[asker_nameDef]的敌人引来机械族猎杀[asker_objective]。 [enemyGroupsParagraph]</li>
     <li>threatsInfo5(generateThreats==true,threatType==MechClusters)->\n\n[asker_nameDef] 的敌人用某种未知的方式引来机械集群猎杀[asker_objective]。 [enemyGroupsParagraph]</li>
     <li>threatsInfo5(generateThreats==false)-></li>
     <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount>=2)->[asker_faction_name] 的 [asker_royalTitleInCurrentFaction]， [asker_nameFull] 想在[map_definite]和[lodgersCountMinusOne]名被审判的[allyAllies]停留[shuttleDelayTicks_duration]。 [threatsInfo6][allLodgerInfo][goodwillForMood][commonDescEnding]\n\n[joinerEnding]</li>

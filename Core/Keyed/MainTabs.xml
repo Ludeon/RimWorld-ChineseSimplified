@@ -256,6 +256,8 @@
   <QuestOutcomeInfo_UnknownOrSuccess>你已完成此任务。</QuestOutcomeInfo_UnknownOrSuccess>
   <!-- EN: You failed this quest. -->
   <QuestOutcomeInfo_Failed>你未完成此任务。</QuestOutcomeInfo_Failed>
+  <!-- EN: This quest became invalid before it was accepted. -->
+  <QuestOutcomeInfo_Invalid>这个任务在接受之前就已经失效了。</QuestOutcomeInfo_Invalid>
   <!-- EN: Jump to {0} -->
   <JumpToTargetCustom>跳转至{0}</JumpToTargetCustom>
   <!-- EN: Select hives -->
@@ -290,6 +292,10 @@
   <GoodwillTip>你与{0_name}的好感将会提升{1}。\n\n当前好感度：{4}（{5}）。\n\n好感度用来衡量派系间的态度。如果它落到{2}以下，这个派系会变成你的敌人，并且会袭击你的定居点和商队。如果它上升到{3}以上，此派系会成为你的盟友，并且尽可能地派遣战士帮助你。否则此派系会保持中立，能够与你自由交易和对话。</GoodwillTip>
   <!-- EN: {0_labelShort} joins -->
   <PawnQuestReward>{0_labelShort}加入</PawnQuestReward>
+  
+  <!-- Health tab -->
+  <!-- EN: Creates need -->
+  <CreatesNeed>创建需求</CreatesNeed>
 
   <!-- UNUSED -->
   <DecreeGivenDaysAgo>{0}天前颁布的法令</DecreeGivenDaysAgo>
