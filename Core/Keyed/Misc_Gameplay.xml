@@ -432,8 +432,8 @@
   <SpawningNextPawnIn>生成{0}</SpawningNextPawnIn>
   <!-- EN: {0} assembly completes in {1}. -->
   <MechAssemblyCompleteIn>{0}在{1}中装配完成。</MechAssemblyCompleteIn>
-  <!-- EN: Will assemble {0}. text_todo -->
-  <MechAssemblyNextType>将装配{0}。</MechAssemblyNextType>
+  <!-- EN: Will assemble -->
+  <MechAssemblyNextType>将装配</MechAssemblyNextType>
   <!-- EN: produced -->
   <ThingsProduced>产生</ThingsProduced>
   <!-- EN: harvested -->
@@ -1284,8 +1284,6 @@
   <NotBonded>尚未绑定</NotBonded>
   <!-- EN: bonded to someone else -->
   <BladelinkBondedToSomeoneElse>绑定到其他人</BladelinkBondedToSomeoneElse>
-  <!-- EN: P-{LABEL} -->
-  <PersonaWeaponLabel>ρ-{LABEL}</PersonaWeaponLabel>
 
   <!-- Biocoded weapons -->
   <!-- EN: biocoded {0} -->
@@ -1314,6 +1312,7 @@
   <CausedByHediff>由于：{0}</CausedByHediff>
   
   <!-- UNUSED -->
+  <PersonaWeaponLabel>ρ-{LABEL}</PersonaWeaponLabel>
   <PawnTooltipPsychicEntropyStatPsyfocusEntropyLimit>最大阈值乘数</PawnTooltipPsychicEntropyStatPsyfocusEntropyLimit>
   <PawnTooltipPsychicEntropy>心灵熵：{0}/{1}\n下降速率：{2}/{3}秒（{4}秒归零）\n\n使用心灵能力后心灵熵增加。\n超出安全限制会导致后遗症。\n每当熵归零都会产生精神宿醉。</PawnTooltipPsychicEntropy>
   <Complete>完成</Complete>
