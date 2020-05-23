@@ -28,8 +28,6 @@
   <PsycastNeurotrainerDescription>一次性使用的超剂量机械液可训练特定的心灵能力。\n\n该药剂是通过眼眶给药的。一旦进入到大脑中，这些机械分子就形成了一种特定的心灵能力的知识，并根据需要将其转化为神经组织。</PsycastNeurotrainerDescription>
   <!-- EN: {USER_labelShort} used neurotrainer to learn the {1} psycast. -->
   <AbilityNeurotrainerUsed>{USER_labelShort}使用神经训练器学会了{1}的心灵能力。</AbilityNeurotrainerUsed>
-  <!-- EN: {USER_labelShort} has reached level {1} psylink and has automatically learned this psycast: {2}. -->
-  <PsycastLearnedFromImplant>{USER_labelShort}已达到启灵神经等级{1}，并已自动习得此心灵能力: {2}。</PsycastLearnedFromImplant>
   <!-- EN: Requires psylink -->
   <PsycastNeurotrainerNoPsylink>需要启灵神经</PsycastNeurotrainerNoPsylink>
   <!-- EN: {USER_labelShort} already knows {1}. -->
@@ -115,6 +113,7 @@
   <!-- EN: {PAWN_labelShort} has completed the linking ritual with {LINKABLE_labelShort}.\n\n{PAWN_pronoun} how has an upgraded psylink, permitting the use of new psycasts. -->
   <LetterTextLinkingRitualCompleted>{PAWN_labelShort}完成了与{LINKABLE_labelShort}的连接仪式。\n\n{PAWN_pronoun}现在获得了一次启灵升级，能够使用新的心灵能力。</LetterTextLinkingRitualCompleted>
   <!-- UNUSED -->
+  <PsycastLearnedFromImplant>{USER_labelShort}已达到启灵神经等级{1}，并已自动习得此心灵能力: {2}。</PsycastLearnedFromImplant>
   <BeginLinkingRitualNeedPsylink>需要起灵神经</BeginLinkingRitualNeedPsylink>
   <LetterTextLinkingRitualCompletedPartNewAbility>{PAWN_pronoun}也获得了一个新的心灵能力：{1}</LetterTextLinkingRitualCompletedPartNewAbility>
   <PsycastNeurotrainerNoPsychicAmplifier>需要心灵增幅装置</PsycastNeurotrainerNoPsychicAmplifier>
