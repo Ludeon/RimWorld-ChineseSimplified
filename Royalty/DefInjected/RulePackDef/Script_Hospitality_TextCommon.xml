@@ -8,9 +8,9 @@
     <li>lodgersLabelSingOrPluralDef(lodgersCount==1)->[lodgers0_nameDef]</li>
     <li>lodgersLabelSingOrPluralDef(lodgersCount>=2)->the [lodgersLabelPlural]</li>
     <li>healthInfo-></li>
-    <li>healthInfo(lodgersAreParalyzed==true,lodgersHaveBloodRot==true,priority=1)->\n\n[paralyzedInfo]\n\n[bloodRotInfo]</li>
-    <li>healthInfo(lodgersAreParalyzed==true,lodgersHaveBloodRot==false,priority=1)->\n\n[paralyzedInfo]</li>
-    <li>healthInfo(lodgersAreParalyzed==false,lodgersHaveBloodRot==true,priority=1)->\n\n[bloodRotInfo]</li>
+    <li>healthInfo(lodgersHaveBloodRotAndParalysis==true,priority=1)->\n\n[paralyzedInfo]\n\n[bloodRotInfo]</li>
+    <li>healthInfo(lodgersAreParalyzed==true,priority=1)->\n\n[paralyzedInfo]</li>
+    <li>healthInfo(lodgersHaveBloodRot==true,priority=1)->\n\n[bloodRotInfo]</li>
     <li>paralyzedInfo->[lodgersLabelSingOrPluralDef] [areIs] suffering from paralytic abasia and must be kept in bed.</li>
     <li>bloodRotInfo->[lodgersLabelSingOrPluralDef] [areIs] sick with blood rot and will require daily treatment. The disease can be slowed with high-quality care and medicine, but generally cannot be cured outright. If the disease becomes severe [lodgersLabelSingOrPluralDef] will die, so ensure you have the necessary medical supplies.</li>
     <li>minMoodInfo-></li>
@@ -55,9 +55,9 @@
     <li>lodgersLabelSingOrPluralDef(lodgersCount==1)->[lodgers0_nameDef]</li>
     <li>lodgersLabelSingOrPluralDef(lodgersCount>=2)->[lodgersLabelPlural]</li>
     <li>healthInfo-></li>
-    <li>healthInfo(lodgersAreParalyzed==true,lodgersHaveBloodRot==true,priority=1)->\n\n[paralyzedInfo]\n\n[bloodRotInfo]</li>
-    <li>healthInfo(lodgersAreParalyzed==true,lodgersHaveBloodRot==false,priority=1)->\n\n[paralyzedInfo]</li>
-    <li>healthInfo(lodgersAreParalyzed==false,lodgersHaveBloodRot==true,priority=1)->\n\n[bloodRotInfo]</li>
+    <li>healthInfo(lodgersHaveBloodRotAndParalysis==true,priority=1)->\n\n[paralyzedInfo]\n\n[bloodRotInfo]</li>
+    <li>healthInfo(lodgersAreParalyzed==true,priority=1)->\n\n[paralyzedInfo]</li>
+    <li>healthInfo(lodgersHaveBloodRot==true,priority=1)->\n\n[bloodRotInfo]</li>
     <li>paralyzedInfo->[lodgersLabelSingOrPluralDef] [areIs] 因患有麻痹症而必须卧床休息。</li>
     <li>bloodRotInfo->[lodgersLabelSingOrPluralDef] [areIs] 因患有坏血病而必须每天接受治疗。 这种疾病的进展可以通过高质量的护理和药物来延缓， 但通常不会被治愈。 如果疾病变得足够严重， 将会导致[lodgersLabelSingOrPluralDef]死亡， 所以要确保你有足够的医疗药品。</li>
     <li>minMoodInfo-></li>

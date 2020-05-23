@@ -234,8 +234,6 @@
   <Stat_Thing_Surgery_SuccessChanceFactor_CantFail_Desc>执行此操作对患者是安全的。</Stat_Thing_Surgery_SuccessChanceFactor_CantFail_Desc>
   <!-- EN: The chance the patient will die upon failure of this surgery. -->
   <Stat_Thing_Surgery_DeathOnFailChance_Desc>患者因手术失败而死亡的概率。</Stat_Thing_Surgery_DeathOnFailChance_Desc>
-  <!-- EN: The addictiveness of this drug. -->
-  <Stat_Thing_Drug_Addictiveness_Desc>该药物的成瘾性。</Stat_Thing_Drug_Addictiveness_Desc>
   <!-- EN: Total bleed factor -->
   <Stat_Hediff_TotalBleedFactor_Name>失血量系数</Stat_Hediff_TotalBleedFactor_Name>
   <!-- EN: A multiplier applied to the overall rate of blood loss. -->
@@ -288,6 +286,42 @@
   <Stat_Thing_Biocoded_Name>生体识别</Stat_Thing_Biocoded_Name>
   <!-- EN: This item has been coded to only accept a particular individual's bio-signature. -->
   <Stat_Thing_Biocoded_Desc>该物品经过生体编译只能给识别给特定的人使用。</Stat_Thing_Biocoded_Desc>
+
+  <!-- Drugs -->
+  <!-- EN: The active chemical in this.\n\nIn some cases, the same chemical is present in multiple different drugs. These different drugs will satisfy the same addiction in different ways. -->
+  <Stat_Thing_Drug_Chemical_Desc>这种药物的活性化学物质。\n\n某些情况下，多种不同的药物可能含有同一化学成分。这些不同的药物能通过不同的方式来满足同一种成瘾需求。</Stat_Thing_Drug_Chemical_Desc>
+  <!-- EN: The intensity of high gained per dose of this drug. -->
+  <Stat_Thing_Drug_HighGainPerDose_Desc>每剂这种药物能提供的浓度。</Stat_Thing_Drug_HighGainPerDose_Desc>
+  <!-- EN: How much this drug's high will decay each day. -->
+  <Stat_Thing_Drug_HighFallPerDay_Desc>这种药物每天减少的浓度。</Stat_Thing_Drug_HighFallPerDay_Desc>
+  <!-- EN: How long this drug's high will last per dose.\n\nThis is calculated from the high gained per dose and the high fall rate. -->
+  <Stat_Thing_Drug_HighDurationPerDose_Desc>这种药物服用后能维持有效浓度的时间。\n\n这是由每剂药物浓度和浓度降低速率计算出来的。</Stat_Thing_Drug_HighDurationPerDose_Desc>
+  <!-- EN: How much a user's tolerance to the chemical will increase for each dose of this drug.\n\nThis can be different for different forms of the same chemical. -->
+  <Stat_Thing_Drug_ToleranceGainPerDose_Desc>使用者每剂这种药物会提升的抗药性。\n\n对于同一化学物质，不同的获得方式会有不同的抗药性。</Stat_Thing_Drug_ToleranceGainPerDose_Desc>
+  <!-- EN: How much a user's tolerance to the chemical will fall per day. -->
+  <Stat_Thing_Drug_ToleranceFallPerDay_Desc>使用者对这种化学物质抗药性每天减少的量。</Stat_Thing_Drug_ToleranceFallPerDay_Desc>
+  <!-- EN: The minimum tolerance required to become newly addicted to this drug.\n\nIf a user is below this tolerance level, they can't become newly addicted from taking a dose. -->
+  <Stat_Thing_Drug_MinToleranceForAddiction_Desc>初次成瘾所需的最低抗药性。\n\n如果服用者的抗药性低于这个数值，他们在未成瘾时服用这个药物就不会成瘾。</Stat_Thing_Drug_MinToleranceForAddiction_Desc>
+  <!-- EN: A user will never become addicted if they never take the drug more often than this.\n\nThis is calculated from the drug's minimum tolerance to addict, the tolerance gain per dose, and the rate of tolerance decay.\n\nNote that some drugs don't have a safe interval. Such drugs can addict on any dose, even the first one. -->
+  <Stat_Thing_Drug_SafeDoseInterval_Desc>安全服用间隔，服用者如果从未超过此频率服用药物，就不会成瘾。\n\n这是根据药物成瘾抗药性阈值、每剂抗药性和抗药性降低速率来计算出来的。\n\n请注意，有些药物没有安全服用间隔，这类药物在任何剂量下服用都会成瘾。</Stat_Thing_Drug_SafeDoseInterval_Desc>
+  <!-- EN: The chance of a random overdose when taking this drug. Random overdoses can happen on any dose, whether it's a new user's first try or an experienced addict's hundredth hit. -->
+  <Stat_Thing_Drug_RandomODChance_Desc>服用这种药物会随机地产生药物过量的可能性。无论是初次尝试还是有数以百计经验的瘾君子，都有可能在服用时产生随机的药物过量。</Stat_Thing_Drug_RandomODChance_Desc>
+  <!-- EN: The chance of addiction per dose of this drug.\n\nIf the drug has a minimum tolerance to addict, the tolerance must be above that level for this to apply. If there is no minimum tolerance, any dose can cause an addiction. -->
+  <Stat_Thing_Drug_Addictiveness_Desc>该药物的成瘾性，每剂药物产生成瘾的几率。\n\n如果这种药物有一个最低成瘾抗药性，那么只有在抗药性高于这个数值时才会成瘾。否则任何剂量都有可能导致成瘾。</Stat_Thing_Drug_Addictiveness_Desc>
+  <!-- EN: New addictions caused by this drug begin at this severity level.\n\nTaking more of the drug will increase addiction severity, while time will reduce it. -->
+  <Stat_Thing_Drug_AddictionSeverityInitial_Desc>由这种药物产生成瘾性的初始严重程度。\n\n服用更多的药物会增加成瘾的严重程度，而随着时间会逐渐减少。</Stat_Thing_Drug_AddictionSeverityInitial_Desc>
+  <!-- EN: How long it takes to recover from an initial addiction to this drug.\n\nThis is be calculated from the new addiction severity divided by the rate of addiction recovery. An addiction which has been fed will take longer. -->
+  <Stat_Thing_Drug_AddictionRecoveryTime_Desc>摆脱这种药物的初次成瘾所需的时间。\n\n这是根据初始成瘾程度除以成瘾恢复速度来计算的，累计过的成瘾度会需要更长的时间。</Stat_Thing_Drug_AddictionRecoveryTime_Desc>
+  <!-- EN: How much severity is added to an existing addiction for each dose of this drug.\n\nAddiction severity cannot go above 100%. -->
+  <Stat_Thing_Drug_AddictionSeverityPerDose_Desc>每剂这种药物对成瘾性增加的严重程度。\n\n成瘾度不能超过100%。</Stat_Thing_Drug_AddictionSeverityPerDose_Desc>
+  <!-- EN: How often an addict needs to take a dose of this drug to feed the addiction and prevent withdrawal.\n\nThis is calculated from the addiction need fall rate and the need fill per dose. -->
+  <Stat_Thing_Drug_AddictionNeedDoseInterval_Desc>药物成瘾者防止产生戒断而需要服用此药物的间隔。\n\n这是根据成瘾性需求的降低速率和每剂满足成瘾需求的量来计算出来的。</Stat_Thing_Drug_AddictionNeedDoseInterval_Desc>
+  <!-- EN: How much each dose of this drug fills an addict's need for the chemical. -->
+  <Stat_Thing_Drug_AddictionNeedOffset_Desc>这种药物每剂能满足对应化学品需求的量。</Stat_Thing_Drug_AddictionNeedOffset_Desc>
+  <!-- EN: How quickly an addict's need for the chemical will fall. -->
+  <Stat_Thing_Drug_AddictionNeedFallRate_Desc>成瘾者对这种化学品需求的满足度降低速率。</Stat_Thing_Drug_AddictionNeedFallRate_Desc>
+  <!-- EN: The market value of drugs that must be consumed per day to support an addiction to this drug without going into withdrawal.\n\nThis value is calculated from the addict's chemical need per dose, the need fall rate, and the market value of this drug.\n\nNote that there may be other ways to get the same chemical with different costs. -->
+  <Stat_Thing_Drug_AddictionCost_Desc>在满足需求并不产生戒断的情况下每日必须消费成瘾品的市场价值。\n\n这个值时根据每剂化学品需求、需求下降速率和该药物的市场价值计算出来的。\n\n需要注意的是可能有多种不同的方式来获取相同的化学物质。</Stat_Thing_Drug_AddictionCost_Desc>
 
   <!-- UNUSED -->
   <Stat_Thing_Weapon_Biocoded_Name>生体识别</Stat_Thing_Weapon_Biocoded_Name>
