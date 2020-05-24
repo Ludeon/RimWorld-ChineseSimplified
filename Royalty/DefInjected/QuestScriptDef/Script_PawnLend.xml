@@ -17,7 +17,7 @@
     <li>pawnListHaveConjugation(colonistsToLendCount>1)->have</li>
   -->
   <PawnLend.questDescriptionRules.rulesStrings>
-    <li>questDescription(asker_factionLeader==True)->[asker_faction_name] 的 [asker_faction_leaderTitle] [asker_nameFull] 需要人手帮忙 [dutyDescription]。\n\n[asker_pronoun]要求你将[asker_objective] [colonistCountToLend]派出[lendForDays]天。\n\n[willSendShuttle]</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_faction_name] 的 [asker_faction_leaderTitle] [asker_nameFull] 需要人手帮忙 [dutyDescription]。\n\n[asker_pronoun]要求你将 [colonistCountToLend] 借给[asker_objective] [lendForDays]天。\n\n[willSendShuttle]</li>
     <li>disease->流感</li>
     <li>disease->瘟疫</li>
     <li>disease->疟疾</li>
