@@ -24,10 +24,10 @@
   <RoomRequirementAllBraziersMustBeLit>所有火盆必须点燃</RoomRequirementAllBraziersMustBeLit>
   <!-- EN: all fine floored -->
   <RoomRequirementAllFineFloored>铺满精致的地板</RoomRequirementAllFineFloored>
-  <!-- EN: no production facilities -->
-  <RoomRequirementNoProductionFacilities>无生产设施</RoomRequirementNoProductionFacilities>
-  <!-- EN: no beds -->
-  <RoomRequirementNoBeds>不能有床</RoomRequirementNoBeds>
+  <!-- EN: no work facilities allowed -->
+  <RoomRequirementNoProductionFacilities>不允许有生产设施</RoomRequirementNoProductionFacilities>
+  <!-- EN: no beds allowed -->
+  <RoomRequirementNoBeds>不允许有床</RoomRequirementNoBeds>
   <!-- EN: Holders of this title must be covered in some combination of -->
   <RoyalTitleRequiredApparelStatDescription>此头衔的持有者必须在以下几种方式组合使用</RoyalTitleRequiredApparelStatDescription>
   <!-- EN: Any prestige armor -->
@@ -67,7 +67,11 @@
   <!-- EN: {PAWN_labelShort} is incapable of social tasks. Those with royal titles have great need of social skills, so if {PAWN_labelShort} gains a title, {PAWN_pronoun} may have a difficult time. Another colonist might be more socially-adept. -->
   <RoyalIncapableOfSocial>{PAWN_labelShort}无法进行社交活动。 被授予荣誉头衔的人对社交能力的需求很高， 如果{PAWN_labelShort}获得一个头衔， {PAWN_pronoun}可能会过得很艰难。 其他殖民者可能更善于社交。</RoyalIncapableOfSocial>
   <!-- EN: Since {PAWN_labelShort} is {2}, {PAWN_pronoun} will demand that the title's privileges be fully respected. {PAWN_labelShort} may refuse to do certain work types or eat low-class food, and will issue decrees. Another colonist would probably be more flexible. -->
-  <RoyalWithConceitedTrait>由于{PAWN_labelShort}是{2}， {PAWN_pronoun}将会索求这个头衔的全部特权。 {PAWN_labelShort}可以拒绝进行一些类型的工作、抗拒低劣的食物、并且颁布法令。 其他殖民者可能会更加灵活变通一些。</RoyalWithConceitedTrait>
+  <RoyalWithConceitedTrait>当{PAWN_labelShort}是{2}时， {PAWN_pronoun}将会索求这个头衔的全部特权。 {PAWN_labelShort}可以拒绝进行一些类型的工作、抗拒低劣的食物、并且颁布法令。 其他殖民者可能会更加灵活变通一些。</RoyalWithConceitedTrait>
+  <!-- EN: Since {PAWN_labelShort} is {2}, the psylink might not be useful for {PAWN_possessive}. -->
+  <RoyalWithTraitAffectingPsylinkNegatively>当{PAWN_labelShort}是{2}时，启灵神经可能无法使用。</RoyalWithTraitAffectingPsylinkNegatively>
+  <!-- EN: {PAWN_labelShort}'s psylink is not at a high enough level to use {ABILITY}.\n\nGain the psycast anyways? -->
+  <PsylinkTooLowForGainAbility>{PAWN_labelShort}的启灵等级不足以使用{ABILITY}。\n\n真的要获取这个能力么？</PsylinkTooLowForGainAbility>
 
   <!-- UNUSED -->
   <ApparelRequirementAnyRoyalPowerArmor>任意皇家装甲</ApparelRequirementAnyRoyalPowerArmor>
