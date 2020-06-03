@@ -18,6 +18,10 @@
     <li>specialNeedsExplanation-></li>
     <li>theirHisHer(lodgersCount==1)->[lodgers0_possessive]</li>
     <li>theirHisHer(lodgersCount>=2)->their</li>
+    <li>lodgersPronoun(lodgersCount==1)->[lodgers0_pronoun]</li>
+    <li>lodgersPronoun(lodgersCount>=2)->they</li>
+    <li>lodgersWasWere(lodgersCount==1)->was</li>
+    <li>lodgersWasWere(lodgersCount>=2)->were</li>
     <li>appreciateAppreciates(lodgersCount==1)->appreciates</li>
     <li>appreciateAppreciates(lodgersCount>=2)->appreciate</li>
     <li>goodwillForMood(goodwillRewardForMood==true,priority=1)->\n\n[lodgersLabelSingOrPluralDef] [appreciateAppreciates] quality accommodation. You will gain goodwill with [asker_faction_name] if you keep [theirHisHer] average mood above 50%.</li>
@@ -72,6 +76,10 @@
     <li>specialNeedsExplanation-></li>
     <li>theirHisHer(lodgersCount==1)->[lodgers0_possessive]</li>
     <li>theirHisHer(lodgersCount>=2)->他们的</li>
+    <li>lodgersPronoun(lodgersCount==1)->[lodgers0_pronoun]</li>
+    <li>lodgersPronoun(lodgersCount>=2)->他们</li>
+    <li>lodgersWasWere(lodgersCount==1)->本</li>
+    <li>lodgersWasWere(lodgersCount>=2)->本</li>
     <li>appreciateAppreciates(lodgersCount==1)->感谢</li>
     <li>appreciateAppreciates(lodgersCount>=2)->感谢</li>
     <li>goodwillForMood(goodwillRewardForMood==true,priority=1)->\n\n[lodgersLabelSingOrPluralDef] [appreciateAppreciates] 高质量的住宿。 如果你保持 [theirHisHer] 的平均心情在 50% 以上， 你会获得与[asker_faction_name]的好感。</li>

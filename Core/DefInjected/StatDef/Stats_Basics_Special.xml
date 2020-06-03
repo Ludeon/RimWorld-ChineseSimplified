@@ -18,11 +18,13 @@
   <!-- EN: The maximum quality of medical tending that can be achieved while using this.\n\nBetter tend quality allows skilled doctors to treat wounds better, as well as more reliably. -->
   <MedicalQualityMax.description>这个物品所能提供的最高医疗治疗质量。\n\n更好的治疗质量能让熟练医生更好地处理伤口，使治疗更可靠。</MedicalQualityMax.description>
   
-  <!-- EN: meditation focus strength -->
-  <MeditationFocusStrength.label>冥想专注力</MeditationFocusStrength.label>
-  <!-- EN: The amount of extra psyfocus someone gains by focusing on this object during meditation. For some objects, this number can change depending on the surroundings and the person doing the meditating. -->
-  <MeditationFocusStrength.description>这个物体在冥想中能够提供的额外精神力数值。对于一些物体来说，这个数值会因为周围的环境或者冥想的人而发生变化。</MeditationFocusStrength.description>
-  <!-- EN: {0}/d -->
+  <!-- EN: meditation psyfocus bonus -->
+  <MeditationFocusStrength.label>冥想增效</MeditationFocusStrength.label>
+  <!-- EN: The amount of extra psyfocus someone gains by focusing on this object during meditation, in addition to their own base rate of meditation psyfocus gain.\n\nFor some objects, this number can change depending on the surroundings and the person doing the meditating. -->
+  <MeditationFocusStrength.description>这个媒介在冥想中能够提供的额外精神力数值。\n\n对于一些媒介来说，这个数值会因为周围的环境或者冥想的人而发生变化。</MeditationFocusStrength.description>
+  <!-- EN: {0} / day -->
   <MeditationFocusStrength.formatString>{0}/天</MeditationFocusStrength.formatString>
+  <!-- EN: {0} / day -->
+  <MeditationFocusStrength.formatStringUnfinalized>{0}/天</MeditationFocusStrength.formatStringUnfinalized>
   
 </LanguageData>
