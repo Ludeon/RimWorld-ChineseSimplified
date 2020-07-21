@@ -2,12 +2,35 @@
 <LanguageData>
 
   <!-- Shuttle landing zones -->
-  <!-- EN: Shuttle could not land on pad: {0}. -->
+  <!-- EN: Shuttle could not land on pad: {0} -->
   <ShuttleBlocked>穿梭机不能在着陆区降落：{0}</ShuttleBlocked>
-  <!-- EN: blocked by {0_label} -->
+  <!-- EN: blocked by {0_label}. -->
   <BlockedBy>被{0_label}阻挡</BlockedBy>
+  <!-- EN: The shuttle has arrived. -->
+  <MessageShuttleArrived>穿梭机已抵达</MessageShuttleArrived>
+  <!-- EN: The shuttle arrived, but since there were no colonists inside, the contents were lost. -->
+  <MessageShuttleArrivedContentsLost>穿梭机已抵达，但由于里面没有殖民者，包含的所有货物已丢失。</MessageShuttleArrivedContentsLost>
+  <!-- EN: Cannot call shuttle -->
+  <CannotCallShuttle>无法呼叫穿梭机</CannotCallShuttle>
+
+  <!-- EN: Cannot land in undiscovered area. -->
+  <ShuttleCannotLand_Fogged>无法降落在未发现的区域。</ShuttleCannotLand_Fogged>
+  <!-- EN: Area must be walkable. -->
+  <ShuttleCannotLand_Unwalkable>区域必须可以行走。</ShuttleCannotLand_Unwalkable>
 
   <!-- EN: Warning: Anima tree has been marked for cutting. -->
   <MessageWarningCutAnimaTree>警告：仙树被标记割除。</MessageWarningCutAnimaTree>
+
+  <!-- EN: Select {TARGET_definite} and right-click the bestower to begin the bestowing ceremony. -->
+  <MessageBestowerWaiting>选择{TARGET_definite}并右键布施者来开始一场授勋仪式。</MessageBestowerWaiting>
+  <!-- EN: Cannot reach bestower! -->
+  <MessageBestowerUnreachable>无法接触布施者！</MessageBestowerUnreachable>
+  <!-- EN: The bestower is annoyed with the interference and has decided to leave. -->
+  <MessageBestowingSpotUnreachable>布施者对这种干扰很恼火并决定离开了。</MessageBestowingSpotUnreachable>
+
+  <!-- EN: {PAWN_definite}'s bestowing ceremony has begun. -->
+  <MessageBestowingCeremonyStarted>{PAWN_definite}的授勋仪式已经开始。</MessageBestowingCeremonyStarted>
+  <!-- EN: You defeated the {FACTION_pawnsPlural}! Get back on the shuttle to launch it. -->
+  <MessageMissionGetBackToShuttle>你击败了{FACTION_pawnsPlural}！回到穿梭机并发射它。</MessageMissionGetBackToShuttle>
 
 </LanguageData>

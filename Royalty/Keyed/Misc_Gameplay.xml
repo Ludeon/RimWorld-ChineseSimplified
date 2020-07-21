@@ -2,12 +2,8 @@
 <LanguageData>
 
   <!-- Royalty and throne -->
-  <!-- EN: Appropriate for title: {0} -->
-  <ThroneTitleStature>符合的头衔: {0}</ThroneTitleStature>
-  <!-- EN: Previous title satisfied: {0} -->
-  <ThronePrevTitleStature>上一个被满足的头衔: {0}</ThronePrevTitleStature>
-  <!-- EN: Next title satisfied: {0} -->
-  <ThroneNextTitleStature>下一个被满足的头衔: {0}</ThroneNextTitleStature>
+  <!-- EN: Satisfies title -->
+  <ThroneMaxSatisfiedTitle>符合头衔</ThroneMaxSatisfiedTitle>
   <!-- EN: ({0} impressiveness) -->
   <ThroneRoomImpressivenessInfo>({0} 印象深刻)</ThroneRoomImpressivenessInfo>
   <!-- EN: Throne must be placed indoors. -->
@@ -22,8 +18,8 @@
   <!-- Generated neurotrainers -->
   <!-- EN: psytrainer ({0}) -->
   <PsycastNeurotrainerLabel>心灵训练器({0})</PsycastNeurotrainerLabel>
-  <!-- EN: Use neurotrainer to learn {0} psycast -->
-  <PsycastNeurotrainerUseLabel>使用神经训练器来学习{0}心灵能力</PsycastNeurotrainerUseLabel>
+  <!-- EN: Use psytrainer to learn {0} psycast -->
+  <PsycastNeurotrainerUseLabel>使用心灵训练器来学习{0}心灵能力</PsycastNeurotrainerUseLabel>
   <!-- EN: A one-use super-dose of mechanites which trains a specific psycast.\n\nThe dose is administered through the orbit of the eye. Once released into the brain, the mechanites form knowledge of a specific psycast ability, transmuting themselves into neural tissue as needed. -->
   <PsycastNeurotrainerDescription>一次性使用的超剂量机械液可训练特定的心灵能力。\n\n该药剂是通过眼眶给药的。一旦进入到大脑中，这些机械分子就形成了一种特定的心灵能力的知识，并根据需要将其转化为神经组织。</PsycastNeurotrainerDescription>
   <!-- EN: {USER_labelShort} used neurotrainer to learn the {1} psycast. -->
@@ -49,10 +45,9 @@
   <TooCloseToOtherBeacon>距离其他信标太近</TooCloseToOtherBeacon>
   
   <!-- Meditation -->
-
   <!-- EN: Psyfocus -->
   <Psyfocus>精神力</Psyfocus>
-  <!-- EN: Psyfocus is a special type of mental structuring which is necessary to perform psycasts. Psyfocus dissipates over time, and must be built by regular meditation. Losing all psyfocus makes someone unable to perform psycasts, but has no other consequences.\n\nHigher levels of psyfocus permit higher-level psycasts, but also increase the rate of psyfocus dissipation. -->
+  <!-- EN: Psyfocus is a special type of mental structuring which is necessary to perform psycasts. Psyfocus dissipates over time, and must be built by regular meditation. Losing all psyfocus makes someone unable to perform psycasts, but has no other consequences.\n\nHigher levels of psyfocus permit higher-level psycasts, but also increase the rate of psyfocus dissipation -->
   <PsyfocusDesc>精神力是释放心灵能力所必须的一种精神结构。精神力会随着时间的推移而消散，可以通过定期冥想来恢复精神力。失去所有的精神力便无法使用心灵能力。\n\n更高的精神力水平能够使用更强的心灵能力，但同时也会使精神力降低更快</PsyfocusDesc>
   <!-- EN: {0}-{1}% -->
   <PsyfocusLevelInfoRange>{0}-{1}%</PsyfocusLevelInfoRange>
@@ -64,6 +59,22 @@
   <UserMeditationFocusStrength>冥想专注力（{LASTUSER_labelShort}）</UserMeditationFocusStrength>
   <!-- EN: Focus effect impacted by -->
   <MeditationFocusImpacted>专注力效果受影响</MeditationFocusImpacted>
+  <!-- EN: {1} per nearby animus stone (max {0}) -->
+  <MeditationFocusPerAnimusStoneAbstract>{1} 附近每有一块法石（最高{0}）</MeditationFocusPerAnimusStoneAbstract>
+  <!-- EN: {2} per nearby animus stone ({0} / {1}) -->
+  <MeditationFocusPerAnimusStone>{2} 附近每有一块法石（{0}/{1}）</MeditationFocusPerAnimusStone>
+  <!-- EN: Max {1} per nearby sculpture depending on quality (max {0}) -->
+  <MeditationFocusPerSculptureAbstract>最多{1} 附近每有一个雕塑，包含质量因素（最高{0}）</MeditationFocusPerSculptureAbstract>
+  <!-- EN: Max {2} per nearby sculpture depending on quality ({0} / {1}) -->
+  <MeditationFocusPerSculpture>最多{2} 附近每有一个雕塑，包含质量因素（{0}/{1}）</MeditationFocusPerSculpture>
+  <!-- EN: Per nearby grave {1} if empty, {2} for human corpse (up to {0}) -->
+  <MeditationFocusPerGraveAbstract>附近每有一个坟墓，{1}空的，{2}包含人类尸体（最高{0}）</MeditationFocusPerGraveAbstract>
+  <!-- EN: Per nearby grave {2} if empty, {3} for human corpse ({0} / {1}) -->
+  <MeditationFocusPerGrave>附近每有一个坟墓，{2}空的，{3}包含人类尸体（{0}/{1}）</MeditationFocusPerGrave>
+  <!-- EN: {1} per nearby lit flame source (up to {0}) -->
+  <MeditationFocusPerFlameAbstract>{1} 附近每个点燃的火源（最高{0}）</MeditationFocusPerFlameAbstract>
+  <!-- EN: {2} per nearby lit flame source ({0} / {1}) -->
+  <MeditationFocusPerFlame>{2}附近每个点燃的火源（{0}/{1}）</MeditationFocusPerFlame>
   <!-- EN: Psyfocus gain rate: {0}/d -->
   <PsyfocusPerDayOfMeditation>精神力提升速率：{0}/天</PsyfocusPerDayOfMeditation>
   <!-- EN: Desired psyfocus -->
@@ -102,21 +113,39 @@
   <!-- EN: {ORGANIZER_labelShort}'s {1} stat -->
   <AbilitySpeechStatInfo>{ORGANIZER_labelShort}的{1}状态</AbilitySpeechStatInfo>
 
-  <!-- EN: Progress to next {0}: {1} -->
-  <ProgressToNextSubplant>下一进度{0}：{1}</ProgressToNextSubplant>
+  <!-- EN: Total meditation today: {0} (progress multiplier {1}) -->
+  <TotalMeditationToday>今日冥想：{0}（进度乘数{1}）</TotalMeditationToday>
+  <!-- EN: progress {0} -->
+  <ProgressToNextSubplant>进度 {0}</ProgressToNextSubplant>
   <!-- EN: Begin linking ritual -->
   <BeginLinkingRitualFloatMenu>开始共鸣仪式</BeginLinkingRitualFloatMenu>
   <!-- EN: Need {0} {1} here (have {2}) -->
   <BeginLinkingRitualNeedSubplants>附近需要{0} {1}（有{2}）</BeginLinkingRitualNeedSubplants>
-  <!-- EN: Need {0} pyslink focus -->
-  <BeginLinkingRitualNeedFocus>需要{0}精神力</BeginLinkingRitualNeedFocus>
+  <!-- EN: Need {0} psylink focus type -->
+  <BeginLinkingRitualNeedFocus>需要{0}类型</BeginLinkingRitualNeedFocus>
   <!-- EN: Need a free, reachable spot within 3 cells for linking -->
   <BeginLinkingRitualNeedLinkSpot>需要在3格之内有一个可用的地点来进行连接</BeginLinkingRitualNeedLinkSpot>
   <!-- EN: Linking ritual completed -->
   <LetterLabelLinkingRitualCompleted>连接仪式完成</LetterLabelLinkingRitualCompleted>
   <!-- EN: {PAWN_labelShort} has completed the linking ritual with {LINKABLE_labelShort}.\n\n{PAWN_pronoun} now has an upgraded psylink, permitting the use of new psycasts. -->
   <LetterTextLinkingRitualCompleted>{PAWN_labelShort}完成了与{LINKABLE_labelShort}的连接仪式。\n\n{PAWN_pronoun}现在获得了一次启灵升级，能够使用新的心灵能力。</LetterTextLinkingRitualCompleted>
+
+  <!-- EN: Land shuttle here -->
+  <LandHere>穿梭机在此着陆</LandHere>
+  <!-- EN: Destination is out of range. -->
+  <MessageShuttleDestinationIsTooFar>目标超出范围。</MessageShuttleDestinationIsTooFar>
+
+  <!-- EN: Do bestowing ceremony -->
+  <BeginCeremony>执行授勋仪式</BeginCeremony>
+  <!-- EN: The bestower is offended that {PAWN_definite}'s throneroom does not satisfy the requirements of the title of {TITLE}. The bestowing ceremony has been cancelled. -->
+  <BestowingCeremonyThroneroomRequirementsNotSatisfied>布施者因{PAWN_definite}的谒见厅不符合{TITLE}头衔的要求而气愤，授勋仪式被取消了。</BestowingCeremonyThroneroomRequirementsNotSatisfied>
+
+  <!-- EN: Not all required cargo is loaded yet! -->
+  <ShuttleRequiredItemsNotSatisfied>所需物资还没有全部装载！</ShuttleRequiredItemsNotSatisfied>
   <!-- UNUSED -->
+  <ThroneTitleStature>符合的头衔: {0}</ThroneTitleStature>
+  <ThronePrevTitleStature>上一个被满足的头衔: {0}</ThronePrevTitleStature>
+  <ThroneNextTitleStature>下一个被满足的头衔: {0}</ThroneNextTitleStature>
   <PsycastLearnedFromImplant>{USER_labelShort}已达到启灵神经等级{1}，并已自动习得此心灵能力: {2}。</PsycastLearnedFromImplant>
   <BeginLinkingRitualNeedPsylink>需要起灵神经</BeginLinkingRitualNeedPsylink>
   <LetterTextLinkingRitualCompletedPartNewAbility>{PAWN_pronoun}也获得了一个新的心灵能力：{1}</LetterTextLinkingRitualCompletedPartNewAbility>

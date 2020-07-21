@@ -36,4 +36,36 @@
   <!-- EN: Royal title factor -->
   <RecruitmentValueFactorRoyal>荣誉头衔系数</RecruitmentValueFactorRoyal>
   
+  <!-- Permits tab -->
+  <!-- EN: Permits -->
+  <TabPermits>许可</TabPermits>
+  <!-- EN: Permits from {FACTION_name} -->
+  <PermitsFromFaction>{FACTION_name}的许可</PermitsFromFaction>
+  <!-- EN: Current title -->
+  <CurrentTitle>当前头衔</CurrentTitle>
+  <!-- EN: Unused permit points -->
+  <UnusedPermits>未使用的许可点数</UnusedPermits>
+  <!-- EN: Return all permits -->
+  <ReturnAllPermits>退回所有许可点数</ReturnAllPermits>
+  <!-- EN: {PAWN_nameDef} has no permits to return. -->
+  <NoPermitsToReturn>{PAWN_nameDef}没有可退回的许可点数。</NoPermitsToReturn>
+  <!-- EN: Returning permits requires {FAVORCOST} {FAVOR} but {PAWN_nameDef} only has {CURFAVOR}. -->
+  <NotEnoughFavor>退回许可点数需要{FAVORCOST}x{FAVOR}，但是{PAWN_nameDef}只有{CURFAVOR}。</NotEnoughFavor>
+  <!-- EN: Return all previously-chosen permits for this faction. You will regain all the spent permit points and be able to spend them again.\n\nThis action costs {BASEFAVORCOST} {FAVOR}, plus the reset cost of any permits currently on cooldown. The total cost now is {FAVORCOST}. -->
+  <ReturnAllPermits_Desc>退回此派系所有已选择的许可点数。你将会重新获得所有已经使用的许可点数并且能够重新使用它们。\n\n这个操作需要消耗{BASEFAVORCOST}x{FAVOR}，以及当前正在冷却期的所有许可重置成本，总成本现在是{FAVORCOST}。</ReturnAllPermits_Desc>
+  <!-- EN: Return all previously-chosen permits for {FACTION_name}?\n\nYou will regain all the spent permit points and be able to spend them again.\n\nThis action costs {BASEFAVORCOST} {FAVOR}, plus the reset cost of any permits currently on cooldown. The total cost now is {FAVORCOST}. -->
+  <ReturnAllPermits_Confirm>是否退回所有在{FACTION_name}已选择的许可？\n\n你将会重新获得所有已消费的许可点数并且能够重新使用它们。\n\n这个操作消耗{BASEFAVORCOST}x{FAVOR}，以及当前正在冷却期的所有许可重置成本，总成本现在是{FAVORCOST}。</ReturnAllPermits_Confirm>
+  <!-- EN: Switch faction -->
+  <SwitchFaction_Desc>切换派系</SwitchFaction_Desc>
+  <!-- EN: Accept permit -->
+  <AcceptPermit>接受许可</AcceptPermit>
+  <!-- EN: Requires title: {0} -->
+  <RequiresTitle>需要头衔：{0}</RequiresTitle>
+  <!-- EN: Upgrade from: {0} -->
+  <UpgradeFrom>升级自：{0}</UpgradeFrom>
+  <!-- EN: Cooldown -->
+  <Cooldown>冷却</Cooldown>
+  <!-- EN: {HONOR} cost if used during cooldown -->
+  <CooldownUseFavorCost>冷却期使用成本：{HONOR}</CooldownUseFavorCost>
+  
 </LanguageData>

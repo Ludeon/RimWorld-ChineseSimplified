@@ -36,10 +36,20 @@
   <!-- EN: Teleport the target to a random position near where he started. -->
   <ChaosSkip.description>把目标传送到附近的一个随机位置。</ChaosSkip.description>
   
+  <!-- EN: chunk skip -->
+  <Chunkskip.label>块堆折跃</Chunkskip.label>
+  <!-- EN: Skip the 5 chunks of rock or slag to scatter them near the target point. This is useful for producing cover during offensive operations. -->
+  <Chunkskip.description>将5块石块或者钢渣之类的块堆折跃并分散到目标位置附近。这对于在进攻行动中快速制造掩体非常有用。</Chunkskip.description>
+  
   <!-- EN: neural heat dump -->
   <EntropyDump.label>熵转移</EntropyDump.label>
   <!-- EN: Instantly dump all your neural heat into someone else. As a side-effect, the target will fall into a debilitating but non-damaging coma for about a day. The target must actively accept the psychic invasion, so only conscious allies can be targeted. -->
   <EntropyDump.description>立刻把你的所有心灵熵都倾注到目标身上。作为副作用，目标会陷入一个大约持续一天的昏迷中。目标必须主动接受精神入侵，所以只有清醒的盟友才能成为目标。</EntropyDump.description>
+  
+  <!-- EN: farskip -->
+  <Farskip.label>远距离折跃</Farskip.label>
+  <!-- EN: Skip the caster, along with anyone standing near him, to an ally at a distant location. This can send people far across the planet, but only works if there is a willing ally on the other side to use as a navigation beacon. The skipped people will always appear near a random ally on the target map. -->
+  <Farskip.description>折跃施法者以及站在他附近的所有人，去往一个远处的盟友位置。这能够让人们抵达星球上很远的位置，但必须在目标位置有一个愿意充当坐标的盟友时才有效果。被折跃的人总是出现在目标地图上的随机盟友附近。</Farskip.description>
   
   <!-- EN: flashstorm -->
   <Flashstorm.label>闪电风暴</Flashstorm.label>
@@ -66,6 +76,13 @@
   <!-- EN: Skip everyone near a target point to a random location nearby. -->
   <MassChaosSkip.description>把目标点周围的人传送到附近的一个随机位置。</MassChaosSkip.description>
   
+  <!-- EN: neuroquake -->
+  <Neuroquake.label>神经震颤</Neuroquake.label>
+  <!-- EN: Find a discontinuity in the psychic field and unfold it, releasing a massive amount of psychic energy. Every creature on the map outside of a safe circle near the caster will be driven violently insane. Casting this takes three hours of meditation, and afterwards, the caster will go into a three-day psychic coma. The disturbing neuroquake echoes will inflict pain on everyone for many kilometers around, causing diplomatic consequences with all factions. -->
+  <Neuroquake.description>找到一个不连续的心灵场并展开它，释放出大量的精神能量。地图上在靠近施法者的安全圈之外的所有生物都会被疯狂驱使。释放这个能力需要三个小时的冥想，在这之后施法者会进入三天的心灵休克状态。令人不安的神经震颤回响会给周围数公里内的每个人造成痛苦，并且对所有派系产生外交影响。</Neuroquake.description>
+  <!-- EN: If you use neuroquake, everyone in this region will feel the neuroquake echo, you will lose goodwill with every non-hostile faction.\n\nNeuroquake takes three hours to cast, and cannot be interrupted. The caster will also fall into a psychic coma for several days.\n\nEveryone on the map except those in a small circle around the caster will be affected.\n\nDo you really want to cast neuroquake? -->
+  <Neuroquake.confirmationDialogText>如果你使用神经震颤，这个地区的所有人都会感受到“神经震颤”的回响，你将失去与所有非敌对派系的友好关系。\n\n神经震颤需要三个小时的释放时间，并且不能被打断。施法者也会进入心灵休克数天。\n\n地图上除了施法者周围一个小范围的人之外，其他人都会受到影响。\n\n你真的要释放神经震颤吗？</Neuroquake.confirmationDialogText>
+  
   <!-- EN: painblock -->
   <Painblock.label>止痛</Painblock.label>
   <!-- EN: Block pain pathways in the target's brain for a short time. This can allow a person to move and act even with grievous injuries which would normally incapacitate them. -->
@@ -80,6 +97,11 @@
   <Smokepop.label>烟雾</Smokepop.label>
   <!-- EN: Skip dust particles up from under the ground surface to form a thick cloud. This reduces the accuracy of any shot fired through it, and preventing turrets from locking on entirely. -->
   <Smokepop.description>利用地上的灰尘颗粒扬起一团厚厚的烟雾，这会降低通过它发射的任何炮弹的精度，并防止被炮塔精确锁定。</Smokepop.description>
+  
+  <!-- EN: solar pinhole -->
+  <SolarPinhole.label>太阳碎片</SolarPinhole.label>
+  <!-- EN: Generate a microscopic skipgate linked to the core of a nearby star. Solar material leaks through the pinprick in spacetime, illuminating and warming the surrounding area until it closes. -->
+  <SolarPinhole.description>产生一个与附近恒星相连的微小空间碎片。太阳物质在时空中穿过碎片，照亮并加热周围的区域，直到它关闭。</SolarPinhole.description>
   
   <!-- EN: throne speech -->
   <Speech.label>威严演说</Speech.label>
@@ -105,5 +127,30 @@
   <Waterskip.label>水传送</Waterskip.label>
   <!-- EN: Douse a target area in water, extinguishing fires. The water is archotechnologically skipped from distant bodies of water or underground aquifers. -->
   <Waterskip.description>将目标区域浸入水中，扑灭火焰。从技术上说，水是从遥远的水源或者是地下水层中传送出来的。</Waterskip.description>
+  
+  <!-- EN: word of inspiration -->
+  <WordOfInspiration.label>启迪之语</WordOfInspiration.label>
+  <!-- EN: Speak words encouraging creativity while psychically hypercharging the target's mind with new ideas. The target will experience a random inspiration appropriate to them. -->
+  <WordOfInspiration.description>通过鼓励的话传递心灵能量，使目标的精神受到启发。目标将获得一个适合的随机灵感。</WordOfInspiration.description>
+  
+  <!-- EN: word of joy -->
+  <WordOfJoy.label>欢欣之语</WordOfJoy.label>
+  <!-- EN: Speak happy, calming words to someone while using psychic suggestion to implant a joyfuzz loop in his mind. The joyfuzz will suppress uncomfortable thoughts and sensations in the target to improve mood. This has the side-effect of dulling sensation and decision-making, which reduces consciousness. -->
+  <WordOfJoy.description>通过快乐平静的话语传递心灵能量，同时用心灵暗示在目标脑中植入一个欢欣暗示。欢欣暗示会抑制目标不愉快的想法以改善情绪。这样做的副作用是使人感觉迟钝而降低意识。</WordOfJoy.description>
+  
+  <!-- EN: word of love -->
+  <WordOfLove.label>迷爱之语</WordOfLove.label>
+  <!-- EN: Speak about someone's romantic virtues while using psychic suggestion to implant romantic desire in the listener. For days afterward, the listener will feel psychically-induced romantic attraction towards the other person. This greatly increases opinion and makes them much more likely to attempt romantic advances and marriage proposals if they get the chance. This psycast can be used to connect two other people, induce love for the caster, or force oneself to love another. -->
+  <WordOfLove.description>谈论关于某人的浪漫同时并使用心理暗示向听者灌输浪漫的欲望。在接下来的几天里，听者会感觉到心灵感应的浪漫中另一个人产生的吸引力。这大大增强了他们的看法，使他们更有可能在有机会的情况下表达爱意。这个心灵能力可以用来链接另外两人，诱导对施法者的爱，甚至对自己的爱。</WordOfLove.description>
+  
+  <!-- EN: word of serenity -->
+  <WordOfSerenity.label>宁神之语</WordOfSerenity.label>
+  <!-- EN: Use calming words and psychic suggestion to end a mental break on a person or animal. The target will fall into a short psychic sleep. The psyfocus cost depends on the intensity of the target's mental break. -->
+  <WordOfSerenity.description>通过平静的话语和心理暗示来结束人或动物的精神崩溃状态。目标会进入短暂的心灵沉睡。精神力的代价取决于目标的精神崩溃强度。</WordOfSerenity.description>
+  
+  <!-- EN: word of trust -->
+  <WordOfTrust.label>信赖之语</WordOfTrust.label>
+  <!-- EN: Speak to the prisoner while using psychic suggestion to reduce his resistance to recruitment. This psycast can only reduce a prisoner's resistance, but cannot recruit him. -->
+  <WordOfTrust.description>与囚犯交谈，同时使用心理暗示来降低他对招募的抵抗情绪。这个心灵能力只能降低囚犯的抵抗，并不能招募他。</WordOfTrust.description>
   
 </LanguageData>

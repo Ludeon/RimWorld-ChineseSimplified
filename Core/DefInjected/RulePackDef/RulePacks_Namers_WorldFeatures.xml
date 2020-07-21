@@ -2,7 +2,7 @@
 <LanguageData>
   
   <!-- EN:
-    <li>standardname(p=0.2)->isle [narrative_name]</li>
+    <li>r_name(p=0.2)->isle [narrative_name]</li>
     <li>terrain_word(p=4)->islands</li>
     <li>terrain_word(p=3)->isles</li>
     <li>terrain_word(p=3)->archipelago</li>
@@ -14,7 +14,7 @@
     <li>terrain_word->chain</li>
   -->
   <NamerArchipelago.rulePack.rulesStrings>
-    <li>standardname(p=0.2)->[narrative_name]群岛</li>
+    <li>r_name(p=0.2)->[narrative_name]群岛</li>
     <li>terrain_word(p=4)->群岛</li>
     <li>terrain_word(p=3)->群岛</li>
     <li>terrain_word(p=3)->列岛</li>
@@ -48,7 +48,7 @@
   </NamerAridShrubland.rulePack.rulesStrings>
   
   <!-- EN:
-    <li>standardname(p=0.2)->gulf of [narrative_name]</li>
+    <li>r_name(p=0.2)->gulf of [narrative_name]</li>
     <li>terrain_word(p=6)->bay</li>
     <li>terrain_word->bight</li>
     <li>terrain_word->gulf</li>
@@ -56,7 +56,7 @@
     <li>terrain_word->cove</li>
   -->
   <NamerBay.rulePack.rulesStrings>
-    <li>standardname(p=0.2)->[narrative_name]湾</li>
+    <li>r_name(p=0.2)->[narrative_name]湾</li>
     <li>terrain_word(p=6)->湾</li>
     <li>terrain_word->湾</li>
     <li>terrain_word->湾</li>
@@ -84,7 +84,7 @@
   </NamerBorealForest.rulePack.rulesStrings>
   
   <!-- EN:
-    <li>standardname(p=0.4)->[desert_adjective] [narrative_name]</li>
+    <li>r_name(p=0.4)->[desert_adjective] [narrative_name]</li>
     <li>desert_adjective->flat</li>
     <li>desert_adjective->white</li>
     <li>desert_adjective->endless</li>
@@ -108,7 +108,7 @@
     <li>terrain_word->barrens</li>
   -->
   <NamerDesert.rulePack.rulesStrings>
-    <li>standardname(p=0.4)->[desert_adjective][narrative_name]</li>
+    <li>r_name(p=0.4)->[desert_adjective][narrative_name]</li>
     <li>desert_adjective->平坦的</li>
     <li>desert_adjective->白色的</li>
     <li>desert_adjective->无垠的</li>
@@ -167,7 +167,7 @@
   </NamerIceSheet.rulePack.rulesStrings>
   
   <!-- EN:
-    <li>standardname(p=0.2)->isle [narrative_name]</li>
+    <li>r_name(p=0.2)->isle [narrative_name]</li>
     <li>terrain_word(p=4)->island</li>
     <li>terrain_word(p=2)->isle</li>
     <li>terrain_word->reef</li>
@@ -177,7 +177,7 @@
     <li>terrain_word->point</li>
   -->
   <NamerIsland.rulePack.rulesStrings>
-    <li>standardname(p=0.2)->[narrative_name]岛</li>
+    <li>r_name(p=0.2)->[narrative_name]岛</li>
     <li>terrain_word(p=4)->岛</li>
     <li>terrain_word(p=2)->岛</li>
     <li>terrain_word->礁</li>
@@ -188,7 +188,7 @@
   </NamerIsland.rulePack.rulesStrings>
   
   <!-- EN:
-    <li>standardname->lake [narrative_name]</li>
+    <li>r_name->lake [narrative_name]</li>
     <li>terrain_word(p=6)->lake</li>
     <li>terrain_word->sea</li>
     <li>terrain_word->pond</li>
@@ -199,7 +199,7 @@
     <li>terrain_word(p=0.3)->loch</li>
   -->
   <NamerLake.rulePack.rulesStrings>
-    <li>standardname->[narrative_name]湖</li>
+    <li>r_name->[narrative_name]湖</li>
     <li>terrain_word(p=6)->湖</li>
     <li>terrain_word->内海</li>
     <li>terrain_word->湖</li>
@@ -211,7 +211,7 @@
   </NamerLake.rulePack.rulesStrings>
   
   <!-- EN:
-    <li>standardname(p=0.2)->mount [narrative_name]</li>
+    <li>r_name(p=0.2)->mount [narrative_name]</li>
     <li>terrain_word(p=5)->mountains</li>
     <li>terrain_word(p=2)->range</li>
     <li>terrain_word->peaks</li>
@@ -219,7 +219,7 @@
     <li>terrain_word->cliffs</li>
   -->
   <NamerMountainRange.rulePack.rulesStrings>
-    <li>standardname(p=0.2)->[narrative_name]山</li>
+    <li>r_name(p=0.2)->[narrative_name]山</li>
     <li>terrain_word(p=5)->山脉</li>
     <li>terrain_word(p=2)->山</li>
     <li>terrain_word->峰</li>
@@ -228,7 +228,7 @@
   </NamerMountainRange.rulePack.rulesStrings>
   
   <!-- EN:
-    <li>standardname(p=0.4)->[ocean_adjective] [narrative_name]</li>
+    <li>r_name(p=0.4)->[ocean_adjective] [narrative_name]</li>
     <li>ocean_adjective->blue</li>
     <li>ocean_adjective->white</li>
     <li>ocean_adjective->gray</li>
@@ -247,7 +247,7 @@
     <li>terrain_word->expanse</li>
   -->
   <NamerOcean.rulePack.rulesStrings>
-    <li>standardname(p=0.4)->[ocean_adjective][narrative_name]</li>
+    <li>r_name(p=0.4)->[ocean_adjective][narrative_name]</li>
     <li>ocean_adjective->蓝色的</li>
     <li>ocean_adjective->白色的</li>
     <li>ocean_adjective->灰色的</li>
@@ -267,8 +267,8 @@
   </NamerOcean.rulePack.rulesStrings>
   
   <!-- EN:
-    <li>standardname(p=0.2)->point [narrative_name]</li>
-    <li>standardname(p=0.2)->cape [narrative_name]</li>
+    <li>r_name(p=0.2)->point [narrative_name]</li>
+    <li>r_name(p=0.2)->cape [narrative_name]</li>
     <li>terrain_word(p=5)->peninsula</li>
     <li>terrain_word(p=2)->point</li>
     <li>terrain_word->cape</li>
@@ -276,8 +276,8 @@
     <li>terrain_word->horn</li>
   -->
   <NamerPeninsula.rulePack.rulesStrings>
-    <li>standardname(p=0.2)->[narrative_name]角</li>
-    <li>standardname(p=0.2)->[narrative_name]半岛</li>
+    <li>r_name(p=0.2)->[narrative_name]角</li>
+    <li>r_name(p=0.2)->[narrative_name]半岛</li>
     <li>terrain_word(p=5)->半岛</li>
     <li>terrain_word(p=2)->角</li>
     <li>terrain_word->海角</li>
@@ -286,21 +286,21 @@
   </NamerPeninsula.rulePack.rulesStrings>
   
   <!-- EN:
-    <li>standardname(p=0.1)->lake [narrative_name]</li>
+    <li>r_name(p=0.1)->lake [narrative_name]</li>
     <li>terrain_word(p=6)->sea</li>
     <li>terrain_word->ocean</li>
     <li>terrain_word->lake</li>
   -->
   <NamerSea.rulePack.rulesStrings>
-    <li>standardname(p=0.1)->[narrative_name]湖</li>
+    <li>r_name(p=0.1)->[narrative_name]湖</li>
     <li>terrain_word(p=6)->湖</li>
     <li>terrain_word->湖</li>
     <li>terrain_word->湖</li>
   </NamerSea.rulePack.rulesStrings>
   
   <!-- EN:
-    <li>standardname(p=0.1)->fen [narrative_name]</li>
-    <li>standardname(p=0.3)->[swamp_adjective] [narrative_name]</li>
+    <li>r_name(p=0.1)->fen [narrative_name]</li>
+    <li>r_name(p=0.3)->[swamp_adjective] [narrative_name]</li>
     <li>swamp_adjective->wet</li>
     <li>swamp_adjective->steamy</li>
     <li>swamp_adjective->choking</li>
@@ -319,8 +319,8 @@
     <li>terrain_word->fen</li>
   -->
   <NamerSwamp.rulePack.rulesStrings>
-    <li>standardname(p=0.1)->[narrative_name]沼泽</li>
-    <li>standardname(p=0.3)->[swamp_adjective][narrative_name]</li>
+    <li>r_name(p=0.1)->[narrative_name]沼泽</li>
+    <li>r_name(p=0.3)->[swamp_adjective][narrative_name]</li>
     <li>swamp_adjective->潮湿的</li>
     <li>swamp_adjective->湿热的</li>
     <li>swamp_adjective->窒息的</li>
@@ -340,7 +340,7 @@
   </NamerSwamp.rulePack.rulesStrings>
   
   <!-- EN:
-    <li>standardname(p=0.3)->[rainforest_adjective] [narrative_name]</li>
+    <li>r_name(p=0.3)->[rainforest_adjective] [narrative_name]</li>
     <li>rainforest_adjective->wet</li>
     <li>rainforest_adjective->steamy</li>
     <li>rainforest_adjective->choking</li>
@@ -356,7 +356,7 @@
     <li>terrain_word->tangle</li>
   -->
   <NamerTropicalRainforest.rulePack.rulesStrings>
-    <li>standardname(p=0.3)->[rainforest_adjective][narrative_name]</li>
+    <li>r_name(p=0.3)->[rainforest_adjective][narrative_name]</li>
     <li>rainforest_adjective->潮湿的</li>
     <li>rainforest_adjective->湿热的</li>
     <li>rainforest_adjective->窒息的</li>

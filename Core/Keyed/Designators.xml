@@ -214,14 +214,14 @@
   <InteractionSpotWillOverlap>互动区会与{1_labelShort}的互动区重叠。</InteractionSpotWillOverlap>
   <!-- EN: Interaction spot overlaps with the interaction spot of {1_labelShort}. -->
   <InteractionSpotOverlaps>互动区会与{1_labelShort}的互动区重叠。</InteractionSpotOverlaps>
-  <!-- EN: Monuments cannot be placed over other buildings. -->
-  <MonumentOverlapsBuilding>纪念碑不能放置在其他建筑之上。</MonumentOverlapsBuilding>
-  <!-- EN: Monument cannot be placed adjacent to a building. -->
-  <MonumentAdjacentToBuilding>纪念碑标记不能直接放置在任何建筑物附近。</MonumentAdjacentToBuilding>
-  <!-- EN: Monuments cannot be placed on incompatible terrain. -->
-  <MonumentBadTerrain>纪念碑无法放置在无法支撑结构的地形。</MonumentBadTerrain>
-  <!-- EN: Monuments cannot be placed over permanent obstructions. -->
-  <MonumentBlockedPermanently>纪念碑无法放置在永久障碍物之上。</MonumentBlockedPermanently>
+  <!-- EN: Cannot place monument over: {0}. -->
+  <CannotPlaceMonumentOver>无法在此之上放置纪念碑：{0}。</CannotPlaceMonumentOver>
+  <!-- EN: Cannot build on: {0}. -->
+  <CannotPlaceMonumentOnTerrain>不能在此建造：{0}。</CannotPlaceMonumentOnTerrain>
+  <!-- EN: Cannot place monument over: {0}. -->
+  <MonumentOverlapsBuilding>无法在此之上放置纪念碑：{0}。</MonumentOverlapsBuilding>
+  <!-- EN: Monument cannot be placed adjacent to: {0}. -->
+  <MonumentAdjacentToBuilding>纪念碑标记不能直接放置在附近：{0}。</MonumentAdjacentToBuilding>
   
   <!-- Mouse attachments -->
   <!-- EN: Expand {0} or\nCreate new {1} -->
@@ -242,5 +242,9 @@
   <NoColonistWithAllSkillsForConstructing>你的{0}没有一个具备所需的技能。</NoColonistWithAllSkillsForConstructing>
   <!-- EN: All of your {0} who have this skill are not assigned to {1}. -->
   <AllColonistsWithSkillHaveDisabledConstructingTip>你的所有拥有此技能的{0}都没有指派{1}工作。</AllColonistsWithSkillHaveDisabledConstructingTip>
+
+  <!-- UNUSED -->
+  <MonumentBadTerrain>纪念碑无法放置在无法支撑结构的地形。</MonumentBadTerrain>
+  <MonumentBlockedPermanently>纪念碑无法放置在永久障碍物之上。</MonumentBlockedPermanently>
 
 </LanguageData>

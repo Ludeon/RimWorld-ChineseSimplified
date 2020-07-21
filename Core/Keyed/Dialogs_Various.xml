@@ -11,6 +11,8 @@
   <OK>确定</OK>
   <!-- EN: Close -->
   <Close>关闭</Close>
+  <!-- EN: Accept -->
+  <Accept>接受</Accept>
   
   <!-- Game updated to new version -->
   <!-- EN: RimWorld has been updated from version {0} to version {1}. -->
@@ -614,12 +616,16 @@
   <!-- Form caravan -->
   <!-- EN: Form caravan -->
   <FormCaravan>组建远行队</FormCaravan>
+  <!-- EN: Send -->
+  <Send>发送</Send>
   <!-- EN: Number available to send with the caravan. -->
   <FormCaravanColonyThingCountTip>可以用远行队运送的物品数量。</FormCaravanColonyThingCountTip>
   <!-- EN: People and animals -->
   <PawnsTab>人和动物</PawnsTab>
   <!-- EN: Items -->
   <ItemsTab>物品</ItemsTab>
+  <!-- EN: Food and medicine -->
+  <FoodAndMedicineTab>食物和药品</FoodAndMedicineTab>
   <!-- EN: You must assign at least one non-downed colonist. -->
   <CaravanMustHaveAtLeastOneColonist>必须指派至少一位可行动的殖民者。</CaravanMustHaveAtLeastOneColonist>
   <!-- EN: The chosen exit location ({0}) is inaccessible. -->
@@ -712,6 +718,8 @@
   <AnimalsSection>动物</AnimalsSection>
   <!-- EN: Choose route -->
   <ChooseRouteButton>选择路径</ChooseRouteButton>
+  <!-- EN: Change route -->
+  <ChangeRouteButton>改变路径</ChangeRouteButton>
   <!-- EN: Abandon -->
   <AbandonButton>抛弃</AbandonButton>
   <!-- EN: Movement speed -->
@@ -742,6 +750,8 @@
   <FactionType>派系类型</FactionType>
   <!-- EN: Total body size -->
   <TotalBodySize>总体形</TotalBodySize>
+  <!-- EN: Automatically select food and medicine -->
+  <AutomaticallySelectFoodAndMedicine>自动选择二食物和药品</AutomaticallySelectFoodAndMedicine>
 
   <!-- Split caravan -->
   <!-- EN: Split caravan -->
@@ -778,6 +788,8 @@
   <TransporterItemIsUnreachableMulti>运输舱与{1}x{0}之间没有路径。</TransporterItemIsUnreachableMulti>
   <!-- EN: There is no path between the shuttle and {0}x {1}. -->
   <TransporterSingleItemIsUnreachableMulti>穿梭机与{1}x{0}之间没有路径。</TransporterSingleItemIsUnreachableMulti>
+  <!-- EN: Only {0} colonists maximum allowed. -->
+  <TransporterSingleTooManyColonists>最多只允许{0}个殖民者。</TransporterSingleTooManyColonists>
   
   <!-- Comms -->
   <!-- EN: Social skill: {0} -->
@@ -968,7 +980,7 @@
   <ConfirmCleanupTranslationFiles_Confirm>是的，我已经备份。</ConfirmCleanupTranslationFiles_Confirm>
 
   <!-- Load transporters -->
-  <!-- EN: The caravan will be immobile if you send the pods to an empty tile. Continue anyway? -->
+  <!-- EN: The caravan will be immobile if you launch to an empty tile. Continue anyway? -->
   <TransportersCaravanWillBeImmobile>如果将空投舱发射到地图上的空地，远行队将不会移动。是否继续？</TransportersCaravanWillBeImmobile>
 
   <!-- Confirm cancel monument marker -->
@@ -990,13 +1002,60 @@
   <AbilityCastingTime>释放时间</AbilityCastingTime>
   <!-- EN: No line of sight to target. -->
   <AbilityCannotHitTarget>看不见目标。</AbilityCannotHitTarget>
+  <!-- EN: Can't reach the target. -->
+  <AbilityCannotReachTarget>无法抵达目标。</AbilityCannotReachTarget>
+  <!-- EN: Not enough free space. -->
+  <AbilityNotEnoughFreeSpace>没有足够的空间。</AbilityNotEnoughFreeSpace>
   <!-- EN: {0} must target an empty area. -->
   <AbilityOccupiedCells>{0}必须瞄准空置区域。</AbilityOccupiedCells>
   <!-- EN: {0} must target a walkable area. -->
   <AbilityUnwalkable>{0}必须瞄准可行走区域。</AbilityUnwalkable>
   <!-- EN: {0} must target an unroofed area. -->
   <AbilityRoofed>{0}必须瞄准不在屋顶下的区域。</AbilityRoofed>
-  <!-- EN: {0} is mentally broken. -->
-  <AbilityCantApplyToMentallyBroken>{0}精神崩溃。</AbilityCantApplyToMentallyBroken>
+  <!-- EN: {0_labelShort} is mentally broken. -->
+  <AbilityCantApplyToMentallyBroken>{0_labelShort}精神崩溃。</AbilityCantApplyToMentallyBroken>
+  <!-- EN: {0_labelShort} is not mentally broken. -->
+  <AbilityCanOnlyApplyToMentallyBroken>{0_labelShort}没有精神崩溃。</AbilityCanOnlyApplyToMentallyBroken>
+  <!-- EN: {0} doesn't work on the '{1}' mental state. -->
+  <AbilityDoesntWorkOnMentalState>{0}无法作用于'{1}'精神状态。</AbilityDoesntWorkOnMentalState>
+  <!-- EN: {0_labelShort} has zero resistance. -->
+  <AbilityCantApplyNoResistance>{0_labelShort}已经毫无抵抗。</AbilityCantApplyNoResistance>
+  <!-- EN: Cannot use: {0} is asexual. -->
+  <AbilityCantApplyOnAsexual>无法使用：{0}无性。</AbilityCantApplyOnAsexual>
+  <!-- EN: {1_labelShort} is the wrong gender for {0_labelShort}. -->
+  <AbilityCantApplyWrongAttractionGender>{1_labelShort}对于{0_labelShort}有一个错误的性别。</AbilityCantApplyWrongAttractionGender>
+  <!-- EN: Psyfocus cost per mental break intensity -->
+  <PsyfocusCostPerMentalBreakIntensity>直接精神崩溃的精神力需求</PsyfocusCostPerMentalBreakIntensity>
+  <!-- EN: {0_labelShort} is already inspired. -->
+  <AbilityAlreadyInspired>{0_labelShort}已经处于激励状态。</AbilityAlreadyInspired>
+  <!-- EN: {0_labelShort} can't get an inspiration right now. -->
+  <AbilityCantGetInspiredNow>{0_labelShort}当前无法获取激励。</AbilityCantGetInspiredNow>
+  <!-- EN: {0_labelShort} is unconscious. -->
+  <AbilityCantApplyUnconscious>{0_labelShort}失去意识。</AbilityCantApplyUnconscious>
+  <!-- EN: {0_labelShort} is asleep. -->
+  <AbilityCantApplyAsleep>{0_labelShort}睡着了。</AbilityCantApplyAsleep>
+  <!-- EN: This tile is impassable. -->
+  <AbilityWorldTileImpassable>被禁止的头衔。</AbilityWorldTileImpassable>
+  <!-- EN: Skip to random ally -->
+  <AbilitySkipToRandomAlly>折跃至随机盟友</AbilitySkipToRandomAlly>
+  <!-- EN: Skip to join caravan -->
+  <AbilitySkipToJoinCaravan>折跃至远征队</AbilitySkipToJoinCaravan>
+  <!-- EN: Need ally at target for navigation -->
+  <AbilityNeedAllyToSkip>需要指向友方目标</AbilityNeedAllyToSkip>
+  <!-- EN: No chunks to skip. -->
+  <AbilityNoChunkToSkip>没有快堆能折跃。</AbilityNoChunkToSkip>
+  <!-- EN: Induce psychic love in -->
+  <PsychicLoveInduceIn>减弱心灵迷爱</PsychicLoveInduceIn>
+  <!-- EN: Psychic love for -->
+  <PsychicLoveFor>心灵迷爱</PsychicLoveFor>
+  <!-- EN: If you skip {PAWN_labelShort} to another map or a caravan, the associated quest will fail and {PAWN_pronoun} will leave immediately.\n\nDo you really want to farskip {PAWN_labelShort}? -->
+  <FarskipConfirmTeleportingLodger>如果你将{PAWN_labelShort}折跃至另一个地图或者远征队，与之关联的任务将会失败并且{PAWN_pronoun}会立刻离开。\n\n你确定要对{PAWN_labelShort}进行长途折跃吗？</FarskipConfirmTeleportingLodger>
+  
+  <!-- EN: minor -->
+  <MentalBreakIntensityMinor>轻度</MentalBreakIntensityMinor>
+  <!-- EN: major -->
+  <MentalBreakIntensityMajor>中度</MentalBreakIntensityMajor>
+  <!-- EN: extreme -->
+  <MentalBreakIntensityExtreme>重度</MentalBreakIntensityExtreme>
   
 </LanguageData>

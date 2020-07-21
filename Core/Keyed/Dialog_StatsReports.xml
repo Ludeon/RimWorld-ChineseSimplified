@@ -50,6 +50,10 @@
   <StatsReport_AgeMultiplier>年龄（{0}）乘数</StatsReport_AgeMultiplier>
   <!-- EN: Multiplier for health {0} -->
   <StatsReport_HealthMultiplier>耐久（{0}）乘数</StatsReport_HealthMultiplier>
+  <!-- EN: Cost to reload ({COUNT} {AMMO_label}) -->
+  <StatsReport_ReloadMarketValue>装填消耗（{COUNT}x{AMMO_label}）</StatsReport_ReloadMarketValue>
+  <!-- EN: Multiplier for remaining {CHARGENOUN_plural} ({0}) -->
+  <StatsReport_ReloadRemainingChargesMultipler>剩余{CHARGENOUN_plural} ({0})</StatsReport_ReloadRemainingChargesMultipler>
   <!-- EN: Multiplier for mood {0} -->
   <StatsReport_MoodMultiplier>心情（{0}）乘数</StatsReport_MoodMultiplier>
   <!-- EN: Multiplier for light {0} -->
@@ -280,6 +284,26 @@
   <Stat_Thing_Terrain_Fine_Desc>这种地板观感十分精致，适合贵族使用。</Stat_Thing_Terrain_Fine_Desc>
   <!-- EN: The amount of power this building will draw from the power grid. -->
   <Stat_Thing_PowerConsumption_Desc>该建筑物将从电网中获取的电量。</Stat_Thing_PowerConsumption_Desc>
+  <!-- EN: {CHARGENOUN_plural} remaining -->
+  <Stat_Thing_ReloadChargesRemaining_Name>{CHARGENOUN_plural}剩余</Stat_Thing_ReloadChargesRemaining_Name>
+  <!-- EN: The number of {CHARGENOUN_plural} remaining on this object. If these run out, the special ability can no longer be used. -->
+  <Stat_Thing_ReloadChargesRemaining_Desc>此物体上剩余的{CHARGENOUN_plural}数量。如果用完了，这个特殊的能力将无法使用。</Stat_Thing_ReloadChargesRemaining_Desc>
+  <!-- EN: {CHARGENOUN_plural} -->
+  <Stat_Thing_ReloadMaxCharges_Name>{CHARGENOUN_plural}</Stat_Thing_ReloadMaxCharges_Name>
+  <!-- EN: The maximum number of {CHARGENOUN_plural} this object has. -->
+  <Stat_Thing_ReloadMaxCharges_Desc>这个物体最多能保持的{CHARGENOUN_plural}数量。</Stat_Thing_ReloadMaxCharges_Desc>
+  <!-- EN: {CHARGENOUN} reload cost -->
+  <Stat_Thing_ReloadRefill_Name>{CHARGENOUN}装填消耗</Stat_Thing_ReloadRefill_Name>
+  <!-- EN: The amount of items required to fully reload this object.\n\nThis object can be reloaded before it is empty, but the cost is the same as if it was empty. -->
+  <Stat_Thing_ReloadRefill_Desc>此物体完全装填需要消耗的物品数量。\n\n此物体在用完之前也可以重新装填，但是消耗和从零装填一致。</Stat_Thing_ReloadRefill_Desc>
+  <!-- EN: Reload cost per {CHARGENOUN} -->
+  <Stat_Thing_ReloadPerCharge_Name>每{CHARGENOUN}装填消耗</Stat_Thing_ReloadPerCharge_Name>
+  <!-- EN: The amount of items required to reload one {CHARGENOUN}. Multiple {CHARGENOUN_plural} can be reloaded at once. -->
+  <Stat_Thing_ReloadPerCharge_Desc>每装填一{CHARGENOUN}需要消耗物品的数量。多个{CHARGENOUN_plural}能一次装填。</Stat_Thing_ReloadPerCharge_Desc>
+  <!-- EN: Vanish on exhaust -->
+  <Stat_Thing_ReloadDestroyOnEmpty_Name>用尽时消失</Stat_Thing_ReloadDestroyOnEmpty_Name>
+  <!-- EN: This item will vanish when its last {CHARGENOUN} is used. -->
+  <Stat_Thing_ReloadDestroyOnEmpty_Desc>这个道具会在最后一个{CHARGENOUN}使用完后消失。</Stat_Thing_ReloadDestroyOnEmpty_Desc>
   <!-- EN: The overall efficiency of this body part. -->
   <Stat_Thing_BodyPartEfficiency_Desc>这个身体部位的整体效率。</Stat_Thing_BodyPartEfficiency_Desc>
   <!-- EN: Biocoding -->

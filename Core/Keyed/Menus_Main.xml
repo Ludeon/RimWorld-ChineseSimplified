@@ -110,7 +110,7 @@
   <WorldSeed>种子</WorldSeed>
   <!-- EN: Randomize seed -->
   <RandomizeSeed>随机种子</RandomizeSeed>
-  <!-- EN: The planet is always the same diameter, but since it’s far larger than needed for play, we don’t generate the whole surface because it can take a very long time. This is the percentage of the surface that you want generated. -->
+  <!-- EN: The planet is always the same diameter, but since it's far larger than needed for play, we don't generate the whole surface because it can take a very long time. This is the percentage of the surface that you want generated. -->
   <PlanetCoverageTip>星球的大小是固定的, 但由于它远远超出正常游戏所需，所以我们默认不会生成整个行星的表面（可能需要很多时间）。这个选项为你所想生成的星球表面比率。</PlanetCoverageTip>
   <!-- EN: Factions -->
   <WorldFactionsTab>派系</WorldFactionsTab>
@@ -284,13 +284,166 @@
   <ReloadAnytimeModeInfo>你可以随时保存或读取游戏。\n\n如果你喜欢这种玩法，或者正在了解游戏，或者选用了可能造成游戏崩溃的mod，或者采用自律方式进行游戏，那么这个模式将是不错的选择。</ReloadAnytimeModeInfo>
   <!-- EN: You can only save when quitting the game.\n\nSince RimWorld is a story generator, even losing all but one person is not the end of the game - it's part of the story. The game is designed to allow recovery after losses.\n\nPlaying out these terrible situations makes a story with both tragedy and triumph. It's the way RimWorld was designed to be played.\n\nThere's a reason Luke Skywalker didn't quit and reload when his family got killed - loss and recovery is dramatic. -->
   <PermadeathModeInfo>你只能在退出游戏时保存进度。当殖民地出现危机时，你无法通过载入进度来弥补错误。\n\nRimWorld是一个故事生成器，失去谁并不是游戏的终点——生与死都是故事的一部分，让人得到感悟。\n\n悲欢离合，失败或是胜利，浓缩为属于你的故事——这就是RimWorld。就像卢克·天行者（星球大战角色）在家人被杀时，没有选择放弃和重新来过一样，失与得都是人生的一部分，充满了戏剧性。</PermadeathModeInfo>
-  <!-- EN: Storyteller and difficulty can be changed any time. -->
-  <CanChangeStorytellerSettingsDuringPlay>叙事者和难度可以随时更改。</CanChangeStorytellerSettingsDuringPlay>
+  <!-- EN: Storyteller and playstyle can be changed any time. -->
+  <CanChangeStorytellerSettingsDuringPlay>叙事者和游戏模式可以随时更改。</CanChangeStorytellerSettingsDuringPlay>
   <!-- EN: Merciless mode -->
   <UnlockExtremeDifficulty>解锁冷酷无情</UnlockExtremeDifficulty>
   <!-- EN: Merciless mode is a special game mode where every challenge is turned up to extreme levels.\n\nMerciless mode unlocks automatically when you reach specific milestones. However, you can unlock it now.\n\nThis option is only recommended once you've played a high-difficulty game or two and want to have a good chance at dying despite your best efforts. -->
   <ConfirmUnlockExtremeDifficulty>冷酷无情是一个特殊的难度，每次挑战都会上升到极限水平。\n\n当你达到特定的里程碑时，冷酷难度会自动解锁，但你现在也可以解锁这个难度。\n\n注意！只有在你体验了一两场最高难度的游戏并打算继续挑战，或者希望体验为挣扎求生而拼尽全力时，才建议使用此难度。</ConfirmUnlockExtremeDifficulty>
 
+  <!-- custom difficulty settings -->
+  <!-- EN: Custom playstyle settings -->
+  <DifficultyCustomSectionLabel>自定义游戏模式设置</DifficultyCustomSectionLabel>
+  <!-- EN: Set to standard playstyle... -->
+  <DifficultyReset>设置为模板...</DifficultyReset>
+  
+  <!-- EN: Threats -->
+  <DifficultyThreatSection>威胁</DifficultyThreatSection>
+  <!-- EN: Threat scale -->
+  <Difficulty_ThreatScale_Label>威胁规模</Difficulty_ThreatScale_Label>
+  <!-- EN: Adjust the size of threats like raids and infestations, and the difficulty of quests. -->
+  <Difficulty_ThreatScale_Info>调整威胁的规模，类似于袭击和虫害，以及任务难度。</Difficulty_ThreatScale_Info>
+  <!-- EN: Major threats -->
+  <Difficulty_AllowBigThreats_Label>大型威胁</Difficulty_AllowBigThreats_Label>
+  <!-- EN: Allow major threats such as raids, infestations, manhunter packs, crashed mechanoid ships and more. -->
+  <Difficulty_AllowBigThreats_Info>允许大型威胁的出现，例如袭击、虫害、猎杀人类、机械飞船坠毁等等。</Difficulty_AllowBigThreats_Info>
+  <!-- EN: Quest threats -->
+  <Difficulty_AllowViolentQuests_Label>任务威胁</Difficulty_AllowViolentQuests_Label>
+  <!-- EN: Allow quests to present with violent threats and challenges. If this is disabled, quests will be modified to be non-violent. -->
+  <Difficulty_AllowViolentQuests_Info>允许任务中出现暴力威胁和挑战。如果此选项关闭，那么任务将会更改为非暴力类型。</Difficulty_AllowViolentQuests_Info>
+  <!-- EN: Intro threats -->
+  <Difficulty_AllowIntroThreats_Label>介绍性威胁</Difficulty_AllowIntroThreats_Label>
+  <!-- EN: Enable the fixed intro threats that appear near game start. -->
+  <Difficulty_AllowIntroThreats_Info>允许强制在游戏开始时出现一个介绍性的威胁。</Difficulty_AllowIntroThreats_Info>
+  <!-- EN: Predators hunt humans -->
+  <Difficulty_PredatorsHuntHumanlikes_Label>捕食者猎杀人类</Difficulty_PredatorsHuntHumanlikes_Label>
+  <!-- EN: Allow wild predators to hunt humans. -->
+  <Difficulty_PredatorsHuntHumanlikes_Info>允许野生的捕食动物以人类为目标。</Difficulty_PredatorsHuntHumanlikes_Info>
+  <!-- EN: Extreme weather -->
+  <Difficulty_AllowExtremeWeatherIncidents_Label>极端气候</Difficulty_AllowExtremeWeatherIncidents_Label>
+  <!-- EN: Allow extreme weather incidents such as toxic fallout, volcanic winters and flashstorms. -->
+  <Difficulty_AllowExtremeWeatherIncidents_Info>允许极端气候事件的出现，例如有毒尘埃、火山冬天和暴风雨。</Difficulty_AllowExtremeWeatherIncidents_Info>
+
+  <!-- EN: Economy -->
+  <DifficultyEconomySection>经济</DifficultyEconomySection>
+  <!-- EN: Trade price disadvantage -->
+  <Difficulty_TradePriceFactorLoss_Label>贸易价格劣势</Difficulty_TradePriceFactorLoss_Label>
+  <!-- EN: When trading, buy prices are increased by this amount while sell prices are reduced by this amount. -->
+  <Difficulty_TradePriceFactorLoss_Info>交易时，买入价格提升和卖出价格下降的数值。</Difficulty_TradePriceFactorLoss_Info>
+  <!-- EN: Harvest yield -->
+  <Difficulty_CropYieldFactor_Label>收获量</Difficulty_CropYieldFactor_Label>
+  <!-- EN: Adjust the amount of materials produced when harvesting plants and crops. This includes harvesting plants and cutting trees. -->
+  <Difficulty_CropYieldFactor_Info>调整收获植物和作物的产量。这包括了收获植物和砍伐树木。</Difficulty_CropYieldFactor_Info>
+  <!-- EN: Mining yield -->
+  <Difficulty_MineYieldFactor_Label>开采量</Difficulty_MineYieldFactor_Label>
+  <!-- EN: Adjust the amount of materials produced when mining. -->
+  <Difficulty_MineYieldFactor_Info>调整开采时的产量。</Difficulty_MineYieldFactor_Info>
+  <!-- EN: Butchering yield -->
+  <Difficulty_ButcherYieldFactor_Label>屠宰量</Difficulty_ButcherYieldFactor_Label>
+  <!-- EN: Adjust the amount of materials produced when butchering. This includes meat, leather, and yield from shredding mechanoids. -->
+  <Difficulty_ButcherYieldFactor_Info>调整屠宰时获得原料的产量。这包扩肉、皮革以及拆解机械体获得的产出。</Difficulty_ButcherYieldFactor_Info>
+  <!-- EN: Research speed -->
+  <Difficulty_ResearchSpeedFactor_Label>研究速率</Difficulty_ResearchSpeedFactor_Label>
+  <!-- EN: Adjust the speed of research. -->
+  <Difficulty_ResearchSpeedFactor_Info>调整研究速度。</Difficulty_ResearchSpeedFactor_Info>
+  <!-- EN: Quest rewards -->
+  <Difficulty_QuestRewardValueFactor_Label>任务奖励</Difficulty_QuestRewardValueFactor_Label>
+  <!-- EN: Adjust the value of rewards given for quests.\n\nNote: Quest reward value is also automatically scaled to compensate for threat scale. If you adjust this setting, you'll be adding an additional multiplier. -->
+  <Difficulty_QuestRewardValueFactor_Info>调整任务给与的奖励数值。\n\n注：任务奖励也会自动根据威胁等级进行补偿调整。如果你调整了这个选项，你会获得一个额外的乘数。</Difficulty_QuestRewardValueFactor_Info>
+  <!-- EN: Raid loot -->
+  <Difficulty_RaidLootPointsFactor_Label>赃物</Difficulty_RaidLootPointsFactor_Label>
+  <!-- EN: Adjust the value of loot carried by raiders.\n\nNote: Raid loot value is also automatically scaled to compensate for threat scale. If you adjust this setting, you'll be adding an additional multiplier. -->
+  <Difficulty_RaidLootPointsFactor_Info>调整袭击者携带的战利品数量。\n\n注：袭击战利品也会自动根据威胁等级进行补偿调整。如果你调整了这个选项，你会获得一个额外的乘数。</Difficulty_RaidLootPointsFactor_Info>
+  <!-- EN: Turret rearm cost -->
+  <Difficulty_MaintenanceCostFactor_Label>炮塔整备成本</Difficulty_MaintenanceCostFactor_Label>
+  <!-- EN: Adjust the cost of rearming turrets. -->
+  <Difficulty_MaintenanceCostFactor_Info>调整整备炮塔的成本。</Difficulty_MaintenanceCostFactor_Info>
+  <!-- EN: Scaria rot chance -->
+  <Difficulty_ScariaRotChance_Label>狂暴症腐烂几率</Difficulty_ScariaRotChance_Label>
+  <!-- EN: The probability that a corpse will immediately rot upon death, if the creature has the scaria disease.\n\nNote: The default settings are designed to exactly balance out the increase in animal count at higher difficulties, so all players get the same meat rewards. -->
+  <Difficulty_ScariaRotChance_Info>患有狂暴症的生物死亡时立即腐烂的几率。\n\n注：默认设置的目的是使所有难度都获得相接近的肉奖励而平衡，因为高难度模式下动物会变多。</Difficulty_ScariaRotChance_Info>
+  <!-- EN: Enemy death on downed -->
+  <Difficulty_EnemyDeathOnDownedChanceFactor_Label>敌人倒地死亡几率</Difficulty_EnemyDeathOnDownedChanceFactor_Label>
+  <!-- EN: Adjust the extra chance that an enemy will immediately die when downed. This affects the chances to take prisoners, and thus colony population growth rates. -->
+  <Difficulty_EnemyDeathOnDownedChanceFactor_Info>调整敌人在被击倒时直接死亡的几率。这影响了俘虏的机会，从而影响到殖民地的人口增长率。</Difficulty_EnemyDeathOnDownedChanceFactor_Info>
+
+  <!-- EN: General -->
+  <DifficultyGeneralSection>通用</DifficultyGeneralSection>
+  <!-- EN: Colonist mood -->
+  <Difficulty_ColonistMoodOffset_Label>殖民者心情</Difficulty_ColonistMoodOffset_Label>
+  <!-- EN: A permanent mood offset applied to every colonist and prisoner. Colonists have a base mood of 50%. -->
+  <Difficulty_ColonistMoodOffset_Info>适用于所有殖民者和囚犯的永久心情补偿。殖民者基础心情为50%。</Difficulty_ColonistMoodOffset_Info>
+  <!-- EN: Food poison chance -->
+  <Difficulty_FoodPoisonChanceFactor_Label>食物有毒几率</Difficulty_FoodPoisonChanceFactor_Label>
+  <!-- EN: Adjust the chance that a person will get food poisoning from eating a potentially-poisoned meal. -->
+  <Difficulty_FoodPoisonChanceFactor_Info>调整一个人吃了可能有毒的食物中毒的几率。</Difficulty_FoodPoisonChanceFactor_Info>
+  <!-- EN: Animal revenge chance -->
+  <Difficulty_ManhunterChanceOnDamageFactor_Label>动物反击几率</Difficulty_ManhunterChanceOnDamageFactor_Label>
+  <!-- EN: Adjust the chance that injuring a wild animal will cause it to attack. -->
+  <Difficulty_ManhunterChanceOnDamageFactor_Info>调整攻击野生动物使其产生反击的几率。</Difficulty_ManhunterChanceOnDamageFactor_Info>
+  <!-- EN: Friendly fire -->
+  <Difficulty_FriendlyFireChanceFactor_Label>友方伤害</Difficulty_FriendlyFireChanceFactor_Label>
+  <!-- EN: Adjust the chance of friendly fire.\n\nNote: This setting only affects direct shots which were going to hit their target. It does not prevent damage from explosions, or from shots which were going to miss their target. -->
+  <Difficulty_FriendlyFireChanceFactor_Info>调整友方误伤的几率。\n\n注：此设置只影响会命中目标的直接射击。它并不能防止爆炸造成的伤害，也不能防止子弹击中目标产生的伤害。</Difficulty_FriendlyFireChanceFactor_Info>
+  <!-- EN: Colonist instant-kill prevention -->
+  <Difficulty_AvoidInstantKillChance_Label>避免殖民者直接被杀</Difficulty_AvoidInstantKillChance_Label>
+  <!-- EN: Add a special chance to prevent colonists from dying instantly due to an attack. The incoming damage is adjusted so it will down the colonist instead.\n\nThis only prevents some kinds of instant kills - colonists can still be downed and bleed to death, die from fire, explosions, disease, and so on. -->
+  <Difficulty_AvoidInstantKillChance_Info>增加一个特殊的几率来防止殖民者因攻击而当场死亡。受到的伤害会进行调整，它会使殖民者倒地而不是致死。\n\n不过这只会影响到一些直接杀死殖民者的伤害，殖民者仍然会被击倒、流血致死，或者死于火灾、爆炸、疾病等。</Difficulty_AvoidInstantKillChance_Info>
+  <!-- EN: Infection chance -->
+  <Difficulty_PlayerPawnInfectionChanceFactor_Label>感染几率</Difficulty_PlayerPawnInfectionChanceFactor_Label>
+  <!-- EN: Adjust the chance that a wound will become infected. -->
+  <Difficulty_PlayerPawnInfectionChanceFactor_Info>调整伤口感染的几率。</Difficulty_PlayerPawnInfectionChanceFactor_Info>
+  <!-- EN: Disease frequency -->
+  <Difficulty_DiseaseIntervalFactor_Inverted_Label>疾病频率</Difficulty_DiseaseIntervalFactor_Inverted_Label>
+  <!-- EN: Adjust the frequency of random disease events. -->
+  <Difficulty_DiseaseIntervalFactor_Inverted_Info>调整随机疾病事件的频率。</Difficulty_DiseaseIntervalFactor_Inverted_Info>
+  <!-- EN: Insect spawning rate -->
+  <Difficulty_EnemyReproductionRateFactor_Label>虫族繁殖率</Difficulty_EnemyReproductionRateFactor_Label>
+  <!-- EN: Adjust the rate at which existing insect hives spawn new insects. Lower values means more time between spawn events.\n\nThis does not affect whether infestations can occur - only the speed at which active hives produce insects. -->
+  <Difficulty_EnemyReproductionRateFactor_Info>调整虫巢繁殖新昆虫的几率。较低的值表示繁殖事件之间的间隔时间会更长。\n\n这不会影响是否会发生虫害事件，只会影响到活跃的虫巢繁殖昆虫的速度。</Difficulty_EnemyReproductionRateFactor_Info>
+  <!-- EN: Deep drilling infestations -->
+  <Difficulty_DeepDrillInfestationChanceFactor_Label>深钻井虫害</Difficulty_DeepDrillInfestationChanceFactor_Label>
+  <!-- EN: Adjust the chance that deep drilling will trigger an infestation. -->
+  <Difficulty_DeepDrillInfestationChanceFactor_Info>调整深钻井发生虫害的几率。</Difficulty_DeepDrillInfestationChanceFactor_Info>
+  <!-- EN: Map generation ancient threats -->
+  <Difficulty_PeacefulTemples_Inverted_Label>远古威胁</Difficulty_PeacefulTemples_Inverted_Label>
+  <!-- EN: Ancient structures may contain dangerous threats. -->
+  <Difficulty_PeacefulTemples_Inverted_Info>古代遗迹可能含有危险的威胁。</Difficulty_PeacefulTemples_Inverted_Info>
+  <!-- EN: Map generation natural hives -->
+  <Difficulty_AllowCaveHives_Label>自然虫巢</Difficulty_AllowCaveHives_Label>
+  <!-- EN: Dormant insect hives may spawn in natural caves.\n\nThis setting only applies to map generation and does not affect active insects that may tunnel in during play. -->
+  <Difficulty_AllowCaveHives_Info>自然洞穴中可能会生成休眠的虫巢。\n\n此选项只会影响地图生成，而不会影响到游戏中挖掘隧道的活跃虫群。</Difficulty_AllowCaveHives_Info>
+
+  <!-- EN: Player tools -->
+  <DifficultyPlayerToolsSection>玩家控制</DifficultyPlayerToolsSection>
+  <!-- EN: Player can build traps -->
+  <Difficulty_AllowTraps_Label>玩家可以制作陷阱</Difficulty_AllowTraps_Label>
+  <!-- EN: Player can build traps like spike traps and IED traps. -->
+  <Difficulty_AllowTraps_Info>玩家可以制作类似尖刺陷阱或者爆炸陷阱。</Difficulty_AllowTraps_Info>
+  <!-- EN: Player can build turrets -->
+  <Difficulty_AllowTurrets_Label>玩家可以建造炮塔</Difficulty_AllowTurrets_Label>
+  <!-- EN: Player can build static turrets like mini-turrets, autocannon turrets, and uranium slug turrets.\n\nYou can still use captured turrets even if this is disabled. -->
+  <Difficulty_AllowTurrets_Info>玩家可以建造类似简易无人机枪塔、自动加农炮塔之类的静态炮塔。\n\n你依然可以在禁用此选项时使用缴获的炮塔。</Difficulty_AllowTurrets_Info>
+  <!-- EN: Player can build mortars -->
+  <Difficulty_AllowMortars_Label>玩家可以建造迫击炮</Difficulty_AllowMortars_Label>
+  <!-- EN: Player can build mortars.\n\nYou can still use captured mortars even if this is disabled. -->
+  <Difficulty_AllowMortars_Info>允许玩家建造迫击炮。\n\n你依然可以在禁用此选项时使用缴获的迫击炮。</Difficulty_AllowMortars_Info>
+  
+  <!-- EN: Adaptation -->
+  <DifficultyAdaptationSection>适应性调整</DifficultyAdaptationSection>
+  <!-- EN: Damage adaptation growth -->
+  <Difficulty_AdaptationGrowthRateFactorOverZero_Label>适应性增长</Difficulty_AdaptationGrowthRateFactorOverZero_Label>
+  <!-- EN: Adaptation means the storyteller makes the game more challenging over time as long as you are not taking losses. This is separate from the story effects of wealth and population.\n\nThis adjusts the rate of that challenge growth. -->
+  <Difficulty_AdaptationGrowthRateFactorOverZero_Info>适应性表示玩家对当前游戏的适应能力，故事叙述者会在你游刃有余的情况下随着时间的推移使游戏更富挑战性。这与财富和人口对故事的影响效果不同。\n\n这个选项会调整挑战性增长的倍率。</Difficulty_AdaptationGrowthRateFactorOverZero_Info>
+  <!-- EN: Damage adaptation effect -->
+  <Difficulty_AdaptationEffectFactor_Label>适应性影响</Difficulty_AdaptationEffectFactor_Label>
+  <!-- EN: Adaptation means the storyteller makes the game more challenging over time as long as you are not taking losses. This is separate from the story effects of wealth and population.\n\nThis adjusts the effect of that adaptation value on actual threats. -->
+  <Difficulty_AdaptationEffectFactor_Info>适应性表示玩家对当前游戏的适应能力，故事叙述者会在你游刃有余的情况下随着时间的推移使游戏更富挑战性。这与财富和人口对故事的影响效果不同。\n\n这个选项会调整适应性数值对实际威胁的影响。</Difficulty_AdaptationEffectFactor_Info>
+  <!-- EN: Fixed wealth progress mode -->
+  <Difficulty_FixedWealthMode_Label>固定财富模式</Difficulty_FixedWealthMode_Label>
+  <!-- EN: Play in fixed wealth progress mode.\n\nIn normal mode, the storyteller scales threats according to colonist, count, player wealth, and a variety of other factors. Fixed wealth progress mode removes the wealth factor and replaces it with a fixed progress curve based on time. The time is counted from the founding of each colony.\n\nThis is only recommended for those looking for a strict skill challenge. In fixed progression mode, it may be nearly impossible to recover from serious losses unless you found a new settlement. It's also possible to get too far ahead of the curve and find the game too easy. -->
+  <Difficulty_FixedWealthMode_Info>在固定财富模式下进行游戏。\n\n普通模式中，故事叙述者会根据殖民者、人口、财富值和其他因素来衡量威胁的强度。固定财富模式下移除了财富因素，并用基于时间的固定进度曲线来代替它。这个时间曲线从殖民地建立开始计算。\n\n这个方案只推荐给那些寻求严格技能挑战的玩家。在固定财富模式下，除非你找到新的解决方案，否则几乎不可能从严重损失中恢复。当然也可能因为超前发展而使游戏变得过分简单。</Difficulty_FixedWealthMode_Info>
+  
   <!-- Site select -->
   <!-- EN: Select starting site -->
   <SelectStartingSite>选择初始着陆点</SelectStartingSite>
@@ -440,8 +593,8 @@
   <Next>继续</Next>
   <!-- EN: Back -->
   <Back>返回</Back>
-  <!-- EN: Show Materials -->
-  <ShowMaterials>显示材料</ShowMaterials>
+  <!-- EN: Change material... -->
+  <ShowMaterials>材料</ShowMaterials>
   <!-- EN: Gameplay -->
   <Gameplay>游戏性</Gameplay>
   <!-- EN: Really quit? You'll lose unsaved progress. -->

@@ -41,6 +41,8 @@
   <CannotOrderNonControlledLower>无法命令不由你操控的角色</CannotOrderNonControlledLower>
   <!-- EN: cannot attack self -->
   <CannotAttackSelf>无法攻击自己</CannotAttackSelf>
+  <!-- EN: cannot attack faction ally -->
+  <CannotAttackSameFactionMember>无法攻击友方派系</CannotAttackSameFactionMember>
 
   <!-- EN: Man {1_labelShort} -->
   <OrderManThing>操纵{1_labelShort}</OrderManThing>
@@ -136,6 +138,8 @@
   <InstallImplantAlreadyMaxLevel>最大等级</InstallImplantAlreadyMaxLevel>
   <!-- EN: Upgrade {0} to level {1} -->
   <UpgradeImplant>将{0}升级到{1}级</UpgradeImplant>
+  <!-- EN: violation of faction ally -->
+  <SurgeryViolationFellowFactionMember>对友方派系违规</SurgeryViolationFellowFactionMember>
   
   <!-- EN: Consume {1_labelShort} -->
   <ConsumeThing>享用{1_labelShort}</ConsumeThing>
@@ -190,6 +194,8 @@
   <IsReservedBy>{0}已被预留给{1}。</IsReservedBy>
   <!-- EN: Too heavy -->
   <TooHeavy>过重</TooHeavy>
+  <!-- EN: {0_labelShort} is in the same faction. -->
+  <SameFaction>{0_labelShort}正在相同的派系。</SameFaction>
 
   <!-- EN: incapable -->
   <Incapable>无法胜任</Incapable>
@@ -214,6 +220,13 @@
   <CannotWear>无法穿上{1_label}</CannotWear>
   <!-- EN: missing body parts -->
   <CannotWearBecauseOfMissingBodyParts>身体部位缺失</CannotWearBecauseOfMissingBodyParts>
+  
+  <!-- EN: Reload {GEAR_labelShort} with {AMMO_label} -->
+  <Reload>以{AMMO_label}重新装填{GEAR_labelShort}</Reload>
+  <!-- EN: Full -->
+  <ReloadFull>满</ReloadFull>
+  <!-- EN: Too few -->
+  <ReloadNotEnough>过少</ReloadNotEnough>
   
   <!-- EN: Cannot pick up {1_label} -->
   <CannotPickUp>无法拾取{1_label}</CannotPickUp>
@@ -374,6 +387,8 @@
   <DropAtEdge>空投至边缘</DropAtEdge>
   <!-- EN: Drop in center -->
   <DropInCenter>空投至中心</DropInCenter>
+  <!-- EN: Attack {0} -->
+  <AttackShuttle>攻击{0}</AttackShuttle>
   <!-- EN: Attack {0}: Drop at edge -->
   <AttackAndDropAtEdge>攻击{0}：空投至边缘</AttackAndDropAtEdge>
   <!-- EN: Attack {0}: Drop in center -->
@@ -420,5 +435,8 @@
 
   <!-- EN: apply {0} -->
   <ApplyTechprint>应用{0}</ApplyTechprint>
+
+  <!-- EN: Too dangerous -->
+  <EnterCooldownBlocksEntering>过于危险</EnterCooldownBlocksEntering>
   
 </LanguageData>

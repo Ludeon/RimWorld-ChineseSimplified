@@ -12,25 +12,41 @@
   <!-- EN: This will upset {HOLDER_possessive} current heir {HEIR_nameFull}. -->
   <MakeHeirPreviousHeirWarning>这将使{HOLDER_possessive}个当前继承人{HEIR_nameFull}不高兴。</MakeHeirPreviousHeirWarning>
 
-  <!-- Call royal aid -->
-  <!-- EN: Call royal aid -->
-  <CommandCallRoyalAid>呼叫荣誉支援</CommandCallRoyalAid>
-  <!-- EN: Call for military aid using a special royal permit.\n\nEach type of aid may be used for free once, after which you must wait to use it for free again. You can use the aid more frequently, but it costs royal favor to do so. -->
-  <CommandCallRoyalAidDesc>使用特殊的荣誉特权申请军事援助。\n\n每种类型的援助可以免费使用一次，之后你必须等待再次免费使用它。你可以更频繁地使用援助，但这样做会让你失去很多荣誉点数。</CommandCallRoyalAidDesc>
-  <!-- EN: Guests will not use their royal aid. -->
-  <CommandCallRoyalAidLodger>访客将不会使用他们的荣誉支援。</CommandCallRoyalAidLodger>
+  <!-- Call aid -->
+  <!-- EN: Call aid... -->
+  <CommandCallRoyalAid>呼叫支援</CommandCallRoyalAid>
+  <!-- EN: Call for aid using a special permit.\n\nEach type of aid may be used for free once, after which you must wait to use it for free again. You can use the aid more frequently, but it costs honor to do so. -->
+  <CommandCallRoyalAidDesc>使用特殊的特权申请军事援助。\n\n每种类型的援助可以免费使用一次，之后你必须等待再次免费使用它。你可以更频繁地使用援助，但这样做会让你失去很多荣誉点数。</CommandCallRoyalAidDesc>
+  <!-- EN: Guests will not use their aid permits. -->
+  <CommandCallRoyalAidLodger>访客将不会使用他们的支援。</CommandCallRoyalAidLodger>
   <!-- EN: Your relations with {FACTION_name} are hostile. -->
   <CommandCallRoyalAidFactionHostile>你与{FACTION_name}的派系关系充满敌意。</CommandCallRoyalAidFactionHostile>
   <!-- EN: Free -->
   <CommandCallRoyalAidFreeOption>免费</CommandCallRoyalAidFreeOption>
   <!-- EN: {0} days left, costs {1} {FACTION_royalFavorLabel} -->
   <CommandCallRoyalAidFavorOption>剩余{0}天，费用为{1} {FACTION_royalFavorLabel}</CommandCallRoyalAidFavorOption>
+  <!-- EN: You are about to call for aid, but there are people from factions whom {0_name} is not hostile to. Any soldiers you call will not attack them: {1} -->
+  <CommandCallRoyalAidWarningNonHostileFactions>你将要呼叫援军，但是这有些属于与{0_name}非敌对派系的人。你召唤的任何士兵都不会攻击他们：{1}</CommandCallRoyalAidWarningNonHostileFactions>
+  <!-- EN: Not enough favor. -->
+  <CommandCallRoyalAidNotEnoughFavor>没有足够的荣誉点数。</CommandCallRoyalAidNotEnoughFavor>
+  
+  <!-- Call laborers -->
+  <!-- EN: Call laborers -->
+  <CommandCallLaborers>呼叫劳工</CommandCallLaborers>
+  <!-- EN: Use a special permit to call for a group of laborers from your ally. These workers can only do labor tasks, but you can control them like they were your own colonists. You are required to keep them safe. -->
+  <CommandCallLaborersDesc>使用特殊的许可来从你的盟友呼叫一组劳工。这些工人只能完成一般的劳动任务，你可以像普通殖民者一样控制他们，在此期间内你需要保证他们的安全。</CommandCallLaborersDesc>
+  <!-- EN: On cooldown. {0} days left. -->
+  <CommandOnCooldown>冷却中。剩余{0}天。</CommandOnCooldown>
+  <!-- EN: {0} laborers -->
+  <CommandCallLaborersNumLaborers>{0}劳工</CommandCallLaborersNumLaborers>
 
   <!-- Abilities -->
   <!-- EN: Neural heat would overflow. Disable the neural heat limiter to cast. -->
   <CommandPsycastWouldExceedEntropy>心灵熵将超限。解除心灵熵限制将可以继续使用能力。</CommandPsycastWouldExceedEntropy>
   <!-- EN: {PSYCASTNAME} consumes {0} psyfocus but {CASTERNAME} only has {1}. -->
   <CommandPsycastNotEnoughPsyfocus>{PSYCASTNAME}需要消耗{0}精神力，但是{CASTERNAME}只有{1}。</CommandPsycastNotEnoughPsyfocus>
+  <!-- EN: {PSYCASTNAME} needs {0} psyfocus to stop {1}'s mental break but {CASTERNAME} only has {2} psyfocus. -->
+  <CommandPsycastNotEnoughPsyfocusForMentalBreak>{PSYCASTNAME}需要消耗{0}精神力来停止{1}的精神崩溃，但是{CASTERNAME}只有{2}精神力。</CommandPsycastNotEnoughPsyfocusForMentalBreak>
   <!-- EN: level {0} psylink is required. -->
   <CommandPsycastHigherLevelPsylinkRequired>需要等级{0}的启灵神经。</CommandPsycastHigherLevelPsylinkRequired>
   <!-- EN: Zero psychic sensitivity. -->
@@ -55,6 +71,12 @@
   <CommandWarnInBuildingRadius>建造半径警告</CommandWarnInBuildingRadius>
   <!-- EN: If enabled, this object will draw a red line to buildings you are placing using the architect menu, if they would interfere with meditation due to being too close.\n\nYou can turn this off if you don't intend to use this for meditation. -->
   <CommandWarnInBuildingRadiusDesc>如果启用，此项目将在你用规划放置可能会干扰冥想的建筑时绘制一条红线。\n\n如果你不打算将其用于冥想，则可以关闭这个选项。</CommandWarnInBuildingRadiusDesc>
+  
+  <!-- Permits -->
+  <!-- EN: Choose permit -->
+  <ChooseRoyalPermit>选择许可</ChooseRoyalPermit>
+  <!-- EN: Open the permit selection screen and choose a new permit. -->
+  <ChooseRoyalPermit_Desc>打开许可选择窗并且选择一个新的许可。</ChooseRoyalPermit_Desc>
   
   <!-- UNUSED -->
   <EntropyLetter>熵</EntropyLetter>

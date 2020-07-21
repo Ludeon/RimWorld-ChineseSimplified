@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questDescription->Pirates have set up an outpost and are harassing caravans of [asker_faction_name]. [asker_nameDef] is planning an aerial assault on the outpost. [asker_pronoun] wants you to provide [soldiers] for the attack.\n\n[asker_pronoun] will send a shuttle to pick up your fighters, bring them to the attack site, and take them home afterward.\n\nOnce the attack begins, you must defeat all enemies and turrets within [timeoutTicks_duration].</li>
+    <li>soldiers(requiredPawnCount>1)->[requiredPawnCount] soldiers</li>
+    <li>soldiers(requiredPawnCount==1)->[requiredPawnCount] soldier</li>
+  -->
+  <Mission_BanditCamp.questDescriptionRules.rulesStrings>
+    <li>questDescription->海盗在附近建立了前哨站以骚扰[asker_faction_name]的商队。[asker_nameDef]正计划对该前哨站进行空袭。[asker_pronoun]想要你为这次进攻提供[soldiers]。\n\n[asker_pronoun]会派出穿梭机接送你的殖民者，将他们带到攻击目标，并在事后带他们返回\n\n一旦开始进攻，你必须在[timeoutTicks_duration]击败所有的敌人和炮塔。</li>
+    <li>soldiers(requiredPawnCount>1)->[requiredPawnCount]战士</li>
+    <li>soldiers(requiredPawnCount==1)->[requiredPawnCount]战士</li>
+  </Mission_BanditCamp.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->[questNameInner]</li>
+    <li>questName->[asker_nameDef]'s [questNameInner]</li>
+    <li>questNameInner->[aerial] [attack]</li>
+    <li>questNameInner->[target] [attack]</li>
+    <li>questNameInner->[attack] [work]</li>
+    <li>target->camp</li>
+    <li>target->base</li>
+    <li>target->fort</li>
+    <li>aerial->aerial</li>
+    <li>aerial->air</li>
+    <li>aerial->shuttle-borne</li>
+    <li>attack->attack</li>
+    <li>attack->assault</li>
+    <li>work->work</li>
+    <li>work->job</li>
+  -->
+  <Mission_BanditCamp.questNameRules.rulesStrings>
+    <li>questName->[questNameInner]</li>
+    <li>questName->[asker_nameDef]的[questNameInner]</li>
+    <li>questNameInner->[aerial][attack]</li>
+    <li>questNameInner->[target][attack]</li>
+    <li>questNameInner->[attack][work]</li>
+    <li>target->营地</li>
+    <li>target->基地</li>
+    <li>target->堡垒</li>
+    <li>aerial->天降</li>
+    <li>aerial->空中</li>
+    <li>aerial->穿梭机</li>
+    <li>attack->进攻</li>
+    <li>attack->袭击</li>
+    <li>work->行动</li>
+    <li>work->工作</li>
+  </Mission_BanditCamp.questNameRules.rulesStrings>
+  
+</LanguageData>

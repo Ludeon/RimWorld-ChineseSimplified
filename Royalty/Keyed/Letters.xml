@@ -7,6 +7,9 @@
   <!-- EN: {TITLE} title gained: {PAWN_labelShort} -->
   <LetterLabelGainedRoyalTitle>{TITLE}头衔获得: {PAWN_labelShort}</LetterLabelGainedRoyalTitle>
 
+  <!-- EN: Permit points awarded: {0}. -->
+  <PermitPointsAwarded>许可点数奖励：{0}。</PermitPointsAwarded>
+
   <!-- EN: This title requires apparel of {1} quality or better. -->
   <LetterRoyalTitleApparelQualityRequirement>此头衔要求穿着品质为{1}或更高的品质的服装。</LetterRoyalTitleApparelQualityRequirement>
   <!-- EN: This title requires apparel appropriate to {PAWN_possessive} title: -->
@@ -23,7 +26,7 @@
   <LetterLostRoyalTitle>{PAWN_labelShort}不再保有{FACTION_name}的{TITLE}头衔。</LetterLostRoyalTitle>
   <!-- EN: Title rewards -->
   <LetterLabelRewardsForNewTitle>赏赐</LetterLabelRewardsForNewTitle>
-  <!-- EN: To honor {PAWN_labelShort} advancing to the title of {TITLE}, {FACTION_name} has sent {PAWN_objective} following reward(s): -->
+  <!-- EN: To honor {PAWN_labelShort} advancing to the title of {TITLE}, {FACTION_name} has sent {PAWN_objective} the following reward(s): -->
   <LetterRewardsForNewTitle>为了纪念{PAWN_labelShort}的{TITLE}头衔晋升，{FACTION_name}发给{PAWN_objective}如下赏赐：</LetterRewardsForNewTitle>
   <!-- EN: Rewards have arrived to your colony via transport pods. -->
   <LetterRewardsForNewTitleDeliveryBase>奖励已经通过空投舱发送至你的殖民地。</LetterRewardsForNewTitleDeliveryBase>
@@ -109,6 +112,10 @@
   <LetterEncouragingSpeech>令人感到鼓舞，传递的信息十分明确。</LetterEncouragingSpeech>
   <!-- EN: It was remarkably inspiring, full of intensity and purpose. -->
   <LetterInspirationalSpeech>激情澎湃的演说，充满了昂扬的斗志与坚定的目标。</LetterInspirationalSpeech>
+  <!-- EN: The following people were particularly moved by the speech and are now inspired: -->
+  <LetterSpeechInspiredListeners>这些人被这场演讲感动，现在受到启发：</LetterSpeechInspiredListeners>
+  <!-- EN: Thanks to {SPEAKER_nameIndef}'s remarkable speech, {PAWN_nameIndef} has experienced an inspiration! -->
+  <LetterSpeechInspiration>感谢{SPEAKER_nameIndef}的精彩演讲，{PAWN_nameIndef}获得了一个灵感！</LetterSpeechInspiration>
   <!-- EN: Because the speech was interrupted after only {0} completed, it wasn't as effective. -->
   <LetterSpeechInterrupted>由于演讲进度在{0}后被打断，因此效果不佳。</LetterSpeechInterrupted>
   <!-- EN: {ORGANIZER_bestRoyalTitleDef}'s speech was cancelled before reaching 50% completion. It had no effect. -->
@@ -141,10 +148,33 @@
   <LetterPsylinkLevelGained_First>{USER_labelShort}获得了第一个启灵等级！{USER_pronoun}现在是一名心灵能力者了。\n\n要使用心灵能力，{USER_labelShort}必须通过冥想提升精神力。如果能够在冥想时专注于特定的对象，那么冥想的效果会得到提升。\n\n每个人都能在不同的物体附近冥想，这取决于它们的冥想媒介类型。冥想者的冥想类型取决于他们的背景、特征和社会地位等。例如：\n\n- 持有荣誉头衔的心灵能力者在他们的宝座冥想。\n- 部落长大的心灵能力者在仙树或自然圣地冥想。\n- 苦行者在一无所有的墙壁前冥想。\n- 病态的心灵能力者会在坟墓冥想，埋葬着爱人会更理想。\n\n要查看一个人的冥想媒介类型，可以通过选择他们并单击「i」按钮来打开他们的详细信息窗口。</LetterPsylinkLevelGained_First>
   <!-- EN: {USER_labelShort} has gained a new level of psylink! {USER_pronoun} can now use psycasts of that higher level, but {USER_pronoun} needs to learn them first. -->
   <LetterPsylinkLevelGained_NotFirst>{USER_labelShort}获得了更高的启灵等级！{USER_pronoun}现在能够使用更高等级的心灵能力，但{USER_pronoun}需要先学会如何使用。</LetterPsylinkLevelGained_NotFirst>
-  <!-- EN: Upon gaining the new psylink level, {USER_labelShort} automatically learned this psycast: {2}. -->
+  <!-- EN: Upon gaining the new psylink level, {USER_labelShort} automatically learned these psycasts: {2} -->
   <LetterPsylinkLevelGained_PsycastLearned>在获得了新的启灵等级之后，{USER_labelShort}自动领悟了这个心灵能力：{2}。</LetterPsylinkLevelGained_PsycastLearned>
+  
+  <!-- Abilities -->
+  <!-- EN: Thanks to {CASTER_nameIndef}'s psychic suggestion, {PAWN_nameIndef} has experienced an inspiration! -->
+  <LetterPsychicInspiration>感谢{CASTER_nameIndef}的心灵暗示，{PAWN_nameIndef}获得了一个灵感！</LetterPsychicInspiration>
+
+  <!-- Join Offer -->
+  <!-- EN: Join offer: {PAWN_nameDef} -->
+  <LetterJoinOfferLabel>加入请求：{PAWN_nameDef}</LetterJoinOfferLabel>
+  <!-- EN: {PAWN_nameDef} wishes to join your faction. -->
+  <LetterJoinOfferTitle>{PAWN_nameDef}希望加入你的派系。</LetterJoinOfferTitle>
+  <!-- EN: {PAWN_nameDef} believes that {PAWN_pronoun} is happy at {MAP_definite}. {PAWN_pronoun} wishes to join you permanently. -->
+  <LetterJoinOfferText>{PAWN_nameDef}相信{PAWN_pronoun}会在{MAP_definite}过的开心。{PAWN_pronoun}希望能够永远加入你。</LetterJoinOfferText>
+  <!-- EN: Accept -->
+  <LetterJoinOfferAccept>接受</LetterJoinOfferAccept>
+
+  <!-- EN: Bestowing ceremony expired -->
+  <LetterLabelBestowingCeremonyExpired>授勋仪式结束</LetterLabelBestowingCeremonyExpired>
+  <!-- EN: {TARGET_definite} did not show up to the bestowing ceremony. The ceremony has been cancelled. -->
+  <LetterTextBestowingCeremonyExpired>{TARGET_definite}没有出现在授勋仪式上。授勋仪式被取消了</LetterTextBestowingCeremonyExpired>
+
+  <!-- EN: Who should be credited with {0} for defeating the bandit camp? -->
+  <LetterTextHonorAward_BanditCamp>谁应该因击败匪徒营地而获得{0}的奖励？</LetterTextHonorAward_BanditCamp>
 
   <!-- UNUSED -->
+  <LetterTextHonorAward>谁应该因完成贸易请求而获得{0}的奖励？</LetterTextHonorAward>
   <LetterRoyalTitleAuthorityNeed>{PAWN_pronoun}对威严有了需求。满足此要求意味着需要修建一个适当的宝座供{PAWN_pronoun}进行统治。就算谒见厅可以共享，每个贵族仍然需要属于他们自己的宝座。</LetterRoyalTitleAuthorityNeed>
   <LetterRoyalTitleStillEnabledJoyKind>{PAWN_pronoun}需要此娱乐活动：</LetterRoyalTitleStillEnabledJoyKind>
   <LetterRoyalTitleStillDisabledJoyKind>{PAWN_pronoun}拒绝此娱乐活动：</LetterRoyalTitleStillDisabledJoyKind>
