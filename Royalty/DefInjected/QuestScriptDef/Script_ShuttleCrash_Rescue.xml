@@ -26,8 +26,8 @@
     <li>shuttleDestroyedLetterText->The shuttle sent to collect the crashed [asker_faction_pawnsPlural] has been destroyed. The [asker_faction_pawnsPlural] will now leave on foot.\n\n[failLetterEndingCommon]</li>
   -->
   <ShuttleCrash_Rescue.questContentRules.rulesStrings>
-  <li>failLetterEndingCommon->您未完成任务'[resolvedQuestName]'.</li>
-    <li>successLetterEndingCommon->您已成功完成任务'[resolvedQuestName]'.</li>
+    <li>failLetterEndingCommon->你未完成任务'[resolvedQuestName]'.</li>
+    <li>successLetterEndingCommon->你已成功完成任务'[resolvedQuestName]'.</li>
     <li>goodwillSomeCiviliansLost->并非所有[asker_faction_pawnSingular] [pawnLabel]都存活下来。[goodwillNegativelyAffected]</li>
     <li>goodwillAllCiviliansLost->所有的[asker_faction_pawnSingular] [pawnLabelPlural]都没存活下来。[goodwillNegativelyAffected]</li>
     <li>goodwillNegativelyAffected->Your goodwill with 每个未能返回的[pawnLabel]都会使[asker_faction_name]对你的好感下降。</li>
@@ -78,7 +78,7 @@
     <li>andCivilians(civilians_count==1)-></li>
     <li>andCivilians(civilians_count==2)->和[pawnLabel]</li>
     <li>andCivilians(civilians_count>=3)->和[pawnLabelPlural]</li>
-	</ShuttleCrash_Rescue.questDescriptionRules.rulesStrings>
+  </ShuttleCrash_Rescue.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[shuttle] [crash]</li>
     <li>questName->[asker_faction_pawnSingular] [shuttle] [crash]</li>

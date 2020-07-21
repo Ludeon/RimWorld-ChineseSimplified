@@ -5,10 +5,10 @@
     <li>questDescription(siteFaction==Pirate)->Pirates have set up an outpost near [map_definite] to harass you. [allSitePartsDescriptions]\n\nThe outpost will remain until you send a team there to attack and destroy it.</li>
     <li>questDescription(siteFaction==Mechanoids)->A mechanoid cluster has landed not far from [map_definite]. [allSitePartsDescriptions]\n\nThe mech cluster will remain until you send a team there to attack and destroy it.</li>
   -->
- <OpportunitySite_Scripts_ProblemCausers.questDescriptionRules.rulesStrings>
-    <li>questDescription(siteFaction==Pirate)->海盗在[map_definite]附近建立了一个哨站以骚扰你。 [allSitePartsDescriptions]\n\n前哨将一直保留， 直到你派一个远行队在那里攻击和摧毁它.</li>
-    <li>questDescription(siteFaction==Mechanoids)->一个机械集群已经降落在[map_definite]不远处。 [allSitePartsDescriptions]\n\n机械群集将保留， 直到您派遣一个远行队在那里攻击和摧毁它.</li>
- </OpportunitySite_Scripts_ProblemCausers.questDescriptionRules.rulesStrings>
+  <ProblemCauser.questDescriptionRules.rulesStrings>
+    <li>questDescription(siteFaction==Pirate)->海盗在[map_definite]附近建立了一个哨站以骚扰你。 [allSitePartsDescriptions]\n\n哨站将一直保留， 直到你派一个远行队在那里攻击和摧毁它。</li>
+    <li>questDescription(siteFaction==Mechanoids)->一个机械集群已经降落在[map_definite]不远处。 [allSitePartsDescriptions]\n\n机械集群将保留， 直到您派遣一个远行队在那里攻击和摧毁它。</li>
+  </ProblemCauser.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName(siteFaction==Pirate)->Pirates with a [problemCauserLabel]</li>
     <li>questName(siteFaction==Mechanoids)->Mech cluster with a [problemCauserLabel]</li>

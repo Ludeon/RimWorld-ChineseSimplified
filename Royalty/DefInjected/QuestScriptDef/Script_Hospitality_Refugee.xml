@@ -58,7 +58,7 @@
     <li>otherMembers(lodgerCount==1)-></li>
     <li>otherMembers(lodgerCount>=2)-> and all other members of the [faction_name]</li>
     <li>lodgersLeavingLetterLabel->[lodgersLabelSingularOrPlural] leaving</li>
-    <li>lodgersLeavingLetterText->{FACTION_leaderNameDef} thanks you for allowing {FACTION_leaderObjective} to stay at [map_definite] for these [questDurationTicks_duration]. {FACTION_leaderPronoun} is now moving on with {FACTION_leaderPossessive} people.\n\n{FACTION_leaderNameDef} says {FACTION_leaderPronoun} won't forget what you’ve done.</li>
+    <li>lodgersLeavingLetterText->{FACTION_leaderNameDef} thanks you for allowing {FACTION_leaderObjective} to stay at [map_definite] for these [questDurationTicks_duration]. {FACTION_leaderPronoun} is now moving on with {FACTION_leaderPossessive} people.\n\n{FACTION_leaderNameDef} says {FACTION_leaderPronoun} won't forget what you've done.</li>
   -->
   <Hospitality_Refugee.questContentRules.rulesStrings>
     <li>lastOrNot(lodgerCount==1)-></li>
@@ -241,18 +241,25 @@
   </Hospitality_Refugee.questNameRules.rulesStrings>
   
   <!-- EN:
-    <li>questDescription->a delayed reward for refugee quest</li>
     <li>rewardLetterLabel->Hospitality reward</li>
     <li>rewardLetterText->[lodgers0_nameDef] has contacted you. [rewardDelayTicks_duration] ago, you helped [lodgers0_objective] in desperate circumstances.\n\nSince then, [lodgers0_pronoun] has gotten back on [lodgers0_possessive] feet, and now [lodgers0_pronoun] wants to reward you properly for your help. [lodgers0_pronoun] is sending you the following via drop pod:\n\n[listOfRewards]</li>
   -->
-  <RefugeeDelayedReward.questDescriptionRules.rulesStrings>
-    <li>questDescription->一份迟到的奖励——难民任务</li>
+  <RefugeeDelayedReward.questContentRules.rulesStrings>
     <li>rewardLetterLabel->访客报酬</li>
     <li>rewardLetterText->[lodgers0_nameDef] 已经联系过你。 [rewardDelayTicks_duration] 之前， 你在[lodgers0_objective]十分绝望的时候给与了帮助。\n\n后来，[lodgers0_pronoun]靠着[lodgers0_possessive]的双腿重新站了起来， 现在 [lodgers0_pronoun] 想要对你的帮助给与得体的报酬。 [lodgers0_pronoun]通过空投舱向你发送了如下物资：\n\n[listOfRewards]</li>
+  </RefugeeDelayedReward.questContentRules.rulesStrings>
+  <!-- EN:
+    <li>questDescription->a delayed reward for refugee quest</li>
+  -->
+  <RefugeeDelayedReward.questDescriptionRules.rulesStrings>
+    <li>questDescription->一份迟到的奖励——难民任务</li>
   </RefugeeDelayedReward.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->Refugee delayed reward</li>
   -->
+  <RefugeeDelayedReward.questNameRules.rulesStrings>落难者迟到的回报</RefugeeDelayedReward.questNameRules.rulesStrings>
+  
+  <!-- UNUSED -->
   <RefugeeDelayedReward.questNameRules.rulesStrings>落难者迟到的回报</RefugeeDelayedReward.questNameRules.rulesStrings>
   
 </LanguageData>
