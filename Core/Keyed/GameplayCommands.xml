@@ -70,6 +70,8 @@
   <CommandBedSetOwnerDesc>将此床分配给指定的殖民者。</CommandBedSetOwnerDesc>
   <!-- EN: Assign this throne to be owned by a specific colonist. -->
   <CommandThroneSetOwnerDesc>将此王座分配给特定殖民者所有。</CommandThroneSetOwnerDesc>
+  <!-- EN: Assign this meditation spot to be owned by a specific colonist. -->
+  <CommandMeditationSpotSetOwnerDesc>将此冥想点指定给一个特定的殖民者拥有。</CommandMeditationSpotSetOwnerDesc>
   <!-- EN: Assign colonist -->
   <CommandGraveAssignColonistLabel>指定殖民者</CommandGraveAssignColonistLabel>
   <!-- EN: Assign this grave to be owned by a specific colonist. -->
@@ -252,6 +254,12 @@
   <!-- EN: End any ongoing attacks. -->
   <CommandHoldFireDesc>停止所有正在进行的攻击。</CommandHoldFireDesc>
   
+  <!-- reload -->
+  <!-- EN: No {CHARGENOUN_plural} left. -->
+  <CommandReload_NoCharges>没有{CHARGENOUN_plural}。</CommandReload_NoCharges>
+  <!-- EN: Needs to be reloaded with {COUNT} {AMMO_label}. -->
+  <CommandReload_NoAmmo>重新装填需要{COUNT}x{AMMO_label}。</CommandReload_NoAmmo>
+  
   <!-- Select plant to grow -->
   <!-- EN: Select plant to grow -->
   <CommandSelectPlantToGrowMulti>选择所要种植的植物。</CommandSelectPlantToGrowMulti>
@@ -297,6 +305,8 @@
   <CommandMergeCaravansDesc>合并选中的远行队。</CommandMergeCaravansDesc>
   <!-- EN: Select all caravans which should be merged. The caravans must be close to each other. -->
   <CommandMergeCaravansFailCaravansNotSelected>选择所有应合并的远行队。远行队之间必须互相靠近。</CommandMergeCaravansFailCaravansNotSelected>
+  <!-- EN: Join -->
+  <CommandJoinCaravan>加入</CommandJoinCaravan>
   
   <!-- Settle -->
   <!-- EN: Settle -->
@@ -397,8 +407,8 @@
   <CommandCancelLoadDesc>取消当前人员或物品的装载任务，并卸载所有已装载的物品。</CommandCancelLoadDesc>
   
   <!-- Launch group -->
-  <!-- EN: Launch group -->
-  <CommandLaunchGroup>运输舱发射组</CommandLaunchGroup>
+  <!-- EN: Launch -->
+  <CommandLaunchGroup>发射</CommandLaunchGroup>
   <!-- EN: Initiates the targeting process for launching a group of transport pods. The next step is choosing a target. The pods will fly and land together. -->
   <CommandLaunchGroupDesc>启动发射多个运输舱的目标定位程序。下一步将选择目的地。同一组运输舱会自动飞向目的地并一起降落。 </CommandLaunchGroupDesc>
   <!-- EN: Some transport pods in this loading group are not connected to a fueling port. -->
@@ -493,6 +503,12 @@
   <CommandSendShuttleFailUnderRoof>穿梭机在屋顶下。</CommandSendShuttleFailUnderRoof>
   <!-- EN: Some of the required items or people are missing. -->
   <CommandSendShuttleFailMissingRequiredThing>一些必需的物品或人员不见了。</CommandSendShuttleFailMissingRequiredThing>
+  
+  <!-- Dismiss shuttle -->
+  <!-- EN: Dismiss -->
+  <CommandShuttleDismiss>遣散</CommandShuttleDismiss>
+  <!-- EN: Unload all contents and send the shuttle away. -->
+  <CommandShuttleDismissDesc>卸下所有的货物并且送走穿梭机。</CommandShuttleDismissDesc>
 
   <!-- Place blueprints -->
   <!-- EN: Place blueprints -->

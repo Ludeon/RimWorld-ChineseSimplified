@@ -176,8 +176,8 @@
   <UsingBedrolls>使用{0}个睡袋</UsingBedrolls>
   <!-- EN: Est. time to destination: {0} days -->
   <CaravanEstimatedTimeToDestination>预计抵达耗时：{0}</CaravanEstimatedTimeToDestination>
-  <!-- EN: Estimated days to arrive: {0} -->
-  <CaravanEstimatedDaysToDestination>预计抵达天数：{0}</CaravanEstimatedDaysToDestination>
+  <!-- EN: Route travel time: {0} days -->
+  <CaravanEstimatedDaysToDestination>行程时间：{0}</CaravanEstimatedDaysToDestination>
   <!-- EN: Immobilized: Too much weight. -->
   <CaravanImmobilizedByMass>无法移动: 货物过重</CaravanImmobilizedByMass>
   <!-- EN: Out of food. -->
@@ -246,10 +246,10 @@
   <DeterioratingBecauseOf>老化中，由于</DeterioratingBecauseOf>
   <!-- EN: Map -->
   <Map>地图</Map>
-  <!-- EN: {0} until leaving -->
-  <ForceExitAndRemoveMapCountdown>{0}后离开</ForceExitAndRemoveMapCountdown>
-  <!-- EN: Your colonists will automatically reform the caravan and leave this area in {0}. -->
-  <ForceExitAndRemoveMapCountdownTip>你的殖民者将会于{0}内自动重组远行队并离开此区域。</ForceExitAndRemoveMapCountdownTip>
+  <!-- EN: {0} until enemies arrive -->
+  <CaravanDetectedRaidCountdown>{0}直到敌人到达</CaravanDetectedRaidCountdown>
+  <!-- EN: Enemy reinforcements will arrive in this area in {0}. -->
+  <CaravanDetectedRaidCountdownTip>敌军增援部队将在{0}内到达本区域</CaravanDetectedRaidCountdownTip>
   <!-- EN: Room -->
   <Room>房间</Room>
   <!-- EN: Beauty here -->
@@ -368,7 +368,7 @@
   <CreatureFollowFieldwork>当主人正在进行野外工作时跟随</CreatureFollowFieldwork>
   <!-- EN: {0} with {1} -->
   <ProximitySingleGoodwillChange>{0}与{1}</ProximitySingleGoodwillChange>
-  <!-- EN: You can't re-enter for another {0} days. -->
+  <!-- EN: Too dangerous to re-enter for {0}. -->
   <EnterCooldown>还有{0}天才能再次进入。</EnterCooldown>
   <!-- EN: Caravan -->
   <Caravan>远行队</Caravan>
@@ -378,8 +378,6 @@
   <PreciousLumpLabel>{0}块</PreciousLumpLabel>
   <!-- EN: no active research project -->
   <NoActiveResearchProjectToFinish>没有正在进行的研究项目</NoActiveResearchProjectToFinish>
-  <!-- EN: Cannot research: No research bench -->
-  <CannotResearchNoBench>无法研究：没有研究台</CannotResearchNoBench>
   <!-- EN: turret -->
   <Turret>炮塔</Turret>
   <!-- EN: turrets -->
@@ -620,6 +618,8 @@
   <WatchingAurora>看极光。</WatchingAurora>
   <!-- EN: using {0} on {1}. -->
   <UsingVerb>对{1}使用{0}。</UsingVerb>
+  <!-- EN: using {0}. -->
+  <UsingVerbNoTarget>正在使用{0}。</UsingVerbNoTarget>
   <!-- EN: area -->
   <AreaLower>区域</AreaLower>
   <!-- EN: cowering. -->
@@ -722,8 +722,8 @@
   <Faction>派系</Faction>
   <!-- EN: The faction {PAWN_labelShort} currently belongs to. -->
   <FactionDesc>{PAWN_labelShort}当前所属派系。</FactionDesc>
-  <!-- EN: The faction {PAWN_labelShort} originally belongs to. {PAWN_pronoun} will rejoin their home faction when they depart from their current faction. -->
-  <ExtraFactionDesc>{PAWN_labelShort}原属派系。{PAWN_pronoun}在离开当前派系后会回到原派系。</ExtraFactionDesc>
+  <!-- EN: The faction {PAWN_labelShort} originally belongs to. -->
+  <ExtraFactionDesc>{PAWN_labelShort}的原属派系。</ExtraFactionDesc>
   <!-- EN: Equipped -->
   <Equipped>装备</Equipped>
   <!-- EN: nothing -->
@@ -1020,14 +1020,14 @@
   <HibernateWarningStandalonePacifist>反应炉已准备好启动。此进程将耗费大约15天。</HibernateWarningStandalonePacifist>
 
   <!-- Neurotrainer -->
-  <!-- EN: neurotrainer ({0}) -->
-  <SkillNeurotrainerLabel>神经训练机械液 ({0}) </SkillNeurotrainerLabel>
-  <!-- EN: Use skill neurotrainer to learn {0} -->
-  <SkillNeurotrainerUseLabel>使用技能神经训练机械液学习{0}</SkillNeurotrainerUseLabel>
+  <!-- EN: skilltrainer ({0}) -->
+  <SkillNeurotrainerLabel>技能训练器 ({0}) </SkillNeurotrainerLabel>
+  <!-- EN: Use skilltrainer to learn {0} -->
+  <SkillNeurotrainerUseLabel>使用技能训练器学习{0}</SkillNeurotrainerUseLabel>
   <!-- EN: A one-use super-dose of mechanites which trains a specific skill.\n\nThe dose is administered through the orbit of the eye. Once released into the brain, the mechanites quickly improve the subject's skills in a specific area, transmuting themselves into neural tissue as needed. -->
   <SkillNeurotrainerDescription>为训练特定技能而准备的一次性超级药剂纳米机器人。这种药剂通过眼眶给药。一旦释放进入大脑，纳米机器人会迅速提升特定区域内的学科技能，将其自身转换为所需的神经组织。</SkillNeurotrainerDescription>
   <!-- EN: {USER_labelShort} used {1} neurotrainer to go from level {2} to level {3}. -->
-  <SkillNeurotrainerUsed>{USER_labelShort}使用神经训练机械液将{1}技能从{2}级升至{3}级。</SkillNeurotrainerUsed>
+  <SkillNeurotrainerUsed>{USER_labelShort}使用技能训练器将{1}技能从{2}级升至{3}级。</SkillNeurotrainerUsed>
 
   <!-- Minification -->
   <!-- EN: Installed -->
@@ -1163,6 +1163,10 @@
   <!-- EN: Deep drill resources exhausted. -->
   <DeepDrillExhaustedNoFallback>深钻资源枯竭。</DeepDrillExhaustedNoFallback>
 
+  <!-- reloading ammo -->
+  <!-- EN: Remaining charges -->
+  <ChargesRemaining>剩余充能</ChargesRemaining>
+  
   <!-- Learning helper -->
   <!-- EN: Learning helper -->
   <LearningHelper>教学助手</LearningHelper>
@@ -1274,6 +1278,18 @@
   <Reward_CampLoot>你可以从这个营地劫走任何东西</Reward_CampLoot>
   <!-- EN: Camp loot -->
   <Reward_CampLoot_Label>营地洗劫</Reward_CampLoot_Label>
+  <!-- EN: the visitors will work and fight for you -->
+  <Reward_VisitorsHelp>访客们将为你而战</Reward_VisitorsHelp>
+  <!-- EN: Visitors' help -->
+  <Reward_VisitorsHelp_Label>访客帮助</Reward_VisitorsHelp_Label>
+  <!-- EN: New psylink level -->
+  <Reward_BestowingCeremony_Label>新的启灵等级</Reward_BestowingCeremony_Label>
+  <!-- EN: {PAWNNAME} gains psylink -->
+  <Reward_BestowingCeremony>{PAWNNAME}获得启灵</Reward_BestowingCeremony>
+  <!-- EN: {TITLE} title -->
+  <Reward_Title_Label>{TITLE}头衔</Reward_Title_Label>
+  <!-- EN: {PAWNNAME} gains {TITLE} title from {FACTION} -->
+  <Reward_Title>{PAWNNAME}从{FACTION}获得{TITLE}头衔</Reward_Title>
   <!-- EN: value {0} -->
   <TotalValue>总价值 {0}</TotalValue>
   
@@ -1283,7 +1299,13 @@
   <!-- EN: Not yet bonded -->
   <NotBonded>尚未绑定</NotBonded>
   <!-- EN: bonded to someone else -->
-  <BladelinkBondedToSomeoneElse>绑定到其他人</BladelinkBondedToSomeoneElse>
+  <BladelinkBondedToSomeoneElse>已绑定到其他人</BladelinkBondedToSomeoneElse>
+  <!-- EN: (existing bond) -->
+  <BladelinkAlreadyBonded>（已绑定）</BladelinkAlreadyBonded>
+  <!-- EN: A person can only bond with one persona weapon at a time.\n\nTo equip and bond with {WEAPON_labelShort}, {PAWN_nameDef}'s currently bonded weapon {BONDEDWEAPON_labelShort} must first be destroyed. -->
+  <BladelinkAlreadyBondedDialog>一个人只能在同一时间与一个人格武器进行绑定。\n\n若要装备并绑定{WEAPON_labelShort}，必须先销毁{PAWN_nameDef}当前绑定的武器{BONDEDWEAPON_labelShort}。</BladelinkAlreadyBondedDialog>
+  <!-- EN: {PAWN_nameDef} is already bonded to {BONDEDWEAPON_labelShort} -->
+  <BladelinkAlreadyBondedMessage>{PAWN_nameDef}已经与{BONDEDWEAPON_labelShort}绑定</BladelinkAlreadyBondedMessage>
 
   <!-- Biocoded weapons -->
   <!-- EN: biocoded {0} -->
@@ -1312,6 +1334,9 @@
   <CausedByHediff>由于：{0}</CausedByHediff>
   
   <!-- UNUSED -->
+  <ForceExitAndRemoveMapCountdown>{0}后离开</ForceExitAndRemoveMapCountdown>
+  <ForceExitAndRemoveMapCountdownTip>你的殖民者将会于{0}内自动重组远行队并离开此区域。</ForceExitAndRemoveMapCountdownTip>
+  <CannotResearchNoBench>无法研究：没有研究台</CannotResearchNoBench>
   <PersonaWeaponLabel>ρ-{LABEL}</PersonaWeaponLabel>
   <PawnTooltipPsychicEntropyStatPsyfocusEntropyLimit>最大阈值乘数</PawnTooltipPsychicEntropyStatPsyfocusEntropyLimit>
   <PawnTooltipPsychicEntropy>心灵熵：{0}/{1}\n下降速率：{2}/{3}秒（{4}秒归零）\n\n使用心灵能力后心灵熵增加。\n超出安全限制会导致后遗症。\n每当熵归零都会产生精神宿醉。</PawnTooltipPsychicEntropy>

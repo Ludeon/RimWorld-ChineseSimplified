@@ -90,6 +90,8 @@
   <EnemyOf>敌对派系：</EnemyOf>
   <!-- EN: Current goodwill and relations status with this faction. -->
   <CurrentGoodwillTip>当前与该派系的友好度和关系。</CurrentGoodwillTip>
+  <!-- EN: Current relations with this faction. -->
+  <CurrentRelationTip>当前与此派系的关系。</CurrentRelationTip>
   <!-- EN: This faction is permanently hostile. They will raid your settlements and caravans. Relations with them will never improve for any reason. -->
   <CurrentGoodwillTip_PermanentEnemy>此派系永远敌对。他们会袭击你的定居点和远行队。与他们的关系永远不会以任何原因改进。</CurrentGoodwillTip_PermanentEnemy>
   <!-- EN: This faction is allied. They will send fighters to help you when they can. If relations fall below {0}, they will become neutral. -->
@@ -240,6 +242,10 @@
   <ShuttleDepartsIn>穿梭机{0}后离开</ShuttleDepartsIn>
   <!-- EN: Shuttle departs on {0} -->
   <ShuttleDepartsOn>穿梭机于{0}离开</ShuttleDepartsOn>
+  <!-- EN: Guests depart in {0} -->
+  <GuestsDepartsIn>访客{0}后离开</GuestsDepartsIn>
+  <!-- EN: Guests depart on {0} -->
+  <GuestsDepartsOn>访客于{0}离开</GuestsDepartsOn>
   <!-- EN: Finished {0} ago -->
   <QuestFinishedAgo>{0}之前已完成</QuestFinishedAgo>
   <!-- EN: Accept quest -->
@@ -270,8 +276,14 @@
   <QuestBedroomRequirementsUnsatisfied>满足头衔要求的空置卧室</QuestBedroomRequirementsUnsatisfied>
   <!-- EN: a free bedroom that satisfies the title requirements of -->
   <QuestBedroomRequirementsUnsatisfiedSingle>满足头衔要求的空置卧室</QuestBedroomRequirementsUnsatisfiedSingle>
+  <!-- EN: a throneroom that satisfies the requirements of {PAWN_definite}'s {TITLE} title -->
+  <QuestThroneRoomRequirementsUnsatisfied>满足{PAWN_definite}的{TITLE}头衔要求的谒见厅。</QuestThroneRoomRequirementsUnsatisfied>
+  <!-- EN: a throneroom that satisfies the requirements of {PAWN_definite}'s {TITLE} title -->
+  <QuestNoThroneRoom>满足{PAWN_definite}的{TITLE}头衔要求的谒见厅。</QuestNoThroneRoom>
   <!-- EN: a colonist with the title of {0}. -->
   <QuestNoColonistWithTitle>一名拥有{0}头衔的殖民者。</QuestNoColonistWithTitle>
+  <!-- EN: {PAWN_definite} must be in home colony -->
+  <QuestPawnNotOnColonyMap>{PAWN_definite}必须在主殖民地。</QuestPawnNotOnColonyMap>
   <!-- EN: Reward preferences -->
   <ChooseRewards>奖励偏好</ChooseRewards>
   <!-- EN: Tell other factions what kinds of rewards you want in future quests. This doesn't affect quests that were already offered. -->
@@ -292,6 +304,10 @@
   <GoodwillTip>你与{0_name}的好感将会提升{1}。\n\n当前好感度：{4}（{5}）。\n\n好感度用来衡量派系间的态度。如果它落到{2}以下，这个派系会变成你的敌人，并且会袭击你的定居点和商队。如果它上升到{3}以上，此派系会成为你的盟友，并且尽可能地派遣战士帮助你。否则此派系会保持中立，能够与你自由交易和对话。</GoodwillTip>
   <!-- EN: {0_labelShort} joins -->
   <PawnQuestReward>{0_labelShort}加入</PawnQuestReward>
+  <!-- EN: Betrayal offer: {0} targets remain -->
+  <QuestBetrayalOffer>背叛：存在{0}个目标</QuestBetrayalOffer>
+  <!-- EN: {0} will grant you a reward for killing all members of the {1}. -->
+  <QuestBetrayalOfferTip>{0}将因你杀死{1}的所有成员而奖励你。</QuestBetrayalOfferTip>
   
   <!-- Health tab -->
   <!-- EN: Creates need -->

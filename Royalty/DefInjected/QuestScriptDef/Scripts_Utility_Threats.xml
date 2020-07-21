@@ -9,17 +9,17 @@
   </Util_GameConditionNegativeRandom.questDescriptionRules.rulesStrings>
   
   <!-- EN:
-    <li>threatDescription->[hivesCount] insect hives will burrow up from underground.</li>
+    <li>threatDescription->(*Threat)[hivesCount] insect hives(/Threat) will burrow up from underground.</li>
   -->
   <Util_Infestation.questDescriptionRules.rulesStrings>
-    <li>threatDescription->[hivesCount]个虫巢将会冲出地面。</li>
+    <li>threatDescription->(*Threat)[hivesCount]个虫巢(/Threat)将会冲出地面。</li>
   </Util_Infestation.questDescriptionRules.rulesStrings>
   
   <!-- EN:
-    <li>threatDescription->a pack of [animalCount] manhunting [animalKind_labelPlural] will arrive.</li>
+    <li>threatDescription->a pack of (*Threat)[animalCount] manhunting [animalKind_labelPlural](/Threat) will arrive.</li>
   -->
   <Util_ManhunterPack.questDescriptionRules.rulesStrings>
-    <li>threatDescription->一群约[animalCount]只正在疯狂猎杀人类的[animalKind_labelPlural]即将来到附近。</li>
+    <li>threatDescription->(*Threat)一群约[animalCount]只正在疯狂猎杀人类的[animalKind_labelPlural](/Threat)即将来到附近。</li>
   </Util_ManhunterPack.questDescriptionRules.rulesStrings>
   
   <!-- EN:

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questName->Laborers</li>
+    <li>questDescription-></li>
+  -->
+  <Permit_CallLaborers.questDescriptionAndNameRules.rulesStrings>
+    <li>questName->劳工</li>
+    <li>questDescription-></li>
+  </Permit_CallLaborers.questDescriptionAndNameRules.rulesStrings>
+  <!-- EN: Laborers arrived -->
+  <Permit_CallLaborers.LetterLabelLaborersArrived.slateRef>劳工已经抵达</Permit_CallLaborers.LetterLabelLaborersArrived.slateRef>
+  <!-- EN: The laborers from [permitFaction_name] have arrived. A shuttle will come to collect them in [laborersDurationDays] days. -->
+  <Permit_CallLaborers.LetterTextLaborersArrived.slateRef>来自[permitFaction_name]的劳工们已经抵达。一个穿梭机将在[laborersDurationDays]天后接走他们。</Permit_CallLaborers.LetterTextLaborersArrived.slateRef>
+  <!-- EN: Should depart on shuttle -->
+  <Permit_CallLaborers.InspectStringDepartShuttle.slateRef>应搭乘穿梭机离开</Permit_CallLaborers.InspectStringDepartShuttle.slateRef>
+  <!-- EN: Shuttle arrived -->
+  <Permit_CallLaborers.LetterLabelShuttleArrived.slateRef>穿梭机抵达</Permit_CallLaborers.LetterLabelShuttleArrived.slateRef>
+  <!-- EN: A shuttle has arrived to collect the laborers from [permitFaction_name]. -->
+  <Permit_CallLaborers.LetterTextShuttleArrivedForLaborers.slateRef>一个穿梭机已抵达，以接走来自[permitFaction_name]的劳工。</Permit_CallLaborers.LetterTextShuttleArrivedForLaborers.slateRef>
+  <!-- EN: Laborer died: {SUBJECT_definite} -->
+  <Permit_CallLaborers.LetterLabelLaborerDied.slateRef>劳工死亡：{SUBJECT_definite}</Permit_CallLaborers.LetterLabelLaborerDied.slateRef>
+  <!-- EN: A laborer sent to you by [permitFaction_name] has died. Your goodwill with [permitFaction_name] has fallen by [goodwillPenaltyPawn]. -->
+  <Permit_CallLaborers.LetterTextLaborerDied.slateRef>由[permitFaction_name]派遣来帮你的一名劳工死亡了。你与[permitFaction_name]的友好度降低了[goodwillPenaltyPawn]。</Permit_CallLaborers.LetterTextLaborerDied.slateRef>
+  
+  <!-- EN:
+    <li>questName->Permit Shuttle</li>
+    <li>questDescription-></li>
+  -->
+  <Permit_CallShuttle.questDescriptionAndNameRules.rulesStrings>
+    <li>questName->特许穿梭机</li>
+    <li>questDescription-></li>
+  </Permit_CallShuttle.questDescriptionAndNameRules.rulesStrings>
+  <!-- EN: Shuttle arrived -->
+  <Permit_CallShuttle.LetterLabelPermitShuttleArrived.slateRef>穿梭机抵达</Permit_CallShuttle.LetterLabelPermitShuttleArrived.slateRef>
+  <!-- EN: The shuttle called by [asker_nameDef] has arrived.\n\nIf you don't use the shuttle, it will return to [permitFaction_name] in [shuttleReturnDays] days. -->
+  <Permit_CallShuttle.LetterTextPermitShuttleArrived.slateRef>[asker_nameDef]呼叫的穿梭机已经抵达。\n\n如果你不使用它，它将会在[shuttleReturnDays]天后返回[permitFaction_name]。</Permit_CallShuttle.LetterTextPermitShuttleArrived.slateRef>
+  <!-- EN: shuttle destroyed -->
+  <Permit_CallShuttle.GoodwillChangeReasonShuttleDestroyed.slateRef>穿梭机损毁</Permit_CallShuttle.GoodwillChangeReasonShuttleDestroyed.slateRef>
+  <!-- EN: Shuttle left -->
+  <Permit_CallShuttle.LetterLabelPermitShuttleLeft.slateRef>穿梭机离开</Permit_CallShuttle.LetterLabelPermitShuttleLeft.slateRef>
+  <!-- EN: The shuttle from [permitFaction_name] has departed after being made to wait for too long. -->
+  <Permit_CallShuttle.LetterTextPermitShuttleLeft.slateRef>来自[permitFaction_name]的穿梭机因等待超时而离开。</Permit_CallShuttle.LetterTextPermitShuttleLeft.slateRef>
+  
+</LanguageData>
