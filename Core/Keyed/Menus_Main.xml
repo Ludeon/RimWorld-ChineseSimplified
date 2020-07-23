@@ -286,10 +286,6 @@
   <PermadeathModeInfo>你只能在退出游戏时保存进度。当殖民地出现危机时，你无法通过载入进度来弥补错误。\n\nRimWorld是一个故事生成器，失去谁并不是游戏的终点——生与死都是故事的一部分，让人得到感悟。\n\n悲欢离合，失败或是胜利，浓缩为属于你的故事——这就是RimWorld。就像卢克·天行者（星球大战角色）在家人被杀时，没有选择放弃和重新来过一样，失与得都是人生的一部分，充满了戏剧性。</PermadeathModeInfo>
   <!-- EN: Storyteller and playstyle can be changed any time. -->
   <CanChangeStorytellerSettingsDuringPlay>叙事者和游戏模式可以随时更改。</CanChangeStorytellerSettingsDuringPlay>
-  <!-- EN: Merciless mode -->
-  <UnlockExtremeDifficulty>解锁冷酷无情</UnlockExtremeDifficulty>
-  <!-- EN: Merciless mode is a special game mode where every challenge is turned up to extreme levels.\n\nMerciless mode unlocks automatically when you reach specific milestones. However, you can unlock it now.\n\nThis option is only recommended once you've played a high-difficulty game or two and want to have a good chance at dying despite your best efforts. -->
-  <ConfirmUnlockExtremeDifficulty>冷酷无情是一个特殊的难度，每次挑战都会上升到极限水平。\n\n当你达到特定的里程碑时，冷酷难度会自动解锁，但你现在也可以解锁这个难度。\n\n注意！只有在你体验了一两场最高难度的游戏并打算继续挑战，或者希望体验为挣扎求生而拼尽全力时，才建议使用此难度。</ConfirmUnlockExtremeDifficulty>
 
   <!-- custom difficulty settings -->
   <!-- EN: Custom playstyle settings -->
@@ -385,10 +381,10 @@
   <Difficulty_FriendlyFireChanceFactor_Label>友方伤害</Difficulty_FriendlyFireChanceFactor_Label>
   <!-- EN: Adjust the chance of friendly fire.\n\nNote: This setting only affects direct shots which were going to hit their target. It does not prevent damage from explosions, or from shots which were going to miss their target. -->
   <Difficulty_FriendlyFireChanceFactor_Info>调整友方误伤的几率。\n\n注：此设置只影响会命中目标的直接射击。它并不能防止爆炸造成的伤害，也不能防止子弹击中目标产生的伤害。</Difficulty_FriendlyFireChanceFactor_Info>
-  <!-- EN: Colonist instant-kill prevention -->
-  <Difficulty_AvoidInstantKillChance_Label>避免殖民者直接被杀</Difficulty_AvoidInstantKillChance_Label>
-  <!-- EN: Add a special chance to prevent colonists from dying instantly due to an attack. The incoming damage is adjusted so it will down the colonist instead.\n\nThis only prevents some kinds of instant kills - colonists can still be downed and bleed to death, die from fire, explosions, disease, and so on. -->
-  <Difficulty_AvoidInstantKillChance_Info>增加一个特殊的几率来防止殖民者因攻击而当场死亡。受到的伤害会进行调整，它会使殖民者倒地而不是致死。\n\n不过这只会影响到一些直接杀死殖民者的伤害，殖民者仍然会被击倒、流血致死，或者死于火灾、爆炸、疾病等。</Difficulty_AvoidInstantKillChance_Info>
+  <!-- EN: Colonist instant kills -->
+  <Difficulty_AllowInstantKillChance_Label>殖民者直接死亡</Difficulty_AllowInstantKillChance_Label>
+  <!-- EN: Adjust the chance that a colonist can die instantly due to an attack. The incoming damage is adjusted so it will down the colonist instead.\n\nThis only prevents some kinds of instant kills - colonists can still be downed and bleed to death, die from fire, explosions, disease, and so on. -->
+  <Difficulty_AllowInstantKillChance_Info>调整殖民者因攻击而当场死亡的几率。受到的伤害会进行调整，它会使殖民者倒地而不是致死。\n\n不过这只会影响到一些直接杀死殖民者的伤害，殖民者仍然会被击倒、流血致死，或者死于火灾、爆炸、疾病等。</Difficulty_AllowInstantKillChance_Info>
   <!-- EN: Infection chance -->
   <Difficulty_PlayerPawnInfectionChanceFactor_Label>感染几率</Difficulty_PlayerPawnInfectionChanceFactor_Label>
   <!-- EN: Adjust the chance that a wound will become infected. -->
@@ -622,5 +618,11 @@
   <ClickForMoreInfo>点击了解更多信息</ClickForMoreInfo>
   <!-- EN: No more information is available. -->
   <NoMoreInfoAvailable>没有更多信息。</NoMoreInfoAvailable>
+
+  <!-- UNUSED -->
+  <UnlockExtremeDifficulty>解锁冷酷无情</UnlockExtremeDifficulty>
+  <ConfirmUnlockExtremeDifficulty>冷酷无情是一个特殊的难度，每次挑战都会上升到极限水平。\n\n当你达到特定的里程碑时，冷酷难度会自动解锁，但你现在也可以解锁这个难度。\n\n注意！只有在你体验了一两场最高难度的游戏并打算继续挑战，或者希望体验为挣扎求生而拼尽全力时，才建议使用此难度。</ConfirmUnlockExtremeDifficulty>
+  <Difficulty_AvoidInstantKillChance_Label>避免殖民者直接被杀</Difficulty_AvoidInstantKillChance_Label>
+  <Difficulty_AvoidInstantKillChance_Info>增加一个特殊的几率来防止殖民者因攻击而当场死亡。受到的伤害会进行调整，它会使殖民者倒地而不是致死。\n\n不过这只会影响到一些直接杀死殖民者的伤害，殖民者仍然会被击倒、流血致死，或者死于火灾、爆炸、疾病等。</Difficulty_AvoidInstantKillChance_Info>
 
 </LanguageData>
