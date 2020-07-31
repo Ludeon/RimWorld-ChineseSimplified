@@ -204,6 +204,8 @@
   <ModUnsatisfiedDependency>这需要以下MOD才能运行: {0}。</ModUnsatisfiedDependency>
   <!-- EN: This mod was not made for this version of RimWorld, and will probably not work correctly. -->
   <ModNotMadeForThisVersion>该 Mod 并不适配于当前 RimWorld 版本，很可能无法正常运行。</ModNotMadeForThisVersion>
+  <!-- EN: This mod is not made for this version of RimWorld. -->
+  <ModNotMadeForThisVersionShort>该 Mod 并不适配于此版本。</ModNotMadeForThisVersionShort>
   <!-- EN: This mod was made for a newer version of RimWorld than this, and will probably not work correctly. -->
   <ModNotMadeForThisVersion_Newer>该 Mod 是为更高的 RimWorld 版本制作的，很可能无法正常运行。</ModNotMadeForThisVersion_Newer>
   <!-- EN: Mod needs properly formatted supported version information in About.xml. Like this: <supportedVersions><li>{0}</li></supportedVersions> - <targetVersion> is deprecated. Check log for further information. -->
@@ -224,8 +226,10 @@
   <ModLoadFolderOutOfOrder>无效版本顺序：{0} 应该在 {1} 之前。</ModLoadFolderOutOfOrder>
   <!-- EN: Invalid version order: 'default' should be defined first. -->
   <ModLoadFolderOutOfOrderDefault>无效的版本顺序：应该首先定义“default”。</ModLoadFolderOutOfOrderDefault>
+  <!-- EN: Using 'default' in load folders is deprecated. Please define folders for each version using the <v...> tags. -->
+  <ModLoadFolderDefaultDeprecated>不推荐在加载文件中使用默认格式的版本目录。请为每个版本的目录加上类似‘v...’的标签。</ModLoadFolderDefaultDeprecated>
   <!-- EN: Version {0} is defined in load folders, but is not listed in 'supportedVersions' of mod's About.xml. -->
-  <ModLoadFolderDefinesUnsupportedGameVersion>版本 {0} 是在加载文件夹中定义的，但是在mod的About.xml的'supportedGameVersions'中没有列出</ModLoadFolderDefinesUnsupportedGameVersion>
+  <ModLoadFolderDefinesUnsupportedGameVersion>版本 {0} 是在加载文件中定义的，但是在mod的About.xml的'supportedGameVersions'中没有列出</ModLoadFolderDefinesUnsupportedGameVersion>
   <!-- EN: Drag to reorder -->
   <DragToReorder>拖拽以排序</DragToReorder>
 
