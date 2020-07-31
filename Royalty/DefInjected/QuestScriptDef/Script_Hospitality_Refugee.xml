@@ -242,11 +242,11 @@
   
   <!-- EN:
     <li>rewardLetterLabel->Hospitality reward</li>
-    <li>rewardLetterText->[lodgers0_nameDef] has contacted you. [rewardDelayTicks_duration] ago, you helped [lodgers0_objective] in desperate circumstances.\n\nSince then, [lodgers0_pronoun] has gotten back on [lodgers0_possessive] feet, and now [lodgers0_pronoun] wants to reward you properly for your help. [lodgers0_pronoun] is sending you the following via drop pod:\n\n[listOfRewards]</li>
+    <li>rewardLetterText->[rewardGiver_nameDef] has contacted you. [rewardDelayTicks_duration] ago, you helped [rewardGiver_objective] in desperate circumstances.\n\nSince then, [rewardGiver_pronoun] has gotten back on [rewardGiver_possessive] feet, and now [rewardGiver_pronoun] wants to reward you properly for your help. [rewardGiver_pronoun] is sending you the following via drop pod:\n\n[listOfRewards]</li>
   -->
   <RefugeeDelayedReward.questContentRules.rulesStrings>
     <li>rewardLetterLabel->访客报酬</li>
-    <li>rewardLetterText->[lodgers0_nameDef] 已经联系过你。 [rewardDelayTicks_duration] 之前， 你在[lodgers0_objective]十分绝望的时候给与了帮助。\n\n后来，[lodgers0_pronoun]靠着[lodgers0_possessive]的双腿重新站了起来， 现在 [lodgers0_pronoun] 想要对你的帮助给与得体的报酬。 [lodgers0_pronoun]通过空投舱向你发送了如下物资：\n\n[listOfRewards]</li>
+    <li>rewardLetterText->[rewardGiver_nameDef] 已经联系过你。 [rewardDelayTicks_duration] 之前， 你在[rewardGiver_objective]十分绝望的时候给与了帮助。\n\n后来，[rewardGiver_pronoun]靠着[rewardGiver_possessive]双腿重新站了起来， 现在 [rewardGiver_pronoun] 想要对你的帮助给与得体的报酬。 [rewardGiver_pronoun]通过空投舱向你发送了如下物资：\n\n[listOfRewards]</li>
   </RefugeeDelayedReward.questContentRules.rulesStrings>
   <!-- EN:
     <li>questDescription->a delayed reward for refugee quest</li>
