@@ -147,7 +147,7 @@
     <li>claimInfo(lodgerCount==1)->[asker_nameDef] claims to have lost [asker_possessive] home in a recent attack.</li>
     <li>claimInfo(lodgerCount>=2)->They claim to have lost their home in a recent attack.</li>
     <li>joinInfo(lodgerCount==1)->If you make [asker_objective] happy, [asker_pronoun] may offer to join you.</li>
-    <li>joinInfo(lodgerCount>=1)->If you make them happy, some of them may offer to join you.</li>
+    <li>joinInfo(lodgerCount>=2)->If you make them happy, some of them may offer to join you.</li>
     <li>travelerInfo(lodgerCount==1)->This [faction_pawnSingular] is</li>
     <li>travelerInfo(lodgerCount>=2)->These [faction_pawnsPlural] are</li>
   -->
@@ -171,7 +171,7 @@
     <li>claimInfo(lodgerCount==1)->[asker_nameDef] 声称 [asker_possessive] 在最近一次袭击中失去了家园。</li>
     <li>claimInfo(lodgerCount>=2)->他们声称在最近一次袭击中失去了家园。</li>
     <li>joinInfo(lodgerCount==1)->如果你能让[asker_objective]开心， [asker_pronoun]可能会提议加入你。</li>
-    <li>joinInfo(lodgerCount>=1)->如果你能让他们开心，他们中的一部分可能会提议加入你。</li>
+    <li>joinInfo(lodgerCount>=2)->如果你能让他们开心，他们中的一部分可能会提议加入你。</li>
     <li>travelerInfo(lodgerCount==1)->这名 [faction_pawnSingular] </li>
     <li>travelerInfo(lodgerCount>=2)->这些 [faction_pawnsPlural] </li>
   </Hospitality_Refugee.questDescriptionRules.rulesStrings>
