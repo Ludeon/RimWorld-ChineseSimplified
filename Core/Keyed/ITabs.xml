@@ -112,6 +112,8 @@
   <ShouldTryToRecruit>尝试招募</ShouldTryToRecruit>
   <!-- EN: Considered guilty (expires in {0}) -->
   <ConsideredGuilty>被判有罪（{0}后消失）</ConsideredGuilty>
+  <!-- EN: Considered guilty -->
+  <ConsideredGuiltyNoTimer>被判有罪</ConsideredGuiltyNoTimer>
 
   <!-- Medical - general -->
   <!-- EN: Move speed -->
@@ -277,18 +279,10 @@
   <CopyLogTip>将日志复制到剪贴板</CopyLogTip>
 
   <!-- Forming caravan tab -->
-  <!-- EN: Gathering animals -->
-  <FormingCaravanStatus_GatheringAnimals>收集动物</FormingCaravanStatus_GatheringAnimals>
-  <!-- EN: Gathering animals (waiting) -->
-  <FormingCaravanStatus_GatheringAnimals_Pause>收集动物（等待中）</FormingCaravanStatus_GatheringAnimals_Pause>
   <!-- EN: Gathering items -->
   <FormingCaravanStatus_GatheringItems>收集物品</FormingCaravanStatus_GatheringItems>
   <!-- EN: Gathering items (waiting) -->
   <FormingCaravanStatus_GatheringItems_Pause>收集物品（等待中）</FormingCaravanStatus_GatheringItems_Pause>
-  <!-- EN: Gathering slaves -->
-  <FormingCaravanStatus_GatheringSlaves>收集奴隶</FormingCaravanStatus_GatheringSlaves>
-  <!-- EN: Gathering slaves (waiting) -->
-  <FormingCaravanStatus_GatheringSlaves_Pause>收集奴隶（等待中）</FormingCaravanStatus_GatheringSlaves_Pause>
   <!-- EN: Gathering downed people -->
   <FormingCaravanStatus_GatheringDownedPawns>收集无法行动的人</FormingCaravanStatus_GatheringDownedPawns>
   <!-- EN: Gathering downed people (waiting) -->
@@ -329,5 +323,11 @@
   <QuestDismissed>该任务已被取消。\n\n你可以在该任务到期之前随时撤销取消的操作。</QuestDismissed>
   <!-- EN: Delete this quest and remove it from the quest list forever. -->
   <DeleteQuest>删除并将此任务永久从任务列表移除。</DeleteQuest>
+
+  <!-- UNUSED -->
+  <FormingCaravanStatus_GatheringAnimals>收集动物</FormingCaravanStatus_GatheringAnimals>
+  <FormingCaravanStatus_GatheringAnimals_Pause>收集动物（等待中）</FormingCaravanStatus_GatheringAnimals_Pause>
+  <FormingCaravanStatus_GatheringSlaves>收集奴隶</FormingCaravanStatus_GatheringSlaves>
+  <FormingCaravanStatus_GatheringSlaves_Pause>收集奴隶（等待中）</FormingCaravanStatus_GatheringSlaves_Pause>
 
 </LanguageData>
