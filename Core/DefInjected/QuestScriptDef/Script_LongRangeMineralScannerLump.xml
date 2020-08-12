@@ -2,17 +2,17 @@
 <LanguageData>
   
   <!-- EN:
-    <li>questDescription->Using your long-range mineral scanner, [worker_definite] has found a lump of [targetMineable_label] nearby.\n\nUnfortunately, it won't last - others will mine it first in [timeoutTicks_duration] if we don't.\n\n[allSitePartsDescriptionsExceptFirst]</li>
+    <li>questDescription->Using your long-range mineral scanner, [worker_definite] has found a lump of [targetMineable_label] nearby.\n\nUnfortunately, it won't last - others will mine it first in [timeoutTicks_duration] if we don't.[lumpThreatDescription]</li>
   -->
   <LongRangeMineralScannerLump.questDescriptionRules.rulesStrings>
-    <li>questDescription->通过使用远距离矿物扫描仪， [worker_definite] 发现了附近的一块 [targetMineable_label]。 \n\n很遗憾， 它不会持续很久——如果我们不尽快开采， 其他势力将会在 [timeoutTicks_duration] 后开采并带走这些资源。\n\n[allSitePartsDescriptionsExceptFirst]</li>
+    <li>questDescription->通过使用远距离矿物扫描仪， [worker_definite] 发现了附近的一块 [targetMineable_label]。 \n\n很遗憾， 它不会持续很久——如果我们不尽快开采， 其他势力将会在 [timeoutTicks_duration] 后开采并带走这些资源。[lumpThreatDescription]</li>
   </LongRangeMineralScannerLump.questDescriptionRules.rulesStrings>
   <!-- EN:
-    <li>questName->[lump] of [targetMineable_label]</li>
-    <li>questName->[targetMineable_label] [lump]</li>
-    <li>questName->The [targetMineable_label] [lump]</li>
-    <li>questName->[adj] [targetMineable_label]</li>
-    <li>questName->[targetMineable_label] [discovered]</li>
+    <li>questName->[lump] of [targetMineableThing_label]</li>
+    <li>questName->[targetMineableThing_label] [lump]</li>
+    <li>questName->The [targetMineableThing_label] [lump]</li>
+    <li>questName->[adj] [targetMineableThing_label]</li>
+    <li>questName->[targetMineableThing_label] [discovered]</li>
     <li>lump->lump</li>
     <li>lump->pile</li>
     <li>lump->deposit</li>
@@ -29,11 +29,11 @@
     <li>discovered->scanned</li>
   -->
   <LongRangeMineralScannerLump.questNameRules.rulesStrings>
-    <li>questName->[targetMineable_label] 的 [lump]</li>
-    <li>questName->[targetMineable_label] [lump]</li>
-    <li>questName->[targetMineable_label] [lump]</li>
-    <li>questName->[adj] [targetMineable_label]</li>
-    <li>questName->[targetMineable_label] [discovered]</li>
+    <li>questName->[targetMineableThing_label] 的 [lump]</li>
+    <li>questName->[targetMineableThing_label] [lump]</li>
+    <li>questName->[targetMineableThing_label] [lump]</li>
+    <li>questName->[adj] [targetMineableThing_label]</li>
+    <li>questName->[targetMineableThing_label] [discovered]</li>
     <li>lump->隆起</li>
     <li>lump->块堆</li>
     <li>lump->积淀</li>
