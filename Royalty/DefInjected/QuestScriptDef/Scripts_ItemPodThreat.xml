@@ -25,19 +25,19 @@
   </ThreatReward_GameCondition_ItemPod.questNameRules.rulesStrings>
   
   <!-- EN:
-    <li>questDescription(askerIsNull==true)->An orbiting research ship wants to test a new type of insect pheromone. If you agree, they'll sweep [map_definite] with the pheromone, provoking (*Threat)an infestation of [hivesCount] hives(/Threat).\n\n[helpersParagraph]</li>
+    <li>questDescription(askerIsNull==true)->An orbiting research ship wants to test a new type of insect pheromone. If you agree, they'll sweep [map_definite] with the pheromone, provoking (*Threat)an infestation of [hivesCount] hives(/Threat).[helpersParagraph]</li>
     <li>infestationArrivalLetterText(askerIsNull==true)->The hives were attracted by a pheromone sweep from an orbiting research ship.</li>
-    <li>questDescription(asker_factionLeader==True)->[asker_nameFull], [asker_faction_leaderTitle] of [asker_faction_name], is facing repeated infestations at sites near [map_definite]. [asker_pronoun] wants to draw the infestations to you. This will provoke (*Threat)an infestation of [hivesCount] hives(/Threat).\n\n[helpersParagraph]</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_nameFull], [asker_faction_leaderTitle] of [asker_faction_name], is facing repeated infestations at sites near [map_definite]. [asker_pronoun] wants to draw the infestations to you. This will provoke (*Threat)an infestation of [hivesCount] hives(/Threat).[helpersParagraph]</li>
     <li>infestationArrivalLetterText(asker_factionLeader==True)->The hives were originally infesting nearby sites belonging to [asker_nameFull] of [asker_faction_name].</li>
-    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], is having trouble landing near [map_definite] due to repeated infestations. [asker_pronoun] wants to draw the bugs to you to be dealt with. This will provoke (*Threat)an infestation of [hivesCount] hives(/Threat).\n\n[helpersParagraph]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], is having trouble landing near [map_definite] due to repeated infestations. [asker_pronoun] wants to draw the bugs to you to be dealt with. This will provoke (*Threat)an infestation of [hivesCount] hives(/Threat).[helpersParagraph]</li>
     <li>infestationArrivalLetterText(asker_royalInCurrentFaction==True)->The infestation was drawn to you by [asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name].</li>
   -->
   <ThreatReward_Infestation_ItemPod.questDescriptionRules.rulesStrings>
-    <li>questDescription(askerIsNull==true)->一艘在轨科研船想测试一种新兴的昆虫信息素。 如果你同意， 他们将在[map_definite]释放信息素， 这样将唤醒(*Threat)规模为 [hivesCount]的虫巢(/Threat)。\n\n[helpersParagraph]</li>
+    <li>questDescription(askerIsNull==true)->一艘在轨科研船想测试一种新兴的昆虫信息素。 如果你同意， 他们将在[map_definite]释放信息素， 这样将唤醒(*Threat)规模为 [hivesCount]的虫巢(/Threat)。[helpersParagraph]</li>
     <li>infestationArrivalLetterText(askerIsNull==true)->虫巢被在轨研究船释放的信息素所唤醒。</li>
-    <li>questDescription(asker_factionLeader==True)->来自 [asker_faction_name] 的 [asker_faction_leaderTitle] [asker_nameFull] 声称其在[map_definite]附近的哨站总是受到虫灾侵害。[asker_pronoun]希望把虫害引到你这， 这会使(*Threat)规模为 [hivesCount]的虫巢(/Threat)被唤醒。\n\n[helpersParagraph]</li>
+    <li>questDescription(asker_factionLeader==True)->来自 [asker_faction_name] 的 [asker_faction_leaderTitle] [asker_nameFull] 声称其在[map_definite]附近的哨站总是受到虫灾侵害。[asker_pronoun]希望把虫害引到你这， 这会使(*Threat)规模为 [hivesCount]的虫巢(/Threat)被唤醒。[helpersParagraph]</li>
     <li>infestationArrivalLetterText(asker_factionLeader==True)->虫巢最早出现在[asker_faction_name]的[asker_nameFull]附近。</li>
-    <li>questDescription(asker_royalInCurrentFaction==True)->来自 [asker_faction_name] 的 [asker_royalTitleInCurrentFaction] [asker_nameFull]， 由于在[map_definite]附近着陆而受到虫群的反复滋扰。 [asker_pronoun]想要让你来处理这些虫子。 这将吸引(*Threat)规模为 [hivesCount]的虫巢(/Threat)出现。\n\n[helpersParagraph]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->来自 [asker_faction_name] 的 [asker_royalTitleInCurrentFaction] [asker_nameFull]， 由于在[map_definite]附近着陆而受到虫群的反复滋扰。 [asker_pronoun]想要让你来处理这些虫子。 这将吸引(*Threat)规模为 [hivesCount]的虫巢(/Threat)出现。[helpersParagraph]</li>
     <li>infestationArrivalLetterText(asker_royalInCurrentFaction==True)->这起虫灾是由来自[asker_faction_name]的[asker_royalTitleInCurrentFaction] [asker_nameFull]吸引而来的。</li>
   </ThreatReward_Infestation_ItemPod.questDescriptionRules.rulesStrings>
   <!-- EN:
@@ -66,7 +66,7 @@
     <li>animalKindLabelCorrect(animalCount>=2)->[animalKind_labelPlural]</li>
     <li>manhuntingBeastIndef(animalCount==1)->a (*Threat)manhunting [animalKind_label](/Threat)</li>
     <li>manhuntingBeastIndef(animalCount>=2)->a pack of (*Threat)[animalCount] manhunting [animalKind_labelPlural](/Threat)</li>
-    <li>endSection->\n\n[helpersParagraph]The [animalKindLabelCorrect] will arrive at [map_definite] [manhuntersDelayTicks_duration] after you accept.</li>
+    <li>endSection->[helpersParagraph]The [animalKindLabelCorrect] will arrive at [map_definite] [manhuntersDelayTicks_duration] after you accept.</li>
     <li>questDescription(askerIsNull==true,animalCount==1)->A trader is calling. (*Threat)A wild [animalKind_label](/Threat) is hunting him! He wants your help to draw the beast away from him.[endSection]</li>
     <li>manhunterArrivalLetterEnd(askerIsNull==true,animalCount==1)->The [animalKind_label] was hunting a nearby trader.</li>
     <li>questDescription(askerIsNull==true,animalCount>=2)->A trader is calling. A pack of (*Threat)[animalCount] wild [animalKind_labelPlural](/Threat) are hunting him! He wants your help to draw the animals away from him.[endSection]</li>
