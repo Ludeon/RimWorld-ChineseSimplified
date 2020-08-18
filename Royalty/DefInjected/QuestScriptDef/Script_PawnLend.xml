@@ -7,7 +7,7 @@
     <li>disease->plague</li>
     <li>disease->malaria</li>
     <li>disease->infection</li>
-    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_royalTitleInCurrentFaction] [asker_nameFull] of [asker_faction_name] wishes to add some life to [asker_possessive] court by showing off some [entertainerDescription].\n\n[asker_pronoun] is asking you to lend [colonistCountToLend] to serve [asker_objective] for [lendForDays] days.\n\n[willSendShuttle]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_royalTitleInCurrentFaction] [asker_nameFull] of [asker_faction_name] needs people to help [dutyRoyalDescription].\n\n[asker_pronoun] is asking you to lend [colonistCountToLend] to serve [asker_objective] for [lendForDays] days.\n\n[willSendShuttle]</li>
     <li>colonistCountToLend(colonistsToLendCount==1)->1 colonist</li>
     <li>colonistCountToLend(colonistsToLendCount>1)->[colonistsToLendCount] colonists</li>
     <li>willSendShuttle->[asker_pronoun] will send a shuttle to pick up the [colonists].</li>
@@ -22,7 +22,7 @@
     <li>disease->瘟疫</li>
     <li>disease->疟疾</li>
     <li>disease->伤口感染</li>
-    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_faction_name] 的 [asker_royalTitleInCurrentFaction] [asker_nameFull] 希望通过展示一些 [entertainerDescription] 来增添 [asker_possessive] 的生活情趣。\n\n[asker_pronoun]要求你将[colonistCountToLend]派去服务[asker_objective][lendForDays]天。\n\n[willSendShuttle]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_faction_name] 的 [asker_royalTitleInCurrentFaction] [asker_nameFull] 需要一些人手来帮忙[dutyRoyalDescription]。\n\n[asker_pronoun]正请求你将[colonistCountToLend]派遣去为[asker_objective]服务[lendForDays]天。\n\n[willSendShuttle]</li>
     <li>colonistCountToLend(colonistsToLendCount==1)->一位殖民者</li>
     <li>colonistCountToLend(colonistsToLendCount>1)->[colonistsToLendCount]殖民者</li>
     <li>willSendShuttle->[asker_pronoun] 将会派出穿梭机来接 [colonists].</li>
@@ -70,17 +70,19 @@
   </PawnLend.DutyRulesAny.slateRef>
   <!-- EN: {PAWNS} [pawnListHaveConjugation] returned after helping [asker_nameFull] of [asker_faction_name] to [dutyDescription]. -->
   <PawnLend.LetterTextReturnAfterHelping.slateRef>在帮助 [asker_faction_name] 的 [asker_nameFull] 顺利 [dutyDescription]后， {PAWNS}安全的回来了。</PawnLend.LetterTextReturnAfterHelping.slateRef>
-  <!-- EN: <rulesStrings><li>entertainerDescription->real hardy surface survivors</li><li>entertainerDescription->goofy jesters</li><li>entertainerDescription->foreign-accented servants</li><li>entertainerDescription->exotic human specimens</li></rulesStrings> -->
+  <!-- EN: <rulesStrings><li>dutyRoyalDescription->prepare a ceremony</li><li>dutyRoyalDescription->negotiate with a tribe</li><li>dutyRoyalDescription->explore a swamp</li><li>dutyRoyalDescription->translate a book</li><li>dutyRoyalDescription->set up a training ground</li><li>dutyRoyalDescription->harvest crops</li></rulesStrings> -->
   <PawnLend.DutyRulesRoyal.slateRef>
     <rulesStrings>
-      <li>entertainerDescription->地表生存大师</li>
-      <li>entertainerDescription->滑稽的小丑</li>
-      <li>entertainerDescription->外地口音的仆侍</li>
-      <li>entertainerDescription->外来人类展品</li>
+     <li>dutyRoyalDescription->准备仪式</li>
+     <li>dutyRoyalDescription->与部落谈判</li>
+     <li>dutyRoyalDescription->探索沼泽</li>
+     <li>dutyRoyalDescription->翻译一本书</li>
+     <li>dutyRoyalDescription->布置训练场</li>
+     <li>dutyRoyalDescription->收获作物</li>
     </rulesStrings>
   </PawnLend.DutyRulesRoyal.slateRef>
-  <!-- EN: {PAWNS} [pawnListHaveConjugation] returned after being shown off as [entertainerDescription] in the court of [asker_royalTitleInCurrentFaction] [asker_nameFull] of [asker_faction_name]. -->
-  <PawnLend.LetterTextReturnAfterRoyalCourt.slateRef>在作为 [entertainerDescription] 被 [asker_nameFull] 带到 [asker_faction_name] 展示后， {PAWNS}安全的回来了。</PawnLend.LetterTextReturnAfterRoyalCourt.slateRef>
+  <!-- EN: {PAWNS} [pawnListHaveConjugation] returned after helping [asker_royalTitleInCurrentFaction] [asker_nameFull] of [asker_faction_name] to [dutyRoyalDescription]. -->
+  <PawnLend.LetterTextReturnAfterRoyalCourt.slateRef>{PAWNS} [pawnListHaveConjugation] 在帮助 [asker_faction_name] 的 [asker_royalTitleInCurrentFaction] [asker_nameFull] [dutyRoyalDescription] 之后回来了。</PawnLend.LetterTextReturnAfterRoyalCourt.slateRef>
   <!-- EN: Shuttle arrived -->
   <PawnLend.LetterLabelShuttleArrived.slateRef>穿梭机抵达</PawnLend.LetterLabelShuttleArrived.slateRef>
   <!-- EN: The shuttle has arrived to collect [colonistsToLendCount] of your colonists. -->
