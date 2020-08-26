@@ -284,12 +284,12 @@
   <QuestThroneRoomRequirementsUnsatisfied>满足{PAWN_definite}的{TITLE}头衔要求的谒见厅。</QuestThroneRoomRequirementsUnsatisfied>
   <!-- EN: a throneroom that satisfies the requirements of {PAWN_definite}'s {TITLE} title -->
   <QuestNoThroneRoom>满足{PAWN_definite}的{TITLE}头衔要求的谒见厅。</QuestNoThroneRoom>
-  <!-- EN: a colonist with the title of {0}. -->
-  <QuestNoColonistWithTitle>一名拥有{0}头衔的殖民者。</QuestNoColonistWithTitle>
-  <!-- EN: {PAWN_definite} must be in home colony -->
-  <QuestPawnNotOnColonyMap>{PAWN_definite}必须在主殖民地。</QuestPawnNotOnColonyMap>
-  <!-- EN: to get rid of threats to the bestowing escorte! text_todo -->
-  <QuestRequiresNoDangerOnMap>必须使护送的目标摆脱威胁！</QuestRequiresNoDangerOnMap>
+  <!-- EN: a colonist with the title of {0} -->
+  <QuestNoColonistWithTitle>一名拥有{0}头衔的殖民者</QuestNoColonistWithTitle>
+  <!-- EN: {PAWN_definite} to be in your home colony -->
+  <QuestPawnNotOnColonyMap>{PAWN_definite}在主殖民地</QuestPawnNotOnColonyMap>
+  <!-- EN: the map clear of enemies of the bestower's faction -->
+  <QuestRequiresNoDangerOnMap>布施者的敌人都必须被消灭！</QuestRequiresNoDangerOnMap>
   <!-- EN: Reward preferences -->
   <ChooseRewards>奖励偏好</ChooseRewards>
   <!-- EN: Tell other factions what kinds of rewards you want in future quests. This doesn't affect quests that were already offered. -->
@@ -318,8 +318,5 @@
   <!-- Health tab -->
   <!-- EN: Creates need -->
   <CreatesNeed>创建需求</CreatesNeed>
-
-  <!-- UNUSED -->
-  <DecreeGivenDaysAgo>{0}天前颁布的法令</DecreeGivenDaysAgo>
 
 </LanguageData>

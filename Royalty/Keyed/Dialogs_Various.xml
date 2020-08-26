@@ -76,16 +76,7 @@
   <PsylinkTooLowForGainAbility>{PAWN_labelShort}的启灵等级不足以使用{ABILITY}。\n\n真的要获取这个能力么？</PsylinkTooLowForGainAbility>
   <!-- EN: This shuttle is empty. If you send it away, you won't be able to use it again.\n\nSend it anyways? -->
   <SendShuttleWithNoContents>这个穿梭机是空的，如果你将它发射储区，你将再也无法使用它。\n\n真的要将它送走吗？</SendShuttleWithNoContents>
-  <!-- EN: Calling for these resources would cause the caravan to be immobile.\n\nCall for them anyways? text_todo -->
-  <DropResourcesOverweightConfirm>调取这些资源会让你的远征队无法继续移动。\n\n无论如何也要调取这些资源吗？</DropResourcesOverweightConfirm>
-
-  <!-- UNUSED -->
-  <ApparelRequirementAnyRoyalPowerArmor>任意皇家装甲</ApparelRequirementAnyRoyalPowerArmor>
-  <RoyalTitleTooltipMaxPsycastLevel>允许的最大心灵等级</RoyalTitleTooltipMaxPsycastLevel>
-  <RoyalTitleTooltipMaxPsycastLevelDescription>该头衔可以使用最高级别的心灵能力\n\n{FACTION_name}的法律禁止在没有符合的头衔的情况下使用心灵能力。每次施放不合法的心灵能力时，都有可能会检测到心灵信号，从而导致严重外交后果。\n\n心灵信号可以被心灵静默植入物掩盖。</RoyalTitleTooltipMaxPsycastLevelDescription>
-  <PsychicAmplifierViolationTrigger>每次{PAWN_labelShort}施放超出其允许级别的心灵能力时</PsychicAmplifierViolationTrigger>
-  <RoyalWeaponIllegalUseWarning>根据{FACTION_name}的法律，必须拥有{TITLE}头衔才能合法使用{WEAPON_indefinite}。\n\n每当{PAWN_labelShort}使用绑定武器攻击时，{FACTION_name} 都有能检测出心灵信号。这将导致严重的外交矛盾。\n\n心灵静默植入物可以在使用{WEAPON_definite}时不会被检测。</RoyalWeaponIllegalUseWarning>
-  <PsycastRequiredAmplifierLevel>增幅器等级</PsycastRequiredAmplifierLevel>
-  <ApparelRequirementAnyPowerArmor>任意动力装甲</ApparelRequirementAnyPowerArmor>
+  <!-- EN: These resources would weigh the caravan down and make it unable to move.\n\nCall for them anyways? -->
+  <DropResourcesOverweightConfirm>调取这些资源会让你的远征队因超载而无法继续移动。\n\n无论如何也要调取这些资源吗？</DropResourcesOverweightConfirm>
 
 </LanguageData>

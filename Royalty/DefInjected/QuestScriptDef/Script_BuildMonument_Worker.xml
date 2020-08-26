@@ -32,15 +32,4 @@
   <!-- EN: Your time limit to construct the monument has expired. [failLetterEndingCommon] -->
   <BuildMonumentWorker.LetterTextTimeExpired.slateRef>建造纪念碑的时限已过。 [failLetterEndingCommon]</BuildMonumentWorker.LetterTextTimeExpired.slateRef>
   
-  <!-- UNUSED -->
-  <BuildMonumentWorker.root.nodes.IsTrue-2.elseNode.elseNode.nodes.IsNull.elseNode.node.nodes.Letter.label.slateRef>纪念碑完工</BuildMonumentWorker.root.nodes.IsTrue-2.elseNode.elseNode.nodes.IsNull.elseNode.node.nodes.Letter.label.slateRef>
-  <BuildMonumentWorker.root.nodes.IsTrue-2.elseNode.elseNode.nodes.IsNull.elseNode.node.nodes.Letter.text.slateRef>你完成了纪念碑结构的建造。\n\n你在之后的 [keepMonumentTicks_duration] 内不能将它摧毁， 否则会激怒 [asker_factionName] （[goodwillChangeIfMonumentDestroyed] 好感度）。</BuildMonumentWorker.root.nodes.IsTrue-2.elseNode.elseNode.nodes.IsNull.elseNode.node.nodes.Letter.text.slateRef>
-  <BuildMonumentWorker.root.nodes.IsTrue-2.elseNode.elseNode.nodes.IsNull.elseNode.node.nodes.monumentMarkerMonumentDestroyed.node.nodes.Letter.label.slateRef>纪念碑被摧毁</BuildMonumentWorker.root.nodes.IsTrue-2.elseNode.elseNode.nodes.IsNull.elseNode.node.nodes.monumentMarkerMonumentDestroyed.node.nodes.Letter.label.slateRef>
-  <BuildMonumentWorker.root.nodes.IsTrue-2.elseNode.elseNode.nodes.IsNull.elseNode.node.nodes.monumentMarkerMonumentDestroyed.node.nodes.Letter.text.slateRef>你在完成纪念碑之后让它被破坏得太快了， 这冒犯了 [asker_nameDef]。\n\n你与 [asker_faction_name] 的关系下降了 [goodwillChangeIfMonumentDestroyed]。</BuildMonumentWorker.root.nodes.IsTrue-2.elseNode.elseNode.nodes.IsNull.elseNode.node.nodes.monumentMarkerMonumentDestroyed.node.nodes.Letter.text.slateRef>
-  <BuildMonumentWorker.root.nodes.IsTrue-2.elseNode.elseNode.nodes.IsNull.elseNode.node.nodes.Delay.expiryInfoPart.slateRef>不要破坏纪念碑 {0}</BuildMonumentWorker.root.nodes.IsTrue-2.elseNode.elseNode.nodes.IsNull.elseNode.node.nodes.Delay.expiryInfoPart.slateRef>
-  <BuildMonumentWorker.root.nodes.IsTrue-2.elseNode.elseNode.nodes.IsNull.elseNode.node.nodes.Delay.expiryInfoPartTip.slateRef>不要破坏纪念碑 {0}</BuildMonumentWorker.root.nodes.IsTrue-2.elseNode.elseNode.nodes.IsNull.elseNode.node.nodes.Delay.expiryInfoPartTip.slateRef>
-  <BuildMonumentWorker.root.nodes.IsTrue-2.elseNode.elseNode.nodes.IsNull.elseNode.node.nodes.Delay.inspectString.slateRef>保护纪念碑 {0}</BuildMonumentWorker.root.nodes.IsTrue-2.elseNode.elseNode.nodes.IsNull.elseNode.node.nodes.Delay.inspectString.slateRef>
-  <BuildMonumentWorker.root.nodes.Delay-1.node.nodes.Letter.label.slateRef>纪念碑时效已过</BuildMonumentWorker.root.nodes.Delay-1.node.nodes.Letter.label.slateRef>
-  <BuildMonumentWorker.root.nodes.Delay-1.node.nodes.Letter.text.slateRef>建造纪念碑的时间已过。[failLetterEndingCommon]</BuildMonumentWorker.root.nodes.Delay-1.node.nodes.Letter.text.slateRef>
-  
 </LanguageData>
