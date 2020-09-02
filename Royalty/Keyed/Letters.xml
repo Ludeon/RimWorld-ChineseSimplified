@@ -82,16 +82,17 @@
   <!-- EN: The title of {TITLE} cannot be inherited. -->
   <LetterRoyalTitleCantBeInherited>头衔{TITLE}无法被继承。</LetterRoyalTitleCantBeInherited>
 
+
   <!-- EN: Title inheritance -->
   <LetterTitleInheritance>头衔继承</LetterTitleInheritance>
-  <!-- EN: Since {PAWN_nameFull} died, {PAWN_possessive} titles have been transferred to {PAWN_possessive} heirs according to the laws of the title-granting factions. -->
-  <LetterTitleInheritance_Base>自从{PAWN_nameFull}逝世后，{PAWN_possessive}头衔已根据授予头衔的派系之律法传授给{PAWN_possessive}继承人。</LetterTitleInheritance_Base>
-  <!-- EN: {PAWN_possessive} {TITLE} title was inherited by {HEIR_nameFull}, according to the succession laws of {FACTION_name}. It replaced {HEIR_possessive} {REPLACEDTITLE} title. -->
-  <LetterTitleInheritance_AsReplacement>根据{FACTION_name}的继承规则，{PAWN_possessive} {TITLE}头衔均由{HEIR_nameFull}来继承。取代了{HEIR_possessive} {REPLACEDTITLE}头衔。</LetterTitleInheritance_AsReplacement>
+  <!-- EN: Since {PAWN_nameFull} died, {PAWN_possessive} titles will be transferred to {PAWN_possessive} heirs. -->
+  <LetterTitleInheritance_Base>当{PAWN_nameFull}逝世后，{PAWN_possessive}头衔将会根据授予头衔的派系之律法传授给{PAWN_possessive}继承人。</LetterTitleInheritance_Base>
+  <!-- EN: {PAWN_possessive} {TITLE} title was inherited by {HEIR_nameFull}, according to the succession laws of {FACTION_name}. It will replace {HEIR_possessive} {REPLACEDTITLE} title upon completion of a bestowing ceremony. -->
+  <LetterTitleInheritance_AsReplacement>根据{FACTION_name}的继承规则， {PAWN_possessive} {TITLE}头衔被 {HEIR_nameFull} 继承。 在完成授予仪式之后将取代{HEIR_possessive} {REPLACEDTITLE}头衔。</LetterTitleInheritance_AsReplacement>
   <!-- EN: {PAWN_possessive} {TITLE} title would have been inherited by {HEIR_nameFull} according to the succession laws of {FACTION_name}, but {HEIR_pronoun} already had a {HIGHERTITLE} title. -->
-  <LetterTitleInheritance_NoEffectHigherTitle>根据{FACTION_name}的继承规则，{PAWN_possessive} {TITLE}头衔由{HEIR_nameFull}来继承。但是{HEIR_pronoun}已拥有了{HIGHERTITLE}头衔。</LetterTitleInheritance_NoEffectHigherTitle>
-  <!-- EN: {PAWN_possessive} {TITLE} title was inherited by {HEIR_nameFull} according to the succession laws of {FACTION_name}. -->
-  <LetterTitleInheritance_WasInherited>{PAWN_possessive}{TITLE}头衔是根据{FACTION_name}的继承法由{HEIR_nameFull}继承的。</LetterTitleInheritance_WasInherited>
+  <LetterTitleInheritance_NoEffectHigherTitle>根据{FACTION_name}的继承规则，{PAWN_possessive} {TITLE}头衔将由{HEIR_nameFull}来继承。 但是{HEIR_pronoun}已拥有了{HIGHERTITLE}头衔。</LetterTitleInheritance_NoEffectHigherTitle>
+  <!-- EN: {PAWN_possessive} {TITLE} title will be inherited by {HEIR_nameFull} upon completion of a bestowing ceremony, according to the succession laws of {FACTION_name}. -->
+  <LetterTitleInheritance_WasInherited>根据{FACTION_name}的继承法， {PAWN_possessive}{TITLE}头衔将在完成授予仪式之后由{HEIR_nameFull}继承。</LetterTitleInheritance_WasInherited>
   <!-- EN: {PAWN_possessive} {TITLE} title was not inherited by anyone, since {PAWN_pronoun} had no designated heir for this title. -->
   <LetterTitleInheritance_NoHeirFound>{PAWN_possessive}{TITLE}头衔未被任何人继承，因为{PAWN_pronoun}没有指定该头衔的继承人。</LetterTitleInheritance_NoHeirFound>
 

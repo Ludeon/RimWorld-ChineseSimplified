@@ -145,7 +145,16 @@
     <li>approachInfo(lodgerCount==2)->[asker_nameDef] and another desperate [faction_pawnSingular] are approaching.</li>
     <li>approachInfo(lodgerCount>=3)->[lodgerCount] desperate [faction_pawnsPlural] are approaching. Their leader is called [asker_nameDef].</li>
     <li>claimInfo(lodgerCount==1)->[asker_nameDef] claims to have lost [asker_possessive] home in a recent attack.</li>
+    <li>claimInfo(lodgerCount==1)->[asker_nameDef] claims to woken up from cryptosleep all alone and friendless.</li>
+    <li>claimInfo(lodgerCount==1)->[asker_nameDef] claims to have been chased from [asker_possessive] home by a vengeful ex-lover.</li>
+    <li>claimInfo(lodgerCount==1)->[asker_nameDef] claims to have been banished after an argument with a village leader.</li>
     <li>claimInfo(lodgerCount>=2)->They claim to have lost their home in a recent attack.</li>
+    <li>claimInfo(lodgerCount>=2)->They claim to have escaped an organ harvesting operation.</li>
+    <li>claimInfo(lodgerCount>=2)->They say they escaped from a slave caravan.</li>
+    <li>claimInfo(lodgerCount>=2)->They say that crop blights starved them out of their village.</li>
+    <li>claimInfo(lodgerCount>=2)->They say a great flashstorm burned down their home.</li>
+    <li>claimInfo(lodgerCount>=2)->They say their caravan was ambushed and everything was taken.</li>
+    <li>claimInfo(lodgerCount>=2)->They say they were banished from their town due to moral disagreements.</li>
     <li>joinInfo(lodgerCount==1)->If you make [asker_objective] happy, [asker_pronoun] may offer to join you.</li>
     <li>joinInfo(lodgerCount>=2)->If you make them happy, some of them may offer to join you.</li>
     <li>travelerInfo(lodgerCount==1)->This [faction_pawnSingular] is</li>
@@ -169,7 +178,16 @@
     <li>approachInfo(lodgerCount==2)->[asker_nameDef]和其他绝望的[faction_pawnSingular]正在靠近。</li>
     <li>approachInfo(lodgerCount>=3)->[lodgerCount] 名绝望的 [faction_pawnsPlural]正在靠近， 他们的领导者是[asker_nameDef]。</li>
     <li>claimInfo(lodgerCount==1)->[asker_nameDef] 声称 [asker_possessive] 在最近一次袭击中失去了家园。</li>
+    <li>claimInfo(lodgerCount==1)->[asker_nameDef] 声称自己孤零零地从一个冷冻休眠舱中醒来。</li>
+    <li>claimInfo(lodgerCount==1)->[asker_nameDef] 声称被[asker_possessive]前情人从家中赶了出来。</li>
+    <li>claimInfo(lodgerCount==1)->[asker_nameDef] 声称因为和社区领导争吵被驱逐。</li>
     <li>claimInfo(lodgerCount>=2)->他们声称在最近一次袭击中失去了家园。</li>
+    <li>claimInfo(lodgerCount>=2)->他们声称逃离了器官采割手术。</li>
+    <li>claimInfo(lodgerCount>=2)->他们说他们是从一个奴隶商队中逃出来的。</li>
+    <li>claimInfo(lodgerCount>=2)->他们说一场枯萎病让他们无法继续在社区生存。</li>
+    <li>claimInfo(lodgerCount>=2)->他们说一场大风暴毁了他们的家园。</li>
+    <li>claimInfo(lodgerCount>=2)->他们说他们的商队遭到袭击，所有的货物都被抢走了。</li>
+    <li>claimInfo(lodgerCount>=2)->他们说由于道德观不同，他们被赶出了城镇。</li>
     <li>joinInfo(lodgerCount==1)->如果你能让[asker_objective]开心， [asker_pronoun]可能会提议加入你。</li>
     <li>joinInfo(lodgerCount>=2)->如果你能让他们开心，他们中的一部分可能会提议加入你。</li>
     <li>travelerInfo(lodgerCount==1)->这名 [faction_pawnSingular] </li>
