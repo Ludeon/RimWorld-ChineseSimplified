@@ -23,7 +23,7 @@
   <ColonistNeedsRescue>殖民者需要救援</ColonistNeedsRescue>
   <!-- EN: Colonists need rescue -->
   <ColonistsNeedRescue>多个殖民者需要救援</ColonistsNeedRescue>
-  <!-- EN: These colonists are incapacitated on the ground:\n\n{0}\nSend another colonist to rescue them and carry them back to bed.\n\n(To rescue, select another colonist, then right click on the victim and select Rescue. -->
+  <!-- EN: These colonists are incapacitated on the ground:\n\n{0}\nSend another colonist to rescue them and carry them back to bed.\n\n(To rescue, select another colonist, then right click on the victim and select Rescue.) -->
   <ColonistsNeedRescueDesc>以下殖民者们倒在地上无法行动:\n\n{0}\n派遣另一名殖民者去救援并将他们带回床上。\n\n（先选择一位殖民者，然后右键点击需要救援的人，并选择「救援」。）</ColonistsNeedRescueDesc>
 
   <!-- EN: Need defenses -->
@@ -254,4 +254,50 @@
   <QuestExpiresSoon>任务将在{0}后到期</QuestExpiresSoon>
   <!-- EN: The quest '{0}' will expire in {1}. -->
   <QuestExpiresSoonDesc>任务'{0}' 将在{1}后到期。</QuestExpiresSoonDesc>
+
+  <!-- EN: Animal filth -->
+  <AlertAnimalFilth>动物污物</AlertAnimalFilth>
+  <!-- EN: A filth-producing animal is indoors on a clean floor.\n\nAnimals produce a very large amount of filth when moving around on normal floors. Keep filth-producing animals outdoors, or on straw matting where they will produce far less filth.\n\nYou can check an animal's filth production rate in its stats by clicking the 'i' button.\n\nThese animals are the problem:\n{0} -->
+  <AlertAnimalFilthDesc>一个产生污物的动物在室内的清洁地板上。\n\n动物在正常地板上走动时会产生大量的污物。把产污物的动物放在室外，或放在草垫上，这样它们产生的污物会少得多。\n\n你可以通过点击 "i "按钮，在动物的统计资料中检查动物的产污率。\n\n这些动物是有问题的：\n{0}</AlertAnimalFilthDesc>
+
+  <!-- EN: Pen needed -->
+  <AlertAnimalPenNeeded>需要畜栏</AlertAnimalPenNeeded>
+  <!-- EN: Some of your tame animals are roamers. If not kept in an animal pen, they will wander away. -->
+  <AlertAnimalPenNeededDesc>你的一些驯服的动物正在游荡。如果不把它们关在畜栏里，它们就会到处乱跑。</AlertAnimalPenNeededDesc>
+  <!-- EN: You do not have any handlers to take animals to a pen.\n\nAssign a colonist to the Handling work type. -->
+  <AlertAnimalPenNeededNoHandlers>你没有任何饲养员可以把动物带到畜栏。\n\n指定一个殖民者分配到可以处理的工作类型。</AlertAnimalPenNeededNoHandlers>
+  <!-- EN: None of your assigned handlers have the required animals skill needed to take the following animals to a pen. -->
+  <AlertAnimalPenNeededLowSkillHandlers>你指定的饲养员中没有人具备将下列动物带入畜栏所需的动物技能。</AlertAnimalPenNeededLowSkillHandlers>
+  <!-- EN: needs {MINSKILL}, {HANDLER_labelShort} has {BESTSKILL} -->
+  <AlertAnimalPenNeededLowSkillHandlersDetail>最低需要{MINSKILL}，{HANDLER_labelShort}只有{BESTSKILL}</AlertAnimalPenNeededLowSkillHandlersDetail>
+  <!-- EN: Create an animal pen by building a pen marker inside a fenced, barricaded, or walled area. Select the pen marker to see which animals it accepts and how many its pen can support.\n\nYour animal handlers will bring animals to their assigned pen automatically.\n\nA pen needs a door or gate to admit animals. -->
+  <AlertAnimalPenNeededDescExplanation>通过在一个有栅栏、障碍物或围墙的区域内建立一个畜栏标牌来创建一个畜栏。选择标牌，看看它接受哪些动物，以及它的畜栏可以容纳多少动物。\n\n你的动物饲养员会自动把动物带到他们指定的畜栏。\n\n畜栏需要一个门或栅栏门来接纳动物。</AlertAnimalPenNeededDescExplanation>
+
+  <!-- EN: Pen not enclosed -->
+  <AlertAnimalPenNotEnclosed>畜栏未封闭</AlertAnimalPenNotEnclosed>
+  <!-- EN: An animal pen marker is not enclosed.\n\nEnclose the pen using fences, barricades, gates, walls, or doors to prevent animals from wandering out.\n\nIf you have only unenclosed pen markers, your handlers can still lead wandering animals back home - but this must be repeated from time to time when the animals wander away once again. -->
+  <AlertAnimalPenNotEnclosedDesc>一个畜栏标牌未被封闭。\n\n用栅栏、路障、大门、墙壁或门来封闭畜栏，防止动物走失。\n\n如果你只有未封闭的畜栏标牌，你的饲养员仍然可以把走失的动物领回家--但当动物再次走失时，必须不时地重复这样做。</AlertAnimalPenNotEnclosedDesc>
+
+  <!-- EN: Animal wandering away -->
+  <AlertAnimalIsRoaming>动物走失</AlertAnimalIsRoaming>
+  <!-- EN: Some of your tame animals are roamers and have started to wander. If they reach the edge of the map, they will eventually leave.\n\nIf you have an enclosed animal pen, your animal handlers can bring the animal back. Animals in an animal pen will not roam.\n\nThe following animals are roaming:\n\n{0} -->
+  <AlertAnimalIsRoamingDesc>你的一些驯服的动物已经开始四处游荡了。如果它们到达了地图的边缘，它们最终会离开。\n\n如果你有一个封闭的畜栏，你的动物饲养员可以把动物带回来。畜栏中的动物不会游荡。\n\n以下动物正在游荡：\n\n{0}</AlertAnimalIsRoamingDesc>
+
+  <!-- EN: Hungry pen animals -->
+  <AlertPennedAnimalHungry>饥饿的圈养动物</AlertPennedAnimalHungry>
+  <!-- EN: Some of your penned animals are hungry.\n\nSelect a pen marker and use the Food tab to see more detail.\n\nGrass-eating animals may need a larger pen to provide enough grass. Other animals may need to be supplied with haygrass or similar food using a stockpile.\n\nThe following penned animals are hungry:\n\n{0} -->
+  <AlertPennedAnimalHungryDesc>一些畜栏里的动物正在挨饿。\n\n选择一个畜栏标牌，使用「食物」标签查看更多细节。\n\n吃草的动物可能需要一个更大的畜栏来提供足够的草。其他动物可能需要用储备的干草或类似的食物来供应。\n\n这些动物正在挨饿：\n\n{0}</AlertPennedAnimalHungryDesc>
+
+  <!-- EN: Raids arriving in {0} -->
+  <AlertTimedRaidsArrivingIn>袭击将在{0}到来</AlertTimedRaidsArrivingIn>
+  <!-- EN: Enemies have been attracted to the following sites and will start arriving in force soon.\n\n{0} -->
+  <AlertTimedRaidsArrivingInDesc>敌人已经被吸引到以下地点，并将很快开始大举进驻。\n\n{0}</AlertTimedRaidsArrivingInDesc>
+  <!-- EN: Arriving at {0} in {1} -->
+  <AlertTimedRaidsArrivingAt>于{1}到达{0}</AlertTimedRaidsArrivingAt>
+
+  <!-- EN: Faction will become hostile if you stay -->
+  <FactionWillBecomeHostileIfNotLeavingWithin>派系将变为敌对</FactionWillBecomeHostileIfNotLeavingWithin>
+  <!-- EN: These factions will become hostile if you stay for longer at their settlement or outpost:\n\n{0} -->
+  <FactionWillBecomeHostileIfNotLeavingWithinDesc>如果你在他们的定居点或前哨站停留的时间较长，这些派系会变得敌对：\n\n{0}</FactionWillBecomeHostileIfNotLeavingWithinDesc>
+
 </LanguageData>

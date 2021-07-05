@@ -43,6 +43,8 @@
   <CommandToggleDraftDesc>切换征召状态。\n\n被征召的人会遵守命令并战斗。解散前他们不会工作，吃饭或着休息。</CommandToggleDraftDesc>
   <!-- EN: {1_labelShort} cannot walk. -->
   <IsIncapped>{1_labelShort}无法行动。</IsIncapped>
+  <!-- EN: {0_labelShort} is participating in {1}. -->
+  <ParticipatingInRitual>{0_labelShort}正在参与{1}。</ParticipatingInRitual>
 
   <!-- EN: Fire at will -->
   <CommandFireAtWillLabel>自由开火</CommandFireAtWillLabel>
@@ -98,6 +100,9 @@
   <TurningOffPrisonerBedWarning>关闭囚犯专用模式将会影响整个房间（囚犯和殖民者不能睡在同一个房间）。\n\n以下角色将会失去他们对床的所有权：</TurningOffPrisonerBedWarning>
   <!-- EN: Are you sure you want to do this? -->
   <AreYouSure>你确定要这么做吗?</AreYouSure>
+  <!-- EN: Changing bed use affects the whole room (since prisoners, slaves and colonists cannot sleep in the same room).\n\nThese people will lose ownership of their beds: -->
+  <ChangingOwnerTypeBedWarning>改变床的用途会影响整个房间（因为囚犯、奴隶和殖民者不能睡在同一个房间）。\n\n这些人将失去对他们床的所有权：</ChangingOwnerTypeBedWarning>
+
 
   <!-- EN: Detonate -->
   <CommandDetonateLabel>引爆</CommandDetonateLabel>
@@ -133,8 +138,13 @@
 
   <!-- EN: Allow sowing -->
   <CommandAllowSow>允许播种</CommandAllowSow>
-  <!-- EN: When disabled, colonists will never sow plants in this zone. They will still harvest. -->
-  <CommandAllowSowDesc>当禁用时，殖民者不会在此区域播种植物。但他们仍然会收获成熟的植物。</CommandAllowSowDesc>
+  <!-- EN: When disabled, colonists will never sow new plants in this zone. They will still harvest. -->
+  <CommandAllowSowDesc>当禁用时，殖民者不会在此区域播种新的植物。但他们仍然会收获成熟的植物。</CommandAllowSowDesc>
+
+  <!-- EN: Allow cutting -->
+  <CommandAllowCut>允许割除</CommandAllowCut>
+  <!-- EN: When disabled, colonists will never cut plants in this zone. They will still sow new plants in spaces that are already empty, and harvest. -->
+  <CommandAllowCutDesc>当被禁用时，殖民者将永远不会在这个区域割除植物。他们仍然会在已经空出的空间里播种新的植物，并进行收获。</CommandAllowCutDesc>
 
   <!-- Artillery -->
   <!-- EN: Set forced target -->
@@ -229,7 +239,7 @@
   <CommandAutoRearmDesc>启用时，该陷阱会在触发后自动被指派重置工作。</CommandAutoRearmDesc>
   
   <!-- Animal control -->
-  <!-- EN: Release animals -->
+  <!-- EN: Animals attack -->
   <CommandReleaseAnimalsLabel>出击</CommandReleaseAnimalsLabel>
   <!-- EN: While this is on, mastered animals are sent forth to attack distant targets. While it is off, they remain near and guard the master. -->
   <CommandReleaseAnimalsDesc>启用时，经过训练的动物可以主动出击，攻击远处目标。禁用时，它们则在身边保护主人。</CommandReleaseAnimalsDesc>
@@ -535,11 +545,36 @@
   <CommandOpenLinkedQuest>打开任务</CommandOpenLinkedQuest>
   <!-- EN: Open linked quest in the quests tab. -->
   <CommandOpenLinkedQuestDesc>在任务标签中打开任务。</CommandOpenLinkedQuestDesc>
+
+  <!-- Carry -->
+  <!-- EN: Drop {0_nameDef} -->
+  <CommandDropPawn>放下{0_nameDef}</CommandDropPawn>
+  <!-- EN: Drop the person being carried. -->
+  <CommandDropPawnDesc>放下正抬着的人。</CommandDropPawnDesc>
   
   <!-- Take a drug -->
   <!-- EN: Take drug... -->
   <TakeDrug>服用...</TakeDrug>
   <!-- EN: Choose a drug from inventory to ingest immediately. -->
   <TakeDrugDesc>从库存中直接服用选择的药物。</TakeDrugDesc>
+
+  <!-- Build X -->
+  <!-- EN: Build {0} -->
+  <BuildThing>建造{0}</BuildThing>
+
+  <!-- Rituals -->
+  <!-- EN: Leave {RITUAL_label} -->
+  <CommandLeaveRitual>离开{RITUAL_label}</CommandLeaveRitual>
+  <!-- EN: Stop participating in the {RITUAL_labelDef}. The ritual will continue as long as it has at least one participant. -->
+  <CommandLeaveRitualDesc>停止参与{RITUAL_labelDef}。只要仪式有至少一个参与者，它就会继续下去。</CommandLeaveRitualDesc>
+  <!-- EN: This is the last participant in the {RITUAL_labelDef}. -->
+  <CommandLeaveLastParticipant>这是{RITUAL_labelDef}的最后一个参与者。</CommandLeaveLastParticipant>
+
+  <!-- EN: Cancel {RITUAL_label} -->
+  <CommandCancelRitual>取消{RITUAL_label}</CommandCancelRitual>
+  <!-- EN: End the {RITUAL_labelDef} immediately. Ritual obligation will remain. You can restart the ritual later. -->
+  <CommandCancelRitualDesc>立即结束{RITUAL_labelDef}。仪式的契约将保留。你可以在以后重新启动仪式</CommandCancelRitualDesc>
+  <!-- EN: Are you sure you want to cancel {RITUAL_labelDef}? -->
+  <CommandCancelRitualConfirm>你确定你想要取消{RITUAL_labelDef}？</CommandCancelRitualConfirm>
   
 </LanguageData>

@@ -8,7 +8,7 @@
   <!-- EN: {FACTION_name} has laws which limit the use of this weapon to those with specific titles. Each time you attack with the weapon, there is a chance they will detect the psychic emissions. This will cause diplomatic consequences. -->
   <Stat_Thing_Weapon_MinimumRoyalTitle_Desc>{FACTION_name}的法律将这种武器的使用限制为具有特定的头衔。拥有这种武器是无法检测到的，你每次使用它时都有机会被他人察觉到心灵信号。随之而来的是外交矛盾。</Stat_Thing_Weapon_MinimumRoyalTitle_Desc>
   <!-- EN: Each upgrade level of this implant requires a specific title in {FACTION_name} to be used legally. -->
-  <Stat_Thing_MinimumRoyalTitle_ImplantWithLevel_Desc>这个植入物每次升级都需要在{FACTION_name}有一个合法的头衔。</Stat_Thing_MinimumRoyalTitle_ImplantWithLevel_Desc>
+  <Stat_Thing_MinimumRoyalTitle_Level_Desc>这个植入物每次升级都需要在{FACTION_name}有一个合法的头衔。</Stat_Thing_MinimumRoyalTitle_Level_Desc>
   <!-- EN: Max satisfied title -->
   <Stat_Thing_Apparel_MaxSatisfiedTitle>最高头衔</Stat_Thing_Apparel_MaxSatisfiedTitle>
   <!-- EN: Highest royal title whose apparel requirements are satisfied by this. -->
@@ -22,5 +22,8 @@
   <Stat_Thing_PersonaWeaponTrait_Label>特性</Stat_Thing_PersonaWeaponTrait_Label>
   <!-- EN: This weapon's individual traits. -->
   <Stat_Thing_PersonaWeaponTrait_Desc>这把武器的个体特性。</Stat_Thing_PersonaWeaponTrait_Desc>
-  
+
+  <!-- EN: Multiplier for pain -->
+  <StatsReport_Pain>疼痛倍率</StatsReport_Pain>
+
 </LanguageData>

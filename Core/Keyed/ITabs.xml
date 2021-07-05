@@ -38,6 +38,12 @@
   <TabSocial>社交</TabSocial>
   <!-- EN: Log -->
   <TabLog>日志</TabLog>
+  <!-- EN: Animals -->
+  <TabPenAnimals>动物</TabPenAnimals>
+  <!-- EN: Food -->
+  <TabPenFood>食物</TabPenFood>
+  <!-- EN: Auto-cut -->
+  <TabPenAutoCut>自动割除</TabPenAutoCut>
   <!-- EN: Caravan -->
   <TabFormingCaravan>远行队</TabFormingCaravan>
   <!-- EN: Contents -->
@@ -58,8 +64,8 @@
   <BoundWorkerIs>绑定工作者:{1_labelShort}</BoundWorkerIs>
   <!-- EN: Plant -->
   <PlantVerb>种植</PlantVerb>
-  <!-- EN: Copied bill cannot be pasted here. -->
-  <ClipboardBillNotAvailableHere>复制的清单无法粘贴在此</ClipboardBillNotAvailableHere>
+  <!-- EN: Copied bill cannot be pasted here -->
+  <ClipboardBillNotAvailableHere>复制的清单无法粘贴在此。</ClipboardBillNotAvailableHere>
   <!-- EN: Move up -->
   <ReorderBillUpTip>上移</ReorderBillUpTip>
   <!-- EN: Move down -->
@@ -76,32 +82,34 @@
   <PasteBillTip_LimitReached>不能再加了</PasteBillTip_LimitReached>
 
   <!-- Guest/prisoner tab -->
-  <!-- EN: Resistance remaining -->
-  <RecruitmentResistance>招募抵抗</RecruitmentResistance>
-  <!-- EN: Recruitment difficulty -->
-  <RecruitmentDifficulty>招募难度</RecruitmentDifficulty>
-  <!-- EN: Recruitment chance -->
-  <RecruitmentChance>招募几率</RecruitmentChance>
-  <!-- EN: Recruit difficulty factor: {0}\nMood factor: {1}\nCombined base chance: {2} -->
-  <RecruitmentChanceExplanation>招募难度系数: {0}\n情绪系数: {1}\n综合机率: {2}</RecruitmentChanceExplanation>
-  <!-- EN: \n- - - - - - - - - -\nLast recruitment attempt\nRecruiter: {3}\nNegotiation ability factor: {4}\nOpinion factor: {5} ({6})\nFinal chance for {3}: {7} -->
-  <RecruitmentChanceWithLastRecruiterExplanationPart>\n- - - - - - - - - -\n上一次招募尝试\n招募者: {3}\n谈判能力系数: {4}\n意见系数: {5} ({6})\n最终几率 {3}: {7}</RecruitmentChanceWithLastRecruiterExplanationPart>
-  <!-- EN: \nResistance reduction: {0} -->
-  <RecruitmentLastRecruiterResistanceReduceExplanationPart>抵抗降低: {0}</RecruitmentLastRecruiterResistanceReduceExplanationPart>
+  <!-- EN: Resistance -->
+  <RecruitmentResistance>抵抗</RecruitmentResistance>
+  <!-- EN: How much doubt this prisoner has about joining your faction. When this reaches zero, they can be recruited. -->
+  <RecruitmentResistanceDesc>这个囚犯对加入你派系的怀疑和抵触情绪。当这个数值达到零时，他们就可以被招募了。</RecruitmentResistanceDesc>
+  <!-- EN: {0} base resistance -->
+  <RecruitmentResistanceFromPawnKind>基础抵抗 {0}</RecruitmentResistanceFromPawnKind>
   <!-- EN: Relations gain on release -->
   <PrisonerReleasePotentialRelationGains>关系改善（释放）</PrisonerReleasePotentialRelationGains>
-  <!-- EN: The faction relations improvement you will get from the prisoner's faction if you release them. This is affected by the prisoner's health and mental condition. -->
-  <PrisonerReleaseRelationGainsDesc>如果释放该囚犯，你将获得该派系关系的改善。 其程度受到囚犯健康和精神状况的影响。</PrisonerReleaseRelationGainsDesc>
+  <!-- EN: The faction goodwill you will get from the prisoner's faction if you release them. This is affected by the prisoner's identity, health, and mental condition. -->
+  <PrisonerReleaseRelationGainsDesc>如果释放该囚犯，你将获得该派系关系的改善。 其程度受到囚犯的身份、健康和精神状况的影响。</PrisonerReleaseRelationGainsDesc>
   <!-- EN: Prison break interval -->
   <PrisonBreakMTBDays>越狱间隔</PrisonBreakMTBDays>
-  <!-- EN: The mean number of days of time awake between prison break attempts. Affected by mood, mobility and time since the last prison break.\n\nThis number ignores time spent sleeping, so the actual average prison break interval will usually be longer. -->
-  <PrisonBreakMTBDaysDescription>两次尝试越狱之间的平均时间天数。自上次越狱以后的心情，活动能力和时间都是其影响的因素。\n\n该数值会忽略睡眠的时间，因此实际平均越狱间隔通常会更长。</PrisonBreakMTBDaysDescription>
+  <!-- EN: The average days awake between prison breaks. This is affected by mood, mobility, the number of prison doors, and time since the last prison break.\n\nNote that this does not include time spent asleep. -->
+  <PrisonBreakMTBDaysDescription>两次越狱之间平均清醒的天数。这受情绪、行动力、监狱门的数量和上次越狱后的时间影响。\n\n该数值会忽略睡眠的时间，因此实际平均越狱间隔通常会更长。</PrisonBreakMTBDaysDescription>
   <!-- EN: Never -->
   <Never>从不</Never>
   <!-- EN: Not while asleep -->
   <NotWhileAsleep>非清醒</NotWhileAsleep>
+  <!-- EN: Breaking out now -->
+  <CurrentlyPrisonBreaking>现正突破</CurrentlyPrisonBreaking>
+  <!-- EN: Multiplier for door count -->
+  <FactorForDoorCount>门数量因素</FactorForDoorCount>
+  <!-- EN: Multiplier for movement -->
+  <FactorForMovement>行动力因素</FactorForMovement>
   <!-- EN: Slave price -->
   <SlavePrice>奴隶价格</SlavePrice>
+  <!-- EN: The base market value of this {0} if sold. -->
+  <SlavePriceDescription>如果出售，基础市场价值是{0}。</SlavePriceDescription>
   <!-- EN: Gets food -->
   <GetsFood>食物供应</GetsFood>
   <!-- EN: Doctors care -->
@@ -188,6 +196,8 @@
   <SelfTend>自我治疗</SelfTend>
   <!-- EN: {0} with self-tend enabled will automatically tend to themselves on the spot at {1} the normal efficiency. -->
   <SelfTendTip>{0}开启自我治疗后将会以正常效果的 {1} 当场自动治疗自己。</SelfTendTip>
+  <!-- EN: death in {0} -->
+  <DeathIn>死于{0}</DeathIn>
   
   <!-- Medical - Body and activities condition -->
   <!-- EN: None -->
@@ -279,6 +289,10 @@
   <CopyLogTip>将日志复制到剪贴板</CopyLogTip>
 
   <!-- Forming caravan tab -->
+  <!-- EN: Gathering animals -->
+  <FormingCaravanStatus_GatheringAnimals>召集动物</FormingCaravanStatus_GatheringAnimals>
+  <!-- EN: Gathering animals (waiting) -->
+  <FormingCaravanStatus_GatheringAnimals_Pause>召集动物（等待中）</FormingCaravanStatus_GatheringAnimals_Pause>
   <!-- EN: Gathering items -->
   <FormingCaravanStatus_GatheringItems>收集物品</FormingCaravanStatus_GatheringItems>
   <!-- EN: Gathering items (waiting) -->
@@ -323,5 +337,63 @@
   <QuestDismissed>该任务已被取消。\n\n你可以在该任务到期之前随时撤销取消的操作。</QuestDismissed>
   <!-- EN: Delete this quest and remove it from the quest list forever. -->
   <DeleteQuest>删除并将此任务永久从任务列表移除。</DeleteQuest>
+
+  <!-- Animal pen food tab -->
+  <!-- EN: enclose the pen marker to calculate food information -->
+  <PenFoodTab_NotEnclosed>将畜栏标牌放入以计算食物信息</PenFoodTab_NotEnclosed>
+
+  <!-- EN: Nutrition stockpiled -->
+  <PenFoodTab_StockpileTotal>储备的营养值</PenFoodTab_StockpileTotal>
+  <!-- EN: The total nutrition of stockpiled food in the pen. -->
+  <PenFoodTab_StockpileTotalDescription>畜栏内存储的食物营养值总和。</PenFoodTab_StockpileTotalDescription>
+  <!-- EN: Days to stockpile exhaustion -->
+  <PenFoodTab_StockpileEmptyDays>给养耗尽天数</PenFoodTab_StockpileEmptyDays>
+  <!-- EN: Nutrition consumption exceeds nutrition growth rate in this pen. The animals will eventually eat all the stockpiled food and starve. -->
+  <PenFoodTab_StockpileEmptyDaysDescription>在这个畜栏里，营养消耗超过了营养增长率。动物们最终会因吃光囤积的食物而饿死。</PenFoodTab_StockpileEmptyDaysDescription>
+
+  <!-- EN: Animal type -->
+  <PenFoodTab_AnimalType>动物类型</PenFoodTab_AnimalType>
+  <!-- EN: Count -->
+  <PenFoodTab_Count>数量</PenFoodTab_Count>
+  <!-- EN: Today -->
+  <PenFoodTab_CurrentDay>今天</PenFoodTab_CurrentDay>
+  <!-- EN: nutrition -->
+  <PenFoodTab_Nutrition_Unit>营养值</PenFoodTab_Nutrition_Unit>
+  <!-- EN: per day -->
+  <PenFoodTab_NutritionPerDay_Unit>每日</PenFoodTab_NutritionPerDay_Unit>
+  <!-- EN: Force display animal... -->
+  <PenFoodTab_AddAnimal>强制显示...</PenFoodTab_AddAnimal>
+
+  <!-- EN: Nutrition growth -->
+  <PenFoodTab_NaturalNutritionGrowthRate>营养值增长</PenFoodTab_NaturalNutritionGrowthRate>
+  <!-- EN: Growth per season -->
+  <PenFoodTab_GrowthPerSeason>每季生长</PenFoodTab_GrowthPerSeason>
+  <!-- EN: Nutrition consumption -->
+  <PenFoodTab_TotalNutritionConsumptionRate>营养消耗</PenFoodTab_TotalNutritionConsumptionRate>
+  <!-- EN: The average nutrition provided by edible plants in this pen. -->
+  <PenFoodTab_NaturalNutritionGrowthRateDescription>此畜栏内可食用植物的平均营养</PenFoodTab_NaturalNutritionGrowthRateDescription>
+  <!-- EN: The nutrition needed by animals currently in this pen.\n\nTo get more food, expand the pen to cover more wild plant growth, or deliver stockpiled food like haygrass to the pen. -->
+  <PenFoodTab_NutritionConsumptionDescription>目前在这个围栏里的动物需要的营养。\n\n为了获得更多的食物，可以扩大围栏以覆盖更多的野生植物生长，或者将储备的食物如干草运送到围栏中。</PenFoodTab_NutritionConsumptionDescription>
+  <!-- EN: Note: Plant growth rate varies due to seasons, weather, theft by wild animals, and other factors. These calculations are approximations. -->
+  <PenFoodTab_NaturalNutritionGrowthRateSeasonal>注：植物生长速度因季节、天气、野生动物的偷窃和其他因素而变化。这些计算方法是近似值。</PenFoodTab_NaturalNutritionGrowthRateSeasonal>
+
+  <!-- EN: Total consumption -->
+  <PenFoodTab_NutritionConsumedPerDay_ColumLabel>总消耗</PenFoodTab_NutritionConsumedPerDay_ColumLabel>
+  <!-- EN: The total nutrition that will be consumed each day by each type of animal in this pen. -->
+  <PenFoodTab_NutritionConsumedPerDay_ColumnTooltip>此畜栏内所有动物每天将消耗的总营养。</PenFoodTab_NutritionConsumedPerDay_ColumnTooltip>
+  <!-- EN: Daily consumption per {ANIMALDEF_label} -->
+  <PenFoodTab_NutritionConsumedPerDay>每{ANIMALDEF_label}的日消费量</PenFoodTab_NutritionConsumedPerDay>
+  <!-- EN: each {CONSUMEDAMOUNT} -->
+  <PenFoodTab_NutritionConsumedEachAnimalLabel>每{CONSUMEDAMOUNT}</PenFoodTab_NutritionConsumedEachAnimalLabel>
+  <!-- EN: Count that could be supported with no other animals in the pen -->
+  <PenFoodTab_AnimalTypeAnimalCapacity>畜栏内没有其他动物的情况下可以支撑的数量</PenFoodTab_AnimalTypeAnimalCapacity>
+
+  <!-- EN: Edible now -->
+  <PenFoodTab_EdibleNow>现在可食用</PenFoodTab_EdibleNow>
+
+  <!-- EN: Auto-cut plants in pen -->
+  <PenAutoCut_EnabledCheckbox>在畜栏内自动割除植物</PenAutoCut_EnabledCheckbox>
+  <!-- EN: Automatically mark certain inedible plants to be cut. This makes room for edible plants to grow, which your animals can then eat.\n\nThis auto-designation happens periodically and only applies to certain plants.\n\nThis only works when the pen is enclosed. -->
+  <PenAutoCut_EnabledCheckboxTip>自动标记某些不可食用的植物，使其被切断。这就为可食用植物的生长腾出了空间，然后你的动物就可以吃了。\n\n这种自动指定是定期进行的，只适用于某些植物。\n\n只适用于畜栏内有标牌的情况。</PenAutoCut_EnabledCheckboxTip>
 
 </LanguageData>

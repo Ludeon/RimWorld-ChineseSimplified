@@ -8,8 +8,8 @@
   <HigherPriority>高优先级</HigherPriority>
   <!-- EN: lower priority -->
   <LowerPriority>低优先级</LowerPriority>
-  <!-- EN: Relevant skills: {0}\nAverage of relevant skills: {1} / {2} -->
-  <RelevantSkills>相关技能: {0}\n技能等级（平均值）: {1} / {2}</RelevantSkills>
+  <!-- EN: Relevant skills: {0}\nAverage of relevant skills: {1} -->
+  <RelevantSkills>相关技能: {0}\n技能等级（平均）: {1}</RelevantSkills>
   <!-- EN: Click to jump to: -->
   <ClickToJumpTo>点击转至: </ClickToJumpTo>
   <!-- EN: {1_labelShort} cannot do this kind of work. -->
@@ -22,6 +22,8 @@
   <EmergencyWorkMarker>紧急</EmergencyWorkMarker>
   <!-- EN: Warning: The average of relevant skills is very low. -->
   <SelectedWorkTypeWithVeryBadSkill>警告：相关技能的平均等级非常低。</SelectedWorkTypeWithVeryBadSkill>
+  <!-- EN: Warning: This kind of work is opposed by {0_possessive} ideologion, so it may make this person unhappy. -->
+  <SelectedWorkTypeOpposedByIdeo>警告：这种工作遭到{0_possessive}意识形态的反对，所以可能会让这个人不高兴。</SelectedWorkTypeOpposedByIdeo>
   <!-- EN: Priority 1 is done first. Priority 4 is done last. -->
   <PriorityOneDoneFirst>优先级1先完成。优先级4放在最后去做。</PriorityOneDoneFirst>
   <!-- EN: Will not do -->
@@ -36,6 +38,12 @@
   <Priority4>低优先级</Priority4>
   <!-- EN: {0}\n\nThe faction {1_nameDef} currently belongs to.\n\nClick to view faction. -->
   <PawnFactionInfo>{0}\n\n当前属于{1_nameDef}。\n\n点击以查看派系。</PawnFactionInfo>
+  <!-- EN: Disabled by backstory: {0} -->
+  <WorkDisabledByBackstory>禁用（背景故事）：{0}</WorkDisabledByBackstory>
+  <!-- EN: Disabled by trait: {0} -->
+  <WorkDisabledByTrait>禁用（特性）：{0}</WorkDisabledByTrait>
+  <!-- EN: Disabled by quest: {0} -->
+  <WorkDisabledByQuest>禁用（任务）：{0}</WorkDisabledByQuest>
   
   <!-- Assign tab -->
   <!-- EN: Manage outfits -->
@@ -84,16 +92,20 @@
   <Hostile>敌对</Hostile>
   <!-- EN: Ally -->
   <Ally>盟友</Ally>
+  <!-- EN: hostile -->
+  <HostileLower>敌对</HostileLower>
+  <!-- EN: ally -->
+  <AllyLower>盟友</AllyLower>
   <!-- EN: defeated -->
   <DefeatedLower>被击败</DefeatedLower>
   <!-- EN: Enemy of {0} -->
   <HostileTo>敌对派系: {0}</HostileTo>
   <!-- EN: Enemy of:  -->
   <EnemyOf>敌对派系：</EnemyOf>
-  <!-- EN: Current goodwill and relations status with this faction. -->
-  <CurrentGoodwillTip>当前与该派系的友好度和关系。</CurrentGoodwillTip>
-  <!-- EN: Current relations with this faction. -->
-  <CurrentRelationTip>当前与此派系的关系。</CurrentRelationTip>
+  <!-- EN: Recent events -->
+  <RecentEvents>近期事件</RecentEvents>
+  <!-- EN: Ongoing events -->
+  <OngoingEvents>持续事件</OngoingEvents>
   <!-- EN: This faction is permanently hostile. They will raid your settlements and caravans. Relations with them will never improve for any reason. -->
   <CurrentGoodwillTip_PermanentEnemy>此派系永远敌对。他们会袭击你的定居点和远行队。与他们的关系永远不会以任何原因改进。</CurrentGoodwillTip_PermanentEnemy>
   <!-- EN: This faction is allied. They will send fighters to help you when they can. If relations fall below {0}, they will become neutral. -->
@@ -102,13 +114,7 @@
   <CurrentGoodwillTip_Neutral>此派系为中立。他们会自由地和你贸易和交谈。如果关系跌破{0}，他们会成为敌人。如果关系涨过{1}，他们会成为盟友，并更为主动地帮助你。</CurrentGoodwillTip_Neutral>
   <!-- EN: This faction is hostile. They will raid your settlements and caravans. If relations rise above {0}, they will become neutral. -->
   <CurrentGoodwillTip_Hostile>此派系为敌对。他们会袭击你的定居点和远行队。如果关系涨过{0}，他们会转为中立。</CurrentGoodwillTip_Hostile>
-  <!-- EN: This faction has a natural goodwill range from {0} to {1}. -->
-  <CurrentGoodwillTip_NaturalGoodwill>此派系的自然友好度范围为从{0}到{1}。</CurrentGoodwillTip_NaturalGoodwill>
-  <!-- EN: If goodwill is under {0}, it will rise by {1} per year. -->
-  <CurrentGoodwillTip_NaturalGoodwillRise>如果友好度低于{0}，则每年都会增长{1}。</CurrentGoodwillTip_NaturalGoodwillRise>
-  <!-- EN: If goodwill is over {0}, it will fall by {1} per year. -->
-  <CurrentGoodwillTip_NaturalGoodwillFall>如果友好度超过{0}，则每年都会跌落{1}。</CurrentGoodwillTip_NaturalGoodwillFall>
-  
+
   <!-- Social tab -->
   <!-- EN: Friend -->
   <Friend>朋友</Friend>
@@ -208,6 +214,16 @@
   <TechLevelTooLow>你的派系技术级别为{0}，但此项目的技术级别为{1}。研究速度将乘以{2}。</TechLevelTooLow>
   <!-- EN: Unlocked with -->
   <UnlockedWith>同调</UnlockedWith>
+  <!-- EN: {0} unlocks things which you cannot build because they require memes that none of your people believe -->
+  <ResearchProjectHasDefsWithMissingMemes>{0}能够解锁你无法制造的东西，因为他们需要你所有人都不相信的模因</ResearchProjectHasDefsWithMissingMemes>
+
+  <!-- Factions tab -->
+  <!-- EN: Factions -->
+  <FactionsTab>派系</FactionsTab>
+  <!-- EN: No known factions -->
+  <NoFactions>没有已知的派系</NoFactions>
+  <!-- EN: Ideoligions -->
+  <IdeoligionsTab>意识形态</IdeoligionsTab>
 
   <!-- Quests tab -->
   <!-- EN: Available -->
@@ -282,8 +298,8 @@
   <QuestBedroomRequirementsUnsatisfiedSingle>满足头衔要求的空置卧室</QuestBedroomRequirementsUnsatisfiedSingle>
   <!-- EN: a throneroom that satisfies the requirements of {PAWN_definite}'s {TITLE} title -->
   <QuestThroneRoomRequirementsUnsatisfied>满足{PAWN_definite}的{TITLE}头衔要求的谒见厅。</QuestThroneRoomRequirementsUnsatisfied>
-  <!-- EN: a throneroom that satisfies the requirements of {PAWN_definite}'s {TITLE} title -->
-  <QuestNoThroneRoom>满足{PAWN_definite}的{TITLE}头衔要求的谒见厅。</QuestNoThroneRoom>
+  <!-- EN: assign a throne for {PAWN_definite} -->
+  <QuestNoThroneRoom>为{PAWN_definite}指定一个宝座</QuestNoThroneRoom>
   <!-- EN: a colonist with the title of {0} -->
   <QuestNoColonistWithTitle>一名拥有{0}头衔的殖民者</QuestNoColonistWithTitle>
   <!-- EN: {PAWN_definite} to be in your home colony -->
@@ -316,6 +332,17 @@
   <QuestBetrayalOffer>背叛：存在{0}个目标</QuestBetrayalOffer>
   <!-- EN: {0} will grant you a reward for killing all members of the {1}. -->
   <QuestBetrayalOfferTip>{0}将因你杀死{1}的所有成员而奖励你。</QuestBetrayalOfferTip>
+  <!-- EN: a colony wealth of at least {0} -->
+  <QuestRequiredPlayerWealth>一个财富值至少为{0}的殖民地</QuestRequiredPlayerWealth>
+  <!-- EN: allied to {0} -->
+  <QuestAlliedTo>与{0}结盟</QuestAlliedTo>
+  <!-- EN: hostile to {0} -->
+  <QuestHostileTo>与{0}敌对</QuestHostileTo>
+  <!-- EN: neutral to {0} -->
+  <QuestNeutralTo>与{0}中立</QuestNeutralTo>
+  <!-- EN: studied {0_labelShort} -->
+  <QuestRequiredThingStudied>已研究{0_labelShort}</QuestRequiredThingStudied>
+
   
   <!-- Health tab -->
   <!-- EN: Creates need -->

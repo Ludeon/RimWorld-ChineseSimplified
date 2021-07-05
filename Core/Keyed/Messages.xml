@@ -13,8 +13,8 @@
   <!-- EN: {0} from {1} have decided to steal what they can and leave. -->
   <MessageRaidersStealing>来自{1}的{0}准备带走他们能带走的战利品并离开。</MessageRaidersStealing>
 
-  <!-- EN: {0} from {1} have arrived in the area of your caravan and are attacking. More are on the way and will arrive in {2}. -->
-  <MessageCaravanDetectedRaidArrived>来自{1}的{0}已抵达你的远行队区域并正在攻击。更多的袭击将在{2}抵达。</MessageCaravanDetectedRaidArrived>
+  <!-- EN: {0} from {1} have arrived and are attacking! More are on the way and will arrive in {2}. -->
+  <MessageCaravanDetectedRaidArrived>来自{1}的{0}已抵达并正在攻击。更多的袭击将在{2}抵达。</MessageCaravanDetectedRaidArrived>
 
   <!-- EN: {0} from {1} are leaving. -->
   <MessageRaidersLeaving>来自{1}的{0}准备离开了。</MessageRaidersLeaving>
@@ -55,7 +55,7 @@
   <MessageConditionCauserDespawned>{0}已被摧毁。</MessageConditionCauserDespawned>
   
   <!-- EN: Bill complete: {0}. -->
-  <MessageBillComplete>清单已完成: {0}。</MessageBillComplete>
+  <MessageBillComplete>清单已完成：{0}。</MessageBillComplete>
 
   <!-- EN: {1_label} is fully healed. -->
   <MessageFullyHealed>{1_label}已经完全康复了。</MessageFullyHealed>
@@ -65,20 +65,26 @@
 
   <!-- EN: {PAWN_labelShort} found no nearby unreserved shells for {GUN_label}. -->
   <MessageOutOfNearbyShellsFor>{PAWN_labelShort}在附近找不到可供{GUN_label}使用的未分配炮弹。</MessageOutOfNearbyShellsFor>
+  <!-- EN: {PAWN_labelShort} found no nearby unreserved {FUEL} for {GUN_label}. -->
+  <MessageOutOfNearbyFuelFor>{PAWN_labelShort}在附近找不到为{GUN_label}保留的{FUEL}。</MessageOutOfNearbyFuelFor>
 
   <!-- EN: Warning: {ANIMAL_kindBasePlural} have a {1} base chance to attack when harmed. Chance depends on range and hunter stealth stat. -->
-  <MessageAnimalsGoPsychoHunted>警告: {ANIMAL_kindBasePlural}在受到伤害后通常会发动攻击，步枪射程距离下{1}几率，越近则越高，狩猎隐蔽率可有效降低被攻击的几率。</MessageAnimalsGoPsychoHunted>
+  <MessageAnimalsGoPsychoHunted>警告：{ANIMAL_kindBasePlural}在受到伤害后通常会发动攻击，步枪射程距离下{1}几率，越近则越高，狩猎隐蔽率可有效降低被攻击的几率。</MessageAnimalsGoPsychoHunted>
   <!-- EN: Warning: {ANIMAL_kindBasePlural} may attack upon failed taming attempts ({1} chance). -->
-  <MessageAnimalManhuntsOnTameFailed>警告: {ANIMAL_kindBasePlural}在驯服失败后通常会发动攻击（{1}几率）。</MessageAnimalManhuntsOnTameFailed>
+  <MessageAnimalManhuntsOnTameFailed>警告：{ANIMAL_kindBasePlural}在驯服失败后通常会发动攻击（{1}几率）。</MessageAnimalManhuntsOnTameFailed>
+  <!-- EN: Only those with the insect sympathy trait can tame {INSECT_indefinite}. -->
+  <MessageInsectTameDesignated>只有那些具有昆虫同情特性的人才能驯服{INSECT_indefinite}。</MessageInsectTameDesignated>
   
   <!-- EN: New recruit -->
   <LetterLabelMessageRecruitSuccess>新人加入</LetterLabelMessageRecruitSuccess>
-  <!-- EN: {RECRUITER_nameFull} successfully recruited {RECRUITEE_nameFull} ({2} chance). -->
-  <MessageRecruitSuccess>{RECRUITER_nameFull}成功招募了{RECRUITEE_nameFull}（成功率{2}）。</MessageRecruitSuccess>
-  <!-- EN: {RECRUITER_labelShort} successfully tamed {1} ({2} chance). -->
-  <MessageTameSuccess>{RECRUITER_labelShort}成功驯服了{1}（成功率{2}）。</MessageTameSuccess>
-  <!-- EN: {RECRUITER_labelShort} successfully tamed {1} ({2} chance). It is now called {RECRUITEE_nameFull}. -->
-  <MessageTameAndNameSuccess>{RECRUITER_labelShort}成功驯服了{1}，并将{RECRUITEE_objective}起名为{RECRUITEE_nameFull}（成功率{2}）。</MessageTameAndNameSuccess>
+  <!-- EN: {RECRUITER_nameFull} successfully recruited {RECRUITEE_nameFull}. -->
+  <MessageRecruitSuccess>{RECRUITER_nameFull}成功招募了{RECRUITEE_nameFull}。</MessageRecruitSuccess>
+  <!-- EN: {RECRUITER_labelShort} successfully tamed {1}. -->
+  <MessageTameSuccess>{RECRUITER_labelShort}成功驯服了{1}。</MessageTameSuccess>
+  <!-- EN: {RECRUITER_labelShort} successfully tamed {1}. It is now called {RECRUITEE_nameFull}. -->
+  <MessageTameAndNameSuccess>{RECRUITER_labelShort}成功驯服了{1}，并将{RECRUITEE_objective}起名为{RECRUITEE_nameFull}。</MessageTameAndNameSuccess>
+  <!-- EN: There is no suitable animal pen for {ANIMAL_labelShort}. It will eventually roam away. -->
+  <MessageTameNoSuitablePens>没有适用于{ANIMAL_labelShort}的畜栏。它最终会游荡走。</MessageTameNoSuitablePens>
   <!-- EN: {RECRUITEE} has joined your colony. -->
   <MessageRecruitJoinOfferAccepted>{RECRUITEE}加入了你的殖民地。</MessageRecruitJoinOfferAccepted>
 
@@ -88,7 +94,7 @@
   <MessageColonyNotEnoughSilver>你没有足够的白银用于交易。</MessageColonyNotEnoughSilver>
 
   <!-- EN: Critical alert: {0} -->
-  <MessageCriticalAlert>严重警报: {0}</MessageCriticalAlert>
+  <MessageCriticalAlert>严重警报：{0}</MessageCriticalAlert>
 
   <!-- EN: Must designate harvestable sufficiently-grown plants. -->
   <MessageMustDesignateHarvestable>必须指定可收获资源并且足够成熟的植物。</MessageMustDesignateHarvestable>
@@ -165,9 +171,6 @@
   <!-- EN: {PAWN_labelShort} has exceeded the normal limit of neural heat. -->
   <MessageWentOverPsychicEntropyLimit>{PAWN_labelShort}已经超过了心灵熵值的常规限制。</MessageWentOverPsychicEntropyLimit>
 
-  <!-- EN: {NAMER_nameFull} has named {1} {NAMEE_nameFull} after being nuzzled. -->
-  <MessageNuzzledPawnGaveNameTo>亲昵之后，{NAMER_nameFull}给{1}起名{NAMEE_nameFull}。</MessageNuzzledPawnGaveNameTo>
-
   <!-- EN: No handler can tame {ANIMAL_kindBase} (requires level {1} in {2}, best handler {HANDLER_labelShort} has {4}). -->
   <MessageNoHandlerSkilledEnough>无人可以驯服{ANIMAL_kindBase}（要求{2}{1}级，技能最高的驯兽师{HANDLER_labelShort}为{4}级）。</MessageNoHandlerSkilledEnough>
   
@@ -175,7 +178,13 @@
   <MessageEatenByPredator>{EATEN_labelShort}被{PREDATOR}吃掉了。</MessageEatenByPredator>
   <!-- EN: {PREY_labelShort} is being attacked by {PREDATOR}! -->
   <MessageAttackedByPredator>{PREY_labelShort}正被{PREDATOR}攻击！</MessageAttackedByPredator>
-  
+
+  <!-- EN: {PAWN_labelShort} has started to roam away! {PAWN_pronoun} will leave the map unless an animal handler ropes {PAWN_objective} back to a pen. -->
+  <MessageRoamerLeaving>{PAWN_labelShort}已经开始游荡了! {PAWN_pronoun}会离开地图，除非有驯兽师将{PAWN_objective}牵引回畜栏内。</MessageRoamerLeaving>
+
+  <!-- EN: Cannot auto-cut plants when pen is not enclosed - build fences. -->
+  <MessageAutoCutInUnenclosedPen>畜栏未封闭时不能自动割除植物——建立围栏。</MessageAutoCutInUnenclosedPen>
+
   <!-- EN: A bug hive has reproduced itself. -->
   <MessageHiveReproduced>一个虫巢繁殖出了一个新虫巢。</MessageHiveReproduced>
   
@@ -220,13 +229,13 @@
   <MessageShipChunkDrop>几块飞船碎片从太空掉落至附近。\n\n你可以拆除它们来获取有用的资源。</MessageShipChunkDrop>
 
   <!-- EN: Some items cannot be traded because of:  -->
-  <MessageCannotSellItemsReason>一些物品无法交易，原因: </MessageCannotSellItemsReason>
+  <MessageCannotSellItemsReason>一些物品无法交易，原因：</MessageCannotSellItemsReason>
 
   <!-- EN: {WORKER_labelShort} failed while constructing a {0}. Some resources have been wasted. -->
   <MessageConstructionFailed>{WORKER_labelShort}建造{0}失败。浪费了部分材料。</MessageConstructionFailed>
 
   <!-- EN: Screenshot saved as: {0} -->
-  <MessageScreenshotSavedAs>屏幕截图已保存至: {0}</MessageScreenshotSavedAs>
+  <MessageScreenshotSavedAs>屏幕截图已保存至：{0}</MessageScreenshotSavedAs>
   
   <!-- EN: {PAWN1_labelShort} and {PAWN2_labelShort} are no longer social fighting. -->
   <MessageNoLongerSocialFighting>{PAWN1_labelShort}和{PAWN2_labelShort}已经不再打架了。</MessageNoLongerSocialFighting>
@@ -256,7 +265,7 @@
   <MessageCaravanMemberHasExtremeMentalBreak>一名远行队成员精神崩溃了。</MessageCaravanMemberHasExtremeMentalBreak>
   
   <!-- EN: Warning: It can take a very long time to generate an entire planet. -->
-  <MessageMaxPlanetCoveragePerformanceWarning>警告: 生成整个星球可能需要很长的时间。</MessageMaxPlanetCoveragePerformanceWarning>
+  <MessageMaxPlanetCoveragePerformanceWarning>警告：生成整个星球可能需要很长的时间。</MessageMaxPlanetCoveragePerformanceWarning>
 
   <!-- EN: {0} has died because of cold. -->
   <MessagePlantDiedOfCold>由于温度过低，{0}已死亡。</MessagePlantDiedOfCold>
@@ -341,6 +350,8 @@
   <MessageCantEquipCustom>不能装备: {0}。</MessageCantEquipCustom>
   <!-- EN: Cannot equip: {1_labelShort} is incapable of violence. -->
   <MessageCantEquipIncapableOfViolence>不能装备: {1_labelShort}无暴力能力。</MessageCantEquipIncapableOfViolence>
+  <!-- EN: Cannot equip: {1_labelShort} is incapable of shooting. -->
+  <MessageCantEquipIncapableOfShooting>不能装备：{1_labelShort}无射击能力。</MessageCantEquipIncapableOfShooting>
   <!-- EN: Cannot equip: Incapable. -->
   <MessageCantEquipIncapableOfManipulation>不能装备: 没有能力。</MessageCantEquipIncapableOfManipulation>
   <!-- EN: Cannot wear: {1_labelShort} is missing required body parts. -->
@@ -352,8 +363,10 @@
   
   <!-- EN: Because they are bonded, slaughtering {DESIGNATED_labelShort} will make {BONDED_labelShort} unhappy. -->
   <MessageSlaughteringBondedAnimal>由于他们之间是牵绊关系，屠宰{DESIGNATED_labelShort}会使{BONDED_labelShort}不高兴。</MessageSlaughteringBondedAnimal>
+  <!-- EN: Because they are bonded, releasing {DESIGNATED_labelShort} will make {BONDED_labelShort} unhappy. -->
+  <MessageReleaseBondedAnimal>因为他们有牵绊关系，释放{DESIGNATED_labelShort}将使{BONDED_labelShort}不高兴。</MessageReleaseBondedAnimal>
   
-  <!-- EN: {0} has run out of food ({PAWN_label}). -->
+  <!-- EN: {0} has run out of food. -->
   <MessageCaravanRanOutOfFood>{0}的食物已耗尽({PAWN_label})。</MessageCaravanRanOutOfFood>
   <!-- EN: {PAWN_definite}'s corpse has been picked up by the caravan. It is heavy and may immobilize the caravan, but can be left behind in the caravan items tab. -->
   <MessageCaravanDeathCorpseAddedToInventory>{PAWN_definite}的尸体被商队拾起。因为尸体很重，可能会限制商队的行动，可以在商队的「物品」选项卡找到并丢弃。</MessageCaravanDeathCorpseAddedToInventory>
@@ -393,10 +406,10 @@
   <!-- EN: None of your wardens is capable of violence. The execution won't be performed. -->
   <MessageCantDoExecutionBecauseNoWardenCapableOfViolence>没有可行使暴力行为的狱卒。处决不会被执行。</MessageCantDoExecutionBecauseNoWardenCapableOfViolence>
   
-  <!-- EN: You have defeated all enemies. In {0}, the caravan will automatically be reformed. -->
-  <MessageSiteCountdownBecauseNoMoreEnemies>你已经消灭了所有敌人。远行队将在{0}后自动重组。</MessageSiteCountdownBecauseNoMoreEnemies>
-  <!-- EN: In {0}, the caravan will automatically be reformed. You can reform the caravan now in the World screen. -->
-  <MessageSiteCountdownBecauseNoEnemiesInitially>远行队将在{0}后自动重组。你现在可以「世界」视图中重组远行队。</MessageSiteCountdownBecauseNoEnemiesInitially>
+  <!-- EN: Area is now safe. You can reform the caravan on the world map. -->
+  <MessageCanReformCaravanNowNoMoreEnemies>该地区现在是安全的。你可以在世界地图上重组远行队。</MessageCanReformCaravanNowNoMoreEnemies>
+  <!-- EN: Area is now safe, but some unexplored rooms remain. You can explore further or reform the caravan on the world map. -->
+  <MessageCanReformCaravanNowNoMoreEnemiesButUnexploredAreas>该地区现在是安全的，但仍有一些未探索的房间。你可以进一步探索或在世界地图上重组远行队。</MessageCanReformCaravanNowNoMoreEnemiesButUnexploredAreas>
 
   <!-- EN: Cannot banish {1_labelShort} since {1_pronoun} cannot walk. -->
   <MessageCantBanishDownedPawn>在{1_labelShort}还能行走之前不能放逐{1_pronoun}。</MessageCantBanishDownedPawn>
@@ -407,14 +420,14 @@
   <MessageMechClusterDefeated>机械集群建筑已被摧毁。</MessageMechClusterDefeated>
 
   <!-- EN: Item produced: {0}. -->
-  <MessageCompSpawnerSpawnedItem>产生物体: {0}。</MessageCompSpawnerSpawnedItem>
+  <MessageCompSpawnerSpawnedItem>产生物体：{0}。</MessageCompSpawnerSpawnedItem>
 
   <!-- EN: Health condition healed: {0}. -->
-  <MessageHediffCuredByItem>治愈健康状况: {0}。</MessageHediffCuredByItem>
+  <MessageHediffCuredByItem>治愈健康状况：{0}。</MessageHediffCuredByItem>
   <!-- EN: Body part restored: {0}. -->
-  <MessageBodyPartCuredByItem>修复身体部件: {0}。</MessageBodyPartCuredByItem>
+  <MessageBodyPartCuredByItem>修复身体部件：{0}。</MessageBodyPartCuredByItem>
   <!-- EN: Technology given: {0}. -->
-  <MessageResearchProjectFinishedByItem>获得技术: {0}。</MessageResearchProjectFinishedByItem>
+  <MessageResearchProjectFinishedByItem>获得技术：{0}。</MessageResearchProjectFinishedByItem>
 
   <!-- EN: {0} has been brought back to life! -->
   <MessagePawnResurrected>{0}重新获得了生命！</MessagePawnResurrected>
@@ -433,7 +446,7 @@
   <MessagePeaceTalksNoDiplomat>没有意识清醒、具备能力的外交官。</MessagePeaceTalksNoDiplomat>
 
   <!-- EN: Warning: {0} cannot live when exposed to light. -->
-  <MessageWarningCavePlantsExposedToLight>警告: {0}暴露在光照下无法生存。</MessageWarningCavePlantsExposedToLight>
+  <MessageWarningCavePlantsExposedToLight>警告：{0}暴露在光照下无法生存。</MessageWarningCavePlantsExposedToLight>
 
   <!-- EN: {PAWN_labelShort} couldn't reach {OLDTARGET_label} so {PAWN_pronoun} decided to redirect {PAWN_possessive} anger at {TARGET_label}. -->
   <MessageTargetedTantrumChangedTarget>{PAWN_labelShort}无法接触{OLDTARGET_label}，于是{PAWN_pronoun}决定转而将{PAWN_possessive}怒火发泄在{TARGET_label}身上。</MessageTargetedTantrumChangedTarget>
@@ -484,8 +497,6 @@
   <GoodwillChangedReason_Traded>贸易</GoodwillChangedReason_Traded>
   <!-- EN: attacked a caravan -->
   <GoodwillChangedReason_AttackedCaravan>攻击了远行队</GoodwillChangedReason_AttackedCaravan>
-  <!-- EN: natural tendency to reach {0} over time -->
-  <GoodwillChangedReason_NaturallyOverTime>随时间自然趋向于{0}</GoodwillChangedReason_NaturallyOverTime>
   <!-- EN: {1_labelShort} exited the map healthy -->
   <GoodwillChangedReason_ExitedMapHealthy>{1_labelShort}健康地离开了地图</GoodwillChangedReason_ExitedMapHealthy>
   <!-- EN: tended to {1_labelShort} -->
@@ -547,6 +558,8 @@
 
   <!-- EN: Because of a lack of taming maintenance, {1_labelShort} has returned to the wild. -->
   <MessageAnimalReturnedWild>由于缺乏维持训练，{1_labelShort}回归了野生。</MessageAnimalReturnedWild>
+  <!-- EN: {1_labelShort} has been returned to the wild. -->
+  <MessageAnimalReturnedWildReleased>{1_labelShort}已被送回野外。</MessageAnimalReturnedWildReleased>
   <!-- EN: Due to a lack of maintenance training, {ANIMAL_labelShort} has lost a skill: {1} -->
   <MessageAnimalLostSkill>由于缺乏维持训练，{ANIMAL_labelShort}失去了技能：{1}</MessageAnimalLostSkill>
 
@@ -596,7 +609,7 @@
   <!-- EN: Cannot accept this quest. -->
   <MessageCannotAcceptQuest>无法接受此任务。</MessageCannotAcceptQuest>
   <!-- EN: {0_definite} has accepted a quest: {1} -->
-  <MessageQuestAccepted>{0_definite}已接受一个任务: {1}</MessageQuestAccepted>
+  <MessageQuestAccepted>{0_definite}已接受一个任务：{1}</MessageQuestAccepted>
   <!-- EN: {0} is leaving. -->
   <MessagePawnLeaving>{0}正在离开。</MessagePawnLeaving>
   <!-- EN: {0} are leaving. -->
@@ -613,7 +626,7 @@
   
   <!-- Research -->
   <!-- EN: Warning: Research will not begin until you build a research bench. -->
-  <MessageResearchMenuWithoutBench>警告: 只有制造了研究台后，研究才能开始。</MessageResearchMenuWithoutBench>
+  <MessageResearchMenuWithoutBench>警告：只有制造了研究台后，研究才能开始。</MessageResearchMenuWithoutBench>
 
   <!-- EN: {0_indefinite} has triggered a proximity activator. -->
   <MessageActivatorProximityTriggered>{0_indefinite}触发了一个邻近的激活器。</MessageActivatorProximityTriggered>
@@ -624,4 +637,92 @@
   <!-- EN: {PAWN_nameDef} is a prisoner -->
   <MessagePrisonerCannotEquipWeapon>{PAWN_nameDef}是一名囚犯</MessagePrisonerCannotEquipWeapon>
 
+  <!-- EN: Warning: {0_nameDef}'s beliefs oppose {1} work. {0_pronoun} may become unhappy. -->
+  <MessageIdeoOpposedWorkTypeSelected>警告：{0_nameDef}的信仰排斥{1}工作。{0_pronoun}可能会变得不快乐。</MessageIdeoOpposedWorkTypeSelected>
+
+  <!-- EN: {0} is no longer assigned to {1_nameDef}. -->
+  <MessageBedLostAssignment>{0}不再分配给{1_nameDef}。</MessageBedLostAssignment>
+  <!-- EN: {0} assigned to {1_nameDef} was destroyed. -->
+  <MessageBedDestroyed>分配给{1_nameDef}的{0}已被销毁。</MessageBedDestroyed>
+
+  <!-- Rituals -->
+  <!-- EN: spectate -->
+  <Spectate>出席</Spectate>
+  <!-- EN: Assign to {0} -->
+  <AssignToRole>指派给{0}</AssignToRole>
+  <!-- EN: {0} has begun. -->
+  <RitualBegun>{0}已经开始。</RitualBegun>
+  <!-- EN: The maximum number of {0}s is {1}. -->
+  <MaxPawnsPerRole>{0}的最大数量是{1}。</MaxPawnsPerRole>
+  <!-- EN: You need at least one participant. -->
+  <MessageRitualNeedsAtLeastOnePerson>你至少需要一名参与者。</MessageRitualNeedsAtLeastOnePerson>
+  <!-- EN: You need at least one spectator. -->
+  <MessageRitualNeedsAtLeastOneSpectator>你至少需要一名观众。</MessageRitualNeedsAtLeastOneSpectator>
+  <!-- EN: You need a {0}. -->
+  <MessageRitualNeedsAtLeastOneRolePawn>你需要一名{0}。</MessageRitualNeedsAtLeastOneRolePawn>
+  <!-- EN: You need at least {1} {0}. -->
+  <MessageRitualNeedsAtLeastNumRolePawn>你至少需要{1}名{0}。</MessageRitualNeedsAtLeastNumRolePawn>
+  <!-- EN: {0_labelShort} is downed. -->
+  <MessageRitualPawnDowned>{0_labelShort}被击倒。</MessageRitualPawnDowned>
+  <!-- EN: {0_labelShort} is currently escaping. -->
+  <MessageRitualPawnPrisonerNotSecured>{0_labelShort}目前正在逃跑。</MessageRitualPawnPrisonerNotSecured>
+  <!-- EN: {0_labelShort} is currently rebelling. -->
+  <MessageRitualPawnSlaveNotSecured>{0_labelShort}目前正在叛变。</MessageRitualPawnSlaveNotSecured>
+  <!-- EN: {0_labelShort} is being released. -->
+  <MessageRitualPawnReleased>{0_labelShort}正在被释放。</MessageRitualPawnReleased>
+  <!-- EN: {0_labelShort} is injured. -->
+  <MessageRitualPawnInjured>{0_labelShort}受伤了。</MessageRitualPawnInjured>
+  <!-- EN: {0_labelShort} must hold one of these roles -->
+  <MessageRitualRoleRequired>{0_labelShort}必须持有这些角色之一</MessageRitualRoleRequired>
+  <!-- EN: {0} must be a prisoner. -->
+  <MessageRitualRoleMustBePrisoner>{0}必须是囚犯。</MessageRitualRoleMustBePrisoner>
+  <!-- EN: {0} must be an animal. -->
+  <MessageRitualRoleMustBeAnimal>{0}必须是动物</MessageRitualRoleMustBeAnimal>
+  <!-- EN: {0} must be a human. -->
+  <MessageRitualRoleMustBeHumanlike>{0}必须是人类</MessageRitualRoleMustBeHumanlike>
+  <!-- EN: {0} must have eyes -->
+  <MessageRitualRoleMustHaveEyes>{0}必须有眼睛</MessageRitualRoleMustHaveEyes>
+  <!-- EN: {0_labelShort} does not require further scarification. -->
+  <MessageRitualRoleMustRequireScarification>{0_labelShort}不需要更多的伤痕。</MessageRitualRoleMustRequireScarification>
+  <!-- EN: {0} must be a prisoner or slave. -->
+  <MessageRitualRoleMustBePrisonerOrSlave>{0}必须是囚犯或者奴隶。</MessageRitualRoleMustBePrisonerOrSlave>
+  <!-- EN: {0_labelShort} must be capable of fighting. -->
+  <MessageRitualRoleMustBeCapableOfFighting>{0_labelShort}必须具有暴力能力。</MessageRitualRoleMustBeCapableOfFighting>
+  <!-- EN: {0_labelShort} must be capable of wardening. -->
+  <MessageRitualRoleMustBeCapableOfWardening>{0_labelShort}必须具有监护能力。</MessageRitualRoleMustBeCapableOfWardening>
+  <!-- EN: {0} must be capable of {1}. -->
+  <MessageRitualRoleMustBeCapableOfGeneric>{0}必须具有{1}能力。</MessageRitualRoleMustBeCapableOfGeneric>
+  <!-- EN: prisoners cannot {0}. -->
+  <MessageRitualRoleMustNotBePrisonerToSpectate>囚犯不能{0}。</MessageRitualRoleMustNotBePrisonerToSpectate>
+  <!-- EN: only {0} can {1}. -->
+  <MessageRitualRoleMustHaveIdeoToSpectate>只有{0}可以{1}.</MessageRitualRoleMustHaveIdeoToSpectate>
+  <!-- EN: only {0} can fill the role of {1}. -->
+  <MessageRitualRoleMustHaveIdeoToDoRole>只有{0}可以满足{1}对角色的要求。</MessageRitualRoleMustHaveIdeoToDoRole>
+  <!-- EN: must be colonist for the {0} role. -->
+  <MessageRitualRoleMustBeColonist>{0}角色必须是殖民者。</MessageRitualRoleMustBeColonist>
+  <!-- EN: {0} must have an animal with min body size of {1}. -->
+  <MessageRitualRoleMustHaveLargerBodySize>{0}必须拥有一只体型至少有{1}的动物。</MessageRitualRoleMustHaveLargerBodySize>
+  <!-- EN: {0_labelShort} is in a mental state. -->
+  <MessageRitualPawnMentalState>{0_labelShort}正处于精神崩溃。</MessageRitualPawnMentalState>
+  <!-- EN: {0_labelShort} is already {1}. -->
+  <MessageRitualPawnIsAlreadyBelievingIdeo>{0_labelShort}已经{1}。</MessageRitualPawnIsAlreadyBelievingIdeo>
+  <!-- EN: {0_labelShort} cannot take any other role than spectator. -->
+  <MessageRitualCannotAssignAnyRoleFromSpectating>{0_labelShort}不能担任观众以外的任何其他角色。</MessageRitualCannotAssignAnyRoleFromSpectating>
+
+  <!-- EN: You must select a site to continue. -->
+  <MessagePlayerMustSelectTile>你必须选择一个位置以继续。</MessagePlayerMustSelectTile>
+
+  <!-- EN: Cannot plant {0_labelShort} -->
+  <CannotPlantThing>无法种植{0_labelShort}</CannotPlantThing>
+  <!-- EN: Need more fertile terrain. -->
+  <MessageWarningNotEnoughFertility>需要更肥沃的地形。</MessageWarningNotEnoughFertility>
+  <!-- EN: blocked by {0_label}. -->
+  <BlockedBy>被{0_label}阻挡</BlockedBy>
+  <!-- EN: Cannot be planted next to {0_label}. -->
+  <AdjacentSowBlocker>不能种植在{0_label}旁边。</AdjacentSowBlocker>
+  <!-- EN: Too close to {0_label}. -->
+  <TooCloseToOtherPlant>离{0_label}太近了。</TooCloseToOtherPlant>
+  <!-- EN: Too close to {0_label}'s planting location. -->
+  <TooCloseToOtherSeedPlantCell>离{0_label}种植区太近了。</TooCloseToOtherSeedPlantCell>
+  
 </LanguageData>
