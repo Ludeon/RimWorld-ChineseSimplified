@@ -119,8 +119,8 @@
   <LetterSpeechInspiration>感谢{SPEAKER_nameIndef}的精彩演讲，{PAWN_nameIndef}获得了一个灵感！</LetterSpeechInspiration>
   <!-- EN: Because the speech was interrupted after only {0} completed, it wasn't as effective. -->
   <LetterSpeechInterrupted>由于演讲进度在{0}后被打断，因此效果不佳。</LetterSpeechInterrupted>
-  <!-- EN: {ORGANIZER_bestRoyalTitleDef}'s speech was cancelled before reaching 50% completion. It had no effect. -->
-  <LetterSpeechCancelled>{ORGANIZER_bestRoyalTitleDef}的演讲已被取消，并未过半。因此没有效果。</LetterSpeechCancelled>
+  <!-- EN: {0}'s speech was cancelled before reaching 50% completion. It had no effect. -->
+  <LetterSpeechCancelled>{0}的演讲已被取消，并未过半。因此没有效果。</LetterSpeechCancelled>
   <!-- EN: Speech cancelled -->
   <LetterLabelSpeechCancelled>演讲被取消了</LetterLabelSpeechCancelled>
 
@@ -171,6 +171,18 @@
   <!-- EN: {TARGET_definite} did not show up to the bestowing ceremony. The ceremony has been cancelled. -->
   <LetterTextBestowingCeremonyExpired>{TARGET_definite}没有出现在授勋仪式上。授勋仪式被取消了</LetterTextBestowingCeremonyExpired>
 
+  <!-- EN: {TARGET_definite}'s title changed -->
+  <LetterLabelBestowingCeremonyTitleUpdated>{TARGET_definite}的头衔改变</LetterLabelBestowingCeremonyTitleUpdated>
+  <!-- EN: {TARGET_definite} has gained new title since the bestowing ceremony was scheduled. In order for bestowing to match the new title, another ceremony will be scheduled soon.\n\nThe new bestowing ceremony will include the psylink rewards for all titles which were not yet awarded. -->
+  <LetterTextBestowingCeremonyTitleUpdated>{TARGET_definite}在授勋仪式安排后获得了新的头衔。为了配合新头衔的授予，另一个仪式将很快被安排。\n\n新的授予仪式将包括所有尚未授予的头衔的启灵装置奖励。</LetterTextBestowingCeremonyTitleUpdated>
+  
+  <!-- EN: {PAWN_labelShort} received {1} honor as a sign of respect from {FACTION_name}, for gathering {3} spectators. -->
+  <LetterPartBestowingExtraHonor>{PAWN_labelShort}获得了{1}x荣誉点数， 以示对{FACTION_name}的尊重， 因为他聚集了{3}x观众。</LetterPartBestowingExtraHonor>
+  <!-- EN: {PAWN_labelShort} received no extra honor since there weren't many spectators. -->
+  <LetterPartNoExtraHonor>{PAWN_labelShort}没有获得额外的荣誉，因为没有多少观众。</LetterPartNoExtraHonor>
+  <!-- EN: All viewers of the ceremony received a mood bonus. -->
+  <LetterPartMoodBonus>仪式的所有观众都获得了心情奖励。</LetterPartMoodBonus>
+
   <!-- EN: Who should be credited with {0} for defeating the bandit camp? -->
   <LetterTextHonorAward_BanditCamp>谁应该因击败匪徒营地而获得{0}的奖励？</LetterTextHonorAward_BanditCamp>
 
@@ -179,5 +191,11 @@
   <LetterLabelShuttleCrashed>穿梭机坠毁</LetterLabelShuttleCrashed>
   <!-- EN: A shuttle has crashed nearby -->
   <LetterTextShuttleCrashed>一艘穿梭机在坠毁在了附近</LetterTextShuttleCrashed>
+
+  <!-- Wanderer joins -->
+  <!-- EN: Transport pod crash: {0_nameDef} -->
+  <LetterLabelWandererJoinsAbasia>运输仓坠毁：{0_nameDef}</LetterLabelWandererJoinsAbasia>
+  <!-- EN: A {0_title} named {0_nameDef} is crashing in a transport pod nearby.\n\n{0_nameDef} is suffering from {1_label} and will be unable to walk.\n\n{0_pronoun} will recover naturally after many days. There is also a chance of a lucky quick recovery. {1_label} can also be cured by a special operation which requires a large amount of glitterworld medicine.\n\n{0_pronoun} is willing to contribute once {0_pronoun} has recovered, but will not leave voluntarily. If you don't want {0_nameDef}, you can banish {0_objective}, sell {0_objective} into slavery or leave {0_objective} to die. However, your other colonists may find this disturbing. -->
+  <LetterTextWandererJoinsAbasia>一位名为 {0_nameDef} 的 {0_title} 乘坐运输仓坠毁在了附近。\n\n{0_nameDef} 患有 {1_label}， 将无法行走。\n\n{0_pronoun}将在许多天后自然恢复。 也有可能幸运地迅速康复。 {1_label}也可以通过一个特殊的手术来治愈， 这需要大量的闪耀世界药物。\n\n{0_pronoun}不会主动离开，并且愿意在{0_pronoun}康复后作出贡献。 如果你不愿意接收{0_nameDef}， 你可以放逐{0_objective}， 把{0_objective}卖给奴隶， 或者让{0_objective}死去。 然而， 你的其他殖民者可能会觉得这很令人不安。</LetterTextWandererJoinsAbasia>
 
 </LanguageData>

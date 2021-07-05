@@ -102,8 +102,6 @@
   <!-- EN: {0_nameDef} is ready to use {1}. -->
   <AbilityReadyText>{0_nameDef}已经可以使用{1}。</AbilityReadyText>
   
-  <!-- EN: Initiate a speech from the throne. {ORGANIZER_labelShort} will go to {ORGANIZER_possessive} throne and call all colonists to listen to a speech there. If all goes well, listeners will feel inspired, and gain respect for {ORGANIZER_labelShort}. If it goes poorly, the speech will do social damage. The outcome depends on {ORGANIZER_labelShort}'s social abilities. -->
-  <AbilitySpeechTooltip>在谒见厅发起一场演讲。{ORGANIZER_labelShort}将会去往{ORGANIZER_possessive}谒见厅并召集所有的殖民者来听取演讲。如果一切顺利，听众会获得鼓舞，并且{ORGANIZER_labelShort}获得尊重。如果进展不顺利，演讲会造成社交伤害。结果取决于组织者的社交能力。</AbilitySpeechTooltip>
   <!-- EN: no throne assigned. -->
   <AbilitySpeechDisabledNoThroneAssigned>未指定宝座。</AbilitySpeechDisabledNoThroneAssigned>
   <!-- EN: throne is not accessible. -->
@@ -120,6 +118,15 @@
   <AbilitySpeechPossibleOutcomes>可能的结果</AbilitySpeechPossibleOutcomes>
   <!-- EN: {ORGANIZER_labelShort}'s {1} stat -->
   <AbilitySpeechStatInfo>{ORGANIZER_labelShort}的{1}状态</AbilitySpeechStatInfo>
+  <!-- EN: Initiated at -->
+  <AbilitySpeechTargetsLabel>发起于</AbilitySpeechTargetsLabel>
+  <!-- EN: Dignified throne -->
+  <AbilitySpeechTargetDescThrone>庄严的宝座</AbilitySpeechTargetDescThrone>
+  
+  <!-- EN: no accessible altar. -->
+  <RitualDisabledNoAltar>没有可进入的祭坛。</RitualDisabledNoAltar>
+  <!-- EN: Bestowing Ceremony -->
+  <RitualBestowingCeremony>授勋仪式</RitualBestowingCeremony>
 
   <!-- EN: Total meditation today: {0} (progress multiplier {1}) -->
   <TotalMeditationToday>今日冥想：{0}（进度乘数{1}）</TotalMeditationToday>
@@ -131,23 +138,33 @@
   <BeginLinkingRitualNeedSubplants>附近需要{0} {1}（有{2}）</BeginLinkingRitualNeedSubplants>
   <!-- EN: Need {0} psylink focus type -->
   <BeginLinkingRitualNeedFocus>需要{0}类型</BeginLinkingRitualNeedFocus>
+  <!-- EN: Max psylink level -->
+  <BeginLinkingRitualMaxPsylinkLevel>最大启灵等级</BeginLinkingRitualMaxPsylinkLevel>
   <!-- EN: Need a free, reachable spot within 3 cells for linking -->
   <BeginLinkingRitualNeedLinkSpot>需要在3格之内有一个可用的地点来进行连接</BeginLinkingRitualNeedLinkSpot>
   <!-- EN: Linking ritual completed -->
   <LetterLabelLinkingRitualCompleted>连接仪式完成</LetterLabelLinkingRitualCompleted>
   <!-- EN: {PAWN_labelShort} has completed the linking ritual with {LINKABLE_labelShort}.\n\n{PAWN_pronoun} now has an upgraded psylink, permitting the use of new psychic powers. -->
   <LetterTextLinkingRitualCompleted>{PAWN_labelShort}完成了与{LINKABLE_labelShort}的连接仪式。\n\n{PAWN_pronoun}现在获得了一次启灵升级，能够使用新的心灵能力。</LetterTextLinkingRitualCompleted>
+  <!-- EN: Additionally, {0} anima grass has been restored. -->
+  <LetterTextLinkingRitualCompletedAnimaGrass>此外，{0}x仙草已被恢复。</LetterTextLinkingRitualCompletedAnimaGrass>
 
   <!-- EN: Land shuttle here -->
   <LandHere>穿梭机在此着陆</LandHere>
   <!-- EN: Destination is out of range. -->
   <MessageShuttleDestinationIsTooFar>目标超出范围。</MessageShuttleDestinationIsTooFar>
 
-  <!-- EN: Do bestowing ceremony -->
-  <BeginCeremony>执行授勋仪式</BeginCeremony>
+  <!-- EN: Start bestowing ceremony for {0_labelShort} -->
+  <BeginCeremony>为{0_labelShort}开始授勋仪式</BeginCeremony>
+  <!-- EN: {PAWN_definite}'s throneroom does not satisfy the requirements of the title of {TITLE}. -->
+  <BestowingCeremonyThroneroomRequirementsNotSatisfiedShort>{PAWN_definite}的谒见厅不符合{TITLE}头衔的要求。</BestowingCeremonyThroneroomRequirementsNotSatisfiedShort>
   <!-- EN: The bestower is offended that {PAWN_definite}'s throneroom does not satisfy the requirements of the title of {TITLE}. The bestowing ceremony has been cancelled. -->
   <BestowingCeremonyThroneroomRequirementsNotSatisfied>布施者因{PAWN_definite}的谒见厅不符合{TITLE}头衔的要求而气愤，授勋仪式被取消了。</BestowingCeremonyThroneroomRequirementsNotSatisfied>
+  <!-- EN: bestowing ceremony -->
+  <BestowingCeremonyLabel>授勋仪式</BestowingCeremonyLabel>
 
+  <!-- EN: The anima linking ceremony is more powerful with more participants. The more people participate, the less time the ceremony takes, and the more anima grass will grow.\n\nWith {0} additional participants, {1} anima grass will be restored at the end of the ceremony. -->
+  <AnimaLinkingExplanationBase>参与者越多， 仙树连接仪式就越有力量。 参加的人越多， 仪式所需的时间就越短， 生长的灵草就越多。\n\n有了{0}个额外的参与者， {1}株灵草将在仪式结束时恢复。</AnimaLinkingExplanationBase>
   <!-- EN: Not all required cargo is loaded yet! -->
   <ShuttleRequiredItemsNotSatisfied>所需物资还没有全部装载！</ShuttleRequiredItemsNotSatisfied>
 </LanguageData>

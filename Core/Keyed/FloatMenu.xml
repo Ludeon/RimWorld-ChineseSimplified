@@ -13,7 +13,7 @@
   <CannotUseNoPath>无法使用（没有路径）</CannotUseNoPath>
   <!-- EN: Cannot use: Reserved -->
   <CannotUseReserved>无法使用（已被预留）</CannotUseReserved>
-  <!-- EN: Cannot use: full -->
+  <!-- EN: Cannot use: Full -->
   <CannotUseFull>无法使用（已满）</CannotUseFull>
   <!-- EN: leader {1_labelShort} is unavailable -->
   <LeaderUnavailable>首领{1_labelShort}不可用</LeaderUnavailable>
@@ -35,6 +35,8 @@
   <IsIncapableOfViolenceLower>{1_labelShort}无暴力能力</IsIncapableOfViolenceLower>
   <!-- EN: incapable of violence -->
   <IncapableOfViolenceLower>无暴力能力</IncapableOfViolenceLower>
+  <!-- EN: {0_labelShort} is incapable of shooting -->
+  <IsIncapableOfShootingLower>{0_labelShort}无射击能力</IsIncapableOfShootingLower>
   <!-- EN: {1_labelShort} is not drafted -->
   <IsNotDraftedLower>{1_labelShort}尚未被征召</IsNotDraftedLower>
   <!-- EN: cannot order characters you do not control -->
@@ -78,6 +80,8 @@
   <UnderAllowedSkill>技能等级不足所许可的{0}</UnderAllowedSkill>
   <!-- EN: above allowed skill {0} -->
   <AboveAllowedSkill>技能等级超过所许可的{0}</AboveAllowedSkill>
+  <!-- EN: no reachable outside cell -->
+  <NoReachableOutsideCell>没有可达的区域</NoReachableOutsideCell>
   <!-- EN: missing required skill level -->
   <MissingRequiredSkillLevel>缺少所需技能等级</MissingRequiredSkillLevel>
   <!-- EN: animal interacted too recently -->
@@ -96,6 +100,20 @@
   <CantInteractAnimalAsleep>睡眠的动物</CantInteractAnimalAsleep>
   <!-- EN: animal busy -->
   <CantInteractAnimalBusy>忙碌的动物</CantInteractAnimalBusy>
+  <!-- EN: no allowed reachable pens -->
+  <CantRopeAnimalNoUsableReachablePens>没有可达的可用畜棚</CantRopeAnimalNoUsableReachablePens>
+  <!-- EN: no enclosed pens -->
+  <CantRopeAnimalNoEnclosedPens>没有封闭的畜棚</CantRopeAnimalNoEnclosedPens>
+  <!-- EN: no allowed pens -->
+  <CantRopeAnimalNoAllowedPens>没有可用的畜棚</CantRopeAnimalNoAllowedPens>
+  <!-- EN: no reachable pens -->
+  <CantRopeAnimalNoReachablePens>没有可达的畜棚</CantRopeAnimalNoReachablePens>
+  <!-- EN: can't touch -->
+  <CantRopeAnimalCantTouch>不可接触</CantRopeAnimalCantTouch>
+  <!-- EN: no space in pen -->
+  <CantRopeAnimalNoSpace>畜棚已满</CantRopeAnimalNoSpace>
+  <!-- EN: already in best pen -->
+  <CantRopeAnimalAlreadyInBestPen>已经在最佳的畜棚</CantRopeAnimalAlreadyInBestPen>
   <!-- EN: {0} skill too low -->
   <SkillTooLowForConstruction>{0}技能太低</SkillTooLowForConstruction>
   <!-- EN: need components -->
@@ -140,11 +158,13 @@
   <UpgradeImplant>将{0}升级到{1}级</UpgradeImplant>
   <!-- EN: violation of faction ally -->
   <SurgeryViolationFellowFactionMember>对友方派系违规</SurgeryViolationFellowFactionMember>
+  <!-- EN: being carried by {0_labelShort} -->
+  <BeingCarriedBy>被{0_labelShort}携带</BeingCarriedBy>
   
   <!-- EN: Consume {1_labelShort} -->
   <ConsumeThing>享用{1_labelShort}</ConsumeThing>
   
-  <!-- EN: Cannot go here: no path -->
+  <!-- EN: Cannot go here: No path -->
   <CannotGoNoPath>无法到达（没有路径）</CannotGoNoPath>
   <!-- EN: Go here -->
   <GoHere>走到这里</GoHere>
@@ -155,6 +175,8 @@
   <TryToArrest>尝试拘捕{1_label}({2} 成功率)</TryToArrest>
   <!-- EN: Cannot arrest -->
   <CannotArrest>无法拘捕</CannotArrest>
+  <!-- EN: {0} chance of arrest -->
+  <ArrestChance>被捕几率{0}</ArrestChance>
 
   <!-- EN: Capture {1_label} -->
   <Capture>俘虏{1_label}</Capture>
@@ -180,6 +202,8 @@
   <CryptosleepCasketGuestsNotAllowed>不被允许的临时成员。</CryptosleepCasketGuestsNotAllowed>
   <!-- EN: Hosted prisoners not allowed. -->
   <CryptosleepCasketGuestPrisonersNotAllowed>不被允许的囚犯。</CryptosleepCasketGuestPrisonersNotAllowed>
+  <!-- EN: Already occupied -->
+  <CryptosleepCasketOccupied>已被占用</CryptosleepCasketOccupied>
   <!-- EN: No reachable, un-reserved, enclosed prisoner-marked bed in safe temperature. -->
   <NoPrisonerBed>缺少位于安全温度下的、可到达的、未预留的、室内的囚犯专用床铺。</NoPrisonerBed>
   <!-- EN: No reachable, un-reserved non-prisoner bed in safe temperature. -->
@@ -244,6 +268,10 @@
   <PickUpSome>拾取{1_labelShort}…</PickUpSome>
   <!-- EN: Pick up {1_labelShort} x{{0}} -->
   <PickUpCount>拾取{1_labelShort} x{{0}}</PickUpCount>
+  <!-- EN: Cannot pick up {1_labelShort} -->
+  <CannotPickUpSome>无法拾取{1_labelShort}</CannotPickUpSome>
+  <!-- EN: {0} {1} allowed -->
+  <MaxPickUpAllowed>允许 {0}x{1}</MaxPickUpAllowed>
   
   <!-- EN: Cannot load {1_label} onto pack animal -->
   <CannotGiveToPackAnimal>无法将{1_label}交给动物携带</CannotGiveToPackAnimal>
@@ -285,13 +313,22 @@
   <!-- EN: Cannot strip {1_label} -->
   <CannotStrip>无法剥光{1_label}</CannotStrip>
   <!-- EN: Cannot drop {1_label} -->
-  <CannotDrop>无法删除{1_label}</CannotDrop>
+  <CannotDrop>无法丢弃{1_label}</CannotDrop>
+  <!-- EN: Carry {0_label} -->
+  <Carry>携带{0_label}</Carry>
+  <!-- EN: Cannot carry {0_label} -->
+  <CannotCarry>无法携带{0_label}</CannotCarry>
   <!-- EN: temporary faction member -->
   <QuestRelated>临时派系成员</QuestRelated>
   <!-- EN: Cannot change outfits on temporary faction members -->
   <QuestRelated_Outfit>不能改变临时成员的装备</QuestRelated_Outfit>
   <!-- EN: would replace locked apparel -->
   <WouldReplaceLockedApparel>将取代锁定的服装</WouldReplaceLockedApparel>
+
+  <!-- EN: Cannot place {0_label} in {1_label} -->
+  <CannotPlaceIn>无法在{1_label}放置{0_label}</CannotPlaceIn>
+  <!-- EN: Place {0_label} in {1_label} -->
+  <PlaceIn>在{1_label}放置{0_label}</PlaceIn>
 
   <!-- EN: Self-destruct here -->
   <SelfDestructHere>在此自毁</SelfDestructHere>
@@ -342,6 +379,16 @@
   <OpenCryptosleepCasket>打开低温休眠舱</OpenCryptosleepCasket>
   <!-- EN: Get in shuttle -->
   <EnterShuttle>登上穿梭机</EnterShuttle>
+  <!-- EN: Enter biosculpter pod -->
+  <EnterBiosculpterPod>进入生体塑形舱</EnterBiosculpterPod>
+  <!-- EN: Biotuned to someone else. -->
+  <BiosculpterBiotunedToAnother>其他人正在进行生体调谐</BiosculpterBiotunedToAnother>
+  <!-- EN: Carry {PAWN_label} to biosculpter pod ({CYCLE}) -->
+  <CarryToBiosculpterPod>将{PAWN_label}送进生体塑形舱（{CYCLE}）</CarryToBiosculpterPod>
+  <!-- EN: Cannot carry to biosculpter pod -->
+  <CannotCarryToBiosculpterPod>无法送进生体塑形舱</CannotCarryToBiosculpterPod>
+  <!-- EN: No available biosculpter pod. -->
+  <NoBiosculpterPod>没有可用的生体塑形舱</NoBiosculpterPod>
 
   <!-- e.g. Cannot VERB OBJECT, Cannot repair wall, Cannot haul metal, etc. -->
   <!-- EN: Cannot {0} {1} -->
@@ -349,7 +396,7 @@
   <!-- EN: Cannot {0} -->
   <CannotGenericWorkCustom>无法{0}</CannotGenericWorkCustom>
 
-  <!-- EN: Cannot prioritize: incapable of {0} -->
+  <!-- EN: Cannot prioritize: Incapable of {0} -->
   <CannotMissingHealthActivities>无法优先（健康问题: {0}）</CannotMissingHealthActivities>
 
   <!-- e.g. Already GERUND OBJECT, Already repairing wall, already hauling metal, etc -->
@@ -358,27 +405,29 @@
   <!-- EN: Already {0} -->
   <CannotGenericAlreadyAmCustom>已经在{0}</CannotGenericAlreadyAmCustom>
 
-  <!-- EN: Cannot prioritize: will never do {0} -->
+  <!-- EN: Cannot prioritize: Will never do {0} -->
   <CannotPrioritizeWorkTypeDisabled>无法优先（无法从事: {0}）</CannotPrioritizeWorkTypeDisabled>
-  <!-- EN: Cannot trade: lacking necessary title -->
-  <CannotTradeMissingTitleAbility>无法交易:缺乏必要的头衔</CannotTradeMissingTitleAbility>
+  <!-- EN: lacking necessary title -->
+  <MissingTitleAbility>缺少必要的头衔</MissingTitleAbility>
 
-  <!-- EN: Cannot prioritize: will never {0} -->
+  <!-- EN: Cannot prioritize: Will never {0} -->
   <CannotPrioritizeWorkGiverDisabled>无法优先（无法{0}）</CannotPrioritizeWorkGiverDisabled>
   <!-- EN: will never {0} -->
   <WillNever>不会{0}</WillNever>
 
-  <!-- EN: Cannot prioritize: not assigned to {0} -->
+  <!-- EN: Cannot prioritize: Not assigned to {0} -->
   <CannotPrioritizeNotAssignedToWorkType>无法优先（未指派工作: {0}）</CannotPrioritizeNotAssignedToWorkType>
   <!-- EN: not assigned -->
   <NotAssigned>未指派</NotAssigned>
+  <!-- EN: not assigned to {0} -->
+  <NotAssignedToWorkType>未指派{0}</NotAssignedToWorkType>
 
-  <!-- EN: Cannot prioritize: research is a long-term task -->
+  <!-- EN: Cannot prioritize: Research is a long-term task -->
   <CannotPrioritizeResearch>无法优先（研究为长期工作）</CannotPrioritizeResearch>
 
   <!-- EN: Cannot prioritize: {1_label} is forbidden -->
   <CannotPrioritizeForbidden>无法优先（{1_label}已被禁用）</CannotPrioritizeForbidden>
-  <!-- EN: Cannot prioritize: forbidden -->
+  <!-- EN: Cannot prioritize: Forbidden -->
   <CannotPrioritizeCellForbidden>无法优先（禁用）</CannotPrioritizeCellForbidden>
   <!-- EN: Outside allowed area -->
   <CannotPrioritizeForbiddenOutsideAllowedArea>在许可区域之外</CannotPrioritizeForbiddenOutsideAllowedArea>
@@ -430,6 +479,8 @@
   <GiveToCaravan>给予{0}</GiveToCaravan>
   <!-- EN: Give as a gift to {0} ({1}) -->
   <GiveGiftViaTransportPods>给予{0}作为礼物 ({1})</GiveGiftViaTransportPods>
+  <!-- EN: Not part of launch group -->
+  <NotPartOfLaunchGroup>不属于发射组</NotPartOfLaunchGroup>
 
   <!-- Rescue quest -->
   <!-- EN: Free prisoner -->
@@ -442,5 +493,32 @@
 
   <!-- EN: Too dangerous -->
   <EnterCooldownBlocksEntering>过于危险</EnterCooldownBlocksEntering>
+
+  <!-- CommsConsole -->
+  <!-- EN: Nobody to call -->
+  <NoCommsTarget>找不到对象</NoCommsTarget>
+
+  <!-- EN: Invoke {0} -->
+  <Invoke>呼叫{0}</Invoke>
+  <!-- EN: Cannot invoke {0} -->
+  <CannotInvoke>无法呼叫{0}</CannotInvoke>
+  <!-- EN: power -->
+  <Power>电源</Power>
+  <!-- EN: already invoked -->
+  <AlreadyInvoked>已经呼叫</AlreadyInvoked>
+
+  <!-- EN: Tend {0} -->
+  <Tend>照料{0}</Tend>
+  <!-- EN: Cannot tend {0} -->
+  <CannotTend>无法照料{0}</CannotTend>
+  <!-- EN: {0} does not require tending -->
+  <TendingNotRequired>{0}不需要照料</TendingNotRequired>
+  <!-- EN: without medicine -->
+  <WithoutMedicine>没有药品</WithoutMedicine>
+
+  <!-- EN: Repair {0} -->
+  <RepairThing>修理{0}</RepairThing>
+  <!-- EN: Cannot repair {0} -->
+  <CannotRepair>无法修理{0}</CannotRepair>
   
 </LanguageData>

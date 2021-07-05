@@ -94,7 +94,9 @@
   <!-- EN: You'll want to harvest some wood. Designate some trees to be chopped.\n\nSelect the CHOP WOOD designator and designate 10 trees to be chopped down.\n\n(Pro tip: You can drag a box over trees to designate several at once.) -->
   <ChopTrees.text>你需要采集一些木材，规划一些需要砍伐的树木吧\n\n选择「砍伐」命令然后规划10颗需要砍伐的树木\n\n提示：你可以直接框选10棵树而不必一个一个去点</ChopTrees.text>
   
-  <!-- EN: Welcome to RimWorld! This tutorial will teach you how to play the game.\n\nThe first step is to generate a world to play in.\n\nThis page configures how your world should be generated.\n\nThe default settings here are good - go ahead and click GENERATE! -->
+  <!-- EN: Click GENERATE to generate your world. -->
+  <CreateWorldParams.rejectInputMessage>点击「生成世界」以生成你的世界。</CreateWorldParams.rejectInputMessage>
+  <!-- EN: This page configures how your world should be generated.\n\nThe default settings here are good - go ahead and click GENERATE! -->
   <CreateWorldParams.text>欢迎来到边缘世界(Rimworld)！这篇教程将指引你逐步熟悉了解游戏的基本操作。\n\n首先我们需要生成一个游戏世界。\n\n教程所使用的默认设置对新手非常友善，无需调整。请点击「生成世界」！</CreateWorldParams.text>
   
   <!-- EN: Send colonists here\ntouching sandbags for cover -->
@@ -203,7 +205,7 @@
   <UnforbidStartingResources.onMapInstruction>解禁这个</UnforbidStartingResources.onMapInstruction>
   <!-- EN: Please allow your starting items. -->
   <UnforbidStartingResources.rejectInputMessage>请解除物品的禁用状态</UnforbidStartingResources.rejectInputMessage>
-  <!-- EN: Now, to allow your colonists to bring your items to the stockpile, you must remove their "forbidden" designation.\n\n1. Clicking your starting items to select them.\n2. Click the ALLOW toggle button to allow them.\n\n(Pro tip: Double-click an item to select all on screen of the same type.) -->
-  <UnforbidStartingResources.text>殖民者不能对被标记为「禁用」的物品进行操作。\n\n禁用的物品上会有一个红色的小X，选择禁用物品后，在下方的控制栏内可以解禁。\n\n鼠标双击物品可快速同时选中附近同类物品。</UnforbidStartingResources.text>
+  <!-- EN: To allow your colonists to bring your items to the stockpile, you must remove the items' "forbidden" designation.\n\n1. Clicking your starting items to select them.\n2. Click the ALLOW toggle button to allow them.\n\n(Pro tip: Double-click an item to select all on screen of the same type.)\n\nAlternatively, you can:\n1. Click ARCHITECT.\n2. Click ORDERS.\n3. Click ALLOW.\n4. Drag out a shape covering all forbidden items to allow them. -->
+  <UnforbidStartingResources.text>殖民者不能对被标记为「禁用」的物品进行操作。\n\n禁用的物品上会有一个红色的小X，选择禁用物品后，在下方的控制栏内可以解禁。\n\n鼠标双击物品可快速同时选中附近同类物品。\n\n你也可以打开左下角「建筑规划」，展开「命令」栏，点击「解禁」并拖拽将禁用的物品框进去来解除禁用。</UnforbidStartingResources.text>
   
 </LanguageData>

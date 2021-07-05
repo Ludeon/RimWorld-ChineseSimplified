@@ -100,6 +100,10 @@
   <RenameColonist>修改角色昵称</RenameColonist>
   <!-- EN: Renounce title -->
   <RenounceTitle>放弃头衔</RenounceTitle>
+  <!-- EN: Execute -->
+  <Execute>处决</Execute>
+  <!-- EN: Execute guilty colonist\n\nIf you toggle this on, a warden will proceed to execute this person. -->
+  <ExecuteColonist>处决有罪的殖民者\n\n如果你打开这个开关，看守将着手处决这个人。</ExecuteColonist> <!-- text_doto -->
   <!-- EN: {0} of {1} -->
   <TitleOfFaction>{1} 的 {0}</TitleOfFaction>
   <!-- EN: This action will make {PAWN_nameDef} lose {PAWN_possessive} {TITLE} title. You will receive no compensation for renouncing the title.\n\nThis will have the following effects:\n\n{EFFECTS} -->
@@ -126,6 +130,8 @@
   <Fertilized>已受精</Fertilized>
   <!-- EN: Progress stopped until fertilized -->
   <ProgressStoppedUntilFertilized>停止产卵（需要受精）</ProgressStoppedUntilFertilized>
+  <!-- EN: Hatches in -->
+  <HatchesIn>孵化于</HatchesIn>
   <!-- EN: need {0} level {2}, have {1} -->
   <SkillTooLow>至少需要 {2} 级 {0} 技能，当前为 {1} 级</SkillTooLow>
   <!-- EN: Freezing -->
@@ -160,6 +166,8 @@
   <ConfiguredTargetFuelLevel>目标燃料量: {0}</ConfiguredTargetFuelLevel>
   <!-- EN: enemies -->
   <Enemies>敌人</Enemies>
+  <!-- EN: people -->
+  <People>人们</People>
   <!-- EN: time passed -->
   <TimePassed>用时</TimePassed>
   <!-- EN: current radius -->
@@ -258,7 +266,7 @@
   <NoPower>未通电</NoPower>
   <!-- EN: Work speed penalty -->
   <WorkSpeedPenalty>工作速度惩罚</WorkSpeedPenalty>
-  <!-- EN: DISABLED -->
+  <!-- EN: Disabled -->
   <DisabledCommand>禁用</DisabledCommand>
   <!-- EN: Ready for launch. -->
   <ReadyForLaunch>可发射</ReadyForLaunch>
@@ -330,10 +338,16 @@
   <DownedLower>已倒地</DownedLower>
   <!-- EN: resting -->
   <Carried>休息中</Carried>
-  <!-- EN: Avg. person move speed -->
-  <AverageCaravanMemberMoveSpeed>人员平均移动速度</AverageCaravanMemberMoveSpeed>
+  <!-- EN: Rideable animals / people -->
+  <RideableAnimalsPerPeople>可骑乘动物/人</RideableAnimalsPerPeople>
+  <!-- EN: Multiplier from ridden animals -->
+  <MultiplierFromRiddenAnimals>骑乘动物的乘数 </MultiplierFromRiddenAnimals>
   <!-- EN: Multiplier for carried mass: {0} -->
-  <MultiplierForCarriedMass>已搬运质量乘数：{0}</MultiplierForCarriedMass>
+  <MultiplierForCarriedMass>负载乘数：{0}</MultiplierForCarriedMass>
+  <!-- EN: This animal is rideable. People in a caravan will ride the fastest available animals, improving the speed of the caravan as a whole. -->
+  <RideableAnimalTip>这种动物是可以骑乘的。远行队中的人将骑着最快的可用动物，提高整个远行队的速度。</RideableAnimalTip>
+  <!-- EN: This caravan can't move because it carries too much. -->
+  <EncumberedCaravanTilesPerDayTip>这个远行队因为超载而无法移动。</EncumberedCaravanTilesPerDayTip>
   <!-- EN: Caravan members speed -->
   <FinalCaravanPawnsMovementSpeed>远行队成员速度：</FinalCaravanPawnsMovementSpeed>
   <!-- EN: Final speed -->
@@ -424,7 +438,7 @@
   <ViewHyperlink>超链接：{0}</ViewHyperlink>
   <!-- EN: Detonates in {0} days -->
   <DetonationCountdown>在{0}天内触发</DetonationCountdown>
-  <!-- EN: Large explosion if damaged -->
+  <!-- EN: Large fire explosion if damaged -->
   <ExplosionOnDamageWarning>若损坏会发生大爆炸</ExplosionOnDamageWarning>
   <!-- EN: Mech cluster -->
   <MechCluster>机械集群</MechCluster>
@@ -468,10 +482,36 @@
   <DurationLeft>{0}剩余</DurationLeft>
   <!-- EN: Any of -->
   <AnyOf>任意</AnyOf>
+  <!-- EN: Requires {0} trait -->
+  <TraitRequired>需要{0}特性</TraitRequired>
   <!-- EN: Goodwill -->
   <Goodwill>好感度</Goodwill>
+  <!-- EN: Natural goodwill -->
+  <NaturalGoodwill>自然好感度</NaturalGoodwill>
+  <!-- EN: Natural goodwill range -->
+  <NaturalGoodwillRange>自然好感度范围</NaturalGoodwillRange>
+  <!-- EN: Natural goodwill is based on faction identities and beliefs. If current goodwill is far from natural goodwill, it will slowly shift towards natural goodwill over time.\n\nAll goodwill effects are multiplied by {0} when moving towards natural goodwill. -->
+  <NaturalGoodwillDescription>自然好感度是基于派系身份和信仰。如果当前的好感度与自然好感度相差甚远，那么随着时间的推移，它将慢慢向自然好感度转变。\n\n在向自然好感度转变时，所有的好感度效果都会乘以{0}。</NaturalGoodwillDescription>
   <!-- EN: reducing resistance of {0_nameIndef} -->
   <JobReport_ReduceResistance>减少{0_nameIndef}的抵抗</JobReport_ReduceResistance>
+  <!-- EN: Too large -->
+  <TooLargeForBed>太大了</TooLargeForBed>
+  <!-- EN: Warning -->
+  <Warning>警告</Warning>
+  <!-- EN: Has subquest -->
+  <HasSubquest>有子任务</HasSubquest>
+  <!-- EN: Subquest of -->
+  <SubquestOf>子任务</SubquestOf>
+  <!-- EN: Raid -->
+  <Raid>袭击</Raid>
+  <!-- EN: Disabled by -->
+  <ApparelRequirementDisabledLabel>被禁用</ApparelRequirementDisabledLabel>
+  <!-- EN: Nudism -->
+  <Nudism>裸体主义</Nudism>
+  <!-- EN: Study progress -->
+  <StudyProgress>研究进度</StudyProgress>
+  <!-- EN: completed -->
+  <StudyCompleted>完成</StudyCompleted>
 
   <!-- Scanning -->
   <!-- EN: User scanning speed -->
@@ -490,6 +530,8 @@
   <ContainsWort>装有麦芽汁: {0} / {1}</ContainsWort>
   <!-- EN: Contains {0} / {1} beer. -->
   <ContainsBeer>装有啤酒: {0} / {1}</ContainsBeer>
+  <!-- EN: Contains -->
+  <Contains>包含</Contains>
   <!-- EN: Fermented -->
   <Fermented>发酵完成</Fermented>
   <!-- EN: Progress: {0} ({1} left) -->
@@ -516,8 +558,8 @@
   <TextMote_ResistanceReduced>抵抗\n{0}到{1}</TextMote_ResistanceReduced>
   <!-- EN: Tame failed\n{0} chance -->
   <TextMote_TameFail>驯服失败\n{0}几率</TextMote_TameFail>
-  <!-- EN: Tamed!\n{0} chance -->
-  <TextMote_TameSuccess>驯服成功！\n{0}几率</TextMote_TameSuccess>
+  <!-- EN: Tamed! -->
+  <TextMote_TameSuccess>驯服成功！</TextMote_TameSuccess>
   <!-- EN: Failed training: {0}\n{1} chance -->
   <TextMote_TrainFail>训练失败: {0}\n{1}几率</TextMote_TrainFail>
   <!-- EN: Trained: {0}\n{1} chance -->
@@ -557,6 +599,43 @@
   <!-- EN: Invert -->
   <InvertArea>反向选择</InvertArea>
 
+  <!-- Animal pens -->
+  <!-- EN: Unenclosed -->
+  <PenUnenclosedLabel>未封闭</PenUnenclosedLabel>
+  <!-- EN: open door -->
+  <PenOpenDoorLabel>敞开大门</PenOpenDoorLabel>
+  <!-- EN: Rename pen -->
+  <RenameAnimalPen>重命名畜栏</RenameAnimalPen>
+  <!-- EN: Pen marker {0} -->
+  <AnimalPenMarkerDefaultLabel>畜栏标记{0}</AnimalPenMarkerDefaultLabel>
+  <!-- EN: In pen -->
+  <InPen>在畜栏内</InPen>
+  <!-- EN: not in a pen -->
+  <Unpenned>不在畜栏内</Unpenned>
+  <!-- EN: Animal pens can be created by building a pen marker inside an enclosed area. Your handlers will bring animals to an appropriate pen. Pens can be enclosed with fences, barricades, walls, and doors. -->
+  <UnpennedTooltip>可以通过在一个封闭的区域内建立一个畜栏标记来创建畜栏。你的饲养员会把动物带到一个合适的畜栏。畜栏可以用栅栏、路障、墙壁和门围起来。</UnpennedTooltip>
+  <!-- EN: Roped by -->
+  <RopedByPawn>牵引于</RopedByPawn>
+  <!-- EN: Roped to -->
+  <RopedToThing>牵引至</RopedToThing>
+  <!-- EN: Roped to spot. -->
+  <RopedToSpot>牵引至区域</RopedToSpot>
+  <!-- EN: Pen size -->
+  <PenSizeLabel>畜栏尺寸</PenSizeLabel>
+  <!-- EN: Very small pen -->
+  <PenSizeDesc_VerySmall>非常小</PenSizeDesc_VerySmall>
+  <!-- EN: Small pen -->
+  <PenSizeDesc_Small>小畜栏</PenSizeDesc_Small>
+  <!-- EN: Medium-sized pen -->
+  <PenSizeDesc_Medium>中等畜栏</PenSizeDesc_Medium>
+  <!-- EN: Large pen -->
+  <PenSizeDesc_Large>大畜栏</PenSizeDesc_Large>
+  <!-- EN: Not enclosed - build fences -->
+  <PenSizeDesc_Unenclosed>未封闭——建造栅栏</PenSizeDesc_Unenclosed>
+  <!-- EN: {ANIMALDEF_label} capacity -->
+  <PenCapacityDesc>{ANIMALDEF_label}容量</PenCapacityDesc>
+
+
   <!-- Control -->
   <!-- EN: Cannot order characters you do not control. -->
   <CannotOrderNonControlled>无法命令不由你操控的角色。</CannotOrderNonControlled>
@@ -566,6 +645,8 @@
   <IsIncapableOfViolenceShort>无暴力能力</IsIncapableOfViolenceShort>
   <!-- EN: {1_labelShort} is not drafted. -->
   <IsNotDrafted>{1_labelShort}尚未被征召。</IsNotDrafted>
+  <!-- EN: {PAWN_nameDef} cannot use ranged weapons due to {PAWN_possessive} {APPAREL_label}. -->
+  <ApparelPreventsShooting>{PAWN_nameDef}由于{PAWN_possessive}{APPAREL_label}不能使用远程武器。</ApparelPreventsShooting>
 
   <!-- Snow -->
   <!-- EN: No snow -->
@@ -608,6 +689,8 @@
   <ReportSleeping>睡眠中。</ReportSleeping>
   <!-- EN: resting. -->
   <ReportResting>休息中。</ReportResting>
+  <!-- EN: laying down. -->
+  <ReportLayingDown>躺下。</ReportLayingDown>
   <!-- EN: watching the sunrise. -->
   <WatchingSunrise>看日出。</WatchingSunrise>
   <!-- EN: cloudwatching. -->
@@ -691,7 +774,7 @@
   <!-- EN: teetotaler will be unhappy -->
   <TeetotalerUnhappy>成瘾品厌恶者会变得不开心</TeetotalerUnhappy>
   <!-- EN: body purist will be unhappy -->
-  <ProsthophobeUnhappy>身体纯粹主义者会变得不开心</ProsthophobeUnhappy>
+  <ProsthophobeUnhappy>自然派会变得不开心</ProsthophobeUnhappy>
 
   <!-- Thoughts -->
   <!-- EN: Expires in: {0} -->
@@ -756,8 +839,8 @@
   <StunLower>击昏</StunLower>
 
   <!-- Inspector general stuff -->
-  <!-- EN: Select next thing in same square.\n\nShortcut key: {0}\n\nYou can also do this by slowly clicking the same square again. -->
-  <SelectNextInSquareTip>选择当前单元格内的下一件东西。\n\n快捷键: {0}\n\n你也可用鼠标左键慢速重复点击同个单元格来选择下一件物品。</SelectNextInSquareTip>
+  <!-- EN: Select next thing in same square.\n\n(*SectionTitle)Shortcut key:(/SectionTitle) {0}\n\nYou can also do this by slowly clicking the same square again. -->
+  <SelectNextInSquareTip>选择当前单元格内的下一件东西。\n\n(*SectionTitle)快捷键: (/SectionTitle){0}\n\n你也可用鼠标左键慢速重复点击同个单元格来选择下一件物品。</SelectNextInSquareTip>
   <!-- EN: View information. -->
   <DefInfoTip>查看信息。</DefInfoTip>
 
@@ -834,6 +917,8 @@
   <!-- Meal -->
   <!-- EN: Ingredients -->
   <Ingredients>原料</Ingredients>
+  <!-- EN: only stacks with similar meals -->
+  <OnlyStacksWithCompatibleMeals>只能与类似的食物堆叠</OnlyStacksWithCompatibleMeals>
 
   <!-- Plants -->
   <!-- EN: {0} grown -->
@@ -868,6 +953,12 @@
   <Blighted>已枯萎</Blighted>
   <!-- EN: Dying because exposed to light -->
   <DyingBecauseExposedToLight>由于暴露在光照中即将死亡。</DyingBecauseExposedToLight>
+  <!-- EN: Cut now -->
+  <AutoCutNow>现在割除</AutoCutNow>
+  <!-- EN: harvesting -->
+  <HarvestGerund>收割</HarvestGerund>
+  <!-- EN: cutting -->
+  <CutGerund>割除</CutGerund>
 
   <!-- Zones -->
   <!-- EN: Zone -->
@@ -964,6 +1055,8 @@
   <WillGetWorkSpeedPenalty>{0}将有工作速度惩罚</WillGetWorkSpeedPenalty>
   <!-- EN: Cannot be placed under a roof. -->
   <MustPlaceUnroofed>无法放置于屋顶下。</MustPlaceUnroofed>
+  <!-- EN: Must be placed under thick roof. -->
+  <MustPlaceUnderThickRoof>必须放置在厚岩顶下。</MustPlaceUnderThickRoof>
   <!-- EN: Must place with head attached to ship structural beam. -->
   <MustPlaceHeadOnShipBeam>必须放置于飞船结构梁两端。</MustPlaceHeadOnShipBeam>
   <!-- EN: Must be placed next to something that needs a hopper. -->
@@ -982,6 +1075,8 @@
   <MustPlaceOnDrillable>必须放在能钻取的资源上。</MustPlaceOnDrillable>
   <!-- EN: Cannot be placed next to traps. -->
   <CannotPlaceAdjacentTrap>不能放在陷阱周围</CannotPlaceAdjacentTrap>
+  <!-- EN: Cannot be placed next to another building of the same type. -->
+  <CannotPlaceAdjacentSameDef>不能放在另一个同类型的建筑旁边。</CannotPlaceAdjacentSameDef>
 
   <!-- Wind Turbine -->
   <!-- EN: Blocked by -->
@@ -998,6 +1093,36 @@
   <CasketContains>装有</CasketContains>
   <!-- EN: Warning!\n\n{PAWN_nameDef} is your last free-standing colonist! If you let {PAWN_objective} step into that casket, you may not be able to continue playing. Are you sure you want to proceed? -->
   <CasketWarning>警告！\n\n{PAWN_nameDef}是你的最后一名可自由行动的殖民者！如果{PAWN_objective}进入低温休眠舱，你将无法继续进行游戏。你确定要这样做吗？</CasketWarning>
+
+  <!-- Bioscuplter pod -->
+  <!-- EN: Cycle -->
+  <BiosculpterPodCycleLabel>周期</BiosculpterPodCycleLabel>
+  <!-- EN: loading nutrition -->
+  <BiosculpterPodCycleLabelLoading>加载营养值</BiosculpterPodCycleLabelLoading>
+  <!-- EN: ready -->
+  <BiosculpterPodCycleLabelReady>就绪</BiosculpterPodCycleLabelReady>
+  <!-- EN: Prepare {0} cycle -->
+  <BiosculpterPodCycleCommand>准备{0}周期</BiosculpterPodCycleCommand>
+  <!-- EN: Ends in -->
+  <BiosculpterCycleTimeRemaining>结束于</BiosculpterCycleTimeRemaining>
+  <!-- EN: Biotuned to -->
+  <BiosculpterBiotunedTo>调谐</BiosculpterBiotunedTo>
+  <!-- EN: Interrupt cycle -->
+  <BiosculpterInteruptCycle>中断周期</BiosculpterInteruptCycle>
+  <!-- EN: Interrupt the current cycle. The occupant will be ejected without benefiting from the effects of the cycle, and will suffer from short-term biosculpter sickness. -->
+  <BiosculpterInteruptCycleDesc>中断当前的周期。居住者将被弹出，而不能从周期的效果中获益，并将遭受短期的生体塑形舱病症。</BiosculpterInteruptCycleDesc>
+  <!-- EN: Once the biosculpter pod is filled with {NUTRITION} nutrition, select a colonist and right-click on the biosculpter pod or a downed person to start the cycle. -->
+  <BiosculpterLoadingStartedMessage>当生物雕塑舱装满{NUTRITION}营养，选择一个殖民者，右键点击生物雕塑舱或倒下的人，开始周期。</BiosculpterLoadingStartedMessage>
+  <!-- EN: {PAWN_labelShort} was ejected from a biosculpter pod due to lack of power. -->
+  <BiosculpterNoPowerEjectedMessage>{PAWN_labelShort}由于能源不足，被弹出了一个生体塑形舱。</BiosculpterNoPowerEjectedMessage>
+  <!-- EN: {PAWN_labelShort} completed healing cycle. -->
+  <BiosculpterHealCompletedMessage>{PAWN_labelShort}完成了治疗周期。</BiosculpterHealCompletedMessage>
+  <!-- EN: {PAWN_labelShort} completed healing cycle, and their {HEDIFF_label} was cured. -->
+  <BiosculpterHealCompletedWithCureMessage>{PAWN_labelShort}完成了治疗周期，他们的{HEDIFF_label}被治愈了。</BiosculpterHealCompletedWithCureMessage>
+  <!-- EN: {PAWN_labelShort} completed {PAWN_possessive} age reversal cycle. {PAWN_pronoun} expects the next age reversal in {DEADLINE} days. -->
+  <BiosculpterAgeReversalCompletedMessage>{PAWN_labelShort}完成了{PAWN_possessive}年龄逆转周期。{PAWN_pronoun}期望在{DEADLINE}天内进行下一次年龄逆转。</BiosculpterAgeReversalCompletedMessage>
+  <!-- EN: {PAWN_labelShort} completed pleasure cycle. -->
+  <BiosculpterPleasureCompletedMessage>{PAWN_labelShort}完成了愉悦周期。</BiosculpterPleasureCompletedMessage>
 
   <!-- Ship launch report -->
   <!-- EN: Cannot launch. -->
@@ -1054,6 +1179,8 @@
   <!-- Quality -->
   <!-- EN: Quality -->
   <Quality>品质</Quality>
+  <!-- EN: quality -->
+  <quality>品质</quality>
   <!-- EN: An item's quality is how well-made it is. -->
   <QualityDescription>该物品的制作精良程度。</QualityDescription>
   <!-- EN: Quality: {0} -->
@@ -1102,6 +1229,10 @@
   <!-- Facilities -->
   <!-- EN: inactive -->
   <InactiveFacility>闲置</InactiveFacility>
+  <!-- EN: Links to -->
+  <FacilityPotentiallyLinkedTo>链接至</FacilityPotentiallyLinkedTo>
+  <!-- EN: Not linked to a building -->
+  <FacilityNoPotentialLinks>未链接</FacilityNoPotentialLinks>
 
   <!-- Hediffs growth modes -->
   <!-- EN: {PAWN_labelShort}'s {1} is now growing. -->
@@ -1344,5 +1475,164 @@
   <!-- Hediff misc -->
   <!-- EN: Caused by: {0} -->
   <CausedByHediff>由于：{0}</CausedByHediff>
+  
+  <!-- Healing -->
+  <!-- EN: {0_nameDef}'s {1} was cured. -->
+  <HealingCureHediff>{0_nameDef}的{1}被治愈了。</HealingCureHediff>
+  <!-- EN: {0_nameDef}'s {1} was restored. -->
+  <HealingRestoreBodyPart>{0_nameDef}的{1}被恢复了。</HealingRestoreBodyPart>
+
+  <!-- EN: Caution: Placing a building here will anger {FACTION_name}! -->
+  <WarningBuildingCausesHostility>注意：在这里放置一个建筑物会激怒{FACTION_name}!</WarningBuildingCausesHostility>
+
+  <!-- EN: Choose landing site -->
+  <ChooseLandingSite>选择着陆点</ChooseLandingSite>
+  
+  <!-- Rituals -->
+  <!-- EN: ritual -->
+  <Ritual>仪式</Ritual>
+
+  <!-- EN: Any {0} -->
+  <RitualTargetThingDefsInfo>任意{0}</RitualTargetThingDefsInfo>
+  <!-- EN: Attending -->
+  <LordReportAttending>出席</LordReportAttending>
+  <!-- EN: {0} has been canceled. -->
+  <RitualCalledOff>{0}已经被取消了。</RitualCalledOff>
+  <!-- EN: {0} was not completed because of lack of attendance. -->
+  <RitualNobodyAttended>{0}因为出席不足而未完成。</RitualNobodyAttended>
+  <!-- EN: {0} has been completed. -->
+  <RitualFinished>{0}已经完成了。</RitualFinished>
+  <!-- EN: ends in {0} -->
+  <RitualEndsIn>结束于{0}</RitualEndsIn>
+  <!-- EN: Organizers -->
+  <Organizers>组织者</Organizers>
+  <!-- EN: Quality factors -->
+  <QualityFactors>品质乘数</QualityFactors>
+  <!-- EN: This condition may be fulfilled, depending on how things play out.\n\nIf it is fulfilled, the quality bonus will apply. -->
+  <QualityFactorTooltipUncertain>这个条件可能会被满足，这取决于事情的发展情况。\n\n如果它被满足，品质奖励将适用。</QualityFactorTooltipUncertain>
+  <!-- EN: This condition is not fulfilled.\n\nThe quality bonus will not apply. -->
+  <QualityFactorTooltipNotFulfilled>这个条件没有得到满足。\n\n品质奖励没有适用。</QualityFactorTooltipNotFulfilled>
+  <!-- EN: Spectators -->
+  <Spectators>观众</Spectators>
+  <!-- EN: Not participating -->
+  <NotParticipating>没有观众</NotParticipating>
+  <!-- EN: Drag and drop or left/right click to move people. -->
+  <DragPawnsToRolesInfo>拖放或左/右点击来移动人。</DragPawnsToRolesInfo>
+  <!-- EN: A slave. The human property of others. -->
+  <RitualBeginSlaveDesc>一个奴隶。别人的人类财产。</RitualBeginSlaveDesc>
+  <!-- EN: {0_labelShort} is sleeping. If included in the ritual, {0_pronoun} will wake up to participate. -->
+  <RitualBeginSleepingDesc>{0_labelShort}正在睡觉。如果被包括在仪式中，{0_pronoun}将醒来参与仪式。</RitualBeginSleepingDesc>
+  <!-- EN: Some of the selected participants are sleeping. They will wake up once you start the ritual. -->
+  <RitualBeginSleepingWarning>一些被选中的参与者正在睡觉。一旦你开始仪式，他们就会醒过来。</RitualBeginSleepingWarning>
+  <!-- EN: This position is best done by a colonist holding the social role of {0}.\n\nIf someone without this role fills this position, you won't get the following bonus(es) -->
+  <RitualRoleRequiresSocialRole>这个职位最好由持有{0}社会角色的殖民者完成。\n\n如果没有这个角色的人担任这个职位，你将不会得到以下奖励</RitualRoleRequiresSocialRole>
+  <!-- EN: No substitute available for the role of {0}. -->
+  <RitualRoleCantSubstitute>没有可以替代{0}的角色。</RitualRoleCantSubstitute>
+  <!-- EN: {0} progress -->
+  <RitualOutcomeProgress>进度{0}</RitualOutcomeProgress>
+  <!-- EN: {0} quality depends on -->
+  <RitualOutcomeQualityAbstract>{0}品质取决于</RitualOutcomeQualityAbstract>
+  <!-- EN: {0} total quality was {1}, determined by these factors -->
+  <RitualOutcomeQualitySpecific>{0}总体品质为{1}，由这些因素决定</RitualOutcomeQualitySpecific>
+  <!-- EN: Outcome chances at {0} quality -->
+  <RitualOutcomeChances>在{0}品质下的结果几率</RitualOutcomeChances>
+  <!-- EN: Performed recently -->
+  <RitualOutcomePerformedRecently>最近进行的</RitualOutcomePerformedRecently>
+  <!-- EN: {0} expectations -->
+  <RitualQualityExpectations>{0}期望</RitualQualityExpectations>
+  <!-- EN: Ritual ambience sound -->
+  <RitualAmbienceSound>仪式氛围音</RitualAmbienceSound>
+  <!-- EN: Total {0} quality is below {1}. Proceeding will most likely negatively impact your colony.\n\nAre you sure? -->
+  <RitualQualityLowWarning>总的{0}质量低于{1}。继续下去很可能会对你的殖民地产生负面影响。\n\n你确定？</RitualQualityLowWarning>
+  <!-- EN: No reachable appropriate place to speak. -->
+  <AbilitySpeechDisabledNoSpot>没有适当的可到达位置来交谈。</AbilitySpeechDisabledNoSpot>
+  <!-- EN: {0_labelShort} is incapable of talking. -->
+  <AbilitySpeechDisabledCantSpeak>{0_labelShort}没有语言能力。</AbilitySpeechDisabledCantSpeak>
+  <!-- EN: Additional reward -->
+  <RitualAttachedReward>额外奖励</RitualAttachedReward>
+  <!-- EN: Choose -->
+  <RitualAttachedRewardChoose>选择</RitualAttachedRewardChoose>
+  <!-- EN: Can't use {0} with {1}. -->
+  <RitualAttachedRewardCantUseWithRitual>不能与{1}使用{0}。</RitualAttachedRewardCantUseWithRitual>
+  <!-- EN: Requires any of memes -->
+  <RitualAttachedRewardRequiredMemeAny>需要任意模因</RitualAttachedRewardRequiredMemeAny>
+  <!-- EN: Requires {0} faction -->
+  <RitualAttachedRewardRequiredFaction>需要{0}派系</RitualAttachedRewardRequiredFaction>
+  <!-- EN: positive -->
+  <RitualAttachedOutcomes_Positive>积极的</RitualAttachedOutcomes_Positive>
+  <!-- EN: negative -->
+  <RitualAttachedOutcomes_Negative>消极的</RitualAttachedOutcomes_Negative>
+  <!-- EN: If the {0} is {1} -->
+  <RitualAttachedOutcomesInfo>如果{0}是{1}</RitualAttachedOutcomesInfo>
+  <!-- EN: Any outcome -->
+  <RitualAttachedAllOutcomes>任何结果</RitualAttachedAllOutcomes>
+  <!-- EN: Upon any {0} outcome -->
+  <RitualAttachedApplliesForOutcome>在任何结果上</RitualAttachedApplliesForOutcome>
+  <!-- EN: Upon any {0} outcome -->
+  <RitualAttachedApplliesForOutcomes>在任何结果上</RitualAttachedApplliesForOutcomes>
+  <!-- EN: The commotion from the {0} has attracted some curious animals!\n\nThey seem accustomed to human contact and are joining the colony. -->
+  <RitualAttachedOutcome_FarmAnimalsWanderIn_Desc>来自{0}的骚动吸引了一些好奇的动物！\n\n它们似乎已经习惯了与人类的接触，并且正在加入这个殖民地。</RitualAttachedOutcome_FarmAnimalsWanderIn_Desc>
+  <!-- EN: The {0} has induced a Gauranlen pod to sprout nearby. -->
+  <RitualAttachedOutcome_GauranlenTreePod_ExtraDesc>这枚{0}诱导了一个Gauranlen豆荚在附近发芽。</RitualAttachedOutcome_GauranlenTreePod_ExtraDesc>
+  <!-- EN: Can't apply reward -->
+  <RitualAttachedOutcomeCantApply>无法应用奖励</RitualAttachedOutcomeCantApply>
+  <!-- EN: No valid spot -->
+  <RitualAttachedOutcomeCantApply_NoValidSpot>没有有效位置</RitualAttachedOutcomeCantApply_NoValidSpot>
+  <!-- EN: Extreme biome -->
+  <RitualAttachedOutcomeCantApply_ExtremeBiome>极端生物群落</RitualAttachedOutcomeCantApply_ExtremeBiome>
+  
+  <!-- EN: Choose who should participate in {RITUAL_labelDef}. -->
+  <ChooseParticipants>选择谁应该参加{RITUAL_labelDef}。</ChooseParticipants>
+  <!-- EN: Begin -->
+  <Begin>开始</Begin>
+  <!-- EN: Begin {0} -->
+  <BeginRitual>开始{0}</BeginRitual>
+  <!-- EN: Begin {0} for {1} -->
+  <BeginRitualFor>为{1}开始{0}</BeginRitualFor>
+  <!-- EN: {0} (out of {1}) -->
+  <QualityOutOf>{0}（从{1}选出）</QualityOutOf>
+  <!-- EN: {0} is a date-specific ritual. You'll be able to start it in {1}, on the {2}. -->
+  <DateRitualNoObligation>{0}是一个特定日期的仪式。你就可以在{1}内开始，于{2}。</DateRitualNoObligation>
+
+  <!-- EN: Replace with -->
+  <PreceptReplaceWith>替换为</PreceptReplaceWith>
+  <!-- EN: Ritual seat of {IDEOS} -->
+  <RitualSeatOf>{IDEOS}的仪式席位</RitualSeatOf>
+  <!-- EN: Expected quality -->
+  <ExpectedRitualQuality>预期品质</ExpectedRitualQuality>
+  <!-- EN: Starting quality -->
+  <StartingQuality>起始品质</StartingQuality>
+  <!-- EN: Expected duration -->
+  <ExpectedRitualDuration>预计持续</ExpectedRitualDuration>
+  
+  <!-- EN: {PAWN_labelShort}'s {1} -->
+  <RitualPredictedOutcomeDescPawnStat>{PAWN_labelShort}的{1}</RitualPredictedOutcomeDescPawnStat>
+  <!-- EN: Room beauty -->
+  <RitualPredictedOutcomeDescRoomBeauty>房间美观</RitualPredictedOutcomeDescRoomBeauty>
+  <!-- EN: Participants -->
+  <RitualPredictedOutcomeDescParticipantCount>参与者</RitualPredictedOutcomeDescParticipantCount>
+  <!-- EN: {PAWN_labelShort}'s expectations -->
+  <RitualPredictedOutcomeDescPawnExpectations>{PAWN_labelShort}的预期</RitualPredictedOutcomeDescPawnExpectations>
+
+  <!-- EN: Any of these -->
+  <RitualOutcomeLabelAnyOfThese>任何这些</RitualOutcomeLabelAnyOfThese>
+  <!-- EN: Replaces {PAWN_labelShort} -->
+  <RitualRoleReplaces>取代{PAWN_labelShort}</RitualRoleReplaces>
+
+  <!-- EN: present -->
+  <Present>目前</Present>
+  <!-- EN: {0} used -->
+  <Used>{0}已使用</Used>
+  <!-- EN: {0} starting quality -->
+  <StartingRitualQuality>{0}起始品质</StartingRitualQuality>
+
+  <!-- EN: up to {0} quality -->
+  <OutcomeBonusDesc_Quality>达到{0}品质</OutcomeBonusDesc_Quality>
+  <!-- EN: {0} quality -->
+  <OutcomeBonusDesc_QualitySingleOffset>{0}品质</OutcomeBonusDesc_QualitySingleOffset>
+  <!-- EN: {OUTCOMELABEL} {RITUALLABEL} -->
+  <OutcomeLetterLabel>{OUTCOMELABEL} {RITUALLABEL}</OutcomeLetterLabel>
+  <!-- EN: {0} max -->
+  <MaxValue>{0}最高</MaxValue>
   
 </LanguageData>

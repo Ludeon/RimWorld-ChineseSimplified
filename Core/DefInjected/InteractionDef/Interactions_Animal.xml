@@ -99,6 +99,35 @@
   <!-- EN: rubbedpart->arm -->
   <Nuzzle.logRulesInitiator.rulesStrings.23>rubbedpart->手臂</Nuzzle.logRulesInitiator.rulesStrings.23>
   
+  <!-- EN: release to the wild -->
+  <ReleaseToWild.label>放生</ReleaseToWild.label>
+  <!-- EN:
+    <li>r_logentry->[farewell] [released]</li>
+    <li>farewell->[INITIATOR_nameDef] gently pet [RECIPIENT_nameDef] one last time</li>
+    <li>farewell->[INITIATOR_nameDef] said some warm words to [RECIPIENT_nameDef]</li>
+    <li>farewell->[INITIATOR_nameDef] removed [RECIPIENT_nameDef]'s collar</li>
+    <li>farewell->[INITIATOR_nameDef] reminisced about the good time [INITIATOR_objective] had with [RECIPIENT_nameDef]</li>
+    <li>released->and released [RECIPIENT_objective] to the wild.</li>
+    <li>released->and set [RECIPIENT_objective] free.</li>
+    <li>released->and sent [RECIPIENT_objective] off.</li>
+    <li>released->and let [RECIPIENT_objective] go.</li>
+    <li>released->then turned away and let [RECIPIENT_objective] leave the colony.</li>
+    <li>released->before letting [RECIPIENT_objective] go to live in freedom.</li>
+  -->
+  <ReleaseToWild.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[farewell] [released]</li>
+    <li>farewell->[INITIATOR_nameDef] 最后一次轻轻抚摸 [RECIPIENT_nameDef]</li>
+    <li>farewell->[INITIATOR_nameDef] 对 [RECIPIENT_nameDef] 悄悄说了些话</li>
+    <li>farewell->[INITIATOR_nameDef] 取下了 [RECIPIENT_nameDef] 的项圈</li>
+    <li>farewell->[INITIATOR_nameDef] 回忆着 [INITIATOR_objective] 和 [RECIPIENT_nameDef] 度过的美好时光</li>
+    <li>released->并将 [RECIPIENT_objective] 放回野外。</li>
+    <li>released->并给了 [RECIPIENT_objective] 自由。</li>
+    <li>released->并将 [RECIPIENT_objective] 送走了。</li>
+    <li>released->并让 [RECIPIENT_objective] 离开。</li>
+    <li>released->然后转过身去让 [RECIPIENT_objective] 离开了殖民地。</li>
+    <li>released->并让 [RECIPIENT_objective] 自己去寻找自由的生活。</li>
+  </ReleaseToWild.logRulesInitiator.rulesStrings>
+  
   <!-- EN: tame attempt -->
   <TameAttempt.label>尝试驯服</TameAttempt.label>
   <!-- EN: r_logentry->[INITIATOR_nameDef] tried to tame [RECIPIENT_nameDef]. -->
