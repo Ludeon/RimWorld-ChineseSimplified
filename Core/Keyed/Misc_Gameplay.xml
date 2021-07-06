@@ -1094,36 +1094,6 @@
   <!-- EN: Warning!\n\n{PAWN_nameDef} is your last free-standing colonist! If you let {PAWN_objective} step into that casket, you may not be able to continue playing. Are you sure you want to proceed? -->
   <CasketWarning>警告！\n\n{PAWN_nameDef}是你的最后一名可自由行动的殖民者！如果{PAWN_objective}进入低温休眠舱，你将无法继续进行游戏。你确定要这样做吗？</CasketWarning>
 
-  <!-- Bioscuplter pod -->
-  <!-- EN: Cycle -->
-  <BiosculpterPodCycleLabel>周期</BiosculpterPodCycleLabel>
-  <!-- EN: loading nutrition -->
-  <BiosculpterPodCycleLabelLoading>加载营养值</BiosculpterPodCycleLabelLoading>
-  <!-- EN: ready -->
-  <BiosculpterPodCycleLabelReady>就绪</BiosculpterPodCycleLabelReady>
-  <!-- EN: Prepare {0} cycle -->
-  <BiosculpterPodCycleCommand>准备{0}周期</BiosculpterPodCycleCommand>
-  <!-- EN: Ends in -->
-  <BiosculpterCycleTimeRemaining>结束于</BiosculpterCycleTimeRemaining>
-  <!-- EN: Biotuned to -->
-  <BiosculpterBiotunedTo>调谐</BiosculpterBiotunedTo>
-  <!-- EN: Interrupt cycle -->
-  <BiosculpterInteruptCycle>中断周期</BiosculpterInteruptCycle>
-  <!-- EN: Interrupt the current cycle. The occupant will be ejected without benefiting from the effects of the cycle, and will suffer from short-term biosculpter sickness. -->
-  <BiosculpterInteruptCycleDesc>中断当前的周期。居住者将被弹出，而不能从周期的效果中获益，并将遭受短期的生体塑形舱病症。</BiosculpterInteruptCycleDesc>
-  <!-- EN: Once the biosculpter pod is filled with {NUTRITION} nutrition, select a colonist and right-click on the biosculpter pod or a downed person to start the cycle. -->
-  <BiosculpterLoadingStartedMessage>当生物雕塑舱装满{NUTRITION}营养，选择一个殖民者，右键点击生物雕塑舱或倒下的人，开始周期。</BiosculpterLoadingStartedMessage>
-  <!-- EN: {PAWN_labelShort} was ejected from a biosculpter pod due to lack of power. -->
-  <BiosculpterNoPowerEjectedMessage>{PAWN_labelShort}由于能源不足，被弹出了一个生体塑形舱。</BiosculpterNoPowerEjectedMessage>
-  <!-- EN: {PAWN_labelShort} completed healing cycle. -->
-  <BiosculpterHealCompletedMessage>{PAWN_labelShort}完成了治疗周期。</BiosculpterHealCompletedMessage>
-  <!-- EN: {PAWN_labelShort} completed healing cycle, and their {HEDIFF_label} was cured. -->
-  <BiosculpterHealCompletedWithCureMessage>{PAWN_labelShort}完成了治疗周期，他们的{HEDIFF_label}被治愈了。</BiosculpterHealCompletedWithCureMessage>
-  <!-- EN: {PAWN_labelShort} completed {PAWN_possessive} age reversal cycle. {PAWN_pronoun} expects the next age reversal in {DEADLINE} days. -->
-  <BiosculpterAgeReversalCompletedMessage>{PAWN_labelShort}完成了{PAWN_possessive}年龄逆转周期。{PAWN_pronoun}期望在{DEADLINE}天内进行下一次年龄逆转。</BiosculpterAgeReversalCompletedMessage>
-  <!-- EN: {PAWN_labelShort} completed pleasure cycle. -->
-  <BiosculpterPleasureCompletedMessage>{PAWN_labelShort}完成了愉悦周期。</BiosculpterPleasureCompletedMessage>
-
   <!-- Ship launch report -->
   <!-- EN: Cannot launch. -->
   <ShipReportCannotLaunch>无法发射。</ShipReportCannotLaunch>
@@ -1635,4 +1605,20 @@
   <!-- EN: {0} max -->
   <MaxValue>{0}最高</MaxValue>
   
+  <!-- UNUSED -->
+  <BiosculpterPodCycleLabel>周期</BiosculpterPodCycleLabel>
+  <BiosculpterPodCycleLabelLoading>加载营养值</BiosculpterPodCycleLabelLoading>
+  <BiosculpterPodCycleLabelReady>就绪</BiosculpterPodCycleLabelReady>
+  <BiosculpterPodCycleCommand>准备{0}周期</BiosculpterPodCycleCommand>
+  <BiosculpterCycleTimeRemaining>结束于</BiosculpterCycleTimeRemaining>
+  <BiosculpterBiotunedTo>调谐</BiosculpterBiotunedTo>
+  <BiosculpterInteruptCycle>中断周期</BiosculpterInteruptCycle>
+  <BiosculpterInteruptCycleDesc>中断当前的周期。居住者将被弹出，而不能从周期的效果中获益，并将遭受短期的生体塑形舱病症。</BiosculpterInteruptCycleDesc>
+  <BiosculpterLoadingStartedMessage>当生物雕塑舱装满{NUTRITION}营养，选择一个殖民者，右键点击生物雕塑舱或倒下的人，开始周期。</BiosculpterLoadingStartedMessage>
+  <BiosculpterNoPowerEjectedMessage>{PAWN_labelShort}由于能源不足，被弹出了一个生体塑形舱。</BiosculpterNoPowerEjectedMessage>
+  <BiosculpterHealCompletedMessage>{PAWN_labelShort}完成了治疗周期。</BiosculpterHealCompletedMessage>
+  <BiosculpterHealCompletedWithCureMessage>{PAWN_labelShort}完成了治疗周期，他们的{HEDIFF_label}被治愈了。</BiosculpterHealCompletedWithCureMessage>
+  <BiosculpterAgeReversalCompletedMessage>{PAWN_labelShort}完成了{PAWN_possessive}年龄逆转周期。{PAWN_pronoun}期望在{DEADLINE}天内进行下一次年龄逆转。</BiosculpterAgeReversalCompletedMessage>
+  <BiosculpterPleasureCompletedMessage>{PAWN_labelShort}完成了愉悦周期。</BiosculpterPleasureCompletedMessage>
+
 </LanguageData>
