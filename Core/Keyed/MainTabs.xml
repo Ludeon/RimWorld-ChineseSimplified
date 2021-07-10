@@ -22,8 +22,6 @@
   <EmergencyWorkMarker>紧急</EmergencyWorkMarker>
   <!-- EN: Warning: The average of relevant skills is very low. -->
   <SelectedWorkTypeWithVeryBadSkill>警告：相关技能的平均等级非常低。</SelectedWorkTypeWithVeryBadSkill>
-  <!-- EN: Warning: This kind of work is opposed by {0_possessive} ideologion, so it may make this person unhappy. -->
-  <SelectedWorkTypeOpposedByIdeo>警告：这种工作遭到{0_possessive}意识形态的反对，所以可能会让这个人不高兴。</SelectedWorkTypeOpposedByIdeo>
   <!-- EN: Priority 1 is done first. Priority 4 is done last. -->
   <PriorityOneDoneFirst>优先级1先完成。优先级4放在最后去做。</PriorityOneDoneFirst>
   <!-- EN: Will not do -->
@@ -184,8 +182,8 @@
   <!-- Research tab -->
   <!-- EN: Research -->
   <Research>研究</Research>
-  <!-- EN: Researched -->
-  <Researched>已研究</Researched>
+  <!-- EN: Study -->
+  <Study>研究</Study>
   <!-- EN: Unresearched -->
   <Unresearched>未研究</Unresearched>
   <!-- EN: Finished -->
@@ -214,16 +212,12 @@
   <TechLevelTooLow>你的派系技术级别为{0}，但此项目的技术级别为{1}。研究速度将乘以{2}。</TechLevelTooLow>
   <!-- EN: Unlocked with -->
   <UnlockedWith>同调</UnlockedWith>
-  <!-- EN: {0} unlocks things which you cannot build because they require memes that none of your people believe -->
-  <ResearchProjectHasDefsWithMissingMemes>{0}能够解锁你无法制造的东西，因为他们需要你所有人都不相信的模因</ResearchProjectHasDefsWithMissingMemes>
 
   <!-- Factions tab -->
   <!-- EN: Factions -->
   <FactionsTab>派系</FactionsTab>
   <!-- EN: No known factions -->
   <NoFactions>没有已知的派系</NoFactions>
-  <!-- EN: Ideoligions -->
-  <IdeoligionsTab>意识形态</IdeoligionsTab>
 
   <!-- Quests tab -->
   <!-- EN: Available -->
@@ -334,7 +328,7 @@
   <QuestBetrayalOfferTip>{0}将因你杀死{1}的所有成员而奖励你。</QuestBetrayalOfferTip>
   <!-- EN: a colony wealth of at least {0} -->
   <QuestRequiredPlayerWealth>一个财富值至少为{0}的殖民地</QuestRequiredPlayerWealth>
-  <!-- EN: allied to {0} -->
+  <!-- EN: alliance with {0} -->
   <QuestAlliedTo>与{0}结盟</QuestAlliedTo>
   <!-- EN: hostile to {0} -->
   <QuestHostileTo>与{0}敌对</QuestHostileTo>
@@ -343,7 +337,6 @@
   <!-- EN: studied {0_labelShort} -->
   <QuestRequiredThingStudied>已研究{0_labelShort}</QuestRequiredThingStudied>
 
-  
   <!-- Health tab -->
   <!-- EN: Creates need -->
   <CreatesNeed>创建需求</CreatesNeed>

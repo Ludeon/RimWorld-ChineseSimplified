@@ -776,7 +776,7 @@
   <!-- EN: teetotaler will be unhappy -->
   <TeetotalerUnhappy>成瘾品厌恶者会变得不开心</TeetotalerUnhappy>
   <!-- EN: body purist will be unhappy -->
-  <ProsthophobeUnhappy>自然派会变得不开心</ProsthophobeUnhappy>
+  <ProsthophobeUnhappy>纯粹主义会变得不开心</ProsthophobeUnhappy>
 
   <!-- Thoughts -->
   <!-- EN: Expires in: {0} -->
@@ -1522,38 +1522,6 @@
   <AbilitySpeechDisabledNoSpot>没有适当的可到达位置来交谈。</AbilitySpeechDisabledNoSpot>
   <!-- EN: {0_labelShort} is incapable of talking. -->
   <AbilitySpeechDisabledCantSpeak>{0_labelShort}没有语言能力。</AbilitySpeechDisabledCantSpeak>
-  <!-- EN: Additional reward -->
-  <RitualAttachedReward>额外奖励</RitualAttachedReward>
-  <!-- EN: Choose -->
-  <RitualAttachedRewardChoose>选择</RitualAttachedRewardChoose>
-  <!-- EN: Can't use {0} with {1}. -->
-  <RitualAttachedRewardCantUseWithRitual>不能与{1}使用{0}。</RitualAttachedRewardCantUseWithRitual>
-  <!-- EN: Requires any of memes -->
-  <RitualAttachedRewardRequiredMemeAny>需要任意模因</RitualAttachedRewardRequiredMemeAny>
-  <!-- EN: Requires {0} faction -->
-  <RitualAttachedRewardRequiredFaction>需要{0}派系</RitualAttachedRewardRequiredFaction>
-  <!-- EN: positive -->
-  <RitualAttachedOutcomes_Positive>积极的</RitualAttachedOutcomes_Positive>
-  <!-- EN: negative -->
-  <RitualAttachedOutcomes_Negative>消极的</RitualAttachedOutcomes_Negative>
-  <!-- EN: If the {0} is {1} -->
-  <RitualAttachedOutcomesInfo>如果{0}是{1}</RitualAttachedOutcomesInfo>
-  <!-- EN: Any outcome -->
-  <RitualAttachedAllOutcomes>任何结果</RitualAttachedAllOutcomes>
-  <!-- EN: Upon any {0} outcome -->
-  <RitualAttachedApplliesForOutcome>在任何{0}的结果中</RitualAttachedApplliesForOutcome>
-  <!-- EN: Upon any {0} outcome -->
-  <RitualAttachedApplliesForOutcomes>在任何{0}的结果中</RitualAttachedApplliesForOutcomes>
-  <!-- EN: The commotion from the {0} has attracted some curious animals!\n\nThey seem accustomed to human contact and are joining the colony. -->
-  <RitualAttachedOutcome_FarmAnimalsWanderIn_Desc>来自{0}的骚动吸引了一些好奇的动物！\n\n它们似乎已经习惯了与人类的接触，并且正在加入这个殖民地。</RitualAttachedOutcome_FarmAnimalsWanderIn_Desc>
-  <!-- EN: The {0} has induced a Gauranlen pod to sprout nearby. -->
-  <RitualAttachedOutcome_GauranlenTreePod_ExtraDesc>这枚{0}诱导了一个Gauranlen豆荚在附近发芽。</RitualAttachedOutcome_GauranlenTreePod_ExtraDesc>
-  <!-- EN: Can't apply reward -->
-  <RitualAttachedOutcomeCantApply>无法应用奖励</RitualAttachedOutcomeCantApply>
-  <!-- EN: No valid spot -->
-  <RitualAttachedOutcomeCantApply_NoValidSpot>没有有效位置</RitualAttachedOutcomeCantApply_NoValidSpot>
-  <!-- EN: Extreme biome -->
-  <RitualAttachedOutcomeCantApply_ExtremeBiome>极端生物群落</RitualAttachedOutcomeCantApply_ExtremeBiome>
   
   <!-- EN: Choose who should participate in {RITUAL_labelDef}. -->
   <ChooseParticipants>选择谁应该参加{RITUAL_labelDef}。</ChooseParticipants>
@@ -1609,20 +1577,4 @@
   <!-- EN: {0} max -->
   <MaxValue>{0}最高</MaxValue>
   
-  <!-- UNUSED -->
-  <BiosculpterPodCycleLabel>周期</BiosculpterPodCycleLabel>
-  <BiosculpterPodCycleLabelLoading>加载营养值</BiosculpterPodCycleLabelLoading>
-  <BiosculpterPodCycleLabelReady>就绪</BiosculpterPodCycleLabelReady>
-  <BiosculpterPodCycleCommand>准备{0}周期</BiosculpterPodCycleCommand>
-  <BiosculpterCycleTimeRemaining>结束于</BiosculpterCycleTimeRemaining>
-  <BiosculpterBiotunedTo>调谐</BiosculpterBiotunedTo>
-  <BiosculpterInteruptCycle>中断周期</BiosculpterInteruptCycle>
-  <BiosculpterInteruptCycleDesc>中断当前的周期。居住者将被弹出，而不能从周期的效果中获益，并将遭受短期的生体塑形舱病症。</BiosculpterInteruptCycleDesc>
-  <BiosculpterLoadingStartedMessage>当生物雕塑舱装满{NUTRITION}营养，选择一个殖民者，右键点击生物雕塑舱或倒下的人，开始周期。</BiosculpterLoadingStartedMessage>
-  <BiosculpterNoPowerEjectedMessage>{PAWN_labelShort}由于能源不足，被弹出了一个生体塑形舱。</BiosculpterNoPowerEjectedMessage>
-  <BiosculpterHealCompletedMessage>{PAWN_labelShort}完成了治疗周期。</BiosculpterHealCompletedMessage>
-  <BiosculpterHealCompletedWithCureMessage>{PAWN_labelShort}完成了治疗周期，他们的{HEDIFF_label}被治愈了。</BiosculpterHealCompletedWithCureMessage>
-  <BiosculpterAgeReversalCompletedMessage>{PAWN_labelShort}完成了{PAWN_possessive}年龄逆转周期。{PAWN_pronoun}期望在{DEADLINE}天内进行下一次年龄逆转。</BiosculpterAgeReversalCompletedMessage>
-  <BiosculpterPleasureCompletedMessage>{PAWN_labelShort}完成了愉悦周期。</BiosculpterPleasureCompletedMessage>
-
 </LanguageData>
