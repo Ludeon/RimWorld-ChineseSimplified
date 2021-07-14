@@ -1103,23 +1103,45 @@
   <AutoSlaugtherHeaderColOther>其他</AutoSlaugtherHeaderColOther> <!-- this is the count of the "cannot-auto-slaughter" animals -->
   <!-- EN: If you have more than the max number of animals, colonists will slaughter the oldest animals until you are under the limit. -->
   <AutoSlaugtherTip>如果你有超过最大数量的动物，殖民者将宰杀最老的动物，直到你在限制之下。</AutoSlaugtherTip>
+  <!-- EN: Male adult -->
+  <AnimalMaleAdult>成年雄性</AnimalMaleAdult>
+  <!-- EN: Male young -->
+  <AnimalMaleYoung>未成年雄性</AnimalMaleYoung>
+  <!-- EN: Female adult -->
+  <AnimalFemaleAdult>成年雌性</AnimalFemaleAdult>
+  <!-- EN: Female young -->
+  <AnimalFemaleYoung>未成年雌性</AnimalFemaleYoung>
+  <!-- EN: Pregnant -->
+  <AnimalPregnant>怀孕</AnimalPregnant>
+  <!-- EN: Slaughter -->
+  <AllowSlaughterPregnant>屠宰</AllowSlaughterPregnant>
 
   <!-- EN: The animal to be automatically slaughtered. -->
   <AutoSlaugtherHeaderTooltipLabel>将被自动宰杀的动物。</AutoSlaugtherHeaderTooltipLabel>
-  <!-- EN: The current number of animals in the colony, both male and female.\n\nPregnant and immature animals are ignored. -->
-  <AutoSlaugtherHeaderTooltipCurrentTotal>畜群中目前的动物数量，包括雄性和雌性。\n\n怀孕的和未成熟的动物被忽略。</AutoSlaugtherHeaderTooltipCurrentTotal>
-  <!-- EN: The maximum number of animals in the colony, both male and female.\n\nHandlers will automatically slaughter any extras.\n\nPregnant and immature animals are ignored. -->
-  <AutoSlaugtherHeaderTooltipMaxTotal>畜群中的最大数量，包括雄性和雌性动物。\n\n饲养员会自动宰杀任何多余的动物。\n\n怀孕和未成年的动物会被忽略。</AutoSlaugtherHeaderTooltipMaxTotal>
-  <!-- EN: The current number of males in the colony.\n\nPregnant and immature animals are ignored. -->
-  <AutoSlaugtherHeaderTooltipCurrentMales>畜群中目前的雄性数量。\n\n怀孕和未成熟的动物被忽略。</AutoSlaugtherHeaderTooltipCurrentMales>
-  <!-- EN: The maximum number of males in the colony.\n\nHandlers will automatically slaughter any extras.\n\nPregnant and immature animals are ignored. -->
-  <AutoSlaugtherHeaderTooltipMaxMales>畜群中雄性动物的最大数量。\n\n饲养员会自动宰杀任何多余的动物。\n\n怀孕和未成年的动物会被忽略。</AutoSlaugtherHeaderTooltipMaxMales>
-  <!-- EN: The current number of females in the colony.\n\nPregnant and immature animals are ignored. -->
-  <AutoSlaugtherHeaderTooltipCurrentFemales>畜群中目前的雌性数量。\n\n怀孕和未成熟的动物被忽略。</AutoSlaugtherHeaderTooltipCurrentFemales>
-  <!-- EN: Desired maximum number of females in the colony.\n\nHandlers will automatically slaughter any extras.\n\nPregnant and immature animals are ignored. -->
-  <AutoSlaugtherHeaderTooltipMaxFemales>畜群中雌性动物的最大数量。\n\n饲养员会自动宰杀任何多余的动物。\n\n怀孕和未成年的动物会被忽略。</AutoSlaugtherHeaderTooltipMaxFemales>
-  <!-- EN: The current number of pregnant or immature animals in the colony.\n\nThese animals are ignored. -->
-  <AutoSlaugtherHeaderTooltipOther>畜群中目前怀孕或未成熟的动物数量。\n\n这些动物会被忽略。</AutoSlaugtherHeaderTooltipOther>
+  <!-- EN: The current number of animals in the colony, both male and female. -->
+  <AutoSlaugtherHeaderTooltipCurrentTotal>畜群中目前的动物数量，包括雄性和雌性。</AutoSlaugtherHeaderTooltipCurrentTotal>
+  <!-- EN: The maximum number of animals in the colony, both male and female.\n\nHandlers will automatically slaughter any extras. -->
+  <AutoSlaugtherHeaderTooltipMaxTotal>畜群中的最大数量，包括雄性和雌性动物。\n\n饲养员会自动宰杀任何多余的动物。</AutoSlaugtherHeaderTooltipMaxTotal>
+  <!-- EN: The current number of males of breeding age in the colony. -->
+  <AutoSlaugtherHeaderTooltipCurrentMales>畜群中目前的成年雄性数量。</AutoSlaugtherHeaderTooltipCurrentMales>
+  <!-- EN: The current number of baby and juvenile males in the colony. -->
+  <AutoSlaughterHeaderTooltipCurrentMalesYoung>畜群中目前的未成年雄性数量。</AutoSlaughterHeaderTooltipCurrentMalesYoung>
+  <!-- EN: The maximum number of males of breeding age in the colony.\n\nHandlers will automatically slaughter any extras. -->
+  <AutoSlaugtherHeaderTooltipMaxMales>畜群中成年雄性动物的最大数量。\n\n饲养员会自动宰杀任何多余的动物。</AutoSlaugtherHeaderTooltipMaxMales>
+  <!-- EN: The maximum number of baby and juvenile males in the colony.\n\nHandlers will automatically slaughter any extras. -->
+  <AutoSlaughterHeaderTooltipMaxMalesYoung>畜群中未成年雄性动物的最大数量。\n\n饲养员会自动宰杀任何多余的动物。</AutoSlaughterHeaderTooltipMaxMalesYoung>
+  <!-- EN: The current number of females of breeding age of breeding age in the colony. -->
+  <AutoSlaugtherHeaderTooltipCurrentFemales>畜群中目前的成年雌性数量。</AutoSlaugtherHeaderTooltipCurrentFemales>
+  <!-- EN: The current number of baby and juvenile females in the colony. -->
+  <AutoSlaugtherHeaderTooltipCurrentFemalesYoung>畜群中目前的未成年雌性数量。</AutoSlaugtherHeaderTooltipCurrentFemalesYoung>
+  <!-- EN: The maximum number of females in the colony.\n\nHandlers will automatically slaughter any extras. -->
+  <AutoSlaugtherHeaderTooltipMaxFemales>畜群中成年雌性动物的最大数量。\n\n饲养员会自动宰杀任何多余的动物。</AutoSlaugtherHeaderTooltipMaxFemales>
+  <!-- EN: The maximum number of baby and juvenile females in the colony.\n\nHandlers will automatically slaughter any extras. -->
+  <AutoSlaughterHeaderTooltipMaxFemalesYoung>畜群中未成年雌性动物的最大数量。\n\n饲养员会自动宰杀任何多余的动物。</AutoSlaughterHeaderTooltipMaxFemalesYoung>
+  <!-- EN: The current number of pregnant animals in the colony. -->
+  <AutoSlaughterHeaderTooltipCurrentPregnant>畜群中目前怀孕的雌性数量。</AutoSlaughterHeaderTooltipCurrentPregnant>
+  <!-- EN: Allow pregnant animals to be slaughtered along with other females of the same species. -->
+  <AutoSlaughterHeaderTooltipAllowSlaughterPregnant>允许怀孕的动物与同一物种的其他雌性动物一起被宰杀。</AutoSlaughterHeaderTooltipAllowSlaughterPregnant>
 
   <!-- EN: Click to set an animal count limit. -->
   <AutoSlaughterTooltipSetLimit>点击设置动物数量限制。</AutoSlaughterTooltipSetLimit>
