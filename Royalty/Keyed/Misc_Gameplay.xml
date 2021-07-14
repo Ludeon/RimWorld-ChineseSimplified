@@ -141,11 +141,11 @@
   <!-- EN: Max psylink level -->
   <BeginLinkingRitualMaxPsylinkLevel>最大启灵等级</BeginLinkingRitualMaxPsylinkLevel>
   <!-- EN: Need a free, reachable spot within 3 cells for linking -->
-  <BeginLinkingRitualNeedLinkSpot>需要在3格之内有一个可用的地点来进行连接</BeginLinkingRitualNeedLinkSpot>
+  <BeginLinkingRitualNeedLinkSpot>需要在3格之内有一个可用的地点来进行共鸣</BeginLinkingRitualNeedLinkSpot>
   <!-- EN: Linking ritual completed -->
-  <LetterLabelLinkingRitualCompleted>连接仪式完成</LetterLabelLinkingRitualCompleted>
+  <LetterLabelLinkingRitualCompleted>共鸣仪式完成</LetterLabelLinkingRitualCompleted>
   <!-- EN: {PAWN_labelShort} has completed the linking ritual with {LINKABLE_labelShort}.\n\n{PAWN_pronoun} now has an upgraded psylink, permitting the use of new psychic powers. -->
-  <LetterTextLinkingRitualCompleted>{PAWN_labelShort}完成了与{LINKABLE_labelShort}的连接仪式。\n\n{PAWN_pronoun}现在获得了一次启灵升级，能够使用新的心灵能力。</LetterTextLinkingRitualCompleted>
+  <LetterTextLinkingRitualCompleted>{PAWN_labelShort}完成了与{LINKABLE_labelShort}的共鸣仪式。\n\n{PAWN_pronoun}现在获得了一次启灵升级，能够使用新的心灵能力。</LetterTextLinkingRitualCompleted>
   <!-- EN: Additionally, {0} anima grass has been restored. -->
   <LetterTextLinkingRitualCompletedAnimaGrass>此外，{0}x仙草已被恢复。</LetterTextLinkingRitualCompletedAnimaGrass>
 
@@ -164,9 +164,20 @@
   <BestowingCeremonyLabel>授勋仪式</BestowingCeremonyLabel>
   <!-- EN: Bestowing ceremony total quality was {0}, determined by these factors -->
   <BestowingOutcomeQualitySpecific>这些因素决定了授勋仪式的总体品质为{0}</BestowingOutcomeQualitySpecific>
+  
+  <!-- EN: No colonists that can link with anima tree right now. -->
+  <RitualTargetAnimaTreeNoPawnsToLink>当前没有能与仙树共鸣的殖民者。</RitualTargetAnimaTreeNoPawnsToLink>
+  <!-- EN: No colonists that can use the natural psyfocus type. -->
+  <RitualTargetAnimaTreeNoPawnsWithNatureFocus>当前没有自然冥想者。</RitualTargetAnimaTreeNoPawnsWithNatureFocus>
+  <!-- EN: Need at least {0} anima grass. -->
+  <RitualTargetAnimaTreeNotEnoughAnimaGrass>需要至少{0}x灵草。</RitualTargetAnimaTreeNotEnoughAnimaGrass>
+  <!-- EN: An anima tree. -->
+  <RitualTargetAnimaTreeInfo>一棵仙树。</RitualTargetAnimaTreeInfo>
+  <!-- EN: Must be a colonist with the natural psyfocus type who is below maximum psylink level. -->
+  <RitualTargetAnimaTreeMustBeCapableOfNature>必须是一名启灵等级低于最大值，并且具有自然冥想属性的殖民者。</RitualTargetAnimaTreeMustBeCapableOfNature>
 
   <!-- EN: The anima linking ceremony is more powerful with more participants. The more people participate, the less time the ceremony takes, and the more anima grass will grow.\n\nWith {0} additional participants, {1} anima grass will be restored at the end of the ceremony. -->
-  <AnimaLinkingExplanationBase>参与者越多， 仙树连接仪式就越有力量。 参加的人越多， 仪式所需的时间就越短， 生长的灵草就越多。\n\n有了{0}个额外的参与者， {1}株灵草将在仪式结束时恢复。</AnimaLinkingExplanationBase>
+  <AnimaLinkingExplanationBase>参与者越多， 仙树共鸣仪式就越有力量。 参加的人越多， 仪式所需的时间就越短， 生长的灵草就越多。\n\n有了{0}个额外的参与者， {1}株灵草将在仪式结束时恢复。</AnimaLinkingExplanationBase>
   <!-- EN: Not all required cargo is loaded yet! -->
   <ShuttleRequiredItemsNotSatisfied>所需物资还没有全部装载！</ShuttleRequiredItemsNotSatisfied>
 </LanguageData>
