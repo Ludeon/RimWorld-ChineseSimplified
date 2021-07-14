@@ -155,6 +155,8 @@
   <!-- EN: This operation will anger {0}. -->
   <MessageMedicalOperationWillAngerFaction>这次手术将激怒{0}。</MessageMedicalOperationWillAngerFaction>
 
+  <!-- EN: {PAWN_nameDef} is pregnant! -->
+  <MessageAnimalIsPregnant>{PAWN_nameDef}怀孕了！</MessageAnimalIsPregnant>
   <!-- EN: {0} has miscarried due to starvation. -->
   <MessageMiscarriedStarvation>{0}由于饥饿而流产。</MessageMiscarriedStarvation>
   <!-- EN: {0} has miscarried due to poor health. -->
@@ -181,9 +183,6 @@
 
   <!-- EN: {PAWN_labelShort} has started to roam away! {PAWN_pronoun} will leave the map unless an animal handler ropes {PAWN_objective} back to a pen. -->
   <MessageRoamerLeaving>{PAWN_labelShort}已经开始游荡了! {PAWN_pronoun}会离开地图，除非有驯兽师将{PAWN_objective}牵引回畜栏内。</MessageRoamerLeaving>
-
-  <!-- EN: Cannot auto-cut plants when pen is not enclosed - build fences. -->
-  <MessageAutoCutInUnenclosedPen>畜栏未封闭时不能自动割除植物——建立围栏。</MessageAutoCutInUnenclosedPen>
 
   <!-- EN: A bug hive has reproduced itself. -->
   <MessageHiveReproduced>一个虫巢繁殖出了一个新虫巢。</MessageHiveReproduced>
@@ -725,4 +724,7 @@
   <!-- EN: Too close to {0_label}'s planting location. -->
   <TooCloseToOtherSeedPlantCell>离{0_label}种植区太近了。</TooCloseToOtherSeedPlantCell>
   
+  <!-- UNUSED -->
+  <MessageAutoCutInUnenclosedPen>畜栏未封闭时不能自动割除植物——建立围栏。</MessageAutoCutInUnenclosedPen>
+
 </LanguageData>
