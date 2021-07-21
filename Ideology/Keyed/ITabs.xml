@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- Character -->
+  <!-- EN: Overrides some precepts related to -->
+  <OverridesSomePrecepts>TODO</OverridesSomePrecepts>
+  <!-- EN: Agrees with memes -->
+  <AgreeableMemes>TODO</AgreeableMemes>
+  <!-- EN: Conflicts with memes -->
+  <DisagreeableMemes>TODO</DisagreeableMemes>
+
+  <!-- ITab titles -->
+  <!-- EN: Slave -->
+  <TabSlave>TODO</TabSlave>
+  <!-- EN: The faction goodwill you will gain if you release a slave. This is affected by the slaves's physical and mental health. -->
+  <SlaveReleaseRelationGainsDesc>TODO</SlaveReleaseRelationGainsDesc>
+  <!-- EN: Relations gain on release -->
+  <SlaveReleasePotentialRelationGains>TODO</SlaveReleasePotentialRelationGains>
+  <!-- EN: Slave rebellion interval -->
+  <SlaveRebellionMTBDays>TODO</SlaveRebellionMTBDays>
+  <!-- EN: The average number of days between slave rebellion attempts. Only time awake is counted. This is affected by mood, health, suppression, proximity to weapons and the presence of colonists on the map. -->
+  <SlaveRebellionMTBDaysDescription>TODO</SlaveRebellionMTBDaysDescription>
+
+  <!-- Slave tab -->
+  <!-- EN: Suppression -->
+  <Suppression>TODO</Suppression>
+  <!-- EN: Suppression is the psychological effect of fear and control on a slave. If suppression is low, slaves are more likely to rebel. -->
+  <SuppressionDesc>TODO</SuppressionDesc>
+  <!-- EN: Suppression fall rate -->
+  <SuppressionFallRate>TODO</SuppressionFallRate>
+  <!-- EN: Suppression falls over time depending on its current level:\n\n- {1}+ suppression: {0} per day\n- {4}-{3} suppression: {2} per day\n- {6}- suppression: {5} per day\n\nApparel and terror can also affect the suppression fall rate. This slave's fall rate calculation is -->
+  <SuppressionFallRateDesc>TODO</SuppressionFallRateDesc>
+  <!-- EN: Cannot emancipate -->
+  <CannotEmancipate>TODO</CannotEmancipate>
+  <!-- EN: Cannot imprison -->
+  <CannotImprison>TODO</CannotImprison>
+  <!-- EN: Current suppression -->
+  <CurrentSuppression>TODO</CurrentSuppression>
+  <!-- EN: Terror -->
+  <Terror>TODO</Terror>
+  <!-- EN: Terror is a way to keep slaves suppressed. It rises when the slave spends time near terrifying things like terror sculptures. A slave can only be affected by three terror sources at a time.\n\nWhile terror is high, suppression falls slower as follows -->
+  <TerrorDescription>TODO</TerrorDescription>
+  <!-- EN: Recent terrifying observations -->
+  <TerrorCurrentThoughts>TODO</TerrorCurrentThoughts>
+
+  <!-- EN: Base interval -->
+  <SuppressionBaseInterval>TODO</SuppressionBaseInterval>
+  <!-- EN: Moving capacity -->
+  <SuppressionMovingCapacityFactor>TODO</SuppressionMovingCapacityFactor>
+  <!-- EN: Suppression -->
+  <SuppressionFactor>TODO</SuppressionFactor>
+  <!-- EN: Mood -->
+  <SuppressionMoodFactor>TODO</SuppressionMoodFactor>
+  <!-- EN: Escape route -->
+  <SuppressionEscapeFactor>TODO</SuppressionEscapeFactor>
+  <!-- EN: Weapon proximity -->
+  <SuppressionWeaponProximityFactor>TODO</SuppressionWeaponProximityFactor>
+  <!-- EN: Final interval -->
+  <SuppressionFinalInterval>TODO</SuppressionFinalInterval>
+  <!-- EN: Unattended -->
+  <SuppressionUnattendedByColonists>TODO</SuppressionUnattendedByColonists>
+
+  <!-- EN: Will -->
+  <WillLevel>TODO</WillLevel>
+  <!-- EN: How much the prisoner is determined not to submit. When this reaches zero, they can be enslaved. -->
+  <WillLevelDesc>TODO</WillLevelDesc>
+  <!-- EN: {0} base will -->
+  <WillFromPawnKind>TODO</WillFromPawnKind>
+  <!-- EN: Target ideoligion -->
+  <IdeoConversionTarget>TODO</IdeoConversionTarget>
+  <!-- EN: The ideoligion your wardens will attempt to convert this prisoner to. -->
+  <IdeoConversionTargetDesc>TODO</IdeoConversionTargetDesc>
+
+  <!-- Social -->
+  <!-- EN: Change per day due to mood -->
+  <CertaintyChangePerDay>TODO</CertaintyChangePerDay>
+  <!-- EN: Change rate based on mood -->
+  <MoodChangeRate>TODO</MoodChangeRate>
+  <!-- EN: {PAWN_nameDef}'s certainty in {IDEO_name} -->
+  <CertaintyInIdeo>TODO</CertaintyInIdeo>
+  <!-- EN: A special status this person holds in their ideoligion. If you change or take away this role, they will become unhappy. -->
+  <RoleDesc>TODO</RoleDesc>
+  <!-- EN: Conversion attempts will be weaker because of trait/meme agreement -->
+  <ConversionWeakerDueToTraitAgreements>TODO</ConversionWeakerDueToTraitAgreements>
+  <!-- EN: Conversion attempts will be stronger because of trait/meme conflict -->
+  <ConversionStrongerDueToTraitAgreements>TODO</ConversionStrongerDueToTraitAgreements>
+
+  <!-- EN: Cut -->
+  <Cut>TODO</Cut>
+  <!-- EN: Cut both eyes -->
+  <CutBothEyes>TODO</CutBothEyes>
+
+</LanguageData>
