@@ -292,6 +292,18 @@
   <ArmorPenetration>护甲穿透</ArmorPenetration>
   <!-- EN: Armor penetration is the amount of armor this weapon will ignore each time it hits the target.\n\nIf armor penetration is greater than the target's armor, it is as though the target is unarmored. Otherwise, the armor penetration is subtracted from the target's armor. -->
   <ArmorPenetrationExplanation>护甲穿透指每次击中目标时，该武器会忽视的护甲值。\n\n如果护甲穿透值大于目标护甲值，目标相当于没有护甲，否则实际护甲值等于目标护甲与武器护甲穿透的差值。</ArmorPenetrationExplanation>
+  <!-- EN: Building damage factor -->
+  <BuildingDamageFactor>建筑伤害系数</BuildingDamageFactor>
+  <!-- EN: Damage to all buildings is multiplied by this value. -->
+  <BuildingDamageFactorExplanation>对所有建筑物的伤害都灰乘以这个值。</BuildingDamageFactorExplanation>
+  <!-- EN: Building damage factor (impassable) -->
+  <BuildingDamageFactorImpassable>建筑伤害系数（不可通行）</BuildingDamageFactorImpassable>
+  <!-- EN: Damage to all impassable buildings is multiplied by this value. -->
+  <BuildingDamageFactorImpassableExplanation>对所有无法通行的建筑物的伤害都灰乘以这个值。</BuildingDamageFactorImpassableExplanation>
+  <!-- EN: Building damage factor (passable) -->
+  <BuildingDamageFactorPassable>建筑伤害系数（可通行）</BuildingDamageFactorPassable>
+  <!-- EN: Damage to all passable buildings is multiplied by this value. -->
+  <BuildingDamageFactorPassableExplanation>对所有可通行的建筑物的伤害都灰乘以这个值。</BuildingDamageFactorPassableExplanation>
   <!-- EN: Accuracy -->
   <Accuracy>精度</Accuracy>
   <!-- EN: Burst shot count -->
@@ -1101,8 +1113,8 @@
   <AutoSlaugtherHeaderColTotal>总计</AutoSlaugtherHeaderColTotal>
   <!-- EN: Other -->
   <AutoSlaugtherHeaderColOther>其他</AutoSlaugtherHeaderColOther> <!-- this is the count of the "cannot-auto-slaughter" animals -->
-  <!-- EN: If you have more than the max number of animals, colonists will slaughter the oldest animals until you are under the limit. -->
-  <AutoSlaugtherTip>如果你有超过最大数量的动物，殖民者将宰杀最老的动物，直到你在限制之下。</AutoSlaugtherTip>
+  <!-- EN: Colonists first slaughter non-pregnant animals in order from oldest to youngest, then pregnant animals from most recent to least recent pregnancy. -->
+  <AutoSlaugtherTip>殖民者首先按照从年龄大到小的顺序宰杀非怀孕动物，然后从最近怀孕的动物到更早怀孕的动物。</AutoSlaugtherTip>
   <!-- EN: Male adult -->
   <AnimalMaleAdult>成年雄性</AnimalMaleAdult>
   <!-- EN: Male young -->
