@@ -2,134 +2,134 @@
 <LanguageData>
 
   <!-- EN: Create or select an ideoligion for your faction. -->
-  <MessageMustChooseIdeo>TODO</MessageMustChooseIdeo>
+  <MessageMustChooseIdeo>为您的派系创建或选择一个文化形态。</MessageMustChooseIdeo>
   <!-- EN: The ideoligion name can't be empty. -->
-  <MessageIdeoNameCantBeEmpty>TODO</MessageIdeoNameCantBeEmpty>
+  <MessageIdeoNameCantBeEmpty>ideoligion 名称不能为空。</MessageIdeoNameCantBeEmpty>
   <!-- EN: {PRECEPT1} and {PRECEPT2} are incompatible. -->
-  <MessageIdeoIncompatiblePrecepts>TODO</MessageIdeoIncompatiblePrecepts>
+  <MessageIdeoIncompatiblePrecepts>{PRECEPT1} 与 {PRECEPT2} 不相容。</MessageIdeoIncompatiblePrecepts>
   <!-- EN: {PRECEPT} needs one of these buildings -->
-  <MessageRitualMissingTarget>TODO</MessageRitualMissingTarget>
+  <MessageRitualMissingTarget>{PRECEPT} 需要这些建筑物之一</MessageRitualMissingTarget>
   <!-- EN: {PRECEPT} needs an associated ritual. -->
-  <MessageBuildingMissingRitual>TODO</MessageBuildingMissingRitual>
+  <MessageBuildingMissingRitual>{PRECEPT} 需要相关的仪式。</MessageBuildingMissingRitual>
   <!-- EN: {0_labelShort} refuses to do this because of {0_possessive} ideoligion. -->
-  <MessagePawnUnwillingToDoDueToIdeo>TODO</MessagePawnUnwillingToDoDueToIdeo>
+  <MessagePawnUnwillingToDoDueToIdeo>{0_labelShort} 拒绝这样做，因为有 {0_possessive} 的文化形态。</MessagePawnUnwillingToDoDueToIdeo>
   <!-- EN: {INITIATOR_nameDef} tried to convert {RECIPIENT_nameDef} to {INITIATOR_possessive} ideoligion. {RECIPIENT_nameDef}'s certainty has fallen from {CERTAINTYBEFORE} to {CERTAINTYAFTER}. {RECIPIENT_pronoun} resents the conversion attempt. -->
-  <MessageFailedConvertIdeoAttempt>TODO</MessageFailedConvertIdeoAttempt>
+  <MessageFailedConvertIdeoAttempt>{INITIATOR_nameDef} 尝试将 {RECIPIENT_nameDef} 转换为 {INITIATOR_possessive} 文化形态。{RECIPIENT_nameDef} 的认可度已从 {CERTAINTYBEFORE} 降至 {CERTAINTYAFTER}。 {RECIPIENT_pronoun} 对转换尝试表示不满。</MessageFailedConvertIdeoAttempt>
   <!-- EN: {PAWN1_nameDef} tried to convert {PAWN2_nameDef} to {PAWN1_possessive} ideoligion. This led to a social fight! -->
-  <MessageFailedConvertIdeoAttemptSocialFight>TODO</MessageFailedConvertIdeoAttemptSocialFight>
+  <MessageFailedConvertIdeoAttemptSocialFight>{PAWN1_nameDef} 试图将 {PAWN2_nameDef} 转换为 {PAWN1_possessive} 文化形态。这导致了社会斗争！</MessageFailedConvertIdeoAttemptSocialFight>
   <!-- EN: You must choose at least {0} memes. -->
-  <MessageNotEnoughMemes>TODO</MessageNotEnoughMemes>
+  <MessageNotEnoughMemes>您必须至少选择 {0} 个模因。</MessageNotEnoughMemes>
   <!-- EN: You can't choose more than {0} memes. -->
-  <MessageTooManyMemes>TODO</MessageTooManyMemes>
+  <MessageTooManyMemes>您选择的模因不能超过 {0} 个。</MessageTooManyMemes>
   <!-- EN: You must choose a structure meme. -->
-  <MessageNotEnoughStructureMemes>TODO</MessageNotEnoughStructureMemes>
+  <MessageNotEnoughStructureMemes>你必须选择一个结构模因。</MessageNotEnoughStructureMemes>
   <!-- EN: {0_label} and {1_label} are incompatible with each other. -->
-  <MessageIncompatibleMemes>TODO</MessageIncompatibleMemes>
+  <MessageIncompatibleMemes>{0_label} 和 {1_label} 彼此不相容。</MessageIncompatibleMemes>
   <!-- EN: You need {0} to start the {1}. -->
-  <MessageNoRequiredRolePawnToBeginRitual>TODO</MessageNoRequiredRolePawnToBeginRitual>
+  <MessageNoRequiredRolePawnToBeginRitual>您需要 {0} 才能启动 {1}。</MessageNoRequiredRolePawnToBeginRitual>
   <!-- EN: Before starting the {1}, you must assign someone to the role of {0}. -->
-  <MessageNeedAssignedRoleToBeginRitual>TODO</MessageNeedAssignedRoleToBeginRitual>
+  <MessageNeedAssignedRoleToBeginRitual>在开始 {1} 之前，您必须将某人分配给 {0} 的身份。</MessageNeedAssignedRoleToBeginRitual>
   
   <!-- EN: {0_labelShort} now holds the role of {1}. -->
-  <MessageRoleAssigned>TODO</MessageRoleAssigned>
+  <MessageRoleAssigned>{0_labelShort}现在具有{1}的身份。</MessageRoleAssigned>
   <!-- EN: Since {0_labelShort} became a prisoner, {0_pronoun} no longer can hold the role of {1}. -->
-  <MessageRoleUnassignedPrisoner>TODO</MessageRoleUnassignedPrisoner>
+  <MessageRoleUnassignedPrisoner>由于{0_labelShort}成为囚犯，{0_pronoun}不再能担任{1}的身份。</MessageRoleUnassignedPrisoner>
   <!-- EN: Warning: {0} will be upset if a tree is cut. -->
-  <MessageWarningPlayerDesignatedTreeChopped>TODO</MessageWarningPlayerDesignatedTreeChopped>
+  <MessageWarningPlayerDesignatedTreeChopped>警告：如果树木被砍伐，{0}将会被打乱。</MessageWarningPlayerDesignatedTreeChopped>
   <!-- EN: Warning: {0} will be upset if mining occurs. -->
-  <MessageWarningPlayerDesignatedMining>TODO</MessageWarningPlayerDesignatedMining>
+  <MessageWarningPlayerDesignatedMining>警告：如果进行采矿，{0}将感到不安。</MessageWarningPlayerDesignatedMining>
   <!-- EN: The {TREE_label} has had its connection with {PAWN_nameDef} torn. It must recover for {DURATION} before it can reconnect again. -->
-  <MessageConnectedPawnDied>TODO</MessageConnectedPawnDied>
+  <MessageConnectedPawnDied>{TREE_label}与{PAWN_nameDef}进行了连接。必须经过{DURATION}，才能重新开始连接。</MessageConnectedPawnDied>
 
   <!-- Slave interactions -->
   <!-- EN: {0_nameDef} has been emancipated by {1_nameDef}. -->
-  <MessageSlaveEmancipated>TODO</MessageSlaveEmancipated>
+  <MessageSlaveEmancipated>{0_nameDef}已经被{1_nameDef}解放了。</MessageSlaveEmancipated>
   <!-- EN: {0_nameDef} has been enslaved by {1_nameDef}. -->
-  <MessagePrisonerEnslaved>TODO</MessagePrisonerEnslaved>
+  <MessagePrisonerEnslaved>{0_nameDef} 已被 {1_nameDef} 奴役。</MessagePrisonerEnslaved>
   <!-- EN: Prisoner {1_nameDef}'s will has been broken by {0_nameDef}. -->
-  <MessagePrisonerWillBroken>TODO</MessagePrisonerWillBroken>
+  <MessagePrisonerWillBroken>囚犯{1_nameDef}的意志被{0_nameDef}打破了。</MessagePrisonerWillBroken>
   <!-- EN: Enslavement will follow. -->
-  <MessagePrisonerWillBroken_RecruitAttempsWillBegin>TODO</MessagePrisonerWillBroken_RecruitAttempsWillBegin>
+  <MessagePrisonerWillBroken_RecruitAttempsWillBegin>开始奴役。</MessagePrisonerWillBroken_RecruitAttempsWillBegin>
 
   <!-- Prisoner interactions -->
   <!-- EN: No warden is capable of this enslavement. -->
-  <MessageNoWardenCapableOfEnslavement>TODO</MessageNoWardenCapableOfEnslavement>
+  <MessageNoWardenCapableOfEnslavement>没有一个狱卒有能力进行这种奴役。</MessageNoWardenCapableOfEnslavement>
   <!-- EN: You have no {MEMBERNAME} wardens to convert {PRISONER_nameDef}. {PRISONER_possessive} interaction mode has reverted to "No interaction". -->
-  <MessageNoWardenOfIdeo>TODO</MessageNoWardenOfIdeo>
+  <MessageNoWardenOfIdeo>您没有{MEMBERNAME}狱卒来转换{priver_namedef}。{priver_possession}交互模式已更变为“无交互”。</MessageNoWardenOfIdeo>
 
   <!-- Camps -->
   <!-- EN: You've detected a {CAMP_label} nearby controlled by {FACTION_name}. -->
-  <MessageCampDetected>TODO</MessageCampDetected>
+  <MessageCampDetected>您已经检测到附近由{FACTION_name}控制的{CAMP_label}。</MessageCampDetected>
 
   <!-- Charity -->
   <!-- EN: Charity refused -->
-  <MessageCharityEventRefused>TODO</MessageCharityEventRefused>
+  <MessageCharityEventRefused>仁善推却</MessageCharityEventRefused>
   <!-- EN: Charity fulfilled -->
-  <MessageCharityEventFulfilled>TODO</MessageCharityEventFulfilled>
+  <MessageCharityEventFulfilled>仁善圆满</MessageCharityEventFulfilled>
   <!-- EN: {0} leaving empty-handed. -->
-  <MessageBeggarsLeavingWithNoItems>TODO</MessageBeggarsLeavingWithNoItems>
+  <MessageBeggarsLeavingWithNoItems>{0} 空手离开。</MessageBeggarsLeavingWithNoItems>
   <!-- EN: {0} leaving with requested items. -->
-  <MessageBeggarsLeavingWithItems>TODO</MessageBeggarsLeavingWithItems>
+  <MessageBeggarsLeavingWithItems>{0} 带着祈求的物品离开。</MessageBeggarsLeavingWithItems>
   <!-- EN: {0_nameDef} died without any treatment. -->
-  <MessageWandererLeftToDie>TODO</MessageWandererLeftToDie>
+  <MessageWandererLeftToDie>{0_nameDef} 在没有任何治疗的情况下死亡。</MessageWandererLeftToDie>
   <!-- EN: {0_nameDef} was recruited. -->
-  <MessageWandererRecruited>TODO</MessageWandererRecruited>
+  <MessageWandererRecruited>{0_nameDef} 已被招募。</MessageWandererRecruited>
   <!-- EN: {0_nameDef} left healthy. -->
-  <MessageWandererLeftHealthy>TODO</MessageWandererLeftHealthy>
+  <MessageWandererLeftHealthy>{0_nameDef} 保持健康。</MessageWandererLeftHealthy>
   <!-- EN: {0} failed. -->
-  <MessageCharityQuestEndedFailed>TODO</MessageCharityQuestEndedFailed>
+  <MessageCharityQuestEndedFailed>{0} 失败。</MessageCharityQuestEndedFailed>
   <!-- EN: {0} succesfully completed. -->
-  <MessageCharityQuestEndedSuccess>TODO</MessageCharityQuestEndedSuccess>
+  <MessageCharityQuestEndedSuccess>{0} 成功完成。</MessageCharityQuestEndedSuccess>
 
   <!-- Ideo UI -->
   <!-- EN: Cannot remove -->
-  <CannotRemove>TODO</CannotRemove>
+  <CannotRemove>无法移除</CannotRemove>
   <!-- EN: Cannot remove {MEME} -->
-  <CannotRemoveMemeRequired>TODO</CannotRemoveMemeRequired>
+  <CannotRemoveMemeRequired>无法删除{MEME}</CannotRemoveMemeRequired>
   <!-- EN: Cannot remove {MEME}: Required by player faction. -->
-  <CannotRemoveMemeRequiredPlayer>TODO</CannotRemoveMemeRequiredPlayer>
+  <CannotRemoveMemeRequiredPlayer>无法移除 {MEME}：玩家派系需要。</CannotRemoveMemeRequiredPlayer>
   <!-- EN: Required by {FACTION_name}. -->
-  <RequiredByFaction>TODO</RequiredByFaction>
+  <RequiredByFaction>{FACTION_name} 需要。</RequiredByFaction>
   
   <!-- EN: {0_label} will self-destruct in {1}. -->
-  <SelfDestructCountdown>TODO</SelfDestructCountdown>
+  <SelfDestructCountdown>{0_label} 将在 {1} 中自毁。</SelfDestructCountdown>
 
   <!-- Ancient complex -->
   <!-- EN: You've discovered an ancient terminal with info about the {0}! -->
-  <MessageAncientTerminalDiscovered>TODO</MessageAncientTerminalDiscovered>
+  <MessageAncientTerminalDiscovered>你发现了一个远古终端机，其中包含有关 {0} 的信息！</MessageAncientTerminalDiscovered>
   <!-- EN: You've discovered secret information about {0}! Get back on the shuttle to launch it. -->
-  <MessageAncientComplexBackToShuttle>TODO</MessageAncientComplexBackToShuttle>
+  <MessageAncientComplexBackToShuttle>你发现了关于{0}的秘密情报！回到穿梭机上发射它。</MessageAncientComplexBackToShuttle>
   <!-- EN: An ancient supply satellite has been activated. Supplies will drop nearby. -->
-  <MessageAncientSignalActivated>TODO</MessageAncientSignalActivated>
+  <MessageAncientSignalActivated>一颗远古补给卫星被激活了。补给将空投至附近。</MessageAncientSignalActivated>
   <!-- EN: {0} from the {1} have detected the supply signal and are attacking. -->
-  <MessageAncientSignalHostileDetected>TODO</MessageAncientSignalHostileDetected>
+  <MessageAncientSignalHostileDetected>{1}的{0}探测到供应信号，正在攻击。</MessageAncientSignalHostileDetected>
 
   <!-- Ancient altar -->
   <!-- EN: All security systems are waking up! -->
-  <MessageAncientAltarThreatsWokenUp>TODO</MessageAncientAltarThreatsWokenUp>
+  <MessageAncientAltarThreatsWokenUp>所有的安全系统都在苏醒！</MessageAncientAltarThreatsWokenUp>
   <!-- EN: All security systems are alerted to your presence. -->
-  <MessageAncientAltarThreatsAlerted>TODO</MessageAncientAltarThreatsAlerted>
+  <MessageAncientAltarThreatsAlerted>所有的安全系统都会注意到你的存在。</MessageAncientAltarThreatsAlerted>
 
   <!-- Animals -->
   <!-- EN: Warning: {PAWNKINDLABELPLURAL} are venerated by all {PAWNS}, and will not be harmed. -->
-  <MessageAnimalIsVeneratedForAllColonists>TODO</MessageAnimalIsVeneratedForAllColonists>
+  <MessageAnimalIsVeneratedForAllColonists>警告：{PAWNKINDLABELPLURAL}受到所有{PAWNS}的尊敬，不会受到伤害。</MessageAnimalIsVeneratedForAllColonists>
 
   <!-- Archonexus -->
   <!-- EN: Select at most {0} {1} to bring to the new colony. -->
-  <MessageNewColonyMax>TODO</MessageNewColonyMax>
+  <MessageNewColonyMax>选择最多{0} {1}带到新殖民地。</MessageNewColonyMax>
   <!-- EN: You must select at least 1 colonist. -->
-  <MessageNewColoyRequiresOneColonist>TODO</MessageNewColoyRequiresOneColonist>
+  <MessageNewColoyRequiresOneColonist>您必须选择至少一个殖民者。</MessageNewColoyRequiresOneColonist>
 
   <!-- Fuel node -->
   <!-- EN: A {0} has been ignited and is going to explode! -->
-  <MessageFuelNodeTriggered>TODO</MessageFuelNodeTriggered>
+  <MessageFuelNodeTriggered>一个{0}被点燃了，马上就要爆炸了!</MessageFuelNodeTriggered>
 
   <!-- Ancient complex -->
   <!-- EN: {0_pawnsPlural} will wake up in {1}. -->
-  <MessageSleepingThreatDelayActivated>TODO</MessageSleepingThreatDelayActivated>
+  <MessageSleepingThreatDelayActivated>{0_pawnsPlural}将在{1}中醒来。</MessageSleepingThreatDelayActivated>
   <!-- EN: Infestation arriving. -->
-  <MessageInfestationDelayActivated>TODO</MessageInfestationDelayActivated>
+  <MessageInfestationDelayActivated>袭击到来。</MessageInfestationDelayActivated>
   <!-- EN: {0} was disturbed and might explode soon! -->
-  <MessageFuelNodeDelayActivated>TODO</MessageFuelNodeDelayActivated><!-- this message fires when a fuel node has been disturbed and there is a random delay before it starts to explode. -->
+  <MessageFuelNodeDelayActivated>{0}被扰乱了，可能很快就会爆炸!</MessageFuelNodeDelayActivated><!-- this message fires when a fuel node has been disturbed and there is a random delay before it starts to explode. -->
 
 </LanguageData>

@@ -6,7 +6,11 @@
     <li>raidConsequences(faction_temporary==false)->If you do, [faction_name] will become hostile.</li>
     <li>raidConsequences(faction_temporary==true)->Since [faction_name] is just a small, independent group, you can attack them without any broader diplomatic consequences.</li>
   -->
-  <OpportunitySite_WorkSite.questDescriptionRules.rulesStrings>TODO</OpportunitySite_WorkSite.questDescriptionRules.rulesStrings>
+  <OpportunitySite_WorkSite.questDescriptionRules.rulesStrings>
+    <li>questDescription->你侦测到附近有一处被 [faction_name] 所控制的[siteLabel]。\n\n你愿意的话可以突袭营地掠夺战利品（[loot]）。 [raidConsequences]\n\n他们将会在[timeout_duration]内收拾营地打包搬走。</li>
+    <li>raidConsequences(faction_temporary==false)->如果你这样做， [faction_name]将与你为敌。</li>
+    <li>raidConsequences(faction_temporary==true)->由于 [faction_name] 只是一个弱小的独立团体，你攻击他们之后不会造成大范围的外交恶名。</li>
+  </OpportunitySite_WorkSite.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[site_label] [detected]</li>
     <li>detected->detected</li>
@@ -19,6 +23,17 @@
     <li>detected->revealed</li>
     <li>detected->uncovered</li>
   -->
-  <OpportunitySite_WorkSite.questNameRules.rulesStrings>TODO</OpportunitySite_WorkSite.questNameRules.rulesStrings>
+  <OpportunitySite_WorkSite.questNameRules.rulesStrings>
+    <li>questName->[detected][site_label]</li>
+    <li>detected->侦测</li>
+    <li>detected->发现</li>
+    <li>detected->近处</li>
+    <li>detected->找到</li>
+    <li>detected->确认</li>
+    <li>detected->注意到</li>
+    <li>detected->观察到</li>
+    <li>detected->透露</li>
+    <li>detected->暴露</li>
+  </OpportunitySite_WorkSite.questNameRules.rulesStrings>
   
 </LanguageData>

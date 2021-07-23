@@ -8,7 +8,13 @@
     <li>droneDetectionMethod(enemyFactionNeolithic==true)->spot the drone during its decent</li>
     <li>droneDetectionMethod(enemyFactionNeolithic==false)->detect the drone's energy signature</li>
   -->
-  <Hack_Spacedrone.questDescriptionRules.rulesStrings>TODO</Hack_Spacedrone.questDescriptionRules.rulesStrings>
+  <Hack_Spacedrone.questDescriptionRules.rulesStrings>
+    <li>questDescription->你探测到一艘在轨无人机， 其可能携带有关于 [relic_name] 的秘密情报。 你可以发送信号迫使其降落在[map_definite]。\n\n要获取情报须骇入无人机的计算机。 骇入过程需要时间， 智识水平高的人可以加速这一进程。[raidsDescription]\n\n无人机将在[destroyDelayTicks_duration]内自毁。</li>
+    <li>raidsDescription(allowViolence==true)->\n\n来自[enemyFaction_name]的 [enemyFaction_pawnsPlural] 能[droneDetectionMethod]。 只要无人机还存在，他们就会每[raidIntervalAvg_duration]派出袭击以试图摧毁它， 并窃取其中他们认为有价值的财富。 在他们到达之前，你会有一些时间准备防御措施。</li>
+    <li>raidsDescription(allowViolence==false)-></li>
+    <li>droneDetectionMethod(enemyFactionNeolithic==true)->在无人机未毁坏时发现它</li>
+    <li>droneDetectionMethod(enemyFactionNeolithic==false)->探测无人机的能量信号</li>
+  </Hack_Spacedrone.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[droneAdj] [drone] hack</li>
     <li>questName->[drone] [data] hack</li>
@@ -23,6 +29,19 @@
     <li>data->intel</li>
     <li>data->info</li>
   -->
-  <Hack_Spacedrone.questNameRules.rulesStrings>TODO</Hack_Spacedrone.questNameRules.rulesStrings>
+  <Hack_Spacedrone.questNameRules.rulesStrings>
+    <li>questName->骇入[droneAdj][drone]</li>
+    <li>questName->骇入[drone][data]</li>
+    <li>droneAdj->在轨</li>
+    <li>droneAdj->数据</li>
+    <li>droneAdj->古代</li>
+    <li>drone->无人机</li>
+    <li>drone->飞船</li>
+    <li>drone->太空无人机</li>
+    <li>drone->加密无人机</li>
+    <li>data->数据</li>
+    <li>data->情报</li>
+    <li>data->信息</li>
+  </Hack_Spacedrone.questNameRules.rulesStrings>
   
 </LanguageData>

@@ -4,13 +4,19 @@
   <!-- EN:
     <li>terminalHackedMessage->Terminal hacked. You've collected the information and can now leave.</li>
   -->
-  <Hack_WorshippedTerminal.questContentRules.rulesStrings>TODO</Hack_WorshippedTerminal.questContentRules.rulesStrings>
+  <Hack_WorshippedTerminal.questContentRules.rulesStrings>
+    <li>terminalHackedMessage->终端机已骇入。 你已获得情报， 现在可以离开了。</li>
+  </Hack_WorshippedTerminal.questContentRules.rulesStrings>
   <!-- EN:
     <li>questDescription->You've learned of an ancient terminal that contains information about the [relic_name]. However, the terminal is surrounded by a tribal village, and the locals venerate it. They aren't part of any major faction.\n\n[visitInfo]</li>
     <li>visitInfo(allowViolentQuests==true)->They are willing to let you visit on the pretense of worshiping it, but they will attack when you touch it.\n\nYou can attack the village from the outside, or enter peacefully and try to quickly escape with the data from the terminal.\n\nBeware - If you spend over [timer_duration] in the village or build anything near it, the locals will attack, and call reinforcements.</li>
     <li>visitInfo(allowViolentQuests==false)->They are willing to let you visit.</li>
   -->
-  <Hack_WorshippedTerminal.questDescriptionRules.rulesStrings>TODO</Hack_WorshippedTerminal.questDescriptionRules.rulesStrings>
+  <Hack_WorshippedTerminal.questDescriptionRules.rulesStrings>
+    <li>questDescription->你得知附近有一处远古终端机隐藏有关于 [relic_name] 的秘密情报。 然而终端机被一个部落村庄所包围， 并被当地人所崇拜。 他们不属于任何主要派系。\n\n[visitInfo]</li>
+    <li>visitInfo(allowViolentQuests==true)->他们仅允许你以朝圣为由前来参观终端机， 如果你接触终端机， 他们会转而攻击你。\n\n你可以从外部直接进攻村庄， 或者和平地进入村庄并尝试从其中快速获取数据。\n\n当心： 如果你在村庄滞留超过[timer_duration]或在附近建造任何建筑， 当地人会攻击并呼叫援军。</li>
+    <li>visitInfo(allowViolentQuests==false)->他们允许你参观。</li>
+  </Hack_WorshippedTerminal.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->The [adj] [terminalName]</li>
     <li>adj->worshipped</li>
@@ -29,6 +35,23 @@
     <li>terminalName->database</li>
     <li>terminalName->silicon</li>
   -->
-  <Hack_WorshippedTerminal.questNameRules.rulesStrings>TODO</Hack_WorshippedTerminal.questNameRules.rulesStrings>
+  <Hack_WorshippedTerminal.questNameRules.rulesStrings>
+    <li>questName->[adj][terminalName]</li>
+    <li>adj->被崇拜的</li>
+    <li>adj->受尊敬的</li>
+    <li>adj->古老的</li>
+    <li>adj->村民的</li>
+    <li>adj->村庄的</li>
+    <li>adj->部落的</li>
+    <li>adj->神秘的</li>
+    <li>terminalName(p=4)->终端机</li>
+    <li>terminalName->机器</li>
+    <li>terminalName->设备</li>
+    <li>terminalName->屏幕</li>
+    <li>terminalName->计算机</li>
+    <li>terminalName->数据银行</li>
+    <li>terminalName->数据库</li>
+    <li>terminalName->硅基设备</li>
+  </Hack_WorshippedTerminal.questNameRules.rulesStrings>
   
 </LanguageData>

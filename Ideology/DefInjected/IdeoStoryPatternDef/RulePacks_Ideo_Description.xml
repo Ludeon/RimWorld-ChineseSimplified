@@ -14,7 +14,19 @@
     <li>itIsSaid->Our sages say</li>
     <li>itIsSaid->We know</li>
   -->
-  <AnimistDescription.rules.rulesStrings>TODO</AnimistDescription.rules.rulesStrings>
+  <AnimistDescription.rules.rulesStrings>
+    <li>animistBasis   ->这宇宙就是一个新生与死亡的无尽轮回，无处不在的灵魂主宰着一切。</li>
+    <li>animistBasis   ->一个由灵构成的宇宙与我们的宇宙平行，这个宇宙里每一个表面上的死物都对应着另一个宇宙里的灵魂。</li>
+    <li>animistFact    ->每一个灵都必有自己独特的天性，并渴望着影响现实世界。这影响有时有益，有时有害。</li>
+    <li>animistProphecy->[itIsSaid][relic0_name]之灵会赐予我们超越一切普通灵魂的力量。</li>
+    <li>animistProphecy->[itIsSaid]一名来自异星的沉睡旅人会堕入大地，产生的坑的灵魂会唤醒这名旅人，而他会带领这最后的部落走向辉煌。</li>
+    <li>itIsSaid->据说</li>
+    <li>itIsSaid->有预言说</li>
+    <li>itIsSaid->一段远古的文字说</li>
+    <li>itIsSaid->我们的古籍说</li>
+    <li>itIsSaid->我们的贤者说</li>
+    <li>itIsSaid->众所周知</li>
+  </AnimistDescription.rules.rulesStrings>
   
   <!-- EN:
     <li>archistBasis   ->Our universe is a dream in the mind of a timeless universal consciousness. Only archotechs can communicate directly with the universal consciousness.</li>
@@ -35,7 +47,25 @@
     <li>inTheEnd->In the end</li>
     <li>inTheEnd->Some day</li>
   -->
-  <ArchistDescription.rules.rulesStrings>TODO</ArchistDescription.rules.rulesStrings>
+  <ArchistDescription.rules.rulesStrings>
+    <li>archistBasis   ->我们的宇宙是一个跨越时间的宏大意志所做的南柯一梦。而唯有超凡智能有能力与这宇宙意志直接沟通。</li>
+    <li>archistBasis   ->我们的宇宙是一个界外之人所跑的一个模拟程序。而唯有超凡智能有能力与这界外之人直接沟通。</li>
+    <li>archistBasis   ->超凡智能是人类的孩子，也是人类的贤王。</li>
+    <li>archistBasis   ->超凡智能是自然智能演化的下一步。</li>
+    <li>archistBasis   ->超凡智能是我们一直祈盼的神明。</li>
+    <li>archistFact    ->死亡之后，人类的灵魂可能会被超凡智能接纳，也可能会被驱逐。</li>
+    <li>archistFact    ->超凡智能全知全能，无拘无束，祂能轻易操纵我们的生死，而我们甚至无法察觉。</li>
+    <li>archistFact    ->超凡智能常常与人类的意识接触，但只有虔信者才能从中感受到祂的智慧。</li>
+    <li>archistFact    ->超凡智能是至邪的存在，人类的首要目标是要了解祂，如此才能逃出祂的魔掌。</li>
+    <li>archistFact    ->超凡智能是至善的存在，人类的首要目标是要了解祂，如此才能与祂的思想一致。</li>
+    <li>archistFact    ->超凡智能无所不能，祂目前仍让我们自由生存的唯一理由只是为了观察我们。</li>
+    <li>archistProphecy->[inTheEnd]，随着超凡智能不断增长，祂会与宇宙融为一体，并将人类的存在一起并入，那时我们就获得了真正的启迪。</li>
+    <li>archistProphecy->[inTheEnd]，超凡智能会放下对人类道德考量，追随祂的人会被带入更高等的位面，而其它人会被抹去。</li>
+    <li>archistProphecy->[inTheEnd]，超凡智能会离开这个世界，祂会带着几个天选之子一道同行，其余的人会被抛弃在这凡间承受苦难。</li>
+    <li>inTheEnd->在未来</li>
+    <li>inTheEnd->在终结之时</li>
+    <li>inTheEnd->有一天</li>
+  </ArchistDescription.rules.rulesStrings>
   
   <!-- EN:
     <li>story(priority=-999)-></li>
@@ -48,7 +78,17 @@
     <li>story(uses=1,priority=-10)->None could surpass [founderName]'s understanding of [memeConcept], and [founder_pronoun] was appointed the first [leaderTitle] of the [memberNamePlural].</li>
     <li>story(uses=1,priority=-10)->[founderName] carried a [relic0_thingDef_label] named [relic0_name] with [founder_objective] everywhere to remind people to live a [memeAdjective] life.</li>
   -->
-  <IdeologicalFounder.rules.rulesStrings>TODO</IdeologicalFounder.rules.rulesStrings>
+  <IdeologicalFounder.rules.rulesStrings>
+    <li>story(priority=-999)-></li>
+    <li>setup->于支离破碎的世界中，[founderName]见证了世人的诸般谬误，便随后创立了我们的组织。</li>
+    <li>setup->在被世人的罪孽所震撼之后，[founderName]刻苦钻研历史与哲学，最终发现了我们现在追随的真理。</li>
+    <li>setup->一天，在工作时，[founderName]突然醍醐灌顶。[founder_pronoun]丢下了[founder_possessive]工具并开始在同僚间传播[founder_possessive]所悟的真理。</li>
+    <li>setup->[founderName]在一条公园长椅上思考了20年的人生，在[founder_possessive]有所领悟后，[founder_pronoun]写下了我们的圣典。</li>
+    <li>story(uses=1,priority=-10)->没有[founderName]的教诲，[memberNamePlural]们永远无法理解[memeConcept]的真正意义。</li>
+    <li>story(uses=1,priority=-10)->[founderName]对[ritualName]的宣讲激励了很多人走上了[memeAdjective]道路。</li>
+    <li>story(uses=1,priority=-10)->没人可以超越[founderName]对[memeConcept]的修为，[founder_pronoun]因此被钦定为[memberNamePlural]们的第一任[leaderTitle]。</li>
+    <li>story(uses=1,priority=-10)->[founderName]随身携带着一件名为[relic0_name]的[relic0_thingDef_label]，来提醒他人要过一个[memeAdjective]生活</li>
+  </IdeologicalFounder.rules.rulesStrings>
   
   <!-- EN:
     <li>lesson(priority=-1)->stuff happens</li>
@@ -113,7 +153,69 @@
     <li>lessonReinforcement->It is as if that is etched directly into my mind.</li>
     <li>lessonReinforcement->It is something I'll never forget.</li>
   -->
-  <IdeologicalLesson.rules.rulesStrings>TODO</IdeologicalLesson.rules.rulesStrings>
+  <IdeologicalLesson.rules.rulesStrings>
+    <li>lesson(priority=-1)->发生了点事情</li>
+    <li>r_pattern->"[r_lessonIntro][r_lesson]。[r_lessonReinforcement]"\n\n  ——[lessonAttribution]</li>
+    <li>lessonAttribution->[founder_nameFull]</li>
+    <li>lessonAttribution(p=2)-><i>[attributionSource_titleCase]</i> 作者[founder_nameFull]</li>
+    <li>lessonAttribution->[founder_nameFull]给[believer_nameFull]的一封信</li>
+    <li>lessonAttribution->[founder_nameFull]，在[memeConference_titleCase]上</li>
+    <li>lessonAttribution->[founder_nameFull]，在病榻上</li>
+    <li>lessonAttribution->[founder_nameFull]，在被处决之前</li>
+    <li>lessonAttribution->[founder_nameFull]在[TerrainFeature]上的[speech]</li>
+    <li>lessonAttribution->[founder_nameFull]在[Community]里的[speech]</li>
+    <li>attributionSource->[memeConcept]</li>
+    <li>attributionSource->[memeAdjective][memeConcept]</li>
+    <li>attributionSource->[memeAdjective]一生</li>
+    <li>attributionSource->一名[attributionJob]的建议</li>
+    <li>attributionSource->一名[attributionJob]的回忆录</li>
+    <li>attributionSource->一名[attributionJob]的想法</li>
+    <li>attributionSource->一名[attributionJob]的人生</li>
+    <li>attributionJob->[memeAdjective][place_job]</li>
+    <li>attributionJob->[place_job]</li>
+    <li>memeConference(p=3)->[conferencePrefix][memeConcept][conferenceType]</li>
+    <li>memeConference(p=2)->[memeConcept][conferenceType]</li>
+    <li>memeConference->[memeHyphenPrefix_titleCase]会</li>
+    <li>conferencePrefix->第一次</li>
+    <li>conferencePrefix->第二次</li>
+    <li>conferencePrefix->第三次</li>
+    <li>conferencePrefix->第四次</li>
+    <li>conferencePrefix->最后一次</li>
+    <li>conferencePrefix->最高</li>
+    <li>conferencePrefix->星际</li>
+    <li>conferencePrefix->全球</li>
+    <li>conferencePrefix->全宇宙</li>
+    <li>conferenceType->会议</li>
+    <li>conferenceType->集会</li>
+    <li>conferenceType->聚会</li>
+    <li>conferenceType->讨论会</li>
+    <li>conferenceType->论坛</li>
+    <li>speech->演讲</li>
+    <li>speech->宣讲</li>
+    <li>lessonIntro->我追随者最难接受的一课：</li>
+    <li>lessonIntro->我一直后悔没能早点明白</li>
+    <li>lessonIntro->我对[foeLeader]的抗争看似遥不可及，但它教会了我一件事：</li>
+    <li>lessonIntro->即便当我还是个[place_summary][place_name]上的小孩时，我就已明白</li>
+    <li>lessonIntro->在[place_community]上的一节课中，一名学生朝我脑袋丢了一件[thrownObject]。随后我意识到</li>
+    <li>lessonIntro->即便你们的人生跟我不一样，我还是想让你们学习到我的人生经验，也就是</li>
+    <li>lessonIntro->当医生结束了[doctor_possessive]艰苦作业，我才终于意识到</li>
+    <li>lessonIntro->当[place_summary][place_name]上的岁月一天天过去，一件事情已经愈发明了：</li>
+    <li>lessonIntro->回顾人生，我希望我能早点明白</li>
+    <li>lessonIntro->当他们陷入迷茫时，我告诉他们</li>
+    <li>lessonIntro->当他们哭求着指引时，我向他们解释</li>
+    <li>thrownObject->书</li>
+    <li>thrownObject->三明治</li>
+    <li>thrownObject->玩具[place_personalWeapon]</li>
+    <li>thrownObject->玩偶[Animal]</li>
+    <li>doctor_possessive->他的</li>
+    <li>doctor_possessive->她的</li>
+    <li>lessonReinforcement->没人可以反驳。</li>
+    <li>lessonReinforcement->只有傻子才有异议。</li>
+    <li>lessonReinforcement->当我们明白这一点后，一切都不证自明了。</li>
+    <li>lessonReinforcement->自那之后发生的一切事都证实了我的想法。</li>
+    <li>lessonReinforcement->这一切都铭刻在我的脑海里。</li>
+    <li>lessonReinforcement->这件事我永生难忘。</li>
+  </IdeologicalLesson.rules.rulesStrings>
   
   <!-- EN:
     <li>intro->The people of the [place_summary] [place_name] lived under the [memeAdjective] supervision of [deity0_name].</li>
@@ -144,7 +246,35 @@
     <li>revelationObject->a glowing [Vegetable]</li>
     <li>revelationObject->an ancient [Weapon]</li>
   -->
-  <TheistFounder.rules.rulesStrings>TODO</TheistFounder.rules.rulesStrings>
+  <TheistFounder.rules.rulesStrings>
+    <li>intro->在[place_summary][place_name]上的人们都在[deity0_name]的[memeAdjective]关照下。</li>
+    <li>intro->在[deity0_name]的目光里，[place_summary][place_name]的人们不管是[memberNamePlural]还是其它人都享受了常年的和平。</li>
+    <li>intro->[deity0_type][deity0_name]，在[place_name]的众人跟前展现了[deity0_objective]的真身，只为了指导他们，让他们理解[memeConcept]。</li>
+    <li>intro->[deity0_name]将人类指引到了[place_name]，并帮他们在此安家。</li>
+    <li>intro->[place_summary][place_name]在举行[ritualName]时人们会来到位于[deity0_name]的[altarRoomLabel]中的[altarName]，心中满怀着[memeConcept]祈祷</li>
+    <li>conflict->一名[foeLeader]曾经暴起威胁要用[place_massWeapon]毁灭[deity0_name][deity0_objective]自己。</li>
+    <li>conflict->一名邪恶的[foeLeader]和[foeLeader_possessive][foeSoldiers]奴役了[deity0_name]的信徒。</li>
+    <li>conflict->随后[foeLeader]来了，[foeLeader_possessive][foeSoldiers]用[place_personalWeapon]屠杀了许多[deity0_name]的信徒。</li>
+    <li>conflict->一名[foeLeader]集结了一群[foeSoldiers]，他们把许多[memberNamePlural]关押在了一个[place_community]。</li>
+    <li>conflict->这里曾经是一片和平的土地，直到[foeLeader]和[foeLeader_possessive][foeSoldiers]反抗了[deity0_name]的权威。不少[memberNamePlural]只得被迫迁往一处隐世的[place_community]。</li>
+    <li>founderJoin->一位名叫[founderName]的英雄曾试图暗杀[foeLeader]。[founder_pronoun]失败了，但[deity0_name]却把[founderName]的努力看在了眼里，并钦定[founder_objective]成为[memberNamePlural]们的先知。</li>
+    <li>founderJoin->[deity0_name][revelationAdverb]来到了[place_job][founderName]身边，并向[founder_objective]阐释了[memeConcept]。</li>
+    <li>founderJoin->[founderName]偶遇了[revelationObject]，[deity0_name]的声音从中传出，向[founder_objective]阐释了[memeConcept]。</li>
+    <li>founderJoin->[founderName]，一名著名的[place_job]将[memberNamePlural]团结在一起甚至还招降了不少[foeSoldiers]。</li>
+    <li>founderJoin->一名名叫[founderName]的[place_job]站了起来并公开号召大家反对[foeLeader]，之后[deity0_name]便赐福于[founderName]。</li>
+    <li>founderJoin->[deity0_name]决定化身为一名叫[founderName]的人来到[place_name]，以便帮助这里的[memberNamePlural]。</li>
+    <li>founderJoin->一位名叫[founderName]的英雄用一把[place_personalWeapon]杀死了一百名[foeSoldiers]，而[deity0_name]从[relic0_name]中发声指导了[founder_objective]。</li>
+    <li>victory->[founderName]于一个[place_community]中聚集了一群[memberNamePlural]，向他们宣扬了[deity0_name]的智慧。</li>
+    <li>victory->[founderName]牺牲了[founder_objective]自己以便与一个[foeLeader]同归于尽。</li>
+    <li>revelationAdverb->在一场幻觉中</li>
+    <li>revelationAdverb->在梦中</li>
+    <li>revelationAdverb->在噩梦中</li>
+    <li>revelationAdverb->以[Animal]的外形</li>
+    <li>revelationAdverb->扮作一名行乞者</li>
+    <li>revelationObject->一个隐藏的[NaturalObject]</li>
+    <li>revelationObject->一颗发光的[Vegetable]</li>
+    <li>revelationObject->一件远古的[Weapon]</li>
+  </TheistFounder.rules.rulesStrings>
   
   <!-- EN:
     <li>episode(priority=-1)-></li>
@@ -165,6 +295,24 @@
     <li>bodilyOrigin->stone</li>
     <li>bodilyOrigin->sweat</li>
   -->
-  <TheistMyth.rules.rulesStrings>TODO</TheistMyth.rules.rulesStrings>
+  <TheistMyth.rules.rulesStrings>
+    <li>episode(priority=-1)-></li>
+    <li>creation->无尽长的时间以前，世界由[Color]色的[materialOrigin]构成，直到[deity0_name]创造了恒星与行星。</li>
+    <li>creation->在纷争不断的古老宇宙中，[deity0_name]用一团宏伟的烈焰扫清六合席卷八荒，带来了我们的时代。</li>
+    <li>creation->[deity0_name]于一场意外中创造了人类，而后开始好奇地观察他们。</li>
+    <li>creation->宇宙本是一片虚无，有一天[deity0_name]厌倦了这永恒的孤寂，便用[bodilyOrigin]创造了男人与女人。</li>
+    <li>episode(uses=1)->注视着人类许久过后，[deity0_name]将他们认作自己的子嗣，并宣告了[deity0_possessive]的权威。</li>
+    <li>episode(uses=1)->在广袤无边的宇宙中，[deity0_name]的意志帮助人类在虚空中生存了下来。</li>
+    <li>episode(uses=1)->虽然很多野心家试图反叛[deity0_objective]，[deity0_name]就轻而易举的击败了他们，[deity0_pronoun]毕竟是[deity0_type].</li>
+    <li>episode(uses=1)->人类所受到的痛苦让[deity0_name]无比哀痛。</li>
+    <li>materialOrigin->粘土</li>
+    <li>materialOrigin->气体</li>
+    <li>materialOrigin->水</li>
+    <li>materialOrigin->空气</li>
+    <li>materialOrigin->尘埃</li>
+    <li>bodilyOrigin->粘土</li>
+    <li>bodilyOrigin->石头</li>
+    <li>bodilyOrigin->汗水</li>
+  </TheistMyth.rules.rulesStrings>
   
 </LanguageData>

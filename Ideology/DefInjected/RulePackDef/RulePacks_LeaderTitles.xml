@@ -10,7 +10,15 @@
     <li>cultureLeaderAdjective->grand</li>
     <li>cultureLeaderNoun->chief</li>
   -->
-  <LeaderTitleMaker_Corunan.rulePack.rulesStrings>TODO</LeaderTitleMaker_Corunan.rulePack.rulesStrings>
+  <LeaderTitleMaker_Corunan.rulePack.rulesStrings>
+    <li>memeLeaderNoun(priority=1)->[cultureLeaderNoun]</li>
+    <li>cultureLeaderTitle->[cultureLeaderAdjective][cultureLeaderNoun]</li>
+    <li>cultureLeaderAdjective->大</li>
+    <li>cultureLeaderAdjective->高级</li>
+    <li>cultureLeaderAdjective->第一</li>
+    <li>cultureLeaderAdjective->大</li>
+    <li>cultureLeaderNoun->酋长</li>
+  </LeaderTitleMaker_Corunan.rulePack.rulesStrings>
   
   <!-- EN:
     <li>cultureLeaderAdjective->high</li>
@@ -22,7 +30,16 @@
     <li>cultureLeaderNoun->governor</li>
     <li>cultureLeaderNoun->leader</li>
   -->
-  <LeaderTitleMaker_GenericContent.rulePack.rulesStrings>TODO</LeaderTitleMaker_GenericContent.rulePack.rulesStrings>
+  <LeaderTitleMaker_GenericContent.rulePack.rulesStrings>
+    <li>cultureLeaderAdjective->高级</li>
+    <li>cultureLeaderAdjective->大</li>
+    <li>cultureLeaderAdjective->第一</li>
+    <li>cultureLeaderAdjective->首席</li>
+    <li>cultureLeaderNoun->总统</li>
+    <li>cultureLeaderNoun->理事</li>
+    <li>cultureLeaderNoun->总督</li>
+    <li>cultureLeaderNoun->领导</li>
+  </LeaderTitleMaker_GenericContent.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_leaderTitle(p=6)->[memeLeaderAdjective] [memeLeaderNoun]</li>
@@ -30,7 +47,12 @@
     <li>r_leaderTitle(p=1)->[memeLeaderAdjective] [cultureLeaderNoun]</li>
     <li>r_leaderTitle(p=1)->[cultureLeaderTitle]</li>
   -->
-  <LeaderTitleMaker_GlobalStructure.rulePack.rulesStrings>TODO</LeaderTitleMaker_GlobalStructure.rulePack.rulesStrings>
+  <LeaderTitleMaker_GlobalStructure.rulePack.rulesStrings>
+    <li>r_leaderTitle(p=6)->[memeLeaderAdjective][memeLeaderNoun]</li>
+    <li>r_leaderTitle(p=3)->[cultureLeaderAdjective][memeLeaderNoun]</li>
+    <li>r_leaderTitle(p=1)->[memeLeaderAdjective][cultureLeaderNoun]</li>
+    <li>r_leaderTitle(p=1)->[cultureLeaderTitle]</li>
+  </LeaderTitleMaker_GlobalStructure.rulePack.rulesStrings>
   
   <!-- EN:
     <li>memeLeaderNoun(priority=1)->[cultureLeaderNoun]</li>
@@ -44,7 +66,18 @@
     <li>cultureLeaderNoun->gun</li>
     <li>cultureLeaderNoun->dog</li>
   -->
-  <LeaderTitleMaker_Kriminul.rulePack.rulesStrings>TODO</LeaderTitleMaker_Kriminul.rulePack.rulesStrings>
+  <LeaderTitleMaker_Kriminul.rulePack.rulesStrings>
+    <li>memeLeaderNoun(priority=1)->[cultureLeaderNoun]</li>
+    <li>cultureLeaderTitle->[cultureLeaderAdjective][cultureLeaderNoun]</li>
+    <li>cultureLeaderAdjective->大</li>
+    <li>cultureLeaderAdjective->大</li>
+    <li>cultureLeaderAdjective->大</li>
+    <li>cultureLeaderNoun->Boss</li>
+    <li>cultureLeaderNoun->魔头</li>
+    <li>cultureLeaderNoun->老板</li>
+    <li>cultureLeaderNoun->老板</li>
+    <li>cultureLeaderNoun->老板</li>
+  </LeaderTitleMaker_Kriminul.rulePack.rulesStrings>
   
   <!-- EN:
     <li>cultureLeaderTitle->[cultureLeaderAdjective] [cultureLeaderNoun]</li>
@@ -56,11 +89,22 @@
     <li>cultureLeaderNoun->guide</li>
     <li>cultureLeaderNoun->steersman</li>
   -->
-  <LeaderTitleMaker_Rustican.rulePack.rulesStrings>TODO</LeaderTitleMaker_Rustican.rulePack.rulesStrings>
+  <LeaderTitleMaker_Rustican.rulePack.rulesStrings>
+    <li>cultureLeaderTitle->[cultureLeaderAdjective][cultureLeaderNoun]</li>
+    <li>cultureLeaderAdjective->首席</li>
+    <li>cultureLeaderAdjective->第一</li>
+    <li>cultureLeaderNoun->参议员</li>
+    <li>cultureLeaderNoun->领导</li>
+    <li>cultureLeaderNoun->大臣</li>
+    <li>cultureLeaderNoun->领导</li>
+    <li>cultureLeaderNoun->领航者</li>
+  </LeaderTitleMaker_Rustican.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_leaderTitle->high stellarch</li>
   -->
-  <LeaderTitleMaker_Sophian.rulePack.rulesStrings>TODO</LeaderTitleMaker_Sophian.rulePack.rulesStrings>
+  <LeaderTitleMaker_Sophian.rulePack.rulesStrings>
+    <li>r_leaderTitle->高级星主</li>
+  </LeaderTitleMaker_Sophian.rulePack.rulesStrings>
   
 </LanguageData>

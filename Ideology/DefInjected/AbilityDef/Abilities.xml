@@ -2,102 +2,102 @@
 <LanguageData>
   
   <!-- EN: Animal calm -->
-  <AnimalCalm.label>TODO</AnimalCalm.label>
+  <AnimalCalm.label>安抚动物</AnimalCalm.label>
   <!-- EN: Use unique methods of connecting with animals to calm a maddened beast. -->
-  <AnimalCalm.description>TODO</AnimalCalm.description>
+  <AnimalCalm.description>使用独特的方法与动物沟通，以便安抚一头疯狂的野兽。</AnimalCalm.description>
   <!-- EN: {INITIATOR_labelShort} successfully calmed {RECIPIENT_labelShort}. -->
-  <AnimalCalm.comps.CompAbilityEffect_StopManhunter.successMessage>TODO</AnimalCalm.comps.CompAbilityEffect_StopManhunter.successMessage>
+  <AnimalCalm.comps.CompAbilityEffect_StopManhunter.successMessage>{INITIATOR_labelShort}成功地使{RECIPIENT_labelShort}变得平静温顺。</AnimalCalm.comps.CompAbilityEffect_StopManhunter.successMessage>
   
   <!-- EN: berserk trance -->
-  <BerserkTrance.label>TODO</BerserkTrance.label>
+  <BerserkTrance.label>狂暴催眠</BerserkTrance.label>
   <!-- EN: The caster fills himself with anger over ideological grievances. This strengthens the body past normal limits, but also means losing control and attacking every enemy nearby in an unstoppable rage. The berserk state will last for 3 hours. -->
-  <BerserkTrance.description>TODO</BerserkTrance.description>
+  <BerserkTrance.description>施术者对于意识形态上的不满使得自己满心愤怒。这种状态将提高身体强度超过正常极限，但也意味着失去自我控制能力，还会在狂暴愤怒的状态下攻击附近的每个敌人。此状态将持续3小时。</BerserkTrance.description>
   
   <!-- EN: combat command -->
-  <CombatCommand.label>TODO</CombatCommand.label>
+  <CombatCommand.label>战斗命令</CombatCommand.label>
   <!-- EN: Create an aura that boosts the combat skills of everyone nearby. The effect lasts 24 hours and remains attached to the leader for the duration. -->
-  <CombatCommand.description>TODO</CombatCommand.description>
+  <CombatCommand.description>创造一个提升附近所有人战斗技能的光环。该光环效果会在首领周围一定范围内持续生效24小时。</CombatCommand.description>
   
   <!-- EN: conversion ritual -->
-  <ConversionRitual.label>TODO</ConversionRitual.label>
+  <ConversionRitual.label>皈依仪式</ConversionRitual.label>
   <!-- EN: Try to persuade someone to adopt your beliefs. If it goes well, they will lose some certainty in their ideoligion and may convert. If it backfires, they will gain certainty in their old beliefs.\n\nTo start this ritual at a specific place, select a ritual spot or matching altar/ideogram. -->
-  <ConversionRitual.description>TODO</ConversionRitual.description>
+  <ConversionRitual.description>试着劝说某人采纳你的文化形态。如果进展顺利，他们就会失去对自己某些文化形态的认可，并有可能可能改变文化形态。如果效果不好，他们会更加坚定自己原有的文化形态。\n\n需要选择一个特定的仪式地点，并且要有匹配的祭坛或者文化符号才能开始仪式。</ConversionRitual.description>
   
   <!-- EN: convert -->
-  <Convert.label>TODO</Convert.label>
+  <Convert.label>教化</Convert.label>
   <!-- EN: Attempt to convert someone to the speaker's ideoligion. This will reduce the target's certainty in their own beliefs. The certainty reduction depends on the speaker's negotiation ability. -->
-  <Convert.description>TODO</Convert.description>
+  <Convert.description>试图通过教化将某人的不同文化形态皈依至谈话者己方文化形态。这将减少目标对自己文化形态的认可度。降低程度取决于谈话者的谈判能力。</Convert.description>
   <!-- EN: {INITIATOR_labelShort} failed to convert {RECIPIENT_labelShort}. {RECIPIENT_labelShort} was upset by the attempt, but {RECIPIENT_possessive} certainty fell from {CERTAINTYBEFORE} to {CERTAINTYAFTER}. -->
-  <Convert.comps.CompAbilityEffect_Convert.failMessage>TODO</Convert.comps.CompAbilityEffect_Convert.failMessage>
+  <Convert.comps.CompAbilityEffect_Convert.failMessage>{INITIATOR_labelShort}未能成功教化{RECIPIENT_labelShort}。{RECIPIENT_labelShort}对这种试探行为感到厌烦，不过{RECIPIENT_possessive}认可度从{CERTAINTYBEFORE}下降到{CERTAINTYAFTER}。</Convert.comps.CompAbilityEffect_Convert.failMessage>
   <!-- EN: {INITIATOR_labelShort} has converted {RECIPIENT_labelShort} to {IDEO}. -->
-  <Convert.comps.CompAbilityEffect_Convert.successMessage>TODO</Convert.comps.CompAbilityEffect_Convert.successMessage>
+  <Convert.comps.CompAbilityEffect_Convert.successMessage>{INITIATOR_labelShort}成功地将{RECIPIENT_labelShort}教化为{IDEO}。</Convert.comps.CompAbilityEffect_Convert.successMessage>
   
   <!-- EN: Counsel -->
-  <Counsel.label>TODO</Counsel.label>
+  <Counsel.label>劝慰</Counsel.label>
   <!-- EN: Offer counsel to a person to cancel the effect of a sad memory. The chance of success depends on the speaker's social skills and their relationship with the listener. -->
-  <Counsel.description>TODO</Counsel.description>
+  <Counsel.description>劝慰某个人走出悲伤记忆，面对现实生活。成功几率取决于谈话者的社交技能等级以及与目标之间的社会关系。</Counsel.description>
   <!-- EN: {INITIATOR_labelShort} botched the attempt to counsel {RECIPIENT_labelShort}. {RECIPIENT_labelShort} has become upset. -->
-  <Counsel.comps.CompAbilityEffect_Counsel.failMessage>TODO</Counsel.comps.CompAbilityEffect_Counsel.failMessage>
+  <Counsel.comps.CompAbilityEffect_Counsel.failMessage>{INITIATOR_labelShort}搞砸了劝慰{RECIPIENT_labelShort}这件事。{RECIPIENT_labelShort}因此变得心烦意乱。</Counsel.comps.CompAbilityEffect_Counsel.failMessage>
   <!-- EN: {INITIATOR_labelShort} successfully counselled {RECIPIENT_labelShort}, canceling the mood impact of {2}. -->
-  <Counsel.comps.CompAbilityEffect_Counsel.successMessage>TODO</Counsel.comps.CompAbilityEffect_Counsel.successMessage>
+  <Counsel.comps.CompAbilityEffect_Counsel.successMessage>{INITIATOR_labelShort}成功劝慰了{RECIPIENT_labelShort}，并平复其{2}情绪状态。</Counsel.comps.CompAbilityEffect_Counsel.successMessage>
   <!-- EN: {INITIATOR_labelShort} successfully counselled {RECIPIENT_labelShort}, increasing {RECIPIENT_possessive} mood by {MOODBONUS}. -->
-  <Counsel.comps.CompAbilityEffect_Counsel.successMessageNoNegativeThought>TODO</Counsel.comps.CompAbilityEffect_Counsel.successMessageNoNegativeThought>
+  <Counsel.comps.CompAbilityEffect_Counsel.successMessageNoNegativeThought>{INITIATOR_labelShort}成功劝慰了{RECIPIENT_labelShort}，并提高{RECIPIENT_possessive}情绪值{MOODBONUS}。</Counsel.comps.CompAbilityEffect_Counsel.successMessageNoNegativeThought>
   
   <!-- EN: farming command -->
-  <FarmingCommand.label>TODO</FarmingCommand.label>
+  <FarmingCommand.label>农耕命令</FarmingCommand.label>
   <!-- EN: Offer guidance on farming techniques, boosting the farming abilities for everyone nearby. The effect remains attached to the caster for 24 hours. -->
-  <FarmingCommand.description>TODO</FarmingCommand.description>
+  <FarmingCommand.description>提供耕作技术指导，提高附近所有人的耕作能力。该效果在施术者身上持续24小时。</FarmingCommand.description>
   
   <!-- EN: Immunity drive -->
-  <ImmunityDrive.label>TODO</ImmunityDrive.label>
+  <ImmunityDrive.label>免疫激励</ImmunityDrive.label>
   <!-- EN: Offer moral support that energizes the body, boosting someone's immunity gain for one day. -->
-  <ImmunityDrive.description>TODO</ImmunityDrive.description>
+  <ImmunityDrive.description>提供精神上的激励，使身体充满活力，提高某人一天的免疫力增量。</ImmunityDrive.description>
   
   <!-- EN: leader speech -->
-  <LeaderSpeech.label>TODO</LeaderSpeech.label>
+  <LeaderSpeech.label>领袖演讲</LeaderSpeech.label>
   <!-- EN: Initiate a leader speech. If it goes well, listeners will gain improved mood, respect for the speaker, and possibly new inspirations. If it goes poorly, social damage will occur. -->
-  <LeaderSpeech.description>TODO</LeaderSpeech.description>
+  <LeaderSpeech.description>发起一个领袖演讲。如果进展顺利，听众将获得情绪改善，增加对演讲者的尊重程度，并可能获得新的灵感激发。如果进展不顺利，将会损害人际关系。</LeaderSpeech.description>
   
   <!-- EN: marksman command -->
-  <MarksmanCommand.label>TODO</MarksmanCommand.label>
+  <MarksmanCommand.label>射手命令</MarksmanCommand.label>
   <!-- EN: Call out shots and boost the shooting skills of everyone nearby. The effect remains attached to the caster for 24 hours. -->
-  <MarksmanCommand.description>TODO</MarksmanCommand.description>
+  <MarksmanCommand.description>呼叫射击并提升附近所有人的射击技能。该效果在施术者身上持续24小时。</MarksmanCommand.description>
   
   <!-- EN: mining command -->
-  <MiningCommand.label>TODO</MiningCommand.label>
+  <MiningCommand.label>采矿命令</MiningCommand.label>
   <!-- EN: Offer guidance on mining techniques, boosting the mining speed for everyone nearby. The effect remains attached to the caster for 24 hours. -->
-  <MiningCommand.description>TODO</MiningCommand.description>
+  <MiningCommand.description>提供采矿技术指导，提高附近所有人的采矿能力。该效果在施术者身上持续24小时。</MiningCommand.description>
   
   <!-- EN: preach health -->
-  <PreachHealth.label>TODO</PreachHealth.label>
+  <PreachHealth.label>健康宣讲</PreachHealth.label>
   <!-- EN: Preach moral strength to a sick or wounded person through the concepts of your ideology. This will improve their rate of wound healing and immunity gain. -->
-  <PreachHealth.description>TODO</PreachHealth.description>
+  <PreachHealth.description>通过向生病或受伤的人进行文化意识概念宣讲。提高他们的伤口愈合速度和免疫力增量。</PreachHealth.description>
   
   <!-- EN: production command -->
-  <ProductionCommand.label>TODO</ProductionCommand.label>
+  <ProductionCommand.label>生产命令</ProductionCommand.label>
   <!-- EN: Offer guidance on construction techniques, boosting construction and crafting abilities for everyone nearby. The effect remains attached to the caster for 24 hours. -->
-  <ProductionCommand.description>TODO</ProductionCommand.description>
+  <ProductionCommand.description>提供制造技术指导，提高附近所有人的制造能力。该效果在施术者身上持续24小时。</ProductionCommand.description>
   
   <!-- EN: reassure -->
-  <Reassure.label>TODO</Reassure.label>
+  <Reassure.label>坚定信念</Reassure.label>
   <!-- EN: Increase someone's certainty in their own beliefs. The regained certainty is based on the speaker's negotiation ability. -->
-  <Reassure.description>TODO</Reassure.description>
+  <Reassure.description>坚定某人对于自己信条的认可程度。坚定成果取决于谈话者的谈判能力。</Reassure.description>
   <!-- EN: {INITIATOR_labelShort} has reassured {RECIPIENT_labelShort}, increasing {RECIPIENT_possessive} certainty in {IDEO} from {BEFORECERTAINTY} to {AFTERCERTAINTY}. -->
-  <Reassure.comps.CompAbilityEffect_Reassure.successMessage>TODO</Reassure.comps.CompAbilityEffect_Reassure.successMessage>
+  <Reassure.comps.CompAbilityEffect_Reassure.successMessage>{INITIATOR_labelShort}成功激励了{RECIPIENT_labelShort}，将{RECIPIENT_possessive}对{IDEO}的认可度从{BEFORECERTAINTY}提高到{AFTERCERTAINTY}。</Reassure.comps.CompAbilityEffect_Reassure.successMessage>
   
   <!-- EN: research command -->
-  <ResearchCommand.label>TODO</ResearchCommand.label>
+  <ResearchCommand.label>科研命令</ResearchCommand.label>
   <!-- EN: Provide suggestions and mental support, boosting the research speed of everyone nearby. The effect remains attached to the caster for 24 hours. -->
-  <ResearchCommand.description>TODO</ResearchCommand.description>
+  <ResearchCommand.description>提供建议和精神支持，提高附近所有人的科研能力。该效果在施术者身上持续24小时。</ResearchCommand.description>
   
   <!-- EN: trial -->
-  <Trial.label>TODO</Trial.label>
+  <Trial.label>审判</Trial.label>
   <!-- EN: Charge someone with a terrible wrongdoing and initiate a trial where they will be either convicted or exonerated. If the target is convicted, they can be freely imprisoned, executed or banished without penalty. The chance of conviction depends on the social abilities of the accuser and accused. -->
-  <Trial.description>TODO</Trial.description>
+  <Trial.description>指控某人犯有可怕的罪行，并启动一场审判来决定有罪或无罪。如果目标被定罪，你可以将目标监禁、处决或放逐并且不受惩罚。定罪的几率取决于指控者和被告的社交能力。</Trial.description>
   
   <!-- EN: work drive -->
-  <WorkDrive.label>TODO</WorkDrive.label>
+  <WorkDrive.label>工作激励</WorkDrive.label>
   <!-- EN: Call on a person to work harder for some time. -->
-  <WorkDrive.description>TODO</WorkDrive.description>
+  <WorkDrive.description>呼吁一个人在一段时间内更努力地工作</WorkDrive.description>
   
 </LanguageData>

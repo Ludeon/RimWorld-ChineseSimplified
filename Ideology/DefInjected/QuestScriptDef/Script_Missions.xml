@@ -8,7 +8,13 @@
     <li>passengersSingularOrPlural(colonistCount==1)->passenger</li>
     <li>passengersSingularOrPlural(colonistCount>=2)->passengers</li>
   -->
-  <AncientComplex_Mission.questContentRules.rulesStrings>TODO</AncientComplex_Mission.questContentRules.rulesStrings>
+  <AncientComplex_Mission.questContentRules.rulesStrings>
+    <li>terminalHackedMessage->终端机已骇入。 {COUNT} / [terminalCount] 完成。</li>
+    <li>passengersIncapableOfHackingDialogLabel->[passengersSingularOrPlural]无法执行骇入工作。</li>
+    <li>passengersIncapableOfHackingDialogText->执行任务 [resolvedQuestName] 的穿梭机没有搭载可以完成骇入工作的乘客。 你必须至少派一个有骇入能力的人去调查这个远古建筑群。</li>
+    <li>passengersSingularOrPlural(colonistCount==1)->乘客</li>
+    <li>passengersSingularOrPlural(colonistCount>=2)->乘客们</li>
+  </AncientComplex_Mission.questContentRules.rulesStrings>
   <!-- EN:
     <li>complex->complex</li>
     <li>complex->compound</li>
@@ -21,19 +27,39 @@
     <li>investigation->excavation</li>
     <li>investigation->hacking</li>
   -->
-  <AncientComplex_Mission.questDescriptionAndNameRules.rulesStrings>TODO</AncientComplex_Mission.questDescriptionAndNameRules.rulesStrings>
+  <AncientComplex_Mission.questDescriptionAndNameRules.rulesStrings>
+    <li>complex->建筑群</li>
+    <li>complex->场地</li>
+    <li>complex->设施</li>
+    <li>complex->遗迹</li>
+    <li>complex->建筑</li>
+    <li>investigation->调查</li>
+    <li>investigation->检查</li>
+    <li>investigation->前往</li>
+    <li>investigation->发掘</li>
+    <li>investigation->骇入</li>
+  </AncientComplex_Mission.questDescriptionAndNameRules.rulesStrings>
   <!-- EN:
     <li>questDescription->[asker_nameDef], [asker_faction_leaderTitle] of [asker_faction_name], has discovered an ancient complex a long distance away. [asker_pronoun] believes it contains information about the relic known as [relic_name].\n\n[asker_nameDef] can't spare people to look into it, but hopes you can help by supplying exactly [colonistCount] [colonistsSingularOrPlural] to carry out the investigation.\n\nThe complex contains unknown threats and is also being sought by [asker_nameDef]'s enemies, [enemyFaction_name].\n\n[asker_pronoun] will send a shuttle to pick up your colonists, bring them to the complex, and take them home afterward. They will be fed and tended to en-route.\n\nOnce you have landed, you must hack all terminals in the complex within [timeoutTicks_duration].</li>
     <li>colonistsSingularOrPlural(colonistCount==1)->colonist</li>
     <li>colonistsSingularOrPlural(colonistCount>=2)->colonists</li>
   -->
-  <AncientComplex_Mission.questDescriptionRules.rulesStrings>TODO</AncientComplex_Mission.questDescriptionRules.rulesStrings>
+  <AncientComplex_Mission.questDescriptionRules.rulesStrings>
+    <li>questDescription->[asker_faction_name] 的 [asker_faction_leaderTitle]， [asker_nameDef]， 发现了一处距离较长的远古建筑群。 [asker_pronoun] 据说其中隐藏有关于 [relic_name] 的进一步情报。\n\n[asker_nameDef] 抽不出人手去探查它， 但希望你能派遣 [colonistCount]名[colonistsSingularOrPlural] 来协助探查。\n\n此建筑中存在未知威胁，而 [asker_nameDef] 的敌人 [enemyFaction_name] 也在伺机而动。\n\n[asker_pronoun] 会派穿梭机来接你的殖民者往返并在途中提供食宿。\n\n一旦着陆， 你必须在[timeoutTicks_duration]内骇入所有终端机。</li>
+    <li>colonistsSingularOrPlural(colonistCount==1)->殖民者</li>
+    <li>colonistsSingularOrPlural(colonistCount>=2)->殖民者</li>
+  </AncientComplex_Mission.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[missionAdj] [complex] [investigation]</li>
     <li>missionAdj->hidden</li>
     <li>missionAdj->covert</li>
     <li>missionAdj->secret</li>
   -->
-  <AncientComplex_Mission.questNameRules.rulesStrings>TODO</AncientComplex_Mission.questNameRules.rulesStrings>
+  <AncientComplex_Mission.questNameRules.rulesStrings>
+    <li>questName->[investigation][missionAdj][complex]</li>
+    <li>missionAdj->潜藏的</li>
+    <li>missionAdj->隐秘的</li>
+    <li>missionAdj->神秘的</li>
+  </AncientComplex_Mission.questNameRules.rulesStrings>
   
 </LanguageData>
