@@ -4,7 +4,9 @@
   <!-- EN:
     <li>questDescription->You've learned of an ancient complex nearby that is said to contain ancient treasure.\n\nYou can break in to collect the loot inside.\n\nBe warned - these kinds of structures can contain a variety of threats. In addition, your activity at the complex might draw unwanted attention.</li>
   -->
-  <OpportunitySite_AncientComplex.questDescriptionRules.rulesStrings>TODO</OpportunitySite_AncientComplex.questDescriptionRules.rulesStrings>
+  <OpportunitySite_AncientComplex.questDescriptionRules.rulesStrings>
+    <li>questDescription->你得知附近有一处远古建筑群， 据说其中隐藏有远古宝藏。\n\n你可以闯入其中收集战利品。\n\n警告：这类建筑中可能存在各种未知威胁。此外，你在建筑群的的活动迹象可能会引来不必要的注意。</li>
+  </OpportunitySite_AncientComplex.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName(p=3)->[complexAdj] [complex] [finalWord]</li>
     <li>questName->[complex] [finalWord]</li>
@@ -30,6 +32,30 @@
     <li>finalWord->caper</li>
     <li>finalWord->booty</li>
   -->
-  <OpportunitySite_AncientComplex.questNameRules.rulesStrings>TODO</OpportunitySite_AncientComplex.questNameRules.rulesStrings>
+  <OpportunitySite_AncientComplex.questNameRules.rulesStrings>
+    <li>questName(p=3)->[complexAdj][complex][finalWord]</li>
+    <li>questName->[complex][finalWord]</li>
+    <li>complexAdj->秘密</li>
+    <li>complexAdj->神秘</li>
+    <li>complexAdj->远古</li>
+    <li>complexAdj->老旧</li>
+    <li>complexAdj->隐藏</li>
+    <li>complexAdj->致命</li>
+    <li>complex->建筑群</li>
+    <li>complex->设施</li>
+    <li>complex->遗迹</li>
+    <li>finalWord->宝藏</li>
+    <li>finalWord->财富</li>
+    <li>finalWord->宝物</li>
+    <li>finalWord->藏宝</li>
+    <li>finalWord->赃物</li>
+    <li>finalWord->突袭</li>
+    <li>finalWord->抢劫</li>
+    <li>finalWord->掳掠</li>
+    <li>finalWord->偷盗</li>
+    <li>finalWord->强盗</li>
+    <li>finalWord->不法所得</li>
+    <li>finalWord->战利品</li>
+  </OpportunitySite_AncientComplex.questNameRules.rulesStrings>
   
 </LanguageData>

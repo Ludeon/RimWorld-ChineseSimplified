@@ -17,11 +17,28 @@
     <li>festival->jubilee</li>
     <li>festival->fiesta</li>
   -->
-  <NamerFestivalGlobal.rulePack.rulesStrings>TODO</NamerFestivalGlobal.rulePack.rulesStrings>
+  <NamerFestivalGlobal.rulePack.rulesStrings>
+    <li>festivalName(p=2)->[memeAdjective][festival]</li>
+    <li>festivalName->[chosenTheme][festival]</li>
+    <li>festivalName->[chosenAdjective][festival]</li>
+    <li>festivalName->[keyDeity][festival]</li>
+    <li>festivalName->[keyDeity][festival]</li>
+    <li>festivalName->[memeConcept]之[festival]</li>
+    <li>festivalName->[chosenIdeoName][festival]</li>
+    <li>festival->日</li>
+    <li>festival->庆典</li>
+    <li>festival->派对</li>
+    <li>festival->降临日</li>
+    <li>festival->日</li>
+    <li>festival->庆典</li>
+    <li>festival->日</li>
+  </NamerFestivalGlobal.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_ritualName->[festivalName]</li>
   -->
-  <NamerRitualFestival.rulePack.rulesStrings>TODO</NamerRitualFestival.rulePack.rulesStrings>
+  <NamerRitualFestival.rulePack.rulesStrings>
+    <li>r_ritualName->[festivalName]</li>
+  </NamerRitualFestival.rulePack.rulesStrings>
   
 </LanguageData>

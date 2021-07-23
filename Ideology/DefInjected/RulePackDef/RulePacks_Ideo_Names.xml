@@ -9,12 +9,21 @@
     <li>globalHyphenPrefix->astro</li>
     <li>globalHyphenPrefix->stello</li>
   -->
-  <CultureSpacer.rulePack.rulesStrings>TODO</CultureSpacer.rulePack.rulesStrings>
+  <CultureSpacer.rulePack.rulesStrings>
+    <li>globalAdjective->星际</li>
+    <li>globalAdjective->恒星</li>
+    <li>globalAdjective->恒星</li>
+    <li>globalAdjective->星际</li>
+    <li>globalHyphenPrefix->宇宙</li>
+    <li>globalHyphenPrefix->星系</li>
+  </CultureSpacer.rulePack.rulesStrings>
   
   <!-- EN:
     <li>globalAdjective(p=15)->Tribal</li>
   -->
-  <NamerIdeoCorunan.rulePack.rulesStrings>TODO</NamerIdeoCorunan.rulePack.rulesStrings>
+  <NamerIdeoCorunan.rulePack.rulesStrings>
+    <li>globalAdjective(p=15)->部落</li>
+  </NamerIdeoCorunan.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_ideoName->[keyDeity]ism</li>
@@ -59,6 +68,48 @@
     <li>globalHyphenPrefix->archaeo</li>
     <li>globalHyphenPrefix->hyper</li>
   -->
-  <NamerIdeoGlobal.rulePack.rulesStrings>TODO</NamerIdeoGlobal.rulePack.rulesStrings>
+  <NamerIdeoGlobal.rulePack.rulesStrings>
+    <li>r_ideoName->[keyDeity]主义</li>
+    <li>r_ideoName->[hyphenPrefix]-[keyDeity]主义</li>
+    <li>r_ideoName->[keyDeity][creed]</li>
+    <li>r_ideoName->[keyDeity][creed]</li>
+    <li>r_ideoAdjective->[keyDeity]的</li>
+    <li>r_memberName->[keyDeity]主义者</li>
+    <li>r_memberName->[keyDeity]主义信徒</li>
+    <li>r_ideoName(p=2)->[globalAdjective][packIdeoName]</li>
+    <li>r_ideoName(p=1.5,forcePrefix==False)->[hyphenPrefix]-[packIdeoName]</li>
+    <li>r_ideoName->[memeAdjective][packIdeoName]</li>
+    <li>r_ideoName(p=0.5)->[memeAdjective][creed]</li>
+    <li>r_ideoName(p=0.2)->[packTheme][creed]</li>
+    <li>r_ideoAdjective(priority=1)->[packAdjective]</li>
+    <li>r_memberName->[packMember]</li>
+    <li>creed(priority=1)->[memeCreed]</li>
+    <li>creed->[genericCreed]</li>
+    <li>genericCreed->教</li>
+    <li>genericCreed->主义</li>
+    <li>genericCreed->教</li>
+    <li>genericCreed->教</li>
+    <li>globalAdjective->[Color]</li>
+    <li>globalAdjective-></li>
+    <li>globalAdjective->全能</li>
+    <li>globalAdjective->旧</li>
+    <li>globalAdjective->远古</li>
+    <li>globalAdjective->历史</li>
+    <li>globalAdjective->修正</li>
+    <li>globalAdjective->改良</li>
+    <li>globalAdjective->硬派</li>
+    <li>globalAdjective->基础</li>
+    <li>globalAdjective->真</li>
+    <li>globalAdjective->民间</li>
+    <li>globalAdjective->改良</li>
+    <li>globalAdjective->[place_adjective]</li>
+    <li>hyphenPrefix->[globalHyphenPrefix]</li>
+    <li>hyphenPrefix->[memeHyphenPrefix]</li>
+    <li>globalHyphenPrefix(p=4)->新生</li>
+    <li>globalHyphenPrefix(p=2)->后</li>
+    <li>globalHyphenPrefix->新兴</li>
+    <li>globalHyphenPrefix->古</li>
+    <li>globalHyphenPrefix->超</li>
+  </NamerIdeoGlobal.rulePack.rulesStrings>
   
 </LanguageData>

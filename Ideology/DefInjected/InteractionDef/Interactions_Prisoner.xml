@@ -1,18 +1,23 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
+
   <!-- EN: enslave attempt -->
-  <EnslaveAttempt.label>TODO</EnslaveAttempt.label>
+  <EnslaveAttempt.label>奴役尝试</EnslaveAttempt.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] told [RECIPIENT_nameDef] that [RECIPIENT_pronoun] must work for the colony.</li>
     <li>r_logentry->[INITIATOR_nameDef] informed [RECIPIENT_nameDef] that [RECIPIENT_pronoun] must obey orders and work.</li>
     <li>r_logentry->[INITIATOR_nameDef] ordered [RECIPIENT_nameDef] to prepare for a life of forced labour.</li>
     <li>r_logentry->[INITIATOR_nameDef] explained to [RECIPIENT_nameDef] that [RECIPIENT_pronoun] must work or face punishment.</li>
   -->
-  <EnslaveAttempt.logRulesInitiator.rulesStrings>TODO</EnslaveAttempt.logRulesInitiator.rulesStrings>
-  
+  <EnslaveAttempt.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] 告诉[RECIPIENT_nameDef]说[RECIPIENT_pronoun]必须为殖民地工作。</li>
+    <li>r_logentry->[INITIATOR_nameDef] 通知[RECIPIENT_nameDef]说[RECIPIENT_pronoun]必须服从命令和工作。</li>
+    <li>r_logentry->[INITIATOR_nameDef] 命令[RECIPIENT_nameDef]必须为强制劳工生活做好心理准备。</li>
+    <li>r_logentry->[INITIATOR_nameDef] 解释给[RECIPIENT_nameDef]说[RECIPIENT_pronoun]要么工作，要么接受惩罚。</li>
+  </EnslaveAttempt.logRulesInitiator.rulesStrings>
+
   <!-- EN: try to reduce will -->
-  <ReduceWill.label>TODO</ReduceWill.label>
+  <ReduceWill.label>试图降低意志</ReduceWill.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] told [RECIPIENT_nameDef] [RECIPIENT_pronoun] [negative].</li>
     <li>r_logentry->[INITIATOR_nameDef] explained that [RECIPIENT_nameDef] [negative].</li>
@@ -56,6 +61,48 @@
     <li>givein->surrender [RECIPIENT_objective]self</li>
     <li>givein->yield [RECIPIENT_objective]self</li>
   -->
-  <ReduceWill.logRulesInitiator.rulesStrings>TODO</ReduceWill.logRulesInitiator.rulesStrings>
-  
+  <ReduceWill.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] 告诉[RECIPIENT_nameDef]说[RECIPIENT_pronoun][negative]。</li>
+    <li>r_logentry->[INITIATOR_nameDef] 解释给[RECIPIENT_nameDef]说[negative]。</li>
+    <li>r_logentry->[INITIATOR_nameDef] 威胁[RECIPIENT_nameDef]说如果[RECIPIENT_pronoun][refused]，将会面临[threat]。</li>
+    <li>r_logentry->[INITIATOR_nameDef] 通知[RECIPIENT_nameDef]说[RECIPIENT_pronoun][disillusionment]。</li>
+    <li>r_logentry->[INITIATOR_nameDef] 要求[RECIPIENT_nameDef]向殖民地[givein]。</li>
+    <li>negative->没有未来</li>
+    <li>negative->无路可逃</li>
+    <li>negative->在殖民地外面没有未来</li>
+    <li>negative->没办法逃跑</li>
+    <li>negative->应该立刻服从</li>
+    <li>negative->应该忘记[RECIPIENT_possessive]愿望</li>
+    <li>negative->应该向殖民地投诚</li>
+    <li>threat->折磨</li>
+    <li>threat->惩罚</li>
+    <li>threat->致残</li>
+    <li>threat->饥饿</li>
+    <li>threat->终身监禁</li>
+    <li>threat->死亡</li>
+    <li>threat->孤立</li>
+    <li>threat->肢解</li>
+    <li>threat->捶打</li>
+    <li>threat->撕裂</li>
+    <li>threat->分食</li>
+    <li>threat->器官采集</li>
+    <li>threat->长期监禁</li>
+    <li>refused->试图逃跑</li>
+    <li>refused->对殖民地无礼</li>
+    <li>refused->不去工作</li>
+    <li>refused->不听命令</li>
+    <li>refused->拒绝投降</li>
+    <li>refused->拒绝服从</li>
+    <li>refused->有不礼貌行为</li>
+    <li>disillusionment->应该认清[RECIPIENT_possessive]形势</li>
+    <li>disillusionment->对另一个未来不要抱有希望</li>
+    <li>disillusionment->最好屈服</li>
+    <li>disillusionment->在[RECIPIENT_possessive]自己身上不会有任何生还希望</li>
+    <li>disillusionment->没有选择必须投降</li>
+    <li>givein->乖乖就范</li>
+    <li>givein->投诚[RECIPIENT_objective]自己</li>
+    <li>givein->投降[RECIPIENT_objective]自己</li>
+    <li>givein->奉献[RECIPIENT_objective]自己</li>
+  </ReduceWill.logRulesInitiator.rulesStrings>
+
 </LanguageData>

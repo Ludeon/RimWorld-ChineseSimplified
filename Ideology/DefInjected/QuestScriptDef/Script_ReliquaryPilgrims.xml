@@ -17,7 +17,22 @@
     <li>factionAdj(pilgrimFaction==true)-></li>
     <li>factionAdj(pilgrimFaction==false)->[faction_pawnSingular]</li>
   -->
-  <ReliquaryPilgrims.questContentRules.rulesStrings>TODO</ReliquaryPilgrims.questContentRules.rulesStrings>
+  <ReliquaryPilgrims.questContentRules.rulesStrings>
+    <li>pilgrimsArrivedLetterLabel->[factionAdj][pilgrimSingularOrPlural]抵达</li>
+    <li>pilgrimsArrivedLetterText->[questDescription]</li>
+    <li>delayedRewardLetterText->[pawns0_nameDef] 感谢你让[pawns0_objective][andFollowers] 能在[venerateDate]前来参拜[relic_name]。 作为回报， [pawns0_nameDef] 通过空投舱向你发送了如下物资 （总价值 [rewardsMarketValue_money]）：\n\n[rewards]。</li>
+    <li>pilgrimsLeavingMessage->[pilgrimsLabelSingularOrPlural]已结束参拜[relic_name]并离开。</li>
+    <li>pilgrimsLeftMessage->[pilgrimsLabelSingularOrPlural]已离开地图。</li>
+    <li>areIs(pilgrimCount==1)-></li>
+    <li>areIs(pilgrimCount>=2)-></li>
+    <li>andFollowers(pilgrimCount==1)-></li>
+    <li>andFollowers(pilgrimCount==2)->和其他[faction_pawnSingular]</li>
+    <li>andFollowers(pilgrimCount>=3)->和其他[faction_pawnsPlural]</li>
+    <li>pilgrimSingularOrPlural(pilgrimCount==1)->朝圣者</li>
+    <li>pilgrimSingularOrPlural(pilgrimCount>=2)->朝圣者们</li>
+    <li>factionAdj(pilgrimFaction==true)-></li>
+    <li>factionAdj(pilgrimFaction==false)->[faction_pawnSingular]</li>
+  </ReliquaryPilgrims.questContentRules.rulesStrings>
   <!-- EN:
     <li>pilgrimsLabel->[pawns0_nameDef]</li>
     <li>pilgrimsLabelPlural->[faction_pawnsPlural]</li>
@@ -26,7 +41,14 @@
     <li>hasHave(pilgrimCount==1)->has</li>
     <li>hasHave(pilgrimCount>=2)->have</li>
   -->
-  <ReliquaryPilgrims.questDescriptionAndNameRules.rulesStrings>TODO</ReliquaryPilgrims.questDescriptionAndNameRules.rulesStrings>
+  <ReliquaryPilgrims.questDescriptionAndNameRules.rulesStrings>
+    <li>pilgrimsLabel->[pawns0_nameDef]</li>
+    <li>pilgrimsLabelPlural->[faction_pawnsPlural]</li>
+    <li>pilgrimsLabelSingularOrPlural(pilgrimCount==1)->[pilgrimsLabel]</li>
+    <li>pilgrimsLabelSingularOrPlural(pilgrimCount>=2)->[pilgrimsLabelPlural]</li>
+    <li>hasHave(pilgrimCount==1)-></li>
+    <li>hasHave(pilgrimCount>=2)-></li>
+  </ReliquaryPilgrims.questDescriptionAndNameRules.rulesStrings>
   <!-- EN:
     <li>questDescription->[pilgrimsLabelSingularOrPlural] [hasHave] arrived to venerate the [relic_name].\n\nIf you ensure [pronounSingularOrPlural] [isAre] safe and respected while [pronounSingularOrPlural] [visitSingularOrPlural] the ancient relic, [pronounSingularOrPlural] may offer you a reward.</li>
     <li>isAre(pilgrimCount==1)->is</li>
@@ -36,7 +58,15 @@
     <li>visitSingularOrPlural(pilgrimCount==1)->visits</li>
     <li>visitSingularOrPlural(pilgrimCount>=2)->visit</li>
   -->
-  <ReliquaryPilgrims.questDescriptionRules.rulesStrings>TODO</ReliquaryPilgrims.questDescriptionRules.rulesStrings>
+  <ReliquaryPilgrims.questDescriptionRules.rulesStrings>
+    <li>questDescription->[pilgrimsLabelSingularOrPlural]已前来参拜[relic_name]。\n\n如果你能确保[pronounSingularOrPlural][visitSingularOrPlural]古老圣物期间的待遇和人身安全， [pronounSingularOrPlural] 或许会回馈予你。</li>
+    <li>isAre(pilgrimCount==1)->is</li>
+    <li>isAre(pilgrimCount>=2)->are</li>
+    <li>pronounSingularOrPlural(pilgrimCount==1)->[pawns0_pronoun]</li>
+    <li>pronounSingularOrPlural(pilgrimCount>=2)->他们</li>
+    <li>visitSingularOrPlural(pilgrimCount==1)->参拜</li>
+    <li>visitSingularOrPlural(pilgrimCount>=2)->参拜</li>
+  </ReliquaryPilgrims.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName(pilgrimCount==1)->[pilgrimsLabelSingularOrPlural]'s [visitAdj] [visit]</li>
     <li>questName(pilgrimCount>=2)->[pilgrimsLabelSingularOrPlural] [visitAdj] [visit]</li>
@@ -57,6 +87,25 @@
     <li>visit->tour</li>
     <li>visit->veneration</li>
   -->
-  <ReliquaryPilgrims.questNameRules.rulesStrings>TODO</ReliquaryPilgrims.questNameRules.rulesStrings>
+  <ReliquaryPilgrims.questNameRules.rulesStrings>
+    <li>questName(pilgrimCount==1)->[pilgrimsLabelSingularOrPlural]的[visitAdj][visit]</li>
+    <li>questName(pilgrimCount>=2)->[pilgrimsLabelSingularOrPlural] [visitAdj] [visit]</li>
+    <li>visitAdj(p=6)-></li>
+    <li>visitAdj->圣洁</li>
+    <li>visitAdj->崇敬</li>
+    <li>visitAdj->心灵</li>
+    <li>visitAdj->非凡</li>
+    <li>visitAdj->神圣</li>
+    <li>visitAdj->庄严</li>
+    <li>visitAdj->圣礼</li>
+    <li>visitAdj->入圣儒</li>
+    <li>visit->拜访</li>
+    <li>visit->朝圣</li>
+    <li>visit->传道</li>
+    <li>visit->远征</li>
+    <li>visit->之旅</li>
+    <li>visit->旅程</li>
+    <li>visit->参拜</li>
+  </ReliquaryPilgrims.questNameRules.rulesStrings>
   
 </LanguageData>
