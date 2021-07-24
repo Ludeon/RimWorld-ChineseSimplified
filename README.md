@@ -38,9 +38,9 @@ http://ludeon.com/forums/index.php?topic=2933.0
 ## 安装方法
 
 1. 下载压缩包
-1. 解压缩得到「RimWorld-ChineseSimplified-master 」文件夹，并重命名为「ChineseSimplified 」
-1. 删除 RimWorld 安装目录 > Mods > Core > Languages 中的「ChineseSimplified 」文件夹
-1. 将步骤 2 中得到的新的「ChineseSimplified 」文件夹复制到「Languages 」文件夹内
+1. 解压缩得到「Core」、「Royalty」、「Ideology」文件夹
+1. 删除 RimWorld 安装目录 > Data > Core/Royalty/Ideology > Languages 内的「ChineseSimplified (简体中文).tar」文件
+1. 在上一步的目录中新建文件夹，命名为「ChineseSimplified (简体中文)」，并将解压缩得到的文件夹中的内容放入对应目录
 
 ## 注意事项
 
@@ -59,21 +59,18 @@ http://ludeon.com/forums/index.php?topic=2933.0
 
 * AlyxMS
 * Bigmap
-* cainiaowu
 * duduluu （风之起灵）
-* Kenneth Li （魔都 KK）
-* leafzxg （落叶飘零）
-* MADxingjin （高中生活不如狗）
-* Raisins123 （ RSP）
-* rsxx4488
-* Sefank （一个小白）
-* SerGawen （加文）
-* sunnylimail （飞行棺材）
-* weehowe-z （问号）
-* WNJStudio （承诺丶六年）
-* wubochang （三桂）
-* Ydada （于大大）
-* zhaohu002 （嗷嗷虎）
+* Vaniat（漆原琉华）
+* MADxingjin（大学生活不如狗）
+* leafzxg（落叶飘零）
+* BOXrsxx（rsxx4488）
+* RicoFox233（临时の工作服）
+* LingLuo（凌洛）
+* Dango（团子依然在）
+* Sean
+* RS-CZH
+* 飞行棺材
+* 其他成员：cainiaowu， Kenneth Li（魔都KK）， gretino， RSP， Sefank （一个小白）， Aephiex， SerGawen（加文）， weehowe-z（问号）， WNJStudio（承诺丶六年）， wubochang（三桂）， Ydada（于大大）， zhaohu002（嗷嗷虎）， BiscuitMiner（脆餅）， user19990313， VoidVoice， SiQuery， God丶天才， Indeed， Zephyr， Shavius（茶壶教皇）， 那啥可以不笑吗， 黑白灰， Lappland（拉普兰德）
 
 > 当前的主维护人员为风之起灵。
 
