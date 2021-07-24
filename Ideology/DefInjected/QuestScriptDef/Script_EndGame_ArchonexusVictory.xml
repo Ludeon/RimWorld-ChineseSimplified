@@ -43,9 +43,7 @@
   <!-- EN:
     <li>questName->the archonexus</li>
   -->
-  <EndGame_ArchonexusVictory_FirstCycle.questNameRules.rulesStrings>
-  TODO
-  </EndGame_ArchonexusVictory_FirstCycle.questNameRules.rulesStrings>
+  <EndGame_ArchonexusVictory_FirstCycle.questNameRules.rulesStrings>\n  TODO\n  </EndGame_ArchonexusVictory_FirstCycle.questNameRules.rulesStrings>
   
   <!-- EN:
     <li>questDescription->With the first archonexus map part securely recorded, you prepare for the next step of your journey.\n\n[cycle1Faction] told you of the cataclysm that destroyed this world. Humans built a great thinking machine here centuries ago. It turned against the people and there was a great war. Only a few were left when the machine transcended and fell dormant.\n\nThe map to the archonexus has three parts, and you hold one of them. [otherMapPartHolders] also each hold parts of the map. They'll trade their parts to you for a wealthy new colony.[descriptionStudyRequirement]\n\nIt's time to get building.</li>
@@ -96,8 +94,7 @@
     <li>questAcceptedLetterLabel->超凡枢纽已被发现</li>
     <li>questAcceptedLetterText->[questDescriptionBeforeAccepted]</li>
     <li>questDescriptionBeforeAccepted->你已获得两份超凡枢纽地图残片。 最后一份为 [factionName] 所持有， 那是传承自他们在大灾难中幸存下来的祖先。 他们倾向于跟你换取一个富裕的殖民地。 [descriptionStudyRequirement]\n\nn是时候开始建设了。</li>
-    <li>questDescriptionAfterAccepted->你已从 [descriptionIntro] 处
-    获取超凡枢纽地图残片的最后一份， 利用你对超凡科技的认知， 你已顺利解码地图并确定了超凡枢纽的位置。\n\n你的盟友不看好你能回来，所以在你走后他们将接管[playerSettlements]。\n\n[descriptionThreats]现在只需抵达达超凡枢纽， 调用机械神的力量， 看看是否真如传说所言。</li>
+    <li>questDescriptionAfterAccepted->你已从 [descriptionIntro] 处获取超凡枢纽地图残片的最后一份， 利用你对超凡科技的认知， 你已顺利解码地图并确定了超凡枢纽的位置。\n\n你的盟友不看好你能回来，所以在你走后他们将接管[playerSettlements]。\n\n[descriptionThreats]现在只需抵达达超凡枢纽， 调用机械神的力量， 看看是否真如传说所言。</li>
     <li>factionName(factionless==false)->[roughTribe_name]</li>
     <li>factionName(factionless==true)->野人</li>
     <li>descriptionIntro(factionless==false)->[roughTribe_name] 的首领 [roughTribe_leader_nameDef]</li>

@@ -7,8 +7,12 @@
   <CreateCustom>创建自定义</CreateCustom>
   <!-- EN: Create new -->
   <CreateNew>创建新的</CreateNew>
+  <!-- EN: Load existing -->
+  <LoadExisting>载入预设</LoadExisting>
   <!-- EN: Create custom ideoligion -->
   <CreateCustomIdeoligion>创建自定义文化形态</CreateCustomIdeoligion>
+  <!-- EN: Load saved ideoligion -->
+  <LoadExistingIdeoligion>载入已保存的文化形态</LoadExistingIdeoligion>
   <!-- EN: Select an ideoligion for your faction on the left, or -->
   <SelectAnIdeo>为在左侧的你的派系选择文化形态，或</SelectAnIdeo>
   <!-- EN: ideoligion -->
@@ -79,8 +83,12 @@
   <SetFavoriteColor>设置最爱色</SetFavoriteColor>
   <!-- EN: Configure your faction's ideoligion -->
   <ConfigureIdeoligion>设置你派系的文化</ConfigureIdeoligion>
-  <!-- EN: Not enough dye. The colonist will recolor the apparel when dye becomes available. -->
-  <NotEnoughDye>染料不足，殖民者将在染料足够时开始染色。</NotEnoughDye>
+  <!-- EN: Not enough dye. -->
+  <NotEnoughDye>染料不足。</NotEnoughDye>
+  <!-- EN: The colonist will recolor the apparel when dye becomes available. -->
+  <NotEnoughDyeWillRecolorApparel>殖民者将在染料足够时为服装重新着色。</NotEnoughDyeWillRecolorApparel>
+  <!-- EN: The colonist will recolor their hair when dye becomes available. -->
+  <NotEnoughDyeWillRecolorHair>殖民者将在染料足够时重新为他们的头发着色。</NotEnoughDyeWillRecolorHair>
   <!-- EN: {PAWN_labelShort}'s certainty in {IDEO} is at {PERCENTAGE} -->
   <IdeoCertaintyTooltip>{PAWN_labelShort}对{IDEO}的确信度是{PERCENTAGE}</IdeoCertaintyTooltip>
   <!-- EN: Disabled by precept {0} -->
@@ -376,8 +384,8 @@
   <!-- EN: Planting {PLANT_definite} near artificial buildings will cause its connection strength to decay over time. Connection strength determines the maximum number of dryads {PLANT_definite} can support at once.\n\nAre you sure you wish to plant here? -->
   <TreeBlockedByNearbyBuildingsDesc>将{PLANT_definite}种植在人造建筑物附近将导致共鸣强度随时间下降，共鸣强度决定着此{PLANT_definite}可支持的树精之最大数量。 \n\n你确定要在这里种下它？</TreeBlockedByNearbyBuildingsDesc>
   <!-- EN: Changing {TREE_definite}'s dryad caste takes time and energy.\n\nAfter the connected person interacts with the tree, all dryads will spend {DURATION} days inside cocoons while they morph to the selected caste.\n\nExisting cocoons will cancel their transformation so they can morph to the current caste. -->
-  <!--ISSUE -->
-  <GauranlenModeChangeDescFull>修改{TREE_definite}的树精的角色将耗费时间和能源。\n\n 当共鸣者与树交互后，所有树精将在荚内度过{DURATION}天以转化至目标角色。 \n\n 现存的荚将取消其变形以转化至当前设定的角色。</GauranlenModeChangeDescFull>
+  <!-- ISSUE -->
+  <GauranlenModeChangeDescFull>修改{TREE_definite}的树精的角色将耗费时间和力量。\n\n 当共鸣者与树交互后，所有树精将在茧内度过{DURATION}天以转化至目标角色。 \n\n 现存的茧将取消其变形以转化至当前设定的角色。</GauranlenModeChangeDescFull>
   <!-- EN: Change the type of dryads created by {TREE_definite}. -->
   <ChangeModeDesc>修改由 创建的树精的类别</ChangeModeDesc>
   <!-- EN: Connection strength fall -->
@@ -400,8 +408,7 @@
   <PruningHoursToMaintain>每日所需修剪维护时间</PruningHoursToMaintain>
   <!-- EN: Desired -->
   <DesiredConnectionStrength>需求的强度</DesiredConnectionStrength>
-  <!-- EN: {CONNECTEDPAWN_nameDef} will prune {TREE_definite} often enough to keep connection strength above this level.\n\nHigher connection strength allows supporting more dryads, but also falls faster 
-    and thus takes more frequent pruning to maintain.\n\nYou can click on the bar to adjust the desired target connection strength.\n\nConnection strength fall per day: {FALL}\n\nConnection strength is affected by nearby buildings. -->
+  <!-- EN: {CONNECTEDPAWN_nameDef} will prune {TREE_definite} often enough to keep connection strength above this level.\n\nHigher connection strength allows supporting more dryads, but also falls faster and thus takes more frequent pruning to maintain.\n\nYou can click on the bar to adjust the desired target connection strength.\n\nConnection strength fall per day: {FALL}\n\nConnection strength is affected by nearby buildings. -->
   <DesiredConnectionStrengthDesc> {CONNECTEDPAWN_nameDef}将维持修剪{TREE_definite}以保持共鸣强度在此水平上\n\n 更高的共鸣强度可以支持更多的树精，但回落的更快，因此需要更频繁的修剪维护。点击滑条可以修改目标强度。\n\n 每日回落：{FALL} \n\n 共鸣强度将受附近的建筑物影响。</DesiredConnectionStrengthDesc>
   <!-- EN: Waiting for {CONNECTEDPAWN_nameDef} to change dryad caste. -->
   <WaitingForConnectorToChangeCaste>等待{CONNECTEDPAWN_nameDef}来改变树精角色</WaitingForConnectorToChangeCaste>
@@ -418,7 +425,7 @@
   <!-- EN: {0} hours every day -->
   <HoursEveryDay>{0}小时每天</HoursEveryDay>
   <!-- EN: {0} hours every other day -->
-  <!--ISSUE -->
+  <!-- ISSUE -->
   <HoursEveryOtherDay>{0}每另一天</HoursEveryOtherDay>
   <!-- EN: {DRYAD_labelPlural} produce {RESOURCES} every {DURATION}. -->
   <DryadProducesResourcesDesc>{DRYAD_labelPlural}将每隔{DURATION}产生{RESOURCES}</DryadProducesResourcesDesc>
@@ -468,15 +475,15 @@
 
   <!-- EN: Assign colonists to your ideoligion -->
   <AssignColonists>指派殖民者加入你的文化形态</AssignColonists>
-  <!-- EN: Delete new ideoligion -->
-  <DeleteNewIdeoligion>删除此文化形态</DeleteNewIdeoligion>
+  <!-- EN: Remove new ideoligion -->
+  <RemoveNewIdeoligion>移除文化形态</RemoveNewIdeoligion>
   <!-- EN: Make this your primary ideologion -->
   <MakeIdeoligionPrimary>将此文化形态作为主要文化形态</MakeIdeoligionPrimary>
 
   <!-- Archonexus -->
   <!-- EN: You've invoked the archonexus core. The world fills with a blinding light and time seems to slow...\n\n -->
   <GameOverArchotechInvokedIntro>你已激活了超凡枢纽核心。世界被刺目的光填满，时间似乎变慢了。。。\n\n</GameOverArchotechInvokedIntro>
-  <!-- ISSUE-->
+  <!-- ISSUE -->
   <!-- EN: The machine god has noticed you. Nobody can predict what happens next. It may destroy you, or communicate with you directly, or transport your consciousness to another plane of reality.\n\nYou sense a vast, inhuman structure of infinite fractal complexity flowing into your mind. Time and scale begin to dissolve. It's terrifying. It's beautiful... -->
   <GameOverArchotechInvokedEnding>机械神明已注意到了你，没人能预料接下来会发生什么。 它可能毁灭你，可能与你直接沟通，或者将你的意识转移到另一个现实位面。\n\n 你看到一个巨大无边的，非人类的分形复杂度结构涌入你的意识，时间和大小似乎都在溶解，这很恐怖。 这也很美。</GameOverArchotechInvokedEnding>
   <!-- EN: These colonists have transcended:\n\n{0} -->
@@ -495,6 +502,7 @@
   <LinkedTo>已共鸣到</LinkedTo>
   <!-- EN: Supply satellite -->
   <SupplySatellite>支援卫星</SupplySatellite>
+
   <!-- ISSUE -->
   <!-- EN: Colonist is not willing to extract skull from corpse (missing pro-skullspike precept) -->
   <CannotExtractSkull>殖民者不愿将颅骨从尸体中取出（缺失钉颅戒律）</CannotExtractSkull>
@@ -518,7 +526,7 @@
   <!-- EN: Ends in -->
   <BiosculpterCycleTimeRemaining>将结束于</BiosculpterCycleTimeRemaining>
   <!-- EN: Biotuned to -->
-  <!-- ISSUE-->
+  <!-- ISSUE -->
   <BiosculpterBiotunedTo>生体调谐至</BiosculpterBiotunedTo>
   <!-- EN: Interrupt cycle -->
   <BiosculpterInteruptCycle>中断循环</BiosculpterInteruptCycle>
@@ -537,7 +545,7 @@
   <!-- EN: {PAWN_labelShort} completed pleasure cycle. -->
   <BiosculpterPleasureCompletedMessage>已完成其欢愉循环</BiosculpterPleasureCompletedMessage>
   <!-- EN: Cleanliness speed factor -->
-  <!--ISSUE -->
+  <!-- ISSUE -->
   <BiosculpterCleanlinessSpeedFactor>清洁度速度因数</BiosculpterCleanlinessSpeedFactor>
 
 </LanguageData>
