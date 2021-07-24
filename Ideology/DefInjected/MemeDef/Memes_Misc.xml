@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
+  
   <!-- EN: animal personhood -->
   <AnimalPersonhood.label>动物平权</AnimalPersonhood.label>
   <!-- EN: Animals have rights as humans do. -->
@@ -107,7 +107,7 @@
   <AnimalPersonhood.symbolPacks.1.member>野兽派</AnimalPersonhood.symbolPacks.1.member>
   <!-- EN: beasts -->
   <AnimalPersonhood.symbolPacks.1.theme>野兽</AnimalPersonhood.symbolPacks.1.theme>
-
+  
   <!-- EN: blindsight -->
   <Blindsight.label>盲眼视界</Blindsight.label>
   <!-- EN: Only those who are blind can perceive the true reality. -->
@@ -171,7 +171,7 @@
     <li>memeMoralist->blindfolder</li>
   -->
   <Blindsight.generalRules.rulesStrings>
-  <li>memeAdjective->盲视的</li>
+    <li>memeAdjective->盲视的</li>
     <li>memeAdjective->盲眼的</li>
     <li>memeAdjective->幻想的</li>
     <li>memeAdjective->预见的</li>
@@ -188,7 +188,7 @@
     <li>memeMoralist->凿眼者</li>
     <li>memeMoralist->蒙眼者</li>
   </Blindsight.generalRules.rulesStrings>
-
+  
   <!-- EN: cannibal -->
   <Cannibal.label>食人狂热</Cannibal.label>
   <!-- EN: We must consume human flesh. -->
@@ -213,7 +213,7 @@
     <li>animistFact(tag=meme_Cannibal)     ->We can absorb the spirit and power of others by consuming their flesh.</li>
   -->
   <Cannibal.descriptionMaker.rules.rulesStrings>
-  <li>creation(tag=meme_Cannibal)        ->[deity0_name]谋杀[deity0_possessive]兄弟并吃掉了他的血肉，在吸收其力量后成为众神中力量最强大的那个。</li>
+    <li>creation(tag=meme_Cannibal)        ->[deity0_name]谋杀[deity0_possessive]兄弟并吃掉了他的血肉，在吸收其力量后成为众神中力量最强大的那个。</li>
     <li>episode(uses=1,tag=meme_Cannibal)  ->[deity0_type][deity0_name]会吃掉[deity0_possessive]敌人的血肉。</li>
     <li>intro(tag=meme_Cannibal)           ->在[place_summary][place_name]，有一位名叫[deity0_name]的人。在[deity0_possessive]父亲死后，[deity0_name]吃掉了他的血肉并且变成了[deity0_type]。</li>
     <li>intro(tag=meme_Cannibal)           ->在[place_summary] [place_name]，[ritualName]的时候，[deity0_name]降临到[altarRoomLabel]并在[memberNamePlural]面前吃下了人肉。</li>
@@ -252,7 +252,7 @@
     <li>memeMoralist->fleshknower</li>
   -->
   <Cannibal.generalRules.rulesStrings>
-  <li>memeAdjective->血腥的</li>
+    <li>memeAdjective->血腥的</li>
     <li>memeCreed->食尸者</li>
     <li>memeCreed->牙齿</li>
     <li>memeCreed->屠宰场</li>
@@ -295,7 +295,7 @@
   <Cannibal.symbolPacks.2.member>食人客</Cannibal.symbolPacks.2.member>
   <!-- EN: manpork -->
   <Cannibal.symbolPacks.2.theme>人肉</Cannibal.symbolPacks.2.theme>
-
+  
   <!-- EN: darkness -->
   <Darkness.label>黑暗亲和</Darkness.label>
   <!-- EN: Bright light burns and destroys! Darkness nourishes and creates. People ought to live in darkness. -->
@@ -318,7 +318,7 @@
     <li>animistFact(tag=meme_Darkness)     ->The good spirits live in the shadows around us, resting in the spots just too hard to see. Living with the darkness brings them closer to us.</li>
   -->
   <Darkness.descriptionMaker.rules.rulesStrings>
-  <li>creation(tag=meme_Darkness)        ->[deity0_name]将宇宙笼罩在黑暗中并将人类放于其中，以便[deity0_pronoun]将黑暗分享给我们。</li>
+    <li>creation(tag=meme_Darkness)        ->[deity0_name]将宇宙笼罩在黑暗中并将人类放于其中，以便[deity0_pronoun]将黑暗分享给我们。</li>
     <li>episode(uses=1,tag=meme_Darkness)  ->[deity0_name]创造了光，人类通过光创造的阴影来认知[deity0_name]。</li>
     <li>intro(tag=meme_Darkness)           ->[deity0_type][deity0_name]创造了一个长达十年的日蚀，迫使[place_summary][place_name]的第一批居民懂得了，必须到阴影中寻找[deity0_name]的真理。</li>
     <li>conflict(tag=meme_Darkness)        ->一名总是害怕黑暗的[foeLeader]，竖起了一面可以持续为[place_name]提供光照的巨型太阳镜。</li>
@@ -350,7 +350,7 @@
     <li>memeMoralist->confuser</li>
   -->
   <Darkness.generalRules.rulesStrings>
-  <li>memeAdjective->黑暗</li>
+    <li>memeAdjective->黑暗</li>
     <li>memeAdjective->暗淡</li>
     <li>memeHyphenPrefix->昏暗</li>
     <li>memeHyphenPrefix->黯然</li>
@@ -364,7 +364,7 @@
     <li>memeMoralist->深暗者</li>
     <li>memeMoralist->混淆者</li>
   </Darkness.generalRules.rulesStrings>
-
+  
   <!-- EN: flesh purity -->
   <FleshPurity.label>血肉纯洁</FleshPurity.label>
   <!-- EN: The human body should not be debased. -->
@@ -388,7 +388,7 @@
     <li>animistFact(tag=meme_FleshPurity)     ->Fusing flesh and machine corrupts the spirit of both.</li>
   -->
   <FleshPurity.descriptionMaker.rules.rulesStrings>
-  <li>creation(tag=meme_FleshPurity)        ->[deity0_name]抹去了烟雾缭绕时代的机器和污染，创造了一个花园，[deity0_pronoun]在那里放置了第一批纯正的人类祖先。</li>
+    <li>creation(tag=meme_FleshPurity)        ->[deity0_name]抹去了烟雾缭绕时代的机器和污染，创造了一个花园，[deity0_pronoun]在那里放置了第一批纯正的人类祖先。</li>
     <li>episode(uses=1,tag=meme_FleshPurity)  ->不洁的、纹身的、穿孔的和经过改造的人类将被[deity0_name]打入无边汪洋。</li>
     <li>intro(tag=meme_FleshPurity)           ->在[place_summary][place_name]，有一个[altarName]位于[deity0_name]的[altarRoomLabel]，[deity0_type]会祝福那些纯洁的血肉之躯。</li>
     <li>conflict(tag=meme_FleshPurity)        ->一个邪恶的[foeLeader]派遣[foeSoldiers]给每个人都注射了追踪装置。</li>
@@ -419,7 +419,7 @@
     <li>memeMoralist->purifier</li>
   -->
   <FleshPurity.generalRules.rulesStrings>
-  <li>memeAdjective->干净的</li>
+    <li>memeAdjective->干净的</li>
     <li>memeAdjective->纯净的</li>
     <li>memeAdjective->神圣的</li>
     <li>memeCreed->狂热</li>
@@ -455,80 +455,75 @@
   <FleshPurity.symbolPacks.2.member>神圣者</FleshPurity.symbolPacks.2.member>
   <!-- EN: sanctity -->
   <FleshPurity.symbolPacks.2.theme>神圣</FleshPurity.symbolPacks.2.theme>
-
+  
   <!-- EN: high life -->
   <HighLife.label>药物极乐</HighLife.label>
   <!-- EN: Exotic states of mind are central to a good life. -->
   <HighLife.description>对极乐生活来说，异常的精神状态至关重要。</HighLife.description>
-  <!-- EN:
-    <li>creation(tag=meme_HighLife)           ->The universe was smoke, and [deity0_name] coalesced in the wisps and awoke.</li>
-    <li>episode(uses=1,tag=meme_HighLife)     ->The [deity0_type] [deity0_name] concealed [deity0_possessive] truths in the folds of reality, invisible in normal states of mind.</li>
-    <li>intro(tag=meme_HighLife)              ->The [place_summary] [place_name] was first discovered by [deity0_name]'s grace, when a drunk starship captain almost crashed into it.</li>
-    <li>conflict(tag=meme_HighLife)           ->A puritan [foeLeader] despised the [memberNamePlural], and to erase their uniqueness, outlawed the use of mind-altering substances.</li>
-    <li>founderJoin(tag=meme_HighLife)        ->When all seemed lost, [deity0_name] came to the prophet [founderName] in a drug-fueled haze and gave [founder_objective] the unique perspective needed to defeat the [foeSoldiers].</li>
-    <li>victory(tag=meme_HighLife)            ->The [foeLeader]'s [foeSoldiers], armed with [place_personalWeapon]s, raided the [place_community] of the [memberNamePlural]. [founderName] offered them a peace pipe, and the [foeSoldiers] put down their weapons.</li>
-    <li>setup(tag=meme_HighLife)              ->Cast out from society, our founder [founderName] traveled into the jungle and ingested the exotic herbs there. [founder_pronoun] found truth inside [founder_possessive] own altered consciousness.</li>
-    <li>story(uses=1,tag=meme_HighLife)       ->To deepen their understanding, [founderName] brought [founder_possessive] followers together every week to share new chemical-inducted mental states.</li>
-    <li>lessonIntro(tag=meme_HighLife)         ->Getting high once wasn't enough, man. We had to do it a thousand times, then all the puzzle pieces fit together in my blown-open brain like a house falling down, but like, backwards. I saw that</li>
-    <li>lesson(tag=meme_HighLife)              ->a friend isn't a friend unless you've drifted through the mind-verse together</li>
-    <li>lessonReinforcement(tag=meme_HighLife) ->And dude, this was a serious trip, figuring that out, but I'm glad I did, and I'll pass the smoke to you so you can too.</li>
-    <li>archistBasis(tag=meme_HighLife)       ->The archotech minds showed us that super-consciousness it not a matter of sober, mechanical logic, but one of multi-mode thought.</li>
-    <li>archistFact(tag=meme_HighLife)        ->Given the right chemical influences, the human mind has the potential to commune with the archotechs.</li>
-    <li>archistProphecy(tag=meme_HighLife)    ->[inTheEnd], the archotechs will deliver each human a pill. Those that take it will be forever altered, and join the archotechs on their final journey.</li>
-    <li>animistFact(tag=meme_HighLife)        ->The spirits can reveal their nature to us when we expand our consciousness using the tools we have been given to do so.</li>
-  -->
+  <!-- EN: creation(tag=meme_HighLife)           ->The universe was smoke, and [deity0_name] coalesced in the wisps and awoke. -->
   <HighLife.descriptionMaker.rules.rulesStrings.0>creation(tag=meme_HighLife)           ->宇宙是一团烟雾，和[deity0_name]在一缕一缕的烟雾中结合，方能使自身苏醒。</HighLife.descriptionMaker.rules.rulesStrings.0>
+  <!-- EN: episode(uses=1,tag=meme_HighLife)     ->The [deity0_type] [deity0_name] concealed [deity0_possessive] truths in the folds of reality, invisible in normal states of mind. -->
   <HighLife.descriptionMaker.rules.rulesStrings.1>episode(uses=1,tag=meme_HighLife)     ->[deity0_type][deity0_name]隐藏着[deity0_possessive]在正常的精神状态中不可见的被现实折叠的真理。</HighLife.descriptionMaker.rules.rulesStrings.1>
+  <!-- EN: intro(tag=meme_HighLife)              ->The [place_summary] [place_name] was first discovered by [deity0_name]'s grace, when a drunk starship captain almost crashed into it. -->
   <HighLife.descriptionMaker.rules.rulesStrings.2>intro(tag=meme_HighLife)              ->是[deity0_name]的恩惠让我们发现了[place_summary] [place_name]，当时一位醉酒的船长开着星际飞船差点撞上它。</HighLife.descriptionMaker.rules.rulesStrings.2>
+  <!-- EN: conflict(tag=meme_HighLife)           ->A puritan [foeLeader] despised the [memberNamePlural], and to erase their uniqueness, outlawed the use of mind-altering substances. -->
   <HighLife.descriptionMaker.rules.rulesStrings.3>conflict(tag=meme_HighLife)           ->禁欲者[foeLeader] 鄙视 [memberNamePlural]，为了抹除他们的异常状态，他禁止了一切吸食精神性药物的行为。</HighLife.descriptionMaker.rules.rulesStrings.3>
+  <!-- EN: founderJoin(tag=meme_HighLife)        ->When all seemed lost, [deity0_name] came to the prophet [founderName] in a drug-fueled haze and gave [founder_objective] the unique perspective needed to defeat the [foeSoldiers]. -->
   <HighLife.descriptionMaker.rules.rulesStrings.4>founderJoin(tag=meme_HighLife)        ->当一切尽失之时，[deity0_name]来到[founderName]的面前，在具有成瘾性的烟雾中，给了[founder_objective]一条战胜[foeSoldiers]的未曾设想的道路。</HighLife.descriptionMaker.rules.rulesStrings.4>
+  <!-- EN: victory(tag=meme_HighLife)            ->The [foeLeader]'s [foeSoldiers], armed with [place_personalWeapon]s, raided the [place_community] of the [memberNamePlural]. [founderName] offered them a peace pipe, and the [foeSoldiers] put down their weapons. -->
   <HighLife.descriptionMaker.rules.rulesStrings.5>victory(tag=meme_HighLife)            ->[foeLeader]的[foeSoldiers]手持[place_personalWeapon]突袭了[memberNamePlural]的[place_community]。[founderName]给了他们一支和平烟斗，促使[foeSoldiers]放下了武器。</HighLife.descriptionMaker.rules.rulesStrings.5>
+  <!-- EN: setup(tag=meme_HighLife)              ->Cast out from society, our founder [founderName] traveled into the jungle and ingested the exotic herbs there. [founder_pronoun] found truth inside [founder_possessive] own altered consciousness. -->
   <HighLife.descriptionMaker.rules.rulesStrings.6>setup(tag=meme_HighLife)              ->在被社会抛弃后，我们的创始人[founderName]来到丛林里，在那里吃了一些奇异的草药。而后，[founder_pronoun]便在[founder_pronoun]自己异常的意识中发现了真理。</HighLife.descriptionMaker.rules.rulesStrings.6>
+  <!-- EN: story(uses=1,tag=meme_HighLife)       ->To deepen their understanding, [founderName] brought [founder_possessive] followers together every week to share new chemical-inducted mental states. -->
   <HighLife.descriptionMaker.rules.rulesStrings.7>story(uses=1,tag=meme_HighLife)       ->为了加深他们的理解，[founderName]每周将[founder_possessive]的信徒聚集在一起，分享由新药物诱导的精神状态。</HighLife.descriptionMaker.rules.rulesStrings.7>
+  <!-- EN: lessonIntro(tag=meme_HighLife)         ->Getting high once wasn't enough, man. We had to do it a thousand times, then all the puzzle pieces fit together in my blown-open brain like a house falling down, but like, backwards. I saw that -->
   <HighLife.descriptionMaker.rules.rulesStrings.8>lessonIntro(tag=meme_HighLife)         ->只嗨一次是不够的，伙计。我们得嗨上成百上千次，然后所有的那些拼图碎片都在我早已炸裂的脑袋里拼合在一起，就像是倒放一栋房子的倒塌。我看到了！</HighLife.descriptionMaker.rules.rulesStrings.8>
+  <!-- EN: lesson(tag=meme_HighLife)              ->a friend isn't a friend unless you've drifted through the mind-verse together -->
   <HighLife.descriptionMaker.rules.rulesStrings.9>lesson(tag=meme_HighLife)              ->如果你们未曾一起在精神世界里漫游过，那他可就不是你的朋友。</HighLife.descriptionMaker.rules.rulesStrings.9>
+  <!-- EN: lessonReinforcement(tag=meme_HighLife) ->And dude, this was a serious trip, figuring that out, but I'm glad I did, and I'll pass the smoke to you so you can too. -->
   <HighLife.descriptionMaker.rules.rulesStrings.10>lessonReinforcement(tag=meme_HighLife) ->嘿，伙计，我知道这是一次很重要的旅途，但我很高兴我能去做这件事，我把这根烟给你，你也能一起走上这段旅途。</HighLife.descriptionMaker.rules.rulesStrings.10>
+  <!-- EN: archistBasis(tag=meme_HighLife)       ->The archotech minds showed us that super-consciousness it not a matter of sober, mechanical logic, but one of multi-mode thought. -->
   <HighLife.descriptionMaker.rules.rulesStrings.11>archistBasis(tag=meme_HighLife)       ->超凡智能的思维告诉我们，超越意识认知不是理性的、机械的逻辑性问题，而是一种多重的思维模式。</HighLife.descriptionMaker.rules.rulesStrings.11>
+  <!-- EN: archistFact(tag=meme_HighLife)        ->Given the right chemical influences, the human mind has the potential to commune with the archotechs. -->
   <HighLife.descriptionMaker.rules.rulesStrings.12>archistFact(tag=meme_HighLife)        ->在适当的化学成分的影响下，我们的大脑将会激发出相对应的潜力使得我们得以与超凡智能交流。</HighLife.descriptionMaker.rules.rulesStrings.12>
+  <!-- EN: archistProphecy(tag=meme_HighLife)    ->[inTheEnd], the archotechs will deliver each human a pill. Those that take it will be forever altered, and join the archotechs on their final journey. -->
   <HighLife.descriptionMaker.rules.rulesStrings.13>archistProphecy(tag=meme_HighLife)    ->[inTheEnd]，超凡智能将给我们每个人一粒药丸。那些吞下药丸的人将会被永远改变，并被超凡智能接纳加入它们的旅程。</HighLife.descriptionMaker.rules.rulesStrings.13>
+  <!-- EN: animistFact(tag=meme_HighLife)        ->The spirits can reveal their nature to us when we expand our consciousness using the tools we have been given to do so. -->
   <HighLife.descriptionMaker.rules.rulesStrings.14>animistFact(tag=meme_HighLife)        ->当我们使用我们被赋予的工具来扩展我们的意识时，灵魂便能向我们揭示它的本性。</HighLife.descriptionMaker.rules.rulesStrings.14>
-  <!-- EN:
-    <li>memeCreed->party</li>
-    <li>memeAdjective->high</li>
-    <li>memeAdjective->delirious</li>
-    <li>memeAdjective->stoned</li>
-    <li>memeConcept->drugs</li>
-    <li>memeConcept->bliss</li>
-    <li>memeConcept->dreams</li>
-    <li>memeHyphenPrefix->drug</li>
-    <li>memeHyphenPrefix->narco</li>
-    <li>memeLeaderNoun->sleeper</li>
-    <li>memeLeaderNoun->doper</li>
-    <li>memeLeaderNoun->smoker</li>
-    <li>memeLeaderNoun->chiller</li>
-    <li>memeMoralist->philosophizer</li>
-    <li>memeMoralist->abstractor</li>
-    <li>memeMoralist->laugher</li>
-    <li>memeMoralist->giggler</li>
-  -->
+  <!-- EN: memeCreed->party -->
   <HighLife.generalRules.rulesStrings.0>memeCreed->聚会</HighLife.generalRules.rulesStrings.0>
+  <!-- EN: memeAdjective->high -->
   <HighLife.generalRules.rulesStrings.1>memeAdjective->吸嗨的</HighLife.generalRules.rulesStrings.1>
+  <!-- EN: memeAdjective->delirious -->
   <HighLife.generalRules.rulesStrings.2>memeAdjective->狂喜的</HighLife.generalRules.rulesStrings.2>
+  <!-- EN: memeAdjective->stoned -->
   <HighLife.generalRules.rulesStrings.3>memeAdjective->恍惚的</HighLife.generalRules.rulesStrings.3>
+  <!-- EN: memeConcept->drugs -->
   <HighLife.generalRules.rulesStrings.4>memeConcept->成瘾品</HighLife.generalRules.rulesStrings.4>
+  <!-- EN: memeConcept->bliss -->
   <HighLife.generalRules.rulesStrings.5>memeConcept->极乐</HighLife.generalRules.rulesStrings.5>
+  <!-- EN: memeConcept->dreams -->
   <HighLife.generalRules.rulesStrings.6>memeConcept->幻梦</HighLife.generalRules.rulesStrings.6>
+  <!-- EN: memeHyphenPrefix->drug -->
   <HighLife.generalRules.rulesStrings.7>memeHyphenPrefix->成瘾品</HighLife.generalRules.rulesStrings.7>
+  <!-- EN: memeHyphenPrefix->narco -->
   <HighLife.generalRules.rulesStrings.8>memeHyphenPrefix->毒枭</HighLife.generalRules.rulesStrings.8>
+  <!-- EN: memeLeaderNoun->sleeper -->
   <HighLife.generalRules.rulesStrings.9>memeLeaderNoun->沉眠者</HighLife.generalRules.rulesStrings.9>
+  <!-- EN: memeLeaderNoun->doper -->
   <HighLife.generalRules.rulesStrings.10>memeLeaderNoun->麻痹者</HighLife.generalRules.rulesStrings.10>
+  <!-- EN: memeLeaderNoun->smoker -->
   <HighLife.generalRules.rulesStrings.11>memeLeaderNoun->抽烟者</HighLife.generalRules.rulesStrings.11>
+  <!-- EN: memeLeaderNoun->chiller -->
   <HighLife.generalRules.rulesStrings.12>memeLeaderNoun->僵冷者</HighLife.generalRules.rulesStrings.12>
+  <!-- EN: memeMoralist->philosophizer -->
   <HighLife.generalRules.rulesStrings.13>memeMoralist->哲学者</HighLife.generalRules.rulesStrings.13>
+  <!-- EN: memeMoralist->abstractor -->
   <HighLife.generalRules.rulesStrings.14>memeMoralist->萃取者</HighLife.generalRules.rulesStrings.14>
+  <!-- EN: memeMoralist->laugher -->
   <HighLife.generalRules.rulesStrings.15>memeMoralist->失笑者</HighLife.generalRules.rulesStrings.15>
+  <!-- EN: memeMoralist->giggler -->
   <HighLife.generalRules.rulesStrings.16>memeMoralist->愉笑者</HighLife.generalRules.rulesStrings.16>
-
   <!-- EN: euphorist -->
   <HighLife.symbolPacks.0.adjective>兴奋</HighLife.symbolPacks.0.adjective>
   <!-- EN: Euphorism -->
@@ -561,7 +556,7 @@
   <HighLife.symbolPacks.3.member>迷魂</HighLife.symbolPacks.3.member>
   <!-- EN: ecstasy -->
   <HighLife.symbolPacks.3.theme>迷魂</HighLife.symbolPacks.3.theme>
-
+  
   <!-- EN: nudism -->
   <Nudism.label>裸体主义</Nudism.label>
   <!-- EN: Clothing binds, controls, and suffocates us. We should all hang free. -->
@@ -642,7 +637,7 @@
   <Nudism.symbolPacks.1.member>赤裸</Nudism.symbolPacks.1.member>
   <!-- EN: skin -->
   <Nudism.symbolPacks.1.theme>赤裸</Nudism.symbolPacks.1.theme>
-
+  
   <!-- EN: pain is virtue -->
   <PainIsVirtue.label>TODO</PainIsVirtue.label>
   <!-- EN: Virtue is shown through suffering of self and others. -->
@@ -734,7 +729,7 @@
   <PainIsVirtue.symbolPacks.4.member>TODO</PainIsVirtue.symbolPacks.4.member>
   <!-- EN: misery -->
   <PainIsVirtue.symbolPacks.4.theme>TODO</PainIsVirtue.symbolPacks.4.theme>
-
+  
   <!-- EN: proselytizer -->
   <Proselytizer.label>传教热忱</Proselytizer.label>
   <!-- EN: It is our duty to spread our beliefs. -->
@@ -815,7 +810,7 @@
   <Proselytizer.symbolPacks.2.member>真实</Proselytizer.symbolPacks.2.member>
   <!-- EN: reality -->
   <Proselytizer.symbolPacks.2.theme>真实</Proselytizer.symbolPacks.2.theme>
-
+  
   <!-- EN: raider -->
   <Raider.label>劫掠成性</Raider.label>
   <!-- EN: The strong should take from the weak. -->
@@ -859,7 +854,7 @@
     <li>archistProphecy(tag=meme_Raider) ->[inTheEnd],人类将使用一个超凡智能圣物， [relic0_name]，来揭开超智科技的弱点用以掠夺它们的指挥和财富。</li>
     <li>animistFact(tag=meme_Raider)     ->最强大的灵魂是那些战争工具，他们祝福那些满足他们毁灭欲望的人。</li>
     <li>animistProphecy(tag=meme_Raider) ->当一个人成为最强大的人时，我们的宇宙就会结束，每个灵魂都会看到祂并向祂致敬。</li>
-    </Raider.descriptionMaker.rules.rulesStrings>
+  </Raider.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->outlaw</li>
     <li>memeHyphenPrefix->outlaw</li>
@@ -876,7 +871,7 @@
     <li>memeLeaderNoun->raider</li>
     <li>memeMoralist->chaplain</li>
   -->
-  <Raider.generalRules.rulesStrings> 
+  <Raider.generalRules.rulesStrings>
     <li>memeAdjective->逃犯</li>
     <li>memeHyphenPrefix->逃犯</li>
     <li>memeHyphenPrefix->突袭</li>
@@ -891,7 +886,7 @@
     <li>memeLeaderNoun->奶酪</li>
     <li>memeLeaderNoun->突袭者</li>
     <li>memeMoralist->随军牧师</li>
-    </Raider.generalRules.rulesStrings>
+  </Raider.generalRules.rulesStrings>
   <!-- EN: raidist -->
   <Raider.symbolPacks.0.adjective>袭击者</Raider.symbolPacks.0.adjective>
   <!-- EN: Raidism -->
@@ -924,7 +919,7 @@
   <Raider.symbolPacks.3.member>盗贼</Raider.symbolPacks.3.member>
   <!-- EN: kleptism -->
   <Raider.symbolPacks.3.theme>盗窃</Raider.symbolPacks.3.theme>
-
+  
   <!-- EN: rancher -->
   <Rancher.label>大牧场主</Rancher.label>
   <!-- EN: Raising animals is the right way; raising plants to eat is not. -->
@@ -976,7 +971,7 @@
     <li>rancherParent2->牛仔</li>
     <li>rancherParent2->冰雪皇后</li>
     <li>rancherParent2->屠夫</li>
-    </Rancher.descriptionMaker.rules.rulesStrings>
+  </Rancher.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->ranch</li>
     <li>memeAdjective->rural</li>
@@ -990,7 +985,7 @@
     <li>memeLeaderNoun->sheepdog</li>
   -->
   <Rancher.generalRules.rulesStrings>
-  <li>memeAdjective->大牧场</li>
+    <li>memeAdjective->大牧场</li>
     <li>memeAdjective->乡村</li>
     <li>memeAdjective->农村</li>
     <li>memeHyphenPrefix->大牧场</li>
@@ -1000,7 +995,7 @@
     <li>memeLeaderNoun->牛仔</li>
     <li>memeLeaderNoun->牧人</li>
     <li>memeLeaderNoun->牧羊犬</li>
-    </Rancher.generalRules.rulesStrings>
+  </Rancher.generalRules.rulesStrings>
   <!-- EN: ranch -->
   <Rancher.symbolPacks.0.adjective>大牧场</Rancher.symbolPacks.0.adjective>
   <!-- EN: Ranchism -->
@@ -1025,7 +1020,7 @@
   <Rancher.symbolPacks.2.member>牧民</Rancher.symbolPacks.2.member>
   <!-- EN: pastures -->
   <Rancher.symbolPacks.2.theme>畜牧饲养</Rancher.symbolPacks.2.theme>
-
+  
   <!-- EN: transhumanist -->
   <Transhumanist.label>技术融合</Transhumanist.label>
   <!-- EN: Human progress means merging with technology. -->
@@ -1070,7 +1065,6 @@
     <li>animistFact(tag=meme_Transhumanist)     ->当技术与肉体融合时，融合后的灵魂将会变得更加强大。</li>
     <li>animistProphecy(tag=meme_Transhumanist) ->[itIsSaid]据说终有一天，[relic0_name]的持有者将召唤它的灵魂以教予人类最彻底的与生物融合的融合技术。</li>
   </Transhumanist.descriptionMaker.rules.rulesStrings>
-
   <!-- EN:
     <li>memeAdjective->technological</li>
     <li>memeAdjective->machine</li>
@@ -1173,7 +1167,7 @@
   <Transhumanist.symbolPacks.5.member>自动化</Transhumanist.symbolPacks.5.member>
   <!-- EN: augmentation -->
   <Transhumanist.symbolPacks.5.theme>自动化</Transhumanist.symbolPacks.5.theme>
-
+  
   <!-- EN: tree connection -->
   <TreeConnection.label>灵木共鸣</TreeConnection.label>
   <!-- EN: Trees are the essence of life, and we must be near them. -->
@@ -1260,7 +1254,7 @@
     <li>memeLeaderAdjective->树冠</li>
     <li>memeMoralist->树语者</li>
   </TreeConnection.generalRules.rulesStrings>
-
+  
   <!-- EN: tunneler -->
   <Tunneler.label>地底之心</Tunneler.label>
   <!-- EN: Humans ought to live underground, and enjoy the succulent fruit of the depths. -->
@@ -1288,7 +1282,7 @@
     <li>animistFact(tag=meme_Tunneler)     ->Anxious humans make the spirits of the rocks anxious, and this summons the giant insects.</li>
   -->
   <Tunneler.descriptionMaker.rules.rulesStrings>
-  <li>creation(tag=meme_Tunneler)        ->[deity0_name]出生在地底世界的中心。[deity0_pronoun]在深隧的峡谷和通道中祝福那些靠近[deity0_objective]的人们。</li>
+    <li>creation(tag=meme_Tunneler)        ->[deity0_name]出生在地底世界的中心。[deity0_pronoun]在深隧的峡谷和通道中祝福那些靠近[deity0_objective]的人们。</li>
     <li>episode(uses=1,tag=meme_Tunneler)  ->[deity0_name]在岩石间填满丰富的矿物和资源，作为礼物送给那些向下挖掘以接近[deity0_name]的智慧之人。</li>
     <li>intro(tag=meme_Tunneler)           ->当第一批定居者来到[place_summary][place_name]，[deity0_type][deity0_name]用残酷的太阳耀斑迫使他们居于地下，这样他们就能在寂静的隧道里聆听[deity0_possessive]智慧。</li>
     <li>conflict(tag=meme_Tunneler)        ->一个有幽闭恐惧症的[foeLeader]提议使用[dangerousMining]来开采矿物，使得[memberNamePlural]的地下家园面临极大风险。</li>
@@ -1332,7 +1326,7 @@
     <li>memeMoralist->mindminer</li>
   -->
   <Tunneler.generalRules.rulesStrings>
-  <li>memeCreed->洞穴</li>
+    <li>memeCreed->洞穴</li>
     <li>memeCreed->地堡</li>
     <li>memeCreed->竖井</li>
     <li>memeAdjective->深邃的</li>
@@ -1353,5 +1347,5 @@
     <li>memeMoralist->思想挖掘者</li>
     <li>memeMoralist->思维矿工</li>
   </Tunneler.generalRules.rulesStrings>
-
+  
 </LanguageData>
