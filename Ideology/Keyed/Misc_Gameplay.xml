@@ -74,13 +74,13 @@
   <!-- EN: Styles -->
   <Styles>风格</Styles>
   <!-- EN: Chance to have precept -->
-  <ChanceToHavePrecept>拥有戒律的几率</ChanceToHavePrecept>
+  <ChanceToHavePrecept>可能获得戒律</ChanceToHavePrecept>
   <!-- EN: {PAWN_labelShort}'s favorite color. Having more than {PERCENTAGE} of {PAWN_possessive} apparel in this color, or the color of {PAWN_possessive} ideoligion, will make {PAWN_objective} slightly happier.\n\nYou can alter apparel colors at the styling station using tinctoria dye. -->
   <FavoriteColorTooltip>{PAWN_labelShort}的偏爱颜色， 如果穿着的衣服超过{PERCENTAGE}染有此颜色或{PAWN_possessive}文化形态代表色， 会让{PAWN_objective}感到愉悦。\n\n你可以在梳妆台使用染料调整服装颜色。</FavoriteColorTooltip>
   <!-- EN: Set ideo color -->
   <SetIdeoColor>设置文化代表色</SetIdeoColor>
   <!-- EN: Set favorite color -->
-  <SetFavoriteColor>设置最爱色</SetFavoriteColor>
+  <SetFavoriteColor>设置偏好色</SetFavoriteColor>
   <!-- EN: Configure your faction's ideoligion -->
   <ConfigureIdeoligion>设置你派系的文化</ConfigureIdeoligion>
   <!-- EN: Not enough dye. -->
@@ -512,33 +512,33 @@
 
   <!-- Bioscuplter pod -->
   <!-- EN: Cycle -->
-  <BiosculpterPodCycleLabel>循环</BiosculpterPodCycleLabel>
+  <BiosculpterPodCycleLabel>周期</BiosculpterPodCycleLabel>
   <!-- EN: loading nutrition -->
   <BiosculpterPodCycleLabelLoading>正在载入营养物质</BiosculpterPodCycleLabelLoading>
   <!-- EN: ready -->
   <BiosculpterPodCycleLabelReady>就绪</BiosculpterPodCycleLabelReady>
   <!-- EN: Prepare {0} cycle -->
-  <BiosculpterPodCycleCommand>正准备{0} 循环</BiosculpterPodCycleCommand>
+  <BiosculpterPodCycleCommand>正准备{0}周期</BiosculpterPodCycleCommand>
   <!-- EN: Ends in -->
   <BiosculpterCycleTimeRemaining>将结束于</BiosculpterCycleTimeRemaining>
   <!-- EN: Biotuned to -->
   <BiosculpterBiotunedTo>调谐至</BiosculpterBiotunedTo>
   <!-- EN: Interrupt cycle -->
-  <BiosculpterInteruptCycle>中断循环</BiosculpterInteruptCycle>
+  <BiosculpterInteruptCycle>中断周期</BiosculpterInteruptCycle>
   <!-- EN: Interrupt the current cycle. The occupant will be ejected without benefiting from the effects of the cycle, and will suffer from short-term biosculpter sickness. -->
-  <BiosculpterInteruptCycleDesc>中断当前循环，使用者将被弹出，不受任何循环效应影响的同时遭受短期的脱离形体塑造机虚弱。</BiosculpterInteruptCycleDesc>
+  <BiosculpterInteruptCycleDesc>中断当前周期，使用者将被弹出，不受任何周期效应影响的同时遭受短期的脱离形体塑造机虚弱。</BiosculpterInteruptCycleDesc>
   <!-- EN: Once the biosculpter pod is filled with {NUTRITION} nutrition, select a colonist and right-click on the biosculpter pod or a downed person to start the cycle. -->
-  <BiosculpterLoadingStartedMessage>当形体塑造机已被填充 营养时，选择一名殖民者并右击形体塑造机或将一名倒地者搬入以开始循环</BiosculpterLoadingStartedMessage>
+  <BiosculpterLoadingStartedMessage>当形体塑造机已被填充 营养时，选择一名殖民者并右击形体塑造机或将一名倒地者搬入以开始周期</BiosculpterLoadingStartedMessage>
   <!-- EN: {PAWN_labelShort} was ejected from a biosculpter pod due to lack of power. -->
   <BiosculpterNoPowerEjectedMessage>因电力不足而被从形体塑造机中弹出。</BiosculpterNoPowerEjectedMessage>
   <!-- EN: {PAWN_labelShort} completed healing cycle. -->
-  <BiosculpterHealCompletedMessage>完成了其治疗循环</BiosculpterHealCompletedMessage>
+  <BiosculpterHealCompletedMessage>完成了其治疗周期</BiosculpterHealCompletedMessage>
   <!-- EN: {PAWN_labelShort} completed healing cycle, and their {HEDIFF_label} was cured. -->
-  <BiosculpterHealCompletedWithCureMessage>完成了其治疗循环，且治愈了{HEDIFF_label}</BiosculpterHealCompletedWithCureMessage>
+  <BiosculpterHealCompletedWithCureMessage>完成了其治疗周期，且治愈了{HEDIFF_label}</BiosculpterHealCompletedWithCureMessage>
   <!-- EN: {PAWN_labelShort} completed {PAWN_possessive} age reversal cycle. {PAWN_pronoun} expects the next age reversal in {DEADLINE} days. -->
-  <BiosculpterAgeReversalCompletedMessage>{PAWN_labelShort}完成了其年龄逆行循环，{PAWN_pronoun}期待其下一次年龄逆行治疗在{DEADLINE}天内进行。</BiosculpterAgeReversalCompletedMessage>
+  <BiosculpterAgeReversalCompletedMessage>{PAWN_labelShort}完成了其年龄逆转周期，{PAWN_pronoun}期待其下一次年龄逆转治疗在{DEADLINE}天内进行。</BiosculpterAgeReversalCompletedMessage>
   <!-- EN: {PAWN_labelShort} completed pleasure cycle. -->
-  <BiosculpterPleasureCompletedMessage>已完成其欢愉循环</BiosculpterPleasureCompletedMessage>
+  <BiosculpterPleasureCompletedMessage>已完成其欢愉周期</BiosculpterPleasureCompletedMessage>
   <!-- EN: Cleanliness speed factor -->
   <BiosculpterCleanlinessSpeedFactor>清洁度速度因数</BiosculpterCleanlinessSpeedFactor>
 
