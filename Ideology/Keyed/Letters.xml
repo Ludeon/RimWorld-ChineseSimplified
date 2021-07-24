@@ -182,13 +182,13 @@
 
   <!-- Gauranlen tree connection -->
   <!-- EN: {TREE_label} connection -->
-  <LetterLabelPawnConnected>{TREE_label}连接</LetterLabelPawnConnected>
+  <LetterLabelPawnConnected>{TREE_label}共鸣</LetterLabelPawnConnected>
   <!-- EN: {CONNECTOR_nameDef} has connected with {TREE_definite}.\n\n{TREE_definite} will produce small animals called dryads by growing them in pods at its base. These dryads can specialize into different castes. You can choose which caste of dryads you want the tree to produce.\n\nThe stronger the connection between tree and human, the more dryads {TREE_definite} can sustain. {CONNECTOR_nameDef} can strengthen the connection by pruning {TREE_definite}. Maintaining a higher connection strength requires more frequent pruning. -->
-  <LetterTextPawnConnected>{CONNECTOR_nameDef}已经连接到{TREE_definite}。母树会定期产生一种叫做树精的小动物，把它们种在树底的荚囊里。这些树精可以分为不同的类型。你可以选择你想让这棵树产生哪一种类型的树精。\n\n母树和人类之间的联系越强，树精就能繁育的越多。{CONNECTOR_nameDef}可以通过修剪{TREE_definite}来加强连接。保持较高的连接强度需要更频繁的修剪。</LetterTextPawnConnected>
+  <LetterTextPawnConnected>{CONNECTOR_nameDef}已经共鸣{TREE_definite}。母树会定期产生一种叫做树精的小动物，把它们种在树底的荚囊里。这些树精可以分为不同的类型。你可以选择你想让这棵树产生哪一种类型的树精。\n\n母树和人类之间的联系越强，树精就能繁育的越多。{CONNECTOR_nameDef}可以通过修剪{TREE_definite}来加强共鸣。保持较高的共鸣强度需要更频繁的修剪。</LetterTextPawnConnected>
   <!-- EN: Connected {TREE_label} destroyed -->
-  <LetterLabelConnectedTreeDestroyed>连接{TREE_label}被摧毁</LetterLabelConnectedTreeDestroyed>
+  <LetterLabelConnectedTreeDestroyed>共鸣的{TREE_label}被摧毁</LetterLabelConnectedTreeDestroyed>
   <!-- EN: A {TREE_label} connected to {CONNECTEDPAWN_nameDef} has been destroyed, killing the dryad queen housed inside.\n\nWithout a queen, the dryad brood-mind has collapsed. All dryads from that tree have died. -->
-  <LetterTextConnectedTreeDestroyed>连接到{CONNECTEDPAWN_nameDef}的{TREE_label}被摧毁，杀死了里面的树精女王。\n\n没有了女王，树精的意思便会崩溃。属于那颗母树的树精都会死去。</LetterTextConnectedTreeDestroyed>
+  <LetterTextConnectedTreeDestroyed>与{CONNECTEDPAWN_nameDef}共鸣的{TREE_label}被摧毁，杀死了里面的树精女王。\n\n没有了女王，树精的意识便会崩溃。属于那颗母树的树精都会死去。</LetterTextConnectedTreeDestroyed>
 
   <!-- Archonexus victory -->
   <!-- EN: Quest '{0}' available -->
