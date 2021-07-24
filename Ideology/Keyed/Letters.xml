@@ -94,7 +94,7 @@
   <!-- EN: Primary ideoligion changed -->
   <LetterLabelNewPrimaryIdeo>主要文化形态改变</LetterLabelNewPrimaryIdeo>
   <!-- EN: Your faction's primary ideoligion has changed from {OLDIDEO_name} to {NEWIDEO_name}.\n\nThis happened because {NEWIDEO_name} is now more common among your {FACTION_pawnsPlural} than any other ideoligion.\n\nYour primary ideoligion affects relationships with other factions, based on how closely your beliefs align with theirs. -->
-  <LetterNewPrimaryIdeo>你的派系的主要文化形态已从 {OLDIDEO_name} 更改为 {NEWIDEO_name}。\n\n发生这种情况是因为 {NEWIDEO_name} 现在在你的 {FACTION_pawnsPlural} 中比任何其他文化形态都更常见。\n\n你的主要文化形态影响与其他派系的关系，基于你的信念与他们的一致程度。</LetterNewPrimaryIdeo>
+  <LetterNewPrimaryIdeo>你的派系的主要文化形态已从 {OLDIDEO_name} 更改为 {NEWIDEO_name}。\n\n发生这种情况是因为 {NEWIDEO_name} 现在在你的 {FACTION_pawnsPlural} 中比任何其他文化形态都更常见。\n\n你的主要文化形态影响与其他派系的关系，基于你的文化与他们的一致程度。</LetterNewPrimaryIdeo>
 
   <!-- Charity incidents -->
   <!-- EN: This is a charity incident. If you turn {0} away, believers with charitable beliefs will be unhappy. -->
@@ -110,9 +110,9 @@
   <!-- EN: {PAWN_nameDef}'s certainty with {PAWN_possessive} belief in {OLDIDEO_name} has been reduced to {NEWCERTAINTY}. -->
   <LetterIdeoChangeNotConverted>{PAWN_nameDef} 与 {PAWN_possessive} 对 {OLDIDEO_name} 的认可度已降低到 {NEWCERTAINTY}。</LetterIdeoChangeNotConverted>
   <!-- EN: To come to terms with {PAWN_possessive} beliefs, {PAWN_nameDef} is now hiding in {PAWN_possessive} room. -->
-  <LetterIdeoChangedWanderOwnRoom>为了接受 {PAWN_possessive} 的信念，{PAWN_nameDef} 现在躲在 {PAWN_possessive} 房间里。</LetterIdeoChangedWanderOwnRoom>
+  <LetterIdeoChangedWanderOwnRoom>为了接受 {PAWN_possessive} 的信仰，{PAWN_nameDef} 现在躲在 {PAWN_possessive} 房间里。</LetterIdeoChangedWanderOwnRoom>
   <!-- EN: {PAWN_nameDef} is now wandering in shock while grappling with {PAWN_possessive} beliefs. -->
-  <LetterIdeoChangedSadWander>{PAWN_nameDef} 现在正在惊恐中徘徊，同时与 {PAWN_possessive} 信念作斗争。</LetterIdeoChangedSadWander>
+  <LetterIdeoChangedSadWander>{PAWN_nameDef} 现在正在惊恐中徘徊， 同时与{PAWN_possessive}信仰作斗争。</LetterIdeoChangedSadWander>
 
   <!-- Change ideo divorces -->
   <!-- EN: Divorce -->
@@ -130,7 +130,7 @@
   <!-- EN: Look change desired -->
   <LetterWantLookChange>期望改变</LetterWantLookChange>
   <!-- EN: {PAWN_nameDef} wishes to change {PAWN_possessive} look, as it no longer matches what {PAWN_pronoun} believes.\n\n{PAWN_pronoun} will automatically use an available styling station and choose a look. If you want to customize {PAWN_possessive} look, select {PAWN_objective} and right-click the styling station. -->
-  <LetterWantLookChangeDesc>{PAWN_nameDef} 希望更改 {PAWN_possessive} 外观，因为它不再符合 {PAWN_pronoun} 所信仰的。\n\n{PAWN_pronoun} 将自动使用可用的造型站并选择外观。如果要自定义 {PAWN_possessive} 外观，请选择 {PAWN_objective} 并右键单击梳妆台。</LetterWantLookChangeDesc>
+  <LetterWantLookChangeDesc>{PAWN_nameDef} 希望更改 {PAWN_possessive} 外观，因为它不再符合 {PAWN_pronoun} 所信仰的。\n\n{PAWN_pronoun} 将自动使用可用的梳妆台并选择外观。如果要自定义 {PAWN_possessive} 外观，请选择 {PAWN_objective} 并右键单击梳妆台。</LetterWantLookChangeDesc>
 
   <!-- Spacedrone incoming -->
   <!-- EN: Spacedrone incoming -->
@@ -182,13 +182,13 @@
 
   <!-- Gauranlen tree connection -->
   <!-- EN: {TREE_label} connection -->
-  <LetterLabelPawnConnected>{TREE_label}连接</LetterLabelPawnConnected>
+  <LetterLabelPawnConnected>{TREE_label}共鸣</LetterLabelPawnConnected>
   <!-- EN: {CONNECTOR_nameDef} has connected with {TREE_definite}.\n\n{TREE_definite} will produce small animals called dryads by growing them in pods at its base. These dryads can specialize into different castes. You can choose which caste of dryads you want the tree to produce.\n\nThe stronger the connection between tree and human, the more dryads {TREE_definite} can sustain. {CONNECTOR_nameDef} can strengthen the connection by pruning {TREE_definite}. Maintaining a higher connection strength requires more frequent pruning. -->
-  <LetterTextPawnConnected>{CONNECTOR_nameDef}已经连接到{TREE_definite}。母树会定期产生一种叫做树精的小动物，把它们种在树底的荚囊里。这些树精可以分为不同的类型。你可以选择你想让这棵树产生哪一种类型的树精。\n\n母树和人类之间的联系越强，树精就能繁育的越多。{CONNECTOR_nameDef}可以通过修剪{TREE_definite}来加强连接。保持较高的连接强度需要更频繁的修剪。</LetterTextPawnConnected>
+  <LetterTextPawnConnected>{CONNECTOR_nameDef}已经共鸣{TREE_definite}。母树会定期产生一种叫做树精的小动物，把它们种在树底的荚囊里。这些树精可以分为不同的类型。你可以选择你想让这棵树产生哪一种类型的树精。\n\n母树和人类之间的联系越强，树精就能繁育的越多。{CONNECTOR_nameDef}可以通过修剪{TREE_definite}来加强共鸣。保持较高的共鸣强度需要更频繁的修剪。</LetterTextPawnConnected>
   <!-- EN: Connected {TREE_label} destroyed -->
-  <LetterLabelConnectedTreeDestroyed>连接{TREE_label}被摧毁</LetterLabelConnectedTreeDestroyed>
+  <LetterLabelConnectedTreeDestroyed>共鸣的{TREE_label}被摧毁</LetterLabelConnectedTreeDestroyed>
   <!-- EN: A {TREE_label} connected to {CONNECTEDPAWN_nameDef} has been destroyed, killing the dryad queen housed inside.\n\nWithout a queen, the dryad brood-mind has collapsed. All dryads from that tree have died. -->
-  <LetterTextConnectedTreeDestroyed>连接到{CONNECTEDPAWN_nameDef}的{TREE_label}被摧毁，杀死了里面的树精女王。\n\n没有了女王，树精的意思便会崩溃。属于那颗母树的树精都会死去。</LetterTextConnectedTreeDestroyed>
+  <LetterTextConnectedTreeDestroyed>与{CONNECTEDPAWN_nameDef}共鸣的{TREE_label}被摧毁，杀死了里面的树精女王。\n\n没有了女王，树精的意识便会崩溃。属于那颗母树的树精都会死去。</LetterTextConnectedTreeDestroyed>
 
   <!-- Archonexus victory -->
   <!-- EN: Quest '{0}' available -->

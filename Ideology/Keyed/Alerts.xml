@@ -26,22 +26,22 @@
   <!-- EN: Expires in -->
   <RitualExpiresIn>过期于</RitualExpiresIn>
   <!-- EN: Completing {RITUAL_labelDef} will have these effects -->
-  <RitualCompletionEffects>完成{}仪式将会带来以下效果：</RitualCompletionEffects>
+  <RitualCompletionEffects>完成{RITUAL_labelDef}仪式将会带来以下效果</RitualCompletionEffects>
   <!-- EN: To begin the ritual, select a focus object and click the 'Begin {RITUAL_label}' command. The following are valid focus objects:\n{1} -->
-  <RitualTargetsExplanation>为了开始一个仪式，用鼠标选中一个</RitualTargetsExplanation>
+  <RitualTargetsExplanation>为了开始一个仪式，用鼠标选中一个媒介并且点击「开始{RITUAL_label}」命令。 以下是可用的媒介：\n{1}</RitualTargetsExplanation>
   <!-- EN: Following roles have a part in {RITUAL_label}:\n{1} -->
-  <RitualRolesExplanation>以下角色</RitualRolesExplanation>
+  <RitualRolesExplanation>以下身份是{RITUAL_label}的一部分：\n{1}</RitualRolesExplanation>
   <!-- EN: Click to jump to targets -->
   <RitualJumpToTargets>点击以跳转到目标</RitualJumpToTargets>
   <!-- EN: Delaying {RITUAL_labelDef} will have following effects -->
-  <RitualObligationDelayEffects>延迟 将会有以下情况：</RitualObligationDelayEffects>
+  <RitualObligationDelayEffects>延期{RITUAL_labelDef}将会有以下情况：</RitualObligationDelayEffects>
   <!-- EN: {0} days: {1} mood on all {2}s. -->
-  <RitualObligationDelayEffectDesc>{0}天，对每个{2}造成{1}心情减值。</RitualObligationDelayEffectDesc>
+  <RitualObligationDelayEffectDesc>{0}天：每个{2}获得{1}心情。</RitualObligationDelayEffectDesc>
   <!-- EN: In order to perform {0} you need to fill these roles -->
-  <RitualUnfilledRoles>为进行{0}你需要指定以下这些角色</RitualUnfilledRoles>
+  <RitualUnfilledRoles>你需要指定以下身份来举行{0}</RitualUnfilledRoles>
 
   <!-- EN: {0} desired -->
-  <IdeoBuildingMissing>需求建筑物：{0}</IdeoBuildingMissing>
+  <IdeoBuildingMissing>需求：{0}</IdeoBuildingMissing>
   <!-- EN: {1} requires that you have a {0} in your colony as long as {2} or higher.{4}\n\nIf the requirement isn't met, these believers will become unhappy:\n{3} -->
   <IdeoBuildingMissingDesc>{1}需要你的殖民地在{2}或更高时有{0}，如果此需求未被满足，以下信徒将不会开心：\n {3} </IdeoBuildingMissingDesc>
   <!-- EN: In order to dignify {0}, these room requirements must be met -->
@@ -60,11 +60,11 @@
   <QuestPartRaidsDelayDesc>袭击将在{0}后到来\n\n 袭击者的目的是寻找并摧毁此。保护它，直到你的殖民者把其电脑内部的数据提取出来为止。</QuestPartRaidsDelayDesc>
 
   <!-- EN: {0} role unfilled -->
-  <IdeoRoleEmpty>{0}角色未被分配</IdeoRoleEmpty>
+  <IdeoRoleEmpty>{0}身份未被分配</IdeoRoleEmpty>
   <!-- EN: {0} roles unfilled -->
-  <IdeoRolesEmpty>{0}角色未被分配</IdeoRolesEmpty>
+  <IdeoRolesEmpty>{0}身份未被分配</IdeoRolesEmpty>
   <!-- EN: These roles are not filled:\n{0}\n\nYou can assign someone a role on their Social tab.\n\nIf these roles remain empty, the following people will be unhappy -->
-  <IdeoRolesEmptyDesc>这些角色未被分配： \n {0} \n \n 你可以在某人的社交栏指定其角色。\n\n 如果这些角色仍未被分配，以下人员将不开心：</IdeoRolesEmptyDesc>
+  <IdeoRolesEmptyDesc>这些身份未被分配： \n {0} \n \n 你可以在某人的社交栏指定其身份。\n\n 如果这些身份仍未被分配，以下人员将不开心：</IdeoRolesEmptyDesc>
 
   <!-- EN: Security threats activated in {0} -->
   <AncientAltarThreatsWaking>安全协议将在{0}内激活</AncientAltarThreatsWaking>
@@ -83,7 +83,7 @@
   <!-- EN: Ritual opportunity soon -->
   <AlertRitualComing>仪式机会即将来临</AlertRitualComing>
   <!-- EN: A ritual opportunity is coming soon for following rituals -->
-  <AlertRitualComingDesc>很快将有可供执行以下仪式的机会：</AlertRitualComingDesc>
+  <AlertRitualComingDesc>很快将有可供执行以下仪式的机会</AlertRitualComingDesc>
   <!-- EN: Opportunities expire after {0} days, and reoccur on the same day each year. -->
   <AlertRitualComingExtra>机会将在{0}天后过期，并将在每年的同一日期再次出现。</AlertRitualComingExtra>
   <!-- EN: {0} on {1}, {2} left -->
@@ -110,9 +110,9 @@
   <!-- EN: One or more Gauranlen trees do not have their dryad caste set.\n\nSelect the tree and click the '{0}' button to set produced dryad caste. -->
   <AlertGauranlenTreeWithoutDryadTypeDesc>一个或多个母树未设置其树精角色\n\n 选择母树并按下{0} 来设置树精的角色。</AlertGauranlenTreeWithoutDryadTypeDesc>
   <!-- EN: Connector not assigned to plant cutting -->
-  <AlertConnectedPawnNotAssignedToPlantCuttingLabel>母树连接者未指派割除工作</AlertConnectedPawnNotAssignedToPlantCuttingLabel>
+  <AlertConnectedPawnNotAssignedToPlantCuttingLabel>母树共鸣者未指派割除工作</AlertConnectedPawnNotAssignedToPlantCuttingLabel>
   <!-- EN: You have Gauranlen trees which are set to be pruned, but their connectors are not assigned to plant cutting.\n\nYou should assign plant cutting work to the following people -->
-  <AlertConnectedPawnNotAssignedToPlantCuttingDesc>你有需要护理的母树，但它们的连接者未被指派割除工作。\n\n 你应该为以下人员指定割除工作：</AlertConnectedPawnNotAssignedToPlantCuttingDesc>
+  <AlertConnectedPawnNotAssignedToPlantCuttingDesc>你有需要护理的母树，但它们的共鸣者未被指派割除工作。\n\n你应该为以下人员指定割除工作</AlertConnectedPawnNotAssignedToPlantCuttingDesc>
 
   <!-- EN: Fuel node explodes in {0} -->
   <AlertFuelNodeIgniting>燃油站将在{0}后爆炸</AlertFuelNodeIgniting>

@@ -76,7 +76,7 @@
   <!-- EN: Chance to have precept -->
   <ChanceToHavePrecept>拥有戒律的几率</ChanceToHavePrecept>
   <!-- EN: {PAWN_labelShort}'s favorite color. Having more than {PERCENTAGE} of {PAWN_possessive} apparel in this color, or the color of {PAWN_possessive} ideoligion, will make {PAWN_objective} slightly happier.\n\nYou can alter apparel colors at the styling station using tinctoria dye. -->
-  <FavoriteColorTooltip>{PAWN_labelShort}的最爱色，穿着大于{PERCENTAGE}的此颜色或其所属文化的服装将令{PAWN_possessive}稍微开心。你可以在造型台使用染料调整服装颜色。</FavoriteColorTooltip>
+  <FavoriteColorTooltip>{PAWN_labelShort}的偏爱颜色， 如果穿着的衣服超过{PERCENTAGE}染有此颜色或{PAWN_possessive}文化形态代表色， 会让{PAWN_objective}感到愉悦。\n\n你可以在梳妆台使用染料调整服装颜色。</FavoriteColorTooltip>
   <!-- EN: Set ideo color -->
   <SetIdeoColor>设置文化代表色</SetIdeoColor>
   <!-- EN: Set favorite color -->
@@ -111,9 +111,9 @@
   <!-- EN: Altar or any ritual spot. -->
   <RitualTargetGatherAltarOrRitualSpotInfo>祭坛或任意仪式点</RitualTargetGatherAltarOrRitualSpotInfo>
   <!-- EN: A lightball or ritual spot. Lightball and loudspeakers must be powered. -->
-  <RitualTargetLightBallInfo>一个光球或仪式点，光球和喇叭必须通电。</RitualTargetLightBallInfo>
+  <RitualTargetLightBallInfo>一个灯球或仪式点，灯球和喇叭必须通电。</RitualTargetLightBallInfo>
   <!-- EN: Lightball is not powered. -->
-  <RitualTargetLightBallIsNotPowered>光球未通电</RitualTargetLightBallIsNotPowered>
+  <RitualTargetLightBallIsNotPowered>灯球未通电</RitualTargetLightBallIsNotPowered>
   <!-- EN: No powered speakers. -->
   <RitualTargetNoPoweredSpeakers>没有通电的喇叭</RitualTargetNoPoweredSpeakers>
   <!-- EN: Campfire is not fueled. -->
@@ -129,7 +129,7 @@
   <!-- EN: A lit campfire or ritual spot. Spot must be unroofed with at least 25 unroofed cells in the area. -->
   <RitualTargetCampfireSkylanternsInfo>一个点燃的营火，或仪式点，场地附近需要有至少25格无屋顶的空间</RitualTargetCampfireSkylanternsInfo>
   <!-- EN: An unconnected Gauranlen tree. -->
-  <RitualTargetUnconnectedGaruanlenTreeInfo>一个未连接的母树</RitualTargetUnconnectedGaruanlenTreeInfo>
+  <RitualTargetUnconnectedGaruanlenTreeInfo>一棵未共鸣的母树</RitualTargetUnconnectedGaruanlenTreeInfo>
   <!-- EN: Already connected to {PAWN_nameDef} -->
   <RitualTargetConnectedGauranlenTree>已经与{PAWN_nameDef}共鸣</RitualTargetConnectedGauranlenTree>
   <!-- EN: You need {0} wood for each participant ({2} total). You have {1} wood. -->
@@ -176,10 +176,10 @@
   <RitualAttachedOutcomesInfo>如果{0}为{1}</RitualAttachedOutcomesInfo>
   <!-- EN: Upon any {0} outcome -->
   <!-- ISSUE -->
-  <RitualAttachedApplliesForOutcome>在任意{0}结果中</RitualAttachedApplliesForOutcome>
+  <RitualAttachedApplliesForOutcome>在{0}结果中</RitualAttachedApplliesForOutcome>
   <!-- EN: Upon any {0} outcome -->
   <!-- ISSUE -->
-  <RitualAttachedApplliesForOutcomes>在任意{0}结果上</RitualAttachedApplliesForOutcomes>
+  <RitualAttachedApplliesForOutcomes>在{0}结果上</RitualAttachedApplliesForOutcomes>
   <!-- EN: The commotion from the {0} has attracted some curious animals!\n\nThey seem accustomed to human contact and are joining the colony. -->
   <RitualAttachedOutcome_FarmAnimalsWanderIn_Desc>来自{0}的骚动吸引了一些好奇的动物！\n\n它们看样子已习惯与人生活，因此将直接加入殖民地。</RitualAttachedOutcome_FarmAnimalsWanderIn_Desc>
   <!-- EN: The {0} has induced a Gauranlen pod to sprout nearby. -->
@@ -196,9 +196,9 @@
   <RitualAttachedOutcomeCantApply_NotAvailableRightNow>当前不可用</RitualAttachedOutcomeCantApply_NotAvailableRightNow>
   
   <!-- EN: This building is a variation of -->
-  <IdeoBuildingVariationOf>此建筑是该建筑的变种：</IdeoBuildingVariationOf>
+  <IdeoBuildingVariationOf>变种起源</IdeoBuildingVariationOf>
   <!-- EN: Minimum expectations -->
-  <IdeoBuildingMinimumExpectations>最低期望：</IdeoBuildingMinimumExpectations>
+  <IdeoBuildingMinimumExpectations>最低期望</IdeoBuildingMinimumExpectations>
   <!-- EN: size -->
   <Size>大小</Size>
   <!-- EN: cost -->
@@ -372,7 +372,7 @@
 
   <!-- Gauranlen trees/Dryads -->
   <!-- EN: Connected to -->
-  <ConnectedPawn>连接至</ConnectedPawn>
+  <ConnectedPawn>共鸣至</ConnectedPawn>
   <!-- EN: Nobody -->
   <Nobody>无人</Nobody>
   <!-- EN: The person this {TREE_label} is connected to. If the connected person dies, this {TREE_label} will be unable to connect to another for {DURATION}. -->
@@ -384,8 +384,7 @@
   <!-- EN: Planting {PLANT_definite} near artificial buildings will cause its connection strength to decay over time. Connection strength determines the maximum number of dryads {PLANT_definite} can support at once.\n\nAre you sure you wish to plant here? -->
   <TreeBlockedByNearbyBuildingsDesc>将{PLANT_definite}种植在人造建筑物附近将导致共鸣强度随时间下降，共鸣强度决定着此{PLANT_definite}可支持的树精之最大数量。 \n\n你确定要在这里种下它？</TreeBlockedByNearbyBuildingsDesc>
   <!-- EN: Changing {TREE_definite}'s dryad caste takes time and energy.\n\nAfter the connected person interacts with the tree, all dryads will spend {DURATION} days inside cocoons while they morph to the selected caste.\n\nExisting cocoons will cancel their transformation so they can morph to the current caste. -->
-  <!-- ISSUE -->
-  <GauranlenModeChangeDescFull>修改{TREE_definite}的树精的角色将耗费时间和力量。\n\n 当共鸣者与树交互后，所有树精将在茧内度过{DURATION}天以转化至目标角色。 \n\n 现存的茧将取消其变形以转化至当前设定的角色。</GauranlenModeChangeDescFull>
+  <GauranlenModeChangeDescFull>修改{TREE_definite}的树精的角色将耗费时间和力量。\n\n当共鸣者与树交互后，所有树精将在茧内度过{DURATION}天以转化至目标角色。 \n\n现存的茧将取消其变形以转化至当前设定的角色。</GauranlenModeChangeDescFull>
   <!-- EN: Change the type of dryads created by {TREE_definite}. -->
   <ChangeModeDesc>修改由 创建的树精的类别</ChangeModeDesc>
   <!-- EN: Connection strength fall -->
@@ -423,10 +422,9 @@
   <!-- EN: Morphing {DRYAD_labelShort} into {TYPE_label}. -->
   <ChangingDryadIntoType>正将{DRYAD_labelShort}变形至{TYPE_label}</ChangingDryadIntoType>
   <!-- EN: {0} hours every day -->
-  <HoursEveryDay>{0}小时每天</HoursEveryDay>
+  <HoursEveryDay>每天{0}小时</HoursEveryDay>
   <!-- EN: {0} hours every other day -->
-  <!-- ISSUE -->
-  <HoursEveryOtherDay>{0}每另一天</HoursEveryOtherDay>
+  <HoursEveryOtherDay>每隔一天{0}小时</HoursEveryOtherDay>
   <!-- EN: {DRYAD_labelPlural} produce {RESOURCES} every {DURATION}. -->
   <DryadProducesResourcesDesc>{DRYAD_labelPlural}将每隔{DURATION}产生{RESOURCES}</DryadProducesResourcesDesc>
   <!-- EN: {ANIMAL_nameDef} is connected to {MASTER_nameDef} through {ANIMAL_possessive} Gauranlen tree. {ANIMAL_possessive} master cannot be changed. -->
@@ -483,9 +481,8 @@
   <!-- Archonexus -->
   <!-- EN: You've invoked the archonexus core. The world fills with a blinding light and time seems to slow...\n\n -->
   <GameOverArchotechInvokedIntro>你已激活了超凡枢纽核心。世界被刺目的光填满，时间似乎变慢了。。。\n\n</GameOverArchotechInvokedIntro>
-  <!-- ISSUE -->
   <!-- EN: The machine god has noticed you. Nobody can predict what happens next. It may destroy you, or communicate with you directly, or transport your consciousness to another plane of reality.\n\nYou sense a vast, inhuman structure of infinite fractal complexity flowing into your mind. Time and scale begin to dissolve. It's terrifying. It's beautiful... -->
-  <GameOverArchotechInvokedEnding>机械神明已注意到了你，没人能预料接下来会发生什么。 它可能毁灭你，可能与你直接沟通，或者将你的意识转移到另一个现实位面。\n\n 你看到一个巨大无边的，非人类的分形复杂度结构涌入你的意识，时间和大小似乎都在溶解，这很恐怖。 这也很美。</GameOverArchotechInvokedEnding>
+  <GameOverArchotechInvokedEnding>机械神明已注意到了你， 没人能预料接下来会发生什么。 它可能毁灭你， 可能与你直接沟通， 或者将你的意识转移到另一个现实位面。\n\n 你看到一个巨大无边的， 非人类的分形复杂度结构涌入你的意识， 时间和大小似乎都在溶解， 这很恐怖。 这也很美。</GameOverArchotechInvokedEnding>
   <!-- EN: These colonists have transcended:\n\n{0} -->
   <GameOverColonistsTranscended>以下殖民者已被升格：\n\n {0}</GameOverColonistsTranscended>
   <!-- EN: An archonexus map part -->
@@ -503,9 +500,8 @@
   <!-- EN: Supply satellite -->
   <SupplySatellite>支援卫星</SupplySatellite>
 
-  <!-- ISSUE -->
   <!-- EN: Colonist is not willing to extract skull from corpse (missing pro-skullspike precept) -->
-  <CannotExtractSkull>殖民者不愿将颅骨从尸体中取出（缺失钉颅戒律）</CannotExtractSkull>
+  <CannotExtractSkull>殖民者不愿将颅骨从尸体中取出（缺失钉刺颅观戒律）</CannotExtractSkull>
   <!-- EN: Preview the ritual ambience sound -->
   <TipPreviewRitualAmbienceSound>预览仪式环境音效</TipPreviewRitualAmbienceSound>
 
@@ -526,8 +522,7 @@
   <!-- EN: Ends in -->
   <BiosculpterCycleTimeRemaining>将结束于</BiosculpterCycleTimeRemaining>
   <!-- EN: Biotuned to -->
-  <!-- ISSUE -->
-  <BiosculpterBiotunedTo>生体调谐至</BiosculpterBiotunedTo>
+  <BiosculpterBiotunedTo>调谐至</BiosculpterBiotunedTo>
   <!-- EN: Interrupt cycle -->
   <BiosculpterInteruptCycle>中断循环</BiosculpterInteruptCycle>
   <!-- EN: Interrupt the current cycle. The occupant will be ejected without benefiting from the effects of the cycle, and will suffer from short-term biosculpter sickness. -->
@@ -545,7 +540,6 @@
   <!-- EN: {PAWN_labelShort} completed pleasure cycle. -->
   <BiosculpterPleasureCompletedMessage>已完成其欢愉循环</BiosculpterPleasureCompletedMessage>
   <!-- EN: Cleanliness speed factor -->
-  <!-- ISSUE -->
   <BiosculpterCleanlinessSpeedFactor>清洁度速度因数</BiosculpterCleanlinessSpeedFactor>
 
 </LanguageData>
