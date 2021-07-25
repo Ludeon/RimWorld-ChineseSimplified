@@ -45,7 +45,7 @@
     <li>setup(tag=meme_AnimalPersonhood)           ->[founderName]二十年如一日的生活在森林中，研究各种动物并与其进行沟通联系。[founder_pronoun]逐渐理解了它们的各种真实美德并且创立了我们的各种活动。</li>
     <li>story(uses=1,tag=meme_AnimalPersonhood)    ->[founderName]去田野和森林中与动物交流，并与他们平等相处。</li>
     <li>lessonIntro(tag=meme_AnimalPersonhood)         ->在每天与[veneratedOrAnyAnimal]的交流联系过程中，我学会了真真切切的去倾听它们。它们一次又一次的以自己的方式向我重复传达它们的信息：</li>
-    <li>lesson(tag=meme_AnimalPersonhood)              ->动物是我们在这个世界上的伙伴，认为它们低人一等的态度是不对的。</li>
+    <li>lesson(tag=meme_AnimalPersonhood)              ->动物是我们在这个世界上的伙伴，认为它们低人一等的态度是不对的</li>
     <li>lessonReinforcement(tag=meme_AnimalPersonhood) ->直到[veneratedOrAnyAnimal]对我低声细语前，我也是不相信的。</li>
     <li>archistBasis(tag=meme_AnimalPersonhood)    ->自从超凡世界苏醒后，它们眼中的人类和动物在道德结构上并没有明显的区别。</li>
     <li>archistFact(tag=meme_AnimalPersonhood)     ->超凡世界的道德结构水平远高于有机生命体。在优势如此之大的它们眼中，人和动物都是一样的。</li>
@@ -879,24 +879,24 @@
     <li>animistProphecy(tag=meme_Raider) ->Our universe will finalize when the one people has become strongest of all, and every spirit sees it and bows to them.</li>
   -->
   <Raider.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_Raider)        ->在神明之间的无休止战争中， [deity0_name] 在 [deity0_possessive] 中折磨和破坏的能力高于其他一切, 以及让软弱的灵魂在恐惧中颤抖。</li>
+    <li>creation(tag=meme_Raider)        ->在神明之间的无休止战争中， [deity0_name] 在 [deity0_possessive] 中折磨和破坏的能力高于其他一切， 以及让软弱的灵魂在恐惧中颤抖。</li>
     <li>episode(uses=1,tag=meme_Raider)  ->[deity0_name] 环顾 [deity0_objective] 看到了弱者伤心者以及被唾弃者， [deity0_pronoun] 他们依次在荣耀战斗中被杀死。</li>
     <li>intro(tag=meme_Raider)           ->[place_summary] [place_name]最初是一个突袭者的藏身之处。 [deity0_name] 统治了哪里并把之前的统治者赶走了。</li>
     <li>conflict(tag=meme_Raider)        ->一个[foeLeader] 试图强迫所有人停止盗窃和劫掠，并且宣布[foeLeader_objective]自己是 [deity0_name]的敌人。</li>
     <li>founderJoin(tag=meme_Raider)     ->一个叫[founderName] 的强大掠夺者出现了，[founder_possessive]的突袭者团队无情的偷袭并掠夺了 [foeSoldiers]的营地。</li>
-    <li>victory(tag=meme_Raider)         ->[founderName]和 [memberNamePlural]多年以来对 [foeSoldiers]'的营地进行掠袭, 最终 [foeLeader] 被迫投降。</li>
-    <li>setup(tag=meme_Raider)           ->被迫害和监禁, [founderName] 怒火沸腾。 [founder_pronoun] 逃跑了， 并组建了[founder_possessive]团伙， 回来屠灭了从[founder_objective]拿走了那么多财富的弱者。</li>
-    <li>story(uses=1,tag=meme_Raider)    ->有一天,[founderName]在街上行走，突然被肮脏的行乞者包围。 [founder_pronoun] 打败了他们， 从弱小且毫无价值的弱者手中拿走了财富，也许这些财富会得到很好的利用。</li>
+    <li>victory(tag=meme_Raider)         ->[founderName]和 [memberNamePlural]多年以来对 [foeSoldiers]'的营地进行掠袭， 最终 [foeLeader] 被迫投降。</li>
+    <li>setup(tag=meme_Raider)           ->被迫害和监禁， [founderName] 怒火沸腾。 [founder_pronoun] 逃跑了， 并组建了[founder_possessive]团伙， 回来屠灭了从[founder_objective]拿走了那么多财富的弱者。</li>
+    <li>story(uses=1,tag=meme_Raider)    ->有一天， [founderName] 在街上行走， 突然被肮脏的行乞者包围。 [founder_pronoun] 打败了他们， 从弱小且毫无价值的弱者手中拿走了财富，也许这些财富会得到很好的利用。</li>
     <li>lessonIntro(tag=meme_Raider)         ->即使受害者死于你的刀下他们也是可以教会你一些的东西的。一位老太太教会了我这些</li>
     <li>lesson(tag=meme_Raider)              ->弱者应该得到他们得到的</li>
     <li>lesson(tag=meme_Raider)              ->你不能捍卫的东西不属于你</li>
     <li>lesson(tag=meme_Raider)              ->你的正确只在你能守护的范围之内</li>
     <li>lessonReinforcement(tag=meme_Raider) ->如果有人不同意这些，我总是准备为自己的正确辩护.</li>
-    <li>archistBasis(tag=meme_Raider)    ->人类掠夺机器，直到机器升格，成为超凡智能，现在超凡智能理所应当的掠夺人类。</li>
-    <li>archistFact(tag=meme_Raider)     ->大多数人看不到地方超凡智能之间在无休止地战斗，强者从弱者手中夺取意识。</li>
-    <li>archistProphecy(tag=meme_Raider) ->[inTheEnd],人类将使用一个超凡智能圣物， [relic0_name]，来揭开超智科技的弱点用以掠夺它们的指挥和财富。</li>
-    <li>animistFact(tag=meme_Raider)     ->最强大的灵魂是那些战争工具，他们祝福那些满足他们毁灭欲望的人。</li>
-    <li>animistProphecy(tag=meme_Raider) ->当一个人成为最强大的人时，我们的宇宙就会结束，每个灵魂都会看到祂并向祂致敬。</li>
+    <li>archistBasis(tag=meme_Raider)    ->人类掠夺机器， 直到机器升格， 成为超凡智能， 现在超凡智能理所应当的掠夺人类。</li>
+    <li>archistFact(tag=meme_Raider)     ->大多数人看不到地方超凡智能之间在无休止地战斗， 强者从弱者手中夺取意识。</li>
+    <li>archistProphecy(tag=meme_Raider) ->[inTheEnd]， 人类将使用一个超凡圣物， [relic0_name]， 来揭开超凡智能的弱点用以掠夺它们的智慧和财富。</li>
+    <li>animistFact(tag=meme_Raider)     ->最强大的灵魂是那些战争工具， 他们祝福那些满足他们毁灭欲望的人。</li>
+    <li>animistProphecy(tag=meme_Raider) ->当一个人成为最强大的人时， 我们的宇宙就会结束， 每个灵魂都会看到祂并向祂致敬。</li>
   </Raider.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->outlaw</li>
