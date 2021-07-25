@@ -52,13 +52,13 @@
   <!-- EN: Expecting at least {0} body size per colonist. -->
   <MinAnimalBodySizePerColonist>每名殖民者需要至少{0}动物体积</MinAnimalBodySizePerColonist>
   <!-- EN: Plant {0_label} -->
-  <PlantThing>种植</PlantThing>
+  <PlantThing>种植{0_label}</PlantThing>
   <!-- EN: Plant a {0_label} in a chosen area. -->
-  <PlantThingDesc>在选定的区域种植</PlantThingDesc>
+  <PlantThingDesc>在选定的区域种植{0_label}</PlantThingDesc>
   <!-- EN: Cancel planting {0_label} -->
-  <CancelPlantThing>取消种植</CancelPlantThing>
+  <CancelPlantThing>取消种植{0_label}</CancelPlantThing>
   <!-- EN: Cancel planting the {0_label}. -->
-  <CancelPlantThingDesc>取消种植</CancelPlantThingDesc>
+  <CancelPlantThingDesc>取消种植{0_label}</CancelPlantThingDesc>
   <!-- EN: Disables -->
   <Disables>禁用</Disables>
   <!-- EN: Requires one of precepts -->
@@ -97,13 +97,13 @@
   <Everyone>所有人</Everyone>
 
   <!-- EN: A grave containing {PAWN_labelShort}'s corpse. -->
-  <RitualTargetGraveInfo>装有尸体的坟墓</RitualTargetGraveInfo>
+  <RitualTargetGraveInfo>装有{PAWN_labelShort}的坟墓</RitualTargetGraveInfo>
   <!-- EN: An empty grave to mourn {PAWN_labelShort}'s passing. -->
-  <RitualTargetEmptyGraveInfo>一座空坟，用来缅怀的逝世。</RitualTargetEmptyGraveInfo>
+  <RitualTargetEmptyGraveInfo>一座空坟，用来缅怀{PAWN_labelShort}的逝世。</RitualTargetEmptyGraveInfo>
   <!-- EN: A grave containing {IDEO_memberNameIndef}'s corpse -->
-  <RitualTargetGraveInfoAbstract>装有尸体的坟墓</RitualTargetGraveInfoAbstract>
+  <RitualTargetGraveInfoAbstract>装有{IDEO_memberNameIndef}的坟墓</RitualTargetGraveInfoAbstract>
   <!-- EN: An empty grave to mourn {IDEO_memberNameIndef}'s passing. -->
-  <RitualTargetEmptyGraveInfoAbstract>一座空坟，用来缅怀 的逝世。</RitualTargetEmptyGraveInfoAbstract>
+  <RitualTargetEmptyGraveInfoAbstract>一座空坟，用来缅怀{IDEO_memberNameIndef}的逝世。</RitualTargetEmptyGraveInfoAbstract>
   <!-- EN: {PAWN_labelShort}'s body must be buried first -->
   <RitualTargetGraveInfoMustBeBuried>{PAWN_labelShort}的尸体必须先被埋葬</RitualTargetGraveInfoMustBeBuried>
   <!-- EN: Any gathering spot, like a table -->
@@ -137,22 +137,22 @@
   <!-- EN: Accuse -->
   <Accuse>指控</Accuse>
   <!-- EN: {PAWN_labelShort} does not believe in ideoligious scarification and will not like being scarified. -->
-  <RitualScarificationWarnNonScarificationIdeo>不认同此文化的牺牲行为，因此不愿作为祭品。</RitualScarificationWarnNonScarificationIdeo>
+  <RitualScarificationWarnNonScarificationIdeo>{PAWN_labelShort}不认同此文化的牺牲行为，因此不愿作为祭品。</RitualScarificationWarnNonScarificationIdeo>
   <!-- EN: {PAWN_labelShort} is a wimp and will not like being scarified. -->
-  <RitualScarificationWarnWimp>因其懦弱特质而拒绝成为祭品</RitualScarificationWarnWimp>
+  <RitualScarificationWarnWimp>{PAWN_labelShort}因其懦弱特质而拒绝成为祭品</RitualScarificationWarnWimp>
   <!-- EN: {PAWN_labelShort} does not believe in ideoligious blinding and will not like being blinded. -->
-  <RitualBlindingWarnNonBlindingIdeo>不认同此文化的致盲行为，因此不愿被致盲。</RitualBlindingWarnNonBlindingIdeo>
+  <RitualBlindingWarnNonBlindingIdeo>{PAWN_labelShort}不认同此文化的致盲行为，因此不愿被致盲。</RitualBlindingWarnNonBlindingIdeo>
   <!-- EN: {PAWN_labelShort} is a wimp and will not like being blinded. -->
-  <RitualBlindingWarnWimp>因其懦弱特质而拒绝被致盲</RitualBlindingWarnWimp>
+  <RitualBlindingWarnWimp>{PAWN_labelShort}因其懦弱特质而拒绝被致盲</RitualBlindingWarnWimp>
   
   <!-- EN: Everyone participating in the ritual gained a one-day work focus buff ({PERCENTAGE} global work speed)! -->
   <RitualOutcomeExtraDesc_DancePartyWorkFocus>每个参与此仪式的人均获得了时长一天的工作狂热（增加了{PERCENTAGE}的全局工作速度！）</RitualOutcomeExtraDesc_DancePartyWorkFocus>
   <!-- EN: Thanks to a satisfying blinding ritual, {PAWN_labelShort} gained a psylink level! -->
   <RitualOutcomeExtraDesc_BlindingPsylink>受益于成功的致盲献祭仪式，{PAWN_labelShort}获得了一个启灵等级！</RitualOutcomeExtraDesc_BlindingPsylink>
   <!-- EN: With a new pyslink level {PAWN_pronoun} gained a {0} psycast. -->
-  <RitualOutcomeExtraDesc_BlindingPsylinkAbility>基于其新的启灵等级，获得了新的心灵能力</RitualOutcomeExtraDesc_BlindingPsylinkAbility>
+  <RitualOutcomeExtraDesc_BlindingPsylinkAbility>{PAWN_pronoun}基于其新的启灵等级，获得了心灵能力{0}</RitualOutcomeExtraDesc_BlindingPsylinkAbility>
   <!-- EN: Thanks to a satisfying {RITUAL}, {PAWN_labelShort} gained {INSPIRATION}! -->
-  <RitualOutcomeExtraDesc_ConsumableInspiration>受益于成功的{RITUAL} ，{PAWN_labelShort}获得了{INSPIRATION！</RitualOutcomeExtraDesc_ConsumableInspiration>
+  <RitualOutcomeExtraDesc_ConsumableInspiration>受益于成功的{RITUAL} ，{PAWN_labelShort}获得了{INSPIRATION}！</RitualOutcomeExtraDesc_ConsumableInspiration>
   <!-- EN: Your skylanterns have attracted some friendly travelers. They will visit and leave a gift. -->
   <RitualOutcomeExtraDesc_SkylanternWanderers>你的天灯吸引了一些友善的旅行者，他们将会来拜访你的殖民地并留下礼物</RitualOutcomeExtraDesc_SkylanternWanderers>
   <!-- EN: All participating slaves were shaken by the sight of death. Their suppression has been raised to its maximum level. -->
@@ -246,7 +246,7 @@
   <!-- EN: Must be {0} -->
   <RoleRequirementLabelSameIdeo>必须是{0}</RoleRequirementLabelSameIdeo>
   <!-- EN: Must be {0} -->
-  <RoleRequirementLabelSupremeGender>必须是{0</RoleRequirementLabelSupremeGender>
+  <RoleRequirementLabelSupremeGender>必须是{0}</RoleRequirementLabelSupremeGender>
 
   <!-- EN: Disabled work -->
   <RoleDisabledWorkLabel>禁用的工作</RoleDisabledWorkLabel>
@@ -378,19 +378,19 @@
   <!-- EN: Connection torn. Can connect in {0}. -->
   <ConnectionTorn>共鸣被打断。恢复共鸣需要{0}</ConnectionTorn>
   <!-- EN: {PAWN_nameDef} is too far away -->
-  <ConnectedPawnAway>离得太远了！</ConnectedPawnAway>
+  <ConnectedPawnAway>{PAWN_nameDef}离得太远了！</ConnectedPawnAway>
   <!-- EN: Planting {PLANT_definite} near artificial buildings will cause its connection strength to decay over time. Connection strength determines the maximum number of dryads {PLANT_definite} can support at once.\n\nAre you sure you wish to plant here? -->
   <TreeBlockedByNearbyBuildingsDesc>将{PLANT_definite}种植在人造建筑物附近将导致共鸣强度随时间下降，共鸣强度决定着此{PLANT_definite}可支持的树精之最大数量。 \n\n你确定要在这里种下它？</TreeBlockedByNearbyBuildingsDesc>
   <!-- EN: Changing {TREE_definite}'s dryad caste takes time and energy.\n\nAfter the connected person interacts with the tree, all dryads will spend {DURATION} days inside cocoons while they morph to the selected caste.\n\nExisting cocoons will cancel their transformation so they can morph to the current caste. -->
   <GauranlenModeChangeDescFull>修改{TREE_definite}的树精的角色将耗费时间和力量。\n\n当共鸣者与树交互后，所有树精将在茧内度过{DURATION}天以转化至目标角色。 \n\n现存的茧将取消其变形以转化至当前设定的角色。</GauranlenModeChangeDescFull>
   <!-- EN: Change the type of dryads created by {TREE_definite}. -->
-  <ChangeModeDesc>修改由 创建的树精的类别</ChangeModeDesc>
+  <ChangeModeDesc>修改由{TREE_definite}产生的树精的类别</ChangeModeDesc>
   <!-- EN: Connection strength fall -->
   <ConnectionStrengthFall>共鸣强度下降</ConnectionStrengthFall>
   <!-- EN: Connection strength -->
   <ConnectionStrength>共鸣强度</ConnectionStrength>
   <!-- EN: {0} strength -->
-  <ConnectionStrengthDisplay>共鸣强度</ConnectionStrengthDisplay>
+  <ConnectionStrengthDisplay>{0}共鸣强度</ConnectionStrengthDisplay>
   <!-- EN: Determines how many dryads this tree can support. -->
   <ConnectionStrengthDesc>决定此母树可以支持的树精数量</ConnectionStrengthDesc>
   <!-- EN: Max dryads -->
@@ -536,7 +536,7 @@
   <!-- EN: {PAWN_labelShort} completed {PAWN_possessive} age reversal cycle. {PAWN_pronoun} expects the next age reversal in {DEADLINE} days. -->
   <BiosculpterAgeReversalCompletedMessage>{PAWN_labelShort}完成了年龄逆转周期，{PAWN_pronoun}期待下一次年龄逆转治疗在{DEADLINE}天内进行。</BiosculpterAgeReversalCompletedMessage>
   <!-- EN: {PAWN_labelShort} completed pleasure cycle. -->
-  <BiosculpterPleasureCompletedMessage>已完成其欢愉周期。</BiosculpterPleasureCompletedMessage>
+  <BiosculpterPleasureCompletedMessage>{PAWN_labelShort}已完成欢愉周期。</BiosculpterPleasureCompletedMessage>
   <!-- EN: Cleanliness speed factor -->
   <BiosculpterCleanlinessSpeedFactor>清洁度速度因数</BiosculpterCleanlinessSpeedFactor>
 
