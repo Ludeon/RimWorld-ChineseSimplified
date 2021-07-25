@@ -995,7 +995,7 @@
     <li>creation(tag=meme_Rancher)        ->[deity0_name] 创造了动物， 然后是人， 之后把动物送给人类宠爱、饲养和屠宰， 作为对 [deity0_objective] 的崇拜行为。</li>
     <li>episode(uses=1,tag=meme_Rancher)  ->[deity0_name]创造了这片土地上所有高贵的动物和野兽，并说： “带着这些高贵的野兽，通过它们使你们自己在我的荣耀之中富饶。”</li>
     <li>intro(tag=meme_Rancher)           ->[place_summary] [place_name] 的早期 [ranchingAnimal] 牧场主为 [deity0_name] 建造了一个伟大的 [altarName]。</li>
-    <li>conflict(tag=meme_Rancher)        ->一个强大的[foeLeader] 藐视 [memberNamePlural] 和他们的生存方式, 并买下了所有的牧场用于种植 [Vegetable]s。</li>
+    <li>conflict(tag=meme_Rancher)        ->一个强大的[foeLeader] 藐视 [memberNamePlural] 和他们的生存方式, 并买下了所有的牧场用于种植 [Vegetable]。</li>
     <li>founderJoin(tag=meme_Rancher)     ->[memberName] 的救星 [FounderName] 出生在一个简陋的谷仓里，在 [ranchingAnimal] 中，[founder_possessive] 的父母是 [rancherParent1] 和 [rancherParent2]。</li>
     <li>victory(tag=meme_Rancher)         ->[FounderName] 骑着一匹骏马前往[place_community]，在正午向[foeLeader] 挑战用[place_personalWeapon] 进行决斗。 [foeLeader] 不能拒绝，否则就会失去 [foeSoldiers] 的信任。 [FounderName] 杀死了 [foeLeader] </li>
     <li>setup(tag=meme_Rancher)           ->农民受到迫害，所以他们战略转进到了郊野，在那里他们可以建立一个良好的田园牧区。</li>
@@ -1191,7 +1191,7 @@
   <!-- EN: Steelism -->
   <Transhumanist.symbolPacks.3.ideoName>坚定</Transhumanist.symbolPacks.3.ideoName>
   <!-- EN: steeler -->
-  <Transhumanist.symbolPacks.3.member>坚定</Transhumanist.symbolPacks.3.member>
+  <Transhumanist.symbolPacks.3.member>铁人</Transhumanist.symbolPacks.3.member>
   <!-- EN: steel -->
   <Transhumanist.symbolPacks.3.theme>坚定</Transhumanist.symbolPacks.3.theme>
   <!-- EN: automatist -->
@@ -1199,7 +1199,7 @@
   <!-- EN: Automatism -->
   <Transhumanist.symbolPacks.4.ideoName>自动化</Transhumanist.symbolPacks.4.ideoName>
   <!-- EN: automator -->
-  <Transhumanist.symbolPacks.4.member>自动化</Transhumanist.symbolPacks.4.member>
+  <Transhumanist.symbolPacks.4.member>合成人</Transhumanist.symbolPacks.4.member>
   <!-- EN: automata -->
   <Transhumanist.symbolPacks.4.theme>自动化</Transhumanist.symbolPacks.4.theme>
   <!-- EN: augmentist -->
@@ -1207,7 +1207,7 @@
   <!-- EN: Augmentism -->
   <Transhumanist.symbolPacks.5.ideoName>自动化</Transhumanist.symbolPacks.5.ideoName>
   <!-- EN: augmentor -->
-  <Transhumanist.symbolPacks.5.member>自动化</Transhumanist.symbolPacks.5.member>
+  <Transhumanist.symbolPacks.5.member>人形</Transhumanist.symbolPacks.5.member>
   <!-- EN: augmentation -->
   <Transhumanist.symbolPacks.5.theme>自动化</Transhumanist.symbolPacks.5.theme>
   
@@ -1330,7 +1330,7 @@
     <li>intro(tag=meme_Tunneler)           ->当第一批定居者来到[place_summary][place_name]，[deity0_type][deity0_name]用残酷的太阳耀斑迫使他们居于地下，这样他们就能在寂静的隧道里聆听[deity0_possessive]智慧。</li>
     <li>conflict(tag=meme_Tunneler)        ->一个有幽闭恐惧症的[foeLeader]提议使用[dangerousMining]来开采矿物，使得[memberNamePlural]的地下家园面临极大风险。</li>
     <li>founderJoin(tag=meme_Tunneler)     ->先知[founderName]奇迹般地从[place_name]的石头中诞生，并在一个盖满真菌的晶洞被[founder_possessive]父母破开时找到。</li>
-    <li>victory(tag=meme_Tunneler)         ->[memberNamePlural]在[foeLeader]的[place_powerCenter]下挖了一条隧道，[founderName]用信息素召唤出巨大的昆虫，打败了[foeLeader]的[[foeSoldiers]。[founderName]把[foeLeader]投入深层地牢里，囚禁了[foeLeader_objective]。</li>
+    <li>victory(tag=meme_Tunneler)         ->[memberNamePlural]在[foeLeader]的[place_powerCenter]下挖了一条隧道，[founderName]用信息素召唤出巨大的昆虫，打败了[foeLeader]的[foeSoldiers]。[founderName]把[foeLeader]投入深层地牢里，囚禁了[foeLeader_objective]。</li>
     <li>dangerousMining->剥离挖掘</li>
     <li>dangerousMining->机械昆虫</li>
     <li>dangerousMining->核爆破</li>
