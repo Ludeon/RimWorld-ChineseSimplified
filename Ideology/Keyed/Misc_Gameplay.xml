@@ -406,9 +406,9 @@
   <!-- EN: Desired -->
   <DesiredConnectionStrength>需求的强度</DesiredConnectionStrength>
   <!-- EN: {CONNECTEDPAWN_nameDef} will prune {TREE_definite} often enough to keep connection strength above this level.\n\nHigher connection strength allows supporting more dryads, but also falls faster and thus takes more frequent pruning to maintain.\n\nYou can click on the bar to adjust the desired target connection strength.\n\nConnection strength fall per day: {FALL}\n\nConnection strength is affected by nearby buildings. -->
-  <DesiredConnectionStrengthDesc> {CONNECTEDPAWN_nameDef}将维持修剪{TREE_definite}以保持共鸣强度在此水平上\n\n 更高的共鸣强度可以支持更多的树精，但回落的更快，因此需要更频繁的修剪维护。点击滑条可以修改目标强度。\n\n 每日回落：{FALL} \n\n 共鸣强度将受附近的建筑物影响。</DesiredConnectionStrengthDesc>
+  <DesiredConnectionStrengthDesc>{CONNECTEDPAWN_nameDef}将维持修剪{TREE_definite}以保持共鸣强度在此水平之上。\n\n更高的共鸣强度可以支持更多的树精， 但回落的更快， 因此需要更频繁的修剪维护。 点击滑条可以修改目标强度。\n\n每日回落：{FALL}\n\n共鸣强度将受附近的建筑物影响。</DesiredConnectionStrengthDesc>
   <!-- EN: Waiting for {CONNECTEDPAWN_nameDef} to change dryad caste. -->
-  <WaitingForConnectorToChangeCaste>等待{CONNECTEDPAWN_nameDef}来改变树精角色</WaitingForConnectorToChangeCaste>
+  <WaitingForConnectorToChangeCaste>等待{CONNECTEDPAWN_nameDef}来改变树精角色。</WaitingForConnectorToChangeCaste>
   <!-- EN: Dryad caste -->
   <GauranlenTreeMode>树精角色</GauranlenTreeMode>
   <!-- EN: no caste -->
@@ -418,17 +418,17 @@
   <!-- EN: Spawning {DRYAD_label} in {TIME} -->
   <SpawningDryadIn>将在{TIME}内生成{DRYAD_label}</SpawningDryadIn>
   <!-- EN: Morphing {DRYAD_labelShort} into {TYPE_label}. -->
-  <ChangingDryadIntoType>正将{DRYAD_labelShort}变形至{TYPE_label}</ChangingDryadIntoType>
+  <ChangingDryadIntoType>正将{DRYAD_labelShort}变形至{TYPE_label}。</ChangingDryadIntoType>
   <!-- EN: {0} hours every day -->
   <HoursEveryDay>每天{0}小时</HoursEveryDay>
   <!-- EN: {0} hours every other day -->
   <HoursEveryOtherDay>每隔一天{0}小时</HoursEveryOtherDay>
   <!-- EN: {DRYAD_labelPlural} produce {RESOURCES} every {DURATION}. -->
-  <DryadProducesResourcesDesc>{DRYAD_labelPlural}将每隔{DURATION}产生{RESOURCES}</DryadProducesResourcesDesc>
+  <DryadProducesResourcesDesc>{DRYAD_labelPlural}将每隔{DURATION}产生{RESOURCES}。</DryadProducesResourcesDesc>
   <!-- EN: {ANIMAL_nameDef} is connected to {MASTER_nameDef} through {ANIMAL_possessive} Gauranlen tree. {ANIMAL_possessive} master cannot be changed. -->
   <DryadCannotChangeMaster>{ANIMAL_nameDef}已通过{ANIMAL_possessive}的母树共鸣至{MASTER_nameDef}。{ANIMAL_possessive}的主人不能被改变。</DryadCannotChangeMaster>
   <!-- EN: Connection strength too low to create Gauranlen pod. -->
-  <ConnectionStrengthTooWeakForGaumakerPod>共鸣强度不足以生成树荚</ConnectionStrengthTooWeakForGaumakerPod>
+  <ConnectionStrengthTooWeakForGaumakerPod>共鸣强度不足以生成树荚。</ConnectionStrengthTooWeakForGaumakerPod>
   <!-- EN: Unconnected -->
   <Unconnected>未共鸣</Unconnected>
   <!-- EN: Dryads -->
@@ -438,7 +438,7 @@
   <!-- EN: Currently affected by -->
   <CurrentlyAffectedBy>当前被影响：</CurrentlyAffectedBy>
   <!-- EN: {0} connection strength needed to support a dryad. -->
-  <NotEnoughConnectionStrengthForSingleDryad>需要{0}强度来支持一个树精</NotEnoughConnectionStrengthForSingleDryad>
+  <NotEnoughConnectionStrengthForSingleDryad>需要{0}强度来支持一个树精。</NotEnoughConnectionStrengthForSingleDryad>
 
   <!-- Shooting report -->
   <!-- EN: Target outdoors and night-time -->
