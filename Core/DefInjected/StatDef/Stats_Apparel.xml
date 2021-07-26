@@ -18,7 +18,7 @@
   <!-- EN: Armor - Sharp -->
   <ArmorRating_Sharp.label>护甲 - 利器</ArmorRating_Sharp.label>
   <!-- EN: The protection given against sharp damage like bullets, knife stabs, explosions, and animal bites.\n\nUpon taking damage, first this armor rating is reduced by the attack's armor penetration value.\n\nThe remaining armor rating is then compared against a random number from 0 to 100.\n\n    - If the random number is under half the armor rating, the damage deflects harmlessly.\n    - If the random number is over half the armor rating, but not higher than the armor rating, the damage is reduced by half and changed to blunt.\n    - If the random number is greater than the armor rating, the armor has no effect.\n\nFor example, at 90% armor rating against an attack with 10% armor penetration, there is a 40% chance of deflecting the attack harmlessly, and a 40% chance of mitigating the damage.\n\nEach layer of armor is applied separately, from the outside in. -->
-  <ArmorRating_Sharp.description>抵御利器伤害的防护能力，比如子弹、刀剑穿刺，爆炸以及动物的抓咬。\n\n受到伤害时，护甲值首先减去攻击武器的护甲穿透值。剩余护甲值与0到100之间的随机数进行比较。\n\n-若随机数低于剩余护甲值的一半，则伤害无效。\n-若随机数大于剩余护甲值的一半但不高于剩余护甲值，则伤害减半，并且改为钝器伤害。。\n-若随机数大于剩余护甲值，则护甲无效。\n\n例如，对于10％护甲穿透的攻击，若护甲等级为90％，则有40％几率使攻击无效，并有40％的几率减轻伤害。\n\n拥有多层服装时，判定将从外层开始，逐层检测。</ArmorRating_Sharp.description>
+  <ArmorRating_Sharp.description>抵御利器伤害的防护能力，比如子弹、刀剑穿刺，爆炸以及动物的抓咬。\n\n受到伤害时，护甲值首先减去攻击武器的护甲穿透值。剩余护甲值与0到100之间的随机数进行比较。\n\n-若随机数低于剩余护甲值的一半，则伤害无效。\n-若随机数大于剩余护甲值的一半但不高于剩余护甲值，则伤害减半，并且改为钝器伤害。\n-若随机数大于剩余护甲值，则护甲无效。\n\n例如，对于10％护甲穿透的攻击，若护甲等级为90％，则有40％几率使攻击无效，并有40％的几率减轻伤害。\n\n拥有多层服装时，判定将从外层开始，逐层检测。</ArmorRating_Sharp.description>
   <!-- EN: Armor - Sharp (armor stat) -->
   <ArmorRating_Sharp.labelForFullStatList>护甲 - 利器 (护甲属性)</ArmorRating_Sharp.labelForFullStatList>
   
