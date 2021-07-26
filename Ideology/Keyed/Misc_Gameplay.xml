@@ -370,7 +370,7 @@
 
   <!-- Gauranlen trees/Dryads -->
   <!-- EN: Connected to -->
-  <ConnectedPawn>共鸣至</ConnectedPawn>
+  <ConnectedPawn>共鸣</ConnectedPawn>
   <!-- EN: Nobody -->
   <Nobody>无人</Nobody>
   <!-- EN: The person this {TREE_label} is connected to. If the connected person dies, this {TREE_label} will be unable to connect to another for {DURATION}. -->
@@ -382,7 +382,7 @@
   <!-- EN: Planting {PLANT_definite} near artificial buildings will cause its connection strength to decay over time. Connection strength determines the maximum number of dryads {PLANT_definite} can support at once.\n\nAre you sure you wish to plant here? -->
   <TreeBlockedByNearbyBuildingsDesc>将{PLANT_definite}种植在人造建筑物附近将导致共鸣强度随时间下降，共鸣强度决定着此{PLANT_definite}可支持的树精之最大数量。 \n\n你确定要在这里种下它？</TreeBlockedByNearbyBuildingsDesc>
   <!-- EN: Changing {TREE_definite}'s dryad caste takes time and energy.\n\nAfter the connected person interacts with the tree, all dryads will spend {DURATION} days inside cocoons while they morph to the selected caste.\n\nExisting cocoons will cancel their transformation so they can morph to the current caste. -->
-  <GauranlenModeChangeDescFull>修改{TREE_definite}的树精的角色将耗费时间和力量。\n\n当共鸣者与树交互后，所有树精将在茧内度过{DURATION}天以转化至目标角色。 \n\n现存的茧将取消其变形以转化至当前设定的角色。</GauranlenModeChangeDescFull>
+  <GauranlenModeChangeDescFull>修改{TREE_definite}的树精的品种将耗费时间和力量。\n\n当共鸣者与树交互后，所有树精将在茧内度过{DURATION}天以转化至目标角色。 \n\n现存的茧将取消其变形以转化至当前设定的品种。</GauranlenModeChangeDescFull>
   <!-- EN: Change the type of dryads created by {TREE_definite}. -->
   <ChangeModeDesc>修改由{TREE_definite}产生的树精的类别</ChangeModeDesc>
   <!-- EN: Connection strength fall -->
@@ -408,13 +408,13 @@
   <!-- EN: {CONNECTEDPAWN_nameDef} will prune {TREE_definite} often enough to keep connection strength above this level.\n\nHigher connection strength allows supporting more dryads, but also falls faster and thus takes more frequent pruning to maintain.\n\nYou can click on the bar to adjust the desired target connection strength.\n\nConnection strength fall per day: {FALL}\n\nConnection strength is affected by nearby buildings. -->
   <DesiredConnectionStrengthDesc>{CONNECTEDPAWN_nameDef}将维持修剪{TREE_definite}以保持共鸣强度在此水平之上。\n\n更高的共鸣强度可以支持更多的树精， 但回落的更快， 因此需要更频繁的修剪维护。 点击滑条可以修改目标强度。\n\n每日回落：{FALL}\n\n共鸣强度将受附近的建筑物影响。</DesiredConnectionStrengthDesc>
   <!-- EN: Waiting for {CONNECTEDPAWN_nameDef} to change dryad caste. -->
-  <WaitingForConnectorToChangeCaste>等待{CONNECTEDPAWN_nameDef}来改变树精角色。</WaitingForConnectorToChangeCaste>
+  <WaitingForConnectorToChangeCaste>等待{CONNECTEDPAWN_nameDef}来改变树精品种。</WaitingForConnectorToChangeCaste>
   <!-- EN: Dryad caste -->
-  <GauranlenTreeMode>树精角色</GauranlenTreeMode>
+  <GauranlenTreeMode>树精品种</GauranlenTreeMode>
   <!-- EN: no caste -->
-  <NoCaste>未设置角色</NoCaste>
+  <NoCaste>未设置品种</NoCaste>
   <!-- EN: Determines the currently created dryad caste. -->
-  <GauranlenTreeModeDesc>决定当前正生成的树精的角色。</GauranlenTreeModeDesc>
+  <GauranlenTreeModeDesc>决定当前正生成的树精的品种。</GauranlenTreeModeDesc>
   <!-- EN: Spawning {DRYAD_label} in {TIME} -->
   <SpawningDryadIn>将在{TIME}内生成{DRYAD_label}</SpawningDryadIn>
   <!-- EN: Morphing {DRYAD_labelShort} into {TYPE_label}. -->
