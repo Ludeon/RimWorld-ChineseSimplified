@@ -9,7 +9,7 @@
   <!-- EN: caravan riding speed -->
   <CaravanRidingSpeedFactor.label>骑乘速度</CaravanRidingSpeedFactor.label>
   <!-- EN: The multiplier applied to a person's movement speed when they ride this animal as part of a caravan. Animals can only be ridden in caravans. -->
-  <CaravanRidingSpeedFactor.description>当一个人在远行队中骑着这种动物时，适用于其移动速度的倍数。动物只能在大篷车中骑行。</CaravanRidingSpeedFactor.description>
+  <CaravanRidingSpeedFactor.description>当一个人在远行队中骑着这种动物时，适用于其移动速度的倍数。动物只能在远行队中骑行。</CaravanRidingSpeedFactor.description>
   
   <!-- EN: carrying capacity -->
   <CarryingCapacity.label>携带能力</CarryingCapacity.label>
@@ -37,9 +37,9 @@
   <FilthRate.description>这种生物产生多少污物。\n\n最好将产生污物的动物放在室外或草垫上，这样它们的污物就不会成为问题了。</FilthRate.description>
   
   <!-- EN: foraged food amount -->
-  <ForagedNutritionPerDay.label>远行采集量</ForagedNutritionPerDay.label>
+  <ForagedNutritionPerDay.label>觅食能力</ForagedNutritionPerDay.label>
   <!-- EN: The amount of nutrition this person will automatically forage per day while traveling by caravan. -->
-  <ForagedNutritionPerDay.description>该生物在远行中每天自动采集获得的营养值。</ForagedNutritionPerDay.description>
+  <ForagedNutritionPerDay.description>该生物在远行中每天自动觅食获得的营养值。</ForagedNutritionPerDay.description>
   
   <!-- EN: global learning factor -->
   <GlobalLearningFactor.label>全局学习系数</GlobalLearningFactor.label>
@@ -52,7 +52,7 @@
   <HungerRateMultiplier.description>影响一个生物饮食值下降速度的乘数。</HungerRateMultiplier.description>
   
   <!-- EN: immunity gain speed -->
-  <ImmunityGainSpeed.label>免疫性获得速度</ImmunityGainSpeed.label>
+  <ImmunityGainSpeed.label>免疫速度</ImmunityGainSpeed.label>
   <!-- EN: The speed at which this character gains immunity to diseases.\n\nIf this is too slow, the character will die from a disease before developing immunity. -->
   <ImmunityGainSpeed.description>这个角色对疾病产生免疫的速度。\n\n如果速度太慢，角色会在产生免疫之前死于疾病。</ImmunityGainSpeed.description>
   
@@ -62,12 +62,12 @@
   <InjuryHealingFactor.description>适用于受伤后恢复健康的速度的乘数。</InjuryHealingFactor.description>
   
   <!-- EN: leather amount -->
-  <LeatherAmount.label>可获皮革量</LeatherAmount.label>
+  <LeatherAmount.label>皮革量</LeatherAmount.label>
   <!-- EN: The amount of leather yielded when butchering this creature. This value is reduced if the creature is not slaughtered cleanly, or if it is wounded when killed. -->
   <LeatherAmount.description>屠宰这种生物可获得皮革的数量。如果生物没有被宰杀干净，或者被杀时受了伤，这个数值会减少。</LeatherAmount.description>
   
   <!-- EN: meat amount -->
-  <MeatAmount.label>可获肉量</MeatAmount.label>
+  <MeatAmount.label>肉量</MeatAmount.label>
   <!-- EN: The amount of meat yielded when butchering this creature. This value is reduced if the creature is not slaughtered cleanly, or if it is wounded when killed. -->
   <MeatAmount.description>屠宰这种生物可获得肉的数量。如果生物没有被宰杀干净，或者被杀时受了伤，这个数值会减少。</MeatAmount.description>
   
