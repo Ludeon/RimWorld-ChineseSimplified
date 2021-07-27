@@ -27,7 +27,7 @@
   <!-- EN: Rituals -->
   <Rituals>仪式</Rituals>
   <!-- EN: Roles -->
-  <IdeoRoles>身份</IdeoRoles>
+  <IdeoRoles>职位</IdeoRoles>
   <!-- EN: Buildings -->
   <IdeoBuildings>建筑</IdeoBuildings>
   <!-- EN: Relics -->
@@ -95,7 +95,7 @@
   <!-- EN: Randomize symbols -->
   <RandomizeSymbols>随机化符号</RandomizeSymbols>
   <!-- EN: Randomize ideoligion name, icon, narrative, leader title and any other texts like ritual names or role names. This does not affect gameplay elements like memes or precepts. -->
-  <RandomizeSymbolsTooltip>随机化文化形态名称、图标、叙述、领袖头衔和任何其他文本，如仪式名称或身份名称。这并不会影响像模因或戒律这样的游戏元素。</RandomizeSymbolsTooltip>
+  <RandomizeSymbolsTooltip>随机化文化形态名称、图标、叙述、领袖头衔和任何其他文本，如仪式名称或职位名称。这并不会影响像模因或戒律这样的游戏元素。</RandomizeSymbolsTooltip>
   <!-- EN: Click any element to edit it -->
   <ClickAnyElementToEditIt>单击任何元素进行编辑</ClickAnyElementToEditIt>
   <!-- EN: Click to edit -->
@@ -119,7 +119,7 @@
   <!-- EN: Slaves will not do this work -->
   <WorkDisabledSlave>奴隶是不会做这项工作的</WorkDisabledSlave>
   <!-- EN: Disabled by {0} role -->
-  <WorkDisabledRole>{0}身份禁用</WorkDisabledRole>
+  <WorkDisabledRole>因{0}职位被禁用</WorkDisabledRole>
   <!-- EN: Affected by traits -->
   <AffectedByTraits>受特性影响</AffectedByTraits>
   <!-- EN: This is a charity quest. People with charitable beliefs will be affected by its outcome. -->
@@ -184,6 +184,8 @@
   <IdeoImpactLabel_8>非常强力</IdeoImpactLabel_8>
   <!-- EN: extreme -->
   <IdeoImpactLabel_9>极端</IdeoImpactLabel_9>
+  <!-- EN: This was your colony's starting ideoligion. -->
+  <InitialPlayerIdeo>这是你殖民地的开局文化形态。</InitialPlayerIdeo>
 
   <!-- EN: {0} unlocks things which you cannot build because they require memes that none of your people believe -->
   <ResearchProjectHasDefsWithMissingMemes>因为没有人认可相应的模因， {0} 解锁了你无法建造的东西</ResearchProjectHasDefsWithMissingMemes>

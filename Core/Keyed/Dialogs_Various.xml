@@ -1125,8 +1125,10 @@
   <AnimalFemaleYoung>未成年雌性</AnimalFemaleYoung>
   <!-- EN: Pregnant -->
   <AnimalPregnant>怀孕</AnimalPregnant>
+  <!-- EN: Bonded -->
+  <AnimalBonded>牵绊</AnimalBonded>
   <!-- EN: Slaughter -->
-  <AllowSlaughterPregnant>屠宰</AllowSlaughterPregnant>
+  <AllowSlaughter>屠宰</AllowSlaughter>
 
   <!-- EN: The animal to be automatically slaughtered. -->
   <AutoSlaugtherHeaderTooltipLabel>将被自动宰杀的动物。</AutoSlaugtherHeaderTooltipLabel>
@@ -1154,6 +1156,10 @@
   <AutoSlaughterHeaderTooltipCurrentPregnant>畜群中目前怀孕的雌性数量。</AutoSlaughterHeaderTooltipCurrentPregnant>
   <!-- EN: Allow pregnant animals to be slaughtered along with other females of the same species. -->
   <AutoSlaughterHeaderTooltipAllowSlaughterPregnant>允许怀孕的动物与同一物种的其他雌性动物一起被宰杀。</AutoSlaughterHeaderTooltipAllowSlaughterPregnant>
+  <!-- EN: The current number of bonded animals in the colony. -->
+  <AutoSlaughterHeaderTooltipCurrentBonded>殖民地当前产生牵绊的动物总数。</AutoSlaughterHeaderTooltipCurrentBonded>
+  <!-- EN: Allow bonded animals to be slaughtered. -->
+  <AutoSlaughterHeaderTooltipAllowSlaughterBonded>允许宰杀牵绊动物。</AutoSlaughterHeaderTooltipAllowSlaughterBonded>
 
   <!-- EN: Click to set an animal count limit. -->
   <AutoSlaughterTooltipSetLimit>点击设置动物数量限制。</AutoSlaughterTooltipSetLimit>
