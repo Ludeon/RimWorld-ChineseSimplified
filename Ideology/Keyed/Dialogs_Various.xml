@@ -30,43 +30,45 @@
   <RoomRequirements>房间要求</RoomRequirements>
   
   <!-- EN: role -->
-  <Role>身份</Role>
+  <Role>职位</Role>
   <!-- EN: Assign role -->
-  <ChooseRole>分配身份</ChooseRole>
+  <ChooseRole>分配职位</ChooseRole>
   <!-- EN: No role assigned -->
-  <NoRoleAssigned>未分配身份</NoRoleAssigned>
+  <NoRoleAssigned>未分配职位</NoRoleAssigned>
   <!-- EN: You're about to assign the role of {ROLE_labelDef} to {PAWN_labelShort}. -->
-  <ChooseRoleConfirmAssign>您将会把 {ROLE_labelDef} 的身份分配给 {PAWN_labelShort}。</ChooseRoleConfirmAssign>
+  <ChooseRoleConfirmAssign>您将会把 {ROLE_labelDef} 的职位分配给 {PAWN_labelShort}。</ChooseRoleConfirmAssign>
   <!-- EN: Are you sure? -->
   <ChooseRoleConfirmAssignPostfix>你确定么？</ChooseRoleConfirmAssignPostfix>
   <!-- EN: {PAWN_labelShort} currently holds this role and will be unhappy to lose it. -->
-  <ChooseRoleConfirmAssignReplace>{PAWN_labelShort} 目前担任此身份，如果失去它将不高兴。</ChooseRoleConfirmAssignReplace>
+  <ChooseRoleConfirmAssignReplace>{PAWN_labelShort} 目前担任此职位，如果失去它将不高兴。</ChooseRoleConfirmAssignReplace>
   <!-- EN: {PAWN_labelShort} currently holds the role of {ROLE_label} and will be unhappy to lose it. -->
-  <ChooseRoleConfirmAssignHasOtherRole>{PAWN_labelShort} 目前持有的 {ROLE_label} 的身份，如果失去它将会很不高兴。</ChooseRoleConfirmAssignHasOtherRole>
+  <ChooseRoleConfirmAssignHasOtherRole>{PAWN_labelShort} 目前持有的 {ROLE_label} 的职位，如果失去它将会很不高兴。</ChooseRoleConfirmAssignHasOtherRole>
   <!-- EN: There can be only one leader. This will dismiss {PAWN_labelShort} from their {OTHERROLE_labelDef} role, which will make {PAWN_objective} upset. -->
-  <ChooseRoleConfirmAssignReplaceLeader>只能有一个领导者。这将使 {PAWN_labelShort} 从 {OTHERROLE_labelDef} 身份中消失，这将使 {PAWN_objective} 感到心烦。</ChooseRoleConfirmAssignReplaceLeader>
+  <ChooseRoleConfirmAssignReplaceLeader>只能有一个领导者。这将使 {PAWN_labelShort} 从 {OTHERROLE_labelDef} 职位中消失，这将使 {PAWN_objective} 感到心烦。</ChooseRoleConfirmAssignReplaceLeader>
   <!-- EN: You're about to dismiss {PAWN_labelShort} from the role of {ROLE_labelIndef}. This will upset {PAWN_objective}. -->
-  <ChooseRoleConfirmUnassign>您将从 {ROLE_labelIndef} 的身份中解除 {PAWN_labelShort}。这将扰乱 {PAWN_objective}。</ChooseRoleConfirmUnassign>
+  <ChooseRoleConfirmUnassign>您将从 {ROLE_labelIndef} 的职位中解除 {PAWN_labelShort}。这将扰乱 {PAWN_objective}。</ChooseRoleConfirmUnassign>
   <!-- EN: {PAWN_labelShort} will gain the following abilities -->
   <ChooseRoleListAbilities>{PAWN_labelShort} 将获得以下能力</ChooseRoleListAbilities>
   <!-- EN: The {ROLE_label} role requires the following apparel -->
-  <ChooseRoleListApparelDemands>这个 {ROLE_label} 身份需要以下服装</ChooseRoleListApparelDemands>
+  <ChooseRoleListApparelDemands>这个 {ROLE_label} 职位需要以下服装</ChooseRoleListApparelDemands>
   <!-- EN: {PAWN_labelShort} will refuse to do these work types -->
   <ChooseRoleListWorkTypeRestrictions>{PAWN_labelShort} 将拒绝做这些工作类型</ChooseRoleListWorkTypeRestrictions>
   <!-- EN: It can sometimes be better to wait until your colony is more established before you assign roles. -->
-  <ChooseRoleHint>有时候，最好等到你的殖民地建立起来后再分配身份。</ChooseRoleHint>
+  <ChooseRoleHint>有时候，最好等到你的殖民地建立起来后再分配职位。</ChooseRoleHint>
   <!-- EN: Unlocked by -->
   <UnlockedByMeme>由模因解锁</UnlockedByMeme>
   <!-- EN: Unlocked roles -->
-  <MemeUnlocksRoles>解锁的身份</MemeUnlocksRoles>
+  <MemeUnlocksRoles>解锁的职位</MemeUnlocksRoles>
   <!-- EN: Unlocked rituals -->
   <MemeUnlocksRituals>解锁的仪式</MemeUnlocksRituals>
   <!-- EN: WARNING: {PAWN_nameDef} is unable to do work that is required for the role of {ROLE_label}. If you choose to give {PAWN_objective} this role, {PAWN_pronoun} may be unable to use the abilities associated with {ROLE_label}. The missing work types are -->
-  <ChooseRoleRequiredWorkTagsDisabled>警告：{PAWN_nameDef} 无法执行 {ROLE_label} 身份所需的工作。如果您选择赋予 {PAWN_objective} 这个身份，{PAWN_pronoun} 可能无法使用与 {ROLE_label} 相关的能力。缺少的工作类型是</ChooseRoleRequiredWorkTagsDisabled>
+  <ChooseRoleRequiredWorkTagsDisabled>警告：{PAWN_nameDef} 无法执行 {ROLE_label} 职位所需的工作。如果您选择赋予 {PAWN_objective} 这个职位，{PAWN_pronoun} 可能无法使用与 {ROLE_label} 相关的能力。缺少的工作类型是</ChooseRoleRequiredWorkTagsDisabled>
   <!-- EN: Leader bonus -->
   <YourLeaderTradeBonus>领袖奖励</YourLeaderTradeBonus>
   <!-- EN: The meme {MEME} prevents adding apparel requirements to roles. -->
-  <CannotNotAddRoleApparelDueToMeme>模因 {MEME} 禁止为身份增加服装要求。</CannotNotAddRoleApparelDueToMeme>
+  <CannotNotAddRoleApparelDueToMeme>模因 {MEME} 禁止为职位增加服装要求。</CannotNotAddRoleApparelDueToMeme>
+  <!-- EN: cannot be worn with {0_label} -->
+  <CannotBeWornWith>不能与{0_label}一同穿着</CannotBeWornWith>
 
   <!-- EN: Certainty reduction -->
   <AbilityIdeoConvertBreakdownLabel>认可度减少</AbilityIdeoConvertBreakdownLabel>
@@ -186,6 +188,8 @@
   <CollapseAllCategories>全部折叠</CollapseAllCategories>
   <!-- EN: Resets all style items to their default values. -->
   <ResetButtonDesc>将所有风格项重置为默认值。</ResetButtonDesc>
+  <!-- EN: Dye can be farmed from tinctoria or purchased from traders. -->
+  <TooltipDyeExplanation>染料可以种植七色花或者从商人购买。</TooltipDyeExplanation>
 
   <!-- Ancient complex mission -->
   <!-- EN: Send shuttle anyway -->

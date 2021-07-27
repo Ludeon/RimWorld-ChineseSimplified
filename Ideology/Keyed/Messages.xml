@@ -7,6 +7,10 @@
   <MessageIdeoNameCantBeEmpty>ideoligion 名称不能为空。</MessageIdeoNameCantBeEmpty>
   <!-- EN: {PRECEPT1} and {PRECEPT2} are incompatible. -->
   <MessageIdeoIncompatiblePrecepts>{PRECEPT1} 与 {PRECEPT2} 不相容。</MessageIdeoIncompatiblePrecepts>
+  <!-- EN: {DESIREDAPPAREL} apparel desire overlaps with {ROLE} apparel requirement. -->
+  <MessageIdeoWarnRoleApparelOverlapsDesiredApparel>{DESIREDAPPAREL}服装偏好与{ROLE}服装需求有重合。</MessageIdeoWarnRoleApparelOverlapsDesiredApparel>
+  <!-- EN: {DESIREDAPPAREL} overlaps with {ROLE} apparel requirement ({ROLEAPPAREL}). This will make it impossible for {ROLE}s to wear the required and desired apparel together. -->
+  <DescriptionIdeoWarnRoleApparelOverlapsDesiredApparel>{DESIREDAPPAREL}与{ROLE}服装需求有重合（{ROLEAPPAREL}）。 这将使{ROLE}无法同时穿着偏好服装和需求服装。</DescriptionIdeoWarnRoleApparelOverlapsDesiredApparel>
   <!-- EN: {PRECEPT} needs one of these buildings -->
   <MessageRitualMissingTarget>{PRECEPT} 需要这些建筑物之一</MessageRitualMissingTarget>
   <!-- EN: {PRECEPT} needs an associated ritual. -->
@@ -28,12 +32,12 @@
   <!-- EN: You need {0} to start the {1}. -->
   <MessageNoRequiredRolePawnToBeginRitual>您需要 {0} 才能启动 {1}。</MessageNoRequiredRolePawnToBeginRitual>
   <!-- EN: Before starting the {1}, you must assign someone to the role of {0}. -->
-  <MessageNeedAssignedRoleToBeginRitual>在开始 {1} 之前，您必须将某人分配给 {0} 的身份。</MessageNeedAssignedRoleToBeginRitual>
+  <MessageNeedAssignedRoleToBeginRitual>在开始 {1} 之前，您必须将某人分配给 {0} 的职位。</MessageNeedAssignedRoleToBeginRitual>
   
   <!-- EN: {0_labelShort} now holds the role of {1}. -->
-  <MessageRoleAssigned>{0_labelShort}现在具有{1}的身份。</MessageRoleAssigned>
+  <MessageRoleAssigned>{0_labelShort}现在具有{1}的职位。</MessageRoleAssigned>
   <!-- EN: Since {0_labelShort} became a prisoner, {0_pronoun} no longer can hold the role of {1}. -->
-  <MessageRoleUnassignedPrisoner>由于{0_labelShort}成为囚犯，{0_pronoun}不再能担任{1}的身份。</MessageRoleUnassignedPrisoner>
+  <MessageRoleUnassignedPrisoner>由于{0_labelShort}成为囚犯，{0_pronoun}不再能担任{1}的职位。</MessageRoleUnassignedPrisoner>
   <!-- EN: Warning: {0} will be upset if a tree is cut. -->
   <MessageWarningPlayerDesignatedTreeChopped>警告：如果树木被砍伐，{0}将会被打乱。</MessageWarningPlayerDesignatedTreeChopped>
   <!-- EN: Warning: {0} will be upset if mining occurs. -->
@@ -90,6 +94,8 @@
   <CannotRemoveMemeRequiredPlayer>无法移除 {MEME}：玩家派系需要。</CannotRemoveMemeRequiredPlayer>
   <!-- EN: Required by {FACTION_name}. -->
   <RequiredByFaction>{FACTION_name} 需要。</RequiredByFaction>
+  <!-- EN: Roles cannot have overlapping apparel requirements. -->
+  <OverlappingRoleApparel>无法设置重合的服装需求。</OverlappingRoleApparel>
   
   <!-- EN: {0_label} will self-destruct in {1}. -->
   <SelfDestructCountdown>{0_label} 将在 {1} 中自毁。</SelfDestructCountdown>

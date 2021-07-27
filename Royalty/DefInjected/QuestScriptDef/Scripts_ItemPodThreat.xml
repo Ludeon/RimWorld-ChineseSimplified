@@ -149,12 +149,12 @@
     <li>threat(priority=1,site/MechCluster_exists==True)->机械体</li>
     <li>threat(priority=1,site/SleepingMechanoids_exists==True)->机械体</li>
     <li>threat->[asker_possessive]敌人</li>
-    <li>threat(priority=-1)->[asker_possessive]敌人</li>
+    <li>threat(priority=-1)->敌人</li>
     <li>askerEnemies(priority=1,site/Outpost_exists==True)->[site/enemyFaction_name]</li>
     <li>askerEnemies(priority=1,site/MechCluster_exists==True)->机械体</li>
     <li>askerEnemies(priority=1,site/SleepingMechanoids_exists==True)->机械体</li>
     <li>askerEnemies->[asker_possessive]敌人们</li>
-    <li>askerEnemies(priority=-1)->[asker_possessive]敌人</li>
+    <li>askerEnemies(priority=-1)->敌人</li>
   </ThreatReward_SiteThreat_ItemPod.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[asker_nameDef]'s [site/site_label]</li>
