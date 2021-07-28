@@ -7,14 +7,14 @@
   <BiosculpterOccupantSpeed.description>这个人完成生体塑形舱周期的速度因数。</BiosculpterOccupantSpeed.description>
   
   <!-- EN: global certainty loss factor -->
-  <CertaintyLossFactor.label>全局认可度损失因数</CertaintyLossFactor.label>
+  <CertaintyLossFactor.label>全局认可度损失系数</CertaintyLossFactor.label>
   <!-- EN: A multiplier on how much certainty this person loses when someone else tries to convert them away from their ideoligion. -->
-  <CertaintyLossFactor.description>试图转变此人文化形态时，此人认可度降低因数。</CertaintyLossFactor.description>
+  <CertaintyLossFactor.description>试图转化此人文化形态时，此人认可度降低因数。</CertaintyLossFactor.description>
   
   <!-- EN: conversion power -->
   <ConversionPower.label>教化能力</ConversionPower.label>
   <!-- EN: How effective this person is at converting others to their own ideoligion. When this person attempts to convert someone else, this value multiplies the amount of certainty the other person loses. -->
-  <ConversionPower.description>这个人在使他人转变为己方文化形态时的效果。当这个人试图教化别人时，这个数值会乘以对方的认可度损失数。</ConversionPower.description>
+  <ConversionPower.description>这个人在使他人转化为己方文化形态时的效果。当这个人试图教化别人时，这个数值会乘以对方的认可度损失数。</ConversionPower.description>
   
   <!-- EN: melee dodge chance indoors dark -->
   <MeleeDodgeChanceIndoorsDarkOffset.label>近战闪避（室内黑暗环境）</MeleeDodgeChanceIndoorsDarkOffset.label>
@@ -79,6 +79,6 @@
   <!-- EN: ideoligion spread chance -->
   <SocialIdeoSpreadFrequencyFactor.label>文化传播系数</SocialIdeoSpreadFrequencyFactor.label>
   <!-- EN: A multiplier on the chance that this person will try to convert other people to their own ideoligion. -->
-  <SocialIdeoSpreadFrequencyFactor.description>这个人将其他人转变为和自己同文化形态的几率乘数。</SocialIdeoSpreadFrequencyFactor.description>
+  <SocialIdeoSpreadFrequencyFactor.description>这个人将其他人转化为和自己同文化形态的几率乘数。</SocialIdeoSpreadFrequencyFactor.description>
   
 </LanguageData>
