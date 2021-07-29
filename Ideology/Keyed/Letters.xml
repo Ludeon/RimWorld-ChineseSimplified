@@ -42,12 +42,12 @@
   <!-- EN: {0} role activated -->
   <LetterLabelRoleActive>{0}职位可用</LetterLabelRoleActive>
   <!-- EN: The number of {0}s in your colony has reached {1}. You can now assign the role of {ROLE_labelDef} to one of your colonists.\n\nTo assign a role, select a colonist, go to their 'Social' tab and press the 'Choose role' button. -->
-  <LetterLabelRoleActiveDesc>您群体中的 {0} 数量已达到 {1}。你现在可以将 {ROLE_labelDef} 的职位分配给您的一名殖民者。\n\n要分配职位，请选择一名殖民者，转到他们的“社交”选项卡，然后按“选择职位”按钮。</LetterLabelRoleActiveDesc>
+  <LetterLabelRoleActiveDesc>群体中的 {0} 数量已达到 {1}。 你现在可以将 {ROLE_labelDef} 的职位分配给一名殖民者。\n\n要分配职位， 请选择一名殖民者， 转到他们的“社交”选项卡， 然后按“选择职位”按钮。</LetterLabelRoleActiveDesc>
 
   <!-- EN: {0} role deactivated -->
   <LetterLabelRoleInactive>{0} 个职位已停用 </LetterLabelRoleInactive>
   <!-- EN: Number of {0}s in your colony fell to {1}. {ROLE_labelDef} role is no longer active. This role will become available once again when the number of {0}s reaches {2}. -->
-  <LetterLabelRoleInactiveDesc>您的群体中的 {0} 数量下降到 {1}。 {ROLE_labelDef} 职位不再活跃。当 {0} 的数量达到 {2} 时，此职位将再次可用。</LetterLabelRoleInactiveDesc>
+  <LetterLabelRoleInactiveDesc>群体中的 {0} 数量下降到 {1}。 {ROLE_labelDef} 职位不再活跃。当 {0} 的数量达到 {2} 时，此职位将再次可用。</LetterLabelRoleInactiveDesc>
 
   <!-- EN: {PAWN_labelShort}'s {ROLE_labelIndef} role lost -->
   <LetterLabelRoleLost>{PAWN_labelShort} 的 {ROLE_labelIndef} 职位丢失</LetterLabelRoleLost>
@@ -73,11 +73,11 @@
   <!-- EN: {0} rituals deactivated -->
   <LetterTitleObligationsDeactivated>{0} 仪式已停用</LetterTitleObligationsDeactivated>
   <!-- EN: There are now less than {1} {IDEO_memberNamePlural} in your faction. Therefore, the {IDEO_memberNamePlural} will not demand that the rituals of {IDEO} be carried out until there are at least {1} of them in your faction. -->
-  <LetterTitleObligationsDeactivatedTooFewBelievers>您的派系中现在少于 {1} 个 {IDEO_memberNamePlural}。因此，{IDEO_memberNamePlural} 不会要求开展 {IDEO} 的仪式，直到您的派系中至少有 {1} 个成员。</LetterTitleObligationsDeactivatedTooFewBelievers>
+  <LetterTitleObligationsDeactivatedTooFewBelievers>你的派系中现在少于 {1} 个 {IDEO_memberNamePlural}。因此，{IDEO_memberNamePlural} 不会要求开展 {IDEO} 的仪式，直到你的派系中至少有 {1} 个成员。</LetterTitleObligationsDeactivatedTooFewBelievers>
   <!-- EN: Since there are now {1} {IDEO_memberNamePlural} in your faction, they will demand that the rituals of {IDEO} be carried out. -->
-  <LetterTitleObligationsActivatedEnoughBelievers>由于您的派系中现在有 {1} 个 {IDEO_memberNamePlural}，他们将要求执行 {IDEO} 的仪式。</LetterTitleObligationsActivatedEnoughBelievers>
+  <LetterTitleObligationsActivatedEnoughBelievers>由于你的派系中现在有 {1} 个 {IDEO_memberNamePlural}，他们将要求执行 {IDEO} 的仪式。</LetterTitleObligationsActivatedEnoughBelievers>
   <!-- EN: Since {IDEO} is now the primary ideoligion of your faction, {IDEO_memberNamePlural} will demand that the rituals of {IDEO} be carried out. -->
-  <LetterTitleObligationsActivatedIdeoBecameMajor>由于 {IDEO} 现在是您派系的主要文化形态，{IDEO_memberNamePlural} 将要求执行 {IDEO} 的仪式。</LetterTitleObligationsActivatedIdeoBecameMajor>
+  <LetterTitleObligationsActivatedIdeoBecameMajor>由于 {IDEO} 现在是你派系的主要文化形态，{IDEO_memberNamePlural} 将要求执行 {IDEO} 的仪式。</LetterTitleObligationsActivatedIdeoBecameMajor>
 
   <!-- EN: Bond(s) removed -->
   <LetterBondRemoved>牵绊移除</LetterBondRemoved>
@@ -142,7 +142,7 @@
 
   <!-- Hacked -->
   <!-- EN: You've finished hacking the {0} and learned more about the ancient {1} relic. -->
-  <LetterTextSpacedroneHacked>您已经完成了对 {0} 的破解，并了解了有关远古 {1} 遗物的更多信息。</LetterTextSpacedroneHacked>
+  <LetterTextSpacedroneHacked>你已经完成了对 {0} 的破解，并了解了有关远古 {1} 圣物的更多信息。</LetterTextSpacedroneHacked>
 
   <!-- Relic destroyed -->
   <!-- EN: Relic destroyed -->
@@ -172,7 +172,7 @@
   <!-- EN: You've finally learned the location of the relic {0}! -->
   <LetterTextRelicFoundLocation>你终于发现了圣物 {0} 的位置！</LetterTextRelicFoundLocation>
   <!-- EN: The relic is housed in an ancient structure. It is protected by a security system with multiple independent units. You may choose to defeat the security forces one unit at a time before taking the relic, or try to grab it and flee before they can harm you.\n\nAfter {0}, all security systems will be alerted. -->
-  <LetterTextRelicFoundSecurityThreats>圣物被安置在一个超凡结构中。它由具有多个独立单元的安全系统保护。您可以选择在拿走圣物之前击败单元的安全部队，或者尝试偷走并在被发现之前离开这里。\n\n{0} 后，所有安全系统都会收到警报。</LetterTextRelicFoundSecurityThreats>
+  <LetterTextRelicFoundSecurityThreats>圣物被安置在一个超凡结构中。它由具有多个独立单元的安全系统保护。你可以选择在拿走圣物之前击败单元的安全部队，或者尝试偷走并在被发现之前离开这里。\n\n{0} 后，所有安全系统都会收到警报。</LetterTextRelicFoundSecurityThreats>
 
   <!-- Relics collection -->
   <!-- EN: Relics collected -->
@@ -194,7 +194,7 @@
   <!-- EN: Quest '{0}' available -->
   <LetterLabelArchonexusWealthReached>任务“{0}”可用 </LetterLabelArchonexusWealthReached>
   <!-- EN: You have reached the wealth requirement for the quest '{0}'. You can now accept the quest. -->
-  <LetterTextArchonexusWealthReached>您已达到任务“{0}”的财富要求。您现在可以接受该任务。</LetterTextArchonexusWealthReached>
+  <LetterTextArchonexusWealthReached>你已达到任务“{0}”的财富要求。现在可以接受该任务。</LetterTextArchonexusWealthReached>
   <!-- EN: {0_labelShort} studied -->
   <LetterLabelArchonexusStructureResearched>{0_labelShort} 已研究 </LetterLabelArchonexusStructureResearched>
   <!-- EN: You have completed your study of the {0_labelShort}.\n\nYou can't say that you understand it in any complete way, but you have detected patterns in its behavior and the way it seems to express information.\n\nWith this knowledge, you will be able to interpret the next piece of the archonexus map. -->
