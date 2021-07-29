@@ -97,6 +97,21 @@
   <DisabledByPrecept>被戒律{0}禁用</DisabledByPrecept>
   <!-- EN: Everyone -->
   <Everyone>所有人</Everyone>
+  <!-- EN: Narrative -->
+  <Narrative>叙述</Narrative>
+  <!-- EN: narrative -->
+  <NarrativeLower>叙述</NarrativeLower>
+  <!-- EN: Precept name -->
+  <PreceptName>戒律名</PreceptName>
+  <!-- EN: precept name -->
+  <PreceptNameLower>戒律名</PreceptNameLower>
+  <!-- EN: Changing -->
+  <Changing>修改中</Changing>
+  <!-- EN: structures -->
+  <StructuresLower>结构</StructuresLower>
+  <!-- EN: memes -->
+  <MemesLower>模因</MemesLower>
+  
 
   <!-- EN: A grave containing {PAWN_labelShort}'s corpse. -->
   <RitualTargetGraveInfo>装有{PAWN_labelShort}的坟墓</RitualTargetGraveInfo>
@@ -529,6 +544,8 @@
   <BiosculpterInteruptCycle>中断周期</BiosculpterInteruptCycle>
   <!-- EN: Interrupt the current cycle. The occupant will be ejected without benefiting from the effects of the cycle, and will suffer from short-term biosculpter sickness. -->
   <BiosculpterInteruptCycleDesc>中断当前周期，使用者将被弹出，不受任何周期效应影响的同时遭受短期的脱离塑形舱虚弱。</BiosculpterInteruptCycleDesc>
+  <!-- EN: Warning: Age reversal cycle cannot be run while biosculpter is tuned to {PAWN_labelShort} because {PAWN_labelShort} is under {ADULTAGE} years old. -->
+  <BiosculpterUnderageAgeReversalMessage>TODO</BiosculpterUnderageAgeReversalMessage>
   <!-- EN: Once the biosculpter pod is filled with {NUTRITION} nutrition, select a colonist and right-click on the biosculpter pod or a downed person to start the cycle. -->
   <BiosculpterLoadingStartedMessage>当塑形舱已被填充{NUTRITION}营养值时，选择一名殖民者并右击塑形舱或将一名倒地者搬入以开始周期。</BiosculpterLoadingStartedMessage>
   <!-- EN: {PAWN_labelShort} was ejected from a biosculpter pod due to lack of power. -->

@@ -16,12 +16,14 @@
   <CoreNarrativeDesc>你的文化形态的核心叙述。这对游戏玩法没有影响。</CoreNarrativeDesc>
   <!-- EN: Edit narrative -->
   <EditNarrative>编辑叙述</EditNarrative>
-  <!-- EN: Clicking this button toggles a lock the current ideoligion narrative. When locked, the narrative text will not auto-regenerate if the ideoligion is changed. -->
-  <LockButtonDesc>单击此按钮可锁定当前的文化叙述。锁定时，如果文化发生变化，叙述文本将不会自动重新生成。</LockButtonDesc>
-  <!-- EN: Narrative lock is currently on. The narrative will not auto-regenerate. -->
-  <LockInOn>叙述锁定目前处于开启状态。叙述不会自动再生。</LockInOn>
-  <!-- EN: Narrative lock is currently off. The narrative text can auto-regenerate. -->
-  <LockInOff>叙述锁定目前已关闭。叙述文本可以自动重新生成。</LockInOff>
+  <!-- EN: Lock or unlock the ideoligion's narrative. When locked, the narrative text will not auto-regenerate if the ideoligion is changed. -->
+  <LockButtonDesc>锁定或解锁当前的文化叙述。锁定时，如果文化发生变化，叙述文本将不会自动重新生成。</LockButtonDesc>
+  <!-- EN: {0} lock is currently on. The {1} will not auto-regenerate. -->
+  <LockInOn>{0}锁定目前处于开启状态。{1}不会自动再生。</LockInOn>
+  <!-- EN: {0} lock is currently off. The {1} text can auto-regenerate. -->
+  <LockInOff>{0}锁定目前已关闭。{0}文本可以自动重新生成。</LockInOff>
+  <!-- EN: Lock or unlock the name of this precept. When locked, the precept name will not auto-regenerate if the ideoligion is changed. -->
+  <LockPreceptNameButtonDesc>锁定或解锁此戒律的名字。锁定时，戒律的名称不会在改变文化形态时重新生成。</LockPreceptNameButtonDesc>
   <!-- EN: Precepts -->
   <Precepts>戒律</Precepts>
   <!-- EN: Rituals -->

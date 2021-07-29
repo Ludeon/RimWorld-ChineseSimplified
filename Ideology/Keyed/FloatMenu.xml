@@ -58,8 +58,14 @@
   <MaxPreceptCount>最多 {0}</MaxPreceptCount>
   <!-- EN: Set gender -->
   <SetTargetGender>设置性别</SetTargetGender>
-  <!-- EN: incompatible -->
-  <FactionOrIdeoIncompatible>不相容</FactionOrIdeoIncompatible>
+  <!-- EN: must be {0} faction -->
+  <RoleApparelRequirementIncompatibleFaction>必须是{0}派系</RoleApparelRequirementIncompatibleFaction>
+  <!-- EN: tribal -->
+  <RoleApparelRequirementIncompatibleFaction_Allowed_Tribal>部落</RoleApparelRequirementIncompatibleFaction_Allowed_Tribal>
+  <!-- EN: non-tribal -->
+  <RoleApparelRequirementIncompatibleFaction_Disallowed_Tribal>外来者</RoleApparelRequirementIncompatibleFaction_Disallowed_Tribal>
+  <!-- EN: requires any of these memes -->
+  <RoleApparelRequirementIncompatibleAnyMemeRequired>需要这些模因之一</RoleApparelRequirementIncompatibleAnyMemeRequired>
   <!-- EN: cannot be worn with assigned apparel -->
   <BodyPartAlreadyCovered>不能与指定的服装搭配</BodyPartAlreadyCovered>
   <!-- EN: already assigned -->
@@ -126,6 +132,8 @@
   <EnterBiosculpterPod>进入塑形舱</EnterBiosculpterPod>
   <!-- EN: Biotuned to someone else. -->
   <BiosculpterBiotunedToAnother>进行生体塑形</BiosculpterBiotunedToAnother>
+  <!-- EN: Must be {0} years old for age reversal. -->
+  <UnderMinBiosculpterAgeReversalAge>进行年龄逆转必须已满{0}岁。</UnderMinBiosculpterAgeReversalAge>
   <!-- EN: Carry {PAWN_label} to biosculpter pod ({CYCLE}) -->
   <CarryToBiosculpterPod>携带{PAWN_label}放进塑形舱（{CYCLE}）</CarryToBiosculpterPod>
   <!-- EN: Cannot carry to biosculpter pod -->
