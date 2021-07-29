@@ -39,21 +39,21 @@
   <!-- EN: No role assigned -->
   <NoRoleAssigned>未分配职位</NoRoleAssigned>
   <!-- EN: You're about to assign the role of {ROLE_labelDef} to {PAWN_labelShort}. -->
-  <ChooseRoleConfirmAssign>您将会把 {ROLE_labelDef} 的职位分配给 {PAWN_labelShort}。</ChooseRoleConfirmAssign>
+  <ChooseRoleConfirmAssign>将为{PAWN_labelShort}指定{ROLE_labelDef}职位。</ChooseRoleConfirmAssign>
   <!-- EN: Are you sure? -->
   <ChooseRoleConfirmAssignPostfix>你确定么？</ChooseRoleConfirmAssignPostfix>
   <!-- EN: {PAWN_labelShort} currently holds this role and will be unhappy to lose it. -->
   <ChooseRoleConfirmAssignReplace>{PAWN_labelShort} 目前担任此职位，如果失去它将不高兴。</ChooseRoleConfirmAssignReplace>
   <!-- EN: {PAWN_labelShort} currently holds the role of {ROLE_label} and will be unhappy to lose it. -->
-  <ChooseRoleConfirmAssignHasOtherRole>{PAWN_labelShort} 目前持有的 {ROLE_label} 的职位，如果失去它将会很不高兴。</ChooseRoleConfirmAssignHasOtherRole>
+  <ChooseRoleConfirmAssignHasOtherRole>{PAWN_labelShort}目前保有{ROLE_label}职位，如果失去它将会很不高兴。</ChooseRoleConfirmAssignHasOtherRole>
   <!-- EN: There can be only one leader. This will dismiss {PAWN_labelShort} from their {OTHERROLE_labelDef} role, which will make {PAWN_objective} upset. -->
-  <ChooseRoleConfirmAssignReplaceLeader>只能有一个领导者。这将使 {PAWN_labelShort} 从 {OTHERROLE_labelDef} 职位中消失，这将使 {PAWN_objective} 感到心烦。</ChooseRoleConfirmAssignReplaceLeader>
+  <ChooseRoleConfirmAssignReplaceLeader>只能有一个领导者。这么做会解除{PAWN_labelShort}的{OTHERROLE_labelDef}职位，{PAWN_objective}会感到沮丧。</ChooseRoleConfirmAssignReplaceLeader>
   <!-- EN: You're about to dismiss {PAWN_labelShort} from the role of {ROLE_labelIndef}. This will upset {PAWN_objective}. -->
-  <ChooseRoleConfirmUnassign>您将从 {ROLE_labelIndef} 的职位中解除 {PAWN_labelShort}。这将扰乱 {PAWN_objective}。</ChooseRoleConfirmUnassign>
+  <ChooseRoleConfirmUnassign>将解除{PAWN_labelShort}的{ROLE_labelIndef}职位。这将使{PAWN_objective}感到沮丧。</ChooseRoleConfirmUnassign>
   <!-- EN: {PAWN_labelShort} will gain the following abilities -->
   <ChooseRoleListAbilities>{PAWN_labelShort} 将获得以下能力</ChooseRoleListAbilities>
   <!-- EN: The {ROLE_label} role requires the following apparel -->
-  <ChooseRoleListApparelDemands>这个 {ROLE_label} 职位需要以下服装</ChooseRoleListApparelDemands>
+  <ChooseRoleListApparelDemands>{ROLE_label} 职位需要以下服装</ChooseRoleListApparelDemands>
   <!-- EN: {PAWN_labelShort} will refuse to do these work types -->
   <ChooseRoleListWorkTypeRestrictions>{PAWN_labelShort} 将拒绝做这些工作类型</ChooseRoleListWorkTypeRestrictions>
   <!-- EN: It can sometimes be better to wait until your colony is more established before you assign roles. -->
@@ -65,7 +65,7 @@
   <!-- EN: Unlocked rituals -->
   <MemeUnlocksRituals>解锁的仪式</MemeUnlocksRituals>
   <!-- EN: WARNING: {PAWN_nameDef} is unable to do work that is required for the role of {ROLE_label}. If you choose to give {PAWN_objective} this role, {PAWN_pronoun} may be unable to use the abilities associated with {ROLE_label}. The missing work types are -->
-  <ChooseRoleRequiredWorkTagsDisabled>警告：{PAWN_nameDef} 无法执行 {ROLE_label} 职位所需的工作。如果您选择赋予 {PAWN_objective} 这个职位，{PAWN_pronoun} 可能无法使用与 {ROLE_label} 相关的能力。缺少的工作类型是</ChooseRoleRequiredWorkTagsDisabled>
+  <ChooseRoleRequiredWorkTagsDisabled>警告：{PAWN_nameDef} 无法履行{ROLE_label}职位所需的工作。 如果选择赋予{PAWN_objective}这个职位， {PAWN_pronoun}可能无法使用与{ROLE_label}相关的能力。 缺少的工作类型是</ChooseRoleRequiredWorkTagsDisabled>
   <!-- EN: Leader bonus -->
   <YourLeaderTradeBonus>领袖奖励</YourLeaderTradeBonus>
   <!-- EN: The meme {MEME} prevents adding apparel requirements to roles. -->
@@ -122,9 +122,9 @@
   <ExectueNeutralFactionSlave>执行 {PAWN_labelShort} 将对与 {FACTION_name} 的关系产生负面影响。</ExectueNeutralFactionSlave>
 
   <!-- EN: You must assign at least one non-slave colonist who can walk. -->
-  <CaravanMustHaveAtLeastOneNonSlaveColonist>您必须指定至少一名可以行走的非奴隶殖民者。</CaravanMustHaveAtLeastOneNonSlaveColonist>
+  <CaravanMustHaveAtLeastOneNonSlaveColonist>必须指定至少一名可以行走的非奴隶殖民者。</CaravanMustHaveAtLeastOneNonSlaveColonist>
   <!-- EN: You must leave at least non-slave colonist who can walk. -->
-  <SourceCaravanMustHaveAtLeastOneNonSlaveColonist>您必须至少留下可以行走的非奴隶殖民者。</SourceCaravanMustHaveAtLeastOneNonSlaveColonist>
+  <SourceCaravanMustHaveAtLeastOneNonSlaveColonist>必须至少留下可以行走的非奴隶殖民者。</SourceCaravanMustHaveAtLeastOneNonSlaveColonist>
 
   <!-- Style -->
   <!-- EN: Style -->
@@ -150,9 +150,9 @@
   <!-- EN: {PAWN_nameDef} will be unhappy with the following -->
   <PawnUnhappyWithStyleItems>{PAWN_nameDef} 会对以下内容不满意 </PawnUnhappyWithStyleItems>
   <!-- EN: Style categories affect the appearance of some buildings, apparel and weapons made by {IDEO_memberNamePlural}. If more than one category affects the same thing, the left-most one applies. -->
-  <StyleCategoryDescription>风格会影响 {IDEO_memberNamePlural}。制作的某些建筑物、服装和武器的外观。如果不止一个类别影响同一件事，则适用最左侧的类别。</StyleCategoryDescription>
+  <StyleCategoryDescription>风格会影响由{IDEO_memberNamePlural}制作的某些建筑物、服装和武器的外观。如果不止一个类别影响同一件事，则适用最左侧的类别。</StyleCategoryDescription>
   <!-- EN: {IDEO_memberNamePlural} will be happy if they notice buildings, floors, and art matching this style. -->
-  <StyleCategoryDescStyleDominance>如果 {IDEO_memberNamePlural} 注意到符合这种风格的建筑物、楼层和艺术品，他们会很高兴。</StyleCategoryDescStyleDominance>
+  <StyleCategoryDescStyleDominance>如果{IDEO_memberNamePlural}注意到符合这种风格的建筑物、楼层和艺术品，他们会很高兴。</StyleCategoryDescStyleDominance>
   <!-- EN: {0} style category affects -->
   <StyleCategoryDetails>{0} 风格影响</StyleCategoryDetails>
   <!-- EN: Overriden by {0} -->
@@ -222,9 +222,9 @@
 
   <!-- Archonexus -->
   <!-- EN: Choose who to convert to your ideoligion -->
-  <ChooseColonistsForIdeoTitle>选择要转化为您的文化形态的人</ChooseColonistsForIdeoTitle>
+  <ChooseColonistsForIdeoTitle>选择要转化为你的文化形态的人</ChooseColonistsForIdeoTitle>
   <!-- EN: You may convert people to your primary ideoligion when setting up a new colony. -->
-  <ChooseColonistsForIdeoDesc>在建立新殖民地时，您可以将人物转化为您的主体文化形态。</ChooseColonistsForIdeoDesc>
+  <ChooseColonistsForIdeoDesc>在建立新殖民地时，你可以将人物转化为你的主体文化形态。</ChooseColonistsForIdeoDesc>
   <!-- EN: New Colony -->
   <ChooseThingsForNewColonyTitle>新殖民地</ChooseThingsForNewColonyTitle>
   <!-- EN: Choose which colonists, animals and relics to bring to the new colony. -->
