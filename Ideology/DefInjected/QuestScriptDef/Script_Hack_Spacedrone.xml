@@ -2,14 +2,14 @@
 <LanguageData>
   
   <!-- EN:
-    <li>questDescription->You've detected an orbiting spacedrone that may contain information about [relic_name]. You have the code that will force it to land at [map_definite].\n\nTo get the information, hack into the drone's computer. Hacking takes time, but those strong in intellectual skill can speed up the process.[raidsDescription]\n\nThe spacedrone will self-destruct in [destroyDelayTicks_duration].</li>
+    <li>questDescription->You've detected an orbiting spacedrone that may contain information about [relic_name]. You have the code that will force it to land at [map_definite].\n\nTo get the information, hack into the drone's computer. Hacking takes time, but those strong in intellectual skill can speed up the process.[raidsDescription]\n\nAfter landing, the spacedrone will self-destruct in [destroyDelayTicks_duration].</li>
     <li>raidsDescription(allowViolence==true)->\n\n[enemyFaction_pawnsPlural] from [enemyFaction_name] will [droneDetectionMethod]. As long as it's present, they'll send attackers approximately every [raidIntervalAvg_duration] to destroy it and steal the wealth they think it contains. You will have some time to prepare defenses around it before they arrive.</li>
     <li>raidsDescription(allowViolence==false)-></li>
     <li>droneDetectionMethod(enemyFactionNeolithic==true)->spot the drone during its decent</li>
     <li>droneDetectionMethod(enemyFactionNeolithic==false)->detect the drone's energy signature</li>
   -->
   <Hack_Spacedrone.questDescriptionRules.rulesStrings>
-    <li>questDescription->你探测到一艘在轨无人机， 其可能携带有关于 [relic_name] 的秘密情报。 你可以发送信号迫使其降落在[map_definite]。\n\n要获取情报须骇入无人机的计算机。 骇入过程需要时间， 智识水平高的人可以加速这一进程。[raidsDescription]\n\n无人机将在[destroyDelayTicks_duration]内自毁。</li>
+    <li>questDescription->你探测到一艘在轨无人机， 其可能携带有关于 [relic_name] 的秘密情报。 你可以发送信号迫使其降落在[map_definite]。\n\n要获取情报须骇入无人机的计算机。 骇入过程需要时间， 智识水平高的人可以加速这一进程。[raidsDescription]\n\n登陆后，无人机将在[destroyDelayTicks_duration]内自毁。</li>
     <li>raidsDescription(allowViolence==true)->\n\n来自[enemyFaction_name]的 [enemyFaction_pawnsPlural] 能[droneDetectionMethod]。 只要无人机还存在，他们就会每[raidIntervalAvg_duration]派出袭击以试图摧毁它， 并窃取其中他们认为有价值的财富。 在他们到达之前，你会有一些时间准备防御措施。</li>
     <li>raidsDescription(allowViolence==false)-></li>
     <li>droneDetectionMethod(enemyFactionNeolithic==true)->在无人机未毁坏时发现它</li>
