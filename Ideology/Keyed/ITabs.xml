@@ -18,8 +18,8 @@
   <SlaveReleasePotentialRelationGains>释放获得好感</SlaveReleasePotentialRelationGains>
   <!-- EN: Slave rebellion interval -->
   <SlaveRebellionMTBDays>奴隶叛乱间隔</SlaveRebellionMTBDays>
-  <!-- EN: The average number of days between slave rebellion attempts. Only time awake is counted. This is affected by mood, health, suppression, proximity to weapons and the presence of colonists on the map. -->
-  <SlaveRebellionMTBDaysDescription>奴隶尝试叛乱的平均天数。只计算清醒时候。该数值受情绪、健康、压制、附近的武器和地图上殖民者的影响。</SlaveRebellionMTBDaysDescription>
+  <!-- EN: The average number of days between slave rebellion attempts. Only time awake is counted. This is affected by suppression, mood, health, proximity to weapons, the number of slaves on the map, and the presence of colonists on the map. -->
+  <SlaveRebellionMTBDaysDescription>奴隶尝试叛乱的平均天数。只计算清醒时候。该数值受压制、情绪、健康、附近的武器、地图上的奴隶数量以及地图上是否有殖民者影响。。</SlaveRebellionMTBDaysDescription>
 
   <!-- Slave tab -->
   <!-- EN: Suppression -->
@@ -51,6 +51,8 @@
   <SuppressionFactor>压制</SuppressionFactor>
   <!-- EN: Mood -->
   <SuppressionMoodFactor>情绪</SuppressionMoodFactor>
+  <!-- EN: Slave count -->
+  <SuppressionSlaveCountFactor>奴隶数量</SuppressionSlaveCountFactor>
   <!-- EN: Escape route -->
   <SuppressionEscapeFactor>逃跑路线</SuppressionEscapeFactor>
   <!-- EN: Weapon proximity -->
@@ -59,6 +61,8 @@
   <SuppressionFinalInterval>最后的时间间隔</SuppressionFinalInterval>
   <!-- EN: Unattended -->
   <SuppressionUnattendedByColonists>无人看管</SuppressionUnattendedByColonists>
+  <!-- EN: At least one of the {0} slaves on this map is expected rebel on average every {1}. -->
+  <SuppressionRebellionAnySlave>此地图上的{0}奴隶中至少有一个预计平均每{1}会进行叛乱。</SuppressionRebellionAnySlave>
 
   <!-- EN: Will -->
   <WillLevel>意志</WillLevel>
