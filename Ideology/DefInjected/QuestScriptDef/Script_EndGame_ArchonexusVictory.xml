@@ -28,7 +28,7 @@
     <li>descriptionIntro(factionless==true)->A group of wild people are</li>
   -->
   <EndGame_ArchonexusVictory_FirstCycle.questDescriptionRules.rulesStrings>
-    <li>questDescription->[descriptionIntro]致力于扩大他们的势力范围， 并有兴趣出全资接管[playerSettlements]和[itsTheir]全部科技。 如果你能将你的总财富值增加到[requiredWealth_money]， 他们将会接管[settlementsSingularOrPlural]。\n\n作为交换， 他们将会给你包含有一处远古超凡枢纽位置信息的地图残片。 超凡枢纽被认为是远古超级智能借以影响客观世界的媒介。 凭借它的力量，可以跨越物理法则的限制。\n\n[onlyHaveHas]一份地图残片。 其他部分被别的派系所持有。\n\n如果你接受提议，[factionPawnsPlural]将占有[playerSettlements]， 包括物品、其他人员及已记录的科技。 他们还会帮你将人员中的[colonistsAllowed]和动物中的[animalsAllowed]运送至星球上任何你想建立新殖民地的位置。\n\n之后你可以尝试和其他人交易另外两份地图残片。</li>
+    <li>questDescription->[descriptionIntro]致力于扩大他们的势力范围， 并有兴趣出全资接管[playerSettlements]和[itsTheir]全部科技。 如果你能将你的总财富值增加到[requiredWealth_money]， 他们将会接管[settlementsSingularOrPlural]。\n\n作为交换， 他们将会给你包含有一处远古超凡枢纽位置信息的地图残片。 超凡枢纽被认为是远古超级智能借以影响客观世界的媒介。 凭借它的力量，可以跨越物理法则的限制。\n\n[onlyHaveHas]一份地图残片。 其他部分被别的派系所持有。\n\n如果你接受提议，[factionPawnsPlural]将占有[playerSettlements]， 包括物品、其他人员及已记录的科技。 他们还会帮你将[colonistsAllowed]名人员和[animalsAllowed]只动物运送至星球上任何你想建立新殖民地的位置。\n\n之后你可以尝试和其他人交易另外两份地图残片。</li>
     <li>itsTheir(playerSettlementsCount==1)->它的</li>
     <li>itsTheir(playerSettlementsCount>=2)->它们的</li>
     <li>settlementsSingularOrPlural(playerSettlementsCount==1)->基地</li>
