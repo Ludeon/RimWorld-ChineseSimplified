@@ -103,15 +103,19 @@
   <!-- EN: Execute -->
   <Execute>处决</Execute>
   <!-- EN: Execute guilty colonist\n\nIf you toggle this on, a warden will proceed to execute this person. -->
-  <ExecuteColonist>处决有罪的殖民者\n\n如果你打开这个开关，狱卒将着手处决这个人。</ExecuteColonist> <!-- text_doto -->
+  <ExecuteColonist>处决有罪的殖民者\n\n如果你打开这个开关，狱卒将着手处决这个人。</ExecuteColonist>
   <!-- EN: {0_labelShort} is now marked for execution. The next available warden will go execute {0_objective}. -->
   <MessageColonistMarkedForExecution>{0_labelShort}被标记为处决。接下来空闲的狱卒将去处决{0_objective}。</MessageColonistMarkedForExecution>
   <!-- EN: {0} of {1} -->
   <TitleOfFaction>{1} 的 {0}</TitleOfFaction>
   <!-- EN: This action will make {PAWN_nameDef} lose {PAWN_possessive} {TITLE} title. You will receive no compensation for renouncing the title.\n\nThis will have the following effects:\n\n{EFFECTS} -->
   <RenounceTitleDescription>这个操作会让{PAWN_nameDef}失去{PAWN_possessive}{TITLE}头衔。放弃这个头衔不会让你得到任何补偿！\n\n这会造成以下效果：\n\n{EFFECTS}</RenounceTitleDescription>
-  <!-- EN: {PAWN_possessive} will lose these permissions -->
-  <RenounceTitleWillLoosePermits>{PAWN_possessive}将会失去这些权限</RenounceTitleWillLoosePermits>
+  <!-- EN: {PAWN_pronoun} will lose these permissions -->
+  <RenounceTitleWillLoosePermits>{PAWN_pronoun}将会失去这些权限</RenounceTitleWillLoosePermits>
+  <!-- EN: {PAWN_nameDef} will lose {POINTS} unspent permit points with {FACTION_name}. -->
+  <RenounceTitleWillLosePermitPoints>{PAWN_nameDef}将会失去在{FACTION_name}内未使用完的{POINTS}个许可点数。</RenounceTitleWillLosePermitPoints>
+  <!-- EN: {PAWN_pronoun} will keep all {PAWN_possessive} psylink levels and psycasts. -->
+  <RenounceTitleWillKeepPsylinkLevels>{PAWN_pronoun}将保留所有{PAWN_possessive}启灵等级和心灵能力。</RenounceTitleWillKeepPsylinkLevels>
   <!-- EN: unknown -->
   <UnknownLower>未知</UnknownLower>
   <!-- EN: On -->
@@ -1141,6 +1145,8 @@
   <Installed>已安装</Installed>
   <!-- EN: Not installed -->
   <NotInstalled>未安装</NotInstalled>
+  <!-- EN: Extracted tree will die in {time} unless replanted. -->
+  <MinifiedTreeWillDieIn>除非重新栽植，不然被掘起的树木将会在{time}死亡。</MinifiedTreeWillDieIn>
 
   <!-- Art -->
   <!-- EN: Title -->
