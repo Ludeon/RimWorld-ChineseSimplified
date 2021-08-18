@@ -109,7 +109,7 @@
     <li>betrayalOffserLetterText->[factionOpponent_faction_name]的[factionOpponent_faction_pawnSingular]，[factionOpponent_nameDef]， 知晓了 [asker_nameDef] [otherLodgers] [areIs] 在 [map_definite]做客。 [factionOpponent_pronoun] 与 [asker_nameDef] 是你死我活的仇敌，想要亲眼目睹[asker_objective]的死亡。\n\n如果你杀死[faction_name]的所有成员，[factionOpponent_pronoun] 约定以如下报酬报答 (总价值 [betrayalRewardMarketValue_money]):\n\n[betrayalRewards]</li>
     <li>betrayalOfferRewardLetterLabel->背叛： [factionOpponent_nameDef]</li>
     <li>betrayalOfferRewardLetterText->[factionOpponent_nameDef] 答应你如果你杀了 [asker_nameDef] [otherMembers] 将会得到奖励。 [factionOpponent_pronoun] 已经收到你完成了这件事的消息，并通过空投舱向你发送了如下物资 (总价值 [betrayalRewardMarketValue_money]):\n\n[betrayalRewards]。\n\n[questOver]</li>
-    <li>betrayalOfferFailedLetterLabel->背叛奖励收回</li>
+    <li>betrayalOfferFailedLetterLabel->背叛奖励被收回</li>
     <li>betrayalOfferFailedLetterText->[factionOpponent_nameDef] 已经收到[faction_name]的一名成员不再处于[map_definite]的消息。 [factionOpponent_nameDef] 想要所有 [faction_name] 的成员死亡，故而收回了[factionOpponent_possessive]提议。</li>
     <li>otherLodgers(lodgerCount==1)-></li>
     <li>otherLodgers(lodgerCount==2)->和其他的 [lodgersLabel]</li>

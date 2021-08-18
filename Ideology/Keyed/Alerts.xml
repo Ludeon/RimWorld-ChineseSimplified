@@ -18,9 +18,9 @@
   <SlavesUnattendedDesc>地图上有一些奴隶身边没有可管制它们的殖民者,这样的奴隶有很大可能在几小时到几天内掀起叛乱。</SlavesUnattendedDesc>
 
   <!-- EN: {0} expected -->
-  <RitualExpected>仪式正在等待{0}</RitualExpected>
+  <RitualExpected>{0}</RitualExpected>
   <!-- EN: {0} expected for -->
-  <RitualExpectedFor>等待{0}</RitualExpectedFor>
+  <RitualExpectedFor>{0}</RitualExpectedFor>
   <!-- EN: {0} days: Ritual opportunity ends. -->
   <RitualExpirationTime>仪式机会将在{0}天内结束。</RitualExpirationTime>
   <!-- EN: Expires in -->
@@ -42,8 +42,8 @@
 
   <!-- EN: {0} desired -->
   <IdeoBuildingMissing>需求：{0}</IdeoBuildingMissing>
-  <!-- EN: {1} requires that you have a {0} in your colony as long as {2} or higher.{4}\n\nIf the requirement isn't met, these believers will become unhappy:\n{3} -->
-  <IdeoBuildingMissingDesc>{1}需要你的殖民地在 {2}或更高时有{0}， {4}。\n\n如果此需求未被满足，以下信徒将会不开心：\n {3} </IdeoBuildingMissingDesc>
+  <!-- EN: {IDEO_name} requires that you have a {0} in your colony as long as {2} or higher.\n\nThis requirement is only active if {IDEO_name} is your faction's primary ideoligion, or there are {MINBELIEVERS} believers in your faction.{4}\n\nIf the requirement isn't met, these believers will become unhappy:\n{3} -->
+  <IdeoBuildingMissingDesc>{IDEO_name}需要你的殖民地在{2}或更高时有{0}。\n\n这个要求只会在{IDEO_name}是你派系的主流文化， 或者最少有{MINBELIEVERS}名追随者时生效。 {4}\n\n如果此需求未被满足，以下追随者将会不开心：\n {3} </IdeoBuildingMissingDesc>
   <!-- EN: In order to dignify {0}, these room requirements must be met -->
   <IdeoBuildingRoomRequirementsDesc>为了神圣化{0}，这些房间的需求必须被满足</IdeoBuildingRoomRequirementsDesc>
   <!-- EN: expectations are -->
@@ -57,7 +57,7 @@
   <!-- EN: Raids arriving in {0} -->
   <QuestPartRaidsDelay>袭击将在{0}后到来</QuestPartRaidsDelay>
   <!-- EN: Raids will start arriving in {0}.\n\nThe raiders will target the spacedrone and attempt to destroy it. Protect the spacedrone so your colonists can hack its computer and retrieve the data. -->
-  <QuestPartRaidsDelayDesc>袭击将在{0}后到来\n\n 袭击者的目的是寻找并摧毁此。保护它，直到你的殖民者把其电脑内部的数据提取出来为止。</QuestPartRaidsDelayDesc>
+  <QuestPartRaidsDelayDesc>袭击将在{0}后到来\n\n袭击者的目的是寻找并摧毁此无人机。保护它，直到你的殖民者把其电脑内部的数据提取出来为止。</QuestPartRaidsDelayDesc>
 
   <!-- EN: {0} role unfilled -->
   <IdeoRoleEmpty>{0}职位未被分配</IdeoRoleEmpty>
@@ -72,13 +72,13 @@
   <AncientAltarThreatsWakingDesc>安全协议将在{0}内激活，它们将攻击任何对圣物可能造成威胁者</AncientAltarThreatsWakingDesc>
 
   <!-- EN: No recent slaughter -->
-  <AlertNoRecentSlaughter>近期未狩猎</AlertNoRecentSlaughter>
+  <AlertNoRecentSlaughter>近期未宰杀</AlertNoRecentSlaughter>
   <!-- EN: No large {0} animal has been slaughtered recently. This is a requirement of the following ideoligions -->
-  <AlertNoRecentSlaughterDesc>近期未能狩猎巨型动物{0}，这对于以下信仰而言是必须的：</AlertNoRecentSlaughterDesc>
+  <AlertNoRecentSlaughterDesc>近期未能宰杀大型动物{0}，这对于以下信仰而言是必须的：</AlertNoRecentSlaughterDesc>
   <!-- EN: {0} body size or above -->
   <BodySizeOrAbove>体积为{0}或更大</BodySizeOrAbove>
   <!-- EN: If no slaughter is performed, these colonists will remain unhappy -->
-  <AlertNoRecentSlaughterDescPost>如果不进行狩猎，殖民者们将一直不高兴</AlertNoRecentSlaughterDescPost>
+  <AlertNoRecentSlaughterDescPost>如果不进行宰杀，殖民者们将一直不高兴</AlertNoRecentSlaughterDescPost>
   
   <!-- EN: Ritual opportunity soon -->
   <AlertRitualComing>仪式机会即将来临</AlertRitualComing>
