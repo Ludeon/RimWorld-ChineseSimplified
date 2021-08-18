@@ -42,8 +42,8 @@
 
   <!-- EN: {0} desired -->
   <IdeoBuildingMissing>需求：{0}</IdeoBuildingMissing>
-  <!-- EN: {1} requires that you have a {0} in your colony as long as {2} or higher.{4}\n\nIf the requirement isn't met, these believers will become unhappy:\n{3} -->
-  <IdeoBuildingMissingDesc>{1}需要你的殖民地在 {2}或更高时有{0}， {4}。\n\n如果此需求未被满足，以下信徒将会不开心：\n {3} </IdeoBuildingMissingDesc>
+  <!-- EN: {IDEO_name} requires that you have a {0} in your colony as long as {2} or higher.\n\nThis requirement is only active if {IDEO_name} is your faction's primary ideoligion, or there are {MINBELIEVERS} believers in your faction.{4}\n\nIf the requirement isn't met, these believers will become unhappy:\n{3} -->
+  <IdeoBuildingMissingDesc>{IDEO_name}需要你的殖民地在{2}或更高时有{0}。\n\n这个要求只会在{IDEO_name}是你派系的主流文化， 或者最少有{MINBELIEVERS}名追随者时生效。 {4}\n\n如果此需求未被满足，以下追随者将会不开心：\n {3} </IdeoBuildingMissingDesc>
   <!-- EN: In order to dignify {0}, these room requirements must be met -->
   <IdeoBuildingRoomRequirementsDesc>为了神圣化{0}，这些房间的需求必须被满足</IdeoBuildingRoomRequirementsDesc>
   <!-- EN: expectations are -->

@@ -12,11 +12,13 @@
   <DominantStyle>主流风格</DominantStyle>
   <!-- EN: Date -->
   <Date>日期</Date>
+  <!-- EN: The following development points will be awarded depending on the ritual outcome -->
+  <RitualDevelopmentPointRewards>根据仪式的结果，将授予发展点数</RitualDevelopmentPointRewards>
 
   <!-- EN: Choose the symbolic structure of your ideoligion. This only affects symbols - it does not affect gameplay. -->
   <ChooseStructureMemesInfo>选择你的文化形态的象征结构。这只会影响符号 —— 它不会影响游戏玩法。</ChooseStructureMemesInfo>
-  <!-- EN: Choose {0}-{1} memes to form the foundational ideas of this ideoligion. Some of these have much more gameplay impact than others. -->
-  <ChooseNormalMemesInfo>选择 {0}-{1} 个模因来形成这个文化形态的基本思想。部分模因对游戏玩法的影响比其他的要大得多。</ChooseNormalMemesInfo>
+  <!-- EN: Choose {0}-{1} memes to form the foundational ideas of this ideoligion. -->
+  <ChooseNormalMemesInfo>选择 {0}-{1} 个模因来形成这个文化形态的基本思想。</ChooseNormalMemesInfo>
   <!-- EN: Choose at least {0} meme. -->
   <NotEnoughMemes>最少选择 {0} 个模因。</NotEnoughMemes>
   <!-- EN: Choose at most {0} memes. -->
@@ -25,12 +27,22 @@
   <ChooseStructureMeme>选择结构。</ChooseStructureMeme>
   <!-- EN: {0_label} and {1_label} are incompatible. -->
   <IncompatibleMemes>{0_label} 与 {1_label} 不相容。</IncompatibleMemes>
+  <!-- EN: Some of these have much more gameplay impact than others. -->
+  <SomeMemesHaveMoreImpact>部分模因对游戏玩法的影响比其他的要大得多。</SomeMemesHaveMoreImpact>
+  <!-- EN: Choose one meme to form the initial idea of this ideoligion. You will add more memes as the ideoligion develops over time. -->
+  <ChooseNormalMemesFluidIdeoInfo>选择一个模因来形成这个文化的初始思想。你可以随着时间发展文化来添加更多的模因。</ChooseNormalMemesFluidIdeoInfo>
+  <!-- EN: Choose a meme or remove a meme. -->
+  <ChooseOrRemoveMeme>选择或移除一个模因。</ChooseOrRemoveMeme>
+  <!-- EN: Reset changes -->
+  <ReformIdeoResetChanges>重置</ReformIdeoResetChanges>
 
   <!-- EN: {0} will re-randomize any precepts you have edited.\n\nDo you wish to continue? -->
   <ChangesRandomizePrecepts>{0} 会打乱你编辑过的一些戒律。\n\n你希望继续吗？</ChangesRandomizePrecepts>
   
   <!-- EN: Room requirements -->
   <RoomRequirements>房间要求</RoomRequirements>
+  <!-- EN: The ideoligion you are loading has memes that are incompatible with a new fluid ideoligion and its memes will need to be chosen again (fluid ideoligions may only start with one low-impact meme). The following memes are incompatible:\n\n{0}\n\nWould you like to continue? -->
+  <ConfirmChangeMemesForFluidIdeo>你试图加载的文化形态与新的演进文化冲突，必须重新选择它的模因（演进文化必须从一个低影响度模因开始）。\n这些模因是冲突的：\n\n{0}\n\n你想要继续吗？</ConfirmChangeMemesForFluidIdeo>
   
   <!-- EN: role -->
   <Role>职位</Role>
@@ -98,6 +110,25 @@
 
   <!-- EN: {PAWN_labelShort} was already counselled recently. -->
   <AbilityCantApplyAlreadyCounselled>{PAWN_labelShort}最近已接受了咨询。</AbilityCantApplyAlreadyCounselled>
+
+  <!-- EN: Reform... -->
+  <ReformIdeo>改革...</ReformIdeo>
+  <!-- EN: Reform ideoligion -->
+  <ReformIdeoligion>文化改革</ReformIdeoligion>
+  <!-- EN: Reform your ideoligion by changing its structure, memes or style. -->
+  <ReformIdeoligionDesc>通过改变结构、模因或者风格来对你的文化进行改革。</ReformIdeoligionDesc>
+  <!-- EN: Change styles -->
+  <ReformIdeoChangeStyles>改变风格</ReformIdeoChangeStyles>
+  <!-- EN: Add or remove a meme -->
+  <ReformIdeoAddOrRemoveMeme>添加或移除模因</ReformIdeoAddOrRemoveMeme>
+  <!-- EN: Add a meme -->
+  <ReformIdeoAddMeme>添加模因</ReformIdeoAddMeme>
+  <!-- EN: Choose one -->
+  <ReformIdeoChooseOneChange>选择一个</ReformIdeoChooseOneChange>
+  <!-- EN: Change structure -->
+  <ReformIdeoChangeStructure>改变结构</ReformIdeoChangeStructure>
+  <!-- EN: Change any of the following -->
+  <ReformIdeoChangeAny>改变以下任意</ReformIdeoChangeAny>
 
   <!-- Slavery -->
   <!-- EN: Slave -->
@@ -239,6 +270,14 @@
   <ChoosePeopleDesc>最多选择 {0} 个人。</ChoosePeopleDesc>
   <!-- EN: If you only select slaves, you will play them as colonists in the next colony. -->
   <ChooseOnlySlavesInfo>如果你只选择奴隶，他们将作为殖民者在下一个殖民地出现。</ChooseOnlySlavesInfo>
+  <!-- EN: Confirm decisions -->
+  <ConfirmDecisionsTitle>确定决策</ConfirmDecisionsTitle>
+  <!-- EN: The hibernating starship reported by the AI (*Name)Charlon Whitestone(/Name) will fly away by the time the new colony is established. It will no longer be possible to escape the planet by traveling to this ship. -->
+  <ShipEscapeWillEndDescription>人工智能(*Name)沙隆·白石(/Name)报告的飞船将会在新殖民地建立时飞走，这意味着将不再可能通过这艘飞船来逃离星球。</ShipEscapeWillEndDescription>
+  <!-- EN: The colony's purchasers will only allow you to take one relic. Any relic not selected will be left behind, including: -->
+  <RemoveEquippedRelicsDescription>殖民地购买者只允许你带走一个圣物。任何没有被选择的圣物都会被留下来，包括：</RemoveEquippedRelicsDescription>
+  <!-- EN: Would you like to proceed? -->
+  <WantToProceed>你想继续吗？</WantToProceed>
   <!-- EN: Convert -->
   <ConvertToPlayerIdeoligion>转化</ConvertToPlayerIdeoligion>
   <!-- EN: Revert -->
@@ -247,6 +286,8 @@
   <ExistingFollowerOfPlayerIdeoligion>现有的追随者</ExistingFollowerOfPlayerIdeoligion>
   <!-- EN: You are abandoning a site that contains archotech structures which you have not yet fully studied.\n\nYou will be able to resettle here later, but your colony will be wiped away. -->
   <AbandonArchotechStructuresWarningDialog>你正在放弃一个包含你还没有完全研究过的建筑技术的定居点。\n\n你以后可以在这里定居，但是你之前的殖民地将会被抛弃。</AbandonArchotechStructuresWarningDialog>
+  <!-- EN: {0} quantity that can be brought to the new colony.\n\nThe maximum allowed quantity is: {1} -->
+  <ItemQuantityTooltip>允许被带入新殖民地的{0}数量。\n\n最大许可值为：{1}</ItemQuantityTooltip>
 
   <!-- EN: Hacking this {0} will alert enemies and cause them to attack. Do really want to hack {0}? -->
   <ConfirmHackEnenyTerminal>骇入这个 {0} 会激怒敌人并招致他们的报复。真的要破解 {0} 吗？</ConfirmHackEnenyTerminal>

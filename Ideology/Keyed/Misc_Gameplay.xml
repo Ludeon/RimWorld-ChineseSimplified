@@ -15,6 +15,8 @@
   <Customize>自定义</Customize>
   <!-- EN: Play classic -->
   <PlayClassic>经典模式</PlayClassic>
+  <!-- EN: Create fluid... -->
+  <CreateFluid>创建演进文化...</CreateFluid>
   <!-- EN: Load saved -->
   <LoadSaved>载入预设</LoadSaved>
   <!-- EN: Structure -->
@@ -123,13 +125,22 @@
   <PreceptName>戒律名</PreceptName>
   <!-- EN: precept name -->
   <PreceptNameLower>戒律名</PreceptNameLower>
-  <!-- EN: Changing -->
+  <!-- EN: Changing {0} -->
   <Changing>修改</Changing>
   <!-- EN: structures -->
   <StructuresLower>结构</StructuresLower>
   <!-- EN: memes -->
   <MemesLower>模因</MemesLower>
-  
+  <!-- EN: Development points -->
+  <Reward_DevelopmentPointsLabel>发展点数</Reward_DevelopmentPointsLabel>
+  <!-- EN: Your development points for {0} will increase by {1}.\n\nYou currently have {2} development points. Once you have {3} development points you can reform the ideologion.\n\nEarn additional development points by completing other quests and rituals. -->
+  <Reward_DevelopmentPoints>{0}的发展点数将增加{1}。\n\n你目前有{2}发展点数，当你有{3}发展点数时就可以进行文化改革。\n\n通过完成其他任务和仪式获得额外的发展点。</Reward_DevelopmentPoints>
+  <!-- EN: Current points -->
+  <CurrentDevelopmentPoints>当前点数</CurrentDevelopmentPoints>
+  <!-- EN: Points needed to reform -->
+  <ReformDevelopmentPoints>改革所需点数</ReformDevelopmentPoints>
+  <!-- EN: quest -->
+  <QuestLower>任务</QuestLower>
 
   <!-- EN: A grave containing {PAWN_labelShort}'s corpse. -->
   <RitualTargetGraveInfo>装有{PAWN_labelShort}的坟墓</RitualTargetGraveInfo>
@@ -194,6 +205,11 @@
   <RitualOutcomeExtraDesc_SkylanternWanderers>你的天灯吸引了一些友善的旅行者，他们将会来拜访你的殖民地并留下礼物</RitualOutcomeExtraDesc_SkylanternWanderers>
   <!-- EN: All participating slaves were shaken by the sight of death. Their suppression has been raised to its maximum level. -->
   <RitualOutcomeExtraDesc_Execution>所有参与此仪式的奴隶均被目睹死亡所震撼，它们的镇压值已补满。</RitualOutcomeExtraDesc_Execution>
+  
+  <!-- EN: Due to the quality of the ritual, your development points have increased by {2} (from {0} to {1}). -->
+  <RitualOutcomeExtraDesc_DevelopmentPointsAwarded>由于仪式的效果，你的发展点数增加{2}（在{0}至{1}之间）。</RitualOutcomeExtraDesc_DevelopmentPointsAwarded>
+  <!-- EN: Due to the poor quality of the ritual, no development points were gained. -->
+  <RitualOutcomeExtraDesc_NoDevelopmentPointsAwarded>由于仪式的效果，未获取发展点数。</RitualOutcomeExtraDesc_NoDevelopmentPointsAwarded>
 
   <!-- EN: Additional reward -->
   <RitualAttachedReward>额外奖励</RitualAttachedReward>
@@ -256,6 +272,10 @@
   <RitualOutcomeCompTip_RitualTargetDefsPart1>为达到最佳质量，应在{1}开始{0}。</RitualOutcomeCompTip_RitualTargetDefsPart1>
   <!-- EN: Currently, the {0} is being started at {1_labelShortIndef}. -->
   <RitualOutcomeCompTip_RitualTargetDefsPart2>当前正在{1_labelShortIndef}处开始{0}。</RitualOutcomeCompTip_RitualTargetDefsPart2>
+  <!-- EN: Development points -->
+  <RitualDevelopmentPoints>发展点数</RitualDevelopmentPoints>
+  <!-- EN: Completing this ritual gives {0}-{1} development points depending on quality. -->
+  <RitualDevelopmentPointsTip>完成此仪式时能够获得取决于仪式效果的发展点数（{0}~{1}）。</RitualDevelopmentPointsTip>
 
   <!-- EN: For slave use -->
   <ForSlaveUse>为奴隶专用</ForSlaveUse>
@@ -299,6 +319,8 @@
   <RoleExpectationOffset>提升了{0}级。</RoleExpectationOffset>
   <!-- EN: The {0} has higher expectations. -->
   <RoleRaisedExpectation>{0}有更高的期望。</RoleRaisedExpectation>
+  <!-- EN: The {0} will have higher expectations in {1}. -->
+  <RoleRaisedExpectationGracePeriod>{0}将会在{1}有更高的期望。</RoleRaisedExpectationGracePeriod>
   <!-- EN: Led by {0} -->
   <IdeoLeaderDifferentIdeoThoughtLabel>由{0}带领</IdeoLeaderDifferentIdeoThoughtLabel>
   <!-- EN: {PAWN_nameDef} will not do {1} work. -->
