@@ -133,7 +133,7 @@
   <MemesLower>模因</MemesLower>
   <!-- EN: Development points -->
   <Reward_DevelopmentPointsLabel>发展点数</Reward_DevelopmentPointsLabel>
-  <!-- EN: Your development points for {0} will increase by {1}.\n\nYou currently have {2} development points. Once you have {3} development points you can reform the ideologion.\n\nEarn additional development points by completing other quests and rituals. -->
+  <!-- EN: Your development points for {0} will increase by {1}.\n\nYou currently have {2} development points. Once you have {3} development points you can reform the ideoligion.\n\nEarn additional development points by completing other quests and rituals. -->
   <Reward_DevelopmentPoints>{0}的发展点数将增加{1}。\n\n你目前有{2}发展点数，当你有{3}发展点数时就可以进行文化改革。\n\n通过完成其他任务和仪式获得额外的发展点。</Reward_DevelopmentPoints>
   <!-- EN: Current points -->
   <CurrentDevelopmentPoints>当前点数</CurrentDevelopmentPoints>
@@ -141,6 +141,10 @@
   <ReformDevelopmentPoints>改革所需点数</ReformDevelopmentPoints>
   <!-- EN: quest -->
   <QuestLower>任务</QuestLower>
+  <!-- EN: Cannot reform -->
+  <CannotReform>无法改革</CannotReform>
+  <!-- EN: There is currently and ongoing ritual associated to {0}. -->
+  <CannotReformActiveRitual>当前有一个与{0}相关的仪式正在举行。</CannotReformActiveRitual>
 
   <!-- EN: A grave containing {PAWN_labelShort}'s corpse. -->
   <RitualTargetGraveInfo>装有{PAWN_labelShort}的坟墓</RitualTargetGraveInfo>
@@ -532,7 +536,7 @@
   <AssignColonists>指派殖民者加入你的文化形态</AssignColonists>
   <!-- EN: Remove new ideoligion -->
   <RemoveNewIdeoligion>移除文化形态</RemoveNewIdeoligion>
-  <!-- EN: Make this your primary ideologion -->
+  <!-- EN: Make this your primary ideoligion -->
   <MakeIdeoligionPrimary>将此文化形态作为主要文化形态</MakeIdeoligionPrimary>
 
   <!-- Archonexus -->
