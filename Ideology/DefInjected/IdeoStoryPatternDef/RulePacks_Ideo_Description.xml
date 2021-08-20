@@ -157,7 +157,7 @@
     <li>lesson(priority=-1)->发生了点事情</li>
     <li>r_pattern->"[r_lessonIntro][r_lesson]。[r_lessonReinforcement]"\n\n  ——[lessonAttribution]</li>
     <li>lessonAttribution->[founder_nameFull]</li>
-    <li>lessonAttribution(p=2)->&lt;i&gt;[attributionSource_titleCase]&lt;/i&gt; 作者[founder_nameFull]</li>
+    <li>lessonAttribution(p=2)->(*Name)[attributionSource_titleCase](/Name) 作者[founder_nameFull]</li>
     <li>lessonAttribution->[founder_nameFull]给[believer_nameFull]的一封信</li>
     <li>lessonAttribution->[founder_nameFull]，在[memeConference_titleCase]上</li>
     <li>lessonAttribution->[founder_nameFull]，在病榻上</li>
