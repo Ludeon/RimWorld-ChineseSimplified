@@ -141,10 +141,6 @@
   <ReformDevelopmentPoints>改革所需点数</ReformDevelopmentPoints>
   <!-- EN: quest -->
   <QuestLower>任务</QuestLower>
-  <!-- EN: Cannot reform -->
-  <CannotReform>无法改革</CannotReform>
-  <!-- EN: There is currently and ongoing ritual associated to {0}. -->
-  <CannotReformActiveRitual>当前有一个与{0}相关的仪式正在举行。</CannotReformActiveRitual>
 
   <!-- EN: A grave containing {PAWN_labelShort}'s corpse. -->
   <RitualTargetGraveInfo>装有{PAWN_labelShort}的坟墓</RitualTargetGraveInfo>
@@ -596,13 +592,17 @@
   <BiosculpterNoPowerEjectedMessage>{PAWN_labelShort}因电力不足而从塑形舱中被弹出。</BiosculpterNoPowerEjectedMessage>
   <!-- EN: {PAWN_labelShort} completed healing cycle. -->
   <BiosculpterHealCompletedMessage>{PAWN_labelShort}完成了其治疗周期。</BiosculpterHealCompletedMessage>
-  <!-- EN: {PAWN_labelShort} completed healing cycle, and their {HEDIFF_label} was cured. -->
-  <BiosculpterHealCompletedWithCureMessage>{PAWN_labelShort}完成了治疗周期，且治愈了{HEDIFF_label}。</BiosculpterHealCompletedWithCureMessage>
+  <!-- EN: {PAWN_labelShort} completed healing cycle, and {PAWN_possessive} {HEDIFF_label} was cured. -->
+  <BiosculpterHealCompletedWithCureMessage>{PAWN_labelShort}完成了治疗周期，且治愈了{PAWN_possessive}{HEDIFF_label}。</BiosculpterHealCompletedWithCureMessage>
   <!-- EN: {PAWN_labelShort} completed {PAWN_possessive} age reversal cycle. {PAWN_pronoun} expects the next age reversal in {DEADLINE} days. -->
-  <BiosculpterAgeReversalCompletedMessage>{PAWN_labelShort}完成了年龄逆转周期，{PAWN_pronoun}期待下一次年龄逆转治疗在{DEADLINE}天内进行。</BiosculpterAgeReversalCompletedMessage>
+  <BiosculpterAgeReversalCompletedMessage>{PAWN_labelShort}完成了年龄逆转周期，{PAWN_pronoun}期待下一次年龄逆转周期在{DEADLINE}天内进行。</BiosculpterAgeReversalCompletedMessage>
   <!-- EN: {PAWN_labelShort} completed pleasure cycle. -->
   <BiosculpterPleasureCompletedMessage>{PAWN_labelShort}已完成欢愉周期。</BiosculpterPleasureCompletedMessage>
   <!-- EN: Cleanliness speed factor -->
   <BiosculpterCleanlinessSpeedFactor>清洁速度因数</BiosculpterCleanlinessSpeedFactor>
+  <!-- EN: These conditions will be healed -->
+  <HealingCycleWillHeal>治愈</HealingCycleWillHeal>
+  <!-- EN: One of these conditions will be healed -->
+  <HealingCycleOneWillHeal>治愈其一</HealingCycleOneWillHeal>
 
 </LanguageData>
