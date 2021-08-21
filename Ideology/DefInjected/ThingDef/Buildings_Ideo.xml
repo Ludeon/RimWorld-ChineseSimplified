@@ -25,10 +25,14 @@
   <BiosculpterPod.label>塑形舱</BiosculpterPod.label>
   <!-- EN: An immersive pod equipped with a biosculpting fluid injector and attached control system. It can perform a variety of biological alterations including age reversal and pleasure-giving. Each pod becomes biotuned to its user, and cannot be used by anyone else. Biotuning resets after 60 days. Believers in transhumanism believe biosculpter pods are of critical importance in their quest to transcend normal human physical limitations. -->
   <BiosculpterPod.description>配备塑形流体注射器和控制系统的舱体。它可以为使用者进行各类生物学调整，甚至包括年龄逆转和愉悦诱发。塑形舱将会绑定使用者进行生物塑形。解除生物塑形舱的绑定将需要60天的重置过程。超人主义的信徒们相信，塑形舱在他们寻求超越常人躯壳限制的过程中至关重要。</BiosculpterPod.description>
-  <!-- EN: healing -->
-  <BiosculpterPod.comps.CompBiosculpterPod_HealingCycle.label>治愈</BiosculpterPod.comps.CompBiosculpterPod_HealingCycle.label>
+  <!-- EN: medic -->
+  <BiosculpterPod.comps.CompBiosculpterPod_MedicCycle.label>伤口治疗</BiosculpterPod.comps.CompBiosculpterPod_MedicCycle.label>
+  <!-- EN: Heal all fresh wounds, blood loss, and one random infectious disease. -->
+  <BiosculpterPod.comps.CompBiosculpterPod_MedicCycle.description>治愈所有的新鲜伤口、失血，并且治愈一个随机的感染。</BiosculpterPod.comps.CompBiosculpterPod_MedicCycle.description>
+  <!-- EN: bioregeneration -->
+  <BiosculpterPod.comps.CompBiosculpterPod_RegenerationCycle.label>生体递归</BiosculpterPod.comps.CompBiosculpterPod_RegenerationCycle.label>
   <!-- EN: Heal all fresh wounds, heal one random permanent injury, and restore small missing body parts like fingers and toes. -->
-  <BiosculpterPod.comps.CompBiosculpterPod_HealingCycle.description>治愈所有新鲜的伤口和一个随机的疤痕，并恢复手指和脚趾之类较小的缺失部位。</BiosculpterPod.comps.CompBiosculpterPod_HealingCycle.description>
+  <BiosculpterPod.comps.CompBiosculpterPod_RegenerationCycle.description>治愈所有的新鲜伤口，治愈一个随机的疤痕，并且修复手指和脚趾之类较小的身体部位缺失。</BiosculpterPod.comps.CompBiosculpterPod_RegenerationCycle.description>
   <!-- EN: age reversal -->
   <BiosculpterPod.comps.CompBiosculpterPod_AgeReversalCycle.label>年龄逆转</BiosculpterPod.comps.CompBiosculpterPod_AgeReversalCycle.label>
   <!-- EN: Reverse one year of aging. -->
