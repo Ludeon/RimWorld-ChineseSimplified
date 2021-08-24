@@ -86,6 +86,10 @@
   <ModSettings>Mod 设置</ModSettings>
   <!-- EN: Permanently disable development mode -->
   <PermanentlyDisableDevMode>永久禁用开发者模式</PermanentlyDisableDevMode>
+  <!-- EN: Texture compression -->
+  <TextureCompression>压缩画质</TextureCompression>
+  <!-- EN: Turning off texture compression will use much more vidoe memory, but makes textures look slightly better in detailed areas. Only turn this off if you know you have lots of extra video memory.\n\nNote that using certain mods will often consume much more video memory, so you may need to turn this on if you add certain mods. -->
+  <TextureCompression_Tooltip>开启此选项能够对图形进行压缩，这样可以节省内存，并且使游戏运行更加流畅。\n\n关闭此选项可以显示更多的图形细节，但是会消耗更多的内存。关闭此选项最好有足够的内存。\n\n注意：有些mod会占用相当大的内存，如果你添加了这些mod，可能会需要开启此选项。</TextureCompression_Tooltip>
 
   <!-- Resolution -->
   <!-- EN: Resolution -->
@@ -106,6 +110,8 @@
   <ResetAndRestart>选项已重置。游戏将会立刻自动重启。</ResetAndRestart>
   <!-- EN: All your settings will be reset to the default and the game will be restarted. All unsaved progress will be lost!\n\nContinue? -->
   <ResetAndRestartConfirmationDialog>你的所有设置都将重置为默认设置，并且游戏将重新启动。所有未保存的进度将丢失！\n\n是否继续？</ResetAndRestartConfirmationDialog>
+  <!-- EN: Changing the texture compression option requires a restart. All unsaved progress will be lost!\n\nContinue? -->
+  <ChangedTextureCompressionRestart>改变「压缩画质」选项需要重启游戏，所有未保存的进度都会丢失！\n\n是否继续？</ChangedTextureCompressionRestart>
   
   <!-- Background image -->
   <!-- EN: Menu background -->
