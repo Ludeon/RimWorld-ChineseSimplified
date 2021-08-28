@@ -659,6 +659,8 @@
   <RitualBegun>{0}已经开始。</RitualBegun>
   <!-- EN: The maximum number of {0}s is {1}. -->
   <MaxPawnsPerRole>{0}的最大数量是{1}。</MaxPawnsPerRole>
+  <!-- EN: Role of {0} is locked. -->
+  <RoleIsLocked>职位{0}被锁定。</RoleIsLocked>
   <!-- EN: You need at least one participant. -->
   <MessageRitualNeedsAtLeastOnePerson>你至少需要一名参与者。</MessageRitualNeedsAtLeastOnePerson>
   <!-- EN: You need at least one spectator. -->
@@ -685,6 +687,10 @@
   <MessageRitualRoleMustBeAnimal>{0}必须是动物</MessageRitualRoleMustBeAnimal>
   <!-- EN: {0} must be a human. -->
   <MessageRitualRoleMustBeHumanlike>{0}必须是人类</MessageRitualRoleMustBeHumanlike>
+  <!-- EN: No roles available for {0_labelShort}. -->
+  <MessageRitualNoRolesAvailable>{0_labelShort}没有可用的职位。</MessageRitualNoRolesAvailable>
+  <!-- EN: {0_labelShort} is not a member of any colony ideoligion. -->
+  <MessageRitualNotOfPlayerIdeo>{0_labelShort}不是殖民地文化的成员。</MessageRitualNotOfPlayerIdeo> <!-- text_todo -->
   <!-- EN: {0} must have eyes -->
   <MessageRitualRoleMustHaveEyes>{0}必须有眼睛</MessageRitualRoleMustHaveEyes>
   <!-- EN: {0_labelShort} does not require further scarification. -->
@@ -739,5 +745,8 @@
   <TooCloseToOtherPlant>离{0_label}太近了。</TooCloseToOtherPlant>
   <!-- EN: Too close to {0}'s planting location. -->
   <TooCloseToOtherSeedPlantCell>离{0}种植区太近了。</TooCloseToOtherSeedPlantCell>
-  
+
+  <!-- EN: Warning: {0} has been marked for cutting. -->
+  <MessageWarningCutImportantPlant>警告：{0}已被标记割除。</MessageWarningCutImportantPlant>
+
 </LanguageData>
