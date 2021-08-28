@@ -1,6 +1,61 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
+  <!-- EN: role acceptance speech -->
+  <Speech_AcceptRole.label>就职演讲</Speech_AcceptRole.label>
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_nameDef] [spokeof] [speechtopic].</li>
+    <li>speechtopic->[INITIATOR_possessive] new role in the community</li>
+    <li>speechtopic->the responsibility of [INITIATOR_possessive] new role</li>
+    <li>speechtopic->the importance of [INITIATOR_possessive] new role</li>
+    <li>speechtopic->[INITIATOR_possessive] good qualities</li>
+    <li>speechtopic->[INITIATOR_possessive] strengths and how to leverage them</li>
+    <li>speechtopic->[INITIATOR_possessive] shortcomings</li>
+    <li>speechtopic->[INITIATOR_possessive] weaknesses and how to overcome them</li>
+    <li>speechtopic->[INITIATOR_possessive] desire to serve the community</li>
+    <li>speechtopic->[INITIATOR_possessive] dedication to [INITIATOR_possessive] beliefs</li>
+    <li>speechtopic->[INITIATOR_possessive] beliefs about the future</li>
+    <li>speechtopic->[INITIATOR_possessive] wish to serve a greater purpose</li>
+    <li>speechtopic->[INITIATOR_possessive] [PersonalCharacteristic] and how it relates to the role</li>
+    <li>speechtopic->how [INITIATOR_possessive] [PersonalCharacteristic] makes [INITIATOR_objective] suited for the role</li>
+    <li>speechtopic->how [INITIATOR_pronoun] will use [INITIATOR_possessive] [PersonalCharacteristic] to overcome obstacles</li>
+    <li>speechtopic->thankfulness</li>
+    <li>speechtopic->showing gratitude</li>
+    <li>speechtopic->life's purpose</li>
+    <li>speechtopic->the future of the colony</li>
+    <li>speechtopic->improving the colony</li>
+    <li>speechtopic->decision-making under stress</li>
+    <li>speechtopic->the social structure of the community</li>
+    <li>speechtopic->taking responsibility</li>
+    <li>speechtopic->putting a role above [INITIATOR_possessive] personal desires</li>
+  -->
+  <Speech_AcceptRole.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef][spokeof][speechtopic]。</li>
+    <li>speechtopic->[INITIATOR_possessive]在社区的新职位</li>
+    <li>speechtopic->[INITIATOR_possessive]新职位的职责</li>
+    <li>speechtopic->[INITIATOR_possessive]新职位的重要性</li>
+    <li>speechtopic->[INITIATOR_possessive]良好素养</li>
+    <li>speechtopic->[INITIATOR_possessive]优势以及如何良好的发挥特长</li>
+    <li>speechtopic->[INITIATOR_possessive]缺点</li>
+    <li>speechtopic->[INITIATOR_possessive]缺点以及如何克服它们</li>
+    <li>speechtopic->[INITIATOR_possessive]服务于社区的志愿</li>
+    <li>speechtopic->[INITIATOR_possessive]献身于[INITIATOR_possessive]信仰的愿望</li>
+    <li>speechtopic->[INITIATOR_possessive]对未来的期望</li>
+    <li>speechtopic->[INITIATOR_possessive]远大抱负</li>
+    <li>speechtopic->[INITIATOR_possessive][PersonalCharacteristic]以及和职位的关系</li>
+    <li>speechtopic->[INITIATOR_possessive][PersonalCharacteristic]如何使[INITIATOR_objective]适合这个职位</li>
+    <li>speechtopic->[INITIATOR_pronoun]如何运用[INITIATOR_possessive][PersonalCharacteristic]克服阻碍</li>
+    <li>speechtopic->感激</li>
+    <li>speechtopic->表示感谢</li>
+    <li>speechtopic->生命的意义</li>
+    <li>speechtopic->殖民地的未来</li>
+    <li>speechtopic->发展殖民地</li>
+    <li>speechtopic->临危受命的决策</li>
+    <li>speechtopic->社区的社会结构</li>
+    <li>speechtopic->承担责任</li>
+    <li>speechtopic->将职位责任放在[INITIATOR_possessive]个人愿望之上</li>
+  </Speech_AcceptRole.logRulesInitiator.rulesStrings>
+  
   <!-- EN: blinding speech -->
   <Speech_Blinding.label>盲视演讲</Speech_Blinding.label>
   <!-- EN:
@@ -273,6 +328,51 @@
     <li>speechtopic(p=0.25)->坚强的心灵和顽强的双手</li>
     <li>speechtopic(p=0.25)->生存权力</li>
   </Speech_Leader.logRulesInitiator.rulesStrings>
+  
+  <!-- EN: role removal speech -->
+  <Speech_RemoveRole.label>离职演讲</Speech_RemoveRole.label>
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_nameDef] [spokeof] [speechtopic].</li>
+    <li>speechtopic->[INITIATOR_possessive] past role in the community</li>
+    <li>speechtopic->the responsibility of [INITIATOR_possessive] old role</li>
+    <li>speechtopic->the difficulty of [INITIATOR_possessive] old role</li>
+    <li>speechtopic->[INITIATOR_possessive] shortcomings</li>
+    <li>speechtopic->[INITIATOR_possessive] weaknesses and how to overcome them</li>
+    <li>speechtopic->[INITIATOR_possessive] frustration with the community</li>
+    <li>speechtopic->[INITIATOR_possessive] dedication to [INITIATOR_possessive] beliefs</li>
+    <li>speechtopic->[INITIATOR_possessive] beliefs about the future</li>
+    <li>speechtopic->[INITIATOR_possessive] wish to pursue [INITIATOR_possessive] own goals</li>
+    <li>speechtopic->[INITIATOR_possessive] lack of [PersonalCharacteristic]</li>
+    <li>speechtopic->[INITIATOR_possessive] past</li>
+    <li>speechtopic->showing humbleness</li>
+    <li>speechtopic->life's purpose</li>
+    <li>speechtopic->the future of the colony</li>
+    <li>speechtopic->improving the colony</li>
+    <li>speechtopic->the social structure of the community</li>
+    <li>speechtopic->better candidates</li>
+    <li>speechtopic->putting community goals above [INITIATOR_possessive] personal ambitions</li>
+  -->
+  <Speech_RemoveRole.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef][spokeof][speechtopic]。</li>
+    <li>speechtopic->[INITIATOR_possessive]曾经在社区的职位</li>
+    <li>speechtopic->[INITIATOR_possessive]职位曾经的责任</li>
+    <li>speechtopic->[INITIATOR_possessive]旧职位的困难性</li>
+    <li>speechtopic->[INITIATOR_possessive]缺点</li>
+    <li>speechtopic->[INITIATOR_possessive]缺点以及如何克服它们</li>
+    <li>speechtopic->[INITIATOR_possessive]在社区的挫败感</li>
+    <li>speechtopic->[INITIATOR_possessive]对[INITIATOR_possessive]理想的献身</li>
+    <li>speechtopic->[INITIATOR_possessive]对未来的信念</li>
+    <li>speechtopic->[INITIATOR_possessive]想要追求[INITIATOR_possessive]自己的目标</li>
+    <li>speechtopic->[INITIATOR_possessive]缺乏[PersonalCharacteristic]</li>
+    <li>speechtopic->[INITIATOR_possessive]过去</li>
+    <li>speechtopic->谦逊的态度</li>
+    <li>speechtopic->生命的意义</li>
+    <li>speechtopic->殖民地的未来</li>
+    <li>speechtopic->发展殖民地</li>
+    <li>speechtopic->社区的社会结构</li>
+    <li>speechtopic->更优秀的候选人</li>
+    <li>speechtopic->将社区目标放在[INITIATOR_possessive]个人抱负之上</li>
+  </Speech_RemoveRole.logRulesInitiator.rulesStrings>
   
   <!-- EN: sacrifice speech -->
   <Speech_Sacrifice.label>献祭演讲</Speech_Sacrifice.label>

@@ -25,12 +25,18 @@
   <ChooseYourIdeoligionDesc>你的开局殖民者文化是什么样的？这些文化会影响游戏性和视觉效果，你能够招募其他人加入你的文化，或者接受他们的文化。</ChooseYourIdeoligionDesc>
   <!-- EN: Create custom -->
   <CreateCustom>创建自定义</CreateCustom>
+  <!-- EN: Delete custom -->
+  <DeleteCustom>删除自定义</DeleteCustom>
   <!-- EN: Create new -->
   <CreateNew>创建新的</CreateNew>
   <!-- EN: Load existing -->
   <LoadExisting>载入预设</LoadExisting>
   <!-- EN: Create custom ideoligion -->
   <CreateCustomIdeoligion>创建自定义文化形态</CreateCustomIdeoligion>
+  <!-- EN: Custom ideoligion -->
+  <CustomIdeoligionSectionHeader>自定义文化</CustomIdeoligionSectionHeader>
+  <!-- EN: Faction ideoligions -->
+  <FactionIdeoligionSectionHeader>派系文化</FactionIdeoligionSectionHeader>
   <!-- EN: Load saved ideoligion -->
   <LoadExistingIdeoligion>载入已保存的文化形态</LoadExistingIdeoligion>
   <!-- EN: Select an ideoligion for your faction on the left, or -->
@@ -142,6 +148,17 @@
   <!-- EN: quest -->
   <QuestLower>任务</QuestLower>
 
+  <!-- EN: Could not load ideoligion -->
+  <UnableToLoadIdeoTitle>无法载入文化</UnableToLoadIdeoTitle>
+  <!-- EN: Could not load the selected ideoligion due to the requirements of the factions that will be following this ideoligion. The violated requirements are: -->
+  <UnableToLoadIdeoDescription>由于派系对文化形态的要求，无法载入选择的文化形态。违背的要求如下：</UnableToLoadIdeoDescription>
+  <!-- EN: Meme {MEME} is not allowed for {FACTIONTYPE} factions -->
+  <UnableToLoadIdeoMemeNotAllowed>模因{MEME}不可用于{FACTIONTYPE}派系</UnableToLoadIdeoMemeNotAllowed>
+  <!-- EN: Meme {MEME} is required for {FACTIONTYPE} factions -->
+  <UnableToLoadIdeoMemeRequired>模因{MEME}对于{FACTIONTYPE}派系是必须的</UnableToLoadIdeoMemeRequired>
+  <!-- EN: Precept {PRECEPT} is not allowed for non-player factions -->
+  <UnableToLoadIdeoPreceptNotAllowed>戒律{PRECEPT}不可用于非玩家派系</UnableToLoadIdeoPreceptNotAllowed>
+
   <!-- EN: A grave containing {PAWN_labelShort}'s corpse. -->
   <RitualTargetGraveInfo>装有{PAWN_labelShort}的坟墓</RitualTargetGraveInfo>
   <!-- EN: An empty grave to mourn {PAWN_labelShort}'s passing. -->
@@ -156,6 +173,8 @@
   <RitualTargetGatherSpotInfo>任意集合点，比如桌子</RitualTargetGatherSpotInfo>
   <!-- EN: Altar or any ritual spot. -->
   <RitualTargetGatherAltarOrRitualSpotInfo>祭坛或任意仪式点</RitualTargetGatherAltarOrRitualSpotInfo>
+  <!-- EN: Altar, ideogram or any ritual spot. -->
+  <RitualTargetGatherAltarIdeogramOrRitualSpotInfo>祭坛、符号图像或者任意仪式点。</RitualTargetGatherAltarIdeogramOrRitualSpotInfo>
   <!-- EN: A lightball or ritual spot. Lightball and loudspeakers must be powered. -->
   <RitualTargetLightBallInfo>一个灯球或仪式点，灯球和喇叭必须通电。</RitualTargetLightBallInfo>
   <!-- EN: Lightball is not powered. -->
@@ -326,7 +345,9 @@
   <!-- EN: {PAWN_nameDef} will not do {1} work. -->
   <AbilityDisabled_IncapableOfWorkTag>{PAWN_nameDef}将不会去做{1}工作</AbilityDisabled_IncapableOfWorkTag>
   <!-- EN: No reachable altar or ritual spot. -->
-  <AbilityDisabledNoAltarOrRitualsSpot>没有可用的祭坛或仪式点</AbilityDisabledNoAltarOrRitualsSpot>
+  <AbilityDisabledNoAltarOrRitualsSpot>没有可达的祭坛或仪式点</AbilityDisabledNoAltarOrRitualsSpot>
+  <!-- EN: No reachable altar, ideogram or ritual spot. -->
+  <AbilityDisabledNoAltarIdeogramOrRitualsSpot>没有可达的祭坛、符号图像或仪式点</AbilityDisabledNoAltarIdeogramOrRitualsSpot>
 
   <!-- EN: Will\n{0} to {1} -->
   <TextMote_WillReduced>期望降低：{0}到{1}</TextMote_WillReduced>
@@ -570,8 +591,8 @@
   <!-- Bioscuplter pod -->
   <!-- EN: Cycle -->
   <BiosculpterPodCycleLabel>周期</BiosculpterPodCycleLabel>
-  <!-- EN: loading nutrition -->
-  <BiosculpterPodCycleLabelLoading>正在加载营养物质</BiosculpterPodCycleLabelLoading>
+  <!-- EN: loading ingredients -->
+  <BiosculpterPodCycleLabelLoading>正在加载</BiosculpterPodCycleLabelLoading>
   <!-- EN: ready -->
   <BiosculpterPodCycleLabelReady>就绪</BiosculpterPodCycleLabelReady>
   <!-- EN: Prepare {0} cycle -->
@@ -586,8 +607,10 @@
   <BiosculpterInteruptCycleDesc>中断当前周期，使用者将被弹出，不受任何周期效应影响的同时遭受短期的脱离塑形舱虚弱。</BiosculpterInteruptCycleDesc>
   <!-- EN: Warning: Age reversal cycle cannot be run while biosculpter is tuned to {PAWN_labelShort} because {PAWN_labelShort} is under {ADULTAGE} years old. -->
   <BiosculpterUnderageAgeReversalMessage>警告：年龄逆转周期无法运行，已调谐的{PAWN_labelShort}年龄不足{ADULTAGE}岁。</BiosculpterUnderageAgeReversalMessage>
-  <!-- EN: Once the biosculpter pod is filled with {NUTRITION} nutrition, select a colonist and right-click on the biosculpter pod or a downed person to start the cycle. -->
-  <BiosculpterLoadingStartedMessage>当塑形舱已被填充{NUTRITION}营养值时，选择一名殖民者并右击塑形舱或将一名倒地者搬入以开始周期。</BiosculpterLoadingStartedMessage>
+  <!-- EN: Once the biosculpter pod is filled with {INGREDIENTS}, select a colonist and right-click on the biosculpter pod or a downed person to start the cycle. -->
+  <BiosculpterLoadingStartedMessage>当塑形舱已被填充{INGREDIENTS}时，选择一名殖民者并右击塑形舱或将一名倒地者搬入以开始周期。</BiosculpterLoadingStartedMessage>
+  <!-- EN: {0} nutrition -->
+  <NumNutrition>{0}营养值</NumNutrition>
   <!-- EN: {PAWN_labelShort} was ejected from a biosculpter pod due to lack of power. -->
   <BiosculpterNoPowerEjectedMessage>{PAWN_labelShort}因电力不足而从塑形舱中被弹出。</BiosculpterNoPowerEjectedMessage>
   <!-- EN: {PAWN_labelShort} completed healing cycle. -->
@@ -606,5 +629,7 @@
   <HealingCycleOneWillHeal>治愈其一</HealingCycleOneWillHeal>
   <!-- EN: Missing required research -->
   <MissingRequiredResearch>缺少必要的科技</MissingRequiredResearch>
+  <!-- EN: Requires -->
+  <BiosculpterRequiresIngredients>需要</BiosculpterRequiresIngredients>
 
 </LanguageData>
