@@ -235,7 +235,9 @@
   <!-- EN: How close this creature is to adulthood.\n\nGrowth requires nourishment. A hungry animal will grow at a slower rate compared to a well-fed one. -->
   <Stat_Race_Growth_Desc>这个生物有多接近成年。\n\n成长需要足够的营养。一个饥饿的动物与一个吃饱的动物相比，生长速度会比较慢。</Stat_Race_Growth_Desc>
   <!-- EN: How much time passes between when a melee attack with this weapon begins and when it hits. -->
-  <Stat_Thing_Weapon_MeleeWarmupTime_Desc>使用该武器的近战攻击开始到击中目标之间的时间间隔。</Stat_Thing_Weapon_MeleeWarmupTime_Desc>
+  <Stat_Thing_Weapon_MeleeWarmupTime_Desc>使用该武器进行近战攻击从发起攻击到击中目标之间的时间间隔。</Stat_Thing_Weapon_MeleeWarmupTime_Desc>
+  <!-- EN: How much time passes between when a ranged attack begins aiming and when it fires. -->
+  <Stat_Thing_Weapon_RangedWarmupTime_Desc>使用该武器进行远程攻击时从瞄准到开火之间的间隔。</Stat_Thing_Weapon_RangedWarmupTime_Desc> <!-- text_todo -->
   <!-- EN: The amount of shots this weapon fires in each burst. -->
   <Stat_Thing_Weapon_BurstShotCount_Desc>该武器在每次攻击中发射的子弹数量。</Stat_Thing_Weapon_BurstShotCount_Desc>
   <!-- EN: The fire rate of this weapon during each burst. -->
