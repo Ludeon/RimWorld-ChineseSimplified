@@ -5,7 +5,7 @@
     <li>questDescription->[decreeIntro]\n\nYou must build a monument. It is [monumentSize] in size and will require these resources (total value [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\n[decreeThreatInfo]\n\nYou must keep the monument safe for [keepMonumentTicks_duration] after completion, otherwise [asker_nameDef] will be unhappy.</li>
   -->
   <Decree_BuildMonument.questDescriptionRules.rulesStrings>
-    <li>questDescription->[decreeIntro]\n\n你必须建造一个纪念碑。建造这个[monumentSize]的纪念碑需要以下资源（总价值：[monumentRequiredResourcesMarketValue_money]）：\n\n[monumentRequiredResources]\n\n[decreeThreatInfo]\n\n你在建造完成后 [keepMonumentTicks_duration] 内保护这个纪念碑， 否则 [asker_nameDef] 会不开心。</li>
+    <li>questDescription->[decreeIntro]\n\n你必须建造一个纪念碑。建造这个[monumentSize]的纪念碑需要以下资源（总价值：[monumentRequiredResourcesMarketValue_money]）：\n\n[monumentRequiredResources]\n\n[decreeThreatInfo]\n\n你在建造完成后 [keepMonumentTicks_duration] 内保护这个纪念碑， 否则 [asker_nameDef] 会不满。</li>
   </Decree_BuildMonument.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->monument decree</li>
@@ -20,11 +20,11 @@
   <!-- EN: Monument completed -->
   <Decree_BuildMonument.LetterLabelMonumentCompleted.slateRef>纪念碑完工</Decree_BuildMonument.LetterLabelMonumentCompleted.slateRef>
   <!-- EN: You have completed construction of the monument.\n\nYou must keep it safe for [keepMonumentTicks_duration], otherwise [asker_nameDef] will be displeased. -->
-  <Decree_BuildMonument.LetterTextMonumentCompleted.slateRef>你完成了这个纪念碑结构。\n\n在接下来的 [keepMonumentTicks_duration] 内保护纪念碑， 否则 [asker_nameDef] 会不开心。</Decree_BuildMonument.LetterTextMonumentCompleted.slateRef>
+  <Decree_BuildMonument.LetterTextMonumentCompleted.slateRef>你完成了这个纪念碑结构。\n\n在接下来的 [keepMonumentTicks_duration] 内保护纪念碑， 否则 [asker_nameDef] 会不满。</Decree_BuildMonument.LetterTextMonumentCompleted.slateRef>
   <!-- EN: Monument destroyed -->
   <Decree_BuildMonument.LetterLabelMonumentDestroyed.slateRef>纪念碑被破坏</Decree_BuildMonument.LetterLabelMonumentDestroyed.slateRef>
   <!-- EN: [asker_nameDef] is offended that you allowed the monument to be ruined so soon after completion.\n\n[asker_pronoun] will be unhappy about this. -->
-  <Decree_BuildMonument.LetterTextMonumentDestroyed.slateRef>你在建造完纪念碑后太快让它被破坏的举动惹恼了 [asker_nameDef]。\n\n[asker_pronoun] 对此感到非常不开心。</Decree_BuildMonument.LetterTextMonumentDestroyed.slateRef>
+  <Decree_BuildMonument.LetterTextMonumentDestroyed.slateRef>你在建造完纪念碑后太快让它被破坏的举动惹恼了 [asker_nameDef]。\n\n[asker_pronoun] 对此感到非常不满。</Decree_BuildMonument.LetterTextMonumentDestroyed.slateRef>
   <!-- EN: Do not destroy the monument for {0} -->
   <Decree_BuildMonument.DontDestroyMonumentForDays.slateRef>不要破坏纪念碑 {0}</Decree_BuildMonument.DontDestroyMonumentForDays.slateRef>
   <!-- EN: Do not destroy the monument for {0} -->
