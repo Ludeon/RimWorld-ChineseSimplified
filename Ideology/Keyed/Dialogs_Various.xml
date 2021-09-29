@@ -292,10 +292,14 @@
   <ConfirmDecisionsTitle>确定决策</ConfirmDecisionsTitle>
   <!-- EN: The hibernating starship reported by the AI (*Name)Charlon Whitestone(/Name) will fly away by the time the new colony is established. It will no longer be possible to escape the planet by traveling to this ship. -->
   <ShipEscapeWillEndDescription>人工智能(*Name)沙隆·白石(/Name)报告的飞船将会在新殖民地建立时飞走，这意味着将不再可能通过这艘飞船来逃离星球。</ShipEscapeWillEndDescription>
-  <!-- EN: The colony's purchasers will only allow you to take one relic. Any relic not selected will be left behind, including: -->
-  <RemoveEquippedRelicsDescription>殖民地购买者只允许你带走一个圣物。任何没有被选择的圣物都会被留下来，包括：</RemoveEquippedRelicsDescription>
-  <!-- EN: Would you like to proceed? -->
-  <WantToProceed>你想继续吗？</WantToProceed>
+  <!-- EN: No relic was chosen to be brought to the new colony. -->
+  <ArchonexusRelicNotChosen>没有选择任何带去新殖民地的圣物。</ArchonexusRelicNotChosen><!--text_todo-->
+  <!-- EN: {0} out of a possible {1} items were selected to be brought to the new colony. -->
+  <ArchonexusItemsNotChosen>已选的物品超过了可选范围（已选{0}，可选{1}）。</ArchonexusItemsNotChosen><!--text_todo-->
+  <!-- EN: The colony's purchasers will only allow you to take one relic. Any relic not selected, even if equipped by a colonist, will be left behind, including: -->
+  <RemoveEquippedRelicsDescription>殖民地购买者只允许你带走一个圣物。任何没有被选择的圣物（包括已经被殖民者装备的圣物）都会被留下来，包括：</RemoveEquippedRelicsDescription><!--text_todo-->
+  <!-- EN: Would you like to proceed? There's no going back from here. -->
+  <WantToProceed>你想继续吗？自此之后无退路。</WantToProceed><!--text_todo-->
   <!-- EN: Convert -->
   <ConvertToPlayerIdeoligion>转化</ConvertToPlayerIdeoligion>
   <!-- EN: Revert -->
