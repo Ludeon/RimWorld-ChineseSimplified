@@ -211,10 +211,10 @@
   <RitualBlindingWarnNonBlindingIdeo>{PAWN_labelShort}不认同此文化的致盲行为，因此不愿被致盲。</RitualBlindingWarnNonBlindingIdeo>
   <!-- EN: {PAWN_labelShort} is a wimp and will not like being blinded. -->
   <RitualBlindingWarnWimp>{PAWN_labelShort}因其懦弱特质而拒绝被致盲</RitualBlindingWarnWimp>
-  <!-- EN: Scarification is expected for {IDEOMEMBER} colonists as long as number of scarified {IDEOMEMBERPLURAL} is below {0}. -->
-  <RitualScarificationTriggerExtraDesc>{IDEOMEMBER}殖民者会在疤痕化的{IDEOMEMBERPLURAL}人数低于{0}时渴望刻印仪式。</RitualScarificationTriggerExtraDesc> <!-- text_todo -->
+  <!-- EN: Scarification is expected for {IDEOMEMBERPLURAL} as long as there are fewer than {0} scarified {IDEOMEMBERPLURAL}. -->
+  <RitualScarificationTriggerExtraDesc>{IDEOMEMBERPLURAL}殖民者会在疤痕化的{IDEOMEMBERPLURAL}人数低于{0}时渴望刻印仪式。</RitualScarificationTriggerExtraDesc>
   <!-- EN: Blinding is expected for each current and joining {IDEOMEMBER} colonist. -->
-  <RitualBlindingTriggerExtraDesc>每个加入了{IDEOMEMBER}的殖民者都会渴望致盲。</RitualBlindingTriggerExtraDesc> <!-- text_todo -->
+  <RitualBlindingTriggerExtraDesc>每个加入了{IDEOMEMBER}的殖民者都会渴望致盲。</RitualBlindingTriggerExtraDesc>
   
   <!-- EN: Everyone participating in the ritual gained a one-day work focus buff ({PERCENTAGE} global work speed)! -->
   <RitualOutcomeExtraDesc_DancePartyWorkFocus>每个参与此仪式的人均获得了时长一天的工作狂热（增加了{PERCENTAGE}的全局工作速度！）</RitualOutcomeExtraDesc_DancePartyWorkFocus>
@@ -598,17 +598,17 @@
   <!-- EN: loading ingredients -->
   <BiosculpterPodCycleLabelLoading>正在加载</BiosculpterPodCycleLabelLoading>
   <!-- EN: (and biotuning) -->
-  <BiosculpterPodCycleWillBiotune>（并调谐）</BiosculpterPodCycleWillBiotune><!--text_todo-->
+  <BiosculpterPodCycleWillBiotune>（并调谐）</BiosculpterPodCycleWillBiotune>
   <!-- EN: Begin {0} cycle -->
   <BiosculpterPodCycleCommand>开始{0}周期</BiosculpterPodCycleCommand>
   <!-- EN: Ready for cycle selection -->
-  <BiosculpterPodCycleSelection>准备进行选择</BiosculpterPodCycleSelection><!--text_todo-->
+  <BiosculpterPodCycleSelection>准备进行选择</BiosculpterPodCycleSelection>
   <!-- EN: Nutrition loaded, no power -->
-  <BiosculpterPodCycleSelectionNoPower>已装载营养，未通电</BiosculpterPodCycleSelectionNoPower><!--text_todo-->
+  <BiosculpterPodCycleSelectionNoPower>已装载营养，未通电</BiosculpterPodCycleSelectionNoPower>
   <!-- EN: Ends in -->
   <BiosculpterCycleTimeRemaining>结束</BiosculpterCycleTimeRemaining>
   <!-- EN: Paused: No power (interrupt in {TIME}) -->
-  <BiosculpterCycleNoPowerInterrupt>暂停：未通电（限期{TIME}）</BiosculpterCycleNoPowerInterrupt><!--text_todo-->
+  <BiosculpterCycleNoPowerInterrupt>暂停：未通电（限期{TIME}）</BiosculpterCycleNoPowerInterrupt>
   <!-- EN: Biotuned to -->
   <BiosculpterBiotunedTo>调谐</BiosculpterBiotunedTo>
   <!-- EN: Interrupt cycle -->
@@ -616,11 +616,11 @@
   <!-- EN: Interrupt the current cycle. The occupant will be ejected without benefiting from the effects of the cycle, and will suffer from short-term biosculpter sickness. -->
   <BiosculpterInteruptCycleDesc>中断当前周期，使用者将被弹出，不受任何周期效应影响的同时遭受短期的脱离塑形舱虚弱。</BiosculpterInteruptCycleDesc>
   <!-- EN: {PAWN_labelShort} will enter biosculpter and begin a {CYCLE} cycle. -->
-  <BiosculpterEnteringMessage>{PAWN_labelShort}将会进入塑形舱并开始{CYCLE}周期。</BiosculpterEnteringMessage><!--text_todo-->
+  <BiosculpterEnteringMessage>{PAWN_labelShort}将会进入塑形舱并开始{CYCLE}周期。</BiosculpterEnteringMessage>
   <!-- EN: {PAWN_labelShort} will collect {INGREDIENTS}, and begin a {CYCLE} cycle. -->
-  <BiosculpterLoadingStartedMessage>{PAWN_labelShort}将会收集{INGREDIENTS}并且开始一个{CYCLE}周期。</BiosculpterLoadingStartedMessage><!--text_todo-->
+  <BiosculpterLoadingStartedMessage>{PAWN_labelShort}将会收集{INGREDIENTS}并且开始一个{CYCLE}周期。</BiosculpterLoadingStartedMessage>
   <!-- EN: {PAWN_labelShort} will collect {INGREDIENTS}, place {DOWNED_labelShort} inside the biosculpter, and begin a {CYCLE} cycle. -->
-  <BiosculpterCarryStartedMessage>{PAWN_labelShort}将会收集{INGREDIENTS}，将{DOWNED_labelShort}放入塑形舱，并且开始一个{CYCLE}周期。</BiosculpterCarryStartedMessage><!--text_todo-->
+  <BiosculpterCarryStartedMessage>{PAWN_labelShort}将会收集{INGREDIENTS}，将{DOWNED_labelShort}放入塑形舱，并且开始一个{CYCLE}周期。</BiosculpterCarryStartedMessage>
   <!-- EN: {0} nutrition -->
   <NumNutrition>{0}营养值</NumNutrition>
   <!-- EN: {PAWN_labelShort} was ejected from a biosculpter pod due to lack of power. -->
@@ -636,7 +636,7 @@
   <!-- EN: Cleanliness speed factor -->
   <BiosculpterCleanlinessSpeedFactor>清洁速度因数</BiosculpterCleanlinessSpeedFactor>
   <!-- EN: Biotuned speed factor -->
-  <BiosculpterBiotunedSpeedFactor>调谐速度因数</BiosculpterBiotunedSpeedFactor><!--text_todo-->
+  <BiosculpterBiotunedSpeedFactor>调谐速度因数</BiosculpterBiotunedSpeedFactor>
   <!-- EN: These conditions will be healed -->
   <HealingCycleWillHeal>治愈</HealingCycleWillHeal>
   <!-- EN: One of these conditions will be healed -->

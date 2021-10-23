@@ -129,43 +129,43 @@
   <RemoveCurrentRole>移除当前职位</RemoveCurrentRole>
 
   <!-- EN: Enter biosculpter pod for {0} cycle -->
-  <EnterBiosculpterPod>进入塑形舱（{0}）</EnterBiosculpterPod><!--text_todo-->
+  <EnterBiosculpterPod>进入塑形舱（{0}）</EnterBiosculpterPod>
   <!-- EN: Biotuned to someone else. -->
   <BiosculpterBiotunedToAnother>进行生体塑形</BiosculpterBiotunedToAnother>
   <!-- EN: Must be {0} years old for age reversal. -->
   <UnderMinBiosculpterAgeReversalAge>进行年龄逆转必须已满{0}岁。</UnderMinBiosculpterAgeReversalAge>
   <!-- EN: Carry {PAWN_labelShort} to biosculpter ({CYCLE} cycle) -->
-  <CarryToBiosculpterPod>携带{PAWN_labelShort}放进塑形舱（{CYCLE}）</CarryToBiosculpterPod><!--text_todo-->
+  <CarryToBiosculpterPod>携带{PAWN_labelShort}放进塑形舱（{CYCLE}）</CarryToBiosculpterPod>
   <!-- EN: Cannot carry to biosculpter pod -->
   <CannotCarryToBiosculpterPod>无法携带进塑形舱</CannotCarryToBiosculpterPod>
   <!-- EN: No available biosculpter pod. -->
   <NoBiosculpterPod>没有可用的塑形舱。</NoBiosculpterPod>
   <!-- EN: Nutrition not loaded -->
-  <BiosculpterNutritionNotLoaded>未装填营养</BiosculpterNutritionNotLoaded><!--text_todo-->
+  <BiosculpterNutritionNotLoaded>未装填营养</BiosculpterNutritionNotLoaded>
   <!-- EN: Occupied -->
   <BiosculpterOccupied>被占用</BiosculpterOccupied>
   <!-- EN: Cannot enter -->
   <CannotEnter>无法进入</CannotEnter>
   <!-- EN: Cannot start {0} cycle -->
-  <BiosculpterCannotStartCycle>无法启动{0}</BiosculpterCannotStartCycle><!--text_todo-->
+  <BiosculpterCannotStartCycle>无法启动{0}</BiosculpterCannotStartCycle>
   <!-- EN: Cannot find cycle ingredients ({INGREDIENTS}) -->
-  <BiosculpterMissingIngredients>找不到周期（{INGREDIENTS}）</BiosculpterMissingIngredients><!--text_todo-->
+  <BiosculpterMissingIngredients>找不到周期（{INGREDIENTS}）</BiosculpterMissingIngredients>
   <!-- EN: Nobody around can use this -->
-  <BiosculpterNoEligiblePawns>周围没有可用对象</BiosculpterNoEligiblePawns><!--text_todo-->
-  <!-- EN: Biotuned to {PAWN_labelShort} and they're not around -->
-  <BiosculpterNoEligiblePawnsBiotuned>调谐至{PAWN_labelShort}但不在附近</BiosculpterNoEligiblePawnsBiotuned><!--text_todo-->
+  <BiosculpterNoEligiblePawns>周围没有可用对象</BiosculpterNoEligiblePawns>
+  <!-- EN: Biotuned to {PAWN_labelShort} and {PAWN_pronoun} isn't around -->
+  <BiosculpterNoEligiblePawnsBiotuned>调谐至{PAWN_labelShort}但{PAWN_pronoun}不在附近</BiosculpterNoEligiblePawnsBiotuned>
   <!-- EN: Auto load nutrition -->
-  <BiosculpterAutoLoadNutritionLabel>自动装填</BiosculpterAutoLoadNutritionLabel><!--text_todo-->
-  <!-- EN: Automatically load the nutrtion required to run a cycle -->
-  <BiosculpterAutoLoadNutritionDescription>当需要启动周期时自动装载营养</BiosculpterAutoLoadNutritionDescription><!--text_todo-->
+  <BiosculpterAutoLoadNutritionLabel>自动装填</BiosculpterAutoLoadNutritionLabel>
+  <!-- EN: Automatically load the nutrition required to run a cycle -->
+  <BiosculpterAutoLoadNutritionDescription>当需要启动周期时自动装载营养</BiosculpterAutoLoadNutritionDescription>
   <!-- EN: Auto age reversal for {PAWN_labelShort} -->
-  <BiosculpterAutoAgeReversalLabel>自动年龄逆转（{PAWN_labelShort}）</BiosculpterAutoAgeReversalLabel><!--text_todo-->
-  <!-- EN: Automatically satisfy the yearly transhumanist need of {PAWN_labelShort} to run an age reversal treatment in this pod. {NEXTTREATMENT} -->
-  <BiosculpterAutoAgeReversalDescription>自动满足{PAWN_labelShort}每年的技术融合需求，并且在此塑形舱中进行年龄逆转。{NEXTTREATMENT}</BiosculpterAutoAgeReversalDescription><!--text_todo-->
-  <!-- EN: If enabled, {PAWN_labelShort} will automatically take their next treament in {TIME} if the pod is ready. -->
-  <BiosculpterAutoAgeReversalDescriptionFuture>如果启用并且塑形舱就绪，{PAWN_labelShort}将会自动于{TIME}进行下一次治疗。</BiosculpterAutoAgeReversalDescriptionFuture><!--text_todo-->
-  <!-- EN: {PAWN_labelShort} already wants their next treatment and will automatically begin one if this is enabled. -->
-  <BiosculpterAutoAgeReversalDescriptionNow>如果此选项启用，{PAWN_labelShort}将会在想要进行下一次治疗时自动开始一个周期。</BiosculpterAutoAgeReversalDescriptionNow><!--text_todo-->
+  <BiosculpterAutoAgeReversalLabel>自动年龄逆转（{PAWN_labelShort}）</BiosculpterAutoAgeReversalLabel>
+  <!-- EN: Automatically satisfy {PAWN_labelShort}'s desire to run a yearly age reversal treatment in this pod, in accordance with {PAWN_possessive} beliefs. {NEXTTREATMENT} -->
+  <BiosculpterAutoAgeReversalDescription>按照{PAWN_labelShort}的戒律，每年自动在此塑形舱进行年龄逆转以满足{PAWN_possessive}需求。{NEXTTREATMENT}</BiosculpterAutoAgeReversalDescription>
+  <!-- EN: If enabled, {PAWN_labelShort} will automatically take {PAWN_possessive} next treament in {TIME} if the pod is ready. -->
+  <BiosculpterAutoAgeReversalDescriptionFuture>如果启用并且塑形舱就绪，{PAWN_labelShort}将会自动于{TIME}进行下一次治疗。</BiosculpterAutoAgeReversalDescriptionFuture>
+  <!-- EN: {PAWN_labelShort} already wants {PAWN_possessive} next treatment and will automatically begin one if this is enabled. -->
+  <BiosculpterAutoAgeReversalDescriptionNow>如果此选项启用，{PAWN_labelShort}将会在想要进行下一次治疗时自动开始一个周期。</BiosculpterAutoAgeReversalDescriptionNow>
   <!-- EN: Collecting ingredients for biosculpter cycle -->
-  <BiosculpterJobReportCollectIngredients>为塑形周期收集物资</BiosculpterJobReportCollectIngredients><!--text_todo-->
+  <BiosculpterJobReportCollectIngredients>为塑形周期收集物资</BiosculpterJobReportCollectIngredients>
 </LanguageData>
