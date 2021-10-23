@@ -293,13 +293,13 @@
   <!-- EN: The hibernating starship reported by the AI (*Name)Charlon Whitestone(/Name) will fly away by the time the new colony is established. It will no longer be possible to escape the planet by traveling to this ship. -->
   <ShipEscapeWillEndDescription>人工智能(*Name)沙隆·白石(/Name)报告的飞船将会在新殖民地建立时飞走，这意味着将不再可能通过这艘飞船来逃离星球。</ShipEscapeWillEndDescription>
   <!-- EN: No relic was chosen to be brought to the new colony. -->
-  <ArchonexusRelicNotChosen>没有选择任何带去新殖民地的圣物。</ArchonexusRelicNotChosen><!--text_todo-->
+  <ArchonexusRelicNotChosen>没有选择任何带去新殖民地的圣物。</ArchonexusRelicNotChosen>
   <!-- EN: {0} out of a possible {1} items were selected to be brought to the new colony. -->
-  <ArchonexusItemsNotChosen>已选的物品超过了可选范围（已选{0}，可选{1}）。</ArchonexusItemsNotChosen><!--text_todo-->
-  <!-- EN: The colony's purchasers will only allow you to take one relic. Any relic not selected, even if equipped by a colonist, will be left behind, including: -->
-  <RemoveEquippedRelicsDescription>殖民地购买者只允许你带走一个圣物。任何没有被选择的圣物（包括已经被殖民者装备的圣物）都会被留下来，包括：</RemoveEquippedRelicsDescription><!--text_todo-->
-  <!-- EN: Would you like to proceed? There's no going back from here. -->
-  <WantToProceed>你想继续吗？自此之后再无退路。</WantToProceed><!--text_todo-->
+  <ArchonexusItemsNotChosen>已选的物品超过了可选范围（已选{0}，可选{1}）。</ArchonexusItemsNotChosen>
+  <!-- EN: The colony's purchasers will only allow you to take one relic. Any other relics will be left behind (even if equipped by a colonist), including: -->
+  <RemoveEquippedRelicsDescription>殖民地购买者只允许你带走一个圣物。其它的圣物（包括已经被殖民者装备的圣物）会被留下来，包括：</RemoveEquippedRelicsDescription>
+  <!-- EN: Would you like to proceed? Past this point, there's no going back. -->
+  <WantToProceed>你想继续吗？自此之后再无退路。</WantToProceed>
   <!-- EN: Convert -->
   <ConvertToPlayerIdeoligion>转化</ConvertToPlayerIdeoligion>
   <!-- EN: Revert -->
@@ -311,7 +311,7 @@
   <!-- EN: {0} quantity that can be brought to the new colony.\n\nThe maximum allowed quantity is: {1} -->
   <ItemQuantityTooltip>允许被带入新殖民地的{0}数量。\n\n最大许可值为：{1}</ItemQuantityTooltip>
   <!-- EN: Your colony was sold. Its purchasers are ready for you to choose where to land next. -->
-  <SoldColonyDescription>你的殖民地已被售出，购买者已经做好让你选择下一个登陆点的准备了。</SoldColonyDescription><!--text_todo-->
+  <SoldColonyDescription>你的殖民地已被售出，购买者已经做好让你选择下一个登陆点的准备了。</SoldColonyDescription>
 
   <!-- EN: Hacking this {0} will alert enemies and cause them to attack. Do really want to hack {0}? -->
   <ConfirmHackEnenyTerminal>骇入这个 {0} 会激怒敌人并招致他们的报复。真的要破解 {0} 吗？</ConfirmHackEnenyTerminal>
