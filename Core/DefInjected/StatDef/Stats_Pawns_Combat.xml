@@ -31,11 +31,11 @@
   <!-- EN: Chance to hit a target in melee.\n\nThe target can still dodge even if we would've hit. -->
   <MeleeHitChance.description>在近身攻击中命中目标的基本几率。\n\n（即使击中，目标仍能闪避。）</MeleeHitChance.description>
   
-  <!-- EN: Mortar miss radius factor -->
+  <!-- EN: Mortar miss radius multiplier -->
   <MortarMissRadiusFactor.label>迫击炮偏移率</MortarMissRadiusFactor.label>
-  <!-- EN: A factor that affects the miss-radius of a mortar. A smaller factor means more accurate shots. Based on the shooters skill level and other health factors. -->
-  <MortarMissRadiusFactor.description>作用于迫击炮偏移半径的一个系数。更低的偏移率意味着更精确的射击，取决于射手的射击技能和其他健康系数。</MortarMissRadiusFactor.description>
-  <!-- EN: Mortar miss radius factor -->
+  <!-- EN: A multiplier on the miss radius of a mortar used by this person. Smaller numbers means more accurate mortar shells. -->
+  <MortarMissRadiusFactor.description>炮手作用于迫击炮偏移半径的一个系数。更低的偏移率意味着更精确的射击。</MortarMissRadiusFactor.description>
+  <!-- EN: Mortar miss radius multiplier -->
   <MortarMissRadiusFactor.labelForFullStatList>迫击炮偏移率</MortarMissRadiusFactor.labelForFullStatList>
   
   <!-- EN: trap spring chance -->
