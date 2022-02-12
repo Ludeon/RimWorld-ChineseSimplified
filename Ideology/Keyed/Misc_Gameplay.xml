@@ -11,12 +11,12 @@
   <RandomStructureTip>会为你的文化应用一个随机结构。</RandomStructureTip>
   <!-- EN: A random style will be used for your ideoligion. -->
   <RandomStyleTip>会为你的文化应用一个随机风格。</RandomStyleTip>
-  <!-- EN: Customize -->
-  <Customize>自定义</Customize>
-  <!-- EN: Play classic -->
-  <PlayClassic>经典模式</PlayClassic>
-  <!-- EN: Create fluid... -->
-  <CreateFluid>创建演进文化...</CreateFluid>
+  <!-- EN: Classic\nRimWorld -->
+  <PlayClassic>经典模式\n边缘世界</PlayClassic> <!-- text_todo -->
+  <!-- EN: Create custom\n(fluid) -->
+  <CreateCustomFluid>自定义\n演进模式</CreateCustomFluid> <!-- text_todo -->
+  <!-- EN: Create custom\n(fixed) -->
+  <CreateCustomFixed>自定义\n固定模式</CreateCustomFixed>  <!-- text_todo -->
   <!-- EN: Load saved -->
   <LoadSaved>载入预设</LoadSaved>
   <!-- EN: Structure -->
@@ -171,6 +171,8 @@
   <RitualTargetEmptyGraveInfo>一座空坟，用来缅怀{PAWN_labelShort}的逝世。</RitualTargetEmptyGraveInfo>
   <!-- EN: A grave containing {IDEO_memberNameIndef}'s corpse -->
   <RitualTargetGraveInfoAbstract>装有{IDEO_memberNameIndef}的坟墓</RitualTargetGraveInfoAbstract>
+  <!-- EN: A grave containing a corpse. -->
+  <RitualTargetGraveInfoAbstractNoIdeo>一个装有尸体的坟墓。</RitualTargetGraveInfoAbstractNoIdeo> <!-- text_todo -->
   <!-- EN: An empty grave to mourn {IDEO_memberNameIndef}'s passing. -->
   <RitualTargetEmptyGraveInfoAbstract>一座空坟，用来缅怀{IDEO_memberNameIndef}的逝世。</RitualTargetEmptyGraveInfoAbstract>
   <!-- EN: {PAWN_labelShort}'s body must be buried first -->
@@ -236,7 +238,7 @@
   <RitualOutcomeExtraDesc_Execution>所有参与此仪式的奴隶均被目睹死亡所震撼，它们的镇压值已补满。</RitualOutcomeExtraDesc_Execution>
   
   <!-- EN: Due to the quality of the ritual, your development points have increased by {2} (from {0} to {1}). -->
-  <RitualOutcomeExtraDesc_DevelopmentPointsAwarded>由于仪式的效果，你的发展点数增加{2}（在{0}至{1}之间）。</RitualOutcomeExtraDesc_DevelopmentPointsAwarded>
+  <RitualOutcomeExtraDesc_DevelopmentPointsAwarded>由于仪式的效果，你的发展点数增加{2}（{0} -> {1}）。</RitualOutcomeExtraDesc_DevelopmentPointsAwarded>
   <!-- EN: Due to the poor quality of the ritual, no development points were gained. -->
   <RitualOutcomeExtraDesc_NoDevelopmentPointsAwarded>由于仪式的效果，未获取发展点数。</RitualOutcomeExtraDesc_NoDevelopmentPointsAwarded>
 
