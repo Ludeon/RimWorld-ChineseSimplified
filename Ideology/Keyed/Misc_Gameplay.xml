@@ -11,12 +11,14 @@
   <RandomStructureTip>会为你的文化应用一个随机结构。</RandomStructureTip>
   <!-- EN: A random style will be used for your ideoligion. -->
   <RandomStyleTip>会为你的文化应用一个随机风格。</RandomStyleTip>
-  <!-- EN: Classic\nRimWorld -->
-  <PlayClassic>经典模式\n边缘世界</PlayClassic> <!-- text_todo -->
+  <!-- EN: Ideology system inactive -->
+  <PlayClassic>经典模式\n边缘世界</PlayClassic>
   <!-- EN: Create custom\n(fluid) -->
-  <CreateCustomFluid>自定义\n演进模式</CreateCustomFluid> <!-- text_todo -->
+  <CreateCustomFluid>自定义\n演进模式</CreateCustomFluid>
   <!-- EN: Create custom\n(fixed) -->
-  <CreateCustomFixed>自定义\n固定模式</CreateCustomFixed>  <!-- text_todo -->
+  <CreateCustomFixed>自定义\n固定模式</CreateCustomFixed>
+  <!-- EN: Custom ideoligions -->
+  <CustomIdeoligions>自定义文化</CustomIdeoligions>
   <!-- EN: Load saved -->
   <LoadSaved>载入预设</LoadSaved>
   <!-- EN: Structure -->
@@ -88,15 +90,13 @@
   <!-- EN: Disables -->
   <Disables>禁用</Disables>
   <!-- EN: Requires one of precepts -->
-  <RequiresOnePrecept>需要以下戒律之一</RequiresOnePrecept>
+  <RequiresOnePrecept>规定以下戒律之一</RequiresOnePrecept>
   <!-- EN: Required precepts -->
-  <RequiredPrecepts>需要戒律</RequiredPrecepts>
+  <RequiredPrecepts>规定戒律</RequiredPrecepts>
   <!-- EN: Required rituals -->
-  <RequiredRituals>需要仪式</RequiredRituals>
-  <!-- EN: Disables precepts -->
-  <DisablesPrecepts>禁用戒律</DisablesPrecepts>
-  <!-- EN: Disables {0} precepts. -->
-  <DisablesPreceptsCount>禁用了{0}戒律</DisablesPreceptsCount>
+  <RequiredRituals>规定仪式</RequiredRituals>
+  <!-- EN: Prevents precepts -->
+  <PreventsPrecepts>豁免戒律</PreventsPrecepts>
   <!-- EN: Styles -->
   <Styles>风格</Styles>
   <!-- EN: Chance to have precept -->
@@ -172,7 +172,7 @@
   <!-- EN: A grave containing {IDEO_memberNameIndef}'s corpse -->
   <RitualTargetGraveInfoAbstract>装有{IDEO_memberNameIndef}的坟墓</RitualTargetGraveInfoAbstract>
   <!-- EN: A grave containing a corpse. -->
-  <RitualTargetGraveInfoAbstractNoIdeo>一个装有尸体的坟墓。</RitualTargetGraveInfoAbstractNoIdeo> <!-- text_todo -->
+  <RitualTargetGraveInfoAbstractNoIdeo>一个装有尸体的坟墓。</RitualTargetGraveInfoAbstractNoIdeo>
   <!-- EN: An empty grave to mourn {IDEO_memberNameIndef}'s passing. -->
   <RitualTargetEmptyGraveInfoAbstract>一座空坟，用来缅怀{IDEO_memberNameIndef}的逝世。</RitualTargetEmptyGraveInfoAbstract>
   <!-- EN: {PAWN_labelShort}'s body must be buried first -->
