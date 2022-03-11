@@ -147,9 +147,13 @@
   
   <!-- EN: Here you are on the surface!\n\nNow try moving the camera around.\n\nUse the {Key:MapDolly_Up}-{Key:MapDolly_Left}-{Key:MapDolly_Down}-{Key:MapDolly_Right} keys, or click and drag with the middle mouse button.\n\nTry it now! -->
   <MapCameraDolly.text>激动人心的游戏就要开始了！\n\n你可以自由的调整镜头视角。\n\n通过{Key:MapDolly_Up}-{Key:MapDolly_Left}-{Key:MapDolly_Down}-{Key:MapDolly_Right} 或者鼠标在屏幕边缘移动即可移动当前视野！\n\n试试看吧！</MapCameraDolly.text>
+  <!-- EN: Here you are on the surface!\n\nNow try moving the camera around with the left joystick.\n\nTry it now! -->
+  <MapCameraDolly.textController>激动人心的游戏就要开始了！\n\n你可以通过左摇杆自由地调整镜头。\n\n试试看吧！</MapCameraDolly.textController>
   
   <!-- EN: Great!\n\nYou can also zoom in and out with the mouse wheel, or the {Key:MapZoom_In} and {Key:MapZoom_Out} keys.\n\nTry it now! -->
   <MapCameraZoom.text>赞！\n\n通过鼠标滚轮滚动或者使用{Key:MapZoom_In}与{Key:MapZoom_Out}按键来缩放视野！\n\n试试看吧！</MapCameraZoom.text>
+  <!-- EN: Great!\n\nYou can also zoom in and out with the bumpers.\n\nTry it now! -->
+  <MapCameraZoom.textController>赞！\n\n你也可以通过bumpers缩放镜头。\n\n试试看吧！</MapCameraZoom.textController>
   
   <!-- EN: Designate all this\nfor mining -->
   <MineSteel.onMapInstruction>把这些矿都开采出来</MineSteel.onMapInstruction>
@@ -170,6 +174,8 @@
   
   <!-- EN: You can pause time.\n\nThis means you never need to rush. You can always pause and take your time to issue orders.\n\nTry pausing with the {Key:TogglePause} key, or by using the time controls in the bottom right. -->
   <Pause.text>你可以暂停时间！\n\n点击{Key:TogglePause}来暂停/继续游戏。\n\n当你忙得不可开交时，按{Key:TogglePause}就对了！</Pause.text>
+  <!-- EN: You can pause time.\n\nThis means you never need to rush. You can always pause and take your time to issue orders.\n\nTry pausing with the Y button, or by using the time controls in the bottom right. -->
+  <Pause.textController>你可以暂停时间！\n\n这意味着你永远不需要赶时间。你可以随时暂停，慢慢地发布命令。\n\n试着用Y键暂停，或使用右下方的时间控制。</Pause.textController>
   
   <!-- EN: Please click the RANDOMIZE button to randomize the character. -->
   <RandomizeCharacter.rejectInputMessage>请先点击「随机」按钮以随机化角色</RandomizeCharacter.rejectInputMessage>
@@ -195,6 +201,8 @@
   
   <!-- EN: You can also speed up time.\n\nTry controlling time with the {Key:TimeSpeed_Normal}, {Key:TimeSpeed_Fast}, and {Key:TimeSpeed_Superfast} keys, or with the time controls in the bottom right. -->
   <TimeControls.text>你还可以加速时间流逝。\n\n尝试通过{Key:TimeSpeed_Normal}，{Key:TimeSpeed_Fast}，和{Key:TimeSpeed_Superfast}按键来控制时间，或是点击屏幕右下方的按钮。</TimeControls.text>
+  <!-- EN: You can also speed up time.\n\nTry controlling time with the back buttons, or with the time controls in the bottom right. -->
+  <TimeControls.textController>你还可以加速时间流逝。\n\n试着用后退按钮控制时间，或用右下方的时间控制。</TimeControls.textController>
   
   <!-- EN: Please un-draft your colonists. -->
   <UndraftAll.rejectInputMessage>请解散你的殖民者。</UndraftAll.rejectInputMessage>
