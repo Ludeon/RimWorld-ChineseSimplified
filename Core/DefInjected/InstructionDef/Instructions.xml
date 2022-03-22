@@ -24,6 +24,8 @@
   <BuildBeds.rejectInputMessage>请在房间里造木床。</BuildBeds.rejectInputMessage>
   <!-- EN: Your colonists will now build the room!\n\nNow they need somewhere to sleep. Place three BEDS inside the room.\n\nFind them in the FURNITURE category.\n\nYou can use the {Key:Designator_RotateLeft} and {Key:Designator_RotateRight} keys to rotate the building. -->
   <BuildBeds.text>你的殖民者们已经有房间了！\n\n他们需要休息，在房间里放三张床吧。\n\n你可以在「家具」菜单里找到床。\n\n你可以使用{Key:Designator_RotateLeft}和{Key:Designator_RotateRight}键来旋转建筑。</BuildBeds.text>
+  <!-- EN: Your colonists will now build the room!\n\nNow they need somewhere to sleep. Place three BEDS inside the room.\n\nFind them in the FURNITURE category.\n\nYou can rotate the building by pressing the rotate buttons on the left. -->
+  <BuildBeds.textController>你的殖民者们已经有房间了！\n\n他们需要休息，在房间里放三张床吧。\n\n你可以在「家具」菜单里找到床。\n\n你可以使用左侧的旋转键来旋转建筑。</BuildBeds.textController>
   
   <!-- EN: Build a fueled stove inside the room -->
   <BuildFueledStove.onMapInstruction>请在室内造炉灶</BuildFueledStove.onMapInstruction>
@@ -108,13 +110,17 @@
   
   <!-- EN: Right-click to get out of stockpile designating mode. -->
   <EndStockpileDesignating.text>点击右键退出规划模式。</EndStockpileDesignating.text>
+  <!-- EN: Press L2 to get out of stockpile designating mode. -->
+  <EndStockpileDesignating.textController>点击L2退出规划模式。</EndStockpileDesignating.textController>
   
   <!-- EN: Equip this -->
   <EquipWeapons.onMapInstruction>装备这个</EquipWeapons.onMapInstruction>
   <!-- EN: Please have your colonists equip weapons. -->
   <EquipWeapons.rejectInputMessage>请给殖民者装备武器</EquipWeapons.rejectInputMessage>
   <!-- EN: Have your colonists equip the starting weapons. To equip a weapon:\n\n1. Click a colonist to select them.\n2. Right-click the weapon you want to equip.\n3. Click 'equip weapon' on the context menu.\n\nDo this for each colonist. -->
-  <EquipWeapons.text>把你的殖民者武装起来吧。\n\n1. 选择一个殖民者\n2. 右键你想装备的武器\n3. 选择「装备武器」\n\n给每个人都装备上武器吧</EquipWeapons.text>
+  <EquipWeapons.text>把你的殖民者武装起来吧！\n\n1. 选择一个殖民者\n2. 右键你想装备的武器\n3. 选择「装备武器」\n\n给每个人都装备上武器吧！</EquipWeapons.text>
+  <!-- EN: Have your colonists equip the starting weapons. To equip a weapon:\n\n1. Click a colonist to select them.\n2. Hover over the weapon you want to equip and press L2.\n3. Click 'equip weapon' on the context menu.\n\nDo this for each colonist. -->
+  <EquipWeapons.textController>把你的殖民者武装起来吧！\n\n1. 选择一个殖民者\n2. 指针悬停在你想装备的武器上并按下L2\n3. 选择「装备武器」\n\n给每个人都装备上武器吧！</EquipWeapons.textController>
   
   <!-- EN: Please expand the build roof area a bit, just for practice. -->
   <ExpandAreaBuildRoof.rejectInputMessage>请稍微扩大一些屋顶区域</ExpandAreaBuildRoof.rejectInputMessage>
@@ -198,6 +204,8 @@
   <SetToGrowRice.rejectInputMessage>请在种植区内选择「水稻」</SetToGrowRice.rejectInputMessage>
   <!-- EN: You can decide what plant your colonists should sow in a growing zone.\n\n1. Right-click to exit architect mode.\n2. Click your growing zone to select it.\n3. Click the plant selector at the bottom and change it to rice. -->
   <SetToGrowRice.text>你能决定在地里种什么。\n\n1. 右键退出规划模式\n2. 左键选中种植区\n3. 在下方的菜单里选择种下「水稻」</SetToGrowRice.text>
+  <!-- EN: You can decide what plant your colonists should sow in a growing zone.\n\n1. Press L2 to exit architect mode.\n2. Click your growing zone to select it.\n3. Click the plant selector at the bottom and change it to rice. -->
+  <SetToGrowRice.textController>你能决定在地里种什么。\n\n1. 按下L2退出规划模式\n2. 选中种植区\n3. 在下方的菜单里选择种下「水稻」</SetToGrowRice.textController>
   
   <!-- EN: You can also speed up time.\n\nTry controlling time with the {Key:TimeSpeed_Normal}, {Key:TimeSpeed_Fast}, and {Key:TimeSpeed_Superfast} keys, or with the time controls in the bottom right. -->
   <TimeControls.text>你还可以加速时间流逝。\n\n尝试通过{Key:TimeSpeed_Normal}，{Key:TimeSpeed_Fast}，和{Key:TimeSpeed_Superfast}按键来控制时间，或是点击屏幕右下方的按钮。</TimeControls.text>
