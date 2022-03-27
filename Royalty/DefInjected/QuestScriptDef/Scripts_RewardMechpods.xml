@@ -11,9 +11,9 @@
   <ThreatReward_MechPods_MiscReward.questDescriptionRules.rulesStrings>
     <li>dangersDescription(priority=1)->\n\n这些空降仓包含如下威胁：\n\n[allThreats]</li>
     <li>dangersDescription-></li>
-    <li>questDescription(asker_factionLeader==True)->[asker_faction_name] 的 [asker_faction_leaderTitle]， [asker_nameDef] 发布了一个任务。 [commonMainPart]</li>
-    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_faction_name] 的一名 [asker_royalTitleInCurrentFaction]， [asker_nameDef] 发布了一个任务。 [commonMainPart]</li>
-    <li>commonMainPart->一群机械族已经开始进攻[asker_possessive]的据点。 [asker_pronoun]希望你能发出警告信号来吸引一部分机械族， 以便于[asker_pronoun]能够顺利清除机械族巢穴。 如果你接受这个提议， (*Threat)一支机械集群(/Threat)将会降落在[map_definite]。 [dangersDescription]\n\n这个机械集群一开始将会处于休眠状态， 它们可能会被某个倒计时结束的程序激活， 也有可能在不受干扰的情况下一直休眠下去。[helpersParagraph]</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_faction_name]的[asker_faction_leaderTitle]，[asker_nameDef]发布了一个任务。[commonMainPart]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_faction_name]的一名[asker_royalTitleInCurrentFaction]，[asker_nameDef]发布了一个任务。[commonMainPart]</li>
+    <li>commonMainPart->一群机械族已经开始进攻[asker_possessive]的据点。[asker_pronoun]希望你能发出警告信号来吸引一部分机械族，以便于[asker_pronoun]能够顺利清除机械族巢穴。如果你接受这个提议，(*Threat)一支机械集群(/Threat)将会降落在[map_definite]。[dangersDescription]\n\n这个机械集群一开始将会处于休眠状态，它们可能会被某个倒计时结束的程序激活，也有可能在不受干扰的情况下一直休眠下去。[helpersParagraph]</li>
   </ThreatReward_MechPods_MiscReward.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[menace] cluster</li>

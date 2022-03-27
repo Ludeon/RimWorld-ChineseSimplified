@@ -108,7 +108,7 @@
   <!-- EN: We are running version {0} but the save data is from {1}, which is a different version entirely.\n\nTrying to load this data will probably not work. -->
   <SaveIsFromDifferentGameVersion>当前运行的游戏版本是 {0}，但是存档数据版本是 {1}，二者为完全不同的主版本。\n\n尝试载入不可能成功。</SaveIsFromDifferentGameVersion>
   <!-- EN: We are running version {0} but the save data is from {1}, which is a different build.\n\nTrying to load this data should still work. -->
-  <SaveIsFromDifferentGameBuild>当前运行的游戏版本是 {0}，但是存档数据版本是 {1}， 二者不同的副版本。\n\n尝试载入有可能成功。</SaveIsFromDifferentGameBuild>
+  <SaveIsFromDifferentGameBuild>当前运行的游戏版本是 {0}，但是存档数据版本是 {1}，二者不同的副版本。\n\n尝试载入有可能成功。</SaveIsFromDifferentGameBuild>
   <!-- EN: Save data was saved with our game version and should work without issue. -->
   <SaveIsFromThisGameBuild>存档数据版本和当前运行的游戏版本一致，可以正确载入。</SaveIsFromThisGameBuild>
   <!-- EN: Save data is in an unknown format and almost certainly will not load properly. -->
@@ -683,7 +683,7 @@
   <!-- EN: Unlimited -->
   <InfiniteDaysWorthOfFoodInfo>无限</InfiniteDaysWorthOfFoodInfo>
   <!-- EN: The approximate number of days before at least one person or animal will be out of food. Different species have different diets, so one may run out of food before others. This value is calculated more accurately after the route is chosen.\n\nAffected by:\n  - Current pawn inventory\n  - Carried food type and amount\n  - Caravan members and their diets\n  - Foraging rate\n  - Whether animals can graze\n  - Time until food rots\n  - Hot weather rots food faster -->
-  <DaysWorthOfFoodTooltip>远行队所携带的食物预计可以维持的天数。\n\n受以下因素影响:\n - 当前的库存\n\n计算包括人类和动物的食物，并考虑最坏的情况。 这表示这么多天后，至少有一个动物或人将会没有食物。</DaysWorthOfFoodTooltip>
+  <DaysWorthOfFoodTooltip>远行队所携带的食物预计可以维持的天数。\n\n受以下因素影响:\n - 当前的库存\n\n计算包括人类和动物的食物，并考虑最坏的情况。这表示这么多天后，至少有一个动物或人将会没有食物。</DaysWorthOfFoodTooltip>
   <!-- EN: (only the first waypoint is taken into account) -->
   <DaysWorthOfFoodTooltip_OnlyFirstWaypoint>\n（只有第一个路径点才被计入）</DaysWorthOfFoodTooltip_OnlyFirstWaypoint>
   <!-- EN: Your caravan only has {0} days worth of food and will become hungry quickly. -->
@@ -997,7 +997,7 @@
 
   <!-- Send transport pods which are not completely loaded -->
   <!-- EN: Pod group isn't completely loaded. {1_labelShort} is missing. Launch anyway? -->
-  <ConfirmSendNotCompletelyLoadedPods>发射组并没有完成装载进程。 {1_labelShort}还未进入运输舱。确定要发射吗？</ConfirmSendNotCompletelyLoadedPods>
+  <ConfirmSendNotCompletelyLoadedPods>发射组并没有完成装载进程。{1_labelShort}还未进入运输舱。确定要发射吗？</ConfirmSendNotCompletelyLoadedPods>
 
   <!-- Settle near a faction base -->
   <!-- EN: Since this location is within {0} tiles of another faction base, they will feel you are encroaching on their land and relations with those factions will worsen every {1} days.\n\nSettle here anyways? -->

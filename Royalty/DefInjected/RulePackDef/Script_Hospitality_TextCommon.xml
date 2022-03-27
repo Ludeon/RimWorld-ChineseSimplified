@@ -50,7 +50,7 @@
     <li>failLetterEndingCommon->[failLetterEndingQuest]\n\nYour relations with [asker_faction_name] have decreased by [goodwillPenalty].</li>
   -->
   <QuestHospitalityCommon.rulePack.rulesStrings>
-    <li>allLodgerInfo->[healthInfo] [minMoodInfo] [workInfo]</li>
+    <li>allLodgerInfo->[healthInfo][minMoodInfo][workInfo]</li>
     <li>lodgersLabelSingOrPlural(lodgersCount==1)->[lodgers0_nameDef]</li>
     <li>lodgersLabelSingOrPlural(lodgersCount>=2)->[lodgersLabelPlural]</li>
     <li>lodgersLabelSingOrPluralDef(lodgersCount==1)->[lodgers0_nameDef]</li>
@@ -59,12 +59,12 @@
     <li>healthInfo(lodgersHaveBloodRotAndParalysis==true,priority=1)->\n\n[paralyzedInfo]\n\n[bloodRotInfo]</li>
     <li>healthInfo(lodgersAreParalyzed==true,priority=1)->\n\n[paralyzedInfo]</li>
     <li>healthInfo(lodgersHaveBloodRot==true,priority=1)->\n\n[bloodRotInfo]</li>
-    <li>paralyzedInfo->[lodgersLabelSingOrPluralDef] [areIs] 因患有麻痹症而必须卧床休息。</li>
-    <li>bloodRotInfo->[lodgersLabelSingOrPluralDef] [areIs] 因患有毒血症而必须每天接受治疗。 这种疾病的进展可以通过高质量的护理和药物来延缓， 但通常不会被治愈。 如果疾病变得足够严重， 将会导致[lodgersLabelSingOrPluralDef]死亡， 所以要确保你有足够的医疗药品。</li>
+    <li>paralyzedInfo->[lodgersLabelSingOrPluralDef][areIs]因患有麻痹症而必须卧床休息。</li>
+    <li>bloodRotInfo->[lodgersLabelSingOrPluralDef][areIs]因患有毒血症而必须每天接受治疗。这种疾病的进展可以通过高质量的护理和药物来延缓，但通常不会被治愈。如果疾病变得足够严重，将会导致[lodgersLabelSingOrPluralDef]死亡，所以要确保你有足够的医疗药品。</li>
     <li>minMoodInfo-></li>
-    <li>minMoodInfo(lodgersCountWithMoodThreshold>0,priority=1)->\n\n你必须保持 [lodgersLabelSingOrPluralDef] 的心情在 [lodgersMoodThreshold_percent] 以上。</li>
+    <li>minMoodInfo(lodgersCountWithMoodThreshold>0,priority=1)->\n\n你必须保持[lodgersLabelSingOrPluralDef]的心情在[lodgersMoodThreshold_percent]以上。</li>
     <li>workInfo-></li>
-    <li>workInfo(lodgersWillNotWork==true,priority=1)->\n\n[lodgersLabelSingOrPluralDef] 不会做任何工作。</li>
+    <li>workInfo(lodgersWillNotWork==true,priority=1)->\n\n[lodgersLabelSingOrPluralDef]不会做任何工作。</li>
     <li>commonDescEnding->[helpersParagraph]</li>
     <li>enemyGroupsParagraph->[threatDescriptionParagraph]</li>
     <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize==1)->将会有一波大致与以下规模相当的(*Threat)袭击(/Threat)：\n\n[threatExample]</li>

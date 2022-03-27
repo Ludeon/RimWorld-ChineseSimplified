@@ -102,7 +102,7 @@
   <!-- EN: Chance to have precept -->
   <ChanceToHavePrecept>可能获得戒律</ChanceToHavePrecept>
   <!-- EN: {PAWN_labelShort}'s favorite color. Having more than {PERCENTAGE} of {PAWN_possessive} apparel in this color, or the color of {PAWN_possessive} ideoligion, will make {PAWN_objective} slightly happier.\n\nYou can alter apparel colors at the styling station using tinctoria dye. -->
-  <FavoriteColorTooltip>{PAWN_labelShort}的偏爱颜色， 如果穿着的衣服超过{PERCENTAGE}染有此颜色或{PAWN_possessive}文化形态代表色， 会让{PAWN_objective}感到愉悦。\n\n你可以在梳妆台使用染料调整服装颜色。</FavoriteColorTooltip>
+  <FavoriteColorTooltip>{PAWN_labelShort}的偏爱颜色，如果穿着的衣服超过{PERCENTAGE}染有此颜色或{PAWN_possessive}文化形态代表色，会让{PAWN_objective}感到愉悦。\n\n你可以在梳妆台使用染料调整服装颜色。</FavoriteColorTooltip>
   <!-- EN: Set ideo color -->
   <SetIdeoColor>设置文化代表色</SetIdeoColor>
   <!-- EN: Set to favorite color -->
@@ -206,7 +206,7 @@
   <!-- EN: Already connected to {PAWN_nameDef} -->
   <RitualTargetConnectedGauranlenTree>已经与{PAWN_nameDef}共鸣</RitualTargetConnectedGauranlenTree>
   <!-- EN: {TREE_definite} has had its connection torn recently. It can connect again in {1}. -->
-  <RitualTargetConnectionTornGauranlenTree>{TREE_definite}的共鸣被打断了。 它能够在{1}后重新共鸣。</RitualTargetConnectionTornGauranlenTree>
+  <RitualTargetConnectionTornGauranlenTree>{TREE_definite}的共鸣被打断了。它能够在{1}后重新共鸣。</RitualTargetConnectionTornGauranlenTree>
   <!-- EN: You need {0} wood for each participant ({2} total). You have {1} wood. -->
   <RitualTargeWoodInfo>你需要为每位参与者（最多{2}位）准备{0}数量的木材，你当前的木材储量是{1}。</RitualTargeWoodInfo>
   <!-- EN: Accuse -->
@@ -470,9 +470,9 @@
   <!-- EN: {PAWN_nameDef} is too far away -->
   <ConnectedPawnAway>{PAWN_nameDef}离得太远了！</ConnectedPawnAway>
   <!-- EN: Planting {PLANT_definite} near artificial buildings will cause its connection strength to decay over time. Connection strength determines the maximum number of dryads {PLANT_definite} can support at once.\n\nAre you sure you wish to plant here? -->
-  <TreeBlockedByNearbyBuildingsDesc>将{PLANT_definite}种植在人造建筑物附近将导致共鸣强度随时间下降，共鸣强度决定着此{PLANT_definite}可支持的树精之最大数量。 \n\n你确定要在这里种下它？</TreeBlockedByNearbyBuildingsDesc>
+  <TreeBlockedByNearbyBuildingsDesc>将{PLANT_definite}种植在人造建筑物附近将导致共鸣强度随时间下降，共鸣强度决定着此{PLANT_definite}可支持的树精之最大数量。\n\n你确定要在这里种下它？</TreeBlockedByNearbyBuildingsDesc>
   <!-- EN: Changing {TREE_definite}'s dryad caste takes time and energy.\n\nAfter the connected person interacts with the tree, all dryads will spend {DURATION} days inside cocoons while they morph to the selected caste.\n\nExisting cocoons will cancel their transformation so they can morph to the current caste. -->
-  <GauranlenModeChangeDescFull>修改{TREE_definite}的树精的品种将耗费时间和力量。\n\n当共鸣者与树交互后，所有树精将在茧内度过{DURATION}天以转化至目标角色。 \n\n现存的茧将取消其变形以转化至当前设定的品种。</GauranlenModeChangeDescFull>
+  <GauranlenModeChangeDescFull>修改{TREE_definite}的树精的品种将耗费时间和力量。\n\n当共鸣者与树交互后，所有树精将在茧内度过{DURATION}天以转化至目标角色。\n\n现存的茧将取消其变形以转化至当前设定的品种。</GauranlenModeChangeDescFull>
   <!-- EN: Change the type of dryads created by {TREE_definite}. -->
   <ChangeModeDesc>修改由{TREE_definite}产生的树精的类别</ChangeModeDesc>
   <!-- EN: Connection strength fall -->
@@ -496,7 +496,7 @@
   <!-- EN: Desired -->
   <DesiredConnectionStrength>需求的强度</DesiredConnectionStrength>
   <!-- EN: {CONNECTEDPAWN_nameDef} will prune {TREE_definite} often enough to keep connection strength above this level.\n\nHigher connection strength allows supporting more dryads, but also falls faster and thus takes more frequent pruning to maintain.\n\nYou can click on the bar to adjust the desired target connection strength.\n\nConnection strength fall per day: {FALL}\n\nConnection strength is affected by nearby buildings. -->
-  <DesiredConnectionStrengthDesc>{CONNECTEDPAWN_nameDef}将维持修剪{TREE_definite}以保持共鸣强度在此水平之上。\n\n更高的共鸣强度可以支持更多的树精， 但回落的更快， 因此需要更频繁的修剪维护。 点击滑条可以修改目标强度。\n\n每日回落：{FALL}\n\n共鸣强度将受附近的建筑物影响。</DesiredConnectionStrengthDesc>
+  <DesiredConnectionStrengthDesc>{CONNECTEDPAWN_nameDef}将维持修剪{TREE_definite}以保持共鸣强度在此水平之上。\n\n更高的共鸣强度可以支持更多的树精，但回落的更快，因此需要更频繁的修剪维护。点击滑条可以修改目标强度。\n\n每日回落：{FALL}\n\n共鸣强度将受附近的建筑物影响。</DesiredConnectionStrengthDesc>
   <!-- EN: Waiting for {CONNECTEDPAWN_nameDef} to change dryad caste. -->
   <WaitingForConnectorToChangeCaste>等待{CONNECTEDPAWN_nameDef}来改变树精品种。</WaitingForConnectorToChangeCaste>
   <!-- EN: Dryad caste -->
@@ -572,7 +572,7 @@
   <!-- EN: You've invoked the archonexus core. The world fills with a blinding light and time seems to slow...\n\n -->
   <GameOverArchotechInvokedIntro>你已激活了超凡枢纽核心。世界被刺目的光填满，时间似乎变慢了。。。\n\n</GameOverArchotechInvokedIntro>
   <!-- EN: The machine god has noticed you. Nobody can predict what happens next. It may destroy you, or communicate with you directly, or transport your consciousness to another plane of reality.\n\nYou sense a vast, inhuman structure of infinite fractal complexity flowing into your mind. Time and scale begin to dissolve. It's terrifying. It's beautiful... -->
-  <GameOverArchotechInvokedEnding>机械神明已注意到了你， 没人能预料接下来会发生什么。 它可能毁灭你， 可能与你直接沟通， 或者将你的意识转移到另一个现实位面。\n\n你看到一个巨大无边的， 非人类的分形复杂度结构涌入你的意识， 时间和大小似乎都在溶解， 这很恐怖。 这也很美。</GameOverArchotechInvokedEnding>
+  <GameOverArchotechInvokedEnding>机械神明已注意到了你，没人能预料接下来会发生什么。它可能毁灭你，可能与你直接沟通，或者将你的意识转移到另一个现实位面。\n\n你看到一个巨大无边的，非人类的分形复杂度结构涌入你的意识，时间和大小似乎都在溶解，这很恐怖。这也很美。</GameOverArchotechInvokedEnding>
   <!-- EN: These colonists have transcended:\n\n{0} -->
   <GameOverColonistsTranscended>以下殖民者已被升格：\n\n{0}</GameOverColonistsTranscended>
   <!-- EN: An archonexus map part -->

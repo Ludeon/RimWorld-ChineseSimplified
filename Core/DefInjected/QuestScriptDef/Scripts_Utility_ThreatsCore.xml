@@ -32,7 +32,7 @@
     <li>threatDescription->a mech cluster will land at [map_definite] containing:\n\n[allThreats]</li>
   -->
   <Util_MechCluster.questDescriptionRules.rulesStrings>
-    <li>threatDescription->一个机械集群将会空降至 [map_definite] 其中包括：\n\n[allThreats]</li>
+    <li>threatDescription->一个机械集群将会空降至[map_definite]其中包括：\n\n[allThreats]</li>
   </Util_MechCluster.questDescriptionRules.rulesStrings>
   
   <!-- EN:
@@ -53,10 +53,10 @@
     <li>numGroupsOf(raidCount>=4)->[raidCount] groups of</li>
   -->
   <Util_RaidDelayRepeatable.questDescriptionRules.rulesStrings>
-    <li>pawnKindsParagraph(raidCount==1)->这组[enemyFaction_pawnsPlural]的构成为： \n\n[raid0/raidPawnKinds]\n\n[raid0/raidArrivalModeInfo]</li>
-    <li>pawnKindsParagraph(raidCount==2)->第一组[enemyFaction_pawnsPlural]的构成为： \n\n[raid0/raidPawnKinds]\n\n第二支规模相仿的部队即将到来。</li>
-    <li>pawnKindsParagraph(raidCount==3)->第一组[enemyFaction_pawnsPlural]的构成为： \n\n[raid0/raidPawnKinds]\n\n两支规模相仿的部队即将到来。</li>
-    <li>pawnKindsParagraph(raidCount>=4)->第一组[enemyFaction_pawnsPlural]的构成为： \n\n[raid0/raidPawnKinds]\n\n[raidCountMinusOne]支规模相仿的部队即将到来。</li>
+    <li>pawnKindsParagraph(raidCount==1)->这组[enemyFaction_pawnsPlural]的构成为：\n\n[raid0/raidPawnKinds]\n\n[raid0/raidArrivalModeInfo]</li>
+    <li>pawnKindsParagraph(raidCount==2)->第一组[enemyFaction_pawnsPlural]的构成为：\n\n[raid0/raidPawnKinds]\n\n第二支规模相仿的部队即将到来。</li>
+    <li>pawnKindsParagraph(raidCount==3)->第一组[enemyFaction_pawnsPlural]的构成为：\n\n[raid0/raidPawnKinds]\n\n两支规模相仿的部队即将到来。</li>
+    <li>pawnKindsParagraph(raidCount>=4)->第一组[enemyFaction_pawnsPlural]的构成为：\n\n[raid0/raidPawnKinds]\n\n[raidCountMinusOne]支规模相仿的部队即将到来。</li>
     <li>numGroupsOf(raidCount==1)-></li>
     <li>numGroupsOf(raidCount==2)->两组</li>
     <li>numGroupsOf(raidCount==3)->三组</li>

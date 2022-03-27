@@ -213,7 +213,7 @@
   <!-- EN: This mod was made for a newer version of RimWorld than this, and will probably not work correctly. -->
   <ModNotMadeForThisVersion_Newer>该 Mod 是为更高的 RimWorld 版本制作的，很可能无法正常运行。</ModNotMadeForThisVersion_Newer>
   <!-- EN: Mod needs properly formatted supported version information in About.xml. Like this: <supportedVersions><li>{0}</li></supportedVersions> - <targetVersion> is deprecated. Check log for further information. -->
-  <MessageModNeedsWellFormattedTargetVersion>Mod 需要在 About.xml 中注明所适配的游戏版本信息。像是这样：[supportedVersions][li]{0}[/li][/supportedVersions]——[targetVersion]已被弃用。 查看日志以获得更多信息。</MessageModNeedsWellFormattedTargetVersion>
+  <MessageModNeedsWellFormattedTargetVersion>Mod 需要在 About.xml 中注明所适配的游戏版本信息。像是这样：[supportedVersions][li]{0}[/li][/supportedVersions]——[targetVersion]已被弃用。查看日志以获得更多信息。</MessageModNeedsWellFormattedTargetVersion>
   <!-- EN: Mod needs a unique, properly formatted packageId in About.xml. It must must meet following requirements:\n\n  - Alphanumeric characters and dot only.\n  - No spaces.\n  - At least one dot.\n  - No repeated dots in a row, or starting or ending with a dot.\n  - 60 characters or less.\n  - Cannot contain word "Ludeon".\n\nFor example:\n<packageId>AuthorName.ModName</packageId>\n<packageId>AuthorName.ModName.Specific</packageId> -->
   <MessageModNeedsWellFormattedPackageId>Mod需要有一个格式适当且唯一的「packageId」写入到「About.xml」文件中。「packageId」必须满足这些要求：\n\n - 仅限字母、数字和半角句号「.」\n - 不包含空格\n - 至少有一个点「.」\n - 没有连续的点「.」，且不以点为开头或结尾\n - 最多60个字节\n - 不允许包含单词“Ludeon”\n\n例如：\nAuthorName.ModName\nAuthorName.ModName.Specific</MessageModNeedsWellFormattedPackageId>
   <!-- EN: This mod has issues in LoadFolders.xml, that you need to resolve before uploading: -->
@@ -221,7 +221,7 @@
   <!-- EN: Folder {0} specified for version {1} doesn't exist. -->
   <ModLoadFolderDoesntExist>为版本 {1} 指定的文件夹 {0} 不存在。</ModLoadFolderDoesntExist>
   <!-- EN: Malformed version string '{0}'. Correct format is Major.Minor (e.g. 1.1) -->
-  <ModLoadFolderMalformedVersion>版本字符'{0}'格式错误。 正确的格式为 Major.Minor(e.g. 1.1)</ModLoadFolderMalformedVersion>
+  <ModLoadFolderMalformedVersion>版本字符'{0}'格式错误。正确的格式为 Major.Minor(e.g. 1.1)</ModLoadFolderMalformedVersion>
   <!-- EN: The list of load folders for version {0} is empty. -->
   <ModLoadFolderListEmpty>版本 {0} 的加载文件夹列表为空。</ModLoadFolderListEmpty>
   <!-- EN: Version {0} lists the same folder more than once: {1}. -->
@@ -463,7 +463,7 @@
   <!-- EN: Low pop conversion boost -->
   <Difficulty_LowPopConversionBoost_Label>低人口转化补正</Difficulty_LowPopConversionBoost_Label>
   <!-- EN: With a single colonist of the player's starting ideoligion, conversion chance to his ideoligion is multiplied by this amount. Conversion attempts against them have their impact divided by that amount.\n\nWith two colonists of the player's starting ideoligion, the effect is halved.\n\nWith three or more colonists of the player's starting ideoligion, this has no effect. -->
-  <Difficulty_LowPopConversionBoost_Info>当玩家的开局文化形态追随者只有一个人的时候， 转化其他人至此文化形态的几率会乘以此数值。\n\n当玩家的开局文化形态追随者有两个人时， 此补正效果减半。\n\n当玩家的开局文化形态追随者有至少三个人时， 此补正无效。</Difficulty_LowPopConversionBoost_Info>
+  <Difficulty_LowPopConversionBoost_Info>当玩家的开局文化形态追随者只有一个人的时候，转化其他人至此文化形态的几率会乘以此数值。\n\n当玩家的开局文化形态追随者有两个人时，此补正效果减半。\n\n当玩家的开局文化形态追随者有至少三个人时，此补正无效。</Difficulty_LowPopConversionBoost_Info>
 
   <!-- Site select -->
   <!-- EN: Select starting site -->

@@ -10,7 +10,7 @@
   <!-- EN: {DESIREDAPPAREL} apparel desire overlaps with {ROLE} apparel requirement. -->
   <MessageIdeoWarnRoleApparelOverlapsDesiredApparel>{DESIREDAPPAREL}服装偏好与{ROLE}服装需求有重合。</MessageIdeoWarnRoleApparelOverlapsDesiredApparel>
   <!-- EN: {DESIREDAPPAREL} overlaps with {ROLE} apparel requirement ({ROLEAPPAREL}). This will make it impossible for {ROLE}s to wear the required and desired apparel together. -->
-  <DescriptionIdeoWarnRoleApparelOverlapsDesiredApparel>{DESIREDAPPAREL}与{ROLE}服装需求有重合（{ROLEAPPAREL}）。 这将使{ROLE}无法同时穿着偏好服装和需求服装。</DescriptionIdeoWarnRoleApparelOverlapsDesiredApparel>
+  <DescriptionIdeoWarnRoleApparelOverlapsDesiredApparel>{DESIREDAPPAREL}与{ROLE}服装需求有重合（{ROLEAPPAREL}）。这将使{ROLE}无法同时穿着偏好服装和需求服装。</DescriptionIdeoWarnRoleApparelOverlapsDesiredApparel>
   <!-- EN: {PRECEPT} needs one of these buildings -->
   <MessageRitualMissingTarget>{PRECEPT} 需要这些建筑物之一</MessageRitualMissingTarget>
   <!-- EN: {PRECEPT} needs an associated ritual. -->
@@ -18,7 +18,7 @@
   <!-- EN: {0_labelShort} refuses to do this because of {0_possessive} ideoligion. -->
   <MessagePawnUnwillingToDoDueToIdeo>{0_labelShort} 拒绝这样做，因为有 {0_possessive} 的文化形态。</MessagePawnUnwillingToDoDueToIdeo>
   <!-- EN: {INITIATOR_nameDef} tried to convert {RECIPIENT_nameDef} to {INITIATOR_possessive} ideoligion. {RECIPIENT_nameDef}'s certainty has fallen from {CERTAINTYBEFORE} to {CERTAINTYAFTER}. {RECIPIENT_pronoun} resents the conversion attempt. -->
-  <MessageFailedConvertIdeoAttempt>{INITIATOR_nameDef} 尝试将 {RECIPIENT_nameDef} 转化为 {INITIATOR_possessive} 文化形态。{RECIPIENT_nameDef} 的认可度已从 {CERTAINTYBEFORE} 降至 {CERTAINTYAFTER}。 {RECIPIENT_pronoun} 对转化尝试表示不满。</MessageFailedConvertIdeoAttempt>
+  <MessageFailedConvertIdeoAttempt>{INITIATOR_nameDef} 尝试将 {RECIPIENT_nameDef} 转化为 {INITIATOR_possessive} 文化形态。{RECIPIENT_nameDef} 的认可度已从 {CERTAINTYBEFORE} 降至 {CERTAINTYAFTER}。{RECIPIENT_pronoun} 对转化尝试表示不满。</MessageFailedConvertIdeoAttempt>
   <!-- EN: {PAWN1_nameDef} tried to convert {PAWN2_nameDef} to {PAWN1_possessive} ideoligion. This led to a social fight! -->
   <MessageFailedConvertIdeoAttemptSocialFight>{PAWN1_nameDef} 试图将 {PAWN2_nameDef} 转化为 {PAWN1_possessive} 文化形态。这导致了口角！</MessageFailedConvertIdeoAttemptSocialFight>
   <!-- EN: You must choose at least {0} memes. -->
@@ -65,7 +65,7 @@
   <!-- EN: No warden is capable of this enslavement. -->
   <MessageNoWardenCapableOfEnslavement>没有一个狱卒有能力进行这种奴役。</MessageNoWardenCapableOfEnslavement>
   <!-- EN: You have no {MEMBERNAME} wardens to convert {PRISONER_nameDef}. {PRISONER_possessive} interaction mode has reverted to "No interaction". -->
-  <MessageNoWardenOfIdeo>没有{MEMBERNAME}狱卒来转化{PRISONER_nameDef}。 {PRISONER_possessive}交互模式已更变为“无交互”。</MessageNoWardenOfIdeo>
+  <MessageNoWardenOfIdeo>没有{MEMBERNAME}狱卒来转化{PRISONER_nameDef}。{PRISONER_possessive}交互模式已更变为“无交互”。</MessageNoWardenOfIdeo>
 
   <!-- Camps -->
   <!-- EN: You've detected a {CAMP_label} nearby controlled by {FACTION_name}. -->

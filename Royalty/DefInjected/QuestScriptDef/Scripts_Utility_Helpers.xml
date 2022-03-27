@@ -16,8 +16,8 @@
   -->
   <Util_MaybeGenerateHelpers.questDescriptionRules.rulesStrings>
     <li>helpersParagraph(helpersCount==0)-></li>
-    <li>helpersParagraph(helpersCount==1)->\n\n[helperKind_label] 将会听命于你。 你需要为[helpers0_objective]提供各种基本生活条件， 如果[helpers0_pronoun]在战斗中不幸牺牲的话也不会有任何后果。\n\n</li>
-    <li>helpersParagraph(helpersCount>=2)->\n\n[helpersCount]名[helperKind_labelPlural] 将会听命于你。 你需要为这些人提供各种基本生活条件， 如果他们在战斗中不幸牺牲的话也不会有任何后果。\n\n</li>
+    <li>helpersParagraph(helpersCount==1)->\n\n[helperKind_label] 将会听命于你。你需要为[helpers0_objective]提供各种基本生活条件，如果[helpers0_pronoun]在战斗中不幸牺牲的话也不会有任何后果。\n\n</li>
+    <li>helpersParagraph(helpersCount>=2)->\n\n[helpersCount]名[helperKind_labelPlural] 将会听命于你。你需要为这些人提供各种基本生活条件，如果他们在战斗中不幸牺牲的话也不会有任何后果。\n\n</li>
     <li>helpersArrivalLetterEnd(helpersCount==0)-></li>
     <li>helpersArrivalLetterEnd(helpersCount>=1)->\n\n[helpersCount]个[helpersLabelSingOrPlural][helpersHasHave]前来协助你。</li>
     <li>helpersLabelSingOrPlural(helpersCount==1)->[helperKind_label]</li>
