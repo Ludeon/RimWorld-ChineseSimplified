@@ -7,12 +7,12 @@
       <li>root(priority=1,sitePart==ClimateAdjuster)->一台可以将温度调整[temperatureOffset]的(*Threat)气候调节器(/Threat)</li>
       <li>root(priority=1,sitePart==PsychicDroner)->一台对[affectedGender]性起效的(*Threat)心灵放射器(/Threat)</li>
       <li>root(priority=1,sitePart==PsychicSuppressor)->一台对[affectedGender]性起效的(*Threat)心灵抑制器(/Threat)</li>
-      <li>root(priority=1,sitePart==WeatherController)->一台(*Threat)天气控制器(/Threat)，会将整个区域的天气改变为[weather_label]</li>
+      <li>root(priority=1,sitePart==WeatherController)->一台(*Threat)天气控制器(/Threat)， 会将整个区域的天气改变为[weather_label]</li>
       <li>root(priority=1,sitePart==SmokeSpewer)->一台(*Threat)不断喷射烟雾的机器(/Threat)</li>
       <li>root(priority=1,sitePart==SunBlocker)->一台使整个地区笼罩阴影的(*Threat)黑幕产生器(/Threat)</li>
-      <li>root(priority=1,sitePart==EMIDynamo)->一台正在工作的(*Threat)电磁干扰器(/Threat)，会导致这一区域的所有电气设备无法工作</li>
+      <li>root(priority=1,sitePart==EMIDynamo)->一台正在工作的(*Threat)电磁干扰器(/Threat)， 会导致这一区域的所有电气设备无法工作</li>
       <li>root(priority=1,sitePart==ToxicSpewer)->一台(*Threat)空气污染器(/Threat)不断喷射毒气</li>
-      <li>root(priority=1,sitePart==RaidSource)->一块被[enemiesCount]名敌人防守的(*Threat)军事集结区(/Threat)，他们每[mtbDays]就会对你发起袭击</li>
+      <li>root(priority=1,sitePart==RaidSource)->一块被[enemiesCount]名敌人防守的(*Threat)军事集结区(/Threat)， 他们每[mtbDays]就会对你发起袭击</li>
       <li>root(priority=1,sitePart==Outpost)->一个被[enemiesCount]名敌人防守的(*Threat)哨站(/Threat)</li>
       <li>root(priority=1,sitePart==BanditCamp)->一个被[enemiesCount]名敌人防守的(*Threat)土匪营地(/Threat)</li>
       <li>root(priority=1,sitePart==Manhunters,count==1)->一只(*Threat)猎杀人类的[kindLabel](/Threat)正在附近游荡</li>
@@ -32,14 +32,14 @@
     <li>threatDescription->a mech cluster will land at [map_definite] containing:\n\n[allThreats]</li>
   -->
   <Util_MechCluster.questDescriptionRules.rulesStrings>
-    <li>threatDescription->一个机械集群将会空降至 [map_definite] 其中包括：\n\n[allThreats]</li>
+    <li>threatDescription->一个机械集群将会空降至[map_definite]其中包括：\n\n[allThreats]</li>
   </Util_MechCluster.questDescriptionRules.rulesStrings>
   
   <!-- EN:
     <li>threatDescription->[enemyFaction_pawnsPlural] from [enemyFaction_name] will attack you. Their group is composed of:\n\n[raidPawnKinds]\n\n[raidArrivalModeInfo]</li>
   -->
   <Util_Raid.questDescriptionRules.rulesStrings>
-    <li>threatDescription->来自[enemyFaction_name]的[enemyFaction_pawnsPlural]将会攻击你。他们的组成为：\n\n[raidPawnKinds]\n\n[raidArrivalModeInfo]</li>
+    <li>threatDescription->来自[enemyFaction_name]的[enemyFaction_pawnsPlural]将会攻击你。 他们的组成为：\n\n[raidPawnKinds]\n\n[raidArrivalModeInfo]</li>
   </Util_Raid.questDescriptionRules.rulesStrings>
   
   <!-- EN:
@@ -53,10 +53,10 @@
     <li>numGroupsOf(raidCount>=4)->[raidCount] groups of</li>
   -->
   <Util_RaidDelayRepeatable.questDescriptionRules.rulesStrings>
-    <li>pawnKindsParagraph(raidCount==1)->这组[enemyFaction_pawnsPlural]的构成为： \n\n[raid0/raidPawnKinds]\n\n[raid0/raidArrivalModeInfo]</li>
-    <li>pawnKindsParagraph(raidCount==2)->第一组[enemyFaction_pawnsPlural]的构成为： \n\n[raid0/raidPawnKinds]\n\n第二支规模相仿的部队即将到来。</li>
-    <li>pawnKindsParagraph(raidCount==3)->第一组[enemyFaction_pawnsPlural]的构成为： \n\n[raid0/raidPawnKinds]\n\n两支规模相仿的部队即将到来。</li>
-    <li>pawnKindsParagraph(raidCount>=4)->第一组[enemyFaction_pawnsPlural]的构成为： \n\n[raid0/raidPawnKinds]\n\n[raidCountMinusOne]支规模相仿的部队即将到来。</li>
+    <li>pawnKindsParagraph(raidCount==1)->这组[enemyFaction_pawnsPlural]的构成为：\n\n[raid0/raidPawnKinds]\n\n[raid0/raidArrivalModeInfo]</li>
+    <li>pawnKindsParagraph(raidCount==2)->第一组[enemyFaction_pawnsPlural]的构成为：\n\n[raid0/raidPawnKinds]\n\n第二支规模相仿的部队即将到来。</li>
+    <li>pawnKindsParagraph(raidCount==3)->第一组[enemyFaction_pawnsPlural]的构成为：\n\n[raid0/raidPawnKinds]\n\n两支规模相仿的部队即将到来。</li>
+    <li>pawnKindsParagraph(raidCount>=4)->第一组[enemyFaction_pawnsPlural]的构成为：\n\n[raid0/raidPawnKinds]\n\n[raidCountMinusOne]支规模相仿的部队即将到来。</li>
     <li>numGroupsOf(raidCount==1)-></li>
     <li>numGroupsOf(raidCount==2)->两组</li>
     <li>numGroupsOf(raidCount==3)->三组</li>

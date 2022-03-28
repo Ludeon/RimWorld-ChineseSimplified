@@ -46,10 +46,10 @@
     <li>tale_noun->[VICTIM_nameDef]被[KILLER_nameDef][wound_name_present]</li>
     <li>tale_noun->[VICTIM_nameDef]被人用[WEAPON_label][wound_name_present]</li>
     <li>tale_noun->[VICTIM_nameDef]被[wound_name_present]</li>
-    <li>image->[VICTIM_nameFull]被[wound_name_past]，[KILLER_nameFull][with_weapon_optional]</li>
-    <li>image->[KILLER_nameFull]将[VICTIM_nameFull][wound_name_present]，[with_weapon_optional]</li>
-    <li>image->[KILLER_nameFull]粗暴地[wound_name_present][VICTIM_nameFull]，[with_weapon_optional]</li>
-    <li>image->[VICTIM_nameFull]被[wound_name_past]，行凶者[with_weapon_optional]</li>
+    <li>image->[VICTIM_nameFull]被[wound_name_past]， [KILLER_nameFull][with_weapon_optional]</li>
+    <li>image->[KILLER_nameFull]将[VICTIM_nameFull][wound_name_present]， [with_weapon_optional]</li>
+    <li>image->[KILLER_nameFull]粗暴地[wound_name_present][VICTIM_nameFull]， [with_weapon_optional]</li>
+    <li>image->[VICTIM_nameFull]被[wound_name_past]， 行凶者[with_weapon_optional]</li>
     <li>wound_name_past->打昏</li>
     <li>wound_name_past->弄坏了</li>
     <li>wound_name_past->打得不省人事</li>
@@ -58,7 +58,7 @@
     <li>wound_name_present->弄坏了</li>
     <li>wound_name_present->打晕</li>
     <li>wound_name_present->打残</li>
-    <li>with_weapon_optional->使用的是[WEAPON_label]，[circumstance_group]</li>
+    <li>with_weapon_optional->使用的是[WEAPON_label]， [circumstance_group]</li>
     <li>with_weapon_optional->[circumstance_group]</li>
     <li>circumstance_phrase->毫不留情</li>
     <li>circumstance_phrase->冷酷无情</li>
@@ -66,14 +66,14 @@
     <li>circumstance_phrase->身手敏捷</li>
     <li>circumstance_phrase->面无表情</li>
     <li>circumstance_phrase->已经放弃希望</li>
-    <li>circumstance_phrase->看上去很害怕，不得已的选择</li>
+    <li>circumstance_phrase->看上去很害怕， 不得已的选择</li>
     <li>desc_sentence->[Quantity_adjphrase][Animal]在一旁围观。</li>
     <li>desc_sentence->一位[PersonJob]在[side_position]静观其变。</li>
     <li>desc_sentence->[VICTIM_nameDef]看上去[AdjectiveAngsty]。</li>
     <li>desc_sentence->[VICTIM_nameDef]的眼睛闭着。</li>
-    <li>desc_sentence->[KILLER_nameDef]咧开嘴，露出[KILLER_possessive]牙齿。</li>
+    <li>desc_sentence->[KILLER_nameDef]咧开嘴， 露出[KILLER_possessive]牙齿。</li>
     <li>desc_sentence->[KILLER_nameDef]似乎很满意。</li>
-    <li>desc_sentence->[KILLER_nameDef]面对[KILLER_pronoun]自己的所作所为，感到十分痛苦。</li>
+    <li>desc_sentence->[KILLER_nameDef]面对[KILLER_pronoun]自己的所作所为， 感到十分痛苦。</li>
     <li>desc_sentence->[KILLER_nameDef]看上去对这一切很满意。</li>
     <li>desc_sentence->[KILLER_nameDef]露出胜利者的姿态。</li>
   </Downed.rulePack.rulesStrings>
@@ -99,16 +99,16 @@
   -->
   <Exhausted.rulePack.rulesStrings>
     <li>tale_noun->[PAWN_nameDef]筋疲力尽地倒下</li>
-    <li>image->[PAWN_nameFull]倒在地上，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]躺在地上，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]躺在床上，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]倒在椅子上，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]安静地睡觉，[circumstance_group]</li>
+    <li>image->[PAWN_nameFull]倒在地上， [circumstance_group]</li>
+    <li>image->[PAWN_nameFull]躺在地上， [circumstance_group]</li>
+    <li>image->[PAWN_nameFull]躺在床上， [circumstance_group]</li>
+    <li>image->[PAWN_nameFull]倒在椅子上， [circumstance_group]</li>
+    <li>image->[PAWN_nameFull]安静地睡觉， [circumstance_group]</li>
     <li>circumstance_phrase->闭上眼睛</li>
     <li>circumstance_phrase->看上去疲惫不堪</li>
     <li>circumstance_phrase->身上出了很多汗</li>
     <li>circumstance_phrase->看上去浑身酸痛</li>
-    <li>desc_sentence->[PAWN_nameDef]的最后一个项目就在附近，已经完成。</li>
+    <li>desc_sentence->[PAWN_nameDef]的最后一个项目就在附近， 已经完成。</li>
     <li>desc_sentence->一座非凡的建筑包围了[PAWN_nameDef]。</li>
     <li>desc_sentence->[Quantity_adjphrase][PersonJob]对[PAWN_nameDef]英雄般的壮举心存感激。</li>
     <li>desc_sentence->[Quantity_adjphrase][PersonJob]也以相似的状态躺在附近。</li>
@@ -138,16 +138,16 @@
   <GaveBirth.rulePack.rulesStrings>
     <li>tale_noun->[MOTHER_nameDef]生下[CHILD_nameDef]</li>
     <li>image->[MOTHER_nameFull]生下了[circumstance_group]</li>
-    <li>image->[MOTHER_nameFull]怀抱[MOTHER_possessive][baby]，[circumstance_group]</li>
-    <li>image->[MOTHER_nameFull]的旁边躺着[MOTHER_possessive][baby]，[circumstance_group]</li>
-    <li>image->[MOTHER_nameFull]瘫坐在椅子上，怀抱[MOTHER_possessive][baby]，[circumstance_group]</li>
+    <li>image->[MOTHER_nameFull]怀抱[MOTHER_possessive][baby]， [circumstance_group]</li>
+    <li>image->[MOTHER_nameFull]的旁边躺着[MOTHER_possessive][baby]， [circumstance_group]</li>
+    <li>image->[MOTHER_nameFull]瘫坐在椅子上， 怀抱[MOTHER_possessive][baby]， [circumstance_group]</li>
     <li>baby->孩子</li>
     <li>baby->新生儿</li>
     <li>baby->宝宝</li>
-    <li>circumstance_phrase->浑身是血，正在哭闹的[CHILD_nameFull]</li>
-    <li>circumstance_phrase->[CHILD_nameFull]，一个散发着[Color]柔光的小家伙</li>
-    <li>circumstance_phrase->[CHILD_nameFull]，闲不住的[CHILD_objective]动来动去</li>
-    <li>circumstance_phrase->[CHILD_nameFull]，一个平静地东张西望的小家伙</li>
+    <li>circumstance_phrase->浑身是血， 正在哭闹的[CHILD_nameFull]</li>
+    <li>circumstance_phrase->[CHILD_nameFull]， 一个散发着[Color]柔光的小家伙</li>
+    <li>circumstance_phrase->[CHILD_nameFull]， 闲不住的[CHILD_objective]动来动去</li>
+    <li>circumstance_phrase->[CHILD_nameFull]， 一个平静地东张西望的小家伙</li>
     <li>desc_sentence->[Quantity_adjphrase][Animal]平静地睡在附近。</li>
     <li>desc_sentence->[Quantity_adjphrase][PersonJob]在现场围观。</li>
     <li>desc_sentence->一位[PersonJob]在远处观看。</li>
@@ -179,11 +179,11 @@
   <HeatstrokeRevealed.rulePack.rulesStrings>
     <li>tale_noun->[PAWN_nameDef]中暑</li>
     <li>tale_noun->[PAWN_nameDef]受高温煎熬</li>
-    <li>image->[PAWN_nameFull]艰难地穿越沙地，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]挤在[TerrainFeature]的阴影中躲避炎热，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]在寻找水，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]在寻找阴凉的地方，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]徐徐穿过被烈日烘烤的土地，[circumstance_group]</li>
+    <li>image->[PAWN_nameFull]艰难地穿越沙地， [circumstance_group]</li>
+    <li>image->[PAWN_nameFull]挤在[TerrainFeature]的阴影中躲避炎热， [circumstance_group]</li>
+    <li>image->[PAWN_nameFull]在寻找水， [circumstance_group]</li>
+    <li>image->[PAWN_nameFull]在寻找阴凉的地方， [circumstance_group]</li>
+    <li>image->[PAWN_nameFull]徐徐穿过被烈日烘烤的土地， [circumstance_group]</li>
     <li>circumstance_phrase->干燥的皮肤已经晒成红色</li>
     <li>circumstance_phrase->汗流浃背</li>
     <li>circumstance_phrase->干燥的嘴唇已经开裂</li>
@@ -192,7 +192,7 @@
     <li>desc_sentence->[PAWN_nameDef]的衣服破烂不堪。</li>
     <li>desc_sentence->背景中恒星发出耀眼的光芒。</li>
     <li>desc_sentence->这一幕发生在一片炙热的沙漠中。</li>
-    <li>desc_sentence->这一幕似乎发生在室内，紧挨着加热器的地方。</li>
+    <li>desc_sentence->这一幕似乎发生在室内， 紧挨着加热器的地方。</li>
     <li>desc_sentence->[Quantity_adjphrase]一动不动的[Animal]散落在场景里。</li>
     <li>desc_sentence->[Quantity_adjphrase]死掉的[Animal]倒在地上。</li>
   </HeatstrokeRevealed.rulePack.rulesStrings>
@@ -222,11 +222,11 @@
   <HypothermiaRevealed.rulePack.rulesStrings>
     <li>tale_noun->[PAWN_nameDef]患上低温症</li>
     <li>tale_noun->[PAWN_nameDef]快被冻死</li>
-    <li>image->[PAWN_nameFull]艰难地穿越雪地，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]挤在[TerrainFeature]旁躲避严寒，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]正在寻找能够御寒的[Apparel]，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]蜷缩在篝火旁，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]正在尝试生火，[circumstance_group]</li>
+    <li>image->[PAWN_nameFull]艰难地穿越雪地， [circumstance_group]</li>
+    <li>image->[PAWN_nameFull]挤在[TerrainFeature]旁躲避严寒， [circumstance_group]</li>
+    <li>image->[PAWN_nameFull]正在寻找能够御寒的[Apparel]， [circumstance_group]</li>
+    <li>image->[PAWN_nameFull]蜷缩在篝火旁， [circumstance_group]</li>
+    <li>image->[PAWN_nameFull]正在尝试生火， [circumstance_group]</li>
     <li>circumstance_phrase->他们的脸慢慢地冻青了</li>
     <li>circumstance_phrase->并不停地颤抖</li>
     <li>circumstance_phrase->身上布满了霜冻的痕迹</li>
@@ -265,12 +265,12 @@
   -->
   <IllnessRevealed.rulePack.rulesStrings>
     <li>tale_noun->[PAWN_nameDef]被[ILLNESS_label]折磨</li>
-    <li>image->[PAWN_nameFull]步履蹒跚地穿过田地，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]躺在地上，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]躺在床上，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]躺在医疗床上，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]蜷缩在椅子上，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]蜷缩在篝火旁，[circumstance_group]</li>
+    <li>image->[PAWN_nameFull]步履蹒跚地穿过田地， [circumstance_group]</li>
+    <li>image->[PAWN_nameFull]躺在地上， [circumstance_group]</li>
+    <li>image->[PAWN_nameFull]躺在床上， [circumstance_group]</li>
+    <li>image->[PAWN_nameFull]躺在医疗床上， [circumstance_group]</li>
+    <li>image->[PAWN_nameFull]蜷缩在椅子上， [circumstance_group]</li>
+    <li>image->[PAWN_nameFull]蜷缩在篝火旁， [circumstance_group]</li>
     <li>circumstance_phrase->直冒冷汗</li>
     <li>circumstance_phrase->不停地颤抖</li>
     <li>circumstance_phrase->不停地颤抖并冒冷汗</li>
@@ -321,8 +321,8 @@
   <KilledCapacity.rulePack.rulesStrings>
     <li>tale_noun->[KILLER_nameDef][wound_name_present][VICTIM_nameDef]</li>
     <li>tale_noun->[KILLER_nameDef]用[WEAPON_label][wound_name_present][VICTIM_nameDef]</li>
-    <li>image->[KILLER_nameFull][cap_removal]了[VICTIM_nameFull]的[CAPACITY_label]，[with_weapon_optional]</li>
-    <li>image->[KILLER_nameFull]通过[cap_removal][CAPACITY_label][wound_name_present][VICTIM_nameFull]，[with_weapon_optional]</li>
+    <li>image->[KILLER_nameFull][cap_removal]了[VICTIM_nameFull]的[CAPACITY_label]， [with_weapon_optional]</li>
+    <li>image->[KILLER_nameFull]通过[cap_removal][CAPACITY_label][wound_name_present][VICTIM_nameFull]， [with_weapon_optional]</li>
     <li>cap_removal->破坏</li>
     <li>cap_removal->消除</li>
     <li>cap_removal->结束</li>
@@ -334,7 +334,7 @@
     <li>wound_name_present->处决</li>
     <li>wound_name_present->暗杀</li>
     <li>wound_name_present->排除</li>
-    <li>with_weapon_optional->使用的是[WEAPON_label]，[circumstance_group]</li>
+    <li>with_weapon_optional->使用的是[WEAPON_label]， [circumstance_group]</li>
     <li>with_weapon_optional->[circumstance_group]</li>
     <li>circumstance_phrase->毫不留情</li>
     <li>circumstance_phrase->冷酷无情</li>
@@ -345,7 +345,7 @@
     <li>desc_sentence->[VICTIM_nameDef]看上去[AdjectiveAngsty]。</li>
     <li>desc_sentence->[VICTIM_nameDef]的眼睛闭着。</li>
     <li>desc_sentence->[KILLER_nameDef]似乎很满意。</li>
-    <li>desc_sentence->[KILLER_nameDef]面对[KILLER_pronoun]自己的所作所为，感到十分痛苦。</li>
+    <li>desc_sentence->[KILLER_nameDef]面对[KILLER_pronoun]自己的所作所为， 感到十分痛苦。</li>
     <li>desc_sentence->[KILLER_nameDef]看上去对这一切很满意。</li>
     <li>desc_sentence->[KILLER_nameDef]露出胜利者的姿态。</li>
   </KilledCapacity.rulePack.rulesStrings>
@@ -392,9 +392,9 @@
     <li>tale_noun->[KILLER_nameDef]使用[WEAPON_label]在极限距离[wound_name_present][VICTIM_nameDef]</li>
     <li>tale_noun->[VICTIM_nameDef]被[KILLER_nameDef]远距离[wound_name_present]</li>
     <li>tale_noun->[VICTIM_nameDef]被[KILLER_nameDef]用[WEAPON_label]在远距离[wound_name_present]</li>
-    <li>image->[KILLER_nameFull]正在瞄准[VICTIM_nameFull]，[with_weapon_optional]</li>
-    <li>image->[KILLER_nameFull][wound_name_present][VICTIM_nameFull]，[with_weapon_optional]</li>
-    <li>image->[KILLER_nameFull]冷酷地[wound_name_present][VICTIM_nameFull]，[with_weapon_optional]</li>
+    <li>image->[KILLER_nameFull]正在瞄准[VICTIM_nameFull]， [with_weapon_optional]</li>
+    <li>image->[KILLER_nameFull][wound_name_present][VICTIM_nameFull]， [with_weapon_optional]</li>
+    <li>image->[KILLER_nameFull]冷酷地[wound_name_present][VICTIM_nameFull]， [with_weapon_optional]</li>
     <li>wound_name_past->杀掉</li>
     <li>wound_name_past->击杀</li>
     <li>wound_name_past->干掉</li>
@@ -403,22 +403,22 @@
     <li>wound_name_present->击杀</li>
     <li>wound_name_present->干掉</li>
     <li>wound_name_present->消灭</li>
-    <li>with_weapon_optional->使用的是[WEAPON_label]，[circumstance_group]</li>
+    <li>with_weapon_optional->使用的是[WEAPON_label]， [circumstance_group]</li>
     <li>with_weapon_optional->[circumstance_group]</li>
     <li>circumstance_phrase->毫不留情</li>
     <li>circumstance_phrase->冷酷无情</li>
     <li>circumstance_phrase->距离目标很远</li>
     <li>circumstance_phrase->从高处瞄准</li>
     <li>circumstance_phrase->面无表情</li>
-    <li>circumstance_phrase->看上去很害怕，不得已的选择</li>
+    <li>circumstance_phrase->看上去很害怕， 不得已的选择</li>
     <li>desc_sentence->[Quantity_adjphrase][Animal]在一旁围观。</li>
     <li>desc_sentence->一位[PersonJob]在[side_position]默默地看着这一切。</li>
     <li>desc_sentence->[VICTIM_nameDef]看上去[AdjectiveAngsty]。</li>
     <li>desc_sentence->[VICTIM_nameDef]的眼睛闭着。</li>
     <li>desc_sentence->[VICTIM_nameDef]浑身都是[Gore]。</li>
-    <li>desc_sentence->[KILLER_nameDef]咧开嘴，露出[KILLER_possessive]牙齿。</li>
+    <li>desc_sentence->[KILLER_nameDef]咧开嘴， 露出[KILLER_possessive]牙齿。</li>
     <li>desc_sentence->[KILLER_nameDef]似乎很满意。</li>
-    <li>desc_sentence->[KILLER_nameDef]面对[KILLER_pronoun]自己的所作所为，感到十分痛苦。</li>
+    <li>desc_sentence->[KILLER_nameDef]面对[KILLER_pronoun]自己的所作所为， 感到十分痛苦。</li>
     <li>desc_sentence->[KILLER_nameDef]看上去对这一切很满意。</li>
     <li>desc_sentence->[KILLER_nameDef]露出胜利者的姿态。</li>
   </KilledLongRange.rulePack.rulesStrings>
@@ -468,17 +468,17 @@
     <li>tale_noun->[KILLER_nameDef]用[WEAPON_label][wound_name_present][VICTIM_nameDef]</li>
     <li>tale_noun->[VICTIM_nameDef]被[KILLER_nameDef][wound_name_present]</li>
     <li>tale_noun->[VICTIM_nameDef]被[KILLER_nameDef]用[WEAPON_label][wound_name_present]</li>
-    <li>image->[VICTIM_nameFull]被[KILLER_nameFull][wound_name_past]，终结者[with_weapon_optional]</li>
-    <li>image->[KILLER_nameFull][wound_name_present][VICTIM_nameFull]，[with_weapon_optional]</li>
-    <li>image->[KILLER_nameFull]残暴地[wound_name_present][VICTIM_nameFull]，[with_weapon_optional]</li>
-    <li>image->[VICTIM_nameFull]被[wound_name_past]，终结者[with_weapon_optional]</li>
+    <li>image->[VICTIM_nameFull]被[KILLER_nameFull][wound_name_past]， 终结者[with_weapon_optional]</li>
+    <li>image->[KILLER_nameFull][wound_name_present][VICTIM_nameFull]， [with_weapon_optional]</li>
+    <li>image->[KILLER_nameFull]残暴地[wound_name_present][VICTIM_nameFull]， [with_weapon_optional]</li>
+    <li>image->[VICTIM_nameFull]被[wound_name_past]， 终结者[with_weapon_optional]</li>
     <li>wound_name_past->击杀</li>
     <li>wound_name_past->打败</li>
     <li>wound_name_past->击败</li>
     <li>wound_name_present->击杀</li>
     <li>wound_name_present->打败</li>
     <li>wound_name_present->击败</li>
-    <li>with_weapon_optional->使用的是[WEAPON_label]，[circumstance_group]</li>
+    <li>with_weapon_optional->使用的是[WEAPON_label]， [circumstance_group]</li>
     <li>with_weapon_optional->[circumstance_group]</li>
     <li>circumstance_phrase->冷酷无情</li>
     <li>circumstance_phrase->身手敏捷</li>
@@ -547,10 +547,10 @@
     <li>tale_noun->[KILLER_nameDef]在混战中用[WEAPON_label][wound_name_present][VICTIM_nameDef]</li>
     <li>tale_noun->[VICTIM_nameDef]被[KILLER_nameDef][wound_name_present]</li>
     <li>tale_noun->[VICTIM_nameDef]在近战中被[KILLER_nameDef]用[WEAPON_label][wound_name_present]</li>
-    <li>image->[VICTIM_nameFull]被[wound_name_past]，[KILLER_nameFull][with_weapon_optional]</li>
-    <li>image->[KILLER_nameFull][wound_name_present][VICTIM_nameFull]，[with_weapon_optional]</li>
-    <li>image->[KILLER_nameFull]残暴地[wound_name_present][VICTIM_nameFull]，[with_weapon_optional]</li>
-    <li>image->[VICTIM_nameFull]被[wound_name_past]，杀手[with_weapon_optional]</li>
+    <li>image->[VICTIM_nameFull]被[wound_name_past]， [KILLER_nameFull][with_weapon_optional]</li>
+    <li>image->[KILLER_nameFull][wound_name_present][VICTIM_nameFull]， [with_weapon_optional]</li>
+    <li>image->[KILLER_nameFull]残暴地[wound_name_present][VICTIM_nameFull]， [with_weapon_optional]</li>
+    <li>image->[VICTIM_nameFull]被[wound_name_past]， 杀手[with_weapon_optional]</li>
     <li>wound_name_past->杀掉</li>
     <li>wound_name_past->击杀</li>
     <li>wound_name_past->干掉</li>
@@ -559,13 +559,13 @@
     <li>wound_name_present->击杀</li>
     <li>wound_name_present->干掉</li>
     <li>wound_name_present->消灭</li>
-    <li>with_weapon_optional->使用的是[WEAPON_label]，[circumstance_group]</li>
+    <li>with_weapon_optional->使用的是[WEAPON_label]， [circumstance_group]</li>
     <li>with_weapon_optional->[circumstance_group]</li>
     <li>circumstance_phrase->毫不留情</li>
     <li>circumstance_phrase->冷酷无情</li>
     <li>circumstance_phrase->身手敏捷</li>
     <li>circumstance_phrase->面无表情</li>
-    <li>circumstance_phrase->看上去很害怕，不得已的选择</li>
+    <li>circumstance_phrase->看上去很害怕， 不得已的选择</li>
     <li>desc_sentence->[Quantity_adjphrase][Animal]在一旁围观。</li>
     <li>desc_sentence->一位[PersonJob]在[side_position]默默地看着这一切。</li>
     <li>desc_sentence->[VICTIM_nameDef]看上去[AdjectiveAngsty]。</li>
@@ -573,9 +573,9 @@
     <li>desc_sentence->[VICTIM_nameDef]浑身都是[Gore]。</li>
     <li>desc_sentence->[VICTIM_nameDef]和[KILLER_nameDef]的身上都是[Gore]。</li>
     <li>desc_sentence->[KILLER_nameDef]浑身都是[Gore]。</li>
-    <li>desc_sentence->[KILLER_nameDef]咧开嘴，露出[KILLER_possessive]牙齿。</li>
+    <li>desc_sentence->[KILLER_nameDef]咧开嘴， 露出[KILLER_possessive]牙齿。</li>
     <li>desc_sentence->[KILLER_nameDef]似乎很满意。</li>
-    <li>desc_sentence->[KILLER_nameDef]面对[KILLER_pronoun]自己的所作所为，感到十分痛苦。</li>
+    <li>desc_sentence->[KILLER_nameDef]面对[KILLER_pronoun]自己的所作所为， 感到十分痛苦。</li>
     <li>desc_sentence->[KILLER_nameDef]看上去对这一切很满意。</li>
     <li>desc_sentence->[KILLER_nameDef]露出胜利者的姿态。</li>
     <li>desc_sentence->[KILLER_nameDef]带着野兽般的表情。</li>
@@ -608,10 +608,10 @@
   <KilledMortar.rulePack.rulesStrings>
     <li>tale_noun->[KILLER_nameDef]用迫击炮[wound_name_present][VICTIM_nameDef]</li>
     <li>tale_noun->[VICTIM_nameDef]被[KILLER_nameDef]用炮击杀死</li>
-    <li>image->[KILLER_nameFull]正在仔细调整发射角度，[circumstance_group]</li>
-    <li>image->[KILLER_nameFull]望着远方，[circumstance_group]</li>
-    <li>image->[KILLER_nameFull]在纸上做着精确计算，[circumstance_group]</li>
-    <li>image->[KILLER_nameFull]正在测试风向，[circumstance_group]</li>
+    <li>image->[KILLER_nameFull]正在仔细调整发射角度， [circumstance_group]</li>
+    <li>image->[KILLER_nameFull]望着远方， [circumstance_group]</li>
+    <li>image->[KILLER_nameFull]在纸上做着精确计算， [circumstance_group]</li>
+    <li>image->[KILLER_nameFull]正在测试风向， [circumstance_group]</li>
     <li>circumstance_phrase->而[VICTIM_nameFull]将葬身于巨大的爆炸之中</li>
     <li>circumstance_phrase->弧线下坠的炮弹飞向[VICTIM_nameFull]</li>
     <li>circumstance_phrase->同时[VICTIM_nameFull]则在毫无防备的四处闲逛</li>
@@ -623,7 +623,7 @@
     <li>desc_sentence->[VICTIM_nameDef]被爆炸声包围。</li>
     <li>desc_sentence->[VICTIM_nameDef]的周围都是弹坑。</li>
     <li>desc_sentence->[KILLER_nameDef]似乎很满意。</li>
-    <li>desc_sentence->[KILLER_nameDef]面对[KILLER_pronoun]自己的所作所为，感到十分痛苦。</li>
+    <li>desc_sentence->[KILLER_nameDef]面对[KILLER_pronoun]自己的所作所为， 感到十分痛苦。</li>
     <li>desc_sentence->[KILLER_nameDef]看上去对这一切很满意。</li>
     <li>desc_sentence->[KILLER_nameDef]露出胜利者的姿态。</li>
   </KilledMortar.rulePack.rulesStrings>
@@ -655,12 +655,12 @@
   <ToxicityRevealed.rulePack.rulesStrings>
     <li>tale_noun->[PAWN_nameDef]中毒</li>
     <li>tale_noun->[PAWN_nameDef]被毒物侵袭</li>
-    <li>image->[PAWN_nameFull]步履蹒跚地穿过田地，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]躺在地上，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]躺在床上，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]蜷缩在篝火旁，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]正在尝试生火，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]无意识地脱掉[pawn_possessive]衣服，[circumstance_group]</li>
+    <li>image->[PAWN_nameFull]步履蹒跚地穿过田地， [circumstance_group]</li>
+    <li>image->[PAWN_nameFull]躺在地上， [circumstance_group]</li>
+    <li>image->[PAWN_nameFull]躺在床上， [circumstance_group]</li>
+    <li>image->[PAWN_nameFull]蜷缩在篝火旁， [circumstance_group]</li>
+    <li>image->[PAWN_nameFull]正在尝试生火， [circumstance_group]</li>
+    <li>image->[PAWN_nameFull]无意识地脱掉[pawn_possessive]衣服， [circumstance_group]</li>
     <li>circumstance_phrase->直冒冷汗</li>
     <li>circumstance_phrase->不停地颤抖</li>
     <li>circumstance_phrase->不停地颤抖并冒冷汗</li>
@@ -725,10 +725,10 @@
     <li>tale_noun->[VICTIM_nameDef]被[KILLER_nameDef][wound_name_present]</li>
     <li>tale_noun->[VICTIM_nameDef]被人用[WEAPON_label][wound_name_present] </li>
     <li>tale_noun->[VICTIM_nameDef]被[wound_name_present]</li>
-    <li>image->[VICTIM_nameFull]被[wound_name_past]，杀手[KILLER_nameFull][with_weapon_optional]</li>
-    <li>image->[KILLER_nameFull][wound_name_present][VICTIM_nameFull]，杀手[with_weapon_optional]</li>
-    <li>image->[KILLER_nameFull]粗暴地[wound_name_present][VICTIM_nameFull]，杀手[with_weapon_optional]</li>
-    <li>image->[VICTIM_nameFull]被[wound_name_past]，杀手[with_weapon_optional]</li>
+    <li>image->[VICTIM_nameFull]被[wound_name_past]， 杀手[KILLER_nameFull][with_weapon_optional]</li>
+    <li>image->[KILLER_nameFull][wound_name_present][VICTIM_nameFull]， 杀手[with_weapon_optional]</li>
+    <li>image->[KILLER_nameFull]粗暴地[wound_name_present][VICTIM_nameFull]， 杀手[with_weapon_optional]</li>
+    <li>image->[VICTIM_nameFull]被[wound_name_past]， 杀手[with_weapon_optional]</li>
     <li>wound_name_past->打伤</li>
     <li>wound_name_past->伤害</li>
     <li>wound_name_past->弄伤</li>
@@ -739,7 +739,7 @@
     <li>wound_name_present->弄伤</li>
     <li>wound_name_present->殴打</li>
     <li>wound_name_present->攻击</li>
-    <li>with_weapon_optional->使用了[WEAPON_label]，[circumstance_group]</li>
+    <li>with_weapon_optional->使用了[WEAPON_label]， [circumstance_group]</li>
     <li>with_weapon_optional->[circumstance_group]</li>
     <li>circumstance_phrase->毫不留情</li>
     <li>circumstance_phrase->冷酷无情</li>
@@ -747,7 +747,7 @@
     <li>circumstance_phrase->身手敏捷</li>
     <li>circumstance_phrase->面无表情</li>
     <li>circumstance_phrase->已经放弃希望</li>
-    <li>circumstance_phrase->看上去很害怕，不得已的选择</li>
+    <li>circumstance_phrase->看上去很害怕， 不得已的选择</li>
     <li>desc_sentence->[Quantity_adjphrase][Animal]在一旁围观。</li>
     <li>desc_sentence->一位[PersonJob]在[side_position]静观其变。</li>
     <li>desc_sentence->[VICTIM_nameDef]浑身是血。</li>
@@ -755,9 +755,9 @@
     <li>desc_sentence->[VICTIM_nameDef]看上去[AdjectiveAngsty]。</li>
     <li>desc_sentence->[VICTIM_nameDef]疼痛不堪。</li>
     <li>desc_sentence->[VICTIM_nameDef]在剧烈的疼痛中挣扎。</li>
-    <li>desc_sentence->[KILLER_nameDef]咧开嘴，露出[KILLER_possessive]牙齿。</li>
+    <li>desc_sentence->[KILLER_nameDef]咧开嘴， 露出[KILLER_possessive]牙齿。</li>
     <li>desc_sentence->[KILLER_nameDef]似乎很满意。</li>
-    <li>desc_sentence->[KILLER_nameDef]面对[KILLER_pronoun]自己的所作所为，感到十分痛苦。</li>
+    <li>desc_sentence->[KILLER_nameDef]面对[KILLER_pronoun]自己的所作所为， 感到十分痛苦。</li>
     <li>desc_sentence->[KILLER_nameDef]看上去对这一切很满意。</li>
     <li>desc_sentence->[KILLER_nameDef]露出胜利者的姿态。</li>
   </Wounded.rulePack.rulesStrings>

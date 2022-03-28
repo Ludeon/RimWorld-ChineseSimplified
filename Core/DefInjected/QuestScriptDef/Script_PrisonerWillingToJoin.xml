@@ -9,7 +9,7 @@
     <li>underArmedGuard-></li>
   -->
   <OpportunitySite_PrisonerWillingToJoin.questDescriptionRules.rulesStrings>
-    <li>questDescription->一名被 [siteFaction_name] 关押的囚犯设法偷到了一个无线电并呼叫了你！ \n\n[prisoner_nameDef] 在 [underArmedGuard] 的看守下被关押在 [map_definite] 附近的营地。 在解救[prisoner_objective]后， [prisoner_pronoun]将会加入你的殖民地。 [prisoner_pronoun]是一名[prisoner_age]岁的[prisoner_title]。 [prisoner_pronoun]透露 [allSitePartsDescriptionsExceptFirst] [formerColonistInfo] [prisonerFullRelationInfo]\n\n如果错失这次机会，你以后都不会再看到[prisoner_nameDef]了。</li>
+    <li>questDescription->一名被[siteFaction_name]关押的囚犯设法偷到了一个无线电并呼叫了你！\n\n[prisoner_nameDef]在[underArmedGuard]的看守下被关押在[map_definite]附近的营地。 在解救[prisoner_objective]后， [prisoner_pronoun]将会加入你的殖民地。 [prisoner_pronoun]是一名[prisoner_age]岁的[prisoner_title]。 [prisoner_pronoun]透露[allSitePartsDescriptionsExceptFirst][formerColonistInfo][prisonerFullRelationInfo]\n\n如果错失这次机会， 你以后都不会再看到[prisoner_nameDef]了。</li>
     <li>formerColonistInfo(priority=1)->\n\n[prisoner_formerlyColonistInfo]</li>
     <li>formerColonistInfo-></li>
     <li>underArmedGuard(allowViolentQuests==true,priority=1)->全副武装</li>

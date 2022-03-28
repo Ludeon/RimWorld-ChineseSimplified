@@ -14,7 +14,7 @@
   <MessageRaidersStealing>来自{1}的{0}准备带走他们能带走的战利品并离开。</MessageRaidersStealing>
 
   <!-- EN: {0} from {1} have arrived and are attacking! More are on the way and will arrive in {2}. -->
-  <MessageCaravanDetectedRaidArrived>来自{1}的{0}已抵达并正在攻击。更多的袭击将在{2}抵达。</MessageCaravanDetectedRaidArrived>
+  <MessageCaravanDetectedRaidArrived>来自{1}的{0}已抵达并正在攻击。 更多的袭击将在{2}抵达。</MessageCaravanDetectedRaidArrived>
 
   <!-- EN: {0} from {1} are leaving. -->
   <MessageRaidersLeaving>来自{1}的{0}准备离开了。</MessageRaidersLeaving>
@@ -69,14 +69,14 @@
   <MessageOutOfNearbyFuelFor>{PAWN_labelShort}在附近找不到为{GUN_label}保留的{FUEL}。</MessageOutOfNearbyFuelFor>
 
   <!-- EN: Warning: {ANIMAL_kindBasePlural} have a {1} base chance to attack when harmed. Chance depends on range and hunter stealth stat. -->
-  <MessageAnimalsGoPsychoHunted>警告：{ANIMAL_kindBasePlural}在受到伤害后通常会发动攻击，步枪射程距离下{1}几率，越近则越高，狩猎隐蔽率可有效降低被攻击的几率。</MessageAnimalsGoPsychoHunted>
+  <MessageAnimalsGoPsychoHunted>警告：{ANIMAL_kindBasePlural}在受到伤害后通常会发动攻击， 步枪射程距离下{1}几率， 越近则越高， 狩猎隐蔽率可有效降低被攻击的几率。</MessageAnimalsGoPsychoHunted>
   <!-- EN: Warning: {ANIMAL_kindBasePlural} may attack upon failed taming attempts ({1} chance). -->
   <MessageAnimalManhuntsOnTameFailed>警告：{ANIMAL_kindBasePlural}在驯服失败后通常会发动攻击（{1}几率）。</MessageAnimalManhuntsOnTameFailed>
   <!-- EN: Only those with the insect sympathy trait can tame {INSECT_indefinite}. -->
   <MessageInsectTameDesignated>只有那些具有昆虫同情特性的人才能驯服{INSECT_indefinite}。</MessageInsectTameDesignated>
 
   <!-- EN: Warning: The {PAWN_labelShort} is hostile and will attack while your colonist tries to tame it. -->
-  <MessageInsectsHostileOnTaming>警告：{PAWN_labelShort}变得敌对，将会在你的殖民者试图驯服时进行攻击。</MessageInsectsHostileOnTaming>
+  <MessageInsectsHostileOnTaming>警告：{PAWN_labelShort}变得敌对， 将会在你的殖民者试图驯服时进行攻击。</MessageInsectsHostileOnTaming>
   
   <!-- EN: New recruit -->
   <LetterLabelMessageRecruitSuccess>新人加入</LetterLabelMessageRecruitSuccess>
@@ -85,9 +85,9 @@
   <!-- EN: {RECRUITER_labelShort} successfully tamed {1}. -->
   <MessageTameSuccess>{RECRUITER_labelShort}成功驯服了{1}。</MessageTameSuccess>
   <!-- EN: {RECRUITER_labelShort} successfully tamed {1}. It is now called {RECRUITEE_nameFull}. -->
-  <MessageTameAndNameSuccess>{RECRUITER_labelShort}成功驯服了{1}，并将{RECRUITEE_objective}起名为{RECRUITEE_nameFull}。</MessageTameAndNameSuccess>
+  <MessageTameAndNameSuccess>{RECRUITER_labelShort}成功驯服了{1}， 并将{RECRUITEE_objective}起名为{RECRUITEE_nameFull}。</MessageTameAndNameSuccess>
   <!-- EN: There is no suitable animal pen for {ANIMAL_labelShort}. It will eventually roam away. -->
-  <MessageTameNoSuitablePens>没有适用于{ANIMAL_labelShort}的畜栏。它最终会迁徙走。</MessageTameNoSuitablePens>
+  <MessageTameNoSuitablePens>没有适用于{ANIMAL_labelShort}的畜栏。 它最终会迁徙走。</MessageTameNoSuitablePens>
   <!-- EN: {RECRUITEE} has joined your colony. -->
   <MessageRecruitJoinOfferAccepted>{RECRUITEE}加入了你的殖民地。</MessageRecruitJoinOfferAccepted>
 
@@ -122,9 +122,9 @@
   <!-- EN: Nothing can remove thick roofs. -->
   <MessageNothingCanRemoveThickRoofs>无法移除厚山岩顶。</MessageNothingCanRemoveThickRoofs>
   <!-- EN: This is already in storage and will be moved to high-priority storage as necessary. -->
-  <MessageAlreadyInStorage>该物品已在储存区内，将会在必要时被搬运至更高优先级的储存区内。</MessageAlreadyInStorage>
+  <MessageAlreadyInStorage>该物品已在储存区内， 将会在必要时被搬运至更高优先级的储存区内。</MessageAlreadyInStorage>
   <!-- EN: Must designate corpse or downed character with strippable apparel. -->
-  <MessageMustDesignateStrippable>必须指定穿有衣物的尸体、倒地角色，或者囚犯。</MessageMustDesignateStrippable>
+  <MessageMustDesignateStrippable>必须指定穿有衣物的尸体、倒地角色， 或者囚犯。</MessageMustDesignateStrippable>
   <!-- EN: Must designate tame animal that belongs to the colony. -->
   <MessageMustDesignateSlaughterable>必须指定属于殖民地的已驯服的动物。</MessageMustDesignateSlaughterable>
   <!-- EN: Must designate full graves or containers. -->
@@ -142,10 +142,10 @@
   <!-- EN: There are no animal beds available. -->
   <MessageNoAnimalBeds>没有可用的动物睡眠点或床铺。</MessageNoAnimalBeds>
   <!-- EN: Operation requires {0} or better, but {PAWN_labelShort}'s current medical care mode is "{2}". -->
-  <MessageTooLowMedCare>该手术要求医疗供应为{0}或更好，但{PAWN_labelShort}的当前医疗供应是「{2}」。</MessageTooLowMedCare>
+  <MessageTooLowMedCare>该手术要求医疗供应为{0}或更好， 但{PAWN_labelShort}的当前医疗供应是「{2}」。</MessageTooLowMedCare>
   
   <!-- EN: {PAWN_labelShort} has died. Cause: {1}. -->
-  <PawnDiedBecauseOf>{PAWN_labelShort}已死亡。原因：{1}。</PawnDiedBecauseOf>
+  <PawnDiedBecauseOf>{PAWN_labelShort}已死亡。 原因：{1}。</PawnDiedBecauseOf>
   <!-- EN: {1_labelShort} has died. -->
   <PawnDied>{1_labelShort}已死亡。</PawnDied>
 
@@ -177,7 +177,7 @@
   <MessageWentOverPsychicEntropyLimit>{PAWN_labelShort}已经超过了心灵熵值的常规限制。</MessageWentOverPsychicEntropyLimit>
 
   <!-- EN: No handler can tame {ANIMAL_kindBase} (requires level {1} in {2}, best handler {HANDLER_labelShort} has {4}). -->
-  <MessageNoHandlerSkilledEnough>无人可以驯服{ANIMAL_kindBase}（要求{2}{1}级，技能最高的驯兽师{HANDLER_labelShort}为{4}级）。</MessageNoHandlerSkilledEnough>
+  <MessageNoHandlerSkilledEnough>无人可以驯服{ANIMAL_kindBase}（要求{2}{1}级， 技能最高的驯兽师{HANDLER_labelShort}为{4}级）。</MessageNoHandlerSkilledEnough>
   
   <!-- EN: {EATEN_labelShort} has been eaten by {PREDATOR}. -->
   <MessageEatenByPredator>{EATEN_labelShort}被{PREDATOR}吃掉了。</MessageEatenByPredator>
@@ -185,7 +185,7 @@
   <MessageAttackedByPredator>{PREY_labelShort}正被{PREDATOR}攻击！</MessageAttackedByPredator>
 
   <!-- EN: {PAWN_labelShort} has started to roam away! {PAWN_pronoun} will leave the map unless an animal handler ropes {PAWN_objective} back to a pen. -->
-  <MessageRoamerLeaving>{PAWN_labelShort}已经开始迁徙了！ {PAWN_pronoun}会离开地图，除非有驯兽师将{PAWN_objective}牵引回畜栏内。</MessageRoamerLeaving>
+  <MessageRoamerLeaving>{PAWN_labelShort}已经开始迁徙了！ {PAWN_pronoun}会离开地图， 除非有驯兽师将{PAWN_objective}牵引回畜栏内。</MessageRoamerLeaving>
 
   <!-- EN: A bug hive has reproduced itself. -->
   <MessageHiveReproduced>一个虫巢繁殖出了一个新虫巢。</MessageHiveReproduced>
@@ -202,39 +202,39 @@
   <MessageSocialFight>{PAWN1_labelShort}和{PAWN2_labelShort}打起来了。</MessageSocialFight>
   
   <!-- EN: Colonists are gathering to celebrate {PAWN1_labelShort} and {PAWN2_labelShort}'s marriage. -->
-  <MessageNewMarriageCeremony>殖民者们聚集一堂，准备参加{PAWN1_labelShort}和{PAWN2_labelShort}的婚礼。</MessageNewMarriageCeremony>
+  <MessageNewMarriageCeremony>殖民者们聚集一堂， 准备参加{PAWN1_labelShort}和{PAWN2_labelShort}的婚礼。</MessageNewMarriageCeremony>
   <!-- EN: {PAWN1_labelShort} and {PAWN2_labelShort} are beginning their marriage ceremony! -->
   <MessageMarriageCeremonyStarts>{PAWN1_labelShort}和{PAWN2_labelShort}开始举行婚礼庆典！</MessageMarriageCeremonyStarts>
   <!-- EN: The marriage ceremony for {PAWN1_labelShort} and {PAWN2_labelShort} has been called off. -->
   <MessageMarriageCeremonyCalledOff>{PAWN1_labelShort}和{PAWN2_labelShort}的婚礼取消了。</MessageMarriageCeremonyCalledOff>
   <!-- EN: {PAWN1_labelShort} and {PAWN2_labelShort} have married. Colonists are now celebrating the occasion. -->
-  <MessageNewlyMarried>{PAWN1_labelShort}和{PAWN2_labelShort}结婚了。殖民者们正在庆祝。</MessageNewlyMarried>
+  <MessageNewlyMarried>{PAWN1_labelShort}和{PAWN2_labelShort}结婚了。 殖民者们正在庆祝。</MessageNewlyMarried>
   <!-- EN: The marriage ceremony for {PAWN1_labelShort} and {PAWN2_labelShort} has finished. -->
   <MessageMarriageCeremonyAfterPartyFinished>{PAWN1_labelShort}和{PAWN2_labelShort}的婚礼庆典结束了。</MessageMarriageCeremonyAfterPartyFinished>
   
   <!-- EN: {HUMAN_labelShort} and {ANIMAL_labelShort} have formed a bond. -->
   <MessageNewBondRelation>{HUMAN_labelShort}和{ANIMAL_labelShort}感情深厚达成牵绊。</MessageNewBondRelation>
   <!-- EN: {HUMAN_labelShort} and {1} have formed a bond. {HUMAN_labelShort} has named {ANIMAL_objective} {ANIMAL_nameFull}. -->
-  <MessageNewBondRelationNewName>{HUMAN_labelShort}和{1}感情深厚达成牵绊。{HUMAN_labelShort}给{ANIMAL_objective} 起名{ANIMAL_nameFull}。</MessageNewBondRelationNewName>
+  <MessageNewBondRelationNewName>{HUMAN_labelShort}和{1}感情深厚达成牵绊。 {HUMAN_labelShort}给{ANIMAL_objective} 起名{ANIMAL_nameFull}。</MessageNewBondRelationNewName>
   
   <!-- EN: {ANIMAL} has had a mental break because of {HUMAN_labelShort}'s death. -->
-  <MessageBondedAnimalMentalBreak>因为{ANIMAL}的死亡，{HUMAN_labelShort}精神崩溃了。</MessageBondedAnimalMentalBreak>
+  <MessageBondedAnimalMentalBreak>因为{ANIMAL}的死亡， {HUMAN_labelShort}精神崩溃了。</MessageBondedAnimalMentalBreak>
   <!-- EN: {ANIMAL_kindIndef} named {ANIMAL_label} has had a mental break because of {HUMAN_labelShort}'s death. -->
-  <MessageNamedBondedAnimalMentalBreak>因为{HUMAN_labelShort}的死亡，名为{ANIMAL_label}的{ANIMAL_kindIndef}精神崩溃了。</MessageNamedBondedAnimalMentalBreak>
+  <MessageNamedBondedAnimalMentalBreak>因为{HUMAN_labelShort}的死亡， 名为{ANIMAL_label}的{ANIMAL_kindIndef}精神崩溃了。</MessageNamedBondedAnimalMentalBreak>
   <!-- EN: {0} animals have a mental break because of {HUMAN_labelShort}'s death. -->
-  <MessageBondedAnimalsMentalBreak>因为{HUMAN_labelShort}的死亡，{0}动物精神崩溃了。</MessageBondedAnimalsMentalBreak>
+  <MessageBondedAnimalsMentalBreak>因为{HUMAN_labelShort}的死亡， {0}动物精神崩溃了。</MessageBondedAnimalsMentalBreak>
   
   <!-- EN: {SURGEON_labelShort} has successfully removed {PATIENT_labelShort}'s {HEDIFF}. -->
   <MessageSuccessfullyRemovedHediff>{SURGEON_labelShort}成功移除了{PATIENT_labelShort}的{HEDIFF}。</MessageSuccessfullyRemovedHediff>
   
   <!-- EN: Chunks of a spacecraft have impacted nearby. You can deconstruct them to yield resources. -->
-  <MessageShipChunkDrop>几块飞船碎片从太空掉落至附近。\n\n你可以拆除它们来获取有用的资源。</MessageShipChunkDrop>
+  <MessageShipChunkDrop>几块飞船碎片从太空掉落至附近。 \n\n你可以拆除它们来获取有用的资源。</MessageShipChunkDrop>
 
   <!-- EN: Some items cannot be traded because of:  -->
-  <MessageCannotSellItemsReason>一些物品无法交易，原因：</MessageCannotSellItemsReason>
+  <MessageCannotSellItemsReason>一些物品无法交易， 原因：</MessageCannotSellItemsReason>
 
   <!-- EN: {WORKER_labelShort} failed while constructing a {0}. Some resources have been wasted. -->
-  <MessageConstructionFailed>{WORKER_labelShort}建造{0}失败。浪费了部分材料。</MessageConstructionFailed>
+  <MessageConstructionFailed>{WORKER_labelShort}建造{0}失败。 浪费了部分材料。</MessageConstructionFailed>
 
   <!-- EN: Screenshot saved as: {0} -->
   <MessageScreenshotSavedAs>屏幕截图已保存至：{0}</MessageScreenshotSavedAs>
@@ -252,7 +252,7 @@
   <MessageRottedAwayInStorage>储存区中的{1_label}腐烂了。</MessageRottedAwayInStorage>
   
   <!-- EN: {PAWN_labelShort} has gotten food poisoning from: {FOOD_labelShort}. Cause: {2}. -->
-  <MessageFoodPoisoning>{PAWN_labelShort}因食用{FOOD_labelShort}而导致食物中毒。原因：{2}。</MessageFoodPoisoning>
+  <MessageFoodPoisoning>{PAWN_labelShort}因食用{FOOD_labelShort}而导致食物中毒。 原因：{2}。</MessageFoodPoisoning>
   
   <!-- EN: {0} has been removed from the caravan. -->
   <MessagePawnLostWhileFormingCaravan>{0}已移出远行队。</MessagePawnLostWhileFormingCaravan>
@@ -270,11 +270,11 @@
   <MessageMaxPlanetCoveragePerformanceWarning>警告：生成整个星球可能需要很长的时间。</MessageMaxPlanetCoveragePerformanceWarning>
 
   <!-- EN: {0} has died because of cold. -->
-  <MessagePlantDiedOfCold>由于温度过低，{0}已死亡。</MessagePlantDiedOfCold>
+  <MessagePlantDiedOfCold>由于温度过低， {0}已死亡。</MessagePlantDiedOfCold>
   <!-- EN: {0} has died from rotting due to being left unharvested. -->
-  <MessagePlantDiedOfRot_LeftUnharvested>由于未及时收获，{0}已腐烂死亡。</MessagePlantDiedOfRot_LeftUnharvested>
+  <MessagePlantDiedOfRot_LeftUnharvested>由于未及时收获， {0}已腐烂死亡。</MessagePlantDiedOfRot_LeftUnharvested>
   <!-- EN: {0} has died due to being exposed to light. -->
-  <MessagePlantDiedOfRot_ExposedToLight>由于暴露在光照下，{0}已死亡。</MessagePlantDiedOfRot_ExposedToLight>
+  <MessagePlantDiedOfRot_ExposedToLight>由于暴露在光照下， {0}已死亡。</MessagePlantDiedOfRot_ExposedToLight>
   <!-- EN: {0} has died from rotting. -->
   <MessagePlantDiedOfRot>{0}已腐烂死亡。</MessagePlantDiedOfRot>
   <!-- EN: {0} has died because of poison. -->
@@ -300,10 +300,10 @@
   <MessageSettledInExistingMap>你已成功在新区域建立殖民地。</MessageSettledInExistingMap>
   
   <!-- EN: {PAWN_labelShort}'s {2} has healed. Cause: {0} -->
-  <MessagePermanentWoundHealed>{PAWN_labelShort}的{2}已治愈。原因：{0}</MessagePermanentWoundHealed>
+  <MessagePermanentWoundHealed>{PAWN_labelShort}的{2}已治愈。 原因：{0}</MessagePermanentWoundHealed>
   
   <!-- EN: [PAWN_nameDef] has recovered and decided to leave. -->
-  <MessageRescueeDidntJoin>[PAWN_nameDef]已经恢复，决定离开。</MessageRescueeDidntJoin>
+  <MessageRescueeDidntJoin>[PAWN_nameDef]已经恢复， 决定离开。</MessageRescueeDidntJoin>
   
   <!-- EN: Some transport pods are unreachable. -->
   <MessageTransporterUnreachable>一些运输舱无法到达。</MessageTransporterUnreachable>
@@ -311,11 +311,11 @@
   <MessageTransportersNotAdjacent>所有连接到所选运输舱的发射器必须相邻。</MessageTransportersNotAdjacent>
   
   <!-- EN: The loading process has been canceled because one of the transport pods has been destroyed. -->
-  <MessageTransportersLoadCanceled_TransporterDestroyed>由于其中一个运输舱被毁，装载进程已取消。</MessageTransportersLoadCanceled_TransporterDestroyed>
+  <MessageTransportersLoadCanceled_TransporterDestroyed>由于其中一个运输舱被毁， 装载进程已取消。</MessageTransportersLoadCanceled_TransporterDestroyed>
   <!-- EN: The loading process has been canceled because the shuttle has been destroyed. -->
-  <MessageTransporterSingleLoadCanceled_TransporterDestroyed>因为穿梭机被毁，因此装载的工作被取消了。</MessageTransporterSingleLoadCanceled_TransporterDestroyed>
+  <MessageTransporterSingleLoadCanceled_TransporterDestroyed>因为穿梭机被毁， 因此装载的工作被取消了。</MessageTransporterSingleLoadCanceled_TransporterDestroyed>
   <!-- EN: The loading process has been canceled because one of the pod launchers has been destroyed. -->
-  <MessageTransportersLoadCanceled_FuelingPortGiverDeSpawned>由于其中一个发射器被毁，装载进程已取消。</MessageTransportersLoadCanceled_FuelingPortGiverDeSpawned>
+  <MessageTransportersLoadCanceled_FuelingPortGiverDeSpawned>由于其中一个发射器被毁， 装载进程已取消。</MessageTransportersLoadCanceled_FuelingPortGiverDeSpawned>
   
   <!-- EN: Assigned items and people will now be loaded into the transport pods. -->
   <MessageTransportersLoadingProcessStarted>指定的物品和人员将被装载到运输舱。</MessageTransportersLoadingProcessStarted>
@@ -325,17 +325,17 @@
   <!-- EN: Your transport pods have arrived. -->
   <MessageTransportPodsArrived>你的运输舱已经抵达目的地。</MessageTransportPodsArrived>
   <!-- EN: Your transport pods have arrived, but since there were no colonists inside, the contents are lost. -->
-  <MessageTransportPodsArrivedAndLost>你的运输舱已经抵达目的地，但由于里面没有殖民者，货物已丢失。</MessageTransportPodsArrivedAndLost>
+  <MessageTransportPodsArrivedAndLost>你的运输舱已经抵达目的地， 但由于里面没有殖民者， 货物已丢失。</MessageTransportPodsArrivedAndLost>
   <!-- EN: Your transport pods have arrived. The contents have been added to {0}. -->
-  <MessageTransportPodsArrivedAndAddedToCaravan>你的运输舱已抵达目的地。内部的成员或货物已加入{0}。</MessageTransportPodsArrivedAndAddedToCaravan>
+  <MessageTransportPodsArrivedAndAddedToCaravan>你的运输舱已抵达目的地。 内部的成员或货物已加入{0}。</MessageTransportPodsArrivedAndAddedToCaravan>
   
   <!-- EN: Transport pod loading complete. Launch when ready. -->
-  <MessageFinishedLoadingTransporters>运输舱装载完毕。随时准备发射。</MessageFinishedLoadingTransporters>
+  <MessageFinishedLoadingTransporters>运输舱装载完毕。 随时准备发射。</MessageFinishedLoadingTransporters>
   <!-- EN: Shuttle is loaded with required cargo and can launch when ready. -->
-  <MessageFinishedLoadingTransporterSingle>穿梭机已装载完所需的货物，随时可以发射。</MessageFinishedLoadingTransporterSingle>
+  <MessageFinishedLoadingTransporterSingle>穿梭机已装载完所需的货物， 随时可以发射。</MessageFinishedLoadingTransporterSingle>
 
   <!-- EN: Your {1} can't finish loading the transport pods because some items or people became unavailable ({2_labelShort}). -->
-  <MessageCantLoadMoreIntoTransporters>你的{1}无法完成运输仓的装载，因为某些物品或人员变得不可用({2_labelShort})。</MessageCantLoadMoreIntoTransporters>
+  <MessageCantLoadMoreIntoTransporters>你的{1}无法完成运输仓的装载， 因为某些物品或人员变得不可用({2_labelShort})。</MessageCantLoadMoreIntoTransporters>
   
   <!-- EN: Selected destination is invalid. -->
   <MessageTransportPodsDestinationIsInvalid>所选目的地无效。</MessageTransportPodsDestinationIsInvalid>
@@ -364,23 +364,23 @@
   <MessageWouldReplaceLockedApparel>不能穿上：这将替换服装{1_labelShort}拒绝解除。</MessageWouldReplaceLockedApparel>
   
   <!-- EN: Because they are bonded, slaughtering {DESIGNATED_labelShort} will make {BONDED_labelShort} unhappy. -->
-  <MessageSlaughteringBondedAnimal>由于他们之间是牵绊关系，屠宰{DESIGNATED_labelShort}会使{BONDED_labelShort}不高兴。</MessageSlaughteringBondedAnimal>
+  <MessageSlaughteringBondedAnimal>由于他们之间是牵绊关系， 屠宰{DESIGNATED_labelShort}会使{BONDED_labelShort}不高兴。</MessageSlaughteringBondedAnimal>
   <!-- EN: Because they are bonded, releasing {DESIGNATED_labelShort} will make {BONDED_labelShort} unhappy. -->
-  <MessageReleaseBondedAnimal>因为他们有牵绊关系，释放{DESIGNATED_labelShort}将使{BONDED_labelShort}不高兴。</MessageReleaseBondedAnimal>
+  <MessageReleaseBondedAnimal>因为他们有牵绊关系， 释放{DESIGNATED_labelShort}将使{BONDED_labelShort}不高兴。</MessageReleaseBondedAnimal>
   
   <!-- EN: {0} has run out of food. -->
   <MessageCaravanRanOutOfFood>{0}的食物已耗尽({PAWN_label})。</MessageCaravanRanOutOfFood>
   <!-- EN: {PAWN_definite}'s corpse has been picked up by the caravan. It is heavy and may immobilize the caravan, but can be left behind in the caravan items tab. -->
-  <MessageCaravanDeathCorpseAddedToInventory>{PAWN_definite}的尸体被商队拾起。因为尸体很重，可能会限制商队的行动，可以在商队的「物品」选项卡找到并丢弃。</MessageCaravanDeathCorpseAddedToInventory>
+  <MessageCaravanDeathCorpseAddedToInventory>{PAWN_definite}的尸体被商队拾起。 因为尸体很重， 可能会限制商队的行动， 可以在商队的「物品」选项卡找到并丢弃。</MessageCaravanDeathCorpseAddedToInventory>
 
   <!-- EN: To form a caravan, select your own colony or a site where you have people. -->
-  <MessageSelectOwnBaseToFormCaravan>如要组建远行队，请选择你自己的殖民地或留有你的殖民者的地点。</MessageSelectOwnBaseToFormCaravan>
+  <MessageSelectOwnBaseToFormCaravan>如要组建远行队， 请选择你自己的殖民地或留有你的殖民者的地点。</MessageSelectOwnBaseToFormCaravan>
 
   <!-- EN: At this resolution and UI scale, the game interface would not fit on-screen. Please reduce UI scale or increase resolution. -->
-  <MessageScreenResTooSmallForUIScale>在当前的分辨率和界面缩放比例下，游戏界面将不能正常在屏幕上显示。请减小界面缩放比例或者增大分辨率。</MessageScreenResTooSmallForUIScale>
+  <MessageScreenResTooSmallForUIScale>在当前的分辨率和界面缩放比例下， 游戏界面将不能正常在屏幕上显示。 请减小界面缩放比例或者增大分辨率。</MessageScreenResTooSmallForUIScale>
   
   <!-- EN: You have to reform the caravan now. Everyone left behind will be abandoned. -->
-  <MessageYouHaveToReformCaravanNow>你现在必须重组远行队。留下的所有人将会被遗弃。</MessageYouHaveToReformCaravanNow>
+  <MessageYouHaveToReformCaravanNow>你现在必须重组远行队。 留下的所有人将会被遗弃。</MessageYouHaveToReformCaravanNow>
   
   <!-- EN: {0} from {1} are attacking your {2}. -->
   <MessageDefendersAttacking>来自{1}的{0}正在攻击你的{2}。</MessageDefendersAttacking>
@@ -394,7 +394,7 @@
   <!-- EN: To self-tend, {1_labelShort} must also be assigned to Doctor work. -->
   <MessageSelfTendUnsatisfied>{1_labelShort}还必须被指派「医生」工作才能自我治疗。</MessageSelfTendUnsatisfied>
   <!-- EN: {1_labelShort} is incapable of doing Doctor work, and so cannot ever self-tend. -->
-  <MessageCannotSelfTendEver>{1_labelShort}无法从事「医生」工作，所以永远无法自我治疗。</MessageCannotSelfTendEver>
+  <MessageCannotSelfTendEver>{1_labelShort}无法从事「医生」工作， 所以永远无法自我治疗。</MessageCannotSelfTendEver>
   
   <!-- EN: This tile is impassable. -->
   <MessageCantAddWaypointBecauseImpassable>此格子无法通行。</MessageCantAddWaypointBecauseImpassable>
@@ -406,12 +406,12 @@
   <MessageCantRemoveWaypointBecauseFirst>此路径点无法移除。</MessageCantRemoveWaypointBecauseFirst>
   
   <!-- EN: None of your wardens is capable of violence. The execution won't be performed. -->
-  <MessageCantDoExecutionBecauseNoWardenCapableOfViolence>没有可行使暴力行为的狱卒。处决不会被执行。</MessageCantDoExecutionBecauseNoWardenCapableOfViolence>
+  <MessageCantDoExecutionBecauseNoWardenCapableOfViolence>没有可行使暴力行为的狱卒。 处决不会被执行。</MessageCantDoExecutionBecauseNoWardenCapableOfViolence>
   
   <!-- EN: Area is now safe. You can reform the caravan on the world map. -->
-  <MessageCanReformCaravanNowNoMoreEnemies>该地区现在是安全的。你可以在世界地图上重组远行队。</MessageCanReformCaravanNowNoMoreEnemies>
+  <MessageCanReformCaravanNowNoMoreEnemies>该地区现在是安全的。 你可以在世界地图上重组远行队。</MessageCanReformCaravanNowNoMoreEnemies>
   <!-- EN: Area is now safe, but some unexplored rooms remain. You can explore further or reform the caravan on the world map. -->
-  <MessageCanReformCaravanNowNoMoreEnemiesButUnexploredAreas>该地区现在是安全的，但仍有一些未探索的房间。你可以进一步探索或在世界地图上重组远行队。</MessageCanReformCaravanNowNoMoreEnemiesButUnexploredAreas>
+  <MessageCanReformCaravanNowNoMoreEnemiesButUnexploredAreas>该地区现在是安全的， 但仍有一些未探索的房间。 你可以进一步探索或在世界地图上重组远行队。</MessageCanReformCaravanNowNoMoreEnemiesButUnexploredAreas>
 
   <!-- EN: Cannot banish {1_labelShort} since {1_pronoun} cannot walk. -->
   <MessageCantBanishDownedPawn>在{1_labelShort}还能行走之前不能放逐{1_pronoun}。</MessageCantBanishDownedPawn>
@@ -435,9 +435,9 @@
   <MessagePawnResurrected>{0}重新获得了生命！</MessagePawnResurrected>
 
   <!-- EN: You have failed to rescue {PAWN_labelShort}. This will make {RELATIVE_labelShort} sad. -->
-  <MessageFailedToRescueRelative>你没能救援{PAWN_labelShort}。这让{RELATIVE_labelShort}感到悲伤。</MessageFailedToRescueRelative>
+  <MessageFailedToRescueRelative>你没能救援{PAWN_labelShort}。 这让{RELATIVE_labelShort}感到悲伤。</MessageFailedToRescueRelative>
   <!-- EN: You have rescued {PAWN_labelShort}. This will make {RELATIVE_labelShort} happy. -->
-  <MessageRescuedRelative>你救援了{PAWN_labelShort}。这让{RELATIVE_labelShort}感到开心。</MessageRescuedRelative>
+  <MessageRescuedRelative>你救援了{PAWN_labelShort}。 这让{RELATIVE_labelShort}感到开心。</MessageRescuedRelative>
 
   <!-- EN: The tornado has left the map. -->
   <MessageTornadoLeftMap>龙卷风已离开此地。</MessageTornadoLeftMap>
@@ -451,10 +451,10 @@
   <MessageWarningCavePlantsExposedToLight>警告：{0}暴露在光照下无法生存。</MessageWarningCavePlantsExposedToLight>
 
   <!-- EN: {PAWN_labelShort} couldn't reach {OLDTARGET_label} so {PAWN_pronoun} decided to redirect {PAWN_possessive} anger at {TARGET_label}. -->
-  <MessageTargetedTantrumChangedTarget>{PAWN_labelShort}无法接触{OLDTARGET_label}，于是{PAWN_pronoun}决定转而将{PAWN_possessive}怒火发泄在{TARGET_label}身上。</MessageTargetedTantrumChangedTarget>
+  <MessageTargetedTantrumChangedTarget>{PAWN_labelShort}无法接触{OLDTARGET_label}， 于是{PAWN_pronoun}决定转而将{PAWN_possessive}怒火发泄在{TARGET_label}身上。</MessageTargetedTantrumChangedTarget>
 
   <!-- EN: {PAWN_labelShort} couldn't reach {OLDTARGET_label} so {PAWN_pronoun} decided to redirect {PAWN_possessive} anger at {TARGET_label}. -->
-  <MessageTargetedInsultingSpreeChangedTarget>{PAWN_labelShort}无法接触{OLDTARGET_label}，于是{PAWN_pronoun}决定转而将{PAWN_possessive}怒火发泄在{TARGET_label}身上。</MessageTargetedInsultingSpreeChangedTarget>
+  <MessageTargetedInsultingSpreeChangedTarget>{PAWN_labelShort}无法接触{OLDTARGET_label}， 于是{PAWN_pronoun}决定转而将{PAWN_possessive}怒火发泄在{TARGET_label}身上。</MessageTargetedInsultingSpreeChangedTarget>
 
   <!-- EN: {PAWN_labelShort} has decided to redirect {PAWN_possessive} anger at {TARGET_label}. -->
   <MessageMurderousRageChangedTarget>{PAWN_labelShort}决定转而将[PAWN_possessive]怒火发泄在{TARGET_label}身上。</MessageMurderousRageChangedTarget>
@@ -465,7 +465,7 @@
   <MessageRoofIncompatibleWithPlant>无法在{0}上建造屋顶。</MessageRoofIncompatibleWithPlant>
 
   <!-- EN: To leave the area, use the 'reform caravan' button in the world view. -->
-  <MessagePlayerTriedToLeaveMapViaExitGrid_CanReform>如果要离开此区域，在世界视图使用“重组远行队”按钮。</MessagePlayerTriedToLeaveMapViaExitGrid_CanReform>
+  <MessagePlayerTriedToLeaveMapViaExitGrid_CanReform>如果要离开此区域， 在世界视图使用“重组远行队”按钮。</MessagePlayerTriedToLeaveMapViaExitGrid_CanReform>
   <!-- EN: You can't leave the map now. -->
   <MessagePlayerTriedToLeaveMapViaExitGrid_CantReform>你现在不能离开地图。</MessagePlayerTriedToLeaveMapViaExitGrid_CantReform>
 
@@ -533,15 +533,15 @@
   <GoodwillChangeReason_CommanderLost>战士失踪</GoodwillChangeReason_CommanderLost>
 
   <!-- EN: {0} accept your gift but they don't appreciate it. -->
-  <MessageGiftGivenButNotAppreciated>{0}接受了你的礼物，但并无谢意。</MessageGiftGivenButNotAppreciated>
+  <MessageGiftGivenButNotAppreciated>{0}接受了你的礼物， 但并无谢意。</MessageGiftGivenButNotAppreciated>
 
   <!-- EN: The caravan is already encumbered and can't carry anything else. -->
-  <MessageCantGiveGiftBecauseCantCarryEncumbered>远行队已步履维艰，无法再搬运更多东西。</MessageCantGiveGiftBecauseCantCarryEncumbered>
+  <MessageCantGiveGiftBecauseCantCarryEncumbered>远行队已步履维艰， 无法再搬运更多东西。</MessageCantGiveGiftBecauseCantCarryEncumbered>
   <!-- EN: The caravan can't carry that much. The gifts weigh {0} but the caravan can only carry {1} more. -->
-  <MessageCantGiveGiftBecauseCantCarry>远行队无法搬运这么多。这些礼物总重为{0}，但远行队只能再多搬运{1}。</MessageCantGiveGiftBecauseCantCarry>
+  <MessageCantGiveGiftBecauseCantCarry>远行队无法搬运这么多。 这些礼物总重为{0}， 但远行队只能再多搬运{1}。</MessageCantGiveGiftBecauseCantCarry>
 
   <!-- EN: {0} has formed and is now traveling on the world map. -->
-  <MessageFormedCaravan>{0}已组建，且正在世界地图上前行。</MessageFormedCaravan>
+  <MessageFormedCaravan>{0}已组建， 且正在世界地图上前行。</MessageFormedCaravan>
   <!-- EN: Orders -->
   <MessageFormedCaravan_Orders>命令</MessageFormedCaravan_Orders>
 
@@ -559,11 +559,11 @@
   <MessageBillValidationStoreZoneInsufficient>{1}的“{0}”无法再将所有产品交付至存储区{2}。</MessageBillValidationStoreZoneInsufficient>
 
   <!-- EN: Because of a lack of taming maintenance, {1_labelShort} has returned to the wild. -->
-  <MessageAnimalReturnedWild>由于缺乏维持训练，{1_labelShort}回归了野生。</MessageAnimalReturnedWild>
+  <MessageAnimalReturnedWild>由于缺乏维持训练， {1_labelShort}回归了野生。</MessageAnimalReturnedWild>
   <!-- EN: {1_labelShort} has been returned to the wild. -->
   <MessageAnimalReturnedWildReleased>{1_labelShort}已被送回野外。</MessageAnimalReturnedWildReleased>
   <!-- EN: Due to a lack of maintenance training, {ANIMAL_labelShort} has lost a skill: {1} -->
-  <MessageAnimalLostSkill>由于缺乏维持训练，{ANIMAL_labelShort}失去了技能：{1}</MessageAnimalLostSkill>
+  <MessageAnimalLostSkill>由于缺乏维持训练， {ANIMAL_labelShort}失去了技能：{1}</MessageAnimalLostSkill>
 
   <!-- EN: Translation report written to {0} -->
   <MessageTranslationReportSaved>翻译报告已保存于{0}</MessageTranslationReportSaved>
@@ -572,7 +572,7 @@
   <MessageCaravanArrivalActionNoLongerValid>{0}无法抵达其目标地点。</MessageCaravanArrivalActionNoLongerValid>
 
   <!-- EN: Too dangerous to re-enter for {0}. -->
-  <MessageEnterCooldownBlocksEntering>直到{0}天过去以前，你不能再度进入此处。</MessageEnterCooldownBlocksEntering>
+  <MessageEnterCooldownBlocksEntering>直到{0}天过去以前， 你不能再度进入此处。</MessageEnterCooldownBlocksEntering>
 
   <!-- EN: {0_labelShort} can now freely use "{1}". -->
   <MessagePermitCooldownFinished>{0_labelShort} 现在可以免费使用 "{1}"。</MessagePermitCooldownFinished>
@@ -586,19 +586,19 @@
   <MessagePrisonerResistanceBroken_RecruitAttempsWillBegin>可以开始尝试招募。</MessagePrisonerResistanceBroken_RecruitAttempsWillBegin>
 
   <!-- EN: Another mod with the package ID {0} is already active. Deactivate {1} before trying to activate this. -->
-  <MessageModWithPackageIdAlreadyEnabled>另一个package ID为{0}的mod已经被激活。在尝试激活之前先关闭{1}。</MessageModWithPackageIdAlreadyEnabled>
+  <MessageModWithPackageIdAlreadyEnabled>另一个package ID为{0}的mod已经被激活。 在尝试激活之前先关闭{1}。</MessageModWithPackageIdAlreadyEnabled>
   <!-- EN: Disable all mods before using this tool. -->
   <MessageDisableModsBeforeCleaningTranslationFiles>在使用此工具前禁用所有mod。</MessageDisableModsBeforeCleaningTranslationFiles>
   <!-- EN: Unpack and then delete all compressed translation files for this language before using this tool. -->
-  <MessageUnpackBeforeCleaningTranslationFiles>在使用此工具之前，请先解压缩并删除此语言的所有压缩文件。</MessageUnpackBeforeCleaningTranslationFiles>
+  <MessageUnpackBeforeCleaningTranslationFiles>在使用此工具之前， 请先解压缩并删除此语言的所有压缩文件。</MessageUnpackBeforeCleaningTranslationFiles>
   <!-- EN: Done. Affected folders: {0} -->
-  <MessageTranslationFilesCleanupDone>完成。受影响的文件夹：{0}</MessageTranslationFilesCleanupDone>
+  <MessageTranslationFilesCleanupDone>完成。 受影响的文件夹：{0}</MessageTranslationFilesCleanupDone>
 
   <!-- EN: One of the translation files ({0}) couldn't be loaded. All XML parsing errors must be resolved first. -->
-  <MessageCantCleanupTranslationFilesBeucaseOfXmlError>无法加载其中一个翻译文件({0})。必须首先解决所有XML解析错误。</MessageCantCleanupTranslationFilesBeucaseOfXmlError>
+  <MessageCantCleanupTranslationFilesBeucaseOfXmlError>无法加载其中一个翻译文件({0})。 必须首先解决所有XML解析错误。</MessageCantCleanupTranslationFilesBeucaseOfXmlError>
 
   <!-- EN: Warning: Capturing {PAWN_nameDef} will anger {PAWN_possessive} faction {PAWN_factionName}. -->
-  <MessageCapturingWillAngerFaction>警告：捕获{PAWN_nameDef}会激怒{PAWN_possessive}派系{PAWN_factionName}。 </MessageCapturingWillAngerFaction>
+  <MessageCapturingWillAngerFaction>警告：捕获{PAWN_nameDef}会激怒{PAWN_possessive}派系{PAWN_factionName}。</MessageCapturingWillAngerFaction>
 
   <!-- EN: Warning: Stripping {PAWN_nameDef} will anger {PAWN_factionName}. -->
   <MessageStrippingWillAngerFaction>警告：剥光{PAWN_nameDef}会激怒{PAWN_factionName}。</MessageStrippingWillAngerFaction>
@@ -618,10 +618,10 @@
   <MessagePawnsLeaving>{0}离开了。</MessagePawnsLeaving>
 
   <!-- EN: The monument has been destroyed because you've built a disallowed building inside. -->
-  <MessageMonumentDestroyedBecauseOfDisallowedBuilding>纪念碑被毁了，因为你在其中建了一座不被允许的建筑。</MessageMonumentDestroyedBecauseOfDisallowedBuilding>
+  <MessageMonumentDestroyedBecauseOfDisallowedBuilding>纪念碑被毁了， 因为你在其中建了一座不被允许的建筑。</MessageMonumentDestroyedBecauseOfDisallowedBuilding>
 
   <!-- EN: Cannot apply: No reachable, un-reserved research bench available. -->
-  <MessageNoResearchBenchForTechprint>不适用：没有可到达，未预留的研究平台。</MessageNoResearchBenchForTechprint>
+  <MessageNoResearchBenchForTechprint>不适用：没有可到达， 未预留的研究平台。</MessageNoResearchBenchForTechprint>
 
   <!-- EN: No valid destination found for {0} -->
   <NoValidDestinationFound>找不到{0}的有效目的地</NoValidDestinationFound>
@@ -631,7 +631,7 @@
   
   <!-- Research -->
   <!-- EN: Warning: Research will not begin until you build a research bench. -->
-  <MessageResearchMenuWithoutBench>警告：只有制造了研究台后，研究才能开始。</MessageResearchMenuWithoutBench>
+  <MessageResearchMenuWithoutBench>警告：只有制造了研究台后， 研究才能开始。</MessageResearchMenuWithoutBench>
 
   <!-- EN: {0_indefinite} has triggered a proximity activator. -->
   <MessageActivatorProximityTriggered>{0_indefinite}触发了一个邻近的激活器。</MessageActivatorProximityTriggered>
@@ -643,7 +643,7 @@
   <MessagePrisonerCannotEquipWeapon>{PAWN_nameDef}是一名囚犯</MessagePrisonerCannotEquipWeapon>
 
   <!-- EN: Warning: {0_nameDef}'s beliefs oppose {1} work. {0_pronoun} may become unhappy. -->
-  <MessageIdeoOpposedWorkTypeSelected>警告：{0_nameDef}的信仰排斥{1}工作。{0_pronoun}可能会变得不快乐。</MessageIdeoOpposedWorkTypeSelected>
+  <MessageIdeoOpposedWorkTypeSelected>警告：{0_nameDef}的信仰排斥{1}工作。 {0_pronoun}可能会变得不快乐。</MessageIdeoOpposedWorkTypeSelected>
 
   <!-- EN: {0} is no longer assigned to {1_nameDef}. -->
   <MessageBedLostAssignment>{0}不再分配给{1_nameDef}。</MessageBedLostAssignment>
@@ -702,7 +702,7 @@
   <!-- EN: this role cannot be played by someone else. -->
   <MessageRitualRoleCannotReplaceRequiredPawn>此角色不能选择其他人。</MessageRitualRoleCannotReplaceRequiredPawn>
   <!-- EN: {0_labelShort} cannot connect to a Gauranlen tree because {0_possessive} connection was recently torn. -->
-  <MessageRitualRolePawnRecentlyTornConnection>{0_labelShort}与树的共鸣最近被打断，当前无法与树共鸣。</MessageRitualRolePawnRecentlyTornConnection>
+  <MessageRitualRolePawnRecentlyTornConnection>{0_labelShort}与树的共鸣最近被打断， 当前无法与树共鸣。</MessageRitualRolePawnRecentlyTornConnection>
   <!-- EN: {0_labelShort} has the same ideoligion as the converter. -->
   <MessageRitualRolePawnHasSameIdeo>{0_labelShort}具有相同的文化特质。</MessageRitualRolePawnHasSameIdeo>
   <!-- EN: {0_labelShort} must be capable of wardening. -->

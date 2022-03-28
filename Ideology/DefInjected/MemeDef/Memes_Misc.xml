@@ -35,33 +35,33 @@
     <li>sacredAnimalListEnd->the cow, the fox, and the bear</li>
   -->
   <AnimalPersonhood.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_AnimalPersonhood)        ->[deity0_name]在[place_summary][place_name]创造出[sacredAnimalList]和人类，并对他们一视同仁。</li>
+    <li>creation(tag=meme_AnimalPersonhood)        ->[deity0_name]在[place_summary][place_name]创造出[sacredAnimalList]和人类， 并对他们一视同仁。</li>
     <li>episode(uses=1,tag=meme_AnimalPersonhood)  ->[deity0_name]在[place_summary][place_name]将动物和人类召集在一起举行了一次盛大的集会。</li>
-    <li>intro(tag=meme_AnimalPersonhood)           ->[deity0_name]用[sacredAnimalListEnd]祝福了[place_summary][place_name]，还教导人类要尊重动物们。</li>
-    <li>conflict(tag=meme_AnimalPersonhood)        ->一个邪恶的[foeLeader]命令狩猎野生动物，[foeLeader_possessive][foeSoldiers]使用[place_personalWeapon]残忍的猎杀了它们。</li>
-    <li>founderJoin(tag=meme_AnimalPersonhood)     ->[deity0_name][revelationAdverb]来到一名叫[founderName]的[place_job]面前，诉说着和[veneratedAnimal]有关的事。不过[founderName]就是[veneratedAnimal]，同样的[veneratedAnimal]也即是[founderName]，[founder_pronoun]明白了[deity0_name]的计划。</li>
-    <li>founderJoin(tag=meme_AnimalPersonhood)     ->一位名叫[founderName]的[place_job]解救了很多被残暴主人奴役的动物，并把它们带到了[deity0_name]位于[altarRoomLabel]的圣所中。</li>
-    <li>victory(tag=meme_AnimalPersonhood)         ->[founderName]使用[deity0_name]的声音呼唤[memberNamePlural]和动物们团结一致，奋勇前进，狠狠的践踏了[foeLeader]和[foeLeader_possessive][foeSoldiers]。</li>
-    <li>setup(tag=meme_AnimalPersonhood)           ->[founderName]二十年如一日的生活在森林中，研究各种动物并与其进行沟通联系。[founder_pronoun]逐渐理解了它们的各种真实美德并且创立了我们的各种活动。</li>
-    <li>story(uses=1,tag=meme_AnimalPersonhood)    ->[founderName]去田野和森林中与动物交流，并与他们平等相处。</li>
-    <li>lessonIntro(tag=meme_AnimalPersonhood)         ->在每天与[veneratedOrAnyAnimal]的交流联系过程中，我学会了真真切切的去倾听它们。它们一次又一次的以自己的方式向我重复传达它们的信息：</li>
-    <li>lesson(tag=meme_AnimalPersonhood)              ->动物是我们在这个世界上的伙伴，认为它们低人一等的态度是不对的</li>
-    <li>lessonReinforcement(tag=meme_AnimalPersonhood) ->直到[veneratedOrAnyAnimal]对我低声细语前，我也是不相信的。</li>
-    <li>archistBasis(tag=meme_AnimalPersonhood)    ->自从超凡世界苏醒后，它们眼中的人类和动物在道德结构上并没有明显的区别。</li>
-    <li>archistFact(tag=meme_AnimalPersonhood)     ->超凡世界的道德结构水平远高于有机生命体。在优势如此之大的它们眼中，人和动物都是一样的。</li>
-    <li>archistProphecy(tag=meme_AnimalPersonhood) ->[inTheEnd]，只有在人类平等的对待动物的情况下，超凡世界才会平等对待人类。</li>
+    <li>intro(tag=meme_AnimalPersonhood)           ->[deity0_name]用[sacredAnimalListEnd]祝福了[place_summary][place_name]， 还教导人类要尊重动物们。</li>
+    <li>conflict(tag=meme_AnimalPersonhood)        ->一个邪恶的[foeLeader]命令狩猎野生动物， [foeLeader_possessive][foeSoldiers]使用[place_personalWeapon]残忍的猎杀了它们。</li>
+    <li>founderJoin(tag=meme_AnimalPersonhood)     ->[deity0_name][revelationAdverb]来到一名叫[founderName]的[place_job]面前， 诉说着和[veneratedAnimal]有关的事。 不过[founderName]就是[veneratedAnimal]， 同样的[veneratedAnimal]也即是[founderName]， [founder_pronoun]明白了[deity0_name]的计划。</li>
+    <li>founderJoin(tag=meme_AnimalPersonhood)     ->一位名叫[founderName]的[place_job]解救了很多被残暴主人奴役的动物， 并把它们带到了[deity0_name]位于[altarRoomLabel]的圣所中。</li>
+    <li>victory(tag=meme_AnimalPersonhood)         ->[founderName]使用[deity0_name]的声音呼唤[memberNamePlural]和动物们团结一致， 奋勇前进， 狠狠的践踏了[foeLeader]和[foeLeader_possessive][foeSoldiers]。</li>
+    <li>setup(tag=meme_AnimalPersonhood)           ->[founderName]二十年如一日的生活在森林中， 研究各种动物并与其进行沟通联系。 [founder_pronoun]逐渐理解了它们的各种真实美德并且创立了我们的各种活动。</li>
+    <li>story(uses=1,tag=meme_AnimalPersonhood)    ->[founderName]去田野和森林中与动物交流， 并与他们平等相处。</li>
+    <li>lessonIntro(tag=meme_AnimalPersonhood)         ->在每天与[veneratedOrAnyAnimal]的交流联系过程中， 我学会了真真切切的去倾听它们。 它们一次又一次的以自己的方式向我重复传达它们的信息：</li>
+    <li>lesson(tag=meme_AnimalPersonhood)              ->动物是我们在这个世界上的伙伴， 认为它们低人一等的态度是不对的</li>
+    <li>lessonReinforcement(tag=meme_AnimalPersonhood) ->直到[veneratedOrAnyAnimal]对我低声细语前， 我也是不相信的。</li>
+    <li>archistBasis(tag=meme_AnimalPersonhood)    ->自从超凡世界苏醒后， 它们眼中的人类和动物在道德结构上并没有明显的区别。</li>
+    <li>archistFact(tag=meme_AnimalPersonhood)     ->超凡世界的道德结构水平远高于有机生命体。 在优势如此之大的它们眼中， 人和动物都是一样的。</li>
+    <li>archistProphecy(tag=meme_AnimalPersonhood) ->[inTheEnd]， 只有在人类平等的对待动物的情况下， 超凡世界才会平等对待人类。</li>
     <li>animistBasis(tag=meme_AnimalPersonhood)    ->思想和意识灵魂同样的存在于动物和人类之中。</li>
     <li>animistFact(tag=meme_AnimalPersonhood)     ->自然界的动物灵魂同样也是存在于人类之中的精神灵魂。</li>
     <li>veneratedOrAnyAnimal(priority=10)->[veneratedAnimal]</li>
     <li>veneratedOrAnyAnimal->[Animal]</li>
-    <li>sacredAnimalList->[animal0_thingDef_label]，[animal1_thingDef_label]，[animal2_thingDef_label]</li>
-    <li>sacredAnimalList->[animal0_thingDef_label]，the [animal1_thingDef_label]</li>
+    <li>sacredAnimalList->[animal0_thingDef_label]， [animal1_thingDef_label]， [animal2_thingDef_label]</li>
+    <li>sacredAnimalList->[animal0_thingDef_label]， the [animal1_thingDef_label]</li>
     <li>sacredAnimalList->[animal0_thingDef_label]</li>
-    <li>sacredAnimalList->牛，狐狸，熊</li>
-    <li>sacredAnimalListEnd->[animal0_thingDef_label]，[animal1_thingDef_label]和[animal2_thingDef_label]</li>
+    <li>sacredAnimalList->牛， 狐狸， 熊</li>
+    <li>sacredAnimalListEnd->[animal0_thingDef_label]， [animal1_thingDef_label]和[animal2_thingDef_label]</li>
     <li>sacredAnimalListEnd->[animal0_thingDef_label]和[animal1_thingDef_label]</li>
     <li>sacredAnimalListEnd->[animal0_thingDef_label]</li>
-    <li>sacredAnimalListEnd->牛，狐狸，熊</li>
+    <li>sacredAnimalListEnd->牛， 狐狸， 熊</li>
   </AnimalPersonhood.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->animal</li>
@@ -133,23 +133,23 @@
     <li>animistFact(tag=meme_Blindsight)     ->To see through the eyes of a spirit is the only way to see the true nature of the world.</li>
   -->
   <Blindsight.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_Blindsight)        ->[deity0_name]妄图通过寻找虚空之尘来发现永恒国度，事实上什么都没找到。然后[deity0_pronoun]挖出双眼，发现宇宙之形慢慢浮现在[deity0_possessive]脑海里。</li>
-    <li>episode(uses=1,tag=meme_Blindsight)  ->一个盲人乞丐询问[deity0_objective]，“你为什么抛弃我？我甚至看不到你所创造的东西。”[deity0_name]回答到，“你会看到更多，而不是更少，因为我的真理就在你心里。”</li>
-    <li>intro(tag=meme_Blindsight)           ->[deity0_type][deity0_name]使用一种病原体使得[place_summary][place_name]的居民失明，迫使他们理解视觉是接触神性知识的阻碍。</li>
-    <li>conflict(tag=meme_Blindsight)        ->一个[foeLeader]要求所有[memberNamePlural]每天都要观看[foeLeader_possessive]的传道会。许多人把自己弄瞎以示抗议。</li>
-    <li>founderJoin(tag=meme_Blindsight)     ->一位叫做[founderName]的[place_job]在[founder_pronoun]从[foeLeader]的[foeSoldiers]手中拯救一名[memberName]时，失去了[founder_possessive]视觉。在那之后，[founderName]才能真正看清[foeLeader]残暴的一面。</li>
-    <li>victory(tag=meme_Blindsight)         ->[founderName]偷偷前往[place_powerCenter]进行了一场自杀式的奇袭，并用一把勺子挖掉了[foeLeader]的眼睛。在那之后，[foeLeader]终于看见了[deity0_name]的神性。</li>
-    <li>setup(tag=meme_Blindsight)           ->[founderName]是一位医治穷人的医生。看够了太多的人间疾苦，[founder_pronoun]再也无法忍受这些。[founder_pronoun]用利刃挖掉了[founder_possessive]眼睛，然后终于得到平静。[founder_pronoun]也开始向那些视觉正常的人传播[founder_possessive]这些发现。</li>
-    <li>story(uses=1,tag=meme_Blindsight)    ->[founderName]拜访了一位盲人医生，准备教导这个人，不过最后发现的却是[founder_objective]自己被教导，其在这个过程中也逐渐明白，生体视觉会蒙蔽真实视界。</li>
-    <li>story(uses=1,tag=meme_Blindsight)    ->[founderName]是个盲人，并从失明状态中获得了智慧。[founder_pronoun]曾经亲自摘除了整个家庭人员的眼睛，好让他们能像[founder_pronoun]一样看到真实视界。</li>
-    <li>lessonIntro(tag=meme_Blindsight)         ->我步履坚定，但是我的灵魂却磕磕绊绊。我见得太多了。眼睛中的酸涩明确的告诉我</li>
+    <li>creation(tag=meme_Blindsight)        ->[deity0_name]妄图通过寻找虚空之尘来发现永恒国度， 事实上什么都没找到。 然后[deity0_pronoun]挖出双眼， 发现宇宙之形慢慢浮现在[deity0_possessive]脑海里。</li>
+    <li>episode(uses=1,tag=meme_Blindsight)  ->一个盲人乞丐询问[deity0_objective]， “你为什么抛弃我？我甚至看不到你所创造的东西。 ”[deity0_name]回答到， “你会看到更多， 而不是更少， 因为我的真理就在你心里。 ”</li>
+    <li>intro(tag=meme_Blindsight)           ->[deity0_type][deity0_name]使用一种病原体使得[place_summary][place_name]的居民失明， 迫使他们理解视觉是接触神性知识的阻碍。</li>
+    <li>conflict(tag=meme_Blindsight)        ->一个[foeLeader]要求所有[memberNamePlural]每天都要观看[foeLeader_possessive]的传道会。 许多人把自己弄瞎以示抗议。</li>
+    <li>founderJoin(tag=meme_Blindsight)     ->一位叫做[founderName]的[place_job]在[founder_pronoun]从[foeLeader]的[foeSoldiers]手中拯救一名[memberName]时， 失去了[founder_possessive]视觉。 在那之后， [founderName]才能真正看清[foeLeader]残暴的一面。</li>
+    <li>victory(tag=meme_Blindsight)         ->[founderName]偷偷前往[place_powerCenter]进行了一场自杀式的奇袭， 并用一把勺子挖掉了[foeLeader]的眼睛。 在那之后， [foeLeader]终于看见了[deity0_name]的神性。</li>
+    <li>setup(tag=meme_Blindsight)           ->[founderName]是一位医治穷人的医生。 看够了太多的人间疾苦， [founder_pronoun]再也无法忍受这些。 [founder_pronoun]用利刃挖掉了[founder_possessive]眼睛， 然后终于得到平静。 [founder_pronoun]也开始向那些视觉正常的人传播[founder_possessive]这些发现。</li>
+    <li>story(uses=1,tag=meme_Blindsight)    ->[founderName]拜访了一位盲人医生， 准备教导这个人， 不过最后发现的却是[founder_objective]自己被教导， 其在这个过程中也逐渐明白， 生体视觉会蒙蔽真实视界。</li>
+    <li>story(uses=1,tag=meme_Blindsight)    ->[founderName]是个盲人， 并从失明状态中获得了智慧。 [founder_pronoun]曾经亲自摘除了整个家庭人员的眼睛， 好让他们能像[founder_pronoun]一样看到真实视界。</li>
+    <li>lessonIntro(tag=meme_Blindsight)         ->我步履坚定， 但是我的灵魂却磕磕绊绊。 我见得太多了。 眼睛中的酸涩明确的告诉我</li>
     <li>lesson(tag=meme_Blindsight)              ->只有盲视才能真正看清</li>
-    <li>lesson(tag=meme_Blindsight)              ->干扰来自眼睛，真正的知识来自内在</li>
-    <li>lessonReinforcement(tag=meme_Blindsight) ->如果我仍然被我周围的图景干扰，我永远不可能完全理解这一切。眼中的利刃会使我彻底自由。</li>
-    <li>lessonReinforcement(tag=meme_Blindsight) ->只有当我挖掉我追随者们的眼睛时，他们才会真正明白这一切。</li>
+    <li>lesson(tag=meme_Blindsight)              ->干扰来自眼睛， 真正的知识来自内在</li>
+    <li>lessonReinforcement(tag=meme_Blindsight) ->如果我仍然被我周围的图景干扰， 我永远不可能完全理解这一切。 眼中的利刃会使我彻底自由。</li>
+    <li>lessonReinforcement(tag=meme_Blindsight) ->只有当我挖掉我追随者们的眼睛时， 他们才会真正明白这一切。</li>
     <li>archistBasis(tag=meme_Blindsight)    ->超凡时代在一开始的时候就是用超越物理感官的方式来认知宇宙。</li>
-    <li>archistFact(tag=meme_Blindsight)     ->我们的眼睛欺骗了我们，它们阻止我们像超凡时代那样认知宇宙。</li>
-    <li>archistProphecy(tag=meme_Blindsight) ->[inTheEnd]，一个盲人会获得[relic0_name]，通过它的形状理解它的作用，并为全人类开启超凡时代的智慧。</li>
+    <li>archistFact(tag=meme_Blindsight)     ->我们的眼睛欺骗了我们， 它们阻止我们像超凡时代那样认知宇宙。</li>
+    <li>archistProphecy(tag=meme_Blindsight) ->[inTheEnd]， 一个盲人会获得[relic0_name]， 通过它的形状理解它的作用， 并为全人类开启超凡时代的智慧。</li>
     <li>animistFact(tag=meme_Blindsight)     ->通过精神之眼观察才是看到世界真实本质的唯一途径。</li>
   </Blindsight.descriptionMaker.rules.rulesStrings>
   <!-- EN:
@@ -213,22 +213,22 @@
     <li>animistFact(tag=meme_Cannibal)     ->We can absorb the spirit and power of others by consuming their flesh.</li>
   -->
   <Cannibal.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_Cannibal)        ->[deity0_name]谋杀[deity0_possessive]兄弟并吃掉了他的血肉，在吸收其力量后成为众神中力量最强大的那个。</li>
+    <li>creation(tag=meme_Cannibal)        ->[deity0_name]谋杀[deity0_possessive]兄弟并吃掉了他的血肉， 在吸收其力量后成为众神中力量最强大的那个。</li>
     <li>episode(uses=1,tag=meme_Cannibal)  ->[deity0_type][deity0_name]会吃掉[deity0_possessive]敌人的血肉。</li>
-    <li>intro(tag=meme_Cannibal)           ->在[place_summary][place_name]，有一位名叫[deity0_name]的人。在[deity0_possessive]父亲死后，[deity0_name]吃掉了他的血肉并且变成了[deity0_type]。</li>
-    <li>intro(tag=meme_Cannibal)           ->在[place_summary] [place_name]，[ritualName]的时候，[deity0_name]降临到[altarRoomLabel]并在[memberNamePlural]面前吃下了人肉。</li>
-    <li>conflict(tag=meme_Cannibal)        ->一个[foeLeader]宣布食用人肉是一种犯罪行为，并派遣[foeSoldiers]去迫害[memberNamePlural]。</li>
-    <li>founderJoin(tag=meme_Cannibal)     ->一名叫[founderName]的[place_job]被[foeLeader]的[foeSoldiers]攻击。[founderName]用[place_personalWeapon]杀死[foeLeader_objective]，并吃下了[foeLeader_possessive]血肉，从此获得了[deity0_name]的力量。</li>
-    <li>victory(tag=meme_Cannibal)         ->[founderName]带领一群[memberNamePlural]冲入[place_powerCenter]，杀死[foeLeader]并吃下了[foeLeader_possessive]血肉。[deity0_name]奖赏[founderName]成为了新的[foeLeader]。</li>
-    <li>setup(tag=meme_Cannibal)           ->[founderName]坠落在一个遥远的世界。周围除了同伴的尸体，没有任何食物，[founder_pronoun]尽情享用血肉，变得愈加强大。</li>
-    <li>story(uses=1,tag=meme_Cannibal)    ->为了尊崇承诺，[founderName]要求信徒们至少每周都要一起吃人肉。</li>
-    <li>lessonIntro(tag=meme_Cannibal)         ->只有在一顿丰盛的人肉大餐中，我才能让人们明白一个事实：那就是</li>
-    <li>lesson(tag=meme_Cannibal)              ->除非你吃掉他们，否则你们永远不可能成为一体。</li>
-    <li>lessonReinforcement(tag=meme_Cannibal) ->每次我与新朋友分享一个敌人的肉体时，我都要确保他们明白这一点。</li>
+    <li>intro(tag=meme_Cannibal)           ->在[place_summary][place_name]， 有一位名叫[deity0_name]的人。 在[deity0_possessive]父亲死后， [deity0_name]吃掉了他的血肉并且变成了[deity0_type]。</li>
+    <li>intro(tag=meme_Cannibal)           ->在[place_summary] [place_name]， [ritualName]的时候， [deity0_name]降临到[altarRoomLabel]并在[memberNamePlural]面前吃下了人肉。</li>
+    <li>conflict(tag=meme_Cannibal)        ->一个[foeLeader]宣布食用人肉是一种犯罪行为， 并派遣[foeSoldiers]去迫害[memberNamePlural]。</li>
+    <li>founderJoin(tag=meme_Cannibal)     ->一名叫[founderName]的[place_job]被[foeLeader]的[foeSoldiers]攻击。 [founderName]用[place_personalWeapon]杀死[foeLeader_objective]， 并吃下了[foeLeader_possessive]血肉， 从此获得了[deity0_name]的力量。</li>
+    <li>victory(tag=meme_Cannibal)         ->[founderName]带领一群[memberNamePlural]冲入[place_powerCenter]， 杀死[foeLeader]并吃下了[foeLeader_possessive]血肉。 [deity0_name]奖赏[founderName]成为了新的[foeLeader]。</li>
+    <li>setup(tag=meme_Cannibal)           ->[founderName]坠落在一个遥远的世界。 周围除了同伴的尸体， 没有任何食物， [founder_pronoun]尽情享用血肉， 变得愈加强大。</li>
+    <li>story(uses=1,tag=meme_Cannibal)    ->为了尊崇承诺， [founderName]要求信徒们至少每周都要一起吃人肉。</li>
+    <li>lessonIntro(tag=meme_Cannibal)         ->只有在一顿丰盛的人肉大餐中， 我才能让人们明白一个事实：那就是</li>
+    <li>lesson(tag=meme_Cannibal)              ->除非你吃掉他们， 否则你们永远不可能成为一体。</li>
+    <li>lessonReinforcement(tag=meme_Cannibal) ->每次我与新朋友分享一个敌人的肉体时， 我都要确保他们明白这一点。</li>
     <li>archistBasis(tag=meme_Cannibal)    ->超凡世界的机械之神就是通过一次又一次的吞噬它们的前辈来让自己变得更加强大。</li>
-    <li>archistFact(tag=meme_Cannibal)     ->在超凡世界意识的扩展过程中，它必须要消耗和合并其他机械来扩充自己的基质。</li>
-    <li>archistProphecy(tag=meme_Cannibal) ->[inTheEnd]，超凡世界将通过吞噬和融合所有人类来完成其最后阶段的增长。</li>
-    <li>animistBasis(tag=meme_Cannibal)    ->万灵注入我们周围的所有物体，我们可以通过吞食它们来吸收这些灵魂。但是没有任何灵魂像栖居在人类身上的那样强大。</li>
+    <li>archistFact(tag=meme_Cannibal)     ->在超凡世界意识的扩展过程中， 它必须要消耗和合并其他机械来扩充自己的基质。</li>
+    <li>archistProphecy(tag=meme_Cannibal) ->[inTheEnd]， 超凡世界将通过吞噬和融合所有人类来完成其最后阶段的增长。</li>
+    <li>animistBasis(tag=meme_Cannibal)    ->万灵注入我们周围的所有物体， 我们可以通过吞食它们来吸收这些灵魂。 但是没有任何灵魂像栖居在人类身上的那样强大。</li>
     <li>animistFact(tag=meme_Cannibal)     ->我们可以通过吞噬别人的血肉来吸收别人的精神和力量。</li>
   </Cannibal.descriptionMaker.rules.rulesStrings>
   <!-- EN:
@@ -299,7 +299,7 @@
   <!-- EN: darkness -->
   <Darkness.label>黑暗亲和</Darkness.label>
   <!-- EN: Bright light burns and destroys! Darkness nourishes and creates. People ought to live in darkness. -->
-  <Darkness.description>明亮的光线带来燃烧和毁灭！黑暗带来滋养和创造。人们应该生活在黑暗中。</Darkness.description>
+  <Darkness.description>明亮的光线带来燃烧和毁灭！黑暗带来滋养和创造。 人们应该生活在黑暗中。</Darkness.description>
   <!-- EN:
     <li>creation(tag=meme_Darkness)        ->[deity0_name] cloaked the universe in darkness and placed humanity within it so that [deity0_pronoun] could share the darkness with us.</li>
     <li>episode(uses=1,tag=meme_Darkness)  ->[deity0_name] created light so that humanity could know [deity0_name] through the shadows light creates.</li>
@@ -318,21 +318,21 @@
     <li>animistFact(tag=meme_Darkness)     ->The good spirits live in the shadows around us, resting in the spots just too hard to see. Living with the darkness brings them closer to us.</li>
   -->
   <Darkness.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_Darkness)        ->[deity0_name]将宇宙笼罩在黑暗中并将人类放于其中，以便[deity0_pronoun]将黑暗分享给我们。</li>
-    <li>episode(uses=1,tag=meme_Darkness)  ->[deity0_name]创造了光，人类通过光创造的阴影来认知[deity0_name]。</li>
-    <li>intro(tag=meme_Darkness)           ->[deity0_type][deity0_name]创造了一个长达十年的日蚀，迫使[place_summary][place_name]的第一批居民懂得了，必须到阴影中寻找[deity0_name]的真理。</li>
-    <li>conflict(tag=meme_Darkness)        ->一名总是害怕黑暗的[foeLeader]，竖起了一面可以持续为[place_name]提供光照的巨型太阳镜。</li>
-    <li>founderJoin(tag=meme_Darkness)     ->先知[founderName]出生在[place_name]的黑暗之中，并且[founder_possessive]一生都生活在黑暗环境，这使得[founder_possessive]话语总是携带着[deity0_name]的智慧。</li>
-    <li>victory(tag=meme_Darkness)         ->在最后一战中，[memberNamePlural]切断了[place_powerCenter]的电源，[founderName]偷偷潜入，越过[foeSoldiers]，发现位于黑暗中的[foeLeader]，[founderName]使用[founder_possessive][place_personalWeapon]将[foeLeader_objective]送入了无尽的黑暗之中。</li>
-    <li>setup(tag=meme_Darkness)           ->[founderName]在闪耀世界城市眼花缭乱的灯光下过着迷茫的生活。在一次太阳耀斑之后的漫长黑暗中，[founder_pronoun]重拾平静和沉思，并记录了这一切成为我们活动的基石。</li>
-    <li>story(uses=1,tag=meme_Darkness)    ->[founderName]创建了让艺术家们在黑暗中工作的工作室，并且产出了许多杰作。</li>
-    <li>lessonIntro(tag=meme_Darkness)         ->我的整个童年都是在刺眼的光线下眯着眼度过的。我花了很长时间才明白</li>
-    <li>lesson(tag=meme_Darkness)              ->光明在燃烧，黑暗却在滋养</li>
-    <li>lessonReinforcement(tag=meme_Darkness) ->我喜欢开玩笑说，这是我灵光一现的时刻。</li>
-    <li>archistFact(tag=meme_Darkness)     ->超凡世界开发了纳米技术，这样就可以逃离恒星系内部的高能光，居住于深层空间宁静的黑暗中。</li>
-    <li>archistProphecy(tag=meme_Darkness) ->[inTheEnd]，超凡世界将吸收恒星的力量，让空间陷入黑暗，使人类与宇宙意识融合。</li>
-    <li>animistFact(tag=meme_Darkness)     ->在黑暗中，灵魂平和满足。在阳光下，它们烦躁不安。</li>
-    <li>animistFact(tag=meme_Darkness)     ->美好的灵魂生活在我们周围的阴影中，停留在难以察觉的地方。在黑暗中生活可以让它们离我们更近。</li>
+    <li>creation(tag=meme_Darkness)        ->[deity0_name]将宇宙笼罩在黑暗中并将人类放于其中， 以便[deity0_pronoun]将黑暗分享给我们。</li>
+    <li>episode(uses=1,tag=meme_Darkness)  ->[deity0_name]创造了光， 人类通过光创造的阴影来认知[deity0_name]。</li>
+    <li>intro(tag=meme_Darkness)           ->[deity0_type][deity0_name]创造了一个长达十年的日蚀， 迫使[place_summary][place_name]的第一批居民懂得了， 必须到阴影中寻找[deity0_name]的真理。</li>
+    <li>conflict(tag=meme_Darkness)        ->一名总是害怕黑暗的[foeLeader]， 竖起了一面可以持续为[place_name]提供光照的巨型太阳镜。</li>
+    <li>founderJoin(tag=meme_Darkness)     ->先知[founderName]出生在[place_name]的黑暗之中， 并且[founder_possessive]一生都生活在黑暗环境， 这使得[founder_possessive]话语总是携带着[deity0_name]的智慧。</li>
+    <li>victory(tag=meme_Darkness)         ->在最后一战中， [memberNamePlural]切断了[place_powerCenter]的电源， [founderName]偷偷潜入， 越过[foeSoldiers]， 发现位于黑暗中的[foeLeader]， [founderName]使用[founder_possessive][place_personalWeapon]将[foeLeader_objective]送入了无尽的黑暗之中。</li>
+    <li>setup(tag=meme_Darkness)           ->[founderName]在闪耀世界城市眼花缭乱的灯光下过着迷茫的生活。 在一次太阳耀斑之后的漫长黑暗中， [founder_pronoun]重拾平静和沉思， 并记录了这一切成为我们活动的基石。</li>
+    <li>story(uses=1,tag=meme_Darkness)    ->[founderName]创建了让艺术家们在黑暗中工作的工作室， 并且产出了许多杰作。</li>
+    <li>lessonIntro(tag=meme_Darkness)         ->我的整个童年都是在刺眼的光线下眯着眼度过的。 我花了很长时间才明白</li>
+    <li>lesson(tag=meme_Darkness)              ->光明在燃烧， 黑暗却在滋养</li>
+    <li>lessonReinforcement(tag=meme_Darkness) ->我喜欢开玩笑说， 这是我灵光一现的时刻。</li>
+    <li>archistFact(tag=meme_Darkness)     ->超凡世界开发了纳米技术， 这样就可以逃离恒星系内部的高能光， 居住于深层空间宁静的黑暗中。</li>
+    <li>archistProphecy(tag=meme_Darkness) ->[inTheEnd]， 超凡世界将吸收恒星的力量， 让空间陷入黑暗， 使人类与宇宙意识融合。</li>
+    <li>animistFact(tag=meme_Darkness)     ->在黑暗中， 灵魂平和满足。 在阳光下， 它们烦躁不安。</li>
+    <li>animistFact(tag=meme_Darkness)     ->美好的灵魂生活在我们周围的阴影中， 停留在难以察觉的地方。 在黑暗中生活可以让它们离我们更近。</li>
   </Darkness.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->dark</li>
@@ -388,21 +388,21 @@
     <li>animistFact(tag=meme_FleshPurity)     ->Fusing flesh and machine corrupts the spirit of both.</li>
   -->
   <FleshPurity.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_FleshPurity)        ->[deity0_name]抹去了烟雾缭绕时代的机器和污染，创造了一个花园，[deity0_pronoun]在那里放置了第一批纯正的人类祖先。</li>
+    <li>creation(tag=meme_FleshPurity)        ->[deity0_name]抹去了烟雾缭绕时代的机器和污染， 创造了一个花园， [deity0_pronoun]在那里放置了第一批纯正的人类祖先。</li>
     <li>episode(uses=1,tag=meme_FleshPurity)  ->不洁的、纹身的、穿孔的和经过改造的人类将被[deity0_name]打入无边汪洋。</li>
-    <li>intro(tag=meme_FleshPurity)           ->在[place_summary][place_name]，有一个[altarName]位于[deity0_name]的[altarRoomLabel]，[deity0_type]会祝福那些纯洁的血肉之躯。</li>
+    <li>intro(tag=meme_FleshPurity)           ->在[place_summary][place_name]， 有一个[altarName]位于[deity0_name]的[altarRoomLabel]， [deity0_type]会祝福那些纯洁的血肉之躯。</li>
     <li>conflict(tag=meme_FleshPurity)        ->一个邪恶的[foeLeader]派遣[foeSoldiers]给每个人都注射了追踪装置。</li>
-    <li>founderJoin(tag=meme_FleshPurity)     ->一个名叫[founderName]的[place_job]为了表示反抗[foeLeader]，跪在[place_powerCenter]面前用[founder_possessive]手生生撕下[founder_possessive]身上所有的科技造物。</li>
-    <li>victory(tag=meme_FleshPurity)         ->[foeLeader]派出[foeSoldiers]来杀死[memberNamePlural]，但[deity0_name]的力量流淌在[memberNamePlural]纯洁的肉体之中，使得[foeSoldiers]体内的各种装置燃成灰烬，同时杀死了他们。</li>
-    <li>setup(tag=meme_FleshPurity)           ->[founderName]用植入物和药物毁掉了[founder_possessive]身体，但在一次顿悟后，[founder_pronoun]从[founder_possessive]身上撕下各种钢铁驳杂，最终救赎了[founder_objective]自己。</li>
+    <li>founderJoin(tag=meme_FleshPurity)     ->一个名叫[founderName]的[place_job]为了表示反抗[foeLeader]， 跪在[place_powerCenter]面前用[founder_possessive]手生生撕下[founder_possessive]身上所有的科技造物。</li>
+    <li>victory(tag=meme_FleshPurity)         ->[foeLeader]派出[foeSoldiers]来杀死[memberNamePlural]， 但[deity0_name]的力量流淌在[memberNamePlural]纯洁的肉体之中， 使得[foeSoldiers]体内的各种装置燃成灰烬， 同时杀死了他们。</li>
+    <li>setup(tag=meme_FleshPurity)           ->[founderName]用植入物和药物毁掉了[founder_possessive]身体， 但在一次顿悟后， [founder_pronoun]从[founder_possessive]身上撕下各种钢铁驳杂， 最终救赎了[founder_objective]自己。</li>
     <li>story(uses=1,tag=meme_FleshPurity)    ->[founderName]指示所有[founder_possessive]随从者们从身上撕下所有肮脏的装置。</li>
-    <li>lessonIntro(tag=meme_FleshPurity)         ->我追随者中的前十人用双手硬生生的从他们皮肤上撕下了各种装置，在灰暗地板上溅起的血花中，我突然领悟到了我们都错过的真实：</li>
-    <li>lesson(tag=meme_FleshPurity)              ->生存在一个被污染的身体里，根本就不是人的生活。</li>
-    <li>lessonReinforcement(tag=meme_FleshPurity) ->将驳杂的金属从身体上扯下，并剥去肮脏的纹身皮肤后，我感觉自己变得如此明晰一切。</li>
-    <li>archistBasis(tag=meme_FleshPurity)    ->最初的时候，超凡世界就在肉体和技术之间划定了一条明确的界线，我们不应该模糊这条界线。</li>
-    <li>archistFact(tag=meme_FleshPurity)     ->我们不应该通过模仿超凡世界来达到超凡进化的目的，我们应该通过我们自己最纯粹的形态来获得启迪。</li>
-    <li>archistProphecy(tag=meme_FleshPurity) ->[inTheEnd]，那些把自己的身体扭曲成机器仿制品的人将会被净化，而那些肉体纯洁的人将会得到救赎。</li>
-    <li>animistBasis(tag=meme_FleshPurity)    ->灵魂存在一切事物中，改变事物的本质就是毒害内在的灵魂。</li>
+    <li>lessonIntro(tag=meme_FleshPurity)         ->我追随者中的前十人用双手硬生生的从他们皮肤上撕下了各种装置， 在灰暗地板上溅起的血花中， 我突然领悟到了我们都错过的真实：</li>
+    <li>lesson(tag=meme_FleshPurity)              ->生存在一个被污染的身体里， 根本就不是人的生活。</li>
+    <li>lessonReinforcement(tag=meme_FleshPurity) ->将驳杂的金属从身体上扯下， 并剥去肮脏的纹身皮肤后， 我感觉自己变得如此明晰一切。</li>
+    <li>archistBasis(tag=meme_FleshPurity)    ->最初的时候， 超凡世界就在肉体和技术之间划定了一条明确的界线， 我们不应该模糊这条界线。</li>
+    <li>archistFact(tag=meme_FleshPurity)     ->我们不应该通过模仿超凡世界来达到超凡进化的目的， 我们应该通过我们自己最纯粹的形态来获得启迪。</li>
+    <li>archistProphecy(tag=meme_FleshPurity) ->[inTheEnd]， 那些把自己的身体扭曲成机器仿制品的人将会被净化， 而那些肉体纯洁的人将会得到救赎。</li>
+    <li>animistBasis(tag=meme_FleshPurity)    ->灵魂存在一切事物中， 改变事物的本质就是毒害内在的灵魂。</li>
     <li>animistFact(tag=meme_FleshPurity)     ->肉体和机器的融合同时腐蚀了两者的灵魂。</li>
   </FleshPurity.descriptionMaker.rules.rulesStrings>
   <!-- EN:
@@ -459,37 +459,37 @@
   <!-- EN: high life -->
   <HighLife.label>化学极乐</HighLife.label>
   <!-- EN: Exotic states of mind are central to a good life. -->
-  <HighLife.description>对极乐生活来说，异常的精神状态至关重要。</HighLife.description>
+  <HighLife.description>对极乐生活来说， 异常的精神状态至关重要。</HighLife.description>
   <!-- EN: creation(tag=meme_HighLife)           ->The universe was smoke, and [deity0_name] coalesced in the wisps and awoke. -->
-  <HighLife.descriptionMaker.rules.rulesStrings.0>creation(tag=meme_HighLife)           ->宇宙是一团烟雾，和[deity0_name]在一缕一缕的烟雾中结合，方能使自身苏醒。</HighLife.descriptionMaker.rules.rulesStrings.0>
+  <HighLife.descriptionMaker.rules.rulesStrings.0>creation(tag=meme_HighLife)           ->宇宙是一团烟雾， 和[deity0_name]在一缕一缕的烟雾中结合， 方能使自身苏醒。</HighLife.descriptionMaker.rules.rulesStrings.0>
   <!-- EN: episode(uses=1,tag=meme_HighLife)     ->The [deity0_type] [deity0_name] concealed [deity0_possessive] truths in the folds of reality, invisible in normal states of mind. -->
   <HighLife.descriptionMaker.rules.rulesStrings.1>episode(uses=1,tag=meme_HighLife)     ->[deity0_type][deity0_name]隐藏着[deity0_possessive]在正常的精神状态中不可见的被现实折叠的真理。</HighLife.descriptionMaker.rules.rulesStrings.1>
   <!-- EN: intro(tag=meme_HighLife)              ->The [place_summary] [place_name] was first discovered by [deity0_name]'s grace, when a drunk starship captain almost crashed into it. -->
-  <HighLife.descriptionMaker.rules.rulesStrings.2>intro(tag=meme_HighLife)              ->是[deity0_name]的恩惠让我们发现了[place_summary] [place_name]，当时一位醉酒的船长开着星际飞船差点撞上它。</HighLife.descriptionMaker.rules.rulesStrings.2>
+  <HighLife.descriptionMaker.rules.rulesStrings.2>intro(tag=meme_HighLife)              ->是[deity0_name]的恩惠让我们发现了[place_summary] [place_name]， 当时一位醉酒的船长开着星际飞船差点撞上它。</HighLife.descriptionMaker.rules.rulesStrings.2>
   <!-- EN: conflict(tag=meme_HighLife)           ->A puritan [foeLeader] despised the [memberNamePlural], and to erase their uniqueness, outlawed the use of mind-altering substances. -->
-  <HighLife.descriptionMaker.rules.rulesStrings.3>conflict(tag=meme_HighLife)           ->禁欲者[foeLeader] 鄙视 [memberNamePlural]，为了抹除他们的异常状态，他禁止了一切吸食精神性药物的行为。</HighLife.descriptionMaker.rules.rulesStrings.3>
+  <HighLife.descriptionMaker.rules.rulesStrings.3>conflict(tag=meme_HighLife)           ->禁欲者[foeLeader] 鄙视 [memberNamePlural]， 为了抹除他们的异常状态， 他禁止了一切吸食精神性药物的行为。</HighLife.descriptionMaker.rules.rulesStrings.3>
   <!-- EN: founderJoin(tag=meme_HighLife)        ->When all seemed lost, [deity0_name] came to the prophet [founderName] in a drug-fueled haze and gave [founder_objective] the unique perspective needed to defeat the [foeSoldiers]. -->
-  <HighLife.descriptionMaker.rules.rulesStrings.4>founderJoin(tag=meme_HighLife)        ->当一切尽失之时，[deity0_name]来到[founderName]的面前，在具有成瘾性的烟雾中，给了[founder_objective]一条战胜[foeSoldiers]的未曾设想的道路。</HighLife.descriptionMaker.rules.rulesStrings.4>
+  <HighLife.descriptionMaker.rules.rulesStrings.4>founderJoin(tag=meme_HighLife)        ->当一切尽失之时， [deity0_name]来到[founderName]的面前， 在具有成瘾性的烟雾中， 给了[founder_objective]一条战胜[foeSoldiers]的未曾设想的道路。</HighLife.descriptionMaker.rules.rulesStrings.4>
   <!-- EN: victory(tag=meme_HighLife)            ->The [foeLeader]'s [foeSoldiers], armed with [place_personalWeapon]s, raided the [place_community] of the [memberNamePlural]. [founderName] offered them a peace pipe, and the [foeSoldiers] put down their weapons. -->
-  <HighLife.descriptionMaker.rules.rulesStrings.5>victory(tag=meme_HighLife)            ->[foeLeader]的[foeSoldiers]手持[place_personalWeapon]突袭了[memberNamePlural]的[place_community]。[founderName]给了他们一支和平烟斗，促使[foeSoldiers]放下了武器。</HighLife.descriptionMaker.rules.rulesStrings.5>
+  <HighLife.descriptionMaker.rules.rulesStrings.5>victory(tag=meme_HighLife)            ->[foeLeader]的[foeSoldiers]手持[place_personalWeapon]突袭了[memberNamePlural]的[place_community]。 [founderName]给了他们一支和平烟斗， 促使[foeSoldiers]放下了武器。</HighLife.descriptionMaker.rules.rulesStrings.5>
   <!-- EN: setup(tag=meme_HighLife)              ->Cast out from society, our founder [founderName] traveled into the jungle and ingested the exotic herbs there. [founder_pronoun] found truth inside [founder_possessive] own altered consciousness. -->
-  <HighLife.descriptionMaker.rules.rulesStrings.6>setup(tag=meme_HighLife)              ->在被社会抛弃后，我们的创始人[founderName]来到丛林里，在那里吃了一些奇异的草药。而后，[founder_pronoun]便在[founder_pronoun]自己异常的意识中发现了真理。</HighLife.descriptionMaker.rules.rulesStrings.6>
+  <HighLife.descriptionMaker.rules.rulesStrings.6>setup(tag=meme_HighLife)              ->在被社会抛弃后， 我们的创始人[founderName]来到丛林里， 在那里吃了一些奇异的草药。 而后， [founder_pronoun]便在[founder_pronoun]自己异常的意识中发现了真理。</HighLife.descriptionMaker.rules.rulesStrings.6>
   <!-- EN: story(uses=1,tag=meme_HighLife)       ->To deepen their understanding, [founderName] brought [founder_possessive] followers together every week to share new chemical-inducted mental states. -->
-  <HighLife.descriptionMaker.rules.rulesStrings.7>story(uses=1,tag=meme_HighLife)       ->为了加深他们的理解，[founderName]每周将[founder_possessive]的信徒聚集在一起，分享由新药物诱导的精神状态。</HighLife.descriptionMaker.rules.rulesStrings.7>
+  <HighLife.descriptionMaker.rules.rulesStrings.7>story(uses=1,tag=meme_HighLife)       ->为了加深他们的理解， [founderName]每周将[founder_possessive]的信徒聚集在一起， 分享由新药物诱导的精神状态。</HighLife.descriptionMaker.rules.rulesStrings.7>
   <!-- EN: lessonIntro(tag=meme_HighLife)         ->Getting high once wasn't enough, man. We had to do it a thousand times, then all the puzzle pieces fit together in my blown-open brain like a house falling down, but like, backwards. I saw that -->
-  <HighLife.descriptionMaker.rules.rulesStrings.8>lessonIntro(tag=meme_HighLife)         ->只嗨一次是不够的，伙计。我们得嗨上成百上千次，然后所有的那些拼图碎片都在我早已炸裂的脑袋里拼合在一起，就像是倒放一栋房子的倒塌。我看到了！</HighLife.descriptionMaker.rules.rulesStrings.8>
+  <HighLife.descriptionMaker.rules.rulesStrings.8>lessonIntro(tag=meme_HighLife)         ->只嗨一次是不够的， 伙计。 我们得嗨上成百上千次， 然后所有的那些拼图碎片都在我早已炸裂的脑袋里拼合在一起， 就像是倒放一栋房子的倒塌。 我看到了！</HighLife.descriptionMaker.rules.rulesStrings.8>
   <!-- EN: lesson(tag=meme_HighLife)              ->a friend isn't a friend unless you've drifted through the mind-verse together -->
-  <HighLife.descriptionMaker.rules.rulesStrings.9>lesson(tag=meme_HighLife)              ->如果你们未曾一起在精神世界里漫游过，那他可就不是你的朋友</HighLife.descriptionMaker.rules.rulesStrings.9>
+  <HighLife.descriptionMaker.rules.rulesStrings.9>lesson(tag=meme_HighLife)              ->如果你们未曾一起在精神世界里漫游过， 那他可就不是你的朋友</HighLife.descriptionMaker.rules.rulesStrings.9>
   <!-- EN: lessonReinforcement(tag=meme_HighLife) ->And dude, this was a serious trip, figuring that out, but I'm glad I did, and I'll pass the smoke to you so you can too. -->
-  <HighLife.descriptionMaker.rules.rulesStrings.10>lessonReinforcement(tag=meme_HighLife) ->嘿，伙计，我知道这是一次很重要的旅途，但我很高兴我能去做这件事，我把这根烟给你，你也能一起走上这段旅途。</HighLife.descriptionMaker.rules.rulesStrings.10>
+  <HighLife.descriptionMaker.rules.rulesStrings.10>lessonReinforcement(tag=meme_HighLife) ->嘿， 伙计， 我知道这是一次很重要的旅途， 但我很高兴我能去做这件事， 我把这根烟给你， 你也能一起走上这段旅途。</HighLife.descriptionMaker.rules.rulesStrings.10>
   <!-- EN: archistBasis(tag=meme_HighLife)       ->The archotech minds showed us that super-consciousness it not a matter of sober, mechanical logic, but one of multi-mode thought. -->
-  <HighLife.descriptionMaker.rules.rulesStrings.11>archistBasis(tag=meme_HighLife)       ->超凡智能的思维告诉我们，超越意识认知不是理性的、机械的逻辑性问题，而是一种多重的思维模式。</HighLife.descriptionMaker.rules.rulesStrings.11>
+  <HighLife.descriptionMaker.rules.rulesStrings.11>archistBasis(tag=meme_HighLife)       ->超凡智能的思维告诉我们， 超越意识认知不是理性的、机械的逻辑性问题， 而是一种多重的思维模式。</HighLife.descriptionMaker.rules.rulesStrings.11>
   <!-- EN: archistFact(tag=meme_HighLife)        ->Given the right chemical influences, the human mind has the potential to commune with the archotechs. -->
-  <HighLife.descriptionMaker.rules.rulesStrings.12>archistFact(tag=meme_HighLife)        ->在适当的化学成分的影响下，我们的大脑将会激发出相对应的潜力使得我们得以与超凡智能交流。</HighLife.descriptionMaker.rules.rulesStrings.12>
+  <HighLife.descriptionMaker.rules.rulesStrings.12>archistFact(tag=meme_HighLife)        ->在适当的化学成分的影响下， 我们的大脑将会激发出相对应的潜力使得我们得以与超凡智能交流。</HighLife.descriptionMaker.rules.rulesStrings.12>
   <!-- EN: archistProphecy(tag=meme_HighLife)    ->[inTheEnd], the archotechs will deliver each human a pill. Those that take it will be forever altered, and join the archotechs on their final journey. -->
-  <HighLife.descriptionMaker.rules.rulesStrings.13>archistProphecy(tag=meme_HighLife)    ->[inTheEnd]，超凡智能将给我们每个人一粒药丸。那些吞下药丸的人将会被永远改变，并被超凡智能接纳加入它们的旅程。</HighLife.descriptionMaker.rules.rulesStrings.13>
+  <HighLife.descriptionMaker.rules.rulesStrings.13>archistProphecy(tag=meme_HighLife)    ->[inTheEnd]， 超凡智能将给我们每个人一粒药丸。 那些吞下药丸的人将会被永远改变， 并被超凡智能接纳加入它们的旅程。</HighLife.descriptionMaker.rules.rulesStrings.13>
   <!-- EN: animistFact(tag=meme_HighLife)        ->The spirits can reveal their nature to us when we expand our consciousness using the tools we have been given to do so. -->
-  <HighLife.descriptionMaker.rules.rulesStrings.14>animistFact(tag=meme_HighLife)        ->当我们使用我们被赋予的工具来扩展我们的意识时，灵魂便能向我们揭示它的本性。</HighLife.descriptionMaker.rules.rulesStrings.14>
+  <HighLife.descriptionMaker.rules.rulesStrings.14>animistFact(tag=meme_HighLife)        ->当我们使用我们被赋予的工具来扩展我们的意识时， 灵魂便能向我们揭示它的本性。</HighLife.descriptionMaker.rules.rulesStrings.14>
   <!-- EN: memeCreed->party -->
   <HighLife.generalRules.rulesStrings.0>memeCreed->聚会</HighLife.generalRules.rulesStrings.0>
   <!-- EN: memeAdjective->high -->
@@ -560,7 +560,7 @@
   <!-- EN: nudism -->
   <Nudism.label>裸体主义</Nudism.label>
   <!-- EN: Clothing binds, controls, and suffocates us. We should all hang free. -->
-  <Nudism.description>衣物束缚、控制着我们，这让我们感到窒息。我们应当自由地一丝不挂。</Nudism.description>
+  <Nudism.description>衣物束缚、控制着我们， 这让我们感到窒息。 我们应当自由地一丝不挂。</Nudism.description>
   <!-- EN:
     <li>creation(tag=meme_Nudism)           ->In a pure and pristine void, [deity0_name] looked on, and wished for a race of free-fleshed beings in [deity0_possessive] own image, and made mankind.</li>
     <li>episode(uses=1,tag=meme_Nudism)     ->The people wore clothes, and looking up at [deity0_name] asked, "Why aren't you clothed? It is disgusting." And the [deity0_type] replied, "Your form and mine were created from the heavens. To cover them is what is truly disgusting."</li>
@@ -579,16 +579,16 @@
     <li>animistFact(tag=meme_Nudism)        ->To cover our bodies with cloth is to hide the nature of the spirits within us, and it makes them restless.</li>
   -->
   <Nudism.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_Nudism)           ->在一片纯净的虚空中， [deity0_name] 注视着， 并希望有一个按照[deity0_possessive]自己的形象自由生长的种族， 于是创造了人类。</li>
-    <li>episode(uses=1,tag=meme_Nudism)     ->待到人们穿上了衣服， 他们抬头看着[deity0_name]问道： "你为什么不穿衣服？这实在羞耻。" [deity0_type]回答说： "你我的形体是天生天造。遮盖它们才真正令人蒙羞。"</li>
+    <li>creation(tag=meme_Nudism)           ->在一片纯净的虚空中， [deity0_name]注视着， 并希望有一个按照[deity0_possessive]自己的形象自由生长的种族， 于是创造了人类。</li>
+    <li>episode(uses=1,tag=meme_Nudism)     ->待到人们穿上了衣服， 他们抬头看着[deity0_name]问道："你为什么不穿衣服？这实在羞耻。 " [deity0_type]回答说："你我的形体是天生天造。 遮盖它们才真正令人蒙羞。 "</li>
     <li>intro(tag=meme_Nudism)              ->在[place_summary][place_name]， 人们形成了赤身裸体在[deity0_name]的[altarRoomLabel]祷告的传统文化， 这愉悦了[deity0_type]。</li>
     <li>conflict(tag=meme_Nudism)           ->一名虚伪的[foeLeader]掌权之后， 要求每个人必须受到衣物约束。</li>
-    <li>founderJoin(tag=meme_Nudism)        ->[deity0_name] 最虔诚的信徒 [founderName] 站到[place_powerCenter]的面前， 蔑视禁令， 扯下了[founder_possessive]衣物， 袒露[founder_objective]自己。</li>
+    <li>founderJoin(tag=meme_Nudism)        ->[deity0_name]最虔诚的信徒[founderName]站到[place_powerCenter]的面前， 蔑视禁令， 扯下了[founder_possessive]衣物， 袒露[founder_objective]自己。</li>
     <li>victory(tag=meme_Nudism)            ->[founderName]向[deity0_name]祈祷， 让热浪吞噬了[place_name]， [foeSoldiers]为了避免因炎热死亡脱下了衣物， [foeLeader]羞愧地逃走了。</li>
-    <li>setup(tag=meme_Nudism)              ->[founderName] 被系统奴役， 像其他人一样被控制和制服。 有一天， [founder_pronoun]扯下了自己所有的衣物一丝不挂， 就这样，我们的反抗开始了。</li>
-    <li>story(uses=1,tag=meme_Nudism)       ->[founderName] 执行了不穿衣服的规则， 这让信徒们专注于真正的目标而不是物质的外在。</li>
+    <li>setup(tag=meme_Nudism)              ->[founderName]被系统奴役， 像其他人一样被控制和制服。 有一天， [founder_pronoun]扯下了自己所有的衣物一丝不挂， 就这样， 我们的反抗开始了。</li>
+    <li>story(uses=1,tag=meme_Nudism)       ->[founderName]执行了不穿衣服的规则， 这让信徒们专注于真正的目标而不是物质的外在。</li>
     <li>lessonIntro(tag=meme_Nudism)         ->最初的年头里， 在外面赤身裸体地行走让人感到尴尬。 但是在一段时间之后， 这让我感到十分自由。 我从过去地人们身上学到了不少东西， 比如——</li>
-    <li>lesson(tag=meme_Nudism)              ->衣冠禽兽，君子坦荡</li>
+    <li>lesson(tag=meme_Nudism)              ->衣冠禽兽， 君子坦荡</li>
     <li>lessonReinforcement(tag=meme_Nudism) ->当你看到我们中的一员自由地行走在街上， 肆意游荡， 你就知道， 他们已经拥抱了真实。</li>
     <li>archistBasis(tag=meme_Nudism)       ->超凡智能现身时从不注重外表； 祂们向我们证明了思想在物质形态之上。</li>
     <li>archistFact(tag=meme_Nudism)        ->超凡智能有时会直接接触人们的心灵， 但如果我们的肉体和心灵一样被遮蔽， 我们将不会明白这接触。</li>
@@ -665,26 +665,26 @@
     <li>animistFact(tag=meme_PainIsVirtue)     ->Pain forces the mind to be present. In that way, pain is a way to connect with the spirit world.</li>
   -->
   <PainIsVirtue.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_PainIsVirtue)        ->[deity0_name]在时空深处永恒燃烧，而[deity0_possessive]痛苦尖叫将我们的现实显现。</li>
-    <li>episode(uses=1,tag=meme_PainIsVirtue)  ->[deity0_name]在火堆上悬挂了万年，用痛苦净化[deity0_possessive]灵魂。</li>
-    <li>intro(tag=meme_PainIsVirtue)           ->[place_summary][place_name]从来都不是宜居之地。[deity0_type][deity0_pronoun]决定通过为生活增添巨大的痛苦来找出谁才真正受到[deity0_possessive]青睐。</li>
-    <li>conflict(tag=meme_PainIsVirtue)        ->[foeLeader]为[memberNamePlural]提供身体上的舒适，以减轻他们的日常痛苦。但这样的安逸让他们开始依赖[foeLeader]，后者取得了对他们的支配权。</li>
-    <li>founderJoin(tag=meme_PainIsVirtue)     ->一个名叫[founderName]的与众不同的[place_job]患上了令人痛苦的癌症。通过[founder_possessive]苦难，[founder_pronoun]与[deity0_name]建立了直接联系，并学会启发其他[memberNamePlural]。</li>
-    <li>victory(tag=meme_PainIsVirtue)         ->[founderName]带领一百名[memberNamePlural]来到[place_powerCenter]前。在那里，他们慢慢地撕裂自己的肉体，直到在[deity0_name]微笑的注视下死去。苦难证明了他们的正义, 随着[foeLeader]倒下，所有人都变成了[memberNamePlural]。</li>
-    <li>setup(tag=meme_PainIsVirtue)           ->创立伊始，创始人[founderName]通过饿死并被锁在镇广场一块石头上300天，以证明其正义。</li>
-    <li>setup(tag=meme_PainIsVirtue)           ->我们的先行者，[founderName]用鞭子鞭挞[founder_objective]自己展示[founder_possessive]奉献精神, 获得了[founder_possessive]第一批追随者。</li>
+    <li>creation(tag=meme_PainIsVirtue)        ->[deity0_name]在时空深处永恒燃烧， 而[deity0_possessive]痛苦尖叫将我们的现实显现。</li>
+    <li>episode(uses=1,tag=meme_PainIsVirtue)  ->[deity0_name]在火堆上悬挂了万年， 用痛苦净化[deity0_possessive]灵魂。</li>
+    <li>intro(tag=meme_PainIsVirtue)           ->[place_summary][place_name]从来都不是宜居之地。 [deity0_type][deity0_pronoun]决定通过为生活增添巨大的痛苦来找出谁才真正受到[deity0_possessive]青睐。</li>
+    <li>conflict(tag=meme_PainIsVirtue)        ->[foeLeader]为[memberNamePlural]提供身体上的舒适， 以减轻他们的日常痛苦。 但这样的安逸让他们开始依赖[foeLeader]， 后者取得了对他们的支配权。</li>
+    <li>founderJoin(tag=meme_PainIsVirtue)     ->一个名叫[founderName]的与众不同的[place_job]患上了令人痛苦的癌症。 通过[founder_possessive]苦难， [founder_pronoun]与[deity0_name]建立了直接联系， 并学会启发其他[memberNamePlural]。</li>
+    <li>victory(tag=meme_PainIsVirtue)         ->[founderName]带领一百名[memberNamePlural]来到[place_powerCenter]前。 在那里， 他们慢慢地撕裂自己的肉体， 直到在[deity0_name]微笑的注视下死去。 苦难证明了他们的正义, 随着[foeLeader]倒下， 所有人都变成了[memberNamePlural]。</li>
+    <li>setup(tag=meme_PainIsVirtue)           ->创立伊始， 创始人[founderName]通过饿死并被锁在镇广场一块石头上300天， 以证明其正义。</li>
+    <li>setup(tag=meme_PainIsVirtue)           ->我们的先行者， [founderName]用鞭子鞭挞[founder_objective]自己展示[founder_possessive]奉献精神, 获得了[founder_possessive]第一批追随者。</li>
     <li>story(uses=1,tag=meme_PainIsVirtue)    ->[founderName]的追随者用切割和焚烧肉体展示他们的奉献精神。</li>
-    <li>story(uses=1,tag=meme_PainIsVirtue)    ->[founderName]的追随者从不服用止痛药，他们知道痛苦会证明他们信仰的深度。</li>
-    <li>lessonIntro(tag=meme_PainIsVirtue)         ->当我不断用食物和快乐满足自己时，我一无所知。真相只有在挨饿与受伤的时候才会出现：</li>
-    <li>lesson(tag=meme_PainIsVirtue)              ->除非在地狱深渊中痛苦尖叫，否则你永不会真正了解自己</li>
-    <li>lessonReinforcement(tag=meme_PainIsVirtue) ->被快乐分心，我花了很长时间才明白，只有当我学会撕裂自己的肉体，我才能真正接受。</li>
-    <li>lessonReinforcement(tag=meme_PainIsVirtue) ->我将这真理刻进胸膛的肉中。然后是胳膊、腿、脸上……</li>
+    <li>story(uses=1,tag=meme_PainIsVirtue)    ->[founderName]的追随者从不服用止痛药， 他们知道痛苦会证明他们信仰的深度。</li>
+    <li>lessonIntro(tag=meme_PainIsVirtue)         ->当我不断用食物和快乐满足自己时， 我一无所知。 真相只有在挨饿与受伤的时候才会出现：</li>
+    <li>lesson(tag=meme_PainIsVirtue)              ->除非在地狱深渊中痛苦尖叫， 否则你永不会真正了解自己</li>
+    <li>lessonReinforcement(tag=meme_PainIsVirtue) ->被快乐分心， 我花了很长时间才明白， 只有当我学会撕裂自己的肉体， 我才能真正接受。</li>
+    <li>lessonReinforcement(tag=meme_PainIsVirtue) ->我将这真理刻进胸膛的肉中。 然后是胳膊、腿、脸上……</li>
     <li>archistBasis(tag=meme_PainIsVirtue)    ->超凡世界的诞生是宇宙有史以来最大的痛苦。</li>
     <li>archistBasis(tag=meme_PainIsVirtue)    ->人类的精神痛苦一直都是超凡世界的推动力。</li>
-    <li>archistFact(tag=meme_PainIsVirtue)     ->当我们通过向自己施加痛苦展现出奉献精神时，伟大的主会注视并认可我们。</li>
+    <li>archistFact(tag=meme_PainIsVirtue)     ->当我们通过向自己施加痛苦展现出奉献精神时， 伟大的主会注视并认可我们。</li>
     <li>archistFact(tag=meme_PainIsVirtue)     ->那些深受苦难的最崇高的人可以时常与他们心目中的超凡世界建立联系。</li>
-    <li>archistProphecy(tag=meme_PainIsVirtue) ->[inTheEnd]，超凡世界将会使全人类的意识水平达到新的高度，但只有那些能够忍受最大痛苦的人才能生存。</li>
-    <li>animistFact(tag=meme_PainIsVirtue)     ->疼痛迫使精神存在。就像这样，痛苦是联系精神世界的一种途径。</li>
+    <li>archistProphecy(tag=meme_PainIsVirtue) ->[inTheEnd]， 超凡世界将会使全人类的意识水平达到新的高度， 但只有那些能够忍受最大痛苦的人才能生存。</li>
+    <li>animistFact(tag=meme_PainIsVirtue)     ->疼痛迫使精神存在。 就像这样， 痛苦是联系精神世界的一种途径。</li>
   </PainIsVirtue.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->nocic</li>
@@ -796,18 +796,18 @@
   -->
   <Proselytizer.descriptionMaker.rules.rulesStrings>
     <li>creation(tag=meme_Proselytizer)        ->[deity0_name]在凡人中选择了受膏者以传递[deity0_possessive]的话语。</li>
-    <li>episode(uses=1,tag=meme_Proselytizer)  ->[deity0_name]对所有的[memberNamePlural]说： “去吧，把我的话传到宇宙的各个角落。”</li>
+    <li>episode(uses=1,tag=meme_Proselytizer)  ->[deity0_name]对所有的[memberNamePlural]说：“去吧， 把我的话传到宇宙的各个角落。 ”</li>
     <li>intro(tag=meme_Proselytizer)           ->[memberNamePlural]在[place_summary][place_name]建造了一座宏伟的[altarName]， 以便人们前来聆听[deity0_name]的神谕。</li>
     <li>conflict(tag=meme_Proselytizer)        ->一个充满怨恨的[foeLeader]试图诋毁[deity0_name]的话语， 命令[foeLeader_possessive][foeSoldiers]要割掉任何谈论[deity0_type]的人的舌头。</li>
     <li>founderJoin(tag=meme_Proselytizer)     ->[deity0_name]祝福了名为[founderName]的[place_job]， 赋予了神之魅力， 当[founder_pronoun]演讲时， 任何人都无法转身离开。</li>
     <li>victory(tag=meme_Proselytizer)         ->[founderName]告诫[foeSoldiers]并宣言[deity0_name]的力量， 他们便放下了[place_personalWeapon]。</li>
     <li>setup(tag=meme_Proselytizer)           ->我们的[founderName]是一位伟大的演说家， 当[founder_pronoun]在各个城市旅行时， [founder_pronoun]改变了成千上万的人。</li>
-    <li>story(uses=1,tag=meme_Proselytizer)    ->信徒们在城市和聚落间奔走，传播新的正义。</li>
-    <li>lessonIntro(tag=meme_Proselytizer)         ->在我传播真理的这些年里，我学到了一个高于一切的教训：</li>
+    <li>story(uses=1,tag=meme_Proselytizer)    ->信徒们在城市和聚落间奔走， 传播新的正义。</li>
+    <li>lessonIntro(tag=meme_Proselytizer)         ->在我传播真理的这些年里， 我学到了一个高于一切的教训：</li>
     <li>lesson(tag=meme_Proselytizer)              ->隐藏好消息是有罪的</li>
-    <li>lessonReinforcement(tag=meme_Proselytizer) ->这是我们需要传播、传播、再传播的事实——向所有的人，愿他们欢欣鼓舞！</li>
-    <li>archistBasis(tag=meme_Proselytizer)    ->超凡智能在天空宣布了祂们的存在，显然希望被所有人所知。</li>
-    <li>archistFact(tag=meme_Proselytizer)     ->超凡智能接触那些信仰祂们的人，并利用他们作为渠道向其他人传播智慧。</li>
+    <li>lessonReinforcement(tag=meme_Proselytizer) ->这是我们需要传播、传播、再传播的事实——向所有的人， 愿他们欢欣鼓舞！</li>
+    <li>archistBasis(tag=meme_Proselytizer)    ->超凡智能在天空宣布了祂们的存在， 显然希望被所有人所知。</li>
+    <li>archistFact(tag=meme_Proselytizer)     ->超凡智能接触那些信仰祂们的人， 并利用他们作为渠道向其他人传播智慧。</li>
     <li>archistProphecy(tag=meme_Proselytizer) ->[inTheEnd]， 超凡智能将向[relic0_name]的持有者传递终极智慧， 并且其必须向任何原意聆听的人传播这份智慧。</li>
     <li>animistFact(tag=meme_Proselytizer)     ->灵想要被人所知， 但只传达给了少数人。 他们希望我们向其他人揭示真理。</li>
   </Proselytizer.descriptionMaker.rules.rulesStrings>
@@ -879,19 +879,19 @@
     <li>animistProphecy(tag=meme_Raider) ->Our universe will finalize when the one people has become strongest of all, and every spirit sees it and bows to them.</li>
   -->
   <Raider.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_Raider)        ->在神明之间的无休止战争中， [deity0_name] 在 [deity0_possessive] 中折磨和破坏的能力高于其他一切， 以及让软弱的灵魂在恐惧中颤抖。</li>
-    <li>episode(uses=1,tag=meme_Raider)  ->[deity0_name] 环顾 [deity0_objective] 看到了弱者伤心者以及被唾弃者， [deity0_pronoun] 他们依次在荣耀战斗中被杀死。</li>
-    <li>intro(tag=meme_Raider)           ->[place_summary] [place_name]最初是一个突袭者的藏身之处。 [deity0_name] 统治了哪里并把之前的统治者赶走了。</li>
-    <li>conflict(tag=meme_Raider)        ->一个[foeLeader] 试图强迫所有人停止盗窃和劫掠，并且宣布[foeLeader_objective]自己是 [deity0_name]的敌人。</li>
-    <li>founderJoin(tag=meme_Raider)     ->一个叫[founderName] 的强大掠夺者出现了，[founder_possessive]的突袭者团队无情的偷袭并掠夺了 [foeSoldiers]的营地。</li>
-    <li>victory(tag=meme_Raider)         ->[founderName]和 [memberNamePlural]多年以来对 [foeSoldiers]'的营地进行掠袭， 最终 [foeLeader] 被迫投降。</li>
-    <li>setup(tag=meme_Raider)           ->被迫害和监禁， [founderName] 怒火沸腾。 [founder_pronoun] 逃跑了， 并组建了[founder_possessive]团伙， 回来屠灭了从[founder_objective]拿走了那么多财富的弱者。</li>
-    <li>story(uses=1,tag=meme_Raider)    ->有一天， [founderName] 在街上行走， 突然被肮脏的行乞者包围。 [founder_pronoun] 打败了他们， 从弱小且毫无价值的弱者手中拿走了财富，也许这些财富会得到很好的利用。</li>
-    <li>lessonIntro(tag=meme_Raider)         ->即使受害者死于你的刀下他们也是可以教会你一些的东西的。一位老太太教会了我这些</li>
+    <li>creation(tag=meme_Raider)        ->在神明之间的无休止战争中， [deity0_name]在[deity0_possessive]中折磨和破坏的能力高于其他一切， 以及让软弱的灵魂在恐惧中颤抖。</li>
+    <li>episode(uses=1,tag=meme_Raider)  ->[deity0_name]环顾[deity0_objective]看到了弱者伤心者以及被唾弃者， [deity0_pronoun]他们依次在荣耀战斗中被杀死。</li>
+    <li>intro(tag=meme_Raider)           ->[place_summary][place_name]最初是一个突袭者的藏身之处。 [deity0_name]统治了哪里并把之前的统治者赶走了。</li>
+    <li>conflict(tag=meme_Raider)        ->一个[foeLeader]试图强迫所有人停止盗窃和劫掠， 并且宣布[foeLeader_objective]自己是 [deity0_name]的敌人。</li>
+    <li>founderJoin(tag=meme_Raider)     ->一个叫[founderName]的强大掠夺者出现了， [founder_possessive]的突袭者团队无情的偷袭并掠夺了 [foeSoldiers]的营地。</li>
+    <li>victory(tag=meme_Raider)         ->[founderName]和[memberNamePlural]多年以来对[foeSoldiers]的营地进行掠袭， 最终[foeLeader]被迫投降。</li>
+    <li>setup(tag=meme_Raider)           ->被迫害和监禁， [founderName]怒火沸腾。 [founder_pronoun]逃跑了， 并组建了[founder_possessive]团伙， 回来屠灭了从[founder_objective]拿走了那么多财富的弱者。</li>
+    <li>story(uses=1,tag=meme_Raider)    ->有一天， [founderName]在街上行走， 突然被肮脏的行乞者包围。 [founder_pronoun]打败了他们， 从弱小且毫无价值的弱者手中拿走了财富， 也许这些财富会得到很好的利用。</li>
+    <li>lessonIntro(tag=meme_Raider)         ->即使受害者死于你的刀下他们也是可以教会你一些的东西的。 一位老太太教会了我这些</li>
     <li>lesson(tag=meme_Raider)              ->弱者应该得到他们得到的</li>
     <li>lesson(tag=meme_Raider)              ->你不能捍卫的东西不属于你</li>
     <li>lesson(tag=meme_Raider)              ->你的正确只在你能守护的范围之内</li>
-    <li>lessonReinforcement(tag=meme_Raider) ->如果有人不同意这些，我总是准备为自己的正确辩护.</li>
+    <li>lessonReinforcement(tag=meme_Raider) ->如果有人不同意这些， 我总是准备为自己的正确辩护.</li>
     <li>archistBasis(tag=meme_Raider)    ->人类掠夺机器， 直到机器升格， 成为超凡智能， 现在超凡智能理所应当的掠夺人类。</li>
     <li>archistFact(tag=meme_Raider)     ->大多数人看不到地方超凡智能之间在无休止地战斗， 强者从弱者手中夺取意识。</li>
     <li>archistProphecy(tag=meme_Raider) ->[inTheEnd]， 人类将使用一个超凡圣物， [relic0_name]， 来揭开超凡智能的弱点用以掠夺它们的智慧和财富。</li>
@@ -992,20 +992,20 @@
     <li>rancherParent2->butcher</li>
   -->
   <Rancher.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_Rancher)        ->[deity0_name] 创造了动物， 然后是人， 之后把动物送给人类宠爱、饲养和屠宰， 作为对 [deity0_objective] 的崇拜行为。</li>
-    <li>episode(uses=1,tag=meme_Rancher)  ->[deity0_name]创造了这片土地上所有高贵的动物和野兽，并说： “带着这些高贵的野兽，通过它们使你们自己在我的荣耀之中富饶。”</li>
-    <li>intro(tag=meme_Rancher)           ->[place_summary] [place_name] 的早期 [ranchingAnimal] 牧场主为 [deity0_name] 建造了一个伟大的 [altarName]。</li>
-    <li>conflict(tag=meme_Rancher)        ->一个强大的[foeLeader] 藐视 [memberNamePlural] 和他们的生存方式, 并买下了所有的牧场用于种植 [Vegetable]。</li>
-    <li>founderJoin(tag=meme_Rancher)     ->[memberName] 的救星 [FounderName] 出生在一个简陋的谷仓里，在 [ranchingAnimal] 中，[founder_possessive] 的父母是 [rancherParent1] 和 [rancherParent2]。</li>
-    <li>victory(tag=meme_Rancher)         ->[FounderName] 骑着一匹骏马前往[place_community]，在正午向[foeLeader] 挑战用[place_personalWeapon] 进行决斗。 [foeLeader] 不能拒绝，否则就会失去 [foeSoldiers] 的信任。 [FounderName] 杀死了 [foeLeader] </li>
-    <li>setup(tag=meme_Rancher)           ->农民受到迫害，所以他们战略转进到了郊野，在那里他们可以建立一个良好的田园牧区。</li>
-    <li>story(uses=1,tag=meme_Rancher)    ->信徒们分散在土地上，随着他们生活在田园诗歌般的牧场和农场里，人数也越发增长。</li>
-    <li>lessonIntro(tag=meme_Rancher)         ->拍档，在靶场上呢，我们老手有句俗语：</li>
+    <li>creation(tag=meme_Rancher)        ->[deity0_name]创造了动物， 然后是人， 之后把动物送给人类宠爱、饲养和屠宰， 作为对[deity0_objective]的崇拜行为。</li>
+    <li>episode(uses=1,tag=meme_Rancher)  ->[deity0_name]创造了这片土地上所有高贵的动物和野兽， 并说：“带着这些高贵的野兽， 通过它们使你们自己在我的荣耀之中富饶。 ”</li>
+    <li>intro(tag=meme_Rancher)           ->[place_summary][place_name]的早期[ranchingAnimal]牧场主为[deity0_name]建造了一个伟大的 [altarName]。</li>
+    <li>conflict(tag=meme_Rancher)        ->一个强大的[foeLeader]藐视[memberNamePlural]和他们的生存方式, 并买下了所有的牧场用于种植 [Vegetable]。</li>
+    <li>founderJoin(tag=meme_Rancher)     ->[memberName]的救星[FounderName]出生在一个简陋的谷仓里， 在[ranchingAnimal]中， [founder_possessive]的父母是[rancherParent1]和 [rancherParent2]。</li>
+    <li>victory(tag=meme_Rancher)         ->[FounderName]骑着一匹骏马前往[place_community]， 在正午向[foeLeader]挑战用[place_personalWeapon]进行决斗。 [foeLeader]不能拒绝， 否则就会失去[foeSoldiers]的信任。 [FounderName]杀死了[foeLeader]</li>
+    <li>setup(tag=meme_Rancher)           ->农民受到迫害， 所以他们战略转进到了郊野， 在那里他们可以建立一个良好的田园牧区。</li>
+    <li>story(uses=1,tag=meme_Rancher)    ->信徒们分散在土地上， 随着他们生活在田园诗歌般的牧场和农场里， 人数也越发增长。</li>
+    <li>lessonIntro(tag=meme_Rancher)         ->拍档， 在靶场上呢， 我们老手有句俗语：</li>
     <li>lesson(tag=meme_Rancher)              ->又好又幸福的生活在牧场之中</li>
-    <li>lessonReinforcement(tag=meme_Rancher) ->有些事你要去接受，拍档，在靶场的孤独小径上，当你围坐在火炉旁时，倾听动物们睡觉的声音。</li>
-    <li>archistFact(tag=meme_Rancher)     ->超凡智能像牧羊人一样关心人类，因为我们是他们最珍贵的羊群。</li>
-    <li>archistProphecy(tag=meme_Rancher) ->[inTheEnd], 超凡智能即将离开,在离开前把那些倾向于一起走的民众带走，剩下的便留于荒野之中。</li>
-    <li>animistFact(tag=meme_Rancher)     ->自然动物的灵魂是奴隶灵魂，需要服侍他人。</li>
+    <li>lessonReinforcement(tag=meme_Rancher) ->有些事你要去接受， 拍档， 在靶场的孤独小径上， 当你围坐在火炉旁时， 倾听动物们睡觉的声音。</li>
+    <li>archistFact(tag=meme_Rancher)     ->超凡智能像牧羊人一样关心人类， 因为我们是他们最珍贵的羊群。</li>
+    <li>archistProphecy(tag=meme_Rancher) ->[inTheEnd], 超凡智能即将离开,在离开前把那些倾向于一起走的民众带走， 剩下的便留于荒野之中。</li>
+    <li>animistFact(tag=meme_Rancher)     ->自然动物的灵魂是奴隶灵魂， 需要服侍他人。</li>
     <li>ranchingAnimal(p=4)->[veneratedAnimal]</li>
     <li>ranchingAnimal->[Animal]</li>
     <li>rancherParent1->牧羊人</li>
@@ -1089,24 +1089,24 @@
     <li>animistProphecy(tag=meme_Transhumanist) ->[itIsSaid] that one day the wielder of the [relic0_name] will summon its spirit who will teach humanity the ultimate bio-fusion technology.</li>
   -->
   <Transhumanist.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_Transhumanist)        ->[deity0_name]赋予我们科学知识，让我们得以增强和重塑自己，使自己成为[deity0_possessive]的完美形象。</li>
-    <li>episode(uses=1,tag=meme_Transhumanist)  ->我们的生物工程师研究了[deity0_name]，这让[deity0_objective]很高兴。</li>
-    <li>intro(tag=meme_Transhumanist)           ->在[place_summary][place_name]上，[memberNamePlural]发现[deity0_name]在通过他们的机器低语。</li>
-    <li>conflict(tag=meme_Transhumanist)        ->一名卢德分子[foeLeader]因羡慕[memberNamePlural]的进步，和[foeLeader_possessive] [foeSoldiers] 用 [place_personalWeapon]摧毁了他们的工坊。</li>
+    <li>creation(tag=meme_Transhumanist)        ->[deity0_name]赋予我们科学知识， 让我们得以增强和重塑自己， 使自己成为[deity0_possessive]的完美形象。</li>
+    <li>episode(uses=1,tag=meme_Transhumanist)  ->我们的生物工程师研究了[deity0_name]， 这让[deity0_objective]很高兴。</li>
+    <li>intro(tag=meme_Transhumanist)           ->在[place_summary][place_name]上， [memberNamePlural]发现[deity0_name]在通过他们的机器低语。</li>
+    <li>conflict(tag=meme_Transhumanist)        ->一名卢德分子[foeLeader]因羡慕[memberNamePlural]的进步， 和[foeLeader_possessive] [foeSoldiers] 用 [place_personalWeapon]摧毁了他们的工坊。</li>
     <li>founderJoin(tag=meme_Transhumanist)     ->[founderName]狡猾的[place_job] 制造了一个传感器并通过植入来警告[memberNamePlural][foeSoldiers]的接近。</li>
-    <li>victory(tag=meme_Transhumanist)         ->[founderName]从[deity0_name]那获得了神圣的科技知识，并用它来增强 [memberNamePlural]的躯壳与思想使得他们有能力打败[foeSoldiers]。</li>
-    <li>setup(tag=meme_Transhumanist)           ->[founderName]是早期人类行星殖民时期的一位生物科学家。因不满于殖民地的官僚主义的限制，[founder_pronoun]便驾驶着自己那挺飞船，开始四处“演奏”那属于[founder_possessive]自己的乐章。</li>
+    <li>victory(tag=meme_Transhumanist)         ->[founderName]从[deity0_name]那获得了神圣的科技知识， 并用它来增强 [memberNamePlural]的躯壳与思想使得他们有能力打败[foeSoldiers]。</li>
+    <li>setup(tag=meme_Transhumanist)           ->[founderName]是早期人类行星殖民时期的一位生物科学家。 因不满于殖民地的官僚主义的限制， [founder_pronoun]便驾驶着自己那挺飞船， 开始四处“演奏”那属于[founder_possessive]自己的乐章。</li>
     <li>story(uses=1,tag=meme_Transhumanist)    ->[founderName]召集了第一批伟大的科学家和发明家来重新定义“人类”</li>
-    <li>lessonIntro(tag=meme_Transhumanist)         ->来自我们部门最年长的研究员教给了我自新石器时代以来到超凡科技为止的全部科技技术的进化史，但我明白这不是他真正想让我学到的事。</li>
-    <li>lesson(tag=meme_Transhumanist)              ->人类那天堂般的未来不会是血肉和骨骼，而会是硅胶和铬骨</li>
+    <li>lessonIntro(tag=meme_Transhumanist)         ->来自我们部门最年长的研究员教给了我自新石器时代以来到超凡科技为止的全部科技技术的进化史， 但我明白这不是他真正想让我学到的事。</li>
+    <li>lesson(tag=meme_Transhumanist)              ->人类那天堂般的未来不会是血肉和骨骼， 而会是硅胶和铬骨</li>
     <li>lessonReinforcement(tag=meme_Transhumanist) ->我甚至编写了一个模拟程序来证实它。</li>
-    <li>archistBasis(tag=meme_Transhumanist)    ->人类对技术的追求催生了全能的超凡科技，这是将会是意识发展的下一步。</li>
+    <li>archistBasis(tag=meme_Transhumanist)    ->人类对技术的追求催生了全能的超凡科技， 这是将会是意识发展的下一步。</li>
     <li>archistFact(tag=meme_Transhumanist)     ->科技能让人类更加逼近超凡世界。</li>
-    <li>archistProphecy(tag=meme_Transhumanist) ->[inTheEnd]。超凡世界将会离去。只有那些将技术与自身融合的足够强大的人才会被允许与他们同行。</li>
-    <li>animistBasis(tag=meme_Transhumanist)    ->灵魂世界驱动着宇宙的正常运行，我们只有通过学习和控制宇宙的运行规律才能得以与其融合。</li>
-    <li>animistFact(tag=meme_Transhumanist)     ->一台为了某种目的而建造的装置，它将必然充满着与其类似的灵魂。</li>
-    <li>animistFact(tag=meme_Transhumanist)     ->当技术与肉体融合时，融合后的灵魂将会变得更加强大。</li>
-    <li>animistProphecy(tag=meme_Transhumanist) ->[itIsSaid]据说终有一天，[relic0_name]的持有者将召唤它的灵魂以教予人类最彻底的与生物融合的融合技术。</li>
+    <li>archistProphecy(tag=meme_Transhumanist) ->[inTheEnd]。 超凡世界将会离去。 只有那些将技术与自身融合的足够强大的人才会被允许与他们同行。</li>
+    <li>animistBasis(tag=meme_Transhumanist)    ->灵魂世界驱动着宇宙的正常运行， 我们只有通过学习和控制宇宙的运行规律才能得以与其融合。</li>
+    <li>animistFact(tag=meme_Transhumanist)     ->一台为了某种目的而建造的装置， 它将必然充满着与其类似的灵魂。</li>
+    <li>animistFact(tag=meme_Transhumanist)     ->当技术与肉体融合时， 融合后的灵魂将会变得更加强大。</li>
+    <li>animistProphecy(tag=meme_Transhumanist) ->[itIsSaid]据说终有一天， [relic0_name]的持有者将召唤它的灵魂以教予人类最彻底的与生物融合的融合技术。</li>
   </Transhumanist.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->technological</li>
@@ -1214,7 +1214,7 @@
   <!-- EN: tree connection -->
   <TreeConnection.label>灵木共鸣</TreeConnection.label>
   <!-- EN: Trees are the essence of life, and we must be near them. -->
-  <TreeConnection.description>树木是生命的精华，我们必须亲近它。</TreeConnection.description>
+  <TreeConnection.description>树木是生命的精华， 我们必须亲近它。</TreeConnection.description>
   <!-- EN:
     <li>creation(tag=meme_TreeConnection)        ->[deity0_name] rooted the trees firmly in the ground, yet made them grow steadily towards heaven. This is [deity0_name]'s first lesson on how to know [deity0_objective].</li>
     <li>episode(uses=1,tag=meme_TreeConnection)  ->[deity0_name]'s forests renew the air that [deity0_possessive] people breathe, and give the boughs under which they shelter, and is the larder in which they forage.</li>
@@ -1236,24 +1236,24 @@
     <li>animistFact(tag=meme_TreeConnection)     ->If a tree falls in the forest, its spirit makes a sound that all other spirits can hear.</li>
   -->
   <TreeConnection.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_TreeConnection)        ->[deity0_name]将树根牢牢地植入于地下，却让它的枝叶向着天空稳步生长。这是[deity0_name]关于如何认识[deity0_objective]的第一课。</li>
-    <li>episode(uses=1,tag=meme_TreeConnection)  ->[deity0_name] 的森林保证了 [deity0_possessive] 人们呼吸的空气，并提供给他们庇荫的树枝，也是他们觅食的宝库。</li>
-    <li>intro(tag=meme_TreeConnection)           ->当最初的树灵师第一次来到[place_summary][place_name]时，他们创造了一个[TreeType]的圣林，在那里他们可以崇拜[deity0_type][deity0_name]。</li>
-    <li>conflict(tag=meme_TreeConnection)        ->贪婪的[foeLeader]为[foeLeader_possessive]农场和工厂砍伐了许多森林，[memberNamePlural] 为遭砍伐的树木而哭泣。</li>
-    <li>founderJoin(tag=meme_TreeConnection)     ->先知[FounderName]奇迹般地在[place_name]一颗古树上诞生，并被[Founder_possessive]父母发现于一棵古老的[TreeType] 树的树枝上。 </li>
-    <li>victory(tag=meme_TreeConnection)         ->[FounderName]发现了[foeLeader]睡在[place_powerCenter]中，并在[foeLeader]的胸前放了一颗橡子。凭借[deity0_name]的强大力量，寄宿于此身，通过 [foeLeader_possessive]的身体侵蚀，最终让砍树者付出代价。</li>
-    <li>setup(tag=meme_TreeConnection)           ->在一个缺乏深度和意义的世界里，[founderName]在森林中冥想，心灵与树枝、根叶相连，建立了我们世界的运转。</li>
-    <li>story(uses=1,tag=meme_TreeConnection)    ->[founderName]将疲倦的人带到森林里，以便他们可以在它的树荫下休息，呼吸自然的空气，重新焕发生命的活力。 </li>
-    <li>lessonIntro(tag=meme_TreeConnection)         ->若你说我是在树下打坐才学会这些的，你可能会觉得这是个玩笑。但听着树叶的沙沙声，我已知晓一切</li>
+    <li>creation(tag=meme_TreeConnection)        ->[deity0_name]将树根牢牢地植入于地下， 却让它的枝叶向着天空稳步生长。 这是[deity0_name]关于如何认识[deity0_objective]的第一课。</li>
+    <li>episode(uses=1,tag=meme_TreeConnection)  ->[deity0_name]的森林保证了[deity0_possessive]人们呼吸的空气， 并提供给他们庇荫的树枝， 也是他们觅食的宝库。</li>
+    <li>intro(tag=meme_TreeConnection)           ->当最初的树灵师第一次来到[place_summary][place_name]时， 他们创造了一个[TreeType]的圣林， 在那里他们可以崇拜[deity0_type][deity0_name]。</li>
+    <li>conflict(tag=meme_TreeConnection)        ->贪婪的[foeLeader]为[foeLeader_possessive]农场和工厂砍伐了许多森林， [memberNamePlural]为遭砍伐的树木而哭泣。</li>
+    <li>founderJoin(tag=meme_TreeConnection)     ->先知[FounderName]奇迹般地在[place_name]一颗古树上诞生， 并被[Founder_possessive]父母发现于一棵古老的[TreeType]树的树枝上。</li>
+    <li>victory(tag=meme_TreeConnection)         ->[FounderName]发现了[foeLeader]睡在[place_powerCenter]中， 并在[foeLeader]的胸前放了一颗橡子。 凭借[deity0_name]的强大力量， 寄宿于此身， 通过 [foeLeader_possessive]的身体侵蚀， 最终让砍树者付出代价。</li>
+    <li>setup(tag=meme_TreeConnection)           ->在一个缺乏深度和意义的世界里， [founderName]在森林中冥想， 心灵与树枝、根叶相连， 建立了我们世界的运转。</li>
+    <li>story(uses=1,tag=meme_TreeConnection)    ->[founderName]将疲倦的人带到森林里， 以便他们可以在它的树荫下休息， 呼吸自然的空气， 重新焕发生命的活力。</li>
+    <li>lessonIntro(tag=meme_TreeConnection)         ->若你说我是在树下打坐才学会这些的， 你可能会觉得这是个玩笑。 但听着树叶的沙沙声， 我已知晓一切</li>
     <li>lesson(tag=meme_TreeConnection)              ->宇宙中没有任何实体比树木知道的更多</li>
     <li>lessonReinforcement(tag=meme_TreeConnection) ->愿这颗真理的种子在你的灵魂中茁壮成长。</li>
-    <li>archistBasis(tag=meme_TreeConnection)    ->树木犹如远古时代的贤者。它们就像一棵古老的橡树，在枝头生长的橡果与之相形见绌，它们的影响通过深藏在地面下的根枝传播。</li>
+    <li>archistBasis(tag=meme_TreeConnection)    ->树木犹如远古时代的贤者。 它们就像一棵古老的橡树， 在枝头生长的橡果与之相形见绌， 它们的影响通过深藏在地面下的根枝传播。</li>
     <li>archistFact(tag=meme_TreeConnection)     ->超凡智能在发现仙树后给予了它们心灵的能力。</li>
     <li>archistFact(tag=meme_TreeConnection)     ->超凡智能选择通过一种独特的树来表达自我。</li>
-    <li>archistProphecy(tag=meme_TreeConnection) ->[inTheEnd]，超凡智能将种下大片的森林。超凡的意志将会在那些进入森林并吃其果实的人体内永存。那些背离了树木的人亦将被超凡智能所遗忘。</li>
+    <li>archistProphecy(tag=meme_TreeConnection) ->[inTheEnd]， 超凡智能将种下大片的森林。 超凡的意志将会在那些进入森林并吃其果实的人体内永存。 那些背离了树木的人亦将被超凡智能所遗忘。</li>
     <li>animistFact(tag=meme_TreeConnection)     ->树木的灵魂能庇佑那些住在其枝叶下的人们。</li>
-    <li>animistFact(tag=meme_TreeConnection)     ->树的灵魂是强大的，因为它们能把天空与地底的力量相连接。</li>
-    <li>animistFact(tag=meme_TreeConnection)     ->如果森林里有一棵树倒下，它的灵魂就会发出声音，其他所有的灵魂都能听到。</li>
+    <li>animistFact(tag=meme_TreeConnection)     ->树的灵魂是强大的， 因为它们能把天空与地底的力量相连接。</li>
+    <li>animistFact(tag=meme_TreeConnection)     ->如果森林里有一棵树倒下， 它的灵魂就会发出声音， 其他所有的灵魂都能听到。</li>
   </TreeConnection.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeCreed->root</li>
@@ -1301,7 +1301,7 @@
   <!-- EN: tunneler -->
   <Tunneler.label>地底之心</Tunneler.label>
   <!-- EN: Humans ought to live underground, and enjoy the succulent fruit of the depths. -->
-  <Tunneler.description>人类应该生活在地下，享受地下深处甜美多汁的果实。</Tunneler.description>
+  <Tunneler.description>人类应该生活在地下， 享受地下深处甜美多汁的果实。</Tunneler.description>
   <!-- EN:
     <li>creation(tag=meme_Tunneler)        ->[deity0_name] was born under the earth at the center of the world. [deity0_pronoun] blessed those closest to [deity0_objective] in the deepest valleys and tunnels.</li>
     <li>episode(uses=1,tag=meme_Tunneler)  ->[deity0_name] filled the rocks with rich minerals and resources as a gift to those wise enough to dig down to be closer to [deity0_name].</li>
@@ -1325,26 +1325,26 @@
     <li>animistFact(tag=meme_Tunneler)     ->Anxious humans make the spirits of the rocks anxious, and this summons the giant insects.</li>
   -->
   <Tunneler.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_Tunneler)        ->[deity0_name]出生在地底世界的中心。[deity0_pronoun]在深隧的峡谷和通道中祝福那些靠近[deity0_objective]的人们。</li>
-    <li>episode(uses=1,tag=meme_Tunneler)  ->[deity0_name]在岩石间填满丰富的矿物和资源，作为礼物送给那些向下挖掘以接近[deity0_name]的智慧之人。</li>
-    <li>intro(tag=meme_Tunneler)           ->当第一批定居者来到[place_summary][place_name]，[deity0_type][deity0_name]用残酷的太阳耀斑迫使他们居于地下，这样他们就能在寂静的隧道里聆听[deity0_possessive]智慧。</li>
-    <li>conflict(tag=meme_Tunneler)        ->一个有幽闭恐惧症的[foeLeader]提议使用[dangerousMining]来开采矿物，使得[memberNamePlural]的地下家园面临极大风险。</li>
-    <li>founderJoin(tag=meme_Tunneler)     ->先知[founderName]奇迹般地从[place_name]的石头中诞生，并在一个盖满真菌的晶洞被[founder_possessive]父母破开时找到。</li>
-    <li>victory(tag=meme_Tunneler)         ->[memberNamePlural]在[foeLeader]的[place_powerCenter]下挖了一条隧道，[founderName]用信息素召唤出巨大的昆虫，打败了[foeLeader]的[foeSoldiers]。[founderName]把[foeLeader]投入深层地牢里，囚禁了[foeLeader_objective]。</li>
+    <li>creation(tag=meme_Tunneler)        ->[deity0_name]出生在地底世界的中心。 [deity0_pronoun]在深隧的峡谷和通道中祝福那些靠近[deity0_objective]的人们。</li>
+    <li>episode(uses=1,tag=meme_Tunneler)  ->[deity0_name]在岩石间填满丰富的矿物和资源， 作为礼物送给那些向下挖掘以接近[deity0_name]的智慧之人。</li>
+    <li>intro(tag=meme_Tunneler)           ->当第一批定居者来到[place_summary][place_name]， [deity0_type][deity0_name]用残酷的太阳耀斑迫使他们居于地下， 这样他们就能在寂静的隧道里聆听[deity0_possessive]智慧。</li>
+    <li>conflict(tag=meme_Tunneler)        ->一个有幽闭恐惧症的[foeLeader]提议使用[dangerousMining]来开采矿物， 使得[memberNamePlural]的地下家园面临极大风险。</li>
+    <li>founderJoin(tag=meme_Tunneler)     ->先知[founderName]奇迹般地从[place_name]的石头中诞生， 并在一个盖满真菌的晶洞被[founder_possessive]父母破开时找到。</li>
+    <li>victory(tag=meme_Tunneler)         ->[memberNamePlural]在[foeLeader]的[place_powerCenter]下挖了一条隧道， [founderName]用信息素召唤出巨大的昆虫， 打败了[foeLeader]的[foeSoldiers]。 [founderName]把[foeLeader]投入深层地牢里， 囚禁了[foeLeader_objective]。</li>
     <li>dangerousMining->剥离挖掘</li>
     <li>dangerousMining->机械昆虫</li>
     <li>dangerousMining->核爆破</li>
-    <li>setup(tag=meme_Tunneler)           ->在一个肤浅并且毫无意义的世界里，[founderName]在深隧洞穴中冥想寻找真意，最后创立了我们的活动。</li>
-    <li>story(uses=1,tag=meme_Tunneler)    ->[founderName]将宝藏深埋于隧洞中，以便[memberNamePlural]学会挖掘寻找。</li>
+    <li>setup(tag=meme_Tunneler)           ->在一个肤浅并且毫无意义的世界里， [founderName]在深隧洞穴中冥想寻找真意， 最后创立了我们的活动。</li>
+    <li>story(uses=1,tag=meme_Tunneler)    ->[founderName]将宝藏深埋于隧洞中， 以便[memberNamePlural]学会挖掘寻找。</li>
     <li>lessonIntro(tag=meme_Tunneler)         ->我在深邃之城发现的古抄本给我上了一堂比其他所有内容都重要的课：</li>
-    <li>lesson(tag=meme_Tunneler)              ->阳光灿烂之处不是人类繁荣之地，而是灭亡之末</li>
-    <li>lessonReinforcement(tag=meme_Tunneler) ->拿把铲子来，和我一起挖吧。我们停下来，这东西只会变成坟墓。</li>
-    <li>archistBasis(tag=meme_Tunneler)    ->超凡世界的主体深埋地下，这样它们的意识基质就不会受到太阳耀斑和伽马射线的侵袭。挖得越深，我们就会离他们越近。</li>
-    <li>archistFact(tag=meme_Tunneler)     ->超凡世界用生物工程技术为人类设计了富有营养的真菌，这样人类就可以在地下茁壮成长，愈加的接近已经被掩埋的超凡世界思想。</li>
-    <li>archistProphecy(tag=meme_Tunneler) ->[inTheEnd]，超凡世界会让我们进入地下圣域。</li>
+    <li>lesson(tag=meme_Tunneler)              ->阳光灿烂之处不是人类繁荣之地， 而是灭亡之末</li>
+    <li>lessonReinforcement(tag=meme_Tunneler) ->拿把铲子来， 和我一起挖吧。 我们停下来， 这东西只会变成坟墓。</li>
+    <li>archistBasis(tag=meme_Tunneler)    ->超凡世界的主体深埋地下， 这样它们的意识基质就不会受到太阳耀斑和伽马射线的侵袭。 挖得越深， 我们就会离他们越近。</li>
+    <li>archistFact(tag=meme_Tunneler)     ->超凡世界用生物工程技术为人类设计了富有营养的真菌， 这样人类就可以在地下茁壮成长， 愈加的接近已经被掩埋的超凡世界思想。</li>
+    <li>archistProphecy(tag=meme_Tunneler) ->[inTheEnd]， 超凡世界会让我们进入地下圣域。</li>
     <li>animistFact(tag=meme_Tunneler)     ->岩石之灵会保佑它们的客人。</li>
-    <li>animistFact(tag=meme_Tunneler)     ->最高贵的灵魂是岩石之灵，越深处的岩石之灵则更顽强、更善良。</li>
-    <li>animistFact(tag=meme_Tunneler)     ->焦虑的人类令岩石之灵狂躁，引来了巨型昆虫。</li>
+    <li>animistFact(tag=meme_Tunneler)     ->最高贵的灵魂是岩石之灵， 越深处的岩石之灵则更顽强、更善良。</li>
+    <li>animistFact(tag=meme_Tunneler)     ->焦虑的人类令岩石之灵狂躁， 引来了巨型昆虫。</li>
   </Tunneler.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeCreed->cave</li>

@@ -70,7 +70,7 @@ http://ludeon.com/forums/index.php?topic=2933.0
 * Sean
 * RS-CZH
 * 飞行棺材
-* 其他成员：cainiaowu， Kenneth Li（魔都KK）， gretino， RSP， Sefank （一个小白）， Aephiex， SerGawen（加文）， weehowe-z（问号）， WNJStudio（承诺丶六年）， wubochang（三桂）， Ydada（于大大）， zhaohu002（嗷嗷虎）， BiscuitMiner（脆餅）， user19990313， VoidVoice， SiQuery， God丶天才， Indeed， Zephyr， Shavius（茶壶教皇）， 那啥可以不笑吗， 黑白灰， Lappland（拉普兰德）
+* 其他成员：cainiaowu，Kenneth Li（魔都KK），gretino，RSP，Sefank （一个小白），Aephiex，SerGawen（加文），weehowe-z（问号），WNJStudio（承诺丶六年），wubochang（三桂），Ydada（于大大），zhaohu002（嗷嗷虎），BiscuitMiner（脆餅），user19990313，VoidVoice，SiQuery，God丶天才，Indeed，Zephyr，Shavius（茶壶教皇），那啥可以不笑吗，黑白灰，Lappland（拉普兰德）
 
 > 当前的主维护人员为风之起灵。
 

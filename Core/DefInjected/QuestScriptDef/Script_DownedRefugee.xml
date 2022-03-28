@@ -8,8 +8,8 @@
     <li>pawnInvolvedInQuestInfo-></li>
   -->
   <OpportunitySite_DownedRefugee.questDescriptionRules.rulesStrings>
-    <li>questDescription(askerIsNull==true)->[refugee_nameDef] 通过无线电联系上你并请求救助。 [refugee_pronoun] 受伤了并且无法行动。 \n\n[refugee_nameDef] 是一名 [refugee_age]岁的[refugee_title]。 如果你完成解救[refugee_objective]， [refugee_pronoun]发誓会加入你的殖民地。 \n\n[refugee_nameDef] 告诉我们 [allSitePartsDescriptionsExceptFirst] [pawnInvolvedInQuestInfo]</li>
-    <li>questDescription(asker_factionLeader==True)->[asker_faction_name] 的 [asker_faction_leaderTitle]， [asker_nameDef] 告诉 [asker_possessive] 朋友在旅行的时候因受伤无法行动。 这名朋友名叫 [refugee_nameIndef]， 是一个[refugee_age]岁[refugee_title]。 \n\n[asker_nameDef] 现在没法派出多余的人手去帮助 [refugee_nameDef]， 不过如果我们能赶到[refugee_nameDef]现在的位置并帮助[refugee_objective]， [refugee_pronoun]就会加入我们。 \n\n[asker_nameDef] 透露 [allSitePartsDescriptionsExceptFirst] [pawnInvolvedInQuestInfo]</li>
+    <li>questDescription(askerIsNull==true)->[refugee_nameDef]通过无线电联系上你并请求救助。 [refugee_pronoun]受伤了并且无法行动。 \n\n[refugee_nameDef]是一名[refugee_age]岁的[refugee_title]。 如果你完成解救[refugee_objective]， [refugee_pronoun]发誓会加入你的殖民地。 \n\n[refugee_nameDef]告诉我们[allSitePartsDescriptionsExceptFirst][pawnInvolvedInQuestInfo]</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_faction_name]的[asker_faction_leaderTitle]， [asker_nameDef]告诉[asker_possessive]朋友在旅行的时候因受伤无法行动。 这名朋友名叫 [refugee_nameIndef]， 是一个[refugee_age]岁[refugee_title]。 \n\n[asker_nameDef]现在没法派出多余的人手去帮助[refugee_nameDef]， 不过如果我们能赶到[refugee_nameDef]现在的位置并帮助[refugee_objective]， [refugee_pronoun]就会加入我们。 \n\n[asker_nameDef]透露[allSitePartsDescriptionsExceptFirst][pawnInvolvedInQuestInfo]</li>
     <li>pawnInvolvedInQuestInfo(priority=1)->[refugee_pawnInvolvedInQuestInfo]</li>
     <li>pawnInvolvedInQuestInfo-></li>
   </OpportunitySite_DownedRefugee.questDescriptionRules.rulesStrings>

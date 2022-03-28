@@ -21,16 +21,16 @@
   <CollapseDodged.rulePack.rulesStrings>
     <li>tale_noun->[PAWN_nameDef]躲避塌落</li>
     <li>tale_noun->[PAWN_nameDef]差点被高空坠物砸中</li>
-    <li>image->[PAWN_nameFull]远离崩落的碎片，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]勉强避开塌落，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]正在躲避下落的天花板，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]避开了致命的落石，[circumstance_group]</li>
+    <li>image->[PAWN_nameFull]远离崩落的碎片， [circumstance_group]</li>
+    <li>image->[PAWN_nameFull]勉强避开塌落， [circumstance_group]</li>
+    <li>image->[PAWN_nameFull]正在躲避下落的天花板， [circumstance_group]</li>
+    <li>image->[PAWN_nameFull]避开了致命的落石， [circumstance_group]</li>
     <li>circumstance_phrase->坠物随后消失在一片瓦砾和灰尘之中</li>
     <li>circumstance_phrase->那力量足以压碎一切</li>
     <li>circumstance_phrase->那真是难以置信的力量</li>
     <li>desc_sentence->[PAWN_pronoun]满头大汗。</li>
     <li>desc_sentence->[PAWN_pronoun]显得非常害怕。</li>
-    <li>desc_sentence->[PAWN_pronoun]被刮伤，正在流血。</li>
+    <li>desc_sentence->[PAWN_pronoun]被刮伤， 正在流血。</li>
     <li>desc_sentence->[PAWN_pronoun]失去平衡。</li>
   </CollapseDodged.rulePack.rulesStrings>
   
@@ -62,22 +62,22 @@
   <LaunchedShip.rulePack.rulesStrings>
     <li>tale_noun->[PAWN_nameDef]逃离星球</li>
     <li>tale_noun->[PAWN_nameDef]的宇宙飞船起飞</li>
-    <li>image->[circumstance_group]，[PAWN_nameFull]向目标星系进发</li>
-    <li>image->[circumstance_group]，[PAWN_nameFull]飞向天空</li>
-    <li>image->[circumstance_group]，[PAWN_nameFull]正加速到逃逸速度</li>
-    <li>image->[circumstance_group]，[PAWN_nameFull]驾驶火箭升空</li>
+    <li>image->[circumstance_group]， [PAWN_nameFull]向目标星系进发</li>
+    <li>image->[circumstance_group]， [PAWN_nameFull]飞向天空</li>
+    <li>image->[circumstance_group]， [PAWN_nameFull]正加速到逃逸速度</li>
+    <li>image->[circumstance_group]， [PAWN_nameFull]驾驶火箭升空</li>
     <li>circumstance_phrase->在一片[TerrainFeature]前</li>
     <li>circumstance_phrase->通过不可思议的力量</li>
     <li>circumstance_phrase->在四周满是灰尘和石头环境中</li>
     <li>circumstance_phrase->伴随火箭喷出猛烈的火焰</li>
     <li>circumstance_phrase->经过精确计算</li>
     <li>desc_sentence->[PAWN_pronoun]集中精力进行操控。</li>
-    <li>desc_sentence->[PAWN_pronoun]闭上眼睛，看上去十分自信。</li>
-    <li>desc_sentence->[PAWN_pronoun]安心地闭上眼睛，睡着了。</li>
+    <li>desc_sentence->[PAWN_pronoun]闭上眼睛， 看上去十分自信。</li>
+    <li>desc_sentence->[PAWN_pronoun]安心地闭上眼睛， 睡着了。</li>
     <li>desc_sentence->[PAWN_pronoun]的笑容令人不寒而栗。</li>
     <li>desc_sentence->看上去一切都在[PAWN_pronoun]的掌控之中。</li>
     <li>desc_sentence->飞船尾部拖着火焰。</li>
-    <li>desc_sentence->一只在附近的[Animal]抬着头，对这一幕感到惊讶。</li>
+    <li>desc_sentence->一只在附近的[Animal]抬着头， 对这一幕感到惊讶。</li>
     <li>desc_sentence->一只[Animal]因为害怕而从发射现场逃离。</li>
     <li>desc_sentence->背景中是一片[TerrainFeature]。</li>
     <li>desc_sentence->一位[PersonJob]远远的目睹了这一切。</li>
@@ -120,15 +120,15 @@
   -->
   <SocialFight.rulePack.rulesStrings>
     <li>tale_noun->[INITIATOR_nameDef]和[RESPONDER_nameDef][fight_name_present]</li>
-    <li>image->[INITIATOR_nameFull]正在侮辱[RESPONDER_nameFull]，[circumstance_group]</li>
-    <li>image->[INITIATOR_nameFull]正在辱骂[RESPONDER_nameFull]，[circumstance_group]</li>
-    <li>image->[INITIATOR_nameFull]正在威胁[RESPONDER_nameFull]，[circumstance_group]</li>
-    <li>image->[INITIATOR_nameFull]正在恐吓[RESPONDER_nameFull]，[circumstance_group]</li>
-    <li>image->[INITIATOR_nameFull]正在攻击[RESPONDER_nameFull]，[circumstance_group]</li>
-    <li>image->[INITIATOR_nameFull]正在殴打[RESPONDER_nameFull]，[circumstance_group]</li>
-    <li>image->[INITIATOR_nameFull]正在追打[RESPONDER_nameFull]，[circumstance_group]</li>
-    <li>image->[INITIATOR_nameFull]正在猛踢[RESPONDER_nameFull]，[circumstance_group]</li>
-    <li>image->[INITIATOR_nameFull]被[RESPONDER_nameFull]吓坏了，[circumstance_group]</li>
+    <li>image->[INITIATOR_nameFull]正在侮辱[RESPONDER_nameFull]， [circumstance_group]</li>
+    <li>image->[INITIATOR_nameFull]正在辱骂[RESPONDER_nameFull]， [circumstance_group]</li>
+    <li>image->[INITIATOR_nameFull]正在威胁[RESPONDER_nameFull]， [circumstance_group]</li>
+    <li>image->[INITIATOR_nameFull]正在恐吓[RESPONDER_nameFull]， [circumstance_group]</li>
+    <li>image->[INITIATOR_nameFull]正在攻击[RESPONDER_nameFull]， [circumstance_group]</li>
+    <li>image->[INITIATOR_nameFull]正在殴打[RESPONDER_nameFull]， [circumstance_group]</li>
+    <li>image->[INITIATOR_nameFull]正在追打[RESPONDER_nameFull]， [circumstance_group]</li>
+    <li>image->[INITIATOR_nameFull]正在猛踢[RESPONDER_nameFull]， [circumstance_group]</li>
+    <li>image->[INITIATOR_nameFull]被[RESPONDER_nameFull]吓坏了， [circumstance_group]</li>
     <li>fight_name_present->互殴</li>
     <li>fight_name_present->打架</li>
     <li>fight_name_present->对打</li>

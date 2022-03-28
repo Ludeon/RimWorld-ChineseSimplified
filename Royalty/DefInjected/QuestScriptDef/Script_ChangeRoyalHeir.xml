@@ -5,7 +5,7 @@
     <li>questDescription->\nIn order to consecrate making [titleHeir_nameFull] the heir of [titleHolder_nameFull]'s title, you must build a monument.\n\nThe monument will be [monumentSize] in size and will require these resources (total value [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\nFailing to finish the monument within 20 days is considered to profane the ritual. Your relations with [asker_factionName] will fall by 25, and the heir will not be changed.\n\nIf the monument is destroyed within [keepMonumentTicks_duration] days after completion, your relations with [asker_factionName] will fall by [goodwillChangeIfMonumentDestroyed].</li>
   -->
   <ChangeRoyalHeir.questDescriptionRules.rulesStrings>
-    <li>questDescription->\n为了让 [titleHeir_nameFull] 名正言顺的承袭 [titleHolder_nameFull] 头衔， 你必须为此建造一座纪念碑。\n\n建造这个 [monumentSize] 纪念碑需要如下资源 （总价值：[monumentRequiredResourcesMarketValue_money]）：\n\n[monumentRequiredResources]\n\n如果你没能在20天内完成这项工作， 将被视为对此仪式的一种亵渎。 与 [asker_factionName] 的关系将下降25， 承袭人也不会有任何改变。\n\n如果在纪念碑完成后 [keepMonumentTicks_duration] 内被破坏， 那么你与 [asker_factionName] 的关系会下降[goodwillChangeIfMonumentDestroyed]。</li>
+    <li>questDescription->\n为了让[titleHeir_nameFull]名正言顺的承袭[titleHolder_nameFull]头衔， 你必须为此建造一座纪念碑。 \n\n建造这个[monumentSize]纪念碑需要如下资源 （总价值：[monumentRequiredResourcesMarketValue_money]）：\n\n[monumentRequiredResources]\n\n如果你没能在20天内完成这项工作， 将被视为对此仪式的一种亵渎。 与 [asker_factionName]的关系将下降25， 承袭人也不会有任何改变。 \n\n如果在纪念碑完成后 [keepMonumentTicks_duration]内被破坏， 那么你与[asker_factionName]的关系会下降[goodwillChangeIfMonumentDestroyed]。</li>
   </ChangeRoyalHeir.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[titleHeir_nameDef]'s inheritance</li>
@@ -18,11 +18,11 @@
   <!-- EN: [titleHolder_nameDef]'s heir change failed -->
   <ChangeRoyalHeir.LetterTextAskerOffended.slateRef>[titleHolder_nameDef]的传承变更失败</ChangeRoyalHeir.LetterTextAskerOffended.slateRef>
   <!-- EN: [asker_nameDef] is offended that you promised to consecrate the new inheritance, but did not build the monument within the prescribed time.\n\nYou lost 25 goodwill with [asker_faction_name]. -->
-  <ChangeRoyalHeir.LetterLabelAskerOffended.slateRef>[asker_nameDef]对于你没有在规定时间内建造纪念碑，从而导致神圣传承无法进行表示愤慨。\n\n你与[asker_faction_name]的关系降低25.</ChangeRoyalHeir.LetterLabelAskerOffended.slateRef>
+  <ChangeRoyalHeir.LetterLabelAskerOffended.slateRef>[asker_nameDef]对于你没有在规定时间内建造纪念碑， 从而导致神圣传承无法进行表示愤慨。 \n\n你与[asker_faction_name]的关系降低25.</ChangeRoyalHeir.LetterLabelAskerOffended.slateRef>
   <!-- EN: Title holder died: {SUBJECT_definite} -->
   <ChangeRoyalHeir.LetterLabelTitleHolderDied.slateRef>头衔持有者{SUBJECT_definite}已死亡。</ChangeRoyalHeir.LetterLabelTitleHolderDied.slateRef>
   <!-- EN: {SUBJECT_definite}, whose heir was in the process of being changed, has died. -->
-  <ChangeRoyalHeir.LetterTextTitleHolderDied.slateRef>因为传承者已经变更，{SUBJECT_definite}已经死亡。</ChangeRoyalHeir.LetterTextTitleHolderDied.slateRef>
+  <ChangeRoyalHeir.LetterTextTitleHolderDied.slateRef>因为传承者已经变更， {SUBJECT_definite}已经死亡。</ChangeRoyalHeir.LetterTextTitleHolderDied.slateRef>
   <!-- EN: Designated heir died: {SUBJECT_definite} -->
   <ChangeRoyalHeir.LetterLabelDesignatedHeirDied.slateRef>指定传承者{SUBJECT_definite}已死亡。</ChangeRoyalHeir.LetterLabelDesignatedHeirDied.slateRef>
   <!-- EN: {SUBJECT_definite}, who was supposed to become heir to a title, has died. -->
@@ -30,7 +30,7 @@
   <!-- EN: Monument destroyed -->
   <ChangeRoyalHeir.LetterLabelMonumentDestroyed.slateRef>纪念碑被摧毁</ChangeRoyalHeir.LetterLabelMonumentDestroyed.slateRef>
   <!-- EN: [asker_nameDef] is offended that you promised to consecrate the new inheritance, but allowed the monument to be ruined soon after completion.\n\nYour relations with [asker_faction_name] have fallen by [goodwillChangeIfMonumentDestroyed]. -->
-  <ChangeRoyalHeir.LetterTextMonumentDestroyed.slateRef>你在完成作为传承象征的纪念碑后太快使它被破坏的行为惹恼了[asker_nameDef]。\n\n你与[asker_faction_name]的关系下降了[goodwillChangeIfMonumentDestroyed]。</ChangeRoyalHeir.LetterTextMonumentDestroyed.slateRef>
+  <ChangeRoyalHeir.LetterTextMonumentDestroyed.slateRef>你在完成作为传承象征的纪念碑后太快使它被破坏的行为惹恼了[asker_nameDef]。 \n\n你与[asker_faction_name]的关系下降了[goodwillChangeIfMonumentDestroyed]。</ChangeRoyalHeir.LetterTextMonumentDestroyed.slateRef>
   <!-- EN: New heir: [titleHeir_nameDef] -->
   <ChangeRoyalHeir.LetterLabelNewHeir.slateRef>新的继承人：[titleHeir_nameDef]</ChangeRoyalHeir.LetterLabelNewHeir.slateRef>
   <!-- EN: [titleHeir_nameDef] is the new heir of [titleHolder_nameDef]. -->

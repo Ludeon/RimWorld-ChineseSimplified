@@ -28,26 +28,26 @@
   <ShuttleCrash_Rescue.questContentRules.rulesStrings>
     <li>failLetterEndingCommon->你未完成任务'[resolvedQuestName]'.</li>
     <li>successLetterEndingCommon->你已成功完成任务'[resolvedQuestName]'.</li>
-    <li>goodwillSomeCiviliansLost->并非所有[asker_faction_pawnSingular] [pawnLabel]都存活下来。[goodwillNegativelyAffected]</li>
-    <li>goodwillAllCiviliansLost->所有的[asker_faction_pawnSingular] [pawnLabelPlural]都没存活下来。[goodwillNegativelyAffected]</li>
+    <li>goodwillSomeCiviliansLost->并非所有[asker_faction_pawnSingular][pawnLabel]都存活下来。 [goodwillNegativelyAffected]</li>
+    <li>goodwillAllCiviliansLost->所有的[asker_faction_pawnSingular][pawnLabelPlural]都没存活下来。 [goodwillNegativelyAffected]</li>
     <li>goodwillNegativelyAffected->Your goodwill with 每个未能返回的[pawnLabel]都会使[asker_faction_name]对你的好感下降。</li>
     <li>commanderLandingDesc->希望 [asker_possessive]穿梭机迫降在[map_definite]的指挥官[asker_nameDef]</li>
     <li>raidArrivedLetterLabel->袭击：[enemyFaction_name]</li>
-    <li>raidArrivedLetterText->[enemyFaction_name]的[enemyFaction_pawnsPlural]已经来到[map_definite]。他们将会攻击[asker_faction_pawnsPlural]。\n\n保护[asker_faction_pawnsPlural]直到他们的援军抵达[rescueShuttleAfterRaidDelay_duration]。</li>
+    <li>raidArrivedLetterText->[enemyFaction_name]的[enemyFaction_pawnsPlural]已经来到[map_definite]。 他们将会攻击[asker_faction_pawnsPlural]。 \n\n保护[asker_faction_pawnsPlural]直到他们的援军抵达[rescueShuttleAfterRaidDelay_duration]。</li>
     <li>rescueShuttleArrivedLetterLabel->救援飞船抵达</li>
-    <li>rescueShuttleArrivedLetterText->前来救援[pawnLabelSingleOrPlural]的救援飞船已经抵达。确保在[rescueDelay_duration]使这些人登上飞船：\n\n[civilians]</li>
+    <li>rescueShuttleArrivedLetterText->前来救援[pawnLabelSingleOrPlural]的救援飞船已经抵达。 确保在[rescueDelay_duration]使这些人登上飞船：\n\n[civilians]</li>
     <li>questCompletedSuccessLetterLabel->任务完成：[resolvedQuestName]</li>
-    <li>questCompletedSuccessLetterText->[commanderLandingDesc]顺利逃生。[asker_pronoun]非常感激[asker_pronoun]能得到[map_definite]的援助。\n\n[successLetterEndingCommon]</li>
+    <li>questCompletedSuccessLetterText->[commanderLandingDesc]顺利逃生。 [asker_pronoun]非常感激[asker_pronoun]能得到[map_definite]的援助。 \n\n[successLetterEndingCommon]</li>
     <li>questCompletedCiviliansLostSuccessLetterLabel->任务完成：[resolvedQuestName]</li>
-    <li>questCompletedCiviliansLostSuccessLetterText->[commanderLandingDesc]顺利逃生。\n\n但[goodwillSomeCiviliansLost]\n\n[successLetterEndingCommon]</li>
+    <li>questCompletedCiviliansLostSuccessLetterText->[commanderLandingDesc]顺利逃生。 \n\n但[goodwillSomeCiviliansLost]\n\n[successLetterEndingCommon]</li>
     <li>askerLostLetterLabel->任务失败：[resolvedQuestName]</li>
-    <li>askerLostLetterText->[commanderLandingDesc]在救援飞船起飞时不在飞船上。\n\n[goodwillSomeCiviliansLost]\n\n[failLetterEndingCommon]</li>
+    <li>askerLostLetterText->[commanderLandingDesc]在救援飞船起飞时不在飞船上。 \n\n[goodwillSomeCiviliansLost]\n\n[failLetterEndingCommon]</li>
     <li>allLostLetterLabel->任务失败：[resolvedQuestName]</li>
-    <li>allLostLetterText->坠毁的[asker_faction_pawnsPlural]没有任何幸存者或者登上飞船。\n\n[goodwillAllCiviliansLost]\n\n[failLetterEndingCommon]</li>
+    <li>allLostLetterText->坠毁的[asker_faction_pawnsPlural]没有任何幸存者或者登上飞船。 \n\n[goodwillAllCiviliansLost]\n\n[failLetterEndingCommon]</li>
     <li>askerDiedLetterLabel->任务失败：[resolvedQuestName]</li>
-    <li>askerDiedLetterText->[commanderLandingDesc]死了。\n\n[failLetterEndingCommon]</li>
+    <li>askerDiedLetterText->[commanderLandingDesc]死了。 \n\n[failLetterEndingCommon]</li>
     <li>shuttleDestroyedLetterLabel->任务失败：[resolvedQuestName]</li>
-    <li>shuttleDestroyedLetterText->负责援救[asker_faction_pawnsPlural]的飞船摧毁了。[asker_faction_pawnsPlural]现在将试图步行离开。\n\n[failLetterEndingCommon]</li>
+    <li>shuttleDestroyedLetterText->负责援救[asker_faction_pawnsPlural]的飞船摧毁了。 [asker_faction_pawnsPlural]现在将试图步行离开。 \n\n[failLetterEndingCommon]</li>
   </ShuttleCrash_Rescue.questContentRules.rulesStrings>
   <!-- EN:
     <li>pawnLabel->civilian</li>
@@ -71,10 +71,10 @@
   <ShuttleCrash_Rescue.questDescriptionRules.rulesStrings>
     <li>pawnLabelSingleOrPlural(civilians_count==1)->[pawnLabel]</li>
     <li>pawnLabelSingleOrPlural(civilians_count>=2)->[pawnLabelPlural]</li>
-    <li>questDescription->一艘属于[asker_faction_name]的受损飞船正在寻找着陆位置。飞船的指挥官[asker_nameDef]希望让飞船降落在[map_definite]。\n\n[enemyFaction_name]的[enemyFaction_pawnsPlural]会攻击坠毁的飞船以试图杀死其中的平民，你需要保护他们。\n\n这艘飞船的人员包括[asker_nameDef][andOtherCivilians]和[soldiers_count][soldiers0_kind]。你需要保护指挥者[andCivilians]，但可以牺牲[soldiers0_kind]。\n\n在[rescueDelay_duration]之后，会有一艘救援飞船来接幸存者，你需要在在[leaveDelay_duration]让他们登上飞船。</li>
+    <li>questDescription->一艘属于[asker_faction_name]的受损飞船正在寻找着陆位置。 飞船的指挥官[asker_nameDef]希望让飞船降落在[map_definite]。 \n\n[enemyFaction_name]的[enemyFaction_pawnsPlural]会攻击坠毁的飞船以试图杀死其中的平民， 你需要保护他们。 \n\n这艘飞船的人员包括[asker_nameDef][andOtherCivilians]和[soldiers_count][soldiers0_kind]。 你需要保护指挥者[andCivilians]， 但可以牺牲[soldiers0_kind]。 \n\n在[rescueDelay_duration]之后， 会有一艘救援飞船来接幸存者， 你需要在在[leaveDelay_duration]让他们登上飞船。</li>
     <li>andOtherCivilians(civilians_count==1)-></li>
-    <li>andOtherCivilians(civilians_count==2)->，[pawnLabel]</li>
-    <li>andOtherCivilians(civilians_count>=3)->，[civilianCountMinusOne]，其他[pawnLabelSingleOrPlural]</li>
+    <li>andOtherCivilians(civilians_count==2)->， [pawnLabel]</li>
+    <li>andOtherCivilians(civilians_count>=3)->， [civilianCountMinusOne]， 其他[pawnLabelSingleOrPlural]</li>
     <li>andCivilians(civilians_count==1)-></li>
     <li>andCivilians(civilians_count==2)->和[pawnLabel]</li>
     <li>andCivilians(civilians_count>=3)->和[pawnLabelPlural]</li>

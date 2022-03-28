@@ -5,7 +5,7 @@
     <li>questDescription->[asker_nameFull], [asker_faction_leaderTitle] of [asker_faction_name], has sent us a message. Apparently, [siteFaction_pawnsPlural] based in a nearby camp have been raiding their caravans. The camp is controlled by [siteFaction_name].\n\n[asker_nameDef] is asking us to destroy the camp, which means eliminating all enemies and turrets. [asker_label] says that [sitePart0_description].</li>
   -->
   <OpportunitySite_BanditCamp.questDescriptionRules.rulesStrings>
-    <li>questDescription->[asker_nameFull]， [asker_faction_name] 的 [asker_faction_leaderTitle]， 向我们发送了一条信息。 根据他们的情报， 一个属于 [siteFaction_name] 派系， 由 [siteFaction_pawnsPlural] 建立的营地一直在袭击他们的商队。 \n\n[asker_nameDef] 请求我们帮助他们摧毁这个营地， 完全消灭他们的人员和炮塔。 [asker_label] 还告诉我们 [sitePart0_description]。</li>
+    <li>questDescription->[asker_nameFull]， [asker_faction_name]的[asker_faction_leaderTitle]， 向我们发送了一条信息。 根据他们的情报， 一个属于[siteFaction_name]派系， 由[siteFaction_pawnsPlural]建立的营地一直在袭击他们的商队。 \n\n[asker_nameDef]请求我们帮助他们摧毁这个营地， 完全消灭他们的人员和炮塔。 [asker_label]还告诉我们[sitePart0_description]。</li>
   </OpportunitySite_BanditCamp.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->The [bandit] [camp]</li>
@@ -25,9 +25,9 @@
     <li>bandit->Brigand</li>
   -->
   <OpportunitySite_BanditCamp.questNameRules.rulesStrings>
-    <li>questName->[bandit] [camp]</li>
-    <li>questName->[bandit] [camp]</li>
-    <li>questName->[asker_nameDef] 与 [camp]</li>
+    <li>questName->[bandit][camp]</li>
+    <li>questName->[bandit][camp]</li>
+    <li>questName->[asker_nameDef]与[camp]</li>
     <li>camp->营地</li>
     <li>camp->哨所</li>
     <li>camp->巢穴</li>
@@ -44,7 +44,7 @@
   <!-- EN: Quest expired: [resolvedQuestName] -->
   <OpportunitySite_BanditCamp.LetterLabelQuestExpired.slateRef>任务已失效：[resolvedQuestName]</OpportunitySite_BanditCamp.LetterLabelQuestExpired.slateRef>
   <!-- EN: The bandit camp has packed up and moved on. The quest [resolvedQuestName] has expired. -->
-  <OpportunitySite_BanditCamp.LetterTextQuestExpired.slateRef>匪徒们已收拾好行装，离开了这里。任务[resolvedQuestName]已经失效。</OpportunitySite_BanditCamp.LetterTextQuestExpired.slateRef>
+  <OpportunitySite_BanditCamp.LetterTextQuestExpired.slateRef>匪徒们已收拾好行装， 离开了这里。 任务[resolvedQuestName]已经失效。</OpportunitySite_BanditCamp.LetterTextQuestExpired.slateRef>
   <!-- EN: Quest failed: [resolvedQuestName] -->
   <OpportunitySite_BanditCamp.LetterLabelQuestFailed.slateRef>任务失败：[resolvedQuestName]</OpportunitySite_BanditCamp.LetterLabelQuestFailed.slateRef>
   <!-- EN: After being discovered, the bandit camp has dispersed. The quest [resolvedQuestName] has ended. -->

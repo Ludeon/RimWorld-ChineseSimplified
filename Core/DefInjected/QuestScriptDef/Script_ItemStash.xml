@@ -7,7 +7,7 @@
   -->
   <OpportunitySite_ItemStash.questDescriptionRules.rulesStrings>
     <li>questDescription(askerIsNull==true)->我们截获了一组信息， 关于一批价值[itemStashContentsValue]的物资被匿藏在[map_definite]附近。 物资包括：\n\n[itemStashContents]\n\n看起来[allSitePartsDescriptionsExceptFirst]</li>
-    <li>questDescription(asker_factionLeader==True)->[asker_faction_name] 的 [asker_faction_leaderTitle]， [asker_nameDef]， 告知我们一批价值[itemStashContentsValue]的贵重物品被留在距离我们不远处等待接收。 这批物品包含:\n\n[itemStashContents]\n\n[asker_label]透露：[allSitePartsDescriptionsExceptFirst]</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_faction_name]的[asker_faction_leaderTitle]， [asker_nameDef]， 告知我们一批价值[itemStashContentsValue]的贵重物品被留在距离我们不远处等待接收。 这批物品包含:\n\n[itemStashContents]\n\n[asker_label]透露：[allSitePartsDescriptionsExceptFirst]</li>
   </OpportunitySite_ItemStash.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName(priority=1)->[asker_nameDef]'s [stash] of [treasure]</li>

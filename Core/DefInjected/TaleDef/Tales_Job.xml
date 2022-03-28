@@ -23,11 +23,11 @@
   <AttendedParty.rulePack.rulesStrings>
     <li>tale_noun->[ATTENDER_nameDef]出席[ORGANIZER_nameDef]的派对</li>
     <li>tale_noun->[ATTENDER_nameDef]在[ORGANIZER_nameDef]举办的派对中放松</li>
-    <li>image->[ATTENDER_nameFull]在和[ORGANIZER_nameFull]交谈，[circumstance_group]</li>
-    <li>image->[ORGANIZER_nameFull]举办的派对上，[ATTENDER_nameFull]正在拿取饮料，[circumstance_group]</li>
-    <li>image->[ATTENDER_nameFull]在和[ORGANIZER_nameFull]聊天，[circumstance_group]</li>
-    <li>image->[ORGANIZER_nameFull]欢迎[ATTENDER_nameFull]加入派对，[circumstance_group]</li>
-    <li>image->[ORGANIZER_nameFull]正在向朋友介绍[ATTENDER_nameFull]，[circumstance_group]</li>
+    <li>image->[ATTENDER_nameFull]在和[ORGANIZER_nameFull]交谈， [circumstance_group]</li>
+    <li>image->[ORGANIZER_nameFull]举办的派对上， [ATTENDER_nameFull]正在拿取饮料， [circumstance_group]</li>
+    <li>image->[ATTENDER_nameFull]在和[ORGANIZER_nameFull]聊天， [circumstance_group]</li>
+    <li>image->[ORGANIZER_nameFull]欢迎[ATTENDER_nameFull]加入派对， [circumstance_group]</li>
+    <li>image->[ORGANIZER_nameFull]正在向朋友介绍[ATTENDER_nameFull]， [circumstance_group]</li>
     <li>circumstance_phrase->带着爽朗的笑容</li>
     <li>circumstance_phrase->面带笑容</li>
     <li>circumstance_phrase->带着[AdjectiveFriendly]的微笑</li>
@@ -59,17 +59,17 @@
   <BuiltSnowman.rulePack.rulesStrings>
     <li>tale_noun->[PAWN_nameDef]堆雪人</li>
     <li>tale_noun->[PAWN_nameDef]在雪地里玩耍</li>
-    <li>image->[PAWN_nameFull]做了一个雪球，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]在地上滚出一个巨大的雪球，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]用[Vegetable]让雪人有了粗糙的人脸外观，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]躺在雪地里，[circumstance_group]</li>
+    <li>image->[PAWN_nameFull]做了一个雪球， [circumstance_group]</li>
+    <li>image->[PAWN_nameFull]在地上滚出一个巨大的雪球， [circumstance_group]</li>
+    <li>image->[PAWN_nameFull]用[Vegetable]让雪人有了粗糙的人脸外观， [circumstance_group]</li>
+    <li>image->[PAWN_nameFull]躺在雪地里， [circumstance_group]</li>
     <li>circumstance_phrase->头上带着[Quantity_adjphrase]风雪帽</li>
     <li>circumstance_phrase->灰暗的天空下着小雪</li>
     <li>circumstance_phrase->而[PAWN_possessive]的朋友们建造了一座堡垒</li>
     <li>circumstance_phrase->而[PAWN_possessive]朋友们建造了一个雪人家族</li>
     <li>desc_sentence->背景中[Color]的极光闪烁。</li>
     <li>desc_sentence->远处[Community]被白雪覆盖。</li>
-    <li>desc_sentence->种植着[Vegetable]的田地被雪掩埋，几乎看不到了。</li>
+    <li>desc_sentence->种植着[Vegetable]的田地被雪掩埋， 几乎看不到了。</li>
     <li>desc_sentence->被冰雪覆盖的[TerrainFeature]出现在远方。</li>
   </BuiltSnowman.rulePack.rulesStrings>
   
@@ -99,12 +99,12 @@
   <BuriedCorpse.rulePack.rulesStrings>
     <li>tale_noun->[PAWN_nameDef]埋葬[CORPSE_nameDef]</li>
     <li>tale_noun->[PAWN_nameDef]使[CORPSE_nameDef]得到安息</li>
-    <li>image->[PAWN_nameFull]站在[CORPSE_nameFull]的坟墓前，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]蹲坐在[CORPSE_nameFull]的坟墓前，[circumstance_group]</li>
+    <li>image->[PAWN_nameFull]站在[CORPSE_nameFull]的坟墓前， [circumstance_group]</li>
+    <li>image->[PAWN_nameFull]蹲坐在[CORPSE_nameFull]的坟墓前， [circumstance_group]</li>
     <li>image->[PAWN_nameFull]倚靠在[CORPSE_nameFull]的坟墓前[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]在[CORPSE_nameFull]的墓碑上雕刻文字，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]在[CORPSE_nameFull]的棺木上进行艺术创作，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]将[CORPSE_nameFull]的尸体放入坟墓，[circumstance_group]</li>
+    <li>image->[PAWN_nameFull]在[CORPSE_nameFull]的墓碑上雕刻文字， [circumstance_group]</li>
+    <li>image->[PAWN_nameFull]在[CORPSE_nameFull]的棺木上进行艺术创作， [circumstance_group]</li>
+    <li>image->[PAWN_nameFull]将[CORPSE_nameFull]的尸体放入坟墓， [circumstance_group]</li>
     <li>circumstance_phrase->面带[AdjectiveAngsty]的神情</li>
     <li>circumstance_phrase->陷入沉思</li>
     <li>circumstance_phrase->凝视着远方的[TerrainFeature]</li>
@@ -112,9 +112,9 @@
     <li>desc_sentence->背景中[Color]的极光闪烁。</li>
     <li>desc_sentence->远处的[Community]被白雪覆盖。</li>
     <li>desc_sentence->[CORPSE_nameDef]的灵魂带着[AdjectiveFriendly]的神情俯瞰着四周。</li>
-    <li>desc_sentence->[CORPSE_nameDef]的灵魂站在[PAWN_nameDef]身边，面带[AdjectiveFriendly]的神情。</li>
+    <li>desc_sentence->[CORPSE_nameDef]的灵魂站在[PAWN_nameDef]身边， 面带[AdjectiveFriendly]的神情。</li>
     <li>desc_sentence->[CORPSE_nameDef]的灵魂带着[AdjectiveAngsty]的神情俯瞰着四周。</li>
-    <li>desc_sentence->[CORPSE_nameDef]的灵魂站在[PAWN_nameDef]身边，面带[AdjectiveAngsty]的神情。</li>
+    <li>desc_sentence->[CORPSE_nameDef]的灵魂站在[PAWN_nameDef]身边， 面带[AdjectiveAngsty]的神情。</li>
     <li>desc_sentence->[Quantity_adjphrase][Animal]在附近休息。</li>
   </BuriedCorpse.rulePack.rulesStrings>
   
@@ -139,10 +139,10 @@
   -->
   <CompletedLongConstructionProject.rulePack.rulesStrings>
     <li>tale_noun->[PAWN_nameDef]完成了[OBJECT_label]的建造</li>
-    <li>image->[PAWN_nameFull]正在装配[OBJECT_label]内部一个复杂的装置，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]正在为[OBJECT_label]的表面抛光，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]正在为[OBJECT_label]添加表面细节，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]把自己的名字刻在[OBJECT_label]上，[circumstance_group]</li>
+    <li>image->[PAWN_nameFull]正在装配[OBJECT_label]内部一个复杂的装置， [circumstance_group]</li>
+    <li>image->[PAWN_nameFull]正在为[OBJECT_label]的表面抛光， [circumstance_group]</li>
+    <li>image->[PAWN_nameFull]正在为[OBJECT_label]添加表面细节， [circumstance_group]</li>
+    <li>image->[PAWN_nameFull]把自己的名字刻在[OBJECT_label]上， [circumstance_group]</li>
     <li>circumstance_phrase->[PAWN_possessive]眼中闪烁着光芒</li>
     <li>circumstance_phrase->同时在擦拭[PAWN_possessive]额头的汗水</li>
     <li>circumstance_phrase->建造者浑身都是污渍</li>
@@ -176,10 +176,10 @@
   -->
   <CompletedLongCraftingProject.rulePack.rulesStrings>
     <li>tale_noun->[PAWN_nameDef]完成了[OBJECT_label]的制作</li>
-    <li>image->[PAWN_nameFull]正在装配[OBJECT_label]内部一个复杂的装置，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]正在为[OBJECT_label]的表面抛光，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]正在为[OBJECT_label]添加表面细节，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]把自己的名字刻在[OBJECT_label]上，[circumstance_group]</li>
+    <li>image->[PAWN_nameFull]正在装配[OBJECT_label]内部一个复杂的装置， [circumstance_group]</li>
+    <li>image->[PAWN_nameFull]正在为[OBJECT_label]的表面抛光， [circumstance_group]</li>
+    <li>image->[PAWN_nameFull]正在为[OBJECT_label]添加表面细节， [circumstance_group]</li>
+    <li>image->[PAWN_nameFull]把自己的名字刻在[OBJECT_label]上， [circumstance_group]</li>
     <li>circumstance_phrase->[PAWN_possessive]眼中闪烁着光芒</li>
     <li>circumstance_phrase->同时在擦拭头上的汗水</li>
     <li>circumstance_phrase->制作者浑身都是污渍</li>
@@ -213,10 +213,10 @@
   -->
   <EnteredCryptosleep.rulePack.rulesStrings>
     <li>tale_noun->[PAWN_nameDef]进入休眠状态</li>
-    <li>image->[PAWN_nameFull]躺在休眠仓里，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]打开一个空的休眠仓，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]将自己封闭在休眠仓里，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]透过休眠仓的内壁观看这个即将要离开的世界，[circumstance_group]</li>
+    <li>image->[PAWN_nameFull]躺在休眠仓里， [circumstance_group]</li>
+    <li>image->[PAWN_nameFull]打开一个空的休眠仓， [circumstance_group]</li>
+    <li>image->[PAWN_nameFull]将自己封闭在休眠仓里， [circumstance_group]</li>
+    <li>image->[PAWN_nameFull]透过休眠仓的内壁观看这个即将要离开的世界， [circumstance_group]</li>
     <li>circumstance_phrase->带着[AdjectiveAngsty]的神情</li>
     <li>circumstance_phrase->陷入沉思</li>
     <li>circumstance_phrase->凝视着远方的[TerrainFeature]</li>
@@ -251,11 +251,11 @@
   -->
   <GainedMasterSkillWithoutPassion.rulePack.rulesStrings>
     <li>tale_noun->[PAWN_nameDef]成为[SKILL_label]领域的大师</li>
-    <li>image->[PAWN_nameFull]正在练习[SKILL_label]，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]正在阅读一本关于[SKILL_label]的书籍，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]正在接受[SKILL_label]相关的训练，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]忘我地工作，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]完成了一个项目，[circumstance_group]</li>
+    <li>image->[PAWN_nameFull]正在练习[SKILL_label]， [circumstance_group]</li>
+    <li>image->[PAWN_nameFull]正在阅读一本关于[SKILL_label]的书籍， [circumstance_group]</li>
+    <li>image->[PAWN_nameFull]正在接受[SKILL_label]相关的训练， [circumstance_group]</li>
+    <li>image->[PAWN_nameFull]忘我地工作， [circumstance_group]</li>
+    <li>image->[PAWN_nameFull]完成了一个项目， [circumstance_group]</li>
     <li>circumstance_phrase->满身大汗</li>
     <li>circumstance_phrase->显得非常疲惫</li>
     <li>circumstance_phrase->带着[AdjectiveAngsty]的神情</li>
@@ -292,11 +292,11 @@
   -->
   <GainedMasterSkillWithPassion.rulePack.rulesStrings>
     <li>tale_noun->[PAWN_nameDef]成为[SKILL_label]领域的大师</li>
-    <li>image->[PAWN_nameFull]正在开心地练习[SKILL_label]，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]正饶有兴致地阅读一本关于[SKILL_label]的书籍，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]正在高兴地接受[SKILL_label]相关的训练，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]狂热地工作，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]完成了一个项目，[circumstance_group]</li>
+    <li>image->[PAWN_nameFull]正在开心地练习[SKILL_label]， [circumstance_group]</li>
+    <li>image->[PAWN_nameFull]正饶有兴致地阅读一本关于[SKILL_label]的书籍， [circumstance_group]</li>
+    <li>image->[PAWN_nameFull]正在高兴地接受[SKILL_label]相关的训练， [circumstance_group]</li>
+    <li>image->[PAWN_nameFull]狂热地工作， [circumstance_group]</li>
+    <li>image->[PAWN_nameFull]完成了一个项目， [circumstance_group]</li>
     <li>circumstance_phrase->带着[AdjectiveFriendly]的神情</li>
     <li>circumstance_phrase->带着喜悦的神情</li>
     <li>circumstance_phrase->显得非常[AdjectiveFriendly]</li>
@@ -336,10 +336,10 @@
     <li>tale_noun->[HUMAN_nameDef]为[AnimalGroup]增加了新成员</li>
     <li>tale_noun->[HUMAN_nameDef]的身边被[AnimalGroup]围绕</li>
     <li>tale_noun->[HUMAN_nameDef]驯服[ANIMAL_nameDef]</li>
-    <li>image->[HUMAN_nameFull]尝试驯服[ANIMAL_nameFull]，[circumstance_group]</li>
-    <li>image->[HUMAN_nameFull]为[ANIMAL_nameFull]准备了一些食物，[circumstance_group]</li>
-    <li>image->[HUMAN_nameFull]在难以驾驭的[ANIMAL_nameFull]身边低声耳语，[circumstance_group]</li>
-    <li>image->[HUMAN_nameFull]正在安抚一只野生[ANIMAL_nameFull]，[circumstance_group]</li>
+    <li>image->[HUMAN_nameFull]尝试驯服[ANIMAL_nameFull]， [circumstance_group]</li>
+    <li>image->[HUMAN_nameFull]为[ANIMAL_nameFull]准备了一些食物， [circumstance_group]</li>
+    <li>image->[HUMAN_nameFull]在难以驾驭的[ANIMAL_nameFull]身边低声耳语， [circumstance_group]</li>
+    <li>image->[HUMAN_nameFull]正在安抚一只野生[ANIMAL_nameFull]， [circumstance_group]</li>
     <li>circumstance_phrase->同时小心翼翼</li>
     <li>circumstance_phrase->并面带微笑</li>
     <li>circumstance_phrase->疲惫但十分快乐</li>
@@ -370,10 +370,10 @@
   -->
   <Meditated.rulePack.rulesStrings>
     <li>tale_noun->[PAWN_nameDef]沉思</li>
-    <li>image->[PAWN_nameFull]坐在一棵[TreeType]下，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]静静地坐着，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]凝视远方，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]闭上了[PAWN_possessive]眼睛，[circumstance_group]</li>
+    <li>image->[PAWN_nameFull]坐在一棵[TreeType]下， [circumstance_group]</li>
+    <li>image->[PAWN_nameFull]静静地坐着， [circumstance_group]</li>
+    <li>image->[PAWN_nameFull]凝视远方， [circumstance_group]</li>
+    <li>image->[PAWN_nameFull]闭上了[PAWN_possessive]眼睛， [circumstance_group]</li>
     <li>circumstance_phrase->透出平和的感觉</li>
     <li>circumstance_phrase->带着宁静的微笑</li>
     <li>circumstance_phrase->带着[AdjectiveFriendly]的微笑</li>
@@ -408,11 +408,11 @@
   -->
   <MinedValuable.rulePack.rulesStrings>
     <li>tale_noun->[PAWN_nameDef]开采储量丰富的[MATERIAL_label]矿脉</li>
-    <li>image->[PAWN_nameFull]使用开采工具在蕴藏着[MATERIAL_label]的岩壁前工作，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]占据了一大片[MATERIAL_label]矿，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]靠在由[MATERIAL_label]组成的墙上，,[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]正在指挥挖掘队开采一条储量丰富的[MATERIAL_label]矿脉，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]正在仔细勘察一条储量丰富的[MATERIAL_label]矿脉，[circumstance_group]</li>
+    <li>image->[PAWN_nameFull]使用开采工具在蕴藏着[MATERIAL_label]的岩壁前工作， [circumstance_group]</li>
+    <li>image->[PAWN_nameFull]占据了一大片[MATERIAL_label]矿， [circumstance_group]</li>
+    <li>image->[PAWN_nameFull]靠在由[MATERIAL_label]组成的墙上， ,[circumstance_group]</li>
+    <li>image->[PAWN_nameFull]正在指挥挖掘队开采一条储量丰富的[MATERIAL_label]矿脉， [circumstance_group]</li>
+    <li>image->[PAWN_nameFull]正在仔细勘察一条储量丰富的[MATERIAL_label]矿脉， [circumstance_group]</li>
     <li>circumstance_phrase->任凭汗水流淌</li>
     <li>circumstance_phrase->带着[AdjectiveFriendly]的表情</li>
     <li>circumstance_phrase->带着[AdjectiveFriendly]的表情</li>
@@ -458,16 +458,16 @@
     <li>tale_noun->[PAWN_nameDef]利用[OBJECT_label]进行放松</li>
     <li>tale_noun->[PAWN_nameDef]用[OBJECT_label]玩游戏</li>
     <li>tale_noun->[PAWN_nameDef]用[OBJECT_label]打发时间</li>
-    <li>image->[PAWN_nameFull]坐在椅子上等待，[circumstance_group]</li>
-    <li>image->对于用[OBJECT_label]进行游戏，[PAWN_nameFull]胸有成竹，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]坐在[OBJECT_label]旁边，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]在[OBJECT_label]游戏中获胜，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]输掉了[OBJECT_label]游戏，[circumstance_group]</li>
+    <li>image->[PAWN_nameFull]坐在椅子上等待， [circumstance_group]</li>
+    <li>image->对于用[OBJECT_label]进行游戏， [PAWN_nameFull]胸有成竹， [circumstance_group]</li>
+    <li>image->[PAWN_nameFull]坐在[OBJECT_label]旁边， [circumstance_group]</li>
+    <li>image->[PAWN_nameFull]在[OBJECT_label]游戏中获胜， [circumstance_group]</li>
+    <li>image->[PAWN_nameFull]输掉了[OBJECT_label]游戏， [circumstance_group]</li>
     <li>circumstance_phrase->看上去全神贯注</li>
     <li>circumstance_phrase->[PAWN_possessive]身心得到了放松</li>
     <li>circumstance_phrase->正在计划[PAWN_possessive]下一步行动</li>
     <li>circumstance_phrase->轻轻地按摩[PAWN_possessive]手腕</li>
-    <li>circumstance_phrase->十分[angstyverb]，面带[AdjectiveAngsty]的神情</li>
+    <li>circumstance_phrase->十分[angstyverb]， 面带[AdjectiveAngsty]的神情</li>
     <li>circumstance_phrase->带着[AdjectiveAngsty]的神情</li>
     <li>circumstance_phrase->十分[angstyverb]</li>
     <li>desc_sentence->背景中[Color]的极光闪烁。</li>
@@ -503,10 +503,10 @@
   <Prayed.rulePack.rulesStrings>
     <li>tale_noun->[PAWN_nameDef]祈祷</li>
     <li>tale_noun->[PAWN_nameDef]祈求变得更强</li>
-    <li>image->[PAWN_nameFull]凝视远方，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]闭上了[PAWN_possessive]眼睛，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]紧握着[PAWN_possessive]手，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]望着天空，[circumstance_group]</li>
+    <li>image->[PAWN_nameFull]凝视远方， [circumstance_group]</li>
+    <li>image->[PAWN_nameFull]闭上了[PAWN_possessive]眼睛， [circumstance_group]</li>
+    <li>image->[PAWN_nameFull]紧握着[PAWN_possessive]手， [circumstance_group]</li>
+    <li>image->[PAWN_nameFull]望着天空， [circumstance_group]</li>
     <li>circumstance_phrase->透出平和的感觉</li>
     <li>circumstance_phrase->轻声私语</li>
     <li>circumstance_phrase->带着满怀希望的神情</li>
@@ -539,10 +539,10 @@
   -->
   <PutIntoCryptosleep.rulePack.rulesStrings>
     <li>tale_noun->[PAWN_nameDef]将[SLEEPER_nameDef]放入休眠仓</li>
-    <li>image->[PAWN_nameFull]将[SLEEPER_nameDef]放入休眠仓，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]打开一个空的休眠仓用来盛放[SLEEPER_nameDef]，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]将[SLEEPER_nameDef]封闭在休眠仓里，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]转身走开，[SLEEPER_nameDef]则透过空投舱内壁向外看，[circumstance_group]</li>
+    <li>image->[PAWN_nameFull]将[SLEEPER_nameDef]放入休眠仓， [circumstance_group]</li>
+    <li>image->[PAWN_nameFull]打开一个空的休眠仓用来盛放[SLEEPER_nameDef]， [circumstance_group]</li>
+    <li>image->[PAWN_nameFull]将[SLEEPER_nameDef]封闭在休眠仓里， [circumstance_group]</li>
+    <li>image->[PAWN_nameFull]转身走开， [SLEEPER_nameDef]则透过空投舱内壁向外看， [circumstance_group]</li>
     <li>circumstance_phrase->带着[AdjectiveAngsty]的神情</li>
     <li>circumstance_phrase->带着[AdjectiveFriendly]的神情</li>
     <li>circumstance_phrase->带着[AdjectiveBadass]的神情</li>
@@ -576,10 +576,10 @@
   -->
   <Stripped.rulePack.rulesStrings>
     <li>tale_noun->[TAKER_nameDef]扒光[STRIPPED_nameDef]</li>
-    <li>image->[TAKER_nameFull]在大庭广众之下扒光了[STRIPPED_nameFull]的衣服，[circumstance_group]</li>
-    <li>image->[TAKER_nameFull]脱掉了[STRIPPED_nameFull]的衣服，[circumstance_group]</li>
-    <li>image->[TAKER_nameFull]抱着一堆[Apparel]站在浑身赤裸的[STRIPPED_nameFull]身旁，[circumstance_group]</li>
-    <li>image->[TAKER_nameFull]耐心地等待[STRIPPED_nameFull]脱掉[STRIPPED_possessive]衣服，[circumstance_group]</li>
+    <li>image->[TAKER_nameFull]在大庭广众之下扒光了[STRIPPED_nameFull]的衣服， [circumstance_group]</li>
+    <li>image->[TAKER_nameFull]脱掉了[STRIPPED_nameFull]的衣服， [circumstance_group]</li>
+    <li>image->[TAKER_nameFull]抱着一堆[Apparel]站在浑身赤裸的[STRIPPED_nameFull]身旁， [circumstance_group]</li>
+    <li>image->[TAKER_nameFull]耐心地等待[STRIPPED_nameFull]脱掉[STRIPPED_possessive]衣服， [circumstance_group]</li>
     <li>circumstance_phrase->带着明确的目的</li>
     <li>circumstance_phrase->没有一丝羞愧</li>
     <li>circumstance_phrase->其他人在一旁围观</li>
@@ -617,11 +617,11 @@
   <VisitedGrave.rulePack.rulesStrings>
     <li>tale_noun->[PAWN_nameDef]拜访[CORPSE_nameDef]的墓地</li>
     <li>tale_noun->[PAWN_nameDef]祭奠[CORPSE_nameDef]</li>
-    <li>image->[PAWN_nameFull]站在[CORPSE_nameFull]的坟墓前，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]蹲坐在[CORPSE_nameFull]的坟墓前，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]倚靠在[CORPSE_nameFull]的坟墓旁边，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]阅读[CORPSE_nameFull]的墓碑上刻着的文字，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]观看[CORPSE_nameFull]的棺木上的艺术作品，[circumstance_group]</li>
+    <li>image->[PAWN_nameFull]站在[CORPSE_nameFull]的坟墓前， [circumstance_group]</li>
+    <li>image->[PAWN_nameFull]蹲坐在[CORPSE_nameFull]的坟墓前， [circumstance_group]</li>
+    <li>image->[PAWN_nameFull]倚靠在[CORPSE_nameFull]的坟墓旁边， [circumstance_group]</li>
+    <li>image->[PAWN_nameFull]阅读[CORPSE_nameFull]的墓碑上刻着的文字， [circumstance_group]</li>
+    <li>image->[PAWN_nameFull]观看[CORPSE_nameFull]的棺木上的艺术作品， [circumstance_group]</li>
     <li>circumstance_phrase->面带[AdjectiveAngsty]的神情</li>
     <li>circumstance_phrase->陷入沉思</li>
     <li>circumstance_phrase->凝视着远方的[TerrainFeature]</li>
@@ -629,9 +629,9 @@
     <li>desc_sentence->背景中[Color]的极光闪烁。</li>
     <li>desc_sentence->远处[Community]被白雪覆盖。</li>
     <li>desc_sentence->[CORPSE_nameDef]的灵魂带着[AdjectiveFriendly]的神情俯瞰着四周。</li>
-    <li>desc_sentence->[CORPSE_nameDef]的灵魂站在[PAWN_nameDef]身边，面带[AdjectiveFriendly]的神情。</li>
+    <li>desc_sentence->[CORPSE_nameDef]的灵魂站在[PAWN_nameDef]身边， 面带[AdjectiveFriendly]的神情。</li>
     <li>desc_sentence->[CORPSE_nameDef]的灵魂带着[AdjectiveAngsty]的神情俯瞰着四周。</li>
-    <li>desc_sentence->[CORPSE_nameDef]的灵魂站在[PAWN_nameDef]身边，面带[AdjectiveAngsty]的神情。</li>
+    <li>desc_sentence->[CORPSE_nameDef]的灵魂站在[PAWN_nameDef]身边， 面带[AdjectiveAngsty]的神情。</li>
     <li>desc_sentence->[Quantity_adjphrase][Animal]在附近休息。</li>
   </VisitedGrave.rulePack.rulesStrings>
   

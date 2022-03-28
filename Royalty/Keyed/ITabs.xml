@@ -3,7 +3,7 @@
 
   <!-- Character tab -->
   <!-- EN: {PAWN_labelShort} currently has the title {TITLE}, awarded by {FACTION_name}. -->
-  <RoyalTitleTooltipHasTitle>{PAWN_labelShort}当前具有头衔{TITLE}，由{FACTION_name}授予。</RoyalTitleTooltipHasTitle>
+  <RoyalTitleTooltipHasTitle>{PAWN_labelShort}当前具有头衔{TITLE}， 由{FACTION_name}授予。</RoyalTitleTooltipHasTitle>
   <!-- EN: {PAWN_labelShort} will demand that this title's privileges be fully respected. -->
   <RoyalTitleTooltipConceited>{PAWN_labelShort}将索求此头衔的所有特权。</RoyalTitleTooltipConceited>
   <!-- EN: {PAWN_labelShort} is flexible about this title's privileges. -->
@@ -15,13 +15,13 @@
   <!-- EN: No more earnable titles on this planet. -->
   <RoyalTitleTooltipFinalTitle>这个星球上不再有可获得的头衔。</RoyalTitleTooltipFinalTitle>
   <!-- EN: If {PAWN_nameDef} dies, {HEIR_nameFull} is designated to inherit {PAWN_possessive} title. -->
-  <RoyalTitleTooltipInheritance>如果{PAWN_nameDef}死亡，则指定{HEIR_nameFull}继承{PAWN_possessive}头衔。</RoyalTitleTooltipInheritance>
+  <RoyalTitleTooltipInheritance>如果{PAWN_nameDef}死亡， 则指定{HEIR_nameFull}继承{PAWN_possessive}头衔。</RoyalTitleTooltipInheritance>
   <!-- EN: {HEIR_nameFull} is not a member of any faction. -->
   <RoyalTitleTooltipHeirNoFaction>{HEIR_nameFull}不是任何派系的成员。</RoyalTitleTooltipHeirNoFaction>
   <!-- EN: {HEIR_nameFull} is a member of {FACTION_name}. -->
   <RoyalTitleTooltipHeirDifferentFaction>{HEIR_nameFull}是{FACTION_name}的成员。</RoyalTitleTooltipHeirDifferentFaction>
   <!-- EN: No one is designated to inherit {PAWN_nameDef}'s title. If {PAWN_pronoun} dies, the title will be lost. -->
-  <RoyalTitleTooltipNoHeir>如果{PAWN_pronoun}死去时，没有人被指定继承{PAWN_nameDef}的头衔。这些头衔将失传。</RoyalTitleTooltipNoHeir>
+  <RoyalTitleTooltipNoHeir>如果{PAWN_pronoun}死去时， 没有人被指定继承{PAWN_nameDef}的头衔。 这些头衔将失传。</RoyalTitleTooltipNoHeir>
   <!-- EN: Earnable titles of {FACTION_name} -->
   <RoyalTitleTooltipTitlesEarnable>{FACTION_name}的可获取头衔</RoyalTitleTooltipTitlesEarnable>
   <!-- EN: Other titles of {FACTION_name} -->
@@ -48,11 +48,11 @@
   <!-- EN: {PAWN_nameDef} has no permits to return. -->
   <NoPermitsToReturn>{PAWN_nameDef}没有可退回的许可点数。</NoPermitsToReturn>
   <!-- EN: Returning permits requires {FAVORCOST} {FAVOR} but {PAWN_nameDef} only has {CURFAVOR}. -->
-  <NotEnoughFavor>退回许可点数需要{FAVORCOST}x{FAVOR}，但是{PAWN_nameDef}只有{CURFAVOR}。</NotEnoughFavor>
+  <NotEnoughFavor>退回许可点数需要{FAVORCOST}x{FAVOR}， 但是{PAWN_nameDef}只有{CURFAVOR}。</NotEnoughFavor>
   <!-- EN: Return all previously-chosen permits for this faction. You will regain all the spent permit points and be able to spend them again.\n\nThis action costs {BASEFAVORCOST} {FAVOR}, plus the reset cost of any permits currently on cooldown. The total cost now is {FAVORCOST}. -->
-  <ReturnAllPermits_Desc>退回此派系所有已选择的许可点数。你将会重新获得所有已经使用的许可点数并且能够重新使用它们。\n\n这个操作需要消耗{BASEFAVORCOST}x{FAVOR}，以及当前正在冷却期的所有许可重置成本，总成本现在是{FAVORCOST}。</ReturnAllPermits_Desc>
+  <ReturnAllPermits_Desc>退回此派系所有已选择的许可点数。 你将会重新获得所有已经使用的许可点数并且能够重新使用它们。 \n\n这个操作需要消耗{BASEFAVORCOST}x{FAVOR}， 以及当前正在冷却期的所有许可重置成本， 总成本现在是{FAVORCOST}。</ReturnAllPermits_Desc>
   <!-- EN: Return all previously-chosen permits for {FACTION_name}?\n\nYou will regain all the spent permit points and be able to spend them again.\n\nThis action costs {BASEFAVORCOST} {FAVOR}, plus the reset cost of any permits currently on cooldown. The total cost now is {FAVORCOST}. -->
-  <ReturnAllPermits_Confirm>是否退回所有在{FACTION_name}已选择的许可？\n\n你将会重新获得所有已消费的许可点数并且能够重新使用它们。\n\n这个操作消耗{BASEFAVORCOST}x{FAVOR}，以及当前正在冷却期的所有许可重置成本，总成本现在是{FAVORCOST}。</ReturnAllPermits_Confirm>
+  <ReturnAllPermits_Confirm>是否退回所有在{FACTION_name}已选择的许可？\n\n你将会重新获得所有已消费的许可点数并且能够重新使用它们。 \n\n这个操作消耗{BASEFAVORCOST}x{FAVOR}， 以及当前正在冷却期的所有许可重置成本， 总成本现在是{FAVORCOST}。</ReturnAllPermits_Confirm>
   <!-- EN: Switch faction -->
   <SwitchFaction_Desc>切换派系</SwitchFaction_Desc>
   <!-- EN: Accept permit -->

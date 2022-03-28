@@ -13,8 +13,8 @@
     <li>visitInfo(allowViolentQuests==false)->They are willing to let you visit.</li>
   -->
   <Hack_WorshippedTerminal.questDescriptionRules.rulesStrings>
-    <li>questDescription->你得知附近有一处远古终端机隐藏有关于 [relic_name] 的秘密情报。 然而终端机被一个部落村庄所包围， 并被当地人所崇拜。 他们不属于任何主要派系。\n\n[visitInfo]</li>
-    <li>visitInfo(allowViolentQuests==true)->他们仅允许你以朝圣为由前来参观终端机， 如果你接触终端机， 他们会转而攻击你。\n\n你可以从外部直接进攻村庄， 或者和平地进入村庄并尝试从其中快速获取数据。\n\n当心： 如果你在村庄滞留超过[timer_duration]或在附近建造任何建筑， 当地人会攻击并呼叫援军。</li>
+    <li>questDescription->你得知附近有一处远古终端机隐藏有关于[relic_name]的秘密情报。 然而终端机被一个部落村庄所包围， 并被当地人所崇拜。 他们不属于任何主要派系。 \n\n[visitInfo]</li>
+    <li>visitInfo(allowViolentQuests==true)->他们仅允许你以朝圣为由前来参观终端机， 如果你接触终端机， 他们会转而攻击你。 \n\n你可以从外部直接进攻村庄， 或者和平地进入村庄并尝试从其中快速获取数据。 \n\n当心：如果你在村庄滞留超过[timer_duration]或在附近建造任何建筑， 当地人会攻击并呼叫援军。</li>
     <li>visitInfo(allowViolentQuests==false)->他们允许你参观。</li>
   </Hack_WorshippedTerminal.questDescriptionRules.rulesStrings>
   <!-- EN:

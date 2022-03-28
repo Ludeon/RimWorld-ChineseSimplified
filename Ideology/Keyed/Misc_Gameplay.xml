@@ -24,7 +24,7 @@
   <!-- EN: Structure -->
   <Structure>结构</Structure>
   <!-- EN: What should your starting colonists believe? These beliefs affect gameplay and visuals. You’ll be able to recruit others to your beliefs, or take on their beliefs. -->
-  <ChooseYourIdeoligionDesc>你的开局殖民者文化是什么样的？这些文化会影响游戏性和视觉效果，你能够招募其他人加入你的文化，或者接受他们的文化。</ChooseYourIdeoligionDesc>
+  <ChooseYourIdeoligionDesc>你的开局殖民者文化是什么样的？这些文化会影响游戏性和视觉效果， 你能够招募其他人加入你的文化， 或者接受他们的文化。</ChooseYourIdeoligionDesc>
   <!-- EN: Create custom -->
   <CreateCustom>创建自定义</CreateCustom>
   <!-- EN: Delete custom -->
@@ -42,7 +42,7 @@
   <!-- EN: Load saved ideoligion -->
   <LoadExistingIdeoligion>载入已保存的文化形态</LoadExistingIdeoligion>
   <!-- EN: Select an ideoligion for your faction on the left, or -->
-  <SelectAnIdeo>为在左侧的你的派系选择文化形态，或</SelectAnIdeo>
+  <SelectAnIdeo>为在左侧的你的派系选择文化形态， 或</SelectAnIdeo>
   <!-- EN: ideoligion -->
   <Ideo>文化</Ideo> 
   <!-- EN: Randomize all -->
@@ -102,7 +102,7 @@
   <!-- EN: Chance to have precept -->
   <ChanceToHavePrecept>可能获得戒律</ChanceToHavePrecept>
   <!-- EN: {PAWN_labelShort}'s favorite color. Having more than {PERCENTAGE} of {PAWN_possessive} apparel in this color, or the color of {PAWN_possessive} ideoligion, will make {PAWN_objective} slightly happier.\n\nYou can alter apparel colors at the styling station using tinctoria dye. -->
-  <FavoriteColorTooltip>{PAWN_labelShort}的偏爱颜色， 如果穿着的衣服超过{PERCENTAGE}染有此颜色或{PAWN_possessive}文化形态代表色， 会让{PAWN_objective}感到愉悦。\n\n你可以在梳妆台使用染料调整服装颜色。</FavoriteColorTooltip>
+  <FavoriteColorTooltip>{PAWN_labelShort}的偏爱颜色， 如果穿着的衣服超过{PERCENTAGE}染有此颜色或{PAWN_possessive}文化形态代表色， 会让{PAWN_objective}感到愉悦。 \n\n你可以在梳妆台使用染料调整服装颜色。</FavoriteColorTooltip>
   <!-- EN: Set ideo color -->
   <SetIdeoColor>设置文化代表色</SetIdeoColor>
   <!-- EN: Set to favorite color -->
@@ -140,7 +140,7 @@
   <!-- EN: Development points -->
   <Reward_DevelopmentPointsLabel>发展点数</Reward_DevelopmentPointsLabel>
   <!-- EN: Your development points for {0} will increase by {1}.\n\nYou currently have {2} development points. Once you have {3} development points you can reform the ideoligion.\n\nEarn additional development points by completing other quests and rituals. -->
-  <Reward_DevelopmentPoints>{0}的发展点数将增加{1}。\n\n你目前有{2}发展点数，当你有{3}发展点数时就可以进行文化改革。\n\n通过完成其他任务和仪式获得额外的发展点。</Reward_DevelopmentPoints>
+  <Reward_DevelopmentPoints>{0}的发展点数将增加{1}。 \n\n你目前有{2}发展点数， 当你有{3}发展点数时就可以进行文化改革。 \n\n通过完成其他任务和仪式获得额外的发展点。</Reward_DevelopmentPoints>
   <!-- EN: Current points -->
   <CurrentDevelopmentPoints>当前点数</CurrentDevelopmentPoints>
   <!-- EN: Points needed to reform -->
@@ -157,7 +157,7 @@
   <!-- EN: Could not load ideoligion -->
   <UnableToLoadIdeoTitle>无法载入文化</UnableToLoadIdeoTitle>
   <!-- EN: Could not load the selected ideoligion due to the requirements of the factions that will be following this ideoligion. The violated requirements are: -->
-  <UnableToLoadIdeoDescription>由于派系对文化形态的要求，无法载入选择的文化形态。违背的要求如下：</UnableToLoadIdeoDescription>
+  <UnableToLoadIdeoDescription>由于派系对文化形态的要求， 无法载入选择的文化形态。 违背的要求如下：</UnableToLoadIdeoDescription>
   <!-- EN: Meme {MEME} is not allowed for {FACTIONTYPE} factions -->
   <UnableToLoadIdeoMemeNotAllowed>模因{MEME}不可用于{FACTIONTYPE}派系</UnableToLoadIdeoMemeNotAllowed>
   <!-- EN: Meme {MEME} is required for {FACTIONTYPE} factions -->
@@ -168,23 +168,23 @@
   <!-- EN: A grave containing {PAWN_labelShort}'s corpse. -->
   <RitualTargetGraveInfo>装有{PAWN_labelShort}的坟墓</RitualTargetGraveInfo>
   <!-- EN: An empty grave to mourn {PAWN_labelShort}'s passing. -->
-  <RitualTargetEmptyGraveInfo>一座空坟，用来缅怀{PAWN_labelShort}的逝世。</RitualTargetEmptyGraveInfo>
+  <RitualTargetEmptyGraveInfo>一座空坟， 用来缅怀{PAWN_labelShort}的逝世。</RitualTargetEmptyGraveInfo>
   <!-- EN: A grave containing {IDEO_memberNameIndef}'s corpse -->
   <RitualTargetGraveInfoAbstract>装有{IDEO_memberNameIndef}的坟墓</RitualTargetGraveInfoAbstract>
   <!-- EN: A grave containing a corpse. -->
   <RitualTargetGraveInfoAbstractNoIdeo>一个装有尸体的坟墓。</RitualTargetGraveInfoAbstractNoIdeo>
   <!-- EN: An empty grave to mourn {IDEO_memberNameIndef}'s passing. -->
-  <RitualTargetEmptyGraveInfoAbstract>一座空坟，用来缅怀{IDEO_memberNameIndef}的逝世。</RitualTargetEmptyGraveInfoAbstract>
+  <RitualTargetEmptyGraveInfoAbstract>一座空坟， 用来缅怀{IDEO_memberNameIndef}的逝世。</RitualTargetEmptyGraveInfoAbstract>
   <!-- EN: {PAWN_labelShort}'s body must be buried first -->
   <RitualTargetGraveInfoMustBeBuried>{PAWN_labelShort}的尸体必须先被埋葬</RitualTargetGraveInfoMustBeBuried>
   <!-- EN: Any gathering spot, like a table -->
-  <RitualTargetGatherSpotInfo>任意集合点，比如桌子</RitualTargetGatherSpotInfo>
+  <RitualTargetGatherSpotInfo>任意集合点， 比如桌子</RitualTargetGatherSpotInfo>
   <!-- EN: Altar or any ritual spot. -->
   <RitualTargetGatherAltarOrRitualSpotInfo>祭坛或任意仪式点</RitualTargetGatherAltarOrRitualSpotInfo>
   <!-- EN: Altar, ideogram or any ritual spot. -->
   <RitualTargetGatherAltarIdeogramOrRitualSpotInfo>祭坛、符号图像或者任意仪式点。</RitualTargetGatherAltarIdeogramOrRitualSpotInfo>
   <!-- EN: A lightball or ritual spot. Lightball and loudspeakers must be powered. -->
-  <RitualTargetLightBallInfo>一个灯球或仪式点，灯球和喇叭必须通电。</RitualTargetLightBallInfo>
+  <RitualTargetLightBallInfo>一个灯球或仪式点， 灯球和喇叭必须通电。</RitualTargetLightBallInfo>
   <!-- EN: Lightball is not powered. -->
   <RitualTargetLightBallIsNotPowered>灯球未通电</RitualTargetLightBallIsNotPowered>
   <!-- EN: No powered speakers. -->
@@ -200,7 +200,7 @@
   <!-- EN: A lit campfire or ritual spot. -->
   <RitualTargetCampfirePartyInfo>一个点燃的营火或仪式点</RitualTargetCampfirePartyInfo>
   <!-- EN: A lit campfire or ritual spot. Spot must be unroofed with at least 25 unroofed cells in the area. -->
-  <RitualTargetCampfireSkylanternsInfo>一个点燃的营火，或仪式点，场地附近需要有至少25格无屋顶的空间</RitualTargetCampfireSkylanternsInfo>
+  <RitualTargetCampfireSkylanternsInfo>一个点燃的营火， 或仪式点， 场地附近需要有至少25格无屋顶的空间</RitualTargetCampfireSkylanternsInfo>
   <!-- EN: An unconnected Gauranlen tree. -->
   <RitualTargetUnconnectedGaruanlenTreeInfo>一棵未共鸣的母树</RitualTargetUnconnectedGaruanlenTreeInfo>
   <!-- EN: Already connected to {PAWN_nameDef} -->
@@ -208,15 +208,15 @@
   <!-- EN: {TREE_definite} has had its connection torn recently. It can connect again in {1}. -->
   <RitualTargetConnectionTornGauranlenTree>{TREE_definite}的共鸣被打断了。 它能够在{1}后重新共鸣。</RitualTargetConnectionTornGauranlenTree>
   <!-- EN: You need {0} wood for each participant ({2} total). You have {1} wood. -->
-  <RitualTargeWoodInfo>你需要为每位参与者（最多{2}位）准备{0}数量的木材，你当前的木材储量是{1}。</RitualTargeWoodInfo>
+  <RitualTargeWoodInfo>你需要为每位参与者（最多{2}位）准备{0}数量的木材， 你当前的木材储量是{1}。</RitualTargeWoodInfo>
   <!-- EN: Accuse -->
   <Accuse>指控</Accuse>
   <!-- EN: {PAWN_labelShort} does not believe in ideoligious scarification and will not like being scarified. -->
-  <RitualScarificationWarnNonScarificationIdeo>{PAWN_labelShort}不认同此文化的牺牲行为，因此不愿作为祭品。</RitualScarificationWarnNonScarificationIdeo>
+  <RitualScarificationWarnNonScarificationIdeo>{PAWN_labelShort}不认同此文化的牺牲行为， 因此不愿作为祭品。</RitualScarificationWarnNonScarificationIdeo>
   <!-- EN: {PAWN_labelShort} is a wimp and will not like being scarified. -->
   <RitualScarificationWarnWimp>{PAWN_labelShort}因其懦弱特质而拒绝成为祭品</RitualScarificationWarnWimp>
   <!-- EN: {PAWN_labelShort} does not believe in ideoligious blinding and will not like being blinded. -->
-  <RitualBlindingWarnNonBlindingIdeo>{PAWN_labelShort}不认同此文化的致盲行为，因此不愿被致盲。</RitualBlindingWarnNonBlindingIdeo>
+  <RitualBlindingWarnNonBlindingIdeo>{PAWN_labelShort}不认同此文化的致盲行为， 因此不愿被致盲。</RitualBlindingWarnNonBlindingIdeo>
   <!-- EN: {PAWN_labelShort} is a wimp and will not like being blinded. -->
   <RitualBlindingWarnWimp>{PAWN_labelShort}因其懦弱特质而拒绝被致盲</RitualBlindingWarnWimp>
   <!-- EN: Scarification is expected for {IDEOMEMBERPLURAL} as long as there are fewer than {0} scarified {IDEOMEMBERPLURAL}. -->
@@ -227,20 +227,20 @@
   <!-- EN: Everyone participating in the ritual gained a one-day work focus buff ({PERCENTAGE} global work speed)! -->
   <RitualOutcomeExtraDesc_DancePartyWorkFocus>每个参与此仪式的人均获得了时长一天的工作狂热（增加了{PERCENTAGE}的全局工作速度！）</RitualOutcomeExtraDesc_DancePartyWorkFocus>
   <!-- EN: Thanks to a satisfying blinding ritual, {PAWN_labelShort} gained a psylink level! -->
-  <RitualOutcomeExtraDesc_BlindingPsylink>受益于成功的致盲献祭仪式，{PAWN_labelShort}获得了一个启灵等级！</RitualOutcomeExtraDesc_BlindingPsylink>
+  <RitualOutcomeExtraDesc_BlindingPsylink>受益于成功的致盲献祭仪式， {PAWN_labelShort}获得了一个启灵等级！</RitualOutcomeExtraDesc_BlindingPsylink>
   <!-- EN: With a new pyslink level {PAWN_pronoun} gained a {0} psycast. -->
-  <RitualOutcomeExtraDesc_BlindingPsylinkAbility>{PAWN_pronoun}基于其新的启灵等级，获得了心灵能力{0}</RitualOutcomeExtraDesc_BlindingPsylinkAbility>
+  <RitualOutcomeExtraDesc_BlindingPsylinkAbility>{PAWN_pronoun}基于其新的启灵等级， 获得了心灵能力{0}</RitualOutcomeExtraDesc_BlindingPsylinkAbility>
   <!-- EN: Thanks to a satisfying {RITUAL}, {PAWN_labelShort} gained {INSPIRATION}! -->
-  <RitualOutcomeExtraDesc_ConsumableInspiration>受益于成功的{RITUAL} ，{PAWN_labelShort}获得了{INSPIRATION}！</RitualOutcomeExtraDesc_ConsumableInspiration>
+  <RitualOutcomeExtraDesc_ConsumableInspiration>受益于成功的{RITUAL} ， {PAWN_labelShort}获得了{INSPIRATION}！</RitualOutcomeExtraDesc_ConsumableInspiration>
   <!-- EN: Your skylanterns have attracted some friendly travelers. They will visit and leave a gift. -->
-  <RitualOutcomeExtraDesc_SkylanternWanderers>你的天灯吸引了一些友善的旅行者，他们将会来拜访你的殖民地并留下礼物</RitualOutcomeExtraDesc_SkylanternWanderers>
+  <RitualOutcomeExtraDesc_SkylanternWanderers>你的天灯吸引了一些友善的旅行者， 他们将会来拜访你的殖民地并留下礼物</RitualOutcomeExtraDesc_SkylanternWanderers>
   <!-- EN: All participating slaves were shaken by the sight of death. Their suppression has been raised to its maximum level. -->
-  <RitualOutcomeExtraDesc_Execution>所有参与此仪式的奴隶均被目睹死亡所震撼，它们的镇压值已补满。</RitualOutcomeExtraDesc_Execution>
+  <RitualOutcomeExtraDesc_Execution>所有参与此仪式的奴隶均被目睹死亡所震撼， 它们的镇压值已补满。</RitualOutcomeExtraDesc_Execution>
   
   <!-- EN: Due to the quality of the ritual, your development points have increased by {2} (from {0} to {1}). -->
-  <RitualOutcomeExtraDesc_DevelopmentPointsAwarded>由于仪式的效果，你的发展点数增加{2}（{0} -> {1}）。</RitualOutcomeExtraDesc_DevelopmentPointsAwarded>
+  <RitualOutcomeExtraDesc_DevelopmentPointsAwarded>由于仪式的效果， 你的发展点数增加{2}（{0} -> {1}）。</RitualOutcomeExtraDesc_DevelopmentPointsAwarded>
   <!-- EN: Due to the poor quality of the ritual, no development points were gained. -->
-  <RitualOutcomeExtraDesc_NoDevelopmentPointsAwarded>由于仪式的效果，未获取发展点数。</RitualOutcomeExtraDesc_NoDevelopmentPointsAwarded>
+  <RitualOutcomeExtraDesc_NoDevelopmentPointsAwarded>由于仪式的效果， 未获取发展点数。</RitualOutcomeExtraDesc_NoDevelopmentPointsAwarded>
 
   <!-- EN: Additional reward -->
   <RitualAttachedReward>额外奖励</RitualAttachedReward>
@@ -263,7 +263,7 @@
   <!-- EN: Upon any {0} outcome -->
   <RitualAttachedApplliesForOutcomes>在{0}结果上</RitualAttachedApplliesForOutcomes>
   <!-- EN: The commotion from the {0} has attracted some curious animals!\n\nThey seem accustomed to human contact and are joining the colony. -->
-  <RitualAttachedOutcome_FarmAnimalsWanderIn_Desc>来自{0}的骚动吸引了一些好奇的动物！\n\n它们看样子已习惯与人生活，因此将直接加入殖民地。</RitualAttachedOutcome_FarmAnimalsWanderIn_Desc>
+  <RitualAttachedOutcome_FarmAnimalsWanderIn_Desc>来自{0}的骚动吸引了一些好奇的动物！\n\n它们看样子已习惯与人生活， 因此将直接加入殖民地。</RitualAttachedOutcome_FarmAnimalsWanderIn_Desc>
   <!-- EN: The {0} has induced a Gauranlen pod to sprout nearby. -->
   <RitualAttachedOutcome_GauranlenTreePod_ExtraDesc>{0}已导致附近的母树生长了一个树荚。</RitualAttachedOutcome_GauranlenTreePod_ExtraDesc>
   <!-- EN: Can't apply reward -->
@@ -296,11 +296,11 @@
   <!-- EN: Focus objects -->
   <RitualFocusObjects>集合点物件</RitualFocusObjects>
   <!-- EN: Repeating a ritual within {0} days reduces its quality. {1} days have passed since the last ritual, so the current quality reduction is {2}. This penalty will fall to zero {3} days from now. -->
-  <RitualRepeatPenaltyTip>在{0}天内重复进行一种仪式将降低其质量，距离上次仪式结束已有{1}天，当前的质量减值是{2}，从现在起{3}天后将移除此减益。</RitualRepeatPenaltyTip>
+  <RitualRepeatPenaltyTip>在{0}天内重复进行一种仪式将降低其质量， 距离上次仪式结束已有{1}天， 当前的质量减值是{2}， 从现在起{3}天后将移除此减益。</RitualRepeatPenaltyTip>
   <!-- EN: Participating roles -->
   <RitualParticipatingRoles>参与者角色</RitualParticipatingRoles>
   <!-- EN: For best quality, start the {0} at {1}. -->
-  <RitualOutcomeCompTip_RitualTargetDefsPart1>为达到最佳质量，应在{1}开始{0}。</RitualOutcomeCompTip_RitualTargetDefsPart1>
+  <RitualOutcomeCompTip_RitualTargetDefsPart1>为达到最佳质量， 应在{1}开始{0}。</RitualOutcomeCompTip_RitualTargetDefsPart1>
   <!-- EN: Currently, the {0} is being started at {1_labelShortIndef}. -->
   <RitualOutcomeCompTip_RitualTargetDefsPart2>当前正在{1_labelShortIndef}处开始{0}。</RitualOutcomeCompTip_RitualTargetDefsPart2>
   <!-- EN: Development points -->
@@ -313,9 +313,9 @@
   <!-- EN: Slave -->
   <Slave>奴隶</Slave>
   <!-- EN: If you sell someone to any faction besides their own, they become slaves. -->
-  <SellingAsSlave>如果你将某人卖往非其所属的派系，他们将成为奴隶。</SellingAsSlave>
+  <SellingAsSlave>如果你将某人卖往非其所属的派系， 他们将成为奴隶。</SellingAsSlave>
   <!-- EN: If you sell someone to their own faction, they are ransomed and not enslaved. -->
-  <SellingAsRansom>如果将某人卖回其所属派系，他们将视为被赎回而非被奴役。</SellingAsRansom>
+  <SellingAsRansom>如果将某人卖回其所属派系， 他们将视为被赎回而非被奴役。</SellingAsRansom>
 
   <!-- EN: We are {0} -->
   <MemeGoodwillImpact_Player>我们是{0}</MemeGoodwillImpact_Player>
@@ -345,7 +345,7 @@
   <!-- EN: Has role in rituals -->
   <RoleRitualsLabel>此职位的仪式</RoleRitualsLabel>
   <!-- EN: This role becomes active when your faction has {1} {0}. It becomes inactive when your faction has only {3} {2}. -->
-  <RoleBelieverCountDesc>此角色将在你的派系拥有{1}{0}时可用，将在你的派系只有{3}{2}时不再可用。</RoleBelieverCountDesc>
+  <RoleBelieverCountDesc>此角色将在你的派系拥有{1}{0}时可用， 将在你的派系只有{3}{2}时不再可用。</RoleBelieverCountDesc>
   <!-- EN: Raised by {0} levels. -->
   <RoleExpectationOffset>提升了{0}级。</RoleExpectationOffset>
   <!-- EN: The {0} has higher expectations. -->
@@ -365,7 +365,7 @@
   <TextMote_WillReduced>期望降低：{0}到{1}</TextMote_WillReduced>
 
   <!-- EN: Accepting this join offer is an act of charity. If you refuse, the following people will be unhappy due to their pro-charity beliefs:\n{0}\n\nAre you sure you want to reject this join offer? -->
-  <ConfirmationCharityJoiner>接受此加入要求是一种慈善行为，如果你拒绝：以下这些人将因其慈善相关信仰而不满：\n {0} \n \n 你确定要拒绝此加入申请？</ConfirmationCharityJoiner>
+  <ConfirmationCharityJoiner>接受此加入要求是一种慈善行为， 如果你拒绝：以下这些人将因其慈善相关信仰而不满：\n {0} \n \n 你确定要拒绝此加入申请？</ConfirmationCharityJoiner>
 
   <!-- EN: Believers in {0} ({1}) -->
   <BelieversIn>信仰{0}的信徒（{1}）</BelieversIn>
@@ -405,7 +405,7 @@
   <!-- EN: Relic info found -->
   <RelicInfoFound>找到圣物信息</RelicInfoFound>
   <!-- EN: inactive, requires atleast {0} {1}s (have {2}) -->
-  <InactiveRoleRequiresMoreBelievers>当前未激活，需要至少{0}个{1}（你当前拥有{2}个）</InactiveRoleRequiresMoreBelievers>
+  <InactiveRoleRequiresMoreBelievers>当前未激活， 需要至少{0}个{1}（你当前拥有{2}个）</InactiveRoleRequiresMoreBelievers>
   
   <!-- EN: certainty -->
   <Certainty>认可度</Certainty>
@@ -425,7 +425,7 @@
 
   <!-- Relic hunt -->
   <!-- EN: The relic is housed in an ancient structure protected by a multi-unit security system.\n\nYou can defeat the security forces one unit at a time, or grab the relic and try to flee before they get you. -->
-  <RelicHuntFoundRelicSite>圣物置放于一个古老结构中，拥有多个单位的安保措施，你可以分而击破，也可以冲进去拿走遗物然后在守卫抓到你之前跑出去。</RelicHuntFoundRelicSite>
+  <RelicHuntFoundRelicSite>圣物置放于一个古老结构中， 拥有多个单位的安保措施， 你可以分而击破， 也可以冲进去拿走遗物然后在守卫抓到你之前跑出去。</RelicHuntFoundRelicSite>
   <!-- EN: The relic rests in an ancient structure nearby. -->
   <RelicHuntFoundRelicSitePeaceful>圣物在附近的一个古老结构群中</RelicHuntFoundRelicSitePeaceful>
 
@@ -464,15 +464,15 @@
   <!-- EN: Nobody -->
   <Nobody>无人</Nobody>
   <!-- EN: The person this {TREE_label} is connected to. If the connected person dies, this {TREE_label} will be unable to connect to another for {DURATION}. -->
-  <ConnectedPawnDesc>这棵{TREE_label}所共鸣的人，如果此共鸣者死亡，此{TREE_label}将在{DURATION}内无法与下一人共鸣。</ConnectedPawnDesc>
+  <ConnectedPawnDesc>这棵{TREE_label}所共鸣的人， 如果此共鸣者死亡， 此{TREE_label}将在{DURATION}内无法与下一人共鸣。</ConnectedPawnDesc>
   <!-- EN: Connection torn. Can connect in {0}. -->
-  <ConnectionTorn>共鸣被打断。恢复共鸣需要{0}</ConnectionTorn>
+  <ConnectionTorn>共鸣被打断。 恢复共鸣需要{0}</ConnectionTorn>
   <!-- EN: {PAWN_nameDef} is too far away -->
   <ConnectedPawnAway>{PAWN_nameDef}离得太远了！</ConnectedPawnAway>
   <!-- EN: Planting {PLANT_definite} near artificial buildings will cause its connection strength to decay over time. Connection strength determines the maximum number of dryads {PLANT_definite} can support at once.\n\nAre you sure you wish to plant here? -->
-  <TreeBlockedByNearbyBuildingsDesc>将{PLANT_definite}种植在人造建筑物附近将导致共鸣强度随时间下降，共鸣强度决定着此{PLANT_definite}可支持的树精之最大数量。 \n\n你确定要在这里种下它？</TreeBlockedByNearbyBuildingsDesc>
+  <TreeBlockedByNearbyBuildingsDesc>将{PLANT_definite}种植在人造建筑物附近将导致共鸣强度随时间下降， 共鸣强度决定着此{PLANT_definite}可支持的树精之最大数量。 \n\n你确定要在这里种下它？</TreeBlockedByNearbyBuildingsDesc>
   <!-- EN: Changing {TREE_definite}'s dryad caste takes time and energy.\n\nAfter the connected person interacts with the tree, all dryads will spend {DURATION} days inside cocoons while they morph to the selected caste.\n\nExisting cocoons will cancel their transformation so they can morph to the current caste. -->
-  <GauranlenModeChangeDescFull>修改{TREE_definite}的树精的品种将耗费时间和力量。\n\n当共鸣者与树交互后，所有树精将在茧内度过{DURATION}天以转化至目标角色。 \n\n现存的茧将取消其变形以转化至当前设定的品种。</GauranlenModeChangeDescFull>
+  <GauranlenModeChangeDescFull>修改{TREE_definite}的树精的品种将耗费时间和力量。 \n\n当共鸣者与树交互后， 所有树精将在茧内度过{DURATION}天以转化至目标角色。 \n\n现存的茧将取消其变形以转化至当前设定的品种。</GauranlenModeChangeDescFull>
   <!-- EN: Change the type of dryads created by {TREE_definite}. -->
   <ChangeModeDesc>修改由{TREE_definite}产生的树精的类别</ChangeModeDesc>
   <!-- EN: Connection strength fall -->
@@ -496,7 +496,7 @@
   <!-- EN: Desired -->
   <DesiredConnectionStrength>需求的强度</DesiredConnectionStrength>
   <!-- EN: {CONNECTEDPAWN_nameDef} will prune {TREE_definite} often enough to keep connection strength above this level.\n\nHigher connection strength allows supporting more dryads, but also falls faster and thus takes more frequent pruning to maintain.\n\nYou can click on the bar to adjust the desired target connection strength.\n\nConnection strength fall per day: {FALL}\n\nConnection strength is affected by nearby buildings. -->
-  <DesiredConnectionStrengthDesc>{CONNECTEDPAWN_nameDef}将维持修剪{TREE_definite}以保持共鸣强度在此水平之上。\n\n更高的共鸣强度可以支持更多的树精， 但回落的更快， 因此需要更频繁的修剪维护。 点击滑条可以修改目标强度。\n\n每日回落：{FALL}\n\n共鸣强度将受附近的建筑物影响。</DesiredConnectionStrengthDesc>
+  <DesiredConnectionStrengthDesc>{CONNECTEDPAWN_nameDef}将维持修剪{TREE_definite}以保持共鸣强度在此水平之上。 \n\n更高的共鸣强度可以支持更多的树精， 但回落的更快， 因此需要更频繁的修剪维护。 点击滑条可以修改目标强度。 \n\n每日回落：{FALL}\n\n共鸣强度将受附近的建筑物影响。</DesiredConnectionStrengthDesc>
   <!-- EN: Waiting for {CONNECTEDPAWN_nameDef} to change dryad caste. -->
   <WaitingForConnectorToChangeCaste>等待{CONNECTEDPAWN_nameDef}来改变树精品种。</WaitingForConnectorToChangeCaste>
   <!-- EN: Dryad caste -->
@@ -516,7 +516,7 @@
   <!-- EN: {DRYAD_labelPlural} produce {RESOURCES} every {DURATION}. -->
   <DryadProducesResourcesDesc>{DRYAD_labelPlural}将每隔{DURATION}产生{RESOURCES}。</DryadProducesResourcesDesc>
   <!-- EN: {ANIMAL_nameDef} is connected to {MASTER_nameDef} through {ANIMAL_possessive} Gauranlen tree. {ANIMAL_possessive} master cannot be changed. -->
-  <DryadCannotChangeMaster>{ANIMAL_nameDef}已通过{ANIMAL_possessive}的母树共鸣至{MASTER_nameDef}。{ANIMAL_possessive}的主人不能被改变。</DryadCannotChangeMaster>
+  <DryadCannotChangeMaster>{ANIMAL_nameDef}已通过{ANIMAL_possessive}的母树共鸣至{MASTER_nameDef}。 {ANIMAL_possessive}的主人不能被改变。</DryadCannotChangeMaster>
   <!-- EN: Connection strength too low to create Gauranlen pod. -->
   <ConnectionStrengthTooWeakForGaumakerPod>共鸣强度不足以生成树荚。</ConnectionStrengthTooWeakForGaumakerPod>
   <!-- EN: Unconnected -->
@@ -570,9 +570,9 @@
 
   <!-- Archonexus -->
   <!-- EN: You've invoked the archonexus core. The world fills with a blinding light and time seems to slow...\n\n -->
-  <GameOverArchotechInvokedIntro>你已激活了超凡枢纽核心。世界被刺目的光填满，时间似乎变慢了。。。\n\n</GameOverArchotechInvokedIntro>
+  <GameOverArchotechInvokedIntro>你已激活了超凡枢纽核心。 世界被刺目的光填满， 时间似乎变慢了。 。 。 \n\n</GameOverArchotechInvokedIntro>
   <!-- EN: The machine god has noticed you. Nobody can predict what happens next. It may destroy you, or communicate with you directly, or transport your consciousness to another plane of reality.\n\nYou sense a vast, inhuman structure of infinite fractal complexity flowing into your mind. Time and scale begin to dissolve. It's terrifying. It's beautiful... -->
-  <GameOverArchotechInvokedEnding>机械神明已注意到了你， 没人能预料接下来会发生什么。 它可能毁灭你， 可能与你直接沟通， 或者将你的意识转移到另一个现实位面。\n\n你看到一个巨大无边的， 非人类的分形复杂度结构涌入你的意识， 时间和大小似乎都在溶解， 这很恐怖。 这也很美。</GameOverArchotechInvokedEnding>
+  <GameOverArchotechInvokedEnding>机械神明已注意到了你， 没人能预料接下来会发生什么。 它可能毁灭你， 可能与你直接沟通， 或者将你的意识转移到另一个现实位面。 \n\n你看到一个巨大无边的， 非人类的分形复杂度结构涌入你的意识， 时间和大小似乎都在溶解， 这很恐怖。 这也很美。</GameOverArchotechInvokedEnding>
   <!-- EN: These colonists have transcended:\n\n{0} -->
   <GameOverColonistsTranscended>以下殖民者已被升格：\n\n{0}</GameOverColonistsTranscended>
   <!-- EN: An archonexus map part -->
@@ -618,7 +618,7 @@
   <!-- EN: On standby for {CYCLE} cycle with {PAWN_labelShort} -->
   <BiosculpterPodCycleStandby>{PAWN_labelShort}的{CYCLE}周期待机</BiosculpterPodCycleStandby>
   <!-- EN: Nutrition loaded, no power -->
-  <BiosculpterPodCycleSelectionNoPower>已装载营养，未通电</BiosculpterPodCycleSelectionNoPower>
+  <BiosculpterPodCycleSelectionNoPower>已装载营养， 未通电</BiosculpterPodCycleSelectionNoPower>
   <!-- EN: Ends in -->
   <BiosculpterCycleTimeRemaining>结束</BiosculpterCycleTimeRemaining>
   <!-- EN: accelerated for transhumanists -->
@@ -630,13 +630,13 @@
   <!-- EN: Interrupt cycle -->
   <BiosculpterInteruptCycle>中断周期</BiosculpterInteruptCycle>
   <!-- EN: Interrupt the current cycle. The occupant will be ejected without benefiting from the effects of the cycle, and will suffer from short-term biosculpter sickness. -->
-  <BiosculpterInteruptCycleDesc>中断当前周期，使用者将被弹出，不受任何周期效应影响的同时遭受短期的脱离塑形舱虚弱。</BiosculpterInteruptCycleDesc>
+  <BiosculpterInteruptCycleDesc>中断当前周期， 使用者将被弹出， 不受任何周期效应影响的同时遭受短期的脱离塑形舱虚弱。</BiosculpterInteruptCycleDesc>
   <!-- EN: {PAWN_labelShort} will enter biosculpter and begin a {CYCLE} cycle. -->
   <BiosculpterEnteringMessage>{PAWN_labelShort}将会进入塑形舱并开始{CYCLE}周期。</BiosculpterEnteringMessage>
   <!-- EN: {PAWN_labelShort} will collect {INGREDIENTS}, and begin a {CYCLE} cycle. -->
   <BiosculpterLoadingStartedMessage>{PAWN_labelShort}将会收集{INGREDIENTS}并且开始一个{CYCLE}周期。</BiosculpterLoadingStartedMessage>
   <!-- EN: {PAWN_labelShort} will collect {INGREDIENTS}, place {DOWNED_labelShort} inside the biosculpter, and begin a {CYCLE} cycle. -->
-  <BiosculpterCarryStartedMessage>{PAWN_labelShort}将会收集{INGREDIENTS}，将{DOWNED_labelShort}放入塑形舱，并且开始一个{CYCLE}周期。</BiosculpterCarryStartedMessage>
+  <BiosculpterCarryStartedMessage>{PAWN_labelShort}将会收集{INGREDIENTS}， 将{DOWNED_labelShort}放入塑形舱， 并且开始一个{CYCLE}周期。</BiosculpterCarryStartedMessage>
   <!-- EN: {0} nutrition -->
   <NumNutrition>{0}营养值</NumNutrition>
   <!-- EN: {PAWN_labelShort} was ejected from a biosculpter pod due to lack of power. -->
@@ -644,9 +644,9 @@
   <!-- EN: {PAWN_labelShort} completed healing cycle. -->
   <BiosculpterHealCompletedMessage>{PAWN_labelShort}完成了其治疗周期。</BiosculpterHealCompletedMessage>
   <!-- EN: {PAWN_labelShort} completed healing cycle, and {PAWN_possessive} {HEDIFF_label} was cured. -->
-  <BiosculpterHealCompletedWithCureMessage>{PAWN_labelShort}完成了治疗周期，且治愈了{PAWN_possessive}{HEDIFF_label}。</BiosculpterHealCompletedWithCureMessage>
+  <BiosculpterHealCompletedWithCureMessage>{PAWN_labelShort}完成了治疗周期， 且治愈了{PAWN_possessive}{HEDIFF_label}。</BiosculpterHealCompletedWithCureMessage>
   <!-- EN: {PAWN_labelShort} completed {PAWN_possessive} age reversal cycle. {PAWN_pronoun} expects the next age reversal in {DEADLINE} days. -->
-  <BiosculpterAgeReversalCompletedMessage>{PAWN_labelShort}完成了年龄逆转周期，{PAWN_pronoun}期待下一次年龄逆转周期在{DEADLINE}天内进行。</BiosculpterAgeReversalCompletedMessage>
+  <BiosculpterAgeReversalCompletedMessage>{PAWN_labelShort}完成了年龄逆转周期， {PAWN_pronoun}期待下一次年龄逆转周期在{DEADLINE}天内进行。</BiosculpterAgeReversalCompletedMessage>
   <!-- EN: {PAWN_labelShort}'s pleasure cycle is complete. -->
   <BiosculpterPleasureCompletedMessage>{PAWN_labelShort}已完成欢愉周期。</BiosculpterPleasureCompletedMessage>
   <!-- EN: Cleanliness speed factor -->
@@ -662,8 +662,8 @@
   <!-- EN: Requires -->
   <BiosculpterRequiresIngredients>需要</BiosculpterRequiresIngredients>
   <!-- EN: On completion of the {CYCLE} cycle, the following will occur -->
-  <OnCompletionOfCycle>在完成{CYCLE}周期之后，将会</OnCompletionOfCycle>
+  <OnCompletionOfCycle>在完成{CYCLE}周期之后， 将会</OnCompletionOfCycle>
   <!-- EN: {PAWN_nameDef} does not have any conditions that can be healed by a {CYCLE} cycle.\n\nDo you want to continue? -->
-  <BiosculpterNoCoditionsToHeal>{PAWN_nameDef}没有任何能够被{CYCLE}治愈的异常。\n\n你想要继续吗？</BiosculpterNoCoditionsToHeal>
+  <BiosculpterNoCoditionsToHeal>{PAWN_nameDef}没有任何能够被{CYCLE}治愈的异常。 \n\n你想要继续吗？</BiosculpterNoCoditionsToHeal>
 
 </LanguageData>

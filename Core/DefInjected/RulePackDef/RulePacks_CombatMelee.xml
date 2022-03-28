@@ -62,7 +62,7 @@
     <li>deflecting->撇过</li>
     <!--
     <li>r_logentry(p=1)->[INITIATOR_definite][damaged_past][at][RECIPIENT_definite]的[recipient_part0_label][deflected_result]。</li>
-    <li>r_logentry(p=0.3)->[INITIATOR_definite][expertly]挥舞着[INITIATOR_possessive][WEAPON_label]，[damaged_past][RECIPIENT_definite]的[recipient_part0_label][deflected_result]。</li>
+    <li>r_logentry(p=0.3)->[INITIATOR_definite][expertly]挥舞着[INITIATOR_possessive][WEAPON_label]， [damaged_past][RECIPIENT_definite]的[recipient_part0_label][deflected_result]。</li>
     <li>r_logentry(p=0.3)->[INITIATOR_definite]用[implement]给了[RECIPIENT_definite]一记[damaged_inf][deflected_result]。</li>
     <li>r_logentry(p=0.3)->[INITIATOR_definite]用[implement][damaged_inf][RECIPIENT_definite][deflected_result]。</li>
     <li>r_logentry(p=0.6)->[INITIATOR_definite]用[implement][damaged_past][at][RECIPIENT_definite][deflected_result]。</li>
@@ -70,11 +70,11 @@
     <li>at-></li>
     <li>at->了</li>
     <li>deflected_result->[adverb_deflected]</li>
-    <li>deflected_result->，[deflected_consequence]</li>
+    <li>deflected_result->， [deflected_consequence]</li>
     <li>adverb_deflected_opt(p=4)-></li>
     <li>adverb_deflected_opt->[adverb_deflected]</li>
-    <li>adverb_deflected->，没有造成伤害</li>
-    <li>adverb_deflected->，收效甚微</li>
+    <li>adverb_deflected->， 没有造成伤害</li>
+    <li>adverb_deflected->， 收效甚微</li>
     <li>deflected_consequence->但[TOOL_label][scraped_past][adverb_deflected_opt]</li>
     <li>deflected_consequence->但[scraped_present][RECIPIENT_possessive]护甲[adverb_deflected_opt]</li>
     <li>scraped_present->刮着</li>
@@ -149,11 +149,11 @@
     <li>r_logentry(p=0.3)->[INITIATOR_definite][damaged_past][RECIPIENT_definite]的[recipient_part0_label]。</li>
     <li>r_logentry(p=0.1)->[INITIATOR_definite][adverb_flavortext][damaged_past][RECIPIENT_definite]的[recipient_part0_label]。</li>
     <li>r_logentry(p=0.1)->[INITIATOR_definite][flavortext_situation][damaged_past][RECIPIENT_definite]的[recipient_part0_label]。</li>
-    <li>r_logentry(p=0.1)->[INITIATOR_definite][damaged_past][RECIPIENT_definite]的[recipient_part0_label]，[flavortext_consequence]。</li>
+    <li>r_logentry(p=0.1)->[INITIATOR_definite][damaged_past][RECIPIENT_definite]的[recipient_part0_label]， [flavortext_consequence]。</li>
     <li>r_logentry(p=0.07)->[INITIATOR_definite][expertly]用[INITIATOR_possessive][WEAPON_label][damaged_past][RECIPIENT_definite]的[recipient_part0_label]。</li>
-    <li>r_logentry(p=0.03)->[INITIATOR_definite][expertly]用[INITIATOR_possessive][WEAPON_label]，[adverb_flavortext][damaged_past][RECIPIENT_definite]的[recipient_part0_label]。</li>
+    <li>r_logentry(p=0.03)->[INITIATOR_definite][expertly]用[INITIATOR_possessive][WEAPON_label]， [adverb_flavortext][damaged_past][RECIPIENT_definite]的[recipient_part0_label]。</li>
     <li>r_logentry(p=0.3)->[INITIATOR_definite][destroyed_past][RECIPIENT_definite]的[destroyed_targets]。</li>
-    <li>r_logentry(p=0.3)->[RECIPIENT_definite]的[destroyed_targets]被[INITIATOR_definite][destroyed_past]，[destroyed_suffix]。</li>
+    <li>r_logentry(p=0.3)->[RECIPIENT_definite]的[destroyed_targets]被[INITIATOR_definite][destroyed_past]， [destroyed_suffix]。</li>
     <li>r_logentry(p=0.3)->[INITIATOR_definite][expertly][destroyed_past][RECIPIENT_definite]的[destroyed_targets]。</li>
     <li>r_logentry(p=0.3)->[INITIATOR_definite]用[implement][destroyed_past][RECIPIENT_definite]的[destroyed_targets]。</li>
     <li>result(p=1,recipient_part_damaged_count==0)->[destroyed_present][RECIPIENT_possessive][destroyed_targets]</li>
@@ -187,8 +187,8 @@
   <Combat_Miss.rulePack.rulesStrings>
     <li>r_logentry(p=0.3)->[RECIPIENT_definite]闪开了[INITIATOR_definite]用[WEAPON_label]的[damaged_inf]。</li>
     <li>r_logentry(p=0.3)->[INITIATOR_definite]用[implement]使出的[damaged_inf]没有命中[RECIPIENT_definite]。</li>
-    <li>r_logentry(p=0.3)->[INITIATOR_definite]尝试用[implement][damaged_inf][RECIPIENT_definite]，但[failtype]。</li>
-    <li>r_logentry(p=0.3)->[INITIATOR_definite]试图[damaged_inf][RECIPIENT_definite]，但[failtype]</li>
+    <li>r_logentry(p=0.3)->[INITIATOR_definite]尝试用[implement][damaged_inf][RECIPIENT_definite]， 但[failtype]。</li>
+    <li>r_logentry(p=0.3)->[INITIATOR_definite]试图[damaged_inf][RECIPIENT_definite]， 但[failtype]</li>
     <li>r_logentry(p=0.3)->[INITIATOR_definite]想要[skillAdvMaybe][damaged_inf][RECIPIENT_definite],但[failtype]。</li>
     <li>skillAdvMaybe-></li>
     <li>skillAdvMaybe->[skillAdv]</li>
@@ -206,7 +206,7 @@
     <li>r_logentry(p=0.3)->[RECIPIENT_definite]躲闪了[INITIATOR_definite]用[WEAPON_label]使出的[damaged_inf]。</li>
     <li>r_logentry(p=0.3)->[INITIATOR_definite]用[implement]使出的[damaged_inf]没有命中[RECIPIENT_definite]。</li>
     <li>r_logentry(p=0.3)->[INITIATOR_definite]试图用[implement][damaged_inf][RECIPIENT_definite]但[failtype]。</li>
-    <li>r_logentry(p=0.3)->在试图[damaged_inf][RECIPIENT_definite]时，[INITIATOR_definite][failtype]。</li>
+    <li>r_logentry(p=0.3)->在试图[damaged_inf][RECIPIENT_definite]时， [INITIATOR_definite][failtype]。</li>
     <li>r_logentry(p=0.3)->[INITIATOR_definite][failtype]。</li>
     <li>failtype->被绊倒了</li>
     <li>failtype->摔倒了</li>

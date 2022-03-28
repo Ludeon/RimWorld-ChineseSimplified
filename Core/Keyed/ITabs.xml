@@ -55,7 +55,7 @@
   <!-- EN: Add bill -->
   <AddBill>添加清单</AddBill>
   <!-- EN: The recipe {0} requires the skills below. None of your colonists have these skills, so nobody will do this bill. -->
-  <RecipeRequiresSkills>配方{0}有以下技能要求。你没有达到该技能要求的殖民者，因此这份清单将无人完成。</RecipeRequiresSkills>
+  <RecipeRequiresSkills>配方{0}有以下技能要求。 你没有达到该技能要求的殖民者， 因此这份清单将无人完成。</RecipeRequiresSkills>
   <!-- EN: Min skill -->
   <MinimumSkill>最低技能要求</MinimumSkill>
   <!-- EN: SUSPENDED -->
@@ -85,17 +85,17 @@
   <!-- EN: Resistance -->
   <RecruitmentResistance>抵抗</RecruitmentResistance>
   <!-- EN: How much doubt this prisoner has about joining your faction. When this reaches zero, they can be recruited. -->
-  <RecruitmentResistanceDesc>这个囚犯对加入你派系的怀疑和抵触情绪。当这个数值达到零时，他们就可以被招募了。</RecruitmentResistanceDesc>
+  <RecruitmentResistanceDesc>这个囚犯对加入你派系的怀疑和抵触情绪。 当这个数值达到零时， 他们就可以被招募了。</RecruitmentResistanceDesc>
   <!-- EN: {0} base resistance -->
   <RecruitmentResistanceFromPawnKind>基础抵抗 {0}</RecruitmentResistanceFromPawnKind>
   <!-- EN: Relations gain on release -->
   <PrisonerReleasePotentialRelationGains>关系改善（释放）</PrisonerReleasePotentialRelationGains>
   <!-- EN: The faction goodwill you will get from the prisoner's faction if you release them. This is affected by the prisoner's identity, health, and mental condition. -->
-  <PrisonerReleaseRelationGainsDesc>如果释放该囚犯，你将获得该派系关系的改善。 其程度受到囚犯的身份、健康和精神状况的影响。</PrisonerReleaseRelationGainsDesc>
+  <PrisonerReleaseRelationGainsDesc>如果释放该囚犯， 你将获得该派系关系的改善。 其程度受到囚犯的身份、健康和精神状况的影响。</PrisonerReleaseRelationGainsDesc>
   <!-- EN: Prison break interval -->
   <PrisonBreakMTBDays>越狱间隔</PrisonBreakMTBDays>
   <!-- EN: The average days awake between prison breaks. This is affected by mood, mobility, the number of prison doors, and time since the last prison break.\n\nNote that this does not include time spent asleep. -->
-  <PrisonBreakMTBDaysDescription>两次越狱之间平均清醒的天数。这受情绪、行动力、监狱门的数量和上次越狱后的时间影响。\n\n该数值会忽略睡眠的时间，因此实际平均越狱间隔通常会更长。</PrisonBreakMTBDaysDescription>
+  <PrisonBreakMTBDaysDescription>两次越狱之间平均清醒的天数。 这受情绪、行动力、监狱门的数量和上次越狱后的时间影响。 \n\n该数值会忽略睡眠的时间， 因此实际平均越狱间隔通常会更长。</PrisonBreakMTBDaysDescription>
   <!-- EN: Never -->
   <Never>从不</Never>
   <!-- EN: Not while asleep -->
@@ -109,7 +109,7 @@
   <!-- EN: Slave price -->
   <SlavePrice>奴隶价格</SlavePrice>
   <!-- EN: The base market value of this {0} if sold. -->
-  <SlavePriceDescription>如果出售，基础市场价值是{0}。</SlavePriceDescription>
+  <SlavePriceDescription>如果出售， 基础市场价值是{0}。</SlavePriceDescription>
   <!-- EN: Gets food -->
   <GetsFood>食物供应</GetsFood>
   <!-- EN: Doctors care -->
@@ -235,7 +235,7 @@
   <!-- EN: Requires {0} trainability. -->
   <CannotTrainNotSmartEnough>智力级别要求: {0}。</CannotTrainNotSmartEnough>
   <!-- EN: {1_labelShort} is too small to train this. -->
-  <CannotTrainTooSmall>{1_labelShort}体形过小，无法训练。</CannotTrainTooSmall>
+  <CannotTrainTooSmall>{1_labelShort}体形过小， 无法训练。</CannotTrainTooSmall>
 
   <!-- EN: Prerequisite needed: {0} -->
   <TrainingNeedsPrerequisite>先决条件: {0}</TrainingNeedsPrerequisite>
@@ -330,11 +330,11 @@
   
   <!-- Quests tab -->
   <!-- EN: Dismiss this quest and move it to the historical tab.\n\nThe quest can be un-dismissed at any time. Its effects and expiry times will proceed as normal. You won't recieve notifications about dismissed quests. -->
-  <DismissQuest>取消此任务并将其移至「历史记录」标签。\n\n可以随时取消任务。其影响和有效期将照常进行。你不会收到有关已取消任务的通知。</DismissQuest>
+  <DismissQuest>取消此任务并将其移至「历史记录」标签。 \n\n可以随时取消任务。 其影响和有效期将照常进行。 你不会收到有关已取消任务的通知。</DismissQuest>
   <!-- EN: Un-dismiss this quest.\n\nThe quest will be returned to the available or active tab, and notifications will be re-enabled. -->
-  <UnDismissQuest>取消关闭此任务。\n\n该任务将返回到「可接受」或「进行中」标签，通知将重新启用。</UnDismissQuest>
+  <UnDismissQuest>取消关闭此任务。 \n\n该任务将返回到「可接受」或「进行中」标签， 通知将重新启用。</UnDismissQuest>
   <!-- EN: This quest is here because it was dismissed.\n\nYou can un-dismiss it until it expires. -->
-  <QuestDismissed>该任务已被取消。\n\n你可以在该任务到期之前随时撤销取消的操作。</QuestDismissed>
+  <QuestDismissed>该任务已被取消。 \n\n你可以在该任务到期之前随时撤销取消的操作。</QuestDismissed>
   <!-- EN: Delete this quest and remove it from the quest list forever. -->
   <DeleteQuest>删除并将此任务永久从任务列表移除。</DeleteQuest>
 
@@ -349,7 +349,7 @@
   <!-- EN: Days to stockpile exhaustion -->
   <PenFoodTab_StockpileEmptyDays>给养耗尽天数</PenFoodTab_StockpileEmptyDays>
   <!-- EN: Nutrition consumption exceeds nutrition growth rate in this pen. The animals will eventually eat all the stockpiled food and starve. -->
-  <PenFoodTab_StockpileEmptyDaysDescription>在这个畜栏里，营养消耗超过了营养增长率。动物们最终会因吃光囤积的食物而饿死。</PenFoodTab_StockpileEmptyDaysDescription>
+  <PenFoodTab_StockpileEmptyDaysDescription>在这个畜栏里， 营养消耗超过了营养增长率。 动物们最终会因吃光囤积的食物而饿死。</PenFoodTab_StockpileEmptyDaysDescription>
 
   <!-- EN: Animal type -->
   <PenFoodTab_AnimalType>动物类型</PenFoodTab_AnimalType>
@@ -373,9 +373,9 @@
   <!-- EN: The average nutrition provided by edible plants in this pen. -->
   <PenFoodTab_NaturalNutritionGrowthRateDescription>此畜栏内可食用植物的平均营养</PenFoodTab_NaturalNutritionGrowthRateDescription>
   <!-- EN: The nutrition needed by animals currently in this pen.\n\nTo get more food, expand the pen to cover more wild plant growth, or deliver stockpiled food like haygrass to the pen. -->
-  <PenFoodTab_NutritionConsumptionDescription>目前在这个围栏里的动物需要的营养。\n\n为了获得更多的食物，可以扩大围栏以覆盖更多的野生植物生长，或者将储备的食物如干草运送到围栏中。</PenFoodTab_NutritionConsumptionDescription>
+  <PenFoodTab_NutritionConsumptionDescription>目前在这个围栏里的动物需要的营养。 \n\n为了获得更多的食物， 可以扩大围栏以覆盖更多的野生植物生长， 或者将储备的食物如干草运送到围栏中。</PenFoodTab_NutritionConsumptionDescription>
   <!-- EN: Note: Plant growth rate varies due to seasons, weather, theft by wild animals, and other factors. These calculations are approximations. -->
-  <PenFoodTab_NaturalNutritionGrowthRateSeasonal>注：植物生长速度因季节、天气、野生动物的偷窃和其他因素而变化。这些计算方法是近似值。</PenFoodTab_NaturalNutritionGrowthRateSeasonal>
+  <PenFoodTab_NaturalNutritionGrowthRateSeasonal>注：植物生长速度因季节、天气、野生动物的偷窃和其他因素而变化。 这些计算方法是近似值。</PenFoodTab_NaturalNutritionGrowthRateSeasonal>
 
   <!-- EN: Total consumption -->
   <PenFoodTab_NutritionConsumedPerDay_ColumLabel>总消耗</PenFoodTab_NutritionConsumedPerDay_ColumLabel>
@@ -394,11 +394,11 @@
   <!-- EN: Auto-cut plants in pen -->
   <PenAutoCut_EnabledCheckbox>在畜栏内自动割除植物</PenAutoCut_EnabledCheckbox>
   <!-- EN: Automatically mark certain inedible plants to be cut. This makes room for edible plants to grow, which your animals can then eat.\n\nThis auto-designation happens periodically and only applies to certain plants.\n\nThis only works when the pen is enclosed. -->
-  <PenAutoCut_EnabledCheckboxTip>自动标记某些不可食用的植物，使其被切断。这就为可食用植物的生长腾出了空间，然后你的动物就可以吃了。\n\n这种自动指定是定期进行的，只适用于某些植物。\n\n只适用于畜栏内有标牌的情况。</PenAutoCut_EnabledCheckboxTip>
+  <PenAutoCut_EnabledCheckboxTip>自动标记某些不可食用的植物， 使其被切断。 这就为可食用植物的生长腾出了空间， 然后你的动物就可以吃了。 \n\n这种自动指定是定期进行的， 只适用于某些植物。 \n\n只适用于畜栏内有标牌的情况。</PenAutoCut_EnabledCheckboxTip>
 
   <!-- EN: Pen is not enclosed -->
   <AutocutUnenclosedPen>畜栏未封闭</AutocutUnenclosedPen>
   <!-- EN: Pen is not enclosed now, so auto-cut won’t occur. -->
-  <AutocutUnenclosedPenTip>畜栏现在没有被封闭，所以自动割除不会生效。</AutocutUnenclosedPenTip>
+  <AutocutUnenclosedPenTip>畜栏现在没有被封闭， 所以自动割除不会生效。</AutocutUnenclosedPenTip>
 
 </LanguageData>

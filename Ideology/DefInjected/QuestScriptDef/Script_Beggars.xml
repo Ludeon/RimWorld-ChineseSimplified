@@ -13,7 +13,7 @@
   -->
   <Beggars.questContentRules.rulesStrings>
     <li>letterLabelBeggarsBetrayed->[groupLabelSingleOrPlural]被出卖</li>
-    <li>letterTextBeggarsBetrayed->前来寻求你们帮助的[groupLabelSingleOrPlural]已被出卖，抱有仁爱信仰的殖民者会不满。</li>
+    <li>letterTextBeggarsBetrayed->前来寻求你们帮助的[groupLabelSingleOrPlural]已被出卖， 抱有仁爱信仰的殖民者会不满。</li>
     <li>hasHave(beggarCount==1)-></li>
     <li>hasHave(beggarCount>=2)-></li>
     <li>wasWere(beggarCount==1)-></li>
@@ -57,24 +57,24 @@
     <li>beggingForInfo->[requestedThing_label] x[requestedThingCount]</li>
     <li>traverObjective(beggarCount==1)->[beggars0_objective]</li>
     <li>traverObjective(beggarCount>=2)->他们</li>
-    <li>questDescription->[approachInfo]。 [requestInfo]。 [claimInfo]。\n\n[interactionInfo]。\n\n[moveOnInfo]。\n\n[travelerInfo]不属于任何派系。 如果你愿意，你可以选择杀害、逮捕、出售或者采割[traverObjective]， 并且不会产生任何外交后果。</li>
-    <li>approachInfo(beggarCount==1)->一个名为 [beggars0_nameDef] 的贫困[groupLabelSingle]正在靠近以寻求帮助</li>
+    <li>questDescription->[approachInfo]。 [requestInfo]。 [claimInfo]。 \n\n[interactionInfo]。 \n\n[moveOnInfo]。 \n\n[travelerInfo]不属于任何派系。 如果你愿意， 你可以选择杀害、逮捕、出售或者采割[traverObjective]， 并且不会产生任何外交后果。</li>
+    <li>approachInfo(beggarCount==1)->一个名为[beggars0_nameDef]的贫困[groupLabelSingle]正在靠近以寻求帮助</li>
     <li>approachInfo(beggarCount>=2)->一群贫困的[groupLabelPlural]正在靠近以寻求帮助</li>
-    <li>requestInfo(beggarCount==1)->[beggars0_nameDef] 向你祈求施舍[beggingForInfo]</li>
-    <li>requestInfo(beggarCount>=2)->[groupLabelPlural] 向你祈求施舍[beggingForInfo]</li>
-    <li>claimInfo(beggarCount==1,requestedThingDefName==Silver)->[beggars0_nameDef] 急需白银来偿还其所欠的一伙正在追杀[beggars0_objective]的海盗的债务</li>
-    <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineHerbal)->[beggars0_nameDef] 急需药物来救助附近一位受伤的旅行者</li>
-    <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineIndustrial)->[beggars0_nameDef] 急需药物来救助其在旅途中受伤的忠诚宠物</li>
-    <li>claimInfo(beggarCount==1,requestedThingDefName==Penoxycyline)->[beggars0_nameDef] 急需 [requestedThing_label] 给病弱的朋友接种预防致命疾病的疫苗</li>
-    <li>claimInfo(beggarCount==1,requestedThingDefName==Beer)->[beggars0_nameDef] 需要它来抚慰其因一场可怕的意外而失去旅伴的伤痛</li>
+    <li>requestInfo(beggarCount==1)->[beggars0_nameDef]向你祈求施舍[beggingForInfo]</li>
+    <li>requestInfo(beggarCount>=2)->[groupLabelPlural]向你祈求施舍[beggingForInfo]</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==Silver)->[beggars0_nameDef]急需白银来偿还其所欠的一伙正在追杀[beggars0_objective]的海盗的债务</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineHerbal)->[beggars0_nameDef]急需药物来救助附近一位受伤的旅行者</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineIndustrial)->[beggars0_nameDef]急需药物来救助其在旅途中受伤的忠诚宠物</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==Penoxycyline)->[beggars0_nameDef]急需[requestedThing_label]给病弱的朋友接种预防致命疾病的疫苗</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==Beer)->[beggars0_nameDef]需要它来抚慰其因一场可怕的意外而失去旅伴的伤痛</li>
     <li>claimInfo(beggarCount>=2,requestedThingDefName==Silver)->他们急需白银来赎回不久前被绑架的朋友</li>
     <li>claimInfo(beggarCount>=2,requestedThingDefName==MedicineHerbal)->他们急需药物来挽救被机械族重伤的旅伴的性命</li>
     <li>claimInfo(beggarCount>=2,requestedThingDefName==MedicineIndustrial)->他们急需药物来救助附近定居点被袭击者摧毁的朋友们</li>
-    <li>claimInfo(beggarCount>=2,requestedThingDefName==Penoxycyline)->他们急需 [requestedThing_label] 以便在他们找到新家前保证旅程安全</li>
+    <li>claimInfo(beggarCount>=2,requestedThingDefName==Penoxycyline)->他们急需[requestedThing_label]以便在他们找到新家前保证旅程安全</li>
     <li>claimInfo(beggarCount>=2,requestedThingDefName==Beer)->需要它来抚慰其因一场可怕的袭击而失去家园的伤痛</li>
-    <li>interactionInfo(beggarCount==1)->选择殖民者后可通过右键单击 [beggars0_nameDef] 来赠予[beggars0_objective]所需要的物品</li>
-    <li>interactionInfo(beggarCount>=2)->选中殖民者后可通过右键单击 [beggars0_nameDef] 来赠予[groupLabelPlural]所需要的物品</li>
-    <li>moveOnInfo(beggarCount==1)->[beggars0_nameDef] 将在[visitDurationTicks_duration]之后继续踏上旅途</li>
+    <li>interactionInfo(beggarCount==1)->选择殖民者后可通过右键单击[beggars0_nameDef]来赠予[beggars0_objective]所需要的物品</li>
+    <li>interactionInfo(beggarCount>=2)->选中殖民者后可通过右键单击[beggars0_nameDef]来赠予[groupLabelPlural]所需要的物品</li>
+    <li>moveOnInfo(beggarCount==1)->[beggars0_nameDef]将在[visitDurationTicks_duration]之后继续踏上旅途</li>
     <li>moveOnInfo(beggarCount>=2)->[groupLabelPlural]将在[visitDurationTicks_duration]之后继续踏上旅途</li>
   </Beggars.questDescriptionRules.rulesStrings>
   <!-- EN:

@@ -10,10 +10,10 @@
     <li>r_logentry->[INITIATOR_nameDef] explained to [RECIPIENT_nameDef] that [RECIPIENT_pronoun] must work or face punishment.</li>
   -->
   <EnslaveAttempt.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] 告诉[RECIPIENT_nameDef]说[RECIPIENT_pronoun]必须为殖民地工作。</li>
-    <li>r_logentry->[INITIATOR_nameDef] 通知[RECIPIENT_nameDef]说[RECIPIENT_pronoun]必须服从命令和工作。</li>
-    <li>r_logentry->[INITIATOR_nameDef] 命令[RECIPIENT_nameDef]必须为强制劳工生活做好心理准备。</li>
-    <li>r_logentry->[INITIATOR_nameDef] 解释给[RECIPIENT_nameDef]说[RECIPIENT_pronoun]要么工作，要么接受惩罚。</li>
+    <li>r_logentry->[INITIATOR_nameDef]告诉[RECIPIENT_nameDef]说[RECIPIENT_pronoun]必须为殖民地工作。</li>
+    <li>r_logentry->[INITIATOR_nameDef]通知[RECIPIENT_nameDef]说[RECIPIENT_pronoun]必须服从命令和工作。</li>
+    <li>r_logentry->[INITIATOR_nameDef]命令[RECIPIENT_nameDef]必须为强制劳工生活做好心理准备。</li>
+    <li>r_logentry->[INITIATOR_nameDef]解释给[RECIPIENT_nameDef]说[RECIPIENT_pronoun]要么工作， 要么接受惩罚。</li>
   </EnslaveAttempt.logRulesInitiator.rulesStrings>
   
   <!-- EN: try to reduce will -->
@@ -62,11 +62,11 @@
     <li>givein->yield [RECIPIENT_objective]self</li>
   -->
   <ReduceWill.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] 告诉[RECIPIENT_nameDef]说[RECIPIENT_pronoun][negative]。</li>
-    <li>r_logentry->[INITIATOR_nameDef] 解释给[RECIPIENT_nameDef]说[negative]。</li>
-    <li>r_logentry->[INITIATOR_nameDef] 威胁[RECIPIENT_nameDef]说如果[RECIPIENT_pronoun][refused]，将会面临[threat]。</li>
-    <li>r_logentry->[INITIATOR_nameDef] 通知[RECIPIENT_nameDef]说[RECIPIENT_pronoun][disillusionment]。</li>
-    <li>r_logentry->[INITIATOR_nameDef] 要求[RECIPIENT_nameDef]向殖民地[givein]。</li>
+    <li>r_logentry->[INITIATOR_nameDef]告诉[RECIPIENT_nameDef]说[RECIPIENT_pronoun][negative]。</li>
+    <li>r_logentry->[INITIATOR_nameDef]解释给[RECIPIENT_nameDef]说[negative]。</li>
+    <li>r_logentry->[INITIATOR_nameDef]威胁[RECIPIENT_nameDef]说如果[RECIPIENT_pronoun][refused]， 将会面临[threat]。</li>
+    <li>r_logentry->[INITIATOR_nameDef]通知[RECIPIENT_nameDef]说[RECIPIENT_pronoun][disillusionment]。</li>
+    <li>r_logentry->[INITIATOR_nameDef]要求[RECIPIENT_nameDef]向殖民地[givein]。</li>
     <li>negative->没有未来</li>
     <li>negative->无路可逃</li>
     <li>negative->在殖民地外面没有未来</li>

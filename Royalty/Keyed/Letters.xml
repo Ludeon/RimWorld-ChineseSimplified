@@ -18,7 +18,7 @@
   <LetterRoyalTitleExpectation>{PAWN_possessive}期望值永远不会低于“{1}”。</LetterRoyalTitleExpectation>
   
   <!-- EN: Because {PAWN_labelShort} is {1}, {PAWN_pronoun} will demand that this title's privileges be fully respected. {PAWN_pronoun} may refuse to do certain work types, eat low-class food and will issue decrees. -->
-  <LetterRoyalTitleConceitedTrait>{PAWN_labelShort}将索求此头衔的所有特权（由于{1}）。{PAWN_pronoun}可能会拒绝进行某些工作，不吃低品质的食物并且会颁布法令。</LetterRoyalTitleConceitedTrait>
+  <LetterRoyalTitleConceitedTrait>{PAWN_labelShort}将索求此头衔的所有特权（由于{1}）。 {PAWN_pronoun}可能会拒绝进行某些工作， 不吃低品质的食物并且会颁布法令。</LetterRoyalTitleConceitedTrait>
 
   <!-- EN: {PAWN_labelShort} received the title of {TITLE} from {FACTION_name}! -->
   <LetterGainedRoyalTitle>{PAWN_labelShort}从{FACTION_name}获得了{TITLE}的头衔！</LetterGainedRoyalTitle>
@@ -27,7 +27,7 @@
   <!-- EN: Title rewards -->
   <LetterLabelRewardsForNewTitle>赏赐</LetterLabelRewardsForNewTitle>
   <!-- EN: To honor {PAWN_labelShort} advancing to the title of {TITLE}, {FACTION_name} has sent {PAWN_objective} the following reward(s): -->
-  <LetterRewardsForNewTitle>为了纪念{PAWN_labelShort}的{TITLE}头衔晋升，{FACTION_name}发给{PAWN_objective}如下赏赐：</LetterRewardsForNewTitle>
+  <LetterRewardsForNewTitle>为了纪念{PAWN_labelShort}的{TITLE}头衔晋升， {FACTION_name}发给{PAWN_objective}如下赏赐：</LetterRewardsForNewTitle>
   <!-- EN: Rewards have arrived to your colony via transport pods. -->
   <LetterRewardsForNewTitleDeliveryBase>奖励已经通过空投舱发送至你的殖民地。</LetterRewardsForNewTitleDeliveryBase>
   <!-- EN: Rewards were delivered directly to {PAWN_labelShort}'s inventory. -->
@@ -51,9 +51,9 @@
   <!-- EN: {PAWN_pronoun} is no longer allowed to use these implants:{1} -->
   <LetterRoyalTitleImplantsMustBeRemoved>{PAWN_pronoun}不再被允许使用以下植入物:{1}</LetterRoyalTitleImplantsMustBeRemoved>
   <!-- EN: The implants must be extracted within a five-day grace period to avoid diplomatic consequences. -->
-  <LetterRoyalTitleImplantGracePeriod>必须在五天的限期内提取植入物，以避免产生外交后果。</LetterRoyalTitleImplantGracePeriod>
+  <LetterRoyalTitleImplantGracePeriod>必须在五天的限期内提取植入物， 以避免产生外交后果。</LetterRoyalTitleImplantGracePeriod>
   <!-- EN: {PAWN_pronoun} can now give speeches from the throne. If it goes well, listeners will feel inspired. If it goes poorly, the speech will do social damage. The outcome depends on {PAWN_labelShort}'s social abilities. -->
-  <LetterRoyalTitleSpeechAbilityGained>{PAWN_pronoun}现在可以发表演说了。如果一切顺利，听众会获得鼓舞，并且从听众获得尊重。如果进展不顺利，演讲会造成社交伤害。结果取决于{PAWN_labelShort}的社交能力。</LetterRoyalTitleSpeechAbilityGained>
+  <LetterRoyalTitleSpeechAbilityGained>{PAWN_pronoun}现在可以发表演说了。 如果一切顺利， 听众会获得鼓舞， 并且从听众获得尊重。 如果进展不顺利， 演讲会造成社交伤害。 结果取决于{PAWN_labelShort}的社交能力。</LetterRoyalTitleSpeechAbilityGained>
   <!-- EN: This title requires a throneroom that meets these requirements:{1} -->
   <LetterRoyalTitleThroneroomRequirements>此头衔需要一个满足以下要求的谒见厅:{1}</LetterRoyalTitleThroneroomRequirements>
   <!-- EN: This title requires a bedroom that meets these requirements:{1} -->
@@ -68,9 +68,9 @@
 
   <!-- Royal heritage-->
   <!-- EN: If {PAWN_pronoun} dies, this title will be inherited by {HEIR_nameFull}. -->
-  <LetterRoyalTitleHeir>如果{PAWN_pronoun}去世，则此头衔将被{HEIR_nameFull}所继承。</LetterRoyalTitleHeir>
+  <LetterRoyalTitleHeir>如果{PAWN_pronoun}去世， 则此头衔将被{HEIR_nameFull}所继承。</LetterRoyalTitleHeir>
   <!-- EN: If {PAWN_pronoun} dies, no one will inherit this title. -->
-  <LetterRoyalTitleNoHeir>如果{PAWN_pronoun}去世，没有人能继承此头衔。</LetterRoyalTitleNoHeir>
+  <LetterRoyalTitleNoHeir>如果{PAWN_pronoun}去世， 没有人能继承此头衔。</LetterRoyalTitleNoHeir>
   <!-- EN: {PAWN_nameFull} is a member of {FACTION_name}. -->
   <LetterRoyalTitleHeirFactionWarning>{PAWN_nameFull}是{FACTION_name}的成员。</LetterRoyalTitleHeirFactionWarning>
   <!-- EN: A new heir can be chosen by contacting {FACTION_name} through a comms console. -->
@@ -78,7 +78,7 @@
   <!-- EN: Heir lost -->
   <LetterTitleHeirLostLabel>继承者死了</LetterTitleHeirLostLabel>
   <!-- EN: {HEIR_nameFull} has died, leaving {HOLDER_labelShort} with no heir for the title received from {FACTION_name}. You can contact {FACTION_name} through a comms console to designate a new heir. -->
-  <LetterTitleHeirLost>{HEIR_nameFull}死亡，{HOLDER_labelShort}没有继承自{FACTION_name}的头衔。你可以通过通讯台与{FACTION_name}联系，以指定新的继承人。</LetterTitleHeirLost>
+  <LetterTitleHeirLost>{HEIR_nameFull}死亡， {HOLDER_labelShort}没有继承自{FACTION_name}的头衔。 你可以通过通讯台与{FACTION_name}联系， 以指定新的继承人。</LetterTitleHeirLost>
   <!-- EN: The title of {TITLE} cannot be inherited. -->
   <LetterRoyalTitleCantBeInherited>头衔{TITLE}无法被继承。</LetterRoyalTitleCantBeInherited>
 
@@ -86,41 +86,41 @@
   <!-- EN: Title inheritance -->
   <LetterTitleInheritance>头衔继承</LetterTitleInheritance>
   <!-- EN: Since {PAWN_nameFull} died, {PAWN_possessive} titles will be transferred to {PAWN_possessive} heirs. -->
-  <LetterTitleInheritance_Base>当{PAWN_nameFull}逝世后，{PAWN_possessive}头衔将会根据授予头衔的派系之律法传授给{PAWN_possessive}继承人。</LetterTitleInheritance_Base>
+  <LetterTitleInheritance_Base>当{PAWN_nameFull}逝世后， {PAWN_possessive}头衔将会根据授予头衔的派系之律法传授给{PAWN_possessive}继承人。</LetterTitleInheritance_Base>
   <!-- EN: {PAWN_possessive} {TITLE} title was inherited by {HEIR_nameFull}, according to the succession laws of {FACTION_name}. It will replace {HEIR_possessive} {REPLACEDTITLE} title upon completion of a bestowing ceremony. -->
   <LetterTitleInheritance_AsReplacement>根据{FACTION_name}的继承规则， {PAWN_possessive} {TITLE}头衔被 {HEIR_nameFull} 继承。 在完成授予仪式之后将取代{HEIR_possessive} {REPLACEDTITLE}头衔。</LetterTitleInheritance_AsReplacement>
   <!-- EN: {PAWN_possessive} {TITLE} title would have been inherited by {HEIR_nameFull} according to the succession laws of {FACTION_name}, but {HEIR_pronoun} already had a {HIGHERTITLE} title. -->
-  <LetterTitleInheritance_NoEffectHigherTitle>根据{FACTION_name}的继承规则，{PAWN_possessive} {TITLE}头衔将由{HEIR_nameFull}来继承。 但是{HEIR_pronoun}已拥有了{HIGHERTITLE}头衔。</LetterTitleInheritance_NoEffectHigherTitle>
+  <LetterTitleInheritance_NoEffectHigherTitle>根据{FACTION_name}的继承规则， {PAWN_possessive} {TITLE}头衔将由{HEIR_nameFull}来继承。 但是{HEIR_pronoun}已拥有了{HIGHERTITLE}头衔。</LetterTitleInheritance_NoEffectHigherTitle>
   <!-- EN: {PAWN_possessive} {TITLE} title will be inherited by {HEIR_nameFull} upon completion of a bestowing ceremony, according to the succession laws of {FACTION_name}. -->
   <LetterTitleInheritance_WasInherited>根据{FACTION_name}的继承法， {PAWN_possessive}{TITLE}头衔将在完成授予仪式之后由{HEIR_nameFull}继承。</LetterTitleInheritance_WasInherited>
   <!-- EN: {PAWN_possessive} {TITLE} title was not inherited by anyone, since {PAWN_pronoun} had no designated heir for this title. -->
-  <LetterTitleInheritance_NoHeirFound>{PAWN_possessive}{TITLE}头衔未被任何人继承，因为{PAWN_pronoun}没有指定该头衔的继承人。</LetterTitleInheritance_NoHeirFound>
+  <LetterTitleInheritance_NoHeirFound>{PAWN_possessive}{TITLE}头衔未被任何人继承， 因为{PAWN_pronoun}没有指定该头衔的继承人。</LetterTitleInheritance_NoHeirFound>
 
   <!-- Royal implant violations -->
   <!-- EN: Lawbreaker: {PAWN_labelShort} -->
   <LetterLawViolationDetectedLabel>违法者: {PAWN_labelShort}</LetterLawViolationDetectedLabel>
   <!-- EN: {FACTION_name} has detected {PAWN_labelShort}'s illegal use of: {CULPRIT} (detection chance {CHANCE}).\n\nAccording to the laws of {FACTION_name}, only those who hold the title of {TITLE} are allowed to use {CULPRIT}.\n\nAs a penalty, your faction relations have fallen by {GOODWILL}. -->
-  <LetterLawViolationDetectedForbiddenThingUse>{FACTION_name}检测到{PAWN_labelShort}被非法使用: {CULPRIT} (检测概率 {CHANCE}).\n\n根据{FACTION_name}的法律，只有拥有{TITLE}头衔的人才能使用{CULPRIT}。\n\n作为惩罚，与你的派系关系下降了{GOODWILL}。</LetterLawViolationDetectedForbiddenThingUse>
+  <LetterLawViolationDetectedForbiddenThingUse>{FACTION_name}检测到{PAWN_labelShort}被非法使用: {CULPRIT} (检测概率 {CHANCE}).\n\n根据{FACTION_name}的法律， 只有拥有{TITLE}头衔的人才能使用{CULPRIT}。 \n\n作为惩罚， 与你的派系关系下降了{GOODWILL}。</LetterLawViolationDetectedForbiddenThingUse>
 
   <!-- Throne Speech -->
   <!-- EN: {ORGANIZER_labelShort} has finished {ORGANIZER_possessive} speech. -->
   <LetterFinishedSpeech>{ORGANIZER_labelShort}完成了{ORGANIZER_possessive}演讲。</LetterFinishedSpeech>
   <!-- EN: It was truly atrocious - halting, full of awkward jokes and depressing stories. -->
-  <LetterTerribleSpeech>这真是太糟糕了————口齿不清的语调里，充满了令人啼笑喈非的措词和无聊透顶的故事。</LetterTerribleSpeech>
+  <LetterTerribleSpeech>这真是太糟糕了————口齿不清的语调里， 充满了令人啼笑喈非的措词和无聊透顶的故事。</LetterTerribleSpeech>
   <!-- EN: It was uninspiring - unoriginal, droning and lacking any sense of passion. -->
-  <LetterUninspiringSpeech>真的是平平无奇——陈词滥调，乏味的语句里没有一丝激情可言。</LetterUninspiringSpeech>
+  <LetterUninspiringSpeech>真的是平平无奇——陈词滥调， 乏味的语句里没有一丝激情可言。</LetterUninspiringSpeech>
   <!-- EN: It was encouraging and well-delivered. -->
-  <LetterEncouragingSpeech>令人感到鼓舞，传递的信息十分明确。</LetterEncouragingSpeech>
+  <LetterEncouragingSpeech>令人感到鼓舞， 传递的信息十分明确。</LetterEncouragingSpeech>
   <!-- EN: It was remarkably inspiring, full of intensity and purpose. -->
-  <LetterInspirationalSpeech>激情澎湃的演说，充满了昂扬的斗志与坚定的目标。</LetterInspirationalSpeech>
+  <LetterInspirationalSpeech>激情澎湃的演说， 充满了昂扬的斗志与坚定的目标。</LetterInspirationalSpeech>
   <!-- EN: The following people were particularly moved by the speech and are now inspired: -->
-  <LetterSpeechInspiredListeners>这些人被这场演讲感动，现在受到启发：</LetterSpeechInspiredListeners>
+  <LetterSpeechInspiredListeners>这些人被这场演讲感动， 现在受到启发：</LetterSpeechInspiredListeners>
   <!-- EN: Thanks to {SPEAKER_nameIndef}'s remarkable speech, {PAWN_nameIndef} has experienced an inspiration! -->
-  <LetterSpeechInspiration>感谢{SPEAKER_nameIndef}的精彩演讲，{PAWN_nameIndef}获得了一个灵感！</LetterSpeechInspiration>
+  <LetterSpeechInspiration>感谢{SPEAKER_nameIndef}的精彩演讲， {PAWN_nameIndef}获得了一个灵感！</LetterSpeechInspiration>
   <!-- EN: Because the speech was interrupted after only {0} completed, it wasn't as effective. -->
-  <LetterSpeechInterrupted>由于演讲进度在{0}后被打断，因此效果不佳。</LetterSpeechInterrupted>
+  <LetterSpeechInterrupted>由于演讲进度在{0}后被打断， 因此效果不佳。</LetterSpeechInterrupted>
   <!-- EN: {0}'s speech was cancelled before reaching 50% completion. It had no effect. -->
-  <LetterSpeechCancelled>{0}的演讲已被取消，并未过半。因此没有效果。</LetterSpeechCancelled>
+  <LetterSpeechCancelled>{0}的演讲已被取消， 并未过半。 因此没有效果。</LetterSpeechCancelled>
   <!-- EN: Speech cancelled -->
   <LetterLabelSpeechCancelled>演讲被取消了</LetterLabelSpeechCancelled>
 
@@ -131,30 +131,30 @@
   <LetterLabelRandomDecree>{0_nameIndef}颁布了法令</LetterLabelRandomDecree>
   <!-- EN: {0_nameIndef}, in an attempt to release {0_possessive} stress, has issued a wild royal decree and is now demanding that it be carried out.
     \nIf it isn't carried out in good time, {0_nameIndef} will become very unhappy. -->
-  <LetterDecreeMentalBreak>为了释放{0_possessive}压力，{0_nameIndef}发布了一项疯狂的皇家法令，现在要求立即执行该法令。\n    \n如果没有及时执行，{0_nameIndef}将变得非常不高兴。</LetterDecreeMentalBreak>
+  <LetterDecreeMentalBreak>为了释放{0_possessive}压力， {0_nameIndef}发布了一项疯狂的皇家法令， 现在要求立即执行该法令。 \n    \n如果没有及时执行， {0_nameIndef}将变得非常不高兴。</LetterDecreeMentalBreak>
   <!-- EN: {0_nameIndef}, in order to affirm {0_possessive} title of {0_bestRoyalTitleIndef}, has issued a decree and is now demanding that it be carried out.
     \nIf it isn't carried out in good time, {0_nameIndef} will become very unhappy. -->
-  <LetterRandomDecree>{0_nameIndef}为了确认{0_bestRoyalTitleIndef}的{0_possessive}头衔，已经发布了一项法令，现在要求立即执行。\n    \n如果没有及时执行，{0_nameIndef}将变得非常不高兴。</LetterRandomDecree>
+  <LetterRandomDecree>{0_nameIndef}为了确认{0_bestRoyalTitleIndef}的{0_possessive}头衔， 已经发布了一项法令， 现在要求立即执行。 \n    \n如果没有及时执行， {0_nameIndef}将变得非常不高兴。</LetterRandomDecree>
   <!-- EN: The decree is titled "{0}". -->
   <LetterDecree_Quest>这个法令是"{0}"。</LetterDecree_Quest>
   
   <!-- Lent colonist died -->
   <!-- EN: {PAWN_nameDef} was lent to {FACTION}. They will return the body of {PAWN_nameDef} shortly. -->
-  <LentColonistDied>{PAWN_nameDef}曾被借调至{FACTION}。他们将在最近交还{PAWN_nameDef}的遗体。</LentColonistDied>  
+  <LentColonistDied>{PAWN_nameDef}曾被借调至{FACTION}。 他们将在最近交还{PAWN_nameDef}的遗体。</LentColonistDied>  
 
   <!-- Psylink -->
   <!-- EN: Psylink gained -->
   <LetterLabelPsylinkLevelGained>启灵</LetterLabelPsylinkLevelGained>
   <!-- EN: {USER_labelShort} has gained {USER_possessive} first level of psylink! {USER_pronoun} is now a psycaster.\n\nTo use psychic powers, {USER_labelShort} must build up psyfocus through meditation. The effectiveness of this meditation is increased if the person can focus on a specific object while meditating.\n\nDifferent people are able to focus on different objects. This depend on the person's backstories, traits, and titles. For example:\n\n- Psycasters with royal titles meditate on their thrones.\n- Psycasters with tribal childhoods meditate to anima trees and nature shrines.\n- Ascetic psycasters meditate to blank walls.\n- Psychopathic psycasters meditate to graves, ideally with a loved one inside.\n\nYou can see someone's meditation focus types by looking at their info card with the 'i' button. -->
-  <LetterPsylinkLevelGained_First>{USER_labelShort}获得了第一个启灵等级！{USER_pronoun}现在是一名心灵能力者了。\n\n要使用心灵能力，{USER_labelShort}必须通过冥想提升精神力。如果能够在冥想时专注于特定的对象，那么冥想的效果会得到提升。\n\n每个人都能在不同的物体附近冥想，这取决于他们的灵媒。冥想者的灵媒取决于他们的背景、特征和社会地位等。例如：\n\n-持有荣誉头衔的心灵能力者在他们的宝座冥想。\n-部落长大的心灵能力者在仙树或自然圣地冥想。\n-苦行者在一无所有的墙壁前冥想。\n-病态的心灵能力者会在坟墓冥想，埋葬着爱人会更理想。\n\n要查看一个人的灵媒，可以通过选择他们并单击「i」按钮来打开他们的详细信息窗口。</LetterPsylinkLevelGained_First>
+  <LetterPsylinkLevelGained_First>{USER_labelShort}获得了第一个启灵等级！{USER_pronoun}现在是一名心灵能力者了。 \n\n要使用心灵能力， {USER_labelShort}必须通过冥想提升精神力。 如果能够在冥想时专注于特定的对象， 那么冥想的效果会得到提升。 \n\n每个人都能在不同的物体附近冥想， 这取决于他们的灵媒。 冥想者的灵媒取决于他们的背景、特征和社会地位等。 例如：\n\n-持有荣誉头衔的心灵能力者在他们的宝座冥想。 \n-部落长大的心灵能力者在仙树或自然圣地冥想。 \n-苦行者在一无所有的墙壁前冥想。 \n-病态的心灵能力者会在坟墓冥想， 埋葬着爱人会更理想。 \n\n要查看一个人的灵媒， 可以通过选择他们并单击「i」按钮来打开他们的详细信息窗口。</LetterPsylinkLevelGained_First>
   <!-- EN: {USER_labelShort} has gained a new level of psylink! {USER_pronoun} can now use psychic powers of that higher level, but {USER_pronoun} needs to learn them first. -->
-  <LetterPsylinkLevelGained_NotFirst>{USER_labelShort}获得了更高的启灵等级！{USER_pronoun}现在能够使用更高等级的心灵能力，但{USER_pronoun}需要先学会如何使用。</LetterPsylinkLevelGained_NotFirst>
+  <LetterPsylinkLevelGained_NotFirst>{USER_labelShort}获得了更高的启灵等级！{USER_pronoun}现在能够使用更高等级的心灵能力， 但{USER_pronoun}需要先学会如何使用。</LetterPsylinkLevelGained_NotFirst>
   <!-- EN: Upon gaining the new psylink level, {USER_labelShort} automatically learned these psychic powers: {2} -->
-  <LetterPsylinkLevelGained_PsycastLearned>在获得了新的启灵等级之后，{USER_labelShort}自动领悟了这个心灵能力：{2}。</LetterPsylinkLevelGained_PsycastLearned>
+  <LetterPsylinkLevelGained_PsycastLearned>在获得了新的启灵等级之后， {USER_labelShort}自动领悟了这个心灵能力：{2}。</LetterPsylinkLevelGained_PsycastLearned>
   
   <!-- Abilities -->
   <!-- EN: Thanks to {CASTER_nameIndef}'s psychic suggestion, {PAWN_nameIndef} has experienced an inspiration! -->
-  <LetterPsychicInspiration>感谢{CASTER_nameIndef}的心灵暗示，{PAWN_nameIndef}获得了一个灵感！</LetterPsychicInspiration>
+  <LetterPsychicInspiration>感谢{CASTER_nameIndef}的心灵暗示， {PAWN_nameIndef}获得了一个灵感！</LetterPsychicInspiration>
 
   <!-- Join Offer -->
   <!-- EN: Join offer: {PAWN_nameDef} -->
@@ -162,24 +162,24 @@
   <!-- EN: {PAWN_nameDef} wishes to join your faction. -->
   <LetterJoinOfferTitle>{PAWN_nameDef}希望加入你的派系。</LetterJoinOfferTitle>
   <!-- EN: {PAWN_nameDef} believes that {PAWN_pronoun} is happy at {MAP_definite}. {PAWN_pronoun} wishes to join you permanently. -->
-  <LetterJoinOfferText>{PAWN_nameDef}相信{PAWN_pronoun}会在{MAP_definite}过的开心。{PAWN_pronoun}希望能够永远加入你。</LetterJoinOfferText>
+  <LetterJoinOfferText>{PAWN_nameDef}相信{PAWN_pronoun}会在{MAP_definite}过的开心。 {PAWN_pronoun}希望能够永远加入你。</LetterJoinOfferText>
   <!-- EN: Accept -->
   <LetterJoinOfferAccept>接受</LetterJoinOfferAccept>
 
   <!-- EN: Bestowing ceremony expired -->
   <LetterLabelBestowingCeremonyExpired>授勋仪式结束</LetterLabelBestowingCeremonyExpired>
   <!-- EN: {TARGET_definite} did not show up to the bestowing ceremony. The ceremony has been cancelled. -->
-  <LetterTextBestowingCeremonyExpired>{TARGET_definite}没有出现在授勋仪式上。授勋仪式被取消了</LetterTextBestowingCeremonyExpired>
+  <LetterTextBestowingCeremonyExpired>{TARGET_definite}没有出现在授勋仪式上。 授勋仪式被取消了</LetterTextBestowingCeremonyExpired>
 
   <!-- EN: {TARGET_definite}'s title changed -->
   <LetterLabelBestowingCeremonyTitleUpdated>{TARGET_definite}的头衔改变</LetterLabelBestowingCeremonyTitleUpdated>
   <!-- EN: {TARGET_definite} has gained new title since the bestowing ceremony was scheduled. In order for bestowing to match the new title, another ceremony will be scheduled soon.\n\nThe new bestowing ceremony will include the psylink rewards for all titles which were not yet awarded. -->
-  <LetterTextBestowingCeremonyTitleUpdated>{TARGET_definite}在授勋仪式安排后获得了新的头衔。为了配合新头衔的授予，另一个仪式将很快被安排。\n\n新的授予仪式将包括所有尚未授予的头衔的启灵装置奖励。</LetterTextBestowingCeremonyTitleUpdated>
+  <LetterTextBestowingCeremonyTitleUpdated>{TARGET_definite}在授勋仪式安排后获得了新的头衔。 为了配合新头衔的授予， 另一个仪式将很快被安排。 \n\n新的授予仪式将包括所有尚未授予的头衔的启灵装置奖励。</LetterTextBestowingCeremonyTitleUpdated>
   
   <!-- EN: {PAWN_labelShort} received {1} honor as a sign of respect from {FACTION_name}, for gathering {3} spectators. -->
   <LetterPartBestowingExtraHonor>{PAWN_labelShort}获得了{1}x荣誉点数， 以示对{FACTION_name}的尊重， 因为他聚集了{3}x观众。</LetterPartBestowingExtraHonor>
   <!-- EN: {PAWN_labelShort} received no extra honor since there weren't many spectators. -->
-  <LetterPartNoExtraHonor>{PAWN_labelShort}没有获得额外的荣誉，因为没有多少观众。</LetterPartNoExtraHonor>
+  <LetterPartNoExtraHonor>{PAWN_labelShort}没有获得额外的荣誉， 因为没有多少观众。</LetterPartNoExtraHonor>
   <!-- EN: All viewers of the ceremony received a mood bonus. -->
   <LetterPartMoodBonus>仪式的所有观众都获得了心情奖励。</LetterPartMoodBonus>
 
@@ -196,6 +196,6 @@
   <!-- EN: Transport pod crash: {0_nameDef} -->
   <LetterLabelWandererJoinsAbasia>运输仓坠毁：{0_nameDef}</LetterLabelWandererJoinsAbasia>
   <!-- EN: A {0_title} named {0_nameDef} is crashing in a transport pod nearby.\n\n{0_nameDef} is suffering from {1_label} and will be unable to walk.\n\n{0_pronoun} will recover naturally after many days. There is also a chance of a lucky quick recovery. {1_label} can also be cured by a special operation which requires a large amount of glitterworld medicine.\n\n{0_pronoun} is willing to contribute once {0_pronoun} has recovered, but will not leave voluntarily. If you don't want {0_nameDef}, you can banish {0_objective}, sell {0_objective} into slavery or leave {0_objective} to die. However, your other colonists may find this disturbing. -->
-  <LetterTextWandererJoinsAbasia>一位名为 {0_nameDef} 的 {0_title} 乘坐运输仓坠毁在了附近。\n\n{0_nameDef} 患有 {1_label}， 将无法行走。\n\n{0_pronoun}将在许多天后自然恢复。 也有可能幸运地迅速康复。 {1_label}也可以通过一个特殊的手术来治愈， 这需要大量的闪耀世界药物。\n\n{0_pronoun}不会主动离开，并且愿意在{0_pronoun}康复后作出贡献。 如果你不愿意接收{0_nameDef}， 你可以放逐{0_objective}， 把{0_objective}卖给奴隶， 或者让{0_objective}死去。 然而， 你的其他殖民者可能会觉得这很令人不安。</LetterTextWandererJoinsAbasia>
+  <LetterTextWandererJoinsAbasia>一位名为 {0_nameDef} 的 {0_title} 乘坐运输仓坠毁在了附近。 \n\n{0_nameDef} 患有 {1_label}， 将无法行走。 \n\n{0_pronoun}将在许多天后自然恢复。 也有可能幸运地迅速康复。 {1_label}也可以通过一个特殊的手术来治愈， 这需要大量的闪耀世界药物。 \n\n{0_pronoun}不会主动离开， 并且愿意在{0_pronoun}康复后作出贡献。 如果你不愿意接收{0_nameDef}， 你可以放逐{0_objective}， 把{0_objective}卖给奴隶， 或者让{0_objective}死去。 然而， 你的其他殖民者可能会觉得这很令人不安。</LetterTextWandererJoinsAbasia>
 
 </LanguageData>
