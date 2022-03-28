@@ -28,7 +28,7 @@
     <li>descriptionIntro(factionless==true)->A group of wild people are</li>
   -->
   <EndGame_ArchonexusVictory_FirstCycle.questDescriptionRules.rulesStrings>
-    <li>questDescription->[descriptionIntro]致力于扩大他们的势力范围，并有兴趣出全资接管[playerSettlements]和[itsTheir]全部科技。如果你能将你的总财富值增加到[requiredWealth_money]，他们将会接管[settlementsSingularOrPlural]。\n\n作为交换，他们将会给你包含有一处远古超凡枢纽位置信息的地图残片。超凡枢纽被认为是超凡智能借以影响客观世界的媒介。凭借它的力量，可以跨越物理法则的限制。\n\n[onlyHaveHas]一份地图残片。其他部分被别的派系所持有。\n\n如果你接受提议，[factionPawnsPlural]将占有[playerSettlements]，包括物品、其他人员及已记录的科技。他们还会帮你将[colonistsAllowed]名人员和[animalsAllowed]只动物运送至星球上任何你想建立新殖民地的位置。\n\n之后你可以尝试和其他人交易另外两份地图残片。</li>
+    <li>questDescription->[descriptionIntro]致力于扩大他们的势力范围， 并有兴趣出全资接管[playerSettlements]和[itsTheir]全部科技。 如果你能将你的总财富值增加到[requiredWealth_money]， 他们将会接管[settlementsSingularOrPlural]。 \n\n作为交换， 他们将会给你包含有一处远古超凡枢纽位置信息的地图残片。 超凡枢纽被认为是超凡智能借以影响客观世界的媒介。 凭借它的力量， 可以跨越物理法则的限制。 \n\n[onlyHaveHas]一份地图残片。 其他部分被别的派系所持有。 \n\n如果你接受提议， [factionPawnsPlural]将占有[playerSettlements]， 包括物品、其他人员及已记录的科技。 他们还会帮你将[colonistsAllowed]名人员和[animalsAllowed]只动物运送至星球上任何你想建立新殖民地的位置。 \n\n之后你可以尝试和其他人交易另外两份地图残片。</li>
     <li>itsTheir(playerSettlementsCount==1)->它的</li>
     <li>itsTheir(playerSettlementsCount>=2)->它们的</li>
     <li>settlementsSingularOrPlural(playerSettlementsCount==1)->基地</li>
@@ -60,7 +60,7 @@
     <li>descriptionStudyRequirement(studyRequirement==false)-></li>
   -->
   <EndGame_ArchonexusVictory_SecondCycle.questDescriptionRules.rulesStrings>
-    <li>questDescription->在破译第一张超凡枢纽地图残片的信息后，你需要为你的下一段旅程做好准备。\n\n[cycle1Faction]告诉了你毁灭这个世界的那起灾难。几个世纪前，人类建造的一台巨型智能机械。它背叛了人类并发动了一场大战。当智械完成飞升并陷入休眠后，只有少数人得以幸存。\n\n超凡枢纽的地图残片有三份，你已持有一份。[otherMapPartHolders]分别持有其他部分。他们倾向于跟你换取一个富裕的殖民地及它的所有科技。[descriptionStudyRequirement]\n\n是时候开始建设了。</li>
+    <li>questDescription->在破译第一张超凡枢纽地图残片的信息后， 你需要为你的下一段旅程做好准备。 \n\n[cycle1Faction]告诉了你毁灭这个世界的那起灾难。 几个世纪前， 人类建造的一台巨型智能机械。 它背叛了人类并发动了一场大战。 当智械完成飞升并陷入休眠后， 只有少数人得以幸存。 \n\n超凡枢纽的地图残片有三份， 你已持有一份。 [otherMapPartHolders]分别持有其他部分。 他们倾向于跟你换取一个富裕的殖民地及它的所有科技。 [descriptionStudyRequirement]\n\n是时候开始建设了。</li>
     <li>cycle1Faction(factionless==false)->[civilOutlander_leader_nameDef]</li>
     <li>cycle1Faction(factionless==true)->[wildPeople]</li>
     <li>otherMapPartHolders(factionless==false)->[roughOutlander_name]和[roughTribe_name]</li>
@@ -68,7 +68,7 @@
     <li>takeoverPawnsPlural(factionless==false)->[roughOutlander_pawnsPlural]</li>
     <li>takeoverPawnsPlural(factionless==true)->[wildPeople]</li>
     <li>wildPeople->野人</li>
-    <li>descriptionStudyRequirement(studyRequirement==true)->\n\n剩余地图残片是以一种非常陌生的方式编码的。为了破译它，你必须先通过研究此处的建筑体来提升对超凡科技的认知。</li>
+    <li>descriptionStudyRequirement(studyRequirement==true)->\n\n剩余地图残片是以一种非常陌生的方式编码的。 为了破译它， 你必须先通过研究此处的建筑体来提升对超凡科技的认知。</li>
     <li>descriptionStudyRequirement(studyRequirement==false)-></li>
   </EndGame_ArchonexusVictory_SecondCycle.questDescriptionRules.rulesStrings>
   <!-- EN:
@@ -95,15 +95,15 @@
   <EndGame_ArchonexusVictory_ThirdCycle.questContentRules.rulesStrings>
     <li>questAcceptedLetterLabel->超凡枢纽已被发现</li>
     <li>questAcceptedLetterText->[questDescriptionBeforeAccepted]</li>
-    <li>questDescriptionBeforeAccepted->你已获得两份超凡枢纽地图残片。最后一份为 [factionName]所持有，那是传承自他们在大灾难中幸存下来的祖先。他们倾向于跟你换取一个富裕的殖民地。[descriptionStudyRequirement]\n\n是时候开始建设了。</li>
-    <li>questDescriptionAfterAccepted->你已从 [descriptionIntro]处获取超凡枢纽地图残片的最后一份，利用你对超凡科技的认知，你已顺利解码地图并确定了超凡枢纽的位置。\n\n你的盟友不看好你能回来，所以在你走后他们将连同所记录的科技一起接管[playerSettlements]。\n\n[descriptionThreats]现在只需抵达达超凡枢纽，调用机械神明的力量，看看是否真如传说所言。</li>
+    <li>questDescriptionBeforeAccepted->你已获得两份超凡枢纽地图残片。 最后一份为 [factionName]所持有， 那是传承自他们在大灾难中幸存下来的祖先。 他们倾向于跟你换取一个富裕的殖民地。 [descriptionStudyRequirement]\n\n是时候开始建设了。</li>
+    <li>questDescriptionAfterAccepted->你已从 [descriptionIntro]处获取超凡枢纽地图残片的最后一份， 利用你对超凡科技的认知， 你已顺利解码地图并确定了超凡枢纽的位置。 \n\n你的盟友不看好你能回来， 所以在你走后他们将连同所记录的科技一起接管[playerSettlements]。 \n\n[descriptionThreats]现在只需抵达达超凡枢纽， 调用机械神明的力量， 看看是否真如传说所言。</li>
     <li>factionName(factionless==false)->[roughTribe_name]</li>
     <li>factionName(factionless==true)->野人</li>
     <li>descriptionIntro(factionless==false)->[roughTribe_name]的首领[roughTribe_leader_nameDef]</li>
     <li>descriptionIntro(factionless==true)->野人</li>
-    <li>descriptionStudyRequirement(studyRequirement==true)->\n\n在此之前，由于地图已被编码，你需要先研究超凡科技建筑体以获取解码方法。</li>
+    <li>descriptionStudyRequirement(studyRequirement==true)->\n\n在此之前， 由于地图已被编码， 你需要先研究超凡科技建筑体以获取解码方法。</li>
     <li>descriptionStudyRequirement(studyRequirement==false)-></li>
-    <li>descriptionThreats(threatsEnabled==true)->超凡枢纽处很可能有机械体守卫，须做好准备。\n\n</li>
+    <li>descriptionThreats(threatsEnabled==true)->超凡枢纽处很可能有机械体守卫， 须做好准备。 \n\n</li>
     <li>descriptionThreats(threatsEnabled==false)-></li>
   </EndGame_ArchonexusVictory_ThirdCycle.questContentRules.rulesStrings>
   <!-- EN:

@@ -78,7 +78,7 @@
   -->
   <Combat_MeleeDamageIncludes.rulePack.rulesStrings>
     <li>result(p=0.5)->[damaged_present][RECIPIENT_possessive][targetlist]</li>
-    <li>result(p=0.2)->[damaged_present][RECIPIENT_possessive][targetlist]，同时[flavortext_consequence]</li>
+    <li>result(p=0.2)->[damaged_present][RECIPIENT_possessive][targetlist]， 同时[flavortext_consequence]</li>
     <li>result(p=0.1)->[damaged_present] [RECIPIENT_possessive] [targetlist] [strikeAdv]</li>
     <li>strikeAdv->残忍地</li>
     <li>strikeAdv->可怖地</li>
@@ -160,7 +160,7 @@
     <li>to->变成</li>
     <li>to->成为</li>
     -->
-    <li>r_logentry->[action]，[result]。</li>
+    <li>r_logentry->[action]， [result]。</li>
     <li>r_logentry(priority=-10)->[action]。</li>
     <li>implement(IMPLEMENTOWNER_type==weapon,p=2)->[INITIATOR_possessive][WEAPON_label]的[TOOL_label]</li>
     <li>implement(IMPLEMENTOWNER_type==weapon,p=1)->[INITIATOR_possessive][WEAPON_label]</li>
@@ -172,8 +172,8 @@
     <li>implement(IMPLEMENTOWNER_type==hediff,p=1)->[INITIATOR_possessive][TOOL_label]</li>
     <li>targetlist(recipient_part_count==1)->[recipient_part0_label]</li>
     <li>targetlist(recipient_part_count==2)->[recipient_part0_label]和[recipient_part1_label]</li>
-    <li>targetlist(recipient_part_count==3)->[recipient_part0_label]，[recipient_part1_label]和[recipient_part2_label]</li>
-    <li>targetlist->[recipient_part0_label]，[recipient_part1_label]，[recipient_part2_label]，以及[recipient_part3_label]</li>
+    <li>targetlist(recipient_part_count==3)->[recipient_part0_label]， [recipient_part1_label]和[recipient_part2_label]</li>
+    <li>targetlist->[recipient_part0_label]， [recipient_part1_label]， [recipient_part2_label]， 以及[recipient_part3_label]</li>
     <li>damaged_present(deflected!=True)->伤害</li>
     <li>damaged_present(deflected!=True)->打伤</li>
     <li>destroyed(p=0.5)->破坏了</li>
@@ -314,12 +314,12 @@
   <Combat_WoundIncludes.rulePack.rulesStrings>
     <li>destroyed_targets(recipient_part_destroyed_count==1)->[recipient_part_destroyed0_label]</li>
     <li>destroyed_targets(recipient_part_destroyed_count==2)->[recipient_part_destroyed0_label]和[recipient_part_destroyed1_label]</li>
-    <li>destroyed_targets(recipient_part_destroyed_count==3)->[recipient_part_destroyed0_label]，[recipient_part_destroyed1_label]，以及[recipient_part_destroyed2_label]</li>
-    <li>destroyed_targets->[recipient_part_destroyed0_label]，[recipient_part_destroyed1_label]，[recipient_part_destroyed2_label]，以及[recipient_part_destroyed3_label]</li>
+    <li>destroyed_targets(recipient_part_destroyed_count==3)->[recipient_part_destroyed0_label]， [recipient_part_destroyed1_label]， 以及[recipient_part_destroyed2_label]</li>
+    <li>destroyed_targets->[recipient_part_destroyed0_label]， [recipient_part_destroyed1_label]， [recipient_part_destroyed2_label]， 以及[recipient_part_destroyed3_label]</li>
     <li>damaged_targets(recipient_part_damaged_count==1)->[recipient_part_damaged0_label]</li>
     <li>damaged_targets(recipient_part_damaged_count==2)->[recipient_part_damaged0_label]和[recipient_part_damaged1_label]</li>
-    <li>damaged_targets(recipient_part_damaged_count==3)->[recipient_part_damaged0_label]，[recipient_part_damaged1_label]，以及[recipient_part_damaged2_label]</li>
-    <li>damaged_targets->[recipient_part_damaged0_label]，[recipient_part_damaged1_label]，[recipient_part_damaged2_label]，以及[recipient_part_damaged3_label]</li>
+    <li>damaged_targets(recipient_part_damaged_count==3)->[recipient_part_damaged0_label]， [recipient_part_damaged1_label]， 以及[recipient_part_damaged2_label]</li>
+    <li>damaged_targets->[recipient_part_damaged0_label]， [recipient_part_damaged1_label]， [recipient_part_damaged2_label]， 以及[recipient_part_damaged3_label]</li>
     <!--<li>expertly->干练地</li>
     <li>expertly->熟练地</li>
     <li>expertly->娴熟地</li>

@@ -87,10 +87,10 @@
     <li>flavor->变成[AdjectiveLarge][fireball]</li>
     <li>flavor(p=4)->变成[fireball]</li>
     <li>flavor(p=4)-></li>
-    <li>flavorsuffix->，[pieces]散落得[everywhere]都是</li>
-    <li>flavorsuffix(SUBJECT_flesh!=Mechanoid,p=2)->，[Gore][everywhere]飞溅</li>
-    <li>flavorsuffix(SUBJECT_flesh!=Mechanoid)->，留下一小滩[Gore]</li>
-    <li>flavorsuffix->，留下一个小弹坑</li>
+    <li>flavorsuffix->， [pieces]散落得[everywhere]都是</li>
+    <li>flavorsuffix(SUBJECT_flesh!=Mechanoid,p=2)->， [Gore][everywhere]飞溅</li>
+    <li>flavorsuffix(SUBJECT_flesh!=Mechanoid)->， 留下一小滩[Gore]</li>
+    <li>flavorsuffix->， 留下一个小弹坑</li>
     <li>flavorsuffix(p=4)-></li>
     <li>fireball(p=3)->火球</li>
     <li>fireball->火焰球</li>
@@ -113,8 +113,8 @@
   <Transition_DiedInclude.rulePack.rulesStrings>
     <li>r_logentry(p=1.5)->[CULPRITHEDIFF_labelNoun]导致[SUBJECT_definite][die]。</li>
     <li>r_logentry(p=1.5)->[CULPRITHEDIFF_labelNounPretty]导致[SUBJECT_definite][die]。</li>
-    <li>r_logentry->[duetoa][CULPRITHEDIFF_labelNoun]，[SUBJECT_definite][died][flavorsuffix]。</li>
-    <li>r_logentry->[duetoa][CULPRITHEDIFF_labelNounPretty]，[SUBJECT_definite][died][flavorsuffix]。</li>
+    <li>r_logentry->[duetoa][CULPRITHEDIFF_labelNoun]， [SUBJECT_definite][died][flavorsuffix]。</li>
+    <li>r_logentry->[duetoa][CULPRITHEDIFF_labelNounPretty]， [SUBJECT_definite][died][flavorsuffix]。</li>
     <li>r_logentry->[SUBJECT_definite][died]。</li>
     <li>r_logentry->[SUBJECT_definite][died][flavorsuffix]。</li>
   </Transition_DiedInclude.rulePack.rulesStrings>

@@ -23,7 +23,7 @@
   <!-- EN: Warning: The average of relevant skills is very low. -->
   <SelectedWorkTypeWithVeryBadSkill>警告：相关技能的平均等级非常低。</SelectedWorkTypeWithVeryBadSkill>
   <!-- EN: Priority 1 is done first. Priority 4 is done last. -->
-  <PriorityOneDoneFirst>优先级1先完成。优先级4放在最后去做。</PriorityOneDoneFirst>
+  <PriorityOneDoneFirst>优先级1先完成。 优先级4放在最后去做。</PriorityOneDoneFirst>
   <!-- EN: Will not do -->
   <Priority0>不允许</Priority0>
   <!-- EN: Top priority -->
@@ -35,7 +35,7 @@
   <!-- EN: Low priority -->
   <Priority4>低优先级</Priority4>
   <!-- EN: {0}\n\nThe faction {1_nameDef} currently belongs to.\n\nClick to view faction. -->
-  <PawnFactionInfo>{0}\n\n当前属于{1_nameDef}。\n\n点击以查看派系。</PawnFactionInfo>
+  <PawnFactionInfo>{0}\n\n当前属于{1_nameDef}。 \n\n点击以查看派系。</PawnFactionInfo>
   <!-- EN: Disabled by backstory: {0} -->
   <WorkDisabledByBackstory>禁用（背景故事）：{0}</WorkDisabledByBackstory>
   <!-- EN: Disabled by trait: {0} -->
@@ -81,7 +81,7 @@
   
   <!-- Wildlife tab -->
   <!-- EN: This creature is a predator. When hungry, it will hunt smaller creatures - possibly including people. -->
-  <IsPredator>此生物是捕食者。当饥饿时，就会捕猎较小的生物——很可能包括人类。</IsPredator>
+  <IsPredator>此生物是捕食者。 当饥饿时， 就会捕猎较小的生物——很可能包括人类。</IsPredator>
   <!-- EN: This creature is currently in mental state: {0} -->
   <IsInMentalState>当前生物所处的精神状态: {0}</IsInMentalState>
   
@@ -105,13 +105,13 @@
   <!-- EN: Ongoing events -->
   <OngoingEvents>持续事件</OngoingEvents>
   <!-- EN: This faction is permanently hostile. They will raid your settlements and caravans. Relations with them will never improve for any reason. -->
-  <CurrentGoodwillTip_PermanentEnemy>此派系永远敌对。他们会袭击你的定居点和远行队。与他们的关系永远不会以任何原因改进。</CurrentGoodwillTip_PermanentEnemy>
+  <CurrentGoodwillTip_PermanentEnemy>此派系永远敌对。 他们会袭击你的定居点和远行队。 与他们的关系永远不会以任何原因改进。</CurrentGoodwillTip_PermanentEnemy>
   <!-- EN: This faction is allied. They will send fighters to help you when they can. If relations fall below {0}, they will become neutral. -->
-  <CurrentGoodwillTip_Ally>此派系为盟友。他们会在力所能及的时候送去战士帮助你。如果关系跌破{0}，他们会转为中立。</CurrentGoodwillTip_Ally>
+  <CurrentGoodwillTip_Ally>此派系为盟友。 他们会在力所能及的时候送去战士帮助你。 如果关系跌破{0}， 他们会转为中立。</CurrentGoodwillTip_Ally>
   <!-- EN: This faction is neutral. They will trade and talk with you freely. If relations fall below {0}, they will become hostile. If relations rise above {1}, they will become allied and start actively working to help you. -->
-  <CurrentGoodwillTip_Neutral>此派系为中立。他们会自由地和你贸易和交谈。如果关系跌破{0}，他们会成为敌人。如果关系涨过{1}，他们会成为盟友，并更为主动地帮助你。</CurrentGoodwillTip_Neutral>
+  <CurrentGoodwillTip_Neutral>此派系为中立。 他们会自由地和你贸易和交谈。 如果关系跌破{0}， 他们会成为敌人。 如果关系涨过{1}， 他们会成为盟友， 并更为主动地帮助你。</CurrentGoodwillTip_Neutral>
   <!-- EN: This faction is hostile. They will raid your settlements and caravans. If relations rise above {0}, they will become neutral. -->
-  <CurrentGoodwillTip_Hostile>此派系为敌对。他们会袭击你的定居点和远行队。如果关系涨过{0}，他们会转为中立。</CurrentGoodwillTip_Hostile>
+  <CurrentGoodwillTip_Hostile>此派系为敌对。 他们会袭击你的定居点和远行队。 如果关系涨过{0}， 他们会转为中立。</CurrentGoodwillTip_Hostile>
 
   <!-- Social tab -->
   <!-- EN: Friend -->
@@ -151,7 +151,7 @@
   <!-- EN: Show messages -->
   <ShowMessages>显示消息</ShowMessages>
   <!-- EN: Pin or unpin this message.\n\nThe oldest unpinned messages will be removed automatically from the list after reaching the limit of {0} messages. -->
-  <PinArchivableTip>钉选此消息或取消钉选。\n\n消息数量达到上限{0}条后，最旧且未被钉选的消息会被自动移除。</PinArchivableTip>
+  <PinArchivableTip>钉选此消息或取消钉选。 \n\n消息数量达到上限{0}条后， 最旧且未被钉选的消息会被自动移除。</PinArchivableTip>
   <!-- EN: no messages -->
   <NoMessages>无消息</NoMessages>
 
@@ -205,11 +205,11 @@
   <!-- EN: Required research bench facilities -->
   <RequiredResearchBenchFacilities>需要研究设施</RequiredResearchBenchFacilities>
   <!-- EN: Project base cost {0} becomes {1} for you because of your tech level. -->
-  <ResearchCostComparison>由于自身技术级别，项目基础工作量{0}变为{1}。</ResearchCostComparison>
+  <ResearchCostComparison>由于自身技术级别， 项目基础工作量{0}变为{1}。</ResearchCostComparison>
   <!-- EN: Techprints are available from these factions via trade and quests: -->
   <ResearchTechprintsFromFactions>这些科研蓝图可以通过与派系的交易以及任务获取：</ResearchTechprintsFromFactions>
   <!-- EN: Your faction tech level is {0}, but this project's tech level is {1}. Research speed will be multiplied by {2}. -->
-  <TechLevelTooLow>你的派系技术级别为{0}，但此项目的技术级别为{1}。研究速度将乘以{2}。</TechLevelTooLow>
+  <TechLevelTooLow>你的派系技术级别为{0}， 但此项目的技术级别为{1}。 研究速度将乘以{2}。</TechLevelTooLow>
   <!-- EN: Unlocked with -->
   <UnlockedWith>同调</UnlockedWith>
 
@@ -283,9 +283,9 @@
   <!-- EN: Select hives -->
   <SelectHiveTargets>选择虫巢</SelectHiveTargets>
   <!-- EN: Challenge rating. This is a general rating for how difficult the quest will be relative to your current strength. More challenging quests give greater rewards.\n\n1: Normal\n2: Hard\n3: Extreme\n4: Ultimate -->
-  <QuestChallengeRatingTip>挑战等级。这是一个综合的难易度评级，显示该任务相对于你当前的实力有多少差距。更具挑战性的任务会带来更大的奖励。\n\n1: 普通\n2: 困难\n3: 极难\n4: 终极</QuestChallengeRatingTip>
+  <QuestChallengeRatingTip>挑战等级。 这是一个综合的难易度评级， 显示该任务相对于你当前的实力有多少差距。 更具挑战性的任务会带来更大的奖励。 \n\n1: 普通\n2: 困难\n3: 极难\n4: 终极</QuestChallengeRatingTip>
   <!-- EN: To accept this quest, you need -->
-  <QuestAcceptanceRequirementsDescription>要接受此任务，你需要</QuestAcceptanceRequirementsDescription>
+  <QuestAcceptanceRequirementsDescription>要接受此任务， 你需要</QuestAcceptanceRequirementsDescription>
   <!-- EN: free bedrooms that satisfy the title requirements of -->
   <QuestBedroomRequirementsUnsatisfied>满足头衔要求的空置卧室</QuestBedroomRequirementsUnsatisfied>
   <!-- EN: a free bedroom that satisfies the title requirements of -->
@@ -305,21 +305,21 @@
   <!-- EN: Reward preferences -->
   <ChooseRewards>奖励偏好</ChooseRewards>
   <!-- EN: Tell other factions what kinds of rewards you want in future quests. This doesn't affect quests that were already offered. -->
-  <ChooseRewardsDesc>用以告诉其他派系你想要在将来获取何种类型的奖励。这不会影响到已经发布的任务。</ChooseRewardsDesc>
+  <ChooseRewardsDesc>用以告诉其他派系你想要在将来获取何种类型的奖励。 这不会影响到已经发布的任务。</ChooseRewardsDesc>
   <!-- EN: Accept {FACTION_royalFavorLabel} -->
   <AcceptRoyalFavor>接受{FACTION_royalFavorLabel}</AcceptRoyalFavor>
   <!-- EN: Whether you wish to be rewarded with {FACTION_royalFavorLabel} from {FACTION_name}.\n\nIf this is disabled, {FACTION_name} will offer other types of rewards instead.\n\nThis setting only affects newly-arriving quests. -->
-  <AcceptRoyalFavorDesc>是否希望从{FACTION_name}那里接受{FACTION_royalFavorLabel}。\n\n如果禁用此选项，{FACTION_name}将提供其他类型的奖励。\n\n该选项只影响新接到的任务。</AcceptRoyalFavorDesc>
+  <AcceptRoyalFavorDesc>是否希望从{FACTION_name}那里接受{FACTION_royalFavorLabel}。 \n\n如果禁用此选项， {FACTION_name}将提供其他类型的奖励。 \n\n该选项只影响新接到的任务。</AcceptRoyalFavorDesc>
   <!-- EN: Accept goodwill -->
   <AcceptGoodwill>接受好感度</AcceptGoodwill>
   <!-- EN: Whether you wish to be rewarded via improved faction relations with {FACTION_name}.\n\nIf this is disabled, {FACTION_name} will offer other types of rewards instead.\n\nThis setting only affects newly-generated quests. -->
-  <AcceptGoodwillDesc>是否希望与{FACTION_name}改善派系关系。\n\n如果禁用此选项，{FACTION_name}将提供其他类型的奖励。\n\n该选项只会影响到新生成的任务。</AcceptGoodwillDesc>
+  <AcceptGoodwillDesc>是否希望与{FACTION_name}改善派系关系。 \n\n如果禁用此选项， {FACTION_name}将提供其他类型的奖励。 \n\n该选项只会影响到新生成的任务。</AcceptGoodwillDesc>
   <!-- EN: You are currently opting in to receive {FACTION_royalFavorLabel}. -->
   <RoyalFavorOn>当前选择接受{FACTION_royalFavorLabel}。</RoyalFavorOn>
   <!-- EN: You are currently opting out of receiving {FACTION_royalFavorLabel}. -->
   <RoyalFavorOff>当前选择不接受{FACTION_royalFavorLabel}。</RoyalFavorOff>
   <!-- EN: Your goodwill with {0_name} will improve by {1}.\n\nCurrent goodwill: {4} ({5}).\n\nGoodwill measures the general relationship between factions. If it falls below {2}, the faction becomes hostile and will raid your settlements and caravans. If it rises above {3}, the faction will become your ally and send fighters to help you when they can. Otherwise, the faction remains neutral and will trade and talk with you freely. -->
-  <GoodwillTip>你与{0_name}的好感将会提升{1}。\n\n当前好感度：{4}（{5}）。\n\n好感度用来衡量派系间的态度。如果它落到{2}以下，这个派系会变成你的敌人，并且会袭击你的定居点和商队。如果它上升到{3}以上，此派系会成为你的盟友，并且尽可能地派遣战士帮助你。否则此派系会保持中立，能够与你自由交易和对话。</GoodwillTip>
+  <GoodwillTip>你与{0_name}的好感将会提升{1}。 \n\n当前好感度：{4}（{5}）。 \n\n好感度用来衡量派系间的态度。 如果它落到{2}以下， 这个派系会变成你的敌人， 并且会袭击你的定居点和商队。 如果它上升到{3}以上， 此派系会成为你的盟友， 并且尽可能地派遣战士帮助你。 否则此派系会保持中立， 能够与你自由交易和对话。</GoodwillTip>
   <!-- EN: {0_labelShort} joins -->
   <PawnQuestReward>{0_labelShort}加入</PawnQuestReward>
   <!-- EN: Betrayal offer: {0} targets remain -->

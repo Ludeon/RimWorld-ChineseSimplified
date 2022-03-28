@@ -105,13 +105,13 @@
   <!-- EN: Execute -->
   <Execute>处决</Execute>
   <!-- EN: Execute guilty colonist\n\nIf you toggle this on, a warden will proceed to execute this person. -->
-  <ExecuteColonist>处决有罪的殖民者\n\n如果你打开这个开关，狱卒将着手处决这个人。</ExecuteColonist>
+  <ExecuteColonist>处决有罪的殖民者\n\n如果你打开这个开关， 狱卒将着手处决这个人。</ExecuteColonist>
   <!-- EN: {0_labelShort} is now marked for execution. The next available warden will go execute {0_objective}. -->
-  <MessageColonistMarkedForExecution>{0_labelShort}被标记为处决。接下来空闲的狱卒将去处决{0_objective}。</MessageColonistMarkedForExecution>
+  <MessageColonistMarkedForExecution>{0_labelShort}被标记为处决。 接下来空闲的狱卒将去处决{0_objective}。</MessageColonistMarkedForExecution>
   <!-- EN: {0} of {1} -->
   <TitleOfFaction>{1} 的 {0}</TitleOfFaction>
   <!-- EN: This action will make {PAWN_nameDef} lose {PAWN_possessive} {TITLE} title. You will receive no compensation for renouncing the title.\n\nThis will have the following effects:\n\n{EFFECTS} -->
-  <RenounceTitleDescription>这个操作会让{PAWN_nameDef}失去{PAWN_possessive}{TITLE}头衔。放弃这个头衔不会让你得到任何补偿！\n\n这会造成以下效果：\n\n{EFFECTS}</RenounceTitleDescription>
+  <RenounceTitleDescription>这个操作会让{PAWN_nameDef}失去{PAWN_possessive}{TITLE}头衔。 放弃这个头衔不会让你得到任何补偿！\n\n这会造成以下效果：\n\n{EFFECTS}</RenounceTitleDescription>
   <!-- EN: {PAWN_pronoun} will lose these permissions -->
   <RenounceTitleWillLoosePermits>{PAWN_pronoun}将会失去这些权限</RenounceTitleWillLoosePermits>
   <!-- EN: {PAWN_nameDef} will lose {POINTS} unspent permit points with {FACTION_name}. -->
@@ -141,7 +141,7 @@
   <!-- EN: Hatches in -->
   <HatchesIn>孵化于</HatchesIn>
   <!-- EN: need {0} level {2}, have {1} -->
-  <SkillTooLow>至少需要 {2} 级 {0} 技能，当前为 {1} 级</SkillTooLow>
+  <SkillTooLow>至少需要 {2} 级 {0} 技能， 当前为 {1} 级</SkillTooLow>
   <!-- EN: Freezing -->
   <Freezing>过冷</Freezing>
   <!-- EN: Overheating -->
@@ -259,7 +259,7 @@
   <!-- EN: outdoors -->
   <DeterioratingOutdoors>户外</DeterioratingOutdoors>
   <!-- EN: Deteriorating because of -->
-  <DeterioratingBecauseOf>老化中，由于</DeterioratingBecauseOf>
+  <DeterioratingBecauseOf>老化中， 由于</DeterioratingBecauseOf>
   <!-- EN: Map -->
   <Map>地图</Map>
   <!-- EN: {0} until enemies arrive -->
@@ -303,7 +303,7 @@
   <!-- EN: equipped by {1_labelShort} -->
   <EquippedBy>由{1_labelShort}装备</EquippedBy>
   <!-- EN: {0} wants this destroyed.\n    Reward: {1} ({2}) -->
-  <QuestTargetDestroyInspectString>{0}想要摧毁此处。\n报酬: {1}({2})。</QuestTargetDestroyInspectString>
+  <QuestTargetDestroyInspectString>{0}想要摧毁此处。 \n报酬: {1}({2})。</QuestTargetDestroyInspectString>
   <!-- EN: {0} wants this destroyed. -->
   <QuestTargetDestroyInspectStringShort>{0}希望摧毁它。</QuestTargetDestroyInspectStringShort>
   <!-- EN: Departing on shuttle in {0} -->
@@ -353,7 +353,7 @@
   <!-- EN: Multiplier for carried mass: {0} -->
   <MultiplierForCarriedMass>负载乘数：{0}</MultiplierForCarriedMass>
   <!-- EN: This animal is rideable. People in a caravan will ride the fastest available animals, improving the speed of the caravan as a whole. -->
-  <RideableAnimalTip>这种动物是可以骑乘的。远行队中的人将骑着最快的可用动物，提高整个远行队的速度。</RideableAnimalTip>
+  <RideableAnimalTip>这种动物是可以骑乘的。 远行队中的人将骑着最快的可用动物， 提高整个远行队的速度。</RideableAnimalTip>
   <!-- EN: This caravan can't move because it carries too much. -->
   <EncumberedCaravanTilesPerDayTip>这个远行队因为超载而无法移动。</EncumberedCaravanTilesPerDayTip>
   <!-- EN: Caravan members speed -->
@@ -397,7 +397,7 @@
   <!-- EN: there may be danger there. -->
   <HiddenOrNoSitePartDescription>那里可能有危险。</HiddenOrNoSitePartDescription>
   <!-- EN: The scanner is picking up activity around the lump. It's likely hostile. -->
-  <PreciousLumpHostileThreat>扫描仪正在探测矿区附近的活动，它可能是敌对的。</PreciousLumpHostileThreat>
+  <PreciousLumpHostileThreat>扫描仪正在探测矿区附近的活动， 它可能是敌对的。</PreciousLumpHostileThreat>
   <!-- EN: lump of {0} -->
   <PreciousLumpLabel>{0}块</PreciousLumpLabel>
   <!-- EN: no active research project -->
@@ -425,7 +425,7 @@
   <!-- EN: Required -->
   <Required>必需</Required>
   <!-- EN: Warning: You cannot complete trade requests by using transport pods.\nIf you send the goods, the settlement will accept them as gifts but they will not reward you.\n\nFor trading, approach the settlement with a caravan!\n\nAre you sure you want to gift the loaded goods to the faction? -->
-  <GiveGiftViaTransportPodsTradeRequestWarning>警告：你无法使用空投舱完成交易请求。\n如果发射这批货物，目标基地会将其作为礼物而非交易品接收\n\n如果你希望交易，请以远行队形式访问目标基地！\n\n你确定要将装好的礼物送给目标派系吗？</GiveGiftViaTransportPodsTradeRequestWarning>
+  <GiveGiftViaTransportPodsTradeRequestWarning>警告：你无法使用空投舱完成交易请求。 \n如果发射这批货物， 目标基地会将其作为礼物而非交易品接收\n\n如果你希望交易， 请以远行队形式访问目标基地！\n\n你确定要将装好的礼物送给目标派系吗？</GiveGiftViaTransportPodsTradeRequestWarning>
   <!-- EN: prisoner -->
   <PrisonerLower>囚犯</PrisonerLower>
   <!-- EN: prisoners -->
@@ -465,7 +465,7 @@
   <!-- EN: {0} killed -->
   <PawnsKilled>{0}被杀</PawnsKilled>
   <!-- EN: Sent {0}, will return in {1} -->
-  <PawnsLent>发送{0}，于{1}返回</PawnsLent>
+  <PawnsLent>发送{0}， 于{1}返回</PawnsLent>
   <!-- EN: Dormant -->
   <DormantCompInactive>休眠</DormantCompInactive>
   <!-- EN: Sealed -->
@@ -501,7 +501,7 @@
   <!-- EN: Natural goodwill range -->
   <NaturalGoodwillRange>自然好感度范围</NaturalGoodwillRange>
   <!-- EN: Natural goodwill is based on faction identities and beliefs. If current goodwill is far from natural goodwill, it will slowly shift towards natural goodwill over time.\n\nAll goodwill effects are multiplied by {0} when moving towards natural goodwill. -->
-  <NaturalGoodwillDescription>自然好感度是基于派系身份和信仰。如果当前的好感度与自然好感度相差甚远，那么随着时间的推移，它将慢慢向自然好感度转变。\n\n在向自然好感度转变时，所有的好感度效果都会乘以{0}。</NaturalGoodwillDescription>
+  <NaturalGoodwillDescription>自然好感度是基于派系身份和信仰。 如果当前的好感度与自然好感度相差甚远， 那么随着时间的推移， 它将慢慢向自然好感度转变。 \n\n在向自然好感度转变时， 所有的好感度效果都会乘以{0}。</NaturalGoodwillDescription>
   <!-- EN: reducing resistance of {0_nameIndef} -->
   <JobReport_ReduceResistance>减少{0_nameIndef}的抵抗</JobReport_ReduceResistance>
   <!-- EN: Too large -->
@@ -555,7 +555,7 @@
   <!-- EN: Progress: {0} ({1} left) -->
   <FermentationProgress>进度: {0}（剩余{1}）。</FermentationProgress>
   <!-- EN: Non-ideal temperature. Fermentation speed: {0} -->
-  <FermentationBarrelOutOfIdealTemperature>非理想温度，发酵速度: {0}</FermentationBarrelOutOfIdealTemperature>
+  <FermentationBarrelOutOfIdealTemperature>非理想温度， 发酵速度: {0}</FermentationBarrelOutOfIdealTemperature>
 
   <!-- TextMotes -->
   <!-- EN: Headshot -->
@@ -631,7 +631,7 @@
   <!-- EN: not in a pen -->
   <Unpenned>不在畜栏内</Unpenned>
   <!-- EN: Animal pens can be created by building a pen marker inside an enclosed area. Your handlers will bring animals to an appropriate pen. Pens can be enclosed with fences, barricades, walls, and doors. -->
-  <UnpennedTooltip>可以通过在一个封闭的区域内建立一个畜栏标牌来创建畜栏。你的饲养员会把动物带到一个合适的畜栏。畜栏可以用栅栏、路障、墙壁和门围起来。</UnpennedTooltip>
+  <UnpennedTooltip>可以通过在一个封闭的区域内建立一个畜栏标牌来创建畜栏。 你的饲养员会把动物带到一个合适的畜栏。 畜栏可以用栅栏、路障、墙壁和门围起来。</UnpennedTooltip>
   <!-- EN: Roped by -->
   <RopedByPawn>牵引于</RopedByPawn>
   <!-- EN: Roped to -->
@@ -860,7 +860,7 @@
 
   <!-- Inspector general stuff -->
   <!-- EN: Select next thing in same square.\n\n(*SectionTitle)Shortcut key:(/SectionTitle) {0}\n\nYou can also do this by slowly clicking the same square again. -->
-  <SelectNextInSquareTip>选择当前单元格内的下一件东西。\n\n(*SectionTitle)快捷键: (/SectionTitle){0}\n\n你也可用鼠标左键慢速重复点击同个单元格来选择下一件物品。</SelectNextInSquareTip>
+  <SelectNextInSquareTip>选择当前单元格内的下一件东西。 \n\n(*SectionTitle)快捷键: (/SectionTitle){0}\n\n你也可用鼠标左键慢速重复点击同个单元格来选择下一件物品。</SelectNextInSquareTip>
   <!-- EN: View information. -->
   <DefInfoTip>查看信息。</DefInfoTip>
 
@@ -1010,35 +1010,35 @@
 
   <!-- Buttons -->
   <!-- EN: Toggle visibility of the learning helper when it is empty.\n\nThe learning helper is always visible if there is a concept activated to be learned. This toggle makes it disappear when no concept is active. -->
-  <ShowLearningHelperWhenEmptyToggleButton>开关始终显示教学助手。\n\n当没有需要学习的新教程时，教学助手会自动隐藏。开启后，将在学习完所有教程之后继续显示教学助手。</ShowLearningHelperWhenEmptyToggleButton>
+  <ShowLearningHelperWhenEmptyToggleButton>开关始终显示教学助手。 \n\n当没有需要学习的新教程时， 教学助手会自动隐藏。 开启后， 将在学习完所有教程之后继续显示教学助手。</ShowLearningHelperWhenEmptyToggleButton>
   <!-- EN: Toggle visiblity of zones. -->
   <ZoneVisibilityToggleButton>开关区域显示。</ZoneVisibilityToggleButton>
   <!-- EN: Toggle the beauty display.\n\nDisplays the beauty of the world as would be perceived by a character standing where the mouse is pointing. -->
-  <ShowBeautyToggleButton>开关美观度显示。\n\n显示位于鼠标所指地点的人物将感知到的世界美观度。</ShowBeautyToggleButton>
+  <ShowBeautyToggleButton>开关美观度显示。 \n\n显示位于鼠标所指地点的人物将感知到的世界美观度。</ShowBeautyToggleButton>
   <!-- EN: Toggle room stats display.\n\nDisplays room stats of the room where the mouse is pointing. -->
-  <ShowRoomStatsToggleButton>开关房间状态显示。\n\n显示鼠标所指地点所在房间的房间状态。</ShowRoomStatsToggleButton>
+  <ShowRoomStatsToggleButton>开关房间状态显示。 \n\n显示鼠标所指地点所在房间的房间状态。</ShowRoomStatsToggleButton>
   <!-- EN: Toggle colonist bar.\n\nDisplays icons and basic status for all colonists along the top of the screen.\n\nYou can reorder the colonists in the colonist bar by right-click and dragging them. -->
-  <ShowColonistBarToggleButton>开关殖民者头像条显示。\n\n开启后，在屏幕上方显示所有殖民者的头像和当前状态。</ShowColonistBarToggleButton>
+  <ShowColonistBarToggleButton>开关殖民者头像条显示。 \n\n开启后， 在屏幕上方显示所有殖民者的头像和当前状态。</ShowColonistBarToggleButton>
   <!-- EN: Toggle automatically expanding the home area around new constructions. -->
-  <AutoHomeAreaToggleButton>开关自动添加居住区\n\n开启后，将自动在新建造的建筑附近添加居住区。</AutoHomeAreaToggleButton>
+  <AutoHomeAreaToggleButton>开关自动添加居住区\n\n开启后， 将自动在新建造的建筑附近添加居住区。</AutoHomeAreaToggleButton>
   <!-- EN: Toggle automatic rebuild of destroyed structures in the home area. -->
   <AutoRebuildButton>开关自动重建被毁建筑。</AutoRebuildButton>
   <!-- EN: Toggle categorized mode on the resource readout. -->
-  <CategorizedResourceReadoutToggleButton>开关资源分类显示\n\n开启后，将资源显示按照其所属类型分类显示。</CategorizedResourceReadoutToggleButton>
+  <CategorizedResourceReadoutToggleButton>开关资源分类显示\n\n开启后， 将资源显示按照其所属类型分类显示。</CategorizedResourceReadoutToggleButton>
   <!-- EN: Toggle displaying animal names for tame named animals. -->
   <ShowAnimalNamesToggleButton>开关已驯服动物名称显示。</ShowAnimalNamesToggleButton>
   <!-- EN: Toggle visibility of roofs. -->
   <ShowRoofOverlayToggleButton>开关屋顶区显示。</ShowRoofOverlayToggleButton>
   <!-- EN: Toggle fertility overlay.\n\nThis shows how fertile the ground is, which affects what kinds of plants can grow and how fast they grow. -->
-  <ShowFertilityOverlayToggleButton>开关肥沃度显示。\n\n肥沃度反映了哪些植物可以生长，以及它们生长的速度。</ShowFertilityOverlayToggleButton>
+  <ShowFertilityOverlayToggleButton>开关肥沃度显示。 \n\n肥沃度反映了哪些植物可以生长， 以及它们生长的速度。</ShowFertilityOverlayToggleButton>
   <!-- EN: Toggle visibility of terrain affordance.\n\nThis relates to what kinds of building can be constructed at each location.\n\nFor example, some types of ground only accept light or medium buildings, but not heavy ones. Bridges can only be built on water. -->
-  <ShowTerrainAffordanceOverlayToggleButton>开关地形支持能力显示。\n\n地形支持能力反映了每个位置适合建造什么样的建筑。\n\n例如，某些类型的地面仅支持轻型或中型建筑物，而不支持重型建筑物。桥梁只能在水上建造。</ShowTerrainAffordanceOverlayToggleButton>
+  <ShowTerrainAffordanceOverlayToggleButton>开关地形支持能力显示。 \n\n地形支持能力反映了每个位置适合建造什么样的建筑。 \n\n例如， 某些类型的地面仅支持轻型或中型建筑物， 而不支持重型建筑物。 桥梁只能在水上建造。</ShowTerrainAffordanceOverlayToggleButton>
   <!-- EN: Lock the rotation of the camera so the north pole is always up. -->
   <LockNorthUpToggleButton>锁定镜头旋转以保持北极始终处在顶部。</LockNorthUpToggleButton>
   <!-- EN: Toggle day/night lighting on the planet view. -->
   <UsePlanetDayNightSystemToggleButton>在星球地图开关日夜光照系统。</UsePlanetDayNightSystemToggleButton>
   <!-- EN: Toggle displaying expanding icons instead of the regular icons for distant objects. -->
-  <ShowExpandingIconsToggleButton>开关显示扩展图标，代替远距离对象的常规图标。</ShowExpandingIconsToggleButton>
+  <ShowExpandingIconsToggleButton>开关显示扩展图标， 代替远距离对象的常规图标。</ShowExpandingIconsToggleButton>
   <!-- EN: Toggle visibility of names of landforms. -->
   <ShowWorldFeaturesToggleButton>开关地形名称的可见性。</ShowWorldFeaturesToggleButton>
 
@@ -1086,7 +1086,7 @@
   <!-- EN: Both the hot and cold sides of the cooler must be exposed. -->
   <MustPlaceCoolerWithFreeSpaces>制冷机的热端和冷端都不能被阻塞。</MustPlaceCoolerWithFreeSpaces>
   <!-- EN: Both the sides must be exposed for air to pass through. -->
-  <MustPlaceVentWithFreeSpaces>通风孔两端都不能被阻塞，以便空气流通。</MustPlaceVentWithFreeSpaces>
+  <MustPlaceVentWithFreeSpaces>通风孔两端都不能被阻塞， 以便空气流通。</MustPlaceVentWithFreeSpaces>
   <!-- EN: Must be placed with standable space on all sides. -->
   <MustPlaceAdjacentStandable>必须放置于四周空旷的位置。</MustPlaceAdjacentStandable>
   <!-- EN: Must be placed next to a pod launcher's fueling port. -->
@@ -1112,7 +1112,7 @@
   <!-- EN: Contains -->
   <CasketContains>装有</CasketContains>
   <!-- EN: Warning!\n\n{PAWN_nameDef} is your last free-standing colonist! If you let {PAWN_objective} step into that casket, you may not be able to continue playing. Are you sure you want to proceed? -->
-  <CasketWarning>警告！\n\n{PAWN_nameDef}是你的最后一名可自由行动的殖民者！如果{PAWN_objective}进入低温休眠舱，你将无法继续进行游戏。你确定要这样做吗？</CasketWarning>
+  <CasketWarning>警告！\n\n{PAWN_nameDef}是你的最后一名可自由行动的殖民者！如果{PAWN_objective}进入低温休眠舱， 你将无法继续进行游戏。 你确定要这样做吗？</CasketWarning>
 
   <!-- Ship launch report -->
   <!-- EN: Cannot launch. -->
@@ -1130,13 +1130,13 @@
   <!-- EN: Component not yet ready -->
   <ShipReportNotReady>组件还未就绪</ShipReportNotReady>
   <!-- EN: (*Name)Charlon Whitestone(/Name) is ready to begin the reactor's hibernation recovery sequence.\n\nHe warns you that the process will take about 15 days, and the energy signature will be detectable from a long distance away.\n\nThis sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
-  <HibernateWarning>(*Name)沙隆·白石(/Name)准备开始反应堆的休眠唤醒程序。\n\n他警告称启动进程将会耗费大约15天，并且在很远距离外就能侦测到能量特征。这类能量特征表示具备星际飞行能力，并将吸引一群绝望的袭击者和寻宝猎人。确保第一时间做好防御。</HibernateWarning>
+  <HibernateWarning>(*Name)沙隆·白石(/Name)准备开始反应堆的休眠唤醒程序。 \n\n他警告称启动进程将会耗费大约15天， 并且在很远距离外就能侦测到能量特征。 这类能量特征表示具备星际飞行能力， 并将吸引一群绝望的袭击者和寻宝猎人。 确保第一时间做好防御。</HibernateWarning>
   <!-- EN: The reactor is ready to power up.\n\nThe process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
-  <HibernateWarningStandalone>反应炉已准备好启动。\n\n启动进程将会耗费大约15天，并且在很远距离外就能侦测到能量特征。这类能量特征表示具备星际飞行能力，并将吸引一群绝望的袭击者和寻宝猎人。确保第一时间做好防御。</HibernateWarningStandalone>
+  <HibernateWarningStandalone>反应炉已准备好启动。 \n\n启动进程将会耗费大约15天， 并且在很远距离外就能侦测到能量特征。 这类能量特征表示具备星际飞行能力， 并将吸引一群绝望的袭击者和寻宝猎人。 确保第一时间做好防御。</HibernateWarningStandalone>
   <!-- EN: (*Name)Charlon Whitestone(/Name) is ready to begin the reactor's hibernation recovery sequence. He warns you that the process will take about 15 days. -->
-  <HibernateWarningPacifist>(*Name)沙隆·白石(/Name)准备开始反应堆的休眠唤醒程序。他警告称此进程将耗费大约15天。</HibernateWarningPacifist>
+  <HibernateWarningPacifist>(*Name)沙隆·白石(/Name)准备开始反应堆的休眠唤醒程序。 他警告称此进程将耗费大约15天。</HibernateWarningPacifist>
   <!-- EN: The reactor is ready to power up. The process will take about 15 days. -->
-  <HibernateWarningStandalonePacifist>反应炉已准备好启动。此进程将耗费大约15天。</HibernateWarningStandalonePacifist>
+  <HibernateWarningStandalonePacifist>反应炉已准备好启动。 此进程将耗费大约15天。</HibernateWarningStandalonePacifist>
 
   <!-- Neurotrainer -->
   <!-- EN: skilltrainer ({0}) -->
@@ -1144,7 +1144,7 @@
   <!-- EN: Use skilltrainer to learn {0} -->
   <SkillNeurotrainerUseLabel>使用技能训练器学习{0}</SkillNeurotrainerUseLabel>
   <!-- EN: A one-use super-dose of mechanites which trains a specific skill.\n\nThe dose is administered through the orbit of the eye. Once released into the brain, the mechanites quickly improve the subject's skills in a specific area, transmuting themselves into neural tissue as needed. -->
-  <SkillNeurotrainerDescription>为训练特定技能而准备的一次性超级药剂纳米机器人。这种药剂通过眼眶给药。一旦释放进入大脑，纳米机器人会迅速提升特定区域内的学科技能，将其自身转换为所需的神经组织。</SkillNeurotrainerDescription>
+  <SkillNeurotrainerDescription>为训练特定技能而准备的一次性超级药剂纳米机器人。 这种药剂通过眼眶给药。 一旦释放进入大脑， 纳米机器人会迅速提升特定区域内的学科技能， 将其自身转换为所需的神经组织。</SkillNeurotrainerDescription>
   <!-- EN: {USER_labelShort} used {1} neurotrainer to go from level {2} to level {3}. -->
   <SkillNeurotrainerUsed>{USER_labelShort}使用技能训练器将{1}技能从{2}级升至{3}级。</SkillNeurotrainerUsed>
 
@@ -1154,7 +1154,7 @@
   <!-- EN: Not installed -->
   <NotInstalled>未安装</NotInstalled>
   <!-- EN: Extracted tree will die in {time} unless replanted. -->
-  <MinifiedTreeWillDieIn>除非重新栽植，不然被掘起的树木将会在{time}死亡。</MinifiedTreeWillDieIn>
+  <MinifiedTreeWillDieIn>除非重新栽植， 不然被掘起的树木将会在{time}死亡。</MinifiedTreeWillDieIn>
 
   <!-- Art -->
   <!-- EN: Title -->
@@ -1196,13 +1196,13 @@
 
   <!-- Game over -->
   <!-- EN: Everyone is dead or gone. This story is over.\n\nPerhaps someone else will find a use for the ruins of this place. -->
-  <GameOverEveryoneDead>所有殖民者不是死亡就是离开了。这个故事结束了。\n\n这片遗迹也许在某天会帮上其他人的忙。</GameOverEveryoneDead>
+  <GameOverEveryoneDead>所有殖民者不是死亡就是离开了。 这个故事结束了。 \n\n这片遗迹也许在某天会帮上其他人的忙。</GameOverEveryoneDead>
   <!-- EN: At near-lightspeed, the planetkiller weapon slammed into the ground with the force of a trillion hydrogen bombs. Like a water balloon shot with a rifle, this world liquified under the impact and sprayed its molten guts across the cosmos.\n\nPart of {0} is now a small asteroid belt. The rest is a molten, radioactive hellscape, constantly rippling with kilometers-high planetquakes.\n\nYou did not survive. -->
-  <GameOverPlanetkillerImpact>歼星武器以接近光速的速度猛烈地击中了大地，威力相当于一万亿颗氢弹同时引爆。整颗行星就像一颗被步枪命中的装满水的气球，在强劲冲击下液化并将大量自身融化的内核抛入太空。\n\n{0}的一部分变成了一条小行星带。剩余部分则是一片融化的、布满辐射的地狱景象，数公里高的行星震波在表面来回荡漾。\n\n你没能活下来。</GameOverPlanetkillerImpact>
+  <GameOverPlanetkillerImpact>歼星武器以接近光速的速度猛烈地击中了大地， 威力相当于一万亿颗氢弹同时引爆。 整颗行星就像一颗被步枪命中的装满水的气球， 在强劲冲击下液化并将大量自身融化的内核抛入太空。 \n\n{0}的一部分变成了一条小行星带。 剩余部分则是一片融化的、布满辐射的地狱景象， 数公里高的行星震波在表面来回荡漾。 \n\n你没能活下来。</GameOverPlanetkillerImpact>
   <!-- EN: You've launched the ship! -->
   <GameOverShipLaunchedIntro>你发射了逃生船！</GameOverShipLaunchedIntro>
   <!-- EN: Your machine persona will now try to guide the ship to a safe place. It might find a prosperous planet in this system. Or, it may undertake a centuries-long journey to another star. It might even decide to hide under ice on an asteroid for a few thousand years, waiting for someone to build a new glitterworld here.\n\nYou'll find out when you wake up. -->
-  <GameOverShipLaunchedEnding>现在飞船AI会自动引导飞船至安全目的地。也许它会带你到本星系内的一颗繁盛星球上。或许它会花费数世纪航行至另一星系。甚至它选择在一颗小行星的冰层下沉睡几千年，等待其他人在此建设一个闪耀世界。\n\n一切只有在你醒来后才能知道。</GameOverShipLaunchedEnding>
+  <GameOverShipLaunchedEnding>现在飞船AI会自动引导飞船至安全目的地。 也许它会带你到本星系内的一颗繁盛星球上。 或许它会花费数世纪航行至另一星系。 甚至它选择在一颗小行星的冰层下沉睡几千年， 等待其他人在此建设一个闪耀世界。 \n\n一切只有在你醒来后才能知道。</GameOverShipLaunchedEnding>
   <!-- EN: These colonists escaped:\n\n{0} -->
   <GameOverColonistsEscaped>以下殖民者离开了:\n\n{0}</GameOverColonistsEscaped>
   <!-- EN: These colonists were left behind:\n\n{0} -->
@@ -1286,7 +1286,7 @@
   <!-- EN: No resources below. -->
   <DeepDrillNoResources>下方没有资源。</DeepDrillNoResources>
   <!-- EN: Deep drill resources exhausted, drill automatically forbidden. Unforbid to begin mining of {0}. -->
-  <DeepDrillExhausted>深钻资源枯竭，自动钻探被禁止。未禁止则挖掘{0}。</DeepDrillExhausted>
+  <DeepDrillExhausted>深钻资源枯竭， 自动钻探被禁止。 未禁止则挖掘{0}。</DeepDrillExhausted>
   <!-- EN: Deep drill resources exhausted. -->
   <DeepDrillExhaustedNoFallback>深钻资源枯竭。</DeepDrillExhaustedNoFallback>
 
@@ -1306,11 +1306,11 @@
 
   <!-- Compass -->
   <!-- EN: Shows the north direction. Click to rotate the camera so the north pole is up. -->
-  <CompassTip>指示北方。点击以旋转镜头使北极处在上方。</CompassTip>
+  <CompassTip>指示北方。 点击以旋转镜头使北极处在上方。</CompassTip>
 
   <!-- World route planner -->
   <!-- EN: Click to enter the planning mode where you can plan your journey and calculate distance between waypoints. -->
-  <RoutePlannerButtonTip>点击以进入规划模式，你可以规划你的行程和计算路径点之间的距离。</RoutePlannerButtonTip>
+  <RoutePlannerButtonTip>点击以进入规划模式， 你可以规划你的行程和计算路径点之间的距离。</RoutePlannerButtonTip>
   <!-- EN: Add two or more waypoints. -->
   <RoutePlannerAddTwoOrMoreWaypoints>添加两个或更多的路径点。</RoutePlannerAddTwoOrMoreWaypoints>
   <!-- EN: Add one or more waypoints. -->
@@ -1318,7 +1318,7 @@
   <!-- EN: Total route time: {0} -->
   <RoutePlannerEstTimeToFinalDest>总计路程耗时: {0}</RoutePlannerEstTimeToFinalDest>
   <!-- EN: Planning mode uses the default caravan speed. Your speed may vary. -->
-  <RoutePlannerUsingAverageTicksPerMoveWarning>规划模式使用默认远行队速度。实际速度可能不同。</RoutePlannerUsingAverageTicksPerMoveWarning>
+  <RoutePlannerUsingAverageTicksPerMoveWarning>规划模式使用默认远行队速度。 实际速度可能不同。</RoutePlannerUsingAverageTicksPerMoveWarning>
   <!-- EN: Calculating for: {0} -->
   <RoutePlannerUsingTicksPerMoveOfCaravan>计算: {0}</RoutePlannerUsingTicksPerMoveOfCaravan>
   <!-- EN: Right mouse button: Add/remove waypoints. -->
@@ -1370,11 +1370,11 @@
   <!-- EN: Neural heat: {0} / {1}\nFall rate: {2} / s ({3}s until zero) -->
   <PawnTooltipPsychicEntropyStats>心灵熵阈值：{0} / {1}\n降低速率：{2} / 秒 （{3}秒归零）</PawnTooltipPsychicEntropyStats>
   <!-- EN: Neural heat increases after using a psychic power. Surpassing the normal limit may cause a psychic breakdown lasting days.\n\nNeural heat dissipates naturally over time. This process can be accelerated by wearing eltex apparel or being in pain. -->
-  <PawnTooltipPsychicEntropyDesc>心灵熵在释放心灵能力之后会增加。超过常规限制之后可能会导致持续数天的心灵崩溃。\n\n心灵熵会随着时间自然消散。这一过程可以通过穿着灵质服装或者感受苦痛来加快。</PawnTooltipPsychicEntropyDesc>
+  <PawnTooltipPsychicEntropyDesc>心灵熵在释放心灵能力之后会增加。 超过常规限制之后可能会导致持续数天的心灵崩溃。 \n\n心灵熵会随着时间自然消散。 这一过程可以通过穿着灵质服装或者感受苦痛来加快。</PawnTooltipPsychicEntropyDesc>
   <!-- EN: Pain boost\n\nPain focuses the mind and speeds up neural heat dissipation.\n\nPain level: {0}\nBonus to heat recovery: {1} -->
-  <PawnTooltipPsychicEntropyPainFocus>疼痛激励\n\n痛苦使思想集中；同时能够加速恢复心灵熵。\n\n疼痛等级：{0}\n心灵熵恢复倍率：{1}</PawnTooltipPsychicEntropyPainFocus>
+  <PawnTooltipPsychicEntropyPainFocus>疼痛激励\n\n痛苦使思想集中；同时能够加速恢复心灵熵。 \n\n疼痛等级：{0}\n心灵熵恢复倍率：{1}</PawnTooltipPsychicEntropyPainFocus>
   <!-- EN: Toggle neural heat limiter. Exceeding your heat limit may cause a psychic breakdown lasting days. It won't cause permanent damage. -->
-  <PawnTooltipPsychicEntropyLimit>切换心灵熵限制器。\n\n心灵熵超限制可能会导致长期的心灵崩溃，但并不会造成永久伤害。</PawnTooltipPsychicEntropyLimit>
+  <PawnTooltipPsychicEntropyLimit>切换心灵熵限制器。 \n\n心灵熵超限制可能会导致长期的心灵崩溃， 但并不会造成永久伤害。</PawnTooltipPsychicEntropyLimit>
   <!-- EN: Psyfocus: {0} -->
   <PawnTooltipPsyfocus>精神力：{0}}</PawnTooltipPsyfocus>
 
@@ -1438,7 +1438,7 @@
   <!-- EN: (existing bond) -->
   <BladelinkAlreadyBonded>（已绑定）</BladelinkAlreadyBonded>
   <!-- EN: A person can only bond with one persona weapon at a time.\n\nTo equip and bond with {WEAPON_labelShort}, {PAWN_nameDef}'s currently bonded weapon {BONDEDWEAPON_labelShort} must first be destroyed. -->
-  <BladelinkAlreadyBondedDialog>一个人只能在同一时间与一个人格武器进行绑定。\n\n若要装备并绑定{WEAPON_labelShort}，必须先销毁{PAWN_nameDef}当前绑定的武器{BONDEDWEAPON_labelShort}。</BladelinkAlreadyBondedDialog>
+  <BladelinkAlreadyBondedDialog>一个人只能在同一时间与一个人格武器进行绑定。 \n\n若要装备并绑定{WEAPON_labelShort}， 必须先销毁{PAWN_nameDef}当前绑定的武器{BONDEDWEAPON_labelShort}。</BladelinkAlreadyBondedDialog>
   <!-- EN: {PAWN_nameDef} is already bonded to {BONDEDWEAPON_labelShort} -->
   <BladelinkAlreadyBondedMessage>{PAWN_nameDef}已经与{BONDEDWEAPON_labelShort}绑定</BladelinkAlreadyBondedMessage>
 
@@ -1503,9 +1503,9 @@
   <!-- EN: Quality factors -->
   <QualityFactors>效果乘数</QualityFactors>
   <!-- EN: This condition may be fulfilled, depending on how things play out.\n\nIf it is fulfilled, the quality bonus will apply. -->
-  <QualityFactorTooltipUncertain>这个条件可能会被满足，这取决于事情的发展情况。\n\n如果它被满足，效果奖励将适用。</QualityFactorTooltipUncertain>
+  <QualityFactorTooltipUncertain>这个条件可能会被满足， 这取决于事情的发展情况。 \n\n如果它被满足， 效果奖励将适用。</QualityFactorTooltipUncertain>
   <!-- EN: This condition is not fulfilled.\n\nThe quality bonus will not apply. -->
-  <QualityFactorTooltipNotFulfilled>这个条件没有得到满足。\n\n效果奖励没有适用。</QualityFactorTooltipNotFulfilled>
+  <QualityFactorTooltipNotFulfilled>这个条件没有得到满足。 \n\n效果奖励没有适用。</QualityFactorTooltipNotFulfilled>
   <!-- EN: Spectators -->
   <Spectators>观众</Spectators>
   <!-- EN: Not participating -->
@@ -1513,13 +1513,13 @@
   <!-- EN: Drag and drop or left/right click to move people. -->
   <DragPawnsToRolesInfo>拖放或左/右点击来移动人。</DragPawnsToRolesInfo>
   <!-- EN: A slave. The human property of others. -->
-  <RitualBeginSlaveDesc>一个奴隶。别人的人类财产。</RitualBeginSlaveDesc>
+  <RitualBeginSlaveDesc>一个奴隶。 别人的人类财产。</RitualBeginSlaveDesc>
   <!-- EN: {0_labelShort} is sleeping. If included in the ritual, {0_pronoun} will wake up to participate. -->
-  <RitualBeginSleepingDesc>{0_labelShort}正在睡觉。如果被包括在仪式中，{0_pronoun}将醒来参与仪式。</RitualBeginSleepingDesc>
+  <RitualBeginSleepingDesc>{0_labelShort}正在睡觉。 如果被包括在仪式中， {0_pronoun}将醒来参与仪式。</RitualBeginSleepingDesc>
   <!-- EN: Some of the selected participants are sleeping. They will wake up once you start the ritual. -->
-  <RitualBeginSleepingWarning>一些被选中的参与者正在睡觉。一旦你开始仪式，他们就会醒过来。</RitualBeginSleepingWarning>
+  <RitualBeginSleepingWarning>一些被选中的参与者正在睡觉。 一旦你开始仪式， 他们就会醒过来。</RitualBeginSleepingWarning>
   <!-- EN: This position is best done by a colonist holding the social role of {0}.\n\nIf someone without this role fills this position, you won't get the following bonus(es) -->
-  <RitualRoleRequiresSocialRole>这个职位最好由持有{0}社会角色的殖民者完成。\n\n如果没有这个角色的人担任这个职位，你将不会得到以下奖励</RitualRoleRequiresSocialRole>
+  <RitualRoleRequiresSocialRole>这个职位最好由持有{0}社会角色的殖民者完成。 \n\n如果没有这个角色的人担任这个职位， 你将不会得到以下奖励</RitualRoleRequiresSocialRole>
   <!-- EN: No substitute available for the role of {0}. -->
   <RitualRoleCantSubstitute>没有可以替代{0}的角色。</RitualRoleCantSubstitute>
   <!-- EN: {0} progress -->
@@ -1527,7 +1527,7 @@
   <!-- EN: {0} quality depends on -->
   <RitualOutcomeQualityAbstract>{0}效果取决于</RitualOutcomeQualityAbstract>
   <!-- EN: {0} total quality was {1}, determined by these factors -->
-  <RitualOutcomeQualitySpecific>{0}总体效果为{1}，由这些因素决定</RitualOutcomeQualitySpecific>
+  <RitualOutcomeQualitySpecific>{0}总体效果为{1}， 由这些因素决定</RitualOutcomeQualitySpecific>
   <!-- EN: Outcome chances at {0} quality -->
   <RitualOutcomeChances>在{0}效果下的结果几率</RitualOutcomeChances>
   <!-- EN: Performed recently -->
@@ -1537,7 +1537,7 @@
   <!-- EN: Ritual ambience sound -->
   <RitualAmbienceSound>仪式氛围音</RitualAmbienceSound>
   <!-- EN: Total {0} quality is below {1}. Proceeding will most likely negatively impact your colony.\n\nAre you sure? -->
-  <RitualQualityLowWarning>总的{0}质量低于{1}。继续下去很可能会对你的殖民地产生负面影响。\n\n你确定？</RitualQualityLowWarning>
+  <RitualQualityLowWarning>总的{0}质量低于{1}。 继续下去很可能会对你的殖民地产生负面影响。 \n\n你确定？</RitualQualityLowWarning>
   <!-- EN: No reachable appropriate place to speak. -->
   <AbilitySpeechDisabledNoSpot>没有适当的可到达位置来交谈。</AbilitySpeechDisabledNoSpot>
   <!-- EN: {0_labelShort} is incapable of {1}. -->
@@ -1556,7 +1556,7 @@
   <!-- EN: {0} (out of {1}) -->
   <QualityOutOf>{0}（{1}）</QualityOutOf>
   <!-- EN: {0} is a date-specific ritual. You'll be able to start it in {1}, on the {2}. -->
-  <DateRitualNoObligation>{0}是一个特定日期的仪式。你可以在{1}后举行，于{2}。</DateRitualNoObligation>
+  <DateRitualNoObligation>{0}是一个特定日期的仪式。 你可以在{1}后举行， 于{2}。</DateRitualNoObligation>
 
   <!-- EN: Replace with -->
   <PreceptReplaceWith>替换为</PreceptReplaceWith>
@@ -1608,7 +1608,7 @@
   <!-- EN: must be drafted. -->
   <AbilityDisabledUndrafted>必须先行征召。</AbilityDisabledUndrafted>
   <!-- EN: ability on cooldown. It will be available in {0}. -->
-  <AbilityOnCooldown>能力正在冷却中。它会在{0}后可用。</AbilityOnCooldown>
+  <AbilityOnCooldown>能力正在冷却中。 它会在{0}后可用。</AbilityOnCooldown>
   <!-- EN: ability already queued. -->
   <AbilityAlreadyQueued>能力已经加入序列。</AbilityAlreadyQueued>
   <!-- EN: Ability ready: {0} -->

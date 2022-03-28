@@ -13,7 +13,7 @@
   -->
   <Beggars.questContentRules.rulesStrings>
     <li>letterLabelBeggarsBetrayed->[groupLabelSingleOrPlural]被出卖</li>
-    <li>letterTextBeggarsBetrayed->前来寻求你们帮助的[groupLabelSingleOrPlural]已被出卖，抱有仁爱信仰的殖民者会不满。</li>
+    <li>letterTextBeggarsBetrayed->前来寻求你们帮助的[groupLabelSingleOrPlural]已被出卖， 抱有仁爱信仰的殖民者会不满。</li>
     <li>hasHave(beggarCount==1)-></li>
     <li>hasHave(beggarCount>=2)-></li>
     <li>wasWere(beggarCount==1)-></li>
@@ -57,7 +57,7 @@
     <li>beggingForInfo->[requestedThing_label] x[requestedThingCount]</li>
     <li>traverObjective(beggarCount==1)->[beggars0_objective]</li>
     <li>traverObjective(beggarCount>=2)->他们</li>
-    <li>questDescription->[approachInfo]。[requestInfo]。[claimInfo]。\n\n[interactionInfo]。\n\n[moveOnInfo]。\n\n[travelerInfo]不属于任何派系。如果你愿意，你可以选择杀害、逮捕、出售或者采割[traverObjective]，并且不会产生任何外交后果。</li>
+    <li>questDescription->[approachInfo]。 [requestInfo]。 [claimInfo]。 \n\n[interactionInfo]。 \n\n[moveOnInfo]。 \n\n[travelerInfo]不属于任何派系。 如果你愿意， 你可以选择杀害、逮捕、出售或者采割[traverObjective]， 并且不会产生任何外交后果。</li>
     <li>approachInfo(beggarCount==1)->一个名为[beggars0_nameDef]的贫困[groupLabelSingle]正在靠近以寻求帮助</li>
     <li>approachInfo(beggarCount>=2)->一群贫困的[groupLabelPlural]正在靠近以寻求帮助</li>
     <li>requestInfo(beggarCount==1)->[beggars0_nameDef]向你祈求施舍[beggingForInfo]</li>

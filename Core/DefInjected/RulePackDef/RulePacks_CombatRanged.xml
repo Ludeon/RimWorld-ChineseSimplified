@@ -127,20 +127,20 @@
     <li>r_logentry->[INITIATOR_definite]的[WEAPON_projectile_label][destroyed_past][RECIPIENT_definite]的[destroyed_targets]。</li>
     <li>r_logentry->[INITIATOR_definite]的[WEAPON_projectile_label][destroyed_past][RECIPIENT_definite]的[destroyed_targets][to][destroyed_suffix]。</li>
     <li>r_logentry(p=2)->[INITIATOR_definite]的[WEAPON_projectile_label][missed][ORIGINALTARGET_definite]并[destroyed_past][RECIPIENT_definite]的[destroyed_targets]。</li>
-    <li>r_logentry(p=2)->[INITIATOR_definite]的[WEAPON_projectile_label][missed][ORIGINALTARGET_definite]，同时[destroyed_present][RECIPIENT_definite]的[destroyed_targets]。</li>
+    <li>r_logentry(p=2)->[INITIATOR_definite]的[WEAPON_projectile_label][missed][ORIGINALTARGET_definite]， 同时[destroyed_present][RECIPIENT_definite]的[destroyed_targets]。</li>
     <li>r_logentry->[RECIPIENT_definite]的[destroyed_targets]被[INITIATOR_definite]的[WEAPON_projectile_label][destroyed_past]。</li>
-    <li>r_logentry->[RECIPIENT_definite]的[destroyed_targets]被[INITIATOR_definite]的[WEAPON_projectile_label][destroyed_past]，变成了[destroyed_suffix]。</li>
+    <li>r_logentry->[RECIPIENT_definite]的[destroyed_targets]被[INITIATOR_definite]的[WEAPON_projectile_label][destroyed_past]， 变成了[destroyed_suffix]。</li>
     <li>r_logentry(recipient_part_destroyed_count==0)->[INITIATOR_definite]的[WEAPON_projectile_label][damaged_past][RECIPIENT_definite]的[damaged_targets]。</li>
     <li>r_logentry(recipient_part_destroyed_count==0,p=2)->[INITIATOR_definite]的[WEAPON_projectile_label][missed][ORIGINALTARGET_definite]并[damaged_past][RECIPIENT_definite]的[damaged_targets]。</li>
-    <li>r_logentry(recipient_part_destroyed_count==0,p=2)->[INITIATOR_definite]的[WEAPON_projectile_label][missed][ORIGINALTARGET_definite]，同时[damaged_present][RECIPIENT_definite]的[damaged_targets]。</li>
+    <li>r_logentry(recipient_part_destroyed_count==0,p=2)->[INITIATOR_definite]的[WEAPON_projectile_label][missed][ORIGINALTARGET_definite]， 同时[damaged_present][RECIPIENT_definite]的[damaged_targets]。</li>
     <li>r_logentry(recipient_part_destroyed_count==0)->[RECIPIENT_definite]的[damaged_targets]被[INITIATOR_definite]的[WEAPON_projectile_label][damaged_past]。</li>
     <li>r_logentry(p=3)->[INITIATOR_definite]的[WEAPON_projectile_label][destroyed_past][RECIPIENT_definite]的[destroyed_targets]并[damaged_past][RECIPIENT_possessive][damaged_targets]。</li>
-    <li>r_logentry(p=6)->[INITIATOR_definite]的[WEAPON_projectile_label][missed][ORIGINALTARGET_definite]，同时[destroyed_present][RECIPIENT_definite]的[destroyed_targets]并[damaged_present][RECIPIENT_possessive][damaged_targets]。</li>
+    <li>r_logentry(p=6)->[INITIATOR_definite]的[WEAPON_projectile_label][missed][ORIGINALTARGET_definite]， 同时[destroyed_present][RECIPIENT_definite]的[destroyed_targets]并[damaged_present][RECIPIENT_possessive][damaged_targets]。</li>
     <li>r_logentry(p=0.2)->[INITIATOR_definite]的[WEAPON_projectile_label]命中了[RECIPIENT_definite]。</li>
     <li>r_logentry(p=0.2)->[INITIATOR_definite]用[WEAPON_projectile_label]命中[RECIPIENT_definite]。</li>
-    <li>r_logentry(p=0.4)->[INITIATOR_definite]的[WEAPON_projectile_label][missed][ORIGINALTARGET_definite]，却打中了[RECIPIENT_definite]。</li>
-    <li>r_logentry(p=0.4)->[INITIATOR_definite]的[WEAPON_projectile_label][missed][ORIGINALTARGET_definite]，并误伤到[RECIPIENT_definite]。</li>
-    <li>r_logentry(p=0.2)->[INITIATOR_definite]用[WEAPON_projectile_label]瞄准[ORIGINALTARGET_definite]，结果击中了[RECIPIENT_definite]。</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite]的[WEAPON_projectile_label][missed][ORIGINALTARGET_definite]， 却打中了[RECIPIENT_definite]。</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite]的[WEAPON_projectile_label][missed][ORIGINALTARGET_definite]， 并误伤到[RECIPIENT_definite]。</li>
+    <li>r_logentry(p=0.2)->[INITIATOR_definite]用[WEAPON_projectile_label]瞄准[ORIGINALTARGET_definite]， 结果击中了[RECIPIENT_definite]。</li>
     <li>weapon_projectile_label(p=0.05)->射击</li>
     <li>destroyed_past->击碎</li>
     <li>destroyed_past->轰飞</li>
@@ -212,18 +212,18 @@
     <li>r_logentry->[RECIPIENT_definite][damaged_target_possessive_opt]被[INITIATOR_definite]的[WEAPON_projectile_label][damaged_past][deflected_result]。</li>
     <li>r_logentry(p=0.2)->[INITIATOR_definite]用[WEAPON_projectile_label]命中[RECIPIENT_definite][damaged_target_possessive_opt][deflected_result]。</li>
     <li>r_logentry(p=0.2)->[INITIATOR_definite]的[WEAPON_projectile_label]命中[RECIPIENT_definite][damaged_target_possessive_opt][deflected_result]。</li>
-    <li>r_logentry(p=0.4)->[INITIATOR_definite]使用[WEAPON_projectile_label][missed][ORIGINALTARGET_definite]，同时误伤了[RECIPIENT_definite][damaged_target_possessive_opt][deflected_result]。</li>
-    <li>r_logentry(p=0.4)->[INITIATOR_definite]的[WEAPON_projectile_label][missed][ORIGINALTARGET_definite]，却击中[RECIPIENT_definite][damaged_target_possessive_opt][deflected_result]。</li>
-    <li>r_logentry(p=0.2)->[INITIATOR_definite]用[WEAPON_projectile_label]瞄准[ORIGINALTARGET_definite]，结果击中了[RECIPIENT_definite][damaged_target_possessive_opt][deflected_result]。</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite]使用[WEAPON_projectile_label][missed][ORIGINALTARGET_definite]， 同时误伤了[RECIPIENT_definite][damaged_target_possessive_opt][deflected_result]。</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite]的[WEAPON_projectile_label][missed][ORIGINALTARGET_definite]， 却击中[RECIPIENT_definite][damaged_target_possessive_opt][deflected_result]。</li>
+    <li>r_logentry(p=0.2)->[INITIATOR_definite]用[WEAPON_projectile_label]瞄准[ORIGINALTARGET_definite]， 结果击中了[RECIPIENT_definite][damaged_target_possessive_opt][deflected_result]。</li>
     <li>weapon_projectile_label(p=0.05)->射击</li>
     <li>damaged_target_possessive_opt-></li>
     <li>damaged_target_possessive_opt(recipient_part_damaged0_outside==True)->的[recipient_part_damaged0_label]</li>
     <li>deflected_result-> [adverb_deflected]</li>
-    <li>deflected_result->，[deflected_consequence]</li>
+    <li>deflected_result->， [deflected_consequence]</li>
     <li>adverb_deflected_opt(p=4)-></li>
     <li>adverb_deflected_opt->[adverb_deflected]</li>
-    <li>adverb_deflected->，但没有造成伤害</li>
-    <li>adverb_deflected->，但收效甚微</li>
+    <li>adverb_deflected->， 但没有造成伤害</li>
+    <li>adverb_deflected->， 但收效甚微</li>
     <li>deflected_consequence->但[scraped_past][adverb_deflected_opt]</li>
     <li>deflected_consequence->但被[RECIPIENT_possessive]的护甲[scraped_present][adverb_deflected_opt]</li>
     <li>scraped_past->弹开了</li>
@@ -283,7 +283,7 @@
     <li>shotat(p=0.5)->[skillAdv]瞄准并开火[aburst]</li>
     <li>shotat(p=0.3)->开火</li>
     <li>aburst-></li>
-    <li>aburst(BURST==True,p=3)->，打出一组点射</li>
+    <li>aburst(BURST==True,p=3)->， 打出一组点射</li>
     <li>burst-></li>
     <li>burst(BURST==True,p=3)->点射</li>
     <li>verb_shot->射击</li>
@@ -402,7 +402,7 @@
   <Combat_RangedMiss.rulePack.rulesStrings>
     <li>r_logentry->[INITIATOR_definite]的[WEAPON_projectile_label][missed]。</li>
     <li>r_logentry->[INITIATOR_definite]没打中[ORIGINALTARGET_definite]。</li>
-    <li>r_logentry->[ORIGINALTARGET_definite][avoidance]，[INITIATOR_definite]的[WEAPON_projectile_label][missing]。</li>
+    <li>r_logentry->[ORIGINALTARGET_definite][avoidance]， [INITIATOR_definite]的[WEAPON_projectile_label][missing]。</li>
     <li>missed(p=4)->射偏了</li>
     <li>missed(p=2)->差之毫厘</li>
     <li>missed(p=2)->大幅偏出</li>

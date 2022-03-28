@@ -10,17 +10,17 @@
   <!-- EN: {DESIREDAPPAREL} apparel desire overlaps with {ROLE} apparel requirement. -->
   <MessageIdeoWarnRoleApparelOverlapsDesiredApparel>{DESIREDAPPAREL}服装偏好与{ROLE}服装需求有重合。</MessageIdeoWarnRoleApparelOverlapsDesiredApparel>
   <!-- EN: {DESIREDAPPAREL} overlaps with {ROLE} apparel requirement ({ROLEAPPAREL}). This will make it impossible for {ROLE}s to wear the required and desired apparel together. -->
-  <DescriptionIdeoWarnRoleApparelOverlapsDesiredApparel>{DESIREDAPPAREL}与{ROLE}服装需求有重合（{ROLEAPPAREL}）。这将使{ROLE}无法同时穿着偏好服装和需求服装。</DescriptionIdeoWarnRoleApparelOverlapsDesiredApparel>
+  <DescriptionIdeoWarnRoleApparelOverlapsDesiredApparel>{DESIREDAPPAREL}与{ROLE}服装需求有重合（{ROLEAPPAREL}）。 这将使{ROLE}无法同时穿着偏好服装和需求服装。</DescriptionIdeoWarnRoleApparelOverlapsDesiredApparel>
   <!-- EN: {PRECEPT} needs one of these buildings -->
   <MessageRitualMissingTarget>{PRECEPT} 需要这些建筑物之一</MessageRitualMissingTarget>
   <!-- EN: {PRECEPT} needs an associated ritual. -->
   <MessageBuildingMissingRitual>{PRECEPT} 需要相关的仪式。</MessageBuildingMissingRitual>
   <!-- EN: {0_labelShort} refuses to do this because of {0_possessive} ideoligion. -->
-  <MessagePawnUnwillingToDoDueToIdeo>{0_labelShort} 拒绝这样做，因为有 {0_possessive} 的文化形态。</MessagePawnUnwillingToDoDueToIdeo>
+  <MessagePawnUnwillingToDoDueToIdeo>{0_labelShort} 拒绝这样做， 因为有 {0_possessive} 的文化形态。</MessagePawnUnwillingToDoDueToIdeo>
   <!-- EN: {INITIATOR_nameDef} tried to convert {RECIPIENT_nameDef} to {INITIATOR_possessive} ideoligion. {RECIPIENT_nameDef}'s certainty has fallen from {CERTAINTYBEFORE} to {CERTAINTYAFTER}. {RECIPIENT_pronoun} resents the conversion attempt. -->
-  <MessageFailedConvertIdeoAttempt>{INITIATOR_nameDef} 尝试将 {RECIPIENT_nameDef} 转化为 {INITIATOR_possessive} 文化形态。{RECIPIENT_nameDef} 的认可度已从 {CERTAINTYBEFORE} 降至 {CERTAINTYAFTER}。{RECIPIENT_pronoun} 对转化尝试表示不满。</MessageFailedConvertIdeoAttempt>
+  <MessageFailedConvertIdeoAttempt>{INITIATOR_nameDef} 尝试将 {RECIPIENT_nameDef} 转化为 {INITIATOR_possessive} 文化形态。 {RECIPIENT_nameDef} 的认可度已从 {CERTAINTYBEFORE} 降至 {CERTAINTYAFTER}。 {RECIPIENT_pronoun} 对转化尝试表示不满。</MessageFailedConvertIdeoAttempt>
   <!-- EN: {PAWN1_nameDef} tried to convert {PAWN2_nameDef} to {PAWN1_possessive} ideoligion. This led to a social fight! -->
-  <MessageFailedConvertIdeoAttemptSocialFight>{PAWN1_nameDef} 试图将 {PAWN2_nameDef} 转化为 {PAWN1_possessive} 文化形态。这导致了口角！</MessageFailedConvertIdeoAttemptSocialFight>
+  <MessageFailedConvertIdeoAttemptSocialFight>{PAWN1_nameDef} 试图将 {PAWN2_nameDef} 转化为 {PAWN1_possessive} 文化形态。 这导致了口角！</MessageFailedConvertIdeoAttemptSocialFight>
   <!-- EN: You must choose at least {0} memes. -->
   <MessageNotEnoughMemes>必须至少选择 {0} 个模因。</MessageNotEnoughMemes>
   <!-- EN: You can't choose more than {0} memes. -->
@@ -36,20 +36,20 @@
   <!-- EN: You must choose a role. -->
   <MessageRoleChangeChooseDifferentRole>你必须选择一个职位。</MessageRoleChangeChooseDifferentRole>
   <!-- EN: Before starting the {1}, you must assign someone to the role of {0}. -->
-  <MessageNeedAssignedRoleToBeginRitual>在开始 {1} 之前，必须将某人分配给 {0} 的职位。</MessageNeedAssignedRoleToBeginRitual>
+  <MessageNeedAssignedRoleToBeginRitual>在开始 {1} 之前， 必须将某人分配给 {0} 的职位。</MessageNeedAssignedRoleToBeginRitual>
   <!-- EN: Need at least one {0} participating. -->
   <MessageNeedAtLeastOneParticipantOfIdeo>必须有一名{0}参与</MessageNeedAtLeastOneParticipantOfIdeo>
   
   <!-- EN: {0_labelShort} now holds the role of {1}. -->
   <MessageRoleAssigned>{0_labelShort}现在具有{1}的职位。</MessageRoleAssigned>
   <!-- EN: Since {0_labelShort} became a prisoner, {0_pronoun} no longer can hold the role of {1}. -->
-  <MessageRoleUnassignedPrisoner>由于{0_labelShort}成为囚犯，{0_pronoun}不再能担任{1}的职位。</MessageRoleUnassignedPrisoner>
+  <MessageRoleUnassignedPrisoner>由于{0_labelShort}成为囚犯， {0_pronoun}不再能担任{1}的职位。</MessageRoleUnassignedPrisoner>
   <!-- EN: Warning: {0} will be upset if a tree is cut. -->
-  <MessageWarningPlayerDesignatedTreeChopped>警告：如果树木被砍伐，{0}将会被打乱。</MessageWarningPlayerDesignatedTreeChopped>
+  <MessageWarningPlayerDesignatedTreeChopped>警告：如果树木被砍伐， {0}将会被打乱。</MessageWarningPlayerDesignatedTreeChopped>
   <!-- EN: Warning: {0} will be upset if mining occurs. -->
-  <MessageWarningPlayerDesignatedMining>警告：如果进行采矿，{0}将感到不安。</MessageWarningPlayerDesignatedMining>
+  <MessageWarningPlayerDesignatedMining>警告：如果进行采矿， {0}将感到不安。</MessageWarningPlayerDesignatedMining>
   <!-- EN: The {TREE_label} has had its connection with {PAWN_nameDef} torn. It must recover for {DURATION} before it can reconnect again. -->
-  <MessageConnectedPawnDied>{TREE_label}与{PAWN_nameDef}进行了共鸣。必须经过{DURATION}，才能重新开始共鸣。</MessageConnectedPawnDied>
+  <MessageConnectedPawnDied>{TREE_label}与{PAWN_nameDef}进行了共鸣。 必须经过{DURATION}， 才能重新开始共鸣。</MessageConnectedPawnDied>
 
   <!-- Slave interactions -->
   <!-- EN: {0_nameDef} has been emancipated by {1_nameDef}. -->
@@ -65,7 +65,7 @@
   <!-- EN: No warden is capable of this enslavement. -->
   <MessageNoWardenCapableOfEnslavement>没有一个狱卒有能力进行这种奴役。</MessageNoWardenCapableOfEnslavement>
   <!-- EN: You have no {MEMBERNAME} wardens to convert {PRISONER_nameDef}. {PRISONER_possessive} interaction mode has reverted to "No interaction". -->
-  <MessageNoWardenOfIdeo>没有{MEMBERNAME}狱卒来转化{PRISONER_nameDef}。{PRISONER_possessive}交互模式已更变为“无交互”。</MessageNoWardenOfIdeo>
+  <MessageNoWardenOfIdeo>没有{MEMBERNAME}狱卒来转化{PRISONER_nameDef}。 {PRISONER_possessive}交互模式已更变为“无交互”。</MessageNoWardenOfIdeo>
 
   <!-- Camps -->
   <!-- EN: You've detected a {CAMP_label} nearby controlled by {FACTION_name}. -->
@@ -110,13 +110,13 @@
 
   <!-- Ancient complex -->
   <!-- EN: You've discovered an ancient terminal with info about the {0}! -->
-  <MessageAncientTerminalDiscovered>你发现了一个远古终端机，其中包含有关 {0} 的信息！</MessageAncientTerminalDiscovered>
+  <MessageAncientTerminalDiscovered>你发现了一个远古终端机， 其中包含有关 {0} 的信息！</MessageAncientTerminalDiscovered>
   <!-- EN: You've discovered secret information about {0}! Get back on the shuttle to launch it. -->
   <MessageAncientComplexBackToShuttle>你发现了关于{0}的秘密情报！回到穿梭机上发射它。</MessageAncientComplexBackToShuttle>
   <!-- EN: An ancient supply satellite has been activated. Supplies will drop nearby. -->
-  <MessageAncientSignalActivated>一颗远古补给卫星被激活了。补给将空投至附近。</MessageAncientSignalActivated>
+  <MessageAncientSignalActivated>一颗远古补给卫星被激活了。 补给将空投至附近。</MessageAncientSignalActivated>
   <!-- EN: {0} from the {1} have detected the supply signal and are attacking. -->
-  <MessageAncientSignalHostileDetected>{1}的{0}探测到供应信号，正在攻击。</MessageAncientSignalHostileDetected>
+  <MessageAncientSignalHostileDetected>{1}的{0}探测到供应信号， 正在攻击。</MessageAncientSignalHostileDetected>
 
   <!-- Ancient altar -->
   <!-- EN: All security systems are waking up! -->
@@ -126,7 +126,7 @@
 
   <!-- Animals -->
   <!-- EN: Warning: {PAWNKINDLABELPLURAL} are venerated by all {PAWNS}, and will not be harmed. -->
-  <MessageAnimalIsVeneratedForAllColonists>警告：{PAWNKINDLABELPLURAL}受到所有{PAWNS}的崇拜，圣兽不能受伤。</MessageAnimalIsVeneratedForAllColonists>
+  <MessageAnimalIsVeneratedForAllColonists>警告：{PAWNKINDLABELPLURAL}受到所有{PAWNS}的崇拜， 圣兽不能受伤。</MessageAnimalIsVeneratedForAllColonists>
 
   <!-- Archonexus -->
   <!-- EN: Select at most {0} {1} to bring to the new colony. -->
@@ -136,7 +136,7 @@
 
   <!-- Fuel node -->
   <!-- EN: A {0} has been ignited and is going to explode! -->
-  <MessageFuelNodeTriggered>一个{0}被点燃了，马上就要爆炸了！</MessageFuelNodeTriggered>
+  <MessageFuelNodeTriggered>一个{0}被点燃了， 马上就要爆炸了！</MessageFuelNodeTriggered>
 
   <!-- Ancient complex -->
   <!-- EN: {0_pawnsPlural} will wake up in {1}. -->
@@ -144,7 +144,7 @@
   <!-- EN: Infestation arriving. -->
   <MessageInfestationDelayActivated>袭击到来。</MessageInfestationDelayActivated>
   <!-- EN: {0} was disturbed and might explode soon! -->
-  <MessageFuelNodeDelayActivated>{0}被扰乱了，可能很快就会爆炸！</MessageFuelNodeDelayActivated><!-- this message fires when a fuel node has been disturbed and there is a random delay before it starts to explode. -->
+  <MessageFuelNodeDelayActivated>{0}被扰乱了， 可能很快就会爆炸！</MessageFuelNodeDelayActivated><!-- this message fires when a fuel node has been disturbed and there is a random delay before it starts to explode. -->
 
   <!-- Fluid ideo messages -->
   <!-- EN: Development points changed from {0} to {1} ({2}). -->

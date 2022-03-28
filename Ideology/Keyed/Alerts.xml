@@ -4,12 +4,12 @@
   <!-- EN: Need slave beds -->
   <NeedSlaveBeds>需要奴隶床</NeedSlaveBeds>
   <!-- EN: You have more slaves than you have slave beds. Someone will lack a place to sleep.\n\nEither make more beds, or change a colonist or prisoner bed to a slave bed.\n\nIf you have no resources, sleeping spots are free and can be placed instantly. -->
-  <NeedSlaveBedsDesc>你拥有的奴隶数量大于你为它们准备的床铺数量，会有奴隶因此无法睡觉。\n建造更多床或将已有的殖民者床位或囚犯床位改为奴隶床。\n\n如果你没有资源，设置睡眠点是一个很棒的选择。</NeedSlaveBedsDesc>
+  <NeedSlaveBedsDesc>你拥有的奴隶数量大于你为它们准备的床铺数量， 会有奴隶因此无法睡觉。 \n建造更多床或将已有的殖民者床位或囚犯床位改为奴隶床。 \n\n如果你没有资源， 设置睡眠点是一个很棒的选择。</NeedSlaveBedsDesc>
 
   <!-- EN: Slave unsuppressed -->
   <SlavesUnsuppressedLabel>奴隶未被镇压</SlavesUnsuppressedLabel>
   <!-- EN: {0_nameDef}'s suppression level is dangerously low. There is a good chance {0_pronoun} will rebel.\n\nMake sure there is a colonist assigned to warden work. Wardens will suppress slaves periodically to stop them from rebelling. -->
-  <SlavesUnsuppressedDesc>{0_nameDef}的镇压值已下降至危险水平，{0_pronoun}很有可能在此时叛乱。\n\n 确保你有一个殖民者分配了监管工作，狱卒将阶段性的镇压奴隶以防止其叛乱。</SlavesUnsuppressedDesc>
+  <SlavesUnsuppressedDesc>{0_nameDef}的镇压值已下降至危险水平， {0_pronoun}很有可能在此时叛乱。 \n\n 确保你有一个殖民者分配了监管工作， 狱卒将阶段性的镇压奴隶以防止其叛乱。</SlavesUnsuppressedDesc>
   <!-- EN: Slave unattended -->
   <SlaveUnattendedLabel>奴隶未受管制</SlaveUnattendedLabel>
   <!-- EN: Slaves unattended -->
@@ -30,7 +30,7 @@
   <!-- EN: Completing {RITUAL_labelDef} will have these effects -->
   <RitualCompletionEffects>完成{RITUAL_labelDef}仪式将会带来以下效果</RitualCompletionEffects>
   <!-- EN: To begin the ritual, select a focus object and click the 'Begin {RITUAL_label}' command. The following are valid focus objects:\n{1} -->
-  <RitualTargetsExplanation>为了开始一个仪式，用鼠标选中一个媒介并且点击「开始{RITUAL_label}」命令。以下是可用的媒介：\n{1}</RitualTargetsExplanation>
+  <RitualTargetsExplanation>为了开始一个仪式， 用鼠标选中一个媒介并且点击「开始{RITUAL_label}」命令。 以下是可用的媒介：\n{1}</RitualTargetsExplanation>
   <!-- EN: Following roles have a part in {RITUAL_label}:\n{1} -->
   <RitualRolesExplanation>以下职位是{RITUAL_label}的一部分：\n{1}</RitualRolesExplanation>
   <!-- EN: Click to jump to targets -->
@@ -45,53 +45,53 @@
   <!-- EN: {0} desired -->
   <IdeoBuildingMissing>需求：{0}</IdeoBuildingMissing>
   <!-- EN: {IDEO_name} requires that you have a {0} in your colony as long as {2} or higher.\n\n{0} is a variant of {BASEBUILDING_label}.{BUILDINGINFO}\n\nThis requirement is only active if {IDEO_name} is your faction's primary ideoligion, or there are {MINBELIEVERS} believers in your faction.{4}\n\nIf the requirement isn't met, these believers will become unhappy:\n{3} -->
-  <IdeoBuildingMissingDesc>{IDEO_name}需要你的殖民地在{2}或更高时有{0}。\n\n{0}是{BASEBUILDING_label}的一种变体。{BUILDINGINFO}\n\n这个要求只会在{IDEO_name}是你派系的主流文化，或者最少有{MINBELIEVERS}名追随者时生效。{4}\n\n如果此需求未被满足，以下追随者将会不满：\n {3} </IdeoBuildingMissingDesc>
+  <IdeoBuildingMissingDesc>{IDEO_name}需要你的殖民地在{2}或更高时有{0}。 \n\n{0}是{BASEBUILDING_label}的一种变体。 {BUILDINGINFO}\n\n这个要求只会在{IDEO_name}是你派系的主流文化， 或者最少有{MINBELIEVERS}名追随者时生效。 {4}\n\n如果此需求未被满足， 以下追随者将会不满：\n {3} </IdeoBuildingMissingDesc>
   <!-- EN:  You can find it by opening the '{TABNAME}' tab of the architect menu. -->
   <IdeoBuildingArchitectTabDesc>你可以通过打开⌈{TABNAME}⌋标签找到它。</IdeoBuildingArchitectTabDesc>
   <!-- EN:  It can be created at:\n{0}. -->
   <IdeoBuildingCanBeCraftedAt>它可以被以下目标制作：\n{0}。</IdeoBuildingCanBeCraftedAt>
   <!-- EN: In order to dignify {0}, these room requirements must be met -->
-  <IdeoBuildingRoomRequirementsDesc>为了神圣化{0}，这些房间的需求必须被满足</IdeoBuildingRoomRequirementsDesc>
+  <IdeoBuildingRoomRequirementsDesc>为了神圣化{0}， 这些房间的需求必须被满足</IdeoBuildingRoomRequirementsDesc>
   <!-- EN: expectations are -->
   <IdeoBuildingExpectations>期望是</IdeoBuildingExpectations>
 
   <!-- EN: {0} disrespected -->
   <IdeoBuildingDisrespected>{0}未被尊重</IdeoBuildingDisrespected>
   <!-- EN: {0} requires that {1} be in a dignified room. These room requirements must be met:\n{2}\n\nIf the {1}'s room requirements are not met, these believers will become unhappy:\n{3} -->
-  <IdeoBuildingDisrespectedDesc>{0}要求{1}需要在一个体面的房间里。必须满足这些要求：\n{2}\n\n如果{1}的房间需求未能满足，这些信徒将会不满：\n{3}</IdeoBuildingDisrespectedDesc>
+  <IdeoBuildingDisrespectedDesc>{0}要求{1}需要在一个体面的房间里。 必须满足这些要求：\n{2}\n\n如果{1}的房间需求未能满足， 这些信徒将会不满：\n{3}</IdeoBuildingDisrespectedDesc>
   
   <!-- EN: Raids arriving in {0} -->
   <QuestPartRaidsDelay>袭击将在{0}后到来</QuestPartRaidsDelay>
   <!-- EN: Raids will start arriving in {0}.\n\nThe raiders will target the spacedrone and attempt to destroy it. Protect the spacedrone so your colonists can hack its computer and retrieve the data. -->
-  <QuestPartRaidsDelayDesc>袭击将在{0}后到来\n\n袭击者的目的是寻找并摧毁此无人机。保护它，直到你的殖民者把其电脑内部的数据提取出来为止。</QuestPartRaidsDelayDesc>
+  <QuestPartRaidsDelayDesc>袭击将在{0}后到来\n\n袭击者的目的是寻找并摧毁此无人机。 保护它， 直到你的殖民者把其电脑内部的数据提取出来为止。</QuestPartRaidsDelayDesc>
 
   <!-- EN: {0} role unfilled -->
   <IdeoRoleEmpty>{0}职位未被分配</IdeoRoleEmpty>
   <!-- EN: {0} roles unfilled -->
   <IdeoRolesEmpty>{0}职位未被分配</IdeoRolesEmpty>
   <!-- EN: These roles are not filled:\n{0}\n\nYou can assign someone a role on their Social tab. You can also select a ritual spot or an altar and click 'Begin role change'. \n\nIf these roles remain empty, the following people will be unhappy -->
-  <IdeoRolesEmptyDesc>职位未被分配：\n{0}\n\n你可以通过职位变更仪式为某人指定一个职位，在「社交」选项卡指定职位，或者选择一个仪式举办点/祭坛并点击「开始职位变更」。\n\n如果职位仍未被分配，以下人员将不满</IdeoRolesEmptyDesc>
+  <IdeoRolesEmptyDesc>职位未被分配：\n{0}\n\n你可以通过职位变更仪式为某人指定一个职位， 在「社交」选项卡指定职位， 或者选择一个仪式举办点/祭坛并点击「开始职位变更」。 \n\n如果职位仍未被分配， 以下人员将不满</IdeoRolesEmptyDesc>
 
   <!-- EN: Security threats activated in {0} -->
   <AncientAltarThreatsWaking>安全协议将在{0}内激活</AncientAltarThreatsWaking>
   <!-- EN: Security threats will activate in {0}. They will attack any who may threaten the relic. -->
-  <AncientAltarThreatsWakingDesc>安全协议将在{0}内激活，它们将攻击任何可能对圣物造成威胁的目标。</AncientAltarThreatsWakingDesc>
+  <AncientAltarThreatsWakingDesc>安全协议将在{0}内激活， 它们将攻击任何可能对圣物造成威胁的目标。</AncientAltarThreatsWakingDesc>
 
   <!-- EN: Ritual opportunity soon -->
   <AlertRitualComing>仪式机会即将来临</AlertRitualComing>
   <!-- EN: A ritual opportunity is coming soon for following rituals -->
   <AlertRitualComingDesc>很快将有可供执行以下仪式的机会</AlertRitualComingDesc>
   <!-- EN: Opportunities expire after {0} days, and reoccur on the same day each year. -->
-  <AlertRitualComingExtra>机会将在{0}天后过期，并将在每年的同一日期再次出现。</AlertRitualComingExtra>
+  <AlertRitualComingExtra>机会将在{0}天后过期， 并将在每年的同一日期再次出现。</AlertRitualComingExtra>
   <!-- EN: {0} on {1}, {2} left -->
-  <AlertRitualComingEntry>{0}在{1}，剩余{2}</AlertRitualComingEntry>
+  <AlertRitualComingEntry>{0}在{1}， 剩余{2}</AlertRitualComingEntry>
 
   <!-- EN: Age reversal demanded -->
   <AlertAgeReversalDemandNear>要求年龄逆转</AlertAgeReversalDemandNear>
   <!-- EN: Because of their beliefs, some of your colonists demand regular age reversal treatments in a biosculpter pod. If they don't get the treatments, they will be displeased.\n\nThe following people demand age reversal treatment -->
-  <AlertAgeReversalDemandDesc>基于其信仰，一部分你的殖民者要求在塑形舱内进行年龄逆转治疗，如果他们未能实行治疗，则将会不满意。\n\n 以下是要求实行年龄逆转治疗的名单：</AlertAgeReversalDemandDesc>
+  <AlertAgeReversalDemandDesc>基于其信仰， 一部分你的殖民者要求在塑形舱内进行年龄逆转治疗， 如果他们未能实行治疗， 则将会不满意。 \n\n 以下是要求实行年龄逆转治疗的名单：</AlertAgeReversalDemandDesc>
   <!-- EN: {PAWN} joined {FACTION} recently, and wants to begin age reversal treatments in {DURATION}. -->
-  <AlertAgeReversalDemandDesc_Recruit>{PAWN}于近期加入了{FACTION}，且希望能够在{DURATION}内开始其年龄逆转治疗。</AlertAgeReversalDemandDesc_Recruit>
+  <AlertAgeReversalDemandDesc_Recruit>{PAWN}于近期加入了{FACTION}， 且希望能够在{DURATION}内开始其年龄逆转治疗。</AlertAgeReversalDemandDesc_Recruit>
   <!-- EN: {PAWN} wants their next treatment in {DURATION}. -->
   <AlertAgeReversalDemandDesc_Next>{PAWN}希望在{DURATION}内进行其下一次治疗。</AlertAgeReversalDemandDesc_Next>
   <!-- EN: {PAWN} wants their first treatment in {DURATION}. -->
@@ -105,26 +105,26 @@
   <!-- EN: Dryad caste not set -->
   <AlertGauranlenTreeWithoutDryadTypeLabel>未设置树精品种</AlertGauranlenTreeWithoutDryadTypeLabel>
   <!-- EN: One or more Gauranlen trees do not have their dryad caste set.\n\nSelect the tree and click the '{0}' button to set produced dryad caste. -->
-  <AlertGauranlenTreeWithoutDryadTypeDesc>一个或多个母树未设置其树精品种。\n\n 选择母树并按下{0} 来设置树精的品种。</AlertGauranlenTreeWithoutDryadTypeDesc>
+  <AlertGauranlenTreeWithoutDryadTypeDesc>一个或多个母树未设置其树精品种。 \n\n 选择母树并按下{0} 来设置树精的品种。</AlertGauranlenTreeWithoutDryadTypeDesc>
   <!-- EN: Connector not assigned to plant cutting -->
   <AlertConnectedPawnNotAssignedToPlantCuttingLabel>母树共鸣者未指派割除工作</AlertConnectedPawnNotAssignedToPlantCuttingLabel>
   <!-- EN: You have Gauranlen trees which are set to be pruned, but their connectors are not assigned to plant cutting.\n\nYou should assign plant cutting work to the following people -->
-  <AlertConnectedPawnNotAssignedToPlantCuttingDesc>你有需要护理的母树，但它们的共鸣者未被指派割除工作。\n\n你应该为以下人员指定割除工作</AlertConnectedPawnNotAssignedToPlantCuttingDesc>
+  <AlertConnectedPawnNotAssignedToPlantCuttingDesc>你有需要护理的母树， 但它们的共鸣者未被指派割除工作。 \n\n你应该为以下人员指定割除工作</AlertConnectedPawnNotAssignedToPlantCuttingDesc>
 
   <!-- EN: Fuel node explodes in {0} -->
   <AlertFuelNodeIgniting>燃油站将在{0}后爆炸</AlertFuelNodeIgniting>
   <!-- EN: A fuel node has ignited! It will melt down and explode very soon.\n\nGet away and be ready to fight or escape the fires. -->
-  <AlertFuelNodeIgnitingDesc>一个燃油站已被点燃！它很快就会熔化并爆炸。\n\n 跑远点并准备好面对大火吧。</AlertFuelNodeIgnitingDesc>
+  <AlertFuelNodeIgnitingDesc>一个燃油站已被点燃！它很快就会熔化并爆炸。 \n\n 跑远点并准备好面对大火吧。</AlertFuelNodeIgnitingDesc>
 
   <!-- EN: Insects arriving in {0} -->
   <AlertInfestationArriving>虫子将于{0}后到达</AlertInfestationArriving>
   <!-- EN: Giant insects have sensed your activity and are burrowing up from underground to attack. Infestations are about to begin. -->
-  <AlertInfestationArrivingDesc>巨型虫子已感应到你的行动并正在地面下准备攻击，虫灾即将开始。</AlertInfestationArrivingDesc>
+  <AlertInfestationArrivingDesc>巨型虫子已感应到你的行动并正在地面下准备攻击， 虫灾即将开始。</AlertInfestationArrivingDesc>
 
   <!-- EN: {0_pawnsPlural} waking in {1} -->
   <AlertHostilesWakingUp>{0_pawnsPlural}将在{1}内醒来</AlertHostilesWakingUp>
   <!-- EN: One or more {0_pawnsPlural} are waking up.\n\nThey will attack if they find you. -->
-  <AlertHostilesWakingUpDesc>一个或多个{0_pawnsPlural}正在醒来\n\n，他们将在发现你后攻击。</AlertHostilesWakingUpDesc>
+  <AlertHostilesWakingUpDesc>一个或多个{0_pawnsPlural}正在醒来\n\n， 他们将在发现你后攻击。</AlertHostilesWakingUpDesc>
 
   <!-- EN: Cryptosleep caskets opening in {0} -->
   <AlertCasketOpening>休眠舱即将于{0}后解冻</AlertCasketOpening>
@@ -136,6 +136,6 @@
   <!-- EN: There are {REBELLIOUSCOUNT} slaves that are likely to initiate a rebellion. -->
   <AlertSlaveRebellionLikelyRebelliousCount>有{REBELLIOUSCOUNT}奴隶开始蠢蠢欲动。</AlertSlaveRebellionLikelyRebelliousCount>
   <!-- EN: A slave rebellion is expected to happen roughly once every {COMBINEDTIME}. Note that each slave's rebellion chance is independent, so if any one of them rebels they can take others with them.\n\n{REBEL_labelShort} is the most rebellious slave and is expected to initiate a rebellion roughly once every {INDIVIDUALTIME}. The following factors are affecting how often they will rebel: -->
-  <AlertSlaveRebellionLikelyMostRebellious>奴隶叛乱大约每{COMBINEDTIME}发生一次。奴隶们并没有相互通告叛乱计划，各自都会自己考虑叛乱。如果任何一个奴隶发起了叛乱，在附近的其他奴隶就有可能会加入。\n\n{REBEL_labelShort}的反抗欲望最强，预计大约每 {INDIVIDUALTIME} 就会发起一次叛乱。\n\n这些因素会影响他们叛乱：</AlertSlaveRebellionLikelyMostRebellious>
+  <AlertSlaveRebellionLikelyMostRebellious>奴隶叛乱大约每{COMBINEDTIME}发生一次。 奴隶们并没有相互通告叛乱计划， 各自都会自己考虑叛乱。 如果任何一个奴隶发起了叛乱， 在附近的其他奴隶就有可能会加入。 \n\n{REBEL_labelShort}的反抗欲望最强， 预计大约每 {INDIVIDUALTIME} 就会发起一次叛乱。 \n\n这些因素会影响他们叛乱：</AlertSlaveRebellionLikelyMostRebellious>
   
 </LanguageData>

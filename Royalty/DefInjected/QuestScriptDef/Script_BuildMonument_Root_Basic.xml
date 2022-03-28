@@ -7,9 +7,9 @@
     <li>dontDestroyMonument->\n\nIf the monument is destroyed within [keepMonumentTicks_duration] days of construction, your relations with [asker_factionName] will fall by [goodwillChangeIfMonumentDestroyed].</li>
   -->
   <BuildMonument_Basic.questDescriptionRules.rulesStrings>
-    <li>commonEnding->这个[monumentSize]尺寸的纪念碑需要这些资源（总价值 [monumentRequiredResourcesMarketValue_money]）：\n\n[monumentRequiredResources]\n\n这个结构必须在接受任务后的 [constructionTimeoutTicks_duration] 内完成。当你完成结构之后会获得奖励。[dontDestroyMonument]</li>
+    <li>commonEnding->这个[monumentSize]尺寸的纪念碑需要这些资源（总价值 [monumentRequiredResourcesMarketValue_money]）：\n\n[monumentRequiredResources]\n\n这个结构必须在接受任务后的 [constructionTimeoutTicks_duration] 内完成。 当你完成结构之后会获得奖励。 [dontDestroyMonument]</li>
     <li>dontDestroyMonument(priority=-10)-></li>
-    <li>dontDestroyMonument->\n\n如果在 [keepMonumentTicks_duration]内这个纪念碑结构被破坏，你和[asker_factionName]的关系会下降[goodwillChangeIfMonumentDestroyed]。</li>
+    <li>dontDestroyMonument->\n\n如果在 [keepMonumentTicks_duration]内这个纪念碑结构被破坏， 你和[asker_factionName]的关系会下降[goodwillChangeIfMonumentDestroyed]。</li>
   </BuildMonument_Basic.questDescriptionRules.rulesStrings>
   
 </LanguageData>
