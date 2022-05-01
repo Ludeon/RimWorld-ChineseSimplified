@@ -19,14 +19,14 @@
   <CombatCommand.description>创造一个提升附近所有人战斗技能的光环。该光环效果会在首领周围一定范围内持续生效24小时。</CombatCommand.description>
   
   <!-- EN: conversion ritual -->
-  <ConversionRitual.label>转化仪式</ConversionRitual.label>
+  <ConversionRitual.label>教化仪式</ConversionRitual.label>
   <!-- EN: Try to persuade someone to adopt your beliefs. If it goes well, they will lose some certainty in their ideoligion and may convert. If it backfires, they will gain certainty in their old beliefs.\n\nTo start this ritual at a specific place, select a ritual spot or matching altar/ideogram. -->
   <ConversionRitual.description>试着劝说某人采纳你的文化形态。如果进展顺利，他们就会失去对自己某些文化形态的认可，并有可能可能改变文化形态。如果效果不好，他们会更加坚定自己原有的文化形态。\n\n需要选择一个特定的仪式地点，并且要有匹配的祭坛或者文化符号才能开始仪式。</ConversionRitual.description>
   
   <!-- EN: convert -->
   <Convert.label>教化</Convert.label>
   <!-- EN: Attempt to convert someone to the speaker's ideoligion. This will reduce the target's certainty in their own beliefs. The certainty reduction depends on the speaker's negotiation ability. -->
-  <Convert.description>试图通过教化将某人的不同文化形态转化至谈话者己方文化形态。这将减少目标对自己文化形态的认可度。降低程度取决于谈话者的谈判能力。</Convert.description>
+  <Convert.description>试图通过教化将某人的不同文化形态改变至谈话者己方文化形态。这将减少目标对自己文化形态的认可度。降低程度取决于谈话者的谈判能力。</Convert.description>
   <!-- EN: {INITIATOR_labelShort} failed to convert {RECIPIENT_labelShort}. {RECIPIENT_labelShort} was upset by the attempt, but {RECIPIENT_possessive} certainty fell from {CERTAINTYBEFORE} to {CERTAINTYAFTER}. -->
   <Convert.comps.CompAbilityEffect_Convert.failMessage>{INITIATOR_labelShort}未能成功教化{RECIPIENT_labelShort}。{RECIPIENT_labelShort}对这种试探行为感到厌烦，不过{RECIPIENT_possessive}认可度从{CERTAINTYBEFORE}下降到{CERTAINTYAFTER}。</Convert.comps.CompAbilityEffect_Convert.failMessage>
   <!-- EN: {INITIATOR_labelShort} has converted {RECIPIENT_labelShort} to {IDEO}. -->
