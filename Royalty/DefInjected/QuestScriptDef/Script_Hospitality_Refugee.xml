@@ -176,11 +176,11 @@
     <li>questDescription->[approachInfo] [claimInfo] [asker_nameDef] 请求你允许在 [map_definite] 待上 [questDurationTicks_duration] 来让[lodgersPronoun]能够重整旗鼓。\n\n作为回报， [lodgersPronoun] [offer] 在此期间内免费为你工作和战斗。\n\n[joinInfo] [lodgersPronoun] 可能会在过后酬谢你对[lodgersObjective]的帮助 —— 但你没有办法知晓[lodgersPossessive]的真实意图。\n\n[travelerInfo] 不属于任何派系。 如果你愿意，你可以选择杀害、逮捕、出售或者采割[lodgersObjective]， 并且不会产生任何外交后果。</li>
     <li>approachInfo(lodgerCount==1)->名叫[asker_nameDef]的绝望的[faction_pawnSingular]正在靠近。</li>
     <li>approachInfo(lodgerCount==2)->[asker_nameDef]和其他绝望的[faction_pawnSingular]正在靠近。</li>
-    <li>approachInfo(lodgerCount>=3)->[lodgerCount]名绝望的[faction_pawnsPlural]正在靠近， 他们的领导者是[asker_nameDef]。</li>
+    <li>approachInfo(lodgerCount>=3)->[lodgerCount]名绝望的[faction_pawnsPlural]正在靠近， 他们的领袖是[asker_nameDef]。</li>
     <li>claimInfo(lodgerCount==1)->[asker_nameDef] 声称[asker_possessive]在最近一次袭击中失去了家园。</li>
     <li>claimInfo(lodgerCount==1)->[asker_nameDef] 声称自己孤零零地从一个冷冻休眠舱中醒来。</li>
     <li>claimInfo(lodgerCount==1)->[asker_nameDef] 声称被[asker_possessive]前情人从家中赶了出来。</li>
-    <li>claimInfo(lodgerCount==1)->[asker_nameDef] 声称因为和社区领导争吵被驱逐。</li>
+    <li>claimInfo(lodgerCount==1)->[asker_nameDef] 声称因为和社区领袖争吵被驱逐。</li>
     <li>claimInfo(lodgerCount>=2)->他们声称在最近一次袭击中失去了家园。</li>
     <li>claimInfo(lodgerCount>=2)->他们声称逃离了器官采割手术。</li>
     <li>claimInfo(lodgerCount>=2)->他们说他们是从一个奴隶商队中逃出来的。</li>
