@@ -10,6 +10,8 @@
   <AddBillSimpleMeal.rejectInputMessage>请在炉子上下达烹饪清单。</AddBillSimpleMeal.rejectInputMessage>
   <!-- EN: Colonists need to be told what to cook.\n\nCooking orders are added on the stove itself. Once a bill has been created, colonists will do the work automatically.\n\n1. Wait for the stove to be built.\n2. Click the stove to select it.\n3. Open the BILLS tab.\n4. Click ADD BILL.\n5. Select COOK SIMPLE MEAL on the context menu.\n6. Click the + button to increase the count to 10.\n\nRemember, you can speed up time if building is taking too long.\n\nYou can also select a colonist and right-click the stove to prioritize building it. -->
   <AddBillSimpleMeal.text>现在你可以安排殖民者来做饭了。\n\n对炉子下达特定的烹饪清单后，殖民者们就会开始做饭。\n\n1. 等待炉子建好\n2. 在菜单中选择「烹饪简单食物」\n3. 将清单数量调整至「10」\n\n记住，你可以随时加速时间流逝速度。你还可以选中殖民者并右击炉灶以优先进行烹饪。</AddBillSimpleMeal.text>
+  <!-- EN: Colonists need to be told what to cook.\n\nCooking orders are added on the stove itself. Once a bill has been created, colonists will do the work automatically.\n\n1. Wait for the stove to be built.\n2. Click the stove to select it.\n3. Open the BILLS tab.\n4. Click ADD BILL.\n5. Select COOK SIMPLE MEAL on the context menu.\n6. Click the + button to increase the count to 10.\n\nRemember, you can speed up time if building is taking too long.\n\nYou can also select a colonist and press left trigger button on the stove to prioritize building it. -->
+  <AddBillSimpleMeal.textController>现在你可以安排殖民者来做饭了。\n\n对炉子下达特定的烹饪清单后，殖民者们就会开始做饭。\n\n1. 等待炉子建好\n2. 在菜单中选择「烹饪简单食物」\n3. 将清单数量调整至「10」\n\n记住，你可以随时加速时间流逝速度。你还可以选中殖民者并对炉灶点击左扳机键以优先进行烹饪。</AddBillSimpleMeal.textController>
   
   <!-- EN: Build an animal sleeping spot\ninside the room -->
   <BuildAnimalSleepingSpot.onMapInstruction>请给你的宠物在室内指定一个动物睡眠点</BuildAnimalSleepingSpot.onMapInstruction>
@@ -107,11 +109,13 @@
   <DownRaider.rejectInputMessage>请着重关注赢取战斗。</DownRaider.rejectInputMessage>
   <!-- EN: I've now sent a raider to attack your colony!\n\n1. Pause the game by hitting {Key:TogglePause}!\n2. Read the red letter in the bottom-right of the screen.\n3. DRAFT your colonists by selecting them and hitting the DRAFT command.\n4. Right-click to send them to positions inside the sandbag square, touching the sandbags.\n5. Unpause.\n\nColonists must be touching cover to benefit from it. Once you're in cover, wait for the attacker to approach. Your colonists will shoot automatically. -->
   <DownRaider.text>我派了一些掠夺者来攻打你的殖民地！\n\n1. 按下{Key:TogglePause}暂停游戏\n2. 阅读屏幕右侧弹出的红色通知。\n3. 将你的殖民者通过「征召」按钮动员起来，准备战斗！\n4. 右键将你的殖民者派遣至沙袋附近靠近沙袋的位置。\n5. 解除暂停。 \n\n殖民者必须接触到掩体，这样掩体才能生效，一旦敌人进入射程，他们就会自动开火！</DownRaider.text>
+  <!-- EN: I've now sent a raider to attack your colony!\n\n1. Pause the game by hitting {Key:TogglePause}!\n2. Read the red letter in the bottom-right of the screen.\n3. DRAFT your colonists by selecting them and hitting the DRAFT command.\n4. Press left trigger button to send them to positions inside the sandbag square, touching the sandbags.\n5. Unpause.\n\nColonists must be touching cover to benefit from it. Once you're in cover, wait for the attacker to approach. Your colonists will shoot automatically. -->
+  <DownRaider.textController>我派了一些掠夺者来攻打你的殖民地！\n\n1. 按下{Key:TogglePause}暂停游戏\n2. 阅读屏幕右侧弹出的红色通知。\n3. 将你的殖民者通过「征召」按钮动员起来，准备战斗！\n4. 使用左扳机键将你的殖民者派遣至沙袋附近靠近沙袋的位置。\n5. 解除暂停。 \n\n殖民者必须接触到掩体，这样掩体才能生效，一旦敌人进入射程，他们就会自动开火！</DownRaider.textController>
   
   <!-- EN: Right-click to get out of stockpile designating mode. -->
   <EndStockpileDesignating.text>点击右键退出规划模式。</EndStockpileDesignating.text>
-  <!-- EN: Press L2 to get out of stockpile designating mode. -->
-  <EndStockpileDesignating.textController>点击L2退出规划模式。</EndStockpileDesignating.textController>
+  <!-- EN: Press left trigger button to get out of stockpile designating mode. -->
+  <EndStockpileDesignating.textController>点击左扳机键退出规划模式。</EndStockpileDesignating.textController>
   
   <!-- EN: Equip this -->
   <EquipWeapons.onMapInstruction>装备这个</EquipWeapons.onMapInstruction>
@@ -119,8 +123,8 @@
   <EquipWeapons.rejectInputMessage>请给殖民者装备武器</EquipWeapons.rejectInputMessage>
   <!-- EN: Have your colonists equip the starting weapons. To equip a weapon:\n\n1. Click a colonist to select them.\n2. Right-click the weapon you want to equip.\n3. Click 'equip weapon' on the context menu.\n\nDo this for each colonist. -->
   <EquipWeapons.text>把你的殖民者武装起来吧！\n\n1. 选择一个殖民者\n2. 右键你想装备的武器\n3. 选择「装备武器」\n\n给每个人都装备上武器吧！</EquipWeapons.text>
-  <!-- EN: Have your colonists equip the starting weapons. To equip a weapon:\n\n1. Click a colonist to select them.\n2. Hover over the weapon you want to equip and press L2.\n3. Click 'equip weapon' on the context menu.\n\nDo this for each colonist. -->
-  <EquipWeapons.textController>把你的殖民者武装起来吧！\n\n1. 选择一个殖民者\n2. 指针悬停在你想装备的武器上并按下L2\n3. 选择「装备武器」\n\n给每个人都装备上武器吧！</EquipWeapons.textController>
+  <!-- EN: Have your colonists equip the starting weapons. To equip a weapon:\n\n1. Click a colonist to select them.\n2. Hover over the weapon you want to equip and press left trigger button.\n3. Click 'equip weapon' on the context menu.\n\nDo this for each colonist. -->
+  <EquipWeapons.textController>把你的殖民者武装起来吧！\n\n1. 选择一个殖民者\n2. 指针悬停在你想装备的武器上并按下左扳机键。\n3. 选择「装备武器」\n\n给每个人都装备上武器吧！</EquipWeapons.textController>
   
   <!-- EN: Please expand the build roof area a bit, just for practice. -->
   <ExpandAreaBuildRoof.rejectInputMessage>请稍微扩大一些屋顶区域</ExpandAreaBuildRoof.rejectInputMessage>
@@ -158,8 +162,8 @@
   
   <!-- EN: Great!\n\nYou can also zoom in and out with the mouse wheel, or the {Key:MapZoom_In} and {Key:MapZoom_Out} keys.\n\nTry it now! -->
   <MapCameraZoom.text>赞！\n\n通过鼠标滚轮滚动或者使用{Key:MapZoom_In}与{Key:MapZoom_Out}按键来缩放视野！\n\n试试看吧！</MapCameraZoom.text>
-  <!-- EN: Great!\n\nYou can also zoom in and out with the bumpers.\n\nTry it now! -->
-  <MapCameraZoom.textController>赞！\n\n你也可以通过肩键缩放镜头。\n\n试试看吧！</MapCameraZoom.textController>
+  <!-- EN: Great!\n\nYou can also zoom in and out with {Key:MapZoom_In} and {Key:MapZoom_Out}.\n\nTry it now! -->
+  <MapCameraZoom.textController>赞！\n\n你也可以通过{Key:MapZoom_In}与{Key:MapZoom_Out}缩放镜头。\n\n试试看吧！</MapCameraZoom.textController>
   
   <!-- EN: Designate all this\nfor mining -->
   <MineSteel.onMapInstruction>把这些矿都开采出来</MineSteel.onMapInstruction>
@@ -180,8 +184,8 @@
   
   <!-- EN: You can pause time.\n\nThis means you never need to rush. You can always pause and take your time to issue orders.\n\nTry pausing with the {Key:TogglePause} key, or by using the time controls in the bottom right. -->
   <Pause.text>你可以暂停时间！\n\n点击{Key:TogglePause}来暂停/继续游戏。\n\n当你忙得不可开交时，按{Key:TogglePause}就对了！</Pause.text>
-  <!-- EN: You can pause time.\n\nThis means you never need to rush. You can always pause and take your time to issue orders.\n\nTry pausing with the Y button, or by using the time controls in the bottom right. -->
-  <Pause.textController>你可以暂停时间！\n\n这意味着你永远不需要赶时间。你可以随时暂停，慢慢地发布命令。\n\n试着用Y键暂停，或使用右下方的时间控制。</Pause.textController>
+  <!-- EN: You can pause time.\n\nThis means you never need to rush. You can always pause and take your time to issue orders.\n\nTry pausing with the {Key:TogglePause} button, or by using the time controls in the bottom right. -->
+  <Pause.textController>你可以暂停时间！\n\n这意味着你永远不需要赶时间。你可以随时暂停，慢慢地发布命令。\n\n试着用{Key:TogglePause}键暂停，或使用右下方的时间控制。</Pause.textController>
   
   <!-- EN: Please click the RANDOMIZE button to randomize the character. -->
   <RandomizeCharacter.rejectInputMessage>请先点击「随机」按钮以随机化角色</RandomizeCharacter.rejectInputMessage>
@@ -204,13 +208,13 @@
   <SetToGrowRice.rejectInputMessage>请在种植区内选择「水稻」</SetToGrowRice.rejectInputMessage>
   <!-- EN: You can decide what plant your colonists should sow in a growing zone.\n\n1. Right-click to exit architect mode.\n2. Click your growing zone to select it.\n3. Click the plant selector at the bottom and change it to rice. -->
   <SetToGrowRice.text>你能决定在地里种什么。\n\n1. 右键退出规划模式\n2. 左键选中种植区\n3. 在下方的菜单里选择种下「水稻」</SetToGrowRice.text>
-  <!-- EN: You can decide what plant your colonists should sow in a growing zone.\n\n1. Press L2 to exit architect mode.\n2. Click your growing zone to select it.\n3. Click the plant selector at the bottom and change it to rice. -->
-  <SetToGrowRice.textController>你能决定在地里种什么。\n\n1. 按下L2退出规划模式\n2. 选中种植区\n3. 在下方的菜单里选择种下「水稻」</SetToGrowRice.textController>
+  <!-- EN: You can decide what plant your colonists should sow in a growing zone.\n\n1. Press left trigger button to exit architect mode.\n2. Click your growing zone to select it.\n3. Click the plant selector at the bottom and change it to rice. -->
+  <SetToGrowRice.textController>你能决定在地里种什么。\n\n1. 按下左扳机键退出规划模式\n2. 选中种植区\n3. 在下方的菜单里选择种下「水稻」</SetToGrowRice.textController>
   
   <!-- EN: You can also speed up time.\n\nTry controlling time with the {Key:TimeSpeed_Normal}, {Key:TimeSpeed_Fast}, and {Key:TimeSpeed_Superfast} keys, or with the time controls in the bottom right. -->
   <TimeControls.text>你还可以加速时间流逝。\n\n尝试通过{Key:TimeSpeed_Normal}，{Key:TimeSpeed_Fast}，和{Key:TimeSpeed_Superfast}按键来控制时间，或是点击屏幕右下方的按钮。</TimeControls.text>
-  <!-- EN: You can also speed up time.\n\nTry controlling time with the back buttons, or with the time controls in the bottom right. -->
-  <TimeControls.textController>你还可以加速时间流逝。\n\n试着用后退按钮控制时间，或用右下方的时间控制。</TimeControls.textController>
+  <!-- EN: You can also speed up time.\n\nTry controlling time with {Key:TimeSpeed_Faster} and {Key:TimeSpeed_Slower}, or with the time controls in the bottom right. -->
+  <TimeControls.textController>你还可以加速时间流逝。\n\n试着用{Key:TimeSpeed_Faster}与{Key:TimeSpeed_Slower}控制时间，或用右下方的时间控制。</TimeControls.textController>
   
   <!-- EN: Please un-draft your colonists. -->
   <UndraftAll.rejectInputMessage>请解散你的殖民者。</UndraftAll.rejectInputMessage>

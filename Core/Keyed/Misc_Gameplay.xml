@@ -863,6 +863,8 @@
   <SelectNextInSquareTip>选择当前单元格内的下一件东西。\n\n(*SectionTitle)快捷键: (/SectionTitle){0}\n\n你也可用鼠标左键慢速重复点击同个单元格来选择下一件物品。</SelectNextInSquareTip>
   <!-- EN: View information. -->
   <DefInfoTip>查看信息。</DefInfoTip>
+  <!-- EN: Select next thing in same square.\n\nYou can also do this by slowly clicking the same square again. -->
+  <SelectNextInSquareTipController>在同一个方格中选择下一个物体。\n\n你也可以通过略带间隔地再次点击同一个方块来完成此操作。</SelectNextInSquareTipController>
 
   <!-- Hostility response -->
   <!-- EN: Change how this person will react to nearby enemies when not drafted. -->
@@ -1013,12 +1015,14 @@
   <ShowLearningHelperWhenEmptyToggleButton>开关始终显示教学助手。\n\n当没有需要学习的新教程时，教学助手会自动隐藏。开启后，将在学习完所有教程之后继续显示教学助手。</ShowLearningHelperWhenEmptyToggleButton>
   <!-- EN: Toggle visiblity of zones. -->
   <ZoneVisibilityToggleButton>开关区域显示。</ZoneVisibilityToggleButton>
-  <!-- EN: Toggle the beauty display.\n\nDisplays the beauty of the world as would be perceived by a character standing where the mouse is pointing. -->
-  <ShowBeautyToggleButton>开关美观度显示。\n\n显示位于鼠标所指地点的人物将感知到的世界美观度。</ShowBeautyToggleButton>
-  <!-- EN: Toggle room stats display.\n\nDisplays room stats of the room where the mouse is pointing. -->
-  <ShowRoomStatsToggleButton>开关房间状态显示。\n\n显示鼠标所指地点所在房间的房间状态。</ShowRoomStatsToggleButton>
+  <!-- EN: Toggle the beauty display.\n\nDisplays the beauty of the world as would be perceived by a character standing where the cursor is pointing. -->
+  <ShowBeautyToggleButton>开关美观度显示。\n\n显示位于鼠标指针所指地点的人物将感知到的世界美观度。</ShowBeautyToggleButton>
+  <!-- EN: Toggle room stats display.\n\nDisplays room stats of the room where the cursor is pointing. -->
+  <ShowRoomStatsToggleButton>开关房间状态显示。\n\n显示鼠标指针所指地点所在房间的房间状态。</ShowRoomStatsToggleButton>
   <!-- EN: Toggle colonist bar.\n\nDisplays icons and basic status for all colonists along the top of the screen.\n\nYou can reorder the colonists in the colonist bar by right-click and dragging them. -->
-  <ShowColonistBarToggleButton>开关殖民者头像条显示。\n\n开启后，在屏幕上方显示所有殖民者的头像和当前状态。</ShowColonistBarToggleButton>
+  <ShowColonistBarToggleButton>开关殖民者头像条显示。\n\n开启后，在屏幕上方显示所有殖民者的头像和当前状态。\n\n你可以使用右键拖动殖民者头像来重新排列他们。</ShowColonistBarToggleButton>
+  <!-- EN: Toggle colonist bar.\n\nDisplays icons and basic status for all colonists along the top of the screen.\n\nYou can reorder the colonists in the colonist bar by pressing the left trigger button and dragging them. -->
+  <ShowColonistBarToggleButtonController>开关殖民者头像条显示。\n\n开启后，在屏幕上方显示所有殖民者的头像和当前状态。\n\n你可以对殖民者头像按住左扳机键并拖动来重新排列他们。</ShowColonistBarToggleButtonController>
   <!-- EN: Toggle automatically expanding the home area around new constructions. -->
   <AutoHomeAreaToggleButton>开关自动添加居住区\n\n开启后，将自动在新建造的建筑附近添加居住区。</AutoHomeAreaToggleButton>
   <!-- EN: Toggle automatic rebuild of destroyed structures in the home area. -->
@@ -1323,10 +1327,16 @@
   <RoutePlannerUsingTicksPerMoveOfCaravan>计算: {0}</RoutePlannerUsingTicksPerMoveOfCaravan>
   <!-- EN: Right mouse button: Add/remove waypoints. -->
   <RoutePlannerPressRMBToAddAndRemoveWaypoints>鼠标右键: 添加或移除路径点。</RoutePlannerPressRMBToAddAndRemoveWaypoints>
+  <!-- EN: Left trigger button: Add/remove waypoints. -->
+  <RoutePlannerPressRMBToAddAndRemoveWaypointsController>左扳机键: 添加或移除路径点。</RoutePlannerPressRMBToAddAndRemoveWaypointsController>
   <!-- EN: ESC: Exit planning mode. -->
   <RoutePlannerPressEscapeToExit>ESC键: 退出规划模式</RoutePlannerPressEscapeToExit>
+  <!-- EN: {Key:Cancel}: Exit planning mode. -->
+  <RoutePlannerPressEscapeToExitController>{Key:Cancel}: 退出规划模式</RoutePlannerPressEscapeToExitController>
   <!-- EN: ESC: Return to the caravan formation dialog. -->
   <RoutePlannerPressEscapeToReturnToCaravanFormationDialog>ESC键: 返回远行队组建对话框。</RoutePlannerPressEscapeToReturnToCaravanFormationDialog>
+  <!-- EN: {Key:Cancel}: Return to the caravan formation dialog. -->
+  <RoutePlannerPressEscapeToReturnToCaravanFormationDialogController>{Key:Cancel}: 返回远行队组建对话框。</RoutePlannerPressEscapeToReturnToCaravanFormationDialogController>
   <!-- EN: Est. travel time: {0} -->
   <EstimatedTimeToWaypoint>预计用时：{0}</EstimatedTimeToWaypoint>
   <!-- EN: Est. travel time (from previous waypoint): {0} -->
@@ -1512,6 +1522,8 @@
   <NotParticipating>不参与</NotParticipating>
   <!-- EN: Drag and drop or left/right click to move people. -->
   <DragPawnsToRolesInfo>拖放或左/右点击来移动人。</DragPawnsToRolesInfo>
+  <!-- EN: Drag and drop or click to move people. -->
+  <DragPawnsToRolesInfoController>拖放或点击来移动人。</DragPawnsToRolesInfoController>
   <!-- EN: A slave. The human property of others. -->
   <RitualBeginSlaveDesc>一个奴隶。别人的人类财产。</RitualBeginSlaveDesc>
   <!-- EN: {0_labelShort} is sleeping. If included in the ritual, {0_pronoun} will wake up to participate. -->
