@@ -25,11 +25,15 @@
   <CameraDolly.label>镜头移动</CameraDolly.label>
   <!-- EN: Move the camera by clicking and dragging the MOUSE BUTTON 3 (middle button) or with the {Key:MapDolly_Up}-{Key:MapDolly_Left}-{Key:MapDolly_Down}-{Key:MapDolly_Right} keys. -->
   <CameraDolly.helpText>按住「鼠标中键或右键」并拖拽或者使用{Key:MapDolly_Up}-{Key:MapDolly_Left}-{Key:MapDolly_Down}-{Key:MapDolly_Right}按键来移动镜头。</CameraDolly.helpText>
+  <!-- EN: Move the camera by using the D-pad. -->
+  <CameraDolly.helpTextController>使用摇杆移动镜头。</CameraDolly.helpTextController>
   
   <!-- EN: Camera zoom -->
   <CameraZoom.label>镜头缩放</CameraZoom.label>
   <!-- EN: Zoom in and out with the MOUSEWHEEL or the {Key:MapZoom_In} and {Key:MapZoom_Out} keys. -->
   <CameraZoom.helpText>通过「鼠标滚轮」或者{Key:MapZoom_In}和{Key:MapZoom_Out}来缩放镜头。</CameraZoom.helpText>
+  <!-- EN: Zoom in and out with {Key:MapZoom_In} and {Key:MapZoom_Out}. -->
+  <CameraZoom.helpTextController>通过{Key:MapZoom_In}和{Key:MapZoom_Out}来缩放镜头。</CameraZoom.helpTextController>
   
   <!-- EN: Clicking messages -->
   <ClickingMessages.label>点击通知</ClickingMessages.label>
@@ -50,6 +54,8 @@
   <EquippingWeapons.label>装备武器</EquippingWeapons.label>
   <!-- EN: Your colonists arrived with some weapons. Equip them!\n\nSelect each colonist and right-click on the weapon you want them to equip. -->
   <EquippingWeapons.helpText>你的殖民者在抵达时也带来了武器，装备起来！\n\n选择每一个殖民者并在希望装备的武器上点击右键。</EquippingWeapons.helpText>
+  <!-- EN: Your colonists arrived with some weapons. Equip them!\n\nSelect each colonist and press the left trigger on the weapon you want them to equip. -->
+  <EquippingWeapons.helpTextController>你的殖民者在抵达时也带来了武器，装备起来！\n\n选择每一个殖民者并在希望装备的武器上点击左扳机键。</EquippingWeapons.helpTextController>
   
   <!-- EN: Fire preparation -->
   <FirePreparation.label>防火</FirePreparation.label>
@@ -165,6 +171,8 @@
   <TimeControls.label>时间控制</TimeControls.label>
   <!-- EN: You can speed up time.\n\nTry controlling time with the {Key:TimeSpeed_Normal}, {Key:TimeSpeed_Fast}, and {Key:TimeSpeed_Superfast} keys, or with the time controls in the bottom right. -->
   <TimeControls.helpText>你可以加速时间流逝。\n\n尝试通过{Key:TimeSpeed_Normal}，{Key:TimeSpeed_Fast}和{Key:TimeSpeed_Superfast}按键来控制时间，或是点击屏幕右下方的按钮。</TimeControls.helpText>
+  <!-- EN: You can speed up time.\n\nTry controlling time with {Key:TimeSpeed_Faster} and {Key:TimeSpeed_Slower}, or with the time controls in the bottom right. -->
+  <TimeControls.helpTextController>你可以加速时间流逝。\n\n尝试通过{Key:TimeSpeed_Faster}和{Key:TimeSpeed_Slower}按键来控制时间，或是点击屏幕右下方的按钮。</TimeControls.helpTextController>
   
   <!-- EN: Work settings -->
   <WorkTab.label>工作标签页</WorkTab.label>
