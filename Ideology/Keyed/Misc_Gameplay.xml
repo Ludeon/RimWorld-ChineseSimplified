@@ -78,7 +78,7 @@
   <!-- EN: total nearby bodysize per colonist -->
   <VeneratedAnimalsBodySizePerColonist>当前每个殖民者附近的圣兽体型规模</VeneratedAnimalsBodySizePerColonist>
   <!-- EN: Expecting at least {0} body size per colonist. -->
-  <MinAnimalBodySizePerColonist>每名殖民者需要至少{0}动物规模</MinAnimalBodySizePerColonist>
+  <MinAnimalBodySizePerColonist>每名殖民者需要动物规模至少为{0}（相关动物体型的总和）。</MinAnimalBodySizePerColonist>
   <!-- EN: Plant {0_label} -->
   <PlantThing>种植{0_label}</PlantThing>
   <!-- EN: Plant a {0_label} in a chosen area. -->
@@ -152,7 +152,7 @@
   <!-- EN: Contains meat -->
   <MealKindMeat>含肉</MealKindMeat>
   <!-- EN: Acceptable food for everyone -->
-  <MealKindAny>无</MealKindAny>
+  <MealKindAny>无忌口</MealKindAny>
 
   <!-- EN: Could not load ideoligion -->
   <UnableToLoadIdeoTitle>无法载入文化</UnableToLoadIdeoTitle>
@@ -180,29 +180,29 @@
   <!-- EN: Any gathering spot, like a table -->
   <RitualTargetGatherSpotInfo>任意集合点，比如桌子</RitualTargetGatherSpotInfo>
   <!-- EN: Altar or any ritual spot. -->
-  <RitualTargetGatherAltarOrRitualSpotInfo>祭坛或任意仪式点</RitualTargetGatherAltarOrRitualSpotInfo>
+  <RitualTargetGatherAltarOrRitualSpotInfo>祭坛或任意仪式点。</RitualTargetGatherAltarOrRitualSpotInfo>
   <!-- EN: Altar, ideogram or any ritual spot. -->
   <RitualTargetGatherAltarIdeogramOrRitualSpotInfo>祭坛、符号图像或者任意仪式点。</RitualTargetGatherAltarIdeogramOrRitualSpotInfo>
   <!-- EN: A lightball or ritual spot. Lightball and loudspeakers must be powered. -->
   <RitualTargetLightBallInfo>一个灯球或仪式点，灯球和音响必须通电。</RitualTargetLightBallInfo>
   <!-- EN: Lightball is not powered. -->
-  <RitualTargetLightBallIsNotPowered>灯球未通电</RitualTargetLightBallIsNotPowered>
+  <RitualTargetLightBallIsNotPowered>灯球未通电。</RitualTargetLightBallIsNotPowered>
   <!-- EN: No powered speakers. -->
-  <RitualTargetNoPoweredSpeakers>没有通电的音响</RitualTargetNoPoweredSpeakers>
+  <RitualTargetNoPoweredSpeakers>没有通电的音响。</RitualTargetNoPoweredSpeakers>
   <!-- EN: Campfire is not fueled. -->
-  <RitualTargetCampfireNoFuel>营火没有燃料</RitualTargetCampfireNoFuel>
+  <RitualTargetCampfireNoFuel>营火没有燃料。</RitualTargetCampfireNoFuel>
   <!-- EN: Campfire must be unroofed. -->
   <RitualTargetCampfireMustBeUnroofed>营火必须在屋顶外。</RitualTargetCampfireMustBeUnroofed>
   <!-- EN: No nearby drum. -->
-  <RitualTargetNoDrum>未找到附近的鼓</RitualTargetNoDrum>
+  <RitualTargetNoDrum>未找到附近的鼓。</RitualTargetNoDrum>
   <!-- EN: Need at least {0} unroofed cells nearby. -->
-  <RitualTargetNeedUnroofedCells>附近需要至少{0}格未被屋顶覆盖的区域</RitualTargetNeedUnroofedCells>
+  <RitualTargetNeedUnroofedCells>附近需要至少{0}格未被屋顶覆盖的区域。</RitualTargetNeedUnroofedCells>
   <!-- EN: A lit campfire or ritual spot. -->
-  <RitualTargetCampfirePartyInfo>一个点燃的营火或仪式点</RitualTargetCampfirePartyInfo>
+  <RitualTargetCampfirePartyInfo>一个点燃的营火或仪式点。</RitualTargetCampfirePartyInfo>
   <!-- EN: A lit campfire or ritual spot. Spot must be unroofed with at least 25 unroofed cells in the area. -->
-  <RitualTargetCampfireSkylanternsInfo>一个点燃的营火，或仪式点，场地附近需要有至少25格无屋顶的空间</RitualTargetCampfireSkylanternsInfo>
+  <RitualTargetCampfireSkylanternsInfo>一个点燃的营火，或仪式点，场地附近需要有至少25格无屋顶的空间。</RitualTargetCampfireSkylanternsInfo>
   <!-- EN: An unconnected Gauranlen tree. -->
-  <RitualTargetUnconnectedGaruanlenTreeInfo>一棵未共鸣的母树</RitualTargetUnconnectedGaruanlenTreeInfo>
+  <RitualTargetUnconnectedGaruanlenTreeInfo>一棵未共鸣的母树。</RitualTargetUnconnectedGaruanlenTreeInfo>
   <!-- EN: Already connected to {PAWN_nameDef} -->
   <RitualTargetConnectedGauranlenTree>已经与{PAWN_nameDef}共鸣</RitualTargetConnectedGauranlenTree>
   <!-- EN: {TREE_definite} has had its connection torn recently. It can connect again in {1}. -->
@@ -214,11 +214,11 @@
   <!-- EN: {PAWN_labelShort} does not believe in ideoligious scarification and will not like being scarified. -->
   <RitualScarificationWarnNonScarificationIdeo>{PAWN_labelShort}不认同此文化的牺牲行为，因此不愿作为祭品。</RitualScarificationWarnNonScarificationIdeo>
   <!-- EN: {PAWN_labelShort} is a wimp and will not like being scarified. -->
-  <RitualScarificationWarnWimp>{PAWN_labelShort}因其懦弱特质而拒绝成为祭品</RitualScarificationWarnWimp>
+  <RitualScarificationWarnWimp>{PAWN_labelShort}因其懦弱特质而拒绝成为祭品。</RitualScarificationWarnWimp>
   <!-- EN: {PAWN_labelShort} does not believe in ideoligious blinding and will not like being blinded. -->
   <RitualBlindingWarnNonBlindingIdeo>{PAWN_labelShort}不认同此文化的致盲行为，因此不愿被致盲。</RitualBlindingWarnNonBlindingIdeo>
   <!-- EN: {PAWN_labelShort} is a wimp and will not like being blinded. -->
-  <RitualBlindingWarnWimp>{PAWN_labelShort}因其懦弱特质而拒绝被致盲</RitualBlindingWarnWimp>
+  <RitualBlindingWarnWimp>{PAWN_labelShort}因其懦弱特质而拒绝被致盲。</RitualBlindingWarnWimp>
   <!-- EN: Scarification is expected for {IDEOMEMBERPLURAL} as long as there are fewer than {0} scarified {IDEOMEMBERPLURAL}. -->
   <RitualScarificationTriggerExtraDesc>{IDEOMEMBERPLURAL}殖民者会在疤痕化的{IDEOMEMBERPLURAL}人数低于{0}时渴望刻印仪式。</RitualScarificationTriggerExtraDesc>
   <!-- EN: Blinding is expected for each current and joining {IDEOMEMBER} colonist. -->
@@ -229,11 +229,11 @@
   <!-- EN: Thanks to a satisfying blinding ritual, {PAWN_labelShort} gained a psylink level! -->
   <RitualOutcomeExtraDesc_BlindingPsylink>受益于成功的致盲献祭仪式，{PAWN_labelShort}获得了一个启灵等级！</RitualOutcomeExtraDesc_BlindingPsylink>
   <!-- EN: With a new pyslink level {PAWN_pronoun} gained a {0} psycast. -->
-  <RitualOutcomeExtraDesc_BlindingPsylinkAbility>{PAWN_pronoun}基于其新的启灵等级，获得了心灵能力{0}</RitualOutcomeExtraDesc_BlindingPsylinkAbility>
+  <RitualOutcomeExtraDesc_BlindingPsylinkAbility>{PAWN_pronoun}基于其新的启灵等级，获得了心灵能力{0}。</RitualOutcomeExtraDesc_BlindingPsylinkAbility>
   <!-- EN: Thanks to a satisfying {RITUAL}, {PAWN_labelShort} gained {INSPIRATION}! -->
   <RitualOutcomeExtraDesc_ConsumableInspiration>受益于成功的{RITUAL} ，{PAWN_labelShort}获得了{INSPIRATION}！</RitualOutcomeExtraDesc_ConsumableInspiration>
   <!-- EN: Your skylanterns have attracted some friendly travelers. They will visit and leave a gift. -->
-  <RitualOutcomeExtraDesc_SkylanternWanderers>你的天灯吸引了一些友善的旅行者，他们将会来拜访你的殖民地并留下礼物</RitualOutcomeExtraDesc_SkylanternWanderers>
+  <RitualOutcomeExtraDesc_SkylanternWanderers>你的天灯吸引了一些友善的旅行者，他们将会来拜访你的殖民地并留下礼物。</RitualOutcomeExtraDesc_SkylanternWanderers>
   <!-- EN: All participating slaves were shaken by the sight of death. Their suppression has been raised to its maximum level. -->
   <RitualOutcomeExtraDesc_Execution>所有参与此仪式的奴隶均被目睹死亡所震撼，它们的镇压值已补满。</RitualOutcomeExtraDesc_Execution>
   
@@ -347,7 +347,7 @@
   <!-- EN: This role becomes active when your faction has {1} {0}. It becomes inactive when your faction has only {3} {2}. -->
   <RoleBelieverCountDesc>此角色将在你的派系拥有{1}{0}时可用，将在你的派系只有{3}{2}时不再可用。</RoleBelieverCountDesc>
   <!-- EN: Raised by {0} levels. -->
-  <RoleExpectationOffset>提升了{0}级。</RoleExpectationOffset>
+  <RoleExpectationOffset>偏移了{0}级。</RoleExpectationOffset>
   <!-- EN: The {0} has higher expectations. -->
   <RoleRaisedExpectation>{0}有更高的期望。</RoleRaisedExpectation>
   <!-- EN: The {0} will have higher expectations in {1}. -->
@@ -364,10 +364,10 @@
   <AbilityDisabledNoRitualSpot>没有可达的仪式点。</AbilityDisabledNoRitualSpot>
 
   <!-- EN: Will\n{0} to {1} -->
-  <TextMote_WillReduced>期望降低：{0}到{1}</TextMote_WillReduced>
+  <TextMote_WillReduced>期望：{0}到{1}</TextMote_WillReduced>
 
   <!-- EN: Accepting this join offer is an act of charity. If you refuse, the following people will be unhappy due to their pro-charity beliefs:\n{0}\n\nAre you sure you want to reject this join offer? -->
-  <ConfirmationCharityJoiner>接受此加入要求是一种慈善行为，如果你拒绝：以下这些人将因其慈善相关信仰而不满：\n {0} \n \n 你确定要拒绝此加入申请？</ConfirmationCharityJoiner>
+  <ConfirmationCharityJoiner>接受此加入请求是一种慈善行为，如果你拒绝，以下这些人将因其慈善相关信仰而不满：\n{0}\n\n你确定要拒绝此加入申请？</ConfirmationCharityJoiner>
 
   <!-- EN: Believers in {0} ({1}) -->
   <BelieversIn>信仰{0}的信徒（{1}）</BelieversIn>
