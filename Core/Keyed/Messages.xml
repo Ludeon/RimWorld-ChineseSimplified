@@ -174,7 +174,7 @@
   <!-- EN: {PAWN_labelShort} has suffered {1} points of brain damage due to {2}. -->
   <MessageReceivedBrainDamageFromHediff>{PAWN_labelShort}因{2}而遭受{1}点脑损伤。</MessageReceivedBrainDamageFromHediff>
   <!-- EN: {PAWN_labelShort} has exceeded the normal limit of neural heat. -->
-  <MessageWentOverPsychicEntropyLimit>{PAWN_labelShort}已经超过了心灵熵值的常规限制。</MessageWentOverPsychicEntropyLimit>
+  <MessageWentOverPsychicEntropyLimit>{PAWN_labelShort}已经超过了心灵熵值的限制阈值。</MessageWentOverPsychicEntropyLimit>
 
   <!-- EN: No handler can tame {ANIMAL_kindBase} (requires level {1} in {2}, best handler {HANDLER_labelShort} has {4}). -->
   <MessageNoHandlerSkilledEnough>无人可以驯服{ANIMAL_kindBase}（要求{2}{1}级，技能最高的驯兽师{HANDLER_labelShort}为{4}级）。</MessageNoHandlerSkilledEnough>
@@ -369,7 +369,7 @@
   <MessageReleaseBondedAnimal>因为他们有牵绊关系，释放{DESIGNATED_labelShort}将使{BONDED_labelShort}不高兴。</MessageReleaseBondedAnimal>
   
   <!-- EN: {0} has run out of food. -->
-  <MessageCaravanRanOutOfFood>{0}的食物已耗尽({PAWN_label})。</MessageCaravanRanOutOfFood>
+  <MessageCaravanRanOutOfFood>{0}的食物已耗尽。</MessageCaravanRanOutOfFood>
   <!-- EN: {PAWN_definite}'s corpse has been picked up by the caravan. It is heavy and may immobilize the caravan, but can be left behind in the caravan items tab. -->
   <MessageCaravanDeathCorpseAddedToInventory>{PAWN_definite}的尸体被商队拾起。因为尸体很重，可能会限制商队的行动，可以在商队的「物品」选项卡找到并丢弃。</MessageCaravanDeathCorpseAddedToInventory>
 
