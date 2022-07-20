@@ -301,7 +301,7 @@
   <!-- EN: Custom playstyle settings -->
   <DifficultyCustomSectionLabel>自定义游戏模式设置</DifficultyCustomSectionLabel>
   <!-- EN: Set to standard playstyle... -->
-  <DifficultyReset>设置为模板...</DifficultyReset>
+  <DifficultyReset>导入基础模板...</DifficultyReset>
   
   <!-- EN: Threats -->
   <DifficultyThreatSection>威胁</DifficultyThreatSection>
@@ -318,9 +318,9 @@
   <!-- EN: Allow quests to present with violent threats and challenges. If this is disabled, quests will be modified to be non-violent. -->
   <Difficulty_AllowViolentQuests_Info>允许任务中出现暴力威胁和挑战。如果此选项关闭，那么任务将会更改为非暴力类型。</Difficulty_AllowViolentQuests_Info>
   <!-- EN: Intro threats -->
-  <Difficulty_AllowIntroThreats_Label>介绍性威胁</Difficulty_AllowIntroThreats_Label>
+  <Difficulty_AllowIntroThreats_Label>引导型威胁</Difficulty_AllowIntroThreats_Label>
   <!-- EN: Enable the fixed intro threats that appear near game start. -->
-  <Difficulty_AllowIntroThreats_Info>允许强制在游戏开始时出现一个介绍性的威胁。</Difficulty_AllowIntroThreats_Info>
+  <Difficulty_AllowIntroThreats_Info>允许强制在游戏开始时出现一个引导型的威胁。</Difficulty_AllowIntroThreats_Info>
   <!-- EN: Predators hunt humans -->
   <Difficulty_PredatorsHuntHumanlikes_Label>捕食者猎杀人类</Difficulty_PredatorsHuntHumanlikes_Label>
   <!-- EN: Allow wild predators to hunt humans. -->
@@ -357,7 +357,7 @@
   <!-- EN: Adjust the value of rewards given for quests.\n\nNote: Quest reward value is also automatically scaled to compensate for threat scale. If you adjust this setting, you'll be adding an additional multiplier. -->
   <Difficulty_QuestRewardValueFactor_Info>调整任务给与的奖励数值。\n\n注：任务奖励也会自动根据威胁等级进行补偿调整。如果你调整了这个选项，你会获得一个额外的乘数。</Difficulty_QuestRewardValueFactor_Info>
   <!-- EN: Raid loot -->
-  <Difficulty_RaidLootPointsFactor_Label>赃物</Difficulty_RaidLootPointsFactor_Label>
+  <Difficulty_RaidLootPointsFactor_Label>战利品</Difficulty_RaidLootPointsFactor_Label>
   <!-- EN: Adjust the value of loot carried by raiders.\n\nNote: Raid loot value is also automatically scaled to compensate for threat scale. If you adjust this setting, you'll be adding an additional multiplier. -->
   <Difficulty_RaidLootPointsFactor_Info>调整袭击者携带的战利品数量。\n\n注：袭击战利品也会自动根据威胁等级进行补偿调整。如果你调整了这个选项，你会获得一个额外的乘数。</Difficulty_RaidLootPointsFactor_Info>
   <!-- EN: Turret rearm cost -->
@@ -459,7 +459,7 @@
   <Difficulty_FixedWealthTimeFactor_Info>在固定财富模式下，达到最大威胁等级所需的游戏年数。\n\n注意，故事叙述者依然会根据殖民者数量和其他各种因素来调整威胁强度。</Difficulty_FixedWealthTimeFactor_Info>
 
   <!-- EN: Ideology -->
-  <DifficultyIdeologySection>文化形态</DifficultyIdeologySection>
+  <DifficultyIdeologySection>文化</DifficultyIdeologySection>
   <!-- EN: Low pop conversion boost -->
   <Difficulty_LowPopConversionBoost_Label>低人口教化补正</Difficulty_LowPopConversionBoost_Label>
   <!-- EN: With a single colonist of the player's starting ideoligion, conversion chance to his ideoligion is multiplied by this amount. Conversion attempts against them have their impact divided by that amount.\n\nWith two colonists of the player's starting ideoligion, the effect is halved.\n\nWith three or more colonists of the player's starting ideoligion, this has no effect. -->
