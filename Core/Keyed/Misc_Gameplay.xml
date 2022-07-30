@@ -824,7 +824,7 @@
   <!-- EN: {0} under {1}\nHome faction: {2} -->
   <PawnMainDescTempFactionedWrap>{1}下属的{0}\n原派系：{2}</PawnMainDescTempFactionedWrap>
   <!-- EN: {2_lifeStageAdjective} {0} -->
-  <PawnMainDescLifestageWrap>{2_lifeStageAdjective} {0}</PawnMainDescLifestageWrap>
+  <PawnMainDescLifestageWrap>{2_lifeStageAdjective}{0}</PawnMainDescLifestageWrap>
   <!-- EN: Faction -->
   <Faction>派系</Faction>
   <!-- EN: The faction {PAWN_labelShort} currently belongs to. -->
@@ -1607,7 +1607,7 @@
   <!-- EN: {0} quality -->
   <OutcomeBonusDesc_QualitySingleOffset>{0}效果</OutcomeBonusDesc_QualitySingleOffset>
   <!-- EN: {OUTCOMELABEL} {RITUALLABEL} -->
-  <OutcomeLetterLabel>{OUTCOMELABEL} {RITUALLABEL}</OutcomeLetterLabel>
+  <OutcomeLetterLabel>{OUTCOMELABEL}{RITUALLABEL}</OutcomeLetterLabel>
   <!-- EN: {0} max -->
   <MaxValue>{0}最高</MaxValue>
 
