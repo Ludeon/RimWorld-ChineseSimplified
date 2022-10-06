@@ -46,17 +46,6 @@
     <li>mutinyLetterText->[lodgersSingularOrPluralDef] [whoAskedToStay] [areIs] turning against you!\n\nIt seems [lodgersPronoun] had this treachery planned all along.</li>
     <li>areIs(lodgerCount==1)->is</li>
     <li>areIs(lodgerCount>=2)->are</li>
-    <li>betrayalOfferLetterLabel->Betrayal offer: [factionOpponent_nameDef]</li>
-    <li>betrayalOffserLetterText->[factionOpponent_nameDef], a [factionOpponent_faction_pawnSingular] of [factionOpponent_faction_name], has learned that [asker_nameDef] [otherLodgers] [areIs] being hosted at [map_definite]. [factionOpponent_pronoun] is enemies with [asker_nameDef] and wants to see [asker_objective] dead.\n\n[factionOpponent_pronoun] will send you the following reward if you kill all members of [faction_name] (total value [betrayalRewardMarketValue_money]):\n\n[betrayalRewards]</li>
-    <li>betrayalOfferRewardLetterLabel->Betrayal reward: [factionOpponent_nameDef]</li>
-    <li>betrayalOfferRewardLetterText->[factionOpponent_nameDef] promised you a reward if you killed [asker_nameDef] [otherMembers]. [factionOpponent_pronoun] has heard news this has been done and is sending you the following via drop pod (total value [betrayalRewardMarketValue_money]):\n\n[betrayalRewards].\n\n[questOver]</li>
-    <li>betrayalOfferFailedLetterLabel->Betrayal reward retracted</li>
-    <li>betrayalOfferFailedLetterText->[factionOpponent_nameDef] has learned that one of the members of the [faction_name] is no longer at [map_definite]. [factionOpponent_nameDef] wanted all members of the [faction_name] to die and has therefore retracted [factionOpponent_possessive] offer.</li>
-    <li>otherLodgers(lodgerCount==1)-></li>
-    <li>otherLodgers(lodgerCount==2)->and another [lodgersLabel]</li>
-    <li>otherLodgers(lodgerCount>=3)->and several [lodgersLabelPlural]</li>
-    <li>otherMembers(lodgerCount==1)-></li>
-    <li>otherMembers(lodgerCount>=2)-> and all other members of the [faction_name]</li>
     <li>lodgersLeavingLetterLabel->[lodgersLabelSingularOrPlural] leaving</li>
     <li>lodgersLeavingLetterText->{FACTION_leaderNameDef} thanks you for allowing {FACTION_leaderObjective} to stay at [map_definite] for these [questDurationTicks_duration]. {FACTION_leaderPronoun} is now moving on with {FACTION_leaderPossessive} people.\n\n{FACTION_leaderNameDef} says {FACTION_leaderPronoun} won't forget what you've done.</li>
   -->
@@ -105,17 +94,6 @@
     <li>mutinyLetterText->[lodgersSingularOrPluralDef] （[whoAskedToStay]） 与你为敌！\n\n看起来[lodgersPronoun]早就计划好了这场背叛。</li>
     <li>areIs(lodgerCount==1)->正</li>
     <li>areIs(lodgerCount>=2)->正</li>
-    <li>betrayalOfferLetterLabel->背叛提议： [factionOpponent_nameDef]</li>
-    <li>betrayalOffserLetterText->[factionOpponent_faction_name]的[factionOpponent_faction_pawnSingular]，[factionOpponent_nameDef]， 知晓了 [asker_nameDef] [otherLodgers] [areIs] 在 [map_definite]做客。 [factionOpponent_pronoun] 与 [asker_nameDef] 是你死我活的仇敌，想要亲眼目睹[asker_objective]的死亡。\n\n如果你杀死[faction_name]的所有成员，[factionOpponent_pronoun] 约定以如下报酬报答 （总价值 [betrayalRewardMarketValue_money]）：\n\n[betrayalRewards]</li>
-    <li>betrayalOfferRewardLetterLabel->背叛： [factionOpponent_nameDef]</li>
-    <li>betrayalOfferRewardLetterText->[factionOpponent_nameDef] 答应你如果你杀了 [asker_nameDef] [otherMembers] 将会得到奖励。 [factionOpponent_pronoun] 已经收到你完成了这件事的消息，并通过空投舱向你发送了如下物资 （总价值 [betrayalRewardMarketValue_money]）：\n\n[betrayalRewards]。\n\n[questOver]</li>
-    <li>betrayalOfferFailedLetterLabel->背叛奖励被收回</li>
-    <li>betrayalOfferFailedLetterText->[factionOpponent_nameDef] 已经收到[faction_name]的一名成员不再处于[map_definite]的消息。 [factionOpponent_nameDef] 想要所有 [faction_name] 的成员死亡，故而收回了[factionOpponent_possessive]提议。</li>
-    <li>otherLodgers(lodgerCount==1)-></li>
-    <li>otherLodgers(lodgerCount==2)->和其他的 [lodgersLabel]</li>
-    <li>otherLodgers(lodgerCount>=3)->和几名 [lodgersLabelPlural]</li>
-    <li>otherMembers(lodgerCount==1)-></li>
-    <li>otherMembers(lodgerCount>=2)-> 和 [faction_name] 的所有其他成员</li>
     <li>lodgersLeavingLetterLabel->[lodgersLabelSingularOrPlural] 离开</li>
     <li>lodgersLeavingLetterText->{FACTION_leaderNameDef} 感谢你允许 {FACTION_leaderObjective} 在 [questDurationTicks_duration] 里待在 [map_definite]。 {FACTION_leaderPronoun} 现在正与 {FACTION_leaderPossessive} 一同前进。\n\n{FACTION_leaderNameDef} 说 {FACTION_leaderPronoun} 永远不会忘记你做的这些事。</li>
   </Hospitality_Refugee.questContentRules.rulesStrings>
@@ -143,7 +121,11 @@
     <li>questDescription->[approachInfo] [claimInfo] [asker_nameDef] begs you for permission to stay at [map_definite] for [questDurationTicks_duration] so [lodgersPronoun] can rest and regroup.\n\nIn return, [lodgersPronoun] [offer] to work and fight for free during that time.\n\n[joinInfo] [lodgersPronoun] may also reward you later for helping [lodgersObjective] - but there is no way to know [lodgersPossessive] true intentions.\n\n[travelerInfo] not part of any faction. If you wish, you can choose to kill, arrest, sell, or harvest [lodgersObjective], without diplomatic consequences.</li>
     <li>approachInfo(lodgerCount==1)->A desperate [faction_pawnSingular] named [asker_nameDef] is approaching.</li>
     <li>approachInfo(lodgerCount==2)->[asker_nameDef] and another desperate [faction_pawnSingular] are approaching.</li>
+    <li>approachInfo(lodgerCount==2,childCount==1,priority=1)->[asker_nameDef] is approaching with a child in tow.</li>
     <li>approachInfo(lodgerCount>=3)->[lodgerCount] desperate [faction_pawnsPlural] are approaching. Their leader is called [asker_nameDef].</li>
+    <li>approachInfo(lodgerCount>=3,childCount==1,priority=1)->[lodgerCount] desperate [faction_pawnsPlural] including a child are approaching. Their leader is called [asker_nameDef].</li>
+    <li>approachInfo(lodgerCount>=3,childCount>=2,priority=1)->[lodgerCount] desperate [faction_pawnsPlural] including some children are approaching. Their leader is called [asker_nameDef].</li>
+    <li>approachInfo(lodgerCount>=3,allButOneChildren==true,priority=2)->A group of [lodgerCount] desperate [faction_pawnsPlural] are approaching consisting of [asker_nameDef] and [lodgersCountMinusOne] children [asker_pronoun] has taken under [asker_possessive] wing.</li>
     <li>claimInfo(lodgerCount==1)->[asker_nameDef] claims to have lost [asker_possessive] home in a recent attack.</li>
     <li>claimInfo(lodgerCount==1)->[asker_nameDef] claims to woken up from cryptosleep all alone and friendless.</li>
     <li>claimInfo(lodgerCount==1)->[asker_nameDef] claims to have been chased from [asker_possessive] home by a vengeful ex-lover.</li>
@@ -176,7 +158,11 @@
     <li>questDescription->[approachInfo] [claimInfo] [asker_nameDef] 请求你允许在 [map_definite] 待上 [questDurationTicks_duration] 来让[lodgersPronoun]能够重整旗鼓。\n\n作为回报， [lodgersPronoun] [offer] 在此期间内免费为你工作和战斗。\n\n[joinInfo] [lodgersPronoun] 可能会在过后酬谢你对[lodgersObjective]的帮助 —— 但你没有办法知晓[lodgersPossessive]的真实意图。\n\n[travelerInfo] 不属于任何派系。 如果你愿意，你可以选择杀害、逮捕、出售或者采割[lodgersObjective]， 并且不会产生任何外交后果。</li>
     <li>approachInfo(lodgerCount==1)->名叫[asker_nameDef]的绝望的[faction_pawnSingular]正在靠近。</li>
     <li>approachInfo(lodgerCount==2)->[asker_nameDef]和其他绝望的[faction_pawnSingular]正在靠近。</li>
+    <li>approachInfo(lodgerCount==2,childCount==1,priority=1)->[asker_nameDef]正带着一个孩子靠近。</li>
     <li>approachInfo(lodgerCount>=3)->[lodgerCount]名绝望的[faction_pawnsPlural]正在靠近， 他们的领袖是[asker_nameDef]。</li>
+    <li>approachInfo(lodgerCount>=3,childCount==1,priority=1)->[lodgerCount]名穷途末路的[faction_pawnsPlural]正带着一个孩子靠近。他们的领袖是[asker_nameDef]。</li>
+    <li>approachInfo(lodgerCount>=3,childCount>=2,priority=1)->[lodgerCount]名穷途末路的[faction_pawnsPlural]正带着一些孩子靠近。他们的领袖是[asker_nameDef].</li>
+    <li>approachInfo(lodgerCount>=3,allButOneChildren==true,priority=2)->A group of [lodgerCount] desperate [faction_pawnsPlural] are approaching consisting of [asker_nameDef] and [lodgersCountMinusOne] children [asker_pronoun] has taken under [asker_possessive] wing.</li>
     <li>claimInfo(lodgerCount==1)->[asker_nameDef] 声称[asker_possessive]在最近一次袭击中失去了家园。</li>
     <li>claimInfo(lodgerCount==1)->[asker_nameDef] 声称自己孤零零地从一个冷冻休眠舱中醒来。</li>
     <li>claimInfo(lodgerCount==1)->[asker_nameDef] 声称被[asker_possessive]前情人从家中赶了出来。</li>
@@ -257,6 +243,73 @@
     <li>lodgerPlural->游牧民</li>
     <li>lodgerPlural->流浪汉</li>
   </Hospitality_Refugee.questNameRules.rulesStrings>
+  
+  <!-- EN:
+    <li>lodgersLabelSingularOrPlural(lodgerCount==1)->[lodgersLabel]</li>
+    <li>lodgersLabelSingularOrPlural(lodgerCount>=2)->[lodgersLabelPlural]</li>
+    <li>betrayalOfferRewardLetterLabel->Betrayal reward: [factionOpponent_nameDef]</li>
+    <li>betrayalOfferRewardLetterText->[factionOpponent_nameDef] promised you a reward if you killed [asker_nameDef] [otherMembers]. [factionOpponent_pronoun] has heard news this has been done and is sending you the following via drop pod (total value [betrayalRewardMarketValue_money]):\n\n[betrayalRewards].\n\n[questOver]</li>
+    <li>betrayalOfferFailedLetterLabel->Betrayal reward retracted</li>
+    <li>betrayalOfferFailedLetterText->[factionOpponent_nameDef] has learned that one of the members of the [faction_name] is no longer at [map_definite]. [factionOpponent_nameDef] wanted all members of the [faction_name] to die and has therefore retracted [factionOpponent_possessive] offer.</li>
+    <li>otherLodgers(lodgerCount==1)-></li>
+    <li>otherLodgers(lodgerCount==2)->and another [lodgersLabel]</li>
+    <li>otherLodgers(lodgerCount>=3)->and several [lodgersLabelPlural]</li>
+    <li>otherMembers(lodgerCount==1)-></li>
+    <li>otherMembers(lodgerCount>=2)-> and all other members of the [faction_name]</li>
+    <li>questOver->The quest '[resolvedQuestName]' is over.</li>
+  -->
+  <RefugeeBetrayal.questContentRules.rulesStrings>
+    <li>lodgersLabelSingularOrPlural(lodgerCount==1)->[lodgersLabel]</li>
+    <li>lodgersLabelSingularOrPlural(lodgerCount>=2)->[lodgersLabelPlural]</li>
+    <li>betrayalOfferRewardLetterLabel->背叛奖励：[factionOpponent_nameDef]</li>
+    <li>betrayalOfferRewardLetterText->[factionOpponent_nameDef]承诺过如果你杀死[asker_nameDef][otherMembers]。[factionOpponent_pronoun]听说你办成了这件事，并通过空投舱向你发送了以下物资（总价值[betrayalRewardMarketValue_money]）：\n\n[betrayalRewards].\n\n[questOver]</li>
+    <li>betrayalOfferFailedLetterLabel->背叛奖励被收回</li>
+    <li>betrayalOfferFailedLetterText->[factionOpponent_nameDef]已得知[faction_name]的一名成员离开了[map_definite]。[factionOpponent_nameDef]希望[faction_name]所有的成员都死掉，因此收回了[factionOpponent_possessive]提议。</li>
+    <li>otherLodgers(lodgerCount==1)-></li>
+    <li>otherLodgers(lodgerCount==2)->和其他的[lodgersLabel]</li>
+    <li>otherLodgers(lodgerCount>=3)->和一些[lodgersLabelPlural]</li>
+    <li>otherMembers(lodgerCount==1)-></li>
+    <li>otherMembers(lodgerCount>=2)->和[faction_name]的所有成员</li>
+    <li>questOver->任务'[resolvedQuestName]'已结束。</li>
+  </RefugeeBetrayal.questContentRules.rulesStrings>
+  <!-- EN:
+    <li>lodgersLabel->refugee</li>
+    <li>lodgersLabelPlural->refugees</li>
+  -->
+  <RefugeeBetrayal.questDescriptionAndNameRules.rulesStrings>
+    <li>lodgersLabel->难民</li>
+    <li>lodgersLabelPlural->难民</li>
+  </RefugeeBetrayal.questDescriptionAndNameRules.rulesStrings>
+  <!-- EN:
+    <li>questDescription->[factionOpponent_nameDef], a [factionOpponent_faction_pawnSingular] of [factionOpponent_faction_name], has learned that [asker_nameDef] [otherLodgers] [areIs] being hosted at [map_definite]. [factionOpponent_pronoun] is enemies with [asker_nameDef] and wants to see [asker_objective] dead.\n\n[factionOpponent_pronoun] will send you the following reward if you kill all members of [faction_name] (total value [betrayalRewardMarketValue_money]):\n\n[betrayalRewards]</li>
+    <li>lodgersLabelSingularOrPlural(lodgerCount==1)->[lodgersLabel]</li>
+    <li>lodgersLabelSingularOrPlural(lodgerCount>=2)->[lodgersLabelPlural]</li>
+    <li>otherLodgers(lodgerCount==1)-></li>
+    <li>otherLodgers(lodgerCount==2)->and another [lodgersLabel]</li>
+    <li>otherLodgers(lodgerCount>=3)->and several [lodgersLabelPlural]</li>
+    <li>otherMembers(lodgerCount==1)-></li>
+    <li>otherMembers(lodgerCount>=2)-> and all other members of the [faction_name]</li>
+    <li>areIs(lodgerCount==1)->is</li>
+    <li>areIs(lodgerCount>=2)->are</li>
+  -->
+  <RefugeeBetrayal.questDescriptionRules.rulesStrings>
+    <li>questDescription->[factionOpponent_nameDef]，[factionOpponent_faction_name]的一名[factionOpponent_faction_pawnSingular]，获悉了[asker_nameDef][otherLodgers][areIs]处于[map_definite]。[factionOpponent_pronoun]和[asker_nameDef]是敌对关系，想要看到[asker_objective]的死亡。\n\n如果你杀死所有[faction_name]的成员，[factionOpponent_pronoun]将会给与你以下奖励（总价值[betrayalRewardMarketValue_money]）：\n\n[betrayalRewards]</li>
+    <li>lodgersLabelSingularOrPlural(lodgerCount==1)->[lodgersLabel]</li>
+    <li>lodgersLabelSingularOrPlural(lodgerCount>=2)->[lodgersLabelPlural]</li>
+    <li>otherLodgers(lodgerCount==1)-></li>
+    <li>otherLodgers(lodgerCount==2)->和其他的[lodgersLabel]</li>
+    <li>otherLodgers(lodgerCount>=3)->与一些[lodgersLabelPlural]</li>
+    <li>otherMembers(lodgerCount==1)-></li>
+    <li>otherMembers(lodgerCount>=2)->和[faction_name]的所有成员</li>
+    <li>areIs(lodgerCount==1)->正</li>
+    <li>areIs(lodgerCount>=2)->正</li>
+  </RefugeeBetrayal.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->Betrayal offer: [factionOpponent_nameDef]</li>
+  -->
+  <RefugeeBetrayal.questNameRules.rulesStrings>
+    <li>questName->背叛提议： [factionOpponent_nameDef]</li>
+  </RefugeeBetrayal.questNameRules.rulesStrings>
   
   <!-- EN:
     <li>rewardLetterLabel->Hospitality reward</li>

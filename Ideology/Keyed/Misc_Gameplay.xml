@@ -5,8 +5,6 @@
   <CustomizeIdeoligion>自定义文化</CustomizeIdeoligion>
   <!-- EN: Choose your ideoligion -->
   <ChooseYourIdeoligion>选择你的文化形态</ChooseYourIdeoligion>
-  <!-- EN: Random -->
-  <Random>随机</Random>
   <!-- EN: A random structure will be used for your ideoligion. -->
   <RandomStructureTip>会为你的文化应用一个随机结构。</RandomStructureTip>
   <!-- EN: A random style will be used for your ideoligion. -->
@@ -23,7 +21,7 @@
   <LoadSaved>载入预设</LoadSaved>
   <!-- EN: Structure -->
   <Structure>结构</Structure>
-  <!-- EN: What should your starting colonists believe? These beliefs affect gameplay and visuals. You’ll be able to recruit others to your beliefs, or take on their beliefs. -->
+  <!-- EN: What should your starting colonists believe? These beliefs affect gameplay and visuals. You'll be able to recruit others to your beliefs, or take on their beliefs. -->
   <ChooseYourIdeoligionDesc>你的开局殖民者文化是什么样的？这些文化会影响游戏性和视觉效果，你能够招募其他人加入你的文化，或者接受他们的文化。</ChooseYourIdeoligionDesc>
   <!-- EN: Create custom -->
   <CreateCustom>创建自定义</CreateCustom>
@@ -101,8 +99,10 @@
   <Styles>风格</Styles>
   <!-- EN: Chance to have precept -->
   <ChanceToHavePrecept>可选戒律</ChanceToHavePrecept>
-  <!-- EN: {PAWN_labelShort}'s favorite color. Having more than {PERCENTAGE} of {PAWN_possessive} apparel in this color, or the color of {PAWN_possessive} ideoligion, will make {PAWN_objective} slightly happier.\n\nYou can alter apparel colors at the styling station using tinctoria dye. -->
-  <FavoriteColorTooltip>{PAWN_labelShort}的偏爱颜色， 如果穿着的衣服超过{PERCENTAGE}染有此颜色或{PAWN_possessive}文化形态代表色， 会让{PAWN_objective}感到愉悦。\n\n你可以在梳妆台使用染料调整服装颜色。</FavoriteColorTooltip>
+  <!-- EN: {PAWN_labelShort}'s favorite color. Having more than {PERCENTAGE} of {PAWN_possessive} apparel in this color{ORIDEO} will make {PAWN_objective} slightly happier.\n\nYou can alter apparel colors at the styling station using tinctoria dye. -->
+  <FavoriteColorTooltip>{PAWN_labelShort}的偏爱颜色， 如果穿着的衣服超过{PERCENTAGE}染有此颜色{ORIDEO}，会让{PAWN_objective}感到愉悦。\n\n你可以在梳妆台使用染料调整服装颜色。</FavoriteColorTooltip>
+  <!-- EN: , or the color of {PAWN_possessive} ideoligion, -->
+  <OrIdeoColor>，或{PAWN_possessive}文化形态代表色，</OrIdeoColor>
   <!-- EN: Set ideo color -->
   <SetIdeoColor>设置文化代表色</SetIdeoColor>
   <!-- EN: Set to favorite color -->
@@ -153,6 +153,8 @@
   <MealKindMeat>含肉</MealKindMeat>
   <!-- EN: Acceptable food for everyone -->
   <MealKindAny>无忌口</MealKindAny>
+  <!-- EN: this outfit -->
+  <WearingDesiredApparelMulti>此着装</WearingDesiredApparelMulti>
 
   <!-- EN: Could not load ideoligion -->
   <UnableToLoadIdeoTitle>无法载入文化</UnableToLoadIdeoTitle>
@@ -165,15 +167,15 @@
   <!-- EN: Precept {PRECEPT} is not allowed for non-player factions -->
   <UnableToLoadIdeoPreceptNotAllowed>戒律{PRECEPT}不可用于非玩家派系</UnableToLoadIdeoPreceptNotAllowed>
 
-  <!-- EN: A grave containing {PAWN_labelShort}'s corpse. -->
+  <!-- EN: Grave containing {PAWN_labelShort}'s corpse -->
   <RitualTargetGraveInfo>装有{PAWN_labelShort}的坟墓</RitualTargetGraveInfo>
-  <!-- EN: An empty grave to mourn {PAWN_labelShort}'s passing. -->
+  <!-- EN: Empty grave to mourn {PAWN_labelShort}'s passing -->
   <RitualTargetEmptyGraveInfo>一座空坟，用来缅怀{PAWN_labelShort}的逝世。</RitualTargetEmptyGraveInfo>
-  <!-- EN: A grave containing {IDEO_memberNameIndef}'s corpse -->
+  <!-- EN: Grave containing {IDEO_memberNameIndef}'s corpse -->
   <RitualTargetGraveInfoAbstract>装有{IDEO_memberNameIndef}的坟墓</RitualTargetGraveInfoAbstract>
-  <!-- EN: A grave containing a corpse. -->
+  <!-- EN: Grave containing a corpse -->
   <RitualTargetGraveInfoAbstractNoIdeo>一个装有尸体的坟墓。</RitualTargetGraveInfoAbstractNoIdeo>
-  <!-- EN: An empty grave to mourn {IDEO_memberNameIndef}'s passing. -->
+  <!-- EN: Empty grave to mourn {IDEO_memberNameIndef}'s passing -->
   <RitualTargetEmptyGraveInfoAbstract>一座空坟，用来缅怀{IDEO_memberNameIndef}的逝世。</RitualTargetEmptyGraveInfoAbstract>
   <!-- EN: {PAWN_labelShort}'s body must be buried first -->
   <RitualTargetGraveInfoMustBeBuried>{PAWN_labelShort}的尸体必须先被埋葬</RitualTargetGraveInfoMustBeBuried>
@@ -183,8 +185,6 @@
   <RitualTargetGatherAltarOrRitualSpotInfo>祭坛或任意仪式点。</RitualTargetGatherAltarOrRitualSpotInfo>
   <!-- EN: Altar, ideogram or any ritual spot. -->
   <RitualTargetGatherAltarIdeogramOrRitualSpotInfo>祭坛、符号图像或者任意仪式点。</RitualTargetGatherAltarIdeogramOrRitualSpotInfo>
-  <!-- EN: A lightball or ritual spot. Lightball and loudspeakers must be powered. -->
-  <RitualTargetLightBallInfo>一个灯球或仪式点，灯球和音响必须通电。</RitualTargetLightBallInfo>
   <!-- EN: Lightball is not powered. -->
   <RitualTargetLightBallIsNotPowered>灯球未通电。</RitualTargetLightBallIsNotPowered>
   <!-- EN: No powered speakers. -->
@@ -197,11 +197,9 @@
   <RitualTargetNoDrum>未找到附近的鼓。</RitualTargetNoDrum>
   <!-- EN: Need at least {0} unroofed cells nearby. -->
   <RitualTargetNeedUnroofedCells>附近需要至少{0}格未被屋顶覆盖的区域。</RitualTargetNeedUnroofedCells>
-  <!-- EN: A lit campfire or ritual spot. -->
+  <!-- EN: a lit campfire -->
   <RitualTargetCampfirePartyInfo>一个点燃的营火或仪式点。</RitualTargetCampfirePartyInfo>
-  <!-- EN: A lit campfire or ritual spot. Spot must be unroofed with at least 25 unroofed cells in the area. -->
-  <RitualTargetCampfireSkylanternsInfo>一个点燃的营火，或仪式点，场地附近需要有至少25格无屋顶的空间。</RitualTargetCampfireSkylanternsInfo>
-  <!-- EN: An unconnected Gauranlen tree. -->
+  <!-- EN: an unconnected Gauranlen tree -->
   <RitualTargetUnconnectedGaruanlenTreeInfo>一棵未共鸣的母树。</RitualTargetUnconnectedGaruanlenTreeInfo>
   <!-- EN: Already connected to {PAWN_nameDef} -->
   <RitualTargetConnectedGauranlenTree>已经与{PAWN_nameDef}共鸣</RitualTargetConnectedGauranlenTree>
@@ -209,14 +207,14 @@
   <RitualTargetConnectionTornGauranlenTree>{TREE_definite}的共鸣被打断了。 它能够在{1}后重新共鸣。</RitualTargetConnectionTornGauranlenTree>
   <!-- EN: You need {0} wood for each participant ({2} total). You have {1} wood. -->
   <RitualTargeWoodInfo>你需要为每位参与者（最多{2}位）准备{0}数量的木材，你当前的木材储量是{1}。</RitualTargeWoodInfo>
+  <!-- EN: {0} must be able to reach ritual target. -->
+  <RitualTargetUnreachable>{0}必须能够抵达仪式位置。</RitualTargetUnreachable>
   <!-- EN: Accuse -->
   <Accuse>指控</Accuse>
   <!-- EN: {PAWN_labelShort} does not believe in ideoligious scarification and will not like being scarified. -->
   <RitualScarificationWarnNonScarificationIdeo>{PAWN_labelShort}不认同此文化的牺牲行为，因此不愿作为祭品。</RitualScarificationWarnNonScarificationIdeo>
   <!-- EN: {PAWN_labelShort} is a wimp and will not like being scarified. -->
   <RitualScarificationWarnWimp>{PAWN_labelShort}因其懦弱特质而拒绝成为祭品。</RitualScarificationWarnWimp>
-  <!-- EN: {PAWN_labelShort} does not believe in ideoligious blinding and will not like being blinded. -->
-  <RitualBlindingWarnNonBlindingIdeo>{PAWN_labelShort}不认同此文化的致盲行为，因此不愿被致盲。</RitualBlindingWarnNonBlindingIdeo>
   <!-- EN: {PAWN_labelShort} is a wimp and will not like being blinded. -->
   <RitualBlindingWarnWimp>{PAWN_labelShort}因其懦弱特质而拒绝被致盲。</RitualBlindingWarnWimp>
   <!-- EN: Scarification is expected for {IDEOMEMBERPLURAL} as long as there are fewer than {0} scarified {IDEOMEMBERPLURAL}. -->
@@ -239,6 +237,8 @@
   
   <!-- EN: Due to the quality of the ritual, your development points have increased by {2} (from {0} to {1}). -->
   <RitualOutcomeExtraDesc_DevelopmentPointsAwarded>由于仪式的效果，你的发展点数增加{2}（{0} -> {1}）。</RitualOutcomeExtraDesc_DevelopmentPointsAwarded>
+  <!-- EN: Can't award development points beyond {0}. -->
+  <RitualOutcomeExtraDesc_DevelopmentPointsAwardedCapped>无法授予超出{0}的发展点数。</RitualOutcomeExtraDesc_DevelopmentPointsAwardedCapped>
   <!-- EN: Due to the poor quality of the ritual, no development points were gained. -->
   <RitualOutcomeExtraDesc_NoDevelopmentPointsAwarded>由于仪式的效果，未获取发展点数。</RitualOutcomeExtraDesc_NoDevelopmentPointsAwarded>
 
@@ -281,24 +281,12 @@
   <IdeoBuildingVariationOf>变种起源</IdeoBuildingVariationOf>
   <!-- EN: Minimum expectations -->
   <IdeoBuildingMinimumExpectations>最低期望</IdeoBuildingMinimumExpectations>
-  <!-- EN: size -->
-  <Size>大小</Size>
-  <!-- EN: cost -->
-  <Cost>成本</Cost>
   <!-- EN: optional -->
   <Optional>可选项</Optional>
   <!-- EN: expectations -->
   <Expectations>期望</Expectations>
-  <!-- EN: Can start any time -->
-  <RitualStartAnyTime>可在任意时刻开始</RitualStartAnyTime>
-  <!-- EN: Can start after event -->
-  <RitualStartEvent>可在事件后开始</RitualStartEvent>
-  <!-- EN: Focus objects -->
-  <RitualFocusObjects>集合点物件</RitualFocusObjects>
   <!-- EN: Repeating a ritual within {0} days reduces its quality. {1} days have passed since the last ritual, so the current quality reduction is {2}. This penalty will fall to zero {3} days from now. -->
   <RitualRepeatPenaltyTip>在{0}天内重复进行一种仪式将降低其质量，距离上次仪式结束已有{1}天，当前的质量减值是{2}，从现在起{3}天后将移除此减益。</RitualRepeatPenaltyTip>
-  <!-- EN: Participating roles -->
-  <RitualParticipatingRoles>参与者角色</RitualParticipatingRoles>
   <!-- EN: For best quality, start the {0} at {1}. -->
   <RitualOutcomeCompTip_RitualTargetDefsPart1>为达到最佳质量，应在{1}开始{0}。</RitualOutcomeCompTip_RitualTargetDefsPart1>
   <!-- EN: Currently, the {0} is being started at {1_labelShortIndef}. -->
@@ -307,6 +295,8 @@
   <RitualDevelopmentPoints>发展点数</RitualDevelopmentPoints>
   <!-- EN: Completing this ritual gives {0}-{1} development points depending on quality. -->
   <RitualDevelopmentPointsTip>完成此仪式时能够获得取决于仪式效果的发展点数（{0}~{1}）。</RitualDevelopmentPointsTip>
+  <!-- EN: {0} needs to be powered. -->
+  <RitualOutcomeBlockedNoPower>{0}需要通电。</RitualOutcomeBlockedNoPower>
 
   <!-- EN: For slave use -->
   <ForSlaveUse>为奴隶专用</ForSlaveUse>
@@ -335,9 +325,9 @@
   <RoleRequirementLabelSameIdeo>必须是{0}</RoleRequirementLabelSameIdeo>
   <!-- EN: Must be {0} -->
   <RoleRequirementLabelSupremeGender>必须是{0}</RoleRequirementLabelSupremeGender>
+  <!-- EN: Cannot be child -->
+  <RoleRequirementCannotBe>不能是孩童。</RoleRequirementCannotBe>
 
-  <!-- EN: Disabled work -->
-  <RoleDisabledWorkLabel>禁用的工作</RoleDisabledWorkLabel>
   <!-- EN: Abilities -->
   <RoleGrantedAbilitiesLabel>能力</RoleGrantedAbilitiesLabel>
   <!-- EN: Required apparel -->
@@ -647,8 +637,10 @@
   <BiosculpterHealCompletedMessage>{PAWN_labelShort}完成了其治疗周期。</BiosculpterHealCompletedMessage>
   <!-- EN: {PAWN_labelShort} completed healing cycle, and {PAWN_possessive} {HEDIFF_label} was cured. -->
   <BiosculpterHealCompletedWithCureMessage>{PAWN_labelShort}完成了治疗周期，且治愈了{PAWN_possessive}{HEDIFF_label}。</BiosculpterHealCompletedWithCureMessage>
-  <!-- EN: {PAWN_labelShort} completed {PAWN_possessive} age reversal cycle. {PAWN_pronoun} expects the next age reversal in {DEADLINE} days. -->
-  <BiosculpterAgeReversalCompletedMessage>{PAWN_labelShort}完成了年龄逆转周期，{PAWN_pronoun}期待下一次年龄逆转周期在{DEADLINE}天内进行。</BiosculpterAgeReversalCompletedMessage>
+  <!-- EN: {PAWN_labelShort} completed {PAWN_possessive} age reversal cycle. -->
+  <BiosculpterAgeReversalCompletedMessage>{PAWN_labelShort}完成了年龄逆转周期。</BiosculpterAgeReversalCompletedMessage>
+  <!-- EN: {PAWN_pronoun} expects the next age reversal in {DEADLINE} days. -->
+  <AgeReversalExpectationDeadline>{PAWN_pronoun}期待下一次年龄逆转周期在{DEADLINE}天内进行。</AgeReversalExpectationDeadline>
   <!-- EN: {PAWN_labelShort}'s pleasure cycle is complete. -->
   <BiosculpterPleasureCompletedMessage>{PAWN_labelShort}已完成欢愉周期。</BiosculpterPleasureCompletedMessage>
   <!-- EN: Cleanliness speed factor -->
@@ -667,5 +659,12 @@
   <OnCompletionOfCycle>在完成{CYCLE}周期之后，将会</OnCompletionOfCycle>
   <!-- EN: {PAWN_nameDef} does not have any conditions that can be healed by a {CYCLE} cycle.\n\nDo you want to continue? -->
   <BiosculpterNoCoditionsToHeal>{PAWN_nameDef}没有任何能够被{CYCLE}治愈的异常。\n\n你想要继续吗？</BiosculpterNoCoditionsToHeal>
+
+  <!-- EN: basic -->
+  <Basic>基本</Basic>
+  <!-- EN: Change the style this will be built in. This is purely visual and has no gameplay impact. -->
+  <ChangeStyleDesc>改变将被建造物体的风格。这纯粹是视觉上的，对游戏没有影响。</ChangeStyleDesc>
+  <!-- EN: No available styles. -->
+  <ChangeStyleDisabledNoCategories>没有可用风格。</ChangeStyleDisabledNoCategories>
 
 </LanguageData>

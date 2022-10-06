@@ -79,7 +79,7 @@
   
   <!-- EN: Friendly fire safety -->
   <FriendlyFireSafety.label>友军误伤</FriendlyFireSafety.label>
-  <!-- EN: Friendly fire never occurs if the shooter is close to their ally.\n\nFor example, you can safely put a sword-wielding colonist directly in front of a gun-wielding one. The shooter will fire over his friend's shoulder.\n\nThis is a good way to combine ranged and melee fighters. -->
+  <!-- EN: Friendly fire never occurs if the shooter is close to their ally.\n\nFor example, you can safely put a sword-wielding colonist directly in front of a gun-wielding one. The shooter will fire over their friend's shoulder.\n\nThis is a good way to combine ranged and melee fighters. -->
   <FriendlyFireSafety.helpText>如果友军距离足够近，就永远不会产生误伤。\n\n紧挨着枪手的近战单位不会被己方的火力误伤，射击者会越过他的肩膀射击。\n\n这是一个近战/远程单位相互配合的好方法。</FriendlyFireSafety.helpText>
   
   <!-- EN: Getting more traders -->
@@ -111,11 +111,6 @@
   <InfoCard.label>详细信息卡</InfoCard.label>
   <!-- EN: The info card shows you detailed statistics about any item, person, or construction.\n\nSelect a person or item and open their info card with the 'i' button on the inspect pane. -->
   <InfoCard.helpText>任何物品、建筑和角色都可以通过信息卡来查看详细的数据。\n\n通过点击「i」来打开信息卡进入详细信息面板。</InfoCard.helpText>
-  
-  <!-- EN: Room stats inspector -->
-  <InspectRoomStats.label>房间状态查看</InspectRoomStats.label>
-  <!-- EN: You can inspect the impressiveness, wealth, and beauty of individual rooms using the ROOM STATS INSPECT toggle in the bottom right. -->
-  <InspectRoomStats.helpText>你可以通过点选屏幕右下角的「开关房间数据显示」开关按钮来展示房间的各种详细属性，例如财富、美观、整洁和感观等等。</InspectRoomStats.helpText>
   
   <!-- EN: Manual work priorities -->
   <ManualWorkPriorities.label>手动分配工作优先级</ManualWorkPriorities.label>
@@ -161,6 +156,11 @@
   <StorageTab.label>储存筛选</StorageTab.label>
   <!-- EN: You can configure stockpiles and storage buildings by selecting them and opening the STORAGE TAB above the bottom-left inspector pane.\n\nIn the storage tab of a stockpile, you can expand categories to allow or deny specific items. Click the triangles to the left of category names.\n\nYou can change the PRIORITY of storage. Colonists will fill higher-priority storage first, and move items from lower to higher priority. -->
   <StorageTab.helpText>你可以通过点击储存区或者仓库面板左下角的「储存筛选」按钮来进行详细设置。\n\n你可以扩大/减少该储存区允许堆放的物品种类。\n\n也可以更改当前区域的「优先级」，殖民者总是会优先向优先级更高的储存区和仓库搬运东西。</StorageTab.helpText>
+  
+  <!-- EN: Tile inspector -->
+  <TileInspector.label>地格查看器</TileInspector.label>
+  <!-- EN: You can inspect the details of a tile by holding {Key:ShowCellInspector}. This displays the contents of a tile, room information, beauty information, and more. -->
+  <TileInspector.helpText>你可以通过按住{Key:ShowCellInspector}来查看地格的详细信息，这包括地格的内容、房间信息、美观度信息等等。</TileInspector.helpText>
   
   <!-- EN: Time assignments -->
   <TimeAssignments.label>作息表</TimeAssignments.label>

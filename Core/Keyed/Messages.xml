@@ -113,8 +113,14 @@
   <MessageMustDesignateHuntable>必须指定可以猎杀的动物。</MessageMustDesignateHuntable>
   <!-- EN: Must designate tameable animals. -->
   <MessageMustDesignateTameable>必须指定可以驯服的动物。</MessageMustDesignateTameable>
-  <!-- EN: Must designate abandoned artificial structures. -->
-  <MessageMustDesignateClaimable>必须指定已废弃的人工建筑。</MessageMustDesignateClaimable>
+  <!-- EN: Must designate abandoned claimable structures or items. -->
+  <MessageMustDesignateClaimable>必须指定已废弃的可占领建筑或物品。</MessageMustDesignateClaimable>
+  <!-- EN: Must designate paintable buildings not already painted {0_label}. -->
+  <MessageMustDesignatePaintableBuildings>必须指定可粉饰建筑（未粉饰{0_label}）。</MessageMustDesignatePaintableBuildings>
+  <!-- EN: Must designate paintable floors which are not already painted {0_label}. -->
+  <MessageMustDesignatePaintableFloors>必须指定可粉饰地板（未粉饰{0_label}）。</MessageMustDesignatePaintableFloors>
+  <!-- EN: Must designate painted buildings or floors. -->
+  <MessageMustDesignatePainted>必须指定已粉饰建筑或地板。</MessageMustDesignatePainted>
   <!-- EN: You must defeat a mech cluster before you can deconstruct it. -->
   <MessageMustDesignateDeconstructibleMechCluster>在拆除它之前必须先击败一个机械集群。</MessageMustDesignateDeconstructibleMechCluster>
   <!-- EN: Must designate rough stone surfaces. -->
@@ -133,6 +139,10 @@
   <MessageMustDesignateForbiddable>必须指定未禁用的道具。</MessageMustDesignateForbiddable>
   <!-- EN: Must designate forbidden items. -->
   <MessageMustDesignateUnforbiddable>必须指定已禁用的道具。</MessageMustDesignateUnforbiddable>
+  <!-- EN: Cannot claim {CLAIMABLE_labelShort} while there are combat-capable {THREAT_factionPawnsPlural} nearby. -->
+  <MessageCannotClaimWhenThreatsAreNear>当附近有{THREAT_factionPawnsPlural}时不能占领{CLAIMABLE_labelShort}。</MessageCannotClaimWhenThreatsAreNear>
+  <!-- EN: Cannot adopt {CLAIMABLE_labelShort} while there are combat-capable {THREAT_factionPawnsPlural} nearby. -->
+  <MessageCannotAdoptWhileThreatsAreNear>当附近有{THREAT_factionPawnsPlural}时不能吸收{CLAIMABLE_labelShort}。</MessageCannotAdoptWhileThreatsAreNear>
 
   <!-- EN: {1_labelShort} has refused to be arrested! -->
   <MessageRefusedArrest>{1_labelShort}拒绝被逮捕。</MessageRefusedArrest>
@@ -141,8 +151,8 @@
   <MessageNoMedicalBeds>没有可用的医疗床。</MessageNoMedicalBeds>
   <!-- EN: There are no animal beds available. -->
   <MessageNoAnimalBeds>没有可用的动物睡眠点或床铺。</MessageNoAnimalBeds>
-  <!-- EN: Operation requires {0} or better, but {PAWN_labelShort}'s current medical care mode is "{2}". -->
-  <MessageTooLowMedCare>该手术要求医疗供应为{0}或更好，但{PAWN_labelShort}的当前医疗供应是「{2}」。</MessageTooLowMedCare>
+  <!-- EN: Warning: {PAWN_nameDef}'s medicine restriction ({RESTRICTIONLABEL}) prevents doing this operation. Consider changing {PAWN_possessive} medicine restriction. -->
+  <MessageWarningNoMedicineForRestriction>警告：{PAWN_nameDef}的用药方针({RESTRICTIONLABEL})无法进行此操作。考虑改变{PAWN_possessive}用药方针。</MessageWarningNoMedicineForRestriction>
   
   <!-- EN: {PAWN_labelShort} has died. Cause: {1}. -->
   <PawnDiedBecauseOf>{PAWN_labelShort}已死亡。原因：{1}。</PawnDiedBecauseOf>
@@ -684,9 +694,11 @@
   <!-- EN: {0} must be a prisoner. -->
   <MessageRitualRoleMustBePrisoner>{0}必须是囚犯。</MessageRitualRoleMustBePrisoner>
   <!-- EN: {0} must be an animal. -->
-  <MessageRitualRoleMustBeAnimal>{0}必须是动物</MessageRitualRoleMustBeAnimal>
+  <MessageRitualRoleMustBeAnimal>{0}必须是动物。</MessageRitualRoleMustBeAnimal>
   <!-- EN: {0} must be a human. -->
-  <MessageRitualRoleMustBeHumanlike>{0}必须是人类</MessageRitualRoleMustBeHumanlike>
+  <MessageRitualRoleMustBeHumanlike>{0}必须是人类。</MessageRitualRoleMustBeHumanlike>
+  <!-- EN: {0} cannot be a baby. -->
+  <MessageRitualRoleCannotBeABaby>{0}不能是幼儿。</MessageRitualRoleCannotBeABaby>
   <!-- EN: No roles available for {0_labelShort}. -->
   <MessageRitualNoRolesAvailable>{0_labelShort}没有可用的职位。</MessageRitualNoRolesAvailable>
   <!-- EN: {0_labelShort} is not a member of any colony ideoligion. -->
@@ -695,6 +707,8 @@
   <MessageRitualRoleMustHaveEyes>{0}必须有眼睛</MessageRitualRoleMustHaveEyes>
   <!-- EN: {0_labelShort} does not require further scarification. -->
   <MessageRitualRoleMustRequireScarification>{0_labelShort}不需要更多的伤痕。</MessageRitualRoleMustRequireScarification>
+  <!-- EN: {0_labelShort} does not require blinding. -->
+  <MessageRitualRoleMustRequireBlinding>{0_labelShort}不需要致盲。</MessageRitualRoleMustRequireBlinding>
   <!-- EN: {0} must be a prisoner or slave. -->
   <MessageRitualRoleMustBePrisonerOrSlave>{0}必须是囚犯或者奴隶。</MessageRitualRoleMustBePrisonerOrSlave>
   <!-- EN: {0_labelShort} must be capable of fighting. -->
@@ -717,6 +731,10 @@
   <MessageRitualRoleMustHaveIdeoToDoRole>只有{0}可以满足{1}对角色的要求。</MessageRitualRoleMustHaveIdeoToDoRole>
   <!-- EN: must be colonist for the {0} role. -->
   <MessageRitualRoleMustBeColonist>{0}角色必须是殖民者。</MessageRitualRoleMustBeColonist>
+  <!-- EN: {0_labelShort} won't attend due to extreme temperature in the ritual area. -->
+  <MessageRitualWontAttendExtremeTemperature>{0_labelShort}由于仪式区域的极端温度而不参加。</MessageRitualWontAttendExtremeTemperature>
+  <!-- EN: must be colonist and not enslaved for the {0} role. -->
+  <MessageRitualRoleMustBeFreeColonist>必须是殖民者而不是被奴役的{0}角色。</MessageRitualRoleMustBeFreeColonist>
   <!-- EN: {0} must have an animal with min body size of {1}. -->
   <MessageRitualRoleMustHaveLargerBodySize>{0}必须拥有一只体型至少有{1}的动物。</MessageRitualRoleMustHaveLargerBodySize>
   <!-- EN: {0_labelShort} is in a mental state. -->
@@ -729,6 +747,10 @@
   <MessageRitualRoleMustNotBeImprisonedWildMan>{0}不能是被囚禁的野人</MessageRitualRoleMustNotBeImprisonedWildMan>
   <!-- EN: {0} must be free. -->
   <MessageRitualRoleMustNotBeImprisoned>{0}必须可以自由行动</MessageRitualRoleMustNotBeImprisoned>
+  <!-- EN: {0} cannot be a child. -->
+  <MessageRitualRoleCannotBeChild>{0}不能是儿童。</MessageRitualRoleCannotBeChild>
+  <!-- EN: {0} cannot be a baby. -->
+  <MessageRitualRoleCannotBeBaby>{0}不能是幼儿。</MessageRitualRoleCannotBeBaby>
 
   <!-- EN: You must select a site to continue. -->
   <MessagePlayerMustSelectTile>你必须选择一个位置以继续。</MessagePlayerMustSelectTile>
@@ -748,5 +770,23 @@
 
   <!-- EN: Warning: {0} has been marked for cutting. -->
   <MessageWarningCutImportantPlant>警告：{0}已被标记割除。</MessageWarningCutImportantPlant>
+
+  <!-- EN: {0_labelShort} is incapable of manipulation. -->
+  <MessageIncapableOfManipulation>{0_labelShort}没有操作能力。</MessageIncapableOfManipulation>
+
+  <!-- EN: {0_labelShort} activation canceled -->
+  <MessageActivationCanceled>{0_labelShort}的激活被取消</MessageActivationCanceled>
+
+  <!-- EN: Nothing is currently buildable in category -->
+  <NothingAvailableInCategory>目前没有任何可建的类别</NothingAvailableInCategory>
+
+  <!-- EN: Storage settings linked for {0} buildings. -->
+  <SettingsLinkedFor>存储设置链接建筑（x{0}）。</SettingsLinkedFor>
+  <!-- EN: Storage settings unlinked for {0} buildings. -->
+  <SettingsUnlinkedFor>存储设置解锁建筑（x{0}）。</SettingsUnlinkedFor>
+  <!-- EN: Storage settings copied to clipboard. -->
+  <StorageSettingsCopiedToClipboard>复制存储设置到剪贴板。</StorageSettingsCopiedToClipboard>
+  <!-- EN: Storage settings pasted from clipboard. -->
+  <StorageSettingsPastedFromClipboard>从剪贴板粘贴存储设置。</StorageSettingsPastedFromClipboard>
 
 </LanguageData>

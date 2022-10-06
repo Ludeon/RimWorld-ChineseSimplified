@@ -41,10 +41,17 @@
   <!-- EN: a catatonic breakdown -->
   <CatatonicBreakdown.labelNoun>紧张性木僵</CatatonicBreakdown.labelNoun>
   
+  <!-- EN: covered in firefoam -->
+  <CoveredInFirefoam.label>阻燃泡沫</CoveredInFirefoam.label>
+  <!-- EN: Covered in a fire-retardant foam. -->
+  <CoveredInFirefoam.description>被阻燃泡沫覆盖。</CoveredInFirefoam.description>
+  
   <!-- EN: cryptosleep sickness -->
   <CryptosleepSickness.label>低温休眠症</CryptosleepSickness.label>
   <!-- EN: After-effects of using a cryptosleep pod. Cryptosleep suspends and replaces many bodily functions in order to prevent aging and death. Upon exiting cryptosleep, the body takes time to restart and rebalance its natural metabolic processes. While this is ongoing, the patient suffers from nausea, dizziness, and a sense of fuzziness in the mind. -->
   <CryptosleepSickness.description>使用低温休眠舱所导致的不良反应。为了防止衰老和死亡，低温休眠暂停并取代了许多身体机能。一旦解除低温休眠状态，身体便会花些时间进行机能接管和平衡自然代谢的过程。在此过程中，患者通常会出现恶心、头晕和精神恍惚的症状。</CryptosleepSickness.description>
+  <!-- EN: After-effects of using a cryptosleep pod including dizziness, nausea, and vomiting. -->
+  <CryptosleepSickness.descriptionShort>使用低温休眠舱所导致的恶心、头晕和精神恍惚等症状。</CryptosleepSickness.descriptionShort>
   
   <!-- EN: drug overdose -->
   <DrugOverdose.label>成瘾品过量</DrugOverdose.label>
@@ -129,13 +136,13 @@
   
   <!-- EN: resurrection sickness -->
   <ResurrectionSickness.label>复活虚弱</ResurrectionSickness.label>
-  <!-- EN: After-effects of being resurrected by mechanite injection. Artificially-kickstarted body processes take time to rebalance themselves. -->
-  <ResurrectionSickness.description>使用机械液复活尸体的后遗症。被复活的躯体需要一定的时间来恢复机能。</ResurrectionSickness.description>
+  <!-- EN: After-effects of resurrection. Artificially-restarted body processes take time to rebalance themselves. -->
+  <ResurrectionSickness.description>被复活的后遗症。被复活的躯体需要一定的时间来恢复机能。</ResurrectionSickness.description>
   
   <!-- EN: toxic buildup -->
   <ToxicBuildup.label>中毒</ToxicBuildup.label>
-  <!-- EN: Poison in the bloodstream. This can come from various sources, including environmental toxins, venomous bites, or poisoned weapons.\n\nAt high doses, toxic buildup is lethal. Even at low doses, it can generate cancers.\n\nCreatures who die with toxic buildup cannot be eaten. -->
-  <ToxicBuildup.description>流淌在血液里的毒素。来源可能是：来自环境的毒素、有毒生物的叮咬、或有毒的武器。\n毒素的积聚是致命的，即使是低剂量，它也能引发癌症。而死于毒素积聚的生物会因为毒素浓度过高而不能食用。</ToxicBuildup.description>
+  <!-- EN: Poison in the bloodstream. This can come from various sources, including environmental toxins, venomous bites, or poisoned weapons.\n\nAt high doses, toxic buildup is lethal. Even at low doses, it can generate cancers.\n\nIf a creature dies with toxic buildup, there's a chance that they cannot be eaten. The higher the toxic buildup, the higher the chance. -->
+  <ToxicBuildup.description>流淌在血液里的毒素。来源可能是：来自环境的毒素、有毒生物的叮咬、或有毒的武器。\n毒素的积聚是致命的，即使是低剂量，它也能引发癌症。\n\n如果生物因毒素积累而死亡，有可能会因此导致无法食用，积累的毒素越多越有可能无法食用。</ToxicBuildup.description>
   <!-- EN: initial -->
   <ToxicBuildup.stages.initial-0.label>轻微</ToxicBuildup.stages.initial-0.label>
   <!-- EN: initial -->

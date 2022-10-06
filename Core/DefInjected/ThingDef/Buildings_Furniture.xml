@@ -78,8 +78,13 @@
   
   <!-- EN: shelf -->
   <Shelf.label>物品架</Shelf.label>
-  <!-- EN: A shelf for storing miscellaneous items. Items stored in this will not affect room beauty and they won't deteriorate, even if outside. -->
-  <Shelf.description>储存于此的物品不会影响房间的美观，即使露天也不会老化。</Shelf.description>
+  <!-- EN: A triple-stack shelf that holds three times as much as empty ground. Items stored inside will never deteriorate and don't affect the beauty of their surroundings.\n\nSince shelf space is limited, shelves cannot hold chunks, buildings, plants and large corpses. -->
+  <Shelf.description>一个三层的架子，可以容纳三倍于空地的东西。存放在里面的物品永远不会变质，也不会影响周围环境的美观。\n\n由于架子的空间有限，架子不能存放大块、建筑、植物和大型尸体。</Shelf.description>
+  
+  <!-- EN: small shelf -->
+  <ShelfSmall.label>物品架（小）</ShelfSmall.label>
+  <!-- EN: A small triple-stack shelf that holds three times as much as empty ground. Items stored inside will never deteriorate and don't affect the beauty of their surroundings.\n\nSince shelf space is limited, shelves cannot hold chunks, buildings, plants and large corpses. -->
+  <ShelfSmall.description>一个三层的架子，可以容纳三倍于空地的东西。存放在里面的物品永远不会变质，也不会影响周围环境的美观。\n\n由于架子的空间有限，架子不能存放大块、建筑、植物和大型尸体。</ShelfSmall.description>
   
   <!-- EN: sleeping spot -->
   <SleepingSpot.label>睡眠点</SleepingSpot.label>
@@ -90,21 +95,6 @@
   <StandingLamp.label>落地灯</StandingLamp.label>
   <!-- EN: An electrical standing lamp that lights an area. People need light to move and work at full speed. -->
   <StandingLamp.description>将一片区域照亮的落地灯。人们需要有光亮才能以全速工作和移动。</StandingLamp.description>
-  
-  <!-- EN: standing lamp (blue) -->
-  <StandingLamp_Blue.label>落地灯（蓝）</StandingLamp_Blue.label>
-  <!-- EN: A standing lamp that lights an area in blue. -->
-  <StandingLamp_Blue.description>将一片区域照亮成蓝色的落地灯。</StandingLamp_Blue.description>
-  
-  <!-- EN: standing lamp (green) -->
-  <StandingLamp_Green.label>落地灯（绿）</StandingLamp_Green.label>
-  <!-- EN: A standing lamp that lights an area in green. -->
-  <StandingLamp_Green.description>将一片区域照亮成绿色的落地灯。</StandingLamp_Green.description>
-  
-  <!-- EN: standing lamp (red) -->
-  <StandingLamp_Red.label>落地灯（红）</StandingLamp_Red.label>
-  <!-- EN: A standing lamp that lights an area in red. -->
-  <StandingLamp_Red.description>将一片区域照亮成红色的落地灯。</StandingLamp_Red.description>
   
   <!-- EN: stool -->
   <Stool.label>凳子</Stool.label>

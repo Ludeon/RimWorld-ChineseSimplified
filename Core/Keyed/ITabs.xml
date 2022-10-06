@@ -50,6 +50,8 @@
   <TabTransporterContents>内容</TabTransporterContents>
   <!-- EN: Contents -->
   <TabCasketContents>内容</TabCasketContents>
+  <!-- EN: Auto-cut -->
+  <TabWindTurbineAutoCut>自动割除</TabWindTurbineAutoCut>
   
   <!-- Bills tab  -->
   <!-- EN: Add bill -->
@@ -122,6 +124,20 @@
   <ConsideredGuilty>被判有罪（{0}后消失）</ConsideredGuilty>
   <!-- EN: Considered guilty -->
   <ConsideredGuiltyNoTimer>被判有罪</ConsideredGuiltyNoTimer>
+  <!-- EN: Last resistance reduction -->
+  <LastRecruitment>最近一次抵抗降低</LastRecruitment>
+  <!-- EN: How much {0_nameDef}'s resistance was reduced by {1} when {0_pronoun} was last recruited. -->
+  <LastRecruitmentDescription>最近一次试图招募{0_nameDef}时抵抗值降低了{1}。</LastRecruitmentDescription>
+  <!-- EN: Opinion of recruiter -->
+  <OpinionOfRecruiter>招募者意见</OpinionOfRecruiter>
+  <!-- EN: Recruiter negotiation ability -->
+  <RecruiterNegotiationAbility>招募者谈判能力</RecruiterNegotiationAbility>
+  <!-- EN: Unwavering loyalty -->
+  <NonRecruitable>死忠</NonRecruitable>
+  <!-- EN: This prisoner is so unwaveringly loyal to their home that they refuse to be recruited entirely. -->
+  <NonRecruitableTip>这名囚犯对他们的家园如此坚定不移地忠诚，以至于完全拒绝被征召。</NonRecruitableTip>
+  <!-- EN: Their loyalty extends to their beliefs and they cannot be converted. -->
+  <NonRecruitableTipCannotConvert>他们对信仰坚定不移，他们不能被归化。</NonRecruitableTipCannotConvert>
 
   <!-- Medical - general -->
   <!-- EN: Move speed -->
@@ -168,10 +184,10 @@
   <WontBleedOutSoon>无生命危险</WontBleedOutSoon>
   <!-- EN: Overview -->
   <HealthOverview>概况</HealthOverview>
-  <!-- EN: Operations ({0}) -->
-  <MedicalOperationsShort>手术（{0}）</MedicalOperationsShort>
-  <!-- EN: Modifications ({0}) -->
-  <MedicalOperationsMechanoidsShort>改装（{0}）</MedicalOperationsMechanoidsShort>
+  <!-- EN: Operations -->
+  <MedicalOperationsShort>手术</MedicalOperationsShort>
+  <!-- EN: Modifications -->
+  <MedicalOperationsMechanoidsShort>改装</MedicalOperationsMechanoidsShort>
   <!-- EN: Medical operations -->
   <MedicalOperations>医疗手术</MedicalOperations>
   <!-- EN: amputate -->
@@ -186,6 +202,8 @@
   <SocialInteractionsLower>社交互动</SocialInteractionsLower>
   <!-- EN: Hunger rate -->
   <HungerRate>饥饿度</HungerRate>
+  <!-- EN: Food consumption -->
+  <FoodConsumption>食物消耗</FoodConsumption>
   <!-- EN: Tiredness -->
   <Tiredness>疲劳度</Tiredness>
   <!-- EN: Pain -->
@@ -241,8 +259,6 @@
   <TrainingNeedsPrerequisite>先决条件: {0}</TrainingNeedsPrerequisite>
   
   <!-- Social tab -->
-  <!-- EN: (no relationships) -->
-  <NoRelationships>（无关系）</NoRelationships>
   <!-- EN: Kidnapped -->
   <Kidnapped>被绑架</Kidnapped>
   <!-- EN: Lent to {FACTION_name}, returns in {1} -->
@@ -253,10 +269,10 @@
   <Slave>奴隶</Slave>
   <!-- EN: Faction leader -->
   <FactionLeader>派系领袖</FactionLeader>
-  <!-- EN: Opinion of {1_labelShort} -->
-  <OpinionOf>对{1_labelShort}的印象</OpinionOf>
-  <!-- EN: {1_labelShort}'s opinion of me -->
-  <SomeonesOpinionOfMe>{1_labelShort}对我的印象</SomeonesOpinionOfMe>
+  <!-- EN: Opinion of {0} -->
+  <OpinionOf>对{0}的印象</OpinionOf>
+  <!-- EN: {0}'s opinion of me -->
+  <SomeonesOpinionOfMe>{0}对我的印象</SomeonesOpinionOfMe>
   <!-- EN: I'm dead -->
   <IAmDead>我死了</IAmDead>
   <!-- EN: I'm a psychopath -->
@@ -398,7 +414,10 @@
 
   <!-- EN: Pen is not enclosed -->
   <AutocutUnenclosedPen>畜栏未封闭</AutocutUnenclosedPen>
-  <!-- EN: Pen is not enclosed now, so auto-cut won’t occur. -->
+  <!-- EN: Pen is not enclosed now, so auto-cut won't occur. -->
   <AutocutUnenclosedPenTip>畜栏现在没有被封闭，所以自动割除不会生效。</AutocutUnenclosedPenTip>
+
+  <!-- EN: Auto-cut plants blocking wind turbine -->
+  <WindTurbineAutoCut_EnabledCheckbox>自动割除阻挡风力发电机的植物</WindTurbineAutoCut_EnabledCheckbox>
 
 </LanguageData>
