@@ -72,8 +72,8 @@
 
   <!-- EN: Hunter lacks ranged weapon -->
   <HunterLacksWeapon>猎人需要远程武器</HunterLacksWeapon>
-  <!-- EN: A colonist is assigned as a hunter but does not have a ranged weapon.\n\nThey will not hunt until they are carrying a ranged weapon. -->
-  <HunterLacksWeaponDesc>一个分配「狩猎」工作的殖民者没有远程武器。\n\n他们在得到一把远程武器之前不会去狩猎。</HunterLacksWeaponDesc>
+  <!-- EN: A colonist is assigned to work as a hunter but does not have a ranged weapon.\n\nThey will not hunt until they are carrying a ranged weapon.\n\nThe following colonists are assigned as hunters and need ranged weapons -->
+  <HunterLacksWeaponDesc>一个分配「狩猎」工作的殖民者没有远程武器。\n\n他们在得到一把远程武器之前不会去狩猎。\n\n以下殖民者被指定狩猎工作但没有远程武器</HunterLacksWeaponDesc>
 
   <!-- EN: Tattered apparel -->
   <AlertTatteredApparel>衣衫褴褛</AlertTatteredApparel>
@@ -130,8 +130,12 @@
 
   <!-- EN: Need batteries -->
   <NeedBatteries>缺少蓄电池</NeedBatteries>
-  <!-- EN: You have a solar or wind generator, but no batteries. This means you'll lose power every time the sun goes down or the wind calms.\n\nBuild a battery or two to guarantee sustained power. -->
-  <NeedBatteriesDesc>你建有太阳能板或风力发电机，但没有建造蓄电池。这意味着每当入夜之后或者无风之时你的基地将会失去电力供应。\n\n建造一两个蓄电池以确保持续供电。</NeedBatteriesDesc>
+  <!-- EN: You have a solar or wind generator, but no batteries. You'll lose power every time the sun goes down or the wind calms. -->
+  <NeedBatteriesDesc>你建有太阳能板或风力发电机，但没有建造蓄电池。这意味着每当入夜之后或者无风之时你的基地将会失去电力供应。</NeedBatteriesDesc>
+  <!-- EN: Build a battery or two to guarantee sustained power. -->
+  <NeedBatteriesResearchedDesc>建造一两个蓄电池以确保持续供电。</NeedBatteriesResearchedDesc>
+  <!-- EN: Research batteries and build a couple to guarantee sustained power. -->
+  <NeedBatteriesNotResearchedDesc>研究电池并建造几个以保证持续供电。</NeedBatteriesNotResearchedDesc>
 
   <!-- EN: Brawler has ranged weapon -->
   <BrawlerHasRangedWeapon>格斗者持有远程武器</BrawlerHasRangedWeapon>
@@ -158,12 +162,12 @@
   <!-- EN: These caravans are waiting for you to set their next destination:\n\n{0} -->
   <CaravanIdleDesc>远行商队正在等待着你设定的下一个进发目的地\n\n{0}</CaravanIdleDesc>
 
-  <!-- EN: Colonist needs treatment -->
-  <ColonistNeedsTreatment>殖民者需要治疗</ColonistNeedsTreatment>
-  <!-- EN: These colonists need medical treatment. Without it, they may die of their wounds, or their wounds may become permanent.\n\n{0}\nTreat them by sending them to a medical bed.\n\n(First, assign a medical bed by selecting it and toggling it into a medical bed. Then, select the wounded colonists and right-click on the medical bed to make them a patient.) -->
-  <ColonistNeedsTreatmentDesc>以下殖民者需要接受治疗。未及时处理的伤口可能导致死亡，或变成永久性的伤疤。\n\n{0}\n需要将他们送到一张医疗床上才能接受治疗。\n\n（首先将床设为医疗床，然后选择受伤的殖民者并右击医疗床来将他们设为患者。）</ColonistNeedsTreatmentDesc>
-  <!-- EN: These colonists need medical treatment. Without it, they may die of their wounds, or their wounds may become permanent.\n\n{0}\nTreat them by sending them to a medical bed.\n\n(First, assign a medical bed by selecting it and toggling it into a medical bed. Then, select the wounded colonists and press the left trigger button on the medical bed to make them a patient.) -->
-  <ColonistNeedsTreatmentDescController>以下殖民者需要接受治疗。未及时处理的伤口可能导致死亡，或变成永久性的伤疤。\n\n{0}\n需要将他们送到一张医疗床上才能接受治疗。\n\n（首先将床设为医疗床，然后选择受伤的殖民者并使用左扳机键点击医疗床来将他们设为患者。）</ColonistNeedsTreatmentDescController>
+  <!-- EN: Medical treatment needed -->
+  <ColonistNeedsTreatment>需要治疗</ColonistNeedsTreatment>
+  <!-- EN: These people need medical treatment. Without it, they may die of their wounds, or their wounds may become permanent.\n\n{0}\nTreat them by sending them to a medical bed.\n\n(First, assign a medical bed by selecting it and toggling it into a medical bed. Then, select the wounded person and right-click on the medical bed to make them a patient.) -->
+  <ColonistNeedsTreatmentDesc>以下人员需要接受治疗。未及时处理的伤口可能导致死亡，或变成永久性的伤疤。\n\n{0}\n需要将他们送到一张医疗床上才能接受治疗。\n\n（首先将床设为医疗床，然后选择伤员并右击医疗床来将他们设为患者。）</ColonistNeedsTreatmentDesc>
+  <!-- EN: These people need medical treatment. Without it, they may die of their wounds, or their wounds may become permanent.\n\n{0}\nTreat them by sending them to a medical bed.\n\n(First, assign a medical bed by selecting it and toggling it into a medical bed. Then, select the wounded person and press the left trigger button on the medical bed to make them a patient.) -->
+  <ColonistNeedsTreatmentDescController>以下人员需要接受治疗。未及时处理的伤口可能导致死亡，或变成永久性的伤疤。\n\n{0}\n需要将他们送到一张医疗床上才能接受治疗。\n\n（首先将床设为医疗床，然后选择伤员并使用左扳机键点击医疗床来将他们设为患者。）</ColonistNeedsTreatmentDescController>
 
   <!-- EN: Hypothermia -->
   <AlertHypothermia>低温症</AlertHypothermia>
@@ -191,6 +195,16 @@
   <BilliardsNeedsSpace>台球桌被阻挡</BilliardsNeedsSpace>
   <!-- EN: One of your billiards table is adjacent to an obstruction that will prevent colonists from using it.\n\nA billiards table needs clear space around it on all sides to be usable. -->
   <BilliardsNeedsSpaceDesc>台球桌旁边的空间被阻塞，殖民者将无法使用台球桌。\n\n台球桌四周都需要有开阔的空间。</BilliardsNeedsSpaceDesc>
+
+  <!-- EN: Chess table needs chairs -->
+  <ChessTablesNeedChairs>象棋桌需要椅子</ChessTablesNeedChairs>
+  <!-- EN: One of your chess tables does not have any adjacent chairs.\n\nBuild adjacent chairs or stools to allow your colonists to use the chess table. Up to two people can use a chess table at once. -->
+  <ChessTablesNeedChairsDesc>你的一张象棋桌没有可用的椅子。\n\n建造相邻的椅子或凳子，使你的殖民者能够使用象棋桌。一个象棋桌最多可以有两个人同时使用。</ChessTablesNeedChairsDesc>
+
+  <!-- EN: Poker table needs chairs -->
+  <PokerTablesNeedChairs>扑克桌需要椅子</PokerTablesNeedChairs>
+  <!-- EN: One of your poker tables does not have any adjacent chairs.\n\nBuild adjacent chairs or stools to allow your colonists to use the poker table. Up to eight people can use a poker table at once. -->
+  <PokerTablesNeedChairsDesc>你的一张扑克桌没有可用的椅子。\n\n建造相邻的椅子或凳子，使你的殖民者能够使用扑克桌。一个扑克桌最多可以有8个人同时使用。</PokerTablesNeedChairsDesc>
 
   <!-- EN: Hunter has shield and ranged weapon -->
   <HunterHasShieldAndRangedWeapon>猎人穿戴护盾并持有远程武器</HunterHasShieldAndRangedWeapon>
@@ -315,4 +329,9 @@
   <!-- EN: {0} extracted trees are going to die is less than a day. This will make some colonists unhappy because of their beliefs.\n\nYou can prevent this by replanting these trees. -->
   <AlertMinifiedTreeAboutToDieDesc>{0}棵掘起的树木将在一天内死亡，一些殖民者出于信仰会对树木死亡感到不满。\n\n你可以通过重新栽植这些树木来避免这种情况。</AlertMinifiedTreeAboutToDieDesc>
 
+  <!-- EN: Need research bench -->
+  <NeedResearchBench>需要研究台</NeedResearchBench>
+  <!-- EN: You have an active research project '{0}'. This project requires you to build {1}. -->
+  <NeedResearchBenchDesc>你已激活了研究项目“{0}”，这个项目需要你建造{1}。</NeedResearchBenchDesc>
+  
 </LanguageData>

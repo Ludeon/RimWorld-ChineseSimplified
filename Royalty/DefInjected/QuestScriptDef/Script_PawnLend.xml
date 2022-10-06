@@ -8,11 +8,13 @@
     <li>disease->malaria</li>
     <li>disease->infection</li>
     <li>questDescription(asker_royalInCurrentFaction==True)->[asker_royalTitleInCurrentFaction] [asker_nameFull] of [asker_faction_name] needs people to help [dutyRoyalDescription].\n\n[asker_pronoun] is asking you to lend [colonistCountToLend] to serve [asker_objective] for [lendForDays] days.\n\n[willSendShuttle]</li>
-    <li>colonistCountToLend(colonistsToLendCount==1)->1 colonist</li>
-    <li>colonistCountToLend(colonistsToLendCount>1)->[colonistsToLendCount] colonists</li>
+    <li>colonistCountToLend(colonistsToLendCount==1)->1 colonist[minAgeOrOlder]</li>
+    <li>colonistCountToLend(colonistsToLendCount>1)->[colonistsToLendCount] colonists[minAgeOrOlder]</li>
     <li>willSendShuttle->[asker_pronoun] will send a shuttle to pick up the [colonists].</li>
     <li>colonists(colonistsToLendCount==1)->colonist</li>
     <li>colonists(colonistsToLendCount>1)->colonists</li>
+    <li>minAgeOrOlder(minAge==0)-></li>
+    <li>minAgeOrOlder(minAge>0)-> [minAge] years old or older</li>
     <li>pawnListHaveConjugation(colonistsToLendCount==1)->has</li>
     <li>pawnListHaveConjugation(colonistsToLendCount>1)->have</li>
   -->
@@ -23,11 +25,13 @@
     <li>disease->疟疾</li>
     <li>disease->伤口感染</li>
     <li>questDescription(asker_royalInCurrentFaction==True)->[asker_faction_name] 的 [asker_royalTitleInCurrentFaction] [asker_nameFull] 需要一些人手来帮忙[dutyRoyalDescription]。\n\n[asker_pronoun]正请求你将[colonistCountToLend]派遣去为[asker_objective]服务[lendForDays]天。\n\n[willSendShuttle]</li>
-    <li>colonistCountToLend(colonistsToLendCount==1)->一位殖民者</li>
-    <li>colonistCountToLend(colonistsToLendCount>1)->[colonistsToLendCount]殖民者</li>
+    <li>colonistCountToLend(colonistsToLendCount==1)->一位殖民者[minAgeOrOlder]</li>
+    <li>colonistCountToLend(colonistsToLendCount>1)->[colonistsToLendCount]殖民者[minAgeOrOlder]</li>
     <li>willSendShuttle->[asker_pronoun] 将会派出穿梭机来接 [colonists]。</li>
     <li>colonists(colonistsToLendCount==1)->殖民者</li>
     <li>colonists(colonistsToLendCount>1)->殖民者</li>
+    <li>minAgeOrOlder(minAge==0)-></li>
+    <li>minAgeOrOlder(minAge>0)-> [minAge]岁或更年长</li>
     <li>pawnListHaveConjugation(colonistsToLendCount==1)->已经</li>
     <li>pawnListHaveConjugation(colonistsToLendCount>1)->已经</li>
   </PawnLend.questDescriptionRules.rulesStrings>

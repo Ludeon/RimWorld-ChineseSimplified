@@ -30,6 +30,8 @@
   <TranslationFilesTKeyUpdate>更新翻译文件（TKey's）</TranslationFilesTKeyUpdate>
   <!-- EN: Cleaning translation files -->
   <CleaningTranslationFiles>正在清理翻译文件</CleaningTranslationFiles>
+  <!-- EN: Dev quicktest -->
+  <DevQuickTest>Dev:快速测试</DevQuickTest>
   <!-- EN: Credits -->
   <Credits>制作组</Credits>
   <!-- EN: Quit to main menu -->
@@ -78,8 +80,8 @@
   <WorldGenerate>生成世界</WorldGenerate>
   <!-- EN: Save and finish -->
   <WorldSaveAndFinish>保存并完成</WorldSaveAndFinish>
-  <!-- EN: Reset -->
-  <Reset>重设</Reset>
+  <!-- EN: Reset factions -->
+  <ResetFactions>重置派系</ResetFactions>
   <!-- EN: Globe coverage -->
   <PlanetCoverage>全球覆盖率</PlanetCoverage>
   <!-- EN: Overall rainfall -->
@@ -152,16 +154,66 @@
   <ConfirmDeleteMod>你确定要删除{0}的所有内容？</ConfirmDeleteMod>
   <!-- EN: Auto-sort mods -->
   <ResolveModOrder>自动排序</ResolveModOrder>
+  <!-- EN: Save and apply changes -->
+  <SaveModChanges>保存并应用</SaveModChanges>
+  <!-- EN: Mod changes have not been saved. Are you sure you want to continue? -->
+  <DiscardModChanges>Mod列表变动已保存，你确定要继续吗？</DiscardModChanges>
   <!-- EN: Cannot move {0}: It must be loaded after {1}. -->
   <ModReorderConflict_MustLoadAfter>不能移动{0}：它必须在{1}之后加载。</ModReorderConflict_MustLoadAfter>
   <!-- EN: Cannot move {0}: It must be loaded before {1}. -->
   <ModReorderConflict_MustLoadBefore>不能移动{0}：它必须在{1}之前加载。</ModReorderConflict_MustLoadBefore>
   <!-- EN: Unsubscribe -->
   <Unsubscribe>取消订阅</Unsubscribe>
+  <!-- EN: Are you sure you want to unsubscribe? -->
+  <ConfirmUnsubscribe>你确定要取消订阅？</ConfirmUnsubscribe>
   <!-- EN: Are you sure you want to unsubscribe from {0}? -->
-  <ConfirmUnsubscribe>你确定要取消订阅{0}？</ConfirmUnsubscribe>
+  <ConfirmUnsubscribeFrom>你确定要取消订阅{0}？</ConfirmUnsubscribeFrom>
+  <!-- EN: Are you sure you want to unsubscribe from:\n\n{0} -->
+  <ConfirmUnsubscribeFromMultiple>你确定要取消订阅？\n\n{0}</ConfirmUnsubscribeFromMultiple>
   <!-- EN: Author -->
   <Author>作者</Author>
+  <!-- EN: Enabled -->
+  <Enabled>可用</Enabled>
+  <!-- EN: Disabled -->
+  <Disabled>禁用</Disabled>
+  <!-- EN: Enable -->
+  <Enable>启用</Enable>
+  <!-- EN: Disable -->
+  <Disable>禁用</Disable>
+  <!-- EN: Get mods from... -->
+  <GetMods>获取Mods...</GetMods>
+  <!-- EN: Unsubscribe from... -->
+  <UnsubscribeMultiple>取消订阅...</UnsubscribeMultiple>
+  <!-- EN: Save / load list... -->
+  <SaveLoadList>保存/读取列表...</SaveLoadList>
+  <!-- EN: Save mod list -->
+  <SaveModList>保存mod列表</SaveModList>
+  <!-- EN: Load mod list -->
+  <LoadModList>读取mod列表</LoadModList>
+  <!-- EN: Added mods -->
+  <AddedModsList>添加mod</AddedModsList>
+  <!-- EN: Missing mods -->
+  <MissingModsList>缺失mod</MissingModsList>
+  <!-- EN: Shared mods -->
+  <SharedModsList>分享mod</SharedModsList>
+  <!-- EN: Website -->
+  <ModWebsite>网页</ModWebsite>
+  <!-- EN: Open folder -->
+  <ModFolder>打开目录</ModFolder>
+  <!-- EN: Mod options -->
+  <ModOptions>Mod选项</ModOptions>
+  <!-- EN: Workshop -->
+  <FromWorkshop>创意工坊</FromWorkshop>
+  <!-- EN: Forum -->
+  <FromForum>论坛</FromForum>
+  <!-- EN: Advanced... -->
+  <MoreActions>高级...</MoreActions>
+  <!-- EN: All selected mods -->
+  <AllSelectedMods>所有已选mod</AllSelectedMods>
+  <!-- EN: All disabled mods -->
+  <AllDisabledMods>所有禁用mod</AllDisabledMods>
+  <!-- EN: All incompatible mods -->
+  <AllIncompatibleMods>所有不兼容mod</AllIncompatibleMods>
   <!-- EN: Workshop page -->
   <WorkshopPage>创意工坊页面</WorkshopPage>
   <!-- EN: Upload to Steam Workshop -->
@@ -176,6 +228,8 @@
   <WorkshopUploadSucceeded>已成功上传{0}。</WorkshopUploadSucceeded>
   <!-- EN: Downloading -->
   <Downloading>下载中</Downloading>
+  <!-- EN: Workshop ID -->
+  <WorkshopId>工坊ID</WorkshopId>
   <!-- EN: Display fulfilled requirements -->
   <ModDisplayFulfilledRequirements>显示已满足的要求</ModDisplayFulfilledRequirements>
   <!-- EN: Click to select. -->
@@ -184,8 +238,10 @@
   <ModClickToGoToWebsite>点击进入网站。</ModClickToGoToWebsite>
   <!-- EN: Source -->
   <Source>资源</Source>
-  <!-- EN: For game version(s) -->
-  <ModTargetVersion>适配游戏版本</ModTargetVersion>
+  <!-- EN: Game versions -->
+  <ModTargetVersion>游戏版本</ModTargetVersion>
+  <!-- EN: Mod version -->
+  <ModVersion>Mod版本</ModVersion>
   <!-- EN: ID -->
   <ModPackageId>ID</ModPackageId>
   <!-- EN: This must be loaded before: {0}. -->
@@ -204,7 +260,7 @@
   <ModWithSameIdAlreadyActive>另一个激活的mod使用了相同的ID: {0}。</ModWithSameIdAlreadyActive>
   <!-- EN: There is a cyclic mod dependency starting with {0}. -->
   <ModCyclicDependency>与{0}产生了循环依赖。</ModCyclicDependency>
-  <!-- EN: This requires following mods to work: {0}. -->
+  <!-- EN: This requires the following mods to work: {0}. -->
   <ModUnsatisfiedDependency>这需要以下MOD才能运行: {0}。</ModUnsatisfiedDependency>
   <!-- EN: This mod was not made for this version of RimWorld, and will probably not work correctly. -->
   <ModNotMadeForThisVersion>该 Mod 并不适配于当前 RimWorld 版本，很可能无法正常运行。</ModNotMadeForThisVersion>
@@ -274,6 +330,8 @@
   <TooMany>过多（最多 {0}）: </TooMany>
   <!-- EN: Can be updated on Workshop, since you are the author. -->
   <CanBeUpdatedOnWorkshop>作为作者，你可以将其更新到 Steam 创意工坊。</CanBeUpdatedOnWorkshop>
+  <!-- EN: This scenario has been edited.\n\nDo you want to save it before proceeding? -->
+  <ScenarioChangedSavePrompt>这个剧本已经被修改。\n\n你想要在使用前保存它吗？</ScenarioChangedSavePrompt>
   
   <!-- Select storyteller -->
   <!-- EN: Choose AI Storyteller -->
@@ -419,6 +477,10 @@
   <Difficulty_AllowCaveHives_Label>自然虫巢</Difficulty_AllowCaveHives_Label>
   <!-- EN: Dormant insect hives may spawn in natural caves.\n\nThis setting only applies to map generation and does not affect active insects that may tunnel in during play. -->
   <Difficulty_AllowCaveHives_Info>自然洞穴中可能会生成休眠的虫巢。\n\n此选项只会影响地图生成，而不会影响到游戏中挖掘隧道的活跃虫群。</Difficulty_AllowCaveHives_Info>
+  <!-- EN: Add unwavering prisoners -->
+  <Difficulty_UnwaveringPrisoners_Label>添加死忠囚犯</Difficulty_UnwaveringPrisoners_Label>
+  <!-- EN: This option adds additional capturable prisoners to the game who cannot be recruited due to unwavering loyalty.\n\nUnwavering prisoners are added on top of normal prisoners, so turning this off won't give more recruitable prisoner - it simply removes the unwavering ones.\n\nUnwavering prisoners can still be released for diplomatic gains, sold, enslaved, harvested for organs, or otherwise made use of. In general, they offer more options and resources, and make the game a bit richer and easier. -->
+  <Difficulty_UnwaveringPrisoners_Info>这个选项在游戏中增加了额外的可俘虏的囚犯类型，他们由于忠诚度不坚定而无法被招募。\n\n死忠囚犯是在普通囚犯的基础上增加的一个变种，所以关闭这个选项并不会带来更多可招募的囚犯——它只是删除了死忠囚犯类型。\n\n死忠囚犯仍然可以为了外交利益而被释放，被出售，被奴役，被摘取器官，或以其他方式被利用。总的来说，他们提供了更多的选择和资源，并使游戏变得更加丰富和容易。</Difficulty_UnwaveringPrisoners_Info>
 
   <!-- EN: Player tools -->
   <DifficultyPlayerToolsSection>玩家控制</DifficultyPlayerToolsSection>
@@ -462,7 +524,7 @@
   <DifficultyIdeologySection>文化</DifficultyIdeologySection>
   <!-- EN: Low pop conversion boost -->
   <Difficulty_LowPopConversionBoost_Label>低人口教化补正</Difficulty_LowPopConversionBoost_Label>
-  <!-- EN: With a single colonist of the player's starting ideoligion, conversion chance to his ideoligion is multiplied by this amount. Conversion attempts against them have their impact divided by that amount.\n\nWith two colonists of the player's starting ideoligion, the effect is halved.\n\nWith three or more colonists of the player's starting ideoligion, this has no effect. -->
+  <!-- EN: With a single colonist of the player's starting ideoligion, conversion chance to their ideoligion is multiplied by this amount. Conversion attempts against them have their impact divided by that amount.\n\nWith two colonists of the player's starting ideoligion, the effect is halved.\n\nWith three or more colonists of the player's starting ideoligion, this has no effect. -->
   <Difficulty_LowPopConversionBoost_Info>当玩家的开局文化形态追随者只有一个人的时候， 教化其他人至此文化形态的几率会乘以此数值。\n\n当玩家的开局文化形态追随者有两个人时， 此补正效果减半。\n\n当玩家的开局文化形态追随者有至少三个人时， 此补正无效。</Difficulty_LowPopConversionBoost_Info>
 
   <!-- Site select -->
@@ -500,6 +562,8 @@
   <Elevation>海拔</Elevation>
   <!-- EN: Fertility -->
   <Fertility>肥沃度</Fertility>
+  <!-- EN: fertility -->
+  <FertilityLower>肥沃度</FertilityLower>
   <!-- EN: Average temperature -->
   <AvgTemp>平均温度</AvgTemp>
   <!-- EN: Rainfall -->
@@ -534,6 +598,10 @@
   <Forageability>远行采集量</Forageability>
   <!-- EN: None of the selected people can do the following jobs:\n\n{0}\n\nThis can make the game more difficult than usual. Are you sure you want to continue? -->
   <ConfirmRequiredWorkTypeDisabledForEveryone>已选中的人之内没有任何人能做下列工作：\n\n{0}\n\n这将导致游戏比正常情况更难。确定要继续吗？</ConfirmRequiredWorkTypeDisabledForEveryone>
+  <!-- EN: temperature -->
+  <TemperatureLower>温度</TemperatureLower>
+  <!-- EN: light -->
+  <LightLower>光照</LightLower>
 
   <!-- Character chooser -->
   <!-- EN: Create characters -->
@@ -558,20 +626,22 @@
   <IncapableOf>无法从事</IncapableOf>
   <!-- EN: Abilities -->
   <Abilities>能力</Abilities>
-  <!-- EN: Caused by backstory: {0} -->
-  <IncapableOfTooltipBackstory>背景故事: {0}</IncapableOfTooltipBackstory>
-  <!-- EN: Caused by title: {0} -->
-  <IncapableOfTooltipTitle>头衔: {0}</IncapableOfTooltipTitle>
-  <!-- EN: Caused by trait: {0} -->
-  <IncapableOfTooltipTrait>特性: {0}</IncapableOfTooltipTrait>
-  <!-- EN: Caused by: {0} -->
-  <IncapableOfTooltipHediff>由于: {0} </IncapableOfTooltipHediff>
+  <!-- EN: Caused by -->
+  <IncapableOfTooltipHediff>由于</IncapableOfTooltipHediff>
   <!-- EN: Disabled work types: -->
   <IncapableOfTooltipWorkTypes>禁用的工作类型：</IncapableOfTooltipWorkTypes>
-  <!-- EN: Caused by quest status: {0} -->
-  <IncapableOfTooltipQuest>任务状态：{0}</IncapableOfTooltipQuest>
-  <!-- EN: Caused by role: {0} -->
-  <IncapableOfTooltipRole>角色：{0}</IncapableOfTooltipRole>
+  <!-- EN: Caused by backstory -->
+  <IncapableOfTooltipBackstory>背景故事</IncapableOfTooltipBackstory>
+  <!-- EN: Caused by title -->
+  <IncapableOfTooltipTitle>头衔</IncapableOfTooltipTitle>
+  <!-- EN: Caused by trait -->
+  <IncapableOfTooltipTrait>特性</IncapableOfTooltipTrait>
+  <!-- EN: Caused by quest status -->
+  <IncapableOfTooltipQuest>任务状态</IncapableOfTooltipQuest>
+  <!-- EN: Caused by role -->
+  <IncapableOfTooltipRole>角色</IncapableOfTooltipRole>
+  <!-- EN: Caused by gene -->
+  <IncapableOfTooltipGene>基因</IncapableOfTooltipGene>
   <!-- EN: Traits -->
   <Traits>特性</Traits>
   <!-- EN: Permanent mood effect -->
@@ -602,6 +672,8 @@
   <Health>健康</Health>
   <!-- EN: Relations -->
   <Relations>关系</Relations>
+  <!-- EN: Possessions -->
+  <Possessions>财产</Possessions>
   <!-- EN: Team skills -->
   <TeamSkills>团队技能</TeamSkills>
   <!-- EN: Selected -->
@@ -645,8 +717,8 @@
   <!-- EN: Generating map for new encounter -->
   <GeneratingMapForNewEncounter>生成新地区地图中</GeneratingMapForNewEncounter>
 
-  <!-- EN: Click for more info -->
-  <ClickForMoreInfo>点击了解更多信息</ClickForMoreInfo>
+  <!-- EN: Click for more info. -->
+  <ClickForMoreInfo>点击了解更多信息。</ClickForMoreInfo>
   <!-- EN: No more information is available. -->
   <NoMoreInfoAvailable>没有更多信息。</NoMoreInfoAvailable>
 
@@ -655,12 +727,10 @@
   <Factions>派系</Factions>
   <!-- EN: Gameplay problems can occur with more than {0} factions. -->
   <RecommendedFactionCount>派系数量超过{0}可能会使游戏出现问题。</RecommendedFactionCount>
-  <!-- EN: Maximum {0} visible factions allowed. -->
+  <!-- EN: max {0} visible factions allowed -->
   <TotalFactionsAllowed>最多允许{0}个可见派系。</TotalFactionsAllowed>
-  <!-- EN: There can be no more than {0} {1}. -->
-  <MaxFactionsForType>不允许出现超过{0}x{1}的情形。</MaxFactionsForType>
-  <!-- EN: Restore defaults -->
-  <ResetFactionsToDefault>恢复默认值</ResetFactionsToDefault>
+  <!-- EN: max {0} -->
+  <MaxFactionsForType>最多{0}</MaxFactionsForType>
   <!-- EN: Select the factions in the world. You can select up to {0} factions total. -->
   <FactionSelectionDesc>选择出现在世界上的派系。你最多可以选择{0}个派系。</FactionSelectionDesc>
   <!-- EN: Disabling {0} means less quest variety and other reduced content. -->

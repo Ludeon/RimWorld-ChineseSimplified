@@ -3,7 +3,8 @@
   
   <!-- EN:
     <li>r_deityType->[god] of [memeConcept]</li>
-    <li>god(p=7)->God</li>
+    <li>god(p=7, gender!=Female)->God</li>
+    <li>god(p=7, gender==Female)->Goddess</li>
     <li>god(p=4)->[memeGod]</li>
     <li>god(p=3)->Spirit</li>
     <li>god->Creator</li>
@@ -11,7 +12,8 @@
   -->
   <DeityTypeMakerGlobal.rulePack.rulesStrings>
     <li>r_deityType->[memeConcept]之[god] </li>
-    <li>god(p=7)->神</li>
+    <li>god(p=7, gender!=Female)->神</li>
+    <li>god(p=7, gender==Female)->女神</li>
     <li>god(p=4)->[memeGod]</li>
     <li>god(p=3)->灵</li>
     <li>god->主</li>

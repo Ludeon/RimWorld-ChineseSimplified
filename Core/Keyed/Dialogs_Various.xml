@@ -13,6 +13,22 @@
   <Close>关闭</Close>
   <!-- EN: Accept -->
   <Accept>接受</Accept>
+  <!-- EN: Cancel -->
+  <Cancel>取消</Cancel>
+  <!-- EN: Reset -->
+  <Reset>重设</Reset>
+  <!-- EN: Reset all -->
+  <ResetAll>重置全部</ResetAll>
+  <!-- EN: Disable -->
+  <Disable>禁用</Disable>
+  <!-- EN: Modify -->
+  <Modify>修改</Modify>
+  <!-- EN: Settle here anyways? -->
+  <ConfirmSettle>无论如何都要在这里定居？</ConfirmSettle>
+  <!-- EN: add -->
+  <Add>添加</Add>
+  <!-- EN: Cannot shoot -->
+  <CannotShoot>无法射击</CannotShoot>
   
   <!-- Game updated to new version -->
   <!-- EN: RimWorld has been updated from version {0} to version {1}. -->
@@ -163,10 +179,30 @@
   <ZoneGainsName>这个区域的名称被改为{0}。</ZoneGainsName>
   
   <!-- Pawn naming -->
+  <!-- EN: Chosen name is invalid. -->
+  <NameInvalid>名称无效。</NameInvalid>
   <!-- EN: This person's nickname is now {0}. {PAWN_possessive} title is {PAWN_title}. -->
   <PawnGainsName>此人的昵称变为{0}。{PAWN_possessive}称呼现在叫作{PAWN_title}。</PawnGainsName>
   <!-- EN: The animal's name is now {0}. -->
   <AnimalGainsName>该动物的名字变为{0}。</AnimalGainsName>
+  <!-- EN: rename person -->
+  <RenamePerson>重命名</RenamePerson>
+  <!-- EN: mother -->
+  <Mother>母亲</Mother>
+  <!-- EN: father -->
+  <Father>父亲</Father>
+  <!-- EN: unknown -->
+  <Unknown>未知</Unknown>
+  <!-- EN: first name -->
+  <FirstName>前缀名</FirstName>
+  <!-- EN: nickname -->
+  <NickName>昵称</NickName>
+  <!-- EN: last name -->
+  <LastName>后缀名</LastName>
+  <!-- EN: title -->
+  <Title>标题</Title>
+  <!-- EN: suggested -->
+  <Suggested>建议</Suggested>
 
   <!-- Save game incompatible warning -->
   <!-- EN: Version mismatch -->
@@ -179,8 +215,12 @@
   <FileIncompatibleWarning>保存该文件的游戏版本为{0}。\n当前运行游戏版本为{1}\n\n载入该文件可能导致错误或崩溃。</FileIncompatibleWarning>
   <!-- EN: Mods mismatch -->
   <ModsMismatchWarningTitle>Mod不匹配</ModsMismatchWarningTitle>
-  <!-- EN: This file was saved with a different set of mods active than those we are currently running. This may or may not cause problems, depending on exactly what these mods do.\n\nFile was saved with (in this order):\n\n{0}\n\nWe are running with (in this order):\n\n{1} -->
-  <ModsMismatchWarningText>存档的Mod启用设定和当前游戏运行的设定不同，你改动了Mod，根据Mod的内容有可能发生问题，也有可能正常。\n\n存档的Mod启用设定是（按照顺序）:\n\n{0}\n\n当前运行的Mod启用设定是（按照顺序）:\n\n{1}</ModsMismatchWarningText>
+  <!-- EN: This file was saved with a different set of mods active than those we are currently running. This may or may not cause problems, depending on exactly what these mods do. -->
+  <ModsMismatchWarningText>存档的Mod启用设定和当前游戏运行的设定不同，你改动了Mod，根据Mod的内容有可能发生问题，也有可能正常。</ModsMismatchWarningText>
+  <!-- EN: No mods have been added or removed, but the order of your mod list has changed. -->
+  <ModsMismatchOrderChanged>没有删除或添加mod，但你的mod列表顺序有变动。</ModsMismatchOrderChanged>
+  <!-- EN: Are you sure you want to load the mod list from this save file? -->
+  <ConfirmLoadSaveList>你确定要从这个存档中加载mod列表吗？</ConfirmLoadSaveList>
 
   <!-- Resolution change dialog -->
   <!-- EN: You've changed your screen settings. Do the new ones work okay?\n\nAuto-reverting in {0}... -->
@@ -193,7 +233,19 @@
   <!-- Confirm permanently disable dev mode -->
   <!-- EN: Do you really want to permanently disable development mode on this computer?\n\nThis option is for people who want a pure play experience without the temptation to use development tools to gain advantage in normal play.\n\nDevelopment mode can be re-enabled, but doing so requires manually editing configuration files. You'll need to search the Internet to find out how. -->
   <ConfirmPermanentlyDisableDevMode>你真的想要在这台电脑上永久禁用开发者模式吗？</ConfirmPermanentlyDisableDevMode>
-  
+
+  <!-- Confirm reset learning helper -->
+  <!-- EN: Are you sure you want to reset the learning helper?\n\nAll records of which concepts have been learned will be erased and the system will teach everything from scratch. -->
+  <ConfirmResetLearningHelper>你确定要重新设置教学助手吗？所有已经学过的概念的记录将被删除，系统将从头开始教所有的东西。</ConfirmResetLearningHelper>
+
+  <!-- Backstory translation restart dialog -->
+  <!-- EN: Backstories are now implemented as a def and all legacy backstory translations have been imported into def translations. The file {0} has been imported and moved to {1}. It can now be deleted.\n\nRestart the game for changes to take effect. -->
+  <RestartAfterImportingLegacyBackstoryTanslations>背景故事现在以def的形式实现，所有遗留的背景故事翻译都已导入def翻译中。文件{0}已被导入并移至{1}。它现在可以被删除了。\n\n重新启动游戏以使变化生效。</RestartAfterImportingLegacyBackstoryTanslations>
+
+  <!-- Game start -->
+  <!-- EN: Must include exactly {SUMMARY} -->
+  <SelectedCharactersMustInclude>必须准确包含{SUMMARY}</SelectedCharactersMustInclude>
+
   <!-- Advanced game start options -->
   <!-- EN: Warning: You will be landing in a frozen environment. It may be hard or nearly impossible to survive. If you are not intending to face an extreme challenge, choose a different site or season. -->
   <MapTemperatureDangerWarning>警告：你将会降落在一个冰冻地区。这会让生存非常艰难甚至是不可能。如果你并不想挑战艰难的环境，选择另一个降落点或另一个月份。</MapTemperatureDangerWarning>
@@ -254,10 +306,10 @@
   <WorkAmount>工作量</WorkAmount>
   <!-- EN: Minimum skills: -->
   <MinimumSkills>最低技能要求: </MinimumSkills>
-  <!-- EN: Requires {0} {1} -->
-  <BillRequires>需要{0}{1}</BillRequires>
-  <!-- EN: Requires {0} nutrition -->
-  <BillRequiresNutrition>需要营养共计{0}的</BillRequiresNutrition>
+  <!-- EN: Requires -->
+  <BillRequires>需要</BillRequires>
+  <!-- EN: nutrition -->
+  <BillNutrition>营养</BillNutrition>
   <!-- EN: Note: Small-volume ingredients like gold require {0}x as much. -->
   <BillRequiresMayVary>注意：小体积材料（比如黄金）消耗材料需乘{0}倍。</BillRequiresMayVary>
   <!-- EN: This is a small-volume ingredient. This means that each 'unit' is only 1/{0} as much as a normal-volume ingredient. So, to fill the same ingredient requirement, you'll need {0}x as much as usual. -->
@@ -314,8 +366,8 @@
   <WarmupTime>预热时间</WarmupTime>
   <!-- EN: Melee warmup -->
   <MeleeWarmupTime>近战预热时间</MeleeWarmupTime>
-  <!-- EN: Ranged warmup -->
-  <RangedWarmupTime>远程预热时间</RangedWarmupTime>
+  <!-- EN: Aiming time -->
+  <RangedWarmupTime>瞄准时间</RangedWarmupTime>
   <!-- EN: Cooldown -->
   <CooldownTime>冷却时间</CooldownTime>
   <!-- EN: Disarmed -->
@@ -434,8 +486,12 @@
   <ToleranceFallRate>抗药性降低速率</ToleranceFallRate>
   <!-- EN: New addiction min tolerance -->
   <MinimumToleranceForAddiction>成瘾抗药性阈值</MinimumToleranceForAddiction>
-  <!-- EN: Safe dose interval -->
-  <SafeDoseInterval>安全服用间隔</SafeDoseInterval>
+  <!-- EN: Safe dose interval for adults -->
+  <SafeDoseInterval>成年安全服用间隔</SafeDoseInterval>
+  <!-- EN: age {0}-{1} -->
+  <AgeXToY>年龄{0}-{1}</AgeXToY>
+  <!-- EN: age {0}+ -->
+  <AgePlus>年龄{0}+</AgePlus>
   <!-- EN: New addiction chance -->
   <Addictiveness>成瘾性</Addictiveness>
   <!-- EN: Addiction initial severity -->
@@ -528,7 +584,7 @@
   <MeditationFocuses>灵媒类型</MeditationFocuses>
   <!-- EN: Unlocks meditation focus types -->
   <MeditationFocusesUnlocked>解锁灵媒</MeditationFocusesUnlocked>
-  <!-- EN: The types of meditation focus this person can use. When meditating, a person can focus on an obejct to boost their psyfocus gain - but only if that object offers a focus type they can use. Each person's meditation types are determined by their background, traits, social position, and so on. -->
+  <!-- EN: The types of meditation focus this person can use. When meditating, a person can focus on an object to boost their psyfocus gain - but only if that object offers a focus type they can use. Each person's meditation types are determined by their background, traits, social position, and so on. -->
   <MeditationFocusesPawnDesc>这个人可以进行的冥想种类。在冥想时，可以通过专注于一个物体来提高精神力增益——前提是这个物体提供了冥想者可以使用的灵媒类型。冥想者的灵媒类型取决于他们的背景、特征和社会地位等。</MeditationFocusesPawnDesc>
   <!-- EN: The types of meditation focus this object offers. A meditating person can focus on this object to boost their psyfocus gain, but only if they are able to use one of its meditation types. Each person can use different meditation types depending on their background, traits, social position, and so on. -->
   <MeditationFocusesDesc>这个物体提供的灵媒类型。一个冥想者可以把注意力集中到这个物体上，从而提高他们的精神力收益，前提是他们能够使用其中一种灵媒类型。冥想者的灵媒类型取决于他们的背景、特征和社会地位等。</MeditationFocusesDesc>
@@ -790,6 +846,8 @@
   <TotalBodySize>总体形</TotalBodySize>
   <!-- EN: Automatically select travel supplies -->
   <AutomaticallySelectTravelSupplies>自动选择远行必备的物资</AutomaticallySelectTravelSupplies>
+  <!-- EN: This animal is sick. It is suffering from the following illnesses -->
+  <CaravanAnimalSick>这只动物生病了。它患有以下疾病 </CaravanAnimalSick>
 
   <!-- Split caravan -->
   <!-- EN: Split caravan -->
@@ -954,6 +1012,8 @@
   <NoFoodRestrictionSelected>未选择食物限制</NoFoodRestrictionSelected>
 
   <!-- Medical settings -->
+  <!-- EN: Default medicine settings -->
+  <DefaultMedicineSettings>默认用药设置</DefaultMedicineSettings>
   <!-- EN: Defaults -->
   <MedGroupDefaults>默认</MedGroupDefaults>
   <!-- EN: Colonist -->
@@ -1002,8 +1062,8 @@
   <ConfirmSendNotCompletelyLoadedPods>发射组并没有完成装载进程。 {1_labelShort}还未进入运输舱。确定要发射吗？</ConfirmSendNotCompletelyLoadedPods>
 
   <!-- Settle near a faction base -->
-  <!-- EN: Since this location is within {0} tiles of another faction base, they will feel you are encroaching on their land and relations with those factions will worsen every {1} days.\n\nSettle here anyways? -->
-  <ConfirmSettleNearFactionBase>由于此地点位于另一派系的领地的{0}格以内，他们会觉得你在侵占他们的土地，且你和此派系的关系每{1}天都会恶化。\n\n无论如何也要定居在这里吗？</ConfirmSettleNearFactionBase>
+  <!-- EN: Since this location is within {0} tiles of another faction base, they will feel you are encroaching on their land and relations with those factions will worsen every {1} days. -->
+  <ConfirmSettleNearFactionBase>由于此地点位于另一派系的领地的{0}格以内，他们会觉得你在侵占他们的土地，且你和此派系的关系每{1}天都会恶化。</ConfirmSettleNearFactionBase>
   
   <!-- Cleanup translation files -->
   <!-- EN: Are you sure you want to cleanup all translation files for language {0}?\n\nThis will:\n  - Add placeholders for missing keyed translations, def-injected translations, and backstories\n  - Add or update comments containing the original, untranslated text\n  - Move all keyed and def-injected translations to the appropriate XML files\n  - Apply automatic formatting to all XML files\n  - Update back-compatible def names\n  - Remove all existing XML comments (except in full-list injections)\n\nNon-XML files will not be removed or modified.\n\nRemember to restart the game after modifying the language files before running this tool in order to reload all data.\n\nMake sure to back up all translation files before using this tool. -->
@@ -1020,6 +1080,8 @@
   <ConfirmCancelMonumentMarker>确定要消除纪念碑上的标记嘛？</ConfirmCancelMonumentMarker>
 
   <!-- Abilities -->
+  <!-- EN: Cannot use {0} -->
+  <CannotUseAbility>无法使用{0}</CannotUseAbility>
   <!-- EN: Line of sight required -->
   <AbilityRequiresLOS>目标必须可视</AbilityRequiresLOS>
   <!-- EN: Neural heat gain -->
@@ -1034,16 +1096,18 @@
   <AbilityCastingTime>释放时间</AbilityCastingTime>
   <!-- EN: No line of sight to target. -->
   <AbilityCannotHitTarget>看不见目标。</AbilityCannotHitTarget>
+  <!-- EN: Target is out of range. -->
+  <AbilityOutOfRange>目标超出距离。</AbilityOutOfRange>
   <!-- EN: Can't reach the target. -->
   <AbilityCannotReachTarget>无法抵达目标。</AbilityCannotReachTarget>
   <!-- EN: Not enough free space. -->
   <AbilityNotEnoughFreeSpace>没有足够的空间。</AbilityNotEnoughFreeSpace>
-  <!-- EN: {0} must target an empty area. -->
-  <AbilityOccupiedCells>{0}必须瞄准空置区域。</AbilityOccupiedCells>
-  <!-- EN: {0} must target a walkable area. -->
-  <AbilityUnwalkable>{0}必须瞄准可行走区域。</AbilityUnwalkable>
-  <!-- EN: {0} must target an unroofed area. -->
-  <AbilityRoofed>{0}必须瞄准不在屋顶下的区域。</AbilityRoofed>
+  <!-- EN: Must target an empty area. -->
+  <AbilityOccupiedCells>必须瞄准空置区域。</AbilityOccupiedCells>
+  <!-- EN: Must target a walkable area. -->
+  <AbilityUnwalkable>必须瞄准可行走区域。</AbilityUnwalkable>
+  <!-- EN: Must target an unroofed area. -->
+  <AbilityRoofed>必须瞄准不在屋顶下的区域。</AbilityRoofed>
   <!-- EN: {0_labelShort} is mentally broken. -->
   <AbilityCantApplyToMentallyBroken>{0_labelShort}精神崩溃。</AbilityCantApplyToMentallyBroken>
   <!-- EN: {0_labelShort} is not mentally broken. -->
@@ -1062,6 +1126,10 @@
   <AbilityCantApplyOnAsexual>无法使用：{0}无性。</AbilityCantApplyOnAsexual>
   <!-- EN: {1_labelShort} is the wrong gender for {0_labelShort}. -->
   <AbilityCantApplyWrongAttractionGender>对于{0_labelShort}来说，{1_labelShort}的性别不符合条件。</AbilityCantApplyWrongAttractionGender>
+  <!-- EN: {0_labelShort} is too young. -->
+  <AbilityCantApplyTooYoung>{0_labelShort}太年幼了。</AbilityCantApplyTooYoung>
+  <!-- EN: Cannot target a baby. -->
+  <AbilityCantApplyOnBaby>无法指定幼儿。</AbilityCantApplyOnBaby>
   <!-- EN: Psyfocus cost per mental break intensity -->
   <PsyfocusCostPerMentalBreakIntensity>直接精神崩溃的精神力需求</PsyfocusCostPerMentalBreakIntensity>
   <!-- EN: {0_labelShort} is already inspired. -->
@@ -1191,5 +1259,69 @@
   <RoomRequirementNoProductionFacilities>不允许有生产设施</RoomRequirementNoProductionFacilities>
   <!-- EN: no altars allowed -->
   <RoomRequirementNoAltars>不允许设置祭坛</RoomRequirementNoAltars>
+
+  <!-- EN: Lifestage max food factor -->
+  <LifeStageMaxFood>食物系数</LifeStageMaxFood>
+
+  <!-- EN: Expand all -->
+  <ExpandAllCategories>全部展开</ExpandAllCategories>
+  <!-- EN: Collapse all -->
+  <CollapseAllCategories>全部折叠</CollapseAllCategories>
+
+  <!-- EN: Dye can be farmed from tinctoria or purchased from traders. -->
+  <TooltipDyeExplanation>染料可以种植七色花或者从商人购买。</TooltipDyeExplanation>
+
+  <!-- EN: Zoom range {0} -->
+  <ZoomRange>缩放范围{0}</ZoomRange>
+
+  <!-- Color picker -->
+  <!-- EN: color temperature -->
+  <ColorTemperature>色温</ColorTemperature>
+  <!-- EN: choose a color -->
+  <ChooseAColor>选择一个颜色</ChooseAColor>
+  <!-- EN: red -->
+  <Red>红</Red>
+  <!-- EN: green -->
+  <Green>绿</Green>
+  <!-- EN: blue -->
+  <Blue>蓝</Blue>
+  <!-- EN: hue -->
+  <Hue>色相</Hue>
+  <!-- EN: sat -->
+  <Saturation>饱和度</Saturation>
+  <!-- EN: value -->
+  <Value>价值</Value>
+  <!-- EN: darklight -->
+  <Darklight>微光</Darklight>
+  <!-- EN: not darklight -->
+  <NotDarklight>非微光</NotDarklight>
+  <!-- EN: current color -->
+  <CurrentColor>当前颜色</CurrentColor>
+  <!-- EN: old color -->
+  <OldColor>更早颜色</OldColor>
+  <!-- EN: Copy color -->
+  <CommandCopyColorLabel>复制颜色</CommandCopyColorLabel>
+  <!-- EN: Copy the current color to the clipboard. -->
+  <CommandCopyColorDesc>复制当前颜色至剪贴板。</CommandCopyColorDesc>
+  <!-- EN: Paste color -->
+  <CommandPasteColorLabel>粘贴颜色</CommandPasteColorLabel>
+  <!-- EN: Overwrite the color with the color in the clipboard. -->
+  <CommandPasteColorDesc>用剪贴板中的颜色覆盖该颜色。</CommandPasteColorDesc>
+  <!-- EN: The clipboard does not contain a valid color. -->
+  <ClipboardInvalidColor>剪贴板没有可用颜色。</ClipboardInvalidColor>
+  <!-- EN: Color copied to clipboard. -->
+  <ColorCopiedSuccessfully>颜色已复制到剪贴板。</ColorCopiedSuccessfully>
+  <!-- EN: Updated color from the clipboard. -->
+  <ColorPastedSuccessfully>颜色已从剪贴板更新。</ColorPastedSuccessfully>
+  <!-- EN: Change to normal light -->
+  <ToggleDarklightOff>更改为普通亮度</ToggleDarklightOff>
+  <!-- EN: Change the light color to its normal color. -->
+  <ToggleDarklightOffDesc>改变光照颜色至普通颜色。</ToggleDarklightOffDesc>
+  <!-- EN: Change to darklight -->
+  <ToggleDarklightOn>更改为微光亮度</ToggleDarklightOn>
+  <!-- EN: Change the light color to darklight. -->
+  <ToggleDarklightOnDesc>将光照颜色改为微光。</ToggleDarklightOnDesc>
+  <!-- EN: Choose a color by setting the color temperature. Note: This only affects visual color, not heat output. -->
+  <ColorTemperatureTooltip>通过设置色温来选择颜色。注意：这只影响视觉上的颜色，不影响热量输出。</ColorTemperatureTooltip>
 
 </LanguageData>

@@ -38,6 +38,8 @@
   <HealthFactorAllowedDefect>如果低于{0}</HealthFactorAllowedDefect>
   <!-- EN: Post-process curve -->
   <StatsReport_PostProcessed>后期处理曲线</StatsReport_PostProcessed>
+  <!-- EN: The chances to hit at increasing distances are -->
+  <StatsReport_ShootingExampleDistances>更远距离的命中率</StatsReport_ShootingExampleDistances>
   <!-- EN: Final value -->
   <StatsReport_FinalValue>最终值</StatsReport_FinalValue>
   <!-- EN: Materials and labor -->
@@ -132,7 +134,7 @@
   <StatsReport_Ideoligion>文化</StatsReport_Ideoligion>
   <!-- EN: Multiplier for malnutrition {0} -->
   <StatsReport_Malnutrition>营养不良{0}乘数</StatsReport_Malnutrition>
-  
+
   <!-- EN: Possible offsets -->
   <StatReport_PossibleOffsets>可能的偏移</StatReport_PossibleOffsets>
   <!-- EN: Room impressiveness -->
@@ -338,12 +340,40 @@
   <Stat_Thing_ReloadDestroyOnEmpty_Desc>这个道具会在最后一个{CHARGENOUN}使用完后消失。</Stat_Thing_ReloadDestroyOnEmpty_Desc>
   <!-- EN: The overall efficiency of this body part. -->
   <Stat_Thing_BodyPartEfficiency_Desc>这个身体部位的整体效率。</Stat_Thing_BodyPartEfficiency_Desc>
+  <!-- EN: Install sites -->
+  <Stat_Thing_InstallSites>安装部位</Stat_Thing_InstallSites>
+  <!-- EN: Areas on the body where this can be installed. -->
+  <Stat_Thing_InstallSites_Desc>在身体上可被安装的部位。</Stat_Thing_InstallSites_Desc>
+  <!-- EN: Replaces parts -->
+  <Stat_Thing_ReplacesParts>替代部位</Stat_Thing_ReplacesParts>
+  <!-- EN: Body parts which are replaced by this when installed. -->
+  <Stat_Thing_ReplacesParts_Desc>安装后会被替换的身体部位。</Stat_Thing_ReplacesParts_Desc>
   <!-- EN: Biocoding -->
   <Stat_Thing_Biocoded_Name>生体识别</Stat_Thing_Biocoded_Name>
   <!-- EN: This item has been coded to only accept a particular individual's bio-signature. -->
   <Stat_Thing_Biocoded_Desc>该物品经过生体编译只能给识别给特定的人使用。</Stat_Thing_Biocoded_Desc>
   <!-- EN: Required apparel -->
   <Stat_Pawn_RequiredApparel_Name>需要衣物</Stat_Pawn_RequiredApparel_Name>
+  <!-- EN: Growth rate -->
+  <Stat_Thing_Plant_GrowthRate>生长速率</Stat_Thing_Plant_GrowthRate>
+  <!-- EN: The rate at which a plant is growing.\n\nGrowth rate is affected by things like soil fertility, temperature, light, and environmental conditions. -->
+  <Stat_Thing_Plant_GrowthRate_Desc>植物生长的速度。\n\n生长速度受土壤肥力、温度、光线和环境条件等因素的影响。</Stat_Thing_Plant_GrowthRate_Desc>
+  <!-- EN: Age -->
+  <Stat_Thing_Plant_Age>年龄</Stat_Thing_Plant_Age>
+  <!-- EN: How long this has been alive. -->
+  <Stat_Thing_Plant_AgeDesc>已存活的时长。</Stat_Thing_Plant_AgeDesc>
+  <!-- EN: Lifespan -->
+  <Stat_Thing_Plant_Lifespan>寿命</Stat_Thing_Plant_Lifespan>
+  <!-- EN: How long this plant can survive after planting. Regardless of growth or damage, plants die if they become too old. -->
+  <Stat_Thing_Plant_LifespanDesc>这种植物在种植之后可存活的市场。无论生长或损害如何，如果植物变得太老就会死亡。</Stat_Thing_Plant_LifespanDesc>
+  <!-- EN: Paintable -->
+  <Stat_Building_Paintable>可粉饰</Stat_Building_Paintable>
+  <!-- EN: Whether this can be painted using dye. -->
+  <Stat_Building_PaintableDesc>这个物体是否能被染料着色。</Stat_Building_PaintableDesc>
+  <!-- EN: Paint color -->
+  <Stat_Building_PaintColor>涂料颜色</Stat_Building_PaintColor>
+  <!-- EN: The color this building was painted. -->
+  <Stat_Building_PaintColorDesc>这个建筑已被粉饰的颜色。</Stat_Building_PaintColorDesc>
 
   <!-- Drugs -->
   <!-- EN: The active chemical in this.\n\nIn some cases, the same chemical is present in multiple different drugs. These different drugs will satisfy the same addiction in different ways. -->
@@ -362,8 +392,8 @@
   <Stat_Thing_Drug_ToleranceFallPerDay_Desc>使用者对这种化学物质抗药性每天减少的量。</Stat_Thing_Drug_ToleranceFallPerDay_Desc>
   <!-- EN: The minimum tolerance required to become newly addicted to this drug.\n\nIf a user is below this tolerance level, they can't become newly addicted from taking a dose. -->
   <Stat_Thing_Drug_MinToleranceForAddiction_Desc>初次成瘾所需的最低抗药性。\n\n如果服用者的抗药性低于这个数值，他们在未成瘾时服用这个药物就不会成瘾。</Stat_Thing_Drug_MinToleranceForAddiction_Desc>
-  <!-- EN: A user will never become addicted if they never take the drug more often than this.\n\nThis is calculated from the drug's minimum tolerance to addict, the tolerance gain per dose, and the rate of tolerance decay.\n\nNote that some drugs don't have a safe interval. Such drugs can addict on any dose, even the first one. -->
-  <Stat_Thing_Drug_SafeDoseInterval_Desc>安全服用间隔，服用者如果从未超过此频率服用药物，就不会成瘾。\n\n这是根据药物成瘾抗药性阈值、每剂抗药性和抗药性降低速率来计算出来的。\n\n请注意，有些药物没有安全服用间隔，这类药物在任何剂量下服用都会成瘾。</Stat_Thing_Drug_SafeDoseInterval_Desc>
+  <!-- EN: An adult will only become addicted if they take the drug more often than this.\n\nThis is calculated from the drug's minimum tolerance to addict, the tolerance gain per dose, and the rate of tolerance decay. Some drugs don't have a safe interval. Such drugs can addict on any dose, even the first one.\n\nNote that the safe dose interval depends on a person's body size. -->
+  <Stat_Thing_Drug_SafeDoseInterval_Desc>安全服用间隔，成年的服用者如果从未超过此频率服用药物，就不会成瘾。\n\n这是根据药物成瘾抗药性阈值、每剂抗药性和抗药性降低速率来计算出来的。\n\n请注意，有些药物没有安全服用间隔，这类药物在任何剂量下服用都会成瘾。\n\n请注意，安全剂量间隔取决于一个人的体型。</Stat_Thing_Drug_SafeDoseInterval_Desc>
   <!-- EN: The chance of a random overdose when taking this drug. Random overdoses can happen on any dose, whether it's a new user's first try or an experienced addict's hundredth hit. -->
   <Stat_Thing_Drug_RandomODChance_Desc>服用这种药物会随机地产生药物过量的可能性。无论是初次尝试还是有数以百计经验的瘾君子，都有可能在服用时产生随机的药物过量。</Stat_Thing_Drug_RandomODChance_Desc>
   <!-- EN: The chance of addiction per dose of this drug.\n\nIf the drug has a minimum tolerance to addict, the tolerance must be above that level for this to apply. If there is no minimum tolerance, any dose can cause an addiction. -->

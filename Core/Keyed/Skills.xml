@@ -1,26 +1,38 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-  <!-- EN: level -->
+  <!-- EN: Skill level -->
   <Level>等级</Level>
-  <!-- EN: Progress to next level -->
+  <!-- EN: Progress to next learned level -->
   <ProgressToNextLevel>升级进度</ProgressToNextLevel>
   <!-- EN: Experience -->
   <Experience>经验</Experience>
   <!-- EN: Passion -->
   <Passion>兴趣度</Passion>
-  <!-- EN: None\n   -Learns {0} -->
-  <PassionNone>无\n   -学习{0}</PassionNone>
-  <!-- EN: Interested\n   -Learns {0} -->
-  <PassionMinor>好奇\n   -学习{0}</PassionMinor>
-  <!-- EN: Burning\n   -Learns {0} -->
-  <PassionMajor>狂热\n   -学习{0}</PassionMajor>
+  <!-- EN: No passion -->
+  <PassionNone>无</PassionNone>
+  <!-- EN: Passion -->
+  <PassionMinor>好奇</PassionMinor>
+  <!-- EN: Burning passion -->
+  <PassionMajor>狂热</PassionMajor>
+  <!-- EN: Learning speed -->
+  <LearningSpeed>学习速度</LearningSpeed>
   <!-- EN: Learned max today ({0}/{1}, further learning multiplied by {2}) -->
   <LearnedMaxToday>已达今日学习上限（{0}/{1}，后续学习乘以{2}）</LearnedMaxToday>
+  <!-- EN: Children learn skills by watching adults work and by taking lessons at a lesson desk. -->
+  <ChildrenLearn>儿童通过观察成人的工作和在课桌前上课来学习技能。</ChildrenLearn>
   <!-- EN: Effects at level {0} -->
   <EffectsAtLevel>{0}级效果: </EffectsAtLevel>
   <!-- EN: MAX -->
   <SkillMax>最大</SkillMax>
+  <!-- EN: Learned level -->
+  <LearnedLevel>等级</LearnedLevel>
+  <!-- EN: Negative level adjusted to zero. -->
+  <NegativeLevelAdjustedToZero>负等级调整为零。</NegativeLevelAdjustedToZero>
+  <!-- EN: Level capped at {0}. -->
+  <LevelCappedAtMax>等级上限{0}。</LevelCappedAtMax>
+  <!-- EN: {GENE_label} gene -->
+  <GeneLabelWithDesc>{GENE_label}基因</GeneLabelWithDesc>
 
   <!-- EN: Barely heard of it -->
   <Skill0>一窍不通</Skill0>

@@ -24,6 +24,10 @@
   <Owners>所属人</Owners>
   <!-- EN: Assigned colonist -->
   <AssignedColonist>指定殖民者</AssignedColonist>
+  <!-- EN: Uncomfortable room temperature -->
+  <BedUncomfortableTemperature>不舒适的房间温度</BedUncomfortableTemperature>
+  <!-- EN: Unsafe room temperature -->
+  <BedUnsafeTemperature>不安全的房间温度</BedUnsafeTemperature>
   <!-- EN: Died on the {0} -->
   <DiedOn>死于{0}</DiedOn>
   <!-- EN: Nobody -->
@@ -258,8 +262,12 @@
   <DeterioratingUnroofed>露天</DeterioratingUnroofed>
   <!-- EN: outdoors -->
   <DeterioratingOutdoors>户外</DeterioratingOutdoors>
-  <!-- EN: Deteriorating because of -->
-  <DeterioratingBecauseOf>老化中，由于</DeterioratingBecauseOf>
+  <!-- EN: protected -->
+  <Protected>受保护的</Protected>
+  <!-- EN: Deteriorating -->
+  <DeterioratingBecauseOf>老化中</DeterioratingBecauseOf>
+  <!-- EN: Will deteriorate in {0}. -->
+  <DeteriorateInDuration>于{0}老化。</DeteriorateInDuration>
   <!-- EN: Map -->
   <Map>地图</Map>
   <!-- EN: {0} until enemies arrive -->
@@ -270,7 +278,7 @@
   <Room>房间</Room>
   <!-- EN: Beauty here -->
   <BeautyHere>此处美观度</BeautyHere>
-  <!-- EN: No power -->
+  <!-- EN: no power -->
   <NoPower>未通电</NoPower>
   <!-- EN: Work speed penalty -->
   <WorkSpeedPenalty>工作速度惩罚</WorkSpeedPenalty>
@@ -330,6 +338,10 @@
   <SkillRequirements>技能要求</SkillRequirements>
   <!-- EN: Products -->
   <Products>产物</Products>
+  <!-- EN: Requires -->
+  <Requires>需要</Requires>
+  <!-- EN: {0}x any of -->
+  <NumAnyOf>{0}x任意</NumAnyOf>
   <!-- EN: {0} of {1} -->
   <Relationship>{1} 的 {0}</Relationship>
   <!-- EN: Prisoner -->
@@ -448,8 +460,8 @@
   <ViewHyperlink>超链接：{0}</ViewHyperlink>
   <!-- EN: Detonates in {0} days -->
   <DetonationCountdown>在{0}天内触发</DetonationCountdown>
-  <!-- EN: Large fire explosion if damaged -->
-  <ExplosionOnDamageWarning>若损坏会发生大爆炸</ExplosionOnDamageWarning>
+  <!-- EN: Large fire explosion if damaged. -->
+  <ExplosionOnDamageWarning>若损坏会发生大爆炸。</ExplosionOnDamageWarning>
   <!-- EN: Mech cluster -->
   <MechCluster>机械集群</MechCluster>
   <!-- EN: Spawning in {0} -->
@@ -530,6 +542,22 @@
   <ThoughtFoodEatenFood>食物</ThoughtFoodEatenFood>
   <!-- EN: Ingredients -->
   <ThoughtFoodEatenIngredients>成分</ThoughtFoodEatenIngredients>
+  <!-- EN: Shield pack -->
+  <ShieldInbuilt>护盾背包</ShieldInbuilt>
+  <!-- EN: Punctured - will explode soon. -->
+  <PuncturedWillExplode>被刺破——很快就会爆炸。</PuncturedWillExplode>
+  <!-- EN: Click to open research window -->
+  <ClickToOpenResearchTab>点击打开研究窗口</ClickToOpenResearchTab>
+  <!-- EN: Target belongs to another faction. -->
+  <TargetBelongsToNPCFaction>目标属于其他派系。</TargetBelongsToNPCFaction>
+  <!-- EN: more -->
+  <MoreLower>更多</MoreLower>
+  <!-- EN: Requires -->
+  <RequiredTechprintTip>需要</RequiredTechprintTip>
+  <!-- EN: size -->
+  <Size>大小</Size>
+  <!-- EN: cost -->
+  <Cost>成本</Cost>
 
   <!-- Scanning -->
   <!-- EN: User scanning speed -->
@@ -654,7 +682,50 @@
   <PenCapacityDesc>{ANIMALDEF_label}容量</PenCapacityDesc>
   <!-- EN: Example animals -->
   <PenExampleAnimals>例如</PenExampleAnimals>
+  <!-- EN: No exterior access - Animals cannot be moved in or out. -->
+  <NoExteriorAccess>没有外部通道——动物不能被移入或移出。</NoExteriorAccess>
 
+  <!-- Cell Inspector -->
+  <!-- EN: Beauty -->
+  <Beauty_Label>美观</Beauty_Label>
+  <!-- EN: Zone -->
+  <Zone_Label>空间</Zone_Label>
+  <!-- EN: Roof -->
+  <Roof_Label>屋顶</Roof_Label>
+  <!-- EN: Terrain -->
+  <Terrain_Label>地形</Terrain_Label>
+  <!-- EN: Snow -->
+  <Snow_Label>雪</Snow_Label>
+  <!-- EN: Walk speed -->
+  <WalkSpeed_Label>移动速度</WalkSpeed_Label>
+  <!-- EN: Fertility -->
+  <Fertility_Label>肥沃度</Fertility_Label>
+  <!-- EN: Temperature -->
+  <Temperature_Label>温度</Temperature_Label>
+  <!-- EN: Light level -->
+  <LightLevel_Label>光照</LightLevel_Label>
+  <!-- EN: Biome -->
+  <Biome_Label>生态</Biome_Label>
+  <!-- EN: Hilliness -->
+  <Hilliness_Label>丘陵</Hilliness_Label>
+  <!-- EN: Road -->
+  <Road_Label>道路</Road_Label>
+  <!-- EN: Movement difficulty -->
+  <MovementDifficulty_Label>移动难度</MovementDifficulty_Label>
+  <!-- EN: Pollution -->
+  <Pollution_Label>污染</Pollution_Label>
+  
+  <!-- EN: Faction -->
+  <Faction_Label>派系</Faction_Label>
+  <!-- EN: Relationship -->
+  <Relationship_Label>关系</Relationship_Label>
+  <!-- EN: Colonists -->
+  <CaravanColonists_Label>殖民者</CaravanColonists_Label>
+  <!-- EN: Status -->
+  <CaravanStatus_Label>状态</CaravanStatus_Label>
+  <!-- EN: Time to destination -->
+  <CaravanTTD_Label>抵达时间</CaravanTTD_Label>
+  
 
   <!-- Control -->
   <!-- EN: Cannot order characters you do not control. -->
@@ -669,15 +740,17 @@
   <ApparelPreventsShooting>{PAWN_nameDef}由于{PAWN_possessive}{APPAREL_label}不能使用远程武器。</ApparelPreventsShooting>
 
   <!-- Snow -->
+  <!-- EN: Snow -->
+  <Snow>雪</Snow>
   <!-- EN: No snow -->
   <SnowNone>无积雪</SnowNone>
-  <!-- EN: Snow (dusting) -->
+  <!-- EN: dusting -->
   <SnowDusting>雪（极薄）</SnowDusting>
-  <!-- EN: Snow (thin) -->
+  <!-- EN: thin -->
   <SnowThin>雪（薄）</SnowThin>
-  <!-- EN: Snow (medium) -->
+  <!-- EN: medium -->
   <SnowMedium>雪（中）</SnowMedium>
-  <!-- EN: Snow (thick) -->
+  <!-- EN: thick -->
   <SnowThick>雪（厚）</SnowThick>
 
   <!-- Turrets -->
@@ -695,6 +768,22 @@
   <ShellLoaded>炮弹已上膛: {1_label}</ShellLoaded>
   <!-- EN: Not loaded -->
   <ShellNotLoaded>炮弹未上膛</ShellNotLoaded>
+  <!-- EN: Already active -->
+  <AlreadyActive>已激活</AlreadyActive>
+  <!-- EN: Order activation -->
+  <OrderActivation>激活</OrderActivation>
+  <!-- EN: Order a colonist to activate {THING_definite}. -->
+  <OrderActivationDesc>命令一个殖民者激活{THING_definite}。</OrderActivationDesc>
+  <!-- EN: Must be activated by a colonist. -->
+  <MustBeActivatedByColonist>必须由殖民者激活。</MustBeActivatedByColonist>
+  <!-- EN: No nearby fire -->
+  <NoNearbyFire>附近无火焰</NoNearbyFire>
+  <!-- EN: No nearby fire. No fuel was used. -->
+  <NoNearbyFireNoFuelUsed>附近无火焰，没有足够燃料来使用。</NoNearbyFireNoFuelUsed>
+  <!-- EN: Choose who should activate this. -->
+  <ChooseWhoShouldActivate>选择激活它的人员。</ChooseWhoShouldActivate>
+  <!-- EN: No fuel -->
+  <NoFuel>无燃料</NoFuel>
 
   <!-- Job reports -->
   <!-- EN: hauling {THING_label} to {DESTINATION}. -->
@@ -739,6 +828,10 @@
   <ReportExtinguishingFireOn>正在扑灭{TARGET_label}上的火焰。</ReportExtinguishingFireOn>
   <!-- EN: digging up corpse. -->
   <ReportDiggingUpCorpse>正在挖出尸体。</ReportDiggingUpCorpse>
+  <!-- EN: being carried by {0_labelShort}. -->
+  <CarriedBy>正被{0_labelShort}持有。</CarriedBy> 
+  <!-- EN: inside {0_labelShort}. -->
+  <InContainer>在{0_labelShort}里。</InContainer> 
 
   <!-- Lord job reports -->
   <!-- EN: Attending marriage ceremony -->
@@ -821,8 +914,6 @@
   <PawnTitleDescWrap>{1}中的{0}</PawnTitleDescWrap>
   <!-- EN: {0} under {1} -->
   <PawnMainDescUnderFactionedWrap>{1}下属的{0}</PawnMainDescUnderFactionedWrap>
-  <!-- EN: {0} under {1}\nHome faction: {2} -->
-  <PawnMainDescTempFactionedWrap>{1}下属的{0}\n原派系：{2}</PawnMainDescTempFactionedWrap>
   <!-- EN: {2_lifeStageAdjective} {0} -->
   <PawnMainDescLifestageWrap>{2_lifeStageAdjective}{0}</PawnMainDescLifestageWrap>
   <!-- EN: Faction -->
@@ -857,6 +948,8 @@
   <State>状态</State>
   <!-- EN: stun -->
   <StunLower>击昏</StunLower>
+  <!-- EN: Slowed by damage -->
+  <SlowedByDamage>因受伤减速</SlowedByDamage>
 
   <!-- Inspector general stuff -->
   <!-- EN: Select next thing in same square.\n\n(*SectionTitle)Shortcut key:(/SectionTitle) {0}\n\nYou can also do this by slowly clicking the same square again. -->
@@ -907,7 +1000,7 @@
   <Indoors>室内</Indoors>
   <!-- EN: Unroofed -->
   <IndoorsUnroofed>室内（露天）</IndoorsUnroofed>
-  <!-- EN: Outdoors -->
+  <!-- EN: outdoors -->
   <Outdoors>室外</Outdoors>
 
   <!-- Rotting -->
@@ -939,6 +1032,12 @@
   <!-- Meal -->
   <!-- EN: Ingredients -->
   <Ingredients>原料</Ingredients>
+  <!-- EN: The ingredients used to make this meal. -->
+  <IngredientsDesc>用于制作此餐品的原料。</IngredientsDesc>
+  <!-- EN: Dietary type -->
+  <DietaryType>食物类型</DietaryType>
+  <!-- EN: The type of meal produced. Some people have preferences for specific types of meals. -->
+  <DietaryTypeDesc>生产的食物类型。有些人对特定类型的食物有偏好。</DietaryTypeDesc>
   <!-- EN: only stacks with similar meals -->
   <OnlyStacksWithCompatibleMeals>只能与类似的食物堆叠</OnlyStacksWithCompatibleMeals>
 
@@ -961,6 +1060,10 @@
   <ReadyToHarvest>可收获</ReadyToHarvest>
   <!-- EN: Mature. -->
   <Mature>成熟</Mature>
+  <!-- EN: Average plant age -->
+  <AveragePlantAge>平均植物年龄</AveragePlantAge>
+  <!-- EN: Oldest plant age -->
+  <OldestPlantAge>最大植物年龄</OldestPlantAge>
   <!-- EN: Growing period -->
   <OutdoorGrowingPeriod>生长期</OutdoorGrowingPeriod>
   <!-- EN: Never -->
@@ -981,6 +1084,10 @@
   <HarvestGerund>收割</HarvestGerund>
   <!-- EN: cutting -->
   <CutGerund>割除</CutGerund>
+  <!-- EN: Cut all blight -->
+  <CutAllBlight>割除所有染病植物</CutAllBlight>
+  <!-- EN: Mark all blighted plants to be destroyed. Blighted plants will not yield any food or resources and should be destroyed before the blight spreads. -->
+  <CutAllBlightDesc>对所有要销毁的枯萎病植物进行标记。枯萎的植物不会产生任何食物或资源，应在枯萎病蔓延之前予以销毁。</CutAllBlightDesc>
 
   <!-- Zones -->
   <!-- EN: Zone -->
@@ -1045,6 +1152,8 @@
   <ShowExpandingIconsToggleButton>开关显示扩展图标，代替远距离对象的常规图标。</ShowExpandingIconsToggleButton>
   <!-- EN: Toggle visibility of names of landforms. -->
   <ShowWorldFeaturesToggleButton>开关地形名称的可见性。</ShowWorldFeaturesToggleButton>
+  <!-- EN: Toggle heat overlay. This shows the air temperature in each room and outdoors.\n\nColonists will be unhappy if the temperature is too high or too low. Exposure to extreme temperatures can lead to hypothermia, frostbite, heatstroke, burns, and death. -->
+  <ShowTemperatureOverlayToggleButton>切换温度显示。这显示了每个房间和室外的空气温度。\n\n如果温度过高或过低，殖民者会感到不高兴。暴露在极端温度下会导致体温过低、冻伤、中暑、烧伤和死亡。</ShowTemperatureOverlayToggleButton>
 
   <!-- Fire -->
   <!-- EN: fire on {1_label} -->
@@ -1301,6 +1410,8 @@
   <!-- Learning helper -->
   <!-- EN: Learning helper -->
   <LearningHelper>教学助手</LearningHelper>
+  <!-- EN: In-game tutor that aims to teach you information about topics relevant to your colony's current state -->
+  <LearningHelperTooltip>游戏中的教学助手，旨在向你传授与你的殖民地当前状态相关的主题信息</LearningHelperTooltip>
   <!-- EN: Mark as learned -->
   <MarkLearned>我学会了！</MarkLearned>
   <!-- EN: Already learned -->
@@ -1377,8 +1488,8 @@
   <PawnTooltipWithPrimaryEquipNoDesc>{0}\n{1}\n{2}</PawnTooltipWithPrimaryEquipNoDesc>
   <!-- EN: {0}\n{1} -->
   <PawnTooltipNoDescNoPrimaryEquip>{0}\n{1}</PawnTooltipNoDescNoPrimaryEquip>
-  <!-- EN: Neural heat: {0} / {1}\nFall rate: {2} / s ({3}s until zero) -->
-  <PawnTooltipPsychicEntropyStats>心灵熵阈值：{0} / {1}\n降低速率：{2} / 秒 （{3}秒归零）</PawnTooltipPsychicEntropyStats>
+  <!-- EN: Fall rate: {0} / s ({1}s until zero) -->
+  <PawnTooltipPsychicEntropyStats>降低速率：{0}/秒 （{1}秒归零）</PawnTooltipPsychicEntropyStats>
   <!-- EN: Neural heat increases after using a psychic power. Surpassing the normal limit may cause a psychic breakdown lasting days.\n\nNeural heat dissipates naturally over time. This process can be accelerated by wearing eltex apparel or being in pain. -->
   <PawnTooltipPsychicEntropyDesc>心灵熵在释放心灵能力之后会增加。超过常规限制之后可能会导致持续数天的心灵崩溃。\n\n心灵熵会随着时间自然消散。这一过程可以通过穿着灵质服装或者感受苦痛来加快。</PawnTooltipPsychicEntropyDesc>
   <!-- EN: Pain boost\n\nPain focuses the mind and speeds up neural heat dissipation.\n\nPain level: {0}\nBonus to heat recovery: {1} -->
@@ -1387,7 +1498,7 @@
   <PawnTooltipPsychicEntropyLimit>切换心灵熵限制器。\n\n心灵熵超限制可能会导致长期的心灵崩溃，但并不会造成永久伤害。</PawnTooltipPsychicEntropyLimit>
   <!-- EN: Psyfocus: {0} -->
   <PawnTooltipPsyfocus>精神力：{0}}</PawnTooltipPsyfocus>
-
+  
   <!-- Pawn tooltip description -->
   <!-- EN: {0} {1} -->
   <PawnTooltipGenderAndKindLabel>{0}{1}</PawnTooltipGenderAndKindLabel>
@@ -1508,6 +1619,14 @@
   <RitualFinished>{0}已经完成了。</RitualFinished>
   <!-- EN: ends in {0} -->
   <RitualEndsIn>结束于{0}</RitualEndsIn>
+  <!-- EN: Can start any time -->
+  <RitualStartAnyTime>可在任意时刻开始</RitualStartAnyTime>
+  <!-- EN: Can start after event -->
+  <RitualStartEvent>可在事件后开始</RitualStartEvent>
+  <!-- EN: Focus objects -->
+  <RitualFocusObjects>集合点物件</RitualFocusObjects>
+  <!-- EN: Participating roles -->
+  <RitualParticipatingRoles>参与者角色</RitualParticipatingRoles>
   <!-- EN: Organizers -->
   <Organizers>组织者</Organizers>
   <!-- EN: Quality factors -->
@@ -1556,6 +1675,8 @@
   <AbilityDisabledNoCapacity>{0_labelShort}的{1}不足。</AbilityDisabledNoCapacity>
   <!-- EN: Everyone participating in the ritual gains {0} mood for {1} days. -->
   <RitualOutcomeExtraDesc_Mood>每个仪式的参与者都会获得持续{1}天的{0}心情。</RitualOutcomeExtraDesc_Mood>
+  <!-- EN: This ritual has no quality offsets, so the best outcome is always expected -->
+  <RitualOutcomeNoQuality>这种仪式没有质量上的偏移，所以总是产生最好的结果。</RitualOutcomeNoQuality>
   
   <!-- EN: Choose who should participate in {RITUAL_labelDef}. -->
   <ChooseParticipants>选择谁应该参加{RITUAL_labelDef}。</ChooseParticipants>
@@ -1589,6 +1710,10 @@
   <RitualPredictedOutcomeDescParticipantCount>参与者</RitualPredictedOutcomeDescParticipantCount>
   <!-- EN: {PAWN_labelShort}'s expectations -->
   <RitualPredictedOutcomeDescPawnExpectations>{PAWN_labelShort}的预期</RitualPredictedOutcomeDescPawnExpectations>
+  <!-- EN: Loved one present -->
+  <RitualOutcomeLovedOnePresentLabel>爱人在场</RitualOutcomeLovedOnePresentLabel>
+  <!-- EN: Any person that {PAWN_labelShort} considers their friend or more. -->
+  <RitualOutcomeLovedOnePresentTip>任何被{PAWN_labelShort}视为朋友或更亲密的人。</RitualOutcomeLovedOnePresentTip>
 
   <!-- EN: Any of these -->
   <RitualOutcomeLabelAnyOfThese>任何这些</RitualOutcomeLabelAnyOfThese>
@@ -1615,6 +1740,16 @@
   <ThingOf>{0}</ThingOf>
   <!-- EN: {0} of {1} -->
   <ThingOfSource>{1}的{0}</ThingOfSource>
+  <!-- EN: {0} of {1} and {2} -->
+  <ThingOfTwoSources>{1}与{2}的{0}</ThingOfTwoSources>
+
+  <!-- Gas types -->
+  <!-- EN: blind smoke -->
+  <BlindSmoke>致盲烟雾</BlindSmoke>
+  <!-- EN: tox gas -->
+  <ToxGas>毒烟</ToxGas>
+  <!-- EN: rot stink -->
+  <RotStink>腐烂发臭</RotStink>
 
   <!-- Abilities -->
   <!-- EN: must be drafted. -->
@@ -1627,5 +1762,33 @@
   <AbilityReadyLabel>能力就绪：{0}</AbilityReadyLabel>
   <!-- EN: {0_nameDef} is ready to use {1}. -->
   <AbilityReadyText>{0_nameDef}已经可以使用{1}。</AbilityReadyText>
+  <!-- EN: {0_labelShort} is participating in {1}. -->
+  <AbilityDisabledInRitual>{0_labelShort}正参与{1}。</AbilityDisabledInRitual>
+  <!-- EN: Charges -->
+  <Charges>费用</Charges>
+
+  <!-- EN: {0_nameDef} is in an aggressive mental state. -->
+  <PawnIsInMentalState>{0_nameDef}处于攻击性的精神状态。</PawnIsInMentalState>
+
+  <!-- EN: Disabled work -->
+  <DisabledWorkLabel>禁用工作</DisabledWorkLabel>
+
+  <!-- Glowers -->
+  <!-- EN: change color -->
+  <GlowerChangeColor>改变颜色</GlowerChangeColor>
+  <!-- EN: Change the color of the light. -->
+  <GlowerChangeColorDescription>改变光照颜色。</GlowerChangeColorDescription>
+  <!-- EN: You must research {0} to change light color. -->
+  <GlowerChangeColorNeedsResearch>你必须研究{0}之后才能改变光照颜色。</GlowerChangeColorNeedsResearch>
+
+  <!-- Shields -->
+  <!-- EN: A personal shield that will attempt to stop incoming projectiles or shrapnel. It prevents the wearer from firing out, and shuts down instantly if hit by an EMP. -->
+  <ShieldPersonalTip>一个个人盾牌，将试图阻止射入的弹丸或弹片。它可以防止佩戴者开火，如果被EMP击中，则会立即关闭。</ShieldPersonalTip>
+
+  <!-- EN: {PAWN_nameDef} is so loyal to {PAWN_possessive} home that {PAWN_pronoun} will refuse to be recruited if taken prisoner. -->
+  <UnrecruitableDesc>{PAWN_nameDef}对{PAWN_possessive}家乡非常忠诚，如果被俘，{PAWN_pronoun}会拒绝被征召。</UnrecruitableDesc>
+
+  <!-- EN: Random -->
+  <Random>随机</Random>
 
 </LanguageData>

@@ -16,7 +16,7 @@
   <CannotDoThisWork>{1_labelShort}无法从事这种类型的工作。</CannotDoThisWork>
   <!-- EN: (none) -->
   <NoneBrackets>（无）</NoneBrackets>
-  <!-- EN: This colonist is not able to do any work of this type because of his health condition. -->
+  <!-- EN: This colonist is not able to do any work of this type because of their health condition. -->
   <IncapableOfWorkTypeBecauseOfCapacities>该殖民者因健康原因无法从事这种类型的工作。</IncapableOfWorkTypeBecauseOfCapacities>
   <!-- EN: E -->
   <EmergencyWorkMarker>紧急</EmergencyWorkMarker>
@@ -36,12 +36,12 @@
   <Priority4>低优先级</Priority4>
   <!-- EN: {0}\n\nThe faction {1_nameDef} currently belongs to.\n\nClick to view faction. -->
   <PawnFactionInfo>{0}\n\n当前属于{1_nameDef}。\n\n点击以查看派系。</PawnFactionInfo>
-  <!-- EN: Disabled by backstory: {0} -->
-  <WorkDisabledByBackstory>禁用（背景故事）：{0}</WorkDisabledByBackstory>
-  <!-- EN: Disabled by trait: {0} -->
-  <WorkDisabledByTrait>禁用（特性）：{0}</WorkDisabledByTrait>
-  <!-- EN: Disabled by quest: {0} -->
-  <WorkDisabledByQuest>禁用（任务）：{0}</WorkDisabledByQuest>
+  <!-- EN: Disabled by {0} backstory -->
+  <WorkDisabledByBackstory>因背景故事{0}被禁用</WorkDisabledByBackstory>
+  <!-- EN: Disabled by {0} trait -->
+  <WorkDisabledByTrait>因特性{0}被禁用</WorkDisabledByTrait>
+  <!-- EN: Disabled by quest '{0}' -->
+  <WorkDisabledByQuest>因任务'{0}'被禁用</WorkDisabledByQuest>
   
   <!-- Assign tab -->
   <!-- EN: Manage outfits -->
@@ -78,6 +78,10 @@
   <PregnantIconDesc>怀孕（{0} / {1}）</PregnantIconDesc>
   <!-- EN: Bonded to -->
   <BondedTo>牵绊于</BondedTo>
+  <!-- EN: Sterilize animal. -->
+  <SterilizeAnimal>绝育动物。</SterilizeAnimal>
+  <!-- EN: Animal sterile. -->
+  <AnimalAlreadySterile>动物已绝育。</AnimalAlreadySterile>
   
   <!-- Wildlife tab -->
   <!-- EN: This creature is a predator. When hungry, it will hunt smaller creatures - possibly including people. -->
@@ -184,6 +188,8 @@
   <Research>研究</Research>
   <!-- EN: Study -->
   <Study>研究</Study>
+  <!-- EN: Study {0} -->
+  <StudyThing>研究{0}</StudyThing>
   <!-- EN: Unresearched -->
   <Unresearched>未研究</Unresearched>
   <!-- EN: Finished -->
@@ -200,6 +206,8 @@
   <InsufficientTechprintsApplied>已使用的科研蓝图不足({0} / {1})</InsufficientTechprintsApplied>
   <!-- EN: Prerequisite(s) not completed -->
   <PrerequisitesNotCompleted>前置研究未完成</PrerequisitesNotCompleted>
+  <!-- EN: Missing required research facilities -->
+  <MissingRequiredResearchFacilities>缺少必须的研究设施</MissingRequiredResearchFacilities>
   <!-- EN: Required research bench -->
   <RequiredResearchBench>需要研究台</RequiredResearchBench>
   <!-- EN: Required research bench facilities -->
@@ -340,5 +348,9 @@
   <!-- Health tab -->
   <!-- EN: Creates need -->
   <CreatesNeed>创建需求</CreatesNeed>
+
+  <!-- Misc -->
+  <!-- EN: Click to edit -->
+  <ClickToEdit>点击编辑</ClickToEdit>
 
 </LanguageData>

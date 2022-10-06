@@ -10,10 +10,12 @@
   <RejectLetter>拒绝</RejectLetter>
   <!-- EN: Read more -->
   <ReadMore>阅读更多</ReadMore>
+  <!-- EN: You have {0} more letters -->
+  <MoreLetters>信件（{0}）</MoreLetters>
 
   <!-- EN: Summer -->
   <LetterLabelFirstSummerWarning>夏天</LetterLabelFirstSummerWarning>
-  <!-- EN: Summer has begun! But winter is coming.\n\nYour food crops won't grow in the winter cold. Be sure to store enough food to survive. You can build a walk-in refrigerator to prevent food from spoiling.\n\nBuy, steal, or make some parkas, or you'll freeze when you step outside. -->
+  <!-- EN: Summer has begun! But winter is coming.\n\nYour food crops won't grow in the winter cold. Be sure to store enough food to survive. You can build a walk-in refrigerator to prevent food from spoiling.\n\nTo prepare for winter, buy, steal, or make some parkas, or you'll freeze when you step outside. -->
   <FirstSummerWarning>夏天到了！冬天还会远吗？\n\n寒冷的冬日无法种植作物，可一定要储存足量的食物以挺过寒冬。你可以建一间有制冷机的房间作为冷库以防止食物腐烂。\n\n还要买、偷、缴获或者制作几件风雪大衣，否则冬季出门要挨冻。</FirstSummerWarning>
 
   <!-- EN: Relations with {0} have broken down completely. They are now hostile to you. -->
@@ -45,8 +47,8 @@
   <!-- EN: Death -->
   <Death>死亡</Death>
 
-  <!-- EN: A {1_label} has short-circuited in the rain and started a fire. -->
-  <ShortCircuitRain>{1_label}在雨中短路了，引发了一场火灾。</ShortCircuitRain>
+  <!-- EN: A {1_label} has short-circuited due to precipitation and started a fire. -->
+  <ShortCircuitRain>{1_label}因降水而短路了，引发了一场火灾。</ShortCircuitRain>
 
   <!-- EN: Area revealed -->
   <LetterLabelAreaRevealed>发现区域</LetterLabelAreaRevealed>
@@ -76,8 +78,10 @@
   <LetterLabelBirthday>生日</LetterLabelBirthday>
   <!-- EN: It's {0}'s chronological birthday today! Biologically, {1} is {3} years old.\n\nChronologically, {1} just turned {2}.\n\nNote that since people don't age while in cryptosleep, chronological birthday is separate from biological birthday. -->
   <BirthdayChronological>今天是{0}的历法年龄生日！根据生物年龄，{1}只有{3}岁。\n\n根据历法年龄，{1}已经{2}岁了。\n\n由于殖民者在低温休眠舱内休眠时不会变老，所以生物年龄生日与历法年龄生日可能会有一定的区别。</BirthdayChronological>
-  <!-- EN: {0_nameFull} has reached the biological age of {1}.\n\nUnfortunately, {0_nameFull} has gained the following diseases due to aging:\n{2} -->
-  <BirthdayBiologicalAgeInjuries>今天是{0_nameFull}的{1}岁生物年龄生日。\n\n然而不幸的是，{0_nameFull}因为年龄增长而患上了如下疾病:\n{2}</BirthdayBiologicalAgeInjuries>
+  <!-- EN: {0_nameFull} has reached the biological age of {1}. -->
+  <LetterBirthdayBiological>{0_nameFull}的生物年龄已满{1}。</LetterBirthdayBiological>
+  <!-- EN: Unfortunately, {0_nameFull} has gained the following diseases due to aging -->
+  <BirthdayBiologicalAgeInjuries>不幸的是，{0_nameFull}因为年龄增长而患上了如下疾病</BirthdayBiologicalAgeInjuries>
 
   <!-- EN: Disease -->
   <LetterLabelNewDisease>疾病</LetterLabelNewDisease>
@@ -419,24 +423,12 @@
   <LetterPredatorHuntingColonist>{PREDATOR}正在捕食{PREY_definite}！</LetterPredatorHuntingColonist>
 
   <!-- Disease -->
-  <!-- EN: {0} blocked {1} on: {2}. -->
-  <LetterDisease_Blocked>{0}抵抗了{1}：{2}。</LetterDisease_Blocked>
+  <!-- EN: {0} blocked {1} on -->
+  <LetterDisease_Blocked>{0}抵抗了{1}</LetterDisease_Blocked>
   <!-- EN: Disease: {0} -->
   <LetterLabelTraitDisease>疾病: {0}</LetterLabelTraitDisease>
   <!-- EN: {PAWN_label} has gotten sick from {1}.\n\nEnsure you have a medical bed and a doctor. Make sure that {PAWN_pronoun} gets proper treatment and spends as much time in bed as possible. -->
   <LetterTraitDisease>{PAWN_label}患上了{1}。\n\n确保有医疗用床和医生。确保{PAWN_pronoun}得到适当的治疗并尽可能卧床休息。 </LetterTraitDisease>
-
-  <!-- Surgery -->
-  <!-- EN: Surgery failed on {PATIENT_labelShort} -->
-  <LetterLabelSurgeryFailed>{PATIENT_labelShort}的手术失败了。</LetterLabelSurgeryFailed>
-  <!-- EN: {SURGEON_labelShort} has failed in a minor way while operating on {PATIENT_labelShort} ({RECIPE_label}). -->
-  <MessageMedicalOperationFailureMinor>{SURGEON_labelShort}给{PATIENT_labelShort}手术时，发生了小失误。({RECIPE_label})</MessageMedicalOperationFailureMinor>
-  <!-- EN: {SURGEON_labelShort} has failed catastrophically while operating on {PATIENT_labelShort} ({RECIPE_label}). -->
-  <MessageMedicalOperationFailureCatastrophic>{SURGEON_labelShort}给{PATIENT_labelShort}手术时，发生了灾难性的医疗事故。({RECIPE_label})</MessageMedicalOperationFailureCatastrophic>
-  <!-- EN: {SURGEON_labelShort} has failed in a ridiculous way while operating on {PATIENT_labelShort} ({RECIPE_label}). -->
-  <MessageMedicalOperationFailureRidiculous>{SURGEON_labelShort}给{PATIENT_labelShort}手术时，犯了难以置信的愚蠢错误。({RECIPE_label})</MessageMedicalOperationFailureRidiculous>
-  <!-- EN: {SURGEON_labelShort} has committed a fatal error while operating on {PATIENT_labelShort} because of the special challenges of: {2}. -->
-  <MessageMedicalOperationFailureFatal>{SURGEON_labelShort}给{PATIENT_labelShort}手术时犯了了致命的错误，由于特殊的挑战: {2}</MessageMedicalOperationFailureFatal>
 
   <!-- Quests -->
   <!-- EN: A new quest has become available. It is called '{0}'. -->
@@ -552,5 +544,16 @@
   <LetterLabelSiteCountdownStarted>远行队被发现</LetterLabelSiteCountdownStarted>
   <!-- EN: Your caravan has been detected. In {0}, reinforcing {1} from {2} will begin arriving in the area.\n\nReform your caravan and begin moving to avoid the {1}. A timer counting down to their arrival is now visible. -->
   <LetterTextSiteCountdownStarted>你的远行队被发现了。在{0}，来自{2}的{1}将会到达这片区域。\n请重组你的远行队并开始移动避开{1}。现在对方抵达的倒计时已经可以看见。</LetterTextSiteCountdownStarted>
+
+  <!-- EN: Unwavering prisoner -->
+  <LetterLabelUnrecruitablePawnCaptured>坚定不移的囚犯</LetterLabelUnrecruitablePawnCaptured>
+  <!-- EN: {PAWN_nameDef} is unwaveringly loyal to their home and will refuse to be recruited entirely.\n\nYou can see whether someone is unwaveringly loyal by selecting them. -->
+  <LetterTextUnrecruitablePawnCaptured>{PAWN_nameDef}坚定不移地忠诚于他们的家园，并且会完全拒绝被招募。\n\n你可以通过选择他们来了解某人是否坚定不移地忠诚。</LetterTextUnrecruitablePawnCaptured>
+  <!-- EN: enslave {PAWN_objective} -->
+  <OptionalEnslaveDesc>奴役{PAWN_objective}</OptionalEnslaveDesc>
+
+  <!-- Lung rot -->
+  <!-- EN: {PAWN} has gotten sick from {1} due to long-term exposure to rot stink gas (which is given off by rotting corpses).\n\nEnsure you have a medical bed and a doctor. Make sure that {PAWN_definite} gets proper treatment. -->
+  <LetterTextLungRot>{PAWN}由于长期接触腐烂的臭气（由腐烂的尸体散发出的），因{1}得病。\n\n确保你有一张医疗床和一名医生。以保证{PAWN_definite}得到适当的治疗。</LetterTextLungRot>
 
 </LanguageData>

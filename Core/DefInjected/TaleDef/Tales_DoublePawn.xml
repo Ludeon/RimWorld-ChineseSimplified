@@ -386,8 +386,8 @@
     <li>tale_noun->[TAMER_nameDef]'s taming of [ANIMAL_nameDef]</li>
     <li>image->[TAMER_nameFull] taming [ANIMAL_nameFull] [circumstance_group]</li>
     <li>image->[TAMER_nameFull] offering a morsel of food to [ANIMAL_nameFull] [circumstance_group]</li>
-    <li>image->[TAMER_nameFull] whispering to a skittish [ANIMAL_nameFull] [circumstance_group]</li>
-    <li>image->[TAMER_nameFull] calming a wild [ANIMAL_nameFull] [circumstance_group]</li>
+    <li>image->[TAMER_nameFull] whispering to a skittish [ANIMAL_label] [circumstance_group]</li>
+    <li>image->[TAMER_nameFull] calming a wild [ANIMAL_label] [circumstance_group]</li>
     <li>circumstance_phrase->with great care and caution</li>
     <li>circumstance_phrase->with a smile</li>
     <li>circumstance_phrase->while exhausted but happy</li>
@@ -403,8 +403,8 @@
     <li>tale_noun->[TAMER_nameDef]驯服[ANIMAL_nameDef]</li>
     <li>image->[TAMER_nameFull]正在驯服[ANIMAL_nameFull]，[circumstance_group]</li>
     <li>image->[TAMER_nameFull]给[ANIMAL_nameFull]喂了一口食物，[circumstance_group]</li>
-    <li>image->[TAMER_nameFull]对[ANIMAL_nameFull]低声呢喃，[circumstance_group]</li>
-    <li>image->[TAMER_nameFull]安抚着一只野生的[ANIMAL_nameFull]，[circumstance_group]</li>
+    <li>image->[TAMER_nameFull]对[ANIMAL_label]低声呢喃，[circumstance_group]</li>
+    <li>image->[TAMER_nameFull]安抚着一只野生的[ANIMAL_label]，[circumstance_group]</li>
     <li>circumstance_phrase->非常小心谨慎</li>
     <li>circumstance_phrase->同时面露笑容</li>
     <li>circumstance_phrase->虽然十分疲惫但很开心</li>
@@ -482,8 +482,8 @@
     <li>desc_sentence->[ANIMAL_nameDef] is represented as a pile of power tools.</li>
     <li>desc_sentence->[ANIMAL_nameDef] is half [Color] and half [Color].</li>
     <li>desc_sentence->[ANIMAL_nameDef] is covered in scales.</li>
-    <li>desc_sentence->[TRAINER_nameDef] is depicted with [quantity] arms.</li>
-    <li>desc_sentence->[TRAINER_nameDef] is morphing into [ANIMAL_ShortDefinite].</li>
+    <li>desc_sentence->[TRAINER_nameDef] is depicted with [Quantity_adjphrase] arms.</li>
+    <li>desc_sentence->[TRAINER_nameDef] is morphing into [ANIMAL_definite].</li>
   -->
   <TrainedAnimal.rulePack.rulesStrings>
     <li>tale_noun->[TRAINER_nameDef]训练[ANIMAL_nameDef]</li>
@@ -516,8 +516,8 @@
     <li>desc_sentence->[ANIMAL_nameDef]是用拼凑在一起的电动工具描绘出来的。</li>
     <li>desc_sentence->[ANIMAL_nameDef]一半[Color]一半[Color]。</li>
     <li>desc_sentence->[ANIMAL_nameDef]被鳞片包覆。</li>
-    <li>desc_sentence->[TRAINER_nameDef]是用[quantity]手臂描绘出来的。</li>
-    <li>desc_sentence->[TRAINER_nameDef]变成了[ANIMAL_ShortDefinite]的模样。</li>
+    <li>desc_sentence->[TRAINER_nameDef]是用[Quantity_adjphrase]手臂描绘出来的。</li>
+    <li>desc_sentence->[TRAINER_nameDef]变成了[ANIMAL_definite]的模样。</li>
   </TrainedAnimal.rulePack.rulesStrings>
   
 </LanguageData>

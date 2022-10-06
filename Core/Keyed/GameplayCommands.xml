@@ -128,12 +128,12 @@
 
   <!-- EN: Copy settings -->
   <CommandCopyZoneSettingsLabel>复制区域设置</CommandCopyZoneSettingsLabel>
-  <!-- EN: Copy this zone's settings to the clipboard so you can paste them onto another zone. -->
+  <!-- EN: Copy this storage's settings to the clipboard so you can paste them onto another zone. -->
   <CommandCopyZoneSettingsDesc>将此区域的设置复制到剪贴板，可以将设置粘贴到另一个区域上。</CommandCopyZoneSettingsDesc>
 
   <!-- EN: Paste settings -->
   <CommandPasteZoneSettingsLabel>粘贴区域设置</CommandPasteZoneSettingsLabel>
-  <!-- EN: Overwrite this zone's settings with those previously copied to the clipboard. -->
+  <!-- EN: Overwrite this storage's settings with those previously copied to the clipboard. -->
   <CommandPasteZoneSettingsDesc>使用剪贴板上的设置覆盖此区域的设置。</CommandPasteZoneSettingsDesc>
 
   <!-- EN: Allow sowing -->
@@ -143,8 +143,13 @@
 
   <!-- EN: Allow cutting -->
   <CommandAllowCut>允许割除</CommandAllowCut>
-  <!-- EN: When disabled, colonists will never cut plants in this zone. They will still sow new plants in spaces that are already empty, and harvest. -->
+  <!-- EN: When disabled, colonists will never cut plants in this zone. They will still sow new plants in spaces that are already empty, and harvest plants matching the growing zone plant type. -->
   <CommandAllowCutDesc>当被禁用时，殖民者将永远不会在这个区域割除植物。他们仍然会在已经空出的空间里播种新的植物，并进行收获。</CommandAllowCutDesc>
+  
+  <!-- EN: Select {0_label} -->
+  <CommandSelectStoredThing>选择{0_label}</CommandSelectStoredThing>
+  <!-- EN: Select the item stored in here. -->
+  <CommandSelectStoredThingDesc>选择被存到此处的物品。</CommandSelectStoredThingDesc>
 
   <!-- Artillery -->
   <!-- EN: Set forced target -->
@@ -271,6 +276,8 @@
   <!-- reload -->
   <!-- EN: No {CHARGENOUN_plural} left. -->
   <CommandReload_NoCharges>没有{CHARGENOUN_plural}。</CommandReload_NoCharges>
+  <!-- EN: {COOLDOWNGERUND} for {TIME}. -->
+  <CommandReload_Cooldown>{TIME}{COOLDOWNGERUND}。</CommandReload_Cooldown>
   <!-- EN: Needs to be reloaded with {COUNT} {AMMO_label}. -->
   <CommandReload_NoAmmo>重新装填需要{COUNT}x{AMMO_label}。</CommandReload_NoAmmo>
   
@@ -297,6 +304,8 @@
   <CommandFormCaravan>组建远行队</CommandFormCaravan>
   <!-- EN: Form a group of colonists able to travel to new areas. The colonists will gather all the assigned supplies and accompanying animals, leave their current area, and await further orders. -->
   <CommandFormCaravanDesc>组建一支可以前往新地区的殖民者队伍。殖民者会带着你指定的物资和随行动物，离开当前地区，并等待你的下一步指示。</CommandFormCaravanDesc>
+  <!-- EN: This spot will be used as a meeting point for the caravan. All goods and animals will be brought here before leaving. -->
+  <CommandFormCaravanDescAtSpot>这个地方将被用作远行队的集合点。在离开之前，所有的货物和动物将被带到这里。</CommandFormCaravanDescAtSpot>
   
   <!-- Reform caravan -->
   <!-- EN: Reform caravan -->
@@ -555,7 +564,31 @@
   <CommandDropPawn>放下{0_nameDef}</CommandDropPawn>
   <!-- EN: Drop the person being carried. -->
   <CommandDropPawnDesc>放下正抬着的人。</CommandDropPawnDesc>
-  
+  <!-- EN: Select {0_nameDef} -->
+  <CommandSelectCarriedPawn>选择{0_nameDef}</CommandSelectCarriedPawn>
+  <!-- EN: Select the creature being carried. -->
+  <CommandSelectCarriedPawnDesc>选择被携带的生物。</CommandSelectCarriedPawnDesc>
+  <!-- EN: Select {0_label} -->
+  <CommandSelectCarriedThing>选择{0_label}</CommandSelectCarriedThing>
+  <!-- EN: Select the carried item. -->
+  <CommandSelectCarriedThingDesc>选择已携带的物品。</CommandSelectCarriedThingDesc>
+  <!-- EN: Select {0_label} -->
+  <CommandSelectContainerThing>选择{0_label}</CommandSelectContainerThing>
+  <!-- EN: Select the containing item. -->
+  <CommandSelectContainerThingDesc>选择包含的物品。</CommandSelectContainerThingDesc>
+  <!-- EN: Select {0_nameDef} -->
+  <CommandSelectCarryingPawn>选择{0_nameDef}</CommandSelectCarryingPawn>
+  <!-- EN: Select the carrying creature. -->
+  <CommandSelectCarryingPawnDesc>选择携带的生物。</CommandSelectCarryingPawnDesc>
+  <!-- EN: Select {0_nameDef} -->
+  <CommandSelectContainedPawn>选择{0_nameDef}</CommandSelectContainedPawn>
+  <!-- EN: Select the contained creature. -->
+  <CommandSelectContainedPawnDesc>选择包含的生物。</CommandSelectContainedPawnDesc>
+  <!-- EN: Select {0_label} -->
+  <CommandSelectContainedThing>选择{0_label}</CommandSelectContainedThing>
+  <!-- EN: Select the contained item. -->
+  <CommandSelectContainedThingDesc>选择包含的物品。</CommandSelectContainedThingDesc>
+
   <!-- Take a drug -->
   <!-- EN: Take drug... -->
   <TakeDrug>服用...</TakeDrug>
@@ -580,5 +613,29 @@
   <CommandCancelRitualDesc>立即结束{RITUAL_labelDef}。仪式的契约将保留。你可以在以后重新启动仪式</CommandCancelRitualDesc>
   <!-- EN: Are you sure you want to cancel {RITUAL_labelDef}? -->
   <CommandCancelRitualConfirm>你确定你想要取消{RITUAL_labelDef}？</CommandCancelRitualConfirm>
+
+  <!-- Storage linking -->
+  <!-- EN: Link settings -->
+  <LinkStorageSettings>链接</LinkStorageSettings>
+  <!-- EN: Link storage settings for multiple selected buildings so that they share storage settings.\n\nThe group will start with the settings of whatever you selected first. -->
+  <LinkStorageSettingsDesc>链接多个选定建筑物的存储设置，使它们共享存储设置。\n\n该组将从你首先选择的那个建筑物的设置开始。</LinkStorageSettingsDesc>
+  <!-- EN: You must select two or more buildings to link their storage settings. -->
+  <LinkStorageDisabledSelectTwo>你必须选择两个或更多的建筑物来链接它们的存储设置。</LinkStorageDisabledSelectTwo>
+  <!-- EN: Already linked. -->
+  <AlreadyLinked>已经链接。</AlreadyLinked>
+  <!-- EN: Unlink settings -->
+  <UnlinkStorageSettings>解锁</UnlinkStorageSettings>
+  <!-- EN: Unlink this from other buildings' storage settings so its settings can be set independently. -->
+  <UnlinkStorageSettingsDesc>解除与其他建筑的存储设置的联系，因此它的设置可以独立设置。</UnlinkStorageSettingsDesc>
+  <!-- EN: Linked storage settings -->
+  <LinkedStorageSettings>已链接</LinkedStorageSettings>
+  <!-- EN: {0} buildings -->
+  <NumBuildings>{0}建筑</NumBuildings>
+  <!-- EN: Stores -->
+  <StoresThings>存储</StoresThings>
+  <!-- EN: Select all linked -->
+  <SelectAllLinked>选中所有</SelectAllLinked>
+  <!-- EN: Select all storage buildings linked to this. -->
+  <SelectAllLinkedDesc>选中所有与其链接的存储建筑。</SelectAllLinkedDesc>
   
 </LanguageData>

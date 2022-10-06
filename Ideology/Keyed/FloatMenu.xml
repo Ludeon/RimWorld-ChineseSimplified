@@ -7,6 +7,8 @@
   <OnlyMembersCanBuild>只有 {0} 可以构建</OnlyMembersCanBuild>
   <!-- EN: {0} is already in progress. -->
   <CantStartRitualAlreadyInProgress>{0} 已在进行中。</CantStartRitualAlreadyInProgress>
+  <!-- EN: One or more participants can't join due to extreme temperature. -->
+  <CantJoinRitualInExtremeWeather>一个或多个参与者由于极端温度无法参加。</CantJoinRitualInExtremeWeather>
   <!-- EN: {0} is already participating in a ritual. -->
   <CantStartRitualTargetIsAlreadyInRitual>{0} 已经在参加仪式。 </CantStartRitualTargetIsAlreadyInRitual>
   <!-- EN: You must assign the role of {0} in order to start this ritual. -->
@@ -19,8 +21,12 @@
   <CantStartRitualSelectedPawnMustBeMember>{PAWN_nameDef} 必须是 {IDEO_memberName}。</CantStartRitualSelectedPawnMustBeMember>
   <!-- EN: {PAWN_nameDef} is psychically deaf. -->
   <CantStartRitualSelectedPawnPsychicallyDeaf>{PAWN_nameDef}心灵失聪。</CantStartRitualSelectedPawnPsychicallyDeaf>
-  <!-- EN: Not enough space. There must be a clear circle of radius {MINRADIUS}. -->
-  <CantStartNotEnoughSpaceDuel>没有足够的空间。必须有一个半径为{MINRADIUS}方圆空间。</CantStartNotEnoughSpaceDuel>
+  <!-- EN: Not enough space for spectators. There must be a clear circle of radius {MINRADIUS}. At least {1} standable spots in that radius required. -->
+  <CantStartNotEnoughSpaceDuelSpectators>没有足够的空间容纳观众。必须有一个半径为{MINRADIUS}的干净场地。该半径内至少需要{1}个可站立点。</CantStartNotEnoughSpaceDuelSpectators>
+  <!-- EN: Not enough space for duelists. There must be a clear circle of radius {MINRADIUS}. At least {1} standable spots in that radius required. -->
+  <CantStartNotEnoughSpaceDuelDuelists>没有足够的空间供决斗者使用。必须有一个半径为{MINRADIUS}的干净场地。该半径内至少需要{1}个可站立点。</CantStartNotEnoughSpaceDuelDuelists>
+  <!-- EN: Not enough space for speaker. There must be a clear circle of radius {MINRADIUS}. -->
+  <CantStartNotEnoughSpaceDuelSpeaker>没有足够的空间容纳音响。必须有一个半径为{MINRADIUS}的干净场地。</CantStartNotEnoughSpaceDuelSpeaker>
   <!-- EN: {0_labelShort} is a slave. Slaves don't get funerals. -->
   <CantStartFuneralForSlave>{0_labelShort}是一个奴隶。奴隶没有葬礼。</CantStartFuneralForSlave>
   <!-- EN: Need a slave bed that is reachable, not reserved, and in safe temperature. -->
@@ -68,8 +74,6 @@
   <RoleApparelRequirementIncompatibleAnyMemeRequired>需要这些模因之一</RoleApparelRequirementIncompatibleAnyMemeRequired>
   <!-- EN: cannot be worn with assigned apparel -->
   <BodyPartAlreadyCovered>不能与指定的服装搭配</BodyPartAlreadyCovered>
-  <!-- EN: already assigned -->
-  <AlreadyAssigned>已经指定</AlreadyAssigned>
   <!-- EN: People are pleased when their apparel requirements are fulfilled, and unhappy when they are violated. -->
   <NoteRoleApparelRequirementEffects>当他们的衣着要求得到满足时，便会感到高兴；若他们的衣着要求遭到拒绝时，则会感到不悦。</NoteRoleApparelRequirementEffects>
   <!-- EN: supercharge not ready -->

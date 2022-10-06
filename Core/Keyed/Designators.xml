@@ -102,13 +102,13 @@
   <!-- EN: Colonists will ignore roofs in this area. -->
   <DesignatorAreaIgnoreRoofExpandDesc>殖民者会忽略此区域内的是否有屋顶。</DesignatorAreaIgnoreRoofExpandDesc>
 
-  <!-- EN: Expand snow clear area -->
+  <!-- EN: Snow removal area -->
   <DesignatorAreaSnowClearExpand>添加除雪区</DesignatorAreaSnowClearExpand>
-  <!-- EN: Create a area which colonists will try to keep clear of snow. -->
+  <!-- EN: Create an area which colonists will try to keep clear of snow. -->
   <DesignatorAreaSnowClearExpandDesc>添加一片除雪区。殖民者会清除该区域内的雪。</DesignatorAreaSnowClearExpandDesc>
-  <!-- EN: Clear snow clear Area -->
+  <!-- EN: Clear snow removal area -->
   <DesignatorAreaSnowClearClear>移除除雪区</DesignatorAreaSnowClearClear>
-  <!-- EN: Removes a snow clearing area. Colonists will no longer try to keep this area clear of snow. -->
+  <!-- EN: Removes a snow removal area. Colonists will no longer try to keep this area clear of snow. -->
   <DesignatorAreaSnowClearClearDesc>移除一片除雪区。殖民者不会再清除该区域的雪。</DesignatorAreaSnowClearClearDesc>
 
   <!-- EN: Expand allowed area -->
@@ -187,6 +187,45 @@
   <DesignatorStudy>研究</DesignatorStudy>
   <!-- EN: Study this object to learn more about it. -->
   <DesignatorStudyDesc>研究这个项目以获得更多信息。</DesignatorStudyDesc>
+
+  <!-- EN: Paint building... -->
+  <DesignatorPaintBuilding>粉饰建筑...</DesignatorPaintBuilding>
+  <!-- EN: Designate walls and buildings to be painted using dye from tinctoria plants, which you can grow. Only certain buildings can be painted. -->
+  <DesignatorPaintBuildingDesc>使用你可种植的七色花染料，指定墙壁和建筑物进行染色。只有某些建筑物可以被粉饰。</DesignatorPaintBuildingDesc>
+  <!-- EN: Paint floor... -->
+  <DesignatorPaintFloor>粉饰地板...</DesignatorPaintFloor>
+  <!-- EN: Designate floors to be painted using dye from tinctoria plants, which you can grow. Only certain floors can be painted. -->
+  <DesignatorPaintFloorDesc>用你可种植的七色花染料来指定要涂的地板。只有某些地板可以被涂抹。</DesignatorPaintFloorDesc>
+
+  <!-- EN: Remove paint -->
+  <DesignatorRemovePaint>移除涂料</DesignatorRemovePaint>
+  <!-- EN: Remove paint from walls, buildings, and floors. -->
+  <DesignatorRemovePaintDesc>从墙壁、建筑或是地板上移除涂料。</DesignatorRemovePaintDesc>
+  <!-- EN: Remove floor paint -->
+  <DesignatorRemoveFloorPaint>移除地板涂料</DesignatorRemoveFloorPaint> <!-- text_todo -->
+  <!-- EN: Remove paint from floors. -->
+  <DesignatorRemoveFloorPaintDesc>从地板移除涂料，呈现原本的颜色。</DesignatorRemoveFloorPaintDesc> <!-- text_todo -->
+  <!-- EN: Paint -->
+  <Paint>粉饰</Paint>
+  <!-- EN: Color -->
+  <Color>颜色</Color>
+
+  <!-- EN: Color picker -->
+  <DesignatorEyedropper>拾色器</DesignatorEyedropper>
+  <!-- EN: Grab existing color -->
+  <GrabExistingColor>选取已有颜色</GrabExistingColor>
+  <!-- EN: Grab a color from an existing building. -->
+  <DesignatorEyeDropperDesc_Paint>从建筑获取颜色。</DesignatorEyeDropperDesc_Paint>
+  <!-- EN: Grab a color from an existing carpet. -->
+  <DesignatorEyeDropperDesc_Carpet>从地毯获取颜色。</DesignatorEyeDropperDesc_Carpet>
+  <!-- EN: Select a painted building. -->
+  <SelectAPaintedBuilding>选择已粉饰的建筑。</SelectAPaintedBuilding>
+  <!-- EN: Select colored carpet. -->
+  <SelectColoredFloor>选择已染色的地毯。</SelectColoredFloor>
+  <!-- EN: Grab -->
+  <Grab>获取</Grab>
+  <!-- EN: Grabbed color -->
+  <GrabbedColor>已获取的颜色</GrabbedColor>
 
   <!-- Failure messages -->
   <!-- EN: Unchosen material -->

@@ -148,15 +148,15 @@
   <ContentSource_SteamWorkshop>Steam 创意工坊</ContentSource_SteamWorkshop>
   
   <!-- Medical care category -->
-  <!-- EN: No medical care -->
+  <!-- EN: no medical care -->
   <MedicalCareCategory_NoCare>无医生照顾</MedicalCareCategory_NoCare>
-  <!-- EN: Doctor care, but no medicine -->
+  <!-- EN: doctor care, but no medicine -->
   <MedicalCareCategory_NoMeds>有医生照顾，无药物</MedicalCareCategory_NoMeds>
-  <!-- EN: Herbal medicine or worse -->
+  <!-- EN: herbal medicine or worse -->
   <MedicalCareCategory_HerbalOrWorse>提供草药等级及以下的药物</MedicalCareCategory_HerbalOrWorse>
-  <!-- EN: Industrial-tech medicine or worse -->
+  <!-- EN: industrial-tech medicine or worse -->
   <MedicalCareCategory_NormalOrWorse>提供普通药物等级或以下的药物</MedicalCareCategory_NormalOrWorse>
-  <!-- EN: Best quality medicine -->
+  <!-- EN: best quality medicine -->
   <MedicalCareCategory_Best>提供最高等级的医疗照顾</MedicalCareCategory_Best>
 
   <!-- Hostility response mode -->
@@ -204,6 +204,10 @@
   <PawnGenerationContext_PlayerStarter>玩家初始角色</PawnGenerationContext_PlayerStarter>
   <!-- EN: non-player characters -->
   <PawnGenerationContext_NonPlayer>NPC</PawnGenerationContext_NonPlayer>
+
+  <!-- Screen shake mode -->
+  <!-- EN: Screen shake intensity -->
+  <ScreenShakeIntensity>屏幕抖动强度</ScreenShakeIntensity>
   
   <!-- Animal name display mode -->
   <!-- EN: Show animal names -->
@@ -213,6 +217,24 @@
   <!-- EN: Tame (all) -->
   <AnimalNameDisplayMode_TameAll>已驯服（所有）</AnimalNameDisplayMode_TameAll>
   
+  <!-- Mech name display mode -->
+  <!-- EN: Show player mech names -->
+  <ShowMechNames>显示玩家机械体名称</ShowMechNames>
+  <!-- EN: While drafted -->
+  <MechNameDisplayMode_WhileDrafted>征召时</MechNameDisplayMode_WhileDrafted>
+  <!-- EN: always -->
+  <MechNameDisplayMode_Always>总是</MechNameDisplayMode_Always>
+
+  <!-- Show weapons under portrait mode -->
+  <!-- EN: Weapons below portrait -->
+  <ShowWeaponsUnderPortrait>头像下显示武器</ShowWeaponsUnderPortrait>
+  <!-- EN: Show weapons below each person's portrait on the colonist bar at the top of the screen -->
+  <ShowWeaponsUnderPortraitTooltip>在屏幕上方的殖民者栏上，在每个人的画像下方显示武器</ShowWeaponsUnderPortraitTooltip>
+  <!-- EN: always -->
+  <ShowWeapons_Always>总是</ShowWeapons_Always>
+  <!-- EN: while drafted -->
+  <ShowWeapons_WhileDrafted>征召时</ShowWeapons_WhileDrafted>
+
   <!-- Temperature -->
   <!-- EN: Celsius -->
   <Celsius>摄氏</Celsius>

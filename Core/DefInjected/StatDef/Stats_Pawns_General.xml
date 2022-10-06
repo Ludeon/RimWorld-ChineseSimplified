@@ -6,6 +6,9 @@
   <!-- EN: A multiplier on the learning rate for animals skill. -->
   <AnimalsLearningFactor.description>驯兽技能的学习倍率。</AnimalsLearningFactor.description>
   
+  <!-- EN: bed hunger rate multiplier -->
+  <BedHungerRateFactor.label>饥饿速度乘数（床）</BedHungerRateFactor.label>
+  
   <!-- EN: caravan riding speed -->
   <CaravanRidingSpeedFactor.label>骑乘速度</CaravanRidingSpeedFactor.label>
   <!-- EN: The multiplier applied to a person's movement speed when they ride this animal as part of a caravan. Animals can only be ridden in caravans. -->
@@ -46,11 +49,6 @@
   <!-- EN: A multiplier on the learning rate for all skills. -->
   <GlobalLearningFactor.description>影响所有技能学习效率的全局学习系数。</GlobalLearningFactor.description>
   
-  <!-- EN: hunger rate multiplier -->
-  <HungerRateMultiplier.label>饥饿率乘数</HungerRateMultiplier.label>
-  <!-- EN: A multiplier on how quickly a creature becomes hungry. -->
-  <HungerRateMultiplier.description>影响一个生物饮食值下降速度的乘数。</HungerRateMultiplier.description>
-  
   <!-- EN: immunity gain speed -->
   <ImmunityGainSpeed.label>免疫速度</ImmunityGainSpeed.label>
   <!-- EN: The speed at which this character gains immunity to diseases.\n\nIf this is too slow, the character will die from a disease before developing immunity. -->
@@ -66,10 +64,29 @@
   <!-- EN: The amount of leather yielded when butchering this creature. This value is reduced if the creature is not slaughtered cleanly, or if it is wounded when killed. -->
   <LeatherAmount.description>屠宰这种生物可获得皮革的数量。如果生物没有被宰杀干净，或者被杀时受了伤，这个数值会减少。</LeatherAmount.description>
   
+  <!-- EN: lifespan factor -->
+  <LifespanFactor.label>寿命系数</LifespanFactor.label>
+  <!-- EN: Lifespan factor alters the effective lifespan of a creature by shortening or lengthening the time until they develop age-related diseases. A lifespan factor over 100% delays disease onset and increases overall lifespan, while a lifespan factor under 100% speeds up disease onset and reduces lifespan. -->
+  <LifespanFactor.description>寿命系数改变了生物的有效寿命，缩短或延长了它们发生与年龄有关的疾病的时间。寿命系数超过100%会延迟疾病的发生并增加总寿命，而寿命系数低于100%则会加速疾病的发生并减少寿命。</LifespanFactor.description>
+  
+  <!-- EN: max nutrition -->
+  <MaxNutrition.label>营养需求</MaxNutrition.label>
+  <!-- EN: The amount of nutrition needed to completely fill this creature's stomach. -->
+  <MaxNutrition.description>完全填满这种生物的胃所需的营养量。</MaxNutrition.description>
+  
   <!-- EN: meat amount -->
   <MeatAmount.label>肉量</MeatAmount.label>
   <!-- EN: The amount of meat yielded when butchering this creature. This value is reduced if the creature is not slaughtered cleanly, or if it is wounded when killed. -->
   <MeatAmount.description>屠宰这种生物可获得肉的数量。如果生物没有被宰杀干净，或者被杀时受了伤，这个数值会减少。</MeatAmount.description>
+  
+  <!-- EN: meditation psyfocus gain -->
+  <MeditationFocusGain.label>冥想效力</MeditationFocusGain.label>
+  <!-- EN: The amount of psyfocus a person gains per day of meditation, ignoring bonuses from focus objects. -->
+  <MeditationFocusGain.description>此人冥想一天能够获取的精神力，忽略从灵媒获得的增益。</MeditationFocusGain.description>
+  <!-- EN: {0} / day -->
+  <MeditationFocusGain.formatString>{0}/天</MeditationFocusGain.formatString>
+  <!-- EN: {0} / day -->
+  <MeditationFocusGain.formatStringUnfinalized>{0}/天</MeditationFocusGain.formatStringUnfinalized>
   
   <!-- EN: mental break threshold -->
   <MentalBreakThreshold.label>崩溃临界值</MentalBreakThreshold.label>
@@ -93,6 +110,18 @@
   <!-- EN: The pain level at which this creature is downed from pain. -->
   <PainShockThreshold.description>此生物因疼痛倒地的点数。</PainShockThreshold.description>
   
+  <!-- EN: neural heat limit -->
+  <PsychicEntropyMax.label>心灵熵阈值</PsychicEntropyMax.label>
+  <!-- EN: The maximum amount of neural heat individual can tolerate safely. -->
+  <PsychicEntropyMax.description>个体能够安全承受的最大心灵熵值。</PsychicEntropyMax.description>
+  
+  <!-- EN: neural heat recovery rate -->
+  <PsychicEntropyRecoveryRate.label>心灵熵消散率</PsychicEntropyRecoveryRate.label>
+  <!-- EN: The rate at which this person reduces neural heat. -->
+  <PsychicEntropyRecoveryRate.description>个体的心灵熵降低速率。</PsychicEntropyRecoveryRate.description>
+  <!-- EN: {0}/s -->
+  <PsychicEntropyRecoveryRate.formatString>{0}/秒</PsychicEntropyRecoveryRate.formatString>
+  
   <!-- EN: psychic sensitivity -->
   <PsychicSensitivity.label>心灵敏感度</PsychicSensitivity.label>
   <!-- EN: More sensitive people suffer more from negative psychic effects, and benefit more from positive ones. Higher psychic sensitivity also increases neural heat limit. -->
@@ -103,9 +132,14 @@
   <!-- EN: A multiplier on how quickly a creature rests while sleeping. -->
   <RestRateMultiplier.description>一个生物恢复精力的速度系数。</RestRateMultiplier.description>
   
-  <!-- EN: toxic sensitivity -->
-  <ToxicSensitivity.label>毒物敏感度</ToxicSensitivity.label>
-  <!-- EN: Multiplier on the impact of toxic buildup on this creature. -->
-  <ToxicSensitivity.description>毒物积累对此生物造成影响的乘数。</ToxicSensitivity.description>
+  <!-- EN: toxic environment resistance -->
+  <ToxicEnvironmentResistance.label>有毒环境抵抗</ToxicEnvironmentResistance.label>
+  <!-- EN: How resistant this creature is to the effects of environmental toxins. This protects against toxic fallout and rot stink exposure, but not against direct attacks with venom or injected poison. -->
+  <ToxicEnvironmentResistance.description>这种生物对环境毒素影响的抵抗力。这可以保护其免受有毒沉降物和尸瘟气体的影响，但不能防止毒液或注射毒药的直接攻击。</ToxicEnvironmentResistance.description>
+  
+  <!-- EN: toxic resistance -->
+  <ToxicResistance.label>毒性抵抗</ToxicResistance.label>
+  <!-- EN: How well this creature resists toxic buildup. -->
+  <ToxicResistance.description>这种生物抵抗毒性累积的能力。</ToxicResistance.description>
   
 </LanguageData>
