@@ -68,11 +68,11 @@
   
   <!-- EN:
     <li>projectile(WEAPON_missing==True, p=3)->[PROJECTILE_label]</li>
-    <li>projectile->[projectile]</li>
+    <li>projectile->[WEAPON_projectile_label]</li>
   -->
   <Combat_RangedBase.rulePack.rulesStrings>
     <li>projectile(WEAPON_missing==True, p=3)->[PROJECTILE_label]</li>
-    <li>projectile->[projectile]</li>
+    <li>projectile->[WEAPON_projectile_label]</li>
   </Combat_RangedBase.rulePack.rulesStrings>
   
   <!-- EN:
