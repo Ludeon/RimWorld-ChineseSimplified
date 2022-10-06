@@ -16,8 +16,8 @@ http://ludeon.com/forums/index.php?topic=2933.0
 
 ### 最新版
 
-![B18](https://img.shields.io/badge/beta18-0.18.1722-blue.svg?style=flat-square)
-![更新日期](https://img.shields.io/badge/更新日期-2018--01--24-brightgreen.svg?style=flat-square)
+![B18](https://img.shields.io/badge/1.4-1.4.3507-blue.svg?style=flat-square)
+![更新日期](https://img.shields.io/badge/更新日期-2022--10--6-brightgreen.svg?style=flat-square)
 
 * [GitHub 下载](https://github.com/Ludeon/RimWorld-ChineseSimplified/archive/master.zip)
 * [Coding 下载](https://coding.net/u/duduluu/p/RimWorld-ChineseSimplified/git/archive/master)
@@ -60,7 +60,7 @@ http://ludeon.com/forums/index.php?topic=2933.0
 * AlyxMS
 * Bigmap
 * duduluu （风之起灵）
-* Vaniat（漆原琉华）
+* Vaniat
 * MADxingjin（大学生活不如狗）
 * leafzxg（落叶飘零）
 * BOXrsxx（rsxx4488）
@@ -72,12 +72,13 @@ http://ludeon.com/forums/index.php?topic=2933.0
 * 飞行棺材
 * 其他成员：cainiaowu， Kenneth Li（魔都KK）， gretino， RSP， Sefank （一个小白）， Aephiex， SerGawen（加文）， weehowe-z（问号）， WNJStudio（承诺丶六年）， wubochang（三桂）， Ydada（于大大）， zhaohu002（嗷嗷虎）， BiscuitMiner（脆餅）， user19990313， VoidVoice， SiQuery， God丶天才， Indeed， Zephyr， Shavius（茶壶教皇）， 那啥可以不笑吗， 黑白灰， Lappland（拉普兰德）
 
-> 当前的主维护人员为风之起灵。
+> 当前的主维护人员为Vaniat。
 
 ## 特别感谢
 
 * AlyxMS 从 A3 开始和作者紧密联系并共同创建了本项目
 * Bigmap 伟大的国旗哥
+* duduluu （风之起灵） 一手拉起了边缘汉化组
 
 ## 本项目地址
 
