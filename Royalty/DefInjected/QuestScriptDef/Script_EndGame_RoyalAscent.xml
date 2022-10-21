@@ -71,21 +71,25 @@
   <EndGame_RoyalAscent.LetterLabelUnauthorizedSurgery.slateRef>未授权手术：{SUBJECT_definite}</EndGame_RoyalAscent.LetterLabelUnauthorizedSurgery.slateRef>
   <!-- EN: Unauthorized, violating surgery has been performed on {SUBJECT_definite}, who you were charged to protect. [failLetterEndingCommon] -->
   <EndGame_RoyalAscent.LetterTextUnauthorizedSurgery.slateRef>需要你护卫的{SUBJECT_definite}接受了一场未授权的多余手术。[failLetterEndingCommon]</EndGame_RoyalAscent.LetterTextUnauthorizedSurgery.slateRef>
+  <!-- EN: Xenogerm absorbed: {SUBJECT_definite} -->
+  <EndGame_RoyalAscent.root.nodes.lodgersXenogermAbsorbed.node.nodes.Letter.label.slateRef>异种胚芽被吸收</EndGame_RoyalAscent.root.nodes.lodgersXenogermAbsorbed.node.nodes.Letter.label.slateRef>
+  <!-- EN: {SUBJECT_definite}, who you were charged to protect, has had {SUBJECT_possessive} xenogerm forcibly absorbed. [failLetterEndingCommon] -->
+  <EndGame_RoyalAscent.root.nodes.lodgersXenogermAbsorbed.node.nodes.Letter.text.slateRef>指定由你保护的{SUBJECT_definite}在你的殖民地被吸收了异种胚芽。[failLetterEndingCommon]</EndGame_RoyalAscent.root.nodes.lodgersXenogermAbsorbed.node.nodes.Letter.text.slateRef>
   <!-- EN: Guest lost: {SUBJECT_definite} -->
-  <EndGame_RoyalAscent.root.nodes.askerLeftMap.node.nodes.Letter.label.slateRef>访客失踪：{SUBJECT_definite}</EndGame_RoyalAscent.root.nodes.askerLeftMap.node.nodes.Letter.label.slateRef>
+  <EndGame_RoyalAscent.LetterLabelGuestLost.slateRef>访客失踪：{SUBJECT_definite}</EndGame_RoyalAscent.LetterLabelGuestLost.slateRef>
   <!-- EN: {SUBJECT_definite}, who you were charged to protect, has left the assigned settlement. [failLetterEndingCommon] -->
-  <EndGame_RoyalAscent.root.nodes.askerLeftMap.node.nodes.Letter.text.slateRef>需要你护卫的{SUBJECT_definite}失踪在你的殖民地。[failLetterEndingCommon]</EndGame_RoyalAscent.root.nodes.askerLeftMap.node.nodes.Letter.text.slateRef>
+  <EndGame_RoyalAscent.LetterTextGuestLost.slateRef>需要你护卫的{SUBJECT_definite}失踪在你的殖民地。[failLetterEndingCommon]</EndGame_RoyalAscent.LetterTextGuestLost.slateRef>
   <!-- EN: Shuttle destroyed -->
-  <EndGame_RoyalAscent.LetterLabelGuestLost.slateRef>穿梭机已被毁</EndGame_RoyalAscent.LetterLabelGuestLost.slateRef>
+  <EndGame_RoyalAscent.LetterLabelShuttleDestroyed.slateRef>穿梭机已被毁</EndGame_RoyalAscent.LetterLabelShuttleDestroyed.slateRef>
   <!-- EN: The shuttle sent to collect the [asker_faction_leaderTitle] has been destroyed. [failLetterEndingCommon] -->
-  <EndGame_RoyalAscent.LetterTextGuestLost.slateRef>前来迎接[asker_faction_leaderTitle]的穿梭机被摧毁了。[failLetterEndingCommon]</EndGame_RoyalAscent.LetterTextGuestLost.slateRef>
+  <EndGame_RoyalAscent.LetterTextShuttleDestroyed.slateRef>前来迎接[asker_faction_leaderTitle]的穿梭机被摧毁了。[failLetterEndingCommon]</EndGame_RoyalAscent.LetterTextShuttleDestroyed.slateRef>
   <!-- EN: Guest lost: {SUBJECT_definite} -->
-  <EndGame_RoyalAscent.LetterLabelShuttleDestroyed.slateRef>访客失踪：{SUBJECT_definite}</EndGame_RoyalAscent.LetterLabelShuttleDestroyed.slateRef>
+  <EndGame_RoyalAscent.LetterLabelLodgerRanWild.slateRef>访客失踪：{SUBJECT_definite}</EndGame_RoyalAscent.LetterLabelLodgerRanWild.slateRef>
   <!-- EN: {SUBJECT_definite}, who you were charged to protect, has run wild. [failLetterEndingCommon] -->
-  <EndGame_RoyalAscent.LetterTextShuttleDestroyed.slateRef>需要你护卫的{SUBJECT_definite}在你的殖民地回归自然。[failLetterEndingCommon]</EndGame_RoyalAscent.LetterTextShuttleDestroyed.slateRef>
+  <EndGame_RoyalAscent.LetterTextLodgerRanWild.slateRef>需要你护卫的{SUBJECT_definite}在你的殖民地回归自然。[failLetterEndingCommon]</EndGame_RoyalAscent.LetterTextLodgerRanWild.slateRef>
   <!-- EN: Quest failed: [resolvedQuestName] -->
-  <EndGame_RoyalAscent.root.nodes.pickupShipThingSentUnsatisfied.node.nodes.Letter.label.slateRef>任务失败：[resolvedQuestName]</EndGame_RoyalAscent.root.nodes.pickupShipThingSentUnsatisfied.node.nodes.Letter.label.slateRef>
+  <EndGame_RoyalAscent.LetterLabelShuttleSentUnsatisfied.slateRef>任务失败：[resolvedQuestName]</EndGame_RoyalAscent.LetterLabelShuttleSentUnsatisfied.slateRef>
   <!-- EN: The shuttle sent to collect the [asker_faction_leaderTitle] has departed without [asker_objective]. [asker_pronoun] will now leave on foot. [failLetterEndingCommon] -->
-  <EndGame_RoyalAscent.root.nodes.pickupShipThingSentUnsatisfied.node.nodes.Letter.text.slateRef>前来迎接[asker_faction_leaderTitle]的穿梭机没有接到[asker_objective]。[asker_pronoun]现在只能走回去。[failLetterEndingCommon]</EndGame_RoyalAscent.root.nodes.pickupShipThingSentUnsatisfied.node.nodes.Letter.text.slateRef>
+  <EndGame_RoyalAscent.LetterTextShuttleSentUnsatisfied.slateRef>前来迎接[asker_faction_leaderTitle]的穿梭机没有接到[asker_objective]。[asker_pronoun]现在只能走回去。[failLetterEndingCommon]</EndGame_RoyalAscent.LetterTextShuttleSentUnsatisfied.slateRef>
   
 </LanguageData>

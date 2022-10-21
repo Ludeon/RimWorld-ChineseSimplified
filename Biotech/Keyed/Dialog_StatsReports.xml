@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: Relevant genes -->
+  <StatsReport_Genes>TODO</StatsReport_Genes>
+  <!-- EN: in sunlight -->
+  <StatsReport_InSunlight>TODO</StatsReport_InSunlight>
+  <!-- EN: clothed -->
+  <StatsReport_Clothed>TODO</StatsReport_Clothed>
+  <!-- EN: unclothed -->
+  <StatsReport_Unclothed>TODO</StatsReport_Unclothed>
+
+  <!-- EN: Required weight class -->
+  <StatsReport_RechargerWeightClass>TODO</StatsReport_RechargerWeightClass>
+  <!-- EN: The weight class of mechanoid which can use this recharger. The following mechanoids are compatible -->
+  <StatsReport_RechargerWeightClass_Desc>TODO</StatsReport_RechargerWeightClass_Desc>
+
+  <!-- EN: Recharger needed -->
+  <StatsReport_RechargerNeeded>TODO</StatsReport_RechargerNeeded>
+  <!-- EN: The type of recharger that this mechanoid can use to recover energy. This is based on the mechanoid's weight class. -->
+  <StatsReport_RechargerNeeded_Desc>TODO</StatsReport_RechargerNeeded_Desc>
+
+  <!-- EN: Deathrest effectiveness -->
+  <StatsReport_DeathrestEffectiveness>TODO</StatsReport_DeathrestEffectiveness>
+  <!-- EN: A multiplier on how effective this is when used for deathrest. The higher this is, the less time a user needs to deathrest here. -->
+  <StatsReport_DeathrestEffectiveness_Desc>TODO</StatsReport_DeathrestEffectiveness_Desc>
+
+  <!-- EN: Deathrest connection limit -->
+  <StatsReport_DeathrestConnectionLimit>TODO</StatsReport_DeathrestConnectionLimit>
+  <!-- EN: How many of these buildings can connect to a deathrester while deathresting. This number is also limited by the person's deathrest capacity. -->
+  <StatsReport_DeathrestConnectionLimit_Desc>TODO</StatsReport_DeathrestConnectionLimit_Desc>
+
+  <!-- EN: Growth tier -->
+  <StatsReport_GrowthTier>TODO</StatsReport_GrowthTier>
+  <!-- EN: Children progress through growth tiers over time. The higher the learning need, the faster the progress. When a growth moment comes (at age 7, 10, and 13), the child's growth tier determines how many trait and passion options you can choose from. Growth tier resets after each growth moment. -->
+  <StatsReport_GrowthTierDesc>TODO</StatsReport_GrowthTierDesc>
+
+  <!-- EN: Life stage -->
+  <StatsReport_DevelopmentStage>TODO</StatsReport_DevelopmentStage>
+  <!-- EN: A baby. Babies cannot move on their own. Their life revolves around the simple needs of food, sleep, and play. When they giggle, nearby adults' moods are lifted, and when they cry, nearby adults are annoyed.\n\nAt age 3, human babies become children. -->
+  <StatsReport_DevelopmentStageDesc_Baby>TODO</StatsReport_DevelopmentStageDesc_Baby>
+  <!-- EN: A child. In general, children are slower and less skilled than adults. However, children have a natural optimism. When their mood is high, this optimism can raise the mood of adult colonists.\n\nChildren can do various types of work, depending on their age -->
+  <StatsReport_DevelopmentStageDesc_ChildPart1>TODO</StatsReport_DevelopmentStageDesc_ChildPart1>
+  <!-- EN: As a child ages, they will gain additional passions and traits.\n\nChildren have various child-specific learning needs and require special child-sized apparel.\n\nAt age 13, human children become adults. -->
+  <StatsReport_DevelopmentStageDesc_ChildPart2>TODO</StatsReport_DevelopmentStageDesc_ChildPart2>
+  <!-- EN: An adult. Human adults fully mature at the age of 18. -->
+  <StatsReport_DevelopmentStageDesc_Adult>TODO</StatsReport_DevelopmentStageDesc_Adult>
+
+  <!-- EN: Multiplier for pollution -->
+  <StatsReport_Pollution>TODO</StatsReport_Pollution>
+
+  <!-- EN: Age factor -->
+  <StatsReport_FertilityAgeFactor>TODO</StatsReport_FertilityAgeFactor>
+  <!-- EN: Has {0_label} gene -->
+  <StatsReport_HasGene>TODO</StatsReport_HasGene>
+  <!-- EN: A person of the {0} xenotype.\n\nAbout {0}s: -->
+  <StatsReport_NonBaselinerDescription>TODO</StatsReport_NonBaselinerDescription>
+  
+  <!-- EN: Lifestage -->
+  <Stat_Thing_Apparel_ValidLifestage>TODO</Stat_Thing_Apparel_ValidLifestage>
+  <!-- EN: Certain apparel requires that the wearer be within a specific age range. -->
+  <Stat_Thing_Apparel_ValidLifestage_Desc>TODO</Stat_Thing_Apparel_ValidLifestage_Desc>
+
+  <!-- EN: Connected {0} -->
+  <StatsReport_Connected>TODO</StatsReport_Connected>
+
+  <!-- EN: Effects -->
+  <Effects>TODO</Effects>
+  <!-- EN: A multiplier on chance of having a romantic relationship with someone who does not have this gene. -->
+  <StatsReport_MissingGeneRomanceChance>TODO</StatsReport_MissingGeneRomanceChance>
+  <!-- EN: Immune to -->
+  <ImmuneTo>TODO</ImmuneTo>
+  <!-- EN: Social fight chance factor -->
+  <SocialFightChanceFactor>TODO</SocialFightChanceFactor>
+  <!-- EN: Chance mental break is violent -->
+  <AggroMentalBreakSelectionChanceFactor>TODO</AggroMentalBreakSelectionChanceFactor>
+  <!-- EN: Prison break interval factor -->
+  <PrisonBreakIntervalFactor>TODO</PrisonBreakIntervalFactor>
+  <!-- EN: Will never prison break. -->
+  <WillNeverPrisonBreak>TODO</WillNeverPrisonBreak>
+  <!-- EN: Mental breaks are always violent. -->
+  <AlwaysAggroMentalBreak>TODO</AlwaysAggroMentalBreak>
+  <!-- EN: Mental breaks are never violent. -->
+  <NeverAggroMentalBreak>TODO</NeverAggroMentalBreak>
+  <!-- EN: {0_label} addiction chance factor -->
+  <AddictionChanceFactor>TODO</AddictionChanceFactor>
+  <!-- EN: Immune to {0_label} addiction. -->
+  <AddictionImmune>TODO</AddictionImmune>
+  <!-- EN: Immune to food poisoning. -->
+  <FoodPoisoningImmune>TODO</FoodPoisoningImmune>
+  <!-- EN: Will never do social fights. -->
+  <WillNeverSocialFight>TODO</WillNeverSocialFight>
+  <!-- EN: Aging factors -->
+  <AgeFactors>TODO</AgeFactors>
+  <!-- EN: Work speed is unaffected by darkness. -->
+  <UnaffectedByDarkness>TODO</UnaffectedByDarkness>
+  <!-- EN: Adds one level of passion in {0_label}. -->
+  <PassionModAdd>TODO</PassionModAdd>
+  <!-- EN: Removes all passion in {0_label}. -->
+  <PassionModDrop>TODO</PassionModDrop>
+  <!-- EN: Causes need -->
+  <CausesNeed>TODO</CausesNeed>
+  <!-- EN: Gives ability -->
+  <GivesAbility>TODO</GivesAbility>
+  <!-- EN: Gives abilities -->
+  <GivesAbilities>TODO</GivesAbilities>
+  <!-- EN: {RESOURCE}: {OFFSET} per day. -->
+  <ResourceLossPerDay>TODO</ResourceLossPerDay>
+  <!-- EN: Removes -->
+  <Removes>TODO</Removes>
+  <!-- EN: Disables need -->
+  <DisablesNeed>TODO</DisablesNeed>
+  <!-- EN: Disables needs -->
+  <DisablesNeeds>TODO</DisablesNeeds>
+  <!-- EN: Baby -->
+  <DevelopmentStage_Baby>TODO</DevelopmentStage_Baby>
+  <!-- EN: Child -->
+  <DevelopmentStage_Child>TODO</DevelopmentStage_Child>
+  <!-- EN: Adult -->
+  <DevelopmentStage_Adult>TODO</DevelopmentStage_Adult>
+
+</LanguageData>

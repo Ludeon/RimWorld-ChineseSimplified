@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: band node -->
+  <BandNode.label>TODO</BandNode.label>
+  <!-- EN: A mechanoid-band signal amplifier. Band nodes must be tuned to a specific mechanitor. This will add 1 bandwidth to that mechanitor's total bandwidth, allowing them to control more mechanoids.\n\nOnce a band node is constructed, it can be quickly tuned to a mechanitor. However, retuning a band node to a different mechanitor takes significantly longer. -->
+  <BandNode.description>TODO</BandNode.description>
+  
+  <!-- EN: mechband antenna -->
+  <BurnoutMechlinkBooster.label>TODO</BurnoutMechlinkBooster.label>
+  <!-- EN: A mech-band signaling device. When activated, it puts out a powerful mech signal pulse, which will attract an ultra-heavy feral mechanoid to attack with its escorts. If you can defeat it, you can collect special technologies from its corpse. The signal pulse burns out the transmitter, so this building can only be used once. -->
+  <BurnoutMechlinkBooster.description>TODO</BurnoutMechlinkBooster.description>
+  <!-- EN: Summon warqueen threat -->
+  <BurnoutMechlinkBooster.comps.CompUsable.useLabel>TODO</BurnoutMechlinkBooster.comps.CompUsable.useLabel>
+  
+  <!-- EN: gene assembler -->
+  <GeneAssembler.label>TODO</GeneAssembler.label>
+  <!-- EN: A workbench for creating implantable xenogerms from genepacks stored in nearby gene banks. Genepacks are not consumed in this process and can be reused. -->
+  <GeneAssembler.description>TODO</GeneAssembler.description>
+  
+  <!-- EN: gene bank -->
+  <GeneBank.label>TODO</GeneBank.label>
+  <!-- EN: This building can store genepacks and make them usable to create new xenogerms, when placed near a gene assembler. Large gene libraries require many gene banks.\n\nWhen powered, gene banks prevent genepacks from deteriorating and will slowly repair deterioration. -->
+  <GeneBank.description>TODO</GeneBank.description>
+  
+  <!-- EN: gene extractor -->
+  <GeneExtractor.label>TODO</GeneExtractor.label>
+  <!-- EN: An automated surgery machine that can extract a person's genes and create a genepack from them. The extracted genes will be randomly selected from the person's xenogenes and germline genes. You can force someone into the machine, but they won't like it.\n\nExtracting a person's genes while their genes are currently regrowing will kill them. Otherwise, gene extraction causes no lasting harm.\n\nGenes that require archite capsules are too complex to be extracted. -->
+  <GeneExtractor.description>TODO</GeneExtractor.description>
+  
+  <!-- EN: gene processor -->
+  <GeneProcessor.label>TODO</GeneProcessor.label>
+  <!-- EN: A genetic analysis and processing system. Placed near a gene assembler, it increases the maximum genetic complexity of the xenogerms you can assemble. Building multiple gene processors will increase the genetic complexity limit further. -->
+  <GeneProcessor.description>TODO</GeneProcessor.description>
+  
+  <!-- EN: growth vat -->
+  <GrowthVat.label>TODO</GrowthVat.label>
+  <!-- EN: A vat of fluid which can gestate an embryo or accelerate a child's growth.\n\nWhile growing or gestating, the vat must be fed with a constant supply of nutrition to provide the feedstock for growth. Gestating an embryo takes twice the nutrition of accelerating a child's growth.\n\nEmbryos are gestated for 9 days before a baby is formed. There is a risk of health complications.\n\nChild growth can only be accelerated up to age 18, but not beyond. While growing, a child's skills will slowly increase. Children raised in growth vats will have lower skills and gain fewer passions than normal.\n\nThe device uses chemical injections, electrical stimulation, and simple mechanite treatments to push the body to grow. Growth vats are often used to quickly manufacture engineered workers or warriors. -->
+  <GrowthVat.description>TODO</GrowthVat.description>
+  
+  <!-- EN: mechband dish -->
+  <MechbandDish.label>TODO</MechbandDish.label>
+  <!-- EN: A mech-band signaling device more powerful than the normal mechlink antenna. When activated, it puts out an ultra-powerful mech signal pulse, which will attract a mechanoid commander to attack with its escorts. If you can defeat it, you can collect special technologies from its corpse. The signal pulse burns out the dish, so this building can only be used once. -->
+  <MechbandDish.description>TODO</MechbandDish.description>
+  <!-- EN: Summon apocriton threat -->
+  <MechbandDish.comps.CompUsable.useLabel>TODO</MechbandDish.comps.CompUsable.useLabel>
+  
+  <!-- EN: mech booster -->
+  <MechBooster.label>TODO</MechBooster.label>
+  <!-- EN: A remote energy and computation enhancement device. Any friendly mechanoids in its effect radius will move and work faster. -->
+  <MechBooster.description>TODO</MechBooster.description>
+  
+  <!-- EN: pollution pump -->
+  <PollutionPump.label>TODO</PollutionPump.label>
+  <!-- EN: A groundwater-filtering pump which slowly cleans polluted terrain. The extracted pollution is formed into toxic wastepacks which must be hauled away. -->
+  <PollutionPump.description>TODO</PollutionPump.description>
+  
+  <!-- EN: blood torch -->
+  <SanguphageMeetingTorch.label>TODO</SanguphageMeetingTorch.label>
+  <!-- EN: A specially-treated wooden torch that produces a red light over a large area. Sanguophages gather around torches like these during their ceremonial meetings. The sanguine glow is particularly pleasing to individuals with the bloodfeeder gene. It can be automatically refueled with wood, and produces a small amount of heat. -->
+  <SanguphageMeetingTorch.description>TODO</SanguphageMeetingTorch.description>
+  
+  <!-- EN: crashed shuttle -->
+  <ShuttleCrashed_Exitable.label>TODO</ShuttleCrashed_Exitable.label>
+  <!-- EN: A spacer-tech shuttle designed for transit between surface and orbit, or between moons of a planetary system. -->
+  <ShuttleCrashed_Exitable.description>TODO</ShuttleCrashed_Exitable.description>
+  
+  <!-- EN: crashed mechanitor ship -->
+  <ShuttleCrashed_Exitable_Mechanitor.label>TODO</ShuttleCrashed_Exitable_Mechanitor.label>
+  <!-- EN: A short-range ship used by a mechanitor to transport mechs for low-orbit or planetary travel. -->
+  <ShuttleCrashed_Exitable_Mechanitor.description>TODO</ShuttleCrashed_Exitable_Mechanitor.description>
+  
+  <!-- EN: toxifier generator -->
+  <ToxifierGenerator.label>TODO</ToxifierGenerator.label>
+  <!-- EN: This electrical generator very slowly pollutes the terrain in a radius around it while producing energy. If all terrain in the radius is polluted, the generator will shut down. -->
+  <ToxifierGenerator.description>TODO</ToxifierGenerator.description>
+  
+  <!-- EN: IED tox trap -->
+  <TrapIED_ToxGas.label>TODO</TrapIED_ToxGas.label>
+  <!-- EN: A pair of tox gas shells connected to a trigger which detonates on touch or bullet impact. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm. -->
+  <TrapIED_ToxGas.description>TODO</TrapIED_ToxGas.description>
+  
+  <!-- EN: wastepack atomizer -->
+  <WastepackAtomizer.label>TODO</WastepackAtomizer.label>
+  <!-- EN: A glittertech device that deconstructs toxic wastepacks into inert gases using advanced molecular processes. The process requires considerable amounts of power. -->
+  <WastepackAtomizer.description>TODO</WastepackAtomizer.description>
+  
+</LanguageData>
