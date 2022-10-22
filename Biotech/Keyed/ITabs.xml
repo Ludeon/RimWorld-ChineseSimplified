@@ -2,134 +2,134 @@
 <LanguageData>
 
   <!-- EN: The recipe {0} requires a mechanitor to work on it. None of your colonists are mechanitors, so nobody will do this bill. -->
-  <RecipeRequiresMechanitor>TODO</RecipeRequiresMechanitor>
+  <RecipeRequiresMechanitor>该清单{0}需要机械师来做。你们的殖民者都不是机械师，所以没人会做这个清单。</RecipeRequiresMechanitor>
 
   <!-- EN: genepacks -->
-  <GenepackPlural>TODO</GenepackPlural>
+  <GenepackPlural>基因组</GenepackPlural>
   <!-- EN: Traits develop later during childhood -->
-  <TraitsDevelopLaterBaby>TODO</TraitsDevelopLaterBaby>
+  <TraitsDevelopLaterBaby>特性会在童年时期形成</TraitsDevelopLaterBaby>
   <!-- EN: Skills develop later during childhood -->
-  <SkillsDevelopLaterBaby>TODO</SkillsDevelopLaterBaby>
+  <SkillsDevelopLaterBaby>技能会在童年时期发展</SkillsDevelopLaterBaby>
   <!-- EN: Genes -->
-  <TabGenes>TODO</TabGenes>
+  <TabGenes>基因</TabGenes>
 
   <!-- EN: View genes -->
-  <ViewGenes>TODO</ViewGenes>
+  <ViewGenes>基因图谱</ViewGenes>
   <!-- EN: Click to view {PAWN_nameDef}'s genes. -->
-  <ViewGenesDesc>TODO</ViewGenesDesc>
+  <ViewGenesDesc>点击查看{PAWN_nameDef}的基因。</ViewGenesDesc>
 
   <!-- Feeding tab (human babies) -->
   <!-- EN: Feeding -->
-  <TabFeeding>TODO</TabFeeding>
+  <TabFeeding>喂养</TabFeeding>
   <!-- EN: Auto feed settings -->
-  <AutofeedSectionHeader>TODO</AutofeedSectionHeader>
+  <AutofeedSectionHeader>自动喂养设置</AutofeedSectionHeader>
   <!-- EN: never -->
-  <AutofeedModeNever>TODO</AutofeedModeNever>
+  <AutofeedModeNever>从不</AutofeedModeNever>
   <!-- EN: childcare -->
-  <AutofeedModeChildcare>TODO</AutofeedModeChildcare>
+  <AutofeedModeChildcare>儿童照料</AutofeedModeChildcare>
   <!-- EN: urgent -->
-  <AutofeedModeUrgent>TODO</AutofeedModeUrgent>
+  <AutofeedModeUrgent>紧急</AutofeedModeUrgent>
   <!-- EN: Nobody can feed this baby. -->
-  <AutofeedNone>TODO</AutofeedNone>
+  <AutofeedNone>没人能喂这个婴儿。</AutofeedNone>
   <!-- EN: {FEEDER_nameDef} will not automatically feed {BABY_nameDef}. -->
-  <AutofeedModeTooltipNever>TODO</AutofeedModeTooltipNever>
+  <AutofeedModeTooltipNever>{feedder_namedef}不会自动喂养{BABY_nameDef}。</AutofeedModeTooltipNever>
   <!-- EN: {FEEDER_nameDef} will feed {BABY_nameDef} as childcare work. -->
-  <AutofeedModeTooltipChildcare>TODO</AutofeedModeTooltipChildcare>
+  <AutofeedModeTooltipChildcare>{feedder_namedef}将提供{babyy_namedef}作为儿童照料工作。</AutofeedModeTooltipChildcare>
   <!-- EN: {FEEDER_nameDef} will feed {BABY_nameDef} day or night, even if {FEEDER_nameDef} is not assigned to childcare or is incapable of childcare. -->
-  <AutofeedModeTooltipUrgent>TODO</AutofeedModeTooltipUrgent>
+  <AutofeedModeTooltipUrgent>{feedder_namedef}将日夜喂养{babyy_namedef}，即使{feedder_namedef}没有被分配到托儿工作中或没有能力照料儿童。</AutofeedModeTooltipUrgent>
   <!-- EN: Consumable foods -->
-  <BabyFoodConsumables>TODO</BabyFoodConsumables>
+  <BabyFoodConsumables>可消费的食品</BabyFoodConsumables>
 
   <!-- Social tab (human babies) -->
   <!-- EN: ideoligion exposure -->
-  <IdeoExposureSectionHeader>TODO</IdeoExposureSectionHeader>
+  <IdeoExposureSectionHeader>文化接触</IdeoExposureSectionHeader>
   <!-- EN: {BABY_labelShort} has not been exposed to any ideoligions yet. -->
-  <IdeoExposureNoExposure>TODO</IdeoExposureNoExposure>
+  <IdeoExposureNoExposure>{BABY_labelShort}还没有接触到任何文化形态。</IdeoExposureNoExposure>
   <!-- EN: {BABY_pronoun} can be exposed to ideoligions by interacting with followers of an ideoligion. These interactions include being breastfed, carried, played with, and more. At the age of {CHILDAGE} {BABY_labelShort} will join one of the ideoligions {BABY_pronoun} has been exposed to. -->
-  <IdeoExposureNoExposureDetail>TODO</IdeoExposureNoExposureDetail>
+  <IdeoExposureNoExposureDetail>{BABY_pronoun}可以通过与文化形态的追随者互动来接触该文化。这些互动包括母乳喂养，携带，玩耍等等。在{CHILDAGE}的年龄{BABY_labelShort}将加入{BABY_pronoun}已经接触过的一个文化形态。</IdeoExposureNoExposureDetail>
   <!-- EN: {BABY_labelShort} is {PERCENT} likely to join the ideoligion {IDEO_name}. -->
-  <IdeoExposurePointsTooltipJoinLikelihood>TODO</IdeoExposurePointsTooltipJoinLikelihood>
+  <IdeoExposurePointsTooltipJoinLikelihood>{BABY_labelShort}可能会加入{IDEO_name}。</IdeoExposurePointsTooltipJoinLikelihood>
   <!-- EN: As {BABY_labelShort} interacts with followers of an ideoligion {BABY_pronoun} becomes more likely to join that ideoligion. {BABY_labelShort} will join one of the ideoligions {BABY_pronoun} has been exposed to at the age of {CHILDAGE}. -->
-  <IdeoExposurePointsTooltipJoinDescription>TODO</IdeoExposurePointsTooltipJoinDescription>
+  <IdeoExposurePointsTooltipJoinDescription>{BABY_labelShort}与一个文化形态的追随者互动{BABY_pronoun}更有可能加入那个文化。{BABY_labelShort}将会加入{babyy_pronoun}在{CHILDAGE}年龄时所接触到的一个文化。</IdeoExposurePointsTooltipJoinDescription>
   <!-- EN: Ideoligion exposure is measured by exposure points. Interactions like being breastfed, carried, or played with will cause {BABY_labelShort} to gain exposure points for the ideoligions followed by those {BABY_pronoun} interacts with. -->
-  <IdeoExposurePointsTooltipExposureDescription>TODO</IdeoExposurePointsTooltipExposureDescription>
+  <IdeoExposurePointsTooltipExposureDescription>文化接触是通过接触点数来衡量的。例如被母乳喂养，被抱着，或者与孩子玩耍这样的互动，会使{BABY_labelShort}获得与{BABY_pronoun}互动的文化接触点数。</IdeoExposurePointsTooltipExposureDescription>
   <!-- EN: {IDEO_name} exposure points -->
-  <IdeoExposurePointsTooltipIdeoExposure>TODO</IdeoExposurePointsTooltipIdeoExposure>
+  <IdeoExposurePointsTooltipIdeoExposure>{IDEO_name}接触点数</IdeoExposurePointsTooltipIdeoExposure>
   <!-- EN: Total exposure points -->
-  <IdeoExposurePointsTooltipTotalExposure>TODO</IdeoExposurePointsTooltipTotalExposure>
+  <IdeoExposurePointsTooltipTotalExposure>总接触点数</IdeoExposurePointsTooltipTotalExposure>
 
   <!-- Social tab (romance) -->
   <!-- EN: Romance -->
-  <TryRomanceButtonLabel>TODO</TryRomanceButtonLabel>
+  <TryRomanceButtonLabel>恋爱</TryRomanceButtonLabel>
   <!-- EN: Nobody for {0_labelShort} to romance. -->
-  <TryRomanceNoOptsMessage>TODO</TryRomanceNoOptsMessage>
+  <TryRomanceNoOptsMessage>没有人会与{0_labelShort}恋爱。</TryRomanceNoOptsMessage>
   <!-- EN: unreachable -->
-  <CantRomanceTargetUnreachable>TODO</CantRomanceTargetUnreachable>
+  <CantRomanceTargetUnreachable>无法到达</CantRomanceTargetUnreachable>
   <!-- EN: sleeping -->
-  <CantRomanceTargetSleeping>TODO</CantRomanceTargetSleeping>
+  <CantRomanceTargetSleeping>睡觉</CantRomanceTargetSleeping>
   <!-- EN: incapacitated -->
-  <CantRomanceTargetDowned>TODO</CantRomanceTargetDowned>
+  <CantRomanceTargetDowned>无法行动</CantRomanceTargetDowned>
   <!-- EN: drafted -->
-  <CantRomanceTargetDrafted>TODO</CantRomanceTargetDrafted>
+  <CantRomanceTargetDrafted>被征召</CantRomanceTargetDrafted>
   <!-- EN: mental break -->
-  <CantRomanceTargetMentalState>TODO</CantRomanceTargetMentalState>
+  <CantRomanceTargetMentalState>精神崩溃</CantRomanceTargetMentalState>
   <!-- EN: incestuous -->
-  <CantRomanceTargetIncest>TODO</CantRomanceTargetIncest>
+  <CantRomanceTargetIncest>乱伦</CantRomanceTargetIncest>
   <!-- EN: low opinion -->
-  <CantRomanceTargetOpinion>TODO</CantRomanceTargetOpinion>
+  <CantRomanceTargetOpinion>评价低</CantRomanceTargetOpinion>
   <!-- EN: incompatible orientation -->
-  <CantRomanceTargetSexuality>TODO</CantRomanceTargetSexuality>
+  <CantRomanceTargetSexuality>不相容</CantRomanceTargetSexuality>
   <!-- EN: prisoner -->
-  <CantRomanceTargetPrisoner>TODO</CantRomanceTargetPrisoner>
+  <CantRomanceTargetPrisoner>俘虏</CantRomanceTargetPrisoner>
   <!-- EN: too young -->
-  <CantRomanceTargetYoung>TODO</CantRomanceTargetYoung>
+  <CantRomanceTargetYoung>太年轻</CantRomanceTargetYoung>
   <!-- EN: zero chance -->
-  <CantRomanceTargetZeroChance>TODO</CantRomanceTargetZeroChance>
+  <CantRomanceTargetZeroChance>零机会</CantRomanceTargetZeroChance>
   <!-- EN: {0_labelShort} cannot try to romance because {0_pronoun} is a prisoner. -->
-  <CantRomanceInitiateMessagePrisoner>TODO</CantRomanceInitiateMessagePrisoner>
+  <CantRomanceInitiateMessagePrisoner>{0_labelShort}不能尝试恋爱，因为{0_pronoun}是一个囚犯。</CantRomanceInitiateMessagePrisoner>
   <!-- EN: {0_labelShort} cannot try to romance because {0_pronoun} is a slave. -->
-  <CantRomanceInitiateMessageSlave>TODO</CantRomanceInitiateMessageSlave>
+  <CantRomanceInitiateMessageSlave>{0_labelShort}不能尝试恋爱，因为{0_pronoun}是一个奴隶。</CantRomanceInitiateMessageSlave>
   <!-- EN: {0_labelShort} cannot try to romance because {0_pronoun} has the asexual trait. -->
-  <CantRomanceInitiateMessageAsexual>TODO</CantRomanceInitiateMessageAsexual>
+  <CantRomanceInitiateMessageAsexual>{0_labelShort}不能尝试恋爱，因为{0_pronoun}具有无性恋的特性。</CantRomanceInitiateMessageAsexual>
   <!-- EN: {0_labelShort} cannot try to romance because {0_pronoun} is incapacitated. -->
-  <CantRomanceInitiateMessageDowned>TODO</CantRomanceInitiateMessageDowned>
+  <CantRomanceInitiateMessageDowned>{0_labelShort}不能尝试恋爱，因为{0_pronoun}无法行动。</CantRomanceInitiateMessageDowned>
   <!-- EN: {0_labelShort} cannot try to romance because {0_pronoun} is drafted. -->
-  <CantRomanceInitiateMessageDrafted>TODO</CantRomanceInitiateMessageDrafted>
+  <CantRomanceInitiateMessageDrafted>{0_labelShort}不能尝试恋爱，因为{0_pronoun}正在被征召。</CantRomanceInitiateMessageDrafted>
   <!-- EN: {0_labelShort} cannot try to romance because {0_pronoun} is in an unfit mental state. -->
-  <CantRomanceInitiateMessageMentalState>TODO</CantRomanceInitiateMessageMentalState>
+  <CantRomanceInitiateMessageMentalState>{0_labelShort}不能尝试恋爱，因为{0_pronoun}处于精神不稳定状态。</CantRomanceInitiateMessageMentalState>
   <!-- EN: {0_labelShort} cannot try to romance because {0_pronoun} is unable to speak. -->
-  <CantRomanceInitiateMessageTalk>TODO</CantRomanceInitiateMessageTalk>
+  <CantRomanceInitiateMessageTalk>{0_labelShort}不能尝试恋爱，因为{0_pronoun}不会说话。</CantRomanceInitiateMessageTalk>
   <!-- EN: {0_labelShort} tried romancing recently and must wait {1} until trying again. -->
-  <CantRomanceInitiateMessageCooldown>TODO</CantRomanceInitiateMessageCooldown>
+  <CantRomanceInitiateMessageCooldown>{0_labelShort}最近尝试过恋爱，必须等到{1}再试一次。</CantRomanceInitiateMessageCooldown>
   <!-- EN: {0_labelShort}'s attempt to romance {1_labelShort} was unsuccessful. -->
-  <TryRomanceFailedMessage>TODO</TryRomanceFailedMessage>
+  <TryRomanceFailedMessage>{0_labelShort}尝试过恋爱{1_labelShort}失败了。</TryRomanceFailedMessage>
   <!-- EN: Having {INITIATOR_nameDef} romance {TARGET_nameDef} could sow resentment among existing partners, lead to breakups, and cause altercations. -->
-  <RomanceExistingRelationshipWarning>TODO</RomanceExistingRelationshipWarning>
+  <RomanceExistingRelationshipWarning>拥有{INITIATOR_nameDef}恋爱{TARGET_nameDef}可能在现有的伴侣之间散播怨恨，导致分手，并引起争执。</RomanceExistingRelationshipWarning>
   <!-- EN: Romance chance -->
-  <RomanceChance>TODO</RomanceChance>
+  <RomanceChance>恋爱机会</RomanceChance>
   <!-- EN: already {PAWN_nameDef}'s {RELATION} -->
-  <RomanceChanceExistingRelation>TODO</RomanceChanceExistingRelation>
+  <RomanceChanceExistingRelation>已经{PAWN_nameDef}的{RELATION}</RomanceChanceExistingRelation>
   <!-- EN: Cannot romance -->
-  <RomanceChanceCant>TODO</RomanceChanceCant>
+  <RomanceChanceCant>不能恋爱</RomanceChanceCant>
   <!-- EN: Relative age -->
-  <RomanceChanceAgeFactor>TODO</RomanceChanceAgeFactor>
+  <RomanceChanceAgeFactor>相对年龄</RomanceChanceAgeFactor>
   <!-- EN: Beauty -->
-  <RomanceChanceBeautyFactor>TODO</RomanceChanceBeautyFactor>
+  <RomanceChanceBeautyFactor>美丽</RomanceChanceBeautyFactor>
   <!-- EN: Opinion -->
-  <RomanceChanceOpinionFactor>TODO</RomanceChanceOpinionFactor>
+  <RomanceChanceOpinionFactor>看法</RomanceChanceOpinionFactor>
   <!-- EN: Opinion of partner -->
-  <RomanceChancePartnerFactor>TODO</RomanceChancePartnerFactor>
+  <RomanceChancePartnerFactor>伴侣的看法</RomanceChancePartnerFactor>
   <!-- EN: {0_labelShort} was unable to romance {1_labelShort} -->
-  <RomanceFailedUnexpected>TODO</RomanceFailedUnexpected>
+  <RomanceFailedUnexpected>{0_labelShort} 无法恋爱 {1_labelShort}</RomanceFailedUnexpected>
   <!-- EN: {0_nameDef} is already in a relationship. -->
-  <RomanceWarningMonogamous>TODO</RomanceWarningMonogamous>
+  <RomanceWarningMonogamous>{0_nameDef} 已处于关系中。</RomanceWarningMonogamous>
   <!-- EN: {0_nameDef} already has {1} partners. -->
-  <RomanceWarningPolygamous>TODO</RomanceWarningPolygamous>
+  <RomanceWarningPolygamous>{0_nameDef}已经拥有{1}伴侣。</RomanceWarningPolygamous>
 
   <!-- Guest tab (prisoners) -->
   <!-- EN: Multiplier for genes -->
-  <FactorForGenes>TODO</FactorForGenes>
+  <FactorForGenes>基因的乘数</FactorForGenes>
   <!-- EN: Prison breaking is disabled by {GENE_label} gene. -->
-  <PrisonBreakingDisabledDueToGene>TODO</PrisonBreakingDisabledDueToGene>
+  <PrisonBreakingDisabledDueToGene>越狱被{GENE_label}基因禁用。</PrisonBreakingDisabledDueToGene>
 
 </LanguageData>
