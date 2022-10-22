@@ -3,188 +3,188 @@
 
   <!-- Mechanitor -->
   <!-- EN: Mech(s) gone feral -->
-  <LetterLabelMechsFeral>TODO</LetterLabelMechsFeral>
+  <LetterLabelMechsFeral>机械体离线</LetterLabelMechsFeral>
   <!-- EN: Some mech(s) which were wandering without an overseer have linked with ancient planet-wide mech control signals. They have joined {0} and become hostile, and appear to be trying to fight their way off the map.\n\nFeral mechanoids cannot be resurrected at a gestator when killed.\n\nThese mechs are involved:\n\n{1} -->
-  <LetterMechsFeral>TODO</LetterMechsFeral>
+  <LetterMechsFeral>一些没有监管者的机械体已经脱离掌控并与古老的星球范围内的机械人控制信号取得联系。他们已经加入了{0}，并变得充满敌意，似乎正试图由此开始开辟自己的道路。\n\n离线的机械体被杀死之后无法在培育器内重生。\n\n涉及到这些机械体：\n\n{1}</LetterMechsFeral>
   <!-- EN: Mechlink installed -->
-  <LetterLabelMechlinkInstalled>TODO</LetterLabelMechlinkInstalled>
+  <LetterLabelMechlinkInstalled>已安装机控中枢</LetterLabelMechlinkInstalled>
   <!-- EN: {PAWN_labelShort} has installed a mechlink! {PAWN_pronoun} is now a mechanitor and can create and control mechanoids.\n\nResearch basic mechtech to get started.\n\n(*SectionTitle)Creating mechs:(/SectionTitle) Your mechanitor can create mechs at a production building called a mech gestator.\n\n(*SectionTitle)About bandwidth:(/SectionTitle) Mechanitors can control as many mechs as their total bandwidth allows. Select {PAWN_labelShort} and look at {PAWN_possessive} 'Bandwidth' readout to see how much bandwidth {PAWN_pronoun} is currently using and how much {PAWN_pronoun} has available. Bandwidth can be increased with certain apparel and by building band node buildings.\n\n(*SectionTitle)About control groups:(/SectionTitle) Mechanitors control mechs in groups. Each control group can be set to one of these modes:\n\n- Work\n- Escort\n- Recharge\n- Dormant self-charge\n\nTo learn more about what each mode does, select the work mode icon on one of {PAWN_labelShort}'s control groups and hover over the different work orders. The maximum number of control groups can be increased with apparel and implants.\n\n(*SectionTitle)About threat calling:(/SectionTitle) Mechanitors can signal ancient leader mechs to attack in order to obtain rare items from them. You must do this to improve your mechanitor past certain limits, but beware the danger. -->
-  <LetterMechlinkInstalled>TODO</LetterMechlinkInstalled>
+  <LetterMechlinkInstalled>{PAWN_labelShort}已经安装了机控中枢！{PAWN_pronoun}现在是一位机械师，可以制造和控制机械体。\n\n研究基础机械工程以开启机械师之路。\n\n(*SectionTitle)制造机械体：(/SectionTitle)你的机械师可以在名为机械培育器的生产建筑中制造机械体。\n\n(*SectionTitle)关于带宽：(/SectionTitle)机械师可以在其总带宽允许范围内控制尽可能多的机械体。选中{PAWN_labelShort}并查看{PAWN_possessive}“带宽”指示器以了解{PAWN_pronoun}当前已用带宽和剩余带宽。带宽可以通过某些服装和基站建筑来增加。\n\n(*SectionTitle)关于控制组：(/SectionTitle)机械师以组为单位控制机械体，每个控制组都可以被设置为这些模式之一：\n\n-工作\n-护卫\n-充电\n-自充电休眠\n\n要了解每种模式的作用，请选择{PAWN_labelShort}的一个控制组上的工作模式图标，并在不同的工作指令上徘徊。控制组的最大数量可以通过服装和植入物来增加。\n\n(*SectionTitle)关于威胁召唤：(/SectionTitle)机械师可以向古代领袖机械体发出攻击信号，以便从他们那里获得稀有物品。为了让你的机械师突破某些限制，你必须这样做，但要注意危险。</LetterMechlinkInstalled>
 
   <!-- EN: This happened because of -->
-  <MentalStateReason_Gene>TODO</MentalStateReason_Gene>
+  <MentalStateReason_Gene>这是因为基因</MentalStateReason_Gene>
 
   <!-- EN: {0} summoned -->
-  <LetterLabelBossgroupSummoned>TODO</LetterLabelBossgroupSummoned>
+  <LetterLabelBossgroupSummoned>已召唤{0}</LetterLabelBossgroupSummoned>
   <!-- EN: Attracted by your mech-band signals, an ultra-heavy mech from {0} will arrive soon. Be prepared. -->
-  <LetterBossgroupSummoned>TODO</LetterBossgroupSummoned>
+  <LetterBossgroupSummoned>被你的机械波段信号所吸引，来自{0}的超重型机械将很快抵达，请做好准备。</LetterBossgroupSummoned>
 
   <!-- EN: {0} arrived -->
-  <LetterLabelBossgroupArrived>TODO</LetterLabelBossgroupArrived>
+  <LetterLabelBossgroupArrived>{0}已抵达</LetterLabelBossgroupArrived>
   <!-- EN: An ultra-heavy mech from {0} has come to eradicate you, along with escorts.\n\n{1}\n\nThe assault group is composed of the following {3}:\n\n{4}\n\nThey will prepare for a while before attacking. -->
-  <LetterBossgroupArrived>TODO</LetterBossgroupArrived>
+  <LetterBossgroupArrived>来自{0}的超重型机械体及其护卫队前来铲除你。\n\n{1}\n\n突击队构成如下{3}：\n\n{4}\n\n他们在进攻前会准备一段时间。</LetterBossgroupArrived>
 
   <!-- EN: Summon {LEADER_label} available -->
-  <LetterLabelCommsConsoleSpawned>TODO</LetterLabelCommsConsoleSpawned>
+  <LetterLabelCommsConsoleSpawned>召唤{LEADER_label}可用</LetterLabelCommsConsoleSpawned>
   <!-- EN: A mechanitor can use the {PARENT_label} to summon a {LEADER_label} mechanoid. If you defeat the {LEADER_label}, it will drop the following items:\n\n{REWARDSLIST} -->
-  <LetterCommsConsoleSpawned>TODO</LetterCommsConsoleSpawned>
+  <LetterCommsConsoleSpawned>机械师可以使用{PARENT_label}来召唤{LEADER_label}。如果你击败了{LEADER_label}，它将会掉落以下物品：\n\n{REWARDSLIST}</LetterCommsConsoleSpawned>
 
   <!-- EN: Summon {LEADER_label} possible -->
-  <LetterLabelBossgroupCallerUnlocked>TODO</LetterLabelBossgroupCallerUnlocked>
+  <LetterLabelBossgroupCallerUnlocked>可以召唤{LEADER_label}</LetterLabelBossgroupCallerUnlocked>
   <!-- EN: You can now build a {PARENT_label} which a mechanitor can use to summon a {LEADER_label}. If you defeat the {LEADER_label}, it will drop the following items:\n\n{REWARDSLIST} -->
-  <LetterBossgroupCallerUnlocked>TODO</LetterBossgroupCallerUnlocked>
+  <LetterBossgroupCallerUnlocked>你现在可以建造一个{PARENT_label}让机械师可以用它来召唤{LEADER_label}。如果你击败了{LLEADER_label}，它将会掉落以下物品：\n\n{REWARDSLIST}</LetterBossgroupCallerUnlocked>
 
   <!-- EN: {0_nameDef}'s mechlink available -->
-  <LetterLabelMechanitorCasketOpened>TODO</LetterLabelMechanitorCasketOpened>
+  <LetterLabelMechanitorCasketOpened>{0_nameDef}的机控中枢可用</LetterLabelMechanitorCasketOpened>
   <!-- EN: You have found the corpse of an ancient mechanitor!\n\nExtract {0_possessive} mechlink by selecting a colonist and right-clicking the corpse. -->
-  <LetterMechanitorCasketOpened>TODO</LetterMechanitorCasketOpened>
+  <LetterMechanitorCasketOpened>你发现了一具古代机械师的尸体！\n\n通过选择一个殖民者并右键点击尸体来提取{0_possessive}机控中枢。</LetterMechanitorCasketOpened>
   <!-- EN: Mechanitor casket found -->
-  <LetterLabelMechanitorCasketFound>TODO</LetterLabelMechanitorCasketFound>
+  <LetterLabelMechanitorCasketFound>发现机械师休眠舱</LetterLabelMechanitorCasketFound>
   <!-- EN: You have discovered a mechanitor's cryptosleep casket!\n\nOpen it to find them inside. -->
-  <LetterMechanitorCasketFound>TODO</LetterMechanitorCasketFound>
+  <LetterMechanitorCasketFound>你发现了一个机械师的低温休眠舱！\n\n打开它。</LetterMechanitorCasketFound>
   
 
   <!-- Children -->
   <!-- EN: {0_nameDef} became a child -->
-  <LetterLabelBecameChild>TODO</LetterLabelBecameChild>
+  <LetterLabelBecameChild>{0_nameDef}成为小孩</LetterLabelBecameChild>
   <!-- EN: {0_nameDef} became an adult -->
-  <LetterLabelBecameAdult>TODO</LetterLabelBecameAdult>
+  <LetterLabelBecameAdult>{0_nameDef}成为大人</LetterLabelBecameAdult>
   <!-- EN: Baby {0_nameDef} has grown up and become a child! {0_pronoun} is now old enough to do the following work: -->
-  <LetterBecameChild>TODO</LetterBecameChild>
+  <LetterBecameChild>婴儿{0_nameDef}长大了，变成了一个孩子！{0_pronoun}的年龄现在足以执行以下工作：</LetterBecameChild>
   <!-- EN: Children can do various types of work. As they get older, they become able to do more work types.\n\nThey also do various child-specific recreational activities.\n\nChildren need to wear special child-sized apparel. -->
-  <LetterBecameChildChanges>TODO</LetterBecameChildChanges>
+  <LetterBecameChildChanges>孩子可以做各种类型的工作。随着年龄的增长，他们能够做更多的工作类型。\n\n他们还能做各种针对儿童的娱乐活动。\n\n小孩需要穿特殊的儿童尺寸服装。</LetterBecameChildChanges>
   <!-- EN: By tradition {0_nameDef}, {0_parentage}, is a {0_legalStatus}, but exceptions can be made....  Should {0_nameDef} remain a {0_legalStatus}? -->
-  <LetterChildLegalStatus>TODO</LetterChildLegalStatus>
+  <LetterChildLegalStatus>根据传统{0_nameDef},{0_parentage}是{0_legalStatus}但是可以有例外....{0_nameDef}是否仍然是{0_legalStatus}?</LetterChildLegalStatus>
   <!-- EN: {0_labelShort} has decided to become a follower of the ideoligion {1_name}. -->
-  <LetterChildFollowIdeo>TODO</LetterChildFollowIdeo>
+  <LetterChildFollowIdeo>{0_labelShort}决定成为文化{1_name}的追随者。</LetterChildFollowIdeo>
   <!-- EN: {0_nameDef}'s slave status has already changed since {0_possessive} birthday. -->
-  <CannotChangeChildStatusReason>TODO</CannotChangeChildStatusReason>
+  <CannotChangeChildStatusReason>{0_nameDef}的奴隶身份自{0_possessive}生日以来已经发生了变化。</CannotChangeChildStatusReason>
   <!-- EN: enslave -->
-  <Enslave>TODO</Enslave>
+  <Enslave>奴役</Enslave>
   <!-- EN: emancipate -->
-  <Emancipate>TODO</Emancipate>
+  <Emancipate>解放</Emancipate>
   <!-- EN: remain {0} -->
-  <RemainX>TODO</RemainX>
+  <RemainX>保持{0}</RemainX>
   <!-- EN: {BABY_nameDef} adopted -->
-  <LetterLabelAdopted>TODO</LetterLabelAdopted>
+  <LetterLabelAdopted>已收养{BABY_nameDef}</LetterLabelAdopted>
   <!-- EN: {BABY_nameDef}, a baby, has been adopted by your colony. You may want to assign colonists to the 'childcare' work type to take care of {BABY_objective}. -->
-  <LetterTextAdopted>TODO</LetterTextAdopted>
+  <LetterTextAdopted>{BABY_nameDef}，一个婴儿，被你的殖民地收养了。你可能要把殖民者分配到“托儿”的工作类型来照顾{BABY_objective}。</LetterTextAdopted>
 
   <!-- EN: {0_nameDef}'s baby prep -->
-  <LetterLabelThirdTrimester>TODO</LetterLabelThirdTrimester>
+  <LetterLabelThirdTrimester>为{0_nameDef}的孩子做准备</LetterLabelThirdTrimester>
   <!-- EN: {0_nameDef} is due to give birth in less than 6 days. You can prepare for the baby:\n\n- Build a birth room with a clean floor and good bed.\n- Get a skilled doctor ready.\n- In the work tab, assign at least one person to childcare\n- Prepare a food source for the baby. {0_nameDef} can breastfeed the baby, or you can feed them baby food, milk, or insect jelly.\n- Build a crib. High quality cribs will make a baby happy.\n\nYou can make baby food at a stove or campfire. -->
-  <LetterTextThirdTrimester>TODO</LetterTextThirdTrimester>
+  <LetterTextThirdTrimester>{0_nameDef}将在6天内生产。你可以为孩子做准备：\n\n- 建造一个有干净地板和优质床铺的产房。\n- 找一个技能熟练的医生。\n- 在“工作”选项卡中，分配至少一个人负责照顾孩子的工作\n- 为宝宝准备食物来源。{0_nameDef}可以母乳喂养婴儿，也可以喂他们婴儿食品，牛奶或是虫胶。\n- 建造一张婴儿床。高品质的婴儿床会让宝宝开心。\n\n您可以在炉灶或篝火处制作婴儿食品。</LetterTextThirdTrimester>
 
   <!-- EN: {0} vat birth -->
-  <LetterVatBirth>TODO</LetterVatBirth>
+  <LetterVatBirth>{0}培育舱出生</LetterVatBirth>
   <!-- EN: The embryo of {0_nameDef} and {1_nameDef} has finished gestating in a growth vat and has become a healthy baby! -->
-  <LetterVatHealthyBaby>TODO</LetterVatHealthyBaby>
+  <LetterVatHealthyBaby>{0_nameDef}和{1_nameDef}的胚胎已经在培育舱中完成妊娠，成为一个健康的婴儿!</LetterVatHealthyBaby>
   <!-- EN: An embryo has finished gestating in a growth vat and become a healthy baby! -->
-  <LetterVatHealthyBabyNoParents>TODO</LetterVatHealthyBabyNoParents>
+  <LetterVatHealthyBabyNoParents>一个胚胎已经在培育舱中完成妊娠，成为一个健康的婴儿!</LetterVatHealthyBabyNoParents>
   <!-- EN: The embryo of {0_nameDef} and {1_nameDef} has finished gestating in a growth vat and has become a baby. Unfortunately, the baby is sick. -->
-  <LetterVatInfantIllness>TODO</LetterVatInfantIllness>
+  <LetterVatInfantIllness>{0_nameDef}和{1_nameDef}的胚胎已在培育舱中完成妊娠，成为婴儿。不幸的是，婴儿得病了。</LetterVatInfantIllness>
   <!-- EN: An embryo has finished gestating in a growth vat and has become a baby. Unfortunately, the baby is sick. -->
-  <LetterVatInfantIllnessNoParents>TODO</LetterVatInfantIllnessNoParents>
+  <LetterVatInfantIllnessNoParents>胚胎已在培育舱中完成妊娠，成为婴儿。不幸的是，婴儿得病了。</LetterVatInfantIllnessNoParents>
   <!-- EN: The baby formed in a growth vat from the embryo of {0_nameDef} and {1_nameDef} was stillborn. -->
-  <LetterVatStillborn>TODO</LetterVatStillborn>
+  <LetterVatStillborn>{0_nameDef}和{1_nameDef}的胚胎在培育舱中形成的婴儿是死胎。</LetterVatStillborn>
   <!-- EN: The baby formed in a growth vat was stillborn. -->
-  <LetterVatSillbornNoParents>TODO</LetterVatSillbornNoParents>
+  <LetterVatSillbornNoParents>在培育舱中形成的婴儿是死胎。</LetterVatSillbornNoParents>
   <!-- EN: {0_labelShort} in labor! -->
-  <LetterColonistPregnancyLaborLabel>TODO</LetterColonistPregnancyLaborLabel>
+  <LetterColonistPregnancyLaborLabel>{0_labelShort}正在分娩中！</LetterColonistPregnancyLaborLabel>
   <!-- EN: {0_labelShort} is about to give birth! She's going to have contractions for a few hours before delivering a baby. The labor may go through several stages of different levels of difficulty and danger.\n\nTo improve the baby's chances, gather a doctor and others to help with the birth. Select {0_labelShort} and press 'Gather for birth' to start the procedure. -->
-  <LetterColonistPregnancyLabor>TODO</LetterColonistPregnancyLabor>
+  <LetterColonistPregnancyLabor>{0_labelShort}快要生孩子了！在生孩子之前，她会宫缩数个小时。分娩可能会经历不同程度的困难和多个危险的阶段。\n\n为了提高孩子的存活率，需要一个医生和其他人来帮助生产。选择{0_labelShort}并按下“协助分娩”的启动程序。</LetterColonistPregnancyLabor>
   <!-- EN: {0_labelShort} has died due to complications after giving birth. -->
-  <LetterPartColonistDiedAfterChildbirth>TODO</LetterPartColonistDiedAfterChildbirth>
+  <LetterPartColonistDiedAfterChildbirth>{0_labelShort}分娩后因并发症死亡。</LetterPartColonistDiedAfterChildbirth>
   <!-- EN: The baby was created from in vitro fertilization and has the genetic makeup of {0_labelShort} and {1_labelShort}. -->
-  <LetterPartSurrogacy>TODO</LetterPartSurrogacy>
+  <LetterPartSurrogacy>这个婴儿是通过体外受精产生的，具有{0_labelShort}和{1_labelShort}的基因组成。</LetterPartSurrogacy>
   <!-- EN: The baby shows signs of genetic abnormalities due to inbreeding. -->
-  <InbredBabyBorn>TODO</InbredBabyBorn>
+  <InbredBabyBorn>由于近亲繁殖，这个婴儿有基因缺陷的迹象。</InbredBabyBorn>
 
   <!-- EN: {0_nameDef} has already been named. -->
-  <BabyAlreadyNamed>TODO</BabyAlreadyNamed>
+  <BabyAlreadyNamed>{0_nameDef} 已被命名。</BabyAlreadyNamed>
   <!-- EN: name baby -->
-  <NameBaby>TODO</NameBaby>
+  <NameBaby>婴儿名字</NameBaby>
   <!-- EN: immediately -->
-  <Immediately>TODO</Immediately>
+  <Immediately>立即</Immediately>
   <!-- EN: within -->
-  <Within>TODO</Within>
+  <Within>以内</Within>
   <!-- EN: The baby has been given the temporary name {0_nameFull}. You can change it until {1} after birth. -->
-  <LetterPartNameBaby>TODO</LetterPartNameBaby>
+  <LetterPartNameBaby>婴儿被赋予了临时的名字{0_nameFull}。出生后可以更改为{1}。</LetterPartNameBaby>
   <!-- EN: The baby was given the temporary name {0_nameFull}. You can change it as long as the baby is less than {1} old. -->
-  <LetterPartNameBabyAdopt>TODO</LetterPartNameBabyAdopt> 
+  <LetterPartNameBabyAdopt>婴儿被赋予了临时名字为{0_nameFull}。只要孩子在11岁前，你都可以更改。</LetterPartNameBabyAdopt> 
 
   <!-- EN: Growth moment for {PAWNNAME} -->
-  <BirthdayGrowthMoment>TODO</BirthdayGrowthMoment>
+  <BirthdayGrowthMoment>{PAWNNAME}的成长阶段</BirthdayGrowthMoment>
   <!-- EN: {0_nameFull} has reached the biological age of {1} and has experienced a growth moment! -->
-  <BirthdayBiologicalGrowthMoment>TODO</BirthdayBiologicalGrowthMoment>
+  <BirthdayBiologicalGrowthMoment>{0_nameFull}已达到{1}的生物年龄，经历了一个成长阶段!</BirthdayBiologicalGrowthMoment>
   <!-- EN: {0_nameDef} is now old enough to do the following work -->
-  <BirthdayBiologicalAgeWorkTypes>TODO</BirthdayBiologicalAgeWorkTypes>
+  <BirthdayBiologicalAgeWorkTypes>{0_nameDef}现在年纪已经足够大，可以执行以下工作了</BirthdayBiologicalAgeWorkTypes>
   <!-- EN: Choose 1 skill for {0_nameDef} to increase {0_possessive} passion for -->
-  <BirthdayPickPassion>TODO</BirthdayPickPassion>
+  <BirthdayPickPassion>为{0_nameDef}选择一项技能，以增加{0_possessive}的兴趣</BirthdayPickPassion>
   <!-- EN: Choose {1} skills for {0_nameDef} to increase {0_possessive} passion for -->
-  <BirthdayPickPassions>TODO</BirthdayPickPassions>
+  <BirthdayPickPassions>为{0_nameDef}选择{1}技能，以增加 {0_possessive}的兴趣</BirthdayPickPassions>
   <!-- EN: Choose a trait for {0_nameDef} to gain -->
-  <BirthdayPickTrait>TODO</BirthdayPickTrait>
+  <BirthdayPickTrait>选择{0_nameDef}要获得的特性</BirthdayPickTrait>
   <!-- EN: When this growth moment happened, {0_nameDef} was at growth tier {1}. Children at higher growth tiers get more trait and passion options to choose from, and more passions overall. Satisfying the learning need helps the child gain growth tiers faster. Growth tiers are reset after each growth moment. -->
-  <BirthdayGrowthTier>TODO</BirthdayGrowthTier>
+  <BirthdayGrowthTier>当这个成长阶段发生时，{0_nameDef}处于成长评级{1}。处于较高成长阶段的孩子有更多的特性和兴趣选择，总体上也有更多的兴趣。满足学习需求可以帮助孩子更快地成长。成长评级在每个成长阶段后重置。</BirthdayGrowthTier>
   <!-- EN: Open this letter to choose how {0_nameDef} will grow. -->
-  <BirthdayChooseHowPawnWillGrow>TODO</BirthdayChooseHowPawnWillGrow>
+  <BirthdayChooseHowPawnWillGrow>打开这个消息，选择{0_nameDef}将如何成长。</BirthdayChooseHowPawnWillGrow>
 
   <!-- EN: Passion was increased for {0}. -->
-  <BirthdayPassionArchive>TODO</BirthdayPassionArchive>
+  <BirthdayPassionArchive>对{0}的兴趣增加了。</BirthdayPassionArchive>
   <!-- EN: The trait {0} was gained. -->
-  <BirthdayTraitArchive>TODO</BirthdayTraitArchive>
+  <BirthdayTraitArchive>获得了{0}特性。</BirthdayTraitArchive>
   
   <!-- EN: Make choices to close -->
-  <BirthdayMakeChoices>TODO</BirthdayMakeChoices>
+  <BirthdayMakeChoices>选择关闭</BirthdayMakeChoices>
   <!-- EN: {0} has gained the nickname {1}. -->
-  <BirthdayNickname>TODO</BirthdayNickname>
+  <BirthdayNickname>{0}获得了昵称{1}。</BirthdayNickname>
   <!-- EN: Select a trait. -->
-  <SelectATrait>TODO</SelectATrait>
+  <SelectATrait>选择一个特性。</SelectATrait>
   <!-- EN: Select a passion. -->
-  <SelectPassionSingular>TODO</SelectPassionSingular>
+  <SelectPassionSingular>选择一个兴趣。</SelectPassionSingular>
   <!-- EN: Select {0} passions. -->
-  <SelectPassionsPlural>TODO</SelectPassionsPlural>
+  <SelectPassionsPlural>选择{0}兴趣。</SelectPassionsPlural>
   <!-- EN: Later -->
-  <Later>TODO</Later>
+  <Later>延后</Later>
   
   <!-- EN: Mechlink available -->
-  <LetterLabelMechlinkAvailable>TODO</LetterLabelMechlinkAvailable>
+  <LetterLabelMechlinkAvailable>机控中枢可用</LetterLabelMechlinkAvailable>
   <!-- EN: An opportunity to acquire the unique mechlink implant has become available via the quest '{0}'.\n\nInstalling a mechlink will turn a colonist into a mechanitor. Mechanitors can create, control, and manipulate mechanoids for use in work and in combat. -->
-  <LetterMechlinkAvailable>TODO</LetterMechlinkAvailable>
+  <LetterMechlinkAvailable>通过任务"{0}"，我们有机会获得独特的机控中枢植入物。\n\n安装机控中枢将使殖民者变成机械师。机械师可以制造、控制和操纵机械人，用于工作和战斗。</LetterMechlinkAvailable>
 
   <!-- Genes -->
   <!-- EN: Xenogerm implantation ordered -->
-  <LetterLabelXenogermOrderedImplanted>TODO</LetterLabelXenogermOrderedImplanted>
+  <LetterLabelXenogermOrderedImplanted>已指派安装异种胚芽</LetterLabelXenogermOrderedImplanted>
   <!-- EN: You have ordered a xenogerm be implanted in {PAWN_nameDef}. This procedure requires a medical bed and {MEDICINENEEDED} medicine.{BEDINFO}{MEDICINEINFO}\n\nYou can cancel this procedure by going to {PAWN_nameDef}'s health -> operations tab. -->
-  <LetterXenogermOrderedImplanted>TODO</LetterXenogermOrderedImplanted>
+  <LetterXenogermOrderedImplanted>已下令在{PAWN_nameDef}植入一个异种胚芽。这个手术需要一张医疗床和{MEDICINENEED}。{BEDINFO}{MEDICINEINFO}\n\n你可以通过进入{PAWN_nameDef}的健康-手术标签取消这个手术。</LetterXenogermOrderedImplanted>
   <!-- EN: \n\nYou do not have any medical beds available for {PAWN_nameDef}. Consider marking a bed as medical. -->
-  <XenogermOrderedImplantedBedNeeded>TODO</XenogermOrderedImplantedBedNeeded>
+  <XenogermOrderedImplantedBedNeeded>\n\n你没有任何可用于{PAWN_nameDef}的医疗床。考虑将一张床标记为医疗床。</XenogermOrderedImplantedBedNeeded>
   <!-- EN: \n\nYou do not have enough medicine to implant the xenogerm. Implanting cannot begin until you get {MEDICINENEEDED} medicine. -->
-  <XenogermOrderedImplantedMedicineNeeded>TODO</XenogermOrderedImplantedMedicineNeeded>
+  <XenogermOrderedImplantedMedicineNeeded>\n\n你没有足够的药物来植入异种胚胎。在你得到{MEDICINENEEDED}之前，不能开始植入。</XenogermOrderedImplantedMedicineNeeded>
   <!-- EN: Involuntary deathrest -->
-  <LetterLabelInvoluntaryDeathrest>TODO</LetterLabelInvoluntaryDeathrest>
+  <LetterLabelInvoluntaryDeathrest>非自愿的死眠</LetterLabelInvoluntaryDeathrest>
   <!-- EN: {PAWN_nameDef} has fallen into deathrest. -->
-  <LetterTextInvoluntaryDeathrest>TODO</LetterTextInvoluntaryDeathrest>
+  <LetterTextInvoluntaryDeathrest>{PAWN_nameDef}陷入死眠</LetterTextInvoluntaryDeathrest>
   <!-- EN: Lethal damage taken. -->
-  <DeathrestLethalDamage>TODO</DeathrestLethalDamage>
+  <DeathrestLethalDamage>受到致命伤害。</DeathrestLethalDamage>
 
   <!-- EN: Xenogerm implantation -->
-  <LetterLabelSanguophageWaitingToReimplant>TODO</LetterLabelSanguophageWaitingToReimplant>
+  <LetterLabelSanguophageWaitingToReimplant>异种胚芽植入</LetterLabelSanguophageWaitingToReimplant>
   <!-- EN: As thanks for allowing {PAWN_objective} and {PAWN_possessive} fellow sanguophages meet here, {PAWN_nameDef} is willing to share a copy of {PAWN_possessive} xenogerm with one of your colonists. This will turn your colonist into a sanguophage.\n\nTo accept, select a colonist and right click on {PAWN_nameDef}.\n\nIf no colonists have claimed the reward in {DURATION}, the sanguophages will leave. -->
-  <LetterTextSanguophageWaitingToReimplant>TODO</LetterTextSanguophageWaitingToReimplant>
+  <LetterTextSanguophageWaitingToReimplant>为了感谢你让{PAWN_objective}和{PAWN_possessive}血族同伴在这里相遇，{PAWN_nameDef}愿意与你的一个殖民者分享一份{PAWN_possessive}异种胚芽。这将使你的殖民者变成一个血族。\n\n要接受的话，选择一个殖民者并右击{PAWN_nameDef}。\n\n如果在{DURATION}中没有殖民者领取奖励，血族将离开。</LetterTextSanguophageWaitingToReimplant>
 
   <!-- EN: Genes reimplanted -->
-  <LetterLabelGenesImplanted>TODO</LetterLabelGenesImplanted>
+  <LetterLabelGenesImplanted>基因再植</LetterLabelGenesImplanted>
   <!-- EN: {CASTER_nameDef} has implanted a copy of {CASTER_possessive} xenogerm into {TARGET_nameDef}, passing all xenogenes onto {TARGET_objective}.\n\n{TARGET_nameDef} will be in a xenogermination coma for the next {COMADURATION} while {TARGET_possessive} body adjusts to the changes.\n\n{CASTER_nameDef} will suffer from gene loss shock for the next {SHOCKDURATION}. {CASTER_possessive} genes will also need to regrow. This process takes time. If {CASTER_nameDef} implants {CASTER_possessive} xenogerm again before {CASTER_possessive} genes have regrown, {CASTER_pronoun} will die. -->
-  <LetterTextGenesImplanted>TODO</LetterTextGenesImplanted>
+  <LetterTextGenesImplanted>{CASTER_nameDef}已将{CASTER_possessive}异种胚芽副本植入{TARGET_nameDef}，将所有异种基因传递给{TARGET_objective}。\n\n{TARGET_nameDef}将在接下来的{COMADURATION}中处于异种适应昏迷状态，同时{TARGET_possessive}身体会适应这些变化。\n\n{CASTER_nameDef}将在接下来的{SHOCKDURATION}中遭受基因丢失的冲击。{CASTER_possessive}基因也将需要重构。这个过程需要时间，如果{CASTER_nameDef}在{CASTER_possessive}基因重构之前再次植入{CASTER_possessive}异种，{CASTER_pronoun}将死亡。</LetterTextGenesImplanted>
   
   <!-- EN: A baby named {PAWN_nameDef} from {PAWN_factionName} is crashing in a transport pod nearby.\n\nYou may choose to adopt {PAWN_objective} with the 'adopt' command or ignore {PAWN_objective}. -->
-  <RefugeePodCrashBaby>TODO</RefugeePodCrashBaby>
+  <RefugeePodCrashBaby>一个来自{PAWN_factionName}的名叫{PAWN_nameDef}的婴儿正在附近的运输舱里坠落。\n\n你可以选择用'收养'命令收养{PAWN_objective}，或者忽略{PAWN_objective}。</RefugeePodCrashBaby>
   <!-- EN: The body of {PAWN_nameDef}'s deceased parent is contained within the transport pod as well. -->
-  <RefugeePodCrashBabyHasParent>TODO</RefugeePodCrashBabyHasParent>
+  <RefugeePodCrashBabyHasParent>{PAWN_nameDef}已故父辈的身体也在运输舱内。</RefugeePodCrashBabyHasParent>
 
   <!-- EN: Instinctively seeking a mate, {BONDPAWN_nameDef} has formed a psychically-bonded romantic relationship with {OTHERPAWN_nameDef}. {OTHERPAWN_nameDef} will benefit psychologically from the connection to {BONDPAWN_nameDef}, but if they are separated onto different world tiles, both will suffer from psychic stress. If one dies, the other will be driven to madness. -->
-  <LetterPsychicBondCreated>TODO</LetterPsychicBondCreated>
+  <LetterPsychicBondCreated>出于寻求伴侣的本能，{BONDPAWN_nameDef}已经与{OTHERPAWN_nameDef}形成了一种精神上的结合的浪漫关系。{OTHERPAWN_nameDef}将从与{BONDPAWN_nameDef}的联系中获得心理上的好处，但如果他们被分离到不同的区域，两人都将遭受心理上的压力。如果一个人死了，另一个人就会被逼得发狂。</LetterPsychicBondCreated>
 
 </LanguageData>

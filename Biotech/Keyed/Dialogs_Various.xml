@@ -276,72 +276,72 @@
   <PawnIsDead>{PAWN_nameDef}已经死亡。</PawnIsDead>
 
   <!-- EN: Placing {PAWN_nameDef} into cryptosleep will strain {PAWN_possessive} psychic bond with {BOND_nameDef}, causing stress to both partners.\n\nAre you sure you want to continue? -->
-  <PsychicBondDistanceWillBeActive_Cryptosleep>TODO</PsychicBondDistanceWillBeActive_Cryptosleep>
+  <PsychicBondDistanceWillBeActive_Cryptosleep>将{PAWN_nameDef}置入低温休眠将会对其与{BOND_nameDef}的心灵共鸣带来负担，这会对双方造成一定压力。\n\n你确定想要继续吗？</PsychicBondDistanceWillBeActive_Cryptosleep>
   <!-- EN: Someone in this caravan is psychically bonded by their partner is not coming with them. These people will be stressed if separated from their bond-partners -->
-  <PsychicBondDistanceWillBeActive_Caravan>TODO</PsychicBondDistanceWillBeActive_Caravan>
+  <PsychicBondDistanceWillBeActive_Caravan>远行队中的某人正与未入队的其他人维系心灵共鸣。他们会因为心灵共鸣被分隔而产生压力。</PsychicBondDistanceWillBeActive_Caravan>
   <!-- EN: partner {0_nameFull} -->
-  <Partner>TODO</Partner>
+  <Partner>共鸣{0_nameFull}</Partner>
 
 
   <!-- EN: Choose mech accent color -->
-  <ChooseMechAccentColor>TODO</ChooseMechAccentColor>
+  <ChooseMechAccentColor>选择机械体突出颜色</ChooseMechAccentColor>
 
   <!-- Faction specific comms overrides -->
   <!-- EN: {0} squeals a string of curses into the microphone and disconnects. -->
-  <PigFactionGreetingHostile>TODO</PigFactionGreetingHostile>
+  <PigFactionGreetingHostile>{0}对着话筒吱吱喳喳地骂了一串，然后断开了连接。</PigFactionGreetingHostile>
   <!-- EN: Oinking angrily, {0} demands that you make a gesture of unity, like bringing gifts to one of {0_possessive} settlements or releasing {0_possessive} faction's prisoners unharmed. Until then, {0_pronoun} is unwilling to talk.\n\nSnorting an insult, {0_pronoun} disconnects. -->
-  <PigFactionGreetingHostileAppreciative>TODO</PigFactionGreetingHostileAppreciative>
+  <PigFactionGreetingHostileAppreciative>{0}愤怒地眨着眼睛要求你拿出诚意，比如给{0_possessive}的一个定居点带去礼物，或者毫发无伤地释放{0_possessive}派系的囚犯。在那之前，{0_pronoun}不愿意细谈。\n\n随着嗤之以鼻的侮辱，{0_pronoun}断开了连接。</PigFactionGreetingHostileAppreciative>
   <!-- EN: {0} oinks a greeting and asks what business you need done. -->
-  <PigFactionGreetingWary>TODO</PigFactionGreetingWary>
+  <PigFactionGreetingWary>{0}哼唧地问候，并询问你需要做什么生意。</PigFactionGreetingWary>
   <!-- EN: Oinking enthusiastically, {0} greets {NEGOTIATOR_labelShort} and asks what {LEADER_pronoun} can do to help you. -->
-  <PigFactionGreetingWarm>TODO</PigFactionGreetingWarm>
+  <PigFactionGreetingWarm>哼哧，{0}向{NEGOTIATOR_labelShort}问好，并询问{LEADER_pronoun}能做些什么来帮助你。</PigFactionGreetingWarm>
   <!-- EN: {0} agrees to send pigskin fighters to help you. -->
-  <PigMilitaryAidSent>TODO</PigMilitaryAidSent>
+  <PigMilitaryAidSent>{0}同意派猪皮战士来帮助你。</PigMilitaryAidSent>
 
   <!-- EN: {0} roars into the microphone and disconnects. -->
-  <YttakinFactionGreetingHostile>TODO</YttakinFactionGreetingHostile>
+  <YttakinFactionGreetingHostile>{0}对着话筒怒吼，然后断开连接。</YttakinFactionGreetingHostile>
   <!-- EN: Growling under {0_possessive} breath, {0} demands that you make a gesture of friendship, like bringing gifts to one of {0_possessive} settlements or releasing {0_possessive} faction's prisoners unharmed. Until then, {0_pronoun} is unwilling to talk.\n\nSnarling an insult, {0_pronoun} disconnects. -->
-  <YttakinFactionGreetingHostileAppreciative>TODO</YttakinFactionGreetingHostileAppreciative>
+  <YttakinFactionGreetingHostileAppreciative>{0_possessive}的呼吸像是在咆哮，{0}要求你拿出诚意，比如给{0_possessive}的一个定居点带去礼物，或者不受伤害地释放{0_possessive}派系的囚犯。在那之前，{0_pronoun}不愿意交谈。\n\n随着咆哮着侮辱，{0_pronoun}断开了连接。</YttakinFactionGreetingHostileAppreciative>
   <!-- EN: {0} grumbles a greeting to {NEGOTIATOR_labelShort} and asks why you are calling. -->
-  <YttakinFactionGreetingWary>TODO</YttakinFactionGreetingWary>
+  <YttakinFactionGreetingWary>{0}咕哝着向{NEGOTIATOR_labelShort}表示问候，并问你为什么打电话。</YttakinFactionGreetingWary>
   <!-- EN: {0} bellows a friendly greeting and asks what {LEADER_pronoun} can do to help you. -->
-  <YttakinFactionGreetingWarm>TODO</YttakinFactionGreetingWarm>
+  <YttakinFactionGreetingWarm>{0}发出友好的问候，并询问{leader_pronoun}能做些什么来帮助你。</YttakinFactionGreetingWarm>
 
   <!-- EN: {0} grunts angrily and disconnects. -->
-  <NeanderthalFactionGreetingHostile>TODO</NeanderthalFactionGreetingHostile>
+  <NeanderthalFactionGreetingHostile>{0}愤怒地哼了一声，断开了连接。</NeanderthalFactionGreetingHostile>
   <!-- EN: {0} grunts aggressively. Until you make a gesture of goodwill, {0_pronoun} will not do business with you. You can improve relations through a number of activities, like bringing gifts to one of {0_possessive} settlements or releasing {0_possessive} faction's prisoners unharmed.\n\n{0_pronoun} disconnects abruptly. -->
-  <NeanderthalFactionGreetingHostileAppreciative>TODO</NeanderthalFactionGreetingHostileAppreciative>
+  <NeanderthalFactionGreetingHostileAppreciative>{0}咄咄逼人地哼了一声。除非你释放足够的善意，否则{0_pronoun}不会与你做生意。你可以通过一些活动来改善关系，比如给{0_possessive}的一个定居点带去礼物，或者不受伤害地释放{0_possessive}派系的囚犯。\n\n{0_pronoun}突然断开连接。</NeanderthalFactionGreetingHostileAppreciative>
   <!-- EN: {0} grunts a greeting. -->
-  <NeanderthalFactionGreetingWary>TODO</NeanderthalFactionGreetingWary>
+  <NeanderthalFactionGreetingWary>{0}咕哝着打了个招呼。</NeanderthalFactionGreetingWary>
   <!-- EN: {0} grunts a warm greeting to {NEGOTIATOR_labelShort}. -->
-  <NeanderthalFactionGreetingWarm>TODO</NeanderthalFactionGreetingWarm>
+  <NeanderthalFactionGreetingWarm>{0}咕哝着向{NEGOTIATOR_labelShort}热情问好。</NeanderthalFactionGreetingWarm>
 
   <!-- EN: Max tier -->
-  <MaxTier>TODO</MaxTier>
+  <MaxTier>最高级别</MaxTier>
   <!-- EN: {PAWN_nameDef} has accumulated the maximum number of growth points. -->
-  <MaxTierDesc>TODO</MaxTierDesc>
+  <MaxTierDesc>{PAWN_nameDef}已经积累了最大数量的成长点数。</MaxTierDesc>
   <!-- EN: Progress to next growth tier -->
-  <ProgressToNextGrowthTier>TODO</ProgressToNextGrowthTier>
+  <ProgressToNextGrowthTier>到下一级别的进度。</ProgressToNextGrowthTier>
   <!-- EN: This growth tier -->
-  <ThisGrowthTier>TODO</ThisGrowthTier>
+  <ThisGrowthTier>当前成长评级</ThisGrowthTier>
   <!-- EN: Next growth tier -->
-  <NextGrowthTier>TODO</NextGrowthTier>
+  <NextGrowthTier>下一成长评级</NextGrowthTier>
   <!-- EN: Choose {0} passions from {1} options. -->
-  <NumPassionsFromOptions>TODO</NumPassionsFromOptions>
+  <NumPassionsFromOptions>从{1}可选项中选择{0}项兴趣。</NumPassionsFromOptions>
   <!-- EN: Choose {0} trait from {1} options. -->
-  <NumTraitsFromOptions>TODO</NumTraitsFromOptions>
+  <NumTraitsFromOptions>从{1}可选项中选择{0}项特性。</NumTraitsFromOptions>
   <!-- EN: Next growth moment at age -->
-  <NextGrowthMomentAt>TODO</NextGrowthMomentAt>
+  <NextGrowthMomentAt>下一成长阶段年龄</NextGrowthMomentAt>
 
   <!-- EN: no biotech buildings allowed -->
-  <RoomRequirementNoBiotechBuildings>TODO</RoomRequirementNoBiotechBuildings>
+  <RoomRequirementNoBiotechBuildings>没有可用的生物技术建筑。</RoomRequirementNoBiotechBuildings>
 
   <!-- EN: Bloodfeeding on {PAWN_nameDef} will result in serious blood loss, leaving {PAWN_objective} unconscious.\n\nAre you sure? -->
-  <WarningPawnWillHaveSeriousBloodlossFromBloodfeeding>TODO</WarningPawnWillHaveSeriousBloodlossFromBloodfeeding>
+  <WarningPawnWillHaveSeriousBloodlossFromBloodfeeding>对{PAWN_nameDef}汲血会导致{PAWN_objective}因严重失血而失去意识。\n\n你确定吗？</WarningPawnWillHaveSeriousBloodlossFromBloodfeeding>
   <!-- EN: Bloodfeeding on {PAWN_nameDef} will kill {PAWN_objective}.\n\nAre you sure? -->
-  <WarningPawnWillDieFromBloodfeeding>TODO</WarningPawnWillDieFromBloodfeeding>
+  <WarningPawnWillDieFromBloodfeeding>对{PAWN_nameDef}汲血会使{PAWN_objective}死亡。\n\n你确定吗？</WarningPawnWillDieFromBloodfeeding>
 
   <!-- EN: {0_labelShort} must have a tendable wound. -->
-  <AbilityMustHaveTendableWound>TODO</AbilityMustHaveTendableWound>
+  <AbilityMustHaveTendableWound>{0_labelShort}必须有可被包扎的伤口。</AbilityMustHaveTendableWound>
 
 </LanguageData>
