@@ -6,7 +6,11 @@
     <li>discoveryDesc(discovered==false)->learned</li>
     <li>discoveryDesc(discovered==true)->determined the location</li>
   -->
-  <OpportunitySite_AncientComplex_Mechanitor.questDescriptionRules.rulesStrings>TODO</OpportunitySite_AncientComplex_Mechanitor.questDescriptionRules.rulesStrings>
+  <OpportunitySite_AncientComplex_Mechanitor.questDescriptionRules.rulesStrings>
+    <li>questDescription->你[discoveryDesc]了一个附近的远古建筑群，其中有一位死去已久的机械师遗骸。\n\n机械师可以创造，控制，操纵机械族进行工作和战斗。如果你能成功进入建筑群并获得机械师的尸体，你可以取出他们的机控中枢，并让你一个殖民者成为机械师。\n\n请注意：这类建筑可能包含各种威胁，你在建筑群中的活动可能会引起不必要的麻烦。</li>
+    <li>discoveryDesc(discovered==false)->获悉</li>
+    <li>discoveryDesc(discovered==true)->定位</li>
+  </OpportunitySite_AncientComplex_Mechanitor.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName(p=3)->[complexAdj] mechanitor [complex]</li>
     <li>questName->mechanitor [complex]</li>
@@ -25,6 +29,23 @@
     <li>complex->mechplex</li>
     <li>complex->mechsite</li>
   -->
-  <OpportunitySite_AncientComplex_Mechanitor.questNameRules.rulesStrings>TODO</OpportunitySite_AncientComplex_Mechanitor.questNameRules.rulesStrings>
+  <OpportunitySite_AncientComplex_Mechanitor.questNameRules.rulesStrings>
+    <li>questName(p=3)->[complexAdj]机械师[complex]</li>
+    <li>questName->机械师[complex]</li>
+    <li>complexAdj->隐秘</li>
+    <li>complexAdj->远古</li>
+    <li>complexAdj->古老的</li>
+    <li>complexAdj->隐匿</li>
+    <li>complexAdj->布满灰尘的</li>
+    <li>complexAdj->危险的</li>
+    <li>complexAdj->隐避</li>
+    <li>complex->建筑群</li>
+    <li>complex->躲藏处</li>
+    <li>complex->基地</li>
+    <li>complex->复合体</li>
+    <li>complex->地下墓穴</li>
+    <li>complex->机械工厂</li>
+    <li>complex->机械基地</li>
+  </OpportunitySite_AncientComplex_Mechanitor.questNameRules.rulesStrings>
   
 </LanguageData>
