@@ -2,102 +2,102 @@
 <LanguageData>
   
   <!-- EN: bandwidth cost -->
-  <BandwidthCost.label>TODO</BandwidthCost.label>
+  <BandwidthCost.label>带宽占用</BandwidthCost.label>
   <!-- EN: How much bandwidth this mech consumes when under mechanitor control. -->
-  <BandwidthCost.description>TODO</BandwidthCost.description>
+  <BandwidthCost.description>机械师控制这个机械体所需的带宽。</BandwidthCost.description>
   
   <!-- EN: cancer rate factor -->
-  <CancerRate.label>TODO</CancerRate.label>
+  <CancerRate.label>患癌率</CancerRate.label>
   <!-- EN: A multiplier on how likely this person is to develop cancer in any given time frame. -->
-  <CancerRate.description>TODO</CancerRate.description>
+  <CancerRate.description>在任何指定时间内患癌的几率乘数。</CancerRate.description>
   
   <!-- EN: control taking time -->
-  <ControlTakingTime.label>TODO</ControlTakingTime.label>
+  <ControlTakingTime.label>控制耗时</ControlTakingTime.label>
   <!-- EN: How many seconds it will take for a mechanitor to take control of this mech. -->
-  <ControlTakingTime.description>TODO</ControlTakingTime.description>
+  <ControlTakingTime.description>机械师控制机械体所需的时间。</ControlTakingTime.description>
   <!-- EN: {0}s -->
-  <ControlTakingTime.formatString>TODO</ControlTakingTime.formatString>
+  <ControlTakingTime.formatString>{0}秒</ControlTakingTime.formatString>
   
   <!-- EN: EMP resistance -->
-  <EMPResistance.label>TODO</EMPResistance.label>
+  <EMPResistance.label>EMP抗性</EMPResistance.label>
   <!-- EN: This mechanoid has special shielding and shock-dissipation filaments that reduce the effect of EMP damage by this percentage. This reduces the duration of stuns caused by EMP. -->
-  <EMPResistance.description>TODO</EMPResistance.description>
+  <EMPResistance.description>该机械体通过特殊的屏蔽和瘫痪抵抗装置，降低受到EMP伤害的影响。降低EMP造成的眩晕时间。</EMPResistance.description>
   
   <!-- EN: fertility -->
-  <Fertility.label>TODO</Fertility.label>
+  <Fertility.label>生育能力</Fertility.label>
   <!-- EN: Fertility affects the chance of a pregnancy occurring. Pregnancy chance is dependent on the fertility of both partners. This also affects the chance of successfully implanting an embryo in a surrogate. -->
-  <Fertility.description>TODO</Fertility.description>
+  <Fertility.description>生育能力影响怀孕的几率。怀孕几率取决于伴侣双方的生育能力。生育能力还会影响成功将胚胎植入代孕者体内的几率。</Fertility.description>
   
   <!-- EN: hemogen gain multiplier -->
-  <HemogenGainFactor.label>TODO</HemogenGainFactor.label>
+  <HemogenGainFactor.label>血源质增加系数</HemogenGainFactor.label>
   <!-- EN: A multiplier on the amount of hemogen gained. -->
-  <HemogenGainFactor.description>TODO</HemogenGainFactor.description>
+  <HemogenGainFactor.description>获得血源质的乘数。</HemogenGainFactor.description>
   
   <!-- EN: mech bandwidth -->
-  <MechBandwidth.label>TODO</MechBandwidth.label>
+  <MechBandwidth.label>机械带宽</MechBandwidth.label>
   <!-- EN: How much bandwidth a mechanitor has. More bandwidth allows a mechanitor to produce and control more mechs at the same time.\n\nLosing bandwidth means losing control of mechs, leaving them without an overseer. Such mechs can eventually become feral if not re-dominated. -->
-  <MechBandwidth.description>TODO</MechBandwidth.description>
+  <MechBandwidth.description>机械师所拥有的带宽总量。更多的带宽意味着机械师能同时制造和控制更多的机械体。\n\n失去带宽意味着对机械体失去控制。失控的机械体最终会重新回归野蛮形态。</MechBandwidth.description>
   
   <!-- EN: mech control groups -->
-  <MechControlGroups.label>TODO</MechControlGroups.label>
+  <MechControlGroups.label>机械控制组</MechControlGroups.label>
   <!-- EN: How many control groups this mechanitor can direct independently. Each control group can be given its own separate orders. -->
-  <MechControlGroups.description>TODO</MechControlGroups.description>
+  <MechControlGroups.description>机械师可以指挥的控制组数量。可以为每个控制组设置单独的指令。</MechControlGroups.description>
   
   <!-- EN: repair energy cost -->
-  <MechEnergyLossPerHP.label>TODO</MechEnergyLossPerHP.label>
+  <MechEnergyLossPerHP.label>维修成本</MechEnergyLossPerHP.label>
   <!-- EN: The amount of energy that this mechanoid loses for every 100 damage repaired. -->
-  <MechEnergyLossPerHP.description>TODO</MechEnergyLossPerHP.description>
+  <MechEnergyLossPerHP.description>修复该机械体每100点伤害需要消耗的能量。</MechEnergyLossPerHP.description>
   
   <!-- EN: energy usage multiplier -->
-  <MechEnergyUsageFactor.label>TODO</MechEnergyUsageFactor.label>
+  <MechEnergyUsageFactor.label>能耗系数</MechEnergyUsageFactor.label>
   <!-- EN: A multiplier on how fast a mechanoid consumes its energy reserves while operating. -->
-  <MechEnergyUsageFactor.description>TODO</MechEnergyUsageFactor.description>
+  <MechEnergyUsageFactor.description>计算机械体运行时消耗能量储备速度的乘数。</MechEnergyUsageFactor.description>
   
   <!-- EN: mech gestation speed -->
-  <MechFormingSpeed.label>TODO</MechFormingSpeed.label>
+  <MechFormingSpeed.label>机械培育速度</MechFormingSpeed.label>
   <!-- EN: A multiplier on the speed at which this mechanitor can form new mechanoids at a gestator. -->
-  <MechFormingSpeed.description>TODO</MechFormingSpeed.description>
+  <MechFormingSpeed.description>机械师通过机械培育器培育出新机械体的速度乘数。</MechFormingSpeed.description>
   
   <!-- EN: mech remote repair distance -->
-  <MechRemoteRepairDistance.label>TODO</MechRemoteRepairDistance.label>
+  <MechRemoteRepairDistance.label>机械远程修理距离</MechRemoteRepairDistance.label>
   <!-- EN: How far away a mech can be during remote repair. -->
-  <MechRemoteRepairDistance.description>TODO</MechRemoteRepairDistance.description>
+  <MechRemoteRepairDistance.description>可以远程修理机械体的最大距离。</MechRemoteRepairDistance.description>
   
   <!-- EN: mech remote shield distance -->
-  <MechRemoteShieldDistance.label>TODO</MechRemoteShieldDistance.label>
+  <MechRemoteShieldDistance.label>机械远程护盾距离</MechRemoteShieldDistance.label>
   <!-- EN: The maximum range at which a mechanitor can place a shield on a mechanoid. -->
-  <MechRemoteShieldDistance.description>TODO</MechRemoteShieldDistance.description>
+  <MechRemoteShieldDistance.description>机械师远程为机械体设置护盾的最大距离。</MechRemoteShieldDistance.description>
   
   <!-- EN: mech remote shield energy -->
-  <MechRemoteShieldEnergy.label>TODO</MechRemoteShieldEnergy.label>
+  <MechRemoteShieldEnergy.label>机械远程护盾能量</MechRemoteShieldEnergy.label>
   <!-- EN: The energy a remote shield will have when created by a mechanitor. -->
-  <MechRemoteShieldEnergy.description>TODO</MechRemoteShieldEnergy.description>
+  <MechRemoteShieldEnergy.description>机械师远程为机械体设置护盾的能量。</MechRemoteShieldEnergy.description>
   
   <!-- EN: mech repair speed -->
-  <MechRepairSpeed.label>TODO</MechRepairSpeed.label>
+  <MechRepairSpeed.label>机械修理速度</MechRepairSpeed.label>
   <!-- EN: A multiplier on how fast a mechanitor can repair mechanoids. -->
-  <MechRepairSpeed.description>TODO</MechRepairSpeed.description>
+  <MechRepairSpeed.description>机械师修复机械体速度的乘数。</MechRepairSpeed.description>
   
   <!-- EN: raw nutrition multiplier -->
-  <RawNutritionFactor.label>TODO</RawNutritionFactor.label>
+  <RawNutritionFactor.label>生食营养系数</RawNutritionFactor.label>
   <!-- EN: A multiplier on how nutritious raw food is for this person. Note that since meals usually have more nutrition than their raw ingredients, a boost to this stat may only mean the person gets the same nutrition from raw food as if it were cooked. -->
-  <RawNutritionFactor.description>TODO</RawNutritionFactor.description>
+  <RawNutritionFactor.description>生食提供营养的系数。请注意，由于烹饪食品通常比生食的营养更高，这个属性可能只意味着人们从生食中获得了与烹饪食品相同的营养。</RawNutritionFactor.description>
   
   <!-- EN: sleep fall rate -->
-  <RestFallRateFactor.label>TODO</RestFallRateFactor.label>
+  <RestFallRateFactor.label>疲劳率</RestFallRateFactor.label>
   <!-- EN: A multiplier on the speed that a person's sleep need falls. -->
-  <RestFallRateFactor.description>TODO</RestFallRateFactor.description>
+  <RestFallRateFactor.description>一个人睡眠需求降低的乘数。</RestFallRateFactor.description>
   
   <!-- EN: subcore encoding speed -->
-  <SubcoreEncodingSpeed.label>TODO</SubcoreEncodingSpeed.label>
+  <SubcoreEncodingSpeed.label>次核编译速度</SubcoreEncodingSpeed.label>
   <!-- EN: A multiplier on how fast a mechanitor can create subcores. -->
-  <SubcoreEncodingSpeed.description>TODO</SubcoreEncodingSpeed.description>
+  <SubcoreEncodingSpeed.description>机械师制作次生核心速度的乘数。</SubcoreEncodingSpeed.description>
   
   <!-- EN: wastepacks per recharge -->
-  <WastepacksPerRecharge.label>TODO</WastepacksPerRecharge.label>
+  <WastepacksPerRecharge.label>污染物产生率</WastepacksPerRecharge.label>
   <!-- EN: How many toxic wastepacks this mechanoid will generate at a mech recharger when going from 0 to 100% energy. Larger mechanoids will generally create more toxic wastepacks. -->
-  <WastepacksPerRecharge.description>TODO</WastepacksPerRecharge.description>
+  <WastepacksPerRecharge.description>该机械体的能量通过充电从0达到100%时，产生的有毒污染物数量。通常情况，机械体越大，产生的有毒污染物越多。</WastepacksPerRecharge.description>
   <!-- EN: Relevant stats -->
-  <WastepacksPerRecharge.statFactorsExplanationHeader>TODO</WastepacksPerRecharge.statFactorsExplanationHeader>
+  <WastepacksPerRecharge.statFactorsExplanationHeader>相关属性</WastepacksPerRecharge.statFactorsExplanationHeader>
   
 </LanguageData>
