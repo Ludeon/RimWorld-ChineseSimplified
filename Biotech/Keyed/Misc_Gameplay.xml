@@ -122,7 +122,7 @@
   <!-- EN: deathrest capacity -->
   <DeathrestCapacity>死眠容量</DeathrestCapacity>
   <!-- EN: This determines how many deathrest buildings a person can connect to while deathresting. Each deathrest building confers a specific benefit, so it's better to be able to connect to more of them.\n\nDeathrest capacity can be increased using deathrest capacity serums. These serums can be purchased from traders. -->
-  <DeathrestCapacityDesc>这决定了一个人在死眠时可以连接多少个死眠建筑。每个死眠建筑都有特定的好处，所以能连接更多的死眠建筑是更好的。\n\n死眠容量可以通过死眠提升血清来增加。这些血清可以从商人那里购买。</DeathrestCapacityDesc>
+  <DeathrestCapacityDesc>这决定了一个人在死眠时可以连接多少个死眠建筑。每个死眠建筑都有特定的好处，所以能连接更多的死眠建筑是更好的。\n\n死眠容量可以通过死眠扩容血清来增加。这些血清可以从商人那里购买。</DeathrestCapacityDesc>
   <!-- EN: {PAWN_nameDef} is connected to {CURRENT} / {MAX} (max) deathrest buildings. -->
   <PawnIsConnectedToBuildings>{PAWN_nameDef}已连接至（{CURRENT}/{MAX}）死眠建筑。</PawnIsConnectedToBuildings>
   <!-- EN: wake now -->
@@ -747,11 +747,11 @@
 
   <!-- Projectile interceptor -->
   <!-- EN: A low-angle projected shield that will attempt to stop incoming projectiles or shrapnel. It shuts down instantly if hit by an EMP. -->
-  <ProjectileInterceptorTip>一个低角度的力场，将试图阻止射入的弹丸或弹片。如果被EMP击中，它将立即关闭。</ProjectileInterceptorTip>
+  <ProjectileInterceptorTip>一个低角度的护盾，将试图阻止射入的弹丸或弹片。如果被EMP击中，它将立即关闭。</ProjectileInterceptorTip>
 
   <!-- Remote mech shield -->
   <!-- EN: A remote shield projected by a mechanitor. It will attempt to stop incoming projectiles or shrapnel, but does nothing against melee attacks or heat. It prevents the wearer from firing out, and shuts down instantly if hit by EMP -->
-  <RemoteMechShieldTip>一个由机械师投射的远程盾牌。它将试图阻止射入的弹丸或弹片，但对近战攻击或热量没有任何作用。它可以防止穿戴者开火，如果被EMP击中会立即关闭</RemoteMechShieldTip>
+  <RemoteMechShieldTip>一个由机械师投射的远程护盾。它将试图阻止射入的弹丸或弹片，但对近战攻击或热量没有任何作用。它可以防止穿戴者开火，如果被EMP击中会立即关闭</RemoteMechShieldTip>
 
   <!-- Thoughtdef fallbacks -->
   <!-- EN: my child is happy -->
