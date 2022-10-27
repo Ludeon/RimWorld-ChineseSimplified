@@ -7,7 +7,7 @@
   -->
   <PollutionDump.questContentRules.rulesStrings>
     <li>wastepacksLetterLabel->污染物抵达</li>
-    <li>wastepacksLetterText->有毒污染物已送达。</li>
+    <li>wastepacksLetterText->有毒垃圾已送达。</li>
   </PollutionDump.questContentRules.rulesStrings>
   <!-- EN:
     <li>questDescription(askerIsNull==True)->A machine persona in an orbiting ship has a special request. She wishes to offload an excess of toxic wastepacks and hopes that you will store them responsibly.\n\nIf you accept, she will deliver [wastepackCount] toxic wastepacks by transport pod.\n\nIf not kept frozen, toxic wastepacks will dissolve over time, polluting nearby terrain.</li>
@@ -15,9 +15,9 @@
     <li>questDescription(asker_factionLeader==True)->[asker_faction_leaderTitle] [asker_nameFull] of [asker_faction_name] has a special request. Someone has dumped an abundance of toxic wastepacks near one of [asker_possessive] settlements and [asker_pronoun] is unable to safely store them.\n\nIf you accept, [asker_nameDef] will deliver [wastepackCount] toxic wastepacks by transport pod.\n\nIf not kept frozen, toxic wastepacks will dissolve over time, polluting nearby terrain.</li>
   -->
   <PollutionDump.questDescriptionRules.rulesStrings>
-    <li>questDescription(askerIsNull==True)->一艘在轨飞船上的智能AI提出特殊请求，她想要卸下多余的有毒污染物并希望你能尽责的妥善保管它们。\n\n如果你接受，她将通过运输舱送达[wastepackCount]个有毒污染物。\n\n如果不保持冷冻，有毒污染物将污染附近的土地。</li>
-    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_faction_name]的[asker_royalTitleInCurrentFaction] [asker_nameFull]提出特殊请求。 [asker_pronoun]制造了大量有毒污染物而[asker_pronoun]并不希望储存它们。\n\n如果你接受，[asker_nameDef]将用运输舱送达[wastepackCount]个有毒污染物。\n\n如果不保持冷冻，有毒污染物将污染附近的土地。</li>
-    <li>questDescription(asker_factionLeader==True)->[asker_faction_name]的[asker_faction_leaderTitle][asker_nameFull]提出特殊请求。有人向[asker_possessive]的殖民地附近倾倒大量有毒污染物 ，而[asker_pronoun]无法安全的储存它们。\n\n如果你同意，[asker_nameDef]将用运输舱送达[wastepackCount]个有毒污染物。\n\n如果不保持冷冻，有毒污染物将污染附近的土地。</li>
+    <li>questDescription(askerIsNull==True)->一艘在轨飞船上的智能AI提出特殊请求，她想要卸下多余的有毒垃圾并希望你能尽责的妥善保管它们。\n\n如果你接受，她将通过运输舱送达[wastepackCount]个有毒垃圾。\n\n如果不保持冷冻，有毒垃圾将污染附近的土地。</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_faction_name]的[asker_royalTitleInCurrentFaction] [asker_nameFull]提出特殊请求。 [asker_pronoun]制造了大量有毒垃圾而[asker_pronoun]并不希望储存它们。\n\n如果你接受，[asker_nameDef]将用运输舱送达[wastepackCount]个有毒垃圾。\n\n如果不保持冷冻，有毒垃圾将污染附近的土地。</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_faction_name]的[asker_faction_leaderTitle][asker_nameFull]提出特殊请求。有人向[asker_possessive]的殖民地附近倾倒大量有毒垃圾 ，而[asker_pronoun]无法安全的储存它们。\n\n如果你同意，[asker_nameDef]将用运输舱送达[wastepackCount]个有毒垃圾。\n\n如果不保持冷冻，有毒垃圾将污染附近的土地。</li>
   </PollutionDump.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[waste] [dump]</li>
