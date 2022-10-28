@@ -39,20 +39,20 @@
     <li>requestInfo(beggarCount==1)->[beggars0_nameDef] is begging [beggingForInfo]</li>
     <li>requestInfo(beggarCount>=2)->The [groupLabelPlural] are begging [beggingForInfo]</li>
     <li>claimInfo(beggarCount==1,requestedThingDefName==Silver)->[beggars0_nameDef] wants the silver to pay off a debt to a gang of pirates who are hunting [beggars0_objective]</li>
-    <li>claimInfo(beggarCount==1,requestedThingDefName==Silver,childCount==1,priority=1)->[beggars0_nameDef] wants the silver to pay off a butcher who claims he will chop off [beggars0_nameDef]'s arm as recompense for some meat scraps [beggars0_nameDef] stole while on the brink of starvation</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==Silver,childCount==1,priority=1)->[beggars0_nameDef] wants the silver to help buy the freedom of [beggars0_possessive] big sister who was enslaved by pirates</li>
     <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineHerbal)->[beggars0_nameDef] needs the medicine to help a traveler who is injured nearby</li>
     <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineHerbal,childCount==1,priority=1)->[beggars0_nameDef] needs the medicine to help [beggars0_possessive] baby brother who is injured nearby</li>
     <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineIndustrial)->[beggars0_nameDef] wants the medicine to save [beggars0_possessive] loyal pet who was injured on the road</li>
     <li>claimInfo(beggarCount==1,requestedThingDefName==Penoxycyline)->[beggars0_nameDef] needs [requestedThing_label] to inoculate a sickly friend against deadly diseases</li>
     <li>claimInfo(beggarCount==1,requestedThingDefName==Beer)->[beggars0_nameDef] wants it to drown [beggars0_possessive] sorrows after losing a fellow traveler in a terrible accident</li>
-    <li>claimInfo(beggarCount==1,requestedThingDefName==Beer,childCount==1,priority=1)->[beggars0_nameDef] wants the [requestedThing_label] to placate [beggars0_possessive] drunk father who becomes belligerent if he is unable to satisfy his alcoholic cravings</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==Beer,childCount==1,priority=1)->[beggars0_nameDef] wants the [requestedThing_label] to help ease the suffering of a painfully sick uncle</li>
     <li>claimInfo(beggarCount>=2,requestedThingDefName==Silver)->They want the silver so they can buy back a friend who was recently kidnapped</li>
     <li>claimInfo(beggarCount>=2,requestedThingDefName==MedicineHerbal)->They need the medicine to attempt a life-saving operation on a fellow traveler who was attacked by mechanoids</li>
-    <li>claimInfo(beggarCount>=2,requestedThingDefName==MedicineHerbal,allChildren==true,priority=1)->They need the medicine for a remedy that a herbalist said could help a sick friend who has an intense fever and has been coughing up blood</li>
-    <li>claimInfo(beggarCount>=2,requestedThingDefName==MedicineIndustrial)->They need the medicine to help their friends at a nearby settlement that was devasted by raiders</li>
+    <li>claimInfo(beggarCount>=2,requestedThingDefName==MedicineHerbal,allChildren==true,priority=1)->They need the medicine to concoct an herbalist's remedy for a friend who is bedridden with intense fever</li>
+    <li>claimInfo(beggarCount>=2,requestedThingDefName==MedicineIndustrial)->They need the medicine to help their friends at a nearby settlement that was devastated by raiders</li>
     <li>claimInfo(beggarCount>=2,requestedThingDefName==Penoxycyline)->They want [requestedThing_label] so they can travel safely while looking for a new place to call home</li>
     <li>claimInfo(beggarCount>=2,requestedThingDefName==Beer)->They want [requestedThing_label] to help them drown their sorrows after losing their home in a terrible attack</li>
-    <li>claimInfo(beggarCount>=2,requestedThingDefName==Beer,allChildren==true,priority=1)->They hope to use the [requestedThing_label] in an elaborate plan to free a member of their group from the captivity of child slavers by getting the slavers intoxicated before staging a break out</li>
+    <li>claimInfo(beggarCount>=2,requestedThingDefName==Beer,allChildren==true,priority=1)->They hope to use the [requestedThing_label] to free their friend from slavers by getting the slavers intoxicated before staging a breakout</li>
     <li>interactionInfo(beggarCount==1)->You can give items to [beggars0_nameDef] by selecting a colonist and right-clicking on [beggars0_objective]</li>
     <li>interactionInfo(beggarCount>=2)->You can give items to the [groupLabelPlural] by selecting a colonist and right-clicking on [beggars0_nameDef]</li>
     <li>moveOnInfo(beggarCount==1)->[beggars0_nameDef] will move on after [visitDurationTicks_duration]</li>
@@ -76,20 +76,20 @@
     <li>requestInfo(beggarCount==1)->[beggars0_nameDef] 向你祈求施舍[beggingForInfo]</li>
     <li>requestInfo(beggarCount>=2)->[groupLabelPlural] 向你祈求施舍[beggingForInfo]</li>
     <li>claimInfo(beggarCount==1,requestedThingDefName==Silver)->[beggars0_nameDef] 急需白银来偿还其所欠的一伙正在追杀[beggars0_objective]的海盗的债务</li>
-    <li>claimInfo(beggarCount==1,requestedThingDefName==Silver,childCount==1,priority=1)->[beggars0_nameDef]想要一些白银付给[beggars0_nameDef]在饥饿时偷过肉屑的屠夫，屠夫威胁说要砍掉[beggars0_nameDef]的手臂</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==Silver,childCount==1,priority=1)->[beggars0_nameDef]想要一些银子将[beggars0_possessive]被奴役的姐姐从海盗手里赎回来。</li>
     <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineHerbal)->[beggars0_nameDef] 急需药物来救助附近一位受伤的旅行者</li>
     <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineHerbal,childCount==1,priority=1)->[beggars0_nameDef]继续一些药物来帮助[beggars0_possessive]在附近受伤的小兄弟</li>
     <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineIndustrial)->[beggars0_nameDef] 急需药物来救助其在旅途中受伤的忠诚宠物</li>
     <li>claimInfo(beggarCount==1,requestedThingDefName==Penoxycyline)->[beggars0_nameDef] 急需 [requestedThing_label] 给病弱的朋友接种预防致命疾病的疫苗</li>
-    <li>claimInfo(beggarCount==1,requestedThingDefName==Beer,childCount==1,priority=1)->[beggars0_nameDef]想要一些[requestedThing_label]来安抚[beggars0_possessive]酗酒的父亲。如果他不能满足酒精的渴望，他就会变得好斗</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==Beer,childCount==1,priority=1)->[beggars0_nameDef]想要[requestedThing_label]来帮助病重的叔叔减轻痛苦</li>
     <li>claimInfo(beggarCount==1,requestedThingDefName==Beer)->[beggars0_nameDef] 需要它来抚慰其因一场可怕的意外而失去旅伴的伤痛</li>
     <li>claimInfo(beggarCount>=2,requestedThingDefName==Silver)->他们急需白银来赎回不久前被绑架的朋友</li>
     <li>claimInfo(beggarCount>=2,requestedThingDefName==MedicineHerbal)->他们急需药物来挽救被机械族重伤的旅伴的性命</li>
-    <li>claimInfo(beggarCount>=2,requestedThingDefName==MedicineHerbal,allChildren==true,priority=1)->他们急需药物，一个赤脚医生说可以帮助一个生病的朋友，他发着高烧，一直在咳血</li>
+    <li>claimInfo(beggarCount>=2,requestedThingDefName==MedicineHerbal,allChildren==true,priority=1)->他们需要这些药来为一个因高烧而卧床的朋友配制中医处方</li>
     <li>claimInfo(beggarCount>=2,requestedThingDefName==MedicineIndustrial)->他们急需药物来救助附近定居点被袭击者摧毁的朋友们</li>
     <li>claimInfo(beggarCount>=2,requestedThingDefName==Penoxycyline)->他们急需 [requestedThing_label] 以便在他们找到新家前保证旅程安全</li>
     <li>claimInfo(beggarCount>=2,requestedThingDefName==Beer)->需要它来抚慰其因一场可怕的袭击而失去家园的伤痛</li>
-    <li>claimInfo(beggarCount>=2,requestedThingDefName==Beer,allChildren==true,priority=1)->他们希望将[requestedThing_label]用于一个精心准备的营救计划。他们想要在奴隶主酒醉的时候将他们团体的孩子从奴隶主手中解救出来</li>
+    <li>claimInfo(beggarCount>=2,requestedThingDefName==Beer,allChildren==true,priority=1)->他们希望将[requestedThing_label]用于一个精心准备的营救计划。他们想要在奴隶主酒醉的时候将他们的朋友从奴隶主手中解救出来</li>
     <li>interactionInfo(beggarCount==1)->选择殖民者后可通过右键单击 [beggars0_nameDef] 来赠予[beggars0_objective]所需要的物品</li>
     <li>interactionInfo(beggarCount>=2)->选中殖民者后可通过右键单击 [beggars0_nameDef] 来赠予[groupLabelPlural]所需要的物品</li>
     <li>moveOnInfo(beggarCount==1)->[beggars0_nameDef] 将在[visitDurationTicks_duration]之后继续踏上旅途</li>
