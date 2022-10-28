@@ -1,23 +1,23 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
+  
   <!-- EN: band node (tuned) -->
   <BandNode.label>频带节点（调谐）</BandNode.label>
   <!-- EN: This mechanitor's bandwidth is being increased thanks to the influence of a band node structure. -->
   <BandNode.description>由于频带节点设施影响，该机械师的带宽已增加。</BandNode.description>
-
+  
   <!-- EN: control sublink -->
   <ControlSublinkImplant.label>控制子链</ControlSublinkImplant.label>
   <!-- EN: An implant which increases a mechanitor's control group count and the work speed of a mechanitor's mechs.\n\nThis implant can be installed up to 6 times to increase its effect. -->
   <ControlSublinkImplant.description>一种可以增加机械师控制组数量，并且能够提高受机械师控制机械工作速度的植入物。\n\n这种植入物最多可以安装6次以加强其效果。</ControlSublinkImplant.description>
-
+  
   <!-- EN: mech gestation processor -->
   <MechFormfeederImplant.label>机械培育处理器</MechFormfeederImplant.label>
   <!-- EN: An implant which increases the speed at which a mechanitor can produce mechs in a mech gestator. The processor optimizes the behavior of the mechanites in the mech forming tank.\n\nThis implant can be self-installed in the same way as the mechlink.\n\nThis implant can be installed up to 6 times to increase its effect. -->
   <MechFormfeederImplant.description>一种可以让机械师在操作机械培育器时增加培育速度的植入物。这个处理器能够优化机械培育器的工作流程。\n\n这种植入物可以不用手术直接安装。\n\n最多可以安装6次以加强效果。</MechFormfeederImplant.description>
   <!-- EN: An implant which lets a mechanitor gestate new mechs faster. This can be installed up to 6 times to increase the effect. -->
   <MechFormfeederImplant.descriptionShort>一种可以让机械师在操作机械培育器时增加培育速度的植入物。最多可以安装6次以加强效果。</MechFormfeederImplant.descriptionShort>
-
+  
   <!-- EN: mechlink -->
   <MechlinkImplant.label>机控中枢</MechlinkImplant.label>
   <!-- EN: A bionic implant that allows direct control of mechanoids. Mechlinks are used by soldiers to control war mechs, and by workers to control labor mechs. A person with a mechlink is known as a mechanitor.\n\nMechlinks are self-installable. Pressed into the back of the throat, the unit injects itself through the flesh to clamp inside the base of the skull where it meets the spinal cord. There, it threads a web of ultrafine wires throughout nearby neuronal tissue to make the direct mental link between the user and the mechanoid control band.\n\nMechlinks are not simply devices for sending radio signals to mechanoids, because mechanoids are not merely robots. In addition to traditional computers, mechanoids have a dim psychic presence, so fluently controlling them requires a psychic connection. By linking mechanitor and mechanoid both psychically and electromagnetically, the mechlink permits deeper control than screen-and-button interfaces.\n\nSince the mechlink interlaces deep within the brain tissue, it can only be removed after death.\n\nNote: A mechanitor must be capable of smithing work to gestate mechanoids. -->
@@ -28,24 +28,24 @@
   <MechlinkImplant.comps.HediffComp_LetterOnDeath.letterText>安装了{HEDIFF_label}的{PAWN}已死亡。现在可以将其移除并给其他人安装。</MechlinkImplant.comps.HediffComp_LetterOnDeath.letterText>
   <!-- EN: A bionic implant that allows direct control of mechanoids. Can only be removed after death. -->
   <MechlinkImplant.descriptionShort>一种可以直接控制机械体的仿生植入物。只能在使用者死后才能移除。</MechlinkImplant.descriptionShort>
-
+  
   <!-- EN: remote repairer -->
-  <RemoteRepairerImplant.label>远程维修</RemoteRepairerImplant.label>
+  <RemoteRepairerImplant.label>远程维修模块</RemoteRepairerImplant.label>
   <!-- EN: A mechlink upgrade which allows the mechanitor to repair mechs from a distance. The user links with the mechanoid and uses their own brain to psychically guide its self-repair mechanites.\n\nThis implant can be installed up to 3 times to increase its range. -->
   <RemoteRepairerImplant.description>一种允许机械师远程修理机械体的机控升级模块。使用者大脑可以与机械体建立直接精神链接，为机械体自我修复提供规划指引。\n\n这种植入物最多可以安装3次以增加效果距离。</RemoteRepairerImplant.description>
   <!-- EN: An implant which allows the user to repair mechs from a distance. This can be installed up to 3 times. -->
   <RemoteRepairerImplant.descriptionShort>一种可以让使用者远程维修机械体的植入物。最多可以安装3次。</RemoteRepairerImplant.descriptionShort>
-
+  
   <!-- EN: remote shielder -->
-  <RemoteShielderImplant.label>远程护盾</RemoteShielderImplant.label>
+  <RemoteShielderImplant.label>远程护盾模块</RemoteShielderImplant.label>
   <!-- EN: An implant which allows the mechanitor to place a personal defense shield on a mech. The mechanitor must continuously focus on the mech in order to maintain the shield. It can be used to save a mech at a critical moment.\n\nThis implant can be installed up to 3 times to increase its range and shield energy. -->
   <RemoteShielderImplant.description>一种允许机械师为机械体投射护盾的升级模块。机械师必须持续聚焦目标机械体才能维持护盾存在。\n\n远程投射护盾需要消耗大量的聚焦能量。但是这可以在关键时刻救机械体一命。\n\n这种植入物最多可以安装3次以增加效果距离和护盾强度。</RemoteShielderImplant.description>
-
+  
   <!-- EN: repair probe -->
   <RepairProbeImplant.label>维修探针</RepairProbeImplant.label>
   <!-- EN: An implant which increases a mechanitor's mech repair speed. This does not affect the overall energy needed to repair a mechanoid.\n\nThe implant allows the mechanitor to plug directly into a mechanoid while repairing it and better-direct the mech's self-repair mechanites.\n\nThis implant can be installed up to 6 times to increase its effect. -->
   <RepairProbeImplant.description>一种能提高机械师维修速度的植入物。这种植入物不会影响维修机械需要的能量数值。\n\n在维修机械体时可以直接插入，让机械师能快速探查机械体受损部位，更好为机械体自我修复提供协助。\n\n这种植入物最多可以安装6次以加强效果。</RepairProbeImplant.description>
   <!-- EN: An implant which lets a mechanitor repair mechs faster. This can be installed up to 6 times. -->
   <RepairProbeImplant.descriptionShort>一种能够让机械师更快维修机械体的植入物。最多可以安装6次。</RepairProbeImplant.descriptionShort>
-
+  
 </LanguageData>

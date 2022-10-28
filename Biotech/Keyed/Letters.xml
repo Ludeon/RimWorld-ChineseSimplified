@@ -43,6 +43,12 @@
   <!-- EN: You have discovered a mechanitor's cryptosleep casket!\n\nOpen it to find them inside. -->
   <LetterMechanitorCasketFound>你发现了一个机械师的低温休眠舱！\n\n打开它。</LetterMechanitorCasketFound>
   
+  <!-- Pawns lost because map closed (including mechs) -->
+  <!-- EN: Your caravan has been lost. The following people, animals and mechs have been lost with it -->
+  <LetterPawnsLostIncMechsBecauseMapClosed_Caravan>你的远行队已经失踪。下列人员、动物和机械人已随同失踪 </LetterPawnsLostIncMechsBecauseMapClosed_Caravan><!-- text_todo -->
+  <!-- EN: The following people, animals and mechs have been abandoned -->
+  <LetterPawnsLostIncMechsBecauseMapClosed_Home>以下人员、动物和机械体已被抛弃</LetterPawnsLostIncMechsBecauseMapClosed_Home><!-- text_todo -->
+  
 
   <!-- Children -->
   <!-- EN: {0_nameDef} became a child -->
@@ -111,7 +117,7 @@
   <!-- EN: The baby has been given the temporary name {0_nameFull}. You can change it until {1} after birth. -->
   <LetterPartNameBaby>婴儿被赋予了临时的名字{0_nameFull}。出生后可以更改为{1}。</LetterPartNameBaby>
   <!-- EN: The baby was given the temporary name {0_nameFull}. You can change it as long as the baby is less than {1} old. -->
-  <LetterPartNameBabyAdopt>婴儿被赋予了临时名字为{0_nameFull}。只要孩子在11岁前，你都可以更改。</LetterPartNameBabyAdopt> 
+  <LetterPartNameBabyAdopt>婴儿被赋予了临时名字为{0_nameFull}。只要孩子在{1}岁前，你都可以更改。</LetterPartNameBabyAdopt> 
 
   <!-- EN: Growth moment for {PAWNNAME} -->
   <BirthdayGrowthMoment>{PAWNNAME}的成长阶段</BirthdayGrowthMoment>
@@ -157,7 +163,7 @@
   <!-- EN: Xenogerm implantation ordered -->
   <LetterLabelXenogermOrderedImplanted>已指派安装异种胚芽</LetterLabelXenogermOrderedImplanted>
   <!-- EN: You have ordered a xenogerm be implanted in {PAWN_nameDef}. This procedure requires a medical bed and {MEDICINENEEDED} medicine.{BEDINFO}{MEDICINEINFO}\n\nYou can cancel this procedure by going to {PAWN_nameDef}'s health -> operations tab. -->
-  <LetterXenogermOrderedImplanted>已下令在{PAWN_nameDef}植入一个异种胚芽。这个手术需要一张医疗床和{MEDICINENEED}。{BEDINFO}{MEDICINEINFO}\n\n你可以通过进入{PAWN_nameDef}的健康-手术标签取消这个手术。</LetterXenogermOrderedImplanted>
+  <LetterXenogermOrderedImplanted>已下令在{PAWN_nameDef}植入一个异种胚芽。这个手术需要一张医疗床和{MEDICINENEEDED}。{BEDINFO}{MEDICINEINFO}\n\n你可以通过进入{PAWN_nameDef}的健康-手术标签取消这个手术。</LetterXenogermOrderedImplanted>
   <!-- EN: \n\nYou do not have any medical beds available for {PAWN_nameDef}. Consider marking a bed as medical. -->
   <XenogermOrderedImplantedBedNeeded>\n\n你没有任何可用于{PAWN_nameDef}的医疗床。考虑将一张床标记为医疗床。</XenogermOrderedImplantedBedNeeded>
   <!-- EN: \n\nYou do not have enough medicine to implant the xenogerm. Implanting cannot begin until you get {MEDICINENEEDED} medicine. -->
