@@ -2,90 +2,90 @@
 <LanguageData>
   
   <!-- EN: blood transfusion -->
-  <BloodTransfusion.label>TODO</BloodTransfusion.label>
+  <BloodTransfusion.label>输血</BloodTransfusion.label>
   <!-- EN: Use hemogen packs to reduce the effects of blood loss. Each hemogen pack used recovers 35% blood loss. The operation will also restore hemogen to hemogenic individuals. -->
-  <BloodTransfusion.description>TODO</BloodTransfusion.description>
+  <BloodTransfusion.description>使用血源包来减少失血的影响。每使用一个血源包可以恢复35%的失血量。该手术还将恢复血源质。</BloodTransfusion.description>
   <!-- EN: performing blood transfusion on TargetA. -->
-  <BloodTransfusion.jobString>TODO</BloodTransfusion.jobString>
+  <BloodTransfusion.jobString>正在对TargetA输血。</BloodTransfusion.jobString>
   
   <!-- EN: extract hemogen pack -->
-  <ExtractHemogenPack.label>TODO</ExtractHemogenPack.label>
+  <ExtractHemogenPack.label>抽取血源包</ExtractHemogenPack.label>
   <!-- EN: Extract a hemogen pack from the target. The operation will fail to produce a hemogen pack if the target does not have enough blood.\n\nHemogen packs can be administered to others to reduce blood loss or to satiate those who feed on blood. -->
-  <ExtractHemogenPack.description>TODO</ExtractHemogenPack.description>
+  <ExtractHemogenPack.description>从目标人物身上抽取血源质产生一个血源包。如果目标没有足够的血液，手术将无法产生一个血源包。</ExtractHemogenPack.description>
   <!-- EN: Extracting hemogen pack. -->
-  <ExtractHemogenPack.jobString>TODO</ExtractHemogenPack.jobString>
+  <ExtractHemogenPack.jobString>正在抽取血源包。</ExtractHemogenPack.jobString>
   
   <!-- EN: extract ovum for IVF -->
-  <ExtractOvum.label>TODO</ExtractOvum.label>
+  <ExtractOvum.label>提取卵细胞</ExtractOvum.label>
   <!-- EN: Extract an ovum into a storage capsule. It can then be fertilized by a man, and finally implanted into a mother to start a pregnancy. -->
-  <ExtractOvum.description>TODO</ExtractOvum.description>
+  <ExtractOvum.description>将一个卵子提取到一个储存囊中。然后它可以由男人受精，最后植入母亲体内，开始怀孕。</ExtractOvum.description>
   <!-- EN: extracting ovum from TargetA. -->
-  <ExtractOvum.jobString>TODO</ExtractOvum.jobString>
+  <ExtractOvum.jobString>正在从TargetA提取卵细胞。</ExtractOvum.jobString>
   
   <!-- EN: implant embryo -->
-  <ImplantEmbryo.label>TODO</ImplantEmbryo.label>
+  <ImplantEmbryo.label>植入胚胎</ImplantEmbryo.label>
   <!-- EN: Implant an embryo in a surrogate mother to begin a pregnancy. -->
-  <ImplantEmbryo.description>TODO</ImplantEmbryo.description>
+  <ImplantEmbryo.description>将胚胎植入代孕母亲体内，开始怀孕。</ImplantEmbryo.description>
   <!-- EN: Implanting embryo in TargetA. -->
-  <ImplantEmbryo.jobString>TODO</ImplantEmbryo.jobString>
+  <ImplantEmbryo.jobString>正在将胚胎植入TargetA。</ImplantEmbryo.jobString>
   
   <!-- EN: implant IUD -->
-  <ImplantIUD.label>TODO</ImplantIUD.label>
+  <ImplantIUD.label>植入节育器</ImplantIUD.label>
   <!-- EN: Implant a small metal device in the uterus to prevent pregnancies. It can later be removed, but there is a small chance of leaving the patient permanently sterile. This surgery terminates pregnancies in the first trimester. -->
-  <ImplantIUD.description>TODO</ImplantIUD.description>
+  <ImplantIUD.description>在子宫内植入一个小的金属装置以防止怀孕。它以后可以被取出，但有一小部分机会使病人永久不育。这种手术可以在怀孕的前三个月终止妊娠。</ImplantIUD.description>
   <!-- EN: implanting a IUD in TargetA. -->
-  <ImplantIUD.jobString>TODO</ImplantIUD.jobString>
+  <ImplantIUD.jobString>正在将节育器植入TargetA。</ImplantIUD.jobString>
   <!-- EN: {0} has successfully implanted an IUD in {1}. -->
-  <ImplantIUD.successfullyRemovedHediffMessage>TODO</ImplantIUD.successfullyRemovedHediffMessage>
+  <ImplantIUD.successfullyRemovedHediffMessage>{0}成功将节育器植入{1}体内。</ImplantIUD.successfullyRemovedHediffMessage>
   
   <!-- EN: implant xenogerm -->
-  <ImplantXenogerm.label>TODO</ImplantXenogerm.label>
+  <ImplantXenogerm.label>植入异种胚芽</ImplantXenogerm.label>
   <!-- EN: Implant a xenogerm into a patient. This replaces any previous xenogerm they may have had. -->
-  <ImplantXenogerm.description>TODO</ImplantXenogerm.description>
+  <ImplantXenogerm.description>将一个异种胚芽植入人体内。这将取代他们以前可能拥有的任何异种胚胎。</ImplantXenogerm.description>
   <!-- EN: Implanting xenogerm. -->
-  <ImplantXenogerm.jobString>TODO</ImplantXenogerm.jobString>
+  <ImplantXenogerm.jobString>正在植入异种胚芽。</ImplantXenogerm.jobString>
   
   <!-- EN: remove IUD -->
-  <RemoveIUD.label>TODO</RemoveIUD.label>
+  <RemoveIUD.label>移除节育器</RemoveIUD.label>
   <!-- EN: Remove an implanted intrauterine device to allow normal pregnancy. If the surgery goes wrong, the patient will be rendered permanently sterile. -->
-  <RemoveIUD.description>TODO</RemoveIUD.description>
+  <RemoveIUD.description>取出植入的宫内节育器以允许正常怀孕。如果手术出了差错，病人将永久不育。</RemoveIUD.description>
   <!-- EN: removing IUD from TargetA. -->
-  <RemoveIUD.jobString>TODO</RemoveIUD.jobString>
+  <RemoveIUD.jobString>正在从TargetA移除节育器。</RemoveIUD.jobString>
   <!-- EN: {0} has successfully removed {1}'s IUD. -->
-  <RemoveIUD.successfullyRemovedHediffMessage>TODO</RemoveIUD.successfullyRemovedHediffMessage>
+  <RemoveIUD.successfullyRemovedHediffMessage>{0}成功移除了{1}的节育器。</RemoveIUD.successfullyRemovedHediffMessage>
   
   <!-- EN: reverse vasectomy -->
-  <ReverseVasectomy.label>TODO</ReverseVasectomy.label>
+  <ReverseVasectomy.label>输精管复通</ReverseVasectomy.label>
   <!-- EN: Attempt to reverse the vasectomy and make a man capable of fathering children again. Most vasectomy reversals succeed, but if the surgery goes wrong the man will be left permanently sterile. -->
-  <ReverseVasectomy.description>TODO</ReverseVasectomy.description>
+  <ReverseVasectomy.description>试图扭转输精管结扎术，让男性再次有能力做孩子的父亲。大多数输精管复通术都能成功，但如果手术出错，该男性就会永久不育。</ReverseVasectomy.description>
   <!-- EN: performing a vasectomy reversal on TargetA. -->
-  <ReverseVasectomy.jobString>TODO</ReverseVasectomy.jobString>
+  <ReverseVasectomy.jobString>正在对TargetA进行输精管复通术。</ReverseVasectomy.jobString>
   <!-- EN: {0} has successfully performed a vasectomy reversal on {1}. -->
-  <ReverseVasectomy.successfullyRemovedHediffMessage>TODO</ReverseVasectomy.successfullyRemovedHediffMessage>
+  <ReverseVasectomy.successfullyRemovedHediffMessage>{0}成功对{1}执行了输精管复通术。</ReverseVasectomy.successfullyRemovedHediffMessage>
   
   <!-- EN: terminate pregnancy -->
-  <TerminatePregnancy.label>TODO</TerminatePregnancy.label>
+  <TerminatePregnancy.label>终止妊娠</TerminatePregnancy.label>
   <!-- EN: Terminate the pregnancy of an animal or human. -->
-  <TerminatePregnancy.description>TODO</TerminatePregnancy.description>
+  <TerminatePregnancy.description>终止人或动物的怀孕进程。</TerminatePregnancy.description>
   <!-- EN: terminating TargetA's pregnancy. -->
-  <TerminatePregnancy.jobString>TODO</TerminatePregnancy.jobString>
+  <TerminatePregnancy.jobString>正在终止TargetA的妊娠。</TerminatePregnancy.jobString>
   
   <!-- EN: perform tubal ligation -->
-  <TubalLigation.label>TODO</TubalLigation.label>
+  <TubalLigation.label>输卵管结扎</TubalLigation.label>
   <!-- EN: Permanently render a patient sterile and unable to reproduce. -->
-  <TubalLigation.description>TODO</TubalLigation.description>
+  <TubalLigation.description>永久性地使人不育。</TubalLigation.description>
   <!-- EN: performing tubal ligation on TargetA. -->
-  <TubalLigation.jobString>TODO</TubalLigation.jobString>
+  <TubalLigation.jobString>正在对TargetA进行输卵管结扎。</TubalLigation.jobString>
   <!-- EN: {0} has successfully performed tubal ligation on {1}. -->
-  <TubalLigation.successfullyRemovedHediffMessage>TODO</TubalLigation.successfullyRemovedHediffMessage>
+  <TubalLigation.successfullyRemovedHediffMessage>{0}成功对{1}执行了输卵管结扎术。</TubalLigation.successfullyRemovedHediffMessage>
   
   <!-- EN: perform vasectomy -->
-  <Vasectomy.label>TODO</Vasectomy.label>
+  <Vasectomy.label>输精管结扎</Vasectomy.label>
   <!-- EN: Cut the vas deferens to render the patient unable to reproduce. If the surgery goes wrong the patient will be left permanently sterile. -->
-  <Vasectomy.description>TODO</Vasectomy.description>
+  <Vasectomy.description>切断输精管，使病人无法再生育。如果手术出错，病人将永久不育。</Vasectomy.description>
   <!-- EN: performing a vasectomy on TargetA. -->
-  <Vasectomy.jobString>TODO</Vasectomy.jobString>
+  <Vasectomy.jobString>正在对TargetA进行输精管结扎。</Vasectomy.jobString>
   <!-- EN: {0} has successfully performed a vasectomy on {1}. -->
-  <Vasectomy.successfullyRemovedHediffMessage>TODO</Vasectomy.successfullyRemovedHediffMessage>
+  <Vasectomy.successfullyRemovedHediffMessage>{0}成功对{1}执行了输精管结扎术。</Vasectomy.successfullyRemovedHediffMessage>
   
 </LanguageData>

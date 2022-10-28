@@ -35,7 +35,40 @@
     <li>End->zite</li>
     <li>End->drite</li>
   -->
-  <NamerPersonDirtmole_Female.rulePack.rulesStrings>TODO</NamerPersonDirtmole_Female.rulePack.rulesStrings>
+  <NamerPersonDirtmole_Female.rulePack.rulesStrings>
+    <li>r_name->[firstName] [Syl][End]</li>
+    <li>End->凯特</li>
+    <li>End->琪蒂</li>
+    <li>End->西黛</li>
+    <li>End->菲黛</li>
+    <li>End->吉特</li>
+    <li>End->莱茵</li>
+    <li>End->麦伊</li>
+    <li>End->麦特</li>
+    <li>End->娜</li>
+    <li>End->娜忒</li>
+    <li>End->内尔</li>
+    <li>End->内忒</li>
+    <li>End->菲特</li>
+    <li>End->阔忒</li>
+    <li>End->瑞芙</li>
+    <li>End->蕊忒</li>
+    <li>End->若柯</li>
+    <li>End->若依</li>
+    <li>End->绍特</li>
+    <li>End->赛媞</li>
+    <li>End->斯帕</li>
+    <li>End->斯玻</li>
+    <li>End->萨姆</li>
+    <li>End->苔媞</li>
+    <li>End->特芙</li>
+    <li>End->维茵</li>
+    <li>End->蔚勒</li>
+    <li>End->维音</li>
+    <li>End->薇特</li>
+    <li>End->泽塔</li>
+    <li>End->缀缇</li>
+  </NamerPersonDirtmole_Female.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name->[firstName] [Syl][End]</li>
@@ -71,7 +104,40 @@
     <li>End->zite</li>
     <li>End->drite</li>
   -->
-  <NamerPersonDirtmole_Male.rulePack.rulesStrings>TODO</NamerPersonDirtmole_Male.rulePack.rulesStrings>
+  <NamerPersonDirtmole_Male.rulePack.rulesStrings>
+    <li>r_name->[firstName] [Syl][End]</li>
+    <li>End->凯特</li>
+    <li>End->齐特</li>
+    <li>End->希特</li>
+    <li>End->斐德</li>
+    <li>End->吉特</li>
+    <li>End->莱茵</li>
+    <li>End->麦伊</li>
+    <li>End->麦特</li>
+    <li>End->拉</li>
+    <li>End->纳特</li>
+    <li>End->尼尔</li>
+    <li>End->内特</li>
+    <li>End->菲特</li>
+    <li>End->霍特</li>
+    <li>End->瑞夫特</li>
+    <li>End->瑞特</li>
+    <li>End->容克</li>
+    <li>End->莱依</li>
+    <li>End->索特</li>
+    <li>End->赛特</li>
+    <li>End->赛巴</li>
+    <li>End->斯波</li>
+    <li>End->萨姆</li>
+    <li>End->提特</li>
+    <li>End->塔夫</li>
+    <li>End->维恩</li>
+    <li>End->威尔</li>
+    <li>End->维因</li>
+    <li>End->维特</li>
+    <li>End->兹特</li>
+    <li>End->坠特</li>
+  </NamerPersonDirtmole_Male.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name->[firstName] [lastName]</li>
@@ -103,7 +169,36 @@
     <li>nameEnd->naz</li>
     <li>nameEnd->nath</li>
   -->
-  <NamerPersonImpid.rulePack.rulesStrings>TODO</NamerPersonImpid.rulePack.rulesStrings>
+  <NamerPersonImpid.rulePack.rulesStrings>
+    <li>r_name->[firstName] [lastName]</li>
+    <li>firstName(p=0.5)->[SylI]</li>
+    <li>firstName(p=2)->[SylI][nameEnd]</li>
+    <li>firstName->[SylI][SylI][nameEnd]</li>
+    <li>lastName(p=2)->[SylI][nameEnd]</li>
+    <li>lastName->[SylI][nameEnd]</li>
+    <li>lastName->[SylI][SylI][nameEnd]</li>
+    <li>nameEnd->依弗</li>
+    <li>nameEnd->伊奇</li>
+    <li>nameEnd->伊兹</li>
+    <li>nameEnd->影</li>
+    <li>nameEnd->沃克斯</li>
+    <li>nameEnd->奥夫</li>
+    <li>nameEnd->瑞奇</li>
+    <li>nameEnd->瑞思</li>
+    <li>nameEnd->瑞特</li>
+    <li>nameEnd->若夫</li>
+    <li>nameEnd->若兹</li>
+    <li>nameEnd->若恩</li>
+    <li>nameEnd->威</li>
+    <li>nameEnd->翁</li>
+    <li>nameEnd->沃兹</li>
+    <li>nameEnd->伊思</li>
+    <li>nameEnd->诺夫</li>
+    <li>nameEnd->诺韦</li>
+    <li>nameEnd->拉夫</li>
+    <li>nameEnd->拉兹</li>
+    <li>nameEnd->纳斯</li>
+  </NamerPersonImpid.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name->[firstName] [lastName]</li>
@@ -135,7 +230,36 @@
     <li>nameEnd->oik</li>
     <li>nameEnd->oin</li>
   -->
-  <NamerPersonPigskin.rulePack.rulesStrings>TODO</NamerPersonPigskin.rulePack.rulesStrings>
+  <NamerPersonPigskin.rulePack.rulesStrings>
+    <li>r_name->[firstName] [lastName]</li>
+    <li>r_name(p=2)->[firstName] '[nickName]' [lastName]</li>
+    <li>maybeHyphen(p=4)-></li>
+    <li>maybeHyphen->-</li>
+    <li>firstName(p=1)->[SylP][nameEnd]</li>
+    <li>firstName(p=3)->[SylP][nameEnd]</li>
+    <li>nickName->[nicknamePig]</li>
+    <li>lastName(p=3)->[lastGenerated]</li>
+    <li>lastGenerated->[SylP][nameEnd]</li>
+    <li>lastGenerated->[SylP][maybeHyphen][SylP][nameEnd]</li>
+    <li>nameEnd->伍格</li>
+    <li>nameEnd->阿格</li>
+    <li>nameEnd->阿普</li>
+    <li>nameEnd->沃克</li>
+    <li>nameEnd->沃格</li>
+    <li>nameEnd->恩</li>
+    <li>nameEnd->尔</li>
+    <li>nameEnd->阿布</li>
+    <li>nameEnd->沃普</li>
+    <li>nameEnd->伊思</li>
+    <li>nameEnd->沃沃</li>
+    <li>nameEnd->安普</li>
+    <li>nameEnd->安格</li>
+    <li>nameEnd->沃戈</li>
+    <li>nameEnd->沃葛</li>
+    <li>nameEnd->沃布</li>
+    <li>nameEnd->沃依克</li>
+    <li>nameEnd->沃因</li>
+  </NamerPersonPigskin.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name->[firstName] [lastName]</li>
@@ -171,7 +295,40 @@
     <li>End->waste</li>
     <li>End->y</li>
   -->
-  <NamerPersonWaster.rulePack.rulesStrings>TODO</NamerPersonWaster.rulePack.rulesStrings>
+  <NamerPersonWaster.rulePack.rulesStrings>
+    <li>r_name->[firstName] [lastName]</li>
+    <li>r_name->[firstName] '[nicknameWaster]' [lastName]</li>
+    <li>firstName->[Syl][Syl]</li>
+    <li>firstName->[Syl]</li>
+    <li>lastName->[Syl][End]</li>
+    <li>End->阿达</li>
+    <li>End->阿卡</li>
+    <li>End->安克</li>
+    <li>End->艾什</li>
+    <li>End->依克</li>
+    <li>End->厄库</li>
+    <li>End->恩克</li>
+    <li>End->尔</li>
+    <li>End->艾斯克</li>
+    <li>End->艾兹</li>
+    <li>End->冈</li>
+    <li>End->依科</li>
+    <li>End->依皮</li>
+    <li>End->伊斯科</li>
+    <li>End->依西</li>
+    <li>End->伊斯</li>
+    <li>End->凯尔</li>
+    <li>End->金</li>
+    <li>End->林</li>
+    <li>End->蛮</li>
+    <li>End->汶</li>
+    <li>End->尼克</li>
+    <li>End->奥西</li>
+    <li>End->斯科</li>
+    <li>End->思蒙克</li>
+    <li>End->韦斯特</li>
+    <li>End->依</li>
+  </NamerPersonWaster.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name->[firstName] [lastName]</li>
@@ -198,6 +355,30 @@
     <li>nameEnd->ys</li>
     <li>nameEnd->yn</li>
   -->
-  <NamerPersonYttakin.rulePack.rulesStrings>TODO</NamerPersonYttakin.rulePack.rulesStrings>
+  <NamerPersonYttakin.rulePack.rulesStrings>
+    <li>r_name->[firstName] [lastName]</li>
+    <li>firstName(p=0.5)->[SylY]</li>
+    <li>firstName(p=2)->[SylY][nameEnd]</li>
+    <li>firstName->[SylY][SylY][nameEnd]</li>
+    <li>lastName(p=2)->[SylY][nameEnd]</li>
+    <li>lastName->[SylY][SylY][nameEnd]</li>
+    <li>lastName->金[SylY][nameEnd]</li>
+    <li>lastName->温[SylY][nameEnd]</li>
+    <li>nameEnd(p=3)->伊特</li>
+    <li>nameEnd->艾什</li>
+    <li>nameEnd->沃特</li>
+    <li>nameEnd->沃什</li>
+    <li>nameEnd->阿奎</li>
+    <li>nameEnd->尔克</li>
+    <li>nameEnd->埃尔什</li>
+    <li>nameEnd->乌</li>
+    <li>nameEnd->荣</li>
+    <li>nameEnd->恩</li>
+    <li>nameEnd->乌尔</li>
+    <li>nameEnd->牙</li>
+    <li>nameEnd->亚希</li>
+    <li>nameEnd->亚斯</li>
+    <li>nameEnd->亚纳</li>
+  </NamerPersonYttakin.rulePack.rulesStrings>
   
 </LanguageData>

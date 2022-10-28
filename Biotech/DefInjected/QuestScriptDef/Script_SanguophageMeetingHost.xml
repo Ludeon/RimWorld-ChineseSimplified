@@ -11,14 +11,28 @@
     <li>raidArrivedLetterLabel->Sanguophage hunters</li>
     <li>raidArrivedLetterText->A group of sanguophage hunters from [enemyFaction_name] are approaching!\n\nThey will attack the meeting sanguophages as well as those who hosted them.</li>
   -->
-  <SanguophageMeetingHost.questContentRules.rulesStrings>TODO</SanguophageMeetingHost.questContentRules.rulesStrings>
+  <SanguophageMeetingHost.questContentRules.rulesStrings>
+    <li>sanguophagesArriveLetterLabel->血族抵达</li>
+    <li>sanguophagesArriveLetterText->[sanguophageCount]个血族从[map_definite]不同方向抵达，他们将在殖民地会面并进行协商。</li>
+    <li>argumentLetterLabel->血族争执</li>
+    <li>argumentLetterText->血族发生争执，现在升级到暴力对抗！</li>
+    <li>successLetterLabel->会面完成</li>
+    <li>successLetterText->血族已经完成了会面，现在将给与你奖励。</li>
+    <li>raidArrivedLetterLabel->血族猎人</li>
+    <li>raidArrivedLetterText->一群来自[enemyFaction_name]的血族猎人正在接近！\n\n他们将会攻击会面中的血族和以及接待他们的人。</li>
+  </SanguophageMeetingHost.questContentRules.rulesStrings>
   <!-- EN:
     <li>questDescription->A sanguophage named [asker_nameDef] is looking for a safe place to meet with [sanguophageCountMinusOne] other [sanguophageSingOrPlural] where they won't be tracked. Their leader [asker_nameDef] is asking for you to host the meeting at [map_definite].\n\nIf you accept, [sanguophageCount] sanguophages will arrive at [map_definite] from different directions. They will spend several hours discussing their own secret issues before departing. They promise to give you your reward before they leave.\n\nYou may betray the sanguophages and attack them. Downed sanguophages can be forced to turn one of your own colonists into a sanguophage.\n\n[sanguophageInfo]</li>
     <li>sanguophageSingOrPlural(sanguophageCountMinusOne==1)->sanguophage</li>
     <li>sanguophageSingOrPlural(sanguophageCountMinusOne>=2)->sanguophages</li>
     <li>sanguophageInfo->(*Gray)About sanguophages: Sanguophages are ageless, deathless super-humans powered by archotech-created archites in the bloodstream. They are beautiful and extremely intelligent. They can heal any injury, and never suffer from disease or poison. In combat, they can launch deadly spines and heal injured friends. The price is that sanguophages must consume hemogen derived from human blood to survive, and they must periodically deathrest for long periods. They're easily destroyed by fire, and slowed down by UV light.(/Gray)</li>
   -->
-  <SanguophageMeetingHost.questDescriptionRules.rulesStrings>TODO</SanguophageMeetingHost.questDescriptionRules.rulesStrings>
+  <SanguophageMeetingHost.questDescriptionRules.rulesStrings>
+    <li>questDescription->一个名叫[asker_nameDef]的血族正在寻找一个安全的地方与[sanguophageCountMinusOne]个其他[sanguophageSingOrPlural]会面，在那里他们不会被追踪。 他们的领袖[asker_nameDef]请求你在[map_definite]主持会面。\n\n如果你接受，[sanguophageCount]个血族将从[map_definite]不同方向抵达。他们会花费几个小时讨论自己的机密问题然后离开，并承诺在离开前给予你奖励。\n\n你可以背叛这些血族并攻击他们，迫使倒下的血族将你的一个殖民者变成血族。\n\n[sanguophageInfo]</li>
+    <li>sanguophageSingOrPlural(sanguophageCountMinusOne==1)->血族</li>
+    <li>sanguophageSingOrPlural(sanguophageCountMinusOne>=2)->血族们</li>
+    <li>sanguophageInfo->(*Gray)关于血族: 血族是在超凡智能所造超凡微械的加持下保持长生不老的超人类。他们非常美丽聪慧，能自愈任何伤势，永不会受疾病和毒素困扰。在战斗中能够发射致命的骨刺和治愈同伴。而代价就是必须定时摄入人类血液中的血源质和陷入为时不短的死眠。他们怕火，而且会被紫外线所弱化。(/Gray)</li>
+  </SanguophageMeetingHost.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[meetAdjective] [meetNoun]</li>
     <li>meetAdjective->sanguophage</li>
@@ -40,6 +54,26 @@
     <li>meetNoun->congress</li>
     <li>meetNoun->parley</li>
   -->
-  <SanguophageMeetingHost.questNameRules.rulesStrings>TODO</SanguophageMeetingHost.questNameRules.rulesStrings>
+  <SanguophageMeetingHost.questNameRules.rulesStrings>
+    <li>questName->[meetAdjective][meetNoun]</li>
+    <li>meetAdjective->血族</li>
+    <li>meetAdjective->嗜血</li>
+    <li>meetAdjective->血液</li>
+    <li>meetAdjective->暗影</li>
+    <li>meetAdjective->黑暗</li>
+    <li>meetAdjective->深红</li>
+    <li>meetAdjective->红色</li>
+    <li>meetAdjective->血痂</li>
+    <li>meetAdjective->血的</li>
+    <li>meetAdjective->血红色</li>
+    <li>meetNoun->会面</li>
+    <li>meetNoun->招待</li>
+    <li>meetNoun->聚会</li>
+    <li>meetNoun->重聚</li>
+    <li>meetNoun->集会</li>
+    <li>meetNoun->秘密会议</li>
+    <li>meetNoun->议会</li>
+    <li>meetNoun->谈判</li>
+  </SanguophageMeetingHost.questNameRules.rulesStrings>
   
 </LanguageData>

@@ -213,10 +213,10 @@
   -->
   <EnteredCryptosleep.rulePack.rulesStrings>
     <li>tale_noun->[PAWN_nameDef]进入休眠状态</li>
-    <li>image->[PAWN_nameFull]躺在休眠仓里，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]打开一个空的休眠仓，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]将自己封闭在休眠仓里，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]透过休眠仓的内壁观看这个即将要离开的世界，[circumstance_group]</li>
+    <li>image->[PAWN_nameFull]躺在休眠舱里，[circumstance_group]</li>
+    <li>image->[PAWN_nameFull]打开一个空的休眠舱，[circumstance_group]</li>
+    <li>image->[PAWN_nameFull]将自己封闭在休眠舱里，[circumstance_group]</li>
+    <li>image->[PAWN_nameFull]透过休眠舱的内壁观看这个即将要离开的世界，[circumstance_group]</li>
     <li>circumstance_phrase->带着[AdjectiveAngsty]的神情</li>
     <li>circumstance_phrase->陷入沉思</li>
     <li>circumstance_phrase->凝视着远方的[TerrainFeature]</li>
@@ -226,7 +226,7 @@
     <li>desc_sentence->[PAWN_nameDef]目光坚定。</li>
     <li>desc_sentence->[PAWN_nameDef]明显受了伤。</li>
     <li>desc_sentence->背景中[Color]的极光在闪烁。</li>
-    <li>desc_sentence->[Quantity_adjphrase]装载着生物的休眠仓排列在四周。</li>
+    <li>desc_sentence->[Quantity_adjphrase]装载着生物的休眠舱排列在四周。</li>
   </EnteredCryptosleep.rulePack.rulesStrings>
   
   <!-- EN: gained master skill -->
@@ -519,7 +519,7 @@
   </Prayed.rulePack.rulesStrings>
   
   <!-- EN: put into cryptosleep -->
-  <PutIntoCryptosleep.label>放入休眠仓</PutIntoCryptosleep.label>
+  <PutIntoCryptosleep.label>放入休眠舱</PutIntoCryptosleep.label>
   <!-- EN:
     <li>tale_noun->[CARRIER_nameDef] putting [SLEEPER_nameDef] into cryptosleep</li>
     <li>image->[CARRIER_nameFull] placing [SLEEPER_nameDef] inside a cryptosleep casket [circumstance_group]</li>
@@ -538,10 +538,10 @@
     <li>desc_sentence->[Quantity_adjphrase] filled cryptosleep caskets surround the scene.</li>
   -->
   <PutIntoCryptosleep.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef]将[SLEEPER_nameDef]放入休眠仓</li>
-    <li>image->[PAWN_nameFull]将[SLEEPER_nameDef]放入休眠仓，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]打开一个空的休眠仓用来盛放[SLEEPER_nameDef]，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]将[SLEEPER_nameDef]封闭在休眠仓里，[circumstance_group]</li>
+    <li>tale_noun->[PAWN_nameDef]将[SLEEPER_nameDef]放入休眠舱</li>
+    <li>image->[PAWN_nameFull]将[SLEEPER_nameDef]放入休眠舱，[circumstance_group]</li>
+    <li>image->[PAWN_nameFull]打开一个空的休眠舱用来盛放[SLEEPER_nameDef]，[circumstance_group]</li>
+    <li>image->[PAWN_nameFull]将[SLEEPER_nameDef]封闭在休眠舱里，[circumstance_group]</li>
     <li>image->[PAWN_nameFull]转身走开，[SLEEPER_nameDef]则透过空投舱内壁向外看，[circumstance_group]</li>
     <li>circumstance_phrase->带着[AdjectiveAngsty]的神情</li>
     <li>circumstance_phrase->带着[AdjectiveFriendly]的神情</li>

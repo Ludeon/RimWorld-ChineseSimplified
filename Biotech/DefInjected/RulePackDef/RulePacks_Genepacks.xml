@@ -6,7 +6,11 @@
     <li>otherGenesInfo(geneCount==1)-></li>
     <li>otherGenesInfo(geneCount>=2)-> +[geneCountMinusOne]</li>
   -->
-  <NamerGenepack.rulePack.rulesStrings>TODO</NamerGenepack.rulePack.rulesStrings>
+  <NamerGenepack.rulePack.rulesStrings>
+    <li>r_name->基因组（[geneWord][otherGenesInfo]）</li>
+    <li>otherGenesInfo(geneCount==1)-></li>
+    <li>otherGenesInfo(geneCount>=2)->+[geneCountMinusOne]</li>
+  </NamerGenepack.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name(p=1)->[anyPrefix][anySuffix]</li>
@@ -72,6 +76,69 @@
     <li>commonSuffix->ur</li>
     <li>commonSuffix->ux</li>
   -->
-  <NamerXenotype.rulePack.rulesStrings>TODO</NamerXenotype.rulePack.rulesStrings>
+  <NamerXenotype.rulePack.rulesStrings>
+    <li>r_name(p=1)->[anyPrefix][anySuffix]</li>
+    <li>r_name(p=0.1)->[wholeName]</li>
+    <li>anyPrefix(p=2)->[genePrefix]</li>
+    <li>anyPrefix->[commonPrefix]</li>
+    <li>anySuffix->[geneSuffix]</li>
+    <li>anySuffix(p=3)->[commonSuffix]</li>
+    <li>commonPrefix->异种</li>
+    <li>commonPrefix->转移</li>
+    <li>commonPrefix->变体</li>
+    <li>commonPrefix->瑕疵</li>
+    <li>commonPrefix->子株</li>
+    <li>commonPrefix->外源</li>
+    <li>commonPrefix->管</li>
+    <li>commonPrefix->实验</li>
+    <li>commonPrefix->分离</li>
+    <li>commonPrefix->单</li>
+    <li>commonPrefix->优</li>
+    <li>commonPrefix->厘</li>
+    <li>commonPrefix->微分</li>
+    <li>commonPrefix->共鸣</li>
+    <li>commonPrefix->过滤</li>
+    <li>commonPrefix->格</li>
+    <li>commonPrefix->角</li>
+    <li>commonPrefix->一</li>
+    <li>commonPrefix->根</li>
+    <li>commonPrefix->科尔</li>
+    <li>commonPrefix->洛兹</li>
+    <li>commonPrefix->马克</li>
+    <li>commonPrefix->诺尔</li>
+    <li>commonPrefix->骨</li>
+    <li>commonPrefix->依</li>
+    <li>commonPrefix->组</li>
+    <li>commonPrefix->拉克斯</li>
+    <li>commonPrefix->塞尔</li>
+    <li>commonPrefix->特</li>
+    <li>commonPrefix->极</li>
+    <li>commonPrefix->沃克斯</li>
+    <li>commonPrefix->呼</li>
+    <li>commonPrefix->泽</li>
+    <li>commonPrefix->永</li>
+    <li>commonPrefix->泽尔</li>
+    <li>commonSuffix->种</li>
+    <li>commonSuffix->人</li>
+    <li>commonSuffix->按</li>
+    <li>commonSuffix->阿尔</li>
+    <li>commonSuffix->多尔</li>
+    <li>commonSuffix->达尔</li>
+    <li>commonSuffix(p=3)->尔</li>
+    <li>commonSuffix(p=2)->恩</li>
+    <li>commonSuffix->亿滋</li>
+    <li>commonSuffix->名</li>
+    <li>commonSuffix->里</li>
+    <li>commonSuffix->伊尔</li>
+    <li>commonSuffix->伊斯特</li>
+    <li>commonSuffix->上</li>
+    <li>commonSuffix->欧尔</li>
+    <li>commonSuffix->欧克</li>
+    <li>commonSuffix->欧斯</li>
+    <li>commonSuffix->阿布</li>
+    <li>commonSuffix->阿尔</li>
+    <li>commonSuffix->乌尔</li>
+    <li>commonSuffix->乌斯</li>
+  </NamerXenotype.rulePack.rulesStrings>
   
 </LanguageData>

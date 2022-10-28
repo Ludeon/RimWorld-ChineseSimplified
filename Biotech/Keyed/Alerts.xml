@@ -4,7 +4,7 @@
   <!-- EN: Uncontrolled mechs -->
   <AlertMechLacksOverseer>机械体未被控制</AlertMechLacksOverseer>
   <!-- EN: One or more of your mechanoids is not controlled. Connect your mechanoids to a mechanitor with sufficient bandwidth to control them.\n\nIf left uncontrolled for more than a day, a mechanoid could go feral. When this happens they will join {0} and become hostile to you. If one mechanoid goes feral, it will bring other nearby mechanoids with it.\n\nFeral mechanoids cannot be resurrected at a gestator when killed. -->
-  <AlertMechLacksOverseerDesc>你有至少一个机械体未被控制，你需要将它们连接至一名有足够带宽的机械师来使它们受控。\n\n如果机械体脱离控制的时间超过一天，机械体就会离线。当这种情况发生时，它们会加入{0}并与你敌对。如果一个机械体离线，它也会把附近其他的机械体带过来。\n\n离线的机械体不能在培育器中重生。</AlertMechLacksOverseerDesc>
+  <AlertMechLacksOverseerDesc>你有至少一个机械体未被控制，你需要将它们连接至一名有足够带宽的机械师来使它们受控。\n\n如果机械体脱离控制的时间超过一天，机械体就会离线。当这种情况发生时，它们会加入{0}并与你敌对。如果一个机械体离线，它也会把附近其他的机械体带过来。\n\n离线的机械体不能在培育器中复生。</AlertMechLacksOverseerDesc>
   <!-- EN: The following mechanoids are uncontrolled -->
   <AlertMechLacksOverseerUncontrolled>以下机械体未受控制</AlertMechLacksOverseerUncontrolled>
   <!-- EN: The following mechanoids are uncontrolled and could go feral at any moment -->
@@ -30,7 +30,7 @@
   <!-- EN: Recharger full -->
   <AlertRechargerFull>充电站已满</AlertRechargerFull>
   <!-- EN: Some mech recharger(s) are storing their maximum number of toxic wastepacks. Mechs can't use these chargers until the toxic wastepacks are hauled away.\n\nSelect a colonist and right-click a recharger to unload it. -->
-  <AlertRechargerFullDesc>某些机械充电站储存的有毒废料袋已达上限。机械体在清除废料袋之前无法使用充电站。\n\n选择一位殖民者并右键充电站来卸载它们。</AlertRechargerFullDesc>
+  <AlertRechargerFullDesc>某些机械充电站储存的有毒垃圾已达上限。机械体在清除垃圾之前无法使用充电站。\n\n选择一位殖民者并右键充电站来卸载它们。</AlertRechargerFullDesc>
 
   <!-- EN: Need mech rechargers -->
   <AlertNeedMechChargers>机械体需要充电站</AlertNeedMechChargers>
@@ -59,7 +59,7 @@
   <AlertNoBabyFoodCaravanDesc>远行队中有婴儿，但没有婴儿食品，也没有分配处于哺乳期的{FACTION_pawnsPlural}来喂养他们。</AlertNoBabyFoodCaravanDesc>
 
   <!-- EN: Toxic buildup -->
-  <AlertToxicBuildup>毒性堆积</AlertToxicBuildup>
+  <AlertToxicBuildup>中毒</AlertToxicBuildup>
   <!-- EN: These colonists have serious toxic buildup:\n\n{0}\n\nMove them away from toxic sources.\n\nToxic buildup can be caused by many things including toxic fallout, tox gas, and polluted terrain. -->
   <AlertToxicBuildupDesc>这些殖民者正处于危险的有毒环境：\n\n{0}\n\n尽快将他们转移至安全地带。\n\n有毒尘埃、有毒气体和受污染的土地都会使附近的人中毒。</AlertToxicBuildupDesc>
 

@@ -31,17 +31,17 @@
 
   <!-- Subcore scanner -->
   <!-- EN: Ripscanning {PAWN_nameDef} will kill {PAWN_objective}. Are you sure you want to continue? -->
-  <ConfirmRipscanPawn>裂隙扫描{PAWN_nameDef}将会杀死{PAWN_objective}。你确定想要继续吗？</ConfirmRipscanPawn>
+  <ConfirmRipscanPawn>裂解扫描{PAWN_nameDef}将会杀死{PAWN_objective}。你确定想要继续吗？</ConfirmRipscanPawn>
 
   <!-- Xenogerm -->
   <!-- EN: Assemble genes -->
   <AssembleGenes>组装基因</AssembleGenes>
   <!-- EN: Create xenotype -->
-  <CreateXenotype>创建异种</CreateXenotype>
+  <CreateXenotype>创建异种人</CreateXenotype>
   <!-- EN: Select icon -->
   <SelectIcon>选择标识</SelectIcon>
   <!-- EN: The icon of this xenotype. -->
-  <SelectIconDesc>异种的标识。</SelectIconDesc>
+  <SelectIconDesc>异种人的标识。</SelectIconDesc>
   <!-- EN: Inspect the genes inside the {0_labelShort}. -->
   <InspectGenesDesc>检测{0_labelShort}内的基因。</InspectGenesDesc>
   <!-- EN: Inspect the unborn baby's genes. -->
@@ -73,15 +73,15 @@
   <!-- EN: Germline genes are naturally-inherited genes which are in every cell in an organism's body and don't require any external support. They are passed from parent to child. -->
   <EndogenesDesc>系谱基因是自然遗传的基因，它存在于生物体的每一个细胞中，不需要依赖任何外部支持。它们是由亲代遗传给子代的。</EndogenesDesc>
   <!-- EN: Member xenotypes -->
-  <MemberXenotypeChances>异种成员</MemberXenotypeChances>
+  <MemberXenotypeChances>异种人成员</MemberXenotypeChances>
   <!-- EN: xenotype name -->
-  <XenotypeName>异种名称</XenotypeName>
+  <XenotypeName>异种人名称</XenotypeName>
   <!-- EN: Lock or unlock the xenotype's name. When locked, the xenotype name will not auto-regenerate when genepacks are added or removed. -->
-  <LockNameButtonDesc>锁定或解锁异种类型的名称。若锁定，当添加或删除基因组时，异种名称将不会自动生成。</LockNameButtonDesc>
+  <LockNameButtonDesc>锁定或解锁异种人的名称。若锁定，当添加或删除基因组时，异种人名称将不会自动生成。</LockNameButtonDesc>
   <!-- EN: Xenotype name lock is on. Xenotype name will not regenerate when adding or removing genepacks. -->
-  <LockNameOn>异种名称锁定已开启。在添加或删除基因组时，异种名称将不会重新生成。</LockNameOn>
+  <LockNameOn>异种人名称锁定已开启。在添加或删除基因组时，异种人名称将不会重新生成。</LockNameOn>
   <!-- EN: Xenotype name lock is off. Xenotype name will regenerate when adding or removing genepacks. -->
-  <LockNameOff>异种名称锁定已关闭。添加或删除基因组时，异种名称将重新生成。</LockNameOff>
+  <LockNameOff>异种人名称锁定已关闭。添加或删除基因组时，异种人名称将重新生成。</LockNameOff>
   <!-- EN: Creating xenogerm -->
   <CreatingXenogerm>创建异种胚芽</CreatingXenogerm>
   <!-- EN: This genepack is contained in an unpowered genebank. If added, production on the xenogerm will be suspended until power is restored. -->
@@ -99,9 +99,9 @@
   <!-- EN: You are currently combining a {XENOGERMNAME} xenogerm. If you start combining a new xenogerm, it will cancel your current xenogerm.\n\nAre you sure you want to continue? -->
   <ConfirmStartNewXenogerm>你正在重组一个{XENOGERMNAME}异种胚芽。如果开始重组一个新的异种胚芽，当前异种胚芽会被取消。\n\n你确定想要继续吗？</ConfirmStartNewXenogerm>
   <!-- EN: Select at least one gene to randomize a name for this xenotype. -->
-  <SelectAGeneToRandomizeName>至少选择一个基因组来为此异种随机一个名称。</SelectAGeneToRandomizeName>
+  <SelectAGeneToRandomizeName>至少选择一个基因组来为此异种人随机一个名称。</SelectAGeneToRandomizeName>
   <!-- EN: Select at least one gene to choose a name for this xenotype. -->
-  <SelectAGeneToChooseAName>至少选择一个基因组来为此异种选择一个名称。</SelectAGeneToChooseAName>
+  <SelectAGeneToChooseAName>至少选择一个基因组来为此异种人选择一个名称。</SelectAGeneToChooseAName>
 
   <!-- View genes -->
   <!-- EN: Inspect genes -->
@@ -121,15 +121,15 @@
   <!-- EN: Overridden by identical gene -->
   <OverriddenByIdenticalGene>被相同基因覆盖</OverriddenByIdenticalGene>
   <!-- EN: More information is available on this xenotype's information screen. -->
-  <MoreInfoInInfoScreen>更多信息可在该异种的信息界面找到。</MoreInfoInInfoScreen>
+  <MoreInfoInInfoScreen>更多信息可在该异种人的信息界面找到。</MoreInfoInInfoScreen>
   <!-- EN: Takes effect after age -->
   <TakesEffectAfterAge>生效年龄</TakesEffectAfterAge>
 
   <!-- Xenotype editor -->
   <!-- EN: Xenotype editor -->
-  <XenotypeEditor>异种编辑器</XenotypeEditor>
+  <XenotypeEditor>异种人编辑器</XenotypeEditor>
   <!-- EN: Any (non-archite) -->
-  <AnyNonArchite>Any (non-archite)</AnyNonArchite>
+  <AnyNonArchite>任意（无超凡基因组）</AnyNonArchite>
   <!-- EN: Selected genes -->
   <SelectedGenes>已选择基因</SelectedGenes>
   <!-- EN: custom -->
@@ -139,27 +139,27 @@
   <!-- EN: Genes are heritable -->
   <GenesAreInheritable>可遗传基因</GenesAreInheritable>
   <!-- EN: Whether or not this xenotype can be passed on to children. -->
-  <GenesAreInheritableXenotypeDef>这个异种是否能遗传给后代。</GenesAreInheritableXenotypeDef>
+  <GenesAreInheritableXenotypeDef>这个异种人是否能遗传给后代。</GenesAreInheritableXenotypeDef>
   <!-- EN: All genes in this xenotype can be passed on to children. -->
-  <GenesAreInheritableDesc>此异种的所有基因都可以遗传给后代。</GenesAreInheritableDesc>
+  <GenesAreInheritableDesc>此异种人的所有基因都可以遗传给后代。</GenesAreInheritableDesc>
   <!-- EN: For each individual, one of the following genes will be randomly selected to be active -->
   <GeneWillBeRandomChosen>对于每个个体，将随机选择以下基因中的一个为显性基因</GeneWillBeRandomChosen>
   <!-- EN: This gene is incompatible with other genes in this xenotype. Only one of these genes will be active -->
-  <GeneIncompatibleDesc>该基因与该异种中的其他基因不相容。这些基因中只有一个会显性化</GeneIncompatibleDesc>
+  <GeneIncompatibleDesc>该基因与该异种人中的其他基因不相容。这些基因中只有一个会显性化</GeneIncompatibleDesc>
   <!-- EN: Of the following genes, the left-most one will always apply and the others are suppressed -->
   <GeneLeftmostActive>在下列基因中，最左边的一个将永远适用，其他的则不表达</GeneLeftmostActive>
   <!-- EN: Of the following genes, only one will apply and the others will be suppressed -->
   <GeneOneActive>在下列基因中，只有一个会表达，其他的将被抑制</GeneOneActive>
   <!-- EN: Changing xenotype will randomize this colonist.\n\nContinue anyway? -->
-  <WarnChangingXenotypeWillRandomizePawn>改变异种将会让殖民者随机变化，继续？</WarnChangingXenotypeWillRandomizePawn>
+  <WarnChangingXenotypeWillRandomizePawn>改变异种人将会让殖民者随机变化，继续？</WarnChangingXenotypeWillRandomizePawn>
   <!-- EN: Delete this xenotype. -->
-  <DeleteThisXenotype>删除此异种。</DeleteThisXenotype>
+  <DeleteThisXenotype>删除此异种人。</DeleteThisXenotype>
   <!-- EN: Ignore restrictions -->
   <IgnoreRestrictions>忽略限制</IgnoreRestrictions>
   <!-- EN: Created xenotypes have no biostat limits. Genes requiring archite capsules can be added. -->
-  <IgnoreRestrictionsDesc>创建的异种基因没有生物稳定性限制。可以添加需要超凡胶囊的基因。</IgnoreRestrictionsDesc>
+  <IgnoreRestrictionsDesc>创建的异种人基因没有生物稳定性限制。可以添加需要超凡胶囊的基因。</IgnoreRestrictionsDesc>
   <!-- EN: This xenotype breaks normal gameplay limits -->
-  <XenotypeBreaksLimits>此异种突破了常规限制</XenotypeBreaksLimits>
+  <XenotypeBreaksLimits>此异种人突破了常规限制</XenotypeBreaksLimits>
   <!-- EN: It contains archite genes and is inheritable, but archite genes are usually never inheritable. -->
   <XenotypeBreaksLimits_Archites>它能够被继承，但是它囊括的超凡基因通常不会被遗传。</XenotypeBreaksLimits_Archites>
   <!-- EN: {STAT} is {VALUE}, which exceeds the normal limit of {MAX}. -->
@@ -173,7 +173,7 @@
   <!-- EN: Colonists will always be within this developmental stage's age range when generated. -->
   <DevelopmentalAgeSelectionDesc>殖民者在生成时将总是处在此生命阶段的年龄范围内。</DevelopmentalAgeSelectionDesc>
   <!-- EN: Colonists will always carry the genes defined by this xenotype. -->
-  <XenotypeSelectionDesc>殖民者将总是携带此异种所定义的基因组。</XenotypeSelectionDesc>
+  <XenotypeSelectionDesc>殖民者将总是携带此异种人所定义的基因组。</XenotypeSelectionDesc>
   <!-- EN: Save and apply -->
   <SaveAndApply>保存并应用</SaveAndApply>
   <!-- EN: Load custom -->
@@ -276,72 +276,76 @@
   <PawnIsDead>{PAWN_nameDef}已经死亡。</PawnIsDead>
 
   <!-- EN: Placing {PAWN_nameDef} into cryptosleep will strain {PAWN_possessive} psychic bond with {BOND_nameDef}, causing stress to both partners.\n\nAre you sure you want to continue? -->
-  <PsychicBondDistanceWillBeActive_Cryptosleep>TODO</PsychicBondDistanceWillBeActive_Cryptosleep>
+  <PsychicBondDistanceWillBeActive_Cryptosleep>将{PAWN_nameDef}置入低温休眠将会对其与{BOND_nameDef}的心灵共鸣带来负担，这会对双方造成一定压力。\n\n你确定想要继续吗？</PsychicBondDistanceWillBeActive_Cryptosleep>
   <!-- EN: Someone in this caravan is psychically bonded by their partner is not coming with them. These people will be stressed if separated from their bond-partners -->
-  <PsychicBondDistanceWillBeActive_Caravan>TODO</PsychicBondDistanceWillBeActive_Caravan>
+  <PsychicBondDistanceWillBeActive_Caravan>远行队中的某人正与未入队的其他人维系心灵共鸣。他们会因为心灵共鸣被分隔而产生压力。</PsychicBondDistanceWillBeActive_Caravan>
   <!-- EN: partner {0_nameFull} -->
-  <Partner>TODO</Partner>
+  <Partner>共鸣{0_nameFull}</Partner>
 
 
   <!-- EN: Choose mech accent color -->
-  <ChooseMechAccentColor>TODO</ChooseMechAccentColor>
+  <ChooseMechAccentColor>选择机械体突出颜色</ChooseMechAccentColor>
 
   <!-- Faction specific comms overrides -->
   <!-- EN: {0} squeals a string of curses into the microphone and disconnects. -->
-  <PigFactionGreetingHostile>TODO</PigFactionGreetingHostile>
+  <PigFactionGreetingHostile>{0}对着话筒吱吱喳喳地骂了一串，然后断开了连接。</PigFactionGreetingHostile>
   <!-- EN: Oinking angrily, {0} demands that you make a gesture of unity, like bringing gifts to one of {0_possessive} settlements or releasing {0_possessive} faction's prisoners unharmed. Until then, {0_pronoun} is unwilling to talk.\n\nSnorting an insult, {0_pronoun} disconnects. -->
-  <PigFactionGreetingHostileAppreciative>TODO</PigFactionGreetingHostileAppreciative>
+  <PigFactionGreetingHostileAppreciative>{0}愤怒地眨着眼睛要求你拿出诚意，比如给{0_possessive}的一个定居点带去礼物，或者毫发无伤地释放{0_possessive}派系的囚犯。在那之前，{0_pronoun}不愿意细谈。\n\n随着嗤之以鼻的侮辱，{0_pronoun}断开了连接。</PigFactionGreetingHostileAppreciative>
   <!-- EN: {0} oinks a greeting and asks what business you need done. -->
-  <PigFactionGreetingWary>TODO</PigFactionGreetingWary>
+  <PigFactionGreetingWary>{0}哼唧地问候，并询问你需要做什么生意。</PigFactionGreetingWary>
   <!-- EN: Oinking enthusiastically, {0} greets {NEGOTIATOR_labelShort} and asks what {LEADER_pronoun} can do to help you. -->
-  <PigFactionGreetingWarm>TODO</PigFactionGreetingWarm>
+  <PigFactionGreetingWarm>哼哧，{0}向{NEGOTIATOR_labelShort}问好，并询问{LEADER_pronoun}能做些什么来帮助你。</PigFactionGreetingWarm>
   <!-- EN: {0} agrees to send pigskin fighters to help you. -->
-  <PigMilitaryAidSent>TODO</PigMilitaryAidSent>
+  <PigMilitaryAidSent>{0}同意派猪皮战士来帮助你。</PigMilitaryAidSent>
 
   <!-- EN: {0} roars into the microphone and disconnects. -->
-  <YttakinFactionGreetingHostile>TODO</YttakinFactionGreetingHostile>
+  <YttakinFactionGreetingHostile>{0}对着话筒怒吼，然后断开连接。</YttakinFactionGreetingHostile>
   <!-- EN: Growling under {0_possessive} breath, {0} demands that you make a gesture of friendship, like bringing gifts to one of {0_possessive} settlements or releasing {0_possessive} faction's prisoners unharmed. Until then, {0_pronoun} is unwilling to talk.\n\nSnarling an insult, {0_pronoun} disconnects. -->
-  <YttakinFactionGreetingHostileAppreciative>TODO</YttakinFactionGreetingHostileAppreciative>
+  <YttakinFactionGreetingHostileAppreciative>{0_possessive}的呼吸像是在咆哮，{0}要求你拿出诚意，比如给{0_possessive}的一个定居点带去礼物，或者不受伤害地释放{0_possessive}派系的囚犯。在那之前，{0_pronoun}不愿意交谈。\n\n随着咆哮着侮辱，{0_pronoun}断开了连接。</YttakinFactionGreetingHostileAppreciative>
   <!-- EN: {0} grumbles a greeting to {NEGOTIATOR_labelShort} and asks why you are calling. -->
-  <YttakinFactionGreetingWary>TODO</YttakinFactionGreetingWary>
+  <YttakinFactionGreetingWary>{0}咕哝着向{NEGOTIATOR_labelShort}表示问候，并问你为什么打电话。</YttakinFactionGreetingWary>
   <!-- EN: {0} bellows a friendly greeting and asks what {LEADER_pronoun} can do to help you. -->
-  <YttakinFactionGreetingWarm>TODO</YttakinFactionGreetingWarm>
+  <YttakinFactionGreetingWarm>{0}发出友好的问候，并询问{LEADER_pronoun}能做些什么来帮助你。</YttakinFactionGreetingWarm>
 
   <!-- EN: {0} grunts angrily and disconnects. -->
-  <NeanderthalFactionGreetingHostile>TODO</NeanderthalFactionGreetingHostile>
+  <NeanderthalFactionGreetingHostile>{0}愤怒地哼了一声，断开了连接。</NeanderthalFactionGreetingHostile>
   <!-- EN: {0} grunts aggressively. Until you make a gesture of goodwill, {0_pronoun} will not do business with you. You can improve relations through a number of activities, like bringing gifts to one of {0_possessive} settlements or releasing {0_possessive} faction's prisoners unharmed.\n\n{0_pronoun} disconnects abruptly. -->
-  <NeanderthalFactionGreetingHostileAppreciative>TODO</NeanderthalFactionGreetingHostileAppreciative>
+  <NeanderthalFactionGreetingHostileAppreciative>{0}咄咄逼人地哼了一声。除非你释放足够的善意，否则{0_pronoun}不会与你做生意。你可以通过一些活动来改善关系，比如给{0_possessive}的一个定居点带去礼物，或者不受伤害地释放{0_possessive}派系的囚犯。\n\n{0_pronoun}突然断开连接。</NeanderthalFactionGreetingHostileAppreciative>
   <!-- EN: {0} grunts a greeting. -->
-  <NeanderthalFactionGreetingWary>TODO</NeanderthalFactionGreetingWary>
+  <NeanderthalFactionGreetingWary>{0}咕哝着打了个招呼。</NeanderthalFactionGreetingWary>
   <!-- EN: {0} grunts a warm greeting to {NEGOTIATOR_labelShort}. -->
-  <NeanderthalFactionGreetingWarm>TODO</NeanderthalFactionGreetingWarm>
+  <NeanderthalFactionGreetingWarm>{0}咕哝着向{NEGOTIATOR_labelShort}热情问好。</NeanderthalFactionGreetingWarm>
 
   <!-- EN: Max tier -->
-  <MaxTier>TODO</MaxTier>
+  <MaxTier>最高级别</MaxTier>
   <!-- EN: {PAWN_nameDef} has accumulated the maximum number of growth points. -->
-  <MaxTierDesc>TODO</MaxTierDesc>
+  <MaxTierDesc>{PAWN_nameDef}已经积累了最大数量的成长点数。</MaxTierDesc>
   <!-- EN: Progress to next growth tier -->
-  <ProgressToNextGrowthTier>TODO</ProgressToNextGrowthTier>
+  <ProgressToNextGrowthTier>到下一级别的进度。</ProgressToNextGrowthTier>
   <!-- EN: This growth tier -->
-  <ThisGrowthTier>TODO</ThisGrowthTier>
+  <ThisGrowthTier>当前成长评级</ThisGrowthTier>
   <!-- EN: Next growth tier -->
-  <NextGrowthTier>TODO</NextGrowthTier>
+  <NextGrowthTier>下一成长评级</NextGrowthTier>
   <!-- EN: Choose {0} passions from {1} options. -->
-  <NumPassionsFromOptions>TODO</NumPassionsFromOptions>
+  <NumPassionsFromOptions>从{1}可选项中选择{0}项兴趣。</NumPassionsFromOptions>
   <!-- EN: Choose {0} trait from {1} options. -->
-  <NumTraitsFromOptions>TODO</NumTraitsFromOptions>
+  <NumTraitsFromOptions>从{1}可选项中选择{0}项特性。</NumTraitsFromOptions>
   <!-- EN: Next growth moment at age -->
-  <NextGrowthMomentAt>TODO</NextGrowthMomentAt>
+  <NextGrowthMomentAt>下一成长阶段年龄</NextGrowthMomentAt>
 
   <!-- EN: no biotech buildings allowed -->
-  <RoomRequirementNoBiotechBuildings>TODO</RoomRequirementNoBiotechBuildings>
+  <RoomRequirementNoBiotechBuildings>没有可用的生物技术建筑。</RoomRequirementNoBiotechBuildings>
 
   <!-- EN: Bloodfeeding on {PAWN_nameDef} will result in serious blood loss, leaving {PAWN_objective} unconscious.\n\nAre you sure? -->
-  <WarningPawnWillHaveSeriousBloodlossFromBloodfeeding>TODO</WarningPawnWillHaveSeriousBloodlossFromBloodfeeding>
+  <WarningPawnWillHaveSeriousBloodlossFromBloodfeeding>对{PAWN_nameDef}汲血会导致{PAWN_objective}因严重失血而失去意识。\n\n你确定吗？</WarningPawnWillHaveSeriousBloodlossFromBloodfeeding>
   <!-- EN: Bloodfeeding on {PAWN_nameDef} will kill {PAWN_objective}.\n\nAre you sure? -->
-  <WarningPawnWillDieFromBloodfeeding>TODO</WarningPawnWillDieFromBloodfeeding>
+  <WarningPawnWillDieFromBloodfeeding>对{PAWN_nameDef}汲血会使{PAWN_objective}死亡。\n\n你确定吗？</WarningPawnWillDieFromBloodfeeding>
 
   <!-- EN: {0_labelShort} must have a tendable wound. -->
-  <AbilityMustHaveTendableWound>TODO</AbilityMustHaveTendableWound>
+  <AbilityMustHaveTendableWound>{0_labelShort}必须有可被包扎的伤口。</AbilityMustHaveTendableWound>
+
+  <!-- Abandon home (including mechs) -->
+  <!-- EN: Some of your colonists, animals or mechs are in this area. Are you sure you want to abandon it?\n\nThe following people, animals and mechs will be left behind:\n\n{0} -->
+  <ConfirmAbandonHomeWithColonyPawnsIncMechs>你的一些殖民者、动物或机械体都在这个区域。你确定你要放弃它吗？\n\n以下人员、动物和机械体将被遗弃\n\n{0}</ConfirmAbandonHomeWithColonyPawnsIncMechs><!-- text_todo -->
 
 </LanguageData>
