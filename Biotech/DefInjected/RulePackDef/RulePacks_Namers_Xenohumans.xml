@@ -36,7 +36,7 @@
     <li>End->drite</li>
   -->
   <NamerPersonDirtmole_Female.rulePack.rulesStrings>
-    <li>r_name->[firstName][Syl][End]</li>
+    <li>r_name->[firstName] [Syl][End]</li>
     <li>End->凯特</li>
     <li>End->琪蒂</li>
     <li>End->西黛</li>
@@ -170,7 +170,7 @@
     <li>nameEnd->nath</li>
   -->
   <NamerPersonImpid.rulePack.rulesStrings>
-    <li>r_name->[firstName][lastName]</li>
+    <li>r_name->[firstName] [lastName]</li>
     <li>firstName(p=0.5)->[SylI]</li>
     <li>firstName(p=2)->[SylI][nameEnd]</li>
     <li>firstName->[SylI][SylI][nameEnd]</li>
@@ -231,8 +231,8 @@
     <li>nameEnd->oin</li>
   -->
   <NamerPersonPigskin.rulePack.rulesStrings>
-    <li>r_name->[firstName][lastName]</li>
-    <li>r_name(p=2)->[firstName][nickName][lastName]</li>
+    <li>r_name->[firstName] [lastName]</li>
+    <li>r_name(p=2)->[firstName] '[nickName]' [lastName]</li>
     <li>maybeHyphen(p=4)-></li>
     <li>maybeHyphen->-</li>
     <li>firstName(p=1)->[SylP][nameEnd]</li>
@@ -296,8 +296,8 @@
     <li>End->y</li>
   -->
   <NamerPersonWaster.rulePack.rulesStrings>
-    <li>r_name->[firstName][lastName]</li>
-    <li>r_name->[firstName][nicknameWaster][lastName]</li>
+    <li>r_name->[firstName] [lastName]</li>
+    <li>r_name->[firstName] '[nicknameWaster]' [lastName]</li>
     <li>firstName->[Syl][Syl]</li>
     <li>firstName->[Syl]</li>
     <li>lastName->[Syl][End]</li>
@@ -356,7 +356,7 @@
     <li>nameEnd->yn</li>
   -->
   <NamerPersonYttakin.rulePack.rulesStrings>
-    <li>r_name->[firstName][lastName]</li>
+    <li>r_name->[firstName] [lastName]</li>
     <li>firstName(p=0.5)->[SylY]</li>
     <li>firstName(p=2)->[SylY][nameEnd]</li>
     <li>firstName->[SylY][SylY][nameEnd]</li>
