@@ -4,7 +4,7 @@
   <!-- EN: Uncontrolled mechs -->
   <AlertMechLacksOverseer>机械体未被控制</AlertMechLacksOverseer>
   <!-- EN: One or more of your mechanoids is not controlled. Connect your mechanoids to a mechanitor with sufficient bandwidth to control them.\n\nIf left uncontrolled for more than a day, a mechanoid could go feral. When this happens they will join {0} and become hostile to you. If one mechanoid goes feral, it will bring other nearby mechanoids with it.\n\nFeral mechanoids cannot be resurrected at a gestator when killed. -->
-  <AlertMechLacksOverseerDesc>你有至少一个机械体未被控制，你需要将它们连接至一名有足够带宽的机械师来使它们受控。\n\n如果机械体脱离控制的时间超过一天，机械体就会离线。当这种情况发生时，它们会加入{0}并与你敌对。如果一个机械体离线，它也会把附近其他的机械体带过来。\n\n离线的机械体不能在培育器中复生。</AlertMechLacksOverseerDesc>
+  <AlertMechLacksOverseerDesc>你有至少一个机械体未被控制，你需要将它们连接至一名有足够带宽的机械师来使它们受控。\n\n如果机械体脱离控制的时间超过一天，机械体就会离线。当这种情况发生时，它们会吸引附近的其他机械体，同时加入{0}与你敌对。\n\n离线的机械体不能在培育器中复生。</AlertMechLacksOverseerDesc>
   <!-- EN: The following mechanoids are uncontrolled -->
   <AlertMechLacksOverseerUncontrolled>以下机械体未受控制</AlertMechLacksOverseerUncontrolled>
   <!-- EN: The following mechanoids are uncontrolled and could go feral at any moment -->
@@ -75,7 +75,7 @@
   <!-- EN: Polluted terrain -->
   <AlertPollutedTerrain>受污染的地形</AlertPollutedTerrain>
   <!-- EN: A person or animal is suffering toxic buildup and is on polluted terrain. Any time someone is on polluted terrain, their toxic buildup will increase over time until they die.\n\nThese people or animals are affected:\n\n{0}\n\nKeep people off polluted terrain, or find a way to protect them from its effects. Certain apparel, implants and gene modifications can protect from toxic buildup. Polluted terrain cannot be covered using a floor, but it can be cleaned by hand and other methods. -->
-  <AlertPollutedTerrainDesc>一个人或动物因处于受污染的地形而中毒。任何时候，只要有人在受污染的地形上，毒素就会在他们体内累积，并随着时间的推移而逐渐加深，最终死亡。\n\n这些人或动物正受到影响：\n\n{0}\n\n让人们原理受污染的地区，或者想办法保护他们不受毒素影响。某些服装、植入物和基因修饰可以有效保护人们不受毒素影响。污染的地形不能通过铺设地板来覆盖，但可以手动或其他方式清理。</AlertPollutedTerrainDesc>
+  <AlertPollutedTerrainDesc>一个人或动物因处于受污染的地形而中毒。任何时候，只要有人在受污染的地形上，毒素就会在他们体内累积，并随着时间的推移而逐渐加深，最终死亡。\n\n这些人或动物正受到影响：\n\n{0}\n\n让人们远离受污染的地区，或者想办法保护他们不受毒素影响。某些服装、植入物和基因修饰可以有效保护人们不受毒素影响。污染的地形不能通过铺设地板来覆盖，但可以手动或其他方式清理。</AlertPollutedTerrainDesc>
 
   <!-- EN: Mechanoid missing part -->
   <AlertMechMissingBodyPart>机械体部件受损</AlertMechMissingBodyPart>
@@ -97,14 +97,14 @@
   <AlertToxifierGeneratorStoppedDesc>你的{0}因附近没有可供转换的肥沃土地而停止发电。\n\n使用清污泵清理受污染的地形，或是指定一个除污区。</AlertToxifierGeneratorStoppedDesc>
 
   <!-- EN: Psychic bond distance -->
-  <AlertPsychicBondedPawnsSeparated>心灵共鸣丢失</AlertPsychicBondedPawnsSeparated>
+  <AlertPsychicBondedPawnsSeparated>心灵纽带断开</AlertPsychicBondedPawnsSeparated>
   <!-- EN: Some colonists with psychic bonds have been separated and are feeling negative effects from the distance. To avoid this, people with a psychic bond must be in the same world tile, caravan, or vehicle. Additionally, they must not be in cryptosleep or similar suspended animation.\n\nThe following people are affected -->
   <AlertPsychicBondedPawnsSeparatedDesc>某些处于心灵共鸣的殖民者被分开了，并且会受到距离带来的负面影响。为了避免这种情况，心灵共鸣的单位必须处于同一个地图、远行队或载具中。此外，他们不能处于冷冻休眠或类似的休眠状态。\n\n以下人员受到影响</AlertPsychicBondedPawnsSeparatedDesc>
 
   <!-- EN: Gene bank needs power -->
   <AlertGenebankUnpowered>基因库需要通电</AlertGenebankUnpowered>
   <!-- EN: A gene bank is unpowered, so the genepacks inside it are slowly deteriorating. Restore power to the gene bank to prevent the genepacks from deteriorating.\n\nOnce the gene bank is powered, it will slowly reverse the deterioration of the genepacks inside it. -->
-  <AlertGenebankUnpoweredDesc>一个基因库断电了，位于其内的基因组正在缓慢劣化。恢复基因库的供电以放置基因组劣化。\n\n一旦基因库通电，它就能缓慢修复基因组的劣化。</AlertGenebankUnpoweredDesc>
+  <AlertGenebankUnpoweredDesc>一个基因库断电了，位于其内的基因组正在缓慢劣化。恢复基因库的供电以防止基因组劣化。\n\n一旦基因库通电，它就能缓慢修复基因组的劣化。</AlertGenebankUnpoweredDesc>
 
   <!-- EN: Deathrest complete -->
   <AlertDeathrestComplete>死眠完成</AlertDeathrestComplete><!-- text_todo -->
