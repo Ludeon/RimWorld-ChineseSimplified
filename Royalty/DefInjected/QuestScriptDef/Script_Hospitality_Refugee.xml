@@ -161,8 +161,8 @@
     <li>approachInfo(lodgerCount==2,childCount==1,priority=1)->[asker_nameDef]正带着一个孩子靠近。</li>
     <li>approachInfo(lodgerCount>=3)->[lodgerCount]名绝望的[faction_pawnsPlural]正在靠近， 他们的领袖是[asker_nameDef]。</li>
     <li>approachInfo(lodgerCount>=3,childCount==1,priority=1)->[lodgerCount]名穷途末路的[faction_pawnsPlural]正带着一个孩子靠近。他们的领袖是[asker_nameDef]。</li>
-    <li>approachInfo(lodgerCount>=3,childCount>=2,priority=1)->[lodgerCount]名穷途末路的[faction_pawnsPlural]正带着一些孩子靠近。他们的领袖是[asker_nameDef].</li>
-    <li>approachInfo(lodgerCount>=3,allButOneChildren==true,priority=2)->A group of [lodgerCount] desperate [faction_pawnsPlural] are approaching consisting of [asker_nameDef] and [lodgersCountMinusOne] children [asker_pronoun] has taken under [asker_possessive] wing.</li>
+    <li>approachInfo(lodgerCount>=3,childCount>=2,priority=1)->[lodgerCount]名穷途末路的[faction_pawnsPlural]正带着一些孩子靠近。他们的领袖是[asker_nameDef]。</li>
+    <li>approachInfo(lodgerCount>=3,allButOneChildren==true,priority=2)->[asker_nameDef]带着处于他保护下的[lodgersCountMinusOne]名孩子，和[lodgerCount]名穷途末路的[faction_pawnsPlural]正在靠近。</li>
     <li>claimInfo(lodgerCount==1)->[asker_nameDef] 声称[asker_possessive]在最近一次袭击中失去了家园。</li>
     <li>claimInfo(lodgerCount==1)->[asker_nameDef] 声称自己孤零零地从一个冷冻休眠舱中醒来。</li>
     <li>claimInfo(lodgerCount==1)->[asker_nameDef] 声称被[asker_possessive]前情人从家中赶了出来。</li>

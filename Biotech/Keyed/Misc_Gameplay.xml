@@ -116,9 +116,9 @@
 
   <!-- Sanguophage -->
   <!-- EN: hemogen -->
-  <Hemogen>血源质</Hemogen>
+  <Hemogen>血原质</Hemogen>
   <!-- EN: Hemogen is a biological energy source derived from compounds in human blood. Baseliner humans produce it endogenously and consume it over time in their own internal balance. Some human xenotypes use it as a kind of fuel for specific abilities, while others must consume it to survive at all. -->
-  <HemogenDesc>血源质是一种生物能源，来自于人类血液中的化合物。原生种会在体内内源性地产生它，并随着时间的推移在身体的内部循环中消耗它。一些异种人将其作为一种用于特定的能力燃料，而另一些则必须消耗它才能生存。</HemogenDesc>
+  <HemogenDesc>血原质是一种生物能源，来自于人类血液中的化合物。原生种会在体内内源性地产生它，并随着时间的推移在身体的内部循环中消耗它。一些异种人将其作为一种用于特定的能力燃料，而另一些则必须消耗它才能生存。</HemogenDesc>
   <!-- EN: deathrest capacity -->
   <DeathrestCapacity>死眠容量</DeathrestCapacity>
   <!-- EN: This determines how many deathrest buildings a person can connect to while deathresting. Each deathrest building confers a specific benefit, so it's better to be able to connect to more of them.\n\nDeathrest capacity can be increased using deathrest capacity serums. These serums can be purchased from traders. -->
@@ -134,7 +134,7 @@
   <!-- EN: {PAWN_nameDef} can now wake safely. -->
   <WakeExtraDesc_Safe>{PAWN_nameDef}现在能被安全唤醒。</WakeExtraDesc_Safe>
   <!-- EN: Cannot wake. Need at least {0} hemogen. -->
-  <CannotWakeNotEnoughHemogen>无法唤醒，至少需要{0}血源质。</CannotWakeNotEnoughHemogen>
+  <CannotWakeNotEnoughHemogen>无法唤醒，至少需要{0}血原质。</CannotWakeNotEnoughHemogen>
   <!-- EN: Auto-wake -->
   <AutoWake>自动唤醒</AutoWake>
   <!-- EN: When on, {PAWN_nameDef} will automatically wake once {PAWN_possessive} deathrest is complete.\n\nWhile off, {PAWN_pronoun} will continue deathresting until you wake {PAWN_objective} manually. -->
@@ -166,11 +166,11 @@
   <!-- EN: {PAWN_nameDef} should deathrest soon to avoid exhaustion. -->
   <PawnShouldDeathrestNow>为了避免疲惫，{PAWN_nameDef}需要尽快死眠。</PawnShouldDeathrestNow>
   <!-- EN: This determines whether {PAWN_nameDef} will automatically ingest hemogen packs when {PAWN_possessive} hemogen is below {MIN}.\n\nAutomatic ingestion is currently {ONOFF}. -->
-  <AutoTakeHemogenDesc>这决定了当{PAWN_nameDef}的血源质低于{MIN}时是否会自动摄入血源包。\n\n自动摄入目前{ONOFF}。</AutoTakeHemogenDesc><!-- text_todo -->
+  <AutoTakeHemogenDesc>这决定了当{PAWN_nameDef}的血原质低于{MIN}时是否会自动摄入血原包。\n\n自动摄入目前{ONOFF}。</AutoTakeHemogenDesc><!-- text_todo -->
   <!-- EN: Consume hemogen below -->
-  <ConsumeHemogenBelow>消耗血源质</ConsumeHemogenBelow>
+  <ConsumeHemogenBelow>消耗血原质</ConsumeHemogenBelow>
   <!-- EN: Never consume hemogen. -->
-  <NeverConsumeHemogen>不消耗血源质。</NeverConsumeHemogen>
+  <NeverConsumeHemogen>不消耗血原质。</NeverConsumeHemogen>
   <!-- EN: Will kill -->
   <WillKill>将会死亡</WillKill>
   <!-- EN: Will cause major blood loss -->
@@ -517,15 +517,15 @@
   <!-- EN: {0_labelShort} is not hemogenic. -->
   <AbilityDisabledNoHemogenGene>{0_labelShort}不是血之能力者。</AbilityDisabledNoHemogenGene>
   <!-- EN: {0_labelShort} does not have enough hemogen. -->
-  <AbilityDisabledNoHemogen>{0_labelShort}没有足够的血源质。</AbilityDisabledNoHemogen>
+  <AbilityDisabledNoHemogen>{0_labelShort}没有足够的血原质。</AbilityDisabledNoHemogen>
   <!-- EN: children cannot do this. -->
   <AbilityStartRitualDisabledChild>儿童无法执行。</AbilityStartRitualDisabledChild>
   <!-- EN: need a {0}. -->
   <AbilityStartRitualNoMembersOfIdeo>需要一名{0}。</AbilityStartRitualNoMembersOfIdeo>
   <!-- EN: Hemogen cost -->
-  <AbilityHemogenCost>血源质消耗</AbilityHemogenCost>
+  <AbilityHemogenCost>血原质消耗</AbilityHemogenCost>
   <!-- EN: Base hemogen gain -->
-  <AbilityHemogenGain>基础血源质获取</AbilityHemogenGain>
+  <AbilityHemogenGain>基础血原质获取</AbilityHemogenGain>
   <!-- EN: Smokepop charged -->
   <AbilityMechSmokepopCharged>烟雾已充能</AbilityMechSmokepopCharged>
   <!-- EN: Smokepop recharged in {0} -->
