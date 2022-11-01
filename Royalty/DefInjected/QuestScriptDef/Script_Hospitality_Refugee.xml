@@ -155,7 +155,7 @@
     <li>lodgersPossessive(lodgerCount>=2)->他们的</li>
     <li>lodgersSingularOrPluralDef(lodgerCount==1)->[asker_nameDef]</li>
     <li>lodgersSingularOrPluralDef(lodgerCount>=2)->[lodgersLabelPlural]</li>
-    <li>questDescription->[approachInfo] [claimInfo] [asker_nameDef] 请求你允许在 [map_definite] 待上 [questDurationTicks_duration] 来让[lodgersPronoun]能够重整旗鼓。\n\n作为回报， [lodgersPronoun] [offer] 在此期间内免费为你工作和战斗。\n\n[joinInfo] [lodgersPronoun] 可能会在过后酬谢你对[lodgersObjective]的帮助 —— 但你没有办法知晓[lodgersPossessive]的真实意图。\n\n[travelerInfo] 不属于任何派系。 如果你愿意，你可以选择杀害、逮捕、出售或者采割[lodgersObjective]， 并且不会产生任何外交后果。</li>
+    <li>questDescription->[approachInfo][claimInfo][asker_nameDef]请求你允许在[map_definite]待上 [questDurationTicks_duration]来让[lodgersPronoun]能够重整旗鼓。\n\n作为回报， [lodgersPronoun][offer] 在此期间内免费为你工作和战斗。\n\n[joinInfo][lodgersPronoun]可能会在过后酬谢你对[lodgersObjective]的帮助 ——但你没有办法知晓[lodgersPossessive]的真实意图。\n\n[travelerInfo]不属于任何派系。 如果你愿意，你可以选择杀害、逮捕、出售或者采割[lodgersObjective]，并且不会产生任何外交后果。</li>
     <li>approachInfo(lodgerCount==1)->名叫[asker_nameDef]的绝望的[faction_pawnSingular]正在靠近。</li>
     <li>approachInfo(lodgerCount==2)->[asker_nameDef]和其他绝望的[faction_pawnSingular]正在靠近。</li>
     <li>approachInfo(lodgerCount==2,childCount==1,priority=1)->[asker_nameDef]正带着一个孩子靠近。</li>
@@ -163,10 +163,10 @@
     <li>approachInfo(lodgerCount>=3,childCount==1,priority=1)->[lodgerCount]名穷途末路的[faction_pawnsPlural]正带着一个孩子靠近。他们的领袖是[asker_nameDef]。</li>
     <li>approachInfo(lodgerCount>=3,childCount>=2,priority=1)->[lodgerCount]名穷途末路的[faction_pawnsPlural]正带着一些孩子靠近。他们的领袖是[asker_nameDef]。</li>
     <li>approachInfo(lodgerCount>=3,allButOneChildren==true,priority=2)->[asker_nameDef]带着处于他保护下的[lodgersCountMinusOne]名孩子，和[lodgerCount]名穷途末路的[faction_pawnsPlural]正在靠近。</li>
-    <li>claimInfo(lodgerCount==1)->[asker_nameDef] 声称[asker_possessive]在最近一次袭击中失去了家园。</li>
-    <li>claimInfo(lodgerCount==1)->[asker_nameDef] 声称自己孤零零地从一个冷冻休眠舱中醒来。</li>
-    <li>claimInfo(lodgerCount==1)->[asker_nameDef] 声称被[asker_possessive]前情人从家中赶了出来。</li>
-    <li>claimInfo(lodgerCount==1)->[asker_nameDef] 声称因为和社区领袖争吵被驱逐。</li>
+    <li>claimInfo(lodgerCount==1)->[asker_nameDef]声称[asker_possessive]在最近一次袭击中失去了家园。</li>
+    <li>claimInfo(lodgerCount==1)->[asker_nameDef]声称自己孤零零地从一个冷冻休眠舱中醒来。</li>
+    <li>claimInfo(lodgerCount==1)->[asker_nameDef]声称被[asker_possessive]前情人从家中赶了出来。</li>
+    <li>claimInfo(lodgerCount==1)->[asker_nameDef]声称因为和社区领袖争吵被驱逐。</li>
     <li>claimInfo(lodgerCount>=2)->他们声称在最近一次袭击中失去了家园。</li>
     <li>claimInfo(lodgerCount>=2)->他们声称逃离了器官采割手术。</li>
     <li>claimInfo(lodgerCount>=2)->他们说他们是从一个奴隶商队中逃出来的。</li>
@@ -174,10 +174,10 @@
     <li>claimInfo(lodgerCount>=2)->他们说一场大风暴毁了他们的家园。</li>
     <li>claimInfo(lodgerCount>=2)->他们说他们的商队遭到袭击，所有的货物都被抢走了。</li>
     <li>claimInfo(lodgerCount>=2)->他们说由于道德观不同，他们被赶出了城镇。</li>
-    <li>joinInfo(lodgerCount==1)->如果你能让[asker_objective]开心， [asker_pronoun]可能会提议加入你。</li>
+    <li>joinInfo(lodgerCount==1)->如果你能让[asker_objective]开心，[asker_pronoun]可能会提议加入你。</li>
     <li>joinInfo(lodgerCount>=2)->如果你能让他们开心，他们中的一部分可能会提议加入你。</li>
-    <li>travelerInfo(lodgerCount==1)->这名 [faction_pawnSingular] </li>
-    <li>travelerInfo(lodgerCount>=2)->这些 [faction_pawnsPlural] </li>
+    <li>travelerInfo(lodgerCount==1)->这名[faction_pawnSingular]</li>
+    <li>travelerInfo(lodgerCount>=2)->这些[faction_pawnsPlural]</li>
   </Hospitality_Refugee.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName(lodgerCount==1)->[asker_nameDef] the [lodgerAdj]</li>
@@ -212,11 +212,11 @@
     <li>lodgerPlural->vagabonds</li>
   -->
   <Hospitality_Refugee.questNameRules.rulesStrings>
-    <li>questName(lodgerCount==1)->[lodgerAdj] [asker_nameDef]</li>
-    <li>questName(lodgerCount==1)->[athe] [lodgerAdj] [lodgerSingle]</li>
-    <li>questName(p=2,lodgerCount>=2)->[lodgerAdj] [lodgerPlural]</li>
-    <li>questName(lodgerCount>=2)->[asker_nameDef] 的 [lodgerAdj] [lodgerPlural]</li>
-    <li>questName(lodgerCount>=2)->[asker_nameDef] 的 [lodgerPlural]</li>
+    <li>questName(lodgerCount==1)->[lodgerAdj][asker_nameDef]</li>
+    <li>questName(lodgerCount==1)->[athe][lodgerAdj][lodgerSingle]</li>
+    <li>questName(p=2,lodgerCount>=2)->[lodgerAdj][lodgerPlural]</li>
+    <li>questName(lodgerCount>=2)->[asker_nameDef]的[lodgerAdj][lodgerPlural]</li>
+    <li>questName(lodgerCount>=2)->[asker_nameDef]的[lodgerPlural]</li>
     <li>athe->一位</li>
     <li>athe->这</li>
     <li>lodgerAdj->疲倦的</li>
@@ -308,7 +308,7 @@
     <li>questName->Betrayal offer: [factionOpponent_nameDef]</li>
   -->
   <RefugeeBetrayal.questNameRules.rulesStrings>
-    <li>questName->背叛提议： [factionOpponent_nameDef]</li>
+    <li>questName->背叛提议：[factionOpponent_nameDef]</li>
   </RefugeeBetrayal.questNameRules.rulesStrings>
   
   <!-- EN:
@@ -317,7 +317,7 @@
   -->
   <RefugeeDelayedReward.questContentRules.rulesStrings>
     <li>rewardLetterLabel->访客报酬</li>
-    <li>rewardLetterText->[rewardGiver_nameDef] 已经联系过你。 [rewardDelayTicks_duration] 之前， 你在[rewardGiver_objective]十分绝望的时候给与了帮助。\n\n后来，[rewardGiver_pronoun]靠着[rewardGiver_possessive]双腿重新站了起来， 现在 [rewardGiver_pronoun] 想要对你的帮助给与得体的报酬。 [rewardGiver_pronoun]通过空投舱向你发送了如下物资：\n\n[listOfRewards]</li>
+    <li>rewardLetterText->[rewardGiver_nameDef]已经联系过你。 [rewardDelayTicks_duration]之前， 你在[rewardGiver_objective]十分绝望的时候给与了帮助。\n\n后来，[rewardGiver_pronoun]靠着[rewardGiver_possessive]双腿重新站了起来， 现在[rewardGiver_pronoun]想要对你的帮助给与得体的报酬。 [rewardGiver_pronoun]通过空投舱向你发送了如下物资：\n\n[listOfRewards]</li>
   </RefugeeDelayedReward.questContentRules.rulesStrings>
   <!-- EN:
     <li>questDescription->a delayed reward for refugee quest</li>
