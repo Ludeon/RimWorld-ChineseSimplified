@@ -175,7 +175,7 @@
   <!-- EN: Save anyway? -->
   <SaveAnyway>无论如何也要保存吗？</SaveAnyway>
   <!-- EN: Ignoring restrictions allows you to create impossible gene combinations by exceeding biostat limits. It also gives you access to powerful archite genes, which can make the game very easy.\n\nAre you sure you want to ignore restrictions? -->
-  <IgnoreRestrictionsConfirmation>忽略限制允许你超出生物稳定性的限制来创造不可能的基因组合。它还能让你获得强大的超凡基因组，这可以使游戏变得非常容易。</IgnoreRestrictionsConfirmation>
+  <IgnoreRestrictionsConfirmation>忽略限制允许你超出生物稳定性的限制来创造不可能的基因组合。它还能让你获得强大的超凡基因组，这可以使游戏变得非常容易。\n\n你确定你你想要忽略这些限制么？</IgnoreRestrictionsConfirmation>
   <!-- EN: Colonists will always be within this developmental stage's age range when generated. -->
   <DevelopmentalAgeSelectionDesc>殖民者在生成时将总是处在此生命阶段的年龄范围内。</DevelopmentalAgeSelectionDesc>
   <!-- EN: Colonists will always carry the genes defined by this xenotype. -->
@@ -233,7 +233,7 @@
   <!-- EN: Recharge settings -->
   <MechRechargeSettingsTitle>充能设置</MechRechargeSettingsTitle>
   <!-- EN: Change when mechanoids will start and stop charging.\n\nMechanoids with energy below this range will automatically seek out a recharger. They will stop charging once they reach the top of this range. These settings only apply in work mode. -->
-  <MechRechargeSettingsExplanation>改变机械体开始和停止充电的时间。\n\n能量低于这个范围的机械人将自动寻找一个充电站。一旦它们达到这个范围的最大值，它们将停止充电。这些设置只适用于工作模式。</MechRechargeSettingsExplanation>
+  <MechRechargeSettingsExplanation>改变机械体开始和停止充电的时间。\n\n能量低于这个范围的机械体将自动寻找一个充电站。一旦它们达到这个范围的最大值，它们将停止充电。这些设置只适用于工作模式。</MechRechargeSettingsExplanation>
   <!-- EN: Work skill -->
   <MechWorkSkill>工作技能</MechWorkSkill>
   <!-- EN: The skill level that this mechanoid acts with. -->
@@ -309,7 +309,7 @@
   <!-- EN: {0} roars into the microphone and disconnects. -->
   <YttakinFactionGreetingHostile>{0}对着话筒怒吼，然后断开连接。</YttakinFactionGreetingHostile>
   <!-- EN: Growling under {0_possessive} breath, {0} demands that you make a gesture of friendship, like bringing gifts to one of {0_possessive} settlements or releasing {0_possessive} faction's prisoners unharmed. Until then, {0_pronoun} is unwilling to talk.\n\nSnarling an insult, {0_pronoun} disconnects. -->
-  <YttakinFactionGreetingHostileAppreciative>{0_possessive}的呼吸像是在咆哮，{0}要求你拿出诚意，比如给{0_possessive}的一个定居点带去礼物，或者不受伤害地释放{0_possessive}派系的囚犯。在那之前，{0_pronoun}不愿意交谈。\n\n随着咆哮着侮辱，{0_pronoun}断开了连接。</YttakinFactionGreetingHostileAppreciative>
+  <YttakinFactionGreetingHostileAppreciative>{0_possessive}呼吸像是在咆哮，{0}要求你拿出诚意，比如给{0_possessive}一个定居点带去礼物，或者不受伤害地释放{0_possessive}派系的囚犯。在那之前，{0_pronoun}不愿意交谈。\n\n随着咆哮着的侮辱，{0_pronoun}断开了连接。</YttakinFactionGreetingHostileAppreciative>
   <!-- EN: {0} grumbles a greeting to {NEGOTIATOR_labelShort} and asks why you are calling. -->
   <YttakinFactionGreetingWary>{0}咕哝着向{NEGOTIATOR_labelShort}表示问候，并问你为什么打电话。</YttakinFactionGreetingWary>
   <!-- EN: {0} bellows a friendly greeting and asks what {LEADER_pronoun} can do to help you. -->
@@ -342,7 +342,7 @@
   <NextGrowthMomentAt>下一成长阶段年龄</NextGrowthMomentAt>
 
   <!-- EN: no biotech buildings allowed -->
-  <RoomRequirementNoBiotechBuildings>没有可用的生物技术建筑。</RoomRequirementNoBiotechBuildings>
+  <RoomRequirementNoBiotechBuildings>不允许有生物技术建筑</RoomRequirementNoBiotechBuildings>
 
   <!-- EN: Bloodfeeding on {PAWN_nameDef} will result in serious blood loss, leaving {PAWN_objective} unconscious.\n\nAre you sure? -->
   <WarningPawnWillHaveSeriousBloodlossFromBloodfeeding>对{PAWN_nameDef}汲血会导致{PAWN_objective}因严重失血而失去意识。\n\n你确定吗？</WarningPawnWillHaveSeriousBloodlossFromBloodfeeding>
