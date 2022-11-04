@@ -4,44 +4,44 @@
   <!-- EN: band node -->
   <BandNode.label>基站</BandNode.label>
   <!-- EN: A mechanoid-band signal amplifier. Band nodes must be tuned to a specific mechanitor. This will add 1 bandwidth to that mechanitor's total bandwidth, allowing them to control more mechanoids.\n\nOnce a band node is constructed, it can be quickly tuned to a mechanitor. However, retuning a band node to a different mechanitor takes significantly longer. -->
-  <BandNode.description>一台用于机械族通信的信号放大器。基站必须调整指定的机械师服务对象。这将会为被服务的机械师增加1个总带宽上限，以便他们能控制更多的机械族。\n\n基站在被建造出来时需要选择一位机械师作为服务对象。但如果需要重设基站的服务对象的话往往需要更长的时间。</BandNode.description>
+  <BandNode.description>一台用于机械族通信的信号放大器。基站必须被调谐至特定的机械师。这将会为被调谐的机械师增加1带宽上限，允许他们控制更多的机械族。\n\n基站在完成建造之后可以快速调谐至一位机械师。但是，将基站重新调谐至一位不同的机械师需要长的多的时间。</BandNode.description>
   
   <!-- EN: mechband antenna -->
   <BurnoutMechlinkBooster.label>射频天线</BurnoutMechlinkBooster.label>
   <!-- EN: A mech-band signaling device. When activated, it puts out a powerful mech signal pulse, which will attract an ultra-heavy feral mechanoid to attack with its escorts. If you can defeat it, you can collect special technologies from its corpse. The signal pulse burns out the transmitter, so this building can only be used once. -->
-  <BurnoutMechlinkBooster.description>一种普通的用于进行机械频段通信的设备。当它被激活时会释放一次强大的频段脉冲，这将吸引一个战争女皇以及它指挥的护卫队一起发动一次袭击。如果你能打败它就能从它的残骸上收集到特殊的技术装置。释放强大信号脉冲的同时也会烧毁此设备并让其彻底报废。</BurnoutMechlinkBooster.description>
+  <BurnoutMechlinkBooster.description>一种机械频段通信设备。当它被激活时会释放一次强大的机械讯号脉冲，这将吸引一个超重型敌对机械体以及它的护卫队一起发动攻击。如果你能打败它就能从它的残骸上收集到特殊的技术装置。讯号脉冲会烧毁传讯器，所以这个建筑只能一次性使用。</BurnoutMechlinkBooster.description>
   <!-- EN: Summon warqueen threat -->
   <BurnoutMechlinkBooster.comps.CompUsable.useLabel>召唤战争女皇</BurnoutMechlinkBooster.comps.CompUsable.useLabel>
   
   <!-- EN: gene assembler -->
   <GeneAssembler.label>基因装配器</GeneAssembler.label>
   <!-- EN: A workbench for creating implantable xenogerms from genepacks stored in nearby gene banks. Genepacks are not consumed in this process and can be reused. -->
-  <GeneAssembler.description>一个用于将储存在链接基因库的基因组用于创建可用于植入改造的异种胚芽的工作站。基因组在此创建过程中并不会被消耗，可重复使用。</GeneAssembler.description>
+  <GeneAssembler.description>一个能混合储存在相连基因库中的基因组，将其用于创建可植入的异种胚芽的工作站。基因组在这一过程中不会被消耗，且能重复使用。</GeneAssembler.description>
   
   <!-- EN: gene bank -->
   <GeneBank.label>基因库</GeneBank.label>
   <!-- EN: This building can store genepacks and make them usable to create new xenogerms, when placed near a gene assembler. Large gene libraries require many gene banks.\n\nWhen powered, gene banks prevent genepacks from deteriorating and will slowly repair deterioration. -->
-  <GeneBank.description>一台可以储存基因组的设备，储存在其中的基因组会在基因库链接了基因装配器后用于装配出新的异种胚芽。储存大量基因时往往需要很多基因库。\n\n当提供电力时，基因库可以防止基因组的劣化，同时也会缓慢的修复这种劣化。</GeneBank.description>
+  <GeneBank.description>这一建筑可以储存基因组，并且当安置在基因装配器附近时，将它们用于创建新异种胚芽。大型基因档案馆往往需要很多基因库。\n\n正常供电的基因库可以防止基因组的劣化，并缓慢的修复这种劣化。</GeneBank.description>
   
   <!-- EN: gene extractor -->
   <GeneExtractor.label>基因提取器</GeneExtractor.label>
   <!-- EN: An automated surgery machine that can extract a person's genes and create a genepack from them. The extracted genes will be randomly selected from the person's xenogenes and germline genes. You can force someone into the machine, but they won't like it.\n\nExtracting a person's genes while their genes are currently regrowing will kill them. Otherwise, gene extraction causes no lasting harm.\n\nGenes that require archite capsules are too complex to be extracted. -->
-  <GeneExtractor.description>一台可以提取殖民者的基因并将其创建为基因组的设备。提取的基因将从异种基因和系谱基因中随机选择。你可以强迫某人进入这台机器，但他们不会喜欢你这么干的。\n\n如果在殖民者正在进行基因重构的时候提取基因的话会导致该殖民者的死亡。除此之外，正常的提取基因不会带来任何后遗症。\n\n利用超凡胶囊创造的基因因太过于复杂所以无法被提取。</GeneExtractor.description>
+  <GeneExtractor.description>一台可以提取一个人的基因并将其创建为基因组的设备。提取的基因将从异种基因和系谱基因中随机选择。你可以强迫某人进入这台机器，但他们不会喜欢这种行为。\n\n在一个人正在进行基因重构的时候提取基因会致其死亡。除此之外，正常的提取基因不会造成永久伤害。\n\n利用超凡胶囊创造的基因因太过于复杂所以无法被提取。</GeneExtractor.description>
   
   <!-- EN: gene processor -->
   <GeneProcessor.label>基因处理器</GeneProcessor.label>
   <!-- EN: A genetic analysis and processing system. Placed near a gene assembler, it increases the maximum genetic complexity of the xenogerms you can assemble. Building multiple gene processors will increase the genetic complexity limit further. -->
-  <GeneProcessor.description>一台用于分析处理遗传学信息的设备。将其放置在基因装配器旁可以增加异种胚芽的装配遗传复杂度的上限。多个基因处理器可进一步提高基因装配器装配的异种胚芽的遗传复杂度的上限。</GeneProcessor.description>
+  <GeneProcessor.description>一台用于分析处理基因信息的设备。将其放置在基因装配器旁可以增加所能装配的异种胚芽基因复杂度的上限。建造多个基因处理器可进一步提高异种胚芽基因复杂度的上限。</GeneProcessor.description>
   
   <!-- EN: growth vat -->
   <GrowthVat.label>培育舱</GrowthVat.label>
   <!-- EN: A vat of fluid which can gestate an embryo or accelerate a child's growth.\n\nWhile growing or gestating, the vat must be fed with a constant supply of nutrition to provide the feedstock for growth. Gestating an embryo takes twice the nutrition of accelerating a child's growth.\n\nEmbryos are gestated for 9 days before a baby is formed. There is a risk of health complications.\n\nChild growth can only be accelerated up to age 18, but not beyond. While growing, a child's skills will slowly increase. Children raised in growth vats will have lower skills and gain fewer passions than normal.\n\nThe device uses chemical injections, electrical stimulation, and simple mechanite treatments to push the body to grow. Growth vats are often used to quickly manufacture engineered workers or warriors. -->
-  <GrowthVat.description>一个装满能加速儿童成长或是代育胚胎的培养液的舱体。\n\n在加速或代育过程中，缸内必须定期注入营养物以提供有机体成长所需的养分。而代育胚胎消耗的养分量是加速儿童成长消耗量的两倍。\n\n代育的胚胎需要9天的时间以成长为婴儿。同时以这种方式孕育的婴儿有获得遗传并发症的风险。\n\n同时，儿童只能在18岁前使用培育舱加速成长进程且当其发育到18岁后便会自然终止加速进程。那些自然成长的儿童的技能水平会随着时间的推进而不断成长。但是在培育舱里长大的儿童的技能水平和兴趣度都会比这种经历了自然生长过程的儿童更为滞后。\n\n这种设备使用化学注射、电刺激和简单的机械改造来推动躯体的成长。所以培育舱经常被用来快速批量的制造工人或是士兵。</GrowthVat.description>
+  <GrowthVat.description>一个填充有营养液，能代育胚胎或者加速儿童成长的舱体。\n\n在加速或代育过程中，舱体必须必须得到持续的养分供给以满足成长所需。代育胚胎消耗的养分量是加速儿童成长的两倍。\n\n代育的胚胎需要9天的时间以成长为婴儿。并且有可能伴随并发症。\n\n儿童只能被培育舱加速成长至18岁。加速成长时，儿童的技能水准会缓慢提升。相比自然长大的儿童，在培育舱中长大的儿童技能水准更低，兴趣也更少。\n\n这种设备使用化学注射、电刺激和简单的机械疗法来促进躯体成长。培育舱经常被用来快速制造改造过的工人或是士兵。</GrowthVat.description>
   
   <!-- EN: mechband dish -->
   <MechbandDish.label>碟形天线</MechbandDish.label>
   <!-- EN: A mech-band signaling device more powerful than the normal mechlink antenna. When activated, it puts out an ultra-powerful mech signal pulse, which will attract a mechanoid commander to attack with its escorts. If you can defeat it, you can collect special technologies from its corpse. The signal pulse burns out the dish, so this building can only be used once. -->
-  <MechbandDish.description>一种比普通的机控中枢更强大的机械频段通信设备。当它被激活时会释放一次强大的频段脉冲，这将会吸引憎恶毒蜂以及它指挥的护卫队一起发动一次袭击。如果你能打败它就能从它的残骸上收集到特殊的技术装置。释放强大信号脉冲的同时也会烧毁此设备并让其彻底报废。</MechbandDish.description>
+  <MechbandDish.description>一种比普通的射频天线更强大的机械频段通信设备。当它被激活时会释放一次极端强大的频段脉冲，这将会吸引一个机械族指挥官以及它的护卫队一起发动攻击。如果你能打败它就能从它的残骸上收集到特殊的技术装置。讯号脉冲会烧毁天线碟，所以这个建筑只能一次性使用。</MechbandDish.description>
   <!-- EN: Summon apocriton threat -->
   <MechbandDish.comps.CompUsable.useLabel>召唤憎恶毒蜂</MechbandDish.comps.CompUsable.useLabel>
   
