@@ -46,7 +46,7 @@
   <!-- EN: bandwidth -->
   <BandwidthLower>带宽</BandwidthLower>
   <!-- EN: A mechanitor can only oversee a mech if there is enough bandwidth to do so. Each mech consumes a different amount of bandwidth.\n\nGain more bandwidth by constructing band nodes and tuning the mechanitor to them, or by equipping special mechanitor apparel. -->
-  <BandwidthGizmoTip>机械师只有在带宽足够的情况下才能监管机械体。每种不同的机械体会占用不同的带宽。\n\n通过建造基站连接机械师或使用某些特殊的机械师服装都可以获得更多带宽。</BandwidthGizmoTip>
+  <BandwidthGizmoTip>机械师只有在带宽足够的情况下才能监管机械体。每种不同的机械体会占用不同的带宽。\n\n通过建造频带节点连接机械师或使用某些特殊的机械师服装都可以获得更多带宽。</BandwidthGizmoTip>
   <!-- EN: Control group -->
   <ControlGroup>控制组</ControlGroup>
   <!-- EN: Current mode -->
@@ -62,9 +62,9 @@
   <!-- EN: Retune -->
   <BandNodeRetuneTo>重新调整</BandNodeRetuneTo>
   <!-- EN: Tune this band node to a mechanitor. Tuning will take {0} to complete. -->
-  <BandNodeTuningDesc>调整此基站连接至一名机械师，调整过程会持续{0}。</BandNodeTuningDesc>
+  <BandNodeTuningDesc>调整此频带节点连接至一名机械师，调整过程会持续{0}。</BandNodeTuningDesc>
   <!-- EN: Retune this band node to another mechanitor. Retuning will take {0} to complete. -->
-  <BandNodeRetuningDesc>重新调整此基站连接至另一名机械师，调整过程会持续{0}。</BandNodeRetuningDesc>
+  <BandNodeRetuningDesc>重新调整此频带节点连接至另一名机械师，调整过程会持续{0}。</BandNodeRetuningDesc>
   <!-- EN: Removing {0} will change {1_labelShort}'s bandwidth from {2} to {3}. This will mean the following mechs will no longer be under control -->
   <DropThingBandwidthApparel>移除{0}会使{1_labelShort}的带宽从{2}变为{3}。这意味着这些机械体将不再处于其控制下</DropThingBandwidthApparel>
   <!-- EN: no mechs -->
