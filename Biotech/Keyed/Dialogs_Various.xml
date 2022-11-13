@@ -22,12 +22,14 @@
   <ConfirmInstallMechlink>机械师必须具备锻造能力才能制造机械体\n\n你确定要继续吗？</ConfirmInstallMechlink>
   <!-- EN: insufficient bandwidth -->
   <InsufficientBandwidth>带宽不足</InsufficientBandwidth>
+  <!-- EN: The following mechs have been left behind by {PAWN_labelShort}:\n\n{MECHS}\n\nThe mechs will stay here until they are picked up.\n\nWould you like to set their work mode to escort so they follow {PAWN_labelShort} off the map? -->
+  <MechanitorLeftMapWithoutMechs>以下机械体被{PAWN_labelShort}留下：\n\n{MECHS}\n\n这些机械人将留在这里，直到他们被接管。\n\n您是否愿意将他们的工作模式设置为护送，以便他们跟随{PAWN_labelShort}离开地图？</MechanitorLeftMapWithoutMechs><!-- text_todo -->
 
   <!-- Apparel -->
   <!-- EN: Any mechlord apparel -->
-  <ApparelRequirementAnyMechlordApparel>任意机械领主服装</ApparelRequirementAnyMechlordApparel> <!-- text_todo -->
+  <ApparelRequirementAnyMechlordApparel>任意机械领主服装</ApparelRequirementAnyMechlordApparel>
   <!-- EN: or any psycaster, prestige, or mechlord apparel -->
-  <ApparelRequirementOrAnyPsycasterOrPrestigeApparelOrMechlord>或者任意灵质、贵族、机械领主服装</ApparelRequirementOrAnyPsycasterOrPrestigeApparelOrMechlord> <!-- text_todo -->
+  <ApparelRequirementOrAnyPsycasterOrPrestigeApparelOrMechlord>或者任意灵质、贵族、机械领主服装</ApparelRequirementOrAnyPsycasterOrPrestigeApparelOrMechlord>
 
   <!-- Mech gestator -->
   <!-- EN: Gestation cycles completed -->
@@ -38,6 +40,8 @@
   <!-- Subcore scanner -->
   <!-- EN: Ripscanning {PAWN_nameDef} will kill {PAWN_objective}. Are you sure you want to continue? -->
   <ConfirmRipscanPawn>裂解扫描{PAWN_nameDef}将会杀死{PAWN_objective}。你确定想要继续吗？</ConfirmRipscanPawn>
+  <!-- EN: Cancelling a ripscan will still kill {PAWN_nameDef}. Are you sure you want to continue? -->
+  <ConfirmCancelRipscan>取消裂解扫描仍然会杀死{PAWN_nameDef}。你确定想要继续吗？</ConfirmCancelRipscan><!-- text_todo -->
 
   <!-- Xenogerm -->
   <!-- EN: Assemble genes -->
@@ -241,7 +245,7 @@
   <!-- EN: Any mech -->
   <AnyMech>任意机械体</AnyMech>
   <!-- EN: Any human -->
-  <AnyNonMech>任意人类</AnyNonMech> <!-- text_todo -->
+  <AnyNonMech>任意人类</AnyNonMech>
   <!-- EN: Your caravan contains a mechanoid but not their overseer. You will have limited control over the mechanoid when you reach your destination. -->
   <CaravanLacksMechMechanitorWarning>你的商队中有机械体，但没有他们的监管者。当你到达目的地时，你对机械体的控制将是有限的。</CaravanLacksMechMechanitorWarning>
   <!-- EN: Mechanoids -->
@@ -353,7 +357,7 @@
   <AbilityMustHaveTendableWound>{0_labelShort}必须有可被包扎的伤口。</AbilityMustHaveTendableWound>
 
   <!-- Abandon home (including mechs) -->
-  <!-- EN: Some of your colonists, animals or mechs are in this area. Are you sure you want to abandon it?\n\nThe following people, animals and mechs will be left behind:\n\n{0} -->
-  <ConfirmAbandonHomeWithColonyPawnsIncMechs>你的一些殖民者、动物或机械体都在这个区域。你确定你要放弃它吗？\n\n以下人员、动物和机械体将被遗弃\n\n{0}</ConfirmAbandonHomeWithColonyPawnsIncMechs><!-- text_todo -->
+  <!-- EN: Some of your colonists, animals or mechanoids are in this area. Are you sure you want to abandon it?\n\nThe following people, animals and mechs will be left behind:\n\n{0} -->
+  <ConfirmAbandonHomeWithColonyPawnsIncMechs>你的一些殖民者、动物或机械体都在这个区域。你确定你要放弃它吗？\n\n以下人员、动物和机械体将被遗弃\n\n{0}</ConfirmAbandonHomeWithColonyPawnsIncMechs>
 
 </LanguageData>
