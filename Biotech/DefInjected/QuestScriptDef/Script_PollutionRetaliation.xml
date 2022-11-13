@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>retaliationLetterLabel->wastepack retaliation</li>
+    <li>retaliationLetterLabel(senderIsNull==False)->[sender_faction_pawnSingular] wastepack retaliation</li>
+    <li>retaliationLetterLabel(senderIsNull==False,sender_royalInCurrentFaction==False)->[sender_nameDef]'s wastepack retaliation</li>
+    <li>retaliationLetterText(senderIsNull==True)->Your pollution has not gone unnoticed, angered neighbours are bombarding your base with toxic wastepacks.\n\nIf not kept frozen, toxic wastepacks will dissolve over time, polluting nearby terrain.</li>
+    <li>retaliationLetterText(sender_royalInCurrentFaction==True)->[sender_nameFull], a [sender_royalTitleInCurrentFaction] of [sender_faction_name] is bombarding your base with toxic wastepacks. [sender_pronoun] claims that your reckless polluting has done harm to [sender_possessive] faction.\n\nIf not kept frozen, toxic wastepacks will dissolve over time, polluting nearby terrain.</li>
+    <li>retaliationLetterText(sender_factionLeader==True)->[sender_faction_leaderTitle] [sender_nameFull] of [sender_faction_name] is bombarding your base with toxic wastepacks. [sender_pronoun] claims that your reckless polluting has done harm to [sender_possessive] faction.\n\nIf not kept frozen, toxic wastepacks will dissolve over time, polluting nearby terrain.</li>
+  -->
+  <PollutionRetaliation.questContentRules.rulesStrings>
+    <li>retaliationLetterLabel->有毒垃圾报复</li>
+    <li>retaliationLetterLabel(senderIsNull==False)->[sender_faction_pawnSingular] 有毒垃圾报复</li>
+    <li>retaliationLetterLabel(senderIsNull==False,sender_royalInCurrentFaction==False)->[sender_nameDef]的有毒垃圾报复</li>
+    <li>retaliationLetterText(senderIsNull==True)->你的污染并没有被忽视，愤怒的邻居们正用有毒垃圾轰炸你的基地。\n\n如果不保持冻结，有毒垃圾会随着时间的推移而溶解，污染附近的地形。</li>
+    <li>retaliationLetterText(sender_royalInCurrentFaction==True)->[sender_faction_name]的一名[sender_royalTitleInCurrentFaction]， [sender_nameFull] 正用有毒垃圾轰炸你的基地。 [sender_pronoun]声称你们不计后果的污染行为已经伤害了[sender_possessive]的派系。\n\n如果不保持冻结，有毒垃圾会随着时间的推移而溶解，污染附近的地形。</li>
+    <li>retaliationLetterText(sender_factionLeader==True)->[sender_faction_name]的[sender_faction_leaderTitle]， [sender_nameFull] 正用有毒垃圾轰炸你的基地。 [sender_pronoun]声称你们不计后果的污染行为已经伤害了[sender_possessive]派系。\n\n如果不保持冻结，有毒垃圾会随着时间的推移而溶解，污染附近的地形。</li>
+  </PollutionRetaliation.questContentRules.rulesStrings>
+  <!-- EN:
+    <li>questDescription->pollutionretaliation</li>
+  -->
+  <PollutionRetaliation.questDescriptionRules.rulesStrings>
+    <li>questDescription->垃圾报复</li>
+  </PollutionRetaliation.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questDescription->pollutionretaliation</li>
+  -->
+  <PollutionRetaliation.questNameRules.rulesStrings>
+    <li>questDescription->垃圾报复</li>
+  </PollutionRetaliation.questNameRules.rulesStrings>
+  
+</LanguageData>
