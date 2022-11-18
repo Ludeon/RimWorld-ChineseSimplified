@@ -10,6 +10,11 @@
   <!-- EN: unclothed -->
   <StatsReport_Unclothed>未着衣</StatsReport_Unclothed>
 
+  <!-- EN: Age rate multiplier -->
+  <StatsReport_AgeRateMultiplier>衰老率</StatsReport_AgeRateMultiplier><!-- text_todo -->
+  <!-- EN: A multiplier on how quickly this person ages biologically based on their current age. -->
+  <StatsReport_AgeRateMultiplier_Desc>根据这个人目前的年龄，这个人在生物学上衰老的速度的倍数。</StatsReport_AgeRateMultiplier_Desc><!-- text_todo -->
+
   <!-- EN: Required weight class -->
   <StatsReport_RechargerWeightClass>重量级</StatsReport_RechargerWeightClass>
   <!-- EN: The weight class of mechanoid which can use this recharger. The following mechanoids are compatible -->
@@ -84,6 +89,10 @@
   <NeverAggroMentalBreak>精神崩溃不会有暴力行为。</NeverAggroMentalBreak>
   <!-- EN: {0_label} addiction chance factor -->
   <AddictionChanceFactor>{0_label}成瘾几率系数</AddictionChanceFactor>
+  <!-- EN: {0_label} overdose chance factor -->
+  <OverdoseChanceFactor>过量几率系数</OverdoseChanceFactor><!-- text_todo -->
+  <!-- EN: {0_label} tolerance buildup factor -->
+  <ToleranceBuildupFactor>{0_label}抗药性增长系数</ToleranceBuildupFactor><!-- text_todo -->
   <!-- EN: Immune to {0_label} addiction. -->
   <AddictionImmune>免疫{0_label}成瘾。</AddictionImmune>
   <!-- EN: Immune to food poisoning. -->
@@ -120,6 +129,15 @@
   <DevelopmentStage_Adult>成人</DevelopmentStage_Adult>
 
   <!-- EN: Growth vat speed -->
-  <StatsReport_GrowthVatSpeedFactor>培育速度</StatsReport_GrowthVatSpeedFactor><!-- text_todo -->
+  <StatsReport_GrowthVatSpeedFactor>培育速度</StatsReport_GrowthVatSpeedFactor>
+
+  <!-- EN: Carriers cannot build a tolerance to {0_label}. -->
+  <GeneToleranceBuildupImmune>不会对{0_label}产生抗药性。</GeneToleranceBuildupImmune><!-- text_todo -->
+  <!-- EN: Carriers build a tolerance to {0_label} {1} as quickly. -->
+  <GeneToleranceBuildupFactor>对{0_label}产生抗药性更快（{1}）。</GeneToleranceBuildupFactor><!-- text_todo -->
+  <!-- EN: Carriers cannot overdose on {0_label}. -->
+  <GeneOverdoseImmune>不会因{0_label}产生药物过量。</GeneOverdoseImmune><!-- text_todo -->
+  <!-- EN: Carriers are {1} as likely to overdose on {0_label}. -->
+  <GeneOverdoseFactor>因{0_label}产生药物过量更快（{1}）。</GeneOverdoseFactor><!-- text_todo -->
 
 </LanguageData>
