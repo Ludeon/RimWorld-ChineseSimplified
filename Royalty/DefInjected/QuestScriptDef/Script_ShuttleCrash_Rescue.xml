@@ -60,7 +60,7 @@
   <!-- EN:
     <li>pawnLabelSingleOrPlural(civilians_count==1)->[pawnLabel]</li>
     <li>pawnLabelSingleOrPlural(civilians_count>=2)->[pawnLabelPlural]</li>
-    <li>questDescription->A shuttle of [asker_faction_name] has taken damage and is seeking a place to land. Its commander [asker_nameDef] wants to land at [map_definite].\n\n[enemyFaction_pawnsPlural] from [enemyFaction_name] will attack the crashed shuttle site in an attempt to kill its occupants. You must defend them.\n\nThe shuttle contains [asker_nameDef][andOtherCivilians] and [soldierCountKinds]. The commander [andCivilians] must be rescued, but the [soldiers0_kind]s may be sacrificed.\n\nAfter [rescueDelay_duration], a rescue shuttle will come to pick up the survivors. You'll need to get them all on board within [leaveDelay_duration].</li>
+    <li>questDescription->A shuttle of [asker_faction_name] has taken damage and is seeking a place to land. Its commander [asker_nameDef] wants to land at [map_definite].\n\n[enemyFaction_pawnsPlural] from [enemyFaction_name] will attack the crashed shuttle site in an attempt to kill its occupants. You must defend them.\n\nThe shuttle contains [asker_nameDef][andOtherCivilians] and [soldierCountKinds]. The commander [andCivilians] must be rescued, but the [soldiers0_kindPlural] may be sacrificed.\n\nAfter [rescueDelay_duration], a rescue shuttle will come to pick up the survivors. You'll need to get them all on board within [leaveDelay_duration].</li>
     <li>andOtherCivilians(civilians_count==1)-></li>
     <li>andOtherCivilians(civilians_count==2)->, another [pawnLabel],</li>
     <li>andOtherCivilians(civilians_count>=3)->, [civilianCountMinusOne] other [pawnLabelSingleOrPlural],</li>
@@ -68,12 +68,12 @@
     <li>andCivilians(civilians_count==2)->and [pawnLabel]</li>
     <li>andCivilians(civilians_count>=3)->and [pawnLabelPlural]</li>
     <li>soldierCountKinds(soldiers_count==1)->[soldiers_count] [soldiers0_kind]</li>
-    <li>soldierCountKinds(soldiers_count>1)->[soldiers_count] [soldiers0_kind]s</li>
+    <li>soldierCountKinds(soldiers_count>1)->[soldiers_count] [soldiers0_kindPlural]</li>
   -->
   <ShuttleCrash_Rescue.questDescriptionRules.rulesStrings>
     <li>pawnLabelSingleOrPlural(civilians_count==1)->[pawnLabel]</li>
     <li>pawnLabelSingleOrPlural(civilians_count>=2)->[pawnLabelPlural]</li>
-    <li>questDescription->一艘属于[asker_faction_name]的受损飞船正在寻找着陆位置。飞船的指挥官[asker_nameDef]希望让飞船降落在[map_definite]。\n\n[enemyFaction_name]的[enemyFaction_pawnsPlural]会攻击坠毁的飞船以试图杀死其中的平民，你需要保护他们。\n\n这艘飞船的人员包括[asker_nameDef][andOtherCivilians]和[soldierCountKinds]。你需要保护指挥者[andCivilians]，但可以牺牲[soldiers0_kind]。\n\n在[rescueDelay_duration]之后，会有一艘救援飞船来接幸存者，你需要在在[leaveDelay_duration]让他们登上飞船。</li>
+    <li>questDescription->一艘属于[asker_faction_name]的受损飞船正在寻找着陆位置。飞船的指挥官[asker_nameDef]希望让飞船降落在[map_definite]。\n\n[enemyFaction_name]的[enemyFaction_pawnsPlural]会攻击坠毁的飞船以试图杀死其中的平民，你需要保护他们。\n\n这艘飞船的人员包括[asker_nameDef][andOtherCivilians]和[soldierCountKinds]。你需要保护指挥者[andCivilians]，但可以牺牲[soldiers0_kindPlural]。\n\n在[rescueDelay_duration]之后，会有一艘救援飞船来接幸存者，你需要在在[leaveDelay_duration]让他们登上飞船。</li>
     <li>andOtherCivilians(civilians_count==1)-></li>
     <li>andOtherCivilians(civilians_count==2)->，[pawnLabel]</li>
     <li>andOtherCivilians(civilians_count>=3)->，[civilianCountMinusOne]，其他[pawnLabelSingleOrPlural]</li>
@@ -81,7 +81,7 @@
     <li>andCivilians(civilians_count==2)->和[pawnLabel]</li>
     <li>andCivilians(civilians_count>=3)->和[pawnLabelPlural]</li>
     <li>soldierCountKinds(soldiers_count==1)->[soldiers_count][soldiers0_kind]</li>
-    <li>soldierCountKinds(soldiers_count>1)->[soldiers_count][soldiers0_kind]</li>
+    <li>soldierCountKinds(soldiers_count>1)->[soldiers_count][soldiers0_kindPlural]</li>
   </ShuttleCrash_Rescue.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[shuttle] [crash]</li>
