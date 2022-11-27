@@ -27,6 +27,8 @@
   <MessageAbsorbingXenogermWillAngerFaction>吸收{PAWN_nameDef}的异种胚芽将激怒{0}。</MessageAbsorbingXenogermWillAngerFaction>
   <!-- EN: {ABILITY_label} can only be used on colonists, prisoners, and slaves. -->
   <MessageCannotUseOnOtherFactions>{ABILITY_label}只能用于殖民者、囚犯和奴隶。</MessageCannotUseOnOtherFactions>
+  <!-- EN: {0_labelShort} refuses to become a disliked xenotype. -->
+  <MessageCannotBecomeNonPreferredXenotype>{0_labelShort}拒绝成为非推崇的异种人。</MessageCannotBecomeNonPreferredXenotype>
 
   <!-- EN: Auto-adding {MECH_nameDef} to the caravan, since it is escorting {OVERSEER_nameDef} -->
   <MessageCaravanAddingEscortingMech>自动向远行队添加{MECH_nameDef}，因为它正在护卫{OVERSEER_nameDef}</MessageCaravanAddingEscortingMech> 
@@ -37,12 +39,14 @@
   <MessageMechanitorCasketOpened>{0}是一个机械师。你可以提取{0_possessive}{1_label}并将其用于殖民者。</MessageMechanitorCasketOpened>
   
   <!-- EN: Some prisoners' interaction mode required a bloodfeeder. Since the last bloodfeeder is gone, their interaction modes have reset to "No interaction". -->
-  <MessageNoBloodfeedersPrisonerInteractionReset>有些囚犯的互动模式需要汲血。由于最后一个渴血者消失了，他们的交互模式重置为“无交互”。</MessageNoBloodfeedersPrisonerInteractionReset>
+  <MessageNoBloodfeedersPrisonerInteractionReset>有些囚犯的互动模式需要汲血。由于最后一个食血者消失了，他们的交互模式重置为“无交互”。</MessageNoBloodfeedersPrisonerInteractionReset>
 
   <!-- EN: {PAWN_nameDef}'s pregnancy was successfully terminated. -->
   <MessagePregnancyTerminated>{PAWN_nameDef}的妊娠圆满结束。</MessagePregnancyTerminated>
   
   <!-- Pollution -->
+  <!-- EN: {0} has been angered ({1}) -->
+  <MessageAngeredPollutedCell>{0}已被激怒（{1}）</MessageAngeredPollutedCell>
   <!-- EN: Need unpolluted terrain. -->
   <MessageWarningPollutedCell>需要未被污染的地面。</MessageWarningPollutedCell>
   <!-- EN: Need polluted terrain. -->
@@ -103,11 +107,14 @@
   <!-- EN: The {BED_labelShort} {PAWN_nameDef} is assigned to use for deathrest has been exposed to sunlight. {PAWN_nameDef} cannot deathrest there. -->
   <MessageBedExposedToSunlight>{BED_labelShort}{PAWN_nameDef}被分配用于死眠的地点已经暴露在阳光下。{PAWN_nameDef}不能在那里死眠。</MessageBedExposedToSunlight>
 
+  <!-- EN: {PAWN_labelShort} was ejected from a gene extractor due to lack of power. -->
+  <GeneExtractorNoPowerEjectedMessage>{PAWN_labelShort}因基因提取器断电被弹出。</GeneExtractorNoPowerEjectedMessage>
+
   <!-- Mechanitor -->
   <!-- EN: {PAWN_nameDef}'s brain has been destroyed by the subcore ripscanner. -->
   <MessagePawnKilledRipscanner>{PAWN_nameDef}的大脑已被裂解扫描仪破坏。</MessagePawnKilledRipscanner>
   <!-- EN: Subcore softscanner completed for {PAWN_nameDef}. -->
-  <MessageSubcoreSoftscannerCompleted>{PAWN_nameDef}的差分扫描已经完成。</MessageSubcoreSoftscannerCompleted><!-- text_todo -->
+  <MessageSubcoreSoftscannerCompleted>{PAWN_nameDef}的差分扫描已经完成。</MessageSubcoreSoftscannerCompleted>
 
   <!-- EN: Cannot resurrect dessicated corpses. -->
   <MessageCannotResurrectDessicatedCorpse>不能复活风干的尸体。</MessageCannotResurrectDessicatedCorpse>
@@ -143,6 +150,13 @@
   <!-- EN: Warning: {0_labelShort} is carrying a baby while drafted. -->
   <MessageDraftedPawnCarryingBaby>警告：{0_labelShort}在被征召时携带了一个婴儿。</MessageDraftedPawnCarryingBaby>
   <!-- EN: {ADULT_nameDef} is moving {BABY_nameDef} somewhere with a safer temperature. -->
-  <MessageTakingBabyToSafeTemperature>{ADULT_nameDef}正将{BABY_nameDef}带到温度更安全的环境。</MessageTakingBabyToSafeTemperature><!-- text_todo -->
+  <MessageTakingBabyToSafeTemperature>{ADULT_nameDef}正将{BABY_nameDef}带到温度更安全的环境。</MessageTakingBabyToSafeTemperature>
+
+  <!-- EN: Pregnancy failed between {MOTHER_nameDef} and {FATHER_nameDef} -->
+  <MessagePregnancyFailed>{MOTHER_nameDef}和{FATHER_nameDef}的妊娠失败了。</MessagePregnancyFailed>
+  <!-- EN: {PAWN_nameDef} failed to fertilize ovum -->
+  <MessageFerilizeFailed>{PAWN_nameDef}对卵细胞授精失败。</MessageFerilizeFailed>
+  <!-- EN: Combined genes exceeded metabolism limits. -->
+  <CombinedGenesExceedMetabolismLimits>合并的基因超过了代谢极限。</CombinedGenesExceedMetabolismLimits>
 
 </LanguageData>

@@ -28,10 +28,20 @@
   <!-- EN: Fertility affects the chance of a pregnancy occurring. Pregnancy chance is dependent on the fertility of both partners. This also affects the chance of successfully implanting an embryo in a surrogate. -->
   <Fertility.description>生育能力影响怀孕的几率。怀孕几率取决于伴侣双方的生育能力。生育能力还会影响成功将胚胎植入代孕者体内的几率。</Fertility.description>
   
+  <!-- EN: growth vat occupant speed -->
+  <GrowthVatOccupantSpeed.label>培育速度</GrowthVatOccupantSpeed.label>
+  <!-- EN: A multiplier on how quickly this person will grow when in a growth vat. -->
+  <GrowthVatOccupantSpeed.description>此生物在培育舱内成长的速度系数。</GrowthVatOccupantSpeed.description>
+  
   <!-- EN: hemogen gain multiplier -->
   <HemogenGainFactor.label>血原质增加系数</HemogenGainFactor.label>
   <!-- EN: A multiplier on the amount of hemogen gained. -->
   <HemogenGainFactor.description>获得血原质的乘数。</HemogenGainFactor.description>
+  
+  <!-- EN: learning rate factor -->
+  <LearningRateFactor.label>学习效率</LearningRateFactor.label>
+  <!-- EN: A multiplier on how quickly a child's learning need is fulfilled by learning activities. -->
+  <LearningRateFactor.description>一个关于儿童学习需求从学习活动中上升的乘数。</LearningRateFactor.description>
   
   <!-- EN: mech bandwidth -->
   <MechBandwidth.label>机械带宽</MechBandwidth.label>

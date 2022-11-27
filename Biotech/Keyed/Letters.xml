@@ -9,7 +9,7 @@
   <!-- EN: Mechlink installed -->
   <LetterLabelMechlinkInstalled>已安装机控中枢</LetterLabelMechlinkInstalled>
   <!-- EN: {PAWN_labelShort} has installed a mechlink! {PAWN_pronoun} is now a mechanitor and can create and control mechanoids.\n\nResearch basic mechtech to get started.\n\n(*SectionTitle)Creating mechs:(/SectionTitle) Your mechanitor can create mechs at a production building called a mech gestator.\n\n(*SectionTitle)About bandwidth:(/SectionTitle) Mechanitors can control as many mechs as their total bandwidth allows. Select {PAWN_labelShort} and look at {PAWN_possessive} 'Bandwidth' readout to see how much bandwidth {PAWN_pronoun} is currently using and how much {PAWN_pronoun} has available. Bandwidth can be increased with certain apparel and by building band node buildings.\n\n(*SectionTitle)About control groups:(/SectionTitle) Mechanitors control mechs in groups. Each control group can be set to one of these modes:\n\n- Work\n- Escort\n- Recharge\n- Dormant self-charge\n\nTo learn more about what each mode does, select the work mode icon on one of {PAWN_labelShort}'s control groups and hover over the different work orders. The maximum number of control groups can be increased with apparel and implants.\n\n(*SectionTitle)About threat calling:(/SectionTitle) Mechanitors can signal ancient leader mechs to attack in order to obtain rare items from them. You must do this to improve your mechanitor past certain limits, but beware the danger. -->
-  <LetterMechlinkInstalled>{PAWN_labelShort}已经安装了机控中枢！{PAWN_pronoun}现在是一位机械师，可以制造和控制机械体。\n\n研究基础机械工程以开启机械师之路。\n\n(*SectionTitle)制造机械体：(/SectionTitle)你的机械师可以在名为机械培育器的生产建筑中制造机械体。\n\n(*SectionTitle)关于带宽：(/SectionTitle)机械师可以在其总带宽允许范围内控制尽可能多的机械体。选中{PAWN_labelShort}并查看{PAWN_possessive}“带宽”指示器以了解{PAWN_pronoun}当前已用带宽和剩余带宽。带宽可以通过某些服装和基站建筑来增加。\n\n(*SectionTitle)关于控制组：(/SectionTitle)机械师以组为单位控制机械体，每个控制组都可以被设置为这些模式之一：\n\n-工作\n-护卫\n-充电\n-自充电休眠\n\n要了解每种模式的作用，请选择{PAWN_labelShort}的一个控制组上的工作模式图标，并在不同的工作指令上徘徊。控制组的最大数量可以通过服装和植入物来增加。\n\n(*SectionTitle)关于威胁召唤：(/SectionTitle)机械师可以向古代领袖机械体发出攻击信号，以便从他们那里获得稀有物品。为了让你的机械师突破某些限制，你必须这样做，但要注意危险。</LetterMechlinkInstalled>
+  <LetterMechlinkInstalled>{PAWN_labelShort}已经安装了机控中枢！{PAWN_pronoun}现在是一位机械师，可以制造和控制机械体。\n\n研究基础机械工程以开启机械师之路。\n\n(*SectionTitle)制造机械体：(/SectionTitle)你的机械师可以在名为机械培育器的生产建筑中制造机械体。\n\n(*SectionTitle)关于带宽：(/SectionTitle)机械师可以在其总带宽允许范围内控制尽可能多的机械体。选中{PAWN_labelShort}并查看{PAWN_possessive}“带宽”指示器以了解{PAWN_pronoun}当前已用带宽和剩余带宽。带宽可以通过某些服装和频带节点建筑来增加。\n\n(*SectionTitle)关于控制组：(/SectionTitle)机械师以组为单位控制机械体，每个控制组都可以被设置为这些模式之一：\n\n-工作\n-护卫\n-充电\n-自充电休眠\n\n要了解每种模式的作用，请选择{PAWN_labelShort}的一个控制组上的工作模式图标，并在不同的工作指令上徘徊。控制组的最大数量可以通过服装和植入物来增加。\n\n(*SectionTitle)关于威胁召唤：(/SectionTitle)机械师可以向古代领袖机械体发出攻击信号，以便从他们那里获得稀有物品。为了让你的机械师突破某些限制，你必须这样做，但要注意危险。</LetterMechlinkInstalled>
 
   <!-- EN: This happened because of -->
   <MentalStateReason_Gene>这是因为基因</MentalStateReason_Gene>
@@ -44,10 +44,10 @@
   <LetterMechanitorCasketFound>你发现了一个机械师的低温休眠舱！\n\n打开它。</LetterMechanitorCasketFound>
   
   <!-- Pawns lost because map closed (including mechs) -->
-  <!-- EN: Your caravan has been lost. The following people, animals and mechs have been lost with it -->
-  <LetterPawnsLostIncMechsBecauseMapClosed_Caravan>你的远行队已经失踪。下列人员、动物和机械人已随同失踪 </LetterPawnsLostIncMechsBecauseMapClosed_Caravan><!-- text_todo -->
-  <!-- EN: The following people, animals and mechs have been abandoned -->
-  <LetterPawnsLostIncMechsBecauseMapClosed_Home>以下人员、动物和机械体已被抛弃</LetterPawnsLostIncMechsBecauseMapClosed_Home><!-- text_todo -->
+  <!-- EN: Your caravan has been lost. The following people, animals and mechanoids have been lost with it -->
+  <LetterPawnsLostIncMechsBecauseMapClosed_Caravan>你的远行队已经失踪。下列人员、动物和机械人已随同失踪 </LetterPawnsLostIncMechsBecauseMapClosed_Caravan>
+  <!-- EN: The following people, animals and mechanoids have been abandoned -->
+  <LetterPawnsLostIncMechsBecauseMapClosed_Home>以下人员、动物和机械体已被抛弃</LetterPawnsLostIncMechsBecauseMapClosed_Home>
   
 
   <!-- Children -->
@@ -114,15 +114,19 @@
   <Immediately>立即</Immediately>
   <!-- EN: within -->
   <Within>以内</Within>
-  <!-- EN: The baby has been given the temporary name {0_nameFull}. You can change it until {1} after birth. -->
-  <LetterPartNameBaby>婴儿被赋予了临时的名字{0_nameFull}。出生后可以更改为{1}。</LetterPartNameBaby>
+  <!-- EN: The baby has been given the temporary name {0_nameFull}. -->
+  <LetterPartTempBabyName>婴儿被赋予了临时名字{0_nameFull}。</LetterPartTempBabyName>
+  <!-- EN: You can change it until {0} after birth. -->
+  <LetterPartLiveBirthNameDeadline>你可以在{0}岁前更改它。</LetterPartLiveBirthNameDeadline>
+  <!-- EN: Would you like to give the baby another name? -->
+  <LetterPartStillbirthNameDeadline>你想要给婴儿另起一个名字吗？</LetterPartStillbirthNameDeadline>
   <!-- EN: The baby was given the temporary name {0_nameFull}. You can change it as long as the baby is less than {1} old. -->
-  <LetterPartNameBabyAdopt>婴儿被赋予了临时名字为{0_nameFull}。只要孩子在{1}岁前，你都可以更改。</LetterPartNameBabyAdopt> 
+  <LetterPartNameBabyAdopt>婴儿被赋予了临时名字{0_nameFull}。只要孩子在{1}岁前，你都可以更改。</LetterPartNameBabyAdopt>
 
   <!-- EN: Growth moment for {PAWNNAME} -->
   <BirthdayGrowthMoment>{PAWNNAME}的成长阶段</BirthdayGrowthMoment>
   <!-- EN: {0_nameFull} has reached the biological age of {1} and has experienced a growth moment! -->
-  <BirthdayBiologicalGrowthMoment>{0_nameFull}已达到{1}的生物年龄，经历了一个成长阶段!</BirthdayBiologicalGrowthMoment>
+  <BirthdayBiologicalGrowthMoment>{0_nameFull}的生物年龄已有{1}岁，到了新的成长阶段!</BirthdayBiologicalGrowthMoment>
   <!-- EN: {0_nameDef} is now old enough to do the following work -->
   <BirthdayBiologicalAgeWorkTypes>{0_nameDef}现在年纪已经足够大，可以执行以下工作了</BirthdayBiologicalAgeWorkTypes>
   <!-- EN: Choose 1 skill for {0_nameDef} to increase {0_possessive} passion for -->
@@ -140,7 +144,11 @@
   <BirthdayPassionArchive>对{0}的兴趣增加了。</BirthdayPassionArchive>
   <!-- EN: The trait {0} was gained. -->
   <BirthdayTraitArchive>获得了{0}特性。</BirthdayTraitArchive>
-  
+  <!-- EN: No trait -->
+  <BirthdayNoTraitChoice>无特性</BirthdayNoTraitChoice>
+  <!-- EN: {0} does not gain a trait. -->
+  <BirthdayNoTraitChoiceTooltip>{0}不获得特性。</BirthdayNoTraitChoiceTooltip>
+
   <!-- EN: Make choices to close -->
   <BirthdayMakeChoices>选择关闭</BirthdayMakeChoices>
   <!-- EN: {0} has gained the nickname {1}. -->
@@ -170,8 +178,16 @@
   <XenogermOrderedImplantedMedicineNeeded>\n\n你没有足够的药物来植入异种胚芽。在你得到{MEDICINENEEDED}之前，不能开始植入。</XenogermOrderedImplantedMedicineNeeded>
   <!-- EN: Involuntary deathrest -->
   <LetterLabelInvoluntaryDeathrest>非自愿的死眠</LetterLabelInvoluntaryDeathrest>
-  <!-- EN: {PAWN_nameDef} has fallen into deathrest. -->
-  <LetterTextInvoluntaryDeathrest>{PAWN_nameDef}陷入死眠</LetterTextInvoluntaryDeathrest>
+  <!-- EN: Regeneration coma -->
+  <LetterLabelRegenerationComa>再生昏迷</LetterLabelRegenerationComa>
+  <!-- EN: {PAWN_nameDef}'s deathless gene has prevented {PAWN_objective} from dying. {HEDIFFINFO} -->
+  <LetterTextInvoluntaryDeathrestOrComa>{PAWN_nameDef}的不死基因阻止了{PAWN_objective}的死亡。{HEDIFFINFO}</LetterTextInvoluntaryDeathrestOrComa>
+  <!-- EN: Instead, {PAWN_pronoun} has fallen into a deathrest. -->
+  <LetterTextDeathrest>{PAWN_pronoun}陷入了死眠。</LetterTextDeathrest>
+  <!-- EN: Instead, {PAWN_pronoun} has fallen into a regeneration coma. -->
+  <LetterTextRegenerationComa>{PAWN_pronoun}陷入了再生昏迷</LetterTextRegenerationComa>
+  <!-- EN: Due to the neural shock of traumatic deathrest, {PAWN_nameDef} has lost {XPLOSS} XP in {PAWN_possessive} {SKILL} skill. -->
+  <DeathrestLostSkill>由于创伤性死亡的神经性休克，{PAWN_nameDef}的{SKILL}技能失去了{XPLOSS}经验值。</DeathrestLostSkill>
   <!-- EN: Lethal damage taken. -->
   <DeathrestLethalDamage>受到致命伤害。</DeathrestLethalDamage>
 
@@ -192,5 +208,10 @@
 
   <!-- EN: Instinctively seeking a mate, {BONDPAWN_nameDef} has formed a psychically-bonded romantic relationship with {OTHERPAWN_nameDef}. {OTHERPAWN_nameDef} will benefit psychologically from the connection to {BONDPAWN_nameDef}, but if they are separated onto different world tiles, both will suffer from psychic stress. If one dies, the other will be driven to madness. -->
   <LetterPsychicBondCreated>出于寻求伴侣的本能，{BONDPAWN_nameDef}已经与{OTHERPAWN_nameDef}形成了一种精神上的结合的浪漫关系。{OTHERPAWN_nameDef}将从与{BONDPAWN_nameDef}的联系中获得心理上的好处，但如果他们被分离到不同的区域，两人都将遭受心理上的压力。如果一个人死了，另一个人就会被逼得发狂。</LetterPsychicBondCreated>
+
+  <!-- EN: Psychic bond -->
+  <LetterPsychicBondCreatedLovinLabel>心灵纽带</LetterPsychicBondCreatedLovinLabel>
+  <!-- EN: {BONDPAWN_nameDef} has formed a psychically-bonded romantic relationship with {OTHERPAWN_nameDef}. {OTHERPAWN_nameDef} will benefit psychologically from the connection to {BONDPAWN_nameDef}, but if they are separated onto different world tiles, both will suffer from psychic stress. If one dies, the other will be driven to madness. -->
+  <LetterPsychicBondCreatedLovinText>{BONDPAWN_nameDef}已经与{OTHERPAWN_nameDef}形成了一种精神上的结合的浪漫关系。{OTHERPAWN_nameDef}将从与{BONDPAWN_nameDef}的联系中获得心理上的好处，但如果他们被分离到不同的区域，两人都将遭受心理上的压力。如果一个人死了，另一个人就会被逼得发狂。</LetterPsychicBondCreatedLovinText>
 
 </LanguageData>

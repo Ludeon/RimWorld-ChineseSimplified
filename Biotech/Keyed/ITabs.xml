@@ -86,31 +86,31 @@
   <!-- EN: zero chance -->
   <CantRomanceTargetZeroChance>零机会</CantRomanceTargetZeroChance>
   <!-- EN: {0_labelShort} cannot try to romance because {0_pronoun} is a prisoner. -->
-  <CantRomanceInitiateMessagePrisoner>{0_labelShort}不能尝试恋爱，因为{0_pronoun}是一个囚犯。</CantRomanceInitiateMessagePrisoner>
+  <CantRomanceInitiateMessagePrisoner>{0_labelShort}不能尝试追求，因为{0_pronoun}是一个囚犯。</CantRomanceInitiateMessagePrisoner>
   <!-- EN: {0_labelShort} cannot try to romance because {0_pronoun} is a slave. -->
-  <CantRomanceInitiateMessageSlave>{0_labelShort}不能尝试恋爱，因为{0_pronoun}是一个奴隶。</CantRomanceInitiateMessageSlave>
+  <CantRomanceInitiateMessageSlave>{0_labelShort}不能尝试追求，因为{0_pronoun}是一个奴隶。</CantRomanceInitiateMessageSlave>
   <!-- EN: {0_labelShort} cannot try to romance because {0_pronoun} has the asexual trait. -->
-  <CantRomanceInitiateMessageAsexual>{0_labelShort}不能尝试恋爱，因为{0_pronoun}具有无性恋的特性。</CantRomanceInitiateMessageAsexual>
+  <CantRomanceInitiateMessageAsexual>{0_labelShort}不能尝试追求，因为{0_pronoun}具有无性恋的特性。</CantRomanceInitiateMessageAsexual>
   <!-- EN: {0_labelShort} cannot try to romance because {0_pronoun} is incapacitated. -->
-  <CantRomanceInitiateMessageDowned>{0_labelShort}不能尝试恋爱，因为{0_pronoun}无法行动。</CantRomanceInitiateMessageDowned>
+  <CantRomanceInitiateMessageDowned>{0_labelShort}不能尝试追求，因为{0_pronoun}无法行动。</CantRomanceInitiateMessageDowned>
   <!-- EN: {0_labelShort} cannot try to romance because {0_pronoun} is drafted. -->
-  <CantRomanceInitiateMessageDrafted>{0_labelShort}不能尝试恋爱，因为{0_pronoun}正在被征召。</CantRomanceInitiateMessageDrafted>
+  <CantRomanceInitiateMessageDrafted>{0_labelShort}不能尝试追求，因为{0_pronoun}正在被征召。</CantRomanceInitiateMessageDrafted>
   <!-- EN: {0_labelShort} cannot try to romance because {0_pronoun} is in an unfit mental state. -->
-  <CantRomanceInitiateMessageMentalState>{0_labelShort}不能尝试恋爱，因为{0_pronoun}处于精神不稳定状态。</CantRomanceInitiateMessageMentalState>
+  <CantRomanceInitiateMessageMentalState>{0_labelShort}不能尝试追求，因为{0_pronoun}处于精神不稳定状态。</CantRomanceInitiateMessageMentalState>
   <!-- EN: {0_labelShort} cannot try to romance because {0_pronoun} is unable to speak. -->
-  <CantRomanceInitiateMessageTalk>{0_labelShort}不能尝试恋爱，因为{0_pronoun}不会说话。</CantRomanceInitiateMessageTalk>
+  <CantRomanceInitiateMessageTalk>{0_labelShort}不能尝试追求，因为{0_pronoun}不会说话。</CantRomanceInitiateMessageTalk>
   <!-- EN: {0_labelShort} tried romancing recently and must wait {1} until trying again. -->
-  <CantRomanceInitiateMessageCooldown>{0_labelShort}最近尝试过恋爱，必须等到{1}再试一次。</CantRomanceInitiateMessageCooldown>
+  <CantRomanceInitiateMessageCooldown>{0_labelShort}最近尝试过追求，必须等到{1}再试一次。</CantRomanceInitiateMessageCooldown>
   <!-- EN: {0_labelShort}'s attempt to romance {1_labelShort} was unsuccessful. -->
-  <TryRomanceFailedMessage>{0_labelShort}尝试过恋爱{1_labelShort}失败了。</TryRomanceFailedMessage>
+  <TryRomanceFailedMessage>{0_labelShort}尝试过追求{1_labelShort}但失败了。</TryRomanceFailedMessage>
   <!-- EN: Having {INITIATOR_nameDef} romance {TARGET_nameDef} could sow resentment among existing partners, lead to breakups, and cause altercations. -->
-  <RomanceExistingRelationshipWarning>拥有{INITIATOR_nameDef}恋爱{TARGET_nameDef}可能在现有的伴侣之间散播怨恨，导致分手，并引起争执。</RomanceExistingRelationshipWarning>
+  <RomanceExistingRelationshipWarning>拥有{INITIATOR_nameDef}同时追求{TARGET_nameDef}可能在现有的伴侣之间散播怨恨，导致分手，并引起争执。</RomanceExistingRelationshipWarning>
   <!-- EN: Romance chance -->
-  <RomanceChance>恋爱机会</RomanceChance>
+  <RomanceChance>追求几率</RomanceChance>
   <!-- EN: already {PAWN_nameDef}'s {RELATION} -->
-  <RomanceChanceExistingRelation>已经{PAWN_nameDef}的{RELATION}</RomanceChanceExistingRelation>
+  <RomanceChanceExistingRelation>已经是{PAWN_nameDef}的{RELATION}</RomanceChanceExistingRelation>
   <!-- EN: Cannot romance -->
-  <RomanceChanceCant>不能恋爱</RomanceChanceCant>
+  <RomanceChanceCant>不能追求</RomanceChanceCant>
   <!-- EN: Relative age -->
   <RomanceChanceAgeFactor>相对年龄</RomanceChanceAgeFactor>
   <!-- EN: Beauty -->
@@ -120,9 +120,9 @@
   <!-- EN: Opinion of partner -->
   <RomanceChancePartnerFactor>伴侣的看法</RomanceChancePartnerFactor>
   <!-- EN: {0_labelShort} was unable to romance {1_labelShort} -->
-  <RomanceFailedUnexpected>{0_labelShort} 无法恋爱 {1_labelShort}</RomanceFailedUnexpected>
+  <RomanceFailedUnexpected>{0_labelShort}无法追求{1_labelShort}</RomanceFailedUnexpected>
   <!-- EN: {0_nameDef} is already in a relationship. -->
-  <RomanceWarningMonogamous>{0_nameDef} 已处于关系中。</RomanceWarningMonogamous>
+  <RomanceWarningMonogamous>{0_nameDef}已处于关系中。</RomanceWarningMonogamous>
   <!-- EN: {0_nameDef} already has {1} partners. -->
   <RomanceWarningPolygamous>{0_nameDef}已经拥有{1}伴侣。</RomanceWarningPolygamous>
 

@@ -25,6 +25,8 @@
   <CaravanMech>1x机械体</CaravanMech>
   <!-- EN: {0} mechs -->
   <CaravanMechsCount>{0}x机械体</CaravanMechsCount>
+  <!-- EN: {BOSS} with {APPAREL} -->
+  <BossWithApparel>装配有{APPAREL}的{BOSS}</BossWithApparel>
 
   <!-- Job reports -->
   <!-- EN: removing {0}. -->
@@ -46,7 +48,7 @@
   <!-- EN: bandwidth -->
   <BandwidthLower>带宽</BandwidthLower>
   <!-- EN: A mechanitor can only oversee a mech if there is enough bandwidth to do so. Each mech consumes a different amount of bandwidth.\n\nGain more bandwidth by constructing band nodes and tuning the mechanitor to them, or by equipping special mechanitor apparel. -->
-  <BandwidthGizmoTip>机械师只有在带宽足够的情况下才能监管机械体。每种不同的机械体会占用不同的带宽。\n\n通过建造基站连接机械师或使用某些特殊的机械师服装都可以获得更多带宽。</BandwidthGizmoTip>
+  <BandwidthGizmoTip>机械师只有在带宽足够的情况下才能监管机械体。每种不同的机械体会占用不同的带宽。\n\n通过建造频带节点连接机械师或使用某些特殊的机械师服装都可以获得更多带宽。</BandwidthGizmoTip>
   <!-- EN: Control group -->
   <ControlGroup>控制组</ControlGroup>
   <!-- EN: Current mode -->
@@ -62,9 +64,9 @@
   <!-- EN: Retune -->
   <BandNodeRetuneTo>重新调整</BandNodeRetuneTo>
   <!-- EN: Tune this band node to a mechanitor. Tuning will take {0} to complete. -->
-  <BandNodeTuningDesc>调整此基站连接至一名机械师，调整过程会持续{0}。</BandNodeTuningDesc>
+  <BandNodeTuningDesc>调整此频带节点连接至一名机械师，调整过程会持续{0}。</BandNodeTuningDesc>
   <!-- EN: Retune this band node to another mechanitor. Retuning will take {0} to complete. -->
-  <BandNodeRetuningDesc>重新调整此基站连接至另一名机械师，调整过程会持续{0}。</BandNodeRetuningDesc>
+  <BandNodeRetuningDesc>重新调整此频带节点连接至另一名机械师，调整过程会持续{0}。</BandNodeRetuningDesc>
   <!-- EN: Removing {0} will change {1_labelShort}'s bandwidth from {2} to {3}. This will mean the following mechs will no longer be under control -->
   <DropThingBandwidthApparel>移除{0}会使{1_labelShort}的带宽从{2}变为{3}。这意味着这些机械体将不再处于其控制下</DropThingBandwidthApparel>
   <!-- EN: no mechs -->
@@ -113,6 +115,8 @@
   <WaitingFor>等待</WaitingFor>
   <!-- EN: Uncontrolled -->
   <Uncontrolled>未受控</Uncontrolled>
+  <!-- EN: incoming {0} -->
+  <BossgroupIncoming>{0}到来</BossgroupIncoming>
 
   <!-- Sanguophage -->
   <!-- EN: hemogen -->
@@ -166,7 +170,7 @@
   <!-- EN: {PAWN_nameDef} should deathrest soon to avoid exhaustion. -->
   <PawnShouldDeathrestNow>为了避免疲惫，{PAWN_nameDef}需要尽快死眠。</PawnShouldDeathrestNow>
   <!-- EN: This determines whether {PAWN_nameDef} will automatically ingest hemogen packs when {PAWN_possessive} hemogen is below {MIN}.\n\nAutomatic ingestion is currently {ONOFF}. -->
-  <AutoTakeHemogenDesc>这决定了当{PAWN_nameDef}的血原质低于{MIN}时是否会自动摄入血原包。\n\n自动摄入目前{ONOFF}。</AutoTakeHemogenDesc><!-- text_todo -->
+  <AutoTakeHemogenDesc>这决定了当{PAWN_nameDef}的血原质低于{MIN}时是否会自动摄入血原包。\n\n自动摄入目前{ONOFF}。</AutoTakeHemogenDesc>
   <!-- EN: Consume hemogen below -->
   <ConsumeHemogenBelow>消耗血原质</ConsumeHemogenBelow>
   <!-- EN: Never consume hemogen. -->
@@ -273,6 +277,10 @@
   <EjectAllDesc>将所有保存的基因组弹出到地上。</EjectAllDesc>
   <!-- EN: Genepacks stored -->
   <GenepacksStored>已保存基因组</GenepacksStored>
+  <!-- EN: Auto-load -->
+  <GenepackAutoLoad>自动装载</GenepackAutoLoad>
+  <!-- EN: If active, haulers will automatically store this genepack in a gene bank. -->
+  <GenepackAutoLoadDesc>如果激活，搬运工将自动把这个基因组储存在基因库中。</GenepackAutoLoadDesc>
   <!-- EN: Forced traits -->
   <ForcedTraits>强制特性</ForcedTraits>
   <!-- EN: Suppressed traits -->
@@ -391,8 +399,8 @@
   <WaitingForPawn>等待{PAWN_nameDef}。</WaitingForPawn>
   <!-- EN: Extracting genes from {PAWN_nameDef}. -->
   <ExtractingXenogermFrom>从{PAWN_nameDef}提取基因。</ExtractingXenogermFrom>
-  <!-- EN: Extraction paused: No power -->
-  <ExtractionPausedNoPower>提取暂停：未通电</ExtractionPausedNoPower>
+  <!-- EN: Extraction paused: No power (interrupt in {TIME}) -->
+  <ExtractionPausedNoPower>提取暂停：未通电（中断{TIME}）</ExtractionPausedNoPower>
   <!-- EN: Last ingested {CHEMICAL_label} {DURATION} ago. -->
   <LastIngestedDurationAgo>最近一次摄入{CHEMICAL_label}在{DURATION}之前。</LastIngestedDurationAgo>
   <!-- EN: {NAME} xenogerm -->
@@ -602,7 +610,7 @@
   <!-- EN: Waiting for ingredients -->
   <SubcoreScannerWaitingForIngredients>等待装填</SubcoreScannerWaitingForIngredients>
   <!-- EN: The following ingredients must be loaded first -->
-  <SubcoreScannerWaitingForIngredientsDesc>以下物资必须优先被装载</SubcoreScannerWaitingForIngredientsDesc> <!-- text_todo -->
+  <SubcoreScannerWaitingForIngredientsDesc>以下物资必须优先被装载</SubcoreScannerWaitingForIngredientsDesc>
   <!-- EN: Has {0} -->
   <SubcoreScannerPawnHasSickness>有{0}</SubcoreScannerPawnHasSickness>
   <!-- EN: Babies are not allowed -->
@@ -695,8 +703,10 @@
   <!-- Fertility -->
   <!-- EN: ova extracted recently -->
   <SurgeryDisableReasonOvumExtracted>最近提取的卵子</SurgeryDisableReasonOvumExtracted>
+  <!-- EN: Fertilize -->
+  <Fertilize>授精</Fertilize>
   <!-- EN: Fertilize {0_label} -->
-  <Fertilize>授精{0_label}</Fertilize><!-- text_todo -->
+  <FertilizeThing>授精{0_label}</FertilizeThing>
   <!-- EN: Cannot fertilize -->
   <FertilizeCannotFloatOption>无法受精</FertilizeCannotFloatOption>
   <!-- EN: Choose a man to fertilize this ovum to create an embryo. The embryo can then be implanted in a mother to start a pregnancy, or in a growth vat. The biological parents of the resulting child will be the woman who provided the ovum and man who fertilized it. -->
