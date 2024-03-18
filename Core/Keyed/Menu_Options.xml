@@ -30,6 +30,8 @@
   <!-- Gameplay -->
   <!-- EN: Screen-edge mouse scroll -->
   <EdgeScreenScroll>屏幕边缘滚动</EdgeScreenScroll>
+  <!-- EN: Zoom to mouse -->
+  <ZoomToMouse>鼠标缩放</ZoomToMouse>
   <!-- EN: Pause on load -->
   <PauseOnLoad>载入游戏后暂停游戏</PauseOnLoad>
   <!-- EN: Pause on urgent letter -->
@@ -62,12 +64,22 @@
   <DevelopmentMode>开发者模式</DevelopmentMode>
   <!-- EN: Auto-reset mods config on crash -->
   <ResetModsConfigOnCrash>崩溃后重置Mod配置</ResetModsConfigOnCrash>
+  <!-- EN: Quick start has no cryptosleep sickness -->
+  <DisableQuickStartCryptoSickness>快速启动没有隐睡症</DisableQuickStartCryptoSickness>
+  <!-- EN: Start game with dev palette on -->
+  <StartDevPaletteOn>打开开发调色板开始游戏</StartDevPaletteOn>
+  <!-- EN: Open log on warnings -->
+  <OpenLogOnWarnings>打开登录警告</OpenLogOnWarnings>
+  <!-- EN: Close log by pressing cancel -->
+  <CloseLogWindowOnEscape>按取消键关闭日志</CloseLogWindowOnEscape>
   <!-- EN: Simulate not owning Royalty -->
   <SimulateNotOwningRoyalty>模拟未拥有「皇权」</SimulateNotOwningRoyalty>
   <!-- EN: Simulate not owning Ideology -->
   <SimulateNotOwningIdeology>模拟未拥有「文化」</SimulateNotOwningIdeology>
   <!-- EN: Simulate not owning Biotech -->
   <SimulateNotOwningBiotech>模拟未拥有「生物技术」</SimulateNotOwningBiotech>
+  <!-- EN: Simulate not owning Anomaly -->
+  <SimulateNotOwningAnomaly>模拟未拥有Anomaly</SimulateNotOwningAnomaly>
   <!-- EN: Verbose logging -->
   <LogVerbose>详细日志</LogVerbose>
   <!-- EN: Save data folder -->
@@ -102,10 +114,14 @@
   <TemperatureMode>温度单位</TemperatureMode>
   <!-- EN: Show realtime clock -->
   <ShowRealtimeClock>显示现实时钟</ShowRealtimeClock>
+  <!-- EN: Use 12 hour clock -->
+  <TwelveHourClockMode>使用12小时制</TwelveHourClockMode>
   <!-- EN: Disable tiny font -->
   <DisableTinyText>禁用小号字体</DisableTinyText>
   <!-- EN: Maximum number of colonies: {0} -->
   <MaxNumberOfPlayerSettlements>最大殖民地数量：{0}</MaxNumberOfPlayerSettlements>
+  <!-- EN: Autosaves count: {0} -->
+  <AutosavesCount>自动保存计数:{0}</AutosavesCount>
   <!-- EN: Map mouse drag sensitivity -->
   <MapDragSensitivity>鼠标拖动地图灵敏度</MapDragSensitivity>
   <!-- EN: Plant wind sway -->

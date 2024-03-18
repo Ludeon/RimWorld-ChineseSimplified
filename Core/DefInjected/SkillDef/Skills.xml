@@ -5,6 +5,34 @@
   <Animals.label>驯兽</Animals.label>
   <!-- EN: Taming, training, and controlling animals. -->
   <Animals.description>驯服、训练、管理、控制动物。</Animals.description>
+  <!-- EN:
+    <li>subject->animals</li>
+    <li>subject->herding</li>
+    <li>subject->taming</li>
+    <li>subject->livestock</li>
+    <li>subject->breeding</li>
+    <li>subject->zoology</li>
+    <li>subject->husbandry</li>
+    <li>subject->herding</li>
+    <li>subject->domestication</li>
+    <li>subject->fauna</li>
+    <li>subject->wildlife</li>
+    <li>subject->poultry</li>
+  -->
+  <Animals.generalRules.rulesStrings>
+    <li>subject->驯兽</li>
+    <li>subject->放牧</li>
+    <li>subject->驯服</li>
+    <li>subject->养殖</li>
+    <li>subject->饲养</li>
+    <li>subject->动物学</li>
+    <li>subject->畜牧</li>
+    <li>subject->牧养</li>
+    <li>subject->驯化</li>
+    <li>subject->动物群</li>
+    <li>subject->野生动物</li>
+    <li>subject->禽</li>
+  </Animals.generalRules.rulesStrings>
   <!-- EN: animals -->
   <Animals.skillLabel>驯兽</Animals.skillLabel>
   
@@ -12,6 +40,32 @@
   <Artistic.label>艺术</Artistic.label>
   <!-- EN: Crafting art. -->
   <Artistic.description>制作工艺品。</Artistic.description>
+  <!-- EN:
+    <li>subject->art</li>
+    <li>subject->pottery</li>
+    <li>subject->sculpting</li>
+    <li>subject->painting</li>
+    <li>subject->creativity</li>
+    <li>subject->expression</li>
+    <li>subject->aesthetics</li>
+    <li>subject->design</li>
+    <li>subject->sculpture</li>
+    <li>subject->impressionism</li>
+    <li>subject->artistry</li>
+  -->
+  <Artistic.generalRules.rulesStrings>
+    <li>subject->艺术</li>
+    <li>subject->陶艺</li>
+    <li>subject->雕刻</li>
+    <li>subject->作画</li>
+    <li>subject->创作</li>
+    <li>subject->表现</li>
+    <li>subject->美观</li>
+    <li>subject->设计</li>
+    <li>subject->雕塑</li>
+    <li>subject->印象派</li>
+    <li>subject->艺术性</li>
+  </Artistic.generalRules.rulesStrings>
   <!-- EN: artistic -->
   <Artistic.skillLabel>艺术</Artistic.skillLabel>
   
@@ -19,6 +73,30 @@
   <Construction.label>建造</Construction.label>
   <!-- EN: Constructing and deconstructing structures and furniture. -->
   <Construction.description>更好更快的建造或拆除结构和家具。</Construction.description>
+  <!-- EN:
+    <li>subject->construction</li>
+    <li>subject->building</li>
+    <li>subject->architecture</li>
+    <li>subject->engineering</li>
+    <li>subject->design</li>
+    <li>subject->renovation</li>
+    <li>subject->structures</li>
+    <li>subject->foundation</li>
+    <li>subject->carpentry</li>
+    <li>subject->infrastructure</li>
+  -->
+  <Construction.generalRules.rulesStrings>
+    <li>subject->构建</li>
+    <li>subject->建造</li>
+    <li>subject->建筑</li>
+    <li>subject->工程</li>
+    <li>subject->设计</li>
+    <li>subject->翻新</li>
+    <li>subject->结构</li>
+    <li>subject->地基</li>
+    <li>subject->木工</li>
+    <li>subject->基础设施</li>
+  </Construction.generalRules.rulesStrings>
   <!-- EN: construction -->
   <Construction.skillLabel>建造</Construction.skillLabel>
   
@@ -26,6 +104,40 @@
   <Cooking.label>烹饪</Cooking.label>
   <!-- EN: Creating meals from raw ingredients quickly and without accidental food poisoning. -->
   <Cooking.description>用食材烹饪食物。熟练的厨师能够更快烹饪食物，并且避免食物有毒。</Cooking.description>
+  <!-- EN:
+    <li>subject->cooking</li>
+    <li>subject->food</li>
+    <li>subject->baking</li>
+    <li>subject->cuisine</li>
+    <li>subject->recipes</li>
+    <li>subject->gastronomy</li>
+    <li>subject->flavors</li>
+    <li>subject->ingredients</li>
+    <li>subject->spices</li>
+    <li>subject->nutrition</li>
+    <li>subject->taste</li>
+    <li>subject->cookbook</li>
+    <li>subject->kitchen</li>
+    <li>subject->sauces</li>
+    <li>subject->meals</li>
+  -->
+  <Cooking.generalRules.rulesStrings>
+    <li>subject->烹饪</li>
+    <li>subject->食物</li>
+    <li>subject->烘焙</li>
+    <li>subject->菜肴</li>
+    <li>subject->食谱</li>
+    <li>subject->美食</li>
+    <li>subject->口味</li>
+    <li>subject->成分</li>
+    <li>subject->香料</li>
+    <li>subject->营养</li>
+    <li>subject->品味</li>
+    <li>subject->菜谱</li>
+    <li>subject->厨房</li>
+    <li>subject->酱汁</li>
+    <li>subject->膳食</li>
+  </Cooking.generalRules.rulesStrings>
   <!-- EN: cooking -->
   <Cooking.skillLabel>烹饪</Cooking.skillLabel>
   
@@ -33,6 +145,28 @@
   <Crafting.label>手工</Crafting.label>
   <!-- EN: Crafting general items including weapons, components, and refined resources. -->
   <Crafting.description>制作包括武器、零件和工具在内的一般物品或者回收资源。</Crafting.description>
+  <!-- EN:
+    <li>subject->crafting</li>
+    <li>subject->assembly</li>
+    <li>subject->manufacturing</li>
+    <li>subject->handcrafting</li>
+    <li>subject->fabrication</li>
+    <li>subject->production</li>
+    <li>subject->craftsmanship</li>
+    <li>subject->machining</li>
+    <li>subject->artisanry</li>
+  -->
+  <Crafting.generalRules.rulesStrings>
+    <li>subject->手工</li>
+    <li>subject->编织</li>
+    <li>subject->制造</li>
+    <li>subject->装配</li>
+    <li>subject->制作</li>
+    <li>subject->生产</li>
+    <li>subject->工艺</li>
+    <li>subject->加工</li>
+    <li>subject->手艺</li>
+  </Crafting.generalRules.rulesStrings>
   <!-- EN: crafting -->
   <Crafting.skillLabel>手工</Crafting.skillLabel>
   
@@ -40,6 +174,56 @@
   <Intellectual.label>智识</Intellectual.label>
   <!-- EN: Researching and drug synthesis. -->
   <Intellectual.description>进行研究以及合成药物。</Intellectual.description>
+  <!-- EN:
+    <li>subject->physics</li>
+    <li>subject->chemistry</li>
+    <li>subject->orbital dynamics</li>
+    <li>subject->mathematics</li>
+    <li>subject->biology</li>
+    <li>subject->science</li>
+    <li>subject->research</li>
+    <li>subject->innovation</li>
+    <li>subject->discovery</li>
+    <li>subject->analysis</li>
+    <li>subject->experimentation</li>
+    <li>subject->knowledge</li>
+    <li>subject->exploration</li>
+    <li>subject->physics</li>
+    <li>subject->chemistry</li>
+    <li>subject->data analysis</li>
+    <li>subject->scientific inquiry</li>
+    <li>subject->intellectual growth</li>
+    <li>subject->academic pursuits</li>
+    <li>subject->quantitative analysis</li>
+    <li>subject->experiment design</li>
+    <li>subject->research methods</li>
+    <li>subject->intellectual inquiry</li>
+  -->
+  <Intellectual.generalRules.rulesStrings>
+    <li>subject->物理学</li>
+    <li>subject->化学</li>
+    <li>subject->轨道动力学</li>
+    <li>subject->数学</li>
+    <li>subject->生物学</li>
+    <li>subject->科学</li>
+    <li>subject->研究</li>
+    <li>subject->创新</li>
+    <li>subject->发现</li>
+    <li>subject->分析</li>
+    <li>subject->实验</li>
+    <li>subject->知识</li>
+    <li>subject->探索</li>
+    <li>subject->物理学</li>
+    <li>subject->化学</li>
+    <li>subject->数据分析</li>
+    <li>subject->科学探究</li>
+    <li>subject->智力成长</li>
+    <li>subject->学术追求</li>
+    <li>subject->定量分析</li>
+    <li>subject->实验设计</li>
+    <li>subject->研究方法</li>
+    <li>subject->智力探究</li>
+  </Intellectual.generalRules.rulesStrings>
   <!-- EN: intellectual -->
   <Intellectual.skillLabel>智识</Intellectual.skillLabel>
   
@@ -47,6 +231,54 @@
   <Medicine.label>医疗</Medicine.label>
   <!-- EN: Tending wounds and diseases and performing surgery. -->
   <Medicine.description>治疗伤口和疾病以及执行医疗手术。</Medicine.description>
+  <!-- EN:
+    <li>subject->medicine</li>
+    <li>subject->surgery</li>
+    <li>subject->bacteria</li>
+    <li>subject->skin repair</li>
+    <li>subject->healthcare</li>
+    <li>subject->medical science</li>
+    <li>subject->physiology</li>
+    <li>subject->pharmacology</li>
+    <li>subject->treatment</li>
+    <li>subject->diagnosis</li>
+    <li>subject->surgery</li>
+    <li>subject->anatomy</li>
+    <li>subject->bacteria</li>
+    <li>subject->pathology</li>
+    <li>subject->disease management</li>
+    <li>subject->patient care</li>
+    <li>subject->emergency medicine</li>
+    <li>subject->nursing</li>
+    <li>subject->medical research</li>
+    <li>subject->public health</li>
+    <li>subject->virology</li>
+    <li>subject->health sciences</li>
+  -->
+  <Medicine.generalRules.rulesStrings>
+    <li>subject->医学</li>
+    <li>subject->手术</li>
+    <li>subject->细菌</li>
+    <li>subject->皮肤修复</li>
+    <li>subject->医疗保健</li>
+    <li>subject->疾病学</li>
+    <li>subject->生理学</li>
+    <li>subject->药理学</li>
+    <li>subject->治疗</li>
+    <li>subject->诊断</li>
+    <li>subject->手术</li>
+    <li>subject->解剖学</li>
+    <li>subject->细菌</li>
+    <li>subject->病理学</li>
+    <li>subject->疾病管理</li>
+    <li>subject->患者护理</li>
+    <li>subject->急诊医学</li>
+    <li>subject->护理</li>
+    <li>subject->医学研究</li>
+    <li>subject->公共卫生</li>
+    <li>subject->病毒学</li>
+    <li>subject->健康科学</li>
+  </Medicine.generalRules.rulesStrings>
   <!-- EN: medical -->
   <Medicine.skillLabel>医疗</Medicine.skillLabel>
   
@@ -54,6 +286,32 @@
   <Melee.label>格斗</Melee.label>
   <!-- EN: Melee combat, both armed and unarmed. -->
   <Melee.description>使用各种类型的近战武器以及徒手战斗。</Melee.description>
+  <!-- EN:
+    <li>subject->fighting</li>
+    <li>subject->melee</li>
+    <li>subject->combat</li>
+    <li>subject->martial arts</li>
+    <li>subject->swordplay</li>
+    <li>subject->weaponry</li>
+    <li>subject->brawling</li>
+    <li>subject->pugilism</li>
+    <li>subject->fencing</li>
+    <li>subject->knighthood</li>
+    <li>subject->dueling</li>
+  -->
+  <Melee.generalRules.rulesStrings>
+    <li>subject->战斗</li>
+    <li>subject->格斗</li>
+    <li>subject->近战</li>
+    <li>subject->武术</li>
+    <li>subject->剑术</li>
+    <li>subject->武器</li>
+    <li>subject->打斗</li>
+    <li>subject->拳击</li>
+    <li>subject->击剑</li>
+    <li>subject->骑士</li>
+    <li>subject->决斗</li>
+  </Melee.generalRules.rulesStrings>
   <!-- EN: melee -->
   <Melee.skillLabel>格斗</Melee.skillLabel>
   
@@ -61,6 +319,36 @@
   <Mining.label>采矿</Mining.label>
   <!-- EN: Digging tunnels and extracting buried resources. -->
   <Mining.description>挖掘隧道，开采矿产或埋藏资源。</Mining.description>
+  <!-- EN:
+    <li>subject->mining</li>
+    <li>subject->digging</li>
+    <li>subject->quarrying</li>
+    <li>subject->strip-mining</li>
+    <li>subject->excavation</li>
+    <li>subject->prospecting</li>
+    <li>subject->ore</li>
+    <li>subject->tunneling</li>
+    <li>subject->drilling</li>
+    <li>subject->minerals</li>
+    <li>subject->gemology</li>
+    <li>subject->geology</li>
+    <li>subject->earthmoving</li>
+  -->
+  <Mining.generalRules.rulesStrings>
+    <li>subject->采矿</li>
+    <li>subject->挖掘</li>
+    <li>subject->采石</li>
+    <li>subject->条形采矿</li>
+    <li>subject->挖掘</li>
+    <li>subject->勘探</li>
+    <li>subject->矿石</li>
+    <li>subject->隧道</li>
+    <li>subject->钻孔</li>
+    <li>subject->矿物</li>
+    <li>subject->宝石学</li>
+    <li>subject->地质学</li>
+    <li>subject->土方工程</li>
+  </Mining.generalRules.rulesStrings>
   <!-- EN: mining -->
   <Mining.skillLabel>采矿</Mining.skillLabel>
   
@@ -68,6 +356,44 @@
   <Plants.label>种植</Plants.label>
   <!-- EN: Sowing, caring for and harvesting crops, and foraging for food while traveling. -->
   <Plants.description>播种、照顾和收获庄稼或者在远行途中搜集食物。</Plants.description>
+  <!-- EN:
+    <li>subject->plants</li>
+    <li>subject->herbs</li>
+    <li>subject->vegetables</li>
+    <li>subject->flora</li>
+    <li>subject->cultivation</li>
+    <li>subject->horticulture</li>
+    <li>subject->agriculture</li>
+    <li>subject->gardening</li>
+    <li>subject->farming</li>
+    <li>subject->harvesting</li>
+    <li>subject->permaculture</li>
+    <li>subject->botany</li>
+    <li>subject->crop management</li>
+    <li>subject->soil enrichment</li>
+    <li>subject->organic farming</li>
+    <li>subject->food production</li>
+    <li>subject->crop science</li>
+  -->
+  <Plants.generalRules.rulesStrings>
+    <li>subject->种植</li>
+    <li>subject->草药</li>
+    <li>subject->蔬菜</li>
+    <li>subject->植物群</li>
+    <li>subject->培养</li>
+    <li>subject->园艺</li>
+    <li>subject->农艺</li>
+    <li>subject->园艺</li>
+    <li>subject->农业</li>
+    <li>subject->收割</li>
+    <li>subject->永续栽培</li>
+    <li>subject->植物学</li>
+    <li>subject->作物管理</li>
+    <li>subject->土壤富集</li>
+    <li>subject->有机农业</li>
+    <li>subject->食品生产</li>
+    <li>subject->作物科学</li>
+  </Plants.generalRules.rulesStrings>
   <!-- EN: plants -->
   <Plants.skillLabel>种植</Plants.skillLabel>
   
@@ -75,6 +401,46 @@
   <Shooting.label>射击</Shooting.label>
   <!-- EN: Ranged combat, with both high-tech and low-tech weapons. -->
   <Shooting.description>使用各种类型的远程武器。</Shooting.description>
+  <!-- EN:
+    <li>subject->guns</li>
+    <li>subject->weapons</li>
+    <li>subject->aiming</li>
+    <li>subject->shooting</li>
+    <li>subject->gunplay</li>
+    <li>subject->marksmanship</li>
+    <li>subject->firearms</li>
+    <li>subject->sniping</li>
+    <li>subject->ballistics</li>
+    <li>subject->long-range combat</li>
+    <li>subject->precision shooting</li>
+    <li>subject->rifle mastery</li>
+    <li>subject->target practice</li>
+    <li>subject->sharpshooting</li>
+    <li>subject->ranged tactics</li>
+    <li>subject->shot placement</li>
+    <li>subject->gun handling</li>
+    <li>subject->distance shooting</li>
+  -->
+  <Shooting.generalRules.rulesStrings>
+    <li>subject->枪支</li>
+    <li>subject->武器</li>
+    <li>subject->瞄准</li>
+    <li>subject->射击</li>
+    <li>subject->枪战</li>
+    <li>subject->枪法</li>
+    <li>subject->枪</li>
+    <li>subject->狙击</li>
+    <li>subject->弹道学</li>
+    <li>subject->远程作战</li>
+    <li>subject->精准射击</li>
+    <li>subject->精通步枪</li>
+    <li>subject->打靶练习</li>
+    <li>subject->神枪手</li>
+    <li>subject->远程战术</li>
+    <li>subject->射击位置</li>
+    <li>subject->枪支处理</li>
+    <li>subject->远距离射击</li>
+  </Shooting.generalRules.rulesStrings>
   <!-- EN: shooting -->
   <Shooting.skillLabel>射击</Shooting.skillLabel>
   
@@ -82,6 +448,44 @@
   <Social.label>社交</Social.label>
   <!-- EN: Negotiating, convincing, manipulating, leading, and cheering up others. -->
   <Social.description>谈判、说服、操纵、领导和激励其他人。</Social.description>
+  <!-- EN:
+    <li>subject->communication</li>
+    <li>subject->networking</li>
+    <li>subject->conflict resolution</li>
+    <li>subject->collaboration</li>
+    <li>subject->leadership</li>
+    <li>subject->empathy</li>
+    <li>subject->negotiation</li>
+    <li>subject->trade</li>
+    <li>subject->listening</li>
+    <li>subject->diplomacy</li>
+    <li>subject->teamwork</li>
+    <li>subject->etiquette</li>
+    <li>subject->charisma</li>
+    <li>subject->social intelligence</li>
+    <li>subject->assertiveness</li>
+    <li>subject->emotional intelligence</li>
+    <li>subject->communication skills</li>
+  -->
+  <Social.generalRules.rulesStrings>
+    <li>subject->交流</li>
+    <li>subject->网络</li>
+    <li>subject->冲突解决</li>
+    <li>subject->协作</li>
+    <li>subject->领导</li>
+    <li>subject->共鸣</li>
+    <li>subject->谈判</li>
+    <li>subject->贸易</li>
+    <li>subject->倾听</li>
+    <li>subject->外交</li>
+    <li>subject->团队合作</li>
+    <li>subject->礼仪</li>
+    <li>subject->魅力</li>
+    <li>subject->社交智慧</li>
+    <li>subject->自信</li>
+    <li>subject->情商</li>
+    <li>subject->沟通技巧</li>
+  </Social.generalRules.rulesStrings>
   <!-- EN: social -->
   <Social.skillLabel>社交</Social.skillLabel>
   

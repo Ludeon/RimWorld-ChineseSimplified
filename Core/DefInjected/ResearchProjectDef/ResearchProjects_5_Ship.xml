@@ -9,30 +9,124 @@
   <ShipBasics.discoveredLetterText>逃离这个星球——最终将获得自由，也许终点会是家园。\n\n但这样做也非常危险。\n\n建筑菜单中提供了一个新的飞船类别，一旦研究出适当的技术，你就可以从中建造飞船部件。飞船需要几个不同的部件才能发射，包括一个飞船反应堆。\n\n飞船反应堆需要15天的时间充电。许多绝望的灵魂想要离开这个星球。一旦启动，反应堆发出的巨大能量信息会传到千里之外。就像嗅到美味的蟑螂一样，袭击者会从四面八方蜂拥而至，用你从未见过的强度发起攻击。远古机械也一样。\n\n想逃出生天，你需要储备资源、武器和防御力量。</ShipBasics.discoveredLetterText>
   <!-- EN: About: Launching the ship -->
   <ShipBasics.discoveredLetterTitle>关于：发射飞船</ShipBasics.discoveredLetterTitle>
+  <!-- EN:
+    <li>subject->starship structural engineering</li>
+    <li>subject_story->recruited starship engineers for a glitterworld fleet</li>
+    <li>subject_story->was a structural designer in an urbworld skyripper district</li>
+    <li>subject_story->harvested shipwrecks in the debris belt of a deadworld</li>
+    <li>subject_gerund->constructing starship structures</li>
+  -->
+  <ShipBasics.generalRules.rulesStrings>
+    <li>subject->星际飞船结构工程</li>
+    <li>subject_story->为闪耀世界舰队招募星舰工程师</li>
+    <li>subject_story->曾是一名结构工程师，在都市世界摩天楼区工作</li>
+    <li>subject_story->在一个死亡世界的碎片带中回收的沉船残骸</li>
+    <li>subject_gerund->正在建造星际飞船结构</li>
+  </ShipBasics.generalRules.rulesStrings>
   
   <!-- EN: machine persuasion -->
   <ShipComputerCore.label>飞船电脑核心</ShipComputerCore.label>
   <!-- EN: Build a reward-signal system to persuade an existing persona core into serving as a ship's machine captain. Since people sleep during interstellar travel, a persona core is necessary to handle the complex decisions of a years-long starflight. -->
   <ShipComputerCore.description>解锁建造「飞船电脑核心」，用一个奖励信号系统来说服现有的人格核心成为飞船上的AI舰长。由于乘客在星际旅途中处于休眠状态，AI核心对复杂状况的决策能力在漫长的星际航行中是必要的。</ShipComputerCore.description>
+  <!-- EN:
+    <li>subject->persona core incentivization</li>
+    <li>subject->starship AI sanity maintenance</li>
+    <li>subject_story->regained control of an aberrant ship's core with careful reconditioning</li>
+    <li>subject_story->set up colony-management simulations to occupy the ship's core during the many years of interstellar travel</li>
+    <li>subject_story->kept a ship's core company during a 'short' interstellar trip, learning much about cores in the process</li>
+    <li>subject_gerund->incentivizing persona cores</li>
+    <li>subject_gerund->maintaining starship AI sanity</li>
+    <li>subject_gerund->constructing reward-signal systems</li>
+  -->
+  <ShipComputerCore.generalRules.rulesStrings>
+    <li>subject->人格核心激励</li>
+    <li>subject->飞船AI理智维护</li>
+    <li>subject_story->通过精心修复重新控制了一艘异常飞船的核心</li>
+    <li>subject_story->设置殖民地管理模拟，在多年的星际旅行中占据了飞船的核心</li>
+    <li>subject_story->在一次“短暂”的星际旅行中，与飞船的核心人员 拉近了关系，在这个过程中了解了很多关于核心的知识</li>
+    <li>subject_gerund->正在激励人格核心</li>
+    <li>subject_gerund->正在维持飞船AI理智</li>
+    <li>subject_gerund->正在建造奖励信号系统</li>
+  </ShipComputerCore.generalRules.rulesStrings>
   
   <!-- EN: vacuum cryptosleep casket -->
   <ShipCryptosleep.label>飞船低温休眠舱</ShipCryptosleep.label>
   <!-- EN: Construct hardened cryptosleep caskets tough enough to be exposed to vacuum, for transporting people on the years-long journey between stars. -->
   <ShipCryptosleep.description>解锁建造「飞船低温休眠舱」，经过强化可以抵抗太空中威胁的低温休眠舱，用于在漫长的星际旅途中运送乘客。</ShipCryptosleep.description>
+  <!-- EN:
+    <li>subject->starship-grade cryptosleep caskets</li>
+    <li>subject_story->replaced the failed cryptosleep caskets on the CMC Celeste, so the old generation ship could be used again</li>
+    <li>subject_story->was accidentally ejected in deep space, surviving in a self-designed casket for two months</li>
+    <li>subject_story->lectured on the differences between planetary- and starship-grade equipment</li>
+    <li>subject_gerund->constructing hardened cryptosleep caskets</li>
+  -->
+  <ShipCryptosleep.generalRules.rulesStrings>
+    <li>subject->飞船级低温休眠舱</li>
+    <li>subject_story->更换了CMC塞莱斯特号上失效的低温休眠箱，使这老一代的船可以再次使用</li>
+    <li>subject_story->被意外弹射到太空深处，在自己设计的休眠舱里存活了两个月</li>
+    <li>subject_story->讲授行星级和飞船级设备的区别</li>
+    <li>subject_gerund->正在建造强化低温休眠舱</li>
+  </ShipCryptosleep.generalRules.rulesStrings>
   
   <!-- EN: Johnson-Tanaka drive -->
   <ShipEngine.label>飞船推进器</ShipEngine.label>
   <!-- EN: Construct a Johnson-Tanaka drive for a ship. The JT drive can push you to other stars by leveraging quantum scale effects to beam momentum to distant stars. Of course, as with all starships, it still takes many years to get anywhere. -->
   <ShipEngine.description>解锁建造「飞船推进器」,这种无工质推进器能够将星际飞船送入太空并且穿过广阔的星际空间。当然，就像所有的飞船那样，它仍然需要好几年的时间才能抵达目的地。</ShipEngine.description>
+  <!-- EN:
+    <li>subject->Johnson-Tanaka theory</li>
+    <li>subject->exotic momentum transfer</li>
+    <li>subject_story->lectured in the university on Johnson, Tanaka and quantum-scale effects</li>
+    <li>subject_story->constructed a Johnson-Tanaka drive from first principles for a thesis</li>
+    <li>subject_story->maintained a Johnson-Tanaka drive for two decades, as the ship traveled between the stars</li>
+    <li>subject_gerund->constructing starship drives</li>
+  -->
+  <ShipEngine.generalRules.rulesStrings>
+    <li>subject->约翰逊-田中理论</li>
+    <li>subject->外来动量转换</li>
+    <li>subject_story->在大学里讲授约翰逊-田中和量子尺度效应</li>
+    <li>subject_story->从第一原理的论文中学到了建造飞船推进器</li>
+    <li>subject_story->在20年的飞船星际航行中一直在维护飞船推进器</li>
+    <li>subject_gerund->正在建造飞船推进器</li>
+  </ShipEngine.generalRules.rulesStrings>
   
   <!-- EN: starship reactor -->
   <ShipReactor.label>飞船反应堆</ShipReactor.label>
   <!-- EN: Build a long-duration nuclear reactor to power a starship. Note that reactors have a long startup process that will attract raiders. -->
   <ShipReactor.description>解锁「飞船反应堆」，能长时间工作的核能反应堆，用于给飞船提供动力。请注意，反应堆的启动是一个漫长的过程，期间会引来袭击者。</ShipReactor.description>
+  <!-- EN:
+    <li>subject->starship nuclear reactor</li>
+    <li>subject_story->constructed a new reactor for a colony ship, but never lived to see it lift off</li>
+    <li>subject_story->defended the ship whilst the reactor span up, against raiders desperate to get off-world</li>
+    <li>subject_story->used a starship reactor as the back-up power for a genebank buried beneath the planet's ice-cap</li>
+    <li>subject_gerund->constructing starship reactors</li>
+  -->
+  <ShipReactor.generalRules.rulesStrings>
+    <li>subject->飞船核反应堆</li>
+    <li>subject_story->为一艘殖民地飞船建造了一个新的反应堆，但没能活着看到它升空</li>
+    <li>subject_story->在反应堆升温的时候保护飞船，对抗那些急于离开地球的袭击者</li>
+    <li>subject_story->用飞舰反应堆为埋在冰盖下的基因库提供备用电源</li>
+    <li>subject_gerund->正在建造飞船反应堆</li>
+  </ShipReactor.generalRules.rulesStrings>
   
   <!-- EN: starflight sensors -->
   <ShipSensorCluster.label>飞船传感器</ShipSensorCluster.label>
   <!-- EN: Construct long-range sensors for a starship. These sensors are essential for navigation, communication, and threat avoidance. -->
   <ShipSensorCluster.description>解锁建造供星际飞船使用的远距离「集成传感器」,这些传感器对于导航、通信和规避威胁都是必不可少的。</ShipSensorCluster.description>
+  <!-- EN:
+    <li>subject->interstellar navigation</li>
+    <li>subject_story->used prototype starship sensors to detect an incoming extinction-level asteroid and evacuate the planet</li>
+    <li>subject_story->was employed as navigator and cook on a Glitterworld star-yacht</li>
+    <li>subject_story->refined the design of long-range sensors, improving their utility</li>
+    <li>subject_gerund->navigating interstellar space</li>
+    <li>subject_gerund->constructing starship sensors</li>
+  -->
+  <ShipSensorCluster.generalRules.rulesStrings>
+    <li>subject->星际导航</li>
+    <li>subject_story->使用原型飞船传感器探测到即将到来的灭绝级小行星并撤离星球</li>
+    <li>subject_story->在闪耀世界的一艘星级游艇上担任领航员和厨师</li>
+    <li>subject_story->改进了远距离传感器的设计，提高了其实用性</li>
+    <li>subject_gerund->正在导航星际空间</li>
+    <li>subject_gerund->正在建造飞船传感器</li>
+  </ShipSensorCluster.generalRules.rulesStrings>
   
 </LanguageData>

@@ -26,12 +26,26 @@
   <!-- EN: Medical tend quality is offset by this value. -->
   <MedicalTendQualityOffset.description>医疗治疗质量根据此项的值偏移。</MedicalTendQualityOffset.description>
   
+  <!-- EN: max power output -->
+  <PowerPlantMaxPowerOuput.label>最大输出功率</PowerPlantMaxPowerOuput.label>
+  <!-- EN: The maximum power that this generator can output in ideal conditions. -->
+  <PowerPlantMaxPowerOuput.description>该发电机在理想条件下可输出的最大功率。</PowerPlantMaxPowerOuput.description>
+  
   <!-- EN: research speed factor -->
   <ResearchSpeedFactor.label>研究速度系数</ResearchSpeedFactor.label>
   <!-- EN: The speed at which people do research is multiplied by this value. -->
   <ResearchSpeedFactor.description>进行研究时的速度会乘以此项的值。</ResearchSpeedFactor.description>
   <!-- EN: Room cleanliness -->
   <ResearchSpeedFactor.parts.Room_cleanliness.customLabel>房间清洁度</ResearchSpeedFactor.parts.Room_cleanliness.customLabel>
+  <!-- EN: Reading bonus -->
+  <ResearchSpeedFactor.parts.Reading_bonus.customLabel>阅读奖励</ResearchSpeedFactor.parts.Reading_bonus.customLabel>
+  
+  <!-- EN: reading bonus -->
+  <RoomReadingBonus.label>阅读奖励</RoomReadingBonus.label>
+  <!-- EN: Provides a bonus to research speed, XP gained from reading, and recreation gained from reading in the same room as the bookcase. This is increased by placing more and higher quality books in the bookcase. -->
+  <RoomReadingBonus.description>书柜为所在房间提供的研究速度加成、阅读获得经验及娱乐值加成。在书柜中摆放更多高质量的书籍，可提高此加成。</RoomReadingBonus.description>
+  <!-- EN: Reading bonus -->
+  <RoomReadingBonus.parts.Reading_bonus.customLabel>阅读奖励</RoomReadingBonus.parts.Reading_bonus.customLabel>
   
   <!-- EN: surgery success chance factor -->
   <SurgerySuccessChanceFactor.label>手术成功率系数</SurgerySuccessChanceFactor.label>
@@ -42,7 +56,7 @@
   
   <!-- EN: trap melee damage -->
   <TrapMeleeDamage.label>陷阱近战伤害</TrapMeleeDamage.label>
-  <!-- EN: How much damage this trap does on average.\n\nThe actual damage in any instance will vary randomly. -->
+  <!-- EN: How much damage this trap does on average per hit. Each trap hits multiple times.\n\nThe actual damage in any instance will vary randomly. -->
   <TrapMeleeDamage.description>触发陷阱所造成的伤害平均值。\n\n实际伤害可能有些不同。</TrapMeleeDamage.description>
   
   <!-- EN: trap spring chance -->

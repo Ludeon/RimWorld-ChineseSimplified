@@ -10,11 +10,11 @@
   <BreakRiskMajor>崩溃风险（中）</BreakRiskMajor>
   <!-- EN: Extreme break risk -->
   <BreakRiskExtreme>崩溃风险（高）</BreakRiskExtreme>
-  <!-- EN: These colonists are in a poor mood and may have a minor mental break at any time:\n\n{0} -->
+  <!-- EN: These colonists are in a poor mood and may have a minor mental break at any time:\n{0} -->
   <BreakRiskMinorDesc>以下殖民者的心情不太好，随时可能轻度精神崩溃:\n\n{0}</BreakRiskMinorDesc>
-  <!-- EN: These colonists are in a very poor mood and may have a major mental break at any time:\n\n{0} -->
+  <!-- EN: These colonists are in a very poor mood and may have a major mental break at any time:\n{0} -->
   <BreakRiskMajorDesc>以下殖民者的心情相当差，随时可能中度精神崩溃:\n\n{0}</BreakRiskMajorDesc>
-  <!-- EN: These colonists are critically stressed and may have an extreme (and possibly violent) mental break at any moment:\n\n{0} -->
+  <!-- EN: These colonists are critically stressed and may have an extreme (and possibly violent) mental break at any moment:\n{0} -->
   <BreakRiskExtremeDesc>以下殖民者的心情糟透了，随时可能重度精神崩溃（很可能有暴力行为）:\n\n{0}</BreakRiskExtremeDesc>
   <!-- EN: Check these colonists' Needs tab to see what's bothering them.\n\nTo make colonists feel better, you can do things like make them fancy meals, give them more recreation hours per day and nicer recreation objects, place them in beautiful environments, have them drink and smoke, and much more. -->
   <BreakRiskDescEnding>请查看这些殖民者的「需求」标签了解心情值过低的原因。\n\n你可以通过提供更美味的餐食、更多娱乐时间和更美丽的环境来让你的殖民者心情好转。抽抽烟，喝点小酒也可以解决问题。</BreakRiskDescEnding>
@@ -23,9 +23,9 @@
   <ColonistNeedsRescue>殖民者需要救援</ColonistNeedsRescue>
   <!-- EN: Colonists need rescue -->
   <ColonistsNeedRescue>多个殖民者需要救援</ColonistsNeedRescue>
-  <!-- EN: These colonists are incapacitated on the ground:\n\n{0}\nSend another colonist to rescue them and carry them back to bed.\n\n(To rescue, select another colonist, then right click on the victim and select Rescue.) -->
+  <!-- EN: These colonists are incapacitated on the ground:\n{0}\nSend another colonist to rescue them and carry them back to bed.\n\n(To rescue, select another colonist, then right click on the victim and select Rescue.) -->
   <ColonistsNeedRescueDesc>以下殖民者们倒在地上无法行动:\n\n{0}\n派遣另一名殖民者去救援并将他们带回床上。\n\n（先选择一位殖民者，然后右键点击需要救援的人，并选择「救援」。）</ColonistsNeedRescueDesc>
-  <!-- EN: These colonists are incapacitated on the ground:\n\n{0}\nSend another colonist to rescue them and carry them back to bed.\n\n(To rescue, select another colonist, then press the left trigger button on the victim and select Rescue.) -->
+  <!-- EN: These colonists are incapacitated on the ground:\n{0}\n\nSend another colonist to rescue them and carry them back to bed.\n\n(To rescue, select another colonist, then press the left trigger button on the victim and select Rescue.) -->
   <ColonistsNeedRescueDescController>以下殖民者们倒在地上无法行动:\n\n{0}\n派遣另一名殖民者去救援并将他们带回床上。\n\n（先选择一位殖民者，然后对需要救援的人点击左扳机键，并选择「救援」。）</ColonistsNeedRescueDescController>
 
   <!-- EN: Need defenses -->
@@ -35,7 +35,7 @@
 
   <!-- EN: Need doctor -->
   <NeedDoctor>缺少医生</NeedDoctor>
-  <!-- EN: These colonists need medical care, but you have no healthy colonists assigned as doctors.\n\n{0}\nAssign a healthy colonist to the Doctor work type. If left untreated, wounds may never heal properly and may become permanent. -->
+  <!-- EN: These colonists need medical care, but you have no healthy colonists assigned as doctors.\n{0}\n\nAssign a healthy colonist to the Doctor work type. If left untreated, wounds may never heal properly and may become permanent. -->
   <NeedDoctorDesc>以下殖民者需要治疗。但你没有健康的殖民者从事「照顾」工作。\n\n{0}\n在「工作」标签中给一个健康的殖民者分配「照顾」工作。未及时处理的伤口不会自己痊愈并可能造成永久损害。</NeedDoctorDesc>
 
   <!-- EN: Need miner -->
@@ -70,34 +70,34 @@
   <!-- EN: A colonist is left unburied.\n\nThis may negatively affect your colonists' mood. -->
   <AlertColonistLeftUnburiedDesc>一个殖民者的尸体没有被安葬。\n\n这可能会对你的殖民者心情产生负面影响。</AlertColonistLeftUnburiedDesc>
 
-  <!-- EN: Hunter lacks ranged weapon -->
+  <!-- EN: Hunter lacks suitable weapon -->
   <HunterLacksWeapon>猎人需要远程武器</HunterLacksWeapon>
-  <!-- EN: A colonist is assigned to work as a hunter but does not have a ranged weapon.\n\nThey will not hunt until they are carrying a ranged weapon.\n\nThe following colonists are assigned as hunters and need ranged weapons -->
+  <!-- EN: A colonist is assigned to work as a hunter but does not have a ranged weapon appropriate for hunting.\n\nThey will not hunt until they are carrying an appropriate weapon.\n\nThe following colonists are assigned as hunters and need suitable ranged weapons -->
   <HunterLacksWeaponDesc>一个分配「狩猎」工作的殖民者没有远程武器。\n\n他们在得到一把远程武器之前不会去狩猎。\n\n以下殖民者被指定狩猎工作但没有远程武器</HunterLacksWeaponDesc>
 
   <!-- EN: Tattered apparel -->
   <AlertTatteredApparel>衣衫褴褛</AlertTatteredApparel>
-  <!-- EN: These colonists are wearing tattered apparel, which is making them sad:\n\n{0}\nGet them some apparel that isn't so badly damaged.\n\nYou can tailor apparel at a crafting spot or tailoring table, or buy it from traders. -->
+  <!-- EN: These colonists are wearing tattered apparel, which is making them sad:\n{0}\n\nGet them some apparel that isn't so badly damaged.\n\nYou can tailor apparel at a crafting spot or tailoring table, or buy it from traders. -->
   <AlertTatteredApparelDesc>以下殖民者还在穿着耐久度过低的衣服，这会让他们很不高兴:\n\n{0}\n给他们一些耐久度足够的衣服吧。\n\n你可以通过裁缝台来制作新的衣服，或者从商人手里购买。</AlertTatteredApparelDesc>
 
   <!-- EN: Unhappy nudity -->
   <AlertUnhappyNudity>一丝不挂</AlertUnhappyNudity>
-  <!-- EN: These colonists are nude and not happy about it:\n\n{0}\nGet them some clothes.\n\nYou can tailor apparel at a crafting spot or tailoring table, or buy it from traders. -->
+  <!-- EN: These colonists are nude and not happy about it:\n{0}\n\nGet them some clothes.\n\nYou can tailor apparel at a crafting spot or tailoring table, or buy it from traders. -->
   <AlertUnhappyNudityDesc>以下殖民者全身赤裸，这会让他们很不高兴:\n\n{0}\n给他们一些衣服吧。\n\n你可以通过裁缝台来制作新的衣服，或者从商人手里购买。</AlertUnhappyNudityDesc>
 
   <!-- EN: Starvation -->
   <Starvation>饥肠辘辘</Starvation>
-  <!-- EN: These colonists are starving:\n\n{0}\nGet them some food. -->
+  <!-- EN: These colonists are starving:\n{0}\n\nGet them some food. -->
   <StarvationDesc>以下殖民者快饿死了:\n\n{0}\n给他们弄些食物。你需要在他们的活动区内设置一个食物源，注意殖民者不会去吃牢房内的食物。另外，确保他们不在被征召的状态。</StarvationDesc>
 
   <!-- EN: Animal starvation -->
   <StarvationAnimals>动物饥肠辘辘</StarvationAnimals>
-  <!-- EN: These colony animals are starving:\n\n{0}\nGet them some food. -->
+  <!-- EN: These colony animals are starving:\n{0}\n\nGet them some food. -->
   <StarvationAnimalsDesc>以下已驯服的动物快饿死了:\n\n{0}\n给它们弄些食物。你需要在它们的活动区内设置一个食物源。</StarvationAnimalsDesc>
 
   <!-- EN: Exhaustion -->
   <Exhaustion>精疲力尽</Exhaustion>
-  <!-- EN: These colonists are exhausted and need rest:\n\n{0}\nGet them some rest. They'll need a bed marked for colonist use. Also, make sure they're not drafted. -->
+  <!-- EN: These colonists are exhausted and need rest:\n{0}\n\nGet them some rest. They'll need a bed marked for colonist use. Also, make sure they're not drafted. -->
   <ExhaustionDesc>以下殖民者快累死了:\n\n{0}\n让他们休息一段时间。他们需要可用的殖民者床位。另外，确保他们不在被征召的状态。</ExhaustionDesc>
 
   <!-- EN: Need food hopper -->
@@ -125,7 +125,7 @@
 
   <!-- EN: Boredom -->
   <Boredom>无趣</Boredom>
-  <!-- EN: These people are either in need of recreation or are assigned to recreation, but are bored of every available source of recreation:\n\n{0}\n\nGet them some more recreation variety.\n\nCurrently available recreation types for {PAWN_labelShort}:\n\n{2} -->
+  <!-- EN: These people are either in need of recreation or are assigned to recreation, but are bored of every available source of recreation:\n\n{0}\n\nGet them some more recreation variety.\n\nCurrently available recreation types for {PAWN_labelShort}:\n{2} -->
   <BoredomDesc>这些人需要休闲娱乐，但对目前所有可用的娱乐类型都感到厌烦：\n\n{0}\n\n获得更多娱乐活动。\n\n目前可用于{PAWN_labelShort}的娱乐类型：\n\n{2} </BoredomDesc>
 
   <!-- EN: Need batteries -->
@@ -149,34 +149,34 @@
 
   <!-- EN: Need research project -->
   <NeedResearchProject>缺少研究项目</NeedResearchProject>
-  <!-- EN: You have the equipment to do research but have not selected a project.\n\nOpen the research menu and select a project. -->
+  <!-- EN: You have the equipment to do research but have not selected a project.\n\n(Click to open the research menu.) -->
   <NeedResearchProjectDesc>你有研究设施，但没有选择研究项目。\n\n打开「研究」菜单并选择一个研究项目。</NeedResearchProjectDesc>
 
   <!-- EN: {0} colonists idle -->
   <ColonistsIdle>{0}位殖民者无事可做</ColonistsIdle>
-  <!-- EN: These colonists are wandering idly:\n\n{0}\nYou should probably find them something productive to do. -->
+  <!-- EN: These colonists are wandering idly:\n{0}\n\nYou should probably find them something productive to do. -->
   <ColonistsIdleDesc>以下殖民者正无所事事地闲逛:\n\n{0}\n你应该给他们找点有意义的事情来做。</ColonistsIdleDesc>
   
   <!-- EN: Caravan idle -->
   <CaravanIdle>远行商队闲置</CaravanIdle>
-  <!-- EN: These caravans are waiting for you to set their next destination:\n\n{0} -->
+  <!-- EN: These caravans are waiting for you to set their next destination:\n{0} -->
   <CaravanIdleDesc>远行商队正在等待着你设定的下一个进发目的地\n\n{0}</CaravanIdleDesc>
 
   <!-- EN: Medical treatment needed -->
   <ColonistNeedsTreatment>需要治疗</ColonistNeedsTreatment>
-  <!-- EN: These people need medical treatment. Without it, they may die of their wounds, or their wounds may become permanent.\n\n{0}\nTreat them by sending them to a medical bed.\n\n(First, assign a medical bed by selecting it and toggling it into a medical bed. Then, select the wounded person and right-click on the medical bed to make them a patient.) -->
+  <!-- EN: These people need medical treatment. Without it, they may die of their wounds, or their wounds may become permanent.\n{0}\n\nTreat them by sending them to a medical bed.\n\n(First, assign a medical bed by selecting it and toggling it into a medical bed. Then, select the wounded person and right-click on the medical bed to make them a patient.) -->
   <ColonistNeedsTreatmentDesc>以下人员需要接受治疗。未及时处理的伤口可能导致死亡，或变成永久性的伤疤。\n\n{0}\n需要将他们送到一张医疗床上才能接受治疗。\n\n（首先将床设为医疗床，然后选择伤员并右击医疗床来将他们设为患者。）</ColonistNeedsTreatmentDesc>
-  <!-- EN: These people need medical treatment. Without it, they may die of their wounds, or their wounds may become permanent.\n\n{0}\nTreat them by sending them to a medical bed.\n\n(First, assign a medical bed by selecting it and toggling it into a medical bed. Then, select the wounded person and press the left trigger button on the medical bed to make them a patient.) -->
+  <!-- EN: These people need medical treatment. Without it, they may die of their wounds, or their wounds may become permanent.\n{0}\n\nTreat them by sending them to a medical bed.\n\n(First, assign a medical bed by selecting it and toggling it into a medical bed. Then, select the wounded person and press the left trigger button on the medical bed to make them a patient.) -->
   <ColonistNeedsTreatmentDescController>以下人员需要接受治疗。未及时处理的伤口可能导致死亡，或变成永久性的伤疤。\n\n{0}\n需要将他们送到一张医疗床上才能接受治疗。\n\n（首先将床设为医疗床，然后选择伤员并使用左扳机键点击医疗床来将他们设为患者。）</ColonistNeedsTreatmentDescController>
 
   <!-- EN: Hypothermia -->
   <AlertHypothermia>低温症</AlertHypothermia>
-  <!-- EN: These colonists are suffering from hypothermia:\n\n{0}\nMake sure their clothing is appropriate for the season and that indoor spaces are properly heated. -->
+  <!-- EN: These colonists are suffering from hypothermia:\n{0}\n\nMake sure their clothing is appropriate for the season and that indoor spaces are properly heated. -->
   <AlertHypothermiaDesc>以下殖民者体温过低:\n\n{0}\n确保他们穿着适合这个季节的服装并保证室内区域的正常供暖。</AlertHypothermiaDesc>
   
   <!-- EN: {0} patients await medical operation -->
   <PatientsAwaitingMedicalOperation>{0}人需要进行手术</PatientsAwaitingMedicalOperation>
-  <!-- EN: These patients await medical operation:\n\n{0}\nMake sure you have all necessary medical tools and a free doctor available. -->
+  <!-- EN: These patients await medical operation:\n{0}\n\nMake sure you have all necessary medical tools and a free doctor available. -->
   <PatientsAwaitingMedicalOperationDesc>以下人员需要进行手术:\n\n{0}\n确保你拥有所有的必要药品、医疗工具并且有一名空闲的医生。</PatientsAwaitingMedicalOperationDesc>
 
   <!-- EN: Fire! -->
@@ -186,9 +186,9 @@
 
   <!-- EN: Medical emergency -->
   <PawnsWithLifeThreateningDisease>急救</PawnsWithLifeThreateningDisease>
-  <!-- EN: People are at risk of death because of severe illness:\n\n{0}\nMake sure that they get the best medical care possible. -->
+  <!-- EN: People are at risk of death because of severe illness:\n{0}\n\nMake sure that they get the best medical care possible. -->
   <PawnsWithLifeThreateningDiseaseDesc>以下人员有因病致死的危险:\n\n{0}\n确保他们能受到最好的医疗照顾。</PawnsWithLifeThreateningDiseaseDesc>
-  <!-- EN: People are at risk for death because of severe illness:\n\n{0}\nIf possible, consider amputating or replacing infected limbs in order to keep colonists alive. -->
+  <!-- EN: People are at risk for death because of severe illness:\n{0}\n\nIf possible, consider amputating or replacing infected limbs in order to keep colonists alive. -->
   <PawnsWithLifeThreateningDiseaseAmputationDesc>以下人员有因病致死的危险:\n\n{0}\n条件允许时，请考虑给殖民者截肢或替换感染的四肢以挽救他们的生命。</PawnsWithLifeThreateningDiseaseAmputationDesc>
 
   <!-- EN: Billiards needs space -->
@@ -232,24 +232,24 @@
 
   <!-- EN: Heatstroke -->
   <AlertHeatstroke>中暑</AlertHeatstroke>
-  <!-- EN: The following people are suffering from heatstroke:\n\n{0}\nGet them to a cooler area. You can cool down rooms with passive coolers or electrical coolers. Deep underground spaces are also naturally cool, if separated from the outdoors by a door. -->
+  <!-- EN: The following people are suffering from heatstroke:\n{0}\n\nGet them to a cooler area. You can cool down rooms with passive coolers or electrical coolers. Deep underground spaces are also naturally cool, if separated from the outdoors by a door. -->
   <AlertHeatstrokeDesc>以下殖民者已中暑\n\n{0}\n尽快把他们带到凉爽的地方。你可以使用「蒸发制冷器」或「电气制冷机」让房间降温。如果使用门来与室外隔绝，深层的洞穴里也能保持凉爽。</AlertHeatstrokeDesc>
 
   <!-- EN: Guest unhappy -->
   <QuestPartMoodBelowThreshold>贵宾不高兴</QuestPartMoodBelowThreshold>
-  <!-- EN: The quest {0} requires you to keep this person in a good mood. However, their mood is poor. Take some action to make them feel better:\n\n{1} -->
+  <!-- EN: The quest {0} requires you to keep this person in a good mood. However, their mood is poor. Take some action to make them feel better:\n{1} -->
   <QuestPartMoodBelowThresholdDesc>{0}给予的任务要求是让这些人保持好心情。但是现在，他们的心情很差。采取一些行动使他们感觉更好:\n\n{1}</QuestPartMoodBelowThresholdDesc>
   
   <!-- EN: Shuttle leaving in {0} -->
   <QuestPartShuttleLeaveDelay>穿梭机即将离开{0}</QuestPartShuttleLeaveDelay>
-  <!-- EN: The shuttle will leave in {1}. The quest {0} requires you to load the following people or items onto the shuttle before it leaves:\n\n{2} -->
+  <!-- EN: The shuttle will leave in {1}. The quest {0} requires you to load the following people or items onto the shuttle before it leaves:\n{2} -->
   <QuestPartShuttleLeaveDelayDesc>穿梭机即将离开{1}。{0}的要求是在飞船起飞前把下列的人员或物品装载上机:\n\n{2}</QuestPartShuttleLeaveDelayDesc>
   <!-- EN: The shuttle will leave in {0}. -->
   <QuestPartShuttleLeaveDelayDescHidden>穿梭机将在{0}内离开。</QuestPartShuttleLeaveDelayDescHidden>
 
   <!-- EN: Shuttle arriving in {0} -->
   <QuestPartShuttleArriveDelay>穿梭机抵达（{0}）</QuestPartShuttleArriveDelay>
-  <!-- EN: A shuttle will arrive in {1}. The quest {0} requires you to load the following people or items onto the shuttle before it leaves:\n\n{2} -->
+  <!-- EN: A shuttle will arrive in {1}. The quest {0} requires you to load the following people or items onto the shuttle before it leaves:\n{2} -->
   <QuestPartShuttleArriveDelayDesc>一架穿梭机将在{1}后抵达。任务{0}要求你在穿梭机离开之前将下列人和物资装载到穿梭机上：\n\n{2}</QuestPartShuttleArriveDelayDesc>
   <!-- EN: A shuttle will arrive in {0}. -->
   <QuestPartShuttleArriveDelayDescHidden>一架穿梭机将在{0}后抵达。</QuestPartShuttleArriveDelayDescHidden>
@@ -299,17 +299,17 @@
 
   <!-- EN: Animal wandering away -->
   <AlertAnimalIsRoaming>动物走失</AlertAnimalIsRoaming>
-  <!-- EN: Some of your tame animals are roamers and have started to wander. If they reach the edge of the map, they will eventually leave.\n\nIf you have an enclosed animal pen, your animal handlers can bring the animal back. Animals in an animal pen will not roam.\n\nThe following animals are roaming:\n\n{0} -->
+  <!-- EN: Some of your tame animals are roamers and have started to wander. If they reach the edge of the map, they will eventually leave.\n\nIf you have an enclosed animal pen, your animal handlers can bring the animal back. Animals in an animal pen will not roam.\n\nThe following animals are roaming:\n{0} -->
   <AlertAnimalIsRoamingDesc>你的一些驯服的动物已经开始迁徙了。如果它们到达了地图的边缘，它们最终会离开。\n\n如果你有一个封闭的畜栏，你的动物饲养员可以把动物带回来。畜栏中的动物不会迁徙。\n\n以下动物正在迁徙：\n\n{0}</AlertAnimalIsRoamingDesc>
 
   <!-- EN: Hungry pen animals -->
   <AlertPennedAnimalHungry>饥饿的圈养动物</AlertPennedAnimalHungry>
-  <!-- EN: Some of your penned animals are hungry.\n\nSelect a pen marker and use the Food tab to see more detail.\n\nGrass-eating animals may need a larger pen to provide enough grass. Other animals may need to be supplied with haygrass or similar food using a stockpile.\n\nThe following penned animals are hungry:\n\n{0} -->
+  <!-- EN: Some of your penned animals are hungry.\n\nSelect a pen marker and use the Food tab to see more detail.\n\nGrass-eating animals may need a larger pen to provide enough grass. Other animals may need to be supplied with haygrass or similar food using a stockpile.\n\nThe following penned animals are hungry:\n{0} -->
   <AlertPennedAnimalHungryDesc>一些畜栏里的动物正在挨饿。\n\n选择一个畜栏标牌，使用「食物」标签查看更多细节。\n\n吃草的动物可能需要一个更大的畜栏来提供足够的草。其他动物可能需要用储备的干草或类似的食物来供应。\n\n这些动物正在挨饿：\n\n{0}</AlertPennedAnimalHungryDesc>
 
   <!-- EN: Hungry hitched animal -->
   <AlertHitchedAnimalHungryNoFood>饥饿的拴固动物</AlertHitchedAnimalHungryNoFood>
-  <!-- EN: Some animals tied to hitching spots are hungry. There may not be any suitable food within their reach.\n\nBring them food, or remove the hitching spot so they can find food on their own.\n\nThe following hitched animals are hungry:\n\n{0} -->
+  <!-- EN: Some animals tied to hitching spots are hungry. There may not be any suitable food within their reach.\n\nBring them food, or remove the hitching spot so they can find food on their own.\n\nThe following hitched animals are hungry:\n{0} -->
   <AlertHitchedAnimalHungryNoFoodDesc>一些被绑在牵引点的动物正在挨饿。它们的旁边可能没有任何合适的食物。\n\n你可以将食物喂给它们、放在它们脚边或者取消牵引点让它们自己去觅食。\n\n这些动物正在挨饿：\n\n{0}</AlertHitchedAnimalHungryNoFoodDesc>
 
   <!-- EN: Raids arriving in {0} -->
@@ -321,7 +321,7 @@
 
   <!-- EN: Faction will become hostile if you stay -->
   <FactionWillBecomeHostileIfNotLeavingWithin>派系将变为敌对</FactionWillBecomeHostileIfNotLeavingWithin>
-  <!-- EN: These factions will become hostile if you stay for longer at their settlement or outpost:\n\n{0} -->
+  <!-- EN: These factions will become hostile if you stay for longer at their settlement or outpost:\n{0} -->
   <FactionWillBecomeHostileIfNotLeavingWithinDesc>如果你在他们的定居点或前哨站停留的时间较长，这些派系会变得敌对：\n\n{0}</FactionWillBecomeHostileIfNotLeavingWithinDesc>
 
   <!-- EN: {0} trees dying -->

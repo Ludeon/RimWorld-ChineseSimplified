@@ -382,7 +382,7 @@
   <RangeTo>到</RangeTo>
   <!-- EN: No letter -->
   <NoDietCategoryLetter>无类型</NoDietCategoryLetter>
-  <!-- EN: Expires in -->
+  <!-- EN: expires in -->
   <ExpiresIn>剩余时间</ExpiresIn>
   <!-- EN: {1_labelShort}'s caravan -->
   <CaravanLeaderCaravanName>{1_labelShort}的远行队</CaravanLeaderCaravanName>
@@ -416,6 +416,12 @@
   <PreciousLumpLabel>{0}块</PreciousLumpLabel>
   <!-- EN: no active research project -->
   <NoActiveResearchProjectToFinish>没有正在进行的研究项目</NoActiveResearchProjectToFinish>
+  <!-- EN: Current project -->
+  <CurrentProject>当前项目</CurrentProject>
+  <!-- EN: Research progress -->
+  <ResearchProgress>研究进度</ResearchProgress>
+  <!-- EN: Already has {0} -->
+  <AlreadyHasHediff>已经有{0}</AlreadyHasHediff>
   <!-- EN: turret -->
   <Turret>炮塔</Turret>
   <!-- EN: turrets -->
@@ -456,8 +462,6 @@
   <GeneratesResourcesEvery>每{1}生成{0}</GeneratesResourcesEvery>
   <!-- EN: Foliage kill radius -->
   <FoliageKillRadius>植物杀死半径</FoliageKillRadius>
-  <!-- EN: Radius expand rate -->
-  <RadiusExpandRate>半径扩展率</RadiusExpandRate>
   <!-- EN: View: {0} -->
   <ViewHyperlink>超链接：{0}</ViewHyperlink>
   <!-- EN: Detonates in {0} days -->
@@ -560,9 +564,43 @@
   <Size>大小</Size>
   <!-- EN: cost -->
   <Cost>成本</Cost>
+  <!-- EN: Stunned by EMP -->
+  <StunnedByEMP>被电磁脉冲击昏</StunnedByEMP>
   <!-- EN: Title -->
-  <BackstoryTitle>称谓</BackstoryTitle><!-- text_todo -->
-
+  <BackstoryTitle>称谓</BackstoryTitle>
+  <!-- EN: person -->
+  <Person>人</Person>
+  <!-- EN: activated. -->
+  <Activated>激活。</Activated> 
+  <!-- EN: Contains -->
+  <Contains>包含</Contains>
+  <!-- EN: Hostiles -->
+  <Hostiles>敌人</Hostiles>
+  <!-- EN: Investigate -->
+  <Investigate>调查</Investigate> 
+  <!-- EN: Activate -->
+  <Activate>激活</Activate> 
+  <!-- EN: Activation -->
+  <Activation>激活</Activation> 
+  <!-- EN: complete -->
+  <Complete>完成</Complete>
+  <!-- EN: Must be imprisoned. -->
+  <RequiresImprisonment>必须被监禁。</RequiresImprisonment> 
+  <!-- EN: Prioritize hauling contents -->
+  <HaulFromSource>优先运输内容</HaulFromSource>
+  <!-- EN: Use -->
+  <UseGizmo>使用</UseGizmo>
+  <!-- EN: Order someone to use the {0}. -->
+  <UseGizmoTooltip>命令某人使用{0}。</UseGizmoTooltip>
+  <!-- EN: Choose who should use this -->
+  <UseGizmoMouse>选择谁应该使用它</UseGizmoMouse>
+  <!-- EN: Select target -->
+  <TargetGizmoMouse>选择目标</TargetGizmoMouse>
+  <!-- EN: Cannot use this -->
+  <CannotUseGizmoMouse>不能使用</CannotUseGizmoMouse>
+  <!-- EN: Buildings -->
+  <Buildings>建筑</Buildings>
+  
   <!-- Scanning -->
   <!-- EN: User scanning speed -->
   <UserScanAbility>扫描速度</UserScanAbility>
@@ -580,8 +618,6 @@
   <ContainsWort>装有麦芽汁: {0} / {1}</ContainsWort>
   <!-- EN: Contains {0} / {1} beer. -->
   <ContainsBeer>装有啤酒: {0} / {1}</ContainsBeer>
-  <!-- EN: Contains -->
-  <Contains>包含</Contains>
   <!-- EN: Fermented -->
   <Fermented>发酵完成</Fermented>
   <!-- EN: Progress: {0} ({1} left) -->
@@ -648,6 +684,12 @@
   <NewArea>新建活动区</NewArea>
   <!-- EN: Invert -->
   <InvertArea>反向选择</InvertArea>
+  <!-- EN: Expand -->
+  <ExpandArea>扩大</ExpandArea>
+  <!-- EN: Shrink -->
+  <ShrinkArea>缩小</ShrinkArea>
+  <!-- EN: Maximum {0} areas allowed. -->
+  <MaxAreasReached>允许的最大{0}区域。</MaxAreasReached>
 
   <!-- Animal pens -->
   <!-- EN: Unenclosed -->
@@ -688,6 +730,9 @@
   <PenExampleAnimals>例如</PenExampleAnimals>
   <!-- EN: No exterior access - Animals cannot be moved in or out. -->
   <NoExteriorAccess>没有外部通道——动物不能被移入或移出。</NoExteriorAccess>
+  
+  <!-- EN: Must be connected to walls on both sides to function. -->
+  <DoorMustBeEnclosedByWalls>只需连接到两侧的墙壁即可发挥作用。</DoorMustBeEnclosedByWalls>
 
   <!-- Cell Inspector -->
   <!-- EN: Beauty -->
@@ -746,6 +791,8 @@
   <IsNotDrafted>{1_labelShort}尚未被征召。</IsNotDrafted>
   <!-- EN: {PAWN_nameDef} cannot use ranged weapons due to {PAWN_possessive} {APPAREL_label}. -->
   <ApparelPreventsShooting>{PAWN_nameDef}由于{PAWN_possessive}{APPAREL_label}不能使用远程武器。</ApparelPreventsShooting>
+  <!-- EN: Cannot use in {0} -->
+  <CannotUseReason_PocketMap>不能在{0}中使用</CannotUseReason_PocketMap>
 
   <!-- Snow -->
   <!-- EN: Snow -->
@@ -782,7 +829,7 @@
   <OrderActivation>激活</OrderActivation>
   <!-- EN: Order a colonist to activate {THING_definite}. -->
   <OrderActivationDesc>命令一个殖民者激活{THING_definite}。</OrderActivationDesc>
-  <!-- EN: Must be activated by a colonist. -->
+  <!-- EN: Send a colonist to activate this. -->
   <MustBeActivatedByColonist>必须由殖民者激活。</MustBeActivatedByColonist>
   <!-- EN: No nearby fire -->
   <NoNearbyFire>附近无火焰</NoNearbyFire>
@@ -840,6 +887,10 @@
   <CarriedBy>正被{0_labelShort}持有。</CarriedBy> 
   <!-- EN: inside {0_labelShort}. -->
   <InContainer>在{0_labelShort}里。</InContainer> 
+  <!-- EN: downed, cannot crawl. -->
+  <DownedCannotCrawl>倒下，爬不动。</DownedCannotCrawl> 
+  <!-- EN: downed, unconscious. -->
+  <DownedUnconscious>倒下，无意识。</DownedUnconscious> 
 
   <!-- Lord job reports -->
   <!-- EN: Attending marriage ceremony -->
@@ -980,7 +1031,7 @@
   <!-- Power readout -->
   <!-- EN: Not connected to power. -->
   <PowerNotConnected>未接入电网。</PowerNotConnected>
-  <!-- EN: Grid excess/stored: {0} W / {1} Wd -->
+  <!-- EN: Grid excess: {0} W ({1} Wd stored) -->
   <PowerConnectedRateStored>电网功率/蓄电: {0} W / {1} Wd</PowerConnectedRateStored>
   <!-- EN: Power needed -->
   <PowerNeeded>电力消耗</PowerNeeded>
@@ -1020,12 +1071,12 @@
   <RotStateRotting>腐烂中</RotStateRotting>
   <!-- EN: Dessicated -->
   <RotStateDessicated>已风干</RotStateDessicated>
-  <!-- EN: Frozen (won't spoil) -->
-  <CurrentlyFrozen>冷冻（不会腐烂）</CurrentlyFrozen>
-  <!-- EN: Refrigerated (spoils in {0}) -->
-  <CurrentlyRefrigerated>冷藏（于{0}后腐烂）</CurrentlyRefrigerated>
-  <!-- EN: Not refrigerated (spoils in {0}) -->
-  <NotRefrigerated>未冷藏（于{0}后腐烂）</NotRefrigerated>
+  <!-- EN: Frozen -->
+  <CurrentlyFrozen>冷冻（不会腐烂）</CurrentlyFrozen> 
+  <!-- EN: Refrigerated, spoils in {0} -->
+  <CurrentlyRefrigerated>冷藏（于{0}后腐烂）</CurrentlyRefrigerated> 
+  <!-- EN: Unrefrigerated, spoils in {0} -->
+  <NotRefrigerated>未冷藏（于{0}后腐烂）</NotRefrigerated> 
   <!-- EN: over a decade -->
   <OverADecade>超过10年</OverADecade>
   <!-- EN: less than a day -->
@@ -1108,12 +1159,22 @@
   <Stockpile>储存区</Stockpile>
   <!-- EN: Dumping stockpile zone -->
   <DumpingStockpile>垃圾储存区</DumpingStockpile>
+  <!-- EN: Corpse stockpile zone -->
+  <CorpseStockpile>尸体存放区</CorpseStockpile>
   <!-- EN: Priority -->
   <Priority>优先级</Priority>
   <!-- EN: Clear all -->
   <ClearAll>全部清除</ClearAll>
   <!-- EN: Allow all -->
   <AllowAll>全部允许</AllowAll>
+  
+  <!-- Storage Groups -->
+  <!-- EN: Group -->
+  <StorageGroup>组</StorageGroup>
+  <!-- EN: Name -->
+  <StorageLabel>名称</StorageLabel>
+  <!-- EN: Storage group -->
+  <StorageGroupLabel>存储组</StorageGroupLabel>
 
   <!-- ThingFilter -->
   <!-- EN: {0} hit points -->
@@ -1126,6 +1187,14 @@
   <!-- Mouseover indicator -->
   <!-- EN: Undiscovered -->
   <Undiscovered>未探索</Undiscovered>
+  
+  <!-- Animal management -->
+  <!-- EN: Are you sure you want to sterilize {PAWN_nameDef}? Doing this will anger {FACTION_name}. -->
+  <AnimalSterilizeConfirm>你确定要灭菌{PAWN_nameDef}吗?这样做会激怒{FACTION_name}。</AnimalSterilizeConfirm>
+  <!-- EN: Are you sure you want to slaughter {PAWN_nameDef}? Doing this will anger {FACTION_name}. -->
+  <AnimalSlaughterConfirm>你确定要屠宰{pawn_namdef}吗?这样做会激怒{FACTION_name}。</AnimalSlaughterConfirm>
+  <!-- EN: Are you sure you want to release {PAWN_nameDef}? Doing this will anger {FACTION_name}. -->
+  <AnimalReleaseConfirm>你确定要释放{pawn_namdef}吗?这样做会激怒{FACTION_name}。</AnimalReleaseConfirm>
 
   <!-- Buttons -->
   <!-- EN: Toggle visibility of the learning helper when it is empty.\n\nThe learning helper is always visible if there is a concept activated to be learned. This toggle makes it disappear when no concept is active. -->
@@ -1165,6 +1234,10 @@
   <!-- EN: Toggle heat overlay. This shows the air temperature in each room and outdoors.\n\nColonists will be unhappy if the temperature is too high or too low. Exposure to extreme temperatures can lead to hypothermia, frostbite, heatstroke, burns, and death. -->
   <ShowTemperatureOverlayToggleButton>切换温度显示。这显示了每个房间和室外的空气温度。\n\n如果温度过高或过低，殖民者会感到不高兴。暴露在极端温度下会导致体温过低、冻伤、中暑、烧伤和死亡。</ShowTemperatureOverlayToggleButton>
 
+  <!-- Hotkeys -->
+  <!-- EN: Hotkey -->
+  <HotKeyTip>热键</HotKeyTip>
+  
   <!-- Fire -->
   <!-- EN: fire on {1_label} -->
   <FireOn>{1_label}上的火焰</FireOn>
@@ -1200,6 +1273,12 @@
   <MustPlaceUnroofed>无法放置于屋顶下。</MustPlaceUnroofed>
   <!-- EN: Must be placed under thick roof. -->
   <MustPlaceUnderThickRoof>必须放置在厚岩顶下。</MustPlaceUnderThickRoof>
+  <!-- EN: Must be placed against a wall. -->
+  <MustPlaceOnWall>必须靠墙放置。</MustPlaceOnWall>
+  <!-- EN: Something is already placed on this wall. -->
+  <SomethingPlacedOnThisWall>这面墙上已经有东西了。</SomethingPlacedOnThisWall>
+  <!-- EN: This building can not support attachments. -->
+  <CannotSupportAttachment>此建筑物不支持附件。</CannotSupportAttachment>
   <!-- EN: Must place with head attached to ship structural beam. -->
   <MustPlaceHeadOnShipBeam>必须放置于飞船结构梁两端。</MustPlaceHeadOnShipBeam>
   <!-- EN: Must be placed next to something that needs a hopper. -->
@@ -1252,6 +1331,8 @@
   <ShipReportHibernating>休眠组件</ShipReportHibernating>
   <!-- EN: Component not yet ready -->
   <ShipReportNotReady>组件还未就绪</ShipReportNotReady>
+  <!-- EN: No settlement to return to. Form a settlement first. -->
+  <ShipNoSettlementToReturnTo>没有定居点可以返回。请先建立一个。</ShipNoSettlementToReturnTo> 
   <!-- EN: (*Name)Charlon Whitestone(/Name) is ready to begin the reactor's hibernation recovery sequence.\n\nHe warns you that the process will take about 15 days, and the energy signature will be detectable from a long distance away.\n\nThis sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
   <HibernateWarning>(*Name)沙隆·白石(/Name)准备开始反应堆的休眠唤醒程序。\n\n他警告称启动进程将会耗费大约15天，并且在很远距离外就能侦测到能量特征。这类能量特征表示具备星际飞行能力，并将吸引一群绝望的袭击者和寻宝猎人。确保第一时间做好防御。</HibernateWarning>
   <!-- EN: The reactor is ready to power up.\n\nThe process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
@@ -1318,6 +1399,8 @@
   <Mood_Happy>开心</Mood_Happy>
 
   <!-- Game over -->
+  <!-- EN: Game Over -->
+  <GameOver>游戏结束</GameOver>
   <!-- EN: Everyone is dead or gone. This story is over.\n\nPerhaps someone else will find a use for the ruins of this place. -->
   <GameOverEveryoneDead>所有殖民者不是死亡就是离开了。这个故事结束了。\n\n这片遗迹也许在某天会帮上其他人的忙。</GameOverEveryoneDead>
   <!-- EN: At near-lightspeed, the planetkiller weapon slammed into the ground with the force of a trillion hydrogen bombs. Like a water balloon shot with a rifle, this world liquified under the impact and sprayed its molten guts across the cosmos.\n\nPart of {0} is now a small asteroid belt. The rest is a molten, radioactive hellscape, constantly rippling with kilometers-high planetquakes.\n\nYou did not survive. -->
@@ -1332,10 +1415,20 @@
   <GameOverColonistsLeft>以下殖民者被留下：\n\n{0}</GameOverColonistsLeft>
   <!-- EN: In memory of:\n -->
   <GameOverInMemoryOf>纪念：\n</GameOverInMemoryOf>
-  <!-- EN: Keep playing -->
-  <GameOverKeepPlaying>继续游戏</GameOverKeepPlaying>
+  <!-- EN: Keep watching -->
+  <GameOverKeepWatching>保持观察</GameOverKeepWatching>
+  <!-- EN: Keep watching for now -->
+  <GameOverKeepWatchingForNow>保持观察</GameOverKeepWatchingForNow>
+  <!-- EN: Create new wanderers -->
+  <GameOverCreateNewWanderers>创造新的流浪者</GameOverCreateNewWanderers>
+  <!-- EN: Create new wanderers (must wait {0}h) -->
+  <GameOverCreateNewWanderersWait>创建新的流浪者(必须等待{0}小时)</GameOverCreateNewWanderersWait>
+  <!-- EN: Everyone is dead or gone. Perhaps someone will find a use for the ruins of this place.\n\nChoose new wanderers arrive at your colony and continue the story. -->
+  <GameOverCreateNewWanderersText>每个人不是死了就是走了。也许有人会利用这个地方的废墟。选择新的流浪者到达你的殖民地并继续故事。</GameOverCreateNewWanderersText>
   <!-- EN: Main menu -->
   <GameOverMainMenu>返回主菜单</GameOverMainMenu>
+  <!-- EN: No colony -->
+  <NoColony>无殖民地</NoColony>
 
   <!-- Generic lifespan -->
   <!-- EN: Expires in: -->
@@ -1348,6 +1441,10 @@
   <FacilityPotentiallyLinkedTo>链接至</FacilityPotentiallyLinkedTo>
   <!-- EN: Not linked to a building -->
   <FacilityNoPotentialLinks>未链接</FacilityNoPotentialLinks>
+  <!-- EN: Max connected per building -->
+  <FacilityMaxSimultaneousConnections>每个设施最大连接数</FacilityMaxSimultaneousConnections>
+  <!-- EN: Front of building is blocked. -->
+  <FacilityFrontBlocked>设施前方被堵住了。</FacilityFrontBlocked>
 
   <!-- Hediffs growth modes -->
   <!-- EN: {PAWN_labelShort}'s {1} is now growing. -->
@@ -1536,6 +1633,10 @@
   <Reward_CampLoot>你可以从这个营地劫走任何东西</Reward_CampLoot>
   <!-- EN: Camp loot -->
   <Reward_CampLoot_Label>营地洗劫</Reward_CampLoot_Label>
+  <!-- EN: It is unclear what will happen if you accept this quest -->
+  <Reward_Unknown>现在还不清楚如果你接受这个任务会发生什么</Reward_Unknown> 
+  <!-- EN: Unknown -->
+  <Reward_Unknown_Label>未知</Reward_Unknown_Label> 
   <!-- EN: the visitors will work and fight for you -->
   <Reward_VisitorsHelp>访客们将为你而战</Reward_VisitorsHelp>
   <!-- EN: Visitors' help -->
@@ -1599,9 +1700,16 @@
   <!-- EN: Caused by: {0} -->
   <CausedByHediff>由于：{0}</CausedByHediff>
   
+  <!-- EN: {DAMAGE_label} weakness -->
+  <DamageFactorWeakness>{DAMAGE_label}的弱点</DamageFactorWeakness>
+  <!-- EN: {DAMAGE_label} resistance -->
+  <DamageFactorResistance>{DAMAGE_label}的抵抗</DamageFactorResistance>
+  <!-- EN: {DAMAGE_label} damage that this creature recieves is multiplied by this amount. -->
+  <DamageFactor>{DAMAGE_label}受到的伤害乘以此数值。</DamageFactor>
+  
   <!-- Healing -->
-  <!-- EN: {0_nameDef}'s {1} was cured. -->
-  <HealingCureHediff>{0_nameDef}的{1}被治愈了。</HealingCureHediff>
+  <!-- EN: {0_nameDef}'s {1} was healed. -->
+  <HealingHealHediff>{0_nameDef}的{1}被治愈。</HealingHealHediff>
   <!-- EN: {0_nameDef}'s {1} was restored. -->
   <HealingRestoreBodyPart>{0_nameDef}的{1}被恢复了。</HealingRestoreBodyPart>
 
@@ -1610,7 +1718,13 @@
 
   <!-- EN: Choose landing site -->
   <ChooseLandingSite>选择着陆点</ChooseLandingSite>
-  
+
+  <!-- LordJobs -->
+  <!-- EN: Outcome chances at {0} quality -->
+  <LordJobOutcomeChances>结果在{0}质量的机会</LordJobOutcomeChances>
+  <!-- EN: Expected duration -->
+  <ExpectedLordJobDuration>预计持续时间</ExpectedLordJobDuration>
+
   <!-- Rituals -->
   <!-- EN: ritual -->
   <Ritual>仪式</Ritual>
@@ -1669,8 +1783,6 @@
   <RitualOutcomeQualityAbstract>{0}效果取决于</RitualOutcomeQualityAbstract>
   <!-- EN: {0} total quality was {1}, determined by these factors -->
   <RitualOutcomeQualitySpecific>{0}总体效果为{1}， 由这些因素决定</RitualOutcomeQualitySpecific>
-  <!-- EN: Outcome chances at {0} quality -->
-  <RitualOutcomeChances>在{0}效果下的结果几率</RitualOutcomeChances>
   <!-- EN: Performed recently -->
   <RitualOutcomePerformedRecently>最近进行的</RitualOutcomePerformedRecently>
   <!-- EN: {0} expectations -->
@@ -1687,9 +1799,7 @@
   <RitualOutcomeExtraDesc_Mood>每个仪式的参与者都会获得持续{1}天的{0}心情。</RitualOutcomeExtraDesc_Mood>
   <!-- EN: This ritual has no quality offsets, so the best outcome is always expected -->
   <RitualOutcomeNoQuality>这种仪式没有质量上的偏移，所以总是产生最好的结果。</RitualOutcomeNoQuality>
-  
-  <!-- EN: Choose who should participate in {RITUAL_labelDef}. -->
-  <ChooseParticipants>选择谁应该参加{RITUAL_labelDef}。</ChooseParticipants>
+
   <!-- EN: Begin -->
   <Begin>开始</Begin>
   <!-- EN: Begin {0} -->
@@ -1706,12 +1816,9 @@
   <!-- EN: Ritual seat of {IDEOS} -->
   <RitualSeatOf>{IDEOS}的仪式席位</RitualSeatOf>
   <!-- EN: Expected quality -->
-  <ExpectedRitualQuality>预期效果</ExpectedRitualQuality>
+  <ExpectedLordJobQuality>预期的质量</ExpectedLordJobQuality>
   <!-- EN: Starting quality -->
   <StartingQuality>起始效果</StartingQuality>
-  <!-- EN: Expected duration -->
-  <ExpectedRitualDuration>预计持续</ExpectedRitualDuration>
-  
   <!-- EN: {PAWN_labelShort}'s {1} -->
   <RitualPredictedOutcomeDescPawnStat>{PAWN_labelShort}的{1}</RitualPredictedOutcomeDescPawnStat>
   <!-- EN: Room beauty -->
@@ -1760,16 +1867,22 @@
   <ToxGas>毒烟</ToxGas>
   <!-- EN: rot stink -->
   <RotStink>腐烂发臭</RotStink>
+  <!-- EN: deadlife dust -->
+  <DeadlifeDust>deadlife尘埃</DeadlifeDust> 
 
   <!-- Abilities -->
   <!-- EN: must be drafted. -->
   <AbilityDisabledUndrafted>必须先行征召。</AbilityDisabledUndrafted>
   <!-- EN: ability on cooldown. It will be available in {0}. -->
   <AbilityOnCooldown>能力正在冷却中。 它会在{0}后可用。</AbilityOnCooldown>
+  <!-- EN: ability out of charges. -->
+  <AbilityNoCharges>能力超出费用范围。</AbilityNoCharges>
   <!-- EN: ability already queued. -->
   <AbilityAlreadyQueued>能力已经加入序列。</AbilityAlreadyQueued>
-  <!-- EN: Ability ready: {0} -->
+  <!-- EN: Ability ready for {PAWN_nameDef}: {0} -->
   <AbilityReadyLabel>能力就绪：{0}</AbilityReadyLabel>
+  <!-- EN: Abilities ready for {PAWN_nameDef}: {0} -->
+  <AbilitiesReadyLabel>能力就绪：{0}</AbilitiesReadyLabel>
   <!-- EN: {0_nameDef} is ready to use {1}. -->
   <AbilityReadyText>{0_nameDef}已经可以使用{1}。</AbilityReadyText>
   <!-- EN: {0_labelShort} is participating in {1}. -->
@@ -1777,8 +1890,10 @@
   <!-- EN: Charges -->
   <Charges>费用</Charges>
 
-  <!-- EN: {0_nameDef} is in an aggressive mental state. -->
+  <!-- EN: {0_nameDef} is in a mental state. -->
   <PawnIsInMentalState>{0_nameDef}处于攻击性的精神状态。</PawnIsInMentalState>
+  <!-- EN: {0_nameDef} is in an aggressive mental state. -->
+  <PawnIsInAggroMentalState>{0_nameDef} 处于攻击性精神状态。</PawnIsInAggroMentalState>
 
   <!-- EN: Disabled work -->
   <DisabledWorkLabel>禁用工作</DisabledWorkLabel>
@@ -1809,5 +1924,98 @@
   <CancelPlantThing>取消种植{0_label}</CancelPlantThing>
   <!-- EN: Cancel planting the {0_label}. -->
   <CancelPlantThingDesc>取消种植{0_label}</CancelPlantThingDesc>
+
+  <!-- EN: another gathering is in progress. -->
+  <AbilitySpeechDisabledAnotherGatheringInProgress>另一场集会正在进行中。</AbilitySpeechDisabledAnotherGatheringInProgress>
+  <!-- EN: Next speech ready in -->
+  <AbilitySpeechCooldown>下一次演讲准备好了</AbilitySpeechCooldown>
+  <!-- EN: Initiated at -->
+  <AbilitySpeechTargetsLabel>开始于</AbilitySpeechTargetsLabel>
+  
+  <!-- Books -->
+
+  <!-- EN: Benefits -->
+  <Benefits>收益</Benefits>
+  <!-- EN: Dangers -->
+  <Dangers>危险</Dangers>
+  <!-- EN: already unlocked -->
+  <AlreadyUnlocked>已经解锁</AlreadyUnlocked>
+  <!-- EN: when discovered -->
+  <WhenDiscovered>当发现</WhenDiscovered>
+  
+  <!-- EN: Was driven into a mental break after reading {0}. -->
+  <BookMentalBreakMessage>在阅读了{0}之后，陷入了精神崩溃。</BookMentalBreakMessage>
+  <!-- EN: {0} done (complete in {1} hours) -->
+  <BookReadProgress>{0}完成(在{1}小时内完成)</BookReadProgress>
+  
+  <!-- EN: learning speed -->
+  <BookLearningModifier>学习速度</BookLearningModifier>
+  <!-- EN: Mental break chance -->
+  <BookMentalBreak>精神崩溃概率</BookMentalBreak>
+  
+  <!-- EN: {BOOK_labelShort} is not readable -->
+  <BookNotReadable>{BOOK_labelShort}不可阅读</BookNotReadable>
+  <!-- EN: {PAWN_nameDef} can't read -->
+  <BookCantRead>{PAWN_nameDef}无法读取</BookCantRead>
+  <!-- EN: {PAWN_nameDef} must be a {STAGES} -->
+  <BookCantBeStage>{PAWN_nameDef}必须是{STAGES}</BookCantBeStage>
+  <!-- EN: {PAWN_nameDef} is blind -->
+  <BookBlind>{PAWN_nameDef}是盲人</BookBlind>
+  
+  <!-- EN: max level {0} -->
+  <BookMaxLevel>最大级别{0}</BookMaxLevel>
+  
+  <!-- EN: Reading {0}: {1} done (complete in {2} hours) -->
+  <ReadingReportHeader>阅读{0}:{1}完成(在{2}小时内完成)</ReadingReportHeader>
+  
+  <!-- EN: Assign reading -->
+  <ReadingDialogTitle>指定阅读</ReadingDialogTitle>
+  <!-- EN: Assign to {0} -->
+  <ReadingAssignTo>指定给{0}</ReadingAssignTo>
+  <!-- EN: Assign -->
+  <ReadingAssign>指定</ReadingAssign>
+
+  <!-- EN: The books currently on this bookshelf. -->
+  <ContainedBooksDesc>这个书架上的书。</ContainedBooksDesc>
+  
+  <!-- EN: Books stored -->
+  <BookshelfStoredInspect>书籍存储</BookshelfStoredInspect>
+  <!-- EN: Reading bonus in room -->
+  <BookshelfReadingBonusInspect>室内阅读增益</BookshelfReadingBonusInspect>
+
+  <!-- EN: Remove this book from the bookshelf. -->
+  <EjectBookTooltip>把这本书从书架上拿下来。</EjectBookTooltip>
+  
+  <!-- Pushing -->
+  <!-- EN: Push to... -->
+  <CommandPushTo>推动...</CommandPushTo>
+  <!-- EN: requires {0} -->
+  <RequiredCapacity>需要{0}</RequiredCapacity>
+  
+  <!-- EN: Unable to enter {0}, destination is blocked -->
+  <UnableToEnterPortal>无法输入{0}，目标被阻挡</UnableToEnterPortal>
+
+  <!-- EN: This category of research has not been discovered. -->
+  <ResearchNotDiscovered>这类研究尚未被发现。</ResearchNotDiscovered>
+
+  <!-- EN: Emergence -->
+  <Emergence>出现</Emergence>
+  
+  <!-- EN: remove {0} -->
+  <RemovePart>删除{0}</RemovePart>
+
+  <!-- EN: {GERUND} {TARGETLABEL} at -->
+  <DoWorkAtThing>{GERUND} {TARGETLABEL}在</DoWorkAtThing>
+  <!-- EN: can be studied in {0} -->
+  <CanBeStudiedInDuration>可以在{0}中研究</CanBeStudiedInDuration>
+  
+  <!-- UNUSED -->
+  <RadiusExpandRate>半径扩展率</RadiusExpandRate>
+  <GameOverKeepPlaying>继续游戏</GameOverKeepPlaying>
+  <HealingCureHediff>{0_nameDef}的{1}被治愈了。</HealingCureHediff>
+  <RitualOutcomeChances>在{0}效果下的结果几率</RitualOutcomeChances>
+  <ChooseParticipants>选择谁应该参加{RITUAL_labelDef}。</ChooseParticipants>
+  <ExpectedRitualQuality>预期效果</ExpectedRitualQuality>
+  <ExpectedRitualDuration>预计持续</ExpectedRitualDuration>
 
 </LanguageData>

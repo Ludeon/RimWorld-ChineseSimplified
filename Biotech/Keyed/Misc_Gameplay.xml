@@ -77,6 +77,8 @@
   <Groups>组</Groups>
   <!-- EN: Loading mech gestation resources -->
   <LoadingMechGestator>加载机械体培育资源</LoadingMechGestator>
+  <!-- EN: Time left this cycle -->
+  <GestatingInspect>培育周期剩余时间</GestatingInspect>
   <!-- EN: Initiating mech gestation cycle -->
   <InitMechGestationCycle>初始化机械体培育周期</InitMechGestationCycle>
   <!-- EN: Initiating mech birth -->
@@ -153,8 +155,6 @@
   <ConfirmExitDeathrestUnderMinDays>安全地完成死眠需要{MINDURATION}，但是{PAWN_nameDef}仅持续死眠了{CURDURATION}。\n\n现在唤醒{PAWN_nameDef}会打断{PAWN_possessive}死眠，这会让{PAWN_possessive}代谢失衡从而使{PAWN_objective}虚弱几天。\n\n你确定想要唤醒{PAWN_objective}吗？</ConfirmExitDeathrestUnderMinDays>
   <!-- EN: deathresting -->
   <Deathresting>正在死眠</Deathresting>
-  <!-- EN: complete -->
-  <Complete>完成</Complete>
   <!-- EN: can wake safely now. -->
   <CanWakeSafely>现在可以安全唤醒。</CanWakeSafely>
   <!-- EN: Disabled by gene -->
@@ -429,8 +429,6 @@
   <LethalInjuries>致命伤害</LethalInjuries>
   <!-- EN: deathrest -->
   <Deathrest>死眠</Deathrest>
-  <!-- EN: Buildings -->
-  <Buildings>建筑</Buildings>
   <!-- EN: capacity -->
   <Capacity>容量</Capacity>
   <!-- EN: Non-{GENE} romance chance -->
@@ -446,8 +444,6 @@
 
   <!-- EN: Children want to learn from different activities at different times. -->
   <LearningDesireTooltip>儿童希望在不同时间从不同的活动中学习。</LearningDesireTooltip>
-  <!-- EN: {0_nameDef}'s current learning desire: -->
-  <LearningDesireTooltip_CurrentDesire>{0_nameDef}当前的学习渴望：</LearningDesireTooltip_CurrentDesire>
   <!-- EN: Development health is the average of a child's learning need since their last birthday.\n\nChildren with higher development health will have more options during growth moments and will gain more passions for skills. -->
   <DevelopmentHealthGizmoTooltip>发展健康是指儿童自上一个生日以来学习需求的平均值。\n\n发展健康度较高的儿童在成长时刻会有更多的选择，会获得更多的技能激情。</DevelopmentHealthGizmoTooltip>
 
@@ -485,6 +481,8 @@
   <GestatingMech>正在培育{0}</GestatingMech>
   <!-- EN: Gestated {0} -->
   <GestatedMech>已培育{0}</GestatedMech>
+  <!-- EN: Requires {PAWN_nameDef} to continue gestating -->
+  <GestatingMechRequiresMechanitor>需要{PAWN_nameDef}来继续培育</GestatingMechRequiresMechanitor>
   <!-- EN: Requires {PAWN_nameDef} to complete -->
   <GestatedMechRequiresMechanitor>需要{PAWN_nameDef}来完成</GestatedMechRequiresMechanitor>
   <!-- EN: Gestation complete -->
@@ -634,8 +632,6 @@
   <Baby>婴儿</Baby>
   <!-- EN: babies -->
   <Babies>婴儿</Babies>
-  <!-- EN: person -->
-  <Person>人员</Person>
   <!-- EN: feral child -->
   <FeralChild>野孩子</FeralChild>
   <!-- EN: Wearable by -->
@@ -772,5 +768,8 @@
   <MyChildIsHappy>我的孩子正开心</MyChildIsHappy>
   <!-- EN: my child is sad -->
   <MyChildIsSad>我的孩子正难过</MyChildIsSad> 
+
+  <!-- UNUSED -->
+  <LearningDesireTooltip_CurrentDesire>{0_nameDef}当前的学习渴望：</LearningDesireTooltip_CurrentDesire>
 
 </LanguageData>

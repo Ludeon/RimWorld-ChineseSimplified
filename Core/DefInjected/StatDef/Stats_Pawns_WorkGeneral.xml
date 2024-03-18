@@ -66,6 +66,11 @@
   <!-- EN: The speed at which this person sows and harvests plants. -->
   <PlantWorkSpeed.description>种植与收获植物时的速度。</PlantWorkSpeed.description>
   
+  <!-- EN: reading speed -->
+  <ReadingSpeed.label>阅读速度</ReadingSpeed.label>
+  <!-- EN: A multiplier on how fast this person can read. -->
+  <ReadingSpeed.description>此人阅读书籍速度的乘数。</ReadingSpeed.description>
+  
   <!-- EN: research speed -->
   <ResearchSpeed.label>研究速度</ResearchSpeed.label>
   <!-- EN: How fast this person performs research and how quickly they can find things using scanning equipment. -->
@@ -80,7 +85,8 @@
   <WorkSpeedGlobal.label>全局工作速度</WorkSpeedGlobal.label>
   <!-- EN: A multiplier on a character's speed at doing any kind of work. -->
   <WorkSpeedGlobal.description>做任何工作时的速度乘数。</WorkSpeedGlobal.description>
-  <!-- EN: Offset from mechanitor -->
+  
+  <!-- UNUSED -->
   <WorkSpeedGlobal.parts.2.label>机械师偏移</WorkSpeedGlobal.parts.2.label>
   
 </LanguageData>
