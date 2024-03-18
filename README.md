@@ -14,32 +14,37 @@ http://ludeon.com/forums/index.php?topic=2933.0
 
 ## 下载
 
-### 最新版
-
-![B18](https://img.shields.io/badge/1.4-1.4.3507-blue.svg?style=flat-square)
-![更新日期](https://img.shields.io/badge/更新日期-2022--10--6-brightgreen.svg?style=flat-square)
+### 测试版 1.5
+![1.5](https://img.shields.io/badge/1.5-1.5.4035-yellow)
+![Static Badge](https://img.shields.io/badge/%E6%9B%B4%E6%96%B0%E6%97%A5%E6%9C%9F-2024--03--18-green)
 
 * [GitHub 下载](https://github.com/Ludeon/RimWorld-ChineseSimplified/archive/master.zip)
-* [Coding 下载](https://coding.net/u/duduluu/p/RimWorld-ChineseSimplified/git/archive/master)
 
-### 旧版
+### 稳定版 1.4
 
-![A15](https://img.shields.io/badge/alpha15-0.15.1284-blue.svg?style=flat-square)
-![A16](https://img.shields.io/badge/alpha16-0.16.1393-blue.svg?style=flat-square)
-![A17](https://img.shields.io/badge/alpha17b-0.17.1557-blue.svg?style=flat-square)
+![1.4](https://img.shields.io/badge/1.4-1.4.3901-blue.svg?style=flat-square)
+![更新日期](https://img.shields.io/badge/更新日期-2024--03--18-brightgreen.svg?style=flat-square)
+
+* [GitHub 下载](https://github.com/Ludeon/RimWorld-ChineseSimplified/archive/refs/tags/1.4.3901.zip)
+
+
+### 历史版本
+
+![A17](https://img.shields.io/badge/alpha17b-0.17.1557-blue.svg?style=plastic)
+![A16](https://img.shields.io/badge/alpha16-0.16.1393-blue.svg?style=plastic)
+![A15](https://img.shields.io/badge/alpha15-0.15.1284-blue.svg?style=plastic)
 
 * [GitHub 下载](https://github.com/Ludeon/RimWorld-ChineseSimplified/releases)
 * [Coding 下载](https://coding.net/u/duduluu/p/RimWorld-ChineseSimplified/git/tags)
 
 > 这是游戏的中文补丁，并不是完整的游戏程序。支持正版请通过 Steam 购买。\
-> 由于万恶的电信和 GFW，大陆用户从 Github 下载可能速度很慢，可选择 Coding 下载。\
-> 在每次发布新版 RimWorld 前，开发组会合并本项目的文件。但由于某些原因 —— 通常是官方最后临发布时忘记合并，导致 Steam 内置汉化版本会落后于本项目，玩家可自行下载安装最新汉化。安装方法见下文。
+> 在每次发布新版 RimWorld 前，开发组会合并本项目的文件。但由于某些原因 —— 通常是官方临发布时忘记合并，导致 Steam 内置汉化版本会落后于本项目，玩家可自行下载安装最新汉化。安装方法见下文。
 
 ## 安装方法
 
 1. 下载压缩包
-1. 解压缩得到「Core」、「Royalty」、「Ideology」文件夹
-1. 删除 RimWorld 安装目录 > Data > Core/Royalty/Ideology > Languages 内的「ChineseSimplified (简体中文).tar」文件
+1. 解压缩得到「Core」、「Royalty」、「Ideology」、「Biotech」文件夹
+1. 删除 RimWorld 安装目录 > Data > Core/Royalty/Ideology/Biotech > Languages 内的「ChineseSimplified (简体中文).tar」文件
 1. 在上一步的目录中新建文件夹，命名为「ChineseSimplified (简体中文)」，并将解压缩得到的文件夹中的内容放入对应目录
 
 ## 注意事项
@@ -61,7 +66,7 @@ http://ludeon.com/forums/index.php?topic=2933.0
 * Bigmap
 * duduluu （风之起灵）
 * Vaniat
-* MADxingjin（大学生活不如狗）
+* MADxingjin（社畜生活不如狗）
 * leafzxg（落叶飘零）
 * BOXrsxx（rsxx4488）
 * RicoFox233（临时の工作服）
@@ -70,9 +75,9 @@ http://ludeon.com/forums/index.php?topic=2933.0
 * Sean
 * RS-CZH
 * 飞行棺材
-* 其他成员：cainiaowu， Kenneth Li（魔都KK）， gretino， RSP， Sefank （一个小白）， Aephiex， SerGawen（加文）， weehowe-z（问号）， WNJStudio（承诺丶六年）， wubochang（三桂）， Ydada（于大大）， zhaohu002（嗷嗷虎）， BiscuitMiner（脆餅）， user19990313， VoidVoice， SiQuery， God丶天才， Indeed， Zephyr， Shavius（茶壶教皇）， 那啥可以不笑吗， 黑白灰， Lappland（拉普兰德）
+* 以及其他成员：cainiaowu， Kenneth Li（魔都KK）， gretino， RSP， Sefank （一个小白）， Aephiex， SerGawen（加文）， weehowe-z（问号）， WNJStudio（承诺丶六年）， wubochang（三桂）， Ydada（于大大）， zhaohu002（嗷嗷虎）， BiscuitMiner（脆餅）， user19990313， VoidVoice， SiQuery， ， Indeed， Zephyr， Shavius（茶壶教皇）， MZM_GOW， RED釉里红，samhai_nidelungen ， 那啥可以不笑吗， 黑白灰， Lappland（拉普兰德）
 
-> 当前的主维护人员为Vaniat。
+> 当前的主维护人员为MADxingjin。
 
 ## 特别感谢
 
@@ -83,13 +88,9 @@ http://ludeon.com/forums/index.php?topic=2933.0
 ## 本项目地址
 
 * **GitHub**： https://github.com/Ludeon/RimWorld-ChineseSimplified
-* **Coding**： https://coding.net/u/duduluu/p/RimWorld-ChineseSimplified/git
 
 ## 链接
 
-* 翻译工具 [RimTrans](https://github.com/duduluu/RimTrans)
-* 官方中文维基 [RimWorld.huiji.wiki](http://rimworld.huiji.wiki/) （由 SerGawen 搭建，huiji.wiki
-  提供技术支持）
 * 百度贴吧 [RimWorld 吧](http://tieba.baidu.com/f?kw=rimworld)
-* 饼叔的游戏笔记 [GameJiLu.com](http://www.gamejilu.com/category/project/rimworld/)
-* 边缘汉化组官网 [RimWorld-zh.com](http://rimworld-zh.com/)
+* 翻译工具 [RimTrans](https://github.com/duduluu/RimTrans)
+* 饼叔的游戏笔记 [GameJiLu.com](https://gamejilu.com/project/rimworld)
