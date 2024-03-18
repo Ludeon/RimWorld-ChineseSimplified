@@ -1190,11 +1190,11 @@
   
   <!-- Animal management -->
   <!-- EN: Are you sure you want to sterilize {PAWN_nameDef}? Doing this will anger {FACTION_name}. -->
-  <AnimalSterilizeConfirm>你确定要灭菌{PAWN_nameDef}吗?这样做会激怒{FACTION_name}。</AnimalSterilizeConfirm>
+  <AnimalSterilizeConfirm>你确定要绝育{PAWN_nameDef}吗?这样做会激怒{FACTION_name}。</AnimalSterilizeConfirm>
   <!-- EN: Are you sure you want to slaughter {PAWN_nameDef}? Doing this will anger {FACTION_name}. -->
-  <AnimalSlaughterConfirm>你确定要屠宰{pawn_namdef}吗?这样做会激怒{FACTION_name}。</AnimalSlaughterConfirm>
+  <AnimalSlaughterConfirm>你确定要屠宰{PAWN_nameDef}吗?这样做会激怒{FACTION_name}。</AnimalSlaughterConfirm>
   <!-- EN: Are you sure you want to release {PAWN_nameDef}? Doing this will anger {FACTION_name}. -->
-  <AnimalReleaseConfirm>你确定要释放{pawn_namdef}吗?这样做会激怒{FACTION_name}。</AnimalReleaseConfirm>
+  <AnimalReleaseConfirm>你确定要释放{PAWN_nameDef}吗?这样做会激怒{FACTION_name}。</AnimalReleaseConfirm>
 
   <!-- Buttons -->
   <!-- EN: Toggle visibility of the learning helper when it is empty.\n\nThe learning helper is always visible if there is a concept activated to be learned. This toggle makes it disappear when no concept is active. -->
@@ -1880,9 +1880,9 @@
   <!-- EN: ability already queued. -->
   <AbilityAlreadyQueued>能力已经加入序列。</AbilityAlreadyQueued>
   <!-- EN: Ability ready for {PAWN_nameDef}: {0} -->
-  <AbilityReadyLabel>能力就绪：{0}</AbilityReadyLabel>
+  <AbilityReadyLabel>{PAWN_nameDef}能力就绪：{0}</AbilityReadyLabel>
   <!-- EN: Abilities ready for {PAWN_nameDef}: {0} -->
-  <AbilitiesReadyLabel>能力就绪：{0}</AbilitiesReadyLabel>
+  <AbilitiesReadyLabel>{PAWN_nameDef}能力就绪：{0}</AbilitiesReadyLabel>
   <!-- EN: {0_nameDef} is ready to use {1}. -->
   <AbilityReadyText>{0_nameDef}已经可以使用{1}。</AbilityReadyText>
   <!-- EN: {0_labelShort} is participating in {1}. -->
