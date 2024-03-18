@@ -15,6 +15,8 @@
   <MessageCantUseOnResistingPerson>不能对任何积极抵抗的人使用{ABILITY_label}。</MessageCantUseOnResistingPerson>
   <!-- EN: {0_labelShort} already has the {0_xenotype} xenotype. -->
   <MessageCannotUseOnSameXenotype>{0_labelShort}已经有{0_xenotype}异种人。</MessageCannotUseOnSameXenotype>
+  <!-- EN: {0_labelShort} has no available xenogenes to implant. -->
+  <MessagePawnHasNoXenogenes>{0_labelShort}没有可用的异种基因植入。</MessagePawnHasNoXenogenes>
   <!-- EN: Xenogerms can only be implanted into colonists, prisoners, and slaves. -->
   <MessageCanOnlyTargetColonistsPrisonersAndSlaves>异种胚芽只能植入殖民者、囚犯和奴隶体内。</MessageCanOnlyTargetColonistsPrisonersAndSlaves>
   <!-- EN: Cannot implant in temporary faction members. -->
@@ -61,6 +63,8 @@
   <MessageCocoonDisturbed>一个虫茧被扰动了，它正在破茧!</MessageCocoonDisturbed>
   <!-- EN: Cocoons have been disturbed and are opening! -->
   <MessageCocoonDisturbedPlural>虫茧被扰动了，它们正在破茧！</MessageCocoonDisturbedPlural>
+  <!-- EN: {0} has rotted due to polluted terrain. -->
+  <MessagePlantDiedOfRot_PollutedTerrain>{0}因被污染的地面而枯萎腐烂。</MessagePlantDiedOfRot_PollutedTerrain>
 
   <!-- EN: {PAWN_nameDef} must be downed before you can force {PAWN_objective} to reimplant {PAWN_possessive} xenogerm. -->
   <MessageTargetMustBeDownedToForceReimplant>若要强行再植{PAWN_nameDef}的异种胚芽，必须先放倒{PAWN_objective}。</MessageTargetMustBeDownedToForceReimplant>

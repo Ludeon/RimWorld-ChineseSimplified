@@ -109,11 +109,6 @@
   <!-- EN: Start the countdown to detonation. -->
   <CommandDetonateDesc>开始倒计时引爆。</CommandDetonateDesc>
 
-  <!-- EN: Rename -->
-  <CommandRenameZoneLabel>重命名</CommandRenameZoneLabel>
-  <!-- EN: Rename this zone. -->
-  <CommandRenameZoneDesc>重命名该区域。</CommandRenameZoneDesc>
-
   <!-- EN: Hide -->
   <CommandHideZoneLabel>隐藏</CommandHideZoneLabel>
   <!-- EN: Unhide -->
@@ -242,10 +237,16 @@
   <CommandSunLampMakeGrowingZoneLabel>建立种植区</CommandSunLampMakeGrowingZoneLabel>
 
   <!-- Trap -->
-  <!-- EN: Auto Rearm -->
+  <!-- EN: Auto rearm -->
   <CommandAutoRearm>自动重置</CommandAutoRearm>
   <!-- EN: If this is on, this trap will automatically be replaced after it springs. -->
   <CommandAutoRearmDesc>启用时，该陷阱会在触发后自动被指派重置工作。</CommandAutoRearmDesc>
+  
+  <!-- Firefoam popper -->
+  <!-- EN: Auto rebuild -->
+  <CommandAutoRebuild_Building>自动重建</CommandAutoRebuild_Building>
+  <!-- EN: If this is on, {BUILDING_definite} will automatically be replaced after it detonates. -->
+  <CommandAutoRebuild_BuildingDesc>如果开启，{BUILDING_definite}将在炸毁后重新建造。</CommandAutoRebuild_BuildingDesc>
   
   <!-- Animal control -->
   <!-- EN: Animals attack -->
@@ -292,6 +293,8 @@
   <!-- Select mineral to scan for (long-range mineral scanner) -->
   <!-- EN: Tuned to -->
   <CommandSelectMineralToScanFor>目标</CommandSelectMineralToScanFor>
+  <!-- EN: Select the mineral type to scan for. -->
+  <CommandSelectMineralToScanForDesc>选择要扫描的矿物类型。</CommandSelectMineralToScanForDesc>
 
   <!-- Build copy -->
   <!-- EN: Build copy -->
@@ -314,7 +317,17 @@
   <CommandReformCaravanDesc>重新组建一支殖民者队伍。殖民者会带着你指定的物资和随行动物，离开当前地区，并等待你的下一步指示。</CommandReformCaravanDesc>
   <!-- EN: There are still some enemies in this area. -->
   <CommandReformCaravanFailHostilePawns>此地区内尚有敌人存在。</CommandReformCaravanFailHostilePawns>
-  
+
+  <!-- Send caravan -->
+  <!-- EN: Send caravan -->
+  <CommandSendCaravan>派出远行队</CommandSendCaravan>
+  <!-- EN: Send caravan... -->
+  <CommandSendCaravanMultiple>派出远行队...</CommandSendCaravanMultiple>
+  <!-- EN: Send a caravan to this destination from a selected colony which can reach this location. -->
+  <CommandSendCaravanDesc>从一个选定的可以到达这个位置的殖民地派遣一支远行队到这个目的地。</CommandSendCaravanDesc>
+  <!-- EN: Your settlements have no path to this location. -->
+  <CommandSendCaravanCantReach>你们的定居点没有通往这里的路。</CommandSendCaravanCantReach>
+
   <!-- Split caravan -->
   <!-- EN: Split -->
   <CommandSplitCaravan>拆分</CommandSplitCaravan>
@@ -629,6 +642,8 @@
   <UnlinkStorageSettingsDesc>解除与其他建筑的存储设置的联系，因此它的设置可以独立设置。</UnlinkStorageSettingsDesc>
   <!-- EN: Linked storage settings -->
   <LinkedStorageSettings>已链接</LinkedStorageSettings>
+  <!-- EN: 1 building -->
+  <OneBuilding>1 建筑</OneBuilding>
   <!-- EN: {0} buildings -->
   <NumBuildings>{0}建筑</NumBuildings>
   <!-- EN: Stores -->
@@ -640,5 +655,19 @@
 
   <!-- EN: {0_labelShort} is unconscious. -->
   <CommandDisabledUnconscious>{0_labelShort}失去知觉。</CommandDisabledUnconscious>
+
+  <!-- Study -->
+  <!-- EN: Toggle study -->
+  <CommandToggleStudy>开关的研究</CommandToggleStudy>
+  <!-- EN: Determines whether or not wardens will automatically study this. Forbidden things will never be studied. -->
+  <CommandToggleStudyDesc>决定管理员是否会自动研究这个。禁止的东西永远不会被研究。</CommandToggleStudyDesc>
+
+  <!-- Limited use count action -->
+  <!-- EN: No uses left. -->
+  <CommandNoUsesLeft>无用处。</CommandNoUsesLeft>
   
+  <!-- UNUSED -->
+  <CommandRenameZoneLabel>重命名</CommandRenameZoneLabel>
+  <CommandRenameZoneDesc>重命名该区域。</CommandRenameZoneDesc>
+
 </LanguageData>

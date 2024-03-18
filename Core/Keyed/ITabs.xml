@@ -48,8 +48,14 @@
   <TabFormingCaravan>远行队</TabFormingCaravan>
   <!-- EN: Contents -->
   <TabTransporterContents>内容</TabTransporterContents>
+  <!-- EN: Travel -->
+  <TabMapPortalContents>旅行</TabMapPortalContents>
   <!-- EN: Contents -->
   <TabCasketContents>内容</TabCasketContents>
+  <!-- EN: Details -->
+  <TabBookContents>详细</TabBookContents>
+  <!-- EN: Study -->
+  <TabStudyNotesContents>研究</TabStudyNotesContents>
   <!-- EN: Auto-cut -->
   <TabWindTurbineAutoCut>自动割除</TabWindTurbineAutoCut>
   
@@ -82,6 +88,8 @@
   <PasteBillTip>粘贴</PasteBillTip>
   <!-- EN: can't add more -->
   <PasteBillTip_LimitReached>不能再加了</PasteBillTip_LimitReached>
+  <!-- EN: Finishes in -->
+  <FinishesIn>完成</FinishesIn>
 
   <!-- Guest/prisoner tab -->
   <!-- EN: Resistance -->
@@ -104,9 +112,9 @@
   <NotWhileAsleep>非清醒</NotWhileAsleep>
   <!-- EN: Breaking out now -->
   <CurrentlyPrisonBreaking>现正突破</CurrentlyPrisonBreaking>
-  <!-- EN: Multiplier for door count -->
+  <!-- EN: Door count -->
   <FactorForDoorCount>门数量因素</FactorForDoorCount>
-  <!-- EN: Multiplier for movement -->
+  <!-- EN: Movement -->
   <FactorForMovement>行动力因素</FactorForMovement>
   <!-- EN: Slave price -->
   <SlavePrice>奴隶价格</SlavePrice>
@@ -138,6 +146,8 @@
   <NonRecruitableTip>这名囚犯对他们的家园如此坚定不移地忠诚，以至于完全拒绝被征召。</NonRecruitableTip>
   <!-- EN: Their loyalty extends to their beliefs and they cannot be converted. -->
   <NonRecruitableTipCannotConvert>他们对信仰坚定不移，他们不能被归化。</NonRecruitableTipCannotConvert>
+  <!-- EN: What type of medicine can be given to this prisoner. -->
+  <MedicineQualityDescriptionPrisoner>可以给这个囚犯施用什么药？</MedicineQualityDescriptionPrisoner>
 
 
 
@@ -213,13 +223,19 @@
   <PainFactor>痛觉系数</PainFactor>
   <!-- EN: Prevents infection -->
   <PreventsInfection>抗感染</PreventsInfection>
-  <!-- EN: Self-tend -->
-  <SelfTend>自我治疗</SelfTend>
+  <!-- EN: Allow self-tend -->
+  <AllowSelfTend>允许自我照料</AllowSelfTend>
   <!-- EN: {0} with self-tend enabled will automatically tend to themselves on the spot at {1} the normal efficiency. -->
-  <SelfTendTip>{0}开启自我治疗后将会以正常效果的 {1} 当场自动治疗自己。</SelfTendTip>
+  <AllowSelfTendTip>启用自我照料{0}后将会以正常效果的{1}当场照料自己。</AllowSelfTendTip>
   <!-- EN: death in {0} -->
   <DeathIn>死于{0}</DeathIn>
-  
+  <!-- EN: Allow medicine -->
+  <AllowMedicine>允许药物</AllowMedicine>
+  <!-- EN: What type of medicine can be given to this person. -->
+  <MedicineQualityDescription>可以给这个人服用什么类型的药物。</MedicineQualityDescription>
+  <!-- EN: What type of food can be given to this person. -->
+  <FoodRestrictionDescription>可以给这个人服用什么类型的食物。</FoodRestrictionDescription>
+
   <!-- Medical - Body and activities condition -->
   <!-- EN: None -->
   <None>无</None>
@@ -422,5 +438,21 @@
 
   <!-- EN: Auto-cut blocking plants -->
   <WindTurbineAutoCut_EnabledCheckbox>自动割除阻挡的植物</WindTurbineAutoCut_EnabledCheckbox>
+  
+  <!-- Study tab  -->
+  <!-- EN: Study progress -->
+  <StudyNotesTab_StudyProgress>研究进度</StudyNotesTab_StudyProgress>
+  <!-- EN: Ongoing -->
+  <StudyNotesTab_StudyProgressOngoing>正在进行</StudyNotesTab_StudyProgressOngoing>
+  <!-- EN: Completed -->
+  <StudyNotesTab_StudyProgressCompleted>完成</StudyNotesTab_StudyProgressCompleted>
+  <!-- EN: Toggle study -->
+  <StudyNotesTab_ToggleStudy>锁定的研究</StudyNotesTab_ToggleStudy>
+  <!-- EN: No discoveries yet -->
+  <StudyNotesTab_NoDiscoveries>还没有发现</StudyNotesTab_NoDiscoveries>
+
+  <!-- UNUSED -->
+  <SelfTend>自我治疗</SelfTend>
+  <SelfTendTip>{0}开启自我治疗后将会以正常效果的 {1} 当场自动治疗自己。</SelfTendTip>
 
 </LanguageData>

@@ -131,6 +131,10 @@
   <BreastfeedFailReason_NoMomsAssignedToBaby>没有为{BABY_labelShort}分配处于哺乳期的{BABY_factionPawnsPlural}</BreastfeedFailReason_NoMomsAssignedToBaby>
   <!-- EN: {MOM_labelShort} is not assigned to childcare -->
   <BreastfeedFailReason_MomNotAssignedToChildcare>{MOM_labelShort}没有被指派保育工作</BreastfeedFailReason_MomNotAssignedToChildcare>
+  <!-- EN: {MOM_labelShort} is inside a container -->
+  <BreastfeedFailReason_MomInsideContainer>{MOM_labelShort}正在休眠舱中</BreastfeedFailReason_MomInsideContainer>
+  <!-- EN: {MOM_labelShort} is being carried -->
+  <BreastfeedFailReason_MomBeingCarried>{MOM_labelShort}正携带婴儿</BreastfeedFailReason_MomBeingCarried>
 
   <!-- EN: Order implantation into {PAWN_nameDef} -->
   <OrderImplantationIntoPawn>为{PAWN_nameDef}植入</OrderImplantationIntoPawn>
@@ -144,13 +148,6 @@
   <!-- EN: No available recharger -->
   <CannotCarryToRechargerNoneAvailable>没有可用的充电站</CannotCarryToRechargerNoneAvailable>
 
-  <!-- EN: Cannot study -->
-  <CannotStudy>无法调查</CannotStudy>
-  <!-- EN: already studied -->
-  <AlreadyStudied>已调查</AlreadyStudied>
-  <!-- EN: no reachable, un-reserved research bench available -->
-  <NoResearchBench>没有可达且未被占用的研究台</NoResearchBench>
-
   <!-- EN: Hemogen packs disabled by food restriction. -->
   <NotAllowedHemogen>血原包被食物限制禁用。</NotAllowedHemogen>
 
@@ -159,5 +156,17 @@
 
   <!-- EN: Resulting metabolism would be too low -->
   <ResultingMetTooLow>最终代谢效率太低</ResultingMetTooLow>
+
+  <!-- EN: attempted romance too recently -->
+  <RomanceOnCooldown>试图约会过于频繁</RomanceOnCooldown>
+
+  <!-- EN: Take to safe location -->
+  <CarryToSafePlace>携带前往安全地点</CarryToSafePlace>
+  <!-- EN: Cannot take to safe location -->
+  <CannotCarryToSafePlace>无法携带前往安全地点</CannotCarryToSafePlace>
+
+  <!-- UNUSED -->
+  <CannotStudy>无法调查</CannotStudy>
+  <AlreadyStudied>已调查</AlreadyStudied>
 
 </LanguageData>

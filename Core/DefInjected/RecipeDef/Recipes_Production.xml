@@ -3,7 +3,7 @@
   
   <!-- EN: destroy apparel -->
   <DestroyApparel.label>销毁衣物</DestroyApparel.label>
-  <!-- EN: Use heat to destroy unwanted apparels. This process is faster than smelting, and works on non-smeltable items, but yields no resources. -->
+  <!-- EN: Use heat to destroy unwanted apparel. This process is faster than smelting, and works on non-smeltable items, but yields no resources. -->
   <DestroyApparel.description>使用高温摧毁不需要的衣物。比熔炼快，用于不可熔炼的物品，但不产出资源。</DestroyApparel.description>
   <!-- EN: Destroying apparel. -->
   <DestroyApparel.jobString>正在销毁衣物。</DestroyApparel.jobString>
@@ -69,9 +69,16 @@
   <!-- EN: smelt apparel -->
   <SmeltApparel.label>熔炼衣物</SmeltApparel.label>
   <!-- EN: Use heat and strong electromagnets to break down metallic apparel like armor into useful resources. -->
-  <SmeltApparel.description>用强热和电磁铁将类似装甲的衣物分解成有用的资源。</SmeltApparel.description>
+  <SmeltApparel.description>用强热和电磁铁将诸如装甲之类的衣物分解成有用的资源。</SmeltApparel.description>
   <!-- EN: Smelting apparel. -->
   <SmeltApparel.jobString>正在熔炼衣物。</SmeltApparel.jobString>
+  
+  <!-- EN: smelt or destroy thing -->
+  <SmeltOrDestroyThing.label>熔炼或销毁物品</SmeltOrDestroyThing.label>
+  <!-- EN: Use heat and strong electromagnets to break down metallic things like weapons and armor into useful resources, or destroy them if they are not smeltable. -->
+  <SmeltOrDestroyThing.description>用强热和电磁铁诸如武器装甲之类的金属物品分解成有用的资源，或销毁不可熔炼的物品。</SmeltOrDestroyThing.description>
+  <!-- EN: Smelting/destroying things. -->
+  <SmeltOrDestroyThing.jobString>正在熔炼或销毁物品</SmeltOrDestroyThing.jobString>
   
   <!-- EN: smelt weapon -->
   <SmeltWeapon.label>熔炼武器</SmeltWeapon.label>

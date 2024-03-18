@@ -53,10 +53,23 @@
   <!-- EN: Designate areas of rock to be mined out. -->
   <DesignatorMineDesc>标记需要开采的岩石。</DesignatorMineDesc>
 
+  <!-- EN: Mine vein -->
+  <DesignatorMineVein>标记开采</DesignatorMineVein>
+  <!-- EN: Designate an area of rock to be mined. Colonists will continue to mine until all connected rock of the same type has been mined. -->
+  <DesignatorMineVeinDesc>指定一处要开采的岩石区域。殖民者将继续采矿，开采完所有相连的同类型的岩石。</DesignatorMineVeinDesc>
+
   <!-- EN: Smooth surface -->
   <DesignatorSmoothSurface>打磨表面</DesignatorSmoothSurface>
   <!-- EN: Designate rough stone terrain and walls to be smoothed. -->
   <DesignatorSmoothSurfaceDesc>标记需要打磨的粗糙石质地面和墙壁。</DesignatorSmoothSurfaceDesc>
+  <!-- EN: Smooth walls -->
+  <DesignatorSmoothWalls>打磨石壁</DesignatorSmoothWalls>
+  <!-- EN: Designate rough stone walls to be smoothed. -->
+  <DesignatorSmoothWallsDesc>标记要磨平的粗糙石墙。</DesignatorSmoothWallsDesc>
+  <!-- EN: Smooth terrain -->
+  <DesignatorSmoothFloors>打磨地面</DesignatorSmoothFloors>
+  <!-- EN: Designate rough stone terrain to be smoothed. -->
+  <DesignatorSmoothFloorsDesc>标记要磨平的粗糙地面。</DesignatorSmoothFloorsDesc>
 
   <!-- EN: Plan -->
   <DesignatorPlan>计划</DesignatorPlan>
@@ -300,5 +313,10 @@
   <NoColonistWithAllSkillsForConstructing>你的{0}没有一个具备所需的技能。</NoColonistWithAllSkillsForConstructing>
   <!-- EN: All of your {0} who have this skill are not assigned to {1}. -->
   <AllColonistsWithSkillHaveDisabledConstructingTip>你的所有拥有此技能的{0}都没有指派{1}工作。</AllColonistsWithSkillHaveDisabledConstructingTip>
+
+  <!-- EN: Extract skull -->
+  <DesignatorExtractSkull>摘取颅骨</DesignatorExtractSkull>
+  <!-- EN: Extract the skull from a corpse. -->
+  <DesignatorExtractSkullDesc>从目标尸体上摘取颅骨。</DesignatorExtractSkullDesc>
 
 </LanguageData>

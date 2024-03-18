@@ -1,6 +1,19 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
+  <!-- EN: acid burn -->
+  <AcidBurn.label>酸蚀</AcidBurn.label>
+  <!-- EN: An acid burn. -->
+  <AcidBurn.description>酸蚀伤口。</AcidBurn.description>
+  <!-- EN: acid burn scar -->
+  <AcidBurn.comps.HediffComp_GetsPermanent.permanentLabel>酸蚀伤痕</AcidBurn.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Dissolved off -->
+  <AcidBurn.injuryProps.destroyedLabel>被酸蚀溶解</AcidBurn.injuryProps.destroyedLabel>
+  <!-- EN: an acid burn -->
+  <AcidBurn.labelNoun>酸蚀伤口</AcidBurn.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <AcidBurn.labelNounPretty>{1}中的{0}</AcidBurn.labelNounPretty>
+  
   <!-- EN: bite -->
   <Bite.label>咬伤</Bite.label>
   <!-- EN: A bite wound. -->
@@ -134,6 +147,21 @@
   <!-- EN: {0} in the {1} -->
   <Cut.labelNounPretty>{1}中的{0}</Cut.labelNounPretty>
   
+  <!-- EN: electrical burn -->
+  <ElectricalBurn.label>电弧灼伤</ElectricalBurn.label>
+  <!-- EN: An electical burn. -->
+  <ElectricalBurn.description>电灼伤口。</ElectricalBurn.description>
+  <!-- EN: electrical burn scar -->
+  <ElectricalBurn.comps.HediffComp_GetsPermanent.permanentLabel>电灼伤疤痕。</ElectricalBurn.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Burned off -->
+  <ElectricalBurn.injuryProps.destroyedLabel>被烧掉</ElectricalBurn.injuryProps.destroyedLabel>
+  <!-- EN: Burned out -->
+  <ElectricalBurn.injuryProps.destroyedOutLabel>被烧掉</ElectricalBurn.injuryProps.destroyedOutLabel>
+  <!-- EN: an electrical burn -->
+  <ElectricalBurn.labelNoun>电灼伤口</ElectricalBurn.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <ElectricalBurn.labelNounPretty>{1}中的{0}</ElectricalBurn.labelNounPretty>
+  
   <!-- EN: cut -->
   <ExecutionCut.label>割伤</ExecutionCut.label>
   <!-- EN: A cut made during execution. -->
@@ -187,9 +215,9 @@
   <!-- EN: {0} in the {1} -->
   <Gunshot.labelNounPretty>{1}中的{0}</Gunshot.labelNounPretty>
   
-  <!-- EN: misc -->
+  <!-- EN: wound -->
   <Misc.label>杂项</Misc.label>
-  <!-- EN: Miscellanous injuries. -->
+  <!-- EN: Miscellaneous injuries. -->
   <Misc.description>伤口。</Misc.description>
   <!-- EN: set -->
   <Misc.comps.HediffComp_TendDuration.labelSolidTendedWell>已简单处理</Misc.comps.HediffComp_TendDuration.labelSolidTendedWell>
