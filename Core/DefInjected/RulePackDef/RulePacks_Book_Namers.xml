@@ -189,7 +189,8 @@
     <li>story->Volume</li>
     <li>story->Whimsy</li>
   -->
-  <Namer_Novel.rulePack.rulesStrings>    <li>title(p=3)->[titleNaked]</li>
+  <Namer_Novel.rulePack.rulesStrings>
+    <li>title(p=3)->[titleNaked]</li>
     <li>title->[ANYPAWN_nameIndef]的[titleNaked]</li>
     <li>title->[Character]的[story]</li>
     <li>title->[Character]的[objectAny]</li>
@@ -784,6 +785,156 @@
     <li>randTheme->self-improvement</li>
     <li>randTheme->understanding</li>
   -->
-  <Namer_TextBook.rulePack.rulesStrings>TODO</Namer_TextBook.rulePack.rulesStrings>
+  
+  <Namer_TextBook.rulePack.rulesStrings><li>title->[titleBasic]</li>
+    <li>title(p=2)->[titleAuthored]</li>
+    <li>title(p=2)->[titleAuthoredNoSubject]</li>
+    <li>title(length_subject_primary[less_than]20,p=4)->[titleAuthoredOneSubject]</li>
+    <li>title(length_subject_primary[less_than]20,has_subject_secondary==true,length_subject_secondary[less_than]20,p=4)->[titleBasicTwoSubjects]</li>
+    <li>title(length_subject_primary[less_than]20,has_subject_secondary==true,length_subject_secondary[less_than]20,p=4)->[titleAuthoredTwoSubjects]</li>
+    <li>titleBasic(p=6)->[randAdjective] [subject_primary]</li>
+    <li>titleBasic(p=6)->[randNoun] and [subject_primary]</li>
+    <li>titleBasic->[subject_primary]的课案</li>
+    <li>titleBasic->关于[subject_primary]的思索</li>
+    <li>titleBasic->通向[subject_primary]的指南</li>
+    <li>titleBasic->[subject_primary]的介绍</li>
+    <li>titleBasic->[subject_primary]初级读本</li>
+    <li>titleBasic->[subject_primary]的必会内容</li>
+    <li>titleBasic->掌握[subject_primary]</li>
+    <li>titleBasic->关于[subject_primary]的基础</li>
+    <li>titleBasic->在[subject_primary]领域中遨游</li>
+    <li>titleBasic->[subject_primary]的关键思想</li>
+    <li>titleBasic->[subject_primary]的实现艺术</li>
+    <li>titleBasic->[subject_primary]：大师课程</li>
+    <li>titleBasic->解码[subject_primary]</li>
+    <li>titleBasic->[subject_primary]的高级技术</li>
+    <li>titleBasic->解锁[subject_primary]</li>
+    <li>titleBasic->[subject_primary]的实用指南</li>
+    <li>titleBasic->探索[subject_primary]</li>
+    <li>titleBasic->专家建议：[subject_primary]</li>
+    <li>titleBasic->理解[subject_primary]</li>
+    <li>titleBasic->Journey Through 与[subject_primary]的旅途</li>
+    <li>titleBasic->[subject_primary]之道</li>
+    <li>titleBasic->Insights into [subject_primary]</li>
+    <li>titleBasic->解开[subject_primary]之秘</li>
+    <li>titleBasic->[subject_primary]的秘密</li>
+    <li>titleBasic->掌握[subject_primary]</li>
+    <li>titleBasic->深入学习[subject_primary]</li>
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef]的学习</li>
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef]的[randAdjective]研究成果</li>
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef]的日记</li>
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef]的编年史</li>
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef]的备忘录</li>
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef]的旅记</li>
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef]的沉思</li>
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef]的冒险</li>
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef]的反思</li>
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef]的探索</li>
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef]的证言</li>
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef]的史诗</li>
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef]的旅途</li>
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef]的一生</li>
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef]的故事</li>
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef]的遗产</li>
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef]的冒险</li>
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef]的日记</li>
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef]的游记</li>
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef]的沉思</li>
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef]的证言</li>
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef]的编年史</li>
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef]的备忘录</li>
+    <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef]关于[subject_primary]</li>
+    <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef]对[subject_primary]的指南</li>
+    <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef]对[subject_primary]的介绍</li>
+    <li>titleAuthoredOneSubject->与[ANYPAWN_nameIndef]一起探索[subject_primary]</li>
+    <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef]在[subject_primary]上的见解</li>
+    <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef]在[subject_primary]的工作手册</li>
+    <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef]对[subject_primary]的观点</li>
+    <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef]关于[subject_primary]的笔记</li>
+    <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef]对[subject_primary]的分析</li>
+    <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef]对[subject_primary]的实现</li>
+    <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef]在[subject_primary]领域的发现</li>
+    <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef]对[subject_primary]的沉思</li>
+    <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef]关于[subject_primary]的学习</li>
+    <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef]对[subject_primary]的调查报告</li>
+    <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef]对[subject_primary]的研究报告</li>
+    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]在[subjectsTuple]</li>
+    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]'s Guide to 对[subjectsTuple]的指南</li>
+    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]对[subjectsTuple]的介绍</li>
+    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]和[subjectsTuple] </li>
+    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]对[subjectsTuple]的指南</li>
+    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]对[subjectsTuple]的领路</li>
+    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]探索[subjectsTuple] </li>
+    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]对[subjectsTuple]的灵感</li>
+    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]对[subjectsTuple]的的手册</li>
+    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]对[subjectsTuple]的视角</li>
+    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]对[subjectsTuple]的操作手册</li>
+    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]对[subjectsTuple]的分析</li>
+    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]对[subjectsTuple]的实现</li>
+    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]对[subjectsTuple]的发现</li>
+    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]对[subjectsTuple]的沉思</li>
+    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]对[subjectsTuple]的学习</li>
+    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]对[subjectsTuple]的调查报告</li>
+    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]对[subjectsTuple]的研究报告</li>
+    <li>titleBasicTwoSubjects->[subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->对[subjectsTuple]的介绍</li>
+    <li>titleBasicTwoSubjects->[subjectsTuple]的最佳实践</li>
+    <li>titleBasicTwoSubjects->将[subjectsTuple]结合</li>
+    <li>titleBasicTwoSubjects->关于[subjectsTuple]的课程</li>
+    <li>titleBasicTwoSubjects->关于[subjectsTuple]的思考</li>
+    <li>titleBasicTwoSubjects->对[subjectsTuple]的指南</li>
+    <li>titleBasicTwoSubjects->对[subjectsTuple]的简介</li>
+    <li>titleBasicTwoSubjects->[subjectsTuple]的初学者简介</li>
+    <li>titleBasicTwoSubjects->[subjectsTuple]的要点</li>
+    <li>titleBasicTwoSubjects->掌握[subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->[subjectsTuple]的基础</li>
+    <li>titleBasicTwoSubjects->遨游[subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->[subjectsTuple]的关键理念</li>
+    <li>titleBasicTwoSubjects->[subjectsTuple]的实现艺术</li>
+    <li>titleBasicTwoSubjects->[subjectsTuple]的大师班</li>
+    <li>titleBasicTwoSubjects->解码[subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->在[subjectsTuple]中的进阶技巧</li>
+    <li>titleBasicTwoSubjects->解开[subjectsTuple]之谜</li>
+    <li>titleBasicTwoSubjects->[subjectsTuple]：实用指南</li>
+    <li>titleBasicTwoSubjects->Exploring 探寻[subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->[subjectsTuple]：专家们这样说</li>
+    <li>titleBasicTwoSubjects->理解[subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->[subjectsTuple]之旅</li>
+    <li>titleBasicTwoSubjects->[subjectsTuple]之道</li>
+    <li>titleBasicTwoSubjects->[subjectsTuple]之中的灵感</li>
+    <li>titleBasicTwoSubjects->Unraveling 阐明[subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->[subjectsTuple]：不再神秘</li>
+    <li>titleBasicTwoSubjects->精通[subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->深入学习[subjectsTuple]</li>
+    <li>subjectsTuple(has_subject_secondary==true,p=6)->[subject_primary]和[subject_secondary]</li>
+    <li>subjectsTuple->[subject_secondary]，[subject_primary]，和[randTheme]</li>
+    <li>subjectsTuple->[subject_primary]的[randTheme]</li>
+    <li>randNoun->死</li>
+    <li>randNoun->生</li>
+    <li>randNoun->爱</li>
+    <li>randNoun->成长</li>
+    <li>randNoun->勇气</li>
+    <li>randNoun->智慧</li>
+    <li>randNoun->健康</li>
+    <li>randNoun->爆炸羊</li>
+    <li>randNoun->海盗</li>
+    <li>randAdjective->基础的</li>
+    <li>randAdjective->高效的</li>
+    <li>randAdjective->深思的</li>
+    <li>randAdjective->惊人的</li>
+    <li>randAdjective->马虎的</li>
+    <li>randAdjective->坏</li>
+    <li>randAdjective->好</li>
+    <li>randAdjective->闪耀世界的</li>
+    <li>randAdjective->田园的</li>
+    <li>randAdjective->中世纪的</li>
+    <li>randAdjective->启发的</li>
+    <li>randAdjective->健康的</li>
+    <li>randAdjective->邪恶的</li>
+    <li>randAdjective->混乱的</li>
+    <li>randAdjective->有趣的</li>
+    <li>randTheme->知识</li>
+    <li>randTheme->自我提升</li>
+    <li>randTheme->理解</li></Namer_TextBook.rulePack.rulesStrings>
   
 </LanguageData>
