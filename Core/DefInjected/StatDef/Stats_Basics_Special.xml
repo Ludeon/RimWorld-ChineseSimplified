@@ -2,36 +2,36 @@
 <LanguageData>
   
   <!-- EN: cleaning time multiplier -->
-  <CleaningTimeFactor.label>清扫时间系数</CleaningTimeFactor.label>
+  <CleaningTimeFactor.label>清扫时间乘数</CleaningTimeFactor.label>
   <!-- EN: A multiplier on how long it takes to clean filth from this surface. -->
-  <CleaningTimeFactor.description>从这个物体表面清理污渍的速度系数。</CleaningTimeFactor.description>
+  <CleaningTimeFactor.description>清理此地形上的污物所需时间的乘数。</CleaningTimeFactor.description>
   
   <!-- EN: construction speed -->
-  <ConstructionSpeedFactor.label>建造速度系数</ConstructionSpeedFactor.label>
+  <ConstructionSpeedFactor.label>建造速度</ConstructionSpeedFactor.label>
   <!-- EN: The speed at which buildings made of this are constructed is multiplied by this value.\n\nSome materials, like stone, are slow to build from, while others, like wood, are fast. -->
   <ConstructionSpeedFactor.description>建造速度会乘以此项的值。\n\n一些材料如石砖等，建造速度较慢，而其他材料如木材等，建造速度快。</ConstructionSpeedFactor.description>
   <!-- EN: construction speed (material factor) -->
-  <ConstructionSpeedFactor.labelForFullStatList>建造速度系数（材料乘数）</ConstructionSpeedFactor.labelForFullStatList>
+  <ConstructionSpeedFactor.labelForFullStatList>建造速度（材料系数）</ConstructionSpeedFactor.labelForFullStatList>
   
   <!-- EN: filth multiplier -->
-  <FilthMultiplier.label>易污系数</FilthMultiplier.label>
+  <FilthMultiplier.label>易污乘数</FilthMultiplier.label>
   <!-- EN: How susceptible this surface is to filth. If this is less than 100%, some of the filth deposited here will disappear on contact. This only applies to organic filth. -->
-  <FilthMultiplier.description>这个物体平面对污渍的易感性，如果小于100%，一些沉积在此处的污物将在接触后消失。</FilthMultiplier.description>
+  <FilthMultiplier.description>此地形对污物的易感性。如果小于100%，一些堆积于此的污物将在接触后消失。仅对有机污物有效。</FilthMultiplier.description>
   
   <!-- EN: medical potency -->
   <MedicalPotency.label>医疗效力</MedicalPotency.label>
   <!-- EN: How effective this is when used to tend wounds and diseases, or do surgery.\n\nHigher medical potency improves the quality of tending, and acts as a multiplier on the chance of success during surgery.\nMedical potency is just one factor in medical outcomes, among many others, including doctor ability, equipment, cleanliness, and luck. -->
-  <MedicalPotency.description>这个物品用于治疗伤口和疾病，或者进行手术时的效力。\n\n越高的医疗效力越能提升治疗质量，以及作为手术成功率的乘数。\n手术成功率还受到医生能力、设备、清洁度和运气影响。</MedicalPotency.description>
+  <MedicalPotency.description>此物品用于治疗伤口和疾病，或者进行手术时的效力。\n\n越高的医疗效力越能提升治疗质量，以及作为手术成功率的乘数。\n医疗效力还受到医生能力、设备、房间清洁度、运气等因素的影响。</MedicalPotency.description>
   
   <!-- EN: medical tend quality maximum -->
-  <MedicalQualityMax.label>医疗治疗质量最大值</MedicalQualityMax.label>
+  <MedicalQualityMax.label>治疗质量最大值</MedicalQualityMax.label>
   <!-- EN: The maximum quality of medical tending that can be achieved while using this.\n\nBetter tend quality allows skilled doctors to treat wounds better, as well as more reliably. -->
-  <MedicalQualityMax.description>这个物品所能提供的最高医疗治疗质量。\n\n更好的治疗质量能让熟练医生更好地处理伤口，使治疗更可靠。</MedicalQualityMax.description>
+  <MedicalQualityMax.description>此物品所能提供的最高治疗质量。\n\n更好的治疗质量能让熟练医生更好地处理伤口，使治疗更可靠。</MedicalQualityMax.description>
   
   <!-- EN: meditation psyfocus bonus -->
   <MeditationFocusStrength.label>冥想增效</MeditationFocusStrength.label>
   <!-- EN: The amount of extra psyfocus someone gains by focusing on this object during meditation, in addition to their own base rate of meditation psyfocus gain.\n\nFor some objects, this number can change depending on the surroundings and the person doing the meditating. -->
-  <MeditationFocusStrength.description>这个媒介在冥想中能够提供的额外精神力数值。\n\n对于一些媒介来说，这个数值会因为周围的环境或者冥想的人而发生变化。</MeditationFocusStrength.description>
+  <MeditationFocusStrength.description>此媒介在冥想中能够提供的额外精神力数值。\n\n对于一些媒介来说，这个数值会因为周围的环境或者冥想的人而发生变化。</MeditationFocusStrength.description>
   <!-- EN: {0} / day -->
   <MeditationFocusStrength.formatString>{0}/天</MeditationFocusStrength.formatString>
   <!-- EN: {0} / day -->
@@ -40,7 +40,7 @@
   <!-- EN: psychic sensitivity factor -->
   <PsychicSensitivityFactor.label>心灵敏感度系数</PsychicSensitivityFactor.label>
   <!-- EN: A factor applied to the user's psychic sensitivity. -->
-  <PsychicSensitivityFactor.description>作用于使用者心灵敏感度的乘数。</PsychicSensitivityFactor.description>
+  <PsychicSensitivityFactor.description>作用于使用者心灵敏感度的系数。</PsychicSensitivityFactor.description>
   
   <!-- EN: psychic sensitivity offset -->
   <PsychicSensitivityOffset.label>心灵敏感度偏移</PsychicSensitivityOffset.label>

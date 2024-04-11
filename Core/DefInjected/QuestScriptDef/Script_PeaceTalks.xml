@@ -11,13 +11,12 @@
     <li>leaderPawnInfo-></li>
   -->
   <OpportunitySite_PeaceTalks.questDescriptionRules.rulesStrings>
-    <li>questDescription->[faction_name] 的 [faction_leaderTitle]， [faction_leader_nameFull] 给我们发来一条消息。 [faction_leader_pronoun]想在附近和我们谈判。 \n\n这是个改善派系之间关系和接受善意的极好机会， 但小心，一个糟糕的谈判者有害无益，甚至可能激怒他们。 [extraLeaderPart][favorRewardDetails]</li>
-    <li>favorRewardDetails(faction_leader_royalInCurrentFaction==True,priority=1)->\n\n成功的和平谈判可以为 [faction_name] 的谈判代表积累一部分个人 [faction_royalFavorLabel]。</li>
+    <li>questDescription->[faction_name]的[faction_leaderTitle]，[faction_leader_nameFull]，向我们发来了一条讯息。[faction_leader_pronoun]希望能与我们在附近谈判。\n\n这是一个改善双方派系关系和接受对方善意的极好机会。但请注意：\n为了提高和平谈判成功的几率，请务必派出社交技能出色的殖民者担任谈判代表，否则有可能会适得其反，甚至激怒对方。[extraLeaderPart][favorRewardDetails]</li>
+    <li>favorRewardDetails(faction_leader_royalInCurrentFaction==True,priority=1)->\n\n如果和平谈判成功，[faction_name]会为我们的谈判代表授予一些[faction_royalFavorLabel]。</li>
     <li>favorRewardDetails-></li>
-    <li>extraLeaderPart(priority=1)->\n\n[leaderRoleEffect]。 [leaderPawnInfo]</li>
     <li>extraLeaderPart-></li>
-    <li>leaderRoleEffect->如果你派你的领袖去处理谈判，其他派系会更尊重你。</li>
-    <li>leaderPawnInfo(playerFaction_hasLeader==True,priority=1)-> [playerFaction_leaderTitle] [playerFaction_leader_nameFull] 将会获得额外的成功率。</li>
+    <li>leaderRoleEffect->如果能派出我们的领袖担任谈判代表，其他派系会更尊重我们</li>
+    <li>leaderPawnInfo(playerFaction_hasLeader==True,priority=1)->[playerFaction_leaderTitle][playerFaction_leader_nameFull]将会获得额外的谈判成功率。</li>
     <li>leaderPawnInfo-></li>
   </OpportunitySite_PeaceTalks.questDescriptionRules.rulesStrings>
   <!-- EN:
@@ -35,12 +34,12 @@
     <li>questName->[peaceTalks]</li>
     <li>questName->[peaceTalks]</li>
     <li>peaceTalks->和平谈判</li>
-    <li>peaceTalks->外交</li>
-    <li>peaceTalks->会晤</li>
+    <li>peaceTalks->友好外交</li>
+    <li>peaceTalks->和谈会晤</li>
   </OpportunitySite_PeaceTalks.questNameRules.rulesStrings>
   <!-- EN: Quest expired: [resolvedQuestName] -->
   <OpportunitySite_PeaceTalks.LetterLabelQuestExpired.slateRef>任务已失效：[resolvedQuestName]</OpportunitySite_PeaceTalks.LetterLabelQuestExpired.slateRef>
   <!-- EN: The offer of peace talks with [faction_name] has expired. You have failed the quest [resolvedQuestName]. -->
-  <OpportunitySite_PeaceTalks.LetterTextQuestExpired.slateRef>同[faction_name]的和平谈判已过期。 任务已失效：[resolvedQuestName]。</OpportunitySite_PeaceTalks.LetterTextQuestExpired.slateRef>
+  <OpportunitySite_PeaceTalks.LetterTextQuestExpired.slateRef>由于我们未能按时赴约，[faction_name]的谈判代表失望的离开了。任务“[resolvedQuestName]”已经失效。</OpportunitySite_PeaceTalks.LetterTextQuestExpired.slateRef>
   
 </LanguageData>

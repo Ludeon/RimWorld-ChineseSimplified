@@ -151,13 +151,13 @@
   <!-- EN: no medical care -->
   <MedicalCareCategory_NoCare>无医生照顾</MedicalCareCategory_NoCare>
   <!-- EN: doctor care, but no medicine -->
-  <MedicalCareCategory_NoMeds>有医生照顾，无药物</MedicalCareCategory_NoMeds>
+  <MedicalCareCategory_NoMeds>有医生照顾，不使用医药</MedicalCareCategory_NoMeds>
   <!-- EN: herbal medicine or worse -->
-  <MedicalCareCategory_HerbalOrWorse>提供草药等级及以下的药物</MedicalCareCategory_HerbalOrWorse>
+  <MedicalCareCategory_HerbalOrWorse>提供草药等级及以下的医药</MedicalCareCategory_HerbalOrWorse>
   <!-- EN: industrial-tech medicine or worse -->
-  <MedicalCareCategory_NormalOrWorse>提供普通药物等级或以下的药物</MedicalCareCategory_NormalOrWorse>
+  <MedicalCareCategory_NormalOrWorse>提供普通医药等级及以下的医药</MedicalCareCategory_NormalOrWorse>
   <!-- EN: best quality medicine -->
-  <MedicalCareCategory_Best>提供最高等级的医疗照顾</MedicalCareCategory_Best>
+  <MedicalCareCategory_Best>提供最高等级的医药</MedicalCareCategory_Best>
 
   <!-- Hostility response mode -->
   <!-- EN: Ignore -->
@@ -195,7 +195,7 @@
   <!-- EN: Standing -->
   <PlayerPawnsArriveMethod_Standing>固定</PlayerPawnsArriveMethod_Standing>
   <!-- EN: Drop pods -->
-  <PlayerPawnsArriveMethod_DropPods>空投舱</PlayerPawnsArriveMethod_DropPods>
+  <PlayerPawnsArriveMethod_DropPods>运输舱</PlayerPawnsArriveMethod_DropPods>
 
   <!-- Pawn generation context -->
   <!-- EN: all characters -->
@@ -237,7 +237,7 @@
   <!-- EN: Visible mood -->
   <VisibleMood>可视化心情</VisibleMood>
   <!-- EN: When on, displays a visual indicator on a character's portrait when they are at risk of a mental break. -->
-  <VisibleMoodDesc>开启后，在角色头像上显示一个视觉指示器，当他们有精神崩溃的危险时。</VisibleMoodDesc>
+  <VisibleMoodDesc>如果启用此项，当你的角色有精神崩溃的风险时，其屏幕顶部的头像框背景会产生颜色变化。</VisibleMoodDesc>
   
   <!-- Mech name display mode -->
   <!-- EN: Show player mech names -->

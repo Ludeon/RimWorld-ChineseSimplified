@@ -393,7 +393,7 @@
   <!-- EN: Stopping power -->
   <StoppingPower>抑止能力</StoppingPower>
   <!-- EN: Hits from this weapon will stagger targets, slowing their movement for several seconds.\n\nTargets with a body size larger than the stopping power will be unaffected. -->
-  <StoppingPowerExplanation>这种武器的攻击会打乱目标的脚步，使其移动速度减缓数秒。体形大于抑止能力的目标不受影响。</StoppingPowerExplanation>
+  <StoppingPowerExplanation>这种武器的攻击会打乱目标的脚步，使其移动速度减缓数秒。体型大于抑止能力的目标不受影响。</StoppingPowerExplanation>
   <!-- EN: Direct hit chance -->
   <DirectHitChance>直接命中几率</DirectHitChance>
   <!-- EN: Miss radius -->
@@ -753,11 +753,11 @@
   <!-- EN: Includes carried items and equipped items. Carrying less than the maximum gives a speed bonus. -->
   <CaravanMassUsageTooltip>包括运送的物品和装备的物品。运送比最大量更少的物品将提高远行队的速度。</CaravanMassUsageTooltip>
   <!-- EN: Visibility is how easy your caravan is to notice.\n\nIt multiplies the chance that your caravan will be waylaid by enemies.\n\nVisibility does not affect your ability to find things you want.\n\nVisibility is based on the total body size of all people and animals in the caravan. -->
-  <CaravanVisibilityTip>可见度表示你的远行队容易被注意到的概率。\n\n它会影响你的远行队被拦路袭击的概率。\n\n可见度不会影响你找到你要的东西的能力。\n\n可见度基于远行队中的所有人和动物的体形总和。</CaravanVisibilityTip>
+  <CaravanVisibilityTip>可见度表示你的远行队容易被注意到的几率。\n\n它会影响你的远行队被拦路袭击的几率。\n\n可见度不会影响你找到你要的东西的能力。\n\n可见度基于远行队中的所有人和动物的体型总和。</CaravanVisibilityTip>
   <!-- EN: Days of food -->
   <DaysWorthOfFood>食物剩余天数</DaysWorthOfFood>
   <!-- EN: rot in {0} -->
-  <DaysWorthOfFoodInfoRot>{0}之后变质</DaysWorthOfFoodInfoRot>
+  <DaysWorthOfFoodInfoRot>{0}之后腐烂</DaysWorthOfFoodInfoRot>
   <!-- EN: Unlimited -->
   <InfiniteDaysWorthOfFoodInfo>无限</InfiniteDaysWorthOfFoodInfo>
   <!-- EN: The approximate number of days before at least one person or animal will be out of food. Different species have different diets, so one may run out of food before others. This value is calculated more accurately after the route is chosen.\n\nAffected by:\n  - Current pawn inventory\n  - Carried food type and amount\n  - Caravan members and their diets\n  - Foraging rate\n  - Whether animals can graze\n  - Time until food rots\n  - Hot weather rots food faster -->
@@ -775,7 +775,7 @@
   <!-- EN: Forage per day -->
   <ForagedFoodPerDay>食物采量</ForagedFoodPerDay>
   <!-- EN: A large part of the caravan's food will rot soon. -->
-  <CaravanFoodWillRotSoonWarningDialog>远行队的大部分食物即将变质。</CaravanFoodWillRotSoonWarningDialog>
+  <CaravanFoodWillRotSoonWarningDialog>远行队的大部分食物即将腐烂。</CaravanFoodWillRotSoonWarningDialog>
   <!-- EN: You have no caravan members capable of diplomacy or trading. -->
   <CaravanIncapableOfSocial>你没有具备外交或交易能力的成员。</CaravanIncapableOfSocial>
   <!-- EN: Are you sure you want to form this caravan? -->
@@ -789,7 +789,7 @@
   <!-- EN: Market value -->
   <MarketValueTip>市场价值</MarketValueTip>
   <!-- EN: The number of days until this item starts to rot based on the average temperature in this area. -->
-  <DaysUntilRotTip>基于此地区平均温度，此物品开始变质前的天数。</DaysUntilRotTip>
+  <DaysUntilRotTip>基于此地区平均温度，此物品开始腐烂前的天数。</DaysUntilRotTip>
   <!-- EN: How much nutrition this food provides.\n\nFor reference: adult person needs {0} nutrition per day. -->
   <ItemNutritionTip>此食物提供多少营养值。\n\n作为参考：成年人每天需要{0}营养值。</ItemNutritionTip>
   <!-- EN: This animal can graze food from the environment instead of eating carried food. Grazing is only possible in some biomes and temperature ranges. -->
@@ -871,7 +871,7 @@
 
   <!-- Split caravan -->
   <!-- EN: Split caravan -->
-  <SplitCaravan>拆分旅行队</SplitCaravan>
+  <SplitCaravan>拆分远行队</SplitCaravan>
   <!-- EN: You must leave at least one non-downed colonist. -->
   <SourceCaravanMustHaveAtLeastOneColonist>必须留下至少一位可行动的殖民者。</SourceCaravanMustHaveAtLeastOneColonist>
   <!-- EN: How many of this item the caravan has ready to give to the new caravan. -->
@@ -893,9 +893,9 @@
   <!-- EN: You can't send empty shuttle. -->
   <CantSendEmptyTransporterSingle>你无法发射空的穿梭机。</CantSendEmptyTransporterSingle>
   <!-- EN: {1_labelShort} can't reach the transport pods. -->
-  <PawnCantReachTransporters>{1_labelShort}无法到达到运输舱。</PawnCantReachTransporters>
+  <PawnCantReachTransporters>{1_labelShort}无法到达运输舱。</PawnCantReachTransporters>
   <!-- EN: {1_labelShort} can't reach the shuttle. -->
-  <PawnCantReachTransporterSingle>{1_labelShort}无法到达到穿梭机。</PawnCantReachTransporterSingle>
+  <PawnCantReachTransporterSingle>{1_labelShort}无法到达穿梭机。</PawnCantReachTransporterSingle>
   <!-- EN: There is no path between the transport pods and the {0}. -->
   <TransporterItemIsUnreachableSingle>运输舱与{0}之间没有路径。</TransporterItemIsUnreachableSingle>
   <!-- EN: There is no path between the shuttle and the {0}. -->
@@ -935,45 +935,45 @@
   
   <!-- Policies -->
   <!-- EN: Available policies -->
-  <AvailablePolicies>可选的方针</AvailablePolicies>
+  <AvailablePolicies>可用的方案</AvailablePolicies>
   <!-- EN: Unnamed -->
   <UnnamedPolicy>未命名</UnnamedPolicy>
   <!-- EN: New... -->
   <NewPolicy>新的...</NewPolicy>
   <!-- EN: Invalid policy name -->
-  <InvalidName>无效的方针名称</InvalidName>
+  <InvalidName>无效的方案名称</InvalidName>
   <!-- EN: Delete the selected policy. -->
-  <DeletePolicyTip>删除选中的方针。</DeletePolicyTip>
+  <DeletePolicyTip>删除选中的方案。</DeletePolicyTip>
   <!-- EN: Create a duplicate of the selected policy. -->
-  <DuplicatePolicyTip>创建所选方针的副本。</DuplicatePolicyTip>
+  <DuplicatePolicyTip>创建所选方案的副本。</DuplicatePolicyTip>
   <!-- EN: Rename this policy. -->
-  <RenamePolicyTip>重命名此方针</RenamePolicyTip>
+  <RenamePolicyTip>重命名此方案</RenamePolicyTip>
   <!-- EN: Are you sure you want to delete the policy: {0}? -->
-  <DeletePolicyConfirm>您确定要删除该方针:{0}?</DeletePolicyConfirm>
+  <DeletePolicyConfirm>您确定要删除该方案:{0}？</DeletePolicyConfirm>
   <!-- EN: Delete -->
   <DeletePolicyConfirmButton>删除</DeletePolicyConfirmButton>
   <!-- EN: No policy selected -->
-  <NoPolicySelected>未选择方针</NoPolicySelected>
+  <NoPolicySelected>未选择方案</NoPolicySelected>
   
   <!-- Outfit management -->
   <!-- EN: Apparel policies -->
-  <ApparelPolicyTitle>服装方针</ApparelPolicyTitle>
+  <ApparelPolicyTitle>着装方案</ApparelPolicyTitle>
   <!-- EN: Create and manage templates for controlling what apparel items colony members can wear. -->
-  <ApparelPolicyTip>创建和管理模板，以控制殖民地成员可以穿什么服装。</ApparelPolicyTip>
+  <ApparelPolicyTip>创建和管理方案模板，以控制殖民地成员可以穿什么衣物。</ApparelPolicyTip>
   <!-- EN: Apparel policy -->
-  <ApparelPolicy>服装方针</ApparelPolicy>
+  <ApparelPolicy>着装方案</ApparelPolicy>
   <!-- EN: Apparel policy is in use by {0}. -->
-  <OutfitInUse>着装配置已被{0}使用。</OutfitInUse>
+  <OutfitInUse>着装方案已被{0}使用。</OutfitInUse>
   
   <!-- Drug policy management -->
   <!-- EN: Drug policies -->
-  <DrugPolicyTitle>用药方针</DrugPolicyTitle>
+  <DrugPolicyTitle>用药方案</DrugPolicyTitle>
   <!-- EN: Create and manage templates for controlling which drugs your colonists are allowed to consume. -->
-  <DrugPolicyTip>创建和管理模板，以控制允许您的殖民者使用的药物。</DrugPolicyTip>
+  <DrugPolicyTip>创建和管理方案模板，以控制殖民地成员可以使用什么药物或成瘾品。</DrugPolicyTip>
   <!-- EN: Drug policy -->
-  <DrugPolicy>用药方针</DrugPolicy>
+  <DrugPolicy>用药方案</DrugPolicy>
   <!-- EN: Drugs policy is in use by {0}. -->
-  <DrugPolicyInUse>用药方针已被{0}使用。</DrugPolicyInUse>
+  <DrugPolicyInUse>用药方案已被{0}使用。</DrugPolicyInUse>
   <!-- EN: Food restriction is in use by {0}. -->
   <FoodRestrictionInUse>{0}个启用的食物限制。</FoodRestrictionInUse>
   <!-- EN: Add drug... -->
@@ -1011,23 +1011,23 @@
   <!-- EN: An amount of the drug to pick up extra when gathering it for consumption, in order to avoid having to visit the drug stockpile every time. -->
   <TakeToInventoryColumnDesc>每次允许额外拿走的药物或成瘾品数量，避免每次都需要去仓库取。</TakeToInventoryColumnDesc>
   <!-- EN: For addictions\n\nUse this drug to feed already-established addiction needs.\n\nEven if disabled, some characters with specific traits, or on mental breaks, may use the drug anyway. -->
-  <DrugUsageTipForAddiction>满足依赖\n\n为了满足已经形成的成瘾品依赖而服用。\n\n注意，即使是在禁用成瘾品的方针下，当殖民者精神崩溃或具有某些特性时依然会无视规定使用成瘾品。</DrugUsageTipForAddiction>
+  <DrugUsageTipForAddiction>满足依赖\n\n为了满足已经形成的成瘾品依赖而服用。\n\n注意，即使是在禁用成瘾品的方案下，当殖民者精神崩溃或具有某些特性时依然会无视规定使用成瘾品。</DrugUsageTipForAddiction>
   <!-- EN: For recreation\n\nUse this drug for recreation and social purposes.\n\nEven if disabled, some characters with specific traits, or on mental breaks, may use the drug anyway. -->
-  <DrugUsageTipForJoy>娱乐目的\n\n为了消除压力及在社交活动时服用。\n\n注意，即使是在禁用成瘾品的方针下，当殖民者精神崩溃或具有某些特性时依然会无视规定使用成瘾品。</DrugUsageTipForJoy>
+  <DrugUsageTipForJoy>娱乐目的\n\n为了消除压力及在社交活动时服用。\n\n注意，即使是在禁用成瘾品的方案下，当殖民者精神崩溃或具有某些特性时依然会无视规定使用成瘾品。</DrugUsageTipForJoy>
   <!-- EN: Scheduled\n\nUse this drug on a defined schedule, when specific conditions are met. -->
   <DrugUsageTipScheduled>计划服用\n\n当特定条件满足时，根据指定的日程安排服用药物和成瘾品。</DrugUsageTipScheduled>
 
   <!-- Food restriction management -->
   <!-- EN: Food policies -->
-  <FoodPolicyTitle>食物方针</FoodPolicyTitle>
+  <FoodPolicyTitle>食物方案</FoodPolicyTitle>
   <!-- EN: Create and manage templates for controlling what food items colony members can eat. -->
-  <FoodPolicyTip>创建和管理模板，以控制殖民地成员可以吃什么食物。</FoodPolicyTip>
+  <FoodPolicyTip>创建和管理方案模板，以控制殖民地成员可以吃什么食物。</FoodPolicyTip>
   <!-- EN: Food policy -->
-  <FoodPolicy>食物方针</FoodPolicy>
+  <FoodPolicy>食物方案</FoodPolicy>
   <!-- EN: Allow food -->
-  <AllowFood>允许的食物</AllowFood>
+  <AllowFood>食物限制</AllowFood>
   <!-- EN: Lavish -->
-  <FoodRestrictionLavish>不限</FoodRestrictionLavish>
+  <FoodRestrictionLavish>无限制</FoodRestrictionLavish>
   <!-- EN: Fine -->
   <FoodRestrictionFine>最高精致</FoodRestrictionFine>
   <!-- EN: Simple -->
@@ -1041,28 +1041,30 @@
   
   <!-- Reading management -->
   <!-- EN: Reading policies -->
-  <ReadingPolicyTitle>阅读方针</ReadingPolicyTitle>
+  <ReadingPolicyTitle>阅读方案</ReadingPolicyTitle>
   <!-- EN: Create and manage templates for controlling which books colony members are allowed to read. -->
-  <ReadingPolicyTip>创建和管理模板，以控制殖民地成员可以看什么书。</ReadingPolicyTip>
+  <ReadingPolicyTip>创建和管理模板，以控制殖民地成员可以阅读什么书籍。</ReadingPolicyTip>
   <!-- EN: Reading policy -->
-  <ReadingPolicy>阅读方针</ReadingPolicy>
-  
+  <ReadingPolicy>阅读方案</ReadingPolicy>
+  <!-- EN: Reading policy is in use -->
+  <ReadingPolicyInUse>阅读方案已被使用</ReadingPolicyInUse> <!-- text_todo -->
+
   <!-- EN: Anything -->
   <AllReadingPolicy>任意</AllReadingPolicy>
   <!-- EN: None -->
-  <NoneReadingPolicy>无</NoneReadingPolicy>
+  <NoneReadingPolicy>禁用</NoneReadingPolicy>
   <!-- EN: Textbooks -->
-  <TextbookPolicy>教科书</TextbookPolicy>
+  <TextbookPolicy>教材</TextbookPolicy>
   <!-- EN: Schematics -->
-  <SchematicPolicy>图表</SchematicPolicy>
+  <SchematicPolicy>技术图解</SchematicPolicy>
   <!-- EN: Novels -->
   <NovelPolicy>小说</NovelPolicy>
 
   <!-- Medical settings -->
   <!-- EN: Default medicine settings -->
-  <DefaultMedicineSettings>默认用药设置</DefaultMedicineSettings>
+  <DefaultMedicineSettings>默认医药设置</DefaultMedicineSettings>
   <!-- EN: These medical settings are assigned to creatures when they first join a given group. You can manually assign a setting to an individual in their health tab.\n\nNote: If the creature joins a new group, they will always take the settings of that group, even if you previously assigned them a setting. -->
-  <DefaultMedicineSettingsDesc>当生物第一次加入一个特定的群体时，这些医疗环境被分配给它们。您可以在个人的运行状况选项卡中手动为其分配设置。注:如果生物加入一个新组，他们将始终采用该组的设置，即使你之前为他们分配了设置。</DefaultMedicineSettingsDesc>
+  <DefaultMedicineSettingsDesc>当生物第一次加入某个特定的团体时，会自动应用这些医药设置。你可以在「健康」选项卡中手动为其分配设置。\n\n注意：如果生物加入了一个新团体，他们将始终应用该团体的设置，即使你之前已为其分配了其他设置。</DefaultMedicineSettingsDesc>
   
   <!-- EN: Defaults -->
   <MedGroupDefaults>默认</MedGroupDefaults>
@@ -1070,7 +1072,12 @@
   <!-- EN: Colonists -->
   <MedGroupColonists>殖民者</MedGroupColonists>
   <!-- EN: Free members of your colony -->
-  <MedGroupColonistsDesc>您殖民地的成员</MedGroupColonistsDesc>
+  <MedGroupColonistsDesc>你的殖民地的成员。</MedGroupColonistsDesc>
+
+  <!-- EN: Slaves -->
+  <MedGroupSlaves>奴隶</MedGroupSlaves>
+  <!-- EN: Free members of your colony -->
+  <MedGroupSlavesDesc>你的殖民地的奴隶。</MedGroupSlavesDesc>
   
   <!-- EN: Prisoners -->
   <MedGroupPrisoners>囚犯</MedGroupPrisoners>
@@ -1085,20 +1092,20 @@
   <!-- EN: Friendly faction members -->
   <MedGroupFriendlyFaction>友好派系成员</MedGroupFriendlyFaction>
   <!-- EN: Humans or animals who are part of a faction which is friendly with your faction (goodwill above 75). -->
-  <MedGroupFriendlyFactionDesc>与你的阵营友好的人类或动物(好感75以上)。</MedGroupFriendlyFactionDesc>
+  <MedGroupFriendlyFactionDesc>与你的阵营友好的人类或动物（好感75以上）。</MedGroupFriendlyFactionDesc>
   
   <!-- EN: Neutral faction members -->
-  <MedGroupNeutralFaction>中立派系</MedGroupNeutralFaction>
+  <MedGroupNeutralFaction>中立派系成员</MedGroupNeutralFaction>
   <!-- EN: Humans or animals who are part of a faction which is neutral with your faction (between -75 and 75 goodwill). -->
-  <MedGroupNeutralFactionDesc>属于中立阵营的人类或动物(好感在-75到75之间)。</MedGroupNeutralFactionDesc>
+  <MedGroupNeutralFactionDesc>属于中立阵营的人类或动物（好感在-75到75之间）。</MedGroupNeutralFactionDesc>
 
   <!-- EN: Hostile faction members -->
-  <MedGroupHostileFaction>敌对派系</MedGroupHostileFaction>
+  <MedGroupHostileFaction>敌对派系成员</MedGroupHostileFaction>
   <!-- EN: Humans or animals who are part of a faction which is hostile with your faction (goodwill below -75). -->
-  <MedGroupHostileFactionDesc>与你敌对派系的人类或动物(好感低于-75)。</MedGroupHostileFactionDesc>
+  <MedGroupHostileFactionDesc>与你敌对派系的人类或动物（好感低于-75）。</MedGroupHostileFactionDesc>
 
   <!-- EN: Other humans -->
-  <MedGroupNoFaction>其他人类</MedGroupNoFaction>
+  <MedGroupNoFaction>无所属</MedGroupNoFaction>
   <!-- EN: Humans who are not members of any faction. -->
   <MedGroupNoFactionDesc>不属于任何派系的人类。</MedGroupNoFactionDesc>
   
@@ -1113,7 +1120,7 @@
 
   <!-- Abandon home -->
   <!-- EN: Some of your colonists or animals are in this area. Are you sure you want to abandon it?\n\nThe following people and animals will be left behind:\n\n{0} -->
-  <ConfirmAbandonHomeWithColonyPawns>你的一些殖民者或动物仍然在这个区域里。你确定要遗弃这一区域吗？\n\n这些人或动物会被留在这里:\n\n{0}</ConfirmAbandonHomeWithColonyPawns>
+  <ConfirmAbandonHomeWithColonyPawns>你的一些殖民者或动物仍然在这片区域里。你确定要将其遗弃吗？\n\n这些人或动物会被留在这里:\n\n{0}</ConfirmAbandonHomeWithColonyPawns>
   <!-- EN: Abandoning {0} will cause the following people to get the following thoughts: -->
   <ConfirmAbandonHomeNegativeThoughts>遗弃{0}会导致以下人员产生以下想法：</ConfirmAbandonHomeNegativeThoughts>
   <!-- EN: Everyone: -->
@@ -1125,7 +1132,7 @@
   
   <!-- Abandon pawn -->
   <!-- EN: Do you really want to banish {1_label}? -->
-  <ConfirmBanishPawnDialog>你真的要放逐{1_label}吗?</ConfirmBanishPawnDialog>
+  <ConfirmBanishPawnDialog>你真的要放逐{1_label}吗？</ConfirmBanishPawnDialog>
   <!-- EN: {1_labelShort} will most likely die. -->
   <ConfirmBanishPawnDialog_LeftToDie>{1_labelShort}极可能会死。</ConfirmBanishPawnDialog_LeftToDie>
   <!-- EN: {1_labelShort} will take the following items with {1_objective}: -->
@@ -1151,7 +1158,7 @@
 
   <!-- Load transporters -->
   <!-- EN: The caravan will be immobile if you launch to an empty tile. Continue anyway? -->
-  <TransportersCaravanWillBeImmobile>如果将空投舱发射到地图上的空地，远行队将不会移动。是否继续？</TransportersCaravanWillBeImmobile>
+  <TransportersCaravanWillBeImmobile>如果将运输舱发射到地图上的空地，远行队将不会移动。是否继续？</TransportersCaravanWillBeImmobile>
 
   <!-- Confirm cancel monument marker -->
   <!-- EN: Do you really want to remove this monument marker? -->
@@ -1193,9 +1200,9 @@
   <!-- EN: {0_labelShort} is not maddened. -->
   <AbilityCanOnlyApplyToManhunter>{0_labelShort}没有陷入疯狂。</AbilityCanOnlyApplyToManhunter>
   <!-- EN: {0_labelShort} has scaria, which can only be treated medically. -->
-  <AbilityCantApplyToScaria>{0_labelShort}患有狂暴症，只能通过药物治疗。</AbilityCantApplyToScaria>
+  <AbilityCantApplyToScaria>{0_labelShort}患有狂暴症，只能通过医药治疗。</AbilityCantApplyToScaria>
   <!-- EN: {0} doesn't work on the '{1}' mental state. -->
-  <AbilityDoesntWorkOnMentalState>{0}无法作用于'{1}'精神状态。</AbilityDoesntWorkOnMentalState>
+  <AbilityDoesntWorkOnMentalState>{0}无法作用于“{1}”精神状态。</AbilityDoesntWorkOnMentalState>
   <!-- EN: {0_labelShort} has zero resistance. -->
   <AbilityCantApplyNoResistance>{0_labelShort}已经毫无抵抗。</AbilityCantApplyNoResistance>
   <!-- EN: {0_labelShort} is downed. -->
@@ -1245,7 +1252,7 @@
   <!-- EN: Need ally at target for navigation -->
   <AbilityNeedAllyToSkip>需要指向友方目标</AbilityNeedAllyToSkip>
   <!-- EN: No chunks to skip. -->
-  <AbilityNoChunkToSkip>没有快堆能折跃。</AbilityNoChunkToSkip>
+  <AbilityNoChunkToSkip>没有块堆能折跃。</AbilityNoChunkToSkip>
   <!-- EN: Induce psychic love in -->
   <PsychicLoveInduceIn>诱导心灵迷爱</PsychicLoveInduceIn>
   <!-- EN: Psychic love for -->
@@ -1424,10 +1431,10 @@
   <NewOutfit>新的配置</NewOutfit>
   <DeleteOutfit>删除配置</DeleteOutfit>
   <NoOutfitSelected>未选择着装配置</NoOutfitSelected>
-  <SelectDrugPolicy>选择用药方针</SelectDrugPolicy>
-  <NewDrugPolicy>新方针</NewDrugPolicy>
-  <DeleteDrugPolicy>删除用药方针</DeleteDrugPolicy>
-  <NoDrugPolicySelected>没有选中的方针</NoDrugPolicySelected>
+  <SelectDrugPolicy>选择用药方案</SelectDrugPolicy>
+  <NewDrugPolicy>新方案</NewDrugPolicy>
+  <DeleteDrugPolicy>删除用药方案</DeleteDrugPolicy>
+  <NoDrugPolicySelected>没有选中的方案</NoDrugPolicySelected>
   <DrugUsageColumnLabel>使用</DrugUsageColumnLabel>
   <DrugUsageColumnDesc>药物是否允许使用。</DrugUsageColumnDesc>
   <FoodRestriction>食物限制</FoodRestriction>

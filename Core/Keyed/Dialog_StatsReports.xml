@@ -235,7 +235,7 @@
   <!-- EN: The type of leather this creature will yield when butchered. -->
   <Stat_Race_LeatherType_Desc>这种生物被屠宰时获得的皮革类型。</Stat_Race_LeatherType_Desc>
   <!-- EN: The chance that this creature will attack when a tamer tries to tame it and fails. -->
-  <Stat_Race_Animal_TameFailedRevengeChance_Desc>当驯兽者在驯服失败时，该生物会攻击的概率。</Stat_Race_Animal_TameFailedRevengeChance_Desc>
+  <Stat_Race_Animal_TameFailedRevengeChance_Desc>当驯兽者在驯服失败时，该生物会攻击的几率。</Stat_Race_Animal_TameFailedRevengeChance_Desc>
   <!-- EN: This creature's general mental aptitude for training. This is a combination of intelligence and attentiveness. It determines which kinds of tasks this creature can be trained to perform. -->
   <Stat_Race_Trainability_Desc>这种生物可以驯化的智力程度。这是智力与专注的结合。它决定了该生物可以学会哪些工作能力。</Stat_Race_Trainability_Desc>
   <!-- EN: The average life expectancy of this creature. -->
@@ -263,29 +263,29 @@
   <!-- EN: The radius of random spread on shots fired by this weapon.\n\nHigh values make projectiles disperse randomly around the target. -->
   <Stat_Thing_Weapon_MissRadius_Desc>该武器射击时的随机散布半径。越高的数值会使得炮弹在目标周围分布更散。</Stat_Thing_Weapon_MissRadius_Desc>
   <!-- EN: The chance that a shot will directly hit its target if not intercepted, dodged or stopped. -->
-  <Stat_Thing_Weapon_DirectHitChance_Desc>如果没有被阻挡，闪避或停止，射击将直接命中目标的概率。</Stat_Thing_Weapon_DirectHitChance_Desc>
+  <Stat_Thing_Weapon_DirectHitChance_Desc>如果没有被阻挡，闪避或停止，射击将直接命中目标的几率。</Stat_Thing_Weapon_DirectHitChance_Desc>
   <!-- EN: This body part's effect on the mood of the owner. -->
   <Stat_Thing_MoodChange_Desc>该身体部件对精神影响的程度。※</Stat_Thing_MoodChange_Desc>
   <!-- EN: The main skill used while performing this recipe.\n\nIt determines the quality of the result, and is learned while performing this recipe. -->
   <Stat_Recipe_Skill_Desc>执行此清单时使用的主要技能。\n\n它决定了制作产品的品质，并在进行制作时获得相应的技能经验。</Stat_Recipe_Skill_Desc>
   <!-- EN: The ingredients required to perform this recipe. -->
-  <Stat_Recipe_Ingredients_Desc>执行此清单所需的原料</Stat_Recipe_Ingredients_Desc>
+  <Stat_Recipe_Ingredients_Desc>执行此清单所需的原料。</Stat_Recipe_Ingredients_Desc>
   <!-- EN: The skills required to perform this recipe. -->
-  <Stat_Recipe_SkillRequirements_Desc>执行此清单所需的技能</Stat_Recipe_SkillRequirements_Desc>
+  <Stat_Recipe_SkillRequirements_Desc>执行此清单所需的技能。</Stat_Recipe_SkillRequirements_Desc>
   <!-- EN: The products produced by this recipe. -->
-  <Stat_Recipe_Products_Desc>此清单产出的物品</Stat_Recipe_Products_Desc>
+  <Stat_Recipe_Products_Desc>此清单产出的物品。</Stat_Recipe_Products_Desc>
   <!-- EN: Which character stat governs the workspeed of this recipe.\n\nThe higher the stat of the worker is, the faster work will be done. -->
   <Stat_Recipe_WorkSpeedStat_Desc>角色的哪些属性决定了该制作的工作速度。\n\n工作者的状态越高，工作效率就越快。</Stat_Recipe_WorkSpeedStat_Desc>
   <!-- EN: Which stat governs the quality or amount of output.\n\nThe higher the stat of the worker is, the higher the quality or yield will be. -->
   <Stat_Recipe_EfficiencyStat_Desc>哪种状态决定产出的品质或数量。\n\n工作者的状态越高，品质或产量就越高。</Stat_Recipe_EfficiencyStat_Desc>
   <!-- EN: A multiplier on the chance this operation will be a success. More difficult operations have lower multipliers.\n\nThe actual chance of success of a surgery is also affected by the doctor, facilities, and medicine used. -->
-  <Stat_Thing_Surgery_SuccessChanceFactor_Desc>该操作的成功率。较困难的手术乘数较低。\n\n手术成功的实际概率还受到医生，相关设备和所用药物的影响。</Stat_Thing_Surgery_SuccessChanceFactor_Desc>
+  <Stat_Thing_Surgery_SuccessChanceFactor_Desc>该操作的成功率。较困难的手术乘数较低。\n\n手术成功的实际几率还受到医生，相关设备和所用药物的影响。</Stat_Thing_Surgery_SuccessChanceFactor_Desc>
   <!-- EN: Can't fail -->
   <Stat_Thing_Surgery_SuccessChanceFactor_CantFail>不会失败</Stat_Thing_Surgery_SuccessChanceFactor_CantFail>
   <!-- EN: Performing this operation is safe for the patient. -->
   <Stat_Thing_Surgery_SuccessChanceFactor_CantFail_Desc>执行此操作对患者是安全的。</Stat_Thing_Surgery_SuccessChanceFactor_CantFail_Desc>
   <!-- EN: The chance the patient will die upon failure of this surgery. -->
-  <Stat_Thing_Surgery_DeathOnFailChance_Desc>患者因手术失败而死亡的概率。</Stat_Thing_Surgery_DeathOnFailChance_Desc>
+  <Stat_Thing_Surgery_DeathOnFailChance_Desc>患者因手术失败而死亡的几率。</Stat_Thing_Surgery_DeathOnFailChance_Desc>
   <!-- EN: Total bleed factor -->
   <Stat_Hediff_TotalBleedFactor_Name>失血量系数</Stat_Hediff_TotalBleedFactor_Name>
   <!-- EN: A multiplier applied to the overall rate of blood loss. -->
@@ -297,7 +297,7 @@
   <!-- EN: Food poisoning chance factor -->
   <Stat_Hediff_FoodPoisoningChanceFactor_Name>食物中毒系数</Stat_Hediff_FoodPoisoningChanceFactor_Name>
   <!-- EN: A multiplier applied to the chance of getting food poisoning. -->
-  <Stat_Hediff_FoodPoisoningChanceFactor_Desc>食用可能有毒食物时中毒概率的乘数。</Stat_Hediff_FoodPoisoningChanceFactor_Desc>
+  <Stat_Hediff_FoodPoisoningChanceFactor_Desc>食用可能有毒食物时中毒几率的乘数。</Stat_Hediff_FoodPoisoningChanceFactor_Desc>
   <!-- EN: The rate at which this condition causes blood loss. -->
   <Stat_Hediff_BleedingRate_Desc>该情况下血液流失的速度。</Stat_Hediff_BleedingRate_Desc>
   <!-- EN: The amount of pain caused by this condition. -->
@@ -393,9 +393,9 @@
   <!-- EN: The resources required to construct this. -->
   <Stat_Building_ResourcesToMakeDesc>建造它所需的资源。</Stat_Building_ResourcesToMakeDesc>
   <!-- EN: The weapon mounted on this creature. -->
-  <Stat_Thing_TurretDesc>武器装在这个生物身上。</Stat_Thing_TurretDesc>
+  <Stat_Thing_TurretDesc>安装在此生物身上的武器。</Stat_Thing_TurretDesc>
   <!-- EN: The ingredients needed to make this. -->
-  <Stat_Thing_Ingredients>制作这个的原料。</Stat_Thing_Ingredients>
+  <Stat_Thing_Ingredients>构成此物的原料。</Stat_Thing_Ingredients>
 
   <!-- Drugs -->
   <!-- EN: The active chemical in this.\n\nIn some cases, the same chemical is present in multiple different drugs. These different drugs will satisfy the same addiction in different ways. -->
@@ -547,8 +547,11 @@
   <!-- EN: This content came from the mod -->
   <Stat_Source_ModReport>来自于社区mod</Stat_Source_ModReport>
 
-  <!-- EN: Held books -->
-  <HeldBookCount>持有书本</HeldBookCount>
+  <!-- EN: Contained book beauty -->
+  <ContainedBookBeauty>包含书籍美观度</ContainedBookBeauty> <!-- text_todo -->
   <!-- EN: {0} hits -->
   <Stat_TrapDamageHitCount>{0}次</Stat_TrapDamageHitCount>
+  <!-- UNUSED -->
+  <HeldBookCount>持有书本</HeldBookCount>
+
 </LanguageData>

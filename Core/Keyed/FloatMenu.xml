@@ -87,7 +87,7 @@
   <!-- EN: above allowed skill {0} -->
   <AboveAllowedSkill>技能等级超过{0}</AboveAllowedSkill>
   <!-- EN: no reachable outside cell -->
-  <NoReachableOutsideCell>没有可达的区域</NoReachableOutsideCell>
+  <NoReachableOutsideCell>没有可到达的区域</NoReachableOutsideCell>
   <!-- EN: missing required skill level -->
   <MissingRequiredSkillLevel>缺少所需技能等级</MissingRequiredSkillLevel>
   <!-- EN: animal interacted too recently -->
@@ -113,13 +113,13 @@
   <!-- EN: animal busy -->
   <CantInteractAnimalBusy>忙碌的动物</CantInteractAnimalBusy>
   <!-- EN: no allowed reachable pens -->
-  <CantRopeAnimalNoUsableReachablePens>没有可达的可用畜棚</CantRopeAnimalNoUsableReachablePens>
+  <CantRopeAnimalNoUsableReachablePens>没有可到达的可用畜棚</CantRopeAnimalNoUsableReachablePens>
   <!-- EN: no enclosed pens -->
   <CantRopeAnimalNoEnclosedPens>没有封闭的畜棚</CantRopeAnimalNoEnclosedPens>
   <!-- EN: no allowed pens -->
   <CantRopeAnimalNoAllowedPens>没有可用的畜棚</CantRopeAnimalNoAllowedPens>
   <!-- EN: no reachable pens -->
-  <CantRopeAnimalNoReachablePens>没有可达的畜棚</CantRopeAnimalNoReachablePens>
+  <CantRopeAnimalNoReachablePens>没有可到达的畜棚</CantRopeAnimalNoReachablePens>
   <!-- EN: can't touch -->
   <CantRopeAnimalCantTouch>不可接触</CantRopeAnimalCantTouch>
   <!-- EN: no space in pen -->
@@ -254,7 +254,7 @@
   <!-- EN: No reachable, un-reserved animal bed in safe temperature. -->
   <NoAnimalBed>缺少位于安全温度下的、可到达的、未预留的动物窝铺。</NoAnimalBed>
   <!-- EN: No reachable, unforbidden, un-reserved {0} -->
-  <NoItemReservedOrReachable>不可达、未禁止、未保留{0}</NoItemReservedOrReachable>
+  <NoItemReservedOrReachable>不可到达、未禁止、未保留{0}</NoItemReservedOrReachable>
   <!-- EN: No unforbidden, un-reserved {0} -->
   <NoItemReserved>没有未禁止的、未保留的{0}</NoItemReserved>
   <!-- EN: Reserved by someone else. -->
@@ -494,9 +494,9 @@
   <!-- EN: Cannot prioritize: Forbidden -->
   <CannotPrioritizeCellForbidden>无法优先（禁用）</CannotPrioritizeCellForbidden>
   <!-- EN: Outside allowed area -->
-  <CannotPrioritizeForbiddenOutsideAllowedArea>在许可区域之外</CannotPrioritizeForbiddenOutsideAllowedArea>
+  <CannotPrioritizeForbiddenOutsideAllowedArea>在允许活动区域之外</CannotPrioritizeForbiddenOutsideAllowedArea>
   <!-- EN: Cannot prioritize burying -->
-  <CannotPrioritizeBurying>无法优先埋葬</CannotPrioritizeBurying>
+  <CannotPrioritizeBurying>无法优先安葬</CannotPrioritizeBurying>
 
   <!-- e.g. Prioritize GERUND OBJECT, Prioritize repairing wall, prioritize hauling metal, etc -->
   <!-- EN: Prioritize {0} {1} -->
@@ -507,11 +507,11 @@
   <!-- EN: Drop in center -->
   <DropInCenter>空投至中心</DropInCenter>
   <!-- EN: Attack {0} -->
-  <AttackShuttle>攻击{0}</AttackShuttle>
+  <AttackShuttle>进攻{0}</AttackShuttle>
   <!-- EN: Attack {0}: Drop at edge -->
-  <AttackAndDropAtEdge>攻击{0}：空投至边缘</AttackAndDropAtEdge>
+  <AttackAndDropAtEdge>进攻{0}：空投至边缘</AttackAndDropAtEdge>
   <!-- EN: Attack {0}: Drop in center -->
-  <AttackAndDropInCenter>攻击{0}：空投至中心</AttackAndDropInCenter>
+  <AttackAndDropInCenter>进攻{0}：空投至中心</AttackAndDropInCenter>
   
   <!-- EN: vomiting -->
   <VomitingLower>呕吐中</VomitingLower>

@@ -7,9 +7,9 @@
     <li>introduction->A [joiner_age]-year-old [joiner_title]</li>
   -->
   <ThreatReward_Raid_Joiner.questDescriptionRules.rulesStrings>
-    <li>questDescription->附近一位名叫 [joiner_nameDef] 的 [introduction] 发来求救信号。 [joiner_pronoun] 说自己正被来自 [enemyFaction_name] 的 [enemyFaction_pawnsPlural]追捕！\n\n[joiner_pronoun] 祈求得到保护并想加入位于 [map_definite] 的殖民地。 [joiner_relationInfo]\n\n警告：如果你接受请求， 你将要对抗追捕[joiner_possessive]的[enemyFaction_pawnsPlural]。 [enemyFaction_pawnsPlural]的队伍构成：\n\n[raid/raidPawnKinds]\n\n[joiner_nameDef]过于紧张，已经开始语无伦次，你已经无法获知更多信息。</li>
+    <li>questDescription->附近有一位名叫[joiner_nameDef]的[introduction]向我们发来了一条求救讯息。[joiner_pronoun]说，自己正被来自[enemyFaction_name]的[enemyFaction_pawnsPlural]追捕！\n\n[joiner_pronoun]祈求得到庇护，并希望加入我们位于[map_definite]的殖民地。[joiner_relationInfo]\n\n警告：如果我们接受[joiner_possessive]请求，则需要对抗追捕而来的[enemyFaction_pawnsPlural]。\n[enemyFaction_pawnsPlural]的队伍构成为：\n\n[raid/raidPawnKinds]\n\n由于过度惊慌，[joiner_nameDef]已经开始语无伦次，无法为我们提供更多信息了。</li>
     <li>introduction(childCount==1,priority=1)->[joiner_age]岁孩子</li>
-    <li>introduction->[joiner_age]岁[joiner_title]</li>
+    <li>introduction->[joiner_age]岁d[joiner_title]</li>
   </ThreatReward_Raid_Joiner.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->Saving [runnerIndef]</li>
@@ -27,23 +27,23 @@
     <li>runnerIndef(childCount==1,priority=1)->a child</li>
   -->
   <ThreatReward_Raid_Joiner.questNameRules.rulesStrings>
-    <li>questName->挽救[runnerIndef]</li>
-    <li>questName->[runnerIndef]的救赎</li>
-    <li>questName->帮助[runnerIndef]</li>
-    <li>questName->接受[runnerIndef]</li>
-    <li>questName->[enemyFaction_pawnsPlural]追捕[runnerIndef]</li>
-    <li>questName->[runnerIndef]不停狂奔</li>
-    <li>questName->[runnerIndef]寻求庇护</li>
-    <li>questName->[runnerIndef]被[enemyFaction_pawnsPlural]追捕</li>
-    <li>questName->[runnerIndef]和[enemyFaction_pawnsPlural]</li>
+    <li>questName->挽救被追捕的[runnerIndef]</li>
+    <li>questName->[runnerIndef]的庇护请求</li>
+    <li>questName->帮助被追杀的[runnerIndef]</li>
+    <li>questName->接纳出逃的[runnerIndef]</li>
+    <li>questName->追杀[runnerIndef]的[enemyFaction_pawnsPlural]</li>
+    <li>questName->仓皇逃跑的[runnerIndef]</li>
+    <li>questName->寻求庇护的[runnerIndef]</li>
+    <li>questName->被[enemyFaction_pawnsPlural]追捕的[runnerIndef]</li>
+    <li>questName->[runnerIndef]与[enemyFaction_pawnsPlural]</li>
     <li>runnerIndef->[joiner_titleIndef]</li>
     <li>runnerIndef->[joiner_nameIndef]</li>
     <li>runnerIndef->难民</li>
-    <li>runnerIndef(childCount==1,priority=1)->一个孩子</li>
+    <li>runnerIndef(childCount==1,priority=1)->孩子</li>
   </ThreatReward_Raid_Joiner.questNameRules.rulesStrings>
   <!-- EN: {BASELABEL} chasing [../joiner_nameDef] -->
-  <ThreatReward_Raid_Joiner.root.nodes.Delay-0.node.parms.customLetterLabel.value.slateRef>{BASELABEL} 追捕 [../joiner_nameDef]</ThreatReward_Raid_Joiner.root.nodes.Delay-0.node.parms.customLetterLabel.value.slateRef>
+  <ThreatReward_Raid_Joiner.root.nodes.Delay-0.node.parms.customLetterLabel.value.slateRef>{BASELABEL} 追捕[../joiner_nameDef]</ThreatReward_Raid_Joiner.root.nodes.Delay-0.node.parms.customLetterLabel.value.slateRef>
   <!-- EN: {BASETEXT}\n              \nThe [enemyFaction_pawnsPlural] have come to get [../joiner_nameDef]. -->
-  <ThreatReward_Raid_Joiner.root.nodes.Delay-0.node.parms.customLetterText.value.slateRef>{BASETEXT}\n\n[enemyFaction_pawnsPlural] 来此追捕 [../joiner_nameDef]。</ThreatReward_Raid_Joiner.root.nodes.Delay-0.node.parms.customLetterText.value.slateRef>
+  <ThreatReward_Raid_Joiner.root.nodes.Delay-0.node.parms.customLetterText.value.slateRef>{BASETEXT}\n\n[enemyFaction_pawnsPlural]来此追捕[../joiner_nameDef]。</ThreatReward_Raid_Joiner.root.nodes.Delay-0.node.parms.customLetterText.value.slateRef>
   
 </LanguageData>

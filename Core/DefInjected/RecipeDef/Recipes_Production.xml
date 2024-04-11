@@ -4,23 +4,23 @@
   <!-- EN: destroy apparel -->
   <DestroyApparel.label>销毁衣物</DestroyApparel.label>
   <!-- EN: Use heat to destroy unwanted apparel. This process is faster than smelting, and works on non-smeltable items, but yields no resources. -->
-  <DestroyApparel.description>使用高温摧毁不需要的衣物。比熔炼快，用于不可熔炼的物品，但不产出资源。</DestroyApparel.description>
+  <DestroyApparel.description>利用高温将不需要的衣物完全销毁。工作量比熔炼更少。适合处理不可熔炼的物品，但不会产出任何资源。</DestroyApparel.description>
   <!-- EN: Destroying apparel. -->
   <DestroyApparel.jobString>正在销毁衣物。</DestroyApparel.jobString>
   
   <!-- EN: destroy weapon -->
   <DestroyWeapon.label>销毁武器</DestroyWeapon.label>
   <!-- EN: Use heat to destroy unwanted weapons. This process is faster than smelting, and works on non-smeltable items, but yields no resources. -->
-  <DestroyWeapon.description>用强热销毁不想要的武器。比熔炼快，用于不可熔炼的物品，但不产出资源。</DestroyWeapon.description>
+  <DestroyWeapon.description>利用高温将不需要的武器完全销毁。工作量比熔炼更少。适合处理不可熔炼的物品，但不会产出任何资源。</DestroyWeapon.description>
   <!-- EN: Destroying weapon. -->
   <DestroyWeapon.jobString>正在销毁武器。</DestroyWeapon.jobString>
   
   <!-- EN: smelt metal from slag -->
-  <ExtractMetalFromSlag.label>熔炼钢渣块</ExtractMetalFromSlag.label>
+  <ExtractMetalFromSlag.label>熔炼钢渣块&amp;机械体残块</ExtractMetalFromSlag.label>
   <!-- EN: Use heat and strong electromagnets to extract useful metal from slag chunks. -->
-  <ExtractMetalFromSlag.description>用强热和电磁铁从钢渣块中提炼出有用的金属。</ExtractMetalFromSlag.description>
+  <ExtractMetalFromSlag.description>利用高温和电磁铁从钢渣块或机械体残块中提炼出有用的金属。</ExtractMetalFromSlag.description>
   <!-- EN: Smelting metal from slag. -->
-  <ExtractMetalFromSlag.jobString>正在熔炼钢渣块。</ExtractMetalFromSlag.jobString>
+  <ExtractMetalFromSlag.jobString>正在熔炼钢渣块&amp;机械体残块。</ExtractMetalFromSlag.jobString>
   
   <!-- EN: make chemfuel from organics -->
   <Make_ChemfuelFromOrganics.label>用有机物制作化合燃料</Make_ChemfuelFromOrganics.label>
@@ -34,7 +34,7 @@
   <!-- EN: make chemfuel from wood -->
   <Make_ChemfuelFromWood.label>用木材制作化合燃料</Make_ChemfuelFromWood.label>
   <!-- EN: Make a batch of chemfuel by extracting and condensing wood gas from logs. -->
-  <Make_ChemfuelFromWood.description>通过气化原木以制作一组化合燃料。</Make_ChemfuelFromWood.description>
+  <Make_ChemfuelFromWood.description>通过气化木材以制作一组化合燃料。</Make_ChemfuelFromWood.description>
   <!-- EN: Refining chemfuel from wood. -->
   <Make_ChemfuelFromWood.jobString>正在从木材中提炼化合燃料。</Make_ChemfuelFromWood.jobString>
   
@@ -69,21 +69,21 @@
   <!-- EN: smelt apparel -->
   <SmeltApparel.label>熔炼衣物</SmeltApparel.label>
   <!-- EN: Use heat and strong electromagnets to break down metallic apparel like armor into useful resources. -->
-  <SmeltApparel.description>用强热和电磁铁将诸如装甲之类的衣物分解成有用的资源。</SmeltApparel.description>
+  <SmeltApparel.description>利用高温和电磁铁将装甲之类的金属衣物分解成有用的资源。</SmeltApparel.description>
   <!-- EN: Smelting apparel. -->
   <SmeltApparel.jobString>正在熔炼衣物。</SmeltApparel.jobString>
   
   <!-- EN: smelt or destroy thing -->
-  <SmeltOrDestroyThing.label>熔炼或销毁物品</SmeltOrDestroyThing.label>
+  <SmeltOrDestroyThing.label>熔炼&amp;销毁物品</SmeltOrDestroyThing.label>
   <!-- EN: Use heat and strong electromagnets to break down metallic things like weapons and armor into useful resources, or destroy them if they are not smeltable. -->
-  <SmeltOrDestroyThing.description>用强热和电磁铁诸如武器装甲之类的金属物品分解成有用的资源，或销毁不可熔炼的物品。</SmeltOrDestroyThing.description>
+  <SmeltOrDestroyThing.description>利用高温和电磁铁将装甲、武器之类的金属物品分解成有用的资源，或直接销毁不可熔炼的物品。</SmeltOrDestroyThing.description>
   <!-- EN: Smelting/destroying things. -->
-  <SmeltOrDestroyThing.jobString>正在熔炼或销毁物品</SmeltOrDestroyThing.jobString>
+  <SmeltOrDestroyThing.jobString>正在熔炼&amp;销毁物品。</SmeltOrDestroyThing.jobString>
   
   <!-- EN: smelt weapon -->
   <SmeltWeapon.label>熔炼武器</SmeltWeapon.label>
   <!-- EN: Use heat and strong electromagnets to break down weapons into useful resources. -->
-  <SmeltWeapon.description>用强热和电磁铁将武器分解成有用的金属。</SmeltWeapon.description>
+  <SmeltWeapon.description>利用高温和电磁铁将武器分解成有用的资源。</SmeltWeapon.description>
   <!-- EN: Smelting weapon. -->
   <SmeltWeapon.jobString>正在熔炼武器。</SmeltWeapon.jobString>
   

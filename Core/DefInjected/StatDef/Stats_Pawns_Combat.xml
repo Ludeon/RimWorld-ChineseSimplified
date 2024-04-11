@@ -7,9 +7,9 @@
   <AimingDelayFactor.description>瞄准后开火所花费的时间。</AimingDelayFactor.description>
   
   <!-- EN: incoming damage multiplier -->
-  <IncomingDamageFactor.label>承伤系数</IncomingDamageFactor.label>
+  <IncomingDamageFactor.label>承伤乘数</IncomingDamageFactor.label>
   <!-- EN: A multiplier on all incoming damage. -->
-  <IncomingDamageFactor.description>所有受到伤害的乘数。</IncomingDamageFactor.description>
+  <IncomingDamageFactor.description>所有受到的伤害会乘以此项的值。</IncomingDamageFactor.description>
   
   <!-- EN: melee armor penetration -->
   <MeleeArmorPenetration.label>近战护甲穿透</MeleeArmorPenetration.label>
@@ -19,7 +19,7 @@
   <!-- EN: melee cooldown -->
   <MeleeCooldownFactor.label>近战冷却时间</MeleeCooldownFactor.label>
   <!-- EN: A multiplier on the time this creature takes to recover after making a melee attack. -->
-  <MeleeCooldownFactor.description>该生物进行近战攻击后的再次发动攻击的冷却时间乘数。</MeleeCooldownFactor.description>
+  <MeleeCooldownFactor.description>此生物进行近战攻击后的再次发动攻击的冷却时间乘数。</MeleeCooldownFactor.description>
   
   <!-- EN: melee damage factor -->
   <MeleeDamageFactor.label>近战伤害系数</MeleeDamageFactor.label>
@@ -27,41 +27,41 @@
   <MeleeDamageFactor.description>此人造成的近战伤害乘数。</MeleeDamageFactor.description>
   
   <!-- EN: melee dodge chance -->
-  <MeleeDodgeChance.label>近战闪避几率</MeleeDodgeChance.label>
+  <MeleeDodgeChance.label>近战闪避率</MeleeDodgeChance.label>
   <!-- EN: Chance to dodge a melee attack that would've otherwise hit.\n\nCharacters will not dodge while aiming or firing a ranged weapon. -->
-  <MeleeDodgeChance.description>闪避近身攻击或者其他物理击打的几率。\n\n（在瞄准时或使用远程武器开火时，角色无法进行闪避。）</MeleeDodgeChance.description>
+  <MeleeDodgeChance.description>闪避近战攻击或者其他物理击打的几率。\n\n在使用远程武器瞄准或开火时，角色无法进行闪避。</MeleeDodgeChance.description>
   
   <!-- EN: melee DPS -->
   <MeleeDPS.label>近战每秒伤害</MeleeDPS.label>
   <!-- EN: Average damage per second in melee combat.\n\nThis stat ignores target defenses like dodging and armor. -->
-  <MeleeDPS.description>近战中每秒平均伤害。\n\n（未计算目标防御力，比如闪避和护甲。）</MeleeDPS.description>
+  <MeleeDPS.description>在近战攻击中每秒平均伤害。\n\n（未计算目标防御力，比如闪避和护甲。）</MeleeDPS.description>
   
   <!-- EN: melee hit chance -->
   <MeleeHitChance.label>近战命中率</MeleeHitChance.label>
   <!-- EN: Chance to hit a target in melee.\n\nThe target can still dodge even if we would've hit. -->
-  <MeleeHitChance.description>在近身攻击中命中目标的基本几率。\n\n（即使击中，目标仍能闪避。）</MeleeHitChance.description>
+  <MeleeHitChance.description>在近战攻击中命中目标的基本几率。\n\n即使命中，目标仍能闪避。</MeleeHitChance.description>
   
   <!-- EN: Mortar miss radius multiplier -->
-  <MortarMissRadiusFactor.label>迫击炮偏移率</MortarMissRadiusFactor.label>
+  <MortarMissRadiusFactor.label>迫击炮偏移乘数</MortarMissRadiusFactor.label>
   <!-- EN: A multiplier on the miss radius of a mortar used by this person. Smaller numbers means more accurate mortar shells. -->
-  <MortarMissRadiusFactor.description>炮手作用于迫击炮偏移半径的一个系数。更低的偏移率意味着更精确的射击。</MortarMissRadiusFactor.description>
+  <MortarMissRadiusFactor.description>此人操作迫击炮时，炮弹落点偏移半径的乘数。偏移乘数越低，迫击炮射的越准。</MortarMissRadiusFactor.description>
   <!-- EN: Mortar miss radius multiplier -->
   <MortarMissRadiusFactor.labelForFullStatList>迫击炮偏移率</MortarMissRadiusFactor.labelForFullStatList>
   
   <!-- EN: trap spring chance -->
-  <PawnTrapSpringChance.label>陷阱触发概率</PawnTrapSpringChance.label>
+  <PawnTrapSpringChance.label>陷阱触发率</PawnTrapSpringChance.label>
   <!-- EN: Chance to spring a trap the character is unaware of. -->
-  <PawnTrapSpringChance.description>不知情者触发陷阱的概率。</PawnTrapSpringChance.description>
+  <PawnTrapSpringChance.description>角色未察觉到陷阱时，触发陷阱的几率。</PawnTrapSpringChance.description>
   
   <!-- EN: ranged cooldown multiplier -->
-  <RangedCooldownFactor.label>远程冷却系数</RangedCooldownFactor.label>
+  <RangedCooldownFactor.label>远程冷却时间乘数</RangedCooldownFactor.label>
   <!-- EN: A multiplier on the cooldown between bursts when using a ranged weapon. -->
   <RangedCooldownFactor.description>使用远程武器时，两次射击之间的冷却时间乘数。</RangedCooldownFactor.description>
   
   <!-- EN: accuracy factor (long) -->
   <ShootingAccuracyFactor_Long.label>精度系数（远）</ShootingAccuracyFactor_Long.label>
   <!-- EN: A multiplier on accuracy at a distance of 40 cells or more. -->
-  <ShootingAccuracyFactor_Long.description>在40格或更远时的射击精度乘数。</ShootingAccuracyFactor_Long.description>
+  <ShootingAccuracyFactor_Long.description>在40格距离或更远时的射击精度乘数。</ShootingAccuracyFactor_Long.description>
   
   <!-- EN: accuracy factor (medium) -->
   <ShootingAccuracyFactor_Medium.label>精度系数（中）</ShootingAccuracyFactor_Medium.label>
@@ -86,7 +86,7 @@
   <ShootingAccuracyPawn.labelForFullStatList>射击精度（人）</ShootingAccuracyPawn.labelForFullStatList>
   
   <!-- EN: stagger time multiplier -->
-  <StaggerDurationFactor.label>抑止时间系数</StaggerDurationFactor.label>
+  <StaggerDurationFactor.label>抑止时间乘数</StaggerDurationFactor.label>
   <!-- EN: A multiplier on the duration of the stagger-slowdown that occurs when damage is taken. -->
   <StaggerDurationFactor.description>从被攻击而速度减慢的抑止状态下恢复的时间乘数。</StaggerDurationFactor.description>
   

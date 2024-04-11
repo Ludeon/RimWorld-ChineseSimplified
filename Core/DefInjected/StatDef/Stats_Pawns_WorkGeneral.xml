@@ -12,7 +12,7 @@
   <AnimalGatherYield.description>剪毛、收取，或其他从活着的动物身上收集资源时会得到的百分比产出。\n\n百分比越高，产物的浪费几率越少。</AnimalGatherYield.description>
   
   <!-- EN: cleaning speed multiplier -->
-  <CleaningSpeed.label>清洁速度</CleaningSpeed.label>
+  <CleaningSpeed.label>清洁速度乘数</CleaningSpeed.label>
   <!-- EN: A multiplier on how fast this cleans up filth from the ground. -->
   <CleaningSpeed.description>关于清洁污渍速度的系数。</CleaningSpeed.description>
   
@@ -32,9 +32,9 @@
   <DeepDrillingSpeed.description>使用深钻井开采地下资源的速度。</DeepDrillingSpeed.description>
   
   <!-- EN: drug crop harvest yield -->
-  <DrugHarvestYield.label>成瘾品作物收割率</DrugHarvestYield.label>
+  <DrugHarvestYield.label>成瘾品作物收获效率</DrugHarvestYield.label>
   <!-- EN: The yield this person gets when harvesting drug crops.\n\nLow yields give a chance that this person will accidentally waste the harvest. High yields increase the yield from each plant. -->
-  <DrugHarvestYield.description>这个人在收获成瘾品作物时得到的产量。\n\n低产量使这个人有可能意外地浪费收获。高产量会增加每株植物的产量。</DrugHarvestYield.description>
+  <DrugHarvestYield.description>收获成瘾品作物时获取的产出。\n\n低产出会导致此人有一定几率意外地浪费收获物。高产量会增加每株植物的产量。</DrugHarvestYield.description>
   
   <!-- EN: repair success chance -->
   <FixBrokenDownBuildingSuccessChance.label>修理成功率</FixBrokenDownBuildingSuccessChance.label>
@@ -69,7 +69,7 @@
   <!-- EN: reading speed -->
   <ReadingSpeed.label>阅读速度</ReadingSpeed.label>
   <!-- EN: A multiplier on how fast this person can read. -->
-  <ReadingSpeed.description>此人阅读书籍速度的乘数。</ReadingSpeed.description>
+  <ReadingSpeed.description>阅读书籍时的速度乘数。</ReadingSpeed.description>
   
   <!-- EN: research speed -->
   <ResearchSpeed.label>研究速度</ResearchSpeed.label>
@@ -84,9 +84,6 @@
   <!-- EN: global work speed -->
   <WorkSpeedGlobal.label>全局工作速度</WorkSpeedGlobal.label>
   <!-- EN: A multiplier on a character's speed at doing any kind of work. -->
-  <WorkSpeedGlobal.description>做任何工作时的速度乘数。</WorkSpeedGlobal.description>
-  
-  <!-- UNUSED -->
-  <WorkSpeedGlobal.parts.2.label>机械师偏移</WorkSpeedGlobal.parts.2.label>
+  <WorkSpeedGlobal.description>做任何类型工作时的速度乘数。</WorkSpeedGlobal.description>
   
 </LanguageData>

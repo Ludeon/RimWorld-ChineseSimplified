@@ -20,26 +20,26 @@
   <!-- EN: The protection given against sharp damage like bullets, knife stabs, explosions, and animal bites.\n\nUpon taking damage, first this armor rating is reduced by the attack's armor penetration value.\n\nThe remaining armor rating is then compared against a random number from 0 to 100.\n\n    - If the random number is under half the armor rating, the damage deflects harmlessly.\n    - If the random number is over half the armor rating, but not higher than the armor rating, the damage is reduced by half and changed to blunt.\n    - If the random number is greater than the armor rating, the armor has no effect.\n\nFor example, at 90% armor rating against an attack with 10% armor penetration, there is a 40% chance of deflecting the attack harmlessly, and a 40% chance of mitigating the damage.\n\nEach layer of armor is applied separately, from the outside in. -->
   <ArmorRating_Sharp.description>抵御利器伤害的防护能力，比如子弹、刀剑穿刺，爆炸以及动物的抓咬。\n\n受到伤害时，护甲值首先减去攻击武器的护甲穿透值。剩余护甲值与0到100之间的随机数进行比较。\n\n-若随机数低于剩余护甲值的一半，则伤害无效。\n-若随机数大于剩余护甲值的一半但不高于剩余护甲值，则伤害减半，并且改为钝器伤害。\n-若随机数大于剩余护甲值，则护甲无效。\n\n例如，对于10％护甲穿透的攻击，若护甲等级为90％，则有40％几率使攻击无效，并有40％的几率减轻伤害。\n\n拥有多层服装时，判定将从外层开始，逐层检测。</ArmorRating_Sharp.description>
   <!-- EN: Armor - Sharp (armor stat) -->
-  <ArmorRating_Sharp.labelForFullStatList>护甲 - 利器 (护甲属性)</ArmorRating_Sharp.labelForFullStatList>
+  <ArmorRating_Sharp.labelForFullStatList>护甲 - 利器（护甲属性）</ArmorRating_Sharp.labelForFullStatList>
   
   <!-- EN: Shield max energy -->
-  <EnergyShieldEnergyMax.label>能量上限</EnergyShieldEnergyMax.label>
+  <EnergyShieldEnergyMax.label>护盾能量上限</EnergyShieldEnergyMax.label>
   <!-- EN: The maximum energy a shield can have at one time.\n\nMore energy absorbs more damage. -->
-  <EnergyShieldEnergyMax.description>护盾腰带所能拥有的能量最大值。\n\n越多的能量可以吸收更多的伤害。</EnergyShieldEnergyMax.description>
+  <EnergyShieldEnergyMax.description>护盾所能拥有的能量最大值。能量越多，可以吸收的伤害就越多。</EnergyShieldEnergyMax.description>
   
   <!-- EN: Shield recharge rate -->
-  <EnergyShieldRechargeRate.label>充能速度</EnergyShieldRechargeRate.label>
+  <EnergyShieldRechargeRate.label>护盾充能速率</EnergyShieldRechargeRate.label>
   <!-- EN: The rate at which a shield gains energy as long as it is not broken. -->
-  <EnergyShieldRechargeRate.description>只要护盾不破，护盾不断获得能量的速度。</EnergyShieldRechargeRate.description>
+  <EnergyShieldRechargeRate.description>护盾破裂（能量完全耗尽）前的充能速率。</EnergyShieldRechargeRate.description>
   <!-- EN: {0}/s -->
-  <EnergyShieldRechargeRate.formatString>{0} / 秒</EnergyShieldRechargeRate.formatString>
+  <EnergyShieldRechargeRate.formatString>{0}/秒</EnergyShieldRechargeRate.formatString>
   
   <!-- EN: equip delay -->
   <EquipDelay.label>装备时间</EquipDelay.label>
   <!-- EN: The time it takes to equip and unequip this item. -->
   <EquipDelay.description>穿上或卸下装备所需的时间。</EquipDelay.description>
   <!-- EN: {0} s -->
-  <EquipDelay.formatString>{0} 秒</EquipDelay.formatString>
+  <EquipDelay.formatString>{0}秒</EquipDelay.formatString>
   
   <!-- EN: Insulation - Cold -->
   <Insulation_Cold.label>隔温 - 寒冷</Insulation_Cold.label>
@@ -56,9 +56,9 @@
   <Insulation_Heat.labelForFullStatList>隔温 - 炎热（护甲属性）</Insulation_Heat.labelForFullStatList>
   
   <!-- EN: Effect radius -->
-  <PackRadius.label>影响范围</PackRadius.label>
+  <PackRadius.label>作用范围</PackRadius.label>
   <!-- EN: The area affected when this pack detonates. -->
-  <PackRadius.description>该背包触发后受影响的范围。</PackRadius.description>
+  <PackRadius.description>此背包激活后产生效果的作用范围。</PackRadius.description>
   <!-- EN: {0} c -->
   <PackRadius.formatString>{0}格</PackRadius.formatString>
   

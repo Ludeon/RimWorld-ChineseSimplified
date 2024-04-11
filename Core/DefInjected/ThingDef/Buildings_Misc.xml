@@ -2,14 +2,14 @@
 <LanguageData>
   
   <!-- EN: ancient cryptosleep casket -->
-  <AncientCryptosleepCasket.label>远古休眠舱</AncientCryptosleepCasket.label>
+  <AncientCryptosleepCasket.label>远古低温休眠舱</AncientCryptosleepCasket.label>
   <!-- EN: This cryptosleep casket looks like it has been here for a very long time. Who knows what it might contain? -->
   <AncientCryptosleepCasket.description>这个低温休眠舱看起来已经在这里有很长时间了。谁知道这里边装着什么？</AncientCryptosleepCasket.description>
   
   <!-- EN: caravan hitching spot -->
   <CaravanPackingSpot.label>远行队牵引点</CaravanPackingSpot.label>
   <!-- EN: Designates a spot for hitching animals and forming caravans. Colonists will hitch animals here while loading a caravan. You can also use these during encounters away from home to keep animals from wandering. -->
-  <CaravanPackingSpot.description>指定一个拴牲畜和组建远行队的地点，用于在组建远行队时拴住动物以方便装载货物。也可以用于防止某些远行队中不听话的动物在外行动时四处游荡。</CaravanPackingSpot.description>
+  <CaravanPackingSpot.description>指定一个拴住动物和组建远行队的位置。殖民者们在组建远行队时，可以于此处拴住动物以方便装载货物。也可以在缺少畜栏时，防止不听话的动物四处游荡。</CaravanPackingSpot.description>
   
   <!-- EN: comms console -->
   <CommsConsole.label>通讯台</CommsConsole.label>
@@ -22,7 +22,7 @@
   <!-- EN: cryptosleep casket -->
   <CryptosleepCasket.label>低温休眠舱</CryptosleepCasket.label>
   <!-- EN: A self-powered sarcophagus designed to keep a person in a state of suspended animation for many years. -->
-  <CryptosleepCasket.description>一个自主供电的箱子，用于将人维持在生理暂停状态许多年。</CryptosleepCasket.description>
+  <CryptosleepCasket.description>用于将人长期维持在生理暂停状态的自供电型装置。</CryptosleepCasket.description>
   
   <!-- EN: delayed effecter spawner -->
   <DelayedEffecterSpawner.label>延迟触发器</DelayedEffecterSpawner.label>
@@ -30,14 +30,14 @@
   <!-- EN: egg box -->
   <EggBox.label>卵箱</EggBox.label>
   <!-- EN: A box with soft material made to hold eggs. Egg-laying animals will lay eggs in egg boxes if they can. Your haulers will take all the eggs out only when the box is full, to save time. The box also protects eggs from deteriorating outdoors, though it does not protect from temperature damage. -->
-  <EggBox.description>用软质材料制成的盒子，用来装蛋。如果可以的话，产蛋动物会在卵箱中产蛋。你的搬运工人只有在盒子装满时才会把所有的鸡蛋拿出来，以节省时间。盒子还可以保护鸡蛋不在户外变质，尽管它不能防止温度的损害。</EggBox.description>
+  <EggBox.description>用于储存卵和蛋的软质箱子。如果可以的话，产蛋动物会在卵箱中下蛋。你的搬运工只有在卵箱装满时才会将里面的内容物取出，以节省时间。卵箱还可以保护卵和蛋不在室外老化，尽管它不能防止温度造成的损害。</EggBox.description>
   
   <!-- EN: firefoam popper -->
   <FirefoamPopper.label>泡沫灭火器</FirefoamPopper.label>
   <!-- EN: When it detects fire, this safety device pops and sprays a fire-retardant foam in a circular field around itself. Can also be triggered manually. -->
-  <FirefoamPopper.description>当被火焰触发或手动触发后，会向着四周圆形范围喷出灭火泡沫。</FirefoamPopper.description>
+  <FirefoamPopper.description>当被火焰触发或手动激活后，这种安全装置会向着四周圆形范围喷出阻燃泡沫。</FirefoamPopper.description>
   <!-- EN: Trigger {0_label} -->
-  <FirefoamPopper.comps.CompUsable.useLabel>开启{0_label}</FirefoamPopper.comps.CompUsable.useLabel>
+  <FirefoamPopper.comps.CompUsable.useLabel>激活{0_label}</FirefoamPopper.comps.CompUsable.useLabel>
   
   <!-- EN: grave -->
   <Grave.label>坟墓</Grave.label>
@@ -47,17 +47,17 @@
   <!-- EN: ground-penetrating scanner -->
   <GroundPenetratingScanner.label>地质扫描仪</GroundPenetratingScanner.label>
   <!-- EN: A sensor unit used by researchers to search for buried resources. The chance to find a resource depends on the operator's research ability. It consumes a lot of electricity. If you find a buried resource, you'll need to use deep drills to extract it. It doesn't work under a roof. -->
-  <GroundPenetratingScanner.description>研究人员用来寻找埋藏资源的传感器。找到资源的可能性取决于操作者的研究能力。它相当耗电。如果你发现了一个埋藏的资源，你需要使用深钻井来提取它。这个装置只能在户外使用。</GroundPenetratingScanner.description>
+  <GroundPenetratingScanner.description>研究人员用来寻找埋藏资源的传感器。找到资源的几率取决于操作者的研究能力。它相当耗电。如果你发现了一处埋藏的资源，需要使用深钻井来开采它们。这种装置只能在室外使用。</GroundPenetratingScanner.description>
   
   <!-- EN: long-range mineral scanner -->
   <LongRangeMineralScanner.label>远距离矿物扫描仪</LongRangeMineralScanner.label>
   <!-- EN: A lateral sensor unit used by researchers to detect a specific type of mineral across the planet. The chance to find a resource depends on the operator's research ability. This sensor can be tuned to target a specific resource type. It consumes a lot of electricity. If you find a resource, you'll need to travel to collect it. -->
-  <LongRangeMineralScanner.description>一种横波传感器，被研究人员用来探测行星上的特殊矿物。找到资源的可能性取决于操作者的研究能力。此传感器可以调整为针对特定资源类型。它相当耗电。如果你找到一个资源，你需要远行来收集它。</LongRangeMineralScanner.description>
+  <LongRangeMineralScanner.description>研究人员用来探测星球上的特殊矿物的横波传感器。找到资源的几率取决于操作者的研究能力，但可以将其调整为只扫描特定类型的资源。它相当耗电。如果你发现了一处资源，需要派遣远行队前去开采它们。这种装置只能在室外使用。</LongRangeMineralScanner.description>
   
   <!-- EN: marriage spot -->
   <MarriageSpot.label>婚礼举办点</MarriageSpot.label>
   <!-- EN: Designates a spot where marriage ceremonies will take place. Spectators can watch from either side. -->
-  <MarriageSpot.description>指定一个举行结婚仪式的位置。观众可以在任何方向上观看婚礼。</MarriageSpot.description>
+  <MarriageSpot.description>指定一个举行结婚仪式的位置。观众可以在其中一个方向上观看婚礼。</MarriageSpot.description>
   
   <!-- EN: moisture pump -->
   <MoisturePump.label>排水泵</MoisturePump.label>
@@ -67,7 +67,7 @@
   <!-- EN: multi-analyzer -->
   <MultiAnalyzer.label>多元分析仪</MultiAnalyzer.label>
   <!-- EN: Increases research speed when placed near hi-tech research bench and unlocks new research projects. Each research bench can only use one multi-analyzer. -->
-  <MultiAnalyzer.description>提高研究速度，一些高级研究项目所必需的设备。需要放置在高级研究台附近。一个研究台只能连接一个多元分析仪。</MultiAnalyzer.description>
+  <MultiAnalyzer.description>提高研究速度，一些高级研究项目所必需的设备。需要放置在高级研究台附近。一个研究台最多可以同时连接一个多元分析仪。</MultiAnalyzer.description>
   
   <!-- EN: orbital trade beacon -->
   <OrbitalTradeBeacon.label>轨道交易信标</OrbitalTradeBeacon.label>
@@ -82,7 +82,7 @@
   <!-- EN: pen marker -->
   <PenMarker.label>畜栏标牌</PenMarker.label>
   <!-- EN: A post with a sign designating an animal pen. It must be placed in an area enclosed by fences, barricades, walls, and doors. You can assign each pen marker a set of animals to accept, and handlers will bring animals to an appropriate pen. -->
-  <PenMarker.description>一个带标志的柱子，指定一个畜栏。它必须放置在由栅栏、路障、墙壁和门围起来的区域。你可以给每个畜栏标牌指定一套接受的动物，饲养员会把动物带到合适的畜栏。</PenMarker.description>
+  <PenMarker.description>一个带有标识牌的立柱。将这种标牌放置在由栅栏（也能用路障或墙体代替）和门围起来的封闭区域内，可以将其指定为畜栏。你可以给每个畜栏标牌设置可容纳的动物种类，饲养员会把动物带到合适的畜栏。</PenMarker.description>
   
   <!-- EN: pod launcher -->
   <PodLauncher.label>运输舱发射器</PodLauncher.label>
@@ -97,7 +97,7 @@
   <!-- EN: grand stele -->
   <SteleGrand.label>宏伟石碑</SteleGrand.label>
   <!-- EN: A towering slab with extensive engravings on the sides. Steles have been used since ancient times to memorialize individuals, battles, and other important events. -->
-  <SteleGrand.description>周围有大量雕刻的高耸石板。石碑自古以来都被用于纪念人物、战役或者其他重要事件。</SteleGrand.description>
+  <SteleGrand.description>一块侧面有大量雕刻的高耸石板。石碑自古以来都被用于纪念人物、战役或者其他重要事件。</SteleGrand.description>
   
   <!-- EN: large stele -->
   <SteleLarge.label>大型石碑</SteleLarge.label>
@@ -112,11 +112,11 @@
   <!-- EN: transport pod -->
   <TransportPod.label>运输舱</TransportPod.label>
   <!-- EN: A launchable sub-orbital cargo pod capable of carrying people, items, or animals. Can be used for sending gifts, transporting people or supplies, surprise attacks, or reinforcing battles. -->
-  <TransportPod.description>可运输人员、物品和动物的可发射亚轨道远程货运舱。可用于运输、奇袭或者增援战场。</TransportPod.description>
+  <TransportPod.description>可运输人员、物品和动物的发射式亚轨道远程货运舱。可用于送礼、运输、奇袭或者增援战场。</TransportPod.description>
   
   <!-- EN: vitals monitor -->
   <VitalsMonitor.label>生命体征监测仪</VitalsMonitor.label>
   <!-- EN: Increases medical tend quality, surgery success chance, and immunity gain speed when placed directly adjacent to a hospital bed. Only works for hospital beds - normal beds will not benefit. Attaching more than one vitals monitor to the same bed will have no effect. -->
-  <VitalsMonitor.description>放置在毗邻医疗床的位置时，可以提高医疗质量、手术成功率，以及免疫性获取速度。只对医疗床有效，普通床不会获得增益。多个监测仪不会对同一个医疗床生效。</VitalsMonitor.description>
+  <VitalsMonitor.description>放置在毗邻医疗床的位置时，可以提高医疗质量、手术成功率，以及免疫速度。只对医疗床有效，普通床不会获得加成。在同一个医疗床旁放置多个生命体征监测仪不会产生叠加效果。</VitalsMonitor.description>
   
 </LanguageData>

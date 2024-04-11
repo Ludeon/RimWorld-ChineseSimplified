@@ -31,7 +31,7 @@
   <!-- EN: Need defenses -->
   <NeedDefenses>缺少防御工事</NeedDefenses>
   <!-- EN: You've been here some time and have probably been seen. Pirate raids will start soon.\n\nYou should prepare defenses, like sandbags or traps. -->
-  <NeedDefensesDesc>你已经在这里待了一段时间，可能已经被别人发现了。海盗随时可能会来袭击你的殖民地。\n\n你应该部署一些防御工事，不论是陷阱、沙袋，还是炮塔。</NeedDefensesDesc>
+  <NeedDefensesDesc>你已经在这里待了一段时间，可能已经被别人发现了。海盗随时可能会来袭击你的殖民地。\n\n你应该部署一些防御工事，不论是陷阱、沙袋还是炮塔。</NeedDefensesDesc>
 
   <!-- EN: Need doctor -->
   <NeedDoctor>缺少医生</NeedDoctor>
@@ -66,7 +66,7 @@
   <NeedColonistBedsDesc>你的殖民者数量超过了你床位的数量，有人将会无处睡觉。\n\n要么建造更多的床位，要么把囚犯床位转成殖民者床位。\n\n如果你资源不足，睡眠点是免费的而且立即建造完成。</NeedColonistBedsDesc>
   
   <!-- EN: Colonist left unburied -->
-  <AlertColonistLeftUnburied>殖民者未埋葬</AlertColonistLeftUnburied>
+  <AlertColonistLeftUnburied>殖民者未安葬</AlertColonistLeftUnburied>
   <!-- EN: A colonist is left unburied.\n\nThis may negatively affect your colonists' mood. -->
   <AlertColonistLeftUnburiedDesc>一个殖民者的尸体没有被安葬。\n\n这可能会对你的殖民者心情产生负面影响。</AlertColonistLeftUnburiedDesc>
 
@@ -158,9 +158,9 @@
   <ColonistsIdleDesc>以下殖民者正无所事事地闲逛:\n\n{0}\n你应该给他们找点有意义的事情来做。</ColonistsIdleDesc>
   
   <!-- EN: Caravan idle -->
-  <CaravanIdle>远行商队闲置</CaravanIdle>
+  <CaravanIdle>远行队闲置</CaravanIdle>
   <!-- EN: These caravans are waiting for you to set their next destination:\n{0} -->
-  <CaravanIdleDesc>远行商队正在等待着你设定的下一个进发目的地\n\n{0}</CaravanIdleDesc>
+  <CaravanIdleDesc>远行队正在等待着你设定的下一个进发目的地\n\n{0}</CaravanIdleDesc>
 
   <!-- EN: Medical treatment needed -->
   <ColonistNeedsTreatment>需要治疗</ColonistNeedsTreatment>
@@ -233,7 +233,7 @@
   <!-- EN: Heatstroke -->
   <AlertHeatstroke>中暑</AlertHeatstroke>
   <!-- EN: The following people are suffering from heatstroke:\n{0}\n\nGet them to a cooler area. You can cool down rooms with passive coolers or electrical coolers. Deep underground spaces are also naturally cool, if separated from the outdoors by a door. -->
-  <AlertHeatstrokeDesc>以下殖民者已中暑\n\n{0}\n尽快把他们带到凉爽的地方。你可以使用「蒸发制冷器」或「电气制冷机」让房间降温。如果使用门来与室外隔绝，深层的洞穴里也能保持凉爽。</AlertHeatstrokeDesc>
+  <AlertHeatstrokeDesc>以下殖民者已中暑：\n\n{0}\n尽快把他们带到凉爽的地方。你可以使用「蒸发制冷器」或「电气制冷机」让房间降温。如果使用门来与室外隔绝，深层的洞穴里也能保持凉爽。</AlertHeatstrokeDesc>
 
   <!-- EN: Guest unhappy -->
   <QuestPartMoodBelowThreshold>贵宾不高兴</QuestPartMoodBelowThreshold>
@@ -262,11 +262,11 @@
   <!-- EN: Countdown activator {0} -->
   <ActivatorCountdown>定时激活器 {0}</ActivatorCountdown>
   <!-- EN: There is a countdown activator ticking down, preparing to awaken nearby mechanoids. -->
-  <ActivatorCountdownDesc>有一个定时激活器滴答作响，准备唤醒附近的机械族。</ActivatorCountdownDesc>
+  <ActivatorCountdownDesc>有一个定时激活器滴答作响，准备唤醒附近的机械体。</ActivatorCountdownDesc>
   <!-- EN: {0} countdown activators -->
   <ActivatorCountdownMultiple>{0} 定时激活器</ActivatorCountdownMultiple>
   <!-- EN: There are {0} countdown activators ticking down, preparing to awaken nearby mechanoids. -->
-  <ActivatorCountdownDescMultiple>有 {0} 个定时激活器滴答作响，准备唤醒附近的机械族。</ActivatorCountdownDescMultiple>
+  <ActivatorCountdownDescMultiple>有 {0} 个定时激活器滴答作响，准备唤醒附近的机械体。</ActivatorCountdownDescMultiple>
 
   <!-- EN: Quest expires in {0} -->
   <QuestExpiresSoon>任务将在{0}后到期</QuestExpiresSoon>
@@ -276,7 +276,7 @@
   <!-- EN: Animal filth -->
   <AlertAnimalFilth>动物污物</AlertAnimalFilth>
   <!-- EN: A filth-producing animal is indoors on a clean floor.\n\nAnimals produce a very large amount of filth when moving around on normal floors. Keep filth-producing animals outdoors, or on straw matting where they will produce far less filth.\n\nYou can check an animal's filth production rate in its stats by clicking the 'i' button.\n\nThese animals are the problem:\n{0} -->
-  <AlertAnimalFilthDesc>一个产生污物的动物在室内的清洁地板上。\n\n动物在正常地板上走动时会产生大量的污物。把产污物的动物放在室外，或放在草垫上，这样它们产生的污物会少得多。\n\n你可以通过点击 "i"按钮，在动物的统计资料中检查动物的产污率。\n\n这些动物是有问题的：\n{0}</AlertAnimalFilthDesc>
+  <AlertAnimalFilthDesc>一只会产生污物的动物在室内的清洁地板上。\n\n动物在正常地板上走动时会产生大量的污物。把产污物的动物放在室外，或放在草垫上，这样它们产生的污物会少得多。\n\n你可以通过点击 "i"按钮，在动物的统计资料中检查动物的产污率。\n\n这些动物是有问题的：\n{0}</AlertAnimalFilthDesc>
 
   <!-- EN: Pen needed -->
   <AlertAnimalPenNeeded>需要畜栏</AlertAnimalPenNeeded>
@@ -290,7 +290,7 @@
   <!-- EN: Pen not enclosed -->
   <AlertAnimalPenNotEnclosed>畜栏未封闭</AlertAnimalPenNotEnclosed>
   <!-- EN: An animal pen marker is not enclosed.\n\nEnclose the pen using fences, barricades, gates, walls, or doors to prevent animals from wandering out.\n\nIf you have only unenclosed pen markers, your handlers can still lead wandering animals back home - but this must be repeated from time to time when the animals wander away once again. -->
-  <AlertAnimalPenNotEnclosedDesc>一个畜栏标牌未被封闭。\n\n用栅栏、路障、大门、墙壁或门来封闭畜栏，防止动物走失。\n\n如果你只有未封闭的畜栏标牌，你的饲养员仍然可以把走失的动物领回家--你必须不时地在动物走失时重新将它们带回来。</AlertAnimalPenNotEnclosedDesc>
+  <AlertAnimalPenNotEnclosedDesc>一个畜栏标牌未被封闭。\n\n用栅栏、路障、大门、墙体或门来封闭畜栏，防止动物走失。\n\n如果你只有未封闭的畜栏标牌，你的饲养员仍然可以把走失的动物领回家--你必须不时地在动物走失时重新将它们带回来。</AlertAnimalPenNotEnclosedDesc>
 
   <!-- EN: {ANIMAL_labelShort} in animal pen -->
   <AlertPredatorInAnimalPen>{ANIMAL_labelShort}在畜栏内</AlertPredatorInAnimalPen>
@@ -305,7 +305,7 @@
   <!-- EN: Hungry pen animals -->
   <AlertPennedAnimalHungry>饥饿的圈养动物</AlertPennedAnimalHungry>
   <!-- EN: Some of your penned animals are hungry.\n\nSelect a pen marker and use the Food tab to see more detail.\n\nGrass-eating animals may need a larger pen to provide enough grass. Other animals may need to be supplied with haygrass or similar food using a stockpile.\n\nThe following penned animals are hungry:\n{0} -->
-  <AlertPennedAnimalHungryDesc>一些畜栏里的动物正在挨饿。\n\n选择一个畜栏标牌，使用「食物」标签查看更多细节。\n\n吃草的动物可能需要一个更大的畜栏来提供足够的草。其他动物可能需要用储备的干草或类似的食物来供应。\n\n这些动物正在挨饿：\n\n{0}</AlertPennedAnimalHungryDesc>
+  <AlertPennedAnimalHungryDesc>一些畜栏里的动物正在挨饿。\n\n选择一个畜栏标牌，使用「食物」标签查看更多细节。\n\n食草动物可能需要一个更大的畜栏来提供足够的草。其他动物可能需要用储备的干草或类似的食物来供应。\n\n这些动物正在挨饿：\n\n{0}</AlertPennedAnimalHungryDesc>
 
   <!-- EN: Hungry hitched animal -->
   <AlertHitchedAnimalHungryNoFood>饥饿的拴固动物</AlertHitchedAnimalHungryNoFood>
