@@ -40,12 +40,12 @@
   <!-- EN: interrupted deathrest -->
   <InterruptedDeathrest.label>死眠中断</InterruptedDeathrest.label>
   <!-- EN: Deathrest was interrupted while this person's metabolism was still out of balance. They will be sick for days while regaining equilibrium. -->
-  <InterruptedDeathrest.description>此人在进行死眠时被打断了，由于死眠不完全，之后几天将会生病，并同时恢复身体能力。</InterruptedDeathrest.description>
+  <InterruptedDeathrest.description>此人的死眠被中途打断了。不完全的死眠将引发持续数天的虚弱感，之后便会恢复正常。</InterruptedDeathrest.description>
   
   <!-- EN: psychic bond -->
   <PsychicBond.label>心灵纽带</PsychicBond.label>
   <!-- EN: This person has a psychic bond with another person based on the psychic bonding gene. The bond itself grants some limited psychic awareness, allowing it to connect even with the psychically deaf. -->
-  <PsychicBond.description>此人通过基因与伴侣建立了心灵纽带。这种纽带本身赋予一些有限的心灵波，甚至允许它与心灵失聪者联系。</PsychicBond.description>
+  <PsychicBond.description>此人通过基因与伴侣建立了心灵纽带。这种纽带本身会赋予一定程度的心灵感知，因此能对心灵失聪者生效。</PsychicBond.description>
   <!-- EN: This person's bonded individual is nearby. -->
   <PsychicBond.stages.0.extraTooltip>此人的心灵伴侣就在附近。</PsychicBond.stages.0.extraTooltip>
   <!-- EN: psychic bond -->
@@ -58,7 +58,7 @@
   <!-- EN: psychic bond torn -->
   <PsychicBondTorn.label>心灵纽带撕裂</PsychicBondTorn.label>
   <!-- EN: This person had a psychic bond with another, but the bond was torn when their partner died. -->
-  <PsychicBondTorn.description>此人曾有一个建立了通灵纽带的心灵伴侣，但在伴侣去世后通灵纽带便断裂了。</PsychicBondTorn.description>
+  <PsychicBondTorn.description>此人曾有一个建立了心灵纽带的心灵伴侣，但在伴侣去世后心灵纽带便撕裂了。</PsychicBondTorn.description>
   
   <!-- EN: regeneration coma -->
   <RegenerationComa.label>再生昏迷</RegenerationComa.label>
@@ -68,7 +68,7 @@
   <!-- EN: Scanning sickness -->
   <ScanningSickness.label>扫描后遗症</ScanningSickness.label>
   <!-- EN: This person was scanned by a softscanner to produce a mechanoid subcore. The high-energy scanning device has caused disturbances in their brain chemistry which will take time to resolve themselves. There won't be any long-term damage. -->
-  <ScanningSickness.description>此人曾被扫描仪扫描以生产机械次生核心。扫描设备干扰了他们的大脑，需要一定的时间来恢复。不会造成长期伤害。</ScanningSickness.description>
+  <ScanningSickness.description>此人曾被扫描仪扫描以生产机械体次生核心。扫描设备干扰了他们的大脑，需要一定的时间来恢复。不会造成长期伤害。</ScanningSickness.description>
   
   <!-- EN: vat growing -->
   <VatGrowing.label>生长培育中</VatGrowing.label>
@@ -83,17 +83,17 @@
   <!-- EN: xenogermination coma -->
   <XenogerminationComa.label>异种胚芽昏迷</XenogerminationComa.label>
   <!-- EN: A xenogerm was implanted in this person. The xenogerm needs time to integrate itself into the host and modify the genes and chemistry of various tissues throughout the body. During this time, the person cannot safely wake up, so the xenogerm keeps them in a coma.\n\nThe duration of this coma can be reduced by implanting a xenogerm with better medical facilities and more skilled doctors. -->
-  <XenogerminationComa.description>此人体内被植入了异种胚芽。异种胚芽需要一定时间才能融入宿主，并改变身体的基因和化学成分。由于异种胚芽引起的昏迷，此人在此期间无法安全醒来。\n\n在良好的医疗设施与熟练的医生帮助下植入异种胚芽，可以缩短昏迷时间。</XenogerminationComa.description>
+  <XenogerminationComa.description>此人体内被植入了异种胚芽。异种胚芽需要一定时间才能融入宿主，并改变其体内的基因和化学组成。由于异种胚芽引发了昏迷，此人暂时还无法安全醒来。\n\n在良好的医疗设施与熟练的医生帮助下植入异种胚芽，可以缩短昏迷时间。</XenogerminationComa.description>
   
   <!-- EN: gene loss shock -->
-  <XenogermLossShock.label>基因丢失冲击</XenogermLossShock.label>
+  <XenogermLossShock.label>基因缺失休克</XenogermLossShock.label>
   <!-- EN: This person's genes were recently removed or expelled. This has destabilized the person's metabolism and hormones, leaving them temporarily weak and drowsy, with a weakened immune system. -->
-  <XenogermLossShock.description>此人的基因最近被移除或者排除，新陈代谢系统和荷尔蒙稳定被破坏，导致其暂时虚弱、昏昏欲睡，免疫系统进入衰弱状态。</XenogermLossShock.description>
+  <XenogermLossShock.description>此人的异种基因最近被移除或者排出，新陈代谢和激素分泌的稳定性遭到破坏，导致其免疫系统进入持续数天的衰弱状态，暂时会感到身体乏力和昏昏欲睡。</XenogermLossShock.description>
   
   <!-- EN: genes regrowing -->
   <XenogermReplicating.label>基因重构</XenogermReplicating.label>
   <!-- EN: This person's genetic material is regrowing. This process doesn't have any direct health effects. However, extracting their genes while they are regrowing will kill them. -->
-  <XenogermReplicating.description>此人的基因正在重构。这个过程对健康没有任何直接影响。但是，在基因重构的过程中提取此人基因将会导致其死亡。</XenogermReplicating.description>
+  <XenogermReplicating.description>此人的基因正在重构。这种过程不会对健康造成任何直接影响。然而，在基因重构的过程中提取此人基因将会导致其死亡。</XenogermReplicating.description>
   <!-- EN: {PAWN_nameDef}'s genes have finished regrowing. -->
   <XenogermReplicating.comps.HediffComp_Disappears.messageOnDisappear>{PAWN_nameDef}的基因已重构完毕。</XenogermReplicating.comps.HediffComp_Disappears.messageOnDisappear>
   

@@ -2,9 +2,9 @@
 <LanguageData>
   
   <!-- EN: Arresting worsens faction relations -->
-  <ArrestingCreatesEnemies.label>逮捕导致派系关系恶化</ArrestingCreatesEnemies.label>
+  <ArrestingCreatesEnemies.label>拘捕导致派系关系恶化</ArrestingCreatesEnemies.label>
   <!-- EN: Warning: The person you are trying to arrest may not go quietly.\n\nIf you arrest a non-colonist or a colonist from another faction, their entire faction may become your enemy. \n\nThis arrest has a {0} chance of succeeding, based on the social skill of the arrester. -->
-  <ArrestingCreatesEnemies.helpText>警告：你要逮捕的人可能不会束手就擒。\n\n如果你逮捕了一个非殖民者或者其他派系的殖民者，他们所属的派系可能会成为你的敌人。\n\n这个逮捕行动有{0}的成功率，这取决于警卫的社交技能。\n\n如果你想和一个派系保持友好，不要逮捕对方派系的人！</ArrestingCreatesEnemies.helpText>
+  <ArrestingCreatesEnemies.helpText>警告：你要拘捕的人可能不会束手就擒。\n\n如果你拘捕了一个非殖民者或者其他派系的殖民者，他们所属的派系可能会成为你的敌人。\n\n这个拘捕行动有{0}的成功率，这取决于拘捕者的社交技能。\n\n如果你想和一个派系保持友好，请不要拘随意拘捕对方派系的成员！</ArrestingCreatesEnemies.helpText>
   
   <!-- EN: Maximum number of player colonies -->
   <MaxNumberOfPlayerSettlements.label>玩家殖民地的最大数量</MaxNumberOfPlayerSettlements.label>
@@ -12,28 +12,28 @@
   <MaxNumberOfPlayerSettlements.helpText>警告：边缘世界被设计为一次只能玩一个殖民地。虽然允许玩家拥有多个殖民地，但仅限用于实验和测试目的使用。\n\n多殖民地的玩法会破坏游戏的平衡性，分散你的注意力，也可能导致性能下降。\n\n我们建议你至少在的最初几次游戏中，仅用一个殖民地进行游戏，以获得更好的游戏体验。</MaxNumberOfPlayerSettlements.helpText>
   
   <!-- EN: Steam Deck controls -->
-  <SteamDeckControlsGame.label>Steam Deck 控制</SteamDeckControlsGame.label>
+  <SteamDeckControlsGame.label>Steam Deck控制</SteamDeckControlsGame.label>
   <!-- EN: Press X to open the architect menu and {Key:TogglePause} to pause and resume the game. Use triggers for primary and secondary clicks. Zoom in and out and scroll through lists with {Key:MapZoom_In} and {Key:MapZoom_Out}. Press and hold the L5 back button to pan the camera with the touch screen and simulate secondary clicks. -->
-  <SteamDeckControlsGame.helpText>按X键打开建筑菜单，按{Key:TogglePause}暂停和恢复游戏。使用扳机键模拟鼠标左右键。使用{Key:MapZoom_In}和{Key:MapZoom_Out}来缩放镜头或者滚动菜单。按住L5背键同时滑动触摸板来模拟使用鼠标右键移动镜头。</SteamDeckControlsGame.helpText>
+  <SteamDeckControlsGame.helpText>按下X键打开「建筑规划」面板，按下{Key:TogglePause}键来暂停/继续游戏。使用扳机键模拟鼠标左右键。使用{Key:MapZoom_In}和{Key:MapZoom_Out}键来缩放镜头或者滚动菜单。按住L5背键同时滑动触摸板来模拟使用鼠标右键移动镜头。</SteamDeckControlsGame.helpText>
   
   <!-- EN: Steam Deck controls -->
-  <SteamDeckControlsMainMenu.label>Steam Deck 控制</SteamDeckControlsMainMenu.label>
+  <SteamDeckControlsMainMenu.label>Steam Deck控制</SteamDeckControlsMainMenu.label>
   <!-- EN: Use the trackpad to move the cursor and the right trigger button to click. Press {Key:Accept} to accept and {Key:Cancel} to go back. -->
-  <SteamDeckControlsMainMenu.helpText>使用触摸板移动鼠标，用右侧扳机键模拟鼠标左键。按{Key:Accept}确认，按{Key:Cancel}返回。</SteamDeckControlsMainMenu.helpText>
+  <SteamDeckControlsMainMenu.helpText>使用触摸板移动光标，用右侧扳机键模拟鼠标左键。按{Key:Accept}确认，按{Key:Cancel}返回。</SteamDeckControlsMainMenu.helpText>
   
   <!-- EN: Flick designations only designate -->
   <SwitchFlickingDesignation.label>指派开关电源</SwitchFlickingDesignation.label>
   <!-- EN: Note: This only designates that a colonist should flick the switch.\n\nNothing will actually happen until a colonist comes and flicks the switch by hand. -->
-  <SwitchFlickingDesignation.helpText>注意：这仅仅只是指定一个开关需要殖民者进行操作。\n\n在殖民者（分配了「开关」工作类型）过来并手动操作开关前，不会有任何变化。</SwitchFlickingDesignation.helpText>
+  <SwitchFlickingDesignation.helpText>注意：对电器使用「指派开关电源」命令后，还需要有一名殖民者（分配了「基本」工作类型）前来拨动开关。</SwitchFlickingDesignation.helpText>
   
   <!-- EN: Trade goods and trade beacons -->
-  <TradeGoodsMustBeNearBeacon.label>交易货物和交易信标</TradeGoodsMustBeNearBeacon.label>
+  <TradeGoodsMustBeNearBeacon.label>交易货物和轨道交易信标</TradeGoodsMustBeNearBeacon.label>
   <!-- EN: To send items or silver to orbital traders, you must build an ORBITAL TRADE BEACON and place a stockpile of items near it. -->
-  <TradeGoodsMustBeNearBeacon.helpText>若想发送物品或白银给轨道贸易商，你必须建造「轨道交易信标」，并在其边上划定物品的储存区。</TradeGoodsMustBeNearBeacon.helpText>
+  <TradeGoodsMustBeNearBeacon.helpText>若想发送物品或白银给轨道贸易商，你必须先建造一个「轨道交易信标」，然后在其旁边创建一个储存区。</TradeGoodsMustBeNearBeacon.helpText>
   
   <!-- EN: Trading permit requirements -->
-  <TradingRequiresPermit.label>贸易许可证需求</TradingRequiresPermit.label>
+  <TradingRequiresPermit.label>交易头衔需求</TradingRequiresPermit.label>
   <!-- EN: Trading here requires the title of {0}.\n\nEnsure any trade caravan you send has someone with the title of {0} or higher. -->
-  <TradingRequiresPermit.helpText>这个地方需要持有{0}许可证。\n\n请确保你派出的任何贸易远行队都持有{0}或更高级的许可证。</TradingRequiresPermit.helpText>
+  <TradingRequiresPermit.helpText>与这个定居点交易需要拥有{0}头衔。\n\n请确保你派出的远行队里存在拥有{0}或更高级头衔的殖民者。</TradingRequiresPermit.helpText>
   
 </LanguageData>

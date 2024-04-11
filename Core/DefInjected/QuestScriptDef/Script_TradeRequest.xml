@@ -7,7 +7,7 @@
     <li>qualityInfo-></li>
   -->
   <TradeRequest.questDescriptionRules.rulesStrings>
-    <li>questDescription->附近一个名叫 [settlement_label] 的聚落向我们发出了一场交易请求。 他们想采购以下物资：\n\n  [requestedThingCount]x [qualityInfo] [requestedThing_label](价值： [requestedThingMarketValue_money])\n\n如果你同意这场交易，请派出一支携带相应物资的远行队前往目标地点。 旅途预估时间约为：[estimatedTravelTime_duration]。</li>
+    <li>questDescription->附近的定居点[settlement_label]，向我们发来了一份特殊的交易订单。\n他们想要采购以下物资：\n\n[qualityInfo] [requestedThing_label] x[requestedThingCount]（总价值：[requestedThingMarketValue_money]）\n\n如果我们接受这份交易订单，则需要派出一支携带相应物资的远行队前往目标地点。\n旅途预估时间：[estimatedTravelTime_duration]。</li>
     <li>qualityInfo(requestedThingHasQuality==True,priority=1)->一般品质以上</li>
     <li>qualityInfo-></li>
   </TradeRequest.questDescriptionRules.rulesStrings>
@@ -26,12 +26,12 @@
     <li>trade->Offer</li>
   -->
   <TradeRequest.questNameRules.rulesStrings>
-    <li>questName->远行队前往[settlement_label]</li>
+    <li>questName->[settlement_label]的交易订单</li>
     <li>questName->与[settlement_label]交易</li>
     <li>questName->向[settlement_label]出售</li>
     <li>questName->补给[settlement_label]</li>
     <li>questName->一场[special][trade]</li>
-    <li>special->特别的</li>
+    <li>special->特殊的</li>
     <li>special->独一无二的</li>
     <li>special->非传统的</li>
     <li>trade->贸易</li>
@@ -46,6 +46,6 @@
   <!-- EN: [asker_faction_royalFavorLabel] -->
   <TradeRequest.LetterLabelFavorReceiver.slateRef>[asker_faction_royalFavorLabel]</TradeRequest.LetterLabelFavorReceiver.slateRef>
   <!-- EN: Who should be credited with [asker_faction_royalFavorLabel] for fulfilling the trade request? -->
-  <TradeRequest.LetterTextFavorReceiver.slateRef>谁应该作为[asker_faction_royalFavorLabel]以完成此次交易任务？</TradeRequest.LetterTextFavorReceiver.slateRef>
+  <TradeRequest.LetterTextFavorReceiver.slateRef>完成交易订单后获得的[asker_faction_royalFavorLabel]应该授予哪名殖民者？</TradeRequest.LetterTextFavorReceiver.slateRef>
   
 </LanguageData>

@@ -53,9 +53,9 @@
   <!-- EN: lung rot -->
   <LungRot.label>肺瘟</LungRot.label>
   <!-- EN: A bacterial disease that targets an individual's lungs. Minor cases are little more than an irritation, but if left unchecked the bacterial growth results in an increasing amount of fluid buildup in the victim's lungs, eventually resulting in death.\n\nIf treated properly, the body's immune system will eventually clear lung rot. -->
-  <LungRot.description>一种针对个人肺部的细菌性疾病。轻微的病例只是一种刺激，但如果不加控制，细菌的生长会导致受害者的肺部积聚越来越多的液体，最终导致死亡。如果治疗得当，身体的免疫系统最终会清除肺瘟。</LungRot.description>
+  <LungRot.description>因长期暴露于腐臭气体中而引起的细菌性肺部疾病。程度较轻时仅会产生发炎症状，但如果不加控制，快速增殖的细菌会使患者肺部积聚越来越多的液体，最终导致死亡。需要定期的护理来预防病情加剧，身体的免疫系统会在数天后完全净除肺瘟。</LungRot.description>
   <!-- EN: A painful bacterial disease caused by exposure to rot stink gas. Upon reaching full saturation, it will kill the affected individual. -->
-  <LungRot.descriptionShort>一种由接触尸瘟腐臭气体引起的痛苦的细菌性疾病。一旦达到完全饱和，它将杀死受影响的个体。</LungRot.descriptionShort>
+  <LungRot.descriptionShort>因长期暴露于腐臭气体中而引起的细菌性肺部疾病。需要定期的护理来预防病情加剧，否则它最终会导致患者死亡。</LungRot.descriptionShort>
   <!-- EN: minor -->
   <LungRot.stages.minor.label>较轻</LungRot.stages.minor.label>
   <!-- EN: major -->
@@ -64,11 +64,11 @@
   <LungRot.stages.extreme.label>极重</LungRot.stages.extreme.label>
   
   <!-- EN: rot stink exposure -->
-  <LungRotExposure.label>尸瘟暴露</LungRotExposure.label>
+  <LungRotExposure.label>腐气暴露</LungRotExposure.label>
   <!-- EN: Long-term exposure to rot stink gas. Rot stink exposure has no direct health effects. However, serious rot stink exposure has a chance to result in a painful bacterial infection known as lung rot. When not exposed to rot stink gas, rot stink exposure will slowly decrease. -->
-  <LungRotExposure.description>长期暴露于尸体腐烂产生的腐臭气体。腐臭气体暴露对健康没有直接影响。然而，严重的腐臭气体暴露会导致痛苦的细菌感染，即肺瘟。当不接触腐臭气体时，尸瘟暴露会慢慢减少。</LungRotExposure.description>
+  <LungRotExposure.description>长期暴露于腐臭气体中。程度较轻时对健康没有直接影响，但严重时会引起痛苦的细菌感染，即肺瘟。当不接触腐臭气体时，腐气暴露效果会慢慢降低。</LungRotExposure.description>
   <!-- EN: {PAWN_nameDef} is beginning to suffer from exposure to rot stink gas. Keep {PAWN_objective} away from rotting corpses and other sources of rot stink. -->
-  <LungRotExposure.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>{PAWN_nameDef}已受到暴露于腐臭气体中的影响。让{PAWN_objective}远离腐烂的尸体和其他腐臭来源。</LungRotExposure.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>
+  <LungRotExposure.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>{PAWN_nameDef}因暴露于腐臭气体中而受到了影响。让{PAWN_objective}远离腐烂的尸体和其他腐臭气体来源。</LungRotExposure.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>
   <!-- EN: minor -->
   <LungRotExposure.stages.minor.label>较轻</LungRotExposure.stages.minor.label>
   <!-- EN: major -->
@@ -132,7 +132,7 @@
   <!-- EN: infection -->
   <WoundInfection.label>感染</WoundInfection.label>
   <!-- EN: Bacterial infection in a wound. Without treatment, the bacteria will multiply, killing local tissue, and eventually causing blood poisoning and death.\n\nThrough aeons of human warfare, infections have often taken more lives than the wounds themselves. -->
-  <WoundInfection.description>因伤口接触到大量细菌所引发的全身性炎症反应。如果患者得不到及时的治疗，细菌就会随时间的推移无限制的繁殖下去，最终导致血液中毒和死亡。在亿万年之间发生过的无数战争之中，杀死生命的往往不是伤口，而是伴随着伤口出现的感染。</WoundInfection.description>
+  <WoundInfection.description>因伤口接触到大量细菌所引发的全身性炎症反应。如果患者得不到及时的治疗，细菌就会随时间的推移无限制的繁殖下去，最终导致血液中毒和死亡。\n\n在亿万年之间发生过的无数战争之中，杀死生命的往往不是伤口，而是伴随着伤口出现的感染。</WoundInfection.description>
   <!-- EN: an infection -->
   <WoundInfection.labelNoun>感染</WoundInfection.labelNoun>
   <!-- EN: minor -->

@@ -5,25 +5,25 @@
   <Util_GenerateSite.root.singleSitePartRules.slateRef>
     <rulesStrings>
       <li>root(priority=1,sitePart==ClimateAdjuster)->一台可以将温度调整[temperatureOffset]的(*Threat)气候调节器(/Threat)</li>
-      <li>root(priority=1,sitePart==PsychicDroner)->一台对[affectedGender]性起效的(*Threat)心灵放射器(/Threat)</li>
-      <li>root(priority=1,sitePart==PsychicSuppressor)->一台对[affectedGender]性起效的(*Threat)心灵抑制器(/Threat)</li>
-      <li>root(priority=1,sitePart==WeatherController)->一台(*Threat)气象仪(/Threat)，会将整个区域的天气改变为[weather_label]</li>
-      <li>root(priority=1,sitePart==SmokeSpewer)->一台(*Threat)不断喷射烟雾的机器(/Threat)</li>
-      <li>root(priority=1,sitePart==SunBlocker)->一台使整个地区笼罩阴影的(*Threat)黑幕产生器(/Threat)</li>
-      <li>root(priority=1,sitePart==EMIDynamo)->一台正在工作的(*Threat)电磁干扰器(/Threat)，会导致这一区域的所有电气设备无法工作</li>
-      <li>root(priority=1,sitePart==ToxicSpewer)->一台(*Threat)空气污染器(/Threat)不断喷射毒气</li>
-      <li>root(priority=1,sitePart==RaidSource)->一块被[enemiesCount]名敌人防守的(*Threat)军事集结区(/Threat)，他们每[mtbDays]就会对你发起袭击</li>
-      <li>root(priority=1,sitePart==Outpost)->一个被[enemiesCount]名敌人防守的(*Threat)哨站(/Threat)</li>
-      <li>root(priority=1,sitePart==BanditCamp)->一个被[enemiesCount]名敌人防守的(*Threat)土匪营地(/Threat)</li>
-      <li>root(priority=1,sitePart==Manhunters,count==1)->一只(*Threat)猎杀人类的[kindLabel](/Threat)正在附近游荡</li>
-      <li>root(priority=1,sitePart==Manhunters,count>1)->[count]只(*Threat)猎杀人类的[kindLabel](/Threat)正在附近游荡</li>
-      <li>root(priority=1,sitePart==SleepingMechanoids,count==1)->一台(*Threat)正在休眠的机械体(/Threat)</li>
-      <li>root(priority=1,sitePart==SleepingMechanoids,count>1)->(*Threat)[count]台正在休眠的机械体(/Threat)</li>
-      <li>root(priority=1,sitePart==Turrets)->(*Threat)[threatsInfo](/Threat)防守这个地点</li>
-      <li>root(priority=1,sitePart==AmbushEdge)->(*Threat)一支敌军(/Threat)正等着伏击任何靠近的人</li>
-      <li>root(priority=1,sitePart==AmbushHidden)->(*Threat)一支敌军(/Threat)正等着伏击任何靠近的人</li>
+      <li>root(priority=1,sitePart==PsychicDroner)->一台仅对[affectedGender]性起效的(*Threat)心灵放射器(/Threat)</li>
+      <li>root(priority=1,sitePart==PsychicSuppressor)->一台仅对[affectedGender]性起效的(*Threat)心灵抑制器(/Threat)</li>
+      <li>root(priority=1,sitePart==WeatherController)->一台会将整个区域的天气改变为[weather_label]的(*Threat)气象仪(/Threat)</li>
+      <li>root(priority=1,sitePart==SmokeSpewer)->一台会持续喷射大量烟雾的(*Threat)烟雾产生器(/Threat)</li>
+      <li>root(priority=1,sitePart==SunBlocker)->一台会使整个区域陷入黑暗的(*Threat)黑幕产生器(/Threat)</li>
+      <li>root(priority=1,sitePart==EMIDynamo)->一台会瘫痪整个区域的电力设备的(*Threat)电磁干扰器(/Threat)</li>
+      <li>root(priority=1,sitePart==ToxicSpewer)->一台会持续释放大量毒雾的(*Threat)空气污染器(/Threat)</li>
+      <li>root(priority=1,sitePart==RaidSource)->(*Threat)一块被[enemiesCount]名敌人防守的军事集结区(/Threat)，他们每[mtbDays]就会对你发起袭击</li>
+      <li>root(priority=1,sitePart==Outpost)->(*Threat)一个被[enemiesCount]名敌人防守的哨站(/Threat)</li>
+      <li>root(priority=1,sitePart==BanditCamp)->(*Threat)匪徒营地(/Threat)内共有[enemiesCount]名敌人</li>
+      <li>root(priority=1,sitePart==Manhunters,count==1)->(*Threat)1只猎杀人类的[kindLabel](/Threat)</li>
+      <li>root(priority=1,sitePart==Manhunters,count>1)->(*Threat)[count]只猎杀人类的[kindLabel](/Threat)</li>
+      <li>root(priority=1,sitePart==SleepingMechanoids,count==1)->(*Threat)1台处于休眠状态的机械体(/Threat)</li>
+      <li>root(priority=1,sitePart==SleepingMechanoids,count>1)->(*Threat)[count]台处于休眠状态的机械体(/Threat)</li>
+      <li>root(priority=1,sitePart==Turrets)->(*Threat)一支由[threatsInfo]组成的守卫队(/Threat)</li>
+      <li>root(priority=1,sitePart==AmbushEdge)->(*Threat)一支埋伏起来的敌军(/Threat)</li>
+      <li>root(priority=1,sitePart==AmbushHidden)->(*Threat)一支埋伏起来的敌军(/Threat)</li>
       <li>root(priority=1,sitePart==MechCluster)->(*Threat)一个机械集群(/Threat)</li>
-      <li>root(priority=1,sitePart==PossibleUnknownThreatMarker)->可能有(*Threat)未知的威胁(/Threat)</li>
+      <li>root(priority=1,sitePart==PossibleUnknownThreatMarker)->(*Threat)未知的威胁(/Threat)</li>
       <li>root->有个[label]</li>
     </rulesStrings>
   </Util_GenerateSite.root.singleSitePartRules.slateRef>
@@ -32,7 +32,7 @@
     <li>threatDescription->a mech cluster will land at [map_definite] containing:\n\n[allThreats]</li>
   -->
   <Util_MechCluster.questDescriptionRules.rulesStrings>
-    <li>threatDescription->一个机械集群将会空降至 [map_definite] 其中包括：\n\n[allThreats]</li>
+    <li>threatDescription->一个机械集群将会空降至[map_definite]。其中包括：\n\n[allThreats]</li>
   </Util_MechCluster.questDescriptionRules.rulesStrings>
   
   <!-- EN:

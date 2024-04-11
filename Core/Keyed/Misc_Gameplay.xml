@@ -79,7 +79,7 @@
   <!-- EN: illegal -->
   <Illegal>非法</Illegal>
   <!-- EN: detection chance -->
-  <DetectionChance>检测概率</DetectionChance>
+  <DetectionChance>检测几率</DetectionChance>
   <!-- EN: Race -->
   <Race>种族</Race>
   <!-- EN: Description -->
@@ -205,7 +205,7 @@
   <!-- EN: Days of food: {0} -->
   <CaravanDaysOfFood>给养天数: {0}</CaravanDaysOfFood>
   <!-- EN: Days of food: {0} (rot in {1} days) -->
-  <CaravanDaysOfFoodRot>给养天数: {0}（{1}天后变质）</CaravanDaysOfFoodRot>
+  <CaravanDaysOfFoodRot>给养天数: {0}（{1}天后腐烂）</CaravanDaysOfFoodRot>
   <!-- EN: Stopped because: Everyone is downed. -->
   <AllCaravanMembersDowned>停止原因: 全员无行动能力。</AllCaravanMembersDowned>
   <!-- EN: Stopped because: Everyone is in a mental break. -->
@@ -261,7 +261,7 @@
   <!-- EN: unroofed -->
   <DeterioratingUnroofed>露天</DeterioratingUnroofed>
   <!-- EN: outdoors -->
-  <DeterioratingOutdoors>户外</DeterioratingOutdoors>
+  <DeterioratingOutdoors>室外</DeterioratingOutdoors>
   <!-- EN: raining -->
   <DeterioratingRaining>雨中</DeterioratingRaining> 
   <!-- EN: protected -->
@@ -275,7 +275,7 @@
   <!-- EN: {0} until enemies arrive -->
   <CaravanDetectedRaidCountdown>{0}直到敌人到达</CaravanDetectedRaidCountdown>
   <!-- EN: Enemy reinforcements will arrive in this area in {0}. -->
-  <CaravanDetectedRaidCountdownTip>敌军增援部队将在{0}内到达本区域</CaravanDetectedRaidCountdownTip>
+  <CaravanDetectedRaidCountdownTip>敌军增援部队将在{0}后到达本区域。</CaravanDetectedRaidCountdownTip>
   <!-- EN: Room -->
   <Room>房间</Room>
   <!-- EN: Beauty here -->
@@ -445,7 +445,7 @@
   <!-- EN: Required -->
   <Required>必需</Required>
   <!-- EN: Warning: You cannot complete trade requests by using transport pods.\nIf you send the goods, the settlement will accept them as gifts but they will not reward you.\n\nFor trading, approach the settlement with a caravan!\n\nAre you sure you want to gift the loaded goods to the faction? -->
-  <GiveGiftViaTransportPodsTradeRequestWarning>警告：你无法使用空投舱完成交易请求。\n如果发射这批货物，目标基地会将其作为礼物而非交易品接收\n\n如果你希望交易，请以远行队形式访问目标基地！\n\n你确定要将装好的礼物送给目标派系吗？</GiveGiftViaTransportPodsTradeRequestWarning>
+  <GiveGiftViaTransportPodsTradeRequestWarning>警告：你无法使用运输舱完成交易请求。\n如果发射这批货物，目标定居点会将其作为礼物而非交易品接收。\n\n如果你希望交易，请以远行队形式访问目标定居点！\n\n你确定要将装好的礼物送给目标派系吗？</GiveGiftViaTransportPodsTradeRequestWarning>
   <!-- EN: prisoner -->
   <PrisonerLower>囚犯</PrisonerLower>
   <!-- EN: prisoners -->
@@ -483,13 +483,13 @@
   <!-- EN: {0} killed -->
   <PawnsKilled>{0}被杀</PawnsKilled>
   <!-- EN: Sent {0}, will return in {1} -->
-  <PawnsLent>发送{0}，于{1}返回</PawnsLent>
+  <PawnsLent>已借出{0}，将于{1}后返回。</PawnsLent>
   <!-- EN: Dormant -->
   <DormantCompInactive>休眠</DormantCompInactive>
   <!-- EN: Sealed -->
   <DormantCompSealed>密封</DormantCompSealed>
   <!-- EN: Ready to drop mechanoids -->
-  <DormantCompBeacon>准备投放机械族</DormantCompBeacon>
+  <DormantCompBeacon>准备投放机械体</DormantCompBeacon>
   <!-- EN: Expired -->
   <DormantCompExpired>已过期</DormantCompExpired>
   <!-- EN: Initiates in -->
@@ -547,7 +547,7 @@
   <!-- EN: Food -->
   <ThoughtFoodEatenFood>食物</ThoughtFoodEatenFood>
   <!-- EN: Ingredients -->
-  <ThoughtFoodEatenIngredients>成分</ThoughtFoodEatenIngredients>
+  <ThoughtFoodEatenIngredients>原料</ThoughtFoodEatenIngredients>
   <!-- EN: Shield pack -->
   <ShieldInbuilt>护盾背包</ShieldInbuilt>
   <!-- EN: Punctured - will explode soon. -->
@@ -565,7 +565,7 @@
   <!-- EN: cost -->
   <Cost>成本</Cost>
   <!-- EN: Stunned by EMP -->
-  <StunnedByEMP>被电磁脉冲击昏</StunnedByEMP>
+  <StunnedByEMP>被EMP击晕</StunnedByEMP>
   <!-- EN: Title -->
   <BackstoryTitle>称谓</BackstoryTitle>
   <!-- EN: person -->
@@ -600,6 +600,12 @@
   <CannotUseGizmoMouse>不能使用</CannotUseGizmoMouse>
   <!-- EN: Buildings -->
   <Buildings>建筑</Buildings>
+  <!-- EN: not yet discovered -->
+  <NotYetDiscovered>尚未发现</NotYetDiscovered> <!-- text_todo -->
+  <!-- EN: Crawling to safety. -->
+  <ReportStringCrawlingToSafety>爬向安全地带。</ReportStringCrawlingToSafety> <!-- text_todo -->
+  <!-- EN: Crawling to bed. -->
+  <ReportStringCrawlingToBed>爬向床铺。</ReportStringCrawlingToBed> <!-- text_todo -->
   
   <!-- Scanning -->
   <!-- EN: User scanning speed -->
@@ -651,7 +657,7 @@
   <!-- EN: Trained: {0}\n{1} chance -->
   <TextMote_TrainSuccess>训练成功: {0}\n{1}几率</TextMote_TrainSuccess>
   <!-- EN: Repair\nbotched -->
-  <TextMote_FixBrokenDownBuildingFail>修复失败</TextMote_FixBrokenDownBuildingFail>
+  <TextMote_FixBrokenDownBuildingFail>维修失败</TextMote_FixBrokenDownBuildingFail>
   <!-- EN: Construction\nbotched -->
   <TextMote_ConstructionFail>建造失败</TextMote_ConstructionFail>
   <!-- EN: Dodge -->
@@ -888,9 +894,9 @@
   <!-- EN: inside {0_labelShort}. -->
   <InContainer>在{0_labelShort}里。</InContainer> 
   <!-- EN: downed, cannot crawl. -->
-  <DownedCannotCrawl>倒下，爬不动。</DownedCannotCrawl> 
+  <DownedCannotCrawl>倒地不起（无法爬行）。</DownedCannotCrawl> 
   <!-- EN: downed, unconscious. -->
-  <DownedUnconscious>倒下，无意识。</DownedUnconscious> 
+  <DownedUnconscious>倒地不起（失去意识）。</DownedUnconscious> 
 
   <!-- Lord job reports -->
   <!-- EN: Attending marriage ceremony -->
@@ -1006,7 +1012,7 @@
   <!-- EN: State -->
   <State>状态</State>
   <!-- EN: stun -->
-  <StunLower>击昏</StunLower>
+  <StunLower>击晕</StunLower>
   <!-- EN: Slowed by damage -->
   <SlowedByDamage>因受伤减速</SlowedByDamage>
 
@@ -1092,9 +1098,9 @@
 
   <!-- Meal -->
   <!-- EN: Ingredients -->
-  <Ingredients>食材</Ingredients>
+  <Ingredients>原料</Ingredients>
   <!-- EN: The ingredients used to make this meal. -->
-  <IngredientsDesc>用于制作此餐品的食材。</IngredientsDesc>
+  <IngredientsDesc>制作这种食物所需的原料。</IngredientsDesc>
   <!-- EN: Dietary type -->
   <DietaryType>食物类型</DietaryType>
   <!-- EN: The type of meal produced. Some people have preferences for specific types of meals. -->
@@ -1190,11 +1196,11 @@
   
   <!-- Animal management -->
   <!-- EN: Are you sure you want to sterilize {PAWN_nameDef}? Doing this will anger {FACTION_name}. -->
-  <AnimalSterilizeConfirm>你确定要绝育{PAWN_nameDef}吗?这样做会激怒{FACTION_name}。</AnimalSterilizeConfirm>
+  <AnimalSterilizeConfirm>你确定要绝育{PAWN_nameDef}吗？这样做会激怒{FACTION_name}。</AnimalSterilizeConfirm>
   <!-- EN: Are you sure you want to slaughter {PAWN_nameDef}? Doing this will anger {FACTION_name}. -->
-  <AnimalSlaughterConfirm>你确定要屠宰{PAWN_nameDef}吗?这样做会激怒{FACTION_name}。</AnimalSlaughterConfirm>
+  <AnimalSlaughterConfirm>你确定要屠宰{PAWN_nameDef}吗？这样做会激怒{FACTION_name}。</AnimalSlaughterConfirm>
   <!-- EN: Are you sure you want to release {PAWN_nameDef}? Doing this will anger {FACTION_name}. -->
-  <AnimalReleaseConfirm>你确定要释放{PAWN_nameDef}吗?这样做会激怒{FACTION_name}。</AnimalReleaseConfirm>
+  <AnimalReleaseConfirm>你确定要释放{PAWN_nameDef}吗？这样做会激怒{FACTION_name}。</AnimalReleaseConfirm>
 
   <!-- Buttons -->
   <!-- EN: Toggle visibility of the learning helper when it is empty.\n\nThe learning helper is always visible if there is a concept activated to be learned. This toggle makes it disappear when no concept is active. -->
@@ -1210,11 +1216,11 @@
   <!-- EN: Toggle colonist bar.\n\nDisplays icons and basic status for all colonists along the top of the screen.\n\nYou can reorder the colonists in the colonist bar by pressing the left trigger button and dragging them. -->
   <ShowColonistBarToggleButtonController>开关殖民者头像条显示。\n\n开启后，在屏幕上方显示所有殖民者的头像和当前状态。\n\n你可以对殖民者头像按住左扳机键并拖动来重新排列他们。</ShowColonistBarToggleButtonController>
   <!-- EN: Toggle automatically expanding the home area around new constructions. -->
-  <AutoHomeAreaToggleButton>开关自动添加居住区\n\n开启后，将自动在新建造的建筑附近添加居住区。</AutoHomeAreaToggleButton>
+  <AutoHomeAreaToggleButton>开关自动添加居住区。\n\n开启后，将自动在新建造的建筑附近添加居住区。</AutoHomeAreaToggleButton>
   <!-- EN: Toggle automatic rebuild of destroyed structures in the home area. -->
   <AutoRebuildButton>开关自动重建被毁建筑。</AutoRebuildButton>
   <!-- EN: Toggle categorized mode on the resource readout. -->
-  <CategorizedResourceReadoutToggleButton>开关资源分类显示\n\n开启后，将资源显示按照其所属类型分类显示。</CategorizedResourceReadoutToggleButton>
+  <CategorizedResourceReadoutToggleButton>开关资源分类显示。\n\n开启后，将资源显示按照其所属类型分类显示。</CategorizedResourceReadoutToggleButton>
   <!-- EN: Toggle displaying animal names for tame named animals. -->
   <ShowAnimalNamesToggleButton>开关已驯服动物名称显示。</ShowAnimalNamesToggleButton>
   <!-- EN: Toggle visibility of roofs. -->
@@ -1612,14 +1618,14 @@
 
   <!-- Rewards -->
   <!-- EN: a {0_age}-year-old {0_title} named {0_nameDef} will arrive in a transport pod {0_relationInfoInParentheses} -->
-  <Reward_Pawn_DropPod>一个名为{0_nameDef}的{0_age}岁的{0_titleIndef}将乘坐空投舱到达{0_relationInfoInParentheses}</Reward_Pawn_DropPod>
+  <Reward_Pawn_DropPod>一个名为{0_nameDef}的{0_age}岁的{0_titleIndef}将乘坐运输舱到达{0_relationInfoInParentheses}</Reward_Pawn_DropPod>
   <!-- EN: a {0_age}-year-old {0_title} named {0_nameDef} will arrive and join you {0_relationInfoInParentheses} -->
   <Reward_Pawn_WalkIn>一个名为{0_nameDef}的{0_age}岁的{0_titleIndef}将到达并加入{0_relationInfoInParentheses}</Reward_Pawn_WalkIn>
   <!-- EN: a {0_age}-year-old {0_title} named {0_nameDef} will join you {0_relationInfoInParentheses} -->
   <Reward_Pawn_Caravan>一个名为{0_nameDef}的{0_age}岁的{0_titleIndef}将加入{0_relationInfoInParentheses}</Reward_Pawn_Caravan>
   <!-- EN: transport pods with the following resources will arrive (total value {1}):
 \n{0} -->
-  <Reward_Items>装有以下资源的空投舱将送达（总价值 {1}）：\n\n{0}</Reward_Items>
+  <Reward_Items>装有以下资源的运输舱将送达（总价值 {1}）：\n\n{0}</Reward_Items>
   <!-- EN: you will receive (total value {1}):
 \n{0} -->
   <Reward_Items_Caravan>你将收到（总价值 {1}）：\n\n{0}</Reward_Items_Caravan>
@@ -1951,7 +1957,7 @@
   <!-- EN: learning speed -->
   <BookLearningModifier>学习速度</BookLearningModifier>
   <!-- EN: Mental break chance -->
-  <BookMentalBreak>精神崩溃概率</BookMentalBreak>
+  <BookMentalBreak>精神崩溃几率</BookMentalBreak>
   
   <!-- EN: {BOOK_labelShort} is not readable -->
   <BookNotReadable>{BOOK_labelShort}不可阅读</BookNotReadable>
@@ -2002,7 +2008,7 @@
   <Emergence>出现</Emergence>
   
   <!-- EN: remove {0} -->
-  <RemovePart>删除{0}</RemovePart>
+  <RemovePart>移除{0}</RemovePart>
 
   <!-- EN: {GERUND} {TARGETLABEL} at -->
   <DoWorkAtThing>{GERUND} {TARGETLABEL}在</DoWorkAtThing>

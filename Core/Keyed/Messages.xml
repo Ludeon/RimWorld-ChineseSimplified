@@ -13,6 +13,9 @@
   <!-- EN: {0} from {1} have decided to steal what they can and leave. -->
   <MessageRaidersStealing>来自{1}的{0}准备带走他们能带走的战利品并离开。</MessageRaidersStealing>
 
+  <!-- EN: The mechanoids sense no more targets and are moving on. -->
+  <MechanoidsMovingOn>机械体</MechanoidsMovingOn> <!-- text_todo -->
+
   <!-- EN: {0} from {1} have arrived and are attacking! More are on the way and will arrive in {2}. -->
   <MessageCaravanDetectedRaidArrived>来自{1}的{0}已抵达并正在攻击。更多的袭击将在{2}抵达。</MessageCaravanDetectedRaidArrived>
 
@@ -158,7 +161,7 @@
   <!-- EN: There are no animal beds available. -->
   <MessageNoAnimalBeds>没有可用的动物睡眠点或床铺。</MessageNoAnimalBeds>
   <!-- EN: Warning: {PAWN_nameDef}'s medicine restriction ({RESTRICTIONLABEL}) prevents doing this operation. Consider changing {PAWN_possessive} medicine restriction. -->
-  <MessageWarningNoMedicineForRestriction>警告：{PAWN_nameDef}的用药方针({RESTRICTIONLABEL})无法进行此操作。考虑改变{PAWN_possessive}用药方针。</MessageWarningNoMedicineForRestriction>
+  <MessageWarningNoMedicineForRestriction>警告：{PAWN_nameDef}的用药方案（{RESTRICTIONLABEL}）无法进行此操作。考虑改变{PAWN_possessive}用药方案。</MessageWarningNoMedicineForRestriction>
   
   <!-- EN: {PAWN_labelShort} has died. Cause: {1}. -->
   <PawnDiedBecauseOf>{PAWN_labelShort}已死亡。原因：{1}。</PawnDiedBecauseOf>
@@ -409,7 +412,7 @@
   <!-- EN: Remaining mechanoids to assemble -->
   <MessageMechanoidsLeftToAssemble>剩余待装配的机械体</MessageMechanoidsLeftToAssemble>
   <!-- EN: Mech drop beacon has summoned reinforcements in drop pods nearby. -->
-  <MessageMechanoidsReinforcementsDrop>机械族信标召唤了一批增援部队在附近区域降落。</MessageMechanoidsReinforcementsDrop>
+  <MessageMechanoidsReinforcementsDrop>机械体信标召唤了一批增援部队在附近区域降落。</MessageMechanoidsReinforcementsDrop>
 
   <!-- EN: To self-tend, {1_labelShort} must also be assigned to Doctor work. -->
   <MessageSelfTendUnsatisfied>{1_labelShort}还必须被指派「医生」工作才能自我治疗。</MessageSelfTendUnsatisfied>
@@ -739,6 +742,8 @@
   <MessageRitualRoleMustBeCapableOfWardening>{0_labelShort}必须具有监护能力。</MessageRitualRoleMustBeCapableOfWardening>
   <!-- EN: {0} must be capable of {1}. -->
   <MessageRitualRoleMustBeCapableOfGeneric>{0}必须具有{1}能力。</MessageRitualRoleMustBeCapableOfGeneric>
+  <!-- EN: {0} must be capable of violence. -->
+  <MessageRitualRoleMustBeCapableOfViolence>{0}必须具有暴力能力。</MessageRitualRoleMustBeCapableOfViolence><!-- text_todo -->
   <!-- EN: prisoners cannot {0}. -->
   <MessageRitualRoleMustNotBePrisonerToSpectate>囚犯不能{0}。</MessageRitualRoleMustNotBePrisonerToSpectate>
   <!-- EN: only {0} can {1}. -->

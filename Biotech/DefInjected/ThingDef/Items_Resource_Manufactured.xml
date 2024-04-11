@@ -14,7 +14,7 @@
   <!-- EN: nano structuring chip -->
   <NanostructuringChip.label>纳米结构芯片</NanostructuringChip.label>
   <!-- EN: A molecular-restructing mechanoid micro-organ. It is necessary to produce certain advanced mechanoids and equipment.\n\nA mechanitor can study this chip to help unlock higher tiers of mechtech research. -->
-  <NanostructuringChip.description>一种用于生产某些先进的装备和机械族的微型纳米重构机械部件。\n\n机械师可以通过调查这种芯片以解锁更高层次的机械研究项目。</NanostructuringChip.description>
+  <NanostructuringChip.description>一种用于生产某些先进的装备和机械体的微型纳米重构机械部件。\n\n机械师可以通过调查这种芯片以解锁更高层次的机械研究项目。</NanostructuringChip.description>
 
   <!-- EN: Analyze the nano structuring chip. -->
   <NanostructuringChip.comps.CompAnalyzableUnlockResearch.activateDescString>解析纳米结构芯片。</NanostructuringChip.comps.CompAnalyzableUnlockResearch.activateDescString>
@@ -39,7 +39,7 @@
   <!-- EN: powerfocus chip -->
   <PowerfocusChip.label>能量汇聚芯片</PowerfocusChip.label>
   <!-- EN: An energy-focusing mechanoid micro-organ. It is necessary to produce certain advanced types of mechanoids and equipment.\n\nA mechanitor can study this chip to help unlock higher tiers of mechtech research. -->
-  <PowerfocusChip.description>一种用于生产某些先进的装备和机械族的微型能量汇聚机械部件。\n\n机械师可以通过调查这种芯片以解锁更高层次的机械研究项目。</PowerfocusChip.description>
+  <PowerfocusChip.description>一种用于生产某些先进的装备和机械体的微型能量汇聚机械部件。\n\n机械师可以通过调查这种芯片以解锁更高层次的机械研究项目。</PowerfocusChip.description>
 
   <!-- EN: Analyze the powerfocus chip. -->
   <PowerfocusChip.comps.CompAnalyzableUnlockResearch.activateDescString>解析能量汇聚芯片。</PowerfocusChip.comps.CompAnalyzableUnlockResearch.activateDescString>
@@ -64,7 +64,7 @@
   <!-- EN: tox shell -->
   <Shell_Toxic.label>毒气弹</Shell_Toxic.label>
   <!-- EN: An artillery shell containing reagents that, when combined, generate deadly tox gas. When fired, it will stick into the ground and release tox gas for some time before expiring.\n\nTox gas burns the lungs and eyes, causing a temporary shortness of breath and reduction in sight. Continued exposure to tox gas results in toxic buildup that can be lethal. -->
-  <Shell_Toxic.description>一种装有化学试剂的炮弹。装在其中的化学试剂经过混合后便可产生致命的毒气。炮弹被发射后，会插入地面一段时间并持续释放毒气。\n\n毒气会灼伤生物的眼睛与肺部，使视觉与呼吸能力暂时降低。持续暴露在毒气里还会引起中毒。</Shell_Toxic.description>
+  <Shell_Toxic.description>装填了化学试剂的炮弹。这种化学试剂经过混合后可产生致命的毒气。炮弹发射后，会插入地面一段时间并持续释放毒气。\n\n毒气会灼伤生物的眼睛与肺部，使视觉与呼吸能力暂时降低。持续暴露在毒气里还会引起中毒。</Shell_Toxic.description>
   
   <!-- EN: tox shell -->
   <Shell_Toxic_Releasing.label>毒气弹</Shell_Toxic_Releasing.label>
@@ -75,12 +75,12 @@
   <!-- EN: signal chip -->
   <SignalChip.label>同步信号芯片</SignalChip.label>
   <!-- EN: A mechanoid-band synchronization micro-organ. It is necessary to produce certain advanced types of mechanoids and equipment.\n\nA mechanitor can study this chip to help unlock higher tiers of mechtech research. -->
-  <SignalChip.description>一种用于生产某些先进的装备和机械族的微型同步信号处理机械部件。\n\n机械师可以通过调查这种芯片以解锁更高层次的机械研究项目。</SignalChip.description>
+  <SignalChip.description>一种用于生产某些先进的装备和机械体的微型同步信号处理机械部件。\n\n机械师可以通过调查这种芯片以解锁更高层次的机械研究项目。</SignalChip.description>
 
   <!-- EN: Analyze the signal chip. -->
   <SignalChip.comps.CompAnalyzableUnlockResearch.activateDescString>解析同步信号芯片。</SignalChip.comps.CompAnalyzableUnlockResearch.activateDescString>
   <!-- EN: Analyze... -->
-  <SignalChip.comps.CompAnalyzableUnlockResearch.activateLabelString>解析中……</SignalChip.comps.CompAnalyzableUnlockResearch.activateLabelString>
+  <SignalChip.comps.CompAnalyzableUnlockResearch.activateLabelString>解析中...</SignalChip.comps.CompAnalyzableUnlockResearch.activateLabelString>
   <!-- EN: By studying the signal chip, {PAWN_labelShort} has acquired the insight needed for the research project(s) {RESEARCH}.\n\nYour researchers can now use research benches to begin researching how to actually use the technology. -->
   <SignalChip.comps.CompAnalyzableUnlockResearch.completedLetter>通过解析{PARENT_label}，{STUDIER_labelShort}获得了研究{research}所必要的知识。\n\n你的研究人员现在可以使用研究工作台开始研究如何实际使用这项技术。</SignalChip.comps.CompAnalyzableUnlockResearch.completedLetter>
   <!-- EN: Signal chip studied: {RESEARCH} unlocked -->
@@ -98,19 +98,19 @@
   <SignalChip.comps.CompStudiable.completedLetterTitle>{PARENT_label}通过调查解锁了：{RESEARCH}。</SignalChip.comps.CompStudiable.completedLetterTitle>
   
   <!-- EN: basic subcore -->
-  <SubcoreBasic.label>次生核心(基础)</SubcoreBasic.label>
+  <SubcoreBasic.label>次生核心（基础）</SubcoreBasic.label>
   <!-- EN: The simplest possible mechanoid brain, this is a tiny psychodynamic substrate unit housing a dull subpersona. Since this is only a basic-tier subcore, it can only drive the simplest of mechanoids.\n\nLike all mechanoid subcores, it contains a subpersona with a psychic presence, albeit a very faint one. -->
-  <SubcoreBasic.description>最简单的机械体仿生大脑，这是一个具备心理动力的微型基底单元，承载着一个迟钝的次级人格。既然这只是最基本的次级核心，它只能驱动最简单的机械体。\n\n就像所有机械体次级核心一样，它承载着一个拥有心灵存在的次级人格，尽管其中的心灵存在是相当模糊的。</SubcoreBasic.description>
+  <SubcoreBasic.description>最简单的机械体仿生大脑，这是一个具备心理动力的微型基底单元，承载着一个迟钝的次级人格。既然这只是最基本的次生核心，它只能驱动最简单的机械体。\n\n就像所有机械体次生核心一样，它承载着一个拥有心灵存在的次级人格，尽管其中的心灵存在是相当模糊的。</SubcoreBasic.description>
   
   <!-- EN: high subcore -->
-  <SubcoreHigh.label>次生核心(高级)</SubcoreHigh.label>
+  <SubcoreHigh.label>次生核心（高级）</SubcoreHigh.label>
   <!-- EN: A high-tier mechanoid brain, this is a psychodynamic substrate unit which supports a sophisticated subpersona. This particular subcore is of the strongest tier, and can power complex ultra-heavy mechanoids.\n\nThe subpersona inside this core approaches a live human in its complexity, though it is of a very different nature. Like any such mind, it has a noticeable psychic presence.\n\nThis subcore could only have been produced by rich pattern transfer from another sophisticated mind. The only way to do this without huge facilities is to ripscan a living person's brain, killing them in the process. -->
-  <SubcoreHigh.description>一个高规格的机械体仿生大脑，这是一个具备心理动力的基底单元，支持着一个精密的次级人格。这种次级核心作为最强大的一阶能够驱动复杂的超重型机械体。\n\n在复杂度上，这个核心内部的次级人格已经接近人脑，尽管两者的工作原理截然不同。就像任何如此复杂的意识一样，它拥有显著的心灵存在。\n\n这类次级核心只能通过对另一个同等精密的意识体进行完备性脑模式转印得到。没有巨大的基础设施支持下，唯一一种得到此类核心的方式是破坏性扫描一个活人的大脑，并在过程中杀死被扫描者。</SubcoreHigh.description>
+  <SubcoreHigh.description>一个高级别的机械体仿生大脑，这是一个具备心理动力的基底单元，支持着一个精密的次级人格。这种次生核心作为最强大的一阶能够驱动复杂的超重型机械体。\n\n在复杂度上，这个核心内部的次级人格已经接近人脑，尽管两者的工作原理截然不同。就像任何如此复杂的意识一样，它拥有显著的心灵存在。\n\n这类次生核心只能通过对另一个同等精密的意识体进行完备性脑模式转印得到。没有巨大的基础设施支持下，唯一一种得到此类核心的方式是破坏性扫描一个活人的大脑，并在过程中杀死被扫描者。</SubcoreHigh.description>
   
   <!-- EN: standard subcore -->
-  <SubcoreRegular.label>次生核心(标准)</SubcoreRegular.label>
+  <SubcoreRegular.label>次生核心（标准）</SubcoreRegular.label>
   <!-- EN: A standard-tier mechanoid brain, this is a psychodynamic substrate unit supporting a thinking subpersona. This particular subcore is strong enough to drive standard-tier mechanoids.\n\nMechanoids are more than robots, and this is more than a silicon computer. Its thinking, psychically-present subpersona makes it more adaptable than silicon systems. However, this also means it can only be produced by analog pattern transfer from another thinking mind. -->
-  <SubcoreRegular.description>一个标准等级的机械体仿生大脑，这是一个具备心理动力的基底单元，支持着一个足以思考的次级人格。这类次级核心足够驱动标准等级的机械体。\n\n机械体不只是简单的机器，这种核心也不只是一个硅处理器。它的思考能力和心灵存在使其比任何硅基系统更具适应性。然而，这也意味着它只能够通过模拟性脑模式转印从另一个思考的意识得来。</SubcoreRegular.description>
+  <SubcoreRegular.description>一个标准级别的机械体仿生大脑，这是一个具备心理动力的基底单元，支持着一个足以思考的次级人格。这类次生核心足够驱动标准等级的机械体。\n\n机械体不只是简单的机器，这种核心也不只是一个硅处理器。它的思考能力和心灵存在使其比任何硅基系统更具适应性。然而，这也意味着它只能够通过模拟性脑模式转印从另一个思考的意识得来。</SubcoreRegular.description>
   
   <!-- EN: toxic wastepack -->
   <Wastepack.label>有毒垃圾</Wastepack.label>

@@ -4,12 +4,12 @@
   <!-- EN: persona core -->
   <AIPersonaCore.label>人格核心</AIPersonaCore.label>
   <!-- EN: A hyper-advanced computer core that houses a peak-human-equivalent machine persona. In its isolated state, the core is dormant. Installed in a proper support structure, however, it can become a mind of great power. -->
-  <AIPersonaCore.description>一个极先进的计算机核心，装载有类似于超人一般的人工智能。目前处于未连接的休眠状态。一但装在合适的飞船结构梁上，它将变成有着惊人能力的大脑。</AIPersonaCore.description>
+  <AIPersonaCore.description>一个极先进的计算机核心，装载有类似于超人一般的人工智能。目前处于未连接的休眠状态。一但装在合适的飞船结构梁上，它将变成有着惊人能力的主脑。</AIPersonaCore.description>
   
   <!-- EN: elephant tusk -->
   <ElephantTusk.label>象牙</ElephantTusk.label>
   <!-- EN: An elephant's tusk. It is very durable and valuable. While somewhat unwieldy as a melee weapon, it can still be deadly. -->
-  <ElephantTusk.description>大象的长牙。非常坚固、珍贵。虽然致命但很难作为武器使用。</ElephantTusk.description>
+  <ElephantTusk.description>大象的长牙。非常坚固、珍贵。虽然致命，但很难作为武器使用。</ElephantTusk.description>
   <!-- EN: point -->
   <ElephantTusk.tools.point.label>尖头</ElephantTusk.tools.point.label>
   <!-- EN: base -->
@@ -18,21 +18,21 @@
   <!-- EN: healer mech serum -->
   <MechSerumHealer.label>治愈机械液</MechSerumHealer.label>
   <!-- EN: A one-use super-dose of mechanites tuned to heal health conditions. The mechanites will target and heal the single worst health condition affecting someone at any given time. Works even on health conditions that would otherwise be incurable. The mechanites can even transmute themselves into organic matter, forming new limbs or organs as needed. -->
-  <MechSerumHealer.description>调整为治疗健康状况的一次性超级药剂纳米机器人。纳米机器人会在任何给定时间定位并治愈一种最严重的健康状况。只对健康状况有效。纳米机器人甚至可以将自身转换为有机物，组成所需的新的肢体或器官。</MechSerumHealer.description>
+  <MechSerumHealer.description>调整为治疗负面健康状态用途的一次性超剂量纳米机械。对伤患使用后，纳米机械会立即定位并治愈一种最严重的负面健康状况（伤口、疾病等）。纳米机械甚至可以将自身转换为有机物，组成并修复已缺失的肢体或器官。</MechSerumHealer.description>
   <!-- EN: Use {0_label} -->
   <MechSerumHealer.comps.CompUsable.useLabel>使用{0_label}</MechSerumHealer.comps.CompUsable.useLabel>
   
   <!-- EN: resurrector mech serum -->
   <MechSerumResurrector.label>复活机械液</MechSerumResurrector.label>
   <!-- EN: A one-use super-dose of mechanites tuned to resurrect the dead. Administered to a corpse, mechanites repair broken-down tissues and kickstart the body back to life. Unfortunately, the resurrected sometimes come back with brain damage, blindness, or progressive psychosis. Outcomes are better when the mechanites are administered to a fresher body. If a body is preserved, it can even be resurrected long after death.\n\nThe resurrected also experience limited retrograde amnesia, forgetting some recent memories and social interactions. -->
-  <MechSerumResurrector.description>调整为复活死者的一次性超级药剂纳米机器人。在死亡后快速施用于尸体，纳米机器人会修复破碎的组织并为身体部件的活化提供最初的动力。不幸的是，复活的人有时候会出现脑损伤、失明或者进行性精神疾病。当机械液作用于新鲜的尸体时效果会更好。保存完好的尸体就算在死后很长时间也能复活。\n\n复活的人还会经历有限的逆行性失忆，忘记一些最近的记忆和社交关系。</MechSerumResurrector.description>
+  <MechSerumResurrector.description>调整为复活死者用途的一次性超剂量纳米机械。对尸体使用后，纳米机械会修复失活的组织，为身体重新赋予活力。不幸的是，复活的人有时候会出现脑损伤、失明或者进行性精神疾病。机械液对新鲜的尸体使用效果最好。只要尸体保存完好，就算在死后很长时间也能复活。\n\n复活的人还会经历有限的逆行性失忆，忘记一些最近的记忆和社交关系。</MechSerumResurrector.description>
   <!-- EN: Use {0_label} -->
   <MechSerumResurrector.comps.CompUsable.useLabel>使用{0_label}</MechSerumResurrector.comps.CompUsable.useLabel>
   
   <!-- EN: techprof subpersona core -->
   <TechprofSubpersonaCore.label>科技核心</TechprofSubpersonaCore.label>
   <!-- EN: A small AI core housing a low-grade subpersona specialized in teaching technology. When used, the AI will teach you the technology you're currently researching, instantly and for free. Can only be used once. -->
-  <TechprofSubpersonaCore.description>小型AI核心，内置了特化了科技教导的次级人格。使用后，AI会立刻免费教会你当前正在研究的科技。只能使用一次。</TechprofSubpersonaCore.description>
+  <TechprofSubpersonaCore.description>小型AI核心，内置了特化了科技教导的次级人格。使用后，AI会立即无偿教会你当前正在进行的研究项目。只能使用一次。</TechprofSubpersonaCore.description>
   <!-- EN: Use {0_label} -->
   <TechprofSubpersonaCore.comps.CompUsable.useLabel>使用{0_label}</TechprofSubpersonaCore.comps.CompUsable.useLabel>
   
@@ -41,8 +41,8 @@
   <!-- EN: A thrumbo's horn. It's razor-sharp, rock-hard, and priceless in most markets. This is a true trophy, as well as a deadly melee weapon. -->
   <ThrumboHorn.description>敲击兽的角，锋利、坚固，在大多数市场里都是极为贵重的。这是真正意义上的战利品，同时也是足以致命的近战武器。</ThrumboHorn.description>
   <!-- EN: point -->
-  <ThrumboHorn.tools.point.label>尖头</ThrumboHorn.tools.point.label>
+  <ThrumboHorn.tools.point.label>角尖</ThrumboHorn.tools.point.label>
   <!-- EN: base -->
-  <ThrumboHorn.tools.base.label>根部</ThrumboHorn.tools.base.label>
+  <ThrumboHorn.tools.base.label>角根</ThrumboHorn.tools.base.label>
   
 </LanguageData>

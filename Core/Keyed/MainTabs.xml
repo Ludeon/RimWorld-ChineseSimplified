@@ -57,13 +57,13 @@
   <!-- EN: Edit -->
   <AssignTabEdit>编辑</AssignTabEdit>
   <!-- EN: Manage apparel policies -->
-  <ManageApparelPolicies>管理服装方针</ManageApparelPolicies>
+  <ManageApparelPolicies>管理着装方案</ManageApparelPolicies>
   <!-- EN: Manage drug policies -->
-  <ManageDrugPolicies>管理用药方针</ManageDrugPolicies>
+  <ManageDrugPolicies>管理用药方案</ManageDrugPolicies>
   <!-- EN: Manage food policies -->
-  <ManageFoodPolicies>管理食物方针</ManageFoodPolicies>
+  <ManageFoodPolicies>管理食物方案</ManageFoodPolicies>
   <!-- EN: Manage reading policies -->
-  <ManageReadingPolicies>管理阅读方针</ManageReadingPolicies>
+  <ManageReadingPolicies>管理阅读方案</ManageReadingPolicies>
   
   <!-- Restrictions tab -->
   <!-- EN: Copy -->
@@ -201,19 +201,19 @@
   <!-- EN: Locked -->
   <Locked>未解锁</Locked>
   <!-- EN: Prerequisites -->
-  <Prerequisites>先决条件</Prerequisites>
+  <Prerequisites>前置研究项目</Prerequisites>
   <!-- EN: Techprints required {0} / {1} -->
   <ResearchTechprintRequirement>科研蓝图要求 {0} / {1}</ResearchTechprintRequirement>
   <!-- EN: Insufficient techprints applied ({0} / {1}) -->
   <InsufficientTechprintsApplied>已使用的科研蓝图不足({0} / {1})</InsufficientTechprintsApplied>
   <!-- EN: Prerequisite(s) not completed -->
-  <PrerequisitesNotCompleted>前置研究未完成</PrerequisitesNotCompleted>
+  <PrerequisitesNotCompleted>前置研究项目未完成</PrerequisitesNotCompleted>
   <!-- EN: No project active. -->
-  <NoProjectSelected>没有活动的项目。</NoProjectSelected>
+  <NoProjectSelected>没有正在进行的研究项目。</NoProjectSelected>
   <!-- EN: Active projects -->
-  <ActiveProjectPlural>活动项目</ActiveProjectPlural>
+  <ActiveProjectPlural>正在进行的研究项目</ActiveProjectPlural>
   <!-- EN: Active project -->
-  <ActiveProject>活动项目</ActiveProject>
+  <ActiveProject>正在进行的研究项目</ActiveProject>
   <!-- EN: Stop research -->
   <StopResearch>停止研究</StopResearch>
   <!-- EN: Missing required research facilities -->
@@ -229,9 +229,9 @@
   <!-- EN: Your faction tech level is {0}, but this project's tech level is {1}. Research speed will be multiplied by {2}. -->
   <TechLevelTooLow>你的派系技术级别为{0}，但此项目的技术级别为{1}。研究速度将乘以{2}。</TechLevelTooLow>
   <!-- EN: Unlocked with -->
-  <UnlockedWith>同调</UnlockedWith>
+  <UnlockedWith>联动解锁</UnlockedWith>
   <!-- EN: Research one or more of this project's prerequisites to discover it. -->
-  <UnknownResearchDescription>研究这个项目的一个或多个先决条件来发现它。</UnknownResearchDescription>
+  <UnknownResearchDescription>完成这个研究项目的一个或多个前置研究项目来发现它。</UnknownResearchDescription>
   <!-- EN: unknown -->
   <UnknownResearch>未知</UnknownResearch>
 
@@ -375,7 +375,7 @@
   
   <!-- Books -->
   <!-- EN: Mental break chance -->
-  <BookMentalBreakChance>精神崩溃概率</BookMentalBreakChance>
+  <BookMentalBreakChance>精神崩溃几率</BookMentalBreakChance>
   
   <!-- EN: Recreation gain multiplier -->
   <BookJoyFactor>娱乐增益乘数</BookJoyFactor>

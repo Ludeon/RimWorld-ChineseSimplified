@@ -125,7 +125,7 @@
   <!-- EN: Doctors care -->
   <DoctorsCare>医生照顾</DoctorsCare>
   <!-- EN: Gets medicine -->
-  <GetsMedicine>药物供应</GetsMedicine>
+  <GetsMedicine>医药供应</GetsMedicine>
   <!-- EN: Try to recruit -->
   <ShouldTryToRecruit>尝试招募</ShouldTryToRecruit>
   <!-- EN: Considered guilty (expires in {0}) -->
@@ -137,7 +137,7 @@
   <!-- EN: How much {0_nameDef}'s resistance was reduced by {1} when {0_pronoun} was last recruited. -->
   <LastRecruitmentDescription>最近一次试图招募{0_nameDef}时抵抗值降低了{1}。</LastRecruitmentDescription>
   <!-- EN: Opinion of recruiter -->
-  <OpinionOfRecruiter>招募者意见</OpinionOfRecruiter>
+  <OpinionOfRecruiter>招募者看法</OpinionOfRecruiter>
   <!-- EN: Recruiter negotiation ability -->
   <RecruiterNegotiationAbility>招募者谈判能力</RecruiterNegotiationAbility>
   <!-- EN: Unwavering loyalty -->
@@ -224,17 +224,17 @@
   <!-- EN: Prevents infection -->
   <PreventsInfection>抗感染</PreventsInfection>
   <!-- EN: Allow self-tend -->
-  <AllowSelfTend>允许自我照料</AllowSelfTend>
+  <AllowSelfTend>自我治疗</AllowSelfTend>
   <!-- EN: {0} with self-tend enabled will automatically tend to themselves on the spot at {1} the normal efficiency. -->
-  <AllowSelfTendTip>启用自我照料{0}后将会以正常效果的{1}当场照料自己。</AllowSelfTendTip>
+  <AllowSelfTendTip>启用自我治疗后，{0}将会以正常效果的{1}当场治疗自己。</AllowSelfTendTip>
   <!-- EN: death in {0} -->
   <DeathIn>死于{0}</DeathIn>
   <!-- EN: Allow medicine -->
-  <AllowMedicine>允许药物</AllowMedicine>
+  <AllowMedicine>医药限制</AllowMedicine>
   <!-- EN: What type of medicine can be given to this person. -->
-  <MedicineQualityDescription>可以给这个人服用什么类型的药物。</MedicineQualityDescription>
+  <MedicineQualityDescription>可以给这个人使用什么类型的医药。</MedicineQualityDescription>
   <!-- EN: What type of food can be given to this person. -->
-  <FoodRestrictionDescription>可以给这个人服用什么类型的食物。</FoodRestrictionDescription>
+  <FoodRestrictionDescription>可以给这个人享用什么类型的食物。</FoodRestrictionDescription>
 
   <!-- Medical - Body and activities condition -->
   <!-- EN: None -->
@@ -275,13 +275,13 @@
   <CannotTrainTooSmall>{1_labelShort}体形过小，无法训练。</CannotTrainTooSmall>
 
   <!-- EN: Prerequisite needed: {0} -->
-  <TrainingNeedsPrerequisite>先决条件: {0}</TrainingNeedsPrerequisite>
+  <TrainingNeedsPrerequisite>前置研究项目：{0}</TrainingNeedsPrerequisite>
   
   <!-- Social tab -->
   <!-- EN: Kidnapped -->
   <Kidnapped>被绑架</Kidnapped>
   <!-- EN: Lent to {FACTION_name}, returns in {1} -->
-  <Lent>借给 {FACTION_name}, 返回 {1}</Lent>
+  <Lent>已借给{FACTION_name}, 将于{1}后返回</Lent>
   <!-- EN: Missing -->
   <Missing>失踪</Missing>
   <!-- EN: Slave -->
@@ -289,19 +289,19 @@
   <!-- EN: Faction leader -->
   <FactionLeader>派系领袖</FactionLeader>
   <!-- EN: Opinion of {0} -->
-  <OpinionOf>对{0}的印象</OpinionOf>
+  <OpinionOf>对{0}的看法</OpinionOf>
   <!-- EN: {0}'s opinion of me -->
-  <SomeonesOpinionOfMe>{0}对我的印象</SomeonesOpinionOfMe>
+  <SomeonesOpinionOfMe>{0}对我的看法</SomeonesOpinionOfMe>
   <!-- EN: I'm dead -->
   <IAmDead>我死了</IAmDead>
   <!-- EN: I'm a psychopath -->
-  <IAmPsychopath>我心理变态</IAmPsychopath>
+  <IAmPsychopath>我是心理变态</IAmPsychopath>
   
   <!-- Gear tab -->
   <!-- EN: Overall armor -->
   <OverallArmor>总护甲</OverallArmor>
   <!-- EN: Mass carried: {0} / {1} kg -->
-  <MassCarried>负重: {0} / {1} kg</MassCarried>
+  <MassCarried>负重：{0} / {1} kg</MassCarried>
   <!-- EN: Comfortable temperature range -->
   <ComfyTemperatureRange>适宜温度范围</ComfyTemperatureRange>
   <!-- EN: Blunt -->

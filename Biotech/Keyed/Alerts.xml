@@ -2,9 +2,9 @@
 <LanguageData>
 
   <!-- EN: Uncontrolled mechs -->
-  <AlertMechLacksOverseer>机械体未被控制</AlertMechLacksOverseer>
+  <AlertMechLacksOverseer>机械体未受控制</AlertMechLacksOverseer>
   <!-- EN: One or more of your mechanoids is not controlled. Connect your mechanoids to a mechanitor with sufficient bandwidth to control them.\n\nIf left uncontrolled for more than a day, a mechanoid could go feral. When this happens they will join {0} and become hostile to you. If one mechanoid goes feral, it will bring other nearby mechanoids with it.\n\nFeral mechanoids cannot be resurrected at a gestator when killed. -->
-  <AlertMechLacksOverseerDesc>你有至少一个机械体未被控制，你需要将它们连接至一名有足够带宽的机械师来使它们受控。\n\n如果机械体脱离控制的时间超过一天，机械体就会离线。当这种情况发生时，它们会吸引附近的其他机械体，同时加入{0}与你敌对。\n\n离线的机械体被摧毁后不能在培育器中重建。</AlertMechLacksOverseerDesc>
+  <AlertMechLacksOverseerDesc>你有至少一个机械体未受控制，你需要将它们连接至一名有足够带宽的机械师来使它们受控。\n\n如果机械体脱离控制的时间超过一天，机械体就会离线。当这种情况发生时，它们会吸引附近的其他机械体，同时加入{0}与你敌对。\n\n离线的机械体被摧毁后不能在培育器中重建。</AlertMechLacksOverseerDesc>
   <!-- EN: The following mechanoids are uncontrolled -->
   <AlertMechLacksOverseerUncontrolled>以下机械体未受控制</AlertMechLacksOverseerUncontrolled>
   <!-- EN: The following mechanoids are uncontrolled and could go feral at any moment -->
@@ -33,11 +33,11 @@
   <AlertRechargerFullDesc>某些机械充电站储存的有毒垃圾已达上限。机械体在清除垃圾之前无法使用充电站。\n\n选择一位殖民者并右键充电站来卸载它们。</AlertRechargerFullDesc>
 
   <!-- EN: Need mech rechargers -->
-  <AlertNeedMechChargers>机械体需要充电站</AlertNeedMechChargers>
+  <AlertNeedMechChargers>需要机械体充电站</AlertNeedMechChargers>
   <!-- EN: You don't have rechargers for all your mechanoids. If a mech runs out of energy, it will fall into a dormant self-charging state and will recharge very slowly.\n\nBuild more of the following chargers:\n{0}\n\nNote: Only light mechanoids can use regular mech rechargers. Medium or heavier mechanoids require large mech rechargers. -->
-  <AlertNeedMechChargersDesc>你所有的机械体都没有充电站，如果一台机械体电量耗尽又没有充电站可用，它将进入休眠状态并以极缓慢的速度自我充电。\n\n需要建造更多充电站：\n\n{0}\n\n注意：只有轻型机械体可以使用常规机械充电站，中型或更大规格的机械体需要大型机械充电站。</AlertNeedMechChargersDesc>
+  <AlertNeedMechChargersDesc>你的充电站数量不足以供给所有机械体使用。如果一台机械体能量耗尽又没有充电站可用，它将进入自机充电的休眠状态，以非常缓慢的速度补充能量。\n\n需要为以下机械体建造更多充电站：\n\n{0}\n\n注意：只有轻型机械体可以使用普通的机械充电站，中型、重型和超重型机械体需要使用大型机械充电站。</AlertNeedMechChargersDesc>
   <!-- EN: Research basic mechtech or higher to build rechargers. -->
-  <AlertNeedMechChargerBasicMechtech>研究基础机械工程或更高科技来建造充电站。</AlertNeedMechChargerBasicMechtech>
+  <AlertNeedMechChargerBasicMechtech>研究基础机械科技或更高级的标准机械科技来建造合适的充电站。</AlertNeedMechChargerBasicMechtech>
 
   <!-- EN: Reimplantation available -->
   <AlertReimplantationAvailable>再植就绪</AlertReimplantationAvailable>
@@ -65,7 +65,7 @@
   <!-- EN: Toxic buildup -->
   <AlertToxicBuildup>中毒</AlertToxicBuildup>
   <!-- EN: These colonists have serious toxic buildup:\n\n{0}\n\nMove them away from toxic sources.\n\nToxic buildup can be caused by many things including toxic fallout, tox gas, and polluted terrain. -->
-  <AlertToxicBuildupDesc>这些殖民者正处于危险的有毒环境：\n\n{0}\n\n尽快将他们转移至安全地带。\n\n有毒尘埃、有毒气体和受污染的土地都会使附近的人中毒。</AlertToxicBuildupDesc>
+  <AlertToxicBuildupDesc>以下殖民者已严重中毒：\n\n{0}\n\n尽快将他们转移至安全地带。\n\n有毒尘埃、毒气和受污染的地形都会使附近的人中毒。</AlertToxicBuildupDesc>
 
   <!-- EN: Need baby cribs -->
   <AlertNeedBabyCribs>需要婴儿床</AlertNeedBabyCribs>
@@ -79,21 +79,21 @@
   <!-- EN: Polluted terrain -->
   <AlertPollutedTerrain>受污染的地形</AlertPollutedTerrain>
   <!-- EN: A person or animal is suffering toxic buildup and is on polluted terrain. Any time someone is on polluted terrain, their toxic buildup will increase over time until they die.\n\nThese people or animals are affected:\n\n{0}\n\nKeep people off polluted terrain, or find a way to protect them from its effects. Certain apparel, implants and gene modifications can protect from toxic buildup. Polluted terrain cannot be covered using a floor, but it can be cleaned by hand and other methods. -->
-  <AlertPollutedTerrainDesc>一个人或动物因处于受污染的地形而中毒。任何时候，只要有人在受污染的地形上，毒素就会在他们体内累积，并随着时间的推移而逐渐加深，最终导致他们死亡。\n\n这些人或动物正受到影响：\n\n{0}\n\n让人们远离受污染的地区，或者想办法保护他们免受毒素影响。某些服装、植入物和基因修饰可以有效保护人们不受毒素影响。被污染的地形不能通过铺设地板来覆盖，但可以手动或其他方式清理。</AlertPollutedTerrainDesc>
+  <AlertPollutedTerrainDesc>一个人或动物因处于受污染的地形而中毒。任何时候，只要有人在受污染的地形上，毒素就会在他们体内累积，并随着时间的推移而逐渐加深，最终导致他们死亡。\n\n这些人或动物正受到影响：\n\n{0}\n\n让人们远离受污染的地区，或者想办法保护他们免受毒素影响。某些服装、植入物和基因修饰可以有效保护人们不受毒素影响。受污染的地形不能通过铺设地板来覆盖，但可以手动或其他方式清理。</AlertPollutedTerrainDesc>
 
   <!-- EN: Mechanoid missing part -->
-  <AlertMechMissingBodyPart>机械体部件受损</AlertMechMissingBodyPart>
+  <AlertMechMissingBodyPart>机械体部件缺失</AlertMechMissingBodyPart>
   <!-- EN: Mechanoids missing parts -->
-  <AlertMechsMissingBodyPart>机械体部件受损</AlertMechsMissingBodyPart>
+  <AlertMechsMissingBodyPart>机械体部件缺失</AlertMechsMissingBodyPart>
   <!-- EN: One or more of your mechanoids are missing a body part. A mechanitor can repair lost parts.\n\nThe mechanoids with lost body parts are -->
-  <AlertMechMissingBodyPartDesc>一台或更多机械体缺失身体部件，机械师能够修理缺失的部件。\n\n这些机械体缺少部件</AlertMechMissingBodyPartDesc>
+  <AlertMechMissingBodyPartDesc>一台或更多机械体缺失身体部件，机械师能够维修缺失的部件。\n\n这些机械体缺少部件</AlertMechMissingBodyPartDesc>
 
   <!-- EN: Mechanoid repair needed -->
-  <AlertMechNeedsRepair>机械体需要修理</AlertMechNeedsRepair>
+  <AlertMechNeedsRepair>机械体需要维修</AlertMechNeedsRepair>
   <!-- EN: These mechanoids are damaged and need repair -->
-  <AlertMechNeedsRepairDescPrefix>这些机械体因受伤需要修理</AlertMechNeedsRepairDescPrefix>
+  <AlertMechNeedsRepairDescPrefix>这些机械体因受伤需要维修</AlertMechNeedsRepairDescPrefix>
   <!-- EN: Order a mechanitor to repair them, or select the mech and turn on auto-repair. Repairing a mechanoid requires energy. If a mechanoid's energy is so low it can't move, someone must carry it to a recharger. -->
-  <AlertMechNeedsRepairDesc>指派一名机械师来修理它们，或者选中机械体并打开自动修理功能。修复机械体需要消耗能量，如果机械体的能量不足无法移动，就必须有人将它搬运至充电站。</AlertMechNeedsRepairDesc>
+  <AlertMechNeedsRepairDesc>指派一名机械师来维修它们，或者选中机械体并打开自动维修功能。维修机械体需要消耗能量值，如果机械体的能量不足无法移动，就必须有人将它搬运至充电站。</AlertMechNeedsRepairDesc>
   
   <!-- EN: {0} stopped -->
   <AlertToxifierGeneratorStopped>{0}已停止</AlertToxifierGeneratorStopped>
@@ -103,7 +103,7 @@
   <!-- EN: Psychic bond distance -->
   <AlertPsychicBondedPawnsSeparated>心灵纽带断开</AlertPsychicBondedPawnsSeparated>
   <!-- EN: Some colonists with psychic bonds have been separated and are feeling negative effects from the distance. To avoid this, people with a psychic bond must be in the same world tile, caravan, or vehicle. Additionally, they must not be in cryptosleep or similar suspended animation.\n\nThe following people are affected -->
-  <AlertPsychicBondedPawnsSeparatedDesc>某些处于心灵共鸣的殖民者被分开了，并且会受到距离带来的负面影响。为了避免这种情况，心灵共鸣的人员必须处于同一个地图、远行队或载具中。此外，他们不能处于冷冻休眠或类似的休眠状态。\n\n以下人员受到影响</AlertPsychicBondedPawnsSeparatedDesc>
+  <AlertPsychicBondedPawnsSeparatedDesc>某些建立了心灵纽带的殖民者被分开了，并且会受到距离带来的负面影响。为了避免这种情况，建立心灵纽带者必须处于同一个地图、远行队或载具中。此外，他们不能处于低温休眠或类似的休眠状态。\n\n以下人员受到影响</AlertPsychicBondedPawnsSeparatedDesc>
 
   <!-- EN: Gene bank needs power -->
   <AlertGenebankUnpowered>基因库需要通电</AlertGenebankUnpowered>
