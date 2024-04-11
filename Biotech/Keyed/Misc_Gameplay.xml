@@ -2,7 +2,7 @@
 <LanguageData>
 
   <!-- EN: Dormant self-charging -->
-  <SelfShutdown>休眠自充</SelfShutdown>
+  <SelfShutdown>休眠（自机充电）</SelfShutdown>
   <!-- EN: Carry to recharger -->
   <CarryToRecharger>携带至充电站</CarryToRecharger>
   <!-- EN: Must be carried to recharger. -->
@@ -52,7 +52,7 @@
   <!-- EN: Control group -->
   <ControlGroup>控制组</ControlGroup>
   <!-- EN: Current mode -->
-  <CurrentMechWorkMode>当前模式</CurrentMechWorkMode>
+  <CurrentMechWorkMode>当前行动模式</CurrentMechWorkMode>
   <!-- EN: Assigned mechs -->
   <AssignedMechs>已分配机械体</AssignedMechs>
   <!-- EN: Tuned to -->
@@ -316,7 +316,7 @@
   <!-- EN: Archite capsules -->
   <ArchitesRequired>超凡胶囊</ArchitesRequired>
   <!-- EN: Archites are archotech mechanites - microscopic devices which can operate directly on cells and molecules, created by superintelligent archotechs. They are capable of unexplainable feats, and some genes only function when supported by the otherworldly machinery of the archotechs. Humans cannot create archites - only find them when an archotech happens to produce some for its own unknowable reason. -->
-  <ArchitesRequiredDesc>这些超凡智能制造的超凡微械能够直接在微观尺度上对细胞和分子进行操作。它们能够完成无法解释的壮举，一些基因只有在超凡技术的超凡机械的支持下才能发挥作用。我们只能通过搜刮或是其他方式来获取这些因不可告人的秘密而被超凡科技创造出来的产物。</ArchitesRequiredDesc>
+  <ArchitesRequiredDesc>超凡微械是由超凡智能制造的纳米机械——它们能够直接在微观尺度上对细胞和分子进行操作。它们能够完成无法解释的壮举，一些基因只有在超凡机械的支持下才能发挥作用。我们只能通过搜刮或是其他方式来获取这些因不可告人的秘密而被超凡智能创造出来的产物。</ArchitesRequiredDesc>
   <!-- EN: Cancel xenogerm -->
   <CancelXenogerm>取消异种胚芽</CancelXenogerm>
   <!-- EN: Stop all work on the current xenogerm. -->
@@ -358,9 +358,9 @@
   <!-- EN: Implant this into a person to partially override their genetic code.\n\nThis is a surgical operation, so it requires a doctor, medical bed and {MEDICINEAMOUNT} medicine. -->
   <ImplantXenogermDesc>将此植入一个人体内，以部分覆盖其遗传信息。\n\n这是一个外科手术，所以需要医生、医疗床和{MEDICINEAMOUNT}药品。</ImplantXenogermDesc>
   <!-- EN: Implanting a xenogerm will put {PAWN_nameDef} in a coma as the xenogerm integrates itself. On average, this lasts for {COMADURATION}. The length of the coma is dependent on the doctor's medical skill and the quality of your medical facilities. -->
-  <ImplantXenogermWarningDesc>植入异种胚芽会使{PAWN_nameDef}处于昏迷状态，因为异种胚芽会自我整合。平均而言这将持续{COMADURATION}。昏迷的时间取决于医生的医疗技术和你的医疗设施的质量。</ImplantXenogermWarningDesc>
+  <ImplantXenogermWarningDesc>植入异种胚芽会使{PAWN_nameDef}陷入昏迷状态，因为异种胚芽需要一定时间才能融入宿主。昏迷状态将持续{COMADURATION}左右。昏迷的时间取决于医生的医疗技能等级和你的医疗设施的质量。</ImplantXenogermWarningDesc>
   <!-- EN: Additionally, implanting a xenogerm will overwrite existing xenogenes. {PAWN_nameDef}'s current xenotype is '{XENOTYPE}'. {PAWN_pronoun} has the following xenogenes:\n{XENOGENES} -->
-  <ImplantXenogermWarningOverwriteXenogenes>此外，植入一个异种胚芽将覆盖现有的异种胚芽。{PAWN_nameDef}的当前异种是“{XENOTYPE}”。{PAWN_pronoun}有以下异种基因：\n{XENOGENES}</ImplantXenogermWarningOverwriteXenogenes>
+  <ImplantXenogermWarningOverwriteXenogenes>此外，植入一个异种胚芽将覆盖现有的异种基因。{PAWN_nameDef}的当前异种是“{XENOTYPE}”。{PAWN_pronoun}有以下异种基因：\n{XENOGENES}</ImplantXenogermWarningOverwriteXenogenes>
   <!-- EN: After implantation, {PAWN_nameDef} will have a metabolism value of {MET} and a food consumption multiplier of {CONSUMPTION}. -->
   <ImplantXenogermWarningNewMetabolism>植入后，{PAWN_nameDef}的代谢率为{MET}，食物消耗率为{CONSUMPTION}。</ImplantXenogermWarningNewMetabolism>
   <!-- EN: Would you like to continue? -->
@@ -368,11 +368,11 @@
   <!-- EN: Cancel implanting -->
   <CancelImplanting>取消植入</CancelImplanting>
   <!-- EN: Cancel implanting this xenogerm into {PAWN_nameDef}. -->
-  <CancelImplantingDesc>取消植入此异种胚芽至{PAWN_nameDef}的指令。</CancelImplantingDesc>
+  <CancelImplantingDesc>取消为{PAWN_nameDef}植入此异种胚芽的指令。</CancelImplantingDesc>
   <!-- EN: Xenotype -->
   <Xenotype>异种人</Xenotype>
   <!-- EN: unique -->
-  <Unique>唯一</Unique>
+  <Unique>独特</Unique>
   <!-- EN: A unique human variant with a set of xenogenes that do not fall into any known xenotype. -->
   <UniqueXenotypeDesc>一个独特的人类变异体，有一套不属于任何已知异种人的异种基因。</UniqueXenotypeDesc>
   <!-- EN: Factor for genetic metabolism -->
@@ -496,7 +496,7 @@
   <!-- EN: Release {0} -->
   <MechCarrierRelease>释放{0}</MechCarrierRelease>
   <!-- EN: Release a swarm of up to {0} {1}. Each {2} costs {3} {4} to build. If the parent is destroyed then all the linked {1} will die. {1} cannot be recharged and will die once their power source runs out. -->
-  <MechCarrierDesc>释放一个最多由{0}x{1}组成的蜂群。每个{2}需要花费{3}x{4}来建造。如果母体被摧毁，那么所有链接的{1}都会死亡。{1}不能被充电，一旦它们的能量耗尽就会死亡。</MechCarrierDesc>
+  <MechCarrierDesc>释放{0}个{1}。每个{2}需要花费{3}x{4}来建造。如果母体被摧毁，那么所有链接的{1}都会死亡。{1}无法充电，一旦它们的能量耗尽就会死亡。</MechCarrierDesc>
   <!-- EN: Not enough resources -->
   <MechCarrierNotEnoughResources>没有足够的资源</MechCarrierNotEnoughResources>
   <!-- EN: Autofill -->
@@ -508,9 +508,9 @@
 
   <!-- Mech power cell -->
   <!-- EN: Power cell -->
-  <MechPowerCell>动力电池</MechPowerCell>
+  <MechPowerCell>能量电池</MechPowerCell>
   <!-- EN: War urchins have a one-time power source. When the power cell runs out, the mechanoid dies. -->
-  <MechPowerCellTip>战争死卫有一个一次性的动力源。当动力电池耗尽时，机械人就会死亡。</MechPowerCellTip>
+  <MechPowerCellTip>此单位体内安装的能量电池是一次性的动力源。当电池的能量耗尽时，它就会死亡。</MechPowerCellTip>
   
 
   <!-- Bossgroup -->
@@ -589,7 +589,7 @@
   <DissolutionFrozen>冷冻（不会溶解）</DissolutionFrozen>
 
   <!-- EN: {0} cells / day -->
-  <CellsPerDay>{0}格/日</CellsPerDay>
+  <CellsPerDay>{0}格/天</CellsPerDay>
 
   <!-- EN: {0} cannot wear clothing for {1} -->
   <WrongDevelopmentalStageForClothing>{0}不能为{1}穿衣服</WrongDevelopmentalStageForClothing> 
@@ -600,7 +600,7 @@
   <!-- EN: Produces -->
   <SubcoreScannerProduces>进度</SubcoreScannerProduces>
   <!-- EN: Once the {0} is filled with the required ingredients, {1}, select a colonist and right-click on the {0} or on a downed person to start the scanner. -->
-  <SubcoreScannerStartDesc>一旦{0}填满了所需的物资， {1}， 选择一个殖民者，右键点击{0}或倒下的人来开始扫描。</SubcoreScannerStartDesc>
+  <SubcoreScannerStartDesc>一旦{0}填满了所需的材料， {1}， 选择一个殖民者，右键点击{0}或倒下的人来开始扫描。</SubcoreScannerStartDesc>
   <!-- EN: Completes in -->
   <SubcoreScannerCompletesIn>完成于</SubcoreScannerCompletesIn>
   <!-- EN: Waiting for occupant -->
@@ -608,7 +608,7 @@
   <!-- EN: Waiting for ingredients -->
   <SubcoreScannerWaitingForIngredients>等待装填</SubcoreScannerWaitingForIngredients>
   <!-- EN: The following ingredients must be loaded first -->
-  <SubcoreScannerWaitingForIngredientsDesc>以下物资必须优先被装载</SubcoreScannerWaitingForIngredientsDesc>
+  <SubcoreScannerWaitingForIngredientsDesc>以下材料必须优先被装载</SubcoreScannerWaitingForIngredientsDesc>
   <!-- EN: Has {0} -->
   <SubcoreScannerPawnHasSickness>有{0}</SubcoreScannerPawnHasSickness>
   <!-- EN: Babies are not allowed -->
@@ -617,7 +617,7 @@
   <InsertPersonSubcoreScannerDesc>将一个人员置入{0}。</InsertPersonSubcoreScannerDesc>
 
   <!-- EN: Duration (hours) -->
-  <DurationHours>持续时间（小时）</DurationHours>
+  <DurationHours>持续时间（时）</DurationHours>
 
   <!-- Age -->
   <!-- EN: adult -->
@@ -640,7 +640,7 @@
   <!-- EN: Xenogerm implantation -->
   <Reward_ReimplantXenogerm_Label>异种胚芽植入</Reward_ReimplantXenogerm_Label>
   <!-- EN: One member of the group will reimplant their xenogerm into a colonist of your choice, thus turning your colonist into one of them. Your colonist will remain part of your faction and under your control. -->
-  <Reward_ReimplantXenogerm_Desc>他们中的一个成员将把他们的异种再植入你选择的殖民者体内，从而把你的殖民者变成他们中的一员。你的殖民者将继续属于你的派系并受你控制。</Reward_ReimplantXenogerm_Desc>
+  <Reward_ReimplantXenogerm_Desc>他们中的一员会将其异种胚芽植入到你选择的殖民者体内，从而把你的殖民者变成他们的同类。你的殖民者将继续属于你的派系并受你控制。</Reward_ReimplantXenogerm_Desc>
 
   <!-- Mech resurrection -->
   <!-- EN: Mech resurrection charges -->
@@ -648,7 +648,7 @@
 
   <!-- Mechs -->
   <!-- EN: Mech stun pulse on death -->
-  <MechStunPulseWarning>机械死亡脉冲</MechStunPulseWarning>
+  <MechStunPulseWarning>死亡后释放机械眩晕脉冲。</MechStunPulseWarning>
   <!-- EN: {PAWN_nameDef} is in self-shutdown from low energy. -->
   <IsLowEnergySelfShutdown>{PAWN_nameDef}因电量不足自动关机。</IsLowEnergySelfShutdown>
   
@@ -757,11 +757,11 @@
 
   <!-- Projectile interceptor -->
   <!-- EN: A low-angle projected shield that will attempt to stop incoming projectiles or shrapnel. It shuts down instantly if hit by an EMP. -->
-  <ProjectileInterceptorTip>一个低角度的护盾，将试图阻止射入的弹丸或弹片。如果被EMP击中，它将立即关闭。</ProjectileInterceptorTip>
+  <ProjectileInterceptorTip>一个低角度的护盾。护盾会拦截来袭的投射物或弹片，但遭受EMP打击后会立即耗尽能量。</ProjectileInterceptorTip>
 
   <!-- Remote mech shield -->
   <!-- EN: A remote shield projected by a mechanitor. It will attempt to stop incoming projectiles or shrapnel, but does nothing against melee attacks or heat. It prevents the wearer from firing out, and shuts down instantly if hit by EMP -->
-  <RemoteMechShieldTip>一个由机械师投射的远程护盾。它将试图阻止射入的弹丸或弹片，但对近战攻击或热量没有任何作用。它可以防止穿戴者开火，如果被EMP击中会立即关闭</RemoteMechShieldTip>
+  <RemoteMechShieldTip>一个由机械师投射的远程护盾。护盾会拦截来袭的投射物或弹片，但无法阻挡近战攻击、高温以及火焰，遭受EMP打击后会立即耗尽能量。</RemoteMechShieldTip>
 
   <!-- Thoughtdef fallbacks -->
   <!-- EN: my child is happy -->

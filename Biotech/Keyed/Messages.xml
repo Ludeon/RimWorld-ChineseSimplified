@@ -9,14 +9,14 @@
   <MessageColonistInFinalStagesOfLabor>{PAWN_labelShort}的妊娠情况已经到分娩阶段。</MessageColonistInFinalStagesOfLabor>
 
   <!-- EN: A mech charger was destroyed while {PAWN_nameDef} was charging! The power disruption has scrambled its brain, and it is going berserk. -->
-  <MessageMechChargerDestroyedMechGoesBerserk>{PAWN_nameDef}正在使用的充电站被摧毁了！电力中断扰乱了它的大脑，它现在狂暴了。</MessageMechChargerDestroyedMechGoesBerserk>
+  <MessageMechChargerDestroyedMechGoesBerserk>{PAWN_nameDef}正在使用的充电站被摧毁了！能量传输中断扰乱了它的敌我识别系统，因此陷入了狂暴状态。</MessageMechChargerDestroyedMechGoesBerserk>
 
   <!-- EN: Cannot use {ABILITY_label} on anyone who would actively resist. -->
   <MessageCantUseOnResistingPerson>不能对任何积极抵抗的人使用{ABILITY_label}。</MessageCantUseOnResistingPerson>
   <!-- EN: {0_labelShort} already has the {0_xenotype} xenotype. -->
-  <MessageCannotUseOnSameXenotype>{0_labelShort}已经有{0_xenotype}异种人。</MessageCannotUseOnSameXenotype>
+  <MessageCannotUseOnSameXenotype>{0_labelShort}的异种类型已经是“{0_xenotype}”了。</MessageCannotUseOnSameXenotype>
   <!-- EN: {0_labelShort} has no available xenogenes to implant. -->
-  <MessagePawnHasNoXenogenes>{0_labelShort}没有可用的异种基因植入。</MessagePawnHasNoXenogenes>
+  <MessagePawnHasNoXenogenes>{0_labelShort}没有可供植入的异种基因。</MessagePawnHasNoXenogenes>
   <!-- EN: Xenogerms can only be implanted into colonists, prisoners, and slaves. -->
   <MessageCanOnlyTargetColonistsPrisonersAndSlaves>异种胚芽只能植入殖民者、囚犯和奴隶体内。</MessageCanOnlyTargetColonistsPrisonersAndSlaves>
   <!-- EN: Cannot implant in temporary faction members. -->
@@ -41,7 +41,7 @@
   <MessageMechanitorCasketOpened>{0}是一个机械师。你可以提取{0_possessive}{1_label}并将其用于殖民者。</MessageMechanitorCasketOpened>
   
   <!-- EN: Some prisoners' interaction mode required a bloodfeeder. Since the last bloodfeeder is gone, their interaction modes have reset to "No interaction". -->
-  <MessageNoBloodfeedersPrisonerInteractionReset>有些囚犯的互动模式需要汲血。由于最后一个食血者消失了，他们的交互模式重置为“无交互”。</MessageNoBloodfeedersPrisonerInteractionReset>
+  <MessageNoBloodfeedersPrisonerInteractionReset>有些囚犯的互动模式需要汲血。由于最后一个汲血者消失了，他们的交互模式重置为“无交互”。</MessageNoBloodfeedersPrisonerInteractionReset>
 
   <!-- EN: {PAWN_nameDef}'s pregnancy was successfully terminated. -->
   <MessagePregnancyTerminated>{PAWN_nameDef}的妊娠圆满结束。</MessagePregnancyTerminated>
@@ -50,9 +50,9 @@
   <!-- EN: {0} has been angered ({1}) -->
   <MessageAngeredPollutedCell>{0}已被激怒（{1}）</MessageAngeredPollutedCell>
   <!-- EN: Need unpolluted terrain. -->
-  <MessageWarningPollutedCell>需要未被污染的地面。</MessageWarningPollutedCell>
+  <MessageWarningPollutedCell>需要未受污染的地形。</MessageWarningPollutedCell>
   <!-- EN: Need polluted terrain. -->
-  <MessageWarningNotPollutedCell>需要被污染的地面。</MessageWarningNotPollutedCell>
+  <MessageWarningNotPollutedCell>需要受污染的地形。</MessageWarningNotPollutedCell>
   <!-- EN: {0} has died because of pollution. -->
   <MessagePlantDiedOfPollution>{0}因为污染而死亡。</MessagePlantDiedOfPollution>
   <!-- EN: {0} has died because of a lack of pollution. -->
@@ -64,13 +64,13 @@
   <!-- EN: Cocoons have been disturbed and are opening! -->
   <MessageCocoonDisturbedPlural>虫茧被扰动了，它们正在破茧！</MessageCocoonDisturbedPlural>
   <!-- EN: {0} has rotted due to polluted terrain. -->
-  <MessagePlantDiedOfRot_PollutedTerrain>{0}因被污染的地面而枯萎腐烂。</MessagePlantDiedOfRot_PollutedTerrain>
+  <MessagePlantDiedOfRot_PollutedTerrain>{0}因受污染的地形而枯萎腐烂了。</MessagePlantDiedOfRot_PollutedTerrain>
 
   <!-- EN: {PAWN_nameDef} must be downed before you can force {PAWN_objective} to reimplant {PAWN_possessive} xenogerm. -->
-  <MessageTargetMustBeDownedToForceReimplant>若要强行再植{PAWN_nameDef}的异种胚芽，必须先放倒{PAWN_objective}。</MessageTargetMustBeDownedToForceReimplant>
+  <MessageTargetMustBeDownedToForceReimplant>若要强行为其他人植入{PAWN_nameDef}的异种胚芽，则必须先放倒{PAWN_objective}。</MessageTargetMustBeDownedToForceReimplant>
 
   <!-- EN: {0_nameDef} is only {1} years old. {2} work can only be done from age {3}. -->
-  <MessageWorkTypeDisabledAge>{0_nameDef}只有{1}周岁。 {2}的工作只有等到{3}岁大之后才能开始。</MessageWorkTypeDisabledAge>
+  <MessageWorkTypeDisabledAge>{0_nameDef}只有{1}周岁。{2}的工作只有等到{3}岁大之后才能开始。</MessageWorkTypeDisabledAge>
 
   <!-- EN: {PAWN_nameDef} can now wake from deathrest safely. -->
   <MessageDeathrestingPawnCanWakeSafely>{PAWN_nameDef}现在可以从死眠中安全苏醒。</MessageDeathrestingPawnCanWakeSafely>

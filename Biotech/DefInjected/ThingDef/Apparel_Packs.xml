@@ -4,26 +4,22 @@
   <!-- EN: bandwidth pack -->
   <Apparel_PackBandwidth.label>带宽背包</Apparel_PackBandwidth.label>
   <!-- EN: A backpack containing bandwidth-expansion computer and antenna. It can increase a mechanitor's maximum total bandwidth. -->
-  <Apparel_PackBandwidth.description>一个包含带宽扩展计算机和信号天线的背包。它可以增加机械师的最大总带宽。</Apparel_PackBandwidth.description>
+  <Apparel_PackBandwidth.description>装有带宽扩展计算机和信号天线的背包。它可以增强机械师的带宽上限。</Apparel_PackBandwidth.description>
   
   <!-- EN: control pack -->
   <Apparel_PackControl.label>数控背包</Apparel_PackControl.label>
   <!-- EN: A backpack containing mech control assist computers. It allows a mechanitor to control one additional control group. -->
-  <Apparel_PackControl.description>一个装有机械体控制辅助单元的背包。它允许机械师控制一个额外的控制组。</Apparel_PackControl.description>
+  <Apparel_PackControl.description>装有机械体控制辅助计算机组的背包。它可以为机械师提供一个额外的控制组。</Apparel_PackControl.description>
   
   <!-- EN: tox pack -->
   <Apparel_PackTox.label>毒气背包</Apparel_PackTox.label>
   <!-- EN: A reusable backpack containing canisters of reagents and a mechanism that uses them to generate tox gas. When the wearer activates the pack, it will begin spreading tox gas and continue for several seconds until it runs out of reagents.\n\nOnce used, it must be reloaded with chemfuel before it can be used again.\n\nTox gas burns the lungs and eyes, causing a temporary shortness of breath and reduction in sight. Continued exposure to tox gas results in toxic buildup which can be lethal. -->
-  <Apparel_PackTox.description>一个装有试剂罐和毒气产生装置的可复用式背包。当被激活时，会持续释放毒气数秒直到试剂耗尽。\n\n一旦使用后，它必须重新装载化合燃料，才能再次使用。\n\n毒气会灼伤生物的眼睛与肺部，使视觉与呼吸能力暂时降低。持续暴露在毒气里还会引起中毒。</Apparel_PackTox.description>
+  <Apparel_PackTox.description>一种装有试剂罐和毒气释放装置的可复用式背包。当它被激活时，会持续释放毒气数秒，直到试剂完全耗尽。\n\n穿戴者可通过装填化合燃料来补充背包的使用次数。\n\n毒气会灼伤生物的眼睛与肺部，使视觉与呼吸能力暂时降低。持续暴露在毒气里还会引起中毒。</Apparel_PackTox.description>
   <!-- EN: tox pack -->
   <Apparel_PackTox.comps.CompApparelReloadable.chargeNoun>毒气背包</Apparel_PackTox.comps.CompApparelReloadable.chargeNoun>
   <!-- EN: on cooldown -->
-  <Apparel_PackTox.comps.CompApparelReloadable.cooldownGerund>正在冷却</Apparel_PackTox.comps.CompApparelReloadable.cooldownGerund>
+  <Apparel_PackTox.comps.CompApparelReloadable.cooldownGerund>冷却中</Apparel_PackTox.comps.CompApparelReloadable.cooldownGerund>
   <!-- EN: deploy tox pack -->
-  <Apparel_PackTox.verbs.deploy_tox_pack.label>部署毒气背包</Apparel_PackTox.verbs.deploy_tox_pack.label>
-  
-  <!-- UNUSED -->
-  <Apparel_PackTox.comps.CompReloadable.chargeNoun>毒气背包</Apparel_PackTox.comps.CompReloadable.chargeNoun>
-  <Apparel_PackTox.comps.CompReloadable.cooldownGerund>冷却中</Apparel_PackTox.comps.CompReloadable.cooldownGerund>
+  <Apparel_PackTox.verbs.deploy_tox_pack.label>释放毒气</Apparel_PackTox.verbs.deploy_tox_pack.label>
   
 </LanguageData>

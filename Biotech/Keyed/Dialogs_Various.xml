@@ -25,19 +25,19 @@
   <!-- EN: insufficient bandwidth -->
   <InsufficientBandwidth>带宽不足</InsufficientBandwidth>
   <!-- EN: The following mechs have been left behind by {PAWN_labelShort}:\n\n{MECHS}\n\nThe mechs will stay here until they are picked up.\n\nWould you like to set their work mode to escort so they follow {PAWN_labelShort} off the map? -->
-  <MechanitorLeftMapWithoutMechs>以下机械体被{PAWN_labelShort}留下：\n\n{MECHS}\n\n这些机械人将留在这里，直到他们被接管。\n\n您是否愿意将他们的工作模式设置为护送，以便他们跟随{PAWN_labelShort}离开地图？</MechanitorLeftMapWithoutMechs>
+  <MechanitorLeftMapWithoutMechs>以下机械体被{PAWN_labelShort}留下：\n\n{MECHS}\n\n这些机械体将留在这里，直到他们被接管。\n\n您是否愿意将他们的行动模式设置为护卫，以便他们跟随{PAWN_labelShort}离开地图？</MechanitorLeftMapWithoutMechs>
 
   <!-- Apparel -->
   <!-- EN: Any mechlord apparel -->
-  <ApparelRequirementAnyMechlordApparel>任意机械领主服装</ApparelRequirementAnyMechlordApparel>
+  <ApparelRequirementAnyMechlordApparel>任意机械领主衣物</ApparelRequirementAnyMechlordApparel>
   <!-- EN: or any psycaster, prestige, or mechlord apparel -->
-  <ApparelRequirementOrAnyPsycasterOrPrestigeApparelOrMechlord>或者任意灵质、贵族、机械领主服装</ApparelRequirementOrAnyPsycasterOrPrestigeApparelOrMechlord>
+  <ApparelRequirementOrAnyPsycasterOrPrestigeApparelOrMechlord>或者任意灵质、贵族、机械领主衣物</ApparelRequirementOrAnyPsycasterOrPrestigeApparelOrMechlord>
 
   <!-- Mech gestator -->
   <!-- EN: Gestation cycles completed -->
   <GestationCyclesCompleted>已完成培育周期</GestationCyclesCompleted>
   <!-- EN: Gathered ingredients -->
-  <FormerIngredients>已收集的成分</FormerIngredients>
+  <FormerIngredients>已收集的材料</FormerIngredients>
 
   <!-- Subcore scanner -->
   <!-- EN: Ripscanning {PAWN_nameDef} will kill {PAWN_objective}. Are you sure you want to continue? -->
@@ -103,7 +103,7 @@
   <!-- EN: Estimated recombination time -->
   <RecombineDuration>预计重组时间</RecombineDuration>
   <!-- EN: How long it would take for an average worker to combine the selected genes into a xenogerm. Recombination time increases with the total complexity of the genes in the xenogerm. -->
-  <RecombineDurationDesc>一个标准劳动单位要花多长时间才能把选定的基因结合成异种胚芽。重组时间随着异种胚芽中基因组的总复杂性而增加。</RecombineDurationDesc>
+  <RecombineDurationDesc>一个水平标准的工作者要花多长时间才能把选定的基因结合成异种胚芽。重组时间随着异种胚芽中基因组的总复杂性而增加。</RecombineDurationDesc>
   <!-- EN: You must research {0_label} before you can assemble a xenogerm that requires archite capsules. -->
   <MustResearchProject>在能够通过超凡胶囊组装异种胚芽之前你必须研究{0_label}。</MustResearchProject>
   <!-- EN: Assembling xenogerms with archite genes requires {0_label} research. -->
@@ -267,7 +267,7 @@
 
   <!-- Pollution -->
   <!-- EN: This tile is near polluted tiles, so there will be an acidic smog here roughly every {0} days. Acidic smog slows plant growth, deteriorates exposed items, and makes people unhappy. -->
-  <ConfirmSettleNearPollution>此区域靠近受污染的地形，故而这里大约每隔{0}天就会出现一次酸性烟雾。酸性烟雾会减缓植物生长，使暴露在外的物品加速老化，并且会导致人们不开心。</ConfirmSettleNearPollution>
+  <ConfirmSettleNearPollution>此区域靠近受污染的地形，故而这里大约每隔{0}天就会出现一次酸雾。酸雾会降低植物的生长速度，使暴露在外的物品加速老化，并且会导致人们不开心。</ConfirmSettleNearPollution>
 
   <!-- Pregnancy -->
   <!-- EN: {PAWN_nameDef} is away. -->
