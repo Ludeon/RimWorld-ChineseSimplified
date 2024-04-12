@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: security door -->
+  <SecurityDoor.label>安全门</SecurityDoor.label>
+  <!-- EN: Build a heavily reinforced door. It is slow to open and requires power, but is very strong. It's a good choice if you want to keep something dangerous out - or in. -->
+  <SecurityDoor.description>建造一扇经过重重加固的门。其开关速度较慢，需要供能，但优点是非常坚固。若需要将危险挡在门外或锁在门内，它是个不错的选择。</SecurityDoor.description>
+  <!-- EN:
+    <li>subject->security door</li>
+    <li>subject_story->worked as a security drone in a sealed research facility</li>
+    <li>subject_story->engineered security devices for a stellar trader</li>
+    <li>subject_story->researched materials science for a mercenary firm</li>
+    <li>subject_story->worked in a Glitterworld zoo</li>
+    <li>subject_gerund->constructing security doors</li>
+  -->
+  <SecurityDoor.generalRules.rulesStrings>
+    <li>subject->安全门</li>
+    <li>subject_story->曾在秘密研究设施中担任安保人员。</li>
+    <li>subject_story->曾为星际商队设计过安保装置。</li>
+    <li>subject_story->曾为一家佣兵公司研究材料科学。</li>
+    <li>subject_story->曾在一家闪耀世界动物园中工作。</li>
+    <li>subject_gerund->正在建造安全门</li>
+  </SecurityDoor.generalRules.rulesStrings>
+  
+  <!-- EN: turret pack -->
+  <TurretPack.label>炮塔背包</TurretPack.label>
+  <!-- EN: Build a wearable pack that allows the user to deploy a battery-powered turret. -->
+  <TurretPack.description>建造一只可穿戴式背包，使用它可以部署一个电池供电的炮塔。</TurretPack.description>
+  <!-- EN:
+    <li>subject->deployable turrets</li>
+    <li>subject_story->defended a feralworld castle from assault</li>
+    <li>subject_story->manned a tailgun on a Imperial dropship</li>
+    <li>subject_story->researched deployable military technology</li>
+    <li>subject_story->fought in the trench battles of the [worldname] War</li>
+    <li>subject_gerund->crafting deployable gun turrets</li>
+  -->
+  <TurretPack.generalRules.rulesStrings>
+    <li>subject->可部署炮塔</li>
+    <li>subject_story->曾保卫了一座荒野世界的城堡免遭袭击</li>
+    <li>subject_story->曾在一艘帝国飞艇上操作尾炮</li>
+    <li>subject_story->曾研究过可部署军用科技</li>
+    <li>subject_story->曾在[worldname]战争中打过堑壕战</li>
+    <li>subject_gerund->正在制作可部署机枪炮塔</li>
+  </TurretPack.generalRules.rulesStrings>
+  
+</LanguageData>

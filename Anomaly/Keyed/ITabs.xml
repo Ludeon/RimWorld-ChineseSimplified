@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>\n\n<LanguageData>
+
+  <!-- ITab_Entity -->
+  <HoldingPlatformEscapeMTBDays>逃脱间隔</HoldingPlatformEscapeMTBDays>
+  <HoldingPlatformEscapeMTBDaysDesc>每次尝试逃脱的平均时间间隔。此数值受到以下因素影响：收容强度，实体类别，实体的移动能力，以及实体的遭囚禁时间。有些实体会被低温所抑制。</HoldingPlatformEscapeMTBDaysDesc>
+  <TabEntity>实体</TabEntity>
+  <StudyInterval>研究间隔</StudyInterval>
+  <StudyIntervalDesc>多久能研究这个实体一次。</StudyIntervalDesc>
+  <EntityStudyMode_MaintainOnly>仅维持</EntityStudyMode_MaintainOnly>
+  <EntityStudyMode_MaintainOnlyDesc>狱卒不会对这个实体做出特殊举动，不过仍可进行其它互动。</EntityStudyMode_MaintainOnlyDesc>
+  <EntityStudyMode_Study>研究</EntityStudyMode_Study>
+  <EntityStudyMode_StudyDesc>研究者将会研究这个实体。</EntityStudyMode_StudyDesc>
+  <EntityStudyMode_Release>释放</EntityStudyMode_Release>
+  <EntityStudyMode_ReleaseDesc>一名狱卒会将这个实体从收容平台中释放。实体获释后可能会变为敌对状态。</EntityStudyMode_ReleaseDesc>
+  <EntityStudyMode_Execute>处决</EntityStudyMode_Execute>
+  <EntityStudyMode_ExecuteDesc>一名狱卒会将这个收押的实体处决。</EntityStudyMode_ExecuteDesc>
+  <CantBeExecuted>无法被处决。</CantBeExecuted>
+  <StudyKnowledgeGain>可获知识</StudyKnowledgeGain>
+  <StudyKnowledgeGainDesc>每轮调查间隔可获得的知识量。收容状况越好，研究者就越能专心调查，取得更多成果，而不是花心思担心自己的小命。</StudyKnowledgeGainDesc>
+  <MedicineQualityDescriptionEntity>对该实体供给什么类型的药品。</MedicineQualityDescriptionEntity>
+
+  <FactorForElectroharvester>汲电器</FactorForElectroharvester>
+  <FactorForDaysInCaptivity>长期收押</FactorForDaysInCaptivity>
+  <FactorForColdCaptivity>低温收容加成</FactorForColdCaptivity>
+  <IncapableOfEscaping>无法逃脱</IncapableOfEscaping>
+  <EntityDowned>实体被击倒</EntityDowned>
+  <FactorContainmentStrength>收容强度</FactorContainmentStrength>
+  <FactorElectroharvester>汲电器</FactorElectroharvester>
+  <FactorActivity>活跃</FactorActivity>\n\n</LanguageData>

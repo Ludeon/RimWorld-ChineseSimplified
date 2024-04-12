@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: anomaly research -->
+  <AnomalyResearch.label>异常点研究</AnomalyResearch.label>
+  <!-- EN: You must advance Anomaly research by studying unnatural entities.\n\nThere are two types of Anomaly research: BASIC and ADVANCED. Basic research projects progress when you study any entity; advanced projects only progress when you study advanced entities.\n\nYou can have a basic and an advanced project active at the same time. If no advanced project is active, advanced research will contribute to a basic project instead. -->
+  <AnomalyResearch.helpText>你必须通过研究超自然实体来推进异常点研究。\n\n异常点研究有两种：基础和高级。基础研究项目在研究任何实体时都会取得进展；高级项目只有在研究高级实体时才会取得进展。\n\n你可以同时激活基础和高级两个条目。如果当前没有激活高级项目，则获得的高级研究点数将自动分配到基础研究中。</AnomalyResearch.helpText>
+  
+  <!-- EN: capturing entities -->
+  <CapturingEntities.label>俘获实体</CapturingEntities.label>
+  <!-- EN: When an entity is downed but alive, you can CAPTURE it. To capture, select a colonist, right-click on the entity, and select 'Capture'. You'll need an empty holding platform or spot.\n\nOnce the entity has been brought to the holding platform, you can study it to gain Anomaly research.\n\nTend an injured entity’s wounds to make sure it survives. -->
+  <CapturingEntities.helpText>当一个实体被击倒但还活着时，你可以捕获它。如果想要捕获它，请选择一名殖民者，右键单击该实体，然后选择“俘获”。你还需要一个空出来的收容平台或者空间\n\n一旦实体被带到收容平台，你就可以对其进行研究，以获得异常点研究成果。\n\n别忘了治疗受伤实体的伤口，确保其存活。</CapturingEntities.helpText>
+  
+  <!-- EN: ghouls -->
+  <ColonyGhouls.label>食尸鬼</ColonyGhouls.label>
+  <!-- EN: Ghouls are humans twisted by bioferrite. They can quickly regenerate injuries, making them useful as melee fighters. However, they are incapable of work.\n\nGhouls only eat corpses and raw meat. If they go hungry, they can turn hostile. -->
+  <ColonyGhouls.helpText>食尸鬼是被灵铁侵蚀扭曲的人类。它们受伤后可以快速自愈，因此非常适合以近身战斗冲锋陷阵。不过它们无法做任何工作。\n\n食尸鬼只吃尸体和生肉，若是它们饿了，就会变成敌对状态。</ColonyGhouls.helpText>
+  
+  <!-- EN: containing entities -->
+  <ContainingEntities.label>收容实体</ContainingEntities.label>
+  <!-- EN: It's best to hold entities in secure chambers with high CONTAINMENT STRENGTH or they'll soon escape. Containment strength is increased by:\n\n - Strong walls and doors\n - Good lighting\n - Electric inhibitors (needs research)\n - Bioferrite plate floors (needs research)\n\nOpen the entity's 'Entity' tab to configure how your colonists will interact with it. -->
+  <ContainingEntities.helpText>最好将实体关在具有高收容强度的封闭密室中，否则它们很快就会逃走。提高收容强度的方法有：\n\n - 坚固的墙壁和门\n - 良好的照明\n - 电子抑制器（需要研发）\n - 灵铁板（需要研发）\n\n打开实体的“实体”标签页，调整殖民者与实体的互动方式。</ContainingEntities.helpText>
+  
+  <!-- EN: entity codex -->
+  <EntityCodex.label>实体图鉴</EntityCodex.label>
+  <!-- EN: Use the entity codex to track which entities you've discovered.\n\nDiscovering new entities will reveal hidden Anomaly research projects. Once enough entities have been discovered, you can increase the void monolith's level.\n\nOpen the entity codex using the entity codex icon in the lower right of the screen. -->
+  <EntityCodex.helpText>使用实体图鉴记录并查阅你已经发现的实体。\n\n发现新的实体将揭示隐藏的异常点研究项目。一旦发现足够多的实体，就可以提高虚空巨石等级。\n\n使用屏幕右下方的实体图鉴图标打开图鉴。</EntityCodex.helpText>
+  
+  <!-- EN: studying entities -->
+  <StudyingEntities.label>研究实体</StudyingEntities.label>
+  <!-- EN: Colonists assigned to 'Dark study' work will STUDY diverse entities including creatures and structures.\n\nStudy structures like the void monolith by selecting it and toggling the 'Study' option. Some entities must be captured to a holding platform or spot before they can be studied.\n\nStudying advances Anomaly research projects. Open the 'Research' tab, then select the 'Anomaly' sub-tab to view Anomaly research projects. -->
+  <StudyingEntities.helpText>被派遣从事“黑暗研究”工作的殖民者将研究包括生物和建筑在内的各种类型的实体。\n\n通过选择虚空巨石并切换到“研究”选项卡来研究像虚空巨石这样的结构。有些实体需要在俘获后收容到收容平台或者空间中才能进行研究。\n\n进行研究可以推进异常点研究项目。打开“研究”标签页，然后选择“异常点”，查看异常点研究项目。</StudyingEntities.helpText>
+  
+  <!-- EN: suppressing entities -->
+  <SuppressingEntities.label>镇压实体</SuppressingEntities.label>
+  <!-- EN: Some entities become more active over time, even in captivity. If an entity's activity bar fills completely, it will do something extremely dangerous.\n\nTo prevent full activation, you must periodically SUPPRESS it. Wardens will suppress entities. -->
+  <SuppressingEntities.helpText>有些实体即使是在收容状态下也会随着时间的推移变得更为活跃。如果实体的活跃度条已满，它就会做出极其危险的事情。\n\n为了这种局面，你必须定期压制它。狱卒会压制实体。</SuppressingEntities.helpText>
+  
+  <!-- EN: void provocation -->
+  <VoidProvocation.label>虚空扰动</VoidProvocation.label>
+  <!-- EN: Use the void provocation psychic ritual to discover and capture new entities.\n\nDiscovering entities will let you advance the void monolith to higher levels, and unlock new research projects. Capturing more entities will let you complete Anomaly research projects faster.\n\nPlace a psychic ritual spot in order to perform the void provocation ritual. -->
+  <VoidProvocation.helpText>使用虚空扰动的灵能仪式发现并俘获新的实体。\n\n发现实体可以将虚空巨石提升到更高的级别，并解锁新的研究项目。捕获更多实体可以让你更快地完成异常点研究项目。\n\n放置一个灵能仪式地点，以进行虚空扰动仪式。</VoidProvocation.helpText>
+  
+</LanguageData>

@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>r_root->[textDescSentence] [horrorDescSentence] [maybeSignature]</li>
+    <li>maybeSignature(p=3)-></li>
+    <li>maybeSignature->The author signs [PAWN_possessive] name: [PAWN_nameDef].</li>
+    <li>maybeSignature->It ends with a name: [PAWN_nameDef].</li>
+    <li>maybeSignature->The name [PAWN_nameDef] is scrawled at the bottom.</li>
+    <li>textDescSentence->The floor etchings are rambling and incoherent.</li>
+    <li>textDescSentence->The words are hard to make sense of.</li>
+    <li>textDescSentence->The strange etchings are written backwards.</li>
+    <li>textDescSentence->The writing is wobbly and weak.</li>
+    <li>textDescSentence->The writing becomes more and more bizarre as it goes on.</li>
+    <li>textDescSentence->The text is written in [writingMaterial] and has been partially wiped away.</li>
+    <li>textDescSentence->Cryptic symbols mix with jagged lettering.</li>
+    <li>textDescSentence->The writing is fragmented, as if interrupted multiple times.</li>
+    <li>textDescSentence->The inscriptions fade and reappear as the text goes on.</li>
+    <li>textDescSentence->This text is scrawled in [writingMaterial], forming frantic patterns.</li>
+    <li>horrorDescSentence->Only one phrase can clearly be read: [rambling].</li>
+    <li>horrorDescSentence->One phrase repeats over and over: [rambling].</li>
+    <li>horrorDescSentence->Every sentence ends with the same phrase: [rambling].</li>
+    <li>horrorDescSentence->Words run in a circle, endlessly repeating the same phrase: [rambling].</li>
+    <li>horrorDescSentence->The author seems convinced that a metal parasite lives under [PAWN_possessive] skin. [PAWN_pronoun] describes intense pain as it shifts and squirms.</li>
+    <li>horrorDescSentence->The author accuses her friend of injecting her with a metal parasite. [PAWN_pronoun] describes the horrible feeling of it growing inside [PAWN_objective].</li>
+    <li>horrorDescSentence->The author begs for freedom from [PAWN_possessive] tormentor: [horrorDesc].</li>
+    <li>horrorDescSentence->The same lines repeat over and over, describing [horrorDesc].</li>
+    <li>horrorDescSentence->An odd poem describes [horrorDesc].</li>
+    <li>horrorDescSentence->The words struggle to describe [horrorDesc].</li>
+    <li>horrorDescSentence->The shaky writing describes the author's reaction to a vision of [horrorDesc].</li>
+    <li>horrorDescSentence->Drawings accompany the text, depicting [horrorDesc].</li>
+    <li>horrorDescSentence->Frantic sketches illustrate [horrorDesc], with notes annotating its features.</li>
+    <li>horrorDescSentence->A chilling chant describes [horrorDesc].</li>
+    <li>horrorDescSentence->Visceral illustrations intersperse the text, all hinting at [horrorDesc].</li>
+    <li>horrorDescSentence->Whispered tales in the margins tell of [horrorDesc].</li>
+    <li>horrorDescSentence->The writer's frantic tone builds to a climax focused on [horrorDesc].</li>
+    <li>horrorDescSentence->Patterns form within the etchings, each culminating in a depiction of [horrorDesc].</li>
+    <li>horrorDescSentence->The words are intertwined with vivid images of [horrorDesc].</li>
+    <li>horrorDescSentence->A haunting lullaby is written alongside descriptions of [horrorDesc].</li>
+    <li>horrorDescSentence->Desperate pleas for mercy are juxtaposed with tales of [horrorDesc].</li>
+    <li>horrorDesc->an invisible creature that consumes the minds of the unbelievers</li>
+    <li>horrorDesc->an impossible void-black sphere that pulses with pure suffering</li>
+    <li>horrorDesc->a creature with bones for limbs, made of twisted meat and flesh</li>
+    <li>horrorDesc->a being made entirely of shadow, eyes gleaming like stars</li>
+    <li>horrorDesc->a man made of razor-sharp, blood-soaked knives</li>
+    <li>horrorDesc->a mass of spinning blades emerging from an abyss</li>
+    <li>horrorDesc->a silent child with a mouth stretching across its entire face</li>
+    <li>horrorDesc->a grand twisted tower made of spikes and blades</li>
+    <li>horrorDesc->a bizarre animal-like creature with features from several different species</li>
+    <li>horrorDesc->a misshapen human figure with its body parts rearranged</li>
+    <li>horrorDesc->a vast crowd of humans, all dead and rotten</li>
+    <li>horrorDesc->human figures in terrifying masks of spikes</li>
+    <li>rambling->let me out</li>
+    <li>rambling->help me</li>
+    <li>rambling->save me</li>
+    <li>rambling->it watches</li>
+    <li>rambling->it won't let go</li>
+    <li>rambling->let go</li>
+    <li>rambling->I hear its voice</li>
+    <li>rambling->time is a lie</li>
+    <li>rambling->take the pain away</li>
+    <li>rambling->black ocean</li>
+    <li>rambling->cutting and cutting</li>
+    <li>rambling->whispers in the void</li>
+    <li>rambling->it's always behind me</li>
+    <li>rambling->so many eyes</li>
+    <li>rambling->inside my head</li>
+    <li>rambling->drowning in silence</li>
+    <li>rambling->it knows my name</li>
+    <li>rambling->shadows move</li>
+    <li>rambling->no way out</li>
+    <li>rambling->the darkness speaks</li>
+    <li>rambling->they are watching</li>
+    <li>writingMaterial->chalk</li>
+    <li>writingMaterial->soot</li>
+    <li>writingMaterial->smeared fluid</li>
+    <li>writingMaterial->burned ash</li>
+    <li>writingMaterial->dark ink</li>
+  -->
+  <LabyrinthRamblings.rulePack.rulesStrings>
+    <li>r_root->[textDescSentence][horrorDescSentence][maybeSignature]</li>
+    <li>maybeSignature(p=3)-></li>
+    <li>maybeSignature->作者在这里署了[PAWN_possessive]签名：[PAWN_nameDef]。</li>
+    <li>maybeSignature->结尾是一个名字：[PAWN_nameDef]。</li>
+    <li>maybeSignature->底部潦草地写着[PAWN_nameDef]这个名字。</li>
+    <li>textDescSentence->地板上的刻画漫无边际，语无伦次。</li>
+    <li>textDescSentence->这些文字晦涩难懂。</li>
+    <li>textDescSentence->这些奇怪的刻画是倒着写的。</li>
+    <li>textDescSentence->文字摇摆不定，软弱无力。</li>
+    <li>textDescSentence->越往后，字迹就变得越来越离奇。</li>
+    <li>textDescSentence->文字以[writingMaterial]书写，部分已被擦去。</li>
+    <li>textDescSentence->神秘的符号与参差不齐的字迹混杂在一起。</li>
+    <li>textDescSentence->字迹支离破碎，仿佛多次中断。</li>
+    <li>textDescSentence->随着字迹逐渐延伸，刻画逐渐消失，却又重新出现。</li>
+    <li>textDescSentence->这些文字用[writingMaterial]潦草地写成，形成了令人疯狂的图案。</li>
+    <li>horrorDescSentence->只能清晰地分辨出一句话：[rambling]。</li>
+    <li>horrorDescSentence->这一句话一次又一次地出现：[rambling]。</li>
+    <li>horrorDescSentence->每句话的结尾都是这句话：[rambling]。</li>
+    <li>horrorDescSentence->词语循环往复，无休止地重复着同一句话：[rambling]。</li>
+    <li>horrorDescSentence->作者似乎确信[PAWN_possessive]皮肤下寄生着一只金属寄生虫。[PAWN_pronoun]描述了金属寄生虫蠕动时的剧烈疼痛。</li>
+    <li>horrorDescSentence->作者声称她的朋友给她注射了一种金属寄生虫。[PAWN_pronoun]描述了金属寄生虫在[PAWN_objective]体内生长的可怕感觉。</li>
+    <li>horrorDescSentence->作者希望能重获自由，苦苦哀求着折磨[PAWN_pronoun]的人：[horrorDesc]。</li>
+    <li>horrorDescSentence->同样的句子反复出现，描述着[horrorDesc]。</li>
+    <li>horrorDescSentence->一首奇特的诗描述了[horrorDesc]。</li>
+    <li>horrorDescSentence->这些文字艰难地形容着[horrorDesc]。</li>
+    <li>horrorDescSentence->颤抖的文字描述了作者对[horrorDesc]幻象的反应。</li>
+    <li>horrorDescSentence->文本还附有图画，描绘了[horrorDesc]。</li>
+    <li>horrorDescSentence->疯狂的草图说明了[horrorDesc]，并注释了其特征。</li>
+    <li>horrorDescSentence->令人不寒而栗的吟唱描述了[horrorDesc]。</li>
+    <li>horrorDescSentence->内涵丰富的插图穿插在文字中，都暗示着[horrorDesc]。</li>
+    <li>horrorDescSentence->空白处的轻语传说讲述着[horrorDesc]的故事。</li>
+    <li>horrorDescSentence->作者疯狂的语调将对[horrorDesc]的描写推向高潮。</li>
+    <li>horrorDescSentence->刻画中形成的图案，每一幅都是对[horrorDesc]的描绘。</li>
+    <li>horrorDescSentence->字里行间交织着[horrorDesc]的生动形象。</li>
+    <li>horrorDescSentence->在描述[horrorDesc]的同时，还写下了一首阴森恐怖的摇篮曲。</li>
+    <li>horrorDescSentence->[horrorDesc]的故事与绝望的求饶夹杂在一起。</li>
+    <li>horrorDesc->一只吞噬无信仰者思想的隐形生物</li>
+    <li>horrorDesc->一个散发着纯粹痛苦的虚空黑色球体</li>
+    <li>horrorDesc->一只由扭曲的血肉与骨骼组成的生物</li>
+    <li>horrorDesc->拥有一双闪闪发光眼睛的暗影实体</li>
+    <li>horrorDesc->一个浑身遍布沾满鲜血的利刃的人</li>
+    <li>horrorDesc->一大堆从深渊中冒出来的旋转锯刃</li>
+    <li>horrorDesc->一个嘴巴裂成整张脸宽的沉默孩童</li>
+    <li>horrorDesc->一座由尖刺和利刃组成的宏伟扭曲塔楼</li>
+    <li>horrorDesc->一只具有不同物种特征的奇异生物</li>
+    <li>horrorDesc->一个肢体变形错位的畸形人</li>
+    <li>horrorDesc->一大群死于非命腐烂发臭的人</li>
+    <li>horrorDesc->戴着可怕尖刺面具的人形雕像</li>
+    <li>rambling->放我出去</li>
+    <li>rambling->帮帮我</li>
+    <li>rambling->救命</li>
+    <li>rambling->它在凝视</li>
+    <li>rambling->它不放手</li>
+    <li>rambling->放开我</li>
+    <li>rambling->我听见那个声音了</li>
+    <li>rambling->时间是谎言</li>
+    <li>rambling->带我脱离苦海</li>
+    <li>rambling->黑色海洋</li>
+    <li>rambling->切呀切</li>
+    <li>rambling->虚空中的耳语</li>
+    <li>rambling->它就在我身后</li>
+    <li>rambling->如此多的目光</li>
+    <li>rambling->就在我脑子里</li>
+    <li>rambling->沉溺于寂静</li>
+    <li>rambling->它知道我名字</li>
+    <li>rambling->阴影在移动</li>
+    <li>rambling->无路可逃</li>
+    <li>rambling->黑暗在开口</li>
+    <li>rambling->它们在注视</li>
+    <li>writingMaterial->粉笔</li>
+    <li>writingMaterial->煤灰</li>
+    <li>writingMaterial->污水</li>
+    <li>writingMaterial->烟灰</li>
+    <li>writingMaterial->深色墨水</li>
+  </LabyrinthRamblings.rulePack.rulesStrings>
+  
+</LanguageData>

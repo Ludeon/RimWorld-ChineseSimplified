@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: creepy words -->
+  <CreepyWords.label>阴森之语</CreepyWords.label>
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_nameDef] [rambled] about [subjectInsane].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [rambled] [darkSpeechAdverb] about [subjectInsane].</li>
+  -->
+  <CreepyWords.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef][rambled]关于[subjectInsane]的事。</li>
+    <li>r_logentry->[INITIATOR_nameDef][darkSpeechAdverb][rambled]关于[subjectInsane]的事。</li>
+  </CreepyWords.logRulesInitiator.rulesStrings>
+  
+  <!-- EN: strange chat -->
+  <DisturbingChat.label>诡异闲谈</DisturbingChat.label>
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_nameDef] [disturbed] [RECIPIENT_nameDef] by [talkingAbout] [subjectDisturbing].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [spoke] [darkSpeechAdverb] to [RECIPIENT_nameDef] about [subjectDisturbing].</li>
+    <li>spoke->spoke</li>
+    <li>spoke->muttered</li>
+    <li>spoke->stammered</li>
+    <li>spoke->whined</li>
+    <li>spoke->grunted</li>
+    <li>spoke->mumbled</li>
+    <li>spoke(p=5)->[rambled]</li>
+    <li>subjectDisturbing->[subjectDarkStudy]</li>
+    <li>subjectDisturbing->[subjectInsane]</li>
+    <li>disturbed->disturbed</li>
+    <li>disturbed->horrified</li>
+    <li>disturbed->frightened</li>
+    <li>disturbed->upset</li>
+    <li>disturbed->perturbed</li>
+    <li>disturbed->unsettled</li>
+    <li>disturbed->disconcerted</li>
+    <li>disturbed->unnerved</li>
+    <li>disturbed->alarmed</li>
+    <li>disturbed->distressed</li>
+    <li>disturbed->dismayed</li>
+    <li>maybeDarkSpeechAdverb-></li>
+    <li>maybeDarkSpeechAdverb->[darkSpeechAdverb]</li>
+    <li>talkingAbout->describing</li>
+    <li>talkingAbout->explaining</li>
+    <li>talkingAbout->moaning [maybeDarkSpeechAdverb] about</li>
+    <li>talkingAbout->talking [maybeDarkSpeechAdverb] about</li>
+    <li>talkingAbout->ranting [maybeDarkSpeechAdverb] about</li>
+    <li>talkingAbout->going into detail about</li>
+  -->
+  <DisturbingChat.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef]由于[talkingAbout][subjectDisturbing]而让[RECIPIENT_nameDef][disturbed]。</li>
+    <li>r_logentry->[INITIATOR_nameDef][RECIPIENT_nameDef][darkSpeechAdverb]向[spoke]关于[subjectDisturbing]的事。</li>
+    <li>spoke->谈到了</li>
+    <li>spoke->嘀咕了</li>
+    <li>spoke->结巴地讲了</li>
+    <li>spoke->抱怨了</li>
+    <li>spoke->嘟囔了</li>
+    <li>spoke->含糊地说了</li>
+    <li>spoke(p=5)->[rambled]</li>
+    <li>subjectDisturbing->[subjectDarkStudy]</li>
+    <li>subjectDisturbing->[subjectInsane]</li>
+    <li>disturbed->焦虑了</li>
+    <li>disturbed->恐惧了</li>
+    <li>disturbed->害怕了</li>
+    <li>disturbed->伤心了</li>
+    <li>disturbed->烦躁了</li>
+    <li>disturbed->不安了</li>
+    <li>disturbed->惊慌了</li>
+    <li>disturbed->泄气了</li>
+    <li>disturbed->警觉了</li>
+    <li>disturbed->难过了</li>
+    <li>disturbed->灰心了</li>
+    <li>maybeDarkSpeechAdverb-></li>
+    <li>maybeDarkSpeechAdverb->[darkSpeechAdverb]</li>
+    <li>talkingAbout->描述着</li>
+    <li>talkingAbout->解释着</li>
+    <li>talkingAbout->[maybeDarkSpeechAdverb]抱怨着关于</li>
+    <li>talkingAbout->[maybeDarkSpeechAdverb]谈论着关于</li>
+    <li>talkingAbout->[maybeDarkSpeechAdverb]咆哮着关于</li>
+    <li>talkingAbout->详尽讲述着关于</li>
+  </DisturbingChat.logRulesInitiator.rulesStrings>
+  
+  <!-- EN: inhuman rambling -->
+  <InhumanRambling.label>非人之谈</InhumanRambling.label>
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_nameDef] [rambled] about [subjectInsane].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [rambled] [darkSpeechAdverb] about [subjectInsane].</li>
+  -->
+  <InhumanRambling.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef][rambled]关于[subjectInsane]的事。</li>
+    <li>r_logentry->[INITIATOR_nameDef][darkSpeechAdverb][rambled]关于[subjectInsane]的事。</li>
+  </InhumanRambling.logRulesInitiator.rulesStrings>
+  
+  <!-- EN: interrogate identity -->
+  <InterrogateIdentity.label>身份审讯</InterrogateIdentity.label>
+  <!-- EN:
+    <li>askedAbout->interrogated [RECIPIENT_nameDef] about</li>
+    <li>askedAbout->asked [RECIPIENT_nameDef] about</li>
+    <li>askedAbout->pressed [RECIPIENT_nameDef] for details about</li>
+    <li>askedAbout->inquired [RECIPIENT_nameDef] about</li>
+    <li>askedAbout->grilled [RECIPIENT_nameDef] on</li>
+    <li>askedAbout->pushed [RECIPIENT_nameDef] for answers about</li>
+    <li>askedAbout->asked [RECIPIENT_nameDef] tricky questions about</li>
+    <li>askedAbout->tried to catch [RECIPIENT_nameDef] off-guard with questions about</li>
+    <li>askedAbout->screamed at [RECIPIENT_nameDef], demanding information about</li>
+    <li>askedAbout->bombarded [RECIPIENT_nameDef] with inquiries about</li>
+    <li>askedAbout->confronted [RECIPIENT_nameDef] regarding</li>
+    <li>askedAbout->pestered [RECIPIENT_nameDef] about</li>
+    <li>askedAbout->probed [RECIPIENT_nameDef] on the subject of</li>
+    <li>identityTopic->[RECIPIENT_possessive] previous work</li>
+    <li>identityTopic->[RECIPIENT_possessive] previous relationships with other factions</li>
+    <li>identityTopic->[RECIPIENT_possessive] birth</li>
+    <li>identityTopic->[RECIPIENT_possessive] upbringing</li>
+    <li>identityTopic->[RECIPIENT_possessive] parents</li>
+    <li>identityTopic->[RECIPIENT_possessive] old friends</li>
+    <li>identityTopic->[RECIPIENT_possessive] romantic history</li>
+    <li>identityTopic->[RECIPIENT_possessive] likes and dislikes</li>
+    <li>identityTopic->[RECIPIENT_possessive] emotional responses to disturbing situations</li>
+    <li>identityTopic->[RECIPIENT_possessive] food preferences</li>
+    <li>identityTopic->[RECIPIENT_possessive] deepest fears</li>
+    <li>identityTopic->[RECIPIENT_possessive] cherished memories</li>
+    <li>identityTopic->[RECIPIENT_possessive] personal regrets</li>
+    <li>identityTopic->[RECIPIENT_possessive] dreams and aspirations</li>
+    <li>identityTopic->[RECIPIENT_possessive] reasons for joining [RECIPIENT_possessive] current faction</li>
+    <li>identityTopic->[RECIPIENT_possessive] role in a past significant event</li>
+    <li>identityTopic->[RECIPIENT_possessive] hobbies and pastimes</li>
+    <li>identityTopic->[RECIPIENT_possessive] moral values and principles</li>
+    <li>identityTopic->[RECIPIENT_possessive] motivations</li>
+    <li>identityTopic->reasons behind [RECIPIENT_possessive] major decisions</li>
+    <li>identityTopic->past traumatic experiences</li>
+    <li>identityTopic->human thought processes</li>
+    <li>identityTopic->childhood experiences</li>
+    <li>identityTopic->school experiences</li>
+    <li>identityTopic->cultural experiences</li>
+    <li>r_logentry->[INITIATOR_nameDef] [askedAbout] [identityTopic].</li>
+  -->
+  <InterrogateIdentity.logRulesInitiator.rulesStrings>
+    <li>askedAbout->向[RECIPIENT_nameDef]审问了关于</li>
+    <li>askedAbout->向[RECIPIENT_nameDef]询问了关于</li>
+    <li>askedAbout->向[RECIPIENT_nameDef]追问了关于</li>
+    <li>askedAbout->向[RECIPIENT_nameDef]质询了关于</li>
+    <li>askedAbout->向[RECIPIENT_nameDef]拷问了关于</li>
+    <li>askedAbout->向[RECIPIENT_nameDef]催问了关于</li>
+    <li>askedAbout->狡诈地向[RECIPIENT_nameDef]提问了关于</li>
+    <li>askedAbout->试图趁着[RECIPIENT_nameDef]没有防备向其询问关于[RECIPIENT_nameDef]</li>
+    <li>askedAbout->冲[RECIPIENT_nameDef]大吼大叫，试图敲出关于</li>
+    <li>askedAbout->狂轰滥炸般地向[RECIPIENT_nameDef]提问了关于</li>
+    <li>askedAbout->与[RECIPIENT_nameDef]对峙了关于</li>
+    <li>askedAbout->不厌其烦地向[RECIPIENT_nameDef]说着关于</li>
+    <li>askedAbout->与[RECIPIENT_nameDef]探讨了关于</li>
+    <li>identityTopic->[RECIPIENT_possessive][RECIPIENT_pronoun]先前的旧职</li>
+    <li>identityTopic->[RECIPIENT_possessive][RECIPIENT_pronoun]先前同其它派系的关系</li>
+    <li>identityTopic->[RECIPIENT_possessive]出身</li>
+    <li>identityTopic->[RECIPIENT_possessive]成长经历</li>
+    <li>identityTopic->[RECIPIENT_possessive]父母</li>
+    <li>identityTopic->[RECIPIENT_possessive]老朋友</li>
+    <li>identityTopic->[RECIPIENT_possessive]罗曼史</li>
+    <li>identityTopic->[RECIPIENT_possessive]喜好和憎恶</li>
+    <li>identityTopic->[RECIPIENT_possessive][RECIPIENT_pronoun]面对不安时反应</li>
+    <li>identityTopic->[RECIPIENT_possessive][RECIPIENT_pronoun]爱吃什么</li>
+    <li>identityTopic->[RECIPIENT_possessive][RECIPIENT_pronoun]最害怕什么</li>
+    <li>identityTopic->[RECIPIENT_possessive]珍视回忆</li>
+    <li>identityTopic->[RECIPIENT_possessive]遗憾之事</li>
+    <li>identityTopic->[RECIPIENT_possessive]壮志与梦想</li>
+    <li>identityTopic->[RECIPIENT_possessive][RECIPIENT_pronoun]加入当前派系的理由</li>
+    <li>identityTopic->[RECIPIENT_possessive][RECIPIENT_pronoun]在之前某个大事件中扮演的角色</li>
+    <li>identityTopic->[RECIPIENT_possessive]兴趣与消遣</li>
+    <li>identityTopic->[RECIPIENT_possessive]原则和三观</li>
+    <li>identityTopic->[RECIPIENT_possessive]动机</li>
+    <li>identityTopic->[RECIPIENT_pronoun]做出某些重大决定的理由</li>
+    <li>identityTopic->过去的创伤经历</li>
+    <li>identityTopic->人类思维过程</li>
+    <li>identityTopic->儿时经历</li>
+    <li>identityTopic->校园经历</li>
+    <li>identityTopic->文化经历</li>
+    <li>r_logentry->[INITIATOR_nameDef][askedAbout][identityTopic]的事情。</li>
+  </InterrogateIdentity.logRulesInitiator.rulesStrings>
+  
+  <!-- EN: occult teaching -->
+  <OccultTeaching.label>奥秘传授</OccultTeaching.label>
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_nameDef] explained [INITIATOR_possessive] theories about [subjectDarkStudy] to [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[RECIPIENT_nameDef] shared [INITIATOR_possessive] ideas about [subjectDarkStudy] with [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[RECIPIENT_nameDef] spoke about [subjectDarkStudy].</li>
+    <li>r_logentry->[RECIPIENT_nameDef] went over the subject of [subjectDarkStudy].</li>
+    <li>r_logentry->[RECIPIENT_nameDef] taught a lesson on [subjectDarkStudy].</li>
+  -->
+  <OccultTeaching.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef]向[RECIPIENT_nameDef]解释了自己对于[subjectDarkStudy]的理论了解。</li>
+    <li>r_logentry->[RECIPIENT_nameDef][INITIATOR_nameDef]向分享了自己对于[subjectDarkStudy]的理念认识。</li>
+    <li>r_logentry->[RECIPIENT_nameDef]说起关于[subjectDarkStudy]的事。</li>
+    <li>r_logentry->[RECIPIENT_nameDef]反复讲着关于[subjectDarkStudy]的事。</li>
+    <li>r_logentry->[RECIPIENT_nameDef]就[subjectDarkStudy]的事上了一堂课。</li>
+  </OccultTeaching.logRulesInitiator.rulesStrings>
+  
+  <!-- EN: prisoner study -->
+  <PrisonerStudyAnomaly.label>囚犯调查</PrisonerStudyAnomaly.label>
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_nameDef] asked [RECIPIENT_nameDef] about [subjectDarkStudy].</li>
+    <li>r_logentry->[INITIATOR_nameDef] inquired about [subjectDarkStudy].</li>
+    <li>r_logentry->[RECIPIENT_nameDef] mumbled about [subjectInsane].</li>
+  -->
+  <PrisonerStudyAnomaly.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef]向[RECIPIENT_nameDef]询问了关于[subjectDarkStudy]的事。</li>
+    <li>r_logentry->[INITIATOR_nameDef]质询了关于[subjectDarkStudy]的事。</li>
+    <li>r_logentry->[RECIPIENT_nameDef]含糊地说了关于[subjectInsane]的事。</li>
+  </PrisonerStudyAnomaly.logRulesInitiator.rulesStrings>
+  
+</LanguageData>

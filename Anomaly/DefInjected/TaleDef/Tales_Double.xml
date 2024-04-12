@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: healed me -->
+  <HealedMe.label>治疗了我</HealedMe.label>
+  
+  <!-- EN: mutated my arm -->
+  <MutatedMyArm.label>手臂变异了</MutatedMyArm.label>
+  
+  <!-- EN: studied an entity -->
+  <StudiedEntity.label>研究了实体</StudiedEntity.label>
+  <!-- EN:
+    <li>tale_noun->[STUDIER_nameDef] studying [ENTITY_nameIndef]</li>
+    <li>image->[STUDIER_nameFull] carefully examining [ENTITY_nameDef] [circumstance_group]</li>
+    <li>image->[STUDIER_nameFull] conducting experiments, seeking to understand the secrets of [ENTITY_nameDef], [circumstance_group]</li>
+    <li>image->[STUDIER_nameFull] striving to comprehend the nature of [ENTITY_nameDef] [circumstance_group]</li>
+    <li>circumstance_phrase->with barely concealed disgust in [STUDIER_possessive] eyes</li>
+    <li>circumstance_phrase->while scribbling in a notebook</li>
+    <li>circumstance_phrase->while consulting an ancient tome</li>
+    <li>desc_sentence->The steady work of bioferrite harvesters can be seen in the background.</li>
+    <li>desc_sentence->The colonist's deep fascination with [ENTITY_nameDef] is evident.</li>
+    <li>desc_sentence->[STUDIER_nameDef] is completely absorbed in [STUDIER_possessive] study of [ENTITY_nameDef], striving to unlock its secrets.</li>
+    <li>desc_sentence->[ENTITY_nameDef] is only just held in the place by the ceaseless work of electro-inhibitors.</li>
+    <li>desc_sentence->[ENTITY_nameDef] does not appear to react to [STUDIER_nameDef]'s efforts.</li>
+  -->
+  <StudiedEntity.rulePack.rulesStrings>
+    <li>tale_noun->[STUDIER_nameDef]正在研究[ENTITY_nameIndef]</li>
+    <li>image->[STUDIER_nameFull][circumstance_group]，正在细细检查[ENTITY_nameDef]</li>
+    <li>image->[STUDIER_nameFull][circumstance_group]，正在做实验，希望能够理解[ENTITY_nameDef]的奥秘</li>
+    <li>image->[STUDIER_nameFull][circumstance_group]，力求理解[ENTITY_nameDef]的本质</li>
+    <li>circumstance_phrase->眼神中几乎掩饰不住厌恶</li>
+    <li>circumstance_phrase->在笔记本上涂涂写写</li>
+    <li>circumstance_phrase->不时参阅古籍</li>
+    <li>desc_sentence->背景中可以看到灵铁采集器正在稳定工作。</li>
+    <li>desc_sentence->殖民者对[ENTITY_nameDef]的深深迷恋简直显而易见。</li>
+    <li>desc_sentence->[STUDIER_nameDef]完全沉浸于手头的研究。努力揭开[ENTITY_nameDef]的秘密。</li>
+    <li>desc_sentence->[ENTITY_nameDef]仅仅只是在电子抑制器的不懈运转下才得以勉强维生。</li>
+    <li>desc_sentence->[ENTITY_nameDef]似乎对[STUDIER_nameDef]的努力毫无反应。</li>
+  </StudiedEntity.rulePack.rulesStrings>
+  
+</LanguageData>
