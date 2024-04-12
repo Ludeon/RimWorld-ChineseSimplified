@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: chimera -->
+  <Chimera.label>奇美拉</Chimera.label>
+  <!-- EN: A huge creature that resembles a disfigured combination of a bear and other animals. It is vicious without limit.\n\nIt's not known if this is a combination of natural animals or a poor imitation of animal life created by an insane machine mind. -->
+  <Chimera.description>一种巨大的生物，仿佛是将一头熊与其他动物缝合在了一起，极为凶残。\n\n没人知道它到底是自然界的鬼斧神工，还是疯狂的机械智能对生命的拙劣模仿。</Chimera.description>
+  <!-- EN: chimera -->
+  <Chimera.comps.CompChimera.simpleAnimalLabel>奇美拉</Chimera.comps.CompChimera.simpleAnimalLabel>
+  <!-- EN: left claw -->
+  <Chimera.tools.left_claw.label>左爪</Chimera.tools.left_claw.label>
+  <!-- EN: claw -->
+  <Chimera.tools.left_claw.labelNoLocation>爪</Chimera.tools.left_claw.labelNoLocation>
+  <!-- EN: right claw -->
+  <Chimera.tools.right_claw.label>右爪</Chimera.tools.right_claw.label>
+  <!-- EN: claw -->
+  <Chimera.tools.right_claw.labelNoLocation>爪</Chimera.tools.right_claw.labelNoLocation>
+  <!-- EN: head -->
+  <Chimera.tools.head.label>头</Chimera.tools.head.label>
+  
+  <!-- EN: human -->
+  <CreepJoiner.label>人类</CreepJoiner.label>
+  <!-- EN: A baseline human, mostly unmodified by gene engineering and mostly unchanged by evolutionary pressures on non-Earth planets. -->
+  <CreepJoiner.description>普通的人类，绝大多数都没有被基因工程改造，也没有因类地行星上的生存压力而进化。</CreepJoiner.description>
+  <!-- EN: left fist -->
+  <CreepJoiner.tools.left_fist.label>左拳</CreepJoiner.tools.left_fist.label>
+  <!-- EN: fist -->
+  <CreepJoiner.tools.left_fist.labelNoLocation>拳头</CreepJoiner.tools.left_fist.labelNoLocation>
+  <!-- EN: right fist -->
+  <CreepJoiner.tools.right_fist.label>右拳</CreepJoiner.tools.right_fist.label>
+  <!-- EN: fist -->
+  <CreepJoiner.tools.right_fist.labelNoLocation>拳头</CreepJoiner.tools.right_fist.labelNoLocation>
+  <!-- EN: teeth -->
+  <CreepJoiner.tools.teeth.label>牙齿</CreepJoiner.tools.teeth.label>
+  <!-- EN: head -->
+  <CreepJoiner.tools.head.label>头</CreepJoiner.tools.head.label>
+  
+  <!-- EN: devourer -->
+  <Devourer.label>吞噬者</Devourer.label>
+  <!-- EN: A massive monster with a gaping toothed maw and a stubby, snake-like body. The devourer can leap several times its body length to swallow a person whole. Powerful stomach acids rapidly digest the still-living victim. The remains are regurgitated soon after. -->
+  <Devourer.description>拥有血盆大口以及和蟒蛇一样粗壮身体的巨型怪物。吞噬者能跃起数倍于身体长度的高度，将人整个吞下。受害者往往还没咽气，就会被其强大的胃酸迅速消化。剩余的残骸很快就会被反刍出来。</Devourer.description>
+  <!-- EN: Digesting {PAWN_nameDef}: {SECONDS} seconds left -->
+  <Devourer.comps.CompDevourer.digestingInspector>正在消化{PAWN_nameDef}：剩余 {SECONDS} 秒</Devourer.comps.CompDevourer.digestingInspector>
+  <!-- EN: A devourer swallowed {PAWN_nameDef} whole! Kill the devourer before it digests {PAWN_nameDef}. -->
+  <Devourer.comps.CompDevourer.messageDigested>吞噬者将{PAWN_nameDef}整个吞了下去！赶在{PAWN_nameDef}被其消化前迅速击杀吞噬者。</Devourer.comps.CompDevourer.messageDigested>
+  <!-- EN: The devourer has regurgitated {PAWN_nameDef}. -->
+  <Devourer.comps.CompDevourer.messageDigestionCompleted>吞噬者反刍吐出了{PAWN_nameDef}的遗骸。</Devourer.comps.CompDevourer.messageDigestionCompleted>
+  <!-- EN: {PAWN_nameDef} emerged from the devourer. -->
+  <Devourer.comps.CompDevourer.messageEmerged>{PAWN_nameDef}从吞噬者体内爬了出来。</Devourer.comps.CompDevourer.messageEmerged>
+  <!-- EN: {PAWN_nameDef} emerged from the devourer's corpse. -->
+  <Devourer.comps.CompDevourer.messageEmergedCorpse>{PAWN_nameDef}从死去的吞噬者体内爬了出来。</Devourer.comps.CompDevourer.messageEmergedCorpse>
+  <!-- EN: left fin -->
+  <Devourer.tools.left_fin.label>左鳍</Devourer.tools.left_fin.label>
+  <!-- EN: fin -->
+  <Devourer.tools.left_fin.labelNoLocation>鳍</Devourer.tools.left_fin.labelNoLocation>
+  <!-- EN: right fin -->
+  <Devourer.tools.right_fin.label>右鳍</Devourer.tools.right_fin.label>
+  <!-- EN: fin -->
+  <Devourer.tools.right_fin.labelNoLocation>鳍</Devourer.tools.right_fin.labelNoLocation>
+  <!-- EN: teeth -->
+  <Devourer.tools.teeth.label>牙齿</Devourer.tools.teeth.label>
+  
+  <!-- EN: fleshmass nucleus -->
+  <FleshmassNucleus.label>血肉块核心</FleshmassNucleus.label>
+  <!-- EN: The archotech core of a fleshmass heart. It is a chaotic lattice of fluid-smeared metal. Solid chunks of jagged metal appear here and there, packed with archotechnology. The whole structure slowly twists and bends under its own power.\n\nIt constantly grows meat on its surface, which occasionally erupts violently. If too much meat builds up, it will regrow into a fleshmass heart. -->
+  <FleshmassNucleus.description>超凡科技驱动的血肉块心脏核心。由金属组成的混乱晶格，表面还覆盖着一层黏液。其中布满了大块不规则的坚硬金属，全部是由超凡科技制成的。整个结构在自身能量的作用下慢慢扭曲变形。\n\n它的表面会不断长出新鲜血肉，还会偶尔猛烈地爆开。如果放任其血肉一直生长，它会重新长出新的血肉块心脏。</FleshmassNucleus.description>
+  <!-- EN: The fleshmass nucleus has grown a critical mass of new flesh. It has developed into a new fleshmass heart!\n\nIn the process, the fleshmass heart has mutated and adopted a new biosignature. -->
+  <FleshmassNucleus.comps.CompActivity.letterDesc>血肉块核心长出了大量的新生血肉。它已长成一颗新的血肉块心脏！\n\n在这一过程中，血肉块心脏发生了变异，并拥有了新的生物特征。</FleshmassNucleus.comps.CompActivity.letterDesc>
+  <!-- EN: Fleshmass transformation -->
+  <FleshmassNucleus.comps.CompActivity.letterTitle>血肉块变异</FleshmassNucleus.comps.CompActivity.letterTitle>
+  
+  <!-- EN: gorehulk -->
+  <Gorehulk.label>嗜血巨人</Gorehulk.label>
+  <!-- EN: A monstrous creature that resembles a massive, painfully swollen human with randomly reconfigured body parts. Near its top is a stretched face that watches its victim with dead eyes.\n\nHundreds of sharp keratin spines protrude from the gorehulk's skin. It can launch these spines to spear its victims at a distance. However, its awkward fleshy body is less effective at causing harm up close.\n\nIt's hard to know whether this is a human that was horribly distorted by the influence of the void or a poor imitation of humanity created from scratch by some evil intelligence. -->
+  <Gorehulk.description>形似人类的巨大生物，但其肿胀的身体各部位仿佛被随意重组过一般。其身体上端长着一张拉伸变形的人脸，用毫无生气的眼神凝视着它的受害者。\n\n数百根锋利的角质脊刺从嗜血巨人的皮肤中刺出。它可以将这些脊刺发射出去，将远处的受害者扎个对穿。但它笨拙的臃肿躯体使其在近距离战斗中就没那样有效了。\n\n很难说它究竟是受虚空影响而被严重扭曲的人类，还是邪恶机械智能从零开始创造出的拙劣人类仿品。</Gorehulk.description>
+  <!-- EN: left flesh club -->
+  <Gorehulk.tools.left_flesh_club.label>左肢肉棍</Gorehulk.tools.left_flesh_club.label>
+  <!-- EN: flesh club -->
+  <Gorehulk.tools.left_flesh_club.labelNoLocation>肉棍</Gorehulk.tools.left_flesh_club.labelNoLocation>
+  <!-- EN: right flesh club -->
+  <Gorehulk.tools.right_flesh_club.label>右肢肉棍</Gorehulk.tools.right_flesh_club.label>
+  <!-- EN: flesh club -->
+  <Gorehulk.tools.right_flesh_club.labelNoLocation>肉棍</Gorehulk.tools.right_flesh_club.labelNoLocation>
+  <!-- EN: head -->
+  <Gorehulk.tools.head.label>头</Gorehulk.tools.head.label>
+  
+  <!-- EN: metalhorror -->
+  <Metalhorror.label>金属怪形</Metalhorror.label>
+  <!-- EN: A horrific shifting mass of metal filaments, blades, and instruments. This metal is maintained and regenerated by a circulating dark fluid.\n\nWhile dormant, fluid metalhorrors are hidden in a host body. They use their host to infect others, creating more metalhorrors. If detected or endangered, the metalhorror will form a jagged exoskeleton and cut its way out of the host's flesh.\n\nAn emerged metalhorror will eventually enter a low-energy hibernating state if left undisturbed. -->
+  <Metalhorror.description>由金属纤维、利刃和机械组成的恐怖怪物。这些金属怪物体内循环流淌着深色液体，用以维持生理机能并使其再生。\n\n休眠状态下，流体状态的金属怪形隐藏在宿主体内。它们利用宿主感染其他人，制造出更多金属怪形。如果被发现或受到威胁，金属怪形就会形成长着锐利锯齿的外骨骼，从宿主体内破体而出。\n\n如果不加打扰，新生的金属怪形最终会进入低能量冬眠状态。</Metalhorror.description>
+  <!-- EN: left blade -->
+  <Metalhorror.tools.left_blade.label>左镰刃</Metalhorror.tools.left_blade.label>
+  <!-- EN: blade -->
+  <Metalhorror.tools.left_blade.labelNoLocation>镰刀</Metalhorror.tools.left_blade.labelNoLocation>
+  <!-- EN: right blade -->
+  <Metalhorror.tools.right_blade.label>右镰刃</Metalhorror.tools.right_blade.label>
+  <!-- EN: blade -->
+  <Metalhorror.tools.right_blade.labelNoLocation>镰刀</Metalhorror.tools.right_blade.labelNoLocation>
+  <!-- EN: head -->
+  <Metalhorror.tools.head.label>头</Metalhorror.tools.head.label>
+  
+  <!-- EN: nociosphere -->
+  <Nociosphere.label>苦痛之球</Nociosphere.label>
+  <!-- EN: A dark metallic sphere covered with curved and jagged grooves. The sphere emanates sensations of pain. It hurts to be near it.\n\nThe sphere thrums with a mysterious energy. It appears to be increasing in activity. It's not clear what will happen when it reaches its full capacity. However, if you capture it, you can decrease its activity by suppressing it. -->
+  <Nociosphere.description>布满扭曲和锯齿状凹槽的深色金属球体。该球体散发着痛苦的气息，靠近它就会感到疼痛。\n\n它放射出神秘的能量，且活动似乎越来越频繁。目前还不清楚当它完全激活时会发生什么。但假若将其捕获，就可以通过压制它来降低其活跃度。</Nociosphere.description>
+  <!-- EN: The nociosphere's activity level has reached 100% and it has activated. It has begun an onslaught of pain and destruction.\n\nIt will eventually depart - if you can survive long enough. -->
+  <Nociosphere.comps.CompActivity.letterDesc>苦痛之球的活跃度已达到 100%，它已完全激活，开始进行痛苦与毁灭的攻击。\n\n它最终将会离开，但前提是你得撑到那个时候。</Nociosphere.comps.CompActivity.letterDesc>
+  <!-- EN: Nociosphere activated -->
+  <Nociosphere.comps.CompActivity.letterTitle>苦痛之球已激活</Nociosphere.comps.CompActivity.letterTitle>
+  <!-- EN: Nociosphere study progress -->
+  <Nociosphere.comps.CompStudyUnlocks.studyNotes.0.label>苦痛之球研究有所进展</Nociosphere.comps.CompStudyUnlocks.studyNotes.0.label>
+  <!-- EN: {PAWN_nameDef} has learned more about the inner workings of the nociosphere. It seems to have a single purpose - to inflict pain on those around it.\n\n{PAWN_nameDef} thinks {PAWN_pronoun} may be able to weaponize the nociosphere but you must study it more first. -->
+  <Nociosphere.comps.CompStudyUnlocks.studyNotes.0.text>{PAWN_nameDef}已经对苦痛之球如何运作有了更多了解。它的存在似乎只有一个目的——给周围的生物带来痛苦。\n\n{PAWN_nameDef}认为{PAWN_pronoun}也许可以把苦痛之球用作武器，但必须先对它进行更多的研究。</Nociosphere.comps.CompStudyUnlocks.studyNotes.0.text>
+  <!-- EN: Nociosphere study progress -->
+  <Nociosphere.comps.CompStudyUnlocks.studyNotes.1.label>苦痛之球研究有所进展</Nociosphere.comps.CompStudyUnlocks.studyNotes.1.label>
+  <!-- EN: By studying the nociosphere, you've learned how to intentionally activate it.\n\nWhen activated, the nociosphere will teleport to a remote location of your choice and unleash a barrage of pain on anyone nearby. The nociosphere will continue to hunt down anything nearby until it is destroyed or it chooses to return. Select the nociosphere to activate it. -->
+  <Nociosphere.comps.CompStudyUnlocks.studyNotes.1.text>通过研究苦痛之球，你知晓了主动激活它的方式。\n\n激活后，苦痛之球会传送到你选择的偏远地点，并向附近的任何人释放无尽的痛苦。苦痛之球会继续追杀附近任何目标，直到其被摧毁或选择返回。选择苦痛之球即可激活它。</Nociosphere.comps.CompStudyUnlocks.studyNotes.1.text>
+  <!-- EN: Nociosphere study complete -->
+  <Nociosphere.comps.CompStudyUnlocks.studyNotes.2.label>苦痛之球研究完成</Nociosphere.comps.CompStudyUnlocks.studyNotes.2.label>
+  <!-- EN: {PAWN_nameDef} has made an alarming discovery about the nociosphere. The entity is showing early signs of instability.\n\nOnce the nociosphere starts to become unstable, you can dispose of it by sending it to attack a hostile threat. Once its onslaught is complete, it will permanently depart. If it becomes fully unstable, it will no longer respond to suppression. -->
+  <Nociosphere.comps.CompStudyUnlocks.studyNotes.2.text>对苦痛之球的研究让{PAWN_nameDef}警铃大作。该实体显示出一些失稳的早期迹象。\n\n当苦痛之球开始变得不稳定时，你可以将苦痛之球送去攻击敌对势力以将其放逐。待它杀个够以后，它便会永久离开。一旦其不稳定程度达到最大，它将不可再被压制。</Nociosphere.comps.CompStudyUnlocks.studyNotes.2.text>
+  <!-- EN: Teleport the nociosphere to a nearby location. It will then unleash an onslaught of murder and pain on everyone nearby for a short time. The nociosphere will hunt down any creature, including allies and other entities.\n\nThe nociosphere can be sent multiple times. -->
+  <Nociosphere.comps.CompNociosphere.activateDescString>将苦痛之球传送到附近地点。它将在短时间内对附近的所有目标发动杀戮与痛苦的攻击。苦痛之球会追杀包括友方单位与其他实体在内的所有目标。\n\n苦痛之球可以多次传送。</Nociosphere.comps.CompNociosphere.activateDescString>
+  <!-- EN: Send nociosphere -->
+  <Nociosphere.comps.CompNociosphere.activateLabelString>派遣苦痛之球</Nociosphere.comps.CompNociosphere.activateLabelString>
+  <!-- EN: sending {0}: {1}s -->
+  <Nociosphere.comps.CompNociosphere.activatingString>正在派遣{0}：{1} 秒</Nociosphere.comps.CompNociosphere.activatingString>
+  <!-- EN: Becoming unstable -->
+  <Nociosphere.comps.CompNociosphere.becomingUnstableInspectText>开始不稳定</Nociosphere.comps.CompNociosphere.becomingUnstableInspectText>
+  <!-- EN: The nociosphere is departing. -->
+  <Nociosphere.comps.CompNociosphere.departingMessage>苦痛之球正在离开</Nociosphere.comps.CompNociosphere.departingMessage>
+  <!-- EN: send nociosphere -->
+  <Nociosphere.comps.CompNociosphere.jobString>派遣苦痛之球</Nociosphere.comps.CompNociosphere.jobString>
+  <!-- EN: Nociosphere departed -->
+  <Nociosphere.comps.CompNociosphere.leftLetterLabel>苦痛之球已离开</Nociosphere.comps.CompNociosphere.leftLetterLabel>
+  <!-- EN: The nociosphere has disappeared, ending its onslaught.\n\nIt's unclear where the nociosphere has gone or if it will return. -->
+  <Nociosphere.comps.CompNociosphere.leftLetterText>苦痛之球终止了攻击并消失得无影无踪。\n\n目前还不清楚苦痛之球去了哪里，是否还会回来。</Nociosphere.comps.CompNociosphere.leftLetterText>
+  <!-- EN: Nociosphere onslaught cooldown -->
+  <Nociosphere.comps.CompNociosphere.onCooldownString>苦痛之球攻击冷却</Nociosphere.comps.CompNociosphere.onCooldownString>
+  <!-- EN: The nociosphere has ended its onslaught and has returned to its initial location. -->
+  <Nociosphere.comps.CompNociosphere.onslaughtEndedMessage>苦痛之球停止了攻击并返回了其出发地。</Nociosphere.comps.CompNociosphere.onslaughtEndedMessage>
+  <!-- EN: Onslaught mode: {0} seconds left -->
+  <Nociosphere.comps.CompNociosphere.onslaughtInspectText>攻击模式：剩余 {0} 秒</Nociosphere.comps.CompNociosphere.onslaughtInspectText>
+  <!-- EN: Unstable: cannot be suppressed -->
+  <Nociosphere.comps.CompNociosphere.unstableInspectText>失稳：无法被压制</Nociosphere.comps.CompNociosphere.unstableInspectText>
+  <!-- EN: Warning: the nociosphere will resist suppression in {0} days. -->
+  <Nociosphere.comps.CompNociosphere.unstableWarning>警告：苦痛之球将在 {0} 天后抵抗压制。</Nociosphere.comps.CompNociosphere.unstableWarning>
+  
+  <!-- EN: noctol -->
+  <Noctol.label>夜枭</Noctol.label>
+  <!-- EN: A large, chittering creature covered with an oily black carapace and armed with claws formed from bioferrite. While it is deadly in the dark, exposure to light irritates its eyes and flesh, slowing it down considerably. -->
+  <Noctol.description>发出昆虫般声音的巨大生物，全身覆盖着油腻的黑色甲壳，并用灵铁构成的爪子武装自己。虽然其在黑暗中极为致命，但暴露在光线下会刺激其眼睛和肉体，使其行动速度大大减慢。</Noctol.description>
+  <!-- EN: left claw -->
+  <Noctol.tools.left_claw.label>左爪</Noctol.tools.left_claw.label>
+  <!-- EN: claw -->
+  <Noctol.tools.left_claw.labelNoLocation>爪</Noctol.tools.left_claw.labelNoLocation>
+  <!-- EN: right claw -->
+  <Noctol.tools.right_claw.label>右爪</Noctol.tools.right_claw.label>
+  <!-- EN: claw -->
+  <Noctol.tools.right_claw.labelNoLocation>爪</Noctol.tools.right_claw.labelNoLocation>
+  <!-- EN: head -->
+  <Noctol.tools.head.label>头</Noctol.tools.head.label>
+  
+  <!-- EN: revenant -->
+  <Revenant.label>幽魂</Revenant.label>
+  <!-- EN: A spindly figure of desiccated skin stretched over an impossibly tall humanoid frame. The revenant's name comes from its pattern of returning to hypnotize new people each night.\n\nOutlander folklore describes an invisible spectre that captures the minds of sinners, placing them in a living hell. In the story, the victims can only be returned to life by hunting the creature as it sleeps and killing it. -->
+  <Revenant.description>骨瘦如柴的细长鬼影，干瘪的皮肤包裹着高得不可思议的人形骨架。幽魂的名字源于它每晚都会回来寻找新的受害者进行催眠。\n\n外来者的民间传说将其描绘成了一个无形的幽灵，它能够捕获罪人的意识，并将他们带去生不如死的地狱。在传说中，只有在这只怪物沉睡时消灭它，受害者才能起死回生。</Revenant.description>
+  <!-- EN: head -->
+  <Revenant.tools.head.label>头部</Revenant.tools.head.label>
+  
+  <!-- EN: sightstealer -->
+  <Sightstealer.label>隐身兽</Sightstealer.label>
+  <!-- EN: Emaciated and misshapen humanoids. Their arms end in sharp, curled claws formed from bioferrite. Sightstealers are fragile, but use psychic influence to render themselves invisible until they get close to their victims. They are known to emit haunting screams as they gather on their terrible hunts. -->
+  <Sightstealer.description>瘦削畸形的类人生物。其手臂末端是由灵铁构成的弯曲利爪。隐身兽的肉体很脆弱，但它们会利用灵能使自己隐形并偷偷接近受害者。根据对其习性的了解，那毛骨悚然的嚎叫声，便是它们聚集起来进行可怕狩猎的标志。</Sightstealer.description>
+  <!-- EN: left claw -->
+  <Sightstealer.tools.left_claw.label>左爪</Sightstealer.tools.left_claw.label>
+  <!-- EN: claw -->
+  <Sightstealer.tools.left_claw.labelNoLocation>爪</Sightstealer.tools.left_claw.labelNoLocation>
+  <!-- EN: right claw -->
+  <Sightstealer.tools.right_claw.label>右爪</Sightstealer.tools.right_claw.label>
+  <!-- EN: claw -->
+  <Sightstealer.tools.right_claw.labelNoLocation>爪</Sightstealer.tools.right_claw.labelNoLocation>
+  <!-- EN: head -->
+  <Sightstealer.tools.head.label>头</Sightstealer.tools.head.label>
+  
+</LanguageData>

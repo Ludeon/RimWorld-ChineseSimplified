@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <!-- Conversion -->
+  <AbilityCannotCastHoraxian>{0_nameDef}毫不动摇地肯定着。</AbilityCannotCastHoraxian>
+
+  <!-- Entities -->
+  <MessageActivityRisingDamage>{0_definite}的活跃度由于受伤而有所提高。</MessageActivityRisingDamage>
+  <EntityDiedOnHoldingPlatform>一只{0_labelShort}死在了收容平台上。</EntityDiedOnHoldingPlatform>
+  <MessageEntityDiscovered>发现新实体</MessageEntityDiscovered>
+
+  <!-- Hate chanters -->
+  <MessageHateChantersAbsorbed>邪教徒们正处于恍惚状态，受到攻击无反应。</MessageHateChantersAbsorbed>
+  <MessageHateChantIncreased>憎恶之声更加响亮了。</MessageHateChantIncreased>
+
+  <!-- Self-resurrection -->
+  <SelfResurrectText>可命令{0_nameDef}使用死亡回避来进行自我修复。</SelfResurrectText>
+  <MessageUsingSelfResurrection>{0_nameDef}正在通过死亡回避来进行自我修复。</MessageUsingSelfResurrection>
+
+  <!-- Pit Gate -->
+  <MessagePitGateCollapsed>深坑洞口坍塌了。</MessagePitGateCollapsed>
+  <MessagePitBurrowCollapsed>一处深坑地洞坍塌了。</MessagePitBurrowCollapsed>
+
+  <!-- Fleshsack -->
+  <FleshmassContainedMessage>血肉袋里装着什么东西</FleshmassContainedMessage>
+
+  <!-- Psychic rituals -->
+  <MessagePsychicRitualAssault>{0_pawnsPluralDef}正在进攻！</MessagePsychicRitualAssault>
+  <MessageAIPsychicRitualBegan>{FACTION_pawnsPluralDef}正在开启灵能仪式</MessageAIPsychicRitualBegan>
+  
+  <!-- Biomutation lance -->
+  <MessageBiomutationLanceInvalidTargetRace>无效目标：{0_nameDef}不是动物或人类。</MessageBiomutationLanceInvalidTargetRace>
+  <MessageBiomutationLanceTargetTooBig>无效目标：{0_nameDef}体型太大了。</MessageBiomutationLanceTargetTooBig>
+
+  <!-- Containment -->
+  <MessageNoRoomWithMinimumContainmentStrength>警告：空间不足以为{0}提供最低的收容强度。它很快就会逃走。</MessageNoRoomWithMinimumContainmentStrength>
+  <MessageTargetBelowMinimumContainmentStrength>警告：{0}当前处于{1}的最低收容强度标准之下。它很快就会逃走。</MessageTargetBelowMinimumContainmentStrength>
+  <MessageHolderReserved>无法转移至{0}，已被其他人预留。</MessageHolderReserved>
+  <MessageEntityExecuted>{EXECUTIONER_labelShort}处决了{VICTIM_kindIndef}。</MessageEntityExecuted>
+  <MessageOccupiedHoldingPlatformReinstalled>警告：重新安装一座已被占用的收容平台会把其中的实体放跑。先将实体转移至其它平台。</MessageOccupiedHoldingPlatformReinstalled>
+  <MessageOccupiedHoldingPlatformUninstalled>警告：卸载一座已被占用的收容平台会把其中的实体放跑。先将实体转移至其它平台。</MessageOccupiedHoldingPlatformUninstalled>
+  <MessageOccupiedHoldingPlatformDeconstructed>警告：拆除一座已被占用的收容平台会把其中的实体放跑。先将实体转移至其它平台。</MessageOccupiedHoldingPlatformDeconstructed>
+  
+  <!-- Duplicator obelisk -->
+  <MessageHostileDuplicate>{0_nameDef}的一个敌对复制体出现了。</MessageHostileDuplicate>
+  
+  <!-- Proximity detector -->
+  <MessageProximityDetectorTriggered>灵能探测器检测到一只隐形生物。</MessageProximityDetectorTriggered>
+  
+  <!-- Unnatural darkness --> 
+  <MessagePawnAttackedInDarkness>有什么东西在黑暗里攻击了{0_nameDef}。</MessagePawnAttackedInDarkness>
+  
+  <!-- Revenant -->
+  <MessageRevenantForcedVisibility>发现了一只隐藏的幽魂！</MessageRevenantForcedVisibility>
+  <MessageRevenantHeard>{PAWN_nameDef}听到附近{1}幽魂的声音！</MessageRevenantHeard>
+  
+  <!-- Abilities -->
+  <MessageCannotUseOnNonBleeder>{ABILITY_label}无法对不流血的生物使用。</MessageCannotUseOnNonBleeder>
+  
+  <MessageFingerspikeDisturbed>{WAKER_nameDef}惹毛了一只单爪兽。</MessageFingerspikeDisturbed>
+  <MessageFingerspikeDisturbedPlural>{WAKER_nameDef}惹毛了一群单爪兽。</MessageFingerspikeDisturbedPlural>
+
+  <DeathPallResurrectedMessage>死亡烟雾将{0_indefinite}复活了。</DeathPallResurrectedMessage>
+  
+</LanguageData>

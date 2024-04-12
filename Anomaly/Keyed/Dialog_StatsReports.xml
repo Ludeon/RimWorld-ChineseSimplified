@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <KnowledgeFromStudy>研究此项可获得的知识</KnowledgeFromStudy>
+  <KnowledgeFromStudyDesc>研究此实体可获得对应的异常点知识。复杂的条目能够解锁更为先进的异常点研究项目。</KnowledgeFromStudyDesc>
+  <Stat_Knowledge>{0}{1}</Stat_Knowledge>
+  <StudyFrequency>研究间隔</StudyFrequency>
+  <StudyFrequencyDesc>研究该实体不同阶段的间隔。</StudyFrequencyDesc>
+  
+  <Stat_Hediff_Regeneration_Name>愈疗</Stat_Hediff_Regeneration_Name>
+  <Stat_Hediff_Regeneration_Desc>每日固定恢复一定量的生命。</Stat_Hediff_Regeneration_Desc>
+  <Stat_Hediff_Regeneration_Stat>{0} 生命/日</Stat_Hediff_Regeneration_Stat>
+
+  <Stat_ContainmentStrength_AverageLighting>平均照明</Stat_ContainmentStrength_AverageLighting>
+  <Stat_ContainmentStrength_AverageWallHp>平均墙生命</Stat_ContainmentStrength_AverageWallHp>
+  <Stat_ContainmentStrength_AverageDoorHp>平均门生命</Stat_ContainmentStrength_AverageDoorHp>
+  <Stat_ContainmentStrength_OtherHoldingPlatforms>多个（{0}）收容平台</Stat_ContainmentStrength_OtherHoldingPlatforms>
+  <Stat_ContainmentStrength_MapwideOffset>地图范围偏移度</Stat_ContainmentStrength_MapwideOffset>
+  <Stat_ContainmentStrength_DoorForcedOpen>敞门</Stat_ContainmentStrength_DoorForcedOpen>
+  <Stat_ContainmentStrength_NotFullyRoofed>屋顶不全</Stat_ContainmentStrength_NotFullyRoofed>
+  <Stat_ContainmentStrength_Flooring>铺设地板</Stat_ContainmentStrength_Flooring>
+  <Stat_ContainmentStrength_Platform>建造</Stat_ContainmentStrength_Platform>
+
+  <StatsReport_BioferriteGeneration>灵铁生产</StatsReport_BioferriteGeneration>
+  <StatsReport_BioferriteGeneration_Desc>此实体每日产出的灵铁数量。将其捕获至收容平台后，可建造灵铁采集器收获灵铁。</StatsReport_BioferriteGeneration_Desc>
+  
+  <StatsReport_Offering>祭品</StatsReport_Offering>
+  <StatsReport_Offering_Desc>执行灵能仪式所需用到的材料。</StatsReport_Offering_Desc>
+
+  <StatsReport_RitualDuration>仪式持续时间</StatsReport_RitualDuration>
+  <StatsReport_RitualDuration_Desc>执行仪式所需花费的时间。</StatsReport_RitualDuration_Desc>
+
+  <StatsReport_RitualCooldown>冷却时间</StatsReport_RitualCooldown>
+  <StatsReport_RitualCooldown_Desc>一场仪式完成后，周遭的灵能环境会有短时间的能量紊乱现象。在此期间，无法再次执行仪式。</StatsReport_RitualCooldown_Desc>
+
+  <StatsReport_ContainmentStrengthOffset>收容偏移度</StatsReport_ContainmentStrengthOffset>
+  <StatsReport_ContainmentStrengthOffset_Desc>此数值影响着收容平台对一个实体的约束能力。被严加管束的实体更不容易逃跑，研究时也可获得更多知识。</StatsReport_ContainmentStrengthOffset_Desc>
+
+  <StatsReport_SerumDuration>持续时间</StatsReport_SerumDuration>
+  <StatsReport_SerumDuration_Desc>一剂血清的生效时间。</StatsReport_SerumDuration_Desc>
+  
+  <StatsReport_Occupied>已占用</StatsReport_Occupied>
+  <MeditationFocusPerBuilding>附近每个{BUILDING_label} {2}（{0}/{1}）</MeditationFocusPerBuilding>
+  <MeditationFocusPerBuildingAbstract>附近每个{BUILDING_label} {1}（最高 {0}）</MeditationFocusPerBuildingAbstract>\n\n</LanguageData>

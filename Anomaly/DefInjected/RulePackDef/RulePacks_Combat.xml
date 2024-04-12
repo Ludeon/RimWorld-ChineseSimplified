@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_definite] [firedat] [RECIPIENT_definite] with [INITIATOR_possessive] [WEAPON_label].</li>
+    <li>r_logentry->[INITIATOR_definite] [fired] [INITIATOR_possessive] [WEAPON_label] at [RECIPIENT_definite].</li>
+    <li>r_logentry->[INITIATOR_definite] [firedat] [RECIPIENT_definite].</li>
+    <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] [fired] [INITIATOR_possessive] [WEAPON_label].</li>
+    <li>fired(p=2)->[verb_fired]</li>
+    <li>fired->[skillAdv] [verb_fired]</li>
+    <li>firedat->fired at</li>
+    <li>firedat->fired [skillAdv] at</li>
+    <li>firedat(p=0.5)->aimed and fired at</li>
+    <li>firedat(p=0.5)->[skillAdv] aimed and fired at</li>
+    <li>firedat(p=0.3)->opened fire at</li>
+    <li>verb_fired->fired</li>
+  -->
+  <Combat_RangedFlamethrower.rulePack.rulesStrings>
+    <li>r_logentry->[INITIATOR_definite]用[INITIATOR_possessive][WEAPON_label]向[RECIPIENT_definite][firedat]。</li>
+    <li>r_logentry->[INITIATOR_definite]用[INITIATOR_possessive][WEAPON_label]向[RECIPIENT_definite][fired]。</li>
+    <li>r_logentry->[INITIATOR_definite]向[RECIPIENT_definite][firedat]。</li>
+    <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite]用[INITIATOR_possessive][WEAPON_label][fired]。</li>
+    <li>fired(p=2)->[verb_fired]</li>
+    <li>fired->发射[skillAdv]</li>
+    <li>firedat->开火</li>
+    <li>firedat->发射[skillAdv]</li>
+    <li>firedat(p=0.5)->瞄准并开火</li>
+    <li>firedat(p=0.5)->瞄准并发射[skillAdv]</li>
+    <li>firedat(p=0.3)->开火</li>
+    <li>verb_fired->开火</li>
+  </Combat_RangedFlamethrower.rulePack.rulesStrings>
+  
+</LanguageData>
