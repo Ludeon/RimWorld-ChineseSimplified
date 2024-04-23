@@ -315,11 +315,11 @@
   <!-- EN: {0} wants this destroyed.\n    Reward: {1} ({2}) -->
   <QuestTargetDestroyInspectString>{0}想要摧毁此处。\n报酬: {1}({2})。</QuestTargetDestroyInspectString>
   <!-- EN: {0} wants this destroyed. -->
-  <QuestTargetDestroyInspectStringShort>{0}希望摧毁它。</QuestTargetDestroyInspectStringShort>
+  <QuestTargetDestroyInspectStringShort>{0}希望摧毁此处。</QuestTargetDestroyInspectStringShort>
   <!-- EN: Departing on shuttle in {0} -->
-  <ShuttleDelayInspectString>于{0}内搭乘穿梭机离开。</ShuttleDelayInspectString>
+  <ShuttleDelayInspectString>于{0}后搭乘穿梭机离开。</ShuttleDelayInspectString>
   <!-- EN: Departing in {0} -->
-  <ShuttleLeaveDelayInspectString>{0}内离开。</ShuttleLeaveDelayInspectString>
+  <ShuttleLeaveDelayInspectString>于{0}后离开。</ShuttleLeaveDelayInspectString>
   <!-- EN: Should depart on shuttle -->
   <ShouldDepartOnShuttleInspectString>将搭乘穿梭机离开。</ShouldDepartOnShuttleInspectString>
   <!-- EN: Time left: {0} -->
@@ -420,16 +420,16 @@
   <CurrentProject>当前项目</CurrentProject>
   <!-- EN: Research progress -->
   <ResearchProgress>研究进度</ResearchProgress>
-  <!-- EN: Already has {0} -->
+  <!-- EN: already has {0} -->
   <AlreadyHasHediff>已经有{0}</AlreadyHasHediff>
   <!-- EN: turret -->
   <Turret>炮塔</Turret>
   <!-- EN: turrets -->
-  <Turrets>炮塔群</Turrets>
+  <Turrets>炮塔</Turrets>
   <!-- EN: mortar -->
   <Mortar>迫击炮</Mortar>
   <!-- EN: mortars -->
-  <Mortars>迫击炮群</Mortars>
+  <Mortars>迫击炮</Mortars>
   <!-- EN: enemy -->
   <Enemy>敌人</Enemy>
   <!-- EN: location -->
@@ -489,7 +489,7 @@
   <!-- EN: Sealed -->
   <DormantCompSealed>密封</DormantCompSealed>
   <!-- EN: Ready to drop mechanoids -->
-  <DormantCompBeacon>准备投放机械体</DormantCompBeacon>
+  <DormantCompBeacon>准备空投机械体</DormantCompBeacon>
   <!-- EN: Expired -->
   <DormantCompExpired>已过期</DormantCompExpired>
   <!-- EN: Initiates in -->
@@ -601,11 +601,11 @@
   <!-- EN: Buildings -->
   <Buildings>建筑</Buildings>
   <!-- EN: not yet discovered -->
-  <NotYetDiscovered>尚未发现</NotYetDiscovered> <!-- text_todo -->
+  <NotYetDiscovered>尚未发现</NotYetDiscovered>
   <!-- EN: Crawling to safety. -->
-  <ReportStringCrawlingToSafety>爬向安全地带。</ReportStringCrawlingToSafety> <!-- text_todo -->
+  <ReportStringCrawlingToSafety>爬向安全地带。</ReportStringCrawlingToSafety>
   <!-- EN: Crawling to bed. -->
-  <ReportStringCrawlingToBed>爬向床铺。</ReportStringCrawlingToBed> <!-- text_todo -->
+  <ReportStringCrawlingToBed>爬向床铺。</ReportStringCrawlingToBed>
   
   <!-- Scanning -->
   <!-- EN: User scanning speed -->
@@ -1710,7 +1710,7 @@
   <DamageFactorWeakness>{DAMAGE_label}的弱点</DamageFactorWeakness>
   <!-- EN: {DAMAGE_label} resistance -->
   <DamageFactorResistance>{DAMAGE_label}的抵抗</DamageFactorResistance>
-  <!-- EN: {DAMAGE_label} damage that this creature recieves is multiplied by this amount. -->
+  <!-- EN: {DAMAGE_label} damage that this creature receives is multiplied by this amount. -->
   <DamageFactor>{DAMAGE_label}受到的伤害乘以此数值。</DamageFactor>
   
   <!-- Healing -->
@@ -1897,12 +1897,14 @@
   <Charges>费用</Charges>
 
   <!-- EN: {0_nameDef} is in a mental state. -->
-  <PawnIsInMentalState>{0_nameDef}处于攻击性的精神状态。</PawnIsInMentalState>
+  <PawnIsInMentalState>{0_nameDef}陷入了精神状态。</PawnIsInMentalState>
   <!-- EN: {0_nameDef} is in an aggressive mental state. -->
-  <PawnIsInAggroMentalState>{0_nameDef} 处于攻击性精神状态。</PawnIsInAggroMentalState>
+  <PawnIsInAggroMentalState>{0_nameDef}陷入了暴力类型的精神状态。</PawnIsInAggroMentalState>
 
   <!-- EN: Disabled work -->
   <DisabledWorkLabel>禁用工作</DisabledWorkLabel>
+  <!-- EN: Disabled needs -->
+  <DisabledNeedsLabel>禁用需求</DisabledNeedsLabel>
 
   <!-- Glowers -->
   <!-- EN: change color -->
@@ -1914,10 +1916,10 @@
 
   <!-- Shields -->
   <!-- EN: A personal shield that will attempt to stop incoming projectiles or shrapnel. It prevents the wearer from firing out, and shuts down instantly if hit by an EMP. -->
-  <ShieldPersonalTip>一个个人护盾，将试图阻止射入的弹丸或弹片。它可以防止佩戴者开火，如果被EMP击中，则会立即关闭。</ShieldPersonalTip>
+  <ShieldPersonalTip>一个单人用的能量护盾装置。它可以拦截袭来的投射物或弹片，但无法阻挡近战攻击、高温以及火焰。此外，它的穿戴者将无法从内向外开火射击。\n\n护盾腰带遭受EMP打击后会立即耗尽能量。</ShieldPersonalTip>
 
   <!-- EN: {PAWN_nameDef} is so loyal to {PAWN_possessive} home that {PAWN_pronoun} will refuse to be recruited if taken prisoner. -->
-  <UnrecruitableDesc>{PAWN_nameDef}对{PAWN_possessive}家乡非常忠诚，如果被俘，{PAWN_pronoun}会拒绝被征召。</UnrecruitableDesc>
+  <UnrecruitableDesc>{PAWN_nameDef}对{PAWN_possessive}派系非常忠诚，如果被俘虏，{PAWN_pronoun}会拒绝被招募。</UnrecruitableDesc>
 
   <!-- EN: Random -->
   <Random>随机</Random>
@@ -1947,12 +1949,12 @@
   <!-- EN: already unlocked -->
   <AlreadyUnlocked>已经解锁</AlreadyUnlocked>
   <!-- EN: when discovered -->
-  <WhenDiscovered>当发现</WhenDiscovered>
+  <WhenDiscovered>尚未发现</WhenDiscovered>
   
   <!-- EN: Was driven into a mental break after reading {0}. -->
   <BookMentalBreakMessage>在阅读了{0}之后，陷入了精神崩溃。</BookMentalBreakMessage>
   <!-- EN: {0} done (complete in {1} hours) -->
-  <BookReadProgress>{0}完成(在{1}小时内完成)</BookReadProgress>
+  <BookReadProgress>{0}完成（在{1}小时后完成）</BookReadProgress>
   
   <!-- EN: learning speed -->
   <BookLearningModifier>学习速度</BookLearningModifier>
@@ -1962,17 +1964,17 @@
   <!-- EN: {BOOK_labelShort} is not readable -->
   <BookNotReadable>{BOOK_labelShort}不可阅读</BookNotReadable>
   <!-- EN: {PAWN_nameDef} can't read -->
-  <BookCantRead>{PAWN_nameDef}无法读取</BookCantRead>
+  <BookCantRead>{PAWN_nameDef}无法阅读</BookCantRead>
   <!-- EN: {PAWN_nameDef} must be a {STAGES} -->
   <BookCantBeStage>{PAWN_nameDef}必须是{STAGES}</BookCantBeStage>
   <!-- EN: {PAWN_nameDef} is blind -->
   <BookBlind>{PAWN_nameDef}是盲人</BookBlind>
   
   <!-- EN: max level {0} -->
-  <BookMaxLevel>最大级别{0}</BookMaxLevel>
+  <BookMaxLevel>最高等级{0}</BookMaxLevel>
   
   <!-- EN: Reading {0}: {1} done (complete in {2} hours) -->
-  <ReadingReportHeader>阅读{0}:{1}完成(在{2}小时内完成)</ReadingReportHeader>
+  <ReadingReportHeader>阅读{0}：{1}完成（在{2}小时后完成）</ReadingReportHeader>
   
   <!-- EN: Assign reading -->
   <ReadingDialogTitle>指定阅读</ReadingDialogTitle>
@@ -1982,15 +1984,15 @@
   <ReadingAssign>指定</ReadingAssign>
 
   <!-- EN: The books currently on this bookshelf. -->
-  <ContainedBooksDesc>这个书架上的书。</ContainedBooksDesc>
+  <ContainedBooksDesc>存放在这个书架上的书籍。</ContainedBooksDesc>
   
   <!-- EN: Books stored -->
   <BookshelfStoredInspect>书籍存储</BookshelfStoredInspect>
   <!-- EN: Reading bonus in room -->
-  <BookshelfReadingBonusInspect>室内阅读增益</BookshelfReadingBonusInspect>
+  <BookshelfReadingBonusInspect>室内阅读加成</BookshelfReadingBonusInspect>
 
   <!-- EN: Remove this book from the bookshelf. -->
-  <EjectBookTooltip>把这本书从书架上拿下来。</EjectBookTooltip>
+  <EjectBookTooltip>把这本书籍从书架上拿下来。</EjectBookTooltip>
   
   <!-- Pushing -->
   <!-- EN: Push to... -->
@@ -1999,7 +2001,7 @@
   <RequiredCapacity>需要{0}</RequiredCapacity>
   
   <!-- EN: Unable to enter {0}, destination is blocked -->
-  <UnableToEnterPortal>无法输入{0}，目标被阻挡</UnableToEnterPortal>
+  <UnableToEnterPortal>无法进入{0}，目标被阻挡</UnableToEnterPortal>
 
   <!-- EN: This category of research has not been discovered. -->
   <ResearchNotDiscovered>这类研究尚未被发现。</ResearchNotDiscovered>
@@ -2013,7 +2015,13 @@
   <!-- EN: {GERUND} {TARGETLABEL} at -->
   <DoWorkAtThing>{GERUND} {TARGETLABEL}在</DoWorkAtThing>
   <!-- EN: can be studied in {0} -->
-  <CanBeStudiedInDuration>可以在{0}中研究</CanBeStudiedInDuration>
+  <CanBeStudiedInDuration>{0}后可再次研究</CanBeStudiedInDuration>
+  
+  <!-- EN: About to explode -->
+  <AboutToExplode>即将爆炸</AboutToExplode>
+  
+  <!-- EN: New Anomaly expansion available now! -->
+  <MainScreen_AnomalyAvailableNow>全新的异象DLC已发售！</MainScreen_AnomalyAvailableNow>
   
   <!-- UNUSED -->
   <RadiusExpandRate>半径扩展率</RadiusExpandRate>

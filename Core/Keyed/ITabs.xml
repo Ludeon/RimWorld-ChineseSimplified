@@ -89,7 +89,7 @@
   <!-- EN: can't add more -->
   <PasteBillTip_LimitReached>不能再加了</PasteBillTip_LimitReached>
   <!-- EN: Finishes in -->
-  <FinishesIn>完成</FinishesIn>
+  <FinishesIn>结束于</FinishesIn>
 
   <!-- Guest/prisoner tab -->
   <!-- EN: Resistance -->
@@ -144,8 +144,6 @@
   <NonRecruitable>死忠</NonRecruitable>
   <!-- EN: This prisoner is so unwaveringly loyal to their home that they refuse to be recruited entirely. -->
   <NonRecruitableTip>这名囚犯对他们的家园如此坚定不移地忠诚，以至于完全拒绝被征召。</NonRecruitableTip>
-  <!-- EN: Their loyalty extends to their beliefs and they cannot be converted. -->
-  <NonRecruitableTipCannotConvert>他们对信仰坚定不移，他们不能被归化。</NonRecruitableTipCannotConvert>
   <!-- EN: What type of medicine can be given to this prisoner. -->
   <MedicineQualityDescriptionPrisoner>可以给这个囚犯施用什么药？</MedicineQualityDescriptionPrisoner>
 
@@ -284,7 +282,7 @@
   <Lent>已借给{FACTION_name}, 将于{1}后返回</Lent>
   <!-- EN: Missing -->
   <Missing>失踪</Missing>
-  <!-- EN: Slave -->
+  <!-- EN: slave -->
   <Slave>奴隶</Slave>
   <!-- EN: Faction leader -->
   <FactionLeader>派系领袖</FactionLeader>
@@ -447,11 +445,12 @@
   <!-- EN: Completed -->
   <StudyNotesTab_StudyProgressCompleted>完成</StudyNotesTab_StudyProgressCompleted>
   <!-- EN: Toggle study -->
-  <StudyNotesTab_ToggleStudy>锁定的研究</StudyNotesTab_ToggleStudy>
+  <StudyNotesTab_ToggleStudy>开关自动研究</StudyNotesTab_ToggleStudy>
   <!-- EN: No discoveries yet -->
   <StudyNotesTab_NoDiscoveries>还没有发现</StudyNotesTab_NoDiscoveries>
 
   <!-- UNUSED -->
+  <NonRecruitableTipCannotConvert>他们对信仰坚定不移，他们不能被归化。</NonRecruitableTipCannotConvert>
   <SelfTend>自我治疗</SelfTend>
   <SelfTendTip>{0}开启自我治疗后将会以正常效果的 {1} 当场自动治疗自己。</SelfTendTip>
 

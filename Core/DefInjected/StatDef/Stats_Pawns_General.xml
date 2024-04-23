@@ -41,6 +41,11 @@
   <!-- EN: A multiplier on eating speed. -->
   <EatingSpeed.description>此人进食速度的乘数。</EatingSpeed.description>
   
+  <!-- EN: EMP resistance -->
+  <EMPResistance.label>EMP抗性</EMPResistance.label>
+  <!-- EN: This mechanoid has special shielding and shock-dissipation filaments that reduce the effect of EMP damage by this percentage. This reduces the duration of stuns caused by EMP. -->
+  <EMPResistance.description>此机械体加装了特殊的防护层和冲击耗散纤维，可以缩短被EMP伤害击中后的瘫痪时间。</EMPResistance.description>
+  
   <!-- EN: filth rate -->
   <FilthRate.label>污物规模</FilthRate.label>
   <!-- EN: How much filth this creature produces.\n\nIt's best to keep filth-producing animals outdoors or on straw matting where their filth won't be a problem. -->
@@ -99,7 +104,7 @@
   <MeditationFocusGain.formatString>{0}/天</MeditationFocusGain.formatString>
   <!-- EN: {0} / day -->
   <MeditationFocusGain.formatStringUnfinalized>{0}/天</MeditationFocusGain.formatStringUnfinalized>
-
+  
   <!-- EN: mental break threshold -->
   <MentalBreakThreshold.label>崩溃临界值</MentalBreakThreshold.label>
   <!-- EN: As long as someone's mood is below this level, they are in danger of having a mental break.\n\nThe severity of the mental break will depend on how far below the threshold they are. -->
@@ -122,6 +127,18 @@
   <!-- EN: The pain level at which this creature is downed from pain. -->
   <PainShockThreshold.description>此生物因疼痛倒地的点数。</PainShockThreshold.description>
   
+  <!-- EN: neural heat limit -->
+  <PsychicEntropyMax.label>心灵熵阈值</PsychicEntropyMax.label>
+  <!-- EN: The maximum amount of neural heat individual can tolerate safely. -->
+  <PsychicEntropyMax.description>此生物能够安全承受的最大心灵熵值。</PsychicEntropyMax.description>
+  
+  <!-- EN: neural heat recovery rate -->
+  <PsychicEntropyRecoveryRate.label>心灵熵消散速率</PsychicEntropyRecoveryRate.label>
+  <!-- EN: The rate at which this person reduces neural heat. -->
+  <PsychicEntropyRecoveryRate.description>此生物的心灵熵降低速率。</PsychicEntropyRecoveryRate.description>
+  <!-- EN: {0}/s -->
+  <PsychicEntropyRecoveryRate.formatString>{0}/秒</PsychicEntropyRecoveryRate.formatString>
+  
   <!-- EN: psychic sensitivity -->
   <PsychicSensitivity.label>心灵敏感度</PsychicSensitivity.label>
   <!-- EN: More sensitive people suffer more from negative psychic effects, and benefit more from positive ones. Higher psychic sensitivity also increases neural heat limit. -->
@@ -139,7 +156,7 @@
   
   <!-- EN: toxic environment resistance -->
   <ToxicEnvironmentResistance.label>有毒环境抗性</ToxicEnvironmentResistance.label>
-  <!-- EN: How resistant this creature is to the effects of environmental toxins. This protects against toxic fallout and rot stink exposure, but not against direct attacks with venom or injected poison. -->
+  <!-- EN: How resistant this creature is to the effects of environmental toxins. This protects against tox gas, rot stink, toxic fallout, and polluted terrain, but not against direct attacks with venom or injected poison. When this value is higher, exposure to pollution produces proportionally less toxic buildup in the body. -->
   <ToxicEnvironmentResistance.description>这种生物对环境毒素影响的抵抗力。这可以保护其免受有毒尘埃、毒气、受污染地形和腐气暴露的影响，但不能防止毒液或注射毒素的直接攻击。当此数值更高时，暴露于污染物会对身体有更小的影响。</ToxicEnvironmentResistance.description>
   
   <!-- EN: toxic resistance -->
