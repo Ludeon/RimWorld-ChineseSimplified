@@ -14,9 +14,9 @@ http://ludeon.com/forums/index.php?topic=2933.0
 
 ## 下载
 
-### 测试版 1.5
-![1.5](https://img.shields.io/badge/1.5-1.5.4035-yellow)
-![Static Badge](https://img.shields.io/badge/%E6%9B%B4%E6%96%B0%E6%97%A5%E6%9C%9F-2024--03--18-green)
+### 稳定版 1.5
+![1.5](https://img.shields.io/badge/1.5-1.5.4069-yellow)
+![Static Badge](https://img.shields.io/badge/%E6%9B%B4%E6%96%B0%E6%97%A5%E6%9C%9F-2024--04--23-green)
 
 * [GitHub 下载](https://github.com/Ludeon/RimWorld-ChineseSimplified/archive/master.zip)
 
@@ -43,7 +43,7 @@ http://ludeon.com/forums/index.php?topic=2933.0
 ## 安装方法
 
 1. 下载压缩包
-1. 解压缩得到「Core」、「Royalty」、「Ideology」、「Biotech」文件夹
+1. 解压缩得到「Core」、「Royalty」、「Ideology」、「Biotech」、「Anomaly」文件夹
 1. 删除 RimWorld 安装目录 > Data > Core/Royalty/Ideology/Biotech > Languages 内的「ChineseSimplified (简体中文).tar」文件
 1. 在上一步的目录中新建文件夹，命名为「ChineseSimplified (简体中文)」，并将解压缩得到的文件夹中的内容放入对应目录
 
@@ -74,6 +74,7 @@ http://ludeon.com/forums/index.php?topic=2933.0
 * Dango（团子依然在）
 * Sean
 * RS-CZH
+* 教科书的风格（God丶天才）
 * 飞行棺材
 * 以及其他成员：cainiaowu， Kenneth Li（魔都KK）， gretino， RSP， Sefank （一个小白）， Aephiex， SerGawen（加文）， weehowe-z（问号）， WNJStudio（承诺丶六年）， wubochang（三桂）， Ydada（于大大）， zhaohu002（嗷嗷虎）， BiscuitMiner（脆餅）， user19990313， VoidVoice， SiQuery， ， Indeed， Zephyr， Shavius（茶壶教皇）， MZM_GOW， RED釉里红，samhai_nidelungen ， 那啥可以不笑吗， 黑白灰， Lappland（拉普兰德）
 
