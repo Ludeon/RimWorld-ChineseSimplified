@@ -1,52 +1,103 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-  <ActivityMultipleDangerous>危险活跃等级</ActivityMultipleDangerous>
-  <ActivityDangerousDesc>实体已进入极度危险的高活跃等级。</ActivityDangerousDesc>  
-  <ActivityDangerousDescAppended>实体的活跃度一旦达到 100%，便会进入危险状态。\n\n派出狱卒压制实体，也可以使用实体活跃面板启动自动压制。</ActivityDangerousDescAppended>
+  <!-- EN: Dangerous activity levels -->
+  <ActivityMultipleDangerous>多个实体：危险活跃等级</ActivityMultipleDangerous>
+  <!-- EN: These entities are at dangerously high activity levels -->
+  <ActivityDangerousDesc>以下实体已进入危险的高活跃等级。</ActivityDangerousDesc>  
+  <!-- EN: When an entity reaches 100% activity, it will become dangerous.\n\nSend your warden to suppress these entities, or enable automatic suppression using the entity's activity panel. -->
+  <ActivityDangerousDescAppended>实体的活跃度一旦达到100%，便会进入危险状态。\n\n派出狱卒抑制实体，也可以在实体的互动面板中启动“自动抑制”。</ActivityDangerousDescAppended>
 
-  <NeedAnomalyProject>缺少异常点研究项目</NeedAnomalyProject>
-  <NeedAnomalyProjectDesc>有一个实体可供研究，但未选择相应的异常点研究项目：</NeedAnomalyProjectDesc>
-  <NeedAnomalyProjectDescLine>缺少{NAME}异常点研究项目</NeedAnomalyProjectDescLine>
-  <NeedAnomalyProjectDescAppended>打开研究菜单，在异常点标签页上选择一个项目。\n\n可同时选择一个基础研究项目和一个高级研究项目。\n\n（单击打开研究菜单。）</NeedAnomalyProjectDescAppended>
+  <!-- EN: Need anomaly project -->
+  <NeedAnomalyProject>缺少异象研究项目</NeedAnomalyProject>
+  <!-- EN: You have an entity marked for study but don't have a matching anomaly research project selected: -->
+  <NeedAnomalyProjectDesc>有一个实体可供研究，但未选择相应的异象研究项目：</NeedAnomalyProjectDesc>
+  <!-- EN: Need {NAME} anomaly research project -->
+  <NeedAnomalyProjectDescLine>缺少{NAME}异象研究项目</NeedAnomalyProjectDescLine>
+  <!-- EN: Open the research menu and select a project on the anomaly tab.\n\nYou can have a basic and an advanced research project selected at the same time.\n\n(Click to open the research menu.) -->
+  <NeedAnomalyProjectDescAppended>打开研究菜单，在异象标签页上选择一个项目。\n\n可同时选择一个基础研究项目和一个高级研究项目。\n\n（单击打开研究菜单。）</NeedAnomalyProjectDescAppended>
 
-  <CreepJoinerTimeout>怠慢访客</CreepJoinerTimeout>
+  <!-- EN: Visitor ignored -->
+  <CreepJoinerTimeout>访客被怠慢</CreepJoinerTimeout>
+  <!-- EN: The following visitors feel ignored and are becoming increasingly upset -->
   <CreepJoinerTimeoutDesc>以下访客认为受到了怠慢，愈加感到不悦</CreepJoinerTimeoutDesc>
-  <CreepJoinerTimeoutDescAppended>选择一名殖民者，右键单击访客。\n\n加快动作……可不能怠慢了访客。</CreepJoinerTimeoutDescAppended>
+  <!-- EN: Select a colonist and right-click on the visitor.\n\nAct quickly... they don't like being ignored. -->
+  <CreepJoinerTimeoutDescAppended>选择一名殖民者，右键单击访客。\n\n加快动作...可不能怠慢了访客。</CreepJoinerTimeoutDescAppended>
 
+  <!-- EN: Undercave unstable -->
   <Alert_UndercaveUnstable>地下洞穴不稳定</Alert_UndercaveUnstable>
+  <!-- EN: The undercave has become unstable and will collapse soon.\n\nGet your colonists out before it's too late. -->
   <Alert_UndercaveUnstableDesc>地下洞穴已经开始不稳定，很快就会坍塌。\n\n趁现在还来得及，尽快撤离殖民者</Alert_UndercaveUnstableDesc>
 
-  <Alert_CultistPsychicRitual>邪教徒灵能仪式</Alert_CultistPsychicRitual>
+  <!-- EN: Cultist psychic ritual -->
+  <Alert_CultistPsychicRitual>邪教徒心灵仪式</Alert_CultistPsychicRitual>
+  <!-- EN: {INVOKER_kindDef} {INVOKER_nameDef} has started to perform {RITUAL_definite} ritual. If you don't interrupt {INVOKER_objective}, the consequences could be dire. -->
   <Alert_CultistPsychicRitualDesc>{INVOKER_kindDef}{INVOKER_nameDef}正在进行{RITUAL_definite}仪式。若不赶快中断{INVOKER_objective}，可能会产生严重后果。</Alert_CultistPsychicRitualDesc>
 
-  <AlertMeatHunger>食尸鬼饿了</AlertMeatHunger>
+  <!-- EN: Ghoul starvation -->
+  <AlertMeatHunger>食尸鬼饥饿</AlertMeatHunger>
+  <!-- EN: These ghouls hunger for raw meat -->
   <AlertMeatHungerDesc>食尸鬼渴望新鲜的血肉。</AlertMeatHungerDesc>
-  <AlertMeatHungerDescAppended>若不赶快饲喂它们，它们便可能开始攻击。快去找些肉来。</AlertMeatHungerDescAppended>
+  <!-- EN: They may attack if they're not fed soon. Get them some meat. -->
+  <AlertMeatHungerDescAppended>如果不尽快饲喂，它们很可能会开始攻击。快去找些生肉或尸体来。</AlertMeatHungerDescAppended>
   
-  <AlertEmergingPitGate>形成坑口</AlertEmergingPitGate>
-  <AlertEmergingPitGateDesc>地面正在塌陷。很快便会形成坑口。</AlertEmergingPitGateDesc>
+  <!-- EN: Pit gate opening -->
+  <AlertEmergingPitGate>巨坑正在形成</AlertEmergingPitGate>
+  <!-- EN: The ground is collapsing in on itself. A pit gate will soon form. -->
+  <AlertEmergingPitGateDesc>地面正在塌陷。很快便会形成巨坑。</AlertEmergingPitGateDesc>
 
-  <Alert_InsufficientContainment>收容度不足</Alert_InsufficientContainment>
+  <!-- EN: Insufficient containment -->
+  <Alert_InsufficientContainment>收容强度不足</Alert_InsufficientContainment>
+  <!-- EN: The following entities are being held in rooms that do not meet their minimum containment strength -->
   <Alert_InsufficientContainmentDesc>以下实体关押的房间未达到最低收容强度</Alert_InsufficientContainmentDesc>
-  <Alert_InsufficientContainmentDescAppended>它们很快就会逃跑。建造更坚固的墙、门或其他收容装置来容纳它们。</Alert_InsufficientContainmentDescAppended>
+  <!-- EN: They will escape soon. Build stronger walls, doors, or other containment devices to hold them. -->
+  <Alert_InsufficientContainmentDescAppended>它们很快就会逃跑。建造更坚固的墙体，门或其他收容设备来抑制它们。</Alert_InsufficientContainmentDescAppended>
 
+  <!-- EN: Holding platforms needed -->
   <AlertHoldingPlatform>缺少收容平台</AlertHoldingPlatform>
-  <AlertHoldingPlatformDesc>建造收容平台或放置收容点，以收容和研究捕获的实体。</AlertHoldingPlatformDesc>
+  <!-- EN: Build holding platforms or place holding spots to contain and study captured entities. -->
+  <AlertHoldingPlatformDesc>建造收容平台或收容点，以收容和研究捕获的实体。</AlertHoldingPlatformDesc>
 
-  <AlertCubeWithdrawal>魔方戒断反应</AlertCubeWithdrawal>
-  <AlertCubeWithdrawalDesc>以下人员正在经历魔方戒断反应</AlertCubeWithdrawalDesc>
+  <!-- EN: Cube withdrawal -->
+  <AlertCubeWithdrawal>魔方戒断</AlertCubeWithdrawal>
+  <!-- EN: The following people are suffering from cube withdrawal -->
+  <AlertCubeWithdrawalDesc>以下人员正在经历魔方戒断</AlertCubeWithdrawalDesc>
+  <!-- EN: Their skin itches and their mind races, craving closeness to the golden cube. Their symptoms will worsen until they can play with the cube.\n\nEnsure that they have free time and can reach the golden cube. -->
   <AlertCubeWithdrawalDescAppended>他们的皮肤奇痒难忍，思维快速跳脱，极度渴望接近金色魔方。他们的戒断反应会越来越严重，直到他们能接触到金色魔方为止。\n\n确保他们有空闲时间并能接触到金色魔方。</AlertCubeWithdrawalDescAppended>
 
-  <AlertDigestion>吞噬者消化</AlertDigestion>
-  <AlertDigestionDesc>以下人员或生物正在被吞噬者消化</AlertDigestionDesc>
-  <AlertDigestionDescAppended>在他们被消化前击杀吞噬者，将他们救出来。</AlertDigestionDescAppended>
+  <!-- EN: Devourer digestion -->
+  <AlertDigestion>吞噬兽消化</AlertDigestion>
+  <!-- EN: The following people or creatures are being digested by a devourer -->
+  <AlertDigestionDesc>以下人员或生物正在被吞噬兽消化</AlertDigestionDesc>
+  <!-- EN: Kill the devourer to release them before it's too late. -->
+  <AlertDigestionDescAppended>在他们被消化前击杀吞噬兽，将他们救出来。</AlertDigestionDescAppended>
   
-  <AlertInhibitorBlocked>抑制器被遮挡</AlertInhibitorBlocked>
-  <AlertInhibitorBlockedDesc>一个电子抑制器被其他建筑物遮挡，无法工作。\n\n清理电子抑制器前方的空间。</AlertInhibitorBlockedDesc>
+  <!-- EN: Inhibitor blocked -->
+  <AlertInhibitorBlocked>阻滞器被阻挡</AlertInhibitorBlocked>
+  <!-- EN: One of your electric inhibitors is not functional because it’s blocked by another building.\n\nClear the space in front of the electric inhibitor. -->
+  <AlertInhibitorBlockedDesc>一个电子阻滞器被其他建筑阻挡，无法工作。\n\n清理电子阻滞器前方的空间。</AlertInhibitorBlockedDesc>
 
-  <EntityNeedsTreatment>实体缺乏治疗</EntityNeedsTreatment>
+  <!-- EN: Entity treatment needed -->
+  <EntityNeedsTreatment>实体需要治疗</EntityNeedsTreatment>
+  <!-- EN: These entities need medical treatment. Without it, they may die in captivity.\n{0}\n\nSend a doctor to treat them. -->
   <EntityNeedsTreatmentDesc>这些实体需要治疗。若不接受治疗，它们可能会死于囚禁。\n{0}\n\n派一名医生去治疗它们。</EntityNeedsTreatmentDesc>
 
-  <AlertGhoulHypothermia>食尸鬼失温</AlertGhoulHypothermia>
-  <AlertGhoulHypothermiaDesc>这些食尸鬼体温过低：\n{0}\n\n把它们送到暖和的地方。</AlertGhoulHypothermiaDesc>\n\n</LanguageData>
+  <!-- EN: Ghoul hypothermia -->
+  <AlertGhoulHypothermia>食尸鬼低温症</AlertGhoulHypothermia>
+  <!-- EN: These ghouls are suffering from hypothermia:\n{0}\n\nGet them to warmer temperatures. -->
+  <AlertGhoulHypothermiaDesc>这些食尸鬼体温过低：\n{0}\n\n把它们送到暖和的地方。</AlertGhoulHypothermiaDesc>
+  
+  <!-- EN: Gray flesh -->
+  <AlertGrayFleshSample>灰色血肉</AlertGrayFleshSample>
+  <!-- EN: You’ve discovered a strip of fleshy tissue. Analyze it to learn more about the biosignature. -->
+  <AlertGrayFleshSampleDesc>你发现了一条灰色的新鲜肉体组织。分析它以获得更多的生物特征。</AlertGrayFleshSampleDesc>
+  <!-- EN: Neural lump -->
+  <AlertNeuralLump>神经组织块</AlertNeuralLump>
+  <!-- EN: A fleshmass nerve bundle has dropped a neural lump. Analyze it to learn how to kill the fleshmass heart. -->
+  <AlertNeuralLumpDesc>血肉神经结节掉落了一个神经组织块。分析它以获取击杀血肉心脏的方法。</AlertNeuralLumpDesc>
+  <!-- EN: Revenant flesh -->
+  <AlertRevenantFlesh>幽魂肉块</AlertRevenantFlesh>
+  <!-- EN: The wounded revenant left behind a piece of itself. Analyze it to learn how to track the revenant. -->
+  <AlertRevenantFleshDesc>受伤的幽魂掉下了一团肉块。分析它以学习追踪幽魂的方法。</AlertRevenantFleshDesc>
+
+</LanguageData>

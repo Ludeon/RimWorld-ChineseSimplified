@@ -2,15 +2,15 @@
 <LanguageData>
   
   <!-- EN: fleshmass neural lump -->
-  <FleshmassNeuralLump.label>血肉神经块</FleshmassNeuralLump.label>
+  <FleshmassNeuralLump.label>神经组织块</FleshmassNeuralLump.label>
   <!-- EN: A clump of fleshmass nervous tissue and fibres. You can analyze it to find a way to kill the fleshmass heart itself. -->
-  <FleshmassNeuralLump.description>一块血肉块神经纤维组织。你可对其进行分析以找到杀死血肉块心脏本体的方法。</FleshmassNeuralLump.description>
+  <FleshmassNeuralLump.description>血肉神经组织的一部分。你可对其进行分析以找到杀死血肉心脏本体的方法。</FleshmassNeuralLump.description>
   <!-- EN: Analyze the fleshmass neural sample. Once enough neural samples are collected and analyzed, you should be able to figure out a way to kill the heart. -->
-  <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.activateDescString>分析血肉块神经样本。一旦收集并分析了足够多的样本，你便可找到杀死其本体心脏的方法。</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.activateDescString>
+  <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.activateDescString>分析血肉神经组织样本。一旦收集并分析了足够多的样本，你便可找到杀死其本体心脏的方法。</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.activateDescString>
   <!-- EN: Analyze... -->
-  <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.activateLabelString>分析…</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.activateLabelString>
+  <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.activateLabelString>分析...</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.activateLabelString>
   <!-- EN: While analyzing the fleshmass neural tissue, {PAWN_nameDef} made a breakthrough!\n\nThis biosignature responds strongly when stimulated by a specific electric pulse. If used on the fleshmass heart itself, an electric signal could cause a tachycardiac overload and kill the heart.\n\nYou can now destroy the {BIOSIGNATURE} fleshmass heart by interacting with it directly. -->
-  <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.completedLetter>{PAWN_nameDef}在分析血肉块神经组织的过程中取得了重大突破！\n\n其生物特征对某种特定电击脉冲起了强烈反应。如果将其用在血肉块心脏本体上，应该能使其心率超速过载而亡。\n\n你现在可以通过直接互动的方式将{BIOSIGNATURE}血肉块心脏摧毁了。</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.completedLetter>
+  <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.completedLetter>{PAWN_nameDef}在分析神经组织块的过程中取得了重大突破！\n\n其生物特征对某种特定的脉冲电流起了强烈反应。如果将其用在血肉心脏本体上，应该能使其因心动过速而亡。\n\n你现在可以通过直接互动的方式将{BIOSIGNATURE}血肉心脏摧毁了。</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.completedLetter>
   <!-- EN: Analysis complete -->
   <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.completedLetterLabel>分析完成</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.completedLetterLabel>
   <!-- EN: Choose who should analyze this -->
@@ -18,30 +18,30 @@
   <!-- EN: Can be analyzed by a colonist. -->
   <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.inspectString>可由一名殖民者进行分析。</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.inspectString>
   <!-- EN: Analyze neural lump -->
-  <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.jobString>分析神经块</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.jobString>
+  <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.jobString>分析神经组织块</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.jobString>
   <!-- EN: Analysis progress -->
   <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.progressedLetterLabel>分析有所进展</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.progressedLetterLabel>
   <!-- EN: {PAWN_nameDef} has finished analyzing the fleshmass neural lump. The sample carries the biosignature {BIOSIGNATURE}.\n\n{PAWN_nameDef} is convinced that {PAWN_pronoun} can find a way to kill the fleshmass heart, but {PAWN_pronoun} needs to study more neural samples first. -->
-  <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.progressedLetters.0>{PAWN_nameDef}完成了对血肉神经块的分析。该样本带有生物特征{BIOSIGNATURE}。\n\n{PAWN_nameDef}相信自己能找到杀死血肉块心脏的方法，不过{PAWN_pronoun}还得再多研究几份神经样本才行。</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.progressedLetters.0>
+  <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.progressedLetters.0>{PAWN_nameDef}完成了对神经组织块的分析。该样本带有新的生物特征{BIOSIGNATURE}。\n\n{PAWN_nameDef}相信自己能找到杀死血肉心脏的方法，不过{PAWN_pronoun}还得再多研究几份神经组织块样本才行。</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.progressedLetters.0>
   <!-- EN: {PAWN_nameDef} has finished analyzing the fleshmass neural tissue. This tissue belongs to the previously studied biosignature {BIOSIGNATURE}, so you didn't gain any new knowledge.\n\nYou can destroy the {BIOSIGNATURE} fleshmass heart by interacting with it directly and inducing a tachycardiac overload. -->
-  <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.repeatCompletedLetter>{PAWN_nameDef}完成了对血肉块神经组织的分析。这块组织拥有先前已经研究过的生物特征{BIOSIGNATURE}，因此你无法获得任何新知识。\n\n你可通过直接互动的方式对带有{BIOSIGNATURE}的血肉块心脏激发心率过载从而将其摧毁。</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.repeatCompletedLetter>
+  <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.repeatCompletedLetter>{PAWN_nameDef}完成了对神经组织块的分析。这块组织拥有先前已经研究过的生物特征{BIOSIGNATURE}，因此你无法获得任何新知识。\n\n你可通过直接互动的方式对带有{BIOSIGNATURE}的血肉心脏诱发心动过速从而将其摧毁。</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.repeatCompletedLetter>
   <!-- EN: Analysis complete -->
   <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.repeatCompletedLetterLabel>分析完成</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.repeatCompletedLetterLabel>
   
   <!-- EN: golden cube -->
   <GoldenCube.label>金色魔方</GoldenCube.label>
   <!-- EN: A cube that fits snugly in the hand. Golden in color, it is always invitingly warm to the touch, like a trusted pet or a hug from a good friend. Those that look closely are rewarded for their attention, by the delightful way light plays across its welcoming surface.\n\nThe cube seems impervious to most damage. -->
-  <GoldenCube.description>一件把玩起来相当舒适顺手的立方体。它通体金黄，摸起来总是那样地温暖，有如一只爱宠，或是挚友间的拥抱。端详把玩它的人能够在它发出的舒畅微光中获得慰藉。\n\n这个立方体似乎能免疫大部分伤害。</GoldenCube.description>
+  <GoldenCube.description>一件把玩起来相当舒适顺手的立方体。它通体金黄，触感温润，有如爱宠撒娇，亦似挚友相拥，周身散发出悦目柔光。\n\n这个立方体似乎能免疫大部分伤害。</GoldenCube.description>
   <!-- EN: Golden cube study progress -->
   <GoldenCube.comps.CompStudyUnlocks.studyNotes.0.label>金色魔方研究有所进展</GoldenCube.comps.CompStudyUnlocks.studyNotes.0.label>
   <!-- EN: {PAWN_nameDef}'s investigation of the golden cube has revealed more. It is able to psychically influence anyone who interacts with it. Those under the cube's influence will experience extreme withdrawal if they're separated from it.\n\n{PAWN_nameDef} thinks that there may be a way to deactivate the cube, but {PAWN_pronoun} will need to study it further. -->
   <GoldenCube.comps.CompStudyUnlocks.studyNotes.0.text>{PAWN_nameDef}对于金色魔方的调查有了进展。研究发现它能对任何与其交互者的心灵产生影响。受到魔方影响的人在与其分开时会产生强烈的戒断反应。\n\n{PAWN_nameDef}认为应该有办法能让魔方失效，但{PAWN_pronoun}需要对其进行更深入的研究。</GoldenCube.comps.CompStudyUnlocks.studyNotes.0.text>
   <!-- EN: Golden cube study complete -->
   <GoldenCube.comps.CompStudyUnlocks.studyNotes.1.label>金色魔方研究完成</GoldenCube.comps.CompStudyUnlocks.studyNotes.1.label>
-  <!-- EN: {PAWN_nameDef}'s investigation of the golden cube has revealed that it can be safely deactivated using an archotech shard. Deactivating the cube will break its psychic hold over people. However, it will also prevent further study of the cube.\n\nSelect the golden cube to deactivate it. -->
-  <GoldenCube.comps.CompStudyUnlocks.studyNotes.1.text>{PAWN_nameDef}通过对金色魔方的研究发现，利用一块超凡碎片即可安全地令它失效。无效化魔方后便可打破它对人的心灵控制。然而，这样一来也就无法继续对魔方进行研究了。\n\n选中金色魔方以将其无效化。</GoldenCube.comps.CompStudyUnlocks.studyNotes.1.text>
-  <!-- EN: Permanently disable the golden cube, breaking its psychic hold. This will prevent the cube from being studied further.\n\nRequires 1 shard. -->
-  <GoldenCube.comps.CompGoldenCube.activateDescString>永久地无效化金色魔方，打破它的心灵掌控。但也无法对其进一步研究了。\n\n需要 1 块碎片。</GoldenCube.comps.CompGoldenCube.activateDescString>
+  <!-- EN: {PAWN_nameDef}'s investigation of the golden cube has revealed that it can be deactivated using an archotech shard. Doing so will destroy the cube, breaking its psychic hold over your colonists.\n\nHowever, the psychic whiplash from the cube’s destruction will send any cube-interested people into a berserk rage. Those in caravans will abandon your colony entirely.\n\nSelect the golden cube to deactivate it. -->
+  <GoldenCube.comps.CompStudyUnlocks.studyNotes.1.text>{PAWN_nameDef}通过对金色魔方的研究发现，利用一块暗黑超凡碎片即可安全地令它无效化。这样做会摧毁金色魔方并解除它对人的心灵控制，但因此产生的心灵冲击波会让任何对其着迷的人陷入狂暴状态。如果此人正在远行队中，会立即抛弃离开殖民地。\n\n选中金色魔方以将其无效化。</GoldenCube.comps.CompStudyUnlocks.studyNotes.1.text>
+  <!-- EN: Destroy the golden cube, breaking its psychic hold. This will cause any cube-interested people to enter a temporary berserk rage. If they’re in a caravan, they will be permanently lost.\n\nRequires 1 shard. -->
+  <GoldenCube.comps.CompGoldenCube.activateDescString>摧毁金色魔方并解除它对人的心灵控制。但也无法对其进一步研究了。\n\n需要1块暗黑超凡碎片。</GoldenCube.comps.CompGoldenCube.activateDescString>
   <!-- EN: Deactivate golden cube -->
   <GoldenCube.comps.CompGoldenCube.activateLabelString>将金色魔方无效化</GoldenCube.comps.CompGoldenCube.activateLabelString>
   <!-- EN: deactivating {0}: {1}s -->
@@ -52,23 +52,20 @@
   <GoldenCube.comps.CompGoldenCube.guiLabelString>选择无效化它的人员。</GoldenCube.comps.CompGoldenCube.guiLabelString>
   <!-- EN: deactivate -->
   <GoldenCube.comps.CompGoldenCube.jobString>无效化</GoldenCube.comps.CompGoldenCube.jobString>
-  <!-- EN: The following people have recovered from the cube's psychic effects: -->
   <GoldenCube.comps.CompGoldenCube.letterDeactivatedAppend>以下人员从魔方的心灵控制效果中恢复过来：</GoldenCube.comps.CompGoldenCube.letterDeactivatedAppend>
-  <!-- EN: {PAWN_nameDef} has deactivated the golden cube. After its animating force was removed, the cube crumbled into a small pile of gold. -->
   <GoldenCube.comps.CompGoldenCube.letterDeactivatedDesc>{PAWN_nameDef}已令金色魔方失效。失去了原先的鼓舞之力后，魔方崩解成了一小堆金子。</GoldenCube.comps.CompGoldenCube.letterDeactivatedDesc>
-  <!-- EN: Golden cube deactivated -->
   <GoldenCube.comps.CompGoldenCube.letterDeactivatedLabel>金色魔方已失效</GoldenCube.comps.CompGoldenCube.letterDeactivatedLabel>
   
   <!-- EN: gray flesh sample -->
   <GrayFleshSample.label>灰色血肉样本</GrayFleshSample.label>
   <!-- EN: This strip of human flesh is stained with a dark and gritty ferrous material. Tiny threads of metallic filament run throughout, interspersed with tiny silvery beads. Its form suggests that it sloughed off someone's body during some unnatural liquification process. -->
-  <GrayFleshSample.description>这片人类血肉沾染了一种深色的铁砂状物质。微小的金属细丝在上面流动，夹杂着些许银色颗粒。透过它的形态便可看出它是在某种异常液化过程中从原主人身上脱落的。</GrayFleshSample.description>
+  <GrayFleshSample.description>这片人类血肉沾染了一种深色的铁砂状物质。微小的金属细丝蜿蜒其间，夹杂着些许银色颗粒。透过它的形态便可看出它是在某种异常液化过程中从原主人身上脱落的。</GrayFleshSample.description>
   <!-- EN: Analyze the gray flesh sample. Once enough flesh samples are collected and analyzed, the threat's biosignature will be detectable using a surgical inspection operation, allowing you to identify its host. -->
   <GrayFleshSample.comps.CompAnalyzableBiosignature.activateDescString>分析这份灰色血肉样本。一旦收集并分析足够多的血肉样本后，便可通过手术方式检测到该种威胁的生物特征，由此可甄别出它真正的宿主。</GrayFleshSample.comps.CompAnalyzableBiosignature.activateDescString>
   <!-- EN: Analyze... -->
-  <GrayFleshSample.comps.CompAnalyzableBiosignature.activateLabelString>分析…</GrayFleshSample.comps.CompAnalyzableBiosignature.activateLabelString>
+  <GrayFleshSample.comps.CompAnalyzableBiosignature.activateLabelString>分析...</GrayFleshSample.comps.CompAnalyzableBiosignature.activateLabelString>
   <!-- EN: While analyzing the gray flesh sample, {PAWN_nameDef} finally isolated the biosignature {BIOSIGNATURE}!\n\nThe signature emerges from the fusing of human tissue and metallic bioferrite filaments which spider through the flesh and take control of the nervous system.\n\nYou can now use the surgical inspection operation to detect {BIOSIGNATURE} in living subjects. -->
-  <GrayFleshSample.comps.CompAnalyzableBiosignature.completedLetter>通过对灰色血肉样本的分析，{PAWN_nameDef}终于将生物特征{BIOSIGNATURE}分离了出来！\n\n这种特征由人类组织与灵铁金属细丝融合而来，它能在血肉中蔓延，最终接管神经系统。\n\n你现在可通过手术方式来检测活体中的{BIOSIGNATURE}了。</GrayFleshSample.comps.CompAnalyzableBiosignature.completedLetter>
+  <GrayFleshSample.comps.CompAnalyzableBiosignature.completedLetter>通过对灰色血肉样本的分析，{PAWN_nameDef}终于将生物特征{BIOSIGNATURE}分离了出来！\n\n这种特征由人类组织与活性铁瓷融合而来，它能在血肉中蔓延，最终接管神经系统。\n\n你现在可通过手术方式来检测活体中的{BIOSIGNATURE}了。</GrayFleshSample.comps.CompAnalyzableBiosignature.completedLetter>
   <!-- EN: Analysis complete -->
   <GrayFleshSample.comps.CompAnalyzableBiosignature.completedLetterLabel>分析完成</GrayFleshSample.comps.CompAnalyzableBiosignature.completedLetterLabel>
   <!-- EN: Choose who should analyze this -->
@@ -79,7 +76,7 @@
   <GrayFleshSample.comps.CompAnalyzableBiosignature.jobString>分析灰色血肉样本</GrayFleshSample.comps.CompAnalyzableBiosignature.jobString>
   <!-- EN: Analysis progress -->
   <GrayFleshSample.comps.CompAnalyzableBiosignature.progressedLetterLabel>分析有所进展</GrayFleshSample.comps.CompAnalyzableBiosignature.progressedLetterLabel>
-  <!-- EN: {PAWN_nameDef} has finished analyzing the gray flesh sample. The sample carried the biosignature {BIOSIGNATURE}.\n\n{PAWN_nameDef} made progress in learning to identify this biosignature in living subjects, but needs more samples to complete the work. Until then, your surgical inspections will not detect {BIOSIGNATURE}.\n\nCollect and analyze more grey flesh samples. -->
+  <!-- EN: {PAWN_nameDef} has finished analyzing the gray flesh sample. The sample carried the biosignature {BIOSIGNATURE}.\n\n{PAWN_nameDef} made progress in learning to identify this biosignature in living subjects, but needs more samples to complete the work. Until then, your surgical inspections will not detect {BIOSIGNATURE}.\n\nCollect and analyze more gray flesh samples. -->
   <GrayFleshSample.comps.CompAnalyzableBiosignature.progressedLetters.0>{PAWN_nameDef}完成了针对灰色血肉样本的分析。该样本带有生物特征{BIOSIGNATURE}。\n\n{PAWN_nameDef}在学习如何活体识别该生物特征上有所进展，然而要完成工作还需要更多样本。在那之前，你无法通过手术方式检测到{BIOSIGNATURE}。\n\n收集并分析更多灰色血肉样本。</GrayFleshSample.comps.CompAnalyzableBiosignature.progressedLetters.0>
   <!-- EN: {PAWN_nameDef} has completed {PAWN_possessive} analysis of the gray flesh sample. It carries the previously discovered biosignature {BIOSIGNATURE}.\n\nYour colonists now understand this biosignature well enough to detect it with the surgical inspection operation. -->
   <GrayFleshSample.comps.CompAnalyzableBiosignature.repeatCompletedLetter>{PAWN_nameDef}完成了针对灰色血肉样本的分析。它带有先前发现过的生物特征{BIOSIGNATURE}。\n\n如今你的殖民者对这种生物特征有了充分了解，可以通过手术方式将其检测出来。</GrayFleshSample.comps.CompAnalyzableBiosignature.repeatCompletedLetter>
@@ -87,14 +84,14 @@
   <GrayFleshSample.comps.CompAnalyzableBiosignature.repeatCompletedLetterLabel>分析完成</GrayFleshSample.comps.CompAnalyzableBiosignature.repeatCompletedLetterLabel>
   
   <!-- EN: twisted meat -->
-  <Meat_Twisted.label>扭曲的肉</Meat_Twisted.label>
+  <Meat_Twisted.label>扭曲肉</Meat_Twisted.label>
   <!-- EN: Pieces of twisted muscle and gristle, bloated with tumorous growths. These bizarre shreds of flesh must have come from a horrific creature. -->
-  <Meat_Twisted.description>扭曲的肌肉与软骨碎块，上面遍布着赘生的肿瘤组织。这些诡异的血肉碎片一定来自某种恐怖生物。</Meat_Twisted.description>
+  <Meat_Twisted.description>扭曲的肌肉与软骨碎块，上面遍布着赘生的肿瘤组织。这些诡异的碎肉一定来自某种恐怖生物。</Meat_Twisted.description>
   
   <!-- EN: monolith fragment -->
-  <MonolithFragment.label>巨石碎片</MonolithFragment.label>
+  <MonolithFragment.label>巨石碎块</MonolithFragment.label>
   <!-- EN: A broken-off fragment of the void monolith. It can be studied to learn more about void phenomena. -->
-  <MonolithFragment.description>一块虚空巨石的断裂碎片。对它进行研究可了解更多关于虚空异象的知识。</MonolithFragment.description>
+  <MonolithFragment.description>虚空巨石崩解后的碎块。对它进行研究可了解更多关于虚空异象的知识。</MonolithFragment.description>
   
   <!-- EN: revenant flesh chunk -->
   <RevenantFleshChunk.label>幽魂肉块</RevenantFleshChunk.label>
@@ -103,7 +100,7 @@
   <!-- EN: Analyze the revenant flesh chunk. Analyzing this tissue sample will give you tools to track and reveal the revenant. -->
   <RevenantFleshChunk.comps.CompAnalyzableBiosignature.activateDescString>对幽魂肉块进行分析。分析这份组织样本能够帮助你追踪幽魂并使其现形。</RevenantFleshChunk.comps.CompAnalyzableBiosignature.activateDescString>
   <!-- EN: Analyze... -->
-  <RevenantFleshChunk.comps.CompAnalyzableBiosignature.activateLabelString>分析…</RevenantFleshChunk.comps.CompAnalyzableBiosignature.activateLabelString>
+  <RevenantFleshChunk.comps.CompAnalyzableBiosignature.activateLabelString>分析...</RevenantFleshChunk.comps.CompAnalyzableBiosignature.activateLabelString>
   <!-- EN: {PAWN_nameDef} has finished analyzing the revenant flesh chunk with biosignature {BIOSIGNATURE}.\n\n{PAWN_pronoun} has learned more about this specific revenant's biology and its method of hiding from sight. Your colonists can now see this revenant when it is nearby.\n\nPerhaps you'll be able to find it and kill it while it sleeps. -->
   <RevenantFleshChunk.comps.CompAnalyzableBiosignature.completedLetter>{PAWN_nameDef}完成了针对带有生物特征{BIOSIGNATURE}的幽魂肉块样本的分析。\n\n{PAWN_pronoun}对这只特定幽魂的生理习性和躲藏视线的方式有了更多了解。如今你的殖民者可以在这只幽魂近处发现它了。\n\n或许你可以趁它睡觉时发现并杀死它。</RevenantFleshChunk.comps.CompAnalyzableBiosignature.completedLetter>
   <!-- EN: Analysis progress -->
@@ -117,38 +114,38 @@
   <!-- EN: Analysis progress -->
   <RevenantFleshChunk.comps.CompAnalyzableBiosignature.progressedLetterLabel>分析有所进展</RevenantFleshChunk.comps.CompAnalyzableBiosignature.progressedLetterLabel>
   <!-- EN: {PAWN_nameDef} has finished analyzing the revenant flesh chunk with biosignature {BIOSIGNATURE}.\n\n{PAWN_pronoun} learned more about this particular revenant's biology and how to identify fluids it leaves behind.\n\nThis revenant will now leave a much longer trail of visible smudges when it flees.\n\nPerhaps you'll be able to find it and kill it while it sleeps. You can track it by smears it leaves behind, and reveal it with disruptor flares, explosions, EMPs, or fire. -->
-  <RevenantFleshChunk.comps.CompAnalyzableBiosignature.progressedLetters.0>{PAWN_nameDef}完成了针对带有生物特征{BIOSIGNATURE}的幽魂肉块样本的分析。\n\n{PAWN_pronoun}对这只特定幽魂的生理习性以及如何鉴别它留下的液痕有了更多了解。\n\n如今这只幽魂在逃走时留下的可见污迹会持续更久。\n\n或许你可以趁它睡觉时发现并杀死它。通过它留下的痕迹进行追踪，并利用干扰信号弹、爆炸物、EMP脉冲、或者点火让其现形。</RevenantFleshChunk.comps.CompAnalyzableBiosignature.progressedLetters.0>
+  <RevenantFleshChunk.comps.CompAnalyzableBiosignature.progressedLetters.0>{PAWN_nameDef}完成了针对带有生物特征{BIOSIGNATURE}的幽魂肉块样本的分析。\n\n{PAWN_pronoun}对这只特定幽魂的生理习性以及如何鉴别它留下的液痕有了更多了解。\n\n如今这只幽魂在逃走时留下的痕迹可见时间会持续更久。\n\n通过它留下的痕迹进行追踪，并利用眩光信号弹、爆炸物、EMP脉冲、阻燃泡沫或者火焰使其现形。或许你可以趁它睡觉时发现并杀死它。</RevenantFleshChunk.comps.CompAnalyzableBiosignature.progressedLetters.0>
   <!-- EN: {PAWN_nameDef} has finished analyzing the revenant flesh chunk with biosignature {BIOSIGNATURE}.\n\n{PAWN_pronoun} has learned more about this specific revenant's biology and the vocalizations it makes. Your colonists can now hear this revenant when it is nearby. If you go hunting the revenant and get close, you'll be notified which colonists can hear it.\n\nPerhaps you'll be able to find it and kill it while it sleeps. You can track it by smears it leaves behind, and reveal it with disruptor flares, explosions, EMPs, or fire. -->
-  <RevenantFleshChunk.comps.CompAnalyzableBiosignature.progressedLetters.1>{PAWN_nameDef}完成了针对带有生物特征{BIOSIGNATURE}的幽魂肉块样本的分析。\n\n{PAWN_pronoun}对这只特定幽魂的生理习性以及发声习惯有了更多了解。如今你的殖民者可以在这只幽魂近处听到它的声音。如果你在猎杀这只幽魂途中接近了它，你会知道哪些殖民者能够听见它的声音。\n\n或许你可以趁它睡觉时发现并杀死它。通过它留下的痕迹进行追踪，并利用干扰信号弹、爆炸物、EMP脉冲、或者点火让其现形。</RevenantFleshChunk.comps.CompAnalyzableBiosignature.progressedLetters.1>
-  <!-- EN: {PAWN_nameDef} has finished analyzing the revenant flesh chunk with the previously studied biosignature {BIOSIGNATURE}.\n\n Your colonists can now see this revenant when it is nearby. Perhaps you'll be able to find it and kill it while it's sleeping. -->
-  <RevenantFleshChunk.comps.CompAnalyzableBiosignature.repeatCompletedLetter>{PAWN_nameDef}完成了针对带有之前研究过的生物特征{BIOSIGNATURE}的幽魂肉块样本的分析。\n\n如今你的殖民者可以在这只幽魂近处发现它了。或许你可以趁它睡觉时发现并杀死它。</RevenantFleshChunk.comps.CompAnalyzableBiosignature.repeatCompletedLetter>
+  <RevenantFleshChunk.comps.CompAnalyzableBiosignature.progressedLetters.1>{PAWN_nameDef}完成了针对带有生物特征{BIOSIGNATURE}的幽魂肉块样本的分析。\n\n{PAWN_pronoun}对这只特定幽魂的生理习性以及发声习惯有了更多了解。如今你的殖民者可以在这只幽魂靠近时听到它的声音。如果你在猎杀这只幽魂途中接近了它，你会知道哪些殖民者能够听见它的声音。\n\n通过它留下的痕迹进行追踪，并利用眩光信号弹、爆炸物、EMP脉冲、阻燃泡沫或者火焰使其现形。或许你可以趁它睡觉时发现并杀死它。</RevenantFleshChunk.comps.CompAnalyzableBiosignature.progressedLetters.1>
+  <!-- EN: {PAWN_nameDef} has finished analyzing the revenant flesh chunk with the previously studied biosignature {BIOSIGNATURE}.\n\nYour colonists can now see this revenant when it is nearby. Perhaps you'll be able to find it and kill it while it's sleeping. -->
+  <RevenantFleshChunk.comps.CompAnalyzableBiosignature.repeatCompletedLetter>{PAWN_nameDef}完成了针对带有之前研究过的生物特征{BIOSIGNATURE}的幽魂肉块样本的分析。\n\n如今你的殖民者可以在这只幽魂靠近时发现它。或许你可以趁它睡觉时发现并杀死它。</RevenantFleshChunk.comps.CompAnalyzableBiosignature.repeatCompletedLetter>
   <!-- EN: Analysis complete -->
   <RevenantFleshChunk.comps.CompAnalyzableBiosignature.repeatCompletedLetterLabel>分析完成</RevenantFleshChunk.comps.CompAnalyzableBiosignature.repeatCompletedLetterLabel>
   
   <!-- EN: revenant spine -->
   <RevenantSpine.label>幽魂脊椎</RevenantSpine.label>
   <!-- EN: An articulated spine-like object from a dead revenant. It is a chaotic mesh of sharpened metal spokes, twisted into a warped cage. The material appears to be rough-cast black iron smeared in a dark, slippery fluid. Anyone who peers too closely inside its jagged form is left with a skull-splitting headache.\n\nYou can destroy the spine to permanently kill the revenant.\n\nAlternatively, you can secure it on a holding platform and wait for the revenant to re-emerge, so you can study the captured entity. -->
-  <RevenantSpine.description>幽魂死亡时掉落的铰接式脊椎状构件。上面布满了杂乱的尖利金属条柱，盘绕成歪扭的笼状结构。它的材质像是一种涂了深色滑性液体的粗铸黑铁。任何盯着它的锯齿结构看太近的人都会感到头痛欲裂。\n\n你可以摧毁这个脊椎，让里面的幽魂彻底死透。\n\n或者，你也可以将其安置在收容平台中，等待其中的幽魂再次重生，然后你就可以对这个捕获的实体进行调查了。</RevenantSpine.description>
+  <RevenantSpine.description>幽魂死亡时掉落的铰接式脊椎状构件。上面布满了杂乱的尖利金属条柱，盘绕成歪扭的笼状结构。它的材质像是一种涂了深色油性液体的粗铸黑铁。近距离观察它的人都会感到头痛欲裂。\n\n你可以摧毁这个脊椎，让幽魂彻底死亡。\n\n或者，你也可以将其安置在收容平台中，等待幽魂再次重生，然后就能对这个捕获的实体进行调查了。</RevenantSpine.description>
   <!-- EN: Revenant reformed -->
   <RevenantSpine.comps.CompHoldingPlatformTarget.capturedLetterLabel>幽魂重生</RevenantSpine.comps.CompHoldingPlatformTarget.capturedLetterLabel>
   <!-- EN: After {PAWN_nameDef} chained the revenant spine to a holding platform, the revenant re-emerged.\n\nWhen killed, a revenant's body dissolves, leaving behind only its archotechnological spine. This cage of slick iron waits for a chance to grow a new body. -->
-  <RevenantSpine.comps.CompHoldingPlatformTarget.capturedLetterText>在{PAWN_nameDef}将幽魂脊椎束缚至收容平台后，里面的幽魂重生了。\n\n幽魂被杀死时肉体会消散，仅留下它那带有超凡科技的脊椎骨。这件顺滑的铁笼架静待着长出新肉体的时机。</RevenantSpine.comps.CompHoldingPlatformTarget.capturedLetterText>
+  <RevenantSpine.comps.CompHoldingPlatformTarget.capturedLetterText>在{PAWN_nameDef}将幽魂脊椎束缚至收容平台后，里面的幽魂重生了。\n\n幽魂被杀死时肉体会消散，仅留下它那与超凡科技有关联的脊椎。这件顺滑的铁笼架静待着长出新肉体的时机。</RevenantSpine.comps.CompHoldingPlatformTarget.capturedLetterText>
   <!-- EN: Smash {0_label} -->
   <RevenantSpine.comps.CompUsable.useLabel>砸碎{0_label}</RevenantSpine.comps.CompUsable.useLabel>
   <!-- EN: {PAWN_nameDef} smashed the revenant spine. It dissolved to reveal a shard of dark archotechnology. -->
-  <RevenantSpine.comps.CompUsable.useMessage>{PAWN_nameDef}将幽魂脊椎砸碎了。它消散后露出了一块暗黑超凡科技碎片。</RevenantSpine.comps.CompUsable.useMessage>
+  <RevenantSpine.comps.CompUsable.useMessage>{PAWN_nameDef}将幽魂脊椎砸碎了。它消散后露出了一块暗黑超凡碎片。</RevenantSpine.comps.CompUsable.useMessage>
   <!-- EN: Smash the revenant spine to prevent it reforming into a new revenant. -->
   <RevenantSpine.comps.CompRevenantSpine.activateDescString>砸碎幽魂脊椎以防止它复活成一只新的幽魂。</RevenantSpine.comps.CompRevenantSpine.activateDescString>
   <!-- EN: Smash... -->
-  <RevenantSpine.comps.CompRevenantSpine.activateLabelString>砸碎…</RevenantSpine.comps.CompRevenantSpine.activateLabelString>
+  <RevenantSpine.comps.CompRevenantSpine.activateLabelString>砸碎...</RevenantSpine.comps.CompRevenantSpine.activateLabelString>
   <!-- EN: smashing revenant spine -->
   <RevenantSpine.comps.CompRevenantSpine.activatingStringPending>正在砸碎幽魂脊椎</RevenantSpine.comps.CompRevenantSpine.activatingStringPending>
   <!-- EN: Choose who should do this -->
   <RevenantSpine.comps.CompRevenantSpine.guiLabelString>选择操作对象</RevenantSpine.comps.CompRevenantSpine.guiLabelString>
   
   <!-- EN: shard -->
-  <Shard.label>碎片</Shard.label>
+  <Shard.label>暗黑超凡碎片</Shard.label>
   <!-- EN: A scavenged fragment of dark archotechnology. Originally created by a hyperintelligent archotech mind, this shard is packed with technology beyond human comprehension. It is capable of manipulating psychic flows, inducing archotech influences and more esoteric outcomes. While it is useless by itself, it can be built into devices that harness its power to produce exotic effects. -->
-  <Shard.description>暗黑超凡科技遗留下来的碎片。这块碎片是某个高等智慧超凡智能体的造物，其中蕴含的科技远非人类所能理解。它能够控制灵能之流，引发超凡科技影响，还有其它更高深的用途。尽管光凭它本身还派不上什么用场，然而只要将它植入器件设备内，它便能够发挥力量，产生异能功效。</Shard.description>
+  <Shard.description>回收来的暗黑超凡碎片，出自某个超凡智能的手笔，其中蕴含的科技远非人类所能理解。它能够控制灵流，激活超凡科技加持，还有其它更高深的用途。尽管光凭它本身还派不上什么用场，然而只要将它植入器件设备内，它便能够发挥力量，产生奇特功效。</Shard.description>
   
 </LanguageData>

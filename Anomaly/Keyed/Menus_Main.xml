@@ -1,5 +1,20 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  <Difficulty_ChildShamblersAllowed_Label>儿童蹒跚怪</Difficulty_ChildShamblersAllowed_Label>
-  <Difficulty_ChildShamblersAllowed_Info>将会偶尔出现儿童形态的蹒跚怪。</Difficulty_ChildShamblersAllowed_Info>
+
+  <!-- EN: Anomaly -->
+  <DifficultyAnomalySection>异象</DifficultyAnomalySection>
+  <!-- EN: Anomaly threats (inactive) -->
+  <Difficulty_AnomalyThreatsInactive_Label>异象威胁（未激活巨石）</Difficulty_AnomalyThreatsInactive_Label>
+  <!-- EN: Adjust the percentage of major threats that will be Anomaly-related when the monolith is not active. Only certain minor Anomaly incidents can occur when the monolith is inactive. -->
+  <Difficulty_AnomalyThreatsInactive_Info>巨石未被激活时，与异象相关的大型威胁的生成率占比。\n\n此外，只有部分小型的异象事件会在巨石未被激活时出现。</Difficulty_AnomalyThreatsInactive_Info>
+  <!-- EN: Anomaly threats (active) -->
+  <Difficulty_AnomalyThreatsActive_Label>异象威胁（已激活巨石）</Difficulty_AnomalyThreatsActive_Label>
+  <!-- EN: Adjust the percentage of major threats that will be Anomaly-related when the monolith is active. With the current settings:\n  - {0} of major threats will be Anomaly-related at monolith level 1 and 5\n  - {1} of major threats will be Anomaly-related at monolith levels 2-4 -->
+  <Difficulty_AnomalyThreatsActive_Info>巨石已被激活时，与异象相关的大型威胁的生成率占比。当前设置如下：\n - 巨石等级为1和5时，与异象相关的大型威胁的生成率占比为{0}\n - 巨石等级为2到4时，与异象相关的大型威胁的生成率占比为{1}</Difficulty_AnomalyThreatsActive_Info>
+
+  <!-- EN: Child shamblers -->
+  <Difficulty_ChildShamblersAllowed_Label>儿童活尸</Difficulty_ChildShamblersAllowed_Label>
+  <!-- EN: Reanimated child shamblers will sometimes appear. -->
+  <Difficulty_ChildShamblersAllowed_Info>将会偶尔出现儿童形态的活尸。</Difficulty_ChildShamblersAllowed_Info>
+
 </LanguageData>

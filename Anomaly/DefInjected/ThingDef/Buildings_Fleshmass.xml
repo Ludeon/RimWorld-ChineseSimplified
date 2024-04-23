@@ -2,12 +2,12 @@
 <LanguageData>
   
   <!-- EN: acid spit -->
-  <Bullet_Shell_AcidSpit.label>酸性唾液</Bullet_Shell_AcidSpit.label>
+  <Bullet_Shell_AcidSpit.label>酸性涎液</Bullet_Shell_AcidSpit.label>
   
   <!-- EN: fleshbulb -->
-  <Fleshbulb.label>肉块灯泡</Fleshbulb.label>
-  <!-- EN: A bulbous mass of flesh. These fleshbeast organs store and refine nutrients for surrounding fleshmass. The chemical process generates a soft bioluminscent glow. -->
-  <Fleshbulb.description>球状的肉块。这些血肉兽器官为周围的血肉块提炼并储存营养。这种化学过程会使其发出柔和的生物荧光。</Fleshbulb.description>
+  <Fleshbulb.label>血肉灯</Fleshbulb.label>
+  <!-- EN: A bulbous mass of flesh. These fleshbeast organs store and refine nutrients for surrounding fleshmass. The chemical process generates a soft bioluminescent glow. -->
+  <Fleshbulb.description>球状的肉块。这些血肉兽器官为周围的血肉块提炼并储存营养。这种化学过程会使其发出柔和的生物萤光。</Fleshbulb.description>
   
   <!-- EN: fleshmass -->
   <Fleshmass.label>血肉块</Fleshmass.label>
@@ -20,13 +20,13 @@
   <Fleshmass_Active.description>一团扭曲的肉块。它跳动着，颤抖着，充满了可怕的活力。</Fleshmass_Active.description>
   
   <!-- EN: fleshmass heart -->
-  <FleshmassHeart.label>血肉块心脏</FleshmassHeart.label>
+  <FleshmassHeart.label>血肉心脏</FleshmassHeart.label>
   <!-- EN: The primary organ of a fleshmass infestation. The heart gathers material through roots extended into the ground. Once it has collected enough, it spreads fleshmass around itself in a spurt of cancer-like growth. It will keep growing until it consumes everything.\n\nThe heart grows fleshmass spitters. These defensive organs can spit acid long distances. The heart will also generate fleshbeast defenders to protect itself.\n\nUltra-rapid regeneration makes the heart nearly invulnerable. It can only be killed by analyzing samples taken from the nerve bundles that form within its growing mass. -->
-  <FleshmassHeart.description>血肉兽灾变的核心器官。心脏通过伸入地下的根系汲取物质。一旦收集足够，它就会像癌细胞一样向周围扩散血肉块。它会不断生长，直到吞噬一切。\n\n心脏会滋养血肉块喷吐者。这些防御器官能将酸液喷吐到很远的地方。心脏还会产生血肉兽防御者来保护自己。\n\n超快的再生速度让心脏几乎无懈可击。只有分析其生长过程中形成的神经结节样本，才能找到杀死它的办法。</FleshmassHeart.description>
+  <FleshmassHeart.description>血肉兽灾变的核心器官。心脏通过伸入地下的根系汲取物质。一旦收集足够物质，它就会像癌细胞一样向周围扩散血肉块。它会不断生长，直到吞噬一切。\n\n心脏会滋养血肉喷吐器。这些防御器官能将酸性涎液喷吐到很远的地方。心脏还会生成血肉兽来保护自己。\n\n超快的再生速度让心脏几乎无懈可击。只有分析其生长过程中形成的神经结节样本，才能找到杀死它的办法。</FleshmassHeart.description>
   <!-- EN: Use electrical pulses to induce a tachycardiac overload and kill the fleshmass heart. -->
-  <FleshmassHeart.comps.CompDestroyHeart.activateDescString>使用电脉冲诱发心动过速，即可消灭血肉块心脏。</FleshmassHeart.comps.CompDestroyHeart.activateDescString>
+  <FleshmassHeart.comps.CompDestroyHeart.activateDescString>使用脉冲电流诱发心动过速，即可消灭血肉心脏。</FleshmassHeart.comps.CompDestroyHeart.activateDescString>
   <!-- EN: Induce tachycardiac death... -->
-  <FleshmassHeart.comps.CompDestroyHeart.activateLabelString>诱发心动过速……</FleshmassHeart.comps.CompDestroyHeart.activateLabelString>
+  <FleshmassHeart.comps.CompDestroyHeart.activateLabelString>诱发心动过速...</FleshmassHeart.comps.CompDestroyHeart.activateLabelString>
   <!-- EN: Inducing tachycardiac death: {1}s -->
   <FleshmassHeart.comps.CompDestroyHeart.activatingString>诱发心动过速：{1}秒</FleshmassHeart.comps.CompDestroyHeart.activatingString>
   <!-- EN: Inducing tachycardiac death -->
@@ -37,20 +37,20 @@
   <FleshmassHeart.comps.CompDestroyHeart.jobString>诱发心动过速</FleshmassHeart.comps.CompDestroyHeart.jobString>
   
   <!-- EN: underground emergence -->
-  <FleshmassHeartSpawner.label>突破地表</FleshmassHeartSpawner.label>
+  <FleshmassHeartSpawner.label>正在塌陷的地面</FleshmassHeartSpawner.label>
   <!-- EN: Something is emerging from the ground here. -->
-  <FleshmassHeartSpawner.description>有什么东西突破了这里的地表。</FleshmassHeartSpawner.description>
+  <FleshmassHeartSpawner.description>有什么东西破土而出。</FleshmassHeartSpawner.description>
   <!-- EN: Fleshmass heart -->
-  <FleshmassHeartSpawner.building.groundSpawnerLetterLabel>血肉块心脏</FleshmassHeartSpawner.building.groundSpawnerLetterLabel>
+  <FleshmassHeartSpawner.building.groundSpawnerLetterLabel>血肉心脏</FleshmassHeartSpawner.building.groundSpawnerLetterLabel>
   <!-- EN: A fleshmass heart has emerged! This cancer-like creature will expand its living mass across the surface.\n\nThe heart itself is invulnerable to normal weapons. Fleshmass nerve bundles will soon appear - attack them to gather samples and find a way to kill the heart. -->
-  <FleshmassHeartSpawner.building.groundSpawnerLetterText>血肉块心脏已出现！这种癌症般的生物会在地表四处蔓延。\n\n心脏本身不受普通武器的伤害。血肉块神经结节很快就会出现——攻击它们以收集样本，找到杀死心脏的方法。</FleshmassHeartSpawner.building.groundSpawnerLetterText>
+  <FleshmassHeartSpawner.building.groundSpawnerLetterText>血肉心脏已出现！这种癌症般的生物会在地表四处蔓延。\n\n心脏本身不受普通武器的伤害。血肉神经结节很快就会伴随出现——攻击它们以收集样本，找到杀死心脏的方法。</FleshmassHeartSpawner.building.groundSpawnerLetterText>
   
   <!-- EN: fleshmass spitter -->
-  <FleshmassSpitter.label>血肉块喷吐者</FleshmassSpitter.label>
+  <FleshmassSpitter.label>血肉喷吐器</FleshmassSpitter.label>
   <!-- EN: A defensive fleshmass organ that can spit acid long distances. The acid is a natural byproduct of toxins filtered from the surrounding biomass. -->
-  <FleshmassSpitter.description>可远距离喷吐酸液的防御性血肉块器官。其喷吐出的酸液是从周围生物质中过滤出的天然有毒副产物。</FleshmassSpitter.description>
+  <FleshmassSpitter.description>可远距离喷吐酸性涎液的防御性血肉块器官。这种酸性涎液是从周围生物质中过滤出的天然有毒副产物。</FleshmassSpitter.description>
   <!-- EN: fleshmass spitter -->
-  <FleshmassSpitter.verbs.Verb_Shoot.label>血肉块喷吐者</FleshmassSpitter.verbs.Verb_Shoot.label>
+  <FleshmassSpitter.verbs.Verb_Shoot.label>血肉喷吐器</FleshmassSpitter.verbs.Verb_Shoot.label>
   
   <!-- EN: flesh sack -->
   <FleshSack.label>血肉袋</FleshSack.label>
@@ -60,7 +60,7 @@
   <!-- EN: nerve bundle -->
   <NerveBundle.label>神经结节</NerveBundle.label>
   <!-- EN: A junction point in the fleshmass nervous system. When destroyed, it leaves behind a lump of neural tissue that you can study. Study enough different neural lumps and you can unlock a way to kill the fleshmass heart itself. -->
-  <NerveBundle.description>血肉块神经系统的节点。摧毁后便会留下一个神经组织块以供研究。研究足够多的不同神经组织块，就能找到杀死血肉块心脏本体的方法。</NerveBundle.description>
+  <NerveBundle.description>血肉神经系统的节点。摧毁后便会留下一个神经组织块以供研究。研究足够多的不同神经组织块，就能找到杀死血肉心脏本体的方法。</NerveBundle.description>
   <!-- EN: Kill to collect: Neural lump -->
   <NerveBundle.comps.CompInspectString.inspectString>击杀以收集：神经组织块</NerveBundle.comps.CompInspectString.inspectString>
   

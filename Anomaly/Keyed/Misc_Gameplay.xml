@@ -1,497 +1,876 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- Shamblers -->
-  <ShamblerRegenerating>再生中，准备复活。</ShamblerRegenerating>
-  <ShamblerRising>复活中。</ShamblerRising>
-  <ShamblerStanding>无精打采地站着。</ShamblerStanding>
-  <ShamblerShuffling>无精打采地踱步。</ShamblerShuffling>
-  <LetterText_ShamblerGorehulk>当心，其中有一只蹒跚嗜血巨人。</LetterText_ShamblerGorehulk>
-  <LetterText_ShamblerGorehulkPlural>当心，其中有几只蹒跚嗜血巨人。</LetterText_ShamblerGorehulkPlural>
-  <LetterText_ShamblerChimera>当心，其中有一只蹒跚奇美拉。</LetterText_ShamblerChimera>
-  <LetterText_ShamblerChimeraPlural>当心，其中有几只蹒跚奇美拉。</LetterText_ShamblerChimeraPlural>
+  <!-- EN: Regenerating to rise again. -->
+  <ShamblerRegenerating>重获行动能力中。</ShamblerRegenerating>
+  <!-- EN: Rising. -->
+  <ShamblerRising>重获行动能力中。</ShamblerRising>
+  <!-- EN: Standing listlessly. -->
+  <ShamblerStanding>呆滞地站着。</ShamblerStanding>
+  <!-- EN: Shuffling listlessly. -->
+  <ShamblerShuffling>呆滞地游荡。</ShamblerShuffling>
+  <!-- EN: Be careful, the group contains a shambler gorehulk. -->
+  <LetterText_ShamblerGorehulk>当心了，它们之中还混有一只活尸血棘巨人。</LetterText_ShamblerGorehulk>
+  <!-- EN: Be careful, the group contains several shambler gorehulks. -->
+  <LetterText_ShamblerGorehulkPlural>当心了，它们之中还混有几只活尸血棘巨人。</LetterText_ShamblerGorehulkPlural>
+  <!-- EN: Be careful, the group contains a shambler chimera. -->
+  <LetterText_ShamblerChimera>当心了，它们之中还混有一只活尸嵌合兽。</LetterText_ShamblerChimera>
+  <!-- EN: Be careful, the group contains several shambler chimeras. -->
+  <LetterText_ShamblerChimeraPlural>当心了，它们之中还混有几只活尸嵌合兽。</LetterText_ShamblerChimeraPlural>
 
-  <MessageRitualCannotBeMutant>非人类无法参与仪式。</MessageRitualCannotBeMutant>
+  <!-- EN: Non-humans cannot participate in rituals. -->
+  <MessageRitualCannotBeMutant>只有人类才能参与仪式。</MessageRitualCannotBeMutant>
 
   <!-- Revenant -->
-  <LetterLabelRevenantRevealed>幽魂突袭</LetterLabelRevenantRevealed>
+  <!-- EN: Revenant attack -->
+  <LetterLabelRevenantRevealed>幽魂袭击</LetterLabelRevenantRevealed>
+  <!-- EN: A revenant has revealed itself! -->
   <LetterRevenantRevealed>幽魂现身了！</LetterRevenantRevealed>
+  <!-- EN: A revenant has revealed itself and is hunting one of your colonists! -->
   <LetterRevenantRevealedFirst>幽魂现身了并开始猎杀你的一名殖民者！</LetterRevenantRevealedFirst> 
+  <!-- EN: Revenant smear discovered -->
   <LetterLabelRevenantSmearDiscovered>发现幽魂污迹</LetterLabelRevenantSmearDiscovered>
+  <!-- EN: {0} has noticed a black slick on the ground. It looks unnatural and gives off a foul, acrid smell. It is still fresh and wet. An eldritch entity passed by recently. -->
   <LetterRevenantSmearDiscovered>{0}注意到地面上有一层黑色的污迹。这块污迹看起来极不自然，散发出刺鼻的恶臭。它还很新鲜潮湿。最近这里应该有诡异实体经过。</LetterRevenantSmearDiscovered>
+  <!-- EN: Revenant killed -->
   <LetterLabelRevenantKilled>击杀幽魂</LetterLabelRevenantKilled>
+  <!-- EN: The revenant is dead! Those who were hypnotized will recover.\n\nIts body has dissipated, leaving behind its spine. You can gather and study the spine, or destroy it. -->
   <LetterRevenantKilled>幽魂已被击杀！被催眠的人也会恢复过来。\n\n幽魂的躯体已经消散，只留下了脊椎。可收集并研究它的脊椎，或者直接将其摧毁。</LetterRevenantKilled>
+  <!-- EN: {PAWN_nameDef} hypnotized -->
   <LetterLabelPawnHypnotized>{PAWN_nameDef}遭到催眠</LetterLabelPawnHypnotized>
-  <LetterPawnHypnotized>{PAWN_nameDef}遭到了幽魂的催眠，当前正语无伦次地描述着噩梦般的画面与想法。\n\n杀死幽魂就能结束催眠。\n\n幽魂利用灵能扭曲周围人的感知，使自己隐身。但可以通过它留下的黑色污迹追踪它的踪迹。幽魂被爆炸性武器、灭火泡沫、电磁脉冲、火焰或干扰照明弹击中后便会现形。\n\n如果没有被击杀，幽魂就会继续催眠新的受害者。</LetterPawnHypnotized>
+  <!-- EN: {PAWN_nameDef} has been hypnotized by a revenant and is now rambling incoherently about nightmarish images and ideas.\n\nKilling the revenant will end the hypnosis.\n\nThe revenant uses psychic powers to twist the perceptions of those around it, making itself invisible. However, it can still be hunted by following the black smears that it leaves. The revenant will be revealed if hit by explosive weapons, firefoam, EMPs, fire, or disruptor flares.\n\nIf not killed, the revenant will continue to hypnotize new victims. -->
+  <LetterPawnHypnotized>{PAWN_nameDef}遭到了幽魂的催眠，正语无伦次地描述着噩梦般的画面与想法。\n\n杀死幽魂就能结束催眠。\n\n幽魂可以施展灵能扭曲周围人的感知，使自己隐形，但能通过其留下的黑色污迹来追踪它。利用眩光信号弹、爆炸物、EMP脉冲、阻燃泡沫或者火焰使幽魂现形。\n\n如果没有被击杀，幽魂就会继续催眠新的受害者。</LetterPawnHypnotized>
+  <!-- EN: Revenant flesh chunk -->
   <LetterRevenantFleshChunkLabel>幽魂肉块</LetterRevenantFleshChunkLabel>
-  <LetterRevenantFleshChunkText>受伤的幽魂留下了一块肉。可以通过分析这块肉来学习如何追踪幽魂。</LetterRevenantFleshChunkText>
+  <!-- EN: The wounded revenant left behind a piece of itself. You can analyze this flesh chunk to learn how to track the revenant. -->
+  <LetterRevenantFleshChunkText>受伤的幽魂留下了一团肉块。可以通过分析这块肉来学习如何追踪幽魂。</LetterRevenantFleshChunkText>
+  <!-- EN: Revenant seen -->
   <LetterRevenantSeenLabel>目击幽魂</LetterRevenantSeenLabel>
+  <!-- EN: {PAWN_nameDef} has seen a hiding revenant! -->
   <LetterRevenantSeen>{PAWN_nameDef}发现了一只隐藏起来的幽魂！</LetterRevenantSeen>
+  <!-- EN: In trance. -->
   <InTrance>恍惚中。</InTrance>
+  <!-- EN: Revenant emergence -->
   <LetterLabelRevenantEmergence>幽魂出现</LetterLabelRevenantEmergence>
-  <LetterRevenantEmergence>幽魂已从完好的脊椎中重新现身！在其逃跑之前消灭它。\n\n在此过程中，幽魂发生了变异，并拥有了新的生物特征。</LetterRevenantEmergence>
+  <!-- EN: The revenant has reemerged from the safety of its spine! Destroy it before it escapes.\n\nIn the process, the revenant has mutated and adopted a new biosignature. -->
+  <LetterRevenantEmergence>幽魂已从完好的脊椎中重新现身！在其逃跑之前消灭它。\n\n在此过程中，幽魂发生了突变，并拥有了新的生物特征。</LetterRevenantEmergence>
 
   <!-- Sightstealers -->
-  <LetterLabelSightstealerRevealed>隐身兽现身</LetterLabelSightstealerRevealed>
+  <!-- EN: Sightstealer revealed -->
+  <LetterLabelSightstealerRevealed>隐形魔现身</LetterLabelSightstealerRevealed>
+  <!-- EN: A twisted creature has appeared out of thin air! -->
   <LetterSightstealerRevealed>一只扭曲可憎的生物突然凭空出现！</LetterSightstealerRevealed>
-  <MessageSightstealerRevealed>一只隐身兽已现身！</MessageSightstealerRevealed>
-  <LetterLabelSightstealerHowl>隐身兽尖啸</LetterLabelSightstealerHowl>
-  <LetterSightstealerHowl>殖民者听到远方传来隐身兽的尖啸声。\n\n没人知道它们到底在哪，也不清楚它们到底有几只。它们可能几天后才到，也可能马上来袭。</LetterSightstealerHowl>
-  <LetterLabelSightstealerHowlBig>隐身兽嚎叫</LetterLabelSightstealerHowlBig>
-  <LetterSightstealerHowlBig>殖民者听到远方传来大量隐身兽的怒嚎声。它们要来了。\n\n它们可能几天后才到，也可能马上来袭。</LetterSightstealerHowlBig>
+  <!-- EN: A sightstealer has appeared! -->
+  <MessageSightstealerRevealed>一只隐形魔已现身！</MessageSightstealerRevealed>
+  <!-- EN: Sightstealer shrieks -->
+  <LetterLabelSightstealerHowl>隐形魔尖啸</LetterLabelSightstealerHowl>
+  <!-- EN: Your colonists hear sightstealers shrieking in the distance.\n\nIt's hard to tell where they are or how many. They might arrive immediately or days from now. -->
+  <LetterSightstealerHowl>殖民者听到远方传来隐形魔的尖啸声。\n\n没人知道它们到底在哪，也不清楚它们到底有几只。它们可能几天后才到，也可能马上来袭。</LetterSightstealerHowl>
+  <!-- EN: Sightstealer howling -->
+  <LetterLabelSightstealerHowlBig>隐形魔嚎叫</LetterLabelSightstealerHowlBig>
+  <!-- EN: Your colonists hear a huge number of distant sightstealers screaming in their twisted rage. They are coming.\n\nThey might arrive immediately, or days from now. -->
+  <LetterSightstealerHowlBig>殖民者听到远方传来大量隐形魔的怒嚎声。它们要来了。\n\n它们可能几天后才到，也可能马上来袭。</LetterSightstealerHowlBig>
 
   <!-- Death Pall -->
-  <LetterLabelDeathPallEnded>死亡迷雾消散</LetterLabelDeathPallEnded> 
-  <LetterDeathPallEnded>死亡的迷雾正在消散。被它复活的尸体很快便会继续安息。</LetterDeathPallEnded>
+  <!-- EN: Death pall clearing -->
+  <LetterLabelDeathPallEnded>死灵迷雾消散</LetterLabelDeathPallEnded> 
+  <!-- EN: The pall of death is lifting. The corpses reanimated by it will soon return to their natural state. -->
+  <LetterDeathPallEnded>死灵迷雾正在消散。受其影响而转变的活尸很快便会继续安息。</LetterDeathPallEnded>
   
   <!-- Pit Gate -->
-  <LetterLabelGateClosing>深坑洞口封闭</LetterLabelGateClosing>
-  <LetterGateClosing>洞口即将封闭！深坑的入口马上就要崩塌。\n\n深坑的入口一开始就很不稳定，现在终于要塌陷封闭了。</LetterGateClosing>
-  <MustPlaceNextToPitGate>必须放置在深坑洞口相邻的位置。</MustPlaceNextToPitGate>
-  <PitGateClosedHumanityNote>深坑洞口已封闭</PitGateClosedHumanityNote>
-  <PitGateCollapsing>深坑洞口塌陷中</PitGateCollapsing> 
-  <PitGateSettling>深坑洞口沉陷中</PitGateSettling> 
+  <!-- EN: Pit gate closing -->
+  <LetterLabelGateClosing>巨坑封闭</LetterLabelGateClosing>
+  <!-- EN: The pit gate is closing! Its entrance is about to crumble.\n\nThe pit gate entrance was unstable from the start and is finally sealing itself. -->
+  <LetterGateClosing>巨坑即将封闭！深坑的入口马上就要崩塌。\n\n巨坑的入口一开始就很不稳定，现在终于要塌陷封闭了。</LetterGateClosing>
+  <!-- EN: Must be placed adjacent to a pit gate. -->
+  <MustPlaceNextToPitGate>必须放置在巨坑相邻的位置。</MustPlaceNextToPitGate>
+  <!-- EN: Pit gate closed -->
+  <PitGateClosedHumanityNote>巨坑已封闭</PitGateClosedHumanityNote>
+  <!-- EN: Pit gate collapsing -->
+  <PitGateCollapsing>巨坑塌陷中</PitGateCollapsing> 
+  <!-- EN: Pit gate settling -->
+  <PitGateSettling>巨坑沉陷中</PitGateSettling> 
+  <!-- EN: View undercave -->
   <ViewUndercave>查看地下洞穴</ViewUndercave> 
+  <!-- EN: View the connected undercave map. -->
   <ViewUndercaveDesc>查看连接地下洞穴的地图。</ViewUndercaveDesc>
+  <!-- EN: View surface -->
   <ViewSurface>查看地表</ViewSurface>
+  <!-- EN: View the connected surface map. -->
   <ViewSurfaceDesc>查看连接地表的地图。</ViewSurfaceDesc>
-  <EmergenceWarningLabel>深坑震动</EmergenceWarningLabel>
-  <EmergenceWarningText>地面在你脚下震动，深坑中回荡的诡异叫声似乎越来越近。什么东西马上就要出现了。</EmergenceWarningText>
+  <!-- EN: Pit rumbles -->
+  <EmergenceWarningLabel>巨坑震动</EmergenceWarningLabel>
+  <!-- EN: The ground shakes under your feet and the inhuman screams echoing from the pit seem to get closer. Something will emerge soon. -->
+  <EmergenceWarningText>地面在你脚下震动，巨坑中回荡的诡异叫声似乎越来越近。什么东西马上就要出现了。</EmergenceWarningText>
 
   <!-- Pit Burrow -->
+  <!-- EN: Fill in -->
   <DesignatorFillIn>填平</DesignatorFillIn>
-  <DesignatorFillInDesc>填平该深坑地洞。</DesignatorFillInDesc>
+  <!-- EN: Fill in this pit burrow. -->
+  <DesignatorFillInDesc>填平这个坑洞。</DesignatorFillInDesc>
 
     <!-- Undercave -->
-  <EnterPitGate>进入深坑洞口</EnterPitGate> 
+  <!-- EN: Enter pit gate -->
+  <EnterPitGate>进入巨坑</EnterPitGate> 
+  <!-- EN: Climb to surface -->
   <ExitPitGate>爬至地表</ExitPitGate>
+  <!-- EN: Fleshbeast lair -->
   <LetterLabelGateEntered>血肉兽巢穴</LetterLabelGateEntered> 
-  <LetterGateEntered>在洞穴深处，你们发现了一个巨大的洞穴系统，里面血肉兽肆虐。\n\n大量血肉堵塞了洞穴系统，阻碍了你们的前进。攻击肉块并将其摧毁。\n\n整个洞穴系统似乎并不稳定。如果能找到藏在血肉块后面的东西，也许就能弄塌隧道并关闭洞口。</LetterGateEntered> 
+  <!-- EN: In the depths of the pit gate, you have discovered a massive cavern system infested with fleshbeasts.\n\nThe cavern system is clogged with masses of living flesh that block your progress. Attack the fleshmass to destroy it.\n\nThe entire cavern system seems unstable. If you find what lies behind the fleshmass, you may be able to collapse the tunnels and close the pit gate. -->
+  <LetterGateEntered>在巨坑深处，你们发现了一个巨大的洞穴系统，里面血肉兽肆虐。\n\n大量血肉块堵塞了洞穴系统，阻碍了你们的前进。攻击血肉块并将其摧毁。\n\n整个洞穴系统似乎并不稳定。如果能找到藏在血肉块后面的东西，也许就能弄塌隧道并关闭洞口。</LetterGateEntered> 
+  <!-- EN: Squirming sounds -->
   <LetterLabelDreadmeldWarning>蠕动杂音</LetterLabelDreadmeldWarning> 
+  <!-- EN: As {PAWN_nameDef} draws near the fleshmass here, {PAWN_pronoun} senses a heavy writhing and throbbing from under its warm surface. Some huge living entity is hidden behind the wall of flesh. -->
   <LetterDreadmeldWarning>{PAWN_nameDef}靠近这里的血肉块时，{PAWN_pronoun}感觉到血肉块温暖的表皮下传来一阵剧烈的蠕动和抽搐。血肉墙后面似乎隐藏着某只巨大的生命体。</LetterDreadmeldWarning> 
+  <!-- EN: Undercave unstable -->
   <LetterLabelUndercaveCollapsing>地下洞穴不稳定</LetterLabelUndercaveCollapsing> 
-  <LetterUndercaveCollapsing>骇人异兽的死亡刺激了血肉块，导致洞穴系统变得不稳定。支撑洞穴的血肉块已经开始腐化。半天之内，整个洞穴就会坍塌。\n\n趁现在还来得及，赶快离开地下洞穴！</LetterUndercaveCollapsing>
+  <!-- EN: The dreadmeld's death has shocked the fleshmass and caused the cave system to destabilize. The fleshmass that supported the cavern is already beginning to deteriorate. Within half a day, the entire cavern will collapse.\n\nGet out of the undercave before it's too late! -->
+  <LetterUndercaveCollapsing>惊惧母兽的死亡刺激了血肉块，导致洞穴系统变得不稳定。支撑洞穴的血肉块已经开始衰败。半天之内，整个洞穴就会坍塌。\n\n趁现在还来得及，赶快离开地下洞穴！</LetterUndercaveCollapsing>
 
   <!-- Holding platform -->
+  <!-- EN: Holding -->
   <HoldingThing>收容中</HoldingThing>
+  <!-- EN: Remove {0_labelShort} -->
   <RemoveFromPlatform>移除{0_labelShort}</RemoveFromPlatform>
+  <!-- EN: Remove the current entity held on the platform. -->
   <RemoveFromPlatformDesc>移除当前收容在该平台上的实体。</RemoveFromPlatformDesc>
+  <!-- EN: {GERUND} {TARGETLABEL} from -->
   <ReleasingEntity>{GERUND}{TARGETLABEL}，它来自</ReleasingEntity>
+  <!-- EN: {GERUND} {TARGETLABEL} -->
   <TransferringEntity>{GERUND}{TARGETLABEL}</TransferringEntity>
+  <!-- EN: Select holding platform -->
   <SelectHoldingPlatform>选择收容平台</SelectHoldingPlatform>
+  <!-- EN: Entity escape -->
   <LetterLabelEscapingFromHoldingPlatform>实体逃脱</LetterLabelEscapingFromHoldingPlatform> 
-  <LetterEscapingFromHoldingPlatform>以下实体已突破收容：\n\n{0}\n\n建造更坚固的收容室以防止实体逃脱。收容强度越高，实体突破收容逃脱的可能性就越小，坚固的墙壁与门、良好的照明以及特殊的收容装置都能提高收容强度。</LetterEscapingFromHoldingPlatform> 
+  <!-- EN: The following entities have escaped their restraints:\n\n{0}\n\nBuild stronger containment rooms to stop entities escaping. Entities are less likely to escape from holding platforms with high containment strength, which comes from strong walls and doors, good lighting, and special containment devices. -->
+  <LetterEscapingFromHoldingPlatform>以下实体已突破收容：\n\n{0}\n\n建造更坚固的收容室以防止实体逃脱。收容强度越高，实体突破收容逃脱的可能性就越小，坚固的墙体与门、良好的照明以及特殊的收容设备都能提高收容强度。</LetterEscapingFromHoldingPlatform> 
+  <!-- EN: requires {0} -->
   <HoldingPlatformRequiresStrength>需要{0}</HoldingPlatformRequiresStrength>
+  <!-- EN: No holding platforms available. -->
   <NoHoldingPlatformsAvailable>无可用收容平台。</NoHoldingPlatformsAvailable>
   
   
   <!-- Obelisks -->
+  <!-- EN: Obelisk activation -->
   <MutatorObeliskLetterLabel>方尖碑激活</MutatorObeliskLetterLabel>
+  <!-- EN: The obelisk is activating! It swells with grisly energy as the air crackles around it. It is about to self-destruct in a great explosion, but before it does, it will use its hideous transformative power on any creature it can detect. -->
   <MutatorObeliskLetter>方尖碑正在激活！周围空气噼啪作响，方尖碑也充盈着能量。它即将在一场大爆炸中自毁，但在此之前，它将对任何它能探测到的生物使用其恶毒的畸变能力。</MutatorObeliskLetter>
 
+  <!-- EN: Obelisk mutation -->
   <ObeliskTentacleLetterLabel>方尖碑畸变</ObeliskTentacleLetterLabel>
+  <!-- EN: While interacting with the obelisk, {PAWN_nameDef} felt {PAWN_possessive} arm tingling. Moments later, {PAWN_possessive} skin split open as a fleshy growth erupted from {PAWN_possessive} body. {PAWN_possessive} arm has been replaced by a squirming tentacle!\n\n{PAWN_nameDef} lost some blood, but seems otherwise unharmed. -->
   <ObeliskTentacleLetter>在与方尖碑互动时，{PAWN_nameDef}感到手臂刺痛。片刻之后，{PAWN_possessive}皮肤崩裂开来，一只肉芽从{PAWN_possessive}体内长出。{PAWN_possessive}手臂现在已变成了一条蠕动的触手！\n\n{PAWN_nameDef}但失血并不严重，生命指标看起来也并无大碍。</ObeliskTentacleLetter>
 
+  <!-- EN: Obelisk mutation -->
   <ObeliskFleshWhipLetterLabel>方尖碑畸变</ObeliskFleshWhipLetterLabel>
+  <!-- EN: While interacting with the obelisk, {PAWN_nameDef} felt {PAWN_possessive} arm tingling. Moments later, {PAWN_possessive} skin split open violently as a growth burst from {PAWN_possessive} body. {PAWN_possessive} arm has been replaced by a tentacle tipped with a bony blade!\n\n{PAWN_nameDef} lost some blood, but seems otherwise unharmed by this disturbing event. The tentacle is hideous, but it will make an excellent melee weapon. -->
   <ObeliskFleshWhipLetter>在与方尖碑互动时，{PAWN_nameDef}感到手臂刺痛。片刻之后，{PAWN_possessive}皮肤发生了剧烈的崩裂，一只肉芽从{PAWN_possessive}体内破体而出。{PAWN_possessive}手臂现在已变成了一条触手，触手顶端还长着骨刃！\n\n{PAWN_nameDef}虽然场面极为恐怖，但失血并不严重，生命指标看起来也并无大碍。那只触手虽然狰狞可怖，但它也是一件绝佳的近战武器。</ObeliskFleshWhipLetter>
 
+  <!-- EN: Obelisk interaction -->
   <MutatorObeliskFailedArmLetterLabel>方尖碑互动</MutatorObeliskFailedArmLetterLabel>
+  <!-- EN: While interacting with the obelisk, {PAWN_nameDef} felt {PAWN_possessive} arm tingling for a few moments. The feeling passed.\n\nThe obelisk tried to mutate {PAWN_nameDef} but failed. -->
   <MutatorObeliskFailedArmLetter>在与方尖碑互动时，{PAWN_nameDef}感到手臂刺痛。片刻之后，这种刺痛感消退了。\n\n方尖碑试图让{PAWN_nameDef}发生畸变但却无果而终。</MutatorObeliskFailedArmLetter>
 
+  <!-- EN: Obelisk mutation -->
   <ObeliskFleshmassStomachLetterLabel>方尖碑畸变</ObeliskFleshmassStomachLetterLabel>
-  <ObeliskFleshmassStomachLetter>在与方尖碑互动时，{PAWN_nameDef}突然感到胃部一阵剧痛，{PAWN_possessive}体内组织开始腐化和变异。{PAWN_possessive}胃变异成了一团有自己意识的畸肉。它分泌的强酸会产生难忍的疼痛，但却可以防止食物中毒。</ObeliskFleshmassStomachLetter>
+  <!-- EN: While interacting with the obelisk, {PAWN_nameDef} felt a sudden sharp pain in {PAWN_possessive} stomach, as {PAWN_possessive} tissue began to roil and mutate. {PAWN_possessive} stomach has mutated into a mass of semi-sentient flesh. The harsh acids it produces are painful but prevent food poisoning. -->
+  <ObeliskFleshmassStomachLetter>在与方尖碑互动时，{PAWN_nameDef}突然感到胃部一阵剧痛，{PAWN_possessive}体内组织开始腐化和突变。{PAWN_possessive}胃突变成了一团有自己意识的畸肉。它分泌的强酸会产生难忍的疼痛，但却可以防止食物中毒。</ObeliskFleshmassStomachLetter>
 
+  <!-- EN: Obelisk interaction -->
   <MutatorObeliskFailedStomachLetterLabel>方尖碑互动</MutatorObeliskFailedStomachLetterLabel>
+  <!-- EN: While interacting with the obelisk, {PAWN_nameDef} felt {PAWN_possessive} stomach aching for a few moments. The feeling passed.\n\nThe obelisk tried to mutate {PAWN_nameDef} but failed. -->
   <MutatorObeliskFailedStomachLetter>在与方尖碑互动时，{PAWN_nameDef}感到胃部一阵疼痛。片刻之后，这种疼痛感消退了。\n\n方尖碑试图让{PAWN_nameDef}发生畸变但却无果而终。</MutatorObeliskFailedStomachLetter>
 
+  <!-- EN: Obelisk mutation -->
   <ObeliskFleshmassLungLetterLabel>方尖碑畸变</ObeliskFleshmassLungLetterLabel>
-  <ObeliskFleshmassLungLetter>在与方尖碑互动时，{PAWN_nameDef}突然感到胸口一阵剧痛，{PAWN_possessive}肺部开始肿胀、扭曲。{PAWN_possessive}肺变异成了一团有自己意识的痛苦畸肉。这种组织不断再生和新陈代谢，使它免疫肺瘟和哮喘等疾病。</ObeliskFleshmassLungLetter>
+  <!-- EN: While interacting with the obelisk, {PAWN_nameDef} felt a sudden sharp pain in {PAWN_possessive} chest, as {PAWN_possessive} lung began to twist and swell. {PAWN_possessive} lung has mutated into a painful mass of semi-sentient flesh. The tissue is constantly regrowing and replacing itself, making it immune to effects like lung rot and asthma. -->
+  <ObeliskFleshmassLungLetter>在与方尖碑互动时，{PAWN_nameDef}突然感到胸口一阵剧痛，{PAWN_possessive}肺部开始肿胀、扭曲。{PAWN_possessive}肺突变成了一团有自己意识的痛苦畸肉。这种组织不断再生和新陈代谢，使它免疫肺瘟和哮喘等疾病。</ObeliskFleshmassLungLetter>
 
+  <!-- EN: Obelisk interaction -->
   <MutatorObeliskFailedLungLetterLabel>方尖碑互动</MutatorObeliskFailedLungLetterLabel>
+  <!-- EN: While interacting with the obelisk, {PAWN_nameDef} felt {PAWN_possessive} chest ache for a few moments. The feeling passed.\n\nThe obelisk tried to mutate {PAWN_nameDef} but failed. -->
   <MutatorObeliskFailedLungLetter>在与方尖碑互动时，{PAWN_nameDef}感到胸口一阵疼痛。片刻之后，这种疼痛感消退了。\n\n方尖碑试图让{PAWN_nameDef}发生畸变但却无果而终。</MutatorObeliskFailedLungLetter>
 
+  <!-- EN: Obelisk mutation -->
   <ObeliskAnimalMutationLetterLabel>方尖碑畸变</ObeliskAnimalMutationLetterLabel>
+  <!-- EN: While interacting with the obelisk, {PAWN_nameDef} observed a sudden spike in energy. The obelisk has violently warped the flesh of {ANIMAL}, turning it into a hideous fleshbeast. -->
   <ObeliskAnimalMutationLetter>在与方尖碑互动时，{PAWN_nameDef}观察到能量突然激增。方尖碑残暴地扭曲了{ANIMAL}的肉体，将其变成了一只狰狞的血肉兽。</ObeliskAnimalMutationLetter>
 
+  <!-- EN: Obelisk mutation -->
   <ObeliskTreeMutationLetterLabel>方尖碑畸变</ObeliskTreeMutationLetterLabel>
-  <ObeliskTreeMutationLetter>在与方尖碑互动时，{PAWN_nameDef}观察到能量突然激荡。方尖碑将附近的一棵树扭曲成了先驱之树。这些怪树能以附近的尸体和生肉为食。</ObeliskTreeMutationLetter>
+  <!-- EN: While interacting with the obelisk, {PAWN_nameDef} observed a sudden pulse of energy. The obelisk has twisted a nearby tree into a harbinger tree. These monstrous trees are capable of feeding on nearby corpses and raw meat. -->
+  <ObeliskTreeMutationLetter>在与方尖碑互动时，{PAWN_nameDef}观察到能量突然激荡。方尖碑将附近的一棵树扭曲成了厄兆噬树。这些怪树能以置放在它周围的尸体、生肉和头颅为食。</ObeliskTreeMutationLetter>
 
+  <!-- EN: Obelisk duplicate -->
   <ObeliskDuplicationLetterLabel>方尖碑复制</ObeliskDuplicationLetterLabel>
+  <!-- EN: While {PAWN_nameDef} interacted with the obelisk, it pulsed with energy and generated a flash of light. {PAWN_nameDef} found {PAWN_objective}self face to face with a copy of {PAWN_objective}self! The duplicate claims to be the real {PAWN_nameDef} and has joined your colony. -->
   <ObeliskDuplicationLetter>{PAWN_nameDef}与方尖碑互动时，方尖碑突然发出了能量脉冲，并发出了一道闪光。{PAWN_nameDef}发现面前出现了另一个{PAWN_objective}！那名复制人声称自己才是真正的{PAWN_objective}，并加入了你们的殖民地。</ObeliskDuplicationLetter>
 
+  <!-- EN: Obelisk failure -->
   <ObeliskDuplicationFailedLetterLabel>方尖碑复制触发失败</ObeliskDuplicationFailedLetterLabel>
+  <!-- EN: {PAWN_nameDef} attempted to trigger the obelisk but nothing occurred. Something about {PAWN_nameDef} is preventing the obelisk from duplicating {PAWN_objective}. -->
   <ObeliskDuplicationFailedLetter>{PAWN_nameDef}试图触发方尖碑，但没有任何反应。{PAWN_nameDef}身上的什么东西阻止了方尖碑复制{PAWN_objective}。</ObeliskDuplicationFailedLetter>
   
+  <!-- EN: {PAWN_nameDef} has successfully triggered obelisk duplication. -->
   <ObeliskDuplicationSuccessMessage>{PAWN_nameDef}成功触发了方尖碑复制。</ObeliskDuplicationSuccessMessage>
 
+  <!-- EN: Hostile obelisk duplicate -->
   <ObeliskHostileDuplicateLetterLabel>方尖碑恶意复制</ObeliskHostileDuplicateLetterLabel>
+  <!-- EN: While {PAWN_nameDef} interacted with the obelisk, it pulsed with energy and generated a flash of light. {PAWN_nameDef} found {PAWN_objective}self face to face with a copy of {PAWN_objective}self. The duplicate is approaching {PAWN_nameDef} with murderous intent! -->
   <ObeliskHostileDuplicateLetter>{PAWN_nameDef}与方尖碑互动时，方尖碑突然发出了能量脉冲，并发出了一道闪光。{PAWN_nameDef}发现面前出现了另一个自己！但那名复制人却带着恶毒的杀意步步逼近{PAWN_nameDef}！</ObeliskHostileDuplicateLetter>
 
+  <!-- EN: Obelisk activation -->
   <DuplicatorObeliskLetterLabel>方尖碑激活</DuplicatorObeliskLetterLabel>
+  <!-- EN: The obelisk is activating! The air around it crackles with energy. Duplicates of your colonists will soon appear with murderous intent.\n\nBe careful - unstable energy is coursing through the obelisk and it could explode at any moment. -->
   <DuplicatorObeliskLetter>方尖碑正在激活！方尖碑周围的空气充盈着能量。殖民者的复制人很快就会带着杀意出现。\n\n千万小心，不稳定的能量正在方尖碑中流淌，它随时都可能爆炸。</DuplicatorObeliskLetter>
 
+  <!-- EN: Colonists disappearing -->
   <ObeliskAbductorLetterLabel>殖民者消失</ObeliskAbductorLetterLabel>
+  <!-- EN: The warped obelisk crackles with energy as it warps space around itself. All manner of creatures are beginning to disappear and will soon vanish entirely.\n\nBe careful - unstable energy is coursing through the obelisk and it could explode at any moment. -->
   <ObeliskAbductorLetter>扭曲方尖碑在扭曲自身周围的空间时发出能量释放的噼啪声。各种生物开始消失，很快就会完全消失。\n\n千万小心，不稳定的能量正在方尖碑中流淌，它随时都可能爆炸。</ObeliskAbductorLetter>
   
+  <!-- EN: {PAWN_nameDef} is disappearing -->
   <ObeliskAbductedDisappearingLetterLabel>{PAWN_nameDef}正在消失</ObeliskAbductedDisappearingLetterLabel>
+  <!-- EN: {PAWN_nameDef} noticed activity in the warped obelisk. Some mysterious internal mechanism has come to life, causing {PAWN_nameDef} to begin to disappear. {PAWN_pronoun} will soon vanish entirely. -->
   <ObeliskAbductedDisappearingLetter>{PAWN_nameDef}注意到扭曲方尖碑中似乎有动静。某种神秘的内部机关开始运转，导致{PAWN_nameDef}开始消失。{PAWN_pronoun}很快就会完全消失。</ObeliskAbductedDisappearingLetter>
   
+  <!-- EN: {PAWN_nameDef} reappeared -->
   <ObeliskAbductedLetterLabel>{PAWN_nameDef}重新出现</ObeliskAbductedLetterLabel>
-  <ObeliskAbductedLetter>{PAWN_nameDef}被传送到了一个奇怪的房间。房间墙壁是由一种无法辨认的灰色材料制成的，而那里的空气也是死气沉沉。{PAWN_pronoun}不清楚自己身在何处，也不知道该如何回家。\n\n附近的一扇门被堵上了，但似乎费点力气就能强行打开。右击堵上的门将其打开。通过研究方尖碑，其他殖民者也许可以了解{PAWN_nameDef}身上发生了什么，并找到帮助{PAWN_objective}的方法。也可以选择攻击方尖碑，使其诱拐更多殖民者。</ObeliskAbductedLetter>
+  <!-- EN: {PAWN_nameDef} has been teleported to a strange room. The walls are an unidentifiable gray material and the air is dead still. {PAWN_pronoun} doesn't know where {PAWN_pronoun} is - or how to get home.\n\nA nearby door is jammed but looks like it can be forced open with some effort. Right-click jammed doors to open them.\n\nBy studying the obelisk, other colonists may be able to understand what happened to {PAWN_nameDef} and find a way to help {PAWN_objective}. Alternatively, attacking the obelisk may provoke it to abduct more colonists. -->
+  <ObeliskAbductedLetter>{PAWN_nameDef}被传送到了一个奇怪的房间。房间墙体是由一种无法辨认的灰色材料制成的，而那里的空气也是死气沉沉。{PAWN_pronoun}不清楚自己身在何处，也不知道该如何回家。\n\n附近的一扇门被堵上了，但似乎费点力气就能强行打开。右击堵上的门将其打开。通过研究方尖碑，其他殖民者也许可以了解{PAWN_nameDef}身上发生了什么，并找到帮助{PAWN_objective}的方法。也可以选择攻击方尖碑，使其诱拐更多殖民者。</ObeliskAbductedLetter>
 
-  <MutatorObeliskMutated>{PAWN_nameIndef}变异成了一只血肉兽。</MutatorObeliskMutated>
+  <!-- EN: {PAWN_nameIndef} has mutated into a fleshbeast. -->
+  <MutatorObeliskMutated>{PAWN_nameIndef}突变成了一只血肉兽。</MutatorObeliskMutated>
+  <!-- EN: A fleshbeast has emerged from the ground. -->
   <MutatorObeliskSpawned>一只血肉兽从地下钻出。</MutatorObeliskSpawned>
 
+  <!-- EN: Fully activate the warped obelisk. -->
   <ObeliskActivateDesc>完全激活扭曲方尖碑。</ObeliskActivateDesc>
+  <!-- EN: Warning: The warped obelisk is unstable. Fully activating it will provoke a dangerous response and will cause the obelisk to self-destruct. -->
   <ObeliskActivateDescWarning>警告！扭曲方尖碑不稳定。完全激活它将引发危险反应，并导致方尖碑自毁。</ObeliskActivateDescWarning>
 
-  <ObeliskDeactivateMissingShards>需要 {0} 块碎片才可停用</ObeliskDeactivateMissingShards>
+  <!-- EN: Requires {0} shards to disable -->
+  <ObeliskDeactivateMissingShards>需要{0}块暗黑超凡碎片才可停用</ObeliskDeactivateMissingShards>
   
   <!-- Activity / Supression -->
+  <!-- EN: Activity level -->
   <ActivityLevel>活跃等级</ActivityLevel>
-  <IsPsychicallySuppressed>灵能压制</IsPsychicallySuppressed>
+  <!-- EN: Psychic suppression -->
+  <IsPsychicallySuppressed>心灵抑制</IsPsychicallySuppressed>
+  <!-- EN: Increase rate -->
   <ActivityIncrease>提升速率</ActivityIncrease>
-  <NotInSealedRoom>未在密封房间</NotInSealedRoom>
+  <!-- EN: Not in sealed room -->
+  <NotInSealedRoom>所在房间未密封</NotInSealedRoom>
+  <!-- EN: Energy harvesting -->
   <EnergyHarvesting>采集能量中</EnergyHarvesting>
+  <!-- EN: Unstable -->
   <Unstable>不稳定</Unstable>
+  <!-- EN: Base level -->
   <BaseLevel>基础等级</BaseLevel>
+  <!-- EN: Is active -->
   <IsActive>活跃</IsActive>
+  <!-- EN: resist -->
   <Resisted>抗拒</Resisted>
+  <!-- EN: Damaged -->
   <HealthFactor>受伤</HealthFactor>
-  <Deactivated>不活跃</Deactivated> <!-- -->
+  <!-- EN: Deactivated. -->
+  <Deactivated>已停用</Deactivated> <!-- -->
 
+  <!-- EN: {PAWN_labelShort} was sent. -->
   <CommandSent>{PAWN_labelShort}已被派出。</CommandSent>
+  <!-- EN: Cannot activate entity -->
   <CannotActivateEntity>无法激活实体</CannotActivateEntity>
+  <!-- EN: Entity must be on platform -->
   <CannotActivateEntityPlatform>实体必须在平台上</CannotActivateEntityPlatform>
   
-  <ActivityGizmo>活跃</ActivityGizmo>
-  <ActivitySuppressionTooltipTitle>自动压制</ActivitySuppressionTooltipTitle>
-  <ActivitySuppressionTooltipDisabled>自动压制功能目前已禁用。启用后，狱卒就会压制{PAWN_labelShort}。</ActivitySuppressionTooltipDisabled>
-  <ActivitySuppressionTooltipDesc>{0}的活跃等级会逐渐上升。若{0}受到伤害或挑衅，活跃等级会上升得更快。\n\n若其活跃等级达到 100%，{0}就会进入活跃状态。\n\n狱卒会自动压制{0}，将其活跃等级控制在安全范围内。一旦其活跃等级超过指定等级（{LEVEL}\n\n），他们就会对其进行压制活跃等级较高的实体在研究时会提供更多知识。</ActivitySuppressionTooltipDesc>
-  <ActivitySuppressionToggleTooltipDesc>决定当{PAWN_labelShort}的活跃等级低于 {LEVEL} 时，是否会对其进行自动压制。\n\n自动压制当前已{ONOFF}。</ActivitySuppressionToggleTooltipDesc>
+  <!-- EN: Activity -->
+  <ActivityGizmo>活跃度</ActivityGizmo>
+  <!-- EN: Automatic suppression -->
+  <ActivitySuppressionTooltipTitle>自动抑制</ActivitySuppressionTooltipTitle>
+  <!-- EN: Automatic suppression is currently disabled. Enable it to have wardens suppress the {PAWN_labelShort}. -->
+  <ActivitySuppressionTooltipDisabled>自动抑制功能目前已禁用。启用后，狱卒就会抑制{PAWN_labelShort}。</ActivitySuppressionTooltipDisabled>
+  <!-- EN: The {0}'s activity level rises over time. Activity rises faster if the {0} is damaged or provoked.\n\nIf the activity level reaches 100%, the {0} will activate.\n\nWardens can suppress the {0} to keep its activity at a safe level. They will suppress it any time its activity is above the assigned level: {LEVEL}\n\nEntities that have higher activity levels will give more knowledge when studied. -->
+  <ActivitySuppressionTooltipDesc>{0}的活跃等级会逐渐上升。若{0}受到伤害或挑衅，活跃等级会上升得更快。\n\n若其活跃等级达到 100%，{0}就会进入活跃状态。\n\n狱卒会自动抑制{0}，将其活跃等级控制在安全范围内。一旦其活跃等级超过指定等级（{LEVEL}\n\n），他们就会对其进行抑制。活跃等级较高的实体在研究时会提供更多知识。</ActivitySuppressionTooltipDesc>
+  <!-- EN: This determines whether the {PAWN_labelShort} will be automatically suppressed when its activity is above {LEVEL}.\n\nAutomatic suppression is currently {ONOFF}. -->
+  <ActivitySuppressionToggleTooltipDesc>决定当{PAWN_labelShort}的活跃等级低于 {LEVEL} 时，是否会对其进行自动抑制。\n\n自动抑制当前已{ONOFF}。</ActivitySuppressionToggleTooltipDesc>
 
   <!-- Activity Descs -->
+  <!-- EN: activity level -->
   <ActivityLevelDesc>活跃等级</ActivityLevelDesc>
-  <PsychicallySuppressedDesc>灵能压制</PsychicallySuppressedDesc>
+  <!-- EN: psychic suppression -->
+  <PsychicallySuppressedDesc>心灵抑制</PsychicallySuppressedDesc>
 
   <!-- Entity study -->
-  <CaptureEntity>捕捉</CaptureEntity>
-  <CaptureEntityDesc>捕捉{0_definite}。它必须被收容在收容平台上。一旦被收容，就可以对其进行研究。</CaptureEntityDesc>
-  <CancelCapture>取消捕捉</CancelCapture>
-  <CancelCaptureDesc>取消捕捉{0_definite}。</CancelCaptureDesc>
+  <!-- EN: Capture -->
+  <CaptureEntity>捕获</CaptureEntity>
+  <!-- EN: Capture {0_definite}. It must be restrained on a holding platform. Once restrained, it can be studied. -->
+  <CaptureEntityDesc>捕获{0_definite}。它必须被收容在收容平台上。一旦被收容，就可以对其进行研究。</CaptureEntityDesc>
+  <!-- EN: Cancel capture -->
+  <CancelCapture>取消捕获</CancelCapture>
+  <!-- EN: Cancel capturing {0_definite}. -->
+  <CancelCaptureDesc>取消捕获{0_definite}。</CancelCaptureDesc>
+  <!-- EN: ready to study -->
   <ReadyToStudy>准备研究</ReadyToStudy>
-  <NoActiveResearchProject>没有为{0}知识类别选择异常点研究项目。</NoActiveResearchProject>
-  <Capturable>可捕捉</Capturable>
-  <RequiresHoldingPlatform>必须捕捉至收容平台。</RequiresHoldingPlatform>
+  <!-- EN: No active anomaly research project selected for {0} knowledge category. -->
+  <NoActiveResearchProject>没有为{0}知识类型选择异象研究项目。</NoActiveResearchProject>
+  <!-- EN: Capturable -->
+  <Capturable>可捕获</Capturable>
+  <!-- EN: Must be captured in a holding platform. -->
+  <RequiresHoldingPlatform>必须捕获至收容平台。</RequiresHoldingPlatform>
+  <!-- EN: Choose a location for the nociosphere to teleport to. -->
   <ChooseNociosphereDest>选择苦痛之球传送位置。</ChooseNociosphereDest>
+  <!-- EN: Transfer {0_definite} -->
   <TransferEntity>移送{0_definite}</TransferEntity>
+  <!-- EN: Transfer the contained entity to another holding platform. -->
   <TransferEntityDesc>将收容的实体移送至另一收容平台。</TransferEntityDesc>
+  <!-- EN: Cancel transfer -->
   <CancelTransfer>取消移送</CancelTransfer>
+  <!-- EN: Cancel transferring this entity to another holding platform. -->
   <CancelTransferDesc>取消将收容的实体移送至另一收容平台。</CancelTransferDesc>
   
   <!-- Metalhorrors -->
+  <!-- EN: Emerged from -->
   <EmergedFrom>宿主为</EmergedFrom>
+  <!-- EN: Metalhorror emerging -->
   <Emerging>金属怪形出现</Emerging>
   
+  <!-- EN: Implanted before arrival at your colony -->
   <ImplantSourceUnknown>来到殖民地前便已植入</ImplantSourceUnknown>
-  <InsectImplant>被昆虫植入</InsectImplant>
+  <!-- EN: Implanter insectoid -->
+  <InsectImplant>被虫族植入</InsectImplant>
+  <!-- EN: Implanted during sleep by {SOURCE_nameDef} -->
   <SleepImplant>被{SOURCE_nameDef}在睡眠期间植入</SleepImplant>
+  <!-- EN: Implanted during surgery by {SOURCE_nameDef} -->
   <SurgeryImplant>被{SOURCE_nameDef}在手术期间植入</SurgeryImplant>
-  <FoodImplant>被{SOURCE_nameDef}通过进食植入</FoodImplant>
+  <!-- EN: Implanted through a meal cooked by {SOURCE_nameDef} -->
+  <FoodImplant>因食用了由{SOURCE_nameDef}烹饪的食物而被植入</FoodImplant>
+  <!-- EN: Implanted during unnatural healing by {SOURCE_nameDef} -->
   <UnnaturalHealingImplant>被{SOURCE_nameDef}在异常治疗期间植入</UnnaturalHealingImplant>
-  <FeedingImplant>被{SOURCE_nameDef}通过喂食植入</FeedingImplant>
+  <!-- EN: Implanted when fed a meal by {SOURCE_nameDef} -->
+  <FeedingImplant>被{SOURCE_nameDef}在喂食中植入</FeedingImplant>
 
+  <!-- EN: Metalhorror emerging -->
   <MetalhorrorEmergingLabel>金属怪形出现</MetalhorrorEmergingLabel>
+  <!-- EN: A metalhorror is emerging! Slicing through flesh and skin, this nightmarish bladed creature is cutting its way out of its host. The metalhorror is emerging from: -->
   <MetalhorrorEmergingDesc>金属怪形出现了！一只噩梦般的生物用身上锋利的锯刃撕开血肉，正在从宿主体内破体而出。金属怪形宿主为：</MetalhorrorEmergingDesc>
+  <!-- EN: Metalhorrors are emerging! Slicing through flesh and skin, these nightmarish bladed creatures are cutting their way out of their hosts. Metalhorrors are emerging from: -->
   <MetalhorrorEmergingPluralDesc>金属怪形出现了！数只噩梦般的生物用身上锋利的锯刃撕开血肉，正在从宿主体内破体而出。金属怪形宿主为：</MetalhorrorEmergingPluralDesc>
-  <MetalhorrorEmergingDescAppended>这些可怕的金属寄生虫寄生在受害者体内，通过遍布宿主全身和大脑的细如发丝的金属丝网络控制宿主的高级思考能力。它们控制着受害者的思维，并迫使他们用新的金属怪形去感染他人。</MetalhorrorEmergingDescAppended>
+  <!-- EN: These horrifying metallic parasites live inside the victim, taking control of higher reasoning via a network of hair-thin metallic filaments that they spread throughout the body and brain. They control the victim's mind and compel them to infect others with new metalhorrors. -->
+  <MetalhorrorEmergingDescAppended>这些可怕的金属怪形寄生在受害者体内，通过遍布宿主全身和大脑的细如发丝的金属丝网络控制宿主的高级思考能力。它们控制着受害者的思维，并迫使他们用新的金属怪形去感染他人。</MetalhorrorEmergingDescAppended>
   
+  <!-- EN: These doctors were infested and controlled by metalhorrors, so they lied about the results of a surgical inspection -->
   <MetalhorrorSurgicalInspectionDetails>这些医生受到金属怪形的寄生与控制，因此他们对外科检查结果撒了谎</MetalhorrorSurgicalInspectionDetails>
   
+  <!-- EN: {INFECTED_nameDef}'s metalhorror emerged because it was discovered by {PAWN_nameDef} during a social interaction. -->
   <MetalhorrorReasonInteraction>{INFECTED_nameDef}体内的金属怪形破体而出，原因是其在社交中被{PAWN_nameDef}发现。</MetalhorrorReasonInteraction>
+  <!-- EN: {INFECTED_nameDef}'s metalhorror emerged because it was discovered by {PAWN_nameDef} during an interrogation. -->
   <MetalhorrorReasonInterrogation>{INFECTED_nameDef}体内的金属怪形破体而出，原因是其在审讯中被{PAWN_nameDef}发现。</MetalhorrorReasonInterrogation>
+  <!-- EN: {INFECTED_nameDef}'s metalhorror emerged because {INFECTED_nameDef} died. -->
   <MetalhorrorReasonHostDied>{INFECTED_nameDef}体内的金属怪形破体而出，原因是{INFECTED_nameDef}已身亡。</MetalhorrorReasonHostDied>
+  <!-- EN: {INFECTED_nameDef}'s metalhorror emerged because it was detected by {PAWN_nameDef} during a surgical inspection. -->
   <MetalhorrorReasonSurgeryInspected>{INFECTED_nameDef}体内的金属怪形破体而出，原因是其在外科检查中被{PAWN_nameDef}发现。</MetalhorrorReasonSurgeryInspected>
+  <!-- EN: {INFECTED_nameDef}'s metalhorror emerged for unknown reasons. -->
   <MetalhorrorReasonRandom>{INFECTED_nameDef}体内的金属怪形破体而出，原因不明。</MetalhorrorReasonRandom>
+  <!-- EN: {INFECTED_nameDef}'s metalhorror emerged upon sensing it was being taken away from the colony. -->
   <MetalhorrorReasonTriedToLeaveMap>{INFECTED_nameDef}体内的金属怪形破体而出，原因是感应到其宿主正在远离殖民地。</MetalhorrorReasonTriedToLeaveMap>
   
+  <!-- EN: Metalhorror detected -->
   <MetalhorrorDetected>发现金属怪形</MetalhorrorDetected>
+  <!-- EN: {PAWN_nameDef} noticed something wrong with {INFECTED_nameDef} while chatting. {INFECTED_nameDef} exhibited some combination of unnatural behavior, strange vocal sounds, or barely visible metallic worms in the eyes. {PAWN_nameDef} suspects that {INFECTED_nameDef} is infected with a metalhorror. -->
   <InteractionDetectedDesc>{PAWN_nameDef}在聊天时发现了{INFECTED_nameDef}身上的异样。{INFECTED_nameDef}表现出一些反常行为，嘴里时不时发出奇怪的声音，眼睛里还蠕动着难以察觉的金属蠕虫。{PAWN_nameDef}怀疑{INFECTED_nameDef}感染了金属怪形。</InteractionDetectedDesc>
+  <!-- EN: {PAWN_nameDef} has found something unusual while interrogating {INFECTED_nameDef}. {INFECTED_nameDef} exhibited some combination of unnatural behavior, strange vocal sounds, or barely visible metallic worms in the eyes. {PAWN_nameDef} suspects that {INFECTED_nameDef} is infected with a metalhorror. -->
   <InterrogationDetectedDesc>在审讯{PAWN_nameDef}时，{INFECTED_nameDef}发现了一些异样。{INFECTED_nameDef}表现出一些反常行为，嘴里时不时发出奇怪的声音，眼睛里还蠕动着难以察觉的金属蠕虫。{PAWN_nameDef}怀疑{INFECTED_nameDef}感染了金属怪形。</InterrogationDetectedDesc>
   
-  <MetalhorrorNoticedDetailsAppended>金属怪形是一种寄生虫，它能控制宿主，并利用{INFECTED_objective}感染他人。\n\n随着时间的流逝，金属怪形在宿主体内会变得越来越强大。若觉察到有人发现了自己的存在，金属怪形就会从宿主体内破体而出。该过程极为血腥恐怖，但宿主往往都能侥幸存活下来。\n\n确认某人是否感染金属怪形的唯一手段便是研究金属怪形的肉质残留物，以确定其生物特征，然后与信得过的医生一起对疑似宿主进行外科检查手术。\n\n一旦发现金属怪形的踪迹，可以使用外科检查手术使金属怪形主动从宿主体内钻出。一定要做好用武力将其消灭的准备。</MetalhorrorNoticedDetailsAppended>
+  <!-- EN: Metalhorrors are parasites that control the host and use {INFECTED_objective} to infect others.\n\nMetalhorrors grow stronger inside the host as time passes. A metalhorror will cut its way out of the host's body if it knows it's been detected. The process is horrifying, but the host generally survives.\n\nThe only way to confirm a person is infected with a metalhorror is to study the metalhorror's fleshy leavings to identify its biosignature, then use the surgical inspection operation with a trusted doctor.\n\nOnce discovered, you can use the surgical inspection operation to cause a metalhorror to emerge from its host. Be prepared for a fight. -->
+  <MetalhorrorNoticedDetailsAppended>金属怪形是一种寄生体，它能控制宿主，并利用{INFECTED_objective}感染他人。\n\n随着时间的流逝，金属怪形在宿主体内会变得越来越强大。若觉察到有人发现了自己的存在，金属怪形就会从宿主体内破体而出。该过程极为血腥恐怖，但宿主往往都能侥幸存活下来。\n\n确认某人是否感染金属怪形的唯一手段便是研究金属怪形的肉质残留物，以确定其生物特征，然后与信得过的医生一起对疑似宿主进行外科检查手术。\n\n一旦发现金属怪形的踪迹，可以使用外科检查手术使金属怪形主动从宿主体内钻出。一定要做好用武力将其消灭的准备。</MetalhorrorNoticedDetailsAppended>
   
+  <!-- EN: Gray flesh -->
   <LetterGrayFleshDiscoveredLabel>灰色血肉</LetterGrayFleshDiscoveredLabel>
-  <LetterGrayFleshDiscovered>{PAWN_nameDef}发现了一小块人体组织。它与正常的皮肤别无二致，只不过被微小的金属颗粒染成了灰色。它一定是某人在肉体液化过程中脱落的。\n\n殖民者中可能混进了别的东西。\n\n有几种方法可以检测出冒牌货：\n\n{METHODS}\n\n警告：某些寄生虫可以控制思想，甚至传染给他人。</LetterGrayFleshDiscovered>
+  <!-- EN: {PAWN_nameDef} has discovered a strip of fleshy tissue. It resembles human skin stained gray by tiny metallic particles. It must have sloughed off someone during flesh liquification.\n\nSomeone here may not be what they seem.\n\nThere are several ways to detect imposters:\n\n{METHODS}\n\nWarning: Some parasites can control the mind and even be transmitted to others. -->
+  <LetterGrayFleshDiscovered>{PAWN_nameDef}发现了一小块人体组织。它与正常的皮肤别无二致，只不过被微小的金属颗粒染成了灰色。它一定是某人在肉体液化过程中脱落的。\n\n殖民者中可能混进了别的东西。\n\n有几种方法可以检测出冒牌货：\n\n{METHODS}\n\n警告：某些金属怪形可以控制思想，甚至传染给他人。</LetterGrayFleshDiscovered>
   
+  <!-- EN: The “interrogate” prisoner interaction mode is now unlocked. -->
   <LetterInterrogationUnlocked>“审讯”囚犯互动模式已经解锁。</LetterInterrogationUnlocked>
   
+  <!-- EN: Imprison someone and send a warden to interrogate them about their true identity. This can take many days. -->
   <LetterGrayFleshMethodOne>囚禁某人，并派一名狱卒审讯其真实身份。这可能需要很多天。</LetterGrayFleshMethodOne>
+  <!-- EN: Collect more gray flesh and analyze it to determine the biosignature of the threat. Then, use the surgical inspection operation to search for that biosignature. It could take a long time to collect enough samples, and the surgery is invasive. -->
   <LetterGrayFleshMethodTwo>收集更多灰色血肉并进行分析，以确定该威胁的生物特征。然后通过外科检查手术来搜寻该生物特征。收集足够的样本可能需要很长时间，而且这种手术会造成创伤。</LetterGrayFleshMethodTwo>
+  <!-- EN: Execute or banish whoever you suspect. -->
   <LetterGrayFleshMethodThree>处决或放逐嫌疑对象。</LetterGrayFleshMethodThree>
   
+  <!-- EN: Metalhorrors awakening -->
   <LetterMetalhorrorReawakeningLabel>金属怪形苏醒</LetterMetalhorrorReawakeningLabel>
+  <!-- EN: The metalhorrors have been disturbed and are awakening again! -->
   <LetterMetalhorrorReawakening>金属怪形被扰动了，它们正在苏醒！</LetterMetalhorrorReawakening>
 
+  <!-- EN: The metalhorrors are beginning to hibernate. They will awaken again if disturbed. -->
   <MessageMetalHorrorDormant>金属怪形进入了休眠。它们若被扰动则会苏醒。</MessageMetalHorrorDormant>
   
+  <!-- EN: Hibernating. Will awaken if disturbed. -->
   <MetalhorrorDormant>休眠中。若被扰动则会苏醒。</MetalhorrorDormant>
   
   <!-- Surgical inspection -->
+  <!-- EN: Surgical inspection results -->
   <LetterSurgicallyInspectedLabel>外科检查手术结果</LetterSurgicallyInspectedLabel>
+  <!-- EN: {DOCTOR_nameDef} performed an extensive surgical inspection of {PATIENT_nameDef}. -->
   <LetterSurgicallyInspectedHeader>{DOCTOR_nameDef}对{PATIENT_nameDef}进行了大量外科检查。</LetterSurgicallyInspectedHeader>
+  <!-- EN: {DOCTOR_pronoun} says that {DOCTOR_pronoun} found no anomalies. However, a doctor may lie if it is in their own self-interest. -->
   <LetterSurgicallyInspectedNothing>{DOCTOR_pronoun}称其在{DOCTOR_pronoun}身上未发现异常。但医生也可能会为了自己的目的隐瞒实情。</LetterSurgicallyInspectedNothing>
   
   <!-- Death refusal -->
+  <!-- EN: use -->
   <DeathRefusalUseSingular>使用</DeathRefusalUseSingular>
+  <!-- EN: uses -->
   <DeathRefusalUsePlural>使用</DeathRefusalUsePlural>
+  <!-- EN: Self-resurrecting -->
   <SelfResurrecting>正在起死回生</SelfResurrecting>
 
   <!-- Harbinger Tree -->
-  <HarbingerTreeConsumption>在先驱之树附近</HarbingerTreeConsumption>
-  <HarbingerTreeSprouted>一棵新的先驱之树已发芽。</HarbingerTreeSprouted>
+  <!-- EN: near harbinger tree -->
+  <HarbingerTreeConsumption>在厄兆噬树附近</HarbingerTreeConsumption>
+  <!-- EN: A new harbinger tree has sprouted. -->
+  <HarbingerTreeSprouted>一棵新的厄兆噬树已发芽。</HarbingerTreeSprouted>
+  <!-- EN: Consuming flesh. -->
   <HarbingerTreeConsuming>吞食血肉中。</HarbingerTreeConsuming>
-  <HarbingerTreeNotConsuming>将吞食附近的尸体和血肉。</HarbingerTreeNotConsuming>
-  <ConsumedByHarbingerTree>正在被先驱之树吞食。</ConsumedByHarbingerTree>
+  <!-- EN: Will consume corpses and meat placed nearby. -->
+  <HarbingerTreeNotConsuming>将吞噬附近的尸体、血肉和头颅。</HarbingerTreeNotConsuming>
+  <!-- EN: Being consumed by harbinger tree. -->
+  <ConsumedByHarbingerTree>正在被厄兆噬树吞食。</ConsumedByHarbingerTree>
+  <!-- EN: flesh consumption -->
   <FleshConsumption>吞食血肉</FleshConsumption>
-  <CreateCorpseStockpile>创建存尸区</CreateCorpseStockpile>
-  <CreateCorpseStockpileDesc>在先驱之树周围创建一个堆放尸体的垃圾储存区。\n\n先驱之树会吞食附近的尸体和血肉。如果给予足够的食物，先驱之树会生长得更快，并诞生出新的先驱之树。</CreateCorpseStockpileDesc>
+  <!-- EN: Create corpse stockpile -->
+  <CreateCorpseStockpile>建立尸体储存区</CreateCorpseStockpile>
+  <!-- EN: Create a dumping stockpile zone around the harbinger tree for corpses.\n\nHarbinger trees will consume nearby corpses and raw meat. If well fed, the trees will grow faster and create new harbinger trees. -->
+  <CreateCorpseStockpileDesc>在厄兆噬树周围建立一个堆放尸体的垃圾储存区。\n\n厄兆噬树以置放在它周围的尸体、生肉和头颅为食，如果营养充足，附近将会诞生新的厄兆噬树。</CreateCorpseStockpileDesc>
 
+  <!-- EN: Void node has been disabled. -->
   <VoidNodeDisabled>虚空节点已禁用。</VoidNodeDisabled>
 
   <!-- Creepjoiners -->
-  <LetterCreeperAppearedAppended>{PAWN_pronoun}想谈谈。可以派一名殖民者去听听{PAWN_pronoun}有什么要说的。</LetterCreeperAppearedAppended>
-  <LetterCreeperInviteJoins>{PAWN_nameDef}想加入</LetterCreeperInviteJoins>
-  <LetterCreeperInviteAppend>{PAWN_pronoun}或许十分得力，但你也感觉到有些事情{PAWN_nameDef}可能在瞒着你。</LetterCreeperInviteAppend>
+  <!-- EN: {PAWN_pronoun} wants to talk. You can send a colonist to hear what {PAWN_pronoun} has to say. -->
+  <LetterCreeperAppearedAppended>{PAWN_pronoun}想与你谈谈。可以派一名殖民者去听听{PAWN_pronoun}有什么要说的。</LetterCreeperAppearedAppended>
+  <!-- EN: {PAWN_nameDef} wants to join -->
+  <LetterCreeperInviteJoins>加入请求：{PAWN_nameDef}</LetterCreeperInviteJoins>
+  <!-- EN: {PAWN_pronoun} may be very useful, but you also sense there is something {PAWN_nameDef} is not telling you. -->
+  <LetterCreeperInviteAppend>{PAWN_nameDef}或许十分得力，但你也感觉到{PAWN_pronoun}似乎有些事情在瞒着你。</LetterCreeperInviteAppend>
   
+  <!-- EN: Allow {PAWN_nameDef} to join -->
   <AcceptCreeper>允许{PAWN_nameDef}加入</AcceptCreeper>
-  <CaptureCreeper>派{SPEAKER_nameDef}去抓捕{PAWN_nameDef}</CaptureCreeper>
+  <!-- EN: Send {SPEAKER_nameDef} to capture {PAWN_nameDef} -->
+  <CaptureCreeper>让{SPEAKER_nameDef}拘捕{PAWN_nameDef}</CaptureCreeper>
+  <!-- EN: Send {PAWN_nameDef} away -->
   <RejectCreeper>让{PAWN_nameDef}离开</RejectCreeper>
   
   <!-- Unnatural healing ability -->
+  <!-- EN: Unnatural healing -->
   <LetterUnnaturalHealingLabel>异常医术</LetterUnnaturalHealingLabel>
-  <LetterUnnaturalHealing>{CASTER_nameDef}已经完成了对{CASTER_possessive}灵能治疗。</LetterUnnaturalHealing>
-  <LetterUnnaturalHealingTentacle>然而，治疗出了大问题。\n\n{PAWN_nameDef}的手臂被撕裂开来，从{PAWN_possessive}体内里猛地长出了奇怪的东西。{PAWN_possessive}手臂被一根肉质触手取代！</LetterUnnaturalHealingTentacle>
+  <!-- EN: {CASTER_nameDef} has finished {CASTER_possessive} psychic healing on {PAWN_nameDef}. -->
+  <LetterUnnaturalHealing>{CASTER_nameDef}已经完成了对{CASTER_possessive}治疗。</LetterUnnaturalHealing>
+  <!-- EN: However, something went terribly wrong.\n\n{PAWN_nameDef}'s arm split open as a violent growth emerged from {PAWN_possessive} body. {PAWN_possessive} arm has been replaced by a fleshy tentacle! -->
+  <LetterUnnaturalHealingTentacle>然而，治疗出了大问题。\n\n{PAWN_nameDef}的手臂被撕裂开来，从{PAWN_possessive}体内里猛地长出了奇怪的东西。{PAWN_possessive}手臂被一根血肉触手取代了！</LetterUnnaturalHealingTentacle>
   
   <!-- Transmutation ability -->
+  <!-- EN: {PAWN_nameDef} has transmuted {ORIGINAL} into {TRANSMUTED}. -->
   <MessageTransmutedItem>{PAWN_nameDef}将{ORIGINAL}转变为了{TRANSMUTED}。</MessageTransmutedItem>
+  <!-- EN: {PAWN_nameDef} has transmuted {1} into {TRANSMUTED_labelShortIndef}. -->
   <MessageTransmutedStuff>{PAWN_nameDef}将{ORIGINAL_labelShortIndef}转变为了{TRANSMUTED_labelShortIndef}。</MessageTransmutedStuff>
+  <!-- EN: {PAWN_nameDef} has transmuted {1} into {TRANSMUTED_labelPluralIndef}. -->
   <MessageTransmutedStuffPlural>{PAWN_nameDef}将{ORIGINAL_labelPluralIndef}转变为了{TRANSMUTED_labelPluralIndef}。</MessageTransmutedStuffPlural>
   
   <!-- Electroharvester -->
-  <ElectroharvesterNoEntity>无收容实体。</ElectroharvesterNoEntity>
-  <ElectroharvesterNoPlatform>未连接到收容平台。</ElectroharvesterNoPlatform>
+  <!-- EN: No restrained entity. -->
+  <ElectroharvesterNoEntity>未收容实体。</ElectroharvesterNoEntity>
+  <!-- EN: Not connected to a holding platform. -->
+  <ElectroharvesterNoPlatform>未连接至收容平台。</ElectroharvesterNoPlatform>
   
   <!-- Fleshmass Heart -->
-  <FleshmassHeartInvulnerable>无敌状态。分析血肉神经块以将其摧毁。</FleshmassHeartInvulnerable>
+  <!-- EN: Invulnerable. Analyze fleshmass neural lumps to destroy this. -->
+  <FleshmassHeartInvulnerable>无敌状态。分析神经组织块以将其摧毁。</FleshmassHeartInvulnerable>
+  <!-- EN: Growing fleshmass. -->
   <FleshmassHeartGrowing>生长中的血肉块。</FleshmassHeartGrowing>
-  <FleshmassHeartCollecting>为下一次生长高峰收集生物质……</FleshmassHeartCollecting>
-  <MessageHeartAttack>血肉块心脏正在抽搐！</MessageHeartAttack>
-  <LetterLabelFleshmassHeartDestroyed>血肉块心脏已击败</LetterLabelFleshmassHeartDestroyed>
-  <LetterFleshmassHeartDestroyed>血肉块心脏已被摧毁，只留下了其受损但仍能运作的核心——血肉与超凡科技的扭曲混合物。即使周围的血肉早已腐烂，核心仍在继续生长和变异。\n\n可以捕获其核心对其进行进一步研究，也可以摧毁它以结束这场噩梦。如果放任不管，它可能会再长成一颗新的血肉块心脏。</LetterFleshmassHeartDestroyed>
-  <NerveBundleGrewMessage>血肉块心脏长出了新的神经结节。</NerveBundleGrewMessage>
-  <NeuralLumpDroppedMessage>神经结节掉落了一个神经块。分析它以了解更多有关血肉块心脏的信息。</NeuralLumpDroppedMessage>
-  <DestroyHeartDisabled>必须收集和分析血肉神经块。已分析神经块</DestroyHeartDisabled>
-  <SpitterAttacking>血肉块喷吐者正在攻击！</SpitterAttacking>
-  <SpitterGatheringSpit>正在汇集酸液中。将于以下时间后就绪：</SpitterGatheringSpit>
-  <SpitterReadyToSpit>准备喷吐酸液。</SpitterReadyToSpit>
+  <!-- EN: Collecting biomass for next growth spurt... -->
+  <FleshmassHeartCollecting>为下一次生长高峰收集生物质...</FleshmassHeartCollecting>
+  <!-- EN: The fleshmass heart is convulsing! -->
+  <MessageHeartAttack>血肉心脏正在抽搐！</MessageHeartAttack>
+  <!-- EN: Fleshmass heart defeated -->
+  <LetterLabelFleshmassHeartDestroyed>血肉心脏已击败</LetterLabelFleshmassHeartDestroyed>
+  <!-- EN: The fleshmass heart has been destroyed, leaving behind a broken but still functional core - a twisted amalgam of flesh and archotechnology. The nucleus continues to grow and mutate flesh, even while the surrounding fleshmass decays.\n\nYou can capture the nucleus to study it further or destroy it to end this nightmare. If left alone, it may reform into a new fleshmass heart. -->
+  <LetterFleshmassHeartDestroyed>血肉心脏已被摧毁，只留下了其受损但仍能运作的核心——血肉与超凡科技的扭曲混合物。即使周围的血肉早已腐烂，核心仍在继续生长和突变。\n\n可以捕获核心对其进行进一步研究，也可以摧毁它以结束这场噩梦。如果放任不管，它可能会再长成一颗新的血肉心脏。</LetterFleshmassHeartDestroyed>
+  <!-- EN: The fleshmass heart has grown a new nerve bundle. -->
+  <NerveBundleGrewMessage>血肉心脏长出了新的神经结节。</NerveBundleGrewMessage>
+  <!-- EN: The nerve bundle has dropped a neural lump. Analyze it to learn more about the fleshmass heart. -->
+  <NeuralLumpDroppedMessage>神经结节掉落了一个神经组织块。分析它以了解更多有关血肉心脏的信息。</NeuralLumpDroppedMessage>
+  <!-- EN: Must collect and analyze fleshmass neural lumps. Lumps analyzed -->
+  <DestroyHeartDisabled>必须收集和分析神经组织块。已分析神经组织块</DestroyHeartDisabled>
+  <!-- EN: A fleshmass spitter is attacking! -->
+  <SpitterAttacking>血肉喷吐器正在攻击！</SpitterAttacking>
+  <!-- EN: Gathering acid. Ready in -->
+  <SpitterGatheringSpit>正在酝酿酸性涎液。剩余时间：</SpitterGatheringSpit>
+  <!-- EN: Ready to spit acid. -->
+  <SpitterReadyToSpit>准备喷吐酸性涎液。</SpitterReadyToSpit>
 
-  <ActiveFleshmassInspect>活跃血肉块。若被摧毁，可能会诞生血肉兽。</ActiveFleshmassInspect>
+  <!-- EN: Active fleshmass. May birth fleshbeasts if destroyed. -->
+  <ActiveFleshmassInspect>活跃血肉块。如果被摧毁，可能会诞生血肉兽。</ActiveFleshmassInspect>
 
   <!-- Misc -->
-  <LetterLabelFleshTentacleAttack>肉质触手攻击</LetterLabelFleshTentacleAttack>
+  <!-- EN: Flesh tentacle attack -->
+  <LetterLabelFleshTentacleAttack>血肉触手攻击</LetterLabelFleshTentacleAttack>
+  <!-- EN: {PAWN_nameDef}'s operation was successful. However, the twisting mass of flesh that was {PAWN_possessive} tentacle has begun to attack! -->
   <LetterFleshTentacleAttack>{PAWN_nameDef}的手术成功了。然而曾是其触手的扭曲血肉发起了攻击！</LetterFleshTentacleAttack>
+  <!-- EN: Biosignature -->
   <Biosignature>生物特征</Biosignature>
+  <!-- EN: Bliss lobotomy -->
   <BlissLobotomy>极乐切脑</BlissLobotomy>
+  <!-- EN: hp -->
   <HP>生命</HP>
+  <!-- EN: analyzed -->
   <Analyzed>已分析</Analyzed>
+  <!-- EN: Highest skill -->
+  <HighestSkill>最高等级技能</HighestSkill>
   
-  <MessageShardDropped>{0}掉落了一块暗黑超凡科技碎片。可以收集并利用它。</MessageShardDropped>
+  <!-- EN: {0} dropped a shard of dark archotechnology. You can collect and make use of it. -->
+  <MessageShardDropped>{0}掉落了一块暗黑超凡碎片。你可以收集并利用它。</MessageShardDropped>
   
   <!-- Blood rain -->
-  <Berserk_BloodRain>血雨让{0}陷入了狂暴！</Berserk_BloodRain>
-  <Manhunter_BloodRain>血雨让{0}陷入了杀戮狂暴！</Manhunter_BloodRain>
+  <!-- EN: The blood rain has driven {0} into a berserk rage! -->
+  <Berserk_BloodRain>血怒之雨让{0}陷入了狂暴状态！</Berserk_BloodRain>
+  <!-- EN: The blood rain has driven {0} into a manhunting rage! -->
+  <Manhunter_BloodRain>血怒之雨让{0}陷入了猎杀人类状态！</Manhunter_BloodRain>
+  <!-- EN: This happened because of blood rage buildup. -->
   <MentalBreakReason_BloodRage>这是因为血怒积聚。</MentalBreakReason_BloodRage>
   
   <!-- Unnatural corpses -->
+  <!-- EN: Corpse disappearance -->
   <LetterLabelCorpseDisappeared>尸体消失</LetterLabelCorpseDisappeared>
+  <!-- EN: The unnatural corpse has vanished. -->
   <LetterCorpseDisappeared>异常尸体已消失。</LetterCorpseDisappeared>
+  <!-- EN: {PAWN_nameDef} is starting to feel calmer. -->
   <LetterCorpseDisappearedPawnAliveAppend>{PAWN_nameDef}开始平静下来。</LetterCorpseDisappearedPawnAliveAppend>
 
+  <!-- EN: Corpse appearance -->
   <LetterLabelCorpseReappeared>尸体出现</LetterLabelCorpseReappeared>
+  <!-- EN: The corpse resembling {PAWN_nameDef} has appeared again, as if out of thin air. -->
   <LetterCorpseReappeared>似乎是{PAWN_nameDef}的尸体再次凭空出现。</LetterCorpseReappeared>
   
+  <!-- EN: The corpse resembling {PAWN_nameDef} has somehow gotten out of its {CONTAINER_labelShort}. -->
   <MessageCorpseEscaped>似乎是{PAWN_nameDef}的尸体不知如何从{CONTAINER_labelShort}中转移了出来。</MessageCorpseEscaped>
+  <!-- EN: Failed to resurrect {PAWN_nameDef}. It simply does not respond. -->
   <MessageUnnaturalCorpseResurrect>无法复活{PAWN_nameDef}。其尸体无任何反应。</MessageUnnaturalCorpseResurrect>
+  <!-- EN: The unnatural corpse has caused {PAWN_nameDef} to faint. -->
   <MessagePawnFainted>异常尸体导致{PAWN_nameDef}陷入昏迷。</MessagePawnFainted>
+  <!-- EN: The unnatural corpse has appeared near {PAWN_nameDef} and is approaching! -->
   <MessageAwokenReappeared>异常尸体在{PAWN_nameDef}附近出现并步步逼近！</MessageAwokenReappeared>
+  <!-- EN: The unnatural corpse has vanished. It will come for {PAWN_nameDef} later. -->
   <MessageAwokenVanished>异常尸体已消失。它之后还会再来找{PAWN_nameDef}的。</MessageAwokenVanished>
-  <MessageAwokenAttacking>活尸正在攻击{PAWN_nameDef}！</MessageAwokenAttacking>
-  <MessageAwokenKilledVictim>活尸已毁掉了{PAWN_nameDef}的脑子。</MessageAwokenKilledVictim>
-  <MessageAwokenDisappeared>活尸已消失。</MessageAwokenDisappeared>
+  <!-- EN: The awoken corpse is attacking {PAWN_nameDef}! -->
+  <MessageAwokenAttacking>苏醒的异常尸体正在攻击{PAWN_nameDef}！</MessageAwokenAttacking>
+  <!-- EN: The awoken corpse has destroyed {PAWN_nameDef}'s brain. -->
+  <MessageAwokenKilledVictim>苏醒的异常尸体已毁掉了{PAWN_nameDef}的脑子。</MessageAwokenKilledVictim>
+  <!-- EN: The awoken corpse has disappeared. -->
+  <MessageAwokenDisappeared>苏醒的异常尸体已消失。</MessageAwokenDisappeared>
 
+  <!-- EN: This happened because of the presence of an unnatural corpse. -->
   <MentalBreakReason_MysteriousCorpse>这是因为异常尸体的出现。</MentalBreakReason_MysteriousCorpse>
 
+  <!-- EN: Unnatural corpse study progress -->
   <UnnaturalCorpseStudyLetter>异常尸体研究有所进展</UnnaturalCorpseStudyLetter>
-  <UnnaturalCorpseStudyLetterDesc>对这具异常尸体的调查揭示了更多关于这具尸体的信息。在它的核心部位有一块超凡碎片，在它与{VICTIM_nameDef}之间建立了灵能联系。该尸体被摧毁后便会自我重建，并无视距离传送到{VICTIM_nameDef}附近。\n\n{RESEARCHER_nameDef}认为可能有办法永久摧毁这具尸体，但需要进一步研究。</UnnaturalCorpseStudyLetterDesc>
+  <!-- EN: Your investigation of the unnatural corpse has revealed more about the body. An archotech shard at its core psychically links it with {VICTIM_nameDef}. It will rebuild itself if destroyed, and teleport any distance to be near {VICTIM_nameDef}. \n\n{RESEARCHER_nameDef} thinks that there may be a way to permanently destroy the corpse but will need to study it further.\n\nStudy the corpse more to learn how to destroy it. -->
+  <UnnaturalCorpseStudyLetterDesc>对这具异常尸体的调查揭示了更多关于这具尸体的信息。在它的核心部位有一块暗黑超凡碎片，在它与{VICTIM_nameDef}之间建立了心灵联系。该尸体被摧毁后便会自我重建，并无视距离传送到{VICTIM_nameDef}附近。\n\n{RESEARCHER_nameDef}认为可能有办法永久摧毁这具尸体，但需要进一步研究。</UnnaturalCorpseStudyLetterDesc>
 
+  <!-- EN: Unnatural corpse study complete -->
   <UnnaturalCorpseStudyCompletedLetter>异常尸体研究完成</UnnaturalCorpseStudyCompletedLetter>
-  <UnnaturalCorpseStudyCompletedLetterDesc>对这具异常尸体的调查揭示了该如何安全地移除超凡碎片。这样做可以阻止它继续对{VICTIM_nameDef}造成灵能折磨。但这也会阻碍对尸体的进一步研究。</UnnaturalCorpseStudyCompletedLetterDesc>
+  <!-- EN: Your investigation of the unnatural corpse has revealed how to safely remove the archotech shard. Doing so will stop it from psychically tormenting {VICTIM_nameDef}. However, it will also prevent further study of the corpse. -->
+  <UnnaturalCorpseStudyCompletedLetterDesc>对这具异常尸体的调查揭示了该如何安全地移除暗黑超凡碎片。这样做可以阻止它继续对{VICTIM_nameDef}造成心灵折磨。但这也会阻碍对尸体的进一步研究。</UnnaturalCorpseStudyCompletedLetterDesc>
 
+  <!-- EN: Corpse shard -->
   <UnnaturalCorpseDeactivatedLetter>尸体碎片</UnnaturalCorpseDeactivatedLetter>
-  <UnnaturalCorpseDeactivatedLetterDesc>{PAWN_nameDef}从这具异常尸体身上取下一块超凡碎片，尸体随即开始剧烈膨胀，最终爆炸成了一滩血肉模糊的碎肉。</UnnaturalCorpseDeactivatedLetterDesc>
+  <!-- EN: {PAWN_nameDef} extracted an archotech shard from the unnatural corpse, the corpse then began to violently bloat and exploded into gore. -->
+  <UnnaturalCorpseDeactivatedLetterDesc>{PAWN_nameDef}从这具异常尸体身上取下一块暗黑超凡碎片，尸体随即开始剧烈膨胀，最终爆炸成了一滩血肉模糊的碎肉。</UnnaturalCorpseDeactivatedLetterDesc>
+  <!-- EN: {PAWN_nameDef} is feeling better already. -->
   <UnnaturalCorpseDeactivatedLetterDescAppended>{PAWN_nameDef}感觉好多了。</UnnaturalCorpseDeactivatedLetterDescAppended>
   
+  <!-- EN: Destroy unnatural corpse -->
   <UnnaturalCorpseDeactivate>销毁异常尸体</UnnaturalCorpseDeactivate>
+  <!-- EN: Permanently destroy the unnatural corpse. -->
   <UnnaturalCorpseDeactivateDesc>彻底销毁异常尸体。</UnnaturalCorpseDeactivateDesc>
+  <!-- EN: Choose who should destroy this. -->
   <UnnaturalCorpseGuiLabel>选择销毁它的人员。</UnnaturalCorpseGuiLabel>
+  <!-- EN: destroy -->
   <UnnaturalCorpseJobString>销毁</UnnaturalCorpseJobString>
+  <!-- EN: destroying {0} -->
   <UnnaturalCorpseActivatingEnroute>正在销毁{0}</UnnaturalCorpseActivatingEnroute>
+  <!-- EN: destroying {0}: {1}s -->
   <UnnaturalCorpseActivating>销毁{0}：{1}秒</UnnaturalCorpseActivating>
   
+  <!-- EN: Unnatural corpse -->
   <UnnaturalCorpseAwakeningLetter>异常尸体</UnnaturalCorpseAwakeningLetter>
+  <!-- EN: {PAWN_nameDef} feels the unnatural corpse growing rapidly stronger. Some horrible consciousness is flickering within it.\n\nSomething awful will happen in the next few days. -->
   <UnnaturalCorpseAwakeningLetterDesc>{PAWN_nameDef}感到这具异常尸体正在迅速变强。一些可怕的意识正在它体内流淌。\n\n接下来的几天里，将会发生可怕的事情。</UnnaturalCorpseAwakeningLetterDesc>
+  <!-- EN: Destroy the corpse before it's too late. -->
+  <UnnaturalCorpseAwakeningLetterExtra_StudyComplete>在一切失去控制之前摧毁此尸体。</UnnaturalCorpseAwakeningLetterExtra_StudyComplete>
+  <!-- EN: Study the corpse to learn how to destroy it. -->
+  <UnnaturalCorpseAwakeningLetterExtra_StudyIncomplete>研究这具尸体以设计摧毁方案。</UnnaturalCorpseAwakeningLetterExtra_StudyIncomplete>
 
-  <UnnaturalCorpseAwokenLetter>尸体苏醒</UnnaturalCorpseAwokenLetter>
-  <UnnaturalCorpseAwokenLetterDesc>异常尸体已经苏醒，现在正向{PAWN_nameDef}逼近！\n\n无论{PAWN_nameDef}逃到何处，这具尸体都会永远跟着{PAWN_pronoun}。\n\n必须马上将其消灭。</UnnaturalCorpseAwokenLetterDesc>
+  <!-- EN: Corpse awakened -->
+  <UnnaturalCorpseAwokenLetter>异常尸体复苏</UnnaturalCorpseAwokenLetter>
+  <!-- EN: The unnatural corpse is rising! It intends to attack {PAWN_nameDef}!\n\nThe corpse will follow {PAWN_nameDef} forever no matter how far {PAWN_pronoun} goes.\n\nYou must destroy it now. -->
+  <UnnaturalCorpseAwokenLetterDesc>异常尸体已经复苏，现在正向{PAWN_nameDef}逼近！\n\n无论{PAWN_nameDef}逃到何处，这具尸体都会永远跟着{PAWN_pronoun}。\n\n必须马上将其消灭。</UnnaturalCorpseAwokenLetterDesc>
 
+  <!-- EN: Unnatural corpse destroyed! -->
   <UnnaturalCorpseAwokenDefeatedLetter>异常尸体已消灭！</UnnaturalCorpseAwokenDefeatedLetter>
+  <!-- EN: The unnatural corpse charging towards {PAWN_nameDef} has been defeated!\n\nThe corpse will no longer torment {PAWN_nameDef}. -->
   <UnnaturalCorpseAwokenDefeatedLetterDesc>针对{PAWN_nameDef}的异常尸体已被消灭！\n\n它再也无法折磨{PAWN_nameDef}。</UnnaturalCorpseAwokenDefeatedLetterDesc>
 
   <!-- Golden Cube -->
+  <!-- EN: {PAWN_labelShort}'s obsession with the golden cube has intensified. -->
   <MessageGoldenCubeSeverityIncreased>{PAWN_labelShort}对金色魔方的痴迷有增无减。</MessageGoldenCubeSeverityIncreased>
-  <MessageGoldenCubeWithdrawal>{PAWN_labelShort}正在经历魔方戒断反应。</MessageGoldenCubeWithdrawal>
-  <MessageGoldenCubeWithdrawalIncreased>{PAWN_labelShort}的魔方戒断反应正在逐渐加剧。</MessageGoldenCubeWithdrawalIncreased>
+  <!-- EN: {PAWN_labelShort} is experiencing cube withdrawal. -->
+  <MessageGoldenCubeWithdrawal>{PAWN_labelShort}正在经历魔方戒断。</MessageGoldenCubeWithdrawal>
+  <!-- EN: {PAWN_labelShort}'s cube withdrawal has worsened. -->
+  <MessageGoldenCubeWithdrawalIncreased>{PAWN_labelShort}的魔方戒断正在逐渐加剧。</MessageGoldenCubeWithdrawalIncreased>
+  <!-- EN: {PAWN_labelShort} has become intrigued by the golden cube. -->
   <MessageGoldenCubeInterest>{PAWN_labelShort}对金色魔方产生了浓厚的兴趣。</MessageGoldenCubeInterest>
+  <!-- EN: {PAWN_labelShort} is enraged that {PAWN_possessive} cube sculpture was removed. {PAWN_pronoun} might become violent. -->
   <MessageGoldenCubeSculptureDestroyed>{PAWN_labelShort}对{PAWN_possessive}魔方雕塑被毁感到愤怒。{PAWN_pronoun}可能会变得暴力。</MessageGoldenCubeSculptureDestroyed>
-  
+
+  <!-- EN: {PAWN_labelShort} refuses to deactivate the golden cube. -->
   <CannotDisableCube>{PAWN_labelShort}拒绝关闭金色魔方。</CannotDisableCube>
   
+  <!-- EN: Cube coma: {PAWN_labelShort} -->
   <LetterLabelGoldenCubeComa>魔方昏迷：{PAWN_labelShort}</LetterLabelGoldenCubeComa>
-  <LetterGoldenCubeComa>{PAWN_labelShort}的魔方戒断反应使{PAWN_objective}陷入昏迷。在金色魔方的灵能链接完全消退前，{PAWN_pronoun}将一直处于昏迷状态。</LetterGoldenCubeComa>
-  
+  <!-- EN: {PAWN_labelShort}'s cube withdrawal has sent {PAWN_objective} into a coma. {PAWN_pronoun} will remain in a coma until the golden cube's psychic link has completely dissipated. -->
+  <LetterGoldenCubeComa>{PAWN_labelShort}的魔方戒断使{PAWN_objective}陷入昏迷。在金色魔方的心灵链接完全消退前，{PAWN_pronoun}将一直处于昏迷状态。</LetterGoldenCubeComa>
+
+  <!-- EN: Deactivating the golden cube will cause any cube-interested people to enter a violent berserk rage. Any cube-interested people in caravans will be permanently lost. -->
+  <CubeDeactivationConfirmation>令金色魔方无效化会让任何着迷于金色魔方的人立即陷入狂暴状态。如果此人正在远行队中，会立即抛弃离开殖民地。</CubeDeactivationConfirmation>
+  <!-- EN: The following people will enter a berserk rage -->
+  <CubeDeactivationConfirmationPawnsBerserk>以下人员将会陷入狂暴状态</CubeDeactivationConfirmationPawnsBerserk>
+  <!-- EN: The following people will run away and be lost -->
+  <CubeDeactivationConfirmationPawnsLost>以下人员将会失踪</CubeDeactivationConfirmationPawnsLost>
+  <!-- EN: Are you sure you want to continue? -->
+  <CubeDeactivationConfirmationEnd>你确定要继续吗？</CubeDeactivationConfirmationEnd>
+  <!-- EN: Cube deactivation -->
+  <CubeDeactivationBerserk>魔方无效化</CubeDeactivationBerserk>
+  <!-- EN: {PAWN_labelShort} has successfully destroyed the golden cube. The psychic whiplash has driven colonists into a berserk rage! -->
+  <CubeDeactivationBerserkDesc>{PAWN_labelShort}已成功摧毁金色魔方，但因此产生的心灵冲击波让对其着迷的人陷入了狂暴状态！</CubeDeactivationBerserkDesc>
+  <!-- EN: These people have entered a temporary berserk rage -->
+  <CubeDeactivationBerserkPawns>以下人员陷入了狂暴状态</CubeDeactivationBerserkPawns>
+  <!-- EN: These people in caravans have run away in a rage -->
+  <CubeDeactivationLostPawns>以下远行队中的人员失踪了</CubeDeactivationLostPawns>
+
+  <!-- EN: This happened because of {PAWN_possessive} obsession with the cube. -->
   <MentalBreakReason_CubeSculpting>这是因为{PAWN_pronoun}对魔方的痴迷。</MentalBreakReason_CubeSculpting>
   
+  <!-- EN: dirt -->
   <CubeMaterialDirt>泥土</CubeMaterialDirt>
+  <!-- EN: stone -->
   <CubeMaterialStone>石材</CubeMaterialStone>
+  <!-- EN: sand -->
   <CubeMaterialSand>沙子</CubeMaterialSand>
+  <!-- EN: scrap -->
   <CubeMaterialScrap>废料</CubeMaterialScrap>
   
+  <!-- EN: building a sculpture. -->
   <ReportBuildingCubeEnroute>正在制造雕塑。</ReportBuildingCubeEnroute>
   
   <!-- Slaughter ability -->
-  <MessageSlaughterNoFlesh>无法宰杀：{PAWN_labelShort}没有血肉。</MessageSlaughterNoFlesh>
-  <MessageSlaughterTooBig>无法宰杀：{PAWN_labelShort}体型太大了。</MessageSlaughterTooBig>
+  <!-- EN: Cannot slaughter: {PAWN_labelShort} does not have flesh. -->
+  <MessageSlaughterNoFlesh>无法宰杀：{PAWN_labelShort}不是血肉之躯。</MessageSlaughterNoFlesh>
+  <!-- EN: Cannot slaughter: {PAWN_labelShort} is too large. -->
+  <MessageSlaughterTooBig>无法宰杀：{PAWN_labelShort}体型太大。</MessageSlaughterTooBig>
   
   <!-- Labyrinth -->
+  <!-- EN: Entering the labyrinth -->
   <GeneratingLabyrinth>正在进入迷宫</GeneratingLabyrinth>
+  <!-- EN: {PAWN_nameDef} has vanished. -->
   <MessagePawnVanished>{PAWN_nameDef}消失了。</MessagePawnVanished>
+  <!-- EN: {PAWN_nameDef} has reappeared. -->
   <MessagePawnReappeared>{PAWN_nameDef}重新出现了。</MessagePawnReappeared>
   
+  <!-- EN: Exit direction -->
   <FloorEtchingsInspectorExit>出口方向</FloorEtchingsInspectorExit>
   
+  <!-- EN: Warped obelisk -->
   <LetterLabelObeliskDiscovered>扭曲方尖碑</LetterLabelObeliskDiscovered>
+  <!-- EN: {PAWN_nameDef} has discovered a large obelisk. It looks nearly identical to the one that originally brought {PAWN_objective} here. Perhaps it can be activated to return {PAWN_objective} home.\n\nSelect {PAWN_nameDef} and right-click the obelisk to activate it. -->
   <LetterObeliskDiscovered>{PAWN_nameDef}发现了一座巨大的方尖碑。它似乎与最初把{PAWN_objective}带到这里的方尖碑几乎一模一样。也许启动它可以让{PAWN_objective}回家。\n\n选择{PAWN_nameDef}并右键单击方尖碑以激活它。</LetterObeliskDiscovered>
   
-  <LetterLabelFloorEtchings>地板刻画</LetterLabelFloorEtchings>
-  <LetterFloorEtchings>{PAWN_nameDef}设法破译了地板上的刻画。\n\n{RAMBLINGS}\n\n它们似乎表明，出口就在此处以{DIRECTION}。</LetterFloorEtchings>
+  <!-- EN: Floor etchings -->
+  <LetterLabelFloorEtchings>地绘</LetterLabelFloorEtchings>
+  <!-- EN: {PAWN_nameDef} has managed to decipher the floor etchings.\n\n{RAMBLINGS}\n\nThey seem to indicate that an exit is somewhere {DIRECTION} of here. -->
+  <LetterFloorEtchings>{PAWN_nameDef}设法破译了地绘。\n\n{RAMBLINGS}\n\n它们似乎表明，出口就在此处以{DIRECTION}。</LetterFloorEtchings>
 
-  <LetterLabelFloorEtchingRamblings>地板刻画</LetterLabelFloorEtchingRamblings>
-  <LetterFloorEtchingsRamblings>{PAWN_nameDef}设法破译了地板上的刻画。</LetterFloorEtchingsRamblings>
+  <!-- EN: Floor etchings -->
+  <LetterLabelFloorEtchingRamblings>地绘</LetterLabelFloorEtchingRamblings>
+  <!-- EN: {PAWN_nameDef} has managed to decipher the floor etchings. -->
+  <LetterFloorEtchingsRamblings>{PAWN_nameDef}设法破译了地绘。</LetterFloorEtchingsRamblings>
 
+  <!-- EN: Colonists returned -->
   <LetterLabelLabyrinthExit>殖民者返回</LetterLabelLabyrinthExit>
+  <!-- EN: The whirring obelisk has returned your abducted colonists. Shortly after doing so, it vanished into thin air.\n\nBe careful, the obelisk may have returned other creatures as well. -->
   <LetterLabyrinthExit>嗡嗡作响的方尖碑送回了被绑架的殖民者。在这之后，它很快就凭空消失了。\n\n小心，方尖碑可能还送回了其他生物。</LetterLabyrinthExit>
 
+  <!-- EN: Jammed shut. Must be forced open. -->
   <GrayDoorJammed>门被堵上了。必须强行破门。</GrayDoorJammed>
+  <!-- EN: Activated by proximity. -->
   <ActivatedByProximity>接近后激活。</ActivatedByProximity>
 
   <!-- Void monolith -->
-  <MonolithActivateDisabledPawns>无可用殖民者。</MonolithActivateDisabledPawns>
-  <VoidMonolithInvestigatedText>巨石那黝黑的金属表面触感温暖，{PAWN_nameDef}觉得{PAWN_pronoun}能听到巨石内部发出的微弱嗡嗡声。它脏兮兮的表面纹路似乎在蠕动，令人感到不安。\n\n{PAWN_nameDef}专注于这些图案，试图揭示它们的含义。嗡嗡声更响了。\n\n那些图案开始在{PAWN_nameDef}眼中流动，但巨石表面没发生任何变化。一股力量开始在四周空旷的空间中释放。黑色的图案正在{PAWN_possessive}脑海中成形。\n\n异常点开始蠢蠢欲动……</VoidMonolithInvestigatedText>
-  <VoidMonolithInvestigate>对异常点保持专注</VoidMonolithInvestigate>
+  <!-- EN: No available pawns. -->
+  <MonolithActivateDisabledPawns>没有可用的殖民者。</MonolithActivateDisabledPawns>
+  <!-- EN: The monolith's dark metallic surface is warm to the touch, and {PAWN_nameDef} thinks {PAWN_pronoun} can hear a faint hum emanating from inside. The lines on its dusty surface seem to squirm in unsettling patterns.\n\n{PAWN_nameDef} focuses on the shapes, trying to uncover their meaning.\n\nThe hum strengthens. The shapes begin to flow in {PAWN_nameDef}'s vision, but the surface isn't changing. Power begins to uncoil in the empty space all around. A black shape is forming in {PAWN_possessive} mind.\n\nThe Anomaly is stirring... -->
+  <VoidMonolithInvestigatedText>巨石那金属质感的黝黑表面摸起来很温暖，{PAWN_nameDef}觉得自己能听到它内部发出的微弱嗡鸣声。它脏兮兮的表面纹路似乎在蠕动，令人感到不安。\n\n{PAWN_nameDef}将注意力集中在这些图案上，试图揭示它们的含义。嗡鸣声更响了。\n\n那些图案开始在{PAWN_nameDef}眼中流动，但巨石表面并未发生任何变化。一股力量开始向周围的空间中释放。某种黑色形体正在{PAWN_possessive}脑海中显现。\n\n异象开始蠢蠢欲动...</VoidMonolithInvestigatedText>
+  <!-- EN: Keep focusing on the Anomaly -->
+  <VoidMonolithInvestigate>将注意力集中在异象上</VoidMonolithInvestigate>
+  <!-- EN: Walk away -->
   <VoidMonolithWalkAway>走开</VoidMonolithWalkAway>
+  <!-- EN: View quest -->
   <VoidMonolithViewQuest>查看任务</VoidMonolithViewQuest>
-  <VoidMonolithViewResearch>查看异常点研究</VoidMonolithViewResearch>
+  <!-- EN: View Anomaly research -->
+  <VoidMonolithViewResearch>查看异象研究</VoidMonolithViewResearch>
+  <!-- EN: Current monolith level -->
   <CurrentMonolithLevel>当前巨石等级</CurrentMonolithLevel>
-  <VoidMonolithUndiscovered>调查了解更多。</VoidMonolithUndiscovered>
-  <VoidMonolithRequiredEntityCategory>为了让巨石进入下一等级，需要发现 {0} {1}级别实体。</VoidMonolithRequiredEntityCategory>
+  <!-- EN: Investigate to learn more. -->
+  <VoidMonolithUndiscovered>调查以了解更多。</VoidMonolithUndiscovered>
+  <!-- EN: In order to advance the monolith to the next step, you need to discover {0} {1} tier entities. -->
+  <VoidMonolithRequiredEntityCategory>为了提高巨石的等级，需要发现{0}种{1}级别的实体。</VoidMonolithRequiredEntityCategory>
+  <!-- EN: Discovered: {0} -->
   <DiscoveredCount>已发现：{0}</DiscoveredCount>
+  <!-- EN: Required entities discovered. -->
   <VoidMonolithAllEntitiesDiscovered>需要发现更多实体。</VoidMonolithAllEntitiesDiscovered>
-  <VoidMonolithRequiresDiscovery>需要提升等级</VoidMonolithRequiresDiscovery>
-  <VoidMonolithRequiresDiscoveryShort>未发现实体</VoidMonolithRequiresDiscoveryShort>
-  <VoidMonolithRequiresCategory>必须发现 {0} {1}巨石实体</VoidMonolithRequiresCategory>
+  <!-- EN: Required to increase level -->
+  <VoidMonolithRequiresDiscovery>升级条件</VoidMonolithRequiresDiscovery>
+  <!-- EN: Undiscovered entities -->
+  <VoidMonolithRequiresDiscoveryShort>未发现足够的实体</VoidMonolithRequiresDiscoveryShort>
+  <!-- EN: Must discover {0} more {1} monolith entities. -->
+  <VoidMonolithRequiresCategory>必须发现{0}种以上的{1}实体。</VoidMonolithRequiresCategory>
+  <!-- EN: Disturbing vision -->
   <VoidMonolithVisionLabel>诡异幻象</VoidMonolithVisionLabel>
-  <VoidMonolithVisionText>{PAWN_nameDef}做了一个怪异的梦。在梦中，{PAWN_pronoun}看到一片不断蔓延的黑色，无所不至、吞噬一切。而这片黑色则来自附近一块碎裂的巨石。\n\n从梦境中醒来后，{PAWN_nameDef}感到自己莫名其妙地被这块巨石所吸引。它在呼唤着{PAWN_objective}。</VoidMonolithVisionText>
+  <!-- EN: {PAWN_nameDef} has had a strange dream. In it, {PAWN_pronoun} saw a black shape, unfurling in space and time, growing and consuming. The shape originated from a nearby crumbled monolith.\n\nUpon waking from the vision, {PAWN_nameDef} feels strangely drawn to the monolith. It calls to {PAWN_objective}. -->
+  <VoidMonolithVisionText>{PAWN_nameDef}做了一个怪异的梦。在梦中，{PAWN_pronoun}看到一片不断蔓延的黑色形体，无所不至、吞噬一切。而这黑色形体则来自附近一块碎裂的巨石。\n\n从梦境中醒来后，{PAWN_nameDef}感到自己莫名其妙地被这块巨石所吸引。它在呼唤着{PAWN_objective}。</VoidMonolithVisionText>
+  <!-- EN: Choose who should do this -->
   <VoidMonolithChooseActivator>选择操作对象</VoidMonolithChooseActivator>
+  <!-- EN: Target is downed -->
   <VoidMonolithActivatorDowned>目标被击倒</VoidMonolithActivatorDowned>
-  <VoidMonolithActivatorMentalState>目标处于精神状态</VoidMonolithActivatorMentalState>
+  <!-- EN: Target in mental state -->
+  <VoidMonolithActivatorMentalState>目标陷入精神状态</VoidMonolithActivatorMentalState>
+  <!-- EN: Target is busy -->
   <VoidMonolithActivatorBusy>目标正忙</VoidMonolithActivatorBusy>
+  <!-- EN: Target is incapable -->
   <VoidMonolithActivatorIncapable>目标无法胜任</VoidMonolithActivatorIncapable>
+  <!-- EN: Monolith arrival -->
   <MonolithArrivalLabel>巨石降临</MonolithArrivalLabel>
-  <MonolithArrivalText>与灵能信号的交互导致一个奇怪的构造悄然出现。</MonolithArrivalText>
-  <MonolithArrivalTextExt>它与你们之前遇到的巨石非常相似，甚至可以说完全相同。</MonolithArrivalTextExt>
+  <!-- EN: Interacting with the psychic signal has caused a strange structure to appear. -->
+  <MonolithArrivalText>与心灵信号的交互导致一个奇怪的结构悄然出现。</MonolithArrivalText>
+  <!-- EN: It is very similar, if not identical, to the monolith you previously encountered. -->
+  <MonolithArrivalTextExt>它与你们之前遇到的巨石极为相似。</MonolithArrivalTextExt>
+  <!-- EN: Can't {0} monolith -->
   <CantActivateMonolith>无法{0}巨石</CantActivateMonolith>
 
+  <!-- EN: Monolith twisting -->
   <MonolithTwistingAlert>巨石扭曲</MonolithTwistingAlert>
+  <!-- EN: Your presence has caused the monolith to twist and morph. Soon the process will be complete. Be prepared for whatever comes next. -->
   <MonolithTwistingExplanation>你的出现让巨石扭曲变形。此过程很快就会结束，准备好面对接下来的一切吧。</MonolithTwistingExplanation>
+  <!-- EN: Fallen monolith -->
   <MonolithAutoActivatingLabel>倒伏巨石</MonolithAutoActivatingLabel>
+  <!-- EN: A wave of dread passes over your colonists. The fallen monolith has begun to stir. Slowly, it begins to twist and rearrange itself, morphing into something new.\n\nWithin a matter of days, the process will be complete. Be prepared for whatever comes next. -->
   <MonolithAutoActivatingText>恐惧在殖民者间悄然蔓延。倒伏的巨石开始激发。渐渐地，它开始扭曲变形、重组排列，蜕变成其他东西。\n\n几天之内，该过程就会完成。准备好面对接下来的一切吧。</MonolithAutoActivatingText>
+  <!-- EN: Void monolith -->
   <MonolithAutoActivatedLabel>虚空巨石</MonolithAutoActivatedLabel>
-  <MonolithAutoActivatedText>巨石的重组很快便会完成……</MonolithAutoActivatedText>
+  <!-- EN: The monolith’s transformation is almost complete... -->
+  <MonolithAutoActivatedText>巨石的重组很快便会完成...</MonolithAutoActivatedText>
 
-  <LetterLabelGrayPallDescending>灰暗迷雾</LetterLabelGrayPallDescending>
-  <LetterGrayPallDescending>一片厚厚的浓雾笼罩了这片区域。不仅味道闻着有些年头，而且还很蜇人。那不自然的灰色散发着恐惧的气息。</LetterGrayPallDescending>
+  <!-- EN: Gray pall -->
+  <LetterLabelGrayPallDescending>灰棘迷雾</LetterLabelGrayPallDescending>
+  <!-- EN: A blanket of gritty fog has descended on this area. The fog smells ancient, somehow, and it stings the skin. The unnatural grayness of it invokes a sense of dread. -->
+  <LetterGrayPallDescending>一股如沙尘般粗糙的迷雾笼罩了这片区域，散发出腐烂且酸臭的难闻味道。这种异常天气会唤起人们心中的恐惧。</LetterGrayPallDescending>
 
   <!-- Void Awakening -->
+  <!-- EN: Awakening the void monolith will engulf your colony in darkness for a number of days and attract powerful entities. Make sure you are well prepared:\n\n- Stockpile food, building material, and weapons.\n- Make sure your colony is well lit, and has ample power. Avoid relying on solar generators.\n- Ensure your colony is well defended, and your colonists are ready to fight.\n\nOnce you awaken the void monolith, there is no going back.\n\nAre you sure you want to continue? -->
   <VoidAwakeningConfirmationText>唤醒虚空巨石会让殖民地陷入数天的黑暗，并将强大的实体吸引至此处。请确保做好了万全准备：\n\n——储备足够的食物、建材以及武器。\n——确保殖民地拥有充足的照明与电力供应。请勿依赖太阳能发电机。\n——确保殖民地防守严密，殖民者随时做好战斗准备。\n\n一旦唤醒了虚空巨石，就没有回头路了。\n\n确定要继续吗？</VoidAwakeningConfirmationText>
-  <VoidNodeLetter>在{PAWN_nameDef}面前，一个不停转动的球体缓缓升起，它内部充斥着劈啪作响的灵能能量。其膨胀扭曲的表面让周围的空间也随之发生了扭曲。\n\n{PAWN_nameDef}能够在{PAWN_possessive}意识中清晰地感受到那个存在，比任何人类感官都要清晰。它违反了一切逻辑与定律，使{PAWN_objective}在虚空中载沉载浮。在{PAWN_pronoun}面前，涌动着充盈着能量的无边黑色海洋，而它在呼唤着{PAWN_objective}。\n\n{PAWN_nameDef}努力让{PAWN_objective}的意识回归了现实。\n\n正是附近的超凡科技设备，通过的脆弱的链接支撑起了那球体。{PAWN_nameDef}可以破坏链接，切断两个位面之间的连接，彻底结束这些困扰自己家园的恐怖异象。\n\n或者，{PAWN_pronoun}也可以走进球体，与虚空融为一体。没人知道球体那边有什么，更没人知道这种离经叛道之举会带来何种黑暗力量。</VoidNodeLetter>
+  <!-- EN: A writhing sphere of crackling psychic energy rises before {PAWN_nameDef}. Its surface swells and twists, warping the space around it.\n\n{PAWN_nameDef} feels it inside {PAWN_possessive} mind, deeper than any normal human sense. It defeats logic and sets {PAWN_objective} adrift in the void. {PAWN_pronoun} stands on the shoreline of an infinite black ocean of power, and it beckons {PAWN_objective} in.\n\n{PAWN_nameDef} shakes {PAWN_objective}self back to reality.\n\nNearby archotech devices support the sphere along fragile connections. {PAWN_nameDef} could disrupt them, closing this link between worlds and putting an end to the terrifying phenomena that have plagued your home.\n\nOr, {PAWN_pronoun} could step into the sphere and merge with the void. It's unknown what lies beyond, or what dark powers could be gained from such an inhuman act. -->
+  <VoidNodeLetter>在{PAWN_nameDef}面前，一个不停转动的球体缓缓升起，它内部充斥着劈啪作响的心灵能量。其膨胀扭曲的表面让周围的空间也随之发生了扭曲。\n\n{PAWN_nameDef}能够在{PAWN_possessive}意识中清晰地感受到那个存在，比任何人类感官都要清晰。它违反了一切逻辑与定律，使{PAWN_objective}在虚空中载沉载浮。在{PAWN_pronoun}面前，涌动着充盈着能量的无边黑色海洋，而它在呼唤着{PAWN_objective}。\n\n{PAWN_nameDef}努力让{PAWN_objective}的意识回归了现实。\n\n正是附近的超凡科技设备，通过的脆弱的链接支撑起了那球体。{PAWN_nameDef}可以破坏链接，切断两个位面之间的连接，彻底结束这些困扰自己家园的恐怖异象。\n\n或者，{PAWN_pronoun}也可以走进球体，与虚空融为一体。没人知道球体那边有什么，更没人知道这种离经叛道之举会带来何种暗黑力量。</VoidNodeLetter>
+  <!-- EN: Disrupt the link -->
   <VoidNodeDisrupt>破坏链接</VoidNodeDisrupt>
+  <!-- EN: Embrace the void -->
   <VoidNodeEmbrace>拥抱虚空</VoidNodeEmbrace>
-  <VoidNodePostpone>推迟</VoidNodePostpone>
-  <DisruptTheLinkCredits>灵能的流动开始紊乱，超凡科技机械也发出了尖锐的爆鸣。那不停旋转着的虚空开始不稳定地闪烁。{PAWN_nameDef}感觉到它的旋转已经到达了极限，突然一下由内向外开始坍缩。\n\n那金属凹陷开始扭曲，形成了一个像巨大心脏一般的空腔。{PAWN_nameDef}还没来得及尖叫，{PAWN_pronoun}就在一眨眼之间消失了。\n\n{PAWN_nameDef}拒绝了虚空的呼唤。\n\n{PAWN_possessive}故事仍在继续……</DisruptTheLinkCredits>
-  <EmbraceTheVoidCredits>{PAWN_nameDef}踏入了虚空，黑色的海洋一下便包裹住了{PAWN_objective}，淹没了一切感官，灌满了{PAWN_possessive}身体，占领了{PAWN_possessive}意识。\n\n虚空节点的焦点，从整个世界变为了区区一人。虚空结构发出尖锐的爆鸣，从链接着它的诡异支架上挣脱开来，然后眨眼间消失得无影无踪。\n\n{PAWN_nameDef}拥抱了虚空的呼唤。\n\n{PAWN_possessive}故事仍在继续……</EmbraceTheVoidCredits>
-  <StructureActivatedMessage>{PAWN_nameDef}完成了对{STRUCTURE_definite}的激活</StructureActivatedMessage>
+  <!-- EN: Postpone -->
+  <VoidNodePostpone>稍后再说</VoidNodePostpone>
+  <!-- EN: The psychic flows destabilize and the archotech machinery begins to scream. The swirling void flickers. {PAWN_nameDef} feels it spilling beyond its limits and collapsing into itself, all at once.\n\nThe metallic cavern begins to twist, reshaping like the chamber of a massive heart. Before {PAWN_nameDef} has a chance to scream, {PAWN_pronoun} blinks out of existence.\n\n{PAWN_nameDef} has rejected the void.\n\n{PAWN_possessive} story continues... -->
+  <DisruptTheLinkCredits>灵流开始紊乱，超凡科技装置也发出了尖锐的爆鸣。那不停旋转着的虚空开始不稳定地闪烁。{PAWN_nameDef}感觉到它的旋转已经到达了极限，突然一下由内向外开始坍缩。\n\n那金属凹陷开始扭曲，形成了一个像巨大心脏一般的空腔。{PAWN_nameDef}还没来得及尖叫，{PAWN_pronoun}就在一眨眼之间消失了。\n\n{PAWN_nameDef}拒绝了虚空的呼唤。\n\n{PAWN_possessive}故事仍在继续...</DisruptTheLinkCredits>
+  <!-- EN: {PAWN_nameDef} steps into the void and the black ocean floods into {PAWN_objective}, overwhelming every sense, suffusing every cell in {PAWN_possessive} body and every thought in {PAWN_possessive} mind.\n\nThe void node has been refocused away from the world, towards one single person. The void structures scream, torn from their otherworldly foundation, then blink out of existence.\n\n{PAWN_nameDef} has embraced the void.\n\n{PAWN_possessive} story continues... -->
+  <EmbraceTheVoidCredits>{PAWN_nameDef}踏入了虚空，黑色的海洋一下便包裹住了{PAWN_objective}，淹没了一切感官，灌满了{PAWN_possessive}身体，占领了{PAWN_possessive}意识。\n\n虚空节点的焦点，从整个世界变为了区区一人。虚空结构发出尖锐的爆鸣，从链接着它的诡异支架上挣脱开来，然后眨眼间消失得无影无踪。\n\n{PAWN_nameDef}拥抱了虚空的呼唤。\n\n{PAWN_possessive}故事仍在继续...</EmbraceTheVoidCredits>
+  <!-- EN: {PAWN_nameDef} has finished activating {STRUCTURE_definite} -->
+  <StructureActivatedMessage>{PAWN_nameDef}已激活{STRUCTURE_definite}</StructureActivatedMessage>
+  <!-- EN: Structures activated -->
   <StructuresActivatedAlertLabel>结构已激活</StructuresActivatedAlertLabel>
+  <!-- EN: Activate void structures to complete the monolith awakening. -->
   <StructuresActivatedAlertDescription>激活虚空结构以完成唤醒巨石。</StructuresActivatedAlertDescription>
-  <GleamingMonolithInterrupted>{PAWN_nameDef}与虚空巨石的连接已断开。必须再次激活。</GleamingMonolithInterrupted>
+  <!-- EN: {PAWN_nameDef}'s connection to the void monolith has been broken. It must be activated again. -->
+  <GleamingMonolithInterrupted>{PAWN_nameDef}与虚空巨石的链接已断开。必须再次激活。</GleamingMonolithInterrupted>
 
   <!-- HediffComp_GiveLovinMTBFactor -->
+  <!-- EN: Increases the chance of lovin` -->
   <IncreasesChanceOfLovin>增加滚床单的概率。</IncreasesChanceOfLovin>
 
+  <!-- EN: Unnatural {0_label} corpse -->
   <UnnaturalCorpse>异常{0_label}尸体</UnnaturalCorpse>
 
   <!-- Studiable -->
-  <KnowledgeFactorOutdoors>研究获得知识减少</KnowledgeFactorOutdoors>
+  <!-- EN: Knowledge from study reduced -->
+  <KnowledgeFactorOutdoors>研究所获知识减少</KnowledgeFactorOutdoors>
 
   <!-- Unnatural darkness -->
+  <!-- EN: Emergence in {0} -->
   <EmergenceIn>{0}后出现</EmergenceIn>
+  <!-- EN: Something will emerge from the ground in {0}. -->
   <EmergenceInDesc>{0}后将有东西从地下钻出。</EmergenceInDesc>
   
   <!-- Bioferrite harvester -->
-  <BioferriteHarvesterContained>含有灵铁</BioferriteHarvesterContained>
-  <BioferriteHarvesterPerDay>每日</BioferriteHarvesterPerDay>
+  <!-- EN: Bioferrite contained -->
+  <BioferriteHarvesterContained>含有活性铁瓷</BioferriteHarvesterContained>
+  <!-- EN: per day -->
+  <BioferriteHarvesterPerDay>每天</BioferriteHarvesterPerDay>
+  <!-- EN: Eject contents -->
   <BioferriteHarvesterEjectContents>弹出内容物</BioferriteHarvesterEjectContents>
+  <!-- EN: Eject all contained {0} onto the ground. -->
   <BioferriteHarvesterEjectContentsDesc>将所有{0}弹出。</BioferriteHarvesterEjectContentsDesc>
-  <BioferriteHarvesterToggleUnloading>切换灵铁卸货</BioferriteHarvesterToggleUnloading>
-  <BioferriteHarvesterToggleUnloadingDesc>激活后，殖民者会在灵铁装满时自动从采集器中取出灵铁。</BioferriteHarvesterToggleUnloadingDesc>
+  <!-- EN: Toggle bioferrite unloading -->
+  <BioferriteHarvesterToggleUnloading>开关收取活性铁瓷</BioferriteHarvesterToggleUnloading>
+  <!-- EN: When active, colonists will automatically unload bioferrite from the harvester as it is filling up. -->
+  <BioferriteHarvesterToggleUnloadingDesc>激活后，殖民者会在活性铁瓷装满时自动从采集器中取出活性铁瓷。</BioferriteHarvesterToggleUnloadingDesc>
   
   <!-- Proximity detector -->
+  <!-- EN: Invisible creature detected. -->
   <ProximityDetectorCreatureDetected>检测到隐形生物。</ProximityDetectorCreatureDetected>
   
   <!-- Frenzy inducer -->
+  <!-- EN: Generating frenzy field. -->
   <FrenzyInducerEffectDescription>正在生成狂热领域。</FrenzyInducerEffectDescription>
-  <MentalBreakReason_FrenzyInducer>发生原因为狂热诱发器的影响。</MentalBreakReason_FrenzyInducer>
+  <!-- EN: This happened due to the influence of a frenzy inducer. -->
+  <MentalBreakReason_FrenzyInducer>原因是受到了狂热诱发器的影响。</MentalBreakReason_FrenzyInducer>
   
   <!-- Sleep suppressor -->
-  <SleepSuppressorEffectDescription>无眠灵能脉冲</SleepSuppressorEffectDescription>
+  <!-- EN: sleepless psychic pulsation. -->
+  <SleepSuppressorEffectDescription>无眠心灵脉冲</SleepSuppressorEffectDescription>
   
   <!-- Devourer -->
+  <!-- EN: Being digested by {0_labelShort}. -->
   <DigestedBy>正在被{0_labelShort}消化。</DigestedBy>
 
   <!-- Chimeras -->
-  <MessageChimeraModeChangeSingular>奇美拉正在{0}</MessageChimeraModeChangeSingular>
-  <MessageChimeraModeChangePlural>奇美拉正在{0}</MessageChimeraModeChangePlural>
+  <!-- EN: The chimera is {0} -->
+  <MessageChimeraModeChangeSingular>嵌合兽正在{0}</MessageChimeraModeChangeSingular>
+  <!-- EN: The chimeras are {0} -->
+  <MessageChimeraModeChangePlural>嵌合兽正在{0}</MessageChimeraModeChangePlural>
+  <!-- EN: temporarily withdrawing. -->
   <MessageChimeraWithdrawing>撤退中。</MessageChimeraWithdrawing>
 
-  <LetterChimerasAttackingLabel>奇美拉正在攻击</LetterChimerasAttackingLabel>
-  <LetterChimerasAttacking>奇美拉发动了攻击！</LetterChimerasAttacking>\n\n</LanguageData>
+  <!-- EN: Chimeras attacking -->
+  <LetterChimerasAttackingLabel>嵌合兽正在攻击</LetterChimerasAttackingLabel>
+  <!-- EN: The chimeras have begun their attack! -->
+  <LetterChimerasAttacking>嵌合兽已开始攻击！</LetterChimerasAttacking>
+
+</LanguageData>

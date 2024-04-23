@@ -1,32 +1,52 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
   <!-- Reading management -->
+  <!-- EN: {0} max mental break chance -->
   <MaxMentalBreakChance>{0}最大精神崩溃几率</MaxMentalBreakChance>
+  <!-- EN: Tomes -->
   <TomePolicy>魔经</TomePolicy>
 
   <!-- Caravan -->
+  <!-- EN: Entities -->
   <EntitiesSection>实体</EntitiesSection>
   
   <!-- Hidden items filter -->
+  <!-- EN: Undiscovered -->
   <UndiscoveredItemLabel>未发现</UndiscoveredItemLabel>
+  <!-- EN: This item has not been discovered yet. -->
   <UndiscoveredItemDesc>尚未发现此物品。</UndiscoveredItemDesc>
 
   <!-- Medical settings -->
+  <!-- EN: Entities -->
   <MedGroupEntities>实体</MedGroupEntities>
+  <!-- EN: Anomalous entities and their variations. -->
   <MedGroupEntitiesDesc>各种异常实体及其变体。</MedGroupEntitiesDesc>
 
+  <!-- EN: Ghouls -->
   <MedGroupGhouls>食尸鬼</MedGroupGhouls>
-  <MedGroupGhoulsDesc>隶属你方殖民地的食尸鬼。</MedGroupGhoulsDesc>
+  <!-- EN: Ghouls belonging to your colony. -->
+  <MedGroupGhoulsDesc>隶属你殖民地的食尸鬼。</MedGroupGhoulsDesc>
 
-  <GhoulConfirmation>将{PAWN_nameDef}转变为食尸鬼的过程不可逆转。{PAWN_pronoun}自此将陷入半迷半醒的恍惚状态，再也无法从事工作了。\n\n你确定要将{PAWN_nameDef}转变为食尸鬼么？</GhoulConfirmation>
+  <!-- EN: Turning {PAWN_nameDef} into a ghoul is irreversible. {PAWN_pronoun} will be left in a half-conscious stupor and be incapable of work.\n\nAre you sure you want to turn {PAWN_nameDef} into a ghoul? -->
+  <GhoulConfirmation>将{PAWN_nameDef}转化为食尸鬼的过程不可逆转。{PAWN_pronoun}自此将陷入神志不清的恍惚状态，且无法从事任何工作。\n\n你确定要将{PAWN_nameDef}转变为食尸鬼么？</GhoulConfirmation>
 
-  <RoomRequirementNoAnomalyBuildings>不允许有异常建筑</RoomRequirementNoAnomalyBuildings>
+  <!-- EN: no anomaly buildings allowed -->
+  <RoomRequirementNoAnomalyBuildings>不允许有异象DLC提供的建筑</RoomRequirementNoAnomalyBuildings>
 
+  <!-- EN: Entity codex -->
   <EntityCodex>实体图鉴</EntityCodex>
-  <EntityCodexGizmoTip>查看全部已发现的实体。探索发现新的实体以解锁新的研究项目，探寻巨石之奥妙。</EntityCodexGizmoTip>
+  <!-- EN: View all discovered entities. Discover new entities to advance the monolith and reveal new research projects. -->
+  <EntityCodexGizmoTip>查看全部已发现的实体。探寻新的实体以解锁新的研究项目并探寻巨石之奥妙。</EntityCodexGizmoTip>
+  <!-- EN: Research unlocks -->
   <ResearchUnlocks>研究解锁</ResearchUnlocks>
-  <EntityCodexDesc>本页面列有全部已知的黑暗虚空之实体。执行灵能仪式“虚空扰动”以发现新的实体。发现新实体可解锁新的研究项目，让你在虚空巨石的奥秘上更进一步。</EntityCodexDesc>
+  <!-- EN: This page lists all known entities which are related to the dark void. Discover new entities using the “void provocation” psychic ritual. Discovering new entities reveals new research projects, and allows you to advance the void monolith. -->
+  <EntityCodexDesc>此页面列有全部与暗黑虚空有关的已知实体。执行心灵仪式“虚空扰动”以发现新的实体。发现新实体可解锁新的研究项目，让你在虚空巨石的奥秘上更进一步。</EntityCodexDesc>
+  <!-- EN: Undiscovered entity -->
   <UndiscoveredEntity>未发现的实体</UndiscoveredEntity>
-  <UndiscoveredEntityDesc>尚未发现此实体。你可通过执行灵能仪式“虚空扰动”来发现新的实体。</UndiscoveredEntityDesc>
-  <ViewEntityCodex>查看实体图鉴</ViewEntityCodex>\n\n</LanguageData>
+  <!-- EN: You have not discovered this entity. -->
+  <UndiscoveredEntityDesc>尚未发现此实体。你可通过执行心灵仪式“虚空扰动”来发现新的实体。</UndiscoveredEntityDesc>
+  <!-- EN: View entity codex -->
+  <ViewEntityCodex>查看实体图鉴</ViewEntityCodex>
+
+</LanguageData>
