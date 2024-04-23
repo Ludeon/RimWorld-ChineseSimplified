@@ -1,29 +1,57 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>\n\n<LanguageData>
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
 
   <!-- ITab_Entity -->
+  <!-- EN: Escape interval -->
   <HoldingPlatformEscapeMTBDays>逃脱间隔</HoldingPlatformEscapeMTBDays>
+  <!-- EN: The average time between escapes. This is affected by containment strength, the type of entity, the entity’s movement capability, and the duration of the entity's imprisonment. Some entities are also suppressed by cold. -->
   <HoldingPlatformEscapeMTBDaysDesc>每次尝试逃脱的平均时间间隔。此数值受到以下因素影响：收容强度，实体类别，实体的移动能力，以及实体的遭囚禁时间。有些实体会被低温所抑制。</HoldingPlatformEscapeMTBDaysDesc>
+  <!-- EN: Entity -->
   <TabEntity>实体</TabEntity>
+  <!-- EN: Study interval -->
   <StudyInterval>研究间隔</StudyInterval>
+  <!-- EN: How often this entity can be studied. -->
   <StudyIntervalDesc>多久能研究这个实体一次。</StudyIntervalDesc>
-  <EntityStudyMode_MaintainOnly>仅维持</EntityStudyMode_MaintainOnly>
-  <EntityStudyMode_MaintainOnlyDesc>狱卒不会对这个实体做出特殊举动，不过仍可进行其它互动。</EntityStudyMode_MaintainOnlyDesc>
+  <!-- EN: Maintain only -->
+  <EntityStudyMode_MaintainOnly>维持生命</EntityStudyMode_MaintainOnly>
+  <!-- EN: Wardens will not perform special actions on this entity, but other interactions are still available. -->
+  <EntityStudyMode_MaintainOnlyDesc>狱卒不会对该实体做出特殊举动，不过仍可进行其它互动。</EntityStudyMode_MaintainOnlyDesc>
+  <!-- EN: Study -->
   <EntityStudyMode_Study>研究</EntityStudyMode_Study>
-  <EntityStudyMode_StudyDesc>研究者将会研究这个实体。</EntityStudyMode_StudyDesc>
+  <!-- EN: Researchers will study the entity. -->
+  <EntityStudyMode_StudyDesc>研究员会调查该实体。</EntityStudyMode_StudyDesc>
+  <!-- EN: Release -->
   <EntityStudyMode_Release>释放</EntityStudyMode_Release>
-  <EntityStudyMode_ReleaseDesc>一名狱卒会将这个实体从收容平台中释放。实体获释后可能会变为敌对状态。</EntityStudyMode_ReleaseDesc>
+  <!-- EN: A warden will release the entity from the holding platform. Entities may be hostile when released. -->
+  <EntityStudyMode_ReleaseDesc>一名狱卒会将该实体从收容平台中释放。实体获释后可能会变为敌对状态。</EntityStudyMode_ReleaseDesc>
+  <!-- EN: Execute -->
   <EntityStudyMode_Execute>处决</EntityStudyMode_Execute>
-  <EntityStudyMode_ExecuteDesc>一名狱卒会将这个收押的实体处决。</EntityStudyMode_ExecuteDesc>
+  <!-- EN: A warden will execute the restrained entity. -->
+  <EntityStudyMode_ExecuteDesc>狱卒会当场处决该实体。</EntityStudyMode_ExecuteDesc>
+  <!-- EN: Can't be executed. -->
   <CantBeExecuted>无法被处决。</CantBeExecuted>
+  <!-- EN: Knowledge gain -->
   <StudyKnowledgeGain>可获知识</StudyKnowledgeGain>
-  <StudyKnowledgeGainDesc>每轮调查间隔可获得的知识量。收容状况越好，研究者就越能专心调查，取得更多成果，而不是花心思担心自己的小命。</StudyKnowledgeGainDesc>
-  <MedicineQualityDescriptionEntity>对该实体供给什么类型的药品。</MedicineQualityDescriptionEntity>
+  <!-- EN: Amount of knowledge gained per study interval. Better containment helps the researcher focus on study instead of safety, yielding more knowledge. -->
+  <StudyKnowledgeGainDesc>每轮调查间隔可获得的知识量。收容状况越好，研究者就越能专心调查，取得更多成果，而不是时刻担心自身安危。</StudyKnowledgeGainDesc>
+  <!-- EN: What type of medicine can be given to this entity. -->
+  <MedicineQualityDescriptionEntity>可以给该实体使用什么类型的医药。</MedicineQualityDescriptionEntity>
 
+  <!-- EN: Electroharvester -->
   <FactorForElectroharvester>汲电器</FactorForElectroharvester>
+  <!-- EN: Long captivity -->
   <FactorForDaysInCaptivity>长期收押</FactorForDaysInCaptivity>
+  <!-- EN: Cold containment bonus -->
   <FactorForColdCaptivity>低温收容加成</FactorForColdCaptivity>
+  <!-- EN: Incapable of escaping -->
   <IncapableOfEscaping>无法逃脱</IncapableOfEscaping>
+  <!-- EN: Entity downed -->
   <EntityDowned>实体被击倒</EntityDowned>
+  <!-- EN: Containment strength -->
   <FactorContainmentStrength>收容强度</FactorContainmentStrength>
+  <!-- EN: Electroharvester -->
   <FactorElectroharvester>汲电器</FactorElectroharvester>
-  <FactorActivity>活跃</FactorActivity>\n\n</LanguageData>
+  <!-- EN: Activity -->
+  <FactorActivity>活跃</FactorActivity>
+
+</LanguageData>

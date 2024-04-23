@@ -1,65 +1,95 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-  <!-- Conversion -->
-  <AbilityCannotCastHoraxian>{0_nameDef}毫不动摇地肯定着。</AbilityCannotCastHoraxian>
-
   <!-- Entities -->
+  <!-- EN: {0_definite}'s activity is rising due to taking damage. -->
   <MessageActivityRisingDamage>{0_definite}的活跃度由于受伤而有所提高。</MessageActivityRisingDamage>
+  <!-- EN: {0_definite} has died on a holding platform. -->
   <EntityDiedOnHoldingPlatform>一只{0_labelShort}死在了收容平台上。</EntityDiedOnHoldingPlatform>
+  <!-- EN: New entity discovered -->
   <MessageEntityDiscovered>发现新实体</MessageEntityDiscovered>
 
   <!-- Hate chanters -->
+  <!-- EN: The cultists are in a trance and don't respond when attacked. -->
   <MessageHateChantersAbsorbed>邪教徒们正处于恍惚状态，受到攻击无反应。</MessageHateChantersAbsorbed>
-  <MessageHateChantIncreased>憎恶之声更加响亮了。</MessageHateChantIncreased>
+  <!-- EN: The hate chanting has increased in volume. -->
+  <MessageHateChantIncreased>恶咒吟诵更加响亮了。</MessageHateChantIncreased>
 
   <!-- Self-resurrection -->
-  <SelfResurrectText>可命令{0_nameDef}使用死亡回避来进行自我修复。</SelfResurrectText>
-  <MessageUsingSelfResurrection>{0_nameDef}正在通过死亡回避来进行自我修复。</MessageUsingSelfResurrection>
+  <!-- EN: {0_nameDef} can self-resurrect on command using death refusal. -->
+  <SelfResurrectText>可命令{0_nameDef}使用死亡回避来进行自我复活。</SelfResurrectText>
+  <!-- EN: {0_nameDef} is using death refusal to self-resurrect. -->
+  <MessageUsingSelfResurrection>{0_nameDef}正在使用死亡回避来进行自我复活。</MessageUsingSelfResurrection>
 
   <!-- Pit Gate -->
-  <MessagePitGateCollapsed>深坑洞口坍塌了。</MessagePitGateCollapsed>
-  <MessagePitBurrowCollapsed>一处深坑地洞坍塌了。</MessagePitBurrowCollapsed>
+  <!-- EN: The pit gate has collapsed. -->
+  <MessagePitGateCollapsed>巨坑坍塌了。</MessagePitGateCollapsed>
+  <!-- EN: A pit burrow has collapsed. -->
+  <MessagePitBurrowCollapsed>一处坑洞坍塌了。</MessagePitBurrowCollapsed>
 
   <!-- Fleshsack -->
+  <!-- EN: The flesh sack contained something -->
   <FleshmassContainedMessage>血肉袋里装着什么东西</FleshmassContainedMessage>
 
   <!-- Psychic rituals -->
+  <!-- EN: {0_pawnsPluralDef} are attacking! -->
   <MessagePsychicRitualAssault>{0_pawnsPluralDef}正在进攻！</MessagePsychicRitualAssault>
-  <MessageAIPsychicRitualBegan>{FACTION_pawnsPluralDef}正在开启灵能仪式</MessageAIPsychicRitualBegan>
+  <!-- EN: {FACTION_pawnsPluralDef} are beginning the psychic ritual -->
+  <MessageAIPsychicRitualBegan>{FACTION_pawnsPluralDef}正在举行心灵仪式</MessageAIPsychicRitualBegan>
   
   <!-- Biomutation lance -->
+  <!-- EN: Cannot target: {0_nameDef} is not an animal or human. -->
   <MessageBiomutationLanceInvalidTargetRace>无效目标：{0_nameDef}不是动物或人类。</MessageBiomutationLanceInvalidTargetRace>
-  <MessageBiomutationLanceTargetTooBig>无效目标：{0_nameDef}体型太大了。</MessageBiomutationLanceTargetTooBig>
+  <!-- EN: Cannot target: {0_nameDef} is too large. -->
+  <MessageBiomutationLanceTargetTooBig>无效目标：{0_nameDef}体型太大。</MessageBiomutationLanceTargetTooBig>
 
   <!-- Containment -->
+  <!-- EN: Warning: No rooms have the minimum containment strength for {0}. It will escape soon. -->
   <MessageNoRoomWithMinimumContainmentStrength>警告：空间不足以为{0}提供最低的收容强度。它很快就会逃走。</MessageNoRoomWithMinimumContainmentStrength>
+  <!-- EN: Warning: {0} is below minimum containment strength for {1}. It will escape soon. -->
   <MessageTargetBelowMinimumContainmentStrength>警告：{0}当前处于{1}的最低收容强度标准之下。它很快就会逃走。</MessageTargetBelowMinimumContainmentStrength>
+  <!-- EN: Can't transfer to {0} reserved by someone else. -->
   <MessageHolderReserved>无法转移至{0}，已被其他人预留。</MessageHolderReserved>
+  <!-- EN: {EXECUTIONER_labelShort} has executed {VICTIM_kindIndef}. -->
   <MessageEntityExecuted>{EXECUTIONER_labelShort}处决了{VICTIM_kindIndef}。</MessageEntityExecuted>
-  <MessageOccupiedHoldingPlatformReinstalled>警告：重新安装一座已被占用的收容平台会把其中的实体放跑。先将实体转移至其它平台。</MessageOccupiedHoldingPlatformReinstalled>
-  <MessageOccupiedHoldingPlatformUninstalled>警告：卸载一座已被占用的收容平台会把其中的实体放跑。先将实体转移至其它平台。</MessageOccupiedHoldingPlatformUninstalled>
-  <MessageOccupiedHoldingPlatformDeconstructed>警告：拆除一座已被占用的收容平台会把其中的实体放跑。先将实体转移至其它平台。</MessageOccupiedHoldingPlatformDeconstructed>
+  <!-- EN: Warning: Reinstalling an occupied holding platform will release the entity. Transfer the entity to another platform first. -->
+  <MessageOccupiedHoldingPlatformReinstalled>警告：重新安装一座已被占用的收容平台会让其中的实体逃跑。先将实体转移至其它平台。</MessageOccupiedHoldingPlatformReinstalled>
+  <!-- EN: Warning: Uninstalling an occupied holding platform will release the entity. Transfer the entity to another platform first. -->
+  <MessageOccupiedHoldingPlatformUninstalled>警告：卸载一座已被占用的收容平台会让其中的实体逃跑。先将实体转移至其它平台。</MessageOccupiedHoldingPlatformUninstalled>
+  <!-- EN: Warning: Deconstructing an occupied holding platform will release the entity. Transfer the entity to another platform first. -->
+  <MessageOccupiedHoldingPlatformDeconstructed>警告：拆除一座已被占用的收容平台会让其中的实体逃跑。先将实体转移至其它平台。</MessageOccupiedHoldingPlatformDeconstructed>
   
   <!-- Duplicator obelisk -->
+  <!-- EN: A hostile duplicate of {0_nameDef} has appeared. -->
   <MessageHostileDuplicate>{0_nameDef}的一个敌对复制体出现了。</MessageHostileDuplicate>
   
   <!-- Proximity detector -->
-  <MessageProximityDetectorTriggered>灵能探测器检测到一只隐形生物。</MessageProximityDetectorTriggered>
+  <!-- EN: A proximity detector has detected an invisible creature. -->
+  <MessageProximityDetectorTriggered>近身探测器发现了一只隐形生物。</MessageProximityDetectorTriggered>
   
   <!-- Unnatural darkness --> 
+  <!-- EN: Something in the darkness has attacked {0_nameDef}. -->
   <MessagePawnAttackedInDarkness>有什么东西在黑暗里攻击了{0_nameDef}。</MessagePawnAttackedInDarkness>
   
   <!-- Revenant -->
+  <!-- EN: A hidden revenant has been revealed! -->
   <MessageRevenantForcedVisibility>发现了一只隐藏的幽魂！</MessageRevenantForcedVisibility>
+  <!-- EN: {PAWN_nameDef} can hear the revenant {1} nearby! -->
   <MessageRevenantHeard>{PAWN_nameDef}听到附近{1}幽魂的声音！</MessageRevenantHeard>
   
   <!-- Abilities -->
+  <!-- EN: {ABILITY_label} cannot be used on non-bleeding creatures. -->
   <MessageCannotUseOnNonBleeder>{ABILITY_label}无法对不流血的生物使用。</MessageCannotUseOnNonBleeder>
   
-  <MessageFingerspikeDisturbed>{WAKER_nameDef}惹毛了一只单爪兽。</MessageFingerspikeDisturbed>
-  <MessageFingerspikeDisturbedPlural>{WAKER_nameDef}惹毛了一群单爪兽。</MessageFingerspikeDisturbedPlural>
+  <!-- EN: {WAKER_nameDef} has disturbed a fingerspike. -->
+  <MessageFingerspikeDisturbed>{WAKER_nameDef}激怒了一只独爪兽。</MessageFingerspikeDisturbed>
+  <!-- EN: {WAKER_nameDef} has disturbed several fingerspikes. -->
+  <MessageFingerspikeDisturbedPlural>{WAKER_nameDef}激怒了一群独爪兽。</MessageFingerspikeDisturbedPlural>
 
-  <DeathPallResurrectedMessage>死亡烟雾将{0_indefinite}复活了。</DeathPallResurrectedMessage>
+  <!-- EN: The death pall has resurrected {0_indefinite}. -->
+  <DeathPallResurrectedMessage>死灵迷雾使{0_indefinite}重获行动能力。</DeathPallResurrectedMessage>
   
+  <!-- UNUSED -->
+  <AbilityCannotCastHoraxian>{0_nameDef}对霍拉克斯忠贞不二。</AbilityCannotCastHoraxian>
+
 </LanguageData>

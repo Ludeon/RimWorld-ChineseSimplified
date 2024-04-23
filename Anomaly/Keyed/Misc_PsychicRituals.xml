@@ -1,121 +1,215 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-  <PsychicRitual>灵能仪式</PsychicRitual>
-  <CastPsychicRitual>开始灵能仪式</CastPsychicRitual>
-  <CastPsychicRitualDesc>选择要进行的灵能仪式</CastPsychicRitualDesc>
-  <CannotCastPsychicRitual>{0_labelShort}无法进行{1}灵能仪式，原因是{2}。</CannotCastPsychicRitual>
-  <PsychicRitualBegun>{0}灵能仪式已开始。</PsychicRitualBegun>
-  <PsychicRitualCompleted>{0}灵能仪式已完成。</PsychicRitualCompleted>
-  <PsychicRitualAttending>正在参与{RITUALNAME}灵能仪式</PsychicRitualAttending>
-  <ParticipatingInPsychicRitual>{0_labelShort}正在参与{1}灵能仪式。</ParticipatingInPsychicRitual>
-  <AbilityDisabledInPsychicRitual>{0_labelShort}正在参与{1}灵能仪式。</AbilityDisabledInPsychicRitual>
+  <!-- EN: psychic ritual -->
+  <PsychicRitual>心灵仪式</PsychicRitual>
+  <!-- EN: Begin psychic ritual -->
+  <CastPsychicRitual>开始心灵仪式</CastPsychicRitual>
+  <!-- EN: Select a psychic ritual to perform -->
+  <CastPsychicRitualDesc>选择要进行的心灵仪式</CastPsychicRitualDesc>
+  <!-- EN: {0_labelShort} cannot perform {1} psychic ritual because {2}. -->
+  <CannotCastPsychicRitual>{0_labelShort}无法进行{1}心灵仪式，原因是{2}。</CannotCastPsychicRitual>
+  <!-- EN: The {0} psychic ritual has begun. -->
+  <PsychicRitualBegun>{0}心灵仪式已开始。</PsychicRitualBegun>
+  <!-- EN: The {0} psychic ritual has been completed. -->
+  <PsychicRitualCompleted>{0}心灵仪式已完成。</PsychicRitualCompleted>
+  <!-- EN: attending {RITUALNAME} psychic ritual -->
+  <PsychicRitualAttending>正在参与{RITUALNAME}心灵仪式</PsychicRitualAttending>
+  <!-- EN: {0_labelShort} is participating in the {1} psychic ritual. -->
+  <ParticipatingInPsychicRitual>{0_labelShort}正在参与{1}心灵仪式。</ParticipatingInPsychicRitual>
+  <!-- EN: {0_labelShort} is participating in the {1} psychic ritual. -->
+  <AbilityDisabledInPsychicRitual>{0_labelShort}正在参与{1}心灵仪式。</AbilityDisabledInPsychicRitual>
+  <!-- EN: choose a location -->
   <PsychicRitual_LocationTargetting>选择位置</PsychicRitual_LocationTargetting>
+  <!-- EN: total quality -->
   <PsychicRitualExpectedQualityLabel>总计效果</PsychicRitualExpectedQualityLabel>
+  <!-- EN: quality factors -->
   <PsychicRitualQualityFactorLabel>效果系数</PsychicRitualQualityFactorLabel>
+  <!-- EN: duration -->
   <PsychicRitualExpectedDurationLabel>持续时间</PsychicRitualExpectedDurationLabel>
+  <!-- EN: required offering -->
   <PsychicRitualRequiredOffering>需求祭品</PsychicRitualRequiredOffering>
-  <CausedByPsychicRitual>由灵能仪式导致</CausedByPsychicRitual>
+  <!-- EN: Caused by psychic ritual -->
+  <CausedByPsychicRitual>由心灵仪式导致</CausedByPsychicRitual>
+  <!-- EN: Cooldown -->
   <PsychicRitualCooldownLabel>冷却</PsychicRitualCooldownLabel>
 
-  <PsychicRitualSpotObstructed>灵能仪式区域被遮挡。</PsychicRitualSpotObstructed>
-  <PsychicRitualOnCooldown>灵能仪式正在冷却中。它会在{0}后可用。</PsychicRitualOnCooldown>
-  <PsychicRitualCanBeCastAgain>{0}灵能仪式可再次进行。</PsychicRitualCanBeCastAgain>
-  <NoBasicResearchForPsychicRitual>未选择基础异常点研究项目。</NoBasicResearchForPsychicRitual>
-  <CantCastOnPocketMap>必须在地表进行{0}灵能仪式。</CantCastOnPocketMap>
+  <!-- EN: Psychic ritual area obstructed. -->
+  <PsychicRitualSpotObstructed>心灵仪式区域被遮挡。</PsychicRitualSpotObstructed>
+  <!-- EN: psychic ritual on cooldown. It will be available in {0}. -->
+  <PsychicRitualOnCooldown>心灵仪式正在冷却中。它会在{0}后可用。</PsychicRitualOnCooldown>
+  <!-- EN: The {0} psychic ritual can be performed again. -->
+  <PsychicRitualCanBeCastAgain>{0}心灵仪式可再次进行。</PsychicRitualCanBeCastAgain>
+  <!-- EN: No basic anomaly research project selected. -->
+  <NoBasicResearchForPsychicRitual>未选择基础异象研究项目。</NoBasicResearchForPsychicRitual>
+  <!-- EN: Must perform {0} psychic ritual on the surface. -->
+  <CantCastOnPocketMap>必须在地表进行{0}心灵仪式。</CantCastOnPocketMap>
 
+  <!-- EN: Warning: Performing a ritual on {PAWN_nameDef} will anger {PAWN_possessive} faction ({FACTION_name}) -->
   <PsychicRitualFactionWarning>警告：在{PAWN_nameDef}身上进行仪式将会激怒{PAWN_possessive}派系（{FACTION_name}）</PsychicRitualFactionWarning>
 
-  <PsychicRitualWakingPawnWarning>{0}目前正在睡觉，灵能仪式开始时会醒来。</PsychicRitualWakingPawnWarning>
-  <PsychicRitualUndraftPawnWarning>{0}目前正处于征召状态，灵能仪式开始时会解除征召状态。</PsychicRitualUndraftPawnWarning>
-  <PsychicRitualWakingPawnsWarning>{0}目前正在睡觉，灵能仪式开始时会醒来。</PsychicRitualWakingPawnsWarning>
-  <PsychicRitualUndraftPawnsWarning>{0}目前正处于征召状态，灵能仪式开始时会解除征召状态。</PsychicRitualUndraftPawnsWarning>
+  <!-- EN: {0} is currently asleep and will wake up when the psychic ritual begins. -->
+  <PsychicRitualWakingPawnWarning>{0}目前正在睡觉，心灵仪式开始时会醒来。</PsychicRitualWakingPawnWarning>
+  <!-- EN: {0} is currently drafted and will be un-drafted when the psychic ritual begins. -->
+  <PsychicRitualUndraftPawnWarning>{0}目前正处于征召状态，心灵仪式开始时会解除征召状态。</PsychicRitualUndraftPawnWarning>
+  <!-- EN: {0} are currently asleep and will wake up when the psychic ritual begins. -->
+  <PsychicRitualWakingPawnsWarning>{0}目前正在睡觉，心灵仪式开始时会醒来。</PsychicRitualWakingPawnsWarning>
+  <!-- EN: {0} are currently drafted and will be un-drafted when the psychic ritual begins. -->
+  <PsychicRitualUndraftPawnsWarning>{0}目前正处于征召状态，心灵仪式开始时会解除征召状态。</PsychicRitualUndraftPawnsWarning>
 
-  <PsychicRitualLeft>{0_labelShort}离开了{1}灵能仪式。</PsychicRitualLeft>
-  <PsychicRitualLeftBecause>{0_labelShort}离开了{1}灵能仪式，原因是{2}。</PsychicRitualLeftBecause>
-  <PsychicRitualCanceled>{0}灵能仪式已取消。</PsychicRitualCanceled>
-  <PsychicRitualCanceledBecause>{0}灵能仪式已取消，原因是{1}。</PsychicRitualCanceledBecause>
+  <!-- EN: {0_labelShort} left the {1} psychic ritual. -->
+  <PsychicRitualLeft>{0_labelShort}离开了{1}心灵仪式。</PsychicRitualLeft>
+  <!-- EN: {0_labelShort} left the {1} psychic ritual because {2}. -->
+  <PsychicRitualLeftBecause>{0_labelShort}离开了{1}心灵仪式，原因是{2}。</PsychicRitualLeftBecause>
+  <!-- EN: The {0} psychic ritual has been canceled. -->
+  <PsychicRitualCanceled>{0}心灵仪式已取消。</PsychicRitualCanceled>
+  <!-- EN: The {0} psychic ritual has been canceled because {1}. -->
+  <PsychicRitualCanceledBecause>{0}心灵仪式已取消，原因是{1}。</PsychicRitualCanceledBecause>
 
+  <!-- EN: {0} is needed but only {1} is available -->
   <PsychicRitualOfferingsInsufficient>需要{0}但仅可使用{1}。</PsychicRitualOfferingsInsufficient>
+  <!-- EN: {TARGET_labelShort} is unreachable by {INVOKER_labelShort} -->
+  <PsychicRitualTargetUnreachableByInvoker>{INVOKER_labelShort}无法到达{TARGET_labelShort}</PsychicRitualTargetUnreachableByInvoker>
 
-  <CommandLeavePsychicRitual>离开{0}灵能仪式</CommandLeavePsychicRitual>
-  <CommandLeavePsychicRitualDesc>停止参与{0}灵能仪式。只要该仪式有至少一个参与者，它就会继续下去。</CommandLeavePsychicRitualDesc>
+  <!-- EN: leave the {0} psychic ritual -->
+  <CommandLeavePsychicRitual>离开{0}心灵仪式</CommandLeavePsychicRitual>
+  <!-- EN: stop participating in the {0} psychic ritual. The psychic ritual will continue as long as it has at least one participant. -->
+  <CommandLeavePsychicRitualDesc>停止参与{0}心灵仪式。只要该仪式有至少一个参与者，它就会继续下去。</CommandLeavePsychicRitualDesc>
 
-  <CommandCancelPsychicRitual>取消{0}灵能仪式</CommandCancelPsychicRitual>
-  <CommandCancelPsychicRitualDesc>立即结束{0}灵能仪式。你可以在以后重新启动该仪式。</CommandCancelPsychicRitualDesc>
-  <CommandCancelPsychicRitualConfirm>你确定你想要取消{0}灵能仪式？</CommandCancelPsychicRitualConfirm>
+  <!-- EN: cancel the {0} psychic ritual -->
+  <CommandCancelPsychicRitual>取消{0}心灵仪式</CommandCancelPsychicRitual>
+  <!-- EN: end the {0} psychic ritual immediately. You can restart the psychic ritual later. -->
+  <CommandCancelPsychicRitualDesc>立即结束{0}心灵仪式。你可以在以后重新启动该仪式。</CommandCancelPsychicRitualDesc>
+  <!-- EN: Are you sure you want to cancel the {0} psychic ritual? -->
+  <CommandCancelPsychicRitualConfirm>你确定想要取消{0}心灵仪式？</CommandCancelPsychicRitualConfirm>
 
+  <!-- EN: {PAWN_labelShort} vanished -->
   <PsychicRitualLeaveReason_Vanished>{PAWN_labelShort}已消失</PsychicRitualLeaveReason_Vanished>
+  <!-- EN: {PAWN_labelShort} is incapacitated -->
   <PsychicRitualLeaveReason_Incapped>{PAWN_labelShort}无法行动</PsychicRitualLeaveReason_Incapped>
+  <!-- EN: {PAWN_labelShort} is dead -->
   <PsychicRitualLeaveReason_Killed>{PAWN_labelShort}已死亡</PsychicRitualLeaveReason_Killed>
+  <!-- EN: {PAWN_labelShort} is not part of {FACTION_name} -->
   <PsychicRitualLeaveReason_WrongFaction>{PAWN_labelShort}并非{FACTION_name}的成员</PsychicRitualLeaveReason_WrongFaction>
+  <!-- EN: {PAWN_labelShort} is no longer on the map -->
   <PsychicRitualLeaveReason_ExitedMap>{PAWN_labelShort}不在地图上</PsychicRitualLeaveReason_ExitedMap>
+  <!-- EN: {PAWN_labelShort} had better things to do -->
   <PsychicRitualLeaveReason_LeftVoluntarily>{PAWN_labelShort}有其他事务</PsychicRitualLeaveReason_LeftVoluntarily>
+  <!-- EN: {PAWN_labelShort} is drafted -->
   <PsychicRitualLeaveReason_Drafted>{PAWN_labelShort}已被征召</PsychicRitualLeaveReason_Drafted>
-  <PsychicRitualLeaveReason_InMentalState>{PAWN_labelShort}处于某种精神状态中</PsychicRitualLeaveReason_InMentalState>
+  <!-- EN: {PAWN_labelShort} is in a mental state -->
+  <PsychicRitualLeaveReason_InMentalState>{PAWN_labelShort}正精神崩溃</PsychicRitualLeaveReason_InMentalState>
+  <!-- EN: {PAWN_labelShort} is bleeding -->
   <PsychicRitualLeaveReason_Bleeding>{PAWN_labelShort}正在失血</PsychicRitualLeaveReason_Bleeding>
+  <!-- EN: {PAWN_labelShort} is on fire -->
   <PsychicRitualLeaveReason_Burning>{PAWN_labelShort}着火了</PsychicRitualLeaveReason_Burning>
+  <!-- EN: the temperature near the target is not safe for {PAWN_labelShort} -->
   <PsychicRitualLeaveReason_ExtremeTemperature>目标附近的温度对于{PAWN_labelShort}并不安全</PsychicRitualLeaveReason_ExtremeTemperature>
+  <!-- EN: {PAWN_labelShort} cannot participate from inside {BUILDING} -->
   <PsychicRitualLeaveReason_InsideBuilding>{PAWN_labelShort}在{BUILDING}内部，无法参加</PsychicRitualLeaveReason_InsideBuilding>
+  <!-- EN: {PAWN_labelShort} is humanlike -->
   <PsychicRitualLeaveReason_Humanlike>{PAWN_labelShort}是人型生物</PsychicRitualLeaveReason_Humanlike>
+  <!-- EN: {PAWN_labelShort} is not humanlike -->
   <PsychicRitualLeaveReason_NonHumanlike>{PAWN_labelShort}不是人型生物</PsychicRitualLeaveReason_NonHumanlike>
+  <!-- EN: {PAWN_labelShort} is a prisoner -->
   <PsychicRitualLeaveReason_Prisoner>{PAWN_labelShort}是囚犯</PsychicRitualLeaveReason_Prisoner>
+  <!-- EN: {PAWN_labelShort} is a slave -->
   <PsychicRitualLeaveReason_Slave>{PAWN_labelShort}是奴隶</PsychicRitualLeaveReason_Slave>
+  <!-- EN: {PAWN_labelShort} is free -->
   <PsychicRitualLeaveReason_Freeman>{PAWN_labelShort}是自由的</PsychicRitualLeaveReason_Freeman>
+  <!-- EN: {PAWN_labelShort} is a {STAGE} -->
   <PsychicRitualLeaveReason_DevelopmentalStage>{PAWN_labelShort}是{STAGE}</PsychicRitualLeaveReason_DevelopmentalStage>
+  <!-- EN: {PAWN_labelShort} cannot reach the target location -->
   <PsychicRitualLeaveReason_CannotReachTarget>{PAWN_labelShort}无法抵达目标</PsychicRitualLeaveReason_CannotReachTarget>
+  <!-- EN: {PAWN_labelShort} is asleep -->
   <PsychicRitualLeaveReason_Sleeping>{PAWN_labelShort}睡着了</PsychicRitualLeaveReason_Sleeping>
+  <!-- EN: {PAWN_labelShort} is not a human -->
   <PsychicRitualLeaveReason_Mutant>{PAWN_labelShort}不是人类</PsychicRitualLeaveReason_Mutant>
+  <!-- EN: {PAWN_labelShort}'s belief in {IDEO_name} prevents participation -->
   <PsychicRitualLeaveReason_IdeoUnwilling>{PAWN_labelShort}因信仰{IDEO_name}而无法参加</PsychicRitualLeaveReason_IdeoUnwilling> 
-  <PsychicRitualLeaveReason_NoPsychicSensitivity>{PAWN_labelShort}非灵能敏感</PsychicRitualLeaveReason_NoPsychicSensitivity>
+  <!-- EN: {PAWN_labelShort} is not psychically sensitive -->
+  <PsychicRitualLeaveReason_NoPsychicSensitivity>{PAWN_labelShort}没有心灵敏感度</PsychicRitualLeaveReason_NoPsychicSensitivity>
+  <!-- EN: {PAWN_labelShort} is a temporary faction member -->
   <PsychicRitualLeaveReason_TemporaryFactionMember>{PAWN_labelShort}是派系的临时成员</PsychicRitualLeaveReason_TemporaryFactionMember>
+  <!-- EN: {PAWN_labelShort} has other duties to attend to -->
   <PsychicRitualLeaveReason_PawnBusyWithLord>{PAWN_labelShort}正在从事其他职务</PsychicRitualLeaveReason_PawnBusyWithLord>
+  <!-- EN: {PAWN_labelShort} has other duties to attend to -->
   <PsychicRitualLeaveReason_ForcedByQuest>{PAWN_labelShort}正在从事其他职务</PsychicRitualLeaveReason_ForcedByQuest>
 
   <!-- PsychicRitualToils-->
+  <!-- EN: moving into position -->
   <PsychicRitualToil_Goto_JobReport_Moving>正在就位</PsychicRitualToil_Goto_JobReport_Moving>
+  <!-- EN: waiting for everyone to get into position -->
   <PsychicRitualToil_Goto_JobReport_Waiting>等待他人就位中</PsychicRitualToil_Goto_JobReport_Waiting>
 
+  <!-- EN: {PAWN_labelShort} was unable to find enough {1} -->
   <PsychicRitualToil_GatherOfferings_OfferingUnavailable>{PAWN_labelShort}无法找到足够的{1}</PsychicRitualToil_GatherOfferings_OfferingUnavailable>
+  <!-- EN: gathering offering -->
   <PsychicRitualToil_GatherOfferings_JobReport>正在收集祭品</PsychicRitualToil_GatherOfferings_JobReport>
 
-  <PsychicRitualToil_InvokeHorax_JobReport_Invoker>正在主持灵能仪式</PsychicRitualToil_InvokeHorax_JobReport_Invoker>
-  <PsychicRitualToil_InvokeHorax_JobReport_Chanter>正在为灵能仪式施法</PsychicRitualToil_InvokeHorax_JobReport_Chanter>
-  <PsychicRitualToil_InvokeHorax_JobReport_Target>灵能仪式目标</PsychicRitualToil_InvokeHorax_JobReport_Target>
+  <!-- EN: leading psychic ritual -->
+  <PsychicRitualToil_InvokeHorax_JobReport_Invoker>正在主持心灵仪式</PsychicRitualToil_InvokeHorax_JobReport_Invoker>
+  <!-- EN: channeling power to psychic ritual -->
+  <PsychicRitualToil_InvokeHorax_JobReport_Chanter>正在为心灵仪式施法</PsychicRitualToil_InvokeHorax_JobReport_Chanter>
+  <!-- EN: psychic ritual target -->
+  <PsychicRitualToil_InvokeHorax_JobReport_Target>心灵仪式目标</PsychicRitualToil_InvokeHorax_JobReport_Target>
+  <!-- EN: {0} doesn't have enough {1} -->
   <PsychicRitualToil_InvokeHorax_MissingRequiredOffering>{0}没有足够的{1}</PsychicRitualToil_InvokeHorax_MissingRequiredOffering>
+  <!-- EN: {PAWN_labelShort} is out of position -->
   <PsychicRitualToil_InvokeHorax_PawnIsOutOfPosition>{PAWN_labelShort}已离开位置</PsychicRitualToil_InvokeHorax_PawnIsOutOfPosition>
-  <PsychicRitualToil_InvokeHorax_JobReport_Defender>正在保护灵能仪式</PsychicRitualToil_InvokeHorax_JobReport_Defender> 
+  <!-- EN: defending psychic ritual -->
+  <PsychicRitualToil_InvokeHorax_JobReport_Defender>正在保护心灵仪式</PsychicRitualToil_InvokeHorax_JobReport_Defender> 
 
+  <!-- EN: waiting on -->
   <PsychicRitualToil_GatherForInvocation_Report>正在等待</PsychicRitualToil_GatherForInvocation_Report>
+  <!-- EN: invoking the void -->
   <PsychicRitualToil_InvokeHorax_Report>正在召唤虚空</PsychicRitualToil_InvokeHorax_Report>
 
+  <!-- EN: {TARGET_labelShort} was destroyed -->
   <PsychicRitualDef_TargetDestroyed>{TARGET_labelShort}已被摧毁</PsychicRitualDef_TargetDestroyed>
 
+  <!-- EN: the area around the target site must be clear of obstructions -->
   <PsychicRitualDef_InvocationCircle_AreaMustBeClear>目标地点附近必须无遮挡</PsychicRitualDef_InvocationCircle_AreaMustBeClear>
+  <!-- EN: {PAWN_labelShort}'s psychic sensitivity -->
   <PsychicRitualDef_InvocationCircle_QualityFactor_PsychicSensitivity>{PAWN_labelShort}的心灵敏感度</PsychicRitualDef_InvocationCircle_QualityFactor_PsychicSensitivity>
-  <PsychicRitualDef_InvocationCircle_QualityFactor_PsychicSensitivity_Tooltip>{PAWN_labelShort}与灵能异象的契合程度。</PsychicRitualDef_InvocationCircle_QualityFactor_PsychicSensitivity_Tooltip>
-  <PsychicRitualDef_InvocationCircle_QualityFactor_Increase_Tooltip>这些物品有助于聚集仪式的灵能力量。</PsychicRitualDef_InvocationCircle_QualityFactor_Increase_Tooltip>
-  <PsychicRitualDef_InvocationCircle_QualityFactor_Ideoligion>文化形态偏移度</PsychicRitualDef_InvocationCircle_QualityFactor_Ideoligion>
-  <PsychicRitualDef_InvocationCircle_QualityFactor_Ideoligion_Tooltip>灵能仪式受文化形态的影响大小。</PsychicRitualDef_InvocationCircle_QualityFactor_Ideoligion_Tooltip>
+  <!-- EN: How in-tune {PAWN_labelShort} is with psychic phenomena. -->
+  <PsychicRitualDef_InvocationCircle_QualityFactor_PsychicSensitivity_Tooltip>{PAWN_labelShort}与心灵现象的契合程度。</PsychicRitualDef_InvocationCircle_QualityFactor_PsychicSensitivity_Tooltip>
+  <!-- EN: These objects help focus the psychic power of the ritual. -->
+  <PsychicRitualDef_InvocationCircle_QualityFactor_Increase_Tooltip>这些物品有助于为仪式聚集心灵能量。</PsychicRitualDef_InvocationCircle_QualityFactor_Increase_Tooltip>
+  <!-- EN: Ideoligion offset -->
+  <PsychicRitualDef_InvocationCircle_QualityFactor_Ideoligion>文化影响偏移</PsychicRitualDef_InvocationCircle_QualityFactor_Ideoligion>
+  <!-- EN: How affected the psychic ritual is by ideoligious beliefs. -->
+  <PsychicRitualDef_InvocationCircle_QualityFactor_Ideoligion_Tooltip>文化形态会对心灵仪式产生多大的影响。</PsychicRitualDef_InvocationCircle_QualityFactor_Ideoligion_Tooltip>
 
   <!-- PsychicRitualDef_InvokationCircle messages -->
-  <PsychicRitualDef_InvocationCircle_PsychicRitualBegunMessage>{0}已经开始进行{1}灵能仪式。</PsychicRitualDef_InvocationCircle_PsychicRitualBegunMessage>
-  <PsychicRitualAreaObstructed>灵能仪式区域被遮挡</PsychicRitualAreaObstructed>
+  <!-- EN: {0} has begun performing the {1} psychic ritual. -->
+  <PsychicRitualDef_InvocationCircle_PsychicRitualBegunMessage>{0}已经开始进行{1}心灵仪式。</PsychicRitualDef_InvocationCircle_PsychicRitualBegunMessage>
+  <!-- EN: psychic ritual area is obstructed -->
+  <PsychicRitualAreaObstructed>心灵仪式区域被遮挡</PsychicRitualAreaObstructed>
 
   <!-- Animal summoning -->
-  <NotEnoughAnimals>该生态区动物不足。</NotEnoughAnimals>
+  <!-- EN: Not enough animals in this biome. -->
+  <NotEnoughAnimals>此生态群落缺少足够的动物。</NotEnoughAnimals>
 
   <!-- Shambler summoning -->
-  <NoNearbyShamblers>附近没有蹒跚怪。</NoNearbyShamblers>
+  <!-- EN: No nearby shamblers. -->
+  <NoNearbyShamblers>附近没有活尸。</NoNearbyShamblers>
 
   <!-- Pit gate summoning -->
-  <PitGateAlreadyExists>地图上已经存在一个深坑洞口了。</PitGateAlreadyExists>
+  <!-- EN: There is already a pit gate on the map. -->
+  <PitGateAlreadyExists>当前地图上已经存在一个巨坑了。</PitGateAlreadyExists>
   
   <!-- Chronophagy -->
-  <InvokerTooYoung>发起者最小年龄：{0}。</InvokerTooYoung>
-  <PsychicRitualTargetTooYoung>目标最小年龄：{0}。</PsychicRitualTargetTooYoung>
+  <!-- EN: The invoker must be at least {0} years old. -->
+  <InvokerTooYoung>需要发起者最小年龄：{0}。</InvokerTooYoung>
+  <!-- EN: The target must be at least {0} years old. -->
+  <PsychicRitualTargetTooYoung>需要目标最小年龄：{0}。</PsychicRitualTargetTooYoung>
+  <!-- EN: {INVOKER_labelShort} will become {1} years old, and {TARGET_labelShort} will become {3} years old. -->
   <CronophagyAgeChange>{INVOKER_labelShort}将变为 {1} 岁，{TARGET_labelShort}将变为 {3} 岁。</CronophagyAgeChange>
   
   <!-- Philophagy -->
-  <PhilophagyTransferReport>{INVOKER_labelShort}将从{TARGET_labelShort}那里偷取 {1} {SKILL_label}经验。</PhilophagyTransferReport>
+  <!-- EN: {INVOKER_labelShort} will steal {1} {SKILL_label} XP from {TARGET_labelShort}. -->
+  <PhilophagyTransferReport>{INVOKER_labelShort}将从{TARGET_labelShort}那里汲取{SKILL_label}的{1}点经验。</PhilophagyTransferReport>
+  <!-- EN: {TARGET_labelShort} has no skills to transfer. -->
+  <NoSkillsToTransfer>{TARGET_labelShort}没有可汲取的技能。</NoSkillsToTransfer>
 </LanguageData>

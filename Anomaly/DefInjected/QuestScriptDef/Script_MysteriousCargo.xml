@@ -42,7 +42,7 @@
     <li>questDescription(asker_royalInCurrentFaction==true)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name] has an odd request. [asker_pronoun] demands that you accept some unspecified cargo. When pressed for more details, [asker_pronoun] avoids the question. There is desperation in [asker_possessive] voice.\n\nIf you accept, [asker_nameFull] will deliver the mystery cargo by transport pod.</li>
   -->
   <MysteriousCargoRevenantSpine.questDescriptionRules.rulesStrings>
-    <li>questDescription(askerIsNull==true)->一位匿名的人工智能向你提出了一个古怪的请求。它希望你能够接受一些神秘的货物。但对关于货物的疑问避而不谈。\n\n如果你接受了它的请求，它就会用运输舱将神秘的货物运送到你这里。</li>
+    <li>questDescription(askerIsNull==true)->一位匿名的人工智能向你提出了一个古怪的请求。它希望你能够接受一些神秘的货物。但对关于货物的疑问避而不谈。\n\n如果你接受了这一请求，它就会用运输舱将神秘的货物运送到你这里。</li>
     <li>questDescription(asker_factionLeader==true)->[asker_faction_leaderTitle]来自[asker_faction_name]的[asker_nameFull]向你提了一个古怪的请求。[asker_pronoun]希望你能够接受一些不明货物。当你询问更多细节时，[asker_pronoun]却避而不谈。你能听出[asker_possessive]话语中透露出绝望。\n\n如果你接受了请求，[asker_nameFull]将通过运输舱把货物送达。</li>
     <li>questDescription(asker_royalInCurrentFaction==true)->[asker_nameFull]，[asker_faction_name]的一位[asker_royalTitleInCurrentFaction]，向你提出了一个古怪的请求。[asker_pronoun]要求你接受一批神秘的货物。当你询问更多细节时，[asker_pronoun]却支支吾吾，避而不谈。你能从[asker_possessive]话语中听出绝望。\n\n如果你接受了请求，[asker_nameFull]将会用运输舱把货物送达。</li>
   </MysteriousCargoRevenantSpine.questDescriptionRules.rulesStrings>
@@ -55,8 +55,8 @@
   
   <!-- EN:
     <li>deliveredLetterLabel->Mysterious cargo</li>
-    <li>deliveredLetterText(pawnOnMap==true)->The mysterious cargo has been delivered. It appears to be a human corpse.\n\nOn further inspection, the corpse looks identical to [pawn_nameDef]. Its skin feels waxy and warm to the touch. [pawn_nameDef] is deeply unsettled by its presence.\n\nYou can study the corpse to learn more about it.</li>
-    <li>deliveredLetterText(pawnOnMap==false)->The mysterious cargo has been delivered. It appears to be a human corpse.\n\nOn further inspection, the corpse looks identical to [pawn_nameDef]. Its skin feels waxy and warm to the touch. [pawn_nameDef] will be deeply unsettled by its presence.\n\nYou can study the corpse to learn more about it.</li>
+    <li>deliveredLetterText(pawnOnMap==true)->The mysterious cargo has been delivered. It appears to be a human corpse.\n\nOn further inspection, the corpse looks identical to [pawn_nameDef]. Its skin feels waxy and warm to the touch. [pawn_nameDef] is deeply unsettled by its presence.\n\nStudy the corpse to learn more about it.</li>
+    <li>deliveredLetterText(pawnOnMap==false)->The mysterious cargo has been delivered. It appears to be a human corpse.\n\nOn further inspection, the corpse looks identical to [pawn_nameDef]. Its skin feels waxy and warm to the touch. [pawn_nameDef] will be deeply unsettled by its presence.\n\nStudy the corpse to learn more about it.</li>
   -->
   <MysteriousCargoUnnaturalCorpse.questContentRules.rulesStrings>
     <li>deliveredLetterLabel->神秘货物</li>

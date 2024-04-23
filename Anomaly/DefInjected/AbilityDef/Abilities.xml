@@ -4,7 +4,7 @@
   <!-- EN: agony pulse -->
   <AgonyPulse.label>苦痛脉冲</AgonyPulse.label>
   <!-- EN: Generate a pulse of psychic pain emanating from a target location. -->
-  <AgonyPulse.description>在目标位置释放让人陷入痛苦的灵能脉冲。</AgonyPulse.description>
+  <AgonyPulse.description>在目标位置释放让人陷入痛苦的心灵脉冲。</AgonyPulse.description>
   
   <!-- EN: consume leap -->
   <ConsumeLeap_Devourer.label>吞噬飞扑</ConsumeLeap_Devourer.label>
@@ -14,9 +14,9 @@
   <ConsumeLeap_Devourer.verbProperties.label>吞噬飞扑</ConsumeLeap_Devourer.verbProperties.label>
   
   <!-- EN: corrosive spray -->
-  <CorrosiveSpray.label>腐蚀喷射</CorrosiveSpray.label>
+  <CorrosiveSpray.label>酸液喷吐</CorrosiveSpray.label>
   <!-- EN: Use the corrosive heart to spray acid a short distance. The heart pumps the corrosive fluid through a surgically implanted duct, allowing the ghoul to spew it from their mouth at high velocity. -->
-  <CorrosiveSpray.description>用腐蚀心脏近距离喷射酸液。腐蚀心脏通过手术植入了导管，可泵出腐蚀性酸液，并从食尸鬼的口中高速喷射而出。</CorrosiveSpray.description>
+  <CorrosiveSpray.description>近距离喷射酸液。\n\n植入食尸鬼体内的酸液心脏可泵出具有腐蚀性的酸液，能通过导管输送至口中，再高速喷射而出。</CorrosiveSpray.description>
   
   <!-- EN: entity skip -->
   <EntitySkip.label>实体折跃</EntitySkip.label>
@@ -24,14 +24,14 @@
   <EntitySkip.description>传送至指定地点。</EntitySkip.description>
   
   <!-- EN: fleshmelter bolt -->
-  <FleshmelterBolt.label>血肉熔融弹</FleshmelterBolt.label>
+  <FleshmelterBolt.label>血肉熔弹</FleshmelterBolt.label>
   <!-- EN: Launch a large bolt of energy which generates a high-temperature explosion. -->
   <FleshmelterBolt.description>射出一发重型能量弹，可导致高温爆炸。</FleshmelterBolt.description>
   
   <!-- EN: ghoul frenzy -->
   <GhoulFrenzy.label>食尸鬼狂热</GhoulFrenzy.label>
   <!-- EN: Use the adrenal heart to saturate the bloodstream with stress hormones and liquid energy, permitting the ghoul to move and attack at incredible speeds for a short time. -->
-  <GhoulFrenzy.description>肾上腺心脏使血液中的压力荷尔蒙和液体能量达到饱和，能够让食尸鬼在短时间内以惊人的速度移动和攻击。</GhoulFrenzy.description>
+  <GhoulFrenzy.description>激素心脏可使食尸鬼激素充盈、血脉喷张，短时间内爆发出惊人的移动和攻击能力。</GhoulFrenzy.description>
   
   <!-- EN: heatspikes -->
   <Heatspikes.label>热能棘刺</Heatspikes.label>
@@ -44,26 +44,26 @@
   <MetalbloodInjection.description>通过钢血心脏向血液中释放钢血血清，可在短时间内减少受到的伤害。</MetalbloodInjection.description>
   
   <!-- EN: psychic slaughter -->
-  <PsychicSlaughter.label>灵能宰杀</PsychicSlaughter.label>
+  <PsychicSlaughter.label>心灵宰杀</PsychicSlaughter.label>
   <!-- EN: Use dark psychic power to induce chaotic reconfiguration of flesh. This kills a flesh creature in seconds and converts its body into a pile of twisted flesh. -->
-  <PsychicSlaughter.description>使用暗黑灵能的力量诱发血肉的混乱重组。能在数秒内杀死生物，将其躯体化为一堆扭曲的肉块。</PsychicSlaughter.description>
+  <PsychicSlaughter.description>操纵暗黑心灵能量诱发血肉的混乱重组。能在数秒内杀死生物，将其躯体化为一堆扭曲的肉块。</PsychicSlaughter.description>
   
   <!-- EN: release deadlife dust -->
-  <ReleaseDeadlifeDust.label>释放死灵烟尘</ReleaseDeadlifeDust.label>
+  <ReleaseDeadlifeDust.label>释放死灵尘</ReleaseDeadlifeDust.label>
   <!-- EN: Release a cloud of dust-like substance that will settle on nearby corpses and raise them as shamblers. The shamblers will only attack your enemies. Deadlife dust is made of nano-scale archites that penetrate and reanimate dead tissue at the cellular level. -->
-  <ReleaseDeadlifeDust.description>释放一团烟尘，附着在附近的尸体上，让尸体死而复生成为蹒跚怪。蹒跚怪只会攻击你的敌人。死灵烟尘由纳米微械构成，能够穿透细胞并复活死亡组织。</ReleaseDeadlifeDust.description>
+  <ReleaseDeadlifeDust.description>释放一团死灵尘。死灵尘附着在尸体上后，便会引发混乱而剧烈的反应，使它们重获行动能力。这些活尸只会攻击你的敌人。死灵尘由飘浮在空气中的超凡微械构成，能够穿透细胞并修复坏死的组织。</ReleaseDeadlifeDust.description>
   <!-- EN: release deadlife dust -->
-  <ReleaseDeadlifeDust.verbProperties.label>释放死灵烟尘</ReleaseDeadlifeDust.verbProperties.label>
+  <ReleaseDeadlifeDust.verbProperties.label>释放死灵尘</ReleaseDeadlifeDust.verbProperties.label>
   
   <!-- EN: revenant invisibility -->
-  <RevenantInvisibility.label>幽魂隐身</RevenantInvisibility.label>
+  <RevenantInvisibility.label>幽魂隐形</RevenantInvisibility.label>
   <!-- EN: Use the revenant vertebrae to temporarily turn invisible. The prosthetic manipulates the visual centers of those nearby, letting the user pass unnoticed. -->
-  <RevenantInvisibility.description>使用者可利用幽魂脊椎暂时隐身。假体会操纵附近人的视觉，使其无法被察觉。</RevenantInvisibility.description>
+  <RevenantInvisibility.description>使用者可利用幽魂脊椎暂时隐形。假体会操纵附近人的视觉，使其无法被察觉。</RevenantInvisibility.description>
   
   <!-- EN: shape flesh -->
-  <ShapeFlesh.label>血肉塑形</ShapeFlesh.label>
+  <ShapeFlesh.label>血肉突变</ShapeFlesh.label>
   <!-- EN: Induce a dark archotech to reconfigure a corpse into a horrendous fleshbeast. The fleshbeast will be hostile to all humans, including the one who created it. -->
-  <ShapeFlesh.description>利用暗黑超凡科技将尸体重塑为可怕的血肉兽。血肉兽敌视所有人类，包括它的创造者。</ShapeFlesh.description>
+  <ShapeFlesh.description>利用暗黑超凡科技将尸体突变为可怕的血肉兽。血肉兽敌视所有人类，包括它的创造者。</ShapeFlesh.description>
   
   <!-- EN: spike launch -->
   <SpikeLaunch_Fingerspike.label>骨刺射击</SpikeLaunch_Fingerspike.label>
@@ -83,18 +83,23 @@
   <!-- EN: transmute steel -->
   <TransmuteSteel.label>转化钢铁</TransmuteSteel.label>
   <!-- EN: Reconfigure steel at the atomic level, turning it into a random valuable material. Can target a stack of steel or a steel slag chunk. -->
-  <TransmuteSteel.description>在原子层面重构钢铁，将其转化为随机贵重材料。可对一叠钢铁或钢渣块使用。</TransmuteSteel.description>
+  <TransmuteSteel.description>在原子层面重构钢铁，将其随机转化为有价值的材料。可对钢制建筑、钢制物品、堆在地上的钢铁或钢渣块使用。</TransmuteSteel.description>
   <!-- EN: Must target steel, steel slag chunks, steel buildings, or steel items. -->
   <TransmuteSteel.comps.CompAbilityEffect_Transmute.failedMessage>仅对钢铁、钢渣块、钢制建筑或钢制物品生效。</TransmuteSteel.comps.CompAbilityEffect_Transmute.failedMessage>
+  
+  <!-- EN: entity skip -->
+  <UnnaturalCorpseSkip.label>实体折跃</UnnaturalCorpseSkip.label>
+  <!-- EN: Teleport to a target destination. -->
+  <UnnaturalCorpseSkip.description>将一个目标折跃至指定地点。。</UnnaturalCorpseSkip.description>
   
   <!-- EN: unnatural healing -->
   <UnnaturalHealing.label>异常医术</UnnaturalHealing.label>
   <!-- EN: Use dark psychic influence to heal someone. The process will stop bleeding, restore blood loss, and can even heal significant injuries. However, it may also have unexpected side effects. -->
-  <UnnaturalHealing.description>用暗黑灵能进行治疗。可止血、补充血液，甚至治愈严重创伤。但也可能产生意料之外的副作用。</UnnaturalHealing.description>
+  <UnnaturalHealing.description>操纵暗黑心灵能量进行治疗。可止血、补充血液，甚至治愈严重创伤。但也可能产生意料之外的副作用。</UnnaturalHealing.description>
   
   <!-- EN: void terror -->
   <VoidTerror.label>虚空之惧</VoidTerror.label>
   <!-- EN: Psychically induce terrifying hallucinations, causing a person to flee in terror. -->
-  <VoidTerror.description>通过灵能诱发可怕的幻觉，使人惊恐万分地逃窜。</VoidTerror.description>
+  <VoidTerror.description>操纵心灵能量诱发可怕的幻觉，使人惊恐万分地逃窜。</VoidTerror.description>
   
 </LanguageData>

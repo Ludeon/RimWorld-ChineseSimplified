@@ -2,43 +2,43 @@
 <LanguageData>
   
   <!-- EN: organ decay -->
-  <OrganDecayCreepjoiner.label>器官腐坏</OrganDecayCreepjoiner.label>
+  <OrganDecayCreepjoiner.label>器官衰竭</OrganDecayCreepjoiner.label>
   <!-- EN: An untreatable degenerative disease affecting a single organ. The cause may be bacterial or viral. The illness seems to strike randomly from an unknown natural reservoir; it is not directly contagious between people.\n\nThis organ will slowly lose function before dying completely. Replace it with a bionic or natural organ. -->
-  <OrganDecayCreepjoiner.description>器官出现的退行性病变，无法治愈。也许是细菌或病毒引起的。此疾病造成的损伤随宿主体质有所变化；并无直接人传人现象。\n\n该器官会逐渐丧失各项功能，直至完全衰亡。可用仿生体或自然器官替换。</OrganDecayCreepjoiner.description>
+  <OrganDecayCreepjoiner.description>针对单一器官的退行性疾病，无法通过常规手段治愈。病因可能是细菌或病毒。病原似乎是某处自然水域；它不会在人与人之间直接传染。\n\n此器官会逐渐丧失各项机能，直至完全坏死。可以使用仿生器官或天然器官将其替换掉。</OrganDecayCreepjoiner.description>
   <!-- EN: {PAWN_labelShort}'s {1} was destroyed by organ decay. -->
-  <OrganDecayCreepjoiner.comps.HediffComp_DestroyOrgan.messageText>{PAWN_labelShort}的{1}毁于器官腐坏。</OrganDecayCreepjoiner.comps.HediffComp_DestroyOrgan.messageText>
+  <OrganDecayCreepjoiner.comps.HediffComp_DestroyOrgan.messageText>{PAWN_labelShort}的{1}毁于器官衰竭。</OrganDecayCreepjoiner.comps.HediffComp_DestroyOrgan.messageText>
   <!-- EN: minor -->
-  <OrganDecayCreepjoiner.stages.minor.label>轻度</OrganDecayCreepjoiner.stages.minor.label>
+  <OrganDecayCreepjoiner.stages.minor.label>较轻</OrganDecayCreepjoiner.stages.minor.label>
   <!-- EN: moderate -->
-  <OrganDecayCreepjoiner.stages.moderate.label>中期</OrganDecayCreepjoiner.stages.moderate.label>
+  <OrganDecayCreepjoiner.stages.moderate.label>中等</OrganDecayCreepjoiner.stages.moderate.label>
   <!-- EN: severe -->
-  <OrganDecayCreepjoiner.stages.severe.label>重度</OrganDecayCreepjoiner.stages.severe.label>
+  <OrganDecayCreepjoiner.stages.severe.label>严重</OrganDecayCreepjoiner.stages.severe.label>
   <!-- EN: extreme -->
-  <OrganDecayCreepjoiner.stages.extreme.label>危重</OrganDecayCreepjoiner.stages.extreme.label>
+  <OrganDecayCreepjoiner.stages.extreme.label>极重</OrganDecayCreepjoiner.stages.extreme.label>
   
   <!-- EN: organ decay -->
-  <OrganDecayUndiagnosedCreepjoiner.label>器官腐坏</OrganDecayUndiagnosedCreepjoiner.label>
-  <!-- EN: An untreatable degenerative disease affecting a single organ. The cause may be bacterial or viral. The illness seems to strike randomly from an unknown natural reservoir; it is not directly contagious between people.\n\nThis organ will slowly lose function before dying completely. Replace it with a bionic or natural organ. -->
-  <OrganDecayUndiagnosedCreepjoiner.description>器官出现的退行性病变，无法治愈。也许是细菌或病毒引起的。此疾病造成的损伤随宿主体质有所变化；并无直接人传人现象。\n\n该器官会逐渐丧失各项功能，直至完全衰亡。可用仿生体或自然器官替换。</OrganDecayUndiagnosedCreepjoiner.description>
+  <OrganDecayUndiagnosedCreepjoiner.label>器官衰竭</OrganDecayUndiagnosedCreepjoiner.label>
+  <!-- EN: This person is showing early signs of a severe condition which will cause their organs to rapidly deteriorate. They will begin to display symptoms within a matter of days. -->
+  <OrganDecayUndiagnosedCreepjoiner.description>针对单一器官的退行性疾病，无法通过常规手段治愈。病因可能是细菌或病毒。病原似乎是某处自然水域；它不会在人与人之间直接传染。\n\n此器官会逐渐丧失各项机能，直至完全坏死。可以使用仿生或天然器官将其替换掉。</OrganDecayUndiagnosedCreepjoiner.description>
   <!-- EN: {PAWN_nameDef} is showing early signs of a severe condition which will cause their organs to rapidly deteriorate. {SURGEON_nameDef} can't yet tell exactly what is causing this, but {PAWN_nameDef} will become very ill within the next few days. -->
-  <OrganDecayUndiagnosedCreepjoiner.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>{PAWN_nameDef}已经显出一些器官急剧退化的早期症状。{SURGEON_nameDef}尚不能搞清病因，{PAWN_nameDef}接下来几天内会病得非常厉害。</OrganDecayUndiagnosedCreepjoiner.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>
+  <OrganDecayUndiagnosedCreepjoiner.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>{PAWN_nameDef}显现出了一些器官急剧恶化的早期症状。{SURGEON_nameDef}尚不能搞清病因，{PAWN_nameDef}接下来几天内会病得非常厉害。</OrganDecayUndiagnosedCreepjoiner.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>
   <!-- EN: {PAWN_nameDef} can no longer hide {PAWN_possessive} crippling condition. {PAWN_possessive} body is riddled with rotting organs - {PAWN_pronoun} is little more than a walking corpse. {PAWN_nameDef} has organ decay affecting the following body parts:\n\n{ORGANS}\n\nReplace the organs soon to keep {PAWN_nameDef} healthy. You can use bionic organs or natural ones taken from donors. -->
-  <OrganDecayUndiagnosedCreepjoiner.comps.HediffComp_ReplaceHediff.letterDesc>{PAWN_nameDef}再也隐瞒不了自己的严重病情。{PAWN_pronoun}满身的器官基本都腐坏了——如今简直就是一副行尸走肉。{PAWN_nameDef}受到器官腐坏影响的身体部件有：\n\n{ORGANS}\n\n尽快替换这些器官以保持{PAWN_nameDef}的健康。考虑使用仿生体器官，或是找好心人噶两件来。</OrganDecayUndiagnosedCreepjoiner.comps.HediffComp_ReplaceHediff.letterDesc>
+  <OrganDecayUndiagnosedCreepjoiner.comps.HediffComp_ReplaceHediff.letterDesc>{PAWN_nameDef}已无法再隐瞒自己的严重病情。{PAWN_pronoun}全身的器官几乎腐烂殆尽，如今简直就像是行尸走肉一样。{PAWN_nameDef}受器官衰竭影响的身体部件有：\n\n{ORGANS}\n\n为了{PAWN_nameDef}的健康着想，请尽快替换掉这些器官。可以考虑使用仿生器官，或是取自其他“捐献者”的天然器官。</OrganDecayUndiagnosedCreepjoiner.comps.HediffComp_ReplaceHediff.letterDesc>
   <!-- EN: Organ decay: {PAWN_nameDef} -->
-  <OrganDecayUndiagnosedCreepjoiner.comps.HediffComp_ReplaceHediff.letterLabel>器官腐坏：{PAWN_nameDef}</OrganDecayUndiagnosedCreepjoiner.comps.HediffComp_ReplaceHediff.letterLabel>
+  <OrganDecayUndiagnosedCreepjoiner.comps.HediffComp_ReplaceHediff.letterLabel>器官衰竭：{PAWN_nameDef}</OrganDecayUndiagnosedCreepjoiner.comps.HediffComp_ReplaceHediff.letterLabel>
   <!-- EN: diagnosed -->
   <OrganDecayUndiagnosedCreepjoiner.stages.diagnosed.label>诊断为</OrganDecayUndiagnosedCreepjoiner.stages.diagnosed.label>
   
   <!-- EN: organ decay -->
-  <OrganDecayUndiagnosedDuplicaton.label>器官腐坏</OrganDecayUndiagnosedDuplicaton.label>
-  <!-- EN: An untreatable degenerative disease affecting a single organ. The cause may be bacterial or viral. The illness seems to strike randomly from an unknown natural reservoir; it is not directly contagious between people.\n\nThis organ will slowly lose function before dying completely. Replace it with a bionic or natural organ. -->
-  <OrganDecayUndiagnosedDuplicaton.description>器官出现的退行性病变，无法治愈。也许是细菌或病毒引起的。此疾病造成的损伤随宿主体质有所变化；并无直接人传人现象。\n\n该器官会逐渐丧失各项功能，直至完全衰亡。可用仿生体或自然器官替换。</OrganDecayUndiagnosedDuplicaton.description>
+  <OrganDecayUndiagnosedDuplicaton.label>器官衰竭</OrganDecayUndiagnosedDuplicaton.label>
+  <!-- EN: This person is showing early signs of a severe condition which will cause their organs to rapidly deteriorate. They will begin to display symptoms within a matter of days. -->
+  <OrganDecayUndiagnosedDuplicaton.description>针对单一器官的退行性疾病，无法通过常规手段治愈。病因可能是细菌或病毒。病原似乎是某处自然水域；它不会在人与人之间直接传染。\n\n此器官会逐渐丧失各项机能，直至完全坏死。可以使用仿生或天然器官将其替换掉。</OrganDecayUndiagnosedDuplicaton.description>
   <!-- EN: {PAWN_nameDef} is showing early signs of a severe condition which will cause their organs to rapidly deteriorate. {SURGEON_nameDef} can't yet tell exactly what is causing this, but {PAWN_nameDef} will become very ill within the next few days. -->
-  <OrganDecayUndiagnosedDuplicaton.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>{PAWN_nameDef}已经显出一些器官急剧退化的早期症状。{SURGEON_nameDef}尚不能搞清病因，{PAWN_nameDef}接下来几天内会病得非常厉害。</OrganDecayUndiagnosedDuplicaton.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>
+  <OrganDecayUndiagnosedDuplicaton.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>{PAWN_nameDef}显现出了一些器官急剧恶化的早期症状。{SURGEON_nameDef}尚不能搞清病因，{PAWN_nameDef}接下来几天内会病得非常厉害。</OrganDecayUndiagnosedDuplicaton.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>
   <!-- EN: {PAWN_nameDef} can no longer hide {PAWN_possessive} crippling condition. The duplication process has left {PAWN_possessive} body riddled with rotting organs. {PAWN_nameDef} has organ decay affecting the following body parts:\n\n{ORGANS}\n\nReplace the organs soon to keep {PAWN_nameDef} healthy. You can use bionic organs or natural ones taken from donors. -->
-  <OrganDecayUndiagnosedDuplicaton.comps.HediffComp_ReplaceHediff.letterDesc>{PAWN_nameDef}再也隐瞒不了自己的严重病情。复制过程让{PAWN_pronoun}满身的器官差不多都烂完了。{PAWN_nameDef}受到器官腐坏影响的身体部件有：\n\n{ORGANS}\n\n尽快替换这些器官以保持{PAWN_nameDef}的健康。考虑使用仿生体器官，或是找好心人噶两件来。</OrganDecayUndiagnosedDuplicaton.comps.HediffComp_ReplaceHediff.letterDesc>
+  <OrganDecayUndiagnosedDuplicaton.comps.HediffComp_ReplaceHediff.letterDesc>{PAWN_nameDef}已无法再隐瞒自己的严重病情。复制过程让{PAWN_pronoun}全身的器官几乎腐烂殆尽。{PAWN_nameDef}受器官衰竭影响的身体部件有：\n\n{ORGANS}\n\n为了{PAWN_nameDef}的健康着想，请尽快替换掉这些器官。可以考虑使用仿生器官，或是取自其他“捐献者”的天然器官。</OrganDecayUndiagnosedDuplicaton.comps.HediffComp_ReplaceHediff.letterDesc>
   <!-- EN: Organ decay: {PAWN_nameDef} -->
-  <OrganDecayUndiagnosedDuplicaton.comps.HediffComp_ReplaceHediff.letterLabel>器官腐坏：{PAWN_nameDef}</OrganDecayUndiagnosedDuplicaton.comps.HediffComp_ReplaceHediff.letterLabel>
+  <OrganDecayUndiagnosedDuplicaton.comps.HediffComp_ReplaceHediff.letterLabel>器官衰竭：{PAWN_nameDef}</OrganDecayUndiagnosedDuplicaton.comps.HediffComp_ReplaceHediff.letterLabel>
   <!-- EN: diagnosed -->
   <OrganDecayUndiagnosedDuplicaton.stages.diagnosed.label>诊断为</OrganDecayUndiagnosedDuplicaton.stages.diagnosed.label>
   

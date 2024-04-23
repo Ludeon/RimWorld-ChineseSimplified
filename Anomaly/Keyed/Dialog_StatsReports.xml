@@ -1,44 +1,80 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-  <KnowledgeFromStudy>研究此项可获得的知识</KnowledgeFromStudy>
-  <KnowledgeFromStudyDesc>研究此实体可获得对应的异常点知识。复杂的条目能够解锁更为先进的异常点研究项目。</KnowledgeFromStudyDesc>
-  <Stat_Knowledge>{0}{1}</Stat_Knowledge>
+  <!-- EN: Knowledge gain from study -->
+  <KnowledgeFromStudy>研究可获知识类型</KnowledgeFromStudy>
+  <!-- EN: The type and amount of anomaly knowledge that can be obtained when this entity is studied. More sophisticated entities can unlock more advanced anomaly research projects. -->
+  <KnowledgeFromStudyDesc>研究此实体可获得对应的异象知识。复杂的实体能够解锁更高级的异象研究项目。</KnowledgeFromStudyDesc>
+  <!-- EN: {0} {1} -->
+  <Stat_Knowledge>{0} {1}</Stat_Knowledge>
+  <!-- EN: Study interval -->
   <StudyFrequency>研究间隔</StudyFrequency>
-  <StudyFrequencyDesc>研究该实体不同阶段的间隔。</StudyFrequencyDesc>
+  <!-- EN: The duration between available study periods for this entity. -->
+  <StudyFrequencyDesc>该实体进入可供研究状态的间隔。</StudyFrequencyDesc>
   
+  <!-- EN: Healing -->
   <Stat_Hediff_Regeneration_Name>愈疗</Stat_Hediff_Regeneration_Name>
-  <Stat_Hediff_Regeneration_Desc>每日固定恢复一定量的生命。</Stat_Hediff_Regeneration_Desc>
-  <Stat_Hediff_Regeneration_Stat>{0} 生命/日</Stat_Hediff_Regeneration_Stat>
+  <!-- EN: A flat amount of healing per day. -->
+  <Stat_Hediff_Regeneration_Desc>每天固定恢复一定量的耐久。</Stat_Hediff_Regeneration_Desc>
+  <!-- EN: {0} hp/day -->
+  <Stat_Hediff_Regeneration_Stat>{0}点耐久/天</Stat_Hediff_Regeneration_Stat>
 
-  <Stat_ContainmentStrength_AverageLighting>平均照明</Stat_ContainmentStrength_AverageLighting>
-  <Stat_ContainmentStrength_AverageWallHp>平均墙生命</Stat_ContainmentStrength_AverageWallHp>
-  <Stat_ContainmentStrength_AverageDoorHp>平均门生命</Stat_ContainmentStrength_AverageDoorHp>
+  <!-- EN: Average lighting -->
+  <Stat_ContainmentStrength_AverageLighting>平均亮度</Stat_ContainmentStrength_AverageLighting>
+  <!-- EN: Average wall HP -->
+  <Stat_ContainmentStrength_AverageWallHp>平均墙耐久</Stat_ContainmentStrength_AverageWallHp>
+  <!-- EN: Average door HP -->
+  <Stat_ContainmentStrength_AverageDoorHp>平均门耐久</Stat_ContainmentStrength_AverageDoorHp>
+  <!-- EN: Multiple ({0}) holding platforms -->
   <Stat_ContainmentStrength_OtherHoldingPlatforms>多个（{0}）收容平台</Stat_ContainmentStrength_OtherHoldingPlatforms>
-  <Stat_ContainmentStrength_MapwideOffset>地图范围偏移度</Stat_ContainmentStrength_MapwideOffset>
-  <Stat_ContainmentStrength_DoorForcedOpen>敞门</Stat_ContainmentStrength_DoorForcedOpen>
-  <Stat_ContainmentStrength_NotFullyRoofed>屋顶不全</Stat_ContainmentStrength_NotFullyRoofed>
-  <Stat_ContainmentStrength_Flooring>铺设地板</Stat_ContainmentStrength_Flooring>
-  <Stat_ContainmentStrength_Platform>建造</Stat_ContainmentStrength_Platform>
+  <!-- EN: Map-wide offset -->
+  <Stat_ContainmentStrength_MapwideOffset>地图范围偏移</Stat_ContainmentStrength_MapwideOffset>
+  <!-- EN: door open -->
+  <Stat_ContainmentStrength_DoorForcedOpen>门是开着的</Stat_ContainmentStrength_DoorForcedOpen>
+  <!-- EN: Not fully roofed -->
+  <Stat_ContainmentStrength_NotFullyRoofed>未完全覆盖屋顶</Stat_ContainmentStrength_NotFullyRoofed>
+  <!-- EN: Flooring -->
+  <Stat_ContainmentStrength_Flooring>地板</Stat_ContainmentStrength_Flooring>
+  <!-- EN: Building -->
+  <Stat_ContainmentStrength_Platform>建筑</Stat_ContainmentStrength_Platform>
 
-  <StatsReport_BioferriteGeneration>灵铁生产</StatsReport_BioferriteGeneration>
-  <StatsReport_BioferriteGeneration_Desc>此实体每日产出的灵铁数量。将其捕获至收容平台后，可建造灵铁采集器收获灵铁。</StatsReport_BioferriteGeneration_Desc>
+  <!-- EN: Bioferrite generation -->
+  <StatsReport_BioferriteGeneration>活性铁瓷产出</StatsReport_BioferriteGeneration>
+  <!-- EN: How much bioferrite this entity generates per day. When captured on a holding platform, bioferrite can be gathered from it by building a bioferrite harvester. -->
+  <StatsReport_BioferriteGeneration_Desc>此实体每天产出的活性铁瓷数量。将其捕获至收容平台后，可通过建造活性铁瓷采集器来从它身上收获活性铁瓷。</StatsReport_BioferriteGeneration_Desc>
+  <!-- EN: Multiplier for bioferrite density -->
+  <StatsReport_BioferriteDensityMultiplier>活性铁瓷产出乘数</StatsReport_BioferriteDensityMultiplier>
   
+  <!-- EN: Offering -->
   <StatsReport_Offering>祭品</StatsReport_Offering>
-  <StatsReport_Offering_Desc>执行灵能仪式所需用到的材料。</StatsReport_Offering_Desc>
+  <!-- EN: The ingredients required to perform the psychic ritual. -->
+  <StatsReport_Offering_Desc>执行心灵仪式所需用到的材料。</StatsReport_Offering_Desc>
 
+  <!-- EN: Ritual duration -->
   <StatsReport_RitualDuration>仪式持续时间</StatsReport_RitualDuration>
+  <!-- EN: The time it takes to perform this ritual. -->
   <StatsReport_RitualDuration_Desc>执行仪式所需花费的时间。</StatsReport_RitualDuration_Desc>
 
+  <!-- EN: Cooldown -->
   <StatsReport_RitualCooldown>冷却时间</StatsReport_RitualCooldown>
-  <StatsReport_RitualCooldown_Desc>一场仪式完成后，周遭的灵能环境会有短时间的能量紊乱现象。在此期间，无法再次执行仪式。</StatsReport_RitualCooldown_Desc>
+  <!-- EN: After a ritual is performed, it disrupts ambient psychic energy for a period of time. During this time, the ritual can't be performed again. -->
+  <StatsReport_RitualCooldown_Desc>一场仪式完成后，周遭的环境会出现短时间的心灵能量紊乱现象。在此期间，无法再次执行仪式。</StatsReport_RitualCooldown_Desc>
 
-  <StatsReport_ContainmentStrengthOffset>收容偏移度</StatsReport_ContainmentStrengthOffset>
+  <!-- EN: Containment offset -->
+  <StatsReport_ContainmentStrengthOffset>收容强度偏移</StatsReport_ContainmentStrengthOffset>
+  <!-- EN: How much this affects the ability of a holding platform to constrain an entity. Entities that are better contained are less likely to escape and provide more knowledge when studied. -->
   <StatsReport_ContainmentStrengthOffset_Desc>此数值影响着收容平台对一个实体的约束能力。被严加管束的实体更不容易逃跑，研究时也可获得更多知识。</StatsReport_ContainmentStrengthOffset_Desc>
 
+  <!-- EN: Duration -->
   <StatsReport_SerumDuration>持续时间</StatsReport_SerumDuration>
+  <!-- EN: How long the effects of a serum last. -->
   <StatsReport_SerumDuration_Desc>一剂血清的生效时间。</StatsReport_SerumDuration_Desc>
   
+  <!-- EN: Occupied -->
   <StatsReport_Occupied>已占用</StatsReport_Occupied>
+  <!-- EN: {2} per nearby {BUILDING_label} ({0} / {1}) -->
   <MeditationFocusPerBuilding>附近每个{BUILDING_label} {2}（{0}/{1}）</MeditationFocusPerBuilding>
-  <MeditationFocusPerBuildingAbstract>附近每个{BUILDING_label} {1}（最高 {0}）</MeditationFocusPerBuildingAbstract>\n\n</LanguageData>
+  <!-- EN: {1} per nearby {BUILDING_label} (up to {0}) -->
+  <MeditationFocusPerBuildingAbstract>附近每个{BUILDING_label} {1}（最高 {0}）</MeditationFocusPerBuildingAbstract>
+
+</LanguageData>
