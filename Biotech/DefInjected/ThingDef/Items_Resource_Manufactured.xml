@@ -7,7 +7,7 @@
   <!-- EN: deathrest capacity serum -->
   <DeathrestCapacitySerum.label>死眠扩容血清</DeathrestCapacitySerum.label>
   <!-- EN: A serum that permanently increases the number of deathrest buildings a person can connect to during deathrest.\n\nThe serum can only be ingested by individuals with the deathrest gene. -->
-  <DeathrestCapacitySerum.description>一种可以永久增加一位殖民者在死眠期间可以连接到的死眠建筑的数量的血清。\n\n这种血清只能被已拥有死眠基因的殖民者摄取。</DeathrestCapacitySerum.description>
+  <DeathrestCapacitySerum.description>一种可以永久增加一位殖民者在死眠期间可以连接到的死眠设备的数量的血清。\n\n这种血清只能被已拥有死眠基因的殖民者摄取。</DeathrestCapacitySerum.description>
   <!-- EN: Ingest {0_label} -->
   <DeathrestCapacitySerum.comps.CompUsable.useLabel>摄取{0_label}</DeathrestCapacitySerum.comps.CompUsable.useLabel>
   
@@ -15,11 +15,10 @@
   <NanostructuringChip.label>纳米结构芯片</NanostructuringChip.label>
   <!-- EN: A molecular-restructing mechanoid micro-organ. It is necessary to produce certain advanced mechanoids and equipment.\n\nA mechanitor can study this chip to help unlock higher tiers of mechtech research. -->
   <NanostructuringChip.description>一种用于生产某些先进的装备和机械体的微型纳米重构机械部件。\n\n机械师可以通过调查这种芯片以解锁更高层次的机械研究项目。</NanostructuringChip.description>
-
   <!-- EN: Analyze the nano structuring chip. -->
   <NanostructuringChip.comps.CompAnalyzableUnlockResearch.activateDescString>解析纳米结构芯片。</NanostructuringChip.comps.CompAnalyzableUnlockResearch.activateDescString>
   <!-- EN: Analyze... -->
-  <NanostructuringChip.comps.CompAnalyzableUnlockResearch.activateLabelString>解析中……</NanostructuringChip.comps.CompAnalyzableUnlockResearch.activateLabelString>
+  <NanostructuringChip.comps.CompAnalyzableUnlockResearch.activateLabelString>解析中...</NanostructuringChip.comps.CompAnalyzableUnlockResearch.activateLabelString>
   <!-- EN: By studying the nano structuring chip, {PAWN_labelShort} has acquired the insight needed for the research project(s) {RESEARCH}.\n\nYour researchers can now use research benches to begin researching how to actually use the technology. -->
   <NanostructuringChip.comps.CompAnalyzableUnlockResearch.completedLetter>通过解析{PARENT_label}，{STUDIER_labelShort}获得了研究{research}所必要的知识。\n\n你的研究人员现在可以使用研究工作台开始研究如何实际使用这项技术。</NanostructuringChip.comps.CompAnalyzableUnlockResearch.completedLetter>
   <!-- EN: Nano structuring chip studied: {RESEARCH} unlocked -->
@@ -31,20 +30,18 @@
   <!-- EN: Analyze nano structuring chip -->
   <NanostructuringChip.comps.CompAnalyzableUnlockResearch.jobString>解析纳米结构芯片。</NanostructuringChip.comps.CompAnalyzableUnlockResearch.jobString>
   
-  <!-- EN: By studying the {PARENT_label}, {STUDIER_labelShort} has acquired the insight needed for the research project(s) {RESEARCH}.\n\nYour researchers can now use research benches to begin researching how to actually use the technology. -->
+  <!-- UNUSED -->
   <NanostructuringChip.comps.CompStudiable.completedLetterText>通过调查{PARENT_label}，{STUDIER_labelShort}获得了研究{RESEARCH}所必要的知识。\n\n你的研究人员现在可以使用研究工作台开始研究如何实际使用这项技术。</NanostructuringChip.comps.CompStudiable.completedLetterText>
-  <!-- EN: {PARENT_label} studied: {RESEARCH} unlocked -->
   <NanostructuringChip.comps.CompStudiable.completedLetterTitle>{PARENT_label}通过调查解锁了：{RESEARCH}。</NanostructuringChip.comps.CompStudiable.completedLetterTitle>
   
   <!-- EN: powerfocus chip -->
   <PowerfocusChip.label>能量汇聚芯片</PowerfocusChip.label>
   <!-- EN: An energy-focusing mechanoid micro-organ. It is necessary to produce certain advanced types of mechanoids and equipment.\n\nA mechanitor can study this chip to help unlock higher tiers of mechtech research. -->
   <PowerfocusChip.description>一种用于生产某些先进的装备和机械体的微型能量汇聚机械部件。\n\n机械师可以通过调查这种芯片以解锁更高层次的机械研究项目。</PowerfocusChip.description>
-
   <!-- EN: Analyze the powerfocus chip. -->
   <PowerfocusChip.comps.CompAnalyzableUnlockResearch.activateDescString>解析能量汇聚芯片。</PowerfocusChip.comps.CompAnalyzableUnlockResearch.activateDescString>
   <!-- EN: Analyze... -->
-  <PowerfocusChip.comps.CompAnalyzableUnlockResearch.activateLabelString>解析中……</PowerfocusChip.comps.CompAnalyzableUnlockResearch.activateLabelString>
+  <PowerfocusChip.comps.CompAnalyzableUnlockResearch.activateLabelString>解析中...</PowerfocusChip.comps.CompAnalyzableUnlockResearch.activateLabelString>
   <!-- EN: By studying the powerfocus chip, {PAWN_labelShort} has acquired the insight needed for the research project(s) {RESEARCH}.\n\nYour researchers can now use research benches to begin researching how to actually use the technology. -->
   <PowerfocusChip.comps.CompAnalyzableUnlockResearch.completedLetter>通过解析{PARENT_label}，{STUDIER_labelShort}获得了研究{research}所必要的知识。\n\n你的研究人员现在可以使用研究工作台开始研究如何实际使用这项技术。</PowerfocusChip.comps.CompAnalyzableUnlockResearch.completedLetter>
   <!-- EN: Powerfocus chip studied: {RESEARCH} unlocked -->
@@ -56,9 +53,8 @@
   <!-- EN: Analyze powerfocus chip -->
   <PowerfocusChip.comps.CompAnalyzableUnlockResearch.jobString>解析能量汇聚芯片。</PowerfocusChip.comps.CompAnalyzableUnlockResearch.jobString>
   
-  <!-- EN: By studying the {PARENT_label}, {STUDIER_labelShort} has acquired the insight needed for the research project(s) {RESEARCH}.\n\nYour researchers can now use research benches to begin researching how to actually use the technology. -->
+  <!-- UNUSED -->
   <PowerfocusChip.comps.CompStudiable.completedLetterText>通过调查{PARENT_label}，{STUDIER_labelShort}获得了研究{RESEARCH}所必要的知识。\n\n你的研究人员现在可以使用研究工作台开始研究如何实际使用这项技术。</PowerfocusChip.comps.CompStudiable.completedLetterText>
-  <!-- EN: {PARENT_label} studied: {RESEARCH} unlocked -->
   <PowerfocusChip.comps.CompStudiable.completedLetterTitle>{PARENT_label}通过调查解锁了：{RESEARCH}。</PowerfocusChip.comps.CompStudiable.completedLetterTitle>
   
   <!-- EN: tox shell -->
@@ -76,7 +72,6 @@
   <SignalChip.label>同步信号芯片</SignalChip.label>
   <!-- EN: A mechanoid-band synchronization micro-organ. It is necessary to produce certain advanced types of mechanoids and equipment.\n\nA mechanitor can study this chip to help unlock higher tiers of mechtech research. -->
   <SignalChip.description>一种用于生产某些先进的装备和机械体的微型同步信号处理机械部件。\n\n机械师可以通过调查这种芯片以解锁更高层次的机械研究项目。</SignalChip.description>
-
   <!-- EN: Analyze the signal chip. -->
   <SignalChip.comps.CompAnalyzableUnlockResearch.activateDescString>解析同步信号芯片。</SignalChip.comps.CompAnalyzableUnlockResearch.activateDescString>
   <!-- EN: Analyze... -->
@@ -92,25 +87,24 @@
   <!-- EN: Analyze signal chip -->
   <SignalChip.comps.CompAnalyzableUnlockResearch.jobString>解析同步信号芯片。</SignalChip.comps.CompAnalyzableUnlockResearch.jobString>
   
-  <!-- EN: By studying the {PARENT_label}, {STUDIER_labelShort} has acquired the insight needed for the research project(s) {RESEARCH}.\n\nYour researchers can now use research benches to begin researching how to actually use the technology. -->
+  <!-- UNUSED -->
   <SignalChip.comps.CompStudiable.completedLetterText>通过调查{PARENT_label}，{STUDIER_labelShort}获得了研究{RESEARCH}所必要的知识。\n\n你的研究人员现在可以使用研究工作台开始研究如何实际使用这项技术。</SignalChip.comps.CompStudiable.completedLetterText>
-  <!-- EN: {PARENT_label} studied: {RESEARCH} unlocked -->
   <SignalChip.comps.CompStudiable.completedLetterTitle>{PARENT_label}通过调查解锁了：{RESEARCH}。</SignalChip.comps.CompStudiable.completedLetterTitle>
   
   <!-- EN: basic subcore -->
   <SubcoreBasic.label>次生核心（基础）</SubcoreBasic.label>
   <!-- EN: The simplest possible mechanoid brain, this is a tiny psychodynamic substrate unit housing a dull subpersona. Since this is only a basic-tier subcore, it can only drive the simplest of mechanoids.\n\nLike all mechanoid subcores, it contains a subpersona with a psychic presence, albeit a very faint one. -->
-  <SubcoreBasic.description>最简单的机械体仿生大脑，这是一个具备心理动力的微型基底单元，承载着一个迟钝的次级人格。既然这只是最基本的次生核心，它只能驱动最简单的机械体。\n\n就像所有机械体次生核心一样，它承载着一个拥有心灵存在的次级人格，尽管其中的心灵存在是相当模糊的。</SubcoreBasic.description>
+  <SubcoreBasic.description>最基础的机械体仿生大脑，同时也是一个具备心理动力的微型基底单元，承载着一个迟钝的次级人格。既然这种次生核心最为基础，当然也只能驱动最简单的机械体。\n\n就像所有的机械体次生核心一样，它承载着一个具有心灵源力的次级人格，尽管这股心灵源力相当微弱。</SubcoreBasic.description>
   
   <!-- EN: high subcore -->
   <SubcoreHigh.label>次生核心（高级）</SubcoreHigh.label>
   <!-- EN: A high-tier mechanoid brain, this is a psychodynamic substrate unit which supports a sophisticated subpersona. This particular subcore is of the strongest tier, and can power complex ultra-heavy mechanoids.\n\nThe subpersona inside this core approaches a live human in its complexity, though it is of a very different nature. Like any such mind, it has a noticeable psychic presence.\n\nThis subcore could only have been produced by rich pattern transfer from another sophisticated mind. The only way to do this without huge facilities is to ripscan a living person's brain, killing them in the process. -->
-  <SubcoreHigh.description>一个高级别的机械体仿生大脑，这是一个具备心理动力的基底单元，支持着一个精密的次级人格。这种次生核心作为最强大的一阶能够驱动复杂的超重型机械体。\n\n在复杂度上，这个核心内部的次级人格已经接近人脑，尽管两者的工作原理截然不同。就像任何如此复杂的意识一样，它拥有显著的心灵存在。\n\n这类次生核心只能通过对另一个同等精密的意识体进行完备性脑模式转印得到。没有巨大的基础设施支持下，唯一一种得到此类核心的方式是破坏性扫描一个活人的大脑，并在过程中杀死被扫描者。</SubcoreHigh.description>
+  <SubcoreHigh.description>高级别的机械体仿生大脑，同时也是一个具备心理动力的基底单元，承载着一个精密的次级人格。这种次生核心强大到足以驱动复杂的超重型机械体。\n\n在精密程度上，这个次生核心内部的次级人格已与活人相仿，尽管两者的工作原理截然不同。就像任何如此复杂的意识一样，它也具有显著的心灵源力。\n\n这种次生核心只能通过对另一个同等精密的意识体进行完备性脑模式转印得到。如果没有巨大的基础设施支持，得到这种核心的唯一方式就是破坏性扫描一个活人的大脑，而这也会杀死被扫描者。</SubcoreHigh.description>
   
   <!-- EN: standard subcore -->
   <SubcoreRegular.label>次生核心（标准）</SubcoreRegular.label>
   <!-- EN: A standard-tier mechanoid brain, this is a psychodynamic substrate unit supporting a thinking subpersona. This particular subcore is strong enough to drive standard-tier mechanoids.\n\nMechanoids are more than robots, and this is more than a silicon computer. Its thinking, psychically-present subpersona makes it more adaptable than silicon systems. However, this also means it can only be produced by analog pattern transfer from another thinking mind. -->
-  <SubcoreRegular.description>一个标准级别的机械体仿生大脑，这是一个具备心理动力的基底单元，支持着一个足以思考的次级人格。这类次生核心足够驱动标准等级的机械体。\n\n机械体不只是简单的机器，这种核心也不只是一个硅处理器。它的思考能力和心灵存在使其比任何硅基系统更具适应性。然而，这也意味着它只能够通过模拟性脑模式转印从另一个思考的意识得来。</SubcoreRegular.description>
+  <SubcoreRegular.description>标准级别的机械体仿生大脑，同时也是一个具备心理动力的基底单元，承载着一个足以思考的次级人格。这种次生核心足以驱动标准级别的机械体。\n\n机械体并非单纯的机器人，这种核心也不仅只是硅基处理器。它的思考能力和心灵源力使其比任何硅基系统更具适应性。然而，这也意味着它只能够通过模拟性脑模式转印从另一个意识体那里得来。</SubcoreRegular.description>
   
   <!-- EN: toxic wastepack -->
   <Wastepack.label>有毒垃圾</Wastepack.label>

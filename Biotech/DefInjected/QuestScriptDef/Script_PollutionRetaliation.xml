@@ -14,8 +14,8 @@
     <li>retaliationLetterLabel(senderIsNull==False)->[sender_faction_pawnSingular] 有毒垃圾报复</li>
     <li>retaliationLetterLabel(senderIsNull==False,sender_royalInCurrentFaction==False)->[sender_nameDef]的有毒垃圾报复</li>
     <li>retaliationLetterText(senderIsNull==True)->你在地图外倾倒有毒垃圾的行为并没有被忽视。被激怒的邻居们正在进行报复，用装满有毒垃圾的运输舱轰炸你的定居点。\n\n如果不保持冻结，有毒垃圾会随着时间的推移而溶解，污染附近的地形。</li>
-    <li>retaliationLetterText(sender_factionLeader==True)->[sender_faction_name]的[sender_faction_leaderTitle] [sender_nameFull] 声称你不顾一切地在地图外倾倒有毒垃圾， 损害了[sender_possessive]派系。 为了报复，[sender_pronoun]正在使用装满有毒垃圾的运输舱轰炸你。\n\n如果不保持冻结，有毒垃圾会随着时间的推移而溶解，污染附近的地形。</li>
-    <li>retaliationLetterText(sender_royalInCurrentFaction==True)->[sender_faction_name]的[sender_faction_leaderTitle] [sender_nameFull] 声称你不顾一切地在地图外倾倒有毒废物， 伤害了[sender_possessive]派系， 而[sender_pronoun]认为[sender_pronoun]有义务进行报复。[sender_pronoun]正在使用装满有毒垃圾的运输舱轰炸你。\n\n如果不保持冻结，有毒垃圾会随着时间的推移而溶解，污染附近的地形。</li>
+    <li>retaliationLetterText(sender_factionLeader==True)->[sender_faction_name]的[sender_faction_leaderTitle] [sender_nameFull] 声称你不顾一切地在地图外倾倒有毒垃圾，损害了[sender_possessive]派系。为了报复，[sender_pronoun]正在使用装满有毒垃圾的运输舱轰炸你。\n\n如果不保持冻结，有毒垃圾会随着时间的推移而溶解，污染附近的地形。</li>
+    <li>retaliationLetterText(sender_royalInCurrentFaction==True)->[sender_faction_name]的[sender_faction_leaderTitle] [sender_nameFull] 声称你不顾一切地在地图外倾倒有毒垃圾，伤害了[sender_possessive]派系，而[sender_pronoun]认为自己有义务发起报复。[sender_pronoun]正在使用装满有毒垃圾的运输舱轰炸你。\n\n如果不保持冻结，有毒垃圾会随着时间的推移而溶解，污染附近的地形。</li>
   </PollutionRetaliation.questContentRules.rulesStrings>
   <!-- EN:
     <li>questDescription->pollutionretaliation</li>

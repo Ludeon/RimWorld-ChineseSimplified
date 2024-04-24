@@ -20,7 +20,7 @@
   <!-- EN: Xenogerms can only be implanted into colonists, prisoners, and slaves. -->
   <MessageCanOnlyTargetColonistsPrisonersAndSlaves>异种胚芽只能植入殖民者、囚犯和奴隶体内。</MessageCanOnlyTargetColonistsPrisonersAndSlaves>
   <!-- EN: Cannot implant in temporary faction members. -->
-  <MessageCannotImplantInTempFactionMembers>派系的临时人员不能植入。</MessageCannotImplantInTempFactionMembers>
+  <MessageCannotImplantInTempFactionMembers>不能为派系的临时成员植入。</MessageCannotImplantInTempFactionMembers>
   <!-- EN: A xenogerm has been completed. -->
   <MessageXenogermCompleted>一枚异种胚芽已经组装完成。</MessageXenogermCompleted>
   <!-- EN: Work on the xenogerm at {0_labelShort} was cancelled: Missing required genepack. -->
@@ -30,7 +30,7 @@
   <!-- EN: {ABILITY_label} can only be used on colonists, prisoners, and slaves. -->
   <MessageCannotUseOnOtherFactions>{ABILITY_label}只能用于殖民者、囚犯和奴隶。</MessageCannotUseOnOtherFactions>
   <!-- EN: {0_labelShort} refuses to become a disliked xenotype. -->
-  <MessageCannotBecomeNonPreferredXenotype>{0_labelShort}拒绝成为非推崇的异种人。</MessageCannotBecomeNonPreferredXenotype>
+  <MessageCannotBecomeNonPreferredXenotype>{0_labelShort}拒绝成为被反感的异种人。</MessageCannotBecomeNonPreferredXenotype>
 
   <!-- EN: Auto-adding {MECH_nameDef} to the caravan, since it is escorting {OVERSEER_nameDef} -->
   <MessageCaravanAddingEscortingMech>自动向远行队添加{MECH_nameDef}，因为它正在护卫{OVERSEER_nameDef}</MessageCaravanAddingEscortingMech> 
@@ -38,10 +38,10 @@
   <MessageCaravanRemovingEscortingMech>自动从远行队移除{MECH_nameDef}，因为它正在护卫{OVERSEER_nameDef}</MessageCaravanRemovingEscortingMech>
 
   <!-- EN: {0} was a mechanitor. You can remove {0_possessive} {1_label} and use it on a colonist. -->
-  <MessageMechanitorCasketOpened>{0}是一个机械师。你可以提取{0_possessive}{1_label}并将其用于殖民者。</MessageMechanitorCasketOpened>
+  <MessageMechanitorCasketOpened>{0}是一名机械师。你可以提取{0_possessive}{1_label}并将其用于殖民者。</MessageMechanitorCasketOpened>
   
   <!-- EN: Some prisoners' interaction mode required a bloodfeeder. Since the last bloodfeeder is gone, their interaction modes have reset to "No interaction". -->
-  <MessageNoBloodfeedersPrisonerInteractionReset>有些囚犯的互动模式需要汲血。由于最后一个汲血者消失了，他们的交互模式重置为“无交互”。</MessageNoBloodfeedersPrisonerInteractionReset>
+  <MessageNoBloodfeedersPrisonerInteractionReset>有些囚犯的交互模式需要汲血者。由于殖民地里已经没有汲血者，他们的交互模式被重置为“维持生命”。</MessageNoBloodfeedersPrisonerInteractionReset>
 
   <!-- EN: {PAWN_nameDef}'s pregnancy was successfully terminated. -->
   <MessagePregnancyTerminated>{PAWN_nameDef}的妊娠圆满结束。</MessagePregnancyTerminated>
@@ -60,9 +60,9 @@
   <!-- EN: Pollution has increased by {0} at {1}. -->
   <MessageWorldTilePollutionChanged>{1}处的污染增加了{0}。</MessageWorldTilePollutionChanged>
   <!-- EN: A cocoon has been disturbed and is opening! -->
-  <MessageCocoonDisturbed>一个虫茧被扰动了，它正在破茧!</MessageCocoonDisturbed>
+  <MessageCocoonDisturbed>一个茧被扰动了，其内部的虫族正在爬出！</MessageCocoonDisturbed>
   <!-- EN: Cocoons have been disturbed and are opening! -->
-  <MessageCocoonDisturbedPlural>虫茧被扰动了，它们正在破茧！</MessageCocoonDisturbedPlural>
+  <MessageCocoonDisturbedPlural>一些茧被扰动了，其内部的虫族正在爬出！</MessageCocoonDisturbedPlural>
   <!-- EN: {0} has rotted due to polluted terrain. -->
   <MessagePlantDiedOfRot_PollutedTerrain>{0}因受污染的地形而枯萎腐烂了。</MessagePlantDiedOfRot_PollutedTerrain>
 
@@ -94,17 +94,17 @@
   <!-- EN: Xenotype name cannot be empty. -->
   <XenotypeNameCannotBeEmpty>异种人名称不能为空。</XenotypeNameCannotBeEmpty>
   <!-- EN: {0} lacks a prerequisite gene -->
-  <MessageGeneMissingPrerequisite>{0}缺乏先决条件基因</MessageGeneMissingPrerequisite>
+  <MessageGeneMissingPrerequisite>{0}缺少前置基因</MessageGeneMissingPrerequisite>
 
   <!-- EN: {PAWN_nameDef}'s deathrest capacity has increased from {OLD} to {NEW}. -->
   <MessageDeathrestCapacityChanged>{PAWN_nameDef}的死眠容量从{OLD}增加到{NEW}。</MessageDeathrestCapacityChanged>
 
   <!-- EN: The sanguophages will arrive in a few hours for their meeting. -->
-  <SanguophagesArrivingSoon>血族将会在数小时后抵达并开始他们的会面。</SanguophagesArrivingSoon>
+  <SanguophagesArrivingSoon>血族们将会在数小时后抵达，并开始举行会面。</SanguophagesArrivingSoon>
   <!-- EN: The sanguophages have begun their meeting. -->
-  <SanguophagesBegunMeeting>血族开始了他们的会面。</SanguophagesBegunMeeting>
+  <SanguophagesBegunMeeting>血族们已开始举行会面。</SanguophagesBegunMeeting>
   <!-- EN: The sanguophages are leaving due to life-threatening temperature. -->
-  <SanguophagesLeavingTemperature>血族由于致命的温度正离开地图。</SanguophagesLeavingTemperature>
+  <SanguophagesLeavingTemperature>由于温度危险，血族们正准备离开地图。</SanguophagesLeavingTemperature>
 
   <!-- EN: {PAWN_nameDef} was woken from {PAWN_possessive} deathrest due to sunlight exposure. -->
   <MessagePawnWokenFromSunlight>{PAWN_nameDef}因阳光照射从{PAWN_possessive}死眠中醒来。</MessagePawnWokenFromSunlight>
@@ -112,7 +112,7 @@
   <MessageBedExposedToSunlight>{BED_labelShort}{PAWN_nameDef}被分配用于死眠的地点已经暴露在阳光下。{PAWN_nameDef}不能在那里死眠。</MessageBedExposedToSunlight>
 
   <!-- EN: {PAWN_labelShort} was ejected from a gene extractor due to lack of power. -->
-  <GeneExtractorNoPowerEjectedMessage>{PAWN_labelShort}因基因提取器断电被弹出。</GeneExtractorNoPowerEjectedMessage>
+  <GeneExtractorNoPowerEjectedMessage>{PAWN_labelShort}因基因提取器断电而被弹出。</GeneExtractorNoPowerEjectedMessage>
 
   <!-- Mechanitor -->
   <!-- EN: {PAWN_nameDef}'s brain has been destroyed by the subcore ripscanner. -->
@@ -128,14 +128,14 @@
 
   <!-- Childcare -->
   <!-- EN: {FEEDER_labelShort} cannot perform childcare tasks. -->
-  <MessageChildcareDisabled>{FEEDER_labelShort}不能执行儿童保育的任务。</MessageChildcareDisabled>
+  <MessageChildcareDisabled>{FEEDER_labelShort}无法从事“保育”工作。</MessageChildcareDisabled>
   <!-- EN: {FEEDER_labelShort} is not assigned to do childcare tasks. -->
-  <MessageChildcareNotAssigned>{FEEDER_labelShort}未分配儿童保育的任务。</MessageChildcareNotAssigned>
+  <MessageChildcareNotAssigned>{FEEDER_labelShort}未被分配“保育”工作。</MessageChildcareNotAssigned>
 
   <!-- EN: You already have the maximum number of custom xenotypes. You must delete some if you wish to create more. -->
-  <MessageTooManyCustomXenotypes>您已经拥有最大数量的自定义异种人。如果要创建更多内容，则必须删除一些。</MessageTooManyCustomXenotypes>
+  <MessageTooManyCustomXenotypes>你保存的自定义异种人已达数量上限。如果想要创建更多，就必须删除一些。</MessageTooManyCustomXenotypes>
   <!-- EN: Cannot save xenotype with multiple conflicting genes. -->
-  <MessageConflictingGenesPresent>无法保存具有多个冲突基因的异种。</MessageConflictingGenesPresent>
+  <MessageConflictingGenesPresent>无法保存异种人：具有多个冲突基因。</MessageConflictingGenesPresent>
 
   <!-- EN: {BUILDING_labelShort} has been bound to {PAWN_nameDef} ({CUR}/{MAX} deathrest capacity). -->
   <MessageDeathrestBuildingBound>{BUILDING_labelShort}已绑定{PAWN_nameDef}(死眠容量{CUR}/{MAX})。</MessageDeathrestBuildingBound>

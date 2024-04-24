@@ -5,11 +5,11 @@
   <!-- EN: Mech(s) gone feral -->
   <LetterLabelMechsFeral>机械体离线</LetterLabelMechsFeral>
   <!-- EN: Some mech(s) which were wandering without an overseer have linked with ancient planet-wide mech control signals. They have joined {0} and become hostile, and appear to be trying to fight their way off the map.\n\nFeral mechanoids cannot be resurrected at a gestator when killed.\n\nThese mechs are involved:\n\n{1} -->
-  <LetterMechsFeral>一些没有监管者的机械体已经脱离掌控并与古老的星球范围内的机械体控制信号取得联系。他们已经加入了{0}，并变得充满敌意，似乎正试图由此开始开辟自己的道路。\n\n离线的机械体被杀死之后无法在培育器内复生。\n\n涉及到这些机械体：\n\n{1}</LetterMechsFeral>
+  <LetterMechsFeral>一些没有监管者的机械体已经脱离掌控，并自动与遍及整个星球的远古机械控制信号建立了链接。它们已经加入了{0}，并变得充满敌意。它们正试图离开当前地图。\n\n即使杀死了离线的机械体，也无法在机械培育器内复活它们。\n\n以下机械体已离线：\n\n{1}</LetterMechsFeral>
   <!-- EN: Mechlink installed -->
-  <LetterLabelMechlinkInstalled>已安装机控中枢</LetterLabelMechlinkInstalled>
+  <LetterLabelMechlinkInstalled>已植入机控中枢</LetterLabelMechlinkInstalled>
   <!-- EN: {PAWN_labelShort} has installed a mechlink! {PAWN_pronoun} is now a mechanitor and can create and control mechanoids.\n\nResearch basic mechtech to get started.\n\n(*SectionTitle)Creating mechs:(/SectionTitle) Your mechanitor can create mechs at a production building called a mech gestator.\n\n(*SectionTitle)About bandwidth:(/SectionTitle) Mechanitors can control as many mechs as their total bandwidth allows. Select {PAWN_labelShort} and look at {PAWN_possessive} 'Bandwidth' readout to see how much bandwidth {PAWN_pronoun} is currently using and how much {PAWN_pronoun} has available. Bandwidth can be increased with certain apparel and by building band node buildings.\n\n(*SectionTitle)About control groups:(/SectionTitle) Mechanitors control mechs in groups. Each control group can be set to one of these modes:\n\n- Work\n- Escort\n- Recharge\n- Dormant self-charge\n\nTo learn more about what each mode does, select the work mode icon on one of {PAWN_labelShort}'s control groups and hover over the different work orders. The maximum number of control groups can be increased with apparel and implants.\n\n(*SectionTitle)About threat calling:(/SectionTitle) Mechanitors can signal ancient leader mechs to attack in order to obtain rare items from them. You must do this to improve your mechanitor past certain limits, but beware the danger. -->
-  <LetterMechlinkInstalled>{PAWN_labelShort}已经安装了机控中枢！{PAWN_pronoun}现在是一位机械师，可以制造和控制机械体。\n\n研究基础机械科技以开启机械师之路。\n\n(*SectionTitle)制造机械体：(/SectionTitle)你的机械师可以在名为机械培育器的生产建筑中制造机械体。\n\n(*SectionTitle)关于带宽：(/SectionTitle)机械师可以在其总带宽允许范围内控制尽可能多的机械体。选中{PAWN_labelShort}并查看{PAWN_possessive}“带宽”指示器以了解{PAWN_pronoun}当前已用带宽和剩余带宽。带宽可以通过某些装备和频带节点来增加。\n\n(*SectionTitle)关于控制组：(/SectionTitle)机械师以组为单位控制机械体，每个控制组都可以被设置为这些行动模式之一：\n\n-工作\n-护卫\n-充电\n-休眠（自机充电）\n\n要了解每种模式的作用，请选择{PAWN_labelShort}的一个控制组上的行动模式图标，并在不同的行动指令上徘徊。控制组的最大数量可以通过装备和植入物来增加。\n\n(*SectionTitle)关于威胁召唤：(/SectionTitle)机械师可以向远古指挥官机械体发出攻击诱导信号，以便从它们那里获得稀有物品。为了让你的机械师突破某些限制，你必须这样做，但要注意危险。</LetterMechlinkInstalled>
+  <LetterMechlinkInstalled>{PAWN_labelShort}已经植入了机控中枢！{PAWN_pronoun}现在是一名机械师，可以培育和控制机械体。\n\n研究基础机械科技以开启机械师之路。\n\n(*SectionTitle)培育机械体：(/SectionTitle)你的机械师可以在名为机械培育器的生产设备中培育机械体。\n\n(*SectionTitle)关于带宽：(/SectionTitle)机械师可以在其总带宽允许范围内控制尽可能多的机械体。选中{PAWN_labelShort}并查看{PAWN_possessive}“带宽”指示器以了解{PAWN_pronoun}当前已用带宽和剩余带宽。带宽可以通过某些装备和频带节点来增加。\n\n(*SectionTitle)关于控制组：(/SectionTitle)机械师以组为单位控制机械体，每个控制组都可以被设置为这些行动模式之一：\n\n-工作\n-护卫\n-充电\n-休眠（自机充电）\n\n要了解每种模式的作用，请选择{PAWN_labelShort}的一个控制组上的行动模式图标，并在不同的行动指令上徘徊。控制组的最大数量可以通过装备和植入物来增加。\n\n(*SectionTitle)关于威胁召唤：(/SectionTitle)机械师可以向远古指挥官机械体发出攻击诱导信号，以便从它们那里获得稀有物品。为了让你的机械师突破某些限制，你必须这样做，但要注意危险。</LetterMechlinkInstalled>
 
   <!-- EN: This happened because of -->
   <MentalStateReason_Gene>这是因为基因</MentalStateReason_Gene>
@@ -17,27 +17,27 @@
   <!-- EN: {0} summoned -->
   <LetterLabelBossgroupSummoned>已召唤{0}</LetterLabelBossgroupSummoned>
   <!-- EN: Attracted by your mech-band signals, an ultra-heavy mech from {0} will arrive soon. Be prepared. -->
-  <LetterBossgroupSummoned>被你的机械波段信号所吸引，来自{0}的超重型机械将很快抵达，请做好准备。</LetterBossgroupSummoned>
+  <LetterBossgroupSummoned>你的机械师发出的脉冲信号吸引了一个来自{0}的指挥官机械体。它很快就会带着护卫队抵达这里，请做好迎战的准备。</LetterBossgroupSummoned>
 
   <!-- EN: {0} arrived -->
   <LetterLabelBossgroupArrived>{0}已抵达</LetterLabelBossgroupArrived>
   <!-- EN: An ultra-heavy mech from {0} has come to eradicate you, along with escorts.\n\n{1}\n\nThe assault group is composed of the following {3}:\n\n{4}\n\nThey will prepare for a while before attacking. -->
-  <LetterBossgroupArrived>来自{0}的超重型指挥官机械体及其护卫队前来铲除你。\n\n{1}\n\n这支机械体突击队的构成如下{3}：\n\n{4}\n\n它们在进攻前会准备一段时间。</LetterBossgroupArrived>
+  <LetterBossgroupArrived>来自{0}的指挥官机械体及其护卫队已抵达此处，它们将会铲除你的殖民地。\n\n{1}\n\n这支机械体突击队的构成如下{3}：\n\n{4}\n\n它们在进攻前会准备一段时间。</LetterBossgroupArrived>
 
   <!-- EN: Summon {LEADER_label} available -->
-  <LetterLabelCommsConsoleSpawned>召唤{LEADER_label}可用</LetterLabelCommsConsoleSpawned>
+  <LetterLabelCommsConsoleSpawned>可以召唤{LEADER_label}</LetterLabelCommsConsoleSpawned>
   <!-- EN: A mechanitor can use the {PARENT_label} to summon a dangerous and hostile {LEADER_label} mechanoid. Be prepared, {LEADER_label} mechanoids are extremely powerful.\n\nIf you defeat the {LEADER_label}, it will drop the following items:\n\n{REWARDSLIST} -->
-  <LetterCommsConsoleSpawned>机械师可以使用{PARENT_label}来召唤危险的敌对{LEADER_label}。做好准备，{LEADER_label}机械体非常强力。\n\n如果你击败了{LEADER_label}，它将会掉落以下物品：\n\n{REWARDSLIST}</LetterCommsConsoleSpawned>
+  <LetterCommsConsoleSpawned>机械师可以使用{PARENT_label}来召唤危险且敌对的指挥官机械体：{LEADER_label}。做好准备，{LEADER_label}是非常强大的对手。\n\n如果你击败了{LEADER_label}，它将会掉落以下物品：\n\n{REWARDSLIST}</LetterCommsConsoleSpawned>
 
   <!-- EN: Summon {LEADER_label} possible -->
   <LetterLabelBossgroupCallerUnlocked>可以召唤{LEADER_label}</LetterLabelBossgroupCallerUnlocked>
   <!-- EN: You can now build a {PARENT_label} which a mechanitor can use to summon a {LEADER_label}. If you defeat the {LEADER_label}, it will drop the following items:\n\n{REWARDSLIST} -->
-  <LetterBossgroupCallerUnlocked>你现在可以建造一个{PARENT_label}让机械师可以用它来召唤{LEADER_label}。如果你击败了{LLEADER_label}，它将会掉落以下物品：\n\n{REWARDSLIST}</LetterBossgroupCallerUnlocked>
+  <LetterBossgroupCallerUnlocked>你现在可以建造一台{PARENT_label}，并让机械师使用它来召唤危险且敌对的指挥官机械体：{LEADER_label}。如果你击败了{LLEADER_label}，它将会掉落以下物品：\n\n{REWARDSLIST}</LetterBossgroupCallerUnlocked>
 
   <!-- EN: {PAWN_nameDef}'s mechlink available -->
   <LetterLabelMechanitorCasketOpened>{PAWN_nameDef}的机控中枢可用</LetterLabelMechanitorCasketOpened>
   <!-- EN: You have found the corpse of an ancient mechanitor!\n\nExtract {PAWN_possessive} mechlink by selecting a colonist and right-clicking the corpse. -->
-  <LetterMechanitorCasketOpened>你发现了一具古代机械师的尸体！\n\n通过选择一个殖民者并右键点击尸体来提取{PAWN_possessive}机控中枢。</LetterMechanitorCasketOpened>
+  <LetterMechanitorCasketOpened>你发现了一具古代机械师的尸体！\n\n选择一名殖民者，右键单击尸体来提取{PAWN_possessive}机控中枢。</LetterMechanitorCasketOpened>
   <!-- EN: Mechanitor casket found -->
   <LetterLabelMechanitorCasketFound>发现机械师休眠舱</LetterLabelMechanitorCasketFound>
   <!-- EN: You have discovered a mechanitor's cryptosleep casket!\n\nOpen it to find them inside. -->
@@ -79,7 +79,7 @@
   <!-- EN: {0_nameDef}'s baby prep -->
   <LetterLabelThirdTrimester>为{0_nameDef}的孩子做准备</LetterLabelThirdTrimester>
   <!-- EN: {0_nameDef} is due to give birth in less than 6 days. You can prepare for the baby:\n\n- Build a birth room with a clean floor and good bed.\n- Get a skilled doctor ready.\n- In the work tab, assign at least one person to childcare\n- Prepare a food source for the baby. {0_nameDef} can breastfeed the baby, or you can feed them baby food, milk, or insect jelly.\n- Build a crib. High quality cribs will make a baby happy.\n\nYou can make baby food at a stove or campfire. -->
-  <LetterTextThirdTrimester>{0_nameDef}将在6天内生产。你可以为孩子做准备：\n\n- 建造一个有干净地板和优质床铺的产房。\n- 找一个技能熟练的医生。\n- 在“工作”选项卡中，分配至少一个人负责照顾孩子的工作\n- 为宝宝准备食物来源。{0_nameDef}可以母乳喂养婴儿，也可以喂他们婴儿食品，牛奶或是虫胶。\n- 建造一张婴儿床。高品质的婴儿床会让宝宝开心。\n\n您可以在炉灶或篝火处制作婴儿食品。</LetterTextThirdTrimester>
+  <LetterTextThirdTrimester>{0_nameDef}将在6天内生产。你可以为孩子做准备：\n\n- 建造一个有干净地板和优质床铺的产房。\n- 找一个技能熟练的医生。\n- 在“工作”选项卡中，分配至少一个人负责照顾孩子的工作。\n- 为宝宝准备食物来源。{0_nameDef}可以母乳喂养婴儿，也可以喂他们婴儿食物，奶或是虫胶。\n- 建造一张婴儿床。高品质的婴儿床会让宝宝开心。\n\n您可以在炉灶或篝火处制作婴儿食物。</LetterTextThirdTrimester>
 
   <!-- EN: {0} vat birth -->
   <LetterVatBirth>{0}培育舱出生</LetterVatBirth>
@@ -130,18 +130,18 @@
   <!-- EN: {0_nameDef} is now old enough to do the following work -->
   <BirthdayBiologicalAgeWorkTypes>{0_nameDef}现在年纪已经足够大，可以执行以下工作了</BirthdayBiologicalAgeWorkTypes>
   <!-- EN: Choose 1 skill for {0_nameDef} to increase {0_possessive} passion for -->
-  <BirthdayPickPassion>为{0_nameDef}选择一项技能，以增加{0_possessive}的兴趣</BirthdayPickPassion>
+  <BirthdayPickPassion>为{0_nameDef}选择一项技能，以增加{0_possessive}的兴趣度</BirthdayPickPassion>
   <!-- EN: Choose {1} skills for {0_nameDef} to increase {0_possessive} passion for -->
-  <BirthdayPickPassions>为{0_nameDef}选择{1}技能，以增加 {0_possessive}的兴趣</BirthdayPickPassions>
+  <BirthdayPickPassions>为{0_nameDef}选择{1}技能，以增加 {0_possessive}的兴趣度</BirthdayPickPassions>
   <!-- EN: Choose a trait for {0_nameDef} to gain -->
   <BirthdayPickTrait>选择{0_nameDef}要获得的特性</BirthdayPickTrait>
   <!-- EN: When this growth moment happened, {0_nameDef} was at growth tier {1}. Children at higher growth tiers get more trait and passion options to choose from, and more passions overall. Satisfying the learning need helps the child gain growth tiers faster. Growth tiers are reset after each growth moment. -->
-  <BirthdayGrowthTier>当这个成长阶段发生时，{0_nameDef}处于成长评级{1}。处于较高成长阶段的孩子有更多的特性和兴趣选择，总体上也有更多的兴趣。满足学习需求可以帮助孩子更快地成长。成长评级在每个成长阶段后重置。</BirthdayGrowthTier>
+  <BirthdayGrowthTier>当这个成长阶段发生时，{0_nameDef}处于成长评级{1}。处于较高成长阶段的孩子有更多的特性和兴趣度选择，总体上也有更多的兴趣度。满足学习需求可以帮助孩子更快地成长。成长评级在每个成长阶段后重置。</BirthdayGrowthTier>
   <!-- EN: Open this letter to choose how {0_nameDef} will grow. -->
   <BirthdayChooseHowPawnWillGrow>打开这个消息，选择{0_nameDef}将如何成长。</BirthdayChooseHowPawnWillGrow>
 
   <!-- EN: Passion was increased for {0}. -->
-  <BirthdayPassionArchive>对{0}的兴趣增加了。</BirthdayPassionArchive>
+  <BirthdayPassionArchive>对{0}的兴趣度增加了。</BirthdayPassionArchive>
   <!-- EN: The trait {0} was gained. -->
   <BirthdayTraitArchive>获得了{0}特性。</BirthdayTraitArchive>
   <!-- EN: No trait -->
@@ -156,9 +156,9 @@
   <!-- EN: Select a trait. -->
   <SelectATrait>选择一个特性。</SelectATrait>
   <!-- EN: Select a passion. -->
-  <SelectPassionSingular>选择一个兴趣。</SelectPassionSingular>
+  <SelectPassionSingular>选择一个兴趣度。</SelectPassionSingular>
   <!-- EN: Select {0} passions. -->
-  <SelectPassionsPlural>选择{0}兴趣。</SelectPassionsPlural>
+  <SelectPassionsPlural>选择{0}兴趣度。</SelectPassionsPlural>
   <!-- EN: Later -->
   <Later>延后</Later>
   
@@ -175,7 +175,7 @@
   <!-- EN: \n\nYou do not have any medical beds available for {PAWN_nameDef}. Consider marking a bed as medical. -->
   <XenogermOrderedImplantedBedNeeded>\n\n你没有任何可用于{PAWN_nameDef}的医疗床。考虑将一张床标记为医疗床。</XenogermOrderedImplantedBedNeeded>
   <!-- EN: \n\nYou do not have enough medicine to implant the xenogerm. Implanting cannot begin until you get {MEDICINENEEDED} medicine. -->
-  <XenogermOrderedImplantedMedicineNeeded>\n\n你没有足够的药物来植入异种胚芽。在你得到{MEDICINENEEDED}之前，不能开始植入。</XenogermOrderedImplantedMedicineNeeded>
+  <XenogermOrderedImplantedMedicineNeeded>\n\n你没有足够的医药来植入异种胚芽。在你得到{MEDICINENEEDED}之前，不能开始植入。</XenogermOrderedImplantedMedicineNeeded>
   <!-- EN: Involuntary deathrest -->
   <LetterLabelInvoluntaryDeathrest>非自愿的死眠</LetterLabelInvoluntaryDeathrest>
   <!-- EN: Regeneration coma -->
@@ -185,7 +185,7 @@
   <!-- EN: Instead, {PAWN_pronoun} has fallen into a deathrest. -->
   <LetterTextDeathrest>{PAWN_pronoun}陷入了死眠。</LetterTextDeathrest>
   <!-- EN: Instead, {PAWN_pronoun} has fallen into a regeneration coma. -->
-  <LetterTextRegenerationComa>{PAWN_pronoun}陷入了再生昏迷</LetterTextRegenerationComa>
+  <LetterTextRegenerationComa>{PAWN_pronoun}陷入了再生昏迷状态。</LetterTextRegenerationComa>
   <!-- EN: Due to the neural shock of traumatic deathrest, {PAWN_nameDef} has lost {XPLOSS} XP in {PAWN_possessive} {SKILL} skill. -->
   <DeathrestLostSkill>由于创伤性死眠引发的神经休克，{PAWN_nameDef}的{SKILL}技能失去了{XPLOSS}经验值。</DeathrestLostSkill>
   <!-- EN: Lethal damage taken. -->
@@ -199,7 +199,7 @@
   <!-- EN: Genes reimplanted -->
   <LetterLabelGenesImplanted>基因已植入</LetterLabelGenesImplanted>
   <!-- EN: {CASTER_nameDef} has implanted a copy of {CASTER_possessive} xenogerm into {TARGET_nameDef}, passing all xenogenes onto {TARGET_objective}.\n\n{TARGET_nameDef} will be in a xenogermination coma for the next {COMADURATION} while {TARGET_possessive} body adjusts to the changes.\n\n{CASTER_nameDef} will suffer from gene loss shock for the next {SHOCKDURATION}. {CASTER_possessive} genes will also need to regrow. This process takes time. If {CASTER_nameDef} implants {CASTER_possessive} xenogerm again before {CASTER_possessive} genes have regrown, {CASTER_pronoun} will die. -->
-  <LetterTextGenesImplanted>{CASTER_nameDef}已将含有{CASTER_possessive}异种基因副本的胚芽植入{TARGET_nameDef}体内，将所有异种基因传递给了{TARGET_objective}。\n\n{TARGET_nameDef}将在接下来的{COMADURATION}中处于异种胚芽昏迷状态，同时{TARGET_possessive}身体会适应这些变化。\n\n{CASTER_nameDef}将在接下来的{SHOCKDURATION}中陷入基因缺失休克状态。{CASTER_possessive}基因也将需要重构。这个过程需要时间，如果{CASTER_nameDef}在{CASTER_possessive}基因重构之前再次植入{CASTER_possessive}异种，{CASTER_pronoun}将死亡。</LetterTextGenesImplanted>
+  <LetterTextGenesImplanted>{CASTER_nameDef}已将含有{CASTER_possessive}异种基因副本的胚芽植入{TARGET_nameDef}体内，将所有异种基因传递给了{TARGET_objective}。\n\n{TARGET_nameDef}将在接下来的{COMADURATION}中处于异种胚芽昏迷状态，同时{TARGET_possessive}身体会适应这些变化。\n\n{CASTER_nameDef}将在接下来的{SHOCKDURATION}中陷入基因缺失冲击状态。{CASTER_possessive}基因也将需要重构。这个过程需要时间，如果{CASTER_nameDef}在{CASTER_possessive}基因重构之前再次植入{CASTER_possessive}异种，{CASTER_pronoun}将死亡。</LetterTextGenesImplanted>
   
   <!-- EN: A baby named {PAWN_nameDef} from {PAWN_factionName} is crashing in a transport pod nearby.\n\nYou may choose to adopt {PAWN_objective} with the 'adopt' command or ignore {PAWN_objective}. -->
   <RefugeePodCrashBaby>一个来自{PAWN_factionName}的名叫{PAWN_nameDef}的婴儿正在附近的运输舱里坠落。\n\n你可以选择用“收养”命令收养{PAWN_objective}，或者忽略{PAWN_objective}。</RefugeePodCrashBaby>
