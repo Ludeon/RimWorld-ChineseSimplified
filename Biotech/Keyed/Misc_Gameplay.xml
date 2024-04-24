@@ -20,13 +20,13 @@
   <!-- EN: with -->
   <WithLower>与</WithLower>
   <!-- EN: tiles -->
-  <TilesLower>地块</TilesLower>
+  <TilesLower>格</TilesLower>
   <!-- EN: 1 mech -->
   <CaravanMech>1x机械体</CaravanMech>
   <!-- EN: {0} mechs -->
   <CaravanMechsCount>{0}x机械体</CaravanMechsCount>
   <!-- EN: {BOSS} with {APPAREL} -->
-  <BossWithApparel>装配有{APPAREL}的{BOSS}</BossWithApparel>
+  <BossWithApparel>配备有{APPAREL}的{BOSS}</BossWithApparel>
 
   <!-- Job reports -->
   <!-- EN: removing {0}. -->
@@ -76,7 +76,7 @@
   <!-- EN: Groups -->
   <Groups>组</Groups>
   <!-- EN: Loading mech gestation resources -->
-  <LoadingMechGestator>加载机械体培育资源</LoadingMechGestator>
+  <LoadingMechGestator>装填机械体培育资源</LoadingMechGestator>
   <!-- EN: Time left this cycle -->
   <GestatingInspect>培育周期剩余时间</GestatingInspect>
   <!-- EN: Initiating mech gestation cycle -->
@@ -96,7 +96,7 @@
   <!-- EN: Cannot summon {0} threat -->
   <CannotSummon>无法召唤{0}</CannotSummon>
   <!-- EN: {0} threat ready to summon -->
-  <ReadyToSummonThreat>{0}召唤已就绪</ReadyToSummonThreat>
+  <ReadyToSummonThreat>可召唤{0}</ReadyToSummonThreat>
   <!-- EN: Summon {0} threat -->
   <Summon>召唤{0}</Summon>
   <!-- EN: No reachable {0} -->
@@ -124,19 +124,19 @@
   <!-- EN: hemogen -->
   <Hemogen>血原质</Hemogen>
   <!-- EN: Hemogen is a biological energy source derived from compounds in human blood. Baseliner humans produce it endogenously and consume it over time in their own internal balance. Some human xenotypes use it as a kind of fuel for specific abilities, while others must consume it to survive at all. -->
-  <HemogenDesc>血原质是一种生物能源，来自于人类血液中的化合物。原生种会在体内内源性地产生它，并随着时间的推移在身体的内部循环中消耗它。一些异种人将其作为一种用于特定的能力燃料，而另一些则必须消耗它才能生存。</HemogenDesc>
+  <HemogenDesc>血原质是一种生物能源，来自于人类血液中的化合物。正常人会在体内内源性地产生它，并随着时间的推移在身体的内部循环中消耗它。一些异种人将其作为一种用于特定的能力燃料，而另一些则必须消耗它才能生存。</HemogenDesc>
   <!-- EN: deathrest capacity -->
   <DeathrestCapacity>死眠容量</DeathrestCapacity>
   <!-- EN: This determines how many deathrest buildings a person can connect to while deathresting. Each deathrest building confers a specific benefit, so it's better to be able to connect to more of them.\n\nDeathrest capacity can be increased using deathrest capacity serums. These serums can be purchased from traders. -->
-  <DeathrestCapacityDesc>这决定了一个人在死眠时可以连接多少个死眠建筑。每个死眠建筑都有特定的好处，所以能连接更多的死眠建筑是更好的。\n\n死眠容量可以通过死眠扩容血清来增加。这些血清可以从商人那里购买。</DeathrestCapacityDesc>
+  <DeathrestCapacityDesc>这决定了一个人在死眠时最多可以连接几个死眠设备。每个死眠设备都能提供特定的加成，所以连接得越多越好。\n\n死眠容量可以通过使用死眠扩容血清来增加。这些血清可以从商人那里买到。</DeathrestCapacityDesc>
   <!-- EN: {PAWN_nameDef} is connected to {CURRENT} / {MAX} (max) deathrest buildings. -->
-  <PawnIsConnectedToBuildings>{PAWN_nameDef}已连接至（{CURRENT}/{MAX}）死眠建筑。</PawnIsConnectedToBuildings>
+  <PawnIsConnectedToBuildings>{PAWN_nameDef}已连接至（{CURRENT}/{MAX}）死眠设备。</PawnIsConnectedToBuildings>
   <!-- EN: wake now -->
   <Wake>唤醒</Wake>
   <!-- EN: Wake up from deathrest.\n\n{PAWN_nameDef} has been in deathrest for {DURATION}. -->
   <WakeDesc>从死眠中醒来。\n\n{PAWN_nameDef}已持续死眠{DURATION}。</WakeDesc>
   <!-- EN: {PAWN_nameDef} needs to deathrest for at least {TOTAL}. Waking {PAWN_objective} early will make {PAWN_objective} ill, and {PAWN_pronoun} will not benefit from any deathrest buildings. -->
-  <WakeExtraDesc_Exhaustion>{PAWN_nameDef}需要至少死眠{TOTAL}。提前唤醒{PAWN_objective}会使{PAWN_objective}生病，{PAWN_pronoun}不会从任何死眠建筑中受益。</WakeExtraDesc_Exhaustion>
+  <WakeExtraDesc_Exhaustion>{PAWN_nameDef}至少需要死眠{TOTAL}。提前唤醒{PAWN_nameDef}会使{PAWN_objective}身体不适，{PAWN_pronoun}也不会从任何死眠设备中受益。</WakeExtraDesc_Exhaustion>
   <!-- EN: {PAWN_nameDef} can now wake safely. -->
   <WakeExtraDesc_Safe>{PAWN_nameDef}现在能被安全唤醒。</WakeExtraDesc_Safe>
   <!-- EN: Cannot wake. Need at least {0} hemogen. -->
@@ -144,10 +144,10 @@
   <!-- EN: Auto-wake -->
   <AutoWake>自动唤醒</AutoWake>
   <!-- EN: When on, {PAWN_nameDef} will automatically wake once {PAWN_possessive} deathrest is complete.\n\nWhile off, {PAWN_pronoun} will continue deathresting until you wake {PAWN_objective} manually. -->
-  <AutoWakeDesc>激活时，{PAWN_nameDef}一旦在{PAWN_possessive}死眠完成时会自动醒来。\n\n关闭时，{PAWN_pronoun}会在你手动唤醒之前持续死眠。</AutoWakeDesc>
+  <AutoWakeDesc>激活时，{PAWN_nameDef}将会在死眠完成时自动醒来。\n\n关闭时，{PAWN_nameDef}会在你手动唤醒{PAWN_pronoun}之前继续死眠。</AutoWakeDesc>
   <!-- EN: {PAWN_nameDef} is deathresting. -->
   <IsDeathresting>{PAWN_nameDef}正在死眠。</IsDeathresting>
-  <!-- EN: Cannot deathrest -->
+  <!-- EN: cannot deathrest -->
   <CannotDeathrest>无法死眠</CannotDeathrest>
   <!-- EN: Start deathrest -->
   <StartDeathrest>开始死眠</StartDeathrest>
@@ -156,25 +156,25 @@
   <!-- EN: deathresting -->
   <Deathresting>正在死眠</Deathresting>
   <!-- EN: can wake safely now. -->
-  <CanWakeSafely>现在可以安全唤醒。</CanWakeSafely>
+  <CanWakeSafely>现在可以被安全唤醒。</CanWakeSafely>
   <!-- EN: Disabled by gene -->
   <DisabledByGene>被基因禁止</DisabledByGene>
   <!-- EN: {PAWN_nameDef} is in critical condition. -->
   <WakeDisabledCriticalCondition>{PAWN_nameDef}正处于危险中。</WakeDisabledCriticalCondition>
   <!-- EN: Drain rate -->
-  <DrainRate>流失率</DrainRate>
+  <DrainRate>流失速率</DrainRate>
   <!-- EN: Regeneration rate -->
-  <RegenerationRate>再生率</RegenerationRate>
+  <RegenerationRate>再生速率</RegenerationRate>
   <!-- EN: {PAWN_nameDef} should deathrest in {DURATION} to avoid exhaustion. -->
-  <NextDeathrestNeed>为了避免疲惫，{PAWN_nameDef}应当在{DURATION}内开始死眠。</NextDeathrestNeed>
+  <NextDeathrestNeed>为了避免引发死眠衰竭症，{PAWN_nameDef}应当在{DURATION}内开始死眠。</NextDeathrestNeed>
   <!-- EN: {PAWN_nameDef} should deathrest soon to avoid exhaustion. -->
-  <PawnShouldDeathrestNow>为了避免疲惫，{PAWN_nameDef}需要尽快死眠。</PawnShouldDeathrestNow>
+  <PawnShouldDeathrestNow>为了避免引发死眠衰竭症，{PAWN_nameDef}应当尽快开始死眠。</PawnShouldDeathrestNow>
   <!-- EN: This determines whether {PAWN_nameDef} will automatically ingest hemogen packs when {PAWN_possessive} hemogen is below {MIN}.\n\nAutomatic ingestion is currently {ONOFF}. -->
-  <AutoTakeHemogenDesc>这决定了当{PAWN_nameDef}的血原质低于{MIN}时是否会自动摄入血原包。\n\n自动摄入目前{ONOFF}。</AutoTakeHemogenDesc>
+  <AutoTakeHemogenDesc>这决定了当{PAWN_nameDef}的血原质储量低于{MIN}时，是否会自动摄入血原包。\n\n自动摄入目前为“{ONOFF}”状态。</AutoTakeHemogenDesc>
   <!-- EN: Consume hemogen below -->
-  <ConsumeHemogenBelow>消耗血原质</ConsumeHemogenBelow>
+  <ConsumeHemogenBelow>血原质摄入阈值</ConsumeHemogenBelow>
   <!-- EN: Never consume hemogen. -->
-  <NeverConsumeHemogen>不消耗血原质。</NeverConsumeHemogen>
+  <NeverConsumeHemogen>不摄入血原质。</NeverConsumeHemogen>
   <!-- EN: Will kill -->
   <WillKill>将会死亡</WillKill>
   <!-- EN: Will cause major blood loss -->
@@ -186,7 +186,7 @@
   <!-- EN: Bound to -->
   <BoundTo>绑定至</BoundTo>
   <!-- EN: Will bind permanently on first use. -->
-  <WillBindOnFirstUse>在首次使用后将会绑定。</WillBindOnFirstUse>
+  <WillBindOnFirstUse>将会在在首次使用后绑定。</WillBindOnFirstUse>
   <!-- EN: Time active this deathrest -->
   <TimeActiveThisDeathrest>本次死眠激活</TimeActiveThisDeathrest>
   <!-- EN: Minimum is {0} to apply -->
@@ -206,7 +206,7 @@
   <!-- EN: aptitudes -->
   <AptitudePlural>天资</AptitudePlural>
   <!-- EN: Aptitude makes an individual perform at a higher or lower level than their learned skill.\n\nFor example, an aptitude of +1 for a skill means that a person with level 5 in that skill will perform as though they were at level 6.\n\nThe total value cannot exceed level 20 or fall below level 1. -->
-  <AptitudesDesc>天资使一个人的表现高于或低于其学习的技能水平。\n\n例如，一个技能的天资+1意味着一个拥有该技能5级的人将会像6级那样表现。\n\n总值不能超过20级或低于1级。</AptitudesDesc>
+  <AptitudesDesc>天资使一个人的表现高于或低于其学习的技能等级。\n\n举例来说，某项技能的天资+1，意味着一个该技能为5级的人将会拥有和6级一样的表现。\n\n总值不能超过20级或低于1级。</AptitudesDesc>
   <!-- EN: total -->
   <Total>总值</Total>
   
@@ -297,7 +297,7 @@
   <ComplexityTotal>总复杂度</ComplexityTotal>
   <!-- EN: The total complexity of all the genes in use. -->
   <ComplexityTotalDesc>所有已使用基因的总复杂度。</ComplexityTotalDesc>
-  <!-- EN: Metabolic efficiency -->
+  <!-- EN: metabolic efficiency -->
   <Metabolism>代谢率</Metabolism>
   <!-- EN: The total metabolic efficiency of these genes when assembled. High efficiency means a person needs less food; low efficiency means they must eat more. -->
   <MetabolismDesc>当这些基因被组装后的总代谢率。更高的代谢效率意味着消耗更少的食物；低代谢率意味着需要吃更多东西。</MetabolismDesc>
@@ -420,13 +420,13 @@
   <!-- EN: Xenogerm -->
   <Xenogerm>异种胚芽</Xenogerm>
   <!-- EN: {PAWN_nameDef} will continue deathresting so long as {PAWN_pronoun} has lethal injuries. -->
-  <PawnWillKeepDeathrestingLethalInjuries>只要{PAWN_nameDef}有致命的伤害，{PAWN_pronoun}就会继续死眠。</PawnWillKeepDeathrestingLethalInjuries>
+  <PawnWillKeepDeathrestingLethalInjuries>只要{PAWN_nameDef}身上还存在致命伤，{PAWN_pronoun}就会继续死眠。</PawnWillKeepDeathrestingLethalInjuries>
   <!-- EN: {PAWN_nameDef} will remain in a regeneration coma so long as {PAWN_pronoun} has lethal injuries. -->
-  <PawnWillKeepRegeneratingLethalInjuries>只要{PAWN_nameDef}有致命的伤害，{PAWN_pronoun}就会一直处于再生昏迷状态。</PawnWillKeepRegeneratingLethalInjuries>
+  <PawnWillKeepRegeneratingLethalInjuries>只要{PAWN_nameDef}身上还存在致命伤，{PAWN_pronoun}就会一直处于再生昏迷状态。</PawnWillKeepRegeneratingLethalInjuries>
   <!-- EN: Deathrest stopped -->
   <DeathrestPaused>死眠停止</DeathrestPaused>
   <!-- EN: Lethal injuries -->
-  <LethalInjuries>致命伤害</LethalInjuries>
+  <LethalInjuries>致命伤</LethalInjuries>
   <!-- EN: deathrest -->
   <Deathrest>死眠</Deathrest>
   <!-- EN: capacity -->
@@ -450,7 +450,7 @@
   <!-- EN: Must not be placed close to another {0_label} -->
   <MustNotBePlacedCloseToAnother>不能被放置在另一个{0_label}附近</MustNotBePlacedCloseToAnother>
   <!-- EN: Next terrain pollution in -->
-  <PollutingTerrainProgress>下一次土地污染</PollutingTerrainProgress>
+  <PollutingTerrainProgress>距下一次地形污染还剩</PollutingTerrainProgress>
   <!-- EN: Poisoned {0} -->
   <PoisonedTerrain>有毒的{0}</PoisonedTerrain>
   <!-- EN: Assign to control group {0} -->
@@ -466,9 +466,9 @@
   <!-- EN: Consuming an extra {0} nutrition per day to produce milk (milk production speed is {1_percentage} because of the current food level). -->
   <LactatingAddedNutritionPerDay>每天多消耗{0}营养来泌乳（出于目前的食物水平，泌乳速度为{1_percentage}）。</LactatingAddedNutritionPerDay>
   <!-- EN: Lactation is paused because milk fullness is 100% -->
-  <LactatingStoppedBecauseFull>储备的奶量已满，泌乳暂停。</LactatingStoppedBecauseFull>
+  <LactatingStoppedBecauseFull>奶量储备已满，泌乳暂停。</LactatingStoppedBecauseFull>
   <!-- EN: Lactation is paused due to starvation. -->
-  <LactatingStoppedBecauseHungry>因饥饿停止泌乳。</LactatingStoppedBecauseHungry>
+  <LactatingStoppedBecauseHungry>因饥饿而暂停泌乳。</LactatingStoppedBecauseHungry>
 
   <!-- Mech gestating -->
   <!-- EN: Current gestation cycle -->
@@ -488,17 +488,17 @@
   <!-- EN: Gestation complete -->
   <GestationComplete>培育完成</GestationComplete>
   <!-- EN: Resurrecting {0} -->
-  <ResurrectingMech>正在复生{0}</ResurrectingMech>
+  <ResurrectingMech>正在复活{0}</ResurrectingMech>
   <!-- EN: Resurrected {0} -->
-  <ResurrectedMech>已复生{0}</ResurrectedMech>
+  <ResurrectedMech>已复活{0}</ResurrectedMech>
 
   <!-- Carrier -->
   <!-- EN: Release {0} -->
-  <MechCarrierRelease>释放{0}</MechCarrierRelease>
+  <MechCarrierRelease>部署{0}</MechCarrierRelease>
   <!-- EN: Release a swarm of up to {0} {1}. Each {2} costs {3} {4} to build. If the parent is destroyed then all the linked {1} will die. {1} cannot be recharged and will die once their power source runs out. -->
-  <MechCarrierDesc>释放{0}个{1}。每个{2}需要花费{3}x{4}来建造。如果母体被摧毁，那么所有链接的{1}都会死亡。{1}无法充电，一旦它们的能量耗尽就会死亡。</MechCarrierDesc>
+  <MechCarrierDesc>部署{0}个{1}。每个{2}需要花费{3}x{4}来制造。如果母体被摧毁，那么所有链接的{1}都会死亡。{1}无法充电，一旦它们的能量耗尽就会死亡。</MechCarrierDesc>
   <!-- EN: Not enough resources -->
-  <MechCarrierNotEnoughResources>没有足够的资源</MechCarrierNotEnoughResources>
+  <MechCarrierNotEnoughResources>缺少足够的资源</MechCarrierNotEnoughResources>
   <!-- EN: Autofill -->
   <MechCarrierAutofillResources>自动装填</MechCarrierAutofillResources>
   <!-- EN: Click to set the desired autofill amount. -->
@@ -510,12 +510,12 @@
   <!-- EN: Power cell -->
   <MechPowerCell>能量电池</MechPowerCell>
   <!-- EN: War urchins have a one-time power source. When the power cell runs out, the mechanoid dies. -->
-  <MechPowerCellTip>此单位体内安装的能量电池是一次性的动力源。当电池的能量耗尽时，它就会死亡。</MechPowerCellTip>
+  <MechPowerCellTip>此单位内置的能量电池是一次性的动力源。当电池的能量耗尽时，它就会死亡。</MechPowerCellTip>
   
 
   <!-- Bossgroup -->
   <!-- EN: available in {0}. -->
-  <BossgroupAvailableIn>{0}内可用。</BossgroupAvailableIn>
+  <BossgroupAvailableIn>{0}后可召唤。</BossgroupAvailableIn>
   <!-- EN: requires mechanitor -->
   <RequiresMechanitor>需要机械师</RequiresMechanitor>
 
@@ -533,13 +533,13 @@
   <!-- EN: Base hemogen gain -->
   <AbilityHemogenGain>基础血原质获取</AbilityHemogenGain>
   <!-- EN: Smokepop charged -->
-  <AbilityMechSmokepopCharged>烟雾已充能</AbilityMechSmokepopCharged>
+  <AbilityMechSmokepopCharged>可释放烟雾。</AbilityMechSmokepopCharged>
   <!-- EN: Smokepop recharged in {0} -->
-  <AbilityMechSmokepopRecharging>烟雾充能（{0}）</AbilityMechSmokepopRecharging>
+  <AbilityMechSmokepopRecharging>正在补充烟雾（剩余{0}）。</AbilityMechSmokepopRecharging>
   <!-- EN: Firefoam pop charged -->
-  <AbilityMechFirefoampopCharged>泡沫已充能</AbilityMechFirefoampopCharged>
+  <AbilityMechFirefoampopCharged>可释放阻燃泡沫。</AbilityMechFirefoampopCharged>
   <!-- EN: Firefoam pop recharged in {0} -->
-  <AbilityMechFirefoampopRecharging>泡沫充能（{0}）</AbilityMechFirefoampopRecharging>
+  <AbilityMechFirefoampopRecharging>正在补充阻燃泡沫（剩余{0}）。</AbilityMechFirefoampopRecharging>
 
   <!-- EN: Polluted {0} -->
   <PollutedTerrain>受污染的{0}</PollutedTerrain>
@@ -592,7 +592,7 @@
   <CellsPerDay>{0}格/天</CellsPerDay>
 
   <!-- EN: {0} cannot wear clothing for {1} -->
-  <WrongDevelopmentalStageForClothing>{0}不能为{1}穿衣服</WrongDevelopmentalStageForClothing> 
+  <WrongDevelopmentalStageForClothing>{0}不能为{1}穿戴衣物</WrongDevelopmentalStageForClothing> 
 
   <!-- Subcore scanner -->
   <!-- EN: Start scanner -->
@@ -600,7 +600,7 @@
   <!-- EN: Produces -->
   <SubcoreScannerProduces>进度</SubcoreScannerProduces>
   <!-- EN: Once the {0} is filled with the required ingredients, {1}, select a colonist and right-click on the {0} or on a downed person to start the scanner. -->
-  <SubcoreScannerStartDesc>一旦{0}填满了所需的材料， {1}， 选择一个殖民者，右键点击{0}或倒下的人来开始扫描。</SubcoreScannerStartDesc>
+  <SubcoreScannerStartDesc>一旦{0}填满了所需的原料（{1}），选择一名殖民者，右键单击{0}或倒地的人来开始扫描。</SubcoreScannerStartDesc>
   <!-- EN: Completes in -->
   <SubcoreScannerCompletesIn>完成于</SubcoreScannerCompletesIn>
   <!-- EN: Waiting for occupant -->
@@ -608,13 +608,13 @@
   <!-- EN: Waiting for ingredients -->
   <SubcoreScannerWaitingForIngredients>等待装填</SubcoreScannerWaitingForIngredients>
   <!-- EN: The following ingredients must be loaded first -->
-  <SubcoreScannerWaitingForIngredientsDesc>以下材料必须优先被装载</SubcoreScannerWaitingForIngredientsDesc>
+  <SubcoreScannerWaitingForIngredientsDesc>必须优先装填以下原料</SubcoreScannerWaitingForIngredientsDesc>
   <!-- EN: Has {0} -->
   <SubcoreScannerPawnHasSickness>有{0}</SubcoreScannerPawnHasSickness>
   <!-- EN: Babies are not allowed -->
   <SubcoreScannerBabyNotAllowed>不允许婴儿</SubcoreScannerBabyNotAllowed>
   <!-- EN: Insert a person into the {0}. -->
-  <InsertPersonSubcoreScannerDesc>将一个人员置入{0}。</InsertPersonSubcoreScannerDesc>
+  <InsertPersonSubcoreScannerDesc>将一个人置入{0}。</InsertPersonSubcoreScannerDesc>
 
   <!-- EN: Duration (hours) -->
   <DurationHours>持续时间（时）</DurationHours>
@@ -654,7 +654,7 @@
   
   <!-- Pollution -->
   <!-- EN: Toggle pollution overlay. This displays which areas of terrain are polluted.\n\nExposure to polluted terrain causes toxic buildup which can lead to death. Most plants cannot live on polluted terrain. -->
-  <ShowPollutionOverlayToggleButton>切换污染覆盖层。这将显示哪些地区的地形被污染了。\n\n暴露在受污染的地形中会导致有毒物质的积聚，从而导致死亡。大多数植物不能生活在受污染的地形上。</ShowPollutionOverlayToggleButton>
+  <ShowPollutionOverlayToggleButton>切换污染覆盖层。这将显示哪些区域的地形被污染了。\n\n暴露在受污染的地形中会导致有毒物质的积聚，从而导致死亡。大多数植物不能生活在受污染的地形上。</ShowPollutionOverlayToggleButton>
   <!-- EN: None -->
   <TilePollutionNone>无</TilePollutionNone>
   <!-- EN: Light -->
@@ -678,13 +678,13 @@
   <!-- EN: pollution -->
   <PollutionLower>污染</PollutionLower>
   <!-- EN: Cannot absorb pollution: Buildings too close -->
-  <CannotAbsorbPollution>无法吸收污染：太靠近建筑</CannotAbsorbPollution>
+  <CannotAbsorbPollution>无法抽取污染：太靠近建筑</CannotAbsorbPollution>
   <!-- EN: Can absorb pollution from nearby terrain -->
-  <CanAbsorbPollution>能够从附近土地吸收污染</CanAbsorbPollution>
+  <CanAbsorbPollution>能够从附近地形抽取污染。</CanAbsorbPollution>
   <!-- EN: Absorbing pollution: Next in {0} -->
-  <AbsorbingPollutionNext>吸收污染：下一次{0}</AbsorbingPollutionNext>
+  <AbsorbingPollutionNext>距下一次抽取污染还剩：{0}</AbsorbingPollutionNext>
   <!-- EN: How polluted the terrain is on this tile.\n\nExposure to polluted terrain causes toxic buildup which can lead to death. Most crops cannot live on polluted terrain. -->
-  <TerrainPollutionTip>这块地格的污染严重程度。\n\n暴露在受污染的地形中会导致毒物堆积，从而导致死亡。大多数农作物不能生活在受污染的地形上。</TerrainPollutionTip>
+  <TerrainPollutionTip>这块地格的污染严重程度。\n\n暴露在受污染的地形中会引起中毒，从而导致死亡。大多数作物都无法种植在受污染的地形上。</TerrainPollutionTip>
 
   <!-- Research -->
   <!-- EN: Requires study of -->
@@ -706,7 +706,7 @@
   <!-- EN: Cannot fertilize -->
   <FertilizeCannotFloatOption>无法受精</FertilizeCannotFloatOption>
   <!-- EN: Choose a man to fertilize this ovum to create an embryo. The embryo can then be implanted in a mother to start a pregnancy, or in a growth vat. The biological parents of the resulting child will be the woman who provided the ovum and man who fertilized it. -->
-  <FertilizeGizmoDescription>选择一个男人让这个卵子受精来创造一个胚胎。然后，该胚胎可以被植入母亲体内或在一个培育舱中开始发育。所生孩子的亲生父母将是提供卵子的女性和使其受精的男性。</FertilizeGizmoDescription>
+  <FertilizeGizmoDescription>选择一名男性让这个卵子受精来创造一个胚胎。然后，该胚胎可以被植入母亲体内或在一个培育舱中开始发育。所生孩子的亲生父母将是提供卵子的女性和使其受精的男性。</FertilizeGizmoDescription>
   <!-- EN: Cancel fertilization by {0} -->
   <FertilizeCancel>取消由{0}授精</FertilizeCancel>
   <!-- EN: sterile -->
@@ -761,7 +761,7 @@
 
   <!-- Remote mech shield -->
   <!-- EN: A remote shield projected by a mechanitor. It will attempt to stop incoming projectiles or shrapnel, but does nothing against melee attacks or heat. It prevents the wearer from firing out, and shuts down instantly if hit by EMP -->
-  <RemoteMechShieldTip>一个由机械师投射的远程护盾。护盾会拦截来袭的投射物或弹片，但无法阻挡近战攻击、高温以及火焰，遭受EMP打击后会立即耗尽能量。</RemoteMechShieldTip>
+  <RemoteMechShieldTip>一个由机械师远程投射的护盾。护盾会拦截来袭的投射物或弹片，但无法阻挡近战攻击、高温以及火焰，遭受EMP打击后会立即耗尽能量。</RemoteMechShieldTip>
 
   <!-- Thoughtdef fallbacks -->
   <!-- EN: my child is happy -->

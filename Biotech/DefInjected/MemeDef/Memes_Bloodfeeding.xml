@@ -29,23 +29,23 @@
     <li>bloodDrinkingAnimal->blood cobra</li>
   -->
   <Bloodfeeding.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_Bloodfeeding)        ->[deity0_name]喝了星星的血，把它们从红色变成白色。</li>
-    <li>episode(uses=1,tag=meme_Bloodfeeding)  ->[deity0_type][deity0_name]给与[deity0_possessive]被选中的追随者饥饿的礼物，以便他们可以知道真正的力量。</li>
-    <li>intro(tag=meme_Bloodfeeding)           ->在[place_summary][place_name]，有一位名叫[deity0_name]的人类。[deity0_possessive]父亲将[deity0_possessive]灵魂与[bloodDrinkingAnimal]融合作为对[deity0_possessive]罪孽的惩罚。</li>
+    <li>creation(tag=meme_Bloodfeeding)        ->[deity0_name]饮下了群星之血，将它们从红色变成白色。</li>
+    <li>episode(uses=1,tag=meme_Bloodfeeding)  ->[deity0_type][deity0_name]将“饥饿”赠予被其选中的追随者，以便他们知晓何为真正的力量。</li>
+    <li>intro(tag=meme_Bloodfeeding)           ->在[place_summary][place_name]，有一位名叫[deity0_name]的人类。[deity0_possessive]父亲将[deity0_possessive]灵魂与[bloodDrinkingAnimal]融合，以此作为对[deity0_possessive]罪孽的惩罚。</li>
     <li>intro(tag=meme_Bloodfeeding)           ->在[place_summary][place_name]的仪式[ritualName]期间，[deity0_name]变成了巨大的[bloodDrinkingAnimal]降临[altarRoomLabel]，[deity0_name]饮用了[deity0_possessive][memberNamePlural]的鲜血。</li>
-    <li>conflict(tag=meme_Bloodfeeding)        ->[foeLeader]宣称所有喝血的人都是可憎的，并派出[foeSoldiers]去追杀[memberNamePlural]。</li>
+    <li>conflict(tag=meme_Bloodfeeding)        ->[foeLeader]宣称所有饮用鲜血的人都是可憎的，并派出[foeSoldiers]去追杀[memberNamePlural]。</li>
     <li>founderJoin(tag=meme_Bloodfeeding)     ->一位名为[founderName]的[place_job]被[foeLeader]的[foeSoldiers]攻击了。[founderName]用[place_personalWeapon]杀死了[foeLeader_objective]并饮用了[foeLeader_possessive]血液，获取了[deity0_name]的力量。</li>
     <li>victory(tag=meme_Bloodfeeding)         ->[founderName]率领一群[memberNamePlural]进入[place_powerCenter]，饮下[foeLeader]的鲜血，焚烧[foeLeader_possessive]身躯。[founderName]证明了自己的力量，[deity0_name]使[founderName]成为新的[foeLeader]。</li>
-    <li>setup(tag=meme_Bloodfeeding)           ->[founderName]试图控制超凡智能，但是超凡只能的力量太过强大，[founder_pronoun]反而被改造了。</li>
+    <li>setup(tag=meme_Bloodfeeding)           ->[founderName]试图控制超凡智能，但是祂的力量太过强大，[founderName]反而被改造了。</li>
     <li>story(uses=1,tag=meme_Bloodfeeding)    ->[founderName]给了[founder_possessive]追随者饥渴的礼物，所以他们能够变得更强。</li>
-    <li>lessonIntro(tag=meme_Bloodfeeding)     ->当我第一次喝下血时，它变得清晰了。我看到</li>
+    <li>lessonIntro(tag=meme_Bloodfeeding)     ->当我第一次饮下鲜血时，它变得清晰了起来。我看到</li>
     <li>lesson(tag=meme_Bloodfeeding)          ->只有两种人——弱者和强者</li>
-    <li>lessonReinforcement(tag=meme_Bloodfeeding) ->喝血是为了强壮，要清楚地知道这一点。</li>
-    <li>archistBasis(tag=meme_Bloodfeeding)    ->古老的神机将“饥饿”赠与人类，以便人类更好地了解它们。</li>
-    <li>archistFact(tag=meme_Bloodfeeding)     ->随着超凡意识的扩展，它必须通过饮用其他机械的精华来增长其基质。</li>
-    <li>archistProphecy(tag=meme_Bloodfeeding) ->[inTheEnd]，人类将通过饮用血液，了解真正的力量，从而越来越接近超凡者。</li>
-    <li>animistBasis(tag=meme_Bloodfeeding)    ->[bloodDrinkingAnimal]知道饮血所带来的力量。没有比来自人血的力量更大的了。</li>
-    <li>animistFact(tag=meme_Bloodfeeding)     ->我们可以通过消耗人的血液来掌握其的力量。</li>
+    <li>lessonReinforcement(tag=meme_Bloodfeeding) ->饮用鲜血是为了变强，要清楚地知道这一点。</li>
+    <li>archistBasis(tag=meme_Bloodfeeding)    ->超凡智能将“饥饿”赠予人类，以便人类更好地了解它们。</li>
+    <li>archistFact(tag=meme_Bloodfeeding)     ->随着超凡智能的扩张，祂必须通过饮用其他机械的精华来增长其基质。</li>
+    <li>archistProphecy(tag=meme_Bloodfeeding) ->[inTheEnd]，人类将通过饮用鲜血，了解真正的力量，从而越来越接近超凡智能。</li>
+    <li>animistBasis(tag=meme_Bloodfeeding)    ->[bloodDrinkingAnimal]知道饮用鲜血所带来的力量。没有比来自人血的力量更大的了。</li>
+    <li>animistFact(tag=meme_Bloodfeeding)     ->我们可以通过饮用人的鲜血来掌握其的力量。</li>
     <li>bloodDrinkingAnimal->吸血蝙蝠</li>
     <li>bloodDrinkingAnimal->水蛭</li>
     <li>bloodDrinkingAnimal->七鳃鳗</li>

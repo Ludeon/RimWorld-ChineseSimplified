@@ -13,14 +13,14 @@
   <!-- EN: {0} is low on resources -->
   <AlertWarqueenHasLowResources>{0}资源即将耗尽</AlertWarqueenHasLowResources>
   <!-- EN: One or more {0} are low on resoures. They will be unable to produce mechs on command if they run out of resources. -->
-  <AlertWarqueenHasLowResourcesDesc>至少一台{0}资源即将耗尽。如果资源耗尽，它们将无法按指令生产机械体。</AlertWarqueenHasLowResourcesDesc>
+  <AlertWarqueenHasLowResourcesDesc>至少一台{0}资源即将耗尽。如果资源耗尽，它们将无法按指令部署机械体。</AlertWarqueenHasLowResourcesDesc>
 
   <!-- EN: {PAWN} needs deathrest -->
   <AlertLowDeathrestPawn>{PAWN}需要死眠</AlertLowDeathrestPawn>
   <!-- EN: {NUMCULPRITS} colonists need deathrest -->
   <AlertLowDeathrestPawns>{NUMCULPRITS}殖民者需要死眠</AlertLowDeathrestPawns>
   <!-- EN: A colonist has not deathrested for a long time. If they go too long without deathrest, they will suffer from deathrest exhaustion.\n\nTo deathrest, select the colonist then right-click on their assigned bed or deathrest casket.\n\nThese people need deathrest:\n{CULPRITS} -->
-  <AlertLowDeathrestDesc>一名殖民者已经很久没有进行死眠了，如果他们太久没有进行死眠，就会患上死眠衰竭症。\n\n若要进行死眠，请选择这一殖民者，然后右键点击他们的床铺或者死眠棺。\n\n这些殖民者需要死眠：\n{CULPRITS}</AlertLowDeathrestDesc>
+  <AlertLowDeathrestDesc>一名殖民者已经很久没有进行死眠了，如果他们太久没有进行死眠，就会引发死眠衰竭症。\n\n若要进行死眠，请选择这一殖民者，然后右键点击他们的床铺或者死眠棺。\n\n这些殖民者需要死眠：\n{CULPRITS}</AlertLowDeathrestDesc>
 
   <!-- EN: Low hemogen -->
   <AlertLowHemogen>血原质不足</AlertLowHemogen>
@@ -30,7 +30,7 @@
   <!-- EN: Recharger full -->
   <AlertRechargerFull>充电站已满</AlertRechargerFull>
   <!-- EN: Some mech recharger(s) are storing their maximum number of toxic wastepacks. Mechs can't use these chargers until the toxic wastepacks are hauled away.\n\nSelect a colonist and right-click a recharger to unload it. -->
-  <AlertRechargerFullDesc>某些机械充电站储存的有毒垃圾已达上限。机械体在清除垃圾之前无法使用充电站。\n\n选择一位殖民者并右键充电站来卸载它们。</AlertRechargerFullDesc>
+  <AlertRechargerFullDesc>某些机械充电站储存的有毒垃圾已达上限。机械体在清除垃圾之前无法使用充电站。\n\n选择一位殖民者，右键单击充电站来取出有毒垃圾。</AlertRechargerFullDesc>
 
   <!-- EN: Need mech rechargers -->
   <AlertNeedMechChargers>需要机械体充电站</AlertNeedMechChargers>
@@ -40,27 +40,27 @@
   <AlertNeedMechChargerBasicMechtech>研究基础机械科技或更高级的标准机械科技来建造合适的充电站。</AlertNeedMechChargerBasicMechtech>
 
   <!-- EN: Reimplantation available -->
-  <AlertReimplantationAvailable>再植就绪</AlertReimplantationAvailable>
+  <AlertReimplantationAvailable>基因植入就绪</AlertReimplantationAvailable>
   <!-- EN: {0_nameDef} is waiting to reimplant {0_possessive} xenogerm into one of your colonists. -->
-  <AlertReimplantationAvailableDesc>{0_nameDef}正等待再植{0_possessive}异种胚芽至一名殖民者。</AlertReimplantationAvailableDesc>
+  <AlertReimplantationAvailableDesc>{0_nameDef}正等待着将{0_possessive}异种胚芽植入给一名殖民者。</AlertReimplantationAvailableDesc>
 
   <!-- EN: Low baby food -->
-  <AlertLowBabyFood>婴儿食品不足</AlertLowBabyFood>
+  <AlertLowBabyFood>婴儿食物不足</AlertLowBabyFood>
   <!-- EN: You are dangerously low on baby food.\n\n    Babies needing food: {0}\n    Days worth of baby food in storage: {1}\n\nBuy, find or make some baby-edible food. This includes {2}. -->
-  <AlertLowBabyFoodDesc>你的婴儿食品储量已严重不足。\n\n需要食物的婴儿：{0}\n当前婴儿食品储备天数：{1}\n\n你需要购买、寻找或制作一些婴儿可使用的食物，这包括{2}。</AlertLowBabyFoodDesc>
+  <AlertLowBabyFoodDesc>你的婴儿食物储量已严重不足。\n\n需要食物的婴儿：{0}\n当前婴儿食物储备天数：{1}\n\n你需要购买、寻找或制作一些婴儿可使用的食物，这包括{2}。</AlertLowBabyFoodDesc>
   <!-- EN: No baby feeders -->
-  <AlertNoBabyFeeder>没有育婴员</AlertNoBabyFeeder>
+  <AlertNoBabyFeeder>缺少保育员</AlertNoBabyFeeder>
   <!-- EN: No {FACTION_pawnsPlural} are assigned to feed these babies, or they're all downed.\n\nAssign one of your {FACTION_pawnsPlural} to childcare or assign a lactating {FACTION_pawnSingular} to feed these babies with Urgent priority in the babies' feeding tab, and ensure at least one of them is not downed. -->
-  <AlertNoBabyFeederDesc>没有任何一名{FACTION_pawnsPlural}被指派哺育婴儿，或者他们均无法行动。\n\n指派你的一名{FACTION_pawnsPlural}去照看婴儿或分配一位哺乳期的{FACTION_pawnSingular}在婴儿的喂养标签中以紧急优先权喂养这些婴儿。并且你需要确保他们中至少有一位能够自如活动。</AlertNoBabyFeederDesc>
+  <AlertNoBabyFeederDesc>没有任何一名{FACTION_pawnsPlural}被指派哺育婴儿，或者他们均无法行动。\n\n指派你的一名{FACTION_pawnsPlural}去照看婴儿，或分配一位哺乳期的{FACTION_pawnSingular}在婴儿的喂养标签中以紧急优先权喂养这些婴儿。并且你需要确保他们中至少有一位能够自如活动。</AlertNoBabyFeederDesc>
   <!-- EN: Abandoned baby -->
   <AlertAbandonedBaby>婴儿被遗弃</AlertAbandonedBaby>
   <!-- EN: There are abandoned babies nearby with no closeby caregivers.  If you don't adopt the babies, they'll probably starve to death.\n\nTo adopt a baby, select it and then select "{0}". -->
-  <AlertAbandonedBabyDesc>附近有被遗弃且无人照顾的婴儿。如果不收养这些婴儿，他们极有可能被饿死。\n\n若要收养婴儿，请选中婴儿并点击"{0}"。</AlertAbandonedBabyDesc>
+  <AlertAbandonedBabyDesc>附近有被遗弃且无人照顾的婴儿。如果不收养这些婴儿，他们极有可能被饿死。\n\n若要收养婴儿，请选中婴儿并点击“{0}”。</AlertAbandonedBabyDesc>
 
   <!-- EN: No baby food in caravan -->
-  <AlertNoBabyFoodCaravan>远行队没有婴儿食品</AlertNoBabyFoodCaravan>
+  <AlertNoBabyFoodCaravan>远行队缺少婴儿食物</AlertNoBabyFoodCaravan>
   <!-- EN: Babies on this caravan have no baby food and no lactating {FACTION_pawnsPlural} are set to feed them. -->
-  <AlertNoBabyFoodCaravanDesc>远行队中有婴儿，但没有婴儿食品，也没有分配处于哺乳期的{FACTION_pawnsPlural}来喂养他们。</AlertNoBabyFoodCaravanDesc>
+  <AlertNoBabyFoodCaravanDesc>远行队中有婴儿，但没有婴儿食物，也没有分配处于哺乳期的{FACTION_pawnsPlural}来喂养他们。</AlertNoBabyFoodCaravanDesc>
 
   <!-- EN: Toxic buildup -->
   <AlertToxicBuildup>中毒</AlertToxicBuildup>
@@ -93,12 +93,12 @@
   <!-- EN: These mechanoids are damaged and need repair -->
   <AlertMechNeedsRepairDescPrefix>这些机械体因受伤需要维修</AlertMechNeedsRepairDescPrefix>
   <!-- EN: Order a mechanitor to repair them, or select the mech and turn on auto-repair. Repairing a mechanoid requires energy. If a mechanoid's energy is so low it can't move, someone must carry it to a recharger. -->
-  <AlertMechNeedsRepairDesc>指派一名机械师来维修它们，或者选中机械体并打开自动维修功能。维修机械体需要消耗能量值，如果机械体的能量不足无法移动，就必须有人将它搬运至充电站。</AlertMechNeedsRepairDesc>
+  <AlertMechNeedsRepairDesc>指派一名机械师来维修它们，或者选中机械体，启用屏幕下方命令栏中的“自动维修”功能。维修机械体需要消耗能量值，如果机械体的能量不足无法移动，就必须有人将它搬运至充电站。</AlertMechNeedsRepairDesc>
   
   <!-- EN: {0} stopped -->
   <AlertToxifierGeneratorStopped>{0}已停止</AlertToxifierGeneratorStopped>
   <!-- EN: Your {0} is not producing power because it has no nearby fertile terrain to convert.\n\nClean polluted terrain with pollution pumps, or by assigning a pollution removal area. -->
-  <AlertToxifierGeneratorStoppedDesc>你的{0}因附近没有可供转换的未污染土地而停止发电。\n\n使用清污泵清理受污染的地形，或是指定一个除污区。</AlertToxifierGeneratorStoppedDesc>
+  <AlertToxifierGeneratorStoppedDesc>你的{0}因附近没有可供转换的未污染地形而停止发电。\n\n使用清污泵清理受污染的地形，或是指定一个除污区。</AlertToxifierGeneratorStoppedDesc>
 
   <!-- EN: Psychic bond distance -->
   <AlertPsychicBondedPawnsSeparated>心灵纽带断开</AlertPsychicBondedPawnsSeparated>
@@ -111,9 +111,9 @@
   <AlertGenebankUnpoweredDesc>一个基因库断电了，位于其内的基因组正在缓慢劣化。恢复基因库的供电以防止基因组劣化。\n\n一旦基因库通电，它就能缓慢修复基因组的劣化。</AlertGenebankUnpoweredDesc>
 
   <!-- EN: {0} incoming -->
-  <AlertBossgroupIncoming>{0}正在接近</AlertBossgroupIncoming>
+  <AlertBossgroupIncoming>{0}即将来袭</AlertBossgroupIncoming>
   <!-- EN: Signaled by your mechanitor, a hostile {0} is approaching with its combat escort. Be prepared, this won't be an easy fight. The hostile mechanoids will arrive in a few hours or days. -->
-  <AlertBossgroupIncomingDesc>由于你机械师发出的信号，一个敌对的{0}正带着它的战斗护卫队接近。做好准备，这不会是一场轻松的战斗。敌对的机械体将在几小时或几天后到达。</AlertBossgroupIncomingDesc>
+  <AlertBossgroupIncomingDesc>你的机械师发出的脉冲信号吸引了一个{0}，它很快就会带着护卫队抵达这里。请做好迎战的准备，这不会是一场轻松的战斗。敌对机械体将在几小时或几天后抵达。</AlertBossgroupIncomingDesc>
 
   <!-- EN: Deathrest complete -->
   <AlertDeathrestComplete>死眠完成</AlertDeathrestComplete>

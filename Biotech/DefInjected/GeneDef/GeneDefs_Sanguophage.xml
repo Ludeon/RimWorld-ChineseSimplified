@@ -51,7 +51,7 @@
   <!-- EN: deathrest -->
   <Deathrest.label>死眠</Deathrest.label>
   <!-- EN: Carriers of this gene must periodically regenerate themselves in a special coma called deathrest. Deathrest takes days, but can confer substantial bonuses. Deathrest can be accelerated and its effects enhanced by the use of a variety of special buildings and technologies.\n\nThose who put off deathresting will suffer from deathrest exhaustion. -->
-  <Deathrest.description>这种基因的携带者会定期陷入名为死眠的昏迷状态，在此期间恢复自身。一次死眠会持续数天之久，但会在之后提供加成。利用各式特殊建筑和科技可以让死眠的过程加快，或是强化效果。\n\n过久不休息会导致死眠衰竭症，这将极大地降低一个人的身体能力。</Deathrest.description>
+  <Deathrest.description>这种基因的携带者会定期陷入名为死眠的昏迷状态，在此期间恢复自身。一次死眠会持续数天之久，但会在之后提供加成。利用各式特殊设备和科技可以让死眠的过程加快，或是强化效果。\n\n过久不死眠会引发死眠衰竭症，这将极大地降低一个人的身体能力。</Deathrest.description>
   <!-- EN: death -->
   <Deathrest.symbolPack.prefixSymbols.0.symbol>死亡</Deathrest.symbolPack.prefixSymbols.0.symbol>
   <!-- EN: dead -->
@@ -64,7 +64,7 @@
   <!-- EN: non-senescent -->
   <DiseaseFree.label>不衰</DiseaseFree.label>
   <!-- EN: Carriers of this gene do not go through senescence in the normal way. They never get chronic age-related diseases like cancer, bad back, cataracts, or dementia. -->
-  <DiseaseFree.description>这种基因的携带者不会如常人般衰老。他们不会获得癌症，背痛，白内障，老年痴呆这类的慢性疾病。</DiseaseFree.description>
+  <DiseaseFree.description>这种基因的携带者不会如正常人般衰老。他们不会获得癌症，背痛，白内障，老年痴呆这类的慢性疾病。</DiseaseFree.description>
   
   <!-- EN: pyrophobia -->
   <FireTerror.label>恐火症</FireTerror.label>
@@ -104,7 +104,7 @@
   <!-- EN: Gives hemogen supply. -->
   <Hemogenic.customEffectDescriptions.0>可以使用血原质</Hemogenic.customEffectDescriptions.0>
   <!-- EN: A reserve of biological strength which can be gained and spent in a variety of ways.\n\nHemogen can be increased by bloodfeeding from a human or consuming hemogen packs. You can obtain hemogen packs using the 'extract hemogen pack' medical operation on a non-hemogenic human.\n\nIf hemogen reaches zero, {PAWN_nameDef} will become very unhappy. -->
-  <Hemogenic.resourceDescription>储备一种叫做血原质的生物能资源。这种资源的来源和使用方法可以由其它基因解锁。\n\n血原质的数量可以通过汲血其它人类或是使用血原包获得。你可以通过对无源质基因组的人类进行“提取血原质”的医疗操作来获得血原包。\n\n血原质储备归零时，{PAWN_nameDef}的心情会大幅度下降。</Hemogenic.resourceDescription>
+  <Hemogenic.resourceDescription>储备一种叫做血原质的生物能资源。这种资源的来源和使用方法可以由其它基因解锁。\n\n血原质可通过对其他人类使用汲血或是摄入血原包来补充。对没有“血原化”基因的人类执行“抽取血原包”的手术即可获得血原包。\n\n当血原质储备归零时，{PAWN_nameDef}的心情会大幅度下降。</Hemogenic.resourceDescription>
   <!-- EN: hemogen -->
   <Hemogenic.resourceLabel>血原质</Hemogenic.resourceLabel>
   <!-- EN: hemo -->

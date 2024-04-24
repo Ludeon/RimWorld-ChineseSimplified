@@ -16,9 +16,9 @@
   <!-- EN: Never controllable -->
   <CannotControlMechNeverControllable>不可控制</CannotControlMechNeverControllable>
   <!-- EN: Cannot disconnect from {0} -->
-  <CannotDisconnectMech>无法从{0}断开连接</CannotDisconnectMech>
+  <CannotDisconnectMech>无法断开与{0}的链接</CannotDisconnectMech>
   <!-- EN: Disconnect from {0} -->
-  <DisconnectMech>从{0}断开连接</DisconnectMech>
+  <DisconnectMech>断开与{0}的链接</DisconnectMech>
   <!-- EN: Permanently disassemble {0} -->
   <DisassembleMech>永久拆解{0}</DisassembleMech>
   <!-- EN: Cannot permanently disassemble {0} -->
@@ -65,7 +65,7 @@
   <!-- EN: Cannot enter {0_labelShort} -->
   <CannotEnterBuilding>无法进入{0_labelShort}</CannotEnterBuilding>
   <!-- EN: {0_labelShort} is assigned to another person. -->
-  <AssignedToOtherPawn>{0_labelShort}已被指派给其他人员。</AssignedToOtherPawn>
+  <AssignedToOtherPawn>{0_labelShort}已被指派给其他人。</AssignedToOtherPawn>
 
   <!-- EN: Absorb xenogerm of {PAWN_nameDef} -->
   <AbsorbXenogerm>吸收{PAWN_nameDef}的异种胚芽</AbsorbXenogerm>
@@ -74,11 +74,11 @@
   <!-- EN: {PAWN_nameDef} is already {PAWN_xenotype} -->
   <SameXenotype>{PAWN_nameDef}已经是{PAWN_xenotype}</SameXenotype>
   <!-- EN: {PAWN_nameDef} suffering from xenogerm loss shock -->
-  <XenogermLossShockPresent>{PAWN_nameDef}已陷入基因缺失休克状态</XenogermLossShockPresent>
+  <XenogermLossShockPresent>{PAWN_nameDef}已陷入基因缺失冲击状态</XenogermLossShockPresent>
   <!-- EN: Carry to {0_labelShort} -->
   <CarryToSpecificThing>携带至{0_labelShort}</CarryToSpecificThing>
   <!-- EN: No reachable, un-reserved bed or deathrest casket in safe temperature. -->
-  <NoCasketOrBed>在安全温度下，没有可触及的、未被保留的床位或死眠舱。</NoCasketOrBed>
+  <NoCasketOrBed>在安全温度下，没有可到达的、未被保留的床位或死眠舱。</NoCasketOrBed>
   <!-- EN: {PAWN_nameDef} is a temporary faction member. -->
   <TemporaryFactionMember>{PAWN_nameDef}是派系的临时成员</TemporaryFactionMember>
 
@@ -114,7 +114,7 @@
   <!-- EN: {MOM_labelShort} cannot breastfeed right now -->
   <BreastfeedFailReason_MomInMentalState>{MOM_labelShort}现在无法哺乳</BreastfeedFailReason_MomInMentalState>
   <!-- EN: {BABY_labelShort} is too full to suckle -->
-  <BreastfeedFailReason_BabyTooFull>{BABY_labelShort}吃得太饱，无法吸吮</BreastfeedFailReason_BabyTooFull>
+  <BreastfeedFailReason_BabyTooFull>{BABY_labelShort}吃得很饱，无法吸吮</BreastfeedFailReason_BabyTooFull>
   <!-- EN: {BABY_labelShort} is forbidden to {MOM_labelShort} -->
   <BreastfeedFailReason_BabyForbiddenToMom>{BABY_labelShort}对{MOM_labelShort}来说被禁止</BreastfeedFailReason_BabyForbiddenToMom>
   <!-- EN: {BABY_labelShort} is forbidden to {HAULER_labelShort} -->
@@ -122,15 +122,15 @@
   <!-- EN: {MOM_labelShort} is forbidden to {HAULER_labelShort} -->
   <BreastfeedFailReason_MomForbiddenToHauler>{MOM_labelShort}对{HAULER_labelShort}来说被禁止</BreastfeedFailReason_MomForbiddenToHauler>
   <!-- EN: {MOM_labelShort} can breastfeed {BABY_labelShort} without help -->
-  <BreastfeedFailReason_MomIsMobile>{MOM_labelShort}在没有帮助的情况下无法对{BABY_labelShort}哺乳</BreastfeedFailReason_MomIsMobile>
+  <BreastfeedFailReason_MomIsMobile>{MOM_labelShort}在缺少帮助的情况下无法母乳喂养{BABY_labelShort}</BreastfeedFailReason_MomIsMobile>
   <!-- EN: {HAULER_labelShort} cannot go from {BABY_labelShort} to {MOM_labelShort} -->
   <BreastfeedFailReason_HaulerCannotReachMom>{HAULER_labelShort}无法从{BABY_labelShort}移动到{MOM_labelShort}</BreastfeedFailReason_HaulerCannotReachMom>
   <!-- EN: {HAULER_labelShort} cannot reach {BABY_labelShort} -->
   <BreastfeedFailReason_HaulerCannotReachBaby>{HAULER_labelShort}无法接触{BABY_labelShort}</BreastfeedFailReason_HaulerCannotReachBaby>
   <!-- EN: No lactating {BABY_factionPawnsPlural} are assigned to {BABY_labelShort} -->
-  <BreastfeedFailReason_NoMomsAssignedToBaby>没有为{BABY_labelShort}分配处于哺乳期的{BABY_factionPawnsPlural}</BreastfeedFailReason_NoMomsAssignedToBaby>
+  <BreastfeedFailReason_NoMomsAssignedToBaby>未为{BABY_labelShort}分配处于哺乳期的{BABY_factionPawnsPlural}</BreastfeedFailReason_NoMomsAssignedToBaby>
   <!-- EN: {MOM_labelShort} is not assigned to childcare -->
-  <BreastfeedFailReason_MomNotAssignedToChildcare>{MOM_labelShort}没有被指派保育工作</BreastfeedFailReason_MomNotAssignedToChildcare>
+  <BreastfeedFailReason_MomNotAssignedToChildcare>{MOM_labelShort}未被分配“保育”工作</BreastfeedFailReason_MomNotAssignedToChildcare>
   <!-- EN: {MOM_labelShort} is inside a container -->
   <BreastfeedFailReason_MomInsideContainer>{MOM_labelShort}正在休眠舱中</BreastfeedFailReason_MomInsideContainer>
   <!-- EN: {MOM_labelShort} is being carried -->

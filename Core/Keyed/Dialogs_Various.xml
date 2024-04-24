@@ -635,7 +635,7 @@
   <!-- EN: Load selected -->
   <LoadSelected>加载已选项</LoadSelected>
   <!-- EN: Reset -->
-  <ResetButton>重置</ResetButton>
+  <ResetButton>重设</ResetButton>
   <!-- EN: Cancel -->
   <CancelButton>取消</CancelButton>
   <!-- EN: Close -->
@@ -659,9 +659,9 @@
   <!-- EN: Your negotiator {1_labelShort} cannot hear properly because of poor health. -->
   <NegotiatorHearingImpaired>你的谈判者{1_labelShort}由于健康原因而无法正常听声。</NegotiatorHearingImpaired>
   <!-- EN: This will affect trade prices.\n\nConsider using a healthier negotiator. -->
-  <NegotiatorCapacityImpaired>这将影响到贸易价格.\n\n请考虑换一个健康的谈判者。</NegotiatorCapacityImpaired>
+  <NegotiatorCapacityImpaired>这会对物品的交易价格产生影响。\n\n请考虑换一个健康的谈判者。</NegotiatorCapacityImpaired>
   <!-- EN: Trader has insufficient silver to fully cover this transaction.  Proceed anyways? -->
-  <ConfirmTraderShortFunds>贸易商没有足够的白银支付这次交易，继续么？</ConfirmTraderShortFunds>
+  <ConfirmTraderShortFunds>贸易商没有足够的白银支付这次交易，确定要继续么？</ConfirmTraderShortFunds>
   <!-- EN: Sort by -->
   <SortBy>排序方式</SortBy>
   <!-- EN: trader type -->
@@ -771,7 +771,7 @@
   <!-- EN: Your caravan has no food and will become hungry very quickly. -->
   <DaysWorthOfFoodWarningDialog_NoFood>你的远行队没有携带任何食物，很快便会出现挨饿的情况。</DaysWorthOfFoodWarningDialog_NoFood>
   <!-- EN: The average amount of food per day your people will forage. This value will change as you travel across biomes with different forage yield rates. -->
-  <ForagedFoodPerDayTip>你的人每天平均采集的食物量。当你抵达食物产量不同的生态区时，此数值会发生变化。</ForagedFoodPerDayTip>
+  <ForagedFoodPerDayTip>你的人每天平均采集的食物量。当你抵达食物产量不同的生态群落时，此数值会发生变化。</ForagedFoodPerDayTip>
   <!-- EN: Forage per day -->
   <ForagedFoodPerDay>食物采量</ForagedFoodPerDay>
   <!-- EN: A large part of the caravan's food will rot soon. -->
@@ -793,9 +793,9 @@
   <!-- EN: How much nutrition this food provides.\n\nFor reference: adult person needs {0} nutrition per day. -->
   <ItemNutritionTip>此食物提供多少营养值。\n\n作为参考：成年人每天需要{0}营养值。</ItemNutritionTip>
   <!-- EN: This animal can graze food from the environment instead of eating carried food. Grazing is only possible in some biomes and temperature ranges. -->
-  <AnimalCanGrazeTip>这种动物可以放牧以从环境中觅食，而非食用远行队所携带的食物。放牧只能在特定的生态区和特定的温度下进行。</AnimalCanGrazeTip>
+  <AnimalCanGrazeTip>这种动物可以放牧以从环境中觅食，而非食用远行队所携带的食物。放牧只能在特定的生态群落和特定的温度下进行。</AnimalCanGrazeTip>
   <!-- EN: Nutrition foraged per day. The actual amount foraged is also affected by biome forageability.\n\n{0} -->
-  <NutritionForagedPerDayTip>每日营养采集。实际数值也受到生态区的远行采集量影响。\n\n{0}</NutritionForagedPerDayTip>
+  <NutritionForagedPerDayTip>每日营养采集。实际数值也受到生态群落的远行采集量影响。\n\n{0}</NutritionForagedPerDayTip>
   <!-- EN: Nutrition eaten per day. For reference, simple meals have {0} nutrition. -->
   <NutritionEatenPerDayTip>每日营养消耗。作为参考，简单食物有{0}营养值。</NutritionEatenPerDayTip>
   <!-- EN: Can eat -->
@@ -1239,7 +1239,7 @@
   <!-- EN: {0_labelShort} is asleep. -->
   <AbilityCantApplyAsleep>{0_labelShort}睡着了。</AbilityCantApplyAsleep>
   <!-- EN: This tile is impassable. -->
-  <AbilityWorldTileImpassable>被禁止的头衔。</AbilityWorldTileImpassable>
+  <AbilityWorldTileImpassable>此区格无法通行。</AbilityWorldTileImpassable>
   <!-- EN: Skip to random ally -->
   <AbilitySkipToRandomAlly>折跃至随机盟友</AbilitySkipToRandomAlly>
   <!-- EN: Skip to join caravan -->
@@ -1249,9 +1249,9 @@
   <!-- EN: No chunks to skip. -->
   <AbilityNoChunkToSkip>没有块堆能折跃。</AbilityNoChunkToSkip>
   <!-- EN: Induce psychic love in -->
-  <PsychicLoveInduceIn>诱导心灵迷爱</PsychicLoveInduceIn>
+  <PsychicLoveInduceIn>诱导迷爱之语</PsychicLoveInduceIn>
   <!-- EN: Psychic love for -->
-  <PsychicLoveFor>心灵迷爱</PsychicLoveFor>
+  <PsychicLoveFor>迷爱之语</PsychicLoveFor>
   <!-- EN: If you skip {PAWN_labelShort} to another map or a caravan, the associated quest will fail and {PAWN_pronoun} will leave immediately.\n\nDo you really want to farskip {PAWN_labelShort}? -->
   <FarskipConfirmTeleportingLodger>如果你将{PAWN_labelShort}折跃至另一个地图或者远行队，与之关联的任务将会失败并且{PAWN_pronoun}会立刻离开。\n\n你确定要对{PAWN_labelShort}进行长途折跃吗？</FarskipConfirmTeleportingLodger>
   

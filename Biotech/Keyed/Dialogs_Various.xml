@@ -5,7 +5,7 @@
   <!-- EN: Any mechanitor -->
   <AnyMechanitor>任意机械师</AnyMechanitor>
   <!-- EN: Summoning the {LEADERKIND_label} threat will summon the following hostile mechanoids:\n\n{PAWNS}\n\nThe mechanoids will arrive in the next few hours or days. Are you ready to fight? -->
-  <BossgroupWarningDialog>召唤{LEADERKIND_label}将召唤出以下敌对机械体：\n\n{PAWNS}\n\n这些机械体将在未来几小时或几天内抵达，你做好准备了吗？</BossgroupWarningDialog>
+  <BossgroupWarningDialog>召唤{LEADERKIND_label}会吸引以下敌对机械体：\n\n{PAWNS}\n\n这些机械体将在未来几小时或几天后抵达，你做好迎战的准备了吗？</BossgroupWarningDialog>
   <!-- EN: {PAWN_labelShort} is downed. -->
   <MechControllerDowned>{PAWN_labelShort}无法行动。</MechControllerDowned>
   <!-- EN: {PAWN_labelShort} is a prisoner. -->
@@ -15,13 +15,13 @@
   <!-- EN: {PAWN_labelShort} has insufficient bandwidth -->
   <MechControllerInsufficientBandwidth>{PAWN_labelShort}带宽不足</MechControllerInsufficientBandwidth>
   <!-- EN: {PAWN_labelShort} is in a '{MENTALSTATE_label}' mental state. -->
-  <MechControllerMentalState>{PAWN_labelShort}正处于'{MENTALSTATE_label}'状态。</MechControllerMentalState>
+  <MechControllerMentalState>{PAWN_labelShort}已陷入“{MENTALSTATE_label}”精神状态。</MechControllerMentalState>
   <!-- EN: Do you really want to permanently disassemble {0}?\n\nPermanently disassembling {0} will recover -->
   <ConfirmDisassemblingMech>你真的想要永久拆解{0}吗？\n\n永久拆解{0}将会回收</ConfirmDisassemblingMech>
   <!-- EN: A mechanitor must be capable of smithing to create mechanoids.\n\nAre you sure you want to continue? -->
-  <ConfirmInstallMechlink_Smithing>一位机械师必须拥有锻造能力以组装机械体。\n\n您确定继续吗？</ConfirmInstallMechlink_Smithing>
+  <ConfirmInstallMechlink_Smithing>一名机械师必须可以从事“锻造”工作才能培育机械体。\n\n您确定继续吗？</ConfirmInstallMechlink_Smithing>
   <!-- EN: A mechanitor must be capable of intellectual tasks to unlock mechanitor research.\n\nAre you sure you want to continue? -->
-  <ConfirmInstallMechlink_Intellectual>一位机械师必须拥有研究能力以解锁机械体相关的研究。\n\n您确定继续吗？</ConfirmInstallMechlink_Intellectual>
+  <ConfirmInstallMechlink_Intellectual>一名机械师可以从事“锻造”工作才能解锁与机械体相关的研究项目。\n\n您确定继续吗？</ConfirmInstallMechlink_Intellectual>
   <!-- EN: insufficient bandwidth -->
   <InsufficientBandwidth>带宽不足</InsufficientBandwidth>
   <!-- EN: The following mechs have been left behind by {PAWN_labelShort}:\n\n{MECHS}\n\nThe mechs will stay here until they are picked up.\n\nWould you like to set their work mode to escort so they follow {PAWN_labelShort} off the map? -->
@@ -37,7 +37,7 @@
   <!-- EN: Gestation cycles completed -->
   <GestationCyclesCompleted>已完成培育周期</GestationCyclesCompleted>
   <!-- EN: Gathered ingredients -->
-  <FormerIngredients>已收集的材料</FormerIngredients>
+  <FormerIngredients>已收集的原料</FormerIngredients>
 
   <!-- Subcore scanner -->
   <!-- EN: Ripscanning {PAWN_nameDef} will kill {PAWN_objective}. Are you sure you want to continue? -->
@@ -219,7 +219,7 @@
 
   <!-- Deathrest -->
   <!-- EN: Waking {PAWN_nameDef} before {MINDURATION} has passed will interrupt {PAWN_possessive} deathrest, leaving {PAWN_objective} sick for days while {PAWN_pronoun} recovers. Waking early means {PAWN_nameDef} will not benefit from any deathrest buildings. {PAWN_pronoun} has been deathresting for {CURDURATION}.\n\nAre you sure you wish to wake {PAWN_nameDef}? -->
-  <WarningWakingInterruptsDeathrest>在{MINDURATION}过去之前唤醒{PAWN_nameDef}将打断{PAWN_possessive}死眠，这会导致{PAWN_objective}在{PAWN_pronoun}恢复期内虚弱数天。提前唤醒意味着{PAWN_nameDef}将不会从死眠建筑中获得任何收益。{PAWN_pronoun}已经进行了{CURDURATION}的死眠\n\n你确定想要唤醒{PAWN_nameDef}吗？</WarningWakingInterruptsDeathrest>
+  <WarningWakingInterruptsDeathrest>在{MINDURATION}过去之前唤醒{PAWN_nameDef}将打断{PAWN_possessive}死眠，这会导致{PAWN_objective}在{PAWN_pronoun}恢复期内虚弱数天。提前唤醒意味着{PAWN_nameDef}将不会从死眠设备中获得任何加成。{PAWN_pronoun}已经进行了{CURDURATION}的死眠\n\n你确定想要唤醒{PAWN_nameDef}吗？</WarningWakingInterruptsDeathrest>
 
   <!-- Text motes -->
   <!-- EN: {0} wounds tended -->
@@ -235,21 +235,21 @@
   <!-- EN: Work activities -->
   <MechWorkActivities>工作类型</MechWorkActivities>
   <!-- EN: The work activities that can be performed by this mechanoid.\n\nThe following list details which work activities can be done within each work type -->
-  <MechWorkActivitiesExplanation>该类机械体可进行的工作活动。\n\n以下列表详细说明了在每个工作类型中可以完成哪些工作活动</MechWorkActivitiesExplanation>
+  <MechWorkActivitiesExplanation>此机械体可从事的工作类型。\n\n以下列表详细说明了在每个工作类型中可以完成哪些工作</MechWorkActivitiesExplanation>
   <!-- EN: Recharge settings -->
-  <MechRechargeSettingsTitle>充能设置</MechRechargeSettingsTitle>
+  <MechRechargeSettingsTitle>充电设置</MechRechargeSettingsTitle>
   <!-- EN: Change when mechanoids will start and stop charging.\n\nMechanoids with energy below this range will automatically seek out a recharger. They will stop charging once they reach the top of this range. These settings only apply in work mode. -->
-  <MechRechargeSettingsExplanation>改变机械体开始和停止充电的时间。\n\n能量低于这个范围的机械体将自动寻找一个充电站。一旦它们达到这个范围的最大值，它们将停止充电。这些设置只适用于工作模式。</MechRechargeSettingsExplanation>
+  <MechRechargeSettingsExplanation>更改机械体何时开始和停止补充能量。\n\n能量值低于这个范围的机械体将自动寻找一个充电站。一旦它们达到这个范围的最大值，它们将停止补充能量。这些设置只适用于行动模式。</MechRechargeSettingsExplanation>
   <!-- EN: Work skill -->
-  <MechWorkSkill>技能水平</MechWorkSkill>
+  <MechWorkSkill>技能等级</MechWorkSkill>
   <!-- EN: The skill level that this mechanoid acts with. -->
-  <MechWorkSkillDesc>此机械体的技能水平。</MechWorkSkillDesc>
+  <MechWorkSkillDesc>此机械体的技能等级。</MechWorkSkillDesc>
   <!-- EN: Any mech -->
   <AnyMech>任意机械体</AnyMech>
   <!-- EN: Any human -->
   <AnyNonMech>任意人类</AnyNonMech>
   <!-- EN: Your caravan contains a mechanoid but not their overseer. You will have limited control over the mechanoid when you reach your destination. -->
-  <CaravanLacksMechMechanitorWarning>你的商队中有机械体，但没有他们的监管者。当你到达目的地时，你对机械体的控制将是有限的。</CaravanLacksMechMechanitorWarning>
+  <CaravanLacksMechMechanitorWarning>你的商队中有机械体，但没有他们的监管者。当你抵达目的地时，你对机械体的控制将是有限的。</CaravanLacksMechMechanitorWarning>
   <!-- EN: Mechanoids -->
   <MechsSection>机械体</MechsSection>
 
@@ -292,13 +292,13 @@
   <!-- EN: Placing {PAWN_nameDef} into cryptosleep will strain {PAWN_possessive} psychic bond with {BOND_nameDef}, causing stress to both partners.\n\nAre you sure you want to continue? -->
   <PsychicBondDistanceWillBeActive_Cryptosleep>将{PAWN_nameDef}置入低温休眠将会对其与{BOND_nameDef}的心灵纽带带来负担，这会对双方造成一定压力。\n\n你确定想要继续吗？</PsychicBondDistanceWillBeActive_Cryptosleep>
   <!-- EN: Someone in this caravan is psychically bonded by their partner is not coming with them. These people will be stressed if separated from their bond-partners -->
-  <PsychicBondDistanceWillBeActive_Caravan>远行队中的某人正与未入队的其他人维系心灵共鸣。他们会因为心灵共鸣被分隔而产生压力。</PsychicBondDistanceWillBeActive_Caravan>
+  <PsychicBondDistanceWillBeActive_Caravan>远行队中的某人正与其未入队的心灵伴侣维系心灵纽带。他们会因为心灵纽带暂时断开而产生压力。</PsychicBondDistanceWillBeActive_Caravan>
   <!-- EN: partner {0_nameFull} -->
-  <Partner>共鸣{0_nameFull}</Partner>
+  <Partner>心灵伴侣{0_nameFull}</Partner>
 
 
   <!-- EN: Choose mech accent color -->
-  <ChooseMechAccentColor>选择机械体突出颜色</ChooseMechAccentColor>
+  <ChooseMechAccentColor>选择机械体涂装颜色</ChooseMechAccentColor>
 
   <!-- Faction specific comms overrides -->
   <!-- EN: {0} squeals a string of curses into the microphone and disconnects. -->
@@ -310,14 +310,14 @@
   <!-- EN: Oinking enthusiastically, {0} greets {NEGOTIATOR_labelShort} and asks what {LEADER_pronoun} can do to help you. -->
   <PigFactionGreetingWarm>哼哧，{0}向{NEGOTIATOR_labelShort}问好，并询问{LEADER_pronoun}能做些什么来帮助你。</PigFactionGreetingWarm>
   <!-- EN: {0} agrees to send pigskin fighters to help you. -->
-  <PigMilitaryAidSent>{0}同意派猪皮战士来帮助你。</PigMilitaryAidSent>
+  <PigMilitaryAidSent>{0}同意派猪猡种战士来帮助你。</PigMilitaryAidSent>
 
   <!-- EN: {0} roars into the microphone and disconnects. -->
   <YttakinFactionGreetingHostile>{0}对着话筒怒吼，然后断开连接。</YttakinFactionGreetingHostile>
   <!-- EN: Growling under {0_possessive} breath, {0} demands that you make a gesture of friendship, like bringing gifts to one of {0_possessive} settlements or releasing {0_possessive} faction's prisoners unharmed. Until then, {0_pronoun} is unwilling to talk.\n\nSnarling an insult, {0_pronoun} disconnects. -->
   <YttakinFactionGreetingHostileAppreciative>{0_possessive}呼吸像是在咆哮，{0}要求你拿出诚意，比如给{0_possessive}一个定居点带去礼物，或者不受伤害地释放{0_possessive}派系的囚犯。在那之前，{0_pronoun}不愿意交谈。\n\n随着咆哮着的侮辱，{0_pronoun}断开了连接。</YttakinFactionGreetingHostileAppreciative>
   <!-- EN: {0} grumbles a greeting to {NEGOTIATOR_labelShort} and asks why you are calling. -->
-  <YttakinFactionGreetingWary>{0}咕哝着向{NEGOTIATOR_labelShort}表示问候，并问你为什么打电话。</YttakinFactionGreetingWary>
+  <YttakinFactionGreetingWary>{0}咕哝着向{NEGOTIATOR_labelShort}表示问候，并问你为什么发出呼叫。</YttakinFactionGreetingWary>
   <!-- EN: {0} bellows a friendly greeting and asks what {LEADER_pronoun} can do to help you. -->
   <YttakinFactionGreetingWarm>{0}发出友好的问候，并询问{LEADER_pronoun}能做些什么来帮助你。</YttakinFactionGreetingWarm>
 
@@ -341,7 +341,7 @@
   <!-- EN: Next growth tier -->
   <NextGrowthTier>下一成长评级</NextGrowthTier>
   <!-- EN: Choose {0} passions from {1} options. -->
-  <NumPassionsFromOptions>从{1}可选项中选择{0}项兴趣。</NumPassionsFromOptions>
+  <NumPassionsFromOptions>从{1}可选项中选择{0}项兴趣度。</NumPassionsFromOptions>
   <!-- EN: Choose {0} trait from {1} options. -->
   <NumTraitsFromOptions>从{1}可选项中选择{0}项特性。</NumTraitsFromOptions>
   <!-- EN: Next growth moment at age -->
@@ -363,6 +363,6 @@
   <ConfirmAbandonHomeWithColonyPawnsIncMechs>你的一些殖民者、动物或机械体都在这个区域。你确定你要放弃它吗？\n\n以下人员、动物和机械体将被遗弃\n\n{0}</ConfirmAbandonHomeWithColonyPawnsIncMechs>
 
   <!-- UNUSED -->
-  <ConfirmInstallMechlink>机械师必须具备锻造能力才能制造机械体\n\n你确定要继续吗？</ConfirmInstallMechlink>
+  <ConfirmInstallMechlink>机械师必须具备锻造能力才能制造机械体。\n\n你确定要继续吗？</ConfirmInstallMechlink>
 
 </LanguageData>
