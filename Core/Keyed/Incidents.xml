@@ -8,13 +8,13 @@
   <!-- EN: Mad {0} -->
   <LetterLabelAnimalInsanityMultiple>大批{0}发狂</LetterLabelAnimalInsanityMultiple>
   <!-- EN: Some sort of psychic wave has swept over the landscape. Your colonists are okay, but...\n\nIt seems many of the {0} in the area have been driven insane. -->
-  <AnimalInsanityMultiple>某种心灵波扫过了整个地区。你的殖民者们没出什么问题，但是……\n\n看来地区内的许多{0}都因此发狂了。</AnimalInsanityMultiple>
+  <AnimalInsanityMultiple>某种心灵波扫过了整个地区。你的殖民者们没出什么问题，但是...\n\n看来这片区域内的许多{0}都因此发狂了。</AnimalInsanityMultiple>
 
   <!-- EN: Blight: {PLANTDEF_labelPlural} -->
   <LetterLabelCropBlight>枯萎病：{PLANTDEF_labelPlural}</LetterLabelCropBlight>
   <!-- EN: Blight has been discovered on the {PLANTDEF_labelPlural}!
 \nYou should cut or burn the affected plants before the blight spreads. -->
-  <LetterCropBlight>一位殖民者注意到你的{PLANTDEF_labelPlural}发生了枯萎病！\n你应该在枯萎病扩散之前割除或烧掉枯萎的植物。</LetterCropBlight>
+  <LetterCropBlight>一名殖民者注意到你的{PLANTDEF_labelPlural}发生了枯萎病！\n你应该在枯萎病扩散之前割除或烧掉枯萎的植物。</LetterCropBlight>
 
   <!-- EN: Miracle -->
   <LetterLabelMiracleHeal>医疗奇迹</LetterLabelMiracleHeal>
@@ -23,11 +23,11 @@
 
   <!-- Enemy raids -->
   <!-- EN: One of the {LEADER_factionPawnsPlural} - {LEADER_labelShort}, is the leader of the faction. -->
-  <EnemyRaidLeaderPresent>{LEADER_factionPawnsPlural}的其中一员——{LEADER_labelShort}，是该派系首领。</EnemyRaidLeaderPresent>
+  <EnemyRaidLeaderPresent>{LEADER_factionPawnsPlural}的其中一员——{LEADER_labelShort}，是该派系的领袖。</EnemyRaidLeaderPresent>
 
   <!-- Friendly raids -->
   <!-- EN: One of the {LEADER_factionPawnsPlural} - {LEADER_labelShort}, is the leader of the faction. -->
-  <FriendlyRaidLeaderPresent>{LEADER_factionPawnsPlural}的其中一员——{LEADER_labelShort}，是该派系首领。</FriendlyRaidLeaderPresent>
+  <FriendlyRaidLeaderPresent>{LEADER_factionPawnsPlural}的其中一员——{LEADER_labelShort}，是该派系的领袖。</FriendlyRaidLeaderPresent>
 
   <!-- EN: Transport pod crash -->
   <LetterLabelRefugeePodCrash>逃生舱坠毁</LetterLabelRefugeePodCrash>
@@ -45,7 +45,7 @@
   <!-- EN: Wanderer joins: {PAWN_nameDef} -->
   <LetterLabelWandererJoins>流浪者加入：{PAWN_nameDef}</LetterLabelWandererJoins>
   <!-- EN: A {PAWN_title} named {PAWN_nameDef} has arrived and wants to join the colony.\n\n[PAWN_pronoun] is willing to contribute, but will not leave voluntarily, claiming to have nowhere else to go. You can choose to turn {PAWN_objective} down and send {PAWN_objective} away. However, your colonists will be disturbed at sending someone away in need. -->
-  <LetterWandererJoins>一位名叫 {PAWN_nameDef} 的 {PAWN_title} 来到这里， 想要加入殖民地。\n\n[PAWN_pronoun]声称没有地方可去，并且愿意做出贡献。{PAWN_objective}不会主动离开，你可以选择拒绝{PAWN_objective}，把{PAWN_objective}送走。然而，你的殖民者会对送走一个有需要的人感到不安。</LetterWandererJoins>
+  <LetterWandererJoins>一位名叫{PAWN_nameDef}的{PAWN_title}来到这里，想要加入殖民地。\n\n[PAWN_pronoun]声称没有地方可去，并且愿意做出贡献。{PAWN_objective}不会主动离开，你可以选择拒绝{PAWN_objective}，把{PAWN_objective}送走。然而，你的殖民者们会对送走一个需要帮助的人而感到不安。</LetterWandererJoins>
 
   <!-- EN: Cargo pods -->
   <LetterLabelCargoPodCrash>货舱坠毁</LetterLabelCargoPodCrash>
@@ -73,18 +73,18 @@
   <TraderArrivalNoFaction>他们不属于任何派系。</TraderArrivalNoFaction>
 
   <!-- EN: A {PAWN_title} from {1} is passing by. {PAWN_pronoun} is named {PAWN_nameFull}. -->
-  <SingleTravelerPassing>一位来自{1}的{0}正巧路过。{PAWN_pronoun}的名字叫{PAWN_nameFull}。</SingleTravelerPassing>
+  <SingleTravelerPassing>一名来自{1}的{0}正巧路过。{PAWN_pronoun}的名字叫{PAWN_nameFull}。</SingleTravelerPassing>
   <!-- EN: A group of travelers from {0} are passing by. -->
   <GroupTravelersPassing>一群来自{0}的旅行者正巧路过。</GroupTravelersPassing>
 
   <!-- EN: Visitor -->
   <LetterLabelSingleVisitorArrives>访客</LetterLabelSingleVisitorArrives>
   <!-- EN: {PAWN_titleIndef} from {1} is visiting the colony.\n\n{PAWN_pronoun} is named {PAWN_nameFull}.{3}{4} -->
-  <SingleVisitorArrives>一位来自{1}的{PAWN_titleIndef}来拜访殖民地。\n\n{PAWN_pronoun}的名字叫{PAWN_nameFull}。{3}{4}</SingleVisitorArrives>
+  <SingleVisitorArrives>一名来自{1}的{PAWN_titleIndef}来拜访殖民地。\n\n{PAWN_pronoun}的名字叫{PAWN_nameFull}。{3}{4}</SingleVisitorArrives>
   <!-- EN: {PAWN_pronoun} seems to have a few items to trade. -->
   <SingleVisitorArrivesTraderInfo>\n\n{PAWN_pronoun}似乎有些物品可供交易。</SingleVisitorArrivesTraderInfo>
   <!-- EN: {PAWN_pronoun} is the leader of the faction. -->
-  <SingleVisitorArrivesLeaderInfo>\n\n{PAWN_pronoun}是该派系首领。</SingleVisitorArrivesLeaderInfo>
+  <SingleVisitorArrivesLeaderInfo>\n\n{PAWN_pronoun}是该派系的领袖。</SingleVisitorArrivesLeaderInfo>
   <!-- EN: Visitors -->
   <LetterLabelGroupVisitorsArrive>访客</LetterLabelGroupVisitorsArrive>
   <!-- EN: A group from {0} are visiting the colony.{1}{2} -->
@@ -92,32 +92,32 @@
   <!-- EN: They seem to have a few items to trade. -->
   <GroupVisitorsArriveTraderInfo>\n\n他们似乎有些物品可供交易。</GroupVisitorsArriveTraderInfo>
   <!-- EN: One of the visitors - {1_labelShort}, is the leader of the faction. -->
-  <GroupVisitorsArriveLeaderInfo>\n\n访客中的{1_labelShort}是该派系首领。</GroupVisitorsArriveLeaderInfo>
+  <GroupVisitorsArriveLeaderInfo>\n\n访客中的{1_labelShort}是该派系的领袖。</GroupVisitorsArriveLeaderInfo>
   <!-- EN: Visitors from {0} are leaving. -->
   <VisitorsLeaving>来自{0}的访客准备离开了。</VisitorsLeaving>
 
   <!-- EN: Manhunter pack -->
   <LetterLabelManhunterPackArrived>猎杀人类</LetterLabelManhunterPackArrived>
   <!-- EN: A pack of man-hunting {0} have entered the area! Driven insane by the disease known as scaria, they will roam the region, hunting for humanoid flesh.\n\nThey won't attack doors unless they see someone go through the door. Hide inside and you'll be safe. They also won't attack powered-off turrets, so turn your turrets off to save them.\n\nThe {0} will leave the area in one or two days. You can hide and wait them out, or fight them. -->
-  <ManhunterPackArrived>一群猎杀人类的{0}已经进入该地区。他们被狂暴症逼疯了，将四处游荡猎杀人类。\n\n它们不会从门进来，所以如果你呆在室内并关好门应该是安全的。它们也不会攻击关闭的炮塔，所以如果你想避免炮台被拆可以停止对炮塔供电。\n\n{0}将会在几天后离开。你可以躲起来等它们离开，或者与它们战斗。</ManhunterPackArrived>
+  <ManhunterPackArrived>一群猎杀人类的{0}已进入这片区域。它们被狂暴症逼疯了，将四处游荡猎杀人类。\n\n它们不会从门进来，所以如果你呆在室内并关好门应该是安全的。它们也不会攻击关闭的炮塔，所以如果你想避免炮台被拆，可以停止对炮塔供电。\n\n这群{0}将会在几天后离开。你可以躲起来等它们离开，或者与它们战斗。</ManhunterPackArrived>
   
   <!-- Crashed ship part-->
   <!-- EN: The {SOURCE_label} has emitted a psychic pulse that has driven nearby animals mad. -->
-  <MessageAnimalInsanityPulse>{SOURCE_label} 发出了一种精神脉冲，它让附近的动物都发狂了。</MessageAnimalInsanityPulse>
+  <MessageAnimalInsanityPulse>{SOURCE_label}发出了一股心灵脉冲，它让附近的动物都发狂了。</MessageAnimalInsanityPulse>
   <!-- EN: The crashed ship part has emitted a focused psychic pulse that has driven colonist {0} insane. -->
-  <LetterShipPartDroveColonistInsane>坠毁的飞船零件发射了一束心灵脉冲，它让殖民者{0}发疯了。</LetterShipPartDroveColonistInsane>
+  <LetterShipPartDroveColonistInsane>坠毁的飞船部件发出了一股心灵脉冲，它让殖民者{0}发疯了。</LetterShipPartDroveColonistInsane>
   <!-- EN: Awoke {0} days ago -->
-  <AwokeDaysAgo>苏醒于{0}天前</AwokeDaysAgo>
+  <AwokeDaysAgo>于{0}天前被唤醒。</AwokeDaysAgo>
   <!-- EN: Activated {0} days ago -->
-  <ActivatedDaysAgo>激活于{0}天前</ActivatedDaysAgo>
+  <ActivatedDaysAgo>于{0}天前被激活。</ActivatedDaysAgo>
   <!-- EN: Opened {0} days ago -->
-  <OpenedDaysAgo>打开{0}天前</OpenedDaysAgo>
+  <OpenedDaysAgo>于{0}天前被打开。</OpenedDaysAgo>
   <!-- EN: Psychic drone level: {0} -->
   <PsychicDroneLevel>心灵低语强度: {0}</PsychicDroneLevel>
   <!-- EN: Drone intensifies -->
   <LetterLabelPsychicDroneLevelIncreased>心灵低语加剧</LetterLabelPsychicDroneLevelIncreased>
   <!-- EN: The crashed ship part is now emanating a more powerful kind of psychic drone. Every {0} humanlike in the area now feels more disturbed, terrified, and paranoid. -->
-  <LetterPsychicDroneLevelIncreased>坠毁的飞船零件发出的心灵低语强度增强了。该地区的所有{0}人类的思维都受到更严重的干扰，开始变得更恐慌、更偏执。</LetterPsychicDroneLevelIncreased>
+  <LetterPsychicDroneLevelIncreased>坠毁的飞船部件产生的心灵低语强度提高了。这片区域内的所有{0}人类的思维都受到更严重的干扰，开始变得更恐慌、更偏执。</LetterPsychicDroneLevelIncreased>
   
   <!-- Agent revealed -->
   <!-- EN: Agent -->

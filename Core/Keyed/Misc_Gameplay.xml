@@ -173,7 +173,7 @@
   <!-- EN: Set target fuel level to {0} -->
   <SetTargetFuelLevel>设定目标燃料量至{0}</SetTargetFuelLevel>
   <!-- EN: Set target fuel level to {0}\nMax distance: {1} tiles -->
-  <SetPodLauncherTargetFuelLevel>设定目标燃料量至{0}\n最大射程: {1} 地图格</SetPodLauncherTargetFuelLevel>
+  <SetPodLauncherTargetFuelLevel>设定目标燃料量至{0}\n最大射程: {1} 区格</SetPodLauncherTargetFuelLevel>
   <!-- EN: Target fuel level: {0} -->
   <ConfiguredTargetFuelLevel>目标燃料量: {0}</ConfiguredTargetFuelLevel>
   <!-- EN: enemies -->
@@ -233,7 +233,7 @@
   <!-- EN: Using bedrolls due to illness -->
   <UsingBedrollsDueToIllness>因生病而使用睡袋</UsingBedrollsDueToIllness>
   <!-- EN: Current tile movement time -->
-  <CurrentTileMovementTime>当前地图格移动耗时</CurrentTileMovementTime>
+  <CurrentTileMovementTime>当前区格移动耗时</CurrentTileMovementTime>
   <!-- EN: Visibility -->
   <Visibility>可见度</Visibility>
   <!-- EN: Temperature -->
@@ -467,15 +467,15 @@
   <!-- EN: Detonates in {0} days -->
   <DetonationCountdown>在{0}天内触发</DetonationCountdown>
   <!-- EN: Large fire explosion if damaged. -->
-  <ExplosionOnDamageWarning>若损坏会发生大爆炸。</ExplosionOnDamageWarning>
+  <ExplosionOnDamageWarning>受损后可能会发生大爆炸。</ExplosionOnDamageWarning>
   <!-- EN: Mech cluster -->
   <MechCluster>机械集群</MechCluster>
   <!-- EN: Spawning in {0} -->
   <SpawningNextPawnIn>生成{0}</SpawningNextPawnIn>
   <!-- EN: {0} assembly completes in {1}. -->
-  <MechAssemblyCompleteIn>{0}在{1}中装配完成。</MechAssemblyCompleteIn>
+  <MechAssemblyCompleteIn>{0}将于{1}后装配完成。</MechAssemblyCompleteIn>
   <!-- EN: Will assemble -->
-  <MechAssemblyNextType>将装配</MechAssemblyNextType>
+  <MechAssemblyNextType>准备装配</MechAssemblyNextType>
   <!-- EN: produced -->
   <ThingsProduced>产生</ThingsProduced>
   <!-- EN: harvested -->
@@ -489,19 +489,19 @@
   <!-- EN: Sealed -->
   <DormantCompSealed>密封</DormantCompSealed>
   <!-- EN: Ready to drop mechanoids -->
-  <DormantCompBeacon>准备空投机械体</DormantCompBeacon>
+  <DormantCompBeacon>准备空投机械体。</DormantCompBeacon>
   <!-- EN: Expired -->
   <DormantCompExpired>已过期</DormantCompExpired>
   <!-- EN: Initiates in -->
   <InitiatesIn>初始化于</InitiatesIn>
   <!-- EN: Activates in {0} -->
-  <SendSignalOnCountdownCompTime>在{0}中激活</SendSignalOnCountdownCompTime>
+  <SendSignalOnCountdownCompTime>{0}后激活。</SendSignalOnCountdownCompTime>
   <!-- EN: Neural heat -->
   <PsychicEntropy>心灵熵</PsychicEntropy>
   <!-- EN: Heat -->
   <PsychicEntropyShort>心灵熵</PsychicEntropyShort>
   <!-- EN: {0} pain boost -->
-  <PsychicEntropyPainFocus>{0}疼痛激励</PsychicEntropyPainFocus>
+  <PsychicEntropyPainFocus>{0}疼痛增幅</PsychicEntropyPainFocus>
   <!-- EN: radius {0} -->
   <ConditionCauserRadius>半径{0}</ConditionCauserRadius>
   <!-- EN: low psyfocus -->
@@ -543,7 +543,7 @@
   <!-- EN: Attack this to destroy it. -->
   <AttackToDestroy>攻击以摧毁它。</AttackToDestroy>
   <!-- EN: Remove this by attacking it. -->
-  <RemoveByAttackingTooltip>攻击以消除它。</RemoveByAttackingTooltip>
+  <RemoveByAttackingTooltip>攻击以摧毁它。</RemoveByAttackingTooltip>
   <!-- EN: Food -->
   <ThoughtFoodEatenFood>食物</ThoughtFoodEatenFood>
   <!-- EN: Ingredients -->
@@ -551,7 +551,7 @@
   <!-- EN: Shield pack -->
   <ShieldInbuilt>护盾背包</ShieldInbuilt>
   <!-- EN: Punctured - will explode soon. -->
-  <PuncturedWillExplode>被刺破——很快就会爆炸。</PuncturedWillExplode>
+  <PuncturedWillExplode>被击破——很快就会爆炸。</PuncturedWillExplode>
   <!-- EN: Click to open research window -->
   <ClickToOpenResearchTab>点击打开研究窗口</ClickToOpenResearchTab>
   <!-- EN: Target belongs to another faction. -->
@@ -599,7 +599,7 @@
   <!-- EN: Cannot use this -->
   <CannotUseGizmoMouse>不能使用</CannotUseGizmoMouse>
   <!-- EN: Buildings -->
-  <Buildings>建筑</Buildings>
+  <Buildings>建筑设备</Buildings>
   <!-- EN: not yet discovered -->
   <NotYetDiscovered>尚未发现</NotYetDiscovered>
   <!-- EN: Crawling to safety. -->
@@ -772,7 +772,7 @@
   <!-- EN: Pollution -->
   <Pollution_Label>污染</Pollution_Label>
   <!-- EN: Filth -->
-  <Filth_Label>污渍</Filth_Label>
+  <Filth_Label>污物</Filth_Label>
   
   <!-- EN: Faction -->
   <Faction_Label>派系</Faction_Label>
@@ -1018,11 +1018,11 @@
 
   <!-- Inspector general stuff -->
   <!-- EN: Select next thing in same square.\n\n(*SectionTitle)Shortcut key:(/SectionTitle) {0}\n\nYou can also do this by slowly clicking the same square again. -->
-  <SelectNextInSquareTip>选择当前单元格内的下一件东西。\n\n(*SectionTitle)快捷键: (/SectionTitle){0}\n\n你也可用鼠标左键慢速重复点击同个单元格来选择下一件物品。</SelectNextInSquareTip>
+  <SelectNextInSquareTip>选择当前地格内的下一件东西。\n\n(*SectionTitle)快捷键: (/SectionTitle){0}\n\n你也可用鼠标左键慢速重复点击同个地格来选择下一件物品。</SelectNextInSquareTip>
   <!-- EN: View information. -->
   <DefInfoTip>查看信息。</DefInfoTip>
   <!-- EN: Select next thing in same square.\n\nYou can also do this by slowly clicking the same square again. -->
-  <SelectNextInSquareTipController>在同一个方格中选择下一个物体。\n\n你也可以通过略带间隔地再次点击同一个方块来完成此操作。</SelectNextInSquareTipController>
+  <SelectNextInSquareTipController>在同一个地格中选择下一个物体。\n\n你也可以通过略带间隔地再次点击同一个地格来完成此操作。</SelectNextInSquareTipController>
 
   <!-- Hostility response -->
   <!-- EN: Change how this person will react to nearby enemies when not drafted. -->
@@ -1144,7 +1144,7 @@
   <!-- EN: Blighted -->
   <Blighted>已枯萎</Blighted>
   <!-- EN: Dying because exposed to light -->
-  <DyingBecauseExposedToLight>由于暴露在光照中即将死亡。</DyingBecauseExposedToLight>
+  <DyingBecauseExposedToLight>因暴露在光照中而即将死亡。</DyingBecauseExposedToLight>
   <!-- EN: Cut now -->
   <AutoCutNow>现在割除</AutoCutNow>
   <!-- EN: harvesting -->
@@ -1166,7 +1166,7 @@
   <!-- EN: Dumping stockpile zone -->
   <DumpingStockpile>垃圾储存区</DumpingStockpile>
   <!-- EN: Corpse stockpile zone -->
-  <CorpseStockpile>尸体存放区</CorpseStockpile>
+  <CorpseStockpile>尸体储存区</CorpseStockpile>
   <!-- EN: Priority -->
   <Priority>优先级</Priority>
   <!-- EN: Clear all -->
@@ -1308,7 +1308,7 @@
 
   <!-- Wind Turbine -->
   <!-- EN: Blocked by -->
-  <WindTurbine_WindPathIsBlockedBy>被该物品遮挡: </WindTurbine_WindPathIsBlockedBy>
+  <WindTurbine_WindPathIsBlockedBy>被该物品阻挡: </WindTurbine_WindPathIsBlockedBy>
   <!-- EN: Blocked by roof -->
   <WindTurbine_WindPathIsBlockedByRoof>被屋顶遮挡</WindTurbine_WindPathIsBlockedByRoof>
 
@@ -1342,11 +1342,11 @@
   <!-- EN: (*Name)Charlon Whitestone(/Name) is ready to begin the reactor's hibernation recovery sequence.\n\nHe warns you that the process will take about 15 days, and the energy signature will be detectable from a long distance away.\n\nThis sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
   <HibernateWarning>(*Name)沙隆·白石(/Name)准备开始反应堆的休眠唤醒程序。\n\n他警告称启动进程将会耗费大约15天，并且在很远距离外就能侦测到能量特征。这类能量特征表示具备星际飞行能力，并将吸引一群绝望的袭击者和寻宝猎人。确保第一时间做好防御。</HibernateWarning>
   <!-- EN: The reactor is ready to power up.\n\nThe process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
-  <HibernateWarningStandalone>反应炉已准备好启动。\n\n启动进程将会耗费大约15天，并且在很远距离外就能侦测到能量特征。这类能量特征表示具备星际飞行能力，并将吸引一群绝望的袭击者和寻宝猎人。确保第一时间做好防御。</HibernateWarningStandalone>
+  <HibernateWarningStandalone>反应堆已准备好启动。\n\n启动进程将会耗费大约15天，并且在很远距离外就能侦测到能量特征。这类能量特征表示具备星际飞行能力，并将吸引一群绝望的袭击者和寻宝猎人。确保第一时间做好防御。</HibernateWarningStandalone>
   <!-- EN: (*Name)Charlon Whitestone(/Name) is ready to begin the reactor's hibernation recovery sequence. He warns you that the process will take about 15 days. -->
   <HibernateWarningPacifist>(*Name)沙隆·白石(/Name)准备开始反应堆的休眠唤醒程序。他警告称此进程将耗费大约15天。</HibernateWarningPacifist>
   <!-- EN: The reactor is ready to power up. The process will take about 15 days. -->
-  <HibernateWarningStandalonePacifist>反应炉已准备好启动。此进程将耗费大约15天。</HibernateWarningStandalonePacifist>
+  <HibernateWarningStandalonePacifist>反应堆已准备好启动。此进程将耗费大约15天。</HibernateWarningStandalonePacifist>
 
   <!-- Neurotrainer -->
   <!-- EN: skilltrainer ({0}) -->
@@ -1354,7 +1354,7 @@
   <!-- EN: Use skilltrainer to learn {0} -->
   <SkillNeurotrainerUseLabel>使用技能训练器学习{0}</SkillNeurotrainerUseLabel>
   <!-- EN: A one-use super-dose of mechanites which trains a specific skill.\n\nThe dose is administered through the orbit of the eye. Once released into the brain, the mechanites quickly improve the subject's skills in a specific area, transmuting themselves into neural tissue as needed. -->
-  <SkillNeurotrainerDescription>为训练特定技能而准备的一次性超级药剂纳米机器人。这种药剂通过眼眶给药。一旦释放进入大脑，纳米机器人会迅速提升特定区域内的学科技能，将其自身转换为所需的神经组织。</SkillNeurotrainerDescription>
+  <SkillNeurotrainerDescription>为训练特定技能而准备的一次性超剂量纳米机械药剂。\n\n这种药剂通过眼眶给药。一旦释放进入大脑，纳米机械会迅速提升特定区域内的学科技能，将其自身转换为所需的神经组织。</SkillNeurotrainerDescription>
   <!-- EN: {USER_labelShort} used {1} neurotrainer to go from level {2} to level {3}. -->
   <SkillNeurotrainerUsed>{USER_labelShort}使用技能训练器将{1}技能从{2}级升至{3}级。</SkillNeurotrainerUsed>
 
@@ -1364,7 +1364,7 @@
   <!-- EN: Not installed -->
   <NotInstalled>未安装</NotInstalled>
   <!-- EN: Extracted tree will die in {time} unless replanted. -->
-  <MinifiedTreeWillDieIn>除非重新栽植，不然被掘起的树木将会在{time}死亡。</MinifiedTreeWillDieIn>
+  <MinifiedTreeWillDieIn>除非重新栽植，否则被掘起的树木将会在{time}后死亡。</MinifiedTreeWillDieIn>
 
   <!-- Art -->
   <!-- EN: Title -->
@@ -1412,7 +1412,7 @@
   <!-- EN: At near-lightspeed, the planetkiller weapon slammed into the ground with the force of a trillion hydrogen bombs. Like a water balloon shot with a rifle, this world liquified under the impact and sprayed its molten guts across the cosmos.\n\nPart of {0} is now a small asteroid belt. The rest is a molten, radioactive hellscape, constantly rippling with kilometers-high planetquakes.\n\nYou did not survive. -->
   <GameOverPlanetkillerImpact>歼星武器以接近光速的速度猛烈地击中了大地，威力相当于一万亿颗氢弹同时引爆。整颗行星就像一颗被步枪命中的装满水的气球，在强劲冲击下液化并将大量自身融化的内核抛入太空。\n\n{0}的一部分变成了一条小行星带。剩余部分则是一片融化的、布满辐射的地狱景象，数公里高的行星震波在表面来回荡漾。\n\n你没能活下来。</GameOverPlanetkillerImpact>
   <!-- EN: You've launched the ship! -->
-  <GameOverShipLaunchedIntro>你发射了逃生船！</GameOverShipLaunchedIntro>
+  <GameOverShipLaunchedIntro>你发射了逃生飞船！</GameOverShipLaunchedIntro>
   <!-- EN: Your machine persona will now try to guide the ship to a safe place. It might find a prosperous planet in this system. Or, it may undertake a centuries-long journey to another star. It might even decide to hide under ice on an asteroid for a few thousand years, waiting for someone to build a new glitterworld here.\n\nYou'll find out when you wake up. -->
   <GameOverShipLaunchedEnding>现在飞船AI会自动引导飞船至安全目的地。也许它会带你到本星系内的一颗繁盛星球上。或许它会花费数世纪航行至另一星系。甚至它选择在一颗小行星的冰层下沉睡几千年，等待其他人在此建设一个闪耀世界。\n\n一切只有在你醒来后才能知道。</GameOverShipLaunchedEnding>
   <!-- EN: These colonists escaped:\n\n{0} -->
@@ -1426,11 +1426,11 @@
   <!-- EN: Keep watching for now -->
   <GameOverKeepWatchingForNow>保持观察</GameOverKeepWatchingForNow>
   <!-- EN: Create new wanderers -->
-  <GameOverCreateNewWanderers>创造新的流浪者</GameOverCreateNewWanderers>
+  <GameOverCreateNewWanderers>生成新的流浪者</GameOverCreateNewWanderers>
   <!-- EN: Create new wanderers (must wait {0}h) -->
-  <GameOverCreateNewWanderersWait>创建新的流浪者(必须等待{0}小时)</GameOverCreateNewWanderersWait>
+  <GameOverCreateNewWanderersWait>生成新的流浪者(必须等待{0}小时)</GameOverCreateNewWanderersWait>
   <!-- EN: Everyone is dead or gone. Perhaps someone will find a use for the ruins of this place.\n\nChoose new wanderers arrive at your colony and continue the story. -->
-  <GameOverCreateNewWanderersText>每个人不是死了就是走了。也许有人会利用这个地方的废墟。选择新的流浪者到达你的殖民地并继续故事。</GameOverCreateNewWanderersText>
+  <GameOverCreateNewWanderersText>所有殖民者不是死亡就是离开了。这片遗迹也许在某天会帮上其他人的忙。\n\n选择新的流浪者抵达你的殖民地并继续故事。</GameOverCreateNewWanderersText>
   <!-- EN: Main menu -->
   <GameOverMainMenu>返回主菜单</GameOverMainMenu>
   <!-- EN: No colony -->
@@ -1448,9 +1448,9 @@
   <!-- EN: Not linked to a building -->
   <FacilityNoPotentialLinks>未链接</FacilityNoPotentialLinks>
   <!-- EN: Max connected per building -->
-  <FacilityMaxSimultaneousConnections>每个设施最大连接数</FacilityMaxSimultaneousConnections>
+  <FacilityMaxSimultaneousConnections>每个建筑最大连接数</FacilityMaxSimultaneousConnections>
   <!-- EN: Front of building is blocked. -->
-  <FacilityFrontBlocked>设施前方被堵住了。</FacilityFrontBlocked>
+  <FacilityFrontBlocked>建筑前方被阻挡。</FacilityFrontBlocked>
 
   <!-- Hediffs growth modes -->
   <!-- EN: {PAWN_labelShort}'s {1} is now growing. -->
@@ -1476,7 +1476,7 @@
   <!-- EN: unreachable for {1_labelShort} -->
   <MarriageSpotUnreachable>对{1_labelShort}无法到达</MarriageSpotUnreachable>
   <!-- EN: in prison cell -->
-  <MarriageSpotInPrisonCell>位于监狱中</MarriageSpotInPrisonCell>
+  <MarriageSpotInPrisonCell>在牢房中</MarriageSpotInPrisonCell>
   <!-- EN: uncomfortable temperature -->
   <NotEnjoyableOutsideTemperature>温度不适宜</NotEnjoyableOutsideTemperature>
 
@@ -1506,7 +1506,7 @@
   <!-- EN: Progress to next lump -->
   <ProgressToNextLump>生产进度</ProgressToNextLump>
   <!-- EN: Resource below -->
-  <ResourceBelow>矿脉</ResourceBelow>
+  <ResourceBelow>地下资源</ResourceBelow>
   <!-- EN: Progress to next portion -->
   <ProgressToNextPortion>进度</ProgressToNextPortion>
   <!-- EN: No resources below. -->
@@ -1558,9 +1558,9 @@
   <!-- EN: {Key:Cancel}: Exit planning mode. -->
   <RoutePlannerPressEscapeToExitController>{Key:Cancel}: 退出规划模式</RoutePlannerPressEscapeToExitController>
   <!-- EN: ESC: Return to the caravan formation dialog. -->
-  <RoutePlannerPressEscapeToReturnToCaravanFormationDialog>ESC键: 返回远行队组建对话框。</RoutePlannerPressEscapeToReturnToCaravanFormationDialog>
+  <RoutePlannerPressEscapeToReturnToCaravanFormationDialog>ESC键: 返回远行队组建界面。</RoutePlannerPressEscapeToReturnToCaravanFormationDialog>
   <!-- EN: {Key:Cancel}: Return to the caravan formation dialog. -->
-  <RoutePlannerPressEscapeToReturnToCaravanFormationDialogController>{Key:Cancel}: 返回远行队组建对话框。</RoutePlannerPressEscapeToReturnToCaravanFormationDialogController>
+  <RoutePlannerPressEscapeToReturnToCaravanFormationDialogController>{Key:Cancel}: 返回远行队组建界面。</RoutePlannerPressEscapeToReturnToCaravanFormationDialogController>
   <!-- EN: Est. travel time: {0} -->
   <EstimatedTimeToWaypoint>预计用时：{0}</EstimatedTimeToWaypoint>
   <!-- EN: Est. travel time (from previous waypoint): {0} -->
@@ -1588,9 +1588,9 @@
 
   <!-- Transport pods -->
   <!-- EN: {0}: See available orders... -->
-  <ClickToSeeAvailableOrders_WorldObject>{0}：查看可用命令……</ClickToSeeAvailableOrders_WorldObject>
+  <ClickToSeeAvailableOrders_WorldObject>{0}：查看可用命令...</ClickToSeeAvailableOrders_WorldObject>
   <!-- EN: See available orders... -->
-  <ClickToSeeAvailableOrders_Empty>查看可用命令……</ClickToSeeAvailableOrders_Empty>
+  <ClickToSeeAvailableOrders_Empty>查看可用命令...</ClickToSeeAvailableOrders_Empty>
   
   <!-- Pawn tooltips -->
   <!-- EN: {0} ({1})\n{2}\n{3} -->
@@ -1604,13 +1604,13 @@
   <!-- EN: Fall rate: {0} / s ({1}s until zero) -->
   <PawnTooltipPsychicEntropyStats>降低速率：{0}/秒 （{1}秒归零）</PawnTooltipPsychicEntropyStats>
   <!-- EN: Neural heat increases after using a psychic power. Surpassing the normal limit may cause a psychic breakdown lasting days.\n\nNeural heat dissipates naturally over time. This process can be accelerated by wearing eltex apparel or being in pain. -->
-  <PawnTooltipPsychicEntropyDesc>心灵熵在释放心灵能力之后会增加。超过常规限制之后可能会导致持续数天的心灵崩溃。\n\n心灵熵会随着时间自然消散。这一过程可以通过穿着灵质服装或者感受苦痛来加快。</PawnTooltipPsychicEntropyDesc>
+  <PawnTooltipPsychicEntropyDesc>施展灵能后会积累心灵熵。心灵熵超过常规限制之后可能会导致持续数天的心灵崩溃。\n\n心灵熵会随着时间自然消散。这一过程可以通过穿着灵质服装或者疼痛刺激来加快。</PawnTooltipPsychicEntropyDesc>
   <!-- EN: Pain boost\n\nPain focuses the mind and speeds up neural heat dissipation.\n\nPain level: {0}\nBonus to heat recovery: {1} -->
-  <PawnTooltipPsychicEntropyPainFocus>疼痛激励\n\n痛苦使思想集中；同时能够加速恢复心灵熵。\n\n疼痛等级：{0}\n心灵熵恢复倍率：{1}</PawnTooltipPsychicEntropyPainFocus>
+  <PawnTooltipPsychicEntropyPainFocus>疼痛增幅\n\n疼痛使思想集中；同时能够使心灵熵快速消散。\n\n疼痛等级：{0}\n心灵熵消散倍率：{1}</PawnTooltipPsychicEntropyPainFocus>
   <!-- EN: Toggle neural heat limiter. Exceeding your heat limit may cause a psychic breakdown lasting days. It won't cause permanent damage. -->
-  <PawnTooltipPsychicEntropyLimit>切换心灵熵限制器。\n\n心灵熵超限制可能会导致长期的心灵崩溃，但并不会造成永久伤害。</PawnTooltipPsychicEntropyLimit>
+  <PawnTooltipPsychicEntropyLimit>开关心灵熵限制器。\n\n心灵熵超限制可能会导致长期的心灵崩溃，但并不会造成永久伤害。</PawnTooltipPsychicEntropyLimit>
   <!-- EN: Psyfocus: {0} -->
-  <PawnTooltipPsyfocus>精神力：{0}}</PawnTooltipPsyfocus>
+  <PawnTooltipPsyfocus>精神力：{0}</PawnTooltipPsyfocus>
   
   <!-- Pawn tooltip description -->
   <!-- EN: {0} {1} -->
@@ -1632,7 +1632,7 @@
   <!-- EN: your faction relations with {0_name} will improve by {1} -->
   <Reward_Goodwill>你与{0_name}的派系关系将提高{1}</Reward_Goodwill>
   <!-- EN: you will be taken to the stars -->
-  <Reward_PassageOffworld>你将被带到星星上</Reward_PassageOffworld>
+  <Reward_PassageOffworld>你将被带到群星之间</Reward_PassageOffworld>
   <!-- EN: Passage offworld -->
   <Reward_PassageOffworld_Label>前往其他世界</Reward_PassageOffworld_Label>
   <!-- EN: you can loot everything from the camp -->
@@ -1694,9 +1694,9 @@
   <!-- EN: Intercepts {0} -->
   <InterceptsProjectiles>拦截{0}</InterceptsProjectiles>
   <!-- EN: ground projectiles -->
-  <InterceptsProjectiles_GroundProjectiles>近地发射物</InterceptsProjectiles_GroundProjectiles>
+  <InterceptsProjectiles_GroundProjectiles>近地投射物</InterceptsProjectiles_GroundProjectiles>
   <!-- EN: aerial projectiles -->
-  <InterceptsProjectiles_AerialProjectiles>空中发射物</InterceptsProjectiles_AerialProjectiles>
+  <InterceptsProjectiles_AerialProjectiles>空中投射物</InterceptsProjectiles_AerialProjectiles>
 
   <!-- Condition causers -->
   <!-- EN: Affected gender -->
@@ -1720,14 +1720,14 @@
   <HealingRestoreBodyPart>{0_nameDef}的{1}被恢复了。</HealingRestoreBodyPart>
 
   <!-- EN: Caution: Placing a building here will anger {FACTION_name}! -->
-  <WarningBuildingCausesHostility>注意：在这里放置一个建筑物会激怒{FACTION_name}！</WarningBuildingCausesHostility>
+  <WarningBuildingCausesHostility>注意：在这里放置一个建筑会激怒{FACTION_name}！</WarningBuildingCausesHostility>
 
   <!-- EN: Choose landing site -->
   <ChooseLandingSite>选择着陆点</ChooseLandingSite>
 
   <!-- LordJobs -->
   <!-- EN: Outcome chances at {0} quality -->
-  <LordJobOutcomeChances>结果在{0}质量的机会</LordJobOutcomeChances>
+  <LordJobOutcomeChances>结果为{0}质量的几率</LordJobOutcomeChances>
   <!-- EN: Expected duration -->
   <ExpectedLordJobDuration>预计持续时间</ExpectedLordJobDuration>
 
@@ -1870,17 +1870,17 @@
   <!-- EN: blind smoke -->
   <BlindSmoke>致盲烟雾</BlindSmoke>
   <!-- EN: tox gas -->
-  <ToxGas>毒烟</ToxGas>
+  <ToxGas>毒气</ToxGas>
   <!-- EN: rot stink -->
-  <RotStink>腐烂发臭</RotStink>
+  <RotStink>腐气</RotStink>
   <!-- EN: deadlife dust -->
-  <DeadlifeDust>deadlife尘埃</DeadlifeDust> 
+  <DeadlifeDust>死灵尘</DeadlifeDust> 
 
   <!-- Abilities -->
   <!-- EN: must be drafted. -->
-  <AbilityDisabledUndrafted>必须先行征召。</AbilityDisabledUndrafted>
+  <AbilityDisabledUndrafted>必须处于征召状态。</AbilityDisabledUndrafted>
   <!-- EN: ability on cooldown. It will be available in {0}. -->
-  <AbilityOnCooldown>能力正在冷却中。 它会在{0}后可用。</AbilityOnCooldown>
+  <AbilityOnCooldown>能力正在冷却中。{0}后可再次使用。</AbilityOnCooldown>
   <!-- EN: ability out of charges. -->
   <AbilityNoCharges>能力超出费用范围。</AbilityNoCharges>
   <!-- EN: ability already queued. -->
