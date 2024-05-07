@@ -3,6 +3,10 @@
 
   <!-- EN: Anomaly -->
   <DifficultyAnomalySection>异象</DifficultyAnomalySection>
+  <!-- EN: Anomaly threats -->
+  <Difficulty_AnomalyThreats_Label>异象威胁</Difficulty_AnomalyThreats_Label>
+  <!-- EN: Adjust the percentage of major threats that will be Anomaly-related. -->
+  <Difficulty_AnomalyThreats_Info>调整与异象相关的大型威胁的生成率占比。</Difficulty_AnomalyThreats_Info>
   <!-- EN: Anomaly threats (inactive) -->
   <Difficulty_AnomalyThreatsInactive_Label>异象威胁（未激活巨石）</Difficulty_AnomalyThreatsInactive_Label>
   <!-- EN: Adjust the percentage of major threats that will be Anomaly-related when the monolith is not active. Only certain minor Anomaly incidents can occur when the monolith is inactive. -->
@@ -11,10 +15,23 @@
   <Difficulty_AnomalyThreatsActive_Label>异象威胁（已激活巨石）</Difficulty_AnomalyThreatsActive_Label>
   <!-- EN: Adjust the percentage of major threats that will be Anomaly-related when the monolith is active. With the current settings:\n  - {0} of major threats will be Anomaly-related at monolith level 1 and 5\n  - {1} of major threats will be Anomaly-related at monolith levels 2-4 -->
   <Difficulty_AnomalyThreatsActive_Info>巨石已被激活时，与异象相关的大型威胁的生成率占比。当前设置如下：\n - 巨石等级为1和5时，与异象相关的大型威胁的生成率占比为{0}\n - 巨石等级为2到4时，与异象相关的大型威胁的生成率占比为{1}</Difficulty_AnomalyThreatsActive_Info>
+  <!-- EN: Study efficiency -->
+  <Difficulty_StudyEfficiency_Label>调查效率</Difficulty_StudyEfficiency_Label>
+  <!-- EN: Add a multiplier to how much research is gained when studying unnatural entities. -->
+  <Difficulty_StudyEfficiency_Info>调查异常实体时，从中获取异象知识的乘数。</Difficulty_StudyEfficiency_Info>
 
   <!-- EN: Child shamblers -->
-  <Difficulty_ChildShamblersAllowed_Label>儿童活尸</Difficulty_ChildShamblersAllowed_Label>
+  <Difficulty_ChildShamblersAllowed_Label>儿童蹒跚怪</Difficulty_ChildShamblersAllowed_Label>
   <!-- EN: Reanimated child shamblers will sometimes appear. -->
-  <Difficulty_ChildShamblersAllowed_Info>将会偶尔出现儿童形态的活尸。</Difficulty_ChildShamblersAllowed_Info>
+  <Difficulty_ChildShamblersAllowed_Info>将会偶尔出现儿童形态的蹒跚怪。</Difficulty_ChildShamblersAllowed_Info>
+  
+  <!-- EN: Anomaly settings -->
+  <AnomalySettings>异象设置</AnomalySettings>
+  <!-- EN: Choose how you'd like to integrate Anomaly horror into your game: -->
+  <ChooseAnomalyPlaystyle>选择异象DLC的恐怖内容该如何融入你的游戏：</ChooseAnomalyPlaystyle>
+  <!-- EN: Update Anomaly storyteller settings. These can be modified during the game -->
+  <CanBeEditedInStorytellerSettings>更新故事叙述者的异象设置。以下选项也可以在游戏内更改</CanBeEditedInStorytellerSettings>
+  <!-- EN: Set to standard playstyle -->
+  <SetToStandardPlaystyle>导入基础模板</SetToStandardPlaystyle>
 
 </LanguageData>

@@ -15,6 +15,11 @@
   <!-- EN: This person has been hypnotized by an awoken unnatural corpse. The trance is absolute, but if the awoken corpse breaks its gaze then the hypnosis will end. -->
   <AwokenHypnosis.description>此人被一具复苏的异常尸体催眠了。虽然处于完全痴呆状态，但只要打断那具异常尸体的注视，催眠就会解除。</AwokenHypnosis.description>
   
+  <!-- EN: bioferrite extracted -->
+  <BioferriteExtracted.label>已提取活铁</BioferriteExtracted.label>
+  <!-- EN: Bioferrite has been surgically removed from this entity. It will regenerate, but the process takes days. -->
+  <BioferriteExtracted.description>最近已通过手术的方式从此实体身上提取过活铁。活铁可以再生，但需要数天时间。</BioferriteExtracted.description>
+  
   <!-- EN: bliss lobotomy -->
   <BlissLobotomy.label>极乐切脑</BlissLobotomy.label>
   <!-- EN: This person has been psychically lobotomized, placing them in a state of bliss but limiting their cognitive function. -->
@@ -33,7 +38,9 @@
   <!-- EN: severe -->
   <BloodRage.stages.severe.label>严重</BloodRage.stages.severe.label>
   <!-- EN: extreme -->
-  <BloodRage.stages.extreme.label>极重</BloodRage.stages.extreme.label>
+  <BloodRage.stages.extreme-0.label>极重</BloodRage.stages.extreme-0.label>
+  <!-- EN: extreme -->
+  <BloodRage.stages.extreme-1.label>极重</BloodRage.stages.extreme-1.label>
   
   <!-- EN: brainwipe coma -->
   <BrainwipeComa.label>洗脑昏迷</BrainwipeComa.label>
@@ -230,7 +237,7 @@
   <!-- EN: metalblood -->
   <Metalblood.label>钢血</Metalblood.label>
   <!-- EN: This creature has the metalblood compound in their bloodstream. This substance can rapidly harden the flesh when it anticipates a blow, making the user more resistant to damage. However, the bioferrite-based chemistry of this serum also makes the user particularly vulnerable to fire. -->
-  <Metalblood.description>此生物血液中混入了钢血。这种物质能够使肉体在接收冲击前迅速硬化，让使用者抵御更多伤害。然而，这种基于活性铁瓷的化学物质也让使用者面对火焰时格外脆弱。</Metalblood.description>
+  <Metalblood.description>此生物血液中混入了钢血。这种物质能够使肉体在接收冲击前迅速硬化，让使用者抵御更多伤害。然而，这种基于活铁的化学物质也让使用者面对火焰时格外脆弱。</Metalblood.description>
   
   <!-- EN: metalhorror implantation -->
   <MetalhorrorImplant.label>金属怪形植入</MetalhorrorImplant.label>
@@ -299,7 +306,7 @@
   
   <!-- EN: revenant hypnosis -->
   <RevenantHypnosis.label>幽魂催眠</RevenantHypnosis.label>
-  <!-- EN: This person has been hypnotized by a revenant and remains linked to it. They ramble about nightmarish creatures while their unblinking eyes stare at invisible horrors.\n\nAfter hypnotizing a victim, the revenant will hibernate somewhere on the same map as its victim.\n\nKilling the revenant will end the hypnosis. A hidden revenant can be revealed by disruptor flares, explosives, EMP, firefoam, or by being lit on fire. -->
+  <!-- EN: This person has been hypnotized by a revenant and remains linked to it. They ramble about nightmarish creatures while their unblinking eyes stare at invisible horrors.\n\nAfter hypnotizing a victim, the revenant will hibernate somewhere on the same map as its victim.\n\nKilling the revenant will end the hypnosis. A hidden revenant can be revealed by disruptor flares, explosives, EMP, firefoam, or fire. -->
   <RevenantHypnosis.description>此人受到幽魂催眠，并与其保持着链接。此人语无伦次地描述着噩梦般的生物，瞪大眼睛盯着那些无形的恐怖。\n\n将受害者催眠后，幽魂会在地图内某处随着受害者一同休眠。\n\n杀死幽魂即可解除催眠状态。利用眩光信号弹、爆炸物、EMP脉冲、阻燃泡沫或者火焰使幽魂现形。</RevenantHypnosis.description>
   
   <!-- EN: shard holder -->
@@ -328,7 +335,7 @@
   <!-- EN: voidsight -->
   <Voidsight.label>虚空视界</Voidsight.label>
   <!-- EN: This person has ingested a drug which enhanced their perception of dark psychic phenomena. They will gain more knowledge when studying dark psychic phenomena and entities. Their psychic sensitivity is also increased. -->
-  <Voidsight.description>此人注入了能够打通虚空视界的血清，使其研究暗黑心灵现象和实体时能够获得更多知识。同时此人的心灵敏感度也有所提高。</Voidsight.description>
+  <Voidsight.description>此人注入了能够打通虚空视界的血清，使其调查暗黑心灵现象和实体时能够获得更多异象知识。同时此人的心灵敏感度也有所提高。</Voidsight.description>
   
   <!-- EN: void touched -->
   <VoidTouched.label>虚空之拥</VoidTouched.label>

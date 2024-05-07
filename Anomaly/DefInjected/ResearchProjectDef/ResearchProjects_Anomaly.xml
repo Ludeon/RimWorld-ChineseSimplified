@@ -19,13 +19,13 @@
     <li>subject_story->遇到了一位遭到放逐的邪教领袖，此人乐此不疲地吹嘘着自己的秘密</li>
     <li>subject_story->加深了其对仪式献祭的理解</li>
     <li>subject_story->被Ix大学任命为心灵史教授</li>
-    <li>subject_gerund->正在举行高级心灵仪式</li>
+    <li>subject_gerund->举行高级心灵仪式</li>
   </AdvancedPsychicRituals.generalRules.rulesStrings>
   
   <!-- EN: atmospheric heater -->
   <AtmosphericHeater.label>大气升温器</AtmosphericHeater.label>
   <!-- EN: Build bioferrite-powered heaters that produce enough heat to warm an entire region. -->
-  <AtmosphericHeater.description>解锁建造消耗活性铁瓷运作的「大气升温器」，产生的热量足以使整个地区的温度上升。</AtmosphericHeater.description>
+  <AtmosphericHeater.description>解锁建造消耗活铁运作的「大气升温器」，产生的热量足以使整个地区的温度上升。</AtmosphericHeater.description>
   <!-- EN:
     <li>subject->bioferrite heating</li>
     <li>subject_story->upgraded archaic geothermal plants</li>
@@ -36,13 +36,13 @@
     <li>subject_gerund->constructing bioferrite-fueled heaters</li>
   -->
   <AtmosphericHeater.generalRules.rulesStrings>
-    <li>subject->使用活性铁瓷进行加热</li>
+    <li>subject->使用活铁进行加热</li>
     <li>subject_story->升级了古老的地热发电站</li>
-    <li>subject_story->研究了生物金属的热产出</li>
+    <li>subject_story->调查了生物金属的热产出</li>
     <li>subject_story->研究了超凡科技的超大容量储能技术</li>
     <li>subject_story->研究了人口密集的冰雪世界上的热坑系统</li>
-    <li>subject_gerund->使用活性铁瓷进行加热</li>
-    <li>subject_gerund->正在建造消耗活性铁瓷运作的升温器</li>
+    <li>subject_gerund->使用活铁进行加热</li>
+    <li>subject_gerund->建造消耗活铁运作的升温器</li>
   </AtmosphericHeater.generalRules.rulesStrings>
   
   <!-- EN: void provocation -->
@@ -62,20 +62,41 @@
   -->
   <BasicPsychicRituals.generalRules.rulesStrings>
     <li>subject->心灵仪式</li>
-    <li>subject_story->研究了霍拉克斯教徒的仪式</li>
+    <li>subject_story->调查了霍拉克斯教徒的仪式</li>
     <li>subject_story->重建了原始祭坛</li>
     <li>subject_story->了解了心灵交流的基础知识</li>
     <li>subject_story->在死亡世界观看了一场失败的虚空扰动仪式</li>
     <li>subject_story->与沙漠石柱顶上的暗黑超凡碎片进行了交流</li>
-    <li>subject_gerund->正在进行心灵仪式</li>
-    <li>subject_gerund->正在建立仪式举办点</li>
-    <li>subject_gerund->正在刺激虚空实体</li>
+    <li>subject_gerund->进行心灵仪式</li>
+    <li>subject_gerund->建立仪式举办点</li>
+    <li>subject_gerund->刺激虚空实体</li>
   </BasicPsychicRituals.generalRules.rulesStrings>
   
+  <!-- EN: bioferrite extraction -->
+  <BioferriteExtraction.label>活铁提取</BioferriteExtraction.label>
+  <!-- EN: Extract bioferrite directly from captured entities. Use it to craft weapons and apparel at a crafting spot or bioferrite shaper. -->
+  <BioferriteExtraction.description>通过手术的方式直接从实体身上提取活铁。这种材料可用于在手工加工点或活铁塑造台处制作武器与衣物。</BioferriteExtraction.description>
+  <!-- EN:
+    <li>subject->bioferrite extraction</li>
+    <li>subject_story->extracted an organic compound from a rapidly mutating flesh sample</li>
+    <li>subject_story->stripped and boiled the flesh of a harbinger tree</li>
+    <li>subject_story->investigated reports of an archotech phenomenon</li>
+    <li>subject_story->discovered a novel organic metal</li>
+    <li>subject_gerund->extracting bioferrite</li>
+  -->
+  <BioferriteExtraction.generalRules.rulesStrings>  
+    <li>subject->活铁提取</li>
+    <li>subject_story->从迅速突变的血肉样本中提取某种有机化合物</li>
+    <li>subject_story->剥下并沸煮厄兆噬树的血肉</li>
+    <li>subject_story->某种超凡现象的调查报告</li>
+    <li>subject_story->发现了某种珍奇的有机金属</li>
+    <li>subject_gerund->提取活铁</li>
+  </BioferriteExtraction.generalRules.rulesStrings>
+  
   <!-- EN: bioferrite generator -->
-  <BioferriteGenerator.label>活性铁瓷发电机</BioferriteGenerator.label>
+  <BioferriteGenerator.label>活铁发电机</BioferriteGenerator.label>
   <!-- EN: Build power generators that burn bioferrite as a fuel. -->
-  <BioferriteGenerator.description>建造燃烧活性铁瓷作为燃料的发电机。</BioferriteGenerator.description>
+  <BioferriteGenerator.description>建造燃烧活铁作为燃料的发电机。</BioferriteGenerator.description>
   <!-- EN:
     <li>subject->bioferrite power generation</li>
     <li>subject_story->was trained in the use of innovative power sources</li>
@@ -87,20 +108,20 @@
     <li>subject_gerund->powering generators using bioferrite</li>
   -->
   <BioferriteGenerator.generalRules.rulesStrings>
-    <li>subject->活性铁瓷发电</li>
+    <li>subject->活铁发电</li>
     <li>subject_story->接受了使用新动力源的训练</li>
     <li>subject_story->探索了金属与纤维燃料的运用</li>
     <li>subject_story->发现了自己对火焰以及燃烧物的热爱</li>
     <li>subject_story->担任技术员，负责维护轨道能源系统</li>
     <li>subject_story->从野生动物身上提取了可用作燃料的成分</li>
-    <li>subject_gerund->正在建造活性铁瓷发电机</li>
-    <li>subject_gerund->正在使用活性铁瓷为发电机提供动力</li>
+    <li>subject_gerund->建造活铁发电机</li>
+    <li>subject_gerund->使用活铁为发电机提供动力</li>
   </BioferriteGenerator.generalRules.rulesStrings>
   
-  <!-- EN: bioferrite harvesting -->
-  <BioferriteHarvesting.label>活性铁瓷采集</BioferriteHarvesting.label>
-  <!-- EN: Build bioferrite harvesters to generate bioferrite from captured entities contained in holding platforms. -->
-  <BioferriteHarvesting.description>建造活性铁瓷采集器，从收容平台收容的实体那里采集活性铁瓷。</BioferriteHarvesting.description>
+  <!-- EN: bioferrite harvester -->
+  <BioferriteHarvesting.label>活铁采集</BioferriteHarvesting.label>
+  <!-- EN: Build bioferrite harvesters that automatically extract bioferrite from captured entities. Produces more bioferrite than manual extraction. -->
+  <BioferriteHarvesting.description>建造活铁采集器，从收容平台收容的实体那里采集活铁。</BioferriteHarvesting.description>
   <!-- EN:
     <li>subject->bioferrite</li>
     <li>subject_story->investigated an exotic metal-like fibrous substance</li>
@@ -110,18 +131,18 @@
     <li>subject_gerund->harvesting bioferrite</li>
   -->
   <BioferriteHarvesting.generalRules.rulesStrings>
-    <li>subject->活性铁瓷</li>
+    <li>subject->活铁</li>
     <li>subject_story->调查了一种奇特的金属样纤维物质</li>
     <li>subject_story->对一具可怕的尸体进行了活体解剖</li>
     <li>subject_story->发现了一堆有机金属</li>
     <li>subject_story->发现了奇怪的野生动物，似乎被金属感染了</li>
-    <li>subject_gerund->正在采集活性铁瓷</li>
+    <li>subject_gerund->采集活铁</li>
   </BioferriteHarvesting.generalRules.rulesStrings>
   
   <!-- EN: bioferrite weaponry -->
-  <BioferriteIgnition.label>活性铁瓷武器</BioferriteIgnition.label>
+  <BioferriteIgnition.label>活铁武器</BioferriteIgnition.label>
   <!-- EN: Create advanced weapons that use bioferrite as a fuel source. -->
-  <BioferriteIgnition.description>制造通过活性铁瓷进行驱动的先进武器。</BioferriteIgnition.description>
+  <BioferriteIgnition.description>制造通过活铁进行驱动的先进武器。</BioferriteIgnition.description>
   <!-- EN:
     <li>subject->bioferrite combustion</li>
     <li>subject->bioferrite weaponry</li>
@@ -132,19 +153,19 @@
     <li>subject_gerund->building bioferrite-based weapons</li>
   -->
   <BioferriteIgnition.generalRules.rulesStrings>
-    <li>subject->活性铁瓷燃烧</li>
-    <li>subject->活性铁瓷武器</li>
+    <li>subject->活铁燃烧</li>
+    <li>subject->活铁武器</li>
     <li>subject_story->曾在一颗超凡小行星上进行提取采集工作</li>
     <li>subject_story->研究了珍奇材料的燃烧点</li>
     <li>subject_story->曾加入一家军事武器公司的研究部门</li>
     <li>subject_story->曾在超凡科技荒野中清除生物矿物</li>
-    <li>subject_gerund->正在制造活性铁瓷武器</li>
+    <li>subject_gerund->制造活铁武器</li>
   </BioferriteIgnition.generalRules.rulesStrings>
   
   <!-- EN: bioferrite shaping -->
-  <BioferriteShaping.label>活性铁瓷塑造</BioferriteShaping.label>
+  <BioferriteShaping.label>活铁塑造</BioferriteShaping.label>
   <!-- EN: Shape and re-form bioferrite into useful tools, weapons, flooring, and more. -->
-  <BioferriteShaping.description>将活性铁瓷塑造成各种有用的工具、武器、地板等。</BioferriteShaping.description>
+  <BioferriteShaping.description>将活铁塑造成各种有用的工具、武器、地板等。</BioferriteShaping.description>
   <!-- EN:
     <li>subject->bioferrite shaping</li>
     <li>subject_story->learned unique techniques for molding and sculpting</li>
@@ -155,13 +176,13 @@
     <li>subject_gerund->shaping bioferrite</li>
   -->
   <BioferriteShaping.generalRules.rulesStrings>
-    <li>subject->活性铁瓷塑造</li>
+    <li>subject->活铁塑造</li>
     <li>subject_story->学会了独特的铸造和雕塑技术</li>
     <li>subject_story->接受了热塑造的训练</li>
     <li>subject_story->曾在珍稀材料铸造厂工作过</li>
     <li>subject_story->帮助过一位超凡材料学家</li>
     <li>subject_story->研究过超凡神器的形成</li>
-    <li>subject_gerund->正在塑造活性铁瓷</li>
+    <li>subject_gerund->塑造活铁</li>
   </BioferriteShaping.generalRules.rulesStrings>
   
   <!-- EN: bliss lobotomy -->
@@ -181,8 +202,8 @@
     <li>subject_story->最终因思想反动而被切除脑叶</li>
     <li>subject_story->为埃尔多夫实验的少数幸存者提供了康复治疗</li>
     <li>subject_story->拥有脑外科医生以及理发师的学徒身份</li>
-    <li>subject_gerund->正在进行极乐切脑</li>
-    <li>subject_gerund->正在刺激脑组织</li>
+    <li>subject_gerund->进行极乐切脑</li>
+    <li>subject_gerund->刺激脑组织</li>
   </BlissLobotomy.generalRules.rulesStrings>
   
   <!-- EN: blood rain -->
@@ -200,10 +221,10 @@
   <BloodRain.generalRules.rulesStrings>
     <li>subject->血怒之雨</li>
     <li>subject_story->调查过古代关于有机物降雨的神话</li>
-    <li>subject_story->研究过狂躁症患者的神经回路</li>
+    <li>subject_story->调查过狂躁症患者的神经回路</li>
     <li>subject_story->对Ix飞升世界的心灵流体进行了采样</li>
     <li>subject_story->被心灵流体淋湿，内心充满了难以控制的愤怒</li>
-    <li>subject_gerund->正在召唤血怒之雨</li>
+    <li>subject_gerund->召唤血怒之雨</li>
   </BloodRain.generalRules.rulesStrings>
   
   <!-- EN: brainwipe -->
@@ -225,8 +246,8 @@
     <li>subject_story->曾在一家专为脑损伤幸存者服务的诊所工作</li>
     <li>subject_story->研究过失忆症患者的神经回路</li>
     <li>subject_story->在被遗忘的战争结束后曾管理过一座洗脑设施</li>
-    <li>subject_gerund->正在抹除受试对象的意识</li>
-    <li>subject_gerund->正在进行心灵仪式以抹除受试对象的意识</li>
+    <li>subject_gerund->抹除受试对象的意识</li>
+    <li>subject_gerund->进行心灵仪式以抹除受试对象的意识</li>
   </Brainwipe.generalRules.rulesStrings>
   
   <!-- EN: chronophagy -->
@@ -249,15 +270,15 @@
     <li>subject_story->曾破坏性地将健康组织从一个生物体复制到另一个生物体</li>
     <li>subject_story->曾将充满超凡科技的各种仪式理论化</li>
     <li>subject_story->曾在上流社会的诊所里观察过大量延寿疗法</li>
-    <li>subject_gerund->正在窃取青春</li>
-    <li>subject_gerund->正在进行时间吞噬</li>
-    <li>subject_gerund->正在进行时间吞噬仪式</li>
+    <li>subject_gerund->窃取青春</li>
+    <li>subject_gerund->进行时间吞噬</li>
+    <li>subject_gerund->进行时间吞噬仪式</li>
   </Chronophagy.generalRules.rulesStrings>
   
   <!-- EN: deadlife dust -->
   <DeadlifeDust.label>死灵尘</DeadlifeDust.label>
   <!-- EN: Craft devices that produce clouds of microscopic archites. The archites can reanimate corpses to produce deadly shamblers that will only attack your enemies. -->
-  <DeadlifeDust.description>解锁制作能散布超凡微械的设备。超凡微械可以让尸体重获行动能力，将它们转化为只会攻击敌人的致命活尸。</DeadlifeDust.description>
+  <DeadlifeDust.description>解锁制作能散布超凡微械的设备。超凡微械可以让尸体重获行动能力，将它们转化为只会攻击敌人的致命蹒跚怪。</DeadlifeDust.description>
   <!-- EN:
     <li>subject->deadlife dust</li>
     <li>subject_story->synthesized an aerosol-dispersal system for nanobots</li>
@@ -271,10 +292,10 @@
     <li>subject->死灵尘</li>
     <li>subject_story->合成了一种为超凡微械设计的气雾散布系统</li>
     <li>subject_story->曾用原子离心机分离出不同等级的超凡微械</li>
-    <li>subject_story->曾观看过在都市世界流传的活尸致命袭击事件视频</li>
+    <li>subject_story->曾观看过在都市世界流传的蹒跚怪致命袭击事件视频</li>
     <li>subject_story->开发了一种具有自动调谐敌我识别系统的超凡微械控制装置</li>
-    <li>subject_gerund->正在制作死灵尘</li>
-    <li>subject_gerund->正在散布超凡微械以制造活尸</li>
+    <li>subject_gerund->制作死灵尘</li>
+    <li>subject_gerund->散布超凡微械以制造蹒跚怪</li>
   </DeadlifeDust.generalRules.rulesStrings>
   
   <!-- EN: death refusal -->
@@ -296,14 +317,14 @@
     <li>subject_story->在第七次最终战役期间观察过很多重伤员弥留之际的行为</li>
     <li>subject_story->参与了试图复活亚歇尔先知的行动</li>
     <li>subject_story->曾在核心世界的图书馆中收集了死亡回避的证据</li>
-    <li>subject_gerund->正在欺骗死神</li>
-    <li>subject_gerund->正在进行仪式驱离死神</li>
+    <li>subject_gerund->欺骗死神</li>
+    <li>subject_gerund->进行仪式驱离死神</li>
   </DeathRefusal.generalRules.rulesStrings>
   
   <!-- EN: disruptor flares -->
   <DisruptorFlares.label>眩光照明弹</DisruptorFlares.label>
   <!-- EN: Build bioferrite-based flare packs that reveal invisible creatures and light up an area. -->
-  <DisruptorFlares.description>用活性铁瓷制造的眩光背包，可揭示隐形生物并照亮整个区域。</DisruptorFlares.description>
+  <DisruptorFlares.description>用活铁制造的眩光背包，可揭示隐形生物并照亮整个区域。</DisruptorFlares.description>
   <!-- EN:
     <li>subject->bioferrite flares</li>
     <li>subject->short-term lighting</li>
@@ -315,14 +336,14 @@
     <li>subject_gerund->crafting bioferrite flares</li>
   -->
   <DisruptorFlares.generalRules.rulesStrings>
-    <li>subject->活性铁瓷照明弹</li>
+    <li>subject->活铁照明弹</li>
     <li>subject->短时间照明</li>
     <li>subject_story->研究过肉眼不可见的电磁光谱</li>
     <li>subject_story->曾破坏过测试对象的视觉中枢</li>
     <li>subject_story->研究过暗夜世界动物的生物发光现象</li>
     <li>subject_story->研究并缩小了超凡微械能量释放的电磁频谱</li>
-    <li>subject_gerund->正在暂时提高能见度</li>
-    <li>subject_gerund->正在制作活性铁瓷照明弹</li>
+    <li>subject_gerund->暂时提高能见度</li>
+    <li>subject_gerund->制作活铁照明弹</li>
   </DisruptorFlares.generalRules.rulesStrings>
   
   <!-- EN: electroharvester -->
@@ -341,11 +362,11 @@
   <Electroharvester.generalRules.rulesStrings>
     <li>subject->实体发电</li>
     <li>subject_story->研究过细胞膜离子泵</li>
-    <li>subject_story->研究过稀有的地球电鳗的生活习性</li>
+    <li>subject_story->调查过稀有的地球电鳗的生活习性</li>
     <li>subject_story->曾刺激过超凡微械，对其热输出进行研究</li>
     <li>subject_story->理论化了超凡科技的能源潜力</li>
-    <li>subject_gerund->正从实体处汲取电力</li>
-    <li>subject_gerund->正在建造汲电器</li>
+    <li>subject_gerund->从实体处汲取电力</li>
+    <li>subject_gerund->建造汲电器</li>
   </Electroharvester.generalRules.rulesStrings>
   
   <!-- EN: entity containment -->
@@ -368,7 +389,7 @@
     <li>subject_story->曾和游击队一起潜入拘留设施</li>
     <li>subject_story->曾为恐龙世界连锁店建立肉类加工厂</li>
     <li>subject_gerund->正在收容实体</li>
-    <li>subject_gerund->正在建造实体收容设施</li>
+    <li>subject_gerund->建造实体收容设施</li>
   </EntityContainment.generalRules.rulesStrings>
   
   <!-- EN: frenzy inducer -->
@@ -390,14 +411,14 @@
     <li>subject_story->曾在荒野世界的帆船上击鼓</li>
     <li>subject_story->研究过不同超凡心灵场对人类意识的影响</li>
     <li>subject_story->曾在都市世界的地下俱乐部管理一个催眠站</li>
-    <li>subject_gerund->正在引发狂热</li>
-    <li>subject_gerund->正在建造超凡狂热诱发器</li>
+    <li>subject_gerund->引发狂热</li>
+    <li>subject_gerund->建造超凡狂热诱发器</li>
   </FrenzyInducer.generalRules.rulesStrings>
   
   <!-- EN: ghoul enhancements -->
   <GhoulEnhancements.label>食尸鬼假体</GhoulEnhancements.label>
   <!-- EN: Craft bioferrite prosthetics to make ghouls stronger. -->
-  <GhoulEnhancements.description>解锁制作能强化食尸鬼的活性铁瓷假体。</GhoulEnhancements.description>
+  <GhoulEnhancements.description>解锁制作能强化食尸鬼的活铁假体。</GhoulEnhancements.description>
   <!-- EN:
     <li>subject->ghoul enhancements</li>
     <li>subject_story->experimented with the dead and the twice-dead</li>
@@ -410,13 +431,13 @@
     <li>subject_story->曾在尸体和死而复生的尸体上做过实验</li>
     <li>subject_story->在食尸鬼身上植入过许多奇怪的物品</li>
     <li>subject_story->研究过更复杂的食尸鬼假体</li>
-    <li>subject_gerund->正在使用活性铁瓷假体强化食尸鬼</li>
+    <li>subject_gerund->使用活铁假体强化食尸鬼</li>
   </GhoulEnhancements.generalRules.rulesStrings>
   
   <!-- EN: ghoul infusion -->
   <GhoulInfusion.label>食尸鬼植入</GhoulInfusion.label>
   <!-- EN: Perform a surgery that infuses a living person with an archotech shard, transforming them into a terrifying ghoul. Ghouls are strong melee combatants but are incapable of doing work. Ghouls will go mad if they are not fed enough raw meat. -->
-  <GhoulInfusion.description>进行为活人植入暗黑超凡碎片和活性铁瓷的手术，将其变成可怕的食尸鬼。食尸鬼有很强的近战能力，但无法工作。食尸鬼如果吃不到足够的生肉就会发狂。</GhoulInfusion.description>
+  <GhoulInfusion.description>进行为活人植入暗黑超凡碎片和活铁的手术，将其变成可怕的食尸鬼。食尸鬼有很强的近战能力，但无法工作。食尸鬼如果吃不到足够的生肉就会发狂。</GhoulInfusion.description>
   <!-- EN:
     <li>subject->ghoul creation</li>
     <li>subject_story->supplied condemned prisonworld inhabitants for urbworld conflicts</li>
@@ -430,8 +451,8 @@
     <li>subject_story->曾为都市世界的战争供应监狱世界囚犯士兵</li>
     <li>subject_story->曾参与将超凡微械植入军事化的实验项目</li>
     <li>subject_story->曾在死亡世界的废墟中研究野生死灵</li>
-    <li>subject_gerund->正在将暗黑超凡碎片植入活人体内</li>
-    <li>subject_gerund->正在制造食尸鬼</li>
+    <li>subject_gerund->将暗黑超凡碎片植入活人体内</li>
+    <li>subject_gerund->制造食尸鬼</li>
   </GhoulInfusion.generalRules.rulesStrings>
   
   <!-- EN: ghoul resurrection -->
@@ -453,8 +474,8 @@
     <li>subject_story->曾向尸体注射过各种超凡科技化合物</li>
     <li>subject_story->研究过更高浓度的超凡科技对食尸鬼的影响</li>
     <li>subject_story->亲眼目睹过一只食尸鬼反复复活</li>
-    <li>subject_gerund->正在复活食尸鬼</li>
-    <li>subject_gerund->正在合成食尸鬼复活血清</li>
+    <li>subject_gerund->复活食尸鬼</li>
+    <li>subject_gerund->合成食尸鬼复活血清</li>
   </GhoulResurrection.generalRules.rulesStrings>
   
   <!-- EN: insanity weaponry -->
@@ -475,7 +496,7 @@
     <li>subject_story->曾目睹帝国军队整个营四散溃逃，了解了恐惧的价值</li>
     <li>subject_story->曾在一所疯人院工作，那里都是超凡科技的受害者</li>
     <li>subject_story->曾对感染了超凡微械的野生动物进行活体解剖，以了解其对哺乳动物大脑的影响</li>
-    <li>subject_gerund->正在将暗黑超凡碎片重组成为令人狂乱的武器</li>
+    <li>subject_gerund->将暗黑超凡碎片重组成为令人狂乱的武器</li>
   </InsanityWeaponry.generalRules.rulesStrings>
   
   <!-- EN: juggernaut serum -->
@@ -496,7 +517,7 @@
     <li>subject_story->在士兵们弹尽粮绝后向他们发放了强力血清</li>
     <li>subject_story->对合同建筑部门的血清使用情况进行过研究</li>
     <li>subject_story->曾失足坠入一整桶强力血清中</li>
-    <li>subject_gerund->正在合成强力血清</li>
+    <li>subject_gerund->合成强力血清</li>
   </JuggernautSerum.generalRules.rulesStrings>
   
   <!-- EN: metalblood serum -->
@@ -517,7 +538,7 @@
     <li>subject_story->是早期研究血液置换技术的先驱</li>
     <li>subject_story->在荒凉的死寂世界发现了一个钢血合成机</li>
     <li>subject_story->曾用火焰喷射器对付使用钢血的民兵</li>
-    <li>subject_gerund->正在合成钢血血清</li>
+    <li>subject_gerund->合成钢血血清</li>
   </MetalbloodSerum.generalRules.rulesStrings>
   
   <!-- EN: mind-numb serum -->
@@ -538,7 +559,7 @@
     <li>subject_story->曾将过滤后的低剂量思滞血清注入避难所的供水系统中</li>
     <li>subject_story->曾在战斗前后向下级士兵分发思滞血清</li>
     <li>subject_story->研究过使用超凡科技来麻痹疼痛</li>
-    <li>subject_gerund->正在合成思滞血清</li>
+    <li>subject_gerund->合成思滞血清</li>
   </MindNumbSerum.generalRules.rulesStrings>
   
   <!-- EN: mutation weaponry -->
@@ -562,10 +583,10 @@
     <li>subject_story->梦想着过上新生活，因此注射了超凡微械</li>
     <li>subject_story->曾目睹过超凡智能将植物扭曲突变</li>
     <li>subject_story->曾测试过新武器</li>
-    <li>subject_story->在飞升世界上研究过新生物</li>
+    <li>subject_story->在飞升世界上调查过新生物</li>
     <li>subject_story->在研究室中培育过超凡微械生物</li>
-    <li>subject_gerund->正在诱发突变</li>
-    <li>subject_gerund->正在将暗黑超凡碎片重组为突变武器</li>
+    <li>subject_gerund->诱发突变</li>
+    <li>subject_gerund->将暗黑超凡碎片重组为突变武器</li>
   </MutationWeaponry.generalRules.rulesStrings>
   
   <!-- EN: neurosis pulse -->
@@ -614,8 +635,8 @@
     <li>subject_story->曾在闪烁世界的实验室里研究过神经复制过程</li>
     <li>subject_story->调查过邪教受害者残缺的心灵</li>
     <li>subject_story->发现自己在受到心灵攻击后技能退步了</li>
-    <li>subject_gerund->正在转移对象的学识</li>
-    <li>subject_gerund->正在进行仪式以盗取受害者的技能</li>
+    <li>subject_gerund->转移对象的学识</li>
+    <li>subject_gerund->进行仪式以盗取受害者的技能</li>
   </Philophagy.generalRules.rulesStrings>
   
   <!-- EN: pleasure pulse -->
@@ -638,11 +659,11 @@
     <li>subject_story->曾与社会哲学家合作，创造了一种功利主义仪式</li>
     <li>subject_story->加入了一个极为罕见的追求轻松愉悦的超凡科技教派</li>
     <li>subject_gerund->施展灵能以诱发愉悦</li>
-    <li>subject_gerund->正在进行诱发愉悦的心灵仪式</li>
+    <li>subject_gerund->进行诱发愉悦的心灵仪式</li>
   </PleasurePulse.generalRules.rulesStrings>
   
   <!-- EN: proximity detector -->
-  <ProximityDetector.label>近身探测器</ProximityDetector.label>
+  <ProximityDetector.label>潜近探测器</ProximityDetector.label>
   <!-- EN: Build a device that can detect invisible creatures. -->
   <ProximityDetector.description>解锁建造能够探测隐形生物的设备。</ProximityDetector.description>
   <!-- EN:
@@ -656,14 +677,14 @@
     <li>subject_gerund->detecting invisible creatures</li>
   -->
   <ProximityDetector.generalRules.rulesStrings>
-    <li>subject->近身探测器</li>
+    <li>subject->潜近探测器</li>
     <li>subject->动作感应器</li>
     <li>subject_story->曾观看过古代娱乐片并受到启发</li>
     <li>subject_story->曾制造过简单的心灵强化装置</li>
     <li>subject_story->曾在死亡世界哨所维护过预警系统</li>
     <li>subject_story->研究过用于跨星系模式检测的多波段扫描仪</li>
-    <li>subject_gerund->正在揭示未见之物</li>
-    <li>subject_gerund->正在探测隐形生物</li>
+    <li>subject_gerund->揭示未见之物</li>
+    <li>subject_gerund->探测隐形生物</li>
   </ProximityDetector.generalRules.rulesStrings>
   
   <!-- EN: psychophagy -->
@@ -681,12 +702,12 @@
   -->
   <Psychophagy.generalRules.rulesStrings>
     <li>subject->嗜灵反应</li>
-    <li>subject_story->研究过对心灵效应的管理性增敏作用</li>
+    <li>subject_story->调查过对心灵效应的管理性增敏作用</li>
     <li>subject_story->管理过已故对象的超凡微械转移</li>
     <li>subject_story->整理了有关心灵转移仪式的谣传</li>
     <li>subject_story->曾亲眼目睹过霍拉克斯教徒吸干帝国贵族的能量</li>
-    <li>subject_gerund->正在窃取灵能</li>
-    <li>subject_gerund->正在进行嗜灵仪式</li>
+    <li>subject_gerund->窃取灵能</li>
+    <li>subject_gerund->进行嗜灵仪式</li>
   </Psychophagy.generalRules.rulesStrings>
   
   <!-- EN: revenant invisibility -->
@@ -708,8 +729,8 @@
     <li>subject_story->曾写过一部关于隐形人消失的道德观的小说</li>
     <li>subject_story->曾在死亡恒星星系中发现过奇特的金属脊椎</li>
     <li>subject_story->有个组建隐形军团的梦想</li>
-    <li>subject_gerund->正在改造幽魂脊椎</li>
-    <li>subject_gerund->正在将幽魂脊椎植入人体</li>
+    <li>subject_gerund->改造幽魂脊椎</li>
+    <li>subject_gerund->将幽魂脊椎植入人体</li>
   </RevenantInvisibility.generalRules.rulesStrings>
   
   <!-- EN: serum synthesis -->
@@ -730,7 +751,7 @@
     <li>subject_story->在死亡世界的寺庙中发现了一滩黑色油状液体</li>
     <li>subject_story->由于使用了血清，在一次危险的坠落中幸免于难</li>
     <li>subject_story->曾为核心世界军队管理血清检测计划</li>
-    <li>subject_gerund->正在合成血清</li>
+    <li>subject_gerund->合成血清</li>
   </SerumSynthesis.generalRules.rulesStrings>
   
   <!-- EN: skip abduction -->
@@ -754,8 +775,8 @@
     <li>subject_story->曾被土鼹种拾荒者赎回</li>
     <li>subject_story->目睹过邪教领袖进行一次失败的传送仪式</li>
     <li>subject_story->研究过以超凡科技为媒介的跨空间转移</li>
-    <li>subject_gerund->正在通过心灵仪式绑架敌人</li>
-    <li>subject_gerund->正在进行折跃绑架仪式</li>
+    <li>subject_gerund->通过心灵仪式绑架敌人</li>
+    <li>subject_gerund->进行折跃绑架仪式</li>
   </SkipAbductionPlayer.generalRules.rulesStrings>
   
   <!-- EN: sleep suppressor -->
@@ -774,13 +795,13 @@
   -->
   <SleepSuppressor.generalRules.rulesStrings>
     <li>subject->睡眠抑制</li>
-    <li>subject_story->研究过工厂工人睡眠不足的问题</li>
+    <li>subject_story->调查过工厂工人睡眠不足的问题</li>
     <li>subject_story->研究过帝国士兵使用兴奋剂的情况</li>
     <li>subject_story->研究过不同超凡心灵场对人类意识的影响</li>
     <li>subject_story->曾在闪光世界的催眠实验室工作，那里的富人们会在梦中过一辈子</li>
     <li>subject_story->曾管理监狱世界劳工营的熄灯排表</li>
-    <li>subject_gerund->正在建造超凡睡眠抑制器</li>
-    <li>subject_gerund->正在使用超凡科技抑制睡眠</li>
+    <li>subject_gerund->建造超凡睡眠抑制器</li>
+    <li>subject_gerund->使用超凡科技抑制睡眠</li>
   </SleepSuppressor.generalRules.rulesStrings>
   
   <!-- EN: draw animals -->
@@ -801,7 +822,7 @@
     <li>subject_story->学习过如何与田野里的野兽共处</li>
     <li>subject_story->试验过超凡微械对不同动物品种的影响</li>
     <li>subject_story->观察过一个自然教派如何与他们饲养的动物交流</li>
-    <li>subject_gerund->正在召唤兽群</li>
+    <li>subject_gerund->召唤兽群</li>
   </SummonAnimals.generalRules.rulesStrings>
   
   <!-- EN: summon fleshbeasts -->
@@ -825,8 +846,8 @@
     <li>subject_story->看过一部关于血肉融合的古代电影，深受启发</li>
     <li>subject_story->研究过有机融合中的意识转移和分离。</li>
     <li>subject_story->观察过一个土鼹种社区在地下遇到了可怕的怪物</li>
-    <li>subject_gerund->正在召唤血肉兽</li>
-    <li>subject_gerund->正在进行召唤血肉兽的仪式</li>
+    <li>subject_gerund->召唤血肉兽</li>
+    <li>subject_gerund->进行召唤血肉兽的仪式</li>
   </SummonFleshbeastsPlayer.generalRules.rulesStrings>
   
   <!-- EN: provoke pit gate -->
@@ -848,14 +869,14 @@
     <li>subject_story->收集过完全形态有机体的故事</li>
     <li>subject_story->曾管理过死亡世界邪教教派的藏书阁</li>
     <li>subject_story->曾主持过沉降仪式</li>
-    <li>subject_gerund->正在进行创造巨坑的仪式</li>
-    <li>subject_gerund->正在召唤巨坑</li>
+    <li>subject_gerund->进行创造巨坑的仪式</li>
+    <li>subject_gerund->召唤巨坑</li>
   </SummonPitGate.generalRules.rulesStrings>
   
   <!-- EN: draw shamblers -->
-  <SummonShamblers.label>吸引活尸</SummonShamblers.label>
+  <SummonShamblers.label>吸引蹒跚怪</SummonShamblers.label>
   <!-- EN: Perform a psychic ritual which will draw a horde of animated corpses. While hostile, the corpses won't attack your colony directly. They can be captured for study. -->
-  <SummonShamblers.description>进行心灵仪式，吸引一大群蹒跚而行的活尸。虽然这些活尸充满敌意，但它们不会直接攻击殖民地。可以捕获它们进行研究。</SummonShamblers.description>
+  <SummonShamblers.description>进行心灵仪式，吸引一大群浑身腐烂的蹒跚怪。虽然这些蹒跚怪充满敌意，但它们不会直接攻击殖民地。可以捕获它们进行研究。</SummonShamblers.description>
   <!-- EN:
     <li>subject->shambler summoning rituals</li>
     <li>subject_story->studied the necrocults of the deadworlds, from the safety of a university library</li>
@@ -866,19 +887,19 @@
     <li>subject_gerund->calling shamblers through ritual</li>
   -->
   <SummonShamblers.generalRules.rulesStrings>
-    <li>subject->活尸召唤仪式</li>
-    <li>subject_story->在安全的大学图书馆里研究过死寂世界的死灵崇拜</li>
-    <li>subject_story->收集了活尸袭击的故事</li>
+    <li>subject->蹒跚怪召唤仪式</li>
+    <li>subject_story->在安全的大学图书馆里调查过死寂世界的死灵崇拜</li>
+    <li>subject_story->收集了蹒跚怪袭击的故事</li>
     <li>subject_story->研究过已死亡生物的超凡微械形成</li>
     <li>subject_story->作为某个死亡世界的管理者，见过各种奇怪的事情</li>
-    <li>subject_gerund->正在召唤活尸</li>
-    <li>subject_gerund->正在通过仪式召唤活尸</li>
+    <li>subject_gerund->召唤蹒跚怪</li>
+    <li>subject_gerund->通过仪式召唤蹒跚怪</li>
   </SummonShamblers.generalRules.rulesStrings>
   
   <!-- EN: void sculptures -->
   <VoidSculptures.label>虚空雕塑</VoidSculptures.label>
   <!-- EN: Craft special void sculptures from bioferrite to enhance the quality of psychic rituals. -->
-  <VoidSculptures.description>用活性铁瓷制作特殊的虚空雕塑，提高心灵仪式的质量。</VoidSculptures.description>
+  <VoidSculptures.description>用活铁制作特殊的虚空雕塑，提高心灵仪式的质量。</VoidSculptures.description>
   <!-- EN:
     <li>subject->void sculptures</li>
     <li>subject->bioferrite sculpture</li>
@@ -892,14 +913,14 @@
   -->
   <VoidSculptures.generalRules.rulesStrings>
     <li>subject->虚空雕塑</li>
-    <li>subject->活性铁瓷雕塑</li>
+    <li>subject->活铁雕塑</li>
     <li>subject_story->用计算机模拟出了超凡科技可能性空间</li>
     <li>subject_story->受雇于一位女预言家，为她雕刻她的梦境</li>
     <li>subject_story->想让一座雕塑活过来</li>
     <li>subject_story->在梦境中见到被人类双手操控的无边海洋</li>
     <li>subject_story->观察过帝国灵媒的工作</li>
-    <li>subject_gerund->正在用活性铁瓷雕刻</li>
-    <li>subject_gerund->正在制造活性铁瓷仪式雕塑</li>
+    <li>subject_gerund->用活铁雕刻</li>
+    <li>subject_gerund->制造活铁仪式雕塑</li>
   </VoidSculptures.generalRules.rulesStrings>
   
 </LanguageData>

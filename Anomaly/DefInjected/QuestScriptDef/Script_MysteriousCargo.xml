@@ -34,7 +34,7 @@
   -->
   <MysteriousCargoRevenantSpine.questContentRules.rulesStrings>
     <li>deliveredLetterLabel->神秘货物</li>
-    <li>deliveredLetterText->神秘货物已经交付了。里面放着一个似乎由粗铸黑色金属制成的厚实、锯齿状的人体脊椎状物。表面似乎裹覆着一层黑色的液体。\n\n脊椎因触摸而颤动、扭曲。你可以在收容平台上进行研究，以了解更多信息。</li>
+    <li>deliveredLetterText->神秘货物已经交付了。里面放着一个似乎由粗铸黑色金属制成的厚实、锯齿状的人体脊椎状物。表面似乎裹覆着一层黑色的液体。\n\n脊椎因触摸而颤动、扭曲。你可以在收容平台上调查它，以了解更多信息。</li>
   </MysteriousCargoRevenantSpine.questContentRules.rulesStrings>
   <!-- EN:
     <li>questDescription(askerIsNull==true)->An anonymous AI has reached out with an odd request. It would like you to accept some unspecified cargo. It avoids all your questions about the cargo.\n\nIf you accept, it will deliver the mystery cargo by transport pod.</li>
@@ -60,8 +60,8 @@
   -->
   <MysteriousCargoUnnaturalCorpse.questContentRules.rulesStrings>
     <li>deliveredLetterLabel->神秘货物</li>
-    <li>deliveredLetterText(pawnOnMap==true)->神秘货物已经交付。里面似乎是一具人类尸体。\n\n进一步检查发现，尸体与[pawn_nameDef]简直一模一样。它的皮肤摸起来如同蜡质一般，且非常温暖。[pawn_nameDef]被它吓坏了。\n\n你可以通过研究尸体以了解更多信息。</li>
-    <li>deliveredLetterText(pawnOnMap==false)->神秘货物已经交付。里面似乎是一具人类尸体。\n\n进一步检查发现，尸体的样貌与[pawn_nameDef]一模一样。它的皮肤摸起来如同蜡质一般，且非常温暖。[pawn_nameDef]看到一定会因此吓个半死。\n\n你可以通过研究尸体以了解更多信息。</li>
+    <li>deliveredLetterText(pawnOnMap==true)->神秘货物已经交付。里面似乎是一具人类尸体。\n\n进一步检查发现，尸体与[pawn_nameDef]简直一模一样。它的皮肤摸起来如同蜡质一般，且非常温暖。[pawn_nameDef]被它吓坏了。\n\n你可以通过调查尸体以了解更多信息。</li>
+    <li>deliveredLetterText(pawnOnMap==false)->神秘货物已经交付。里面似乎是一具人类尸体。\n\n进一步检查发现，尸体的样貌与[pawn_nameDef]一模一样。它的皮肤摸起来如同蜡质一般，且非常温暖。[pawn_nameDef]看到一定会因此吓个半死。\n\n你可以通过调查尸体以了解更多信息。</li>
   </MysteriousCargoUnnaturalCorpse.questContentRules.rulesStrings>
   <!-- EN:
     <li>questDescription(askerIsNull==true)->An anonymous AI has reached out with an odd request. It would like you to accept some unspecified cargo. It avoids all your questions about the cargo.\n\nIf you accept, it will deliver the mystery cargo by transport pod.</li>

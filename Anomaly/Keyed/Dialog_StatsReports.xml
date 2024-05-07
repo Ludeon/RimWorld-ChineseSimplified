@@ -2,15 +2,15 @@
 <LanguageData>
 
   <!-- EN: Knowledge gain from study -->
-  <KnowledgeFromStudy>研究可获知识类型</KnowledgeFromStudy>
+  <KnowledgeFromStudy>调查可获知识</KnowledgeFromStudy>
   <!-- EN: The type and amount of anomaly knowledge that can be obtained when this entity is studied. More sophisticated entities can unlock more advanced anomaly research projects. -->
-  <KnowledgeFromStudyDesc>研究此实体可获得对应的异象知识。复杂的实体能够解锁更高级的异象研究项目。</KnowledgeFromStudyDesc>
+  <KnowledgeFromStudyDesc>调查此实体可获取的异象知识类型与数量。复杂的实体能够解锁更高级的异象研究项目。</KnowledgeFromStudyDesc>
   <!-- EN: {0} {1} -->
   <Stat_Knowledge>{0} {1}</Stat_Knowledge>
   <!-- EN: Study interval -->
-  <StudyFrequency>研究间隔</StudyFrequency>
+  <StudyFrequency>调查间隔</StudyFrequency>
   <!-- EN: The duration between available study periods for this entity. -->
-  <StudyFrequencyDesc>该实体进入可供研究状态的间隔。</StudyFrequencyDesc>
+  <StudyFrequencyDesc>该实体进入可供调查状态的间隔。</StudyFrequencyDesc>
   
   <!-- EN: Healing -->
   <Stat_Hediff_Regeneration_Name>愈疗</Stat_Hediff_Regeneration_Name>
@@ -39,16 +39,18 @@
   <Stat_ContainmentStrength_Platform>建筑</Stat_ContainmentStrength_Platform>
 
   <!-- EN: Bioferrite generation -->
-  <StatsReport_BioferriteGeneration>活性铁瓷产出</StatsReport_BioferriteGeneration>
-  <!-- EN: How much bioferrite this entity generates per day. When captured on a holding platform, bioferrite can be gathered from it by building a bioferrite harvester. -->
-  <StatsReport_BioferriteGeneration_Desc>此实体每天产出的活性铁瓷数量。将其捕获至收容平台后，可通过建造活性铁瓷采集器来从它身上收获活性铁瓷。</StatsReport_BioferriteGeneration_Desc>
+  <StatsReport_BioferriteGeneration>活铁产出</StatsReport_BioferriteGeneration>
+  <!-- EN: How much bioferrite this entity generates per day when connected to a bioferrite harvester. -->
+  <StatsReport_BioferriteGeneration_Desc>此实体每天产出的活铁数量。将其捕获至收容平台后，可通过建造活铁采集器来从它身上收获活铁。</StatsReport_BioferriteGeneration_Desc>
   <!-- EN: Multiplier for bioferrite density -->
-  <StatsReport_BioferriteDensityMultiplier>活性铁瓷产出乘数</StatsReport_BioferriteDensityMultiplier>
-  
+  <StatsReport_BioferriteDensityMultiplier>活铁产出乘数</StatsReport_BioferriteDensityMultiplier>
+  <!-- EN: Multiplier for bioferrite extracted recently -->
+  <StatsReport_BioferriteExtractedMultiplier>“已提取活铁”健康状态乘数</StatsReport_BioferriteExtractedMultiplier>
+
   <!-- EN: Offering -->
   <StatsReport_Offering>祭品</StatsReport_Offering>
   <!-- EN: The ingredients required to perform the psychic ritual. -->
-  <StatsReport_Offering_Desc>执行心灵仪式所需用到的材料。</StatsReport_Offering_Desc>
+  <StatsReport_Offering_Desc>执行心灵仪式所需用到的原料。</StatsReport_Offering_Desc>
 
   <!-- EN: Ritual duration -->
   <StatsReport_RitualDuration>仪式持续时间</StatsReport_RitualDuration>
@@ -63,7 +65,7 @@
   <!-- EN: Containment offset -->
   <StatsReport_ContainmentStrengthOffset>收容强度偏移</StatsReport_ContainmentStrengthOffset>
   <!-- EN: How much this affects the ability of a holding platform to constrain an entity. Entities that are better contained are less likely to escape and provide more knowledge when studied. -->
-  <StatsReport_ContainmentStrengthOffset_Desc>此数值影响着收容平台对一个实体的约束能力。被严加管束的实体更不容易逃跑，研究时也可获得更多知识。</StatsReport_ContainmentStrengthOffset_Desc>
+  <StatsReport_ContainmentStrengthOffset_Desc>此数值影响着收容平台对一个实体的约束能力。被严加管束的实体更不容易逃跑，调查时也可获取更多异象知识。</StatsReport_ContainmentStrengthOffset_Desc>
 
   <!-- EN: Duration -->
   <StatsReport_SerumDuration>持续时间</StatsReport_SerumDuration>

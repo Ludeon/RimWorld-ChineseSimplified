@@ -4,7 +4,7 @@
   <!-- EN: atmospheric heater -->
   <AtmosphericHeater.label>大气升温器</AtmosphericHeater.label>
   <!-- EN: A thermal projection device powered by scavenged shards of dark archotechnology. The device burns bioferrite to agitate gas molecules in the atmosphere, raising the local outdoor temperature. The building itself also produces huge amounts of waste heat. -->
-  <AtmosphericHeater.description>由暗黑超凡碎片驱动的热能投射设备。它能通过燃烧活性铁瓷来搅动大气中的气体分子，提高当地室外温度。它本身也会产生大量废热。</AtmosphericHeater.description>
+  <AtmosphericHeater.description>由暗黑超凡碎片驱动的热能投射设备。它能通过燃烧活铁来搅动大气中的气体分子，提高当地室外温度。它本身也会产生大量废热。</AtmosphericHeater.description>
   <!-- EN: Target outdoor temperature -->
   <AtmosphericHeater.comps.Comp_AtmosphericHeater.inspectString>目标室外温度</AtmosphericHeater.comps.Comp_AtmosphericHeater.inspectString>
   
@@ -117,7 +117,7 @@
   <!-- EN: Gray statue activated -->
   <GrayStatueDeadlifeDust.comps.CompGrayStatueGas.letterLabel>灰色雕塑已激活</GrayStatueDeadlifeDust.comps.CompGrayStatueGas.letterLabel>
   <!-- EN: Reacting to {PAWN_nameDef}'s presence, the strange statue has begun to release a cloud of deadlife dust!\n\nThis dust-like substance will settle on nearby corpses and raise them as dangerous shamblers. -->
-  <GrayStatueDeadlifeDust.comps.CompGrayStatueGas.letterText>由于{PAWN_nameDef}的出现，这座奇怪的雕塑释放出了一团死灵尘！\n\n这种尘状物质会附着在周围的尸体上，使它们重获行动能力，成为危险的活尸。</GrayStatueDeadlifeDust.comps.CompGrayStatueGas.letterText>
+  <GrayStatueDeadlifeDust.comps.CompGrayStatueGas.letterText>由于{PAWN_nameDef}的出现，这座奇怪的雕塑释放出了一团死灵尘！\n\n这种尘状物质会附着在周围的尸体上，使它们重获行动能力，成为危险的蹒跚怪。</GrayStatueDeadlifeDust.comps.CompGrayStatueGas.letterText>
   
   <!-- EN: gray statue -->
   <GrayStatueTeleporter.label>灰色雕塑</GrayStatueTeleporter.label>
@@ -143,12 +143,12 @@
   <!-- EN: holding platform -->
   <HoldingPlatform.label>收容平台</HoldingPlatform.label>
   <!-- EN: A platform for holding dangerous entities. The corners have eyelets where strong chains can be attached.\n\nDowned entities can be captured and secured on a holding platform, where they can be studied for Anomaly knowledge. Increase containment strength by building strong walls and doors, and other special containment devices. -->
-  <HoldingPlatform.description>用于收容危险实体的平台。四角有孔眼，用以拴上结实的铁链。\n\n可捕获被击倒的实体并将其收容，然后对其进行异象知识研究。通过建造坚固的墙体、门以及其他特殊的收容设备来提高收容强度。</HoldingPlatform.description>
+  <HoldingPlatform.description>用于收容危险实体的平台。四角有孔眼，用以拴上结实的铁链。\n\n倒地的实体可以捕获并安置在收容平台上，对其进行调查能获取异象知识。通过建造坚固的墙体、门以及其他特殊的收容设备来提高收容强度。</HoldingPlatform.description>
   
   <!-- EN: holding spot -->
   <HoldingSpot.label>收容点</HoldingSpot.label>
   <!-- EN: A spot for holding dangerous entities. Not as good as a steel holding platform, but a lot better than nothing.\n\nDowned entities can be secured at a holding spot where they can be studied. Increase containment strength by building strong walls and doors, and other special containment devices. -->
-  <HoldingSpot.description>用于收容危险实体的位置。不如钢制的收容平台结实，但聊胜于无。\n\n可捕获被击倒的实体并将其收容，然后对其进行异象知识研究。通过建造坚固的墙体、门以及其他特殊的收容设备来提高收容强度。</HoldingSpot.description>
+  <HoldingSpot.description>用于收容危险实体的位置。不如钢制的收容平台结实，但聊胜于无。\n\n倒地的实体可以捕获并安置在收容平台上，对其进行调查能获取异象知识。通过建造坚固的墙体、门以及其他特殊的收容设备来提高收容强度。</HoldingSpot.description>
   
   <!-- EN: noctolith -->
   <Noctolith.label>夜光柱</Noctolith.label>
@@ -187,7 +187,7 @@
   <PitGateSpawner.building.groundSpawnerLetterText>地质变动导致地面塌陷，形成了一个巨坑。\n\n这个巨坑会一直敞开，除非被人为封堵。探索巨坑，找到从下方制造塌陷并封住洞口的方法，并带回有用的物品。</PitGateSpawner.building.groundSpawnerLetterText>
   
   <!-- EN: proximity detector -->
-  <ProximityDetector.label>近身探测器</ProximityDetector.label>
+  <ProximityDetector.label>潜近探测器</ProximityDetector.label>
   <!-- EN: A scanner capable of detecting invisible creatures. The device raises an alarm when it detects the presence of psychically invisible biosignatures within its radius. -->
   <ProximityDetector.description>能够探测隐形生物的扫描仪。当其探测范围内出现心灵隐形生物时，这种设备就会发出警报。</ProximityDetector.description>
   
@@ -224,7 +224,7 @@
   <!-- EN: IED deadlife trap -->
   <TrapIED_Deadlife.label>简易死灵陷阱</TrapIED_Deadlife.label>
   <!-- EN: A pair of deadlife shells connected to a trigger which detonates on touch or bullet impact. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm.\n\nThe trap needs corpses nearby to be raised by the deadlife dust. -->
-  <TrapIED_Deadlife.description>由一个死灵弹和自制的触发机关组成的陷阱。当机关被生物触发或子弹击中后，陷阱会引发爆炸并向附近释放大量死灵尘。由于它隐藏在周围的地形中，因此不能与其他陷阱相邻。动物可以在非狂暴状态下感知陷阱。\n\n死灵尘能够将周围的人类及动物尸体转变为活尸。这些活尸只会攻击你的敌人。</TrapIED_Deadlife.description>
+  <TrapIED_Deadlife.description>由一个死灵弹和自制的触发机关组成的陷阱。当机关被生物触发或子弹击中后，陷阱会引发爆炸并向附近释放大量死灵尘。由于它隐藏在周围的地形中，因此不能与其他陷阱相邻。动物可以在非狂暴状态下感知陷阱。\n\n死灵尘能够将周围的人类及动物尸体转变为蹒跚怪。这些蹒跚怪只会攻击你的敌人。</TrapIED_Deadlife.description>
   
   <!-- EN: tactical turret -->
   <Turret_TacticalTurret.label>战术炮塔</Turret_TacticalTurret.label>
