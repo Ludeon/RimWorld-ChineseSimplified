@@ -4,7 +4,7 @@
   <!-- EN: cataphract armor -->
   <CataphractArmor.label>骑士装甲</CataphractArmor.label>
   <!-- EN: Craft cataphract armor, heavy powered armor that slows the user but which can absorb extreme punishment. Note that these also require advanced components. -->
-  <CataphractArmor.description>允许制作「骑士装甲」，一种会减缓使用者的移动速度的重型动力装甲，但能够在极端环境下承受大量伤害。注意，制作时需要高级零部件。</CataphractArmor.description>
+  <CataphractArmor.description>解锁制作「骑士装甲」，一种虽然会减缓穿戴者的移动速度，但能承受大量伤害的重型动力装甲。\n\n注意：制作时需要高级零部件。</CataphractArmor.description>
   <!-- EN:
     <li>subject->cataphract armor</li>
     <li>subject_story->first developed their cataphract-equivalent armor as a method of exploring active volcanoes</li>
@@ -12,12 +12,18 @@
     <li>subject_story->fought with the rebels and studied the armor of a captured cataphract</li>
     <li>subject_gerund->crafting cataphract armor</li>
   -->
-  <CataphractArmor.generalRules.rulesStrings>TODO</CataphractArmor.generalRules.rulesStrings>
+  <CataphractArmor.generalRules.rulesStrings>
+    <li>subject->骑士装甲</li>
+    <li>subject_story->为了探索活火山，首先研发了与骑士装甲性能相似的装备</li>
+    <li>subject_story->被委托为帝国的跳帮突击队生产定制的骑士装甲</li>
+    <li>subject_story->与变节者作战，并调查了被俘的甲胄骑士身上的装甲</li>
+    <li>subject_gerund->制作骑士装甲</li>
+  </CataphractArmor.generalRules.rulesStrings>
   
   <!-- EN: gunlink -->
   <Gunlink.label>辅瞄器</Gunlink.label>
   <!-- EN: Build wearable gunlinks to enhance your soldiers' shooting accuracy. -->
-  <Gunlink.description>制作可穿戴式辅瞄器来增强士兵的射击精度。</Gunlink.description>
+  <Gunlink.description>解锁制作可穿戴式的「辅瞄器」，能够增强士兵们的射击精度。</Gunlink.description>
   <!-- EN:
     <li>subject->accuracy enhancement</li>
     <li>subject_story->converted a glitterworld ocular implant into a more generic targeting computer</li>
@@ -25,12 +31,18 @@
     <li>subject_story->bulk-purchased gunlinks for the snipers in the army, forbidding them to front-line soldiers</li>
     <li>subject_gerund->enhancing accuracy with gunlinks</li>
   -->
-  <Gunlink.generalRules.rulesStrings>TODO</Gunlink.generalRules.rulesStrings>
+  <Gunlink.generalRules.rulesStrings>
+    <li>subject->射击精度强化</li>
+    <li>subject_story->将闪耀世界的眼部植入物改装成通用性更强的辅助计算机</li>
+    <li>subject_story->对工厂生产的辅瞄器质量很满意，虽然这会导致士兵的阵亡率因缺少头部防护而大幅上升</li>
+    <li>subject_story->为部队里的狙击手批量采购辅瞄器，并禁止他们到前线去</li>
+    <li>subject_gerund->用辅瞄器强化射击精度</li>
+  </Gunlink.generalRules.rulesStrings>
   
   <!-- EN: jump packs -->
   <JumpPack.label>跳跃背包</JumpPack.label>
   <!-- EN: Build jump packs to perform aerial assaults during combat. -->
-  <JumpPack.description>制作跳跃背包来在战斗中执行快速打击。</JumpPack.description>
+  <JumpPack.description>解锁制作「跳跃背包」，用于在战斗中执行空中突击。</JumpPack.description>
   <!-- EN:
     <li>subject->jump packs</li>
     <li>subject->short-distance flight</li>
@@ -40,12 +52,20 @@
     <li>subject_gerund->performing aerial assaults</li>
     <li>subject_gerund->crafting jump packs</li>
   -->
-  <JumpPack.generalRules.rulesStrings>TODO</JumpPack.generalRules.rulesStrings>
+  <JumpPack.generalRules.rulesStrings>
+    <li>subject->跳跃背包</li>
+    <li>subject->短距离飞行</li>
+    <li>subject_story->开办了一家以极限体验为主题的游乐园，其中包括爱抚爆炸鼠和跳跃背包教学项目</li>
+    <li>subject_story->在必须配备跳跃背包和氧气面罩的低重力星球上登山旅游</li>
+    <li>subject_story->使用跳跃背包避开军官训练的炮塔防卫设施</li>
+    <li>subject_gerund->执行空中突击</li>
+    <li>subject_gerund->制作跳跃背包</li>
+  </JumpPack.generalRules.rulesStrings>
   
   <!-- EN: noble apparel -->
-  <NobleApparel.label>贵族服饰</NobleApparel.label>
+  <NobleApparel.label>贵族衣物</NobleApparel.label>
   <!-- EN: Tailor noble-specific apparel like formal shirts and top hats. -->
-  <NobleApparel.description>允许制作贵族服饰，例如礼服衬衫和灯笼裤。</NobleApparel.description>
+  <NobleApparel.description>允许制作贵族衣物，例如礼服衬衫和灯笼裤。</NobleApparel.description>
   <!-- EN:
     <li>subject->formal apparel</li>
     <li>subject->noble apparel</li>
@@ -55,12 +75,20 @@
     <li>subject_gerund->tailoring for the nobility</li>
     <li>subject_gerund->crafting noble apparel</li>
   -->
-  <NobleApparel.generalRules.rulesStrings>TODO</NobleApparel.generalRules.rulesStrings>
+  <NobleApparel.generalRules.rulesStrings>
+    <li>subject->华丽正装</li>
+    <li>subject->贵族衣物</li>
+    <li>subject_story->为都市世界的毕业典礼制作了华丽正装</li>
+    <li>subject_story->被贵族家庭雇佣来制作设计高顶礼帽</li>
+    <li>subject_story->发明了风靡一时的新式贝雷帽</li>
+    <li>subject_gerund->为贵族订做衣物</li>
+    <li>subject_gerund->制作贵族衣物</li>
+  </NobleApparel.generalRules.rulesStrings>
   
   <!-- EN: royal apparel -->
-  <RoyalApparel.label>皇家服饰</RoyalApparel.label>
+  <RoyalApparel.label>皇家衣物</RoyalApparel.label>
   <!-- EN: Tailor royal apparel of the highest tier, like royal robes and crowns. -->
-  <RoyalApparel.description>允许制作最高等级的皇家服装，例如皇家长袍和皇冠。</RoyalApparel.description>
+  <RoyalApparel.description>允许制作最高等级的皇家衣物，例如皇家长袍和皇冠。</RoyalApparel.description>
   <!-- EN:
     <li>subject->royal apparel</li>
     <li>subject_story->worked for an entire year to create royal robes for a coronation</li>
@@ -69,6 +97,13 @@
     <li>subject_gerund->tailoring for monarchs</li>
     <li>subject_gerund->crafting royal apparel</li>
   -->
-  <RoyalApparel.generalRules.rulesStrings>TODO</RoyalApparel.generalRules.rulesStrings>
+  <RoyalApparel.generalRules.rulesStrings>
+    <li>subject->皇家衣物</li>
+    <li>subject_story->为花了一整年时间加冕典礼制作皇家长袍</li>
+    <li>subject_story->调查了不同贵族群体对家徽的需求，确保制作的任何衣物都合适</li>
+    <li>subject_story->被提拔为帝国贵族，并受委托制作自己的长袍和冠冕</li>
+    <li>subject_gerund->为君王订做衣物</li>
+    <li>subject_gerund->制作皇家衣物</li>
+  </RoyalApparel.generalRules.rulesStrings>
   
 </LanguageData>

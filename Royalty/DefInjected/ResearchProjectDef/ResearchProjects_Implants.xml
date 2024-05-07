@@ -4,7 +4,7 @@
   <!-- EN: artificial metabolism -->
   <ArtificialMetabolism.label>人工代谢</ArtificialMetabolism.label>
   <!-- EN: Craft bionics that process food more safely or efficiently than a biological stomach. -->
-  <ArtificialMetabolism.description>制作能比生物胃更安全有效的消化食物的仿生产品。</ArtificialMetabolism.description>
+  <ArtificialMetabolism.description>解锁制作能比生物胃更加安全有效地消化食物的仿生体。</ArtificialMetabolism.description>
   <!-- EN:
     <li>subject->artificial metabolism</li>
     <li>subject_story->developed a hunger so all-consuming that the installation of an artificial stomach was the only solution</li>
@@ -13,12 +13,19 @@
     <li>subject_gerund->crafting digestion-related bionics</li>
     <li>subject_gerund->crafting artificial guts</li>
   -->
-  <ArtificialMetabolism.generalRules.rulesStrings>TODO</ArtificialMetabolism.generalRules.rulesStrings>
+  <ArtificialMetabolism.generalRules.rulesStrings>  
+    <li>subject->人工代谢</li>
+    <li>subject_story->产生了某种无底洞般的饥饿感，只能通过安装人造胃来解决</li>
+    <li>subject_story->未告诉女皇安装了净毒胃的事情，并继续做她的试膳官</li>
+    <li>subject_story->对食物心生反感。核能胃可以大幅降低进食需求，虽然其产生的辐射是有害的</li>
+    <li>subject_gerund->制作仿生胃</li>
+    <li>subject_gerund->制作人造胃</li>
+  </ArtificialMetabolism.generalRules.rulesStrings>
   
   <!-- EN: brain wiring -->
   <BrainWiring.label>大脑链接</BrainWiring.label>
   <!-- EN: Craft brain implants that induce or prevent blunt sensations like joy or pain. -->
-  <BrainWiring.description>制作可以诱发或防止他人生硬情绪的脑部植入物。</BrainWiring.description>
+  <BrainWiring.description>解锁制作可以提高心情或抑制疼痛的脑部植入物。</BrainWiring.description>
   <!-- EN:
     <li>subject->brain implants</li>
     <li>subject_story->wrote a paper about the masochist cults use of mindscrews to improve their morale</li>
@@ -26,12 +33,18 @@
     <li>subject_story->had a joywire installed and, though happy after that, stumbled simply through life</li>
     <li>subject_gerund->crafting brain implants</li>
   -->
-  <BrainWiring.generalRules.rulesStrings>TODO</BrainWiring.generalRules.rulesStrings>
+  <BrainWiring.generalRules.rulesStrings>
+    <li>subject->脑部植入物</li>
+    <li>subject_story->写了一篇有关受虐狂邪教徒使用颅钉来提高士气的论文</li>
+    <li>subject_story->为一支突击小队植入了止痛芯片。他们成功歼灭了人数众多的敌军，但却伤亡惨重</li>
+    <li>subject_story->安装了乐丝芯片后感到很快乐，但终生过得磕磕绊绊</li>
+    <li>subject_gerund->制作脑部植入物</li>
+  </BrainWiring.generalRules.rulesStrings>
   
   <!-- EN: circadian influence -->
   <CircadianInfluence.label>作息节律</CircadianInfluence.label>
   <!-- EN: Craft brain implants that chemically manipulate the circadian rhythm, reducing or altering the need to sleep. -->
-  <CircadianInfluence.description>制作通过化学反应调节昼夜节律，减少睡眠需求的脑部植入物。</CircadianInfluence.description>
+  <CircadianInfluence.description>解锁制作通过化学反应调节昼夜节律，减少睡眠需求的脑部植入物。</CircadianInfluence.description>
   <!-- EN:
     <li>subject->sleep reduction implant</li>
     <li>subject_story->studied unihemispheric sleep patterns in cetaceans and proposed a new form of circadian half-cycler</li>
@@ -39,25 +52,38 @@
     <li>subject_story->studied bullfrogs and giraffes to ascertain what  xenogerms would be necessary for a circadian assistance gland</li>
     <li>subject_gerund->crafting sleep reduction implants</li>
   -->
-  <CircadianInfluence.generalRules.rulesStrings>TODO</CircadianInfluence.generalRules.rulesStrings>
+  <CircadianInfluence.generalRules.rulesStrings>
+    <li>subject->睡眠抑制植入物</li>
+    <li>subject_story->调查了鲸类生物的“单半球慢波睡眠”方式，并计划制作一种全新的作息节律器</li>
+    <li>subject_story->强制所有申请应聘城市警卫的人安装作息节律器，这样他们就能在必要时一直待在岗位上</li>
+    <li>subject_story->研究了牛蛙与长颈鹿，查明哪类异种胚芽对作息节律腺体是必要的</li>
+    <li>subject_gerund->制作睡眠抑制植入物</li>
+  </CircadianInfluence.generalRules.rulesStrings>
   
   <!-- EN: compact weaponry -->
   <CompactWeaponry.label>紧凑武器</CompactWeaponry.label>
   <!-- EN: Craft compact, concealable bionic weapons which can be embedded in various body parts. -->
-  <CompactWeaponry.description>制作紧凑的，可隐藏的仿生武器，可以嵌入人体的各个部位。</CompactWeaponry.description>
+  <CompactWeaponry.description>解锁制作紧凑且可隐藏的仿生武器，能嵌入人体的各个部位。</CompactWeaponry.description>
   <!-- EN:
     <li>subject->compact weaponry</li>
     <li>subject_story->was employed as a detective and was saved more than once by the concealed knee spike</li>
     <li>subject_story->spent a summer recovering from being slashed by an escaped slave's hand talon</li>
-    <li>subject_story-was working in security, scanning visitors to the hall, when the cyborg attempted to enter</li>
+    <li>subject_story->was working in security, scanning visitors to the hall, when the cyborg attempted to enter</li>
     <li>subject_gerund->crafting compact bionic weapons</li>
   -->
-  <CompactWeaponry.generalRules.rulesStrings>TODO</CompactWeaponry.generalRules.rulesStrings>
+  <CompactWeaponry.generalRules.rulesStrings>
+    <li>subject->紧凑武器</li>
+    <li>subject_story->作为侦探受雇佣后，被安装在身上的膝钉救了不止一次</li>
+    <li>subject_story->花了一整个夏天才使被逃跑奴隶的手爪划破的伤口完全康复</li>
+    <li>subject_story->在大厅里做安保工作并扫描来往的访客，而此时有某个半机械改造人试图闯入</li>
+    <li>subject_gerund->制作紧凑仿生武器</li>
+  </CompactWeaponry.generalRules.rulesStrings>
+  
   
   <!-- EN: flesh shaping -->
   <FleshShaping.label>躯体整形</FleshShaping.label>
   <!-- EN: Craft bionics which induce the reshaping of natural flesh, usually for the purposes of aesthetic enhancement or personal pleasure. -->
-  <FleshShaping.description>制作能够模仿或重塑体型的仿生产品。通常用于提升美感或个人乐趣。</FleshShaping.description>
+  <FleshShaping.description>解锁制作能够模仿或重塑身躯的仿生体，通常用于提升美感或个人乐趣。</FleshShaping.description>
   <!-- EN:
     <li>subject->aesthetic surgery</li>
     <li>subject_story->halted the population decline on the urbworld, by distributing free love enhancers and lavish drugs</li>
@@ -65,12 +91,18 @@
     <li>subject_story->gathered the glitterworld children around the campfire and told horror stories about getting their non-aesthetic noses back</li>
     <li>subject_gerund->crafting aesthetic bionics</li>
   -->
-  <FleshShaping.generalRules.rulesStrings>TODO</FleshShaping.generalRules.rulesStrings>
+  <FleshShaping.generalRules.rulesStrings>
+    <li>subject->美容手术</li>
+    <li>subject_story->通过分发免费的情爱增强装置和奢侈成瘾品，使都市世界的人口停止下降</li>
+    <li>subject_story->受聘成为某家美容院的首席整形师，每天都在制作美观的肢体</li>
+    <li>subject_story->将闪耀世界的孩子们聚在篝火旁，为他们讲述把美学鼻换回原本鼻子的恐怖故事</li>
+    <li>subject_gerund->制作美学仿生体</li>
+  </FleshShaping.generalRules.rulesStrings>
   
   <!-- EN: healing factors -->
   <HealingFactors.label>愈合因子</HealingFactors.label>
   <!-- EN: Craft bionics that enhance natural healing processes. -->
-  <HealingFactors.description>制作可加快自然愈合速度的仿生体</HealingFactors.description>
+  <HealingFactors.description>解锁制作可加快自然愈合速度的仿生体。</HealingFactors.description>
   <!-- EN:
     <li>subject->healing bionics</li>
     <li>subject_story->studied the Imperial royalty, to see if they had blue blood. They did not, but it did coagulate implausibly quickly</li>
@@ -78,12 +110,18 @@
     <li>subject_story->studied the ancient corpses found in a cryptosleep shrine and harvested rapid healing devices from them</li>
     <li>subject_gerund->crafting regeneration bionics</li>
   -->
-  <HealingFactors.generalRules.rulesStrings>TODO</HealingFactors.generalRules.rulesStrings>
+  <HealingFactors.generalRules.rulesStrings>
+    <li>subject->愈合仿生体</li>
+    <li>subject_story->调查帝国皇室以确认他们是否体内流淌着蓝血。事实上他们没有，但其自愈速度确实快的超乎寻常</li>
+    <li>subject_story->确保所有的死士都植入了愈合增强装置以及合适的异种胚芽，这样他们就能更频繁地投入战斗中</li>
+    <li>subject_story->调查了在低温休眠圣殿中发现的古代人尸体，并从他们体内获取了快速愈合装置</li>
+    <li>subject_gerund->制作再生仿生体</li>
+  </HealingFactors.generalRules.rulesStrings>
   
   <!-- EN: molecular analysis -->
   <MolecularAnalysis.label>分子分析</MolecularAnalysis.label>
   <!-- EN: Craft bionics with molecular analyzers for assisting the immune system or analyzing food. -->
-  <MolecularAnalysis.description>使用分子分析仪来制作仿生体，以强化免疫系统或分析食物。</MolecularAnalysis.description>
+  <MolecularAnalysis.description>在分子分析技术的帮助下，解锁制作可以强化免疫系统或分析食物的仿生体。</MolecularAnalysis.description>
   <!-- EN:
     <li>subject->molecular analysis bionics</li>
     <li>subject_story->explained to the chefs of the cooking school that they must never get aesthetic noses, lest their gastro-analyzers fail</li>
@@ -91,7 +129,13 @@
     <li>subject_story->lectured on the potential hardware conflicts between bionic parts and molecular analysis implants</li>
     <li>subject_gerund->crafting molecular analysis bionics</li>
   -->
-  <MolecularAnalysis.generalRules.rulesStrings>TODO</MolecularAnalysis.generalRules.rulesStrings>
+  <MolecularAnalysis.generalRules.rulesStrings>
+    <li>subject->分子分析仿生体</li>
+    <li>subject_story->向烹饪学校的厨师们解释说，他们永远不能安装美学鼻，否则美食分析装置会失效</li>
+    <li>subject_story->安装了免疫增强装置，这样就能在被隔离的殖民地里自由行动</li>
+    <li>subject_story->告诫人们仿生部件与分子分析植入物间有潜在的硬件冲突</li>
+    <li>subject_gerund->制作分子分析仿生体</li>
+  </MolecularAnalysis.generalRules.rulesStrings>
   
   <!-- EN: neural computation -->
   <NeuralComputation.label>神经计算</NeuralComputation.label>
@@ -102,15 +146,22 @@
     <li>subject->neural computation</li>
     <li>subject_story->knew exactly how to take out the jailor, with an EMP attack that would brain shock their learning assistant, buying time to free the prisoners</li>
     <li>subject_story->mandated the installation of learning assistants or neurocalculators through the entire faculty</li>
-    <li>subject_story->had a learning assistant installed. It proved to be a problem later, when captured by pirates, who halted any escape attempts with EMP attacks.</li>
+    <li>subject_story->had a learning assistant installed. It proved to be a problem later, when captured by pirates, who halted any escape attempts with EMP attacks</li>
     <li>subject_gerund->crafting brain implants</li>
   -->
-  <NeuralComputation.generalRules.rulesStrings>TODO</NeuralComputation.generalRules.rulesStrings>
+  <NeuralComputation.generalRules.rulesStrings>
+    <li>subject->脑部植入物</li>
+    <li>subject->神经计算</li>
+    <li>subject_story->相当了解如何利用EMP冲击瘫痪狱卒大脑内的学习助理，以争取时间解救囚犯</li>
+    <li>subject_story->依法要求全体教师安装学习助理或神经计算机</li>
+    <li>subject_story->在大脑内安装了学习助理。然而当其被海盗用EMP冲击俘获时，学习助理的缺点暴露无遗</li>
+    <li>subject_gerund->制作脑部植入物</li>
+  </NeuralComputation.generalRules.rulesStrings>
   
   <!-- EN: skin hardening -->
   <SkinHardening.label>皮肤硬化</SkinHardening.label>
   <!-- EN: Craft bionic implants which induce the toughening of natural skin, producing an armor-like effect. -->
-  <SkinHardening.description>制作能够让皮肤韧性增加，产生类似盔甲效果的植入物。</SkinHardening.description>
+  <SkinHardening.description>制作能够让皮肤韧性增加，产生类似护甲效果的植入物。</SkinHardening.description>
   <!-- EN:
     <li>subject->subdermal implants</li>
     <li>subject_story->researched the glands of the barkskin dryads and reasoned they could be adapted to humanity</li>
@@ -118,12 +169,18 @@
     <li>subject_story->worked with nanonmachine glands to thicken the human epidermis, at the expense of meeting traditional standards of beauty</li>
     <li>subject_gerund->crafting subdermal armor implants</li>
   -->
-  <SkinHardening.generalRules.rulesStrings>TODO</SkinHardening.generalRules.rulesStrings>
+  <SkinHardening.generalRules.rulesStrings>
+    <li>subject->皮下植入物</li>
+    <li>subject_story->研究了盾皮树精的腺体，并推断可以用在人类身上</li>
+    <li>subject_story->与恐龙世界的石肤驯兽者们一同旅行，调查他们身上覆盖的厚厚角质层护板</li>
+    <li>subject_story->使用纳米机械腺体来硬化人类皮肤，然而代价则是会变丑</li>
+    <li>subject_gerund->制作皮下甲肤植入物</li>
+  </SkinHardening.generalRules.rulesStrings>
   
   <!-- EN: specialized limbs -->
   <SpecializedLimbs.label>专业肢体</SpecializedLimbs.label>
   <!-- EN: Craft specialized bionic limbs built for specific purposes - both combat and labor. -->
-  <SpecializedLimbs.description>制作专门用于特定目的仿生肢体-战斗或者劳动。</SpecializedLimbs.description>
+  <SpecializedLimbs.description>解锁制作专门用于特定目的仿生体-战斗或者劳动。</SpecializedLimbs.description>
   <!-- EN:
     <li>subject->specialized prosthetics</li>
     <li>subject_story->interviewed the indentured farmers of a feudal world, before and after their field hand installations</li>
@@ -131,12 +188,18 @@
     <li>subject_story->worked as a surgeon on the rim, replacing missing arms with everything from a woodhand to a power claw</li>
     <li>subject_gerund->crafting specialized bionic arms</li>
   -->
-  <SpecializedLimbs.generalRules.rulesStrings>TODO</SpecializedLimbs.generalRules.rulesStrings>
+  <SpecializedLimbs.generalRules.rulesStrings>
+    <li>subject->专业假体</li>
+    <li>subject_story->分别在几名封建世界的契约农户安装务农手前和安装务农手后采访了他们</li>
+    <li>subject_story->观察了一名装备有动力爪的死士与一名安装了挖掘臂的矿工对峙</li>
+    <li>subject_story->曾在边缘世界当过外科医师，用从木手到动力爪的各种东西替换缺失的肢体</li>
+    <li>subject_gerund->制作专业仿生肢体</li>
+  </SpecializedLimbs.generalRules.rulesStrings>
   
   <!-- EN: poison synthesis -->
   <VenomSynthesis.label>毒素合成</VenomSynthesis.label>
   <!-- EN: Craft bionics that synthesize venom from internal chemical reactors for use in toxifying attacks. -->
-  <VenomSynthesis.description>制作能够通过内部化学物质反应生成毒液的仿生体，用于在战斗中对敌人施用毒素。</VenomSynthesis.description>
+  <VenomSynthesis.description>解锁制作能够通过内部化学物质反应生成毒液的仿生体，用于在战斗中对敌人施用毒素。</VenomSynthesis.description>
   <!-- EN:
     <li>subject->venomous bionics</li>
     <li>subject_story->worked on chemical reactors at small scales, which could be shrunk and stored internally</li>
@@ -144,6 +207,12 @@
     <li>subject_story->learned to love sharp little cutting edges, which could kill with a mere nick</li>
     <li>subject_gerund->crafting poisonous bionic weapons</li>
   -->
-  <VenomSynthesis.generalRules.rulesStrings>TODO</VenomSynthesis.generalRules.rulesStrings>
+  <VenomSynthesis.generalRules.rulesStrings>
+    <li>subject->淬毒仿生体</li>
+    <li>subject_story->使用了可以收缩与内部储存的小型化合反应堆</li>
+    <li>subject_story->调查了生活在垃圾世界的污鼠，并撰写了一篇有关它们撕咬时带有的特殊毒素的论文</li>
+    <li>subject_story->学会使用只需划破皮肤就足以致命的小型锋刃</li>
+    <li>subject_gerund->制作毒素仿生武器</li>
+  </VenomSynthesis.generalRules.rulesStrings>
   
 </LanguageData>

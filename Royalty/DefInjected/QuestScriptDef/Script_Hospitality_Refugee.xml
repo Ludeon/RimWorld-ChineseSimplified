@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  <!-- TODO! BY MADXINGJIN -->
+  
   <!-- EN:
     <li>lastOrNot(lodgerCount==1)-></li>
     <li>lastOrNot(lodgerCount>=2)->last</li>
@@ -271,7 +271,7 @@
     <li>lodgersLabelSingularOrPlural(lodgerCount==1)->[lodgersLabel]</li>
     <li>lodgersLabelSingularOrPlural(lodgerCount>=2)->[lodgersLabelPlural]</li>
     <li>betrayalOfferRewardLetterLabel->背叛奖励：[factionOpponent_nameDef]</li>
-    <li>betrayalOfferRewardLetterText->[factionOpponent_nameDef]承诺过如果你杀死[asker_nameDef][otherMembers]。[factionOpponent_pronoun]听说你办成了这件事，并通过空投舱向你发送了以下物资（总价值[betrayalRewardMarketValue_money]）：\n\n[betrayalRewards].\n\n[questOver]</li>
+    <li>betrayalOfferRewardLetterText->[factionOpponent_nameDef]承诺过如果你杀死[asker_nameDef][otherMembers]。[factionOpponent_pronoun]听说你办成了这件事，并通过运输舱向你发送了以下物资（总价值[betrayalRewardMarketValue_money]）：\n\n[betrayalRewards].\n\n[questOver]</li>
     <li>betrayalOfferFailedLetterLabel->背叛奖励被收回</li>
     <li>betrayalOfferFailedLetterText->[factionOpponent_nameDef]已得知[faction_name]的一名成员离开了[map_definite]。[factionOpponent_nameDef]希望[faction_name]所有的成员都死掉，因此收回了[factionOpponent_possessive]提议。</li>
     <li>otherLodgers(lodgerCount==1)-></li>
@@ -302,7 +302,7 @@
     <li>areIs(lodgerCount>=2)->are</li>
   -->
   <RefugeeBetrayal.questDescriptionRules.rulesStrings>
-    <li>questDescription->[factionOpponent_nameDef]，[factionOpponent_faction_name]的一名[factionOpponent_faction_pawnSingular]，获悉了[asker_nameDef][otherLodgers][areIs]处于[map_definite]。[factionOpponent_pronoun]和[asker_nameDef]是敌对关系，想要看到[asker_objective]的死亡。\n\n如果你杀死所有[faction_name]的成员，[factionOpponent_pronoun]将会给与你以下奖励（总价值[betrayalRewardMarketValue_money]）：\n\n[betrayalRewards]</li>
+    <li>questDescription->[factionOpponent_nameDef]，[factionOpponent_faction_name]的一名[factionOpponent_faction_pawnSingular]，获悉了[asker_nameDef][otherLodgers][areIs]正处于[map_definite]。[factionOpponent_pronoun]和[asker_nameDef]是敌对关系，想要看到[asker_objective]的死亡。\n\n如果你杀死所有[faction_name]的成员，[factionOpponent_pronoun]将会给与你以下奖励（总价值[betrayalRewardMarketValue_money]）：\n\n[betrayalRewards]</li>
     <li>lodgersLabelSingularOrPlural(lodgerCount==1)->[lodgersLabel]</li>
     <li>lodgersLabelSingularOrPlural(lodgerCount>=2)->[lodgersLabelPlural]</li>
     <li>otherLodgers(lodgerCount==1)-></li>
@@ -325,8 +325,8 @@
     <li>rewardLetterText->[rewardGiver_nameDef] has contacted you. [rewardDelayTicks_duration] ago, you helped [rewardGiver_objective] in desperate circumstances.\n\nSince then, [rewardGiver_pronoun] has gotten back on [rewardGiver_possessive] feet, and now [rewardGiver_pronoun] wants to reward you properly for your help. [rewardGiver_pronoun] is sending you the following via drop pod:\n\n[listOfRewards]</li>
   -->
   <RefugeeDelayedReward.questContentRules.rulesStrings>
-    <li>rewardLetterLabel->访客报酬</li>
-    <li>rewardLetterText->[rewardGiver_nameDef]已经联系过你。 [rewardDelayTicks_duration]之前， 你在[rewardGiver_objective]十分绝望的时候给与了帮助。\n\n后来，[rewardGiver_pronoun]靠着[rewardGiver_possessive]双腿重新站了起来， 现在[rewardGiver_pronoun]想要对你的帮助给与得体的报酬。 [rewardGiver_pronoun]通过空投舱向你发送了如下物资：\n\n[listOfRewards]</li>
+    <li>rewardLetterLabel->难民回报</li>
+    <li>rewardLetterText->[rewardGiver_nameDef]曾联系过你。 [rewardDelayTicks_duration]之前， 你在[rewardGiver_objective]十分绝望的时候给与了帮助。\n\n那之后，[rewardGiver_pronoun]已靠着[rewardGiver_possessive]双腿重新站了起来， 现在[rewardGiver_pronoun]想要对你的帮助给与得体的回报。 [rewardGiver_pronoun]通过运输舱向你发送了如下物资：\n\n[listOfRewards]</li>
   </RefugeeDelayedReward.questContentRules.rulesStrings>
   <!-- EN:
     <li>questDescription->a delayed reward for refugee quest</li>
