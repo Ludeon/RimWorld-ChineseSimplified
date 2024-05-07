@@ -105,7 +105,7 @@
   <SummonFleshbeastsPlayerCompleteText>{0_nameDef}完成了{RITUAL_definite}仪式。血肉兽正在从地下出现！</SummonFleshbeastsPlayerCompleteText>
 
   <!-- EN: {INVOKER_nameDef} has finished infusing {TARGET_nameDef} with bioferrite. The ritual has twisted {TARGET_nameDef}'s mind and mutated {TARGET_possessive} body, creating a terrifying creature known as a ghoul. {INVOKER_nameDef} shares a psychic link with {TARGET_nameDef}, allowing {INVOKER_objective} to control {TARGET_nameDef}.\n\nGhouls eat raw meat to survive. If they go hungry, they can turn hostile. -->
-  <GhoulInfusionCompleteText>{INVOKER_nameDef}为{TARGET_nameDef}植入了暗黑超凡碎片和活性铁瓷。此仪式扭曲了{TARGET_nameDef}的心智并令{TARGET_possessive}身体发生突变，转化为了一种被称作食尸鬼的可怕生物。{INVOKER_nameDef}与{TARGET_nameDef}有着心灵链接，使得{INVOKER_objective}可以控制{TARGET_nameDef}。\n\n食尸鬼对生肉有着狂热的渴望和依赖。一旦它们感到饥饿，便会立刻充满敌意，甚至会反目攻击它们的制造者以满足自己的食欲。</GhoulInfusionCompleteText>
+  <GhoulInfusionCompleteText>{INVOKER_nameDef}为{TARGET_nameDef}植入了暗黑超凡碎片和活铁。此仪式扭曲了{TARGET_nameDef}的心智并令{TARGET_possessive}身体发生突变，转化为了一种被称作食尸鬼的可怕生物。{INVOKER_nameDef}与{TARGET_nameDef}有着心灵链接，使得{INVOKER_objective}可以控制{TARGET_nameDef}。\n\n食尸鬼对生肉有着狂热的渴望和依赖。一旦它们感到饥饿，便会立刻充满敌意，甚至会反目攻击它们的制造者以满足自己的食欲。</GhoulInfusionCompleteText>
   
   <!-- EN: They might perform the ritual multiple times. You need to go stop them. -->
   <AttackersMayCastRitualMultipleTimes>他们可能还要进行好几次仪式。你需要去阻止他们。</AttackersMayCastRitualMultipleTimes>
@@ -129,12 +129,12 @@
   <VoidAwakeningStageTwoStructuresActivatedText>所有虚空结构都被激活了。虚空巨石周围的空间开始忽闪忽烁。做好准备吧。</VoidAwakeningStageTwoStructuresActivatedText> 
   <!-- EN: {STUDIER_nameDef} teleported -->
   <VoidAwakeningFinalStructuresActivatedLabel>{STUDIER_nameDef}遭到传送</VoidAwakeningFinalStructuresActivatedLabel> 
-  <!-- EN: {STUDIER_nameDef} has activated the monolith and been ripped from our spacetime into another place.\n\n{STUDIER_pronoun} finds {STUDIER_objective}self in a room of jagged metallic spikes. Every surface is slick with dark fluid and the air vibrates with power. This metal hell is a connecting channel to an inhuman hyperintelligence. -->
+  <!-- EN: {STUDIER_nameDef} has activated the monolith and been ripped from our spacetime into another place.\n\n{STUDIER_pronoun} finds {STUDIER_objective}self in a room of jagged metallic spikes. Every surface is slick with dark fluid and the air vibrates with power.\n\nThis metal hell is a connecting channel to an inhuman hyperintelligence. -->
   <VoidAwakeningFinalStructuresActivatedText>{STUDIER_nameDef}激活了巨石并掉出我们所在的时空，去往了另个空间。\n\n{STUDIER_pronoun}发现自己身处一座布满锯齿金属钉刺的房间里。每处表面都沾黏着深色液体，空气中振颤着能量。这座金属地狱便是连接那个非人超凡智能的通道。\n\n{STUDIER_nameDef}发现了能将梦魇心灵之力连向我们这个世界的虚空节点。与它互动，拥抱其中的力量；或者摧毁它，将连接彻底切断。</VoidAwakeningFinalStructuresActivatedText> 
   <!-- EN: Shambler assault -->
-  <VoidAwakeningShamblerArrivalLabel>活尸袭击</VoidAwakeningShamblerArrivalLabel>
+  <VoidAwakeningShamblerArrivalLabel>蹒跚怪袭击</VoidAwakeningShamblerArrivalLabel>
   <!-- EN: A horde of shamblers have been attracted by the void structures. Get ready! -->
-  <VoidAwakeningShamblerArrivalText>一大群活尸被虚空结构吸引来了！做好准备！</VoidAwakeningShamblerArrivalText>
+  <VoidAwakeningShamblerArrivalText>一大群蹒跚怪被虚空结构吸引来了！做好准备！</VoidAwakeningShamblerArrivalText>
   <!-- EN: Fleshbeast tunneling -->
   <VoidAwakeningFleshbeastBurrowLabel>血肉兽隧掘袭击</VoidAwakeningFleshbeastBurrowLabel>
   <!-- EN: The monolith has generated a powerful psychic pulse, attracting nearby entities.\n\nBeneath the ground, you can hear meaty shrieks and scratching claws. Fleshbeasts are tunneling towards you. Get ready! -->
@@ -166,7 +166,7 @@
   <!-- EN: slaughter -->
   <RewardSlaughterAbility>宰杀</RewardSlaughterAbility>
   <!-- EN: shambler control -->
-  <RewardShamblerControlAbility>控制活尸</RewardShamblerControlAbility>
+  <RewardShamblerControlAbility>控制蹒跚怪</RewardShamblerControlAbility>
 
   <!-- Duplicate sickness -->
   <!-- EN: Duplicate sickness -->
@@ -206,15 +206,15 @@
   <!-- EN: Darkness lifting -->
   <DarknessLiftingEarlyLetterLabel>黑暗散去</DarknessLiftingEarlyLetterLabel>
   <!-- EN: The last of the nightmarish pillars has collapsed. The unnatural darkness has begun to dissipate. Colonists breathe a sigh of relief in the clear air. -->
-  <DarknessLiftingEarlyLetterText>随着最后一座梦魇之柱的倒塌。异常的黑暗开始散去。殖民者们终于可以呼吸到清新的空气了。</DarknessLiftingEarlyLetterText>
+  <DarknessLiftingEarlyLetterText>随着最后一座夜光柱倒塌，异常黑暗开始散去。殖民者们终于可以呼吸到清新的空气了。</DarknessLiftingEarlyLetterText>
   <!-- EN: {0_nameDef} attacked -->
   <PawnAttackedInDarknessLabel>{0_nameDef}被攻击了</PawnAttackedInDarknessLabel>
   <!-- EN: Something in the darkness has attacked {0_nameDef}!\n\nThese attacks will continue until {0_pronoun} is safely in the light. -->
-  <PawnAttackedInDarknessText>黑暗中有什么东西攻击了{0_nameDef}！\n\n在{0_pronoun}跑到光亮安全处前，这些攻击不会消停。</PawnAttackedInDarknessText>
+  <PawnAttackedInDarknessText>有什么东西在黑暗中攻击了{0_nameDef}！\n\n直至{0_pronoun}逃到光照充足的安全处前，这些攻击将不会停止。</PawnAttackedInDarknessText>
   <!-- EN: Noctol attack -->
   <NoctolAttackLetterLabel>夜魇进攻</NoctolAttackLetterLabel>
   <!-- EN: The darkness has begun to stir. Inhuman chittering sounds emerge from somewhere within the inky black.\n\nBlack, insect-like noctols will attack from the darkness soon. -->
-  <NoctolAttackLetterText>黑暗开始翻腾起来。从那墨染的深黑中传来了非人之物的鸣叫声。\n\n那些虫子般的黑色夜魇很快就会从黑暗里攻过来了。</NoctolAttackLetterText>
+  <NoctolAttackLetterText>黑暗开始翻腾起来。从那墨染的深黑中传来了非人之物的鸣叫声。\n\n那些虫子般的漆黑夜魇很快就会从黑暗里攻过来了。</NoctolAttackLetterText>
   <!-- EN: Darkness soon -->
   <DarknessWarningLetterLabel>黑暗将至</DarknessWarningLetterLabel>
   <!-- EN: The darkness is almost here. Only those in direct light from lamps, torches, or flares will be safe.\n\nTo keep colonists in the light, you can restrict their movement in the SCHEDULE tab by assigning allowed areas. -->
@@ -222,35 +222,35 @@
   <!-- EN: Darkness wavering -->
   <DarknessWaveringLetterLabel>黑暗减退</DarknessWaveringLetterLabel>
   <!-- EN: With the destruction of the noctolith, a faint crack appears in the darkness, before being filled with more of the sooty black.\n\nDestroy the remaining noctoliths to end the unnatural darkness. -->
-  <DarknessWaveringLetterText>随着夜光柱的毁灭，黑暗中出现了一丝裂痕，而这很快就会被更多的黑暗补上。\n\n毁灭剩余的夜光柱，将这异常的黑暗终结吧。</DarknessWaveringLetterText>
+  <DarknessWaveringLetterText>随着夜光柱的毁灭，黑暗中出现了一丝裂痕，而这很快就会被更多的黑暗补上。\n\n摧毁剩余的夜光柱，将这异常黑暗彻底终结吧。</DarknessWaveringLetterText>
 
   <!-- Shambler Swarms -->
   <!-- EN: Shamblers approach -->
-  <LetterLabelShamblerSwarmArrived>活尸猎群接近</LetterLabelShamblerSwarmArrived>
+  <LetterLabelShamblerSwarmArrived>蹒跚猎群接近</LetterLabelShamblerSwarmArrived>
   <!-- EN: Shambler approaches -->
-  <LetterLabelShamblerArrived>活尸接近</LetterLabelShamblerArrived>
+  <LetterLabelShamblerArrived>蹒跚怪接近</LetterLabelShamblerArrived>
   <!-- EN: A group of {0} shambling, rotting corpses is approaching. Some inhuman force has reanimated these lifeless bodies and set them to murder.\n\nThey will now wander through the area. If they see a human, they will attack. If not, they will leave in a few days.\n\nIf you can capture one, you can study it for anomaly knowledge. -->
-  <LetterShamblerSwarmArrived>{0}只蹒跚而行的腐烂活尸正在接近。某种异常力量使这些早已失去生机的尸体重获行动能力。\n\n它们会在这片区域四处游荡，并攻击看到的人类。若能小心避开，它们几天后便会离去。\n\n如果你能捕获一只，可对其展开调查以获取异象研究知识。</LetterShamblerSwarmArrived>
+  <LetterShamblerSwarmArrived>{0}只浑身腐烂的蹒跚怪正在接近。某种异常力量使这些早已失去生机的尸体重获行动能力。\n\n它们会在这片区域四处游荡，并攻击看到的人类。若能小心避开，它们几天后便会离去。\n\n如果你能捕获一只，可对其展开调查以获取异象知识。</LetterShamblerSwarmArrived>
   <!-- EN: A shambling, rotting corpse is approaching. Some inhuman force has reanimated this lifeless body and set it to murder.\n\nIt will now wander through the area. If it sees a human, it will attack. If not, it will leave in a few days.\n\nIf you can capture it, you can study it for anomaly knowledge. -->
-  <LetterShamblerArrived>一只蹒跚而行的腐烂活尸正在接近。某种异常力量使这早已失去生机的尸体重获行动能力。\n\n它会在这片区域四处游荡，并攻击看到的人类。若能小心避开，它们几天后便会离去。\n\n如果你能捕获它，可对其展开调查以获取异象研究知识。</LetterShamblerArrived>
+  <LetterShamblerArrived>一只浑身腐烂的蹒跚怪正在接近。某种异常力量使这早已失去生机的尸体重获行动能力。\n\n它会在这片区域四处游荡，并攻击看到的人类。若能小心避开，它们几天后便会离去。\n\n如果你能捕获它，可对其展开调查以获取异象知识。</LetterShamblerArrived>
   <!-- EN: {ANIMALKIND_label} shamblers -->
-  <LetterLabelShamblerAnimalsArrived>{ANIMALKIND_label}活尸</LetterLabelShamblerAnimalsArrived>
+  <LetterLabelShamblerAnimalsArrived>{ANIMALKIND_label}蹒跚怪</LetterLabelShamblerAnimalsArrived>
   <!-- EN: A group of shambling, rotting {ANIMALKIND_label} corpses is approaching. Some inhuman force has reanimated these lifeless bodies and set them to murder.\n\nThey will now wander through the area. If they see a human, they will attack. If not, they will leave in a few days.\n\nIf you can capture one, you can study it for anomaly knowledge. -->
-  <LetterShamblerAnimalsArrived>一群蹒跚而行的腐烂{ANIMALKIND_label}活尸正在接近。某种异常力量使这些早已失去生机的尸体重获行动能力。\n\n它们会在这片区域四处游荡，并攻击看到的人类。若能小心避开，它们几天后便会离去。\n\n如果你能捕获一只，可对其展开调查以获取异象研究知识。</LetterShamblerAnimalsArrived>
+  <LetterShamblerAnimalsArrived>一群浑身腐烂的{ANIMALKIND_label}蹒跚怪正在接近。某种异常力量使这些早已失去生机的尸体重获行动能力。\n\n它们会在这片区域四处游荡，并攻击看到的人类。若能小心避开，它们几天后便会离去。\n\n如果你能捕获一只，可对其展开调查以获取异象知识。</LetterShamblerAnimalsArrived>
 
   <!-- Ghoul pod crash -->
   <!-- EN: Transport pod crash -->
   <GhoulPodCrashLabel>运输舱坠毁</GhoulPodCrashLabel>
   <!-- EN: A transport pod carrying a ravenous hostile ghoul has landed nearby.\n\nThe ghoul is currently in shock, but it will soon recover and attack anyone it sees. It can be captured to a holding platform for further study.\n\nCapture or kill it before it wakes. -->
-  <GhoulPodCrashText>一个装有凶恶敌对食尸鬼的运输舱坠毁在了附近。\n\n这只食尸鬼目前正处于心灵冲击状态，但很快就能恢复过来，然后攻击任何看到的人。可将其捕获至一座收容平台内以供后续研究。\n\n最好趁它醒来前将其捕获或杀死。</GhoulPodCrashText>
+  <GhoulPodCrashText>一个装有凶恶敌对食尸鬼的运输舱坠毁在了附近。\n\n这只食尸鬼目前正处于心灵冲击状态，但很快就能恢复过来，然后攻击任何看到的人。可将其捕获并安置于一座收容平台内以供后续调查。\n\n最好趁它醒来前将其捕获或杀死。</GhoulPodCrashText>
   <!-- EN: A transport pod carrying a ravenous hostile ghoul has landed nearby. On closer inspection, it appears to be {PAWN_nameDef}, a previous member of your crew.\n\nThe ghoul is currently in shock, but it will soon recover and attack anyone it sees. It can be captured to a holding platform for further study.\n\nCapture or kill it before it wakes. -->
-  <GhoulPodCrashStartingPawnText>一个装有凶恶敌对食尸鬼的运输舱坠毁在了附近。经过近距离检查才发现，它竟是{PAWN_nameDef}，你们曾经的同伴。\n\n这只食尸鬼目前正处于心灵冲击状态，但很快就能恢复过来，然后攻击任何看到的人。可将其捕获至一座收容平台内以供后续研究。\n\n最好趁它醒来前将其捕获或杀死。</GhoulPodCrashStartingPawnText>
+  <GhoulPodCrashStartingPawnText>一个装有凶恶敌对食尸鬼的运输舱坠毁在了附近。经过近距离检查才发现，它竟是{PAWN_nameDef}，你们曾经的同伴。\n\n这只食尸鬼目前正处于心灵冲击状态，但很快就能恢复过来，然后攻击任何看到的人。可将其捕获并安置于一座收容平台内以供后续调查。\n\n最好趁它醒来前将其捕获或杀死。</GhoulPodCrashStartingPawnText>
 
   <!-- Entity codex -->
   <!-- EN: New research available -->
   <LetterLabelEntityDiscovery>有新的可研究项目</LetterLabelEntityDiscovery>
   <!-- EN: Your discovery of {ENTITY_definite} has yielded new insights. You can now research the following Anomaly projects -->
-  <LetterTextEntityDiscoveryResearch>通过对{ENTITY_definite}的发现你获得了新的见解。你现在可以进行以下异象研究项目</LetterTextEntityDiscoveryResearch>
+  <LetterTextEntityDiscoveryResearch>通过发现{ENTITY_definite}，你获得了新的见解。你现在可以进行以下异象研究项目</LetterTextEntityDiscoveryResearch>
 
   <!-- Nociosphere -->
   <!-- EN: Nociosphere defeated -->
@@ -260,7 +260,7 @@
   <!-- EN: Nociosphere destabilising -->
   <NociosphereBecomingUnstableLabel>苦痛之球失稳</NociosphereBecomingUnstableLabel> 
   <!-- EN: The nociosphere’s energy pattern has begun to shift and adapt. Within 10 days, it will no longer respond to suppression.\n\nThe nociosphere will activate if not suppressed. -->
-  <NociosphereBecomingUnstableText>苦痛之球的能量模式已经开始调整并适应。10 天之内，它将不再对抑制有所反应。\n\n若不对其进行抑制，苦痛之球将会激活。</NociosphereBecomingUnstableText> 
+  <NociosphereBecomingUnstableText>苦痛之球的能量模式已经开始调整并适应。10天之内，它将不再对抑制有所反应。\n\n若不对其进行抑制，苦痛之球将会激活。</NociosphereBecomingUnstableText> 
   <!-- EN: Dispose of the nociosphere by sending it to attack a large hostile force. Once its onslaught is complete, it will permanently depart. -->
   <NociosphereBecomingUnstableTextExtraSendable>将苦痛之球送去攻击敌对派系以放逐它。待它杀个够以后，便会永久离开。</NociosphereBecomingUnstableTextExtraSendable>
   <!-- EN: Study the nociosphere to find a way to dispose of it. -->
@@ -277,18 +277,18 @@
   <!-- EN: Strange corpse -->
   <UnnaturalCorpseArrivalLabel>诡异尸体</UnnaturalCorpseArrivalLabel>
   <!-- EN: An unnatural human corpse has appeared, as if out of thin air.\n\nOn further inspection, the corpse looks identical to {PAWN_nameDef}. Its skin feels waxy and warm to the touch.\n\nStudy the corpse to learn more about it. -->
-  <UnnaturalCorpseArrivalText>一具不寻常的人类尸体似乎就这么凭空出现了。\n\n进一步检查发现，尸体与{PAWN_nameDef}简直一模一样。它的皮肤摸起来蜡润而温暖。\n\n研究这具尸体以了解更多信息。</UnnaturalCorpseArrivalText>
+  <UnnaturalCorpseArrivalText>一具异常的人类尸体似乎就这么凭空出现了。\n\n进一步检查发现，尸体与{PAWN_nameDef}简直一模一样。它的皮肤摸起来蜡润而温暖。\n\n调查这具尸体以了解更多信息。</UnnaturalCorpseArrivalText>
 
   <!-- EN: Golden cube -->
   <GoldenCubeArrivalLabel>金色魔方</GoldenCubeArrivalLabel>
   <!-- EN: A strange cube has landed nearby. It shines like gold but is impossible to scratch. It's light and warm to the touch. The way light plays across its surface is captivating.\n\n{PAWN_nameDef} feels inexplicably drawn to the cube.\n\nStudy the cube to learn more about it. -->
-  <GoldenCubeArrivalText>一个奇怪的魔方坠落在附近。虽然它像黄金一样闪闪发光，但却质地坚硬，刮不出一点痕迹。它的触感轻盈而温暖。它表面折射出漂亮迷人的光芒。\n\n{PAWN_nameDef}感觉自己莫名其妙就被这个魔方给迷住了。\n\n研究这个魔方以了解更多信息。</GoldenCubeArrivalText>
+  <GoldenCubeArrivalText>一个奇怪的魔方坠落在附近。虽然它像黄金一样闪闪发光，但却质地坚硬，刮不出一点痕迹。它的触感轻盈而温暖。它表面折射出漂亮迷人的光芒。\n\n{PAWN_nameDef}感觉自己莫名其妙就被这个魔方给迷住了。\n\n调查这个魔方以了解更多信息。</GoldenCubeArrivalText>
 
   <!-- EN: Void curiosity -->
   <VoidCuriosityLabel>探虚问奇</VoidCuriosityLabel>
   <!-- EN: {PAWN_nameDef} has begun to fixate on the void, and wishes to investigate it using the void provocation ritual.\n\nUse the void provocation ritual to discover and capture entities. Captured entities can be studied to complete Anomaly research projects, or connected to a bioferrite harvester to generate bioferrite.\n\nPlace a psychic ritual spot to perform the void provocation ritual. -->
-  <VoidCuriosityText_Researched>{PAWN_nameDef}已经开始迷上虚空了，并希望通过虚空扰动仪式来对其进行调查。\n\n通过虚空扰动仪式可发现并捕获实体。被捕获的实体可用于进行异象项目的研究，或者连接到一台活性铁瓷采集器以生产活性铁瓷。\n\n指定一处心灵仪式地点以进行虚空扰动仪式。</VoidCuriosityText_Researched>
+  <VoidCuriosityText_Researched>{PAWN_nameDef}已经开始迷上虚空了，并希望通过虚空扰动仪式来对其进行调查。\n\n通过虚空扰动仪式可发现并捕获实体。被捕获的实体可用于推进异象研究项目，或者连接到一台活铁采集器以生产活铁。\n\n指定一处心灵仪式地点以进行虚空扰动仪式。</VoidCuriosityText_Researched>
   <!-- EN: {PAWN_nameDef} has begun to fixate on the void, and wishes to investigate it using the void provocation ritual.\n\nUse the void provocation ritual to discover and capture entities. Captured entities can be studied to complete Anomaly research projects, or connected to a bioferrite harvester to generate bioferrite.\n\nResearch void provocation, then place a psychic ritual spot to perform the ritual. -->
-  <VoidCuriosityText_NotResearched>{PAWN_nameDef}已经开始迷上虚空了，并希望通过虚空扰动仪式来对其进行调查。\n\n通过虚空扰动仪式可发现并捕获实体。被捕获的实体可用于进行异象项目的研究，或者连接到一台活性铁瓷采集器以生产活性铁瓷。\n\n研究虚空扰动，然后指定一处心灵仪式地点以进行仪式。</VoidCuriosityText_NotResearched>
+  <VoidCuriosityText_NotResearched>{PAWN_nameDef}已经开始迷上虚空了，并希望通过虚空扰动仪式来对其进行调查。\n\n通过虚空扰动仪式可发现并捕获实体。被捕获的实体可用于推进异象研究项目，或者连接到一台活铁采集器以生产活铁。\n\n完成“虚空扰动”研究项目，然后指定一处“心灵仪式举办点”以进行仪式。</VoidCuriosityText_NotResearched>
 
 </LanguageData>

@@ -29,7 +29,7 @@
   <!-- EN: To honor {PAWN_labelShort} advancing to the title of {TITLE}, {FACTION_name} has sent {PAWN_objective} the following reward(s): -->
   <LetterRewardsForNewTitle>为了纪念{PAWN_labelShort}的{TITLE}头衔晋升，{FACTION_name}发给{PAWN_objective}如下赏赐：</LetterRewardsForNewTitle>
   <!-- EN: Rewards have arrived to your colony via transport pods. -->
-  <LetterRewardsForNewTitleDeliveryBase>奖励已经通过空投舱发送至你的殖民地。</LetterRewardsForNewTitleDeliveryBase>
+  <LetterRewardsForNewTitleDeliveryBase>奖励已经通过运输舱发送至你的殖民地。</LetterRewardsForNewTitleDeliveryBase>
   <!-- EN: Rewards were delivered directly to {PAWN_labelShort}'s inventory. -->
   <LetterRewardsForNewTitleDeliveryDirect>奖励已经直接装入{PAWN_labelShort}的库存里了。</LetterRewardsForNewTitleDeliveryDirect>
 
@@ -47,22 +47,22 @@
   <LetterRoyalTitleDisabledJoyKind>此头衔禁止的娱乐活动：</LetterRoyalTitleDisabledJoyKind>
 
   <!-- EN: {PAWN_pronoun} is allowed to use these implants:{1} -->
-  <LetterRoyalTitleAllowedImplants>{PAWN_pronoun}被允许使用以下植入物:{1}</LetterRoyalTitleAllowedImplants>
+  <LetterRoyalTitleAllowedImplants>{PAWN_pronoun}被允许使用以下植入物：{1}</LetterRoyalTitleAllowedImplants>
   <!-- EN: {PAWN_pronoun} is no longer allowed to use these implants:{1} -->
-  <LetterRoyalTitleImplantsMustBeRemoved>{PAWN_pronoun}不再被允许使用以下植入物:{1}</LetterRoyalTitleImplantsMustBeRemoved>
+  <LetterRoyalTitleImplantsMustBeRemoved>{PAWN_pronoun}不再被允许使用以下植入物：{1}</LetterRoyalTitleImplantsMustBeRemoved>
   <!-- EN: The implants must be extracted within a five-day grace period to avoid diplomatic consequences. -->
   <LetterRoyalTitleImplantGracePeriod>必须在五天的限期内提取植入物，以避免产生外交后果。</LetterRoyalTitleImplantGracePeriod>
   <!-- EN: {PAWN_pronoun} can now give speeches from the throne. If it goes well, listeners will feel inspired. If it goes poorly, the speech will do social damage. The outcome depends on {PAWN_labelShort}'s social abilities. -->
   <LetterRoyalTitleSpeechAbilityGained>{PAWN_pronoun}现在可以发表演说了。如果一切顺利，听众会获得鼓舞，并且从听众获得尊重。如果进展不顺利，演讲会造成社交伤害。结果取决于{PAWN_labelShort}的社交能力。</LetterRoyalTitleSpeechAbilityGained>
   <!-- EN: This title requires a throneroom that meets these requirements:{1} -->
-  <LetterRoyalTitleThroneroomRequirements>此头衔需要一个满足以下要求的谒见厅:{1}</LetterRoyalTitleThroneroomRequirements>
+  <LetterRoyalTitleThroneroomRequirements>此头衔需要一个满足以下要求的谒见厅：{1}</LetterRoyalTitleThroneroomRequirements>
   <!-- EN: This title requires a bedroom that meets these requirements:{1} -->
-  <LetterRoyalTitleBedroomRequirements>此头衔需要一个满足以下要求的卧室:{1}</LetterRoyalTitleBedroomRequirements>
+  <LetterRoyalTitleBedroomRequirements>此头衔需要一个满足以下要求的卧室：{1}</LetterRoyalTitleBedroomRequirements>
   <!-- EN: This title says that {PAWN_pronoun} should only eat these foods:{1} -->
-  <LetterRoyalTitleFoodRequirements>{PAWN_pronoun}只吃以下食物:{1}</LetterRoyalTitleFoodRequirements>
+  <LetterRoyalTitleFoodRequirements>{PAWN_pronoun}只吃以下食物：{1}</LetterRoyalTitleFoodRequirements>
 
   <!-- EN: {PAWN_pronoun} will receive the following items via transport pod:{1} -->
-  <LetterRoyalTitleRewardGranted>{PAWN_pronoun}将通过空投舱接收以下物品:{1}</LetterRoyalTitleRewardGranted>
+  <LetterRoyalTitleRewardGranted>{PAWN_pronoun}将通过运输舱接收以下物品：{1}</LetterRoyalTitleRewardGranted>
   <!-- EN: {PAWN_labelShort} has gained {1} {FACTION_royalFavorLabel} from {FACTION_name}. -->
   <PeaceTalksRoyalFavorGain>{PAWN_labelShort}已从{FACTION_name}获得{1}{FACTION_royalFavorLabel}。</PeaceTalksRoyalFavorGain>
 
@@ -114,7 +114,7 @@
     \nIf it isn't carried out in good time, {0_nameIndef} will become very unhappy. -->
   <LetterRandomDecree>{0_nameIndef}为了确认{0_bestRoyalTitleIndef}的{0_possessive}头衔，已经发布了一项法令，现在要求立即执行。\n    \n如果没有及时执行，{0_nameIndef}将变得非常不高兴。</LetterRandomDecree>
   <!-- EN: The decree is titled "{0}". -->
-  <LetterDecree_Quest>这个法令是"{0}"。</LetterDecree_Quest>
+  <LetterDecree_Quest>这个法令是“{0}”。</LetterDecree_Quest>
   
   <!-- Lent colonist died -->
   <!-- EN: {PAWN_nameDef} was lent to {FACTION}. They will return the body of {PAWN_nameDef} shortly. -->
@@ -124,11 +124,11 @@
   <!-- EN: Psylink gained -->
   <LetterLabelPsylinkLevelGained>启灵</LetterLabelPsylinkLevelGained>
   <!-- EN: {USER_labelShort} has gained {USER_possessive} first level of psylink! {USER_pronoun} is now a psycaster.\n\nTo use psychic powers, {USER_labelShort} must build up psyfocus through meditation. The effectiveness of this meditation is increased if the person can focus on a specific object while meditating.\n\nDifferent people are able to focus on different objects. This depend on the person's backstories, traits, and titles. For example:\n\n- Psycasters with royal titles meditate on their thrones.\n- Psycasters with tribal childhoods meditate to anima trees and nature shrines.\n- Ascetic psycasters meditate to blank walls.\n- Psychopathic psycasters meditate to graves, ideally with a loved one inside.\n\nYou can see someone's meditation focus types by looking at their info card with the 'i' button. -->
-  <LetterPsylinkLevelGained_First>{USER_labelShort}获得了第一个启灵等级！{USER_pronoun}现在是一名心灵能力者了。\n\n要使用心灵能力，{USER_labelShort}必须通过冥想提升精神力。如果能够在冥想时专注于特定的对象，那么冥想的效果会得到提升。\n\n每个人都能在不同的物体附近冥想，这取决于他们的灵媒。冥想者的灵媒取决于他们的背景、特征和社会地位等。例如：\n\n-持有荣誉头衔的心灵能力者在他们的宝座冥想。\n-部落长大的心灵能力者在仙树或自然圣地冥想。\n-苦行者在一无所有的墙壁前冥想。\n-病态的心灵能力者会在坟墓冥想，埋葬着爱人会更理想。\n\n要查看一个人的灵媒，可以通过选择他们并单击「i」按钮来打开他们的详细信息窗口。</LetterPsylinkLevelGained_First>
+  <LetterPsylinkLevelGained_First>{USER_labelShort}获得了第一个启灵等级！{USER_pronoun}现在是一名灵能者了。\n\n要使用灵能，{USER_labelShort}必须通过冥想提升精神力。如果能够在冥想时专注于特定的对象，那么冥想的效果会得到提升。\n\n每个人都能在不同的物体附近冥想，这取决于他们的灵媒。冥想者的灵媒取决于他们的背景故事、特性和头衔等。例如：\n\n-持有荣誉头衔的灵能者在他们的宝座冥想。\n-部落长大的灵能者在仙树或自然圣地冥想。\n-苦行者在一无所有的墙壁前冥想。\n-病态的灵能者会在坟墓冥想，埋葬着爱人会更理想。\n\n要查看一个人的灵媒，可以通过选择他们并单击「i」按钮来打开他们的详细信息窗口。</LetterPsylinkLevelGained_First>
   <!-- EN: {USER_labelShort} has gained a new level of psylink! {USER_pronoun} can now use psychic powers of that higher level, but {USER_pronoun} needs to learn them first. -->
-  <LetterPsylinkLevelGained_NotFirst>{USER_labelShort}获得了更高的启灵等级！{USER_pronoun}现在能够使用更高等级的心灵能力，但{USER_pronoun}需要先学会如何使用。</LetterPsylinkLevelGained_NotFirst>
+  <LetterPsylinkLevelGained_NotFirst>{USER_labelShort}获得了更高的启灵等级！{USER_pronoun}现在能够使用更高等级的灵能，但{USER_pronoun}需要先学会如何使用。</LetterPsylinkLevelGained_NotFirst>
   <!-- EN: Upon gaining the new psylink level, {USER_labelShort} automatically learned these psychic powers: {2} -->
-  <LetterPsylinkLevelGained_PsycastLearned>在获得了新的启灵等级之后，{USER_labelShort}自动领悟了这个心灵能力：{2}。</LetterPsylinkLevelGained_PsycastLearned>
+  <LetterPsylinkLevelGained_PsycastLearned>在获得了新的启灵等级之后，{USER_labelShort}自动领悟了这个灵能：{2}。</LetterPsylinkLevelGained_PsycastLearned>
   
   <!-- Abilities -->
   <!-- EN: Thanks to {CASTER_nameIndef}'s psychic suggestion, {PAWN_nameIndef} has experienced an inspiration! -->
@@ -164,6 +164,6 @@
   <!-- EN: Transport pod crash: {0_nameDef} -->
   <LetterLabelWandererJoinsAbasia>运输舱坠毁：{0_nameDef}</LetterLabelWandererJoinsAbasia>
   <!-- EN: A {0_title} named {0_nameDef} is crashing in a transport pod nearby.\n\n{0_nameDef} is suffering from {1_label} and will be unable to walk.\n\n{0_pronoun} will recover naturally after many days. There is also a chance of a lucky quick recovery. {1_label} can also be cured by a special operation which requires a large amount of glitterworld medicine.\n\n{0_pronoun} is willing to contribute once {0_pronoun} has recovered, but will not leave voluntarily. If you don't want {0_nameDef}, you can banish {0_objective}, sell {0_objective} into slavery or leave {0_objective} to die. However, your other colonists may find this disturbing. -->
-  <LetterTextWandererJoinsAbasia>一位名为 {0_nameDef} 的 {0_title} 乘坐运输舱坠毁在了附近。\n\n{0_nameDef} 患有 {1_label}， 将无法行走。\n\n{0_pronoun}将在许多天后自然恢复。 也有可能幸运地迅速康复。 {1_label}也可以通过一个特殊的手术来治愈， 这需要大量的闪耀世界药物。\n\n{0_pronoun}不会主动离开，并且愿意在{0_pronoun}康复后作出贡献。 如果你不愿意接收{0_nameDef}， 你可以放逐{0_objective}， 把{0_objective}卖给奴隶， 或者让{0_objective}死去。 然而， 你的其他殖民者可能会觉得这很令人不安。</LetterTextWandererJoinsAbasia>
+  <LetterTextWandererJoinsAbasia>一名叫做{0_nameDef}的{0_title}乘坐运输舱坠毁在了附近。\n\n{0_nameDef}患有{1_label}，将无法行走。\n\n{0_pronoun}将在许多天后自然恢复。也有可能幸运地迅速康复。{1_label}也可以通过一个特殊的手术来治愈，这需要大量的闪耀世界医药。\n\n{0_pronoun}不会主动离开，并且愿意在{0_pronoun}康复后作出贡献。如果你不愿意接收{0_nameDef}，你可以放逐{0_objective}，把{0_objective}当作奴隶卖掉，或者让{0_objective}死去。然而，你的其他殖民者可能会觉得这很令人不安。</LetterTextWandererJoinsAbasia>
 
 </LanguageData>

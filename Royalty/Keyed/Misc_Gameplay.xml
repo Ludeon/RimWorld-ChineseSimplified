@@ -24,7 +24,7 @@
   <PsycastNeurotrainerDescription>一次性使用的超剂量机械液可训练特定的心灵能力。\n\n该药剂是通过眼眶给药的。一旦进入到大脑中，这些机械分子就形成了一种特定的心灵能力的知识，并根据需要将其固化为神经组织。\n\n{PSYCAST_label}\n\n{PSYCASTDESCRIPTION}</PsycastNeurotrainerDescription>
   <!-- EN: {USER_labelShort} used neurotrainer to learn the {1} power. -->
   <AbilityNeurotrainerUsed>{USER_labelShort}使用神经训练器学会了{1}的心灵能力。</AbilityNeurotrainerUsed>
-  <!-- EN: Requires psylink -->
+  <!-- EN: requires psylink -->
   <PsycastNeurotrainerNoPsylink>需要启灵神经</PsycastNeurotrainerNoPsylink>
   <!-- EN: {USER_labelShort} already knows {1}. -->
   <PsycastNeurotrainerAbilityAlreadyLearned>{USER_labelShort}已经知晓{1}</PsycastNeurotrainerAbilityAlreadyLearned>
@@ -50,11 +50,11 @@
   <!-- EN: Psyfocus -->
   <PsyfocusLabelGizmo>精神力</PsyfocusLabelGizmo>
   <!-- EN: Psyfocus is a special type of mental structuring which is necessary to use psychic powers. Psyfocus dissipates over time, and must be built by regular meditation. Losing all psyfocus makes someone unable to use psychic powers, but has no other consequences.\n\nHigher levels of psyfocus permit higher-level powers, but also increase the rate of psyfocus dissipation -->
-  <PsyfocusDesc>精神力是释放心灵能力所必须的一种精神结构。精神力会随着时间的推移而消散，可以通过定期冥想来恢复精神力。失去所有的精神力便无法使用心灵能力。\n\n更高的精神力水平能够使用更强的心灵能力，但同时也会使精神力降低更快</PsyfocusDesc>
+  <PsyfocusDesc>精神力是释放灵能所必须的一种精神结构。精神力会随着时间的推移而消散，可以通过定期冥想来恢复精神力。失去所有的精神力便无法使用灵能。\n\n更高的精神力水平能够使用更强的灵能，但同时也会使精神力降低更快</PsyfocusDesc>
   <!-- EN: {0}-{1}% -->
   <PsyfocusLevelInfoRange>{0} - {1}%</PsyfocusLevelInfoRange>
   <!-- EN: Up to level {0} powers. -->
-  <PsyfocusLevelInfoPsycasts>达到{0}级心灵能力水平。</PsyfocusLevelInfoPsycasts>
+  <PsyfocusLevelInfoPsycasts>达到{0}级灵能水平。</PsyfocusLevelInfoPsycasts>
   <!-- EN: Psyfocus falls at {0} per day. -->
   <PsyfocusLevelInfoFallRate>精神力每天降低{0}。</PsyfocusLevelInfoFallRate>
   <!-- EN: Meditation focus strength for {LASTUSER_labelShort} -->
@@ -146,9 +146,9 @@
   <BestowingOutcomeQualitySpecific>这些因素决定了授勋仪式的总体品质为{0}</BestowingOutcomeQualitySpecific>
   
   <!-- EN: No colonists that can link with anima tree right now. -->
-  <RitualTargetAnimaTreeNoPawnsToLink>当前没有能与仙树共鸣的殖民者。</RitualTargetAnimaTreeNoPawnsToLink>
+  <RitualTargetAnimaTreeNoPawnsToLink>缺少能与仙树共鸣的殖民者。</RitualTargetAnimaTreeNoPawnsToLink>
   <!-- EN: No colonists with the natural meditation focus type. -->
-  <RitualTargetAnimaTreeNoPawnsWithNatureFocus>当前没有自然冥想者。</RitualTargetAnimaTreeNoPawnsWithNatureFocus>
+  <RitualTargetAnimaTreeNoPawnsWithNatureFocus>缺少灵媒类型为“自然”的殖民者。</RitualTargetAnimaTreeNoPawnsWithNatureFocus>
   <!-- EN: Need at least {0} anima grass. -->
   <RitualTargetAnimaTreeNotEnoughAnimaGrass>需要至少{0}x灵草。</RitualTargetAnimaTreeNotEnoughAnimaGrass>
   <!-- EN: an anima tree -->
@@ -156,14 +156,14 @@
   <!-- EN: Must be a colonist with the natural meditation focus type who is below maximum psylink level. -->
   <RitualTargetAnimaTreeMustBeCapableOfNature>必须是一名启灵等级低于最大值，并且具有自然灵媒的殖民者。</RitualTargetAnimaTreeMustBeCapableOfNature>
   <!-- EN: Must not be psychically deaf. -->
-  <RitualTargetAnimaTreeMustBePsychicallySensitive>不能是心灵失聪。</RitualTargetAnimaTreeMustBePsychicallySensitive>
+  <RitualTargetAnimaTreeMustBePsychicallySensitive>不能为心灵失聪者。</RitualTargetAnimaTreeMustBePsychicallySensitive>
 
   <!-- EN: The anima linking ceremony is more powerful with more participants. The more people participate, the less time the ceremony takes, and the more anima grass will grow.\n\nWith {0} additional participants, {1} anima grass will be restored at the end of the ceremony. -->
-  <AnimaLinkingExplanationBase>参与者越多， 仙树共鸣仪式就越有力量。 参加的人越多， 仪式所需的时间就越短， 生长的灵草就越多。\n\n有了{0}个额外的参与者， {1}株灵草将在仪式结束时恢复。</AnimaLinkingExplanationBase>
+  <AnimaLinkingExplanationBase>参与者越多，仙树共鸣仪式就越有效。参加的人越多，仪式所需的时间就越短，生长的灵草就越多。\n\n有了{0}名额外的参与者，{1}株灵草将在仪式结束时恢复。</AnimaLinkingExplanationBase>
   <!-- EN: Not all required cargo is loaded yet! -->
   <ShuttleRequiredItemsNotSatisfied>所需物资还没有全部装载！</ShuttleRequiredItemsNotSatisfied>
   <!-- EN: Cannot load {0_labelShort} -->
-  <CannotLoadIntoShuttle>TODO</CannotLoadIntoShuttle>
+  <CannotLoadIntoShuttle>无法装载{0_labelShort}</CannotLoadIntoShuttle>
 
   <!-- EN: no heat to dump. -->
   <AbilityNoEntropyToDump>没有心灵熵。</AbilityNoEntropyToDump>

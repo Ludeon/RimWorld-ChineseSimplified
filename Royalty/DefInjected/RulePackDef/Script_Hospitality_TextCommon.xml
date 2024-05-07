@@ -65,8 +65,8 @@
     <li>healthInfo(lodgersHaveBloodRotAndParalysis==true,priority=1)->\n\n[paralyzedInfo]\n\n[bloodRotInfo]</li>
     <li>healthInfo(lodgersAreParalyzed==true,priority=1)->\n\n[paralyzedInfo]</li>
     <li>healthInfo(lodgersHaveBloodRot==true,priority=1)->\n\n[bloodRotInfo]</li>
-    <li>paralyzedInfo->[lodgersLabelSingOrPluralDef] [areIs] 因患有麻痹症而必须卧床休息。</li>
-    <li>bloodRotInfo->[lodgersLabelSingOrPluralDef] [areIs] 因患有毒血症而必须每天接受治疗。 这种疾病的进展可以通过高质量的护理和药物来延缓， 但通常不会被治愈。 如果疾病变得足够严重， 将会导致[lodgersLabelSingOrPluralDef]死亡， 所以要确保你有足够的医疗药品。</li>
+    <li>paralyzedInfo->[lodgersLabelSingOrPluralDef][areIs]因患有麻痹症而必须卧床休息。</li>
+    <li>bloodRotInfo->[lodgersLabelSingOrPluralDef][areIs]因患有毒血症而必须每天接受治疗。这种疾病的进展可以通过高质量的护理和药物来延缓，但通常不会被治愈。如果疾病变得足够严重，将会导致[lodgersLabelSingOrPluralDef]死亡，所以要确保你有足够的医疗药品。</li>
     <li>minMoodInfo-></li>
     <li>minMoodInfo(lodgersCountWithMoodThreshold>0,priority=1)->\n\n你必须保持 [lodgersLabelSingOrPluralDef] 的心情在 [lodgersMoodThreshold_percent] 以上。</li>
     <li>workInfo-></li>
@@ -81,14 +81,14 @@
     <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize==1)->(*Threat)两个机械集群(/Threat)将部署到附近。</li>
     <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize>1)->(*Threat)一个[threatSize]x规模的机械集群(/Threat)将部署到附近。</li>
     <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize>1)->(*Threat)两个[threatSize]x规模的机械集群(/Threat)将部署到附近。</li>
-    <li>threatsInfoMechClustersSingleHuman->[lodgers0_nameDef]近期[mechViolation]，已经被在轨的大批机械族锁定。</li>
-    <li>threatsInfoMechClustersMultiPrisoners->囚犯们近期[mechViolation]，已经被在轨的大批机械族锁定。</li>
-    <li>threatsInfoMechRaidsSingleHuman->[lodgers0_nameDef]近期[mechViolation]，已经被大批机械族锁定。</li>
-    <li>threatsInfoMechRaidsMultiHuman->他们近期[mechViolation]，已经被大批机械族锁定。</li>
+    <li>threatsInfoMechClustersSingleHuman->[lodgers0_nameDef]近期[mechViolation]，已经被在轨的大批机械体锁定。</li>
+    <li>threatsInfoMechClustersMultiPrisoners->囚犯们近期[mechViolation]，已经被在轨的大批机械体锁定。</li>
+    <li>threatsInfoMechRaidsSingleHuman->[lodgers0_nameDef]近期[mechViolation]，已经被大批机械体锁定。</li>
+    <li>threatsInfoMechRaidsMultiHuman->他们近期[mechViolation]，已经被大批机械体锁定。</li>
     <li>mechViolation->激怒了一个人工智能</li>
     <li>mechViolation->妨碍了一个古老的超级终端</li>
-    <li>mechViolation->谋杀了一个受超凡世界青睐的人类儿童</li>
-    <li>mechViolation->企图黑入机械族控制节点</li>
+    <li>mechViolation->谋杀了一个受超凡智能青睐的人类儿童</li>
+    <li>mechViolation->企图黑入机械体控制节点</li>
     <li>mechViolation->试图从一个古代储存点盗窃</li>
     <li>letterSubject->{SUBJECT_definite}</li>
     <li>lodgersHasHave(lodgersCount==1)->有</li>
@@ -99,7 +99,7 @@
     <li>areIs(lodgersCount>=2)->是</li>
     <li>remainingWillNowLeave(lodgersCount==1)-></li>
     <li>remainingWillNowLeave(lodgersCount>=2)->现在所有剩余的[lodgersLabelPlural]都将离开。</li>
-    <li>failLetterEndingQuest->你未能完成任务'[resolvedQuestName]'.</li>
+    <li>failLetterEndingQuest->你未能完成任务“[resolvedQuestName]”。</li>
     <li>failLetterEndingCommon(askerIsNull==true,priority=1)->[failLetterEndingQuest]</li>
     <li>failLetterEndingCommon->[failLetterEndingQuest]\n\n你与[asker_faction_name]的关系下降[goodwillPenalty]。</li>
   </QuestHospitalityCommon.rulePack.rulesStrings>

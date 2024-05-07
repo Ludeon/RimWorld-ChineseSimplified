@@ -4,7 +4,7 @@
   <!-- EN: harp -->
   <Harp.label>竖琴</Harp.label>
   <!-- EN: Craft the harp, a simple stationary musical instrument popular among nobility in some cultures. -->
-  <Harp.description>制作竖琴，在某些文化中很受贵族欢迎的一种简单的固定乐器。</Harp.description>
+  <Harp.description>解锁制作「竖琴」，在某些文化中很受贵族欢迎的一种简易固定乐器。</Harp.description>
   <!-- EN:
     <li>subject->harps</li>
     <li>subject->simple string instruments</li>
@@ -15,7 +15,16 @@
     <li>subject_story->researched the cultural significance of stringed instrument usage</li>
     <li>subject_gerund->playing the harp</li>
   -->
-  <Harp.generalRules.rulesStrings>TODO</Harp.generalRules.rulesStrings>
+  <Harp.generalRules.rulesStrings>
+    <li>subject->竖琴</li>
+    <li>subject->简易弦乐器</li>
+    <li>subject_story->曾在音乐学校中受训</li>
+    <li>subject_story->用常见的荒野世界材料建造了一个竖琴</li>
+    <li>subject_story->独自为帝国贵族弹奏竖琴</li>
+    <li>subject_story->每天都练习滑奏</li>
+    <li>subject_story->研究了使用弦乐器的文化意义</li>
+    <li>subject_gerund->弹奏竖琴</li>
+  </Harp.generalRules.rulesStrings>
   
   <!-- EN: harpsichord -->
   <Harpsichord.label>大键琴</Harpsichord.label>
@@ -29,7 +38,14 @@
     <li>subject_story->constructed dual-keyboard harpsichords focused on harmonics</li>
     <li>subject_gerund->playing the harpsichord</li>
   -->
-  <Harpsichord.generalRules.rulesStrings>TODO</Harpsichord.generalRules.rulesStrings>
+  <Harpsichord.generalRules.rulesStrings>
+    <li>subject->大键琴</li>
+    <li>subject_story->引领了核心世界星系的大键琴文艺复兴</li>
+    <li>subject_story->为在闪耀世界音乐会上要用到的大键琴校音</li>
+    <li>subject_story->担任了当地交响乐团的首席大键琴手</li>
+    <li>subject_story->建造的双键大键琴专注于和声</li>
+    <li>subject_gerund->弹奏大键琴</li>
+  </Harpsichord.generalRules.rulesStrings>
   
   <!-- EN: piano -->
   <Piano.label>钢琴</Piano.label>
@@ -44,6 +60,14 @@
     <li>subject_story->constructed a strange piano</li>
     <li>subject_gerund->playing the piano</li>
   -->
-  <Piano.generalRules.rulesStrings>TODO</Piano.generalRules.rulesStrings>
+  <Piano.generalRules.rulesStrings>
+    <li>subject->钢琴</li>
+    <li>subject_story->了解几乎所有种类的弦乐器</li>
+    <li>subject_story->报名参加了一所音乐学院，那里的学生们不仅要弹奏钢琴，还要学习如何作曲</li>
+    <li>subject_story->在核心世界间运输钢琴</li>
+    <li>subject_story->记录了几名钢琴大家的演奏技术</li>
+    <li>subject_story->建造了一架古怪的钢琴</li>
+    <li>subject_gerund->弹奏钢琴</li>
+  </Piano.generalRules.rulesStrings>
   
 </LanguageData>

@@ -124,7 +124,7 @@
   <LetterFriendlyTrapSprung>{1_labelShort}不小心触发了陷阱，并受到了伤害。</LetterFriendlyTrapSprung>
 
   <!-- EN: {PAWN_labelShort} has developed a health condition:\n\n  {1}\n\nThis was caused by:\n\n  {2} -->
-  <LetterHealthComplications>{PAWN_labelShort}产生了新的症状: {1}\n\n这是由{2}所带来的并发症。</LetterHealthComplications>
+  <LetterHealthComplications>{PAWN_labelShort}产生了新的症状: {1}\n\n这是由{2}引起的。</LetterHealthComplications>
   <!-- EN: {PAWN_labelShort}: {1} -->
   <LetterHealthComplicationsLabel>{PAWN_labelShort}：{1}</LetterHealthComplicationsLabel>
   
@@ -244,13 +244,13 @@
   <!-- EN: {ANIMAL_definite} was bonded to {HUMAN_labelShort}. It will affect {HUMAN_labelShort}'s mood. -->
   <LetterPartBondedAnimalDied>{ANIMAL_definite}与{HUMAN_labelShort}形成牵绊。这将影响{HUMAN_labelShort}的心情。</LetterPartBondedAnimalDied>
   <!-- EN: It will affect mood of the following people:\n\n{0} -->
-  <LetterPartBondedAnimalDiedMulti>这将影响以下人的心情：\n\n{0}</LetterPartBondedAnimalDiedMulti>
+  <LetterPartBondedAnimalDiedMulti>这将影响以下人员的心情：\n\n{0}</LetterPartBondedAnimalDiedMulti>
 
   <!-- Prison break -->
   <!-- EN: Prison break -->
   <LetterLabelPrisonBreak>越狱</LetterLabelPrisonBreak>
   <!-- EN: Prisoners have staged a breakout! They've somehow defeated the door locks and are making their way out. They may seek weapons, fight, or try to escape. These prisoners are involved:\n\n{0}\n\nPrisoners are more likely to attempt breakout when they are numerous and healthy. -->
-  <LetterPrisonBreak>囚犯们不知如何撬开了门锁，正在越狱！他们可能找寻武器、战斗或者直接逃跑。越狱囚犯:\n\n{0}\n\n当囚犯人数众多或身体健康时更容易试图越狱。</LetterPrisonBreak>
+  <LetterPrisonBreak>囚犯们不知如何撬开了门锁，正在越狱！他们可能找寻武器、战斗或者直接逃跑。越狱囚犯：\n\n{0}\n\n当囚犯人数众多或身体健康时更容易试图越狱。</LetterPrisonBreak>
 
   <!-- Newly addicted -->
   <!-- EN: {0} addiction -->
@@ -294,7 +294,7 @@
   <!-- EN: Base destroyed -->
   <LetterLabelFactionBaseDefeated>基地已摧毁</LetterLabelFactionBaseDefeated>
   <!-- EN: The enemy settlement {0} has been destroyed.\n\nIn {1}, your caravan will be attacked by enemies. They will begin sending forces to attack the caravan, unless it reforms and leaves. -->
-  <LetterFactionBaseDefeated>敌人的定居点{0}已经被摧毁。\n\n殖民者重组远行队之前你有{1}来收集物资，你也可以在世界地图中选择已摧毁的基地来收集物资。</LetterFactionBaseDefeated>
+  <LetterFactionBaseDefeated>敌人的定居点{0}已经被摧毁。\n\n殖民者重组远行队之前你有{1}来收集物资，你也可以在世界地图中选择已摧毁的定居点来收集物资。</LetterFactionBaseDefeated>
   <!-- EN: Since this was their last settlement, {0} has been defeated. -->
   <LetterFactionBaseDefeated_FactionDestroyed>这是{0}的最后一个基地，这意味着这个派系已不复存在。</LetterFactionBaseDefeated_FactionDestroyed>
 
@@ -302,13 +302,13 @@
   <!-- EN: Quest completed -->
   <LetterLabelDefeatAllEnemiesQuestCompleted>完成请求</LetterLabelDefeatAllEnemiesQuestCompleted>
   <!-- EN: You have defeated the enemy outpost!\n\nThe payment from {0} has arrived, and faction relations have improved by {1}. -->
-  <LetterDefeatAllEnemiesQuestCompleted>你摧毁了敌人的哨所！\n\n来自{0}的付款已经到达，并且派系关系提升了{1}。</LetterDefeatAllEnemiesQuestCompleted>
+  <LetterDefeatAllEnemiesQuestCompleted>你摧毁了敌人的哨所！\n\n来自{0}的付款已抵达，并且派系关系提升了{1}。</LetterDefeatAllEnemiesQuestCompleted>
 
   <!-- Long-range mineral scanner -->
   <!-- EN: Distant resource scanned -->
   <LetterLabelFoundPreciousLump>扫描到稀有矿物</LetterLabelFoundPreciousLump>
   <!-- EN: Using your long-range mineral scanner, {WORKER_labelShort} has found a lump of {0} some distance away.\n\nUnfortunately, it won't last - others will mine it first in {1} days if we don't.\n\n{2}. -->
-  <LetterFoundPreciousLump>通过使用远距离矿物扫描仪，{WORKER_labelShort}发现了附近的一块 {0}。\n\n很遗憾，它不会持续很久——如果我们不尽快开采，其他势力将会在{1}后开采并带走这些资源。\n\n{2}。</LetterFoundPreciousLump>
+  <LetterFoundPreciousLump>通过使用远距离矿物扫描仪，{WORKER_labelShort}发现了附近的一块{0}。\n\n很遗憾，它不会持续很久——如果我们不尽快开采，其他派系将会在{1}后开采并带走这些资源。\n\n{2}。</LetterFoundPreciousLump>
 
   <!-- Ground penetrating scanner -->
   <!-- EN: Scanned underground -->
@@ -342,9 +342,9 @@
   <!-- EN: Peace talks triumph -->
   <LetterLabelPeaceTalks_Triumph>巨大成功的和平谈判</LetterLabelPeaceTalks_Triumph>
   <!-- EN: The talks were a great triumph! Delegates connected quickly on a personal level and came to truly see each others' perspective on the most difficult issues of the day.\n\nRelations with {0} have improved by {1}.\n\nAs your caravan departed, {0} offered you a gift:\n\n{2} -->
-  <LetterPeaceTalks_Triumph>谈判取得了伟大的胜利！代表们在个人层面上迅速取得联系，并在当天就在最困难问题上真正看出了彼此的观点。\n\n与{0}间的关系提升了{1}。\n\n在你的远行队离开时，{0}赠予了你一个礼物: {2}。</LetterPeaceTalks_Triumph>
+  <LetterPeaceTalks_Triumph>谈判取得了伟大的胜利！代表们在个人层面上迅速取得联系，并在当天就在最困难问题上真正看出了彼此的观点。\n\n与{0}间的关系提升了{1}。\n\n在你的远行队离开时，{0}赠予了你一份礼物: {2}。</LetterPeaceTalks_Triumph>
   <!-- EN: {PAWN_labelShort}, your negotiator, has gained {1} social experience. -->
-  <PeaceTalksSocialXPGain>你的谈判者，{PAWN_labelShort}，获得了{1}社交经验值。</PeaceTalksSocialXPGain>
+  <PeaceTalksSocialXPGain>你的谈判者，{PAWN_labelShort}，获得了{1}社交技能经验值。</PeaceTalksSocialXPGain>
 
   <!-- Run wild mental break -->
   <!-- EN: {0} is fed up with civilization.\n\n{PAWN_pronoun} realized that wild creatures are always free. So, {PAWN_pronoun} has decided to leave your faction and live with the animals.\n\nYou can attempt to tame or arrest {PAWN_objective} to get {PAWN_objective} back. -->
@@ -352,12 +352,12 @@
 
   <!-- Catatonic mental break -->
   <!-- EN: {0} has suffered a total mental breakdown and entered a catatonic state. {PAWN_pronoun} will recover in several days. -->
-  <LetterCatatonicMentalBreak>{0}的精神已彻底崩溃并陷入紧张性木僵状态。{PAWN_pronoun}会在数天后恢复。</LetterCatatonicMentalBreak>
+  <LetterCatatonicMentalBreak>{0}的精神已彻底崩溃，并陷入了无法行动的紧张性木僵状态。{PAWN_pronoun}会在数天后恢复正常。</LetterCatatonicMentalBreak>
 
   <!-- EN: Persona Core Offer -->
-  <LetterLabelAICoreOffer>AI核心机会</LetterLabelAICoreOffer>
+  <LetterLabelAICoreOffer>人格核心机会</LetterLabelAICoreOffer>
   <!-- EN: {PAWN_definite} of {1} contacts you with an offer of information: the location of a persona core, which you'll need in order to build a spaceship. They inform you that this item is quite rare and usually its owners have it under heavy guard.\n\nCall them with your comms console if you're interested. -->
-  <LetterAICoreOffer>{1}的{PAWN_definite}联系你，并表示可以提供情报：建造飞船所必须的人格核心的所在地。他们告诉你，这种道具极为稀有，其拥有者通常会守以重兵。\n\n如果你有兴趣，用通讯台联系他们。</LetterAICoreOffer>
+  <LetterAICoreOffer>{1}的{PAWN_definite}联系你，并表示可以提供情报：建造飞船所必须的人格核心的所在地。他们告诉你，这种物品极为稀有，其拥有者通常会守以重兵。\n\n如果你有兴趣，用通讯台联系他们。</LetterAICoreOffer>
 
   <!-- Crafting letters -->
   <!-- EN: Legendary Work -->
@@ -372,7 +372,7 @@
   <!-- EN: {WORKER_labelShort} has created a {CRAFTED_labelShort}. -->
   <LetterCraftedMasterworkMessage>{WORKER_labelShort}制作出了一个{CRAFTED_labelShort}。</LetterCraftedMasterworkMessage>
   <!-- EN: {WORKER_labelShort} has created a {CRAFTED_labelShort}.\n\n{0} -->
-  <LetterCraftedMasterworkMessageArt>{WORKER_labelShort}制作出了一个{CRAFTED_labelShort}.\n\n{0}</LetterCraftedMasterworkMessageArt>
+  <LetterCraftedMasterworkMessageArt>{WORKER_labelShort}制作出了一个{CRAFTED_labelShort}。\n\n{0}</LetterCraftedMasterworkMessageArt>
 
   <!-- Pawns lost because map closed -->
   <!-- EN: Caravan lost -->
@@ -386,11 +386,11 @@
 
   <!-- Hibernate complete -->
   <!-- EN: Reactor ready -->
-  <LetterLabelHibernateComplete>反应炉就绪</LetterLabelHibernateComplete>
+  <LetterLabelHibernateComplete>反应堆就绪</LetterLabelHibernateComplete>
   <!-- EN: (*Name)Charlon Whitestone(/Name) has finished the reactor's hibernation recovery sequence. The reactor is now ready to power a liftoff. -->
-  <LetterHibernateComplete>(*Name)沙隆·白石(/Name)已完成了反应炉的休眠恢复流程。反应炉现在可以供能以让飞船起飞。</LetterHibernateComplete>
+  <LetterHibernateComplete>(*Name)沙隆·白石(/Name)已完成了反应堆的休眠恢复流程。反应堆现在可以供能以让飞船起飞。</LetterHibernateComplete>
   <!-- EN: The reactor's power up sequence is complete. It is now ready to power a liftoff. -->
-  <LetterHibernateCompleteStandalone>反应炉充能流程已就绪。反应炉现在可以供能以让飞船起飞。</LetterHibernateCompleteStandalone>
+  <LetterHibernateCompleteStandalone>反应堆充能流程已就绪。反应堆现在可以供能以让飞船起飞。</LetterHibernateCompleteStandalone>
 
   <!-- Visitors gave gift -->
   <!-- EN: Gift from {0} -->
@@ -418,7 +418,7 @@
 
   <!-- Predator hunting colonist -->
   <!-- EN: {PREDATOR_labelShort} hunting {PREY_definite} -->
-  <LetterLabelPredatorHuntingColonist>{PREDATOR_labelShort}猎取{PREY_definite}</LetterLabelPredatorHuntingColonist>
+  <LetterLabelPredatorHuntingColonist>{PREDATOR_labelShort}捕食{PREY_definite}</LetterLabelPredatorHuntingColonist>
   <!-- EN: {PREDATOR} is hunting {PREY_definite} for food! -->
   <LetterPredatorHuntingColonist>{PREDATOR}正在捕食{PREY_definite}！</LetterPredatorHuntingColonist>
 
@@ -444,9 +444,9 @@
 
   <!-- Quest drop pods arrived -->
   <!-- EN: Pods arrived -->
-  <LetterLabelQuestDropPodsArrived>运输舱到达</LetterLabelQuestDropPodsArrived>
+  <LetterLabelQuestDropPodsArrived>运输舱抵达</LetterLabelQuestDropPodsArrived>
   <!-- EN: Transport pods with the following contents have arrived:\n\n{0} -->
-  <LetterQuestDropPodsArrived>装载有以下内容的运输舱已到达:\n\n{0}</LetterQuestDropPodsArrived>
+  <LetterQuestDropPodsArrived>装载有以下内容的运输舱已抵达:\n\n{0}</LetterQuestDropPodsArrived>
 
   <!-- Quest items added to caravan inventory -->
   <!-- EN: {CARAVAN_label} received items -->
@@ -458,25 +458,25 @@
   <!-- EN: {PAWN_nameDef} joins -->
   <LetterLabelRefugeeJoins>{PAWN_nameDef}加入</LetterLabelRefugeeJoins>
   <!-- EN: A {PAWN_title} named {PAWN_nameDef} has arrived and is joining the colony. -->
-  <LetterRefugeeJoins>一个名为{PAWN_nameDef}的{PAWN_title}已经到达并将加入殖民地。</LetterRefugeeJoins>
+  <LetterRefugeeJoins>一名叫做{PAWN_nameDef}的{PAWN_title}已抵达，并将加入殖民地。</LetterRefugeeJoins>
   
   <!-- Rescuee joins -->
   <!-- EN: {PAWN_nameDef} joins -->
   <LetterLabelRescueeJoins>{PAWN_nameDef}加入</LetterLabelRescueeJoins>
   <!-- EN: {PAWN_nameDef} is thankful that you rescued {PAWN_objective}. {PAWN_pronoun} has decided that {PAWN_pronoun} would rather stay than leave, and is joining your colony. -->
-  <LetterRescueeJoins>{PAWN_nameDef}感谢你救出了{PAWN_objective}。{PAWN_pronoun}决定留在这里，{PAWN_pronoun}将加入你的殖民地。</LetterRescueeJoins>
+  <LetterRescueeJoins>{PAWN_nameDef}感谢你救出了{PAWN_objective}。{PAWN_pronoun}决定留在这里，加入你的殖民地。</LetterRescueeJoins>
 
   <!-- Pawns arrive and join -->
   <!-- EN: People join -->
   <LetterLabelPawnsArriveAndJoin>人员加入</LetterLabelPawnsArriveAndJoin>
   <!-- EN: The following people have arrived and joined the colony:\n\n{0} -->
-  <LetterPawnsArriveAndJoin>以下人员到达并加入了殖民地:\n\n{0}</LetterPawnsArriveAndJoin>
+  <LetterPawnsArriveAndJoin>以下人员已抵达并加入了殖民地:\n\n{0}</LetterPawnsArriveAndJoin>
 
   <!-- Pawns arrive -->
   <!-- EN: People arrived -->
-  <LetterLabelPawnsArrive>人员到达</LetterLabelPawnsArrive>
+  <LetterLabelPawnsArrive>人员抵达</LetterLabelPawnsArrive>
   <!-- EN: The following people have arrived:\n\n{0} -->
-  <LetterPawnsArrive>以下人员已到达:\n\n{0}</LetterPawnsArrive>
+  <LetterPawnsArrive>以下人员已抵达:\n\n{0}</LetterPawnsArrive>
 
   <!-- Pawn leaving -->
   <!-- EN: {0} leaving -->
@@ -521,18 +521,18 @@
   <!-- EN: Quest concluded -->
   <LetterQuestConcludedLabel>任务结束</LetterQuestConcludedLabel>
   <!-- EN: You have successfully completed the quest '{0}'! -->
-  <LetterQuestCompletedSuccess>你已成功完成任务'{0}'！</LetterQuestCompletedSuccess>
+  <LetterQuestCompletedSuccess>你已成功完成任务“{0}”！</LetterQuestCompletedSuccess>
   <!-- EN: You have failed the quest '{0}'. -->
-  <LetterQuestCompletedFail>你未完成任务'{0}'。</LetterQuestCompletedFail>
+  <LetterQuestCompletedFail>你未完成任务“{0}”。</LetterQuestCompletedFail>
   <!-- EN: You have concluded the quest '{0}'. -->
-  <LetterQuestCompletedConcluded>你已完成任务'{0}'。</LetterQuestCompletedConcluded>
+  <LetterQuestCompletedConcluded>你已完成任务“{0}”。</LetterQuestCompletedConcluded>
 
   <!-- Bladelink -->
   <!-- EN: Persona bond: {PAWN_labelShort} -->
   <LetterBladelinkWeaponBondedLabel>武器绑定: {PAWN_labelShort}</LetterBladelinkWeaponBondedLabel>
   <!-- EN: {PAWN_labelShort} has established a bond with the persona of {WEAPON_labelShort}.
 \nFrom now on, {WEAPON_labelShort} will refuse to be wielded by anyone except {PAWN_labelShort}. -->
-  <LetterBladelinkWeaponBonded> {PAWN_labelShort} 与 {WEAPON_labelShort} 建立起了特殊的联系。\n\n从现在开始，{WEAPON_labelShort} 将拒绝除了 {PAWN_labelShort} 以外的任何使用者。</LetterBladelinkWeaponBonded>
+  <LetterBladelinkWeaponBonded>{PAWN_labelShort}与{WEAPON_labelShort}的人格建立起了特殊的联系。\n\n从现在开始，{WEAPON_labelShort}将拒绝除了{PAWN_labelShort}以外的任何使用者。</LetterBladelinkWeaponBonded>
   
   <!-- Mech cluster -->
   <!-- EN: Mechanoids arrived -->
@@ -543,7 +543,7 @@
   <!-- EN: Caravan detected -->
   <LetterLabelSiteCountdownStarted>远行队被发现</LetterLabelSiteCountdownStarted>
   <!-- EN: Your caravan has been detected. In {0}, reinforcing {1} from {2} will begin arriving in the area.\n\nReform your caravan and begin moving to avoid the {1}. A timer counting down to their arrival is now visible. -->
-  <LetterTextSiteCountdownStarted>你的远行队被发现了。在{0}，来自{2}的{1}将会到达这片区域。\n请重组你的远行队并开始移动避开{1}。现在对方抵达的倒计时已经可以看见。</LetterTextSiteCountdownStarted>
+  <LetterTextSiteCountdownStarted>你的远行队被发现了。来自{2}的{1}将会在{0}后抵达这片区域。\n请重组你的远行队并开始移动以避开{1}。现在对方抵达的倒计时已变为可见状态。</LetterTextSiteCountdownStarted>
 
   <!-- EN: Unwavering prisoner -->
   <LetterLabelUnrecruitablePawnCaptured>坚定不移的囚犯</LetterLabelUnrecruitablePawnCaptured>
@@ -562,7 +562,7 @@
   <!-- EN: {PAWN_nameDef} wishes to join your faction. -->
   <LetterJoinOfferTitle>{PAWN_nameDef}希望加入你的派系。</LetterJoinOfferTitle>
   <!-- EN: {PAWN_nameDef} believes that {PAWN_pronoun} is happy at {MAP_definite}. {PAWN_pronoun} wishes to join you permanently. -->
-  <LetterJoinOfferText>{PAWN_nameDef}相信{PAWN_pronoun}会在{MAP_definite}过的开心。{PAWN_pronoun}希望能够永远加入你。</LetterJoinOfferText>
+  <LetterJoinOfferText>{PAWN_nameDef}相信自己会在{MAP_definite}过的开心。{PAWN_pronoun}希望能够永远加入你。</LetterJoinOfferText>
   <!-- EN: Accept -->
   <LetterJoinOfferAccept>接受</LetterJoinOfferAccept>
 
@@ -578,9 +578,9 @@
   <!-- EN: It was remarkably inspiring, full of intensity and purpose. -->
   <LetterInspirationalSpeech>激情澎湃的演说，充满了昂扬的斗志与坚定的目标。</LetterInspirationalSpeech>
   <!-- EN: The following people were particularly moved by the speech and are now inspired: -->
-  <LetterSpeechInspiredListeners>这些人被这场演讲感动，现在受到启发：</LetterSpeechInspiredListeners>
+  <LetterSpeechInspiredListeners>这些人被这场演讲感动，现在得到了灵感：</LetterSpeechInspiredListeners>
   <!-- EN: Thanks to {SPEAKER_nameIndef}'s remarkable speech, {PAWN_nameIndef} has experienced an inspiration! -->
-  <LetterSpeechInspiration>感谢{SPEAKER_nameIndef}的精彩演讲，{PAWN_nameIndef}得到了启发!</LetterSpeechInspiration>
+  <LetterSpeechInspiration>感谢{SPEAKER_nameIndef}的精彩演讲，{PAWN_nameIndef}得到了一个灵感！</LetterSpeechInspiration>
   <!-- EN: Because the speech was interrupted after only {0} completed, it wasn't as effective. -->
   <LetterSpeechInterrupted>由于演讲进度在{0}后被打断，因此效果不佳。</LetterSpeechInterrupted>
   <!-- EN: {0}'s speech was cancelled before reaching 50% completion. It had no effect. -->

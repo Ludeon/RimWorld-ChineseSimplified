@@ -11,13 +11,13 @@
   <!-- EN: Shuffling listlessly. -->
   <ShamblerShuffling>呆滞地游荡。</ShamblerShuffling>
   <!-- EN: Be careful, the group contains a shambler gorehulk. -->
-  <LetterText_ShamblerGorehulk>当心了，它们之中还混有一只活尸血棘巨人。</LetterText_ShamblerGorehulk>
+  <LetterText_ShamblerGorehulk>当心了，它们之中还混有一只蹒跚血棘巨人。</LetterText_ShamblerGorehulk>
   <!-- EN: Be careful, the group contains several shambler gorehulks. -->
-  <LetterText_ShamblerGorehulkPlural>当心了，它们之中还混有几只活尸血棘巨人。</LetterText_ShamblerGorehulkPlural>
+  <LetterText_ShamblerGorehulkPlural>当心了，它们之中还混有几只蹒跚血棘巨人。</LetterText_ShamblerGorehulkPlural>
   <!-- EN: Be careful, the group contains a shambler chimera. -->
-  <LetterText_ShamblerChimera>当心了，它们之中还混有一只活尸嵌合兽。</LetterText_ShamblerChimera>
+  <LetterText_ShamblerChimera>当心了，它们之中还混有一只蹒跚嵌合兽。</LetterText_ShamblerChimera>
   <!-- EN: Be careful, the group contains several shambler chimeras. -->
-  <LetterText_ShamblerChimeraPlural>当心了，它们之中还混有几只活尸嵌合兽。</LetterText_ShamblerChimeraPlural>
+  <LetterText_ShamblerChimeraPlural>当心了，它们之中还混有几只蹒跚嵌合兽。</LetterText_ShamblerChimeraPlural>
 
   <!-- EN: Non-humans cannot participate in rituals. -->
   <MessageRitualCannotBeMutant>只有人类才能参与仪式。</MessageRitualCannotBeMutant>
@@ -36,7 +36,7 @@
   <!-- EN: Revenant killed -->
   <LetterLabelRevenantKilled>击杀幽魂</LetterLabelRevenantKilled>
   <!-- EN: The revenant is dead! Those who were hypnotized will recover.\n\nIts body has dissipated, leaving behind its spine. You can gather and study the spine, or destroy it. -->
-  <LetterRevenantKilled>幽魂已被击杀！被催眠的人也会恢复过来。\n\n幽魂的躯体已经消散，只留下了脊椎。可收集并研究它的脊椎，或者直接将其摧毁。</LetterRevenantKilled>
+  <LetterRevenantKilled>幽魂已被击杀！被催眠的人也会恢复过来。\n\n幽魂的躯体已经消散，只留下了脊椎。可收集并调查它的脊椎，或者直接将其摧毁。</LetterRevenantKilled>
   <!-- EN: {PAWN_nameDef} hypnotized -->
   <LetterLabelPawnHypnotized>{PAWN_nameDef}遭到催眠</LetterLabelPawnHypnotized>
   <!-- EN: {PAWN_nameDef} has been hypnotized by a revenant and is now rambling incoherently about nightmarish images and ideas.\n\nKilling the revenant will end the hypnosis.\n\nThe revenant uses psychic powers to twist the perceptions of those around it, making itself invisible. However, it can still be hunted by following the black smears that it leaves. The revenant will be revealed if hit by explosive weapons, firefoam, EMPs, fire, or disruptor flares.\n\nIf not killed, the revenant will continue to hypnotize new victims. -->
@@ -66,7 +66,7 @@
   <!-- EN: Sightstealer shrieks -->
   <LetterLabelSightstealerHowl>隐形魔尖啸</LetterLabelSightstealerHowl>
   <!-- EN: Your colonists hear sightstealers shrieking in the distance.\n\nIt's hard to tell where they are or how many. They might arrive immediately or days from now. -->
-  <LetterSightstealerHowl>殖民者听到远方传来隐形魔的尖啸声。\n\n没人知道它们到底在哪，也不清楚它们到底有几只。它们可能几天后才到，也可能马上来袭。</LetterSightstealerHowl>
+  <LetterSightstealerHowl>殖民者听到远方传来隐形魔的尖啸声。\n\n没人知道它们身在何处，也不清楚它们到底有几只。它们可能几天后才到，也可能马上来袭。</LetterSightstealerHowl>
   <!-- EN: Sightstealer howling -->
   <LetterLabelSightstealerHowlBig>隐形魔嚎叫</LetterLabelSightstealerHowlBig>
   <!-- EN: Your colonists hear a huge number of distant sightstealers screaming in their twisted rage. They are coming.\n\nThey might arrive immediately, or days from now. -->
@@ -76,7 +76,7 @@
   <!-- EN: Death pall clearing -->
   <LetterLabelDeathPallEnded>死灵迷雾消散</LetterLabelDeathPallEnded> 
   <!-- EN: The pall of death is lifting. The corpses reanimated by it will soon return to their natural state. -->
-  <LetterDeathPallEnded>死灵迷雾正在消散。受其影响而转变的活尸很快便会继续安息。</LetterDeathPallEnded>
+  <LetterDeathPallEnded>死灵迷雾正在消散。受其影响而转变的蹒跚怪很快便会继续安息。</LetterDeathPallEnded>
   
   <!-- Pit Gate -->
   <!-- EN: Pit gate closing -->
@@ -118,7 +118,7 @@
   <!-- EN: Fleshbeast lair -->
   <LetterLabelGateEntered>血肉兽巢穴</LetterLabelGateEntered> 
   <!-- EN: In the depths of the pit gate, you have discovered a massive cavern system infested with fleshbeasts.\n\nThe cavern system is clogged with masses of living flesh that block your progress. Attack the fleshmass to destroy it.\n\nThe entire cavern system seems unstable. If you find what lies behind the fleshmass, you may be able to collapse the tunnels and close the pit gate. -->
-  <LetterGateEntered>在巨坑深处，你们发现了一个巨大的洞穴系统，里面血肉兽肆虐。\n\n大量血肉块堵塞了洞穴系统，阻碍了你们的前进。攻击血肉块并将其摧毁。\n\n整个洞穴系统似乎并不稳定。如果能找到藏在血肉块后面的东西，也许就能弄塌隧道并关闭洞口。</LetterGateEntered> 
+  <LetterGateEntered>在巨坑深处，你们发现了一个巨大的洞穴，里面血肉兽肆虐。\n\n大量血肉块堵塞了洞穴，阻碍了你们的前进。攻击血肉块并将其摧毁。\n\n整个洞穴系统似乎并不稳定。如果能找到藏在血肉块后面的东西，也许就能弄塌隧道并关闭洞口。</LetterGateEntered> 
   <!-- EN: Squirming sounds -->
   <LetterLabelDreadmeldWarning>蠕动杂音</LetterLabelDreadmeldWarning> 
   <!-- EN: As {PAWN_nameDef} draws near the fleshmass here, {PAWN_pronoun} senses a heavy writhing and throbbing from under its warm surface. Some huge living entity is hidden behind the wall of flesh. -->
@@ -126,7 +126,7 @@
   <!-- EN: Undercave unstable -->
   <LetterLabelUndercaveCollapsing>地下洞穴不稳定</LetterLabelUndercaveCollapsing> 
   <!-- EN: The dreadmeld's death has shocked the fleshmass and caused the cave system to destabilize. The fleshmass that supported the cavern is already beginning to deteriorate. Within half a day, the entire cavern will collapse.\n\nGet out of the undercave before it's too late! -->
-  <LetterUndercaveCollapsing>惊惧母兽的死亡刺激了血肉块，导致洞穴系统变得不稳定。支撑洞穴的血肉块已经开始衰败。半天之内，整个洞穴就会坍塌。\n\n趁现在还来得及，赶快离开地下洞穴！</LetterUndercaveCollapsing>
+  <LetterUndercaveCollapsing>惊惧母兽的死亡刺激了血肉块，导致洞穴变得不稳定。支撑洞穴的血肉块已经开始衰败。半天之内，整个洞穴就会坍塌。\n\n趁现在还来得及，赶快离开地下洞穴！</LetterUndercaveCollapsing>
 
   <!-- Holding platform -->
   <!-- EN: Holding -->
@@ -134,7 +134,7 @@
   <!-- EN: Remove {0_labelShort} -->
   <RemoveFromPlatform>移除{0_labelShort}</RemoveFromPlatform>
   <!-- EN: Remove the current entity held on the platform. -->
-  <RemoveFromPlatformDesc>移除当前收容在该平台上的实体。</RemoveFromPlatformDesc>
+  <RemoveFromPlatformDesc>移除安置于此收容平台上的实体。</RemoveFromPlatformDesc>
   <!-- EN: {GERUND} {TARGETLABEL} from -->
   <ReleasingEntity>{GERUND}{TARGETLABEL}，它来自</ReleasingEntity>
   <!-- EN: {GERUND} {TARGETLABEL} -->
@@ -185,7 +185,7 @@
   <!-- EN: Obelisk mutation -->
   <ObeliskFleshmassLungLetterLabel>方尖碑畸变</ObeliskFleshmassLungLetterLabel>
   <!-- EN: While interacting with the obelisk, {PAWN_nameDef} felt a sudden sharp pain in {PAWN_possessive} chest, as {PAWN_possessive} lung began to twist and swell. {PAWN_possessive} lung has mutated into a painful mass of semi-sentient flesh. The tissue is constantly regrowing and replacing itself, making it immune to effects like lung rot and asthma. -->
-  <ObeliskFleshmassLungLetter>在与方尖碑互动时，{PAWN_nameDef}突然感到胸口一阵剧痛，{PAWN_possessive}肺部开始肿胀、扭曲。{PAWN_possessive}肺突变成了一团有自己意识的痛苦畸肉。这种组织不断再生和新陈代谢，使它免疫肺瘟和哮喘等疾病。</ObeliskFleshmassLungLetter>
+  <ObeliskFleshmassLungLetter>在与方尖碑互动时，{PAWN_nameDef}突然感到胸口一阵剧痛，{PAWN_possessive}肺部开始肿胀、扭曲。{PAWN_possessive}肺突变成了一团有自己意识的痛苦畸肉。这种组织不断再生和新陈代谢，使其免疫肺瘟和哮喘等疾病。</ObeliskFleshmassLungLetter>
 
   <!-- EN: Obelisk interaction -->
   <MutatorObeliskFailedLungLetterLabel>方尖碑互动</MutatorObeliskFailedLungLetterLabel>
@@ -238,7 +238,7 @@
   <!-- EN: {PAWN_nameDef} reappeared -->
   <ObeliskAbductedLetterLabel>{PAWN_nameDef}重新出现</ObeliskAbductedLetterLabel>
   <!-- EN: {PAWN_nameDef} has been teleported to a strange room. The walls are an unidentifiable gray material and the air is dead still. {PAWN_pronoun} doesn't know where {PAWN_pronoun} is - or how to get home.\n\nA nearby door is jammed but looks like it can be forced open with some effort. Right-click jammed doors to open them.\n\nBy studying the obelisk, other colonists may be able to understand what happened to {PAWN_nameDef} and find a way to help {PAWN_objective}. Alternatively, attacking the obelisk may provoke it to abduct more colonists. -->
-  <ObeliskAbductedLetter>{PAWN_nameDef}被传送到了一个奇怪的房间。房间墙体是由一种无法辨认的灰色材料制成的，而那里的空气也是死气沉沉。{PAWN_pronoun}不清楚自己身在何处，也不知道该如何回家。\n\n附近的一扇门被堵上了，但似乎费点力气就能强行打开。右击堵上的门将其打开。通过研究方尖碑，其他殖民者也许可以了解{PAWN_nameDef}身上发生了什么，并找到帮助{PAWN_objective}的方法。也可以选择攻击方尖碑，使其诱拐更多殖民者。</ObeliskAbductedLetter>
+  <ObeliskAbductedLetter>{PAWN_nameDef}被传送到了一个奇怪的房间。房间墙体是由一种无法辨认的灰色材料制成的，而那里的空气也是死气沉沉。{PAWN_pronoun}不清楚自己身在何处，也不知道该如何回家。\n\n附近的一扇门被堵上了，但似乎费点力气就能强行打开。右击堵上的门将其打开。通过调查方尖碑，其他殖民者也许可以了解{PAWN_nameDef}身上发生了什么，并找到帮助{PAWN_objective}的方法。也可以选择攻击方尖碑，使其诱拐更多殖民者。</ObeliskAbductedLetter>
 
   <!-- EN: {PAWN_nameIndef} has mutated into a fleshbeast. -->
   <MutatorObeliskMutated>{PAWN_nameIndef}突变成了一只血肉兽。</MutatorObeliskMutated>
@@ -255,7 +255,7 @@
   
   <!-- Activity / Supression -->
   <!-- EN: Activity level -->
-  <ActivityLevel>活跃等级</ActivityLevel>
+  <ActivityLevel>活跃度</ActivityLevel>
   <!-- EN: Psychic suppression -->
   <IsPsychicallySuppressed>心灵抑制</IsPsychicallySuppressed>
   <!-- EN: Increase rate -->
@@ -291,13 +291,13 @@
   <!-- EN: Automatic suppression is currently disabled. Enable it to have wardens suppress the {PAWN_labelShort}. -->
   <ActivitySuppressionTooltipDisabled>自动抑制功能目前已禁用。启用后，狱卒就会抑制{PAWN_labelShort}。</ActivitySuppressionTooltipDisabled>
   <!-- EN: The {0}'s activity level rises over time. Activity rises faster if the {0} is damaged or provoked.\n\nIf the activity level reaches 100%, the {0} will activate.\n\nWardens can suppress the {0} to keep its activity at a safe level. They will suppress it any time its activity is above the assigned level: {LEVEL}\n\nEntities that have higher activity levels will give more knowledge when studied. -->
-  <ActivitySuppressionTooltipDesc>{0}的活跃等级会逐渐上升。若{0}受到伤害或挑衅，活跃等级会上升得更快。\n\n若其活跃等级达到 100%，{0}就会进入活跃状态。\n\n狱卒会自动抑制{0}，将其活跃等级控制在安全范围内。一旦其活跃等级超过指定等级（{LEVEL}\n\n），他们就会对其进行抑制。活跃等级较高的实体在研究时会提供更多知识。</ActivitySuppressionTooltipDesc>
+  <ActivitySuppressionTooltipDesc>{0}的活跃度会逐渐上升。若{0}受到伤害或挑衅，活跃度会上升得更快。\n\n若其活跃度达到100%，{0}就会进入活跃状态。\n\n狱卒会自动抑制{0}，将其活跃度控制在安全范围内。一旦其活跃度超过指定水平（{LEVEL}），他们就会对其进行抑制。活跃度较高的实体在调查时会提供更多异象知识。</ActivitySuppressionTooltipDesc>
   <!-- EN: This determines whether the {PAWN_labelShort} will be automatically suppressed when its activity is above {LEVEL}.\n\nAutomatic suppression is currently {ONOFF}. -->
-  <ActivitySuppressionToggleTooltipDesc>决定当{PAWN_labelShort}的活跃等级低于 {LEVEL} 时，是否会对其进行自动抑制。\n\n自动抑制当前已{ONOFF}。</ActivitySuppressionToggleTooltipDesc>
+  <ActivitySuppressionToggleTooltipDesc>决定当{PAWN_labelShort}的活跃度高于{LEVEL}时，是否会对其进行自动抑制。\n\n自动抑制当前已{ONOFF}。</ActivitySuppressionToggleTooltipDesc>
 
   <!-- Activity Descs -->
   <!-- EN: activity level -->
-  <ActivityLevelDesc>活跃等级</ActivityLevelDesc>
+  <ActivityLevelDesc>活跃度</ActivityLevelDesc>
   <!-- EN: psychic suppression -->
   <PsychicallySuppressedDesc>心灵抑制</PsychicallySuppressedDesc>
 
@@ -305,15 +305,15 @@
   <!-- EN: Capture -->
   <CaptureEntity>捕获</CaptureEntity>
   <!-- EN: Capture {0_definite}. It must be restrained on a holding platform. Once restrained, it can be studied. -->
-  <CaptureEntityDesc>捕获{0_definite}。它必须被收容在收容平台上。一旦被收容，就可以对其进行研究。</CaptureEntityDesc>
+  <CaptureEntityDesc>捕获{0_definite}。它必须被收容在收容平台上。一旦被收容，就可以对其进行调查。</CaptureEntityDesc>
   <!-- EN: Cancel capture -->
   <CancelCapture>取消捕获</CancelCapture>
   <!-- EN: Cancel capturing {0_definite}. -->
   <CancelCaptureDesc>取消捕获{0_definite}。</CancelCaptureDesc>
   <!-- EN: ready to study -->
-  <ReadyToStudy>准备研究</ReadyToStudy>
+  <ReadyToStudy>准备调查</ReadyToStudy>
   <!-- EN: No active anomaly research project selected for {0} knowledge category. -->
-  <NoActiveResearchProject>没有为{0}知识类型选择异象研究项目。</NoActiveResearchProject>
+  <NoActiveResearchProject>没有为{0}异象知识类型选择异象研究项目。</NoActiveResearchProject>
   <!-- EN: Capturable -->
   <Capturable>可捕获</Capturable>
   <!-- EN: Must be captured in a holding platform. -->
@@ -336,19 +336,19 @@
   <Emerging>金属怪形出现</Emerging>
   
   <!-- EN: Implanted before arrival at your colony -->
-  <ImplantSourceUnknown>来到殖民地前便已植入</ImplantSourceUnknown>
+  <ImplantSourceUnknown>来到殖民地前便已被植入</ImplantSourceUnknown>
   <!-- EN: Implanter insectoid -->
   <InsectImplant>被虫族植入</InsectImplant>
   <!-- EN: Implanted during sleep by {SOURCE_nameDef} -->
-  <SleepImplant>被{SOURCE_nameDef}在睡眠期间植入</SleepImplant>
+  <SleepImplant>在睡眠期间被{SOURCE_nameDef}植入</SleepImplant>
   <!-- EN: Implanted during surgery by {SOURCE_nameDef} -->
-  <SurgeryImplant>被{SOURCE_nameDef}在手术期间植入</SurgeryImplant>
+  <SurgeryImplant>在手术期间被{SOURCE_nameDef}植入</SurgeryImplant>
   <!-- EN: Implanted through a meal cooked by {SOURCE_nameDef} -->
-  <FoodImplant>因食用了由{SOURCE_nameDef}烹饪的食物而被植入</FoodImplant>
+  <FoodImplant>因吃下了{SOURCE_nameDef}烹饪的食物而被植入</FoodImplant>
   <!-- EN: Implanted during unnatural healing by {SOURCE_nameDef} -->
-  <UnnaturalHealingImplant>被{SOURCE_nameDef}在异常治疗期间植入</UnnaturalHealingImplant>
+  <UnnaturalHealingImplant>在异常治疗期间被{SOURCE_nameDef}植入</UnnaturalHealingImplant>
   <!-- EN: Implanted when fed a meal by {SOURCE_nameDef} -->
-  <FeedingImplant>被{SOURCE_nameDef}在喂食中植入</FeedingImplant>
+  <FeedingImplant>在喂食期间被{SOURCE_nameDef}植入</FeedingImplant>
 
   <!-- EN: Metalhorror emerging -->
   <MetalhorrorEmergingLabel>金属怪形出现</MetalhorrorEmergingLabel>
@@ -382,8 +382,8 @@
   <!-- EN: {PAWN_nameDef} has found something unusual while interrogating {INFECTED_nameDef}. {INFECTED_nameDef} exhibited some combination of unnatural behavior, strange vocal sounds, or barely visible metallic worms in the eyes. {PAWN_nameDef} suspects that {INFECTED_nameDef} is infected with a metalhorror. -->
   <InterrogationDetectedDesc>在审讯{PAWN_nameDef}时，{INFECTED_nameDef}发现了一些异样。{INFECTED_nameDef}表现出一些反常行为，嘴里时不时发出奇怪的声音，眼睛里还蠕动着难以察觉的金属蠕虫。{PAWN_nameDef}怀疑{INFECTED_nameDef}感染了金属怪形。</InterrogationDetectedDesc>
   
-  <!-- EN: Metalhorrors are parasites that control the host and use {INFECTED_objective} to infect others.\n\nMetalhorrors grow stronger inside the host as time passes. A metalhorror will cut its way out of the host's body if it knows it's been detected. The process is horrifying, but the host generally survives.\n\nThe only way to confirm a person is infected with a metalhorror is to study the metalhorror's fleshy leavings to identify its biosignature, then use the surgical inspection operation with a trusted doctor.\n\nOnce discovered, you can use the surgical inspection operation to cause a metalhorror to emerge from its host. Be prepared for a fight. -->
-  <MetalhorrorNoticedDetailsAppended>金属怪形是一种寄生体，它能控制宿主，并利用{INFECTED_objective}感染他人。\n\n随着时间的流逝，金属怪形在宿主体内会变得越来越强大。若觉察到有人发现了自己的存在，金属怪形就会从宿主体内破体而出。该过程极为血腥恐怖，但宿主往往都能侥幸存活下来。\n\n确认某人是否感染金属怪形的唯一手段便是研究金属怪形的肉质残留物，以确定其生物特征，然后与信得过的医生一起对疑似宿主进行外科检查手术。\n\n一旦发现金属怪形的踪迹，可以使用外科检查手术使金属怪形主动从宿主体内钻出。一定要做好用武力将其消灭的准备。</MetalhorrorNoticedDetailsAppended>
+  <!-- EN: Metalhorrors are parasites that control the host and use them to infect others.\n\nMetalhorrors grow stronger inside the host as time passes. A metalhorror will cut its way out of the host's body if it knows it's been detected. The process is horrifying, but the host generally survives.\n\nThe only way to confirm a person is infected with a metalhorror is to study the metalhorror's fleshy leavings to identify its biosignature, then use the surgical inspection operation with a trusted doctor.\n\nOnce discovered, you can use the surgical inspection operation to cause a metalhorror to emerge from its host. Be prepared for a fight. -->
+  <MetalhorrorNoticedDetailsAppended>金属怪形是一种寄生体，它能控制宿主，并利用{INFECTED_objective}感染他人。\n\n随着时间的流逝，金属怪形在宿主体内会变得越来越强大。若觉察到有人发现了自己的存在，金属怪形就会从宿主体内破体而出。该过程极为血腥恐怖，但宿主往往都能侥幸存活下来。\n\n确认某人是否感染金属怪形的唯一手段便是调查金属怪形的肉质残留物，以确定其生物特征，然后与信得过的医生一起对疑似宿主进行外科检查手术。\n\n一旦发现金属怪形的踪迹，可以使用外科检查手术使金属怪形主动从宿主体内钻出。一定要做好用武力将其消灭的准备。</MetalhorrorNoticedDetailsAppended>
   
   <!-- EN: Gray flesh -->
   <LetterGrayFleshDiscoveredLabel>灰色血肉</LetterGrayFleshDiscoveredLabel>
@@ -497,7 +497,7 @@
   <!-- EN: Fleshmass heart defeated -->
   <LetterLabelFleshmassHeartDestroyed>血肉心脏已击败</LetterLabelFleshmassHeartDestroyed>
   <!-- EN: The fleshmass heart has been destroyed, leaving behind a broken but still functional core - a twisted amalgam of flesh and archotechnology. The nucleus continues to grow and mutate flesh, even while the surrounding fleshmass decays.\n\nYou can capture the nucleus to study it further or destroy it to end this nightmare. If left alone, it may reform into a new fleshmass heart. -->
-  <LetterFleshmassHeartDestroyed>血肉心脏已被摧毁，只留下了其受损但仍能运作的核心——血肉与超凡科技的扭曲混合物。即使周围的血肉早已腐烂，核心仍在继续生长和突变。\n\n可以捕获核心对其进行进一步研究，也可以摧毁它以结束这场噩梦。如果放任不管，它可能会再长成一颗新的血肉心脏。</LetterFleshmassHeartDestroyed>
+  <LetterFleshmassHeartDestroyed>血肉心脏已被摧毁，只留下了其受损但仍能运作的核心——血肉与超凡科技的扭曲混合物。即使周围的血肉早已腐烂，核心仍在继续生长和突变。\n\n可以捕获核心对其进一步调查，也可以摧毁它以结束这场噩梦。如果放任不管，它可能会再长成一颗新的血肉心脏。</LetterFleshmassHeartDestroyed>
   <!-- EN: The fleshmass heart has grown a new nerve bundle. -->
   <NerveBundleGrewMessage>血肉心脏长出了新的神经结节。</NerveBundleGrewMessage>
   <!-- EN: The nerve bundle has dropped a neural lump. Analyze it to learn more about the fleshmass heart. -->
@@ -534,9 +534,9 @@
   <MessageShardDropped>{0}掉落了一块暗黑超凡碎片。你可以收集并利用它。</MessageShardDropped>
   
   <!-- Blood rain -->
-  <!-- EN: The blood rain has driven {0} into a berserk rage! -->
+  <!-- EN: The blood rain has driven {0_nameIndef} into a berserk rage! -->
   <Berserk_BloodRain>血怒之雨让{0}陷入了狂暴状态！</Berserk_BloodRain>
-  <!-- EN: The blood rain has driven {0} into a manhunting rage! -->
+  <!-- EN: The blood rain has driven {0_nameIndef} into a manhunting rage! -->
   <Manhunter_BloodRain>血怒之雨让{0}陷入了猎杀人类状态！</Manhunter_BloodRain>
   <!-- EN: This happened because of blood rage buildup. -->
   <MentalBreakReason_BloodRage>这是因为血怒积聚。</MentalBreakReason_BloodRage>
@@ -575,14 +575,14 @@
   <MentalBreakReason_MysteriousCorpse>这是因为异常尸体的出现。</MentalBreakReason_MysteriousCorpse>
 
   <!-- EN: Unnatural corpse study progress -->
-  <UnnaturalCorpseStudyLetter>异常尸体研究有所进展</UnnaturalCorpseStudyLetter>
+  <UnnaturalCorpseStudyLetter>异常尸体调查有所进展</UnnaturalCorpseStudyLetter>
   <!-- EN: Your investigation of the unnatural corpse has revealed more about the body. An archotech shard at its core psychically links it with {VICTIM_nameDef}. It will rebuild itself if destroyed, and teleport any distance to be near {VICTIM_nameDef}. \n\n{RESEARCHER_nameDef} thinks that there may be a way to permanently destroy the corpse but will need to study it further.\n\nStudy the corpse more to learn how to destroy it. -->
-  <UnnaturalCorpseStudyLetterDesc>对这具异常尸体的调查揭示了更多关于这具尸体的信息。在它的核心部位有一块暗黑超凡碎片，在它与{VICTIM_nameDef}之间建立了心灵联系。该尸体被摧毁后便会自我重建，并无视距离传送到{VICTIM_nameDef}附近。\n\n{RESEARCHER_nameDef}认为可能有办法永久摧毁这具尸体，但需要进一步研究。</UnnaturalCorpseStudyLetterDesc>
+  <UnnaturalCorpseStudyLetterDesc>对这具异常尸体的调查揭示了更多关于这具尸体的信息。在它的核心部位有一块暗黑超凡碎片，在它与{VICTIM_nameDef}之间建立了心灵联系。该尸体被摧毁后便会自我重建，并无视距离传送到{VICTIM_nameDef}附近。\n\n{RESEARCHER_nameDef}认为可能有办法永久摧毁这具尸体，但需要进一步调查。</UnnaturalCorpseStudyLetterDesc>
 
   <!-- EN: Unnatural corpse study complete -->
-  <UnnaturalCorpseStudyCompletedLetter>异常尸体研究完成</UnnaturalCorpseStudyCompletedLetter>
+  <UnnaturalCorpseStudyCompletedLetter>异常尸体调查完成</UnnaturalCorpseStudyCompletedLetter>
   <!-- EN: Your investigation of the unnatural corpse has revealed how to safely remove the archotech shard. Doing so will stop it from psychically tormenting {VICTIM_nameDef}. However, it will also prevent further study of the corpse. -->
-  <UnnaturalCorpseStudyCompletedLetterDesc>对这具异常尸体的调查揭示了该如何安全地移除暗黑超凡碎片。这样做可以阻止它继续对{VICTIM_nameDef}造成心灵折磨。但这也会阻碍对尸体的进一步研究。</UnnaturalCorpseStudyCompletedLetterDesc>
+  <UnnaturalCorpseStudyCompletedLetterDesc>对这具异常尸体的调查揭示了该如何安全地移除暗黑超凡碎片。这样做可以阻止它继续对{VICTIM_nameDef}造成心灵折磨。但这也会阻碍对尸体的进一步调查。</UnnaturalCorpseStudyCompletedLetterDesc>
 
   <!-- EN: Corpse shard -->
   <UnnaturalCorpseDeactivatedLetter>尸体碎片</UnnaturalCorpseDeactivatedLetter>
@@ -611,7 +611,7 @@
   <!-- EN: Destroy the corpse before it's too late. -->
   <UnnaturalCorpseAwakeningLetterExtra_StudyComplete>在一切失去控制之前摧毁此尸体。</UnnaturalCorpseAwakeningLetterExtra_StudyComplete>
   <!-- EN: Study the corpse to learn how to destroy it. -->
-  <UnnaturalCorpseAwakeningLetterExtra_StudyIncomplete>研究这具尸体以设计摧毁方案。</UnnaturalCorpseAwakeningLetterExtra_StudyIncomplete>
+  <UnnaturalCorpseAwakeningLetterExtra_StudyIncomplete>调查这具尸体以设计摧毁方案。</UnnaturalCorpseAwakeningLetterExtra_StudyIncomplete>
 
   <!-- EN: Corpse awakened -->
   <UnnaturalCorpseAwokenLetter>异常尸体复苏</UnnaturalCorpseAwokenLetter>
@@ -788,9 +788,9 @@
   <LetterGrayPallDescending>一股如沙尘般粗糙的迷雾笼罩了这片区域，散发出腐烂且酸臭的难闻味道。这种异常天气会唤起人们心中的恐惧。</LetterGrayPallDescending>
 
   <!-- Void Awakening -->
-  <!-- EN: Awakening the void monolith will engulf your colony in darkness for a number of days and attract powerful entities. Make sure you are well prepared:\n\n- Stockpile food, building material, and weapons.\n- Make sure your colony is well lit, and has ample power. Avoid relying on solar generators.\n- Ensure your colony is well defended, and your colonists are ready to fight.\n\nOnce you awaken the void monolith, there is no going back.\n\nAre you sure you want to continue? -->
+  <!-- EN: Awakening the void monolith will engulf your colony in darkness for days and attract powerful entities. Make sure you are well prepared:\n\n- Stockpile food, building material, and weapons.\n- Make sure your colony is well lit, and has ample power. Avoid relying on solar generators.\n- Ensure your colony is well defended, and your colonists are ready to fight.\n\nOnce you awaken the void monolith, there is no going back.\n\nAre you sure you want to continue? -->
   <VoidAwakeningConfirmationText>唤醒虚空巨石会让殖民地陷入数天的黑暗，并将强大的实体吸引至此处。请确保做好了万全准备：\n\n——储备足够的食物、建材以及武器。\n——确保殖民地拥有充足的照明与电力供应。请勿依赖太阳能发电机。\n——确保殖民地防守严密，殖民者随时做好战斗准备。\n\n一旦唤醒了虚空巨石，就没有回头路了。\n\n确定要继续吗？</VoidAwakeningConfirmationText>
-  <!-- EN: A writhing sphere of crackling psychic energy rises before {PAWN_nameDef}. Its surface swells and twists, warping the space around it.\n\n{PAWN_nameDef} feels it inside {PAWN_possessive} mind, deeper than any normal human sense. It defeats logic and sets {PAWN_objective} adrift in the void. {PAWN_pronoun} stands on the shoreline of an infinite black ocean of power, and it beckons {PAWN_objective} in.\n\n{PAWN_nameDef} shakes {PAWN_objective}self back to reality.\n\nNearby archotech devices support the sphere along fragile connections. {PAWN_nameDef} could disrupt them, closing this link between worlds and putting an end to the terrifying phenomena that have plagued your home.\n\nOr, {PAWN_pronoun} could step into the sphere and merge with the void. It's unknown what lies beyond, or what dark powers could be gained from such an inhuman act. -->
+  <!-- EN: A sphere of writhing psychic energy rises before {PAWN_nameDef}.\n\n{PAWN_nameDef} feels a presence inside {PAWN_possessive} mind, deeper than any normal human sense. {PAWN_pronoun} stands on the shoreline of an infinite black ocean of power. It beckons {PAWN_objective} in...\n\nNearby archotech devices support the sphere along fragile connections. {PAWN_nameDef} could disrupt them, closing this link between worlds.\n\nOr, {PAWN_pronoun} could step into the sphere and merge with the void. It's unknown what dark power could be gained from such an inhuman act. -->
   <VoidNodeLetter>在{PAWN_nameDef}面前，一个不停转动的球体缓缓升起，它内部充斥着劈啪作响的心灵能量。其膨胀扭曲的表面让周围的空间也随之发生了扭曲。\n\n{PAWN_nameDef}能够在{PAWN_possessive}意识中清晰地感受到那个存在，比任何人类感官都要清晰。它违反了一切逻辑与定律，使{PAWN_objective}在虚空中载沉载浮。在{PAWN_pronoun}面前，涌动着充盈着能量的无边黑色海洋，而它在呼唤着{PAWN_objective}。\n\n{PAWN_nameDef}努力让{PAWN_objective}的意识回归了现实。\n\n正是附近的超凡科技设备，通过的脆弱的链接支撑起了那球体。{PAWN_nameDef}可以破坏链接，切断两个位面之间的连接，彻底结束这些困扰自己家园的恐怖异象。\n\n或者，{PAWN_pronoun}也可以走进球体，与虚空融为一体。没人知道球体那边有什么，更没人知道这种离经叛道之举会带来何种暗黑力量。</VoidNodeLetter>
   <!-- EN: Disrupt the link -->
   <VoidNodeDisrupt>破坏链接</VoidNodeDisrupt>
@@ -798,9 +798,9 @@
   <VoidNodeEmbrace>拥抱虚空</VoidNodeEmbrace>
   <!-- EN: Postpone -->
   <VoidNodePostpone>稍后再说</VoidNodePostpone>
-  <!-- EN: The psychic flows destabilize and the archotech machinery begins to scream. The swirling void flickers. {PAWN_nameDef} feels it spilling beyond its limits and collapsing into itself, all at once.\n\nThe metallic cavern begins to twist, reshaping like the chamber of a massive heart. Before {PAWN_nameDef} has a chance to scream, {PAWN_pronoun} blinks out of existence.\n\n{PAWN_nameDef} has rejected the void.\n\n{PAWN_possessive} story continues... -->
-  <DisruptTheLinkCredits>灵流开始紊乱，超凡科技装置也发出了尖锐的爆鸣。那不停旋转着的虚空开始不稳定地闪烁。{PAWN_nameDef}感觉到它的旋转已经到达了极限，突然一下由内向外开始坍缩。\n\n那金属凹陷开始扭曲，形成了一个像巨大心脏一般的空腔。{PAWN_nameDef}还没来得及尖叫，{PAWN_pronoun}就在一眨眼之间消失了。\n\n{PAWN_nameDef}拒绝了虚空的呼唤。\n\n{PAWN_possessive}故事仍在继续...</DisruptTheLinkCredits>
-  <!-- EN: {PAWN_nameDef} steps into the void and the black ocean floods into {PAWN_objective}, overwhelming every sense, suffusing every cell in {PAWN_possessive} body and every thought in {PAWN_possessive} mind.\n\nThe void node has been refocused away from the world, towards one single person. The void structures scream, torn from their otherworldly foundation, then blink out of existence.\n\n{PAWN_nameDef} has embraced the void.\n\n{PAWN_possessive} story continues... -->
+  <!-- EN: The psychic flows destabilize and the twisted machinery screams. The swirling void flickers. {PAWN_nameDef} feels it shuddering and collapsing into itself.\n\nThe metallic cavern begins to twist, reshaping like the chamber of a massive heart. Before {PAWN_nameDef} has a chance to scream, {PAWN_pronoun} blinks out of existence.\n\n{PAWN_nameDef} has rejected the void.\n\n{PAWN_possessive} story continues... -->
+  <DisruptTheLinkCredits>灵流开始紊乱，扭曲的超凡科技装置也发出了尖锐的爆鸣。那不停旋转着的虚空开始不稳定地闪烁。{PAWN_nameDef}感觉到它的旋转已经到达了极限，并突然开始坍缩。\n\n那金属凹陷开始扭曲，形成了一个像巨大心脏一般的空腔。{PAWN_nameDef}还没来得及尖叫，就在眨眼间消失得无影无踪。\n\n{PAWN_nameDef}拒绝了虚空的呼唤。\n\n{PAWN_possessive}故事仍在继续...</DisruptTheLinkCredits>
+  <!-- EN: {PAWN_nameDef} steps into the void and the black ocean floods into {PAWN_objective}, overwhelming every sense, suffusing every thought in {PAWN_possessive} mind.\n\nThe void node has been refocused away from the world, towards one single person. The void structures scream, then blink out of existence.\n\n{PAWN_nameDef} has embraced the void.\n\n{PAWN_possessive} story continues... -->
   <EmbraceTheVoidCredits>{PAWN_nameDef}踏入了虚空，黑色的海洋一下便包裹住了{PAWN_objective}，淹没了一切感官，灌满了{PAWN_possessive}身体，占领了{PAWN_possessive}意识。\n\n虚空节点的焦点，从整个世界变为了区区一人。虚空结构发出尖锐的爆鸣，从链接着它的诡异支架上挣脱开来，然后眨眼间消失得无影无踪。\n\n{PAWN_nameDef}拥抱了虚空的呼唤。\n\n{PAWN_possessive}故事仍在继续...</EmbraceTheVoidCredits>
   <!-- EN: {PAWN_nameDef} has finished activating {STRUCTURE_definite} -->
   <StructureActivatedMessage>{PAWN_nameDef}已激活{STRUCTURE_definite}</StructureActivatedMessage>
@@ -820,7 +820,7 @@
 
   <!-- Studiable -->
   <!-- EN: Knowledge from study reduced -->
-  <KnowledgeFactorOutdoors>研究所获知识减少</KnowledgeFactorOutdoors>
+  <KnowledgeFactorOutdoors>调查所获异象知识减少</KnowledgeFactorOutdoors>
 
   <!-- Unnatural darkness -->
   <!-- EN: Emergence in {0} -->
@@ -830,7 +830,7 @@
   
   <!-- Bioferrite harvester -->
   <!-- EN: Bioferrite contained -->
-  <BioferriteHarvesterContained>含有活性铁瓷</BioferriteHarvesterContained>
+  <BioferriteHarvesterContained>含有活铁</BioferriteHarvesterContained>
   <!-- EN: per day -->
   <BioferriteHarvesterPerDay>每天</BioferriteHarvesterPerDay>
   <!-- EN: Eject contents -->
@@ -838,9 +838,9 @@
   <!-- EN: Eject all contained {0} onto the ground. -->
   <BioferriteHarvesterEjectContentsDesc>将所有{0}弹出。</BioferriteHarvesterEjectContentsDesc>
   <!-- EN: Toggle bioferrite unloading -->
-  <BioferriteHarvesterToggleUnloading>开关收取活性铁瓷</BioferriteHarvesterToggleUnloading>
+  <BioferriteHarvesterToggleUnloading>开关收取活铁</BioferriteHarvesterToggleUnloading>
   <!-- EN: When active, colonists will automatically unload bioferrite from the harvester as it is filling up. -->
-  <BioferriteHarvesterToggleUnloadingDesc>激活后，殖民者会在活性铁瓷装满时自动从采集器中取出活性铁瓷。</BioferriteHarvesterToggleUnloadingDesc>
+  <BioferriteHarvesterToggleUnloadingDesc>激活后，殖民者会在活铁装满时自动从采集器中取出活铁。</BioferriteHarvesterToggleUnloadingDesc>
   
   <!-- Proximity detector -->
   <!-- EN: Invisible creature detected. -->
@@ -869,8 +869,22 @@
   <MessageChimeraWithdrawing>撤退中。</MessageChimeraWithdrawing>
 
   <!-- EN: Chimeras attacking -->
-  <LetterChimerasAttackingLabel>嵌合兽正在攻击</LetterChimerasAttackingLabel>
+  <LetterChimerasAttackingLabel>嵌合兽攻击</LetterChimerasAttackingLabel>
   <!-- EN: The chimeras have begun their attack! -->
   <LetterChimerasAttacking>嵌合兽已开始攻击！</LetterChimerasAttacking>
-
+  
+  <!-- Anomaly event frequency -->
+  <!-- EN: No major threats -->
+  <AnomalyFrequency_None>无大型威胁</AnomalyFrequency_None>
+  <!-- EN: Very rare -->
+  <AnomalyFrequency_VeryRare>极其少见</AnomalyFrequency_VeryRare>
+  <!-- EN: Rare -->
+  <AnomalyFrequency_Rare>少见</AnomalyFrequency_Rare>
+  <!-- EN: Balanced -->
+  <AnomalyFrequency_Balanced>平衡</AnomalyFrequency_Balanced>
+  <!-- EN: Intense -->
+  <AnomalyFrequency_Intense>常见</AnomalyFrequency_Intense>
+  <!-- EN: Overwhelming -->
+  <AnomalyFrequency_Overwhelming>极其常见</AnomalyFrequency_Overwhelming>
+  
 </LanguageData>
