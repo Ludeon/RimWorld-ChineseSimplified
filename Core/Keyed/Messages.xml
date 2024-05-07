@@ -32,7 +32,7 @@
   <MessageFriendlyFightersLeaving>来自{1}的{0}友军准备离开了。</MessageFriendlyFightersLeaving>
 
   <!-- EN: {0} from {1} are taking a wounded guest. -->
-  <MessageVisitorsTakingWounded>来自{1}的{0}正准备带走一名受伤的访客。</MessageVisitorsTakingWounded>
+  <MessageVisitorsTakingWounded>来自{1}的{0}正准备带走一名受伤的宾客。</MessageVisitorsTakingWounded>
   <!-- EN: {0} from {1} have been trapped and are digging out to escape. -->
   <MessageVisitorsTrappedLeaving>由于被困住，来自{1}的{0}正准备挖隧道逃跑。</MessageVisitorsTrappedLeaving>
   <!-- EN: {0} from {1} are leaving the map because of dangerous temperature. -->
@@ -648,20 +648,20 @@
   <MessageMonumentDestroyedBecauseOfDisallowedBuilding>纪念碑被毁了，因为你在其中建了一座不被允许的建筑。</MessageMonumentDestroyedBecauseOfDisallowedBuilding>
 
   <!-- EN: Cannot apply: No reachable, un-reserved research bench available. -->
-  <MessageNoResearchBenchForTechprint>不适用：没有可到达，未预留的研究平台。</MessageNoResearchBenchForTechprint>
+  <MessageNoResearchBenchForTechprint>不适用：缺少可到达的、未预留的研究台。</MessageNoResearchBenchForTechprint>
 
   <!-- EN: No valid destination found for {0} -->
   <NoValidDestinationFound>找不到{0}的有效目的地</NoValidDestinationFound>
 
   <!-- EN: An extracted tree just died. -->
-  <MessageMinifiedTreeDied>一棵被掘起的树刚刚死亡。</MessageMinifiedTreeDied>
+  <MessageMinifiedTreeDied>一棵被掘起的树已死亡。</MessageMinifiedTreeDied>
   
   <!-- Research -->
   <!-- EN: Warning: Research will not begin until you build a research bench. -->
   <MessageResearchMenuWithoutBench>警告：只有制造了研究台后，研究才能开始。</MessageResearchMenuWithoutBench>
 
   <!-- EN: {0_indefinite} has triggered a proximity activator. -->
-  <MessageActivatorProximityTriggered>{0_indefinite}触发了一个邻近的激活器。</MessageActivatorProximityTriggered>
+  <MessageActivatorProximityTriggered>{0_indefinite}触发了附近的一个探测激活器。</MessageActivatorProximityTriggered>
 
   <!-- EN: {0_label} is currently hidden. -->
   <MessageCannotSelectInvisibleStat>{0_label}当前是隐藏的。</MessageCannotSelectInvisibleStat>
@@ -693,7 +693,7 @@
   <!-- EN: The maximum number of {0}s is {1}. -->
   <MaxPawnsPerRole>{0}的最大数量是{1}。</MaxPawnsPerRole>
   <!-- EN: Role of {0} is locked. -->
-  <RoleIsLocked>职位{0}被锁定。</RoleIsLocked>
+  <RoleIsLocked>仪式角色“{0}”被锁定。</RoleIsLocked>
   <!-- EN: You need at least one participant. -->
   <MessageRitualNeedsAtLeastOnePerson>你至少需要一名参与者。</MessageRitualNeedsAtLeastOnePerson>
   <!-- EN: You need at least one spectator. -->
@@ -709,7 +709,7 @@
   <!-- EN: {0_labelShort} is injured. -->
   <MessageRitualPawnInjured>{0_labelShort}受伤了。</MessageRitualPawnInjured>
   <!-- EN: {0_labelShort} must hold one of these roles -->
-  <MessageRitualRoleRequired>{0_labelShort}必须持有这些角色之一</MessageRitualRoleRequired>
+  <MessageRitualRoleRequired>{0_labelShort}必须担任这些文化职位之一</MessageRitualRoleRequired>
   <!-- EN: {0} must be a prisoner. -->
   <MessageRitualRoleMustBePrisoner>{0}必须是囚犯。</MessageRitualRoleMustBePrisoner>
   <!-- EN: {0} must be an animal. -->
@@ -719,7 +719,7 @@
   <!-- EN: {0} cannot be a baby. -->
   <MessageRitualRoleCannotBeABaby>{0}不能是幼儿。</MessageRitualRoleCannotBeABaby>
   <!-- EN: No roles available for {0_labelShort}. -->
-  <MessageRitualNoRolesAvailable>{0_labelShort}没有可用的职位。</MessageRitualNoRolesAvailable>
+  <MessageRitualNoRolesAvailable>{0_labelShort}没有可用的仪式角色。</MessageRitualNoRolesAvailable>
   <!-- EN: {0_labelShort} is not a member of any colony ideoligion. -->
   <MessageRitualNotOfPlayerIdeo>{0_labelShort}不是殖民地文化的成员。</MessageRitualNotOfPlayerIdeo>
   <!-- EN: {0} must have eyes -->
@@ -733,7 +733,7 @@
   <!-- EN: {0_labelShort} must be capable of fighting. -->
   <MessageRitualRoleMustBeCapableOfFighting>{0_labelShort}必须具有暴力能力。</MessageRitualRoleMustBeCapableOfFighting>
   <!-- EN: this role cannot be played by someone else. -->
-  <MessageRitualRoleCannotReplaceRequiredPawn>此角色不能选择其他人。</MessageRitualRoleCannotReplaceRequiredPawn>
+  <MessageRitualRoleCannotReplaceRequiredPawn>此仪式角色不能选择其他人。</MessageRitualRoleCannotReplaceRequiredPawn>
   <!-- EN: {0_labelShort} cannot connect to a Gauranlen tree because {0_possessive} connection was recently torn. -->
   <MessageRitualRolePawnRecentlyTornConnection>由于{0_labelShort}与母树的共鸣最近被打断过，目前无法再与母树共鸣。</MessageRitualRolePawnRecentlyTornConnection>
   <!-- EN: {0_labelShort} has the same ideoligion as the converter. -->
@@ -747,17 +747,17 @@
   <!-- EN: prisoners cannot {0}. -->
   <MessageRitualRoleMustNotBePrisonerToSpectate>囚犯不能{0}。</MessageRitualRoleMustNotBePrisonerToSpectate>
   <!-- EN: only {0} can {1}. -->
-  <MessageRitualRoleMustHaveIdeoToSpectate>只有{0}可以{1}.</MessageRitualRoleMustHaveIdeoToSpectate>
+  <MessageRitualRoleMustHaveIdeoToSpectate>只有{0}可以{1}。</MessageRitualRoleMustHaveIdeoToSpectate>
   <!-- EN: only {0} can fill the role of {1}. -->
-  <MessageRitualRoleMustHaveIdeoToDoRole>只有{0}可以满足{1}对角色的要求。</MessageRitualRoleMustHaveIdeoToDoRole>
+  <MessageRitualRoleMustHaveIdeoToDoRole>只有{0}可以满足“{1}”仪式角色的要求。</MessageRitualRoleMustHaveIdeoToDoRole>
   <!-- EN: must be colonist for the {0} role. -->
-  <MessageRitualRoleMustBeColonist>{0}角色必须是殖民者。</MessageRitualRoleMustBeColonist>
+  <MessageRitualRoleMustBeColonist>必须由殖民者担任“{0}”仪式角色。</MessageRitualRoleMustBeColonist>
   <!-- EN: must not be a prisoner for the {0} role. -->
-  <MessageRitualRoleMustBeFree>不能是{0}角色的囚犯。</MessageRitualRoleMustBeFree>
+  <MessageRitualRoleMustBeFree>囚犯不能担任“{0}”仪式角色。</MessageRitualRoleMustBeFree>
   <!-- EN: {0_labelShort} won't attend due to extreme temperature in the ritual area. -->
   <MessageRitualWontAttendExtremeTemperature>{0_labelShort}由于仪式区域的极端温度而不参加。</MessageRitualWontAttendExtremeTemperature>
   <!-- EN: must be colonist and not enslaved for the {0} role. -->
-  <MessageRitualRoleMustBeFreeColonist>必须是殖民者而不是被奴役的{0}角色。</MessageRitualRoleMustBeFreeColonist>
+  <MessageRitualRoleMustBeFreeColonist>必须由未被奴役的殖民者担任“{0}”仪式角色。</MessageRitualRoleMustBeFreeColonist>
   <!-- EN: {0} must have an animal with min body size of {1}. -->
   <MessageRitualRoleMustHaveLargerBodySize>{0}必须拥有一只体型至少有{1}的动物。</MessageRitualRoleMustHaveLargerBodySize>
   <!-- EN: {0_labelShort} is in a mental state. -->
@@ -765,7 +765,7 @@
   <!-- EN: {0_labelShort} is already {1}. -->
   <MessageRitualPawnIsAlreadyBelievingIdeo>{0_labelShort}已经{1}。</MessageRitualPawnIsAlreadyBelievingIdeo>
   <!-- EN: {0_labelShort} cannot take any other role than spectator. -->
-  <MessageRitualCannotAssignAnyRoleFromSpectating>{0_labelShort}不能担任观众以外的任何其他角色。</MessageRitualCannotAssignAnyRoleFromSpectating>
+  <MessageRitualCannotAssignAnyRoleFromSpectating>{0_labelShort}不能担任“观众”以外的任何其他仪式席位。</MessageRitualCannotAssignAnyRoleFromSpectating>
   <!-- EN: {0} cannot be an imprisoned wild man/woman. -->
   <MessageRitualRoleMustNotBeImprisonedWildMan>{0}不能是被囚禁的野人。</MessageRitualRoleMustNotBeImprisonedWildMan>
   <!-- EN: {0} must be free. -->

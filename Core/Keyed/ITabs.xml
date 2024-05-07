@@ -13,7 +13,7 @@
   <!-- EN: Prisoner -->
   <TabPrisoner>囚犯</TabPrisoner>
   <!-- EN: Guest -->
-  <TabGuest>访客</TabGuest>
+  <TabGuest>宾客</TabGuest>
   <!-- EN: Gear -->
   <TabGear>装备</TabGear>
   <!-- EN: Needs -->
@@ -55,7 +55,7 @@
   <!-- EN: Details -->
   <TabBookContents>详细</TabBookContents>
   <!-- EN: Study -->
-  <TabStudyNotesContents>研究</TabStudyNotesContents>
+  <TabStudyNotesContents>调查</TabStudyNotesContents>
   <!-- EN: Auto-cut -->
   <TabWindTurbineAutoCut>自动割除</TabWindTurbineAutoCut>
   
@@ -101,7 +101,7 @@
   <!-- EN: Relations gain on release -->
   <PrisonerReleasePotentialRelationGains>关系改善（释放）</PrisonerReleasePotentialRelationGains>
   <!-- EN: The faction goodwill you will get from the prisoner's faction if you release them. This is affected by the prisoner's identity, health, and mental condition. -->
-  <PrisonerReleaseRelationGainsDesc>如果释放该囚犯，你将获得该派系关系的改善。 其程度受到囚犯的身份、健康和精神状况的影响。</PrisonerReleaseRelationGainsDesc>
+  <PrisonerReleaseRelationGainsDesc>如果释放该囚犯，你将获得该派系关系的改善。其程度受到囚犯的身份、健康和精神状况的影响。</PrisonerReleaseRelationGainsDesc>
   <!-- EN: Prison break interval -->
   <PrisonBreakMTBDays>越狱间隔</PrisonBreakMTBDays>
   <!-- EN: The average days awake between prison breaks. This is affected by mood, mobility, the number of prison doors, and time since the last prison break.\n\nNote that this does not include time spent asleep. -->
@@ -115,7 +115,7 @@
   <!-- EN: Door count -->
   <FactorForDoorCount>门数量因素</FactorForDoorCount>
   <!-- EN: Movement -->
-  <FactorForMovement>行动力因素</FactorForMovement>
+  <FactorForMovement>行动能力因素</FactorForMovement>
   <!-- EN: Slave price -->
   <SlavePrice>奴隶价格</SlavePrice>
   <!-- EN: The base market value of this slave if sold. -->
@@ -145,7 +145,7 @@
   <!-- EN: This prisoner is so unwaveringly loyal to their home that they refuse to be recruited entirely. -->
   <NonRecruitableTip>这名囚犯对他们的家园如此坚定不移地忠诚，以至于完全拒绝被征召。</NonRecruitableTip>
   <!-- EN: What type of medicine can be given to this prisoner. -->
-  <MedicineQualityDescriptionPrisoner>可以给这个囚犯施用什么药？</MedicineQualityDescriptionPrisoner>
+  <MedicineQualityDescriptionPrisoner>可以给这个囚犯使用什么类型的医药。</MedicineQualityDescriptionPrisoner>
 
 
 
@@ -268,9 +268,9 @@
   <!-- EN: Trainability -->
   <Trainability>可训练度</Trainability>
   <!-- EN: Requires {0} trainability. -->
-  <CannotTrainNotSmartEnough>智力级别要求: {0}。</CannotTrainNotSmartEnough>
+  <CannotTrainNotSmartEnough>可训练度需求: {0}。</CannotTrainNotSmartEnough>
   <!-- EN: {1_labelShort} is too small to train this. -->
-  <CannotTrainTooSmall>{1_labelShort}体形过小，无法训练。</CannotTrainTooSmall>
+  <CannotTrainTooSmall>{1_labelShort}体型过小，无法训练。</CannotTrainTooSmall>
 
   <!-- EN: Prerequisite needed: {0} -->
   <TrainingNeedsPrerequisite>前置研究项目：{0}</TrainingNeedsPrerequisite>
@@ -439,15 +439,15 @@
   
   <!-- Study tab  -->
   <!-- EN: Study progress -->
-  <StudyNotesTab_StudyProgress>研究进度</StudyNotesTab_StudyProgress>
+  <StudyNotesTab_StudyProgress>调查进度</StudyNotesTab_StudyProgress>
   <!-- EN: Ongoing -->
   <StudyNotesTab_StudyProgressOngoing>正在进行</StudyNotesTab_StudyProgressOngoing>
   <!-- EN: Completed -->
   <StudyNotesTab_StudyProgressCompleted>完成</StudyNotesTab_StudyProgressCompleted>
   <!-- EN: Toggle study -->
-  <StudyNotesTab_ToggleStudy>开关自动研究</StudyNotesTab_ToggleStudy>
+  <StudyNotesTab_ToggleStudy>开关自动调查</StudyNotesTab_ToggleStudy>
   <!-- EN: No discoveries yet -->
-  <StudyNotesTab_NoDiscoveries>还没有发现</StudyNotesTab_NoDiscoveries>
+  <StudyNotesTab_NoDiscoveries>尚未发现</StudyNotesTab_NoDiscoveries>
 
   <!-- UNUSED -->
   <NonRecruitableTipCannotConvert>他们对信仰坚定不移，他们不能被归化。</NonRecruitableTipCannotConvert>

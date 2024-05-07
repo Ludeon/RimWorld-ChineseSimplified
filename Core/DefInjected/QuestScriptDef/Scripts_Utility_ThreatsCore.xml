@@ -5,8 +5,8 @@
   <Util_GenerateSite.root.singleSitePartRules.slateRef>
     <rulesStrings>
       <li>root(priority=1,sitePart==ClimateAdjuster)->一台可以将温度调整[temperatureOffset]的(*Threat)气候调节器(/Threat)</li>
-      <li>root(priority=1,sitePart==PsychicDroner)->一台仅对[affectedGender]性起效的(*Threat)心灵放射器(/Threat)</li>
-      <li>root(priority=1,sitePart==PsychicSuppressor)->一台仅对[affectedGender]性起效的(*Threat)心灵抑制器(/Threat)</li>
+      <li>root(priority=1,sitePart==PsychicDroner)->一台仅对[affectedGender]起效的(*Threat)心灵放射器(/Threat)</li>
+      <li>root(priority=1,sitePart==PsychicSuppressor)->一台仅对[affectedGender]起效的(*Threat)心灵抑制器(/Threat)</li>
       <li>root(priority=1,sitePart==WeatherController)->一台会将整个区域的天气改变为[weather_label]的(*Threat)气象仪(/Threat)</li>
       <li>root(priority=1,sitePart==SmokeSpewer)->一台会持续喷射大量烟雾的(*Threat)烟雾产生器(/Threat)</li>
       <li>root(priority=1,sitePart==SunBlocker)->一台会使整个区域陷入黑暗的(*Threat)黑幕产生器(/Threat)</li>

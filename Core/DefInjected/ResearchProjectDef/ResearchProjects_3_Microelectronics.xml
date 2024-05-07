@@ -17,7 +17,7 @@
     <li>subject_story->和一个由土鼹种领导的公司一起搬进来，研究最深层的采掘</li>
     <li>subject_story->钻到冰盖的深处，发现了这个世界已灭绝的前人类生态群落</li>
     <li>subject_story->从世界核心开采的资源，因此富了起来</li>
-    <li>subject_gerund->正在深钻</li>
+    <li>subject_gerund->深钻</li>
   </DeepDrilling.generalRules.rulesStrings>
   
   <!-- EN: flatscreen television -->
@@ -46,13 +46,13 @@
     <li>tv_content->闪耀世界潮流时尚</li>
     <li>tv_content->动画片</li>
     <li>subject_story->成为了一名电视主管，负责播放[tv_content]</li>
-    <li>subject_gerund->正在建造平板电视</li>
+    <li>subject_gerund->建造平板电视</li>
   </FlatscreenTelevision.generalRules.rulesStrings>
   
   <!-- EN: ground-penetrating scanner -->
   <GroundPenetratingScanner.label>地质扫描仪</GroundPenetratingScanner.label>
   <!-- EN: Build ground-penetrating scanners that can detect drillable resources under the surface. Requires an advanced component to construct. -->
-  <GroundPenetratingScanner.description>解锁建造「地质扫描仪」，用于勘探需要深钻井开采的地下资源。建造时需要高级零部件。</GroundPenetratingScanner.description>
+  <GroundPenetratingScanner.description>解锁建造「地质扫描仪」，用于勘探需要深钻井开采的地下资源。\n\n注意：建造时需要高级零部件。</GroundPenetratingScanner.description>
   <!-- EN:
     <li>subject->geophysics</li>
     <li>subject->ground-penetrating scanners</li>
@@ -67,7 +67,7 @@
     <li>subject_story->发现了埋藏在星球表面之下的远古巨人骨头</li>
     <li>subject_story->在寻找锡的过程中偶然发现了大量金矿，并因此变得非常富有</li>
     <li>subject_story->通过扫描远古雷区以保护居民</li>
-    <li>subject_gerund->正在建造地质扫描仪</li>
+    <li>subject_gerund->建造地质扫描仪</li>
   </GroundPenetratingScanner.generalRules.rulesStrings>
   
   <!-- EN: autocannon turret -->
@@ -86,7 +86,7 @@
     <li>subject_story->藏在大量炮塔后独自抵挡住了邪教的袭击</li>
     <li>subject_story->被雇来为当地人建造由沙袋和炮塔组成的防御防线</li>
     <li>subject_story->建造了一个又一个的炮塔，且从来不在乎谁买走了它们</li>
-    <li>subject_gerund->正在建造自动加农炮塔</li>
+    <li>subject_gerund->建造自动加农炮塔</li>
   </HeavyTurrets.generalRules.rulesStrings>
   
   <!-- EN: hospital bed -->
@@ -105,13 +105,13 @@
     <li>subject_story->监督医疗保健标准的改革</li>
     <li>subject_story->建立了本星系的第一家公立医院</li>
     <li>subject_story->专注于利润，把他们的高级医疗套房提供给富人使用</li>
-    <li>subject_gerund->正在建造医疗床</li>
+    <li>subject_gerund->建造医疗床</li>
   </HospitalBed.generalRules.rulesStrings>
   
   <!-- EN: long-range mineral scanner -->
   <LongRangeMineralScanner.label>远距离矿物扫描仪</LongRangeMineralScanner.label>
   <!-- EN: Construct long-range mineral scanners your researchers can use to detect precious minerals across the planet. Can be tuned to find a specific mineral. Requires advanced components to construct. -->
-  <LongRangeMineralScanner.description>解锁建造「远距离矿物扫描仪」，能够让你的研究者来探测星球上的稀有矿物，比如黄金或翡翠，建造时需要高级零部件。\n\n在同一区域内或临近区域建造多于一个扫描仪对效率影响不大。</LongRangeMineralScanner.description>
+  <LongRangeMineralScanner.description>解锁建造「远距离矿物扫描仪」，能够让你的研究者来探测星球上的稀有矿物，比如黄金或翡翠。\n\n在同一区域内或临近区域建造多于一个扫描仪对效率影响不大。\n\n注意：建造时需要高级零部件。</LongRangeMineralScanner.description>
   <!-- EN:
     <li>subject->long-range mineral detection</li>
     <li>subject_story->built so many scanners that the planet's entire geology was revealed</li>
@@ -124,7 +124,7 @@
     <li>subject_story->建造了非常多的扫描仪，以至于整个星球的地质情况都探测的一清二楚</li>
     <li>subject_story->用扫描仪发现了其他定居点在开采什么，并通过交易赚取了巨额利润</li>
     <li>subject_story->开采了星球上所有的翡翠来制作文化雕像</li>
-    <li>subject_gerund->正在建造远距离矿物扫描仪</li>
+    <li>subject_gerund->建造远距离矿物扫描仪</li>
   </LongRangeMineralScanner.generalRules.rulesStrings>
   
   <!-- EN: medicine production -->
@@ -145,7 +145,7 @@
     <li>subject_story->研究都市世界的医学，旨在更广泛地传播知识</li>
     <li>subject_story->对中性胺的起源感到困惑，并决心了解更多</li>
     <li>subject_story->夺取毒贩的资源，将其用来生产有用的医药</li>
-    <li>subject_gerund->正在生产医药</li>
+    <li>subject_gerund->生产医药</li>
   </MedicineProduction.generalRules.rulesStrings>
   
   <!-- EN: microelectronics -->
@@ -164,7 +164,7 @@
     <li>subject_story->转攻发展微电子</li>
     <li>subject_story->建造了许多研究台版本中的第一版</li>
     <li>subject_story->不断从一个城镇搬到另一个城镇，宣扬纯粹科研的优点</li>
-    <li>subject_gerund->正在建造微电子设备</li>
+    <li>subject_gerund->建造微电子设备</li>
   </MicroelectronicsBasics.generalRules.rulesStrings>
   
   <!-- EN: moisture pump -->
@@ -183,7 +183,7 @@
     <li>subject_story->研究了地球上古老的风车式排水泵</li>
     <li>subject_story->排干了滋生疾病的大沼泽</li>
     <li>subject_story->愚蠢地想抽干海水</li>
-    <li>subject_gerund->正在建造排水泵</li>
+    <li>subject_gerund->建造排水泵</li>
   </MoisturePump.generalRules.rulesStrings>
   
   <!-- EN: multibarrel weapons -->
@@ -202,7 +202,7 @@
     <li>subject_story->制造了一种独特的便携式速射机枪，这是这只小队失踪后唯一被找到的东西</li>
     <li>subject_story->设计了巨大的漏斗供弹装置，以确保速射机枪的弹药不会耗尽</li>
     <li>subject_story->专门制造枪支来杀死房间里的每一个人</li>
-    <li>subject_gerund->正在制作多管武器</li>
+    <li>subject_gerund->制作多管武器</li>
   </MultibarrelWeapons.generalRules.rulesStrings>
   
   <!-- EN: precision rifling -->
@@ -221,7 +221,7 @@
     <li>subject_story->改进了铸造厂工艺的公差，使做出高质量的膛线成为可能</li>
     <li>subject_story->被尼人种追杀却制造出了狙击步枪，得以安全地杀死他们的首领</li>
     <li>subject_story->因射中领主手中的一颗仙馐果而快速成名</li>
-    <li>subject_gerund->正在制作步枪</li>
+    <li>subject_gerund->制作步枪</li>
   </PrecisionRifling.generalRules.rulesStrings>
   
   <!-- EN: shields -->
@@ -240,7 +240,7 @@
     <li>subject_story->通过原型护盾躲过了一次暗杀</li>
     <li>subject_story->在打桌球时使用了一种隐藏式的动量排斥器</li>
     <li>subject_story->知道杀死敌人的方法是用相对速度较慢的近战攻击绕过敌人的护盾</li>
-    <li>subject_gerund->正在制作护盾</li>
+    <li>subject_gerund->制作护盾</li>
   </ShieldBelt.generalRules.rulesStrings>
   
   <!-- EN: transport pod -->
@@ -259,7 +259,7 @@
     <li>subject_story->被发射到了一个野蛮部落的正中央，差点没能活着逃出去</li>
     <li>subject_story->花了一大笔钱给爱人发送了一个运输舱，里面装着一枚结婚戒指</li>
     <li>subject_story->通过装载运输舱聪明地避免了饥荒</li>
-    <li>subject_gerund->正在建造运输舱</li>
+    <li>subject_gerund->建造运输舱</li>
   </TransportPod.generalRules.rulesStrings>
   
 </LanguageData>

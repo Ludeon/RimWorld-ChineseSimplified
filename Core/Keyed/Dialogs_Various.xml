@@ -136,9 +136,9 @@
   <!-- EN: Load anyway -->
   <LoadAnyway>仍然载入</LoadAnyway>
   <!-- EN: Load mod list from save -->
-  <ChangeLoadedMods>从存档载入 Mod 列表</ChangeLoadedMods>
+  <ChangeLoadedMods>从存档载入Mod列表</ChangeLoadedMods>
   <!-- EN: Some mods are unavailable, and need to be installed -->
-  <MissingMods>部分 Mod 不可用，需要安装。</MissingMods>
+  <MissingMods>部分Mod不可用，需要安装。</MissingMods>
   <!-- EN: Official content -->
   <OfficialContent>官方内容</OfficialContent>
   <!-- EN: Active -->
@@ -158,17 +158,17 @@
 
   <!-- Player faction base naming -->
   <!-- EN: {0} thinks that you should give this settlement a name. What should the local settlement be called? -->
-  <NamePlayerFactionBaseMessage>看起来你可能得在这里待上好一阵子，{0}觉得你应该给这个社区起个名字。它叫什么比较好？</NamePlayerFactionBaseMessage>
+  <NamePlayerFactionBaseMessage>看起来你可能得在这里待上好一阵子，{0}觉得你应该给这个定居点起个名字。它叫什么比较好？</NamePlayerFactionBaseMessage>
   <!-- EN: This community is now known as {0}. -->
-  <PlayerFactionBaseGainsName>这个社区现在被命名为{0}。</PlayerFactionBaseGainsName>
+  <PlayerFactionBaseGainsName>这个定居点现在被命名为{0}。</PlayerFactionBaseGainsName>
   <!-- EN: That name isn't valid. -->
-  <PlayerFactionBaseNameIsInvalid>这个社区名称无效。</PlayerFactionBaseNameIsInvalid>
+  <PlayerFactionBaseNameIsInvalid>这个定居点名称无效。</PlayerFactionBaseNameIsInvalid>
   
   <!-- Player faction and faction base naming -->
   <!-- EN: {0} also thinks that you should give this settlement a name. What should this local settlement be called? -->
-  <NamePlayerFactionBaseMessage_NameFactionContinuation>看起来你可能得在这里待上好一阵子，{0}觉得你也应该给这个社区起个名字。它叫什么比较好？</NamePlayerFactionBaseMessage_NameFactionContinuation>
+  <NamePlayerFactionBaseMessage_NameFactionContinuation>看起来你可能得在这里待上好一阵子，{0}觉得你也应该给这个定居点起个名字。它叫什么比较好？</NamePlayerFactionBaseMessage_NameFactionContinuation>
   <!-- EN: Your faction is now known as {0}, and this community is now known as {1}. -->
-  <PlayerFactionAndBaseGainsName>你的派系名为{0}，这个社区现在被命名为{1}。</PlayerFactionAndBaseGainsName>
+  <PlayerFactionAndBaseGainsName>你的派系名为{0}，这个定居点现在被命名为{1}。</PlayerFactionAndBaseGainsName>
   
   <!-- Renaming -->
   <!-- EN: Please enter a valid name. -->
@@ -182,7 +182,7 @@
   <!-- EN: Chosen name is invalid. -->
   <NameInvalid>名称无效。</NameInvalid>
   <!-- EN: This person's nickname is now {0}. {PAWN_possessive} title is {PAWN_title}. -->
-  <PawnGainsName>此人的昵称变为{0}。{PAWN_possessive}称呼现在叫作{PAWN_title}。</PawnGainsName>
+  <PawnGainsName>此人的昵称变为{0}。{PAWN_possessive}称呼现在叫做{PAWN_title}。</PawnGainsName>
   <!-- EN: The animal's name is now {0}. -->
   <AnimalGainsName>该动物的名字变为{0}。</AnimalGainsName>
   <!-- EN: rename person -->
@@ -417,7 +417,7 @@
   <!-- EN: days -->
   <Days>天</Days>
   <!-- EN: Minimum growing skill to sow -->
-  <MinGrowingSkillToSow>种植最低技能要求</MinGrowingSkillToSow>
+  <MinGrowingSkillToSow>最低种植技能要求</MinGrowingSkillToSow>
   <!-- EN: Fertility requirement -->
   <FertilityRequirement>肥沃度需求</FertilityRequirement>
   <!-- EN: Fertility sensitivity -->
@@ -441,7 +441,7 @@
   <!-- EN: Diet -->
   <Diet>饮食</Diet>
   <!-- EN: Nutrition need per day -->
-  <NutritationEatenPerDay>每日营养需要</NutritationEatenPerDay>
+  <NutritationEatenPerDay>每日营养需求</NutritationEatenPerDay>
   <!-- EN: Leather type -->
   <LeatherType>皮革类型</LeatherType>
   <!-- EN: Body size -->
@@ -863,7 +863,7 @@
   <!-- EN: Faction type -->
   <FactionType>派系类型</FactionType>
   <!-- EN: Total body size -->
-  <TotalBodySize>总体形</TotalBodySize>
+  <TotalBodySize>总体型</TotalBodySize>
   <!-- EN: Automatically select travel supplies -->
   <AutomaticallySelectTravelSupplies>自动选择远行必备的物资</AutomaticallySelectTravelSupplies>
   <!-- EN: This animal is sick. It is suffering from the following illnesses -->
@@ -879,7 +879,7 @@
   
   <!-- Caravan misc -->
   <!-- EN: Are you sure you want to attack {0}?\n\nThis will make {1} hostile to you, and they will eventually start raiding your colony! -->
-  <ConfirmAttackFriendlyFaction>你确定要攻击{0}吗?\n\n这将使{1}与你敌对，最终他们会开始袭击你的殖民地!</ConfirmAttackFriendlyFaction>
+  <ConfirmAttackFriendlyFaction>你确定要攻击{0}吗？\n\n这将使{1}与你敌对，最终他们会开始袭击你的殖民地！</ConfirmAttackFriendlyFaction>
   
   <!-- Load transporters -->
   <!-- EN: Load {0} -->
@@ -1047,7 +1047,7 @@
   <!-- EN: Reading policy -->
   <ReadingPolicy>阅读方案</ReadingPolicy>
   <!-- EN: Reading policy is in use. -->
-  <ReadingPolicyInUse>阅读方案已被使用</ReadingPolicyInUse>
+  <ReadingPolicyInUse>阅读方案已被使用。</ReadingPolicyInUse>
 
   <!-- EN: Anything -->
   <AllReadingPolicy>任意</AllReadingPolicy>
@@ -1139,7 +1139,7 @@
 
   <!-- Send transport pods which are not completely loaded -->
   <!-- EN: Pod group isn't completely loaded. {1_labelShort} is missing. Launch anyway? -->
-  <ConfirmSendNotCompletelyLoadedPods>发射组并没有完成装载进程。 {1_labelShort}还未进入运输舱。确定要发射吗？</ConfirmSendNotCompletelyLoadedPods>
+  <ConfirmSendNotCompletelyLoadedPods>发射组并未完成装载进程。{1_labelShort}还未进入运输舱。确定要发射吗？</ConfirmSendNotCompletelyLoadedPods>
 
   <!-- Settle near a faction base -->
   <!-- EN: Since this location is within {0} tiles of another faction base, they will feel you are encroaching on their land and relations with those factions will worsen every {1} days. -->
@@ -1326,21 +1326,21 @@
 
   <!-- Room requirements -->
   <!-- EN: no beds allowed -->
-  <RoomRequirementNoBeds>不允许有床</RoomRequirementNoBeds>
+  <RoomRequirementNoBeds>不允许放置床</RoomRequirementNoBeds>
   <!-- EN: room area: {0} tiles -->
-  <RoomRequirementArea>房间面积: {0} 格</RoomRequirementArea>
+  <RoomRequirementArea>房间面积：{0}格</RoomRequirementArea>
   <!-- EN: room impressiveness -->
-  <RoomRequirementImpressiveness>房间印象</RoomRequirementImpressiveness>
+  <RoomRequirementImpressiveness>房间观感</RoomRequirementImpressiveness>
   <!-- EN: all floored -->
   <RoomRequirementAllFloored>铺满地板</RoomRequirementAllFloored>
   <!-- EN: all braziers must be lit -->
   <RoomRequirementAllBraziersMustBeLit>所有火盆必须点燃</RoomRequirementAllBraziersMustBeLit>
   <!-- EN: all fine floored -->
-  <RoomRequirementAllFineFloored>铺满精致的地板</RoomRequirementAllFineFloored>
+  <RoomRequirementAllFineFloored>铺满精致地板</RoomRequirementAllFineFloored>
   <!-- EN: no work facilities allowed -->
-  <RoomRequirementNoProductionFacilities>不允许有生产设施</RoomRequirementNoProductionFacilities>
+  <RoomRequirementNoProductionFacilities>不允许放置生产设施</RoomRequirementNoProductionFacilities>
   <!-- EN: no altars allowed -->
-  <RoomRequirementNoAltars>不允许设置祭坛</RoomRequirementNoAltars>
+  <RoomRequirementNoAltars>不允许放置祭坛</RoomRequirementNoAltars>
 
   <!-- EN: Lifestage max food factor -->
   <LifeStageMaxFood>食物系数</LifeStageMaxFood>
@@ -1351,7 +1351,7 @@
   <CollapseAllCategories>全部折叠</CollapseAllCategories>
 
   <!-- EN: Dye can be farmed from tinctoria or purchased from traders. -->
-  <TooltipDyeExplanation>染料可以种植七色花或者从商人购买。</TooltipDyeExplanation>
+  <TooltipDyeExplanation>染料可通过种植七色花获得，或者从商队那里购买。</TooltipDyeExplanation>
 
   <!-- EN: Zoom range {0} -->
   <ZoomRange>缩放范围{0}</ZoomRange>

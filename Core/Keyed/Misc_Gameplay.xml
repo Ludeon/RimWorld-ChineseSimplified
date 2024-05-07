@@ -103,7 +103,7 @@
   <!-- EN: Rename animal -->
   <RenameAnimal>重命名动物</RenameAnimal>
   <!-- EN: Rename colonist -->
-  <RenameColonist>修改角色昵称</RenameColonist>
+  <RenameColonist>修改殖民者昵称</RenameColonist>
   <!-- EN: Renounce title -->
   <RenounceTitle>放弃头衔</RenounceTitle>
   <!-- EN: Execute -->
@@ -401,7 +401,7 @@
   <!-- EN: Follow master while drafted -->
   <CreatureFollowDrafted>当主人被征召时跟随</CreatureFollowDrafted>
   <!-- EN: Follow master while doing field work -->
-  <CreatureFollowFieldwork>当主人正在进行野外工作时跟随</CreatureFollowFieldwork>
+  <CreatureFollowFieldwork>当主人进行野外工作时跟随</CreatureFollowFieldwork>
   <!-- EN: {0} with {1} -->
   <ProximitySingleGoodwillChange>{0}与{1}</ProximitySingleGoodwillChange>
   <!-- EN: Too dangerous to re-enter for {0}. -->
@@ -415,7 +415,7 @@
   <!-- EN: lump of {0} -->
   <PreciousLumpLabel>{0}块</PreciousLumpLabel>
   <!-- EN: no active research project -->
-  <NoActiveResearchProjectToFinish>没有正在进行的研究项目</NoActiveResearchProjectToFinish>
+  <NoActiveResearchProjectToFinish>没有已激活的研究项目</NoActiveResearchProjectToFinish>
   <!-- EN: Current project -->
   <CurrentProject>当前项目</CurrentProject>
   <!-- EN: Research progress -->
@@ -1428,7 +1428,7 @@
   <!-- EN: Create new wanderers -->
   <GameOverCreateNewWanderers>生成新的流浪者</GameOverCreateNewWanderers>
   <!-- EN: Create new wanderers (must wait {0}h) -->
-  <GameOverCreateNewWanderersWait>生成新的流浪者(必须等待{0}小时)</GameOverCreateNewWanderersWait>
+  <GameOverCreateNewWanderersWait>生成新的流浪者（必须等待{0}小时）</GameOverCreateNewWanderersWait>
   <!-- EN: Everyone is dead or gone. Perhaps someone will find a use for the ruins of this place.\n\nChoose new wanderers arrive at your colony and continue the story. -->
   <GameOverCreateNewWanderersText>所有殖民者不是死亡就是离开了。这片遗迹也许在某天会帮上其他人的忙。\n\n选择新的流浪者抵达你的殖民地并继续故事。</GameOverCreateNewWanderersText>
   <!-- EN: Main menu -->
@@ -1448,7 +1448,7 @@
   <!-- EN: Not linked to a building -->
   <FacilityNoPotentialLinks>未链接</FacilityNoPotentialLinks>
   <!-- EN: Max connected per building -->
-  <FacilityMaxSimultaneousConnections>每个建筑最大连接数</FacilityMaxSimultaneousConnections>
+  <FacilityMaxSimultaneousConnections>每个建筑最大链接数</FacilityMaxSimultaneousConnections>
   <!-- EN: Front of building is blocked. -->
   <FacilityFrontBlocked>建筑前方被阻挡。</FacilityFrontBlocked>
 
@@ -1512,7 +1512,7 @@
   <!-- EN: No resources below. -->
   <DeepDrillNoResources>下方没有资源。</DeepDrillNoResources>
   <!-- EN: Deep drill resources exhausted, drill automatically forbidden. Unforbid to begin mining of {0}. -->
-  <DeepDrillExhausted>深钻资源枯竭，自动钻探被禁止。未禁止则挖掘{0}。</DeepDrillExhausted>
+  <DeepDrillExhausted>深钻资源枯竭，自动钻探被禁用。如果取消禁用，则将挖掘{0}。</DeepDrillExhausted>
   <!-- EN: Deep drill resources exhausted. -->
   <DeepDrillExhaustedNoFallback>深钻资源枯竭。</DeepDrillExhaustedNoFallback>
 
@@ -1756,7 +1756,7 @@
   <!-- EN: Focus objects -->
   <RitualFocusObjects>集合点物件</RitualFocusObjects>
   <!-- EN: Participating roles -->
-  <RitualParticipatingRoles>参与者角色</RitualParticipatingRoles>
+  <RitualParticipatingRoles>参与者仪式角色</RitualParticipatingRoles>
   <!-- EN: Organizers -->
   <Organizers>组织者</Organizers>
   <!-- EN: Quality factors -->
@@ -1780,9 +1780,9 @@
   <!-- EN: Some of the selected participants are sleeping. They will wake up once you start the ritual. -->
   <RitualBeginSleepingWarning>一些被选中的参与者正在睡觉。一旦你开始仪式，他们就会醒过来。</RitualBeginSleepingWarning>
   <!-- EN: This position is best done by a colonist holding the social role of {0}.\n\nIf someone without this role fills this position, you won't get the following bonus(es) -->
-  <RitualRoleRequiresSocialRole>这个职位最好由持有{0}社会角色的殖民者完成。\n\n如果没有这个角色的人担任这个职位，你将不会得到以下奖励</RitualRoleRequiresSocialRole>
+  <RitualRoleRequiresSocialRole>这个仪式角色最好由持有“{0}”文化职位的殖民者完成。\n\n如果没有“{0}”文化职位的人担任这个仪式角色，你将不会得到以下奖励</RitualRoleRequiresSocialRole>
   <!-- EN: No substitute available for the role of {0}. -->
-  <RitualRoleCantSubstitute>没有可以替代{0}的角色。</RitualRoleCantSubstitute>
+  <RitualRoleCantSubstitute>没有可以替代{0}的文化职位。</RitualRoleCantSubstitute>
   <!-- EN: {0} progress -->
   <RitualOutcomeProgress>{0} 完成度</RitualOutcomeProgress>
   <!-- EN: {0} quality depends on -->
@@ -1820,7 +1820,7 @@
   <!-- EN: Replace with -->
   <PreceptReplaceWith>替换为</PreceptReplaceWith>
   <!-- EN: Ritual seat of {IDEOS} -->
-  <RitualSeatOf>{IDEOS}的仪式席位</RitualSeatOf>
+  <RitualSeatOf>{IDEOS}的仪式角色</RitualSeatOf>
   <!-- EN: Expected quality -->
   <ExpectedLordJobQuality>预期的质量</ExpectedLordJobQuality>
   <!-- EN: Starting quality -->
@@ -1828,7 +1828,7 @@
   <!-- EN: {PAWN_labelShort}'s {1} -->
   <RitualPredictedOutcomeDescPawnStat>{PAWN_labelShort}的{1}</RitualPredictedOutcomeDescPawnStat>
   <!-- EN: Room beauty -->
-  <RitualPredictedOutcomeDescRoomBeauty>房间美观</RitualPredictedOutcomeDescRoomBeauty>
+  <RitualPredictedOutcomeDescRoomBeauty>房间美观度</RitualPredictedOutcomeDescRoomBeauty>
   <!-- EN: Participants -->
   <RitualPredictedOutcomeDescParticipantCount>参与者</RitualPredictedOutcomeDescParticipantCount>
   <!-- EN: {PAWN_labelShort}'s expectations -->
@@ -2022,6 +2022,9 @@
   
   <!-- EN: New Anomaly expansion available now! -->
   <MainScreen_AnomalyAvailableNow>全新的异象DLC已发售！</MainScreen_AnomalyAvailableNow>
+
+  <!-- EN: Disabled by scenario -->
+  <DisabledByScenario>被剧本禁用</DisabledByScenario>
   
   <!-- UNUSED -->
   <RadiusExpandRate>半径扩展率</RadiusExpandRate>
