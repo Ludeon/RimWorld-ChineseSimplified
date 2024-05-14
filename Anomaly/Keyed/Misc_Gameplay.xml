@@ -311,7 +311,7 @@
   <!-- EN: Cancel capturing {0_definite}. -->
   <CancelCaptureDesc>取消捕获{0_definite}。</CancelCaptureDesc>
   <!-- EN: ready to study -->
-  <ReadyToStudy>准备调查</ReadyToStudy>
+  <ReadyToStudy>现在可调查</ReadyToStudy>
   <!-- EN: No active anomaly research project selected for {0} knowledge category. -->
   <NoActiveResearchProject>没有为{0}异象知识类型选择异象研究项目。</NoActiveResearchProject>
   <!-- EN: Capturable -->
@@ -383,7 +383,7 @@
   <InterrogationDetectedDesc>在审讯{PAWN_nameDef}时，{INFECTED_nameDef}发现了一些异样。{INFECTED_nameDef}表现出一些反常行为，嘴里时不时发出奇怪的声音，眼睛里还蠕动着难以察觉的金属蠕虫。{PAWN_nameDef}怀疑{INFECTED_nameDef}感染了金属怪形。</InterrogationDetectedDesc>
   
   <!-- EN: Metalhorrors are parasites that control the host and use them to infect others.\n\nMetalhorrors grow stronger inside the host as time passes. A metalhorror will cut its way out of the host's body if it knows it's been detected. The process is horrifying, but the host generally survives.\n\nThe only way to confirm a person is infected with a metalhorror is to study the metalhorror's fleshy leavings to identify its biosignature, then use the surgical inspection operation with a trusted doctor.\n\nOnce discovered, you can use the surgical inspection operation to cause a metalhorror to emerge from its host. Be prepared for a fight. -->
-  <MetalhorrorNoticedDetailsAppended>金属怪形是一种寄生体，它能控制宿主，并利用{INFECTED_objective}感染他人。\n\n随着时间的流逝，金属怪形在宿主体内会变得越来越强大。若觉察到有人发现了自己的存在，金属怪形就会从宿主体内破体而出。该过程极为血腥恐怖，但宿主往往都能侥幸存活下来。\n\n确认某人是否感染金属怪形的唯一手段便是调查金属怪形的肉质残留物，以确定其生物特征，然后与信得过的医生一起对疑似宿主进行外科检查手术。\n\n一旦发现金属怪形的踪迹，可以使用外科检查手术使金属怪形主动从宿主体内钻出。一定要做好用武力将其消灭的准备。</MetalhorrorNoticedDetailsAppended>
+  <MetalhorrorNoticedDetailsAppended>金属怪形是一种寄生体，它能控制宿主，并利用其感染他人。\n\n随着时间的流逝，金属怪形在宿主体内会变得越来越强大。若觉察到有人发现了自己的存在，金属怪形就会从宿主体内破体而出。该过程极为血腥恐怖，但宿主往往都能侥幸存活下来。\n\n确认某人是否感染金属怪形的唯一手段便是调查金属怪形的肉质残留物，以确定其生物特征，然后与信得过的医生一起对疑似宿主进行外科检查手术。\n\n一旦发现金属怪形的踪迹，可以使用外科检查手术使金属怪形主动从宿主体内钻出。一定要做好用武力将其消灭的准备。</MetalhorrorNoticedDetailsAppended>
   
   <!-- EN: Gray flesh -->
   <LetterGrayFleshDiscoveredLabel>灰色血肉</LetterGrayFleshDiscoveredLabel>
@@ -535,9 +535,9 @@
   
   <!-- Blood rain -->
   <!-- EN: The blood rain has driven {0_nameIndef} into a berserk rage! -->
-  <Berserk_BloodRain>血怒之雨让{0}陷入了狂暴状态！</Berserk_BloodRain>
+  <Berserk_BloodRain>血怒之雨让{0_nameIndef}陷入了狂暴状态！</Berserk_BloodRain>
   <!-- EN: The blood rain has driven {0_nameIndef} into a manhunting rage! -->
-  <Manhunter_BloodRain>血怒之雨让{0}陷入了猎杀人类状态！</Manhunter_BloodRain>
+  <Manhunter_BloodRain>血怒之雨让{0_nameIndef}陷入了猎杀人类状态！</Manhunter_BloodRain>
   <!-- EN: This happened because of blood rage buildup. -->
   <MentalBreakReason_BloodRage>这是因为血怒积聚。</MentalBreakReason_BloodRage>
   
@@ -745,13 +745,13 @@
   <!-- EN: Undiscovered entities -->
   <VoidMonolithRequiresDiscoveryShort>未发现足够的实体</VoidMonolithRequiresDiscoveryShort>
   <!-- EN: Must discover {0} more {1} monolith entities. -->
-  <VoidMonolithRequiresCategory>必须发现{0}种以上的{1}实体。</VoidMonolithRequiresCategory>
+  <VoidMonolithRequiresCategory>必须再发现{0}种{1}实体。</VoidMonolithRequiresCategory>
   <!-- EN: Disturbing vision -->
   <VoidMonolithVisionLabel>诡异幻象</VoidMonolithVisionLabel>
   <!-- EN: {PAWN_nameDef} has had a strange dream. In it, {PAWN_pronoun} saw a black shape, unfurling in space and time, growing and consuming. The shape originated from a nearby crumbled monolith.\n\nUpon waking from the vision, {PAWN_nameDef} feels strangely drawn to the monolith. It calls to {PAWN_objective}. -->
   <VoidMonolithVisionText>{PAWN_nameDef}做了一个怪异的梦。在梦中，{PAWN_pronoun}看到一片不断蔓延的黑色形体，无所不至、吞噬一切。而这黑色形体则来自附近一块碎裂的巨石。\n\n从梦境中醒来后，{PAWN_nameDef}感到自己莫名其妙地被这块巨石所吸引。它在呼唤着{PAWN_objective}。</VoidMonolithVisionText>
   <!-- EN: Choose who should do this -->
-  <VoidMonolithChooseActivator>选择操作对象</VoidMonolithChooseActivator>
+  <VoidMonolithChooseActivator>选择操作者</VoidMonolithChooseActivator>
   <!-- EN: Target is downed -->
   <VoidMonolithActivatorDowned>目标被击倒</VoidMonolithActivatorDowned>
   <!-- EN: Target in mental state -->
@@ -791,7 +791,7 @@
   <!-- EN: Awakening the void monolith will engulf your colony in darkness for days and attract powerful entities. Make sure you are well prepared:\n\n- Stockpile food, building material, and weapons.\n- Make sure your colony is well lit, and has ample power. Avoid relying on solar generators.\n- Ensure your colony is well defended, and your colonists are ready to fight.\n\nOnce you awaken the void monolith, there is no going back.\n\nAre you sure you want to continue? -->
   <VoidAwakeningConfirmationText>唤醒虚空巨石会让殖民地陷入数天的黑暗，并将强大的实体吸引至此处。请确保做好了万全准备：\n\n——储备足够的食物、建材以及武器。\n——确保殖民地拥有充足的照明与电力供应。请勿依赖太阳能发电机。\n——确保殖民地防守严密，殖民者随时做好战斗准备。\n\n一旦唤醒了虚空巨石，就没有回头路了。\n\n确定要继续吗？</VoidAwakeningConfirmationText>
   <!-- EN: A sphere of writhing psychic energy rises before {PAWN_nameDef}.\n\n{PAWN_nameDef} feels a presence inside {PAWN_possessive} mind, deeper than any normal human sense. {PAWN_pronoun} stands on the shoreline of an infinite black ocean of power. It beckons {PAWN_objective} in...\n\nNearby archotech devices support the sphere along fragile connections. {PAWN_nameDef} could disrupt them, closing this link between worlds.\n\nOr, {PAWN_pronoun} could step into the sphere and merge with the void. It's unknown what dark power could be gained from such an inhuman act. -->
-  <VoidNodeLetter>在{PAWN_nameDef}面前，一个不停转动的球体缓缓升起，它内部充斥着劈啪作响的心灵能量。其膨胀扭曲的表面让周围的空间也随之发生了扭曲。\n\n{PAWN_nameDef}能够在{PAWN_possessive}意识中清晰地感受到那个存在，比任何人类感官都要清晰。它违反了一切逻辑与定律，使{PAWN_objective}在虚空中载沉载浮。在{PAWN_pronoun}面前，涌动着充盈着能量的无边黑色海洋，而它在呼唤着{PAWN_objective}。\n\n{PAWN_nameDef}努力让{PAWN_objective}的意识回归了现实。\n\n正是附近的超凡科技设备，通过的脆弱的链接支撑起了那球体。{PAWN_nameDef}可以破坏链接，切断两个位面之间的连接，彻底结束这些困扰自己家园的恐怖异象。\n\n或者，{PAWN_pronoun}也可以走进球体，与虚空融为一体。没人知道球体那边有什么，更没人知道这种离经叛道之举会带来何种暗黑力量。</VoidNodeLetter>
+  <VoidNodeLetter>在{PAWN_nameDef}面前，一个球体缓缓升起，它内部充斥着翻腾扭曲的心灵能量。\n\n{PAWN_nameDef}能够在{PAWN_possessive}意识中清晰地感受到某种存在，比任何人类感官都要清晰。在{PAWN_pronoun}面前，涌动着充盈着能量的无边黑色海洋，而它在呼唤着{PAWN_objective}...\n\n正是附近的超凡科技设备，通过脆弱的链接支撑起了那球体。{PAWN_nameDef}可以破坏链接，切断两个位面之间的联系。\n\n或者，{PAWN_pronoun}也可以走进球体，与虚空合为而一。没人知道这种离经叛道之举会带来何种暗黑力量。</VoidNodeLetter>
   <!-- EN: Disrupt the link -->
   <VoidNodeDisrupt>破坏链接</VoidNodeDisrupt>
   <!-- EN: Embrace the void -->
@@ -799,7 +799,7 @@
   <!-- EN: Postpone -->
   <VoidNodePostpone>稍后再说</VoidNodePostpone>
   <!-- EN: The psychic flows destabilize and the twisted machinery screams. The swirling void flickers. {PAWN_nameDef} feels it shuddering and collapsing into itself.\n\nThe metallic cavern begins to twist, reshaping like the chamber of a massive heart. Before {PAWN_nameDef} has a chance to scream, {PAWN_pronoun} blinks out of existence.\n\n{PAWN_nameDef} has rejected the void.\n\n{PAWN_possessive} story continues... -->
-  <DisruptTheLinkCredits>灵流开始紊乱，扭曲的超凡科技装置也发出了尖锐的爆鸣。那不停旋转着的虚空开始不稳定地闪烁。{PAWN_nameDef}感觉到它的旋转已经到达了极限，并突然开始坍缩。\n\n那金属凹陷开始扭曲，形成了一个像巨大心脏一般的空腔。{PAWN_nameDef}还没来得及尖叫，就在眨眼间消失得无影无踪。\n\n{PAWN_nameDef}拒绝了虚空的呼唤。\n\n{PAWN_possessive}故事仍在继续...</DisruptTheLinkCredits>
+  <DisruptTheLinkCredits>灵流开始紊乱，扭曲的机械装置也发出了尖锐的爆鸣。那不停旋转着的虚空开始不稳定地闪烁。{PAWN_nameDef}感觉到它在剧烈颤动，并突然开始坍缩。\n\n那金属凹陷开始扭曲，形成了一个像巨大心脏一般的空腔。{PAWN_nameDef}还没来得及尖叫，就在眨眼间消失得无影无踪。\n\n{PAWN_nameDef}拒绝了虚空的呼唤。\n\n{PAWN_possessive}故事仍在继续...</DisruptTheLinkCredits>
   <!-- EN: {PAWN_nameDef} steps into the void and the black ocean floods into {PAWN_objective}, overwhelming every sense, suffusing every thought in {PAWN_possessive} mind.\n\nThe void node has been refocused away from the world, towards one single person. The void structures scream, then blink out of existence.\n\n{PAWN_nameDef} has embraced the void.\n\n{PAWN_possessive} story continues... -->
   <EmbraceTheVoidCredits>{PAWN_nameDef}踏入了虚空，黑色的海洋一下便包裹住了{PAWN_objective}，淹没了一切感官，灌满了{PAWN_possessive}身体，占领了{PAWN_possessive}意识。\n\n虚空节点的焦点，从整个世界变为了区区一人。虚空结构发出尖锐的爆鸣，从链接着它的诡异支架上挣脱开来，然后眨眼间消失得无影无踪。\n\n{PAWN_nameDef}拥抱了虚空的呼唤。\n\n{PAWN_possessive}故事仍在继续...</EmbraceTheVoidCredits>
   <!-- EN: {PAWN_nameDef} has finished activating {STRUCTURE_definite} -->

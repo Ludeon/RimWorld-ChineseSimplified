@@ -71,7 +71,7 @@
     <li>lodgersDef(lodgersCount==1)->[lodgers0_nameDef]</li>
     <li>lodgersDef(lodgersCount>=2)->[lodgersLabelPlural]</li>
     <li>joinerEnding(priority=1)-></li>
-    <li>joinerEnding->你可以直接控制 [lodgersDef]， 如同指挥你自己的殖民者那样。 [specialNeedsExplanation]</li>
+    <li>joinerEnding->你可以直接控制[lodgersDef]，如同指挥你自己的殖民者那样。[specialNeedsExplanation]</li>
     <li>specialNeedsExplanation(asker_royalInCurrentFaction==True,priority=1)->你必须满足[lodgersLabelPlural]的各种需求。</li>
     <li>specialNeedsExplanation-></li>
     <li>theirHisHer(lodgersCount==1)->[lodgers0_possessive]</li>
