@@ -53,7 +53,7 @@
   <!-- EN: The implants must be extracted within a five-day grace period to avoid diplomatic consequences. -->
   <LetterRoyalTitleImplantGracePeriod>必须在五天的限期内提取植入物，以避免产生外交后果。</LetterRoyalTitleImplantGracePeriod>
   <!-- EN: {PAWN_pronoun} can now give speeches from the throne. If it goes well, listeners will feel inspired. If it goes poorly, the speech will do social damage. The outcome depends on {PAWN_labelShort}'s social abilities. -->
-  <LetterRoyalTitleSpeechAbilityGained>{PAWN_pronoun}现在可以发表演说了。如果一切顺利，听众会获得鼓舞，并且从听众获得尊重。如果进展不顺利，演讲会造成社交伤害。结果取决于{PAWN_labelShort}的社交能力。</LetterRoyalTitleSpeechAbilityGained>
+  <LetterRoyalTitleSpeechAbilityGained>{PAWN_pronoun}现在可以发表演讲了。如果一切顺利，听众会获得鼓舞，并且从听众获得尊重。如果进展不顺利，演讲会造成社交伤害。结果取决于{PAWN_labelShort}的社交能力。</LetterRoyalTitleSpeechAbilityGained>
   <!-- EN: This title requires a throneroom that meets these requirements:{1} -->
   <LetterRoyalTitleThroneroomRequirements>此头衔需要一个满足以下要求的谒见厅：{1}</LetterRoyalTitleThroneroomRequirements>
   <!-- EN: This title requires a bedroom that meets these requirements:{1} -->
@@ -88,11 +88,11 @@
   <!-- EN: Since {PAWN_nameFull} died, {PAWN_possessive} titles will be transferred to {PAWN_possessive} heirs. -->
   <LetterTitleInheritance_Base>当{PAWN_nameFull}逝世后，{PAWN_possessive}头衔将会根据授予头衔的派系之律法传授给{PAWN_possessive}继承人。</LetterTitleInheritance_Base>
   <!-- EN: {PAWN_possessive} {TITLE} title was inherited by {HEIR_nameFull}, according to the succession laws of {FACTION_name}. It will replace {HEIR_possessive} {REPLACEDTITLE} title upon completion of a bestowing ceremony. -->
-  <LetterTitleInheritance_AsReplacement>根据{FACTION_name}的继承规则， {PAWN_possessive} {TITLE}头衔被 {HEIR_nameFull} 继承。 在完成授予仪式之后将取代{HEIR_possessive} {REPLACEDTITLE}头衔。</LetterTitleInheritance_AsReplacement>
+  <LetterTitleInheritance_AsReplacement>根据{FACTION_name}的继承法，{PAWN_possessive}{TITLE}头衔被{HEIR_nameFull}继承。在完成授勋仪式之后将取代{HEIR_possessive}{REPLACEDTITLE}头衔。</LetterTitleInheritance_AsReplacement>
   <!-- EN: {PAWN_possessive} {TITLE} title would have been inherited by {HEIR_nameFull} according to the succession laws of {FACTION_name}, but {HEIR_pronoun} already had a {HIGHERTITLE} title. -->
-  <LetterTitleInheritance_NoEffectHigherTitle>根据{FACTION_name}的继承规则，{PAWN_possessive} {TITLE}头衔将由{HEIR_nameFull}来继承。 但是{HEIR_pronoun}已拥有了{HIGHERTITLE}头衔。</LetterTitleInheritance_NoEffectHigherTitle>
+  <LetterTitleInheritance_NoEffectHigherTitle>根据{FACTION_name}的继承法，{PAWN_possessive}{TITLE}头衔将由{HEIR_nameFull}来继承。但是{HEIR_pronoun}已拥有了{HIGHERTITLE}头衔。</LetterTitleInheritance_NoEffectHigherTitle>
   <!-- EN: {PAWN_possessive} {TITLE} title will be inherited by {HEIR_nameFull} upon completion of a bestowing ceremony, according to the succession laws of {FACTION_name}. -->
-  <LetterTitleInheritance_WasInherited>根据{FACTION_name}的继承法， {PAWN_possessive}{TITLE}头衔将在完成授予仪式之后由{HEIR_nameFull}继承。</LetterTitleInheritance_WasInherited>
+  <LetterTitleInheritance_WasInherited>根据{FACTION_name}的继承法，{PAWN_possessive}{TITLE}头衔将在完成授勋仪式之后由{HEIR_nameFull}继承。</LetterTitleInheritance_WasInherited>
   <!-- EN: {PAWN_possessive} {TITLE} title was not inherited by anyone, since {PAWN_pronoun} had no designated heir for this title. -->
   <LetterTitleInheritance_NoHeirFound>{PAWN_possessive}{TITLE}头衔未被任何人继承，因为{PAWN_pronoun}没有指定该头衔的继承人。</LetterTitleInheritance_NoHeirFound>
 
@@ -100,7 +100,7 @@
   <!-- EN: Lawbreaker: {PAWN_labelShort} -->
   <LetterLawViolationDetectedLabel>违法者: {PAWN_labelShort}</LetterLawViolationDetectedLabel>
   <!-- EN: {FACTION_name} has detected {PAWN_labelShort}'s illegal use of: {CULPRIT} (detection chance {CHANCE}).\n\nAccording to the laws of {FACTION_name}, only those who hold the title of {TITLE} are allowed to use {CULPRIT}.\n\nAs a penalty, your faction relations have fallen by {GOODWILL}. -->
-  <LetterLawViolationDetectedForbiddenThingUse>{FACTION_name}检测到{PAWN_labelShort}被非法使用: {CULPRIT} (检测概率 {CHANCE}).\n\n根据{FACTION_name}的法律，只有拥有{TITLE}头衔的人才能使用{CULPRIT}。\n\n作为惩罚，与你的派系关系下降了{GOODWILL}。</LetterLawViolationDetectedForbiddenThingUse>
+  <LetterLawViolationDetectedForbiddenThingUse>{FACTION_name}检测到{PAWN_labelShort}被非法使用: {CULPRIT} (检测概率 {CHANCE})。\n\n根据{FACTION_name}的法律，只有拥有{TITLE}头衔的人才能使用{CULPRIT}。\n\n作为惩罚，与你的派系关系下降了{GOODWILL}。</LetterLawViolationDetectedForbiddenThingUse>
 
   <!-- Wild decree mental break -->
   <!-- EN: Wild decree -->
