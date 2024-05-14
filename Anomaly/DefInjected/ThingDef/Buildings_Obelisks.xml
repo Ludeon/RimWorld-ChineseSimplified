@@ -22,7 +22,7 @@
   <!-- EN: triggering obelisk teleportation -->
   <WarpedObelisk_Abductor.comps.CompObeliskTriggerInteractor.activatingStringPending>触发方尖碑传送</WarpedObelisk_Abductor.comps.CompObeliskTriggerInteractor.activatingStringPending>
   <!-- EN: Choose who should do this -->
-  <WarpedObelisk_Abductor.comps.CompObeliskTriggerInteractor.guiLabelString>选择操作对象</WarpedObelisk_Abductor.comps.CompObeliskTriggerInteractor.guiLabelString>
+  <WarpedObelisk_Abductor.comps.CompObeliskTriggerInteractor.guiLabelString>选择操作者</WarpedObelisk_Abductor.comps.CompObeliskTriggerInteractor.guiLabelString>
   <!-- EN: Trigger teleportation -->
   <WarpedObelisk_Abductor.comps.CompObeliskTriggerInteractor.jobString>触发传送</WarpedObelisk_Abductor.comps.CompObeliskTriggerInteractor.jobString>
   <!-- EN: {PAWN_nameDef} has successfully triggered obelisk teleportation. -->
@@ -43,7 +43,7 @@
   <!-- EN: Obelisk study progress -->
   <WarpedObelisk_Duplicator.comps.CompStudyUnlocks.studyNotes.1.label>方尖碑调查有所进展</WarpedObelisk_Duplicator.comps.CompStudyUnlocks.studyNotes.1.label>
   <!-- EN: You've learned more about the obelisk. The device has the power to duplicate intelligent creatures. In theory, it can produce duplicates without limit.\n\nThe obelisk appears damaged and unstable, so its energy level rises unless suppressed. If it were to fully activate, it would go into a duplication loop, chaotically pumping out a large number of flawed human duplicates.\n\n{PAWN_nameDef} thinks that it may be possible to safely shut down the obelisk but this will need significantly more study.\n\nYou can now intentionally provoke a response from the corrupted obelisk. -->
-  <WarpedObelisk_Duplicator.comps.CompStudyUnlocks.studyNotes.1.text>你对方尖碑的了解增加了。它拥有复制智能生物的能力。理论上，这种复制是可以无限进行的。\n\n这座方尖碑似乎已受损，而且极为不稳定。若不进行抑制，其能量水平将会持续上升。若其完全激活，就会进入复制循环，疯狂制造出大量有缺陷的复制人。\n\n{PAWN_nameDef}认为可以安全地停用方尖碑，但这需要进行更多调查。\n\n现在你可以故意刺激腐化方尖碑并使其做出反应。</WarpedObelisk_Duplicator.comps.CompStudyUnlocks.studyNotes.1.text>
+  <WarpedObelisk_Duplicator.comps.CompStudyUnlocks.studyNotes.1.text>你对方尖碑的了解增加了。它拥有复制智能生物的能力。理论上，这种复制是可以无限进行的。\n\n这座方尖碑似乎已受损，而且极为不稳定。若不进行抑制，其能量水平将会持续上升。若其完全激活，就会进入复制循环，疯狂制造出大量有缺陷的复制人。\n\n{PAWN_nameDef}认为可以安全地停用方尖碑，但这需要进行更多调查。\n\n现在你可以故意刺激恶堕方尖碑并使其做出反应。</WarpedObelisk_Duplicator.comps.CompStudyUnlocks.studyNotes.1.text>
   <!-- EN: Obelisk study complete -->
   <WarpedObelisk_Duplicator.comps.CompStudyUnlocks.studyNotes.2.label>方尖碑调查完成</WarpedObelisk_Duplicator.comps.CompStudyUnlocks.studyNotes.2.label>
   <!-- EN: {PAWN_nameDef} has completed {PAWN_possessive} investigation of the corrupted obelisk. {PAWN_pronoun} has discovered a method for safely deactivating the obelisk using shards of archotechnology.\n\nYou can no longer study the obelisk after deactivating it. -->
@@ -57,7 +57,7 @@
   <!-- EN: triggering obelisk duplication -->
   <WarpedObelisk_Duplicator.comps.CompObeliskTriggerInteractor.activatingStringPending>触发方尖碑复制</WarpedObelisk_Duplicator.comps.CompObeliskTriggerInteractor.activatingStringPending>
   <!-- EN: Choose who should do this -->
-  <WarpedObelisk_Duplicator.comps.CompObeliskTriggerInteractor.guiLabelString>选择操作对象</WarpedObelisk_Duplicator.comps.CompObeliskTriggerInteractor.guiLabelString>
+  <WarpedObelisk_Duplicator.comps.CompObeliskTriggerInteractor.guiLabelString>选择操作者</WarpedObelisk_Duplicator.comps.CompObeliskTriggerInteractor.guiLabelString>
   <!-- EN: Trigger duplication -->
   <WarpedObelisk_Duplicator.comps.CompObeliskTriggerInteractor.jobString>触发复制</WarpedObelisk_Duplicator.comps.CompObeliskTriggerInteractor.jobString>
   <!-- EN: The corrupted obelisk is ready to use again. -->
@@ -73,7 +73,7 @@
   <!-- EN: deactivating obelisk -->
   <WarpedObelisk_Duplicator.comps.CompObeliskDeactivationInteractor.activatingStringPending>停用方尖碑</WarpedObelisk_Duplicator.comps.CompObeliskDeactivationInteractor.activatingStringPending>
   <!-- EN: Choose who should do this -->
-  <WarpedObelisk_Duplicator.comps.CompObeliskDeactivationInteractor.guiLabelString>选择操作对象</WarpedObelisk_Duplicator.comps.CompObeliskDeactivationInteractor.guiLabelString>
+  <WarpedObelisk_Duplicator.comps.CompObeliskDeactivationInteractor.guiLabelString>选择操作者</WarpedObelisk_Duplicator.comps.CompObeliskDeactivationInteractor.guiLabelString>
   <!-- EN: Deactivate obelisk -->
   <WarpedObelisk_Duplicator.comps.CompObeliskDeactivationInteractor.jobString>停用方尖碑</WarpedObelisk_Duplicator.comps.CompObeliskDeactivationInteractor.jobString>
   <!-- EN: {PAWN_nameDef} has successfully deactivated the obelisk. -->
@@ -92,7 +92,7 @@
   <!-- EN: activating obelisk -->
   <WarpedObelisk_Labyrinth.comps.CompObelisk_Labyrinth.activatingStringPending>激活方尖碑</WarpedObelisk_Labyrinth.comps.CompObelisk_Labyrinth.activatingStringPending>
   <!-- EN: Choose who should do this -->
-  <WarpedObelisk_Labyrinth.comps.CompObelisk_Labyrinth.guiLabelString>选择操作对象</WarpedObelisk_Labyrinth.comps.CompObelisk_Labyrinth.guiLabelString>
+  <WarpedObelisk_Labyrinth.comps.CompObelisk_Labyrinth.guiLabelString>选择操作者</WarpedObelisk_Labyrinth.comps.CompObelisk_Labyrinth.guiLabelString>
   <!-- EN: Activate obelisk -->
   <WarpedObelisk_Labyrinth.comps.CompObelisk_Labyrinth.jobString>激活方尖碑</WarpedObelisk_Labyrinth.comps.CompObelisk_Labyrinth.jobString>
   <!-- EN: The obelisk has begun to activate. -->
@@ -123,7 +123,7 @@
   <!-- EN: triggering obelisk mutation -->
   <WarpedObelisk_Mutator.comps.CompObeliskTriggerInteractor.activatingStringPending>触发方尖碑畸变</WarpedObelisk_Mutator.comps.CompObeliskTriggerInteractor.activatingStringPending>
   <!-- EN: Choose who should do this -->
-  <WarpedObelisk_Mutator.comps.CompObeliskTriggerInteractor.guiLabelString>选择操作对象</WarpedObelisk_Mutator.comps.CompObeliskTriggerInteractor.guiLabelString>
+  <WarpedObelisk_Mutator.comps.CompObeliskTriggerInteractor.guiLabelString>选择操作者</WarpedObelisk_Mutator.comps.CompObeliskTriggerInteractor.guiLabelString>
   <!-- EN: Trigger mutation -->
   <WarpedObelisk_Mutator.comps.CompObeliskTriggerInteractor.jobString>触发畸变</WarpedObelisk_Mutator.comps.CompObeliskTriggerInteractor.jobString>
   <!-- EN: {PAWN_nameDef} has successfully triggered obelisk mutation. -->
@@ -141,7 +141,7 @@
   <!-- EN: deactivating obelisk -->
   <WarpedObelisk_Mutator.comps.CompObeliskDeactivationInteractor.activatingStringPending>停用方尖碑</WarpedObelisk_Mutator.comps.CompObeliskDeactivationInteractor.activatingStringPending>
   <!-- EN: Choose who should do this -->
-  <WarpedObelisk_Mutator.comps.CompObeliskDeactivationInteractor.guiLabelString>选择操作对象</WarpedObelisk_Mutator.comps.CompObeliskDeactivationInteractor.guiLabelString>
+  <WarpedObelisk_Mutator.comps.CompObeliskDeactivationInteractor.guiLabelString>选择操作者</WarpedObelisk_Mutator.comps.CompObeliskDeactivationInteractor.guiLabelString>
   <!-- EN: Deactivate obelisk -->
   <WarpedObelisk_Mutator.comps.CompObeliskDeactivationInteractor.jobString>停用方尖碑</WarpedObelisk_Mutator.comps.CompObeliskDeactivationInteractor.jobString>
   <!-- EN: {PAWN_nameDef} has successfully deactivated the obelisk. -->
