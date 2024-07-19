@@ -80,7 +80,7 @@
     <li>lodgerDiedLeaveMapLetterLabel->[lodgersLabel] 死亡：离开</li>
     <li>lodgerDiedLeaveMapLetterText->[letterIntroDeath]\n\n[decidedToLeave]</li>
     <li>lodgersAllDiedLetterLabel->任务失败</li>
-    <li>lodgersAllDiedLetterText->{SUBJECT_definite}， [lastOrNot] 不顾一切的 [faction_pawnSingular] （[whoAskedToStay]）， 已经死亡。\n\n[questOver]</li>
+    <li>lodgersAllDiedLetterText->{SUBJECT_definite}， [lastOrNot] 绝望的 [faction_pawnSingular] （[whoAskedToStay]）， 已经死亡。\n\n[questOver]</li>
     <li>letterIntroArrested->你逮捕了 {SUBJECT_definite} （[oneOfThe]）。</li>
     <li>lodgerArrestedMemoryThoughtLetterLabel->[lodgersLabel] 逮捕：愤怒</li>
     <li>lodgerArrestedMemoryThoughtLetterText->[letterIntroArrested]\n\n[appalledButNoAction]</li>
@@ -89,13 +89,21 @@
     <li>lodgerArrestedLeaveMapLetterLabel->[lodgersLabel] 逮捕：离开</li>
     <li>lodgerArrestedLeaveMapLetterText->[letterIntroArrested]\n\n[decidedToLeave]</li>
     <li>lodgersAllArrestedLetterLabel->任务失败</li>
-    <li>lodgersAllArrestedLetterText->你逮捕了 {SUBJECT_definite}, [lastOrNot] 不顾一切的 [faction_pawnSingular] （[whoAskedToStay]）。\n\n[questOver]</li>
+    <li>lodgersAllArrestedLetterText->你逮捕了 {SUBJECT_definite}, [lastOrNot] 绝望的 [faction_pawnSingular] （[whoAskedToStay]）。\n\n[questOver]</li>
     <li>letterIntroViolated->{SUBJECT_definite}， （[oneOfThe]）， 被执行了非法的手术。</li>
-    <li>lodgerViolatedMemoryThoughtLetterLabel->[lodgersLabel] 违法：愤怒</li>
+    <li>lodgerViolatedMemoryThoughtLetterLabel->[lodgersLabel] 违约：愤怒</li>
     <li>lodgerViolatedMemoryThoughtLetterText->[letterIntroViolated]\n\n[appalledButNoAction]</li>
-    <li>lodgerViolatedAttackPlayerLetterLabel->[lodgersLabel] 违法：复仇</li>
+    <li>lodgerViolatedAttackPlayerLetterLabel->[lodgersLabel] 违约：复仇</li>
     <li>lodgerViolatedAttackPlayerLetterText->[letterIntroViolated]\n\n[turnedViolent]</li>
-    <li>lodgerViolatedLeaveMapLetterLabel->[lodgersLabel] 违法：离开</li>
+    <li>lodgerViolatedLeaveMapLetterLabel->[lodgersLabel] 违约：离开</li>
+    <li>lodgerViolatedLeaveMapLetterText->[letterIntroViolated]\n\n[decidedToLeave]</li>
+    <li>letterIntroPsychicRitualTarget->{SUBJECT_definite}, [oneOfThe],成为了灵能仪式的祭品。</li>
+    <li>lodgerPsychicRitualTargetMemoryThoughtLetterLabel->[lodgersLabel]违约：愤怒</li>
+    <li>lodgerPsychicRitualTargetMemoryThoughtLetterText->[letterIntroPsychicRitualTarget]\n\n[appalledButNoAction]</li>
+    <li>lodgerPsychicRitualTargetAttackPlayerLetterLabel->[lodgersLabel] 违约: 复仇</li>
+    <li>lodgerPsychicRitualTargetAttackPlayerLetterText->[letterIntroPsychicRitualTarget]\n\n[turnedViolent]</li>
+    <li>lodgerPsychicRitualTargetLeaveMapLetterLabel->[lodgersLabel] 违约：离开</li>
+    <li>lodgerPsychicRitualTargetLeaveMapLetterText->[letterIntroPsychicRitualTarget]\n\n[decidedToLeave]</li>
     <li>lodgerViolatedLeaveMapLetterText->[letterIntroViolated]\n\n[decidedToLeave]</li>
     <li>mutinyLetterLabel->背叛</li>
     <li>mutinyLetterText->[lodgersSingularOrPluralDef] （[whoAskedToStay]） 与你为敌！\n\n看起来[lodgersPronoun]早就计划好了这场背叛。</li>
@@ -271,7 +279,7 @@
     <li>lodgersLabelSingularOrPlural(lodgerCount==1)->[lodgersLabel]</li>
     <li>lodgersLabelSingularOrPlural(lodgerCount>=2)->[lodgersLabelPlural]</li>
     <li>betrayalOfferRewardLetterLabel->背叛奖励：[factionOpponent_nameDef]</li>
-    <li>betrayalOfferRewardLetterText->[factionOpponent_nameDef]承诺过如果你杀死[asker_nameDef][otherMembers]。[factionOpponent_pronoun]听说你办成了这件事，并通过运输舱向你发送了以下物资（总价值[betrayalRewardMarketValue_money]）：\n\n[betrayalRewards].\n\n[questOver]</li>
+    <li>betrayalOfferRewardLetterText->[factionOpponent_nameDef]承诺过如果你杀死[asker_nameDef][otherMembers]就会获得奖励。[factionOpponent_pronoun]听说你办成了这件事，已通过运输舱向你发送了以下物资（总价值[betrayalRewardMarketValue_money]）：\n\n[betrayalRewards].\n\n[questOver]</li>
     <li>betrayalOfferFailedLetterLabel->背叛奖励被收回</li>
     <li>betrayalOfferFailedLetterText->[factionOpponent_nameDef]已得知[faction_name]的一名成员离开了[map_definite]。[factionOpponent_nameDef]希望[faction_name]所有的成员都死掉，因此收回了[factionOpponent_possessive]提议。</li>
     <li>otherLodgers(lodgerCount==1)-></li>
@@ -280,6 +288,8 @@
     <li>otherMembers(lodgerCount==1)-></li>
     <li>otherMembers(lodgerCount>=2)->和[faction_name]的所有成员</li>
     <li>questOver->任务'[resolvedQuestName]'已结束。</li>
+    <li>betrayalOfferFailedBecauseRecruitedLetterLabel->背叛奖励被收回</li>
+    <li>betrayalOfferFailedBecauseRecruitedLetterText->[factionOpponent_nameDef]已知悉所有来自[faction_name]的幸存者们已加入了你的派系！ [factionOpponent_nameDef]希望[faction_name]的所有成员都死掉，因此收回了[factionOpponent_possessive]提议。</li>
   </RefugeeBetrayal.questContentRules.rulesStrings>
   <!-- EN:
     <li>lodgersLabel->refugee</li>
