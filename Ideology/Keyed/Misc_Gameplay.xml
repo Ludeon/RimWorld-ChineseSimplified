@@ -100,9 +100,9 @@
   <!-- EN: Set to favorite color -->
   <SetFavoriteColor>设置为偏好色</SetFavoriteColor>
   <!-- EN: {PAWN_nameDef}’s favorite color. Having more than 60% of {PAWN_possessive} apparel in this color, or the color of {PAWN_possessive} ideoligion, will make {PAWN_objective} slightly happier. -->
-  <FavoriteColorPickerTip>TODO</FavoriteColorPickerTip>
+  <FavoriteColorPickerTip>{PAWN_nameDef}的偏爱颜色。如果穿着的衣服超过60%染有此颜色或{PAWN_possessive}文化形态代表色，会让{PAWN_objective}感到愉悦。</FavoriteColorPickerTip>
   <!-- EN: {PAWN_nameDef}’s ideoligion color. Having more than 60% of {PAWN_possessive} apparel in this color, or {PAWN_possessive} favorite color, will make {PAWN_objective} slightly happier. -->
-  <IdeoColorPickerTip>TODO</IdeoColorPickerTip>
+  <IdeoColorPickerTip>{PAWN_nameDef}的文化形态代表色。如果穿着的衣服超过60%染有此颜色或{PAWN_possessive}偏爱色，会让{PAWN_objective}感到愉悦。</IdeoColorPickerTip>
   <!-- EN: Configure your faction's ideoligion -->
   <ConfigureIdeoligion>设置你派系的文化</ConfigureIdeoligion>
   <!-- EN: Not enough dye. -->
@@ -202,13 +202,13 @@
   <!-- EN: {TREE_definite} has had its connection torn recently. It can connect again in {1}. -->
   <RitualTargetConnectionTornGauranlenTree>{TREE_definite}的共鸣被打断了。 它能够在{1}后重新共鸣。</RitualTargetConnectionTornGauranlenTree>
   <!-- EN: You need {0} wood for each participant ({1} total). -->
-  <RitualTargetWoodInfo>TODO</RitualTargetWoodInfo>
+  <RitualTargetWoodInfo>你需要为每位参与者({1}名)准备{0}原木。</RitualTargetWoodInfo>
   <!-- EN: A participant cannot reach enough wood. -->
-  <RitualTargetWoodInfoAppend>TODO</RitualTargetWoodInfoAppend>
+  <RitualTargetWoodInfoAppend>一位参与者无法抵达原木储备。</RitualTargetWoodInfoAppend>
   <!-- EN: {0} participants cannot reach enough wood. -->
-  <RitualTargetWoodInfoAppendMultiple>TODO</RitualTargetWoodInfoAppendMultiple>
+  <RitualTargetWoodInfoAppendMultiple>{0}位参与者无法抵达原木储备。</RitualTargetWoodInfoAppendMultiple>
   <!-- EN: {PAWN_labelShort} cannot reach enough wood. -->
-  <RitualTargetWoodInfoWarning>TODO</RitualTargetWoodInfoWarning>
+  <RitualTargetWoodInfoWarning>{PAWN_labelShort}无法抵达原木储备。</RitualTargetWoodInfoWarning>
   <!-- EN: {0} must be able to reach ritual target. -->
   <RitualTargetUnreachable>{0}必须能够抵达仪式位置。</RitualTargetUnreachable>
   <!-- EN: Accuse -->
