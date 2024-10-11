@@ -51,8 +51,6 @@
   <Appearance>外观</Appearance>
   <!-- EN: Done -->
   <DoneButton>完成</DoneButton>
-  <!-- EN: Caused by -->
-  <CausedBy>由于</CausedBy>
   <!-- EN: Belief in -->
   <BeliefInIdeo>信仰</BeliefInIdeo>
   <!-- EN: Information about {0} -->
@@ -203,8 +201,14 @@
   <RitualTargetConnectedGauranlenTree>已经与{PAWN_nameDef}共鸣</RitualTargetConnectedGauranlenTree>
   <!-- EN: {TREE_definite} has had its connection torn recently. It can connect again in {1}. -->
   <RitualTargetConnectionTornGauranlenTree>{TREE_definite}的共鸣被打断了。 它能够在{1}后重新共鸣。</RitualTargetConnectionTornGauranlenTree>
-  <!-- EN: You need {0} wood for each participant ({2} total). You have {1} wood. -->
-  <RitualTargeWoodInfo>你需要为每位参与者（最多{2}位）准备{0}数量的木材，你当前的木材储量是{1}。</RitualTargeWoodInfo>
+  <!-- EN: You need {0} wood for each participant ({1} total). -->
+  <RitualTargetWoodInfo>TODO</RitualTargetWoodInfo>
+  <!-- EN: A participant cannot reach enough wood. -->
+  <RitualTargetWoodInfoAppend>TODO</RitualTargetWoodInfoAppend>
+  <!-- EN: {0} participants cannot reach enough wood. -->
+  <RitualTargetWoodInfoAppendMultiple>TODO</RitualTargetWoodInfoAppendMultiple>
+  <!-- EN: {PAWN_labelShort} cannot reach enough wood. -->
+  <RitualTargetWoodInfoWarning>TODO</RitualTargetWoodInfoWarning>
   <!-- EN: {0} must be able to reach ritual target. -->
   <RitualTargetUnreachable>{0}必须能够抵达仪式位置。</RitualTargetUnreachable>
   <!-- EN: Accuse -->
@@ -298,8 +302,6 @@
 
   <!-- EN: For slave use -->
   <ForSlaveUse>为奴隶专用</ForSlaveUse>
-  <!-- EN: Slave -->
-  <Slave>奴隶</Slave>
   <!-- EN: If you sell someone to any faction besides their own, they become slaves. -->
   <SellingAsSlave>如果你将某人卖往非其所属的派系，他们将成为奴隶。</SellingAsSlave>
   <!-- EN: If you sell someone to their own faction, they are ransomed and not enslaved. -->
@@ -664,5 +666,8 @@
   <ChangeStyleDesc>改变将被建造物体的风格。这纯粹是视觉上的，对游戏没有影响。</ChangeStyleDesc>
   <!-- EN: No available styles. -->
   <ChangeStyleDisabledNoCategories>没有可用风格。</ChangeStyleDisabledNoCategories>
+
+  <!-- UNUSED -->
+  <RitualTargeWoodInfo>你需要为每位参与者（最多{2}位）准备{0}数量的木材，你当前的木材储量是{1}。</RitualTargeWoodInfo>
 
 </LanguageData>

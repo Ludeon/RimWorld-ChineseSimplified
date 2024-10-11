@@ -65,14 +65,14 @@
   <BiofuelRefining.description>解锁建造「精炼设备」，用于从木材、生食等生物物质中精炼化合燃料。</BiofuelRefining.description>
   <!-- EN:
     <li>subject->biofuel</li>
-    <li>subject_story->was trapped when a generation ship lost power. She used her knowledge of refining to turn human remains into biofuel and restart the engines</li>
+    <li>subject_story->was trapped when a generation ship lost power. [ANYPAWN_pronoun] used [ANYPAWN_possessive] knowledge of refining to turn human remains into biofuel and restart the engines</li>
     <li>subject_story->used automated biorefineries to begin the long terraforming process on an iceworld</li>
     <li>subject_story->started a distillery to make moonshine but, realizing it was undrinkable, sold it as chemfuel instead</li>
     <li>subject_gerund->refining biofuel</li>
   -->
   <BiofuelRefining.generalRules.rulesStrings>
     <li>subject->生物燃料</li>
-    <li>subject_story->被困在了一艘失去动力的世代殖民飞船上。她利用自己的精炼知识，将人类遗体转化为生物燃料，并重新启动了引擎</li>
+    <li>subject_story->被困在了一艘失去动力的世代殖民飞船上。[ANYPAWN_pronoun]利用[ANYPAWN_possessive]的精炼知识，将人类遗体转化为生物燃料，并重新启动了引擎</li>
     <li>subject_story->使用自动化生物精炼厂在冰雪世界开始漫长的地形改造过程</li>
     <li>subject_story->开了一家酿酒厂来酿造私酒，但后来意识到这些东西不能喝，就把私酒当作化合燃料卖掉了</li>
     <li>subject_gerund->精炼生物燃料</li>
@@ -378,14 +378,14 @@
   <!-- EN:
     <li>subject->nutrient paste</li>
     <li>subject_story->worked in a factory canteen and devised nutrient paste as a way to avoid all labor</li>
-    <li>subject_story->lost their taste of smell to disease, so devised a cheap, flavorless nutrient paste</li>
+    <li>subject_story->lost [ANYPAWN_possessive] taste of smell to disease, so devised a cheap, flavorless nutrient paste</li>
     <li>subject_story->advocated for the recycling of all organic matter into nutrient paste, even corpses</li>
     <li>subject_gerund->building nutrient paste dispensers</li>
   -->
   <NutrientPaste.generalRules.rulesStrings>
     <li>subject->营养膏</li>
     <li>subject_story->在工厂食堂工作，为避免所有的劳动而发明了营养膏</li>
-    <li>subject_story->因生病而失去了嗅觉，所以发明了一种廉价无味的营养膏</li>
+    <li>subject_story->因生病而失去了[ANYPAWN_possessive]嗅觉，所以发明了一种廉价无味的营养膏</li>
     <li>subject_story->提倡将包括尸体在内的各种有机物回收加工成营养膏</li>
     <li>subject_gerund->建造营养膏合成机</li>
   </NutrientPaste.generalRules.rulesStrings>

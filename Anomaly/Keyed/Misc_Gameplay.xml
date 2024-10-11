@@ -288,12 +288,12 @@
   <ActivityGizmo>活跃度</ActivityGizmo>
   <!-- EN: Automatic suppression -->
   <ActivitySuppressionTooltipTitle>自动抑制</ActivitySuppressionTooltipTitle>
-  <!-- EN: Automatic suppression is currently disabled. Enable it to have wardens suppress the {PAWN_labelShort}. -->
-  <ActivitySuppressionTooltipDisabled>自动抑制功能目前已禁用。启用后，狱卒就会抑制{PAWN_labelShort}。</ActivitySuppressionTooltipDisabled>
+  <!-- EN: Automatic suppression is currently disabled. Enable it to have wardens suppress the {0}. -->
+  <ActivitySuppressionTooltipDisabled>自动抑制功能目前已禁用。启用后，狱卒就会抑制{0}。</ActivitySuppressionTooltipDisabled>
   <!-- EN: The {0}'s activity level rises over time. Activity rises faster if the {0} is damaged or provoked.\n\nIf the activity level reaches 100%, the {0} will activate.\n\nWardens can suppress the {0} to keep its activity at a safe level. They will suppress it any time its activity is above the assigned level: {LEVEL}\n\nEntities that have higher activity levels will give more knowledge when studied. -->
   <ActivitySuppressionTooltipDesc>{0}的活跃度会逐渐上升。若{0}受到伤害或挑衅，活跃度会上升得更快。\n\n若其活跃度达到100%，{0}就会进入活跃状态。\n\n狱卒会自动抑制{0}，将其活跃度控制在安全范围内。一旦其活跃度超过指定水平（{LEVEL}），他们就会对其进行抑制。活跃度较高的实体在调查时会提供更多异象知识。</ActivitySuppressionTooltipDesc>
-  <!-- EN: This determines whether the {PAWN_labelShort} will be automatically suppressed when its activity is above {LEVEL}.\n\nAutomatic suppression is currently {ONOFF}. -->
-  <ActivitySuppressionToggleTooltipDesc>决定当{PAWN_labelShort}的活跃度高于{LEVEL}时，是否会对其进行自动抑制。\n\n自动抑制当前已{ONOFF}。</ActivitySuppressionToggleTooltipDesc>
+  <!-- EN: This determines whether the {0} will be automatically suppressed when its activity is above {LEVEL}.\n\nAutomatic suppression is currently {ONOFF}. -->
+  <ActivitySuppressionToggleTooltipDesc>决定当{0}的活跃度高于{LEVEL}时，是否会对其进行自动抑制。\n\n自动抑制当前已{ONOFF}。</ActivitySuppressionToggleTooltipDesc>
 
   <!-- Activity Descs -->
   <!-- EN: activity level -->
@@ -886,5 +886,8 @@
   <AnomalyFrequency_Intense>常见</AnomalyFrequency_Intense>
   <!-- EN: Overwhelming -->
   <AnomalyFrequency_Overwhelming>极其常见</AnomalyFrequency_Overwhelming>
+  
+  <!-- EN: Security doors only -->
+  <SecurityDoorsOnly>TODO</SecurityDoorsOnly>
   
 </LanguageData>
