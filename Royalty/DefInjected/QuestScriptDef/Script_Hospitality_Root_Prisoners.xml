@@ -58,7 +58,7 @@
     <li>threatsInfo3(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersSingleHuman] [enemyGroupsParagraph]</li>
     <li>threatsInfo3(generateThreats==false)-></li>
     <li>questDescription(asker_factionLeader==True,lodgersCount>=2)->[asker_faction_name] 的 [asker_faction_leaderTitle]， [asker_nameFull] 从敌方派系逮捕了[lodgersCount]人， 现在的问题是无处安置这些囚犯， [asker_nameDef]希望你能帮助看管这些囚犯， [shuttleDelayTicks_duration]后[asker_possessive]为这些囚犯准备的新监狱就能建好。 [allLodgerInfo][threatsInfo4][commonDescEnding]</li>
-    <li>threatsInfo4(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n这些囚犯与签订了[enemyFaction_name]付费营救合同， 所以他们会在你之后派出[enemyFaction_pawnsPlural]。 [enemyGroupsParagraph]</li>
+    <li>threatsInfo4(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n这些囚犯与[enemyFaction_name]签订了付费营救合同， 所以他们会派出[enemyFaction_pawnsPlural]来营救囚犯。 [enemyGroupsParagraph]</li>
     <li>threatsInfo4(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[asker_nameDef]的敌人们已经激活了一个机械体巢穴用于猎杀囚犯， 机械体攻击部队将在随后到达。 [enemyGroupsParagraph]</li>
     <li>threatsInfo4(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersMultiPrisoners] [enemyGroupsParagraph]</li>
     <li>threatsInfo4(generateThreats==false)-></li>

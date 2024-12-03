@@ -321,7 +321,7 @@
   <!-- EN: {PAWN_definite} to be in your home colony -->
   <QuestPawnNotOnColonyMap>{PAWN_definite}在主殖民地</QuestPawnNotOnColonyMap>
   <!-- EN: the map clear of enemies of the bestower's faction -->
-  <QuestRequiresNoDangerOnMap>所有与布施者所属派系为敌的存在都必须被消灭！</QuestRequiresNoDangerOnMap>
+  <QuestRequiresNoDangerOnMap>地图上没有布施者所属派系的敌人</QuestRequiresNoDangerOnMap>
   <!-- EN: to finish the ongoing bestowing ceremony quest -->
   <QuestCanNotStartUntilBestowingCeremonyFinished>完成进行中的授勋仪式</QuestCanNotStartUntilBestowingCeremonyFinished>
   <!-- EN: Reward preferences -->
@@ -331,7 +331,7 @@
   <!-- EN: Accept {FACTION_royalFavorLabel} -->
   <AcceptRoyalFavor>接受{FACTION_royalFavorLabel}</AcceptRoyalFavor>
   <!-- EN: Whether you wish to be rewarded with {FACTION_royalFavorLabel} from {FACTION_name}.\n\nIf this is disabled, {FACTION_name} will offer other types of rewards instead.\n\nThis setting only affects newly-arriving quests. -->
-  <AcceptRoyalFavorDesc>是否希望从{FACTION_name}那里接受{FACTION_royalFavorLabel}。\n\n如果禁用此选项，{FACTION_name}将提供其他类型的奖励。\n\n该选项只影响新接到的任务。</AcceptRoyalFavorDesc>
+  <AcceptRoyalFavorDesc>是否希望从{FACTION_name}那里接受{FACTION_royalFavorLabel}。\n\n如果禁用此选项，{FACTION_name}将提供其他类型的奖励。\n\n该选项只影响新收到的任务。</AcceptRoyalFavorDesc>
   <!-- EN: Accept goodwill -->
   <AcceptGoodwill>接受好感度</AcceptGoodwill>
   <!-- EN: Whether you wish to be rewarded via improved faction relations with {FACTION_name}.\n\nIf this is disabled, {FACTION_name} will offer other types of rewards instead.\n\nThis setting only affects newly-generated quests. -->
@@ -345,7 +345,7 @@
   <!-- EN: {0_labelShort} joins -->
   <PawnQuestReward>{0_labelShort}加入</PawnQuestReward>
   <!-- EN: Betrayal offer: {0} targets remain -->
-  <QuestBetrayalOffer>背叛：存在{0}个目标</QuestBetrayalOffer>
+  <QuestBetrayalOffer>背叛提议：还有{0}个目标</QuestBetrayalOffer>
   <!-- EN: {0} will grant you a reward for killing all members of the {1}. -->
   <QuestBetrayalOfferTip>{0}将因你杀死{1}的所有成员而奖励你。</QuestBetrayalOfferTip>
   <!-- EN: a colony wealth of at least {0} -->
