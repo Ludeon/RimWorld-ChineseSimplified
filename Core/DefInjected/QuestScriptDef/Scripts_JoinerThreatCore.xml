@@ -9,7 +9,7 @@
   <ThreatReward_Raid_Joiner.questDescriptionRules.rulesStrings>
     <li>questDescription->附近有一位名叫[joiner_nameDef]的[introduction]向我们发来了一条求救讯息。[joiner_pronoun]说，自己正被来自[enemyFaction_name]的[enemyFaction_pawnsPlural]追捕！\n\n[joiner_pronoun]祈求得到庇护，并希望加入我们位于[map_definite]的殖民地。[joiner_relationInfo]\n\n警告：如果我们接受[joiner_possessive]请求，则需要对抗追捕而来的[enemyFaction_pawnsPlural]。\n[enemyFaction_pawnsPlural]的队伍构成为：\n\n[raid/raidPawnKinds]\n\n由于过度惊慌，[joiner_nameDef]已经开始语无伦次，无法为我们提供更多信息了。</li>
     <li>introduction(childCount==1,priority=1)->[joiner_age]岁孩子</li>
-    <li>introduction->[joiner_age]岁d[joiner_title]</li>
+    <li>introduction->[joiner_age]岁的[joiner_title]</li>
   </ThreatReward_Raid_Joiner.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->Saving [runnerIndef]</li>
