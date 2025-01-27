@@ -9,7 +9,7 @@
     <li>threatsInfo-></li>
   -->
   <EndGame_RoyalAscent.questDescriptionRules.rulesStrings>
-    <li>questDescription->[intro] [asker_faction_name]的[asker_faction_leaderTitle]，将会应邀对一个伯爵领地进行常规访问。邀请其前来访问，并且在[shuttleDelayTicks_duration]内持续满足各种需求，之后所有人都可以乘坐穿梭机前往帝国舰队驻地。你可以选择加入帝国，或者逃离星球开始新生活。\n\n你可以通过完成任务来获取[asker_faction_name]的[asker_faction_royalFavorLabel]头衔。这也意味着你可能需要很多年才能完成这项事业。\n\n访问期间，你必须保证宾客们的心情高于[lodgersMoodThreshold_percent]。这也意味着你必须提供很多特权内容，例如准备一间豪华行宫等。[threatsInfo]\n\n[asker_faction_leaderTitle]带来的一些私人护卫将暂时听命于你。虽然[asker_faction_leaderTitle]不会在意这些人的生死哀乐，但你仍需要为这些护卫提供住处。\n\n你必须保证宾客们一直呆在[map_definite]，也不能把他们送离。如果你这次任务失败或者自行迁徙， 也不会影响你以后获取同样任务的机会。</li>
+    <li>questDescription->[intro] [asker_faction_name]的[asker_faction_leaderTitle]，将会应邀对一个总督辖区进行常规访问。邀请其前来访问，并且在[shuttleDelayTicks_duration]内持续满足各种需求，之后所有人都可以乘坐穿梭机前往帝国舰队驻地。你可以选择加入帝国，或者逃离星球开始新生活。\n\n你可以通过完成任务来获取[asker_faction_name]的[asker_faction_royalFavorLabel]头衔。这也意味着你可能需要很多年才能完成这项事业。\n\n访问期间，你必须保证宾客们的心情高于[lodgersMoodThreshold_percent]。这也意味着你必须提供很多特权内容，例如准备一间豪华行宫等。[threatsInfo]\n\n[asker_faction_leaderTitle]带来的一些私人护卫将暂时听命于你。虽然[asker_faction_leaderTitle]不会在意这些人的生死哀乐，但你仍需要为这些护卫提供住处。\n\n你必须保证宾客们一直呆在[map_definite]，也不能把他们送离。如果你这次任务失败或者自行迁徙， 也不会影响你以后获取同样任务的机会。</li>
     <li>intro(sameQuestsCount==0)->你现在知晓了一种逃离这个星球的方法！\n\n</li>
     <li>intro(sameQuestsCount>=1)->你又得到了一次荣誉晋升的机会。\n\n</li>
     <li>threatsInfo(allowViolentQuests==true,priority=1)->\n\n其他人终于有机会杀死[asker_faction_leaderTitle]，你马上会迎来巨量的饱和式攻击。赶快准备防御力量吧！</li>
