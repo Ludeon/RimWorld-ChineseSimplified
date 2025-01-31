@@ -349,8 +349,8 @@
     <li>story->小说</li>
     <li>story->观测报告</li>
     <li>story->颂歌</li>
-    <li>story->孤页Pages</li>
-    <li>story->试题Papers</li>
+    <li>story->孤页</li>
+    <li>story->论文</li>
     <li>story->格言</li>
     <li>story->散文集</li>
     <li>story->追忆</li>
@@ -518,7 +518,7 @@
     <li>title->[randAdjective]的[subject_primary]</li>
     <li>title->[randAdjective]的[subject_primary]：第[volNumeral]册</li>
     <li>title->[maybe_authored_title]</li>
-    <li>title(has_subject_secondary==true)->[studiesStart][subject_primary]在 [subject_secondary]领域中 sector</li>
+    <li>title(has_subject_secondary==true)->在[subject_secondary]领域中[studiesStart][subject_primary]</li>
     <li>title->[studiesStart][subject_primary]：在[lifeEvent]之后</li>
     <li>title->[studiesStart][subject_primary]: 趣闻</li>
     <li>title->[studiesStart][subject_primary]:一件[anomAdj][discussionNoun]</li>
@@ -568,7 +568,7 @@
     <li>lifeEvent->降落后</li>
     <li>lifeEvent->革命</li>
     <li>lifeEvent->被超凡科技调用</li>
-    <li>lifeEvent->Horax</li>
+    <li>lifeEvent->霍拉克斯</li>
     <li>lifeEvent->孩子出生</li>
     <li>lifeEvent->事故</li>
     <li>lifeEvent->肉体融合</li>
@@ -612,7 +612,7 @@
     <li>randAdjective->阴沉的</li>
     <li>randAdjective->神圣的</li>
     <li>randAdjective->极暗的</li>
-    <li>randAdjective->Subworld</li>
+    <li>randAdjective->地底世界的</li>
     <li>randAdjective->原始的</li>
     <li>randAdjective->生存指南</li>
     <li>randAdjective->阴暗的</li>
@@ -808,9 +808,9 @@
     <li>titleBasic->探索[subject_primary]</li>
     <li>titleBasic->专家建议：[subject_primary]</li>
     <li>titleBasic->理解[subject_primary]</li>
-    <li>titleBasic->Journey Through 与[subject_primary]的旅途</li>
+    <li>titleBasic->与[subject_primary]的旅途</li>
     <li>titleBasic->[subject_primary]之道</li>
-    <li>titleBasic->Insights into [subject_primary]</li>
+    <li>titleBasic->洞悉[subject_primary]</li>
     <li>titleBasic->解开[subject_primary]之秘</li>
     <li>titleBasic->[subject_primary]的秘密</li>
     <li>titleBasic->掌握[subject_primary]</li>
@@ -854,12 +854,12 @@
     <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef]对[subject_primary]的调查报告</li>
     <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef]对[subject_primary]的研究报告</li>
     <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]在[subjectsTuple]</li>
-    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]'s Guide to 对[subjectsTuple]的指南</li>
+    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]对[subjectsTuple]的指南</li>
     <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]对[subjectsTuple]的介绍</li>
     <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]和[subjectsTuple] </li>
     <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]对[subjectsTuple]的指南</li>
     <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]对[subjectsTuple]的领路</li>
-    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]探索[subjectsTuple] </li>
+    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]探索[subjectsTuple]</li>
     <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]对[subjectsTuple]的灵感</li>
     <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]对[subjectsTuple]的的手册</li>
     <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]对[subjectsTuple]的视角</li>
@@ -891,13 +891,13 @@
     <li>titleBasicTwoSubjects->在[subjectsTuple]中的进阶技巧</li>
     <li>titleBasicTwoSubjects->解开[subjectsTuple]之谜</li>
     <li>titleBasicTwoSubjects->[subjectsTuple]：实用指南</li>
-    <li>titleBasicTwoSubjects->Exploring 探寻[subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->探寻[subjectsTuple]</li>
     <li>titleBasicTwoSubjects->[subjectsTuple]：专家们这样说</li>
     <li>titleBasicTwoSubjects->理解[subjectsTuple]</li>
     <li>titleBasicTwoSubjects->[subjectsTuple]之旅</li>
     <li>titleBasicTwoSubjects->[subjectsTuple]之道</li>
     <li>titleBasicTwoSubjects->[subjectsTuple]之中的灵感</li>
-    <li>titleBasicTwoSubjects->Unraveling 阐明[subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->阐明[subjectsTuple]</li>
     <li>titleBasicTwoSubjects->[subjectsTuple]：不再神秘</li>
     <li>titleBasicTwoSubjects->精通[subjectsTuple]</li>
     <li>titleBasicTwoSubjects->深入学习[subjectsTuple]</li>
