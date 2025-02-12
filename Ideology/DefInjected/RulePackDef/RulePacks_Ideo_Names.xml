@@ -67,9 +67,9 @@
     <li>r_ideoName(p=6)->[packIdeoName]</li>
     <li>r_ideoName(p=2,forcePrefix==False)->[hyphenPrefix]-[packIdeoName]</li>
     <li>r_ideoName(p=2,forcePrefix==False)->[hyphenPrefix]-[packIdeoNameStructure]</li>
-    <li>r_ideoName(p=2)->[memeAdjective] [creed]</li>
+    <li>r_ideoName(p=2)->[memeAdjective][creed]</li>
     <li>r_ideoName(p=1)->[packTheme][creed]</li>
-    <li>r_ideoName(p=1)->[place_adjective] [creed]</li>
+    <li>r_ideoName(p=1)->[place_adjective][creed]</li>
     <li>r_ideoName(p=0.25)->[memeCreed]</li>
     <li>r_ideoAdjective(priority=1)->[packAdjective]</li>
     <li>r_memberName->[packMember]</li>
