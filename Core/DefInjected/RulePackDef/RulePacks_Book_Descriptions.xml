@@ -209,12 +209,12 @@
     <li>bookType->epic poem</li>
   -->
   <Description_Novel.rulePack.rulesStrings>
-    <li>desc->这本[writingQualityAdjective][bookType][follows]一个[protagHe]作为[PersonJob][storyStruggles]。[writingQualitySentence]。[maybe_date]</li>
-    <li>desc->在这本[writingQualityAdjective][bookType]中，[author][tellsAStoryOf][ANYPAWN_possessive][storySource]。[writingQualitySentence]。[maybe_date]</li>
+    <li>desc->这本[writingQualityAdjective]的[bookType][follows]一个[PersonJob][storyStruggles]的故事。[writingQualitySentence]。[maybe_date]</li>
+    <li>desc->在这本[writingQualityAdjective]的[bookType]中，[author][tellsAStoryOf][ANYPAWN_possessive][storySource]。[writingQualitySentence]。[maybe_date]</li>
     <li>follows->讲述了</li>
-    <li>follows->封面</li>
-    <li>follows->讲述了</li>
-    <li>follows->是从以下角度写的</li>
+    <li>follows->概括了</li>
+    <li>follows->写出了</li>
+    <li>follows->描写了</li>
     <li>protagHe->他</li>
     <li>protagHis->他的</li>
     <li>protagHim->他</li>
@@ -1122,21 +1122,21 @@
     <li>schematic_desc_second(quality[greater_than]4)->。尽管如此，无论学习者经验多么丰富都仍能从其中受益。</li>
     <li>schematic_desc_second(quality[greater_than]4)->，但与它所包含的丰富知识相比，这些问题都是次要的。</li>
     <li>schematic_desc_second(quality[greater_than]4)->。然而，它所传授的知识是能经得起时间考验的。</li>
-    <li>medium->有内置的感官系统来给听[tells_verb][schematic_origin]</li>
-    <li>medium->卷在里面的是一沓私人文件，[tells_verb][schematic_origin]</li>
-    <li>medium->一张小贴纸[tells_verb]少量有关于[schematic_origin]的信息</li>
-    <li>medium->附带的信息手册[tells_verb][schematic_origin]</li>
-    <li>medium->松散的羊皮纸[tells_verb][schematic_origin]</li>
+    <li>medium->一套内置的感官系统向听众[tells_verb]了[schematic_origin]</li>
+    <li>medium->卷在里面的是一沓私人文件，[tells_verb]了[schematic_origin]</li>
+    <li>medium->一张小贴纸[tells_verb]了少量有关于[schematic_origin]的信息</li>
+    <li>medium->附带的信息手册[tells_verb]了[schematic_origin]</li>
+    <li>medium->松散的羊皮纸[tells_verb]了[schematic_origin]</li>
     <li>medium->第二张纸[tells_verb][schematic_origin]</li>
     <li>medium->刻有文字的石碑[tells_verb][schematic_origin]</li>
     <li>medium->被刻有[schematic_origin]的玻璃钢[schematic_container]</li>
-    <li>medium->一张字迹潦草的纸条掉了出来,上面[tells_verb][schematic_origin]</li>
-    <li>medium->文件的后半部分[tells_verb]更多有关于[schematic_origin]</li>
-    <li>medium->一段录音[tells_verb][schematic_origin]</li>
+    <li>medium->一张字迹潦草的纸条掉了出来,上面[tells_verb]了[schematic_origin]</li>
+    <li>medium->文件的后半部分[tells_verb]了更多有关于[schematic_origin]</li>
+    <li>medium->一段录音[tells_verb]了[schematic_origin]</li>
     <li>medium->如果没有文件上的注释的话，[schematic_origin]将只是一个猜想</li>
     <li>medium(p=4)->[schematic_origin]是已知的，但其仍然包含在文件的注释当中</li>
     <li>medium->附带的日记讲述了[schematic_origin]</li>
-    <li>medium->古老的机械造物[tells_verb][schematic_origin]</li>
+    <li>medium->古老的机械造物[tells_verb]了[schematic_origin]</li>
     <li>medium->一个小型机械装置嗡嗡地启动了，讲述了[schematic_origin]</li>
     <li>tells_verb->告诫</li>
     <li>tells_verb->传达</li>
@@ -1153,7 +1153,7 @@
     <li>author_story->[author_storyname][learning_story]</li>
     <li>author_story->[author_storyname][calltoadventure]</li>
     <li>author_storyname(p=3)->[ANYPAWN_nameFull]</li>
-    <li>author_storyname->无题[authorTitle]</li>
+    <li>author_storyname->一名没留下姓名的[authorTitle]</li>
     <li>author_intent->自幼时起便不停地向[ANYPAWN_possessive]家乡的每个人打听有关[subject]的知识</li>
     <li>author_intent->梦想振兴[subject]并引领Kuhn[worldname]的科学革命</li>
     <li>author_intent->将[subject]奉为[ANYPAWN_possessive]终生事业</li>
@@ -1245,7 +1245,7 @@
     <li>aftermath->[ANYPAWN_pronoun]将[ANYPAWN_possessive]一整年的精力与时间都投入到了这份图纸当中</li>
     <li>aftermath->后来[ANYPAWN_pronoun]在这项工作中寻得了内心的安宁。[subject_chat]</li>
     <li>aftermath->[ANYPAWN_possessive]故事到对在[worldname]做的工作进行详细介绍之后结束。[subject_chat]</li>
-    <li>subject_chat->[author]的作品证明了[ANYPAWN_objective]在[subject]上具有一定权威</li>
+    <li>subject_chat->[author]的作品证明了[ANYPAWN_objective]在[subject]方面的权威</li>
     <li>subject_chat->很少有人对本[subject]文件的结论提出异议</li>
     <li>subject_chat->本文件将对任何对[subject]感兴趣的人有所启发</li>
     <li>subject_chat->虽然图表已经褪色，但[author]在[subject]方面的教益弥足珍贵</li>
@@ -2042,14 +2042,14 @@
   <Description_SkillBook.rulePack.rulesStrings>
     <li>subject->[subject_primary]</li>
     <li>desc->[discussion]。\n\n[anecdote]。[production]。\n\n[quality_statement]。</li>
-    <li>discussion->这本[textbook]提供了有关[subject][detail]的[useful_information]</li>
-    <li>discussion->这本[textbook]确立了作者在[subject][detail]方面的权威地位</li>
+    <li>discussion->这本[textbook]提供了有关[subject]的[useful_information][detail]</li>
+    <li>discussion->这本[textbook]确立了作者在[subject]方面的权威地位[detail]</li>
     <li>discussion->那些寻求[understanding_synonym][subject]的人最后都走向了[notable_adjective][textbook][detail]</li>
-    <li>discussion->一本标准的关于[subject][detail]的[textbook]</li>
-    <li>discussion->作者关于[subject][detail]的[textbook]的早期版本</li>
-    <li>detail->。The [precis_synonym]侧重于该主题中技术含量较高的方面</li>
+    <li>discussion->一本标准的关于[subject]的[textbook][detail]</li>
+    <li>discussion->作者关于[subject]的初级[textbook][detail]</li>
+    <li>detail->。[precis_synonym]侧重了该主题中技术含量较高的方面</li>
     <li>detail->。它是一个复杂学科简明扼要的[precis_synonym]</li>
-    <li>detail->。[precis_synonym]表明，当[ANYPAWN_label]完成这本书时，它是该领域的最前沿</li>
+    <li>detail->。[precis_synonym]表明，当[ANYPAWN_label]完成这本书时，它是该领域最前沿的学说</li>
     <li>detail->。一句[note_location]上的箴言说到，“[subject]真正的[students]不能忽视掉[ANYPAWN_label]的书籍”</li>
     <li>students->学生</li>
     <li>students->爱好者</li>
@@ -2073,7 +2073,7 @@
     <li>production->注释中说，[coreworld]的书商的书商征订了这本[textbook]的第一版</li>
     <li>production->在书的背面，出版商还宣传了一个更宏大的系列——涉及在边缘星球生存所需的所有技能</li>
     <li>production->鉴于用词上的不严谨，出版商在履行编辑职责时或许可以更坦率一些</li>
-    <li>quality_statement->[exterior_quality] [page_quality]</li>
+    <li>quality_statement->[exterior_quality][page_quality]</li>
     <li>anecdote->考虑到[ANYPAWN_nameFull]的出生年份和这本书的出版日期之间存在很大的差距，[ANYPAWN_pronoun]很可能没有活到看到这本书出版</li>
     <li>anecdote->在[note_location]，有人贴上了一篇对这本书进行严厉批评的评论</li>
     <li>anecdote->[precis_synonym]表明这本书通过了[urbworld]的公共图书馆系统</li>
