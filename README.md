@@ -77,7 +77,7 @@ http://ludeon.com/forums/index.php?topic=2933.0
 * MZM_GOW
 * 教科书的风格（God丶天才）
 * 飞行棺材
-* 以及其他成员：cainiaowu， Kenneth Li（魔都KK）， gretino， RSP， Sefank （一个小白）， Aephiex， SerGawen（加文）， weehowe-z（问号）， WNJStudio（承诺丶六年）， wubochang（三桂）， Ydada（于大大）， zhaohu002（嗷嗷虎）， BiscuitMiner（脆餅）， user19990313， VoidVoice， SiQuery， ， Indeed， Zephyr， Shavius（茶壶教皇），RED 釉里红，samhai_nidelungen ， 那啥可以不笑吗， 黑白灰， Lappland（拉普兰德）
+* 以及其他成员：cainiaowu， Kenneth Li（魔都KK）， gretino， RSP， Sefank （一个小白）， Aephiex， SerGawen（加文）， weehowe-z（问号）， WNJStudio（承诺丶六年）， wubochang（三桂）， Ydada（于大大）， zhaohu002（嗷嗷虎）， BiscuitMiner（脆餅）， user19990313， VoidVoice， SiQuery， ， Indeed， Zephyr， Shavius（茶壶教皇），RED 釉里红，samhai_nidelungen ， 那啥可以不笑吗， 黑白灰， Lappland（拉普兰德）， Akiu
 
 > 当前的Github项目主维护人员为MADxingjin。
 
