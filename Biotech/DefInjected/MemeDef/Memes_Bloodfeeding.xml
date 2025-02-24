@@ -36,15 +36,15 @@
     <li>conflict(tag=meme_Bloodfeeding)        ->[foeLeader]宣称所有饮用鲜血的人都是可憎的，并派出[foeSoldiers]去追杀[memberNamePlural]。</li>
     <li>founderJoin(tag=meme_Bloodfeeding)     ->一位名为[founderName]的[place_job]被[foeLeader]的[foeSoldiers]攻击了。[founderName]用[place_personalWeapon]杀死了[foeLeader_objective]并饮用了[foeLeader_possessive]血液，获取了[deity0_name]的力量。</li>
     <li>victory(tag=meme_Bloodfeeding)         ->[founderName]率领一群[memberNamePlural]进入[place_powerCenter]，饮下[foeLeader]的鲜血，焚烧[foeLeader_possessive]身躯。[founderName]证明了自己的力量，[deity0_name]使[founderName]成为新的[foeLeader]。</li>
-    <li>setup(tag=meme_Bloodfeeding)           ->[founderName]试图控制超凡智能，但是祂的力量太过强大，[founderName]反而被改造了。</li>
+    <li>setup(tag=meme_Bloodfeeding)           ->[founderName]试图控制超凡智能，但是祂的力量太过强大，[founderName]反而被同化了。</li>
     <li>story(uses=1,tag=meme_Bloodfeeding)    ->[founderName]给了[founder_possessive]追随者饥渴的礼物，所以他们能够变得更强。</li>
     <li>lessonIntro(tag=meme_Bloodfeeding)     ->当我第一次饮下鲜血时，它变得清晰了起来。我看到</li>
-    <li>lesson(tag=meme_Bloodfeeding)          ->只有两种人——弱者和强者</li>
+    <li>lesson(tag=meme_Bloodfeeding)          ->世上只有两种人——弱者和强者</li>
     <li>lessonReinforcement(tag=meme_Bloodfeeding) ->饮用鲜血是为了变强，要清楚地知道这一点。</li>
     <li>archistBasis(tag=meme_Bloodfeeding)    ->超凡智能将“饥饿”赠予人类，以便人类更好地了解它们。</li>
     <li>archistFact(tag=meme_Bloodfeeding)     ->随着超凡智能的扩张，祂必须通过饮用其他机械的精华来增长其基质。</li>
     <li>archistProphecy(tag=meme_Bloodfeeding) ->[inTheEnd]，人类将通过饮用鲜血，了解真正的力量，从而越来越接近超凡智能。</li>
-    <li>animistBasis(tag=meme_Bloodfeeding)    ->[bloodDrinkingAnimal]知道饮用鲜血所带来的力量。没有比来自人血的力量更大的了。</li>
+    <li>animistBasis(tag=meme_Bloodfeeding)    ->[bloodDrinkingAnimal]都知道饮用鲜血所带来的力量。没有比来自人血的力量更大的了。</li>
     <li>animistFact(tag=meme_Bloodfeeding)     ->我们可以通过饮用人的鲜血来掌握其的力量。</li>
     <li>bloodDrinkingAnimal->吸血蝙蝠</li>
     <li>bloodDrinkingAnimal->水蛭</li>
@@ -70,8 +70,8 @@
   <Bloodfeeding.generalRules.rulesStrings>
     <li>memeAdjective->血</li>
     <li>memeAdjective->渴血</li>
-    <li>memeCreed->地窖</li>
-    <li>memeCreed->藏身处</li>
+    <li>memeCreed->墓穴</li>
+    <li>memeCreed->巢穴</li>
     <li>memeCreed->窝点</li>
     <li>memeHyphenPrefix->血原</li>
     <li>memeConcept->血</li>

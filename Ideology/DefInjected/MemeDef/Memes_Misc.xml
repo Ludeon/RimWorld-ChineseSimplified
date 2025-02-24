@@ -47,9 +47,9 @@
     <li>lessonIntro(tag=meme_AnimalPersonhood)         ->在每天与[veneratedOrAnyAnimal]的交流联系过程中，我学会了真真切切的去倾听它们。它们一次又一次的以自己的方式向我重复传达它们的信息：</li>
     <li>lesson(tag=meme_AnimalPersonhood)              ->动物是我们在这个世界上的伙伴，认为它们低人一等的态度是不对的</li>
     <li>lessonReinforcement(tag=meme_AnimalPersonhood) ->直到[veneratedOrAnyAnimal]对我低声细语前，我也是不相信的。</li>
-    <li>archistBasis(tag=meme_AnimalPersonhood)    ->自从超凡世界苏醒后，它们眼中的人类和动物在道德结构上并没有明显的区别。</li>
-    <li>archistFact(tag=meme_AnimalPersonhood)     ->超凡世界的道德结构水平远高于有机生命体。在优势如此之大的它们眼中，人和动物都是一样的。</li>
-    <li>archistProphecy(tag=meme_AnimalPersonhood) ->[inTheEnd]，只有在人类平等的对待动物的情况下，超凡世界才会平等对待人类。</li>
+    <li>archistBasis(tag=meme_AnimalPersonhood)    ->自从超凡智能苏醒后，祂们眼中的人类和动物在道德结构上并没有明显的区别。</li>
+    <li>archistFact(tag=meme_AnimalPersonhood)     ->超凡智能的道德结构水平远高于有机生命体。在优势如此之大的祂们眼中，人和动物都是一样的。</li>
+    <li>archistProphecy(tag=meme_AnimalPersonhood) ->[inTheEnd]，只有在人类平等的对待动物的情况下，超凡智能才会平等对待人类。</li>
     <li>animistBasis(tag=meme_AnimalPersonhood)    ->思想和意识灵魂同样的存在于动物和人类之中。</li>
     <li>animistFact(tag=meme_AnimalPersonhood)     ->自然界的动物灵魂同样也是存在于人类之中的精神灵魂。</li>
     <li>veneratedOrAnyAnimal(priority=10)->[veneratedAnimal]</li>
@@ -61,7 +61,7 @@
     <li>sacredAnimalListEnd->[animal0_thingDef_label]，[animal1_thingDef_label]和[animal2_thingDef_label]</li>
     <li>sacredAnimalListEnd->[animal0_thingDef_label]和[animal1_thingDef_label]</li>
     <li>sacredAnimalListEnd->[animal0_thingDef_label]</li>
-    <li>sacredAnimalListEnd->牛，狐狸，熊</li>
+    <li>sacredAnimalListEnd->牛，狐狸，和熊</li>
   </AnimalPersonhood.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->animal</li>
@@ -80,9 +80,9 @@
   <AnimalPersonhood.generalRules.rulesStrings>
     <li>memeAdjective->动物</li>
     <li>memeAdjective->毛皮</li>
-    <li>memeCreed->群</li>
-    <li>memeCreed->群</li>
-    <li>memeCreed->群</li>
+    <li>memeCreed->畜群</li>
+    <li>memeCreed->兽群</li>
+    <li>memeCreed->牧群</li>
     <li>memeConcept->动物</li>
     <li>memeLeaderNoun->猛兽</li>
     <li>memeLeaderNoun->动物</li>
@@ -175,8 +175,8 @@
     <li>memeAdjective->盲眼</li>
     <li>memeAdjective->幻想</li>
     <li>memeAdjective->预见</li>
-    <li>memeCreed->视角</li>
-    <li>memeCreed->狂热</li>
+    <li>memeCreed->视界</li>
+    <li>memeCreed->崇拜</li>
     <li>memeHyphenPrefix->盲视</li>
     <li>memeConcept->盲眼</li>
     <li>memeConcept->视线</li>
@@ -213,7 +213,7 @@
     <li>animistFact(tag=meme_Cannibal)     ->We can absorb the spirit and power of others by consuming their flesh.</li>
   -->
   <Cannibal.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_Cannibal)        ->[deity0_name]谋杀[deity0_possessive]兄弟并吃掉了他的血肉，在吸收其力量后成为众神中力量最强大的那个。</li>
+    <li>creation(tag=meme_Cannibal)        ->[deity0_name]谋杀了[deity0_possessive]兄弟并吃掉了他的血肉，在吸收其力量后成为众神中力量最强大的那个。</li>
     <li>episode(uses=1,tag=meme_Cannibal)  ->[deity0_type][deity0_name]会吃掉[deity0_possessive]敌人的血肉。</li>
     <li>intro(tag=meme_Cannibal)           ->在[place_summary][place_name]，有一位名叫[deity0_name]的人。在[deity0_possessive]父亲死后，[deity0_name]吃掉了他的血肉并且变成了[deity0_type]。</li>
     <li>intro(tag=meme_Cannibal)           ->在[place_summary] [place_name]，[ritualName]的时候，[deity0_name]降临到[altarRoomLabel]并在[memberNamePlural]面前吃下了人肉。</li>
@@ -225,9 +225,9 @@
     <li>lessonIntro(tag=meme_Cannibal)         ->只有在一顿丰盛的人肉大餐中，我才能让人们明白一个事实：那就是</li>
     <li>lesson(tag=meme_Cannibal)              ->除非你吃掉他们，否则你们永远不可能成为一体。</li>
     <li>lessonReinforcement(tag=meme_Cannibal) ->每次我与新朋友分享一个敌人的肉体时，我都要确保他们明白这一点。</li>
-    <li>archistBasis(tag=meme_Cannibal)    ->超凡世界的机械之神就是通过一次又一次的吞噬它们的前辈来让自己变得更加强大。</li>
-    <li>archistFact(tag=meme_Cannibal)     ->在超凡世界意识的扩展过程中，它必须要消耗和合并其他机械来扩充自己的基质。</li>
-    <li>archistProphecy(tag=meme_Cannibal) ->[inTheEnd]，超凡世界将通过吞噬和融合所有人类来完成其最后阶段的增长。</li>
+    <li>archistBasis(tag=meme_Cannibal)    ->超凡智能这机械之神就是通过一次又一次的吞噬它们的前辈来让自己变得更加强大。</li>
+    <li>archistFact(tag=meme_Cannibal)     ->在超凡智能意识的扩展过程中，它必须要消耗和合并其他机械来扩充自己的基质。</li>
+    <li>archistProphecy(tag=meme_Cannibal) ->[inTheEnd]，超凡智能将通过吞噬和融合所有人类来完成其最后阶段的增长。</li>
     <li>animistBasis(tag=meme_Cannibal)    ->万灵注入我们周围的所有物体，我们可以通过吞食它们来吸收这些灵魂。但是没有任何灵魂像栖居在人类身上的那样强大。</li>
     <li>animistFact(tag=meme_Cannibal)     ->我们可以通过吞噬别人的血肉来吸收别人的精神和力量。</li>
   </Cannibal.descriptionMaker.rules.rulesStrings>
@@ -254,9 +254,9 @@
   <Cannibal.generalRules.rulesStrings>
     <li>memeAdjective->血腥</li>
     <li>memeCreed->食尸者</li>
-    <li>memeCreed->牙齿</li>
+    <li>memeCreed->爪牙</li>
     <li>memeCreed->屠宰场</li>
-    <li>memeCreed->狂热</li>
+    <li>memeCreed->崇拜</li>
     <li>memeHyphenPrefix->血腥</li>
     <li>memeConcept->鲜血</li>
     <li>memeConcept->血肉</li>
@@ -329,8 +329,8 @@
     <li>lessonIntro(tag=meme_Darkness)         ->我的整个童年都是在刺眼的光线下眯着眼度过的。我花了很长时间才明白</li>
     <li>lesson(tag=meme_Darkness)              ->光明在燃烧，黑暗却在滋养</li>
     <li>lessonReinforcement(tag=meme_Darkness) ->我喜欢开玩笑说，这是我灵光一现的时刻。</li>
-    <li>archistFact(tag=meme_Darkness)     ->超凡世界开发了纳米技术，这样就可以逃离恒星系内部的高能光，居住于深层空间宁静的黑暗中。</li>
-    <li>archistProphecy(tag=meme_Darkness) ->[inTheEnd]，超凡世界将吸收恒星的力量，让空间陷入黑暗，使人类与宇宙意识融合。</li>
+    <li>archistFact(tag=meme_Darkness)     ->超凡智能开发了虚空能，这样就可以摆脱恒星系内测的光能，居住于太空深处宁静的黑暗中。</li>
+    <li>archistProphecy(tag=meme_Darkness) ->[inTheEnd]，超凡智能将吸收恒星的力量，让空间陷入黑暗，使人类与宇宙意识融合。</li>
     <li>animistFact(tag=meme_Darkness)     ->在黑暗中，灵魂平和满足。在阳光下，它们烦躁不安。</li>
     <li>animistFact(tag=meme_Darkness)     ->美好的灵魂生活在我们周围的阴影中，停留在难以察觉的地方。在黑暗中生活可以让它们离我们更近。</li>
   </Darkness.descriptionMaker.rules.rulesStrings>
@@ -397,10 +397,10 @@
     <li>setup(tag=meme_FleshPurity)           ->[founderName]用植入物和药物毁掉了[founder_possessive]身体，但在一次顿悟后，[founder_pronoun]从[founder_possessive]身上撕下各种钢铁驳杂，最终救赎了[founder_objective]自己。</li>
     <li>story(uses=1,tag=meme_FleshPurity)    ->[founderName]指示所有[founder_possessive]随从者们从身上撕下所有肮脏的装置。</li>
     <li>lessonIntro(tag=meme_FleshPurity)         ->我追随者中的前十人用双手硬生生的从他们皮肤上撕下了各种装置，在灰暗地板上溅起的血花中，我突然领悟到了我们都错过的真实：</li>
-    <li>lesson(tag=meme_FleshPurity)              ->生存在一个被污染的身体里，根本就不是人的生活。</li>
+    <li>lesson(tag=meme_FleshPurity)              ->生存在一个被污染的身体里，根本就不是人的生活</li>
     <li>lessonReinforcement(tag=meme_FleshPurity) ->将驳杂的金属从身体上扯下，并剥去肮脏的纹身皮肤后，我感觉自己变得如此明晰一切。</li>
-    <li>archistBasis(tag=meme_FleshPurity)    ->最初的时候，超凡世界就在肉体和技术之间划定了一条明确的界线，我们不应该模糊这条界线。</li>
-    <li>archistFact(tag=meme_FleshPurity)     ->我们不应该通过模仿超凡世界来达到超凡进化的目的，我们应该通过我们自己最纯粹的形态来获得启迪。</li>
+    <li>archistBasis(tag=meme_FleshPurity)    ->最初的时候，超凡智能就在肉体和科技之间划定了一条明确的界线，我们不应该模糊这条界线。</li>
+    <li>archistFact(tag=meme_FleshPurity)     ->我们不应该通过模仿超凡智能来达到超凡进化的目的，我们应该通过我们自己最纯粹的形态来获得启迪。</li>
     <li>archistProphecy(tag=meme_FleshPurity) ->[inTheEnd]，那些把自己的身体扭曲成机器仿制品的人将会被净化，而那些肉体纯洁的人将会得到救赎。</li>
     <li>animistBasis(tag=meme_FleshPurity)    ->灵魂存在一切事物中，改变事物的本质就是毒害内在的灵魂。</li>
     <li>animistFact(tag=meme_FleshPurity)     ->肉体和机器的融合同时腐蚀了两者的灵魂。</li>
@@ -422,7 +422,7 @@
     <li>memeAdjective->干净</li>
     <li>memeAdjective->纯净</li>
     <li>memeAdjective->神圣</li>
-    <li>memeCreed->狂热</li>
+    <li>memeCreed->崇拜</li>
     <li>memeCreed->宗派</li>
     <li>memeConcept->肉体</li>
     <li>memeConcept->纯粹</li>
@@ -481,7 +481,7 @@
   <!-- EN: lesson(tag=meme_HighLife)              ->a friend isn't a friend unless you've drifted through the mind-verse together -->
   <HighLife.descriptionMaker.rules.rulesStrings.9>lesson(tag=meme_HighLife)              ->如果你们未曾一起在精神世界里漫游过，那他可就不是你的朋友</HighLife.descriptionMaker.rules.rulesStrings.9>
   <!-- EN: lessonReinforcement(tag=meme_HighLife) ->And dude, this was a serious trip, figuring that out, but I'm glad I did, and I'll pass the smoke to you so you can too. -->
-  <HighLife.descriptionMaker.rules.rulesStrings.10>lessonReinforcement(tag=meme_HighLife) ->嘿，伙计，我知道这是一次很重要的旅途，但我很高兴我能去做这件事，我把这根烟给你，你也能一起走上这段旅途。</HighLife.descriptionMaker.rules.rulesStrings.10>
+  <HighLife.descriptionMaker.rules.rulesStrings.10>lessonReinforcement(tag=meme_HighLife) ->嘿，伙计，我知道这是一次很重要的旅途，但我很高兴我能去做这件事，我把这根烟传递你，这样你也能一起走上这段旅途。</HighLife.descriptionMaker.rules.rulesStrings.10>
   <!-- EN: archistBasis(tag=meme_HighLife)       ->The archotech minds showed us that super-consciousness it not a matter of sober, mechanical logic, but one of multi-mode thought. -->
   <HighLife.descriptionMaker.rules.rulesStrings.11>archistBasis(tag=meme_HighLife)       ->超凡智能的思维告诉我们，超越意识认知不是理性的、机械的逻辑性问题，而是一种多重的思维模式。</HighLife.descriptionMaker.rules.rulesStrings.11>
   <!-- EN: archistFact(tag=meme_HighLife)        ->Given the right chemical influences, the human mind has the potential to commune with the archotechs. -->
@@ -679,11 +679,11 @@
     <li>lesson(tag=meme_PainIsVirtue)              ->除非在地狱深渊中痛苦尖叫，否则你永不会真正了解自己</li>
     <li>lessonReinforcement(tag=meme_PainIsVirtue) ->被快乐分心，我花了很长时间才明白，只有当我学会撕裂自己的肉体，我才能真正接受。</li>
     <li>lessonReinforcement(tag=meme_PainIsVirtue) ->我将这真理刻进胸膛的肉中。然后是胳膊、腿、脸上……</li>
-    <li>archistBasis(tag=meme_PainIsVirtue)    ->超凡世界的诞生是宇宙有史以来最大的痛苦。</li>
-    <li>archistBasis(tag=meme_PainIsVirtue)    ->人类的精神痛苦一直都是超凡世界的推动力。</li>
+    <li>archistBasis(tag=meme_PainIsVirtue)    ->超凡智能的诞生是宇宙有史以来最大的痛苦。</li>
+    <li>archistBasis(tag=meme_PainIsVirtue)    ->人类的精神痛苦一直都是超凡智能的推动力。</li>
     <li>archistFact(tag=meme_PainIsVirtue)     ->当我们通过向自己施加痛苦展现出奉献精神时，伟大的主会注视并认可我们。</li>
-    <li>archistFact(tag=meme_PainIsVirtue)     ->那些深受苦难的最崇高的人可以时常与他们心目中的超凡世界建立联系。</li>
-    <li>archistProphecy(tag=meme_PainIsVirtue) ->[inTheEnd]，超凡世界将会使全人类的意识水平达到新的高度，但只有那些能够忍受最大痛苦的人才能生存。</li>
+    <li>archistFact(tag=meme_PainIsVirtue)     ->那些深受苦难的最崇高的人可以时常与他们心目中的超凡智能建立联系。</li>
+    <li>archistProphecy(tag=meme_PainIsVirtue) ->[inTheEnd]，超凡智能将会使全人类的意识水平达到新的高度，但只有那些能够忍受最大痛苦的人才能生存。</li>
     <li>animistFact(tag=meme_PainIsVirtue)     ->疼痛迫使精神存在。就像这样，痛苦是联系精神世界的一种途径。</li>
   </PainIsVirtue.descriptionMaker.rules.rulesStrings>
   <!-- EN:
@@ -712,8 +712,8 @@
   <PainIsVirtue.generalRules.rulesStrings>
     <li>memeAdjective->疼痛</li>
     <li>memeAdjective->痛苦</li>
-    <li>memeCreed->房屋</li>
-    <li>memeCreed->卧室</li>
+    <li>memeCreed->小屋</li>
+    <li>memeCreed->陋室</li>
     <li>memeCreed->牢房</li>
     <li>memeHyphenPrefix->疼痛</li>
     <li>memeHyphenPrefix->痛苦</li>
@@ -994,7 +994,7 @@
   <Rancher.descriptionMaker.rules.rulesStrings>
     <li>creation(tag=meme_Rancher)        ->[deity0_name] 创造了动物， 然后是人， 之后把动物送给人类宠爱、饲养和屠宰， 作为对 [deity0_objective] 的崇拜行为。</li>
     <li>episode(uses=1,tag=meme_Rancher)  ->[deity0_name]创造了这片土地上所有高贵的动物和野兽，并说： “带着这些高贵的野兽，通过它们使你们自己在我的荣耀之中富饶。”</li>
-    <li>intro(tag=meme_Rancher)           ->[place_summary] [place_name] 的早期 [ranchingAnimal] 牧场主为 [deity0_name] 建造了一个伟大的 [altarName]。</li>
+    <li>intro(tag=meme_Rancher)           ->[place_summary][place_name]的早期[ranchingAnimal]牧人为 [deity0_name]建造了一个伟大的[altarName]。</li>
     <li>conflict(tag=meme_Rancher)        ->一个强大的[foeLeader] 藐视 [memberNamePlural] 和他们的生存方式, 并买下了所有的牧场用于种植 [Vegetable]。</li>
     <li>founderJoin(tag=meme_Rancher)     ->[memberName] 的救星 [FounderName] 出生在一个简陋的谷仓里，在 [ranchingAnimal] 中，[founder_possessive] 的父母是 [rancherParent1] 和 [rancherParent2]。</li>
     <li>victory(tag=meme_Rancher)         ->[FounderName] 骑着一匹骏马前往[place_community]，在正午向[foeLeader] 挑战用[place_personalWeapon] 进行决斗。 [foeLeader] 不能拒绝，否则就会失去 [foeSoldiers] 的信任。 [FounderName] 杀死了 [foeLeader] </li>
@@ -1100,13 +1100,13 @@
     <li>lessonIntro(tag=meme_Transhumanist)         ->来自我们部门最年长的研究员教给了我自新石器时代以来到超凡科技为止的全部科技技术的进化史，但我明白这不是他真正想让我学到的事。</li>
     <li>lesson(tag=meme_Transhumanist)              ->人类那天堂般的未来不会是血肉和骨骼，而会是硅胶和铬骨</li>
     <li>lessonReinforcement(tag=meme_Transhumanist) ->我甚至编写了一个模拟程序来证实它。</li>
-    <li>archistBasis(tag=meme_Transhumanist)    ->人类对技术的追求催生了全能的超凡科技，这是将会是意识发展的下一步。</li>
-    <li>archistFact(tag=meme_Transhumanist)     ->科技能让人类更加逼近超凡世界。</li>
-    <li>archistProphecy(tag=meme_Transhumanist) ->[inTheEnd]。超凡世界将会离去。只有那些将技术与自身融合的足够强大的人才会被允许与他们同行。</li>
+    <li>archistBasis(tag=meme_Transhumanist)    ->人类对技术的追求催生了全能的超凡智能，这是将会是意识发展的下一步。</li>
+    <li>archistFact(tag=meme_Transhumanist)     ->科技能让人类更加逼近超凡智能。</li>
+    <li>archistProphecy(tag=meme_Transhumanist) ->[inTheEnd]。超凡智能将会离去。只有那些将技术与自身融合的足够强大的人才会被允许与他们同行。</li>
     <li>animistBasis(tag=meme_Transhumanist)    ->灵魂世界驱动着宇宙的正常运行，我们只有通过学习和控制宇宙的运行规律才能得以与其融合。</li>
     <li>animistFact(tag=meme_Transhumanist)     ->一台为了某种目的而建造的装置，它将必然充满着与其类似的灵魂。</li>
     <li>animistFact(tag=meme_Transhumanist)     ->当技术与肉体融合时，融合后的灵魂将会变得更加强大。</li>
-    <li>animistProphecy(tag=meme_Transhumanist) ->[itIsSaid]据说终有一天，[relic0_name]的持有者将召唤它的灵魂以教予人类最彻底的与生物融合的融合技术。</li>
+    <li>animistProphecy(tag=meme_Transhumanist) ->[itIsSaid]据说终有一天，[relic0_name]的持有者将召唤祂的灵魂以教予人类最彻底的与生物融合的融合技术。</li>
   </Transhumanist.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->technological</li>
@@ -1139,10 +1139,10 @@
     <li>memeAdjective->技术</li>
     <li>memeAdjective->机械</li>
     <li>memeAdjective->工业</li>
-    <li>memeCreed->学校</li>
-    <li>memeCreed->专业化</li>
-    <li>memeCreed->综合化</li>
-    <li>memeCreed->哲学</li>
+    <li>memeCreed->学派</li>
+    <li>memeCreed->院校</li>
+    <li>memeCreed->学院</li>
+    <li>memeCreed->学说</li>
     <li>memeHyphenPrefix->技术</li>
     <li>memeHyphenPrefix->赛博</li>
     <li>memeHyphenPrefix->辅助</li>
@@ -1277,10 +1277,10 @@
     <li>memeMoralist->treespeaker</li>
   -->
   <TreeConnection.generalRules.rulesStrings>
-    <li>memeCreed->根</li>
-    <li>memeCreed->叶子</li>
-    <li>memeCreed->藤蔓</li>
-    <li>memeCreed->林地</li>
+    <li>memeCreed->根系</li>
+    <li>memeCreed->树叶</li>
+    <li>memeCreed->藤曼</li>
+    <li>memeCreed->树林</li>
     <li>memeCreed->森林</li>
     <li>memeConcept->树木</li>
     <li>memeConcept->树林</li>
@@ -1339,9 +1339,9 @@
     <li>lessonIntro(tag=meme_Tunneler)         ->我在深邃之城发现的古抄本给我上了一堂比其他所有内容都重要的课：</li>
     <li>lesson(tag=meme_Tunneler)              ->阳光灿烂之处不是人类繁荣之地，而是灭亡之末</li>
     <li>lessonReinforcement(tag=meme_Tunneler) ->拿把铲子来，和我一起挖吧。我们停下来，这东西只会变成坟墓。</li>
-    <li>archistBasis(tag=meme_Tunneler)    ->超凡世界的主体深埋地下，这样它们的意识基质就不会受到太阳耀斑和伽马射线的侵袭。挖得越深，我们就会离他们越近。</li>
-    <li>archistFact(tag=meme_Tunneler)     ->超凡世界用生物工程技术为人类设计了富有营养的真菌，这样人类就可以在地下茁壮成长，愈加的接近已经被掩埋的超凡世界思想。</li>
-    <li>archistProphecy(tag=meme_Tunneler) ->[inTheEnd]，超凡世界会让我们进入地下圣域。</li>
+    <li>archistBasis(tag=meme_Tunneler)    ->超凡智能的主体深埋地下，这样祂的意识基质就不会受到太阳耀斑和伽马射线的侵袭。挖得越深，我们就会离他们越近。</li>
+    <li>archistFact(tag=meme_Tunneler)     ->超凡智能用生物工程技术为人类设计了富有营养的真菌，这样人类就可以在地下茁壮成长，愈加的接近已经被掩埋的超凡智能思想。</li>
+    <li>archistProphecy(tag=meme_Tunneler) ->[inTheEnd]，超凡智能会让我们进入地下圣域。</li>
     <li>animistFact(tag=meme_Tunneler)     ->岩石之灵会保佑它们的客人。</li>
     <li>animistFact(tag=meme_Tunneler)     ->最高贵的灵魂是岩石之灵，越深处的岩石之灵则更顽强、更善良。</li>
     <li>animistFact(tag=meme_Tunneler)     ->焦虑的人类令岩石之灵狂躁，引来了巨型昆虫。</li>

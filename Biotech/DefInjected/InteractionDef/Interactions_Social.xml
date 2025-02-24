@@ -710,19 +710,20 @@
   <SanguophageChat.logRulesInitiator.rulesStrings>
     <li>r_logentry->[INITIATOR_nameDef]和[RECIPIENT_nameDef][talkedabout][subject]。</li>
     <li>r_logentry->[INITIATOR_nameDef]和一起[RECIPIENT_nameDef][talkedabout][subject]。</li>
-    <li>talkedabout->讨论关于</li>
-    <li>talkedabout->谈及关于</li>
-    <li>talkedabout->窃窃私语关于</li>
-    <li>talkedabout(p=0.5)->[adverb]讨论关于</li>
-    <li>talkedabout(p=0.5)->[adverb]谈及关于</li>
-    <li>talkedabout(p=0.5)->[adverb]窃窃私语关于</li>
-    <li>talkedabout->分享了一个关于</li>
-    <li>talkedabout->交流了关于</li>
-    <li>talkedabout->交流了关于</li>
-    <li>talkedabout->表达了共同的兴趣于</li>
-    <li>talkedabout->争论关于</li>
-    <li>talkedabout->争吵关于</li>
-    <li>talkedabout->分享故事于</li>
+    <li>r_logentry->[INITIATOR_nameDef]就[subject]的话题与[RECIPIENT_nameDef][commentedabout]。</li>
+    <li>talkedabout->讨论</li>
+    <li>talkedabout->谈到</li>
+    <li>talkedabout->小声提及</li>
+    <li>talkedabout(p=0.5)->[adverb]讨论</li>
+    <li>talkedabout(p=0.5)->[adverb]谈及</li>
+    <li>talkedabout(p=0.5)->[adverb]小声提及</li>
+    <li>talkedabout->提起</li>
+    <li>commentedabout->交换意见</li>
+    <li>commentedabout->交流观点</li>
+    <li>commentedabout->表达了共同的兴趣</li>
+    <li>commentedabout->争论</li>
+    <li>commentedabout->争吵</li>
+    <li>commentedabout->分享了一个故事</li>
     <li>adverb->友好地</li>
     <li>adverb->悄悄地</li>
     <li>adverb->轻柔地</li>
