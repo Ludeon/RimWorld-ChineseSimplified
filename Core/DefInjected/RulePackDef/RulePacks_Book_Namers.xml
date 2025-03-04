@@ -195,8 +195,8 @@
     <li>title->[Character]的[story]</li>
     <li>title->[Character]的[objectAny]</li>
     <li>title->[place][linkagePlace][Character]</li>
-    <li>title->[adjective][Character]</li>
-    <li>title->[adjective][objectAny]</li>
+    <li>title->[adjective]的[Character]</li>
+    <li>title->[adjective]的[objectAny]</li>
     <li>titleNaked->[ConceptAny]</li>
     <li>titleNaked->[adjective][ConceptAny]</li>
     <li>titleNaked->[ConceptAny][linkage][ConceptAny]</li>
@@ -204,15 +204,15 @@
     <li>titleNaked->[objectAny][linkage][ConceptAny]</li>
     <li>objectAny->[Game]</li>
     <li>objectAny->[Weapon]</li>
-    <li>linkage->关于</li>
-    <li>linkage->由</li>
-    <li>linkage->为</li>
-    <li>linkage->无关于</li>
-    <li>linkage->关于</li>
-    <li>linkagePlace->之内的</li>
-    <li>linkagePlace->相关的</li>
-    <li>linkagePlace->上面的</li>
-    <li>linkagePlace->附近的</li>
+    <li>linkage->的</li>
+    <li>linkage->之</li>
+    <li>linkage->与</li>
+    <li>linkage->非</li>
+    <li>linkage->是</li>
+    <li>linkagePlace->里的</li>
+    <li>linkagePlace->中的</li>
+    <li>linkagePlace->上的</li>
+    <li>linkagePlace->旁的</li>
     <li>adjective->[AdjectiveAny]</li>
     <li>place(p=25)->[TerrainFeature]</li>
     <li>place->深渊</li>
