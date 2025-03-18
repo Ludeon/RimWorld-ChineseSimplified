@@ -4,21 +4,21 @@
   <!-- EN: Monument completed -->
   <BuildMonumentWorker.LetterLabelMonumentConstructed.slateRef>纪念碑完工</BuildMonumentWorker.LetterLabelMonumentConstructed.slateRef>
   <!-- EN: You completed construction of the monument.\n\nYou must not destroy it for at least [keepMonumentTicks_duration], otherwise you will anger [asker_factionName] ([goodwillChangeIfMonumentDestroyed] goodwill). -->
-  <BuildMonumentWorker.LetterTextMonumentConstructed.slateRef>你完成了纪念碑结构的建造。\n\n你在之后的[keepMonumentTicks_duration]内不能将它摧毁，否则会激怒[asker_factionName]（[goodwillChangeIfMonumentDestroyed] 好感度）。</BuildMonumentWorker.LetterTextMonumentConstructed.slateRef>
+  <BuildMonumentWorker.LetterTextMonumentConstructed.slateRef>你完成了纪念碑结构的建造。\n\n你在之后的[keepMonumentTicks_duration]内不能将它摧毁，否则会激怒[asker_factionName]（[goodwillChangeIfMonumentDestroyed]好感度）。</BuildMonumentWorker.LetterTextMonumentConstructed.slateRef>
   <!-- EN: Monument destroyed -->
   <BuildMonumentWorker.LetterLabelMonumentRuined.slateRef>纪念碑被摧毁</BuildMonumentWorker.LetterLabelMonumentRuined.slateRef>
   <!-- EN: [asker_nameDef] is offended that you allowed the monument to be ruined so soon after completion.\n\nYour relations with [asker_faction_name] have fallen by [goodwillChangeIfMonumentDestroyed]. -->
   <BuildMonumentWorker.LetterTextMonumentRuined.slateRef>你在完成纪念碑之后让它被破坏得太快了，这冒犯了[asker_nameDef]。\n\n你与[asker_faction_name]的关系下降了[goodwillChangeIfMonumentDestroyed]。</BuildMonumentWorker.LetterTextMonumentRuined.slateRef>
   <!-- EN: Do not destroy the monument for {0} -->
-  <BuildMonumentWorker.DontDestroyMonumentForDays.slateRef>不要破坏纪念碑 {0}</BuildMonumentWorker.DontDestroyMonumentForDays.slateRef>
+  <BuildMonumentWorker.DontDestroyMonumentForDays.slateRef>不要破坏纪念碑{0}</BuildMonumentWorker.DontDestroyMonumentForDays.slateRef>
   <!-- EN: Do not destroy the monument for {0} -->
-  <BuildMonumentWorker.DontDestroyMonumentForDaysTip.slateRef>不要破坏纪念碑 {0}</BuildMonumentWorker.DontDestroyMonumentForDaysTip.slateRef>
+  <BuildMonumentWorker.DontDestroyMonumentForDaysTip.slateRef>不要破坏纪念碑{0}</BuildMonumentWorker.DontDestroyMonumentForDaysTip.slateRef>
   <!-- EN: Keep monument {0} -->
-  <BuildMonumentWorker.KeepMonument.slateRef>保护纪念碑 {0}</BuildMonumentWorker.KeepMonument.slateRef>
+  <BuildMonumentWorker.KeepMonument.slateRef>保护纪念碑{0}</BuildMonumentWorker.KeepMonument.slateRef>
   <!-- EN: The monument for the quest '[resolvedQuestName]' has been violated. Consequences will follow. -->
   <BuildMonumentWorker.MessageMonumentViolated.slateRef>任务“[resolvedQuestName]”中的纪念碑已被污损。惩罚即将来临。</BuildMonumentWorker.MessageMonumentViolated.slateRef>
   <!-- EN: Protect the monument for {0} -->
-  <BuildMonumentWorker.ProtectMonumentForDays.slateRef>保护纪念碑 {0}</BuildMonumentWorker.ProtectMonumentForDays.slateRef>
+  <BuildMonumentWorker.ProtectMonumentForDays.slateRef>保护纪念碑{0}</BuildMonumentWorker.ProtectMonumentForDays.slateRef>
   <!-- EN: Protect the monument until {0} -->
   <BuildMonumentWorker.ProtectMonumentForDaysTip.slateRef>保护纪念碑直到{0}</BuildMonumentWorker.ProtectMonumentForDaysTip.slateRef>
   <!-- EN: Protect for {0} -->
@@ -30,6 +30,6 @@
   <!-- EN: Monument time expired -->
   <BuildMonumentWorker.LetterLabelTimeExpired.slateRef>纪念碑时效已过</BuildMonumentWorker.LetterLabelTimeExpired.slateRef>
   <!-- EN: Your time limit to construct the monument has expired. [failLetterEndingCommon] -->
-  <BuildMonumentWorker.LetterTextTimeExpired.slateRef>建造纪念碑的时限已过。 [failLetterEndingCommon]</BuildMonumentWorker.LetterTextTimeExpired.slateRef>
+  <BuildMonumentWorker.LetterTextTimeExpired.slateRef>建造纪念碑的时限已过。[failLetterEndingCommon]</BuildMonumentWorker.LetterTextTimeExpired.slateRef>
   
 </LanguageData>

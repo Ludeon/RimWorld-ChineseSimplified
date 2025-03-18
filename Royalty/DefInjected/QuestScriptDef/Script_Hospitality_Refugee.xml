@@ -61,56 +61,56 @@
     <li>lastOrNot(lodgerCount>=2)->最后的</li>
     <li>lodgersLabelSingularOrPlural(lodgerCount==1)->[lodgersLabel]</li>
     <li>lodgersLabelSingularOrPlural(lodgerCount>=2)->[lodgersLabelPlural]</li>
-    <li>lodgersArriveLetterLabel->[lodgersLabelSingularOrPlural] 抵达</li>
-    <li>lodgersArriveLetterText->[lodgersSingularOrPluralDef] [hasHave] 抵达。 [lodgersPronoun]将会和你共处[questDurationTicks_duration]来重整旗鼓。</li>
+    <li>lodgersArriveLetterLabel->[lodgersLabelSingularOrPlural]抵达</li>
+    <li>lodgersArriveLetterText->[lodgersSingularOrPluralDef] [hasHave]抵达。[lodgersPronoun]将会和你共处[questDurationTicks_duration]来重整旗鼓。</li>
     <li>hasHave(lodgerCount==1)->已经</li>
     <li>hasHave(lodgerCount>=2)->已经</li>
-    <li>appalledButNoAction->The {PAWNSALIVECOUNT_multiple ? 其他人似乎 : 最后的 [lodgersLabel]} 对此感到震惊，但是并不会对你采取行动。</li>
-    <li>othersWillNotAccept->The {PAWNSALIVECOUNT_multiple ? 其他人 : 最后的 [lodgersLabel]} 不乐意接受</li>
-    <li>turnedViolent->[othersWillNotAccept]， 并且对你十分生气。</li>
-    <li>decidedToLeave->[othersWillNotAccept]， 并且决定离开。</li>
+    <li>appalledButNoAction->The {PAWNSALIVECOUNT_multiple ?其他人似乎:最后的[lodgersLabel]}对此感到震惊，但是并不会对你采取行动。</li>
+    <li>othersWillNotAccept->The {PAWNSALIVECOUNT_multiple ?其他人:最后的[lodgersLabel]}不乐意接受</li>
+    <li>turnedViolent->[othersWillNotAccept]，并且对你十分生气。</li>
+    <li>decidedToLeave->[othersWillNotAccept]，并且决定离开。</li>
     <li>whoAskedToStay->请求与你共处的人</li>
-    <li>oneOfThe->其中一个绝望的 [whoAskedToStay]</li>
-    <li>questOver->任务 '[resolvedQuestName]' 已经结束。</li>
-    <li>letterIntroDeath->{SUBJECT_definite}， [oneOfThe] 已经死亡。</li>
-    <li>lodgerDiedMemoryThoughtLetterLabel->[lodgersLabel] 死亡：愤怒</li>
+    <li>oneOfThe->其中一个绝望的[whoAskedToStay]</li>
+    <li>questOver->任务'[resolvedQuestName]'已经结束。</li>
+    <li>letterIntroDeath->{SUBJECT_definite}，[oneOfThe]已经死亡。</li>
+    <li>lodgerDiedMemoryThoughtLetterLabel->[lodgersLabel]死亡：愤怒</li>
     <li>lodgerDiedMemoryThoughtLetterText->[letterIntroDeath]\n\n[appalledButNoAction]</li>
-    <li>lodgerDiedAttackPlayerLetterLabel->[lodgersLabel] 死亡：复仇</li>
+    <li>lodgerDiedAttackPlayerLetterLabel->[lodgersLabel]死亡：复仇</li>
     <li>lodgerDiedAttackPlayerLetterText->[letterIntroDeath]\n\n[turnedViolent]</li>
-    <li>lodgerDiedLeaveMapLetterLabel->[lodgersLabel] 死亡：离开</li>
+    <li>lodgerDiedLeaveMapLetterLabel->[lodgersLabel]死亡：离开</li>
     <li>lodgerDiedLeaveMapLetterText->[letterIntroDeath]\n\n[decidedToLeave]</li>
     <li>lodgersAllDiedLetterLabel->任务失败</li>
-    <li>lodgersAllDiedLetterText->{SUBJECT_definite}， [lastOrNot] 绝望的 [faction_pawnSingular] （[whoAskedToStay]）， 已经死亡。\n\n[questOver]</li>
-    <li>letterIntroArrested->你逮捕了 {SUBJECT_definite} （[oneOfThe]）。</li>
-    <li>lodgerArrestedMemoryThoughtLetterLabel->[lodgersLabel] 逮捕：愤怒</li>
+    <li>lodgersAllDiedLetterText->{SUBJECT_definite}，[lastOrNot]绝望的[faction_pawnSingular] （[whoAskedToStay]），已经死亡。\n\n[questOver]</li>
+    <li>letterIntroArrested->你逮捕了{SUBJECT_definite} （[oneOfThe]）。</li>
+    <li>lodgerArrestedMemoryThoughtLetterLabel->[lodgersLabel]逮捕：愤怒</li>
     <li>lodgerArrestedMemoryThoughtLetterText->[letterIntroArrested]\n\n[appalledButNoAction]</li>
-    <li>lodgerArrestedAttackPlayerLetterLabel->[lodgersLabel] 逮捕：复仇</li>
+    <li>lodgerArrestedAttackPlayerLetterLabel->[lodgersLabel]逮捕：复仇</li>
     <li>lodgerArrestedAttackPlayerLetterText->[letterIntroArrested]\n\n[turnedViolent]</li>
-    <li>lodgerArrestedLeaveMapLetterLabel->[lodgersLabel] 逮捕：离开</li>
+    <li>lodgerArrestedLeaveMapLetterLabel->[lodgersLabel]逮捕：离开</li>
     <li>lodgerArrestedLeaveMapLetterText->[letterIntroArrested]\n\n[decidedToLeave]</li>
     <li>lodgersAllArrestedLetterLabel->任务失败</li>
-    <li>lodgersAllArrestedLetterText->你逮捕了 {SUBJECT_definite}, [lastOrNot] 绝望的 [faction_pawnSingular] （[whoAskedToStay]）。\n\n[questOver]</li>
-    <li>letterIntroViolated->{SUBJECT_definite}， （[oneOfThe]）， 被执行了非法的手术。</li>
-    <li>lodgerViolatedMemoryThoughtLetterLabel->[lodgersLabel] 违约：愤怒</li>
+    <li>lodgersAllArrestedLetterText->你逮捕了{SUBJECT_definite}, [lastOrNot]绝望的[faction_pawnSingular] （[whoAskedToStay]）。\n\n[questOver]</li>
+    <li>letterIntroViolated->{SUBJECT_definite}，（[oneOfThe]），被执行了非法的手术。</li>
+    <li>lodgerViolatedMemoryThoughtLetterLabel->[lodgersLabel]违约：愤怒</li>
     <li>lodgerViolatedMemoryThoughtLetterText->[letterIntroViolated]\n\n[appalledButNoAction]</li>
-    <li>lodgerViolatedAttackPlayerLetterLabel->[lodgersLabel] 违约：复仇</li>
+    <li>lodgerViolatedAttackPlayerLetterLabel->[lodgersLabel]违约：复仇</li>
     <li>lodgerViolatedAttackPlayerLetterText->[letterIntroViolated]\n\n[turnedViolent]</li>
-    <li>lodgerViolatedLeaveMapLetterLabel->[lodgersLabel] 违约：离开</li>
+    <li>lodgerViolatedLeaveMapLetterLabel->[lodgersLabel]违约：离开</li>
     <li>lodgerViolatedLeaveMapLetterText->[letterIntroViolated]\n\n[decidedToLeave]</li>
     <li>letterIntroPsychicRitualTarget->{SUBJECT_definite}, [oneOfThe],成为了灵能仪式的祭品。</li>
     <li>lodgerPsychicRitualTargetMemoryThoughtLetterLabel->[lodgersLabel]违约：愤怒</li>
     <li>lodgerPsychicRitualTargetMemoryThoughtLetterText->[letterIntroPsychicRitualTarget]\n\n[appalledButNoAction]</li>
-    <li>lodgerPsychicRitualTargetAttackPlayerLetterLabel->[lodgersLabel] 违约: 复仇</li>
+    <li>lodgerPsychicRitualTargetAttackPlayerLetterLabel->[lodgersLabel]违约:复仇</li>
     <li>lodgerPsychicRitualTargetAttackPlayerLetterText->[letterIntroPsychicRitualTarget]\n\n[turnedViolent]</li>
-    <li>lodgerPsychicRitualTargetLeaveMapLetterLabel->[lodgersLabel] 违约：离开</li>
+    <li>lodgerPsychicRitualTargetLeaveMapLetterLabel->[lodgersLabel]违约：离开</li>
     <li>lodgerPsychicRitualTargetLeaveMapLetterText->[letterIntroPsychicRitualTarget]\n\n[decidedToLeave]</li>
     <li>lodgerViolatedLeaveMapLetterText->[letterIntroViolated]\n\n[decidedToLeave]</li>
     <li>mutinyLetterLabel->背叛</li>
-    <li>mutinyLetterText->[lodgersSingularOrPluralDef] （[whoAskedToStay]） 与你为敌！\n\n看起来[lodgersPronoun]早就计划好了这场背叛。</li>
+    <li>mutinyLetterText->[lodgersSingularOrPluralDef] （[whoAskedToStay]）与你为敌！\n\n看起来[lodgersPronoun]早就计划好了这场背叛。</li>
     <li>areIs(lodgerCount==1)->正</li>
     <li>areIs(lodgerCount>=2)->正</li>
-    <li>lodgersLeavingLetterLabel->[lodgersLabelSingularOrPlural] 离开</li>
-    <li>lodgersLeavingLetterText->{FACTION_leaderNameDef} 感谢你允许 {FACTION_leaderObjective} 在 [questDurationTicks_duration] 里待在 [map_definite]。 {FACTION_leaderPronoun} 现在正与 {FACTION_leaderPossessive} 一同前进。\n\n{FACTION_leaderNameDef} 说 {FACTION_leaderPronoun} 永远不会忘记你做的这些事。</li>
+    <li>lodgersLeavingLetterLabel->[lodgersLabelSingularOrPlural]离开</li>
+    <li>lodgersLeavingLetterText->{FACTION_leaderNameDef}感谢你允许{FACTION_leaderObjective}在[questDurationTicks_duration]里待在[map_definite]。{FACTION_leaderPronoun}现在正与{FACTION_leaderPossessive}一同前进。\n\n{FACTION_leaderNameDef}说{FACTION_leaderPronoun}永远不会忘记你做的这些事。</li>
   </Hospitality_Refugee.questContentRules.rulesStrings>
   <!-- EN:
     <li>lodgersLabel->refugee</li>
@@ -170,11 +170,11 @@
     <li>lodgersPossessive(lodgerCount>=2)->他们的</li>
     <li>lodgersSingularOrPluralDef(lodgerCount==1)->[asker_nameDef]</li>
     <li>lodgersSingularOrPluralDef(lodgerCount>=2)->[lodgersLabelPlural]</li>
-    <li>questDescription->[approachInfo][claimInfo][asker_nameDef]请求你允许在[map_definite]待上 [questDurationTicks_duration]来让[lodgersPronoun]能够重整旗鼓。\n\n作为回报， [lodgersPronoun][offer] 在此期间内免费为你工作和战斗。\n\n[joinInfo][lodgersPronoun]可能会在过后酬谢你对[lodgersObjective]的帮助 ——但你没有办法知晓[lodgersPossessive]的真实意图。\n\n[travelerInfo]不属于任何派系。 如果你愿意，你可以选择杀害、逮捕、出售或者采割[lodgersObjective]，并且不会产生任何外交后果。</li>
+    <li>questDescription->[approachInfo][claimInfo][asker_nameDef]请求你允许在[map_definite]待上[questDurationTicks_duration]来让[lodgersPronoun]能够重整旗鼓。\n\n作为回报，[lodgersPronoun][offer]在此期间内免费为你工作和战斗。\n\n[joinInfo][lodgersPronoun]可能会在过后酬谢你对[lodgersObjective]的帮助——但你没有办法知晓[lodgersPossessive]的真实意图。\n\n[travelerInfo]不属于任何派系。如果你愿意，你可以选择杀害、逮捕、出售或者采割[lodgersObjective]，并且不会产生任何外交后果。</li>
     <li>approachInfo(lodgerCount==1)->名叫[asker_nameDef]的绝望的[faction_pawnSingular]正在靠近。</li>
     <li>approachInfo(lodgerCount==2)->[asker_nameDef]和其他绝望的[faction_pawnSingular]正在靠近。</li>
     <li>approachInfo(lodgerCount==2,childCount==1,priority=1)->[asker_nameDef]正带着一个孩子靠近。</li>
-    <li>approachInfo(lodgerCount>=3)->[lodgerCount]名绝望的[faction_pawnsPlural]正在靠近， 他们的领袖是[asker_nameDef]。</li>
+    <li>approachInfo(lodgerCount>=3)->[lodgerCount]名绝望的[faction_pawnsPlural]正在靠近，他们的领袖是[asker_nameDef]。</li>
     <li>approachInfo(lodgerCount>=3,childCount==1,priority=1)->[lodgerCount]名穷途末路的[faction_pawnsPlural]正带着一个孩子靠近。他们的领袖是[asker_nameDef]。</li>
     <li>approachInfo(lodgerCount>=3,childCount>=2,priority=1)->[lodgerCount]名穷途末路的[faction_pawnsPlural]正带着一些孩子靠近。他们的领袖是[asker_nameDef]。</li>
     <li>approachInfo(lodgerCount>=3,allButOneChildren==true,priority=2)->[asker_nameDef]带着处于他保护下的[lodgersCountMinusOne]名孩子正在靠近。</li>
@@ -289,7 +289,7 @@
     <li>otherMembers(lodgerCount>=2)->和[faction_name]的所有成员</li>
     <li>questOver->任务'[resolvedQuestName]'已结束。</li>
     <li>betrayalOfferFailedBecauseRecruitedLetterLabel->背叛奖励被收回</li>
-    <li>betrayalOfferFailedBecauseRecruitedLetterText->[factionOpponent_nameDef]已知悉所有来自[faction_name]的幸存者们已加入了你的派系！ [factionOpponent_nameDef]希望[faction_name]的所有成员都死掉，因此收回了[factionOpponent_possessive]提议。</li>
+    <li>betrayalOfferFailedBecauseRecruitedLetterText->[factionOpponent_nameDef]已知悉所有来自[faction_name]的幸存者们已加入了你的派系！[factionOpponent_nameDef]希望[faction_name]的所有成员都死掉，因此收回了[factionOpponent_possessive]提议。</li>
   </RefugeeBetrayal.questContentRules.rulesStrings>
   <!-- EN:
     <li>lodgersLabel->refugee</li>
@@ -336,7 +336,7 @@
   -->
   <RefugeeDelayedReward.questContentRules.rulesStrings>
     <li>rewardLetterLabel->难民回报</li>
-    <li>rewardLetterText->[rewardGiver_nameDef]曾联系过你。 [rewardDelayTicks_duration]之前， 你在[rewardGiver_objective]十分绝望的时候给与了帮助。\n\n那之后，[rewardGiver_pronoun]已靠着[rewardGiver_possessive]双腿重新站了起来， 现在[rewardGiver_pronoun]想要对你的帮助给与得体的回报。 [rewardGiver_pronoun]通过运输舱向你发送了如下物资：\n\n[listOfRewards]</li>
+    <li>rewardLetterText->[rewardGiver_nameDef]曾联系过你。[rewardDelayTicks_duration]之前，你在[rewardGiver_objective]十分绝望的时候给与了帮助。\n\n那之后，[rewardGiver_pronoun]已靠着[rewardGiver_possessive]双腿重新站了起来，现在[rewardGiver_pronoun]想要对你的帮助给与得体的回报。[rewardGiver_pronoun]通过运输舱向你发送了如下物资：\n\n[listOfRewards]</li>
   </RefugeeDelayedReward.questContentRules.rulesStrings>
   <!-- EN:
     <li>questDescription->a delayed reward for refugee quest</li>

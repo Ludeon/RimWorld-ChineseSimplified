@@ -204,7 +204,7 @@
   <MessageAttackedByPredator>{PREY_labelShort}正被{PREDATOR}攻击！</MessageAttackedByPredator>
 
   <!-- EN: {PAWN_labelShort} has started to roam away! {PAWN_pronoun} will leave the map unless an animal handler ropes {PAWN_objective} back to a pen. -->
-  <MessageRoamerLeaving>{PAWN_labelShort}已经开始迁徙了！ {PAWN_pronoun}会离开地图，除非有驯兽师将{PAWN_objective}牵引回畜栏内。</MessageRoamerLeaving>
+  <MessageRoamerLeaving>{PAWN_labelShort}已经开始迁徙了！{PAWN_pronoun}会离开地图，除非有驯兽师将{PAWN_objective}牵引回畜栏内。</MessageRoamerLeaving>
 
   <!-- EN: A bug hive has reproduced itself. -->
   <MessageHiveReproduced>一个虫巢繁殖出了一个新虫巢。</MessageHiveReproduced>
@@ -236,7 +236,7 @@
   <!-- EN: {HUMAN_labelShort} and {ANIMAL_labelShort} have formed a bond. -->
   <MessageNewBondRelation>{HUMAN_labelShort}和{ANIMAL_labelShort}感情深厚达成牵绊。</MessageNewBondRelation>
   <!-- EN: {HUMAN_labelShort} and {1} have formed a bond. {HUMAN_labelShort} has named {ANIMAL_objective} {ANIMAL_nameFull}. -->
-  <MessageNewBondRelationNewName>{HUMAN_labelShort}和{1}感情深厚达成牵绊。{HUMAN_labelShort}给{ANIMAL_objective} 起名{ANIMAL_nameFull}。</MessageNewBondRelationNewName>
+  <MessageNewBondRelationNewName>{HUMAN_labelShort}和{1}感情深厚达成牵绊。{HUMAN_labelShort}给{ANIMAL_objective}起名{ANIMAL_nameFull}。</MessageNewBondRelationNewName>
   
   <!-- EN: {ANIMAL} has had a mental break because of {HUMAN_labelShort}'s death. -->
   <MessageBondedAnimalMentalBreak>因为{ANIMAL}的死亡，{HUMAN_labelShort}精神崩溃了。</MessageBondedAnimalMentalBreak>
@@ -378,7 +378,7 @@
   <!-- EN: Cannot equip: {1_labelShort} is incapable of shooting. -->
   <MessageCantEquipIncapableOfShooting>不能装备：{1_labelShort}无射击能力。</MessageCantEquipIncapableOfShooting>
   <!-- EN: Cannot equip: Incapable. -->
-  <MessageCantEquipIncapableOfManipulation>不能装备: 没有能力。</MessageCantEquipIncapableOfManipulation>
+  <MessageCantEquipIncapableOfManipulation>不能装备:没有能力。</MessageCantEquipIncapableOfManipulation>
   <!-- EN: Cannot wear: {1_labelShort} is missing required body parts. -->
   <MessageCantWearApparelMissingBodyParts>无法穿上：{1_labelShort}缺少必需的身体部位。</MessageCantWearApparelMissingBodyParts>
   <!-- EN: This person refuses to remove this. -->
@@ -501,13 +501,13 @@
   <!-- EN: used {ITEM_labelShort} on {TARGET_labelShort} -->
   <GoodwillChangedReason_UsedItem>对{TARGET_labelShort}使用了{ITEM_labelShort}</GoodwillChangedReason_UsedItem>
   <!-- EN: used {0} on {1} -->
-  <GoodwillChangedReason_UsedAbility>对 {1} 使用 {0}</GoodwillChangedReason_UsedAbility>
+  <GoodwillChangedReason_UsedAbility>对{1}使用{0}</GoodwillChangedReason_UsedAbility>
   <!-- EN: harvested {0} -->
   <GoodwillChangedReason_RemovedBodyPart>割取了{0}的器官</GoodwillChangedReason_RemovedBodyPart>
   <!-- EN: removed {0} -->
   <GoodwillChangedReason_RemovedImplant>移除了{0}的植入物</GoodwillChangedReason_RemovedImplant>
   <!-- EN: downgraded {0} -->
-  <GoodwillChangedReason_DowngradedImplant>降低了 {0}</GoodwillChangedReason_DowngradedImplant>
+  <GoodwillChangedReason_DowngradedImplant>降低了{0}</GoodwillChangedReason_DowngradedImplant>
   <!-- EN: needlessly installed {0} -->
   <GoodwillChangedReason_NeedlesslyInstalledWorseBodyPart>毫无必要地安装{0}</GoodwillChangedReason_NeedlesslyInstalledWorseBodyPart>
   <!-- EN: captured {1_labelShort} -->
@@ -533,7 +533,7 @@
   <!-- EN: finished a quest -->
   <GoodwillChangedReason_FinishedQuest>完成一个任务</GoodwillChangedReason_FinishedQuest>
   <!-- EN: {PAWN_labelShort} used {CULPRIT} -->
-  <GoodwillChangedReason_UsedForbiddenThing>{PAWN_labelShort} 使用 {CULPRIT}</GoodwillChangedReason_UsedForbiddenThing>
+  <GoodwillChangedReason_UsedForbiddenThing>{PAWN_labelShort}使用{CULPRIT}</GoodwillChangedReason_UsedForbiddenThing>
   <!-- EN: sold {0_labelShort} -->
   <GoodwillChangedReason_SoldPawn>出售{0_labelShort} </GoodwillChangedReason_SoldPawn>
   <!-- EN: euthanized {PAWN_labelShort} -->
@@ -602,7 +602,7 @@
   <MessageEnterCooldownBlocksEntering>危险！{0}内不允许再次进入。</MessageEnterCooldownBlocksEntering>
 
   <!-- EN: {0_labelShort} can now freely use "{1}". -->
-  <MessagePermitCooldownFinished>{0_labelShort} 现在可以免费使用 "{1}"。</MessagePermitCooldownFinished>
+  <MessagePermitCooldownFinished>{0_labelShort}现在可以免费使用"{1}"。</MessagePermitCooldownFinished>
 
   <!-- EN: {PREDATOR} is hunting {PREY_definite} ({PREY_kindBase}) for food! -->
   <MessagePredatorHuntingPlayerAnimal>{PREDATOR}正在猎食{PREY_definite}（{PREY_kindBase}）</MessagePredatorHuntingPlayerAnimal>

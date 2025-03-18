@@ -82,12 +82,12 @@
     <li>story(priority=-999)-></li>
     <li>setup->于支离破碎的世界中，[founderName]见证了世人的诸般谬误，便随后创立了我们的组织。</li>
     <li>setup->在被世人的罪孽所震撼之后，[founderName]刻苦钻研历史与哲学，最终发现了我们现在追随的真理。</li>
-    <li>setup->一天，在工作时，[founderName]突然醍醐灌顶。 [founder_pronoun]丢下了[founder_possessive]工具并开始在同僚间传播[founder_possessive]所悟的真理。</li>
-    <li>setup->[founderName]在一条公园长椅上思考了20年的人生， 在[founder_possessive]有所领悟后， [founder_pronoun]写下了我们的圣典。</li>
-    <li>story(uses=1,priority=-10)->没有[founderName]的教诲， [memberNamePlural]们永远无法理解[memeConcept]的真正意义。</li>
-    <li>story(uses=1,priority=-10)->[founderName]对[ritualName] 的宣讲激励了很多人走上了[memeAdjective]的道路。</li>
-    <li>story(uses=1,priority=-10)->没人可以超越[founderName]对[memeConcept]的修为， [founder_pronoun]因此被钦定为[memberNamePlural]们的第一任[leaderTitle]。</li>
-    <li>story(uses=1,priority=-10)->[founderName]随身携带着一件名为[relic0_name]的[relic0_thingDef_label]， 来提醒他人要过一个[memeAdjective]的生活</li>
+    <li>setup->一天，在工作时，[founderName]突然醍醐灌顶。[founder_pronoun]丢下了[founder_possessive]工具并开始在同僚间传播[founder_possessive]所悟的真理。</li>
+    <li>setup->[founderName]在一条公园长椅上思考了20年的人生，在[founder_possessive]有所领悟后，[founder_pronoun]写下了我们的圣典。</li>
+    <li>story(uses=1,priority=-10)->没有[founderName]的教诲，[memberNamePlural]们永远无法理解[memeConcept]的真正意义。</li>
+    <li>story(uses=1,priority=-10)->[founderName]对[ritualName]的宣讲激励了很多人走上了[memeAdjective]的道路。</li>
+    <li>story(uses=1,priority=-10)->没人可以超越[founderName]对[memeConcept]的修为，[founder_pronoun]因此被钦定为[memberNamePlural]们的第一任[leaderTitle]。</li>
+    <li>story(uses=1,priority=-10)->[founderName]随身携带着一件名为[relic0_name]的[relic0_thingDef_label]，来提醒他人要过一个[memeAdjective]的生活</li>
   </IdeologicalFounder.rules.rulesStrings>
   
   <!-- EN:
@@ -157,7 +157,7 @@
     <li>lesson(priority=-1)->发生了点事情</li>
     <li>r_pattern->"[r_lessonIntro][r_lesson]。[r_lessonReinforcement]"\n\n  ——[lessonAttribution]</li>
     <li>lessonAttribution->[founder_nameFull]</li>
-    <li>lessonAttribution(p=2)->《[attributionSource_titleCase]》 作者[founder_nameFull]</li>
+    <li>lessonAttribution(p=2)->《[attributionSource_titleCase]》作者[founder_nameFull]</li>
     <li>lessonAttribution->[founder_nameFull]给[believer_nameFull]的一封信</li>
     <li>lessonAttribution->[founder_nameFull]，在[memeConference_titleCase]上</li>
     <li>lessonAttribution->[founder_nameFull]，在病榻上</li>
