@@ -165,7 +165,7 @@
   <!-- EN: Ransom demand at {0} -->
   <RansomDemandTitle>向{0}索要赎金</RansomDemandTitle>
   <!-- EN: {1} contacts you on radio. They are holding former colonist {PAWN_labelShort} for ransom.\n\nThey're willing to release {PAWN_objective} back to you in exchange for {2} silver. -->
-  <RansomDemand>{1}发来通讯信号。他们绑架了殖民者 {PAWN_labelShort} 并索要赎金。\n\n从他们手里赎回{PAWN_objective}需要{2}白银。</RansomDemand>
+  <RansomDemand>{1}发来通讯信号。他们绑架了殖民者{PAWN_labelShort}并索要赎金。\n\n从他们手里赎回{PAWN_objective}需要{2}白银。</RansomDemand>
   <!-- EN: Accept -->
   <RansomDemand_Accept>同意</RansomDemand_Accept>
   <!-- EN: Reject -->
@@ -199,9 +199,9 @@
   <!-- EN: Caravan request -->
   <LetterLabelCaravanRequest>远行队请求</LetterLabelCaravanRequest>
   <!-- EN: A nearby settlement, {0}, contacts you with a special trade request. They would like to purchase:\n\n  {1} (worth {2})\n\nIn return, they offer:\n\n  {3} (worth {4})\n\nThis request expires after: {5}\n\nIf you want to make the trade, send a caravan with the requested supplies. The estimated travel time is {6}. You can review this offer by selecting {0} on the world map. -->
-  <LetterCaravanRequest>附近的一个定居点，{0}，联系上你并提出一个特殊的交易需求。他们想要采购：\n\n  {1} (价值 {2})\n\n作为回报，他们会提供:\n\n  {3} (价值 {4})\n\n请求期限:{5}\n\n如果你想完成这项交易，派遣携带这些物资的远行队。预估旅途用时为{6}。你可以在世界地图中选择{0}查看此请求。</LetterCaravanRequest>
+  <LetterCaravanRequest>附近的一个定居点，{0}，联系上你并提出一个特殊的交易需求。他们想要采购：\n\n  {1}(价值{2})\n\n作为回报，他们会提供:\n\n  {3} (价值{4})\n\n请求期限:{5}\n\n如果你想完成这项交易，派遣携带这些物资的远行队。预估旅途用时为{6}。你可以在世界地图中选择{0}查看此请求。</LetterCaravanRequest>
   <!-- EN: Requesting: {0} ({2}) ({1} left) -->
-  <CaravanRequestInfo>需求: {0} ({2}) (剩余 {1})</CaravanRequestInfo>
+  <CaravanRequestInfo>需求: {0}({2})(剩余{1})</CaravanRequestInfo>
   <!-- EN: normal quality or better -->
   <NormalQualityOrBetter>品质需要为一般及以上。</NormalQualityOrBetter>
   <!-- EN: not tainted -->
@@ -231,18 +231,18 @@
   <!-- EN: Quest failed -->
   <LetterLabelQuestAskerFactionHostile>任务失败</LetterLabelQuestAskerFactionHostile>
   <!-- EN: The quest is now incompletable because {FACTION_name} is hostile. -->
-  <LetterQuestAskerFactionHostile>由于和 {FACTION_name} 已经处于敌对状态，因此该任务无法完成。</LetterQuestAskerFactionHostile>
+  <LetterQuestAskerFactionHostile>由于和{FACTION_name}已经处于敌对状态，因此该任务无法完成。</LetterQuestAskerFactionHostile>
 
   <!-- Quest asker captured -->
   <!-- EN: Quest failed -->
   <LetterLabelQuestAskerCaptured>任务失败</LetterLabelQuestAskerCaptured>
   <!-- EN: The quest is now incompletable because {SUBJECT_definite} has been captured. -->
-  <LetterQuestAskerCaptured>因为 {SUBJECT_definite} 已被捕获，该任务已无法继续进行。</LetterQuestAskerCaptured>
+  <LetterQuestAskerCaptured>因为{SUBJECT_definite}已被捕获，该任务已无法继续进行。</LetterQuestAskerCaptured>
 
   <!-- Quest asker died -->
   <!-- EN: Quest failed -->
   <LetterLabelQuestAskerDied>任务失败</LetterLabelQuestAskerDied>
   <!-- EN: The quest is now incompletable because {SUBJECT_definite} has died. -->
-  <LetterQuestAskerDied>任务对象 {SUBJECT_definite} 已经死亡，导致该任务无法继续完成。</LetterQuestAskerDied>
+  <LetterQuestAskerDied>任务对象{SUBJECT_definite}已经死亡，导致该任务无法继续完成。</LetterQuestAskerDied>
 
 </LanguageData>

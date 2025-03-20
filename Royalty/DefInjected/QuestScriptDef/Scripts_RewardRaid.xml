@@ -11,7 +11,7 @@
   -->
   <ThreatReward_Raid_MiscReward.questDescriptionRules.rulesStrings>
     <li>questDescription(asker_factionLeader==True)->[asker_faction_name]的[asker_faction_leaderTitle]，[asker_nameFull]希望你能帮助[asker_possessive]的一支远行队。这支队伍在[map_definite]附近遭到[enemyFaction_name]派系的(*Threat)[numGroupsOf][enemyFaction_pawnsPlural](/Threat)的袭击。[asker_nameDef]希望你能警告[enemyFaction_pawnsPlural]放这支远行队离开，去到你的方向。[endingCommon]</li>
-    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_faction_name]的[asker_royalTitleInCurrentFaction]，[asker_nameFull]，向你发布了一个任务。\n\n[enemyFaction_name]的(*Threat)[groupsOf]队人员(/Threat)一直在这个区域袭扰[asker_possessive]的远行队。[asker_nameDef] 要求你向他们发出警告，吸引他们进攻并且将其消灭干净。[endingCommon]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_faction_name]的[asker_royalTitleInCurrentFaction]，[asker_nameFull]，向你发布了一个任务。\n\n[enemyFaction_name]的(*Threat)[groupsOf]队人员(/Threat)一直在这个区域袭扰[asker_possessive]的远行队。[asker_nameDef]要求你向他们发出警告，吸引他们进攻并且将其消灭干净。[endingCommon]</li>
     <li>groupsOf(raidCount==1,priority=1)->[enemyFaction_pawnsPlural]</li>
     <li>groupsOf->[numGroupsOf][enemyFaction_pawnsPlural]</li>
     <li>endingCommon(helpersCount==0)->\n\n[pawnKindsParagraph]\n\n[helpersParagraph]如果你接受这个提议，[enemyFaction_pawnsPlural]将会于[firstRaidDelayTicks_duration]内到达。</li>

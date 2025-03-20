@@ -56,40 +56,40 @@
     <li>threatsInfoMechClustersMultiAnimal->出于未知的原因，[lodgersLabelPlural]已经被轨道上的一群机械体盯上。</li>
     <li>threatsInfoMechRaidsSingleAnimal->出于未知的原因，[lodgersLabel]已经被一个机械体巢穴盯上。</li>
     <li>threatsInfoMechRaidsMultiAnimal->出于未知地原因，[lodgersLabelPlural]已经被一个机械体巢穴盯上。</li>
-    <li>questDescription(askerIsNull==true,lodgersCount==1)->一个动物保护组织希望你能够在[shuttleDelayTicks_duration]内 照顾位于[map_definite]名叫[lodgers0_nameDef]的[lodgersLabel]。[healthInfo][threatsInfo1][commonDescEnding]</li>
-    <li>threatsInfo1(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n激进的动物保护组织成员在[enemyFaction_name]举行的一场屠宰仪式上偷走了[lodgers0_nameDef]。 现在[enemyFaction_pawnsPlural]将会来寻仇。 如果你选择接纳[lodgers0_nameDef]， [enemyGroupsParagraph]</li>
-    <li>threatsInfo1(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleAnimal] [enemyGroupsParagraph]</li>
-    <li>threatsInfo1(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersSingleAnimal] [enemyGroupsParagraph]</li>
+    <li>questDescription(askerIsNull==true,lodgersCount==1)->一个动物保护组织希望你能够在[shuttleDelayTicks_duration]内照顾位于[map_definite]名叫[lodgers0_nameDef]的[lodgersLabel]。[healthInfo][threatsInfo1][commonDescEnding]</li>
+    <li>threatsInfo1(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n激进的动物保护组织成员在[enemyFaction_name]举行的一场屠宰仪式上偷走了[lodgers0_nameDef]。现在[enemyFaction_pawnsPlural]将会来寻仇。如果你选择接纳[lodgers0_nameDef]，[enemyGroupsParagraph]</li>
+    <li>threatsInfo1(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleAnimal][enemyGroupsParagraph]</li>
+    <li>threatsInfo1(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersSingleAnimal][enemyGroupsParagraph]</li>
     <li>threatsInfo1(generateThreats==false)-></li>
-    <li>questDescription(askerIsNull==true,lodgersCount>=2)->一个动物保护组织希望你能够在 [map_definite] 照顾 [lodgersCount] 只 [lodgersLabelPlural] [shuttleDelayTicks_duration]。  [healthInfo][threatsInfo2][commonDescEnding]</li>
+    <li>questDescription(askerIsNull==true,lodgersCount>=2)->一个动物保护组织希望你能够在[map_definite]照顾[lodgersCount]只[lodgersLabelPlural] [shuttleDelayTicks_duration]。[healthInfo][threatsInfo2][commonDescEnding]</li>
     <li>victim->孩子</li>
     <li>victim->女性</li>
     <li>victim->男性</li>
     <li>victim->[PersonJob]</li>
     <li>victim(generateThreats==true,threatType==Raids)->[enemyFaction_leaderTitle]在[enemyFaction_name]的朋友</li>
-    <li>threatsInfo2(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n不幸的是， 这些[lodgersLabelPlural]与一名[victim]之死有所牵连。 现在，来自[enemyFaction_name]的[enemyFaction_pawnsPlural]将会狩猎他们进行复仇仪式。 如果你接纳[lodgersLabelPlural]， [enemyGroupsParagraph]</li>
-    <li>threatsInfo2(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsMultiAnimal] [enemyGroupsParagraph]</li>
-    <li>threatsInfo2(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersMultiAnimal] [enemyGroupsParagraph]</li>
+    <li>threatsInfo2(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n不幸的是，这些[lodgersLabelPlural]与一名[victim]之死有所牵连。现在，来自[enemyFaction_name]的[enemyFaction_pawnsPlural]将会狩猎他们进行复仇仪式。如果你接纳[lodgersLabelPlural]，[enemyGroupsParagraph]</li>
+    <li>threatsInfo2(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsMultiAnimal][enemyGroupsParagraph]</li>
+    <li>threatsInfo2(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersMultiAnimal][enemyGroupsParagraph]</li>
     <li>threatsInfo2(generateThreats==false)-></li>
-    <li>questDescription(asker_factionLeader==True,lodgersCount==1,priority=1)->[asker_faction_name] 的 [asker_faction_leaderTitle]， [asker_nameFull] 正在寻找一个安全的庇护所能在[shuttleDelayTicks_duration]里照顾[asker_possessive]名叫[lodgers0_nameDef]的宠物[lodgersLabel]。 [healthInfo][threatsInfo3][commonDescEnding]</li>
-    <li>threatsInfo3(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n来自 [enemyFaction_name] 的 [enemyFaction_pawnsPlural] 正试图通过残杀可怜的 [lodgers0_nameDef]来抓捕[asker_nameDef]。 如果你选择接纳[lodgers0_nameDef]， [enemyGroupsParagraph]</li>
+    <li>questDescription(asker_factionLeader==True,lodgersCount==1,priority=1)->[asker_faction_name]的[asker_faction_leaderTitle]，[asker_nameFull]正在寻找一个安全的庇护所能在[shuttleDelayTicks_duration]里照顾[asker_possessive]名叫[lodgers0_nameDef]的宠物[lodgersLabel]。[healthInfo][threatsInfo3][commonDescEnding]</li>
+    <li>threatsInfo3(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n来自[enemyFaction_name]的[enemyFaction_pawnsPlural]正试图通过残杀可怜的[lodgers0_nameDef]来抓捕[asker_nameDef]。如果你选择接纳[lodgers0_nameDef]，[enemyGroupsParagraph]</li>
     <li>threatsInfo3(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleAnimal] [enemyGroupsParagraph]</li>
-    <li>threatsInfo3(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersSingleAnimal] [enemyGroupsParagraph]</li>
+    <li>threatsInfo3(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersSingleAnimal][enemyGroupsParagraph]</li>
     <li>threatsInfo3(generateThreats==false)-></li>
-    <li>questDescription(asker_factionLeader==True,lodgersCount>=2,priority=1)->[asker_faction_name] 的 [asker_faction_leaderTitle]， [asker_nameFull] 正发来请求。 [asker_pronoun]希望你能在[map_definite]照料[lodgersCount]只[lodgersLabelPlural][shuttleDelayTicks_duration]。 [healthInfo][threatsInfo4][commonDescEnding]</li>
-    <li>threatsInfo4(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n这些 [lodgersLabelPlural] 对于 [asker_nameDef] 履行一项重要的贸易承诺是必须的。 为了引发冲突， [enemyFaction_name]正派出[enemyFaction_pawnsPlural]追击他们。 如果你选择接纳[lodgersLabelPlural]， [enemyGroupsParagraph]</li>
+    <li>questDescription(asker_factionLeader==True,lodgersCount>=2,priority=1)->[asker_faction_name]的[asker_faction_leaderTitle]，[asker_nameFull]正发来请求。[asker_pronoun]希望你能在[map_definite]照料[lodgersCount]只[lodgersLabelPlural][shuttleDelayTicks_duration]。[healthInfo][threatsInfo4][commonDescEnding]</li>
+    <li>threatsInfo4(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n这些[lodgersLabelPlural]对于[asker_nameDef]履行一项重要的贸易承诺是必须的。为了引发冲突，[enemyFaction_name]正派出[enemyFaction_pawnsPlural]追击他们。如果你选择接纳[lodgersLabelPlural]，[enemyGroupsParagraph]</li>
     <li>threatsInfo4(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsMultiAnimal] [enemyGroupsParagraph]</li>
-    <li>threatsInfo4(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersMultiAnimal] [enemyGroupsParagraph]</li>
+    <li>threatsInfo4(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersMultiAnimal][enemyGroupsParagraph]</li>
     <li>threatsInfo4(generateThreats==false)-></li>
-    <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount==1,priority=1)->[asker_faction_name] 的一名 [asker_royalTitleInCurrentFaction]， [asker_nameFull] 正发来请求。 [asker_pronoun]希望你能在[map_definite]照料[lodgersLabel][lodgers0_nameDef][shuttleDelayTicks_duration]， 这是[asker_possessive]最喜欢的宠物。 [healthInfo][threatsInfo5][commonDescEnding]</li>
-    <li>threatsInfo5(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n[lodgers0_nameDef] 是 [asker_nameDef] 承诺给孩子的结婚礼物。 为了阻止这场婚礼， [enemyFaction_name]正派出[enemyFaction_pawnsPlural]追踪[lodgers0_objective]。 如果你选择接纳[lodgers0_nameDef]， [enemyGroupsParagraph]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount==1,priority=1)->[asker_faction_name]的一名[asker_royalTitleInCurrentFaction]，[asker_nameFull]正发来请求。[asker_pronoun]希望你能在[map_definite]照料[lodgersLabel][lodgers0_nameDef][shuttleDelayTicks_duration]，这是[asker_possessive]最喜欢的宠物。[healthInfo][threatsInfo5][commonDescEnding]</li>
+    <li>threatsInfo5(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n[lodgers0_nameDef]是[asker_nameDef]承诺给孩子的结婚礼物。为了阻止这场婚礼，[enemyFaction_name]正派出[enemyFaction_pawnsPlural]追踪[lodgers0_objective]。如果你选择接纳[lodgers0_nameDef]，[enemyGroupsParagraph]</li>
     <li>threatsInfo5(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleAnimal] [enemyGroupsParagraph]</li>
-    <li>threatsInfo5(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersSingleAnimal] [enemyGroupsParagraph]</li>
+    <li>threatsInfo5(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersSingleAnimal][enemyGroupsParagraph]</li>
     <li>threatsInfo5(generateThreats==false)-></li>
-    <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount>=2,priority=1)->[asker_faction_name] 的一名 [asker_royalTitleInCurrentFaction]， [asker_nameFull] 正发来请求。 [asker_pronoun]希望你能在[map_definite]照料 [lodgersCount] 只 [lodgersLabelPlural] [shuttleDelayTicks_duration]。 这些[lodgersLabelPlural]是[asker_nameDef]最喜爱的宠物， [asker_pronoun]希望他们能看看[asker_possessive]上流圈子之外的世界。 [healthInfo][threatsInfo6][commonDescEnding]</li>
-    <li>threatsInfo6(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n不幸的是， [enemyFaction_name] 正在试图以狩猎 [lodgersLabelPlural] 的方式去伤害 [asker_nameDef]。  如果你选择接纳 [lodgersLabelPlural]， [enemyGroupsParagraph]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount>=2,priority=1)->[asker_faction_name]的一名[asker_royalTitleInCurrentFaction]，[asker_nameFull]正发来请求。[asker_pronoun]希望你能在[map_definite]照料[lodgersCount]只[lodgersLabelPlural] [shuttleDelayTicks_duration]。这些[lodgersLabelPlural]是[asker_nameDef]最喜爱的宠物，[asker_pronoun]希望他们能看看[asker_possessive]上流圈子之外的世界。[healthInfo][threatsInfo6][commonDescEnding]</li>
+    <li>threatsInfo6(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n不幸的是，[enemyFaction_name]正在试图以狩猎[lodgersLabelPlural]的方式去伤害[asker_nameDef]。如果你选择接纳[lodgersLabelPlural]，[enemyGroupsParagraph]</li>
     <li>threatsInfo6(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsMultiAnimal] [enemyGroupsParagraph]</li>
-    <li>threatsInfo6(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersMultiAnimal] [enemyGroupsParagraph]</li>
+    <li>threatsInfo6(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersMultiAnimal][enemyGroupsParagraph]</li>
     <li>threatsInfo6(generateThreats==false)-></li>
     <li>letterSubject(priority=1)->{SUBJECT_definite} [lodgersLabel]</li>
   </Hospitality_Animals.questDescriptionRules.rulesStrings>
@@ -116,17 +116,17 @@
     <li>animalAdj(generateThreats==true)->frightened</li>
   -->
   <Hospitality_Animals.questNameRules.rulesStrings>
-    <li>questName(lodgersCount==1)->这 [animalAdj] [lodgersLabel]</li>
-    <li>questName(lodgersCount==1)->一个 [animalAdj] [lodgersLabel]</li>
-    <li>questName(lodgersCount==1)->[animalAdj] [lodgersLabel]</li>
+    <li>questName(lodgersCount==1)->这[animalAdj][lodgersLabel]</li>
+    <li>questName(lodgersCount==1)->一个[animalAdj][lodgersLabel]</li>
+    <li>questName(lodgersCount==1)->[animalAdj][lodgersLabel]</li>
     <li>questName(lodgersCount==1)->[lodgersLabel]-位置</li>
-    <li>questName(lodgersCount==1)->保护 [lodgers0_nameDef]</li>
-    <li>questName(lodgersCount==1)->可怜的小家伙 [lodgers0_nameDef]</li>
-    <li>questName(lodgersCount>=2)->这 [animalAdj] [lodgersLabelPlural]</li>
-    <li>questName(lodgersCount>=2)->[animalAdj] [lodgersLabelPlural]</li>
-    <li>questName(lodgersCount>=2)->[animalAdj] [lodgersLabelPlural]</li>
+    <li>questName(lodgersCount==1)->保护[lodgers0_nameDef]</li>
+    <li>questName(lodgersCount==1)->可怜的小家伙[lodgers0_nameDef]</li>
+    <li>questName(lodgersCount>=2)->这[animalAdj][lodgersLabelPlural]</li>
+    <li>questName(lodgersCount>=2)->[animalAdj][lodgersLabelPlural]</li>
+    <li>questName(lodgersCount>=2)->[animalAdj][lodgersLabelPlural]</li>
     <li>questName(lodgersCount>=2)->[lodgersLabel]-位置</li>
-    <li>questName(lodgersCount==2)->保护 [lodgersLabelPlural]</li>
+    <li>questName(lodgersCount==2)->保护[lodgersLabelPlural]</li>
     <li>animalAdj->可爱的</li>
     <li>animalAdj->泪汪汪的</li>
     <li>animalAdj->忠实的</li>

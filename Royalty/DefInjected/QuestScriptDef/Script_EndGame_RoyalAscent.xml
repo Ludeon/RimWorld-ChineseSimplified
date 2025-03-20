@@ -9,7 +9,7 @@
     <li>threatsInfo-></li>
   -->
   <EndGame_RoyalAscent.questDescriptionRules.rulesStrings>
-    <li>questDescription->[intro] [asker_faction_name]的[asker_faction_leaderTitle]，将会应邀对一个总督辖区进行常规访问。邀请其前来访问，并且在[shuttleDelayTicks_duration]内持续满足各种需求，之后所有人都可以乘坐穿梭机前往帝国舰队驻地。你可以选择加入帝国，或者逃离星球开始新生活。\n\n你可以通过完成任务来获取[asker_faction_name]的[asker_faction_royalFavorLabel]头衔。这也意味着你可能需要很多年才能完成这项事业。\n\n访问期间，你必须保证宾客们的心情高于[lodgersMoodThreshold_percent]。这也意味着你必须提供很多特权内容，例如准备一间豪华行宫等。[threatsInfo]\n\n[asker_faction_leaderTitle]带来的一些私人护卫将暂时听命于你。虽然[asker_faction_leaderTitle]不会在意这些人的生死哀乐，但你仍需要为这些护卫提供住处。\n\n你必须保证宾客们一直呆在[map_definite]，也不能把他们送离。如果你这次任务失败或者自行迁徙， 也不会影响你以后获取同样任务的机会。</li>
+    <li>questDescription->[intro] [asker_faction_name]的[asker_faction_leaderTitle]，将会应邀对一个总督辖区进行常规访问。邀请其前来访问，并且在[shuttleDelayTicks_duration]内持续满足各种需求，之后所有人都可以乘坐穿梭机前往帝国舰队驻地。你可以选择加入帝国，或者逃离星球开始新生活。\n\n你可以通过完成任务来获取[asker_faction_name]的[asker_faction_royalFavorLabel]头衔。这也意味着你可能需要很多年才能完成这项事业。\n\n访问期间，你必须保证宾客们的心情高于[lodgersMoodThreshold_percent]。这也意味着你必须提供很多特权内容，例如准备一间豪华行宫等。[threatsInfo]\n\n[asker_faction_leaderTitle]带来的一些私人护卫将暂时听命于你。虽然[asker_faction_leaderTitle]不会在意这些人的生死哀乐，但你仍需要为这些护卫提供住处。\n\n你必须保证宾客们一直呆在[map_definite]，也不能把他们送离。如果你这次任务失败或者自行迁徙，也不会影响你以后获取同样任务的机会。</li>
     <li>intro(sameQuestsCount==0)->你现在知晓了一种逃离这个星球的方法！\n\n</li>
     <li>intro(sameQuestsCount>=1)->你又得到了一次荣誉晋升的机会。\n\n</li>
     <li>threatsInfo(allowViolentQuests==true,priority=1)->\n\n其他人终于有机会杀死[asker_faction_leaderTitle]，你马上会迎来巨量的饱和式攻击。赶快准备防御力量吧！</li>
@@ -44,7 +44,7 @@
   <!-- EN: [asker_faction_leaderTitle] arrived -->
   <EndGame_RoyalAscent.LetterLabelAskerArrived.value.slateRef>[asker_faction_leaderTitle]已抵达</EndGame_RoyalAscent.LetterLabelAskerArrived.value.slateRef>
   <!-- EN: The [asker_faction_leaderTitle] of [asker_faction_name], has arrived.\n\nProtect him and satisfy his royal needs until the shuttle arrives in [shuttleDelayTicks_duration].\n\nAll of you can accompany the [asker_faction_leaderTitle] on the shuttle and travel to the Imperial flotilla to begin a new life. -->
-  <EndGame_RoyalAscent.LetterTextAskerArrived.value.slateRef>[asker_faction_name]的[asker_faction_leaderTitle]，[asker_nameDef]，已经抵达。\n\n你必须在穿梭机抵达前[shuttleDelayTicks_duration]内为[asker_objective]提供护卫并且满足[asker_possessive]各种需求。\n\n你们所有人都可以和 [asker_faction_leaderTitle] 同乘穿梭机前往帝国舰队驻地开始新生活。</EndGame_RoyalAscent.LetterTextAskerArrived.value.slateRef>
+  <EndGame_RoyalAscent.LetterTextAskerArrived.value.slateRef>[asker_faction_name]的[asker_faction_leaderTitle]，[asker_nameDef]，已经抵达。\n\n你必须在穿梭机抵达前[shuttleDelayTicks_duration]内为[asker_objective]提供护卫并且满足[asker_possessive]各种需求。\n\n你们所有人都可以和[asker_faction_leaderTitle]同乘穿梭机前往帝国舰队驻地开始新生活。</EndGame_RoyalAscent.LetterTextAskerArrived.value.slateRef>
   <!-- EN: Guest died: {SUBJECT_definite} -->
   <EndGame_RoyalAscent.LetterLabelGuestDied.slateRef>宾客{SUBJECT_definite}死亡。</EndGame_RoyalAscent.LetterLabelGuestDied.slateRef>
   <!-- EN: {SUBJECT_definite}, who you were charged to protect, has died. [failLetterEndingCommon] -->
@@ -56,7 +56,7 @@
   <!-- EN: The shuttle has arrived to collect the [asker_faction_leaderTitle].\n\nAll of you can accompany the [asker_faction_leaderTitle] on the shuttle and travel to the Imperial flotilla to begin a new life. -->
   <EndGame_RoyalAscent.LetterTextShuttleArrived.slateRef>穿梭机已经前来迎接[asker_faction_leaderTitle]。\n\n你们所有人都可以和[asker_faction_leaderTitle]同乘穿梭机前往帝国舰队驻地开始新生活。</EndGame_RoyalAscent.LetterTextShuttleArrived.slateRef>
   <!-- EN: The high stellarch will now welcome you into the Imperial flotilla as an honored noble party.\n\nYou might stay in the Imperial court and jockey for political power. Perhaps you'll avoid the drama and focus on enjoying ultratech luxuries. Or, you might even buy a ship and set a course for your long-lost home.\n\nThe choice is up to you. -->
-  <EndGame_RoyalAscent.EndGameEndingText.slateRef>至高星系主宰以对待荣誉贵族的规格欢迎你加入帝国舰队。\n\n你可以选择加入帝国上层，谋求更大的政治权力。 可能你也只想安心享受帝国技术带来的各种奢侈体验， 不愿再经历各种戏剧性的生活。 或许，你也可以买一艘飞船，选择衣锦还乡。\n\n决定权在你手中。</EndGame_RoyalAscent.EndGameEndingText.slateRef>
+  <EndGame_RoyalAscent.EndGameEndingText.slateRef>至高星系主宰以对待荣誉贵族的规格欢迎你加入帝国舰队。\n\n你可以选择加入帝国上层，谋求更大的政治权力。可能你也只想安心享受帝国技术带来的各种奢侈体验，不愿再经历各种戏剧性的生活。或许，你也可以买一艘飞船，选择衣锦还乡。\n\n决定权在你手中。</EndGame_RoyalAscent.EndGameEndingText.slateRef>
   <!-- EN: You've escaped on the Imperial shuttle! -->
   <EndGame_RoyalAscent.EndGameIntroText.slateRef>你已经乘坐帝国穿梭机离开！</EndGame_RoyalAscent.EndGameIntroText.slateRef>
   <!-- EN: {SUBJECT_bestRoyalTitle} unhappy -->
