@@ -18,7 +18,7 @@ http://ludeon.com/forums/index.php?topic=2933.0
 ![1.5](https://img.shields.io/badge/1.5-1.5.4403-yellow)
 ![Static Badge](https://img.shields.io/badge/%E6%9B%B4%E6%96%B0%E6%97%A5%E6%9C%9F-2025--06--12-green)
 
-* [GitHub 下载](https://github.com/Ludeon/RimWorld-ChineseSimplified/releases/tag/1.5.4409.zip)
+* [GitHub 下载](https://github.com/Ludeon/RimWorld-ChineseSimplified/releases/tag/1.5.4409)
 
 ### 稳定版 1.4
 
