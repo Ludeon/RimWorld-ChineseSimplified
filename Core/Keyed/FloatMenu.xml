@@ -22,8 +22,12 @@
   <!-- EN: Not allowed -->
   <NotAllowed>不允许</NotAllowed>
   
+  <!-- EN: Attack {1_labelShort} -->
+  <Attack>攻击{1_labelShort}</Attack>
   <!-- EN: Fire at {1_labelShort} -->
   <FireAt>射击{1_label}</FireAt>
+  <!-- EN: Remove -->
+  <Remove>移除</Remove>
 
   <!-- EN: out of range -->
   <OutOfRange>超出射程</OutOfRange>
@@ -41,6 +45,8 @@
   <IsNotDraftedLower>{1_labelShort}尚未被征召</IsNotDraftedLower>
   <!-- EN: cannot order characters you do not control -->
   <CannotOrderNonControlledLower>无法命令不由你操控的角色</CannotOrderNonControlledLower>
+  <!-- EN: cannot attack -->
+  <CannotAttack>无法攻击</CannotAttack>
   <!-- EN: cannot attack self -->
   <CannotAttackSelf>无法攻击自己</CannotAttackSelf>
   <!-- EN: cannot attack faction ally -->
@@ -88,6 +94,8 @@
   <AboveAllowedSkill>技能等级超过{0}</AboveAllowedSkill>
   <!-- EN: no reachable outside cell -->
   <NoReachableOutsideCell>没有可到达的区域</NoReachableOutsideCell>
+  <!-- EN: cannot exit map -->
+  <CannotExitMap>无法离开当前地图</CannotExitMap>
   <!-- EN: missing required skill level -->
   <MissingRequiredSkillLevel>缺少所需技能等级</MissingRequiredSkillLevel>
   <!-- EN: animal interacted too recently -->
@@ -228,6 +236,8 @@
   <TakingToBed>将{0_labelShort}送至床上。</TakingToBed>
   <!-- EN: Cannot rescue -->
   <CannotRescue>无法救援</CannotRescue>
+  <!-- EN: Cannot rescue {PAWN_labelShort} -->
+  <CannotRescuePawn>无法救援{PAWN_labelShort}</CannotRescuePawn>
 
   <!-- EN: Carry {1_labelShort} to cryptosleep casket -->
   <CarryToCryptosleepCasket>把{1_label}送入低温休眠舱</CarryToCryptosleepCasket>
@@ -289,12 +299,20 @@
   
   <!-- EN: Force wear {1_labelShort} -->
   <ForceWear>强制穿上{1_labelShort}</ForceWear>
+  <!-- EN: Force target to wear {1_labelShort}... -->
+  <ForceTargetToWear>强制目标穿上{1_labelShort}</ForceTargetToWear>
   <!-- EN: Cannot wear {1_label} -->
   <CannotWear>无法穿上{1_label}</CannotWear>
+  <!-- EN: Cannot force target to wear {1_label} -->
+  <CannotForceTargetToWear>无法强制目标穿上{1_label}</CannotForceTargetToWear>
   <!-- EN: Force equip {1_labelShort} -->
   <ForceEquipApparel>强制装备{1_labelShort}</ForceEquipApparel>
+  <!-- EN: Force target to equip {1_labelShort}... -->
+  <ForceTargetToEquipApparel>强制目标装备{1_labelShort}</ForceTargetToEquipApparel>
   <!-- EN: Cannot equip {1_label} -->
   <CannotEquipApparel>无法装备{1_label}</CannotEquipApparel>
+  <!-- EN: Cannot force target to equip {1_label} -->
+  <CannotForceTargetToEquipApparel>无法强制目标装备{1_label}</CannotForceTargetToEquipApparel>
   <!-- EN: missing body parts -->
   <CannotWearBecauseOfMissingBodyParts>身体部位缺失</CannotWearBecauseOfMissingBodyParts>
   
@@ -397,6 +415,8 @@
   <NoDoctor>没有医生</NoDoctor>
   <!-- EN: medical bed not for slaves -->
   <NotForSlaves>没有为奴隶准备的医疗床</NotForSlaves>
+  <!-- EN: Medical care disabled -->
+  <MedicalCareDisabled>医疗照顾已被禁用</MedicalCareDisabled>
   <!-- EN: occupied by {0} -->
   <SomeoneElseSleeping>已被{0}占用</SomeoneElseSleeping>
   
@@ -432,19 +452,6 @@
   <OfferGifts>提供礼物</OfferGifts>
   <!-- EN: Trade with {0} -->
   <TradeWithSettlement>与{0}进行交易</TradeWithSettlement>
-  
-  <!-- EN: Enter {0} -->
-  <EnterPortal>进入{0}</EnterPortal>
-  <!-- EN: Entering {0} -->
-  <EnteringPortal>正在进入{0}</EnteringPortal>
-  <!-- EN: Enter {0} -->
-  <CommandEnterPortal>进入{0}</CommandEnterPortal>
-  <!-- EN: Select people and items to enter the {0}. -->
-  <CommandEnterPortalDesc>选择人员和物品带进{0}。</CommandEnterPortalDesc>
-  <!-- EN: Cancel entering -->
-  <CommandCancelEnterPortal>取消进入</CommandCancelEnterPortal>
-  <!-- EN: Cancel loading people or items into this. -->
-  <CommandCancelEnterPortalDesc>取消将人员或物品加载到。</CommandCancelEnterPortalDesc>
 
   <!-- Specific thing interactions -->
   <!-- EN: Enter cryptosleep casket -->
@@ -460,8 +467,8 @@
   <!-- EN: Cannot {0} -->
   <CannotGenericWorkCustom>无法{0}</CannotGenericWorkCustom>
 
-  <!-- EN: Cannot prioritize: Incapable of {0} -->
-  <CannotMissingHealthActivities>无法优先（健康问题: {0}）</CannotMissingHealthActivities>
+  <!-- EN: Incapable of {0} -->
+  <CannotMissingHealthActivities>因健康问题无法{0}</CannotMissingHealthActivities>
 
   <!-- e.g. Already GERUND OBJECT, Already repairing wall, already hauling metal, etc -->
   <!-- EN: Already {0} {2_labelShort} -->
@@ -469,28 +476,28 @@
   <!-- EN: Already {0} -->
   <CannotGenericAlreadyAmCustom>已经在{0}</CannotGenericAlreadyAmCustom>
 
-  <!-- EN: Cannot prioritize: Will never do {0} -->
-  <CannotPrioritizeWorkTypeDisabled>无法优先（无法从事: {0}）</CannotPrioritizeWorkTypeDisabled>
+  <!-- EN: Will never do {0} -->
+  <CannotPrioritizeWorkTypeDisabled>无法从事:{0}</CannotPrioritizeWorkTypeDisabled>
   <!-- EN: lacking necessary title -->
   <MissingTitleAbility>缺少必要的头衔</MissingTitleAbility>
 
-  <!-- EN: Cannot prioritize: Will never {0} -->
-  <CannotPrioritizeWorkGiverDisabled>无法优先（无法{0}）</CannotPrioritizeWorkGiverDisabled>
+  <!-- EN: Will never {0} -->
+  <CannotPrioritizeWorkGiverDisabled>无法{0}</CannotPrioritizeWorkGiverDisabled>
   <!-- EN: will never {0} -->
   <WillNever>不会{0}</WillNever>
 
-  <!-- EN: Cannot prioritize: Not assigned to {0} -->
-  <CannotPrioritizeNotAssignedToWorkType>无法优先（未指派工作: {0}）</CannotPrioritizeNotAssignedToWorkType>
+  <!-- EN: Not assigned to {0} -->
+  <CannotPrioritizeNotAssignedToWorkType>未指派工作: {0}</CannotPrioritizeNotAssignedToWorkType>
   <!-- EN: not assigned -->
   <NotAssigned>未指派</NotAssigned>
   <!-- EN: not assigned to {0} -->
   <NotAssignedToWorkType>未指派{0}</NotAssignedToWorkType>
 
-  <!-- EN: Cannot prioritize: Research is a long-term task -->
-  <CannotPrioritizeResearch>无法优先（研究为长期工作）</CannotPrioritizeResearch>
+  <!-- EN: Research is a long-term task -->
+  <CannotPrioritizeResearch>研究为长期工作</CannotPrioritizeResearch>
 
-  <!-- EN: Cannot prioritize: {1_label} is forbidden -->
-  <CannotPrioritizeForbidden>无法优先（{1_label}已被禁用）</CannotPrioritizeForbidden>
+  <!-- EN: {1_label} is forbidden -->
+  <CannotPrioritizeForbidden>{1_label}已被禁用</CannotPrioritizeForbidden>
   <!-- EN: Cannot prioritize: Forbidden -->
   <CannotPrioritizeCellForbidden>无法优先（禁用）</CannotPrioritizeCellForbidden>
   <!-- EN: Outside allowed area -->
@@ -501,7 +508,13 @@
   <!-- e.g. Prioritize GERUND OBJECT, Prioritize repairing wall, prioritize hauling metal, etc -->
   <!-- EN: Prioritize {0} {1} -->
   <PrioritizeGeneric>优先{0}{1}</PrioritizeGeneric>
-  
+  <!-- EN: Prioritize {0} -->
+  <PrioritizeGenericSimple>优先{0}</PrioritizeGenericSimple>
+
+  <!-- EN: Launch to {LOCATION_label} -->
+  <LaunchTo>发射到{LOCATION_label}</LaunchTo>
+  <!-- EN: Are you sure you want to launch? -->
+  <LaunchToConfirmation>确定要发射吗？</LaunchToConfirmation>
   <!-- EN: Drop at edge -->
   <DropAtEdge>空投至边缘</DropAtEdge>
   <!-- EN: Drop in center -->
@@ -626,4 +639,24 @@
   <AlreadyAnalyzed>已分析</AlreadyAnalyzed>
   <!-- EN: no reachable, un-reserved research bench available -->
   <NoResearchBench>缺少可到达的、未预留的研究台</NoResearchBench>
+
+  <!-- Hacking -->
+  <!-- EN: Hack {0} -->
+  <Hack>破解{0}</Hack>
+  <!-- EN: Choose a colonist to hack this. -->
+  <HackDesc>选择一个殖民者来破解这个。</HackDesc>
+  <!-- EN: Cannot hack {0} -->
+  <CannotHack>无法破解{0}</CannotHack>
+  <!-- EN: Locked out -->
+  <LockedOut>锁定</LockedOut>
+  <!-- EN: Already hacked -->
+  <AlreadyHacked>已经被破解</AlreadyHacked>
+  <!-- EN: Incapable of hacking -->
+  <IncapableOfHacking>无法破解</IncapableOfHacking>
+  <!-- EN: to drop supplies -->
+  <ToDropSupplies>（空投补给）</ToDropSupplies>
+
+  <!-- UNUSED -->
+  <CommandEnterPortal>进入{0}</CommandEnterPortal>
+
 </LanguageData>

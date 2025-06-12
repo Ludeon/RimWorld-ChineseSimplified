@@ -102,19 +102,56 @@
   <AreYouSure>你确定要这么做吗?</AreYouSure>
   <!-- EN: Changing bed use affects the whole room (since prisoners, slaves and colonists cannot sleep in the same room).\n\nThese people will lose ownership of their beds: -->
   <ChangingOwnerTypeBedWarning>改变床的用途会影响整个房间（因为囚犯、奴隶和殖民者不能睡在同一个房间）。\n\n这些人将失去对他们床的所有权：</ChangingOwnerTypeBedWarning>
-
-
+  
   <!-- EN: Detonate -->
   <CommandDetonateLabel>引爆</CommandDetonateLabel>
   <!-- EN: Start the countdown to detonation. -->
   <CommandDetonateDesc>开始倒计时引爆。</CommandDetonateDesc>
-
+  
   <!-- EN: Hide -->
-  <CommandHideZoneLabel>隐藏</CommandHideZoneLabel>
+  <CommandHideLabel>隐藏</CommandHideLabel>
   <!-- EN: Unhide -->
-  <CommandUnhideZoneLabel>显示</CommandUnhideZoneLabel>
-  <!-- EN: Hide/unhide this zone. -->
-  <CommandHideZoneDesc>显示/隐藏该区域。</CommandHideZoneDesc>
+  <CommandUnhideLabel>取消隐藏</CommandUnhideLabel>
+  
+  <!-- EN: Toggle this plan's visibility.\n\nRight-click to hide or unhide all zones. -->
+  <CommandHidePlanDesc>切换该计划的可见性。\n\n右键单击隐藏或取消隐藏所有区域。</CommandHidePlanDesc>
+  <!-- EN: Hide/unhide this zone.\n\nRight-click to hide or unhide all zones. -->
+  <CommandHideZoneDesc>显示/隐藏该区域。\n\n右键单击隐藏或取消隐藏所有区域。</CommandHideZoneDesc>
+  
+  <!-- EN: Show all zones -->
+  <ShowAllZones>显示所有区域</ShowAllZones>
+  <!-- EN: Hide all zones -->
+  <HideAllZones>隐藏所有区域</HideAllZones>
+  <!-- EN: Show all {0} zones -->
+  <ShowAllZoneTypes>显示所有{0}区域</ShowAllZoneTypes>
+  <!-- EN: Hide all {0} zones -->
+  <HideAllZoneTypes>隐藏所有{0}区域</HideAllZoneTypes>
+  <!-- EN: planning -->
+  <Planning>计划</Planning>
+  
+  <!-- EN: Change color -->
+  <CommandChangeColorPlanLabel>切换颜色</CommandChangeColorPlanLabel>
+  <!-- EN: Change the color of this plan. -->
+  <CommandChangeColorPlanDesc>切换这个计划的颜色。</CommandChangeColorPlanDesc>
+  
+  <!-- EN: Delete -->
+  <CommandDeletePlanLabel>删除</CommandDeletePlanLabel>
+  <!-- EN: Delete this plan. -->
+  <CommandDeletePlanDesc>删除计划。</CommandDeletePlanDesc>
+  
+  <!-- EN: Copy -->
+  <CommandCopyPlanLabel>复制</CommandCopyPlanLabel>
+  <!-- EN: Copy this plan. -->
+  <CommandCopyPlanDesc>复制这个计划。</CommandCopyPlanDesc>
+  
+  <!-- EN: Copy selection... -->
+  <CommandCopyPlanSelectionLabel>选区复制</CommandCopyPlanSelectionLabel>
+  <!-- EN: Copy all plans within a selected area. -->
+  <CommandCopyPlanSelectionDesc>复制选区内的所有计划</CommandCopyPlanSelectionDesc>
+  <!-- EN: Select area to copy -->
+  <CommandCopyPlanSelectionMouse>选择一片区域复制</CommandCopyPlanSelectionMouse> <!-- text_todo -->
+  <!-- EN: Paste selected area -->
+  <CommandCopyPlanSelectionPasteMouse>粘贴选中的区域</CommandCopyPlanSelectionPasteMouse> <!-- text_todo -->
 
   <!-- EN: Delete -->
   <CommandDeleteZoneLabel>删除</CommandDeleteZoneLabel>
@@ -357,6 +394,16 @@
   <CommandSettleFailNoColonists>需要有人在那里才能占领区域。</CommandSettleFailNoColonists>
   <!-- EN: There are enemies in this area. -->
   <CommandSettleFailEnemies>此区域内有敌人。</CommandSettleFailEnemies>
+  <!-- EN: Cannot settle here. -->
+  <CommandSettleFailGeneric>无法在此处定居。</CommandSettleFailGeneric>
+
+  <!-- Camp -->
+  <!-- EN: Camp -->
+  <CommandCamp>设立营地</CommandCamp>
+  <!-- EN: Set up a temporary camp that can quickly be abandoned. -->
+  <CommandCampDesc>设立一个可以随时遗弃的营地。</CommandCampDesc>
+  <!-- EN: Cannot camp here. -->
+  <CommandCampFailExistingWorldObject>无法在此处设立营地。</CommandCampFailExistingWorldObject>
   
   <!-- Abandon home -->
   <!-- EN: Abandon -->
@@ -383,6 +430,20 @@
   <CommandAddToCaravan>加入远行队</CommandAddToCaravan>
   <!-- EN: Add this person or animal to the forming caravan. -->
   <CommandAddToCaravanDesc>将这个人或动物加入组建中的远行队。</CommandAddToCaravanDesc>
+  
+  <!-- Force caravan depart -->
+  <!-- EN: Force caravan departure -->
+  <CommandForceCaravanDepart>强制远行队离开</CommandForceCaravanDepart>
+  <!-- EN: Force the caravan to depart immediately with only the currently-loaded items. Anyone unable to travel will be left behind. -->
+  <CommandForceCaravanDepartDesc>强制远行队仅携带现有物品立即离开。所有未携带人员及物资都将被留下。</CommandForceCaravanDepartDesc>
+  <!-- EN: Are you sure you want to depart? -->
+  <ConfirmForceDepartIntro>确定要离开吗？</ConfirmForceDepartIntro>
+  <!-- EN: The following items are still being loaded and will be left behind: -->
+  <ConfirmForceDepartItemsStillLoading>以下物品仍未被携带：</ConfirmForceDepartItemsStillLoading>
+  <!-- EN: The following people won't be a part of the caravan: -->
+  <ConfirmForceDepartPawnsNotLeaving>以下人员将不会成为远行队的一员：</ConfirmForceDepartPawnsNotLeaving>
+  <!-- EN: The following items are loaded onto creatures who won't be a part of the caravan and will be left behind: -->
+  <ConfirmForceDepartItemsOnPawnsNotLeaving>以下物品已装载于未编入远行队的驮兽之上，无法被带走：</ConfirmForceDepartItemsOnPawnsNotLeaving>
   
   <!-- Show map -->
   <!-- EN: Zoom in -->
@@ -433,27 +494,41 @@
   <!-- Refueling -->
   <!-- EN: Toggle automatic refuel -->
   <CommandToggleAllowAutoRefuel>切换自动添加燃料</CommandToggleAllowAutoRefuel>
-  <!-- EN: Sets whether or not automatic refueling is allowed. -->
-  <CommandToggleAllowAutoRefuelDesc>设置是否允许自动添加燃料。</CommandToggleAllowAutoRefuelDesc>
-  
+  <!-- EN: This determines whether colonists will automatically refuel this. If enabled, colonists will fill this up to {0}.\n\nAutomatic refueling is currently {ONOFF}. -->
+  <CommandToggleAllowAutoRefuelDesc>此设置决定殖民者是否会自动给此设施添加燃料。启用后，殖民者将添加燃料到{0}。\n\n自动添加燃料功能当前为{ONOFF}当前设置：{ONOFF}。</CommandToggleAllowAutoRefuelDesc>
+  <!-- EN: This determines whether colonists will automatically refuel these buildings.\n\nAutomatic refueling is currently {ONOFF}. -->
+  <CommandToggleAllowAutoRefuelDescMult>此设置决定殖民者是否会为这些建筑自动添加燃料。\n\n自动添加燃料功能当前为{ONOFF}。</CommandToggleAllowAutoRefuelDescMult>
+
   <!-- Cancel load -->
   <!-- EN: Cancel load -->
   <CommandCancelLoad>取消装载</CommandCancelLoad>
   <!-- EN: Cancel loading this with people or items and eject everything already loaded. -->
   <CommandCancelLoadDesc>取消当前人员或物品的装载任务，并卸载所有已装载的物品。</CommandCancelLoadDesc>
-  
+  <!-- EN: Unload all -->
+  <CommandUnload>卸载</CommandUnload>
+  <!-- EN: Eject all contents from the {0}. -->
+  <CommandUnloadDesc>从{0}中卸载所有物品。</CommandUnloadDesc>
+
   <!-- Launch group -->
   <!-- EN: Launch -->
   <CommandLaunchGroup>发射</CommandLaunchGroup>
   <!-- EN: Take off and fly to a destination. -->
   <CommandLaunchGroupDesc>启动发射运输舱的目标定位程序。下一步将选择目的地。同一组运输舱会自动飞向目的地并一起降落。 </CommandLaunchGroupDesc>
+  <!-- EN: Must be loaded first. -->
+  <CommandLaunchGroupFailNotLoaded>必须先装载内容。</CommandLaunchGroupFailNotLoaded>
   <!-- EN: Some transport pods in this loading group are not connected to a fueling port. -->
   <CommandLaunchGroupFailNotConnectedToFuelingPort>本发射组中部分运输舱未连接至燃料供给端。</CommandLaunchGroupFailNotConnectedToFuelingPort>
-  <!-- EN: Some pod launchers in this group have no fuel. -->
-  <CommandLaunchGroupFailNoFuel>本发射组中部分运输舱发射器缺少燃料。</CommandLaunchGroupFailNoFuel>
-  <!-- EN: Some pod launchers are under a roof. -->
+  <!-- EN: Roof blocking launch. -->
   <CommandLaunchGroupFailUnderRoof>部分运输舱发射器处于屋顶下。</CommandLaunchGroupFailUnderRoof>
-  
+  <!-- EN: Not enough fuel to launch. -->
+  <CommandLaunchGroupFailNoFuel>本发射组中部分运输舱发射器缺少燃料。</CommandLaunchGroupFailNoFuel>
+  <!-- EN: Over mass capacity. -->
+  <CommandLaunchGroupFailOverMassCapacity>重量超标</CommandLaunchGroupFailOverMassCapacity>
+  <!-- EN: On cooldown. -->
+  <CommandLaunchGroupCooldown>冷却中。</CommandLaunchGroupCooldown>
+  <!-- EN: {0} / {1} kg -->
+  <MassUsageString>{0}/{1}kg</MassUsageString>
+
   <!-- Load transporter -->
   <!-- EN: Load launch group of {0} -->
   <CommandLoadTransporter>装载发射组: {0}</CommandLoadTransporter>
@@ -665,8 +740,34 @@
   <!-- Limited use count action -->
   <!-- EN: No uses left. -->
   <CommandNoUsesLeft>无用处。</CommandNoUsesLeft>
+
+  <!-- Map Portal -->
+  <!-- EN: View {0} -->
+  <CommandViewPocketMapLabel>查看{0}</CommandViewPocketMapLabel>
+  <!-- EN: View the connected {0} map. -->
+  <CommandViewPocketMapDesc>查看连通的{0}地图。</CommandViewPocketMapDesc>
+  <!-- EN: View surface -->
+  <CommandViewSurface>查看地图表</CommandViewSurface>
+  <!-- EN: View the connected surface map. -->
+  <CommandViewSurfaceDesc>查看连通地表地图。</CommandViewSurfaceDesc>
+
+  <!-- Auto-build pod -->
+  <!-- EN: Auto build transport pod -->
+  <AutoBuildTransportPod>自动建造运输舱</AutoBuildTransportPod>
+  <!-- EN: If on, your colonists will automatically build a new transport pod when possible. -->
+  <AutoBuildTransportPodDesc>如果开启，在有材料的情况下你的殖民者会自动建造一个新的运输舱。</AutoBuildTransportPodDesc>
+  
+  <!-- Hacking gizmo -->
+  <!-- EN: Hack... -->
+  <HackGizmo>骇入</HackGizmo>
+  <!-- EN: Cannot hack -->
+  <CannotChooseHacker>无法骇入</CannotChooseHacker>
+  <!-- EN: Choose hacker -->
+  <CommandChooseHacker>选择骇客</CommandChooseHacker>
   
   <!-- UNUSED -->
+  <CommandHideZoneLabel>隐藏</CommandHideZoneLabel>
+  <CommandUnhideZoneLabel>显示</CommandUnhideZoneLabel>
   <CommandRenameZoneLabel>重命名</CommandRenameZoneLabel>
   <CommandRenameZoneDesc>重命名该区域。</CommandRenameZoneDesc>
 

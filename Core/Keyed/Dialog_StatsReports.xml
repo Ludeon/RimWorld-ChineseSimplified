@@ -246,6 +246,14 @@
   <Stat_Race_RoamInterval_Desc>一个被驯服的动物多久会试图迁徙并离开地图。\n\n动物只有在有一条直接通往地图边缘的路径时才会迁徙。你可以使用栅栏、路障、墙壁和门来防止这种情况。\n\n动物饲养员可以用绳子拴住迁徙中的动物，并把它们带回圈里。</Stat_Race_RoamInterval_Desc>
   <!-- EN: The recreational value of ingesting this. Higher numbers will fulfill the recreation need more. -->
   <Stat_Thing_Ingestible_Joy_Desc>摄入该物品所获得的娱乐值。更高的数值将满足更多的娱乐需求。</Stat_Thing_Ingestible_Joy_Desc>
+  <!-- EN: The weight of this creature and their equipment. -->
+  <Stat_Mass_Desc>这种生物及其装备的重量。</Stat_Mass_Desc>
+  <!-- EN: Base mass -->
+  <Stat_Mass_Base>基础重量</Stat_Mass_Base>
+  <!-- EN: Mass from equipment -->
+  <Stat_Mass_Equipment>装备重量</Stat_Mass_Equipment>
+  <!-- EN: Total mass -->
+  <Stat_Mass_Total>总重量</Stat_Mass_Total>
   <!-- EN: The size of this creature's body, compared to an average adult human. -->
   <Stat_Race_BodySize_Desc>与普通的成年人相比，这种生物的体型大小。</Stat_Race_BodySize_Desc>
   <!-- EN: How close this creature is to adulthood.\n\nGrowth requires nourishment. A hungry animal will grow at a slower rate compared to a well-fed one. -->
@@ -260,6 +268,12 @@
   <Stat_Thing_Weapon_BurstShotFireRate_Desc>该武器射击时的子弹射速。</Stat_Thing_Weapon_BurstShotFireRate_Desc>
   <!-- EN: The maximum range of this weapon. -->
   <Stat_Thing_Weapon_Range_Desc>该武器的最大射程。</Stat_Thing_Weapon_Range_Desc>
+  <!-- EN: Range multiplier -->
+  <Stat_Thing_Weapon_Range_Multiplier>射程倍率</Stat_Thing_Weapon_Range_Multiplier>
+  <!-- EN: Reduced from {ORIGINAL} to {CAP} by weather. -->
+  <Stat_Thing_Weapon_Range_Clamped>由于天气原因从{ORIGINAL}降为}{CAP}。</Stat_Thing_Weapon_Range_Clamped>
+  <!-- EN: Aiming time multiplier -->
+  <Stat_Thing_Weapon_WarmupTime_Multiplier>瞄准时间倍率</Stat_Thing_Weapon_WarmupTime_Multiplier>
   <!-- EN: The radius of random spread on shots fired by this weapon.\n\nHigh values make projectiles disperse randomly around the target. -->
   <Stat_Thing_Weapon_MissRadius_Desc>该武器射击时的随机散布半径。越高的数值会使得炮弹在目标周围分布更散。</Stat_Thing_Weapon_MissRadius_Desc>
   <!-- EN: The chance that a shot will directly hit its target if not intercepted, dodged or stopped. -->
@@ -551,6 +565,20 @@
   <ContainedBookBeauty>包含书籍美观度</ContainedBookBeauty>
   <!-- EN: {0} hits -->
   <Stat_TrapDamageHitCount>{0}次</Stat_TrapDamageHitCount>
+
+  <!-- EN: The amount of progress that has been made towards hacking this object. -->
+  <Stat_Thing_HackingProgress>破解此物体的进度。</Stat_Thing_HackingProgress>
+
+  <!-- EN: Multiplier for {0} terrain -->
+  <StatsReport_TerrainSpeedMultiplier>{0}的地形改造速度倍率</StatsReport_TerrainSpeedMultiplier>
+
+  <!-- EN: {0} trained -->
+  <StatsReport_Trainable>{0}已经被驯化</StatsReport_Trainable>
+  <!-- EN: Available training -->
+  <StatsReport_AvailableTraining>可训练的技能</StatsReport_AvailableTraining>
+  <!-- EN: The tasks that this creature can be trained to perform. The available training is dependent on the creature's trainability, body size, and species. -->
+  <StatsReport_AvailableTraining_Desc>该生物可以通过训练学得的技能。可训练的技能取决于生物的可训练度、体型和物种。</StatsReport_AvailableTraining_Desc>
+  
   <!-- UNUSED -->
   <HeldBookCount>持有书本</HeldBookCount>
 

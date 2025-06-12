@@ -70,11 +70,6 @@
   <!-- EN: A colonist is left unburied.\n\nThis may negatively affect your colonists' mood. -->
   <AlertColonistLeftUnburiedDesc>一名殖民者的尸体没有被安葬。\n\n这可能会对你的殖民者心情产生负面影响。</AlertColonistLeftUnburiedDesc>
 
-  <!-- EN: Hunter lacks suitable weapon -->
-  <HunterLacksWeapon>猎人需要远程武器</HunterLacksWeapon>
-  <!-- EN: A colonist is assigned to work as a hunter but does not have a ranged weapon appropriate for hunting.\n\nThey will not hunt until they are carrying an appropriate weapon.\n\nThe following colonists are assigned as hunters and need suitable ranged weapons -->
-  <HunterLacksWeaponDesc>一名分配了「狩猎」工作的殖民者没有远程武器。\n\n他们在得到一把远程武器之前不会去狩猎。\n\n以下殖民者被指定狩猎工作但没有远程武器</HunterLacksWeaponDesc>
-
   <!-- EN: Tattered apparel -->
   <AlertTatteredApparel>衣衫褴褛</AlertTatteredApparel>
   <!-- EN: These colonists are wearing tattered apparel, which is making them sad:\n{0}\n\nGet them some apparel that isn't so badly damaged.\n\nYou can tailor apparel at a crafting spot or tailoring table, or buy it from traders. -->
@@ -152,6 +147,8 @@
   <!-- EN: You have the equipment to do research but have not selected a project.\n\n(Click to open the research menu.) -->
   <NeedResearchProjectDesc>你有研究设施，但没有选择研究项目。\n\n打开「研究」菜单并选择一个研究项目。</NeedResearchProjectDesc>
 
+  <!-- EN: 1 colonist idle -->
+  <ColonistIdle>殖民者无事可做</ColonistIdle>
   <!-- EN: {0} colonists idle -->
   <ColonistsIdle>{0}位殖民者无事可做</ColonistsIdle>
   <!-- EN: These colonists are wandering idly:\n{0}\n\nYou should probably find them something productive to do. -->
@@ -334,4 +331,8 @@
   <!-- EN: You have an active research project '{0}'. This project requires you to build {1}. -->
   <NeedResearchBenchDesc>你已激活了研究项目“{0}”，这个项目需要你建造{1}。</NeedResearchBenchDesc>
   
+  <!-- UNUSED -->
+  <HunterLacksWeapon>猎人需要远程武器</HunterLacksWeapon>
+  <HunterLacksWeaponDesc>一名分配了「狩猎」工作的殖民者没有远程武器。\n\n他们在得到一把远程武器之前不会去狩猎。\n\n以下殖民者被指定狩猎工作但没有远程武器</HunterLacksWeaponDesc>
+
 </LanguageData>
