@@ -21,6 +21,11 @@
   <!-- EN: The weapon's accuracy at a distance of 3 cells or less.\n\nAn actual shot's chance to hit will also be affected by other factors. -->
   <AccuracyTouch.description>武器在3格或更近距离的精度乘数。\n\n实际命中率也受其他因素的影响。</AccuracyTouch.description>
   
+  <!-- EN: armor penetration multiplier -->
+  <RangedWeapon_ArmorPenetrationMultiplier.label>护甲穿透乘数</RangedWeapon_ArmorPenetrationMultiplier.label>
+  <!-- EN: A multiplier applied to armor penetration. -->
+  <RangedWeapon_ArmorPenetrationMultiplier.description>护甲穿透会乘以此项的值。</RangedWeapon_ArmorPenetrationMultiplier.description>
+  
   <!-- EN: ranged cooldown -->
   <RangedWeapon_Cooldown.label>远程冷却时间</RangedWeapon_Cooldown.label>
   <!-- EN: How long it takes to recover after firing this weapon. -->
@@ -30,7 +35,17 @@
   
   <!-- EN: damage multiplier -->
   <RangedWeapon_DamageMultiplier.label>伤害乘数</RangedWeapon_DamageMultiplier.label>
-  <!-- EN: A damage multiplier applied to projectiles fired from this weapon. -->
-  <RangedWeapon_DamageMultiplier.description>使用此武器发射的弹药伤害乘数。</RangedWeapon_DamageMultiplier.description>
+  <!-- EN: A multiplier applied to this weapon's damage. -->
+  <RangedWeapon_DamageMultiplier.description>武器的伤害会乘以此项的值。</RangedWeapon_DamageMultiplier.description>
+  
+  <!-- EN: range multiplier -->
+  <RangedWeapon_RangeMultiplier.label>射程乘数</RangedWeapon_RangeMultiplier.label>
+  <!-- EN: A multiplier applied to this weapon's range. -->
+  <RangedWeapon_RangeMultiplier.description>武器的射程会乘以此项的值。</RangedWeapon_RangeMultiplier.description>
+  
+  <!-- EN: aiming time multiplier -->
+  <RangedWeapon_WarmupMultiplier.label>瞄准时间乘数</RangedWeapon_WarmupMultiplier.label>
+  <!-- EN: A multiplier applied to this weapon's aiming time. -->
+  <RangedWeapon_WarmupMultiplier.description>武器的瞄准时间会乘以此项的值。</RangedWeapon_WarmupMultiplier.description>
   
 </LanguageData>

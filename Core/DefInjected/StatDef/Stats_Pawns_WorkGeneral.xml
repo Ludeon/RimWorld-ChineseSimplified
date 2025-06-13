@@ -41,6 +41,16 @@
   <!-- EN: The chance that this person will successfully repair a broken down building using a component.\n\nFailing means wasting time and resources.\nNote that this only applies to repairing breakdowns, which is different from repairing damage. -->
   <FixBrokenDownBuildingSuccessChance.description>成功地使用零部件修理损坏建筑的几率。\n\n失败意味着浪费时间和资源。\n注意此项仅应用于「损坏」，与修理「损伤」不同。</FixBrokenDownBuildingSuccessChance.description>
   
+  <!-- EN: hacking speed -->
+  <HackingSpeed.label>骇入速度</HackingSpeed.label>
+  <!-- EN: How fast this person can hack into computer terminals. -->
+  <HackingSpeed.description>这个人破解并骇入计算机终端的速度。</HackingSpeed.description>
+  
+  <!-- EN: hacking stealth -->
+  <HackingStealth.label>骇入隐蔽率</HackingStealth.label>
+  <!-- EN: How much hacking progress can be made on average before this person is temporarily locked out of a computer system. Only certain systems are capable of detecting hacking. -->
+  <HackingStealth.description>在被计算机系统暂时锁定前，这个人平均能骇入的程度。只有特定系统有能力检测到骇入。</HackingStealth.description>
+  
   <!-- EN: hunting stealth -->
   <HuntingStealth.label>狩猎隐蔽率</HuntingStealth.label>
   <!-- EN: This stat reduces the chance of hunted animals attacking the hunter.\n\nA 0% score means no reduction.\nA 100% score means animals never attack. -->

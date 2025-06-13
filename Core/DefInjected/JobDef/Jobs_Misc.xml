@@ -52,6 +52,9 @@
   <!-- EN: dropping TargetA. -->
   <DropEquipment.reportString>丢下TargetA。</DropEquipment.reportString>
   
+  <!-- EN: Ejecting fuel from TargetA. -->
+  <EjectFuel.reportString>从TargetA中排出燃料。</EjectFuel.reportString>
+  
   <!-- EN: emptying TargetA. -->
   <EmptyThingContainer.reportString>清空TargetA。</EmptyThingContainer.reportString>
   
@@ -89,10 +92,13 @@
   <Follow.reportString>跟随TargetA。</Follow.reportString>
   
   <!-- EN: following TargetA. -->
-  <FollowClose.reportString>正在跟随TargetA。</FollowClose.reportString>
+  <FollowClose.reportString>跟随TargetA。</FollowClose.reportString>
   
   <!-- EN: following TargetA. -->
   <FollowRoper.reportString>跟随TargetA。</FollowRoper.reportString>
+  
+  <!-- EN: making TargetA wear TargetB. -->
+  <ForceTargetWear.reportString>为TargetA穿戴TargetB。</ForceTargetWear.reportString>
   
   <!-- EN: taking TargetA. -->
   <GiveToPackAnimal.reportString>搬运TargetA。</GiveToPackAnimal.reportString>
@@ -104,37 +110,40 @@
   <GotoMindControlled.reportString>移动中。</GotoMindControlled.reportString>
   
   <!-- EN: seeking safe temperature. -->
-  <GotoSafeTemperature.reportString>正在寻找温度安全的地方。</GotoSafeTemperature.reportString>
+  <GotoSafeTemperature.reportString>寻找温度安全的地方。</GotoSafeTemperature.reportString>
   
   <!-- EN: wandering. -->
   <GotoWander.reportString>闲逛中。</GotoWander.reportString>
   
   <!-- EN: hauling TargetA. -->
-  <HaulCorpseToPublicPlace.reportString>正在搬运TargetA。</HaulCorpseToPublicPlace.reportString>
+  <HaulCorpseToPublicPlace.reportString>搬运TargetA。</HaulCorpseToPublicPlace.reportString>
   
   <!-- EN: hauling TargetA. -->
-  <HaulToPortal.reportString>正在搬运TargetA。</HaulToPortal.reportString>
+  <HaulToPortal.reportString>搬运TargetA。</HaulToPortal.reportString>
   
   <!-- EN: hauling TargetA. -->
-  <HaulToTransporter.reportString>正在搬运TargetA。</HaulToTransporter.reportString>
+  <HaulToTransporter.reportString>搬运TargetA。</HaulToTransporter.reportString>
   
   <!-- EN: idling. -->
   <IdleWhileDespawned.reportString>无可事事。</IdleWhileDespawned.reportString>
   
   <!-- EN: igniting TargetA. -->
-  <Ignite.reportString>正在点燃TargetA。</Ignite.reportString>
+  <Ignite.reportString>点燃TargetA。</Ignite.reportString>
   
   <!-- EN: inducing TargetA to escape. -->
-  <InducePrisonerToEscape.reportString>正在鼓动TargetA越狱。</InducePrisonerToEscape.reportString>
+  <InducePrisonerToEscape.reportString>鼓动TargetA越狱。</InducePrisonerToEscape.reportString>
   
   <!-- EN: consuming TargetA. -->
   <Ingest.reportString>享用TargetA。</Ingest.reportString>
   
+  <!-- EN: installing TargetB in TargetA. -->
+  <InstallImplant.reportString>为Target安装TargetB。</InstallImplant.reportString>
+  
   <!-- EN: insulting TargetA. -->
-  <Insult.reportString>正在侮辱TargetA。</Insult.reportString>
+  <Insult.reportString>侮辱TargetA。</Insult.reportString>
   
   <!-- EN: activating TargetA. -->
-  <InteractThing.reportString>正在激活TargetA。</InteractThing.reportString>
+  <InteractThing.reportString>激活TargetA。</InteractThing.reportString>
   
   <!-- EN: lying down. -->
   <LayDown.reportString>躺着。</LayDown.reportString>
@@ -167,22 +176,22 @@
   <RearmTurret.reportString>整备TargetA。</RearmTurret.reportString>
   
   <!-- EN: rearming TargetA. -->
-  <RearmTurretAtomic.reportString>正在整备TargetA。</RearmTurretAtomic.reportString>
+  <RearmTurretAtomic.reportString>整备TargetA。</RearmTurretAtomic.reportString>
   
   <!-- EN: refueling TargetA. -->
   <Refuel.reportString>给TargetA加燃料。</Refuel.reportString>
   
   <!-- EN: refueling TargetA. -->
-  <RefuelAtomic.reportString>正在给TargetA加燃料。</RefuelAtomic.reportString>
+  <RefuelAtomic.reportString>给TargetA加燃料。</RefuelAtomic.reportString>
   
   <!-- EN: reloading TargetA. -->
-  <Reload.reportString>正在装填TargetA。</Reload.reportString>
+  <Reload.reportString>装填TargetA。</Reload.reportString>
   
   <!-- EN: removing TargetA. -->
   <RemoveApparel.reportString>脱下TargetA。</RemoveApparel.reportString>
   
   <!-- EN: resurrecting TargetA. -->
-  <Resurrect.reportString>正在复活TargetA。</Resurrect.reportString>
+  <Resurrect.reportString>复活TargetA。</Resurrect.reportString>
   
   <!-- EN: fighting with TargetA. -->
   <SocialFight.reportString>和TargetA打架。</SocialFight.reportString>
@@ -218,10 +227,10 @@
   <UnloadYourInventory.reportString>装卸货物。</UnloadYourInventory.reportString>
   
   <!-- EN: activating artifact. -->
-  <UseArtifact.reportString>正在激活神器。</UseArtifact.reportString>
+  <UseArtifact.reportString>激活神器。</UseArtifact.reportString>
   
   <!-- EN: using TargetA. -->
-  <UseItem.reportString>正在使用TargetA。</UseItem.reportString>
+  <UseItem.reportString>使用TargetA。</UseItem.reportString>
   
   <!-- EN: using neurotrainer. -->
   <UseNeurotrainer.reportString>使用神经训练器。</UseNeurotrainer.reportString>

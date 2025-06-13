@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: battery -->
+  <Battery.label>蓄电池</Battery.label>
+  <!-- EN: Stores electricity for later use. Charged batteries explode when exposed to rain or fire. -->
+  <Battery.description>储存多余的电力并在电力供给不足时释放电力。\n\n注意：已充电的蓄电池在暴露于雨水或火焰中时会发生爆炸。</Battery.description>
+  
+  <!-- EN: chemfuel powered generator -->
+  <ChemfuelPoweredGenerator.label>化合燃料发电机</ChemfuelPoweredGenerator.label>
+  <!-- EN: Produces power by consuming chemfuel. Must be periodically refueled by hand. -->
+  <ChemfuelPoweredGenerator.description>通过消耗化合燃料发电。必须手动添加燃料。</ChemfuelPoweredGenerator.description>
+  
+  <!-- EN: geothermal generator -->
+  <GeothermalGenerator.label>地热发电机</GeothermalGenerator.label>
+  <!-- EN: Produces electricity from geothermal steam geysers. Must be placed on a steam geyser. -->
+  <GeothermalGenerator.description>利用蒸汽间歇喷泉的地热来发电。必须放置在蒸汽间歇喷泉上。</GeothermalGenerator.description>
+  
+  <!-- EN: hidden conduit -->
+  <HiddenConduit.label>隐藏电缆</HiddenConduit.label>
+  <!-- EN: Hidden electrical cables for moving power around. They're tougher than regular conduits, but also slower to build and more expensive. -->
+  <HiddenConduit.description>一捆用于传输电力的隐藏式电缆。比普通电缆更坚固，但建造较慢，成本也更高。可以安装于墙体、打磨的岩壁和其他建筑之下，但不能埋进山体中。</HiddenConduit.description>
+  
+  <!-- EN: power conduit -->
+  <PowerConduit.label>电缆</PowerConduit.label>
+  <!-- EN: A bundle of electrical cables for moving power around. Can be placed under walls and other buildings. -->
+  <PowerConduit.description>一捆用于传输电力的电缆。可以安装于墙体、打磨的岩壁和其他建筑之下，但不能埋进山体中。</PowerConduit.description>
+  
+  <!-- EN: power switch -->
+  <PowerSwitch.label>电力开关</PowerSwitch.label>
+  <!-- EN: Switches power on/off. -->
+  <PowerSwitch.description>连通/断开电网，决定电力是否能够通过。</PowerSwitch.description>
+  
+  <!-- EN: solar generator -->
+  <SolarGenerator.label>太阳能板</SolarGenerator.label>
+  <!-- EN: Produces electricity from sunlight. Does not work in the dark or under artificial light. -->
+  <SolarGenerator.description>利用太阳光来发电，在阳光不足时停止工作，人工光源无法用作发电。</SolarGenerator.description>
+  
+  <!-- EN: watermill generator -->
+  <WatermillGenerator.label>水轮发电机</WatermillGenerator.label>
+  <!-- EN: Produces electricity from a river. Must be placed with its wheel in moving water. If watermills are placed too close together, the turbulence they generate will interfere and reduce power generation. -->
+  <WatermillGenerator.description>通过河流的动能产生电力。必须把有轮子的那一侧放置在流动的水里。</WatermillGenerator.description>
+  
+  <!-- EN: waterproof conduit -->
+  <WaterproofConduit.label>防水电缆</WaterproofConduit.label>
+  <!-- EN: Insulated electrical cables for transmitting power through shallow water or mud. -->
+  <WaterproofConduit.description>能铺设在浅水下安全传输电力的绝缘电缆。</WaterproofConduit.description>
+  
+  <!-- EN: wind turbine -->
+  <WindTurbine.label>风力发电机</WindTurbine.label>
+  <!-- EN: A wind-powered electrical generator. Requires a large clear space in front and behind for optimal air flow. -->
+  <WindTurbine.description>一个风力驱动的发电机，前后需要较大的空旷空间，以获得最理想的气流。</WindTurbine.description>
+  
+  <!-- EN: wood-fired generator -->
+  <WoodFiredGenerator.label>木柴发电机</WoodFiredGenerator.label>
+  <!-- EN: Produces power by consuming wood. Must be periodically loaded with wood fuel by hand. -->
+  <WoodFiredGenerator.description>通过消耗木材发电。必须手动添加燃料。</WoodFiredGenerator.description>
+  
+</LanguageData>

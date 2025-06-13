@@ -4,7 +4,7 @@
   <!-- EN: flu -->
   <Animal_Flu.label>流感</Animal_Flu.label>
   <!-- EN: An infectious disease caused by the influenza virus. This strain is adapted for infecting non-human species. -->
-  <Animal_Flu.description>由流感病毒引起的传染病。这种疾病可以感染动物。</Animal_Flu.description>
+  <Animal_Flu.description>由流感病毒引起的传染性疾病。这种疾病可以感染动物。</Animal_Flu.description>
   <!-- EN: minor -->
   <Animal_Flu.stages.minor.label>较轻</Animal_Flu.stages.minor.label>
   <!-- EN: major -->
@@ -15,7 +15,7 @@
   <!-- EN: plague -->
   <Animal_Plague.label>瘟疫</Animal_Plague.label>
   <!-- EN: An infectious disease caused by bacteria. This strain is adapted to infecting non-human species. -->
-  <Animal_Plague.description>由细菌引起的传染病。这种疾病可以感染动物。</Animal_Plague.description>
+  <Animal_Plague.description>由细菌引起的传染性疾病。这种疾病可以感染动物。</Animal_Plague.description>
   <!-- EN: minor -->
   <Animal_Plague.stages.minor.label>较轻</Animal_Plague.stages.minor.label>
   <!-- EN: major -->
@@ -95,7 +95,7 @@
   <!-- EN: plague -->
   <Plague.label>瘟疫</Plague.label>
   <!-- EN: An infectious disease caused by bacteria. -->
-  <Plague.description>由细菌引起的传染病。</Plague.description>
+  <Plague.description>由细菌引起的传染性疾病。</Plague.description>
   <!-- EN: minor -->
   <Plague.stages.minor.label>较轻</Plague.stages.minor.label>
   <!-- EN: major -->
@@ -104,6 +104,23 @@
   <Plague.stages.extreme-0.label>严重</Plague.stages.extreme-0.label>
   <!-- EN: extreme -->
   <Plague.stages.extreme-1.label>极重</Plague.stages.extreme-1.label>
+  
+  <!-- EN: scaria infection -->
+  <ScariaInfection.label>狂暴症感染</ScariaInfection.label>
+  <!-- EN: An infection caused by scaria bacterium. If not treated, the infection will eventually drive the host into a berserk rage. -->
+  <ScariaInfection.description>由狂暴症细菌引起的感染。如果患者得不到及时的治疗，感染最终会导致其陷入狂暴状态。</ScariaInfection.description>
+  <!-- EN: Scaria: {PAWN_nameDef} -->
+  <ScariaInfection.comps.HediffComp_GiveHediff.letterLabel>狂暴症：{PAWN_nameDef}</ScariaInfection.comps.HediffComp_GiveHediff.letterLabel>
+  <!-- EN: {PAWN_nameDef} has developed scaria from {PAWN_possessive} infection, driving {PAWN_objective} into a berserk rage. Scaria can be cured with a special medical operation, but {PAWN_nameDef} must first be downed. -->
+  <ScariaInfection.comps.HediffComp_GiveHediff.letterText>由于感染未能得到抑制，{PAWN_nameDef}患上了狂暴症，这会使{PAWN_objective}陷入狂暴状态。狂暴症可以通过特殊的医疗手术进行治疗，但首先要让{PAWN_nameDef}倒地才行。</ScariaInfection.comps.HediffComp_GiveHediff.letterText>
+  <!-- EN: a scaria infection -->
+  <ScariaInfection.labelNoun>狂暴症感染</ScariaInfection.labelNoun>
+  <!-- EN: minor -->
+  <ScariaInfection.stages.minor.label>较轻</ScariaInfection.stages.minor.label>
+  <!-- EN: major -->
+  <ScariaInfection.stages.major.label>较重</ScariaInfection.stages.major.label>
+  <!-- EN: extreme -->
+  <ScariaInfection.stages.extreme.label>极重</ScariaInfection.stages.extreme.label>
   
   <!-- EN: sensory mechanites -->
   <SensoryMechanites.label>感官纳米机械感染</SensoryMechanites.label>
