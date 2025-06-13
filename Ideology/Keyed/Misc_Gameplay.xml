@@ -92,16 +92,16 @@
   <!-- EN: Chance to have precept -->
   <ChanceToHavePrecept>可选戒律</ChanceToHavePrecept>
   <!-- EN: {PAWN_labelShort}'s favorite color: {COLOR}\nHaving more than {PERCENTAGE} of {PAWN_possessive} apparel in this color{ORIDEO} will make {PAWN_objective} slightly happier.\n\nYou can alter apparel colors at the styling station using tinctoria dye. -->
-  <FavoriteColorTooltip>{PAWN_labelShort}的偏爱颜色:{COLOR}\n如果穿着的衣服超过{PERCENTAGE}染有此颜色{ORIDEO}，会让{PAWN_objective}感到愉悦。\n\n你可以在梳妆台使用染料调整服装颜色。</FavoriteColorTooltip>
+  <FavoriteColorTooltip>{PAWN_labelShort}的偏爱颜色：{COLOR}\n如果穿着的衣服超过{PERCENTAGE}染有此颜色{ORIDEO}，会让{PAWN_objective}感到愉悦。\n\n你可以在梳妆台使用染料调整服装颜色。</FavoriteColorTooltip>
   <!-- EN: , or the color of {PAWN_possessive} ideoligion, -->
   <OrIdeoColor>，或{PAWN_possessive}文化形态代表色</OrIdeoColor>
   <!-- EN: Set ideo color -->
   <SetIdeoColor>设置文化代表色</SetIdeoColor>
   <!-- EN: Set to favorite color -->
   <SetFavoriteColor>设置为偏好色</SetFavoriteColor>
-  <!-- EN: {PAWN_nameDef}’s favorite color. Having more than 60% of {PAWN_possessive} apparel in this color, or the color of {PAWN_possessive} ideoligion, will make {PAWN_objective} slightly happier. -->
+  <!-- EN: {PAWN_nameDef}'s favorite color. Having more than 60% of {PAWN_possessive} apparel in this color, or the color of {PAWN_possessive} ideoligion, will make {PAWN_objective} slightly happier. -->
   <FavoriteColorPickerTip>{PAWN_nameDef}的偏爱颜色。如果穿着的衣服超过60%染有此颜色或{PAWN_possessive}文化形态代表色，会让{PAWN_objective}感到愉悦。</FavoriteColorPickerTip>
-  <!-- EN: {PAWN_nameDef}’s ideoligion color. Having more than 60% of {PAWN_possessive} apparel in this color, or {PAWN_possessive} favorite color, will make {PAWN_objective} slightly happier. -->
+  <!-- EN: {PAWN_nameDef}'s ideoligion color. Having more than 60% of {PAWN_possessive} apparel in this color, or {PAWN_possessive} favorite color, will make {PAWN_objective} slightly happier. -->
   <IdeoColorPickerTip>{PAWN_nameDef}的文化形态代表色。如果穿着的衣服超过60%染有此颜色或{PAWN_possessive}偏爱色，会让{PAWN_objective}感到愉悦。</IdeoColorPickerTip>
   <!-- EN: Configure your faction's ideoligion -->
   <ConfigureIdeoligion>设置你派系的文化</ConfigureIdeoligion>
@@ -382,18 +382,6 @@
   <!-- EN: Slave -->
   <OutfitSlave>奴隶</OutfitSlave>
 
-  <!-- Hacking -->
-  <!-- EN: Hack progress -->
-  <HackProgress>骇入进度</HackProgress>
-  <!-- EN: hacking speed -->
-  <HackingSpeed>骇入速度</HackingSpeed>
-  <!-- EN: {0}'s -->
-  <HackingLastUser>{0}的</HackingLastUser>
-  <!-- EN: hacked -->
-  <Hacked>已骇入</Hacked>
-  <!-- EN: Terminals hacked -->
-  <TerminalsHacked>终端已骇入</TerminalsHacked>
-
   <!-- EN: Relic info found -->
   <RelicInfoFound>找到圣物信息</RelicInfoFound>
   <!-- EN: inactive, requires at least {0} {1}s (have {2}) -->
@@ -666,6 +654,8 @@
   <ChangeStyleDesc>改变将被建造物体的风格。这纯粹是视觉上的，对游戏没有影响。</ChangeStyleDesc>
   <!-- EN: No available styles. -->
   <ChangeStyleDisabledNoCategories>没有可用风格。</ChangeStyleDisabledNoCategories>
+  <!-- EN: Spacedrone self-destructs in {0} -->
+  <SpacedroneSelfDestructsIn>太空无人机将于{0}后自毁</SpacedroneSelfDestructsIn>
 
   <!-- UNUSED -->
   <RitualTargeWoodInfo>你需要为每位参与者（最多{2}位）准备{0}数量的木材，你当前的木材储量是{1}。</RitualTargeWoodInfo>
