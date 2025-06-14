@@ -443,7 +443,7 @@
   <!-- EN: Unnatural healing -->
   <LetterUnnaturalHealingLabel>异常医术</LetterUnnaturalHealingLabel>
   <!-- EN: {CASTER_nameDef} has finished {CASTER_possessive} psychic healing on {PAWN_nameDef}. -->
-  <LetterUnnaturalHealing>{CASTER_nameDef}已经完成了对{CASTER_possessive}治疗。</LetterUnnaturalHealing>
+  <LetterUnnaturalHealing>{CASTER_nameDef}已经完成了对{PAWN_nameDef}的治疗。</LetterUnnaturalHealing>
   <!-- EN: However, something went terribly wrong.\n\n{PAWN_nameDef}'s arm split open as a violent growth emerged from {PAWN_possessive} body. {PAWN_possessive} arm has been replaced by a fleshy tentacle! -->
   <LetterUnnaturalHealingTentacle>然而，治疗出了大问题。\n\n{PAWN_nameDef}的手臂被撕裂开来，从{PAWN_possessive}体内里猛地长出了奇怪的东西。{PAWN_possessive}手臂被一根血肉触手取代了！</LetterUnnaturalHealingTentacle>
   
@@ -451,9 +451,9 @@
   <!-- EN: {PAWN_nameDef} has transmuted {ORIGINAL} into {TRANSMUTED}. -->
   <MessageTransmutedItem>{PAWN_nameDef}将{ORIGINAL}转变为了{TRANSMUTED}。</MessageTransmutedItem>
   <!-- EN: {PAWN_nameDef} has transmuted {1} into {TRANSMUTED_labelShortIndef}. -->
-  <MessageTransmutedStuff>{PAWN_nameDef}将{ORIGINAL_labelShortIndef}转变为了{TRANSMUTED_labelShortIndef}。</MessageTransmutedStuff>
+  <MessageTransmutedStuff>{PAWN_nameDef}将{1}转变为了{TRANSMUTED_labelShortIndef}。</MessageTransmutedStuff>
   <!-- EN: {PAWN_nameDef} has transmuted {1} into {TRANSMUTED_labelPluralIndef}. -->
-  <MessageTransmutedStuffPlural>{PAWN_nameDef}将{ORIGINAL_labelPluralIndef}转变为了{TRANSMUTED_labelPluralIndef}。</MessageTransmutedStuffPlural>
+  <MessageTransmutedStuffPlural>{PAWN_nameDef}将{1}转变为了{TRANSMUTED_labelPluralIndef}。</MessageTransmutedStuffPlural>
   
   <!-- Electroharvester -->
   <!-- EN: No restrained entity. -->
