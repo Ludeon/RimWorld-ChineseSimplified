@@ -3,7 +3,7 @@
   <!-- EN: Auto-repair -->
   <CommandAutoRepair>自动维修</CommandAutoRepair>
   <!-- EN: If active, a mechanitor will automatically repair this mechanoid. Repairing a mechanoid drains its energy. -->
-  <CommandAutoRepairDesc>激活时，机械师将会自动维修这个机械体。维修工作将会消耗它的能量。</CommandAutoRepairDesc>
+  <CommandAutoRepairDesc>激活时，机械师将会自动维修这个机械族。维修工作将会消耗它的能量。</CommandAutoRepairDesc>
 
   <!-- EN: {0_labelShort} is deathresting. -->
   <CommandDisabledDeathresting>{0_labelShort}正在死眠。</CommandDisabledDeathresting>
@@ -16,7 +16,7 @@
   <!-- EN: Select overseer -->
   <CommandSelectOverseer>选择监管者</CommandSelectOverseer>
   <!-- EN: Select the mechanitor who is the overseer of this mech. -->
-  <CommandSelectOverseerDesc>为这个机械体选择一名机械师作为监管者。</CommandSelectOverseerDesc>
+  <CommandSelectOverseerDesc>为这个机械族选择一名机械师作为监管者。</CommandSelectOverseerDesc>
   <!-- EN: No overseer. -->
   <CommandSelectOverseerDisabledDesc>无监管者。</CommandSelectOverseerDisabledDesc>
 
@@ -26,9 +26,9 @@
   <CommandCancelExtractionDesc>取消提取进程，弹出包含的人员。</CommandCancelExtractionDesc>
 
   <!-- EN: Summon mech threat... -->
-  <CommandCallBossgroup>召唤机械体袭击</CommandCallBossgroup>
+  <CommandCallBossgroup>召唤机械族袭击</CommandCallBossgroup>
   <!-- EN: Summon an enemy leader mechanoid along with escorts.\n\nIf you defeat the leader mechanoid, it will drop a special chip which you can use to advance your own mechanoid technology.\n\nThere are three leader mechanoid types, each summoned a different way, each dropping a different type of chip. -->
-  <CommandCallBossgroupDesc>召唤一个指挥官机械体及其护卫队。\n\n如果成功消灭指挥官机械体，你就可以获得用于推进机械科技的特殊芯片。\n\n指挥官机械体有三种不同的类型，分别使用不同方式召唤，掉落不同类型的芯片。</CommandCallBossgroupDesc>
+  <CommandCallBossgroupDesc>召唤一个指挥官机械族及其护卫队。\n\n如果成功消灭指挥官机械族，你就可以获得用于推进机械科技的特殊芯片。\n\n指挥官机械族有三种不同的类型，分别使用不同方式召唤，掉落不同类型的芯片。</CommandCallBossgroupDesc>
 
   <!-- EN: Toggle auto load {0} -->
   <CommandAutoLoad>开关自动装载{0}</CommandAutoLoad>
@@ -41,9 +41,9 @@
   <CommandEjectContentsDesc>将所有{0}弹出。</CommandEjectContentsDesc>
 
   <!-- EN: Select all mechs -->
-  <CommandSelectAllMechs>选择所有机械体</CommandSelectAllMechs>
+  <CommandSelectAllMechs>选择所有机械族</CommandSelectAllMechs>
   <!-- EN: Select all mechanoids controlled by this mechanitor. -->
-  <CommandSelectAllMechsDesc>选择这名机械师控制的所有机械体。</CommandSelectAllMechsDesc>
+  <CommandSelectAllMechsDesc>选择这名机械师控制的所有机械族。</CommandSelectAllMechsDesc>
 
   <!-- EN: Turret enabled -->
   <CommandToggleTurret>开关炮塔</CommandToggleTurret>

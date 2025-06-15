@@ -28,8 +28,8 @@
     <li>condDesc(gameCondition==ToxicFallout)->然而，[joiner_nameDef]只能通过放火引燃附近的一个大型剧毒化学废料场来杀死这些饿狼。因此接下来的[gameConditionDuration_duration]将会引发持续性的有毒尘埃。</li>
     <li>hidingFrom(gameCondition==VolcanicWinter)->一群食人族</li>
     <li>condDesc(gameCondition==VolcanicWinter)->然而，[joiner_nameDef]只能通过放火引燃附近的一个大型垃圾堆来杀死这帮家伙。如果[joiner_pronoun]投奔你而来，放火导致的烟雾会在[gameConditionDuration_duration]内持续遮挡阳光。</li>
-    <li>hidingFrom(gameCondition==EMIField)->一群机械体</li>
-    <li>condDesc(gameCondition==EMIField)->然而，[joiner_nameDef]只能通过激活一台古老的电磁干扰装置来消灭这些机械体。如果[joiner_pronoun]投奔你而来，持续[gameConditionDuration_duration]的强电磁干扰将会关闭所有的电子设备。</li>
+    <li>hidingFrom(gameCondition==EMIField)->一群机械族</li>
+    <li>condDesc(gameCondition==EMIField)->然而，[joiner_nameDef]只能通过激活一台古老的电磁干扰装置来消灭这些机械族。如果[joiner_pronoun]投奔你而来，持续[gameConditionDuration_duration]的强电磁干扰将会关闭所有的电子设备。</li>
     <li>hidingFrom(gameCondition==HeatWave)->一颗故障的气候控制卫星</li>
     <li>condDesc(gameCondition==HeatWave)->如果[joiner_pronoun]投奔你而来，将会袭来一场持续[gameConditionDuration_duration]的非正常热浪，卫星系统自动重置后将会恢复正常。</li>
     <li>hidingFrom(gameCondition==ColdSnap)->一颗故障的气候控制卫星</li>
@@ -206,12 +206,12 @@
     <li>introduction(childCount==1,priority=1)->[joiner_age]岁孩子</li>
     <li>introduction->[joiner_age]岁[joiner_title]</li>
     <li>threat(priority=1,site/Outpost_exists==True)->[site/enemyFaction_name]的[site/enemyFaction_pawnsPlural]</li>
-    <li>threat(priority=1,site/MechCluster_exists==True)->机械体</li>
-    <li>threat(priority=1,site/SleepingMechanoids_exists==True)->机械体</li>
+    <li>threat(priority=1,site/MechCluster_exists==True)->机械族</li>
+    <li>threat(priority=1,site/SleepingMechanoids_exists==True)->机械族</li>
     <li>threat->[joiner_possessive]敌人</li>
     <li>joinersEnemies(priority=1,site/Outpost_exists==True)->[site/enemyFaction_name]</li>
-    <li>joinersEnemies(priority=1,site/MechCluster_exists==True)->机械体</li>
-    <li>joinersEnemies(priority=1,site/SleepingMechanoids_exists==True)->机械体</li>
+    <li>joinersEnemies(priority=1,site/MechCluster_exists==True)->机械族</li>
+    <li>joinersEnemies(priority=1,site/SleepingMechanoids_exists==True)->机械族</li>
     <li>joinersEnemies->[joiner_possessive]敌人</li>
   </ThreatReward_SiteThreat_Joiner.questDescriptionRules.rulesStrings>
   <!-- EN:

@@ -4,7 +4,7 @@
   <!-- EN: bandwidth cost -->
   <BandwidthCost.label>带宽占用</BandwidthCost.label>
   <!-- EN: How much bandwidth this mech consumes when under mechanitor control. -->
-  <BandwidthCost.description>机械师控制这个机械体所需的带宽。</BandwidthCost.description>
+  <BandwidthCost.description>机械师控制这个机械族所需的带宽。</BandwidthCost.description>
   
   <!-- EN: cancer rate factor -->
   <CancerRate.label>患癌率</CancerRate.label>
@@ -14,7 +14,7 @@
   <!-- EN: control taking time -->
   <ControlTakingTime.label>控制耗时</ControlTakingTime.label>
   <!-- EN: How many seconds it will take for a mechanitor to take control of this mech. -->
-  <ControlTakingTime.description>机械师控制机械体所需的时间。</ControlTakingTime.description>
+  <ControlTakingTime.description>机械师控制机械族所需的时间。</ControlTakingTime.description>
   <!-- EN: {0}s -->
   <ControlTakingTime.formatString>{0}秒</ControlTakingTime.formatString>
   
@@ -41,7 +41,7 @@
   <!-- EN: mech bandwidth -->
   <MechBandwidth.label>机械带宽</MechBandwidth.label>
   <!-- EN: How much bandwidth a mechanitor has. More bandwidth allows a mechanitor to produce and control more mechs at the same time.\n\nLosing bandwidth means losing control of mechs, leaving them without an overseer. Such mechs can eventually become feral if not re-dominated. -->
-  <MechBandwidth.description>机械师所拥有的带宽总量。更多的带宽意味着机械师能同时制造和控制更多的机械体。\n\n失去带宽意味着对机械体失去控制。失控的机械体最终会离线并加入敌对的机械体。</MechBandwidth.description>
+  <MechBandwidth.description>机械师所拥有的带宽总量。更多的带宽意味着机械师能同时制造和控制更多的机械族。\n\n失去带宽意味着对机械族失去控制。失控的机械族最终会离线并加入敌对的机械族。</MechBandwidth.description>
   
   <!-- EN: mech control groups -->
   <MechControlGroups.label>机械控制组</MechControlGroups.label>
@@ -51,37 +51,37 @@
   <!-- EN: repair energy cost -->
   <MechEnergyLossPerHP.label>维修成本</MechEnergyLossPerHP.label>
   <!-- EN: The amount of energy that this mechanoid loses for every 100 damage repaired. -->
-  <MechEnergyLossPerHP.description>修复该机械体每100点伤害需要消耗的能量。</MechEnergyLossPerHP.description>
+  <MechEnergyLossPerHP.description>修复该机械族每100点伤害需要消耗的能量。</MechEnergyLossPerHP.description>
   
   <!-- EN: energy usage multiplier -->
   <MechEnergyUsageFactor.label>能耗系数</MechEnergyUsageFactor.label>
   <!-- EN: A multiplier on how fast a mechanoid consumes its energy reserves while operating. -->
-  <MechEnergyUsageFactor.description>计算机械体运行时消耗能量储备速度的乘数。</MechEnergyUsageFactor.description>
+  <MechEnergyUsageFactor.description>计算机械族运行时消耗能量储备速度的乘数。</MechEnergyUsageFactor.description>
   
   <!-- EN: mech gestation speed -->
   <MechFormingSpeed.label>机械培育速度</MechFormingSpeed.label>
   <!-- EN: A multiplier on the speed at which this mechanitor can form new mechanoids at a gestator. -->
-  <MechFormingSpeed.description>机械师通过机械培育器培育出新机械体的速度乘数。</MechFormingSpeed.description>
+  <MechFormingSpeed.description>机械师通过机械培育器培育出新机械族的速度乘数。</MechFormingSpeed.description>
   
   <!-- EN: mech remote repair distance -->
   <MechRemoteRepairDistance.label>机械远程维修距离</MechRemoteRepairDistance.label>
   <!-- EN: How far away a mech can be during remote repair. -->
-  <MechRemoteRepairDistance.description>可以远程维修机械体的最大距离。</MechRemoteRepairDistance.description>
+  <MechRemoteRepairDistance.description>可以远程维修机械族的最大距离。</MechRemoteRepairDistance.description>
   
   <!-- EN: mech remote shield distance -->
   <MechRemoteShieldDistance.label>机械远程护盾距离</MechRemoteShieldDistance.label>
   <!-- EN: The maximum range at which a mechanitor can place a shield on a mechanoid. -->
-  <MechRemoteShieldDistance.description>机械师远程为机械体设置护盾的最大距离。</MechRemoteShieldDistance.description>
+  <MechRemoteShieldDistance.description>机械师远程为机械族设置护盾的最大距离。</MechRemoteShieldDistance.description>
   
   <!-- EN: mech remote shield energy -->
   <MechRemoteShieldEnergy.label>机械远程护盾能量</MechRemoteShieldEnergy.label>
   <!-- EN: The energy a remote shield will have when created by a mechanitor. -->
-  <MechRemoteShieldEnergy.description>机械师远程为机械体设置护盾的能量。</MechRemoteShieldEnergy.description>
+  <MechRemoteShieldEnergy.description>机械师远程为机械族设置护盾的能量。</MechRemoteShieldEnergy.description>
   
   <!-- EN: mech repair speed -->
   <MechRepairSpeed.label>机械维修速度</MechRepairSpeed.label>
   <!-- EN: A multiplier on how fast a mechanitor can repair mechanoids. -->
-  <MechRepairSpeed.description>机械师维修机械体速度的乘数。</MechRepairSpeed.description>
+  <MechRepairSpeed.description>机械师维修机械族速度的乘数。</MechRepairSpeed.description>
   
   <!-- EN: raw nutrition multiplier -->
   <RawNutritionFactor.label>生食营养系数</RawNutritionFactor.label>
@@ -96,7 +96,7 @@
   <!-- EN: wastepacks per recharge -->
   <WastepacksPerRecharge.label>充电废料</WastepacksPerRecharge.label>
   <!-- EN: How many toxic wastepacks this mechanoid will generate at a mech recharger when going from 0 to 100% energy. Larger mechanoids will generally create more toxic wastepacks. -->
-  <WastepacksPerRecharge.description>该机械体的能量通过充电从0达到100%时，产生的有毒垃圾数量。通常情况，机械体越大，产生的有毒垃圾越多。</WastepacksPerRecharge.description>
+  <WastepacksPerRecharge.description>该机械族的能量通过充电从0达到100%时，产生的有毒垃圾数量。通常情况，机械族越大，产生的有毒垃圾越多。</WastepacksPerRecharge.description>
   <WastepacksPerRecharge.statFactorsExplanationHeader>相关属性</WastepacksPerRecharge.statFactorsExplanationHeader>
   
 </LanguageData>

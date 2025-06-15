@@ -11,9 +11,9 @@
   -->
   <MechanitorShip.questContentRules.rulesStrings>
     <li>mechanitorShuttleCrashedLetterLabel->机械师飞船</li>
-    <li>mechanitorShuttleCrashedLetterText->一艘载有失控机械体的机械师飞船在附近坠毁。这些机械体将离开坠毁的飞船并做好战斗准备。</li>
-    <li>assaultBeginLetterLabel->机械体攻击</li>
-    <li>assaultBeginLetterText->失控的机械体即将攻击殖民地！</li>
+    <li>mechanitorShuttleCrashedLetterText->一艘载有失控机械族的机械师飞船在附近坠毁。这些机械族将离开坠毁的飞船并做好战斗准备。</li>
+    <li>assaultBeginLetterLabel->机械族攻击</li>
+    <li>assaultBeginLetterText->失控的机械族即将攻击殖民地！</li>
     <li>mechlinkAvailableLetterLabel->[mechanitor_nameDef]的机控中枢获取</li>
     <li>mechlinkAvailableLetterText->坠毁的飞船上有一具古代机械师的尸体。\n\n选择一位殖民者并右键点击尸体以获取[mechanitor_possessive]的机控中枢。</li>
   </MechanitorShip.questContentRules.rulesStrings>
@@ -21,7 +21,7 @@
     <li>questDescription->You have decrypted an ancient transponder, revealing the location of a mechanoid ship in orbit. The ship is badly damaged but you can signal it to land nearby.\n\nThe ship contains the remains of a long-dead mechanitor. Mechanitors can create and control mechanoids for work and combat. By extracting the deceased mechanitor's mechlink, you can turn one of your own colonists into a mechanitor.\n\nBeware - the ship also contains hostile mechanoids. The mechanoid group is composed of:\n\n[mechList]</li>
   -->
   <MechanitorShip.questDescriptionRules.rulesStrings>
-    <li>questDescription->你已经解密了一个远古信号转发器，揭示了轨道上一艘机械体飞船的位置。虽然这艘飞船已严重受损，但你可以发出信号让它在附近降落。\n\n这艘飞船载有一位早已死去的机械师遗体。机械师可以培育，控制，操纵机械体进行工作和战斗。通过取出已故机械师的机控中枢，可以让你的一位殖民者成为机械师。\n\n注意：这艘飞船还载有敌对机械体，由以下单位组成：\n\n[mechList]</li>
+    <li>questDescription->你已经解密了一个远古信号转发器，揭示了轨道上一艘机械族飞船的位置。虽然这艘飞船已严重受损，但你可以发出信号让它在附近降落。\n\n这艘飞船载有一位早已死去的机械师遗体。机械师可以培育，控制，操纵机械族进行工作和战斗。通过取出已故机械师的机控中枢，可以让你的一位殖民者成为机械师。\n\n注意：这艘飞船还载有敌对机械族，由以下单位组成：\n\n[mechList]</li>
   </MechanitorShip.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[shipAdjective] [shipNoun]</li>
@@ -41,7 +41,7 @@
     <li>shipAdjective->机械师</li>
     <li>shipAdjective->监管者</li>
     <li>shipAdjective->远古</li>
-    <li>shipAdjective->机械体</li>
+    <li>shipAdjective->机械族</li>
     <li>shipNoun->飞船</li>
     <li>shipNoun->穿梭机</li>
     <li>shipNoun->飞行器</li>

@@ -22,9 +22,9 @@
   <!-- EN: tiles -->
   <TilesLower>格</TilesLower>
   <!-- EN: 1 mech -->
-  <CaravanMech>1x机械体</CaravanMech>
+  <CaravanMech>1x机械族</CaravanMech>
   <!-- EN: {0} mechs -->
-  <CaravanMechsCount>{0}x机械体</CaravanMechsCount>
+  <CaravanMechsCount>{0}x机械族</CaravanMechsCount>
   <!-- EN: {BOSS} with {APPAREL} -->
   <BossWithApparel>配备有{APPAREL}的{BOSS}</BossWithApparel>
   <!-- EN: Resulting from gene-->
@@ -53,13 +53,13 @@
   <!-- EN: bandwidth -->
   <BandwidthLower>带宽</BandwidthLower>
   <!-- EN: A mechanitor can only oversee a mech if there is enough bandwidth to do so. Each mech consumes a different amount of bandwidth.\n\nGain more bandwidth by constructing band nodes and tuning the mechanitor to them, or by equipping special mechanitor apparel. -->
-  <BandwidthGizmoTip>机械师只有在带宽足够的情况下才能监管机械体。每种不同的机械体会占用不同的带宽。\n\n通过建造频带节点连接机械师或使用某些特殊的机械师服装都可以获得更多带宽。</BandwidthGizmoTip>
+  <BandwidthGizmoTip>机械师只有在带宽足够的情况下才能监管机械族。每种不同的机械族会占用不同的带宽。\n\n通过建造频带节点连接机械师或使用某些特殊的机械师服装都可以获得更多带宽。</BandwidthGizmoTip>
   <!-- EN: Control group -->
   <ControlGroup>控制组</ControlGroup>
   <!-- EN: Current mode -->
   <CurrentMechWorkMode>当前行动模式</CurrentMechWorkMode>
   <!-- EN: Assigned mechs -->
-  <AssignedMechs>已分配机械体</AssignedMechs>
+  <AssignedMechs>已分配机械族</AssignedMechs>
   <!-- EN: Tuned to -->
   <BandNodeTunedTo>调整为</BandNodeTunedTo>
   <!-- EN: Tune to -->
@@ -73,21 +73,21 @@
   <!-- EN: Retune this band node to another mechanitor. Retuning will take {0} to complete. -->
   <BandNodeRetuningDesc>重新调整此频带节点连接至另一名机械师，调整过程会持续{0}。</BandNodeRetuningDesc>
   <!-- EN: Removing {0} will change {1_labelShort}'s bandwidth from {2} to {3}. This will mean the following mechs will no longer be under control -->
-  <DropThingBandwidthApparel>移除{0}会使{1_labelShort}的带宽从{2}变为{3}。这意味着这些机械体将不再处于其控制下</DropThingBandwidthApparel>
+  <DropThingBandwidthApparel>移除{0}会使{1_labelShort}的带宽从{2}变为{3}。这意味着这些机械族将不再处于其控制下</DropThingBandwidthApparel>
   <!-- EN: no mechs -->
-  <NoMechs>无机械体</NoMechs>
+  <NoMechs>无机械族</NoMechs>
   <!-- EN: Group -->
   <Group>组</Group>
   <!-- EN: Groups -->
   <Groups>组</Groups>
   <!-- EN: Loading mech gestation resources -->
-  <LoadingMechGestator>装填机械体培育资源</LoadingMechGestator>
+  <LoadingMechGestator>装填机械族培育资源</LoadingMechGestator>
   <!-- EN: Time left this cycle -->
   <GestatingInspect>培育周期剩余时间</GestatingInspect>
   <!-- EN: Initiating mech gestation cycle -->
-  <InitMechGestationCycle>初始化机械体培育周期</InitMechGestationCycle>
+  <InitMechGestationCycle>初始化机械族培育周期</InitMechGestationCycle>
   <!-- EN: Initiating mech birth -->
-  <InitMechBirth>初始化机械体生成</InitMechBirth>
+  <InitMechBirth>初始化机械族生成</InitMechBirth>
   <!-- EN: Mech energy -->
   <MechEnergy>机械能量</MechEnergy>
   <!-- EN: Energy -->
@@ -97,7 +97,7 @@
   <!-- EN: Bandwidth usage -->
   <BandwidthUsage>带宽占用</BandwidthUsage>
   <!-- EN: Mech gestation bandwidth -->
-  <MechGestationBandwidthUsed>机械体培育带宽</MechGestationBandwidthUsed>
+  <MechGestationBandwidthUsed>机械族培育带宽</MechGestationBandwidthUsed>
   <!-- EN: Cannot summon {0} threat -->
   <CannotSummon>无法召唤{0}</CannotSummon>
   <!-- EN: {0} threat ready to summon -->
@@ -105,7 +105,7 @@
   <!-- EN: Summon {0} threat -->
   <Summon>召唤{0}</Summon>
   <!-- EN: Mechanoids disabled-->
-  <MechsDisabled>已禁用机械体</MechsDisabled> <!-- text_todo -->
+  <MechsDisabled>已禁用机械族</MechsDisabled> <!-- text_todo -->
   <!-- EN: No reachable {0} -->
   <NoReachableBossgroupCaller>没有可达的{0}</NoReachableBossgroupCaller>
   <!-- EN: No reservable {0} -->
@@ -645,7 +645,7 @@
 
   <!-- Mech resurrection -->
   <!-- EN: Mech resurrection charges -->
-  <MechResurrectionCharges>机械体复活充能</MechResurrectionCharges>
+  <MechResurrectionCharges>机械族复活充能</MechResurrectionCharges>
 
   <!-- Mechs -->
   <!-- EN: Mech stun pulse on death -->

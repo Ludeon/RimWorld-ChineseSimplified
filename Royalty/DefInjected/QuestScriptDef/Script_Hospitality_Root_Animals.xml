@@ -52,10 +52,10 @@
     <li>letterSubject(priority=1)->{SUBJECT_definite} the [lodgersLabel]</li>
   -->
   <Hospitality_Animals.questDescriptionRules.rulesStrings>
-    <li>threatsInfoMechClustersSingleAnimal->出于未知的原因，[lodgersLabel]已经被轨道上的一群机械体盯上。</li>
-    <li>threatsInfoMechClustersMultiAnimal->出于未知的原因，[lodgersLabelPlural]已经被轨道上的一群机械体盯上。</li>
-    <li>threatsInfoMechRaidsSingleAnimal->出于未知的原因，[lodgersLabel]已经被一个机械体巢穴盯上。</li>
-    <li>threatsInfoMechRaidsMultiAnimal->出于未知地原因，[lodgersLabelPlural]已经被一个机械体巢穴盯上。</li>
+    <li>threatsInfoMechClustersSingleAnimal->出于未知的原因，[lodgersLabel]已经被轨道上的一群机械族盯上。</li>
+    <li>threatsInfoMechClustersMultiAnimal->出于未知的原因，[lodgersLabelPlural]已经被轨道上的一群机械族盯上。</li>
+    <li>threatsInfoMechRaidsSingleAnimal->出于未知的原因，[lodgersLabel]已经被一个机械族巢穴盯上。</li>
+    <li>threatsInfoMechRaidsMultiAnimal->出于未知地原因，[lodgersLabelPlural]已经被一个机械族巢穴盯上。</li>
     <li>questDescription(askerIsNull==true,lodgersCount==1)->一个动物保护组织希望你能够在[shuttleDelayTicks_duration]内 照顾位于[map_definite]名叫[lodgers0_nameDef]的[lodgersLabel]。[healthInfo][threatsInfo1][commonDescEnding]</li>
     <li>threatsInfo1(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n激进的动物保护组织成员在[enemyFaction_name]举行的一场屠宰仪式上偷走了[lodgers0_nameDef]。 现在[enemyFaction_pawnsPlural]将会来寻仇。 如果你选择接纳[lodgers0_nameDef]， [enemyGroupsParagraph]</li>
     <li>threatsInfo1(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleAnimal] [enemyGroupsParagraph]</li>
