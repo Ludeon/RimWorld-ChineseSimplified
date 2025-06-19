@@ -352,6 +352,8 @@
   <Requires>需要</Requires>
   <!-- EN: Replaces -->
   <Replaces>替换</Replaces>
+  <!-- EN: missing {0} -->
+  <MissingPartWithLabel>缺少{0}</MissingPartWithLabel> <!-- text_todo -->
   <!-- EN: {0}x any of -->
   <NumAnyOf>{0}x任意</NumAnyOf>
   <!-- EN: {0} of {1} -->
@@ -488,10 +490,10 @@
   <MechCluster>机械集群</MechCluster>
   <!-- EN: Spawning in {0} -->
   <SpawningNextPawnIn>生成{0}</SpawningNextPawnIn>
-  <!-- EN: {0} assembly completes in {1}. -->
-  <MechAssemblyCompleteIn>{0}将于{1}后装配完成。</MechAssemblyCompleteIn>
-  <!-- EN: Will assemble -->
-  <MechAssemblyNextType>准备装配</MechAssemblyNextType>
+  <!-- EN: {0} gestation completes in {1}. -->
+  <MechAssemblyCompleteIn>{0}将于{1}后孕育完成。</MechAssemblyCompleteIn>
+  <!-- EN: Will gestate -->
+  <MechAssemblyNextType>准备孕育</MechAssemblyNextType>
   <!-- EN: produced -->
   <ThingsProduced>产生</ThingsProduced>
   <!-- EN: harvested -->
@@ -814,7 +816,7 @@
   <Filth_Label>污物</Filth_Label>
   
   <!-- EN: Features -->
-  <Features_Label>地图元素</Features_Label>
+  <Features_Label>地貌</Features_Label>
   <!-- EN: Faction -->
   <Faction_Label>派系</Faction_Label>
   <!-- EN: Relationship -->
@@ -1680,10 +1682,10 @@
   <Reward_Pawn_WalkIn>一个名为{0_nameDef}的{0_age}岁的{0_titleIndef}将到达并加入{0_relationInfoInParentheses}</Reward_Pawn_WalkIn>
   <!-- EN: a {0_age}-year-old {0_title} named {0_nameDef} will join you {0_relationInfoInParentheses} -->
   <Reward_Pawn_Caravan>一个名为{0_nameDef}的{0_age}岁的{0_titleIndef}将加入{0_relationInfoInParentheses}</Reward_Pawn_Caravan>
-  <!-- EN: transport pods with the following resources will arrive (total value {1}):\n{0} -->
-  <Reward_Items>装有以下资源的运输舱将送达（总价值 {1}）：\n{0}</Reward_Items>
-  <!-- EN: you will receive (total value {1}):\n{0} -->
-  <Reward_Items_Caravan>你将收到（总价值 {1}）：\n{0}</Reward_Items_Caravan>
+  <!-- EN: transport pods with the following resources will arrive (total value {1}):\n\n{0} -->
+  <Reward_Items>装有以下资源的运输舱将送达（总价值 {1}）：\n\n{0}</Reward_Items>
+  <!-- EN: you will receive (total value {1}):\n\n{0} -->
+  <Reward_Items_Caravan>你将收到（总价值 {1}）：\n\n{0}</Reward_Items_Caravan>
   <!-- EN: your faction relations with {0_name} will improve by {1} -->
   <Reward_Goodwill>你与{0_name}的派系关系将提高{1}</Reward_Goodwill>
   <!-- EN: you will be taken to the stars -->
@@ -2128,8 +2130,8 @@
   <Settled>定居于</Settled>
   <!-- EN: Abandoned -->
   <Abandoned>废弃于</Abandoned>
-  <!-- EN: Cannot perform in {0} -->
-  <CannotPerformPlanetLayer>在{0}不可执行</CannotPerformPlanetLayer>
+  <!-- EN: Cannot perform {GERUND} {LAYER} -->
+  <CannotPerformPlanetLayer>{GERUND}{LAYER}不可执行</CannotPerformPlanetLayer>
   <!-- EN: This will not affect you {GERUND} {LAYER}. -->
   <ThisWillNotAffectLayer>这不会{GERUND}{LAYER}影响你。</ThisWillNotAffectLayer>
 

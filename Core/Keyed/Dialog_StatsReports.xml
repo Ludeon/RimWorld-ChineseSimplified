@@ -142,6 +142,8 @@
   <StatsReport_Ideoligion>文化</StatsReport_Ideoligion>
   <!-- EN: Multiplier for malnutrition {0} -->
   <StatsReport_Malnutrition>营养不良{0}乘数</StatsReport_Malnutrition>
+  <!-- EN: Optimal room -->
+  <StatsReport_OptimalRoom>理想房间</StatsReport_OptimalRoom> <!-- text_todo -->
 
   <!-- EN: Possible offsets -->
   <StatReport_PossibleOffsets>可能的偏移</StatReport_PossibleOffsets>
@@ -410,6 +412,8 @@
   <Stat_Thing_TurretDesc>安装在此生物身上的武器。</Stat_Thing_TurretDesc>
   <!-- EN: The ingredients needed to make this. -->
   <Stat_Thing_Ingredients>构成此物的原料。</Stat_Thing_Ingredients>
+  <!-- EN: Working at this building will be slower if it’s not in this room type. -->
+  <Stat_Building_OptimalRoom_Desc>若不放置于此房间类型中，此建筑中的工作将更慢。</Stat_Building_OptimalRoom_Desc> <!-- text_todo -->
 
   <!-- Drugs -->
   <!-- EN: The active chemical in this.\n\nIn some cases, the same chemical is present in multiple different drugs. These different drugs will satisfy the same addiction in different ways. -->
@@ -578,5 +582,5 @@
   <StatsReport_AvailableTraining>可训练的技能</StatsReport_AvailableTraining>
   <!-- EN: The tasks that this creature can be trained to perform. The available training is dependent on the creature's trainability, body size, and species. -->
   <StatsReport_AvailableTraining_Desc>该生物可以通过训练学得的技能。可训练的技能取决于生物的可训练度、体型和物种。</StatsReport_AvailableTraining_Desc>
-
+  
 </LanguageData>
