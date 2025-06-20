@@ -330,7 +330,7 @@
   <!-- EN: machining -->
   <Machining.label>机械加工</Machining.label>
   <!-- EN: Build machining tables to craft guns, grenades, flak armor, and to shred dead mechanoids for resources. -->
-  <Machining.description>解锁建造「机械加工台」，用于制作枪械、手榴弹、防弹衣等武器装备，或拆解回收机械体的残骸。</Machining.description>
+  <Machining.description>解锁建造「机械加工台」，用于制作枪械、手榴弹、防弹衣等武器装备，或拆解回收机械族的残骸。</Machining.description>
   <!-- EN:
     <li>subject->machining</li>
     <li>subject_story->gathered the remains of dead mechanoids and shredded them for resources</li>
@@ -341,7 +341,7 @@
   -->
   <Machining.generalRules.rulesStrings>
     <li>subject->机械加工</li>
-    <li>subject_story->收集机械体的残骸，并将其粉碎以回收资源</li>
+    <li>subject_story->收集机械族的残骸，并将其粉碎以回收资源</li>
     <li>subject_story->在郊区一户人家的地下室里悄悄建造了一个自制武器库</li>
     <li>subject_story->是一个和平主义者，但还是为许多枪匠建造了机械加工台</li>
     <li>subject_gerund->建造机械加工台</li>
@@ -391,9 +391,9 @@
   </NutrientPaste.generalRules.rulesStrings>
   
   <!-- EN: packaged survival meal -->
-  <PackagedSurvivalMeal.label>包装生存食品</PackagedSurvivalMeal.label>
+  <PackagedSurvivalMeal.label>包装生存食物</PackagedSurvivalMeal.label>
   <!-- EN: Produce packaged survival meals which never go bad. Great for traveling. -->
-  <PackagedSurvivalMeal.description>解锁制作「包装生存食品」，一种密封储存且不会腐烂的食物。适合长途旅行时携带。</PackagedSurvivalMeal.description>
+  <PackagedSurvivalMeal.description>解锁制作「包装生存食物」，一种密封储存且不会腐烂的食物。适合长途旅行时携带。</PackagedSurvivalMeal.description>
   <!-- EN:
     <li>subject->packaged survival meals</li>
     <li>subject->non-perishable food</li>
@@ -403,7 +403,7 @@
     <li>subject_gerund->preparing survival meals</li>
   -->
   <PackagedSurvivalMeal.generalRules.rulesStrings>
-    <li>subject->包装生存食品</li>
+    <li>subject->包装生存食物</li>
     <li>subject->不会腐烂的食物</li>
     <li>subject_story->知道，当灾难来袭时，有足够的包装食品撑到救援人员到来</li>
     <li>subject_story->开了一间社会厨房，向所有出海的船只捐赠生存食品</li>

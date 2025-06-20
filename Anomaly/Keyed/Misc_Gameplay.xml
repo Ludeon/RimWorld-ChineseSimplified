@@ -90,37 +90,15 @@
   <!-- EN: Pit gate collapsing -->
   <PitGateCollapsing>巨坑塌陷中</PitGateCollapsing> 
   <!-- EN: Pit gate settling -->
-  <PitGateSettling>巨坑沉陷中</PitGateSettling> 
-  <!-- EN: View undercave -->
-  <ViewUndercave>查看地下洞穴</ViewUndercave> 
-  <!-- EN: View the connected undercave map. -->
-  <ViewUndercaveDesc>查看连接地下洞穴的地图。</ViewUndercaveDesc>
-  <!-- EN: View surface -->
-  <ViewSurface>查看地表</ViewSurface>
-  <!-- EN: View the connected surface map. -->
-  <ViewSurfaceDesc>查看连接地表的地图。</ViewSurfaceDesc>
+  <PitGateSettling>巨坑沉陷中</PitGateSettling>
   <!-- EN: Pit rumbles -->
   <EmergenceWarningLabel>巨坑震动</EmergenceWarningLabel>
   <!-- EN: The ground shakes under your feet and the inhuman screams echoing from the pit seem to get closer. Something will emerge soon. -->
   <EmergenceWarningText>地面在你脚下震动，巨坑中回荡的诡异叫声似乎越来越近。什么东西马上就要出现了。</EmergenceWarningText>
 
-  <!-- Pit Burrow -->
-  <!-- EN: Fill in -->
-  <DesignatorFillIn>填平</DesignatorFillIn>
-  <!-- EN: Fill in this pit burrow. -->
-  <DesignatorFillInDesc>填平这个坑洞。</DesignatorFillInDesc>
-
     <!-- Undercave -->
-  <!-- EN: Enter pit gate -->
-  <EnterPitGate>进入巨坑</EnterPitGate> 
-  <!-- EN: Climb to surface -->
-  <ExitPitGate>爬至地表</ExitPitGate>
-  <!-- EN: Fleshbeast lair -->
-  <LetterLabelGateEntered>血肉兽巢穴</LetterLabelGateEntered> 
-  <!-- EN: In the depths of the pit gate, you have discovered a massive cavern system infested with fleshbeasts.\n\nThe cavern system is clogged with masses of living flesh that block your progress. Attack the fleshmass to destroy it.\n\nThe entire cavern system seems unstable. If you find what lies behind the fleshmass, you may be able to collapse the tunnels and close the pit gate. -->
-  <LetterGateEntered>在巨坑深处，你们发现了一个巨大的洞穴，里面血肉兽肆虐。\n\n大量血肉块堵塞了洞穴，阻碍了你们的前进。攻击血肉块并将其摧毁。\n\n整个洞穴系统似乎并不稳定。如果能找到藏在血肉块后面的东西，也许就能弄塌隧道并关闭洞口。</LetterGateEntered> 
   <!-- EN: Squirming sounds -->
-  <LetterLabelDreadmeldWarning>蠕动杂音</LetterLabelDreadmeldWarning> 
+  <LetterLabelDreadmeldWarning>蠕动杂音</LetterLabelDreadmeldWarning>
   <!-- EN: As {PAWN_nameDef} draws near the fleshmass here, {PAWN_pronoun} senses a heavy writhing and throbbing from under its warm surface. Some huge living entity is hidden behind the wall of flesh. -->
   <LetterDreadmeldWarning>{PAWN_nameDef}靠近这里的血肉块时，{PAWN_pronoun}感觉到血肉块温暖的表皮下传来一阵剧烈的蠕动和抽搐。血肉墙后面似乎隐藏着某只巨大的生命体。</LetterDreadmeldWarning> 
   <!-- EN: Undercave unstable -->
@@ -274,8 +252,6 @@
   <Resisted>抗拒</Resisted>
   <!-- EN: Damaged -->
   <HealthFactor>受伤</HealthFactor>
-  <!-- EN: Deactivated. -->
-  <Deactivated>已停用</Deactivated> <!-- -->
 
   <!-- EN: {PAWN_labelShort} was sent. -->
   <CommandSent>{PAWN_labelShort}已被派出。</CommandSent>
@@ -467,7 +443,7 @@
   <!-- EN: Unnatural healing -->
   <LetterUnnaturalHealingLabel>异常医术</LetterUnnaturalHealingLabel>
   <!-- EN: {CASTER_nameDef} has finished {CASTER_possessive} psychic healing on {PAWN_nameDef}. -->
-  <LetterUnnaturalHealing>{CASTER_nameDef}已经完成了对{CASTER_possessive}治疗。</LetterUnnaturalHealing>
+  <LetterUnnaturalHealing>{CASTER_nameDef}已经完成了对{PAWN_nameDef}的治疗。</LetterUnnaturalHealing>
   <!-- EN: However, something went terribly wrong.\n\n{PAWN_nameDef}'s arm split open as a violent growth emerged from {PAWN_possessive} body. {PAWN_possessive} arm has been replaced by a fleshy tentacle! -->
   <LetterUnnaturalHealingTentacle>然而，治疗出了大问题。\n\n{PAWN_nameDef}的手臂被撕裂开来，从{PAWN_possessive}体内里猛地长出了奇怪的东西。{PAWN_possessive}手臂被一根血肉触手取代了！</LetterUnnaturalHealingTentacle>
   
@@ -475,9 +451,9 @@
   <!-- EN: {PAWN_nameDef} has transmuted {ORIGINAL} into {TRANSMUTED}. -->
   <MessageTransmutedItem>{PAWN_nameDef}将{ORIGINAL}转变为了{TRANSMUTED}。</MessageTransmutedItem>
   <!-- EN: {PAWN_nameDef} has transmuted {1} into {TRANSMUTED_labelShortIndef}. -->
-  <MessageTransmutedStuff>{PAWN_nameDef}将{ORIGINAL_labelShortIndef}转变为了{TRANSMUTED_labelShortIndef}。</MessageTransmutedStuff>
+  <MessageTransmutedStuff>{PAWN_nameDef}将{1}转变为了{TRANSMUTED_labelShortIndef}。</MessageTransmutedStuff>
   <!-- EN: {PAWN_nameDef} has transmuted {1} into {TRANSMUTED_labelPluralIndef}. -->
-  <MessageTransmutedStuffPlural>{PAWN_nameDef}将{ORIGINAL_labelPluralIndef}转变为了{TRANSMUTED_labelPluralIndef}。</MessageTransmutedStuffPlural>
+  <MessageTransmutedStuffPlural>{PAWN_nameDef}将{1}转变为了{TRANSMUTED_labelPluralIndef}。</MessageTransmutedStuffPlural>
   
   <!-- Electroharvester -->
   <!-- EN: No restrained entity. -->
@@ -732,8 +708,8 @@
   <VoidMonolithViewResearch>查看异象研究</VoidMonolithViewResearch>
   <!-- EN: Current monolith level -->
   <CurrentMonolithLevel>当前巨石等级</CurrentMonolithLevel>
-  <!-- EN: Investigate to learn more. -->
-  <VoidMonolithUndiscovered>调查以了解更多。</VoidMonolithUndiscovered>
+  <!-- EN: Send a colonist to investigate this. -->
+  <VoidMonolithUndiscovered>派遣殖民者前去调查。</VoidMonolithUndiscovered>
   <!-- EN: In order to advance the monolith to the next step, you need to discover {0} {1} tier entities. -->
   <VoidMonolithRequiredEntityCategory>为了提高巨石的等级，需要发现{0}种{1}级别的实体。</VoidMonolithRequiredEntityCategory>
   <!-- EN: Discovered: {0} -->
@@ -779,7 +755,7 @@
   <MonolithAutoActivatingText>恐惧在殖民者间悄然蔓延。倒伏的巨石开始激发。渐渐地，它开始扭曲变形、重组排列，蜕变成其他东西。\n\n几天之内，该过程就会完成。准备好面对接下来的一切吧。</MonolithAutoActivatingText>
   <!-- EN: Void monolith -->
   <MonolithAutoActivatedLabel>虚空巨石</MonolithAutoActivatedLabel>
-  <!-- EN: The monolith’s transformation is almost complete... -->
+  <!-- EN: The monolith's transformation is almost complete... -->
   <MonolithAutoActivatedText>巨石的重组很快便会完成...</MonolithAutoActivatedText>
 
   <!-- EN: Gray pall -->

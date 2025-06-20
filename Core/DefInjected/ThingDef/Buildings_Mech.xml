@@ -1,9 +1,31 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
+  <!-- EN: mini-slug -->
+  <Bullet_MiniSlug.label>小弹头</Bullet_MiniSlug.label>
+  
   <!-- EN: burning power cell -->
   <BurningPowerCell.label>燃烧的能量电池</BurningPowerCell.label>
   <!-- EN: A damaged mechanoid power generation unit. The cell has been destabilized by the death of the mechanoid, and is burning down in seconds. When critically damaged, this cell will explode. -->
-  <BurningPowerCell.description>受损的机械体能源模块。由于机械体的死亡，这个电池已变得相当不稳定，且会在几秒钟后彻底烧毁。受损严重时会爆炸。</BurningPowerCell.description>
+  <BurningPowerCell.description>受损的机械族能源模块。由于机械族的死亡，这个电池已变得相当不稳定，且会在几秒钟后彻底烧毁。受损严重时会爆炸。</BurningPowerCell.description>
+  
+  <!-- EN: mech node -->
+  <Gloomlight.label>机械节点</Gloomlight.label>
+  <!-- EN: A self-powered mechanoid node of unknown function. Mech nodes can be deconstructed to yield valuable resources - but only if they are captured intact. The internal micro power cell will flame out and ruin the materials if the unit takes too much damage. -->
+  <Gloomlight.description>功能未知的自供电型机械族节点。机械节点可以被拆除以回收有价值的资源，或者直接卸载并用于照明——前提是它被完整缴获。如果节点严重受损，内部的微功率电池会过载烧毁。</Gloomlight.description>
+  <!-- EN: Deconstruct for valuable resources. -->
+  <Gloomlight.comps.CompInspectString.inspectString>拆除它以回收有价值的资源。</Gloomlight.comps.CompInspectString.inspectString>
+  
+  <!-- EN: mini-slugger -->
+  <Gun_MiniTurretMech.label>小型冲击枪</Gun_MiniTurretMech.label>
+  <!-- EN: An automatic turret-mounted slug-thrower. -->
+  <Gun_MiniTurretMech.description>一个自动化的动能冲击武器。</Gun_MiniTurretMech.description>
+  <!-- EN: mini-slugger -->
+  <Gun_MiniTurretMech.verbs.Verb_Shoot.label>小型冲击枪</Gun_MiniTurretMech.verbs.Verb_Shoot.label>
+  
+  <!-- EN: mini-slugger turret -->
+  <Turret_AutoMiniTurret.label>小型冲击炮塔</Turret_AutoMiniTurret.label>
+  <!-- EN: A self-powered defense turret mounted with a weak but long-ranged slug-thrower. May explode when damaged. -->
+  <Turret_AutoMiniTurret.description>一个自供电的近程防御用炮塔，装配有小型冲击枪，受到伤害的时候可能会爆炸。</Turret_AutoMiniTurret.description>
   
 </LanguageData>

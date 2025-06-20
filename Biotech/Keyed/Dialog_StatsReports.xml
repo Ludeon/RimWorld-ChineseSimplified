@@ -18,12 +18,12 @@
   <!-- EN: Required weight class -->
   <StatsReport_RechargerWeightClass>重量级</StatsReport_RechargerWeightClass>
   <!-- EN: The weight class of mechanoid which can use this recharger. The following mechanoids are compatible -->
-  <StatsReport_RechargerWeightClass_Desc>能够使用此充电站的机械体重量级。以下机械体可以使用</StatsReport_RechargerWeightClass_Desc>
+  <StatsReport_RechargerWeightClass_Desc>能够使用此充电站的机械族重量级。以下机械族可以使用</StatsReport_RechargerWeightClass_Desc>
 
   <!-- EN: Recharger needed -->
   <StatsReport_RechargerNeeded>充电站</StatsReport_RechargerNeeded>
   <!-- EN: The type of recharger that this mechanoid can use to recover energy. This is based on the mechanoid's weight class. -->
-  <StatsReport_RechargerNeeded_Desc>这台机械体补充能量所需的充电站类型。这取决于机械体的重量级。</StatsReport_RechargerNeeded_Desc>
+  <StatsReport_RechargerNeeded_Desc>这台机械族补充能量所需的充电站类型。这取决于机械族的重量级。</StatsReport_RechargerNeeded_Desc>
 
   <!-- EN: Deathrest effectiveness -->
   <StatsReport_DeathrestEffectiveness>死眠效率</StatsReport_DeathrestEffectiveness>
@@ -107,8 +107,6 @@
   <PassionModAdd>提高{0_label}一级兴趣。</PassionModAdd>
   <!-- EN: Removes all passion in {0_label}. -->
   <PassionModDrop>移除所有在{0_label}的兴趣。</PassionModDrop>
-  <!-- EN: Causes need -->
-  <CausesNeed>产生需求</CausesNeed>
   <!-- EN: Gives ability -->
   <GivesAbility>赋予能力</GivesAbility>
   <!-- EN: Gives abilities -->
@@ -117,10 +115,6 @@
   <ResourceLossPerDay>{RESOURCE}：{OFFSET}/天</ResourceLossPerDay>
   <!-- EN: Removes -->
   <Removes>移除</Removes>
-  <!-- EN: Disables need -->
-  <DisablesNeed>禁用需求</DisablesNeed>
-  <!-- EN: Disables needs -->
-  <DisablesNeeds>禁用需求</DisablesNeeds>
   <!-- EN: Baby -->
   <DevelopmentStage_Baby>婴儿</DevelopmentStage_Baby>
   <!-- EN: Child -->

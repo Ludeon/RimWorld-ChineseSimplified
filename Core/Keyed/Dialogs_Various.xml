@@ -23,7 +23,7 @@
   <Disable>禁用</Disable>
   <!-- EN: Modify -->
   <Modify>修改</Modify>
-  <!-- EN: Settle here anyways? -->
+  <!-- EN: Settle here anyway? -->
   <ConfirmSettle>无论如何都要在这里定居？</ConfirmSettle>
   <!-- EN: add -->
   <Add>添加</Add>
@@ -249,8 +249,8 @@
   <SelectedCharactersMustInclude>必须准确包含{SUMMARY}</SelectedCharactersMustInclude>
 
   <!-- Advanced game start options -->
-  <!-- EN: Warning: You will be landing in a frozen environment. It may be hard or nearly impossible to survive. If you are not intending to face an extreme challenge, choose a different site or season. -->
-  <MapTemperatureDangerWarning>警告：你将会降落在一个冰冻地区。这会让生存非常艰难甚至是不可能。如果你并不想挑战艰难的环境，选择另一个降落点或另一个月份。</MapTemperatureDangerWarning>
+  <!-- EN: Warning: You will be landing in winter. It may be hard or nearly impossible to survive. If you are not intending to face an extreme challenge, choose a different season. -->
+  <MapWinterWarning>警告：你将在冬季着陆。这会很难甚至几乎不可能生存下来。如果你不打算给自己来一次极限挑战，请选择其他季节。</MapWinterWarning>
   <!-- EN: The game is designed to play on medium map sizes. These sizes provide plenty of space!\n\nLarge map sizes don't just degrade performance - they actually break the game design. The AI will make stupid decisions, and game balance will be badly affected in various ways. These sizes are included for tradition and testing reasons only, please do not use them without a specific reason. -->
   <MapSizePerformanceWarning>该游戏是以在中等地图上进行游戏来设计的。这些大小提供了充足的空间！\n\n大型地图不仅会降低游戏性能，也破坏了游戏的设计目标。AI将可能会做出愚蠢的决定，并且游戏平衡可能会在多方面被严重影响。这些地图大小仅用作存档继承和测试，没有特定原因的话请勿使用。</MapSizePerformanceWarning>
   <!-- EN: Map size -->
@@ -469,7 +469,7 @@
   <!-- EN: Wildness -->
   <Wildness>野性</Wildness>
   <!-- EN: Wilder creatures are naturally more difficult to tame, train, and handle. -->
-  <WildnessExplanation>动物的野性越高，越难驯服、训练和操纵。</WildnessExplanation>
+  <WildnessExplanation>动物的野性越高，就越难驯服、训练和操纵。</WildnessExplanation>
   <!-- EN: Training decay interval -->
   <TrainingDecayInterval>训练衰减间隔</TrainingDecayInterval>
   <!-- EN: Tameness will never decay for animals of very low wildness. -->
@@ -700,6 +700,8 @@
   <TradeModeTip>回到交易模式。</TradeModeTip>
   <!-- EN: {FACTION_name} is not willing to send a caravan because {NEGOTIATOR_nameDef} lacks the required title of {TITLE}. -->
   <TradeCaravanRequestDeniedDueTitle>{FACTION_name}拒绝派遣远行队，因为{NEGOTIATOR_nameDef}没有合法的头衔（至少是{TITLE}）。</TradeCaravanRequestDeniedDueTitle>
+  <!-- EN: {FACTION_name} is not willing to send an orbital trader because {NEGOTIATOR_nameDef} lacks the required title of {TITLE}. -->
+  <OrbitalTradeRequestDeniedDueTitle>{FACTION_name}拒绝派遣轨道贸易商，因为{NEGOTIATOR_nameDef}没有合法的头衔（至少是{TITLE}）。</OrbitalTradeRequestDeniedDueTitle>
 
   <!-- Sellable items -->
   <!-- EN: Things this trader will buy -->
@@ -728,6 +730,10 @@
   <Send>派遣</Send>
   <!-- EN: Number available to send with the caravan. -->
   <FormCaravanColonyThingCountTip>可以用远行队运送的物品数量。</FormCaravanColonyThingCountTip>
+  <!-- EN: Number available to transport. -->
+  <TransporterColonyThingCountTip>可供运输的数量。</TransporterColonyThingCountTip> <!-- text_todo -->
+  <!-- EN: Number available to transfer. -->
+  <TransferMapPortalColonyThingCountTip>可转移的数量。</TransferMapPortalColonyThingCountTip> <!-- text_todo -->
   <!-- EN: People and animals -->
   <PawnsTab>人和动物</PawnsTab>
   <!-- EN: Items -->
@@ -948,6 +954,8 @@
   <DuplicatePolicyTip>创建所选方案的副本。</DuplicatePolicyTip>
   <!-- EN: Rename this policy. -->
   <RenamePolicyTip>重命名此方案</RenamePolicyTip>
+  <!-- EN: Make this policy the default policy given to new colonists. -->
+  <DefaultPolicyTip>将此方案作为新殖民者的默认方案。</DefaultPolicyTip>
   <!-- EN: Are you sure you want to delete the policy: {0}? -->
   <DeletePolicyConfirm>您确定要删除该方案:{0}？</DeletePolicyConfirm>
   <!-- EN: Delete -->
@@ -1059,6 +1067,8 @@
   <SchematicPolicy>技术图解</SchematicPolicy>
   <!-- EN: Novels -->
   <NovelPolicy>小说</NovelPolicy>
+  <!-- EN: Maps -->
+  <MapPolicy>地图</MapPolicy>
 
   <!-- Medical settings -->
   <!-- EN: Default medicine settings -->
@@ -1138,8 +1148,10 @@
   <ConfirmBanishPawnDialog_IndividualThoughts>放逐{1_labelShort}将会导致这些人产生以下想法：</ConfirmBanishPawnDialog_IndividualThoughts>
 
   <!-- Send transport pods which are not completely loaded -->
-  <!-- EN: Pod group isn't completely loaded. {1_labelShort} is missing. Launch anyway? -->
-  <ConfirmSendNotCompletelyLoadedPods>发射组并未完成装载进程。{1_labelShort}还未进入运输舱。确定要发射吗？</ConfirmSendNotCompletelyLoadedPods>
+  <!-- EN: The following still need to be loaded -->
+  <ConfirmSendNotCompletelyLoadedLaunchable>以下物品仍未被装载</ConfirmSendNotCompletelyLoadedLaunchable>
+  <!-- EN: Launch anyway? -->
+  <ConfirmSendLaunchAnyway>仍然要发射吗？</ConfirmSendLaunchAnyway>
 
   <!-- Settle near a faction base -->
   <!-- EN: Since this location is within {0} tiles of another faction base, they will feel you are encroaching on their land and relations with those factions will worsen every {1} days. -->
@@ -1413,34 +1425,15 @@
   <SearchTheMap>搜索当前地图。</SearchTheMap>
   <!-- EN: Search the current map for items, buildings, people, animals, plants, and more. -->
   <SearchTheMapDesc>搜索当前地图的项目，建筑，人，动物，植物，和更多。</SearchTheMapDesc>
+  <!-- EN: Search the world -->
+  <SearchTheWorld>搜索当前世界</SearchTheWorld>
+  <!-- EN: Search the world for specific features, landmarks, quests, or settlements. -->
+  <SearchTheWorldDesc>搜索当前世界特定的项目、地标、任务或定居点。</SearchTheWorldDesc>
   <!-- EN: {0} results found -->
   <MapSearchResults>找到{0}结果</MapSearchResults>
   <!-- EN: 1 result found -->
   <MapSearchResultSingular>发现1个结果</MapSearchResultSingular>
   <!-- EN: Searching -->
   <Searching>搜索</Searching>
-
-  <!-- UNUSED -->
-  <Outfit>着装配置</Outfit>
-  <SelectOutfit>选择配置</SelectOutfit>
-  <NewOutfit>新的配置</NewOutfit>
-  <DeleteOutfit>删除配置</DeleteOutfit>
-  <NoOutfitSelected>未选择着装配置</NoOutfitSelected>
-  <SelectDrugPolicy>选择用药方案</SelectDrugPolicy>
-  <NewDrugPolicy>新方案</NewDrugPolicy>
-  <DeleteDrugPolicy>删除用药方案</DeleteDrugPolicy>
-  <NoDrugPolicySelected>没有选中的方案</NoDrugPolicySelected>
-  <DrugUsageColumnLabel>使用</DrugUsageColumnLabel>
-  <DrugUsageColumnDesc>药物是否允许使用。</DrugUsageColumnDesc>
-  <FoodRestriction>食物限制</FoodRestriction>
-  <FoodRestrictionShort>食物</FoodRestrictionShort>
-  <SelectFoodRestriction>选择限制</SelectFoodRestriction>
-  <NewFoodRestriction>新的限制</NewFoodRestriction>
-  <DeleteFoodRestriction>删除限制</DeleteFoodRestriction>
-  <NoFoodRestrictionSelected>未选择食物限制</NoFoodRestrictionSelected>
-  <MedGroupColonist>殖民者</MedGroupColonist>
-  <MedGroupImprisonedColonist>被监禁的殖民者</MedGroupImprisonedColonist>
-  <MedGroupColonyAnimal>殖民地动物</MedGroupColonyAnimal>
-  <MedGroupNeutralAnimal>中立动物</MedGroupNeutralAnimal>
 
 </LanguageData>

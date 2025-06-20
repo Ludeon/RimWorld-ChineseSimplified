@@ -40,6 +40,10 @@
   <!-- EN: [letterSubject], who you were charged to protect, is gone. [remainingWillNowLeave][failLetterEndingCommon] -->
   <Hospitality_Util_Worker.LetterTextGuestLost.slateRef>指定由你保护的[letterSubject]不见了。[remainingWillNowLeave][failLetterEndingCommon]</Hospitality_Util_Worker.LetterTextGuestLost.slateRef>
   <!-- EN: Guest lost: {SUBJECT_definite} -->
+  <Hospitality_Util_Worker.root.nodes.lodgersLeftBehind.node.nodes.Letter.label.slateRef>宾客失踪：{SUBJECT_definite}</Hospitality_Util_Worker.root.nodes.lodgersLeftBehind.node.nodes.Letter.label.slateRef>
+  <!-- EN: [letterSubject], who you were charged to protect, is gone. [remainingWillNowLeave][failLetterEndingCommon] -->
+  <Hospitality_Util_Worker.root.nodes.lodgersLeftBehind.node.nodes.Letter.text.slateRef>指定由你保护的[letterSubject]不见了。[remainingWillNowLeave][failLetterEndingCommon]</Hospitality_Util_Worker.root.nodes.lodgersLeftBehind.node.nodes.Letter.text.slateRef>
+  <!-- EN: Guest lost: {SUBJECT_definite} -->
   <Hospitality_Util_Worker.LetterLabelLodgerRanWild.slateRef>宾客失踪：{SUBJECT_definite}</Hospitality_Util_Worker.LetterLabelLodgerRanWild.slateRef>
   <!-- EN: [letterSubject], who you were charged to protect, has run wild. [remainingWillNowLeave][failLetterEndingCommon] -->
   <Hospitality_Util_Worker.LetterTextLodgerRanWild.slateRef>指定由你保护的[letterSubject]回归自然。[remainingWillNowLeave][failLetterEndingCommon]</Hospitality_Util_Worker.LetterTextLodgerRanWild.slateRef>
@@ -55,6 +59,10 @@
   <Hospitality_Util_Worker.LetterLabelShuttleDestroyed.slateRef>穿梭机已损毁</Hospitality_Util_Worker.LetterLabelShuttleDestroyed.slateRef>
   <!-- EN: The shuttle sent to collect [lodgersLabelSingOrPluralDef] has been destroyed. [lodgersLabelSingOrPluralDef] will now leave on foot. [failLetterEndingCommon] -->
   <Hospitality_Util_Worker.LetterTextShuttleDestroyed.slateRef>被指派去装载[lodgersLabelSingOrPluralDef]的穿梭机已损毁。[lodgersLabelSingOrPluralDef]将尝试步行离开。[failLetterEndingCommon]</Hospitality_Util_Worker.LetterTextShuttleDestroyed.slateRef>
+  <!-- EN: Shuttle left behind -->
+  <Hospitality_Util_Worker.LetterLabelShuttleLeftBehind.slateRef>穿梭机已遗弃</Hospitality_Util_Worker.LetterLabelShuttleLeftBehind.slateRef>
+  <!-- EN: The shuttle sent to collect [lodgersLabelSingOrPluralDef] has been left behind. [lodgersLabelSingOrPluralDef] will now leave on foot. -->
+  <Hospitality_Util_Worker.LetterTextShuttleLeftBehind.slateRef>被指派去装载[lodgersLabelSingOrPluralDef]的穿梭机已遗弃。[lodgersLabelSingOrPluralDef]将尝试步行离开。</Hospitality_Util_Worker.LetterTextShuttleLeftBehind.slateRef>
   <!-- EN: Quest completed -->
   <Hospitality_Util_Worker.LetterLabelGoodwillSuccessQuestCompleted.slateRef>任务完成</Hospitality_Util_Worker.LetterLabelGoodwillSuccessQuestCompleted.slateRef>
   <!-- EN: You have successfully completed the quest '[resolvedQuestName]'!\n\n[lodgersLabelSingOrPluralDef] said [lodgersPronoun] [lodgersWasWere] willing to reward quality accommodation. The average mood of [lodgersLabelSingOrPluralDef] was {AVERAGEMOOD} during [theirHisHer] stay, so your goodwill with [asker_faction_name] has increased by {GOODWILL} -->

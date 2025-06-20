@@ -17,8 +17,8 @@
       <li>root(priority=1,sitePart==BanditCamp)->(*Threat)匪徒营地(/Threat)内共有[enemiesCount]名敌人</li>
       <li>root(priority=1,sitePart==Manhunters,count==1)->(*Threat)1只猎杀人类的[kindLabel](/Threat)</li>
       <li>root(priority=1,sitePart==Manhunters,count>1)->(*Threat)[count]只猎杀人类的[kindLabel](/Threat)</li>
-      <li>root(priority=1,sitePart==SleepingMechanoids,count==1)->(*Threat)1台处于休眠状态的机械体(/Threat)</li>
-      <li>root(priority=1,sitePart==SleepingMechanoids,count>1)->(*Threat)[count]台处于休眠状态的机械体(/Threat)</li>
+      <li>root(priority=1,sitePart==SleepingMechanoids,count==1)->(*Threat)1台处于休眠状态的机械族(/Threat)</li>
+      <li>root(priority=1,sitePart==SleepingMechanoids,count>1)->(*Threat)[count]台处于休眠状态的机械族(/Threat)</li>
       <li>root(priority=1,sitePart==Turrets)->(*Threat)一支由[threatsInfo]组成的守卫队(/Threat)</li>
       <li>root(priority=1,sitePart==AmbushEdge)->(*Threat)一支埋伏起来的敌军(/Threat)</li>
       <li>root(priority=1,sitePart==AmbushHidden)->(*Threat)一支埋伏起来的敌军(/Threat)</li>

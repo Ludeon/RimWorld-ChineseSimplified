@@ -3,13 +3,13 @@
 
   <!-- Mechanitor -->
   <!-- EN: Mech(s) gone feral -->
-  <LetterLabelMechsFeral>机械体离线</LetterLabelMechsFeral>
+  <LetterLabelMechsFeral>机械族离线</LetterLabelMechsFeral>
   <!-- EN: Some mech(s) which were wandering without an overseer have linked with ancient planet-wide mech control signals. They have joined {0} and become hostile, and appear to be trying to fight their way off the map.\n\nFeral mechanoids cannot be resurrected at a gestator when killed.\n\nThese mechs are involved:\n\n{1} -->
-  <LetterMechsFeral>一些没有监管者的机械体已经脱离掌控，并自动与遍及整个星球的远古机械控制信号建立了链接。它们已经加入了{0}，并变得充满敌意。它们正试图离开当前地图。\n\n即使杀死了离线的机械体，也无法在机械培育器内复活它们。\n\n以下机械体已离线：\n\n{1}</LetterMechsFeral>
+  <LetterMechsFeral>一些没有监管者的机械族已经脱离掌控，并自动与遍及整个星球的远古机械控制信号建立了链接。它们已经加入了{0}，并变得充满敌意。它们正试图离开当前地图。\n\n即使杀死了离线的机械族，也无法在机械培育器内复活它们。\n\n以下机械族已离线：\n\n{1}</LetterMechsFeral>
   <!-- EN: Mechlink installed -->
   <LetterLabelMechlinkInstalled>已植入机控中枢</LetterLabelMechlinkInstalled>
   <!-- EN: {PAWN_labelShort} has installed a mechlink! {PAWN_pronoun} is now a mechanitor and can create and control mechanoids.\n\nResearch basic mechtech to get started.\n\n(*SectionTitle)Creating mechs:(/SectionTitle) Your mechanitor can create mechs at a production building called a mech gestator.\n\n(*SectionTitle)About bandwidth:(/SectionTitle) Mechanitors can control as many mechs as their total bandwidth allows. Select {PAWN_labelShort} and look at {PAWN_possessive} 'Bandwidth' readout to see how much bandwidth {PAWN_pronoun} is currently using and how much {PAWN_pronoun} has available. Bandwidth can be increased with certain apparel and by building band node buildings.\n\n(*SectionTitle)About control groups:(/SectionTitle) Mechanitors control mechs in groups. Each control group can be set to one of these modes:\n\n- Work\n- Escort\n- Recharge\n- Dormant self-charge\n\nTo learn more about what each mode does, select the work mode icon on one of {PAWN_labelShort}'s control groups and hover over the different work orders. The maximum number of control groups can be increased with apparel and implants.\n\n(*SectionTitle)About threat calling:(/SectionTitle) Mechanitors can signal ancient leader mechs to attack in order to obtain rare items from them. You must do this to improve your mechanitor past certain limits, but beware the danger. -->
-  <LetterMechlinkInstalled>{PAWN_labelShort}已经植入了机控中枢！{PAWN_pronoun}现在是一名机械师，可以培育和控制机械体。\n\n研究基础机械科技以开启机械师之路。\n\n(*SectionTitle)培育机械体：(/SectionTitle)你的机械师可以在名为机械培育器的生产设备中培育机械体。\n\n(*SectionTitle)关于带宽：(/SectionTitle)机械师可以在其总带宽允许范围内控制尽可能多的机械体。选中{PAWN_labelShort}并查看{PAWN_possessive}“带宽”指示器以了解{PAWN_pronoun}当前已用带宽和剩余带宽。带宽可以通过某些装备和频带节点来增加。\n\n(*SectionTitle)关于控制组：(/SectionTitle)机械师以组为单位控制机械体，每个控制组都可以被设置为这些行动模式之一：\n\n-工作\n-护卫\n-充电\n-休眠（自机充电）\n\n要了解每种模式的作用，请选择{PAWN_labelShort}的一个控制组上的行动模式图标，并在不同的行动指令上徘徊。控制组的最大数量可以通过装备和植入物来增加。\n\n(*SectionTitle)关于威胁召唤：(/SectionTitle)机械师可以向远古指挥官机械体发出攻击诱导信号，以便从它们那里获得稀有物品。为了让你的机械师突破某些限制，你必须这样做，但要注意危险。</LetterMechlinkInstalled>
+  <LetterMechlinkInstalled>{PAWN_labelShort}已经植入了机控中枢！{PAWN_pronoun}现在是一名机械师，可以培育和控制机械族。\n\n研究基础机械科技以开启机械师之路。\n\n(*SectionTitle)培育机械族：(/SectionTitle)你的机械师可以在名为机械培育器的生产设备中培育机械族。\n\n(*SectionTitle)关于带宽：(/SectionTitle)机械师可以在其总带宽允许范围内控制尽可能多的机械族。选中{PAWN_labelShort}并查看{PAWN_possessive}“带宽”指示器以了解{PAWN_pronoun}当前已用带宽和剩余带宽。带宽可以通过某些装备和频带节点来增加。\n\n(*SectionTitle)关于控制组：(/SectionTitle)机械师以组为单位控制机械族，每个控制组都可以被设置为这些行动模式之一：\n\n-工作\n-护卫\n-充电\n-休眠（自机充电）\n\n要了解每种模式的作用，请选择{PAWN_labelShort}的一个控制组上的行动模式图标，并在不同的行动指令上徘徊。控制组的最大数量可以通过装备和植入物来增加。\n\n(*SectionTitle)关于威胁召唤：(/SectionTitle)机械师可以向远古指挥官机械族发出攻击诱导信号，以便从它们那里获得稀有物品。为了让你的机械师突破某些限制，你必须这样做，但要注意危险。</LetterMechlinkInstalled>
 
   <!-- EN: This happened because of -->
   <MentalStateReason_Gene>这是因为基因</MentalStateReason_Gene>
@@ -17,22 +17,22 @@
   <!-- EN: {0} summoned -->
   <LetterLabelBossgroupSummoned>已召唤{0}</LetterLabelBossgroupSummoned>
   <!-- EN: Attracted by your mech-band signals, an ultra-heavy mech from {0} will arrive soon. Be prepared. -->
-  <LetterBossgroupSummoned>你的机械师发出的脉冲信号吸引了一个来自{0}的指挥官机械体。它很快就会带着护卫队抵达这里，请做好迎战的准备。</LetterBossgroupSummoned>
+  <LetterBossgroupSummoned>你的机械师发出的脉冲信号吸引了一个来自{0}的指挥官机械族。它很快就会带着护卫队抵达这里，请做好迎战的准备。</LetterBossgroupSummoned>
 
   <!-- EN: {0} arrived -->
   <LetterLabelBossgroupArrived>{0}已抵达</LetterLabelBossgroupArrived>
   <!-- EN: An ultra-heavy mech from {0} has come to eradicate you, along with escorts.\n\n{1}\n\nThe assault group is composed of the following {3}:\n\n{4}\n\nThey will prepare for a while before attacking. -->
-  <LetterBossgroupArrived>来自{0}的指挥官机械体及其护卫队已抵达此处，它们将会铲除你的殖民地。\n\n{1}\n\n这支机械体突击队的构成如下{3}：\n\n{4}\n\n它们在进攻前会准备一段时间。</LetterBossgroupArrived>
+  <LetterBossgroupArrived>来自{0}的指挥官机械族及其护卫队已抵达此处，它们将会铲除你的殖民地。\n\n{1}\n\n这支机械族突击队的构成如下{3}：\n\n{4}\n\n它们在进攻前会准备一段时间。</LetterBossgroupArrived>
 
   <!-- EN: Summon {LEADER_label} available -->
   <LetterLabelCommsConsoleSpawned>可以召唤{LEADER_label}</LetterLabelCommsConsoleSpawned>
   <!-- EN: A mechanitor can use the {PARENT_label} to summon a dangerous and hostile {LEADER_label} mechanoid. Be prepared, {LEADER_label} mechanoids are extremely powerful.\n\nIf you defeat the {LEADER_label}, it will drop the following items:\n\n{REWARDSLIST} -->
-  <LetterCommsConsoleSpawned>机械师可以使用{PARENT_label}来召唤危险且敌对的指挥官机械体：{LEADER_label}。做好准备，{LEADER_label}是非常强大的对手。\n\n如果你击败了{LEADER_label}，它将会掉落以下物品：\n\n{REWARDSLIST}</LetterCommsConsoleSpawned>
+  <LetterCommsConsoleSpawned>机械师可以使用{PARENT_label}来召唤危险且敌对的指挥官机械族：{LEADER_label}。做好准备，{LEADER_label}是非常强大的对手。\n\n如果你击败了{LEADER_label}，它将会掉落以下物品：\n\n{REWARDSLIST}</LetterCommsConsoleSpawned>
 
   <!-- EN: Summon {LEADER_label} possible -->
   <LetterLabelBossgroupCallerUnlocked>可以召唤{LEADER_label}</LetterLabelBossgroupCallerUnlocked>
   <!-- EN: You can now build a {PARENT_label} which a mechanitor can use to summon a {LEADER_label}. If you defeat the {LEADER_label}, it will drop the following items:\n\n{REWARDSLIST} -->
-  <LetterBossgroupCallerUnlocked>你现在可以建造一台{PARENT_label}，并让机械师使用它来召唤危险且敌对的指挥官机械体：{LEADER_label}。如果你击败了{LEADER_label}，它将会掉落以下物品：\n\n{REWARDSLIST}</LetterBossgroupCallerUnlocked>
+  <LetterBossgroupCallerUnlocked>你现在可以建造一台{PARENT_label}，并让机械师使用它来召唤危险且敌对的指挥官机械族：{LEADER_label}。如果你击败了{LEADER_label}，它将会掉落以下物品：\n\n{REWARDSLIST}</LetterBossgroupCallerUnlocked>
 
   <!-- EN: {PAWN_nameDef}'s mechlink available -->
   <LetterLabelMechanitorCasketOpened>{PAWN_nameDef}的机控中枢可用</LetterLabelMechanitorCasketOpened>
@@ -45,9 +45,9 @@
   
   <!-- Pawns lost because map closed (including mechs) -->
   <!-- EN: Your caravan has been lost. The following people, animals and mechanoids have been lost with it -->
-  <LetterPawnsLostIncMechsBecauseMapClosed_Caravan>你的远行队已经失踪。下列人员、动物和机械体已随同失踪 </LetterPawnsLostIncMechsBecauseMapClosed_Caravan>
+  <LetterPawnsLostIncMechsBecauseMapClosed_Caravan>你的远行队已经失踪。下列人员、动物和机械族已随同失踪 </LetterPawnsLostIncMechsBecauseMapClosed_Caravan>
   <!-- EN: The following people, animals and mechanoids have been abandoned -->
-  <LetterPawnsLostIncMechsBecauseMapClosed_Home>以下人员、动物和机械体已被抛弃</LetterPawnsLostIncMechsBecauseMapClosed_Home>
+  <LetterPawnsLostIncMechsBecauseMapClosed_Home>以下人员、动物和机械族已被抛弃</LetterPawnsLostIncMechsBecauseMapClosed_Home>
   
 
   <!-- Children -->
@@ -165,7 +165,7 @@
   <!-- EN: Mechlink available -->
   <LetterLabelMechlinkAvailable>机控中枢可用</LetterLabelMechlinkAvailable>
   <!-- EN: An opportunity to acquire the unique mechlink implant has become available via the quest '{0}'.\n\nInstalling a mechlink will turn a colonist into a mechanitor. Mechanitors can create, control, and manipulate mechanoids for use in work and in combat. -->
-  <LetterMechlinkAvailable>通过任务"{0}"，我们有机会获得独特的机控中枢植入物。\n\n安装机控中枢将使殖民者变成机械师。机械师可以制造、控制和操纵机械体，用于工作和战斗。</LetterMechlinkAvailable>
+  <LetterMechlinkAvailable>通过任务"{0}"，我们有机会获得独特的机控中枢植入物。\n\n安装机控中枢将使殖民者变成机械师。机械师可以制造、控制和操纵机械族，用于工作和战斗。</LetterMechlinkAvailable>
 
   <!-- Genes -->
   <!-- EN: Xenogerm implantation ordered -->

@@ -113,9 +113,11 @@
   <!-- EN: Randomize seed -->
   <RandomizeSeed>随机种子</RandomizeSeed>
   <!-- EN: The planet is always the same diameter, but since it's far larger than needed for play, we don't generate the whole surface because it can take a very long time. This is the percentage of the surface that you want generated. -->
-  <PlanetCoverageTip>星球的大小是固定的, 但由于它远远超出正常游戏所需，所以我们默认不会生成整个行星的表面（可能需要很多时间）。这个选项为你所想生成的星球表面比率。</PlanetCoverageTip>
+  <PlanetCoverageTip>星球的大小是固定的，但由于它远远超出正常游戏所需，所以我们默认不会生成整个行星的表面（可能需要很多时间）。这个选项为你所想生成的星球表面比率。</PlanetCoverageTip>
   <!-- EN: Factions -->
   <WorldFactionsTab>派系</WorldFactionsTab>
+  <!-- EN: Advanced settings -->
+  <AdvancedSettings>高级设定</AdvancedSettings>
 
   <!-- Select world -->
   <!-- EN: Select world -->
@@ -405,7 +407,7 @@
   <!-- EN: Butchering yield -->
   <Difficulty_ButcherYieldFactor_Label>屠宰量</Difficulty_ButcherYieldFactor_Label>
   <!-- EN: Adjust the amount of materials produced when butchering. This includes meat, leather, and yield from shredding mechanoids. -->
-  <Difficulty_ButcherYieldFactor_Info>调整屠宰时获得原料的产量。这包扩肉、皮革以及拆解机械体获得的产出。</Difficulty_ButcherYieldFactor_Info>
+  <Difficulty_ButcherYieldFactor_Info>调整屠宰时获得原料的产量。这包扩肉、皮革以及拆解机械族获得的产出。</Difficulty_ButcherYieldFactor_Info>
   <!-- EN: Research speed -->
   <Difficulty_ResearchSpeedFactor_Label>研究速率</Difficulty_ResearchSpeedFactor_Label>
   <!-- EN: Adjust the speed of research. -->
@@ -481,6 +483,10 @@
   <Difficulty_UnwaveringPrisoners_Label>死忠囚犯</Difficulty_UnwaveringPrisoners_Label>
   <!-- EN: This option adds additional capturable prisoners to the game who cannot be recruited due to unwavering loyalty.\n\nUnwavering prisoners are added on top of normal prisoners, so turning this off won't give more recruitable prisoners - it simply removes the unwavering ones.\n\nUnwavering prisoners can still be released for diplomatic gains, sold, enslaved, harvested for organs, or otherwise made use of. In general, they offer more options and resources, and make the game a bit richer and easier. -->
   <Difficulty_UnwaveringPrisoners_Info>这个选项在游戏中增加了额外的可俘虏的囚犯类型，他们由于坚定不移的忠诚而无法被招募。\n\n死忠囚犯是在普通囚犯的基础上增加的一个变种，所以关闭这个选项并不会带来更多可招募的囚犯——它只是删除了死忠囚犯类型。\n\n死忠囚犯仍然可以为了外交利益而被释放，被出售，被奴役，被摘取器官，或以其他方式被利用。总的来说，他们提供了更多的选择和资源，并使游戏变得更加丰富和容易。</Difficulty_UnwaveringPrisoners_Info>
+  <!-- EN: Nomadic mineable resources -->
+  <Difficulty_NomadicMineableResourcesFactor_Label>可开采资源</Difficulty_NomadicMineableResourcesFactor_Label>
+  <!-- EN: Adjust how many mineable resources are generated on maps after your first.\n\nNote: Your first colony map will always generate with the standard amount of resources. -->
+  <Difficulty_NomadicMineableResourcesFactor_Info>调整除你初始地图以外的地图可开采资源量。\n\n注意：你的首个殖民地地图总是会生成标准量的资源。</Difficulty_NomadicMineableResourcesFactor_Info>
 
   <!-- EN: Player tools -->
   <DifficultyPlayerToolsSection>玩家控制</DifficultyPlayerToolsSection>
@@ -560,6 +566,8 @@
   <River>河流</River>
   <!-- EN: Elevation -->
   <Elevation>海拔</Elevation>
+  <!-- EN: Features -->
+  <TileMutators>地貌</TileMutators>
   <!-- EN: Fertility -->
   <Fertility>肥沃度</Fertility>
   <!-- EN: fertility -->
@@ -721,6 +729,10 @@
   <ClickForMoreInfo>点击了解更多信息。</ClickForMoreInfo>
   <!-- EN: No more information is available. -->
   <NoMoreInfoAvailable>没有更多信息。</NoMoreInfoAvailable>
+  <!-- EN: Best skill -->
+  <BestSkillLabel>最高技能</BestSkillLabel>
+  <!-- EN: skill level {0} -->
+  <BestSkillInfoLevel>技能等级{0}</BestSkillInfoLevel>
 
   <!-- Factions -->
   <!-- EN: Factions -->
@@ -739,5 +751,7 @@
   <MechanoidsDisabledContentWarning>禁用{0}意味着减少任务和自发的威胁种类。</MechanoidsDisabledContentWarning>
   <!-- EN: Without other factions, raids, trading, and quests won't occur as normal. -->
   <FactionsDisabledWarning>没有其他派系，袭击、贸易和任务就不会正常发生。</FactionsDisabledWarning>
+  <!-- EN: Cannot be removed for this scenario. -->
+  <FactionRemovalDisabled>不可从此剧本中移除。</FactionRemovalDisabled>
 
 </LanguageData>

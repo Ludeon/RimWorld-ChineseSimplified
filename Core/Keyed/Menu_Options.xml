@@ -28,6 +28,14 @@
   <Antialiasing>抗锯齿</Antialiasing>
 
   <!-- Gameplay -->
+  <!-- EN: Remember draw styles -->
+  <RememberDrawStyle>记住绘制形状</RememberDrawStyle>
+  <!-- EN: When enabled, draw styles won't reset to the default draw style when placing new buildings or zones. -->
+  <RememberDrawStyle_Tooltip>如果启用此项，则当放置新的区域、计划标记或墙体、地板等建筑时，其绘制形状不会被重置为默认的绘制形状。</RememberDrawStyle_Tooltip>
+  <!-- EN: Zoom switches world map layers -->
+  <ZoomSwitchLayer>世界地图层缩放切换</ZoomSwitchLayer>
+  <!-- EN: When enabled, zooming out on the world map will switch to an orbital view. Zooming in will show the planet again. -->
+  <ZoomSwitchLayer_Tooltip>如果启用此项，则缩小世界地图会切换至轨道视图。放大则将会重新展示星球。</ZoomSwitchLayer_Tooltip>
   <!-- EN: Screen-edge mouse scroll -->
   <EdgeScreenScroll>屏幕边缘滚动</EdgeScreenScroll>
   <!-- EN: Zoom to mouse -->
@@ -166,11 +174,5 @@
   <!-- Background image -->
   <!-- EN: Menu background -->
   <SetBackgroundImage>主菜单背景</SetBackgroundImage>
-
-  <!-- UNUSED -->
-  <SimulateNotOwningRoyalty>模拟未拥有「皇权」DLC</SimulateNotOwningRoyalty>
-  <SimulateNotOwningIdeology>模拟未拥有「文化」DLC</SimulateNotOwningIdeology>
-  <SimulateNotOwningBiotech>模拟未拥有「生物技术」DLC</SimulateNotOwningBiotech>
-  <SimulateNotOwningAnomaly>模拟未拥有「异象」DLC</SimulateNotOwningAnomaly>
 
 </LanguageData>

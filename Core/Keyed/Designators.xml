@@ -16,6 +16,11 @@
   <!-- EN: Deconstruct this and reclaim part of its resources. -->
   <DesignatorDeconstructDesc>拆除建筑并回收部分资源。</DesignatorDeconstructDesc>
 
+  <!-- EN: Deconstruct conduit -->
+  <DesignatorDeconstructConduit>拆除电缆</DesignatorDeconstructConduit>
+  <!-- EN: Deconstruct power conduits and reclaim part of their resources. -->
+  <DesignatorDeconstructConduitDesc>拆除电缆并回收部分资源。</DesignatorDeconstructConduitDesc>
+
   <!-- EN: Uninstall -->
   <DesignatorUninstall>卸载</DesignatorUninstall>
   <!-- EN: Uninstall this so it can be moved, sold, or installed somewhere else. -->
@@ -45,8 +50,8 @@
 
   <!-- EN: Hunt -->
   <DesignatorHunt>狩猎</DesignatorHunt>
-  <!-- EN: Mark animals to be hunted by your hunters. -->
-  <DesignatorHuntDesc>标记需要猎杀的动物。</DesignatorHuntDesc>
+  <!-- EN: Mark animals to be hunted by your hunters.\n\nOnly hunters with suitable ranged weapons will hunt. -->
+  <DesignatorHuntDesc>标记需要猎杀的动物。\n\n只有备有合适远程武器的猎人才会狩猎。</DesignatorHuntDesc>
 
   <!-- EN: Mine -->
   <DesignatorMine>开采</DesignatorMine>
@@ -73,7 +78,7 @@
 
   <!-- EN: Plan -->
   <DesignatorPlan>计划</DesignatorPlan>
-  <!-- EN: Place planning designations. These don't do anything except help you plan future expansions. -->
+  <!-- EN: Place planning designations. These don't do anything except help you plan future expansions.\n\nRight-click to hide or unhide all planning zones. -->
   <DesignatorPlanDesc>放置计划标记。它们除了帮助你规划未来的扩张之外没有别的作用。</DesignatorPlanDesc>
 
   <!-- EN: Remove plans -->
@@ -168,8 +173,8 @@
 
   <!-- EN: Remove bridge -->
   <DesignatorRemoveBridge>移除桥梁</DesignatorRemoveBridge>
-  <!-- EN: Remove bridges to reveal the terrain underneath. -->
-  <DesignatorRemoveBridgeDesc>移除桥梁，揭露其下的地形。</DesignatorRemoveBridgeDesc>
+  <!-- EN: Deconstruct bridges to reclaim partial resources. -->
+  <DesignatorRemoveBridgeDesc>拆除桥梁，回收部分资源。</DesignatorRemoveBridgeDesc>
 
   <!-- EN: Strip -->
   <DesignatorStrip>剥光</DesignatorStrip>
@@ -181,6 +186,11 @@
   <!-- EN: Open containers. -->
   <DesignatorOpenDesc>打开容器。</DesignatorOpenDesc>
   
+  <!-- EN: Eject fuel -->
+  <DesignatorEjectFuel>排出燃料</DesignatorEjectFuel>
+  <!-- EN: Eject all contained fuel onto the ground. -->
+  <DesignatorEjectFuelDesc>排出所有燃料，并将它们以物品的形式放置在地上。</DesignatorEjectFuelDesc>
+
   <!-- EN: Slaughter -->
   <DesignatorSlaughter>宰杀</DesignatorSlaughter>
   <!-- EN: Slaughter a tame animal. -->
@@ -190,6 +200,8 @@
   <DesignatorTame>驯服</DesignatorTame>
   <!-- EN: Tame a wild animal. -->
   <DesignatorTameDesc>驯服野生动物。</DesignatorTameDesc>
+  <!-- EN: Scaria infected animals can't be tamed. -->
+  <CantTameScaria>感染了狂暴症的动物是无法被驯服的。 </CantTameScaria>
 
   <!-- EN: Release to wild -->
   <DesignatorReleaseAnimalToWild>放生</DesignatorReleaseAnimalToWild>
@@ -240,6 +252,16 @@
   <!-- EN: Grabbed color -->
   <GrabbedColor>已获取的颜色</GrabbedColor>
 
+  <!-- EN: Expand plan -->
+  <DesignatorExpandPlan>扩张计划</DesignatorExpandPlan>
+  <!-- EN: New plan -->
+  <NewPlan>新计划</NewPlan>
+  
+  <!-- EN: Shrink plan -->
+  <DesignatorPlanShrinkSingular>缩小计划</DesignatorPlanShrinkSingular>
+  <!-- EN: Remove plans. -->
+  <DesignatorPlanShrinkDesc>移除计划</DesignatorPlanShrinkDesc>
+
   <!-- Failure messages -->
   <!-- EN: Unchosen material -->
   <UnchosenStuff>未选择材料</UnchosenStuff>
@@ -259,6 +281,10 @@
   <WouldBlockInteractionSpot>{0}会挡住{1}的操作点。</WouldBlockInteractionSpot>
   <!-- EN: The terrain here is already {0}. -->
   <TerrainIsAlready>此处地形已经是{0}了。</TerrainIsAlready>
+  <!-- EN: There is already foundation here. -->
+  <FoundationAlreadyExists>此处已经有建筑了。</FoundationAlreadyExists>
+  <!-- EN: The existing terrain here cannot be removed. -->
+  <TerrainUnremovable>此处现有的地形无法被移除。</TerrainUnremovable>
   <!-- EN: The surface is already marked for smoothing. -->
   <SurfaceBeingSmoothed>此处已经标记为要打磨。</SurfaceBeingSmoothed>
   <!-- EN: Identical thing already exists here. -->
@@ -299,6 +325,11 @@
   <ExpandOrCreateZone>扩展{0}或\n创建{1}</ExpandOrCreateZone>
   <!-- EN: Create new {0} -->
   <CreateNewZone>创建{0}</CreateNewZone>
+  
+  <!-- EN: Expand {0} or\nCreate new plan -->
+  <ExpandOrCreatePlan>扩展{0}或者\n创建新计划</ExpandOrCreatePlan>
+  <!-- EN: Create new plan -->
+  <CreateNewPlan>创建新计划</CreateNewPlan>
   
   <!-- Desc helpers -->
   <!-- EN: Transmits power -->

@@ -44,12 +44,19 @@
   <!-- EN: EMP resistance -->
   <EMPResistance.label>EMP抗性</EMPResistance.label>
   <!-- EN: This mechanoid has special shielding and shock-dissipation filaments that reduce the effect of EMP damage by this percentage. This reduces the duration of stuns caused by EMP. -->
-  <EMPResistance.description>此机械体加装了特殊的防护层和冲击耗散纤维，可以缩短被EMP伤害击中后的瘫痪时间。</EMPResistance.description>
+  <EMPResistance.description>此机械族加装了特殊的防护层和冲击耗散纤维，可以缩短被EMP伤害击中后的瘫痪时间。</EMPResistance.description>
   
   <!-- EN: filth rate -->
   <FilthRate.label>污物规模</FilthRate.label>
   <!-- EN: How much filth this creature produces.\n\nIt's best to keep filth-producing animals outdoors or on straw matting where their filth won't be a problem. -->
   <FilthRate.description>此生物能产生多少污物。\n\n最好将产生污物的动物安置在室外或草垫上，这样它们的污物就不会成为问题了。</FilthRate.description>
+  
+  <!-- EN: flight cooldown -->
+  <FlightCooldown.label>飞行冷却时间</FlightCooldown.label>
+  <!-- EN: The rest time needed before this creature can fly again. -->
+  <FlightCooldown.description>此生物需要休息多长时间才能再次飞行。</FlightCooldown.description>
+  <!-- EN: {0}s -->
+  <FlightCooldown.formatString>{0}秒</FlightCooldown.formatString>
   
   <!-- EN: foraged food amount -->
   <ForagedNutritionPerDay.label>觅食能力</ForagedNutritionPerDay.label>
@@ -85,6 +92,13 @@
   <LifespanFactor.label>寿命系数</LifespanFactor.label>
   <!-- EN: Lifespan factor alters the effective lifespan of a creature by shortening or lengthening the time until they develop age-related diseases. A lifespan factor over 100% delays disease onset and increases overall lifespan, while a lifespan factor under 100% speeds up disease onset and reduces lifespan. -->
   <LifespanFactor.description>寿命系数改变了生物的有效寿命，缩短或延长了它们发生与年龄有关的疾病的时间。寿命系数超过100%会延迟疾病的发生并增加总寿命，而寿命系数低于100%则会加速疾病的发生并减少寿命。</LifespanFactor.description>
+  
+  <!-- EN: max flight time -->
+  <MaxFlightTime.label>最大飞行时间</MaxFlightTime.label>
+  <!-- EN: The maximum amount of time this creature can stay in flight before landing. -->
+  <MaxFlightTime.description>此生物在落地前能飞行多长时间。</MaxFlightTime.description>
+  <!-- EN: {0}s -->
+  <MaxFlightTime.formatString>{0}秒</MaxFlightTime.formatString>
   
   <!-- EN: max nutrition -->
   <MaxNutrition.label>营养需求</MaxNutrition.label>
@@ -163,5 +177,10 @@
   <ToxicResistance.label>毒素抗性</ToxicResistance.label>
   <!-- EN: How well this creature resists toxic buildup. -->
   <ToxicResistance.description>这种生物抵抗中毒状态的能力。</ToxicResistance.description>
+  
+  <!-- EN: wildness -->
+  <Wildness.label>野性</Wildness.label>
+  <!-- EN: Wilder creatures are naturally more difficult to tame, train, and handle. -->
+  <Wildness.description>动物的野性越高，就越难驯服、训练和操纵。</Wildness.description>
   
 </LanguageData>

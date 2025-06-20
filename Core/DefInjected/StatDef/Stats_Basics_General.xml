@@ -11,6 +11,11 @@
   <!-- EN: How enjoyable something is to look at if it's outside.\n\nBeautiful objects fulfill peoples' need for beauty. -->
   <BeautyOutdoors.description>一个物体放在室外时给人视觉上的愉悦程度。\n\n漂亮的物体有助于满足殖民者对环境美观的需求。</BeautyOutdoors.description>
   
+  <!-- EN: caravan speed factor -->
+  <CaravanBonusSpeedFactor.label>远行队速度系数</CaravanBonusSpeedFactor.label>
+  <!-- EN: A multiplier applied to a caravan's speed when this person is part of a caravan. -->
+  <CaravanBonusSpeedFactor.description>当此人位于远行队中时，远行队的速度会乘以此项的值。</CaravanBonusSpeedFactor.description>
+  
   <!-- EN: cleanliness -->
   <Cleanliness.label>清洁度</Cleanliness.label>
   <!-- EN: How much an object contributes to an area's cleanliness score. -->
@@ -50,8 +55,8 @@
   
   <!-- EN: mass -->
   <Mass.label>物理质量</Mass.label>
-  <!-- EN: The physical mass of an object. -->
-  <Mass.description>一个物体的物理质量。</Mass.description>
+  <!-- EN: The physical mass of an object or creature. -->
+  <Mass.description>一个物体或生物的物理质量。</Mass.description>
   <!-- EN: {0} kg -->
   <Mass.formatString>{0}千克</Mass.formatString>
   

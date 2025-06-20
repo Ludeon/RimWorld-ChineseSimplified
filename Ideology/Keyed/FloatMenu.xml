@@ -4,21 +4,23 @@
   <!-- EN: Ideoligion forbids -->
   <IdeoligionForbids>文化形态禁止</IdeoligionForbids>
   <!-- EN: Only {0}s can build -->
-  <OnlyMembersCanBuild>只有 {0} 可以建筑</OnlyMembersCanBuild>
+  <OnlyMembersCanBuild>只有{0}可以建筑</OnlyMembersCanBuild>
   <!-- EN: {0} is already in progress. -->
-  <CantStartRitualAlreadyInProgress>{0} 已在进行中。</CantStartRitualAlreadyInProgress>
+  <CantStartRitualAlreadyInProgress>{0}已在进行中。</CantStartRitualAlreadyInProgress>
+  <!-- EN: {RITUAL} cannot be performed {GERUND} {LAYER}.-->
+  <CantStartRitualLayer>{RITUAL}不能{GERUND}{LAYER}进行。</CantStartRitualLayer>
   <!-- EN: One or more participants can't join due to extreme temperature. -->
   <CantJoinRitualInExtremeWeather>一个或多个参与者由于极端温度无法参加。</CantJoinRitualInExtremeWeather>
   <!-- EN: {0} is already participating in a ritual. -->
-  <CantStartRitualTargetIsAlreadyInRitual>{0} 已经在参加仪式。 </CantStartRitualTargetIsAlreadyInRitual>
+  <CantStartRitualTargetIsAlreadyInRitual>{0}已经在参加仪式。 </CantStartRitualTargetIsAlreadyInRitual>
   <!-- EN: You must assign the role of {0} in order to start this ritual. -->
-  <CantStartRitualRoleNotAssigned>必须分配 {0} 的职位才能开始此仪式。</CantStartRitualRoleNotAssigned>
+  <CantStartRitualRoleNotAssigned>必须分配{0}的职位才能开始此仪式。</CantStartRitualRoleNotAssigned>
   <!-- EN: There is nobody to convert to {0}. You need a colonist, prisoner, or slave of a different ideoligion. -->
-  <CantStartRitualNoConvertee>没有人可以教化为 {0}。 你需要一个不同文化形态的殖民者、囚犯或奴隶。</CantStartRitualNoConvertee>
+  <CantStartRitualNoConvertee>没有人可以教化为{0}。你需要一个不同文化形态的殖民者、囚犯或奴隶。</CantStartRitualNoConvertee>
   <!-- EN: {PAWN_nameDef} cannot be {ROLE}. -->
-  <CantStartRitualSelectedPawnCannotBeRole>{PAWN_nameDef} 不能是 {ROLE}。 </CantStartRitualSelectedPawnCannotBeRole>
+  <CantStartRitualSelectedPawnCannotBeRole>{PAWN_nameDef}不能是{ROLE}。 </CantStartRitualSelectedPawnCannotBeRole>
   <!-- EN: {PAWN_nameDef} must be a {IDEO_memberName}. -->
-  <CantStartRitualSelectedPawnMustBeMember>{PAWN_nameDef} 必须是 {IDEO_memberName}。</CantStartRitualSelectedPawnMustBeMember>
+  <CantStartRitualSelectedPawnMustBeMember>{PAWN_nameDef}必须是{IDEO_memberName}。</CantStartRitualSelectedPawnMustBeMember>
   <!-- EN: {PAWN_nameDef} is psychically deaf. -->
   <CantStartRitualSelectedPawnPsychicallyDeaf>{PAWN_nameDef}心灵失聪。</CantStartRitualSelectedPawnPsychicallyDeaf>
   <!-- EN: Not enough space for spectators. There must be a clear circle of radius {MINRADIUS}. At least {1} standable spots in that radius required. -->
@@ -36,8 +38,6 @@
   <!-- EN: not allowed for faction -->
   <NotAllowedForFaction>此派系不可用</NotAllowedForFaction>
 
-  <!-- EN: Remove -->
-  <Remove>移除</Remove>
   <!-- EN: Remove precept -->
   <RemovePrecept>删除戒律</RemovePrecept>
   <!-- EN: Regenerate -->
@@ -101,17 +101,6 @@
   <IdeoAlreadyHasAltar>只能有一个祭坛/文化符号</IdeoAlreadyHasAltar>
   <!-- EN: recolor apparel -->
   <RecolorApparel>服装重新着色</RecolorApparel>
-
-  <!-- EN: Hack {0} -->
-  <Hack>破解{0}</Hack>
-  <!-- EN: Cannot hack {0} -->
-  <CannotHack>无法破解{0}</CannotHack>
-  <!-- EN: Already hacked -->
-  <AlreadyHacked>已经被破解</AlreadyHacked>
-  <!-- EN: Incapable of hacking -->
-  <IncapableOfHacking>无法破解</IncapableOfHacking>
-  <!-- EN: to drop supplies -->
-  <ToDropSupplies>（空投补给）</ToDropSupplies>
 
   <!-- EN: Install {0} -->
   <InstallRelic>安装{0}</InstallRelic>

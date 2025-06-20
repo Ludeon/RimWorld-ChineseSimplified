@@ -4,17 +4,16 @@
   <!-- Shuttle landing zones -->
   <!-- EN: Shuttle could not land on pad: {0} -->
   <ShuttleBlocked>穿梭机不能在着陆区降落：{0}</ShuttleBlocked>
-  <!-- EN: The shuttle has arrived. -->
-  <MessageShuttleArrived>穿梭机已抵达</MessageShuttleArrived>
   <!-- EN: The shuttle arrived, but since there were no colonists inside, the contents were lost. -->
   <MessageShuttleArrivedContentsLost>穿梭机已抵达，但由于里面没有殖民者，包含的所有货物已丢失。</MessageShuttleArrivedContentsLost>
-  <!-- EN: Cannot call shuttle -->
-  <CannotCallShuttle>无法呼叫穿梭机</CannotCallShuttle>
 
   <!-- EN: Cannot land in undiscovered area. -->
   <ShuttleCannotLand_Fogged>无法降落在未发现的区域。</ShuttleCannotLand_Fogged>
   <!-- EN: Area must be walkable. -->
   <ShuttleCannotLand_Unwalkable>区域必须可以行走。</ShuttleCannotLand_Unwalkable>
+  <!-- EN: Terrain does not support {0}. -->
+  <ShuttleCannotLand_Unaffordable>地形不支持{0}.</ShuttleCannotLand_Unaffordable> <!-- text_todo -->
+
 
   <!-- EN: Select {BESTOWER_definite} and click 'Begin bestowing ceremony' to commence the ceremony. -->
   <MessageBestowerWaiting>选择{BESTOWER_definite}并点击「开始授勋仪式」来开始一场仪式。</MessageBestowerWaiting>
@@ -44,6 +43,6 @@
   <MessagePermitTransportDropCaravan>{FACTION_name}已经将物资交给了{PAWN_nameDef}的远行队。</MessagePermitTransportDropCaravan>
 
   <!-- EN: No orbiting mechanoids found. -->
-  <MessageNoFactionForVerbMechCluster>没有发现轨道上的机械体。</MessageNoFactionForVerbMechCluster>
+  <MessageNoFactionForVerbMechCluster>没有发现轨道上的机械族。</MessageNoFactionForVerbMechCluster>
 
 </LanguageData>

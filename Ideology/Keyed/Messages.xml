@@ -77,21 +77,23 @@
   <!-- EN: Charity fulfilled -->
   <MessageCharityEventFulfilled>仁善圆满</MessageCharityEventFulfilled>
   <!-- EN: {0} are leaving empty-handed. -->
-  <MessageBeggarsLeavingWithNoItems>{0} 空手离开。</MessageBeggarsLeavingWithNoItems>
+  <MessageBeggarsLeavingWithNoItems>{0}空手离开。</MessageBeggarsLeavingWithNoItems>
   <!-- EN: The {0} has accepted the requested items and is leaving. -->
   <MessageBeggarsLeavingWithItemsSingular>{0}带着祈求的物品离开。</MessageBeggarsLeavingWithItemsSingular>
   <!-- EN: {0} have accepted the requested items and are leaving. -->
-  <MessageBeggarsLeavingWithItemsPlural>{0} 带着祈求的物品离开。</MessageBeggarsLeavingWithItemsPlural>
+  <MessageBeggarsLeavingWithItemsPlural>{0}带着祈求的物品离开。</MessageBeggarsLeavingWithItemsPlural>
   <!-- EN: {0_nameDef} died without any treatment. -->
-  <MessageWandererLeftToDie>{0_nameDef} 在没有任何治疗的情况下死亡。</MessageWandererLeftToDie>
+  <MessageWandererLeftToDie>{0_nameDef}在没有任何治疗的情况下死亡。</MessageWandererLeftToDie>
+  <!-- EN: {0_nameDef} was left to die.-->
+  <MessageWandererLeftBehind>{0_nameDef}被留下等死。</MessageWandererLeftBehind>
   <!-- EN: {0_nameDef} was recruited. -->
-  <MessageWandererRecruited>{0_nameDef} 已被招募。</MessageWandererRecruited>
+  <MessageWandererRecruited>{0_nameDef}已被招募。</MessageWandererRecruited>
   <!-- EN: {0_nameDef} left healthy. -->
-  <MessageWandererLeftHealthy>{0_nameDef} 保持健康。</MessageWandererLeftHealthy>
+  <MessageWandererLeftHealthy>{0_nameDef}保持健康。</MessageWandererLeftHealthy>
   <!-- EN: {0} has been failed. -->
-  <MessageCharityQuestEndedFailed>{0} 失败。</MessageCharityQuestEndedFailed>
+  <MessageCharityQuestEndedFailed>{0}失败。</MessageCharityQuestEndedFailed>
   <!-- EN: {0} has been successfully completed. -->
-  <MessageCharityQuestEndedSuccess>{0} 成功完成。</MessageCharityQuestEndedSuccess>
+  <MessageCharityQuestEndedSuccess>{0}成功完成。</MessageCharityQuestEndedSuccess>
 
   <!-- Ideo UI -->
   <!-- EN: Cannot remove -->
@@ -153,8 +155,5 @@
   <MessageDevelopmentPointsEarned>发展点数由{0}改变至{1}（{2}）。</MessageDevelopmentPointsEarned>
   <!-- EN: Only one change to structures, memes and styles is allowed. -->
   <MessageFluidIdeoOneChangeAllowed>只允许改变结构、模因和风格中的一种。</MessageFluidIdeoOneChangeAllowed>
-
-  <!-- UNUSED -->
-  <MessageBeggarsLeavingWithItems>{0} 带着祈求的物品离开。</MessageBeggarsLeavingWithItems>
 
 </LanguageData>

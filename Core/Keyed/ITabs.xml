@@ -269,8 +269,8 @@
   <Trainability>可训练度</Trainability>
   <!-- EN: Requires {0} trainability. -->
   <CannotTrainNotSmartEnough>可训练度需求: {0}。</CannotTrainNotSmartEnough>
-  <!-- EN: {1_labelShort} is too small to train this. -->
-  <CannotTrainTooSmall>{1_labelShort}体型过小，无法训练。</CannotTrainTooSmall>
+  <!-- EN: {0} is too small to train this. -->
+  <CannotTrainTooSmall>{0}体型过小，无法训练。</CannotTrainTooSmall>
 
   <!-- EN: Prerequisite needed: {0} -->
   <TrainingNeedsPrerequisite>前置研究项目：{0}</TrainingNeedsPrerequisite>
@@ -362,7 +362,7 @@
   <ConfirmRemoveItemDialog>你真的想去掉{0}吗？</ConfirmRemoveItemDialog>
   
   <!-- Quests tab -->
-  <!-- EN: Dismiss this quest and move it to the historical tab.\n\nThe quest can be un-dismissed at any time. Its effects and expiry times will proceed as normal. You won't recieve notifications about dismissed quests. -->
+  <!-- EN: Dismiss this quest and move it to the historical tab.\n\nThe quest can be un-dismissed at any time. Its effects and expiry times will proceed as normal. You won't receive notifications about dismissed quests. -->
   <DismissQuest>取消此任务并将其移至「历史记录」标签。\n\n可以随时取消任务。其影响和有效期将照常进行。你不会收到有关已取消任务的通知。</DismissQuest>
   <!-- EN: Un-dismiss this quest.\n\nThe quest will be returned to the available or active tab, and notifications will be re-enabled. -->
   <UnDismissQuest>取消关闭此任务。\n\n该任务将返回到「可接受」或「进行中」标签，通知将重新启用。</UnDismissQuest>
@@ -448,10 +448,5 @@
   <StudyNotesTab_ToggleStudy>开关自动调查</StudyNotesTab_ToggleStudy>
   <!-- EN: No discoveries yet -->
   <StudyNotesTab_NoDiscoveries>尚未发现</StudyNotesTab_NoDiscoveries>
-
-  <!-- UNUSED -->
-  <NonRecruitableTipCannotConvert>他们对信仰坚定不移，他们不能被归化。</NonRecruitableTipCannotConvert>
-  <SelfTend>自我治疗</SelfTend>
-  <SelfTendTip>{0}开启自我治疗后将会以正常效果的 {1} 当场自动治疗自己。</SelfTendTip>
 
 </LanguageData>
