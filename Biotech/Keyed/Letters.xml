@@ -9,7 +9,7 @@
   <!-- EN: Mechlink installed -->
   <LetterLabelMechlinkInstalled>已植入机控中枢</LetterLabelMechlinkInstalled>
   <!-- EN: {PAWN_labelShort} has installed a mechlink! {PAWN_pronoun} is now a mechanitor and can create and control mechanoids.\n\nResearch basic mechtech to get started.\n\n(*SectionTitle)Creating mechs:(/SectionTitle) Your mechanitor can create mechs at a production building called a mech gestator.\n\n(*SectionTitle)About bandwidth:(/SectionTitle) Mechanitors can control as many mechs as their total bandwidth allows. Select {PAWN_labelShort} and look at {PAWN_possessive} 'Bandwidth' readout to see how much bandwidth {PAWN_pronoun} is currently using and how much {PAWN_pronoun} has available. Bandwidth can be increased with certain apparel and by building band node buildings.\n\n(*SectionTitle)About control groups:(/SectionTitle) Mechanitors control mechs in groups. Each control group can be set to one of these modes:\n\n- Work\n- Escort\n- Recharge\n- Dormant self-charge\n\nTo learn more about what each mode does, select the work mode icon on one of {PAWN_labelShort}'s control groups and hover over the different work orders. The maximum number of control groups can be increased with apparel and implants.\n\n(*SectionTitle)About threat calling:(/SectionTitle) Mechanitors can signal ancient leader mechs to attack in order to obtain rare items from them. You must do this to improve your mechanitor past certain limits, but beware the danger. -->
-  <LetterMechlinkInstalled>{PAWN_labelShort}已经植入了机控中枢！{PAWN_pronoun}现在是一名机械师，可以培育和控制机械族。\n\n研究基础机械科技以开启机械师之路。\n\n(*SectionTitle)培育机械族：(/SectionTitle)你的机械师可以在名为机械培育器的生产设备中培育机械族。\n\n(*SectionTitle)关于带宽：(/SectionTitle)机械师可以在其总带宽允许范围内控制尽可能多的机械族。选中{PAWN_labelShort}并查看{PAWN_possessive}“带宽”指示器以了解{PAWN_pronoun}当前已用带宽和剩余带宽。带宽可以通过某些装备和频带节点来增加。\n\n(*SectionTitle)关于控制组：(/SectionTitle)机械师以组为单位控制机械族，每个控制组都可以被设置为这些行动模式之一：\n\n-工作\n-护卫\n-充电\n-休眠（自机充电）\n\n要了解每种模式的作用，请选择{PAWN_labelShort}的一个控制组上的行动模式图标，并在不同的行动指令上徘徊。控制组的最大数量可以通过装备和植入物来增加。\n\n(*SectionTitle)关于威胁召唤：(/SectionTitle)机械师可以向远古指挥官机械族发出攻击诱导信号，以便从它们那里获得稀有物品。为了让你的机械师突破某些限制，你必须这样做，但要注意危险。</LetterMechlinkInstalled>
+  <LetterMechlinkInstalled>{PAWN_labelShort}已经植入了机控中枢！{PAWN_pronoun}现在是一名机械师，可以培育和控制机械族。\n\n研究基础机械科技以开启机械师之路。\n\n(*SectionTitle)培育机械族：(/SectionTitle)你的机械师可以在名为机械培育器的生产设备中培育机械族。\n\n(*SectionTitle)关于带宽：(/SectionTitle)机械师可以在其总带宽允许范围内控制尽可能多的机械族。选中{PAWN_labelShort}并查看{PAWN_possessive}「带宽」指示器以了解{PAWN_pronoun}当前已用带宽和剩余带宽。带宽可以通过某些装备和频带节点来增加。\n\n(*SectionTitle)关于控制组：(/SectionTitle)机械师以组为单位控制机械族，每个控制组都可以被设置为这些行动模式之一：\n\n-工作\n-护卫\n-充电\n-休眠（自机充电）\n\n要了解每种模式的作用，请选择{PAWN_labelShort}的一个控制组上的行动模式图标，并在不同的行动指令上徘徊。控制组的最大数量可以通过装备和植入物来增加。\n\n(*SectionTitle)关于威胁召唤：(/SectionTitle)机械师可以向远古指挥官机械族发出攻击诱导信号，以便从它们那里获得稀有物品。为了让你的机械师突破某些限制，你必须这样做，但要注意危险。</LetterMechlinkInstalled>
 
   <!-- EN: This happened because of -->
   <MentalStateReason_Gene>这是因为基因</MentalStateReason_Gene>
@@ -74,12 +74,12 @@
   <!-- EN: {BABY_nameDef} adopted -->
   <LetterLabelAdopted>已收养{BABY_nameDef}</LetterLabelAdopted>
   <!-- EN: {BABY_nameDef}, a baby, has been adopted by your colony. You may want to assign colonists to the 'childcare' work type to take care of {BABY_objective}. -->
-  <LetterTextAdopted>{BABY_nameDef}，一个婴儿，被你的殖民地收养了。你可能要把殖民者分配到“保育”的工作类型来照顾{BABY_objective}。</LetterTextAdopted>
+  <LetterTextAdopted>{BABY_nameDef}，一个婴儿，被你的殖民地收养了。你可能要把殖民者分配到「保育」的工作类型来照顾{BABY_objective}。</LetterTextAdopted>
 
   <!-- EN: {0_nameDef}'s baby prep -->
   <LetterLabelThirdTrimester>为{0_nameDef}的孩子做准备</LetterLabelThirdTrimester>
   <!-- EN: {0_nameDef} is due to give birth in less than 6 days. You can prepare for the baby:\n\n- Build a birth room with a clean floor and good bed.\n- Get a skilled doctor ready.\n- In the work tab, assign at least one person to childcare\n- Prepare a food source for the baby. {0_nameDef} can breastfeed the baby, or you can feed them baby food, milk, or insect jelly.\n- Build a crib. High quality cribs will make a baby happy.\n\nYou can make baby food at a stove or campfire. -->
-  <LetterTextThirdTrimester>{0_nameDef}将在6天内生产。你可以为孩子做准备：\n\n- 建造一个有干净地板和优质床铺的产房。\n- 找一个技能熟练的医生。\n- 在“工作”选项卡中，分配至少一个人负责照顾孩子的工作。\n- 为宝宝准备食物来源。{0_nameDef}可以母乳喂养婴儿，也可以喂他们婴儿食物，奶或是虫胶。\n- 建造一张婴儿床。高品质的婴儿床会让宝宝开心。\n\n您可以在炉灶或篝火处制作婴儿食物。</LetterTextThirdTrimester>
+  <LetterTextThirdTrimester>{0_nameDef}将在6天内生产。你可以为孩子做准备：\n\n- 建造一个有干净地板和优质床铺的产房。\n- 找一个技能熟练的医生。\n- 在「工作」选项卡中，分配至少一个人负责照顾孩子的工作。\n- 为宝宝准备食物来源。{0_nameDef}可以母乳喂养婴儿，也可以喂他们婴儿食物，奶或是虫胶。\n- 建造一张婴儿床。高品质的婴儿床会让宝宝开心。\n\n您可以在炉灶或篝火处制作婴儿食物。</LetterTextThirdTrimester>
 
   <!-- EN: {0} vat birth -->
   <LetterVatBirth>{0}培育舱出生</LetterVatBirth>
@@ -98,7 +98,7 @@
   <!-- EN: {0_labelShort} in labor! -->
   <LetterColonistPregnancyLaborLabel>{0_labelShort}正在分娩中！</LetterColonistPregnancyLaborLabel>
   <!-- EN: {0_labelShort} is about to give birth! She's going to have contractions for a few hours before delivering a baby. The labor may go through several stages of different levels of difficulty and danger.\n\nTo improve the baby's chances, gather a doctor and others to help with the birth. Select {0_labelShort} and press 'Gather for birth' to start the procedure. -->
-  <LetterColonistPregnancyLabor>{0_labelShort}快要生孩子了！在生孩子之前，她会宫缩数个小时。分娩可能会经历不同程度的困难和多个危险的阶段。\n\n为了提高孩子的存活率，需要一个医生和其他人来帮助生产。选择{0_labelShort}并按下“协助分娩”的启动程序。</LetterColonistPregnancyLabor>
+  <LetterColonistPregnancyLabor>{0_labelShort}快要生孩子了！在生孩子之前，她会宫缩数个小时。分娩可能会经历不同程度的困难和多个危险的阶段。\n\n为了提高孩子的存活率，需要一个医生和其他人来帮助生产。选择{0_labelShort}并按下「协助分娩」的启动程序。</LetterColonistPregnancyLabor>
   <!-- EN: {0_labelShort} has died due to complications after giving birth. -->
   <LetterPartColonistDiedAfterChildbirth>{0_labelShort}分娩后因并发症死亡。</LetterPartColonistDiedAfterChildbirth>
   <!-- EN: The baby was created from in vitro fertilization and has the genetic makeup of {0_labelShort} and {1_labelShort}. -->
@@ -165,7 +165,7 @@
   <!-- EN: Mechlink available -->
   <LetterLabelMechlinkAvailable>机控中枢可用</LetterLabelMechlinkAvailable>
   <!-- EN: An opportunity to acquire the unique mechlink implant has become available via the quest '{0}'.\n\nInstalling a mechlink will turn a colonist into a mechanitor. Mechanitors can create, control, and manipulate mechanoids for use in work and in combat. -->
-  <LetterMechlinkAvailable>通过任务"{0}"，我们有机会获得独特的机控中枢植入物。\n\n安装机控中枢将使殖民者变成机械师。机械师可以制造、控制和操纵机械族，用于工作和战斗。</LetterMechlinkAvailable>
+  <LetterMechlinkAvailable>通过任务「{0}」，我们有机会获得独特的机控中枢植入物。\n\n安装机控中枢将使殖民者变成机械师。机械师可以制造、控制和操纵机械族，用于工作和战斗。</LetterMechlinkAvailable>
 
   <!-- Genes -->
   <!-- EN: Xenogerm implantation ordered -->
@@ -202,16 +202,16 @@
   <LetterTextGenesImplanted>{CASTER_nameDef}已将含有{CASTER_possessive}异种基因副本的胚芽植入{TARGET_nameDef}体内，将所有异种基因传递给了{TARGET_objective}。\n\n{TARGET_nameDef}将在接下来的{COMADURATION}中处于异种胚芽昏迷状态，同时{TARGET_possessive}身体会适应这些变化。\n\n{CASTER_nameDef}将在接下来的{SHOCKDURATION}中陷入基因缺失冲击状态。{CASTER_possessive}基因也将需要重构。这个过程需要时间，如果{CASTER_nameDef}在{CASTER_possessive}基因重构之前再次植入{CASTER_possessive}异种，{CASTER_pronoun}将死亡。</LetterTextGenesImplanted>
   
   <!-- EN: A baby named {PAWN_nameDef} from {PAWN_factionName} is crashing in a transport pod nearby.\n\nYou may choose to adopt {PAWN_objective} with the 'adopt' command or ignore {PAWN_objective}. -->
-  <RefugeePodCrashBaby>一个来自{PAWN_factionName}的名叫{PAWN_nameDef}的婴儿正在附近的运输舱里坠落。\n\n你可以选择用“收养”命令收养{PAWN_objective}，或者忽略{PAWN_objective}。</RefugeePodCrashBaby>
+  <RefugeePodCrashBaby>一个来自{PAWN_factionName}的名叫{PAWN_nameDef}的婴儿正在附近的运输舱里坠落。\n\n你可以选择用「收养」命令收养{PAWN_objective}，或者忽略{PAWN_objective}。</RefugeePodCrashBaby>
   <!-- EN: The body of {PAWN_nameDef}'s deceased parent is contained within the transport pod as well. -->
   <RefugeePodCrashBabyHasParent>{PAWN_nameDef}已故亲人的身体也在运输舱内。</RefugeePodCrashBabyHasParent>
 
   <!-- EN: Instinctively seeking a mate, {BONDPAWN_nameDef} has formed a psychically-bonded romantic relationship with {OTHERPAWN_nameDef}. {OTHERPAWN_nameDef} will benefit psychologically from the connection to {BONDPAWN_nameDef}, but if they are separated onto different world tiles, both will suffer from psychic stress. If one dies, the other will be driven to madness. -->
-  <LetterPsychicBondCreated>出于寻求伴侣的本能，{BONDPAWN_nameDef}已经与{OTHERPAWN_nameDef}建立了名为“心灵纽带”的浪漫联系。{OTHERPAWN_nameDef}将从与{BONDPAWN_nameDef}的联系中获得心理上的好处，但如果他们被分离到不同的区域，两人都将遭受心理上的压力。如果一个人死了，另一个人就会被逼得发狂。</LetterPsychicBondCreated>
+  <LetterPsychicBondCreated>出于寻求伴侣的本能，{BONDPAWN_nameDef}已经与{OTHERPAWN_nameDef}建立了名为「心灵纽带」的浪漫联系。{OTHERPAWN_nameDef}将从与{BONDPAWN_nameDef}的联系中获得心理上的好处，但如果他们被分离到不同的区域，两人都将遭受心理上的压力。如果一个人死了，另一个人就会被逼得发狂。</LetterPsychicBondCreated>
 
   <!-- EN: Psychic bond -->
   <LetterPsychicBondCreatedLovinLabel>心灵纽带</LetterPsychicBondCreatedLovinLabel>
   <!-- EN: {BONDPAWN_nameDef} has formed a psychically-bonded romantic relationship with {OTHERPAWN_nameDef}. {OTHERPAWN_nameDef} will benefit psychologically from the connection to {BONDPAWN_nameDef}, but if they are separated onto different world tiles, both will suffer from psychic stress. If one dies, the other will be driven to madness. -->
-  <LetterPsychicBondCreatedLovinText>{BONDPAWN_nameDef}已经与{OTHERPAWN_nameDef}建立了名为“心灵纽带”的浪漫联系。{OTHERPAWN_nameDef}将从与{BONDPAWN_nameDef}的联系中获得心理上的好处，但如果他们被分离到不同的区域，两人都将遭受心理上的压力。如果一个人死了，另一个人就会被逼得发狂。</LetterPsychicBondCreatedLovinText>
+  <LetterPsychicBondCreatedLovinText>{BONDPAWN_nameDef}已经与{OTHERPAWN_nameDef}建立了名为「心灵纽带」的浪漫联系。{OTHERPAWN_nameDef}将从与{BONDPAWN_nameDef}的联系中获得心理上的好处，但如果他们被分离到不同的区域，两人都将遭受心理上的压力。如果一个人死了，另一个人就会被逼得发狂。</LetterPsychicBondCreatedLovinText>
 
 </LanguageData>
