@@ -99,7 +99,7 @@
     <li>areIs(lodgersCount>=2)->是</li>
     <li>remainingWillNowLeave(lodgersCount==1)-></li>
     <li>remainingWillNowLeave(lodgersCount>=2)->现在所有剩余的[lodgersLabelPlural]都将离开。</li>
-    <li>failLetterEndingQuest->你未能完成任务「[resolvedQuestName]」。</li>
+    <li>failLetterEndingQuest->你未能完成任务“[resolvedQuestName]”。</li>
     <li>failLetterEndingCommon(askerIsNull==true,priority=1)->[failLetterEndingQuest]</li>
     <li>failLetterEndingCommon->[failLetterEndingQuest]\n\n你与[asker_faction_name]的关系下降[goodwillPenalty]。</li>
   </QuestHospitalityCommon.rulePack.rulesStrings>

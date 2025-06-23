@@ -8,7 +8,7 @@ See this page for license info:\
 查看此页面以了解许可信息：\
 http://ludeon.com/forums/index.php?topic=2933.0
 
-关于译名：「 环世界 」 是当初 3DM 盗版的错误译名，rim 的意思是 「 边缘 」，ring 才是 「 环 」。
+关于译名：“ 环世界 ” 是当初 3DM 盗版的错误译名，rim 的意思是 “ 边缘 ”，ring 才是 “ 环 ”。
 
 > **本项目为 RimWorld 官方中文语言包，由 Ludeon 工作室创建，翻译均由社区无偿贡献。**
 
@@ -55,7 +55,7 @@ http://ludeon.com/forums/index.php?topic=2933.0
 * **排序要求**：Core 必须排在首位，否则会导致背景故事翻译不起效。
 * **Steam 用户**：根据你的 Steam 设置不同，RimWorld 安装目录会不同，可以在「Steam 游戏库」中「右击 RImWorld」，在菜单中选择「属性」- 「本地文件」- 「查看本地文件 ...」
 * **Mac 用户**：在查看本地文件后需要右击「RimWorldMac 」 -「查看包内容」才会进入游戏安装目录。
-* **XP 系统**：部分 Windows XP 系统用户在缺少 「 微软雅黑 」 字体的情况下会出现文字显示不全的问题（其他系统无此问题）。[点击下载微软雅黑字体](http://pan.baidu.com/s/1gf41ZaV)
+* **XP 系统**：部分 Windows XP 系统用户在缺少 “ 微软雅黑 ” 字体的情况下会出现文字显示不全的问题（其他系统无此问题）。[点击下载微软雅黑字体](http://pan.baidu.com/s/1gf41ZaV)
 * **注意文件夹结构**：解压缩和安装时需要注意文件夹结构，避免在外面多套一层文件夹。正确的文件夹结构如下图所示。
 
 ![screenshot](https://user-images.githubusercontent.com/10762097/34319476-7777b3b8-e81e-11e7-8962-937123114291.png)

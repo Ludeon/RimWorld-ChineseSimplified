@@ -134,7 +134,7 @@
   -->
   <Blindsight.descriptionMaker.rules.rulesStrings>
     <li>creation(tag=meme_Blindsight)        ->[deity0_name]妄图通过寻找虚空之尘来发现永恒国度，事实上什么都没找到。然后[deity0_pronoun]挖出双眼，发现宇宙之形慢慢浮现在[deity0_possessive]脑海里。</li>
-    <li>episode(uses=1,tag=meme_Blindsight)  ->一个盲人乞丐询问[deity0_objective]，「你为什么抛弃我？我甚至看不到你所创造的东西。」[deity0_name]回答到，「你会看到更多，而不是更少，因为我的真理就在你心里。」</li>
+    <li>episode(uses=1,tag=meme_Blindsight)  ->一个盲人乞丐询问[deity0_objective]，“你为什么抛弃我？我甚至看不到你所创造的东西。”[deity0_name]回答到，“你会看到更多，而不是更少，因为我的真理就在你心里。”</li>
     <li>intro(tag=meme_Blindsight)           ->[deity0_type][deity0_name]使用一种病原体使得[place_summary][place_name]的居民失明，迫使他们理解视觉是接触神性知识的阻碍。</li>
     <li>conflict(tag=meme_Blindsight)        ->一个[foeLeader]要求所有[memberNamePlural]每天都要观看[foeLeader_possessive]的传道会。许多人把自己弄瞎以示抗议。</li>
     <li>founderJoin(tag=meme_Blindsight)     ->一位叫做[founderName]的[place_job]在[founder_pronoun]从[foeLeader]的[foeSoldiers]手中拯救一名[memberName]时，失去了[founder_possessive]视觉。在那之后，[founderName]才能真正看清[foeLeader]残暴的一面。</li>
@@ -796,7 +796,7 @@
   -->
   <Proselytizer.descriptionMaker.rules.rulesStrings>
     <li>creation(tag=meme_Proselytizer)        ->[deity0_name]在凡人中选择了受膏者以传递[deity0_possessive]的话语。</li>
-    <li>episode(uses=1,tag=meme_Proselytizer)  ->[deity0_name]对所有的[memberNamePlural]说： 「去吧，把我的话传到宇宙的各个角落。」</li>
+    <li>episode(uses=1,tag=meme_Proselytizer)  ->[deity0_name]对所有的[memberNamePlural]说： “去吧，把我的话传到宇宙的各个角落。”</li>
     <li>intro(tag=meme_Proselytizer)           ->[memberNamePlural]在[place_summary][place_name]建造了一座宏伟的[altarName]， 以便人们前来聆听[deity0_name]的神谕。</li>
     <li>conflict(tag=meme_Proselytizer)        ->一个充满怨恨的[foeLeader]试图诋毁[deity0_name]的话语， 命令[foeLeader_possessive][foeSoldiers]要割掉任何谈论[deity0_type]的人的舌头。</li>
     <li>founderJoin(tag=meme_Proselytizer)     ->[deity0_name]祝福了名为[founderName]的[place_job]， 赋予了神之魅力， 当[founder_pronoun]演讲时， 任何人都无法转身离开。</li>
@@ -993,7 +993,7 @@
   -->
   <Rancher.descriptionMaker.rules.rulesStrings>
     <li>creation(tag=meme_Rancher)        ->[deity0_name] 创造了动物， 然后是人， 之后把动物送给人类宠爱、饲养和屠宰， 作为对 [deity0_objective] 的崇拜行为。</li>
-    <li>episode(uses=1,tag=meme_Rancher)  ->[deity0_name]创造了这片土地上所有高贵的动物和野兽，并说： 「带着这些高贵的野兽，通过它们使你们自己在我的荣耀之中富饶。」</li>
+    <li>episode(uses=1,tag=meme_Rancher)  ->[deity0_name]创造了这片土地上所有高贵的动物和野兽，并说： “带着这些高贵的野兽，通过它们使你们自己在我的荣耀之中富饶。”</li>
     <li>intro(tag=meme_Rancher)           ->[place_summary][place_name]的早期[ranchingAnimal]牧人为 [deity0_name]建造了一个伟大的[altarName]。</li>
     <li>conflict(tag=meme_Rancher)        ->一个强大的[foeLeader] 藐视 [memberNamePlural] 和他们的生存方式, 并买下了所有的牧场用于种植 [Vegetable]。</li>
     <li>founderJoin(tag=meme_Rancher)     ->[memberName] 的救星 [FounderName] 出生在一个简陋的谷仓里，在 [ranchingAnimal] 中，[founder_possessive] 的父母是 [rancherParent1] 和 [rancherParent2]。</li>
@@ -1095,8 +1095,8 @@
     <li>conflict(tag=meme_Transhumanist)        ->一名卢德分子[foeLeader]因羡慕[memberNamePlural]的进步，和[foeLeader_possessive] [foeSoldiers] 用 [place_personalWeapon]摧毁了他们的工坊。</li>
     <li>founderJoin(tag=meme_Transhumanist)     ->[founderName]狡猾的[place_job] 制造了一个传感器并通过植入来警告[memberNamePlural][foeSoldiers]的接近。</li>
     <li>victory(tag=meme_Transhumanist)         ->[founderName]从[deity0_name]那获得了神圣的科技知识，并用它来增强 [memberNamePlural]的躯壳与思想使得他们有能力打败[foeSoldiers]。</li>
-    <li>setup(tag=meme_Transhumanist)           ->[founderName]是早期人类行星殖民时期的一位生物科学家。因不满于殖民地的官僚主义的限制，[founder_pronoun]便驾驶着自己那挺飞船，开始四处「演奏」那属于[founder_possessive]自己的乐章。</li>
-    <li>story(uses=1,tag=meme_Transhumanist)    ->[founderName]召集了第一批伟大的科学家和发明家来重新定义「人类」</li>
+    <li>setup(tag=meme_Transhumanist)           ->[founderName]是早期人类行星殖民时期的一位生物科学家。因不满于殖民地的官僚主义的限制，[founder_pronoun]便驾驶着自己那挺飞船，开始四处“演奏”那属于[founder_possessive]自己的乐章。</li>
+    <li>story(uses=1,tag=meme_Transhumanist)    ->[founderName]召集了第一批伟大的科学家和发明家来重新定义“人类”</li>
     <li>lessonIntro(tag=meme_Transhumanist)         ->来自我们部门最年长的研究员教给了我自新石器时代以来到超凡科技为止的全部科技技术的进化史，但我明白这不是他真正想让我学到的事。</li>
     <li>lesson(tag=meme_Transhumanist)              ->人类那天堂般的未来不会是血肉和骨骼，而会是硅胶和铬骨</li>
     <li>lessonReinforcement(tag=meme_Transhumanist) ->我甚至编写了一个模拟程序来证实它。</li>

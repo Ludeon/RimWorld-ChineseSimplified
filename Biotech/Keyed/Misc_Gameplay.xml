@@ -176,7 +176,7 @@
   <!-- EN: {PAWN_nameDef} should deathrest soon to avoid exhaustion. -->
   <PawnShouldDeathrestNow>为了避免引发死眠衰竭症，{PAWN_nameDef}应当尽快开始死眠。</PawnShouldDeathrestNow>
   <!-- EN: This determines whether {PAWN_nameDef} will automatically ingest hemogen packs when {PAWN_possessive} hemogen is below {MIN}.\n\nAutomatic ingestion is currently {ONOFF}. -->
-  <AutoTakeHemogenDesc>这决定了当{PAWN_nameDef}的血原质储量低于{MIN}时，是否会自动摄入血原包。\n\n自动摄入目前为「{ONOFF}」状态。</AutoTakeHemogenDesc>
+  <AutoTakeHemogenDesc>这决定了当{PAWN_nameDef}的血原质储量低于{MIN}时，是否会自动摄入血原包。\n\n自动摄入目前为“{ONOFF}”状态。</AutoTakeHemogenDesc>
   <!-- EN: Consume hemogen below -->
   <ConsumeHemogenBelow>血原质摄入阈值</ConsumeHemogenBelow>
   <!-- EN: Never consume hemogen. -->
@@ -360,7 +360,7 @@
   <!-- EN: Implanting a xenogerm will put {PAWN_nameDef} in a coma as the xenogerm integrates itself. On average, this lasts for {COMADURATION}. The length of the coma is dependent on the doctor's medical skill and the quality of your medical facilities. -->
   <ImplantXenogermWarningDesc>植入异种胚芽会使{PAWN_nameDef}陷入昏迷状态，因为异种胚芽需要一定时间才能融入宿主。昏迷状态将持续{COMADURATION}左右。昏迷的时间取决于医生的医疗技能等级和你的医疗设施的质量。</ImplantXenogermWarningDesc>
   <!-- EN: Additionally, implanting a xenogerm will overwrite existing xenogenes. {PAWN_nameDef}'s current xenotype is '{XENOTYPE}'. {PAWN_pronoun} has the following xenogenes:\n{XENOGENES} -->
-  <ImplantXenogermWarningOverwriteXenogenes>此外，植入一个异种胚芽将覆盖现有的异种基因。{PAWN_nameDef}的当前异种是「{XENOTYPE}」。{PAWN_pronoun}有以下异种基因：\n{XENOGENES}</ImplantXenogermWarningOverwriteXenogenes>
+  <ImplantXenogermWarningOverwriteXenogenes>此外，植入一个异种胚芽将覆盖现有的异种基因。{PAWN_nameDef}的当前异种是“{XENOTYPE}”。{PAWN_pronoun}有以下异种基因：\n{XENOGENES}</ImplantXenogermWarningOverwriteXenogenes>
   <!-- EN: After implantation, {PAWN_nameDef} will have a metabolism value of {MET} and a food consumption multiplier of {CONSUMPTION}. -->
   <ImplantXenogermWarningNewMetabolism>植入后，{PAWN_nameDef}的代谢率为{MET}，食物消耗率为{CONSUMPTION}。</ImplantXenogermWarningNewMetabolism>
   <!-- EN: Would you like to continue? -->
