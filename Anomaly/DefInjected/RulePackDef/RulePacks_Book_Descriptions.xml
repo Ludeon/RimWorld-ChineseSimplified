@@ -400,11 +400,11 @@
     <li>vision->黑色之物侵入了[ANYPAWN_possessive]意识并夺走了[ANYPAWN_possessive]记忆</li>
     <li>vision->[ANYPAWN_pronoun]被自己所追逐，无论跑到哪里都无法摆脱自己</li>
     <li>vision->[ANYPAWN_pronoun]被[entity]撕成了碎片</li>
-    <li>experiencesWithMonsters->[tellsAStoryOf] [ANYPAWN_possessive] [findings] [objective]</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf][ANYPAWN_possessive][objective][findings]</li>
     <li>findings->的经历</li>
     <li>findings->的研究</li>
     <li>findings->的故事</li>
-    <li>objective->[maybeAdjectiveEvil]有关一个因[ritual_incident]而进行仪式</li>
+    <li>objective->有关一个因[ritual_incident]而进行[maybeAdjectiveEvil]仪式</li>
     <li>objective->在[entity_incident]之后有关暗黑科技</li>
     <li>ritual_incident->[ANYPAWN_pronoun]发现[targetHuman]凭空消失</li>
     <li>targetHuman->[anAuthorDesc]女性</li>
@@ -450,7 +450,7 @@
     <li>entity->能够突然消失不见的暗影</li>
     <li>entity->夺人灵魂的猎手</li>
     <li>maybeAdjectiveEvil(p=2)-></li>
-    <li>maybeAdjectiveEvil->[adjectiveEvil] </li>
+    <li>maybeAdjectiveEvil->[adjectiveEvil]</li>
     <li>adjectiveEvil->致命</li>
     <li>adjectiveEvil->上古</li>
     <li>adjectiveEvil->血腥</li>

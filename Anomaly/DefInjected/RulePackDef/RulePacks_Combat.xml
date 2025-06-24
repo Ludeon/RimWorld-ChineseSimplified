@@ -21,11 +21,11 @@
     <li>r_logentry->[INITIATOR_definite]向[RECIPIENT_definite][firedat]。</li>
     <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite]用[INITIATOR_possessive][WEAPON_label][fired]。</li>
     <li>fired(p=2)->[verb_fired]</li>
-    <li>fired->发射[skillAdv]</li>
+    <li>fired->[skillAdv][verb_fired]</li>
     <li>firedat->开火</li>
-    <li>firedat->发射[skillAdv]</li>
+    <li>firedat->[skillAdv]开火</li>
     <li>firedat(p=0.5)->瞄准并开火</li>
-    <li>firedat(p=0.5)->瞄准并发射[skillAdv]</li>
+    <li>firedat(p=0.5)->[skillAdv]瞄准并开火</li>
     <li>firedat(p=0.3)->开火</li>
     <li>verb_fired->开火</li>
   </Combat_RangedFlamethrower.rulePack.rulesStrings>
