@@ -249,13 +249,10 @@
     <li>topicalnoun->[BodyPart]</li>
     <li>townname_combo->[topicalnoun][TerrainFeature]</li>
     <li>townname_combo->[topicalnoun][Community]</li>
-    <li>townname_combo->[topicalnoun]之[TerrainFeature]</li>
-    <li>townname_combo->[topicalnoun]之[Community]</li>
-    <li>townname_combo(p=2)->[concept_positive]之[TerrainFeature]</li>
     <li>townname_combo(p=2)->[concept_positive][TerrainFeature]</li>
     <li>townname_combo(p=2)->[concept_positive][Community]</li>
-    <li>townname_combo(p=3)->[Character]之[TerrainFeature]</li>
-    <li>townname_combo(p=3)->[Character]之[Community]</li>
+    <li>townname_combo(p=3)->[Character][TerrainFeature]</li>
+    <li>townname_combo(p=3)->[Character][Community]</li>
     <li>townname_near->[TerrainFeature]旁的[nearnameinitial]</li>
     <li>townname_near->[TerrainFeature]边的[nearnameinitial]</li>
     <li>townname_near->[TerrainFeature]上的[nearnameinitial]</li>
@@ -269,27 +266,27 @@
     <li>townname_wordgen->[topicalnoun][townend]</li>
     <li>townend->都市</li>
     <li>townend->镇</li>
-    <li>townend->镇</li>
+    <li>townend->市</li>
     <li>townend->领</li>
-    <li>townend->镇</li>
+    <li>townend->乡</li>
     <li>townend->町</li>
-    <li>townend->镇</li>
-    <li>townend->町</li>
+    <li>townend->新区</li>
+    <li>townend->岭</li>
     <li>townend->村</li>
     <li>townend->湖</li>
-    <li>townend->村</li>
+    <li>townend->庄</li>
     <li>townend->中心</li>
-    <li>townend->城</li>
-    <li>townend->镇</li>
+    <li>townend->集市</li>
+    <li>townend->定居点</li>
     <li>townend->商都</li>
-    <li>townend->领</li>
+    <li>townend->郡</li>
+    <li>townend->县</li>
     <li>townend->城</li>
-    <li>townend->城</li>
-    <li>townend->镇</li>
-    <li>townend->镇</li>
-    <li>townend->镇</li>
+    <li>townend->关隘</li>
+    <li>townend->邑</li>
+    <li>townend->堡</li>
     <li>townend->主城</li>
-    <li>townend->城</li>
+    <li>townend->营地</li>
   </NamerSettlementOutlander.rulePack.rulesStrings>
   
   <!-- EN:
@@ -338,14 +335,9 @@
     <li>r_name(p=4)->[townname_combo]</li>
     <li>r_name->[townname_wordgen]</li>
     <li>townname_combo->[animal_badass][geography]</li>
-    <li>townname_combo->[animal_badass]之[geography]</li>
     <li>townname_combo->[concept_badass][geography]</li>
-    <li>townname_combo->[concept_badass]之[geography]</li>
     <li>townname_combo->[person_badass][geography]</li>
-    <li>townname_combo->[person_badass]之[geography]</li>
-    <li>townname_combo->[Enemy]之[geography]</li>
     <li>townname_combo->[Enemy][geography]</li>
-    <li>townname_combo->[Weapon]之[geography]</li>
     <li>townname_combo->[Weapon][geography]</li>
     <li>townname_combo->[color_badass][geography]</li>
     <li>geography(p=2)->[TerrainFeature]</li>
@@ -355,26 +347,26 @@
     <li>townname_wordgen(p=2)->[SylE][townendevil]</li>
     <li>townname_wordgen(p=2)->[SylE][SylE][townendevil]</li>
     <li>townendevil->城</li>
-    <li>townendevil->城</li>
+    <li>townendevil->营寨</li>
     <li>townendevil->巢穴</li>
-    <li>townendevil->巢穴</li>
+    <li>townendevil->老巢</li>
     <li>townendevil->屠宰场</li>
-    <li>townendevil->屠宰场</li>
-    <li>townendevil->屠宰场</li>
-    <li>townendevil->城</li>
+    <li>townendevil->绞肉场</li>
+    <li>townendevil->剥肉坊</li>
+    <li>townendevil->匪寨</li>
+    <li>townendevil->匪窝</li>
     <li>townendevil->堡垒</li>
-    <li>townendevil->堡垒</li>
-    <li>townendevil->堡垒</li>
+    <li>townendevil->要塞</li>
+    <li>townendevil->城塞</li>
     <li>townendevil->禁区</li>
-    <li>townendevil->禁区</li>
+    <li>townendevil->禁狱</li>
+    <li>townendevil->暗区</li>
     <li>townendevil->营地</li>
-    <li>townendevil->营地</li>
-    <li>townendevil->突击营</li>
-    <li>townendevil->突击营</li>
-    <li>townendevil->镇</li>
-    <li>townendevil->镇</li>
-    <li>townendevil->镇</li>
-    <li>townendevil->镇</li>
+    <li>townendevil->哨站</li>
+    <li>townendevil->窝点</li>
+    <li>townendevil->前哨</li>
+    <li>townendevil->据点</li>
+    <li>townendevil->掠栈</li>
   </NamerSettlementPirate.rulePack.rulesStrings>
   
   <!-- EN:

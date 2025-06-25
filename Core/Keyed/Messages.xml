@@ -80,7 +80,7 @@
   <!-- EN: Warning: {ANIMAL_kindBasePlural} may attack upon failed taming attempts ({1} chance). -->
   <MessageAnimalManhuntsOnTameFailed>警告：{ANIMAL_kindBasePlural}在驯服失败后通常会发动攻击（{1}几率）。</MessageAnimalManhuntsOnTameFailed>
   <!-- EN: Only those with the insect sympathy trait can tame {INSECT_indefinite}. -->
-  <MessageInsectTameDesignated>只有那些具有昆虫同情特性的人才能驯服{INSECT_indefinite}。</MessageInsectTameDesignated>
+  <MessageInsectTameDesignated>只有那些具有虫族同情特性的人才能驯服{INSECT_indefinite}。</MessageInsectTameDesignated>
   <!-- EN: No colonists are assigned to hunt. -->
   <MessageNoHuntersAvailable>没有指派狩猎工作的殖民者。</MessageNoHuntersAvailable>
   <!-- EN: No hunter has a valid hunting weapon. Equip a hunter with a suitable ranged weapon. -->
@@ -398,7 +398,7 @@
   <MessageCantBanishLastColonist>你不能放逐最后一位殖民者。</MessageCantBanishLastColonist>
 
   <!-- EN: Cannot equip: {0}. -->
-  <MessageCantEquipCustom>不能装备: {0}。</MessageCantEquipCustom>
+  <MessageCantEquipCustom>不能装备：{0}。</MessageCantEquipCustom>
   <!-- EN: Cannot equip: {1_labelShort} is incapable of violence. -->
   <MessageCantEquipIncapableOfViolence>不能装备: {1_labelShort}无暴力能力。</MessageCantEquipIncapableOfViolence>
   <!-- EN: Cannot equip: {1_labelShort} is incapable of shooting. -->
@@ -751,7 +751,7 @@
   <!-- EN: {0} must have eyes -->
   <MessageRitualRoleMustHaveEyes>{0}必须有眼睛</MessageRitualRoleMustHaveEyes>
   <!-- EN: {0_labelShort} does not require further scarification. -->
-  <MessageRitualRoleMustRequireScarification>{0_labelShort}不需要更多的伤痕。</MessageRitualRoleMustRequireScarification>
+  <MessageRitualRoleMustRequireScarification>{0_labelShort}不需要更多的疤痕。</MessageRitualRoleMustRequireScarification>
   <!-- EN: {0_labelShort} does not require blinding. -->
   <MessageRitualRoleMustRequireBlinding>{0_labelShort}不需要致盲。</MessageRitualRoleMustRequireBlinding>
   <!-- EN: {0} must be a prisoner or slave. -->
@@ -857,9 +857,9 @@
   <MessageLodgersCantFarskip>无法折跃：难民</MessageLodgersCantFarskip>
   
   <!-- EN: {HACKER_nameDef}'s hacking has been detected. {HACKER_pronoun} has been locked out for {DURATION}. -->
-  <MessageHackerLockedOut>{HACKER_nameDef}的骇入行为已被监测到。{HACKER_pronoun}在{DURATION}被锁定。</MessageHackerLockedOut>
+  <MessageHackerLockedOut>{HACKER_nameDef}的骇入行为被计算机系统监测到了。{HACKER_pronoun}已被暂时锁定{DURATION}。</MessageHackerLockedOut>
   <!-- EN: {HACKER_nameDef}'s hacking has been detected. {HACKER_pronoun} has been locked out permanently. -->
-  <MessageHackerLockedOutPermanently>{HACKER_nameDef}的骇入行为已被监测到。{HACKER_pronoun}被永久锁定。</MessageHackerLockedOutPermanently>
+  <MessageHackerLockedOutPermanently>{HACKER_nameDef}的骇入行为被计算机系统监测到了。{HACKER_pronoun}已被永久锁定。</MessageHackerLockedOutPermanently>
   <!-- EN: {0_labelShort} can be hacked again. -->
   <MessageHackableUnlocked>{0_labelShort}可被重新骇入。</MessageHackableUnlocked>
 
