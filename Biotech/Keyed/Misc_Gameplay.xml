@@ -386,7 +386,7 @@
   <!-- EN: Insert person -->
   <InsertPerson>置入人员</InsertPerson>
   <!-- EN: Insert a person into the gene extractor. Their genetic material will be extracted and used to create a genepack containing a random selection of their genes.\n\nGene extraction is painful and will leave the subject weak and drowsy for a number of days. The process is lethal for those whose genes are currently regrowing. -->
-  <InsertPersonGeneExtractorDesc>将一个人置入到基因提取器中。他们的遗传物质将被提取，并用于创建一个包含随机选择的基因的基因组。\n\n基因提取是痛苦的，会让被提取的人在若干天内虚弱和昏昏欲睡。这个过程对那些基因正在重构的人来说是致命的。</InsertPersonGeneExtractorDesc>
+  <InsertPersonGeneExtractorDesc>将一个人置入到基因提取器中。此人的遗传物质将被提取，并用于创建一个包含随机选择的基因的基因组。\n\n基因提取是痛苦的，会让被提取的人在若干天内虚弱和昏昏欲睡。这个过程对那些基因正在重构的人来说是致命的。</InsertPersonGeneExtractorDesc>
   <!-- EN: Warning: {PAWN_nameDef}'s genes are regrowing. Extracting {PAWN_possessive} genes before they are regrown will kill {PAWN_objective}.\n\nAre you sure you wish to continue? -->
   <ConfirmExtractXenogermWillKill>警告：{PAWN_nameDef}的基因正在重构。在{PAWN_possessive}基因重构完成之前提取它们将杀死{PAWN_objective}。\n\n你确定要继续吗？</ConfirmExtractXenogermWillKill>
   <!-- EN: Gene extraction complete for {PAWN_nameDef}. Extracted -->
@@ -550,7 +550,7 @@
   <!-- EN: One or more growth vats are experiencing biostarvation from lack of nutrition or power.\n\nIf biostarvation reaches 100%, the contained people will die. -->
   <BiostarvationExplanation>一个或多个培育舱因缺少营养或电力而造成生理饥饿。\n\n如果生理饥饿度达到100%，容器内的人将会死亡。</BiostarvationExplanation>
   <!-- EN: Insert a person into the growth vat. They will age 20 times as fast as normal. -->
-  <InsertPersonGrowthVatDesc>将人员置入培育舱内，他们会以20倍的速度衰老。</InsertPersonGrowthVatDesc>
+  <InsertPersonGrowthVatDesc>将人员置入培育舱内，其会以20倍的速度成长。</InsertPersonGrowthVatDesc>
   <!-- EN: Implant an embryo into the growth vat. After gestating for {0} a fully formed baby will be produced by the vat, hopefully in good health. -->
   <InsertEmbryoGrowthVatDesc>将一个胚胎植入培育舱中。经过{0}的培育，一个完全成型的婴儿将在舱内形成，希望是健康的。</InsertEmbryoGrowthVatDesc>
   <!-- EN: Insert embryo -->
@@ -572,7 +572,7 @@
   <!-- EN: No non-biostarving people of acceptable age. To enter the growth vat, the person must be below {0} years old and not currently biostarving. -->
   <NoPawnsCanEnterGrowthVat>没有年龄相符的非饥饿人员。要想进入培育舱，必须是年龄在{0}以下且当前不处于饥饿状态的人员。</NoPawnsCanEnterGrowthVat>
   <!-- EN: Aging speed -->
-  <AgingSpeed>衰老速度</AgingSpeed>
+  <AgingSpeed>成长速度</AgingSpeed>
 
   <!-- Mech charger -->
   <!-- EN: Waste -->
