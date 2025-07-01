@@ -149,9 +149,9 @@
   <!-- EN: Copy all plans within a selected area. -->
   <CommandCopyPlanSelectionDesc>复制选区内的所有计划</CommandCopyPlanSelectionDesc>
   <!-- EN: Select area to copy -->
-  <CommandCopyPlanSelectionMouse>选择一片区域复制</CommandCopyPlanSelectionMouse> <!-- text_todo -->
+  <CommandCopyPlanSelectionMouse>选择一片区域复制</CommandCopyPlanSelectionMouse>
   <!-- EN: Paste selected area -->
-  <CommandCopyPlanSelectionPasteMouse>粘贴选中的区域</CommandCopyPlanSelectionPasteMouse> <!-- text_todo -->
+  <CommandCopyPlanSelectionPasteMouse>粘贴选中的区域</CommandCopyPlanSelectionPasteMouse>
 
   <!-- EN: Delete -->
   <CommandDeleteZoneLabel>删除</CommandDeleteZoneLabel>
@@ -690,15 +690,15 @@
   <!-- Rituals -->
   <!-- EN: Leave {RITUAL_label} -->
   <CommandLeaveRitual>离开{RITUAL_label}</CommandLeaveRitual>
-  <!-- EN: Stop participating in the {RITUAL_labelDef}. The ritual will continue as long as it has at least one participant. -->
-  <CommandLeaveRitualDesc>停止参与{RITUAL_labelDef}。只要仪式有至少一个参与者，它就会继续下去。</CommandLeaveRitualDesc>
+  <!-- EN: Stop participating in the {RITUAL_labelDef}. The event will continue as long as it has at least one participant. -->
+  <CommandLeaveRitualDesc>停止参与{RITUAL_labelDef}。只要事件有至少一个参与者，它就会继续下去。</CommandLeaveRitualDesc>
   <!-- EN: This is the last participant in the {RITUAL_labelDef}. -->
   <CommandLeaveLastParticipant>这是{RITUAL_labelDef}的最后一个参与者。</CommandLeaveLastParticipant>
 
   <!-- EN: Cancel {RITUAL_label} -->
   <CommandCancelRitual>取消{RITUAL_label}</CommandCancelRitual>
-  <!-- EN: End the {RITUAL_labelDef} immediately. Ritual obligation will remain. You can restart the ritual later. -->
-  <CommandCancelRitualDesc>立即结束{RITUAL_labelDef}。仪式的契约将保留。你可以在以后重新启动仪式</CommandCancelRitualDesc>
+  <!-- EN: End the {RITUAL_labelDef} immediately. You can restart the event later. -->
+  <CommandCancelRitualDesc>立即结束{RITUAL_labelDef}。你可以在以后重新启动仪式</CommandCancelRitualDesc>
   <!-- EN: Are you sure you want to cancel {RITUAL_labelDef}? -->
   <CommandCancelRitualConfirm>你确定你想要取消{RITUAL_labelDef}？</CommandCancelRitualConfirm>
 
