@@ -4,14 +4,12 @@
   <!-- EN:
     <li>questDescription->A nearby settlement, [settlement_label], has a special trade request. They would like to purchase:\n\n  [requestedThingCount]x [requestedThing_label] [qualityInfo](worth [requestedThingMarketValue_money])\n\nIf you want to make the trade, send a caravan with the requested items.[travelTime]</li>
     <li>qualityInfo(requestedThingHasQuality==True,priority=1)->of normal+ quality </li>
-    <li>qualityInfo(requestedThingHasQuality==True,priority=1)->of normal+ quality </li>
     <li>qualityInfo-></li>
     <li>travelTime(canCaravan==True,priority=1)-> The estimated travel time is [estimatedTravelTime_duration].</li>
     <li>travelTime-></li>
   -->
   <TradeRequest.questDescriptionRules.rulesStrings>
     <li>questDescription->附近的定居点[settlement_label]，向我们发来了一份特殊的交易订单。\n他们想要采购以下物资：\n\n[qualityInfo][requestedThing_label] x[requestedThingCount]（总价值：[requestedThingMarketValue_money]）\n\n如果我们接受这份交易订单，则需要派出一支携带相应物资的远行队前往目标地点。\n[travelTime]</li>
-    <li>qualityInfo(requestedThingHasQuality==True,priority=1)->一般品质以上的</li>
     <li>qualityInfo(requestedThingHasQuality==True,priority=1)->一般品质以上的</li>
     <li>qualityInfo-></li>
     <li>travelTime(canCaravan==True,priority=1)->旅途预计花费[estimatedTravelTime_duration]。</li>
