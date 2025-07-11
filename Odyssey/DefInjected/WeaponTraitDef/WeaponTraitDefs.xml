@@ -1,0 +1,504 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: aim assistance -->
+  <AimAssistance.label>辅瞄器</AimAssistance.label>
+  <!-- EN: This weapon contains a rudimentary aim assistant computer which helps track targets, increasing accuracy at all ranges. The device can account for environmental challenges, allowing the weapon to ignore the accuracy penalty from bad weather and smoke. -->
+  <AimAssistance.description>该武器内置简易瞄准辅助计算机，可帮助追踪目标，提高各距离的射击精度。该设备能应对环境挑战，使武器无视恶劣天气和烟雾带来的精度惩罚。</AimAssistance.description>
+  <!-- EN: seeking -->
+  <AimAssistance.traitAdjectives.0>寻找</AimAssistance.traitAdjectives.0>
+  <!-- EN: accurate -->
+  <AimAssistance.traitAdjectives.1>精准</AimAssistance.traitAdjectives.1>
+  <!-- EN: precise -->
+  <AimAssistance.traitAdjectives.2>精确</AimAssistance.traitAdjectives.2>
+  <!-- EN: auto-aim -->
+  <AimAssistance.traitAdjectives.3>自动瞄准</AimAssistance.traitAdjectives.3>
+  <!-- EN: self-aim -->
+  <AimAssistance.traitAdjectives.4>自行瞄准</AimAssistance.traitAdjectives.4>
+  
+  <!-- EN: bioferrite burner -->
+  <BioferriteBurner.label>火焰喷射（活铁）</BioferriteBurner.label>
+  <!-- EN: This weapon has a bioferrite-powered flamethrower unit. The burner generates a blast of flame from a pressurized bioferrite charge. Once used, it must be reloaded using bioferrite. -->
+  <BioferriteBurner.description>该武器配备有一个微型附挂燃烧器，可通过对活铁加压以释放火焰。微型燃烧器需要装填活铁作为燃料。</BioferriteBurner.description>
+  <!-- EN: burner charge -->
+  <BioferriteBurner.abilityProps.chargeNoun>燃料</BioferriteBurner.abilityProps.chargeNoun>
+  <!-- EN: on cooldown -->
+  <BioferriteBurner.abilityProps.cooldownGerund>冷却中</BioferriteBurner.abilityProps.cooldownGerund>
+  <!-- EN: fiery -->
+  <BioferriteBurner.traitAdjectives.0>火红</BioferriteBurner.traitAdjectives.0>
+  <!-- EN: flame -->
+  <BioferriteBurner.traitAdjectives.1>火焰</BioferriteBurner.traitAdjectives.1>
+  <!-- EN: flaming -->
+  <BioferriteBurner.traitAdjectives.2>燃烧</BioferriteBurner.traitAdjectives.2>
+  <!-- EN: burning -->
+  <BioferriteBurner.traitAdjectives.3>灼烧</BioferriteBurner.traitAdjectives.3>
+  
+  <!-- EN: birdshot pellets -->
+  <BirdshotPellets.label>鸟弹</BirdshotPellets.label>
+  <!-- EN: This weapon fires shells containing smaller pellets than normal. It's much more accurate at close range, but less effective at long range. -->
+  <BirdshotPellets.description>该武器发射比普通弹药更小的弹丸，在近距离更为精准，但远距离效果较差。</BirdshotPellets.description>
+  <!-- EN: birdshot -->
+  <BirdshotPellets.traitAdjectives.0>鸟枪</BirdshotPellets.traitAdjectives.0>
+  <!-- EN: nearshot -->
+  <BirdshotPellets.traitAdjectives.1>短程枪</BirdshotPellets.traitAdjectives.1>
+  
+  <!-- EN: broadhead arrows -->
+  <BroadheadArrows.label>宽头箭</BroadheadArrows.label>
+  <!-- EN: This bow shoots arrows tipped with sharp blades, increasing its damage. -->
+  <BroadheadArrows.description>该弓使用带有锋利刀刃的箭头，提升了伤害。</BroadheadArrows.description>
+  <!-- EN: strong -->
+  <BroadheadArrows.traitAdjectives.0>坚固</BroadheadArrows.traitAdjectives.0>
+  <!-- EN: broadhead -->
+  <BroadheadArrows.traitAdjectives.1>宽头</BroadheadArrows.traitAdjectives.1>
+  
+  <!-- EN: charge capacitor -->
+  <ChargeCapacitor.label>储能电容</ChargeCapacitor.label>
+  <!-- EN: This weapon amplifies pulse-charge technology with a massive capacitor, increasing damage and armor penetration. -->
+  <ChargeCapacitor.description>该武器通过大型电容放大电荷能量，提高了伤害和护甲穿透。</ChargeCapacitor.description>
+  <!-- EN: overcharged -->
+  <ChargeCapacitor.traitAdjectives.0>过充</ChargeCapacitor.traitAdjectives.0>
+  
+  <!-- EN: cumbersome -->
+  <Cumbersome.label>笨重</Cumbersome.label>
+  <!-- EN: This weapon is unwieldy to use, making it slower to aim. -->
+  <Cumbersome.description>该武器操作笨重，瞄准速度较慢。</Cumbersome.description>
+  <!-- EN: cumbersome -->
+  <Cumbersome.traitAdjectives.0>笨重</Cumbersome.traitAdjectives.0>
+  <!-- EN: bulky -->
+  <Cumbersome.traitAdjectives.1>粗大</Cumbersome.traitAdjectives.1>
+  <!-- EN: awkward -->
+  <Cumbersome.traitAdjectives.2>蹩脚</Cumbersome.traitAdjectives.2>
+  
+  <!-- EN: custom grip -->
+  <CustomGrip.label>定制握把</CustomGrip.label>
+  <!-- EN: This weapon contains a customized grip that handles recoil better, improving accuracy at short range. It looks cool too. -->
+  <CustomGrip.description>该武器配备了定制握把，更好地控制后坐力，提升近距离精度，并且外观酷炫。</CustomGrip.description>
+  <!-- EN: custom -->
+  <CustomGrip.traitAdjectives.0>定制</CustomGrip.traitAdjectives.0>
+  <!-- EN: customized -->
+  <CustomGrip.traitAdjectives.1>专门定制</CustomGrip.traitAdjectives.1>
+  <!-- EN: gripped -->
+  <CustomGrip.traitAdjectives.2>紧握</CustomGrip.traitAdjectives.2>
+  <!-- EN: hi-grip -->
+  <CustomGrip.traitAdjectives.3>高质握把</CustomGrip.traitAdjectives.3>
+  
+  <!-- EN: EMP cannon -->
+  <EMPLauncher.label>副炮（EMP）</EMPLauncher.label>
+  <!-- EN: This weapon has an attached EMP shell launcher. The shell emits a burst of electromagnetic energy that stuns electronic targets like turrets and mechanoids. Once fired, it must be reloaded using steel. -->
+  <EMPLauncher.description>该武器配有EMP副炮，发射的弹药能释放EMP脉冲，暂时瘫痪附近的机械族、炮塔和迫击炮。重新装填需要钢铁。</EMPLauncher.description>
+  <!-- EN: shell -->
+  <EMPLauncher.abilityProps.chargeNoun>炮弹</EMPLauncher.abilityProps.chargeNoun>
+  <!-- EN: on cooldown -->
+  <EMPLauncher.abilityProps.cooldownGerund>冷却中</EMPLauncher.abilityProps.cooldownGerund>
+  <!-- EN: EMP -->
+  <EMPLauncher.traitAdjectives.0>EMP</EMPLauncher.traitAdjectives.0>
+  <!-- EN: disabling -->
+  <EMPLauncher.traitAdjectives.1>停机</EMPLauncher.traitAdjectives.1>
+  <!-- EN: stunning -->
+  <EMPLauncher.traitAdjectives.2>瘫痪</EMPLauncher.traitAdjectives.2>
+  
+  <!-- EN: EMP pulser -->
+  <EMPPulser.label>EMP脉冲发生器</EMPPulser.label>
+  <!-- EN: This weapon can emit a burst of energy centered on the user. The burst will stun nearby electronic targets like mechanoids or turrets. Once used, the pulser takes some time to recharge. -->
+  <EMPPulser.description>该武器可以使用者为中心发出电磁脉冲，暂时瘫痪附近的机械族、炮塔和迫击炮。使用后需要一定时间充能。</EMPPulser.description>
+  <!-- EN: charge -->
+  <EMPPulser.abilityProps.chargeNoun>充能</EMPPulser.abilityProps.chargeNoun>
+  <!-- EN: on cooldown -->
+  <EMPPulser.abilityProps.cooldownGerund>冷却中</EMPPulser.abilityProps.cooldownGerund>
+  <!-- EN: pulse -->
+  <EMPPulser.traitAdjectives.0>脉冲</EMPPulser.traitAdjectives.0>
+  <!-- EN: EMP -->
+  <EMPPulser.traitAdjectives.1>EMP</EMPPulser.traitAdjectives.1>
+  
+  <!-- EN: EMP rounds -->
+  <EMPRounds.label>EMP弹</EMPRounds.label>
+  <!-- EN: This weapon fires rounds with embedded EMP capacitors, which will temporarily disable electronics and mechanoids. -->
+  <EMPRounds.description>该武器发射内嵌EMP电容的弹药，暂时瘫痪击中的机械族、炮塔和迫击炮</EMPRounds.description>
+  <!-- EN: EMP -->
+  <EMPRounds.traitAdjectives.0>EMP</EMPRounds.traitAdjectives.0>
+  <!-- EN: electric -->
+  <EMPRounds.traitAdjectives.1>电气</EMPRounds.traitAdjectives.1>
+  <!-- EN: shocking -->
+  <EMPRounds.traitAdjectives.2>震撼</EMPRounds.traitAdjectives.2>
+  <!-- EN: sparky -->
+  <EMPRounds.traitAdjectives.3>火花</EMPRounds.traitAdjectives.3>
+  <!-- EN: zapping -->
+  <EMPRounds.traitAdjectives.4>迅捷</EMPRounds.traitAdjectives.4>
+  
+  <!-- EN: extended barrel -->
+  <ExtendedBarrel.label>长枪管</ExtendedBarrel.label>
+  <!-- EN: This weapon has a longer range than normal. -->
+  <ExtendedBarrel.description>该武器拥有比常规更远的射程。</ExtendedBarrel.description>
+  <!-- EN: long -->
+  <ExtendedBarrel.traitAdjectives.0>长</ExtendedBarrel.traitAdjectives.0>
+  <!-- EN: extended -->
+  <ExtendedBarrel.traitAdjectives.1>延长</ExtendedBarrel.traitAdjectives.1>
+  
+  <!-- EN: extended magazine -->
+  <ExtendedMagazine.label>扩容弹匣</ExtendedMagazine.label>
+  <!-- EN: This weapon fires 50% more shots in a single burst than normal. -->
+  <ExtendedMagazine.description>该武器每次连发比普通多50%的射击次数。</ExtendedMagazine.description>
+  <!-- EN: high-capacity -->
+  <ExtendedMagazine.traitAdjectives.0>大容量</ExtendedMagazine.traitAdjectives.0>
+  <!-- EN: extendo-clip -->
+  <ExtendedMagazine.traitAdjectives.1>扩展匣</ExtendedMagazine.traitAdjectives.1>
+  
+  <!-- EN: frequency amplifier -->
+  <FrequencyAmplifier.label>频率放大器</FrequencyAmplifier.label>
+  <!-- EN: This weapon passes the beam through a crystal amplifier, dramatically increasing the weapon's damage and range. The weapon needs to cool down between uses. -->
+  <FrequencyAmplifier.description>该武器通过晶体增幅器增强伽马射线，大幅提升伤害与射程，但增加武器冷却时间。</FrequencyAmplifier.description>
+  <!-- EN: amplified -->
+  <FrequencyAmplifier.traitAdjectives.0>放大</FrequencyAmplifier.traitAdjectives.0>
+  
+  <!-- EN: gold inlay -->
+  <GoldInlay.label>黄金镶嵌</GoldInlay.label>
+  <!-- EN: This weapon is inlaid with gold. Traders will pay more for it. -->
+  <GoldInlay.description>该武器饰以黄金，商人会支付更高的价格。</GoldInlay.description>
+  <!-- EN: gold -->
+  <GoldInlay.traitAdjectives.0>金</GoldInlay.traitAdjectives.0>
+  <!-- EN: golden -->
+  <GoldInlay.traitAdjectives.1>黄金</GoldInlay.traitAdjectives.1>
+  
+  <!-- EN: grenade launcher -->
+  <GrenadeLauncher.label>副炮（破片）</GrenadeLauncher.label>
+  <!-- EN: This weapon has an attached frag grenade launcher. Once fired, it must be reloaded using steel. -->
+  <GrenadeLauncher.description>该武器配有破片榴弹发射器。重新装填需要钢铁。</GrenadeLauncher.description>
+  <!-- EN: grenade -->
+  <GrenadeLauncher.abilityProps.chargeNoun>破片弹</GrenadeLauncher.abilityProps.chargeNoun>
+  <!-- EN: on cooldown -->
+  <GrenadeLauncher.abilityProps.cooldownGerund>冷却中</GrenadeLauncher.abilityProps.cooldownGerund>
+  <!-- EN: explosive -->
+  <GrenadeLauncher.traitAdjectives.0>高爆</GrenadeLauncher.traitAdjectives.0>
+  
+  <!-- EN: high-power rounds -->
+  <HighPowerRounds.label>高威力弹</HighPowerRounds.label>
+  <!-- EN: Special ammunition makes this weapon more powerful than normal. The heavy recoil makes it less accurate. -->
+  <HighPowerRounds.description>特殊弹药使该武器火力强于常规，但强大的后坐力会降低射击精度。</HighPowerRounds.description>
+  <!-- EN: atlas -->
+  <HighPowerRounds.traitAdjectives.0>擎天</HighPowerRounds.traitAdjectives.0>
+  <!-- EN: hi-power -->
+  <HighPowerRounds.traitAdjectives.1>大功率</HighPowerRounds.traitAdjectives.1>
+  <!-- EN: heavy-shot -->
+  <HighPowerRounds.traitAdjectives.2>重炮</HighPowerRounds.traitAdjectives.2>
+  <!-- EN: hardpunch -->
+  <HighPowerRounds.traitAdjectives.3>重击</HighPowerRounds.traitAdjectives.3>
+  <!-- EN: heavy-hit -->
+  <HighPowerRounds.traitAdjectives.4>重创</HighPowerRounds.traitAdjectives.4>
+  
+  <!-- EN: hollow-point rounds -->
+  <HollowPointRounds.label>空尖弹</HollowPointRounds.label>
+  <!-- EN: This weapon fires bullets that expand on impact, dealing more damage than normal. -->
+  <HollowPointRounds.description>该武器发射撞击后膨胀的空尖子弹，造成比一般弹药更多的伤害。</HollowPointRounds.description>
+  <!-- EN: shredding -->
+  <HollowPointRounds.traitAdjectives.0>粉碎</HollowPointRounds.traitAdjectives.0>
+  <!-- EN: hollowpoint -->
+  <HollowPointRounds.traitAdjectives.1>空尖</HollowPointRounds.traitAdjectives.1>
+  <!-- EN: hardpunch -->
+  <HollowPointRounds.traitAdjectives.2>重击</HollowPointRounds.traitAdjectives.2>
+  <!-- EN: meatrip -->
+  <HollowPointRounds.traitAdjectives.3>碎尸</HollowPointRounds.traitAdjectives.3>
+  <!-- EN: grinder -->
+  <HollowPointRounds.traitAdjectives.4>打碎</HollowPointRounds.traitAdjectives.4>
+  
+  <!-- EN: tactical sight -->
+  <ImprovedSights.label>战术瞄具</ImprovedSights.label>
+  <!-- EN: This weapon has a custom sight, increasing its accuracy at long range. -->
+  <ImprovedSights.description>该武器安装了定制瞄准具，提升远距离精度。</ImprovedSights.description>
+  <!-- EN: accurate -->
+  <ImprovedSights.traitAdjectives.0>精准</ImprovedSights.traitAdjectives.0>
+  <!-- EN: precise -->
+  <ImprovedSights.traitAdjectives.1>精确</ImprovedSights.traitAdjectives.1>
+  <!-- EN: sniper -->
+  <ImprovedSights.traitAdjectives.2>狙击</ImprovedSights.traitAdjectives.2>
+  
+  <!-- EN: incendiary launcher -->
+  <IncendiaryLauncher.label>副炮（燃烧）</IncendiaryLauncher.label>
+  <!-- EN: This weapon has an attached incendiary shell launcher. The shell creates a small flame explosion that ignites everything nearby. Once fired, it must be reloaded using chemfuel. -->
+  <IncendiaryLauncher.description>该武器配备燃烧弹发射器，弹药会引发小型爆炸并点燃附近目标。重新装填需要化合燃料。</IncendiaryLauncher.description>
+  <!-- EN: shell -->
+  <IncendiaryLauncher.abilityProps.chargeNoun>燃烧弹</IncendiaryLauncher.abilityProps.chargeNoun>
+  <!-- EN: on cooldown -->
+  <IncendiaryLauncher.abilityProps.cooldownGerund>冷却中</IncendiaryLauncher.abilityProps.cooldownGerund>
+  <!-- EN: fiery -->
+  <IncendiaryLauncher.traitAdjectives.0>火红</IncendiaryLauncher.traitAdjectives.0>
+  <!-- EN: flame -->
+  <IncendiaryLauncher.traitAdjectives.1>火焰</IncendiaryLauncher.traitAdjectives.1>
+  <!-- EN: flaming -->
+  <IncendiaryLauncher.traitAdjectives.2>燃烧</IncendiaryLauncher.traitAdjectives.2>
+  <!-- EN: burning -->
+  <IncendiaryLauncher.traitAdjectives.3>灼烧</IncendiaryLauncher.traitAdjectives.3>
+  
+  <!-- EN: incendiary pellets -->
+  <IncendiaryPellets.label>燃烧霰弹</IncendiaryPellets.label>
+  <!-- EN: This weapon fires phosphorus pellets that have a chance to ignite targets. -->
+  <IncendiaryPellets.description>该武器发射含磷弹丸，有概率点燃目标。</IncendiaryPellets.description>
+  <!-- EN: red -->
+  <IncendiaryPellets.traitAdjectives.0>红</IncendiaryPellets.traitAdjectives.0>
+  <!-- EN: fiery -->
+  <IncendiaryPellets.traitAdjectives.1>火红</IncendiaryPellets.traitAdjectives.1>
+  <!-- EN: flaming -->
+  <IncendiaryPellets.traitAdjectives.2>燃烧</IncendiaryPellets.traitAdjectives.2>
+  <!-- EN: burning -->
+  <IncendiaryPellets.traitAdjectives.3>灼烧</IncendiaryPellets.traitAdjectives.3>
+  <!-- EN: hot -->
+  <IncendiaryPellets.traitAdjectives.4>热</IncendiaryPellets.traitAdjectives.4>
+  <!-- EN: volcanic -->
+  <IncendiaryPellets.traitAdjectives.5>火山</IncendiaryPellets.traitAdjectives.5>
+  <!-- EN: promethean -->
+  <IncendiaryPellets.traitAdjectives.6>火种</IncendiaryPellets.traitAdjectives.6>
+  
+  <!-- EN: incendiary rounds -->
+  <IncendiaryRounds.label>燃烧弹</IncendiaryRounds.label>
+  <!-- EN: This weapon fires ammunition that contains a flammable chemical. It has a chance to ignite targets. -->
+  <IncendiaryRounds.description>该武器使用含易燃化学物质的弹药，有概率点燃目标。</IncendiaryRounds.description>
+  <!-- EN: red -->
+  <IncendiaryRounds.traitAdjectives.0>红</IncendiaryRounds.traitAdjectives.0>
+  <!-- EN: fiery -->
+  <IncendiaryRounds.traitAdjectives.1>火红</IncendiaryRounds.traitAdjectives.1>
+  <!-- EN: flaming -->
+  <IncendiaryRounds.traitAdjectives.2>燃烧</IncendiaryRounds.traitAdjectives.2>
+  <!-- EN: burning -->
+  <IncendiaryRounds.traitAdjectives.3>灼烧</IncendiaryRounds.traitAdjectives.3>
+  <!-- EN: hot -->
+  <IncendiaryRounds.traitAdjectives.4>热</IncendiaryRounds.traitAdjectives.4>
+  <!-- EN: igniting -->
+  <IncendiaryRounds.traitAdjectives.5>点燃</IncendiaryRounds.traitAdjectives.5>
+  <!-- EN: napalm -->
+  <IncendiaryRounds.traitAdjectives.6>凝固汽油</IncendiaryRounds.traitAdjectives.6>
+  
+  <!-- EN: jade inlay -->
+  <JadeInlay.label>翡翠镶嵌</JadeInlay.label>
+  <!-- EN: This weapon is adorned with jade. Traders will pay more for it. -->
+  <JadeInlay.description>该武器饰以翡翠，商人会支付更高价格。</JadeInlay.description>
+  <!-- EN: jade -->
+  <JadeInlay.traitAdjectives.0>翡翠</JadeInlay.traitAdjectives.0>
+  
+  <!-- EN: lightweight -->
+  <Lightweight.label>轻便</Lightweight.label>
+  <!-- EN: This weapon is much lighter than normal, lowering its aiming time. -->
+  <Lightweight.description>该武器比普通型号更轻便，减少了瞄准所需时间。</Lightweight.description>
+  <!-- EN: light -->
+  <Lightweight.traitAdjectives.0>轻</Lightweight.traitAdjectives.0>
+  <!-- EN: quickdraw -->
+  <Lightweight.traitAdjectives.1>快</Lightweight.traitAdjectives.1>
+  
+  <!-- EN: lightweight arrows -->
+  <LightweightArrows.label>轻型箭</LightweightArrows.label>
+  <!-- EN: This bow is adept at firing lightweight arrows. They fly farther but deal less damage. -->
+  <LightweightArrows.description>此弓可高效发射轻型箭矢，射程更远但伤害较低。</LightweightArrows.description>
+  <!-- EN: light -->
+  <LightweightArrows.traitAdjectives.0>轻</LightweightArrows.traitAdjectives.0>
+  <!-- EN: longreach -->
+  <LightweightArrows.traitAdjectives.1>远程</LightweightArrows.traitAdjectives.1>
+  
+  <!-- EN: ornamental -->
+  <Ornamental.label>华丽</Ornamental.label>
+  <!-- EN: This weapon was crafted for aesthetics over functionality. It deals less damage but looks great. -->
+  <Ornamental.description>该武器强调外观而非实用性，伤害较低但造型美观。</Ornamental.description>
+  <!-- EN: beautiful -->
+  <Ornamental.traitAdjectives.0>美丽</Ornamental.traitAdjectives.0>
+  <!-- EN: elegant -->
+  <Ornamental.traitAdjectives.1>雅致</Ornamental.traitAdjectives.1>
+  <!-- EN: ornamental -->
+  <Ornamental.traitAdjectives.2>装饰</Ornamental.traitAdjectives.2>
+  
+  <!-- EN: heavy rounds -->
+  <OversizedRounds.label>重型弹</OversizedRounds.label>
+  <!-- EN: This weapon deals more damage and has a much higher stopping power than normal. -->
+  <OversizedRounds.description>该武器造成更高的伤害并具备更强的抑止能力。</OversizedRounds.description>
+  <!-- EN: hammering -->
+  <OversizedRounds.traitAdjectives.0>锤击</OversizedRounds.traitAdjectives.0>
+  <!-- EN: forceful -->
+  <OversizedRounds.traitAdjectives.1>有力</OversizedRounds.traitAdjectives.1>
+  <!-- EN: oversized -->
+  <OversizedRounds.traitAdjectives.2>重磅</OversizedRounds.traitAdjectives.2>
+  <!-- EN: knockout -->
+  <OversizedRounds.traitAdjectives.3>击晕</OversizedRounds.traitAdjectives.3>
+  
+  <!-- EN: paralytic arrows -->
+  <ParalyticArrows.label>麻痹箭</ParalyticArrows.label>
+  <!-- EN: This bow shoots arrows embedded with a paralytic biotoxin, which briefly stuns targets. -->
+  <ParalyticArrows.description>此弓发射嵌有麻痹生物毒素的箭矢，可使目标短暂眩晕。</ParalyticArrows.description>
+  <!-- EN: paralyzing -->
+  <ParalyticArrows.traitAdjectives.0>瘫痪</ParalyticArrows.traitAdjectives.0>
+  <!-- EN: paralytic -->
+  <ParalyticArrows.traitAdjectives.1>麻痹</ParalyticArrows.traitAdjectives.1>
+  <!-- EN: stunning -->
+  <ParalyticArrows.traitAdjectives.2>僵住</ParalyticArrows.traitAdjectives.2>
+  
+  <!-- EN: piercing arrows -->
+  <PiercingArrows.label>穿甲箭</PiercingArrows.label>
+  <!-- EN: This bow shoots bodkin-tipped arrows, making it more effective against armored targets. -->
+  <PiercingArrows.description>此弓使用穿甲箭头，针对装甲目标更为有效。</PiercingArrows.description>
+  <!-- EN: piercing -->
+  <PiercingArrows.traitAdjectives.0>穿孔</PiercingArrows.traitAdjectives.0>
+  <!-- EN: sharp -->
+  <PiercingArrows.traitAdjectives.1>尖利</PiercingArrows.traitAdjectives.1>
+  <!-- EN: penetrating -->
+  <PiercingArrows.traitAdjectives.2>穿透</PiercingArrows.traitAdjectives.2>
+  <!-- EN: bodkin -->
+  <PiercingArrows.traitAdjectives.3>锥心</PiercingArrows.traitAdjectives.3>
+  <!-- EN: anti-armor -->
+  <PiercingArrows.traitAdjectives.4>反装甲</PiercingArrows.traitAdjectives.4>
+  
+  <!-- EN: piercing rounds -->
+  <PiercingRounds.label>穿甲弹</PiercingRounds.label>
+  <!-- EN: This weapon fires rounds designed to penetrate thick armor. -->
+  <PiercingRounds.description>该武器发射专为穿透厚重装甲而设计的弹药。</PiercingRounds.description>
+  <!-- EN: piercing -->
+  <PiercingRounds.traitAdjectives.0>穿甲</PiercingRounds.traitAdjectives.0>
+  <!-- EN: sharp -->
+  <PiercingRounds.traitAdjectives.1>尖利</PiercingRounds.traitAdjectives.1>
+  <!-- EN: sabot -->
+  <PiercingRounds.traitAdjectives.2>破甲</PiercingRounds.traitAdjectives.2>
+  <!-- EN: penetrating -->
+  <PiercingRounds.traitAdjectives.3>穿透</PiercingRounds.traitAdjectives.3>
+  
+  <!-- EN: tracking scope -->
+  <PrecisionScope.label>索敌校准镜</PrecisionScope.label>
+  <!-- EN: This weapon's scope uses target recognition software to automate target tracking, making it faster to fire. -->
+  <PrecisionScope.description>该武器瞄准镜使用目标识别软件实现自动追踪，提升射击速度。</PrecisionScope.description>
+  <!-- EN: trackscope -->
+  <PrecisionScope.traitAdjectives.0>索敌</PrecisionScope.traitAdjectives.0>
+  <!-- EN: fastfire -->
+  <PrecisionScope.traitAdjectives.1>快速开火</PrecisionScope.traitAdjectives.1>
+  
+  <!-- EN: pulse charger -->
+  <PulseCharger.label>充能器</PulseCharger.label>
+  <!-- EN: This weapon is retrofitted with pulse-charge technology, imbuing bullets with unstable energy. The weapon was clearly not designed for this, dramatically lowering its accuracy. -->
+  <PulseCharger.description>该武器改装了利用高能脉冲向弹体注入不稳定能量，但武器本身并非为此设计，精度大幅降低。</PulseCharger.description>
+  <!-- EN: charged-shot -->
+  <PulseCharger.traitAdjectives.0>蓄力射击</PulseCharger.traitAdjectives.0>
+  <!-- EN: charged -->
+  <PulseCharger.traitAdjectives.1>充能</PulseCharger.traitAdjectives.1>
+  <!-- EN: pulse-charged -->
+  <PulseCharger.traitAdjectives.2>脉冲充能</PulseCharger.traitAdjectives.2>
+  
+  <!-- EN: quick reload -->
+  <QuickReload.label>快速装填</QuickReload.label>
+  <!-- EN: This weapon has a quick release-and-replace mechanism that makes it faster to reload. -->
+  <QuickReload.description>该武器配备了快拆快换机构，提升装弹速度。</QuickReload.description>
+  <!-- EN: quick -->
+  <QuickReload.traitAdjectives.0>快速</QuickReload.traitAdjectives.0>
+  <!-- EN: nimble -->
+  <QuickReload.traitAdjectives.1>敏捷</QuickReload.traitAdjectives.1>
+  <!-- EN: quickload -->
+  <QuickReload.traitAdjectives.2>快装</QuickReload.traitAdjectives.2>
+  <!-- EN: quickshot -->
+  <QuickReload.traitAdjectives.3>快射</QuickReload.traitAdjectives.3>
+  <!-- EN: fastload -->
+  <QuickReload.traitAdjectives.4>速装</QuickReload.traitAdjectives.4>
+  
+  <!-- EN: rangefinder -->
+  <RangefinderScope.label>测距仪</RangefinderScope.label>
+  <!-- EN: This weapon's scope contains an advanced rangefinder, allowing it to fire further. -->
+  <RangefinderScope.description>该武器瞄准镜配备高级测距仪，提升射程。</RangefinderScope.description>
+  <!-- EN: eagle -->
+  <RangefinderScope.traitAdjectives.0>鹰眼</RangefinderScope.traitAdjectives.0>
+  <!-- EN: farsight -->
+  <RangefinderScope.traitAdjectives.1>远视</RangefinderScope.traitAdjectives.1>
+  
+  <!-- EN: rapid fire -->
+  <RapidFire.label>速射</RapidFire.label>
+  <!-- EN: This weapon contains an improved self-loading mechanism. When firing bursts of multiple rounds, the time between each round is dramatically reduced. -->
+  <RapidFire.description>该武器配备改良自装弹机制，连发时每发之间间隔大幅缩短。</RapidFire.description>
+  <!-- EN: rapid -->
+  <RapidFire.traitAdjectives.0>速射</RapidFire.traitAdjectives.0>
+  <!-- EN: burst -->
+  <RapidFire.traitAdjectives.1>突击</RapidFire.traitAdjectives.1>
+  <!-- EN: rapid-fire -->
+  <RapidFire.traitAdjectives.2>急射</RapidFire.traitAdjectives.2>
+  
+  <!-- EN: reinforced bow limbs -->
+  <ReinforcedLimbs.label>强化弓臂</ReinforcedLimbs.label>
+  <!-- EN: The limbs of this bow have been strengthened, allowing it to shoot further. -->
+  <ReinforcedLimbs.description>该弓弓臂经过加固，射程提升。</ReinforcedLimbs.description>
+  <!-- EN: reinforced -->
+  <ReinforcedLimbs.traitAdjectives.0>强化</ReinforcedLimbs.traitAdjectives.0>
+  
+  <!-- EN: shoddy sights -->
+  <ShoddySights.label>劣质瞄具</ShoddySights.label>
+  <!-- EN: Defects in this weapon's sights decrease its accuracy at long ranges. -->
+  <ShoddySights.description>瞄具存在缺陷，降低了该武器远距离射击精度。</ShoddySights.description>
+  <!-- EN: inaccurate -->
+  <ShoddySights.traitAdjectives.0>不准确</ShoddySights.traitAdjectives.0>
+  <!-- EN: imprecise -->
+  <ShoddySights.traitAdjectives.1>不精确</ShoddySights.traitAdjectives.1>
+  
+  <!-- EN: shortened barrel -->
+  <ShortenedBarrel.label>短枪管</ShortenedBarrel.label>
+  <!-- EN: This weapon's barrel has been sawn off, reducing its range but making it quicker to aim and fire. -->
+  <ShortenedBarrel.description>该武器经过锯短处理，缩短了射程，但提升了瞄准与射击速度。</ShortenedBarrel.description>
+  <!-- EN: shortened -->
+  <ShortenedBarrel.traitAdjectives.0>短枪管</ShortenedBarrel.traitAdjectives.0>
+  <!-- EN: sawn-off -->
+  <ShortenedBarrel.traitAdjectives.1>锯短</ShortenedBarrel.traitAdjectives.1>
+  
+  <!-- EN: smoke launcher -->
+  <SmokeLauncher.label>副炮（烟雾）</SmokeLauncher.label>
+  <!-- EN: This weapon has an attached smoke shell launcher. The shell releases smoke that obscures incoming shots and prevents turrets from locking on. Once fired, it must be reloaded using steel. -->
+  <SmokeLauncher.description>该武器配有烟雾弹发射器，发射后会释放烟雾，遮蔽来袭弹药并阻止炮台锁定。重新装填需要钢铁。</SmokeLauncher.description>
+  <!-- EN: shell -->
+  <SmokeLauncher.abilityProps.chargeNoun>烟雾弹</SmokeLauncher.abilityProps.chargeNoun>
+  <!-- EN: on cooldown -->
+  <SmokeLauncher.abilityProps.cooldownGerund>冷却中</SmokeLauncher.abilityProps.cooldownGerund>
+  <!-- EN: smoke -->
+  <SmokeLauncher.traitAdjectives.0>烟雾</SmokeLauncher.traitAdjectives.0>
+  <!-- EN: concealing -->
+  <SmokeLauncher.traitAdjectives.1>隐藏</SmokeLauncher.traitAdjectives.1>
+  <!-- EN: clouding -->
+  <SmokeLauncher.traitAdjectives.2>暗晦</SmokeLauncher.traitAdjectives.2>
+  
+  <!-- EN: pistol brace -->
+  <StabilizerBrace.label>手枪支架</StabilizerBrace.label>
+  <!-- EN: This weapon has a stabilizing brace that connects to the user's arm, increasing its accuracy. -->
+  <StabilizerBrace.description>该武器配有连接臂部的稳定支架，提高射击精度。</StabilizerBrace.description>
+  <!-- EN: stable -->
+  <StabilizerBrace.traitAdjectives.0>稳固</StabilizerBrace.traitAdjectives.0>
+  <!-- EN: accurate -->
+  <StabilizerBrace.traitAdjectives.1>精准</StabilizerBrace.traitAdjectives.1>
+  <!-- EN: precise -->
+  <StabilizerBrace.traitAdjectives.2>准确</StabilizerBrace.traitAdjectives.2>
+  <!-- EN: braced -->
+  <StabilizerBrace.traitAdjectives.3>支撑</StabilizerBrace.traitAdjectives.3>
+  
+  <!-- EN: toxic pellets -->
+  <ToxPellets.label>剧毒霰弹</ToxPellets.label>
+  <!-- EN: This weapon fires chemical pellets which cause toxic buildup. -->
+  <ToxPellets.description>该武器发射的有毒弹丸可导致中毒积累。</ToxPellets.description>
+  <!-- EN: green -->
+  <ToxPellets.traitAdjectives.0>绿</ToxPellets.traitAdjectives.0>
+  <!-- EN: toxic -->
+  <ToxPellets.traitAdjectives.1>剧毒</ToxPellets.traitAdjectives.1>
+  <!-- EN: poisonous -->
+  <ToxPellets.traitAdjectives.2>毒害</ToxPellets.traitAdjectives.2>
+  <!-- EN: poison -->
+  <ToxPellets.traitAdjectives.3>毒素</ToxPellets.traitAdjectives.3>
+  
+  <!-- EN: tox rounds -->
+  <ToxRounds.label>剧毒弹</ToxRounds.label>
+  <!-- EN: This weapon fires rounds coated with toxic chemicals, which sicken wounded targets. -->
+  <ToxRounds.description>该武器发射涂覆有有毒化学品的弹药，会令受伤目标生病。</ToxRounds.description>
+  <!-- EN: green -->
+  <ToxRounds.traitAdjectives.0>绿</ToxRounds.traitAdjectives.0>
+  <!-- EN: poison -->
+  <ToxRounds.traitAdjectives.1>毒素</ToxRounds.traitAdjectives.1>
+  <!-- EN: venom -->
+  <ToxRounds.traitAdjectives.2>毒液</ToxRounds.traitAdjectives.2>
+  <!-- EN: venomous -->
+  <ToxRounds.traitAdjectives.3>有毒</ToxRounds.traitAdjectives.3>
+  <!-- EN: snakebite -->
+  <ToxRounds.traitAdjectives.4>毒伤</ToxRounds.traitAdjectives.4>
+  
+  <!-- EN: ugly -->
+  <Ugly.label>丑陋</Ugly.label>
+  <!-- EN: This weapon was crafted with no respect for aesthetics. It looks like junk but gets the job done. Traders will pay less for it. -->
+  <Ugly.description>该武器毫不讲究美观，形似废品却依然能用。商人会压价收购。</Ugly.description>
+  <!-- EN: monstrous -->
+  <Ugly.traitAdjectives.0>畸形</Ugly.traitAdjectives.0>
+  <!-- EN: crude -->
+  <Ugly.traitAdjectives.1>粗糙</Ugly.traitAdjectives.1>
+  <!-- EN: ugly -->
+  <Ugly.traitAdjectives.2>丑陋</Ugly.traitAdjectives.2>
+  
+</LanguageData>

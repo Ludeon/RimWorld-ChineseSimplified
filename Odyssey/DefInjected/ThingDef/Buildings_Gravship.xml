@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: small chemfuel tank -->
+  <ChemfuelTank.label>小型化合燃料箱</ChemfuelTank.label>
+  <!-- EN: A chemfuel storage tank that supplies fuel for thrusters on a gravship. -->
+  <ChemfuelTank.description>为逆重飞船推进器提供燃料的化合燃料储存箱。</ChemfuelTank.description>
+  <!-- EN: Chemfuel -->
+  <ChemfuelTank.comps.CompRefuelable.fuelGizmoLabel>化合燃料</ChemfuelTank.comps.CompRefuelable.fuelGizmoLabel>
+  <!-- EN: Chemfuel -->
+  <ChemfuelTank.comps.CompRefuelable.fuelLabel>化合燃料</ChemfuelTank.comps.CompRefuelable.fuelLabel>
+  
+  <!-- EN: fuel optimizer -->
+  <FuelOptimizer.label>燃料优化器</FuelOptimizer.label>
+  <!-- EN: A gravtech unit that allows grav engine lift to coordinate more efficiently with traditional thrusters. It reduces the fuel needed for gravship flight.\n\nA gravship can support two fuel optimizers. -->
+  <FuelOptimizer.description>一种逆重科技装置，可使使逆重引擎升力与传统推进器高效协同，显著降低逆重飞船飞行能耗。\n\n单艘逆重飞船最高可搭载两台燃料优化器。</FuelOptimizer.description>
+  
+  <!-- EN: grav anchor -->
+  <GravAnchor.label>逆重锚</GravAnchor.label>
+  <!-- EN: Prevents the local map from being destroyed during a gravship launch.\n\nGrav anchors passively reduce unstable gravitation shear in a large area, which prevents the damaging effects of a gravship launch. It can't be constructed on the gravship itself because it would prevent flight entirely. -->
+  <GravAnchor.description>防止逆重飞船发射时摧毁所在地图。\n\n该装置通过被动约束广域波动引力场，使逆重飞船能沿共振边界发射，从而消除发射造成的破坏性影响。因其锚定效应，该建筑无法在逆重飞船上建造。</GravAnchor.description>
+  
+  <!-- EN: gravcore power cell -->
+  <GravcorePowerCell.label>逆重核心能量电池</GravcorePowerCell.label>
+  <!-- EN: A power generator that passively draws a small amount of energy from gravitational waves passing through the gravship. -->
+  <GravcorePowerCell.description>一种发电装置，可被动地从穿越逆重飞船的引力波中提取少量能量。</GravcorePowerCell.description>
+  
+  <!-- EN: grav engine -->
+  <GravEngine.label>逆重引擎</GravEngine.label>
+  <!-- EN: The ultratech heart of a gravship. The grav engine generates lift by inverting and intensifying the effect of gravity in a field around itself. This engine can lift upwards, but does not produce forward thrust. It can't function far from a large gravity well like a planet, so it is useless for interplanetary travel.\n\nWhen launched, anything on substructure that's connected to the grav engine will be transported to a new map. Without a grav anchor, launching a gravship will abandon your current map.\n\nGlitterworld engineers use gravships to launch orbital platforms and build skyrippers. They require massive and hyper-specialized facilities to produce, making them a rare sight outside of glitterworlds. -->
+  <GravEngine.description>逆重飞船的极致科技核心。逆重引擎通过逆转并强化自身场域内的重力效应产生升力，此引擎仅限垂直抬升，不提供推进动力。远离行星级重力阱时失效，故无法跨星际航行。\n\n发射时，所有基架上与逆重引擎相连的物品将被传送到新地图。若未建造逆重锚，发射逆重飞船将永久弃置当前地图。\n\n闪耀世界工程师使用逆重飞船发射轨道设施并建造「天幕撕裂者」，其生产需要高度专业化的设施，故在非闪耀世界极为罕见。</GravEngine.description>
+  
+  <!-- EN: grav field extender -->
+  <GravFieldExtender.label>逆重延展器</GravFieldExtender.label>
+  <!-- EN: An ultratech device used to increase the size of a gravship. It extends the area in which substructure can be built, and increases the amount of substructure that a gravship can support. Must be built near a grav engine.\n\nA gravship can support up to six grav field extenders. -->
+  <GravFieldExtender.description>一种用以增加逆重飞船尺寸的极致科技装置。它扩展了可建造基架的区域，并提升了逆重飞船可支持的基架数量。必须毗邻逆重引擎建造。\n\n一艘逆重飞船至多搭载六台逆重延展器。</GravFieldExtender.description>
+  
+  <!-- EN: gravship hull -->
+  <GravshipHull.label>逆重飞船舱壁</GravshipHull.label>
+  <!-- EN: A strong airtight wall that prevents oxygen leaks in the vacuum of space. The wall connects directly into the underlying substructure, meaning it can only be built on a gravship. -->
+  <GravshipHull.description>一道坚固的密封舱壁，可防止氧气在真空中泄漏。舱壁无缝嵌入基架，故仅能构建于逆重飞船上。</GravshipHull.description>
+  
+  <!-- EN: gravship shield generator -->
+  <GravshipShieldGenerator.label>逆重飞船护盾发生器</GravshipShieldGenerator.label>
+  <!-- EN: A shielding device that can protect a gravship. It modulates the grav field to create a short-lived momentum repulsor surface that blocks projectiles. It works against normal shots and mortars. Those inside can still shoot out.\n\nIt must be charged before use. One gravship can support two gravship shield generators. -->
+  <GravshipShieldGenerator.description>一种可保护逆重飞船的防护装置。通过调制逆重力场生成瞬态动量斥力面，可拦截来袭的投射物或弹片。护盾具单向穿透性，内部火力不受阻隔。\n\n使用前必须充能。一艘逆重飞船至多搭载两台护盾发生器。</GravshipShieldGenerator.description>
+  <!-- EN: activate -->
+  <GravshipShieldGenerator.comps.CompInteractable_GravshipShieldGenerator.jobString>激活</GravshipShieldGenerator.comps.CompInteractable_GravshipShieldGenerator.jobString>
+  
+  <!-- EN: large chemfuel tank -->
+  <LargeChemfuelTank.label>大型化合燃料箱</LargeChemfuelTank.label>
+  <!-- EN: A massive chemfuel storage tank that supplies fuel for thrusters on a gravship. -->
+  <LargeChemfuelTank.description>为逆重飞船推进器提供燃料的大型化合燃料储存箱。</LargeChemfuelTank.description>
+  <!-- EN: Chemfuel -->
+  <LargeChemfuelTank.comps.CompRefuelable.fuelGizmoLabel>化合燃料</LargeChemfuelTank.comps.CompRefuelable.fuelGizmoLabel>
+  <!-- EN: Chemfuel -->
+  <LargeChemfuelTank.comps.CompRefuelable.fuelLabel>化合燃料</LargeChemfuelTank.comps.CompRefuelable.fuelLabel>
+  
+  <!-- EN: large thruster -->
+  <LargeThruster.label>大型推进器</LargeThruster.label>
+  <!-- EN: An advanced chemfuel thruster with a heat-resistant vacstone liner. It greatly increases the range of a gravship. Thrusters require an unobstructed area free of large buildings and gravship substructure.\n\nRequires vacstone blocks, which can be obtained from orbital asteroids.\n\nA gravship can support up to six large thrusters. -->
+  <LargeThruster.description>一台带有耐热真空岩衬里的高级化合燃料推进器，能显著提升逆重飞船的航程。推进器需要放置于无大型建筑和逆重飞船基架的开阔区域。\n\n需要真空岩砖，可通过在轨小行星获得。\n\n一艘逆重飞船至多搭载六台大型推进器。</LargeThruster.description>
+  
+  <!-- EN: minified thing -->
+  <MinifiedGravEngine.label>卸载的逆重引擎</MinifiedGravEngine.label>
+  
+  <!-- EN: pilot console -->
+  <PilotConsole.label>飞船控制台</PilotConsole.label>
+  <!-- EN: An interface that allows launching and piloting a gravship. It draws power directly from the grav engine. -->
+  <PilotConsole.description>可用于启动和驾驶逆重飞船的操作界面，直接由逆重引擎供能。</PilotConsole.description>
+  
+  <!-- EN: pilot subpersona core -->
+  <PilotSubpersonaCore.label>助驾核心</PilotSubpersonaCore.label>
+  <!-- EN: A low-grade subpersona specialized in gravship flight. It reduces the chance of an accident when flying a gravship, though it can't fully account for human error.\n\nA gravship can support up to two pilot subpersona cores. -->
+  <PilotSubpersonaCore.description>专为驾驶逆重飞船特化的次级人格。它可降低驾驶逆重飞船时发生事故的概率，但无法完全避免人为失误。\n\n一艘逆重飞船至多搭载两个助驾核心。</PilotSubpersonaCore.description>
+  
+  <!-- EN: mechanoid ship chunk -->
+  <ShipChunk_Mech.label>机械族飞船残块</ShipChunk_Mech.label>
+  <!-- EN: A chunk of mechanoid spacecraft made of steel and gravlite panels. It seems to have been torn off either by uncontrolled re-entry forces or some kind of weapon.\n\nDeconstruct it to obtain valuable resources. -->
+  <ShipChunk_Mech.description>由钢材和逆重板构成的机械族飞船碎片片，断裂痕迹表明其曾失控坠入大气层或被某种武器攻击。\n\n拆解可获得宝贵资源。</ShipChunk_Mech.description>
+  <!-- EN: Deconstruct for valuable resources. -->
+  <ShipChunk_Mech.comps.CompInspectString.inspectString>拆解可获得宝贵资源。</ShipChunk_Mech.comps.CompInspectString.inspectString>
+  
+  <!-- EN: signal jammer -->
+  <SignalJammer.label>信号干扰器</SignalJammer.label>
+  <!-- EN: A signal emitter that disguises the electromagnetic signature of your gravship, allowing it to approach heavily-defended landing sites. -->
+  <SignalJammer.description>一种伪装逆重飞船电磁特征的信号发射器，使其能够靠近重兵防守的着陆点。</SignalJammer.description>
+  
+  <!-- EN: small thruster -->
+  <SmallThruster.label>小型推进器</SmallThruster.label>
+  <!-- EN: A chemfuel thruster that increases the range of a gravship. Thrusters require an unobstructed area free of large buildings and gravship substructure.\n\nA gravship can support up to four small thrusters. -->
+  <SmallThruster.description>一种能提升逆重飞船航程的化合燃料推进器。推进器需要放置于无大型建筑和逆重飞船基架的开阔区域。\n\n一艘逆重飞船至多搭载四台小型推进器。</SmallThruster.description>
+  
+</LanguageData>

@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>r_name(p=0.2)->[glacialPlain_adjective] [narrative_name]</li>
+    <li>glacialPlain_adjective(p=2)->glacial</li>
+    <li>glacialPlain_adjective->frigid</li>
+    <li>glacialPlain_adjective->icy</li>
+    <li>glacialPlain_adjective->majestic</li>
+    <li>glacialPlain_adjective->frozen</li>
+    <li>terrain_word->glacier</li>
+    <li>terrain_word(p=0.5)->icefield</li>
+    <li>terrain_word(p=0.5)->icecap</li>
+    <li>terrain_word(p=0.3)->field</li>
+    <li>terrain_word(p=0.3)->glacial plain</li>
+    <li>terrain_word(p=0.3)->stretch</li>
+    <li>terrain_word(p=0.3)->tract</li>
+  -->
+  <NamerGlacialPlain.rulePack.rulesStrings>
+    <li>r_name(p=0.2)->[glacialPlain_adjective] [narrative_name]</li>
+    <li>glacialPlain_adjective(p=2)->冰川的</li>
+    <li>glacialPlain_adjective->极寒的</li>
+    <li>glacialPlain_adjective->冰冷的</li>
+    <li>glacialPlain_adjective->雄伟的</li>
+    <li>glacialPlain_adjective->冻结的</li>
+    <li>terrain_word->冰川</li>
+    <li>terrain_word(p=0.5)->冰原</li>
+    <li>terrain_word(p=0.5)->冰盖</li>
+    <li>terrain_word(p=0.3)->平原</li>
+    <li>terrain_word(p=0.3)->冰蚀平原</li>
+    <li>terrain_word(p=0.3)->地带</li>
+    <li>terrain_word(p=0.3)->区域</li>
+  </NamerGlacialPlain.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_name(p=0.3)->[glowForest_adjective] [narrative_name]</li>
+    <li>glowForest_adjective(p=2)->fungal</li>
+    <li>glowForest_adjective->blooming</li>
+    <li>glowForest_adjective->dark</li>
+    <li>glowForest_adjective->overgrown</li>
+    <li>glowForest_adjective->gnarled</li>
+    <li>terrain_word(p=3)->glowforest</li>
+    <li>terrain_word->mycelium bed</li>
+    <li>terrain_word->fungal forest</li>
+    <li>terrain_word->darklands</li>
+    <li>terrain_word->dark forest</li>
+  -->
+  <NamerGlowforest.rulePack.rulesStrings>
+    <li>r_name(p=0.3)->[glowForest_adjective] [narrative_name]</li>
+    <li>glowForest_adjective(p=2)->真菌的</li>
+    <li>glowForest_adjective->盛开的</li>
+    <li>glowForest_adjective->幽暗的</li>
+    <li>glowForest_adjective->蔓生的</li>
+    <li>glowForest_adjective->扭曲的</li>
+    <li>terrain_word(p=3)->萤光林</li>
+    <li>terrain_word->菌毯</li>
+    <li>terrain_word->真菌森林</li>
+    <li>terrain_word->暗影之地</li>
+    <li>terrain_word->黑暗森林</li>
+  </NamerGlowforest.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_name(p=0.3)->[grasslands_adjective] [narrative_name]</li>
+    <li>grasslands_adjective(p=2)->flat</li>
+    <li>grasslands_adjective->dry</li>
+    <li>grasslands_adjective->windswept</li>
+    <li>grasslands_adjective->rolling</li>
+    <li>grasslands_adjective->endless</li>
+    <li>terrain_word(p=2)->grasslands</li>
+    <li>terrain_word(p=2)->prairie</li>
+    <li>terrain_word(p=2)->plains</li>
+    <li>terrain_word->savanna</li>
+    <li>terrain_word->steppe</li>
+    <li>terrain_word->flats</li>
+  -->
+  <NamerGrasslands.rulePack.rulesStrings>
+    <li>r_name(p=0.3)->[grasslands_adjective] [narrative_name]</li>
+    <li>grasslands_adjective(p=2)->平坦的</li>
+    <li>grasslands_adjective->干燥的</li>
+    <li>grasslands_adjective->风吹的</li>
+    <li>grasslands_adjective->起伏的</li>
+    <li>grasslands_adjective->无尽的</li>
+    <li>terrain_word(p=2)->草原</li>
+    <li>terrain_word(p=2)->大草原</li>
+    <li>terrain_word(p=2)->平原</li>
+    <li>terrain_word->稀树草原</li>
+    <li>terrain_word->草原地带</li>
+    <li>terrain_word->平地</li>
+  </NamerGrasslands.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_name(p=0.3)->[lavaField_adjective] [narrative_name]</li>
+    <li>lavaField_adjective(p=2)->volcanic</li>
+    <li>lavaField_adjective->fiery</li>
+    <li>lavaField_adjective->infernal</li>
+    <li>lavaField_adjective->burning</li>
+    <li>lavaField_adjective->blazing</li>
+    <li>terrain_word(p=3)->lava fields</li>
+    <li>terrain_word->rift</li>
+    <li>terrain_word->highland</li>
+    <li>terrain_word->magma plain</li>
+    <li>terrain_word->vent</li>
+    <li>terrain_word->furnace</li>
+    <li>terrain_word->inferno</li>
+    <li>terrain_word->range</li>
+  -->
+  <NamerLavaField.rulePack.rulesStrings>
+    <li>r_name(p=0.3)->[lavaField_adjective] [narrative_name]</li>
+    <li>lavaField_adjective(p=2)->火山的</li>
+    <li>lavaField_adjective->炽热的</li>
+    <li>lavaField_adjective->地狱般的</li>
+    <li>lavaField_adjective->燃烧的</li>
+    <li>lavaField_adjective->烈焰的</li>
+    <li>terrain_word(p=3)->熔岩地</li>
+    <li>terrain_word->裂谷</li>
+    <li>terrain_word->高地</li>
+    <li>terrain_word->岩浆平原</li>
+    <li>terrain_word->喷口</li>
+    <li>terrain_word->熔炉</li>
+    <li>terrain_word->火海</li>
+    <li>terrain_word->山脉</li>
+  </NamerLavaField.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_name(p=0.2)->[ruin_adjective] [narrative_name]</li>
+    <li>r_name(p=0.2)->the [narrative_name] [terrain_word]</li>
+    <li>ruin_adjective(p=2)->ruined</li>
+    <li>ruin_adjective->ancient</li>
+    <li>ruin_adjective->old</li>
+    <li>ruin_adjective->shattered</li>
+    <li>ruin_adjective->blighted</li>
+    <li>ruin_adjective->ashen</li>
+    <li>terrain_word(p=6)->ruins</li>
+    <li>terrain_word(p=3)->scarland</li>
+    <li>terrain_word->megastructure</li>
+    <li>terrain_word->wastelands</li>
+    <li>terrain_word->waste</li>
+    <li>terrain_word->barrens</li>
+    <li>terrain_word->vestige</li>
+    <li>terrain_word->toxlands</li>
+    <li>terrain_word->lands</li>
+    <li>terrain_word->bastion</li>
+  -->
+  <NamerScarlands.rulePack.rulesStrings>
+    <li>r_name(p=0.2)->[ruin_adjective] [narrative_name]</li>
+    <li>r_name(p=0.2)->the [narrative_name] [terrain_word]</li>
+    <li>ruin_adjective(p=2)->废墟的</li>
+    <li>ruin_adjective->古老的</li>
+    <li>ruin_adjective->陈旧的</li>
+    <li>ruin_adjective->破碎的</li>
+    <li>ruin_adjective->枯萎的</li>
+    <li>ruin_adjective->灰烬的</li>
+    <li>terrain_word(p=6)->废墟</li>
+    <li>terrain_word(p=3)->疤痕地</li>
+    <li>terrain_word->巨构</li>
+    <li>terrain_word->荒原</li>
+    <li>terrain_word->废土</li>
+    <li>terrain_word->荒地</li>
+    <li>terrain_word->遗迹</li>
+    <li>terrain_word->毒地</li>
+    <li>terrain_word->土地</li>
+    <li>terrain_word->堡垒</li>
+  </NamerScarlands.rulePack.rulesStrings>
+  
+</LanguageData>

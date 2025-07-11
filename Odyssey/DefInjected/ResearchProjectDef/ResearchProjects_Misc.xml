@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: advanced gravtech -->
+  <AdvancedGravtech.label>高级逆重科技</AdvancedGravtech.label>
+  <!-- EN: Build advanced gravship parts. -->
+  <AdvancedGravtech.description>解锁建造高级逆重飞船的结构和辅助单元。</AdvancedGravtech.description>
+  <!-- EN:
+    <li>subject->advanced gravtech</li>
+    <li>subject_story->researched advanced gravship components</li>
+    <li>subject_gerund->researching signal jamming</li>
+  -->
+  <AdvancedGravtech.generalRules.rulesStrings>
+    <li>subject->高级逆重科技</li>
+    <li>subject_story->研究了高级逆重飞船组件</li>
+    <li>subject_gerund->研究信号干扰</li>
+  </AdvancedGravtech.generalRules.rulesStrings>
+  
+  <!-- EN: basic gravtech -->
+  <BasicGravtech.label>基础逆重科技</BasicGravtech.label>
+  <!-- EN: Build a gravship and use it to travel the planet. Launching a gravship will abandon your current map. You won't be able to return. -->
+  <BasicGravtech.description>解锁建造「逆重飞船」以周游世界。发射逆重飞船后当前地图将被废弃，无法返回。</BasicGravtech.description>
+  <!-- EN:
+    <li>subject->gravship</li>
+    <li>subject_story->flew a gravship for a tourism company</li>
+    <li>subject_gerund->constructing gravships</li>
+  -->
+  <BasicGravtech.generalRules.rulesStrings>
+    <li>subject->逆重飞船</li>
+    <li>subject_story->为旅游公司驾驶过逆重飞船</li>
+    <li>subject_gerund->建造逆重飞船</li>
+  </BasicGravtech.generalRules.rulesStrings>
+  
+  <!-- EN: beam weapons -->
+  <BeamWeapons.label>能量武器</BeamWeapons.label>
+  <!-- EN: Construct weapons that use gamma ray beams to burn through armor and ignite targets. -->
+  <BeamWeapons.description>解锁制作利用伽马射线穿透护甲并灼烧目标的武器。</BeamWeapons.description>
+  <!-- EN:
+    <li>subject->beam weapons</li>
+    <li>subject_story->made gamma-ray beam weaponry</li>
+    <li>subject_gerund->making beam weapons</li>
+  -->
+  <BeamWeapons.generalRules.rulesStrings>
+    <li>subject->能量武器</li>
+    <li>subject_story->生产了伽马射线能量武器</li>
+    <li>subject_gerund->制作能量武器</li>
+  </BeamWeapons.generalRules.rulesStrings>
+  
+  <!-- EN: fishing -->
+  <Fishing.label>钓鱼</Fishing.label>
+  <!-- EN: Place zones where your colonists can go fishing. -->
+  <Fishing.description>规划区域供殖民者钓鱼。</Fishing.description>
+  <!-- EN: Fishing zone -->
+  <Fishing.customUnlockTexts.0>钓鱼区</Fishing.customUnlockTexts.0>
+  <!-- EN:
+    <li>subject->fishing</li>
+    <li>subject_story->fished for a living</li>
+    <li>subject_gerund->fishing</li>
+  -->
+  <Fishing.generalRules.rulesStrings>
+    <li>subject->钓鱼</li>
+    <li>subject_story->以钓鱼为生</li>
+    <li>subject_gerund->钓鱼</li>
+  </Fishing.generalRules.rulesStrings>
+  
+  <!-- EN: heavy bridges -->
+  <HeavyBridges.label>重型桥梁</HeavyBridges.label>
+  <!-- EN: Build heavy bridges that support heavy buildings. You can use this to build whole colonies on the water. -->
+  <HeavyBridges.description>建造可承载重型建筑的「重型桥梁」。利用这些桥梁可以把整个殖民地搬到水上。</HeavyBridges.description>
+  <!-- EN:
+    <li>subject->construction</li>
+    <li>subject_story->built bridges</li>
+    <li>subject_gerund->constructing</li>
+  -->
+  <HeavyBridges.generalRules.rulesStrings>
+    <li>subject->建筑</li>
+    <li>subject_story->建造过桥梁</li>
+    <li>subject_gerund->建造</li>
+  </HeavyBridges.generalRules.rulesStrings>
+  
+  <!-- EN: hunter drone -->
+  <HunterDrones.label>猎手无人机</HunterDrones.label>
+  <!-- EN: Build traps and wearable packs that release hunter drones. These explosive drones pursue hostiles and detonate when within range. -->
+  <HunterDrones.description>解锁制作能够部署猎手无人机的陷阱和可穿戴背包。这些爆炸性无人机会追踪敌人，并在接近时自爆。</HunterDrones.description>
+  <!-- EN:
+    <li>subject->hunter drones</li>
+    <li>subject_story->made self-detonating drones</li>
+    <li>subject_gerund->making hunter drones</li>
+  -->
+  <HunterDrones.generalRules.rulesStrings>
+    <li>subject->猎手无人机</li>
+    <li>subject_story->制作了自爆无人机</li>
+    <li>subject_gerund->制作猎手无人机</li>
+  </HunterDrones.generalRules.rulesStrings>
+  
+  <!-- EN: orbital tech -->
+  <OrbitalTech.label>轨道生存科技</OrbitalTech.label>
+  <!-- EN: Construct buildings and apparel that can protect against the harsh vacuum of space. -->
+  <OrbitalTech.description>解锁制作能够抵御真空环境的建筑和服装。</OrbitalTech.description>
+  <!-- EN:
+    <li>subject->orbital apparel</li>
+    <li>subject_story->assembled liners for vacsuits</li>
+    <li>subject_story->tested vacsuits</li>
+    <li>subject_story->developed rebreather technology</li>
+    <li>subject_story->studied the effects of space radiation on human tissue</li>
+    <li>subject_gerund->assembling vacsuits</li>
+    <li>subject_gerund->assembling rebreathers</li>
+    <li>subject_gerund->testing vacsuits</li>
+  -->
+  <OrbitalTech.generalRules.rulesStrings>
+    <li>subject->轨道作业防护服</li>
+    <li>subject_story->组装过真空服内衬</li>
+    <li>subject_story->测试过真空服</li>
+    <li>subject_story->研发了呼吸器技术</li>
+    <li>subject_story->研究了太空辐射对人体组织的影响</li>
+    <li>subject_gerund->组装真空服</li>
+    <li>subject_gerund->组装呼吸器</li>
+    <li>subject_gerund->测试真空服</li>
+  </OrbitalTech.generalRules.rulesStrings>
+  
+  <!-- EN: shuttle -->
+  <Shuttles.label>穿梭机</Shuttles.label>
+  <!-- EN: Build a shuttle which can be used for long distance travel or to reach orbit. This requires a shuttle engine which can be bought from orbital traders, salvaged from other shuttles, or obtained through quests. -->
+  <Shuttles.description>建造可用于长途旅行或进入轨道区域的「穿梭机」。穿梭机引擎需通过轨道贸易商购买、从其他穿梭机残骸回收或完成任务获取。</Shuttles.description>
+  <!-- EN:
+    <li>subject->shuttles</li>
+    <li>subject_story->flew in a shuttle</li>
+    <li>subject_story->designed a shuttle</li>
+    <li>subject_gerund->engineering shuttles</li>
+    <li>subject_gerund->piloting shuttles</li>
+  -->
+  <Shuttles.generalRules.rulesStrings>
+    <li>subject->穿梭机</li>
+    <li>subject_story->搭乘过穿梭机</li>
+    <li>subject_story->设计过穿梭机</li>
+    <li>subject_gerund->设计穿梭机</li>
+    <li>subject_gerund->驾驶穿梭机</li>
+  </Shuttles.generalRules.rulesStrings>
+  
+  <!-- EN: standard gravtech -->
+  <StandardGravtech.label>标准逆重科技</StandardGravtech.label>
+  <!-- EN: Build complex gravship parts. -->
+  <StandardGravtech.description>解锁建造复杂的逆重飞船的结构和辅助单元。</StandardGravtech.description>
+  <!-- EN: You now have the technology to build large thrusters. These require vacstone blocks which can be obtained from orbital asteroids.\n\nYou can travel to orbital locations using transport pods, shuttles, or a gravship. Make sure to equip your colonists with vacsuits or other advanced armors to survive in space. -->
+  <StandardGravtech.discoveredLetterText>你现已掌握建造「大型推进器」的技术。这些推进器需要使用真空岩砖，真空岩砖可以从在轨小行星获得。\n\n你可以借助运输舱、穿梭机或逆重飞船前往轨道地点。请确保你的殖民者装备穿戴真空服或其他高级护甲，以便在真空环境下生存。</StandardGravtech.discoveredLetterText>
+  <!-- EN: About: Getting vacstone -->
+  <StandardGravtech.discoveredLetterTitle>关于：获取真空岩</StandardGravtech.discoveredLetterTitle>
+  <!-- EN:
+    <li>subject->gravtech</li>
+    <li>subject_story->researched complex gravship components</li>
+    <li>subject_gerund->researching gravships</li>
+  -->
+  <StandardGravtech.generalRules.rulesStrings>
+    <li>subject->逆重科技</li>
+    <li>subject_story->研究了复杂的逆重飞船组件</li>
+    <li>subject_gerund->研究逆重飞船</li>
+  </StandardGravtech.generalRules.rulesStrings>
+  
+</LanguageData>

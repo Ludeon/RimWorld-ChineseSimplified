@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: {FACTION_pawnsPlural} from {FACTION_name} are attacking! They've used the gravcore to lure you into an ambush. -->
+  <GravcoreAbandonedSettlementRaid>{FACTION_name}的{FACTION_pawnsPlural}来袭！他们利用逆重核心把你引入了埋伏圈。</GravcoreAbandonedSettlementRaid>
+  <!-- EN: More reinforcements are on their way, and will arrive in the next few days. Prepare for their attack, or escape before they arrive. -->
+  <GravcoreAbandonedSettlementRaid_Reinforcements>更多敌军正在路上，将在接下来的几天内抵达。做好迎战准备，或者在他们到来前撤离。</GravcoreAbandonedSettlementRaid_Reinforcements>
+  
+  <!-- EN: Relay defense response -->
+  <GravcoreMechRelayRaidLetterLabel>中继器防御响应</GravcoreMechRelayRaidLetterLabel>
+  <!-- EN: Mechanoids are arriving to defend the relay!\n\nThey are arriving by transport pod and will attack immediately. -->
+  <GravcoreMechRelayRaidLetterText>机械族正在前来防御中继器！\n\n他们通过运输舱降落，并会立即发起攻击。</GravcoreMechRelayRaidLetterText>
+  
+  <!-- EN: Amongst the remnants of the crashed mechanoid platform, a still-intact grav engine hums with energy.\n\nYou can build gravship substructure around the engine to create a new gravship. The engine pushes against gravity, levitating the ship and allowing long-distance travel.\n\nLaunch a gravship by researching basic gravtech, then building fuel tanks, thrusters, and a pilot console.\n\nLaunching a gravship will abandon your current map unless you build a grav anchor first.\n\n  - Research unlocked: Basic gravtech\n  - Flooring unlocked: Gravship substructure -->
+  <GravEngineInspectedLetterContents>在坠毁的机械族设施残骸中，一台完整的逆重引擎仍在散发能量。\n\n你可以在引擎周围建造飞船基架，进而制造一艘新的逆重飞船。该引擎能够对抗重力，令飞船悬浮，实现长距离旅行。\n\n通过研究「基础逆重科技」，随后建造燃料箱、推进器和控制台，即可启用逆重飞船。\n\n若未预先建造逆重锚，发射逆重飞船将弃置当前地图。\n\n  - 解锁研究：「基础逆重科技」\n  - 解锁地板：飞船基架</GravEngineInspectedLetterContents>
+  <!-- EN: View quest -->
+  <ViewQuest>查看任务</ViewQuest>
+  
+  <!-- Asteroid -->
+  <!-- EN: {RESOURCE} asteroid -->
+  <AsteroidLetter>{RESOURCE}小行星</AsteroidLetter> 
+  <!-- EN: You've discovered the location of an asteroid orbiting the planet. It contains significant amounts of {RESOURCE}, and potentially other resources.\n\nOrbital miners steer valuable asteroids into planetary orbit so that they can be easily mined and sold to orbital traders. You do not detect any signs of life from this asteroid.\n\nYou can reach the asteroid with transport pods, shuttles, or a gravship. -->
+  <AsteroidLetterText>你发现了一颗围绕行星运行的小行星位置。其内含有大量的{RESOURCE}，可能还有其他资源。\n\n\n\n轨道矿工会将小行星引入近地轨道，以便采矿并将矿石售卖给轨道交易商。你没有探测到小行星上的任何生命迹象。\n\n你可以用运输舱、穿梭机或逆重飞船抵达小行星。</AsteroidLetterText>
+
+  <!-- EN: {RESOURCE} asteroid -->
+  <AsteroidName>{RESOURCE}小行星</AsteroidName>
+
+  <!-- Ancient Reactor -->
+  <!-- EN: Ancient reactor -->
+  <AncientReactorArrivedLetter>远古反应堆</AncientReactorArrivedLetter>
+  <!-- EN: An ancient reactor is hidden within nearby ruins. The reactor is damaged and leaking, covering the region in toxic fallout. Locate and disable the reactor to obtain a gravcore and stop the fallout. -->
+  <AncientReactorArrivedLetterText>一座远古反应堆隐匿于附近的废墟中。有害物质从反应堆裂缝泄漏出来，导致周边地区被有毒尘埃笼罩。找到并关闭反应堆以获得逆重核心以消除有毒尘埃。</AncientReactorArrivedLetterText>
+
+  <!-- Frozen Terraformer -->
+  <!-- EN: Ancient terraformer -->
+  <FrozenTerraformerArrivedLetter>远古环境改造装置</FrozenTerraformerArrivedLetter>
+  <!-- EN: The malfunctioning terraformer has encased itself in solid ice. The gravcore energy signal is coming from somewhere within. Find and destroy the terraformer to obtain the gravcore. -->
+  <FrozenTerraformerArrivedLetterText>故障的环境改造装置已被冰岩包裹。逆重核心的能量信号正来源于其中。找到并摧毁它以获得逆重核心。</FrozenTerraformerArrivedLetterText>
+
+  <!-- Ancient Stockpile -->
+  <!-- EN: Ancient stockpile -->
+  <AncientStockpileArrivedLetter>远古仓库</AncientStockpileArrivedLetter>
+  <!-- EN: The gravcore energy signal is coming from one of the nearby underground stockpiles. Hack the entrances and search the stockpiles to find the gravcore.\n\nBe careful, some of the defense systems may still be active. -->
+  <AncientStockpileArrivedLetterText>逆重核心的能量信号来自附近某处地下仓库。骇入并搜刮仓库以找到逆重核心。\n\n小心，有些安保系统可能依然活跃。</AncientStockpileArrivedLetterText>
+
+  <!-- Orbital Mechanoid Platform -->
+  <!-- EN: Mechanoid platform -->
+  <OrbitalMechanoidPlatformLetterArrived>机械族设施</OrbitalMechanoidPlatformLetterArrived>
+  <!-- EN: This orbital platform is built to service and deploy combat mechanoids, likely as part of some ancient planet-spanning war machine.\n\nThe gravcore signal is coming from somewhere within. -->
+  <OrbitalMechanoidPlatformLetterArrivedText>这座轨道设施用于维护和部署作战机械族，可能曾是某种远古行星级战争机器的一部分。\n\n逆重核心的信号来自内部某处。</OrbitalMechanoidPlatformLetterArrivedText>
+
+  <!-- Orbital Ancient Platform -->
+  <!-- EN: Ancient platform -->
+  <OrbitalAncientPlatformLetterArrived>远古设施</OrbitalAncientPlatformLetterArrived>
+  <!-- EN: The people who once inhabited this orbital platform are long gone and its original purpose has long been forgotten.\n\nThe gravcore signal is coming from somewhere within. -->
+  <OrbitalAncientPlatformLetterArrivedText>曾经居住在这座轨道设施上的人早已消失，其最初的用途也早被遗忘。\n\n逆重核心的信号来自内部某处。</OrbitalAncientPlatformLetterArrivedText>
+  
+  <!-- Ancient Reactor -->
+  <!-- EN: Crashed mechanoid platform -->
+  <CrashedPlatformArrivedLetter>坠毁的机械族设施</CrashedPlatformArrivedLetter>
+  <!-- EN: The remains of an orbital platform are strewn nearby. Be careful, the wreckage contains hostile mechanoids.\n\nThe gravcore signal is coming from somewhere within the crash site. -->
+  <CrashedPlatformArrivedLetterText>附近散落着一座轨道设施的残骸。小心，残骸中有敌对机械族。\n\n逆重核心的信号来自坠毁地点的内部某处。</CrashedPlatformArrivedLetterText>
+
+  <!-- Lava Incidents-->
+  <!-- EN: Lava emergence -->
+  <LetterLabelLavaEmergence>熔岩涌现</LetterLabelLavaEmergence>
+  <!-- EN: Lava is emerging from cracks in the ground! It'll continue to pool until it creates a small lake. It will then take several days to cool, after which it can be removed. -->
+  <LetterLavaEmergence>熔岩正从地缝中喷涌而出！它会不断积聚，直到形成一个小型熔岩湖。等其冷却需要几天时间，冷却后才能被移除。</LetterLavaEmergence>
+  <!-- EN: Lava flow -->
+  <LetterLabelLavaFlow>熔岩流</LetterLabelLavaFlow>
+  <!-- EN: Lava has begun to pour into the region, flooding the low-lying volcanic rock. Keep your colonists out of harm's way! -->
+  <LetterLavaFlow>熔岩已经开始涌入该地区。它将漫覆低洼处的火山岩。请确保你的殖民者远离危险！</LetterLavaFlow>
+
+  <!-- Seasonal Flooding -->
+  <!-- EN: Seasonal flooding -->
+  <LetterLabelSeasonalFlooding>季节性洪水</LetterLabelSeasonalFlooding>
+  <!-- EN: Rainfall upriver is causing the river to swell. The flooding will subside after several days. -->
+  <LetterSeasonalFlooding>上游降雨导致河流水位上涨。洪水将在几天后消退。</LetterSeasonalFlooding>
+  <!-- EN: Low temperatures have begun to freeze the river. Flooding is subsiding. -->
+  <MessageSeasonalFloodingFrozen>气温降低，河流开始结冰。洪水正在消退。</MessageSeasonalFloodingFrozen>
+  <!-- EN: Flooding is subsiding. -->
+  <MessageFloodingSubsiding>洪水正在消退。</MessageFloodingSubsiding>
+
+  <!-- Fishing -->
+  <!-- EN: Rare catch -->
+  <LetterLabelRareCatch>罕见渔获</LetterLabelRareCatch>
+  <!-- EN: While fishing, {PAWN_nameDef} made an unusual catch -->
+  <LetterTextRareCatch>在钓鱼时，{PAWN_nameDef}捕获了不寻常的猎物</LetterTextRareCatch>
+
+  <!-- Pursuing Mechanoids -->
+  <!-- EN: Incoming mechanoids -->
+  <LetterLabelMechanoidThreat>机械族来袭</LetterLabelMechanoidThreat>
+  <!-- EN: The mechhive's scanning process is close to determining your location. When it locates your gravship, it will send a massive mechanoid force to kill you.\n\nGather your supplies, then flee the map by selecting the pilot console, and selecting launch. -->
+  <LetterTextMechanoidThreat>机械主巢即将锁定你的位置。一旦找到你的逆重飞船，它将派遣大量敌对机械族来袭击你。\n\n收集好物资，然后选择控制台并点击「发射」指令来逃离此地图。</LetterTextMechanoidThreat>
+
+  <!-- Mechhive -->
+  <!-- EN: Mechhive signal -->
+  <LetterLabelMechhiveWarning>机械主巢信号</LetterLabelMechhiveWarning>
+  <!-- EN: You have detected a massive gravtech energy reading indicating that the mechhive is hidden somewhere in orbit. If you could find it, you could shut it down - or make use of its power.\n\nMechhives are production-and-control platforms that birth mechanoids and coordinate their actions around the planet. They're powered by a persona core.\n\nCollect more gravship technology to track down the mechhive's location. -->
+  <LetterTextMechhiveWarning>你探测到了来自轨道机械主巢的逆重科技能量激增。如果能找到它，你就能关闭其运作，或利用其强大能量。\n\n该机械主巢是本星球机械族的制造和指挥中枢。它们由人格核心驱动。\n\n获取更多逆重科技以追踪机械主巢的位置。</LetterTextMechhiveWarning>
+
+  <!-- EN: Cerebrex core -->
+  <OrbitalMechhiveLetterArrived>主脑核心</OrbitalMechhiveLetterArrived>
+  <!-- EN: At the center of the orbital platform sits a massive mechanoid structure made of hair-fine ultratech filaments supporting an AI persona core. This is the intelligence core of the mechhive that directs mechanoids all over the planet.\n\nThe structure is protected by nearby stabilizers, making it nearly invulnerable. Find and destroy the cerebrex stabilizers to lower the core's defenses. -->
+  <OrbitalMechhiveLetterArrivedText>在轨道设施中央矗立着巨型机械结构，由发丝级精度的极致科技纤维构筑，承托着AI人格核心。这就是统御全球机械族的思维中枢。\n\n该结构由附近的稳定器保护，几乎坚不可摧。找到并摧毁「主脑稳定器」以削弱核心防御。</OrbitalMechhiveLetterArrivedText>
+
+  <!-- EN: Mechanoid assault -->
+  <MechhiveRaidLetterLabel>机械族突袭</MechhiveRaidLetterLabel>
+  <!-- EN: The cerebrex core is sending mechanoids to attack you. Get ready! -->
+  <MechhiveRaidLetterText>主脑核心正在派遣机械族进攻你。做好准备！</MechhiveRaidLetterText>
+
+  <!-- EN: Defense response -->
+  <MechhiveDefenseResponseLetterLabel>防御响应</MechhiveDefenseResponseLetterLabel>
+  <!-- EN: The mechanoid hive has summoned mechanoid reinforcements to defend itself. They are arriving by transport pod and will attack immediately! -->
+  <MechhiveDefenseResponseLetterText>机械主巢召集了机械族增援进行防守。他们通过运输舱抵达，并将立即发起攻击！</MechhiveDefenseResponseLetterText>
+
+  <!-- EN: Cerebrex core -->
+  <CerebrexCoreLoweredLetterLabel>主脑核心</CerebrexCoreLoweredLetterLabel>
+  <!-- EN: By destroying the stabilizers, you've lowered the cerebrex core's defenses. Send a colonist to inspect the core. -->
+  <CerebrexCoreLoweredLetterText>你摧毁了稳定器，削弱了主脑核心的防御。派遣殖民者前去检查核心。</CerebrexCoreLoweredLetterText>
+
+  <!-- EN: Mechanoids deactivated -->
+  <CerebrexCoreDestroyedLetterLabel>机械族已停用</CerebrexCoreDestroyedLetterLabel>
+  <!-- EN: By destroying the cerebrex core, {PAWN_nameDef} has deactivated mechanoids across the planet.\n\nThe mechanoid threat is over. -->
+  <CerebrexCoreDestroyedLetterText>通过摧毁主脑核心，{PAWN_nameDef}让整个星球上的机械族全部停用。\n\n机械族威胁已解除。</CerebrexCoreDestroyedLetterText>
+
+  <!-- EN: Cerebrex node -->
+  <CerebrexCoreScavengedLetterLabel>主脑节点</CerebrexCoreScavengedLetterLabel>
+  <!-- EN: The scavenged node from the cerebrex core lies nearby. It responds strongly to the core, clearly still linked to it.\n\nEquip the node to a colonist to make use of it. -->
+  <CerebrexCoreScavengedLetterText>在附近发现了来自主脑核心的节点。它对核心有强烈反应，显然仍然与核心相连。\n\n让殖民者装备该节点以发挥其作用。</CerebrexCoreScavengedLetterText>
+
+  <!-- Caravan entered enemy base -->
+  <!-- EN: Attack begun -->
+  <LetterLabelGravshipEnteredEnemyBase>进攻开始</LetterLabelGravshipEnteredEnemyBase>
+  <!-- EN: Your gravship has landed at {0} and is ready to begin the attack. -->
+  <LetterGravshipEnteredEnemyBase>你的逆重飞船已经降落在{0}，准备开始进攻。</LetterGravshipEnteredEnemyBase>
+  
+  <!-- Survey Scanner -->
+  <!-- EN: Surveying scanner -->
+  <LetterLabelSurveyScannerArrived>勘测扫描仪</LetterLabelSurveyScannerArrived>
+  <!-- EN: Protect the scanner until it's finished surveying the area. This will take {DURATION}. -->
+  <LetterSurveyScannerArrived>保护扫描器，直到其完成区域勘测。这大约需要{DURATION}。</LetterSurveyScannerArrived>
+
+  <!-- EN: Insect lair -->
+  <EnteredMegahiveLabel>虫穴</EnteredMegahiveLabel>
+  <!-- EN: {PAWN_nameDef} has arrived in the depths of a massive underground insect lair. The air is heavy with the stench of insect secretions. -->
+  <EnteredMegahiveText>{PAWN_nameDef}已到达巨大的地下虫穴深处。空气中弥漫着虫族分泌物的腥臭。</EnteredMegahiveText>
+  <!-- EN: The gravcore signal is coming from somewhere behind the burrow walls. Attack the burrow walls to explore further. -->
+  <EnteredMegahiveGravcoreExtra>逆重核心的信号来自穴壁后方。破坏穴壁探索更深处。</EnteredMegahiveGravcoreExtra>
+
+</LanguageData>

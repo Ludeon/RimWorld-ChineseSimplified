@@ -1,0 +1,430 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questDescription->[discoveryMethod] the location of an abandoned orbital platform. You don't detect any signs of life.\n\nYou can break in to obtain the loot inside, but the platform probably has defense systems.\n\nYou can travel to orbital locations using gravships, shuttles, or transport pods.</li>
+  -->
+  <OpportunitySite_AbandonedPlatform.questDescriptionRules.rulesStrings>
+    <li>questDescription->[discoveryMethod]一处被遗弃的轨道设施位置。你没有发现任何生命迹象。\n\n你可以闯入以获得其中的战利品，但该设施很可能有防御系统。\n\n你可以使用逆重飞船、穿梭机或运输舱前往轨道坐标。</li>
+  </OpportunitySite_AbandonedPlatform.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName(p=3)->[ancientPlatAdj] [platform]</li>
+    <li>questName->[PlaceOutlander] [platform]</li>
+    <li>questName->[platform] [greekLetter]</li>
+    <li>questName->[platAdj] [platform] [RomanNumeral]</li>
+    <li>ancientPlatAdj->abandoned</li>
+    <li>ancientPlatAdj->ancient</li>
+    <li>ancientPlatAdj->[platAdj]</li>
+    <li>platAdj->starlight</li>
+    <li>platAdj->nebula</li>
+    <li>platAdj->horizon</li>
+    <li>platAdj->eclipse</li>
+    <li>platAdj->zenith</li>
+    <li>platAdj->aurora</li>
+    <li>platAdj->corona</li>
+    <li>platAdj->nova</li>
+    <li>platAdj->eon</li>
+    <li>platAdj->solace</li>
+    <li>platAdj->lumina</li>
+    <li>platAdj->ion</li>
+    <li>platAdj->astralis</li>
+    <li>platAdj->apollo</li>
+    <li>platAdj->ares</li>
+    <li>platAdj->hades</li>
+    <li>platAdj->ajax</li>
+    <li>platAdj->eos</li>
+    <li>platAdj->eros</li>
+    <li>platAdj->chronos</li>
+    <li>platAdj->zephyrus</li>
+    <li>platAdj->argos</li>
+    <li>platAdj->orion</li>
+    <li>platAdj->hermes</li>
+    <li>platAdj->atlas</li>
+    <li>platAdj->helios</li>
+    <li>platAdj->hephaestus</li>
+    <li>platAdj->talos</li>
+    <li>platAdj->vanguard</li>
+    <li>platAdj->aegis</li>
+    <li>platAdj->halcyon</li>
+    <li>platAdj->skyforge</li>
+    <li>platAdj->titan</li>
+    <li>platform(p=2)->station</li>
+    <li>platform->platform</li>
+    <li>platform->orbital platform</li>
+    <li>platform->orbital hub</li>
+    <li>platform(p=0.5)->skygate</li>
+    <li>platform(p=0.5)->spacedock</li>
+    <li>platform(p=0.5)->gateway</li>
+    <li>greekLetter->alpha</li>
+    <li>greekLetter->beta</li>
+    <li>greekLetter->theta</li>
+    <li>greekLetter->delta</li>
+    <li>greekLetter->zeta</li>
+    <li>greekLetter->sigma</li>
+    <li>greekLetter->omega</li>
+    <li>PlaceOutlander(p=3)->[SylE][place_end]</li>
+    <li>PlaceOutlander->[SylE][SylE][place_end]</li>
+  -->
+  <OpportunitySite_AbandonedPlatform.questNameRules.rulesStrings>
+    <li>questName(p=3)->[ancientPlatAdj][platform]</li>
+    <li>questName->[PlaceOutlander][platform]</li>
+    <li>questName->[platform][greekLetter]</li>
+    <li>questName->[platAdj][platform][RomanNumeral]</li>
+    <li>ancientPlatAdj->废弃的</li>
+    <li>ancientPlatAdj->古老的</li>
+    <li>ancientPlatAdj->[platAdj]</li>
+    <li>platAdj->星光</li>
+    <li>platAdj->星云</li>
+    <li>platAdj->地平线</li>
+    <li>platAdj->蚀影</li>
+    <li>platAdj->天顶</li>
+    <li>platAdj->极光</li>
+    <li>platAdj->日冕</li>
+    <li>platAdj->新星</li>
+    <li>platAdj->永恒</li>
+    <li>platAdj->安宁</li>
+    <li>platAdj->流光</li>
+    <li>platAdj->离子</li>
+    <li>platAdj->星辰</li>
+    <li>platAdj->阿波罗</li>
+    <li>platAdj->阿瑞斯</li>
+    <li>platAdj->哈迪斯</li>
+    <li>platAdj->埃阿斯</li>
+    <li>platAdj->厄俄斯</li>
+    <li>platAdj->厄洛斯</li>
+    <li>platAdj->克洛诺斯</li>
+    <li>platAdj->泽菲罗斯</li>
+    <li>platAdj->阿尔戈斯</li>
+    <li>platAdj->猎户</li>
+    <li>platAdj->赫尔墨斯</li>
+    <li>platAdj->阿特拉斯</li>
+    <li>platAdj->赫利俄斯</li>
+    <li>platAdj->赫淮斯托斯</li>
+    <li>platAdj->塔洛斯</li>
+    <li>platAdj->先锋</li>
+    <li>platAdj->神盾</li>
+    <li>platAdj->静谧</li>
+    <li>platAdj->天锻</li>
+    <li>platAdj->泰坦</li>
+    <li>platform(p=2)->空间站</li>
+    <li>platform->设施</li>
+    <li>platform->轨道设施</li>
+    <li>platform->轨道枢纽</li>
+    <li>platform(p=0.5)->天门</li>
+    <li>platform(p=0.5)->太空船坞</li>
+    <li>platform(p=0.5)->入口</li>
+    <li>greekLetter->α</li>
+    <li>greekLetter->β</li>
+    <li>greekLetter->θ</li>
+    <li>greekLetter->δ</li>
+    <li>greekLetter->ζ</li>
+    <li>greekLetter->σ</li>
+    <li>greekLetter->Ω</li>
+    <li>PlaceOutlander(p=3)->[SylE][place_end]</li>
+    <li>PlaceOutlander->[SylE][SylE][place_end]</li>
+  </OpportunitySite_AbandonedPlatform.questNameRules.rulesStrings>
+  <!-- EN: You have discovered -->
+  <OpportunitySite_AbandonedPlatform.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>你已发现</OpportunitySite_AbandonedPlatform.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>
+  <!-- EN: Quest expired: [resolvedQuestName] -->
+  <OpportunitySite_AbandonedPlatform.LetterLabelQuestExpired.slateRef>任务已失效：[resolvedQuestName]</OpportunitySite_AbandonedPlatform.LetterLabelQuestExpired.slateRef>
+  <!-- EN: Intercepted communications indicate the platform has been claimed by others. The quest [resolvedQuestName] has expired. -->
+  <OpportunitySite_AbandonedPlatform.LetterTextQuestExpired.slateRef>根据刚截获的讯息表明，该设施已经被人捷足先登。任务“[resolvedQuestName]”已经失效。</OpportunitySite_AbandonedPlatform.LetterTextQuestExpired.slateRef>
+  
+  <!-- EN:
+    <li>questDescription->[discoveryMethod] the location of an asteroid orbiting the planet. It contains significant amounts of [resource], and potentially other resources as well.\n\nOrbital miners steer asteroids into orbit so that they can be mined and the ore sold to orbital traders. You do not detect any signs of life from this asteroid.\n\nYou can reach the asteroid with transport pods, shuttles, or a gravship. Equip your colonists with sufficient orbital apparel before departing.</li>
+  -->
+  <OpportunitySite_Asteroid.questDescriptionRules.rulesStrings>
+    <li>questDescription->[discoveryMethod]一颗围绕行星运行的小行星位置。其内含有大量的[resource]，可能还有其他资源。\n\n轨道矿工会将小行星引入近地轨道，以便采矿并将矿石售卖给轨道交易商。你没有探测到小行星上的任何生命迹象。\n\n你可以用运输舱、穿梭机或逆重飞船抵达小行星。出发前请为殖民者配备足够的轨道作业防护装备。</li>
+  </OpportunitySite_Asteroid.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->[resource] Asteroid</li>
+  -->
+  <OpportunitySite_Asteroid.questNameRules.rulesStrings>
+    <li>questName->[resource]小行星</li>
+  </OpportunitySite_Asteroid.questNameRules.rulesStrings>
+  <!-- EN: You have discovered -->
+  <OpportunitySite_Asteroid.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>你已发现</OpportunitySite_Asteroid.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>
+  
+  <!-- EN:
+    <li>questDescription->[discoveryMethod] the location of an orbital platform. You detect high levels of mechanoid activity.\n\nYou can scavenge valuables from the platform.\n\nYou can travel to orbital locations using gravships, shuttles, or transport pods.</li>
+  -->
+  <OpportunitySite_MechanoidPlatform.questDescriptionRules.rulesStrings>
+    <li>questDescription->[discoveryMethod]一处轨道设施的位置。你探测到大量机械族的活动。\n\n你可以从该设施搜刮贵重物资。\n\n你可以使用逆重飞船、穿梭机或运输舱前往轨道坐标。</li>
+  </OpportunitySite_MechanoidPlatform.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->[platAdj] [platform] [designation]</li>
+    <li>questName->[platAdj] [platform]</li>
+    <li>platAdj(p=3)->mechanoid</li>
+    <li>platAdj(p=3)->[mechanoid]</li>
+    <li>platAdj->genesis</li>
+    <li>platAdj->synthesis</li>
+    <li>platAdj->assembly</li>
+    <li>platAdj->formation</li>
+    <li>platform->platform</li>
+    <li>platform->station</li>
+    <li>platform->hub</li>
+    <li>designation->[RomanNumeral]</li>
+    <li>designation->[Letter]-[RomanNumeral]</li>
+    <li>mechanoid->scyther</li>
+    <li>mechanoid->lancer</li>
+    <li>mechanoid->centipede</li>
+    <li>mechanoid->cyclops</li>
+  -->
+  <OpportunitySite_MechanoidPlatform.questNameRules.rulesStrings>
+    <li>questName->[platAdj][platform][designation]</li>
+    <li>questName->[platAdj][platform]</li>
+    <li>platAdj(p=3)->机械族</li>
+    <li>platAdj(p=3)->[mechanoid]</li>
+    <li>platAdj->起源</li>
+    <li>platAdj->综合</li>
+    <li>platAdj->集会</li>
+    <li>platAdj->编队</li>
+    <li>platform->设施</li>
+    <li>platform->空间站</li>
+    <li>platform->枢纽</li>
+    <li>designation->[RomanNumeral]</li>
+    <li>designation->[Letter]-[RomanNumeral]</li>
+    <li>mechanoid->机械飞螳</li>
+    <li>mechanoid->机械静螳</li>
+    <li>mechanoid->机械蜈蚣</li>
+    <li>mechanoid->机械炬瞳</li>
+  </OpportunitySite_MechanoidPlatform.questNameRules.rulesStrings>
+  <!-- EN: You have discovered -->
+  <OpportunitySite_MechanoidPlatform.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>你已发现</OpportunitySite_MechanoidPlatform.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>
+  <!-- EN: Quest expired: [resolvedQuestName] -->
+  <OpportunitySite_MechanoidPlatform.LetterLabelQuestExpired.slateRef>任务已失效：[resolvedQuestName]</OpportunitySite_MechanoidPlatform.LetterLabelQuestExpired.slateRef>
+  <!-- EN: Intercepted communications indicate the platform has been claimed by others. The quest [resolvedQuestName] has expired. -->
+  <OpportunitySite_MechanoidPlatform.LetterTextQuestExpired.slateRef>根据刚截获的讯息表明，该设施已经被人捷足先登。任务“[resolvedQuestName]”已经失效。</OpportunitySite_MechanoidPlatform.LetterTextQuestExpired.slateRef>
+  
+  <!-- EN:
+    <li>questDescription->[discoveryMethod] an unusual asteroid orbiting the planet. The asteroid has a hollow core which contains several structures.\n\nYou can break in to obtain the loot inside.\n\nBe warned - the buildings may contain defense systems.</li>
+  -->
+  <OpportunitySite_OrbitalItemStash.questDescriptionRules.rulesStrings>
+    <li>questDescription->[discoveryMethod]一颗异常的小行星正围绕行星运行。该小行星的中空核心内包含若干建筑。\n\n你可以闯入以获得其中的战利品。\n\n注意——这些建筑可能带有防御系统。</li>
+  </OpportunitySite_OrbitalItemStash.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->[adjective] [orbital] [stash_noun]</li>
+    <li>questName->[orbital] [stash_noun]</li>
+    <li>adjective->Hidden</li>
+    <li>adjective->Secret</li>
+    <li>orbital->Orbital</li>
+    <li>orbital->Asteroid</li>
+    <li>stash_noun->Stash</li>
+    <li>stash_noun->Cache</li>
+  -->
+  <OpportunitySite_OrbitalItemStash.questNameRules.rulesStrings>
+    <li>questName->[adjective][orbital][stash_noun]</li>
+    <li>questName->[orbital][stash_noun]</li>
+    <li>adjective->隐藏的</li>
+    <li>adjective->秘密的</li>
+    <li>orbital->轨道</li>
+    <li>orbital->小行星</li>
+    <li>stash_noun->储物点</li>
+    <li>stash_noun->宝库</li>
+  </OpportunitySite_OrbitalItemStash.questNameRules.rulesStrings>
+  <!-- EN: You have discovered -->
+  <OpportunitySite_OrbitalItemStash.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>你已发现</OpportunitySite_OrbitalItemStash.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>
+  
+  <!-- EN:
+    <li>questDescription->[discoveryMethod] the coordinates of a massive piece of wreckage in orbit. It could contain valuable resources. Orbital debris fields are often occupied by hostile scavengers.\n\nYou can travel to orbital locations using gravships, shuttles, or transport pods.</li>
+  -->
+  <OpportunitySite_OrbitalWreck.questDescriptionRules.rulesStrings>
+    <li>questDescription->[discoveryMethod]一处在轨巨型残骸的坐标。内部可能包含有价值的资源。在轨残骸带通常被敌对拾荒者占据。\n\n你可以使用逆重飞船、穿梭机或运输舱前往轨道坐标。</li>
+  </OpportunitySite_OrbitalWreck.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName(p=2)->the ruins of [platAdj] [platform]</li>
+    <li>questName->[platAdj] [wreckage]</li>
+    <li>questName->[PlaceOutlander] [wreckage]</li>
+    <li>questName->[ruined] [platAdj] [platform]</li>
+    <li>platAdj->starlight</li>
+    <li>platAdj->nebula</li>
+    <li>platAdj->horizon</li>
+    <li>platAdj->eclipse</li>
+    <li>platAdj->zenith</li>
+    <li>platAdj->aurora</li>
+    <li>platAdj->corona</li>
+    <li>platAdj->nova</li>
+    <li>platAdj->eon</li>
+    <li>platAdj->solace</li>
+    <li>platAdj->lumina</li>
+    <li>platAdj->ion</li>
+    <li>platAdj->astralis</li>
+    <li>platAdj->apollo</li>
+    <li>platAdj->ares</li>
+    <li>platAdj->hades</li>
+    <li>platAdj->ajax</li>
+    <li>platAdj->eos</li>
+    <li>platAdj->eros</li>
+    <li>platAdj->chronos</li>
+    <li>platAdj->zephyrus</li>
+    <li>platAdj->argos</li>
+    <li>platAdj->orion</li>
+    <li>platAdj->hermes</li>
+    <li>platAdj->atlas</li>
+    <li>platAdj->helios</li>
+    <li>platAdj->hephaestus</li>
+    <li>platAdj->talos</li>
+    <li>platAdj->vanguard</li>
+    <li>platAdj->aegis</li>
+    <li>platAdj->halcyon</li>
+    <li>platAdj->skyforge</li>
+    <li>platAdj->titan</li>
+    <li>wreckage(p=2)->wreckage</li>
+    <li>wreckage(p=2)->wreck</li>
+    <li>wreckage->orbital ruins</li>
+    <li>wreckage->debris field</li>
+    <li>platform(p=2)->station</li>
+    <li>platform->platform</li>
+    <li>platform(p=0.5)->skygate</li>
+    <li>platform(p=0.5)->spacedock</li>
+    <li>platform(p=0.5)->gateway</li>
+    <li>ruined->ruined</li>
+    <li>ruined->destroyed</li>
+    <li>ruined->scuttled</li>
+    <li>ruined->lost</li>
+    <li>ruined->ravaged</li>
+    <li>PlaceOutlander(p=3)->[SylE][place_end]</li>
+    <li>PlaceOutlander->[SylE][SylE][place_end]</li>
+  -->
+  <OpportunitySite_OrbitalWreck.questNameRules.rulesStrings>
+    <li>questName(p=2)->[platAdj][platform]遗迹</li>
+    <li>questName->[platAdj][wreckage]</li>
+    <li>questName->[PlaceOutlander][wreckage]</li>
+    <li>questName->[ruined][platAdj][platform]</li>
+    <li>platAdj->星光</li>
+    <li>platAdj->星云</li>
+    <li>platAdj->地平线</li>
+    <li>platAdj->蚀影</li>
+    <li>platAdj->天顶</li>
+    <li>platAdj->极光</li>
+    <li>platAdj->日冕</li>
+    <li>platAdj->新星</li>
+    <li>platAdj->永恒</li>
+    <li>platAdj->安宁</li>
+    <li>platAdj->流光</li>
+    <li>platAdj->离子</li>
+    <li>platAdj->星辰</li>
+    <li>platAdj->阿波罗</li>
+    <li>platAdj->阿瑞斯</li>
+    <li>platAdj->哈迪斯</li>
+    <li>platAdj->埃阿斯</li>
+    <li>platAdj->厄俄斯</li>
+    <li>platAdj->厄洛斯</li>
+    <li>platAdj->克洛诺斯</li>
+    <li>platAdj->泽菲罗斯</li>
+    <li>platAdj->阿尔戈斯</li>
+    <li>platAdj->猎户</li>
+    <li>platAdj->赫尔墨斯</li>
+    <li>platAdj->阿特拉斯</li>
+    <li>platAdj->赫利俄斯</li>
+    <li>platAdj->赫淮斯托斯</li>
+    <li>platAdj->塔洛斯</li>
+    <li>platAdj->先锋</li>
+    <li>platAdj->神盾</li>
+    <li>platAdj->静谧</li>
+    <li>platAdj->天锻</li>
+    <li>platAdj->泰坦</li>
+    <li>wreckage(p=2)->残骸</li>
+    <li>wreckage(p=2)->废墟</li>
+    <li>wreckage->在轨遗迹</li>
+    <li>wreckage->碎片带</li>
+    <li>platform(p=2)->空间站</li>
+    <li>platform->设施</li>
+    <li>platform(p=0.5)->天门</li>
+    <li>platform(p=0.5)->太空船坞</li>
+    <li>platform(p=0.5)->入口</li>
+    <li>ruined->废墟</li>
+    <li>ruined->被毁</li>
+    <li>ruined->废弃</li>
+    <li>ruined->失落</li>
+    <li>ruined->破坏</li>
+    <li>PlaceOutlander(p=3)->[SylE][place_end]</li>
+    <li>PlaceOutlander->[SylE][SylE][place_end]</li>
+  </OpportunitySite_OrbitalWreck.questNameRules.rulesStrings>
+  <!-- EN: You have discovered -->
+  <OpportunitySite_OrbitalWreck.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>你已发现</OpportunitySite_OrbitalWreck.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>
+  <!-- EN: Quest expired: [resolvedQuestName] -->
+  <OpportunitySite_OrbitalWreck.LetterLabelQuestExpired.slateRef>任务已失效：[resolvedQuestName]</OpportunitySite_OrbitalWreck.LetterLabelQuestExpired.slateRef>
+  <!-- EN: Intercepted communications indicate the orbital wreck has been claimed by others. The quest [resolvedQuestName] has expired. -->
+  <OpportunitySite_OrbitalWreck.LetterTextQuestExpired.slateRef>据刚截获的讯息表明，该残骸已经被人捷足先登。任务“[resolvedQuestName]”已经失效。</OpportunitySite_OrbitalWreck.LetterTextQuestExpired.slateRef>
+  
+  <!-- EN:
+    <li>questDescription->[discoveryMethod] the location of an orbital satellite. These satellites are unmanned and often incapable of supporting life. Satellites serve a wide variety of purposes, from power collection to weapons platforms.\n\nYou can scavenge valuable technology from the satellites but be warned, satellites are heavily guarded by ancient security systems.\n\nYou can travel to orbital locations using gravships, shuttles, or transport pods.</li>
+  -->
+  <OpportunitySite_Satellite.questDescriptionRules.rulesStrings>
+    <li>questDescription->[discoveryMethod]一个在轨卫星的位置。这些卫星无人值守，通常没有维生系统。卫星用途广泛，从能量收集到武器平台都有涉及。\n\n你可以从卫星上搜寻有价值的科技，但请注意：卫星通常由古老的安保系统严密守卫。\n\n你可以使用逆重飞船、穿梭机或运输舱前往轨道坐标。</li>
+  </OpportunitySite_Satellite.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->[PlaceOutlander] [platform]</li>
+    <li>questName->[platAdj] [platform]</li>
+    <li>platAdj(p=4)->orbital</li>
+    <li>platAdj->observation</li>
+    <li>platAdj->network</li>
+    <li>platAdj->imperial</li>
+    <li>platAdj->solar</li>
+    <li>platAdj->starlight</li>
+    <li>platAdj->nebula</li>
+    <li>platAdj->horizon</li>
+    <li>platAdj->eclipse</li>
+    <li>platAdj->zenith</li>
+    <li>platAdj->aurora</li>
+    <li>platAdj->corona</li>
+    <li>platAdj->nova</li>
+    <li>platAdj->eon</li>
+    <li>platAdj->solace</li>
+    <li>platAdj->lumina</li>
+    <li>platAdj->ion</li>
+    <li>platAdj->astralis</li>
+    <li>platAdj->echo</li>
+    <li>platform(p=4)->satellite</li>
+    <li>platform->relay</li>
+    <li>platform->ring</li>
+    <li>platform->satlink</li>
+    <li>platform->sentinel</li>
+    <li>platform->prime</li>
+    <li>platform->beacon</li>
+    <li>platform->bombarder</li>
+    <li>PlaceOutlander(p=3)->[SylE][place_end]</li>
+    <li>PlaceOutlander->[SylE][SylE][place_end]</li>
+  -->
+  <OpportunitySite_Satellite.questNameRules.rulesStrings>
+    <li>questName->[PlaceOutlander][platform]</li>
+    <li>questName->[platAdj][platform]</li>
+    <li>platAdj(p=4)->轨道</li>
+    <li>platAdj->观测</li>
+    <li>platAdj->网络</li>
+    <li>platAdj->帝国</li>
+    <li>platAdj->太阳能</li>
+    <li>platAdj->星光</li>
+    <li>platAdj->星云</li>
+    <li>platAdj->地平线</li>
+    <li>platAdj->蚀影</li>
+    <li>platAdj->天顶</li>
+    <li>platAdj->极光</li>
+    <li>platAdj->日冕</li>
+    <li>platAdj->新星</li>
+    <li>platAdj->永恒</li>
+    <li>platAdj->安宁</li>
+    <li>platAdj->流光</li>
+    <li>platAdj->离子</li>
+    <li>platAdj->星辰</li>
+    <li>platAdj->回声</li>
+    <li>platform(p=4)->卫星</li>
+    <li>platform->中继器</li>
+    <li>platform->环</li>
+    <li>platform->卫星通讯</li>
+    <li>platform->守卫者</li>
+    <li>platform->主控</li>
+    <li>platform->信标</li>
+    <li>platform->轰炸者</li>
+    <li>PlaceOutlander(p=3)->[SylE][place_end]</li>
+    <li>PlaceOutlander->[SylE][SylE][place_end]</li>
+  </OpportunitySite_Satellite.questNameRules.rulesStrings>
+  <!-- EN: You have discovered -->
+  <OpportunitySite_Satellite.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>你已发现</OpportunitySite_Satellite.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>
+  <!-- EN: Quest expired: [resolvedQuestName] -->
+  <OpportunitySite_Satellite.LetterLabelQuestExpired.slateRef>任务已失效：[resolvedQuestName]</OpportunitySite_Satellite.LetterLabelQuestExpired.slateRef>
+  <!-- EN: Scanner readings indicate the satellite has boosted itself into a higher, unreachable orbit. The quest [resolvedQuestName] has expired. -->
+  <OpportunitySite_Satellite.LetterTextQuestExpired.slateRef>根据刚截获的讯息表明，该卫星已升高到无法到达的轨道。任务“[resolvedQuestName]”已经失效。</OpportunitySite_Satellite.LetterTextQuestExpired.slateRef>
+  
+</LanguageData>

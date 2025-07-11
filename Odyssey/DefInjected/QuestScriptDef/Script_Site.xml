@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>attackReason->claim the surveying scanner was sent to spy on their secret rituals</li>
+    <li>attackReason->say the surveying site infringes on their territory</li>
+    <li>attackReason->say they were sent to destroy the scanner as payback</li>
+    <li>attackReason->claim the surveying scanner is too close to one of their hidden stashes</li>
+    <li>attackReason->want to scrap the surveying equipment for parts</li>
+    <li>attackReason->claim that the surveying scanner is secretly a weapon and its activation has caused psychic disturbances</li>
+  -->
+  <SurveySite.questContentRules.rulesStrings>
+    <li>attackReason->宣称勘测扫描仪是被派来监视他们的秘密仪式</li>
+    <li>attackReason->声称勘测点侵犯了他们的领地</li>
+    <li>attackReason->称自己受命摧毁扫描仪作为报复</li>
+    <li>attackReason->宣称勘测扫描仪距离他们的隐藏储藏点太近</li>
+    <li>attackReason->想要拆解勘测设备获取零件</li>
+    <li>attackReason->声称勘测扫描仪实际上是武器，其激活导致了心灵扰动</li>
+  </SurveySite.questContentRules.rulesStrings>
+  <!-- EN:
+    <li>questDescription(askerIsNull==true)->An anonymous AI has requested your help defending surveying equipment at a remote site.\n\nThe surveying operation will take ten to fifteen days and will require traveling to a remote destination.\n\nIn exchange for your services, the AI is offering a valuable gravtech device.</li>
+    <li>questDescription(asker_factionLeader==true)->[asker_faction_leaderTitle] [asker_nameFull] of [asker_faction_name] has heard rumors of your gravship. [asker_pronoun] wants to survey a distant region and asks that you protect [asker_possessive] surveying equipment.\n\nThe surveying operation will take ten to fifteen days and will require traveling to a remote destination.\n\nIn exchange for your services, [asker_nameDef] is offering a valuable gravtech device.</li>
+    <li>questDescription(asker_royalInCurrentFaction==true)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], requests that you protect [asker_possessive] surveying operation. If you do so, [asker_pronoun] will reward you handsomely.\n\nThe surveying operation will take ten to fifteen days and will require traveling to a remote destination.\n\nIn exchange for your services, [asker_nameDef] is offering a valuable gravtech device.</li>
+  -->
+  <SurveySite.questDescriptionRules.rulesStrings>
+    <li>questDescription(askerIsNull==true)->一位匿名的人工智能请求你协助防御位于偏远地点的勘测设备。\n\n勘测行动将持续十到十五天，你需要前往远处执行任务。\n\n作为回报，该人工智能将赠送你一件珍贵的逆重科技设备。</li>
+    <li>questDescription(asker_factionLeader==true)->来自[asker_faction_name]的[asker_faction_leaderTitle][asker_nameFull]听闻你拥有逆重飞船。[asker_pronoun]希望对一处遥远区域进行勘测，并请求你保护[asker_possessive]的勘测设备。\n\n勘测行动将持续十到十五天，你需要前往远处执行任务。\n\n作为回报，[asker_nameDef]将赠送你一件珍贵的逆重科技设备。</li>
+    <li>questDescription(asker_royalInCurrentFaction==true)->来自[asker_faction_name]的[asker_royalTitleInCurrentFaction][asker_nameFull]请求你保护[asker_possessive]的勘测行动。若你应允，[asker_pronoun]会给予丰厚奖赏。\n\n勘测行动将持续十到十五天，你需要前往远处执行任务。\n\n作为回报，[asker_nameDef]将赠送你一件珍贵的逆重科技设备。</li>
+  </SurveySite.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->Surveying [site]</li>
+    <li>questName->[remote] Survey</li>
+    <li>questName(p=0.5)->Defending the Scanner</li>
+    <li>questName(p=0.5)->Remote Protection</li>
+    <li>site->Site</li>
+    <li>site->Station</li>
+    <li>site->Defense</li>
+    <li>site->Operation</li>
+    <li>remote->Remote</li>
+    <li>remote->Regional</li>
+    <li>remote->Distant</li>
+  -->
+  <SurveySite.questNameRules.rulesStrings>
+    <li>questName->测绘[site]</li>
+    <li>questName->[remote]勘测</li>
+    <li>questName(p=0.5)->防卫扫描仪</li>
+    <li>questName(p=0.5)->远程保护</li>
+    <li>site->地点</li>
+    <li>site->站点</li>
+    <li>site->防御</li>
+    <li>site->行动</li>
+    <li>remote->远程</li>
+    <li>remote->区域</li>
+    <li>remote->遥远</li>
+  </SurveySite.questNameRules.rulesStrings>
+  <!-- EN: Quest expired: [resolvedQuestName] -->
+  <SurveySite.LetterLabelQuestExpired.slateRef>任务已失效：[resolvedQuestName]</SurveySite.LetterLabelQuestExpired.slateRef>
+  <!-- EN: The scanner has gone offline. The quest [resolvedQuestName] has expired. -->
+  <SurveySite.LetterTextQuestExpired.slateRef>扫描仪已离线。任务“[resolvedQuestName]”已经失效。</SurveySite.LetterTextQuestExpired.slateRef>
+  <!-- EN: {BASETEXT}\n\nThe [enemyFaction_pawnsPlural] [attackReason]. -->
+  <SurveySite.root.nodes.Root_SurveyScanner.raidLetterText>{BASETEXT}\n\n[enemyFaction_pawnsPlural][attackReason]。</SurveySite.root.nodes.Root_SurveyScanner.raidLetterText>
+  <!-- EN: Quest completed -->
+  <SurveySite.root.nodes.AllSignals.node.node.nodes.Letter.label.slateRef>任务完成</SurveySite.root.nodes.AllSignals.node.node.nodes.Letter.label.slateRef>
+  <!-- EN: You have successfully completed the quest '[resolvedQuestName]'! -->
+  <SurveySite.root.nodes.AllSignals.node.node.nodes.Letter.text.slateRef>你成功完成了任务“[resolvedQuestName]”！</SurveySite.root.nodes.AllSignals.node.node.nodes.Letter.text.slateRef>
+  
+</LanguageData>

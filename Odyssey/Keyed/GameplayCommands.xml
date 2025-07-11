@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- Grav engine -->
+  <!-- EN: Show substructure overlay -->
+  <CommandShowSubstructureOverlay>显示基架</CommandShowSubstructureOverlay>
+  <!-- EN: Display valid substructure in blue and invalid substructure in red. -->
+  <CommandShowSubstructureOverlayDesc>蓝色表示有效基架，红色表示无效基架。</CommandShowSubstructureOverlayDesc>
+  <!-- EN: Inspect {0_labelShort} -->
+  <CommandInspectGravEngine>检查{0_labelShort}</CommandInspectGravEngine>
+  <!-- EN: Choose a colonist to inspect the mysterious grav engine. -->
+  <CommandInspectGravEngineDesc>选择一位殖民者检查神秘的逆重引擎。</CommandInspectGravEngineDesc>
+  <!-- EN: Choose navigator -->
+  <CommandChooseNavigator>选择领航员</CommandChooseNavigator>
+  <!-- EN: Cannot navigate -->
+  <CannotChooseNavigator>无法领航</CannotChooseNavigator>
+
+  <!-- EN: Launch -->
+  <CommandLaunchGravship>发射</CommandLaunchGravship>
+  <!-- EN: Choose a colonist to pilot the gravship. Anything on gravship substructure will be transported to a new map. Your current map will be abandoned if you don't have a grav anchor. -->
+  <CommandLaunchGravshipDesc>选择一位殖民者驾驶逆重飞船。基架上的所有物品将被运送到新地图。若未建造逆重锚，当前地图将被弃置。</CommandLaunchGravshipDesc>
+
+  <!-- EN: Allow fishing -->
+  <CommandAllowFish>允许钓鱼</CommandAllowFish>
+  <!-- EN: When disabled, colonists will never fish in this zone. -->
+  <CommandAllowFishDesc>禁用后，殖民者不会在此区域钓鱼。</CommandAllowFishDesc>
+  
+  <!-- EN: Allow removing items -->
+  <CommandAllowRemovingApparel>允许移动物品</CommandAllowRemovingApparel>
+  <!-- EN: When disabled, haulers won't remove items from the outfit stand and colonists won't equip apparel unless ordered to do so. -->
+  <CommandAllowRemovingApparelDesc>禁用后，搬运工移动服装架上的物品，殖民者也不会装备服装架上的服装，除非手动命令。</CommandAllowRemovingApparelDesc>
+
+  <!-- EN: No colonist capable of piloting shuttle. Requires minimum piloting ability of 10%. -->
+  <CommandShuttleNoPilot>没有殖民者能驾驶穿梭机。需要至少10%的驾驶能力。</CommandShuttleNoPilot>
+
+  <!-- EN: Confirm landing zone -->
+  <ConfirmLandGravship>确认降落区</ConfirmLandGravship>
+  <!-- EN: Land your gravship in the landing zone. -->
+  <ConfirmLandGravshipDesc>让你的逆重飞船降落在降落区。</ConfirmLandGravshipDesc>
+  <!-- EN: Abort landing -->
+  <AbortLandGravship>中止着陆</AbortLandGravship>
+  <!-- EN: Cancel landing on this map, and force the gravship to land nearby on the world map. Useful if you can't find a landing spot.\n\nWarning: This increases the chance of a mishap when landing. -->
+  <AbortLandGravshipDesc>取消在此地图的着陆，并强制重力飞船在世界地图上的邻近位置着陆。在无法找到着陆点时很有用。\n\n警告：此操作会增加着陆时发生意外事件的概率。</AbortLandGravshipDesc>
+  <!-- EN: Aborting the landing will force your gravship to land in a random nearby location on the world map. This increases the chance of a mishap when landing.\n\nAre you sure you want to continue? -->
+  <AbortLandConfirmation>中止着陆将强制你的重力飞船在世界地图上的随机邻近位置着陆。这会增加着陆时发生意外事件的概率。\n\n你确定要继续吗？</AbortLandConfirmation>
+  <!-- EN: Failed to find crash site. -->
+  <FailedToFindCrashSite>未能找到坠毁地点。</FailedToFindCrashSite>
+  <!-- EN: You must designate a landing area for your gravship. -->
+  <GravshipLandingMarkerNotPlaced>你必须为逆重飞船指定着陆区域。</GravshipLandingMarkerNotPlaced>
+
+  <!-- EN: Refuel from cargo -->
+  <CommandRefuelShuttleFromCargo>从货舱补充燃料</CommandRefuelShuttleFromCargo>
+  <!-- EN: Refuel the passenger shuttle using chemfuel stored within. -->
+  <CommandRefuelShuttleFromCargoDesc>使用货舱内储存的化合燃料为载客穿梭机加油。</CommandRefuelShuttleFromCargoDesc>
+  <!-- EN: No fuel in caravan. -->
+  <NoFuelInCaravan>远行队中没有燃料。</NoFuelInCaravan>
+  <!-- EN: No fuel in shuttle. -->
+  <NoFuelInShuttle>穿梭机内没有燃料。</NoFuelInShuttle>
+  <!-- EN: Shuttle is already fully fueled -->
+  <ShuttleFullyFueled>穿梭机已加满燃料</ShuttleFullyFueled>
+
+  <!-- EN: Seal entrance... -->
+  <SealHatch>封闭入口... </SealHatch>
+  <!-- EN: Choose a colonist to permanently seal the entrance. Anything or anyone left below will be lost forever. -->
+  <SealHatchDesc>选择一位殖民者永久封闭入口。任何遗留在下面的物品或人员都将永远消失。</SealHatchDesc>
+
+  <!-- EN: Activate -->
+  <GravshipShieldOrderActivation>激活</GravshipShieldOrderActivation>
+  <!-- EN: Deactivate -->
+  <GravshipShieldOrderDeactivation>关闭</GravshipShieldOrderDeactivation>
+  <!-- EN: Order a pawn to activate the gravship shield generator. -->
+  <GravshipShieldOrderActivationDesc>指派一名角色激活逆重飞船护盾发生器。</GravshipShieldOrderActivationDesc>
+  <!-- EN: Order a pawn to deactivate the gravship shield generator. -->
+  <GravshipShieldOrderDeactivationDesc>指派一名角色关闭逆重飞船护盾发生器。</GravshipShieldOrderDeactivationDesc>
+
+  <!-- EN: Merging these caravans will cause the following to be lost:\n{0}\n\nAre you sure you want to continue? -->
+  <ConfirmMergeShuttles>合并远行队将导致以下货物丢失：\n{0}\n\n你确定要继续吗？</ConfirmMergeShuttles>
+</LanguageData>

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questDescription->[discoveryMethod] the location of an alpha thrumbo.\n\nAlpha thrumbos are exceptionally rare creatures, believed by many to be mere fiction. Too wild for most to tame and too powerful for most to hunt, their horns are worth more than their weight in gold.</li>
+  -->
+  <OpportunitySite_AlphaThrumbo_Giver.questDescriptionRules.rulesStrings>
+    <li>questDescription->[discoveryMethod]了一只阿尔法敲击兽的位置。\n\n阿尔法敲击兽极其罕见，很多人都觉得它只存在于传说中。它性子太野，很难驯服；实力太强，很难猎杀；头上的角价值连城。</li>
+  </OpportunitySite_AlphaThrumbo_Giver.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->alpha thrumbo</li>
+  -->
+  <OpportunitySite_AlphaThrumbo_Giver.questNameRules.rulesStrings>
+    <li>questName->阿尔法敲击兽</li>
+  </OpportunitySite_AlphaThrumbo_Giver.questNameRules.rulesStrings>
+  <!-- EN:
+    <li>subject->alpha thrumbos</li>
+    <li>subject->thrumbos</li>
+    <li>subject->rare thrumbos</li>
+    <li>subject->rare animals</li>
+    <li>subject->legendary creatures</li>
+    <li>questMapFeature->drawing of a thrumbo</li>
+    <li>questMapFeature->sketch of an odd-looking thrumbo</li>
+    <li>questMapText->thrumbo habitat</li>
+    <li>questMapText->alpha thrumbo</li>
+    <li>questMapText->found the beast</li>
+    <li>questMapText->they are real</li>
+  -->
+  <OpportunitySite_AlphaThrumbo_Giver.questSubjectRules.rulesStrings>
+    <li>subject->阿尔法敲击兽</li>
+    <li>subject->敲击兽</li>
+    <li>subject->稀有敲击兽</li>
+    <li>subject->稀有动物</li>
+    <li>subject->传说生物</li>
+    <li>questMapFeature->敲击兽的画作</li>
+    <li>questMapFeature->一只模样奇特敲击兽的素描</li>
+    <li>questMapText->敲击兽栖息地</li>
+    <li>questMapText->阿尔法敲击兽</li>
+    <li>questMapText->发现了那只野兽</li>
+    <li>questMapText->它们是真的</li>
+  </OpportunitySite_AlphaThrumbo_Giver.questSubjectRules.rulesStrings>
+  <!-- EN: You have discovered -->
+  <OpportunitySite_AlphaThrumbo_Giver.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>你已经发现了</OpportunitySite_AlphaThrumbo_Giver.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>
+  <!-- EN: Quest expired: [resolvedQuestName] -->
+  <OpportunitySite_AlphaThrumbo_Giver.LetterLabelQuestExpired.slateRef>任务已失效：[resolvedQuestName]</OpportunitySite_AlphaThrumbo_Giver.LetterLabelQuestExpired.slateRef>
+  <!-- EN: Intercepted communications indicate the alpha thrumbo has moved on. The quest [resolvedQuestName] has expired. -->
+  <OpportunitySite_AlphaThrumbo_Giver.LetterTextQuestExpired.slateRef>根据刚截获的讯息表明，阿尔法敲击兽已经离开。任务“[resolvedQuestName]”已经失效。</OpportunitySite_AlphaThrumbo_Giver.LetterTextQuestExpired.slateRef>
+  
+</LanguageData>

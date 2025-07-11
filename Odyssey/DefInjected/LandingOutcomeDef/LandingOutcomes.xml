@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: grav nausea -->
+  <GravNausea.letterLabel>重力眩晕</GravNausea.letterLabel>
+  <!-- EN: While landing {GRAVSHIP}, {PILOT_nameDef} was forced to do an emergency maneuver, resulting in an intense and prolonged deceleration. The experience has left your colonists feeling extremely nauseous. The effects will quickly fade. -->
+  <GravNausea.letterText>{PILOT_nameDef}在{GRAVSHIP}降落时被迫进行了紧急机动，导致持续的剧烈减速。这种体验让你的殖民者感到极度恶心，不过这种影响会很快消失。</GravNausea.letterText>
+  
+  <!-- EN: minor gravship crash -->
+  <MinorGravshipCrash.letterLabel>逆重飞船坠降</MinorGravshipCrash.letterLabel>
+  <!-- EN: While landing {GRAVSHIP}, {PILOT_nameDef} accidentally disengaged the grav engine too early, causing the gravship to free-fall for several feet. Some buildings on the gravship have sustained light damage from the crash. -->
+  <MinorGravshipCrash.letterText>{PILOT_nameDef}在{GRAVSHIP}降落时过早关闭了逆重引擎，导致舰体自由坠落数英尺。坠降造成舰上部分建筑轻度损伤</MinorGravshipCrash.letterText>
+  
+  <!-- EN: overheated grav engine -->
+  <OverheatedGravEngine.letterLabel>逆重引擎过热</OverheatedGravEngine.letterLabel>
+  <!-- EN: While landing {GRAVSHIP}, {PILOT_nameDef} over-engaged the grav engine, causing it to overheat. The grav engine will take longer than normal to cool down. In the meantime, the gravship can't be launched. -->
+  <OverheatedGravEngine.letterText>{PILOT_nameDef}在{GRAVSHIP}降落时过度充能重力引擎，致其过热。引擎冷却耗时较常规延长，期间舰体暂时无法升空。</OverheatedGravEngine.letterText>
+  
+  <!-- EN: thruster breakdown -->
+  <ThrusterBreakdown.letterLabel>推进器故障</ThrusterBreakdown.letterLabel>
+  <!-- EN: While landing {GRAVSHIP}, {PILOT_nameDef} overheated the ship's thrusters, frying valuable components. The thrusters will need to be repaired before they can be used again. -->
+  <ThrusterBreakdown.letterText>{PILOT_nameDef}在{GRAVSHIP}降落时致舰体推进器过热，烧毁关键组件。需维修后方可重启推进器。</ThrusterBreakdown.letterText>
+  
+</LanguageData>
