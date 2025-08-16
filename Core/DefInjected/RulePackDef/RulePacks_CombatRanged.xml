@@ -113,7 +113,7 @@
     <li>destroyed_suffix->a fine mist</li>
     <li>destroyed_suffix->fragments</li>
     <li>destroyed_suffix(p=0.5)->a holey mess</li>
-    <li>destroyed_suffix(recipient_flesh!=Mechanoid,p=0.2)->ground beef</li>
+    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid,p=0.2)->ground beef</li>
     <li>damaged_past->wounded</li>
     <li>damaged_past->injured</li>
     <li>damaged_past->pierced</li>
@@ -125,8 +125,8 @@
     <li>damaged_present->damaging</li>
     <li>damaged_present->shooting</li>
     <li>damaged_suffix->in an ugly fashion</li>
-    <li>damaged_suffix(recipient_flesh!=Mechanoid)->with visible blood</li>
-    <li>damaged_suffix(recipient_flesh!=Mechanoid)->with the flesh visible</li>
+    <li>damaged_suffix(RECIPIENT_flesh!=Mechanoid)->with visible blood</li>
+    <li>damaged_suffix(RECIPIENT_flesh!=Mechanoid)->with the flesh visible</li>
     <li>to->to</li>
     <li>to->into</li>
     <li>missed->missed</li>
@@ -170,7 +170,7 @@
     <li>destroyed_suffix->一团雾</li>
     <li>destroyed_suffix->碎块</li>
     <li>destroyed_suffix(p=0.5)->马蜂窝</li>
-    <li>destroyed_suffix(recipient_flesh!=Mechanoid,p=0.2)->肉馅</li>
+    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid,p=0.2)->肉馅</li>
     <li>damaged_past->射中</li>
     <li>damaged_past->打中</li>
     <li>damaged_past->射中</li>
@@ -182,8 +182,8 @@
     <li>damaged_present->射伤</li>
     <li>damaged_present->射伤</li>
     <li>damaged_suffix->面目全非</li>
-    <li>damaged_suffix(recipient_flesh!=Mechanoid)->鲜血四溅</li>
-    <li>damaged_suffix(recipient_flesh!=Mechanoid)->满目疮痍</li>
+    <li>damaged_suffix(RECIPIENT_flesh!=Mechanoid)->鲜血四溅</li>
+    <li>damaged_suffix(RECIPIENT_flesh!=Mechanoid)->满目疮痍</li>
     <li>to->伤口</li>
     <li>to->被打中的地方</li>
     <li>missed->没有命中</li>
@@ -298,19 +298,6 @@
     <li>verb_shot->射击</li>
     <li>verb_shot->开火</li>
     <li>verb_shot(p=0.2)->射出</li>
-    <!--
-    <li>adverb_shot->小心地</li>
-    <li>adverb_shot->迅速</li>
-    <li>adverb_shot->准确地</li>
-    <li>adverb_shot->从容地</li>
-    <li>adverb_shot(initiator_flesh!=Mechanoid)->谨慎地</li>
-    <li>adverb_shot->精确地</li>
-    <li>adverb_shot(initiator_flesh!=Mechanoid)->警惕地</li>
-    <li>adjective_shot->谨慎的</li>
-    <li>adjective_shot->迅速的</li>
-    <li>adjective_shot->早有预谋的</li>
-    <li>adjective_shot->精确的</li>
-    <li>adjective_shot(initiator_flesh!=Mechanoid)->机警的</li>-->
   </Combat_RangedFire.rulePack.rulesStrings>
   
   <!-- EN:
@@ -329,14 +316,14 @@
     <li>adverb_threw->quickly</li>
     <li>adverb_threw->precisely</li>
     <li>adverb_threw->deliberately</li>
-    <li>adverb_threw(initiator_flesh!=Mechanoid)->gingerly</li>
+    <li>adverb_threw(INITIATOR_flesh!=Mechanoid)->gingerly</li>
     <li>adverb_threw->precisely</li>
-    <li>adverb_threw(initiator_flesh!=Mechanoid)->warily</li>
+    <li>adverb_threw(INITIATOR_flesh!=Mechanoid)->warily</li>
     <li>adjective_threw->careful</li>
     <li>adjective_threw->quick</li>
     <li>adjective_threw->deliberate</li>
     <li>adjective_threw->precise</li>
-    <li>adjective_threw(initiator_flesh!=Mechanoid)->wary</li>
+    <li>adjective_threw(INITIATOR_flesh!=Mechanoid)->wary</li>
   -->
   <Combat_RangedFire_Thrown.rulePack.rulesStrings>
     <li>r_logentry->[INITIATOR_definite]向[RECIPIENT_definite][threw][INITIATOR_possessive][projectile]。</li>
@@ -354,14 +341,14 @@
     <li>adverb_threw->迅速</li>
     <li>adverb_threw->准确地</li>
     <li>adverb_threw->从容地</li>
-    <li>adverb_threw(initiator_flesh!=Mechanoid)->谨慎地</li>
+    <li>adverb_threw(INITIATOR_flesh!=Mechanoid)->谨慎地</li>
     <li>adverb_threw->精确地</li>
-    <li>adverb_threw(initiator_flesh!=Mechanoid)->警惕地</li>
+    <li>adverb_threw(INITIATOR_flesh!=Mechanoid)->警惕地</li>
     <li>adjective_threw->小心的</li>
     <li>adjective_threw->迅速的</li>
     <li>adjective_threw->从容的</li>
     <li>adjective_threw->精确的</li>
-    <li>adjective_threw(initiator_flesh!=Mechanoid)->机警的</li>
+    <li>adjective_threw(INITIATOR_flesh!=Mechanoid)->机警的</li>
   </Combat_RangedFire_Thrown.rulePack.rulesStrings>
   
   <!-- EN:
@@ -451,12 +438,6 @@
     <li>ducked->蹲到</li>
     <li>ducked->趴到</li>
     <li>ducked->藏在</li>
-    <!--
-    <li>avoidance(ORIGINALTARGET_mobile==True)->千钧一发之际猛地闪开</li>
-    <li>avoidance(ORIGINALTARGET_mobile==True)->毫无征兆地平地摔</li>
-    <li>avoidance(ORIGINALTARGET_mobile==True)->迅速卧倒</li>
-    <li>avoidance(ORIGINALTARGET_mobile==True,p=0.3)->低身躲到[COVER_definite]后</li>
-    <li>avoidance(ORIGINALTARGET_mobile==True,p=0.3)->一跃躲到[COVER_definite]后</li>-->
   </Combat_RangedMiss.rulePack.rulesStrings>
   
 </LanguageData>

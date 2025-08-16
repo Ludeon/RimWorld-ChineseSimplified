@@ -15,10 +15,10 @@
     <li>damaged_present->nipped</li>
     <li>damaged_present->gnawing</li>
     <li>damaged_present(deflected!=True)->tearing</li>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->exposing the flesh underneath</li>
-    <li>flavortext_consequence(recipient_flesh==Mechanoid)->exposing the machinery underneath</li>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->leaving grisly tears in the skin</li>
-    <li>flavortext_consequence(recipient_flesh==Mechanoid)->leaving grisly tears in the metal</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->exposing the flesh underneath</li>
+    <li>flavortext_consequence(RECIPIENT_flesh==Mechanoid)->exposing the machinery underneath</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->leaving grisly tears in the skin</li>
+    <li>flavortext_consequence(RECIPIENT_flesh==Mechanoid)->leaving grisly tears in the metal</li>
     <li>destroyed_past->tore off</li>
     <li>destroyed_past->ripped off</li>
     <li>destroyed_past->bit off</li>
@@ -28,10 +28,10 @@
     <li>destroyed_suffix->[to] pieces</li>
     <li>destroyed_suffix->[to] bits</li>
     <li>destroyed_suffix->[to] chunks</li>
-    <li>destroyed_suffix(recipient_flesh!=Mechanoid)->[to] shreds</li>
-    <li>destroyed_suffix(recipient_flesh!=Mechanoid)->[to] strips</li>
-    <li>destroyed_suffix(recipient_flesh!=Mechanoid)->[to] messy strips</li>
-    <li>destroyed_suffix(recipient_flesh!=Mechanoid)->[to] an unrecognizable mess</li>
+    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->[to] shreds</li>
+    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->[to] strips</li>
+    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->[to] messy strips</li>
+    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->[to] an unrecognizable mess</li>
   -->
   <Maneuver_Bite.rulePack.rulesStrings>
     <li>damaged_inf->撕咬</li>
@@ -47,10 +47,10 @@
     <li>damaged_present->啃破</li>
     <li>damaged_present->咬伤</li>
     <li>damaged_present(deflected!=True)->撕扯</li>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->暴露出下面的肉</li>
-    <li>flavortext_consequence(recipient_flesh==Mechanoid)->暴露出内部的机械线缆</li>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->在皮肤上划出可怕的伤口</li>
-    <li>flavortext_consequence(recipient_flesh==Mechanoid)->在金属外壳上留下可怕的裂口</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->暴露出下面的肉</li>
+    <li>flavortext_consequence(RECIPIENT_flesh==Mechanoid)->暴露出内部的机械线缆</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->在皮肤上划出可怕的伤口</li>
+    <li>flavortext_consequence(RECIPIENT_flesh==Mechanoid)->在金属外壳上留下可怕的裂口</li>
     <li>destroyed_past->咬掉</li>
     <li>destroyed_past->咬下</li>
     <li>destroyed_past->撕下</li>
@@ -60,10 +60,10 @@
     <li>destroyed_suffix->[to]碎条</li>
     <li>destroyed_suffix->[to]碎片</li>
     <li>destroyed_suffix->[to]碎块</li>
-    <li>destroyed_suffix(recipient_flesh!=Mechanoid)->[to]碎片</li>
-    <li>destroyed_suffix(recipient_flesh!=Mechanoid)->[to]凌乱的碎条</li>
-    <li>destroyed_suffix(recipient_flesh!=Mechanoid)->[to]血肉模糊</li>
-    <li>destroyed_suffix(recipient_flesh!=Mechanoid)->[to]一滩烂泥</li>
+    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->[to]碎片</li>
+    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->[to]凌乱的碎条</li>
+    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->[to]血肉模糊</li>
+    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->[to]一滩烂泥</li>
   </Maneuver_Bite.rulePack.rulesStrings>
   
   <!-- EN:
@@ -107,7 +107,7 @@
     <li>damaged_present->prodding</li>
     <li>damaged_present->shoving</li>
     <li>damaged_present->stabbing</li>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->leaving an enormous bruise</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->leaving an enormous bruise</li>
     <li>flavortext_consequence->leaving the area visibly deformed</li>
     <li>flavortext_consequence->knocking [RECIPIENT_objective] off balance</li>
     <li>flavortext_consequence->knocking [RECIPIENT_objective] to the side</li>
@@ -123,7 +123,7 @@
     <li>destroyed_present->breaking</li>
     <li>destroyed_suffix->[to] pieces</li>
     <li>destroyed_suffix->[to] bits</li>
-    <li>destroyed_suffix(recipient_flesh!=Mechanoid)->[to] a fine mist</li>
+    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->[to] a fine mist</li>
     <li>destroyed_suffix->[to] fragments</li>
   -->
   <Maneuver_Poke.rulePack.rulesStrings>
@@ -142,7 +142,7 @@
     <li>damaged_present->杵伤</li>
     <li>damaged_present->打伤</li>
     <li>damaged_present->捅伤</li>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->留下一大片瘀伤</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->留下一大片瘀伤</li>
     <li>flavortext_consequence->被打中的部位明显变形</li>
     <li>flavortext_consequence->冲击力使[RECIPIENT_objective]失去平衡</li>
     <li>flavortext_consequence->[RECIPIENT_objective]被震飞到一边</li>
@@ -158,35 +158,35 @@
     <li>destroyed_present->打碎</li>
     <li>destroyed_suffix->[to]碎片</li>
     <li>destroyed_suffix->[to]碎屑</li>
-    <li>destroyed_suffix(recipient_flesh!=Mechanoid)->[to]尘雾</li>
+    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->[to]尘雾</li>
     <li>destroyed_suffix->[to]废渣</li>
   </Maneuver_Poke.rulePack.rulesStrings>
   
   <!-- EN:
     <li>woundname->wound</li>
     <li>woundname(p=0.3)->opening</li>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->and exposing the flesh underneath</li>
-    <li>flavortext_consequence(recipient_flesh==Mechanoid)->and exposing the machinery underneath</li>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->and leaving a gory [woundname]</li>
-    <li>destroyed_suffix(recipient_flesh!=Mechanoid)->[to] messy strips</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->and exposing the flesh underneath</li>
+    <li>flavortext_consequence(RECIPIENT_flesh==Mechanoid)->and exposing the machinery underneath</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->and leaving a gory [woundname]</li>
+    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->[to] messy strips</li>
     <li>destroyed_suffix->[to] strips</li>
-    <li>destroyed_suffix(recipient_flesh!=Mechanoid)->[to] messy pieces</li>
+    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->[to] messy pieces</li>
     <li>destroyed_suffix->[to] pieces</li>
     <li>destroyed_suffix->[to] fragments</li>
-    <li>destroyed_suffix(recipient_flesh!=Mechanoid)->[to] a pile of gore</li>
+    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->[to] a pile of gore</li>
   -->
   <Maneuver_Scratch.rulePack.rulesStrings>
     <li>woundname->伤口</li>
     <li>woundname(p=0.3)->豁口</li>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->并暴露出下面的肉</li>
-    <li>flavortext_consequence(recipient_flesh==Mechanoid)->并暴露出内部的机械线缆</li>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->并留下鲜血淋漓的[woundname]</li>
-    <li>destroyed_suffix(recipient_flesh!=Mechanoid)->[to]凌乱的碎条</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->并暴露出下面的肉</li>
+    <li>flavortext_consequence(RECIPIENT_flesh==Mechanoid)->并暴露出内部的机械线缆</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->并留下鲜血淋漓的[woundname]</li>
+    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->[to]凌乱的碎条</li>
     <li>destroyed_suffix->[to]碎条</li>
-    <li>destroyed_suffix(recipient_flesh!=Mechanoid)->[to]凌乱的碎块</li>
+    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->[to]凌乱的碎块</li>
     <li>destroyed_suffix->[to]碎块</li>
     <li>destroyed_suffix->[to]碎片</li>
-    <li>destroyed_suffix(recipient_flesh!=Mechanoid)->[to]一堆血块</li>
+    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->[to]一堆血块</li>
   </Maneuver_Scratch.rulePack.rulesStrings>
   
   <!-- EN:
@@ -259,9 +259,9 @@
     <li>damaged_present(deflected!=True)->lacerating</li>
     <li>woundname->wound</li>
     <li>woundname(p=0.3)->opening</li>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->exposing the flesh underneath</li>
-    <li>flavortext_consequence(recipient_flesh==Mechanoid)->exposing the machinery underneath</li>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->leaving a gory [woundname]</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->exposing the flesh underneath</li>
+    <li>flavortext_consequence(RECIPIENT_flesh==Mechanoid)->exposing the machinery underneath</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->leaving a gory [woundname]</li>
     <li>destroyed_past->bisected</li>
     <li>destroyed_past->divided</li>
     <li>destroyed_past->halved</li>
@@ -298,9 +298,9 @@
     <li>damaged_present(deflected!=True)->撕开</li>
     <li>woundname->伤口</li>
     <li>woundname(p=0.3)->豁口</li>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->并暴露出下面的肉</li>
-    <li>flavortext_consequence(recipient_flesh==Mechanoid)->并暴露出内部的机械线缆</li>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->并留下鲜血淋漓的[woundname]</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->并暴露出下面的肉</li>
+    <li>flavortext_consequence(RECIPIENT_flesh==Mechanoid)->并暴露出内部的机械线缆</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->并留下鲜血淋漓的[woundname]</li>
     <li>destroyed_past->斩断</li>
     <li>destroyed_past->割下</li>
     <li>destroyed_past->砍断</li>
@@ -318,23 +318,23 @@
   </Maneuver_Slash.rulePack.rulesStrings>
   
   <!-- EN:
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->leaving an enormous bruise</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->leaving an enormous bruise</li>
     <li>flavortext_consequence->leaving the area visibly deformed</li>
     <li>flavortext_consequence->knocking [RECIPIENT_objective] off balance</li>
     <li>flavortext_consequence->knocking [RECIPIENT_objective] to the side</li>
     <li>destroyed_suffix->[to] pieces</li>
     <li>destroyed_suffix->[to] bits</li>
-    <li>destroyed_suffix(recipient_flesh!=Mechanoid)->[to] a fine mist</li>
+    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->[to] a fine mist</li>
     <li>destroyed_suffix->[to] fragments</li>
   -->
   <Maneuver_Smash.rulePack.rulesStrings>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->留下一大片瘀伤</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->留下一大片瘀伤</li>
     <li>flavortext_consequence->被打中的部位明显变形</li>
     <li>flavortext_consequence->冲击力使[RECIPIENT_objective]失去平衡</li>
     <li>flavortext_consequence->[RECIPIENT_objective]被震飞到一边</li>
     <li>destroyed_suffix->[to]碎片</li>
     <li>destroyed_suffix->[to]碎屑</li>
-    <li>destroyed_suffix(recipient_flesh!=Mechanoid)->[to]尘雾</li>
+    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->[to]尘雾</li>
     <li>destroyed_suffix->[to]碎渣</li>
   </Maneuver_Smash.rulePack.rulesStrings>
   
@@ -407,9 +407,9 @@
     <li>woundname->hole</li>
     <li>woundname->wound</li>
     <li>woundname->crevice</li>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->leaving a bloody [woundname]</li>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->leaving a torn [woundname]</li>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->leaving a bleeding [woundname]</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->leaving a bloody [woundname]</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->leaving a torn [woundname]</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->leaving a bleeding [woundname]</li>
     <li>destroyed_past->impaled</li>
     <li>destroyed_past->perforated</li>
     <li>destroyed_past->skewered</li>
@@ -418,7 +418,7 @@
     <li>destroyed_present->skewering</li>
     <li>destroyed_suffix->straight through</li>
     <li>destroyed_suffix->leaving a clean hole</li>
-    <li>destroyed_suffix(recipient_flesh!=Mechanoid,target_part_destroyed_count==1)->leaving it leaking gory fluids</li>
+    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid,target_part_destroyed_count==1)->leaving it leaking gory fluids</li>
     <li>destroyed_suffix(target_part_destroyed_count==1)->leaving it leaking unrecognizable fluids</li>
   -->
   <Maneuver_Stab.rulePack.rulesStrings>
@@ -439,9 +439,9 @@
     <li>woundname->洞</li>
     <li>woundname->伤口</li>
     <li>woundname->裂口</li>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->留下一个血淋淋的[woundname]</li>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->留下一个撕开的[woundname]</li>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->留下一个滋血的[woundname]</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->留下一个血淋淋的[woundname]</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->留下一个撕开的[woundname]</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->留下一个滋血的[woundname]</li>
     <li>destroyed_past->刺穿</li>
     <li>destroyed_past->贯穿</li>
     <li>destroyed_past->插入</li>
@@ -450,7 +450,7 @@
     <li>destroyed_present->插坏了</li>
     <li>destroyed_suffix->直穿过去</li>
     <li>destroyed_suffix->留下一个清晰的洞</li>
-    <li>destroyed_suffix(recipient_flesh!=Mechanoid,target_part_destroyed_count==1)->鲜血淋漓</li>
+    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid,target_part_destroyed_count==1)->鲜血淋漓</li>
     <li>destroyed_suffix(target_part_destroyed_count==1)->使它流出不明液体</li>
   </Maneuver_Stab.rulePack.rulesStrings>
   

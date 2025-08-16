@@ -71,9 +71,9 @@
     <li>strikeAdv->horribly</li>
     <li>strikeAdv->savagely</li>
     <li>strikeAdv->viciously</li>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->leaving a disgusting wound</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->leaving a disgusting wound</li>
     <li>flavortext_consequence->leaving a horrific wound</li>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->making [RECIPIENT_objective] [wince] [painevent]</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->making [RECIPIENT_objective] [wince] [painevent]</li>
     <li>flavortext_consequence(p=0.2)->throwing [RECIPIENT_objective] off balance</li>
   -->
   <Combat_MeleeDamageIncludes.rulePack.rulesStrings>
@@ -84,9 +84,9 @@
     <li>strikeAdv->可怖地</li>
     <li>strikeAdv->野蛮地</li>
     <li>strikeAdv->无情地</li>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->留下一个令人作呕的伤口</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->留下一个令人作呕的伤口</li>
     <li>flavortext_consequence->留下一个可怖的伤口</li>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->[painevent]使[RECIPIENT_objective][wince]</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->[painevent]使[RECIPIENT_objective][wince]</li>
     <li>flavortext_consequence(p=0.2)->使[RECIPIENT_objective]失去平衡</li>
     <!--
     <li>adverb_flavortext->疯狂地</li>
@@ -122,20 +122,20 @@
     <li>destroyed(p=0.5)->demolished</li>
     <li>destroyed(p=0.5)->ruined</li>
     <li>destroyed(p=0.5)->wrecked</li>
-    <li>wince(recipient_flesh==Normal)->wince</li>
-    <li>wince(recipient_flesh==Normal)->grimace</li>
-    <li>wince(recipient_flesh==Normal)->cringe</li>
-    <li>wince(recipient_flesh==Normal)->groan</li>
-    <li>wince(recipient_flesh!=Mechanoid)->scream</li>
-    <li>wince(recipient_flesh!=Mechanoid)->shout</li>
+    <li>wince(RECIPIENT_flesh==Normal)->wince</li>
+    <li>wince(RECIPIENT_flesh==Normal)->grimace</li>
+    <li>wince(RECIPIENT_flesh==Normal)->cringe</li>
+    <li>wince(RECIPIENT_flesh==Normal)->groan</li>
+    <li>wince(RECIPIENT_flesh!=Mechanoid)->scream</li>
+    <li>wince(RECIPIENT_flesh!=Mechanoid)->shout</li>
     <li>wince->recoil</li>
     <li>wince->stumble</li>
     <li>painstate->in</li>
     <li>painstate->with</li>
     <li>painstate->from the</li>
-    <li>painevent(recipient_flesh!=Mechanoid)->[painstate] pain</li>
-    <li>painevent(recipient_flesh!=Mechanoid)->[painstate] agony</li>
-    <li>painevent(recipient_flesh==Normal)->with misery</li>
+    <li>painevent(RECIPIENT_flesh!=Mechanoid)->[painstate] pain</li>
+    <li>painevent(RECIPIENT_flesh!=Mechanoid)->[painstate] agony</li>
+    <li>painevent(RECIPIENT_flesh==Normal)->with misery</li>
     <li>painevent->from the injury</li>
     <li>painevent->from the wound</li>
     <li>to->to</li>
@@ -180,20 +180,20 @@
     <li>destroyed(p=0.5)->摧毁了</li>
     <li>destroyed(p=0.5)->毁坏了</li>
     <li>destroyed(p=0.5)->打烂了</li>
-    <li>wince(recipient_flesh==Normal)->龇牙咧嘴</li>
-    <li>wince(recipient_flesh==Normal)->脸部变得扭曲</li>
-    <li>wince(recipient_flesh==Normal)->退缩</li>
-    <li>wince(recipient_flesh==Normal)->不断呻吟</li>
-    <li>wince(recipient_flesh!=Mechanoid)->发出尖啸</li>
-    <li>wince(recipient_flesh!=Mechanoid)->发出噪音</li>
+    <li>wince(RECIPIENT_flesh==Normal)->龇牙咧嘴</li>
+    <li>wince(RECIPIENT_flesh==Normal)->脸部变得扭曲</li>
+    <li>wince(RECIPIENT_flesh==Normal)->退缩</li>
+    <li>wince(RECIPIENT_flesh==Normal)->不断呻吟</li>
+    <li>wince(RECIPIENT_flesh!=Mechanoid)->发出尖啸</li>
+    <li>wince(RECIPIENT_flesh!=Mechanoid)->发出噪音</li>
     <li>wince->退缩</li>
     <li>wince->跌倒</li>
     <li>painstate->感到</li>
     <li>painstate->觉得</li>
     <li>painstate-></li>
-    <li>painevent(recipient_flesh!=Mechanoid)->[painstate]痛苦</li>
-    <li>painevent(recipient_flesh!=Mechanoid)->[painstate]痛不欲生</li>
-    <li>painevent(recipient_flesh==Normal)->痛苦</li>
+    <li>painevent(RECIPIENT_flesh!=Mechanoid)->[painstate]痛苦</li>
+    <li>painevent(RECIPIENT_flesh!=Mechanoid)->[painstate]痛不欲生</li>
+    <li>painevent(RECIPIENT_flesh==Normal)->痛苦</li>
     <li>painevent->受伤部位</li>
     <li>painevent->伤口</li>
     <li>to->到</li>
@@ -246,9 +246,9 @@
     <li>skillAdv(INITIATOR_skill>=14)->masterfully</li>
     <li>skillAdv(INITIATOR_skill>=16)->artistically</li>
     <li>skillAdv(INITIATOR_skill>=16)->gracefully</li>
-    <li>skillAdv(initiator_flesh==Mechanoid)->mechanically</li>
-    <li>skillAdv(initiator_flesh==Mechanoid)->robotically</li>
-    <li>skillAdv(initiator_flesh==Mechanoid)->directly</li>
+    <li>skillAdv(INITIATOR_flesh==Mechanoid)->mechanically</li>
+    <li>skillAdv(INITIATOR_flesh==Mechanoid)->robotically</li>
+    <li>skillAdv(INITIATOR_flesh==Mechanoid)->directly</li>
   -->
   <Combat_SkillIncludes.rulePack.rulesStrings>
     <li>skillDescMelee->[wielding] [INITIATOR_possessive] [WEAPON_label] [skillAdv]</li>
@@ -296,9 +296,9 @@
     <li>skillAdv(INITIATOR_skill>=14)->不费吹灰之力地</li>
     <li>skillAdv(INITIATOR_skill>=16)->如舞一般地</li>
     <li>skillAdv(INITIATOR_skill>=16)->优雅地</li>
-    <li>skillAdv(initiator_flesh==Mechanoid)->机械地</li>
-    <li>skillAdv(initiator_flesh==Mechanoid)->机械地</li>
-    <li>skillAdv(initiator_flesh==Mechanoid)->直接地</li>
+    <li>skillAdv(INITIATOR_flesh==Mechanoid)->机械地</li>
+    <li>skillAdv(INITIATOR_flesh==Mechanoid)->机械地</li>
+    <li>skillAdv(INITIATOR_flesh==Mechanoid)->直接地</li>
   </Combat_SkillIncludes.rulePack.rulesStrings>
   
   <!-- EN:
@@ -320,46 +320,6 @@
     <li>damaged_targets(recipient_part_damaged_count==2)->[recipient_part_damaged0_label]和[recipient_part_damaged1_label]</li>
     <li>damaged_targets(recipient_part_damaged_count==3)->[recipient_part_damaged0_label]，[recipient_part_damaged1_label]，以及[recipient_part_damaged2_label]</li>
     <li>damaged_targets->[recipient_part_damaged0_label]，[recipient_part_damaged1_label]，[recipient_part_damaged2_label]，以及[recipient_part_damaged3_label]</li>
-    <!--<li>expertly->干练地</li>
-    <li>expertly->熟练地</li>
-    <li>expertly->娴熟地</li>
-    <li>expertly->轻巧地</li>
-    <li>expertly->巧妙地</li>
-    <li>expertly->灵巧地</li>
-    <li>expertly->内行地</li>
-    <li>expertly->恰当地</li>
-    <li>expertly->敏捷地</li>
-    <li>expertly->机智地</li>
-    <li>expertly->专横地</li>
-    <li>expertly->优雅地</li>
-    <li>expertly->以娴熟的技术</li>
-    <li>expertly->令人印象深刻地</li>
-    <li>expertly->以惊人的天赋</li>
-    <li>expertly->谨慎地</li>
-    <li>expertly->准确地</li>
-    <li>expertly->熟练地</li>
-    <li>expertly->强有力地</li>
-    <li>expertly->以灵活的身手</li>
-    <li>expertly->以大师般的技法</li>
-    <li>expertly->华丽而潇洒地</li>
-    <li>expertly->以专业技法</li>
-    <li>expertly->以精湛的技艺</li>
-    <li>expertly->像专家一样</li>
-    <li>expertly->像大师一样</li>
-    <li>expertly->像艺术大师一样</li>
-    <li>expertly->专家般地</li>
-    <li>expert->干练的</li>
-    <li>expert->熟练的</li>
-    <li>expert->娴熟的</li>
-    <li>expert->轻巧的</li>
-    <li>expert->巧妙的</li>
-    <li>expert->灵巧的</li>
-    <li>expert->专业的</li>
-    <li>expert->恰当的</li>
-    <li>expert->迅速的</li>
-    <li>expert->机智的</li>
-    <li>expert->高超的</li>
-    <li>expert->优雅的</li>-->
   </Combat_WoundIncludes.rulePack.rulesStrings>
   
 </LanguageData>

@@ -182,7 +182,7 @@
     <li>result->but hit only air</li>
     <li>result->but the swing went wide</li>
     <li>result->but stumbled at the last second</li>
-    <li>result(initiator_flesh!=Mechanoid)->but hesitated at the last second</li>
+    <li>result(INITIATOR_flesh!=Mechanoid)->but hesitated at the last second</li>
   -->
   <Combat_Miss.rulePack.rulesStrings>
     <li>r_logentry(p=0.3)->[RECIPIENT_definite]闪开了[INITIATOR_definite]用[WEAPON_label]的[damaged_inf]。</li>
@@ -201,7 +201,7 @@
     <li>result->但只击中了空气</li>
     <li>result->但挥动的幅度太大</li>
     <li>result->但在最后失去了重心</li>
-    <li>result(initiator_flesh!=Mechanoid)->但在最后犹豫不决</li>
+    <li>result(INITIATOR_flesh!=Mechanoid)->但在最后犹豫不决</li>
     <!--
     <li>r_logentry(p=0.3)->[RECIPIENT_definite]躲闪了[INITIATOR_definite]用[WEAPON_label]使出的[damaged_inf]。</li>
     <li>r_logentry(p=0.3)->[INITIATOR_definite]用[implement]使出的[damaged_inf]没有命中[RECIPIENT_definite]。</li>

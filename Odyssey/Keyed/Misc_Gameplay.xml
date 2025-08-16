@@ -108,6 +108,14 @@
   <MustBeOutside>必须在室外</MustBeOutside>
   <!-- EN: blocked by substructure -->
   <BlockedBySubstructure>被基架阻挡</BlockedBySubstructure>
+  <!-- EN: {PAWN_nameDef} cannot board {1} -->
+  <FailedToBoardGravship>{PAWN_nameDef}不能登上{1}</FailedToBoardGravship>
+  <!-- EN: {PAWN_nameDef} cannot exit {1} -->
+  <FailedToLeaveGravship>{PAWN_nameDef}不能离开{1}</FailedToLeaveGravship>
+  <!-- EN: View range -->
+  <ViewRange>查看范围</ViewRange>
+  <!-- EN: View the gravship’s current range on the world map. -->
+  <ViewRangeDesc>查看当前逆重飞船在世界地图上的范围。</ViewRangeDesc>
 
   <!-- Map generation -->
   <!-- EN: Landmark -->
@@ -303,8 +311,8 @@
   <!-- Special Trainables -->
   <!-- EN: Attack -->
   <AnimalAttackTarget>攻击</AnimalAttackTarget>
-  <!-- EN: Command this animal to attack a specific target that its master can see. -->
-  <AnimalAttackTargetDesc>命令该动物攻击主人可见的目标。</AnimalAttackTargetDesc>
+  <!-- EN: Command this animal to attack a specific target. -->
+  <AnimalAttackTargetDesc>命令该动物攻击目标。</AnimalAttackTargetDesc>
   <!-- EN: Animals attack target -->
   <AnimalsAttackTarget>动物集体攻击目标</AnimalsAttackTarget>
   <!-- EN: Direct all mastered animals to attack a specific target. -->
@@ -328,14 +336,6 @@
   <!-- EN: Allow digging -->
   <DigEnabled>允许挖掘</DigEnabled>
 
-  <!-- EN: Sealing the ancient stockpile entrance is permanent. Anything or anyone left below will be lost forever.{0}\n\nAre you sure you want to continue? -->
-  <ConfirmSealHatch>封闭远古仓库入口将是永久性的。任何遗留其下的物品或人员都将永远丢失。{0}\n\n你确定要继续吗？</ConfirmSealHatch>
-  <!-- EN: Cannot seal -->
-  <CannotChooseSealer>无法封闭</CannotChooseSealer>
-  <!-- EN: Sealed -->
-  <Sealed>已封闭</Sealed>
-  <!-- EN: Permanently sealed. -->
-  <HatchSealed>已永久封闭。</HatchSealed>
   <!-- EN: Unlocked. -->
   <HatchUnlocked>已解锁。</HatchUnlocked>
 

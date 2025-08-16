@@ -2,8 +2,8 @@
 <LanguageData>
 
   <!-- Grav engine/substructrues -->
-  <!-- EN: Are you sure you want to launch?\n\nYour current map, as well as anything not on gravship substructure, will be permanently lost. The launch process is destructive, meaning you won't be able to return. -->
-  <ConfirmGravEngineLaunch>你确定要发射吗？\n\n你当前的地图，以及所有未在逆重飞船基架上的物体，将会被永久丢弃。发射过程是不可逆的，这意味着你将无法返回。</ConfirmGravEngineLaunch>
+  <!-- EN: Are you sure you want to launch?\n\nYour current map, as well as anything not on gravship substructure, will be permanently lost. The launch process is destructive, meaning you won't be able to return. Build a grav anchor to prevent this map from being destroyed. -->
+  <ConfirmGravEngineLaunch>你确定要发射吗？\n\n你当前的地图，以及所有未在逆重飞船基架上的物体，将会被永久丢弃。发射过程是不可逆的，这意味着你将无法返回。建造一个逆重锚能保护该地图不受摧毁。</ConfirmGravEngineLaunch>
   <!-- EN: Warning -->
   <GravEngineWarning>警告</GravEngineWarning>
   <!-- EN: The following people will be left behind -->
@@ -29,6 +29,19 @@
   <PlayerGravshipGainsName>这艘逆重飞船现在被命名为：{0}。</PlayerGravshipGainsName>
   <!-- EN: That name isn't valid. -->
   <PlayerGravshipNameIsInvalid>无效名称。</PlayerGravshipNameIsInvalid>
+
+  <!-- EN: Force visitors to leave -->
+  <GravshipForceVisitorsToLeaveLabel>强制访客离开</GravshipForceVisitorsToLeaveLabel>
+  <!-- EN: Wait for all visitors to leave the gravship before launching. This won’t affect enemies, prisoners, or downed visitors. -->
+  <GravshipForceVisitorsToLeaveTooltip>等待所有访客在发射前离开逆重飞船。这不会影响敌人、囚犯或倒地的访客。</GravshipForceVisitorsToLeaveTooltip>
+  <!-- EN: Board colony animals -->
+  <GravshipBoardColonyAnimalsLabel>让殖民地动物登船</GravshipBoardColonyAnimalsLabel>
+  <!-- EN: Order all colony animals to board the gravship. The gravship won’t launch until they are aboard. -->
+  <GravshipBoardColonyAnimalsTooltip>命令所有殖民地里的动物登船。逆重飞船在它们到齐前不会发射。</GravshipBoardColonyAnimalsTooltip>
+  <!-- EN: Board colony mechanoids -->
+  <GravshipBoardColonyMechsLabel>让殖民地机械族登船</GravshipBoardColonyMechsLabel>
+  <!-- EN: Order all colony mechanoids to board the gravship. The gravship won’t launch until they are aboard. -->
+  <GravshipBoardColonyMechsTooltip>命令所有殖民地里的机械族登船。逆重飞船在它们到齐前不会发射。</GravshipBoardColonyMechsTooltip>
 
   <!-- EN: {0} are hostile. If you land here they will attack you. -->
   <ConfirmLandOnHostileFactionBase>{0}与你是敌对状态。如果你在这里着陆，他们就会攻击你。</ConfirmLandOnHostileFactionBase>

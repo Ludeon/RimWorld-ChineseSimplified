@@ -45,6 +45,14 @@
   <InsectLairEntrance.label>洞穴入口</InsectLairEntrance.label>
   <!-- EN: The entrance to a cave network. It is possible to climb down into the caves below. -->
   <InsectLairEntrance.description>通往地下洞穴网络的入口。可供下行探入地下洞穴中。</InsectLairEntrance.description>
+  <!-- EN: Cannot collapse -->
+  <InsectLairEntrance.comps.CompSealable.cannotSealLabel>无法使洞穴坍塌</InsectLairEntrance.comps.CompSealable.cannotSealLabel>
+  <!-- EN: Collapsing the cave entrance is permanent. Anything or anyone left below will be lost forever.{0}\n\nAre you sure you want to continue? -->
+  <InsectLairEntrance.comps.CompSealable.confirmSealText>让洞穴入口坍塌的操作是不可逆的。任何留在下面的人或物都将永久丢失。{0}\n\n你确定要继续吗？</InsectLairEntrance.comps.CompSealable.confirmSealText>
+  <!-- EN: Choose a colonist to permanently collapse the entrance. Anything or anyone left below will be lost forever. -->
+  <InsectLairEntrance.comps.CompSealable.sealCommandDesc>选择一名殖民者来使洞穴入口坍塌，任何留在下面的人或物都将永久丢失</InsectLairEntrance.comps.CompSealable.sealCommandDesc>
+  <!-- EN: Collapse cave entrance -->
+  <InsectLairEntrance.comps.CompSealable.sealCommandLabel>已坍塌洞穴入口。</InsectLairEntrance.comps.CompSealable.sealCommandLabel>
   
   <!-- EN: life support unit -->
   <LifeSupportUnit.label>生命维持单元</LifeSupportUnit.label>
