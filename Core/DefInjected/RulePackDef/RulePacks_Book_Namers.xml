@@ -787,8 +787,8 @@
     <li>title(length_subject_primary[less_than]20,p=4)->[titleAuthoredOneSubject]</li>
     <li>title(length_subject_primary[less_than]20,has_subject_secondary==true,length_subject_secondary[less_than]20,p=4)->[titleBasicTwoSubjects]</li>
     <li>title(length_subject_primary[less_than]20,has_subject_secondary==true,length_subject_secondary[less_than]20,p=4)->[titleAuthoredTwoSubjects]</li>
-    <li>titleBasic(p=6)->[randAdjective] [subject_primary]</li>
-    <li>titleBasic(p=6)->[randNoun] and [subject_primary]</li>
+    <li>titleBasic(p=6)->[randAdjective][subject_primary]</li>
+    <li>titleBasic(p=6)->[randNoun]与[subject_primary]</li>
     <li>titleBasic->[subject_primary]的课案</li>
     <li>titleBasic->关于[subject_primary]的思索</li>
     <li>titleBasic->通向[subject_primary]的指南</li>
