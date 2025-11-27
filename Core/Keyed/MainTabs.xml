@@ -307,25 +307,25 @@
   <!-- EN: Challenge rating. This is a general rating for how difficult the quest will be relative to your current strength. More challenging quests give greater rewards.\n\n1: Normal\n2: Hard\n3: Extreme\n4: Ultimate -->
   <QuestChallengeRatingTip>挑战等级。这是一个综合的难易度评级，显示该任务相对于你当前的实力有多少差距。更具挑战性的任务会带来更大的奖励。\n\n1: 普通\n2: 困难\n3: 极难\n4: 终极</QuestChallengeRatingTip>
   <!-- EN: To accept this quest, you need -->
-  <QuestAcceptanceRequirementsDescription>要接受此任务，你需要</QuestAcceptanceRequirementsDescription>
+  <QuestAcceptanceRequirementsDescription>要接受此任务，你需要满足：</QuestAcceptanceRequirementsDescription>
   <!-- EN: free bedrooms that satisfy the title requirements of -->
-  <QuestBedroomRequirementsUnsatisfied>空置卧室以满足以下人员的头衔要求：</QuestBedroomRequirementsUnsatisfied>
+  <QuestBedroomRequirementsUnsatisfied>提供可满足以下人员的头衔要求的空置卧室</QuestBedroomRequirementsUnsatisfied>
   <!-- EN: a free bedroom that satisfies the title requirements of -->
-  <QuestBedroomRequirementsUnsatisfiedSingle>一间空置卧室以满足以下人员的头衔要求：</QuestBedroomRequirementsUnsatisfiedSingle>
+  <QuestBedroomRequirementsUnsatisfiedSingle>提供可满足以下人员的头衔要求的空置卧室</QuestBedroomRequirementsUnsatisfiedSingle>
   <!-- EN: a throneroom that satisfies the requirements of {PAWN_definite}'s {TITLE} title -->
-  <QuestThroneRoomRequirementsUnsatisfied>满足{PAWN_definite}的{TITLE}头衔要求的谒见厅。</QuestThroneRoomRequirementsUnsatisfied>
+  <QuestThroneRoomRequirementsUnsatisfied>提供可满足{PAWN_definite}的{TITLE}头衔要求的谒见厅</QuestThroneRoomRequirementsUnsatisfied>
   <!-- EN: assign a throne for {PAWN_definite} -->
   <QuestNoThroneRoom>为{PAWN_definite}指定一个宝座</QuestNoThroneRoom>
   <!-- EN: a colonist with the title of {0} -->
-  <QuestNoColonistWithTitle>一名拥有{0}头衔的殖民者</QuestNoColonistWithTitle>
+  <QuestNoColonistWithTitle>拥有一名{0}头衔的殖民者</QuestNoColonistWithTitle>
   <!-- EN: {PAWN_definite} to be in your home colony -->
-  <QuestPawnNotOnColonyMap>{PAWN_definite}在主殖民地</QuestPawnNotOnColonyMap>
+  <QuestPawnNotOnColonyMap>{PAWN_definite}位处于主殖民地</QuestPawnNotOnColonyMap>
   <!-- EN: the map clear of enemies of the bestower's faction -->
   <QuestRequiresNoDangerOnMap>地图上没有布施者所属派系的敌人</QuestRequiresNoDangerOnMap>
   <!-- EN: that {PROJECT_label} has been researched. -->
-  <QuestRequiresResearch>该{PROJECT_label}已被研究。</QuestRequiresResearch>
+  <QuestRequiresResearch>{PROJECT_label}项目已被研究。</QuestRequiresResearch>
   <!-- EN: to finish the ongoing bestowing ceremony quest -->
-  <QuestCanNotStartUntilBestowingCeremonyFinished>完成进行中的授勋仪式</QuestCanNotStartUntilBestowingCeremonyFinished>
+  <QuestCanNotStartUntilBestowingCeremonyFinished>等待进行中的授勋仪式完成</QuestCanNotStartUntilBestowingCeremonyFinished>
   <!-- EN: Reward preferences -->
   <ChooseRewards>奖励偏好</ChooseRewards>
   <!-- EN: Tell other factions what kinds of rewards you want in future quests. This doesn't affect quests that were already offered. -->
@@ -386,4 +386,5 @@
   <!-- EN: Recreation gain multiplier -->
   <BookJoyFactor>娱乐增益乘数</BookJoyFactor>
   
+
 </LanguageData>
