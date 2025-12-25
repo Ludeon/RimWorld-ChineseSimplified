@@ -134,7 +134,7 @@
   -->
   <Combat_RangedDamage.rulePack.rulesStrings>
     <li>r_logentry->[INITIATOR_definite]的[projectile][destroyed_past][RECIPIENT_definite]的[destroyed_targets]。</li>
-    <li>r_logentry->[INITIATOR_definite]的[projectile][destroyed_past][RECIPIENT_definite]的[destroyed_targets][to][destroyed_suffix]。</li>
+    <li>r_logentry->[INITIATOR_definite]的[projectile][destroyed_past][RECIPIENT_definite]的[destroyed_targets]，[to][destroyed_suffix]。</li>
     <li>r_logentry(p=2)->[INITIATOR_definite]的[projectile][missed][ORIGINALTARGET_definite]并[destroyed_past][RECIPIENT_definite]的[destroyed_targets]。</li>
     <li>r_logentry(p=2)->[INITIATOR_definite]的[projectile][missed][ORIGINALTARGET_definite]，同时[destroyed_present][RECIPIENT_definite]的[destroyed_targets]。</li>
     <li>r_logentry->[RECIPIENT_definite]的[destroyed_targets]被[INITIATOR_definite]的[projectile][destroyed_past]。</li>
@@ -184,8 +184,8 @@
     <li>damaged_suffix->面目全非</li>
     <li>damaged_suffix(RECIPIENT_flesh!=Mechanoid)->鲜血四溅</li>
     <li>damaged_suffix(RECIPIENT_flesh!=Mechanoid)->满目疮痍</li>
-    <li>to->伤口</li>
-    <li>to->被打中的地方</li>
+    <li>to->伤口成了</li>
+    <li>to->被打中的地方成了</li>
     <li>missed->没有命中</li>
     <li>missed->没有击中</li>
   </Combat_RangedDamage.rulePack.rulesStrings>
