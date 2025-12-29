@@ -39,7 +39,7 @@
     <li>goodwillNegativelyAffected->Your goodwill with 每个未能返回的[pawnLabel]都会使[asker_faction_name]对你的好感下降。</li>
     <li>commanderLandingDesc->希望 [asker_possessive]穿梭机迫降在[map_definite]的指挥官[asker_nameDef]</li>
     <li>raidArrivedLetterLabel->袭击：[enemyFaction_name]</li>
-    <li>raidArrivedLetterText->[enemyFaction_name]的[enemyFaction_pawnsPlural]已经来到[map_definite]。他们将会攻击[asker_faction_pawnsPlural]。\n\n保护[asker_faction_pawnsPlural]直到他们的援军抵达[rescueShuttleAfterRaidDelay_duration]。</li>
+    <li>raidArrivedLetterText->[enemyFaction_name]的[enemyFaction_pawnsPlural]已经来到[map_definite]。他们将会攻击[asker_faction_pawnsPlural]。\n\n保护[asker_faction_pawnsPlural]直到他们的援军于[rescueShuttleAfterRaidDelay_duration]后抵达。</li>
     <li>rescueShuttleArrivedLetterLabel->救援飞船抵达</li>
     <li>rescueShuttleArrivedLetterText->前来救援[pawnLabelSingleOrPlural]的救援飞船已经抵达。确保在[leaveDelay_duration]使这些人登上飞船：\n\n[civilians]</li>
     <li>questCompletedSuccessLetterLabel->任务完成：[resolvedQuestName]</li>
