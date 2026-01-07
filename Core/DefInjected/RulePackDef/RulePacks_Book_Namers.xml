@@ -515,18 +515,18 @@
     <li>title->[subject_primary]的基础</li>
     <li>title->[subject_primary]: 第[volNumeral]部分</li>
     <li>title->[subject_primary]：第[volNumeral]册</li>
-    <li>title->[randAdjective]的[subject_primary]</li>
-    <li>title->[randAdjective]的[subject_primary]：第[volNumeral]册</li>
+    <li>title->[randAdjective][subject_primary]</li>
+    <li>title->[randAdjective][subject_primary]：第[volNumeral]册</li>
     <li>title->[maybe_authored_title]</li>
     <li>title(has_subject_secondary==true)->在[subject_secondary]领域中[studiesStart][subject_primary]</li>
     <li>title->[studiesStart][subject_primary]：在[lifeEvent]之后</li>
     <li>title->[studiesStart][subject_primary]: 趣闻</li>
-    <li>title->[studiesStart][subject_primary]:一件[anomAdj][discussionNoun]</li>
+    <li>title->[studiesStart][subject_primary]:一次[anomAdj][discussionNoun]</li>
     <li>title->[anomAdj][subject_primary][referenceType]</li>
     <li>title->[anomAdj]关于[referenceType][subject_primary]: 第[volNumeral]册</li>
     <li>title->[studiesStart][anomAdj][subject_primary]：第[volNumeral]册</li>
     <li>title->[anomAdj]关于[referenceType][studiesStart][subject_primary]</li>
-    <li>title->[lifeEvent][discussionNoun]和[subject_primary]</li>
+    <li>title->关于[lifeEvent]的[discussionNoun]和[subject_primary]</li>
     <li>title->一本[bookCompound][referenceType]</li>
     <li>studiesStart->开始学习</li>
     <li>studiesStart->基础</li>
@@ -537,8 +537,8 @@
     <li>studiesStart->生存手册</li>
     <li>studiesStart->突破</li>
     <li>studiesStart->应用</li>
-    <li>studiesStart->塑造未来：</li>
-    <li>studiesStart->文档：</li>
+    <li>studiesStart->塑造未来</li>
+    <li>studiesStart->文档之</li>
     <li>referenceType->百科全书</li>
     <li>referenceType->词典</li>
     <li>referenceType->年鉴</li>
@@ -565,7 +565,7 @@
     <li>lifeEvent->被克隆</li>
     <li>lifeEvent->受挫</li>
     <li>lifeEvent->与家庭分隔</li>
-    <li>lifeEvent->降落后</li>
+    <li>lifeEvent->降落</li>
     <li>lifeEvent->革命</li>
     <li>lifeEvent->被超凡科技调用</li>
     <li>lifeEvent->霍拉克斯</li>
@@ -576,7 +576,7 @@
     <li>lifeEvent->起义</li>
     <li>lifeEvent->成为嵌合体</li>
     <li>lifeEvent->白日梦</li>
-    <li>lifeEvent->ripperfall</li>
+    <li>lifeEvent->撕裂者倒下</li>
     <li>lifeEvent->脑叶切断术</li>
     <li>lifeEvent->超凡粒子侵染</li>
     <li>volNumeral->1</li>
@@ -614,7 +614,7 @@
     <li>randAdjective->极暗的</li>
     <li>randAdjective->地底世界的</li>
     <li>randAdjective->原始的</li>
-    <li>randAdjective->生存指南</li>
+    <li>randAdjective->幸存的</li>
     <li>randAdjective->阴暗的</li>
     <li>randAdjective->忧郁的</li>
     <li>randAdjective->阴魂不散的</li>
@@ -622,7 +622,7 @@
     <li>randAdjective->受诅咒的</li>
     <li>randTheme->工程研究</li>
     <li>randTheme->民俗</li>
-    <li>randTheme->科幻的</li>
+    <li>randTheme->科幻</li>
     <li>randTheme->生存技巧</li>
     <li>randTheme->边缘世界</li>
     <li>randTheme->自噬</li>
@@ -816,7 +816,7 @@
     <li>titleBasic->掌握[subject_primary]</li>
     <li>titleBasic->深入学习[subject_primary]</li>
     <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef]的学习</li>
-    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef]的[randAdjective]研究成果</li>
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef][randAdjective]研究成果</li>
     <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef]的日记</li>
     <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef]的编年史</li>
     <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef]的备忘录</li>
@@ -918,8 +918,8 @@
     <li>randAdjective->深思的</li>
     <li>randAdjective->惊人的</li>
     <li>randAdjective->马虎的</li>
-    <li>randAdjective->坏</li>
-    <li>randAdjective->好</li>
+    <li>randAdjective->坏的</li>
+    <li>randAdjective->好的</li>
     <li>randAdjective->闪耀世界的</li>
     <li>randAdjective->田园的</li>
     <li>randAdjective->中世纪的</li>

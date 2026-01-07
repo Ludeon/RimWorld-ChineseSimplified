@@ -79,7 +79,7 @@
   <Combat_MeleeDamageIncludes.rulePack.rulesStrings>
     <li>result(p=0.5)->[damaged_present][RECIPIENT_possessive][targetlist]</li>
     <li>result(p=0.2)->[damaged_present][RECIPIENT_possessive][targetlist]，同时[flavortext_consequence]</li>
-    <li>result(p=0.1)->[damaged_present] [RECIPIENT_possessive] [targetlist] [strikeAdv]</li>
+    <li>result(p=0.1)->[strikeAdv][damaged_present][RECIPIENT_possessive][targetlist] </li>
     <li>strikeAdv->残忍地</li>
     <li>strikeAdv->可怖地</li>
     <li>strikeAdv->野蛮地</li>
@@ -251,8 +251,8 @@
     <li>skillAdv(INITIATOR_flesh==Mechanoid)->directly</li>
   -->
   <Combat_SkillIncludes.rulePack.rulesStrings>
-    <li>skillDescMelee->[wielding] [INITIATOR_possessive] [WEAPON_label] [skillAdv]</li>
-    <li>skillDescMelee->[using] [implement] [skillAdv]</li>
+    <li>skillDescMelee->[wielding][INITIATOR_possessive][WEAPON_label][skillAdv]</li>
+    <li>skillDescMelee->[using][implement][skillAdv]</li>
     <li>wielding(p=4)->拿着</li>
     <li>wielding(p=3)->用着</li>
     <li>wielding(p=2)->握着</li>
