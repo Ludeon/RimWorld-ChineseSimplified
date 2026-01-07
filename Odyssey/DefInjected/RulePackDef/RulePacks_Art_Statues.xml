@@ -167,11 +167,11 @@
     <li>prop->human heart</li>
   -->
   <ArtDescription_Statue.rulePack.rulesStrings>
-    <li>r_statue_description->这座雕像[statueDepicts][SUBJECT_nameFull][statueSubjectDesc]。[statueFaceDesc][style_group_statue]</li>
-    <li>r_statue_description->一座[statueAdj]雕像，描绘了[SUBJECT_nameFull][statueSubjectDesc]。[statueFaceDesc][style_group_statue]</li>
-    <li>r_statue_description->一座[carvedAdverb][carvedVerb]而成的[SUBJECT_nameFull]雕像。它[statueDepicts][SUBJECT_indefinite][statueSubjectDesc]。[statueFaceDesc][style_group_statue]</li>
-    <li>r_statue_description->一座展现[SUBJECT_nameFull][statueSubjectDesc]的雕像。[statueFaceDesc][style_group_statue]</li>
-    <li>r_statue_description->一座[statueAdj][SUBJECT_nameFull]雕像。[statueFaceDesc][style_group_statue]</li>
+    <li>r_statue_description->这座雕像[statueDepicts] [SUBJECT_nameFull] [statueSubjectDesc]。[statueFaceDesc][style_group_statue]</li>
+    <li>r_statue_description->一座[statueAdj]的雕像，描绘了 [SUBJECT_nameFull] [statueSubjectDesc]。[statueFaceDesc][style_group_statue]</li>
+    <li>r_statue_description->一座[carvedAdverb][carvedVerb]而成的 [SUBJECT_nameFull] 雕像。它[statueDepicts][SUBJECT_indefinite][statueSubjectDesc]。[statueFaceDesc][style_group_statue]</li>
+    <li>r_statue_description->一座展现 [SUBJECT_nameFull] [statueSubjectDesc]的雕像。[statueFaceDesc][style_group_statue]</li>
+    <li>r_statue_description->一座[statueAdj]的 [SUBJECT_nameFull] 雕像。[statueFaceDesc][style_group_statue]</li>
     <li>statueSubjectDesc->双手紧握[prop]正直站立</li>
     <li>statueSubjectDesc->高昂站立，高贵地凝视远方</li>
     <li>statueSubjectDesc->挥拳朝天空</li>
@@ -267,11 +267,11 @@
     <li>artextra_clause_statue->[SUBJECT_indefinite]站在[Community]中央</li>
     <li>artextra_clause_statue->雕像底座呈现为[TerrainFeature]模样</li>
     <li>artextra_clause_statue->[SUBJECT_indefinite]仿佛从[TerrainFeature]中升起</li>
-    <li>artextra_clause_statue->一只小型[Character]现于[side_position_statue]</li>
-    <li>artextra_clause_statue->一只[pawn_adj][Character]现于[side_position_statue]</li>
-    <li>artextra_clause_statue->[Quantity_adjphrase][Character]出现在[side_position_statue]</li>
-    <li>artextra_clause_statue->[Quantity_adjphrase][pawn_adj][Character]出现在[side_position_statue]</li>
-    <li>artextra_clause_statue->一只[Animal]被雕刻在[side_position_statue]</li>
+    <li>artextra_clause_statue->一只小型[Character][side_position_statue]</li>
+    <li>artextra_clause_statue->一只[pawn_adj][Character][side_position_statue]</li>
+    <li>artextra_clause_statue->[Quantity_adjphrase][Character][side_position_statue]</li>
+    <li>artextra_clause_statue->[Quantity_adjphrase][pawn_adj][Character][side_position_statue]</li>
+    <li>artextra_clause_statue->一只[Animal]被雕刻[side_position_statue]</li>
     <li>artextra_clause_statue->从远处观望，雕像[composition]的布局中显现出[subimageany]的轮廓</li>
     <li>artextra_clause_statue->雕像夹着一只[Animal]</li>
     <li>artextra_clause_statue->雕像怀抱着[Quantity_adjphrase][pawn_adj][Character]</li>
@@ -412,18 +412,18 @@
     <li>r_statue_name->关于[SUBJECT_indefinite]的研究</li>
     <li>r_statue_name->[statueIdea]的探究</li>
     <li>r_statue_name->[statueAdj][SUBJECT_indefinite]</li>
-    <li>r_statue_name->[SUBJECT_indefinite]，那位[statueAdj]</li>
+    <li>r_statue_name->那位[statueAdj][SUBJECT_indefinite]</li>
     <li>r_statue_name->那座[statueAdj][subjectNoun]</li>
     <li>r_statue_name->[statueAdj][subjectNoun]</li>
     <li>r_statue_name->[statueIdea]之像</li>
     <li>r_statue_name->[statueIdea]与[subjectNoun]</li>
     <li>r_statue_name->[SUBJECT_indefinite]的[subjectNoun]</li>
-    <li>r_statue_name->[SUBJECT_indefinite]，那位[subjectNoun]</li>
+    <li>r_statue_name->[subjectNoun][SUBJECT_indefinite]</li>
     <li>r_statue_name->那位[subjectNoun]</li>
     <li>r_statue_name->[subjectNoun]之[statueIdea]</li>
     <li>r_statue_name->[SUBJECT_indefinite]和[talktopicheavyfile]</li>
     <li>statueAdj(p=5)->[AdjectiveAny]</li>
-    <li>statueAdj->雕刻的</li>
+    <li>statueAdj->硬朗的</li>
     <li>statueAdj->寂静的</li>
     <li>statueAdj->永恒的</li>
     <li>statueAdj->完美的</li>
@@ -448,7 +448,7 @@
     <li>subjectNoun->传说</li>
     <li>subjectNoun->守卫</li>
     <li>subjectNoun->哨兵</li>
-    <li>subjectNoun->阿多尼斯</li>
+    <li>subjectNoun->美男子</li>
     <li>subjectNoun->灵魂</li>
     <li>subjectNoun->雕像</li>
     <li>subjectNoun->形象</li>
