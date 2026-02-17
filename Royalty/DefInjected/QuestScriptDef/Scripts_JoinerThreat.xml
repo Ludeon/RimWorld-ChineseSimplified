@@ -60,7 +60,7 @@
     <li>introduction->A [joiner_age]-year-old [joiner_title]</li>
   -->
   <ThreatReward_Infestation_Joiner.questDescriptionRules.rulesStrings>
-    <li>questDescription->名叫 [joiner_nameDef] 的[introduction]发来通信连接。[joiner_pronoun]说一群虫族正在追猎[joiner_objective]， 因为[joiner_objective]在毒害一片虫族巢穴的时候沾染了信息素！ \n\n[joiner_pronoun]祈求我们的保护并且答应事后加入我们位于[map_definite]的殖民地。[joiner_relationInfo]\n\n如果你接受请求，(*Threat)一群拥有[hivesCount]个虫巢的虫族(/Threat)将会在[infestationDelayTicks_duration]内出现。\n\n[joiner_nameDef]过于害怕以至于已经开始语无伦次，你也无法获得更多情报。</li>
+    <li>questDescription->名叫 [joiner_nameDef] 的[introduction]发来通信连接。[joiner_pronoun]说一群虫族正在追猎[joiner_objective]，因为[joiner_objective]在毒害一片虫族巢穴的时候沾染了信息素！ \n\n[joiner_pronoun]祈求我们的保护并且答应事后加入我们位于[map_definite]的殖民地。[joiner_relationInfo]\n\n如果你接受请求，(*Threat)一群拥有[hivesCount]个虫巢的虫族(/Threat)将会在[infestationDelayTicks_duration]内出现。\n\n[joiner_nameDef]过于害怕以至于已经开始语无伦次，你也无法获得更多情报。</li>
     <li>introduction(childCount==1,priority=1)->[joiner_age]岁孩子</li>
     <li>introduction->[joiner_age]岁[joiner_title]</li>
   </ThreatReward_Infestation_Joiner.questDescriptionRules.rulesStrings>
@@ -77,7 +77,7 @@
     <li>questName->[joiner_nameDef]的虫族侵袭</li>
   </ThreatReward_Infestation_Joiner.questNameRules.rulesStrings>
   <!-- EN: {BASETEXT}\n            \n[joiner_nameDef] is soaked in insect pheromones and is fleeing from an infestation. The pursuing insects will arrive shortly. -->
-  <ThreatReward_Infestation_Joiner.LetterTextJoinerArrived.value.slateRef>{BASETEXT}\n\n[joiner_nameDef] 正在逃离虫灾侵袭并且沾满了信息素。 追踪的虫子马上就会到来。</ThreatReward_Infestation_Joiner.LetterTextJoinerArrived.value.slateRef>
+  <ThreatReward_Infestation_Joiner.LetterTextJoinerArrived.value.slateRef>{BASETEXT}\n\n[joiner_nameDef] 正在逃离虫灾侵袭并且沾满了信息素。追踪的虫子马上就会到来。</ThreatReward_Infestation_Joiner.LetterTextJoinerArrived.value.slateRef>
   <!-- EN: {BASELABEL}: Chasing [joiner_nameDef] -->
   <ThreatReward_Infestation_Joiner.LetterLabelChasing.value.slateRef>{BASELABEL}：追逐[joiner_nameDef]</ThreatReward_Infestation_Joiner.LetterLabelChasing.value.slateRef>
   <!-- EN: {BASETEXT}\n                  \nThe insects are here for [joiner_nameDef]. -->
@@ -126,7 +126,7 @@
     <li>introduction->A [joiner_age]-year-old [joiner_title]</li>
   -->
   <ThreatReward_MysteryThreat_Joiner.questDescriptionRules.rulesStrings>
-    <li>questDescription->一个名叫[joiner_nameDef]的[introduction]发来通信连接。[joiner_pronoun]祈求加入你位于[map_definite]的殖民地。 [joiner_relationInfo]\n\n在 [joiner_nameDef] 之后将会有一些袭击随之而来， 不过 [joiner_pronoun] 不愿意告知这些事件的具体细节。 而 [joiner_pronoun] 也不愿意过多谈论 [joiner_objective] 自己。</li>
+    <li>questDescription->一个名叫[joiner_nameDef]的[introduction]发来通信连接。[joiner_pronoun]祈求加入你位于[map_definite]的殖民地。[joiner_relationInfo]\n\n在 [joiner_nameDef] 之后将会有一些袭击随之而来，不过[joiner_pronoun]不愿意告知这些事件的具体细节。而[joiner_pronoun]也不愿意过多谈论 [joiner_objective] 自己。</li>
     <li>introduction(childCount==1,priority=1)->[joiner_age]岁孩子</li>
     <li>introduction->[joiner_age]岁[joiner_title]</li>
   </ThreatReward_MysteryThreat_Joiner.questDescriptionRules.rulesStrings>
@@ -147,19 +147,19 @@
   <!-- EN: {BASELABEL} chasing [joiner_nameDef] -->
   <ThreatReward_MysteryThreat_Joiner.LetterLabelChasingRaid.slateRef>{BASELABEL}追逐[joiner_nameDef]</ThreatReward_MysteryThreat_Joiner.LetterLabelChasingRaid.slateRef>
   <!-- EN: [joiner_nameDef] has admitted what [joiner_pronoun] was fleeing from.\n    \n[joiner_pronoun] was supposed to marry the child of [enemyFaction_leader_nameFull], leader of [enemyFaction_name]. [joiner_pronoun] became drunk before the ceremony and vomited on the altar - a flagrant insult towards [enemyFaction_leader_nameDef]'s whole family.\n    \n[enemyFaction_leader_nameDef] swore to seek revenge on [joiner_nameDef] and all those associated with [joiner_objective], and sent [enemyFaction_pawnsPlural] to carry out the task.\n    \n{BASETEXT} -->
-  <ThreatReward_MysteryThreat_Joiner.LetterTextChasingRaid.slateRef>[joiner_nameDef] 已经向我们承认 [joiner_pronoun] 是逃出来的。\n    \n[joiner_pronoun] 本来应该和 [enemyFaction_name] 首领 [enemyFaction_leader_nameFull] 的孩子结婚。 [joiner_pronoun] 在婚礼开始前醉酒并且呕吐在了仪式祭坛上， 这一行为被认为是 [enemyFaction_leader_nameDef] 整个家族的奇耻大辱。\n    \n[enemyFaction_leader_nameDef] 发誓将要报复 [joiner_nameDef] 和所有与 [joiner_objective] 有关的人， 并且已经派出 [enemyFaction_pawnsPlural] 来执行这项任务。\n    \n{BASETEXT}</ThreatReward_MysteryThreat_Joiner.LetterTextChasingRaid.slateRef>
+  <ThreatReward_MysteryThreat_Joiner.LetterTextChasingRaid.slateRef>[joiner_nameDef] 已经向我们承认[joiner_pronoun]是逃出来的。\n    \n[joiner_pronoun] 本来应该和 [enemyFaction_name] 首领 [enemyFaction_leader_nameFull] 的孩子结婚。[joiner_pronoun]在婚礼开始前醉酒并且呕吐在了仪式祭坛上，这一行为被认为是 [enemyFaction_leader_nameDef] 整个家族的奇耻大辱。\n    \n[enemyFaction_leader_nameDef]发誓将要报复 [joiner_nameDef] 和所有与[joiner_objective]有关的人，并且已经派出[enemyFaction_pawnsPlural]来执行这项任务。\n    \n{BASETEXT}</ThreatReward_MysteryThreat_Joiner.LetterTextChasingRaid.slateRef>
   <!-- EN: {BASELABEL}: Chasing [joiner_nameDef] -->
   <ThreatReward_MysteryThreat_Joiner.LetterLabelChasingInfestation.slateRef>{BASELABEL}：追逐[joiner_nameDef]</ThreatReward_MysteryThreat_Joiner.LetterLabelChasingInfestation.slateRef>
   <!-- EN: [joiner_nameDef] has admitted what [joiner_pronoun] was fleeing from.\n    \n[joiner_nameDef], greedy for the pleasures and money insect jelly can bring, intended to destroy a massive insect hive using poison. [joiner_pronoun] failed, but was doused in insect threat pheromones. Insects have been hunting [joiner_objective] ever since. Now they've launched their final attack.\n    \n{BASETEXT} -->
-  <ThreatReward_MysteryThreat_Joiner.LetterTextChasingInfestation.slateRef>[joiner_nameDef] 已经向我们承认 [joiner_pronoun] 是逃出来的。 \n    \n[joiner_nameDef] 因为贪图虫胶巨大的价值， 意图用毒剂摧毁一个巨大的虫巢。 不过 [joiner_pronoun] 的计划不但失败了， 还惹了一身的信息素。 之后， 虫子们一直在猎杀 [joiner_objective]。 现在面对虫子的最后一击吧。\n    \n{BASETEXT}</ThreatReward_MysteryThreat_Joiner.LetterTextChasingInfestation.slateRef>
+  <ThreatReward_MysteryThreat_Joiner.LetterTextChasingInfestation.slateRef>[joiner_nameDef] 已经向我们承认[joiner_pronoun]是逃出来的。\n    \n[joiner_nameDef] 因为贪图虫胶巨大的价值，意图用毒剂摧毁一个巨大的虫巢。不过[joiner_pronoun]的计划不但失败了，还惹了一身的信息素。之后，虫子们一直在猎杀[joiner_objective]。现在面对虫子的最后一击吧。\n    \n{BASETEXT}</ThreatReward_MysteryThreat_Joiner.LetterTextChasingInfestation.slateRef>
   <!-- EN: Site appeared to harass [joiner_nameDef]: [site_label] -->
   <ThreatReward_MysteryThreat_Joiner.LetterLabelSiteAppeared.slateRef>侵扰[joiner_nameDef]的据点出现：[site_label]</ThreatReward_MysteryThreat_Joiner.LetterLabelSiteAppeared.slateRef>
   <!-- EN: [joiner_nameDef] has admitted what [joiner_pronoun] was fleeing from.\n    \n[joiner_nameDef] was traveling when [joiner_pronoun] happened upon [enemyFaction_leader_nameFull], leader of [enemyFaction_name], sick on the side of the road. [joiner_nameDef] insulted [enemyFaction_leader_nameDef] by comparing [enemyFaction_leader_objective] to a [Animal].\n    \nNow [enemyFaction_leader_nameDef]'s [enemyFaction_pawnsPlural] are activating a site nearby to harass you.\n    \n[allSitePartsDescriptions] -->
-  <ThreatReward_MysteryThreat_Joiner.LetterTextSiteAppeared.slateRef>[joiner_nameDef] 已经向我们承认 [joiner_pronoun] 是逃出来的。\n    \n[joiner_nameDef] 当时正在在旅行， [joiner_pronoun] 发现 [enemyFaction_name] 的首领 [enemyFaction_leader_nameFull] 病倒在路边。 [joiner_nameDef] 辱骂 [enemyFaction_leader_nameDef] 并将 [enemyFaction_leader_objective] 比作一只 [Animal]。\n    \n如今， [enemyFaction_leader_nameDef] 的 [enemyFaction_pawnsPlural] 在附近建立了一个据点对你进行袭扰。\n    \n[allSitePartsDescriptions]</ThreatReward_MysteryThreat_Joiner.LetterTextSiteAppeared.slateRef>
+  <ThreatReward_MysteryThreat_Joiner.LetterTextSiteAppeared.slateRef>[joiner_nameDef] 已经向我们承认[joiner_pronoun]是逃出来的。\n    \n[joiner_nameDef] 当时正在在旅行，[joiner_pronoun]发现[enemyFaction_name]的首领 [enemyFaction_leader_nameFull] 病倒在路边。[joiner_nameDef] 辱骂 [enemyFaction_leader_nameDef] 并将[enemyFaction_leader_objective]比作一只 [Animal]。\n    \n如今，[enemyFaction_leader_nameDef]的[enemyFaction_pawnsPlural]在附近建立了一个据点对你进行袭扰。\n    \n[allSitePartsDescriptions]</ThreatReward_MysteryThreat_Joiner.LetterTextSiteAppeared.slateRef>
   <!-- EN: {BASELABEL}: Chasing [joiner_nameDef] -->
   <ThreatReward_MysteryThreat_Joiner.LetterLabelChasingManhunter.slateRef>{BASELABEL}: 追捕[joiner_nameDef]</ThreatReward_MysteryThreat_Joiner.LetterLabelChasingManhunter.slateRef>
   <!-- EN: [joiner_nameDef] has admitted what [joiner_pronoun] was fleeing from.\n    \n[joiner_nameDef] was traveling when [joiner_pronoun] came upon a lost group of [animalKind_labelPlural]. [joiner_pronoun], in a bad mood, goaded the [animalKind_labelPlural]. Unexpectedly, they attacked [joiner_objective]. And they have followed [joiner_objective] a long distance.\n    \n{BASETEXT} -->
-  <ThreatReward_MysteryThreat_Joiner.LetterTextChasingManhunter.slateRef>[joiner_nameDef] 已经向我们承认 [joiner_pronoun] 是逃出来的。\n    \n[joiner_nameDef] 当时正在在旅行， [joiner_pronoun] 遇到了一群 [animalKind_labelPlural]。 [joiner_pronoun]当时心情很糟， 做了一些不理智的行为激怒了 [animalKind_labelPlural]。 没想到， 它们开始攻击 [joiner_objective]， 并且一路追杀 [joiner_objective]。\n    \n{BASETEXT}</ThreatReward_MysteryThreat_Joiner.LetterTextChasingManhunter.slateRef>
+  <ThreatReward_MysteryThreat_Joiner.LetterTextChasingManhunter.slateRef>[joiner_nameDef] 已经向我们承认[joiner_pronoun]是逃出来的。\n    \n[joiner_nameDef] 当时正在在旅行，[joiner_pronoun]遇到了一群[animalKind_labelPlural]。[joiner_pronoun]当时心情很糟，做了一些不理智的行为激怒了[animalKind_labelPlural]。没想到，它们开始攻击 [joiner_objective]，并且一路追杀 [joiner_objective]。\n    \n{BASETEXT}</ThreatReward_MysteryThreat_Joiner.LetterTextChasingManhunter.slateRef>
   
   <!-- EN:
     <li>questDescription->[introduction] named [joiner_nameDef] is calling from nearby. [joiner_pronoun] admits [joiner_pronoun] profaned a peace ritual between [raid1/enemyFaction_name] and [raid2/enemyFaction_name]. Now they are both chasing [joiner_objective]!\n\n[joiner_pronoun] begs for safety and offers to join you at [map_definite].[joiner_relationInfo]\n\nIf you accept [joiner_nameDef], both [raid1/enemyFaction_name] and [raid2/enemyFaction_name] will raid you in [raidDelayTicks_duration].\n\n[joiner_nameDef] is too frantic to offer more information.</li>
@@ -167,7 +167,7 @@
     <li>introduction->A [joiner_age]-year-old [joiner_title]</li>
   -->
   <ThreatReward_RaidMultiFaction_Joiner.questDescriptionRules.rulesStrings>
-    <li>questDescription->一个名叫 [joiner_nameDef] 的[introduction]发来通信连接。 [joiner_pronoun] 向我们承认 [joiner_pronoun] 亵渎了 [raid1/enemyFaction_name] 和 [raid2/enemyFaction_name] 之间的和平仪式。 现在， 两方都在追捕 [joiner_objective]！\n\n[joiner_pronoun] 祈求我们的保护并且答应事后加入我们位于 [map_definite] 的殖民地。 [joiner_relationInfo]\n\n如果你接纳 [joiner_nameDef]， [raid1/enemyFaction_name] 和 [raid2/enemyFaction_name] 都将会在 [raidDelayTicks_duration] 内袭击你。\n\n[joiner_nameDef] 过于害怕以至于已经开始语无伦次， 你也无法获得更多情报。</li>
+    <li>questDescription->一个名叫 [joiner_nameDef] 的[introduction]发来通信连接。[joiner_pronoun]向我们承认[joiner_pronoun]亵渎了[raid1/enemyFaction_name]和[raid2/enemyFaction_name]之间的和平仪式。现在，两方都在追捕[joiner_objective]！\n\n[joiner_pronoun]祈求我们的保护并且答应事后加入我们位于[map_definite]的殖民地。[joiner_relationInfo]\n\n如果你接纳 [joiner_nameDef]，[raid1/enemyFaction_name]和[raid2/enemyFaction_name]都将会在[raidDelayTicks_duration]内袭击你。\n\n[joiner_nameDef]过于害怕以至于已经开始语无伦次，你也无法获得更多情报。</li>
     <li>introduction(childCount==1,priority=1)->[joiner_age]岁孩子</li>
     <li>introduction->[joiner_age]岁[joiner_title]</li>
   </ThreatReward_RaidMultiFaction_Joiner.questDescriptionRules.rulesStrings>
@@ -202,7 +202,7 @@
     <li>joinersEnemies->[joiner_possessive] enemies</li>
   -->
   <ThreatReward_SiteThreat_Joiner.questDescriptionRules.rulesStrings>
-    <li>questDescription->一个名叫 [joiner_nameFull] 的[introduction]发来通信连接。 [joiner_pronoun] 正在躲避 [threat]。 [joiner_pronoun] 想要从 [joiner_possessive] 的隐藏地逃出来并加入你位于 [map_definite] 的殖民地。 [joiner_relationInfo]\n\n如果你接纳 [joiner_objective]， [joinersEnemies]将会在附近建立一个袭扰据点。 [site/allSitePartsDescriptions]\n\n摧毁这个据点， 否则对你的袭击将会源源不断。</li>
+    <li>questDescription->一个名叫 [joiner_nameFull] 的[introduction]发来通信连接。[joiner_pronoun]正在躲避[threat]。[joiner_pronoun]想要从[joiner_possessive]隐藏地逃出来并加入你位于[map_definite]的殖民地。[joiner_relationInfo]\n\n如果你接纳[joiner_objective]，[joinersEnemies]将会在附近建立一个袭扰据点。[site/allSitePartsDescriptions]\n\n摧毁这个据点，否则对你的袭击将会源源不断。</li>
     <li>introduction(childCount==1,priority=1)->[joiner_age]岁孩子</li>
     <li>introduction->[joiner_age]岁[joiner_title]</li>
     <li>threat(priority=1,site/Outpost_exists==True)->[site/enemyFaction_name]的[site/enemyFaction_pawnsPlural]</li>
