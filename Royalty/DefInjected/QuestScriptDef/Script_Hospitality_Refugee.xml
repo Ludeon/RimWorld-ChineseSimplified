@@ -322,7 +322,7 @@
     <li>areIs(lodgerCount>=2)->are</li>
   -->
   <RefugeeBetrayal.questDescriptionRules.rulesStrings>
-    <li>questDescription->[factionOpponent_nameDef]，[factionOpponent_faction_name]的一名[factionOpponent_faction_pawnSingular]，获悉了[asker_nameDef][otherLodgers][areIs]处于[map_definite]。[factionOpponent_pronoun]和[asker_nameDef]是敌对关系，想要看到[asker_objective]的死亡。\n\n如果你杀死所有[faction_name]的成员，[factionOpponent_pronoun]将会给与你以下奖励（总价值[betrayalRewardMarketValue_money]）：\n\n[betrayalRewards]</li>
+    <li>questDescription->[factionOpponent_nameDef]，[factionOpponent_faction_name]的一名[factionOpponent_faction_pawnSingular]，获悉了[asker_nameDef][otherLodgers][areIs]处于[map_definite]。[factionOpponent_pronoun]和[asker_nameDef]是敌对关系，想要看到[asker_objective]的死亡。\n\n如果你杀死所有[faction_name]的成员，[factionOpponent_pronoun]将会给予你以下奖励（总价值[betrayalRewardMarketValue_money]）：\n\n[betrayalRewards]</li>
     <li>lodgersLabelSingularOrPlural(lodgerCount==1)->[lodgersLabel]</li>
     <li>lodgersLabelSingularOrPlural(lodgerCount>=2)->[lodgersLabelPlural]</li>
     <li>otherLodgers(lodgerCount==1)-></li>
@@ -346,7 +346,7 @@
   -->
   <RefugeeDelayedReward.questContentRules.rulesStrings>
     <li>rewardLetterLabel->难民回报</li>
-    <li>rewardLetterText->[rewardGiver_nameDef]曾联系过你。 [rewardDelayTicks_duration]之前， 你在[rewardGiver_objective]十分绝望的时候给与了帮助。\n\n那之后，[rewardGiver_pronoun]已靠着[rewardGiver_possessive]双腿重新站了起来， 现在[rewardGiver_pronoun]想要对你的帮助给与得体的回报。 [rewardGiver_pronoun]通过运输舱向你发送了如下物资：\n\n[listOfRewards]</li>
+    <li>rewardLetterText->[rewardGiver_nameDef]曾联系过你。 [rewardDelayTicks_duration]之前， 你在[rewardGiver_objective]十分绝望的时候给予了帮助。\n\n那之后，[rewardGiver_pronoun]已靠着[rewardGiver_possessive]双腿重新站了起来， 现在[rewardGiver_pronoun]想要对你的帮助给予得体的回报。 [rewardGiver_pronoun]通过运输舱向你发送了如下物资：\n\n[listOfRewards]</li>
   </RefugeeDelayedReward.questContentRules.rulesStrings>
   <!-- EN:
     <li>questDescription->a delayed reward for refugee quest</li>
