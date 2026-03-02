@@ -112,12 +112,12 @@
     <li>secretInfo->武器研究</li>
     <li>secretInfo->监狱营地</li>
     <li>secretInfo->[enemyFaction_leaderTitle]</li>
-    <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount==1)->[asker_faction_name]的[asker_royalTitleInCurrentFaction][asker_nameFull]正在逃避令人不安的政治局势，并想在[map_definite]躲藏[shuttleDelayTicks_duration]。[threatsInfo5][allLodgerInfo][goodwillForMood][commonDescEnding]\n\n[joinerEnding]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount==1)->[asker_faction_name]的[asker_royalTitleInCurrentFaction] [asker_nameFull] 正在逃避令人不安的政治局势，并想在[map_definite]躲藏[shuttleDelayTicks_duration]。[threatsInfo5][allLodgerInfo][goodwillForMood][commonDescEnding]\n\n[joinerEnding]</li>
     <li>threatsInfo5(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n[asker_nameDef]的敌人雇佣了[enemyFaction_name]来拘捕[asker_objective]。[enemyGroupsParagraph]</li>
     <li>threatsInfo5(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[asker_nameDef]的敌人引来机械族猎杀[asker_objective]。[enemyGroupsParagraph]</li>
     <li>threatsInfo5(generateThreats==true,threatType==MechClusters)->\n\n[asker_nameDef]的敌人用某种未知的方式引来机械集群猎杀[asker_objective]。[enemyGroupsParagraph]</li>
     <li>threatsInfo5(generateThreats==false)-></li>
-    <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount>=2)->[asker_faction_name]的[asker_royalTitleInCurrentFaction]，[asker_nameFull]想在[map_definite]和[lodgersCountMinusOne]名被审判的[allyAllies]停留[shuttleDelayTicks_duration]。[threatsInfo6][allLodgerInfo][goodwillForMood][commonDescEnding]\n\n[joinerEnding]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount>=2)->[asker_faction_name]的[asker_royalTitleInCurrentFaction]，[asker_nameFull] 想在[map_definite]和[lodgersCountMinusOne]名被审判的[allyAllies]停留[shuttleDelayTicks_duration]。[threatsInfo6][allLodgerInfo][goodwillForMood][commonDescEnding]\n\n[joinerEnding]</li>
     <li>threatsInfo6(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->[asker_nameDef]和[asker_possessive] [allyAllies] 被列上了暗杀名单，他们需要一个安全的庇护所直到他们可以免于被审判。然而，[asker_nameDef]的敌人雇佣了[enemyFaction_name]来追捕[asker_objective]。[enemyGroupsParagraph]</li>
     <li>threatsInfo6(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->[asker_nameDef]和[asker_possessive][allyAllies]被列上了暗杀名单，他们需要一个安全的庇护所直到他们可以免于被审判。然而，[asker_nameDef]的敌人引诱[enemyFaction_name]来猎杀[asker_objective]。[enemyGroupsParagraph]</li>
     <li>threatsInfo6(generateThreats==true,threatType==MechClusters)->[asker_nameDef]和[asker_possessive][allyAllies]被列上了暗杀名单，他们需要一个安全的庇护所直到他们可以免于被审判。然而，[asker_nameDef] 的敌人以某种未知的方式引诱机械集群来猎杀[asker_objective]。[enemyGroupsParagraph]</li>

@@ -116,17 +116,17 @@
     <li>animalAdj(generateThreats==true)->frightened</li>
   -->
   <Hospitality_Animals.questNameRules.rulesStrings>
-    <li>questName(lodgersCount==1)->这 [animalAdj] [lodgersLabel]</li>
-    <li>questName(lodgersCount==1)->一个 [animalAdj] [lodgersLabel]</li>
-    <li>questName(lodgersCount==1)->[animalAdj] [lodgersLabel]</li>
+    <li>questName(lodgersCount==1)->[animalAdj][lodgersLabel]</li>
+    <li>questName(lodgersCount==1)->一只[animalAdj][lodgersLabel]</li>
+    <li>questName(lodgersCount==1)->[animalAdj][lodgersLabel]</li>
     <li>questName(lodgersCount==1)->[lodgersLabel]-位置</li>
-    <li>questName(lodgersCount==1)->保护 [lodgers0_nameDef]</li>
-    <li>questName(lodgersCount==1)->可怜的小家伙 [lodgers0_nameDef]</li>
-    <li>questName(lodgersCount>=2)->这 [animalAdj] [lodgersLabelPlural]</li>
-    <li>questName(lodgersCount>=2)->[animalAdj] [lodgersLabelPlural]</li>
-    <li>questName(lodgersCount>=2)->[animalAdj] [lodgersLabelPlural]</li>
+    <li>questName(lodgersCount==1)->保护[lodgers0_nameDef]</li>
+    <li>questName(lodgersCount==1)->可怜的小[lodgers0_nameDef]</li>
+    <li>questName(lodgersCount>=2)->[animalAdj][lodgersLabelPlural]</li>
+    <li>questName(lodgersCount>=2)->[animalAdj][lodgersLabelPlural]</li>
+    <li>questName(lodgersCount>=2)->[animalAdj][lodgersLabelPlural]</li>
     <li>questName(lodgersCount>=2)->[lodgersLabel]-位置</li>
-    <li>questName(lodgersCount==2)->保护 [lodgersLabelPlural]</li>
+    <li>questName(lodgersCount==2)->保护[lodgersLabelPlural]</li>
     <li>animalAdj->可爱的</li>
     <li>animalAdj->泪汪汪的</li>
     <li>animalAdj->忠实的</li>
