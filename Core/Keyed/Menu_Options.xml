@@ -23,7 +23,7 @@
   <!-- EN: Affects all ambient sounds, e.g. wind, insects. -->
   <AmbientVolumeTooltip>影响所有环境音效，例如风、动物嚎叫等。</AmbientVolumeTooltip>
   <!-- EN: Affects all interface sounds, e.g. button clicks, messages. -->
-  <UIVolumeTooltip>影响全部界面声音，例如拨动按钮、信件等。</UIVolumeTooltip>
+  <UIVolumeTooltip>影响全部界面声音，例如点击按钮、信件等。</UIVolumeTooltip>
   <!-- EN: Anti-aliasing -->
   <Antialiasing>抗锯齿</Antialiasing>
 
@@ -69,7 +69,7 @@
   <!-- EN: Run in background -->
   <RunInBackground>后台运行模式</RunInBackground>
   <!-- EN: Development mode -->
-  <DevelopmentMode>开发者模式</DevelopmentMode>
+  <DevelopmentMode>开发人员模式</DevelopmentMode>
   <!-- EN: Auto-reset mods config on crash -->
   <ResetModsConfigOnCrash>崩溃后重置Mod配置</ResetModsConfigOnCrash>
   <!-- EN: Quick start has no cryptosleep sickness -->
@@ -83,9 +83,9 @@
   <!-- EN: Verbose logging -->
   <LogVerbose>详细日志</LogVerbose>
   <!-- EN: Save data folder -->
-  <SaveGameDataFolder>存档目录</SaveGameDataFolder>
+  <SaveGameDataFolder>存档文件目录</SaveGameDataFolder>
   <!-- EN: Save data location -->
-  <SaveGameDataLocation>存档位置</SaveGameDataLocation>
+  <SaveGameDataLocation>存档文件位置</SaveGameDataLocation>
   <!-- EN: Log file folder -->
   <LogFileFolder>日志文件目录</LogFileFolder>
   <!-- EN: Log file location -->
@@ -121,7 +121,7 @@
   <!-- EN: Maximum number of colonies: {0} -->
   <MaxNumberOfPlayerSettlements>最大殖民地数量：{0}</MaxNumberOfPlayerSettlements>
   <!-- EN: Autosaves count: {0} -->
-  <AutosavesCount>自动保存计数:{0}</AutosavesCount>
+  <AutosavesCount>自动存档上限:{0}</AutosavesCount>
   <!-- EN: Map mouse drag sensitivity -->
   <MapDragSensitivity>鼠标拖动地图灵敏度</MapDragSensitivity>
   <!-- EN: Plant wind sway -->
@@ -137,7 +137,7 @@
   <!-- EN: Texture compression -->
   <TextureCompression>压缩画质</TextureCompression>
   <!-- EN: Turning off texture compression will use much more video memory, but makes textures look slightly better in detailed areas. Only turn this off if you know you have lots of extra video memory.\n\nNote that using certain mods will often consume much more video memory, so you may need to turn this on if you add certain mods. -->
-  <TextureCompression_Tooltip>开启此选项能够对图形进行压缩，这样可以节省内存，并且使游戏运行更加流畅。\n\n关闭此选项可以显示更多的图形细节，但是会消耗更多的内存。关闭此选项最好有足够的内存。\n\n注意：有些mod会占用相当大的内存，如果你添加了这些mod，可能会需要开启此选项。</TextureCompression_Tooltip>
+  <TextureCompression_Tooltip>开启此选项能够对画质进行压缩，这样可以节省显存，并且使游戏运行更加流畅。\n\n关闭此选项可以显示更多的图形细节，但是会消耗更多的显存。关闭此选项最好有足够的显存。\n\n注意：有些mod会占用相当大的显存，如果你添加了这些mod，可能会需要开启此选项。</TextureCompression_Tooltip>
   <!-- EN: Smooth camera jumps -->
   <SmoothCameraJumps>镜头平滑移动</SmoothCameraJumps>
   <!-- EN: When enabled, the camera will quickly pan when focusing on a new location. When disabled, the camera will jump instantly. -->
