@@ -45,7 +45,7 @@
     <li>colonistsSingularOrPlural(colonistCount>=2)->colonists</li>
   -->
   <AncientComplex_Mission.questDescriptionRules.rulesStrings>
-    <li>questDescription->[asker_faction_name] 的 [asker_faction_leaderTitle]， [asker_nameDef]， 发现了一处距离较长的远古建筑群。 [asker_pronoun] 据说其中隐藏有关于 [relic_name] 的进一步情报。\n\n[asker_nameDef] 抽不出人手去探查它， 但希望你能派遣 [colonistCount]名[colonistsSingularOrPlural] 来协助探查。\n\n此建筑中存在未知威胁，而 [asker_nameDef] 的敌人 [enemyFaction_name] 也在伺机而动。\n\n[asker_pronoun] 会派穿梭机来接你的殖民者往返并在途中提供食宿。\n\n一旦着陆， 你必须在[timeoutTicks_duration]内骇入所有终端机。</li>
+    <li>questDescription->[asker_faction_name] 的 [asker_faction_leaderTitle]， [asker_nameDef]， 发现了一处距离较远的远古建筑群。 [asker_pronoun] 据说其中隐藏有关于 [relic_name] 的进一步情报。\n\n[asker_nameDef] 抽不出人手去探查它， 但希望你能派遣 [colonistCount]名[colonistsSingularOrPlural] 来协助探查。\n\n此建筑中存在未知威胁，而 [asker_nameDef] 的敌人 [enemyFaction_name] 也在伺机而动。\n\n[asker_pronoun] 会派穿梭机来接你的殖民者往返并在途中提供食宿。\n\n一旦着陆， 你必须在[timeoutTicks_duration]内骇入所有终端机。</li>
     <li>colonistsSingularOrPlural(colonistCount==1)->殖民者</li>
     <li>colonistsSingularOrPlural(colonistCount>=2)->殖民者</li>
   </AncientComplex_Mission.questDescriptionRules.rulesStrings>
