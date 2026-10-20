@@ -52,6 +52,10 @@
   <HatsShownOnlyOnMap>在UI隐藏帽子</HatsShownOnlyOnMap>
   <!-- EN: UI scale -->
   <UIScale>界面缩放</UIScale>
+  <!-- EN: Respect system display scaling -->
+  <RespectSystemScaling>遵循系统显示缩放</RespectSystemScaling>
+  <!-- EN: When enabled, the UI scale is multiplied by the operating system's display scaling. Disable to apply the UI scale as-is. -->
+  <RespectSystemScaling_Tooltip>启用时，界面缩放比例将乘以操作系统的显示缩放系数。禁用后则直接应用当前的界面缩放比例。</RespectSystemScaling_Tooltip>
   <!-- EN: Keyboard configuration -->
   <KeyboardConfig>按键设置</KeyboardConfig>
   <!-- EN: Controller configuration -->
@@ -138,6 +142,8 @@
   <TextureCompression>压缩画质</TextureCompression>
   <!-- EN: Turning off texture compression will use much more video memory, but makes textures look slightly better in detailed areas. Only turn this off if you know you have lots of extra video memory.\n\nNote that using certain mods will often consume much more video memory, so you may need to turn this on if you add certain mods. -->
   <TextureCompression_Tooltip>开启此选项能够对画质进行压缩，这样可以节省显存，并且使游戏运行更加流畅。\n\n关闭此选项可以显示更多的图形细节，但是会消耗更多的显存。关闭此选项最好有足够的显存。\n\n注意：有些mod会占用相当大的显存，如果你添加了这些mod，可能会需要开启此选项。</TextureCompression_Tooltip>
+  <!-- EN: Texture compression in the Waylith engine is higher quality and always enabled. -->
+  <TextureCompressionAlwaysOn_Tooltip>Waylith引擎中的纹理压缩质量更高，且始终启用。</TextureCompressionAlwaysOn_Tooltip>
   <!-- EN: Smooth camera jumps -->
   <SmoothCameraJumps>镜头平滑移动</SmoothCameraJumps>
   <!-- EN: When enabled, the camera will quickly pan when focusing on a new location. When disabled, the camera will jump instantly. -->
@@ -154,6 +160,24 @@
   <Fullscreen>全屏显示</Fullscreen>
   <!-- EN: Borderless fullscreen -->
   <BorderlessFullscreen>无边界全屏</BorderlessFullscreen>
+  <!-- EN: Display mode -->
+  <DisplayMode>显示模式</DisplayMode>
+  <!-- EN: Windowed -->
+  <DisplayMode_Windowed>窗口显示</DisplayMode_Windowed>
+  <!-- EN: Exclusive fullscreen -->
+  <DisplayMode_ExclusiveFullscreen>独占式全屏</DisplayMode_ExclusiveFullscreen>
+  <!-- EN: Monitor -->
+  <Monitor>显示器</Monitor>
+  <!-- EN: Automatic -->
+  <Monitor_Automatic>自动选择</Monitor_Automatic>
+  <!-- EN: Graphics card -->
+  <Gpu>显卡</Gpu>
+  <!-- EN: Automatic -->
+  <Gpu_Automatic>自动选择</Gpu_Automatic>
+  <!-- EN: {0} (in use) -->
+  <Gpu_InUse>使用{0}中</Gpu_InUse>
+  <!-- EN: Changing the graphics card requires a restart. Unsaved progress will be lost.\n\nRestart now? -->
+  <GpuChangedRestart>更改显卡将需要重启。未保存的内容会丢失。\n\n现在要重启吗？</GpuChangedRestart>
   <!-- EN: To run RimWorld in borderless fullscreen mode:\n\n1) Open Steam\n2) Go to the "Library" tab at the top\n3) Find RimWorld on the list and right-click it\n4) Choose "Properties..."\n5) Add "-popupwindow" without quotes to "Launch options" in the "General" tab\n6) Restart game\n7) If done correctly, you won't see this window\n\nHint: Use Windows Key + Shift + Left/Right to move the window between your monitors. -->
   <BorderlessFullscreenInstructions>要在无边界全屏模式下运行RimWorld。\n\n1.打开Steam\n\n2.进入顶部的“库”标签\n\n3.在列表中找到RimWorld并鼠标右键单击它，选择“属性”\n\n4.在“通用”选项卡的“启动选项”中添加“-popupwindow”（不带引号）。\n\n5.重新启动游戏\n\n6.如果操作正确，你将不会看到此窗口\n\n提示：使用Windows键+Shift+左/右键在你的显示器之间移动窗口。</BorderlessFullscreenInstructions>
 

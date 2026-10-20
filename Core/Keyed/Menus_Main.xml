@@ -336,6 +336,20 @@
   <Incompatible>不兼容</Incompatible>
   <!-- EN: Tag as translation -->
   <TagAsTranslation>标记为翻译</TagAsTranslation>
+  <!-- EN: Build asset pack -->
+  <UploadBuildAssetPack>构建资源包</UploadBuildAssetPack>
+  <!-- EN: Packs textures and sounds into an asset pack in each load folder before uploading, to improve download and load times. Untick this to upload the mod folder as it is. -->
+  <UploadBuildAssetPackTip>在上传前，将纹理和声音打包成资源包放入每个加载文件夹中，以提高下载和加载速度。取消勾选此选项可直接上传模组文件夹。</UploadBuildAssetPackTip>
+  <!-- EN: Don't upload source textures -->
+  <UploadSkipSourceTextures>不要上传原纹理</UploadSkipSourceTextures>
+  <!-- EN: Skips uploading the original image and sound files that were included in asset packs. Leave this unticked if you need compatibility with RimWorld 1.6 or earlier. -->
+  <UploadSkipSourceTexturesTip>跳过上传资源包中包含的原始图像和音频文件。如果需要与 RimWorld 1.6 或更早版本兼容，请保持此选项未勾选。</UploadSkipSourceTexturesTip>
+  <!-- EN: Baking asset packs -->
+  <BakingModAssetPacks>烘焙资源包</BakingModAssetPacks>
+  <!-- EN: Baking asset packs for {0} -->
+  <BakingModAssetPacksFor>为{0}烘焙资源包</BakingModAssetPacksFor>
+  <!-- EN: Baking the asset packs for {0} failed, the mod was not uploaded: -->
+  <ModAssetPackBakeFailed>为{0}烘焙资源包出错，模组并未上传：</ModAssetPackBakeFailed>
   <!-- EN: Too many (max {0}):  -->
   <TooMany>过多（最多 {0}）: </TooMany>
   <!-- EN: Can be updated on Workshop, since you are the author. -->
