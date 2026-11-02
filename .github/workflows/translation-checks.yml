@@ -1,0 +1,68 @@
+name: translation-checks
+
+on:
+  pull_request:
+    branches:
+      - master
+    types:
+      - opened
+      - synchronize
+      - reopened
+  push:
+    branches:
+      - master
+
+permissions:
+  contents: read
+
+jobs:
+  translation-checks:
+    name: translation-checks
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Show Python version
+        run: python3 --version
+
+      - name: Run translation checker tests
+        run: python3 -m unittest discover -s .github/scripts/tests -v
+
+      - name: Check changed translation XML
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          PR_BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          PR_HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+          PUSH_BEFORE_SHA: ${{ github.event.before }}
+          PUSH_AFTER_SHA: ${{ github.event.after }}
+        run: |
+          set -euo pipefail
+          if [ "$EVENT_NAME" = "pull_request" ]; then
+            base="$PR_BASE_SHA"
+            head="$PR_HEAD_SHA"
+          elif [ "$EVENT_NAME" = "push" ]; then
+            base="$PUSH_BEFORE_SHA"
+            head="$PUSH_AFTER_SHA"
+          else
+            echo "Unsupported event: $EVENT_NAME" >&2
+            exit 2
+          fi
+          if [ -z "$head" ]; then
+            head="$(git rev-parse HEAD)"
+          fi
+          printf 'event=%s\nbase=%s\nhead=%s\n' "$EVENT_NAME" "$base" "$head"
+          for revision in "$base" "$head"; do
+            case "$revision" in
+              ""|0000000000000000000000000000000000000000) continue ;;
+            esac
+            if ! git cat-file -e "${revision}^{commit}" 2>/dev/null; then
+              git fetch --no-tags origin "$revision"
+            fi
+          done
+          python3 .github/scripts/translation_xml_check.py \
+            --repo "$GITHUB_WORKSPACE" \
+            --base "$base" \
+            --head "$head"
